@@ -20,38 +20,38 @@ description: "Crackhead Control bottom perspective: Establish the first high leg
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Gogoplata",
-      "text": "From this position, attempt Gogoplata. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Crackhead Control to Mission Control",
+      "text": "From this position, attempt Crackhead Control to Mission Control. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata from Crackhead Control",
-      "text": "From this position, attempt Omoplata from Crackhead Control. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Crackhead Control to Dead Orchard",
+      "text": "From this position, attempt Crackhead Control to Dead Orchard. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke from Crackhead Control",
-      "text": "From this position, attempt Triangle Choke from Crackhead Control. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Baratoplata from Crackhead Control",
+      "text": "From this position, attempt Baratoplata from Crackhead Control. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crackhead Control to Carni",
-      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Crackhead Control to New York",
+      "text": "From this position, attempt Crackhead Control to New York. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Omoplata from Crackhead Control",
+      "text": "From this position, attempt Omoplata from Crackhead Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Baratoplata from Crackhead Control",
-      "text": "From this position, attempt Baratoplata from Crackhead Control. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Triangle Choke from Crackhead Control",
+      "text": "From this position, attempt Triangle Choke from Crackhead Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -230,10 +230,6 @@ Two high legs do not make the torso immune to chest pressure. Preserve space wit
 
 **When pummeling space exists and the opposing hand can be cleared to the mat:**
 - Execute **[[Transitions/Crackhead Control to New York/Attacker|Crackhead Control to New York]]** → [[Positions/Rubber Guard/New York]] (Probability: 58%)
-
-
-**Only after opening the high clinch, isolating an arm and establishing the separately taught Carni angle:**
-- Execute **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 55%)
 
 
 

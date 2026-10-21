@@ -218,23 +218,21 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (11% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
 
-- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (10% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (11% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (5% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (6% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (10% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (11% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (12% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (13% of attempts)
+- **[[Transitions/Backstep from Reverse Half/Attacker|Backstep from Reverse Half]]** (20% of attempts)
 
-- **[[Transitions/Backstep from Reverse Half/Attacker|Backstep from Reverse Half]]** (17% of attempts)
-
-- **[[Transitions/Pass Reverse Half/Attacker|Pass Reverse Half]]** (15% of attempts)
+- **[[Transitions/Pass Reverse Half/Attacker|Pass Reverse Half]]** (17% of attempts)
 
 
 ### Common Mistakes

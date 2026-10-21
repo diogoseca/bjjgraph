@@ -21,7 +21,7 @@ description: "Master Z-Lock Half Guard Top in BJJ. Complete guide covering contr
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,26 +32,26 @@ description: "Master Z-Lock Half Guard Top in BJJ. Complete guide covering contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Top",
-      "text": "From this position, attempt Back Take from Top. This technique is attempted in 4% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Smash Pass",
       "text": "From this position, attempt Smash Pass. This technique is attempted in 9% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
       "text": "From this position, attempt Crossface Pass. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
       "text": "From this position, attempt Half Guard Pass. This technique is attempted in 7% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Darce Setup",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

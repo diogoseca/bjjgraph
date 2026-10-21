@@ -116,7 +116,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [10th Planet Costa Mesa — basic path with double bagger](https://www.youtube.com/watch?v=W2OFKidf9lE).
 
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 45%
 
 </section>
 
@@ -162,9 +162,9 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Rubber Guard/New York]] | 65% |
-| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 20% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/New York]] | 45% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 35% |
+| Counter | [[Positions/Rubber Guard/Mission Control]] | 20% |
 
 
 </section>

@@ -279,7 +279,6 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 
 **If opponent extends trapped leg forcefully to create distance and escape:**
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 60%)
 - Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
 
 

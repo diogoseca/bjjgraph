@@ -21,13 +21,13 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Back Control",
-      "text": "From this position, attempt Rear Naked Choke from Back Control. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Back Control. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
@@ -51,7 +51,7 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Lock",
-      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

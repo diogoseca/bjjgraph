@@ -21,7 +21,7 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Seat Belt Control Back",
-      "text": "From this position, attempt Rear Naked Choke from Seat Belt Control Back. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Seat Belt Control Back. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
@@ -51,7 +51,7 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],

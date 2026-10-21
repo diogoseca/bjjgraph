@@ -185,25 +185,23 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (17% of attempts)
+- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (19% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (7% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (8% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (7% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (8% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (10% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (11% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (10% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (8% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (7% of attempts)
+- **[[Transitions/Escape Seat Belt Control/Attacker|Escape Seat Belt Control]]** (13% of attempts)
 
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (10% of attempts)
+- **[[Transitions/Hand Fight from Seat Belt Control/Attacker|Hand Fight from Seat Belt Control]]** (14% of attempts)
 
-- **[[Transitions/Escape Seat Belt Control/Attacker|Escape Seat Belt Control]]** (12% of attempts)
+- **[[Transitions/Seat Belt Peel Escape/Attacker|Seat Belt Peel Escape]]** (8% of attempts)
 
-- **[[Transitions/Hand Fight from Seat Belt Control/Attacker|Hand Fight from Seat Belt Control]]** (13% of attempts)
-
-- **[[Transitions/Seat Belt Peel Escape/Attacker|Seat Belt Peel Escape]]** (7% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -264,7 +262,7 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Submissions/Rear Naked Choke/from Seat Belt Control Back/Attacker|Rear Naked Choke from Seat Belt Control Back]]** (30% of attempts)
+- **[[Submissions/Rear Naked Choke/from Seat Belt Control Back/Attacker|Rear Naked Choke from Seat Belt Control Back]]** (32% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
@@ -274,19 +272,17 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 
 - **[[Submissions/Short Choke/from Seat Belt Control Back/Attacker|Short Choke from Seat Belt Control Back]]** (5% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (17% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (18% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (11% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (12% of attempts)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (3% of attempts)
 
 - **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (3% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
-
 - **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** (5% of attempts)
 
-- **[[Transitions/Seat Belt to Body Triangle/Attacker|Seat Belt to Body Triangle]]** (6% of attempts)
+- **[[Transitions/Seat Belt to Body Triangle/Attacker|Seat Belt to Body Triangle]]** (7% of attempts)
 
 - **[[Transitions/Seat Belt to Full Back Control/Attacker|Seat Belt to Full Back Control]]** (6% of attempts)
 

@@ -125,6 +125,7 @@ description: "Escape from Dead Orchard (attacker): The bottom player faces the o
   "@type": "WebPage",
   "name": "Escape from Dead Orchard Attacker",
   "description": "Escape from Dead Orchard (attacker): The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+  "alternateName": ["Dead Orchard guard reset"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -218,6 +219,9 @@ description: "Escape from Dead Orchard (attacker): The bottom player faces the o
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Dead Orchard guard reset</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection. The bottom player owns the arm trap. The opponent who must escape the trap is the top player, so releasing the guard and escaping its attack are different actions.
@@ -324,9 +328,9 @@ Recover a forearm inside the passer's shoulder as the both-arm leg triangle open
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 35% |
-| Failure | [[Positions/Dead Orchard Control]] | 40% |
-| Counter | [[Positions/Side Control]] | 25% |
+| Success | [[Positions/Closed Guard]] | 65% |
+| Failure | [[Positions/Dead Orchard Control]] | 20% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -338,7 +342,7 @@ Recover a forearm inside the passer's shoulder as the both-arm leg triangle open
 <p class="section-subtitle">How might your opponent counter Escape from Dead Orchard?</p>
 
 - **Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. → Leads to [[Positions/Dead Orchard Control]]
-- **Keep the arms compact and avoid offering a straight arm while trying to force posture.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure. → Leads to [[Positions/Side Control]]
+- **Keep the arms compact and avoid offering a straight arm while trying to force posture.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure. → Leads to [[Positions/Open Guard]]
 - **Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee. → Leads to [[Positions/Dead Orchard Control]]
 - **Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Bring the forearms and knees between the bodies as space becomes available. → Leads to [[Positions/Dead Orchard Control]]
 

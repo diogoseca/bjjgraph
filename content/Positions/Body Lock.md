@@ -212,25 +212,23 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (18% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (10% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (8% of attempts)
+- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (11% of attempts)
 
-- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (9% of attempts)
+- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (13% of attempts)
 
-- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (11% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (15% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (12% of attempts)
+- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (4% of attempts)
 
-- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (3% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (17% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (14% of attempts)
+- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (6% of attempts)
 
-- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (5% of attempts)
+- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (17% of attempts)
 
-- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (14% of attempts)
-
-- **[[Transitions/Body Lock to Standing/Attacker|Body Lock to Standing]]** (6% of attempts)
+- **[[Transitions/Body Lock to Standing/Attacker|Body Lock to Standing]]** (7% of attempts)
 
 
 ### Common Mistakes

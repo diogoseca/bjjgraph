@@ -21,7 +21,7 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook Defense Escape",
-      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Counter heel hook",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Leg Extraction",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],

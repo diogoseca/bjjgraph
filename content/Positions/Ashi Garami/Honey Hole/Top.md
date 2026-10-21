@@ -288,7 +288,6 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 **If opponent tries to extract trapped leg by pulling knee to chest:**
 - Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 80%)
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
 - Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
 
 
@@ -299,7 +298,6 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 
 **If opponent defends heel by hiding foot deep in armpit:**
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 75%)
 - Execute **[[Submissions/Toe Hold/Attacker|Toe Hold]]** → [[game-over]] (Probability: 60%)
 - Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 

@@ -143,21 +143,19 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (28% of attempts)
+- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (31% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (8% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (9% of attempts)
 
-- **[[Transitions/Body Triangle Escape to Side Control/Attacker|Body Triangle Escape to Side Control]]** (13% of attempts)
+- **[[Transitions/Body Triangle Escape to Side Control/Attacker|Body Triangle Escape to Side Control]]** (15% of attempts)
 
-- **[[Transitions/Body Triangle Escape to Half Guard/Attacker|Body Triangle Escape to Half Guard]]** (12% of attempts)
+- **[[Transitions/Body Triangle Escape to Half Guard/Attacker|Body Triangle Escape to Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (10% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (9% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (8% of attempts)
-
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (5% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (6% of attempts)
 
 - **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (4% of attempts)
 
@@ -220,25 +218,23 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Submissions/Rear Naked Choke/from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (38% of attempts)
+- **[[Submissions/Rear Naked Choke/from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (40% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
 - **[[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Bow and Arrow Choke from Body Triangle]]** (gi only)
 
-- **[[Submissions/Short Choke/from Body Triangle/Attacker|Short Choke from Body Triangle]]** (12% of attempts)
+- **[[Submissions/Short Choke/from Body Triangle/Attacker|Short Choke from Body Triangle]]** (13% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (2% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (21% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (22% of attempts)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (5% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
-
 - **[[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Cross Collar Choke from Body Triangle]]** (gi only)
 
-- **[[Transitions/Body Triangle Squeeze/Attacker|Body Triangle Squeeze]]** (13% of attempts)
+- **[[Transitions/Body Triangle Squeeze/Attacker|Body Triangle Squeeze]]** (14% of attempts)
 
 
 ### Common Mistakes

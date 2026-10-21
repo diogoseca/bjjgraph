@@ -21,13 +21,13 @@ description: "Learn pressure passing from flattened half guard top. Complete you
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,20 +38,20 @@ description: "Learn pressure passing from flattened half guard top. Complete you
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 4% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Arm Triangle Setup",
       "text": "From this position, attempt Arm Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
       "text": "From this position, attempt Half Guard Pass. This technique is attempted in 9% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura from Flattened Half Guard",
+      "text": "From this position, attempt Kimura from Flattened Half Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],

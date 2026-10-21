@@ -145,7 +145,7 @@ Instructional sources: [Stephan Kesting and Denis Kang — the Anaconda choke](h
 |--------|----------|-------------|
 | Success | [[Positions/Turtle]] | 50% |
 | Failure | [[Positions/Anaconda Control]] | 30% |
-| Counter | [[Positions/Dead Orchard Control]] | 20% |
+| Counter | [[Positions/Front Headlock]] | 20% |
 
 
 </section>

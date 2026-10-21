@@ -228,27 +228,25 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ### Available Transitions
 
 
-- **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (9% of attempts)
+- **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (10% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (11% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (13% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (10% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (11% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (13% of attempts)
+- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (8% of attempts)
 
-- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (7% of attempts)
+- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (8% of attempts)
 
-- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (7% of attempts)
+- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (5% of attempts)
 
-- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (4% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (14% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (12% of attempts)
+- **[[Transitions/Matrix to Back Control/Attacker|Matrix to Back Control]]** (10% of attempts)
 
-- **[[Transitions/Matrix to Back Control/Attacker|Matrix to Back Control]]** (9% of attempts)
-
-- **[[Transitions/Matrix to Side Control/Attacker|Matrix to Side Control]]** (6% of attempts)
+- **[[Transitions/Matrix to Side Control/Attacker|Matrix to Side Control]]** (7% of attempts)
 
 
 ### Common Mistakes

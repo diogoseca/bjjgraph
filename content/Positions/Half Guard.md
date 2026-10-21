@@ -291,7 +291,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (13% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (14% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (7% of attempts)
 
@@ -319,13 +319,11 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Submissions/Loop Choke/from Half Guard/Attacker|Loop Choke from Half Guard]]** (gi only)
 
-- **[[Submissions/Suloev Stretch/from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (2% of attempts)
-
 - **[[Transitions/Half Guard to Leg Weave/Attacker|Half Guard to Leg Weave]]** (2% of attempts)
 
 - **[[Transitions/Half Guard Whizzer Counter/Attacker|Half Guard Whizzer Counter]]** (4% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (11% of attempts)
 
 - **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (3% of attempts)
 

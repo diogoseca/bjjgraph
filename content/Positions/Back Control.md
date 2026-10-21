@@ -272,9 +272,9 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Submissions/Rear Naked Choke/from Back Control/Attacker|Rear Naked Choke from Back Control]]** (27% of attempts)
+- **[[Submissions/Rear Naked Choke/from Back Control/Attacker|Rear Naked Choke from Back Control]]** (26% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (16% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (15% of attempts)
 
 - **[[Submissions/Bow and Arrow Choke/from Back Control/Attacker|Bow and Arrow Choke from Back Control]]** (gi only)
 
@@ -282,7 +282,7 @@ Back control variations include the standard hooks configuration, body triangle 
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (8% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (7% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (2% of attempts)
 
@@ -317,6 +317,8 @@ Back control variations include the standard hooks configuration, body triangle 
 - **[[Submissions/Rear Triangle Choke/from Back Control/Attacker|Rear Triangle Choke from Back Control]]** (2% of attempts)
 
 - **[[Submissions/Short Choke/from Back Control/Attacker|Short Choke from Back Control]]** (2% of attempts)
+
+- **[[Submissions/Suloev Stretch/from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (3% of attempts)
 
 
 ### Common Mistakes

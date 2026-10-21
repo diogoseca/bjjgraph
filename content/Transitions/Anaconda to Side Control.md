@@ -255,8 +255,6 @@ The Anaconda to Side Control transition occupies a pivotal role within the front
 
 - [[Transitions/Back Take from Anaconda]] - Alternative advancement path when opponent turns away from anaconda pressure instead of basing out
 
-- [[Transitions/Anaconda Control to Dead Orchard Control]] - Alternative transition pathway for advancing anaconda control to a more dominant finishing position
-
 - [[Transitions/Anaconda Grip Break to Front Headlock]] - Defender's primary escape transition that the attacker must prevent during the rolling sequence
 
 

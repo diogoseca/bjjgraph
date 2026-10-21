@@ -254,21 +254,19 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Submissions/Armbar/from Technical Mount/Attacker|Armbar from Technical Mount]]** (14% of attempts)
+- **[[Submissions/Armbar/from Technical Mount/Attacker|Armbar from Technical Mount]]** (17% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (19% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (16% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (13% of attempts)
+- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (14% of attempts)
 
-- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (11% of attempts)
+- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (21% of attempts)
 
-- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (17% of attempts)
+- **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (14% of attempts)
 
-- **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (11% of attempts)
+- **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (11% of attempts)
 
-- **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (9% of attempts)
-
-- **[[Submissions/Americana/from Technical Mount/Attacker|Americana from Technical Mount]]** (6% of attempts)
+- **[[Submissions/Americana/from Technical Mount/Attacker|Americana from Technical Mount]]** (7% of attempts)
 
 
 ### Common Mistakes

@@ -264,23 +264,21 @@ Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role b
 ### Available Transitions
 
 
-- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (22% of attempts)
+- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (24% of attempts)
 
-- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (16% of attempts)
+- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (18% of attempts)
 
 - **[[Submissions/Baseball Bat Choke/from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (gi only)
 
 - **[[Submissions/Cross Collar Choke/from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (gi only)
 
-- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (17% of attempts)
+- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (19% of attempts)
 
-- **[[Submissions/Kimura/from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (12% of attempts)
+- **[[Submissions/Kimura/from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (13% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (10% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (9% of attempts)
-
-- **[[Submissions/Armbar/from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (10% of attempts)
+- **[[Submissions/Armbar/from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (11% of attempts)
 
 - **[[Submissions/Belly Down Armbar/from Knee on Belly/Attacker|Belly Down Armbar from Knee on Belly]]** (5% of attempts)
 

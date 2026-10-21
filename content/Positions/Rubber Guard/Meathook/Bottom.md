@@ -21,37 +21,37 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
     {
       "@type": "HowToStep",
       "name": "Execute Meathook to Gogoplata Control",
-      "text": "From this position, attempt Meathook to Gogoplata Control. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Meathook to Gogoplata Control. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crackhead Control to Carni",
-      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Armbar from New York",
+      "text": "From this position, attempt Armbar from New York. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from New York",
-      "text": "From this position, attempt Armbar from New York. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Crackhead Control to Mission Control",
+      "text": "From this position, attempt Crackhead Control to Mission Control. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crackhead Control to Mission Control",
-      "text": "From this position, attempt Crackhead Control to Mission Control. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Baratoplata Setup",
+      "text": "From this position, attempt Baratoplata Setup. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -242,7 +242,6 @@ Competition application requires understanding rule sets and opponent body types
 
 **If opponent attempts to spin or rotate trapped arm to escape hook:**
 - Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 75%)
-- Execute **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 70%)
 
 
 **If opponent establishes strong base and pauses defensive movement:**
@@ -252,7 +251,6 @@ Competition application requires understanding rule sets and opponent body types
 
 **If opponent attempts to pressure pass by driving shoulder into chest:**
 - Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 65%)
 
 
 

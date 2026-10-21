@@ -264,29 +264,25 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (14% of attempts)
-
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (4% of attempts)
+- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (15% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (4% of attempts)
 
 - **[[Submissions/Bow and Arrow Choke/from Truck/Attacker|Bow and Arrow Choke from Truck]]** (gi only)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (6% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (7% of attempts)
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (2% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (6% of attempts)
+- **[[Transitions/Truck Maintenance/Attacker|Truck Maintenance]]** (21% of attempts)
 
-- **[[Transitions/Truck Maintenance/Attacker|Truck Maintenance]]** (19% of attempts)
+- **[[Transitions/Truck to Back Control/Attacker|Truck to Back Control]]** (16% of attempts)
 
-- **[[Transitions/Truck to Back Control/Attacker|Truck to Back Control]]** (14% of attempts)
+- **[[Transitions/Truck to Twister Side Control/Attacker|Truck to Twister Side Control]]** (6% of attempts)
 
-- **[[Transitions/Truck to Twister Side Control/Attacker|Truck to Twister Side Control]]** (5% of attempts)
+- **[[Submissions/Calf Slicer/from Truck/Attacker|Calf Slicer from Truck]]** (16% of attempts)
 
-- **[[Submissions/Calf Slicer/from Truck/Attacker|Calf Slicer from Truck]]** (14% of attempts)
-
-- **[[Submissions/Banana Split/from Truck/Attacker|Banana Split from Truck]]** (9% of attempts)
+- **[[Submissions/Banana Split/from Truck/Attacker|Banana Split from Truck]]** (10% of attempts)
 
 - **[[Submissions/Spine Lock/from Truck/Attacker|Spine Lock from Truck]]** (3% of attempts)
 

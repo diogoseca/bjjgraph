@@ -20,39 +20,15 @@ description: "Dead Orchard Control bottom perspective: Bring the shoulders close
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Armbar from Dead Orchard Control",
+      "text": "From this position, attempt Armbar from Dead Orchard Control. This technique is attempted in 70% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Escape from Dead Orchard",
+      "text": "From this position, attempt Escape from Dead Orchard. This technique is attempted in 30% of exchanges from this position.",
       "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 11% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Escape Dead Orchard Control",
-      "text": "From this position, attempt Escape Dead Orchard Control. This technique is attempted in 13% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -392,9 +368,9 @@ Work cooperatively on keep the knee supported. Turn the hips and bring the knee 
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 32% |
-| Advancement Probability | 38% |
-| Submission Probability | 12% |
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 62% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

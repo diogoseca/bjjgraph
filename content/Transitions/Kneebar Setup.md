@@ -247,8 +247,6 @@ The Kneebar Setup represents a critical branch in the leg lock system tree from 
 
 - [[Positions/Kneebar Control]] - Target position after successful setup
 
-- [[Transitions/Kneebar Finish]] - Follow-up submission from control position
-
 - [[Submissions/Outside Heel Hook]] - Primary alternative attack from same position
 
 - [[Submissions/Inside Heel Hook]] - Chain attack when opponent defends kneebar by rotating

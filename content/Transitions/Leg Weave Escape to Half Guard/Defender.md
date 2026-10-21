@@ -4,7 +4,7 @@
 
 ---
 title: "Leg Weave Escape to Half Guard Defender | BJJ Defense Guide | BJJ Graph"
-description: "Counter the leg weave escape from top position. Maintain passing pressure through crossface control, weight distribution, and frame prevention to deny half guard recovery."
+description: "Recognize Leg Weave Escape to Half Guard and interrupt its required connections before the final control is established."
 ---
 
 
@@ -20,26 +20,26 @@ description: "Counter the leg weave escape from top position. Maintain passing p
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Drive crossface pressure harder and lower your hips to smother the bottom player's frame attempts before they are established",
-      "text": "When you feel the bottom player's forearm beginning to wedge against your neck or shoulder at the earliest stage of the escape If successful: Bottom player remains flattened with their frame neutralized, maintaining your passing position",
+      "name": "Keep the knees connected through the woven arm without twisting either knee.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Follow the hip escape by shifting your weight laterally and immediately driving your weaved knee deeper to close the space they created",
-      "text": "When the bottom player has begun hip escaping and is creating angle, before they can insert the knee shield If successful: Space created by hip escape is reclaimed and bottom player is returned to flattened leg weave position",
+      "name": "Follow the hip escape with a balanced base and controlled chest contact.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Transition immediately to knee slice pass when bottom player creates space, converting their escape movement into your passing opportunity",
-      "text": "When the bottom player has created significant space and knee shield insertion is imminent or partially established If successful: Bottom player's escape space is used against them as you complete the pass through the opening they created",
+      "name": "Prevent the recovering knee from gaining inside space while preserving the trapped leg's alignment.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Backstep around the escape attempt to attack the back when bottom player over-rotates during hip escape",
-      "text": "When the bottom player turns more than 45 degrees during their escape and exposes their back If successful: Bottom player's escape rotation is converted into back exposure, leading to back control or a dominant passing angle",
+      "name": "If the weave opens, keep your top position while rebuilding the passing frame.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 4
     }
   ],
@@ -56,42 +56,26 @@ description: "Counter the leg weave escape from top position. Maintain passing p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Holding the leg weave, what is the earliest cue that bottom is starting their escape?",
+      "name": "Against Leg Weave Escape to Half Guard, what connection do you address first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest cue is the bottom player's near-side forearm beginning to wedge against your neck or shoulder. This frame establishment is the mandatory first step of the escape sequence, and without it no hip escape will be effective. When you feel this forearm pressure beginning, immediately drive your shoulder into the frame to prevent it from setting. This preemptive response shuts down the entire escape chain at its origin point."
+        "text": "Keep the knees connected through the woven arm without twisting either knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Holding the leg weave, how do you adjust your weight when they bridge underneath you?",
+      "name": "Against Leg Weave Escape to Half Guard, when must you stop moving?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower your hips and widen your base slightly by posting your free leg further from your body. Absorb the bridge by relaxing your weight downward rather than stiffening against it. The bridge is meant to create a momentum window for the hip escape, so by settling your weight into the bridge rather than resisting it rigidly, you deny the disruption they need. Keep your chest connected to their body throughout so you follow any movement that results from the bridge."
+        "text": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
       }
     },
     {
       "@type": "Question",
-      "name": "The bottom player successfully inserts a partial knee shield - what is your best immediate response?",
+      "name": "Against Leg Weave Escape to Half Guard, does interrupting one grip guarantee a new position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rather than fighting directly against the inserted knee, which is structurally strong, transition your passing approach to exploit the new configuration. Angle your pressure diagonally over the knee shield and drive toward a knee slice pass through the shield. Alternatively, backstep around the shield entirely. The worst response is trying to crush the shield straight down with chest pressure, as the shin bone provides excellent structural support against vertical force."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should you abandon the leg weave and switch to another pass instead of holding it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Transition to a different pass when the bottom player has successfully recovered their knee shield with proper hip angle and the underhook battle is contested. At this point, the leg weave advantage is largely neutralized and you are fighting from standard half guard top rather than the superior leg weave position. Recognizing this transition point and immediately switching to an appropriate half guard pass saves energy and maintains offensive initiative."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you prevent the bottom player from converting their escape into a deep half guard entry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Keep your hips back and weight distributed away from your lead leg when you feel the bottom player attempting to dive underneath you. The deep half entry requires them to get their head under your center of gravity and control your lead leg. Sprawling your hips back while maintaining upper body connection removes the space they need to complete the deep half entry. If they get partially underneath, immediately backstep your weaved leg free and circle toward their head to re-establish a dominant passing angle."
+        "text": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
       }
     }
   ]
@@ -104,7 +88,7 @@ description: "Counter the leg weave escape from top position. Maintain passing p
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Leg Weave Escape to Half Guard Defender",
-  "description": "Counter the leg weave escape from top position. Maintain passing pressure through crossface control, weight distribution, and frame prevention to deny half guard recovery.",
+  "description": "Recognize Leg Weave Escape to Half Guard and interrupt its required connections before the final control is established.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -156,7 +140,9 @@ description: "Counter the leg weave escape from top position. Maintain passing p
 
 <section id="overview" class="content-section">
 
-As the top player maintaining the leg weave, your goal is to prevent the bottom player from recovering half guard while advancing your own passing position. Recognizing the early signs of escape attempts allows you to shut them down before they develop momentum. The defender must maintain constant forward pressure and upper body control while being prepared to transition between passing options when the bottom player begins their escape sequence. Understanding the escape mechanics allows you to counter each phase systematically: preventing frames from establishing, following hip escapes with your own weight, and collapsing knee shield insertion attempts before they solidify into a functional guard structure.
+You oppose the performer of this action. Keep the knees connected through the woven arm without twisting either knee. Follow the hip escape with a balanced base and controlled chest contact. Prevent the recovering knee from gaining inside space while preserving the trapped leg's alignment. If the weave opens, keep your top position while rebuilding the passing frame. Count side control only after the legs are actually cleared and the upper body is controlled.
+
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 **Opponent's Starting Position**: [[Positions/Leg Weave]] (Bottom)
 
@@ -170,11 +156,9 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 
 <p class="section-subtitle">How do you know when someone is attempting Leg Weave Escape to Half Guard?</p>
 
-- Bottom player begins driving forearm into your neck or shoulder to establish a primary defensive frame
-- Bottom player places far hand on your hip and starts small bridging movements to create escape momentum
-- Bottom player's hips begin shifting laterally, indicating the start of a hip escape sequence
-- Bottom player's near-side knee starts pressing inward between your bodies, attempting knee shield reinsertion
-- Bottom player's far-side hook becomes more active, gripping tighter to anchor their escape movement
+- The passer has threaded an arm between your knee-shield legs and is compressing them together.
+- Maintain a useful upper-body frame so the passer cannot settle chest pressure while you move the hips.
+- Move the hips through the space protected by your frame; do not turn a knee against the pinned lower leg.
 
 
 </section>
@@ -185,12 +169,11 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 
 <p class="section-subtitle">What are the key principles for defending Leg Weave Escape to Half Guard?</p>
 
-- Maintain constant forward chest pressure to prevent the bottom player from establishing effective defensive frames
-- Control the crossface aggressively to limit the bottom player's ability to create hip escape angles
-- Keep the weaved leg deep between the bottom player's legs to maintain maximum structural control
-- Anticipate frame attempts and address them immediately before they become established structural barriers
-- Follow hip escape movement with your own weight rather than remaining static and allowing space to open
-- Chain passing options together so that when one pass is defended you immediately threaten another
+- Keep the knees connected through the woven arm without twisting either knee.
+- Follow the hip escape with a balanced base and controlled chest contact.
+- Prevent the recovering knee from gaining inside space while preserving the trapped leg's alignment.
+- If the weave opens, keep your top position while rebuilding the passing frame.
+- Count side control only after the legs are actually cleared and the upper body is controlled.
 
 
 </section>
@@ -201,33 +184,33 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 
 <p class="section-subtitle">What can you do to defend against Leg Weave Escape to Half Guard?</p>
 
-### 1. Drive crossface pressure harder and lower your hips to smother the bottom player's frame attempts before they are established
+### 1. Keep the knees connected through the woven arm without twisting either knee.
 
-- **When to use**: When you feel the bottom player's forearm beginning to wedge against your neck or shoulder at the earliest stage of the escape
+- **When to use**: Before the next connection or pressure is established.
 - **Targets**: [[Positions/Leg Weave]]
-- **If successful**: Bottom player remains flattened with their frame neutralized, maintaining your passing position
-- **Risk**: Over-committing your weight forward can create deep half guard entry opportunities for the bottom player
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-### 2. Follow the hip escape by shifting your weight laterally and immediately driving your weaved knee deeper to close the space they created
+### 2. Follow the hip escape with a balanced base and controlled chest contact.
 
-- **When to use**: When the bottom player has begun hip escaping and is creating angle, before they can insert the knee shield
+- **When to use**: Before the next connection or pressure is established.
 - **Targets**: [[Positions/Leg Weave]]
-- **If successful**: Space created by hip escape is reclaimed and bottom player is returned to flattened leg weave position
-- **Risk**: Lateral weight shift may create a momentary balance point that an experienced bottom player can exploit for a sweep
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-### 3. Transition immediately to knee slice pass when bottom player creates space, converting their escape movement into your passing opportunity
+### 3. Prevent the recovering knee from gaining inside space while preserving the trapped leg's alignment.
 
-- **When to use**: When the bottom player has created significant space and knee shield insertion is imminent or partially established
+- **When to use**: Before the next connection or pressure is established.
 - **Targets**: [[Positions/Side Control]]
-- **If successful**: Bottom player's escape space is used against them as you complete the pass through the opening they created
-- **Risk**: If the knee slice is defended, the bottom player may have recovered enough guard structure to reset to a stronger defensive position
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-### 4. Backstep around the escape attempt to attack the back when bottom player over-rotates during hip escape
+### 4. If the weave opens, keep your top position while rebuilding the passing frame.
 
-- **When to use**: When the bottom player turns more than 45 degrees during their escape and exposes their back
+- **When to use**: Before the next connection or pressure is established.
 - **Targets**: [[Positions/Side Control]]
-- **If successful**: Bottom player's escape rotation is converted into back exposure, leading to back control or a dominant passing angle
-- **Risk**: If the backstep is scouted, the bottom player can use your circular movement to establish deep half guard or complete their escape
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 
 
@@ -241,11 +224,11 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 
 ### → [[Positions/Leg Weave]]
 
-Maintain constant crossface pressure and follow any hip escape movement with your own weight. Address frame attempts immediately by lowering your shoulder and driving through their forearm. Keep the weaved leg deep and your hips low to prevent space creation.
+Keep the knees connected through the woven arm without twisting either knee.
 
 ### → [[Positions/Side Control]]
 
-When the bottom player creates space during their escape attempt, immediately transition to a knee slice or smash pass through the opening. Their escape movement creates passing lanes that did not exist when they were static. Exploit these windows decisively rather than trying to re-establish the leg weave.
+Count side control only after the legs are actually cleared and the upper body is controlled.
 
 
 
@@ -257,25 +240,20 @@ When the bottom player creates space during their escape attempt, immediately tr
 
 <p class="section-subtitle">What mistakes should you avoid when defending Leg Weave Escape to Half Guard?</p>
 
-### 1. Remaining static when the bottom player begins hip escaping, allowing them to create space unopposed
+### 1. Acting after the joint or neck is already loaded
 
-- **Consequence**: Bottom player successfully creates angle and inserts knee shield, recovering half guard and eliminating your passing position advantage
-- **Correction**: Follow the hip escape immediately by shifting your weight in the same direction. Your chest pressure should track their movement so that space never opens between your bodies
+- **Consequence**: The attempted movement may increase pressure.
+- **Correction**: Tap and release before moving.
 
-### 2. Over-relying on crossface alone without controlling the bottom player's hip movement through leg weave depth
+### 2. Assuming a cleared grip completes the escape
 
-- **Consequence**: Upper body is controlled but hips are free to escape, creating enough space for guard recovery below your control line
-- **Correction**: Maintain deep leg threading with your weaved knee while simultaneously applying crossface. Both upper and lower body control must work together to prevent the escape
+- **Consequence**: The remaining control can still prevent the intended landing.
+- **Correction**: Count side control only after the legs are actually cleared and the upper body is controlled.
 
-### 3. Allowing the bottom player to establish frames without immediately addressing them
+### 3. Losing a stable base during the response
 
-- **Consequence**: Established frames create structural barriers that are exponentially harder to remove once fully set. The bottom player gains a stable platform for their escape sequence
-- **Correction**: Address frame attempts the instant you feel them beginning by driving your shoulder into their forearm, stripping the hand from your hip, or changing angle to make the frame less effective
-
-### 4. Panicking when bottom player creates partial space and abandoning the leg weave position entirely
-
-- **Consequence**: Premature position abandonment gives the bottom player a free guard recovery when the leg weave may have been salvageable with proper adjustment
-- **Correction**: When partial space is created, assess whether you can reclaim it by driving weight forward, or whether transitioning to a complementary pass is the better option. Make a deliberate tactical decision rather than an emotional reaction
+- **Consequence**: You may concede the next connection.
+- **Correction**: Follow the hip escape with a balanced base and controlled chest contact.
 
 
 
@@ -287,17 +265,14 @@ When the bottom player creates space during their escape attempt, immediately tr
 
 <p class="section-subtitle">How do you train defense against Leg Weave Escape to Half Guard?</p>
 
-**Phase 1: Recognition Drilling** - Identifying escape cues and developing automatic responses
-Bottom player performs each phase of the escape slowly and deliberately while top player focuses on recognizing each cue and naming the appropriate counter. No resistance, purely developing pattern recognition. 5-minute rounds with verbal identification of each cue.
+**Phase 1** - Identify the weave
+The passer has threaded an arm between your knee-shield legs and is compressing them together. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 2: Counter Timing** - Applying counters at the correct moment during escape sequences
-Bottom player attempts escapes at 60% speed and resistance. Top player practices applying each counter at the correct timing point, including smothering frames early, following hip escapes, and transitioning passes when space is created. Focus on timing rather than force.
+**Phase 2** - Keep an upper-body frame
+Maintain a useful upper-body frame so the passer cannot settle chest pressure while you move the hips. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 3: Passing Chain Integration** - Converting escape attempts into passing opportunities
-Full speed positional sparring from leg weave. Top player practices maintaining position and converting escape attempts into passing sequences. Emphasis on reading which escape the bottom player commits to and selecting the appropriate counter-pass.
-
-**Phase 4: Competitive Application** - Maintaining leg weave and passing under full resistance
-Extended positional rounds at competition intensity. Top player must maintain leg weave control or complete a pass within 2 minutes against a fully resisting bottom player using all available escape options. Develops the complete defensive and offensive toolkit from leg weave top.
+**Phase 3** - Create room at the hips
+Move the hips through the space protected by your frame; do not turn a knee against the pinned lower leg. Pause at this checkpoint with a cooperative partner before linking the next step.
 
 
 

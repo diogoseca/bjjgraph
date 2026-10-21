@@ -303,9 +303,9 @@ The arm escape comes before hip control for the pass: recover the elbow from the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 25% |
-| Counter | [[Positions/Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -317,8 +317,8 @@ The arm escape comes before hip control for the pass: recover the elbow from the
 <p class="section-subtitle">How might your opponent counter Arm Extraction and Pass?</p>
 
 - **Establish the first high leg and its hand support before adding the second leg.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Avoid extending an arm between the high legs where it can be isolated. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
-- **Reinforce the clinch without forcing the knees beyond a comfortable hip angle.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. A second leg climbing behind your head increases the posture-control problem. → Leads to [[Positions/Half Guard]]
-- **Do not assume that high legs alone have isolated an arm or completed Dead Orchard.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Half Guard]]
+- **Reinforce the clinch without forcing the knees beyond a comfortable hip angle.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. A second leg climbing behind your head increases the posture-control problem. → Leads to [[Positions/Closed Guard]]
+- **Do not assume that high legs alone have isolated an arm or completed Dead Orchard.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Closed Guard]]
 - **Use hip position and connected leg pressure rather than pulling the feet against fixed knees.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Create slack at the hip and thigh while keeping the head and captured arm aligned. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 
 

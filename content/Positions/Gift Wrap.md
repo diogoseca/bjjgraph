@@ -225,21 +225,19 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Transitions/Gift Wrap Arm Recovery/Attacker|Gift Wrap Arm Recovery]]** (21% of attempts)
+- **[[Transitions/Gift Wrap Arm Recovery/Attacker|Gift Wrap Arm Recovery]]** (23% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (13% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (14% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (15% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (17% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (10% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (10% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (9% of attempts)
-
-- **[[Transitions/Counter Roll to Top/Attacker|Counter Roll to Top]]** (6% of attempts)
+- **[[Transitions/Counter Roll to Top/Attacker|Counter Roll to Top]]** (7% of attempts)
 
 
 ### Common Mistakes

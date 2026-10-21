@@ -221,13 +221,11 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 ### Available Transitions
 
 
-- **[[Submissions/Heel Hook/from Carni/Attacker|Heel Hook from Carni]]** (45% of attempts)
+- **[[Submissions/Carni Shoulder Lock/Attacker|Carni Shoulder Lock]]** (50% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (21% of attempts)
+- **[[Transitions/Carni Release to Guard/Attacker|Carni Release to Guard]]** (35% of attempts)
 
-- **[[Submissions/Calf Slicer/from Carni/Attacker|Calf Slicer from Carni]]** (18% of attempts)
-
-- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (16% of attempts)
+- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (15% of attempts)
 
 
 ### Common Mistakes

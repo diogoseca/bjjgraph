@@ -20,38 +20,38 @@ description: "Master body lock control from top position. Dominant standing cont
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Snap Down to Front Headlock",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Tani Otoshi",
+      "text": "From this position, attempt Tani Otoshi. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Tani Otoshi",
-      "text": "From this position, attempt Tani Otoshi. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Kosoto Gake",
+      "text": "From this position, attempt Kosoto Gake. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kosoto Gake",
-      "text": "From this position, attempt Kosoto Gake. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Mat Return to Back Mount",
+      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Harai Goshi",
+      "text": "From this position, attempt Harai Goshi. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Harai Goshi",
-      "text": "From this position, attempt Harai Goshi. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Body Lock Pass",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],

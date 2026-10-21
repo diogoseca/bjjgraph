@@ -292,8 +292,6 @@ The Kneebar from Ushiro functions as a critical chain attack within the modern l
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement position with different kneebar angles
 
-- [[Transitions/Kneebar Finish]] - Finishing mechanics from established kneebar control
-
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative entanglement offering kneebar attack opportunities
 
 - [[Positions/Half Guard]] - Position reached if opponent successfully counters the kneebar attempt

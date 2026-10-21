@@ -228,31 +228,29 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Submissions/Armbar/from Crucifix/Attacker|Armbar from Crucifix]]** (14% of attempts)
+- **[[Submissions/Armbar/from Crucifix/Attacker|Armbar from Crucifix]]** (15% of attempts)
 
-- **[[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (10% of attempts)
+- **[[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (11% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (3% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 
-- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (11% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (12% of attempts)
 
 - **[[Submissions/Neck Crank/from Mounted Crucifix/Attacker|Neck Crank from Mounted Crucifix]]** (3% of attempts)
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (8% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (9% of attempts)
 
-- **[[Transitions/Mounted Crucifix to S Mount/Attacker|Mounted Crucifix to S Mount]]** (11% of attempts)
+- **[[Transitions/Mounted Crucifix to S Mount/Attacker|Mounted Crucifix to S Mount]]** (12% of attempts)
 
-- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (7% of attempts)
+- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (8% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
-
-- **[[Positions/Back Control/Seat Belt Control Back/Attacker|Seat Belt Control Back]]** (5% of attempts)
+- **[[Positions/Back Control/Seat Belt Control Back/Attacker|Seat Belt Control Back]]** (6% of attempts)
 
 - **[[Submissions/Belly Down Armbar/from Mounted Crucifix/Attacker|Belly Down Armbar from Mounted Crucifix]]** (3% of attempts)
 
-- **[[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Attacker|Mounted Crucifix Armbar from Mounted Crucifix]]** (8% of attempts)
+- **[[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Attacker|Mounted Crucifix Armbar from Mounted Crucifix]]** (9% of attempts)
 
 
 ### Common Mistakes

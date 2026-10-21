@@ -287,25 +287,23 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Submissions/Triangle Choke/from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (21% of attempts)
+- **[[Submissions/Triangle Choke/from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (23% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (14% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (16% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (10% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (12% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (11% of attempts)
-
-- **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** (5% of attempts)
+- **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** (6% of attempts)
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (5% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (10% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (11% of attempts)
 
-- **[[Transitions/Mounted Triangle Squeeze/Attacker|Mounted Triangle Squeeze]]** (11% of attempts)
+- **[[Transitions/Mounted Triangle Squeeze/Attacker|Mounted Triangle Squeeze]]** (12% of attempts)
 
-- **[[Transitions/Mounted Triangle to S Mount/Attacker|Mounted Triangle to S Mount]]** (8% of attempts)
+- **[[Transitions/Mounted Triangle to S Mount/Attacker|Mounted Triangle to S Mount]]** (9% of attempts)
 
-- **[[Submissions/Belly Down Armbar/from Mounted Triangle/Attacker|Belly Down Armbar from Mounted Triangle]]** (5% of attempts)
+- **[[Submissions/Belly Down Armbar/from Mounted Triangle/Attacker|Belly Down Armbar from Mounted Triangle]]** (6% of attempts)
 
 
 ### Common Mistakes

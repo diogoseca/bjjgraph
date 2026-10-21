@@ -21,7 +21,7 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Body Triangle",
-      "text": "From this position, attempt Rear Naked Choke from Body Triangle. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Body Triangle. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,7 +39,7 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Short Choke from Body Triangle",
-      "text": "From this position, attempt Short Choke from Body Triangle. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Short Choke from Body Triangle. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 22% of exchanges from this position.",
       "position": 6
     }
   ],

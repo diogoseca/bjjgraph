@@ -18,12 +18,16 @@ function appFor(decks) {
   return app;
 }
 
-test('D-321 exports only 30 reviewed submission decks; all 241 cards exercise authored choices', () => {
+test('D-321 surviving reviewed decks exercise every authored choice; approved retired decks stay absent', () => {
+  // Premise: unanimous R20/R39/R41/R43 retirements, plan lines 681/687/691/695;
+  // the source join and full report citations live in submission_mc_export_test.py.
   assert.equal(output.pythonTests, 4);
-  assert.equal(Object.keys(output.decks).length, 30);
+  assert.equal(output.scope.activeDecks + output.scope.retiredDecks, 30);
+  assert.ok(output.scope.activeDecks > 0);
+  assert.equal(Object.keys(output.decks).length, output.scope.activeDecks);
   const app = appFor(output.decks);
   app.mcClip = () => { throw Error('Reviewed submission consulted the answer pool'); };
-  let cards = 0, choices = 0, calls = 0;
+  let decks = 0, cards = 0, choices = 0, calls = 0;
   for (const [key, deck] of Object.entries(output.decks)) {
     for (const card of deck.cards) {
       const seen = new Set();
@@ -45,11 +49,14 @@ test('D-321 exports only 30 reviewed submission decks; all 241 cards exercise au
       choices += seen.size + 1;
       cards++;
     }
+    decks++;
   }
-  assert.equal(cards, 241);
-  assert.equal(choices, 964);
-  assert.equal(calls, 482);
-  console.log(`Submission export: 4 Python contracts; 30 decks / 241 cards / 964 choices / 482 production draws; ${output.outside.decks} other decks (${output.outside.cards} cards) retain legacy bytes.`);
+  assert.ok(decks > 0, 'Zero surviving reviewed decks exercised is a failure');
+  assert.equal(decks, output.scope.activeDecks);
+  assert.equal(cards, output.scope.activeCards);
+  assert.equal(choices, cards * 4);
+  assert.equal(calls, cards * 2);
+  console.log(`Submission export: 4 Python contracts; ${decks} surviving reviewed decks exercised / ${cards} cards / ${choices} choices / ${calls} production draws; ${output.scope.retiredDecks} approved retired decks individually asserted absent (${output.scope.retiredNames.join(', ')}); ${output.outside.decks} other decks (${output.outside.cards} cards) retain legacy bytes.`);
 });
 
 function grade(app, card, key, result, index) {

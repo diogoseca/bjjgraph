@@ -149,11 +149,9 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (7% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (16% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (15% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (7% of attempts)
-
-- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (10% of attempts)
 
 - **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (6% of attempts)
 
@@ -161,11 +159,15 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 - **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
 
-- **[[Transitions/Z-Guard Sweep/Attacker|Z-Guard Sweep]]** (16% of attempts)
+- **[[Transitions/Z-Guard Sweep/Attacker|Z-Guard Sweep]]** (15% of attempts)
 
-- **[[Transitions/Z-Guard to Half Guard/Attacker|Z-Guard to Half Guard]]** (14% of attempts)
+- **[[Transitions/Z-Guard to Half Guard/Attacker|Z-Guard to Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Sweep from Z-Guard/Attacker|Sweep from Z-Guard]]** (13% of attempts)
+- **[[Transitions/Sweep from Z-Guard/Attacker|Sweep from Z-Guard]]** (12% of attempts)
+
+- **[[Transitions/Z Guard to Carni/Attacker|Z Guard to Carni]]** (5% of attempts)
+
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (9% of attempts)
 
 
 ### Common Mistakes
