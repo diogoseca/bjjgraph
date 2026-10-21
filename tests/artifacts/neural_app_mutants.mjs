@@ -38,6 +38,12 @@ const controls = [
   // still be what pages it (the defense mode dropped from the landing card's arrow branch).
   ['defense-arrows-lost', 'landcard-modes.spec.ts', 'the generic defending card pages its own deck with the same arrows',
     [['["land","attempt","defense"].includes(this._landMode)&&this._landPage!=null&&(n.key==="ArrowLeft"', '["land","attempt"].includes(this._landMode)&&this._landPage!=null&&(n.key==="ArrowLeft"']], 'arrows page the defender deck'],
+  // D-352 (Delta 6): S1, a landing laid out with the article put away is live, so showing the article
+  // mid-load publishes it pinned instead of holding it; and N1, the hand's half of D-351's hold.
+  ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
+    [['else if(!t)o.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
+  ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
+    [['l==null||l.toggleAttribute("data-reader-pending",a>0);return a}', 'l==null||l.toggleAttribute("data-reader-pending",!1);return a}']], 'the new hand is shown once, at its final place'],
   // D-350b: the header's ZERO-overlap mutants (v1.219.0's noprelift / noahead), scripted so the frame filter is
   // shown not to carry their kills. noprelift: the arrival and the URL intro make no room for the rows.
   ['noprelift-roll-start', 'camera-continuity.spec.ts', 'camera continuity.*roll start: the intro and the staged arrival',

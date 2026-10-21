@@ -551,6 +551,26 @@
       "file": "e2e/gen/holder-defense-window-fresh-refund-budget.spec.ts + e2e/gen/ready-test-expiry-autopick-burns-move.spec.ts",
       "test": "42 attack window spent by expiry: the defense window armed in full; 50 frozen belt-test hand: the question's window is armed",
       "change": "STALE TIMING (D-351, CI 931a7eea0: both red, not in the ledger): each read the decision clock straight after its card was built, but a reading-view card now publishes once its article renders and its parked clock arms on the next frame, which the pumped harness takes only when asked. Each waits for landSettled() and pumps one frame before reading; the claims (armed in full; armed and not drained) are unchanged. 2 of 2 each (H65)."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "NEW D-352: showing the article while its page loads never hides the live hand again",
+      "change": "D-352 S1 (review-claude Delta 6, MUST-FIX): REAL BREAK in D-351. A landing first laid out with the article put away published its live parts without marking its request, so showing the article mid-load held the live hand again (pending for 49 frames, t63-t859, while its card stayed live). _readerHold now marks such a landing live in the map view and, if the article is then shown while its page still loads, publishes it pinned at once, as the ceiling does; and the pin no longer releases on _landQ.answered, which a reading decline also sets (grading settles it as the explicit event). The journey: a Book-off boot, the landing's article held 2.5s, the article shown by mouse; the hand is never pending or hidden, and the late article does not move it. Control d352-book-rehold (app), killed at its claim against a green baseline."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts",
+      "test": "NEW D-352: past the ceiling, a film arriving while the answers are pinned never covers the hand",
+      "change": "D-352 S2 (review-claude Delta 6, MUST-FIX): REAL BREAK in D-351. The pin fixed the rows but not the media home: a film arriving while pinned (the caught submission's content chunk, here held past the ceiling and the article) was docked by the app as its own fixed overlay at y218-316 over the pinned row at y218-414. While pinned, the app now hands such a film to the reader at once, and the reader keeps the media home it was pinned with (its film and height): any other film waits hidden until the parts settle. A first height-only rule let a new film through for 5 frames while it still measured 0 before its thumbnails loaded. The journey traces the visible film and the row on every frame while pinned: no intersection, then grading releases the lift. Control d352-film-over-pin, killed at its claim."
+    },
+    {
+      "file": "e2e/journeys/systems-surface.spec.ts + neural/src/reader.src.js",
+      "test": "CI 931a7eea0 systems-rhythm:97 and systems-surface:236 (and locally 199, 344, 387, 637); NEW D-352 ready journey",
+      "change": "D-352 B1: REAL BREAK of this branch, an app race. Dev 557c57d14 was clean (H67 and H76: 690 of 690 over 15 full-file runs) and this branch intermittent before the fix, on D-351's bytes and on D-347/D-349's alike (H66, H70: 5 of 276); after it, 470 of 470 over 10 full-file runs interleaved with dev's (H76). A pointerdown logger (H70) showed every failing Study tools click at (399, 27), on the map, while the button had moved to (970, 73): the reader set data-reader-ready in the same task as render, but a reference page's first layout, a frame later, moves the head (with Study tools) out of the game flow, so a click measured at 'ready' landed where the button had been. open() now lays out in the same task before readiness can be observed. The new journey re-opens a cached System page (the race's exact condition) with the ready flip observed by a MutationObserver: Study tools is at its final rectangle when the reader says ready. Control d352-ready-before-layout. The existing Systems journeys are unchanged."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts + e2e/journeys/panic-card.spec.ts + e2e/dsl.ts + camera-continuity header",
+      "test": "D-352 N2, N3, N6, N5",
+      "change": "N2: NEW journey gating D5-S2 and N3: at arrival Home and PageUp never move the reader down (with End moving it as the premise), and the hand precedes the Questions label in the reader's DOM; controls d352-home-clamp-lost and d352-hand-after-questions. N3: panic-card:46 asserts its direction (below the escape tray in the article view, above it in the map view) instead of either order. N6: the app's landSettled() returns whether the landing published and emits land_publish_stalled when it gives up; the DSL fails the journey by name when the stall is the hold's (reader up, the article shown, not a reference page), as a SOFT expect so the journey still reaches its own claim: a hard throw preempted three controls' claim kills (H78; restored H79). N5: camera-continuity's header names the vintage of its asserted counts. N1: control d351-hand-hold-removed gates the hand's half of D-351's hold."
     }
   ]
 }

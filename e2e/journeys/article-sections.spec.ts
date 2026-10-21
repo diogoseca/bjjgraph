@@ -671,3 +671,65 @@ test('D-351: an exchange whose article lands late never moves the new card or ha
     expect(Math.max(...tops) - Math.min(...tops), `the new ${part} is shown once, at its final place`).toBeLessThan(0.5)
   }
 })
+
+// D-352 S1: a landing laid out with the article put away is live (its hand and card play in the
+// map view). Showing the article while that landing's page is still loading must not hide the live
+// hand again: it publishes pinned at once, as the ceiling does, so the late article cannot move it
+// either. Review-claude measured the failure: the hand pending (hidden, digits inert) for 49 frames,
+// t63 to t859, while its card stayed live.
+test('D-352: showing the article while its page loads never hides the live hand again', async ({ page }) => {
+  const j = journey(page)
+  await j.boot('/', { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
+  const held: string[] = []
+  await page.route((url) => url.pathname === '/Positions/Mount/Top', async (route) => {
+    if (route.request().resourceType() === 'fetch') { held.push(new URL(route.request().url()).pathname); await new Promise((r) => setTimeout(r, 2500)) }
+    await route.continue()
+  })
+  await j.land('Mount Top')
+  await expect.poll(() => held.length, { message: 'premise: the landing asked for its article, and it is held' }).toBeGreaterThan(0)
+  const before = await page.evaluate(() => { const a = (window as any).__neural, r = a._reader; return { book: a.get('readerBook', true), ready: r.root.dataset.readerReady === 'true' && r.path === '/Positions/Mount/Top', hand: !!a.optionsRef.current?.querySelector('[data-tech]') } })
+  expect(before, 'premise: the hand is live in the map view and its article has not rendered').toEqual({ book: false, ready: false, hand: true })
+  await page.evaluate(() => {
+    const w = window as any, out: any[] = (w.__d352 = [])
+    const tick = () => {
+      const a = w.__neural, r = a._reader, row = a.optionsRef.current, box = row?.getBoundingClientRect()
+      out.push({ book: a.get('readerBook', true) !== false, ready: r.root.dataset.readerReady === 'true' && r.path === '/Positions/Mount/Top', pending: !!row?.hasAttribute('data-reader-pending'), shown: !!row && !!box!.height && getComputedStyle(row).visibility !== 'hidden', top: box ? Math.round(box.top * 2) / 2 : null })
+      if (!w.__d352stop) requestAnimationFrame(tick)
+    }
+    requestAnimationFrame(tick)
+  })
+  await j.clickByMouse('[data-layer-show="book"]', 'show the article while its page is still loading')
+  await expect.poll(() => page.evaluate(() => (window as any).__d352.filter((x: any) => x.ready).length), { timeout: 10_000, message: 'the held article rendered' }).toBeGreaterThan(10)
+  const S = await page.evaluate(() => { (window as any).__d352stop = true; return (window as any).__d352 as any[] })
+  const book = S.filter((x) => x.book)
+  expect(book.some((x) => !x.ready), 'premise: the article was shown while its page was still loading').toBe(true)
+  expect(book.filter((x) => x.pending || !x.shown), 'the live hand is never hidden again').toEqual([])
+  const i = S.findIndex((x) => x.ready)
+  expect(S.slice(i, i + 10).map((x) => x.top), 'and the late article does not move it').toEqual(Array(Math.min(10, S.length - i)).fill(S[i - 1].top))
+})
+
+// D-352 N2: D5-S2's clamp and N3's order, each gated. At arrival the reader sits above the question,
+// so Home and PageUp never move the view down; and the hand comes before the closed Questions label in
+// the reader's DOM, so Tab reads Moves, then Questions.
+test('D-352: at arrival Home and PageUp never move the reader down, and Moves precede Questions in the DOM', async ({ page }) => {
+  const j = journey(page)
+  await j.boot('/')
+  await j.land('Mount Top')
+  await expect(page.locator(READY)).toBeVisible()
+  await j.readerLayoutSettled()
+  const order = await page.evaluate(() => {
+    const a = (window as any).__neural, r = a._reader, row = a.optionsRef.current, label = r.gameSections.find((s: any) => s.part === 'card').card
+    return { adopted: row.parentElement === r.game, before: !!(row.compareDocumentPosition(label) & Node.DOCUMENT_POSITION_FOLLOWING) }
+  })
+  expect(order, 'the hand comes before the Questions label in the reader flow').toEqual({ adopted: true, before: true })
+  const top = () => page.evaluate(() => (window as any).__neural._reader.root.scrollTop)
+  const top0 = await top()
+  for (const key of ['PageUp', 'Home']) {
+    await page.keyboard.press(key)
+    await j.readerLayoutSettled()
+    expect(await top(), `${key} never moves the view down at arrival`).toBeLessThanOrEqual(top0)
+  }
+  await page.keyboard.press('End')
+  await j.readerLayoutSettled()
+  expect(await top(), 'premise: the keys reach the reader (End moves it to the question)').toBeGreaterThan(top0)
+})

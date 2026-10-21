@@ -569,10 +569,18 @@ export class Journey {
    * full timeout on every proven deck.
    */
   async landSettled() {
-    await this.page.evaluate(async () => {
+    // D-352 N6: the app now says whether the landing published. A stall the hold owns (reader up,
+    // the article shown, not a reference page) fails the journey by name instead of passing silently.
+    // SOFT, so the journey still reaches its own claim: a hard throw here preempted three controls'
+    // claim-level kills (landing-never-published-picker, -no-decks, -list-item, H78).
+    const stalled = await this.page.evaluate(async () => {
       const a = (window as W).__neural;
-      if (a && typeof a.landSettled === "function") await a.landSettled();
+      if (!a || typeof a.landSettled !== "function") return null;
+      const published = await a.landSettled();
+      const r = a._reader;
+      return published === false && !!r && a.get("readerBook", true) !== false && !r.root.hasAttribute("data-reference") ? a._landIdx : null;
     });
+    expect.soft(stalled, `landSettled: landing ${stalled} is still unpublished 1.5s after its question settled (land_publish_stalled)`).toBeNull();
     return this;
   }
 

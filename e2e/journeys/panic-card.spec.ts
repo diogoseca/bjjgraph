@@ -37,9 +37,11 @@ const geo = (page: any) =>
       isLandCard: p.classList.contains("ng-landcard"),
       isLandEl: a._landEl === p,
       mode: p.getAttribute("data-landcard"),
-      // D-338: the article view reads Moves then Questions, so the drill sits below the escape tray
-      // (the map view keeps it above); either way it must clear the tray, never overlap it.
-      clearOfTray: Math.round(Math.max(rb.top - pb.bottom, pb.top - rb.bottom)),
+      // D-338: the article view reads Moves then Questions, so the drill sits below the escape tray;
+      // the map view keeps it above. D-352 N3: each view asserts its own direction.
+      view: a.get("readerBook", true) !== false ? "article" : "map",
+      belowTray: Math.round(pb.top - rb.bottom),
+      aboveTray: Math.round(rb.top - pb.bottom),
       width: Math.round(pb.width),
       escapeCards: row.querySelectorAll("[data-tech]").length,
     };
@@ -62,7 +64,9 @@ test("the panic drill is a landing card, clear of the escape hand @curated", asy
   expect(g!.isLandEl, "...and occupies the landing-card slot, so all its machinery applies").toBe(true);
   expect(g!.mode).toBe("defense");
   // measured before the fix at 1440x900: card bottom 664 vs tray top 657, a 7px overlap
-  expect(g!.clearOfTray, "it clears the escape tray").toBeGreaterThanOrEqual(0);
+  if (g!.view === "article") expect(g!.belowTray, "in the article view it sits below the escape tray, clear of it (D-338: Moves, then Questions)").toBeGreaterThanOrEqual(0);
+  else expect(g!.aboveTray, "in the map view it sits above the escape tray, clear of it").toBeGreaterThanOrEqual(0);
+  expect(g!.view, "premise: this journey reads the article view").toBe("article");
   expect(g!.width, "card width, not a 236px tray item").toBeGreaterThan(300);
   expect(g!.escapeCards, "and every escape is still dealt").toBeGreaterThan(0);
 });

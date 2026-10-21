@@ -464,6 +464,8 @@ test('@curated reduced motion suppresses CSS and frame-driven danger without cha
 // executed an escape move instead (10 full-file runs, 180 tests: dev 557c57d14 0 red, this
 // branch 6, H49; traced in H50/H51). The reader now holds a landing until the article it asked for
 // renders (800ms at most), and parts the ceiling publishes stay pinned until they settle.
+// These journeys trace the ANSWERS only; the hand's half of the hold is gated by article-sections'
+// exchange journey (control d351-hand-hold-removed, D-352 N1).
 // Delaying the article fetch, not the deck, is what makes the state reachable on demand. Only the
 // defender page is held: the reader fetches the hub after it, and holding both would stack.
 const LOOP_DEFENDER = '/Submissions/Loop-Choke/from-Half-Guard/Defender'
@@ -524,5 +526,41 @@ test('D-351: past the 800ms ceiling the answers publish, and the late article st
   expect(await page.evaluate(() => !!(window as any).__neural._optList), 'the click executed no escape move').toBe(true)
   expect((await mechanics(page)).grades.map((g: any) => g.beat), 'the measured click graded the intended answer').toContain('mc_correct')
   // Graded is settled: the held-back Videos lift happens now, after the player's own input.
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.videoCard), 'the Videos section lifts once the answer is graded').toBe(true)
+})
+
+// D-352 S2: past the ceiling the answers publish pinned; a film that arrives while they are pinned
+// (the caught submission's content chunk is fetched at the catch, and here it lands after both the
+// ceiling and the article) must wait, never opening the media home over the pinned hand. Review-claude
+// measured the failure at 1440: the film at y218-316 over the pinned row at y218-414 for 164 frames.
+test('D-352: past the ceiling, a film arriving while the answers are pinned never covers the hand', async ({ page }) => {
+  const late = lateArticle(page, 1500)
+  let chunks = 0
+  const j = await catchLoop(page, false, false, async () => {
+    await late.route()
+    await page.route('**/static/neural/content/*.json', async (route) => { chunks++; await new Promise((r) => setTimeout(r, 2600)); await route.continue() })
+    await page.evaluate(() => {
+      const w = window as any, out: any[] = (w.__d352 = []), t0 = performance.now()
+      const box = (el: any) => { if (!el || !el.getClientRects().length || getComputedStyle(el).visibility === 'hidden') return null; const r = el.getBoundingClientRect(); return r.height ? [r.left, r.top, r.right, r.bottom] : null }
+      const tick = () => {
+        const a = w.__neural
+        out.push({ t: Math.round(performance.now() - t0), pinned: !!a._readerPin, film: !!a._landFilmEl, filmBox: box(a._landFilmEl), row: box(a.optionsRef.current) })
+        if (!w.__d352stop) requestAnimationFrame(tick)
+      }
+      requestAnimationFrame(tick)
+    })
+  })
+  await expect.poll(() => page.evaluate(() => { const a = (window as any).__neural; return !!a._readerPin && !!a._landFilmEl }), { timeout: 10_000, message: 'premise: the film arrived while the answers were pinned' }).toBe(true)
+  await j.advance(200)
+  const S = await page.evaluate(() => { (window as any).__d352stop = true; return (window as any).__d352 as any[] })
+  expect(late.held.length, 'premise: the defender article fetch was held 1.5s').toBeGreaterThan(0)
+  expect(chunks, 'premise: the content chunk was held past the ceiling').toBeGreaterThan(0)
+  const pinned = S.filter((x) => x.pinned && x.film && x.row)
+  expect(pinned.length, 'premise: frames with the film present while pinned').toBeGreaterThan(3)
+  const over = pinned.filter((x) => x.filmBox && x.filmBox[0] < x.row[2] && x.filmBox[2] > x.row[0] && x.filmBox[1] < x.row[3] && x.filmBox[3] > x.row[1])
+  expect(over, 'the film never covers the pinned hand').toEqual([])
+  const mc = (await mechanics(page)).mc!
+  await j.clickByMouse(`[data-panic-mc-opt="${mc.correct}"]`, 'answer the panic card where it sits')
+  // Graded is settled: the held-back film and Videos lift follow the player's own input.
   await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.videoCard), 'the Videos section lifts once the answer is graded').toBe(true)
 })

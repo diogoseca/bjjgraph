@@ -161,6 +161,11 @@ const mutants = [
   ['d351-hold-removed', 'defending-landing.spec.ts', 'D-351: a catch whose article lands late', s => replace(s, 'const hold = a._readerHold(this, available, W, H), pin', 'const hold = Math.min(0, a._readerHold(this, available, W, H)), pin')],
   ['d351-deferral-removed', 'defending-landing.spec.ts', 'D-351: past the 800ms ceiling', s => replace(s, ', pin = a._readerPin;', ', pin = null;')],
   ['d351-both-removed-exchange', sections, 'D-351: an exchange whose article lands late', s => replace(replace(s, 'const hold = a._readerHold(this, available, W, H), pin', 'const hold = Math.min(0, a._readerHold(this, available, W, H)), pin'), ', pin = a._readerPin;', ', pin = null;')],
+  // D-352 (Delta 6): S2's media-home pin, the ready-means-laid-out fix, and N2's two gated D-347 fixes.
+  ['d352-film-over-pin', 'defending-landing.spec.ts', 'D-352: past the ceiling, a film arriving', s => replace(s, 'homeMedia = homeMedia && this.media === pin.film && h <= pin.mh;', 'homeMedia = homeMedia;')],
+  ['d352-ready-before-layout', 'systems-surface.spec.ts', 'D-352: a reference page says ready only once', s => replace(s, '      // out of the game\'s header row; a frame later, a click aimed at "ready" hit the map instead.\n      this.layoutNow();\n', '      // out of the game\'s header row; a frame later, a click aimed at "ready" hit the map instead.\n')],
+  ['d352-home-clamp-lost', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'this.root.scrollTop = /Home|Up/.test(event.key) ? Math.min(top, to) : to;', 'this.root.scrollTop = to;')],
+  ['d352-hand-after-questions', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'if (key === "hand") this.gameSections[1].card.before(el); else this.game.append(el);', 'this.game.append(el);')],
 ]
 const selection = process.env.SECTIONS_MUTANT_ONLY;
 const selected = selection ? mutants.filter(([name]) => new RegExp(selection).test(name)) : mutants;

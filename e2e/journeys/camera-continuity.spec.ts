@@ -43,7 +43,8 @@ import { journey } from "../dsl";
  * wholly off screen covers nothing: the no-Videos exchange at 390 failed 5 of 5 on 5 such frames,
  * mid arc flight, pair right edge at x -140 to -214 and label ending at x <= -0.07, while all 245
  * frames with the pair on screen cleared the rows by >= 30.2px. Asserted / excluded per run, 5
- * full-file runs (H45): roll start 287 / 0 and URL arrival 418-420 / 0 at both widths; the exchange
+ * full-file runs (H45, on pre-D-351 bytes; review-claude's Delta 6 measured the final bytes at 279,
+ * 128-129, 235-237 and 101 or 125 for the same rows): roll start 287 / 0 and URL arrival 418-420 / 0 at both widths; the exchange
  * at 390 137 / 223 and without Videos 245 / 115, every run; at 1440 109 / 0 in 4 runs and 134 / 226
  * in 1 (its rows were up through the execution). Every excluded frame is the EXECUTED technique's
  * pair, left behind off screen while the camera arcs to the landing (no-Videos run: frames 168-282,
