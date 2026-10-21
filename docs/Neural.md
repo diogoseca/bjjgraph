@@ -82,7 +82,7 @@ principles, setup/recognition, options, safety, mistakes, the rest, Related; 6px
 last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
 shared hub safety. Failed loads offer Retry.
 
-One close icon (D-338): the card's and hand's ghost ✕, on every section's corner too. A closed
+One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. A closed
 part leaves a light label (glyph above name, no box) that reopens it. Contents floats at the right-control inset, taking no layout
 space. It hides at width ≤640px, height ≤500px, or a gutter below 212px (below
 1152px). Its rows only navigate and dim what is closed; its heading reads role
@@ -94,7 +94,7 @@ With Book shown no control turns the article, Map or Feedback off (D-338: no Vie
 opens the pane, as Browse did. Book off (a saved state) keeps the restore shelf. `landFilm/Card/Hand/Map/Feedback` store normal visibility; with the article shown
 the film follows `readerSection.videos`. `readerBook` controls the article.
 Hidden questions are not built; hidden hands stay dealt and untimed. Card and hand publish once
-the landing's article renders (≤800ms, D-351); later content never moves them. Focus is retired (D-338):
+the landing's article renders (≤800ms, D-351); late Videos or film never move them. Focus is retired (D-338):
 `readingFocus` and `readingCard/Hand/Map/Feedback` are not read. Restores start no play. References offer Study tools.
 
 Content URLs and links prepare dormant controls (`NG_READING_DEFAULT_ON_CONTENT_URL`).

@@ -334,7 +334,7 @@ requests it only after the real hand mounts; content arrivals prepare dormant co
 reading intent. `reading.css` is deferred and must finish loading before measuring the shelf or docking
 game controls. Both remain excluded from the game first-hand request window.
 The eager `_readerBand()` reserves the same node band used by the loaded reader before a deck
-or article arrives: 144px, 136px on phones, 64px on short landscape screens. This keeps the first
+or article arrives: 144px, 186px on phones (D-349), 64px on short landscape screens. This keeps the first
 camera target stable. Once loaded, the reader owns one native scrollport containing the existing game
 controls followed by semantic article sections. Layout responds to the available pane width.
 

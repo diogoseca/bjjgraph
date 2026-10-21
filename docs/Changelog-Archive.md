@@ -11649,6 +11649,40 @@ baseline: reader 84 of 85 killed, every one at the message it was killed at befo
 D-351 controls' lines moved); execution-node-band-removed is the recorded non-kill. App 9 of 11, noahead
 x2 recorded. Receipts: scratch/article-sections/claude-verify/H34-H63.
 
+Delta 6 (review-claude, HOLD) and D-352, sections-claude, 2026-10-21. CI 931a7eea0 was red on 4 tests,
+all this delta's. The 2 generated specs were STALE TIMING from D-351: each read the decision clock as soon
+as its card existed, and a reading-view card now publishes once its article renders, its parked clock
+arming on the next frame; each settles and pumps one frame (ce98a974b). The 2 Systems reds
+(systems-rhythm:97, systems-surface:236) were an intermittent REAL BREAK of this branch: dev 557c57d14 690 of 690 over 15 full-file runs (H67, H76), this branch 5 of 276 (H70) and 2 of 138 (H66), on D-347/D-349's bytes as well, and after the fix 470 of 470 over 10 runs interleaved with dev's (H76). A
+pointerdown logger (H70, 5 failing of 276) put every failing Study tools click at (399, 27), on the map,
+while the button had moved to (970, 73). The reader set data-reader-ready in the same task as render, but
+a reference page's first layout, one frame later, moves the head (Study tools) out of the game flow, so a
+click measured at "ready" landed where the button had been. It showed on D-347/D-349's bytes too (H66), so
+it predates D-351; four instrumented probes never failed because their own round trip let the layout run.
+open() now lays out in the same task before readiness is observable. The gating journey re-opens a
+cached System page, the race's exact condition (no frame between open and ready), with the ready flip
+observed by a MutationObserver; its first form, an ordinary arrival, let the control survive 3 of 3,
+because open()'s own pre-fetch sync schedules the layout a slow fetch then waits for.
+S1 (MUST-FIX): a landing first laid out with the article put away published its live parts without
+marking its request, so showing the article mid-load held the live hand again (49 frames, the card still
+live). It is now marked live in the map view and, shown mid-load, publishes pinned at once; and the pin no
+longer releases on _landQ.answered, which a reading decline also sets, since grading settles it as an
+event. S2 (MUST-FIX): the pin fixed the rows, not the media home. A film arriving while pinned (the caught
+submission's content chunk, held past the ceiling) was docked by the app as its own overlay at y218-316
+over the pinned row. While pinned the app hands such a film to the reader at once, and the reader keeps
+the media home it was pinned with, its film and its height; a height-only rule leaked 5 frames while the
+new film still measured 0 before its thumbnails loaded. Nits: N1 the hand's half of the hold gets its
+control; N2 a journey gates D5-S2's arrival clamp and N3's DOM order, two controls; N3 panic-card:46 asserts
+its direction per view; N4 the stale texts; N5 camera-continuity's header names its counts' vintage; N6
+landSettled() returns whether the landing published and beats land_publish_stalled, and the DSL fails
+the journey by name on a hold stall, softly: a hard throw preempted three controls' claim kills (H78). Controls on the final bytes, each against a green unmutated baseline: reader 88 of 89 killed, every one at
+the message it was killed at before, execution-node-band-removed the recorded non-kill; app 11 of 13, noahead
+x2 recorded (H78, H79). The ready control survived 3 of 3 on an ordinary arrival and is killed 3 of 3 on the
+cached re-open (H75, H77). The review's prevention rule, on these bytes (H77): the whole generated suite 101 of 101, every Systems file,
+the 52 reviewer-grep files 458 of 459, defending-landing x2 42 of 42; the one red is systems-demand-live:46,
+the local site's (no systems.json served). Payload: deferred 506,636 B, one exact step of +130 inside D-351's 506,799; eager gzip 348,698, +2,286 of the
+5,000 cap. Receipts: scratch/article-sections/claude-verify/H64-H79..
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
