@@ -150,7 +150,13 @@ export async function installReader(app) {
   };
   for (const name of ["expandClip", "collapseClip"]) {
     const original = app[name];
-    app[name] = function (...args) { const result = original.apply(this, args); reader.layout(); return result; };
+    app[name] = function (...args) {
+      // D-353: a play is the player's own input and settles a pinned landing, as grading does: the
+      // rows move down beside the opened player. Pinned, it covered the hand and its next relayout
+      // hid the video. No sync here: moving a film that just started could pause it.
+      if (name === "expandClip") this._readerPin = null;
+      const result = original.apply(this, args); reader.layout(); return result;
+    };
   }
   const scroll = app._readApply;
   app._readApply = function (...args) { const result = scroll.apply(this, args); reader.layout(); return result; };
@@ -993,7 +999,9 @@ class Reader {
       if (pin) {
         const h = homeMedia ? filmHeight() : 0;
         if (!("film" in pin)) { pin.film = homeMedia && this.media; pin.mh = h; }
-        homeMedia = homeMedia && this.media === pin.film && h <= pin.mh;
+        // Sticky: a hidden home measures 0, so re-testing the height would show the film again.
+        homeMedia = homeMedia && !pin.hid && this.media === pin.film && h <= pin.mh;
+        if (!homeMedia) pin.hid = true;
       }
       let start = Math.max(6, showCard || showHand || homeMedia ? this.gameTop ?? 64 : 0);
       if (chrome) start += chrome.offset;
@@ -1032,6 +1040,9 @@ class Reader {
       style(this.mediaHome, "width", mediaWidth + "px", "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
       // phone). Measuring the shared host keeps its future renderer independent.
+      // D-353: a film in the media home is observed like the Videos card, so its growth (a played
+      // clip opens over frames) relays out the rows below it instead of covering them.
+      if (homeMedia) this.resize.observe(this.media);
       const mediaHeight = homeMedia ? filmHeight() : 0;
       const cardHeight = showCard ? card.getBoundingClientRect().height : 0, handHeight = showHand ? row.getBoundingClientRect().height : 0;
       const handoff = a._executionDock()?.reader;
