@@ -359,14 +359,16 @@ Contents is a fixed sibling of the reader scrollport, in ambient state at z:6. T
 680px maximum width and available-pane centre never depend on it. Its right inset is measured
 from the account control (24px fallback); the 200px TOC appears only when the measured gutter
 also leaves 12px to the article. That is 1152px with the pane closed; a narrower free pane can
-hide it earlier. Phones and short landscape screens retain section headers only. The transparent
-labels use a one-pixel dark text halo against graph highlights, in both page themes; eyes have
-the same local shadow. There is no panel, background, border or box shadow. Inline pointer events
+hide it earlier. Phones and short landscape screens close and reopen sections on the sections
+themselves. The transparent labels use a one-pixel dark text halo against graph highlights, in both
+page themes. There is no panel, background, border, box shadow or eye (D-338). Inline pointer events
 and `attachInput`'s explicit `_readerTocEl` early return protect real mouse clicks; TOC scrolling
 and keys own their input. Navigation/loading, Book hiding and teardown also hide/remove the TOC.
-Its heading names the technique, role and origin. Questions and Moves have their own named
-headers/eyes and index entries. Their existing game preferences remain the source of visibility;
-the section controller never reconstructs a hand or grades a question. The bottom shelf is
+Its heading reads role first, then technique and origin, as one phrase (D-338). Videos, Moves and
+Questions have index entries but no header: each closes with its own ✕ and a closed one leaves a
+light label that reopens it. Their existing game preferences remain the source of visibility;
+the section controller never reconstructs a hand or grades a question. Where the index fits, the
+Moves tray is symmetric about the column and ends 12px short of it, so a big hand scrolls. The bottom shelf is
 hidden with Book shown and remains the restore path with Book off.
 
 D-318 U4a replaces the former TOC gutter correction: `rollCamTarget` centres the node and label
@@ -375,7 +377,7 @@ sections over the stationary node. No reader wrapper modifies the camera's pane 
 manual exploration, execution and leased subjects retain their ownership. The journey measures
 drawn labels and both orbs across desktop, tablet and phone widths, then proves prose occlusion;
 its control restores the former gutter correction. Link colour inherits the row immediately (including
-hover), keeping a collapsed label and its eye equally grey despite the site's anchor styles.
+hover), keeping a collapsed row's label grey despite the site's anchor styles.
 
 During execution only, `executionCameraTarget` passes its chosen subject and target to the
 loaded reader's `frameExecution`. A card scrolled to the top can leave no vertical space above

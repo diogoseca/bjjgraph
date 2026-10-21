@@ -11544,6 +11544,111 @@ H23's journeys and controls first ran into a server the stopped H22 runner had l
 port; its U9 screens were unaffected. Payload: deferred 506,382 B, exact, inside D-331's allowance of 506,399 (two steps, each its own
 commit); eager gzip 348,143. Receipts: scratch/article-sections/claude-verify/H19-H33.
 
+CI 11e7f83ff (D-346 to D-351), sections-claude, 2026-10-20/21. Validation, the build and core shards 1
+and 2 green; shards 3 and 4 and the generated suite had 7 reds, all D-338 consequences in specs the
+stopped H22 never ran. review-claude's Delta 5 (HOLD) showed reds 1-2 were STALE SPEC: beside the
+index the Moves tray is a 968px scroller ending at 1204 at 1440, so Gift Wrap sat past its clip, and
+no visible card was covered. D-347 kept the symmetric tray; the full-width variant (the index starting
+below the tray, +221 B over the allowance) lives on side/d347-fullwidth-tray, and the tray width went to
+the owner as U9 screens: moves fully visible on Mount Top at 1440/1152, as built 6/4, one-sided 7/5,
+full width 8/7. Migrated with claims kept: roll-execution:225 and card-click-contract:101 scroll the
+tray to the card first; the generated cue test's proxy is the row's rectangle; panic-card:46 now says
+the drill clears the escape tray from below (D-338 reverses its direction); option-edge:700 exposes a
+strip above the sheet; pane-layout:82 asserts the card against the hand; roll-card:205 and
+outcome-on-cards:129 wheel or answer where the reader is, the latter with a measured mouse click.
+Delta 5 fixes: both control runners now require a green unmutated baseline per spec and grep before a
+kill counts (D5-B2), which caught execution-occupied-space-lost's earlier false kill; Home and PageUp
+never move the view down (D5-S2); the hand is adopted before the closed Questions label so Tab order
+reads Moves, then Questions (N3); reading-navigation:190 keeps its Book-restore claim from a saved
+Book-off boot (D5-S4); new claims for the face staying in the scrollport while paging, the tray centred
+on the column, and the deck backs' clearance, each with a control (N1, N2); Architecture.md updated (N6).
+D5-S3's new 390 exchange from a node with no Videos section (Reverse Mount Top) was red on head, a
+REAL BREAK: at the 136px phone band its arc carried the pair, on screen (fx 29), 3px into the Moves
+row (lo 223.1 against rows 220), room the 44px Questions header and its 6px gap had supplied before
+D-338. D-348 (start the flow 12px under the band) moved the rows and the pair together (fx 19.9, lo 229.0
+against rows 226) and was reverted. D-349 grew the phone band by exactly that header and gap, to 186.
+The test still failed 5 of 5 at 186, on the same 5 frames every run (t 13.087 to 13.153, mid arc flight),
+and a probe that dumped all 360 frames (H44) showed why: on those frames the pair was wholly OFF screen,
+right edge at x -140 to -214 and its label ending at x <= -0.07, and the helper compared lo with the rows
+and never the x extent. Every one of the 245 frames with the pair on screen cleared the rows by at
+least 30.2px. D-350b aligned the assertion with its claim: a frame is excluded only when the whole
+silhouette (the same 1.6r as lo) lies outside [0, W], both counts are reported per run, and fewer than
+31 asserted frames fail. Asserted / excluded per run over 5 full-file runs (H45, 135 of 135 green): roll start
+287 / 0 and URL arrival 418-420 / 0 at both widths; the exchange at 390 137 / 223 and without Videos
+245 / 115 every run; at 1440 109 / 0 in 4 runs and 134 / 226 in 1. Every excluded frame is the executed
+technique's pair, left behind off screen while the camera arcs to the landing; from the landing on,
+the new current node is on screen and asserted. The header's ZERO-overlap mutants (v1.219.0's noprelift,
+noahead) are now scripted controls; noprelift is killed at its claim at both
+sites under the filter. noahead (at both widths) and execution-node-band-removed pass under the
+filtered helper and the pre-D-350b one alike, so no kill was lost to the filter. They are recorded as
+NON-KILLS, and their rows stay in the runners so the receipts show them. noahead: a reading-view
+exchange frames through frameExecution, so the prediction decides only a map-view exchange, and no
+journey runs one. execution-node-band-removed: since D-338 everything below the 390 band is article
+content that the free search already counts as occupied, so it lands in the band anyway. The
+orchestrator opened two follow-ups: a map-view exchange journey for noahead, and a 1440 probe of
+whether D-329's free search can pick a gutter beside the column. The reader now shares one reference regex,
+13 B smaller, so the deferred payload stays under its ceiling without a step.
+Before the push every journey in the reviewer's grep ran locally (H46, D-347): the 16 generated files
+17 of 17, the 52 core files 450 of 453. systems-demand-live:46 is the local site's (no systems.json
+is served; red in every multi-file local run, green on CI). landcard-modes:349 was STALE TIMING, red in
+both 52-file runs (H36, H46) and green alone: it pressed ArrowRight once the defense card's shell was
+visible, one deck fetch before its question docks, and an arrow with no question pages nothing.
+Delaying that fetch 1.5s reproduced the red exactly (no question at the press, 0 pages, 1/5) and
+settling first paged once (H48); the press now follows landSettled() with the mounted first card as a
+premise, control defense-arrows-lost. defending-landing:251 (right) was red in two branch runs (H20, H46) and green in others, so the
+orchestrator asked for dev as the reference (H49, 10 full-file runs each, interleaved): dev 557c57d14 0 reds
+in 180 tests, this branch 6 (251 right and wrong, 316 x3 and its paging variant x1), every one an answer
+click that executed an escape move instead ("Escaping, Frame against the attacker's bicep and hip").
+REAL BREAK, an app race from D-338 (D-351): the panic card now sits in the reader column under Videos and
+Moves, and the catch opens the submission's defender article. Traced every frame (H50, H51), that article
+arrived 29-79ms after the card was clickable: the film first sat in the 98px media home, then the
+article's Videos card (212px) was inserted above the hand, and layoutNow moved the hand and the answers
+down 114px. clickByMouse had verified the answer owned the point, so the click at its old centre landed in
+the moved hand. Option (a), scrolling the reader by the same delta, was ruled first and withdrawn on
+evidence: the scroll carries the node band, so the late Videos card would have covered the current node.
+(b) as built: _queueReader stamps each request with its landing (one request per landing, kept by a
+backfill; a path that opens no article marks it skipped), and _readerHold() keeps the card and hand
+(with the deck backs, arrows and hand close) data-reader-pending, hidden, with the clock parked and keys
+inert, until the article the landing asked for has rendered, 800ms at most. A published request is
+never held again. At the ceiling the parts publish pinned (_readerPin): the reader keeps their
+rectangles and holds back the Videos lift and the film's move until they settle (a graded card as an
+event, since a correct defense answer mounts the next question at once; the card or hand closed; the
+next landing; the article put away; a new viewport). landSettled() also waits for publication. New
+journeys, each with a control killed at its claim against a green baseline: a catch with the defender
+article held 500ms (no answer before the article, one rect, a measured click grades; d351-hold-removed),
+past the ceiling at 1.5s (published first, never moved, the lift released by grading;
+d351-deferral-removed), and an exchange to Knee on Belly with role pages held 500ms (card and hand each
+at one place; d351-both-removed-exchange, since either mechanism alone keeps it still). Payload: the hold first cost 1,000 B of deferred
+JS (es2019's expansion of the reader's optional chains), so the decision moved into the eager app and the
+reader only reads it: deferred 506,506 B, one exact step of +124 inside D-351's 506,799 (D-347's fixes had
+measured 506,369), and eager gzip 348,627, +2,215 of D-327's 5,000 cap. Two built-but-superseded slots
+(H52, H53) were stopped mid-run, and the first stop leaked: SIGTERM to a bash waiting on its child is
+deferred, so the body went on to its mutant runner without the lock; the runner was killed and the next
+slot rebuilt the bundle before testing. The renderer differentials (defending-landing 252 x3 and 294) went
+20 of 20 red on the hold's bytes, STALE TIMING: mechanics read straight after the pumped catch found the
+generic card's clock still parked, and the legacy fixture, which never queued the reader, armed ticks
+earlier. The retired renderer now runs under the same reader contract, and catchLoop pumps one frame after
+publication so both clocks arm on one tick: 12 of 12, still exact equality (H60).
+defending-landing then ran 10 full-file runs on head (H60): 200 of 200, the 18 original
+tests 180 of 180 and the two D-351 journeys 20 of 20. The exchange journey: 5 of 5 (H57).
+Controls on the final bytes (H47), each against a green unmutated baseline. Reader: 81 of 82 killed.
+51 died at the same line as before. 25 died at the same message, on lines this round's spec edits had
+moved. 3 now die at their named claim after Delta 5 (execution-occupied-space-lost,
+d338-tray-under-index, d338-page-scrolls-flow-top). The 2 new N1 controls are killed.
+execution-node-band-removed is the recorded non-kill. App: 8 of 11 killed, and noahead x2 are the
+recorded non-kills. reading-band-lift-restored failed exactly at its claim (back.node.y), but D-347's
+pane-layout:82 note had moved that assertion from line 125 to 127, so the runner's claim line was
+corrected and the control re-run (H49): killed at its claim. landcard-modes x3 in full-file context: green.
+On the final bytes (H61), the reviewer-grep set: the 52 core files 453 of 456, the 16 generated 17 of 17.
+systems-demand-live:46 is the local site's. Two were STALE TIMING on the hold's bytes, both fixed and
+re-run 10 of 10 and 3 of 3 (H62, H63). outcome-on-cards:300 (3 of 10, no pin involved): putting the hand
+away moves the card up 140px on the reader's next layout frame, and the card was sometimes measured
+before it; the journey now waits for readerLayoutSettled(). panic-card:70: the drill's clock arms on
+the frame after publication, so the journey pumps one. Controls, each against a green unmutated
+baseline: reader 84 of 85 killed, every one at the message it was killed at before (only the three
+D-351 controls' lines moved); execution-node-band-removed is the recorded non-kill. App 9 of 11, noahead
+x2 recorded. Receipts: scratch/article-sections/claude-verify/H34-H63.
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
