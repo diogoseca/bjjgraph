@@ -2,6 +2,9 @@
 // shared FIFO lock. NEURAL_MUTANT_APP must be the neural.js served by NEURAL_MUTANT_CONFIG's private
 // server; NEURAL_MUTANT_ONLY optionally selects controls by name. No rebuild, capture, source or
 // baseline change is made, and the original bytes are restored after every control.
+// NON-KILLS, not coverage (H139 / ORCH-377): noahead-exchange-1440 and -390 both pass on green
+// unmutated baselines. Reading-view exchanges use frameExecution; these journeys do not exercise
+// the map-view `ahead` prediction. Keep their receipts and report both limits in the counts.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { createHash } from 'node:crypto'
@@ -12,7 +15,9 @@ const root = resolve(import.meta.dirname, '../..')
 const app = process.env.NEURAL_MUTANT_APP, config = process.env.NEURAL_MUTANT_CONFIG, out = process.env.NEURAL_MUTANT_OUT
 if (!app || !config || !out) throw Error('Name the served app, private config and evidence directory')
 const original = readFileSync(app), source = original.toString()
-// [name, spec, grep, [[minified target, replacement]...], claim: message text or the asserting line]
+// D-370: optional NEURAL_MUTANT_CSS, the served neural.css, for controls whose claim is an eager stylesheet rule.
+const cssPath = process.env.NEURAL_MUTANT_CSS, cssOriginal = cssPath ? readFileSync(cssPath) : null
+// [name, spec, grep, [[minified target, replacement]...], claim: message text or the asserting line, css edits?]
 const controls = [
   // D-326: the notice keeps showing while the move executes.
   ['reward-hold-lost', 'roll-execution.spec.ts', 'reward notice yields',
@@ -34,7 +39,7 @@ const controls = [
     'a saved Focus no longer hides the question'],
   // The follow-cam lifts the node against the reading band's edge again (two rest framings).
   ['reading-band-lift-restored', 'pane-layout.spec.ts', '1440px pane moves film, card, article',
-    [['c.band||(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus']], 127],   // back.node.y; moved from 125 by D-347's pane-layout:82 note
+    [['(!d.band||u)&&(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus'], ['active:!d.band||!!(u!=null&&u.band)', 'active:!0']], 131],   // back.node.y; 125 -> 127 (D-347), -> 131 (D-368's pane-layout:82). D-355: the band lifts only in a flight
   // H46 (2026-10-21): landcard-modes:349 now waits for the defender's question before its press; the arrows must
   // still be what pages it (the defense mode dropped from the landing card's arrow branch).
   ['defense-arrows-lost', 'landcard-modes.spec.ts', 'the generic defending card pages its own deck with the same arrows',
@@ -44,16 +49,14 @@ const controls = [
   ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
     [['else if(!t)n.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
   ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
-    [['d==null||d.toggleAttribute("data-reader-pending",a>0);return l&&a<=0', 'd==null||d.toggleAttribute("data-reader-pending",!1);return l&&a<=0']], 'the new hand is shown once, at its final place'],
+    [['h==null||h.toggleAttribute("data-reader-pending",a>0);return c&&a<=0', 'h==null||h.toggleAttribute("data-reader-pending",!1);return c&&a<=0']], 'the new hand is shown once, at its final place'],
   // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
   ['d354-pane-follow-lag', 'pane-keyboard.spec.ts', 'D-354: the landing deck and its arrows follow the pane',
     [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
   // D-354 (H95, H97): REAL BREAK from D-351. A hand the reader held starts its Win chance when it publishes.
   ['d354-held-hand-no-value', 'article-sections.spec.ts', 'D-354: a hand the reader held starts its Win chance',
-    [['return l&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
-  // D-354 N1 (Delta 8): a play after the article rendered places the pinned film in its Videos slot first.
-  ['d354-play-film-left-home', 'defending-landing.spec.ts', 'D-354 N1: a play after the article rendered',
-    [['!==!1&&i.syncMedia(),this._expandedClip', '!==!1&&!1,this._expandedClip']], 'the playing film sits in the lifted Videos slot, with no empty slot under it'],
+    [['return c&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
+  // RETIRED (D-368, layout C): d354-play-film-left-home; the game film never enters the Videos slot.
   // D-354 N3: the film's only remover ends the reader's media-home observation.
   ['d354-removed-film-observed', 'defending-landing.spec.ts', 'D-354 N3: a removed film',
     [['._ngRO.disconnect(),(e=this._reader)==null||e.resize.unobserve(this._landFilmEl);try{', '._ngRO.disconnect();try{']], 'the removed film is no longer observed by the reader'],
@@ -65,9 +68,48 @@ const controls = [
     [['_liftForLanding(e,t){let s=this.nodes&&this.nodes[t];', '_liftForLanding(e,t){return e;let s=this.nodes&&this.nodes[t];']], 'ZERO overlap URL arrival @'],
   // noahead: `_viewRect` ignores `ahead`, so a landing's band is not predicted before its rows mount.
   ['noahead-exchange-1440', 'camera-continuity.spec.ts', '1440px camera continuity.*an exchange lands on a new current node',
-    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),p=!0)', '!1&&(a=this._predictBottom(e.ahead),p=!0)']], 'ZERO overlap exchange @'],
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),u=!0)', '!1&&(a=this._predictBottom(e.ahead),u=!0)']], 'ZERO overlap exchange @'],
   ['noahead-exchange-390', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node',
-    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),p=!0)', '!1&&(a=this._predictBottom(e.ahead),p=!0)']], 'ZERO overlap exchange @'],
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),u=!0)', '!1&&(a=this._predictBottom(e.ahead),u=!0)']], 'ZERO overlap exchange @'],
+  // D-370: a live phone catch concedes, in order, until its escape answers fit 390x631 with 8px to spare. Each
+  // concession is necessary there: (1) the node band stays 186; (2) the account button keeps its reserve; (3) the
+  // panic card keeps its answers' padding (30 of its 43px).
+  ['d370-band-186-in-catch', 'defending-landing.spec.ts', 'D-368: in a catch at 390x631',
+    [['this.W<=640&&!this._phoneCatch()?186:144', 'this.W<=640?186:144']], 'every escape answer is on screen'],
+  ['d370-account-keeps-reserve', 'defending-landing.spec.ts', 'D-368: in a catch at 390x631', [],
+    'every escape answer is on screen', [['[data-phone-catch] .ng-acctwrap{visibility:hidden!important}', '']]],
+  ['d370-card-spacing-kept', 'defending-landing.spec.ts', 'D-368: in a catch at 390x631', [],
+    'every escape answer is on screen', [['[data-phone-catch] .ng-land-deck [data-panic-mc-opt]{padding-top:4px!important;padding-bottom:4px!important}', '']]],
+  // The concessions and the catch order are the LIVE catch's: a calm phone defender landing keeps the U7 order.
+  ['d370-calm-landing-concedes', 'article-sections.spec.ts', '390px choices precede section cards',
+    [['this.isMobile()&&!!this._defensePressure&&this._layerOn("card")', 'this.isMobile()&&this._landMode==="defense"&&this._layerOn("card")']],
+    "Moves lead the flow at the parts' step"],
+  // D-370 (2), D-325: a published question never moves for its film; the hold waits for the node's content chunk.
+  ['d370-late-film-unheld-390', 'reading-media-placement.spec.ts', '390px a film chunk landing after 2.6s',
+    [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
+  ['d370-late-film-unheld-1440', 'reading-media-placement.spec.ts', '1440px a film chunk landing after 400ms',
+    [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
+  // D-355: the band's soft hold engages only for a flight that reaches its lower edge (a URL arrival), never for one
+  // inside the band (a hover's re-aim), and it is what keeps the arrival clear of the Moves row.
+  ['d355-flight-lift-ungated', 'dual-pair.spec.ts', 'hovering any pair names it once',
+    [['active:!d.band||!!(u!=null&&u.band)', 'active:!0']], 'and the role moved below it'],
+  ['d355-flight-lift-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
+    [['(!d.band||u)&&(a.lift=', '!d.band&&(a.lift=']], 'URL arrival @'],
+  // ORCH-382 / H140-H144: the old 30px gate engages after contact; activating the subject only
+  // when its gate opens starts the spring too late. Both fail the unchanged ZERO-overlap pin.
+  ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
+    [['u.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+g+gt>d.bottom', 'u.band=(this.H||800)/2+(this.pairMid(h).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>d.bottom']], 'ZERO overlap URL arrival @'],
+  ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
+    [['(!d.band||u)&&(a.lift=', '(!d.band||u!=null&&u.band)&&(a.lift=']], 'ZERO overlap URL arrival @'],
+  // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
+  // its transition-end reveal reproduces the card extending below the Learning pane at 1440px.
+  ['concept-fit-reveal-lost', 'concepts-surface.spec.ts', 'principle film study.*1440px',
+    [['e.addEventListener("transitionend",_)', 'void 0']], 'the expanded portrait and its close button fit inside the reading pane'],
+  // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
+  // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
+  ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
+    [['if(u&&!((d=this._reader)!=null&&d.interacting))', 'if(u&&!this._reader?.intent&&!((d=this._reader)!=null&&d.interacting))']],
+    '...and the chosen escape stays on the table'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')
@@ -79,28 +121,36 @@ const baseline = (spec, grep) => {
   const key = spec + '\n' + grep
   if (!baselines.has(key)) {
     writeFileSync(app, original)
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--reporter=list'], { cwd: root, encoding: 'utf8', timeout: 240000 })
-    baselines.set(key, { green: run.status === 0 && / passed /.test(run.stdout || ''), exit: run.status })
+    // H139: discarded baseline stdout left two URL-arrival reds without their assertion evidence.
+    // Preserve the same unmutated run's log and JSON; a red baseline still cannot count as a kill.
+    const report = resolve(out, 'baseline-' + baselines.size + '.json')
+    const log = resolve(out, 'baseline-' + baselines.size + '.log')
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--output', resolve(out, 'baseline-' + baselines.size + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report } })
+    writeFileSync(log, (run.stdout || '') + (run.stderr || ''))
+    baselines.set(key, { green: run.status === 0 && / passed /.test(run.stdout || ''), exit: run.status, report, log })
   }
   return baselines.get(key)
 }
 try {
-  for (const [name, spec, grep, edits, claim] of controls.filter(([n]) => !only || only.test(n))) {
+  for (const [name, spec, grep, edits, claim, cssEdits] of controls.filter(([n]) => !only || only.test(n))) {
     const base = baseline(spec, grep)
-    let mutant = source
-    for (const [from, to] of edits) {
-      if (mutant.split(from).length !== 2) throw Error(name + ': the target moved: ' + from)
-      mutant = mutant.replace(from, to)
-    }
+    const once = (text, list) => list.reduce((out, [from, to]) => {
+      if (out.split(from).length !== 2) throw Error(name + ': the target moved: ' + from)
+      return out.replace(from, to)
+    }, text)
+    const mutant = once(source, edits)
+    if (cssEdits && !cssOriginal) throw Error(name + ': a stylesheet control needs NEURAL_MUTANT_CSS')
+    if (cssEdits) writeFileSync(cssPath, once(cssOriginal.toString(), cssEdits))
     // D-354: a mutant that does not parse never boots; its run waited out the 240s timeout, orphaned
     // the private server, and every later baseline read red on the busy port. Refuse it here instead.
     try { new Script(mutant) } catch (e) { throw Error(name + ': the mutant does not parse: ' + e.message) }
     writeFileSync(app, mutant)
     const report = resolve(out, name + '.json')
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--max-failures=1', '--reporter=list,json'], {
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--max-failures=1', '--output', resolve(out, name + '-results'), '--reporter=list,json'], {
       cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report },
     })
     writeFileSync(app, original)
+    if (cssOriginal) writeFileSync(cssPath, cssOriginal)
     writeFileSync(resolve(out, name + '.log'), (run.stdout || '') + (run.stderr || ''))
     const failures = []
     const visit = suite => {
@@ -119,7 +169,8 @@ try {
   }
 } finally {
   writeFileSync(app, original)
-  receipt.restored = hash(readFileSync(app)) === receipt.original
+  if (cssOriginal) writeFileSync(cssPath, cssOriginal)
+  receipt.restored = hash(readFileSync(app)) === receipt.original && (!cssOriginal || hash(readFileSync(cssPath)) === hash(cssOriginal))
   writeFileSync(resolve(out, 'receipt.json'), JSON.stringify(receipt, null, 2) + '\n')
 }
 if (!receipt.restored || receipt.results.some(r => !r.killed)) process.exitCode = 1
