@@ -11904,6 +11904,11 @@ Dev `8dde65e67` (PR 311, v1.229.1) was merged with a real merge commit, never a 
 The desktop late-film control also exposed a timing limit in its old 400ms stimulus: on identical app/spec bytes H145 had one mutant claim failure out of one run, while H147 had one mutant pass out of one run; both unmutated baselines were green. H147 passed the premise that the film was already present at first publication, so 400ms after the request did not guarantee arrival after publication. That H147 row remains a non-kill (H147 app total 25/28, including the two noahead non-kills). Only the control target changed to the existing desktop 2.6s past-ceiling journey, retaining the same published-answer assertion and both original positive journeys. H148 then killed that control at the published-answer claim; its final full app counts are reported separately above. The runner header preserves the historical non-kill.
 
 
+
+
+H149's local CI replay reached the full unit suite and stopped at one stale D-368 expectation: reader_handoff's Book case still put Moves at 186px with no gap, although approved layout C (2abde91be) deliberately places Moves one 8px phone step below the band. The run had 1,300 unit passes, one failure and one existing skip; six workflow steps were not reached. Classification preceded the edit: H150 ran the identical old unit file on CI-green 3c3a4f949 (13/13), D-368 2abde91be (12/13) and final dd9461f9f (12/13), both failures at that spacing claim. The migrated unit passes 13/13; a control removing the step fails at its owned Moves-spacing assertion (12/13). Only the exact coordinates migrate (186 -> 194; flow end 390.25 -> 398.25); the 186px band, hidden labels, end-gap and execution snapshot assertions remain. The approved premise is cited at the edit and in the migration ledger. No runtime or browser-spec bytes changed. The clean app fingerprint and complete CI replay follow this correction; H149 remains a recorded red, not a green retry claim.
+
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
