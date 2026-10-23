@@ -9,12 +9,12 @@
    "target": 300000,
    "action": 400000,
    "delta_cap": 5000,
-   "baseline": 346412,
-   "baseline_ref": "v1.227.7 (7ac17caa0)",
-   "baseline_at": "2026-10-19",
-   "baseline_reason": "D-327 (orchestrator, owner Q7 rule): checkpoint at dev's own measured level so the 5,000 B delta cap measures PR 307's own growth. Measured on the accepted D-324 capture of origin/dev 7ac17caa0 (pr-clip-curation-2-304613675; dev's own neural.js/neural.css): 346,412 B, +3,414 B over the 342,998 B accepted at v1.219.0 (0822b41ee). The PRs that moved it since that accept are dev's own merges before PR 307. Against it, PR 307 (article sections, D-318/D-322/D-325/D-326) measures 348,054 B, +1,642 B. Target, action and delta_cap untouched; the video cards (v1.230.0) tighten it again.",
+   "baseline": 339646,
+   "baseline_ref": "v1.230.0 (6bbc5bb6c)",
+   "baseline_at": "2026-10-23",
+   "baseline_reason": "D-365/D-368: merged article integration validated by H146 core/gen, H147 reader controls and H148 app controls; all14 app assets match accepted final bytes. Eager gzip346412 ->339646; deferred506825 remains its exact ceiling within506835 allowance.",
    "_comment": "TARGET 300,000 is the owner's figure verbatim ('target is <300k'). Measured at v1.188.2 the eager set is ~329,800, so this metric SITS IN THE WARN BAND ON ARRIVAL and is expected to keep warning until the payload is trimmed. That is intended - a target is an aspiration you are measured against, not a line you are currently inside - but it is worth saying plainly, because a gate that warns on every single run is a gate people learn to scroll past. ACTION 400,000 is the owner's figure verbatim, and it is ~70,000 above today: on the tree this policy was written against the OLD hard ceiling was 330,000 against a measured 329,808, i.e. 192 BYTES of headroom, so the next neural feature of any size was going red on arrival. DELTA CAP 5,000 is the number that keeps the 70,000 of new room honest. It is ~1.5% of the current figure and ~2.6x the largest ordinary single-ship growth on record (the three measured neural.js bumps in budget_neural.json's history: +626, +1,929, +581 gzip), so an ordinary feature never trips it; and it is 14x smaller than the 70,000 cliff it exists to catch. RECOMPUTE THE CURRENT FIGURE: `npm run validate:payload` prints it, or `python3 scripts/check_payload_budget.py` after a build.",
-   "previous_baseline": 342998,
+   "previous_baseline": 346412,
    "baseline_source": "measured from the built tree by this script"
   },
   "first_hand_gzip_bytes": {
