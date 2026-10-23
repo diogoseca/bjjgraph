@@ -94,29 +94,49 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     // leaves (Videos from the label in its section's place). Neither deals nor starts play.
     const close = { film: '[data-section-toggle="videos"]', card: '[data-land-close]', hand: '[data-hand-close]' } as Record<string, string>
     const open = { film: '[data-section-toggle="videos"]', card: '[data-game-open="card"]', hand: '[data-game-open="hand"]' } as Record<string, string>
-    const press = async (sel: string, what: string) => { await page.locator(sel).scrollIntoViewIfNeeded(); await j.readerLayoutSettled(); await j.clickByMouse(sel, what) }
+    // STALE SPEC (D-368, layout C): Moves lead the flow, so reopening a part can scroll the tray out of view, and the
+    // hand's ✕ docks only beside a visible tray (_dockHandClose); its own last rectangle is stale while hidden. The
+    // tray is brought into view before its ✕ is pressed or looked for.
+    const tray = async () => { await page.evaluate(() => (window as any).__neural.optionsRef.current.scrollIntoView({ block: "nearest" })); await j.readerLayoutSettled(); await j.advance(40) }
+    const press = async (sel: string, what: string) => { if (sel === '[data-hand-close]') await tray(); await page.locator(sel).scrollIntoViewIfNeeded(); await j.readerLayoutSettled(); await j.clickByMouse(sel, what) }
+    // STALE SPEC (D-355, U11): where the index shows (1366), a closed part or section leaves no label or header in
+    // the content: its index row shows it closed and reopens it. Without the index (390) the label does.
+    const indexed = await page.locator('.ng-reader-toc').isVisible()
+    const row = { film: '[data-toc-type="videos"]', card: '[data-toc-type="card"]', hand: '[data-toc-type="hand"]' } as Record<string, string>
     for (const part of ["film", "card", "hand"]) {
       await press(close[part], `close ${part}`)
-      if (part === "film") await expect(page.locator(open.film)).toHaveAttribute("aria-expanded", "false")
+      if (indexed) await expect(page.locator(row[part]), `a closed ${part} shows closed in the index`).toHaveAttribute("data-collapsed", "true")
+      else if (part === "film") await expect(page.locator(open.film)).toHaveAttribute("aria-expanded", "false")
       else await expect(page.locator(open[part]), `a closed ${part} leaves its label`).toBeVisible()
       expect((await state(page)).deals, "closing never deals or starts play").toBe(0)
-      await press(open[part], `reopen ${part}`)
+      if (indexed) {
+        await j.clickByMouse(`${row[part]} a`, `reopen ${part} from the index`)
+        await j.readerLayoutSettled()
+        // U11: the index row reopens the part AND brings it into view (its top inside the reader's scrollport)
+        if (part !== "film") expect(await page.evaluate(part => { const a = (window as any).__neural, el = part === "card" ? a._landEl : a.optionsRef.current
+          const b = el?.getBoundingClientRect(), v = a._reader.root.getBoundingClientRect(); return !!b && b.top >= v.top - 1 && b.top < v.bottom }, part), `the index row shows the reopened ${part}`).toBe(true)
+      }
+      else await press(open[part], `reopen ${part}`)
       if (part === "film") await expect(page.locator(open.film)).toHaveAttribute("aria-expanded", "true")
-      else { await expect(page.locator(open[part])).toBeHidden(); await expect(page.locator(close[part]).first()).toBeVisible() }
+      else { await expect(page.locator(open[part])).toBeHidden(); if (part === "hand") await tray(); await expect(page.locator(close[part]).first()).toBeVisible() }
       expect((await state(page)).deals, "reopening never deals or starts play").toBe(0)
     }
     await press(close.card, "close the question")
     await press(close.hand, "close the moves")
-    // Closed parts are saved: a reload keeps both labels and still deals nothing.
+    // Closed parts are saved: a reload keeps both closed (their labels, or their index rows) and still deals nothing.
     await j.boot(KNEE, { preserveStorage: true })
     await j.advance(5000)
     await expect(page.locator(READY)).toBeVisible()
-    for (const part of ["card", "hand"]) await expect(page.locator(open[part])).toBeVisible()
+    for (const part of ["card", "hand"]) {
+      if (indexed) await expect(page.locator(row[part])).toHaveAttribute("data-collapsed", "true")
+      else await expect(page.locator(open[part])).toBeVisible()
+    }
     expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
-    // The label is a real button: the keyboard reopens it too.
-    await page.locator(open.card).focus()
+    // The label (or the index link) is a real control: the keyboard reopens it too.
+    await page.locator(indexed ? `${row.card} a` : open.card).focus()
     await page.keyboard.press("Enter")
-    await expect(page.locator(open.card)).toBeHidden()
+    if (indexed) await expect(page.locator(row.card)).toHaveAttribute("data-collapsed", "false")
+    else await expect(page.locator(open.card)).toBeHidden()
     expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
   })
 }
@@ -184,6 +204,10 @@ for (const forced of [false, true]) test("@curated reading perspectives and Back
   await expect(page.locator(READY)).toBeVisible()
   await expect(page.locator('[data-landcard]'), 'a saved Focus no longer hides the question').toBeVisible()
   for (const part of ['card', 'hand']) await expect(page.locator(`[data-game-open="${part}"]`), `no closed label for a shown ${part}`).toBeHidden()
+  // STALE SPEC (D-355, U11): where the index shows, a closed part leaves no label in the content and its index
+  // row carries the closed state, so a shown part's row is not collapsed (control d338-saved-focus-read).
+  if (await page.locator('.ng-reader-toc').isVisible()) for (const part of ['card', 'hand'])
+    await expect(page.locator(`[data-toc-type="${part}"]`), `the index shows the ${part} open`).not.toHaveAttribute('data-collapsed', 'true')
   expect(await page.evaluate(() => (window as any).__neural._handShown()), 'a saved Focus no longer hides the moves').toBe(true)
   await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect(page).toHaveURL(/Knee-Slice-Pass\/Defender/)
@@ -271,7 +295,10 @@ for (const action of ["wheel", "selection"] as const) {
     if (action === "wheel") {
       // D-338: the reader's bottom edge is now the question (game input), so the wheel goes over
       // reading that is on screen at arrival: the Videos section's own text, first in the flow.
-      const r = await page.locator(".ng-reader-game > [data-section-type=videos] .section-subtitle").first().boundingBox()
+      // STALE CONTRACT (D-368, layout C): nothing is lifted into the game; the Videos section opens the article,
+      // after the stage, and its text must be on screen at arrival for this wheel.
+      const r = await page.locator(".ng-reader-article [data-section-type=videos] .section-subtitle").first().boundingBox()
+      expect(r && r.y + r.height / 2 < 900, "premise: the Videos section's text is on screen at arrival").toBe(true)
       await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height / 2)
       await page.mouse.wheel(0, 300)
       await expect(page.locator("[data-reader]")).toHaveAttribute("data-reading-expanded", "")
@@ -353,9 +380,13 @@ test("@curated heading links focus the cloned article and a reopened question st
   await j.boot(KNEE + hash, { preserveStorage: true })
   await expect(page.locator(READY)).toBeVisible()
   expect(await page.evaluate(() => document.activeElement?.closest('[data-section-type]')?.getAttribute('data-section-type'))).toBe('principles')
-  await page.locator('[data-game-open="card"]').scrollIntoViewIfNeeded()
-  await j.readerLayoutSettled()
-  await j.clickByMouse('[data-game-open="card"]', 'reopen the question from its label')
+  // STALE SPEC (D-355, U11): where the index shows, the closed question's index row reopens it.
+  if (await page.locator('.ng-reader-toc').isVisible()) await j.clickByMouse('[data-toc-type="card"] a', 'reopen the question from its index row')
+  else {
+    await page.locator('[data-game-open="card"]').scrollIntoViewIfNeeded()
+    await j.readerLayoutSettled()
+    await j.clickByMouse('[data-game-open="card"]', 'reopen the question from its label')
+  }
   await expect(page.locator('[data-reader-practice-offer]')).toHaveCount(0)
   const q = await j.landQuestion()
   expect(q).not.toBeNull()

@@ -161,7 +161,9 @@ test("the Shortcuts tab documents the keys that exist", async ({ page }) => {
   for (const key of ["a", "b", "c"]) expect(legend, `${key} is documented`).toContain(key)
   // v1.134.0: the transport is retired — "play / pause roll" left the list with its keys
   expect(legend, "the retired pause row is gone").not.toContain("play / pause roll")
-  for (const phrase of ["multiple-choice", "execute option", "watch", "read", "esc"]) {
+  // STALE SPEC (v1.230.0, feat/video-cards merged): the legend has no "watch" or "read" row on either side;
+  // the surviving key row is "Choose the focused move or open its video" (Tab, Enter).
+  for (const phrase of ["multiple-choice", "execute option", "open its video", "esc"]) {
     expect(legend, `"${phrase}" documented`).toContain(phrase)
   }
 })

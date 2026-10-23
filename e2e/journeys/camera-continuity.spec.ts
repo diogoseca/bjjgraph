@@ -55,7 +55,7 @@ import { journey } from "../dsl";
  * on and off. Not the screen centre (asserted to differ where the rect's centre does), not under a
  * layer.
  *
- * Mutants (all red by name): see the archive entry for v1.219.0 and the table at the end of this
+ * Mutation kills and recorded non-kills: see the archive entry for v1.219.0 and the table in this
  * header.
  *   restore the hard band clamp                       → "MOVE" (explore 1440, exchange 390)
  *   first-order easing instead of the eased flight    → "KICK"
@@ -75,7 +75,13 @@ import { journey } from "../dsl";
  *                                                       was lost to the filter. A reading-view exchange
  *                                                       frames through the reader's frameExecution, so
  *                                                       `ahead` decides only a map-view exchange, which
- *                                                       no journey here runs
+ *                                                       no journey here runs. H139 / ORCH-377 again
+ *                                                       measured both as NON-KILLS on green baselines;
+ *                                                       neither is prediction coverage.
+ *   fixed 30px band-flight gate                     → "ZERO overlap URL arrival" (ORCH-382)
+ *   track the hold only after that gate opens         → "ZERO overlap URL arrival" (ORCH-382)
+ *     H140 before the fix: final 0/10, CI-green 3c3a4f949 10/10, video-cards 76891e049 10/10.
+ *     The actual silhouette and zero-offset tracking preserve the existing frame bounds and hover.
  *   the escape's stand-in takes the camera            → "the stand-in does not take the camera" and "MOVE"
  *                                                       (a pick after the catch's lease; inside it the
  *                                                       lease decides, so the earlier escape case cannot)
@@ -164,6 +170,25 @@ const frame = (page: Page) =>
       rows: rows.length ? Math.min(...rows) : null, bottom: tops.length ? Math.min(...tops) - 12 : H - 16,
       film, pane, evBottom, head, why } as any;
   }) as Promise<Sample>;
+
+/** D-354 (B2's class, by mechanism): on CI, roll-execution's identical phone pick was force-scrolled by
+ *  card.click()'s retry while the reader still laid out, putting Videos across the node band. So the phone
+ *  waits for the ready reader (D9-N1) and its layout, brings the card in along its tray, and presses with a
+ *  mouse that cannot scroll; the arrival scrollTop is asserted before the press and at the pointerdown. */
+const phonePick = async (page: Page, j: any, opt: string) => {
+  await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible();
+  await j.readerLayoutSettled();
+  const arrival = await page.evaluate(name => {
+    const w = window as any, a = w.__neural, top = a._reader.root.scrollTop;
+    a._optionCards.find((c: any) => c.opt.node.t === name).card.scrollIntoView({ block: "nearest", inline: "center", behavior: "instant" });
+    document.addEventListener("pointerdown", () => { w.__pickTop = a._reader.root.scrollTop }, { capture: true, once: true });
+    return top;
+  }, opt);
+  await j.readerLayoutSettled();
+  expect(await page.evaluate(() => (window as any).__neural._reader.root.scrollTop), "premise: the tray brought the card in, the reader stayed where it arrived").toBe(arrival);
+  await j.clickByMouse(`[data-tech="${opt}"] .ngchoice-title`, "pick the transition by mouse");
+  expect(await page.evaluate(() => (window as any).__pickTop), "premise: the pick is pressed where the reader arrived").toBe(arrival);
+};
 
 const record = async (page: Page, frames: number) => {
   const out: Sample[] = [];
@@ -340,19 +365,7 @@ for (const viewport of VIEWPORTS) {
       // pick was force-scrolled by card.click()'s retry while the reader still laid out, putting Videos
       // across the node band. So the phone waits for the layout, brings the card in along its tray, and
       // presses with a mouse that cannot scroll; the arrival scrollTop is asserted at the pointerdown.
-      if (W < 640) {
-        await j.readerLayoutSettled();
-        const arrival = await page.evaluate(name => {
-          const w = window as any, a = w.__neural, top = a._reader.root.scrollTop;
-          a._optionCards.find((c: any) => c.opt.node.t === name).card.scrollIntoView({ block: "nearest", inline: "center", behavior: "instant" });
-          document.addEventListener("pointerdown", () => { w.__pickTop = a._reader.root.scrollTop }, { capture: true, once: true });
-          return top;
-        }, opt!);
-        await j.readerLayoutSettled();
-        expect(await page.evaluate(() => (window as any).__neural._reader.root.scrollTop), "premise: the tray brought the card in, the reader stayed where it arrived").toBe(arrival);
-        await j.clickByMouse(`[data-tech="${opt}"] .ngchoice-title`, "pick the transition by mouse");
-        expect(await page.evaluate(() => (window as any).__pickTop), "premise: the pick is pressed where the reader arrived").toBe(arrival);
-      } else await j.pick(opt!);
+      if (W < 640) await phonePick(page, j, opt!); else await j.pick(opt!);
       const S = await record(page, 60 * 6);
       // D-331 S1: the exchange's execution always found a slot (D-322/D-329), never the unfitted target.
       const execFrame = await page.evaluate(() => (window as any).__neural._execFrame || { noFrame: 0, noFit: 0 });
@@ -384,7 +397,8 @@ for (const viewport of VIEWPORTS) {
         return o ? o.t : null;
       });
       expect(opt, "the hand deals a transition").toBeTruthy();
-      await j.pick(opt!);
+      // D9-N2: the same phone pick and premise as the exchange above.
+      if (W < 640) await phonePick(page, j, opt!); else await j.pick(opt!);
       const S = await record(page, 60 * 6);
       const execFrame = await page.evaluate(() => (window as any).__neural._execFrame || { noFrame: 0, noFit: 0 });
       expect(execFrame.noFit, "no execution frame fell back to the unfitted target").toBe(0);

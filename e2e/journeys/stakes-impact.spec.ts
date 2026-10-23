@@ -194,10 +194,14 @@ test("film-study first look: +4% on explicit playback once per technique, never 
   const hit = await play.boundingBox()
   expect(hit).not.toBeNull()
   await page.mouse.click(hit!.x + hit!.width / 2, hit!.y + hit!.height / 2)
-  expect((await j.displayedOdds(NAME)) - before).toBe(4)
+  // STALE TIMING (v1.230.0, feat/video-cards; red on that branch's own build, H132): the fixture player's play is a
+  // postMessage from its frame, so the reward lands after a turn of the event loop. Read it by poll, as
+  // video-cards.spec does, and judge the second play only once the player has seen it.
+  await expect.poll(async () => (await j.displayedOdds(NAME)) - before, "explicit playback earns +4").toBe(4)
   await j.expectBeat("film_first_look")
   await page.mouse.click(hit!.x + hit!.width / 2, hit!.y + hit!.height / 2)
-  expect((await j.displayedOdds(NAME)) - before).toBe(4)
+  await expect.poll(() => page.evaluate(() => (window as any).__players.at(-1).play), "premise: the second play reached the player").toBe(2)
+  expect((await j.displayedOdds(NAME)) - before, "a second playback does not stack").toBe(4)
   expect((await j.beats()).filter((b: any) => b.beat === "film_first_look").length).toBe(1)
 })
 

@@ -92,9 +92,13 @@ type View = "map" | "reading"
 const VIEWS: View[] = ["map", "reading"]
 const bootIn = (j: any, view: View) => j.boot("/", view === "map" ? { initialState: BOOK_OFF } : {})
 const docked = (view: View, ...parts: string[]) => view === "map" ? [...parts, "book"] : parts
+// STALE SPEC (D-355, U11): where the index shows (1440x900 here) a closed part leaves no label in the content:
+// its index row carries the closed state and reopens it. Without the index the label reopens it, as before.
+const indexed = (page: any) => page.locator(".ng-reader-toc").isVisible()
 const restore = async (page: any, j: any, view: View, part: "card" | "hand") => {
   if (view === "map") return j.clickByMouse(`[data-layer-show="${part}"]`, `the dock's ${part} glyph`)
   await expect(page.locator(".ng-reader-shelf"), "the reading view has no shelf").toBeHidden()
+  if (await indexed(page)) return j.clickByMouse(`[data-toc-type="${part}"] a`, `the closed ${part === "card" ? "Questions" : "Moves"} index row`)
   await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded()
   await j.clickByMouse(`[data-game-open="${part}"]`, `the closed ${part === "card" ? "Questions" : "Moves"} label`)
 }
@@ -169,7 +173,8 @@ test(`@curated the ✕ is sticky: the next landing builds no card and asks nothi
   expect(s1.tray, "the hand survived").toBeGreaterThan(0)
   expect(s1.beats, "the dismissal is named").toContain("land_dismissed")
   expect(s1.dock, "the dock shows exactly the card glyph").toEqual(docked(view, "card"))
-  if (view === "reading") await expect(page.locator('[data-game-open="card"]'), "the closed card leaves its Questions label").toBeVisible()
+  if (view === "reading" && await indexed(page)) await expect(page.locator('[data-toc-type="card"]'), "the closed card's index row shows it closed").toHaveAttribute("data-collapsed", "true")
+  else if (view === "reading") await expect(page.locator('[data-game-open="card"]'), "the closed card leaves its Questions label").toBeVisible()
   expect(s1.landIdx, "the landing still knows its state (film + backfill invariant)").toBe(s1.cur)
 
   // ── the next landing: no card, a hand, the gap named ──
@@ -319,8 +324,7 @@ test("@curated the article survives minimizing the question, videos and moves", 
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await j.advance(12000)
   expect((await read(page)).beats).not.toContain("land_q_expired")
-  await page.locator('[data-game-open="card"]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-game-open="card"]', "the closed Questions label")
+  await restore(page, j, "reading", "card")
   await expect(page.locator("[data-landcard]")).toBeVisible()
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
 })

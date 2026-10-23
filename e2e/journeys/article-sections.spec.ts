@@ -90,6 +90,9 @@ for (const width of [1366, 390]) {
   // STALE CONTRACT (D-338, owner): Videos, Moves, Questions, then the article; no header names
   // Moves or Questions, and Focus/Browse no longer sit above them. Each boundary is still one
   // measured gap, the prose cards keep the six-pixel token, and the hand is never rebuilt.
+  // STALE CONTRACT (D-368, layout C): nothing is lifted above Moves any more. Moves lead the flow at the
+  // parts' own step after the node band; the current card, when a film exists, sits in the stage beside
+  // or above the question, and the Videos section reads with the article.
   test(`@curated ${width}px choices precede section cards and preserve the six-pixel token`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 768 })
     const j = journey(page)
@@ -101,11 +104,13 @@ for (const width of [1366, 390]) {
       return { titles: [...a.optionsRef.current.querySelectorAll('.ngchoice-title')].map(e => e.textContent) }
     })
     const measure = () => page.evaluate(() => {
-      const a = (window as any).__neural, r = a._reader, cards = [...document.querySelectorAll('[data-reader-body] > .ng-section-card')]
+      // U11 (D-355): where the index shows, a closed section leaves no placeholder; the visible cards keep the token.
+      const a = (window as any).__neural, r = a._reader, cards = [...document.querySelectorAll('[data-reader-body] > .ng-section-card')].filter(c => (c as HTMLElement).getClientRects().length)
       const card = a._landEl.getBoundingClientRect(), hand = a.optionsRef.current.getBoundingClientRect(), first = cards[0].getBoundingClientRect(), head = r.head.getBoundingClientRect()
-      const video = r.videoCard?.getBoundingClientRect() ?? { top: NaN, bottom: NaN }, labels = r.gameSections.map((s: any) => s.card.getBoundingClientRect().height)
-      return { deck: a._landEl.classList.contains('ng-land-deck'), videoFirst: !!r.videoCard && r.videoCard.parentElement === r.game && r.videoCard.dataset.sectionType === 'videos',
-        headGap: video.top - head.bottom, handGap: hand.top - video.bottom, cardGap: card.top - hand.bottom, sectionGap: first.top - card.bottom,
+      const labels = r.gameSections.map((s: any) => s.card.getBoundingClientRect().height)
+      return { deck: a._landEl.classList.contains('ng-land-deck'),
+        headGap: hand.top - head.bottom, lifted: !!r.videoCard, cardGap: card.top - hand.bottom, sectionGap: r.articleEl.getBoundingClientRect().top - card.bottom,
+        closeRow: first.top - (r.root.querySelector('[data-reader-close]')?.getBoundingClientRect().bottom ?? NaN),
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
         sectionHeaders: labels, step: a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
         backs: 3 * (a._landStackEl?.childElementCount || 0),
@@ -114,15 +119,16 @@ for (const width of [1366, 390]) {
     })
     const normal = await measure()
     expect(normal.deck).toBe(true)
-    expect(normal.videoFirst, 'Videos leads the flow').toBe(true)
+    expect(normal.lifted, 'nothing is lifted above Moves').toBe(false)
     expect(normal.headInArticle).toBe(true)
-    expect(normal.headGap).toBeCloseTo(6, 0)
+    expect(normal.headGap, 'Moves lead the flow at the parts\' step').toBeCloseTo(normal.step, 0)
     expect(normal.sectionHeaders, 'no header names an open Moves or Questions').toEqual([0, 0])
-    expect(normal.handGap, 'Moves follows Videos at one gap').toBeCloseTo(normal.step, 0)
     expect(normal.cardGap, 'Questions follows Moves at the deck gap').toBeCloseTo(16, 0)
     // The deck's backs peek 3px per remaining card below the face; the token is paid after them.
     expect(normal.backs, 'premise: the deck shows its backs').toBeGreaterThan(0)
     expect(normal.sectionGap, 'the article follows Questions (and its backs) at the six-pixel token').toBeCloseTo(normal.backs + 6, 0)
+    // U12 a (D-355): the article's own ✕ is its top row; the first section follows it directly.
+    expect(normal.closeRow, 'the first section follows the article\'s ✕ row').toBeCloseTo(0, 0)
     expect(normal.gaps.every(g => g === 6)).toBe(true)
     expect(normal.overflow).toBeLessThanOrEqual(1)
     await page.locator('[data-section-toggle=principles]').scrollIntoViewIfNeeded()
@@ -164,7 +170,9 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
     r.layoutNow()
     const before = measure(), ownTop = Math.max(68, (a.wrapRef.current.querySelector('.ng-logo')?.getBoundingClientRect().bottom || 0) + 12)
     const headBottom = ownTop + 24, offset = 8
-    const expectedStart = r.nodeBand.height + before.inlineHead
+    // D-368 (layout C): Moves lead at the parts' step after the band, or after an inline head that is taller.
+    const step = a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12
+    const expectedStart = r.nodeBand.height + Math.max(before.inlineHead, step), headLead = Math.max(before.inlineHead, step) - step
     let sameHead = false
     a.readerChromeFrame = (el: HTMLElement) => { sameHead = el === head; return { headBottom, offset } }
     r.layoutNow(); const hooked = measure()
@@ -193,12 +201,12 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
     a.readerChromeFrame = () => null; r.layoutNow(); const nullHook = measure()
     a.readerChromeFrame = () => undefined; r.layoutNow(); const undefinedHook = measure()
     delete a.readerChromeFrame
-    return { before, after, nullHook, undefinedHook, ownTop, expectedStart, headBottom, offset, hooked, readingEnd, readingReserved, clamped, reserved, zeroReserve, sameHead }
+    return { before, after, nullHook, undefinedHook, ownTop, expectedStart, headLead, headBottom, offset, hooked, readingEnd, readingReserved, clamped, reserved, zeroReserve, sameHead }
   })
   expect(result.before.top).toBeCloseTo(result.ownTop, 2)
   expect(result.before.start).toBeCloseTo(result.expectedStart, 2)
   expect(result.sameHead).toBe(true)
-  expect(result.hooked.cardTop - result.before.cardTop).toBeCloseTo(result.headBottom - result.ownTop + result.offset - result.before.inlineHead, 2)
+  expect(result.hooked.cardTop - result.before.cardTop).toBeCloseTo(result.headBottom - result.ownTop + result.offset - result.headLead, 2)
   expect(result.hooked.band).toBe(result.before.band)
   expect(result.hooked.start).toBeGreaterThan(result.offset)
   expect(result.hooked.cardGap).toBe(result.before.cardGap)
@@ -278,32 +286,42 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
     expect(column!.width).toBe(Math.min(680, viewport.width - 24))
     // STALE CONTRACT (D-338): one close icon on every width, the section's own ✕; the index only
     // navigates (its eyes are gone). RETIRED with them: "eye changes visibility without navigation".
+    // STALE CONTRACT (D-355, U9 b and U11): the index sits on the LEFT, 24px in, and where it shows a closed
+    // section leaves NO placeholder in the content: the index row carries it (greyed, its eye) and reopens it.
+    // Without the index, the closed section is one compact line, its greyed name and then its eye, no icon.
     await header.scrollIntoViewIfNeeded(); await j.readerLayoutSettled(); await j.clickByMouse('[data-section-toggle=principles]', "the section's ✕")
-    if (!hasToc) await expect(page.locator('.ng-reader-toc')).toBeHidden()
-    else {
+    await expect(header).toHaveAttribute('aria-expanded', 'false'); await expect(body).toBeHidden()
+    expect(await header.getAttribute('aria-controls')).toBe(await body.getAttribute('id'))
+    await expect(page.locator('.ng-reader .ng-section-glyph'), 'sections no longer have icons').toHaveCount(0)
+    if (!hasToc) {
+      await expect(page.locator('.ng-reader-toc')).toBeHidden()
+      // D-338 (owner): a closed section is a light label, no box and no outline.
+      expect(await page.locator('[data-section-type=principles]').evaluate(e => { const cs = getComputedStyle(e); return [cs.backgroundColor, cs.borderTopColor] }), 'no box around a closed section').toEqual(['rgba(0, 0, 0, 0)', 'rgba(0, 0, 0, 0)'])
+      const line = await header.evaluate(e => { const r = e.getBoundingClientRect(), name = e.querySelector('.ng-section-closed > span:first-child')!.getBoundingClientRect(), eye = e.querySelector('.ng-section-closed .ng-section-eye')!.getBoundingClientRect()
+        return { height: Math.round(r.height), oneLine: Math.abs((name.top + name.bottom) / 2 - (eye.top + eye.bottom) / 2) < 3, eyeAfter: eye.left >= name.right, eye: eye.width > 0 } })
+      expect(line, 'one compact line: the greyed name, then its eye').toEqual({ height: 44, oneLine: true, eyeAfter: true, eye: true })
+      // The resting label, not its hover: the mouse that closed it is still over it.
+      await page.mouse.move(viewport.width - 2, viewport.height - 2)
+      const contrast = await header.evaluate(e => {
+        const lum = (color: string) => { const c = color.match(/\d+/g)!.slice(0, 3).map(x => { const n = +x / 255; return n <= .04045 ? n / 12.92 : ((n + .055) / 1.055) ** 2.4 }); return c[0] * .2126 + c[1] * .7152 + c[2] * .0722 }
+        const fg = lum(getComputedStyle(e).color), bg = lum(getComputedStyle(e.closest('.ng-section-card')!).backgroundColor)
+        return (Math.max(fg, bg) + .05) / (Math.min(fg, bg) + .05)
+      })
+      expect(contrast).toBeGreaterThanOrEqual(7)
+      await header.focus(); await page.keyboard.press('Space')
+    } else {
       await expect(page.locator('.ng-reader-toc')).toBeVisible()
       await expect(page.locator('.ng-reader-toc button')).toHaveCount(0)
       const toc = await page.locator('.ng-reader-toc').boundingBox()
-      expect(toc!.x - column!.x - column!.width).toBeGreaterThanOrEqual(12)
-      expect(viewport.width - toc!.x - toc!.width).toBe(24)
+      expect(column!.x - toc!.x - toc!.width, 'the index sits left of the column').toBeGreaterThanOrEqual(12)
+      expect(toc!.x, 'at the 24px inset').toBe(24)
+      await expect(page.locator('[data-section-type=principles]'), 'no placeholder where the index carries it').toBeHidden()
       await expect(page.locator('[data-toc-type=principles]'), 'the index shows the section closed').toHaveAttribute('data-collapsed', 'true')
+      await expect(page.locator('[data-toc-type=principles] .ng-section-eye'), 'with its eye').toBeVisible()
       await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
-      await j.clickByMouse('[data-toc-type=principles] a', 'the index label scrolls to the closed section')
+      await j.clickByMouse('[data-toc-type=principles] a', 'the index row reopens the closed section')
       await expect(header).toBeFocused()
     }
-    await expect(header).toHaveAttribute('aria-expanded', 'false'); await expect(body).toBeHidden()
-    // D-338 (owner): a closed section is a light label, no box and no outline.
-    expect(await page.locator('[data-section-type=principles]').evaluate(e => { const cs = getComputedStyle(e); return [cs.backgroundColor, cs.borderTopColor] }), 'no box around a closed section').toEqual(['rgba(0, 0, 0, 0)', 'rgba(0, 0, 0, 0)'])
-    expect(await header.getAttribute('aria-controls')).toBe(await body.getAttribute('id'))
-    // The resting label, not its hover: the mouse that closed it is still over it.
-    await page.mouse.move(viewport.width - 2, viewport.height - 2)
-    const contrast = await header.evaluate(e => {
-      const lum = (color: string) => { const c = color.match(/\d+/g)!.slice(0, 3).map(x => { const n = +x / 255; return n <= .04045 ? n / 12.92 : ((n + .055) / 1.055) ** 2.4 }); return c[0] * .2126 + c[1] * .7152 + c[2] * .0722 }
-      const fg = lum(getComputedStyle(e).color), bg = lum(getComputedStyle(e.closest('.ng-section-card')!).backgroundColor)
-      return (Math.max(fg, bg) + .05) / (Math.min(fg, bg) + .05)
-    })
-    expect(contrast).toBeGreaterThanOrEqual(7)
-    await header.focus(); await page.keyboard.press('Space')
     await expect(body).toBeVisible(); await expect(header).toHaveAttribute('aria-expanded', 'true')
     const before = await state(page); await j.advance(20000); expect(await state(page)).toEqual(before)
   })
@@ -388,6 +406,9 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
   // STALE CONTRACT (D-338, owner): no header names Questions or Moves and the index has no eyes.
   // Each closes with its own ✕ and leaves a legible label that names the surface it reopens.
   // The index heading reads role first, one phrase (reversing D-331 N1).
+  // STALE CONTRACT (D-355, U9 b and U11): the index sits LEFT of the column; where it shows, a closed part
+  // leaves no label in the content and its index row (closed, with its eye) reopens it. Without the index
+  // the compact label keeps its 44px target, its contrast and the surface it names.
   test(`@curated D-338 ${viewport.width}px Questions and Moves close with their own ✕ and the other node half changes role`, async ({ page }) => {
     await page.setViewportSize(viewport)
     const j = journey(page); await j.boot(LOOP)
@@ -413,14 +434,26 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
       // also proves its ✕ is reachable, which it was not under an index link at 1152px).
       if (hasToc && part === 'hand') {
         const tray = await page.evaluate(() => { const a = (window as any).__neural, t = a.optionsRef.current.getBoundingClientRect(), c = a._reader.articleEl.getBoundingClientRect()
-          return { gap: a._reader.contents.getBoundingClientRect().left - t.right, off: (t.left + t.right) / 2 - (c.left + c.right) / 2 } })
-        expect(tray.gap, 'the Moves tray ends 12px short of the index').toBeGreaterThanOrEqual(12)
+          return { gap: t.left - a._reader.contents.getBoundingClientRect().right, off: (t.left + t.right) / 2 - (c.left + c.right) / 2 } })
+        expect(tray.gap, 'the Moves tray starts 12px past the index').toBeGreaterThanOrEqual(12)
         expect(Math.abs(tray.off), 'the Moves tray is centred on the article column').toBeLessThan(1)
       }
       await j.clickByMouse(close, `the ${part}'s own ✕`)
-      await expect(label).toBeVisible()
       await expect(label).toHaveAttribute('aria-expanded', 'false')
-      if (hasToc) await expect(page.locator(`[data-toc-type="${part}"]`)).toHaveAttribute('data-collapsed', 'true')
+      if (hasToc) {
+        await expect(page.locator(`[data-toc-type="${part}"]`)).toHaveAttribute('data-collapsed', 'true')
+        await expect(label, 'no placeholder where the index carries the closed part').toBeHidden()
+        expect(await page.evaluate(part => {
+          const a = (window as any).__neural
+          return part === 'card' ? !a._landEl : getComputedStyle(a.optionsRef.current).visibility === 'hidden'
+        }, part)).toBe(true)
+        await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
+        await j.clickByMouse(`[data-toc-type="${part}"] a`, `reopen ${part} from its index row`)
+        await expect(label).toBeHidden()
+        if (part === 'card') await expect(page.locator('[data-landcard]'), 'the Questions row restores a visible card').toBeVisible()
+        continue
+      }
+      await expect(label).toBeVisible()
       expect((await label.boundingBox())!.height, 'the label keeps a 44px target').toBeGreaterThanOrEqual(44)
       const contrast = await label.evaluate(el => {
         const luminance = (color: string) => {
@@ -504,7 +537,7 @@ for (const theme of ['light', 'dark'] as const) {
       }
       const cs = getComputedStyle(toc), edge = a.accountRef.current.getBoundingClientRect(), box = toc.getBoundingClientRect()
       return { before, without, graphOn: a._graphInputOn(), sibling: toc.parentElement === wrap && !r.root.contains(toc),
-        position: cs.position, z: +cs.zIndex, pointer: toc.style.pointerEvents, inset: innerWidth - box.right, controlInset: innerWidth - edge.right,
+        position: cs.position, z: +cs.zIndex, pointer: toc.style.pointerEvents, inset: box.left, controlInset: innerWidth - edge.right,
         surfaces: [toc, ...toc.querySelectorAll('a,button')].map(e => {
           const s = getComputedStyle(e); return { bg: s.backgroundColor, image: s.backgroundImage, border: s.borderTopWidth, shadow: s.boxShadow }
         }), top: box.top }
@@ -513,7 +546,8 @@ for (const theme of ['light', 'dark'] as const) {
     expect(surface.before).toEqual(surface.without)
     expect(surface.before).toEqual({ left: 380, width: 680 })
     expect(surface).toMatchObject({ sibling: true, position: 'fixed', z: 6, pointer: 'auto' })
-    expect(surface.inset).toBe(surface.controlInset)
+    // STALE CONTRACT (D-355, U9 b): the index sits on the LEFT, at the 24px inset it had on the right.
+    expect(surface.inset).toBe(24)
     for (const s of surface.surfaces) expect(s).toEqual({ bg: 'rgba(0, 0, 0, 0)', image: 'none', border: '0px', shadow: 'none' })
     // STALE CONTRACT (D-338): the index lost its eyes; a section closes with its own ✕ in the
     // column. RETIRED with the eyes: "eye changes visibility" and the label/eye colour match.
@@ -530,13 +564,15 @@ for (const theme of ['light', 'dark'] as const) {
     })
     expect(contrast.shadow).not.toBe('none')
     for (const ratio of contrast.ratios) expect(ratio).toBeGreaterThanOrEqual(7)
-    await j.clickByMouse('[data-toc-type=principles] a', 'label scrolls to the collapsed header without toggling')
+    // STALE CONTRACT (D-355, U11): on a desktop a closed section leaves no placeholder, so its index row
+    // reopens it and focuses its header; Space on that header still toggles it.
+    await j.clickByMouse('[data-toc-type=principles] a', 'the index row reopens the closed section')
     await expect(page.locator('[data-section-toggle=principles]')).toBeFocused()
-    await expect(page.locator('[data-section-type=principles]')).toHaveAttribute('data-collapsed', 'true')
-    await expect(page.locator('[data-toc-type=principles] a')).toHaveCSS('color', contrast.labelColor)
+    await expect(page.locator('[data-section-type=principles]')).toHaveAttribute('data-collapsed', 'false')
     expect((await page.locator('.ng-reader-toc').boundingBox())!.y).toBe(surface.top)
     await page.keyboard.press('Space')
-    await expect(page.locator('[data-section-type=principles]')).toHaveAttribute('data-collapsed', 'false')
+    await expect(page.locator('[data-section-type=principles]')).toHaveAttribute('data-collapsed', 'true')
+    await expect(page.locator('[data-toc-type=principles] a')).toHaveCSS('color', contrast.labelColor)
     const eye = (await page.locator('[data-toc-type=principles] a').boundingBox())!
     await page.mouse.move(eye.x + eye.width / 2, eye.y + eye.height / 2); await page.mouse.wheel(0, 120)
     expect(await page.evaluate(() => (window as any).__tocInput)).toEqual({ captures: 0, picks: 0, zooms: 0 })
@@ -610,7 +646,9 @@ test('@curated unknown authored sections and cross-section anchors survive regro
   const body = page.locator('[data-section-type=additional] .ng-section-body')
   await body.evaluate(e => { (e as HTMLElement).tabIndex = 0; (e as HTMLElement).focus() })
   await page.evaluate(() => { const a = (window as any).__neural; a.set('readerSection.additional', false); a._applyLayers() })
-  await expect(page.locator('[data-section-toggle=additional]')).toBeFocused()
+  // STALE CONTRACT (D-355, U11): where the index shows, the closed section has no control in the content,
+  // so focus moves to its index row.
+  await expect(page.locator('[data-toc-type=additional] a')).toBeFocused()
   await expect(body).toBeHidden()
   expect(await body.evaluate(e => (e as HTMLElement).inert)).toBe(true)
   expect(await state(page)).toMatchObject({ paused: true, played: false, deals: 0, misses: 0 })

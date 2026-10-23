@@ -815,7 +815,8 @@ for (const viewport of [
     await expect(film).toContainText("Film study");
     await expect(film.locator(".ng-clip")).toHaveCount(4);
     await expect(film.locator(".ng-clip").first()).toContainText(clips[0].title);
-    await expect(film.locator(".ng-clip").first()).toHaveAccessibleName(`Play: ${clips[0].title} — ${clips[0].by}`);
+    // STALE SPEC (v1.230.0, feat/video-cards): a clip's control is its play button, named "Watch: title — by".
+    await expect(film.locator(".ng-clip").first().locator("[data-film-play]")).toHaveAccessibleName(`Watch: ${clips[0].title} — ${clips[0].by}`);
     expect(await film.evaluate((el) => {
       const detail = document.querySelector("[data-concept-detail]")!;
       const body = document.querySelector("[data-concept-body]")!;
@@ -842,11 +843,16 @@ for (const viewport of [
     await stubPrincipleVideos(page);
 
     const first = `[data-concept-film="${concept.id}"] .ng-clip[data-i="0"]`;
+    // STALE CONTRACT (v1.230.0, feat/video-cards): the play button opens the player on its own controls and
+    // never autoplays, so the viewer's own play, once the player is ready, goes through its handle. The
+    // player has no mute control; its close button is what must fit inside the pane.
     const play = async () => {
       await page.locator(first).scrollIntoViewIfNeeded();
-      if (viewport.width > 600) await j.clickByMouse(first);
-      else { await page.locator(first).focus(); await page.keyboard.press("Enter"); }
+      if (viewport.width > 600) await j.clickByMouse(`${first} [data-film-play]`);
+      else { await page.locator(`${first} [data-film-play]`).focus(); await page.keyboard.press("Enter"); }
       await expect(film.locator(".ngPlayerHost")).toHaveCount(1);
+      await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip?._playerReady), "premise: the player is ready").toBe(true);
+      await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo());
       await expect.poll(() => page.evaluate(() => {
         const players = (window as any).__principlePlayers;
         return players.length && players[players.length - 1].plays > 0;
@@ -857,10 +863,10 @@ for (const viewport of [
         const pane = (window as any).__neural.explorerListRef.current.getBoundingClientRect();
         const rect = card.getBoundingClientRect();
         const finalHeight = parseFloat((card as HTMLElement).style.height);
-        const mute = card.querySelector(".ngMuteBtn")!.getBoundingClientRect();
+        const close = card.querySelector(".ngClipX")!.getBoundingClientRect();
         return Math.abs(rect.height - finalHeight) < 1 && rect.top >= pane.top
-          && rect.bottom <= pane.bottom && mute.bottom <= pane.bottom;
-      }), { message: "the expanded portrait and mute control fit inside the reading pane" }).toBe(true);
+          && rect.bottom <= pane.bottom && close.bottom <= pane.bottom;
+      }), { message: "the expanded portrait and its close button fit inside the reading pane" }).toBe(true);
     };
     const stopped = async () => {
       await expect(page.locator(".ngPlayerHost")).toHaveCount(0);
@@ -898,12 +904,13 @@ for (const viewport of [
     const longFilm = page.locator(`[data-concept-film="${longer.id}"]`);
     await expect(longFilm.locator(".ng-clip")).toHaveCount(1);
     await expect(longFilm).toContainText(clips[2].title);
-    await longFilm.locator(".ng-clip").focus();
+    await longFilm.locator(".ng-clip [data-film-play]").focus();
     await page.keyboard.press("Enter");
     await expect(longFilm.locator(".ngPlayerHost")).toHaveCount(1);
     expect(await page.evaluate(() => (window as any).__principlePlayers.at(-1).id)).toBe(clips[2].id);
     await page.keyboard.press("Escape");
     await stopped();
+    // Escape collapses a principle's film and returns focus to its clip card (the app's Escape ladder), as before.
     await expect(longFilm.locator(".ng-clip")).toBeFocused();
     await expect(page.locator(`[data-concept-detail="${longer.id}"]`)).toBeVisible();
     const noVideo = page.locator(`[data-concept-link="${empty.id}"]`);

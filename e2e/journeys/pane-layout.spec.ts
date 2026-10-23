@@ -90,25 +90,29 @@ for (const width of [1440, 1024]) {
 
     await openPane(page, j)
     const open = await geometry(page)
-    const shift = open.card.x - before.card.x
-    expect(shift).toBeGreaterThan(80)
-    // STALE CONTRACT (D-338): the article view never flips the film beside or over the card; the
-    // film lives in its Videos section, sized by the article column, which narrows beside the pane.
-    // So the card keeps its width, shift and vertical dock, and the film keeps its place in its
-    // column. RETIRED with the side-by-side home: the film's fixed 400px and its stacked reflow.
-    expect([before.layout, open.layout], 'no film home beside or over the card').toEqual(['none', 'none'])
+    // STALE CONTRACT (D-368, layout C): the A geometry is back as the stage under Moves: the current card
+    // sits beside the question (400 + 60 + 390), and where the pane leaves less than that it stacks above
+    // it. So the A-era claims return (the film's 400px and the stacked reflow), with Moves above the stage.
+    const shift = open.card.x - before.card.x, reflow = open.layout !== before.layout
+    expect(before.layout, 'the closed pane leaves room for the card beside the question').toBe('side-by-side')
+    if (!reflow) expect(shift).toBeGreaterThan(80)
     for (const surface of ["card", "film"] as const) {
       expect(open[surface].visible, `${surface} remains visible`).toBe(true)
       expect(open[surface].x).toBeGreaterThanOrEqual(open.pane.right)
       expect(open[surface].right).toBeLessThanOrEqual(width)
+      if (!reflow) {
+        expect(open[surface].width, `${surface} keeps its readable width`).toBeCloseTo(before[surface].width, 0)
+        expect(open[surface].x - before[surface].x, `${surface} moves with the card`).toBeCloseTo(shift, 0)
+        expect(open[surface].y, `${surface} keeps its vertical dock`).toBeCloseTo(before[surface].y, 0)
+      }
     }
-    expect(open.card.width, "card keeps its readable width").toBeCloseTo(before.card.width, 0)
-    // STALE CONTRACT (D-338, CI 11e7f83ff): at 1024 the column narrows beside the pane and the Videos
-    // section above the card reflows (+25.6px), so the card's dock is its place under Moves.
-    expect(open.card.y - open.hand.bottom, "card keeps its vertical dock, one deck gap under Moves").toBeCloseTo(before.card.y - before.hand.bottom, 1)
-    expect(open.film.x - open.more.x, "the film keeps its place in the article column").toBeCloseTo(before.film.x - before.more.x, 0)
-    expect(open.film.right, "...and stays inside it").toBeLessThanOrEqual(open.more.right + .5)
-    expect(open.film.y, "film keeps its vertical dock").toBeCloseTo(before.film.y, 0)
+    if (reflow) {
+      expect(open.layout).toBe('stacked')
+      expect(open.film.width).toBe(400)
+      expect(open.card.width).toBe(Math.min(560, width - open.pane.width - 104))
+      expect(open.film.y - open.hand.bottom, 'the stage follows Moves at the deck gap').toBeCloseTo(16, 0)
+      expect(open.card.y - open.film.bottom, 'the question follows the card at 12px').toBeCloseTo(12, 0)
+    }
     expect(open.more.center - before.more.center).toBeCloseTo(open.pane.width / 2, -1)
     expect(open.more.right).toBeLessThanOrEqual(width)
     expect(open.nav.center).toBeCloseTo(open.card.center, 0)
@@ -168,6 +172,10 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   await page.locator("[data-landcard]").evaluate(e => e.scrollIntoView({ block: "nearest" }))
   await settle(page, j)
   await openPane(page, j)
+  // D-368 (layout C): at 1024 the open pane leaves too little width for the card beside the question, so the
+  // stage stacks it above and the question moves down; a reader scrolls to it again.
+  await page.locator("[data-landcard]").evaluate(e => e.scrollIntoView({ block: "nearest" }))
+  await settle(page, j)
   const keyed = await geometry(page)
   await page.keyboard.press("ArrowRight")
   await page.keyboard.press("a")
@@ -185,7 +193,9 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   await j.clickByMouse("[data-land-prev]", "the exposed previous-card control")
   expect((await geometry(page)).selected).toBe(0)
 
-  await j.clickByMouse('[data-land-film] .ng-clip[data-i="1"]', "an exposed video thumbnail")
+  // STALE SPEC (v1.230.0, feat/video-cards): the current card shows one full video and a 10% peek of the
+  // next, so the exposed thumbnail is the first; the peek's centre sits off screen beside the pane.
+  await j.clickByMouse('[data-land-film] .ng-clip[data-i="0"]', "an exposed video thumbnail")
   await expect(page.locator("[data-land-film] .ngPlayerHost")).toBeVisible()
   await page.waitForTimeout(450)
   // Playing the first film can mint the harness visitor's White Foundations patch.
@@ -194,20 +204,34 @@ test("@curated exposed cards, videos and reading take real mouse input while the
     // A click outside the player legitimately collapses it; reopen now that the reward is gone.
     await expect(page.locator("[data-land-film] .ngPlayerHost")).toHaveCount(0)
     await settle(page, j)
-    await j.clickByMouse('[data-land-film] .ng-clip[data-i="1"]', "the video after dismissing its reward")
+    await j.clickByMouse('[data-land-film] .ng-clip[data-i="0"]', "the video after dismissing its reward")
     await page.waitForTimeout(450)
   }
   await j.clickByMouse("[data-land-film] .ngClipX", "the exposed video close button")
   await expect(page.locator("[data-land-film] .ngPlayerHost")).toHaveCount(0)
   await settle(page, j)
 
+  // STALE SPEC (D-368, layout C): the current card is a game part, so playing it is no longer reading (a Videos
+  // clip was, D-338). The prose is read beside the open pane instead. The pane's close resumes the game it paused
+  // while the reader still reads, and the next reading input must stop it again (d338-running-reader-not-paused).
+  await page.evaluate(() => (window as any).__neural._reader.articleEl.scrollIntoView({ block: "start" }))
+  await settle(page, j)
+  const prose = await page.evaluate(() => { const r = (window as any).__neural._reader, b = r.articleEl.getBoundingClientRect(), v = r.root.getBoundingClientRect()
+    const top = Math.max(b.top, v.top), bottom = Math.min(b.bottom, v.bottom, innerHeight); return { x: (b.left + b.right) / 2, y: (top + bottom) / 2, visible: bottom - top } })
+  expect(prose.visible, "premise: the prose shows beside the open pane").toBeGreaterThan(40)
+  await page.mouse.move(prose.x, prose.y)
+  await page.mouse.wheel(0, 40)
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.interacting), "premise: reading beside the open pane").toBe(true)
   // STALE CONTRACT (D-338): Focus, which took reading ownership and closed the pane, is gone.
   // Closing the pane and reading the prose take it now. Reopening the pane leaves the article's
   // native scroll position alone and never hands the clock back a miss.
   await closePane(page, j)
+  expect(await page.evaluate(() => ({ reading: !!(window as any).__neural._reader.interacting, paused: (window as any).__neural.paused })),
+    "premise: the pane's close resumes the game it paused, while the reader still reads").toEqual({ reading: true, paused: false })
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await page.locator("[data-reader-body]").focus()
   await page.keyboard.press("Control+End")
+  expect(await page.evaluate(() => (window as any).__neural.paused), "the next reading input stops the game again").toBe(true)
   await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
   const before = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
   await openPane(page, j)
@@ -237,13 +261,15 @@ test("@curated resizing an open pane preserves the card through the stacked land
   expect(landscape.node.id).toBe(desktop.node.id)
   expect(landscape.card.visible).toBe(true)
   // STALE CONTRACT (D-338): the landscape flow reads Videos, Moves, Questions (no stacked film home).
-  expect(landscape.layout).toBe('none')
-  expect(landscape.film.bottom, "Videos sits above Moves").toBeLessThanOrEqual(landscape.hand.y)
-  expect(landscape.card.y - landscape.hand.bottom, "Questions follows Moves at the deck gap").toBeCloseTo(16, 0)
+  // STALE CONTRACT (D-368, layout C): a short landscape has no room beside the question, so the stage stacks:
+  // Moves, then the current card, then the question at 12px.
+  expect(landscape.layout).toBe('stacked')
+  expect(landscape.film.y, "the stage follows Moves").toBeGreaterThanOrEqual(landscape.hand.bottom)
+  expect(landscape.card.y - landscape.film.bottom, "the question follows the card at 12px").toBeCloseTo(12, 0)
   expect(landscape.film.right, "the composition stays within the viewport").toBeLessThanOrEqual(844)
   await closePane(page, j)
   const closed = await geometry(page)
-  expect(closed.layout).toBe('none')
+  expect(closed.layout).toBe('stacked')
   expect(closed.card.center).toBeCloseTo(844 / 2, 0)
   expect(closed.film.center).toBeCloseTo(844 / 2, 0)
   await openPane(page, j)

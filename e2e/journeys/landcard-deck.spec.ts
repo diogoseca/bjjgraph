@@ -139,8 +139,11 @@ for (const width of [1440, 390]) {
       const row = a.optionsRef.current, rr = row.getBoundingClientRect()
       // the DEEPEST back is the first child: `_updateLandDeck` appends --back-index descending
       const deepest = document.querySelector(".ng-landstack")!.firstElementChild!.getBoundingClientRect()
-      const article = a._reader.articleEl.getBoundingClientRect()
+      const article = a._reader.articleEl.getBoundingClientRect(), film = a._landFilmEl?.getClientRects().length ? a._landFilmEl.getBoundingClientRect() : null
+      // D-368: on a stacked stage the current card sits between the Moves tray and the face
+      const stacked = !!film && a._reader.game.dataset.mediaLayout !== "side-by-side" && film.top >= rr.bottom && film.bottom <= r.top
       return {
+        stacked, filmToFace: film ? r.top - film.bottom : null,
         side: parseFloat(cs.paddingLeft), foot: parseFloat(cs.paddingBottom),
         padTop: parseFloat(cs.paddingTop), border: parseFloat(cs.borderBottomWidth),
         height: r.height, face: qr.height, sizing: cs.boxSizing,
@@ -165,8 +168,15 @@ for (const width of [1440, 390]) {
     expect(m.overflow, "the whole face still fits without scrolling").toBeLessThanOrEqual(1)
     // Tight under the hand: the one 16px deck gap at both widths, with the same 18 ceiling, so
     // the deck can never go back to paying the gap twice while staying green.
-    expect(m.trayToFace, "the face sits tight under the Moves tray").toBeLessThanOrEqual(18)
-    expect(m.trayToFace, "…and never under it").toBeGreaterThanOrEqual(0)
+    // STALE CONTRACT (D-368, layout C): on a stacked stage (the phone) the current card sits above the face, which
+    // is tight under it instead, at the stage's own 12px; beside it (the desktop) the face is tight under Moves.
+    if (m.stacked) {
+      expect(m.filmToFace, "the face sits tight under the current card").toBeLessThanOrEqual(14)
+      expect(m.filmToFace, "…and never under it").toBeGreaterThanOrEqual(0)
+    } else {
+      expect(m.trayToFace, "the face sits tight under the Moves tray").toBeLessThanOrEqual(18)
+      expect(m.trayToFace, "…and never under it").toBeGreaterThanOrEqual(0)
+    }
     expect(m.backTipBelowFace, "premise: the deepest back peeks below the face").toBeGreaterThan(0)
     expect(m.backTipToArticle, "the deepest back stays clear of the article").toBeGreaterThanOrEqual(0)
   })
@@ -267,12 +277,15 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
     expect(layout.overflow).toBeLessThanOrEqual(1)
     expect(layout.page).toBe(1)
     expect(layout.sameScrollport).toBe(true)
-    // STALE CONTRACT (D-338): Videos, Moves, Questions in the article view. The film sits above the
-    // hand (its own section when it has one), the deck follows the hand at the 16px deck gap; the
-    // film beside or over the card is the map view's layout only.
-    expect(layout.beside, 'the article view never puts the film beside the card').toBe(false)
-    expect(layout.film.bottom, 'Videos sits above Moves').toBeLessThanOrEqual(layout.hand.top)
-    expect(layout.card.top - layout.hand.bottom, 'Questions follows Moves at the deck gap').toBeCloseTo(16, 0)
+    // STALE CONTRACT (D-368, layout C, reversing D-338's Videos, Moves, Questions): Moves lead, and the stage
+    // follows them at the parts' 16px step. The current card sits beside the question where the width holds
+    // 400 + 60 + 390 (tops aligned), otherwise above it at 12px.
+    const stageTop = Math.min(layout.film.top, layout.card.top)
+    expect(stageTop - layout.hand.bottom, 'the stage follows Moves at the parts\' step').toBeCloseTo(16, 0)
+    if (layout.beside) {
+      expect(layout.card.left - layout.film.right, 'beside: the current card is 60px left of the question').toBeCloseTo(60, 0)
+      expect(layout.film.top, 'beside: tops aligned').toBeCloseTo(layout.card.top, 0)
+    } else expect(layout.card.top - layout.film.bottom, 'stacked: the current card is 12px above the question').toBeCloseTo(12, 0)
   }
 })
 

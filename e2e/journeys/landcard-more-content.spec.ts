@@ -125,7 +125,8 @@ test("@curated a failed article request has a real Retry path", async ({ page })
       return requests === 1 ? route.fulfill({ status: 503, body: "Unavailable" }) : route.continue()
     })
   } })
-  await expect(page.locator("[data-reader] [role=status]")).toHaveText("Loading the complete article…")
+  // STALE SPEC (v1.230.0, feat/video-cards): the choice cards' Win chance is a status too, in the Moves row inside the reader.
+  await expect(page.locator("[data-reader] [role=status]:not([data-choice-value-status])")).toHaveText("Loading the complete article…")
   await expect(page.locator("[data-reader-article]")).toHaveCount(0)
   release()
   await j.advance(5000)
@@ -259,7 +260,9 @@ for (const role of ["Attacker", "Defender"]) {
     await expect(page.locator(READER)).toBeVisible()
     const guide = page.locator('[data-reader-article="guide"]')
     await expect(guide.locator('[data-source-id="overview"] p')).toHaveText(overview.trim())
-    await expect(guide).toContainText(outcome)
-    await expect(guide).not.toContainText(role === "Defender" ? "Authored attack destination" : "Authored escape destination")
+    // STALE SPEC (v1.230.0, the video cards' port meets article sections): each section card holds its own part of
+    // the guide, so the authored outcomes are one guide article among them, and the other side's are in none.
+    await expect(guide.filter({ hasText: outcome }), "the authored outcomes are in the guide").toHaveCount(1)
+    await expect(guide.filter({ hasText: role === "Defender" ? "Authored attack destination" : "Authored escape destination" })).toHaveCount(0)
   })
 }

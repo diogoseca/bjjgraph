@@ -281,7 +281,8 @@ test("@curated a mid-decision JIT grade moves every number and no card", async (
   const moved = after.find((c: any) => c.t === target)!
   const was = before.find((c: any) => c.t === target)!
   expect(parseInt(moved.odds!, 10), "the drilled card's odds moved").toBeGreaterThan(parseInt(was.odds!, 10))
-  expect(moved.valueLabel, "future win is a separately named model value").toContain("Win chance")
+  // STALE SPEC (v1.230.0, feat/video-cards): the card labels its two numbers "Move %" and "Win %" (U10 a).
+  expect(moved.valueLabel, "future win is a separately named model value").toContain("Win %")
   // Numerical future-value updates and stale-profile rejection use controlled solver replies
   // in choice-value.spec.ts; this legacy fixture exercises the live immediate odds only.
 })

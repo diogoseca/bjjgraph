@@ -756,8 +756,10 @@ test("a staged technique's own card is the go — highlighted, then committed in
     }
   })
   expect(hl.staged, "the exchange is staged").toBe("Side Control to Mount")
-  expect(hl.eyebrow, "its card wears the commit verb").toBe("Execute")
-  expect(hl.accent, "…and the action accent").toContain("126, 160, 255")
+  // STALE SPEC (v1.230.0, feat/video-cards): a choice card carries no category eyebrow (video-cards:79), so the
+  // commit verb it wore is gone and the staged card's go is its action accent (_highlightStagedCard).
+  expect(hl.eyebrow, "the video card has no eyebrow to wear a verb").toBeUndefined()
+  expect(hl.accent, "its card wears the action accent").toContain("126, 160, 255")
   // committing THAT card runs the exchange IN PLACE — no travel back to the origin
   const path = await page.evaluate(() => {
     const a = (window as W).__neural

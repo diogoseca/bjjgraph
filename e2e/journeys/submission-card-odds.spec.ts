@@ -90,8 +90,10 @@ test("a submission card prints the finish it leads to, never its certain step, a
   // The choice's own accessible text explains Works, using the same follow-up chance.
   const entry = page.locator(`[data-tech="${NAMED[0]}"] [data-choice-value]`)
   await expect(entry).toContainText(works[NAMED[0]])
-  await expect(entry).toHaveAttribute("aria-label", /Works \d+%/)
-  await expect(entry).not.toHaveAttribute("aria-label", /100%/)
+  // STALE SPEC (v1.230.0, feat/video-cards, U8; red on that branch's own build, H132): the value's explanation is its
+  // title ("You step into the submission: certain, no roll. Then the finish works N% ..."), with the same chance.
+  await expect(entry).toHaveAttribute("title", new RegExp("finish works " + works[NAMED[0]] + "%"))
+  await expect(entry).not.toHaveAttribute("title", /100%/)
   await j.watchChoice(NAMED[0])
 
   // Pick it: the entry is certain, and the Finish card you are dealt prints what Works promised

@@ -57,7 +57,7 @@ const film = (page: Page) => page.evaluate(() => {
   const arrow = (sel: string) => {
     const b = f.querySelector(sel) as HTMLElement, r = b.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2
     const hit = document.elementFromPoint(x, y)
-    return { visibility: getComputedStyle(b).visibility, hit: !!hit && (hit === b || b.contains(hit)), cx: x - fr.left, fromRight: fr.right - x,
+    return { visibility: getComputedStyle(b).visibility, hit: !!hit && (hit === b || b.contains(hit)), cx: x - fr.left, fromRight: fr.right - x, w: r.width,
       tag: b.tagName, label: b.getAttribute("aria-label"), cls: b.className }
   }
   return { x: row.scrollLeft, max: row.scrollWidth - row.clientWidth, scrollbar: row.offsetHeight - row.clientHeight, sbw: cs.scrollbarWidth,
@@ -89,6 +89,11 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
       expect(start.sbw, "and declares none").toBe("none")
 
       // START: left arrow hidden AND inert; only the right edge fades; the first clip one inset in
+      // STALE CONTRACT (v1.230.0, feat/video-cards, the approved current card: one full video and a 10% peek,
+      // choice-value.css .ng-current-card): the card has no side padding, so its one token, the inset, is 0 and
+      // every ratio below holds at 0 (fades of 3 insets are none). Its arrows sit on its edges (left:0, right:0)
+      // where the old strip centred them 1 inset in; that claim is restated for the edge.
+      expect(start.inset, "the current card's strip inset is 0").toBe(0)
       expect(start.prev.visibility, "the left arrow is hidden at the start").toBe("hidden")
       expect(start.prev.hit, "...and inert: the point under it is not the arrow").toBe(false)
       expect(start.next.visibility, "the right arrow shows").toBe("visible")
@@ -115,10 +120,12 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
       expect([end.lead, end.trail], "at the end only the left edge fades: " + end.mask).toEqual([3 * end.inset, 0])
       expect(end.lastGap, "the last clip is not flush against the edge").toBeGreaterThan(0)
 
-      // THE RATIOS, all of the one token on screen (the strip's side padding), never the pixels
-      expect(Math.abs(end.lastGap / end.inset - 1), `end padding = 1 inset (${end.lastGap} / ${end.inset})`).toBeLessThan(0.1)
-      expect(Math.abs(mid.lead / mid.inset - 3), `fade = 3 insets (${mid.lead} / ${mid.inset})`).toBeLessThan(0.05)
-      expect(Math.abs(mid.prev.cx / mid.inset - 1), `arrow centre 1 inset from the edge (${mid.prev.cx})`).toBeLessThan(0.1)
+      // THE RATIOS, all of the one token on screen (the strip's side padding), never the pixels. At an inset of 0
+      // (the current card) a ratio is undefined, so each is stated as the same equality within 1px.
+      expect(Math.abs(end.lastGap - end.inset), `end padding = 1 inset (${end.lastGap} / ${end.inset})`).toBeLessThanOrEqual(1)
+      expect(Math.abs(mid.lead - 3 * mid.inset), `fade = 3 insets (${mid.lead} / ${mid.inset})`).toBeLessThanOrEqual(1)
+      expect(Math.abs(mid.prev.cx - mid.prev.w / 2), `the left arrow sits on the card's edge (${mid.prev.cx}, ${mid.prev.w})`).toBeLessThanOrEqual(1)
+      expect(Math.abs(mid.next.fromRight - mid.next.w / 2), `the right arrow sits on the card's edge (${mid.next.fromRight}, ${mid.next.w})`).toBeLessThanOrEqual(1)
 
       // BACK, by the left arrow and the keyboard (a real button: focus + Enter)
       await page.locator("[data-film-prev]").focus()
@@ -132,9 +139,11 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
       await j.boot("/", { keepTutorial: true })
       await j.land("Mount Top")
       // two VERTICAL clips (62px each) fit at 390 too, where two landscape ones (148px) do not
-      await seedFilm(page, 2, true)
+      // STALE CONTRACT (v1.230.0, feat/video-cards, the approved current card): each clip is 90.9% of the card, so
+      // no two fit; a single video fills it ([data-single-video]) and is the row that fits.
+      await seedFilm(page, 1)
       const fit = await settled(page)
-      expect(fit.max, "precondition: two clips fit the strip").toBeLessThanOrEqual(0)
+      expect(fit.max, "precondition: one clip fits the strip").toBeLessThanOrEqual(0)
       expect([fit.prev.visibility, fit.next.visibility], "no arrows").toEqual(["hidden", "hidden"])
       expect([fit.attr, fit.mask], "no fades").toEqual([null, "none"])
     })
@@ -170,4 +179,6 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
    - a fitting row shows its arrows ....................................... "no arrows"
    - a fitting row keeps a fade (constant mask) ........................... "no fades"
    - reduced motion ignored ............................................... "and it was there on the next frame"
-   - arrows lose the shared chevron class ................................. the `ng-chev` toContain, both widths */
+   - arrows lose the shared chevron class ................................. the `ng-chev` toContain, both widths
+   v1.230.0 (feat/video-cards' current card): the strip's inset is 0, so "no end padding" and "fade ratio 2" change
+   nothing on screen; they are NON-KILLS by construction, recorded here, not coverage. */

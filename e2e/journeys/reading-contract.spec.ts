@@ -152,12 +152,21 @@ test('@curated reading gestures, minimizing and article navigation never start p
   // STALE CONTRACT (D-318 U1(1), D-338): Questions and Moves close through their own ✕ and
   // reopen from the label each leaves. RETIRED (D-338, no View menu): Book, Map and Feedback have
   // no control in the article view, so their minimize/restore steps go; the claim is their absence.
+  // STALE SPEC (D-368, layout C): the hand's ✕ docks only beside a visible tray, and Moves lead the flow, so the tray is
+  // brought into view before its ✕ is pressed or looked for; its own last rectangle is stale while hidden.
+  const tray = async () => { await page.evaluate(() => (window as any).__neural.optionsRef.current.scrollIntoView({ block: 'nearest' })); await j.readerLayoutSettled(); await j.advance(40) }
   for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
+    if (part === 'hand') await tray()
     await page.locator(close).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     await j.clickByMouse(close, 'minimize ' + part)
-    await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-    await j.clickByMouse(`[data-game-open="${part}"]`, 'restore ' + part)
+    // STALE SPEC (D-355, U11): where the index shows, a closed part leaves no label; its index row reopens it.
+    if (await page.locator('.ng-reader-toc').isVisible()) await j.clickByMouse(`[data-toc-type="${part}"] a`, 'restore ' + part + ' from the index')
+    else {
+      await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+      await j.clickByMouse(`[data-game-open="${part}"]`, 'restore ' + part)
+    }
     await expect(page.locator(`[data-game-open="${part}"]`)).toBeHidden()
+    if (part === 'hand') await tray()
     await expect(page.locator(close).first()).toBeVisible()
   }
   await expect(page.locator('[data-layer-hide]:visible,[data-layer-show]:visible'), 'no View control in the article view').toHaveCount(0)
@@ -278,7 +287,8 @@ test('@curated a late response cannot repaint the opposite seat in the same read
     // text is the name. Videos leads the flow above the hand, so a section is current in the reader.
     if (target?.classList.contains('ng-reader-closed-part')) return { label: e.textContent, type: target.id.slice(7),
       current: !!document.querySelector('.ng-reader-game')?.contains(target) && e.getAttribute('href') === '#' + target.id,
-      heading: target.querySelector('[data-game-open] .ng-section-closed > span:last-child')?.textContent }
+      // STALE SPEC (D-355, U11): a closed label reads its name, then its eye, so the name is the first span.
+      heading: target.querySelector('[data-game-open] .ng-section-closed > span:first-child')?.textContent }
     return { label: e.textContent, type: card?.getAttribute('data-section-type'),
       current: !!card && !!document.querySelector('[data-reader]')?.contains(card) && e.getAttribute('href') === '#' + card.id,
       heading: card?.querySelector('.ng-section-title')?.textContent }

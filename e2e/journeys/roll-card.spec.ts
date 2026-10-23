@@ -223,12 +223,21 @@ test("the complete article renders automatically and survives the question lifet
   // the wheel goes over reading on screen at arrival, the Videos section's own text, as in reading-mode.
   await page.locator("[data-reader]").evaluate(e => { e.scrollTop = 0 }) // the ✕ above scrolled the Videos text away
   await j.readerLayoutSettled()
-  const r = await page.locator(".ng-reader-game > [data-section-type=videos] .section-subtitle").first().boundingBox()
+  // STALE CONTRACT (D-368, layout C): nothing is lifted into the game; the Videos section opens the article after the
+  // stage, below the fold here, and the whole game flow (its head included) is game input (gameInput). So the text is
+  // brought into view first, by a programmatic scroll, which is not a reading input; the second wheel must still
+  // continue the gesture in the native scrollport.
+  const subtitle = page.locator(".ng-reader-article [data-section-type=videos] .section-subtitle").first()
+  await subtitle.evaluate(e => e.scrollIntoView({ block: "center" }))
+  await j.readerLayoutSettled()
+  const r = await subtitle.boundingBox()
+  expect(r && r.y + r.height / 2 < (page.viewportSize()?.height ?? 900), "premise: the Videos section's text is on screen").toBe(true)
   await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height / 2)
   await page.mouse.wheel(0, 300)
   await expect(page.locator("[data-reader]")).toHaveAttribute("data-reading-expanded", "")
+  const at = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
   await page.mouse.wheel(0, 300)
-  await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBeGreaterThan(0)
+  await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBeGreaterThan(at)
   await j.advance(20000)
   expect((await j.beats()).filter(b => b.beat === "land_q_expired")).toEqual([])
   await page.evaluate(() => (window as Any).__neural.clearOptions())
@@ -266,15 +275,17 @@ test("the film row rides the game card", async ({ page }) => {
     const fr = f.getBoundingClientRect(), hr = a.optionsRef.current.getBoundingClientRect(), r = a._reader
     return { clips: f.querySelectorAll(".ng-clip").length,
              shared: f.parentElement === r.mediaSlot && r.videoCard?.parentElement === r.game || f.parentElement === r.mediaHome && r.mediaHome.parentElement === r.game,
-             layout: r.game.dataset.mediaLayout, aboveMoves: fr.bottom <= hr.top + .5,
+             layout: r.game.dataset.mediaLayout, belowMoves: fr.top >= hr.bottom - .5,
              inCard: !!(a._landEl && a._landEl.contains(f)) }
   })
   expect(film, "the film row is up").not.toBeNull()
   expect(film!.inCard, "outside the practice card").toBe(false)
   expect(film!.clips, "with the authored clip").toBeGreaterThan(0)
   expect(film!.shared, "one media host shares the scrollport with practice").toBe(true)
-  expect(film!.layout, "never beside the card in the article view").not.toBe('side-by-side')
-  expect(film!.aboveMoves, "Videos leads the flow, above Moves").toBe(true)
+  // STALE CONTRACT (D-368, layout C, reversing D-338): Moves lead, and the current card is the stage after them,
+  // beside the question where the width holds it, otherwise above it.
+  expect(["side-by-side", "stacked"], "the current card is the stage: beside the question or stacked above it").toContain(film!.layout)
+  expect(film!.belowMoves, "Moves lead the flow, above the stage").toBe(true)
 })
 
 test("a node you are NOT standing on still opens the GAME CARD, never a second surface", async ({

@@ -131,7 +131,8 @@ test("@curated a recall page mounted under the pane receives Space when the pane
 // the column, so a click measured just after the pane opened landed on the moved card: the next arrow's
 // point became an MC answer (the test above, isolated: head 10 of 75 red, dev 0 of 100). They now follow
 // the pane in the same frame. Read inside one evaluate, with no frame between, the arrows already sit
-// where the reader's own layout puts them.
+// where the reader's own layout puts them. THIS journey is the gate (D9-N4): its control d354-pane-follow-lag
+// is killed at its claim. Later isolated greens of the test above are not evidence of the fix.
 test("D-354: the landing deck and its arrows follow the pane in the same frame", async ({ page }) => {
   await setup(page)
   const r = await page.evaluate(() => {

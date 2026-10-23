@@ -73,7 +73,9 @@ test("tutorial challenge cue never captures clicks aimed at live option cards", 
     }
   })
   console.log("CUE-AUDIT", JSON.stringify(audit))
-  expect(audit.tested, "on-viewport cards were actually audited").toBeGreaterThanOrEqual(6)
+  // STALE SPEC (D-355, U9 b): beside the left index the tray starts 12px past it, so five cards fit its visible row at
+  // 1440 (six before); the audit's positive floor follows the row it audits.
+  expect(audit.tested, "on-viewport cards were actually audited").toBeGreaterThanOrEqual(5)
 
   // THE INVARIANT (red today): no overlay owns the center of any on-viewport option card
   expect(

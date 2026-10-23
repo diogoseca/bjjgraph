@@ -110,6 +110,10 @@ for (const [path, width, fixture] of [
       await j.clickByMouse('[data-reference-play]', 'play the published reference through its media owner')
       await play.evaluate(el => el.removeAttribute('data-reference-play'))
       await expect(page.locator('[data-reader] iframe')).toHaveCount(1)
+      // STALE CONTRACT (v1.230.0, feat/video-cards): the player opens on its own controls and never autoplays;
+      // the viewer's Play is the provider's own control, made here through the player.
+      await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip?._playerReady), 'premise: the player is ready').toBe(true)
+    await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo())
       await expect.poll(() => page.evaluate(() => {
         const f = document.querySelector('[data-land-film] iframe') as HTMLIFrameElement
         return f?.contentDocument?.querySelector('video')?.currentTime || 0
@@ -150,9 +154,13 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
     await expect(page.locator(READY)).toBeVisible()
     // STALE CONTRACT (D-338): Focus is gone, and with the article shown the film's one home is
     // its Videos section, so the clip is already in the slot without any entry action.
+    // STALE CONTRACT (D-368, layout C): a game node's current card keeps the game's media home, beside or
+    // above the question, so the clip is already there; the Videos section's slot is its other home, and
+    // the move below goes there and back. STALE CONTRACT (v1.230.0, feat/video-cards): the player opens on
+    // its own controls and never autoplays; the viewer's Play is the provider's, made through the player.
     if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]')
-    await expect(page.locator('[data-reader-media-slot] .ng-clip').first()).toBeVisible()
-    await page.locator('[data-reader-media-slot] .ng-clip').first().scrollIntoViewIfNeeded()
+    await expect(page.locator('[data-land-film] .ng-clip').first()).toBeVisible()
+    await page.locator('[data-land-film] .ng-clip').first().scrollIntoViewIfNeeded()
     await installTransport(page)
     await page.evaluate(() => {
       const w = window as any, a = w.__neural
@@ -161,7 +169,9 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
       const wrap = a.wrapRef.current, capture = wrap.setPointerCapture
       wrap.setPointerCapture = function (id: number) { w.__canvasPicks++; return capture.call(this, id) }
     })
-    await j.clickByMouse('[data-reader-media-slot] .ng-clip:first-child', 'play the existing clip using its real handler')
+    await j.clickByMouse('[data-land-film] .ng-clip:first-child', 'open the existing clip using its real handler')
+    await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip?._playerReady), 'premise: the player is ready').toBe(true)
+    await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo())
     await expect.poll(() => page.evaluate(() => {
       const f = document.querySelector('[data-land-film] iframe') as HTMLIFrameElement
       return f?.contentDocument?.querySelector('video')?.currentTime || 0
@@ -172,7 +182,7 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
       w.__mediaEvents = []; w.__pauseCalls = 0
       const pause = a.pauseLandFilm
       a.pauseLandFilm = function () { w.__pauseCalls++; return pause.call(this) }
-      const target = a._reader.mediaHome, append = target.appendChild
+      const target = a._reader.mediaSlot, append = target.appendChild
       target.appendChild = function (node: Node) { if (node === w.__mediaHost) w.__mediaEvents.push('append'); return append.call(this, node) }
       a._reader.place(target)
       if (a._expandedClip._mediaStale) {
@@ -183,7 +193,7 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
       }
     })
     let proof = await snapshot(page)
-    expect(proof).toMatchObject({ same: true, frame: true, hosts: 1, frames: 1, total: 1, slot: false, player: native })
+    expect(proof).toMatchObject({ same: true, frame: true, hosts: 1, frames: 1, total: 1, slot: true, player: native })
     if (native) {
       expect(proof).toMatchObject({ document: true, paused: false })
       expect(proof.events).toEqual([])
@@ -196,13 +206,15 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
       expect((await snapshot(page)).events).not.toContain('play')
       expect((await snapshot(page)).events.filter((e: string) => e.startsWith('STALE:'))).toEqual([])
     }
-    await page.evaluate(() => { const a = (window as any).__neural; a._reader.place(a._reader.mediaSlot); a._reader.place(a._reader.mediaSlot); a._dockLandFilm() })
-    expect(await snapshot(page)).toMatchObject({ same: true, frame: true, player: native, hosts: 1, frames: 1, total: 1, slot: true })
+    await page.evaluate(() => { const a = (window as any).__neural; a._reader.place(a._reader.mediaHome); a._reader.place(a._reader.mediaHome); a._dockLandFilm() })
+    expect(await snapshot(page)).toMatchObject({ same: true, frame: true, player: native, hosts: 1, frames: 1, total: 1, slot: false })
     await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded()
     await j.clickByMouse('[data-section-toggle=videos]', 'collapse pauses without deleting the owner')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeHidden()
     expect(await snapshot(page)).toMatchObject({ same: true, frame: true, player: native, hosts: 1, frames: 1, total: 1, paused: true })
-    await j.clickByMouse('[data-section-toggle=videos]')
+    // U11 (D-355): where the index shows, the closed Videos section leaves no placeholder; its row reopens it.
+    const indexed = await page.locator('[data-reader][data-indexed]').count() > 0
+    await j.clickByMouse(indexed ? '[data-toc-type=videos] a' : '[data-section-toggle=videos]', 'reopen Videos')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeVisible()
     expect((await snapshot(page)).paused).toBe(true)
     expect(await page.evaluate(() => (window as any).__pauseCalls)).toBeGreaterThan(0)
@@ -210,6 +222,9 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
     expect((await snapshot(page)).events.filter((e: string) => e.startsWith('STALE:'))).toEqual([])
     expect(await page.evaluate(() => (window as any).__canvasPicks)).toBe(0)
     expect(await page.evaluate(() => { const a = (window as any).__neural; return { drag: !!a.dragging, played: !!a._played, paused: a.paused } })).toMatchObject({ drag: false, played: false, paused: true })
+    // D-368 (layout C): the film sits in the stage at the top while the Videos toggle reads with the article,
+    // so the reader scrolls back up to the film to resume it.
+    await page.locator('[data-film-resume]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     await j.clickByMouse('[data-film-resume]', 'only deliberate play resumes or rebinds the stopped clip')
     await expect.poll(async () => (await snapshot(page)).paused).toBe(false)
     expect((await snapshot(page)).events.filter((e: string) => e.startsWith('STALE:'))).toEqual([])
@@ -222,7 +237,8 @@ test('@curated pauseLandFilm pauses every owner player without destroying or col
   await j.boot(PATH, { initialState: QUIET, beforeNavigate: async () => {
     await page.route('**/static/neural/content/*.json', route => route.continue())
   } })
-  await expect(page.locator('[data-reader-media-slot] .ng-clip').first()).toBeVisible()
+  // STALE CONTRACT (D-368, layout C): the game's current card lives in the media home, not the Videos slot.
+  await expect(page.locator('[data-land-film] .ng-clip').first()).toBeVisible()
   const proof = await page.evaluate(() => {
     const a = (window as any).__neural
     // PR 305 curated Knee Slice to one clip. This owner-wide pause claim needs
@@ -255,7 +271,8 @@ test('@curated same-seat hydration retains the host; a role change retires it', 
       await page.route('**/__snapshot/ping', route => route.fulfill({ status: 204 }))
     } })
   await expect(page.locator(READY)).toBeVisible()
-  await expect(page.locator('[data-reader-media-slot] .ng-clip').first()).toBeVisible()
+  // STALE CONTRACT (D-368, layout C): the game's current card lives in the media home, not the Videos slot.
+  await expect(page.locator('[data-land-film] .ng-clip').first()).toBeVisible()
   await page.evaluate(() => {
     const w = window as any, a = w.__neural; w.__mediaHost = a._landFilmEl
     a.onContentReady(a.nodes[a._landIdx].t)
@@ -267,8 +284,8 @@ test('@curated same-seat hydration retains the host; a role change retires it', 
   expect(await page.evaluate(() => (window as any).__mediaHost.isConnected)).toBe(false)
   await expect(page.locator('[data-land-film]')).toHaveCount(1)
   expect(await page.evaluate(() => {
-    const a = (window as any).__neural; return { role: a._landFilmEl._ngMediaRole, slot: a._reader.ownsMedia() }
-  })).toEqual({ role: 'defender', slot: true })
+    const a = (window as any).__neural; return { role: a._landFilmEl._ngMediaRole, home: a._landFilmEl.parentElement === a._reader.mediaHome }
+  })).toEqual({ role: 'defender', home: true })
 })
 
 
@@ -277,8 +294,11 @@ test('@curated same-seat hydration retains the host; a role change retires it', 
 // home any more). Kept: one owned host in the shared scrollport, measured one-gap boundaries with
 // no extra gap, no fixed overlap, no resize loops. RETIRED with that home: the side-by-side and
 // stacked sizes and "until videos lands, the host rect supplies identical geometry".
+// STALE CONTRACT (D-368, layout C): nothing is lifted; Moves lead and the current card sits in the game's
+// stage, beside the question on a desktop (top-aligned, 60px gap) and above it on a phone (12px gap). The
+// kept claims are unchanged; the video cards' A journey pins the stage's sizes.
 for (const width of [1366, 390]) {
-  test(`@curated ${width}px the Videos section leads the game scrollport without fixed overlap or resize loops`, async ({ page }) => {
+  test(`@curated ${width}px the current card sits in the game's stage without fixed overlap or resize loops`, async ({ page }) => {
     const errors: string[] = []
     page.on('pageerror', e => errors.push(e.message))
     page.on('console', m => { if (m.type() === 'error') errors.push(m.text() + ' [' + m.location().url + ']') })
@@ -293,7 +313,7 @@ for (const width of [1366, 390]) {
       // The localhost-only snapshot probe is not implemented by the static harness.
       await page.route('**/__snapshot/ping', route => route.fulfill({ status: 204 }))
     } })
-    await expect(page.locator('[data-reader-media-slot] .ng-clip').first()).toBeVisible()
+    await expect(page.locator('[data-land-film] .ng-clip').first()).toBeVisible()
     await page.evaluate(width => {
       const w = window as any, a = w.__neural; w.__placementHost = a._landFilmEl
       // Explicit future-owner height fixture on today's same host, not a second renderer.
@@ -304,28 +324,33 @@ for (const width of [1366, 390]) {
     await j.advance(500)
     await j.readerLayoutSettled()
     const geometry = () => page.evaluate(() => {
-      const w = window as any, a = w.__neural, r = a._reader, video = r.videoCard, card = a._landEl, row = a.optionsRef.current
-      const v = video.getBoundingClientRect(), m = a._landFilmEl.getBoundingClientRect(), c = card.getBoundingClientRect(), h = row.getBoundingClientRect()
+      const w = window as any, a = w.__neural, r = a._reader, card = a._landEl, row = a.optionsRef.current
+      const m = a._landFilmEl.getBoundingClientRect(), c = card.getBoundingClientRect(), h = row.getBoundingClientRect()
+      const meet = (p: DOMRect, q: DOMRect) => p.left < q.right && p.right > q.left && p.top < q.bottom && p.bottom > q.top
       return { same: a._landFilmEl === w.__placementHost, hosts: document.querySelectorAll('[data-land-film]').length,
-        slot: a._landFilmEl.parentElement === r.mediaSlot && video.contains(r.mediaSlot),
-        together: video.parentElement === r.game && card.parentElement === r.game && row.parentElement === r.game,
-        layout: r.game.getAttribute('data-media-layout'), video: { x: v.x, w: v.width, bottom: v.bottom },
-        media: { x: m.x, w: m.width, h: m.height }, card: { y: c.y, bottom: c.bottom }, hand: { top: h.top, bottom: h.bottom },
+        home: a._landFilmEl.parentElement === r.mediaHome, lifted: !!r.videoCard,
+        together: r.mediaHome.parentElement === r.game && card.parentElement === r.game && row.parentElement === r.game,
+        layout: r.game.getAttribute('data-media-layout'), overlap: meet(m, c) || meet(m, h),
+        media: { x: m.x, w: m.width, h: m.height, top: m.top, bottom: m.bottom }, card: { x: c.x, y: c.y, bottom: c.bottom }, hand: { top: h.top, bottom: h.bottom },
         gap: card.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12, position: getComputedStyle(a._landFilmEl).position }
     })
     const g = await geometry()
-    expect(g).toMatchObject({ same: true, hosts: 1, slot: true, together: true, layout: 'none', position: 'relative' })
+    expect(g).toMatchObject({ same: true, hosts: 1, home: true, lifted: false, together: true, overlap: false, layout: width > 640 ? 'side-by-side' : 'stacked', position: 'relative' })
     expect(g.media.h).toBeGreaterThanOrEqual(width > 640 ? 241.42 : 219.93)
-    expect(g.media.x, 'the film stays inside its section').toBeGreaterThanOrEqual(g.video.x)
-    expect(g.media.x + g.media.w).toBeLessThanOrEqual(g.video.x + g.video.w + .5)
-    expect(g.hand.top - g.video.bottom, 'Moves follows Videos at one gap, never another').toBeCloseTo(g.gap, 1)
-    expect(g.card.y - g.hand.bottom, 'Questions follows Moves at one gap, never another').toBeCloseTo(g.gap, 1)
+    if (width > 640) {
+      expect(g.card.y - g.hand.bottom, 'Questions follows Moves at one gap, never another').toBeCloseTo(g.gap, 1)
+      expect(g.media.top, 'the current card is top-aligned with the question').toBeCloseTo(g.card.y, 1)
+      expect(g.card.x - g.media.x - g.media.w, 'beside it at the 60px gap').toBeCloseTo(60, 1)
+    } else {
+      expect(g.media.top - g.hand.bottom, 'the current card follows Moves at one gap').toBeCloseTo(g.gap, 1)
+      expect(g.card.y - g.media.bottom, 'the question follows the card at 12px').toBeCloseTo(12, 1)
+    }
     await page.evaluate(async () => { await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame) })
     const churn = await page.evaluate(async () => {
       const a = (window as any).__neural, reader = a._reader, now = reader.layoutNow
       let calls = 0, writes = 0, sets = 0
       reader.layoutNow = function () { calls++; return now.call(this) }
-      const elements = [reader.root, reader.game, reader.mediaHome, reader.videoCard, reader.articleEl, reader.head,
+      const elements = [reader.root, reader.game, reader.mediaHome, reader.articleEl, reader.head,
         reader.dock, reader.contents, a._landEl, a._landStackEl, a._landNavEl, a.optionsRef.current].filter(Boolean) as HTMLElement[]
       // Chromium can suppress MutationObserver records for an identical CSSOM
       // assignment. Count the owned style calls too: the first style-churn mutant
@@ -354,5 +379,53 @@ for (const width of [1366, 390]) {
     }
     expect((await geometry()).same).toBe(true)
     expect(errors).toEqual([])
+  })
+}
+
+// D-368 + D-325 (orchestrator D-370 (2)): once a question is published, nothing may mount above it and move its
+// answers. Layout C puts a node's current card above the question on a phone and beside it on a desktop (which moves
+// the question sideways), and the film rides the node's content chunk, which can land after the article: H132's
+// probe moved a live phone question 520 -> 752 when a 2.6s chunk landed. The hold waits for the chunk inside its
+// 800ms ceiling, so the question publishes with its film in place; past the ceiling the parts publish pinned and the
+// late film waits for the player's own input (D-352 S2). Control: d370-late-film-unheld (app runner).
+for (const [label, delay] of [['400ms', 400], ['2.6s, past the ceiling', 2600]] as const) for (const [width, height] of [[390, 844], [1440, 900]] as const) {
+  test(`@curated ${width}px a film chunk landing after ${label} never moves the published answers`, async ({ page }) => {
+    test.setTimeout(90_000)
+    await page.setViewportSize({ width, height })
+    await page.addInitScript(() => {
+      const w = window as any, out: any[] = (w.__lateFilm = [])
+      const tick = () => {
+        const a = w.__neural, c = a?._landEl, f = a?._landFilmEl
+        const live = !!c && c.isConnected && !c.hasAttribute('data-reader-pending') && getComputedStyle(c).visibility === 'visible'
+        const opt = live ? c.querySelector('[data-land-mc-opt]') : null, b = opt?.getBoundingClientRect()
+        if (a) out.push({ answer: b && b.height ? [Math.round(b.left), Math.round(b.top)] : null, card: c || null,
+          film: !!f && f.isConnected && !f.hidden && f.getClientRects().length > 0 && getComputedStyle(f).visibility !== 'hidden' })
+        if (!w.__lateFilmStop) requestAnimationFrame(tick)
+      }
+      requestAnimationFrame(tick)
+    })
+    const j = journey(page)
+    let held = 0
+    await j.boot('/Positions/Mount/Top', { beforeNavigate: async () => {
+      await page.route('**/static/neural/content/*.json', async route => { held++; await new Promise(r => setTimeout(r, delay)); await route.continue() })
+    } })
+    await expect(page.locator(READY)).toBeVisible()
+    await page.waitForTimeout(delay + 1500)
+    const T = await page.evaluate(() => { const w = window as any, card = w.__neural._landEl
+      return w.__lateFilm.filter((x: any) => x.card === card).map((x: any) => ({ answer: x.answer, film: x.film })) })
+    expect(held, 'premise: the content chunk was held').toBeGreaterThan(0)
+    const live = T.filter((x: any) => x.answer)
+    expect(live.length, 'premise: the question was published').toBeGreaterThan(5)
+    expect([...new Set(live.map((x: any) => x.answer.join()))], 'the published answers never move').toHaveLength(1)
+    if (delay < 800) {
+      expect(live[0].film, 'inside the ceiling the question publishes with its film in place').toBe(true)
+      return
+    }
+    expect(live.some((x: any) => x.film), 'past the ceiling the late film does not mount while the question is live').toBe(false)
+    const mc = await j.landQuestion()
+    expect(mc, 'premise: a multiple-choice question').not.toBeNull()
+    await j.clickByMouse(`[data-land-mc-opt="${mc!.correct}"]`, 'answer the question where it sits')
+    await expect.poll(() => page.evaluate(() => { const f = (window as any).__neural._landFilmEl
+      return !!f && f.getClientRects().length > 0 && getComputedStyle(f).visibility !== 'hidden' }), 'the late film shows after the player answers').toBe(true)
   })
 }

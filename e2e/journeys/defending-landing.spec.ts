@@ -118,11 +118,13 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
     for (const [tag, values] of Object.entries({ resolve: [.999], outcome: [0], 'opp-finish': [0], 'opp-sub-pick': [.75], 'opp-pick': [0], escape: [0], 'panic-mc-pick': Array(40).fill(.23), 'panic-mc-shuffle': Array(40).fill(.61) })) a.rig(tag, values)
     const pick = a._optionCards.find((c: any) => c.opt.node.t === 'Half Guard to Back Take' && !c.opt.threat)
     if (!pick) throw new Error('the authored move is absent')
-    pick.card.setAttribute('data-defending-commit', '')
+    // H139: the temporary data-defending-commit marker disappeared when the landing rerendered
+    // before the press (844 control timed out before its catch claim). Select the same authored own
+    // move by the app's stable data-tech identity below; a replaced card remains the same choice.
   }, { old: legacyDefenseRenderer, legacy, cold })
   if (before) await before()
-  await page.locator('[data-defending-commit] .ng-choice-title-button').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-defending-commit] .ng-choice-title-button', 'choose Half Guard to Back Take')
+  await page.locator('[data-tech="Half Guard to Back Take"] .ng-choice-title-button').scrollIntoViewIfNeeded()
+  await j.clickByMouse('[data-tech="Half Guard to Back Take"] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
   await expect(page.locator(cold ? '[data-panic-reveal]' : '[data-panic-mc-opt]').first()).toBeVisible()
   // STALE TIMING (D-351, H57): a reading-view landing stays unpublished, its clock parked, until the
@@ -273,7 +275,9 @@ for (const answer of ['right', 'wrong', 'expiry']) {
       const before = await mechanics(page)
       if (answer !== 'right') expect(before.combo).toBe(3)
       expect(before.publishedOdds).toHaveLength(before.choices.length)
-      for (const card of before.publishedOdds) expect(card.percent).toMatch(/^\d+%$/)
+      // STALE SPEC (v1.230.0, feat/video-cards merged, U8): the % unit moved to the card's heading; the
+      // published odds are bare integers, compared renderer to renderer below.
+      for (const card of before.publishedOdds) expect(card.percent).toMatch(/^\d+$/)
       expect(before.total).toBe(13500)
       if (answer === 'expiry') await j.advance(14000)
       else {
@@ -491,6 +495,9 @@ const traceAnswer = (page: Page) => page.evaluate(() => {
   }
   requestAnimationFrame(tick)
 })
+// D-368 (layout C): the current card is shown in the reader's media home, visibly, with a height.
+const filmShown = () => { const a = (window as any).__neural, f = a._landFilmEl, home = a._reader?.mediaHome
+  return !!f && f.parentElement === home && !home.hidden && !f.hidden && f.getBoundingClientRect().height > 0 && getComputedStyle(f).visibility !== 'hidden' }
 const answerTrace = (page: Page) => page.evaluate(() => { (window as any).__d351stop = true; return (window as any).__d351 as any[] })
 
 test('D-351: a catch whose article lands late shows its answers once, at their final rect, and a click grades them', async ({ page }) => {
@@ -528,8 +535,9 @@ test('D-351: past the 800ms ceiling the answers publish, and the late article st
   await j.clickByMouse(`[data-panic-mc-opt="${mc.correct}"]`, 'answer the panic card where it sits')
   expect(await page.evaluate(() => !!(window as any).__neural._optList), 'the click executed no escape move').toBe(true)
   expect((await mechanics(page)).grades.map((g: any) => g.beat), 'the measured click graded the intended answer').toContain('mc_correct')
-  // Graded is settled: the held-back Videos lift happens now, after the player's own input.
-  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.videoCard), 'the Videos section lifts once the answer is graded').toBe(true)
+  // Graded is settled: the held-back film shows now, after the player's own input. STALE SPEC (D-368, layout C):
+  // nothing lifts any more; the current card shows in the game's media home, beside the question card.
+  await expect.poll(() => page.evaluate(filmShown), 'the held-back film shows once the answer is graded').toBe(true)
 })
 
 // D-352 S2: past the ceiling the answers publish pinned; a film that arrives while they are pinned
@@ -564,8 +572,9 @@ test('D-352: past the ceiling, a film arriving while the answers are pinned neve
   expect(over, 'the film never covers the pinned hand').toEqual([])
   const mc = (await mechanics(page)).mc!
   await j.clickByMouse(`[data-panic-mc-opt="${mc.correct}"]`, 'answer the panic card where it sits')
-  // Graded is settled: the held-back film and Videos lift follow the player's own input.
-  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.videoCard), 'the Videos section lifts once the answer is graded').toBe(true)
+  // Graded is settled: the held-back film shows now, after the player's own input. STALE SPEC (D-368, layout C):
+  // nothing lifts any more; the current card shows in the game's media home, beside the question card.
+  await expect.poll(() => page.evaluate(filmShown), 'the held-back film shows once the answer is graded').toBe(true)
 })
 
 // D-353 (review-claude Delta 7, B1): a play is the player's own input and settles the pin, as grading
@@ -607,27 +616,10 @@ test('D-353: playing the pinned film opens it beside the hand, never over it, an
   expect(film, 'the playing player stays visible through a relayout').toEqual({ playing: true, visible: true })
 })
 
-// D-354 N1 (review Delta 8, D8B): a play after the article rendered, still pinned, used to lift
-// Videos with an empty slot under the playing film (film y218-440 in the home, the card at
-// y456-558) until the next sync. The reader now places the film in its slot before a player exists.
-test('D-354 N1: a play after the article rendered opens the film inside the lifted Videos card', async ({ page }) => {
-  const late = lateArticle(page, 1500)
-  const j = await catchLoop(page, false, false, async () => { await late.route() })
-  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP_DEFENDER)
-  const premise = await page.evaluate(() => {
-    const a = (window as any).__neural, r = a._reader, f = a._landFilmEl
-    return { pinned: !!a._readerPin, home: f?.parentElement === r.mediaHome, slot: !!r.mediaSlot?.isConnected, lifted: !!r.videoCard }
-  })
-  expect(premise, 'premise: the article rendered while pinned, its film in the media home and Videos held back').toEqual({ pinned: true, home: true, slot: true, lifted: false })
-  await j.clickByMouse('.ng-landfilm .ng-clip', 'play the pinned film after its article rendered')
-  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip), { message: 'premise: the clip opened its player' }).toBe(true)
-  await j.readerLayoutSettled()
-  const placed = await page.evaluate(() => {
-    const a = (window as any).__neural, r = a._reader, f = a._landFilmEl
-    return { playing: !!a._expandedClip, lifted: !!r.videoCard, inSlot: !!r.mediaSlot?.contains(f), inLifted: !!r.videoCard?.contains(f) }
-  })
-  expect(placed, 'the playing film sits in the lifted Videos slot, with no empty slot under it').toEqual({ playing: true, lifted: true, inSlot: true, inLifted: true })
-})
+// RETIRED (D-368, layout C): D-354 N1 pinned a play after the article rendered into the lifted Videos card.
+// Under C a game node's current card never moves into the Videos slot (it sits in the game's media home,
+// beside or above the question), so no empty slot can be left under a playing film; D-353's journey keeps
+// the play beside the hand. Its control d354-play-film-left-home is retired with it.
 
 // D-354 N2 (D8C): closing the pinned film hides its home for the pin's life (D-352's sticky rule), so
 // the player's own reopen did nothing until the parts settled. A reopen settles the pin, as a play does.
@@ -640,8 +632,10 @@ test('D-354 N2: reopening Videos while pinned settles the pin and shows the film
   }), { message: 'premise: the answers published pinned with the film shown in the media home' }).toBe(true)
   await j.clickByMouse('.ng-landfilm [data-film-close]', 'hide the pinned film')
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP_DEFENDER)
-  const toggle = '[data-section-toggle="videos"]'
-  await page.evaluate((sel) => document.querySelector(sel)!.scrollIntoView({ block: 'center' }), toggle)
+  // U11 (D-355): where the index shows, a closed section leaves no placeholder; its index row reopens it.
+  const indexed = await page.locator('[data-reader][data-indexed]').count() > 0
+  const toggle = indexed ? '[data-toc-type="videos"] a' : '[data-section-toggle="videos"]'
+  if (!indexed) await page.evaluate((sel) => document.querySelector(sel)!.scrollIntoView({ block: 'center' }), toggle)
   await j.readerLayoutSettled()
   const closed = await page.evaluate(() => {
     const a = (window as any).__neural, f = a._landFilmEl
@@ -677,4 +671,86 @@ test('D-354 N3: a removed film is no longer observed by the reader', async ({ pa
     return { removed: !f.isConnected, observed: w.__roHolds(a._reader.resize, f) }
   })
   expect(released, 'the removed film is no longer observed by the reader').toEqual({ removed: true, observed: false })
+})
+
+// D-368 (orchestrator, layout C): two invariants every layout must keep. (1) In a catch the escape answers
+// are on screen, and reachable, without scrolling at 1440x900, and on a phone at 390x844 AND 390x631: there
+// the question goes directly under the node band, then the escape tray (D-369). D-370 (PostHog, 30 days of
+// phone-width pageviews, n=2,057: visible height p10 631, median 691, 98% under 844) moved the phone floor
+// from 664 to 631, with an 8px margin above the reader's scrollport end, where the answers are clipped. A
+// live phone catch concedes, in order, until it fits (measured at 390x631, H124): the node band 186 -> 144
+// (no exchange arc until the answer, 42px), the account button (22px), then the panic card's padding and
+// gaps only (43px); the last answer ends 11px above the scrollport, so the win bar stays where it is.
+// (2) At 1440x900 the question card's top is above the fold. A (the video card column-wide in the Videos
+// section, above Moves) breaks both at 1440; the controls a-column-wide-videos-*,
+// phone-catch-question-first-lost-* and d370-* are killed at these claims.
+test.beforeEach(async ({ page }, info) => { if (!info.title.startsWith('D-368')) return
+  await page.addInitScript(() => { (window as any).__d368film = () => { const f = (window as any).__neural?._landFilmEl
+    return !!f && f.isConnected && !f.hidden && f.getClientRects().length > 0 && f.getBoundingClientRect().height > 0 } }) })
+for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
+  test(`D-368: in a catch at ${width}x${height} the escape answers are on screen without scrolling`, async ({ page }) => {
+    await page.setViewportSize({ width, height })
+    const j = await catchLoop(page)
+    await j.readerLayoutSettled()
+    const r = await page.evaluate(() => {
+      const a = (window as any).__neural
+      const answers = [...document.querySelectorAll('[data-panic-mc-opt]')].map((el: any) => {
+        const b = el.getBoundingClientRect(), hit = document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2)
+        return { top: Math.round(b.top), bottom: Math.round(b.bottom), hit: !!hit && el.contains(hit) }
+      })
+      return { answers, film: (window as any).__d368film(), layout: a._reader.game.dataset.mediaLayout,
+        end: Math.round(a._reader.root.getBoundingClientRect().bottom), pressure: !!a._defensePressure }
+    })
+    expect(r.film, 'premise: the current card is shown').toBe(true)
+    expect(r.pressure, 'premise: a live catch').toBe(true)
+    expect(r.answers.length, 'premise: the escape answers').toBeGreaterThan(1)
+    const off = r.answers.filter((x) => !x.hit || x.top < 0 || x.bottom > Math.min(height, r.end) - 8)
+    expect(off, 'every escape answer is on screen and reachable without scrolling, 8px clear of the scrollport end').toEqual([])
+  })
+}
+
+test('D-368: at 1440x900 the question card\'s top is above the fold', async ({ page }) => {
+  const j = journey(page)
+  await j.boot('/Positions/Half-Guard/Bottom', { beforeNavigate: realContent })
+  await expect(page.locator(READY)).toBeVisible()
+  await j.hydrateAll()
+  await j.readerLayoutSettled()
+  const r = await page.evaluate(() => ({ film: (window as any).__d368film(), top: Math.round((window as any).__neural._landEl.getBoundingClientRect().top) }))
+  expect(r.film, 'premise: the current card is shown').toBe(true)
+  expect(r.top, "the question card's top is above the fold").toBeLessThan(900)
+})
+
+// D-370: the concessions belong to the LIVE phone catch only. They hold through the escape's pick, so
+// nothing moves under the finger (D-325): the chosen escape's stand-in keeps its rectangle although the pick
+// removes the card above the tray. They revert with the result transition: the band is 186 again, the
+// account button shows, and the scrollport ends above it.
+test('D-370: at 390x631 a phone catch concedes the band and the account button, and both return with the result', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 631 })
+  const j = await catchLoop(page)
+  await j.readerLayoutSettled()
+  const look = () => page.evaluate(() => {
+    const a = (window as any).__neural, acct = a.accountRef.current
+    return { band: a._reader.nodeBand?.height, account: getComputedStyle(acct).visibility, conceded: a.wrapRef.current.hasAttribute('data-phone-catch'),
+      end: Math.round(a._reader.root.getBoundingClientRect().bottom), acctTop: Math.round(acct.getBoundingClientRect().top), pressure: !!a._defensePressure }
+  })
+  const caught = await look()
+  expect(caught, 'the live phone catch concedes').toMatchObject({ pressure: true, band: 144, account: 'hidden', conceded: true })
+  const title = '[data-tech] .ngchoice-title'
+  await page.evaluate((sel) => (window as any).__neural.optionsRef.current.querySelector(sel).scrollIntoView({ block: 'nearest', behavior: 'instant' }), title)
+  await j.readerLayoutSettled()
+  const name = await page.evaluate((sel) => (window as any).__neural.optionsRef.current.querySelector(sel).closest('[data-tech]').dataset.tech, title)
+  const rect = (sel: string) => page.evaluate((sel) => { const b = document.querySelector(sel)!.getBoundingClientRect(); return [b.left, b.top, b.right, b.bottom] }, sel)
+  const chosen = await rect(`[data-tech="${name}"]`)
+  await j.clickByMouse(`[data-tech="${name}"] .ngchoice-title`, 'pick an escape')
+  await j.advance(40)
+  expect(await look(), 'at the pick nothing moves: the concessions hold').toMatchObject({ band: 144, account: 'hidden', conceded: true })
+  // The pick removes the question card above the tray; the stand-in keeps the escape's rectangle (the reader's
+  // row handoff), so nothing moves under the finger (D-325). Control execution-row-anchor-lost.
+  const stand = await rect('[data-executing-tech]')
+  expect(stand.map((v, i) => Math.abs(v - chosen[i])).every((d) => d <= 2), `the stand-in sits where the escape was (${stand} vs ${chosen})`).toBe(true)
+  await expect.poll(async () => { await j.advance(200); return (await look()).pressure }, 'the escape resolves').toBe(false)
+  await expect.poll(async () => (await look()).conceded, 'the reader lays out the result').toBe(false)
+  const after = await look()
+  expect(after, 'the result transition reverts every concession').toMatchObject({ band: 186, account: 'visible', conceded: false })
+  expect(after.end, 'the scrollport ends above the account button again').toBeLessThanOrEqual(after.acctTop - 8)
 })
