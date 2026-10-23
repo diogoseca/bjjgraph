@@ -1,6 +1,6 @@
 import { test, expect, type Page } from "@playwright/test";
 import { journey } from "../dsl";
-import { bootVideoCards, CARD } from "../fixtures/video-cards";
+import { openChoiceVideo, CARD, NAME } from "../fixtures/video-cards";
 
 /**
  * COLD-START BACKFILL — journey 3, Phase 2: the worst thing the Phase 1 measurement found.
@@ -211,9 +211,15 @@ test("cold start: a late dossier adds film without replacing the complete articl
 // invariant belongs to Watch's native modal: the arriving question cannot steal its keys.
 test("cold start: a payload arriving behind Watch preserves the viewer and cannot answer through it", async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 768 });
-  const j = await bootVideoCards(page);
-  await withoutDecks(page);
-  await j.clickByMouse(`${CARD} [data-choice-watch]`, "Watch before the deck arrives");
+  // D10-N1: removing decks after bootVideoCards had already mounted a question was not a cold
+  // backfill. Hold the real manifest before this first landing, then deliver it behind Watch.
+  const j = journey(page);
+  await j.boot("/", { payloads: { "flashcards/_index.json": { never: true } } });
+  await j.land("Mount Top");
+  expect((await read(page)).hasQ, "premise: the cold landing has no question before Watch").toBe(false);
+  expect(j.payloadTimeline().filter(e => e.pattern === "flashcards/_index.json"), "the real deck manifest is still held")
+    .toEqual([expect.objectContaining({ releasedAtSim: null, releasedAtMs: null })]);
+  await openChoiceVideo(page, NAME);
   const view = page.locator('[data-choice-viewer]');
   await expect(view).toBeVisible();
   const before = await page.evaluate(() => {
@@ -221,8 +227,9 @@ test("cold start: a payload arriving behind Watch preserves the viewer and canno
     (window as any).__watchIdentity = a._choiceWatch.dialog;
     return { commits: a.beats.filter((b: any) => b.beat === 'commit').length, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length };
   });
-  await decksArrive(page);
+  await decksLandFor(j, page);
   await j.landSettled();
+  expect((await read(page)).hasQ, "the newly backfilled question exists behind Watch").toBe(true);
   expect(await page.evaluate(() => (window as any).__neural._choiceWatch.dialog === (window as any).__watchIdentity)).toBe(true);
   await expect(view).toBeVisible();
   await page.keyboard.press('a'); await page.keyboard.press('1');
@@ -234,6 +241,8 @@ test("cold start: a payload arriving behind Watch preserves the viewer and canno
   await expect(view).toHaveCount(0);
   await expect(page.locator(`${CARD} [data-choice-watch]`)).toBeFocused();
   await expect(page.locator('[data-landcard]')).toBeVisible();
+  expect((await read(page)).hasQ, "closing Watch preserves the newly backfilled question").toBe(true);
+  await expect(page.locator('[data-land-q]')).toBeVisible();
 });
 
 test("cold start: the FIRST landing carries its question, and a late payload reaches it", async ({

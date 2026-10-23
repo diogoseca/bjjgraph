@@ -212,6 +212,9 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
     await j.clickByMouse('[data-section-toggle=videos]', 'collapse pauses without deleting the owner')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeHidden()
     expect(await snapshot(page)).toMatchObject({ same: true, frame: true, player: native, hosts: 1, frames: 1, total: 1, paused: true })
+    // STALE SPEC (D10-B1): syncSections hides Videos before the requested layout writes the game's
+    // smaller height. Observe that layout before measuring the reopen control's new mouse point.
+    await j.readerLayoutSettled()
     // U11 (D-355): where the index shows, the closed Videos section leaves no placeholder; its row reopens it.
     const indexed = await page.locator('[data-reader][data-indexed]').count() > 0
     await j.clickByMouse(indexed ? '[data-toc-type=videos] a' : '[data-section-toggle=videos]', 'reopen Videos')

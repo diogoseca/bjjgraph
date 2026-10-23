@@ -444,7 +444,7 @@
    "L": "first-roll-day1",
    "F": "option-tray-sheet",
    "B": "guard-limit",
-   "invariant": "At the land, sheet-open, and post-drill sample points exactly one [data-beacon] element exists whose target steps options -> jit/execute -> execute, at most one exists after commit, and at least 3 beacon_moved beats were emitted.",
+   "invariant": "At landing and through Watch open/close exactly one beacon remains on options; after commit at most one remains. beacon_moved includes options and excludes the retired jit and execute targets. No minimum transition count is claimed.",
    "origin": "core",
    "status": "accepted",
    "evidence": {
@@ -948,7 +948,7 @@
    "L": "first-roll-day1",
    "F": "option-tray-sheet",
    "B": "economy-math",
-   "invariant": "One JIT grade yields bonusSplit mastery 0.03 and sharpness 0.10 (displayed odds +>=12), and after the next successful landing sharpness decays to 0.075 while mastery stays 0.03.",
+   "invariant": "One sidebar-study grade yields bonusSplit mastery 0.03 and sharpness 0.10 (displayed odds +>=12); after the next successful landing sharpness decays to 0.075 while mastery stays 0.03.",
    "origin": "core",
    "status": "accepted",
    "evidence": {
@@ -993,7 +993,7 @@
    "L": "first-roll-day1",
    "F": "film-study",
    "B": "idempotence",
-   "invariant": "The first watchShort on a technique raises its displayed odds by exactly 4 points with a single film_first_look beat, and a second watch leaves the delta at 4 and the beat count at 1.",
+   "invariant": "Opening Watch awards nothing. The first explicit provider playback raises displayed odds by exactly 4 points with one film_first_look beat; after acknowledged second playback the delta remains 4 and the beat count remains 1.",
    "origin": "core",
    "status": "accepted",
    "evidence": {

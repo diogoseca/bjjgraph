@@ -23,6 +23,12 @@ const original = readFileSync(app), source = original.toString()
 const cssPath = process.env.NEURAL_MUTANT_CSS, cssOriginal = cssPath ? readFileSync(cssPath) : null
 // [name, spec, grep, [[minified target, replacement]...], claim: message text or the asserting line, css edits?]
 const controls = [
+  // D10-N1: a genuinely held deck manifest lands while Watch is open. Suppress only that backfill;
+  // the new question-presence claim must fail, rather than passing on an already-mounted card.
+  ['watch-backfill-lost', 'coldstart-backfill.spec.ts', 'a payload arriving behind Watch',
+    [['this.refreshOptionOdds(),this._landBackfill(),this._refreshChallengeEvidence()',
+      'this.refreshOptionOdds(),this._choiceWatch||this._landBackfill(),this._refreshChallengeEvidence()']],
+    'the newly backfilled question exists behind Watch'],
   // D-326: the notice keeps showing while the move executes.
   ['reward-hold-lost', 'roll-execution.spec.ts', 'reward notice yields',
     [['this.holdChallengeReward&&this.holdChallengeReward(),', ''], ['if(this._execution||this.__ngDestroyed)return;', 'if(this.__ngDestroyed)return;']],
