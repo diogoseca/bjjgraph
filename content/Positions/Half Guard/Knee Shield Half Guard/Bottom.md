@@ -248,7 +248,7 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 - Maintain constant pressure outward with knee shield to create maximum distance and prevent opponent from settling weight
 - Keep hips mobile and ready to adjust angles—never allow hips to become completely flat or static against the mat
-- Control at least one of opponent's arms through grips to prevent them from establishing dominant passing grips
+- Control at least one of opponent's arms through grips to prevent them from establishing dominant passing grips. In the narrator's knee-shield examples, moving the shield toward the passer's far hip helps free the guard player's trapped leg. The wrist connection is either direct control of the passer's wrist or contact preserved while the passer holds the guard player's wrist. Narration: [Less Impressed More Involved BJJ, 1:59–2:33.4](https://www.youtube.com/watch?v=gtRIw-60Yzk&t=119s).
 - Use bottom leg actively to control opponent's posture and prevent them from standing or creating advantageous passing angles
 - Adjust knee shield height based on opponent's pressure—higher against standing passes, lower against knee slice attempts
 - Combine frames with hip movement to create angles for sweeps and prevent opponent from consolidating position
