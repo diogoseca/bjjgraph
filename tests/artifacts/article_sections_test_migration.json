@@ -676,6 +676,11 @@
       "file": "e2e/journeys/camera-continuity.spec.ts",
       "test": "390px exchanges (the transition with Videos and the no-Videos exchange)",
       "change": "D9-N1 and D9-N2 (review Delta 9): phonePick waits for the ready reader before readerLayoutSettled (N1), and the no-Videos exchange takes the same phone pick and premise as the exchange above it (N2): the tray brings the card in, the reader stays where it arrived, a mouse that cannot scroll presses, and scrollTop is asserted at the pointerdown."
+    },
+    {
+      "file": "tests/reader_handoff.test.mjs",
+      "test": "Book reserves its node band, with no part header, without changing an execution snapshot",
+      "change": "STALE CONTRACT (D-368, 2abde91be): after the Videos lift was removed, Moves follows the band at the 8px phone step. Migrate only zero-gap coordinates186->194 and390.25->398.25; keep exact band, hidden-label, end-gap and execution-snapshot assertions. H150 oldunit:CI3c3a4f94913/13;2abde91be12/13;final12/13. Migrated final13/13; removing the step gives12/13, failing at the owned Moves spacing claim. No runtime change."
     }
   ]
 }

@@ -170,14 +170,17 @@ test("native layout leaves Inspect's horizontal animation to its own writer", ()
 
 // STALE CONTRACT (D-338, owner): no header names Moves or Questions, and Moves leads the flow under
 // the node band; an open part's label is hidden. The reservation and the snapshot claims are kept.
+// STALE CONTRACT (D-368, 2abde91be): layout C removed the lifted Videos section and gives Moves
+// the parts' 8px phone step below the band. Keep the exact band, hidden-label, end-gap and snapshot
+// claims; only the two zero-gap coordinates migrate (186 -> 194, 390.25 -> 398.25).
 test("Book reserves its node band, with no part header, without changing an execution snapshot", () => {
   const f = fixture();
   f.r.on = () => true;
   f.r.layoutNow();
   assert.deepEqual(f.r.nodeBand, { top: 68, bottom: 254, height: 186 }, "D-349: a phone band holds a move's execution box");
   assert.deepEqual(f.r.gameSections.map(s => s.card.hidden), [true, true], "an open part shows no label");
-  assert.equal(f.row.style.top, "186px", "Moves sits directly under the node band");
-  assert.equal(f.r.game.style.height, "390.25px", "the flow ends one gap below the hand");
+  assert.equal(f.row.style.top, "194px", "Moves follows the node band at the 8px phone step");
+  assert.equal(f.r.game.style.height, "398.25px", "the flow ends one gap below the hand");
   choose(f);
   const snapshot = f.a._execution.card._ngDock.reader;
   f.r.gameTop = 6;
