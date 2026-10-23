@@ -28,8 +28,8 @@ import { openChoiceVideo, CARD, NAME } from "../fixtures/video-cards";
  * for the decks and the DSL served them instantly — so the assertion was about a hook, not about a
  * cold start. The DSL can now hold a named payload back (`boot({ payloads: … })`, see PayloadRule),
  * which means the app's OWN `fetch().then()` delivers the decks mid-turn and nothing is stubbed. The
- * remaining tests keep the stash: they are about re-render mechanics (the sheet's hide, the freeze
- * guard, the entry animation) where the arrival mechanism is beside the point.
+ * Watch backfill also holds the real manifest (D10-N1). The remaining tests keep the stash for
+ * re-render mechanics (content refresh, the freeze guard, entry animation) where transport is beside the point.
  * See also coldstart-late-payload.spec.ts for the skew measured end to end.
  */
 
