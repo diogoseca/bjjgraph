@@ -5,8 +5,9 @@ name: Proofread Bot (weekly graph-edge audit)
 # shells out to it) on Opus 4.8 1M @ xhigh, mutating JSON in place, then opens
 # a reviewed PR. Sunday 18:00 UTC is the LAST weekend slot (quota resets Monday;
 # this only sips leftover tokens — see plan §A.7). Token-exhaustion is safe:
-# the audit step is continue-on-error, so a dry/failed run produces no changes,
-# no PR, and does NOT advance the rotation pointer — it simply retries next week.
+# the audit step explicitly propagates auth exit 2 and handles other failures so
+# validated partial work can continue. With no changes, no PR is opened and the
+# rotation pointer stays put for next week.
 
 on:
   schedule:

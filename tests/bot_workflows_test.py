@@ -11,6 +11,35 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowTests(unittest.TestCase):
+    def test_clips_corpus_auth_stops_categories_and_skips_report(self):
+        # Run the real shell in a disposable tree; the child stub records every
+        # invocation. Removing its exit-2 handler must turn this test red.
+        with tempfile.TemporaryDirectory(prefix="fixbots-clips-corpus-") as temp:
+            root = Path(temp)
+            (root / "scripts").mkdir()
+            script = root / "scripts/run_clips_corpus.sh"
+            script.write_text((ROOT / "scripts/run_clips_corpus.sh").read_text())
+            python = root / "python3"
+            python.write_text('#!/bin/sh\nprintf "%s\\n" "$*" >> "$CALL_LOG"\nexit "$STUB_EXIT"\n')
+            python.chmod(0o755)
+            calls = root / "calls"
+            for status in (0, 1, 2, 3, 127, 130):
+                with self.subTest(status=status):
+                    calls.write_text("")
+                    log = root / "clips_sourcing/run.log"
+                    if log.exists():
+                        log.unlink()
+                    result = subprocess.run(["bash", str(script)], capture_output=True, text=True,
+                                            env={**os.environ, "PATH": temp + ":" + os.environ["PATH"],
+                                                 "STUB_EXIT": str(status), "CALL_LOG": str(calls)})
+                    self.assertEqual(result.returncode, 2 if status == 2 else 0, result.stderr)
+                    expected = [f"scripts/source_clips.py --stage all --category {category}"
+                                for category in ("Positions", "Submissions", "Transitions", "Principles")]
+                    expected = expected[:1] if status == 2 else expected + ["scripts/source_clips.py --stage report"]
+                    self.assertEqual(calls.read_text().splitlines(), expected)
+                    self.assertEqual("CORPUS RUN COMPLETE" in log.read_text(), status != 2)
+        print("Checked clip corpus exits 0, 1, 2, 3, 127, 130; auth stopped after one category")
+
     def test_every_claude_action_job_has_oidc_permission(self):
         actions = 0
         for path in (ROOT / ".github/workflows").glob("*.y*ml"):
