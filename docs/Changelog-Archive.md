@@ -29,12 +29,12 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.230.0** — [Article sections and floating contents](#v12300--article-sections-and-floating-contents)
+
 - **v1.231.0** — [Videos lead the cards, with separate actions](#v12310--videos-lead-the-cards-with-separate-actions)
 - **v1.229.1 review** — [Auth diagnostics and parallel batch cancellation](#v12291--auth-diagnostics-and-parallel-batch-cancellation)
 
 - **v1.229.0** — [Corrected node identities and preserved retirements](#v12290--corrected-node-identities-and-preserved-retirements)
-
-- **v1.228.0** — [Article sections and floating contents](#v12280--article-sections-and-floating-contents)
 
 - **v1.227.7** — [Fresh teaching evidence and ranked video fronts](#v12277--fresh-teaching-evidence-and-ranked-video-fronts)
 
@@ -11154,7 +11154,7 @@ The unchanged first-hand gate passed both matched samples. The completed change 
 480,054 / 500,000 and its gzip changes by +9. Palette size and payload baselines are unchanged.
 
 
-## v1.228.0 — Article sections and floating contents
+## v1.230.0 — Article sections and floating contents
 
 The complete published article now follows the existing choices row as separate cards.
 The approved order is untitled Videos, Overview, Essential principles, the authored
@@ -11761,6 +11761,148 @@ message as on H95's bytes, with the recorded execution-node-band-removed non-kil
 recorded noahead non-kills (H101, H102, H104). d351-hand-hold-removed's minified target moved with the publication
 fix, and the runner refused it until it was retargeted. Payload: deferred 506,776 B, one exact step of +42 for N2 inside D-351's 506,799; eager gzip
 348,851 (+2,439 of D-327's 5,000). Receipts: scratch/article-sections/claude-verify/H91-H101.
+
+
+D-355 (the owner's U9 round 3, the video cards' merge and the orchestrator's D-368 to D-370). feat/video-cards
+(76891e049) merged into this branch with 15 conflicts. expandClip and collapseClip take the video cards' player,
+plus a credit exclusion for a reference film. _renderLandFilm keeps the seatless reference film (no header or
+footer). _landHidden and attachInput keep _readerTocEl and drop the retired detail sheet. reading.css is the
+sections stylesheet without the .r-* rules, and build.mjs's READ_PROBE names .ng-reader-article and .ng-reader-toc.
+dsl.ts keeps readingOtherHalf beside studyChoice and studyGrade. The merge dropped the deferred payload from
+506,812 to 504,337 B and eager gzip from 348,833 to 339,151 (-9,682); the ceiling stepped DOWN to exactly
+504,337 in its own commit (D-368).
+
+D-368 made layout C the working default: the video cards' approved A geometry inside the article view. A game
+node's current card stays in the game's media home: on a desktop it sits beside the question (400 + 60 + 390,
+tops aligned), and on a phone above it (12px). Moves follow the node band at the parts' step, and the Videos
+section is no longer lifted: its credits read with the article and its toggle governs the card. A reference
+page's film keeps its Videos slot. Two invariants, each pinned by a defending-landing journey: in a catch every
+escape answer is on screen and hit-testable without scrolling (1440x900, 390x844 and, after D-370, 390x631),
+and at 1440x900 the question card's top is above the fold. A, the card column-wide in the Videos section above
+Moves (the pre-C integration), breaks both at 1440; a-column-wide-videos-question and -catch are its controls.
+Six defending-landing reds from the merge (the answers or the deck at y1010-1079 at 1440) went green on C, not by
+scrolling in the spec.
+
+D-369 (phone catch only, option 3): in a LIVE phone catch the question goes directly under the node band, then
+the escape tray, then the rest; the U7 order returns with the escape's result transition, so nothing moves under
+the finger at the tap (D-325). The first build keyed the order on _landMode alone, and a calm defender landing
+took it too (article-sections' 390px six-pixel journey, H120); the predicate now needs _defensePressure.
+
+D-370 moved the phone floor. PostHog, 30 days of phone-width pageviews (width under 500, CN excluded): n=2,057
+from 1,282 browsers, visible height p10 631, median 691; 37% under 664 and 98% under 844, so every phone spec's
+844 is the top 2%. At 390x631 the escape answers must be hit-testable with 8px to spare. Before: the last answer
+ended at y637 and the reader's scrollport at y541 (the account button set the shelf), 104px short. A live phone
+catch concedes, in order, and stops at the first combination that fits (H124): (1) the node band 186 -> 144, no
+exchange arc until the answer, 42px; (2) the account button yields, so the scrollport ends above the win bar
+alone, 22px; (3) the panic card compacts through padding and gaps only (answers 9/9 -> 4/4, gaps 7 -> 4, the
+question's margin 8 -> 4, the card's top 11 -> 8; text size, line height and 44px targets kept), 43px. The last
+answer in the final H146 frame rounds to y553 against y563: 10px, above the 8px floor. (4), the win bar into the card's header, was not needed and is not built.
+One predicate, _phoneCatch (a phone, _defensePressure, the card layer on), drives the order and the concessions;
+the same rule applies at every phone height. Its first version also asked for the card element and _landMode,
+and the D-370 journey caught both at the pick: clearOptions calls clearLandCard, which clears the card AND
+_landMode, so the concessions dropped at the tap (H124, H125). It now holds through the pick, ends with the
+escape's travel or the tap (the reader lays out again at both), and navigation ends it (clearEngagement).
+The reader marks the app wrap (data-phone-catch) before it measures its scrollport; the rules sit in
+helmet.html beside the phone landing card's own, which kept the deferred payload inside its allowance.
+
+D9-N3, re-measured on C (H119, H120; a 390 phone pick with the reader scrolled before the press): 0-165px had a
+slot; about 170-225px had none (noFit every frame) though the unfitted target happened to paint clear; about
+230-290px had none and the pair painted over 3 occupied surfaces; past 300px the card is not pickable. D-370
+took (i) with (iii) as its floor: frameExecution searches the band, then free space beside the landing rows'
+column (D-329), then any free space (D-329's reservation yields in that case only), and with no free spot
+anywhere falls back to the band, counted. roll-execution's phone sweep pins it: reader scroll 0-290px in 10px
+steps at 390x844 and 390x631, one restaged pick per step, four sampled frames each; every step must paint the
+executing pair on screen and no frame may intersect an occupied rectangle. H129: 30 of 30 steps at both sizes,
+4 frames each, 0 intersections, noFit 0 at every step. The band fallback is therefore unreached there, a
+recorded non-kill. Building the sweep found two harness facts: rollFromPosition deals its hand synchronously,
+so nextHand() never sees the deal it waits for (the sweep polls the dealt hand), and past about 260px the
+title is under the reader's top edge, so the sweep presses the card's visible part (which commits it, U8),
+never the play circle.
+
+The owner's U9 round 3: U9 b puts the index on the LEFT, 24px in, and the tray starts 12px past it; syncIndex
+brings back the old table of contents (cdbace9e4's toc.inline.ts): each row's opacity follows how much of its
+part is in view (0.35-0.85) and the list keeps the most visible row in its middle. U11 drops the section icons:
+a closed section is one compact 44px line, its greyed name then an eye with a slash; where the index shows it,
+it leaves no placeholder and the index row carries and reopens it. U12 a: the article's own ✕ (the sections'
+ghost ✕ on its top row) puts the article away. U10 a, the right-aligned Win, came with the video cards.
+
+Found on the way, each a REAL BREAK fixed with its journey: resumeFilm rebinds a stale player through
+expandClip's resume flag (the video cards' player never autoplays, so Resume after a fallback move never
+restarted); the camera's soft lift holds the pair during flights in the article view (a URL arrival crossed
+the Moves row by up to 35px under C); the film's edge arrows are re-read when the home's width changes (a stale
+data-off left Next dead to the mouse, video-cards:115). STALE SPEC, with its evidence: the video cards' U8 rule
+(an empty media area commits the card, video-cards:216 and :228, choice-value:429) is the opposite of
+roll-execution's "Empty media and Choose are distinct" claim; no build passes both, so that click is retired and
+the journey keeps Choose as a real mouse action with the hand groups apart. D-354 N1's slot placement and its
+control retired with the Videos lift.
+
+
+D-371 classified the first integrated full-core round (H131: 32 unexpected failures, 29 titles with their
+width variants; generated suite 3 failures). The video-cards comparison (H132) separated its inherited
+contract changes from the layout-C/U11 migrations. Every stale-spec edit carries its premise at the edit:
+U11 puts closed parts in the desktop index and one compact phone line (reading-contract, reading-mode,
+land-layers, landcard-more-content); layout C keeps the game film in its media home (roll-card, pane-layout,
+defending-landing); U9 b moves the index left (generated casual-challenge-cue). Video-cards' approved
+U2/U8/U10 contracts account for the Watch control, deliberate player playback and close button
+(concepts-surface), edge arrows and inset-zero full-card ratios (film-row-arrows), staged-card geometry and
+removed Execute eyebrow (landcard-deck, landcard-modes, option-hand), and Escape/Submit labels with digit
+Win values and title sentences (submission-choices, submission-card-odds, generated holder-momentum and
+veteran-odds-clamp). stakes-impact is a timing migration to a poll. Claims are retained; no expectations
+are dropped merely to turn a run green. The removed Execute eyebrow is a visible product change, retained
+for owner review with before/after frames in U15, not silently restored.
+
+Four real breaks carry app fixes. (1) The late film violated D-325: at 390 a published question moved from
+520 to 752px when a delayed chunk landed, on URL and roll arrivals. _filmPending and _filmHold wait only
+before the card's first publication, share its first-layout 800ms ceiling, and pin publication after that
+ceiling; D-352 S2 then holds the film until player input. No landing node, film layer off, and a live phone
+catch all skip this hold. reading-media-placement traces the actual published answer rectangles at 390 and
+1440 with a chunk delayed 400ms or 2.6s; app controls d370-late-film-unheld-390 and -1440 reverse the hold.
+(2) The D-355 camera lift applied to every flight, including a hover re-aim wholly inside the band, and
+broke dual-pair's painted-role claim. The flight's band latch now engages only when its pair reaches the
+lower-edge margin, with a zero-offset hold already tracking before activation. d355-flight-lift-ungated and -lost separately reverse the gate and the lift; the ORCH-382 account below covers the late-gate regression found during final controls.
+(3) The video-cards merge lost the Learning pane's portrait fit. The player is capped to the pane while
+preserving the portrait's shape; the reveal repeats on that card's own height transitionend. H136 showed
+why the initial frame was insufficient: the final card ended at 700 against pane bottom 678 because the
+list still had its short row height when it tried to scroll. H137's fixed card ended at 671, inside 678;
+concept-fit-reveal-lost removes the transition-end reveal.
+(4) video-cards commit bfdfad39d gated the option-key branch on !reader.intent. Reading arrivals seat a
+live hand with intent=true, so the mouse could play while plain digits could not. H138 crossed the patched
+triangle-defender journey onto the video-cards build: it failed at the chosen-escape claim, then passed on
+this branch after removing only the intent condition (interacting remains guarded). H138 passed all
+166 digit/reader journeys and the one generated digit journey without retries. reading-intent-blocks-digit
+restores the old condition and targets that same chosen-escape assertion.
+
+Controls (H147 reader / H148 app, after the dev merge), each against a green unmutated baseline of the same spec and grep: H148 app 26/28 claim kills, with noahead-exchange-1440 and -390 recorded as non-kills; H147 reader 93/96 claim kills, with execution-node-band-removed, d338-film-waits-for-intent and d353-play-keeps-pin recorded as non-kills. All 124 controls had green unmutated baselines; no timeout or soft landing diagnostic is counted as a claim kill. New rows:
+a-column-wide-videos-question and -catch; phone-catch-question-first-lost-844 and -631; d370-concessions-stick;
+d370-n3-d329-kept and d370-n3-pre-fix (reader); d370-band-186-in-catch, d370-account-keeps-reserve,
+d370-card-spacing-kept and d370-calm-landing-concedes (app). Retired with their claims: reader-overwrites-inspect
+(the video cards' merge), d354-play-film-left-home and d338-video-not-lifted (layout C). Retargeted to moved
+code, claims unchanged: toc-current-targets, chrome-node-band-lost, d338-index-eyes-retained,
+d338-tray-under-index, d338-deck-backs-unreserved, d338-tray-asymmetric, d354-phone-pick-no-fit,
+execution-no-fit-forced, execution-node-band-removed and, in the app runner, reading-band-lift-restored (line 131
+now) and five rows after the merge's minified names. The app runner gained optional stylesheet edits
+(NEURAL_MUTANT_CSS) for D-370's two eager rules, and the reader runner's bounds rose to 240s (run) and 300s
+(baseline) for the 100s sweeps. Final measured payload: deferred raw 506,825 B, its exact ceiling and 10 B below the 506,835 allowance; eager raw 1,365,689 B, eager gzip 339,646 B, largest chunk 39,000 B. Eager gzip is 6,766 B below the prior 346,412 baseline (target 300,000 warning, action 400,000 and delta cap 5,000 unchanged); its authorized acceptance and the clean app fingerprint/CI replay follow this archive commit. Receipts: scratch/article-sections/claude-verify/H108-H138 and H139-H148 (raw JSON, logs, source freeze and assertion audits retained).
+
+
+#### URL arrival: engage the band hold before contact (ORCH-382)
+
+H139 left two camera controls with red unmutated 1440px URL-arrival baselines. Before a fix, H140 ran ten isolated instances of the unchanged journey on each app: the pre-fix H139 app 0/10 passed, CI-green `3c3a4f949` 10/10, video-cards `76891e049` 10/10. Every final failure was the ZERO-overlap claim; there was no timing signal, so the conditional app/spec crossover was not triggered. The CI rebuild matched all fourteen committed app fingerprints and its graph/curriculum/deck-manifest bytes matched final. The video rebuild matched its four previously served app/reader/CSS bundles. This was a REAL BREAK of this PR.
+
+The camera-region diff isolated the new per-flight band gate. H141's unchanged-journey trace showed its fixed 30px estimate engaging at 1.267s, when the drawn silhouette actually needed 37.43px and its lower edge was already 225.18 against the band's edge at 212. The lift's anti-yank guard then waited until 1.900s. Merely using the real silhouette with one soft-knee lead removed that wait but still engaged too late for the spring to track its growth. The gate now shares the lift's silhouette calculation, while a flight tracks a zero-offset hold before the gate opens. The visible correction starts at the actual silhouette's soft knee, already on a continuous tracking path. Forecasting motion had reintroduced the hover nudge, so the final rule uses the actual silhouette. The band, fold and card positions are unchanged. The existing URL-arrival journey remains the pin; two controls restore the old 30px gate and remove the zero-offset tracking separately; each targets that same ZERO-overlap claim. Final counts: H146 camera-continuity, dual-pair and pane-layout: 44 passes, one existing declared skip, zero failures; both unchanged URL-arrival pins and the hover journey pass. H148 flight-lift-fixed-margin and flight-lift-tracking-lost each kill the existing ZERO-overlap claim on a green baseline.
+
+H139's two `noahead-exchange` controls remain recorded NON-KILLS in both the spec and runner headers; they are not prediction coverage. Reading-view exchanges use `frameExecution`, so those journeys do not exercise the map-view `ahead` path.
+
+Two old reader controls (`d351-deferral-removed`, `d352-film-over-pin`) also survived their catch journeys: under C, a catch has no film above the question. Both now target the existing calm-phone 2.6s late-film journey and H142 killed them at their own publication claims on green baselines. The catch fixture's temporary marker could be detached by the landing's own rerender; it now locates the same authored own move by `data-tech`, keeping every assertion and timeout. Both catch-order controls killed their on-screen-answer claim in H142. The earlier 631 baseline timeout was not reproduced by H140's fixed sample (30s cap 3/3; 240s cap 3/3); those counts do not establish timeout-cap causality and the old red is not counted as coverage.
+
+
+#### Final validation includes the current dev tree (ORCH-385)
+
+Dev `8dde65e67` (PR 311, v1.229.1) was merged with a real merge commit, never a rebase, before the final full run. The merge keeps package versions at v1.230.0, the archive cap at 1,013,038 and both parents' archive text verbatim. Its bot scripts, unit tests and workflow changes are therefore present in the tree used by the final core, generated and control runs. The pre-merge H145 controls (26 app and 93 reader claim kills, with two and three documented non-kills respectively; all baselines green) remain separate evidence. H146 on merged source f96f77145 collected 1,033 core cases: 1,027 ordinary passes, one expected navigation-tripwire failure at its own UNDECLARED-navigation assertion, five declared skips, zero unexpected failures and zero flaky retries. All eight auth-owner cases formerly skipped behind the stale local artifact failure ran and passed on this own build. Generated 101/101 passed with the real ledger (zero known-red rows); defending-landing x2 passed 58/58. U15 passed 21/21 plus 2/2 Execute-after captures. All runs used one worker and zero retries. H147 completed all reader controls and H148 all app controls on the same fourteen raw app assets; their counts and limits are above.
+
+
+The desktop late-film control also exposed a timing limit in its old 400ms stimulus: on identical app/spec bytes H145 had one mutant claim failure out of one run, while H147 had one mutant pass out of one run; both unmutated baselines were green. H147 passed the premise that the film was already present at first publication, so 400ms after the request did not guarantee arrival after publication. That H147 row remains a non-kill (H147 app total 25/28, including the two noahead non-kills). Only the control target changed to the existing desktop 2.6s past-ceiling journey, retaining the same published-answer assertion and both original positive journeys. H148 then killed that control at the published-answer claim; its final full app counts are reported separately above. The runner header preserves the historical non-kill.
+
 
 ## v1.227.5 — Clips follow the authored move and role
 
