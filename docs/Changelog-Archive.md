@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.229.1 review** — [Auth diagnostics and parallel batch cancellation](#v12291--auth-diagnostics-and-parallel-batch-cancellation)
+
 - **v1.229.0** — [Corrected node identities and preserved retirements](#v12290--corrected-node-identities-and-preserved-retirements)
 
 - **v1.227.7** — [Fresh teaching evidence and ranked video fronts](#v12277--fresh-teaching-evidence-and-ranked-video-fronts)
@@ -11642,3 +11644,21 @@ The re-seed changes only provenance/location; census fields, all 14 app rows, al
 and floors remain exact. Own-build and retained-tree gates pass with current-content provenance.
 Earlier receipts remain immutable. All three derived source files reproduce byte-for-byte;
 D-285 preserves every unchanged Markdown byte and stamp.
+
+## v1.229.1 — Auth diagnostics and parallel batch cancellation
+
+Review RVB374 found that numeric metadata and returned prose could trigger fatal auth
+handling, while regeneration's executor kept draining queued files. Auth detection now
+reads explicit error/status fields and `result` only when `is_error` is set. Parallel
+regeneration shares a signal across all calls and retries, cancels queued futures, wakes
+backoff waits, and joins already-started subprocesses within their existing timeout before
+exit 2 escapes the main thread. Only that thread prints the batch diagnostic. The other
+nine shared-inference importers have sequential inference paths. The clip-corpus shell
+propagates exit 2 before further categories or its report; Proofread's comment describes
+the existing explicit status handling.
+
+Offline regressions exercise the 401-second retry delay, token/cost metadata, authored
+auth quotations, real CLI error envelopes, and the six-file/two-worker batch. Restoring
+the bare-401 match, removing the shared signal, removing future cancellation, and
+swallowing the corpus child's exit 2 each fail a named regression. All inference is
+stubbed; these checks do not claim a live Actions run or a full host replay.

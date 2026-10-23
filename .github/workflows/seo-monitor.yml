@@ -18,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write # Claude action exchanges GitHub OIDC for its app token.
 
 concurrency:
   group: seo-monitor
