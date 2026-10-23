@@ -213,14 +213,11 @@ def is_deferred_neural_asset(relative: str) -> bool:
 NEURAL_TARGET = {
     "eager_raw_bytes": 1_600_000,
     "chunk_max_bytes": 40_000,
-    # D-352 (inside D-351's allowance of 506_799): exact measurement after D-318, D-322, D-326, the
-    # CI round (_LY guard, D-329), D-331, D-338's article view (Videos, Moves, Questions; one close
-    # icon; no Focus/Browse/eyes; the reader's place kept through the pane's clamp), D-347's reader
-    # fixes, D-351's hold (the reader reads the app's hold and pin), D-352's (ready means laid out;
-    # the pinned media home keeps its film and height), D-353's (a play settles the pin; a film in
-    # the media home is observed) and D-354's (a Videos reopen settles it), no headroom. Videos
-    # returns it to 500_000.
-    "deferred_raw_bytes": 504_337,
+    # D-370 (inside D-365's re-based allowance of 506_835): exact measurement, no headroom. The
+    # video cards' merge took the deferred set down to 504_337 (D-368); D-355's article view (layout C,
+    # D-369's phone catch order, U9 b's left index, U11, U12 a) and D-370's tiered execution search
+    # bring it to 506_825. The history is budget_site.json's deferred_raw_note.
+    "deferred_raw_bytes": 506_825,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
