@@ -219,6 +219,10 @@ test("cold start: a payload arriving behind Watch preserves the viewer and canno
   expect((await read(page)).hasQ, "premise: the cold landing has no question before Watch").toBe(false);
   expect(j.payloadTimeline().filter(e => e.pattern === "flashcards/_index.json"), "the real deck manifest is still held")
     .toEqual([expect.objectContaining({ releasedAtSim: null, releasedAtMs: null })]);
+  // D10-N1 fixture timing: expose the card before installing its test clip. Otherwise the
+  // visibility observer can replace Watch's source button while the viewer is already open.
+  await page.locator(CARD).scrollIntoViewIfNeeded();
+  await j.readerLayoutSettled();
   await openChoiceVideo(page, NAME);
   const view = page.locator('[data-choice-viewer]');
   await expect(view).toBeVisible();
