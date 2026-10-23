@@ -326,6 +326,17 @@
        rule above), so the foot is 18 — and it needs !important to reach past that same rule */
     .ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important;}
     .ng-land-deck [data-land-q]>div:first-child{font-size:13px!important;}
+    /* D-370: a live phone catch (the app's _phoneCatch; the reader marks the wrap before it measures its
+       scrollport) concedes, in order, until its escape answers fit a 390x631 phone with 8px to spare:
+       (1) the node band 186 -> 144 (_readerBand), (2) the account button yields, (3) the panic card compacts
+       through padding and gaps only (its text size, line height and 44px targets are kept). Measured at
+       390x631: 42 + 22 + 43px; the last answer ends 11px above the scrollport. The result transition
+       reverts all of it. */
+    [data-phone-catch] .ng-acctwrap{visibility:hidden!important;}
+    [data-phone-catch] .ng-landcard.ng-land-deck{padding-top:8px!important;}
+    [data-phone-catch] .ng-land-deck [data-land-q]>div:first-child{margin-bottom:4px!important;}
+    [data-phone-catch] .ng-land-deck [data-land-q]>div:has(>[data-panic-mc-opt]){gap:4px!important;}
+    [data-phone-catch] .ng-land-deck [data-panic-mc-opt]{padding-top:4px!important;padding-bottom:4px!important;}
   }
   /* Short portrait screens trade thumbnail size for reading space; expanded video keeps its
      inline important dimensions. Answers retain full-size touch targets. */

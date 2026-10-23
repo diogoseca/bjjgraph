@@ -953,8 +953,11 @@ class Component extends DCLogic {
         // Q007: an open checkpoint quiz owns the keyboard — digits above the MC option
         // count must never fall through to the roll's option-card openers (a '5' opened
         // the expand sheet and Enter then COMMITTED the roll under the live quiz)
+        // v1.230.0 (D-371, H137): not on the reader's intent. A reading arrival seats a live hand, and a click on its
+        // card plays through the reader's activateOption (beginPlay), so an intent gate left only the keyboard dead
+        // there: the plain digit is the owner's play (v1.218.1; submission-choices' triangle defender).
         const opt = this._optList[this.optionKeyIndex(e)];
-        if (opt && !this._reader?.intent && !this._reader?.interacting) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.opt === opt); this.activateOption(opt, this._optPick, oc && oc.card); }
+        if (opt && !this._reader?.interacting) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.opt === opt); this.activateOption(opt, this._optPick, oc && oc.card); }
       }
     };
     window.addEventListener("keydown", this._onKey);
@@ -2264,9 +2267,28 @@ class Component extends DCLogic {
     const framed = card.closest(".ng-landfilm,.ng-choice-viewer");
     if (!framed) {
       card._bw = card.offsetWidth; card._bh = card.offsetHeight;
-      const width = Math.min(496, (row?.clientWidth || 460) * .96);
+      // v1.230.0, restored with the video cards' merge (its player had dropped it): a principle's film plays inside the
+      // scrolling Learning pane, so its height is capped by the pane, a portrait keeping its shape, and its final
+      // rectangle is revealed there (concepts-surface: the expanded portrait and its close button fit the pane).
+      const list = card.closest("[data-concept-film]") && this.explorerListRef.current;
+      let width = Math.min(496, (row?.clientWidth || 460) * .96), height = Math.min(460, width * (clip.vertical ? 16 / 9 : 9 / 16));
+      if (list && height > list.clientHeight - 16) { height = Math.max(1, list.clientHeight - 16); width = Math.min(width, height * (clip.vertical ? 9 / 16 : 16 / 9)); }
       card.style.setProperty("width", width + "px", "important");
-      card.style.setProperty("height", Math.min(460, width * (clip.vertical ? 16 / 9 : 9 / 16)) + "px", "important");
+      card.style.setProperty("height", height + "px", "important");
+      // The reveal runs again when the height transition ends: on the first frame the card is still its row
+      // height, so the list may not yet be tall enough to scroll the final rectangle into view (H136: 1440, the
+      // card's bottom at 700 against the pane's 678, the scroll clamped at the row-height content).
+      const reveal = () => {
+        if (!live()) return;
+        const view = list.getBoundingClientRect(), top = card.getBoundingClientRect().top;
+        if (top + height > view.bottom - 8) list.scrollTop += top + height - view.bottom + 8;
+        else if (top < view.top + 8) list.scrollTop += top - view.top - 8;
+      };
+      if (list) {
+        requestAnimationFrame(reveal);
+        const grown = e => { if (e.target !== card || e.propertyName !== "height") return; card.removeEventListener("transitionend", grown); reveal(); };
+        card.addEventListener("transitionend", grown);
+      }
     }
     card.style.cursor = "default";
     const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = true;
@@ -14747,6 +14769,16 @@ class Component extends DCLogic {
    *  so a live card is never held again: reading another article moves the reader, not this
    *  landing. D-352 S1: a landing laid out with the article put away is live already (`live`);
    *  if the article is then shown while its page still loads, it publishes pinned at once. */
+  // D-368 + D-325 (orchestrator D-370 (2)): a published question never moves for its film. The film rides the
+  // landing node's content chunk, and layout C puts it above the question on a stacked stage and beside it on a
+  // desktop (which moves the question sideways), so the hold also waits for that chunk while one is in flight.
+  // A live phone catch puts the film after the escape tray (D-369) and does not wait.
+  _filmPending() {
+    const n = this.nodes[this._landIdx];
+    if (!n || !this._layerOn("film") || this._phoneCatch()) return false;
+    const key = n.ty === "positions" ? this.deckKeyFor(n).key : n.t, C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
+    return !Object.prototype.hasOwnProperty.call(C, key) && !!this._contentWaits?.[key];
+  }
   _readerHold(r, shown, W, H) {
     const q = this._readerQueued, pin = this._readerPin, card = this._landEl;
     // Settled: graded (the event: a reading decline also marks the question answered, and must not
@@ -14766,6 +14798,17 @@ class Component extends DCLogic {
         else { q.pub = true; this._readerPin = { q, W, H }; hold = -1; }
       }
     }
+    // The film's hold applies only before the card's first publication, and shares the article's 800ms ceiling,
+    // counted from the card's first layout. Past it the parts publish pinned, and the pin keeps a late film from
+    // mounting until the player's own input (D-352 S2).
+    if (card && this._filmHold?.card !== card) this._filmHold = { card, at: performance.now() };
+    const F = card && this._filmHold;
+    if (F && !F.done && hold <= 0 && shown && !this._readerPin && this._filmPending()) {
+      const age = performance.now() - F.at;
+      if (age < 800) { hold = 801 - age; clearTimeout(this._readerHoldT); this._readerHoldT = setTimeout(() => r.layout(), hold); }
+      else { this._readerPin = { q, W, H }; hold = -1; }
+    }
+    if (F && hold <= 0) F.done = true;
     const held = !!this.optionsRef.current?.hasAttribute("data-reader-pending");
     for (const el of [this.optionsRef.current, this._landStackEl, this._landNavEl, this._handCloseEl]) el?.toggleAttribute("data-reader-pending", hold > 0);
     // D-354: the game-value activation refuses a hidden hand (_gameValuePlayable), and a pending hand is
@@ -18075,7 +18118,7 @@ class Component extends DCLogic {
 
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
-    const finish = () => { picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this._defendSub = null; this._panicKey = null; this._panicFc = null; this._defensePressure = false; this.killVignette(false);
+    const finish = () => { picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this._defendSub = null; this._panicKey = null; this._panicFc = null; this._defensePressure = false; this._reader?.layout(); this.killVignette(false);
       this.activeMove = null; this.flare(subIdx); this.setEvent("Tapped", this.splitName(sub.t).main, "bad");
       this.after(0.5, () => this.endRound("lose", sub.t, subIdx)); };
     const pick = (opt) => {
@@ -18111,6 +18154,7 @@ class Component extends DCLogic {
       this.activeMove = { idx: opt.idx, verb: "Escaping", col: { r: 126, g: 224, b: 168 } };
       this.startTravel([subIdx, opt.res], () => {
         this._defendSub = null; this._panicKey = null; this._defensePressure = false;
+        this._reader?.layout(); // D-370: the phone catch's concessions revert with the result transition
         if (this.rng("escape") < chance) {
           const landed = this.canonicalState(opt.res, opt.destinationRole);
           const stillCaught = !!this.submissionNode(this.nodes[landed]);
@@ -18369,8 +18413,17 @@ class Component extends DCLogic {
     // it sat under, the room a move's execution had before D-338 removed them. At 136 a no-Videos
     // exchange's arc carried the pair, on screen, 3px into the Moves row; at 186 every frame with the
     // pair on screen clears the row by at least 30px (camera-continuity, D-350b).
-    const height = this.H > 500 ? this.W <= 640 ? 186 : 144 : 64;
+    // D-370 (1): a live phone catch draws no exchange arc until the answer, so its band is 144 again.
+    const height = this.H > 500 ? this.W <= 640 && !this._phoneCatch() ? 186 : 144 : 64;
     return { top, bottom: top + height, height };
+  }
+  // D-369/D-370: a LIVE phone catch (_defensePressure: a calm defender landing is not one) with the card
+  // layer on. One predicate for the reader's catch order and every concession that keeps the escape answers
+  // on a 390x631 phone (the band, the account button, the card's spacing). It holds through the pick, whose
+  // clearLandCard also clears _landMode, and ends in the escape's travel, with the result transition (D-325);
+  // navigation and restaging end it too (clearEngagement).
+  _phoneCatch() {
+    return this.isMobile() && !!this._defensePressure && this._layerOn("card");
   }
   // ══ THE VISIBLE GRAPH RECT — THE ONE SEAM EVERY COMPOSITION ASKS (v1.219.0) ═══════════════════
   // Owner (2026-10-05): "it should center the Mount node not to the center of the screen but to the
@@ -18681,10 +18734,19 @@ class Component extends DCLogic {
       // The reader's node band is reserved and rollCamTarget already centres the pair in it, so
       // no row can mount there to lift clear of. Lifting against its edge held the node 10px above
       // centre until a pane toggle reset the lift (pane-layout:82, CI 48be3a910): two rest framings.
-      // D-368 (layout C): Moves now sit one step under the band, so a flight INTO it (a URL arrival flies the
-      // pair up from mid-screen) crossed the published hand by up to 35px at 1440. While a flight runs the
-      // band's edge holds the pair softly; at rest the reserved band alone frames it, as above.
-      if (!R.band || this._cm?.flight) ctx.lift = { f: this.camFocus, n: this.nodes[this.focusIdx], top: this.paused ? R.top : 16, bottom: R.bottom };
+      // D-368 (layout C): Moves sit one step under the band. Hold a flight that approaches its
+      // lower edge, but leave an inner-band hover's framing alone (dual-pair:565). ORCH-382 / H141:
+      // the old fixed 30px gate engaged after the drawn pair crossed the edge, so the anti-yank
+      // guard waited. Share the lift's silhouette and enter its soft knee before contact. Keep a
+      // zero-offset hold tracking during the flight even before that gate opens: switching the
+      // subject on only at contact also starts the spring too late (H142). Forecasting motion
+      // instead over-engaged the hover (H143); the actual silhouette decides whether to lift.
+      const fl = this._cm?.flight, n = this.nodes[this.focusIdx];
+      if (fl && R.band && !fl.band && n) {
+        const margin = this._camLiftMargin(n, this.camFocus, this.cam.vw, this.paused ? R.top : 16, R.bottom);
+        fl.band = (this.H || 800) / 2 + (this.camFocus.y - this.cam.cy) * (this.W || 1200) / this.cam.vw + margin + NG_CAM_LIFT_SOFT > R.bottom;
+      }
+      if (!R.band || fl) ctx.lift = { f: this.camFocus, n, top: this.paused ? R.top : 16, bottom: R.bottom, active: !R.band || !!fl?.band };
     }
     this._camStep(dt, ctx);
   }
@@ -18730,6 +18792,13 @@ class Component extends DCLogic {
   _camSpring(x, v, target, w, dt) {
     const e = x - target, k = v + w * e, ex = Math.exp(-w * dt);
     return [target + (e + k * dt) * ex, (v - w * k * dt) * ex];
+  }
+  /** The drawn pair's screen-space margin, shared by the flight gate and its soft hold. */
+  _camLiftMargin(n, f, width, top, bottom) {
+    const nodeK = Math.max(0.4, Math.min(1, width / (this.graphW * 0.5)));
+    const ly = n ? (this._LY ? this._LY(n) : n.y) : f.y;
+    return Math.max(Math.min(30, Math.max(0, (bottom - top) / 2 - 8)),
+      (Math.abs(ly - f.y) + (n ? n.r : 6) * nodeK * 1.6) * (this.W || 1200) / width);
   }
   /** A flight's path from view a to view b as p -> view, p in [0, 1]; `S` is its arc length. */
   _camPath(a, b, kind) {
@@ -18826,14 +18895,11 @@ class Component extends DCLogic {
     // An ARC flight is bringing an off-screen node in; holding it against the band would fight the
     // flight (measured: a 22px-per-frame ramp as the node entered from above). The lift is for the
     // node the camera already shows.
-    if (lf && lf.f && !(m.flight && m.flight.kind === "arc")) {
+    if (lf && lf.f && lf.active !== false && !(m.flight && m.flight.kind === "arc")) {
       let E = m.edge;
       const value = (q) => q.from + (q.to - q.from) * (q.t * q.t * q.t * (q.t * (q.t * 6 - 15) + 10));
       const s = W / next.w, n = lf.n;
-      const nodeK = Math.max(0.4, Math.min(1, next.w / (this.graphW * 0.5)));
-      const ly = n ? (this._LY ? this._LY(n) : n.y) : lf.f.y;
-      const margin = Math.max(Math.min(30, Math.max(0, (lf.bottom - lf.top) / 2 - 8)),
-        (Math.abs(ly - lf.f.y) + (n ? n.r : 6) * nodeK * 1.6) * s);
+      const margin = this._camLiftMargin(n, lf.f, next.w, lf.top, lf.bottom);
       const fy = H / 2 + (lf.f.y - next.y) * s, fx = W / 2 + (lf.f.x - next.x + frac * next.w) * s;
       if (!E || this.now - E.seen > 0.5) E = m.edge = { from: lf.bottom, to: lf.bottom, t: 1 };
       if (Math.abs(lf.bottom - E.to) > 1) {
