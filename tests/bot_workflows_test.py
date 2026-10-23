@@ -11,6 +11,40 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowTests(unittest.TestCase):
+    def test_every_claude_action_job_has_oidc_permission(self):
+        actions = 0
+        for path in (ROOT / ".github/workflows").glob("*.y*ml"):
+            workflow = yaml.safe_load(path.read_text())
+            for name, job in workflow["jobs"].items():
+                for step in job.get("steps", []):
+                    if not step.get("uses", "").startswith("anthropics/claude-code-action@"):
+                        continue
+                    actions += 1
+                    with self.subTest(workflow=path.name, job=name):
+                        permissions = job.get("permissions", workflow.get("permissions", {}))
+                        self.assertEqual(permissions.get("id-token"), "write")
+        self.assertEqual(actions, 6)
+        print(f"Checked OIDC permission on all {actions} Claude action invocations")
+
+    def test_proofread_auth_failure_blocks_following_steps_but_partial_failure_does_not(self):
+        workflow = yaml.safe_load((ROOT / ".github/workflows/proofread-bot.yml").read_text())
+        audit = next(step for job in workflow["jobs"].values() for step in job["steps"]
+                     if step.get("id") == "audit")
+        self.assertFalse(audit.get("continue-on-error", False))
+        command = re.sub(r"\$\{\{.*?\}\}", "test-value", audit["run"])
+        with tempfile.TemporaryDirectory(prefix="fixbots-auth-workflow-") as temp:
+            python = Path(temp) / "python3"
+            python.write_text('#!/bin/sh\nexit "$STUB_EXIT"\n')
+            python.chmod(0o755)
+            for status in (0, 1, 2):
+                with self.subTest(status=status):
+                    result = subprocess.run(["bash", "-eo", "pipefail", "-c", command + '\necho NEXT-STEP'],
+                                            capture_output=True, text=True,
+                                            env={**os.environ, "PATH": temp + ":" + os.environ["PATH"],
+                                                 "STUB_EXIT": str(status)})
+                    self.assertEqual(result.returncode, 2 if status == 2 else 0, result.stderr)
+                    self.assertEqual("NEXT-STEP" in result.stdout, status != 2)
+
     def test_all_producers_guard_the_entire_job_and_target_dev(self):
         producers = 0
         for path in (ROOT / ".github/workflows").glob("*.y*ml"):

@@ -16,10 +16,13 @@ regenerate_content_json.py and proofread_all_transitions.py. Three guarantees:
 3. USAGE-LIMIT BACKOFF — ports scripts/retry-claude.zsh: on a real usage/rate limit,
    parse the server-stated reset (retry-after / epoch / "in 2h 14m" / "resets at 3pm")
    and wait until it (+buffer); never honor a multi-day weekly block or two parsed
-   resets in a row (back off instead); for any other error, exponential backoff with
+   resets in a row (back off instead); for transient errors, exponential backoff with
    jitter; never hot-loop (MIN_WAIT floor). A limit can arrive as a non-zero exit OR as
    exit 0 with `is_error:true` in the JSON — both route to backoff. Tunable via env
    (short caps for CI so a wait can't blow the Actions job timeout).
+
+Authentication failures terminate the caller with exit 2 after one diagnostic.
+They cannot recover by waiting or by trying the next file in a content batch.
 
 Keeps stdout clean (parses claude's JSON directly), unlike piping through the zsh
 wrapper which merges stderr into stdout.
@@ -62,6 +65,20 @@ _OUTPUT_CONTRACT = (
     "content unchanged as `fixed_content`. NEVER reply with prose, an explanation, or "
     "'nothing to change'; the only thing you produce is the JSON object."
 )
+
+
+class ClaudeAuthenticationError(SystemExit):
+    """Fatal credentials error; bypass callers' per-file Exception retry handlers."""
+
+    def __init__(self):
+        super().__init__(2)
+
+
+def _looks_like_auth_error(text: str) -> bool:
+    return bool(re.search(
+        r"\b401\b|failed to authenticate|OAuth access token has expired|invalid API key",
+        text or "", re.I,
+    ))
 
 
 def _looks_like_limit(text: str) -> bool:
@@ -160,6 +177,7 @@ def call_claude(
 ) -> Tuple[Optional[str], Optional[str]]:
     """Run one structured-output Claude inference with read-only tools + limit backoff.
     Returns (json_string_of_structured_output, None) on success, or (None, error_message).
+    Raises ClaudeAuthenticationError on invalid credentials; do not retry the batch.
     `log` receives human-readable backoff/prose notices (default: print)."""
     cmd = [
         "claude", "-p", "-",
@@ -199,6 +217,9 @@ def call_claude(
 
         structured, result_text, is_err = _extract_cli(stdout)
         scan = (stdout or "") + "\n" + (stderr or "") + "\n" + result_text
+        if (rc != 0 or is_err) and _looks_like_auth_error(scan):
+            log("[claude] Authentication failed; refresh the CLAUDE_CODE_OAUTH_TOKEN repository secret.")
+            raise ClaudeAuthenticationError()
         is_limit = _looks_like_limit(scan)
 
         if rc == 0 and not is_err:
