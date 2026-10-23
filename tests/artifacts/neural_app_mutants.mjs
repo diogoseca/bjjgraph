@@ -1,3 +1,7 @@
+// Historical NON-KILL, not coverage (H147): the desktop late-film control's former 400ms target
+// passed with its film already present at first publication. H145 killed it; H147 did not, on
+// the same app/spec bytes. Target the existing 2.6s past-ceiling journey (as on the phone), keeping
+// the published-answer assertion. The original 400ms positive journey and its claims stay intact.
 // D-326 / CI 48be3a910 / D-332 controls on the served neural.js. Run after the positive journeys, under the
 // shared FIFO lock. NEURAL_MUTANT_APP must be the neural.js served by NEURAL_MUTANT_CONFIG's private
 // server; NEURAL_MUTANT_ONLY optionally selects controls by name. No rebuild, capture, source or
@@ -87,7 +91,7 @@ const controls = [
   // D-370 (2), D-325: a published question never moves for its film; the hold waits for the node's content chunk.
   ['d370-late-film-unheld-390', 'reading-media-placement.spec.ts', '390px a film chunk landing after 2.6s',
     [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
-  ['d370-late-film-unheld-1440', 'reading-media-placement.spec.ts', '1440px a film chunk landing after 400ms',
+  ['d370-late-film-unheld-1440', 'reading-media-placement.spec.ts', '1440px a film chunk landing after 2.6s',
     [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
   // D-355: the band's soft hold engages only for a flight that reaches its lower edge (a URL arrival), never for one
   // inside the band (a hover's re-aim), and it is what keeps the arrival clear of the Moves row.
