@@ -344,6 +344,11 @@ for (const paged of [false, true]) {
       if (paged) {
         await j.clickByMouse('[data-land-next]', 'leave the seen question while warm-up is pending')
         await expect.poll(() => page.evaluate(() => (window as any).__neural._landPage)).toBe(1)
+        // H160/H161 STALE TIMING (2026-10-24): the next card's cursor commits before its
+        // requested reader layout. On both cf773f511 and this app, releasing that layout after
+        // mouse measurement moves Previous by 53px and misses it (original 0/3, observed 3/3;
+        // both settled arms 3/3). Observe publication before measuring; all credit claims stay.
+        await j.readerLayoutSettled()
         await expect(page.locator('[data-land-prev]')).toBeVisible()
         await j.clickByMouse('[data-land-prev]', 'return to its cached hidden answer')
         expect((await mechanics(page)).q).toBe(question)
