@@ -217,7 +217,9 @@ NEURAL_TARGET = {
     # video cards' merge took the deferred set down to 504_337 (D-368); D-355's article view (layout C,
     # D-369's phone catch order, U9 b's left index, U11, U12 a) and D-370's tiered execution search
     # bring it to 506_825. The history is budget_site.json's deferred_raw_note.
-    "deferred_raw_bytes": 506_825,
+    # U16 b / U14 b (owner, 2026-10-24): band-only catch plus centred dividers measure 506_817.
+    # The exact ceiling steps down by 8 bytes; the 506_835 authorized maximum is unchanged.
+    "deferred_raw_bytes": 506_817,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
