@@ -1,6 +1,8 @@
 import { expect, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { recordHarnessAbort } from "./harness-console.mjs";
+export { collectConsoleErrors } from "./harness-console.mjs";
 
 declare global { interface Window { __ngGuestProgressRaw: () => string | null; __ngSeedError?: string } }
 
@@ -285,6 +287,7 @@ export class Journey {
         // [data-lesson] rows time out on an interception no real user ever sees.
         if (/fonts\.(googleapis|gstatic)\.com/.test(u))
           return r.fulfill({ status: 200, contentType: "text/css", body: "" });
+        recordHarnessAbort(this.page, u);
         return r.abort();
       });
       // Per-node dossier chunks (v1.80.4, replacing the aborted 21MB technique-content.js):

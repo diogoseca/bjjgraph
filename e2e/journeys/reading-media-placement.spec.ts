@@ -1,5 +1,5 @@
 import { test, expect, type Page } from '@playwright/test'
-import { journey } from '../dsl'
+import { journey, collectConsoleErrors } from '../dsl'
 
 // Shared seam: sections owns place(target), videos owns the live host/contents.
 // The real published clip row and app's expansion/lifecycle are exercised. Only
@@ -304,7 +304,10 @@ for (const width of [1366, 390]) {
   test(`@curated ${width}px the current card sits in the game's stage without fixed overlap or resize loops`, async ({ page }) => {
     const errors: string[] = []
     page.on('pageerror', e => errors.push(e.message))
-    page.on('console', m => { if (m.type() === 'error') errors.push(m.text() + ' [' + m.location().url + ']') })
+    // STALE SPEC (deploy 40079406126): keyed pages request PostHog's loader, which
+    // the DSL deliberately aborts. Use console-clean's shared classification;
+    // every other console error and every pageerror still fails this assertion.
+    const consoleErrors = collectConsoleErrors(page)
     await page.setViewportSize({ width, height: width === 390 ? 844 : 768 })
     const j = journey(page)
     await j.boot(PATH, { beforeNavigate: async () => {
@@ -381,7 +384,9 @@ for (const width of [1366, 390]) {
       await page.setViewportSize(size); await j.advance(100)
     }
     expect((await geometry()).same).toBe(true)
-    expect(errors).toEqual([])
+    const collected = consoleErrors()
+    test.info().annotations.push({ type: 'harness-aborted console errors discounted', description: String(collected.harness.length) })
+    expect([...errors, ...collected.errors.map(c => `${c.text} [${c.at}]`)]).toEqual([])
   })
 }
 
