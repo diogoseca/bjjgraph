@@ -202,7 +202,7 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 - Maintain upright posture with strong spine alignment and vertical orientation, preventing forward weight shift that creates rolling opportunities or compromises balance
 
-- Create and manipulate passing angles by adjusting hip position and weight distribution while maintaining connection with trapped leg throughout transitions
+- Create and manipulate passing angles by adjusting hip position and weight distribution while maintaining connection with trapped leg throughout transitions. The narrator advises securing the guard player's arm while keeping inside leg position at headquarters, then changing the leg configuration for longer-range butterfly-half passing. His butterfly-half examples use a wrist pin to support the leg work. Narration: [Less Impressed More Involved BJJ, 4:24–5:21.1; headquarters sequence around 5:04](https://www.youtube.com/watch?v=AcxCqMwW_7o&t=264s).
 
 - Control opponent's hip mobility through strategic placement of trapped leg and systematic pressure application that limits their movement options
 

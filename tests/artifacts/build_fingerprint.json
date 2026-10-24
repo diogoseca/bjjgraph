@@ -1,26 +1,15 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "npm run regenerate:neural",
-   "esbuild": "0.27.0",
-   "git_head": "7762d521dbca3d5d6d9d231e00cfe4a38bf19e1d",
-   "inputs": {
-    "tree": "6a29b5f01f73c2fac46ce88867c3b672e9db67d2"
-   },
-   "package_version": "1.230.1",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v2"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/node-identities-2/capture/pr-node-identities-2-2e46c1ac2",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/narration-additions/capture/pr-narration-additions-d93ed826d",
   "content_provenance": {
-   "capture_git_head": "2e46c1ac2e7d3a7c1789506809d69f55cfaa3dd9",
-   "capture_id": "2f94a26c6aef45cfa4ef3df65cd2f977",
+   "capture_git_head": "d93ed826d8931ab9b6c85489459320c6924e4204",
+   "capture_id": "3843d6aaa8be4d3196c0a7ee811207ff",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6395,
    "content_md": 4597,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "0879d91ac7eb010b1dedd943a0e5f73f7a81940c",
+   "content_tree": "8ea8e8fabf646e9f0bd6fc879ff53fb229cf5659",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -45,11 +34,11 @@
    },
    "output_identity": {
     "files": 15989,
-    "sha256": "9c677e682bd4bb1df738b699aa1c70a4d6434d07d5402073dab6c0ba2a7866bf"
+    "sha256": "00231c0bfe35b0fd1f73a9205a8c6c48ccae0baccea342fab00ed32a7afb4a95"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/node-identities-2/capture/pr-node-identities-2-2e46c1ac2"
+    "/home/user/bjj-orchestrator/scratch/narration-additions/capture/pr-narration-additions-d93ed826d"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -171,7 +160,7 @@
  },
  "census": {
   "article_headings": 91252,
-  "article_links": 198828,
+  "article_links": 198850,
   "files": 15989,
   "gzip_files": 1,
   "head_links": 49711,

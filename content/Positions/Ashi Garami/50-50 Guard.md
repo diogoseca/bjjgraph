@@ -129,7 +129,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - Hip Mobility Maintenance: Constant hip movement prevents opponent from settling their pressure and creates escape opportunities
 
-- Strategic Decision Making: Quickly assess whether to fight for reversal or escape to standing based on inside position control and opponent's skill level
+- Strategic Decision Making: Quickly assess whether to fight for reversal or escape to standing based on inside position control and opponent's skill level. Deep Dive JJ describes Felipe opening his 50-50 figure-four and threading a leg beneath Gordon's backside as a back threat. Gordon sits in response, giving Felipe room to extract his own leg and start wrestling up. The narration leaves the final position unspecified. Sources: [Deep Dive JJ, 2:51–3:06.6](https://www.youtube.com/watch?v=pt3APdFOPh4&t=171s); [standing-opponent context, 4:35–4:47.4](https://www.youtube.com/watch?v=pt3APdFOPh4&t=275s).
 
 - Counter-Attack Recognition: Identifying when opponent's aggressive attacks expose their own leg for counter submissions
 
