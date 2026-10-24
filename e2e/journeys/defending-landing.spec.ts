@@ -725,9 +725,14 @@ for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
       const target = `[data-panic-mc-opt="${correct}"]`
       await page.locator(target).evaluate(e => e.scrollIntoView({ block: 'center', behavior: 'instant' }))
       await j.readerLayoutSettled()
-      const before = await page.evaluate(() => (window as any).__neural.beats.filter((b: any) => b.beat === 'land_q_answered').length)
+      // U16 b (owner, 2026-10-24): a live catch answers through _mcAnswer/_defenseAnswered,
+      // which emits mc_correct and advances its deck, not the calm landing's land_q_answered beat.
+      // H158 already advanced to Card 2/5; the original new oracle named the wrong event.
+      const answered = () => page.evaluate(() => { const a = (window as any).__neural
+        return { correct: a.beats.filter((b: any) => b.beat === 'mc_correct').length, page: a._landPage } })
+      const before = await answered()
       await j.clickByMouse(target, 'answer the scrolled live catch')
-      expect(await page.evaluate(() => (window as any).__neural.beats.filter((b: any) => b.beat === 'land_q_answered').length), 'the scrolled escape answer receives its real mouse click').toBe(before + 1)
+      expect(await answered(), 'the scrolled escape answer receives its real mouse click and advances the deck').toEqual({ correct: before.correct + 1, page: before.page + 1 })
     }
   })
 }

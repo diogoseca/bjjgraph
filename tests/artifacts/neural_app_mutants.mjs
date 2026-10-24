@@ -92,6 +92,8 @@ const controls = [
   ['u16-card-compacted', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band', [],
     'only the live phone catch band shrinks', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
       '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-landcard.ng-land-deck{padding-top:8px!important}']]],
+  ['u16-scrolled-answer-inert', 'defending-landing.spec.ts', 'U16 b: in a catch at 390x631',
+    [["_mcAnswer(e,t,s,i,n,o,r){", "_mcAnswer(e,t,s,i,n,o,r){if(this._reader?.root.scrollTop>0&&this._mc?.surface===\"panic\")return;"]], 'the scrolled escape answer receives its real mouse click'],
   ['u16-band-restoration-lost', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band',
     [['this.W<=640&&!this._phoneCatch()?186:144', '144']], 'the result transition restores the usual 186px band'],
   ['u16-band-ends-at-pick', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band',

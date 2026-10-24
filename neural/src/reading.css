@@ -34,10 +34,10 @@
 /* U14 b (owner, 2026-10-24): centred divider labels, as previewed. Equal side reserves keep
    the words centred on the card while the close target stays 44px. The hidden U11 title also
    hides its divider rules, so closed sections and the titleless Videos header keep their form. */
-.ng-section-card>h2 { display:flex;align-items:center;box-sizing:border-box;min-height:44px;margin:0;padding:6px 52px;color:#a8b0c2;font:600 13px/1.3 "Space Grotesk",sans-serif;letter-spacing:.08em;text-transform:uppercase;position:relative; }
-.ng-section-title { display:flex;align-items:center;gap:12px;flex:1;min-width:0; }
+.ng-section-card>h2 { display:flex;align-items:center;box-sizing:border-box;min-height:44px;margin:0;padding:6px 52px;color:#a8b0c2;font:600 13px/1.3 "Space Grotesk",sans-serif;position:relative; }
+.ng-section-title { display:flex;align-items:center;gap:12px;flex:1;min-width:0;letter-spacing:.08em;text-transform:uppercase; }
 .ng-section-title::before,.ng-section-title::after { content:"";flex:1;height:1px;background:#414c68; }
-.ng-section-card:not([data-collapsed=true])>h2 [data-section-toggle] { position:absolute;right:6px;top:50%;transform:translateY(-50%); }
+.ng-section-card>h2>[aria-expanded=true] { position:absolute;right:6px;top:50%;transform:translateY(-50%); }
 .ng-reader :is([data-section-toggle],[data-game-open],[data-reader-close]) { flex:none;display:grid;place-items:center;width:44px;height:44px;min-height:44px;margin:0;padding:0;border:0;border-radius:7px;background:none;box-shadow:none;color:#8b97b0;font:12px/1 "Plus Jakarta Sans",sans-serif;text-align:center;cursor:pointer; }
 .ng-section-x { display:grid;place-items:center;width:24px;height:24px;border-radius:7px;transition:color .15s,background .15s; }
 .ng-reader [data-section-toggle]:hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
@@ -45,7 +45,7 @@
 .ng-reader [data-collapsed=true] .ng-section-x { display:none; }
 .ng-reader [data-collapsed=true] .ng-section-closed { display:flex;align-items:center;gap:6px; }
 .ng-section-card[data-collapsed=true] { background:none;border-color:transparent; }
-.ng-section-card[data-collapsed=true]>h2 { justify-content:center;padding:0;letter-spacing:normal;text-transform:none; }
+.ng-section-card[data-collapsed=true]>h2 { justify-content:center;padding:0; }
 .ng-section-card[data-collapsed=true] .ng-section-title { display:none; }
 .ng-reader :is(.ng-section-card[data-collapsed=true] [data-section-toggle],.ng-reader-closed-part [data-game-open]) { width:100%;height:auto;min-height:44px;padding:0 12px;color:#a8b0c2;font:600 13px/1.3 "Space Grotesk",sans-serif; }
 .ng-reader :is(.ng-section-card[data-collapsed=true] [data-section-toggle],.ng-reader-closed-part [data-game-open]):hover { color:#dbe2f0; }
@@ -53,7 +53,6 @@
    a slash; where the index shows (data-indexed), it leaves no placeholder at all and the index carries it. */
 .ng-section-eye { display:none;line-height:0; }
 .ng-reader .ng-section-closed .ng-section-eye,.ng-reader-toc-row[data-collapsed=true] .ng-section-eye { display:inline-block; }
-.ng-section-card[data-collapsed=true]>h2 { min-height:44px; }
 .ng-reader[data-indexed] :is(.ng-section-card[data-collapsed=true],.ng-reader-closed-part) { display:none!important; }
 /* U12 a (owner): the article's own ✕ on its top row puts the article away. */
 .ng-reader [data-reader-close] { margin:0 0 0 auto; }
