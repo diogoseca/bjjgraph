@@ -207,8 +207,10 @@ const mutants = [
   // U14 b (owner, 2026-10-24): asymmetric side reserves shift the words; missing rules lose the divider.
   ['u14-divider-off-centre', 'section-divider.spec.ts', '1440px divider titles', s => s,
     css => css + '.ng-section-card>h2{padding-left:20px}'],
+  // U14 b (owner, 2026-10-24), H163: display:none also moved the words and failed centering first.
+  // Keep the flex boxes and remove only their paint so this control reaches its own rules claim.
   ['u14-divider-rules-lost', 'section-divider.spec.ts', '390px divider titles', s => s,
-    css => css + '.ng-section-title::before,.ng-section-title::after{display:none}'],
+    css => css + '.ng-section-title::before,.ng-section-title::after{background:transparent}'],
   // D-370 (D9-N3): a phone pick with the reader scrolled. D-329's reservation kept on a phone leaves no free
   // spot at about 170-290px and the pair falls back; the pre-fix code painted the unfitted target there.
   // NON-KILL by construction: the band fallback alone (return target in its place) is unreached by the sweep,
