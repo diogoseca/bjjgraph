@@ -314,11 +314,18 @@ test("the sentence explaining the arrival waits until there is a settled screen 
 
 // ══════════════════════════════════════════════════ 2. THE MAJOR: capture a TECHNIQUE, mid-roll
 
-test("a coach captures a TECHNIQUE from the live hand with a real tap at real coordinates @curated", async ({
-  page,
-}) => {
+// Deployfix classification: Explore hydrates aliases, concepts and Systems after opening.
+// The old scroll action retained a provisional row and could lose that DOM handle before any
+// pointerdown. Simply removing the scroll ALSO lost the capture when hydration moved the row.
+// The ordinary case now measures a settled query. The held-response case deliberately does NOT:
+// it pins the separate APP RACE where pointerup's timer repainted before a native touch click.
+for (const mode of ['ready', 'hydrate', 'cancel']) test(
+  mode === 'cancel' ? 'a cancelled native capture touch releases Systems hydration @curated' :
+    "a coach captures a TECHNIQUE from the live hand with a real tap at real coordinates" +
+    (mode === 'hydrate' ? " while Systems hydrates during touch" : "") + " @curated", async ({ page }) => {
+  const lateSystems = mode !== 'ready';
   const j = journey(page);
-  await j.boot("/");
+  await j.boot("/", lateSystems ? { payloads: { "systems-index.json": { never: true } } } : {});
   await j.land("Mount Top");
 
   // the hand is techniques (optionsFor() skips positions) — which is the point: "the techniques
@@ -343,6 +350,14 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
   await page.keyboard.press('/');
   const search = page.locator('.ng-explorer input').first();
   await search.fill(hand[0].name);
+  // These are the actual pending hydration promises, not a delay or a retry of a failed action.
+  // Keep Systems held in the regression: waiting for it here would mask the app's press race.
+  const ready = await page.evaluate(async (held) => {
+    const a = (window as any).__neural;
+    await Promise.all([a._aliasesWait, a._conceptsWait, ...(held ? [] : [a._systemsWait])]);
+    return { aliases: !!a._aliasesReady, concepts: (a.concepts || []).length > 0, systems: (a.systems || []).length > 0 };
+  }, lateSystems);
+  expect(ready, 'the query hydration premise is explicit, with only the selected response held').toEqual({ aliases: true, concepts: true, systems: !lateSystems });
   const selector = `[data-list-add="${hand[0].id}"][data-list-surface="explore"]`;
   const capture = page.locator(selector).first();
   await capture.scrollIntoViewIfNeeded();
@@ -353,7 +368,51 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
   expect(aim.hit).toBe("the control");
   await expect(capture).toHaveAttribute('aria-label', /add to a list/i);
   const targetId = await capture.getAttribute('data-list-add');
-  await page.touchscreen.tap(aim.x, aim.y);
+  if (!lateSystems) await page.touchscreen.tap(aim.x, aim.y);
+  else {
+    await expect.poll(() => j.payloadTimeline().filter(row => row.pattern === 'systems-index.json').length).toBe(1);
+    expect(j.payloadTimeline().find(row => row.pattern === 'systems-index.json')?.releasedAtMs).toBeNull();
+    await page.evaluate(selector => {
+      const w = window as any, original = document.querySelector(selector);
+      w.__captureTouch = { original, clicks: [] };
+      document.addEventListener('click', event => w.__captureTouch.clicks.push({
+        trusted: event.isTrusted, connected: !!original?.isConnected,
+        same: (event.target as Element)?.closest(selector) === original,
+      }), { capture: true, once: true });
+    }, selector);
+    const touch = await page.context().newCDPSession(page);
+    let down = false;
+    try {
+      await touch.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x: aim.x, y: aim.y, id: 1 }] });
+      down = true;
+      expect(await page.evaluate(() => !!(window as any).__neural._panePress), 'a native press owns the pane').toBe(true);
+      j.releasePayload('systems-index.json');
+      await page.waitForFunction(() => {
+        const a = (window as any).__neural;
+        return a.systems?.length > 0 && Object.keys(a._systemsById || {}).length > 0;
+      });
+      expect(j.payloadTimeline().find(row => row.pattern === 'systems-index.json')?.releasedAtMs).not.toBeNull();
+      expect(await page.evaluate(() => (window as any).__captureTouch.original.isConnected), 'hydration preserves the pressed control').toBe(true);
+      if (mode === 'cancel') {
+        await touch.send('Input.dispatchTouchEvent', { type: 'touchCancel', touchPoints: [] });
+        down = false;
+        await expect.poll(() => page.evaluate(() => (window as any).__captureTouch.original.isConnected),
+          { message: 'cancellation flushes the owed hydration instead of leaving the pane latched' }).toBe(false);
+        expect(await page.evaluate(() => !!(window as any).__neural._panePress)).toBe(false);
+        await expect(page.locator('[data-list-picker]')).toBeHidden();
+        return;
+      }
+      await touch.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+      down = false;
+      await expect.poll(() => page.evaluate(() => (window as any).__captureTouch.clicks.length)).toBe(1);
+      expect(await page.evaluate(() => (window as any).__captureTouch.clicks),
+        'the native touch click reaches the SAME capture control after pointerup').toEqual([{ trusted: true, connected: true, same: true }]);
+    } finally {
+      if (down) await touch.send('Input.dispatchTouchEvent', { type: 'touchCancel', touchPoints: [] });
+      j.releasePayload('systems-index.json');
+      await touch.detach();
+    }
+  }
 
   // v1.101.9: the capture ASKS — it never files into a list the coach did not choose. On a fresh
   // profile there is no list yet, so the picker opens straight into the name field; naming it is

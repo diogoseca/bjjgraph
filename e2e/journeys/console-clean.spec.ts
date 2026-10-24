@@ -13,11 +13,11 @@
 // owner's three-segment role URL, and a shallower landing is a failed precondition, not a pass.
 //
 // WHAT THE HARNESS CANNOT SEE, beside the assertions that would otherwise look like coverage:
-//  - The DSL aborts every non-localhost request and the local build is keyless, so PostHog (the
+//  - The DSL aborts external requests (fulfilling fonts), so PostHog's loader on a keyed build (the
 //    owner's 7 script + 24 connect violations) and Cloudflare's edge-injected analytics beacon never
 //    load here. Those hosts are gated on the REAL deploy by scripts/check_deployed_console.mjs, run
-//    after both deploys. Here, a CSP violation can come only from what a keyless page requests
-//    itself, which is why the CSP mutant below drops Google Fonts, the one third party it requests.
+//    after both deploys. Here, a CSP violation can come only from what the built page requests
+//    itself; the CSP mutant below drops Google Fonts, requested on both build kinds.
 //  - Headless Chromium never requests a favicon, so the owner's 404 cannot arrive as a response
 //    here. The journey fetches every head resource ITSELF, at the URL the current address resolves
 //    it to. That is the claim the browser's own re-fetch makes, made executable.
@@ -29,27 +29,20 @@
 //     -> "resource URLs that re-resolve after the navigation" AND "head resources at the new address".
 //  M2 a host dropped from the CSP: `https://fonts.googleapis.com` removed from style-src in the
 //     served `_headers` -> "securitypolicyviolation events".
-// NOT KILLED HERE: a host missing for PostHog or the beacon (the harness never requests them; see
-// above). That claim belongs to check_deployed_console.mjs and its own red proof.
+// NOT KILLED HERE: missing hosts used by the PostHog runtime or edge beacon (external scripts
+// never execute here). That claim belongs to check_deployed_console.mjs and its own red proof.
 import { test, expect } from "@playwright/test";
-import { journey } from "../dsl";
+import { journey, collectConsoleErrors } from "../dsl";
 
 const LOCAL = /^(http:\/\/localhost|http:\/\/127\.)/;
 const OWNER_PATH = "/Positions/Side-Control/Bottom";
 
 test("@curated a client-side navigation leaves no broken URL, console error or CSP violation", async ({ page }) => {
   const badResponses: string[] = [];
-  const aborted = new Set<string>();
-  const consoleErrors: { text: string; at: string }[] = [];
+  const consoleErrors = collectConsoleErrors(page);
   const pageErrors: string[] = [];
   page.on("response", (r) => {
     if (r.status() >= 400 && LOCAL.test(r.url())) badResponses.push(`${r.status()} ${r.url()}`);
-  });
-  page.on("requestfailed", (r) => {
-    if (!LOCAL.test(r.url())) aborted.add(r.url());
-  });
-  page.on("console", (m) => {
-    if (m.type() === "error") consoleErrors.push({ text: m.text(), at: m.location().url || "" });
   });
   page.on("pageerror", (e) => pageErrors.push(String(e)));
   await page.addInitScript(() => {
@@ -144,13 +137,13 @@ test("@curated a client-side navigation leaves no broken URL, console error or C
   expect(badResponses.filter((b) => !snapshotProbe.includes(b)), "same-origin 4xx/5xx responses").toEqual([]);
   expect(after.csp, "securitypolicyviolation events").toEqual([]);
   expect(pageErrors, "uncaught page errors").toEqual([]);
-  // The harness aborts every external request, and Chromium logs each as "Failed to load resource".
-  // Those, and only those, are discounted: same URL, recorded as aborted. Counted, never silent.
+  // Shared with reading-media-placement: only the DSL's actual external aborts are discounted.
   // The snapshot probe's 404 above is logged here too, at its own URL; same rule, same name.
-  const harness = consoleErrors.filter(
-    (c) => /^Failed to load resource/.test(c.text) && (aborted.has(c.at) || /^http:\/\/[^/]+\/__snapshot\/ping$/.test(c.at)),
-  );
-  const real = consoleErrors.filter((c) => !harness.includes(c)).map((c) => `${c.text} @ ${c.at}`);
+  const { harness, errors } = consoleErrors();
+  const real = errors.filter(
+    (c) => !(c.text === "Failed to load resource: the server responded with a status of 404 (Not Found)" &&
+      snapshotProbe.includes(`404 ${c.at}`)),
+  ).map((c) => `${c.text} @ ${c.at}`);
   test.info().annotations.push({ type: "harness-aborted console errors discounted", description: String(harness.length) });
   expect(real, "console errors").toEqual([]);
 });
