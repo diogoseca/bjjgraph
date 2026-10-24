@@ -673,22 +673,16 @@ test('D-354 N3: a removed film is no longer observed by the reader', async ({ pa
   expect(released, 'the removed film is no longer observed by the reader').toEqual({ removed: true, observed: false })
 })
 
-// D-368 (orchestrator, layout C): two invariants every layout must keep. (1) In a catch the escape answers
-// are on screen, and reachable, without scrolling at 1440x900, and on a phone at 390x844 AND 390x631: there
-// the question goes directly under the node band, then the escape tray (D-369). D-370 (PostHog, 30 days of
-// phone-width pageviews, n=2,057: visible height p10 631, median 691, 98% under 844) moved the phone floor
-// from 664 to 631, with an 8px margin above the reader's scrollport end, where the answers are clipped. A
-// live phone catch concedes, in order, until it fits (measured at 390x631, H124): the node band 186 -> 144
-// (no exchange arc until the answer, 42px), the account button (22px), then the panic card's padding and
-// gaps only (43px); the last answer ends 11px above the scrollport, so the win bar stays where it is.
-// (2) At 1440x900 the question card's top is above the fold. A (the video card column-wide in the Videos
-// section, above Moves) breaks both at 1440; the controls a-column-wide-videos-*,
-// phone-catch-question-first-lost-* and d370-* are killed at these claims.
-test.beforeEach(async ({ page }, info) => { if (!info.title.startsWith('D-368')) return
+// U16 b (owner, 2026-10-24): retain the usual Moves-first layout C order and shrink only
+// the live phone catch's band. Retire D-369 question-first and D-370's phone no-scroll fit
+// (including 390x631/8px), account hiding and card compaction. Every answer remains reachable
+// after reader scroll; desktop no-scroll fit and the above-fold question claim remain unchanged.
+test.beforeEach(async ({ page }, info) => { if (!/^(D-368|U16 b)/.test(info.title)) return
   await page.addInitScript(() => { (window as any).__d368film = () => { const f = (window as any).__neural?._landFilmEl
     return !!f && f.isConnected && !f.hidden && f.getClientRects().length > 0 && f.getBoundingClientRect().height > 0 } }) })
 for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
-  test(`D-368: in a catch at ${width}x${height} the escape answers are on screen without scrolling`, async ({ page }) => {
+  test(width > 640 ? `D-368: in a catch at ${width}x${height} the escape answers are on screen without scrolling`
+    : `U16 b: in a catch at ${width}x${height} the usual order keeps every answer reachable after scrolling`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await catchLoop(page)
     await j.readerLayoutSettled()
@@ -699,13 +693,42 @@ for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
         return { top: Math.round(b.top), bottom: Math.round(b.bottom), hit: !!hit && el.contains(hit) }
       })
       return { answers, film: (window as any).__d368film(), layout: a._reader.game.dataset.mediaLayout,
-        end: Math.round(a._reader.root.getBoundingClientRect().bottom), pressure: !!a._defensePressure }
+        end: Math.round(a._reader.root.getBoundingClientRect().bottom), pressure: !!a._defensePressure,
+        handBottom: a.optionsRef.current.getBoundingClientRect().bottom, cardTop: a._landEl.getBoundingClientRect().top, band: a._reader.nodeBand.height }
     })
     expect(r.film, 'premise: the current card is shown').toBe(true)
     expect(r.pressure, 'premise: a live catch').toBe(true)
     expect(r.answers.length, 'premise: the escape answers').toBeGreaterThan(1)
-    const off = r.answers.filter((x) => !x.hit || x.top < 0 || x.bottom > Math.min(height, r.end) - 8)
-    expect(off, 'every escape answer is on screen and reachable without scrolling, 8px clear of the scrollport end').toEqual([])
+    if (width > 640) {
+      const off = r.answers.filter((x) => !x.hit || x.top < 0 || x.bottom > Math.min(height, r.end) - 8)
+      expect(off, 'every escape answer is on screen and reachable without scrolling, 8px clear of the scrollport end').toEqual([])
+    } else {
+      // U16 b (owner, 2026-10-24): scrolling is accepted; the old phone no-scroll fit is retired.
+      expect(r.band, 'the live phone catch band is 144').toBe(144)
+      expect(r.cardTop - r.handBottom, 'the usual order keeps Moves before Questions without overlap').toBeGreaterThanOrEqual(0)
+      const answers = page.locator('[data-panic-mc-opt]')
+      const identities = await answers.evaluateAll(es => es.map(e => e.getAttribute('data-panic-mc-opt')))
+      for (const identity of identities) {
+        const answer = page.locator(`[data-panic-mc-opt="${identity}"]`)
+        await answer.evaluate(e => e.scrollIntoView({ block: 'center', behavior: 'instant' }))
+        await j.readerLayoutSettled()
+        const visible = await answer.evaluate(el => {
+          const b = el.getBoundingClientRect(), root = el.closest('[data-reader]')!.getBoundingClientRect()
+          const hit = document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2)
+          return { inside: b.top >= root.top && b.bottom <= root.bottom, hit: !!hit && el.contains(hit), height: b.height }
+        })
+        expect(visible, `escape answer ${identity} is fully visible and hit-testable after scrolling`).toMatchObject({ inside: true, hit: true })
+        expect(visible.height, 'the escape answer keeps its 44px target').toBeGreaterThanOrEqual(44)
+      }
+      // Also deliver an actual mouse activation after scrolling, retaining the deck's own identity.
+      const correct = await page.evaluate(() => String((window as any).__neural._mc.correct))
+      const target = `[data-panic-mc-opt="${correct}"]`
+      await page.locator(target).evaluate(e => e.scrollIntoView({ block: 'center', behavior: 'instant' }))
+      await j.readerLayoutSettled()
+      const before = await page.evaluate(() => (window as any).__neural.beats.filter((b: any) => b.beat === 'land_q_answered').length)
+      await j.clickByMouse(target, 'answer the scrolled live catch')
+      expect(await page.evaluate(() => (window as any).__neural.beats.filter((b: any) => b.beat === 'land_q_answered').length), 'the scrolled escape answer receives its real mouse click').toBe(before + 1)
+    }
   })
 }
 
@@ -720,21 +743,22 @@ test('D-368: at 1440x900 the question card\'s top is above the fold', async ({ p
   expect(r.top, "the question card's top is above the fold").toBeLessThan(900)
 })
 
-// D-370: the concessions belong to the LIVE phone catch only. They hold through the escape's pick, so
-// nothing moves under the finger (D-325): the chosen escape's stand-in keeps its rectangle although the pick
-// removes the card above the tray. They revert with the result transition: the band is 186 again, the
-// account button shows, and the scrollport ends above it.
-test('D-370: at 390x631 a phone catch concedes the band and the account button, and both return with the result', async ({ page }) => {
+// U16 b (owner, 2026-10-24): only the band shrinks, and only during the live catch.
+// The account and card spacing stay normal. The clicked escape keeps its measured rectangle
+// through the pick and the result-time band revert; D-325's handoff claim remains.
+test('U16 b: at 390x631 only the live catch band shrinks and reverts without moving the pick', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 631 })
   const j = await catchLoop(page)
   await j.readerLayoutSettled()
   const look = () => page.evaluate(() => {
     const a = (window as any).__neural, acct = a.accountRef.current
     return { band: a._reader.nodeBand?.height, account: getComputedStyle(acct).visibility, conceded: a.wrapRef.current.hasAttribute('data-phone-catch'),
+      padding: a._landEl ? getComputedStyle(a._landEl).paddingTop : null,
       end: Math.round(a._reader.root.getBoundingClientRect().bottom), acctTop: Math.round(acct.getBoundingClientRect().top), pressure: !!a._defensePressure }
   })
   const caught = await look()
-  expect(caught, 'the live phone catch concedes').toMatchObject({ pressure: true, band: 144, account: 'hidden', conceded: true })
+  expect(caught, 'only the live phone catch band shrinks').toMatchObject({ pressure: true, band: 144, account: 'visible', conceded: true, padding: '11px' })
+  expect(caught.end, 'the account keeps its scrollport reserve during the catch').toBeLessThanOrEqual(caught.acctTop - 8)
   const title = '[data-tech] .ngchoice-title'
   await page.evaluate((sel) => (window as any).__neural.optionsRef.current.querySelector(sel).scrollIntoView({ block: 'nearest', behavior: 'instant' }), title)
   await j.readerLayoutSettled()
@@ -743,14 +767,25 @@ test('D-370: at 390x631 a phone catch concedes the band and the account button, 
   const chosen = await rect(`[data-tech="${name}"]`)
   await j.clickByMouse(`[data-tech="${name}"] .ngchoice-title`, 'pick an escape')
   await j.advance(40)
-  expect(await look(), 'at the pick nothing moves: the concessions hold').toMatchObject({ band: 144, account: 'hidden', conceded: true })
-  // The pick removes the question card above the tray; the stand-in keeps the escape's rectangle (the reader's
-  // row handoff), so nothing moves under the finger (D-325). Control execution-row-anchor-lost.
+  expect(await look(), 'at the pick the small band holds and the account stays visible').toMatchObject({ band: 144, account: 'visible', conceded: true })
+  // U16 b (owner, 2026-10-24): Questions now follows Moves. The existing row handoff must still
+  // keep the picked escape in place, including when the result restores the taller band.
   const stand = await rect('[data-executing-tech]')
   expect(stand.map((v, i) => Math.abs(v - chosen[i])).every((d) => d <= 2), `the stand-in sits where the escape was (${stand} vs ${chosen})`).toBe(true)
   await expect.poll(async () => { await j.advance(200); return (await look()).pressure }, 'the escape resolves').toBe(false)
   await expect.poll(async () => (await look()).conceded, 'the reader lays out the result').toBe(false)
   const after = await look()
-  expect(after, 'the result transition reverts every concession').toMatchObject({ band: 186, account: 'visible', conceded: false })
-  expect(after.end, 'the scrollport ends above the account button again').toBeLessThanOrEqual(after.acctTop - 8)
+  expect(after, 'the result transition restores the usual 186px band').toMatchObject({ band: 186, account: 'visible', conceded: false })
+  expect(after.end, 'the scrollport still ends above the account button').toBeLessThanOrEqual(after.acctTop - 8)
+  const result = await rect('[data-executing-tech]')
+  expect(result.map((v, i) => Math.abs(v - chosen[i])).every((d) => d <= 2), 'the result-time band revert preserves the picked escape rectangle').toBe(true)
+})
+
+// U16 b (owner, 2026-10-24): the narrower band belongs to a LIVE catch, never a calm defender arrival.
+test('U16 b: a calm phone defender landing keeps the usual 186px band', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  const j = journey(page)
+  await j.boot(LOOP + '/Defender', { beforeNavigate: realContent })
+  await calm(page); await j.readerLayoutSettled()
+  expect(await page.evaluate(() => (window as any).__neural._reader.nodeBand.height), 'a calm phone defender keeps the usual band').toBe(186)
 })

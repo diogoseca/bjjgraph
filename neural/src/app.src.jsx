@@ -14772,7 +14772,7 @@ class Component extends DCLogic {
   // D-368 + D-325 (orchestrator D-370 (2)): a published question never moves for its film. The film rides the
   // landing node's content chunk, and layout C puts it above the question on a stacked stage and beside it on a
   // desktop (which moves the question sideways), so the hold also waits for that chunk while one is in flight.
-  // A live phone catch puts the film after the escape tray (D-369) and does not wait.
+  // U16 b (owner, 2026-10-24) keeps layout C's catch film after the answers, so it cannot move them.
   _filmPending() {
     const n = this.nodes[this._landIdx];
     if (!n || !this._layerOn("film") || this._phoneCatch()) return false;
@@ -18154,7 +18154,7 @@ class Component extends DCLogic {
       this.activeMove = { idx: opt.idx, verb: "Escaping", col: { r: 126, g: 224, b: 168 } };
       this.startTravel([subIdx, opt.res], () => {
         this._defendSub = null; this._panicKey = null; this._defensePressure = false;
-        this._reader?.layout(); // D-370: the phone catch's concessions revert with the result transition
+        this._reader?.layout(); // U16 b (owner, 2026-10-24): the phone catch band reverts with the result transition
         if (this.rng("escape") < chance) {
           const landed = this.canonicalState(opt.res, opt.destinationRole);
           const stillCaught = !!this.submissionNode(this.nodes[landed]);
@@ -18417,11 +18417,9 @@ class Component extends DCLogic {
     const height = this.H > 500 ? this.W <= 640 && !this._phoneCatch() ? 186 : 144 : 64;
     return { top, bottom: top + height, height };
   }
-  // D-369/D-370: a LIVE phone catch (_defensePressure: a calm defender landing is not one) with the card
-  // layer on. One predicate for the reader's catch order and every concession that keeps the escape answers
-  // on a 390x631 phone (the band, the account button, the card's spacing). It holds through the pick, whose
-  // clearLandCard also clears _landMode, and ends in the escape's travel, with the result transition (D-325);
-  // navigation and restaging end it too (clearEngagement).
+  // U16 b (owner, 2026-10-24): a LIVE phone catch shrinks only the band. A calm defender
+  // landing keeps 186. The predicate holds through the pick, whose clearLandCard also clears
+  // _landMode, and ends in the escape's travel/result; navigation and restaging clear it too.
   _phoneCatch() {
     return this.isMobile() && !!this._defensePressure && this._layerOn("card");
   }

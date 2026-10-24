@@ -9,7 +9,8 @@ import { journey } from "../dsl"
 // m26 includes attacker context: 3 failures (two built roles and the missing guide).
 // m27 truncates safety: exact complete-guide equality fails.
 // m28 breaks the spacing ratio: 6 instead of 4 at both widths.
-// m29 inverts heading size/color (compound): 14px is below its 18px subheading.
+// Historical m29 inverted heading size/color. U14 b (owner, 2026-10-24) replaces that large-title
+// premise with the smaller divider label; section-divider.spec.ts owns its alignment/contrast controls.
 // m30 removes abort + serial checks (compound): late Bottom replaces Top.
 // m31 restores game-first: the immediate complete reader is absent at both widths.
 // m32 removes engagement/tick/clock guards (compound): hovering produces a miss.
@@ -229,7 +230,7 @@ test('@curated an unauthored defender never falls back to the attacker hub', asy
 })
 
 for (const width of [1366, 390]) {
-  test(`@curated ${width}px reader rhythm scales as a ratio and headings keep their hierarchy`, async ({ page }) => {
+  test(`@curated ${width}px reader rhythm scales as a ratio and divider labels preserve the prose hierarchy`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = journey(page)
     await j.boot(RNC + '/Defender', { initialState: QUIET })
@@ -242,14 +243,19 @@ for (const width of [1366, 390]) {
       const sub = document.querySelector('[data-reader-article="guide"] [data-source-id="defensive-options"] h3')!
       return { gap: card.nextElementSibling!.getBoundingClientRect().top - card.getBoundingClientRect().bottom,
         item: px(list, 'rowGap'), unit: parseFloat(getComputedStyle(section.closest('[data-reader]')!).getPropertyValue('--reader-unit')),
-        head: px(head, 'fontSize'), sub: px(sub, 'fontSize'), prose: px(prose, 'fontSize'), headLum: lum(head), bodyLum: lum(prose) }
+        head: px(head, 'fontSize'), sub: px(sub, 'fontSize'), prose: px(prose, 'fontSize'),
+        uppercase: getComputedStyle(head).textTransform, headLum: lum(head),
+        bgLum: (() => { const rgb = getComputedStyle(card).backgroundColor.match(/\d+/g)!.slice(0,3).map(s => { const x = +s / 255; return x <= .03928 ? x / 12.92 : ((x + .055) / 1.055) ** 2.4 }); return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2] })() }
     })
     const normal = await sample()
     expect(normal.gap).toBe(6)
     expect(normal.item / normal.unit).toBe(.5)
-    expect(normal.head).toBeGreaterThan(normal.sub)
+    // U14 b (owner, 2026-10-24): the title is now a small uppercase divider; it no longer
+    // outranks the prose by size or brightness. Keep AA contrast and the prose's hierarchy.
+    expect(normal.head).toBe(13)
+    expect(normal.uppercase).toBe('uppercase')
     expect(normal.sub).toBeGreaterThan(normal.prose)
-    expect(normal.headLum).toBeGreaterThan(normal.bodyLum)
+    expect((normal.headLum + .05) / (normal.bgLum + .05), 'the divider title retains AA text contrast').toBeGreaterThanOrEqual(4.5)
     await page.locator(READY).evaluate(e => (e as HTMLElement).style.setProperty('--reader-unit', '18px'))
     const scaled = await sample()
     expect(scaled.gap, 'section spacing retains the approved independent 6px token').toBe(6)

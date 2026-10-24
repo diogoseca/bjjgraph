@@ -81,19 +81,25 @@ const controls = [
     [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),u=!0)', '!1&&(a=this._predictBottom(e.ahead),u=!0)']], 'ZERO overlap exchange @'],
   ['noahead-exchange-390', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node',
     [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),u=!0)', '!1&&(a=this._predictBottom(e.ahead),u=!0)']], 'ZERO overlap exchange @'],
-  // D-370: a live phone catch concedes, in order, until its escape answers fit 390x631 with 8px to spare. Each
-  // concession is necessary there: (1) the node band stays 186; (2) the account button keeps its reserve; (3) the
-  // panic card keeps its answers' padding (30 of its 43px).
-  ['d370-band-186-in-catch', 'defending-landing.spec.ts', 'D-368: in a catch at 390x631',
-    [['this.W<=640&&!this._phoneCatch()?186:144', 'this.W<=640?186:144']], 'every escape answer is on screen'],
-  ['d370-account-keeps-reserve', 'defending-landing.spec.ts', 'D-368: in a catch at 390x631', [],
-    'every escape answer is on screen', [['[data-phone-catch] .ng-acctwrap{visibility:hidden!important}', '']]],
-  ['d370-card-spacing-kept', 'defending-landing.spec.ts', 'D-368: in a catch at 390x631', [],
-    'every escape answer is on screen', [['[data-phone-catch] .ng-land-deck [data-panic-mc-opt]{padding-top:4px!important;padding-bottom:4px!important}', '']]],
-  // The concessions and the catch order are the LIVE catch's: a calm phone defender landing keeps the U7 order.
-  ['d370-calm-landing-concedes', 'article-sections.spec.ts', '390px choices precede section cards',
+  // U16 b (owner, 2026-10-24): retain band shrink/revert and the usual account/card spacing.
+  // RETIRED: d370-account-keeps-reserve and d370-card-spacing-kept guarded the retired no-scroll fit.
+  // d370-band-186-in-catch retains its mutation, now killed directly at the band claim.
+  ['d370-band-186-in-catch', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band',
+    [['this.W<=640&&!this._phoneCatch()?186:144', 'this.W<=640?186:144']], 'only the live phone catch band shrinks'],
+  ['u16-account-hidden', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band', [],
+    'only the live phone catch band shrinks', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
+      '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-acctwrap{visibility:hidden!important}']]],
+  ['u16-card-compacted', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band', [],
+    'only the live phone catch band shrinks', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
+      '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-landcard.ng-land-deck{padding-top:8px!important}']]],
+  ['u16-band-restoration-lost', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band',
+    [['this.W<=640&&!this._phoneCatch()?186:144', '144']], 'the result transition restores the usual 186px band'],
+  ['u16-band-ends-at-pick', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band',
+    [['this.isMobile()&&!!this._defensePressure&&this._layerOn("card")', 'this.isMobile()&&!!this._defensePressure&&this._landMode==="defense"&&this._layerOn("card")']],
+    'at the pick the small band holds'],
+  ['d370-calm-landing-concedes', 'defending-landing.spec.ts', 'U16 b: a calm phone defender',
     [['this.isMobile()&&!!this._defensePressure&&this._layerOn("card")', 'this.isMobile()&&this._landMode==="defense"&&this._layerOn("card")']],
-    "Moves lead the flow at the parts' step"],
+    'a calm phone defender keeps the usual band'],
   // D-370 (2), D-325: a published question never moves for its film; the hold waits for the node's content chunk.
   ['d370-late-film-unheld-390', 'reading-media-placement.spec.ts', '390px a film chunk landing after 2.6s',
     [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],

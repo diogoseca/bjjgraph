@@ -973,8 +973,8 @@ class Reader {
         }
       }
       this.chromeActive = !!chrome;
-      // D-370 (2): in a live phone catch the account button yields (reading.css), BEFORE the shelf is
-      // measured, so the scrollport ends above the win bar alone. The result transition reverts it.
+      // U16 b (owner, 2026-10-24): only the live catch band shrinks. The account and card retain
+      // their usual space; this marker follows the same predicate through the pick and result.
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
@@ -1113,38 +1113,25 @@ class Reader {
           if (!label("hand").hidden) { position(label("hand"), left, y, width); y += label("hand").getBoundingClientRect().height + step; }
           else y = rowTop + (handoff?.rowHeight ?? handHeight) + step;
         };
-        // D-369 (orchestrator): in a PHONE catch the question goes directly under the node band, then the escape
-        // tray, then the rest. A real phone shows less than 390x844 (about 390x664 in Safari with its bars), and
-        // the U7 order cannot keep the escape answers on it. A catch is a LIVE one (_defensePressure: a calm
-        // defender landing keeps the U7 order); it ends in the escape's travel, with the result transition, so
-        // nothing moves under the finger at the tap (D-325).
+        // U16 b (owner, 2026-10-24): keep the usual layout C order in a live phone catch.
+        // Only the band shrinks; answers may require reader scroll. D-369 question-first is retired.
         const caught = a._landMode === "defense" && !!a._defensePressure;
-        if (showCard && phoneCatch) {
-          if (pin) y = pin.cardY || (pin.cardY = y);
-          cardY = y;
-          if (card) position(card, cardX, cardY);
-          y += cardHeight + 3 * (a._landStackEl?.childElementCount || 0) + step;
-          placeHand();
-          if (homeMedia) { position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
-          gameHeight = Math.max(handoff?.height ?? 0, y);
-        } else {
-          placeHand();
-          // D-368 (layout C): the stage after Moves. On a desktop the current card sits 60px beside the
-          // question (400 + 60 + 390, the approved A geometry), tops aligned so the question stays high; stacked
-          // it sits above the question, except in a catch, where it follows the answers so they stay on screen.
-          const follows = homeMedia && !beside && showCard && caught;
-          if (homeMedia && !beside && !follows) { position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }
-          if (pin) y = pin.cardY || (pin.cardY = y);
-          cardY = y;
-          if (beside) { const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2; position(this.mediaHome, groupLeft, cardY, mediaWidth); cardX = groupLeft + mediaWidth + 60; }
-          if (card) position(card, cardX, cardY);
-          // The deck's backs peek 3px per remaining card below the face; the article clears them.
-          if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);
-          else if (!label("card").hidden) { position(label("card"), left, y, width); y += label("card").getBoundingClientRect().height; }
-          if (follows) { y += step; position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
-          else if (homeMedia && !showCard) { position(this.mediaHome, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
-          gameHeight = Math.max(handoff?.height ?? 0, y);
-        }
+        placeHand();
+        // D-368 (layout C): the stage after Moves. On a desktop the current card sits 60px beside the
+        // question (400 + 60 + 390, the approved A geometry), tops aligned so the question stays high; stacked
+        // it sits above the question, except in a catch, where it follows the answers so they stay on screen.
+        const follows = homeMedia && !beside && showCard && caught;
+        if (homeMedia && !beside && !follows) { position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }
+        if (pin) y = pin.cardY || (pin.cardY = y);
+        cardY = y;
+        if (beside) { const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2; position(this.mediaHome, groupLeft, cardY, mediaWidth); cardX = groupLeft + mediaWidth + 60; }
+        if (card) position(card, cardX, cardY);
+        // The deck's backs peek 3px per remaining card below the face; the article clears them.
+        if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);
+        else if (!label("card").hidden) { position(label("card"), left, y, width); y += label("card").getBoundingClientRect().height; }
+        if (follows) { y += step; position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
+        else if (homeMedia && !showCard) { position(this.mediaHome, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
+        gameHeight = Math.max(handoff?.height ?? 0, y);
       } else {
         const stageHeight = beside ? Math.max(cardHeight, mediaHeight) : cardHeight + mediaHeight + (homeMedia && showCard ? 12 : 0);
         start = Math.max(6, Math.min(start, end - top - stageHeight - gap - handHeight));

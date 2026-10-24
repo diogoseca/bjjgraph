@@ -189,6 +189,27 @@ test("Book reserves its node band, with no part header, without changing an exec
   assert.equal(parseFloat(f.r.game.style.height), snapshot.height);
 });
 
+// U16 b (owner, 2026-10-24): the live catch keeps Moves first and shrinks only its band.
+test("a live phone catch keeps the usual row order and the band survives the pick until its result", () => {
+  const f = fixture(), { a, r, row } = f;
+  r.on = () => true; a._layerOn = () => true;
+  a._defensePressure = true; a._landMode = "defense";
+  const card = a._landEl = node(); card.parentElement = r.game; r.gameHomes.set(card, {});
+  card.classList = { contains: () => false };
+  card.getBoundingClientRect = () => ({ top: parseFloat(card.style.top) || 0, width: 266, height: 180 });
+  r.layoutNow();
+  assert.equal(r.nodeBand.height, 144, "the live catch shrinks the band");
+  assert.equal(parseFloat(row.style.top), 152, "Moves still leads directly after the small band");
+  assert.ok(parseFloat(card.style.top) >= parseFloat(row.style.top) + row.fixtureHeight, "Questions follows Moves without overlap");
+  a._landMode = null; a._landEl = null; // clearLandCard at the pick must not end the live catch.
+  r.layoutNow();
+  assert.equal(r.nodeBand.height, 144, "the pick retains the small band");
+  a._defensePressure = false;
+  r.layoutNow();
+  assert.equal(r.nodeBand.height, 186, "the result restores the usual band");
+  assert.equal(a.wrapRef.current.hasAttribute("data-phone-catch"), false, "the live-catch marker ends with the result");
+});
+
 for (const release of ["resize", "reading", "arrival"]) {
   test(`${release} releases the native reservation through the existing execution owner`, () => {
     const f = fixture(); choose(f);
@@ -263,4 +284,4 @@ test("the article and shelf have one frame writer while fixed replay keeps its o
   }
 });
 
-console.log("reader handoff: 8 behavioral cases; real browser geometry is pinned separately");
+console.log("reader handoff: layout, band and reservation cases; real browser geometry is pinned separately");
