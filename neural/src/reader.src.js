@@ -622,7 +622,8 @@ class Reader {
       return;
     }
     if (CONTENT.test(url.pathname) || !/\.[a-z0-9]+$/i.test(url.pathname)) {
-      event.preventDefault(); this.app._readArticle(url.pathname + url.search + url.hash);
+      // Both reader stages normalize URLs; keep the parsed query/hash without rebuilding them.
+      event.preventDefault(); this.app._readArticle(url, true, true, "article_link");
     }
   }
   anchor(hash, scope = this.root) {

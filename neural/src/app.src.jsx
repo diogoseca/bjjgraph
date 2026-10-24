@@ -3868,9 +3868,56 @@ class Component extends DCLogic {
     }
     this._reader?.sync();
   }
-  // guarded PostHog capture (the page loads posthog globally; token absent on localhost) — no PII
+  // The page owns SDK initialization/consent; callers own their property schema.
+  // Keyless builds install no SDK. Never initialize it or opt a visitor in here.
   track(event, props) {
-    try { const ph = window.posthog; if (ph && ph.capture) ph.capture(event, Object.assign({ variant: "neural" }, props || {})); } catch (e) { /* analytics must never break the app */ }
+    try {
+      const ph = window.posthog;
+      if (!ph || typeof ph.capture !== "function" || ph.has_opted_out_capturing?.() === true) return;
+      ph.capture(event, Object.assign({ variant: "neural" }, props || {}));
+    } catch (e) { /* analytics must never break the app */ }
+  }
+  /** Deliberate browsing only: call at an input boundary, BEFORE navigation changes focus.
+   * Never call from rollFromPosition, stageRollAt, _syncUrl, reader.open or camera/render code:
+   * those also serve URL arrivals, restores, automatic landings and replay. One action chooses
+   * ONE event (side > connection > opening); no persistent dedupe, IDs, URLs or free text.
+   * An opening measures the accepted choice, not article load completion or time reading. */
+  _trackExplore(idx, surface, role) {
+    try {
+      if (!["browse", "search", "graph", "article_link", "list", "reference", "node_link"].includes(surface)) return;
+      const node = this.nodes?.[idx];
+      const types = ["positions", "transitions", "submissions"];
+      if (!node || !types.includes(node.ty) || !this.rsAllows(node)) return;
+      const seat = (n, physical) => {
+        if (!n || !types.includes(n.ty)) return null;
+        if (n.ty !== "positions" && (physical === "top" || physical === "bottom") && !["top", "bottom"].includes(n.fromRole)) return null;
+        const r = physical === "top" || physical === "bottom"
+          ? (n.ty === "positions" ? physical : (n.fromRole === physical ? "attacker" : "defender"))
+          : n.role;
+        return (n.ty === "positions" ? ["top", "bottom"] : ["attacker", "defender"]).includes(r) ? r : null;
+      };
+      let from = this.nodes?.[this.focusIdx], fromRole = this.playerRole;
+      if (surface === "article_link") {
+        const hit = this._nodeAndRoleForPath(this._reader?.path);
+        from = this.nodes?.[hit.idx]; fromRole = hit.role;
+      }
+      const same = !!from && this.siteIdOf(from.id) === this.siteIdOf(node.id);
+      const targetRole = seat(node, role), sourceRole = seat(from, fromRole);
+      // Browse/list rows name sites, not a requested side. Only a painted role or
+      // an article perspective link is evidence of deliberately crossing the pair.
+      const crossed = (surface === "graph" || surface === "article_link") && same && targetRole && sourceRole && targetRole !== sourceRole;
+      // An article hyperlink is an authored connection. On the map require adjacency,
+      // not proximity; either pair member may carry the site's navigable edges.
+      const adjacent = from && [from.idx, from.pi].some(i => i >= 0 &&
+        (this.adj?.[i] || []).some(j => this.nodes[j] && this.siteIdOf(this.nodes[j].id) === this.siteIdOf(node.id)));
+      const connected = !same && (surface === "article_link" || surface === "graph" && adjacent);
+      const event = crossed ? "neural_side_crossed" : connected ? "neural_connection_followed" : "neural_node_opened";
+      this.track(event, {
+        surface, node_type: node.ty, role: targetRole,
+        from_type: from && types.includes(from.ty) ? from.ty : null, from_role: sourceRole,
+        ruleset: this._giMode === "nogi" ? "nogi" : "gi",
+      });
+    } catch (e) { /* measurement cannot prevent navigation */ }
   }
 
   // ── COLD-START FUNNEL ── the one journey with no instrumentation behind it: does a first-time
@@ -7778,7 +7825,7 @@ class Component extends DCLogic {
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
         const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this._readArticle(this._nodeUrlPath(n.idx)));
+        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "search"));
         list.appendChild(this._withListAdd(hit, n, "explore"));
       }
       return;
@@ -7902,12 +7949,12 @@ class Component extends DCLogic {
           // glyph at all, so a technique inside a family fold was the one place in Explore that
           // did not say what it was. `nodeGlyph` is the same vocabulary `draw()` puts on the
           // canvas — circle = position, triangle = submission, diamond = transition (:9516-9518).
-          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span>', 38, () => this._readArticle(this._nodeUrlPath(n.idx))), n, "explore"));
+          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span>', 38, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "browse")), n, "explore"));
         } else {
           // A one-site family already identifies its representative. Probing role dossiers here
           // used to fetch both seats for every visible singleton just to choose that same node.
           const solo = nodes[0], qual = this.nodeQual(solo);
-          list.appendChild(this._withListAdd(mk(this.nodeGlyph(solo.ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : '') + '</span>', 22, () => this._readArticle(this._nodeUrlPath(solo.idx))), solo, "explore"));
+          list.appendChild(this._withListAdd(mk(this.nodeGlyph(solo.ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : '') + '</span>', 22, () => this._readArticle(this._nodeUrlPath(solo.idx), true, true, "browse")), solo, "explore"));
         }
       }
     };
@@ -9107,7 +9154,7 @@ class Component extends DCLogic {
       // an id this build cannot resolve (a list synced from a newer build): name it, don't hide it
       nameBtn.textContent = nodeId;
     }
-    if (i != null) nameBtn.addEventListener("click", (e) => { e.stopPropagation(); this.openDossier(i); });
+    if (i != null) nameBtn.addEventListener("click", (e) => { e.stopPropagation(); this.openDossier(i, false, "list"); });
     item.appendChild(nameBtn);
     if (n) item.appendChild(this._playButton(n));   // ▶ is the technique's, on every surface
     const rm = document.createElement("button");
@@ -9553,7 +9600,7 @@ class Component extends DCLogic {
       } else {
         nameBtn.textContent = id;
       }
-      if (i != null) nameBtn.addEventListener("click", () => this.openDossier(i));
+      if (i != null) nameBtn.addEventListener("click", () => this.openDossier(i, false, "list"));
       item.appendChild(nameBtn);
       if (n) item.appendChild(this._playButton(n));   // a received technique plays like any other
       item.appendChild(this._listAddButton(id, "shared"));
@@ -10163,7 +10210,7 @@ class Component extends DCLogic {
             (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + "</span>" : "") + "</span>" +
             (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
           22,
-          () => this.openDossier(i),
+          () => this.openDossier(i, false, "reference"),
         );
         row.setAttribute("data-system-node", n.id);
         if (role) row.setAttribute("data-system-role", "1");
@@ -10462,7 +10509,7 @@ class Component extends DCLogic {
             (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + "</span>" : "") + "</span>" +
             "</span>",
           0,
-          () => this.openDossier(i),
+          () => this.openDossier(i, false, "reference"),
         );
         row.setAttribute("data-concept-node", n.id);
         row.style.pointerEvents = "auto";
@@ -10538,10 +10585,11 @@ class Component extends DCLogic {
   }
   // ---------- dossier: the technique page, living in the left pane ----------
   isMobile() { return (this.W || window.innerWidth) <= 640; }
-  openDossier(idx, skipCam) {
+  openDossier(idx, skipCam, surface) {
     this._stopSystemPreview();
     this._stopConceptFilm();
     const n = this.nodes && this.nodes[idx]; if (!n) return;
+    if (!skipCam && surface) this._trackExplore(idx, surface);
     if (this._pickEl) this.closeListPicker(); // the chooser's anchor is about to be re-rendered away
     this.track("neural_dossier_opened", { node: n.t, node_type: n.ty, mode: "card" });
     this.releaseCamera(); // reading a node is a camera decision of its own
@@ -10910,7 +10958,7 @@ class Component extends DCLogic {
     this._wireDossierListButton(dos, n, "dossier");
     const back = dos.querySelector(".dsBack"); if (back) back.addEventListener("click", () => { if (mob) { this.closeDossierSheet(); this.openExplorer(); this.showExplorerList(); } else this.showExplorerList(); });
     const xb = dos.querySelector(".dsClose"); if (xb) xb.addEventListener("click", () => this.closeDossierSheet());
-    dos.querySelectorAll(".dsAtk").forEach((el) => el.addEventListener("click", () => this.openDossier(parseInt(el.getAttribute("data-i"), 10))));
+    dos.querySelectorAll(".dsAtk").forEach((el) => el.addEventListener("click", () => this.openDossier(parseInt(el.getAttribute("data-i"), 10), false, "node_link")));
     const seam = dos.querySelector(".dsSeam"), fold = dos.querySelector(".dsFold");
     if (seam && fold) seam.addEventListener("click", () => { const open = fold.style.display !== "none"; fold.style.display = open ? "none" : "block"; seam.querySelector(".dsSeamTxt").innerHTML = open ? "More details \u2193" : "Less \u2191"; });
     const roll = dos.querySelector(".dsRoll"); if (roll) roll.addEventListener("click", () => { if (mob) this.closeDossierSheet(); this.jumpToState(n.idx); });
@@ -11550,7 +11598,7 @@ class Component extends DCLogic {
   }
   locateNode2(idx) {
     // search "Locate" takes the same unified prezi path as explorer rows and canvas clicks
-    this.openDossier(idx);
+    this.openDossier(idx, false, "search");
   }
   nodeGlyph(ty, col, sz) {
     const s = sz || 8;
@@ -14821,8 +14869,19 @@ class Component extends DCLogic {
    *  mounts the next question at once, so the pin keeps the EVENT, not the current card's state.
    *  D-354 N2: the player reopening Videos settles it too (`toggleSection`), as their own input. */
   _readerGraded() { if (this._readerPin) { this._readerPin.graded = true; this._reader?.layout(); } }
-  _readArticle(path, intent = true, push = true) {
+  _readArticle(path, intent = true, push = true, surface) {
     if (!path) return;
+    // Only explicit input callers supply a surface. Boot/popstate/automatic articles and
+    // the load retry below omit it, even when they retain reading intent or push history.
+    if (intent && push && surface) {
+      try {
+        const url = new URL(path, location.href);
+        if (url.origin === location.origin) {
+          const hit = this._nodeAndRoleForPath(url.pathname.replace(/\.html$/, ""));
+          this._trackExplore(hit.idx, surface, hit.role);
+        }
+      } catch (e) { /* measurement cannot prevent reading */ }
+    }
     if (intent) {
       this._readerIntent = true;
       this._declineLandQ("reading");
@@ -19246,6 +19305,7 @@ class Component extends DCLogic {
             //
             // (v1.134.0: the stand-down latch is gone — a background tap CLOSES, a node tap stages)
             const hitNode = this.nodes[this._hover.idx];
+            if (e.type === "pointerup") this._trackExplore(this._hover.idx, "graph");
             if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx);
             else this.stageRollAt(this._hover.idx);
           } else { this._tapBackground(); }

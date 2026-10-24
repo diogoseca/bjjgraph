@@ -148,6 +148,44 @@ guarded reads above short-circuit. The second direction is the one that costs yo
 build that stops injecting stops collecting, and nothing errors. `tests/analytics_surface_gate.test.mjs`
 pins the gate's own discrimination on every PR.
 
+### Deliberate exploration
+
+`_trackExplore()` observes explicit navigation inputs, before focus changes. Each accepted
+node choice emits **one** event, in this priority order:
+
+| Event | Trigger |
+|-------|---------|
+| `neural_side_crossed` | Choose the other role of the same site, through a graph orb or article perspective link |
+| `neural_connection_followed` | Follow an article link to a different graph site, or choose an adjacent graph orb (either source pair member's adjacency) |
+| `neural_node_opened` | Any other explicit node choice in Browse/search, graph, lists, reference member rows or node links |
+
+All three carry `surface` (`browse`, `search`, `graph`, `article_link`, `list`, `reference`,
+`node_link`), `node_type` (`positions`, `transitions`, `submissions`), `role` and `from_role`
+(`top`, `bottom`, `attacker`, `defender`, or null), `from_type` (the same node types or null),
+`ruleset` (`gi`, `nogi`), and the existing `variant: neural`. A technique's physical seat is
+translated to its attacker/defender role. No titles, IDs, URLs, search terms or free text are
+added, and no new cookies or storage are created. Existing SDK identity/session properties
+still accompany captures. `track()` respects SDK opt-out and stays inert without the SDK.
+
+The event measures a choice, not successful article loading or time spent reading. Repeating
+a real choice counts again; hydration, reader retries, automatic camera/seat/URL changes,
+initial URLs, Back/Forward restoration and replay do not. Study/game commits and reference-page
+openings themselves are outside this node-exploration measure. Share arrivals already have
+`neural_share_list_opened`/`neural_share_list_reopened`; arrival alone is not exploration.
+
+For returning-explorer totals, define a PostHog Action matching the union of these three names.
+Use its first observed occurrence after rollout as the cohort start, then count each browser
+identity once if it performs the Action in a different session between 24 hours and 28 days
+later. Report only fully observed 28-day cohorts, their starting size, return count and rate.
+Do not sum daily retention cells (a visitor can occur in several). A daily Retention insight
+is useful alongside the bounded, deduplicated total; "on or after" is unbounded and does not
+by itself enforce the 28-day ceiling. Anonymous identity loss, opt-out and different devices
+limit this to observed browser returns, not a census of people.
+
+Pinned by `tests/analytics_exploration.test.mjs`: production input callbacks, role/connection
+classification, single capture, quiet lifecycle paths, opt-out and keyless consumers.
+Built SDK absence remains the separate `validate:analytics:nokey` gate above.
+
 ### Cold-start funnel (v1.82.0)
 
 The first-visit path is measured by an OBSERVER of the `fx()` beat stream (`_cs*` in
@@ -159,12 +197,13 @@ The first-visit path is measured by an OBSERVER of the `fx()` beat stream (`_cs*
 | `neural_coldstart_abandoned` | On `pagehide` / tab hidden, mid-funnel | `furthest_step`, `furthest_index`, `reason`, `cold`, `marks` |
 
 **Spine** (build the funnel on the `step` property of `neural_coldstart_step`, in this order):
-`app_ready` → `hand_dealt` → `question_shown` → `question_answered` → `move_committed` →
+`app_ready` → `hand_dealt` → `question_shown` → `move_committed` →
 `outcome_seen` → `roll_ended`.
 
 **Side marks** (measured, but off the spine — `spine: false`): `unseen_question` (the landing
 question was about a node with NO study history — the suspected cold-start confusion),
-`question_ignored` (committed past an unanswered question), `pane_opened`, `deck_card_graded`.
+`question_answered`, `question_ignored` (committed past an unanswered question),
+`question_skipped` (with a reason), `pane_opened`, `deck_card_graded`.
 
 `cold: true` means the visitor arrived with no `bjj-neural-progress` and no `bjj-neural-coached`
 in localStorage. A tab-switch also fires `neural_coldstart_abandoned`, and the report re-arms
