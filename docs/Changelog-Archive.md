@@ -12511,3 +12511,32 @@ auth quotations, real CLI error envelopes, and the six-file/two-worker batch. Re
 the bare-401 match, removing the shared signal, removing future cancellation, and
 swallowing the corpus child's exit 2 each fail a named regression. All inference is
 stubbed; these checks do not claim a live Actions run or a full host replay.
+
+
+## v1.230.1 — keyed deploy console accounting and native touch hydration (2026-10-24)
+
+Deploy 40079406126 failed two media-placement cases because the spec counted the DSL's
+intentional PostHog loader abort. The unchanged cases reproduced 2/2 red on a build carrying
+the public project key and 2/2 green without it. One shared collector now records the actual
+abort site and discounts only its exact browser diagnostic, with URL, page and occurrence
+accounting. HTTP, CSP, application, uncaught and unrecorded transport errors still fail.
+The console-clean journey shares that collector; six unit boundary cases exercise it.
+
+Explore capture first passed 30 isolated repetitions per build kind and 12 traced repetitions
+per kind. A controlled genuine Systems response then reproduced the detached scroll handle
+5/5 on each build; removing scroll instead lost the picker 5/5. Suppressing only the hydration
+repaint made both variants pass. The ordinary capture assertion now names its settled-query
+premise instead of retaining a provisional row across hydration.
+
+That spec change alone would conceal an application race. With genuine Systems data released
+between trusted touch start and end, the existing guard lost capture 4/5 times on the keyed
+build and 3/5 keyless: the button survived pointerup, then the zero-delay repaint overtook the
+synthesized touch click. Removing the guard lost 5/5 on each build. Touch ownership now lasts
+through the actual click; cancellation, non-tap swipes, context menus and blur release abandoned
+gestures. The new curated capture case deliberately holds Systems through measurement and
+requires the original connected control at click, the saved technique, and no move committed.
+Its cancellation companion requires the deferred repaint to flush without opening a picker.
+
+The older reading-mode failure was the Back case's outgoing-reader/replacement-app identity
+boundary. Its current replacementReadingSnapshot and held-HTML/graph cases already cover that
+premise; both variants passed ten repeats per build kind. No reading-mode code changed here.

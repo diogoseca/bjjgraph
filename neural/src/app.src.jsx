@@ -1091,16 +1091,14 @@ class Component extends DCLogic {
       // between the two destroys the pressed button and NO click is dispatched at all: the press
       // simply vanishes. Measured on the 390px "+ on Your lists" (CI shard 4/4 red, received
       // `Your lists(0)+`) and reproduced with the genuine payloads held and one landed mid-press
-      // (e2e/journeys/share-list-hydration-press.spec.ts). A TOUCH tap is immune — Chromium
-      // re-hit-tests the tap at release and clicks the rebuilt button (measured, same payload, same
-      // press) — so it is the mouse, pen and trackpad user who lost it, at any width, on any
-      // Explore control. So a press that begins in the pane holds every payload repaint
-      // (`_afterPress`) until the pointer is released, and the repaint runs one task later — after
-      // the click that press produced has reached the button it was aimed at. The two orders are
-      // the whole fix: a mouse's click is dispatched in the same task as its pointerup, so
-      // `setTimeout(0)` cannot overtake it. A lost pointerup (a release outside a window that kept
-      // no capture) only defers the repaint to the next release anywhere; nothing is dropped.
-      drill.addEventListener("pointerdown", () => { this._panePress = true; }, true);
+      // (e2e/journeys/share-list-hydration-press.spec.ts). Mouse clicks follow pointerup in the
+      // same task. Touch clicks can arrive LATER: a zero-delay pointerup flush removed the
+      // capture button before the synthesized click (deployfix: 7/10 genuine held-response taps
+      // lost their picker). Keep touch ownership through click, then flush after its handlers.
+      // Cancellation, a non-tap swipe, a context menu or window blur ends an abandoned touch.
+      // Pinned by share-mobile's held Systems response during a native capture touch.
+      let paneTouch = false;
+      drill.addEventListener("pointerdown", (e) => { this._panePress = true; paneTouch = e.pointerType === "touch"; }, true);
       const release = () => {
         if (!this._panePress) return;
         this._panePress = false;
@@ -1111,8 +1109,10 @@ class Component extends DCLogic {
           for (const job of owed) job();
         }, 0);
       };
-      window.addEventListener("pointerup", release, true);
-      window.addEventListener("pointercancel", release, true);
+      window.addEventListener("pointerup", () => { if (!paneTouch) release(); }, true);
+      for (const type of ["click", "pointercancel", "touchcancel", "contextmenu", "blur"])
+        window.addEventListener(type, release, true);
+      drill.addEventListener("touchend", () => { if (moved > 16) release(); }, { passive: true });
     }
     this.mastered = new Set();
     this.prep = {};
