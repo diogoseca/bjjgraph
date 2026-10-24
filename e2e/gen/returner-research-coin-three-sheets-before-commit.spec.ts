@@ -1,44 +1,17 @@
-/* @hyperspace {"theme":"challenges-and-belt-bar","L":"lapsed-returner","F":"option-tray-sheet","B":"cross-feature"} @invariant "The research-position coin's sequence rule counts sheet-opens since the current landing: committing after only two sheets mints nothing and resets the counter, while three sheet_opened events since land followed by a commit mint exactly one coin." */
+// v1.230.0 reverses v1.218.1/v1.220.0 Inspect: D-318 moves research to the video viewer; the card commits.
+/* @hyperspace {"theme":"challenges-and-belt-bar","L":"lapsed-returner","F":"option-tray-sheet","B":"cross-feature"} @invariant "The research-position coin's sequence rule counts research opens since the current landing: committing after only two video opens mints nothing and resets the counter, while three sheet_opened events since land followed by a commit mint exactly one coin." */
 import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 import { lapsedReturner } from "./personas"
 
 /**
- * RESEARCH BEFORE YOU COMMIT — a lapsed returner earns the research-position coin.
- *
- * Engine truth (challenge-engine.src.js:131-140): the reward runtime's sheetsSinceLand
- * resets on `land`/`roll_end`, increments on every RAW sheet_opened (distinctness is
- * UNASSERTED — re-opening the SAME sheet counts), and a `commit` mints research-position
- * when the counter is >=3, then resets it. Mint-once rides the existing-coin guard at
- * challenge-engine.src.js:142 (`if (nextCoins[id]) continue`).
- *
- * Inspection is explicit: the final j.inspect() opens one sheet before [data-go] commits.
- * A direct j.pick() contributes no sheet-open. Through real UI:
- *   "two sheets then commit"   = 1 open/close cycle  + Inspect + Execute
- *   "three sheets then commit" = 2 open/close cycles + Inspect + Execute
- * Asserted arc: cumulative sheet_opened 2 → 5 → 8 across three commits; research-position
- * coin_earned 0 after the 2-sheet commit, exactly 1 after the 3-sheet commit (live in
- * __neural.coins AND persisted in the bjj-neural-progress blob — isTest() saves are
- * synchronous), still 1 after repeating the full ritual on a later hand.
- *
- * Determinism: land()'s built-in rigs cover the ambient draws; each commit rigs
- * `resolve` [0.01] + `outcome` [0.01] on a ty==="transitions" option (momentum.spec.ts
- * pattern — success, no opponent turn, no roll_end). Sheet close goes via keyboard
- * Escape then waitForFunction(!_detailCtx && transform==="none") — NEVER
- * expect(sheet).not.toBeVisible(): the panel hides via opacity:0 so Playwright still
- * counts it visible, and the 400ms wall-clock row reset is what keeps consecutive
- * clicks on the same card stable.
- *
- * Deliberately NOT asserted: which reset (commit's or the next land's) zeroes the
- * counter — indistinguishable through real play, since every commit is followed by a
- * land before another sheet can open. Only the observable rule is pinned. Total sheet
- * opens stay at 8, safely below reward.sheet-twelve's threshold of 12, so no
- * oss-and-found mint can pollute the coin assertions.
- *
- * Distinctness vs the ledger: veteran-hidden-counters-beat-silent-coin-mints crosses
- * the COMMIT-FREE sheet-count threshold (reward.sheet-twelve); this spec is the
- * sequence-rule coin — sheets SINCE LAND gated by a commit, including the
- * two-sheets-is-not-enough negative arm no other spec exercises.
+ * The video viewer retains the legacy sheet_opened evidence event. The research-position
+ * counter resets on land/roll_end, counts every video open (including repeats), and
+ * mints after three since landing followed by a commit. Choosing alone adds no research.
+ * This pins cumulative events 2 → 5 → 8, the two-open negative arm, persistence, and
+ * mint-once. Eight stays below reward.sheet-twelve, so that coin cannot mask this one.
+ * Rigged transition successes keep the three commits in one roll. Research uses actual
+ * video controls and closes the viewer before the next measured mouse action.
  */
 
 /** A committable transition from the live hand (never a submission — those end the roll). */
@@ -52,19 +25,9 @@ const transitionTech = (page: Page) =>
     return ""
   })
 
-/** Open a tray card's expand sheet (fires sheet_opened) and close it WITHOUT committing. */
+/** The video viewer emits the legacy research beat without committing. */
 async function openAndClose(page: Page, technique: string, label: string) {
-  const card = page.locator(`[data-tech="${technique}"]`).first()
-  await expect(card, `${label}: option card for "${technique}" visible`).toBeVisible()
-  await card.locator("[data-choice-inspect]").click()
-  await expect(page.locator("[data-go]").first(), `${label}: expand-sheet Execute visible`).toBeVisible()
-  await page.keyboard.press("Escape")
-  // opacity:0 hide → visibility assertions lie; wait for the detail ctx to clear AND the
-  // 400ms wall-clock row reset so the next click on the same card lands.
-  await page.waitForFunction(() => {
-    const a = (window as any).__neural
-    return !a._detailCtx && !!a.optionsRef.current && a.optionsRef.current.style.transform === "none"
-  })
+  await journey(page).watchChoice(technique)
 }
 
 /** Everything the invariant watches: raw sheet_opened count since the post-land baseline,
@@ -88,7 +51,7 @@ const snap = (page: Page, baseline: number) =>
     }
   }, baseline)
 
-test("returner researches a hand: two sheets mint nothing, three since land mint the coin once, the ritual never re-mints", async ({
+test("returner researches a hand: two video opens mint nothing, three since land mint the coin once, the ritual never re-mints", async ({
   page,
 }) => {
   const errors: string[] = []
@@ -108,50 +71,50 @@ test("returner researches a hand: two sheets mint nothing, three since land mint
   expect(virgin.liveCoin, "returner blob seeds coins:{} — ledger starts empty").toBe(false)
   expect(virgin.persisted, "nothing persisted before play").toBe(false)
 
-  // ── commit 1: only TWO sheets since land (1 open/close + final Inspect) — no mint ──
+  // ── commit 1: only TWO video opens since land (1 Video viewer + final viewer open) — no mint ──
   const t1 = await transitionTech(page)
   expect(t1, "hand 1: a transition to research and commit").toBeTruthy()
   await openAndClose(page, t1, "hand 1, research open")
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.inspect(t1)
-  await page.locator("[data-go]").click()
+  await j.watchChoice(t1)
+  await j.pick(t1)
   const two = await snap(page, baseline)
-  expect(two.sheets, "commit 1: exactly two sheet_opened since land (close-only + final Inspect)").toBe(2)
+  expect(two.sheets, "commit 1: exactly two sheet_opened since land (close-only + final viewer open)").toBe(2)
   expect(two.commits, "commit 1: the commit beat landed").toBe(1)
-  expect(two.researchMints, "commit 1: two sheets is NOT research — zero mints").toBe(0)
+  expect(two.researchMints, "commit 1: two video opens is NOT research — zero mints").toBe(0)
   expect(two.liveCoin, "commit 1: coin ledger still empty").toBe(false)
   expect(two.persisted, "commit 1: nothing persisted").toBe(false)
   await j.nextHand()
 
-  // ── commit 2: THREE sheets since the new landing (2 open/close + final Inspect) — exactly one mint.
-  //    The counter demonstrably restarted: 2 stale sheets + 2 fresh opens would already be
-  //    past threshold BEFORE the final Inspect if anything had carried over. ──
+  // ── commit 2: THREE video opens since the new landing (2 viewer opens + final viewer open) — exactly one mint.
+  //    The counter demonstrably restarted: 2 stale video opens + 2 fresh opens would already be
+  //    past threshold BEFORE the final viewer open if anything had carried over. ──
   const t2 = await transitionTech(page)
   expect(t2, "hand 2: a transition to research and commit").toBeTruthy()
   await openAndClose(page, t2, "hand 2, research open 1")
-  await openAndClose(page, t2, "hand 2, research open 2") // SAME sheet again — raw events count
+  await openAndClose(page, t2, "hand 2, research open 2") // SAME page again — raw events count
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.inspect(t2)
-  await page.locator("[data-go]").click()
+  await j.watchChoice(t2)
+  await j.pick(t2)
   const minted = await snap(page, baseline)
   expect(minted.sheets, "commit 2: five sheet_opened cumulative (2 + 3 this landing)").toBe(5)
   expect(minted.commits, "commit 2: second commit landed").toBe(2)
-  expect(minted.researchMints, "commit 2: three sheets since land + commit = EXACTLY one mint").toBe(1)
+  expect(minted.researchMints, "commit 2: three video opens since land + commit = EXACTLY one mint").toBe(1)
   expect(minted.liveCoin, "commit 2: research-position sits in the live coin ledger").toBe(true)
   expect(minted.persisted, "commit 2: the mint reached the bjj-neural-progress blob's coins").toBe(true)
   await j.nextHand()
 
-  // ── commit 3: repeat the full three-sheet ritual on a later hand — the coin never re-mints ──
+  // ── commit 3: repeat the full three-open ritual on a later hand — the coin never re-mints ──
   const t3 = await transitionTech(page)
   expect(t3, "hand 3: a transition to research and commit").toBeTruthy()
   await openAndClose(page, t3, "hand 3, research open 1")
   await openAndClose(page, t3, "hand 3, research open 2")
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.inspect(t3)
-  await page.locator("[data-go]").click()
+  await j.watchChoice(t3)
+  await j.pick(t3)
   const after = await snap(page, baseline)
   expect(after.sheets, "commit 3: eight sheet_opened cumulative — opens still count").toBe(8)
   expect(after.commits, "commit 3: third commit landed").toBe(3)

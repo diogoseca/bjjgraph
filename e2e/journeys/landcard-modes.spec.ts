@@ -341,6 +341,10 @@ test("trackpad deltaX pages once per gesture; arrows never page a hidden or stud
   expect(count(await j.beats(), "land_q_paged") - count(b3, "land_q_paged"), "no paging a hidden card").toBe(0)
 })
 
+// STALE TIMING (v1.228.0): the integrated core read the beat before a cold
+// defender pool completed. The native-key trace records _landPageTo=true, then
+// _landWarmP, then page 1 and one beat. Await that published completion, never
+// the asserted beat count; the keyboard action and exact one-page claim stay.
 // ── 4. defense shares the deck controls ────────────────────────────────────────────────────────────
 test("the generic defending card pages its own deck with the same arrows", async ({ page }) => {
   const j = journey(page)
@@ -353,8 +357,16 @@ test("the generic defending card pages its own deck with the same arrows", async
   })
   await j.advance(300)
   await expect(page.locator('[data-landcard="defense"]'), "the panic card is up").toBeVisible()
+  // STALE TIMING (H46, 2026-10-21): the card's SHELL is visible one deck fetch before its question
+  // docks, and an arrow with no question pages nothing (correctly). Delaying that fetch 1.5s
+  // reproduced the red exactly (no question at the press, 0 pages, "1/5"); settling first paged
+  // once (probe H48). The press now waits for the question, as a premise.
+  await j.landSettled()
+  expect(await page.evaluate(() => { const a = (window as W).__neural; return { page: a._landPage, q: !!a._landEl?.querySelector("[data-land-q]") } }),
+    "premise: the defender's question is mounted at its first card").toEqual({ page: 0, q: true })
   const b0 = await j.beats()
   await page.keyboard.press("ArrowRight")
+  await j.landSettled()
   expect(count(await j.beats(), "land_q_paged") - count(b0, "land_q_paged"), "arrows page the defender deck").toBe(1)
 })
 
@@ -744,8 +756,10 @@ test("a staged technique's own card is the go — highlighted, then committed in
     }
   })
   expect(hl.staged, "the exchange is staged").toBe("Side Control to Mount")
-  expect(hl.eyebrow, "its card wears the commit verb").toBe("Execute")
-  expect(hl.accent, "…and the action accent").toContain("126, 160, 255")
+  // STALE SPEC (v1.230.0, feat/video-cards): a choice card carries no category eyebrow (video-cards:79), so the
+  // commit verb it wore is gone and the staged card's go is its action accent (_highlightStagedCard).
+  expect(hl.eyebrow, "the video card has no eyebrow to wear a verb").toBeUndefined()
+  expect(hl.accent, "its card wears the action accent").toContain("126, 160, 255")
   // committing THAT card runs the exchange IN PLACE — no travel back to the origin
   const path = await page.evaluate(() => {
     const a = (window as W).__neural

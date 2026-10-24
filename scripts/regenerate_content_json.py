@@ -40,7 +40,9 @@ if _repo_root not in sys.path:
     sys.path.insert(0, _repo_root)
 
 from scripts.validate_json import validate_json_file as _validate_json_file, load_schema, detect_position_template_type, detect_transition_template_type
-from scripts.claude_infer import call_claude as _infer_call_claude
+from scripts.claude_infer import (
+    call_claude as _infer_call_claude, ClaudeAuthAbort, ClaudeAuthenticationError, AUTH_DIAGNOSTIC,
+)
 from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
 from scripts._atomic_io import atomic_write_json
 from scripts._prob_norm import largest_remainder_round as _largest_remainder_round
@@ -1351,11 +1353,13 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
 # CLAUDE INTERACTION
 # =============================================================================
 
-def call_claude(prompt: str, response_schema: dict, timeout: int = 1800) -> Tuple[Optional[str], Optional[str]]:
+def call_claude(prompt: str, response_schema: dict, timeout: int = 1800,
+                auth_abort: Optional[ClaudeAuthAbort] = None) -> Tuple[Optional[str], Optional[str]]:
     """Structured Claude inference via the shared helper (scripts/claude_infer.py):
     read-only tools (explore but never write), a forced structured-output contract, and
     usage-limit backoff. Returns (structured_json_str, None) or (None, error)."""
-    return _infer_call_claude(prompt, response_schema, CLAUDE_MODEL, CLAUDE_EFFORT, timeout=timeout, log=tprint)
+    return _infer_call_claude(prompt, response_schema, CLAUDE_MODEL, CLAUDE_EFFORT,
+                             timeout=timeout, log=tprint, auth_abort=auth_abort)
 
 
 def extract_json_from_response(response: str) -> Tuple[Optional[dict], Optional[str]]:
@@ -1862,7 +1866,8 @@ def normalize_probabilities(data: dict, category: str) -> bool:
 
 
 def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = False,
-                 max_retries: int = 2, verbose: bool = False, label: str = "") -> dict:
+                 max_retries: int = 2, verbose: bool = False, label: str = "",
+                 auth_abort: Optional[ClaudeAuthAbort] = None) -> dict:
     """Process a single file with severity-aware validation loop.
 
     Returns:
@@ -1931,7 +1936,7 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
 
         # Call Claude
         tprint(f"{tag}Calling Claude ({CLAUDE_MODEL})...")
-        response, error = call_claude(prompt, response_schema)
+        response, error = call_claude(prompt, response_schema, auth_abort=auth_abort)
 
         if error:
             stats_append_error(f"{file_path.name}: {error}")
@@ -2317,26 +2322,39 @@ Domain-specific prompts:
         if args.parallel > 1 and args.batch:
             # Parallel processing with thread pool
             tprint(f"Processing with {args.parallel} parallel workers...\n")
+            auth_abort = ClaudeAuthAbort()
 
             def _worker(idx_path):
+                auth_abort.check()
                 idx, fp = idx_path
                 label = f"{idx+1}/{len(files)}"
                 tprint(f"\n[{label}] {fp.relative_to(CONTENT_PATH)}")
                 stats_inc("processed")
-                result = process_file(fp, refs, args.dry_run, args.max_retries, args.verbose, label=label)
+                result = process_file(fp, refs, args.dry_run, args.max_retries, args.verbose,
+                                      label=label, auth_abort=auth_abort)
                 return {"file": str(fp), **result}
 
             try:
                 with ThreadPoolExecutor(max_workers=args.parallel) as pool:
                     futures = {pool.submit(_worker, (i, fp)): i for i, fp in enumerate(files)}
-                    for future in as_completed(futures):
-                        try:
-                            run_summary["files"].append(future.result())
-                        except KeyboardInterrupt:
-                            raise
-                        except Exception as e:
-                            stats_inc("failed")
-                            stats_append_error(f"Worker exception: {e}")
+                    try:
+                        for future in as_completed(futures):
+                            try:
+                                run_summary["files"].append(future.result())
+                            except KeyboardInterrupt:
+                                raise
+                            except Exception as e:
+                                stats_inc("failed")
+                                stats_append_error(f"Worker exception: {e}")
+                    except ClaudeAuthenticationError:
+                        # Cancel queued files; let only already-started subprocesses
+                        # finish (bounded by their timeout). The shared signal blocks
+                        # every new call/retry and wakes backoff waits. The executor
+                        # joins workers before exit 2 escapes from this main thread.
+                        for future in futures:
+                            future.cancel()
+                        tprint(AUTH_DIAGNOSTIC)
+                        raise
             except KeyboardInterrupt:
                 tprint(f"\n\nInterrupted. Waiting for in-flight workers to finish...")
         else:

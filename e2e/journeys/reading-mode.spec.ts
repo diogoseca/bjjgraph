@@ -1,6 +1,20 @@
 import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
+// STALE TIMING — reading-back-race.md (fixbots, 2026-10-15): the unchanged
+// Back case failed 3/20 on dc72b958c, before escape, and 0/20 on f006d73b8.
+// Quartz remounts the app after the outgoing cached reader publishes its path;
+// the old path check and the next global state read could name different apps.
+// Holding HTML, then the new graph, reproduced it on both heads; all 6 traced
+// cases converged after the replacement reader became ready.
+// Observe real nav + replacement-reader publication, then assert that SAME
+// instance's state once. Intent and pause are never readiness predicates.
+// D-318 U6a replaces the perspective link with a native tap on the other half;
+// content, Back ordering, replacement identity and stopped-clock assertions stay.
+// D-338 (2026-10-20) retires Focus on reading, Browse and the View controls: the
+// m-series below that names them is history, not current coverage; the current
+// close/reopen and logo claims are migrated in place and listed in the PR body.
+
 /** Complete article journeys for #289. Published HTML is real; the DSL controls
  * gameplay only. Historical PRE-OWNERQ1 controls, 2026-10-09: 24 final variants
  * rejected by 44 assertion failures, with emitted-byte differentials checked.
@@ -51,13 +65,13 @@ const state = (page: Page) => page.evaluate(() => {
   const a = (window as any).__neural
   return { intent: !!a._readerIntent, interacting: !!a._reader?.interacting, paused: !!a.paused, position: a.currentPos, hand: (a._optList || []).length,
     deals: (a.beats || []).filter((b: any) => b.beat === "options_dealt").length,
-    question: !!a._landQ, staged: !!a._staged, focus: a.get("readingFocus", false),
+    question: !!a._landQ, staged: !!a._staged,
     misses: (a.beats || []).filter((b: any) => b.beat === "land_q_expired").length,
     pending: !!a._landPending, clock: a._decision?.remaining ?? null }
 })
 
 for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 }]) {
-  test(`@curated ${viewport.width}px complete article, Focus, every restore and reload`, async ({ page }) => {
+  test(`@curated ${viewport.width}px complete article, every close and reopen, and reload`, async ({ page }) => {
     await page.setViewportSize(viewport)
     await page.emulateMedia({ reducedMotion: "reduce" })
     const j = journey(page)
@@ -66,54 +80,64 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     await expect(page.locator(READY)).toBeVisible({ timeout: 20000 })
     await expect(page.locator("[data-land-more]")).toHaveCount(0)
     await expect(page.locator("[data-reader-body]")).toContainText("Training Progressions")
-    expect((await state(page)).intent).toBe(true)
-    const prose = await page.locator('[data-reader-body] [data-source-id="overview"] > p').first().evaluate(el => {
-      const r = el.getBoundingClientRect(), box = el.closest('[data-reader]')!.getBoundingClientRect()
-      const y = Math.max(r.top, box.top) + 12, x = r.left + 10
-      const hit = document.elementFromPoint(x, y)
-      return { text: el.textContent?.trim().length || 0, visible: getComputedStyle(el).visibility,
-        lineVisible: y + 8 < Math.min(r.bottom, box.bottom), hit: !!hit && el.contains(hit) }
-    })
-    expect(prose.text, "the immediate preview contains authored prose").toBeGreaterThan(80)
-    expect(prose, "a real prose line is visible before any disclosure click").toMatchObject({ visible: "visible", lineVisible: true, hit: true })
-    await j.clickByMouse("[data-reading-focus]", "one-click Focus on reading")
-    await expect.poll(() => state(page)).toMatchObject({ intent: true, paused: true, clock: null, focus: true, deals: 0 })
-    await expect(page.locator(READY)).toBeVisible()
-    for (const part of ["film", "card", "hand", "map", "feedback"]) {
-      await j.clickByMouse(`[data-layer-show="${part}"]`, `restore ${part}`)
-      await expect(page.locator(`[data-layer-hide="${part}"]`)).toBeVisible()
-      if (part === "map" || part === "feedback") expect(await page.evaluate(p => { const a = (window as any).__neural; return getComputedStyle(p === "map" ? a.canvas : a.evRef.current).visibility }, part)).toBe("visible")
-      expect((await state(page)).deals, "restoration never deals or starts play").toBe(0)
-      await j.clickByMouse(`[data-layer-hide="${part}"]`, `minimize ${part}`)
-      if (part === "map" || part === "feedback") expect(await page.evaluate(p => { const a = (window as any).__neural; return getComputedStyle(p === "map" ? a.canvas : a.evRef.current).visibility }, part)).toBe("hidden")
+    expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
+    await expect(page.locator('.ng-section-card').first()).toHaveAttribute('data-section-type', 'videos')
+    await expect(page.locator('[data-section-type=overview]')).toContainText('Knee Slice')
+    // RETIRED (D-338, owner: no View menu; Focus on reading and Browse removed). The Focus preset,
+    // its saved reload and the article view's Map, Feedback and Book toggles have no control left
+    // to press; their absence is the claim now, on both widths.
+    await expect(page.locator("[data-reading-focus],[data-reader-browse]")).toHaveCount(0)
+    for (const part of ["book", "map", "feedback", "film", "card", "hand"]) {
+      await expect(page.locator(`[data-layer-hide="${part}"],[data-layer-show="${part}"]`), `no View control offers ${part}`).toBeHidden()
     }
-    await j.clickByMouse('[data-layer-hide="book"]')
-    await expect(page.locator("[data-reader]")).toBeHidden()
-    await j.clickByMouse('[data-layer-show="book"]')
-    await expect(page.locator(READY)).toBeVisible()
-    await j.clickByMouse('[data-layer-show="map"]')
-    const geometry = await page.locator("[data-reader-part]").evaluateAll((nodes) => {
-      const boxes = nodes.map(n => n.getBoundingClientRect())
-      return { sizes: boxes.map(b => [b.width, b.height]), overlap: boxes.some((b, i) => boxes.some((c, k) => k > i && Math.min(b.right, c.right) > Math.max(b.left, c.left) && Math.min(b.bottom, c.bottom) > Math.max(b.top, c.top))) }
-    })
-    expect(geometry.overlap).toBe(false)
-    for (const [w, h] of geometry.sizes) { expect(w).toBeGreaterThanOrEqual(44); expect(h).toBeGreaterThanOrEqual(44) }
+    // STALE CONTRACT (D-338): each part closes with its own ✕ and reopens from the label it
+    // leaves (Videos from the label in its section's place). Neither deals nor starts play.
+    const close = { film: '[data-section-toggle="videos"]', card: '[data-land-close]', hand: '[data-hand-close]' } as Record<string, string>
+    const open = { film: '[data-section-toggle="videos"]', card: '[data-game-open="card"]', hand: '[data-game-open="hand"]' } as Record<string, string>
+    // STALE SPEC (D-368, layout C): Moves lead the flow, so reopening a part can scroll the tray out of view, and the
+    // hand's ✕ docks only beside a visible tray (_dockHandClose); its own last rectangle is stale while hidden. The
+    // tray is brought into view before its ✕ is pressed or looked for.
+    const tray = async () => { await page.evaluate(() => (window as any).__neural.optionsRef.current.scrollIntoView({ block: "nearest" })); await j.readerLayoutSettled(); await j.advance(40) }
+    const press = async (sel: string, what: string) => { if (sel === '[data-hand-close]') await tray(); await page.locator(sel).scrollIntoViewIfNeeded(); await j.readerLayoutSettled(); await j.clickByMouse(sel, what) }
+    // STALE SPEC (D-355, U11): where the index shows (1366), a closed part or section leaves no label or header in
+    // the content: its index row shows it closed and reopens it. Without the index (390) the label does.
+    const indexed = await page.locator('.ng-reader-toc').isVisible()
+    const row = { film: '[data-toc-type="videos"]', card: '[data-toc-type="card"]', hand: '[data-toc-type="hand"]' } as Record<string, string>
+    for (const part of ["film", "card", "hand"]) {
+      await press(close[part], `close ${part}`)
+      if (indexed) await expect(page.locator(row[part]), `a closed ${part} shows closed in the index`).toHaveAttribute("data-collapsed", "true")
+      else if (part === "film") await expect(page.locator(open.film)).toHaveAttribute("aria-expanded", "false")
+      else await expect(page.locator(open[part]), `a closed ${part} leaves its label`).toBeVisible()
+      expect((await state(page)).deals, "closing never deals or starts play").toBe(0)
+      if (indexed) {
+        await j.clickByMouse(`${row[part]} a`, `reopen ${part} from the index`)
+        await j.readerLayoutSettled()
+        // U11: the index row reopens the part AND brings it into view (its top inside the reader's scrollport)
+        if (part !== "film") expect(await page.evaluate(part => { const a = (window as any).__neural, el = part === "card" ? a._landEl : a.optionsRef.current
+          const b = el?.getBoundingClientRect(), v = a._reader.root.getBoundingClientRect(); return !!b && b.top >= v.top - 1 && b.top < v.bottom }, part), `the index row shows the reopened ${part}`).toBe(true)
+      }
+      else await press(open[part], `reopen ${part}`)
+      if (part === "film") await expect(page.locator(open.film)).toHaveAttribute("aria-expanded", "true")
+      else { await expect(page.locator(open[part])).toBeHidden(); if (part === "hand") await tray(); await expect(page.locator(close[part]).first()).toBeVisible() }
+      expect((await state(page)).deals, "reopening never deals or starts play").toBe(0)
+    }
+    await press(close.card, "close the question")
+    await press(close.hand, "close the moves")
+    // Closed parts are saved: a reload keeps both closed (their labels, or their index rows) and still deals nothing.
     await j.boot(KNEE, { preserveStorage: true })
     await j.advance(5000)
     await expect(page.locator(READY)).toBeVisible()
-    await expect(page.locator('[data-layer-hide="map"]')).toBeVisible()
-    for (const part of ["film", "card", "hand", "feedback"]) await expect(page.locator(`[data-layer-show="${part}"]`)).toBeVisible()
-    expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, focus: true, deals: 0 })
-    await page.locator('[data-layer-hide="book"]').focus()
+    for (const part of ["card", "hand"]) {
+      if (indexed) await expect(page.locator(row[part])).toHaveAttribute("data-collapsed", "true")
+      else await expect(page.locator(open[part])).toBeVisible()
+    }
+    expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
+    // The label (or the index link) is a real control: the keyboard reopens it too.
+    await page.locator(indexed ? `${row.card} a` : open.card).focus()
     await page.keyboard.press("Enter")
-    await expect(page.locator("[data-reader]")).toBeHidden()
-    await j.boot(KNEE, { preserveStorage: true })
-    await expect(page.locator('[data-layer-show="book"]')).toBeVisible()
-    await expect(page.locator("[data-reader]")).toBeHidden()
-    await page.locator('[data-layer-show="book"]').focus()
-    await page.keyboard.press("Enter")
-    await expect(page.locator(READY)).toBeVisible()
-    expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, focus: true, deals: 0 })
+    if (indexed) await expect(page.locator(row.card)).toHaveAttribute("data-collapsed", "false")
+    else await expect(page.locator(open.card)).toBeHidden()
+    expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
   })
 }
 
@@ -139,26 +163,100 @@ test("@curated reading interaction waits past the question window without a miss
   expect(await state(page), "article keys never activate or resume the game").toEqual(reading)
 })
 
-test("@curated reading perspectives and Back retain canonical content without gameplay", async ({ page }) => {
+async function observeReadingBack(page: Page) {
+  await page.evaluate(() => {
+    const w = window as any
+    const observation = w.__readingBack = { outgoing: w.__neural, outgoingRoot: w.__neural._readerEl, published: false, url: null }
+    document.addEventListener('nav', (event: any) => {
+      observation.published = true
+      observation.url = event.detail.url
+    }, { once: true })
+  })
+}
+
+async function replacementReadingSnapshot(page: Page) {
+  const ready = await page.waitForFunction(path => {
+    const w = window as any, nav = w.__readingBack, app = w.__neural, root = app?._readerEl
+    return nav?.published && '/' + nav.url === path && app !== nav.outgoing && !app?.__ngDestroyed &&
+      root?.isConnected && root === app._reader?.root && root.dataset.readerReady === 'true' && root.dataset.readerPath === path
+      ? { app, root } : false
+  }, KNEE, { timeout: 5000 }) // Same bound as the original toHaveAttribute assertion.
+  // Retain the app and root returned by readiness. A later global assignment
+  // cannot silently substitute a different generation in this single snapshot.
+  const snapshot = await ready.evaluate(({ app, root }: any) => ({
+    current: app === (window as any).__neural,
+    replacement: app !== (window as any).__readingBack.outgoing,
+    connected: root.isConnected && root === app._readerEl && root === app._reader.root,
+    path: root.dataset.readerPath, ready: root.dataset.readerReady,
+    intent: !!app._readerIntent, paused: app.paused, clock: app._decision?.remaining ?? null,
+  }))
+  await ready.dispose()
+  return snapshot
+}
+
+for (const forced of [false, true]) test("@curated reading perspectives and Back retain canonical content without gameplay" + (forced ? " with HTML then graph held" : ""), async ({ page }) => {
   const j = journey(page)
-  await j.boot(KNEE, { initialState: { v: 2, settings: { readingFocus: true }, settingsAt: { readingFocus: Date.now() } } })
+  // A Focus saved before D-338 stays in storage and is inert: nothing reads it or its overrides
+  // (§6.6), so the question and the moves it hid are shown as the game layers say.
+  const saved = { readingFocus: true, readingCard: false, readingHand: false }
+  await j.boot(KNEE, { initialState: { v: 2, settings: saved, settingsAt: Object.fromEntries(Object.keys(saved).map(k => [k, Date.now()])) } })
   await j.advance(5000)
   await expect(page.locator(READY)).toBeVisible()
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]')
+  await expect(page.locator('[data-landcard]'), 'a saved Focus no longer hides the question').toBeVisible()
+  for (const part of ['card', 'hand']) await expect(page.locator(`[data-game-open="${part}"]`), `no closed label for a shown ${part}`).toBeHidden()
+  // STALE SPEC (D-355, U11): where the index shows, a closed part leaves no label in the content and its index
+  // row carries the closed state, so a shown part's row is not collapsed (control d338-saved-focus-read).
+  if (await page.locator('.ng-reader-toc').isVisible()) for (const part of ['card', 'hand'])
+    await expect(page.locator(`[data-toc-type="${part}"]`), `the index shows the ${part} open`).not.toHaveAttribute('data-collapsed', 'true')
+  expect(await page.evaluate(() => (window as any).__neural._handShown()), 'a saved Focus no longer hides the moves').toBe(true)
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect(page).toHaveURL(/Knee-Slice-Pass\/Defender/)
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", KNEE + "/Defender")
-  await expect(page.locator('[data-reader-article="guide"]')).toContainText("Defender")
+  await expect(page.locator('[data-reader-body]')).toContainText("Defender")
   const missing = await page.evaluate(async path => {
     const doc = new DOMParser().parseFromString(await (await fetch(path)).text(), "text/html")
     const norm = (s: string) => s.replace(/\s+/g, " ").trim()
-    const text = norm(document.querySelector('[data-reader-article="guide"]')!.textContent || "")
+    const text = norm([...document.querySelectorAll('[data-reader-article="guide"]')].map(e => e.textContent).join(" "))
     return [...doc.querySelectorAll("article p,article li")].map(e => norm(e.textContent || "")).filter(s => s.length > 40 && !text.includes(s))
   }, KNEE + "/Defender")
   expect(missing, "navigation cannot reuse the previous page's HTML under a new path").toEqual([])
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
-  await page.goBack()
-  await expect(page.locator(READY)).toHaveAttribute("data-reader-path", KNEE)
-  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
+  let releaseHTML!: () => void, releaseGraph!: () => void, htmlRequests = 0, graphRequests = 0
+  if (forced) {
+    const html = new Promise<void>(resolve => { releaseHTML = resolve })
+    const graph = new Promise<void>(resolve => { releaseGraph = resolve })
+    // Install only after the perspective/content assertions. These are Back's
+    // actual Quartz HTML request and the replacement app's actual graph fetch.
+    // Match paths, including Back's original boot query/seed URL.
+    await page.route(url => url.pathname === KNEE, async route => { htmlRequests++; await html; await route.fallback() })
+    await page.route(url => url.pathname.endsWith('/graph-data.json'), async route => { graphRequests++; await graph; await route.fallback() })
+  }
+  await observeReadingBack(page)
+  try {
+    await page.goBack()
+    if (forced) {
+      await expect.poll(() => htmlRequests).toBe(1)
+      await page.waitForFunction(path => {
+        const w = window as any, old = w.__readingBack.outgoing, root = w.__readingBack.outgoingRoot
+        return w.__neural === old && root?.isConnected && root.dataset.readerReady === 'true' && root.dataset.readerPath === path
+      }, KNEE, { timeout: 5000 })
+      releaseHTML()
+      await expect.poll(() => graphRequests).toBe(1)
+      const loading = await page.evaluate(() => {
+        const w = window as any, app = w.__neural, oldRoot = w.__readingBack.outgoingRoot
+        return { nav: w.__readingBack.published, replacement: app !== w.__readingBack.outgoing,
+          oldPublished: oldRoot.dataset.readerReady === 'true' && oldRoot.dataset.readerPath === '/Transitions/Knee-Slice-Pass',
+          connected: !!app._readerEl?.isConnected, nodes: app.nodes?.length ?? 0 }
+      })
+      expect(loading, 'the outgoing article is not evidence that the replacement has loaded').toEqual({ nav: true, replacement: true, oldPublished: true, connected: false, nodes: 0 })
+      releaseGraph()
+    }
+    const restored = await replacementReadingSnapshot(page)
+    expect(restored).toMatchObject({ current: true, replacement: true, connected: true, path: KNEE, ready: 'true' })
+    expect(restored).toMatchObject({ intent: true, paused: true, clock: null })
+  } finally {
+    releaseHTML?.(); releaseGraph?.()
+  }
 })
 
 test("@curated an automatic game article follows the bottom player's perspective", async ({ page }) => {
@@ -169,7 +267,7 @@ test("@curated an automatic game article follows the bottom player's perspective
   await page.evaluate(() => { const a = (window as any).__neural; a.rollFromPosition(a.currentPos, true, "bottom") })
   await j.advance(5000)
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", "/Positions/Mount/Bottom")
-  await expect(page.locator('[data-reader-article="guide"]')).toHaveAttribute("data-source-path", "/Positions/Mount/Bottom")
+  expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(['/Positions/Mount/Bottom'])
   expect((await state(page)).intent).toBe(false)
 })
 
@@ -195,8 +293,13 @@ for (const action of ["wheel", "selection"] as const) {
     expect((await state(page)).clock).toBeGreaterThan(0)
     const before = await state(page)
     if (action === "wheel") {
-      const r = await page.locator("[data-reader]").boundingBox()
-      await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height - 12)
+      // D-338: the reader's bottom edge is now the question (game input), so the wheel goes over
+      // reading that is on screen at arrival: the Videos section's own text, first in the flow.
+      // STALE CONTRACT (D-368, layout C): nothing is lifted into the game; the Videos section opens the article,
+      // after the stage, and its text must be on screen at arrival for this wheel.
+      const r = await page.locator(".ng-reader-article [data-section-type=videos] .section-subtitle").first().boundingBox()
+      expect(r && r.y + r.height / 2 < 900, "premise: the Videos section's text is on screen at arrival").toBe(true)
+      await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height / 2)
       await page.mouse.wheel(0, 300)
       await expect(page.locator("[data-reader]")).toHaveAttribute("data-reading-expanded", "")
       // The first wheel expands the compact prose into authored document order.
@@ -204,7 +307,9 @@ for (const action of ["wheel", "selection"] as const) {
       await page.mouse.wheel(0, 300)
       await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBeGreaterThan(0)
     } else {
-      const r = await page.locator('[data-reader-body] [data-source-id="overview"] > p').first().boundingBox()
+      const p = page.locator('[data-reader-body] [data-source-id="overview"] > p').first()
+      await p.scrollIntoViewIfNeeded()
+      const r = await p.boundingBox()
       await page.mouse.move(r!.x + 2, r!.y + 12)
       await page.mouse.down()
       await page.mouse.move(r!.x + Math.min(r!.width - 2, 90), r!.y + 12, { steps: 10 })
@@ -217,14 +322,25 @@ for (const action of ["wheel", "selection"] as const) {
   })
 }
 
-test("@curated Browse and linked content keep reading intent through positions, techniques and principles", async ({ page }) => {
+// STALE CONTRACT (D-338): Browse is gone; the logo opens the same pane, and its Explore tab is
+// one press away. Saved Focus is no longer read, so the seed carries only the Feedback layer.
+async function explore(page: Page, j: ReturnType<typeof journey>) {
+  await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
+  await j.clickByMouse(".ng-logo", "the logo opens the pane, as Browse did")
+  if (await page.evaluate(() => (window as any).__neural._viewMode !== "explore")) await j.clickByMouse('[data-view="explore"]', "the Explore tab")
+}
+test("@curated the logo and linked content keep reading intent through positions, techniques and principles", async ({ page }) => {
   const j = journey(page)
-  await j.boot(KNEE, { initialState: { v: 2, settings: { readingFocus: true, readingFeedback: false }, settingsAt: {} } })
+  await j.boot(KNEE, { initialState: { v: 2, settings: { landFeedback: false }, settingsAt: {} } })
   await expect(page.locator(READY)).toBeVisible()
-  await j.clickByMouse("[data-reader-browse]")
+  await explore(page, j)
   await page.locator(".ng-explorer-search input").fill("Mount")
   const star = page.locator('[data-list-surface="explore"][data-list-add="Positions/Mount"]')
   await expect(star).toHaveCount(1)
+  // A coordinate click waits for the app's own alias-loading row to retire: results reorder as the
+  // aliases index lands (the D-325 race, pinned on its own by reading-browse-hydration.spec.ts). The
+  // logo's extra tab press moved this journey into that window; its claim is reading intent.
+  await expect(page.locator('[data-alias-status="loading"]')).toHaveCount(0)
   await j.clickByMouse('div:has(> [data-list-surface="explore"][data-list-add="Positions/Mount"]) > button:first-child', "read the Mount search result")
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", /\/Positions\/Mount(?:\/Top)?$/)
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
@@ -235,7 +351,7 @@ test("@curated Browse and linked content keep reading intent through positions, 
   await j.clickByMouse("[data-reading-link]", "a linked technique")
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", decodeURI(url.pathname))
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
-  await j.clickByMouse("[data-reader-browse]")
+  await explore(page, j)
   await page.locator(".ng-explorer-search input").fill("")
   const section = page.locator('[data-explore-section="Principles"]')
   if (await section.getAttribute("aria-expanded") !== "true") await j.clickByMouse('[data-explore-section="Principles"]')
@@ -246,11 +362,16 @@ test("@curated Browse and linked content keep reading intent through positions, 
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
 })
 
-test("@curated heading links focus the cloned article and a restored question starts play with Book minimized", async ({ page }) => {
+// STALE CONTRACT (D-338): the article can no longer be minimized from the article view, and saved
+// Focus is not read. The question starts closed through its own saved layer and reopens from its
+// label in the article; answering it still starts play, the claim this journey keeps.
+test("@curated heading links focus the cloned article and a reopened question starts play", async ({ page }) => {
   const j = journey(page)
-  await j.boot(KNEE, { initialState: { v: 2, settings: { readingFocus: true, readingFilm: false, readingCard: false, readingHand: false, readingFeedback: false }, settingsAt: {} } })
+  await j.boot(KNEE, { initialState: { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} } })
   await expect(page.locator(READY)).toBeVisible()
-  const heading = page.locator('[data-reader-target]').first()
+  // Canonical authored fragment links remain valid after semantic regrouping.
+  await page.evaluate(() => { const a = document.createElement('a'); a.href = '/Transitions/Knee-Slice-Pass#key-principles'; a.dataset.readerAnchor = 'key-principles'; a.dataset.testSourceAnchor = ''; a.textContent = 'Principles'; document.querySelector('[data-reader-body]')!.prepend(a) })
+  const heading = page.locator('[data-test-source-anchor]')
   await heading.focus()
   await page.keyboard.press("Enter")
   expect(await page.evaluate(() => document.activeElement?.closest('[data-reader]') != null)).toBe(true)
@@ -258,43 +379,27 @@ test("@curated heading links focus the cloned article and a restored question st
   const hash = new URL(page.url()).hash
   await j.boot(KNEE + hash, { preserveStorage: true })
   await expect(page.locator(READY)).toBeVisible()
-  expect(await page.evaluate(() => (document.activeElement as HTMLElement)?.dataset.sourceId)).toBe(decodeURIComponent(hash.slice(1)))
-  await j.clickByMouse('[data-layer-hide="book"]')
-  await j.clickByMouse('[data-layer-show="card"]')
+  expect(await page.evaluate(() => document.activeElement?.closest('[data-section-type]')?.getAttribute('data-section-type'))).toBe('principles')
+  // STALE SPEC (D-355, U11): where the index shows, the closed question's index row reopens it.
+  if (await page.locator('.ng-reader-toc').isVisible()) await j.clickByMouse('[data-toc-type="card"] a', 'reopen the question from its index row')
+  else {
+    await page.locator('[data-game-open="card"]').scrollIntoViewIfNeeded()
+    await j.readerLayoutSettled()
+    await j.clickByMouse('[data-game-open="card"]', 'reopen the question from its label')
+  }
   await expect(page.locator('[data-reader-practice-offer]')).toHaveCount(0)
   const q = await j.landQuestion()
   expect(q).not.toBeNull()
   await j.advance(20000)
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
-  await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, 'answer the restored question directly')
-  await expect.poll(() => state(page)).toMatchObject({ intent: false, focus: false })
+  await page.locator(`[data-land-mc-opt="${q!.correct}"]`).scrollIntoViewIfNeeded()
+  await j.readerLayoutSettled()
+  await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, 'answer the reopened question directly')
+  await expect.poll(() => state(page)).toMatchObject({ intent: false })
   await j.advance(1000)
   expect((await state(page)).hand).toBeGreaterThan(0)
 })
 
-test("@curated reading videos have one explicit owner and stop when Videos or Book is hidden", async ({ page }) => {
-  const j = journey(page)
-  await page.route(/youtube(?:-nocookie)?\.com\/embed\//, route => route.fulfill({ contentType: "text/html", body: "<title>Video fixture</title>" }))
-  await j.boot(KNEE, { initialState: { v: 2, settings: { readingFocus: true, readingFilm: false }, settingsAt: {} } })
-  await expect(page.locator(READY)).toBeVisible()
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  await j.clickByMouse('[data-layer-show="film"]')
-  const play = page.locator('[data-reader-video]').first()
-  await play.scrollIntoViewIfNeeded()
-  await play.evaluate(el => el.setAttribute("data-reading-play", ""))
-  await j.clickByMouse('[data-reading-play]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(1)
-  await expect(page.locator('[data-land-film] iframe')).toHaveCount(0)
-  await j.clickByMouse('[data-layer-hide="film"]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  await j.clickByMouse('[data-layer-show="film"]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  await page.locator('[data-reading-play]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-reading-play]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(1)
-  await j.clickByMouse('[data-layer-hide="book"]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  await j.clickByMouse('[data-layer-show="book"]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
-})
+// The former independent article iframe owner is retired by the approved one-host
+// seam. reading-media-placement.spec.ts covers identity, playback, collapse and
+// quiet fallback; article-sections.spec.ts covers the persisted Videos control.

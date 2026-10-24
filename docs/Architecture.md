@@ -333,10 +333,10 @@ Lazy loading has behavioral consequences:
 requests it only after the real hand mounts; content arrivals prepare dormant controls in
 reading intent. `reading.css` is deferred and must finish loading before measuring the shelf or docking
 game controls. Both remain excluded from the game first-hand request window.
-The eager bridge reserves the preview's cold footprint and measures existing bottom chrome;
-the loaded reader replaces that forecast with its measured shelf. This keeps the first camera
-target stable. Short landscape uses the quiz's left column for its compact article preview and
-keeps the hand and films in the right column. Reading expands into the available article area.
+The eager `_readerBand()` reserves the same node band used by the loaded reader before a deck
+or article arrives: 144px, 186px on phones (D-349), 64px on short landscape screens. This keeps the first
+camera target stable. Once loaded, the reader owns one native scrollport containing the existing game
+controls followed by semantic article sections. Layout responds to the available pane width.
 
 The complete published Quartz `<article>` is the reading source. The original hidden article
 is cached under `body.dataset.slug`, never the address after `_pushUrl`. Other pages fetch their
@@ -347,9 +347,110 @@ old page or role from replacing a newer navigation. Errors remain retryable.
 
 Cloned ids are unique and preserve their source ids for heading links. Relative links and media
 resolve against each source page, with internal links and Back staying in reading intent.
-Modified clicks and external links retain browser behavior. Published video frames become
-explicit Play controls; hiding Videos or Book removes a playing frame, and article playback
-retires the game film strip. Every authored credit and source link remains.
+Modified clicks and external links retain browser behavior.
+Changing role through the current node's other half uses the same article owner: canonical
+history, reading intent and the stopped clock survive; other map navigation keeps its existing owner.
+The already-filtered source DOM is grouped into semantic section cards; each fragment retains its source path and anchors. Unknown
+authored sections survive in source order. The deferred settings UI imports the reader's semantic
+type registry on Settings intent, without installing a reader or bundling another copy. Each
+visibility setting is its own `readerSection.*` scalar.
+
+Contents is a fixed sibling of the reader scrollport, in ambient state at z:6. The article's
+680px maximum width and available-pane centre never depend on it. Its right inset is measured
+from the account control (24px fallback); the 200px TOC appears only when the measured gutter
+also leaves 12px to the article. That is 1152px with the pane closed; a narrower free pane can
+hide it earlier. Phones and short landscape screens close and reopen sections on the sections
+themselves. The transparent labels use a one-pixel dark text halo against graph highlights, in both
+page themes. There is no panel, background, border, box shadow or eye (D-338). Inline pointer events
+and `attachInput`'s explicit `_readerTocEl` early return protect real mouse clicks; TOC scrolling
+and keys own their input. Navigation/loading, Book hiding and teardown also hide/remove the TOC.
+Its heading reads role first, then technique and origin, as one phrase (D-338). Videos, Moves and
+Questions have index entries but no header: each closes with its own ✕ and a closed one leaves a
+light label that reopens it. Their existing game preferences remain the source of visibility;
+the section controller never reconstructs a hand or grades a question. Where the index fits, the
+Moves tray is symmetric about the column and ends 12px short of it, so a big hand scrolls. The bottom shelf is
+hidden with Book shown and remains the restore path with Book off.
+
+D-318 U4a replaces the former TOC gutter correction: `rollCamTarget` centres the node and label
+in the reserved top band, using `pairMid`/`_LY` and measured text width. Native scrolling moves
+sections over the stationary node. No reader wrapper modifies the camera's pane transform;
+manual exploration, execution and leased subjects retain their ownership. The journey measures
+drawn labels and both orbs across desktop, tablet and phone widths, then proves prose occlusion;
+its control restores the former gutter correction. Link colour inherits the row immediately (including
+hover), keeping a collapsed row's label grey despite the site's anchor styles.
+
+During execution only, `executionCameraTarget` passes its chosen subject and target to the
+loaded reader's `frameExecution`. A card scrolled to the top can leave no vertical space above
+it. The reader selects the nearest clear placement of the whole pair/name against measured
+visible rectangles, clipped to the native scrollport. It keeps the above-card bound when that
+band exists, the current zoom and pane stamp, and the clicked card's rectangle within 2px.
+The existing camera integrator owns the flight; real input and focus leases still release it.
+Browser checks read actual `fillText` paint and the shared drawn silhouettes, rather than
+reconstructing a label renderer. The execution correction never runs for D-318 idle arrival.
+
+There is one media host: `app._landFilmEl`, including its existing row and handlers. Reader
+`place(target)` moves it between `[data-reader-media-slot]` in the first section and
+`[data-land-media-slot]` in the game scrollport. Native `moveBefore` preserves playback. Its
+fallback calls `app.pauseLandFilm()` before `appendChild`, then `_landFilmMoved()` invalidates
+the old player handles and callback generations. The same iframe is navigated to `about:blank`
+so its old autoplay URL cannot restart on reload. Only a deliberate normal play binds a fresh
+player. Section collapse calls the same pause seam and hides/inerts the body without destroying
+the player. Published iframe copies do not instantiate another player; every credit and source
+link remains. Seatless Principle, Learning and System pages supply their published video IDs
+to `_renderLandFilm(clips, referencePath)`; the canonical path owns that same host without a
+landing index, question or hand. Navigation retires the old reference host; playing another
+clip uses the owner's existing single-player teardown. Reference playback awards no gameplay
+film beat. `reading-media-placement.spec.ts` is the shared placement/playback contract.
+
+**Fixed chrome docks off a measurement**, never a CSS constant — the tray has no fixed height and
+grows upward as names wrap. `_landDatum` is the shared hand measurement; `_dockLandCard`,
+`_dockLandFilm` place the game surfaces from it before the reader takes ownership. The loaded
+reader puts the actual card, hand, and normal media home in one native scrollport. The media home
+is beside practice on wide desktop panes and above practice on narrow screens. Its width is set
+before reading `currentFilmHeight()` (or the host rectangle until available). Desktop uses
+400px media beside a 390px practice face with a 60px gap; that gap houses the existing 44px
+Previous arrow with its 8px clearance, and 52px is reserved after the face for Next. At 390px,
+media is 358px and the deck face keeps its viewport-minus-104 width (286px), stacked 12px below
+media. The arrows stay outside the face. The desktop pair stacks when its 902px footprint cannot fit.
+Layout is coalesced to one animation frame and writes changed geometry only; fixed docking writers leave
+both media slots alone. The article and shelf share this sole layout writer; fixed replay keeps
+its existing writer. New Book-view questions carry `data-reader-pending`: they cannot paint,
+take input or arm their clock until layout publishes their final rectangle. A completed card
+can publish synchronously through `_dockLandCard`; later observer work remains coalesced. A
+reader-load failure releases the pending card to its fixed fallback. Adoption also names each new
+card and hand element for its header's `aria-controls`; a late backfill cannot leave a stale target.
+An eager pointer latch covers game presses before the reader loads. Adoption
+and layout defer during that press, then resume on the animation frame after release and its native
+click, so a late layout cannot move an answer away from the pointer. The execution card's `_ngDock.reader` carries measured `{rowTop, height, rowHeight}`
+for the native flow, replacing the old fixed preview's `{height, push}`. The shared `_executionDock()`
+gates that reservation through result display and releases it on arrival, resize or reading;
+`_landDatum()` still serves fixed callers. The native row has one top-position writer and never
+receives a competing bottom write. Adoption during an existing execution translates its fixed
+rectangle into the same flow coordinates. Optional `app.readerChromeFrame(headEl)` lets chrome position the existing
+reader head and return `{headBottom, offset, bottomReserve?}`. Its measured bottom replaces the
+reader's own top (`max(68, logo.bottom + 12)`); the node band and intra-flow gaps are unchanged.
+With Book shown, the band stays reserved and long controls scroll. Under it the flow stacks
+Videos (the lifted Videos section, or the film's game home without one), Moves, then Questions
+(D-338); a closed part keeps its place as its label, and the card below an escape's handoff
+stays put with the row (`rowHeight`). Game pages carry no toolbar since D-338 removed Focus and
+Browse: the head is bare (`data-bare`), so only its 6px gap stays in the flow. With Book off the
+existing fit clamp remains authoritative. Optional
+`bottomReserve` is the whole viewport-bottom exclusion:
+live shelf height, `_readerShelfBottom(rect)` clearance and the 8px shelf-to-flow gap. When present,
+the flow end is `innerHeight - bottomReserve`. Otherwise it is `dock.top - 8` with the shelf
+shown, or `innerHeight - _readerShelfBottom(columnRect) - 8` with it hidden.
+With no hook or a null/undefined return, the whole head stays in flow above Videos, or above
+the first prose section on reference pages. The removed role switch has no home in chrome.
+Reference titles remain in flow. Layout preserves Inspect's horizontal row animation;
+the game wrapper clips horizontal overflow so browser focus cannot scroll the entire reader sideways.
+The reader measures its shelf (the hand ✕ docks inside
+the row beside its last card; the film ✕ off the last thumbnail). `_bandMemo` keeps the tightest
+observed play band.
+
+Game Home/End/Page keys scroll the question; article focus keeps native document keys. Paging
+resets the game scroll without rebuilding the question. Input ownership uses the event's original
+path: paging can detach its target before the event bubbles through the reader. The node band
+also remains reserved when videos are the only visible game surface.
 
 The article has native text selection, scrolling and keyboard focus. Real reading interaction
 declines a timed question without a miss; automatically rendering it does not pause gameplay.
@@ -369,6 +470,11 @@ not content fingerprints: HTTP caching remains four hours fresh plus one day sta
 and readers tolerate older additive shapes. The alias URL includes the app version; valid success
 is cached and concurrent requests share a promise. Transport/shape failures remain retryable with
 a bounded automatic attempt sequence and an explicit Retry action.
+Late Explore payloads defer repaint while a pointer hovers over the results list;
+pointer leave releases the refresh through `_afterPress`, preserving an active press
+until its click is delivered. Loading rows and new alias matches cannot move a waiting
+click target. Typing still renders immediately; alias refreshes check their original
+surface is connected and active before refreshing.
 
 On-demand does not imply free startup bytes. The browser's first-hand gate charges every request
 started before the hand, including the current state's dossier. Alias data is explicitly deferred;

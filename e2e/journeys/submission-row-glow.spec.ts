@@ -103,7 +103,7 @@ test("an opponent escape's Odds is its submission's own complement, not a consta
     await attack(page, url)
     const r = await read()
     expect(r.odds.length, url + ": the opponent's escapes are dealt as threats").toBeGreaterThanOrEqual(2)
-    for (const o of r.odds) expect(o, url).toEqual({ label: "Odds", odds: `${100 - r.rate}%` })
+    for (const o of r.odds) expect(o, url).toEqual({ label: "Escape", odds: `${100 - r.rate}` })
     seen[url] = 100 - r.rate
   }
   // two authored rates, two printed numbers: a constant would print one

@@ -3,7 +3,7 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { spawnSync } from 'node:child_process'
 
-for (const suite of ['bot_queue_test.py', 'bot_aoki_test.py', 'bot_workflows_test.py']) {
+for (const suite of ['bot_queue_test.py', 'bot_aoki_test.py', 'bot_workflows_test.py', 'claude_infer_test.py', 'claude_batch_test.py']) {
   test(suite, () => {
     const result = spawnSync('python3', ['-B', `tests/${suite}`], { encoding: 'utf8' })
     assert.equal(result.status, 0, `${result.stdout}\n${result.stderr}`)

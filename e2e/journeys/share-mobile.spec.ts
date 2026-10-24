@@ -337,61 +337,23 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
     `the hand is techniques, not positions (${JSON.stringify(hand.map((h: any) => h.ty))})`,
   ).toBe(true);
 
-  // ── WHERE THE CAPTURE LIVES NOW (v1.101.1) ──────────────────────────────────────────────────
-  // Option cards lost their own `+`: a 150px card on a running clock is a CHOICE, and eight
-  // copies of one control is clutter the owner asked to be rid of. The capability this journey
-  // guards is unchanged — a coach takes a note on a TECHNIQUE, mid-roll, with a real tap, and it
-  // must not commit the move. Inspect opens the sheet; tapping the card body executes it.
-  await expect(
-    page.locator('[data-list-add][data-list-surface="option"]'),
-    "no per-card capture on the hand any more",
-  ).toHaveCount(0);
-
-  // Tap Inspect at its real touch coordinates without scrolling or invoking an app method.
-  const inspect = await reach(page, `[data-tech="${hand[0].name}"] [data-choice-inspect]`);
-  expect(inspect.found, "the first technique has an Inspect control").toBe(true);
-  expect(inspect.visible, "Inspect is visibly available on the phone").toBe(true);
-  expect(inspect.inViewport, `Inspect is reachable (${JSON.stringify(inspect)})`).toBe(true);
-  expect(inspect.hit, "the thumb reaches Inspect itself").toBe("the control");
-  await page.touchscreen.tap(inspect.x, inspect.y);
-
-  // the sheet animates open over ~420ms — poll for the control, don't guess
-  let sheetAdd = await reach(page, '[data-list-add][data-list-surface="sheet"]');
-  for (let i = 0; i < 25 && !(sheetAdd.inViewport && sheetAdd.hit === "the control"); i++) {
-    await page.waitForTimeout(100);
-    sheetAdd = await reach(page, '[data-list-add][data-list-surface="sheet"]');
-  }
-  expect(sheetAdd.found, "the technique sheet can capture the technique it is describing").toBe(true);
-  expect(sheetAdd.inViewport, `and it is reachable (${JSON.stringify(sheetAdd)})`).toBe(true);
-  expect(sheetAdd.hit, "with nothing on top of it").toBe("the control");
-  expect(
-    Math.min(sheetAdd.w, sheetAdd.h),
-    `a full-width sheet has room for a real thumb target (got ${sheetAdd.w}x${sheetAdd.h})`,
-  ).toBeGreaterThanOrEqual(44);
-  // v1.102.1: the capture is the compact corner glyph beside the ✕, not a labelled footer button
-  // (owner's call) — so the WORDS live in the accessible name, which is the thing a screen reader
-  // and a long-press actually read. A `title` alone would not do: this is a device with no hover.
-  expect(
-    await page.locator('[data-list-add][data-list-surface="sheet"]').getAttribute("aria-label"),
-    "and every capture carries a real accessible name, not a title attribute",
-  ).toMatch(/add to a list/i);   // v1.113.5: "class list" -> "a list" (owner)
-
-  const targetId = await page.evaluate(
-    () =>
-      (
-        document.querySelector('[data-list-add][data-list-surface="sheet"]') as HTMLElement
-      ).getAttribute("data-list-add")!,
-  );
-
-  // THE PROOF: a real trusted touch tap at those coordinates. No locator.click (it scrolls into
-  // view first), no window.__neural.
-  // RE-MEASURE immediately before the tap. The capture moved into the sheet's header corner in
-  // v1.102.1, and the sheet slides on a real-time transition — coordinates taken while it was
-  // still settling point at where the control WAS.
-  await page.waitForTimeout(400);
-  const finalAim = await reach(page, '[data-list-add][data-list-surface="sheet"]');
-  expect(finalAim.hit, "the corner capture is what a thumb finds there").toBe("the control");
-  await page.touchscreen.tap(finalAim.x, finalAim.y);
+  // v1.230.0 retires the v1.218.1/v1.220.0 Inspect sheet. Capture remains available
+  // through Explore: the same technique, real touch, and no move committed.
+  await expect(page.locator('[data-list-add][data-list-surface="option"]')).toHaveCount(0);
+  await page.keyboard.press('/');
+  const search = page.locator('.ng-explorer input').first();
+  await search.fill(hand[0].name);
+  const selector = `[data-list-add="${hand[0].id}"][data-list-surface="explore"]`;
+  const capture = page.locator(selector).first();
+  await capture.scrollIntoViewIfNeeded();
+  const aim = await reach(page, selector);
+  expect(aim.found).toBe(true);
+  expect(aim.visible).toBe(true);
+  expect(aim.inViewport).toBe(true);
+  expect(aim.hit).toBe("the control");
+  await expect(capture).toHaveAttribute('aria-label', /add to a list/i);
+  const targetId = await capture.getAttribute('data-list-add');
+  await page.touchscreen.tap(aim.x, aim.y);
 
   // v1.101.9: the capture ASKS — it never files into a list the coach did not choose. On a fresh
   // profile there is no list yet, so the picker opens straight into the name field; naming it is
@@ -415,7 +377,7 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
       committed: (a.beats || []).filter((b: any) => b.beat === "commit").length,
     };
   });
-  expect(after.items, "the picked list holds the TECHNIQUE the sheet is about").toEqual([targetId]);
+  expect(after.items, "the picked list holds the selected TECHNIQUE").toEqual([targetId]);
   expect(
     after.types,
     `…and what got captured is a TECHNIQUE, not the position the coach happened to be in ` +

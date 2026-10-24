@@ -45,7 +45,7 @@ class Element {
   scrollTo({left}) { this.scrollLeft = left; }
 }
 function fromParsed(n) { const e = new Element(n.tagName || "#text"); if (n.nodeName === "#text") e._text = n.value; for (const a of n.attrs || []) e.setAttribute(a.name,a.value); for (const c of n.childNodes || []) e.appendChild(fromParsed(c)); return e; }
-const document = { activeElement: null, createElement: tag => new Element(tag), removeEventListener(){} };
+const document = { activeElement: null, createElement: tag => new Element(tag), createTextNode: text => Object.assign(new Element("#text"), { _text: text }), removeEventListener(){} };
 const window = { removeEventListener(){} };
 globalThis.document = document; globalThis.window = window;
 const Component = new Function("DCLogic","React","NG_SETTINGS_UI_BUILD", source + "\nreturn Component;")(class {}, {createRef:()=>({current:null})}, build);
@@ -61,6 +61,8 @@ function fixture() {
     _saveProgress:()=>calls.saved++, _gameValueChanged:r=>calls.changed.push(r), _rebuildRulesetMask:()=>{},
     _applyLayers:()=>calls.layers++, fx:()=>{}, track:(event,p)=>calls.events.push({event,p}),
     _fetchSettingsPresentation:attempt=>{calls.loads.push(attempt);return Promise.resolve(runtime);},
+    // The real deferred registry import executes without constructing a reader.
+    _appAsset:()=>new URL("../neural/src/reader.src.js?v=unit",import.meta.url).href,
   });
   return {app,card,modal,calls};
 }
@@ -88,7 +90,7 @@ test("load failure has real Retry; explicit retry uses fresh attempt and real co
   assert.equal(await app.openSettings("flashcards"),false);
   assert.equal(card.querySelector("[data-settings-load]").getAttribute("data-settings-load"),"error");
   assert.match(card.textContent,/could not load/); assert.equal(card.querySelector('[role="tabpanel"]'),null);
-  card.querySelector("[data-settings-retry]").click(); await flush();
+  card.querySelector("[data-settings-retry]").click(); await app._settingsIntent.pending;
   assert.deepEqual(calls.loads,[1,2]); assert.ok(card.querySelector('[role="tabpanel"]'));
   const goal = card.querySelectorAll("input").find(e=>e.type === "number"); goal.value="999"; goal.fire("change");
   assert.equal(app.get("dailyGoal",30),200); assert.equal(goal.value,200); assert.equal(calls.saved,1);
@@ -128,11 +130,11 @@ test("latest Settings tab intent wins shared import; dismissed error Retry is in
 });
 
 test("installer rejects wrong build without changing target; app offers retry", async () => {
-  const target={}; assert.throws(()=>runtime.ngInstallSettingsPresentation(target,{expectedBuild:"other"}),/version mismatch/); assert.deepEqual(target,{});
+  const target={}; await assert.rejects(runtime.ngInstallSettingsPresentation(target,{expectedBuild:"other"}),/version mismatch/); assert.deepEqual(target,{});
   const {app,card}=fixture(); const wrong=await import("data:text/javascript;base64,"+Buffer.from('const NG_SETTINGS_UI_BUILD="old-build";\n'+moduleSource).toString("base64"));
   app._fetchSettingsPresentation=()=>Promise.resolve(wrong); assert.equal(await app.openSettings(),false);
   assert.equal(app._renderSettingsPresentation,undefined); assert.ok(card.querySelector("[data-settings-retry]"));
-  app._fetchSettingsPresentation=()=>Promise.resolve(runtime); card.querySelector("[data-settings-retry]").click(); await flush(); assert.ok(card.querySelector('[role="tabpanel"]'));
+  app._fetchSettingsPresentation=()=>Promise.resolve(runtime); card.querySelector("[data-settings-retry]").click(); await app._settingsIntent.pending; assert.ok(card.querySelector('[role="tabpanel"]'));
 });
 
 test("unchanged real controls retain settings keys, effects, direct tabs and keyboard focus; the loss-aversion row is retired", async () => {

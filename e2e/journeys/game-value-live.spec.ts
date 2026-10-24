@@ -8,6 +8,9 @@ let sharedCore: SharedCoreArtifact
 // Actual app, real graph/metadata, real classic Worker and production solver.
 // Only the pre-existing RNG draw pin and external-font isolation are used.
 // Controlled consumer fixtures live separately in choice-value.spec.ts.
+// D-318 / v1.231.0: percent units live in the stat heading, the recommendation
+// badge is a sibling of the move button, and Inspect is retired. Keep the
+// worker, exact displayed-value equality, study and usable-move claims intact.
 test.beforeAll(async ({ request }) => {
   sharedCore = await verifySharedCoreArtifact(request)
   for (const file of ['neural.js', 'neural.css', 'game-values.js', 'game-model.worker.js', 'choice-values.js']) {
@@ -60,7 +63,8 @@ for (const width of [1440, 390]) {
     const own = page.locator('[data-choice-group="you"]')
     const displayed = await own.locator('[data-choice-win]').allTextContents()
     expect(displayed.length).toBe(receipt.ids.length)
-    expect(displayed.every(value => value !== '—' && /%/.test(value))).toBe(true)
+    expect(displayed.every(value => value !== '—' && !/%/.test(value))).toBe(true)
+    await expect(own.locator('.ng-choice-stat:last-child > span')).toHaveText(displayed.map(() => 'Win %'))
     // V(s) ON THE LEGEND (owner, 2026-09-29): the Win/Lose label prints this decision's own win
     // chance, and the suggested card (the root's selected action) prints the same number. Both read
     // off the DOM the player sees. Mutant, recorded 2026-09-29: looking the label up inside the
@@ -69,12 +73,12 @@ for (const width of [1440, 390]) {
     const legend = await page.locator('[data-legend-win]').getAttribute('data-win-chance')
     expect(legend, 'the legend prints V(s)').toMatch(/%/)
     await expect(page.locator('[data-legend-win]')).toHaveText('Win ' + legend)
-    const suggested = await own.locator('[data-choice-execute]').evaluateAll(cards => cards
+    const suggested = await own.locator('[data-tech]').evaluateAll(cards => cards
       .filter(card => (card.querySelector('[data-choice-recommended]')?.textContent || '') !== '')
       .map(card => card.querySelector('[data-choice-win]')?.textContent))
-    expect(suggested, 'exactly one suggested card, printing V(s)').toEqual([legend])
-    await expect(own.locator('[data-choice-value-status]')).toHaveText('This roll · your practice')
-    await expect(own.locator('[data-choice-inspect]').first()).toBeEnabled()
+    expect(suggested, 'exactly one suggested card, printing V(s) under the percent heading').toEqual([legend!.replace(/%/g, '')])
+    await expect(own.locator('[data-choice-value-status]')).toBeEmpty()
+    await expect(own.locator('[data-choice-execute]').first()).toBeEnabled()
     expect(errors).toEqual([])
     writeFileSync(info.outputPath('actual-game-value-receipt.json'), JSON.stringify(receipt, null, 2))
     console.log('[real-values-timing]', JSON.stringify({ width, handToValuesMs: receipt.firstValues - receipt.firstHand, activationToValuesMs: receipt.firstValues - receipt.activation }))
@@ -115,7 +119,7 @@ for (const width of [1440, 390]) {
     await expect.poll(() => page.evaluate(() => (window as any).__neural._gameValueReason)).toBe('live-graph-mismatch')
     await expect(own.locator('[data-choice-value-status]')).toHaveText('Win chance unavailable')
     expect((await own.locator('[data-choice-win]').allTextContents()).every(value => value === '—')).toBe(true)
-    await expect(own.locator('[data-choice-inspect]').first()).toBeEnabled()
+    await expect(own.locator('[data-choice-execute]').first()).toBeEnabled()
     await expect(own.locator('[data-choice-value-retry]')).toBeHidden()
   })
 }
@@ -168,10 +172,10 @@ test('@curated failed shared-core startup retires its worker; explicit retry res
   expect(immediate.length).toBeGreaterThan(0)
   expect((await own.locator('[data-choice-win]').allTextContents()).every(value => value === '—')).toBe(true)
   await expect(own.locator('[data-choice-execute]').first()).toBeEnabled()
+  await expect(own.locator('[data-choice-value]').first()).toHaveAttribute('title', /You can still choose this move\./)
   await page.keyboard.press('Shift+Digit1')
-  await expect(page.locator('[data-choice-value-detail]')).toContainText('You can still choose this move.')
-  await expect(page.locator('[data-go]')).toBeVisible()
-  await page.keyboard.press('Escape')
+  await expect(page.locator('[data-choice-value-detail], [data-go]')).toHaveCount(0)
+  await expect(page.locator('[data-executing-tech]')).toHaveCount(0)
   expect(await own.locator('.ngodds').allTextContents()).toEqual(immediate)
   expect(coreRequests).toHaveLength(1); expect(workers).toHaveLength(1)
 
@@ -201,8 +205,10 @@ test('@curated failed shared-core startup retires its worker; explicit retry res
   expect(recovered.snapshot.actions.map((action: any) => action.actionId)).toEqual(recovered.snapshot.request.requestedActionIds)
   expect(recovered.snapshot.actions.length).toBe(failed.ids.length)
   expect(await own.locator('.ngodds').allTextContents()).toEqual(immediate)
-  await expect(own.locator('[data-choice-value-status]')).toHaveText('This roll · your practice')
-  expect((await own.locator('[data-choice-win]').allTextContents()).every(value => value !== '—' && /%/.test(value))).toBe(true)
+  await expect(own.locator('[data-choice-value-status]')).toBeEmpty()
+  const displayed = await own.locator('[data-choice-win]').allTextContents()
+  expect(displayed.every(value => value !== '—' && !/%/.test(value))).toBe(true)
+  await expect(own.locator('.ng-choice-stat:last-child > span')).toHaveText(displayed.map(() => 'Win %'))
   await expect(retry).toBeHidden()
 
   // A real commit remains possible and retires this hand's value publication.

@@ -301,26 +301,17 @@ test("@curated Esc closes the sheet — only the sheet — and the arrows move t
   ).toBe(TOP_TECH.id);
 });
 
-test("⏎ inside the sheet stays inside it — it never executes the option sheet open underneath", async ({ page }) => {
+test("⏎ inside the confirmation stays inside it — it never executes the hand underneath", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
   await rigQuiet(j);
-  // the option sheet's own "Play from here" opens this confirm OVER it (setup click: the card's
-  // reachability is not this test's subject)
-  await page.locator("[data-tech]").first().locator("[data-choice-inspect]").click();
-  await expect(page.locator(".ng-playfrom")).toBeVisible();
-  // the sheet slides up on a wall-clock transition: measure only once the button has STOPPED, or
-  // the mouse lands where it was a frame ago (measured: 2 premise misses in 4 runs without this, 0 in 6 with it)
-  await expect
-    .poll(async () => {
-      const a = await page.locator(".ng-playfrom").boundingBox();
-      await page.waitForTimeout(120);
-      const b = await page.locator(".ng-playfrom").boundingBox();
-      return !!a && !!b && a.x === b.x && a.y === b.y;
-    }, { message: "the option sheet settles" })
-    .toBe(true);
-  await j.clickByMouse(".ng-playfrom", "the option sheet's Play from here");
+  // v1.230.0 removes Inspect (v1.218.1/v1.220.0). Keep the confirmation's keyboard
+  // boundary against the live hand via the shared confirm seam; this setup is not a UI entry claim.
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a.confirmPlayFrom(a._optList[0].node)
+  })
   expect(await readSheet(page), "premise: the confirm is up").not.toBeNull();
   const commits0 = await page.evaluate(() => ((window as any).__neural.beats || []).filter((b: any) => b.beat === "commit").length);
   const log0 = await page.evaluate(() => ((window as any).__neural.rollLog || []).length);

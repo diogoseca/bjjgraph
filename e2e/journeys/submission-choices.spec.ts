@@ -22,9 +22,14 @@ test('@curated submission choices distinguish switching attacks, finishing, and 
   await expect(own).toContainText('Take the back')
   const threats=page.locator('[data-choice-group="opponent"] [data-opponent-threat]')
   await expect(threats.locator('.ngodds')).toHaveCount(2)
-  await expect(threats.first().locator('.ngbotrow > div')).toHaveText('Odds')
-  await expect.poll(()=>threats.locator('[data-threat-win]').allTextContents(),{timeout:45_000}).toEqual([expect.stringMatching(/%$/),expect.stringMatching(/%$/)])
-  const marks=await threats.evaluateAll(cards=>cards.map(card=>({points:card.querySelector('.ngedge')?.textContent,color:(card.querySelector('.ngbar') as HTMLElement).style.background,odds:card.querySelector('.ngodds')?.textContent})))
+  // STALE SPEC (v1.230.0, feat/video-cards, U8; red on that branch's own build, H132): a threat card labels its number
+  // by its action ("Escape %", "Submit %") and its Win value is digits, the sentence and the % in its title.
+  await expect(threats.first().locator('[data-immediate-label]')).toHaveText('Escape')
+  await expect.poll(()=>threats.locator('[data-threat-win]').allTextContents(),{timeout:45_000}).toEqual([expect.stringMatching(/^\d+$/),expect.stringMatching(/^\d+$/)])
+  for (const title of await threats.locator('[data-threat-win]').evaluateAll(es=>es.map(e=>e.getAttribute('title')))) expect(title).toMatch(/you win \d+%/)
+  // STALE SPEC (v1.230.0, feat/video-cards, U8): a threat card carries no EDGE points (.ngedge); the two threats are told
+  // apart by their Win value and their bar's colour.
+  const marks=await threats.evaluateAll(cards=>cards.map(card=>({points:card.querySelector('[data-threat-win]')?.textContent,color:(card.querySelector('.ngbar') as HTMLElement).style.background,odds:card.querySelector('.ngodds')?.textContent})))
   expect(marks[0].points).not.toBe(marks[1].points)
   expect(marks[0].color).not.toBe(marks[1].color)
   await page.evaluate(()=>{const a=(window as any).__neural,bonus=a.stateBonus;try{a.stateBonus=()=>0.3;a.refreshOptionOdds()}finally{a.stateBonus=bonus}})
@@ -33,12 +38,12 @@ test('@curated submission choices distinguish switching attacks, finishing, and 
   await page.screenshot({path:'/tmp/submission-triangle-options.png'})
   const before=await page.evaluate(()=>{const a=(window as any).__neural;return [a.currentPos,a.playerRole,a.moveCount]})
   const threat=page.locator('[data-choice-group="opponent"] [data-opponent-threat]').filter({hasText:'Posture up'})
+  // STALE SPEC (v1.230.0, feat/video-cards): Inspect and its option sheet are retired, and a threat card is the
+  // opponent's move, inert (card-click-contract:103): a click opens no preview and plays nothing.
   await threat.scrollIntoViewIfNeeded();await threat.click()
-  await expect(page.locator('[data-choice-preview]')).toContainText('Your opponent may attempt this')
-  await expect(page.locator('[data-choice-go]')).toHaveCount(0)
+  await expect(page.locator('[data-choice-preview], [data-choice-go]'),'a threat opens no preview and offers no go').toHaveCount(0)
   await page.keyboard.press('Enter')
   expect(await page.evaluate(()=>{const a=(window as any).__neural;return [a.currentPos,a.playerRole,a.moveCount]})).toEqual(before)
-  await page.locator('[data-choice-close]').click()
   const kimura=own.locator('[data-tech="Kimura from Triangle Control"]')
   await kimura.scrollIntoViewIfNeeded();await kimura.click() // deterministic entry
   await j.advance(3000)
@@ -64,9 +69,11 @@ test('@curated triangle defender sees escape actions and can preview the opponen
   const finish=page.locator('[data-choice-group="opponent"] [data-choice-action="finish"]')
   await expect.poll(()=>page.locator('[data-legend-win]').getAttribute('data-win-chance'),{timeout:45_000}).toMatch(/%$/)
   const vs=await page.locator('[data-legend-win]').getAttribute('data-win-chance')
-  await expect(finish.locator('[data-threat-win]')).toHaveText(vs!)
-  await expect(finish.locator('[data-threat-win]')).toHaveAttribute('title',/You are defending this now/)
-  await expect(finish.locator('.ngbotrow > div')).toHaveText('Odds')
+  // STALE SPEC (v1.230.0, feat/video-cards, U8; red on that branch's own build, H132): a threat card labels its number
+  // by its action ("Escape %", "Submit %") and its Win value is digits, the sentence and the % in its title.
+  await expect(finish.locator('[data-threat-win]')).toHaveText(vs!.replace(/%$/,''))
+  await expect(finish.locator('[data-threat-win]')).toHaveAttribute('title',new RegExp('You are defending this now.*'+vs!.replace('%','')+'%'))
+  await expect(finish.locator('[data-immediate-label]')).toHaveText('Submit')
   const finishOdds=await finish.locator('.ngodds').textContent()
   await page.evaluate(()=>(window as any).__neural.refreshEscapeOdds())
   await expect(finish.locator('.ngodds')).toHaveText(finishOdds!)
@@ -80,11 +87,11 @@ test('@curated triangle defender sees escape actions and can preview the opponen
   // The escape inspects in the ONE option sheet (v1.220.0): its play button reads "Posture up ⏎", and
   // the sheet closes to opacity 0 (Playwright counts that as visible), so "closed" is `_detailCtx`.
   const inspecting=()=>page.evaluate(()=>!!(window as any).__neural._detailCtx)
+  // STALE SPEC (v1.230.0, feat/video-cards): Inspect is retired, so Shift+Digit is inert (roll-execution: "shifted digits
+  // are inert, plain digits commit"); the plain digit still plays the escape.
   await page.keyboard.press('Shift+Digit'+key)
-  await expect(page.locator('[data-choice-preview]')).toContainText('Posture up')
-  await expect(page.locator('[data-choice-go]')).toContainText('Posture up')
-  await page.keyboard.press('Escape')
-  await expect.poll(inspecting,'Escape closes the sheet').toBe(false)
+  expect(await inspecting(),'Shift+Digit inspects nothing').toBe(false)
+  await expect(page.locator('[data-choice-preview], [data-executing-tech]'),'...and plays nothing').toHaveCount(0)
   await j.rig('escape',[0])
   await page.keyboard.press(key)
   expect(await inspecting(),'the plain digit plays the escape: nothing inspects').toBe(false)

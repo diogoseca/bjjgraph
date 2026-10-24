@@ -16,10 +16,13 @@ regenerate_content_json.py and proofread_all_transitions.py. Three guarantees:
 3. USAGE-LIMIT BACKOFF — ports scripts/retry-claude.zsh: on a real usage/rate limit,
    parse the server-stated reset (retry-after / epoch / "in 2h 14m" / "resets at 3pm")
    and wait until it (+buffer); never honor a multi-day weekly block or two parsed
-   resets in a row (back off instead); for any other error, exponential backoff with
+   resets in a row (back off instead); for transient errors, exponential backoff with
    jitter; never hot-loop (MIN_WAIT floor). A limit can arrive as a non-zero exit OR as
    exit 0 with `is_error:true` in the JSON — both route to backoff. Tunable via env
    (short caps for CI so a wait can't blow the Actions job timeout).
+
+Authentication failures terminate the caller with exit 2 after one diagnostic.
+They cannot recover by waiting or by trying the next file in a content batch.
 
 Keeps stdout clean (parses claude's JSON directly), unlike piping through the zsh
 wrapper which merges stderr into stdout.
@@ -32,7 +35,9 @@ import os
 import random
 import re
 import subprocess
+import threading
 import time
+from contextlib import nullcontext
 from datetime import datetime
 from typing import Optional, Tuple
 
@@ -62,6 +67,84 @@ _OUTPUT_CONTRACT = (
     "content unchanged as `fixed_content`. NEVER reply with prose, an explanation, or "
     "'nothing to change'; the only thing you produce is the JSON object."
 )
+
+
+class ClaudeAuthenticationError(SystemExit):
+    """Fatal credentials error; bypass callers' per-file Exception retry handlers."""
+
+    def __init__(self):
+        super().__init__(2)
+
+
+AUTH_DIAGNOSTIC = "[claude] Authentication failed; refresh the CLAUDE_CODE_OAUTH_TOKEN repository secret."
+
+
+class ClaudeAuthAbort:
+    """One parallel batch's fatal-auth signal; its owner prints the diagnostic once."""
+
+    def __init__(self):
+        self.lock = threading.Lock()
+        self.failed = threading.Event()
+
+    def check(self):
+        if self.failed.is_set():
+            raise ClaudeAuthenticationError()
+
+    def abort(self):
+        # Serialize with the check + Popen below: nothing starts after this signal.
+        with self.lock:
+            self.failed.set()
+
+    def wait(self, seconds):
+        # Wake workers already backing off when another call discovers bad auth.
+        if self.failed.wait(seconds):
+            raise ClaudeAuthenticationError()
+
+
+def _looks_like_auth_error(text: str) -> bool:
+    """Match diagnostic lines, never a bare 401 (tokens, cost or retry delay)."""
+    return bool(re.search(
+        r"^\s*(?:error:\s*)?(?:"
+        r"API Error:\s*401\b|HTTP(?:/\d(?:\.\d)?)?\s+401\b|401\s+Unauthorized\b|"
+        r"(?:401\s+)?(?:authentication_error|failed to authenticate|"
+        r"OAuth access token has expired|invalid API key)\b)",
+        text or "", re.I | re.M,
+    ))
+
+
+def _auth_diagnostic(value) -> bool:
+    """Inspect only explicit CLI error/status fields; do not walk usage or content."""
+    if isinstance(value, str):
+        try:
+            value = json.loads(value)
+        except (json.JSONDecodeError, TypeError):
+            return _looks_like_auth_error(value)
+    if isinstance(value, dict):
+        if any(str(value.get(key)) == "401"
+               for key in ("status", "status_code", "api_error_status", "code")):
+            return True
+        if any(value.get(key) == "authentication_error" for key in ("type", "code", "api_error_code")):
+            return True
+        return any(_auth_diagnostic(value.get(key)) for key in ("error", "errors", "message", "api_error"))
+    if isinstance(value, list):
+        return any(_auth_diagnostic(item) for item in value)
+    return False
+
+
+def _has_auth_error(stdout: str, stderr: str) -> bool:
+    if _auth_diagnostic(stderr):
+        return True
+    try:
+        cli = json.loads(stdout)
+    except (json.JSONDecodeError, TypeError):
+        return _looks_like_auth_error(stdout)
+    # With --output-format json the CLI puts API failures in result, even with
+    # subtype=success. Only is_error makes that field a diagnostic. Otherwise it
+    # is authored prose, including when a separate stderr/exit reports a 502.
+    return isinstance(cli, dict) and (
+        _auth_diagnostic(cli)
+        or (bool(cli.get("is_error")) and _auth_diagnostic(cli.get("result")))
+    )
 
 
 def _looks_like_limit(text: str) -> bool:
@@ -157,9 +240,12 @@ def call_claude(
     effort: str,
     timeout: int = 1800,
     log=print,
+    auth_abort: Optional[ClaudeAuthAbort] = None,
 ) -> Tuple[Optional[str], Optional[str]]:
     """Run one structured-output Claude inference with read-only tools + limit backoff.
     Returns (json_string_of_structured_output, None) on success, or (None, error_message).
+    Raises ClaudeAuthenticationError on invalid credentials; do not retry the batch.
+    Parallel callers share auth_abort and print AUTH_DIAGNOSTIC in the owning thread.
     `log` receives human-readable backoff/prose notices (default: print)."""
     cmd = [
         "claude", "-p", "-",
@@ -179,9 +265,12 @@ def call_claude(
         attempt += 1
         proc = None
         try:
-            proc = subprocess.Popen(
-                cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True
-            )
+            with auth_abort.lock if auth_abort is not None else nullcontext():
+                if auth_abort is not None:
+                    auth_abort.check()
+                proc = subprocess.Popen(
+                    cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True
+                )
             stdout, stderr = proc.communicate(input=cur_prompt, timeout=timeout)
             rc = proc.returncode
         except subprocess.TimeoutExpired:
@@ -199,6 +288,14 @@ def call_claude(
 
         structured, result_text, is_err = _extract_cli(stdout)
         scan = (stdout or "") + "\n" + (stderr or "") + "\n" + result_text
+        if (rc != 0 or is_err) and _has_auth_error(stdout, stderr):
+            if auth_abort is not None:
+                auth_abort.abort()
+            else:
+                log(AUTH_DIAGNOSTIC)
+            raise ClaudeAuthenticationError()
+        if auth_abort is not None:
+            auth_abort.check()
         is_limit = _looks_like_limit(scan)
 
         if rc == 0 and not is_err:
@@ -223,7 +320,10 @@ def call_claude(
             log(f"  [claude] usage/rate limit → waiting {wait}s (attempt {attempt}/{MAX_ATTEMPTS})")
         else:
             log(f"  [claude] error (exit {rc}) → backoff {wait}s (attempt {attempt}/{MAX_ATTEMPTS}): {last_err[:120]}")
-        time.sleep(wait)
+        if auth_abort is not None:
+            auth_abort.wait(wait)
+        else:
+            time.sleep(wait)
         last_was_parsed = honored
         if used_backoff:
             backoff_n += 1

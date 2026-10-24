@@ -56,7 +56,8 @@ const read = async (page: any) => {
       cardEls: document.querySelectorAll("[data-landcard]").length,
       more: !!a._readerEl,
       moreOpen: !!a._reader?.interacting,
-      film: !!a._landFilmEl,
+      // D-338: with the article shown the film lives in its Videos section, which hides its body.
+      film: !!a._landFilmEl && a._landFilmEl.checkVisibility(),
       tray: (a.optionIdxs || []).length,
       trayVis: getComputedStyle(a.optionsRef.current).visibility,
       pick: !!a._optPick,
@@ -65,7 +66,8 @@ const read = async (page: any) => {
       landMc: !!(a._mc && a._mc.surface === "land"),
       landIdx: a._landIdx,
       cur: a.currentPos,
-      keys: { film: a.get("landFilm", true), card: a.get("landCard", true), hand: a.get("landHand", true) },
+      // ...and the videos' one preference there is the section's (D-338), landFilm in the map view.
+      keys: { film: a.get(a.get("readerBook", true) ? "readerSection.videos" : "landFilm", true), card: a.get("landCard", true), hand: a.get("landHand", true) },
       dock: Array.from(document.querySelectorAll("[data-layer-show]")).map((b: any) => b.getAttribute("data-layer-show")),
       dockEls: document.querySelectorAll("[data-layer-dock]").length,
       beats: beats.map((b: any) => b.beat),
@@ -78,6 +80,29 @@ const read = async (page: any) => {
     }
   })
 }
+
+// D-318 U1(1), CI 48be3a910 (STALE CONTRACT): with the article shown (Book on, the default on
+// every route) the reading shelf is gone; a closed Questions or Moves reopens from the label it
+// leaves (D-338, which also removed the section eyes and headers).
+// The dock keeps its claims in the MAP view (Book off), where it also restores the hidden article.
+// No control turns Book off (D-338: no View menu), so the map view boots as a returning reader
+// left it: the persisted setting the app reads. A dock claim with a reading twin runs in both.
+const BOOK_OFF = { v: 2, settings: { readerBook: false }, settingsAt: {} }
+type View = "map" | "reading"
+const VIEWS: View[] = ["map", "reading"]
+const bootIn = (j: any, view: View) => j.boot("/", view === "map" ? { initialState: BOOK_OFF } : {})
+const docked = (view: View, ...parts: string[]) => view === "map" ? [...parts, "book"] : parts
+// STALE SPEC (D-355, U11): where the index shows (1440x900 here) a closed part leaves no label in the content:
+// its index row carries the closed state and reopens it. Without the index the label reopens it, as before.
+const indexed = (page: any) => page.locator(".ng-reader-toc").isVisible()
+const restore = async (page: any, j: any, view: View, part: "card" | "hand") => {
+  if (view === "map") return j.clickByMouse(`[data-layer-show="${part}"]`, `the dock's ${part} glyph`)
+  await expect(page.locator(".ng-reader-shelf"), "the reading view has no shelf").toBeHidden()
+  if (await indexed(page)) return j.clickByMouse(`[data-toc-type="${part}"] a`, `the closed ${part === "card" ? "Questions" : "Moves"} index row`)
+  await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded()
+  await j.clickByMouse(`[data-game-open="${part}"]`, `the closed ${part === "card" ? "Questions" : "Moves"} label`)
+}
+const viewTitle = (view: View) => view === "map" ? "" : " (reading view: the closed label)"
 
 /** one deterministic hop through the tray (the returner spec's pattern): first transitions-type
  *  option, rigged to succeed, then wait for the next hand */
@@ -128,9 +153,10 @@ const seedFilm = (page: any) =>
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
 
-test("@curated the ✕ is sticky: the next landing builds no card and asks nothing, and the dock brings it back mid-landing", async ({ page }) => {
+for (const view of VIEWS)
+test(`@curated the ✕ is sticky: the next landing builds no card and asks nothing, and the dock brings it back mid-landing${viewTitle(view)}`, async ({ page }) => {
   const j = journey(page)
-  await j.boot("/")
+  await bootIn(j, view)
   await j.land("Mount Top")
   const q0 = await j.landQuestion()
   expect(q0, "a fresh visitor's first landing asks (the on-phase is non-vacuous)").toBeTruthy()
@@ -146,7 +172,9 @@ test("@curated the ✕ is sticky: the next landing builds no card and asks nothi
   expect(s1.keys.card, "…and the choice is persisted").toBe(false)
   expect(s1.tray, "the hand survived").toBeGreaterThan(0)
   expect(s1.beats, "the dismissal is named").toContain("land_dismissed")
-  expect(s1.dock, "the dock shows exactly the card glyph").toEqual(["card"])
+  expect(s1.dock, "the dock shows exactly the card glyph").toEqual(docked(view, "card"))
+  if (view === "reading" && await indexed(page)) await expect(page.locator('[data-toc-type="card"]'), "the closed card's index row shows it closed").toHaveAttribute("data-collapsed", "true")
+  else if (view === "reading") await expect(page.locator('[data-game-open="card"]'), "the closed card leaves its Questions label").toBeVisible()
   expect(s1.landIdx, "the landing still knows its state (film + backfill invariant)").toBe(s1.cur)
 
   // ── the next landing: no card, a hand, the gap named ──
@@ -165,8 +193,8 @@ test("@curated the ✕ is sticky: the next landing builds no card and asks nothi
   const s3 = await read(page)
   expect(s3.answered, "A–C grade nothing on a collapsed card").toBe(0)
 
-  // ── expand from the dock, by mouse, mid-landing → THIS landing asks now ──
-  await j.clickByMouse('[data-layer-show="card"]', "the dock's card glyph")
+  // ── expand from the dock (or the Questions eye), by mouse, mid-landing → THIS landing asks now ──
+  await restore(page, j, view, "card")
   await j.advance(300)
   const q = await j.landQuestion()
   expect(q, "expanding mid-landing asks").toBeTruthy()
@@ -185,9 +213,11 @@ test("@curated the ✕ is sticky: the next landing builds no card and asks nothi
   expect(s5.answered, "answered by key").toBe(1)
 })
 
+// STALE CONTRACT (D-338): these are the game layers' keys and the restore dock, the map view's
+// state. With the article shown the videos follow their section, so this boots in the map view.
 test("the choice survives a reload (persisted, read live at the next landing)", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/")
+  await j.boot("/", { initialState: BOOK_OFF })
   await j.land("Mount Top")
   // through the real handle, and through setLayer's OWN save — no _flushSave here, so a writer
   // that forgets `this.set` (M2) leaves nothing for the next boot to find
@@ -211,31 +241,33 @@ test("the choice survives a reload (persisted, read live at the next landing)", 
   expect(s.tray, "a hand, as always").toBeGreaterThan(0)
   // the tray is a FRESH element after a reload, so only the per-landing sync can hide it (M3)
   expect(s.trayVis, "…hidden by the first deal, from a persisted key").toBe("hidden")
-  expect(s.dock).toEqual(["film", "card", "hand"])
+  expect(s.dock).toEqual(docked("map", "film", "card", "hand"))
 })
 
-test("the layers are independent: the film's ✕ keeps the card; the hand's ✕ hides a DEALT hand, kills the digits, and the roll still advances", async ({ page }) => {
+for (const view of VIEWS)
+test(`the layers are independent: the film's ✕ keeps the card; the hand's ✕ hides a DEALT hand, kills the digits, and the roll still advances${viewTitle(view)}`, async ({ page }) => {
   const j = journey(page)
-  await j.boot("/")
+  await bootIn(j, view)
   await j.land("Mount Top")
   await seedFilm(page)
   await j.advance(400)
   expect((await read(page)).film, "film authored and up").toBe(true)
   expect((await read(page)).more, "the card's More sibling is authored too").toBe(true)
 
-  await j.clickByMouse("[data-film-close]", "the film's ✕")
+  // D-338: with the article shown the film's ✕ is its Videos section's (the strip's own ✕ is hidden there).
+  await j.clickByMouse(view === "map" ? "[data-film-close]" : '[data-section-toggle="videos"]', "the film's ✕")
   await j.advance(300)
   const f1 = await read(page)
   expect(f1.film, "the strip is gone").toBe(false)
   expect(f1.card, "the card is untouched").toBe(true)
   expect(f1.more, "film is independent: More stays with the card").toBe(true)
   expect(f1.keys.film).toBe(false)
-  expect(f1.dock).toEqual(["film"])
-  // a re-render WITH film authored builds no strip while the layer is off
+  expect(f1.dock).toEqual(docked(view, "film"))
+  // a re-render WITH film authored keeps its retained host hidden while the layer is off
   await seedFilm(page)
   await j.advance(300)
   const f2 = await read(page)
-  expect(f2.film, "a re-render with film authored builds no strip").toBe(false)
+  expect(f2.film, "a re-render with film authored keeps the strip hidden").toBe(false)
   expect(f2.card).toBe(true)
   expect(f2.more, "a card rebuild preserves its independent More sibling").toBe(true)
 
@@ -247,7 +279,7 @@ test("the layers are independent: the film's ✕ keeps the card; the hand's ✕ 
   expect(h1.trayVis, "the tray is hidden — visibility, so it is out of hit-testing too").toBe("hidden")
   expect(h1.tray, "…but the hand is still DEALT").toBeGreaterThan(0)
   expect(h1.pick, "and still yours to play").toBe(true)
-  expect(h1.dock).toEqual(["film", "hand"])
+  expect(h1.dock).toEqual(docked(view, "film", "hand"))
   expect(h1.more, "hand is independent: More stays with the card").toBe(true)
   await page.keyboard.press("1")
   await j.advance(200)
@@ -261,25 +293,38 @@ test("the layers are independent: the film's ✕ keeps the card; the hand's ✕ 
 
   // back from the dock — the SAME hand, no re-deal
   const dealtBefore = (await read(page)).beats.filter((b: string) => b === "options_dealt").length
-  await j.clickByMouse('[data-layer-show="hand"]', "the dock's hand glyph")
+  await restore(page, j, view, "hand")
   await j.advance(300)
   const h3 = await read(page)
   expect(h3.trayVis).toBe("visible")
   expect(h3.tray).toBe(h2.tray)
   expect(h3.beats.filter((b: string) => b === "options_dealt").length, "no re-deal on expand").toBe(dealtBefore)
-  expect(h3.dock).toEqual(["film"])
+  expect(h3.dock).toEqual(docked(view, "film"))
 })
 
+// Reading view by nature (the article shown). D-318 U1(1), D-338: the videos, Questions and Moves
+// close through their own ✕ (the shelf is gone with Book shown) and reopen from their labels.
 test("@curated the article survives minimizing the question, videos and moves", async ({ page }) => {
   const j = journey(page)
   await j.boot("/"); await j.land("Mount Top"); await read(page)
+  await seedFilm(page); await j.advance(400)
   await page.evaluate(() => { (window as any).__articleBefore = document.querySelector("[data-reader-body]") })
-  for (const part of ["film", "card", "hand"]) await j.clickByMouse(`[data-layer-hide="${part}"]`)
+  // D-338: the film's home with the article shown is its Videos section, closed by that ✕.
+  await page.locator('[data-section-toggle="videos"]').scrollIntoViewIfNeeded()
+  await j.clickByMouse('[data-section-toggle="videos"]', "the videos' ✕")
+  for (const sel of ["[data-land-close]", "[data-hand-close]"]) {
+    await page.locator(sel).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    await j.clickByMouse(sel, sel === "[data-land-close]" ? "the card's ✕" : "the hand's ✕")
+  }
+  const hidden = await read(page)
+  // With the article shown the videos' one preference is their section's (D-338), not landFilm.
+  const videos = await page.evaluate(() => (window as any).__neural.get("readerSection.videos", true))
+  expect([videos, hidden.keys.card, hidden.keys.hand], "all three parts minimized").toEqual([false, false, false])
   expect(await page.evaluate(() => document.querySelector("[data-reader-body]") === (window as any).__articleBefore)).toBe(true)
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await j.advance(12000)
   expect((await read(page)).beats).not.toContain("land_q_expired")
-  await j.clickByMouse('[data-layer-show="card"]')
+  await restore(page, j, "reading", "card")
   await expect(page.locator("[data-landcard]")).toBeVisible()
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
 })
@@ -288,17 +333,25 @@ test("@curated the measured reader and shelf reserve the final paragraph's space
   await page.setViewportSize({ width: 390, height: 844 })
   const j = journey(page)
   await j.boot("/"); await j.land("Mount Top"); await read(page)
-  await j.clickByMouse("[data-reading-focus]")
+  // D-338 retired the Focus click this used to enter reading with; focusing the prose reads.
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await page.locator("[data-reader-body]").focus()
   await page.keyboard.press("Control+End")
+  // STALE CONTRACT (D-318 U1(1)): with Book shown there is no shelf to reserve (the old claim's
+  // rect measured 0x0). The flow ends clear of the bottom controls that share its column instead.
   const boxes = await page.evaluate(() => {
-    const r = document.querySelector("[data-reader]")!.getBoundingClientRect()
-    const s = document.querySelector("[data-layer-dock]")!.getBoundingClientRect()
-    return { articleBottom: r.bottom, shelfTop: s.top, shelfBottom: s.bottom, H: innerHeight }
+    const a = (window as any).__neural, r = document.querySelector("[data-reader]")!.getBoundingClientRect()
+    const col = document.querySelector(".ng-reader-article")!.getBoundingClientRect()
+    const controls = [a.accountRef.current, a.shareCueRef.current, a.wrapRef.current.querySelector(".ng-winbar")]
+      .filter((el: any) => el && getComputedStyle(el).visibility !== "hidden")
+      .map((el: any) => el.getBoundingClientRect()).filter((b: any) => b.height && b.left < col.right && b.right > col.left)
+      .map((b: any) => ({ top: b.top, bottom: b.bottom }))
+    return { articleBottom: r.bottom, shelf: document.querySelector("[data-layer-dock]")!.getBoundingClientRect().height, controls, H: innerHeight }
   })
-  expect(boxes.articleBottom).toBeLessThanOrEqual(boxes.shelfTop - 6)
-  expect(boxes.shelfBottom).toBeLessThan(boxes.H)
+  expect(boxes.shelf, "no shelf in the reading view").toBe(0)
+  expect(boxes.controls.length, "the phone has bottom controls under the column").toBeGreaterThan(0)
+  for (const c of boxes.controls) expect(boxes.articleBottom, JSON.stringify(boxes)).toBeLessThanOrEqual(c.top - 6)
+  expect(boxes.articleBottom).toBeLessThan(boxes.H)
 })
 
 test("the background ladder stays per-landing: a tap closes THIS card, the next landing has one", async ({ page }) => {
@@ -339,9 +392,10 @@ test("the settings rows mirror the keys, both ways", async ({ page }) => {
   await expect(page.locator('[data-layer-toggle="card"]'), "a change from the board shows in the row").toHaveAttribute("aria-pressed", "true")
 })
 
-test("caught with the hand put away: the escape tray stays away too, and a collapsed card skips the drill by name", async ({ page }) => {
+for (const view of VIEWS)
+test(`caught with the hand put away: the escape tray stays away too, and a collapsed card skips the drill by name${viewTitle(view)}`, async ({ page }) => {
   const j = journey(page)
-  await j.boot("/")
+  await bootIn(j, view)
   await j.land("Mount Top")
   await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("hand", false, "test"); a.setLayer("card", false, "test") })
   await j.advance(200)
@@ -378,8 +432,8 @@ test("caught with the hand put away: the escape tray stays away too, and a colla
   const said = await page.evaluate(() => { const a = (window as any).__neural; const t = a.evTextRef && a.evTextRef.current; return t ? t.textContent : "" })
   expect(said, "the announcer names the catch and nothing more (v1.171.1)").toMatch(/ locked in$/)
 
-  // and the dock brings the escapes back, mid-defence
-  await j.clickByMouse('[data-layer-show="hand"]', "the dock's hand glyph")
+  // and the dock (or the Moves eye) brings the escapes back, mid-defence
+  await restore(page, j, view, "hand")
   await j.advance(200)
   expect((await read(page)).trayVis, "the escapes are there to be chosen once asked for").toBe("visible")
 })
@@ -392,6 +446,12 @@ test.describe("phone", () => {
     await j.land("Mount Top")
     await seedFilm(page)
     await j.advance(600)
+    // D-318 keeps the arrival band and named headers in flow. At 390px this
+    // hand begins at y724 and its close target is clipped by the y754 flow end.
+    // Bring the hand into view before testing the unchanged overlap/mouse claim.
+    await page.locator('[data-reader-game-part="hand"]').scrollIntoViewIfNeeded()
+    await j.readerLayoutSettled()
+    await j.advance(16) // publish the normal updateUiShift frame that docks the external hand X
     const g = await page.evaluate(() => {
       const a = (window as any).__neural
       const x = a._handCloseEl as HTMLElement
@@ -412,9 +472,10 @@ test.describe("phone", () => {
     expect(s.card, "the card remains").toBe(true)
     expect(s.more, "and its More sibling remains").toBe(true)
   })
+  // MAP view (Book off): the reading view's 44px eyes are article-sections.spec.ts's D-318 390px case.
   test("every dock glyph is a 44px thumb target that owns its centre, clear of the legend and the chip, and a tap works", async ({ page }) => {
     const j = journey(page)
-    await j.boot("/")
+    await bootIn(j, "map")
     await j.land("Mount Top")
     await page.evaluate(() => { const a = (window as any).__neural; for (const l of ["film", "card", "hand"]) a.setLayer(l, false, "test") })
     await j.advance(300)
@@ -427,7 +488,7 @@ test.describe("phone", () => {
       })
       return { glyphs, legend: box(document.querySelector(".ng-legend")), chip: box(document.querySelector(".ng-acctwrap")) }
     })
-    expect(g.glyphs.map((x: any) => x.layer)).toEqual(["film", "card", "hand"])
+    expect(g.glyphs.map((x: any) => x.layer)).toEqual(docked("map", "film", "card", "hand"))
     const overlaps = (a: any, b: any) => !!a && !!b && !(a.r <= b.l || a.l >= b.r || a.b <= b.t || a.t >= b.b)
     for (const x of g.glyphs) {
       expect(x.box!.w, `${x.layer}: 44px wide`).toBeGreaterThanOrEqual(44)
@@ -441,6 +502,6 @@ test.describe("phone", () => {
     await j.advance(400)
     const s = await read(page)
     expect(s.keys.card, "a tap on the glyph brings the card layer back").toBe(true)
-    expect(s.dock).toEqual(["film", "hand"])
+    expect(s.dock).toEqual(docked("map", "film", "hand"))
   })
 })

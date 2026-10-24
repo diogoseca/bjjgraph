@@ -199,7 +199,9 @@ test("the landing card does not repeat what the graph already says", async ({ pa
 })
 
 /** The complete article owns native scrolling independently of the scored card.
- * The fixture still authors films; prose comes from the real published page. */
+ * The fixture still authors films; prose comes from the real published page.
+ * D-318 retires the reading shelf: Questions now hides through its section eye.
+ * The article lifetime and real mouse assertions remain unchanged. */
 test("the complete article renders automatically and survives the question lifetime @curated", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   const j = journey(page)
@@ -212,15 +214,30 @@ test("the complete article renders automatically and survives the question lifet
   expect(await page.evaluate(() => !!(window as Any).__neural.paused), "rendering an article does not pause a live roll").toBe(false)
   // Compare the complete DOM text: expanded reading also reveals the Overview heading.
   const article = await page.locator("[data-reader-body]").textContent()
-  await j.clickByMouse('[data-layer-hide="card"]')
+  // D-338: Questions has no header; the card closes with its own ✕.
+  await page.locator('[data-land-close]').scrollIntoViewIfNeeded()
+  await j.clickByMouse('[data-land-close]', "hide Questions with the card's ✕")
   await expect(page.locator("[data-landcard]")).toHaveCount(0)
   await expect(page.locator("[data-reader-body]")).toHaveText(article!)
-  const r = await page.locator("[data-reader]").boundingBox()
-  await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height - 10)
+  // D-338 (CI 11e7f83ff): the reader's bottom edge is now the closed Questions label, game input;
+  // the wheel goes over reading on screen at arrival, the Videos section's own text, as in reading-mode.
+  await page.locator("[data-reader]").evaluate(e => { e.scrollTop = 0 }) // the ✕ above scrolled the Videos text away
+  await j.readerLayoutSettled()
+  // STALE CONTRACT (D-368, layout C): nothing is lifted into the game; the Videos section opens the article after the
+  // stage, below the fold here, and the whole game flow (its head included) is game input (gameInput). So the text is
+  // brought into view first, by a programmatic scroll, which is not a reading input; the second wheel must still
+  // continue the gesture in the native scrollport.
+  const subtitle = page.locator(".ng-reader-article [data-section-type=videos] .section-subtitle").first()
+  await subtitle.evaluate(e => e.scrollIntoView({ block: "center" }))
+  await j.readerLayoutSettled()
+  const r = await subtitle.boundingBox()
+  expect(r && r.y + r.height / 2 < (page.viewportSize()?.height ?? 900), "premise: the Videos section's text is on screen").toBe(true)
+  await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height / 2)
   await page.mouse.wheel(0, 300)
   await expect(page.locator("[data-reader]")).toHaveAttribute("data-reading-expanded", "")
+  const at = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
   await page.mouse.wheel(0, 300)
-  await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBeGreaterThan(0)
+  await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBeGreaterThan(at)
   await j.advance(20000)
   expect((await j.beats()).filter(b => b.beat === "land_q_expired")).toEqual([])
   await page.evaluate(() => (window as Any).__neural.clearOptions())
@@ -248,24 +265,27 @@ test("the film row rides the game card", async ({ page }) => {
   await j.land("Mount Top")
   await j.advance(2000)
 
-  // the row is the SAME renderer the reading surface uses, in its compact variant — and since
-  // v1.101.1 it is its OWN strip, docked immediately above the card rather than scrolling inside it
+  // The same existing host belongs to the shared native game flow. STALE CONTRACT (D-338): with
+  // the article shown it leads that flow in its Videos section, above Moves and Questions, never
+  // beside or over the card (that layout is the map view's).
   const film = await page.evaluate(() => {
     const a = (window as Any).__neural
     const f = a._landFilmEl
-    const q = a._landEl ? a._landEl.querySelector("[data-land-q]") : null
     if (!f) return null
-    const fr = f.getBoundingClientRect(), qr = q ? q.getBoundingClientRect() : null
-    return { clips: f.querySelectorAll(".ng-clip").length, h: fr.height, filmTop: fr.top, qTop: qr ? qr.top : null,
+    const fr = f.getBoundingClientRect(), hr = a.optionsRef.current.getBoundingClientRect(), r = a._reader
+    return { clips: f.querySelectorAll(".ng-clip").length,
+             shared: f.parentElement === r.mediaSlot && r.videoCard?.parentElement === r.game || f.parentElement === r.mediaHome && r.mediaHome.parentElement === r.game,
+             layout: r.game.dataset.mediaLayout, belowMoves: fr.top >= hr.bottom - .5,
              inCard: !!(a._landEl && a._landEl.contains(f)) }
   })
   expect(film, "the film row is up").not.toBeNull()
-  expect(film!.inCard, "outside the card, immediately above it").toBe(false)
+  expect(film!.inCard, "outside the practice card").toBe(false)
   expect(film!.clips, "with the authored clip").toBeGreaterThan(0)
-  // COMPACT ON PURPOSE: the full-size strip is ~210px and pushed the question below the
-  // landing card's capped viewport.
-  if (film!.qTop != null)
-    expect(film!.filmTop, "film reads before the question, as it always has").toBeLessThan(film!.qTop!)
+  expect(film!.shared, "one media host shares the scrollport with practice").toBe(true)
+  // STALE CONTRACT (D-368, layout C, reversing D-338): Moves lead, and the current card is the stage after them,
+  // beside the question where the width holds it, otherwise above it.
+  expect(["side-by-side", "stacked"], "the current card is the stage: beside the question or stacked above it").toContain(film!.layout)
+  expect(film!.belowMoves, "Moves lead the flow, above the stage").toBe(true)
 })
 
 test("a node you are NOT standing on still opens the GAME CARD, never a second surface", async ({
@@ -465,7 +485,7 @@ for (const height of [900, 720]) {
     await j.boot("/Positions/Mount/Top")
     await j.advance(5000)
     await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
-    await j.clickByMouse("[data-reading-focus]")
+    // D-338 retired the Focus click this used to enter reading with; focusing the prose reads.
     await page.locator("[data-reader-body]").focus()
     await page.keyboard.press("Control+End")
     await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop), { message: "native scrolling reaches the article end" }).toBeLessThan(2)

@@ -135,9 +135,12 @@ test("a leased selection zoom retains its subject while the pane opens, closes a
     const ev = a.evRef.current, er = ev && ev.getBoundingClientRect()
     const top = er && er.height > 0 && getComputedStyle(ev).opacity !== "0" ? Math.max(16, er.bottom + 12) : 16
     const bottom = tops.length ? Math.min(...tops) - 12 : a.H - 16
+    // STALE CONTRACT (D-318 U4a, CI 48be3a910): with the article shown, frameNodes centres in the
+    // reader's published node band (the rect _viewRect returns), not the announcer-to-rows rect.
+    const band = a.get("readerBook", true) ? a._reader?.nodeBand : null
     a.frameNodes([i])
     a.holdCamera(120)
-    return (top + bottom) / 2
+    return band ? (band.top + band.bottom) / 2 : (top + bottom) / 2
   }, subject)
   await settle(j)
   const before = await screen(page, subject)

@@ -61,7 +61,12 @@ test('real app paint method uses Suggested in badge and accessible label through
   const opt={node:{ty:'transitions'}},badge={textContent:''},execute={setAttribute:(k,v)=>execute[k]=v};
   a._choiceValues=f.c;a._choiceHandId='h';a._choiceValueBindings=[{opt,actionId:'a'}];
   a._choiceValueRuntime={ngChoiceValueView};a.choiceLabel=()=> 'Move';
-  a._optionCards=[{opt,card:{querySelector:s=>s==='[data-choice-recommended]'?badge:s==='[data-choice-execute]'?execute:null}}];
+  // D-318: the card's move button is painted through the DOM collection API.
+  // Keep the same visible-badge and accessible-label assertions below.
+  a._optionCards=[{opt,card:{
+    querySelector:s=>s==='[data-choice-recommended]'?badge:s==='[data-choice-execute]'?execute:null,
+    querySelectorAll:s=>s==='[data-choice-execute]'?[execute]:[],
+  }}];
   a.paintChoiceValues();assert.equal(badge.textContent,'Suggested');assert.match(execute['aria-label'],/Suggested/);assert.doesNotMatch(execute['aria-label'],/Best/);
 });
 test('endpoint radius must satisfy its own tighter absolute tolerance',()=>{

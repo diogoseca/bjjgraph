@@ -46,7 +46,6 @@ const NG_SOUND_CATALOG = [
   { beat: "finish", label: "Terminal lock", group: "Outcomes", voice: "terminal-lock", durationMs: 980, priority: 2, context: "The finishing submission is confirmed.", character: "A focused high lock seals over a stable low core." },
   { beat: "defeat_drain", label: "Reactor shutdown", group: "Outcomes", voice: "reactor-shutdown", durationMs: 1760, priority: 4, sceneMs: 1840, context: "The opponent wins the roll.", character: "A controlled power-down collapses into a distant harmonic." },
   { beat: "roll_end", label: "Orbit closed", group: "Outcomes", voice: "orbit-close", durationMs: 640, priority: 1, context: "The roll report finishes its terminal sequence.", character: "A soft descending orbit closes the sound field." },
-  { beat: "jit_opened", label: "Drill hologram", group: "Interface", voice: "holo-open", durationMs: 360, context: "A just-in-time drill opens.", character: "A subtle spatial panel cue orients the player." },
   { beat: "beacon_moved", label: "Graph beacon", group: "Interface", voice: "radar-blip", durationMs: 180, context: "The active graph beacon moves to a new node.", character: "A tiny positional ping, intentionally near the noise floor." },
 ]
 

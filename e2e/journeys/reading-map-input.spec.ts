@@ -10,9 +10,9 @@ for (const width of [1440, 390]) {
   test(`@curated ${width}px hidden Map rejects graph input and restores selection`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = journey(page)
+    // D-338 retired Focus: the same quiet map view is seeded through the game layers it overrode.
     await j.boot("/Positions/Mount", { initialState: { v: 2, settings: {
-      readingFocus: true, readingMap: true, readingFilm: false, readingCard: false,
-      readingHand: false, readingFeedback: false, readerBook: false,
+      landFilm: false, landCard: false, landHand: false, landFeedback: false, readerBook: false,
     }, settingsAt: {} } })
     await expect(page.locator('[data-reader-ready="true"]')).toHaveCount(1)
     await j.advance(8000)
@@ -38,13 +38,13 @@ for (const width of [1440, 390]) {
     const snapshot = () => page.evaluate(() => {
       const a = (window as any).__neural
       return { seat: a.currentPos, url: location.href, intent: a._readerIntent,
-        focus: a.get("readingFocus", false), cam: [a.cam.cx, a.cam.cy, a.cam.vw],
+        cam: [a.cam.cx, a.cam.cy, a.cam.vw],
         target: [a.camTarget.cx, a.camTarget.cy, a.camTarget.vw], beats: a.beats.length }
     })
     const before = await snapshot()
-    expect(before).toMatchObject({ intent: true, focus: true })
+    expect(before).toMatchObject({ intent: true })
     await page.mouse.click(point.x, point.y)
-    expect(await snapshot(), "the former node cannot select a seat or leave Focus").toEqual(before)
+    expect(await snapshot(), "the former node cannot select a seat or leave reading").toEqual(before)
     await page.mouse.move(point.x, point.y)
     expect(await page.evaluate(() => (window as any).__neural._hover)).toBeNull()
     await page.mouse.down()
@@ -76,6 +76,6 @@ for (const width of [1440, 390]) {
     await page.mouse.click(point.x, point.y)
     expect(await page.evaluate(() => (window as any).__neural.currentPos)).toBe(target)
     expect(new URL(page.url()).pathname).toBe("/Positions/Half-Guard")
-    expect(await snapshot()).toMatchObject({ intent: false, focus: false })
+    expect(await snapshot()).toMatchObject({ intent: false })
   })
 }

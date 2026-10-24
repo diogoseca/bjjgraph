@@ -9,6 +9,8 @@ import { journey } from '../dsl'
 // available during the catch. Pressure must still be live before every exit.
 // MUTANT M14 freezes clearEngagement's journey identity: sidebar search fails
 // its same-app journey-change assertion after the actual opponent catch.
+// STALE TIMING (PR 307 CI): the caught card can publish before its article/TOC.
+// Await that article and its layout before the native Overview click.
 // D-307 curated defender reel: the exact escape qualifies across origins.
 // Whittier's second clip is withheld for explicit course/coupon pitches.
 const CLIPS = ['pZmJpXSwRTk']
@@ -35,7 +37,10 @@ async function caught(page: Page) {
     for (const [k, v] of Object.entries({ resolve: [.999], outcome: [0], 'opp-finish': [0], 'opp-sub-pick': [.75], 'opp-pick': [0], escape: [0] })) a.rig(k, v)
     a._optionCards.find((c: any) => c.opt.node.t === 'Half Guard to Back Take' && !c.opt.threat).card.setAttribute('data-arrival-commit', '')
   })
-  await j.clickByMouse('[data-arrival-commit]')
+  // v1.230.0 owner reversal of v1.218.1/v1.220.0: Choose commits; the
+  // card's video area is inert. Preserve every arrival/catch assertion below.
+  await page.locator('[data-arrival-commit] .ng-choice-title-button').scrollIntoViewIfNeeded()
+  await j.clickByMouse('[data-arrival-commit] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
   await expect(page.locator('[data-panic-mc-opt]').first()).toBeVisible()
   expect(await snapshot(page)).toMatchObject({ pressure: true, caught: 1, key: 'Loop Choke from Half Guard|Defender' })
@@ -85,8 +90,8 @@ const leaf = `div:has(> [data-list-surface="explore"][data-list-add="${ID}"]) > 
 async function defenderLink(page: Page) {
   const j = journey(page)
   await expect(page.locator(READY)).toBeVisible()
-  if (!(await page.locator('[aria-label="Reading perspectives"] a[href$="/Defender"]').isVisible())) await j.clickByMouse('[data-reader]')
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]', 'read the defending half')
+  await j.readingOtherHalf() // D-318 U6a; retain PR 305's Back and fresh-journey repair.
+
 }
 
 // STALE SPEC (PR 305, owner D-307): sidebar search and perspective links end an already active journey.
@@ -160,9 +165,27 @@ test('@curated clicking the caught defender orb manually restages a calm journey
       await page.mouse.wheel(0, -400)
       await page.waitForTimeout(70)
     } else {
-      await page.mouse.move(1200, 120)
+      // The right gutter is now occupied by the fixed TOC. Find an exposed
+      // point in the actual left gutter and a native drag whose endpoints are
+      // both canvas, instead of panning toward the former right-side target.
+      const drag = await page.evaluate(hit => {
+        const a = (window as any).__neural, canvas = a.canvas;
+        const edges = [a._reader.articleEl, a._reader.contents, a._landEl, a._landFilmEl]
+          .filter(el => el && el.offsetHeight && getComputedStyle(el).visibility !== 'hidden')
+          .map(el => el.getBoundingClientRect()).filter(r => r.left > 0 && r.top < 330 && r.bottom > 330);
+        const edge = Math.min(a.W / 2, ...edges.map(r => r.left));
+        const goal = [edge / 2, edge / 3, edge * .75].find(x => document.elementFromPoint(x, 330) === canvas);
+        if (goal == null) return null;
+        const dx = Math.max(-180, Math.min(180, goal - hit.x)), dy = Math.max(-100, Math.min(100, 330 - hit.y));
+        for (const x of [edge - 20, 20, edge / 2]) for (const y of [120, 220, 400]) {
+          if (document.elementFromPoint(x, y) === canvas && document.elementFromPoint(x + dx, y + dy) === canvas) return { x, y, dx, dy };
+        }
+        return null;
+      }, hit)
+      expect(drag, 'a native pan has exposed canvas at both ends').toBeTruthy()
+      await page.mouse.move(drag!.x, drag!.y)
       await page.mouse.down()
-      await page.mouse.move(1200 + Math.max(-180, Math.min(180, 1120 - hit.x)), 120 + Math.max(-100, Math.min(100, 330 - hit.y)), { steps: 8 })
+      await page.mouse.move(drag!.x + drag!.dx, drag!.y + drag!.dy, { steps: 8 })
       await page.mouse.up()
     }
     await j.advance(100)
@@ -181,6 +204,9 @@ test('a list click on the current position also ends its old journey', async ({ 
   await j.boot('/Positions/Mount/Top', { beforeNavigate: content })
   await expect(page.locator('[data-land-mc-opt]').first()).toBeVisible()
   const q = await j.landQuestion()
+  // D-338: Questions follows Videos and Moves and can start below the fold; scroll to it first.
+  await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
+  await j.readerLayoutSettled()
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, 'start play with an answer')
   const previous = (await snapshot(page)).journey
   const list = await page.evaluate(() => {
@@ -223,7 +249,9 @@ test('@curated a shared list link opens its defending item without a catch', asy
 // A new journey and cleared pressure are required BEFORE releasing the payload.
 test('@curated article links, Back and Forward start fresh journeys after a catch', async ({ page }) => {
   const { j, previous } = await caught(page)
-  await j.clickByMouse('[data-reader]', 'expand the caught submission article')
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/' + ID + '/Defender')
+  await j.readerLayoutSettled()
+  await j.clickByMouse('[data-toc-type="overview"] a', 'read the caught submission article')
   const link = page.locator('[data-reader-body] a[href*="/Positions/"]').first()
   await link.evaluate(e => e.setAttribute('data-arrival-article-link', ''))
   await wheelTo(page, '[data-arrival-article-link]', '[data-reader]')

@@ -31,7 +31,10 @@ def check_execution(path):
 
 def select_analytics(analytics, count, output):
     """Select before inference so reserved files never enter a paid batch."""
-    candidates = sorted(Path("content").rglob("*.json"))
+    # The Obsidian vault also lives under content/. Its settings are not authored
+    # pages (community-plugins.json is a list), and must never enter a paid batch.
+    candidates = sorted(path for path in Path("content").rglob("*.json")
+                        if not any(part.startswith(".") for part in path.parts))
     if not candidates or count < 1:
         raise ValueError("Analytics selection needs source files and a positive limit")
     allowed = filter_candidates(candidates)
@@ -47,6 +50,8 @@ def select_analytics(analytics, count, output):
     data = {}
     for path in allowed:
         data[path] = json.loads(path.read_text())
+        if not isinstance(data[path], dict):
+            raise ValueError(f"Analytics content source must be a JSON object: {path}")
         stem = str(path.relative_to("content").with_suffix(""))
         for suffix in ("", "/Top", "/Bottom", "/Attacker", "/Defender"):
             sources[key(stem + suffix)] = path
