@@ -10,8 +10,8 @@ import { gzipSync } from "node:zlib"
 test("@curated reading-ready payload counts delivery with dormant controls", async ({ page }, info) => {
   await page.setViewportSize({ width: 1366, height: 768 })
   await page.addInitScript(() => {
-    const blob = { v: 2, settings: { readingFocus: true, readingFilm: false, readingCard: false,
-      readingHand: false, readingMap: false, readingFeedback: false }, settingsAt: {}, updatedAt: 1 }
+    // D-338 retired Focus: the quiet article view is seeded through the game layers it overrode.
+    const blob = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {}, updatedAt: 1 }
     localStorage.setItem("bjj-neural-owner:guest:progress", JSON.stringify({ format: "bjj-progress-owner-v1", owner: { kind: "guest" }, blob, savedAt: 1 }))
     performance.setResourceTimingBufferSize(4000)
     new MutationObserver((_, observer) => {

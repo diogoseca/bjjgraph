@@ -561,7 +561,10 @@ writeFileSync(R("dist/reading.css"), readMin);
 // satisfied by an empty or missing reading.css, and "present in reading.css" is satisfied by a
 // build that ALSO left them in the eager sheet — which would ship them twice and save nothing.
 // A filename ban cannot see rules embedded in another file; only this can.
-const READ_PROBE = [".r-s", ".ng-reader-contents"];
+// v1.230.0: Inspect's .r-s renderer is retired (feat/video-cards). The complete article root
+// (.ng-reader-article, the sections reader's own class) and its index (.ng-reader-toc) must exist
+// here and remain absent from the eager CSS.
+const READ_PROBE = [".ng-reader-article", ".ng-reader-toc"];
 for (const sel of READ_PROBE) {
   if (!readMin.includes(sel)) {
     throw new Error(

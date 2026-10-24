@@ -68,9 +68,17 @@ for (const mobile of [false, true]) {
       await page.evaluate(() => document.body.getBoundingClientRect().top)
       await j.advance(2500) // finish the camera's continuous approach to the settled band
       await page.evaluate(() => (window as any).__neural.newList())
-      // The focus star and a different hovered pair's star can both be visible.
+      await expect(page.locator("[data-seat-star]")).toHaveCount(1)
+      // STALE SPEC (sections-claude, 2026-10-19): after the pane closes, the pointer rests
+      // where its close button was, and D-318's centred arrival now draws Cross Collar
+      // Choke from High Mount there, so its hover label carries a second, correct star
+      // (claude-verify/probe.log; dev's framing leaves that point empty). Every claim
+      // below is about the current seat's own star, so name it.
+      // v1.229.0 (PR 310): the focus star and a different hovered pair's star can both be visible.
       // This journey saves/removes Mount/Bottom; every action must keep that identity.
-      const sel = '[data-seat-star][data-list-add="Positions/Mount/Bottom"]'
+      // v1.230.0 merge: the star is named by BOTH, the current seat and the item it saves.
+      const seat = await page.evaluate(() => (window as any).__neural.focusIdx)
+      const sel = `[data-seat-star="${seat}"][data-list-add="Positions/Mount/Bottom"]`
       const star = page.locator(sel)
       await expect(star).toHaveCount(1)
       const activate = async () => {
@@ -100,7 +108,12 @@ for (const mobile of [false, true]) {
       if (await rewardClose.isVisible()) await rewardClose.click()
       await page.screenshot({ path: test.info().outputPath(`favorite-${mobile ? "phone" : "desktop"}.png`) })
 
+      // D-338: Questions follows Videos and Moves, so its ✕ can start below the phone's fold.
+      // Scroll to it as a reader would, then back to the map's band where the star lives.
+      await page.locator("[data-land-close]").evaluate(e => e.scrollIntoView({ block: "nearest" }))
+      await j.readerLayoutSettled()
       await j.clickByMouse("[data-land-close]", "hide the question card")
+      await page.locator("[data-reader]").evaluate(e => { e.scrollTop = 0 })
       await j.advance(500)
       await expect(page.locator("[data-landcard]")).not.toBeVisible()
       await expect(star).toBeVisible()

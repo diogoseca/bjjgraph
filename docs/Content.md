@@ -555,8 +555,16 @@ the recorded duration. Network availability checks belong to `verify_clips.py`; 
 whether the clip teaches the right mechanic safely. Watch the selected segment and confirm its
 role, attribution, and safety before relying on it.
 
-The app's dossier payload keeps player fields (`id`, `start`, `end`, `vertical`, `title`, `by`), not
-provenance metadata. Position root clips supplement both role dossiers. Generated Markdown also
+The app's dossier payload keeps player fields (`id`, `start`, `end`, `vertical`, `title`, `by`,
+`duration`, `front`, `half`), not provenance metadata. Position hub clips supplement a role dossier
+only when `half` names that role or `both`; an untagged hub clip reaches neither role. A clip authored
+in the role itself stays there even when an untagged hub duplicates its ID. After half routing,
+the effective list deduplicates by video ID, with the half-local front, array order and metadata
+taking priority over a hub duplicate (including a differently trimmed copy). The build reports the
+number of unassigned hub clips and suppressed choice fronts. Choice cards consume only the first
+clip with `front: true` in their own perspective; they never promote a later clip, sort by duration,
+borrow the opposite role, or use a destination position's video for an escape. Missing approval
+produces a quiet inert media area. The current node reel preserves curated array order. Generated Markdown also
 renders film-study embeds and video structured data. Prefer focused technique demonstrations;
 longer concept instruction can be appropriate for Principles. Duration preferences are editorial
 sourcing choices, not a universal schema-enforced policy.

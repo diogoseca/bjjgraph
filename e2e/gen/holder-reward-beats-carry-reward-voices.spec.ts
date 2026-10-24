@@ -1,3 +1,4 @@
+// v1.230.0 reverses v1.218.1/v1.220.0 Inspect. The video viewer preserves the legacy research beat; Choose commits.
 /* @hyperspace {"theme":"sound","L":"white-belt-holder","F":"rewards","B":"beat-voice-parity"}
    @invariant "The sound bus mirrors the rewards vocabulary — a live challenge completion logs an objective-tick voice and a coin mint logs a coin-mint voice, each exactly once per beat with the 100ms same-beat dedupe intact." */
 import { test, expect } from "@playwright/test"
@@ -68,7 +69,7 @@ test("live white.commit completion ticks; coin mints voice exactly once, mint-on
     }
   }
   const s0 = await snap()
-  await page.locator(`[data-tech="${chosen}"]`).first().locator("[data-choice-inspect]").click()
+  await j.watchChoice(chosen)
   const dSheet = await delta(s0)
   // TWO OBJECTIVES SHARE THIS BEAT (v1.104.0 bb80a008c "The first-roll coach is deleted; its
   // objectives now measure real actions"): white.coach2 "Preview a move" moved from the coach's
@@ -87,7 +88,7 @@ test("live white.commit completion ticks; coin mints voice exactly once, mint-on
   // ── RED: white.commit completes off a VOICED trigger (commit → capacitor-latch) —
   // the reward vocabulary promises exactly one objective-tick for this beat too.
   const s1 = await snap()
-  await page.locator("[data-go]").first().click()
+  await j.pick(chosen)
   const dCommit = await delta(s1)
   expect(count(dCommit.beats, "challenge_completed"), "white.commit completed live").toBe(1)
   expect(

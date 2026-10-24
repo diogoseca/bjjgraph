@@ -29,6 +29,9 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.230.0** — [Article sections and floating contents](#v12300--article-sections-and-floating-contents)
+
+- **v1.231.0** — [Videos lead the cards, with separate actions](#v12310--videos-lead-the-cards-with-separate-actions)
 - **v1.229.1 review** — [Auth diagnostics and parallel batch cancellation](#v12291--auth-diagnostics-and-parallel-batch-cancellation)
 
 - **v1.229.0** — [Corrected node identities and preserved retirements](#v12290--corrected-node-identities-and-preserved-retirements)
@@ -11151,6 +11154,790 @@ The unchanged first-hand gate passed both matched samples. The completed change 
 480,054 / 500,000 and its gzip changes by +9. Palette size and payload baselines are unchanged.
 
 
+## v1.230.0 — Article sections and floating contents
+
+The complete published article now follows the existing choices row as separate cards.
+The approved order is untitled Videos, Overview, Essential principles, the authored
+recognition/setup and options for the current side, Safety guides, Common mistakes, other
+authored groups in source order, then Related. Learning and System Sources remain last.
+Missing groups are omitted; a defender receives shared hub safety, never attacker fallback
+prose. The app groups the existing article DOM, retaining source text and anchor identity;
+templates, generated pages and the corpus census do not change. The external gap is 6px.
+
+The owner's D-318 review removes the perspectives switch: the current node's other half
+changes role through the same canonical reading/history owner. The floating index names
+the technique, role and origin. It replaces both the desktop rail and tablet Contents
+panel with a fixed, containerless list at the right control inset.
+It never contributes to article width or centering. At a 24px inset, a 200px list plus 12px
+clearance first fits beside the centered 680px article at 1152px. Below that measured fit,
+and on phones or short landscape screens, section headers retain the same controls.
+Labels scroll to a section; the separate 44px eye targets collapse its body to the header.
+Collapsed labels remain opaque and grey. A small text shadow supports contrast over the
+canvas without adding a panel. Scalar `readerSection.*` preferences use the existing
+per-key account sync and Settings editor; missing keys mean shown.
+
+The first 1152px screenshot exposed the current node's label crossing the TOC. An initial
+occupied-gutter camera correction fixed that collision, but D-318 U4a supersedes it:
+arrival centres the complete pair and label in the space above the first section, using
+`pairMid`, `_LY` and the measured label width. Native scrolling covers the stationary
+node with the sections. The reader no longer wraps `_paneCameraTarget`. Eight-width
+journeys assert the centred pair and native occlusion; restoring the retired gutter
+correction fails the new claim. The article remains independently centred. Input tests
+retain the canvas positive control and the first-mouse SVG replacement race;
+`attachInput` names the overlay explicitly.
+
+With Book shown, the bottom shelf is absent. Questions and Moves have named 44px headers
+and separate eyes in the index, using the existing game visibility settings. The Moves
+header follows the unchanged 16px deck gap; the hand follows its header immediately.
+The article follows the hand with the same 6px gap. Book off retains the restore shelf.
+
+D-325 also fixes a pre-existing Browse target shift proved on dev 2fe86f33a:
+while a pointer rests over Mount, the real aliases response removes a loading
+row and lifts Mount from y624 to y594, making the click open Mount-to-Armbar.
+Late payload repaints now wait until the pointer leaves the results list; the
+existing press guard still delivers a held click first. Typing remains immediate.
+The original reading-mode Browse journey is unchanged. A separate held-response
+journey pins both widths, click/press/leave, exact button identity and geometry,
+native article navigation and publication of newly matched aliases after leave.
+Its remove-hover-protection control must fail the clicked-article assertion,
+never count a wait timeout as a kill.
+
+There is one `_landFilmEl`. `place(target)` moves it between the article and a normal home
+inside the same native scrollport as practice and choices. Native `moveBefore` preserves
+the player; fallback `appendChild` first calls `pauseLandFilm`, then invalidates stale
+handles and callback generations. Collapsing Videos pauses without destroying anything or
+calling `collapseClip`. Desktop reserves 400px media, a 60px gap, a 390px practice face and
+52px for the right arrow. The 44px outside arrows remain in their original positions.
+Below the 902px composition fit, media stacks above practice with 12px clearance; at 390px
+the media is 358px and the deck face is 286px. Width is set before measuring
+`currentFilmHeight()` or the current host rectangle. A single requestAnimationFrame
+coalesces layout and unchanged geometry is not rewritten. The shelf and article share that
+single writer; fixed replay retains its own. A pointer latch established before reader
+loading holds adoption/layout through a game press and resumes after the native click.
+The integrated first-answer race reproduced with both append and moveBefore: the element
+survived, but its geometry moved between pointerdown and pointerup. The regression forces
+that order at phone and desktop widths, preserving question identity and one paid answer.
+
+Without chrome's optional `readerChromeFrame` hook, Focus/Browse precedes Questions in
+the game flow; reference titles stay above their article. No head height is reserved
+in the map band. With the hook,
+`headBottom` replaces only the old flow top; `offset` is added after the node band and
+game gaps, before the authoritative fit clamp. `bottomReserve`, when supplied, gives
+`end = viewportHeight - bottomReserve`; otherwise the shelf's top minus 8px remains the
+bound when the shelf is visible. With Book shown, the hidden shelf contributes no height;
+the flow still clears the measured bottom controls and the 8px gap. Null and undefined
+preserve fallback geometry. Phone Focus/Browse stay in flow; desktop tools move to chrome.
+The header explicitly resets Quartz's global `header { margin: 2rem 0 }`; without
+that reset, its top margin collapsed through the article and replaced the 6px hand gap
+with 32px only on the no-hook path. Both paths now preserve the same exact flow gaps.
+
+Integration merges escape v1.227.0 rather than rebasing it. Its `_executionDock` owns the
+selected card's reservation lifetime. The reader adds measured `rowTop` and game height
+to that same reservation, preserves group-label clearance and leaves native top as the
+sole hand-position writer. A choice executed before reader adoption is translated once
+from its fixed rectangle. Arrival, resize and deliberate reading release the reservation
+through escape's existing contract. The direct handoff units cover both adoption orders.
+
+Removed premises and their replacement assertions are mapped in
+`tests/artifacts/article_sections_test_migration.json`. The shared media contract is in
+`reading-media-placement.spec.ts`; the TOC, semantic grouping and chrome hooks are in
+`article-sections.spec.ts`. No new callers are added to the legacy rendering helpers being
+retired by videos, and its `.r-*` rules remain unchanged. The inert `.ng-winbar` selector
+remains until chrome removes that markup.
+
+Known UI issue retained for the orchestrator's follow-up: at 390×844 an earned reward's
+dismiss button (x336–366, y110.969–154.969) overlaps the film next arrow
+(x337–381, y108–152). A native tap at (359,130) dismisses the notice; after dismissal
+the arrow scrolls normally. Film-only journeys use ordinary new-user progress instead of
+the harness's artificial White-track completion, preserving all existing arrow assertions.
+That fixture correction does not resolve the real transient collision.
+
+The initial integrated local full core ran 956 cases: 934 passed, five skipped, 17 unexpected
+failures. All 17 passed in the rebuilt 130-case focused run; two new camera-sampler
+failures were stale premises separating gameplay rows from the persistent shelf and
+were repaired without changing bounds. The next run passed all 13 focused cases,
+including the forced phone/desktop press ordering, and all 12 phone execution trials.
+Five final positive controls passed, including native orb tapping, wheel paging and
+both media widths. The original intermittent phone execution geometry did not recur
+in those 12 trials; that does not by itself establish its original cause. The
+orchestrator assigns the final whole-suite gate to GitHub's four core shards plus
+generated suite, with an independent review before merge, instead of another local
+full core holding the shared build lock.
+
+The initial mutation report overstated its result: 46 controls failed assertions,
+while the detached-target wheel case timed out before its ownership assertion.
+The delivery observer now runs in capture phase; that control reaches and fails
+`reader.interacting === false`. The runner accepts assertion failures only, rejecting
+wait/test timeouts. Two additional review controls fail independently: corrupt only
+the current TOC label/target, or remove reference playback while retaining article
+text. The aggregate is 49 verified assertion failures (46 retained, three rerun/new),
+not a fresh 49-control run. Two initial survivors exposed coverage
+gaps: identical CSSOM assignments emit no MutationObserver record in Chromium, so
+the media journey now counts owned style calls too (53 vs the expected zero); and
+the old orb fixture no longer crosses a misplaced reader head, so the existing
+approved-home assertion is its precise guard. The unchanged orb-tap journey remains
+green. Mutations restore
+the exact original app hashes. No test tolerance was widened.
+
+Independent review found that removing published iframes had lost playable videos
+on seatless reference pages. The reader now passes their authored embed metadata to
+the existing media owner with a canonical reference path. It never assigns a game
+seat or pays a gameplay film beat; navigation retires the old host, and hiding Book
+or Videos pauses playback. Native playback passes for all four published Frames
+videos at desktop/phone sizes and explicit video fixtures on Learning and System
+pages. The current corpus has 199 embeds on 62 Principle pages and none on Learning
+or System pages; the latter checks are fixtures, not claims of published videos.
+The four new playback cases and 16 affected existing journeys pass. Readiness sleeps
+now observe coalesced layout and finite animation completion, with every original
+geometry/time bound retained. The late-response TOC check asserts the exact nonempty
+set of current labels and targets. Neural.md again explicitly promises one page per
+trackpad gesture and spent-time preservation when restoring a cached face.
+
+Subsequent CI and slower-runner investigation exposed two application defects. New
+questions could paint before the reader adopted their final geometry, so a measured
+answer could move before a click. Publication now withholds visibility and keyboard/clock
+eligibility until synchronous layout finishes. The original measure-then-click order
+remains; forced first adoption fails on the old app and passes without movement on the
+fix. The during-press regressions remain. Inspect's closing transform also belonged to
+its completion callback; the reader no longer clears it or lets horizontal overflow
+create an unintended native scroll. Both the full mouse/keyboard execution path and a
+held-close control retain the exact one-commit assertion.
+
+The cold and loaded reading layouts now share the same reserved node band, so a late
+real deck cannot change the opening flight's aim. The forced late-deck case reproduced
+roughly 10.94 world units of drift on dev and 10.95 on the earlier sections app; the
+fixed target remains unchanged. The original less-than-three bound remains. Late
+question backfill also keeps its eye's named target: ID assignment happens when the
+actual replacement surface is adopted, rather than only during a prior section sync.
+
+The D-318 delta has 55 assertion-level mutation kills. D-322 adds one execution control,
+for 56 of 59; three View-dependent controls remain pending. Receipts preserve initial non-kills and corrected target/order
+controls, rather than treating a timeout as a kill. The broad unit gate is accounted
+for: 116 suite files pass in the sandbox, and its 23 subprocess-restricted failures
+pass unchanged outside it (122 tests). These checks do not replace the final CI gate.
+
+D-322 fixes execution framing without moving the clicked card. Native scrolling can
+put that card at y68 while the announcer ends at70.59, making the old vertical-only
+bound impossible. The reader frames the full pair/name in measured free 2-D space;
+the above-card bound remains wherever that band exists. The existing camera integrator,
+zoom and pane stamp remain authoritative. Eight cases pass at 4x CPU, including both
+motion modes, phone, pane opening and native wheel. All clicked-to-stand-in rectangle
+deltas are zero. Actual canvas text and shared drawn silhouettes clear every occupied
+rectangle; old e26 and the drop-correction control fail that painted-overlap assertion.
+The reward is measured through its owner because it portals outside the fixed wrap.
+The centred reading/occlusion case and both unchanged opening-flight bounds still pass.
+
+At the earlier review checkpoint, against independently rebuilt dev 45cf1f9e1 on the
+same emitted corpus: eager gzip
+346,317 → 347,558 B (+1,241); first-hand core gzip 365,711 → 366,831 B (+1,120);
+deferred raw 480,054 → 501,938 B (+21,884); largest chunk remains 39,000 B. Both
+browser first-hand observations count 11 requests. Equivalent CSS grouping saves
+317 B, the duplicate stylesheet wait 91 B, unused generic film-map entries 35 B,
+and the header margin fix three B, totaling 446 B. No further safe feature-preserving
+trim was found in this lane. D-305 and D-305a remain separate historical commits;
+D-305b separately sets both deferred ceilings to the measured 501,938 B, with no
+headroom, for the review's reference-playback fix (+999 B). Videos owns returning
+them to 500,000. Eager growth is 4,560 B against the unchanged 342,998 B checkpoint,
+within its 5,000 B cap. No payload checkpoint was accepted or automatically updated.
+
+Recorded at the D-324 dev merge (1c37cd507), interim, superseded by the final
+measurement below once it lands: after D-318, D-322 and D-325 on dev63, eager gzip
+347,964 B (+4,966 against the 342,998 checkpoint, cap 5,000), first-hand core 367,235 B
+over 11 requests, deferred raw 505,023 B, largest chunk 39,000 B. D-325 trims 34 raw /
+9 eager-gzip bytes; its final eager delta is 39 B and its deferred delta zero, and it adds
+one separate hover-protection assertion kill. That merge first condensed this entry by
+4,913 characters to fit the archive cap; D-316 (2a) forbids that, so the entry above is
+restored verbatim from 466fe763d and the cap rises by +50,000 in its own commit.
+
+Takeover verification (sections-claude, 2026-10-19), on the accepted D-324 capture with this
+branch's app overlaid. The HEAD bundle rebuilt byte-identical to the D-322 and D-325 proofs.
+87 focused journeys gave 78 passes; all 12 D-318 decision controls, D-322's drop-correction
+control and D-325's hover control failed at their assertions on the current bytes. Two gaps.
+First, every journey that clicks the shelf's `[data-layer-hide=book]` is red, because D-318
+removed that shelf with Book shown and its replacement is the U7 View disclosure, still with
+the owner. These are U7-PENDING, neither skipped nor fixme'd: reading-media-placement:67 (four
+reference-playback cases) and reading-navigation:15 (320 and 390px) and :190.
+Second, roll-execution:214 at 390px failed the D-322 painted-overlap claim on both the dev63
+and D-324 sites, so not content. The card landed at y78 or y344 instead of y611 by timing.
+
+D-326 fixed both causes in the app. (a) An 11px band (announcer to y67, card at y78) counted as
+existing, so the band filter rejected every candidate and `frameExecution` returned the
+unfitted target onto the card. A band now needs room for the reserved pair box plus both 12px
+clearances, else free 2-D space. A centred reduced-motion stand-in leaves 96px a side, and
+the box (100px) fits there only on a second pass at 4px clearance. (b) A full-width challenge
+reward (x12..378, y82..184) left no slot anywhere. `holdChallengeReward` returns a showing
+notice to the queue's front at `startExecution`, `showNextChallengeReward` waits while
+`_execution` is set, and `clearExecution` shows it again in a microtask after the move lands:
+full time, never dropped. New 390px cases scrolled to the top run in both motion modes; they
+use `scrollIntoView` as the pick path does, since a phone wheel pages the deck or glides the
+hand. A new journey holds a notice showing at the click plus a coin minted mid-execution, in
+order. The thin-band and reward-hold mutants fail at their claims. Earlier versions proved
+neither: a phone wheel paged the deck before any claim ran, a retrying `toHaveCount(0)` outlived
+the notice's 4.8s timer, and an uncentred card let the unfitted target miss it. Those failures are kept in
+`claude-verify/attempt1..3`. The overlay first served the capture's MDP manifest. The game
+bundles pin their own, so card-presentation's odds printed dashes until `mdp/` was relinked.
+
+seat-star:59 desktop then failed at :118 with two stars, while dev's capture passed 4/4. A probe
+showed the second star belongs to Cross Collar Choke from High Mount, the `_hover` node under
+the pointer resting where the pane's close button was; D-318's centred framing put a node
+there. That is a STALE SPEC: the locator now names the current seat by `focusIdx`.
+
+The reward hold ships in the eager neural.js (+100 B gzip). D-327 accepted the eager
+checkpoint at dev's own 346,412 (D-324 capture of 7ac17caa0), so the 5,000 B cap measures this
+PR's +1,652 (348,064 B). D-305c sets both deferred ceilings to exactly 505,069 B: +1,184 for
+D-318, +1,901 for D-322, +46 for D-326. Largest chunk 39,000 B. Videos returns the ceiling to
+500,000. Final runs: roll-execution 20/20 with card-presentation and card-click-contract
+(40 passed), seat-star 4/4, reward journeys 6/6; the only remaining reds are the seven
+U7-PENDING cases. Receipts are under `scratch/article-sections/claude-verify/`.
+
+CI round on 48be3a910 (sections-claude, 2026-10-19). e2e-full: validation, build and the generated
+suite green; the four core shards red with 68 failures, against dev's own green run (PR 309, all four
+shards), so none pre-existing. No local full core had run since D-318: the seat's was pre-D-318 and so
+was the previous CI. Classified per spec. 19 REAL, fixed in the app:
+- frameExecution read `_LY` before the first frame. updateCamera runs before draw, and the pumped
+  clock draws only at the end of an advance, so 14 defending-* journeys threw from the loop.
+- A calm reading arrival centres its pair with no lease, so a camera=false escape handed the camera
+  to the follow-cam's moving zoom (camera-continuity:380). The calm catch now keeps the map lease's
+  timing without capturing a target; :427, an escape after the lease, is still followed.
+- A shared-list item read during the intro was overridden by the intro handover's startRoll(), so the
+  read pair sat at (8023,-2030). This predates the PR; U6a made it reachable. A board staged during
+  the intro now keeps it.
+- The follow-cam lifted the node against the reading band's edge, giving two rest framings
+  (y130/y140, pane-layout:82). The band carries no lift.
+- D-329 (camera-continuity:287): reading-view executions frame inside the node band the landing
+  mounts below; free space only when no slot fits, with the landing rows' column occupied.
+30 STALE CONTRACT, each citing D-318 U1(1) or U4a, with one ledger entry per group. The dock claims
+keep their map view under the persisted readerBook=false (no UI path to Book off before U7), with
+reading twins through the section eyes; the Moves heading gaps; the published nodeBand as the
+reading oracle; counted fillText draws in place of pixel strips; and the phone hand's Inspect row
+revealed before a real tap (it starts 2px below the reader's scroll edge at 390x844). 18 U7-PENDING
+need the View menu's Book, Map or Feedback. 1 unreproduced: the new 390px reduced-motion scrolled
+execution case moved its card 4px on CI only, 0 of 6 locally at 4x CPU.
+My first escape fix (no retarget during any camera=false execution) broke :427; it was replaced.
+A view-rect change was reverted because no test needed it (its mutant survived 36 camera journeys).
+I also rebuilt the bundle beside a running slot once; that slot was discarded and re-run.
+Controls on the final bytes: 14 reader mutants, 4 neural.js mutants
+(tests/artifacts/neural_app_mutants.mjs, which replaces reward_hold_mutant.mjs) and the browse
+control, all killed at their claims. Payload: deferred 505,399 (D-330, +330 over D-305c for the `_LY`
+guard and D-329), eager gzip 348,106 (+1,694 against D-327's checkpoint). Receipts:
+scratch/article-sections/claude-verify/.
+
+review-claude's delta review of 0c235918a was HOLD (B2 S2 N6); the orchestrator ruled D-331.
+- B1: roll-execution:218's 390px reduced-motion scrolled case moved its card 4px, then 7px, on CI
+  only. Holding the hand's win chance pending across the click, through the real deferred choice
+  runtime and a controlled provider, left the card at 81-82 both times. So did 1x, 4x CDP and a 50%
+  whole-browser CPU quota. Unreproduced, so the journey now attaches its handoff record before the
+  unchanged 2px bound and keeps its trace on failure: rects at pointerdown, click and stand-in
+  mount, scrollTop, layout and press flags, win-chance status, fonts status, layout-shift sources.
+- B2: reading-mode:71 x2 and reading-contract:128 drove Videos/Questions/Moves through the hidden
+  shelf; those steps use the section eyes now, so all 18 fail only at a View control (15 + 3).
+- S1: frameExecution counts both fallbacks (_execFrame.noFrame/.noFit), and the D-322/D-329
+  journeys assert noFit 0. A forced no-fit control fails at that claim.
+- N1: the contents heading is "Loop Choke · Escaping" on one line, the qualifier beneath.
+- N2: _calmCatchUntil declares its lifters, arms a pre-clock -1, and releaseCamera() clears it.
+- N3: the dock oracle is the DOM's free column again. The per-frame case compares against the
+  card, because reading the app's eased centre raced the coalesced layout by a frame (720 vs 741.2).
+- N4: probed at 1440x480 (a 64px band): the free-space fallback still found a slot and the exchange
+  stayed clear of the landing rows. Recorded in camera-continuity's header.
+- N5: the budget note now narrates the D-316 raise.
+- D-305e: deferred 505,482 (+83).
+- Controls on the final bytes: 15 reader, 4 neural.js and the browse control, all killed at their
+  claims. Every focused journey is green except the 18 U7-PENDING.
+
+CI 39282161026 on 105c5f110: 18 U7-PENDING, plus camera-continuity:391 at 390px and the generated
+suite's spa-nav-single-instance-law:88. review-claude's Delta 2 was HOLD; the orchestrator ruled D-332.
+- D2-B1, REAL BREAK since 8a64e8ac7: the calm reading catch's window was read every frame, so an
+  escape picked inside it lost the catch framing once its travel outlived the window. The escape's
+  travel runs on game time that async work stretches: 3.3s normally, 4.7s under 4x CDP, where the
+  journey failed 3 of 6 at both widths. review-claude's forced expiry (0.2s after the pick) failed both
+  widths with CI's signature. The verdict is now latched at the pick (_execution.calmHeld) and dropped
+  by releaseCamera(). Forced arm green, 4x CPU 12 of 12, a new journey picking 0.4s before the window
+  closes, and mutants calm-catch-latch-lost and calm-catch-window-lost killed at their claims. Two
+  units pin the latch and the arming.
+- 391's end claims are read 2.5s after the landing, not 5s after the pick: at 4.7s of travel the
+  fixed window ended mid-flight.
+- D2-S1: the calm catch's pre-clock -1 arms on the first frame with a clock, beside holdCamera's.
+- D2-S2, PRE-EXISTING on dev: life 2's deck manifest still in flight at its landing records
+  land_q_skipped {decks_in_flight} at each render until the question backfills. Holding that
+  manifest 2s reproduces CI's exact diff on this PR and on the D-324 dev capture; the 10 earlier gen
+  runs show no red. The spec admits only those beats (that reason, then a backfill); both claim
+  controls fail at their messages. The double skip for one landing is named as an app follow-up.
+- B1 (D-332 item 3): the stand-in mounted 3-9ms after pointerdown at the card's own y in all 26
+  records, so each forced end fell between that mount and the measurement (D-333 D3-N2): the
+  lease, calm catch, press, late layout, win chance, backfill, reward yield, tray glide and growth
+  above the hand, plus the scroll clamp (slack 12,689px). The taller-sibling arm acted before the
+  pointerdown. All 0-2px. Only an induced smooth reader scroll moved it (5-6px), and the app issues
+  none under reduced motion. The diagnostics stay, now with the reward notice's presence.
+- D2-N1/N2/N3: N4's header now says what was measured, the N3 ledger row matches the spec, and the
+  PR body lists the U7 set at current lines. Deferred stays 505,482; eager gzip 348,201.
+
+CI 39298802507 on 19e1cfb23: 18 U7-PENDING plus coldstart-funnel:105; the generated suite 101 of 101.
+review-claude's Delta 3 was HOLD on a test-only fix; the orchestrator ruled D-333.
+- D3-B1, STALE SPEC (D-318, af3aac311): a new landing card waits behind data-reader-pending
+  (visibility:hidden) until the deferred reader publishes it, so coldstart-funnel's opacity-only wait
+  passed on a hidden card that its dump rejected (locally 4 of 6 plain, 6 of 6 at 4x CPU; dev's app
+  is never pending). The wait polls the dump itself now; green plain, at 4x CPU on both arms and
+  under a 2.5s reader.js hold, and control landing-never-published fails at the claim.
+- The class, audited with grep -rl: 34 journeys read [data-landcard], 5 with opacity. Under the
+  reader.js hold only coldstart-backfill went red (101, 196, 271: clicks on the canvas under a
+  hidden card, and a fixed 450ms sleep). It waits for the visible card with its entry animation done
+  now: 14 of 14 committed and under the hold. seat-star, pane-layout and pane-chrome stay green.
+- D3-S1: spa-nav admits a manifest wait only for the shown question's deck, between beacon_moved and
+  mc_shown; a skip on another deck and one after land_q_unseen each fail at their own message. The
+  app follow-up names the sibling gen-w3-15 onboard-fresh-boot-spa-nav-single-instance (task #66).
+- D3-N1: 391's end frame must be at rest as a premise. D3-N3: the new journey is camera-continuity:480.
+
+CI 39306283611 on 7c27fcce3: exactly the 18 U7-PENDING. review-claude's Delta 4: MERGE once U7 lands.
+- D4-S1, in the U7 push: lists-picker's "still readable behind the picker" (the owner's v1.103.2
+  rule) read opacity alone after a fixed 450ms, so it passed on a card the reader never published.
+  It reads visibility too; landing-never-published-picker fails at that claim. The audit, with the
+  mutant over all 72 files that touch the card: 283 of 476 tests stay green with the card hidden, and
+  four of them word a visible card while checking only existence, a count or aria-expanded
+  (coldstart-late-payload:158/:490, lists-disclosure:257, article-sections:369). D-336: each asserts
+  the card visible now, green on head, and each has a never-published control killed at that claim.
+- D4-N1-N3: the ledger's pane-chrome reason and coldstart-backfill lines, and the D-333 labels.
+
+U7 answered (D-338, the owner: "b, change something"), sections-claude, 2026-10-20. Built: Videos,
+Moves and Questions name no header; Focus on reading and Browse are gone and there is no View menu;
+the article view reads Videos, Moves, Questions, then Overview; the desktop index stays and its
+heading reads role first as one phrase ("Escaping Loop Choke from Half Guard", reversing D-331 N1).
+The Videos section is lifted into the game flow above the hand, and with the article shown the film's
+one home and preference is that section (wantsMedia is Book alone). readingFocus and its reading*
+overrides are no longer read; a saved Focus is inert. Proposed for U9 and built as the recommendation:
+one close icon on every width (the ghost X the card and the hand already wear) and a closed part or
+section as a light centred label, glyph above name, no box; the index only navigates and dims what is
+closed (no eyes, no Section settings link); no new control for the map, Feedback or leaving the
+article (the logo opens the pane Browse opened). Alternatives B and C for the closed look, and an
+article X or Esc for leaving, are on the U9 screens. Measured consequence for the owner: at 1440x900
+Questions starts at about y658, so its answers sit just below the fold until the reader scrolls.
+
+The journeys found three real breaks, fixed in the app. Deck paging reset the reader to scrollTop 0,
+which after the reorder scrolled the deck away (paging, wheel momentum, chevrons, answering every card);
+a page change now scrolls only to the card's own top edge, and Home/PageUp clamp to it. At 1152px the
+Moves tray ran under the index rows, the hand's X under a link; the first fix cut the tray at the index
+once it showed, which moved the hand off the column centre and flipped its box by 236px between
+states (choice-row-centre:70); the tray is now symmetric about the column, 12px short of the index,
+decided by the index fit rather than its readiness. And the deck's backs (3px per remaining card)
+would have overlapped the first article section at the 6px token; the article now clears them. Two
+more came from pane-layout:162. Opening the pane moves the reader's bottom reservation with the column,
+so the scrollport grew for a moment (761 to 812px) before the document did, and the browser clamped a
+reader at the article's end from 8839 to 8788 for good (the document then reached 8974); the scroll
+handler now keeps the place through a clamp to a shortened end and layoutNow restores it once the
+document allows (a first try inside one layout pass changed nothing and was reverted). And a Videos
+clip is reading since D-338, so a pane that paused first could resume the game on close while the
+reader read on; a reading gesture now re-pauses a running game. Controls d338-clamped-place-lost and
+d338-running-reader-not-paused.
+
+Migration: the 18 U7-PENDING journeys and every other claim on a removed control (79 ledger rows in
+tests/artifacts/article_sections_test_migration.json). A claim whose control is gone is retired
+explicitly with D-338, never deleted: the Focus preset and its reload, the article view's Book, Map
+and Feedback toggles (their absence is now asserted), the index eyes, the side-by-side film home's
+sizes. Map-view claims boot with the article away as a returning reader left it; controls on the
+question card are scrolled into view first. pane-layout's "reopening the pane leaves the scroll alone"
+keeps its exact form, scrollTop unchanged except for the final document's own clamp, and prints its
+numbers. landing-deck-answers answers with a measured mouse click after asserting reachability: with
+the deck low in the view, locator.click()'s own scroll-into-view retry moved the reader 672px (a probe
+wrapping scrollTop, scrollIntoView and focus saw no app write with a real mouse), which no visitor's
+click does. Local runs: H20/H21 on
+the 43 reader files (403 of 436 green, then every red migrated or fixed), H22 on the other 104 files
+stopped at 284 by the orchestrator (4 reds triaged: two overlay artifacts of the local site's
+postscript stamp, the tray re-centring, and two deck-below-the-fold specs); the rest ran on CI.
+Controls (H24, H26, H30-H33): 80 reader controls, each killed at its own assertion, except
+execution-node-band-removed, recorded as a non-kill in camera-continuity's header (the lifted Videos
+section is occupied space, so the free search lands in the node band at 390px and the D-329 preference
+is not gated there); the app controls all killed, reading-band-lift-restored at its moved line 125.
+H23's journeys and controls first ran into a server the stopped H22 runner had leaked on the private
+port; its U9 screens were unaffected. Payload: deferred 506,382 B, exact, inside D-331's allowance of 506,399 (two steps, each its own
+commit); eager gzip 348,143. Receipts: scratch/article-sections/claude-verify/H19-H33.
+
+CI 11e7f83ff (D-346 to D-351), sections-claude, 2026-10-20/21. Validation, the build and core shards 1
+and 2 green; shards 3 and 4 and the generated suite had 7 reds, all D-338 consequences in specs the
+stopped H22 never ran. review-claude's Delta 5 (HOLD) showed reds 1-2 were STALE SPEC: beside the
+index the Moves tray is a 968px scroller ending at 1204 at 1440, so Gift Wrap sat past its clip, and
+no visible card was covered. D-347 kept the symmetric tray; the full-width variant (the index starting
+below the tray, +221 B over the allowance) lives on side/d347-fullwidth-tray, and the tray width went to
+the owner as U9 screens: moves fully visible on Mount Top at 1440/1152, as built 6/4, one-sided 7/5,
+full width 8/7. Migrated with claims kept: roll-execution:225 and card-click-contract:101 scroll the
+tray to the card first; the generated cue test's proxy is the row's rectangle; panic-card:46 now says
+the drill clears the escape tray from below (D-338 reverses its direction); option-edge:700 exposes a
+strip above the sheet; pane-layout:82 asserts the card against the hand; roll-card:205 and
+outcome-on-cards:129 wheel or answer where the reader is, the latter with a measured mouse click.
+Delta 5 fixes: both control runners now require a green unmutated baseline per spec and grep before a
+kill counts (D5-B2), which caught execution-occupied-space-lost's earlier false kill; Home and PageUp
+never move the view down (D5-S2); the hand is adopted before the closed Questions label so Tab order
+reads Moves, then Questions (N3); reading-navigation:190 keeps its Book-restore claim from a saved
+Book-off boot (D5-S4); new claims for the face staying in the scrollport while paging, the tray centred
+on the column, and the deck backs' clearance, each with a control (N1, N2); Architecture.md updated (N6).
+D5-S3's new 390 exchange from a node with no Videos section (Reverse Mount Top) was red on head, a
+REAL BREAK: at the 136px phone band its arc carried the pair, on screen (fx 29), 3px into the Moves
+row (lo 223.1 against rows 220), room the 44px Questions header and its 6px gap had supplied before
+D-338. D-348 (start the flow 12px under the band) moved the rows and the pair together (fx 19.9, lo 229.0
+against rows 226) and was reverted. D-349 grew the phone band by exactly that header and gap, to 186.
+The test still failed 5 of 5 at 186, on the same 5 frames every run (t 13.087 to 13.153, mid arc flight),
+and a probe that dumped all 360 frames (H44) showed why: on those frames the pair was wholly OFF screen,
+right edge at x -140 to -214 and its label ending at x <= -0.07, and the helper compared lo with the rows
+and never the x extent. Every one of the 245 frames with the pair on screen cleared the rows by at
+least 30.2px. D-350b aligned the assertion with its claim: a frame is excluded only when the whole
+silhouette (the same 1.6r as lo) lies outside [0, W], both counts are reported per run, and fewer than
+31 asserted frames fail. Asserted / excluded per run over 5 full-file runs (H45, 135 of 135 green): roll start
+287 / 0 and URL arrival 418-420 / 0 at both widths; the exchange at 390 137 / 223 and without Videos
+245 / 115 every run; at 1440 109 / 0 in 4 runs and 134 / 226 in 1. Every excluded frame is the executed
+technique's pair, left behind off screen while the camera arcs to the landing; from the landing on,
+the new current node is on screen and asserted. The header's ZERO-overlap mutants (v1.219.0's noprelift,
+noahead) are now scripted controls; noprelift is killed at its claim at both
+sites under the filter. noahead (at both widths) and execution-node-band-removed pass under the
+filtered helper and the pre-D-350b one alike, so no kill was lost to the filter. They are recorded as
+NON-KILLS, and their rows stay in the runners so the receipts show them. noahead: a reading-view
+exchange frames through frameExecution, so the prediction decides only a map-view exchange, and no
+journey runs one. execution-node-band-removed: since D-338 everything below the 390 band is article
+content that the free search already counts as occupied, so it lands in the band anyway. The
+orchestrator opened two follow-ups: a map-view exchange journey for noahead, and a 1440 probe of
+whether D-329's free search can pick a gutter beside the column. The reader now shares one reference regex,
+13 B smaller, so the deferred payload stays under its ceiling without a step.
+Before the push every journey in the reviewer's grep ran locally (H46, D-347): the 16 generated files
+17 of 17, the 52 core files 450 of 453. systems-demand-live:46 is the local site's (no systems.json
+is served; red in every multi-file local run, green on CI). landcard-modes:349 was STALE TIMING, red in
+both 52-file runs (H36, H46) and green alone: it pressed ArrowRight once the defense card's shell was
+visible, one deck fetch before its question docks, and an arrow with no question pages nothing.
+Delaying that fetch 1.5s reproduced the red exactly (no question at the press, 0 pages, 1/5) and
+settling first paged once (H48); the press now follows landSettled() with the mounted first card as a
+premise, control defense-arrows-lost. defending-landing:251 (right) was red in two branch runs (H20, H46) and green in others, so the
+orchestrator asked for dev as the reference (H49, 10 full-file runs each, interleaved): dev 557c57d14 0 reds
+in 180 tests, this branch 6 (251 right and wrong, 316 x3 and its paging variant x1), every one an answer
+click that executed an escape move instead ("Escaping, Frame against the attacker's bicep and hip").
+REAL BREAK, an app race from D-338 (D-351): the panic card now sits in the reader column under Videos and
+Moves, and the catch opens the submission's defender article. Traced every frame (H50, H51), that article
+arrived 29-79ms after the card was clickable: the film first sat in the 98px media home, then the
+article's Videos card (212px) was inserted above the hand, and layoutNow moved the hand and the answers
+down 114px. clickByMouse had verified the answer owned the point, so the click at its old centre landed in
+the moved hand. Option (a), scrolling the reader by the same delta, was ruled first and withdrawn on
+evidence: the scroll carries the node band, so the late Videos card would have covered the current node.
+(b) as built: _queueReader stamps each request with its landing (one request per landing, kept by a
+backfill; a path that opens no article marks it skipped), and _readerHold() keeps the card and hand
+(with the deck backs, arrows and hand close) data-reader-pending, hidden, with the clock parked and keys
+inert, until the article the landing asked for has rendered, 800ms at most. A published request is
+never held again. At the ceiling the parts publish pinned (_readerPin): the reader keeps their
+rectangles and holds back the Videos lift and the film's move until they settle (a graded card as an
+event, since a correct defense answer mounts the next question at once; the card or hand closed; the
+next landing; the article put away; a new viewport). landSettled() also waits for publication. New
+journeys, each with a control killed at its claim against a green baseline: a catch with the defender
+article held 500ms (no answer before the article, one rect, a measured click grades; d351-hold-removed),
+past the ceiling at 1.5s (published first, never moved, the lift released by grading;
+d351-deferral-removed), and an exchange to Knee on Belly with role pages held 500ms (card and hand each
+at one place; d351-both-removed-exchange, since either mechanism alone keeps it still). Payload: the hold first cost 1,000 B of deferred
+JS (es2019's expansion of the reader's optional chains), so the decision moved into the eager app and the
+reader only reads it: deferred 506,506 B, one exact step of +124 inside D-351's 506,799 (D-347's fixes had
+measured 506,369), and eager gzip 348,627, +2,215 of D-327's 5,000 cap. Two built-but-superseded slots
+(H52, H53) were stopped mid-run, and the first stop leaked: SIGTERM to a bash waiting on its child is
+deferred, so the body went on to its mutant runner without the lock; the runner was killed and the next
+slot rebuilt the bundle before testing. The renderer differentials (defending-landing 252 x3 and 294) went
+20 of 20 red on the hold's bytes, STALE TIMING: mechanics read straight after the pumped catch found the
+generic card's clock still parked, and the legacy fixture, which never queued the reader, armed ticks
+earlier. The retired renderer now runs under the same reader contract, and catchLoop pumps one frame after
+publication so both clocks arm on one tick: 12 of 12, still exact equality (H60).
+defending-landing then ran 10 full-file runs on head (H60): 200 of 200, the 18 original
+tests 180 of 180 and the two D-351 journeys 20 of 20. The exchange journey: 5 of 5 (H57).
+Controls on the final bytes (H47), each against a green unmutated baseline. Reader: 81 of 82 killed.
+51 died at the same line as before. 25 died at the same message, on lines this round's spec edits had
+moved. 3 now die at their named claim after Delta 5 (execution-occupied-space-lost,
+d338-tray-under-index, d338-page-scrolls-flow-top). The 2 new N1 controls are killed.
+execution-node-band-removed is the recorded non-kill. App: 8 of 11 killed, and noahead x2 are the
+recorded non-kills. reading-band-lift-restored failed exactly at its claim (back.node.y), but D-347's
+pane-layout:82 note had moved that assertion from line 125 to 127, so the runner's claim line was
+corrected and the control re-run (H49): killed at its claim. landcard-modes x3 in full-file context: green.
+On the final bytes (H61), the reviewer-grep set: the 52 core files 453 of 456, the 16 generated 17 of 17.
+systems-demand-live:46 is the local site's. Two were STALE TIMING on the hold's bytes, both fixed and
+re-run 10 of 10 and 3 of 3 (H62, H63). outcome-on-cards:300 (3 of 10, no pin involved): putting the hand
+away moves the card up 140px on the reader's next layout frame, and the card was sometimes measured
+before it; the journey now waits for readerLayoutSettled(). panic-card:70: the drill's clock arms on
+the frame after publication, so the journey pumps one. Controls, each against a green unmutated
+baseline: reader 84 of 85 killed, every one at the message it was killed at before (only the three
+D-351 controls' lines moved); execution-node-band-removed is the recorded non-kill. App 9 of 11, noahead
+x2 recorded. Receipts: scratch/article-sections/claude-verify/H34-H63.
+
+Delta 6 (review-claude, HOLD) and D-352, sections-claude, 2026-10-21. CI 931a7eea0 was red on 4 tests,
+all this delta's. The 2 generated specs were STALE TIMING from D-351: each read the decision clock as soon
+as its card existed, and a reading-view card now publishes once its article renders, its parked clock
+arming on the next frame; each settles and pumps one frame (ce98a974b). The 2 Systems reds
+(systems-rhythm:97, systems-surface:236) were an intermittent REAL BREAK of this branch: dev 557c57d14 690 of 690 over 15 full-file runs (H67, H76), this branch 5 of 276 (H70) and 2 of 138 (H66), on D-347/D-349's bytes as well, and after the fix 470 of 470 over 10 runs interleaved with dev's (H76). A
+pointerdown logger (H70, 5 failing of 276) put every failing Study tools click at (399, 27), on the map,
+while the button had moved to (970, 73). The reader set data-reader-ready in the same task as render, but
+a reference page's first layout, one frame later, moves the head (Study tools) out of the game flow, so a
+click measured at "ready" landed where the button had been. It showed on D-347/D-349's bytes too (H66), so
+it predates D-351; four instrumented probes never failed because their own round trip let the layout run.
+open() now lays out in the same task before readiness is observable. The gating journey re-opens a
+cached System page, the race's exact condition (no frame between open and ready), with the ready flip
+observed by a MutationObserver; its first form, an ordinary arrival, let the control survive 3 of 3,
+because open()'s own pre-fetch sync schedules the layout a slow fetch then waits for.
+S1 (MUST-FIX): a landing first laid out with the article put away published its live parts without
+marking its request, so showing the article mid-load held the live hand again (49 frames, the card still
+live). It is now marked live in the map view and, shown mid-load, publishes pinned at once; and the pin no
+longer releases on _landQ.answered, which a reading decline also sets, since grading settles it as an
+event. S2 (MUST-FIX): the pin fixed the rows, not the media home. A film arriving while pinned (the caught
+submission's content chunk, held past the ceiling) was docked by the app as its own overlay at y218-316
+over the pinned row. While pinned the app hands such a film to the reader at once, and the reader keeps
+the media home it was pinned with, its film and its height; a height-only rule leaked 5 frames while the
+new film still measured 0 before its thumbnails loaded. Nits: N1 the hand's half of the hold gets its
+control; N2 a journey gates D5-S2's arrival clamp and N3's DOM order, two controls; N3 panic-card:46 asserts
+its direction per view; N4 the stale texts; N5 camera-continuity's header names its counts' vintage; N6
+landSettled() returns whether the landing published and beats land_publish_stalled, and the DSL fails
+the journey by name on a hold stall, softly: a hard throw preempted three controls' claim kills (H78). Controls on the final bytes, each against a green unmutated baseline: reader 88 of 89 killed, every one at
+the message it was killed at before, execution-node-band-removed the recorded non-kill; app 11 of 13, noahead
+x2 recorded (H78, H79). The ready control survived 3 of 3 on an ordinary arrival and is killed 3 of 3 on the
+cached re-open (H75, H77). The review's prevention rule, on these bytes (H77): the whole generated suite 101 of 101, every Systems file,
+the 52 reviewer-grep files 458 of 459, defending-landing x2 42 of 42; the one red is systems-demand-live:46,
+the local site's (no systems.json served). Payload: deferred 506,636 B, one exact step of +130 inside D-351's 506,799; eager gzip 348,698, +2,286 of the
+5,000 cap. Receipts: scratch/article-sections/claude-verify/H64-H79..
+
+Delta 7 (review-claude, HOLD) and D-353, sections-claude, 2026-10-21. CI a60387fb5 was green on every job, but the
+pin let the player's own play cover the pinned hand: a clip of the pinned film opened in place over the escape tray
+(y218-440 over the row at y332), took the escape titles' clicks, and the next relayout hid the playing video under
+S2's rule. A play is now the player's own input and settles the pin, as grading does: the reader's expandClip wrapper
+releases it before its layout (no sync, which could move and pause a film that just started). That alone left the
+titles covered: a probe (H82) showed the film grows over several frames after the play while nothing relays out, and
+an explicit layoutNow then moved the rows from y332 to y456. A film in the media home is now observed like the Videos
+card, so its growth moves the rows below it. That observer made S2's rule flip-flop (a hidden home measures 0, so
+the next layout showed the film again), so the pinned media rule is now sticky until the parts settle; the control
+that keeps the pin through the play first survived on the flip-flop (H83) and is killed at "the playing player stays
+visible through a relayout" once the rule is sticky (H84). The journey: the beyond-ceiling catch with the film in the
+home at the pin; the answers never move before the play; no escape title hits the film; the player stays visible
+through a forced relayout. D7-N1: the reader runner leaves N6's soft landSettled stall out of a kill's evidence unless
+the control's claim is the stall; the six landing-never-published controls still die at their own claims. D7-N2:
+every slot that counts runs prints BUNDLES; H76's dev-versus-head counts ran on the bytes H77 printed (f76602e8,
+919d137b), with no rebuild between them. The prevention rule on these bytes (H85, BUNDLES f76602e8 09bd9079): the whole generated suite 101 of 101,
+every Systems file, the 52 reviewer-grep files 458 of 460 and defending-landing x2 44 of 44. systems-demand-live:46
+is the local site's. pane-keyboard:103 went red once (the deck's prev arrow zero-sized, as if the first page-forward
+had not landed); a bisect without the new observer also went red once in 5 (H87), and D-350's runs found dev
+557c57d14 40 of 40 and head 40 of 40 over 10 full-file runs each (H88), so it is not D-353's and is unclassified at
+that resolution, reported to the orchestrator. Controls, each against a green unmutated baseline: reader 89 of 90, app 11 of 13, the three recorded non-kills as
+before (H86). reader-overwrites-inspect died one line earlier than its claim, because the observed media home lets a
+reader layout run during Inspect's close; that line measures the same claim one instant sooner and now carries its
+message (H88). Payload: deferred 506,734 B, one exact step of +98
+inside D-351's 506,799; eager gzip unchanged at 348,698. Receipts: scratch/article-sections/claude-verify/H81-H86.
+
+Delta 8 (review-claude, HOLD) and D-354, sections-claude, 2026-10-21. CI ead35af11 was green but for shard 4's two
+roll-execution:227 reds at 390, and the reviewer's isolated runs found pane-keyboard:103 to be this PR's: head 10 of 75
+red, dev 0 of 100. B1 (REAL BREAK): updateUiShift eases the pane's slide and lays out the app's own landing parts in
+that frame, but the parts the reader adopted (the landing card and its deck arrows) were laid out a frame later. Probes
+with per-write hooks and a pointer-event log (H91, H92) showed the "next" click measured the arrow at (1030,743) and
+landed on a data-land-mc-opt button of the moved card, which answered the question: the deck stayed on card 0 and the
+prev arrow was zero-sized. The reader's parts now follow the pane in the same frame (eager). Its journey opens the pane
+and pumps the slide inside one evaluate, with no frame between; d354-pane-follow-lag is killed at "the card and its
+arrows follow the pane in the same frame". By the reviewer's method the test isolated passed 75 of 75 (H94), 100 of 100
+with H93's 25. B2 (STALE SPEC/TIMING): from the CI trace, the reader was still publishing its layout at the pick (the
+deck chevron moved 71px 8ms before the pointerdown); card.click() found the card "not stable" twice and its retry
+force-scrolled the reader to 146, which put the Videos card across the node band. There no slot exists: 57px above it,
+58px below, and D-329 reserves the column under the band. The phone now waits for the layout, brings the card in along
+its horizontal tray as a swipe does (its centre sat at x1041; that tray scroll is the only scroll the native pick
+needed), asserts the reader stayed where it arrived, presses with clickByMouse, and asserts that scrollTop again at the
+pointerdown; the claims are unchanged. With the reader put at CI's 146 the spec fails 4 of 4 at CI's message; a scroll
+between the premise read and the press fails 4 of 4 at the new premise (H96). Under a 30% CPU quota the arrival
+publishes pinned 2 times in 6 (card y316, Videos held) and unpinned otherwise (y545); both hold still for 3s after the
+wait and the pair passes 12 of 12. CI's own layout sits about 51px higher and its 71px chevron move has no local twin;
+the test no longer depends on either. d354-phone-pick-no-fit kills the phone pick at the noFit claim. Nits, each with a
+journey and a control killed at its claim: N1, a play after the article rendered opens the film inside the lifted
+Videos card (the reader places it in its slot before a player exists); N2, reopening Videos settles a pinned landing
+as a play and a grade do; N3, _clearLandFilm ends the reader's media-home observation of the film it removes.
+The prevention run on these bytes (H95) found one more REAL BREAK from D-351: choice-value's setup poll "native host
+module must actually be requested and blocked" went red 3 of 20 isolated and in 2 of 5 full-file runs (H97). A
+pending hand is hidden ([data-reader-pending] is visibility:hidden) and the game-value activation refuses a hidden
+hand (_gameValuePlayable), so an activation that came during the hold went idle with nothing to retry it:
+game-values.js was never requested and the Win chance never started. Publication now runs _ensureGameValues
+(idempotent once loading, loaded or failed). The journey holds Mount Top's role page 1.5s so the activation meets the
+held hand, and reads the publication frame itself: its first version, in choice-value, polled the request and let
+its control survive twice, because that spec refuses a mutated bundle and a later refreshChoiceValues (a deck load,
+a layer change) rescued the idle activation. In article-sections, d354-held-hand-no-value is killed twice at "the
+Win chance starts in the frame the held hand publishes" (H104).
+On the fixed bytes :376 isolated passed 20 of 20 and the file 5 of 5 (H100). The same run's camera-continuity 390
+exchange went red once at noFit 251 with no trace kept, then 0 of 30 (20 isolated, 10 under a 30% quota,
+scrollTop 0 at every pick); its pick is B2's auto-scrolling j.pick at 390, so it takes B2's phone pick and premise
+(by mechanism, not reproduced). The app runner now refuses a mutant that does not parse: N3's first target dropped
+a comma, the bundle never booted, its run waited out the 240s timeout and orphaned the private server, and the four
+later baselines read red on the busy port (H95); fixed, they and N3's control re-ran clean (H97).
+The prevention rule on the final bytes (H101, BUNDLES ab7393fe 7a144e06): the whole generated suite 101 of 101,
+every Systems file 47 of 48 and the 52 reviewer-grep files 464 of 465 (both reds are systems-demand-live:46, the local
+site's), defending-landing x2 50 of 50. Controls, each against a green unmutated baseline: reader 91 of 92, every kill
+message as on H95's bytes, with the recorded execution-node-band-removed non-kill (H101); app 15 of 17, with the two
+recorded noahead non-kills (H101, H102, H104). d351-hand-hold-removed's minified target moved with the publication
+fix, and the runner refused it until it was retargeted. Payload: deferred 506,776 B, one exact step of +42 for N2 inside D-351's 506,799; eager gzip
+348,851 (+2,439 of D-327's 5,000). Receipts: scratch/article-sections/claude-verify/H91-H101.
+
+
+D-355 (the owner's U9 round 3, the video cards' merge and the orchestrator's D-368 to D-370). feat/video-cards
+(76891e049) merged into this branch with 15 conflicts. expandClip and collapseClip take the video cards' player,
+plus a credit exclusion for a reference film. _renderLandFilm keeps the seatless reference film (no header or
+footer). _landHidden and attachInput keep _readerTocEl and drop the retired detail sheet. reading.css is the
+sections stylesheet without the .r-* rules, and build.mjs's READ_PROBE names .ng-reader-article and .ng-reader-toc.
+dsl.ts keeps readingOtherHalf beside studyChoice and studyGrade. The merge dropped the deferred payload from
+506,812 to 504,337 B and eager gzip from 348,833 to 339,151 (-9,682); the ceiling stepped DOWN to exactly
+504,337 in its own commit (D-368).
+
+D-368 made layout C the working default: the video cards' approved A geometry inside the article view. A game
+node's current card stays in the game's media home: on a desktop it sits beside the question (400 + 60 + 390,
+tops aligned), and on a phone above it (12px). Moves follow the node band at the parts' step, and the Videos
+section is no longer lifted: its credits read with the article and its toggle governs the card. A reference
+page's film keeps its Videos slot. Two invariants, each pinned by a defending-landing journey: in a catch every
+escape answer is on screen and hit-testable without scrolling (1440x900, 390x844 and, after D-370, 390x631),
+and at 1440x900 the question card's top is above the fold. A, the card column-wide in the Videos section above
+Moves (the pre-C integration), breaks both at 1440; a-column-wide-videos-question and -catch are its controls.
+Six defending-landing reds from the merge (the answers or the deck at y1010-1079 at 1440) went green on C, not by
+scrolling in the spec.
+
+D-369 (phone catch only, option 3): in a LIVE phone catch the question goes directly under the node band, then
+the escape tray, then the rest; the U7 order returns with the escape's result transition, so nothing moves under
+the finger at the tap (D-325). The first build keyed the order on _landMode alone, and a calm defender landing
+took it too (article-sections' 390px six-pixel journey, H120); the predicate now needs _defensePressure.
+
+D-370 moved the phone floor. PostHog, 30 days of phone-width pageviews (width under 500, CN excluded): n=2,057
+from 1,282 browsers, visible height p10 631, median 691; 37% under 664 and 98% under 844, so every phone spec's
+844 is the top 2%. At 390x631 the escape answers must be hit-testable with 8px to spare. Before: the last answer
+ended at y637 and the reader's scrollport at y541 (the account button set the shelf), 104px short. A live phone
+catch concedes, in order, and stops at the first combination that fits (H124): (1) the node band 186 -> 144, no
+exchange arc until the answer, 42px; (2) the account button yields, so the scrollport ends above the win bar
+alone, 22px; (3) the panic card compacts through padding and gaps only (answers 9/9 -> 4/4, gaps 7 -> 4, the
+question's margin 8 -> 4, the card's top 11 -> 8; text size, line height and 44px targets kept), 43px. The last
+answer in the final H146 frame rounds to y553 against y563: 10px, above the 8px floor. (4), the win bar into the card's header, was not needed and is not built.
+One predicate, _phoneCatch (a phone, _defensePressure, the card layer on), drives the order and the concessions;
+the same rule applies at every phone height. Its first version also asked for the card element and _landMode,
+and the D-370 journey caught both at the pick: clearOptions calls clearLandCard, which clears the card AND
+_landMode, so the concessions dropped at the tap (H124, H125). It now holds through the pick, ends with the
+escape's travel or the tap (the reader lays out again at both), and navigation ends it (clearEngagement).
+The reader marks the app wrap (data-phone-catch) before it measures its scrollport; the rules sit in
+helmet.html beside the phone landing card's own, which kept the deferred payload inside its allowance.
+
+D9-N3, re-measured on C (H119, H120; a 390 phone pick with the reader scrolled before the press): 0-165px had a
+slot; about 170-225px had none (noFit every frame) though the unfitted target happened to paint clear; about
+230-290px had none and the pair painted over 3 occupied surfaces; past 300px the card is not pickable. D-370
+took (i) with (iii) as its floor: frameExecution searches the band, then free space beside the landing rows'
+column (D-329), then any free space (D-329's reservation yields in that case only), and with no free spot
+anywhere falls back to the band, counted. roll-execution's phone sweep pins it: reader scroll 0-290px in 10px
+steps at 390x844 and 390x631, one restaged pick per step, four sampled frames each; every step must paint the
+executing pair on screen and no frame may intersect an occupied rectangle. H129: 30 of 30 steps at both sizes,
+4 frames each, 0 intersections, noFit 0 at every step. The band fallback is therefore unreached there, a
+recorded non-kill. Building the sweep found two harness facts: rollFromPosition deals its hand synchronously,
+so nextHand() never sees the deal it waits for (the sweep polls the dealt hand), and past about 260px the
+title is under the reader's top edge, so the sweep presses the card's visible part (which commits it, U8),
+never the play circle.
+
+The owner's U9 round 3: U9 b puts the index on the LEFT, 24px in, and the tray starts 12px past it; syncIndex
+brings back the old table of contents (cdbace9e4's toc.inline.ts): each row's opacity follows how much of its
+part is in view (0.35-0.85) and the list keeps the most visible row in its middle. U11 drops the section icons:
+a closed section is one compact 44px line, its greyed name then an eye with a slash; where the index shows it,
+it leaves no placeholder and the index row carries and reopens it. U12 a: the article's own ✕ (the sections'
+ghost ✕ on its top row) puts the article away. U10 a, the right-aligned Win, came with the video cards.
+
+Found on the way, each a REAL BREAK fixed with its journey: resumeFilm rebinds a stale player through
+expandClip's resume flag (the video cards' player never autoplays, so Resume after a fallback move never
+restarted); the camera's soft lift holds the pair during flights in the article view (a URL arrival crossed
+the Moves row by up to 35px under C); the film's edge arrows are re-read when the home's width changes (a stale
+data-off left Next dead to the mouse, video-cards:115). STALE SPEC, with its evidence: the video cards' U8 rule
+(an empty media area commits the card, video-cards:216 and :228, choice-value:429) is the opposite of
+roll-execution's "Empty media and Choose are distinct" claim; no build passes both, so that click is retired and
+the journey keeps Choose as a real mouse action with the hand groups apart. D-354 N1's slot placement and its
+control retired with the Videos lift.
+
+
+D-371 classified the first integrated full-core round (H131: 32 unexpected failures, 29 titles with their
+width variants; generated suite 3 failures). The video-cards comparison (H132) separated its inherited
+contract changes from the layout-C/U11 migrations. Every stale-spec edit carries its premise at the edit:
+U11 puts closed parts in the desktop index and one compact phone line (reading-contract, reading-mode,
+land-layers, landcard-more-content); layout C keeps the game film in its media home (roll-card, pane-layout,
+defending-landing); U9 b moves the index left (generated casual-challenge-cue). Video-cards' approved
+U2/U8/U10 contracts account for the Watch control, deliberate player playback and close button
+(concepts-surface), edge arrows and inset-zero full-card ratios (film-row-arrows), staged-card geometry and
+removed Execute eyebrow (landcard-deck, landcard-modes, option-hand), and Escape/Submit labels with digit
+Win values and title sentences (submission-choices, submission-card-odds, generated holder-momentum and
+veteran-odds-clamp). stakes-impact is a timing migration to a poll. Claims are retained; no expectations
+are dropped merely to turn a run green. The removed Execute eyebrow is a visible product change, retained
+for owner review with before/after frames in U15, not silently restored.
+
+Four real breaks carry app fixes. (1) The late film violated D-325: at 390 a published question moved from
+520 to 752px when a delayed chunk landed, on URL and roll arrivals. _filmPending and _filmHold wait only
+before the card's first publication, share its first-layout 800ms ceiling, and pin publication after that
+ceiling; D-352 S2 then holds the film until player input. No landing node, film layer off, and a live phone
+catch all skip this hold. reading-media-placement traces the actual published answer rectangles at 390 and
+1440 with a chunk delayed 400ms or 2.6s; app controls d370-late-film-unheld-390 and -1440 reverse the hold.
+(2) The D-355 camera lift applied to every flight, including a hover re-aim wholly inside the band, and
+broke dual-pair's painted-role claim. The flight's band latch now engages only when its pair reaches the
+lower-edge margin, with a zero-offset hold already tracking before activation. d355-flight-lift-ungated and -lost separately reverse the gate and the lift; the ORCH-382 account below covers the late-gate regression found during final controls.
+(3) The video-cards merge lost the Learning pane's portrait fit. The player is capped to the pane while
+preserving the portrait's shape; the reveal repeats on that card's own height transitionend. H136 showed
+why the initial frame was insufficient: the final card ended at 700 against pane bottom 678 because the
+list still had its short row height when it tried to scroll. H137's fixed card ended at 671, inside 678;
+concept-fit-reveal-lost removes the transition-end reveal.
+(4) video-cards commit bfdfad39d gated the option-key branch on !reader.intent. Reading arrivals seat a
+live hand with intent=true, so the mouse could play while plain digits could not. H138 crossed the patched
+triangle-defender journey onto the video-cards build: it failed at the chosen-escape claim, then passed on
+this branch after removing only the intent condition (interacting remains guarded). H138 passed all
+166 digit/reader journeys and the one generated digit journey without retries. reading-intent-blocks-digit
+restores the old condition and targets that same chosen-escape assertion.
+
+Controls (H147 reader / H148 app, after the dev merge), each against a green unmutated baseline of the same spec and grep: H148 app 26/28 claim kills, with noahead-exchange-1440 and -390 recorded as non-kills; H147 reader 93/96 claim kills, with execution-node-band-removed, d338-film-waits-for-intent and d353-play-keeps-pin recorded as non-kills. All 124 controls had green unmutated baselines; no timeout or soft landing diagnostic is counted as a claim kill. New rows:
+a-column-wide-videos-question and -catch; phone-catch-question-first-lost-844 and -631; d370-concessions-stick;
+d370-n3-d329-kept and d370-n3-pre-fix (reader); d370-band-186-in-catch, d370-account-keeps-reserve,
+d370-card-spacing-kept and d370-calm-landing-concedes (app). Retired with their claims: reader-overwrites-inspect
+(the video cards' merge), d354-play-film-left-home and d338-video-not-lifted (layout C). Retargeted to moved
+code, claims unchanged: toc-current-targets, chrome-node-band-lost, d338-index-eyes-retained,
+d338-tray-under-index, d338-deck-backs-unreserved, d338-tray-asymmetric, d354-phone-pick-no-fit,
+execution-no-fit-forced, execution-node-band-removed and, in the app runner, reading-band-lift-restored (line 131
+now) and five rows after the merge's minified names. The app runner gained optional stylesheet edits
+(NEURAL_MUTANT_CSS) for D-370's two eager rules, and the reader runner's bounds rose to 240s (run) and 300s
+(baseline) for the 100s sweeps. Final measured payload: deferred raw 506,825 B, its exact ceiling and 10 B below the 506,835 allowance; eager raw 1,365,689 B, eager gzip 339,646 B, largest chunk 39,000 B. Eager gzip is 6,766 B below the prior 346,412 baseline (target 300,000 warning, action 400,000 and delta cap 5,000 unchanged); its authorized acceptance and the clean app fingerprint/CI replay follow this archive commit. Receipts: scratch/article-sections/claude-verify/H108-H138 and H139-H148 (raw JSON, logs, source freeze and assertion audits retained).
+
+
+#### URL arrival: engage the band hold before contact (ORCH-382)
+
+H139 left two camera controls with red unmutated 1440px URL-arrival baselines. Before a fix, H140 ran ten isolated instances of the unchanged journey on each app: the pre-fix H139 app 0/10 passed, CI-green `3c3a4f949` 10/10, video-cards `76891e049` 10/10. Every final failure was the ZERO-overlap claim; there was no timing signal, so the conditional app/spec crossover was not triggered. The CI rebuild matched all fourteen committed app fingerprints and its graph/curriculum/deck-manifest bytes matched final. The video rebuild matched its four previously served app/reader/CSS bundles. This was a REAL BREAK of this PR.
+
+The camera-region diff isolated the new per-flight band gate. H141's unchanged-journey trace showed its fixed 30px estimate engaging at 1.267s, when the drawn silhouette actually needed 37.43px and its lower edge was already 225.18 against the band's edge at 212. The lift's anti-yank guard then waited until 1.900s. Merely using the real silhouette with one soft-knee lead removed that wait but still engaged too late for the spring to track its growth. The gate now shares the lift's silhouette calculation, while a flight tracks a zero-offset hold before the gate opens. The visible correction starts at the actual silhouette's soft knee, already on a continuous tracking path. Forecasting motion had reintroduced the hover nudge, so the final rule uses the actual silhouette. The band, fold and card positions are unchanged. The existing URL-arrival journey remains the pin; two controls restore the old 30px gate and remove the zero-offset tracking separately; each targets that same ZERO-overlap claim. Final counts: H146 camera-continuity, dual-pair and pane-layout: 44 passes, one existing declared skip, zero failures; both unchanged URL-arrival pins and the hover journey pass. H148 flight-lift-fixed-margin and flight-lift-tracking-lost each kill the existing ZERO-overlap claim on a green baseline.
+
+H139's two `noahead-exchange` controls remain recorded NON-KILLS in both the spec and runner headers; they are not prediction coverage. Reading-view exchanges use `frameExecution`, so those journeys do not exercise the map-view `ahead` path.
+
+Two old reader controls (`d351-deferral-removed`, `d352-film-over-pin`) also survived their catch journeys: under C, a catch has no film above the question. Both now target the existing calm-phone 2.6s late-film journey and H142 killed them at their own publication claims on green baselines. The catch fixture's temporary marker could be detached by the landing's own rerender; it now locates the same authored own move by `data-tech`, keeping every assertion and timeout. Both catch-order controls killed their on-screen-answer claim in H142. The earlier 631 baseline timeout was not reproduced by H140's fixed sample (30s cap 3/3; 240s cap 3/3); those counts do not establish timeout-cap causality and the old red is not counted as coverage.
+
+
+#### Final validation includes the current dev tree (ORCH-385)
+
+Dev `8dde65e67` (PR 311, v1.229.1) was merged with a real merge commit, never a rebase, before the final full run. The merge keeps package versions at v1.230.0, the archive cap at 1,013,038 and both parents' archive text verbatim. Its bot scripts, unit tests and workflow changes are therefore present in the tree used by the final core, generated and control runs. The pre-merge H145 controls (26 app and 93 reader claim kills, with two and three documented non-kills respectively; all baselines green) remain separate evidence. H146 on merged source f96f77145 collected 1,033 core cases: 1,027 ordinary passes, one expected navigation-tripwire failure at its own UNDECLARED-navigation assertion, five declared skips, zero unexpected failures and zero flaky retries. All eight auth-owner cases formerly skipped behind the stale local artifact failure ran and passed on this own build. Generated 101/101 passed with the real ledger (zero known-red rows); defending-landing x2 passed 58/58. U15 passed 21/21 plus 2/2 Execute-after captures. All runs used one worker and zero retries. H147 completed all reader controls and H148 all app controls on the same fourteen raw app assets; their counts and limits are above.
+
+
+The desktop late-film control also exposed a timing limit in its old 400ms stimulus: on identical app/spec bytes H145 had one mutant claim failure out of one run, while H147 had one mutant pass out of one run; both unmutated baselines were green. H147 passed the premise that the film was already present at first publication, so 400ms after the request did not guarantee arrival after publication. That H147 row remains a non-kill (H147 app total 25/28, including the two noahead non-kills). Only the control target changed to the existing desktop 2.6s past-ceiling journey, retaining the same published-answer assertion and both original positive journeys. H148 then killed that control at the published-answer claim; its final full app counts are reported separately above. The runner header preserves the historical non-kill.
+
+
+
+
+H149's local CI replay reached the full unit suite and stopped at one stale D-368 expectation: reader_handoff's Book case still put Moves at 186px with no gap, although approved layout C (2abde91be) deliberately places Moves one 8px phone step below the band. The run had 1,300 unit passes, one failure and one existing skip; six workflow steps were not reached. Classification preceded the edit: H150 ran the identical old unit file on CI-green 3c3a4f949 (13/13), D-368 2abde91be (12/13) and final dd9461f9f (12/13), both failures at that spacing claim. The migrated unit passes 13/13; a control removing the step fails at its owned Moves-spacing assertion (12/13). Only the exact coordinates migrate (186 -> 194; flow end 390.25 -> 398.25); the 186px band, hidden labels, end-gap and execution snapshot assertions remain. The approved premise is cited at the edit and in the migration ledger. No runtime or browser-spec bytes changed. The clean app fingerprint and complete CI replay follow this correction; H149 remains a recorded red, not a green retry claim.
+
+
+### Delta 10: observe the collapse layout; restore the cold Watch premise (ORCH-390)
+
+The hosted run attached to c949aded8 checked out PR merge ref cc5d6df8d (base 8dde65e67). Content/Graph Validation, the build, three core shards and generated 101/101 passed; shard 3 had one unexpected failure: the 390px pause-before-append media journey measured Videos' reopen control before the already-requested game-height shrink committed. This is STALE SPEC timing, not evidence that a settled control fails to reopen. The body becomes hidden synchronously; layout writes the smaller game height later. The spec now observes the existing readerLayoutSettled helper before measuring the next real mouse point. It adds no sleep, forced click, retry, wider bound or removed assertion. The sibling collapse/measure/click audit is retained in the Delta 10 receipts.
+
+H155 repeated the reviewer's controlled pair three times per old/fixed arm: pending layout released after old measurement gives old 0/3 versus fixed 3/3; settled before measurement gives both 3/3. The scheduler services pending native work when an explicit layout observation requests it, otherwise at the controlled mouse boundary. Old (195,415.8125) hits Overview after the shrink; fixed (195,161.5625) hits Videos. Every old failure is the original hidden-body visibility assertion, with its unchanged 5s bound. These scheduling controls reproduce the CI signature, not the unknowable original CI timestamps. H154's four earlier invocations collected zero because its grep was anchored to a title without the filename prefix; they are setup errors, never product evidence.
+
+D10-N1 had lost a claim: bootVideoCards already mounted a question before the test nulled its decks. The corrected Watch journey holds the real manifest before the first Mount landing, asserts no question and a held request, releases through the app fetch path behind the same viewer, and asserts the new question both behind Watch and visibly after close. Key containment and focus return remain. Its first new fixture failed focus (H154 51/52 touched cases): manually installing a clip before exposing the card let the visibility observer replace Watch's source button. H155 traced source removal BEFORE deck delivery; original setup 0/3, reveal-and-observe-before-fixture 3/3, identical assertions. This is a fixture-order correction, with no runtime change. The permanent watch-backfill-lost control suppresses only backfill while Watch is open and fails the restored question-presence claim on a green baseline.
+
+The three active ledger descriptions now name the surviving options beacon across Watch/close/commit, sidebar-study mastery/sharpness arithmetic, and explicit provider playback's one-time +4 reward; historical evidence is unchanged. The catch header now names the authored title and the U8 face/Play split. The PR body separately records reduced coverage: Explore's 24px capture replaces the retired 44px thumb claim; telemetry deck_key identity and pre-film sheet-DOM odds are absent from their former cases; choice-value's fresh accessible-label oracle is weaker; game-value's generic display predicate is not a positive numeric oracle; film-row geometry replaces relative fade ratios/two-fitting-clips with the approved zero-inset/single-clip contract. These are not equivalent migrations and do not prompt product changes here.
+
+Final touched-file evidence: H154 media 16/16 (both widths, native/fallback) and defending-landing 29/29; H156 corrected coldstart 7/7; the three ledger claims 3/3. H156 app controls 7/7 and reader 22/24 kill their owned assertions, all 31 baselines green; d338-film-waits-for-intent and d353-play-keeps-pin remain non-kills, so the reader runner's exit 1 is retained. The actual CI Pure unit suites step passes: 1,301 passes, zero failures and one existing skip. Generated-ledger gate passes. No full core rerun for this test/document-only delta. All fourteen app assets remain byte-identical; deferred 506,825, eager raw 1,365,689/gzip 339,646 and largest chunk 39,000 are unchanged. No ceiling or payload artifact is changed. The final docs budget/reference gate follows this append, and the new head still requires hosted CI after the orchestrator's push.
+
+### Owner answers: band-only phone catch and divider titles (24 October 2026)
+
+U16 b (owner, 2026-10-24), “Keep your usual order; only shrink the band,” retires D-369's question-first phone-catch branch. The reader uses the existing layout C Moves-first path. The live phone catch still narrows its node band from 186 to 144 and keeps it narrow through the pick; the result restores 186. The D-370 account-hiding and panic-card padding/gap concessions are removed. Normal answer type and 44px targets remain. The owner accepts scrolling to the last escape answers on real phones, including 390×631; the covered, untimed catch (U20 b) is later work. No outcome, probability or grading rule changes.
+
+U14 b (owner, 2026-10-24) adopts the approved small uppercase divider label, centred between balanced rules. The close target remains 44px. U11 remains: closed sections appear only in the index on desktop, and as the existing compact greyed name/eye line on phones. The proposed mobile Hidden sections group awaits screens in separate work. U13 c keeps the tray as built, U15 a keeps C while the grid goes to a separate preview/PR, and U17 a keeps Execute removed.
+
+The changed tests name these premises at the edits. Phone catch journeys retire question-first and the phone no-scroll/8px fit claims; desktop fit stays. Every real phone answer is scrolled into view, checked for full containment, hit-tested, and kept at least 44px tall. A real mouse answer must emit `mc_correct` and advance the deck. The band, visible account, normal padding, scrollport reserve and unchanged picked rectangle are checked through the result. A new unit exercises the actual reader layout's Moves-first path and live-predicate lifetime. Divider journeys at 1440 and 390 check text centering, balanced painted rules, AA contrast, target size, and unchanged closing/reopening. The approved 13px title replaces the old larger/brighter-than-subheading premise; spacing and prose hierarchy remain.
+
+Retired controls: `phone-catch-question-first-lost-844`, `phone-catch-question-first-lost-631`, `d370-concessions-stick`, `d370-account-keeps-reserve`, `d370-card-spacing-kept`. The band-186 and calm-landing controls now target their direct band claims. New controls restore the question-first branch, hide the account, compact the card, end the small band at the pick, prevent restoration at the result, make a scrolled answer inert, offset the divider, or remove its rules. The existing execution-row control now also covers result-time band restoration. Historical non-kills remain non-kills, not coverage.
+
+H158 found a new test-oracle mistake before any repair: both phone mouse answers had already advanced to Card 2/5, but the check expected the calm-landing event instead of the live catch's `mc_correct`. The corrected event plus deck advance passes, with an inert-click control added. H158 also measured deferred 506,944, above the authorized allowance. Consolidating redundant divider CSS brought it to **506,817 bytes**, 18 inside D-365's 506,835 allowance and 8 below the previous ceiling. The exact ceiling is stepped in its own commit; no extra headroom. Eager gzip is **339,585 bytes**, down 61 from 339,646, re-anchored with the explicit accept-baseline command in its own commit. Existing target/action thresholds and every unrelated ceiling stay unchanged.
+
+H160 also found an intermittent existing cold-card paging miss (59/60 defending repetitions). H161 classified it **STALE TIMING before editing**: natural unmutated final and accepted cf773f511 each pass 10/10. On each app, original/race passes 0/3; original/settled, layout-observing/race and layout-observing/settled each pass 3/3. Pending layout moves Previous from centre y586 to y639.14 after measurement, so the old click hits the wrapper. The journey now observes the existing reader layout signal before measuring that click; every question-identity, hidden-answer and cold-credit assertion remains. No runtime repair, sleep, force, retry or widened bound.
+
+H159's six new owner-choice cases and 14 reader units pass; H160's reader/divider suites pass 18/18. Final complete-suite, affected-control, CI-replay and final-frame receipts are recorded in the orchestrator's U16b/U14b handoff and PR validation. Earlier archive entries and evidence remain verbatim; old phone-fit evidence describes the superseded D-369/D-370 premises.
+
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
@@ -11645,6 +12432,68 @@ and floors remain exact. Own-build and retained-tree gates pass with current-con
 Earlier receipts remain immutable. All three derived source files reproduce byte-for-byte;
 D-285 preserves every unchanged Markdown byte and stamp.
 
+## v1.231.0 — Videos lead the cards, with separate actions
+
+Owner, 2026-10-15: the choices should lead with their technique's video and a thin
+card-game row of immediate chance and Win %. The approved A current card carries
+its title, role and current Win %, with one full video plus a tenth of the next.
+The approved heading is "Your move". This reverses v1.218.1 Inspect and shifted-digit
+entry and v1.220.0's sheet and unequal score hierarchy. D-318, 2026-10-16, then
+removes the Choose/Read footer: the whole card commits except for its centered
+44px play circle, which opens the video viewer without autoplay. The choice face
+shrinks from 220 to 176px. Its shortcut digit (1–9) returns inside its category
+shape; the current-node card gets the same shape without a digit. The odds row
+stays unchanged. The drag guard, move guards and execution status remain.
+Threat cards cannot execute. Missing or stale solver values keep their existing
+meaning, and both current-Win displays consume chrome's one published snapshot.
+
+Curation owns relevance. Choice media admits only the first clip with front:true
+in the exact role's authored array; duration never reorders the list. Position hub
+clips require an explicit half, then follow half-local clips with ID deduplication
+and local metadata priority. The wire preserves front, half and duration. No match
+means a quiet empty video region that still belongs to the move button. Film Study and the current card reuse the same
+_landFilmEl; sections owns its slot and movement, videos its contents and playback.
+The changed-height observer requests layout only after an actual height change.
+
+Question 6, same day: the owner dropped practise-before-you-try entirely. The
+extracted JIT host, RNG tags, warm-up latch, inline styles and unused sound cue are
+removed. banked was local to that host; the shared _mcAnswer/gradeRecall credit and
+refreshOptionOdds paths stay. The removed-test map names all six jit-format cases,
+two JIT-only loop cases and their surviving economy coverage. Sidebar, landing and
+live-catch tests keep exact credit, no credit for wrong answers, mastery, lesson
+completion and sharpness rules. Escape's v1.227.0 shared renderLandCard is retained;
+"panic" remains the surface ID, and the mounted question owns grade identity.
+
+Dead Inspect/prose renderers and .r-* rules also leave. Reader content assertions
+now use the full article; READ_PROBE still requires the surviving article selector
+in deferred reading.css and forbids it in eager CSS. The viewer's Close button is
+adjacent to the provider frame in focus order, with explicit parent Tab wrapping.
+The frame's Escape key cannot be relied on to reach the parent dialog.
+
+Drill removal alone saved 5,808 raw source bytes. On curated dev 7ac17caa0, paired
+app measurements save 9,485 eager gzip bytes, 9,505 first-hand gzip bytes and 2,475
+deferred raw bytes; the feature measures 336,927 / 389,341 / 477,579 respectively.
+The largest chunk stays 39,000 bytes. Both first-hand gates pass without a baseline
+change. The 14-state actual-hand sample finds approved fronts on 129 of 180 choices;
+51 remain suppressed. The exact eligible-source provenance test replaces the old
+inventory floor. Fourteen retained economy journeys and 82 targeted units pass.
+Final combined payload, phone geometry and full-suite validation await sections
+and chrome; the deferred tighten obligation remains. No ceiling is raised here.
+
+U8 / D-338, 2026-10-20: reset the article image margin inside film frames and
+constrain the choice media grid to its frame, preventing intrinsic poster
+dimensions from enlarging it. The crop stays centered, and playback fills the
+host without an iframe border. Win labels and values now share the right edge;
+the immediate-chance column retains its alignment. The owner comparison export
+uses the same production cards for both alignments, with illustrative odds on
+desktop and phone light canvases and a desktop dark canvas.
+
+The geometry journeys cover five widths from 320 to 1440px, one and two current
+clips, and unavailable and decoded posters. Source mutations restore the image
+margin, remove the grid constraint and restore left-aligned Win to challenge
+those assertions. The real-worker journeys retain their solver and study
+invariants while moving percent units to the headings and replacing retired
+Inspect checks with the surviving move controls.
 ## v1.229.1 — Auth diagnostics and parallel batch cancellation
 
 Review RVB374 found that numeric metadata and returned prose could trigger fatal auth

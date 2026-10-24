@@ -87,13 +87,15 @@ test("veteran tray: every card's odds == round(moveChance*100), clamped to [5,95
     expect(["Move", "Works"], `"${t}" is a Move or a Works card`).toContain(kind)
     if (kind === "Works") {
       const printed = await domOdds(t)
-      expect(printed, `"${t}" entry never prints its certain step`).not.toBe("100%")
+      // v1.230.0 (the video cards): digits with or without the unit, so this stays a real check on "100".
+      expect(printed.replace(/%$/, ""), `"${t}" entry never prints its certain step`).not.toBe("100")
       if (printed !== "—") {
         expect(parseInt(printed, 10), `"${t}" Works >= 5`).toBeGreaterThanOrEqual(5)
         expect(parseInt(printed, 10), `"${t}" Works <= 95`).toBeLessThanOrEqual(95)
       }
     }
-    else expect(await domOdds(t), what).toBe(`${o}%`)
+    // STALE SPEC (v1.230.0, feat/video-cards, U8; red on that branch's own build, H132): a card prints its odds as digits, the % unit in its heading.
+    else expect(await domOdds(t), what).toBe(`${o}`)
     return kind
   }
 
@@ -196,12 +198,14 @@ test("veteran tray: every card's odds == round(moveChance*100), clamped to [5,95
     await j.rig("outcome", [0.01])
     await j.pick(sub)
     await j.advance(3000)
-    const finish = page.locator(`[data-tech="${sub}"]`).filter({ has: page.locator("[data-immediate-label]", { hasText: "Finish" }) })
+    // STALE SPEC (v1.230.0, feat/video-cards, U8): the Finish card's label reads "Submit" (choiceStatsHTML).
+    const finish = page.locator(`[data-tech="${sub}"]`).filter({ has: page.locator("[data-immediate-label]", { hasText: "Submit" }) })
     await expect(finish, `"${sub}" Finish card is dealt`).toHaveCount(1)
     const printed = ((await finish.locator(".ngodds").textContent()) || "").trim()
-    expect(printed, `"${sub}" Finish card prints the rounded clamped moveChance`).toBe(`${expectFinish}%`)
+    // STALE SPEC (v1.230.0, feat/video-cards, U8; red on that branch's own build, H132): a card prints its odds as digits, the % unit in its heading.
+    expect(printed, `"${sub}" Finish card prints the rounded clamped moveChance`).toBe(`${expectFinish}`)
     expect(expectFinish, "Finish chance >= 5").toBeGreaterThanOrEqual(5)
     expect(expectFinish, "Finish chance <= 95").toBeLessThanOrEqual(95)
-    if (sub === target.t && wouldCross) expect(printed, "Finish card pinned at 95%").toBe("95%")
+    if (sub === target.t && wouldCross) expect(printed, "Finish card pinned at 95%").toBe("95")
   }
 })

@@ -59,7 +59,7 @@ const cards = (page: Page) =>
     })),
   ) as Promise<Card[]>;
 const pct = (s: string) => {
-  const m = /^(\d+)%$/.exec(s);
+  const m = /^(\d+)$/.exec(s);
   return m ? Number(m[1]) : null;
 };
 const causes = (page: Page) => page.evaluate(() => Array.from(document.querySelectorAll(".ng-cause")).map((e: any) => (e.textContent || "").trim()));
@@ -88,6 +88,10 @@ async function setup(page: Page, width: number, height: number) {
   await j.land("Mount Top");
   expect(await j.landQuestion(), "the landing asks a question").not.toBeNull();
   await j.advance(200); // let the hand settle under the card
+  // D-338: in the article view Questions follows Videos and Moves and can start below the fold;
+  // bring the deck into view as a reader scrolls to it (programmatic, not a reading gesture).
+  await page.locator("[data-landcard]").evaluate((e) => e.scrollIntoView({ block: "nearest" }));
+  await j.readerLayoutSettled();
   return j;
 }
 // a NEXT chevron click by MOUSE, then wait for the next card's block to mount (a cold distractor pool
@@ -108,7 +112,13 @@ async function answer(page: Page, which: "wrong" | "trap" | "correct") {
     return m.tiers.findIndex((t: string, i: number) => i !== m.correct && (w === "trap" ? t === "trap" : t !== "trap"));
   }, which);
   if (pick < 0) return false;
-  await page.locator("[data-land-q] [data-land-mc-opt]").nth(pick).click();
+  // A real mouse at the measured centre (D-338): with the deck now low in the article view,
+  // locator.click()'s own scroll-into-view retry moved the reader 672px and took the hand (the
+  // cause's anchor) off screen, which no visitor's click does. Reachability is asserted instead.
+  const b = page.locator("[data-land-q] [data-land-mc-opt]").nth(pick), r = (await b.boundingBox())!;
+  const at = { x: r.x + r.width / 2, y: r.y + r.height / 2 };
+  expect(await b.evaluate((el, p) => el.contains(document.elementFromPoint(p.x, p.y)), at), "the answer is reachable by mouse where it sits").toBe(true);
+  await page.mouse.click(at.x, at.y);
   return true;
 }
 // the next card that CAN be answered this way, skipping (free) any that cannot

@@ -148,8 +148,9 @@ test("caught: _combo 0→5 heats the live escape's odds by exactly +0.10, cards 
 
   // displayed points: exactly +10, and the card's .ngodds is Math.round(escapeChance*100)+"%"
   // in BOTH directions of the toggle (since v1.207.0 the stamped choice view repaints it, one frame on)
-  expect(m.hotDom, "hot card renders the rounded hot chance").toBe(`${Math.round(m.hot * 100)}%`)
-  expect(m.coldDom, "cooled card renders the rounded cold chance again").toBe(`${Math.round(m.cold * 100)}%`)
+  // STALE SPEC (v1.230.0, feat/video-cards, U8; red on that branch's own build, H132): a card prints its odds as digits, the % unit in its heading.
+  expect(m.hotDom, "hot card renders the rounded hot chance").toBe(`${Math.round(m.hot * 100)}`)
+  expect(m.coldDom, "cooled card renders the rounded cold chance again").toBe(`${Math.round(m.cold * 100)}`)
   expect(parseInt(m.hotDom!) - parseInt(m.coldDom!), "displayed escape odds rose by exactly +10 points").toBe(10)
 
   // restoration proof: the probe leaves the app exactly as it found it

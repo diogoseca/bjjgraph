@@ -159,6 +159,20 @@ test("@curated a Decide countdown does not survive staging another node", async 
   );
   expect(shown, "and visible").toBe("1");
 
+  // The larger article flow can cover the only other position at roll zoom.
+  // Reveal more of the graph through the real wheel before choosing the target;
+  // the live countdown below must survive this map gesture until the node click.
+  const canvasPoint = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    for (let y = 180; y < a.H - 30; y += 80) for (let x = 30; x < a.W - 30; x += 80)
+      if (document.elementFromPoint(x, y) === a.canvas) return { x, y };
+    return null;
+  });
+  expect(canvasPoint, "the map has an exposed wheel target").not.toBeNull();
+  await page.mouse.move(canvasPoint!.x, canvasPoint!.y);
+  await page.mouse.wheel(0, 700);
+  await j.advance(150);
+
   // Select a real, exposed alternative POSITION, not merely a projected point.
   // The live pointerup hit test uses all ruleset-visible node types, so reject
   // coincident/nearby competitors and DOM overlays before performing the gesture.
@@ -172,7 +186,9 @@ test("@curated a Decide countdown does not survive staging another node", async 
         || !visible[n.idx] || !a.rsAllowsIdx(n.idx)) continue;
       const x = (n.x - a.cam.cx) * scale + a.W / 2;
       const y = (a._LY(n) - a.cam.cy) * scale + a.H / 2;
-      if (!(x > 120 && x < a.W - 320 && y > 90 && y < a.H - 340)) continue;
+      // Sections move the card/hand into a native scrollport. Its real hit boxes
+      // replace the old fixed 320px/340px exclusion, which hid exposed nodes.
+      if (!(x > 24 && x < a.W - 24 && y > 68 && y < a.H - 24)) continue;
       const sx = rect.left + x, sy = rect.top + y;
       if (document.elementFromPoint(sx, sy) !== a.canvas) continue;
       // Avoid float-rounded ties and the pointermove-only seat-star affordance.

@@ -444,9 +444,12 @@
    "L": "first-roll-day1",
    "F": "option-tray-sheet",
    "B": "guard-limit",
-   "invariant": "At the land, sheet-open, and post-drill sample points exactly one [data-beacon] element exists whose target steps options -> jit/execute -> execute, at most one exists after commit, and at least 3 beacon_moved beats were emitted.",
+   "invariant": "At landing and through Watch open/close exactly one beacon remains on options; after commit at most one remains. beacon_moved includes options and excludes the retired jit and execute targets. No minimum transition count is claimed.",
    "origin": "core",
-   "status": "accepted"
+   "status": "accepted",
+   "evidence": {
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
+   }
   },
   {
    "id": "core-021",
@@ -458,7 +461,10 @@
    "B": "happy-path",
    "invariant": "A rigged catch fires impact_fail, caught, and panic_drill_opened with a visible [data-landcard=defense] card and one .ng-vignette, grading the panic card strictly increases escapeOddsSnapshot() with escape_odds_pumped, and a rigged escape reaches relief with the escape beat and the vignette element cleared.",
    "origin": "core",
-   "status": "accepted"
+   "status": "accepted",
+   "evidence": {
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
+   }
   },
   {
    "id": "core-022",
@@ -470,43 +476,25 @@
    "B": "guard-limit",
    "invariant": "On a fresh boot coach_1 fires and decisionRemaining drifts <0.5s over 3s until dismissal, coach_1/2/3/coach_done appear strictly in order, the clock drains >=1.5s over 2s afterwards, and maybeStartCoach never re-fires (coach_1 count stays 1, localStorage bjj-neural-coached=='1').",
    "origin": "core",
-   "status": "accepted"
+   "status": "accepted",
+   "evidence": {
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
+   }
   },
   {
    "id": "core-023",
    "file": "e2e/journeys/guidance-defense.spec.ts",
-   "title": "film study: watchShort fires the beat; player onError falls back without crashing",
+   "title": "film study: explicit playback fires the beat; player failure offers a safe fallback link",
    "theme": "resilience",
    "L": "first-roll-day1",
    "F": "film-study",
    "B": "error-fallback",
-   "invariant": "watchShort(0) returns ok and emits short_watched under a stubbed YT player, and invoking the player's captured onError closure opens exactly one fallback link and removes all .ngPlayerHost elements without throwing.",
+   "invariant": "A real Watch control opens without autoplay; explicit playback emits short_watched. The production error callback renders a safe native YouTube link without committing, and closing the failed viewer removes its player.",
    "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-024",
-   "file": "e2e/journeys/jit-loop.spec.ts",
-   "title": "JIT sheet drill pumps the odds odometer and the canvas edge",
-   "theme": "flashcards-behind-scenes",
-   "L": "first-roll-day1",
-   "F": "option-tray-sheet",
-   "B": "economy-math",
-   "invariant": "Three reveal->Got-it grades in the expand sheet raise the target's displayed odds by >=17 points with the [data-odds] odometer within 1 of the live odds, emit jit_opened plus >=3 bonus_pumped beats, and executing from the same sheet reaches impact_success.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-025",
-   "file": "e2e/journeys/jit-loop.spec.ts",
-   "title": "drilling refunds decision time, capped at 2 per window",
-   "theme": "flashcards-behind-scenes",
-   "L": "first-roll-day1",
-   "F": "decision-timer",
-   "B": "guard-limit",
-   "invariant": "The first two JIT grades each refund >=2s of decisionRemaining, the third refunds <1s, and the three timer_refund beats carry granted [true, true, false].",
-   "origin": "core",
-   "status": "accepted"
+   "status": "accepted",
+   "evidence": {
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
+   }
   },
   {
    "id": "core-026",
@@ -960,9 +948,12 @@
    "L": "first-roll-day1",
    "F": "option-tray-sheet",
    "B": "economy-math",
-   "invariant": "One JIT grade yields bonusSplit mastery 0.03 and sharpness 0.10 (displayed odds +>=12), and after the next successful landing sharpness decays to 0.075 while mastery stays 0.03.",
+   "invariant": "One sidebar-study grade yields bonusSplit mastery 0.03 and sharpness 0.10 (displayed odds +>=12); after the next successful landing sharpness decays to 0.075 while mastery stays 0.03.",
    "origin": "core",
-   "status": "accepted"
+   "status": "accepted",
+   "evidence": {
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
+   }
   },
   {
    "id": "core-064",
@@ -974,7 +965,10 @@
    "B": "happy-path",
    "invariant": "A rigged hit orders sweep_start < sweep_land(inBand true) < detonation < impact_success with a 0.9-1.4s envelope and a positive band, and the following rigged miss lands out of band followed by hit_stop with zero detonation beats.",
    "origin": "core",
-   "status": "accepted"
+   "status": "accepted",
+   "evidence": {
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
+   }
   },
   {
    "id": "core-065",
@@ -986,7 +980,10 @@
    "B": "persistence-reload",
    "invariant": "A rigged win emits victory_cascade with durMs <=1500 and ladder_up (+1 rank), the rank survives a preserveStorage reload, and a defense-expiry loss then emits defeat_drain and ladder_down (-1 rank).",
    "origin": "core",
-   "status": "accepted"
+   "status": "accepted",
+   "evidence": {
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
+   }
   },
   {
    "id": "core-066",
@@ -996,9 +993,12 @@
    "L": "first-roll-day1",
    "F": "film-study",
    "B": "idempotence",
-   "invariant": "The first watchShort on a technique raises its displayed odds by exactly 4 points with a single film_first_look beat, and a second watch leaves the delta at 4 and the beat count at 1.",
+   "invariant": "Opening Watch awards nothing. The first explicit provider playback raises displayed odds by exactly 4 points with one film_first_look beat; after acknowledged second playback the delta remains 4 and the beat count remains 1.",
    "origin": "core",
-   "status": "accepted"
+   "status": "accepted",
+   "evidence": {
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
+   }
   },
   {
    "id": "core-067",
@@ -1010,7 +1010,10 @@
    "B": "happy-path",
    "invariant": "startRecording then gameplay then stopRecording returns {startedAt: number, beats: array, draws: array} containing the commit beat and a resolve-tagged draw, and a second stopRecording returns null (the window is closed).",
    "origin": "core",
-   "status": "accepted"
+   "status": "accepted",
+   "evidence": {
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
+   }
   },
   {
    "id": "core-068",
@@ -1285,7 +1288,8 @@
    "evidence": {
     "greens": 3,
     "redProof": "Flipped line 126 sameRef assertion .toBe(false) -> .toBe(true); run failed exactly there (\"remount is a NEW instance, not the old ref\": Expected true, Received false). Restored byte-exact from md5-verified backup (e9972a13e15b0afe0bf5a7767e96607e matches original), then re-ran green (4.3s).",
-    "runtimeS": 5.8
+    "runtimeS": 5.8,
+    "videoCardsRetarget": "Owner 2026-10-15, question 6: JIT retired. Surviving assertions moved to Read/sidebar study or Watch teardown. Passed on escape-integrated f006d73b8 plus videos working tree (five focused generated journeys, private port 18641); earlier evidence remains historical."
    }
   },
   {
@@ -1601,14 +1605,16 @@
    "L": "first-roll-day1",
    "F": "decision-timer",
    "B": "keyboard-timing",
-   "invariant": "A day-1 player's first question window behaves as designed with no coach in the way: no clock runs before their first interaction, then it is live (drains under advance); drilling a move in its sheet DECLINES the question for free (land_q_declined, no penalty, no momentum loss) and buys no time (zero timer_refund) \u2014 the drill pays in odds (bonus_pumped); and freezing afterwards expires nothing, because the hand is never timed.",
+   "invariant": "A day-1 player's first question window behaves as designed with no coach in the way: no clock runs before their first interaction, then it is live (drains under advance); the video viewer declines the question for free (land_q_declined, no penalty, no momentum loss) and sidebar study buys no time (zero timer_refund) but pays in odds (bonus_pumped); and freezing afterwards expires nothing, because the hand is never timed.",
    "origin": "auto",
    "status": "accepted",
    "wave": 3,
    "evidence": {
     "greens": 3,
     "redProof": "Mutated line 97 flipping the JIT-refund assertion `.toBeGreaterThanOrEqual(2)` -> `.toBeLessThan(0)`. FAILED: Expected: < 0, Received: 2.4999999999999982 (real +2.5s refund from refundDecision(2500)). Restored byte-identical (sha256 ee450f37c7b521c532a9ba09e5167a1cebbf164afafd12ec20bdfbf734c4aa82); green (4.9s).",
-    "runtimeS": 21
+    "runtimeS": 21,
+    "videoCardsRetarget": "Owner 2026-10-15, question 6: JIT retired. Surviving assertions moved to Read/sidebar study or Watch teardown. Passed on escape-integrated f006d73b8 plus videos working tree (five focused generated journeys, private port 18641); earlier evidence remains historical.",
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
    }
   },
   {
@@ -1721,7 +1727,7 @@
    "L": "white-belt-holder",
    "F": "film-study",
    "B": "economy-math",
-   "invariant": "Film study pumps odds but never the study ledger: a watchShort that fires film_first_look leaves the prep map deep-equal, cardsToday unchanged, no lesson_done beat, and the Challenges-view lesson census untouched \u2014 the +4 lives entirely in moveChance, the film and study economies are disjoint.",
+   "invariant": "Film study pumps odds but never the study ledger: explicit playback that fires film_first_look leaves the prep map deep-equal, cardsToday unchanged, no lesson_done beat, and the Challenges-view lesson census untouched \u2014 the +4 lives entirely in moveChance, the film and study economies are disjoint.",
    "origin": "auto",
    "status": "accepted",
    "wave": 4,
@@ -1756,7 +1762,8 @@
    "status": "accepted",
    "wave": 4,
    "evidence": {
-    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger",
+    "videoCardsIntegration": "Escape f006d73b8: shared renderLandCard live catch, panic surface retained, mounted _landQ.key owns exact prep +1 and cardsToday +1 credit. Passed in the five-journey focused generated run on private port 18641."
    }
   },
   {
@@ -1796,12 +1803,14 @@
    "L": "curriculum-mid",
    "F": "option-tray-sheet",
    "B": "cross-feature",
-   "invariant": "JIT sheet grades and lesson drills are the same prep ledger: three JIT grades on a technique whose deckKey is a not-yet-studied unit's lesson push prep[key]>=goal so lessonDone crosses and exactly one lesson_done names that unit \u2014 while the unit itself stays incomplete (no unit_done, no checkpoint record, checkpoint button still evidence-gated).",
+   "invariant": "Sidebar study grades and lesson drills are the same prep ledger: three study grades on a technique whose deckKey is a not-yet-studied unit's lesson push prep[key]>=goal so lessonDone crosses and exactly one lesson_done names that unit \u2014 while the unit itself stays incomplete (no unit_done, no checkpoint record, checkpoint button still evidence-gated).",
    "origin": "auto",
    "status": "accepted",
    "wave": 4,
    "evidence": {
-    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger",
+    "videoCardsRetarget": "Owner 2026-10-15, question 6: JIT retired. Surviving assertions moved to Read/sidebar study or Watch teardown. Passed on escape-integrated f006d73b8 plus videos working tree (five focused generated journeys, private port 18641); earlier evidence remains historical.",
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
    }
   },
   {
@@ -2027,14 +2036,16 @@
    "L": "curriculum-mid",
    "F": "decision-timer",
    "B": "economy-math",
-   "invariant": "The landing answer and the in-sheet JIT drill share ONE question window and neither door buys time: a correct landing answer SPENDS the window (decisionRemaining 0, combo x1), the option sheet then finds no open question to decline (zero land_q_declined), and JIT grades after it refund nothing (zero timer_refund, the window stays disarmed).",
+   "invariant": "The landing answer, the video viewer and sidebar study share one question window: a correct answer spends it (decisionRemaining 0, combo x1), the viewer finds no open question to decline, and study grades refund no time or momentum.",
    "origin": "auto",
    "status": "accepted",
    "wave": 5,
    "evidence": {
     "greens": 3,
     "redProof": "Mutated line 108: flipped the shared-budget ledger assertion .toEqual([true, true, false]) to [true, true, true]. Run failed exactly on that assertion with received [true, true, false] (the second JIT grade IS denied \u2014 the assertions bite). Restored the original text with a precise Edit revert; follow-up run green (3.6s).",
-    "runtimeS": 7
+    "runtimeS": 7,
+    "videoCardsRetarget": "Owner 2026-10-15, question 6: JIT retired. Surviving assertions moved to Read/sidebar study or Watch teardown. Passed on escape-integrated f006d73b8 plus videos working tree (five focused generated journeys, private port 18641); earlier evidence remains historical.",
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
    }
   },
   {
@@ -2214,7 +2225,7 @@
    "L": "belt-ready",
    "F": "film-study",
    "B": "interruption-abort",
-   "invariant": "Watching the landing film is an interruption that neither answers nor neglects: opening the option sheet declines the question's clock for free (v1.134.0: one land_q_declined 'sheet', _landPending false, no penalty) and stands the card down; watchShort then fires film_first_look (+4 on that technique) with no answer, no second decline and no combo_break, _combo untouched; and after backing out (Esc) the SAME question owns the keyboard again and answering it still climbs the streak (v1.137.0's answer-after-Esc contract).",
+   "invariant": "Watch declines a pending question for free, with one land_q_declined reading event and no penalty. Explicit playback earns film_first_look (+4) without answering, a second decline or a combo break. Close restores the same question, whose answer still climbs the streak.",
    "origin": "auto",
    "status": "accepted",
    "wave": 5,
@@ -2349,14 +2360,15 @@
    "L": "srs-veteran",
    "F": "option-tray-sheet",
    "B": "guard-limit",
-   "invariant": "Hidden reward counters (reward.sheet-twelve) advance without ever emitting challenge_completed or tut_step, yet crossing twelve sheet_opened events mints the oss-and-found coin with exactly one coin_earned beat and a thirteenth sheet re-mints nothing.",
+   "invariant": "Hidden reward counters (reward.sheet-twelve) advance without ever emitting challenge_completed or tut_step, yet crossing twelve sheet_opened events mints the oss-and-found coin with exactly one coin_earned beat and a thirteenth video open re-mints nothing.",
    "origin": "auto",
    "status": "accepted",
    "wave": 6,
    "evidence": {
     "greens": 3,
     "redProof": "Flipped line 130 open-12 assertion coinBeats toEqual([\"oss-and-found\"]) -> toEqual([]); run failed at exactly that assertion (received [\"oss-and-found\"], expected []), proving the mint assertion bites. Restored the exact original string and re-ran green (9.8s).",
-    "runtimeS": 12.2
+    "runtimeS": 12.2,
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
    }
   },
   {
@@ -2469,14 +2481,15 @@
    "L": "lapsed-returner",
    "F": "option-tray-sheet",
    "B": "cross-feature",
-   "invariant": "The research-position coin's sequence rule counts sheet-opens since the current landing: committing after only two sheets mints nothing and resets the counter, while three sheet_opened events since land followed by a commit mint exactly one coin.",
+   "invariant": "The research-position coin's sequence rule counts research opens since the current landing: committing after only two video opens mints nothing and resets the counter, while three sheet_opened events since land followed by a commit mint exactly one coin.",
    "origin": "auto",
    "status": "accepted",
    "wave": 6,
    "evidence": {
     "greens": 3,
     "redProof": "Flipped line 139 core assertion `expect(minted.researchMints, \"commit 2: three sheets since land + commit = EXACTLY one mint\").toBe(1)` to `.toBe(0)`; run failed at exactly that line (Expected: 0, Received: 1 \u2014 the coin really mints on the third sheet-since-land + commit). Restored the original assertion via exact reverse edit; follow-up run green (9.7s).",
-    "runtimeS": 11.7
+    "runtimeS": 11.7,
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
    }
   },
   {
@@ -2661,7 +2674,8 @@
    "status": "accepted",
    "wave": 6,
    "evidence": {
-    "promoted": "bug fixed in v1.75.3; born-red spec green post-fix"
+    "promoted": "bug fixed in v1.75.3; born-red spec green post-fix",
+    "videoCardsD318": "Owner D-318 (2026-10-16; shortcut correction 2026-10-19): Read/Choose footer removed. Research uses the video viewer with an explicit exact-role test front through the real dossier fetch. Retained credit/clock/coin assertions pass on curation-integrated 7ac17caa0 (14/14 generated cases, 2026-10-19). Provider fixture origin is isolated from app storage; no persistence assertions were relaxed."
    }
   },
   {
@@ -2671,7 +2685,7 @@
    "L": "casual-week1",
    "F": "options-tray",
    "B": "surface-integrity",
-   "invariant": "With the tutorial challenge cue on screen, every on-viewport option card of a live hand stays mouse-clickable \u2014 no fixed overlay captures a tray card's center point, and clicking the leftmost card opens its move sheet instead of teleporting to the Challenges view.",
+   "invariant": "With the tutorial challenge cue on screen, every on-viewport option card of a live hand stays mouse-clickable \u2014 no fixed overlay captures a tray card's center point, and clicking the leftmost title commits its move instead of teleporting to the Challenges view.",
    "issue": "Q006 (e2e/quarantine/ISSUES.md) \u2014 the challenge cue reuses .ng-tut but overrides the whole panel to pointer-events:auto (challenge-feedback.css:16) over the tray's documented pass-through corner: at 1440x900 the leftmost two option cards' centers hit the cue, so mouse clicks open the Challenges view instead of the move sheet.",
    "origin": "bug",
    "status": "accepted",
@@ -2688,7 +2702,7 @@
    "L": "first-roll-day1",
    "F": "share-lists",
    "B": "happy-path",
-   "invariant": "Adding from an Explore result and from the node dossier lands BOTH techniques in ONE list (the one the first capture named, then picked — there is no default list), emits list_item_added, persists under `lists` in the SAME v2 progress blob (no version bump), and survives a preserveStorage reload.",
+   "invariant": "Adding from an Explore result and from the node dossier lands BOTH techniques in ONE list (the one the first capture named, then picked \u2014 there is no default list), emits list_item_added, persists under `lists` in the SAME v2 progress blob (no version bump), and survives a preserveStorage reload.",
    "origin": "core",
    "status": "accepted"
   },

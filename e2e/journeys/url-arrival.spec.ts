@@ -133,9 +133,13 @@ test("@curated a role page sets the board on THAT side, paused, and starts no ro
   expect(said, "no 'Restarting the roll' on an address-bar arrival").not.toContain("Restarting")
 })
 
+// STALE CONTRACT (D-318 U4a, CI 48be3a910): with the article shown, the arrival fits the pair into
+// the reader's reserved node band (rollCamTarget widens to 0.107 of the graph here) and centres it
+// above the first section, which article-sections.spec.ts asserts at eight widths. This framing
+// claim is the MAP view's (Book off, persisted as a returning reader left it).
 test("the node it navigates to is framed clear of the landing card", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom")
+  await j.boot("/Positions/Side-Control/Bottom", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
   // boot() waits for graph ingest, not the deferred reader's seat or styled article.
   // Advancing first can spend all six seconds before the arrival flight even starts.
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
@@ -324,11 +328,25 @@ test("the camera frames the space the card WILL occupy, not the gap while it reb
  * aim drift **13.06 world units → 0.28**. The camera now makes ONE approach to a target that was
  * right from the first frame, instead of chasing one that moves under it.
  */
-test("@curated the opening flight is piecewise-fixed: one wide aim, one landing aim, no drift in either", async ({
+// REAL BREAK: a late Side Control deck moved the measured card band during the
+// landing flight (exact e26: 10.9501 world units; exact dev 8aa: 10.9405). D-318's
+// shared node reservation keeps the cold and adopted reader aims identical.
+// Evidence: scratch/article-sections/ci-e26/{opening-named-deck-order-cpu1,
+// base8aa-opening-verified,d318-cpu4-proof}. The original ungated case and its
+// <3 bound remain; the second case pins the real delivery that exposes the bug.
+for (const lateDeck of [false, true]) {
+test(`@curated the opening flight is piecewise-fixed: one wide aim, one landing aim, no drift in either${lateDeck ? ' with the landing deck held' : ''}`, async ({
   page,
 }) => {
   const j = journey(page)
-  await j.boot("/")
+  await j.boot("/", lateDeck ? { payloads: { "flashcards/e08ec988.json": { afterSim: 7 } } } : {})
+  if (lateDeck) {
+    await j.rig("role", [0])
+    await page.evaluate(() => {
+      const a = (window as any).__neural
+      a.rigStart(a.nodes.findIndex((n: any) => n.t === "Side Control Top"))
+    })
+  }
   await j.advance(3300) // the intro hands the camera over at 3.2s
 
   // v1.168.0 CHANGED THE CLAIM, NOT THE BUG THIS SPEC PINS. The staged arrival aims WIDE for
@@ -366,6 +384,11 @@ test("@curated the opening flight is piecewise-fixed: one wide aim, one landing 
 
   await j.advance(700) // cross the beat boundary at 5.2s
   const aims = await sample(14) // 5.6s → 11.2s: the approach, the landing AND the card's mount
+  if (lateDeck) {
+    const delivery = j.payloadTimeline().filter(e => e.pattern === "flashcards/e08ec988.json")
+    expect(delivery.length, "the real landing deck was held").toBeGreaterThan(0)
+    expect(delivery[0].releasedAtSim).toBeGreaterThanOrEqual(7000)
+  }
   expect(aims.length, "the flight was sampled").toBeGreaterThan(10)
   const drift = Math.max(...aims) - Math.min(...aims)
   expect(
@@ -395,3 +418,4 @@ test("@curated the opening flight is piecewise-fixed: one wide aim, one landing 
     `and well above the middle of the screen (y ${Math.round(end.sy!)} of ${end.H})`,
   ).toBeLessThan(end.H * 0.42)
 })
+}

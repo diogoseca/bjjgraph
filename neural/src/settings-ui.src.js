@@ -2,8 +2,13 @@
 // gameplay laws, owner/auth control and general modal primitives remain eager.
 // Build identity is injected by build.mjs and verified before any instance is changed.
 export const NG_SETTINGS_PRESENTATION_BUILD = NG_SETTINGS_UI_BUILD;
-export function ngInstallSettingsPresentation(target, dependencies) {
+export async function ngInstallSettingsPresentation(target, dependencies) {
   if (dependencies.expectedBuild !== NG_SETTINGS_PRESENTATION_BUILD) throw new Error("Settings presentation version mismatch");
+  // Share the reader's registry instead of bundling a second copy. Importing the
+  // module installs nothing; Settings keeps its existing intent/owner checks.
+  const attempt = target._settingsPresentationAttempt;
+  const { SECTION_TYPES, sectionShown } = await import(target._appAsset("reader.js") + (attempt > 1 ? "&retry=" + attempt : ""));
+  if (target.__ngDestroyed || !target._progressCurrent()) throw new Error("Settings owner changed");
   const { NG_SETTINGS_TABS, NG_START_FROM } = dependencies;
   const methods = {
 _settingsTabRow(row, tab, refocus) {
@@ -279,12 +284,12 @@ renderSettings() {
       lay.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
       lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each row has its own ✕ on the board; the small glyphs at the bottom bring one back. Your choice sticks across states and devices.</div>';
       const LAYER_ROWS = [
-        ["film", "Videos", "The film row above the card."],
+        ["film", "Videos during play", "The current node's videos while playing."],
         ["card", "Question card", "Off = no card and no question. (Turning questions off above keeps the card.)"],
         ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
       ];
       for (const [name, title, sub] of LAYER_ROWS) {
-        const on = this._layerOn(name);
+        const on = name === "film" ? this.get("landFilm", true) : this._layerOn(name);
         const r = document.createElement("div");
         r.setAttribute("data-layer-row", name);
         r.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-top:12px;";
@@ -294,10 +299,27 @@ renderSettings() {
         rb.setAttribute("aria-pressed", on ? "true" : "false");
         rb.innerHTML = on ? "✓" : "";
         rb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
-        rb.addEventListener("click", () => { this.setLayer(name, !this._layerOn(name), "settings"); this.renderSettings(); });
+        rb.addEventListener("click", () => {
+          if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
+          else this.setLayer(name, !this._layerOn(name), "settings");
+          this.renderSettings();
+        });
         r.appendChild(rb); lay.appendChild(r);
       }
       body.appendChild(lay);
+      const sections = document.createElement("section");
+      sections.setAttribute("data-section-settings", "");
+      sections.innerHTML = '<h3 style="font-size:15px;color:#eef1f6;margin:0 0 6px;">Article sections</h3><p style="font-size:12.5px;color:#b6c5df;">Shown where available. Your choices carry across pages and sync when signed in.</p>';
+      for (const [type, title] of SECTION_TYPES) {
+        const row = document.createElement("label"), input = document.createElement("input");
+        row.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px;color:#dfe5f1;font-size:13px;";
+        row.append(document.createTextNode(title)); input.type = "checkbox"; input.checked = sectionShown(this, type);
+        input.setAttribute("data-section-setting", type); input.setAttribute("aria-label", "Show " + title);
+        input.style.cssText = "width:20px;height:20px;cursor:pointer;";
+        input.addEventListener("change", () => { this.set("readerSection." + type, input.checked); this._reader?.sync(); });
+        row.append(input); sections.append(row);
+      }
+      body.appendChild(sections);
       body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
         [["On", "on"], ["Off", "off"]], "sound", "on"));
       body.appendChild(this.settingRow("Sound volume", "How loud the beats land",
@@ -316,8 +338,7 @@ renderSettings() {
       const rows = [
         ["Answer a multiple-choice question", ["A", "B", "C"]],
         ["Execute option", ["1\u20139"]],
-        ["Inspect option", ["Shift + 1\u20139"]],
-        ["Execute from detail", ["\u23ce", "X"]],
+        ["Choose the focused move or open its video", ["Tab", "\u23ce"]],
         // THE FLASHCARD ROWS COVER ALL FOUR DECK SURFACES (v1.175.0): the study takeover, the
         // roll history's inline decks, the inline session queue and — new here — the Challenges
         // corridor's lesson decks. One vocabulary, because there is one handler and one

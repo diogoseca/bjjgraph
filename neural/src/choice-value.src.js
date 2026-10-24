@@ -427,10 +427,6 @@ export function ngChoiceValueView(record, snapshot) {
   return view;
 }
 
-function ngChoiceValueEscape(value) {
-  return String(value).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-}
-
 // THE LAST NUMBER STAYS WHILE THE SAME HAND RE-SOLVES (WINLAT1, 2026-10-05; the owner, testing the dev
 // preview on a phone: "the probabilities (win chance) take a while to load properly"). An answer, a
 // deck landing or any practice change re-solves the hand on screen, and its cards used to drop to "—"
@@ -453,23 +449,7 @@ export function ngChoiceValueUpdating(current, previous) {
   return view;
 }
 
-export function ngChoiceValueHTML(view, detail = false) {
-  const esc = ngChoiceValueEscape;
-  // A stale number is dimmed AND says so: "52%…" (choice-value.css) and an aria-label (v1.220.0, #267 review).
-  const win = '<strong data-choice-win' + (view.stale ? ' data-choice-stale aria-label="' + esc(view.tooltip || ("Win chance " + view.value + ", updating")) + '"' : '') + '>' + esc(view.value) + '</strong>';
-  if (!detail) return '<div class="ngcv-line"><span>Win chance</span>' + win + '</div>';
-  return '<section class="ngcv-detail" aria-label="Expected roll outcomes"><div class="ngcv-line"><span>Win chance <small>· ' + esc(view.state) + '</small></span>' + win + '</div>'
-    + '<p>' + esc(view.detail) + '</p>'
-    + '<p data-choice-immediate-line><b>' + esc(view.immediateLine || (view.immediateLabel + ' chance now: ' + view.immediate)) + '</b></p>'
-    + (view.split ? '<div class="ngcv-split" data-choice-split><b>How the win chance is made</b>' + view.split.map(line => '<p>' + esc(line) + '</p>').join("") + '</div>' : '')
-    // The app's own pre-values view (runtime loaded, values still preparing) carries no outcomes,
-    // knowledge or notes; opening Inspect then must render it, never throw (found v1.207.7).
-    + ((view.outcomes || []).length ? '<dl class="ngcv-outcomes">' + view.outcomes.map(o => '<div><dt>' + esc(o.label) + '</dt><dd>' + esc(o.value) + '</dd></div>').join("") + '</dl>' : '')
-    + (view.knowledge ? '<p><b>' + esc(view.knowledge.summary) + '</b></p>' + (view.knowledge.lines || []).map(line => '<p>' + esc(line) + '</p>').join("") : '')
-    + (view.notes || []).map(line => '<p class="ngcv-note">' + esc(line) + '</p>').join("") + '</section>';
-}
-
 // The standalone verification bundle installs this namespace eagerly. Production may
 // omit the entire module and pass its imported namespace to setChoiceValueRuntime.
-export const NG_CHOICE_VALUE_RUNTIME = Object.freeze({ ngChoiceValueController, ngChoiceValueView, ngChoiceValueHTML, ngChoiceValueOrder,
+export const NG_CHOICE_VALUE_RUNTIME = Object.freeze({ ngChoiceValueController, ngChoiceValueView, ngChoiceValueOrder,
   ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValuePercent, ngChoiceValueImmediate, ngChoiceValueUpdating });

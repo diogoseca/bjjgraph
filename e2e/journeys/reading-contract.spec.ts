@@ -9,7 +9,8 @@ import { journey } from "../dsl"
 // m26 includes attacker context: 3 failures (two built roles and the missing guide).
 // m27 truncates safety: exact complete-guide equality fails.
 // m28 breaks the spacing ratio: 6 instead of 4 at both widths.
-// m29 inverts heading size/color (compound): 14px is below its 18px subheading.
+// Historical m29 inverted heading size/color. U14 b (owner, 2026-10-24) replaces that large-title
+// premise with the smaller divider label; section-divider.spec.ts owns its alignment/contrast controls.
 // m30 removes abort + serial checks (compound): late Bottom replaces Top.
 // m31 restores game-first: the immediate complete reader is absent at both widths.
 // m32 removes engagement/tick/clock guards (compound): hovering produces a miss.
@@ -24,10 +25,16 @@ import { journey } from "../dsl"
 // name before the clearance calculation, never disappear from its measurements.
 // These controls assert UI/state contracts, not external video playback or the
 // accuracy of authored safety advice. The renderer must preserve that advice.
+// Review S3: semantic labels made the old defensive-heading negative vacuous.
+// The current Top TOC is now checked independently of article content/path;
+// toc-current-targets corrupts only its labels/targets (not the guide).
 const READY = '[data-reader][data-reader-ready="true"]'
 const KNEE = '/Transitions/Knee-Slice-Pass'
 const RNC = '/Submissions/Rear-Naked-Choke/from-Back-Control'
-const FOCUS = { v: 2, settings: { readingFocus: true, readingFilm: false, readingCard: false, readingHand: false, readingMap: false, readingFeedback: false }, settingsAt: {} }
+// D-338 retired Focus (its reading* overrides are no longer read). QUIET seeds the same closed
+// Questions and Moves and silent Feedback through the game layers; the map stays shown, as
+// leaving Focus showed it for the other-half tap.
+const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 const activity = (page: Page) => page.evaluate(() => {
   const a = (window as any).__neural
   return { intent: !!a._readerIntent, paused: a.paused, played: !!a._played,
@@ -112,6 +119,10 @@ for (const width of [1366, 390]) {
     expect(q).not.toBeNull()
     await j.advance(20000)
     expect(await activity(page)).toMatchObject({ intent: true, paused: true, remaining: null, played: false, beats: [] })
+    // D-338: Questions follows Videos and Moves and can start below the fold; a reader scrolls to it
+    // (a programmatic scroll is not a reading gesture) and answers it there.
+    await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
+    await j.readerLayoutSettled()
     await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, 'answer the dormant landing card')
     expect(await activity(page)).toMatchObject({ intent: false, paused: false, remaining: null })
     await j.advance(20000)
@@ -128,6 +139,7 @@ test('@curated reading gestures, minimizing and article navigation never start p
   await expect(page.locator(READY)).toBeVisible()
   await j.advance(5000)
   const p = page.locator('[data-reader-article="hub"] [data-source-id="overview"] > p').first()
+  await p.scrollIntoViewIfNeeded()
   const r = await p.boundingBox()
   await page.mouse.move(r!.x + 2, r!.y + 12)
   await page.mouse.down()
@@ -138,13 +150,29 @@ test('@curated reading gestures, minimizing and article navigation never start p
   await page.mouse.move(box!.x + box!.width / 2, box!.y + box!.height - 18)
   await page.mouse.wheel(0, 500)
   await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBeGreaterThan(0)
-  for (const part of ['book', 'card', 'hand', 'map', 'feedback']) {
-    await j.clickByMouse(`[data-layer-hide="${part}"]`)
-    await j.clickByMouse(`[data-layer-show="${part}"]`)
+  // STALE CONTRACT (D-318 U1(1), D-338): Questions and Moves close through their own ✕ and
+  // reopen from the label each leaves. RETIRED (D-338, no View menu): Book, Map and Feedback have
+  // no control in the article view, so their minimize/restore steps go; the claim is their absence.
+  // STALE SPEC (D-368, layout C): the hand's ✕ docks only beside a visible tray, and Moves lead the flow, so the tray is
+  // brought into view before its ✕ is pressed or looked for; its own last rectangle is stale while hidden.
+  const tray = async () => { await page.evaluate(() => (window as any).__neural.optionsRef.current.scrollIntoView({ block: 'nearest' })); await j.readerLayoutSettled(); await j.advance(40) }
+  for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
+    if (part === 'hand') await tray()
+    await page.locator(close).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    await j.clickByMouse(close, 'minimize ' + part)
+    // STALE SPEC (D-355, U11): where the index shows, a closed part leaves no label; its index row reopens it.
+    if (await page.locator('.ng-reader-toc').isVisible()) await j.clickByMouse(`[data-toc-type="${part}"] a`, 'restore ' + part + ' from the index')
+    else {
+      await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+      await j.clickByMouse(`[data-game-open="${part}"]`, 'restore ' + part)
+    }
+    await expect(page.locator(`[data-game-open="${part}"]`)).toBeHidden()
+    if (part === 'hand') await tray()
+    await expect(page.locator(close).first()).toBeVisible()
   }
+  await expect(page.locator('[data-layer-hide]:visible,[data-layer-show]:visible'), 'no View control in the article view').toHaveCount(0)
   await j.advance(20000)
   expect(await activity(page)).toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
-  await j.clickByMouse('[data-reading-focus]')
   const link = page.locator('[data-reader-body] a[href*="/Positions/"]').first()
   await link.scrollIntoViewIfNeeded()
   await link.evaluate(e => e.setAttribute('data-reading-next', ''))
@@ -158,7 +186,7 @@ test('@curated reading gestures, minimizing and article navigation never start p
 for (const path of [KNEE, RNC]) {
   test(`@curated defender reading excludes attacker rules and preserves real safety: ${path}`, async ({ page }) => {
     const j = journey(page)
-    await j.boot(path + '/Defender', { initialState: FOCUS })
+    await j.boot(path + '/Defender', { initialState: QUIET })
     await expect(page.locator(READY)).toBeVisible()
     await j.advance(20000)
     const proof = await page.evaluate(async path => {
@@ -167,7 +195,8 @@ for (const path of [KNEE, RNC]) {
       const hub = await load(path), defender = await load(path + '/Defender')
       const guide = norm(defender.querySelector('article')!.textContent)
       const attackerOnly = [...hub.querySelectorAll('#attacker-summary li')].map(n => norm(n.textContent)).filter(s => s.length > 30 && !guide.includes(s))
-      const reader = norm(document.querySelector('[data-reader-body]')!.textContent)
+      // D-338 lifts the Videos section above the hand, out of [data-reader-body]: read the reader.
+      const reader = norm(document.querySelector('[data-reader]')!.textContent)
       const safety = hub.querySelector('#safety-considerations')
       return { attackerOnly, leaked: attackerOnly.filter(s => reader.includes(s)),
         safety: safety ? norm(safety.textContent) : null,
@@ -189,11 +218,11 @@ for (const path of [KNEE, RNC]) {
 test('@curated an unauthored defender never falls back to the attacker hub', async ({ page }) => {
   const j = journey(page)
   // Explicit missing-author fixture; the hub remains the real built attacker-rich page.
-  await j.boot(KNEE, { initialState: FOCUS, beforeNavigate: async () => {
+  await j.boot(KNEE, { initialState: QUIET, beforeNavigate: async () => {
     await page.route('**/Transitions/Knee-Slice-Pass/Defender', route => route.fulfill({ contentType: 'text/html', body: '<h1>Defender</h1><article><p>This defender guide has not been authored.</p></article>' }))
   } })
   await expect(page.locator(READY)).toBeVisible()
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', KNEE + '/Defender')
   await expect(page.locator('[data-reader-body]')).toHaveText(/This defender guide has not been authored/)
   await expect(page.locator('[data-reader-body]')).not.toContainText(/Execution Steps|Playing as Attacker|Possible Outcomes/)
@@ -201,36 +230,43 @@ test('@curated an unauthored defender never falls back to the attacker hub', asy
 })
 
 for (const width of [1366, 390]) {
-  test(`@curated ${width}px reader rhythm scales as a ratio and headings keep their hierarchy`, async ({ page }) => {
+  test(`@curated ${width}px reader rhythm scales as a ratio and divider labels preserve the prose hierarchy`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = journey(page)
-    await j.boot(RNC + '/Defender', { initialState: FOCUS })
+    await j.boot(RNC + '/Defender', { initialState: QUIET })
     await expect(page.locator(READY)).toBeVisible()
     const sample = () => page.locator('[data-reader-article="guide"] [data-source-id="key-principles"]').evaluate(section => {
       const px = (e: Element, p: string) => parseFloat((getComputedStyle(e) as any)[p])
       const lum = (e: Element) => { const [r,g,b] = getComputedStyle(e).color.match(/\d+/g)!.slice(0,3).map(s => { const x = +s / 255; return x <= .03928 ? x / 12.92 : ((x + .055) / 1.055) ** 2.4 }); return .2126*r + .7152*g + .0722*b }
-      const list = section.querySelector('ul')!, head = section.querySelector('h2')!, prose = list.querySelector('li')!
-      const sub = section.closest('article')!.querySelector('[data-source-id="defensive-options"] h3')!
-      return { section: px(section, 'marginBottom'), item: px(list, 'rowGap'), unit: px(section.closest('[data-reader]')!, 'paddingLeft'),
-        head: px(head, 'fontSize'), sub: px(sub, 'fontSize'), prose: px(prose, 'fontSize'), headLum: lum(head), bodyLum: lum(prose) }
+      // D-338: the heading's words are its title (the toggle beside it is now the one ✕).
+      const list = section.querySelector('ul')!, card = section.closest('.ng-section-card')!, head = card.querySelector('.ng-section-title')!, prose = list.querySelector('li')!
+      const sub = document.querySelector('[data-reader-article="guide"] [data-source-id="defensive-options"] h3')!
+      return { gap: card.nextElementSibling!.getBoundingClientRect().top - card.getBoundingClientRect().bottom,
+        item: px(list, 'rowGap'), unit: parseFloat(getComputedStyle(section.closest('[data-reader]')!).getPropertyValue('--reader-unit')),
+        head: px(head, 'fontSize'), sub: px(sub, 'fontSize'), prose: px(prose, 'fontSize'),
+        uppercase: getComputedStyle(head).textTransform, headLum: lum(head),
+        bgLum: (() => { const rgb = getComputedStyle(card).backgroundColor.match(/\d+/g)!.slice(0,3).map(s => { const x = +s / 255; return x <= .03928 ? x / 12.92 : ((x + .055) / 1.055) ** 2.4 }); return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2] })() }
     })
     const normal = await sample()
-    expect(normal.section / normal.item).toBe(4)
-    expect(normal.section / normal.unit).toBe(2)
-    expect(normal.head).toBeGreaterThan(normal.sub)
+    expect(normal.gap).toBe(6)
+    expect(normal.item / normal.unit).toBe(.5)
+    // U14 b (owner, 2026-10-24): the title is now a small uppercase divider; it no longer
+    // outranks the prose by size or brightness. Keep AA contrast and the prose's hierarchy.
+    expect(normal.head).toBe(13)
+    expect(normal.uppercase).toBe('uppercase')
     expect(normal.sub).toBeGreaterThan(normal.prose)
-    expect(normal.headLum).toBeGreaterThan(normal.bodyLum)
+    expect((normal.headLum + .05) / (normal.bgLum + .05), 'the divider title retains AA text contrast').toBeGreaterThanOrEqual(4.5)
     await page.locator(READY).evaluate(e => (e as HTMLElement).style.setProperty('--reader-unit', '18px'))
     const scaled = await sample()
-    expect(scaled.section / scaled.item, 'the relationship survives a different unit').toBe(4)
-    expect(scaled.section / scaled.unit).toBe(2)
-    expect(scaled.section).not.toBe(normal.section)
+    expect(scaled.gap, 'section spacing retains the approved independent 6px token').toBe(6)
+    expect(scaled.item / scaled.unit).toBe(.5)
+    expect(scaled.item).not.toBe(normal.item)
   })
 }
 
 test('@curated a late response cannot repaint the opposite seat in the same reader', async ({ page }) => {
   const j = journey(page)
-  await j.boot('/Positions/Mount', { initialState: FOCUS })
+  await j.boot('/Positions/Mount', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
   await page.evaluate(() => { (window as any).__seatReader = (window as any).__neural._reader })
   let release!: () => void, requested = false, settled = false
@@ -238,7 +274,7 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   const settle = (r: { url(): string }) => { if (new URL(r.url()).pathname === '/Positions/Mount/Bottom') settled = true }
   page.on('requestfinished', settle); page.on('requestfailed', settle)
   await page.route('**/Positions/Mount/Bottom', async route => { requested = true; await held; await route.continue().catch(() => {}) })
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Bottom"]')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect.poll(() => requested).toBe(true)
   await j.clickByMouse('.ng-logo')
   await j.clickByMouse('[data-view="explore"]')
@@ -250,9 +286,27 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   await expect.poll(() => settled).toBe(true)
   await page.waitForTimeout(100)
   expect(await page.evaluate(() => (window as any).__seatReader === (window as any).__neural._reader)).toBe(true)
-  await expect(page.locator('[data-reader-article="guide"]')).toHaveAttribute('data-source-path', '/Positions/Mount/Top')
-  const toc = await page.locator('[data-reader-target]').evaluateAll(nodes => nodes.map(e => e.textContent))
-  expect(toc).not.toContain('Key Defensive Principles')
+  expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(['/Positions/Mount/Top'])
+  const toc = await page.locator('[data-section-link]').evaluateAll(nodes => nodes.map(e => {
+    const target = document.getElementById(e.getAttribute('data-section-link')!), card = target?.closest('.ng-section-card')
+    // D-338: Moves and Questions name no header; each link targets the part's closed label, whose
+    // text is the name. Videos leads the flow above the hand, so a section is current in the reader.
+    if (target?.classList.contains('ng-reader-closed-part')) return { label: e.textContent, type: target.id.slice(7),
+      current: !!document.querySelector('.ng-reader-game')?.contains(target) && e.getAttribute('href') === '#' + target.id,
+      // STALE SPEC (D-355, U11): a closed label reads its name, then its eye, so the name is the first span.
+      heading: target.querySelector('[data-game-open] .ng-section-closed > span:first-child')?.textContent }
+    return { label: e.textContent, type: card?.getAttribute('data-section-type'),
+      current: !!card && !!document.querySelector('[data-reader]')?.contains(card) && e.getAttribute('href') === '#' + card.id,
+      heading: card?.querySelector('.ng-section-title')?.textContent }
+  }))
+  const expected = [
+    ['videos', 'Videos'], ['hand', 'Moves'], ['card', 'Questions'], ['overview', 'Overview'], ['principles', 'Essential principles'],
+    ['prerequisites', 'Prerequisites'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
+    ['role-comparison', 'Role comparison'], ['bottom-summary', 'Bottom overview'], ['top-summary', 'Top overview'],
+    ['training', 'Training'], ['statistics', 'Statistics'], ['related', 'Related'],
+  ]
+  expect(toc, 'every current Top label points to its own nonempty semantic section').toEqual(
+    expected.map(([type, label]) => ({ type, label, heading: label, current: true })))
 })
 
 for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {

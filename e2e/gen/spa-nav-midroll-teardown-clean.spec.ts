@@ -1,11 +1,13 @@
+// v1.230.0: the owner dropped practise-before-you-try on 2026-10-15 (question 6).
 /* @hyperspace {"theme":"lifetime-journeys","L":"casual-week1","F":"spa-nav","B":"interruption-abort"} @invariant "A soft navigation in the middle of a live roll (options dealt, decision clock running) tears down without ghosts: the remounted app has no residual _defendSub/_sweep/_beltTest/optionIdxs from the old life, no stray timer fires a beat into the new instance, and a fresh land deals a live hand." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
+import { openChoiceVideo } from "../fixtures/video-cards"
 import { casualWeek1 } from "./personas"
 
 /**
  * SPA-NAV MID-ROLL TEARDOWN — a week-1 casual walks away from a LIVE roll (hand dealt,
- * decision clock running, expand sheet open) via a Quartz soft navigation; the teardown
+ * decision clock running, Watch viewer open) via a Quartz soft navigation; the teardown
  * must leave no ghosts in the remounted life.
  *
  * Seams under test (probe-verified twice, ~4.1s, deterministic):
@@ -35,7 +37,7 @@ import { casualWeek1 } from "./personas"
  *   - The FORBIDDEN watch only ever reads the NEW instance's beats, and under __NEURAL_TEST__
  *     `startLoop` never arms rAF ("frames advance only via advance()"), which pumps only
  *     window.__neural — so an OLD instance that survived teardown is never ticked here, and
- *     its clock could not fire into anything. Since v1.134.0 f12f8f74c the open sheet also
+ *     its clock could not fire into anything. Since v1.134.0 f12f8f74c opening Watch also
  *     DECLINES life 1's question and disarms `_decision` (remaining null at nav time), so the
  *     "surviving clock MUST fire" premise is void twice over. Same reason: `corpse.rafDisarmed`
  *     is true by construction (`_raf` is never set in test mode) and `corpse.beats` frozen is
@@ -43,7 +45,7 @@ import { casualWeek1 } from "./personas"
  *   - What DOES gate teardown here: the corpse's `_timers` (made live below by planting one
  *     sim timer through the app's own `after()` before the nav — at nav time the list was
  *     otherwise already empty, so "cleared by teardown" was vacuous), `__ngDestroyed`, exactly
- *     one #neural-root, the old sheet gone, and the fresh instance's residue fields.
+ *     one #neural-root, the old viewer gone, and the fresh instance's residue fields.
  *
  * CRITICAL PITFALL (all future spa-nav specs): the nav target MUST be a canonical slug —
  * "/Game-Over", capital G-O. Lowercase "/game-over" is a Quartz alias REDIRECT STUB whose
@@ -94,9 +96,9 @@ test("mid-roll soft nav: old life torn down silent, remount residue-free, fresh 
   const preNav = (await j.beats()).map((b) => b.beat)
   expect(preNav.filter((b) => b === "auto_pick" || b === "expiry_warning"), "pre-nav: no expiry signal yet").toEqual([])
 
-  // ── open the expand sheet (mid-interaction surface; pauses the clock — must still tear down) ──
-  await page.locator(`[data-tech="${hand1[0]}"]`).first().locator("[data-choice-inspect]").click()
-  await expect(page.locator("[data-go]").first(), "expand sheet open at nav time").toBeVisible()
+  // A real Watch viewer is open at navigation time; it must leave with its old app.
+  await openChoiceVideo(page, hand1[0])
+  await expect(page.locator("[data-choice-viewer]"), "Watch open at nav time").toBeVisible()
 
   // mark life 1 + stash a window-global ref (window globals survive a SOFT nav — this is
   // both the corpse handle and the alias-stub hard-nav detector). Plant ONE pending sim timer
@@ -139,7 +141,7 @@ test("mid-roll soft nav: old life torn down silent, remount residue-free, fresh 
         beats: (a.beats || []).length,
       },
       roots: document.querySelectorAll("#neural-root").length,
-      sheets: document.querySelectorAll("[data-go]").length,
+      viewers: document.querySelectorAll("[data-choice-viewer]").length,
       corpse: old && {
         destroyed: old.__ngDestroyed === true,
         timers: (old._timers || []).length,
@@ -158,7 +160,7 @@ test("mid-roll soft nav: old life torn down silent, remount residue-free, fresh 
   expect(state.fresh.options, "no residual optionIdxs from the old hand").toBe(0)
   expect(state.fresh.beats, "fresh life's beat stream starts empty").toBe(0)
   expect(state.roots, "exactly one #neural-root (old overlay removed)").toBe(1)
-  expect(state.sheets, "the old life's open expand sheet did not survive teardown").toBe(0)
+  expect(state.viewers, "the old life's viewer did not survive teardown").toBe(0)
   expect(state.corpse.destroyed, "old instance flagged __ngDestroyed").toBe(true)
   expect(state.corpse.timers, "old instance _timers cleared by teardown").toBe(0)
   expect(state.corpse.rafDisarmed, "old instance holds no armed rAF").toBe(true)

@@ -1,5 +1,6 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
 import { journey } from "../dsl";
+import { openChoiceVideo, CARD, NAME } from "../fixtures/video-cards";
 
 /**
  * COLD-START BACKFILL — journey 3, Phase 2: the worst thing the Phase 1 measurement found.
@@ -27,8 +28,8 @@ import { journey } from "../dsl";
  * for the decks and the DSL served them instantly — so the assertion was about a hook, not about a
  * cold start. The DSL can now hold a named payload back (`boot({ payloads: … })`, see PayloadRule),
  * which means the app's OWN `fetch().then()` delivers the decks mid-turn and nothing is stubbed. The
- * remaining tests keep the stash: they are about re-render mechanics (the sheet's hide, the freeze
- * guard, the entry animation) where the arrival mechanism is beside the point.
+ * Watch backfill also holds the real manifest (D10-N1). The remaining tests keep the stash for
+ * re-render mechanics (content refresh, the freeze guard, entry animation) where transport is beside the point.
  * See also coldstart-late-payload.spec.ts for the skew measured end to end.
  */
 
@@ -41,6 +42,18 @@ type Read = {
   qShown: number;
   funnel: string[];
 };
+
+// D-333 (the D3-B1 class): since D-318 (af3aac311) a new landing card stays hidden
+// (`data-reader-pending`, visibility:hidden) until the deferred reader publishes it, and a backfill
+// builds a new card that is pending again. Wait for the card a visitor can see, with its finite entry
+// animation done, never for a fixed time: under a 2.5s reader.js hold the clicks below landed on the
+// canvas and the sheet read found a hidden card (claude-verify H14hold: 101, 196 and 271 red).
+const cardSettled = (page: Page) =>
+  expect.poll(() => page.evaluate(() => {
+    const el = document.querySelector("[data-landcard]") as HTMLElement | null;
+    return !!el && getComputedStyle(el).visibility === "visible" && el.getBoundingClientRect().height > 1 &&
+      !el.getAnimations().some((an) => Number.isFinite(an.effect?.getComputedTiming().endTime as number));
+  }), { timeout: 10_000, message: "the landing card is published and its entry animation finished" }).toBe(true);
 
 const read = (page: any): Promise<Read> =>
   page.evaluate(() => {
@@ -155,6 +168,7 @@ test("cold start: the deck payload landing mid-turn gives the CURRENT state its 
   // `document.elementFromPoint` says is really under the cursor — which is what pins the
   // pointer-events:auto trap (a fixed overlay that does not re-enable it is unclickable, because the
   // canvas hit-tests above it, and a keyboard-driven assertion masks that entirely).
+  await cardSettled(page);
   await j.clickByMouse(
     "[data-land-mc-opt]",
     "the backfilled question's first MC option",
@@ -193,79 +207,46 @@ test("cold start: a late dossier adds film without replacing the complete articl
   await expect(page.locator('[data-land-more]')).toHaveCount(0);
 });
 
-test("cold start: a payload arriving behind the expand sheet renders BEHIND it, visible", async ({
-  page,
-}) => {
-  // v1.136.0 (owner): the sheet no longer hides the landing card — it maximizes IN FRONT of it
-  // on the root plane (portalled, z:50 over the card's z:5). A backfilled card must therefore
-  // arrive VISIBLE, and the paint order — not a z-index integer — must put the sheet on top
-  // wherever the two overlap. elementFromPoint is the only honest oracle here (§6.3).
+// v1.230.0 reverses the v1.218.1/v1.220.0 Inspect wrapper. The same late-backfill
+// invariant belongs to Watch's native modal: the arriving question cannot steal its keys.
+test("cold start: a payload arriving behind Watch preserves the viewer and cannot answer through it", async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 });
+  // D10-N1: removing decks after bootVideoCards had already mounted a question was not a cold
+  // backfill. Hold the real manifest before this first landing, then deliver it behind Watch.
   const j = journey(page);
-  await j.boot("/", { keepTutorial: true });
-  await withoutDecks(page);
+  await j.boot("/", { payloads: { "flashcards/_index.json": { never: true } } });
   await j.land("Mount Top");
-  const target = await page.evaluate(() => {
+  expect((await read(page)).hasQ, "premise: the cold landing has no question before Watch").toBe(false);
+  expect(j.payloadTimeline().filter(e => e.pattern === "flashcards/_index.json"), "the real deck manifest is still held")
+    .toEqual([expect.objectContaining({ releasedAtSim: null, releasedAtMs: null })]);
+  // D10-N1 fixture timing: expose the card before installing its test clip. Otherwise the
+  // visibility observer can replace Watch's source button while the viewer is already open.
+  await page.locator(CARD).scrollIntoViewIfNeeded();
+  await j.readerLayoutSettled();
+  await openChoiceVideo(page, NAME);
+  const view = page.locator('[data-choice-viewer]');
+  await expect(view).toBeVisible();
+  const before = await page.evaluate(() => {
     const a = (window as any).__neural;
-    for (const i of a.optionIdxs || [])
-      if (a.nodes[i].ty === "transitions") return a.nodes[i].t;
-    return a.nodes[(a.optionIdxs || [])[0]].t;
+    (window as any).__watchIdentity = a._choiceWatch.dialog;
+    return { commits: a.beats.filter((b: any) => b.beat === 'commit').length, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length };
   });
-  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click(); // open the sheet, do NOT execute
-  await expect(page.locator("[data-go]").first()).toBeVisible();
-
-  await decksArrive(page); // the payload lands while the sheet is up
-  await page.waitForTimeout(450); // the card's entry animation must finish before opacity means anything
-
-  const stack = await page.evaluate(() => {
+  await decksLandFor(j, page);
+  await j.landSettled();
+  expect((await read(page)).hasQ, "the newly backfilled question exists behind Watch").toBe(true);
+  expect(await page.evaluate(() => (window as any).__neural._choiceWatch.dialog === (window as any).__watchIdentity)).toBe(true);
+  await expect(view).toBeVisible();
+  await page.keyboard.press('a'); await page.keyboard.press('1');
+  expect(await page.evaluate(() => {
     const a = (window as any).__neural;
-    const card = document.querySelector(".ng-landcard") as HTMLElement;
-    const panel = a.optDetailRef.current as HTMLElement;
-    if (!card || !panel) return null;
-    const cs = getComputedStyle(card);
-    const cr = card.getBoundingClientRect(), pr = panel.getBoundingClientRect();
-    // a point inside BOTH rects — the band where the sheet must win the paint
-    const x = Math.max(cr.left, pr.left) + Math.min(cr.right, pr.right) > 2 * Math.max(cr.left, pr.left)
-      ? (Math.max(cr.left, pr.left) + Math.min(cr.right, pr.right)) / 2 : -1;
-    const y = (Math.max(cr.top, pr.top) + Math.min(cr.bottom, pr.bottom)) / 2;
-    const overlap = x >= 0 && Math.min(cr.bottom, pr.bottom) > Math.max(cr.top, pr.top);
-    const hit = overlap ? document.elementFromPoint(x, y) : null;
-    return {
-      cardVisible: cs.opacity !== "0" && cs.visibility === "visible",
-      overlap,
-      sheetWinsPaint: !!(hit && panel.contains(hit)),
-      // v1.137.0: born under an open sheet = born stood down. This is the ONLY gate on
-      // renderLandCard's `_syncDetailDim()` re-assert — a backfill builds a brand-new element with
-      // fresh, non-inert children, so nothing else re-applies the dim to it.
-      opacity: parseFloat(cs.opacity),
-      marked: card.hasAttribute("data-behind-sheet"),
-      kidsInert: card.children.length > 0 && [...card.children].every((c: any) => c.inert === true),
-    };
-  });
-  expect(stack, "card and sheet both mounted").not.toBeNull();
-  expect(stack!.cardVisible, "the backfilled card arrives VISIBLE behind the sheet").toBe(true);
-  if (stack!.overlap) expect(stack!.sheetWinsPaint, "the sheet wins the paint where they overlap").toBe(true);
-  expect(stack!.opacity, "...and DIMMED, not at full strength").toBeLessThan(1);
-  expect(stack!.opacity, "...but not hidden — this is a stand-down, not the old hide").toBeGreaterThan(0);
-  expect(stack!.marked, "the backfilled card carries the stand-down marker").toBe(true);
-  expect(stack!.kidsInert, "and its children are born inert").toBe(true);
-
-  await page.evaluate(() => (window as any).__neural.closeOptionDetail());
-  await page.waitForTimeout(400);
-  const restored = await page.evaluate(() => {
-    const card = document.querySelector(".ng-landcard") as HTMLElement;
-    if (!card) return null;
-    return {
-      opacity: getComputedStyle(card).opacity,
-      marked: card.hasAttribute("data-behind-sheet"),
-      kidsInert: [...card.children].some((c: any) => c.inert === true),
-    };
-  });
-  expect(restored!.opacity, "closing the sheet hands the backfilled card back").toBe("1");
-  expect(restored!.marked).toBe(false);
-  expect(restored!.kidsInert).toBe(false);
-  expect((await read(page)).hasQ, "carrying the question it was owed").toBe(
-    true,
-  );
+    return { commits: a.beats.filter((b: any) => b.beat === 'commit').length, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length };
+  })).toEqual(before);
+  await page.keyboard.press('Escape');
+  await expect(view).toHaveCount(0);
+  await expect(page.locator(`${CARD} [data-choice-watch]`)).toBeFocused();
+  await expect(page.locator('[data-landcard]')).toBeVisible();
+  expect((await read(page)).hasQ, "closing Watch preserves the newly backfilled question").toBe(true);
+  await expect(page.locator('[data-land-q]')).toBeVisible();
 });
 
 test("cold start: the FIRST landing carries its question, and a late payload reaches it", async ({
@@ -304,6 +285,7 @@ test("cold start: the FIRST landing carries its question, and a late payload rea
   // BY MOUSE, at measured coordinates: `pointer-events:auto` has to be live on the card, and the
   // option has to be where the visitor can reach it WITHOUT scrolling — exactly the part
   // `locator.click()` cannot say (it scrolls first).
+  await cardSettled(page);
   await j.clickByMouse(
     "[data-land-mc-opt]",
     "the first landing's first MC option",
@@ -363,6 +345,7 @@ test("cold start: a late dossier preserves both the unanswered question and the 
   ).toEqual(before.opts);
   expect(after.shown, "so it was never re-asked").toBe(before.shown);
   // still answerable BY MOUSE, where it sits, after the in-place completion
+  await cardSettled(page);
   await j.clickByMouse(
     "[data-land-mc-opt]",
     "the carried-over question's first MC option",
@@ -397,7 +380,6 @@ test("cold start: the landing card stays centred through its entry animation", a
   const anim = await page.evaluate(() => {
     const el = document.querySelector(".ng-landcard") as HTMLElement;
     const cs = getComputedStyle(el);
-    const centring = cs.transform; // the resting transform the card is centred by
     const name = cs.animationName;
     const frames: Array<{ at: string; transform: string }> = [];
     for (const sheet of Array.from(document.styleSheets)) {
@@ -417,7 +399,20 @@ test("cold start: the landing card stays centred through its entry animation", a
           });
       }
     }
-    return { name, centring, frames, width: el.getBoundingClientRect().width };
+    // Replay the actual CSS animation and sample its rectangle, including the
+    // final resting frame. Native reader coordinates use transform:none; the
+    // older fixed home still uses translateX(-50%). Both must stay centred.
+    el.style.animation = "none"; void el.offsetWidth; el.style.animation = "";
+    const animation = el.getAnimations().find(a => (a as CSSAnimation).animationName === name)!;
+    animation.pause();
+    const duration = Number(animation.effect!.getTiming().duration), centres: number[] = [];
+    for (const fraction of [0, .25, .5, .75, .999, 1]) {
+      animation.currentTime = duration * fraction;
+      const rect = el.getBoundingClientRect(); centres.push(rect.left + rect.width / 2);
+    }
+    animation.finish();
+    const rest = el.getBoundingClientRect();
+    return { name, frames, centres, restingCentre: rest.left + rest.width / 2, native: el.hasAttribute('data-reader-game-part'), centring: getComputedStyle(el).transform };
   });
 
   expect(anim.name, "the card animates on entry").not.toBe("none");
@@ -425,10 +420,9 @@ test("cold start: the landing card stays centred through its entry animation", a
     anim.frames.length,
     `@keyframes ${anim.name} was found`,
   ).toBeGreaterThan(0);
-  expect(
-    anim.centring,
-    "the card is centred by a transform, which is why this matters",
-  ).toContain("matrix");
+  if (anim.native) expect(anim.centring).toBe('none');
+  else expect(anim.centring, "the fixed home centres by a transform").toContain("matrix");
+  for (const centre of anim.centres) expect(Math.abs(centre - anim.restingCentre), "the card never jumps sideways during entry or when it finishes").toBeLessThanOrEqual(1);
   // every frame that touches transform must still shift the card half its width left
   const dropped = anim.frames.filter(
     (f) => f.transform && !/-50%/.test(f.transform),

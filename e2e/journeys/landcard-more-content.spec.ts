@@ -3,7 +3,7 @@ import { journey } from "../dsl"
 
 /** #289 replaces the abridged More renderer with complete published articles.
  * The old folded/pinned virtual-column assertions are superseded by the reader
- * journeys; the independent option-sheet late-dossier assertion remains below.
+ * journeys; the late-choice dossier assertion protects the current landing question below.
  * These tests compare against authored HTML, not a second dossier renderer.
  * MDP-sandbox mutation evidence is recorded in reading-mode.spec.ts.
  * m55_late_article_wins removes cancellation and the serial paint guard: the
@@ -11,105 +11,62 @@ import { journey } from "../dsl"
  * A cancellation-only control survives: the serial check still blocks its paint.
  */
 
-type Dossier = Record<string, any>
-const LONG_CUE = "Preserve the connection while your partner changes direction, keeping the near elbow and knee aligned before moving your weight. ".repeat(3) + "THE ENTIRE CUE ENDS HERE."
-const SAFETY = {
-  notice: "Practise only with qualified supervision; release immediately when your partner taps.",
-  risks: Array.from({ length: 5 }, (_, i) => ({ i: `Authored injury risk ${i + 1}`, sev: i ? "moderate" : "severe" })),
-  speed: "Apply controlled pressure and leave your partner time to signal. ".repeat(5) + "FINAL APPLICATION SENTENCE.",
-  tap: Array.from({ length: 5 }, (_, i) => `Tap signal ${i + 1}: stop as soon as this signal is recognised.`),
-  release: Array.from({ length: 5 }, (_, i) => `Release action ${i + 1}: maintain control while removing all finishing pressure.`),
-  restrictions: ["Training restriction one: use a qualified supervisor.", "FINAL TRAINING RESTRICTION: do not continue after a stop signal."],
-}
-
-const technique = (): Dossier => ({
-  cat: "Submission", lead: "A submission-specific authored definition.",
-  aka: ["Own variant alias"],
-  family: { name: "Ezekiel Choke", aka: ["Sode Guruma Jime", "Family's second alias"], confuse: [{ n: "A different choke", why: "Its finishing grip differs." }] },
-  kind: { cat: "Choke", type: "Blood choke", area: "Carotid arteries" },
-  safety: SAFETY,
-  outcomes: [{ result: "Success", position: "Game Over", prob: 55, tone: "good" }],
-  related: ["Related technique sentinel"],
-  variations: ["Alternate grip"], varNote: { "Alternate grip": "Use when the sleeve is available." },
-  perspectives: {
-    attacker: {
-      summary: "ATTACKER ONLY summary.", recognition: ["ATTACKER ONLY recognition."],
-      prerequisites: ["ATTACKER ONLY prerequisite."],
-      steps: Array.from({ length: 8 }, (_, i) => `Execution step ${i + 1}: ${i === 7 ? LONG_CUE : "Preserve a stable connection."}`),
-      principles: ["ATTACKER ONLY principle."], counters: ["ATTACKER ONLY counter."],
-      mistakes: [{ err: "ATTACKER ONLY mistake.", fix: "ATTACKER ONLY correction." }],
-    },
-    defender: {
-      authored: true, summary: "DEFENDER ONLY summary.", recognition: ["DEFENDER ONLY recognition."],
-      principles: ["DEFENDER ONLY principle."],
-      options: [{ move: "Recover the defensive frame", when: "Before the grip closes", leadsTo: "Guard recovery" }],
-      mistakes: [{ err: "DEFENDER ONLY mistake.", fix: "DEFENDER ONLY correction." }],
-      bestOutcomes: ["ATTACKER OUTCOME MUST NOT LEAK"],
-    },
-  },
-})
-
-test("@curated a cold option sheet gains its own dossier without replacing the drill or scroll position", async ({ page }) => {
+// v1.230.0 reverses v1.218.1/v1.220.0 Inspect. Late media belongs to its
+// existing card; the landing question and the hand's scroll position must survive.
+test("@curated a cold choice gains its approved video without replacing the landing question or hand scroll", async ({ page }) => {
   const j = journey(page)
   await j.boot()
   await j.land("Mount Top")
+  await expect.poll(() => page.evaluate(() => !((window as any).__neural._choiceMediaActive > 0))).toBe(true)
   const target = await page.evaluate(() => {
     const w = window as any, a = w.__neural
     const option = a._optionCards.find((c: any) => !c.esc && !c.opt.threat)
-    if (!option) throw new Error("The real hand must contain a selectable technique")
     option.card.setAttribute("data-more-test-option", "1")
     const key = option.node.t
     delete (w.NG_CONTENT?.decks || {})[key]
     delete (a._contentWaits || {})[key]
-    return { key, filename: a.qhash(key) + ".json", deck: a.deckKeyFor(option.node).key, cat: a.deckCat(option.node) }
+    return { key, filename: a.qhash(key) + ".json", deck: a.deckKeyFor(option.node).key }
   })
   await j.hydrate([target.deck])
   let release!: () => void
-  const held = new Promise<void>((resolve) => { release = resolve })
+  const held = new Promise<void>(resolve => { release = resolve })
   let requests = 0
-  const dossier = technique()
-  dossier.cat = target.cat
-  if (target.cat !== "Submission") { delete dossier.safety; delete dossier.kind }
-  await page.route(`**/content/${target.filename}`, async (route) => {
+  await page.route(`**/content/${target.filename}`, async route => {
     requests++
     await held
-    await route.fulfill({ json: { [target.key]: dossier } })
+    await route.fulfill({ json: { [target.key]: { perspectives: { attacker: {
+      clips: [{ id: "aaaaaaaaaaa", title: target.key, front: true, duration: 42 }],
+    } } } } })
   })
-  await j.clickByMouse("[data-more-test-option] [data-choice-inspect]", "Inspect on the first real technique in the hand")
-  await expect.poll(() => requests, { message: "the sheet's own dossier request is held" }).toBe(1)
-  await expect(page.locator("[data-jit]")).toBeVisible()
   const before = await page.evaluate(() => {
     const w = window as any, a = w.__neural
-    const jit = document.querySelector("[data-jit]") as HTMLElement
-    const scroll = jit.parentElement!
-    scroll.scrollTop = 37
-    w.__moreSheetJit = jit
-    w.__moreSheetJitHTML = jit.outerHTML
-    w.__moreSheetScroll = scroll
-    return { scroll: scroll.scrollTop, owner: a._detailCtx.contentKey }
+    const card = document.querySelector("[data-more-test-option]") as any
+    a._queueChoiceMedia(card, card._choiceTarget, a._choiceHandId)
+    const question = document.querySelector("[data-land-q]") as HTMLElement
+    if (!question) throw new Error("The landing must have a live question before the held response")
+    const scroll = a.optionsRef.current
+    a._trayStop(); scroll.scrollLeft = 37
+    w.__moreQuestion = question; w.__moreQuestionHTML = question.outerHTML; w.__moreScroll = scroll; w.__moreCard = card
+    return { scroll: scroll.scrollLeft, owner: a._landQ.key }
   })
-  expect(before.owner).toBe(target.key)
-  expect(before.scroll, "the cold sheet really is scrolled before the response").toBeGreaterThan(0)
+  expect(before.owner).toBe("Mount|Top")
+  expect(before.scroll, "the actual hand is scrolled before the response").toBeGreaterThan(0)
+  await expect.poll(() => requests, { message: "the choice's own dossier request is held" }).toBe(1)
   release()
-  await expect(page.locator("[data-sheet-steps]")).toContainText("Execution step 8:")
+  await expect(page.locator("[data-more-test-option] [data-choice-watch]")).toBeVisible()
   expect(await page.evaluate(() => {
     const w = window as any
-    return {
-      sameDrill: w.__moreSheetJit === document.querySelector("[data-jit]"),
-      sameQuestion: w.__moreSheetJitHTML === w.__moreSheetJit.outerHTML,
-      scroll: w.__moreSheetScroll.scrollTop,
-    }
-  })).toEqual({ sameDrill: true, sameQuestion: true, scroll: before.scroll })
-  await j.clickByMouse('.ng-pt[data-p="defender"]', "the defender tab added by the late dossier")
-  await expect(page.locator("[data-sheet-options]")).toContainText("Recover the defensive frame")
-  await expect(page.locator("[data-sheet-steps]")).toHaveCount(0)
-  await expect(page.locator("[data-sheet-aka]")).toContainText("Own variant alias")
+    return { sameHost: w.__moreQuestion === document.querySelector("[data-land-q]"),
+      sameQuestion: w.__moreQuestionHTML === w.__moreQuestion.outerHTML, scroll: w.__moreScroll.scrollLeft,
+      sameCard: w.__moreCard === document.querySelector("[data-more-test-option]") }
+  })).toEqual({ sameHost: true, sameQuestion: true, scroll: before.scroll, sameCard: true })
 })
 
 
 const READER = '[data-reader-ready="true"]'
-const readingState = { v: 2, settings: { readingFocus: true, readingFilm: false,
-  readingCard: false, readingHand: false, readingMap: false, readingFeedback: false }, settingsAt: {} }
+// D-338 retired Focus (its reading* overrides are no longer read): the same quiet article view is
+// seeded through the game layers it used to override.
+const readingState = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 
 for (const path of [
   "/Positions/Mount/Top", "/Positions/Mount/Bottom",
@@ -129,7 +86,7 @@ for (const path of [
       const source = doc.querySelector("article")!
       const normalized = (s: string) => s.replace(/Play as /g, "Read as ").replace(/\s+/g, " ").trim()
       const prose = [...source.querySelectorAll("p,li,h2,h3,h4,td,th,aside")].map(n => normalized(n.textContent || "")).filter(s => s.length > 0)
-      const shown = normalized(document.querySelector('[data-reader-article="guide"]')!.textContent || "")
+      const shown = normalized([...document.querySelectorAll('[data-reader-article="guide"]')].map(e => e.textContent).join(" "))
       const a = (window as any).__neural
       return { status: response.status, prose: prose.length, missing: prose.filter(s => !shown.includes(s)),
         current: a.currentPos ?? null, staged: !!a._staged, played: !!a._played, paused: a.paused, clock: a._decision?.remaining ?? null, deals: (a.beats || []).filter((b: any) => b.beat === "options_dealt").length,
@@ -149,7 +106,7 @@ test("@curated role reading retains hub safety and never creates duplicate IDs",
   await j.boot("/Submissions/Rear-Naked-Choke/from-Back-Control/Defender", { initialState: readingState })
   await j.advance(5000)
   await expect(page.locator(READER)).toBeVisible()
-  await expect(page.locator('[data-reader-article="hub"]')).toContainText(/Safety/)
+  expect(await page.locator('[data-reader-article="hub"]').allTextContents()).toEqual(expect.arrayContaining([expect.stringMatching(/Safety/)]))
   const ids = await page.locator("[id]").evaluateAll(nodes => nodes.map(n => n.id))
   const readerIds = ids.filter(id => id.startsWith("reader-"))
   expect(readerIds.length).toBeGreaterThan(5)
@@ -159,18 +116,25 @@ test("@curated role reading retains hub safety and never creates duplicate IDs",
 test("@curated a failed article request has a real Retry path", async ({ page }) => {
   const j = journey(page)
   let requests = 0
+  let release!: () => void
+  const held = new Promise<void>(resolve => { release = resolve })
   await j.boot("/Transitions/Knee-Slice-Pass", { initialState: readingState, beforeNavigate: async () => {
-    await page.route("**/Transitions/Knee-Slice-Pass/Attacker", route => {
+    await page.route("**/Transitions/Knee-Slice-Pass/Attacker", async route => {
       requests++
+      if (requests === 1) await held
       return requests === 1 ? route.fulfill({ status: 503, body: "Unavailable" }) : route.continue()
     })
   } })
+  // STALE SPEC (v1.230.0, feat/video-cards): the choice cards' Win chance is a status too, in the Moves row inside the reader.
+  await expect(page.locator("[data-reader] [role=status]:not([data-choice-value-status])")).toHaveText("Loading the complete article…")
+  await expect(page.locator("[data-reader-article]")).toHaveCount(0)
+  release()
   await j.advance(5000)
   await expect(page.locator("[data-reader] [role=alert]")).toContainText("503")
   await j.clickByMouse("[data-reader-retry]", "retry the failed full article")
   await expect(page.locator(READER)).toBeVisible()
   expect(requests).toBe(2)
-  await expect(page.locator('[data-reader-article="guide"]')).toContainText("Training Progressions")
+  await expect(page.locator('[data-reader-body]')).toContainText("Training Progressions")
 })
 
 test("@curated Back retires an in-flight article instead of repainting the current page", async ({ page }) => {
@@ -192,7 +156,7 @@ test("@curated Back retires an in-flight article instead of repainting the curre
     await held
     await route.continue().catch(() => {})
   })
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect.poll(() => requested).toBe(true)
   await page.goBack()
   await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Transitions/Knee-Slice-Pass")
@@ -200,7 +164,7 @@ test("@curated Back retires an in-flight article instead of repainting the curre
   await expect.poll(() => settled, { message: "the old request finished or was aborted before checking its paint" }).toBe(true)
   await page.waitForTimeout(100)
   await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Transitions/Knee-Slice-Pass")
-  await expect(page.locator('[data-reader-article="guide"]')).toHaveAttribute("data-source-path", "/Transitions/Knee-Slice-Pass/Attacker")
+  expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(['/Transitions/Knee-Slice-Pass/Attacker'])
 })
 
 test("@curated a slower article never replaces a later Browse selection in the same reader", async ({ page }) => {
@@ -231,7 +195,7 @@ test("@curated a slower article never replaces a later Browse selection in the s
     await held
     await route.continue().catch(() => {})
   })
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect.poll(() => requested).toBe(true)
   await j.clickByMouse(".ng-logo", "Browse while the previous article is still loading")
   await j.clickByMouse('[data-view="explore"]', "the Browse tab")
@@ -256,8 +220,7 @@ test("@curated a slower article never replaces a later Browse selection in the s
     await done
   })
   await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount")
-  await expect(page.locator('[data-reader-article="guide"]'), "the completed old Defender request cannot repaint the later Mount selection")
-    .toHaveAttribute("data-source-path", "/Positions/Mount/Top")
+  expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(["/Positions/Mount/Top"])
 })
 
 test("@curated a failed reader module remains retryable without substituting another page", async ({ page }) => {
@@ -270,6 +233,36 @@ test("@curated a failed reader module remains retryable without substituting ano
   expect(await page.evaluate(() => (window as any).__neural.optionIdxs.length)).toBe(0)
   await j.clickByMouse('[data-reader-load-retry]')
   await expect(page.locator(READER)).toHaveAttribute('data-reader-path', '/Transitions/Knee-Slice-Pass')
-  await expect(page.locator('[data-reader-article="guide"]')).toContainText('Training Progressions')
+  await expect(page.locator('[data-reader-body]')).toContainText('Training Progressions')
   expect(requests).toBe(2)
 })
+
+// Ported from neural_reading_content.test.mjs when the unreachable Inspect renderer retired.
+for (const role of ["Attacker", "Defender"]) {
+  test(`@curated the published ${role} reader preserves a complete long overview and authored outcomes`, async ({ page }) => {
+    const j = journey(page), path = "/Transitions/Knee-Slice-Pass/" + role
+    const overview = "First sentence. " + "Further authored context. ".repeat(30) + "FINAL OVERVIEW SENTENCE."
+    const outcome = role === "Defender" ? "Authored escape destination" : "Authored attack destination"
+    let served = 0
+    await j.boot(path, { initialState: readingState, beforeNavigate: async () => {
+      await page.route(url => url.pathname === path, async route => {
+        // The reader seeds its cache from the navigation document. Replace that
+        // document's article too, keeping the real app shell and boot scripts.
+        const response = await route.fetch(), source = await response.text()
+        const fixture = '<section id="overview"><h2>Overview</h2><p>' + overview + '</p></section><section id="best-outcomes"><h2>Best outcomes</h2><ul><li>' + outcome + '</li></ul></section>'
+        expect(source.match(/<article\b/g)).toHaveLength(1)
+        const body = source.replace(/(<article\b[^>]*>)[\s\S]*?(<\/article>)/, (_, open, close) => open + fixture + close)
+        served++
+        await route.fulfill({ response, body })
+      })
+    } })
+    expect(served, "the long article fixture actually reached the reader").toBeGreaterThan(0)
+    await expect(page.locator(READER)).toBeVisible()
+    const guide = page.locator('[data-reader-article="guide"]')
+    await expect(guide.locator('[data-source-id="overview"] p')).toHaveText(overview.trim())
+    // STALE SPEC (v1.230.0, the video cards' port meets article sections): each section card holds its own part of
+    // the guide, so the authored outcomes are one guide article among them, and the other side's are in none.
+    await expect(guide.filter({ hasText: outcome }), "the authored outcomes are in the guide").toHaveCount(1)
+    await expect(guide.filter({ hasText: role === "Defender" ? "Authored attack destination" : "Authored escape destination" })).toHaveCount(0)
+  })
+}

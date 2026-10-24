@@ -213,7 +213,13 @@ def is_deferred_neural_asset(relative: str) -> bool:
 NEURAL_TARGET = {
     "eager_raw_bytes": 1_600_000,
     "chunk_max_bytes": 40_000,
-    "deferred_raw_bytes": 500_000,
+    # D-370 (inside D-365's re-based allowance of 506_835): exact measurement, no headroom. The
+    # video cards' merge took the deferred set down to 504_337 (D-368); D-355's article view (layout C,
+    # D-369's phone catch order, U9 b's left index, U11, U12 a) and D-370's tiered execution search
+    # bring it to 506_825. The history is budget_site.json's deferred_raw_note.
+    # U16 b / U14 b (owner, 2026-10-24): band-only catch plus centred dividers measure 506_817.
+    # The exact ceiling steps down by 8 bytes; the 506_835 authorized maximum is unchanged.
+    "deferred_raw_bytes": 506_817,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
