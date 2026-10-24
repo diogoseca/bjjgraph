@@ -41,6 +41,8 @@ on:
       # must run the job. `tests/*.test.mjs` alone left the helpers outside the filter.
       - "tests/*.mjs"
       - "tests/*.py"
+      # The console collector's unit suite imports this shared browser-harness input.
+      - "e2e/harness-console.mjs"
       # Published-source preservation reads the retirement archive and frozen URL inventory.
       - "calibration/node_identity_retirements.json"
       - "tests/artifacts/identity_redirect_sources.json"
