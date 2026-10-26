@@ -81,22 +81,23 @@ const controls = [
     [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),u=!0)', '!1&&(a=this._predictBottom(e.ahead),u=!0)']], 'ZERO overlap exchange @'],
   ['noahead-exchange-390', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node',
     [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),u=!0)', '!1&&(a=this._predictBottom(e.ahead),u=!0)']], 'ZERO overlap exchange @'],
-  // U16 b (owner, 2026-10-24): retain band shrink/revert and the usual account/card spacing.
-  // RETIRED: d370-account-keeps-reserve and d370-card-spacing-kept guarded the retired no-scroll fit.
-  // d370-band-186-in-catch retains its mutation, now killed directly at the band claim.
-  ['d370-band-186-in-catch', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band',
-    [['this.W<=640&&!this._phoneCatch()?186:144', 'this.W<=640?186:144']], 'only the live phone catch band shrinks'],
-  ['u16-account-hidden', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band', [],
-    'only the live phone catch band shrinks', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
+  // D-433 (2026-10-26): migrate only the phone ordering/short-band premises.
+  // U16's account, card spacing, scrolled input, handoff and restoration controls remain.
+  // Kills on this implementation are pending the guarded host run; these tuples
+  // name their claims, not new execution evidence.
+  ['d370-band-186-in-catch', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band',
+    [['this.W<=640?this._phoneCatch()?this.H<700?80:144:186:144', 'this.W<=640?186:144']], 'D-433 short live catch uses the smaller band'],
+  ['u16-account-hidden', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band', [],
+    'D-433 short live catch uses the smaller band', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
       '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-acctwrap{visibility:hidden!important}']]],
-  ['u16-card-compacted', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band', [],
-    'only the live phone catch band shrinks', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
+  ['u16-card-compacted', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band', [],
+    'D-433 short live catch uses the smaller band', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
       '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-landcard.ng-land-deck{padding-top:8px!important}']]],
-  ['u16-scrolled-answer-inert', 'defending-landing.spec.ts', 'U16 b: in a catch at 390x631',
+  ['u16-scrolled-answer-inert', 'defending-landing.spec.ts', 'D-433: in a catch at 390x631',
     [["_mcAnswer(e,t,s,i,n,o,r){", "_mcAnswer(e,t,s,i,n,o,r){if(this._reader?.root.scrollTop>0&&this._mc?.surface===\"panic\")return;"]], 'the scrolled escape answer receives its real mouse click'],
-  ['u16-band-restoration-lost', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band',
-    [['this.W<=640&&!this._phoneCatch()?186:144', '144']], 'the result transition restores the usual 186px band'],
-  ['u16-band-ends-at-pick', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band',
+  ['u16-band-restoration-lost', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band',
+    [['this.W<=640?this._phoneCatch()?this.H<700?80:144:186:144', 'this.W<=640?80:144']], 'the result transition restores the usual 186px band'],
+  ['u16-band-ends-at-pick', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band',
     [['this.isMobile()&&!!this._defensePressure&&this._layerOn("card")', 'this.isMobile()&&!!this._defensePressure&&this._landMode==="defense"&&this._layerOn("card")']],
     'at the pick the small band holds'],
   ['d370-calm-landing-concedes', 'defending-landing.spec.ts', 'U16 b: a calm phone defender',

@@ -734,8 +734,9 @@ for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
       // Also deliver an actual mouse activation after scrolling, retaining the deck's own identity.
       const correct = await page.evaluate(() => String((window as any).__neural._mc.correct))
       const target = `[data-panic-mc-opt="${correct}"]`
-      await page.locator(target).evaluate(e => e.scrollIntoView({ block: 'center', behavior: 'instant' }))
+      await page.locator(target).evaluate(e => e.scrollIntoView({ block: 'start', behavior: 'instant' }))
       await j.readerLayoutSettled()
+      expect(await page.evaluate(() => (window as any).__neural._reader.root.scrollTop), 'premise: the scrolled-answer control really scrolls').toBeGreaterThan(0)
       // U16 b (owner, 2026-10-24): a live catch answers through _mcAnswer/_defenseAnswered,
       // which emits mc_correct and advances its deck, not the calm landing's land_q_answered beat.
       // H158 already advanced to Card 2/5; the original new oracle named the wrong event.
