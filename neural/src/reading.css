@@ -13,8 +13,8 @@
 
 /* One native flow: existing game controls, then semantic article cards. */
 .ng-reader { position:absolute;z-index:5;box-sizing:border-box;overflow:auto;overflow-x:hidden;overscroll-behavior:contain;overflow-anchor:none;touch-action:pan-y;scrollbar-width:thin;--reader-unit:20px;--section-gap:6px;--label:600 13px/1.3 "Space Grotesk",sans-serif;
-  /* U30 A pending the owner's selection: B changes .20 to .12; C to .06. */
-  --section-shadow:0 0 16px 2px rgb(155 174 255 / .20);
+  /* U40 c: the owner's softest accent glow. */
+  --section-shadow:0 0 16px 2px rgb(155 174 255 / 0.06);
 }
 .ng-reader[hidden],.ng-reader [hidden] { display:none!important; }
 .ng-reader-game { position:relative;pointer-events:none;overflow-x:clip; }
