@@ -7,6 +7,8 @@ import { legacyDefenseRenderer } from '../fixtures/legacy-defense-renderer'
 // it cannot manufacture an opponent catch. All buttons use clickByMouse. Orbs
 // are canvas drawings, so their actual _LY coordinates are hit-tested and clicked.
 // Authored clips come from THIS build, not the DSL's usual empty dossier fixtures.
+// v1.230.0 U8: the catch fixture commits through the authored move's title;
+// the card face commits outside Play, and Watch opens the viewer. Defense assertions stay intact.
 // Measured v1.227.0 mutants, all killed by the named cases below:
 // M1 cold answer invents pressure -> link/reload; M2 keeps attacker deck -> orb;
 // M3 selects attacker films -> BOTH transition and Knee Slice half tests;
@@ -68,7 +70,7 @@ async function calm(page: Page) {
   await expect(page.locator('.ng-landstack')).toBeVisible()
   await expect(page.locator('[data-defense-prompt]')).toHaveCount(0)
 }
-async function catchLoop(page: Page, legacy = false, cold = false) {
+async function catchLoop(page: Page, legacy = false, cold = false, before?: () => Promise<unknown>) {
   const j = journey(page)
   await j.boot('/Positions/Half-Guard/Bottom', { beforeNavigate: realContent })
   await expect(page.locator(READY)).toBeVisible()
@@ -83,7 +85,12 @@ async function catchLoop(page: Page, legacy = false, cold = false) {
       const previous = new Function('return ({' + old + '}).buildPanicCard')()
       a.renderLandCard = function (node: any, mode: string, ...args: any[]) {
         if (mode === 'defense') {
+          // D-351: the retired renderer runs under the same reader contract as the generic one: its
+          // landing queues the defender article and stays pending (hidden, clock parked) until the
+          // reader publishes it. Both happen before any paint, as renderLandCard does them.
+          this._queueReader(this.nodes[this._defendSub], 'defender')
           previous.call(this, this.optionsRef.current, this.nodes[this._defendSub])
+          if (this.get('readerBook', true)) this._landEl?.setAttribute('data-reader-pending', '')
           // The old enterDefense armed immediately AFTER buildPanicCard returned.
           this._armLandClock(this._landEl?.querySelector('[data-land-clock]'))
           return this._landEl
@@ -111,11 +118,20 @@ async function catchLoop(page: Page, legacy = false, cold = false) {
     for (const [tag, values] of Object.entries({ resolve: [.999], outcome: [0], 'opp-finish': [0], 'opp-sub-pick': [.75], 'opp-pick': [0], escape: [0], 'panic-mc-pick': Array(40).fill(.23), 'panic-mc-shuffle': Array(40).fill(.61) })) a.rig(tag, values)
     const pick = a._optionCards.find((c: any) => c.opt.node.t === 'Half Guard to Back Take' && !c.opt.threat)
     if (!pick) throw new Error('the authored move is absent')
-    pick.card.setAttribute('data-defending-commit', '')
+    // H139: the temporary data-defending-commit marker disappeared when the landing rerendered
+    // before the press (844 control timed out before its catch claim). Select the same authored own
+    // move by the app's stable data-tech identity below; a replaced card remains the same choice.
   }, { old: legacyDefenseRenderer, legacy, cold })
-  await j.clickByMouse('[data-defending-commit]', 'commit Half Guard to Back Take')
+  if (before) await before()
+  await page.locator('[data-tech="Half Guard to Back Take"] .ng-choice-title-button').scrollIntoViewIfNeeded()
+  await j.clickByMouse('[data-tech="Half Guard to Back Take"] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
   await expect(page.locator(cold ? '[data-panic-reveal]' : '[data-panic-mc-opt]').first()).toBeVisible()
+  // STALE TIMING (D-351, H57): a reading-view landing stays unpublished, its clock parked, until the
+  // article it asked for renders, which happens in real time after the pumped catch; the parked arm
+  // fires on the next frame. Without that frame both clocks read null (20 of 20 differentials red,
+  // the legacy fixture also unheld then). One frame after publication arms both on the same tick.
+  await j.advance(17)
   await expect(page.locator('.ng-evtoast')).toContainText('Caught')
   expect(await page.evaluate(() => (window as any).__neural.nodes[(window as any).__neural._defendSub].t)).toBe('Loop Choke from Half Guard')
   return j
@@ -215,8 +231,7 @@ test('@curated each Knee Slice Pass half mounts its own clips, including the rea
   await j.boot('/Transitions/Knee-Slice-Pass/Attacker', { beforeNavigate: realContent })
   await expect(page.locator(READY)).toBeVisible()
   await expect.poll(async () => (await state(page)).clips).toEqual(['yj_6xcl2emA'])
-  await j.clickByMouse('[data-reader]', 'expand the article to reach its perspective links')
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]', 'open the defending article perspective')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/Transitions/Knee-Slice-Pass/Defender')
   await expect.poll(async () => (await state(page)).clips).toEqual(['RvIIpXaPyJM'])
   expect((await state(page)).key).toBe('Knee Slice Pass|Defender')
@@ -260,7 +275,9 @@ for (const answer of ['right', 'wrong', 'expiry']) {
       const before = await mechanics(page)
       if (answer !== 'right') expect(before.combo).toBe(3)
       expect(before.publishedOdds).toHaveLength(before.choices.length)
-      for (const card of before.publishedOdds) expect(card.percent).toMatch(/^\d+%$/)
+      // STALE SPEC (v1.230.0, feat/video-cards merged, U8): the % unit moved to the card's heading; the
+      // published odds are bare integers, compared renderer to renderer below.
+      for (const card of before.publishedOdds) expect(card.percent).toMatch(/^\d+$/)
       expect(before.total).toBe(13500)
       if (answer === 'expiry') await j.advance(14000)
       else {
@@ -327,6 +344,11 @@ for (const paged of [false, true]) {
       if (paged) {
         await j.clickByMouse('[data-land-next]', 'leave the seen question while warm-up is pending')
         await expect.poll(() => page.evaluate(() => (window as any).__neural._landPage)).toBe(1)
+        // H160/H161 STALE TIMING (2026-10-24): the next card's cursor commits before its
+        // requested reader layout. On both cf773f511 and this app, releasing that layout after
+        // mouse measurement moves Previous by 53px and misses it (original 0/3, observed 3/3;
+        // both settled arms 3/3). Observe publication before measuring; all credit claims stay.
+        await j.readerLayoutSettled()
         await expect(page.locator('[data-land-prev]')).toBeVisible()
         await j.clickByMouse('[data-land-prev]', 'return to its cached hidden answer')
         expect((await mechanics(page)).q).toBe(question)
@@ -445,4 +467,335 @@ test('@curated reduced motion suppresses CSS and frame-driven danger without cha
   await page.emulateMedia({ reducedMotion: 'no-preference' })
   await j.advance(20)
   await expect.poll(async () => (await state(page)).vignette, 'the real media-change handler restores danger').toBe(true)
+})
+
+// ── D-351: an article that lands after the catch never moves a live answer ────────────────────
+// Since D-338 the panic card sits in the reader's column under Videos and Moves, and the catch
+// opens the submission's defender article. Arriving 29-79ms after the card was clickable, its
+// Videos section pushed the hand and the answers down 114px, so a measured click on an answer
+// executed an escape move instead (10 full-file runs, 180 tests: dev 557c57d14 0 red, this
+// branch 6, H49; traced in H50/H51). The reader now holds a landing until the article it asked for
+// renders (800ms at most), and parts the ceiling publishes stay pinned until they settle.
+// These journeys trace the ANSWERS only; the hand's half of the hold is gated by article-sections'
+// exchange journey (control d351-hand-hold-removed, D-352 N1).
+// Delaying the article fetch, not the deck, is what makes the state reachable on demand. Only the
+// defender page is held: the reader fetches the hub after it, and holding both would stack.
+const LOOP_DEFENDER = '/Submissions/Loop-Choke/from-Half-Guard/Defender'
+const lateArticle = (page: Page, ms: number) => {
+  const held: string[] = []
+  return { held, route: () => page.route((url) => url.pathname === LOOP_DEFENDER, async (route) => {
+    if (route.request().resourceType() === 'fetch') { held.push(new URL(route.request().url()).pathname); await new Promise((r) => setTimeout(r, ms)) }
+    await route.continue()
+  }) }
+}
+// Per animation frame, the first answer's rectangle and whether it is shown, beside the
+// reader's readiness for the article the catch opened.
+const traceAnswer = (page: Page) => page.evaluate(() => {
+  const w = window as any, out: any[] = (w.__d351 = []), t0 = performance.now()
+  const tick = () => {
+    const r = w.__neural?._reader, el = document.querySelector('[data-panic-mc-opt]') as HTMLElement | null, box = el?.getBoundingClientRect()
+    out.push({ t: Math.round(performance.now() - t0), ready: r?.root.dataset.readerReady, path: r?.path, present: !!el,
+      shown: !!el && !!box!.height && getComputedStyle(el).visibility !== 'hidden', top: box?.top, left: box?.left, lifted: !!r?.videoCard })
+    if (performance.now() - t0 < 30000 && !w.__d351stop) requestAnimationFrame(tick)
+  }
+  requestAnimationFrame(tick)
+})
+// D-368 (layout C): the current card is shown in the reader's media home, visibly, with a height.
+const filmShown = () => { const a = (window as any).__neural, f = a._landFilmEl, home = a._reader?.mediaHome
+  return !!f && f.parentElement === home && !home.hidden && !f.hidden && f.getBoundingClientRect().height > 0 && getComputedStyle(f).visibility !== 'hidden' }
+const answerTrace = (page: Page) => page.evaluate(() => { (window as any).__d351stop = true; return (window as any).__d351 as any[] })
+
+test('D-351: a catch whose article lands late shows its answers once, at their final rect, and a click grades them', async ({ page }) => {
+  const late = lateArticle(page, 500)
+  const j = await catchLoop(page, false, false, async () => { await late.route(); await traceAnswer(page) })
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP_DEFENDER)
+  await j.advance(200)
+  const S = await answerTrace(page), rendered = (x: any) => x.ready === 'true' && x.path === LOOP_DEFENDER
+  expect(late.held.length, 'premise: the defender article fetch was held 500ms').toBeGreaterThan(0)
+  expect(S.some((x) => x.present && !rendered(x)), 'premise: the question existed while its article was loading').toBe(true)
+  const shown = S.filter((x) => x.shown)
+  expect(shown.filter((x) => !rendered(x)), 'no answer is shown before the catch article renders').toEqual([])
+  expect(shown.length, 'premise: the answer was traced on screen').toBeGreaterThan(3)
+  const tops = shown.map((x) => x.top), lefts = shown.map((x) => x.left)
+  expect(Math.max(...tops) - Math.min(...tops) + Math.max(...lefts) - Math.min(...lefts), 'the answer appears once, at its final rect').toBeLessThan(0.5)
+  const mc = (await mechanics(page)).mc!
+  await j.clickByMouse(`[data-panic-mc-opt="${mc.correct}"]`, 'answer the panic card where it sits')
+  expect(await page.evaluate(() => !!(window as any).__neural._optList), 'the click executed no escape move').toBe(true)
+  expect((await mechanics(page)).grades.map((g: any) => g.beat), 'the measured click graded the intended answer').toContain('mc_correct')
+})
+
+test('D-351: past the 800ms ceiling the answers publish, and the late article still never moves them', async ({ page }) => {
+  const late = lateArticle(page, 1500)
+  const j = await catchLoop(page, false, false, async () => { await late.route(); await traceAnswer(page) })
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP_DEFENDER, { timeout: 10_000 })
+  await j.advance(200)
+  const S = await answerTrace(page), rendered = (x: any) => x.ready === 'true' && x.path === LOOP_DEFENDER
+  expect(late.held.length, 'premise: the defender article fetch was held 1.5s').toBeGreaterThan(0)
+  const shown = S.filter((x) => x.shown)
+  expect(shown.some((x) => !rendered(x)), 'premise: the ceiling published the answers before the article').toBe(true)
+  expect(shown.some(rendered), 'premise: the article landed while the answers were live').toBe(true)
+  const tops = shown.map((x) => x.top), lefts = shown.map((x) => x.left)
+  expect(Math.max(...tops) - Math.min(...tops) + Math.max(...lefts) - Math.min(...lefts), 'the answers never move when the late article lands').toBeLessThan(0.5)
+  const mc = (await mechanics(page)).mc!
+  await j.clickByMouse(`[data-panic-mc-opt="${mc.correct}"]`, 'answer the panic card where it sits')
+  expect(await page.evaluate(() => !!(window as any).__neural._optList), 'the click executed no escape move').toBe(true)
+  expect((await mechanics(page)).grades.map((g: any) => g.beat), 'the measured click graded the intended answer').toContain('mc_correct')
+  // Graded is settled: the held-back film shows now, after the player's own input. STALE SPEC (D-368, layout C):
+  // nothing lifts any more; the current card shows in the game's media home, beside the question card.
+  await expect.poll(() => page.evaluate(filmShown), 'the held-back film shows once the answer is graded').toBe(true)
+})
+
+// D-352 S2: past the ceiling the answers publish pinned; a film that arrives while they are pinned
+// (the caught submission's content chunk is fetched at the catch, and here it lands after both the
+// ceiling and the article) must wait, never opening the media home over the pinned hand. Review-claude
+// measured the failure at 1440: the film at y218-316 over the pinned row at y218-414 for 164 frames.
+test('D-352: past the ceiling, a film arriving while the answers are pinned never covers the hand', async ({ page }) => {
+  const late = lateArticle(page, 1500)
+  let chunks = 0
+  const j = await catchLoop(page, false, false, async () => {
+    await late.route()
+    await page.route('**/static/neural/content/*.json', async (route) => { chunks++; await new Promise((r) => setTimeout(r, 2600)); await route.continue() })
+    await page.evaluate(() => {
+      const w = window as any, out: any[] = (w.__d352 = []), t0 = performance.now()
+      const box = (el: any) => { if (!el || !el.getClientRects().length || getComputedStyle(el).visibility === 'hidden') return null; const r = el.getBoundingClientRect(); return r.height ? [r.left, r.top, r.right, r.bottom] : null }
+      const tick = () => {
+        const a = w.__neural
+        out.push({ t: Math.round(performance.now() - t0), pinned: !!a._readerPin, film: !!a._landFilmEl, filmBox: box(a._landFilmEl), row: box(a.optionsRef.current) })
+        if (!w.__d352stop) requestAnimationFrame(tick)
+      }
+      requestAnimationFrame(tick)
+    })
+  })
+  await expect.poll(() => page.evaluate(() => { const a = (window as any).__neural; return !!a._readerPin && !!a._landFilmEl }), { timeout: 10_000, message: 'premise: the film arrived while the answers were pinned' }).toBe(true)
+  await j.advance(200)
+  const S = await page.evaluate(() => { (window as any).__d352stop = true; return (window as any).__d352 as any[] })
+  expect(late.held.length, 'premise: the defender article fetch was held 1.5s').toBeGreaterThan(0)
+  expect(chunks, 'premise: the content chunk was held past the ceiling').toBeGreaterThan(0)
+  const pinned = S.filter((x) => x.pinned && x.film && x.row)
+  expect(pinned.length, 'premise: frames with the film present while pinned').toBeGreaterThan(3)
+  const over = pinned.filter((x) => x.filmBox && x.filmBox[0] < x.row[2] && x.filmBox[2] > x.row[0] && x.filmBox[1] < x.row[3] && x.filmBox[3] > x.row[1])
+  expect(over, 'the film never covers the pinned hand').toEqual([])
+  const mc = (await mechanics(page)).mc!
+  await j.clickByMouse(`[data-panic-mc-opt="${mc.correct}"]`, 'answer the panic card where it sits')
+  // Graded is settled: the held-back film shows now, after the player's own input. STALE SPEC (D-368, layout C):
+  // nothing lifts any more; the current card shows in the game's media home, beside the question card.
+  await expect.poll(() => page.evaluate(filmShown), 'the held-back film shows once the answer is graded').toBe(true)
+})
+
+// D-353 (review-claude Delta 7, B1): a play is the player's own input and settles the pin, as grading
+// does. Pinned, the opened player grew the film in place over the escape tray (y218-440 over the row
+// at y332; the titles' clicks went to the film), and the next relayout hid the playing video under
+// S2's rule. Released, the rows move down beside the player.
+test('D-353: playing the pinned film opens it beside the hand, never over it, and it stays visible', async ({ page }) => {
+  const late = lateArticle(page, 6000)
+  const j = await catchLoop(page, false, false, async () => { await late.route(); await traceAnswer(page) })
+  await expect.poll(() => page.evaluate(() => {
+    const a = (window as any).__neural, f = a._landFilmEl
+    return !!a._readerPin && a._readerPin.film === a._reader.media && !!f && f.getClientRects().length > 0 && getComputedStyle(f).visibility !== 'hidden'
+  }), { message: 'premise: the answers published pinned with the film shown in the media home' }).toBe(true)
+  const S = await answerTrace(page)
+  const shown = S.filter((x) => x.shown)
+  expect(shown.length, 'premise: the answers were traced on screen before the play').toBeGreaterThan(3)
+  const tops = shown.map((x) => x.top)
+  expect(Math.max(...tops) - Math.min(...tops), 'the answers never move before the play').toBeLessThan(0.5)
+  await j.clickByMouse('.ng-landfilm .ng-clip', 'play the pinned film')
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip), { message: 'premise: the clip opened its player' }).toBe(true)
+  await j.readerLayoutSettled()
+  const hits = await page.evaluate(() => {
+    const a = (window as any).__neural, film = a._landFilmEl, out: any[] = []
+    for (const t of a.optionsRef.current.querySelectorAll('[data-tech] .ngchoice-title')) {
+      const r = t.getBoundingClientRect()
+      if (!r.height || r.bottom < 0 || r.top > innerHeight || r.right < 0 || r.left > innerWidth) continue
+      const hit = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
+      out.push({ title: t.textContent.trim(), onFilm: !!hit && film.contains(hit) })
+    }
+    return out
+  })
+  expect(hits.length, 'premise: escape titles are on screen').toBeGreaterThan(0)
+  expect(hits.filter((h) => h.onFilm), 'no escape title hits the film').toEqual([])
+  await page.evaluate(() => (window as any).__neural._reader.layoutNow())
+  const film = await page.evaluate(() => {
+    const a = (window as any).__neural, f = a._landFilmEl, r = f.getBoundingClientRect()
+    return { playing: !!a._expandedClip, visible: f.getClientRects().length > 0 && getComputedStyle(f).visibility !== 'hidden' && r.height > 0 }
+  })
+  expect(film, 'the playing player stays visible through a relayout').toEqual({ playing: true, visible: true })
+})
+
+// RETIRED (D-368, layout C): D-354 N1 pinned a play after the article rendered into the lifted Videos card.
+// Under C a game node's current card never moves into the Videos slot (it sits in the game's media home,
+// beside or above the question), so no empty slot can be left under a playing film; D-353's journey keeps
+// the play beside the hand. Its control d354-play-film-left-home is retired with it.
+
+// D-354 N2 (D8C): closing the pinned film hides its home for the pin's life (D-352's sticky rule), so
+// the player's own reopen did nothing until the parts settled. A reopen settles the pin, as a play does.
+test('D-354 N2: reopening Videos while pinned settles the pin and shows the film', async ({ page }) => {
+  const late = lateArticle(page, 1500)
+  const j = await catchLoop(page, false, false, async () => { await late.route() })
+  await expect.poll(() => page.evaluate(() => {
+    const a = (window as any).__neural, f = a._landFilmEl
+    return !!a._readerPin && a._readerPin.film === a._reader.media && !!f && f.getClientRects().length > 0
+  }), { message: 'premise: the answers published pinned with the film shown in the media home' }).toBe(true)
+  await j.clickByMouse('.ng-landfilm [data-film-close]', 'hide the pinned film')
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP_DEFENDER)
+  // U11 (D-355): where the index shows, a closed section leaves no placeholder; its index row reopens it.
+  const indexed = await page.locator('[data-reader][data-indexed]').count() > 0
+  const toggle = indexed ? '[data-toc-type="videos"] a' : '[data-section-toggle="videos"]'
+  if (!indexed) await page.evaluate((sel) => document.querySelector(sel)!.scrollIntoView({ block: 'center' }), toggle)
+  await j.readerLayoutSettled()
+  const closed = await page.evaluate(() => {
+    const a = (window as any).__neural, f = a._landFilmEl
+    return { pinned: !!a._readerPin, hid: !!a._readerPin?.hid, shown: !!f && f.getClientRects().length > 0 && !f.hidden && f.getBoundingClientRect().height > 0 }
+  })
+  expect(closed, 'premise: still pinned, the closed film hidden').toEqual({ pinned: true, hid: true, shown: false })
+  await j.clickByMouse(toggle, 'reopen Videos while pinned')
+  await expect.poll(() => page.evaluate(() => {
+    const a = (window as any).__neural, f = a._landFilmEl
+    return { pinned: !!a._readerPin, shown: !!f && f.getClientRects().length > 0 && !f.hidden && f.getBoundingClientRect().height > 0 }
+  }), { message: 'the reopen settles the pin and the film is shown again' }).toEqual({ pinned: false, shown: true })
+})
+
+// D-354 N3: D-353 observes a film in the media home; the film's only remover (_clearLandFilm)
+// now ends that observation, so a replaced film is not held until the reader is destroyed.
+test('D-354 N3: a removed film is no longer observed by the reader', async ({ page }) => {
+  await page.addInitScript(() => {
+    const P = ResizeObserver.prototype, observe = P.observe, unobserve = P.unobserve, disconnect = P.disconnect, held = new WeakMap<object, Set<Element>>()
+    ;(window as any).__roHolds = (ro: object, el: Element) => !!held.get(ro)?.has(el)
+    P.observe = function (el: Element, ...rest: any[]) { if (!held.has(this)) held.set(this, new Set()); held.get(this)!.add(el); return observe.call(this, el, ...rest) }
+    P.unobserve = function (el: Element) { held.get(this)?.delete(el); return unobserve.call(this, el) }
+    P.disconnect = function () { held.get(this)?.clear(); return disconnect.call(this) }
+  })
+  const late = lateArticle(page, 6000)
+  await catchLoop(page, false, false, async () => { await late.route() })
+  await expect.poll(() => page.evaluate(() => {
+    const w = window as any, a = w.__neural, f = a._landFilmEl
+    return !!f && f.parentElement === a._reader.mediaHome && w.__roHolds(a._reader.resize, f)
+  }), { message: 'premise: the film in the media home is observed by the reader' }).toBe(true)
+  const released = await page.evaluate(() => {
+    const w = window as any, a = w.__neural, f = a._landFilmEl
+    a._clearLandFilm()
+    return { removed: !f.isConnected, observed: w.__roHolds(a._reader.resize, f) }
+  })
+  expect(released, 'the removed film is no longer observed by the reader').toEqual({ removed: true, observed: false })
+})
+
+// U16 b (owner, 2026-10-24): retain the usual Moves-first layout C order and shrink only
+// the live phone catch's band. Retire D-369 question-first and D-370's phone no-scroll fit
+// (including 390x631/8px), account hiding and card compaction. Every answer remains reachable
+// after reader scroll; desktop no-scroll fit and the above-fold question claim remain unchanged.
+test.beforeEach(async ({ page }, info) => { if (!/^(D-368|U16 b)/.test(info.title)) return
+  await page.addInitScript(() => { (window as any).__d368film = () => { const f = (window as any).__neural?._landFilmEl
+    return !!f && f.isConnected && !f.hidden && f.getClientRects().length > 0 && f.getBoundingClientRect().height > 0 } }) })
+for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
+  test(width > 640 ? `D-368: in a catch at ${width}x${height} the escape answers are on screen without scrolling`
+    : `U16 b: in a catch at ${width}x${height} the usual order keeps every answer reachable after scrolling`, async ({ page }) => {
+    await page.setViewportSize({ width, height })
+    const j = await catchLoop(page)
+    await j.readerLayoutSettled()
+    const r = await page.evaluate(() => {
+      const a = (window as any).__neural
+      const answers = [...document.querySelectorAll('[data-panic-mc-opt]')].map((el: any) => {
+        const b = el.getBoundingClientRect(), hit = document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2)
+        return { top: Math.round(b.top), bottom: Math.round(b.bottom), hit: !!hit && el.contains(hit) }
+      })
+      return { answers, film: (window as any).__d368film(), layout: a._reader.game.dataset.mediaLayout,
+        end: Math.round(a._reader.root.getBoundingClientRect().bottom), pressure: !!a._defensePressure,
+        handBottom: a.optionsRef.current.getBoundingClientRect().bottom, cardTop: a._landEl.getBoundingClientRect().top, band: a._reader.nodeBand.height }
+    })
+    expect(r.film, 'premise: the current card is shown').toBe(true)
+    expect(r.pressure, 'premise: a live catch').toBe(true)
+    expect(r.answers.length, 'premise: the escape answers').toBeGreaterThan(1)
+    if (width > 640) {
+      const off = r.answers.filter((x) => !x.hit || x.top < 0 || x.bottom > Math.min(height, r.end) - 8)
+      expect(off, 'every escape answer is on screen and reachable without scrolling, 8px clear of the scrollport end').toEqual([])
+    } else {
+      // U16 b (owner, 2026-10-24): scrolling is accepted; the old phone no-scroll fit is retired.
+      expect(r.band, 'the live phone catch band is 144').toBe(144)
+      expect(r.cardTop - r.handBottom, 'the usual order keeps Moves before Questions without overlap').toBeGreaterThanOrEqual(0)
+      const answers = page.locator('[data-panic-mc-opt]')
+      const identities = await answers.evaluateAll(es => es.map(e => e.getAttribute('data-panic-mc-opt')))
+      for (const identity of identities) {
+        const answer = page.locator(`[data-panic-mc-opt="${identity}"]`)
+        await answer.evaluate(e => e.scrollIntoView({ block: 'center', behavior: 'instant' }))
+        await j.readerLayoutSettled()
+        const visible = await answer.evaluate(el => {
+          const b = el.getBoundingClientRect(), root = el.closest('[data-reader]')!.getBoundingClientRect()
+          const hit = document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2)
+          return { inside: b.top >= root.top && b.bottom <= root.bottom, hit: !!hit && el.contains(hit), height: b.height }
+        })
+        expect(visible, `escape answer ${identity} is fully visible and hit-testable after scrolling`).toMatchObject({ inside: true, hit: true })
+        expect(visible.height, 'the escape answer keeps its 44px target').toBeGreaterThanOrEqual(44)
+      }
+      // Also deliver an actual mouse activation after scrolling, retaining the deck's own identity.
+      const correct = await page.evaluate(() => String((window as any).__neural._mc.correct))
+      const target = `[data-panic-mc-opt="${correct}"]`
+      await page.locator(target).evaluate(e => e.scrollIntoView({ block: 'center', behavior: 'instant' }))
+      await j.readerLayoutSettled()
+      // U16 b (owner, 2026-10-24): a live catch answers through _mcAnswer/_defenseAnswered,
+      // which emits mc_correct and advances its deck, not the calm landing's land_q_answered beat.
+      // H158 already advanced to Card 2/5; the original new oracle named the wrong event.
+      const answered = () => page.evaluate(() => { const a = (window as any).__neural
+        return { correct: a.beats.filter((b: any) => b.beat === 'mc_correct').length, page: a._landPage } })
+      const before = await answered()
+      await j.clickByMouse(target, 'answer the scrolled live catch')
+      expect(await answered(), 'the scrolled escape answer receives its real mouse click and advances the deck').toEqual({ correct: before.correct + 1, page: before.page + 1 })
+    }
+  })
+}
+
+test('D-368: at 1440x900 the question card\'s top is above the fold', async ({ page }) => {
+  const j = journey(page)
+  await j.boot('/Positions/Half-Guard/Bottom', { beforeNavigate: realContent })
+  await expect(page.locator(READY)).toBeVisible()
+  await j.hydrateAll()
+  await j.readerLayoutSettled()
+  const r = await page.evaluate(() => ({ film: (window as any).__d368film(), top: Math.round((window as any).__neural._landEl.getBoundingClientRect().top) }))
+  expect(r.film, 'premise: the current card is shown').toBe(true)
+  expect(r.top, "the question card's top is above the fold").toBeLessThan(900)
+})
+
+// U16 b (owner, 2026-10-24): only the band shrinks, and only during the live catch.
+// The account and card spacing stay normal. The clicked escape keeps its measured rectangle
+// through the pick and the result-time band revert; D-325's handoff claim remains.
+test('U16 b: at 390x631 only the live catch band shrinks and reverts without moving the pick', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 631 })
+  const j = await catchLoop(page)
+  await j.readerLayoutSettled()
+  const look = () => page.evaluate(() => {
+    const a = (window as any).__neural, acct = a.accountRef.current
+    return { band: a._reader.nodeBand?.height, account: getComputedStyle(acct).visibility, conceded: a.wrapRef.current.hasAttribute('data-phone-catch'),
+      padding: a._landEl ? getComputedStyle(a._landEl).paddingTop : null,
+      end: Math.round(a._reader.root.getBoundingClientRect().bottom), acctTop: Math.round(acct.getBoundingClientRect().top), pressure: !!a._defensePressure }
+  })
+  const caught = await look()
+  expect(caught, 'only the live phone catch band shrinks').toMatchObject({ pressure: true, band: 144, account: 'visible', conceded: true, padding: '11px' })
+  expect(caught.end, 'the account keeps its scrollport reserve during the catch').toBeLessThanOrEqual(caught.acctTop - 8)
+  const title = '[data-tech] .ngchoice-title'
+  await page.evaluate((sel) => (window as any).__neural.optionsRef.current.querySelector(sel).scrollIntoView({ block: 'nearest', behavior: 'instant' }), title)
+  await j.readerLayoutSettled()
+  const name = await page.evaluate((sel) => (window as any).__neural.optionsRef.current.querySelector(sel).closest('[data-tech]').dataset.tech, title)
+  const rect = (sel: string) => page.evaluate((sel) => { const b = document.querySelector(sel)!.getBoundingClientRect(); return [b.left, b.top, b.right, b.bottom] }, sel)
+  const chosen = await rect(`[data-tech="${name}"]`)
+  await j.clickByMouse(`[data-tech="${name}"] .ngchoice-title`, 'pick an escape')
+  await j.advance(40)
+  expect(await look(), 'at the pick the small band holds and the account stays visible').toMatchObject({ band: 144, account: 'visible', conceded: true })
+  // U16 b (owner, 2026-10-24): Questions now follows Moves. The existing row handoff must still
+  // keep the picked escape in place, including when the result restores the taller band.
+  const stand = await rect('[data-executing-tech]')
+  expect(stand.map((v, i) => Math.abs(v - chosen[i])).every((d) => d <= 2), `the stand-in sits where the escape was (${stand} vs ${chosen})`).toBe(true)
+  await expect.poll(async () => { await j.advance(200); return (await look()).pressure }, 'the escape resolves').toBe(false)
+  await expect.poll(async () => (await look()).conceded, 'the reader lays out the result').toBe(false)
+  const after = await look()
+  expect(after, 'the result transition restores the usual 186px band').toMatchObject({ band: 186, account: 'visible', conceded: false })
+  expect(after.end, 'the scrollport still ends above the account button').toBeLessThanOrEqual(after.acctTop - 8)
+  const result = await rect('[data-executing-tech]')
+  expect(result.map((v, i) => Math.abs(v - chosen[i])).every((d) => d <= 2), 'the result-time band revert preserves the picked escape rectangle').toBe(true)
+})
+
+// U16 b (owner, 2026-10-24): the narrower band belongs to a LIVE catch, never a calm defender arrival.
+test('U16 b: a calm phone defender landing keeps the usual 186px band', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  const j = journey(page)
+  await j.boot(LOOP + '/Defender', { beforeNavigate: realContent })
+  await calm(page); await j.readerLayoutSettled()
+  expect(await page.evaluate(() => (window as any).__neural._reader.nodeBand.height), 'a calm phone defender keeps the usual band').toBe(186)
 })

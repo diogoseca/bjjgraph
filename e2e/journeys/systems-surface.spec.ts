@@ -786,3 +786,44 @@ test("guide stock captions disappear across graph and reference types while auth
   await j.clickByMouse(target);
   await expect(page.locator('[data-system-detail="Systems/Fixture-Alternative"]')).toBeVisible();
 });
+
+// D-352 (CI 931a7eea0: systems-rhythm:97 and systems-surface:236 red; locally 5 of 276 in H70, and
+// dev 557c57d14 0 of 230): the reader said ready a frame before laying out, and a reference page's
+// first layout moves its head (Study tools) out of the game's header row. Every failing Study tools
+// click landed at (399, 27), on the map, while the button had moved to (970, 73). Ready now means
+// laid out. The rectangle is read in the microtask the ready flip queues, before any frame.
+test("D-352: a reference page says ready only once Study tools sits at its final place", async ({ page }) => {
+  // The race needs the page to render before the frame after open(): a cached page, opened while the
+  // head still sits in the game flow. Visit the System once (cache), read a game article (head back in
+  // the game flow), then re-open the System from the cache with the ready flip observed.
+  const j = await bootFixtures(page); await j.landSettled(); await openExplore(page);
+  await page.locator('[data-system-row="Systems/Fixture-Octopus"]').click();
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+  await j.readerLayoutSettled();
+  await page.evaluate(() => (window as any).__neural._reader.open({ path: "/Positions/Mount/Top", intent: true }));
+  await expect(page.locator('[data-reader][data-reader-path="/Positions/Mount/Top"][data-reader-ready="true"]')).toBeVisible();
+  await j.readerLayoutSettled();
+  const premise = await page.evaluate(() => {
+    const r = (window as any).__neural._reader;
+    return { cached: r.cache.has("/Systems/Fixture-Octopus"), headInGame: r.head.parentElement === r.game };
+  });
+  expect(premise, "premise: the System page is cached and the head sits in the game flow").toEqual({ cached: true, headInGame: true });
+  await page.evaluate(() => {
+    const w = window as any, r = w.__neural._reader;
+    w.__readyRect = null;
+    new MutationObserver(() => {
+      if (w.__readyRect != null || r.root.dataset.readerReady !== "true" || r.root.dataset.readerPath !== "/Systems/Fixture-Octopus") return;
+      const b = document.querySelector("[data-reader-study]"), x = b && b.getBoundingClientRect();
+      w.__readyRect = x ? [x.left, x.top, x.width, x.height] : "none";
+    }).observe(r.root, { attributes: true, attributeFilter: ["data-reader-ready", "data-reader-path"] });
+    r.open({ path: "/Systems/Fixture-Octopus", intent: true });
+  });
+  await expect(page.locator('[data-reader][data-reader-path="/Systems/Fixture-Octopus"][data-reader-ready="true"]')).toBeVisible();
+  await j.readerLayoutSettled();
+  const rects = await page.evaluate(() => {
+    const w = window as any, b = document.querySelector("[data-reader-study]")!.getBoundingClientRect();
+    return { atReady: w.__readyRect, settled: [b.left, b.top, b.width, b.height] };
+  });
+  expect(rects.atReady, "premise: Study tools existed when the reader said ready").not.toBe("none");
+  expect(rects.atReady, "Study tools is at its final place when the reader says ready").toEqual(rects.settled);
+});

@@ -1,0 +1,686 @@
+{
+  "base": "dc72b958c88e8f3ed17d3d6b599b190e5daf81f4",
+  "authority": "Article sections Phase 2 and owner TOC placement approval, 2026-10-15; D-318 U4a/U6a, 2026-10-16: centred arrival and native scroll occlusion, native paired-half role navigation, Questions/Moves index entries and no shelf with Book shown. View placement remains pending U7. D-322 preserves the clicked card within2px and frames the painted execution pair/name in free2-D space; above-card bounds remain wherever that band exists.",
+  "entries": [
+    {
+      "old_file": "e2e/journeys/reading-mode.spec.ts",
+      "old_title": "@curated reading videos have one explicit owner and stop when Videos or Book is hidden",
+      "preserved_rule": "One media owner; hiding pauses; reading stays dormant; deliberate play only.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-media-placement.spec.ts",
+          "title_contains": "media identity and"
+        },
+        {
+          "file": "e2e/journeys/article-sections.spec.ts",
+          "title_contains": "section settings carry"
+        }
+      ],
+      "retired_rule": "A separate article iframe, deleted on hide, is replaced by the approved existing host moved without cloning and paused without destruction. Book returns it to normal home."
+    },
+    {
+      "old_file": "e2e/journeys/reading-navigation.spec.ts",
+      "old_title": "${width}px native reading keys, contents and Book preserve the complete document",
+      "preserved_rule": "Native scrolling keys, complete document identity across Book hiding, no ghost hit target, no overflow, no accidental play.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys and section toggles preserve"
+        },
+        {
+          "file": "e2e/journeys/article-sections.spec.ts",
+          "title_contains": "contents and header targets"
+        }
+      ],
+      "retired_rule": "Phone contents and sticky horizontal heading strip are removed by approval. Phone headers toggle; larger screens have independent label and eye targets."
+    },
+    {
+      "old_file": "e2e/journeys/landcard-chrome.spec.ts",
+      "old_title": "the film strip spans exactly the card it sits on, outer AND content box @curated",
+      "preserved_rule": "The single media owner has a measured, responsive home with no overlap. Its internal clip-row inset/fade ratios remain covered by film-row-arrows.spec.ts.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-media-placement.spec.ts",
+          "title_contains": "the Videos section leads the game scrollport"
+        }
+      ],
+      "retired_rule": "The approved A integration uses 400px media beside a 390px practice card on desktop and 358px media above practice on phone. The phone deck face remains viewport-minus-104 (286px at 390). Equal outer/content-box alignment with a fixed card is no longer the layout contract."
+    }
+  ],
+  "assertion_migrations": [
+    {
+      "file": "e2e/journeys/landcard-modes.spec.ts",
+      "test": "the generic defending card pages its own deck with the same arrows",
+      "change": "STALE TIMING: the original full core read zero beats while _landPageTo had accepted ArrowRight and was warming the defender pool. The unchanged-bundle native trace recorded true, then _landWarmP, then page 1 and exactly one land_q_paged. Await the existing landSettled promise after the same key; retain the exact one-beat assertion. No sleep, polling the claimed beat, retry or widened bound."
+    },
+    {
+      "files": [
+        "e2e/journeys/camera-continuity.spec.ts",
+        "e2e/journeys/landing-reveal.spec.ts"
+      ],
+      "test": "DOM-derived available band",
+      "change": "Historical pre-D-318 repair: count the article as a vertical blocker only when its actual horizontal interval intersects the drawn orb/label footprint, and include the real article/shelf instead of their transparent parent. D-318 U4a supersedes free-gutter reading framing: the pair and label centre above the first section and native scrolling occludes them. The new eight-width article-sections journey rejects restoring the retired gutter camera. Live-execution and opening-flight bounds are unchanged."
+    },
+    {
+      "file": "e2e/journeys/defending-arrivals.spec.ts",
+      "test": "caught orb restaging; article links and Back/Forward",
+      "change": "The old right-side pan target is occupied by the approved TOC. Find a free left-gutter target and require both ends of each native drag to hit the real canvas; preserve the 16-gesture bound, separately drawn defender, app hover identity and native orb click. The transparent reader scrollport is no longer a click target: use the actual Overview TOC link before the unchanged authored-link/wheel/Back/Forward sequence."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "reading perspectives and Back retain canonical content without gameplay",
+      "change": "STALE TIMING, fixbots reading-back-race.md: the unchanged test failed 3/20 before escape on dc72b958c and 0/20 on f006d73b8. Observe Quartz nav plus the replacement instance's connected canonical ready reader, then take one snapshot asserting intent:true, paused:true, clock:null. The forced HTML-then-graph ordering remains. D-318 U6a replaces only the retired perspective switch action with the real paired-half mouse tap; complete content assertions and original Back order remain. No sleep, retry, widened bound or wait on asserted state."
+    },
+    {
+      "file": "e2e/journeys/film-row-arrows.spec.ts",
+      "test": "all film-row cases",
+      "change": "Use keepTutorial:true so boot does not artificially complete all White objectives and mint an unrelated reward. The 390px native trace measured that reward's deliberate dismiss button at x336..366,y110.969..154.969 over the next arrow at x337..381,y108..152; dismissal restored native arrow scrolling. KNOWN UI ISSUE: a real earned reward still collides there; the orchestrator tracks the follow-up. Real new-user progression remains enabled. No hit-test, fade, inset, keyboard, end-state or reduced-motion assertion changes."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "choices precede section cards and preserve the six-pixel token",
+      "change": "Escape supplies the shared ng-land-deck with its existing 16px gap. D-318 adds the 44px Moves header after that gap; the hand follows the header with zero gap. Focus/Browse precedes the 44px Questions header by 6px. The hand-to-article and inter-section gaps remain exactly 6px. Native card/hand identity, horizontal overflow and control reachability remain asserted."
+    },
+    {
+      "file": "neural/build/build.mjs",
+      "test": "READ_PROBE deferred-only stylesheet checks",
+      "change": "The owner removed the Contents trigger, the last selector matching .ng-reader-contents. Probe its replacement .ng-reader-toc instead. Both existing requirements remain: the rule must exist in reading.css and must be absent from eager neural.css; the independent .r-s probe remains."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "contents and header targets; floating contents owns real mouse input",
+      "change": "Owner replaces the in-flow rail/tablet panel with containerless fixed Contents. The independent article keeps its 680px maximum width/centre. The 200px TOC plus 12px gap fits the measured right gutter (1152px closed-pane cutoff at a 24px edge); narrow tablets retain header toggles. Label navigation, separate eyes, keyboard, contrast, persistence and dormant-game assertions remain, as do mouse/canvas positive controls in both themes. D-318 later replaces the old occupied-gutter camera claim with centred arrival and native prose occlusion; restoring the actual retired correction fails that new claim. The index heading names technique, role and origin."
+    },
+    {
+      "file": "e2e/journeys/reading-contract.spec.ts",
+      "test": "reader rhythm scales as a ratio and headings keep their hierarchy",
+      "change": "The former section margin = 2u is replaced by the independent approved 6px external gap. Internal list rhythm remains u/2, and heading size/luminance ordering remains checked."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "complete article, Focus, every restore and reload",
+      "change": "The first expanded card is Videos; Overview follows. Focus preserves semantic section preferences. Other layer restoration, storage and dormant-game assertions remain."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "heading links focus the cloned article",
+      "change": "Canonical authored anchors still navigate and survive reload. A hidden original heading focuses its new section header."
+    },
+    {
+      "files": [
+        "reading-mode.spec.ts",
+        "reading-contract.spec.ts",
+        "landcard-more-content.spec.ts"
+      ],
+      "change": "Complete guide text is collected from every source fragment. Path checks assert the unique set across all fragments; they never select only the first fragment. Safety and late-response checks retain their original rules."
+    },
+    {
+      "files": [
+        "reading-mode.spec.ts",
+        "reading-navigation.spec.ts"
+      ],
+      "change": "Book hides the article and its toolbar. The shared game scrollport remains to carry the unchanged practice/choices and the normal media home, as requested in the integration ruling. Hidden article hit tests target that article; document identity and scroll restoration remain checked."
+    },
+    {
+      "file": "e2e/journeys/reading-navigation.spec.ts",
+      "test": "a late real dossier preserves reader focus, scroll and the answered question",
+      "change": "Compare all complete source fragments rather than the outer body HTML: the shared live media host is intentionally inserted on late dossier hydration. Reader/body/question identity, article bytes, focus, scroll, grade and answer count remain unchanged."
+    },
+    {
+      "files": [
+        "landcard-chrome.spec.ts",
+        "land-layers.spec.ts",
+        "layer-dock-centre.spec.ts"
+      ],
+      "change": "Book visibility means the article, not the shared game scrollport. A hidden film is retained and inert, rather than absent. Dock centering measures the article column, not the now full-width scrollport. Existing mouse, persistence, geometry, keyboard and layer-independence rules remain."
+    },
+    {
+      "file": "e2e/journeys/announcer-coherence.spec.ts",
+      "test": "a Decide countdown does not survive staging another node",
+      "change": "Select an exposed position through the real elementFromPoint hit boxes across the viewport. The old fixed-card 320px/340px exclusion excluded exposed nodes under the approved native scrollport. All real-mouse hover, countdown, staging and reset assertions remain. A real wheel zoom exposes an alternative while preserving the live countdown, before the existing real node click."
+    },
+    {
+      "file": "e2e/journeys/landcard-deck.spec.ts",
+      "test": "responsive deck and long mobile choices",
+      "change": "The approved A media home shares the game scrollport: 60px horizontal gap on desktop (the geometry ruling preserves outside 44px deck arrows), 12px above practice when stacked, and the unchanged 16px deck-to-hand gap. Short-screen content is bounded by the native scroll extent rather than required to fit one viewport. Real touch must move that scrollport; the question itself remains unscrolled, preserves paging and can still be answered by a fresh tap. The touch fixture holds before release so it measures a reading drag rather than a native inertial fling past the question into the full article."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "CLEAR_SEC card restore and late film",
+      "change": "Hide Book as well as the game surfaces to establish the existing empty-band premise, then let the real Book click\u2019s four-second camera input lease expire. The late-film case hides practice and the hand so the actual existing media owner changes an unbounded band without a fabricated height. The original per-frame motion and 0.35s clearance bounds remain unchanged."
+    },
+    {
+      "file": "e2e/journeys/landing-reveal.spec.ts",
+      "test": "staging and layer changes center the node",
+      "change": "Measure the actual blocking article and game rectangles. The transparent reader scrollport no longer counts as an opaque row, and bottom coordinates inside it are container-relative. Await article readiness and the existing media transition before advancing the camera clock. The same 5px central-band bound remains."
+    },
+    {
+      "file": "e2e/journeys/pane-layout.spec.ts",
+      "test": "pane movement, tablet Browse and landscape resize",
+      "change": "The article is measured separately from its transparent full-width scrollport. Unchanged side-by-side composition retains the original translation, width and vertical-clearance bounds. Crossing the approved media breakpoint instead checks the exact 400px media width, viewport-minus-pane-minus-104 deck width, 12px media gap and 16px hand gap; landscape uses the same stacked native flow. Question, answer, selection, camera, input and scroll preservation assertions remain."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "choices precede section cards; optional chrome frame",
+      "change": "D-318 puts no-hook Focus/Browse before Questions in the game flow; reference titles remain above their article. The hook replaces ownTop only, retaining the node band and all intra-flow gaps, then adds offset before the existing fit clamp. bottomReserve is still the viewport-bottom clearance; null/undefined keep fallback geometry. With Book shown the shelf is hidden and contributes no height; measured bottom-control clearance plus 8px remains. Desktop tools move to chrome and phone tools stay in flow. Every hook path remains covered by geometry and mutation controls."
+    },
+    {
+      "file": "e2e/journeys/coldstart-backfill.spec.ts",
+      "test": "the landing card stays centred through its entry animation",
+      "change": "The native flow uses explicit coordinates and transform:none, so requiring a resting transform matrix is obsolete. The test now samples the actual CSS animation at six times plus rest and requires every horizontal centre within 1px. The original keyframe translateX(-50%) check still covers the fixed home before adoption."
+    },
+    {
+      "file": "e2e/journeys/layer-dock-centre.spec.ts",
+      "test": "pane-open and short-landscape compositions",
+      "change": "The pane must move the persistent article/shelf column, while practice may switch between approved side-by-side and stacked layouts. Short landscape uses the stacked native flow; practice must fit beside the pane. Existing real-click, first-frame, centre, share-cue clearance and target-ownership assertions stay unchanged."
+    },
+    {
+      "file": "e2e/journeys/roll-card.spec.ts",
+      "test": "the film row rides the game card",
+      "change": "The approved A normal home replaces the old always-above-film premise. The authored existing host must share the game scrollport and maintain exactly 60px beside practice or 12px above it. The shared media spec covers both viewport geometries, player identity and playback."
+    },
+    {
+      "file": "e2e/journeys/reading-navigation.spec.ts",
+      "test": "late article first answer; during-press adoption",
+      "change": "REAL BREAK, not a readiness repair: compositor proof on e26 paints the old answer before sections adds a 68px adoption shift. APP withholds publication until synchronous reader layout; the original measure-then-click order remains. The forced first-layout regression fails old e26 at dy=-66 and passes the fix at dx=dy=0 with exactly one answer (distinct ordering from the 68px paint probe). Both during-press regressions retain question identity and one paid answer."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "Inspect and execute are distinct real mouse actions",
+      "change": "REAL BREAK: reader layout cleared Inspect's closing transform before its own completion callback restored row geometry. Preserve that owner and clip horizontal game overflow in APP. Retain the full native Inspect/Escape/execute/repeated-click/digit sequence with exactly one commit; the additional held-close ordering fails on e26 at transform ownership, not an input timeout."
+    },
+    {
+      "file": "e2e/journeys/url-arrival.spec.ts",
+      "test": "late deck delivery does not steer the opening flight",
+      "change": "Keep the original <3 world-unit bound and ungated case. Add controlled real Side Control deck delivery after simulation time7; it reproduces approximately10.94 on exact dev8aa and10.95 on e26. APP shares the node-band reservation before/after reader adoption, leaving the fixed target unchanged. No readiness wait replaces the measured flight."
+    },
+    {
+      "file": "e2e/journeys/concepts-surface.spec.ts",
+      "test": "reference navigation retires gameplay surfaces",
+      "change": "STALE CONTRACT, review3 B1 accepted by orchestrator: the old game film must disconnect and never be reused, exactly one seatless owner carries the exact published IDs across all three reference categories, and a no-video reference retains film:false. The retained-old-host mutant fails connected:false at the claim. No seat, hand or gameplay activation is allowed."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "late question backfill retains the named eye target",
+      "change": "A new accessibility assertion exposed a real late-backfill defect: the replacement card lacked the ID named by its header eye. APP binds ID during actual adoption, preserving question identity and dormancy. The control restores sync-only assignment and fails the forced backfill identity assertion; its initial natural-order non-kill is recorded."
+    },
+    {
+      "files": [
+        "e2e/journeys/landcard-deck.spec.ts",
+        "e2e/journeys/land-layers.spec.ts"
+      ],
+      "test": "native phone scroll inputs and hand close",
+      "change": "The reserved reading band moves old fixture coordinates below the native scrollport. Scroll the actual question/Reveal/hand into view before the same native input. Preserve all original choice-scrolling, no-card-scroll, paging, growth, answer, ownership and retained-content bounds. The manually pumped DSL advances one ordinary16ms game frame after scrolling to dock the external hand close through updateUiShift. It does not sleep or wait on the asserted geometry."
+    },
+    {
+      "file": "e2e/journeys/reading-media-placement.spec.ts",
+      "test": "pause every owner player; normal media geometry",
+      "change": "PR305 now gives Knee Slice one clip, so the multiplayer pause fixture explicitly retires that owner and renders two distinct clips through the real media owner; require both pauses and zero destroys/collapseClip calls. D-318 Measures the unchanged16px deck gap before the new44px Moves header and zero gap after it. Keep media sizes, outside arrows, 60px desktop clearance, resize coalescing and no-churn assertions."
+    },
+    {
+      "file": "e2e/journeys/roll-card.spec.ts",
+      "test": "complete article survives question lifetime",
+      "change": "Use the named Questions eye instead of the retired reading shelf button; retain native mouse, complete article identity, grading and question-lifetime assertions."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "execution camera frames the technique; native-wheel regression",
+      "change": "REAL BREAK with an approved geometry correction (D-322). A native Overview click and wheel can place the chosen card at y68 while the announcer ends at70.59375. Keep the <=2px measured pointerdown-to-stand-in rectangle; retain the original scalar above-card bounds wherever that vertical band exists. Every case now observes actual fillText output plus both shared drawn silhouettes against clipped visible rectangles. Original six normal-flow cases remain, and native-wheel cases add both motion modes. Exact e26 and the drop-correction mutant fail the painted-overlap assertion, never an input wait. The actual unobstructed-canvas pan still releases camera ownership. D-318 idle arrival/occlusion and the <3 opening-flight drift bound are unchanged."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "execution camera frames the technique at 390px; native-wheel thin band; reward notice deferral",
+      "change": "REAL BREAK, app fix (D-326). On a phone the clicked card can sit at y78 under an announcer ending at y67: frameExecution counted that 11px band as existing, rejected every candidate and returned the unfitted target onto the card. A band now exists only if it holds the reserved pair box with its 12px clearances; otherwise free 2-D space. The scalar above-card assertion follows the same premise (reserved box plus 24px) instead of any positive band; the painted-overlap claim is unchanged. A 390px case scrolled to the top (the pick path's own scrollIntoView; a phone wheel pages the deck or glides the hand) in both motion modes pins the thin band, and the execution-thin-band-accepted mutant fails its painted-overlap assertion. A full-width challenge reward also left no slot: the notice now yields at startExecution and shows again once the move lands, never dropped. The camera journeys keep the harness's real reward. New 390px journey: a notice showing at the click and a coin minted mid-execution are both held in order and shown after landing; the reward-hold-lost mutant fails at its yield assertion."
+    },
+    {
+      "file": "e2e/journeys/land-layers.spec.ts",
+      "test": "131 sticky card, 217 independent layers, 342 caught with the hand away, 421 phone dock glyphs, 273 article survives minimizing, 287 final paragraph reserve",
+      "change": "STALE CONTRACT (D-318 U1(1), CI 48be3a910). With Book shown (the default on every route, `/` included) the reading shelf is hidden, so dock clicks met a 0x0 box. The dock claims run in the MAP view (Book off, persisted readerBook=false; no UI turns Book off before U7's View menu), where the dock also lists Book's restore glyph. 131, 217 and 342 also run in the reading view through the Questions/Moves section eyes ([data-game-eye]). 273 hides through the film's own \u2715 and the eyes. 287 asserts the flow ends clear of the bottom controls sharing its column instead of a shelf. 421 stays map-only; the reading view's 44px eyes are article-sections' D-318 390px case."
+    },
+    {
+      "file": "e2e/journeys/layer-dock-centre.spec.ts",
+      "test": "the dock follows the column with the pane open/closing/resizing, phone",
+      "change": "STALE CONTRACT (D-318 U1(1)). The shelf followed the article column; with the article shown there is no shelf. MAP view (Book off, persisted): the dock is measured against the app's published free column (_paneLayout().center, read in the same frame: it eases with the pane, and a side-by-side film and card share no single DOM centre). The phone case taps the film glyph by name and waits for the reader's coalesced layout after the share cue clears (y655 -> y709 one frame later). The reading-view twin, the article column moving with the pane, is pane-layout.spec.ts."
+    },
+    {
+      "file": "e2e/journeys/pane-layout.spec.ts + landcard-deck.spec.ts",
+      "test": "card-to-hand gaps: pane-layout 82 (1024 reflow) and 217, landcard-deck 118 (face tight over the tray) and 216",
+      "change": "STALE CONTRACT (D-318 U1(1)): the named 44px Moves heading (#reader-hand) sits after the unchanged 16px deck gap, so card->hand read 60. Each now asserts card->Moves 16, Moves->hand 0 (article-sections pins the same contract); the 18px tight-face ceiling and the back-stays-clear claim are measured against the heading."
+    },
+    {
+      "file": "e2e/journeys/landing-reveal.spec.ts + pane-camera.spec.ts + camera-continuity.spec.ts",
+      "test": "landing-reveal 140 centring, pane-camera 122 lease subject, camera-continuity 331 central band",
+      "change": "STALE CONTRACT (D-318 U4a): with the article shown the camera frames inside the reader's reserved node band (what _viewRect returns, the same band for every layer combination), so each oracle reads the published nodeBand in the reading view at the unchanged bound. landing-reveal also runs a map-view variant (Book off) on the original announcer-to-rows oracle."
+    },
+    {
+      "file": "e2e/journeys/url-arrival.spec.ts + dual-pair.spec.ts",
+      "test": "url-arrival 136 framed clear of the landing card, dual-pair 819 desktop reading bias",
+      "change": "STALE CONTRACT (D-318 U4a): the reading arrival fits the pair into the node band (zoom 0.107 here) and centres it above the first section, asserted by article-sections at eight widths. These framing claims are the map view's and run there (Book off, persisted)."
+    },
+    {
+      "file": "e2e/journeys/dual-pair.spec.ts",
+      "test": "565 hovering any pair names it once",
+      "change": "STALE CONTRACT (D-318 U4a): its bright-pixel strips assumed ~35px orb separation and an unqualified pair; the centred arrival puts a qualified pair 25.8px apart on screen, so the group's own role line and qualifier filled the bands while one label was drawn. The claims are now counted fillText draws in the hover frame: the name exactly once on the published midline, the role once, above for the upper half and below for the lower, the name on the same line in both."
+    },
+    {
+      "file": "e2e/journeys/history-replay.spec.ts",
+      "test": "222 a hand on the graph ends the film",
+      "change": "STALE CONTRACT (D-318 U4a): the centred reading arrival put graph chrome (a button) under the old fixed pan point (1150,300). The same 60x40 drag starts and ends on measured, unobstructed canvas."
+    },
+    {
+      "file": "e2e/journeys/share-mobile.spec.ts + choice-value.spec.ts",
+      "test": "share-mobile 317 Inspect by a real tap, choice-value 130 and 147 at 390px",
+      "change": "STALE CONTRACT (D-318 U4a): at 390x844 the reserved node band pushes the hand so its Inspect row starts at y756, below the reader's scroll edge at y754; focus() natively scrolls it (choice-value 147 measured 660 -> 298). Inspect is revealed the way the browser does, then the real tap/mouse claims run unchanged; 147 takes its origin after focus, before the values resolve. UX note sent to the owner: the move cards are partly visible at arrival."
+    },
+    {
+      "file": "e2e/dsl.ts readingOtherHalf + defending-arrivals.spec.ts",
+      "test": "219 a shared list link opens its defending item",
+      "change": "REAL BREAK, app fix (the intro handover). The item is read 20ms after boot, inside the 3.2s intro; openDossier staged and focused it, then the intro's handover called startRoll() and restarted the board at a random start (a focusIdx write trace shows rollFromPosition -> 1152, then startRoll from updateCamera -> -1), so the article read Loop Choke while its pair sat at (8023,-2030). Pre-existing, made reachable by D-318 U6a (the other half is the only role control) and U4a (the read node centred). A board staged during the intro now keeps it, like a URL seed. The DSL helper resolves the read member from the reader's own path and requires it to agree with focusIdx wherever a node is focused."
+    },
+    {
+      "file": "e2e/journeys/seat-star.spec.ts",
+      "test": "59 desktop: the seat star after the pane closes",
+      "change": "STALE SPEC (D-318 U4a): the pointer rests where the pane's close button was, and the centred arrival now draws Cross Collar Choke from High Mount there, so its hover label carries a second, correct star. The locator names the current seat by focusIdx (committed 4802641a4)."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts + reading-contract.spec.ts",
+      "test": "reading-mode 71 (1366, 390) every restore; reading-contract 128 minimizing never starts play",
+      "change": "STALE CONTRACT (D-318 U1(1); review-claude B2, D-331). Their Videos/Questions/Moves steps drove the hidden shelf: they now go through the section eyes (the index at 1152 and up, the section headers below), asserted by aria-expanded with the same no-deal / no-play claims. Their Book, Map and Feedback steps stay on the View controls, so both remain U7-PENDING but fail only at a View control: 15 pure U7-PENDING + these 3."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "the contents heading at 1440 (two cases)",
+      "change": "D-331 N1: the heading is D-318 U6a's approved 'Loop Choke \u00b7 Escaping' on one line with the qualifier beneath; the text assertion follows and a geometry check pins the role on the name's line and the qualifier below it. The index-role-lost control's target follows the new markup."
+    },
+    {
+      "file": "e2e/journeys/layer-dock-centre.spec.ts",
+      "test": "map-view dock under the column",
+      "change": "D-331 N3: settled states measure the free column from the DOM again ((W + pane right) / 2, W / 2 on a phone), an oracle independent of the dock's own writer; 'the toggles preserve the column' compares the dock's measured centre across the toggles. Frame by frame, the pane animation compares the dock's centre with the card's, measured in the same frame, because the pane's box does not ease (D-332 D2-N2)."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts + camera-continuity.spec.ts",
+      "test": "execution camera cases and the 390px exchange",
+      "change": "D-331 S1: frameExecution counts both fallbacks (_execFrame.noFrame, .noFit); these journeys assert noFit is 0 before their painted-overlap claims. The execution-no-fit-forced control fails at that claim. N4 (D-329's column-only landing occupancy) was probed at 1440x480 and not reproduced; recorded in camera-continuity's header."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "218 at 390px, reduced motion, scrolled to the top (CI-only 4px then 7px)",
+      "change": "D-331 B1, diagnostics only: not reproduced by holding the win chance pending across the click (values resolved after the pointerdown left the card at 81-82 both times), nor at 1x, 4x CDP or a 50% CPU quota. The handoff record (card/stand-in rects at pointerdown, click and stand-in mount; reader scrollTop; layoutFrame and press flags; win-chance status; document.fonts.status; every layout-shift entry with its sources; _execFrame) is attached before the unchanged 2px assertion, and the file keeps traces on failure."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "480 an escape picked just inside the catch's window keeps the catch framing through its whole travel (1440, 390; added)",
+      "change": "D-332 D2-B1, REAL BREAK since 8a64e8ac7: the calm catch's window was read every frame, so an escape picked inside it lost the catch framing when its travel outlived the window (4x CPU: 3 of 6 red at both widths; review-claude's forced expiry: red at both widths). The app now latches the verdict at the pick (_execution.calmHeld). This journey picks 0.4s before the window closes, asserts the travel outlives it, and holds vw within 3% to the landing; mutant calm-catch-latch-lost (per-frame re-read) is killed at that claim, and the forced-expiry arm is green after the fix."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "391 an escape: the catch keeps its own framing (1440, 390)",
+      "change": "D-332: the end-of-sequence claims are read at least 2.5s after the LANDING instead of 5s after the pick. Under 4x CPU the escape's travel took 4.7s of game time (3.3s normally), so the fixed window ended 0.3s after the landing, mid-flight. Every claim and bound is unchanged; the extra frames are also checked by expectContinuous. D-333 D3-N1: the end frame must also be at rest (why.fl null) as a premise, so a longer landing flight fails as a premise, not as a framing failure."
+    },
+    {
+      "file": "e2e/gen/spa-nav-single-instance-law.spec.ts",
+      "test": "88 spa nav single-instance law (life 2 beats)",
+      "change": "D-332 D2-S2, SPEC STRICTER THAN ITS CLAIM, PRE-EXISTING on dev: CI 105c5f110 recorded two land_q_skipped {reason: decks_in_flight} before mc_shown. Holding life 2's deck manifest 2s reproduces exactly that diff on this PR's site and on the D-324 dev capture (2 of 2 each); 0 reds in the 10 earlier gen runs. Those beats are life 2's own dormant-arrival beats (the ledger invariant), so they are admitted only with that reason and only when the question then backfills; every other beat stays exact. Controls under the hold: an injected prior-life beat fails 'no prior-life beats', a deck_proven skip fails 'manifest wait only'. D-333 D3-S1: each admitted skip must be the shown question's own deck (land_q_shown's deckKey) and sit between beacon_moved and mc_shown; two more controls under the hold, a decks_in_flight skip on another deck and one after land_q_unseen, each fail at their own message. Follow-up named for the app, with its sibling gen-w3-15 onboard-fresh-boot-spa-nav-single-instance (the same five exact beats after the same soft nav, task #66): one landing records the immediate skip once per render while the manifest is in flight, then shows the question."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "218 at 390px, reduced motion, scrolled to the top (CI-only 4px then 7px)",
+      "change": "D-332 item 3, worded to where the arms acted (D-333 D3-N2): in all 26 records the stand-in mounted 3-9ms after pointerdown at the card's own y and scrollTop, so each forced end fell between the stand-in's mount and the measurement: the holdCamera lease, calm catch, reader press, a late layout pass, win-chance resolution, deck/film backfill, a reward notice yielding at the pick, tray glide, and growth above the hand; the scroll slack was 12,689px, so no clamp. The taller-sibling arm acted before the pointerdown, so it does not test the handoff. All 0-2px. Only an induced smooth reader scroll moved the stand-in (5-6px, riding the scroller), and the app issues none under reduced motion (reading.css). Nothing reproduces the pre-mount half, so the diagnostics stay; the handoff record now also carries the reward notice's presence."
+    },
+    {
+      "file": "e2e/journeys/coldstart-funnel.spec.ts",
+      "test": "105 cold start: the funnel spine (the first landing's dump)",
+      "change": "D-333 D3-B1, STALE SPEC (D-318, af3aac311): a new landing card mounts with data-reader-pending (visibility:hidden) until the deferred reader publishes it, so the opacity-only wait could pass on a hidden card that the dump's vis() then rejects (CI 19e1cfb23; locally 4 of 6 plain, 6 of 6 at 4x CPU; the dev capture's app is never pending). The wait now polls the dump itself and asserts the claim on the dump that answered, within the same 10s. Green 6 of 6 plain and at 4x CPU on both arms, and under a 2.5s reader.js hold; control landing-never-published (the reader never publishes) fails at 'the landing card greets a first-ever visitor'."
+    },
+    {
+      "file": "e2e/journeys/coldstart-backfill.spec.ts",
+      "test": "113, 209, 284, 328 (the backfilled, behind-the-sheet, first-landing and carried-over cards)",
+      "change": "D-333 audit of the D3-B1 class (grep -rl: 34 journeys read [data-landcard], 5 of them with opacity: seat-star, coldstart-funnel, pane-layout, coldstart-backfill, pane-chrome). Under a 2.5s reader.js hold only coldstart-backfill went red (then lines 101, 196, 271): two by-mouse clicks landed on the canvas under a hidden card, and the sheet read after a fixed 450ms found a hidden card. It now waits for the card a visitor can see, with its finite entry animation done (cardSettled), before each of its three clicks and that read, in four tests (113, 209, 284 and 328, the last green under the hold too): 14 of 14 committed and 14 of 14 under the hold. seat-star, pane-layout and pane-chrome stay green under the hold (pane-layout already requires visibility; pane-chrome's opacity reads are the account chip's (:480, :516) and its card check is toBeVisible() (:555), D-333 D4-N1)."
+    },
+    {
+      "file": "e2e/journeys/lists-picker.spec.ts",
+      "test": "564 the picker is reachable and fully on screen when opened from a 390px option card (the 'readable behind the picker' claim)",
+      "change": "D-333 D4-S1: the owner's v1.103.2 rule (the picker opens without hiding ng-landcard) was gated by opacity alone after a fixed 450ms sleep, and since D-318 (af3aac311) a card the reader has not published is visibility:hidden at full opacity, so it stayed green with the card hidden. The claim now also reads visibility, and the sleep is a wait for the card's finite entry animation (visibility deliberately not part of the wait, so a hidden card fails at the claim). Control landing-never-published-picker fails at 'the landing card is still readable behind the picker (visibility)'; 16 of 16 green committed. Audit with the mutant as the method over every card selector (72 files; 47 journeys and 23 generated specs, 476 tests): 283 stay green with the card never published; of those, 24 have an expect near a card read, and four word a visible card while checking only existence, a count or aria-expanded (coldstart-late-payload:158 and :490, lists-disclosure:257, article-sections:369's restore half). D-336: each now also asserts the card is visible (toBeVisible), green on head, and each has its own never-published control killed at that claim (landing-never-published-late-question, -no-decks, -list-item, -eye-restore). None of the four holds reader.js, so no late-reader allowance was needed."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "71 complete article, every close and reopen, and reload (1366, 390; U7-PENDING x2)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): RETIRED in part. Focus on reading, its saved reload and the article view's Map, Feedback and Book toggles have no control left (no View menu); their absence is now the claim (no [data-reading-focus]/[data-reader-browse], no visible View control for any part). STALE CONTRACT for the rest: Videos, Questions and Moves close with their own \u2715 and reopen from the label each leaves, never dealing or starting play; closed parts persist through a reload, and the label reopens by keyboard. Controls d338-focus-browse-retained."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "334 heading links focus the cloned article and a reopened question starts play (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The article can no longer be minimized from the article view and saved Focus is not read; the question starts closed through its own saved layer (landCard false) and reopens from its label in the article. Answering it still starts play (intent false), the claim kept; the focus:false half is retired with Focus."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "the logo and linked content keep reading intent through positions, techniques and principles; reading perspectives and Back (saved Focus seed)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Browse is gone; the logo opens the same pane and its Explore tab is one press away. A Focus saved before D-338 is inert: the perspectives journey now seeds readingFocus with readingCard/readingHand false and asserts the question and the moves are shown. Controls d338-saved-focus-read (reader) and d338-saved-focus-layer-read (app)."
+    },
+    {
+      "file": "e2e/journeys/reading-contract.spec.ts",
+      "test": "131 reading gestures, minimizing and article navigation never start play (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): RETIRED in part: Book, Map and Feedback have no control in the article view, so their minimize/restore steps go and their absence is asserted. Questions and Moves close with their own \u2715 and reopen from their labels; the 20 s no-play claims after gestures and after navigation are unchanged. The index-target check reads the new order (Videos, Moves, Questions, Overview, ...) and the headings by .ng-section-title / the closed label."
+    },
+    {
+      "file": "e2e/journeys/reading-navigation.spec.ts",
+      "test": "18 native reading keys and section toggles preserve the complete document (320, 390; U7-PENDING x2) and 190 successful article responses are reused across seat navigation (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): RETIRED in part: the article view has no Book toggle, so the hide/restore steps and their ghost-hit, scroll and Book-restore reuse claims go; no visible Book control is asserted instead. Keys, section toggles, document identity, no horizontal overflow, no play, and seat-navigation reuse (one Defender fetch) are kept."
+    },
+    {
+      "file": "e2e/journeys/reading-navigation.spec.ts",
+      "test": "closing pane/reading first never resumes reading without a game action (x2); ending a replay after the pane closes preserves reading intent",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Focus, which set reading intent, is gone: a content URL arrival (or, for the replay, following an article link after a real roll) sets the same intent, and the logo opens the pane Browse opened. Paused, intent and no-clock claims are unchanged."
+    },
+    {
+      "file": "e2e/journeys/reading-media-placement.spec.ts",
+      "test": "67 published reference videos remain playable without a seat (x4; U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The article view cannot hide Book, so \"hiding a seatless article cannot leave hidden audio playing\" is reached through the one remaining hide path, the Videos \u2715, while the clip still plays (asserted playing first). Everything else unchanged."
+    },
+    {
+      "file": "e2e/journeys/reading-media-placement.spec.ts",
+      "test": "140 media identity (x4) and the Videos section leads the game scrollport (1366, 390)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. With the article shown the film's one home is its Videos section (wantsMedia is Book alone), lifted into the game flow above the hand, so no Focus entry is needed. The normal-home geometry test is replaced: one owned host in the slot, Videos/Moves/Questions share the flow, Moves follows Videos and Questions follows Moves at one measured gap, no fixed overlap, no resize churn (the videoCard joins the churn set). RETIRED with the side-by-side home: its 400/358px sizes and the currentFilmHeight-equals-rect claim. Control d338-film-waits-for-intent."
+    },
+    {
+      "file": "e2e/journeys/dual-pair.spec.ts",
+      "test": "879 a submission finishes and escapes; 983 the name and its qualifier centre on the pair (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. These measure graph labels and need the map without the article: no control hides Book from the article view, so the map view boots as a returning reader left it, readerBook and landCard false (the persisted settings the two retired clicks wrote). Label claims unchanged."
+    },
+    {
+      "file": "e2e/journeys/landcard-chrome.spec.ts",
+      "test": "48 Book restore keeps a readable, reachable control (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): RETIRED in part: no Book minimize exists in the article view. Book off survives as a saved state whose shelf keeps the restore control; that half keeps the v1.104.2 claim (never the UA-default black, reachable by mouse, restores the article)."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "517 CLEAR_SEC a card turned back on (x2) and 539 a late film row (x2) (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Map-view camera rules: they boot with the article away as a returning reader left it (readerBook false) instead of clicking the retired Book control. The clearance and continuity claims are unchanged."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "choices precede section cards; optional chrome frame; chrome keeps the same controls; contents and header targets; D-338 Questions and Moves close with their own \u2715; late question backfill; floating contents; semantic sections preserve every source block",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Order Videos, Moves, Questions, then the article: each boundary is one measured gap (step, then the 16px deck gap, then the 6px token); the head is bare with no control; closed Moves/Questions leave labels with a 44px target and contrast >= 7, naming the surface they reopen; the index has no buttons, dims closed rows and its heading reads role first ('Escaping Loop Choke from Half Guard', reversing D-331 N1); the Moves tray ends 12px short of the index; a closed section has no box. The source-preservation scan reads the whole reader, since Videos is lifted out of [data-reader-body]. RETIRED with the index eyes: eye-changes-visibility-without-navigation and the label/eye colour match. Controls d338-video-not-lifted, -questions-above-moves, -open-part-keeps-header, -index-eyes-retained, -section-settings-retained, -tray-under-index, -closed-label-boxed, index-role-after-name, section-x-repaint."
+    },
+    {
+      "file": "e2e/journeys/land-layers.spec.ts, roll-card.spec.ts, pane-keyboard.spec.ts, pane-layout.spec.ts, concepts-surface.spec.ts, reading-browse-hydration.spec.ts, reading-map-input.spec.ts, reading-ready-payload.spec.ts, landcard-more-content.spec.ts, defending-arrivals.spec.ts, roll-execution.spec.ts, e2e/dsl.ts",
+      "test": "the remaining Focus, Browse, eye and header steps",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Questions/Moves eyes become the card's and the hand's own \u2715 plus the closed labels; the videos' \u2715 writes readerSection.videos with the article shown; Browse becomes the logo (Explore one tab away); Focus entry becomes a real reading interaction (prose focus) or a content URL; saved Focus seeds become the game layers they overrode (QUIET: landCard, landHand, landFeedback false, the map left shown for the other-half tap); index links are found by data-toc-type; the execution occupied set names the closed labels and the lifted Videos card. Claims unchanged."
+    },
+    {
+      "file": "e2e/journeys/landcard-deck.spec.ts",
+      "test": "the deck journeys (setup), 118 the deck face sits tight under the choices (1440, 390), 220 responsive deck, 276 long mobile choices",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Questions now follows Videos and Moves, so the deck can start below the fold: setup scrolls the face into view (programmatic, not a reading gesture), as a reader scrolls to it. The face's own claims are unchanged. Order-dependent claims move with the order: the face sits tight UNDER the tray (0..18px, the one 16px deck gap), the deepest back stays clear of the article (the reader now clears 3px per remaining back), the film sits above Moves and is never beside the card, and a long answer reads below the tray. REAL BREAK found and fixed in the app by these journeys: a deck page change used to reset the reader to scrollTop 0, which since the reorder scrolled the deck away (paging, wheel momentum, chevrons, answering every card all lost the card); it now scrolls only to the card's own top edge, and Home/PageUp clamp to it. Controls d338-page-scrolls-flow-top and native-page-scroll-lost (retargeted)."
+    },
+    {
+      "file": "e2e/journeys/pane-layout.spec.ts",
+      "test": "82 pane moves film, card, article (1440, 1024), 139 the pane overlays the article (768, 390), 166 exposed cards with the pane open, 222 resizing an open pane (landscape)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The article view never flips the film beside or over the card (media layout 'none'): the film lives in its Videos section, sized by the column, so it keeps its place in the column beside the pane while the card keeps its width, shift and vertical dock; the landscape flow reads Videos, Moves, Questions at the deck gap. RETIRED with the side-by-side home: the film's fixed 400px and its stacked reflow. Reading is the prose interaction (Focus retired), and the card is scrolled into view before the open-pane input checks."
+    },
+    {
+      "file": "e2e/journeys/reading-contract.spec.ts",
+      "test": "112 a real landing-card answer starts the dormant game once (390), 173 defender reading excludes attacker rules (x2), 218 reader rhythm keeps heading hierarchy (1366, 390)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The answer is scrolled into view first (the card follows Videos and Moves); the defender text scan reads the whole reader, since Videos is lifted out of [data-reader-body]; the heading hierarchy reads the section's .ng-section-title, since its toggle is now the one \u2715. Claims unchanged."
+    },
+    {
+      "file": "e2e/journeys/land-layers.spec.ts",
+      "test": "209 the choice survives a reload; 239 the layers are independent (map, reading)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. With the article shown the videos' one preference is their section's, and the film's own \u2715 is hidden in its section: the reload test runs in the map view (the game layers' keys and dock, plus the article's restore glyph), and the reading twin closes the film with its Videos \u2715 and reads the section key; film visibility is checkVisibility, since a closed section hides its body around the host."
+    },
+    {
+      "file": "e2e/journeys/roll-card.spec.ts, landcard-chrome.spec.ts, seat-star.spec.ts, landing-deck-answers.spec.ts, defending-arrivals.spec.ts, reading-navigation.spec.ts, reading-mode.spec.ts, reading-map-input.spec.ts",
+      "test": "the film row rides the game card; question corner; seat star; the deck-answer hit journeys; list click on the current position; late real dossier; ending a replay; mixed wheel; hidden Map",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The film row leads the flow above Moves in its Videos section (never beside the card); controls on the question card are scrolled into view first; the replay journey reads the prose before following its link (a live roll otherwise resets intent, which Focus used to prevent by pausing); the mixed wheel goes over the Videos section's own text, since the reader's bottom edge is now the question (game input); the map-input snapshot no longer carries focus. Claims unchanged."
+    },
+    {
+      "file": "e2e/journeys/landing-deck-answers.spec.ts",
+      "test": "answer(): every deck-answer hit journey (1440, 390)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE SPEC. With the deck low in the article view, locator.click()'s own scroll-into-view retry moved the reader 672px before answering card 3, taking the hand (the cause's anchor) off screen; a probe wrapping scrollTop, scrollIntoView and focus saw no app write with a real mouse. The helper now clicks with a real mouse at the measured centre after asserting the answer is reachable there, which is stricter than locator.click(). The hit, cause, pop and announcement claims are unchanged."
+    },
+    {
+      "file": "e2e/journeys/pane-layout.spec.ts",
+      "test": "162 exposed cards, videos and reading take real mouse input while the pane is open",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): the scroll claim keeps its exact form, scrollTop unchanged except for the final document's own clamp, and prints its numbers. It found two REAL BREAKS, fixed in the reader with controls (d338-clamped-place-lost, d338-running-reader-not-paused): the pane's transient scrollport growth clamped a reader at the article's end by 51px for good, and a pane resuming the game on close left a reader whose Videos click had already counted as reading unpaused."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "305 the logo and linked content keep reading intent",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE SPEC. The logo's extra Explore tab press moved the coordinate click on the Mount search result into the D-325 window where results reorder as the aliases index lands (it opened Mount-to-Armbar once); the journey now waits for the app's own alias-loading row to retire before clicking. That race stays pinned by reading-browse-hydration.spec.ts; this journey's claim is reading intent."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "choices precede section cards; contents and header targets; D-338 close with their own X",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): control fixes after the mutant run: the geometry read is null-safe so d338-video-not-lifted fails at 'Videos leads the flow' rather than in evaluate; the closed label's contrast is read at rest with the mouse moved away (collapsed-contrast had read the hover colour); the open question is asserted a visible card before its X is pressed (landing-never-published-label-restore's claim)."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "293 an exchange lands on a new current node (390)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): NON-KILL recorded in the spec: execution-node-band-removed passes here since the lifted Videos section is occupied space, so the free search lands in the node band and the D-329 band preference is not gated at 390px."
+    },
+    {
+      "file": "tests/reader_handoff.test.mjs",
+      "test": "the reader handoff units (fixture; capture and adoption records; Book reserves its node band)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The fixture gains the D-338 reader shape (sections, part-named closed labels, an article box for the index-fit check); the execution handoff records carry rowHeight, which keeps the card below the hand fixed during an escape; and the Book case asserts the header-less flow (no label on an open part, Moves directly under the 136px node band, the flow ending one gap below the hand) while keeping the node-band reservation and the unchanged execution snapshot. 13 of 13 pass."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "225 execution camera frames the technique at 1440px after native wheel (x2)",
+      "change": "D-347 (CI 11e7f83ff, review-claude Delta 5): STALE SPEC (D-338). Beside the index the Moves tray is a scroller (968px at 1440), and the chosen card (Gift Wrap, cx 1289) sat past its clip under an index link; a reader scrolls the tray to the card first, so the journey does (scrollIntoView nearest) before its measured mouse click. The framing claims are unchanged; execution-occupied-space-lost is re-proven at its own claim against a green baseline."
+    },
+    {
+      "file": "e2e/gen/casual-challenge-cue-steals-tray-clicks.spec.ts",
+      "test": "29 tutorial challenge cue never captures clicks aimed at live option cards",
+      "change": "D-347 (CI 11e7f83ff, review-claude Delta 5): STALE SPEC (D-338). Its 'on-viewport' proxy (the window) no longer equals 'visible in the tray', which is a scroller ending short of the index; the proxy is the row's own visible rectangle. Every visible card still must hit itself; no overlay captures one."
+    },
+    {
+      "file": "e2e/journeys/panic-card.spec.ts",
+      "test": "46 the panic drill is a landing card, clear of the escape hand",
+      "change": "D-347 (CI 11e7f83ff, review-claude Delta 5): STALE CONTRACT (D-338 reverses the direction, the owner's order). 'above the escape hand' was the pre-D-338 order: in the article view the drill sits below the escape tray. The claim kept: it is a landing card that clears the tray (no overlap), measured in whichever order the view stacks them."
+    },
+    {
+      "file": "e2e/journeys/option-edge.spec.ts",
+      "test": "700 a real click on the card behind the sheet neither answers it nor destroys it",
+      "change": "D-347 (CI 11e7f83ff, review-claude Delta 5): STALE SPEC (D-338). The card now sits below Moves, under the bottom-anchored sheet, so the positive-coverage strip was null; the journey scrolls the card to the reader's top first, exposing the strip. Claims unchanged."
+    },
+    {
+      "file": "e2e/journeys/pane-layout.spec.ts",
+      "test": "82 pane moves film, card, article (1024)",
+      "change": "D-347 (CI 11e7f83ff, review-claude Delta 5): STALE SPEC (D-338). At 1024 the column narrows beside the pane and the Videos section above the card reflows (+25.6px on CI), so 'card keeps its vertical dock' is asserted against the hand: the card stays one deck gap under Moves."
+    },
+    {
+      "file": "e2e/journeys/roll-card.spec.ts",
+      "test": "205 the complete article renders automatically and survives the question lifetime (390)",
+      "change": "D-347 (CI 11e7f83ff, review-claude Delta 5): STALE SPEC (D-338), the reading-mode:272 class. The reader's bottom edge is the closed Questions label (game input) when the reader stays at the top, so nothing expanded on CI; the wheel goes over the Videos section's own text. Claims unchanged."
+    },
+    {
+      "file": "e2e/journeys/reading-navigation.spec.ts",
+      "test": "190 successful article responses are reused across seat navigation and Book restores",
+      "change": "D-347 (CI 11e7f83ff, review-claude Delta 5) D5-S4: CORRECTION of the earlier retirement. The saved Book-off state keeps its restore (landcard-chrome drives it), so the claim is reachable and kept: the seats are read in the map view (readerBook false) and Book restores without refetching either seat."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "an exchange from a node with no Videos section lands clear of the rows (390)",
+      "change": "D-347 (CI 11e7f83ff, review-claude Delta 5) D5-S3: NEW variant on Reverse Mount Top, whose article has no Videos section (premise asserted), the state the lifted-Videos equivalence did not cover; execution-node-band-removed is retargeted to it. The Videos-section journey's header names the state it measures."
+    },
+    {
+      "file": "e2e/journeys/landcard-deck.spec.ts, article-sections.spec.ts, tests/reader_handoff.test.mjs",
+      "test": "D5-N1/N2/N3 claims",
+      "change": "D-347 (CI 11e7f83ff, review-claude Delta 5): NEW assertions for nits: paging keeps the face's top inside the reader's scrollport (N2, so d338-page-scrolls-flow-top kills at its claim, not a reachability guard); the Moves tray is centred on the article column (N1, control d338-tray-asymmetric); deck backs keep their control (d338-deck-backs-unreserved). The unit fixture gains before() for N3's DOM order (the hand is adopted before the closed Questions label, so Tab order reads Moves, then Questions)."
+    },
+    {
+      "file": "neural/src/app.src.jsx (_readerBand) + tests/reader_handoff.test.mjs",
+      "test": "the phone node band (Book case: nodeBand, row top, game height)",
+      "change": "D-349: REAL BREAK, fixed in the app. At the 136px phone band a no-Videos exchange's arc carried the pair, on screen (fx 29), 3px into the Moves row: the 44px Questions header and its 6px gap had supplied that room before D-338 removed them. The phone band is now 186 (136 + 44 + 6); the unit's Book case expects nodeBand {68, 254, 186}, the row at 186px and the game 390.25px. D-348 (start the flow 12px under the band) moved the rows and the pair together and was reverted."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "expectClearOfRows: roll start, URL arrival, exchange (1440, 390) and the exchange without Videos (390)",
+      "change": "D-350b: ASSERTION STRICTER THAN ITS CLAIM. The helper compared the pair's lowest painted point with the rows and never its x extent, so on the 186 band the no-Videos exchange failed 5 of 5 on 5 frames where the pair was wholly off screen (right edge x -140 to -214, label ending at x <= -0.07); all 245 on-screen frames cleared the rows by >= 30.2px. A frame is now excluded only when the whole silhouette (the same 1.6r as lo) lies outside [0, W]; partly visible frames stay asserted, both counts are annotated per run, and fewer than 31 asserted frames fail. Counts are in the spec header. The 2px margin is unchanged. Controls: noprelift-roll-start and noprelift-url-arrival killed at the claim; noahead (x2) and execution-node-band-removed pass under both the filtered and the pre-D-350b helper, recorded as non-kills in the header."
+    },
+    {
+      "file": "e2e/journeys/landcard-modes.spec.ts",
+      "test": "349 the generic defending card pages its own deck with the same arrows",
+      "change": "STALE TIMING (H46, 2026-10-21; red in the 52-file reviewer-grep runs H36 and H46, green alone and on CI): the press raced the defender question's deck fetch. The card's shell is visible one fetch before its question docks, and an arrow with no question pages nothing. A probe delaying that fetch 1.5s reproduced the red exactly (no question at the press, 0 pages, 1/5); settling first paged once (H48). The press now follows landSettled() with the mounted first card asserted as a premise; the one-page claim is unchanged. Control: defense-arrows-lost (the defense mode dropped from the arrow branch)."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts",
+      "test": "251 real-catch renderer differential (right, wrong) and 316 cold fallback (x2): the reds; two NEW D-351 journeys",
+      "change": "D-351 (orchestrator, 2026-10-21): REAL BREAK, an app race from D-338, fixed in the app. Over 10 full-file runs (180 tests) dev 557c57d14 had 0 reds and this branch 6 (H49), every one an answer click that executed an escape move. Since D-338 the panic card sits in the reader's column under Videos and Moves; the catch opens the submission's defender article, and when it arrived 29-79ms after the card was clickable its Videos section pushed the hand and the answers down 114px (H50/H51). The reader now holds a landing's card and hand unpublished until the article the landing asked for renders (800ms ceiling), and parts the ceiling publishes stay pinned, the Videos lift and the film's move held back, until they settle (graded, the card or hand closed, the next landing, a new viewport). The existing journeys are unchanged; catchLoop gains a hook for the new ones. NEW: 'a catch whose article lands late' (the defender page held 500ms: no answer shown before the article renders, the answer at one rect, a measured click grades it and executes no escape) and 'past the 800ms ceiling' (held 1.5s: published at the ceiling, never moved when the article lands, the Videos lift released by grading). Controls d351-hold-removed and d351-deferral-removed, each killed at its claim against a green baseline."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts + tests/reader_handoff.test.mjs",
+      "test": "NEW D-351: an exchange whose article lands late never moves the new card or hand once shown; the unit fixture's _readerHold",
+      "change": "D-351: the other mid-game path change. An exchange from Mount Top to Knee on Belly (or 3-4 Mount) with each role page held 500ms (the hub after it is not, so holds never stack): the new landing's card and hand are each shown at one place over at least 30 published frames. Either the hold or the pin keeps it still, so its control removes both (d351-both-removed-exchange). The reader units stub the app's _readerHold to 0: they lay out a published landing, and the hold is pinned by the journeys."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts",
+      "test": "252 real-catch renderer differential (right, wrong, expiry) and 294 cold renderer differential",
+      "change": "STALE TIMING (D-351, H57: 20 of 20 red on the hold's bytes). A reading-view landing now stays unpublished, its clock parked, until the article it asked for renders, in real time after the pumped catch, so mechanics read straight after the catch found total null; the legacy fixture never queued the reader, so its clock armed ticks earlier (remaining 66ms apart). The retired renderer now runs under the same reader contract (it queues the defender article and stays pending, before any paint, as renderLandCard does), and catchLoop pumps one frame after publication so both parked clocks arm on the same tick. Questions, timing, grades, odds and choices are still compared for exact equality (12 of 12, H60). A first attempt that had the reader read the article before the catch stopped the exchange from reaching the catch and was dropped."
+    },
+    {
+      "file": "e2e/journeys/panic-card.spec.ts",
+      "test": "70 grading the drill in time pumps the escape odds and spends the window (v1.133.0)",
+      "change": "STALE TIMING (D-351, H61): the drill now publishes once the submission's defender article has rendered, and its parked clock arms on the next frame; this pumped harness ticks only when asked, so the window read null. The journey waits for landSettled() and pumps one frame before reading it; the claim is unchanged (3 of 3, H62)."
+    },
+    {
+      "file": "e2e/journeys/outcome-on-cards.spec.ts",
+      "test": "300 with the hand put away, the cause falls back to the landing card's measured top (1440, 390)",
+      "change": "STALE TIMING (H61: 3 of 10 red on D-351's bytes, no pin involved; probe H62): putting the hand away moves the card up 140px on the reader's next layout frame, which a pumped advance does not always include, so the card's top was sometimes measured before it moved and the cause, anchored after, landed 140px above it. The journey waits for readerLayoutSettled() before measuring; the anchor claim and its bounds are unchanged."
+    },
+    {
+      "file": "e2e/gen/holder-defense-window-fresh-refund-budget.spec.ts + e2e/gen/ready-test-expiry-autopick-burns-move.spec.ts",
+      "test": "42 attack window spent by expiry: the defense window armed in full; 50 frozen belt-test hand: the question's window is armed",
+      "change": "STALE TIMING (D-351, CI 931a7eea0: both red, not in the ledger): each read the decision clock straight after its card was built, but a reading-view card now publishes once its article renders and its parked clock arms on the next frame, which the pumped harness takes only when asked. Each waits for landSettled() and pumps one frame before reading; the claims (armed in full; armed and not drained) are unchanged. 2 of 2 each (H65)."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "NEW D-352: showing the article while its page loads never hides the live hand again",
+      "change": "D-352 S1 (review-claude Delta 6, MUST-FIX): REAL BREAK in D-351. A landing first laid out with the article put away published its live parts without marking its request, so showing the article mid-load held the live hand again (pending for 49 frames, t63-t859, while its card stayed live). _readerHold now marks such a landing live in the map view and, if the article is then shown while its page still loads, publishes it pinned at once, as the ceiling does; and the pin no longer releases on _landQ.answered, which a reading decline also sets (grading settles it as the explicit event). The journey: a Book-off boot, the landing's article held 2.5s, the article shown by mouse; the hand is never pending or hidden, and the late article does not move it. Control d352-book-rehold (app), killed at its claim against a green baseline."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts",
+      "test": "NEW D-352: past the ceiling, a film arriving while the answers are pinned never covers the hand",
+      "change": "D-352 S2 (review-claude Delta 6, MUST-FIX): REAL BREAK in D-351. The pin fixed the rows but not the media home: a film arriving while pinned (the caught submission's content chunk, here held past the ceiling and the article) was docked by the app as its own fixed overlay at y218-316 over the pinned row at y218-414. While pinned, the app now hands such a film to the reader at once, and the reader keeps the media home it was pinned with (its film and height): any other film waits hidden until the parts settle. A first height-only rule let a new film through for 5 frames while it still measured 0 before its thumbnails loaded. The journey traces the visible film and the row on every frame while pinned: no intersection, then grading releases the lift. Control d352-film-over-pin, killed at its claim."
+    },
+    {
+      "file": "e2e/journeys/systems-surface.spec.ts + neural/src/reader.src.js",
+      "test": "CI 931a7eea0 systems-rhythm:97 and systems-surface:236 (and locally 199, 344, 387, 637); NEW D-352 ready journey",
+      "change": "D-352 B1: REAL BREAK of this branch, an app race. Dev 557c57d14 was clean (H67 and H76: 690 of 690 over 15 full-file runs) and this branch intermittent before the fix, on D-351's bytes and on D-347/D-349's alike (H66, H70: 5 of 276); after it, 470 of 470 over 10 full-file runs interleaved with dev's (H76). A pointerdown logger (H70) showed every failing Study tools click at (399, 27), on the map, while the button had moved to (970, 73): the reader set data-reader-ready in the same task as render, but a reference page's first layout, a frame later, moves the head (with Study tools) out of the game flow, so a click measured at 'ready' landed where the button had been. open() now lays out in the same task before readiness can be observed. The new journey re-opens a cached System page (the race's exact condition) with the ready flip observed by a MutationObserver: Study tools is at its final rectangle when the reader says ready. Control d352-ready-before-layout. The existing Systems journeys are unchanged."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts + e2e/journeys/panic-card.spec.ts + e2e/dsl.ts + camera-continuity header",
+      "test": "D-352 N2, N3, N6, N5",
+      "change": "N2: NEW journey gating D5-S2 and N3: at arrival Home and PageUp never move the reader down (with End moving it as the premise), and the hand precedes the Questions label in the reader's DOM; controls d352-home-clamp-lost and d352-hand-after-questions. N3: panic-card:46 asserts its direction (below the escape tray in the article view, above it in the map view) instead of either order. N6: the app's landSettled() returns whether the landing published and emits land_publish_stalled when it gives up; the DSL fails the journey by name when the stall is the hold's (reader up, the article shown, not a reference page), as a SOFT expect so the journey still reaches its own claim: a hard throw preempted three controls' claim kills (H78; restored H79). N5: camera-continuity's header names the vintage of its asserted counts. N1: control d351-hand-hold-removed gates the hand's half of D-351's hold."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts + neural/src/reader.src.js",
+      "test": "NEW D-353: playing the pinned film opens it beside the hand, never over it, and it stays visible",
+      "change": "D-353 (review-claude Delta 7, B1): REAL BREAK in D-351/D-352. Playing a clip of the pinned film grew it in place over the escape tray (y218-440 over the row at y332, the titles' clicks taken by the film), and the next relayout hid the playing video under S2's height rule. A play is now the player's own input and settles the pin, as grading does (the reader's expandClip wrapper releases it before its layout). A probe (H82) then showed the film grows over several frames after the play while nothing relaid out: a film in the media home is now observed like the Videos card, so its growth moves the rows below it. With the observer, S2's rule re-measured a hidden home as 0 and flip-flopped, so the pinned media rule is sticky until the parts settle. The journey: the beyond-ceiling catch with the film in the home at the pin; the answers never move before the play; after the play no escape title hits the film; the player stays visible through a forced relayout. Control d353-play-keeps-pin, killed at 'the playing player stays visible through a relayout' against a green baseline."
+    },
+    {
+      "file": "tests/artifacts/article_sections_mutants.mjs",
+      "test": "the reader runner's kill filter (D7-N1)",
+      "change": "D7-N1: N6's soft landSettled stall is not a claim. It is left out of the kill evidence unless the control's own claim is that stall (STALL_CLAIMS, none today), so a mutant that only stalls publication is not counted as killed; the six landing-never-published controls still die at their own claims (H83, H84)."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "reader layout during close: the row transform before the forced layout",
+      "change": "D-353: the media home is observed now, so a reader layout can already have run during Inspect's close. Control reader-overwrites-inspect then failed at the bare premise line 'closing.before is not none' rather than at its claim (H86). That line measures the same claim one instant earlier, so it now carries the claim's message; the control is killed at it (H88). Nothing was loosened."
+    },
+    {
+      "file": "e2e/journeys/pane-keyboard.spec.ts + neural/src/app.src.jsx",
+      "test": "NEW D-354: the landing deck and its arrows follow the pane in the same frame",
+      "change": "D-354 (review-claude Delta 8, B1): REAL BREAK in this PR. pane-keyboard:103 (a recall page mounted under the pane receives Space) went red isolated on head 10 of 75 against dev 0 of 100. Cause, from per-write and pointer-event probes (H91, H92): updateUiShift eases the pane's slide and lays out the app's own landing parts in that frame, but the parts the reader adopted (the landing card and its deck arrows, data-reader-game-part) were laid out a frame later, so the next click measured the arrow and landed on the moved card's MC option; the deck stayed on card 0 and the prev arrow was zero-sized. The reader's parts now follow the pane in the same frame (layoutNow when uiShift moved; eager only). The journey opens the pane and pumps the slide inside one evaluate, with no frame between, and the card and arrows already sit where the reader's own layout puts them. Control d354-pane-follow-lag (app runner) is killed at that claim. The gate is this journey and its control (D9-N4): the original test's isolated runs measured the race (head 10 of 75 red, dev 0 of 100) and its later greens are not evidence of the fix."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "@curated execution camera frames the technique at 390px; pane false; reduced motion false/true (the phone's arrival pick)",
+      "change": "D-354 (Delta 8, B2): STALE SPEC/TIMING. CI ead35af11's shard 4 went red twice at noFit 144/141. From the CI trace: the reader was still publishing its layout at the pick (the deck chevron moved 71px 8ms before the pointerdown), card.click() found the card 'not stable' twice and its retry force-scrolled the reader to 146, which put the Videos card across the node band, where no slot exists (57px above it, 58px below, the column under the band reserved for the landing rows: D-329). That position is not this variant's premise (the scrolled-to-top variant pins the scrolled case). The phone now waits for the layout, brings the card in along its horizontal tray as a swipe does (the only scroll the native pick needed; the card's centre is at x1041), asserts the reader stayed where it arrived, presses with clickByMouse, and asserts that scrollTop again at the delivered pointerdown. The claims (noFit 0, the 2px handoff, the painted clearance) are unchanged. Probes (H96): with the reader at CI's 146 the spec fails 4 of 4 at CI's exact message; a scroll between the premise read and the press fails 4 of 4 at the new premise. Under a 30% CPU quota the arrival publishes pinned 2 of 6 times (card y316, Videos held) and unpinned otherwise (y545); both layouts hold still for 3s after the wait and pass 12 of 12. New control d354-phone-pick-no-fit (reader runner) kills the phone pick at the noFit claim."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts + neural/src/app.src.jsx",
+      "test": "NEW D-354 N1: a play after the article rendered opens the film inside the lifted Videos card",
+      "change": "D-354 (Delta 8, N1): a play after the article rendered, still pinned, settled the pin (D-353) with its film in the media home, so Videos lifted with an empty slot under the playing film until the next sync. In the article view with Videos open, the app's expandClip has the reader place the film in its slot first (syncMedia), before a player exists, so no live player is moved. Control d354-play-film-left-home (app runner) is killed at 'the playing film sits in the lifted Videos slot, with no empty slot under it'."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts + neural/src/reader.src.js",
+      "test": "NEW D-354 N2: reopening Videos while pinned settles the pin and shows the film",
+      "change": "D-354 (Delta 8, N2): closing the pinned film hides its home for the pin's life (D-352's sticky rule), so the player's own reopen did nothing until the parts settled. Reopening Videos (toggleSection, which both the section toggle and the shelf reach) now settles the pin as a play and a grade do. Control d354-reopen-keeps-pin (reader runner) is killed at 'the reopen settles the pin and the film is shown again'. Deferred +42 B, one exact ceiling step."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts + neural/src/app.src.jsx",
+      "test": "NEW D-354 N3: a removed film is no longer observed by the reader",
+      "change": "D-354 (Delta 8, N3): D-353 observes a film in the media home, and nothing unobserved a replaced film, so the observer held every old film host until the reader was destroyed. _clearLandFilm, the film's only remover, now ends that observation. The journey records each ResizeObserver's targets from an init script and asserts the removed film is not among the reader's. Control d354-removed-film-observed (app runner) is killed at that claim."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts + neural/src/app.src.jsx",
+      "test": "NEW D-354: a hand the reader held starts its Win chance once it publishes",
+      "change": "D-354 (found by the prevention run, H95, and H97): REAL BREAK from D-351. choice-value's setup poll 'native host module must actually be requested and blocked' went red 3 of 20 isolated and in 2 of 5 full-file runs on head (:376, :388, :191, :229, all at that poll). The reader holds a reading-view hand pending, and so hidden ([data-reader-pending] is visibility:hidden), until its article renders; the game-value activation refuses a hidden hand (_gameValuePlayable), so an activation that came during the hold went idle and nothing retried it: game-values.js was never requested and the Win chance never started. Publication (_readerHold's pending to published) now runs _ensureGameValues, which is idempotent once loading, loaded or failed. The journey (in article-sections, because choice-value.spec.ts refuses a mutated bundle) holds Mount Top's role page 1.5s, past the 800ms ceiling, so the activation meets the held hand; it reads the publication frame itself, because a later refreshChoiceValues (a deck load, a layer change) could otherwise rescue the idle activation, as it did for this journey's first version, whose control survived. Control d354-held-hand-no-value (app runner) is killed at 'the Win chance starts in the frame the held hand publishes'. On the fixed bytes :376 isolated 20 of 20 and the file 5 of 5 (H100)."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "390px camera continuity an exchange lands on a new current node: every frame within the bounds, and clear of the rows",
+      "change": "D-354: B2's class by mechanism, not reproduced locally. H95's prevention run saw noFit on every frame here once (251), with no trace kept; since then 0 of 30 (20 isolated, 10 under a 30% CPU quota, scrollTop 0 at every pick), and green in H85 and as H97's control baseline. The pick is the same auto-scrolling j.pick at 390 that CI force-scrolled in roll-execution while the reader still laid out. The phone now waits for the layout, brings the card in along its tray, asserts the reader stayed where it arrived, presses by mouse, and asserts the arrival scrollTop at the pointerdown, so a recurrence names its premise. The 1440 pick and every claim are unchanged."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "@curated Choose is a real mouse action and the hand groups stay apart (was: Empty media and Choose are distinct real mouse actions)",
+      "change": "STALE SPEC (v1.230.0, feat/video-cards merged): the journey also claimed an empty media area is inert. The video cards' U8 rule pins the opposite (video-cards:216 'its empty media still commits the card', video-cards:228 'clicking the poster outside Play commits exactly once', choice-value:429 by touch), and no build passes both, so that click is retired; Choose stays a real mouse action with the hand groups kept apart. Evidence in the spec's header."
+    },
+    {
+      "file": "e2e/journeys/keyboard.spec.ts",
+      "test": "the legend's key rows",
+      "change": "STALE SPEC (v1.230.0, feat/video-cards merged): the legend has no 'watch' or 'read' row on either side; it checks 'open its video', the row the video cards' legend carries."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts",
+      "test": "the escape-card differentials (published percentages)",
+      "change": "STALE SPEC (v1.230.0, feat/video-cards merged, U8): the % unit moved to the card's heading, so .ngodds reads /^\\d+$/; the compared values are unchanged."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts",
+      "test": "D-351 and D-352 journeys (the held-back film shows after grading)",
+      "change": "STALE SPEC (D-368, layout C): they end on filmShown, the current card visible in the reader's media home with a height, instead of the lifted Videos card. D-354 N1 (a play after the article rendered opens inside the lifted Videos card) is RETIRED with the lift, and its app control row with it; D-354 N2 reopens the closed Videos section through its index row (U11: where the index shows, a closed section leaves no placeholder)."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts",
+      "test": "NEW D-368: in a catch at 1440x900, 390x844 and 390x631 the escape answers are on screen without scrolling; D-368: at 1440x900 the question card's top is above the fold",
+      "change": "D-368 (orchestrator) invariants of layout C: every escape answer hit-testable at its centre, 8px clear of the scrollport end, premise a live catch with the current card shown; the question card's top above the 900px fold. The phone floor moved from 664 (D-369) to 631 under D-370 (PostHog p10 of phone-width visible height). Controls: a-column-wide-videos-question and -catch, phone-catch-question-first-lost-844 and -631 (reader); d370-band-186-in-catch, d370-account-keeps-reserve, d370-card-spacing-kept (app)."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts + neural/src/app.src.jsx + neural/src/reader.src.js + neural/src/helmet.html",
+      "test": "NEW D-370: at 390x631 a phone catch concedes the band and the account button, and both return with the result",
+      "change": "D-370: the concessions belong to the live phone catch (_phoneCatch: a phone, _defensePressure, the card layer on). They hold at the escape's pick, so nothing moves under the finger (D-325), and revert with its result transition (band 186, account visible, the scrollport ending 8px above it). Found by this journey (H124, H125): the pick's clearLandCard clears the card and _landMode, so a predicate on either dropped the concessions at the tap. Control d370-concessions-stick (reader); d370-calm-landing-concedes (app) holds the calm defender landing to the U7 order."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts + neural/src/reader.src.js",
+      "test": "NEW execution camera: at 390x844 and at 390x631 a pick with the reader scrolled 0-290px never paints the pair under a surface",
+      "change": "D-370 (D9-N3 (i), (iii) its floor): frameExecution searches the band, then free space beside the column (D-329), then any free space, then falls back to the band, counted. The sweep restages the same pick per 10px step, presses the card's visible part (past about 260px the title is under the reader's top edge; the card commits, U8; never its play circle), samples four frames from 350ms after the sweep starts, and fails at the first step that paints no executing pair on screen or intersects an occupied rectangle. H129: 30 of 30 at both sizes, 4 frames each, 0 intersections, noFit 0 everywhere. Controls d370-n3-d329-kept and d370-n3-pre-fix; NON-KILL by construction: the band fallback alone, unreached by the sweep. The shared paint hook and clearance measure (paintProbe, paintedClearance) are the camera journey's, moved out unchanged."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "choices precede section cards (:96), the article's own close (:143), contents and header targets (:266), the index and closed parts (:391, :486, :595)",
+      "change": "STALE CONTRACT (D-368, layout C): nothing is lifted above Moves; Moves lead the flow at the parts' step after the band (or after an inline head that is taller). STALE CONTRACT (D-355, U9 b and U11): the index sits on the LEFT at the 24px inset; where it shows, a closed section leaves no placeholder and its index row carries an eye and reopens it; without the index a closed section is one 44px line, its greyed name then its eye. U12 a: the article's own \u2715 is its top row. Controls retargeted to the moved code: toc-current-targets, chrome-node-band-lost, d338-index-eyes-retained (the index still carries no button), d338-tray-under-index, d338-deck-backs-unreserved, d338-tray-asymmetric; d338-video-not-lifted RETIRED with the lift."
+    },
+    {
+      "file": "e2e/journeys/reading-media-placement.spec.ts",
+      "test": "media identity and native playback continuity; the reference play; the current card sits in the game's stage (:220, :246, :281, renamed)",
+      "change": "STALE CONTRACT (D-368, layout C): a game node's current card keeps the game's media home, beside or above the question, while the Videos toggle reads with the article; a reference page's film keeps its Videos slot. STALE CONTRACT (v1.230.0, feat/video-cards): the player opens on its own controls and never autoplays, so the reference play waits for _playerReady and calls playVideo through the handle, and Resume is scrolled into view before its press."
+    },
+    {
+      "file": "e2e/journeys/pane-layout.spec.ts",
+      "test": ":82 (the open pane moves film, card, article), :164 (1024), :227 (short landscape)",
+      "change": "STALE CONTRACT (D-368, layout C): the A geometry returns as the stage under Moves (the current card beside the question at 1440); at 1024 the open pane leaves too little width beside the question, so the card is read after a scroll; a short landscape stacks the stage. STALE SPEC (v1.230.0, feat/video-cards): the current card shows one full video and a 10% peek, clip data-i=0."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "390px exchanges (the transition with Videos and the no-Videos exchange)",
+      "change": "D9-N1 and D9-N2 (review Delta 9): phonePick waits for the ready reader before readerLayoutSettled (N1), and the no-Videos exchange takes the same phone pick and premise as the exchange above it (N2): the tray brings the card in, the reader stays where it arrived, a mouse that cannot scroll presses, and scrollTop is asserted at the pointerdown."
+    },
+    {
+      "file": "tests/reader_handoff.test.mjs",
+      "test": "Book reserves its node band, with no part header, without changing an execution snapshot",
+      "change": "STALE CONTRACT (D-368, 2abde91be): after the Videos lift was removed, Moves follows the band at the 8px phone step. Migrate only zero-gap coordinates186->194 and390.25->398.25; keep exact band, hidden-label, end-gap and execution-snapshot assertions. H150 oldunit:CI3c3a4f94913/13;2abde91be12/13;final12/13. Migrated final13/13; removing the step gives12/13, failing at the owned Moves spacing claim. No runtime change."
+    }
+  ]
+}

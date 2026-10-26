@@ -41,6 +41,7 @@
   .ng-film-arrow svg{filter:drop-shadow(0 0 2px rgba(8,10,16,.95)) drop-shadow(0 0 6px rgba(8,10,16,.8));}
   @media (prefers-reduced-motion: reduce){.ng-film-arrow,.ng-film-arrow[data-off]{transition:none;}}
   .ng-optionrow::-webkit-scrollbar{height:0;display:none;}
+  [data-reader-pending]{visibility:hidden!important;}
   .ng-logo:hover span{color:#fff;}
   .ng-logo:hover .ng-kbd{opacity:1;color:#9fb0d8;}
   .ng-logo .ng-kbd span{color:inherit;}
@@ -325,6 +326,8 @@
        rule above), so the foot is 18 — and it needs !important to reach past that same rule */
     .ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important;}
     .ng-land-deck [data-land-q]>div:first-child{font-size:13px!important;}
+    /* U16 b (owner, 2026-10-24): only the node band shrinks in a live catch.
+       Keep the account visible and the normal panic-card padding, gaps and type. */
   }
   /* Short portrait screens trade thumbnail size for reading space; expanded video keeps its
      inline important dimensions. Answers retain full-size touch targets. */
@@ -371,8 +374,6 @@
   .ng-replaybar .ng-replay-stop:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-3px;}
   /* v1.227.0: defending uses the same card. Live catch warnings are driven by
      the clock, gated by Danger animation and reduced motion in app.src.jsx. */
-  /* stood down behind the option sheet — why it is a rule and not an inline style: _syncDetailDim */
-  [data-behind-sheet]{opacity:.38!important;filter:grayscale(.7) brightness(.8);transition:opacity .22s ease,filter .22s ease;}
   /* ── MOMENTUM: the arcade announcer + the heat chip. Heat 1→5 = ×2→×6+. ── */
   .ng-combo-pop{position:fixed;left:50%;top:31%;transform:translate(-50%,-50%);z-index:72;pointer-events:none;text-align:center;font-family:'Space Grotesk',sans-serif;animation:ngComboPop 1.15s cubic-bezier(.2,.7,.2,1) both;}
   .ng-combo-pop .ng-combo-x{font-size:12px;font-weight:800;letter-spacing:.34em;text-transform:uppercase;color:#9ab0e0;margin-bottom:4px;}

@@ -38,14 +38,14 @@ const NG_WHITE_CHALLENGES = [
   ngChallenge(
     "white.coach2",
     "white",
-    "Preview a move",
+    "Learn a move",
     "A quick preview connects a technique name to its likely outcome.",
-    "Open a move sheet",
+    "Watch a move",
     1,
     {
       legacyId: "coach2",
-      copy: "Peek a move's sheet before you commit to it",
-      event: "sheet_opened", // v1.104.0: was "coach_2" — a move sheet was actually opened — a REAL action now, where the coach ticked this for pressing Next
+      copy: "Watch a move before you choose it",
+      event: "sheet_opened", // v1.230.0 retains the legacy evidence id for the video viewer; v1.104.0: was "coach_2" — a move sheet was actually opened — a REAL action now, where the coach ticked this for pressing Next
     },
   ),
   ngChallenge(
@@ -78,13 +78,13 @@ const NG_WHITE_CHALLENGES = [
   ngChallenge(
     "white.sheet",
     "white",
-    "Open a move sheet",
-    "The sheet shows what the move is trying to win before you commit.",
+    "Watch a move",
+    "Open a move’s video before you choose it.",
     "Study the technique",
     1,
     {
       legacyId: "sheet",
-      copy: "Open a move's sheet to see what it wins you",
+      copy: "Open the move’s video",
       event: "sheet_opened",
     },
   ),
@@ -348,8 +348,8 @@ const NG_MAT_COINS = Object.freeze([
   { id: "pulled-guard-again", name: "Pulled Guard Again", detail: "Choose a guard-pull route three times", sourceChallenge: "reward.guard-pull-three" },
   { id: "frame-job", name: "Frame Job", detail: "Improve escape odds under pressure", event: "escape_odds_pumped" },
   { id: "tap-and-carry-on", name: "Tap and Carry On", detail: "Start another roll after a submission loss", sequence: "after-loss" },
-  { id: "oss-and-found", name: "Oss and Found", detail: "Open twelve technique sheets", sourceChallenge: "reward.sheet-twelve" },
-  { id: "research-position", name: "Research Position", detail: "Study three sheets before committing", sequence: "research" },
+  { id: "oss-and-found", name: "Oss and Found", detail: "Open twelve technique videos", sourceChallenge: "reward.sheet-twelve" },
+  { id: "research-position", name: "Research Position", detail: "Open three move videos before choosing", sequence: "research" },
   { id: "godlike", name: "GODLIKE", detail: "Reach seven-move momentum", event: "combo", when: (p) => p.n >= 7 },
   { id: "berimbolo-briefly", name: "Berimbolo, Briefly", detail: "Attempt a Berimbolo route", event: "commit", when: (p) => /berimbolo/i.test(p.technique || "") },
 ]);

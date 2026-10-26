@@ -7,7 +7,7 @@
 //   1. Byte-identity at the dealer: on today's corpus no hand deals an overlay, so every dealt card
 //      IS the node at its index (the claim that lets B1 ship without moving a number).
 //   2. With panel tables injected exactly as regenerate_neural_data emits them, a listing's card is
-//      dealt, priced, landed and drawn from THAT listing's table, and the option sheet shows it.
+//      dealt, priced, landed and drawn from THAT listing's table, without a canonical-table fallback. Inspect was retired in v1.230.0.
 //   3. The full app-vs-Python mechanics differential (tests/mdp_data_corpus.test.mjs) passes on that
 //      injected wire, so the adapter capture and _mdp_mechanics agree on every hand, destination
 //      and node, the listing tables included.
@@ -121,7 +121,7 @@ test("every dealt card is the node at its index, or exactly its listing's overla
   assert.equal(cards - plain, overlays.size * 2, "one overlay per (listing, technique), on each pair member");
 });
 
-test("a listing's table is dealt, priced, landed and drawn from that listing, and the sheet shows it", () => {
+test("a listing's table is dealt, priced, landed and drawn from that listing", () => {
   const { wire, placed } = inject(WIRE, PICKS);
   const a = app(wire);
   // resolve()'s own consumers move the roll (travel, landing): they are stubbed to RECORD the drawn
@@ -159,9 +159,8 @@ test("a listing's table is dealt, priced, landed and drawn from that listing, an
     }
     // a miss can land back on the listing: every panel table sends one there
     assert.ok(opt.node.cal.outcomes.some((o) => o.result !== "success" && o.to === t.listing), t.key + ": a miss stays here");
-    // the option sheet's "Where it leads" is this table (D4)
-    const info = a._sheetInfo(opt.node, { outcomes: [{ result: "Success", position: "canonical", prob: 1, tone: "good" }] });
-    assert.deepEqual(info.outcomes.map((o) => o.position), opt.node.cal.outcomes.map((o) => o.to.split("/")[0]), t.key + ": the sheet");
+    // v1.230.0 retires the v1.218.1/v1.220.0 Inspect table. The listing's actual
+    // draw/landing assertions above remain; Read opens the canonical role article.
     checked++;
   }
   assert.equal(checked, PICKS.length, `${checked} listings checked`);

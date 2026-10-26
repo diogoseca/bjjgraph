@@ -9,25 +9,28 @@ import { journey } from '../dsl'
 
 const READY = '[data-reader][data-reader-ready="true"]'
 const KNEE = '/Transitions/Knee-Slice-Pass'
-const FOCUS = { v: 2, settings: { readingFocus: true, readingFilm: false, readingCard: false, readingHand: false, readingMap: false, readingFeedback: false }, settingsAt: {} }
+// D-338 retired Focus (its reading* overrides are no longer read). QUIET seeds the same closed
+// Questions and Moves and silent Feedback through the game layers; the map stays shown, as
+// leaving Focus showed it for the other-half tap.
+const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 
 for (const width of [320, 390]) {
-  test(`@curated ${width}px native reading keys, contents and Book preserve the complete document`, async ({ page }) => {
+  // RETIRED in part (D-338, no View menu): the article view has no Book toggle, so its hide/restore
+  // steps and their ghost-hit and scroll claims go. Keys, section toggles and no play remain.
+  test(`@curated ${width}px native reading keys and section toggles preserve the complete document`, async ({ page }) => {
     await page.setViewportSize({ width, height: 844 })
     const j = journey(page)
-    await j.boot(KNEE + '/Attacker', { initialState: FOCUS })
+    await j.boot(KNEE + '/Attacker', { initialState: QUIET })
     await expect(page.locator(READY)).toBeVisible()
     const before = await page.evaluate(() => {
       const w = window as any, a = w.__neural, root = document.querySelector('[data-reader]')!
       w.__readingBody = root.querySelector('[data-reader-body]')
-      const heads = [...root.querySelectorAll('[data-reader-body] h2[id],[data-reader-body] h3[id]')]
-      return { ids: heads.map(e => e.id), labels: heads.map(e => e.textContent!.trim()), question: a._landQ?.card.q ?? null, beats: a.beats.length }
+      const heads = [...root.querySelectorAll('[data-section-toggle]')]
+      return { labels: heads.map(e => e.textContent!.trim()), question: a._landQ?.card.q ?? null, beats: a.beats.length }
     })
-    const toc = await page.locator('[data-reader-target]').evaluateAll(nodes => nodes.map(e => ({ id: (e as HTMLElement).dataset.readerTarget, label: e.textContent!.trim() })))
-    expect(toc.length).toBeGreaterThan(10)
-    expect(toc.map(e => e.id)).toEqual(before.ids)
-    expect(toc.map(e => e.label)).toEqual(before.labels)
-    expect(toc[0].label, 'the opening prose has an address in the contents').toBe('Overview')
+    expect(before.labels.length).toBeGreaterThan(5)
+    await expect(page.locator('.ng-reader-toc')).toBeHidden()
+    await expect(page.locator('[data-reader-target]')).toHaveCount(0)
     await page.locator('[data-reader-body]').focus()
     await page.keyboard.press('PageDown')
     await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBeGreaterThan(0)
@@ -38,33 +41,22 @@ for (const width of [320, 390]) {
     await expect.poll(() => page.locator(READY).evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
     await page.keyboard.press('Control+Home')
     await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBe(0)
-    const head = await page.locator('.ng-reader-head').boundingBox()
     const bodyTop = await page.locator('[data-reader-body]').evaluate(e => e.getBoundingClientRect().top)
     const r = await page.locator(READY).boundingBox()
-    await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height - 20)
+    const prose = await page.locator('.ng-section-card').first().boundingBox()
+    await page.mouse.move(prose!.x + prose!.width / 2, Math.min(prose!.y + 60, r!.y + r!.height - 20))
     await page.mouse.wheel(0, 400)
     await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBeGreaterThan(200)
-    const pin = await page.locator('.ng-reader-head').boundingBox()
-    expect(Math.abs(pin!.y - head!.y), 'the opaque native head stays put while prose moves').toBeLessThanOrEqual(1)
-    expect(pin!.height).toBeCloseTo(head!.height, 0)
-    expect(await page.locator('.ng-reader-head').evaluate(e => getComputedStyle(e).backgroundColor)).toBe('rgb(27, 32, 52)')
     expect(await page.locator('[data-reader-body]').evaluate(e => e.getBoundingClientRect().top)).toBeLessThan(bodyTop - 200)
-    const last = page.locator('[data-reader-target]').last()
+    const last = page.locator('[data-section-toggle]').last()
     await last.scrollIntoViewIfNeeded()
-    await last.evaluate(e => e.setAttribute('data-reader-last-link', ''))
-    const target = await last.getAttribute('data-reader-target')
-    await j.clickByMouse('[data-reader-last-link]', 'the final contents entry with a real mouse')
-    expect(await page.evaluate(() => document.activeElement?.id)).toBe(target)
-    const landing = await page.locator('#' + target).boundingBox()
-    const top = await page.locator('.ng-reader-head').boundingBox()
-    expect(landing!.y, 'the target is not hidden behind the sticky head').toBeGreaterThanOrEqual(top!.y + top!.height - 1)
-    const scroll = await page.locator(READY).evaluate(e => e.scrollTop)
-    await j.clickByMouse('[data-layer-hide="book"]')
-    await expect(page.locator('[data-reader]')).toBeHidden()
-    expect(await page.evaluate(({ x, y }) => document.elementFromPoint(x, y)?.closest('[data-reader]') == null, { x: r!.x + 30, y: r!.y + 30 }), 'hidden Book has no ghost hit target').toBe(true)
-    await j.clickByMouse('[data-layer-show="book"]')
+    await last.evaluate(e => e.setAttribute('data-reader-last-header', ''))
+    await j.clickByMouse('[data-reader-last-header]', 'phone sections have their own toggle')
+    await expect(last).toHaveAttribute('aria-expanded', 'false')
+    await page.keyboard.press('Enter')
+    await expect(last).toHaveAttribute('aria-expanded', 'true')
+    await expect(page.locator('[data-layer-hide]:visible,[data-layer-show]:visible'), 'no Book control in the article view').toHaveCount(0)
     expect(await page.evaluate(() => (window as any).__readingBody === document.querySelector('[data-reader-body]'))).toBe(true)
-    expect(await page.locator(READY).evaluate(e => e.scrollTop)).toBe(scroll)
     expect(await page.locator(READY).evaluate(e => e.scrollWidth - e.clientWidth), 'the document has no horizontal overflow').toBeLessThanOrEqual(1)
     await j.advance(20000)
     expect(await page.evaluate(() => {
@@ -100,49 +92,145 @@ test('@curated a late full article preserves the answered question and never pay
   expect(before.answers).toBe(1)
 })
 
+// REAL BREAK, orchestrator ruling 2026-10-19. The compositor proof in
+// scratch/article-sections/ci-e26/late-answer-paint-report.md shows painted old
+// answers plus the sections-only 68px adoption shift. Hold the first QUEUED
+// layout, then deliver it between the original measurement and native click.
+// New-question publication must have positioned the controls synchronously;
+// waiting for reader readiness here would hide the defect instead of fixing it.
+test('@curated the first queued reader layout cannot move a published answer before its first click', async ({ page }) => {
+  await page.addInitScript(() => {
+    const w = window as any, prior = Object.getOwnPropertyDescriptor(w, '__neural'); let app: any
+    Object.defineProperty(w, '__neural', { configurable: true, get: () => app, set: a => {
+      app = a; prior?.set?.call(w, a); if (!a) return
+      let reader: any
+      Object.defineProperty(a, '_reader', { configurable: true, get: () => reader, set: r => {
+        reader = r; if (!r) return
+        const queued = r.layout
+        r.layout = () => {}
+        w.__publishReader = () => {
+          const answer = document.querySelector('[data-land-mc-opt]')!, before = answer.getBoundingClientRect()
+          r.layout = queued; r.layoutNow()
+          const after = answer.getBoundingClientRect()
+          w.__answerPublication = { dx: after.x - before.x, dy: after.y - before.y, same: answer.isConnected }
+        }
+      } })
+    } })
+  })
+  const j = journey(page)
+  let release!: () => void, requested = false
+  const held = new Promise<void>(resolve => { release = resolve })
+  await j.boot(KNEE, { beforeNavigate: async () => {
+    await page.route('**/Transitions/Knee-Slice-Pass/Attacker', async route => { requested = true; await held; await route.continue() })
+  } })
+  await expect.poll(() => requested).toBe(true)
+  const q = await j.landQuestion(); expect(q).not.toBeNull()
+  const click = page.mouse.click.bind(page.mouse)
+  page.mouse.click = async (...args: Parameters<typeof click>) => {
+    page.mouse.click = click
+    await page.evaluate(() => (window as any).__publishReader())
+    return click(...args)
+  }
+  await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
+  expect(await page.evaluate(() => (window as any).__answerPublication)).toEqual({ dx: 0, dy: 0, same: true })
+  const before = await page.evaluate(() => {
+    const w = window as any, a = w.__neural
+    w.__answeredReaderQuestion = document.querySelector('[data-land-q]')
+    return { html: w.__answeredReaderQuestion.outerHTML, qMod: a._qMod, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length }
+  })
+  release()
+  await expect(page.locator(READY)).toBeVisible()
+  expect(await page.evaluate(() => {
+    const w = window as any, a = w.__neural, q = document.querySelector('[data-land-q]')!
+    return { html: q.outerHTML, qMod: a._qMod, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length, same: q === w.__answeredReaderQuestion }
+  })).toEqual({ ...before, same: true })
+  expect(before.answers).toBe(1)
+})
+
+// A real app race, not stale assertion timing: the integrated failure was
+// reproduced by first adoption during pointerdown. The correct option received
+// down, another option (or blank space) received up, and no answer was recorded.
+// Native moveBefore also failed: preserving DOM identity cannot preserve a
+// moving hit target. Force that ordering against the actual installed reader.
+for (const width of [390, 1440]) {
+  test(`@curated ${width}px reader adoption during a mouse press preserves the first answer`, async ({ page }) => {
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
+    const j = journey(page)
+    await j.boot(KNEE)
+    await expect(page.locator(READY)).toBeVisible()
+    const q = await j.landQuestion()
+    expect(q).not.toBeNull()
+    await page.evaluate(() => {
+      const w = window as any, a = w.__neural, reader = a._reader;
+      const layout = reader.layoutNow;
+      reader.layoutNow = () => {}; // hold the same pending first-layout boundary
+      reader.restoreGame();
+      const question = document.querySelector('[data-land-q]');
+      w.__pressedReader = { question, card: a._landEl };
+      window.addEventListener('pointerdown', event => {
+        const target = event.target as HTMLElement;
+        if (!target.closest('[data-land-mc-opt]')) throw Error('the forced press must target an answer');
+        const before = target.getBoundingClientRect(), parent = a._landEl.parentElement;
+        reader.layoutNow = layout;
+        reader.layoutNow(); // asynchronous adoption lands during this native press
+        const after = target.getBoundingClientRect();
+        w.__pressedReader.held = { sameParent: parent === a._landEl.parentElement, dx: after.x - before.x, dy: after.y - before.y };
+      }, { once: true, capture: true });
+    })
+    await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
+    expect(await page.evaluate(() => {
+      const w = window as any, a = w.__neural, old = w.__pressedReader;
+      return { held: old.held, sameQuestion: old.question === document.querySelector('[data-land-q]'),
+        sameCard: old.card === a._landEl, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length };
+    })).toEqual({ held: { sameParent: true, dx: 0, dy: 0 }, sameQuestion: true, sameCard: true, answers: 1 })
+    await expect(page.locator('.ng-reader-game [data-land-q]')).toBeVisible()
+  })
+}
+
+// STALE CONTRACT (D-338, D5-S4): the article view has no Book control, but the saved Book-off state keeps
+// its restore, so the claim is kept there: the seats are read in the map view and Book restores
+// without refetching either seat.
 test('@curated successful article responses are reused across seat navigation and Book restores', async ({ page }) => {
   const j = journey(page), requests: string[] = []
   page.on('request', r => { if (r.resourceType() === 'fetch' && /Knee-Slice-Pass\/(Attacker|Defender)$/.test(new URL(r.url()).pathname)) requests.push(new URL(r.url()).pathname) })
-  await j.boot(KNEE + '/Attacker', { initialState: FOCUS })
-  await expect(page.locator(READY)).toBeVisible()
+  await j.boot(KNEE + '/Attacker', { initialState: { ...QUIET, settings: { ...QUIET.settings, readerBook: false } } })
+  await expect(page.locator(READY)).toHaveCount(1)
   for (const seat of ['Defender', 'Attacker', 'Defender']) {
-    await j.clickByMouse(`[aria-label="Reading perspectives"] a[href$="/${seat}"]`)
-    await expect(page.locator(READY)).toHaveAttribute('data-reader-path', KNEE + '/' + seat)
+    await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
+    await expect(page.locator('[data-reader]')).toHaveAttribute('data-reader-path', KNEE + '/' + seat)
   }
-  await j.clickByMouse('[data-layer-hide="book"]')
-  await j.clickByMouse('[data-layer-show="book"]')
+  await j.clickByMouse('[data-layer-show="book"]', 'restore Book from the saved map view')
+  await expect(page.locator(READY)).toBeVisible()
   expect(requests.filter(x => x.endsWith('/Defender'))).toHaveLength(1)
   expect(requests.filter(x => x.endsWith('/Attacker'))).toHaveLength(0)
 })
 
 for (const first of ['pane', 'reading']) {
   test(`@curated closing ${first} first never resumes reading without a game action`, async ({ page }) => {
+    // STALE CONTRACT (D-338): Focus, which set reading intent, is gone. A content URL arrival sets
+    // the same intent; the pane opens from the logo, before or after reading the prose.
     const j = journey(page)
-    await j.boot('/')
-    await j.land('Mount Top')
+    await j.boot(KNEE)
     await expect(page.locator(READY)).toBeVisible()
-    if (first === 'pane') await j.clickByMouse('.ng-logo')
-    await j.clickByMouse('[data-reading-focus]')
+    if (first === 'reading') await page.locator('[data-reader-body]').focus()
+    await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
     await j.clickByMouse('.ng-logo')
-    if (first === 'pane') {
-      await j.clickByMouse('.ng-explorer-close')
-      await j.clickByMouse('[data-reading-focus]')
-    } else {
-      await j.clickByMouse('[data-reading-focus]')
-      expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
-      await j.clickByMouse('.ng-explorer-close')
-    }
+    if (first === 'pane') await page.locator('[data-reader-body]').focus()
+    expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
+    await j.clickByMouse('.ng-explorer-close')
     await j.advance(20000)
     expect(await page.evaluate(() => ({ paused: (window as any).__neural.paused, reading: !!(window as any).__neural._readerIntent }))).toEqual({ paused: true, reading: true })
   })
 }
 
-test('@curated ending a replay after Browse closes preserves reading intent', async ({ page }) => {
+// STALE CONTRACT (D-338): Focus and Browse are gone. A content URL arrival sets the reading intent
+// Focus set (its seat's landing is the one-state history), and the logo opens the pane.
+test('@curated ending a replay after the pane closes preserves reading intent', async ({ page }) => {
   const j = journey(page)
-  await j.boot('/')
-  await j.land('Mount Top')
+  await j.boot(KNEE)
   await expect(page.locator(READY)).toBeVisible()
-  await j.clickByMouse('[data-reading-focus]')
+  expect(await page.evaluate(() => { const a = (window as any).__neural; return { intent: !!a._readerIntent, history: a.rollLog.length > 0 } }), 'premise: reading intent and a landing to replay').toEqual({ intent: true, history: true })
+  await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
   await j.clickByMouse('.ng-logo')
   // A one-state history fixture isolates ownership; playback uses its real entry point.
   expect(await page.evaluate(() => {
@@ -164,7 +252,7 @@ test('@curated ending a replay after Browse closes preserves reading intent', as
 test('@curated a complete structured step keeps its long description and plain sibling', async ({ page }) => {
   const j = journey(page)
   const long = 'Extend the hips progressively '.padEnd(44, '-') + 'X'.repeat(760)
-  await j.boot(KNEE, { initialState: FOCUS, beforeNavigate: async () => {
+  await j.boot(KNEE, { initialState: QUIET, beforeNavigate: async () => {
     // A labelled markup fixture exercises length/structure independently of the
     // real-corpus completeness checks in landcard-more-content.spec.ts.
     await page.route('**/Transitions/Knee-Slice-Pass/Attacker', route => route.fulfill({ contentType: 'text/html', body: `<h1>Attacker</h1><article><section id="steps"><h2 id="steps">Execution Steps</h2><h3>Extend hips for the finish</h3><p>${long}</p><p>Plain step with no shape</p></section></article>` }))
@@ -183,6 +271,9 @@ test('@curated a late real dossier preserves reader focus, scroll and the answer
   await expect(page.locator(READY)).toBeVisible()
   const q = await j.landQuestion()
   expect(q).not.toBeNull()
+  // D-338: Questions follows Videos and Moves and can start below the fold; scroll to it first.
+  await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
+  await j.readerLayoutSettled()
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
   await page.locator('[data-reader-body]').focus()
   await page.keyboard.press('PageDown')
@@ -192,7 +283,7 @@ test('@curated a late real dossier preserves reader focus, scroll and the answer
     const w = window as any, a = w.__neural, n = a.nodes[a._landIdx]
     w.__dossierReader = a._readerEl; w.__dossierBody = a._readerEl.querySelector('[data-reader-body]'); w.__dossierQuestion = document.querySelector('[data-land-q]'); w.__dossierFocus = document.activeElement
     delete w.NG_CONTENT.decks[n.t]; delete (a._contentWaits || {})[n.t]
-    return { key: n.t, filename: a.qhash(n.t) + '.json', scroll: a._readerEl.scrollTop, html: w.__dossierBody.innerHTML, question: w.__dossierQuestion.outerHTML, qMod: a._qMod, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length }
+    return { key: n.t, filename: a.qhash(n.t) + '.json', scroll: a._readerEl.scrollTop, html: [...w.__dossierBody.querySelectorAll('[data-source-path]')].map(e => e.outerHTML).join(''), question: w.__dossierQuestion.outerHTML, qMod: a._qMod, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length }
   })
   await page.unroute('**/static/neural/content/*.json')
   const response = page.waitForResponse(r => new URL(r.url()).pathname.endsWith('/content/' + before.filename))
@@ -200,7 +291,7 @@ test('@curated a late real dossier preserves reader focus, scroll and the answer
   expect((await response).status()).toBe(200)
   const after = await page.evaluate(() => {
     const w = window as any, a = w.__neural
-    return { scroll: a._readerEl.scrollTop, html: w.__dossierBody.innerHTML, question: document.querySelector('[data-land-q]')!.outerHTML, qMod: a._qMod, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length,
+    return { scroll: a._readerEl.scrollTop, html: [...w.__dossierBody.querySelectorAll('[data-source-path]')].map(e => e.outerHTML).join(''), question: document.querySelector('[data-land-q]')!.outerHTML, qMod: a._qMod, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length,
       same: w.__dossierReader === a._readerEl && w.__dossierBody === a._readerEl.querySelector('[data-reader-body]') && w.__dossierQuestion === document.querySelector('[data-land-q]'), focus: w.__dossierFocus === document.activeElement }
   })
   const { key, filename, ...expected } = before

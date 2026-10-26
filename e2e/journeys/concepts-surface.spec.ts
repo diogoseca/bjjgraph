@@ -815,7 +815,8 @@ for (const viewport of [
     await expect(film).toContainText("Film study");
     await expect(film.locator(".ng-clip")).toHaveCount(4);
     await expect(film.locator(".ng-clip").first()).toContainText(clips[0].title);
-    await expect(film.locator(".ng-clip").first()).toHaveAccessibleName(`Play: ${clips[0].title} — ${clips[0].by}`);
+    // STALE SPEC (v1.230.0, feat/video-cards): a clip's control is its play button, named "Watch: title — by".
+    await expect(film.locator(".ng-clip").first().locator("[data-film-play]")).toHaveAccessibleName(`Watch: ${clips[0].title} — ${clips[0].by}`);
     expect(await film.evaluate((el) => {
       const detail = document.querySelector("[data-concept-detail]")!;
       const body = document.querySelector("[data-concept-body]")!;
@@ -842,11 +843,16 @@ for (const viewport of [
     await stubPrincipleVideos(page);
 
     const first = `[data-concept-film="${concept.id}"] .ng-clip[data-i="0"]`;
+    // STALE CONTRACT (v1.230.0, feat/video-cards): the play button opens the player on its own controls and
+    // never autoplays, so the viewer's own play, once the player is ready, goes through its handle. The
+    // player has no mute control; its close button is what must fit inside the pane.
     const play = async () => {
       await page.locator(first).scrollIntoViewIfNeeded();
-      if (viewport.width > 600) await j.clickByMouse(first);
-      else { await page.locator(first).focus(); await page.keyboard.press("Enter"); }
+      if (viewport.width > 600) await j.clickByMouse(`${first} [data-film-play]`);
+      else { await page.locator(`${first} [data-film-play]`).focus(); await page.keyboard.press("Enter"); }
       await expect(film.locator(".ngPlayerHost")).toHaveCount(1);
+      await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip?._playerReady), "premise: the player is ready").toBe(true);
+      await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo());
       await expect.poll(() => page.evaluate(() => {
         const players = (window as any).__principlePlayers;
         return players.length && players[players.length - 1].plays > 0;
@@ -857,10 +863,10 @@ for (const viewport of [
         const pane = (window as any).__neural.explorerListRef.current.getBoundingClientRect();
         const rect = card.getBoundingClientRect();
         const finalHeight = parseFloat((card as HTMLElement).style.height);
-        const mute = card.querySelector(".ngMuteBtn")!.getBoundingClientRect();
+        const close = card.querySelector(".ngClipX")!.getBoundingClientRect();
         return Math.abs(rect.height - finalHeight) < 1 && rect.top >= pane.top
-          && rect.bottom <= pane.bottom && mute.bottom <= pane.bottom;
-      }), { message: "the expanded portrait and mute control fit inside the reading pane" }).toBe(true);
+          && rect.bottom <= pane.bottom && close.bottom <= pane.bottom;
+      }), { message: "the expanded portrait and its close button fit inside the reading pane" }).toBe(true);
     };
     const stopped = async () => {
       await expect(page.locator(".ngPlayerHost")).toHaveCount(0);
@@ -898,12 +904,13 @@ for (const viewport of [
     const longFilm = page.locator(`[data-concept-film="${longer.id}"]`);
     await expect(longFilm.locator(".ng-clip")).toHaveCount(1);
     await expect(longFilm).toContainText(clips[2].title);
-    await longFilm.locator(".ng-clip").focus();
+    await longFilm.locator(".ng-clip [data-film-play]").focus();
     await page.keyboard.press("Enter");
     await expect(longFilm.locator(".ngPlayerHost")).toHaveCount(1);
     expect(await page.evaluate(() => (window as any).__principlePlayers.at(-1).id)).toBe(clips[2].id);
     await page.keyboard.press("Escape");
     await stopped();
+    // Escape collapses a principle's film and returns focus to its clip card (the app's Escape ladder), as before.
     await expect(longFilm.locator(".ng-clip")).toBeFocused();
     await expect(page.locator(`[data-concept-detail="${longer.id}"]`)).toBeVisible();
     const noVideo = page.locator(`[data-concept-link="${empty.id}"]`);
@@ -1125,8 +1132,12 @@ for (const viewport of [
 
 // Unlike the arrival cases above, these start with a live hand and authored film. The DSL's
 // empty dossier default cannot prove that selecting a reference tears down existing videos.
-for (const category of ["Principles", "Systems", "Learning"] as const) {
-  test(`clicking ${category} retires the current node and its surfaces @curated`, async ({ page }) => {
+// STALE CONTRACT, superseded by review3 B1 (2026-10-16): reference playback
+// uses the same media owner. Retire the old game host; allow only this reference's
+// published videos. Classification: /home/user/bjj-orchestrator/scratch/article-sections/
+// ci-e26/reference-retirement-classification.md (old host disconnected before new host).
+for (const [category, reference] of [["Principles", null], ["Systems", null], ["Learning", null], ["Principles", "Principles/Microing"]] as const) {
+  test(`clicking ${reference || category} retires the current node and its surfaces @curated`, async ({ page }) => {
     const errors = watchErrors(page);
     const j = journey(page);
     await j.boot("/");
@@ -1141,6 +1152,7 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
     await expect(page.locator("[data-land-film]")).toBeVisible();
     await expect(page.locator("[data-landcard]")).toBeVisible();
     expect(await page.evaluate(() => (window as any).__neural.optionIdxs.length)).toBeGreaterThan(0);
+    await page.evaluate(() => { (window as any).__retiringGameFilm = (window as any).__neural._landFilmEl; });
     await page.locator(".ng-logo").click();
     await page.locator("[data-view='explore']").click();
     const header = page.locator(`[data-explore-section="${category}"]`);
@@ -1152,7 +1164,7 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
       if (await group.getAttribute("aria-expanded") !== "true") await group.click();
     }
     const kind = category === "Systems" ? "system" : "concept";
-    const row = page.locator(`[data-${kind}-row]`).first();
+    const row = reference ? page.locator(`[data-${kind}-row="${reference}"]`) : page.locator(`[data-${kind}-row]`).first();
     const id = await row.getAttribute(`data-${kind}-row`);
     expect(id).toBeTruthy();
     await row.scrollIntoViewIfNeeded();
@@ -1161,20 +1173,46 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
     await expect(page.locator("[data-reader-body]")).not.toBeEmpty();
     expect(new URL(page.url()).pathname).toBe("/" + id);
     await expect.poll(async () => (await litIds(page))?.length || 0).toBeGreaterThan(0);
+    const publishedVideos = await page.evaluate(async path => {
+      const html = await (await fetch(path)).text();
+      const doc = new DOMParser().parseFromString(html, "text/html");
+      return [...new Set([...doc.querySelectorAll("article iframe")].flatMap(frame => {
+        const url = new URL(frame.getAttribute("src")!, location.origin);
+        const id = /(^|\.)youtube(-nocookie)?\.com$/.test(url.hostname) && url.pathname.match(/^\/embed\/([^/]+)/)?.[1];
+        return id ? [id] : [];
+      }))].sort();
+    }, "/" + id);
+    if (reference) expect(publishedVideos, "Microing is the published no-video reference control").toEqual([]);
     const assertIdle = async () => {
       expect(await page.evaluate(() => {
         const a = (window as any).__neural;
         return { current: a.currentPos ?? null, focus: a.focusIdx, staged: a._staged ?? null,
-          options: a.optionIdxs.length, land: !!a._landEl, film: !!a._landFilmEl,
+          options: a.optionIdxs.length, land: !!a._landEl, film: !!a._landFilmEl && !a._landFilmEl.dataset.referenceFilm,
           more: !!a._landMoreEl, pulse: !!a.pulse, decision: !!a._decision, played: !!a._played };
       })).toEqual({ current: null, focus: -1, staged: null, options: 0, land: false,
         film: false, more: false, pulse: false, decision: false, played: false });
-      await expect(page.locator("[data-landcard], [data-land-film]")).toHaveCount(0);
+      await expect(page.locator("[data-landcard]")).toHaveCount(0);
+      expect(await page.evaluate(() => {
+        const w = window as any, a = w.__neural;
+        return { connected: w.__retiringGameFilm.isConnected, reused: a._landFilmEl === w.__retiringGameFilm };
+      }), "the old game's film is retired, including after Browse closes").toEqual({ connected: false, reused: false });
+      const film = page.locator("[data-land-film]");
+      await expect(film).toHaveCount(publishedVideos.length ? 1 : 0);
+      if (publishedVideos.length) {
+        await expect(film).toHaveAttribute("data-reference-film", "/" + id);
+        expect(await film.evaluate(el => [...el.querySelectorAll(".ng-clip img")].map(img =>
+          new URL((img as HTMLImageElement).src).pathname.split("/")[2]).sort())).toEqual(publishedVideos);
+        expect(await film.evaluate(el => (el as any)._ngMediaIdx)).toBe(-1);
+      } else {
+        expect(await page.evaluate(() => ({ film: !!(window as any).__neural._landFilmEl })),
+          "a reference without published videos retains film:false").toEqual({ film: false });
+      }
       expect(new URL(page.url()).pathname).toBe("/" + id);
     };
     await assertIdle();
-    await j.clickByMouse("[data-reader-browse]");
-    await j.clickByMouse(".ng-explorer-close"); // closing Browse must not resume the old roll
+    // STALE CONTRACT (D-338): Browse is gone; the logo opens the same pane.
+    await j.clickByMouse(".ng-logo", "the logo opens the pane, as Browse did");
+    await j.clickByMouse(".ng-explorer-close"); // closing the pane must not resume the old roll
     await j.advance(12000);
     await assertIdle();
     expect((await litIds(page))!.length).toBeGreaterThan(0);

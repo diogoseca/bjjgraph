@@ -200,6 +200,8 @@ This position is characterized by maximum control over the isolated limb while m
 
 Armbar Control Top is accessible from multiple positions including mount, guard, side control, and back control, making it one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu. The position's effectiveness stems from its ability to isolate a single limb while using the entire body's leverage, creating a mechanical advantage that is difficult to overcome even when the opponent recognizes the danger.
 
+Jiu-Jitsu Breakdowns describes an armbar grip-break phase in which the attacker's leg figure-four separates the defender's joined hands while the attacker keeps the arm grips. This is an observation of grip separation; the later finishing configuration is a separate phase whose mechanics the narration does not fully explain. Narration: [Jiu-Jitsu Breakdowns, 12:08.2–12:29.6](https://www.youtube.com/watch?v=9i2nf6N0O-k&t=728s).
+
 </section>
 
 

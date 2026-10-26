@@ -5,8 +5,9 @@ name: Proofread Bot (weekly graph-edge audit)
 # shells out to it) on Opus 4.8 1M @ xhigh, mutating JSON in place, then opens
 # a reviewed PR. Sunday 18:00 UTC is the LAST weekend slot (quota resets Monday;
 # this only sips leftover tokens — see plan §A.7). Token-exhaustion is safe:
-# the audit step is continue-on-error, so a dry/failed run produces no changes,
-# no PR, and does NOT advance the rotation pointer — it simply retries next week.
+# the audit step explicitly propagates auth exit 2 and handles other failures so
+# validated partial work can continue. With no changes, no PR is opened and the
+# rotation pointer stays put for next week.
 
 on:
   schedule:
@@ -94,14 +95,19 @@ jobs:
       - name: Proofread audit (mutates JSON in place)
         if: steps.queue.outputs.proceed == 'true'
         id: audit
-        continue-on-error: true # quota exhaustion / partial run must not fail the job loudly
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           python3 scripts/proofread_all_transitions.py \
             --category "${{ steps.rot.outputs.category }}" \
             --max-files "${{ github.event.inputs.max_files || '30' }}" \
-            --batch
+            --batch || {
+              status=$?
+              # claude_infer exits 2 for credentials: fail the job immediately.
+              # Other failures still allow validated partial work, as before.
+              if [ "$status" -eq 2 ]; then exit "$status"; fi
+              echo "Proofread stopped with exit $status; checking partial changes."
+            }
 
       - name: Detect changes
         if: steps.queue.outputs.proceed == 'true'

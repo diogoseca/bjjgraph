@@ -1,6 +1,8 @@
 import { expect, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { recordHarnessAbort } from "./harness-console.mjs";
+export { collectConsoleErrors } from "./harness-console.mjs";
 
 declare global { interface Window { __ngGuestProgressRaw: () => string | null; __ngSeedError?: string } }
 
@@ -285,6 +287,7 @@ export class Journey {
         // [data-lesson] rows time out on an interception no real user ever sees.
         if (/fonts\.(googleapis|gstatic)\.com/.test(u))
           return r.fulfill({ status: 200, contentType: "text/css", body: "" });
+        recordHarnessAbort(this.page, u);
         return r.abort();
       });
       // Per-node dossier chunks (v1.80.4, replacing the aborted 21MB technique-content.js):
@@ -569,9 +572,38 @@ export class Journey {
    * full timeout on every proven deck.
    */
   async landSettled() {
-    await this.page.evaluate(async () => {
+    // D-352 N6: the app now says whether the landing published. A stall the hold owns (reader up,
+    // the article shown, not a reference page) fails the journey by name instead of passing silently.
+    // SOFT, so the journey still reaches its own claim: a hard throw here preempted three controls'
+    // claim-level kills (landing-never-published-picker, -no-decks, -list-item, H78).
+    const stalled = await this.page.evaluate(async () => {
       const a = (window as W).__neural;
-      if (a && typeof a.landSettled === "function") await a.landSettled();
+      if (!a || typeof a.landSettled !== "function") return null;
+      const published = await a.landSettled();
+      const r = a._reader;
+      return published === false && !!r && a.get("readerBook", true) !== false && !r.root.hasAttribute("data-reference") ? a._landIdx : null;
+    });
+    expect.soft(stalled, `landSettled: landing ${stalled} is still unpublished 1.5s after its question settled (land_publish_stalled)`).toBeNull();
+    return this;
+  }
+
+  /** Observe native reader layout and finite entry/resize animations settling.
+   * No elapsed-time readiness guess, camera pumping, or geometry assertion here.
+   * Two matching publications let ResizeObserver enqueue its coalesced frame. */
+  async readerLayoutSettled() {
+    await this.page.evaluate(async () => {
+      const a = (window as W).__neural, r = a._reader;
+      if (!r) throw Error("Reader must be ready before waiting for layout");
+      let previous = "";
+      for (;;) {
+        await new Promise(requestAnimationFrame);
+        const elements = [r.root, r.game, r.articleEl, r.mediaHome, a._landEl, a._landFilmEl, a.optionsRef.current].filter(Boolean);
+        const geometry = JSON.stringify(elements.map((el: HTMLElement) => el.getBoundingClientRect().toJSON()));
+        const animating = elements.some((el: HTMLElement) => el.getAnimations({ subtree: true }).some(animation =>
+          (animation.pending || animation.playState === "running") && Number.isFinite(animation.effect?.getComputedTiming().endTime)));
+        if (!r.layoutFrame && !r.laying && !animating && geometry === previous) return;
+        previous = !r.layoutFrame && !r.laying && !animating ? geometry : "";
+      }
     });
     return this;
   }
@@ -586,29 +618,66 @@ export class Journey {
     });
   }
 
-  /**
-   * GRADE THE JIT DRILL CORRECTLY, WHATEVER FORMAT IT IS ASKING IN.
-   *
-   * The in-sheet micro-drill follows `askFormat`: an unproven card (stage < 2) asks MULTIPLE
-   * CHOICE, a card at its MC cap reads back as recall, and a deck whose distractor pool is cold
-   * falls back to recall too. Every caller of this helper is asserting something about the
-   * ECONOMY — the odds pump, the lesson-done math, the refund budget — and not one of them is
-   * about which format the question wore, so the format lives here instead of in six specs.
-   *
-   * Answers from `__neural._mc` (surface "jit") rather than re-deriving the correct option: a
-   * spec-side copy of the grader would agree with a broken build by construction (§6.3).
-   */
-  async jitGrade() {
-    const fmt = await this.page.evaluate(() => {
-      const m = (window as W).__neural._mc;
-      return m && m.surface === "jit" ? m.correct : null;
-    });
-    if (fmt == null) {
-      await this.page.locator("[data-jit-reveal]").click();
-      await this.page.locator("[data-jit-got]").click();
-    } else {
-      await this.page.locator("[data-jit-mc-opt]").nth(fmt).click();
+  /** D-318 U6a: change the read role through the actual other canvas half.
+   * The map is always shown with the article (D-338 retired Focus, which hid it); do not
+   * call the navigation or seating methods. Return after the native click so callers can
+   * hold the requested HTML. */
+  async readingOtherHalf() {
+    await this.page.locator('[data-reader]').evaluate(e => { e.scrollTop = 0; });
+    await this.readerLayoutSettled();
+    await this.advance(6000); // drive the existing flight to the visible pair
+    // A newly minted reward is a deliberate screen above the map. Dismiss it
+    // through its real control before asking the map to own the next click.
+    if (await this.page.locator('[data-reward-close]').isVisible()) {
+      await this.clickByMouse('[data-reward-close]', 'dismiss the earned reward before changing role');
     }
+    // The node being READ owns the other half (D-318 U6a). A paused arrival, such as a
+    // shared-list read through openDossier, never lands, so focusIdx stays -1 while the read
+    // node's pair is drawn. Resolve the read member from the reader's own path, and wherever a
+    // node is focused require the two to agree.
+    const point = await this.page.evaluate(() => {
+      const a = (window as W).__neural;
+      const read = a._idIndex.get(a._reader.path.replace(/^\//, '').replace(/\/(Attacker|Top)$/, ''));
+      const n = read == null ? null : a.nodes[a.nodes[read].pi], scale = a.W / a.cam.vw;
+      if (!n) return { read, agree: false, canvas: false, x: 0, y: 0 };
+      const x = a.W / 2 + (n.x - a.cam.cx) * scale, y = a.H / 2 + (a._LY(n) - a.cam.cy) * scale;
+      return { read, agree: a.focusIdx < 0 || a.focusIdx === read, x, y, canvas: document.elementFromPoint(x, y) === a.canvasRef.current };
+    });
+    expect(point.read ?? null, 'the reader path names a drawn pair member').not.toBeNull();
+    expect(point.agree, 'a focused node is the node being read').toBe(true);
+    expect(point.canvas, 'the other read role must be a reachable drawn canvas half').toBe(true);
+    await this.page.mouse.click(point.x, point.y);
+    return this;
+  }
+
+  /** Fixture setup for economy assertions: open the existing sidebar study surface.
+   * There is no longer a Practice action on a choice (owner, 2026-10-15). This helper
+   * claims no public entry path; all grades below use the visible study controls. */
+  async studyChoice(title: string) {
+    const key = await this.page.evaluate((name) => {
+      const a = (window as W).__neural;
+      const opt = a._optList.find((o: any) => o.node.t === name);
+      if (!opt) throw new Error(`No dealt choice: ${name}`);
+      return a.deckKeyFor(opt.node).key as string;
+    }, title);
+    await this.hydrate([key]);
+    await this.page.evaluate((key) => {
+      const a = (window as W).__neural;
+      a.set("mcMode", "classic");
+      a.openStudy(key);
+      a.drillFootRef.current.dataset.studyFoot = "1";
+    }, key);
+    await expect(this.page.locator('.ng-drill[data-pane-study] [data-reveal]')).toBeVisible();
+    expect(await this.page.evaluate(() => (window as W).__neural._deckInfo.key)).toBe(key);
+    return this;
+  }
+
+  /** Grade one real sidebar recall card, through its pinned Reveal / Got it buttons. */
+  async studyGrade() {
+    await this.clickByMouse('.ng-drill [data-study-foot] [data-reveal]', 'Reveal the study answer');
+    const got = '.ng-drill [data-study-foot] > div:first-child > button:nth-child(2)';
+    await expect(this.page.locator(got)).toHaveText('Got it');
+    await this.clickByMouse(got, 'Grade the study answer');
     return this;
   }
 
@@ -922,21 +991,22 @@ export class Journey {
     });
   }
 
-  /** Commit an own option through its tray card. Inspection is a separate action. */
+  /** Commit an own option through its title, clear of the separate play circle. */
   async pick(technique: string) {
     const card = this.page.locator(`[data-tech="${technique}"]`).first();
     await expect(card, `option card for "${technique}" visible`).toBeVisible();
-    await card.click();
+    await card.locator(".ng-choice-title-button").scrollIntoViewIfNeeded();
+    await this.clickByMouse(`[data-tech="${technique}"] .ng-choice-title-button`, "Choose " + technique);
     return this;
   }
 
-  /** Open the existing detail sheet without committing the move. */
-  async inspect(technique: string) {
-    const card = this.page.locator(`[data-tech="${technique}"]`).first();
-    await expect(card, `option card for "${technique}" visible`).toBeVisible();
-    await card.locator("[data-choice-inspect]").click();
-    const go = this.page.locator("[data-go]").first();
-    await expect(go, "expand-sheet Execute button visible").toBeVisible();
+  /** D-318 retires Read. Research/economy fixtures use an approved video via the
+   * real dossier fetch and a real play-circle click, then close without playback. */
+  async watchChoice(technique: string) {
+    const { openChoiceVideo } = await import("./fixtures/video-cards");
+    await openChoiceVideo(this.page, technique);
+    await this.clickByMouse("[data-watch-close]", "Close the video viewer");
+    await expect(this.page.locator("[data-choice-viewer]")).toHaveCount(0);
     return this;
   }
 

@@ -99,6 +99,10 @@ test("attack window spent by expiry → caught opens a NEW defense window armed 
 
   // ── SAME ROLL, NEW WINDOW: a fresh object, the escapes as its hand, its drill clock FULL ──
   await expect(page.locator("[data-landcard=defense]"), "inline panic drill visible when caught").toBeVisible()
+  // STALE TIMING (D-351, CI 931a7eea0): the drill publishes once its defender article renders, and its
+  // parked clock arms on the next frame; this pumped harness ticks only when asked, so pump one.
+  await j.landSettled()
+  await j.advance(17)
   const defense = await page.evaluate(() => {
     const a = (window as any).__neural
     const d = a._decision

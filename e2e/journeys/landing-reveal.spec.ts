@@ -137,9 +137,14 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
       await page.screenshot({ path: testInfo.outputPath(`settled-${viewport.width}.jpg`), quality: 55 });
     });
 
-    test('staging and layer changes center the node in the current available space', async ({ page }) => {
+    // STALE CONTRACT (D-318 U4a, CI 48be3a910): with the article shown the node is centred in the
+    // reader's reserved node band, the same band for every layer combination (cold and loaded
+    // layouts share it), so the reading view's "available space" is that published band. The map
+    // view (Book off, persisted) keeps the original announcer-to-rows oracle.
+    for (const view of ['reading', 'map'] as const)
+    test(`staging and layer changes center the node in the current available space${view === 'map' ? ' (map view)' : ''}`, async ({ page }) => {
       const j = journey(page);
-      await j.boot('/Positions/Side-Control/Bottom');
+      await j.boot('/Positions/Side-Control/Bottom', view === 'map' ? { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } } : {});
       await j.advance(8000);
       await seedHalfGuardFilm(page);
       for (const layers of [[false, false, true], [true, false, true], [true, true, true], [false, false, false]]) {
@@ -149,16 +154,28 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
           a.stageRollAt(a.nodes.findIndex((n: any) => n.id === 'Positions/Half-Guard'));
         }, layers);
         await j.landSettled();
+        await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+        await j.readerLayoutSettled();
         await j.advance(6500);
         const m = await page.evaluate(() => {
           const a = (window as any).__neural, n = a.nodes[a.focusIdx], mid = a.pairMid(n);
-          const surfaces = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current, a._readerEl, a._layerDockEl].filter((el: HTMLElement) => el && el.offsetHeight && getComputedStyle(el).display !== 'none' && getComputedStyle(el).visibility !== 'hidden');
-          const bottom = Math.min(a.H - 16, ...surfaces.map((el: HTMLElement) => a.H - parseFloat(getComputedStyle(el).bottom) - el.offsetHeight - 12));
+          // The reader root is a transparent game scrollport. Only its article
+          // blocks the map; child bottom coordinates are now container-relative.
+          // The approved TOC exclusion can place the complete drawn node in
+          // the left gutter. Article text does not occupy that gutter's band.
+          const article = a._reader?.articleEl || a._readerEl, s = a.W / a.cam.vw;
+          const x = a.W / 2 + (mid.x - a.cam.cx) * s, k = Math.max(.4, Math.min(1, a.cam.vw / (a.graphW * .5)));
+          const half = Math.max(...[n, n.pi >= 0 ? a.nodes[n.pi] : null].filter(Boolean).map(q => a._nodeHalfW(q, s, k, a._lodK ?? 1)));
+          const ar = article?.getBoundingClientRect(), blocks = ar && x - half < ar.right && x + half + 11 + a._labelWidthPx(n) > ar.left;
+          const surfaces = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current, blocks && article, a._layerDockEl].filter((el: HTMLElement) => el && el.offsetHeight && getComputedStyle(el).display !== 'none' && getComputedStyle(el).visibility !== 'hidden');
+          const bottom = Math.min(a.H - 16, ...surfaces.map((el: HTMLElement) => el.getBoundingClientRect().top - 12));
           const ev = a.evRef.current;
           const top = ev && getComputedStyle(ev).opacity !== "0" ? Math.max(16, ev.getBoundingClientRect().bottom + 12) : 16;
-          return { y: a.H / 2 + (mid.y - a.cam.cy) * a.W / a.cam.vw, want: (top + bottom) / 2, path: location.pathname, id: n.id };
+          const band = a.get('readerBook', true) ? a._reader?.nodeBand : null;
+          return { y: a.H / 2 + (mid.y - a.cam.cy) * a.W / a.cam.vw, want: band ? (band.top + band.bottom) / 2 : (top + bottom) / 2, band: !!band, path: location.pathname, id: n.id };
         });
         expect(m.path).toBe('/' + m.id);
+        expect(m.band, 'the reading view frames inside its published node band').toBe(view === 'reading');
         expect(Math.abs(m.y - m.want), JSON.stringify({ layers, ...m })).toBeLessThan(5);
       }
     });

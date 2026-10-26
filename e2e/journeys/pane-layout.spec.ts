@@ -69,7 +69,8 @@ const geometry = (page: Page) => page.evaluate(() => {
   }
   const n = a.nodes[a.currentPos], mid = a.pairMid(n), scale = a.W / a.cam.vw
   return {
-    card: box("[data-landcard]"), film: box("[data-land-film]"), more: box("[data-reader]"),
+    card: box("[data-landcard]"), film: box("[data-land-film]"), more: box(".ng-reader-article"), hand: box(".ng-optionrow"),
+    layout: a._reader.game.dataset.mediaLayout,
     pane: box(".ng-drill"), nav: box("[data-land-nav]"),
     node: { id: n.id, x: a.W / 2 + (mid.x - a.cam.cx) * scale, y: a.H / 2 + (mid.y - a.cam.cy) * scale },
     zoom: a.cam.vw, paused: !!a.paused, read: a._readerEl?.scrollTop || 0, open: !!a._reader?.interacting,
@@ -89,13 +90,28 @@ for (const width of [1440, 1024]) {
 
     await openPane(page, j)
     const open = await geometry(page)
-    const shift = open.card.x - before.card.x
-    expect(shift).toBeGreaterThan(80)
+    // STALE CONTRACT (D-368, layout C): the A geometry is back as the stage under Moves: the current card
+    // sits beside the question (400 + 60 + 390), and where the pane leaves less than that it stacks above
+    // it. So the A-era claims return (the film's 400px and the stacked reflow), with Moves above the stage.
+    const shift = open.card.x - before.card.x, reflow = open.layout !== before.layout
+    expect(before.layout, 'the closed pane leaves room for the card beside the question').toBe('side-by-side')
+    if (!reflow) expect(shift).toBeGreaterThan(80)
     for (const surface of ["card", "film"] as const) {
       expect(open[surface].visible, `${surface} remains visible`).toBe(true)
-      expect(open[surface].width, `${surface} keeps its readable width`).toBeCloseTo(before[surface].width, 0)
-      expect(open[surface].x - before[surface].x, `${surface} moves with the card`).toBeCloseTo(shift, 0)
-      expect(open[surface].y, `${surface} keeps its vertical dock`).toBeCloseTo(before[surface].y, 0)
+      expect(open[surface].x).toBeGreaterThanOrEqual(open.pane.right)
+      expect(open[surface].right).toBeLessThanOrEqual(width)
+      if (!reflow) {
+        expect(open[surface].width, `${surface} keeps its readable width`).toBeCloseTo(before[surface].width, 0)
+        expect(open[surface].x - before[surface].x, `${surface} moves with the card`).toBeCloseTo(shift, 0)
+        expect(open[surface].y, `${surface} keeps its vertical dock`).toBeCloseTo(before[surface].y, 0)
+      }
+    }
+    if (reflow) {
+      expect(open.layout).toBe('stacked')
+      expect(open.film.width).toBe(400)
+      expect(open.card.width).toBe(Math.min(560, width - open.pane.width - 104))
+      expect(open.film.y - open.hand.bottom, 'the stage follows Moves at the deck gap').toBeCloseTo(16, 0)
+      expect(open.card.y - open.film.bottom, 'the question follows the card at 12px').toBeCloseTo(12, 0)
     }
     expect(open.more.center - before.more.center).toBeCloseTo(open.pane.width / 2, -1)
     expect(open.more.right).toBeLessThanOrEqual(width)
@@ -119,10 +135,11 @@ for (const width of [1440, 1024]) {
 }
 
 for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 }]) {
-  test(`@curated ${viewport.width}px Browse overlays the article and preserves its place`, async ({ page }) => {
+  // D-338: Browse and Focus are gone; the logo's pane is the one Browse opened, and focusing the
+  // prose is the reading interaction that Focus used to stand in for.
+  test(`@curated ${viewport.width}px the pane overlays the article and preserves its place`, async ({ page }) => {
     await page.setViewportSize(viewport)
     const j = await setup(page)
-    await j.clickByMouse("[data-reading-focus]")
     await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
     await page.locator("[data-reader-body]").focus()
     await page.keyboard.press("Control+End")
@@ -130,7 +147,7 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
     const before = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
     await openPane(page, j)
     const overlap = await page.evaluate(() => {
-      const pane = document.querySelector(".ng-drill")!, article = document.querySelector("[data-reader]")!
+      const pane = document.querySelector(".ng-drill")!, article = document.querySelector(".ng-reader-article")!
       const p = pane.getBoundingClientRect(), r = article.getBoundingClientRect()
       const l = Math.max(p.left, r.left), right = Math.min(p.right, r.right), top = Math.max(p.top, r.top), bottom = Math.min(p.bottom, r.bottom)
       const hit = document.elementFromPoint((l + right) / 2, (top + bottom) / 2)
@@ -140,17 +157,25 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
       expect(overlap.width).toBeGreaterThan(8)
       expect(overlap.height).toBeGreaterThan(8)
       expect(overlap.pane).toBe(true)
-    } else expect(overlap.width, "the tablet article fits beside Browse").toBeLessThanOrEqual(0)
+    } else expect(overlap.width, "the tablet article fits beside the pane").toBeLessThanOrEqual(0)
     await closePane(page, j)
     expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBe(before)
-    expect(await page.evaluate(() => ({ reading: !!(window as any).__neural._readerIntent, paused: (window as any).__neural.paused }))).toEqual({ reading: true, paused: true })
+    // Reading here is the prose interaction (D-338 retired Focus, which set reading intent).
+    expect(await page.evaluate(() => ({ reading: !!(window as any).__neural._reader.interacting, paused: (window as any).__neural.paused }))).toEqual({ reading: true, paused: true })
   })
 }
 
 test("@curated exposed cards, videos and reading take real mouse input while the pane is open", async ({ page }) => {
   await page.setViewportSize({ width: 1024, height: 900 })
   const j = await setup(page)
+  // D-338: Questions follows Videos and Moves and can start below the fold: scroll to it first.
+  await page.locator("[data-landcard]").evaluate(e => e.scrollIntoView({ block: "nearest" }))
+  await settle(page, j)
   await openPane(page, j)
+  // D-368 (layout C): at 1024 the open pane leaves too little width for the card beside the question, so the
+  // stage stacks it above and the question moves down; a reader scrolls to it again.
+  await page.locator("[data-landcard]").evaluate(e => e.scrollIntoView({ block: "nearest" }))
+  await settle(page, j)
   const keyed = await geometry(page)
   await page.keyboard.press("ArrowRight")
   await page.keyboard.press("a")
@@ -168,7 +193,9 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   await j.clickByMouse("[data-land-prev]", "the exposed previous-card control")
   expect((await geometry(page)).selected).toBe(0)
 
-  await j.clickByMouse('[data-land-film] .ng-clip[data-i="1"]', "an exposed video thumbnail")
+  // STALE SPEC (v1.230.0, feat/video-cards): the current card shows one full video and a 10% peek of the
+  // next, so the exposed thumbnail is the first; the peek's centre sits off screen beside the pane.
+  await j.clickByMouse('[data-land-film] .ng-clip[data-i="0"]', "an exposed video thumbnail")
   await expect(page.locator("[data-land-film] .ngPlayerHost")).toBeVisible()
   await page.waitForTimeout(450)
   // Playing the first film can mint the harness visitor's White Foundations patch.
@@ -177,32 +204,51 @@ test("@curated exposed cards, videos and reading take real mouse input while the
     // A click outside the player legitimately collapses it; reopen now that the reward is gone.
     await expect(page.locator("[data-land-film] .ngPlayerHost")).toHaveCount(0)
     await settle(page, j)
-    await j.clickByMouse('[data-land-film] .ng-clip[data-i="1"]', "the video after dismissing its reward")
+    await j.clickByMouse('[data-land-film] .ng-clip[data-i="0"]', "the video after dismissing its reward")
     await page.waitForTimeout(450)
   }
   await j.clickByMouse("[data-land-film] .ngClipX", "the exposed video close button")
   await expect(page.locator("[data-land-film] .ngPlayerHost")).toHaveCount(0)
   await settle(page, j)
 
-  // Focus takes reading ownership and closes Browse. Reopening Browse leaves the
-  // article's native scroll position alone and never hands the clock back a miss.
-  await j.clickByMouse("[data-reading-focus]", "the exposed Focus action")
+  // STALE SPEC (D-368, layout C): the current card is a game part, so playing it is no longer reading (a Videos
+  // clip was, D-338). The prose is read beside the open pane instead. The pane's close resumes the game it paused
+  // while the reader still reads, and the next reading input must stop it again (d338-running-reader-not-paused).
+  await page.evaluate(() => (window as any).__neural._reader.articleEl.scrollIntoView({ block: "start" }))
+  await settle(page, j)
+  const prose = await page.evaluate(() => { const r = (window as any).__neural._reader, b = r.articleEl.getBoundingClientRect(), v = r.root.getBoundingClientRect()
+    const top = Math.max(b.top, v.top), bottom = Math.min(b.bottom, v.bottom, innerHeight); return { x: (b.left + b.right) / 2, y: (top + bottom) / 2, visible: bottom - top } })
+  expect(prose.visible, "premise: the prose shows beside the open pane").toBeGreaterThan(40)
+  await page.mouse.move(prose.x, prose.y)
+  await page.mouse.wheel(0, 40)
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.interacting), "premise: reading beside the open pane").toBe(true)
+  // STALE CONTRACT (D-338): Focus, which took reading ownership and closed the pane, is gone.
+  // Closing the pane and reading the prose take it now. Reopening the pane leaves the article's
+  // native scroll position alone and never hands the clock back a miss.
+  await closePane(page, j)
+  expect(await page.evaluate(() => ({ reading: !!(window as any).__neural._reader.interacting, paused: (window as any).__neural.paused })),
+    "premise: the pane's close resumes the game it paused, while the reader still reads").toEqual({ reading: true, paused: false })
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await page.locator("[data-reader-body]").focus()
   await page.keyboard.press("Control+End")
+  expect(await page.evaluate(() => (window as any).__neural.paused), "the next reading input stops the game again").toBe(true)
   await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
   const before = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
   await openPane(page, j)
   await page.mouse.move(180, 300)
   await page.mouse.wheel(0, 120)
   await page.waitForTimeout(100)
-  expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBe(before)
+  // D-338: the Videos section now sizes with the article column, which narrows beside the pane, so
+  // the document can change length. The pane never scrolls the reader: scrollTop is unchanged
+  // unless the browser clamps it to a shorter document, and a wheel over the pane moves nothing.
+  const after = await page.locator("[data-reader]").evaluate(e => ({ top: e.scrollTop, max: e.scrollHeight - e.clientHeight }))
+  expect(after.top, `the pane leaves the native scroll position alone (${JSON.stringify({ before, ...after })})`).toBe(Math.min(before, after.max))
   await closePane(page, j)
   await j.advance(20000)
   expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
 })
 
-test("@curated resizing an open pane keeps the selected card and the short-landscape composition", async ({ page }) => {
+test("@curated resizing an open pane preserves the card through the stacked landscape flow", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await setup(page)
   await j.clickByMouse("[data-land-next]")
@@ -214,12 +260,18 @@ test("@curated resizing an open pane keeps the selected card and the short-lands
   expect(landscape.selected).toBe(desktop.selected)
   expect(landscape.node.id).toBe(desktop.node.id)
   expect(landscape.card.visible).toBe(true)
-  expect(landscape.film.x, "film remains in the right-hand landscape column").toBeGreaterThan(landscape.card.right)
+  // STALE CONTRACT (D-338): the landscape flow reads Videos, Moves, Questions (no stacked film home).
+  // STALE CONTRACT (D-368, layout C): a short landscape has no room beside the question, so the stage stacks:
+  // Moves, then the current card, then the question at 12px.
+  expect(landscape.layout).toBe('stacked')
+  expect(landscape.film.y, "the stage follows Moves").toBeGreaterThanOrEqual(landscape.hand.bottom)
+  expect(landscape.card.y - landscape.film.bottom, "the question follows the card at 12px").toBeCloseTo(12, 0)
   expect(landscape.film.right, "the composition stays within the viewport").toBeLessThanOrEqual(844)
   await closePane(page, j)
   const closed = await geometry(page)
-  expect(closed.card.x, "a composition already against the right edge does not shift for the pane").toBeCloseTo(landscape.card.x, 0)
-  expect(closed.film.x).toBeCloseTo(landscape.film.x, 0)
+  expect(closed.layout).toBe('stacked')
+  expect(closed.card.center).toBeCloseTo(844 / 2, 0)
+  expect(closed.film.center).toBeCloseTo(844 / 2, 0)
   await openPane(page, j)
   await page.setViewportSize({ width: 1440, height: 900 })
   await settle(page, j)

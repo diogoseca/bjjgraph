@@ -107,8 +107,8 @@ test("cold start: the funnel spine emits in order, and the first question is abo
 }) => {
   const j = journey(page);
   const dumps: any[] = [];
-  const capture = async (label: string) => {
-    const d = await seen(page, label);
+  const capture = async (label: string, taken?: any) => {
+    const d = taken ?? await seen(page, label);
     dumps.push(d);
     if (CAPTURE) {
       mkdirSync(OUT, { recursive: true });
@@ -180,21 +180,18 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   // rather than timing out, which reads like a real regression. Measured, swapping only the served
   // bundle: with six CPU hogs running, this test failed 6/6 on THIS branch AND 6/6 on the v1.152.0
   // bundle that predates it, while passing 6/6 idle. Poll the same property the dump reads.
-  await expect
-    .poll(
-      () =>
-        page.evaluate(() => {
-          const el = document.querySelector("[data-landcard]");
-          if (!el) return 0;
-          const r = el.getBoundingClientRect();
-          return r.width > 1 && r.height > 1
-            ? parseFloat(getComputedStyle(el).opacity || "1")
-            : 0;
-        }),
-      { timeout: 10_000, message: "the landing card finished fading in" },
-    )
-    .toBeGreaterThan(0.05);
-  const s2 = await capture("first-landing");
+  // POLL THE DUMP ITSELF (D-333, CI 19e1cfb23). D-318 (af3aac311) hides a new landing card
+  // (`data-reader-pending`, visibility:hidden) until the deferred reader publishes it: here 80-86ms
+  // after an opacity-only poll had passed, longer on a loaded runner. And a cold start can rebuild a
+  // card that was already fading in (the D-324 dev capture too, 2 of 6 at 4x CPU). The claim below is
+  // asserted on the very dump that answered, within the same 10s.
+  let first: any;
+  for (const until = Date.now() + 10_000; ;) {
+    first = await seen(page, "first-landing");
+    if (first.surfaces["[data-landcard]"] || Date.now() > until) break;
+    await page.waitForTimeout(50);
+  }
+  const s2 = await capture("first-landing", first);
   expect(
     s2.surfaces["[data-landcard]"],
     "the landing card greets a first-ever visitor",

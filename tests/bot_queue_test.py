@@ -183,6 +183,49 @@ class QueueTests(unittest.TestCase):
 
 
 class RunTests(unittest.TestCase):
+    def test_analytics_excludes_obsidian_lists_and_settings_before_ranking(self):
+        with tempfile.TemporaryDirectory(prefix="fixbots-analytics-shape-") as temp:
+            root = Path(temp)
+            previous = Path.cwd()
+            self.addCleanup(os.chdir, previous)
+            os.chdir(root)
+            Path("content/.obsidian").mkdir(parents=True)
+            Path("content/.obsidian/community-plugins.json").write_text('[]')
+            Path("content/.obsidian/app.json").write_text('{}')
+            Path("content/.obsidian/ignored.json").write_text('not content JSON')
+            Path("content/Positions").mkdir()
+            Path("content/Positions/Mount.json").write_text('{"overview":"thin"}')
+            analytics = Path("analytics.json")
+            for payload in ({"available": False}, {"available": True, "pageviews": [
+                    ["https://bjjgraph.org/.obsidian/app", 100000]]}):
+                with self.subTest(payload=payload):
+                    analytics.write_text(json.dumps(payload))
+                    Path("state.json").write_text(json.dumps({
+                        "version": 1, "requests_checked": 1, "own_prs": [],
+                        "reserved": {}, "candidates_checked": 0, "skipped": 0}))
+                    with patch.dict(os.environ, {"BOT_QUEUE_STATE": str(root / "state.json")}):
+                        bot_run.select_analytics(analytics, 3, Path("selected.txt"))
+                    self.assertEqual(Path("selected.txt").read_text(), "content/Positions/Mount.json\n")
+                    self.assertEqual(json.loads(Path("state.json").read_text())["candidates_checked"], 1)
+            os.chdir(previous)
+
+    def test_analytics_rejects_non_object_content_with_its_path(self):
+        with tempfile.TemporaryDirectory(prefix="fixbots-analytics-invalid-") as temp:
+            previous = Path.cwd()
+            self.addCleanup(os.chdir, previous)
+            os.chdir(temp)
+            Path("content/Positions").mkdir(parents=True)
+            Path("content/Positions/Invalid.json").write_text('[]')
+            Path("analytics.json").write_text('{"available": false}')
+            Path("state.json").write_text(json.dumps({
+                "version": 1, "requests_checked": 1, "own_prs": [],
+                "reserved": {}, "candidates_checked": 0, "skipped": 0}))
+            with patch.dict(os.environ, {"BOT_QUEUE_STATE": str(Path(temp) / "state.json")}):
+                with self.assertRaisesRegex(ValueError, r"JSON object: content/Positions/Invalid.json"):
+                    bot_run.select_analytics(Path("analytics.json"), 1, Path("selected.txt"))
+            self.assertFalse(Path("selected.txt").exists())
+            os.chdir(previous)
+
     def test_execution_contract_json_and_ndjson(self):
         good = {"type": "result", "subtype": "success", "is_error": False}
         bad = {**good, "is_error": True}  # Observed silent failure had subtype=success.

@@ -275,7 +275,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - Distribute weight strategically to control opponent's hips while maintaining base against sweep attempts and back take entries
 
-- Control opponent's bottom knee to prevent them from creating angles or inserting additional frames that enable guard recovery
+- Control opponent's bottom knee to prevent them from creating angles or inserting additional frames that enable guard recovery. In the narrated half-guard example, the guard player's knee recovers beneath the passer's forearm frame at the hip. As that hip frame loses its effect, the passer redirects the arm frame the guard player has just established. Narration: [Less Impressed More Involved BJJ, 0:38–1:00.4](https://www.youtube.com/watch?v=gtRIw-60Yzk&t=38s).
 
 - Progress methodically through passing stages: stabilization, isolation, extraction, completion rather than rushing to free trapped leg
 
