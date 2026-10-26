@@ -12573,3 +12573,30 @@ V2 also shares numeric CSS unit conversion within the existing guarded reader
 style writer and reuses its deck predicate to pay for the layout additions.
 Its emitted byte delta and runtime gates are pending the immutable host run;
 no payload baseline or ceiling has moved. The v1 runner, bundle and results remain.
+
+
+## v1.232.0 — D-451 explicit Reveal in the remaining curated journeys (2026-10-26)
+
+The covered-card v3 host run passed its thirteen owner frames, then full curated
+reported 578 passes and 24 failures. All 24 failed snapshots still showed the
+U34 a cover: the specs attempted an answer, answer geometry, expiry or decline
+without first Revealing that card. Add the explicit Reveal action at those
+premises, with U34 a cited at each edit; retain all original assertions, timing
+bounds and native hit tests. Reader publication/adoption probes open the card
+before installing their answer-click hooks, without adding a reader-ready wait.
+A keyboard answer or move-number key is not consent to open a covered question.
+
+The real-MDP cases had already received bounded, verified first-hand values at
+both widths (3,099.5 ms at 1440px; 2,786.4 ms at 390px after hand publication).
+Their failed 45-second wait was the post-grade profile-hash change after an inert
+keyboard answer. Keep first-hand readiness and display proofs before Reveal.
+The recall selector data-land-reveal remains Show answer, behind the separate
+U34 data-question-reveal control. Paging requires consent for the new card too.
+
+No product, payload, timing, U35 media segregation, U36 heartbeat or D-433
+geometry rule changes. Version remains the owner's assigned v1.232.0. The
+journey-written first_hand_payload.json is OBSERVED ONLY: archive its result and
+restore HEAD before the runner's clean check; never accept it as a new baseline.
+The new immutable host continuation reuses the twelve v2 gates and v3 owner
+frames, then requires full curated and all five existing named-claim mutants.
+Those new host results are pending; this migration does not claim them green.

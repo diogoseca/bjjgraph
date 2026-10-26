@@ -71,6 +71,7 @@ test.describe("White Challenges @curated", () => {
       return mc ? { correct: mc.correct } : null;
     });
     expect(question).toBeTruthy();
+    await j.openQuestion(); // U34 a: Reveal is separate consent; the following answer key records the objective.
     await page.keyboard.press("abcd"[question!.correct]);
     expect(
       await page.evaluate(

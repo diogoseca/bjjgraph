@@ -147,6 +147,8 @@ test("@curated a Decide countdown does not survive staging another node", async 
   await j.advance(6000);
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
 
+  await j.openQuestion(); // U34 a: Reveal starts this card's clock; engagement alone is free.
+
   // burn the live window down into the <=3s warning band, where the countdown is written
   for (let i = 0; i < 40; i++) {
     await j.advance(500);
@@ -341,6 +343,7 @@ test("@curated the clock running out reveals the answer, says so, and steals not
   await j.boot("/");
   await j.advance(10200); // intro 3.2s + the staged arrival 6.2s (v1.168.0) + the deal
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
+  await j.openQuestion(); // U34 a: explicitly Reveal before testing expiry; covered time is free.
 
   const handBefore = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length);
   // walk the announcer at 100ms so the ORDER of the sentences is observed, not inferred

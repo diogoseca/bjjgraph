@@ -267,6 +267,7 @@ test("@curated a real landing-card grade updates map paint without reload", asyn
     a._publishKnowledge("grade-fixture"); a._landQ=null; a.renderLandCard(n,"land",null);
     return {idx:n.idx,key,m:a.deckMastery(key),paint:a._mapPaint[n.idx].halfPaint};
   });
+  await j.openQuestion(); // U34 a: the remounted card is covered; Reveal precedes recall's Show answer.
   await expect(page.locator("[data-land-reveal]")).toBeVisible();
   await j.clickByMouse("[data-land-reveal]","Show answer");
   await j.clickByMouse("[data-land-got]","Got it");

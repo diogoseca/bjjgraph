@@ -242,6 +242,7 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
   // Resize the SAME mounted deck: rotation must release the landscape column and keep the
   // selected card, rather than accidentally passing by rebuilding a fresh screen each time.
   await page.keyboard.press("ArrowRight")
+  await j.openQuestion() // U34 a: page 1 needs its own Reveal before measuring its open answer targets.
   for (const viewport of [
     { width: 320, height: 568 }, { width: 390, height: 844 },
     { width: 768, height: 1024 }, { width: 1440, height: 900 },
@@ -570,7 +571,8 @@ test("@curated long recall answers grow the card and scroll with the whole colum
   await expect(page.locator(".ng-challenge-reward")).toHaveCount(0)
   await j.clickByMouse("[data-land-next]")
   await j.readerLayoutSettled()
-  // With the reserved node band, Reveal starts at y533 below the y478 flow end.
+  await j.openQuestion() // U34 a: Reveal the newly paged card before its separate recall Show answer control.
+  // With the reserved node band, Show answer starts at y533 below the y478 flow end.
   // Scroll it into view; the following native click must still own its centre.
   await page.locator("[data-land-reveal]").scrollIntoViewIfNeeded()
   await j.clickByMouse("[data-land-reveal]")

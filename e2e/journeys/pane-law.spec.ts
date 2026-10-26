@@ -22,6 +22,7 @@ test("opening the pane stops the game; closing it resumes the game @curated", as
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U34 a: establish an explicitly Revealed question for the pane to decline.
 
   expect(await paused(page), "roll is live after landing").toBe(false)
   expect(await shown(page), "pane starts shut").toBe(false)

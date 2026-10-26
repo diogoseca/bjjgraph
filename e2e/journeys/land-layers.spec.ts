@@ -199,6 +199,7 @@ test(`@curated the ✕ is sticky: the next landing builds no card and asks nothi
   const q = await j.landQuestion()
   expect(q, "expanding mid-landing asks").toBeTruthy()
   await expect(page.locator("[data-land-q]"), "the question is on the table").toBeVisible()
+  await j.openQuestion() // U34 a: restoring Questions exposes a cover; explicitly Reveal to arm its clock.
   const s4 = await read(page)
   expect(s4.keys.card).toBe(true)
   expect(s4.dockEls, "the shelf keeps the hide controls when every layer is open").toBe(1)

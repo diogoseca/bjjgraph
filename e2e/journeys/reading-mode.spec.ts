@@ -147,6 +147,7 @@ test("@curated reading interaction waits past the question window without a miss
   await j.land("Mount Top")
   await j.landQuestion()
   await expect(page.locator(READY)).toBeVisible({ timeout: 20000 })
+  await j.openQuestion() // U34 a: Reveal starts the live question that this reading interaction declines.
   await page.evaluate(() => { const a = (window as any).__neural; a._engage("reading-test"); a._tryArmClock() })
   expect((await state(page)).clock, "a live question before reading").toBeGreaterThan(0)
   const before = await state(page)
@@ -289,6 +290,7 @@ for (const action of ["wheel", "selection"] as const) {
     await j.advance(5000)
     await expect(page.locator(READY)).toBeVisible()
     await j.landQuestion()
+    await j.openQuestion() // U34 a: covered time is free; explicitly Reveal before testing the live-window gesture.
     await page.evaluate(() => { const a = (window as any).__neural; a._engage("reading-proof"); a._tryArmClock() })
     expect((await state(page)).clock).toBeGreaterThan(0)
     const before = await state(page)

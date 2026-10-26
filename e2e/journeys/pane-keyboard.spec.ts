@@ -96,6 +96,7 @@ test("@curated fresh, cached and backfilled landing pages preserve the pane's an
     return { ownsKeys: a._mc === m, correct: m.correct }
   })
   expect(land.ownsKeys, "the mounted landing block receives its keys back").toBe(true)
+  await j.openQuestion() // U34 a: key ownership is not consent; explicitly Reveal before the answer key.
   await page.keyboard.press("abc"[land.correct])
   await expect(page.locator(`[data-land-mc-opt="${land.correct}"]`)).toHaveAttribute("data-mc-result", "correct")
 })
