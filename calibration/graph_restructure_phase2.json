@@ -601,8 +601,8 @@
       "after": {
         "from_position": "Half Guard/Top",
         "success_rate": {
-          "gi": 41.0,
-          "nogi": 41.0
+          "gi": 55,
+          "nogi": 55
         },
         "outcomes": [
           {

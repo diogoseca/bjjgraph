@@ -434,8 +434,8 @@
           "nogi": 15
         },
         "success_rate": {
-          "gi": 55.0,
-          "nogi": 55.0
+          "gi": 55,
+          "nogi": 55
         },
         "outcomes": [
           {
@@ -978,8 +978,8 @@
           "nogi": 5
         },
         "success_rate": {
-          "gi": 58.0,
-          "nogi": 58.0
+          "gi": 58,
+          "nogi": 58
         },
         "outcomes": [
           {

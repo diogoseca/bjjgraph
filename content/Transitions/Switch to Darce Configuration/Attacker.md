@@ -82,10 +82,10 @@ description: "How to execute Switch to Darce Configuration in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "What mechanical difference decides between the darce switch and the anaconda switch?",
+      "name": "What threading path makes the darce switch mechanically available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The darce threads under the opponent's far armpit first and then wraps around the neck, while the anaconda wraps the neck first and connects under the armpit. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. Choose the anaconda when the near arm is tightly trapped between the opponent's head and your body and the far armpit is closed. The threading direction determines which choke is mechanically available."
+        "text": "The darce threads under the opponent's far armpit first and then wraps around the neck. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. If the far armpit is closed, keep the Buggy loop and re-read the opponent's reaction. The threading direction determines whether the darce is mechanically available."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "How to execute Switch to Darce Configuration in BJJ. Attacking per
       "name": "They clamp the far elbow to their ribs as you thread for the darce—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Abandon the darce angle because the threading path is blocked. Immediately switch to the anaconda configuration, which wraps the neck first and does not require far armpit access. Alternatively, return to the original buggy choke collar grip and wait for the opponent to react again, then read whether the next defensive motion opens the darce or anaconda path."
+        "text": "Keep the Buggy loop and re-read the opponent's reaction. The far elbow has closed the darce threading path, so retain control from underneath side control and reassess the opening before trying the switch again."
       }
     },
     {

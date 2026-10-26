@@ -61961,10 +61961,10 @@
           },
           "dealHere": true,
           "ownTable": true,
-          "successRate": 55.0,
+          "successRate": 55,
           "successRateByRuleset": {
-            "gi": 55.0,
-            "nogi": 55.0
+            "gi": 55,
+            "nogi": 55
           },
           "outcomes": [
             {
@@ -62557,10 +62557,10 @@
           },
           "dealHere": true,
           "ownTable": true,
-          "successRate": 58.0,
+          "successRate": 58,
           "successRateByRuleset": {
-            "gi": 58.0,
-            "nogi": 58.0
+            "gi": 58,
+            "nogi": 58
           },
           "outcomes": [
             {
@@ -665762,12 +665762,12 @@
           }
         },
         {
-          "question": "What mechanical difference decides between the darce switch and the anaconda switch?",
-          "answer": "The darce threads under the opponent's far armpit first and then wraps around the neck, while the anaconda wraps the neck first and connects under the armpit. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. Choose the anaconda when the near arm is tightly trapped between the opponent's head and your body and the far armpit is closed. The threading direction determines which choke is mechanically available.",
+          "question": "What threading path makes the darce switch mechanically available?",
+          "answer": "The darce threads under the opponent's far armpit first and then wraps around the neck. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. If the far armpit is closed, keep the Buggy loop and re-read the opponent's reaction. The threading direction determines whether the darce is mechanically available.",
           "answer_line": "Darce threads armpit, then neck",
           "distractors": {
             "plausible": [
-              "Anaconda threads armpit first",
+              "Darce wraps neck before armpit",
               "Choose darce when near arm trapped"
             ],
             "trap": [
@@ -665777,12 +665777,12 @@
         },
         {
           "question": "They clamp the far elbow to their ribs as you thread for the darce—how do you adjust?",
-          "answer": "Abandon the darce angle because the threading path is blocked. Immediately switch to the anaconda configuration, which wraps the neck first and does not require far armpit access. Alternatively, return to the original buggy choke collar grip and wait for the opponent to react again, then read whether the next defensive motion opens the darce or anaconda path.",
-          "answer_line": "Switch to anaconda configuration",
+          "answer": "Keep the Buggy loop and re-read the opponent's reaction. The far elbow has closed the darce threading path, so retain control from underneath side control and reassess the opening before trying the switch again.",
+          "answer_line": "Keep Buggy loop, re-read",
           "distractors": {
             "plausible": [
               "Force the thread through anyway",
-              "Return to buggy choke, reset"
+              "Lock figure-four before threading"
             ],
             "trap": [
               "Release all grips and disengage"
@@ -665880,7 +665880,7 @@
           "distractors": {
             "plausible": [
               "Release grip to regain top position",
-              "Switch to anaconda immediately"
+              "Loosen the figure-four to follow"
             ],
             "trap": [
               "Abandon choke, pass to side control"
@@ -665996,12 +665996,12 @@
           }
         },
         {
-          "question": "What mechanical difference decides between the darce switch and the anaconda switch?",
-          "answer": "The darce threads under the opponent's far armpit first and then wraps around the neck, while the anaconda wraps the neck first and connects under the armpit. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. Choose the anaconda when the near arm is tightly trapped between the opponent's head and your body and the far armpit is closed. The threading direction determines which choke is mechanically available.",
+          "question": "What threading path makes the darce switch mechanically available?",
+          "answer": "The darce threads under the opponent's far armpit first and then wraps around the neck. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. If the far armpit is closed, keep the Buggy loop and re-read the opponent's reaction. The threading direction determines whether the darce is mechanically available.",
           "answer_line": "Darce threads armpit, then neck",
           "distractors": {
             "plausible": [
-              "Anaconda threads armpit first",
+              "Darce wraps neck before armpit",
               "Choose darce when near arm trapped"
             ],
             "trap": [
@@ -666011,12 +666011,12 @@
         },
         {
           "question": "They clamp the far elbow to their ribs as you thread for the darce—how do you adjust?",
-          "answer": "Abandon the darce angle because the threading path is blocked. Immediately switch to the anaconda configuration, which wraps the neck first and does not require far armpit access. Alternatively, return to the original buggy choke collar grip and wait for the opponent to react again, then read whether the next defensive motion opens the darce or anaconda path.",
-          "answer_line": "Switch to anaconda configuration",
+          "answer": "Keep the Buggy loop and re-read the opponent's reaction. The far elbow has closed the darce threading path, so retain control from underneath side control and reassess the opening before trying the switch again.",
+          "answer_line": "Keep Buggy loop, re-read",
           "distractors": {
             "plausible": [
               "Force the thread through anyway",
-              "Return to buggy choke, reset"
+              "Lock figure-four before threading"
             ],
             "trap": [
               "Release all grips and disengage"
@@ -666114,7 +666114,7 @@
           "distractors": {
             "plausible": [
               "Release grip to regain top position",
-              "Switch to anaconda immediately"
+              "Loosen the figure-four to follow"
             ],
             "trap": [
               "Abandon choke, pass to side control"
@@ -804450,7 +804450,7 @@
     }
   },
   "meta": {
-    "generated": "2026-10-26T16:49:08.000164Z",
+    "generated": "2026-10-26T20:37:32.240603Z",
     "positionCount": 397,
     "transitionCount": 3009,
     "submissionCount": 923,
