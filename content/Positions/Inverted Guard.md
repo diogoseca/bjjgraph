@@ -184,7 +184,7 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 
 - **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (5% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (8% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
 - **[[Submissions/Omoplata/from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (2% of attempts)
 
@@ -211,8 +211,6 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 - **[[Transitions/Rolling Kneebar/Attacker|Rolling Kneebar]]** (2% of attempts)
 
 - **[[Transitions/Inverted Guard Elevation Sweep/Attacker|Inverted Guard Elevation Sweep]]** (5% of attempts)
-
-- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (4% of attempts)
 
 - **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (4% of attempts)
 

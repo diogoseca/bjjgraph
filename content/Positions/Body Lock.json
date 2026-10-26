@@ -134,11 +134,6 @@
             "technique": "Follow to Closed Guard Top",
             "target": "Closed Guard",
             "probability": 65
-          },
-          {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 55
           }
         ]
       },

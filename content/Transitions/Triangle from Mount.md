@@ -296,8 +296,6 @@ Triangle from Mount occupies a central role in the mount attack system, function
 
 - [[Transitions/S-Mount Transition]] - Variant entry—S-Mount provides shortened leg swing distance for triangle setup
 
-- [[Transitions/Back Take from Top]] - Chain attack—available when opponent turns away to defend the triangle
-
 - [[Positions/Triangle Control]] - Related position—shares triangle mechanics but from guard rather than mount
 
 - [[Transitions/Closed Guard to Triangle]] - Related transition—guard-based triangle entry with different strategic context and defensive challenges

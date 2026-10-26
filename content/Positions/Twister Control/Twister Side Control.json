@@ -120,7 +120,7 @@
         "condition": "If bottom player turns away exposing their back to escape shoulder pressure",
         "actions": [
           {
-            "technique": "Back Take",
+            "technique": "Twister SC to Back Take",
             "target": "Back Control",
             "probability": 75
           },

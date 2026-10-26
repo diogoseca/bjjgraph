@@ -276,7 +276,7 @@ When the grip is stripped, keep an inside shoulder frame and use a short hip esc
 ### 2. Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -290,7 +290,7 @@ When the grip is stripped, keep an inside shoulder frame and use a short hip esc
 ### 4. Close space with the arm, leg, and torso while avoiding twisting force on your own knee.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -304,7 +304,7 @@ When the grip is stripped, keep an inside shoulder frame and use a short hip esc
 
 <p class="section-subtitle">What is the best outcome when defending Grip Strip from Buggy Choke?</p>
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Buggy Choke]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.
 

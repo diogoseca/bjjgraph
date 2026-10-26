@@ -242,11 +242,6 @@
             "technique": "Bow and Arrow Choke",
             "target": "Game Over",
             "probability": 70
-          },
-          {
-            "technique": "Roll to Truck",
-            "target": "Truck",
-            "probability": 50
           }
         ]
       },

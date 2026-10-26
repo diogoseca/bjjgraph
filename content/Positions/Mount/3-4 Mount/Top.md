@@ -237,7 +237,6 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 
 **Else if opponent turns away from posted leg or exposes their back during escape attempt:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
 - Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
 

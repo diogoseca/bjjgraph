@@ -151,23 +151,21 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape from Mounted Crucifix/Attacker|Hip Escape from Mounted Crucifix]]** (19% of attempts)
-
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (13% of attempts)
-
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
-
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (14% of attempts)
-
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
-
-- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (10% of attempts)
-
 - **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (3% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Bridge Escape from Mounted Crucifix/Attacker|Bridge Escape from Mounted Crucifix]]** (12% of attempts)
 
-- **[[Transitions/Bridge Escape from Mounted Crucifix/Attacker|Bridge Escape from Mounted Crucifix]]** (11% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (14% of attempts)
+
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
+
+- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (11% of attempts)
+
+- **[[Transitions/Hip Escape from Mounted Crucifix/Attacker|Hip Escape from Mounted Crucifix]]** (20% of attempts)
+
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
+
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (15% of attempts)
 
 
 ### Common Mistakes

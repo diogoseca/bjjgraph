@@ -1715,6 +1715,43 @@ def load_votes(project_root: Path) -> dict[str, dict]:
     return rates
 
 
+# D-431: N4's Ashi/Bottom menu names the Aoki setup AND its distinct finish.
+# Variant-first resolution collapsed both into the finish and cut off Aoki Control.
+# This measured census is a gate: another co-listed seat needs an explicit review.
+CO_LISTED_TRANSITION_SEATS = frozenset({'ashi-garami/bottom'})
+
+
+def resolve_target(slug, leaf, *, listed_slugs, seat, transitions, submissions,
+                   co_listed_seats, unresolved_targets):
+    """Resolve one menu row; explicit co-listing keeps its two named moves distinct."""
+    if not slug:
+        return slug, False
+    if '-from-' not in slug and leaf:
+        sub_variant = f"{slug}-from-{leaf}"
+        if sub_variant in submissions:
+            if slug in transitions and {slug, sub_variant} <= listed_slugs:
+                co_listed_seats.add(seat)
+                return slug, False
+            return sub_variant, True
+        if sub_variant in transitions:
+            return sub_variant, False
+    if slug in submissions:
+        return slug, True
+    if slug in transitions:
+        return slug, False
+    unresolved_targets.append((slug, leaf))
+    return slug, False
+
+
+def check_co_listed_seats(seats):
+    """D-431: count the exercised rule and refuse an unreviewed seat or zero coverage."""
+    print(f"  Explicit co-listed transition/finish seats: {len(seats)} "
+          f"({', '.join(sorted(seats)) or 'none'})")
+    if seats != CO_LISTED_TRANSITION_SEATS:
+        raise ValueError(f"Co-listed target resolution census changed: "
+                         f"expected {sorted(CO_LISTED_TRANSITION_SEATS)}, got {sorted(seats)}")
+
+
 def generate_state_graph(project_root: Path) -> dict:
     content_dir = project_root / 'content'
     print(f"Processing content from: {content_dir}")
@@ -1811,6 +1848,7 @@ def generate_state_graph(project_root: Path) -> dict:
              f"matched nothing, so every published rate reverted to the authored one"))
 
     # Resolve position transition targets BY TYPE (type-aware disambiguation):
+    #   explicit co-listed transition + finish stay distinct (D-431); otherwise
     #   position-specific variant > real submission > transition; NEVER an edgeless family hub.
     # Fixes same-name collisions where a generic name exists as both a transition (entry) and a
     # family-hub submission (grouping): the old membership-only check shadowed the entry transition
@@ -1820,32 +1858,20 @@ def generate_state_graph(project_root: Path) -> dict:
     # so `slug in submissions` == a real (non-hub) submission node.
     all_submission_slugs = set(submissions.keys()) | hub_slugs
     unresolved_targets = []
-
-    def resolve_target(slug, leaf):
-        """Return (resolved_slug, is_submission) for a position->technique target, by node type."""
-        if not slug:
-            return slug, False
-        if '-from-' not in slug and leaf:
-            sub_variant = f"{slug}-from-{leaf}"
-            if sub_variant in submissions:
-                return sub_variant, True
-            if sub_variant in transitions:
-                return sub_variant, False
-        if slug in submissions:          # real submission (hubs not in `submissions` yet)
-            return slug, True
-        if slug in transitions:          # entry/movement transition
-            return slug, False
-        # Only a family hub (or nothing) matches — do NOT bind to the edgeless hub.
-        unresolved_targets.append((slug, leaf))
-        return slug, False
+    co_listed_seats = set()
 
     resolved_count = 0
     sr_from_attacker = sr_from_hub = sr_defaulted = sr_null = sr_own = 0
     for pos_data in positions.values():
         leaf = pos_data.get('hub', '')
+        seat = f"{leaf}/{pos_data.get('role', '')}"
+        listed_slugs = {t.get('target', '') for t in pos_data.get('transitions', [])}
         for t in pos_data.get('transitions', []):
             orig = t.get('target', '')
-            resolved, is_sub = resolve_target(orig, leaf)
+            resolved, is_sub = resolve_target(
+                orig, leaf, listed_slugs=listed_slugs, seat=seat,
+                transitions=transitions, submissions=submissions,
+                co_listed_seats=co_listed_seats, unresolved_targets=unresolved_targets)
             t['target'] = resolved
             t['isSubmission'] = is_sub
             coll = submissions if is_sub else transitions
@@ -1880,6 +1906,7 @@ def generate_state_graph(project_root: Path) -> dict:
             if t['successRate'] is None:
                 sr_null += 1
             resolved_count += 1
+    check_co_listed_seats(co_listed_seats)
     print(f"  Resolved {resolved_count} position transition target(s) by type "
           f"(successRate: {sr_from_attacker} from /attacker, {sr_from_hub} from hub, "
           f"{sr_defaulted} defaulted to 50, {sr_null} null, {sr_own} the listing's own)")

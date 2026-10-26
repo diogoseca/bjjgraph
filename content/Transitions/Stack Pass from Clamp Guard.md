@@ -251,8 +251,6 @@ The Stack Pass from Clamp Guard connects the clamp guard defensive hierarchy to 
 
 - [[Transitions/Armbar from Clamp Guard]] - Primary submission threat from clamp guard that motivates the stack pass over arm extraction
 
-- [[Transitions/Stack Pass from Carni]] - Related stacking pass concept from a similar Rubber Guard variant requiring analogous compression mechanics
-
 - [[Transitions/Complete Pass from Flattened Half]] - Related passing completion technique sharing lateral movement and crossface establishment principles
 
 - [[Positions/Closed Guard]] - Fallback position for the bottom player if clamp collapses but legs wrap around passer's torso

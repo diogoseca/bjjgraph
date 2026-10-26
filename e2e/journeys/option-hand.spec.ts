@@ -313,7 +313,7 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
       fbDistinct: new Set(fb).size,
     }
   })
-  expect(wire.n, "the corpus").toBe(288) // census:submissions
+  expect(wire.n, "the corpus").toBe(287) // census:submissions
   expect(wire.uncalibrated, "every submission carries a calibrated rate").toBe(0)
   expect(wire.min, "authored rates run from").toBe(10)
   expect(wire.max, "...to").toBe(74)

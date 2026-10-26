@@ -108,10 +108,6 @@
       "relationship": "Alternative escape technique using inside control to break body lock"
     },
     {
-      "name": "Back Take",
-      "relationship": "Opponent's highest-value transition that this escape aims to prevent"
-    },
-    {
       "name": "Standing Position",
       "relationship": "Possible intermediate position during escape"
     },

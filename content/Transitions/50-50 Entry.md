@@ -292,7 +292,7 @@ The 50-50 Entry functions as the primary gateway from inverted guard positions i
 
 - [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement accessible from 50-50
 
-- [[Transitions/Kiss of the Dragon]] - Aggressive berimbolo-style variant of the 50-50 Entry
+- [[Transitions/Kiss of the Dragon from RDLR]] - Aggressive berimbolo-style variant of the 50-50 Entry
 
 - [[Positions/Inverted Guard]] - Inverted guard variant commonly used to initiate 50-50 entries
 

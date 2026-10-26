@@ -323,8 +323,6 @@ The back control to crucifix transition occupies a critical position in modern b
 
 - [[Positions/Crab Ride]] - Related back attack control position with different entry angles
 
-- [[Transitions/Back Take]] - Prerequisite back taking ability needed before advancing to crucifix
-
 - [[Transitions/Crucifix from Turtle]] - Alternative crucifix entry bypassing standard back control
 
 

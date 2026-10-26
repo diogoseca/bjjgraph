@@ -280,7 +280,7 @@ The reverse half guard top position represents a critical moment in passing sequ
 <p class="section-subtitle">What should you do from Reverse Half Guard (Top)?</p>
 
 **If opponent attempts to turn and face you by rotating their chest toward you:**
-- Execute **[[Transitions/Aoki Lock to Back Control/Attacker|Aoki Lock to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Backstep from Reverse Half/Attacker|Backstep from Reverse Half]]** → [[Positions/Back Control]] (Probability: 70%)
 - Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 60%)
 
 

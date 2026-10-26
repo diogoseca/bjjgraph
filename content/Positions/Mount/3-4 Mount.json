@@ -258,11 +258,6 @@
         "condition": "Else if opponent turns away from posted leg or exposes their back during escape attempt",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 75
-          },
-          {
             "technique": "Side Control to North-South",
             "target": "North-South",
             "probability": 70

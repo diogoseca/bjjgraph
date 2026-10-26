@@ -164,11 +164,6 @@
             "technique": "Bow and Arrow Choke",
             "target": "Game Over",
             "probability": 55
-          },
-          {
-            "technique": "Roll to Truck",
-            "target": "Truck",
-            "probability": 50
           }
         ]
       }
@@ -617,7 +612,7 @@
             "probability": 60
           },
           {
-            "technique": "Elbow Escape to Remove Hooks",
+            "technique": "Escape Seat Belt Control",
             "target": "Turtle",
             "probability": 40
           }
@@ -647,7 +642,7 @@
             "probability": 45
           },
           {
-            "technique": "Elbow Escape to Remove Hooks",
+            "technique": "Escape Seat Belt Control",
             "target": "Half Guard",
             "probability": 40
           }
@@ -728,10 +723,6 @@
       {
         "name": "Hand Fighting from Back",
         "relationship": "Essential defensive transition for grip management from bottom back control"
-      },
-      {
-        "name": "Elbow Escape to Remove Hooks",
-        "relationship": "Critical escape technique for removing hooks and beginning escape sequence"
       },
       {
         "name": "Closed Guard",

@@ -328,8 +328,6 @@ The front headlock to back take serves as a critical connector in the overall BJ
 
 - [[Transitions/Chair Sit to Back]] - Related technique - Alternative back take method from turtle attack position
 
-- [[Transitions/Back Take from Top]] - Related transition - Alternative back take pathway from top position
-
 - [[Transitions/Arm Triangle from Front Headlock]] - Alternative attack - Choke option available when opponent defends back take
 
 - [[Transitions/Guillotine Defense]] - Defensive counter - Opponent may use guillotine defense concepts to prevent the transition

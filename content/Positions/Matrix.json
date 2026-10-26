@@ -243,7 +243,7 @@
             "probability": 60
           },
           {
-            "technique": "Back Take from Top",
+            "technique": "Matrix to Back Control",
             "target": "Back Control",
             "probability": 55
           }
@@ -345,7 +345,7 @@
         "relationship": "Pressure passing option after blocking Matrix rotation"
       },
       {
-        "name": "Back Take from Top",
+        "name": "Matrix to Back Control",
         "relationship": "Alternative back attack approach when Matrix is defended"
       },
       {

@@ -128,7 +128,7 @@ description: "The Aoki Lock is a rotational foot lock that captures a turned-out
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Rotational foot lock</span>
 <span class="meta-chip">Targets Foot and ankle, with rotational stress transmitted to the knee</span>
-<span class="meta-chip">~50% avg</span>
+<span class="meta-chip">~40% avg</span>
 </div>
 
 > [!danger] Safety
@@ -201,7 +201,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Aoki Lock/from Ashi Garami|Ashi Garami]] | Bottom | 60% | [[Submissions/Aoki Lock/from Ashi Garami/Attacker|Attack →]] | [[Submissions/Aoki Lock/from Ashi Garami/Defender|Defend →]] |
-| [[Submissions/Aoki Lock/from Aoki Lock Control|Aoki Lock Control]] | Top | 50% | [[Submissions/Aoki Lock/from Aoki Lock Control/Attacker|Attack →]] | [[Submissions/Aoki Lock/from Aoki Lock Control/Defender|Defend →]] |
+| [[Submissions/Aoki Lock/from Aoki Lock Control|Aoki Lock Control]] | Bottom | 35% | [[Submissions/Aoki Lock/from Aoki Lock Control/Attacker|Attack →]] | [[Submissions/Aoki Lock/from Aoki Lock Control/Defender|Defend →]] |
 
 
 </div>

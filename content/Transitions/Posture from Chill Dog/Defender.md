@@ -257,21 +257,21 @@ If the high control opens, switch to guard retention with an inside shoulder fra
 ### 2. Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Back Control]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 3. Move the controlling arm around the head while keeping the leg and trapped arm connected.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 4. Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -285,7 +285,7 @@ If the high control opens, switch to guard retention with an inside shoulder fra
 
 <p class="section-subtitle">What is the best outcome when defending Posture from Chill Dog?</p>
 
-### → [[Positions/Back Control]]
+### → [[Positions/Rubber Guard/Chill Dog]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
 

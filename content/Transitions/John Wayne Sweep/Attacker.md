@@ -16,7 +16,7 @@ description: "John Wayne Sweep (attacker): Contain one opposing leg while keepin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute John Wayne Sweep in BJJ",
-  "description": "Step-by-step guide for executing John Wayne Sweep from Butterfly Hook Control/Bottom.",
+  "description": "Step-by-step guide for executing John Wayne Sweep from Half Guard/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -219,7 +219,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Keep the underhooking elbow outside your hip to deny the Darce choke, and use the free hand to prevent a crossface while setting the knee lever. After coming on top, near-side underhook and shoulder pressure help free the head and begin passing the remaining half guard; this continuation follows the reversal rather than replacing it.
 
-**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -303,9 +303,9 @@ Keep the underhooking elbow outside your hip to deny the Darce choke, and use th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 58% |
-| Failure | [[Positions/Half Guard]] | 27% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Half Guard]] | 45% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -319,7 +319,7 @@ Keep the underhooking elbow outside your hip to deny the Darce choke, and use th
 - **A shallow lower-leg anchor with the opposing knee entering your hip signals the sweep.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Contain one opposing leg while keeping your own knee free to act as a lever. → Leads to [[Positions/Half Guard]]
 - **Keep a hand or foot able to support the tipping direction before the upper body is captured.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack. → Leads to [[Positions/Half Guard]]
 - **Avoid letting the bottom player connect their upper body directly under your base.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Place a shallow foot connection over the ankle or shin rather than locking the knee into a deep hook. → Leads to [[Positions/Half Guard]]
-- **Address the shallow foot anchor while the knee and hip can still move safely.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Bring the knee into the hip line as the other foot supplies a controlled post. → Leads to [[Positions/Half Guard]]
+- **Address the shallow foot anchor while the knee and hip can still move safely.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Bring the knee into the hip line as the other foot supplies a controlled post. → Leads to [[Positions/Side Control]]
 
 
 </section>

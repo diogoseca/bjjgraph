@@ -12,9 +12,10 @@ test("reviewed single origins and short trees are exact and stale rows fail", ()
   const cases = Number(output.match(/Ran (\d+) tests?/)?.[1] || 0)
   assert.ok(cases > 0, "single-origin approval tests did not run")
   assert.doesNotMatch(output, /skipped=\d+/)
-  assert.match(output, /Reviewed content exceptions: 7\/7 matched/)
-  assert.match(output, /'single_origin': 6, 'short_decision_tree': 1/)
-  console.log(`reviewed content exceptions: ${cases} Python cases asserted; 7/7 live rows matched`)
+  // ORCH-399 + explicit two-origin authorization; D-362 Top is now live too.
+  assert.match(output, /Reviewed content exceptions: 10\/10 matched/)
+  assert.match(output, /'single_origin': 8, 'short_decision_tree': 2/)
+  console.log(`reviewed content exceptions: ${cases} Python cases asserted; 10/10 live rows matched`)
 })
 
 test("blanket acceptance makes the named origin negative control red", () => {

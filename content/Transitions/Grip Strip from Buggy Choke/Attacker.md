@@ -303,9 +303,9 @@ Protect the neck as the hand-to-leg connection opens, then use hip control and a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 55% |
-| Failure | [[Positions/Buggy Choke]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Buggy Choke]] | 65% |
 
 
 </section>
@@ -317,9 +317,9 @@ Protect the neck as the hand-to-leg connection opens, then use hip control and a
 <p class="section-subtitle">How might your opponent counter Grip Strip from Buggy Choke?</p>
 
 - **Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Watch for an arm reaching past your head and connecting to the same-side leg. → Leads to [[Positions/Buggy Choke]]
-- **Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape. → Leads to [[Positions/Half Guard]]
+- **Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape. → Leads to [[Positions/Buggy Choke]]
 - **Shorten the connection through body position, not by pulling the foot hard toward the face.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee. → Leads to [[Positions/Buggy Choke]]
-- **Close space with the arm, leg, and torso while avoiding twisting force on your own knee.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Move only through available space after the loop opens; tap if the neck is already enclosed. → Leads to [[Positions/Half Guard]]
+- **Close space with the arm, leg, and torso while avoiding twisting force on your own knee.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Move only through available space after the loop opens; tap if the neck is already enclosed. → Leads to [[Positions/Buggy Choke]]
 
 
 </section>

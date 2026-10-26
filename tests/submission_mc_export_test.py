@@ -49,14 +49,22 @@ class SubmissionMCExport(unittest.TestCase):
     def setUpClass(cls):
         with contextlib.redirect_stdout(io.StringIO()):
             cls.exported, _, _ = graph.process_submissions(ROOT / 'content')
-            cls.sources = [s for s in graph.load_json_files(ROOT / 'content/Submissions')
+            # D-434: the reviewed Cross Collar record is retained as gi-only by
+            # N4 (restructure-numbers-n4.md:782-790). Read its authored pairs as
+            # process_submissions does; scalar reduction rejects that absent
+            # no-gi frame before this test can exercise its unchanged cards.
+            cls.sources = [s for s in graph.load_json_files(ROOT / 'content/Submissions', reduce=False)
                            if s.get('name') and not s.get('is_family')]
+        assert not graph._PARSE_FAILURES, graph._PARSE_FAILURES
         cls.by_name = {s['name']: s for s in cls.sources}
         # Premise migration approved by the owner: the unanimous retirements in
         # orchestrator reports/restructure-panel.md R20:547, R39:813, R41:841,
         # R43:869 match reports/graph-restructure-plan.md:681,687,691,695.
         # The reviewed-content claim survives: exercise every surviving deck;
         # only the ledger-backed retirements move to explicit absence assertions.
+        # N4 (D-429) also applies plan:519,520,522: the three unsupported
+        # Invisible Collar submissions (Bow and Arrow, Clock, Rear Naked Choke).
+        # Cross Collar is retained by the revised N4 table, cited above.
         # Keep the original 30-deck / 241-card receipt and archived card counts.
         approved = json.loads((ROOT / 'calibration/graph_restructure_phase2.json').read_text())['retirements']
         archived = {r['old_path']: r for r in json.loads(

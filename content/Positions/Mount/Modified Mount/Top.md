@@ -293,7 +293,6 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 
 **If opponent turns to side or turtles:**
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 70%)
 - Execute **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** → [[Positions/Mount/Technical Mount]] (Probability: 65%)
 
 

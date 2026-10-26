@@ -294,8 +294,6 @@ The Mounted Crucifix Entry serves as a critical link between S Mount attacking s
 
 - [[Positions/Mount/High Mount]] - Related position - high mount also offers crucifix entry opportunities
 
-- [[Transitions/Back Take from Top]] - Alternative advancement - back take available if crucifix fails but opponent turns
-
 - [[Transitions/Mount to Armbar]] - Primary chain - armbar setup from mount creates crucifix entry windows when failed armbar defense exposes the far arm
 
 

@@ -39,7 +39,7 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
@@ -265,7 +265,7 @@ From the bottom perspective, Inverted Guard represents a highly mobile defensive
 
 **Else if opponent commits weight forward to control position with close distance:**
 - Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **Else if opponent maintains distance and steps back to disengage:**
@@ -405,7 +405,7 @@ Focus specifically on berimbolo entries and rolling back takes from inverted gua
 - **[[Transitions/Berimbolo Entry]]** - Primary offensive transition utilizing inversion for back attack sequences
 - **[[Transitions/Rolling Back Take]]** - Key transition to back control from inverted position using rotational mechanics
 - **[[Transitions/Granby Roll to Guard]]** - Essential movement pattern for exiting inverted guard safely and recovering guard
-- **[[Transitions/Kiss of the Dragon]]** - Advanced back take variation from inverted guard with high finishing potential
+- **[[Transitions/Bolo Sweep]]** - Advanced back take variation from inverted guard with high finishing potential
 - **[[Positions/Twister Control/Truck]]** - Related inverted position with back attack and submission opportunities
 - **[[Positions/Spider Guard]]** - Entry position that can transition to inverted guard for defensive retention
 - **[[Positions/Lasso Guard]]** - Connected guard position with inversion pathways and similar control strategies

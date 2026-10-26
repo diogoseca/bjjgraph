@@ -20,39 +20,21 @@ description: "Aoki Lock Control bottom perspective: Recognize the foot orientati
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Aoki Lock from Aoki Lock Control",
+      "text": "From this position, attempt Aoki Lock from Aoki Lock Control. This technique is attempted in 60% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction to Turtle",
-      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Aoki Control Release to Ashi",
+      "text": "From this position, attempt Aoki Control Release to Ashi. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Kimura Switch",
+      "text": "From this position, attempt Kimura Switch. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Counter Roll to Top",
-      "text": "From this position, attempt Counter Roll to Top. This technique is attempted in 12% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Base Attack to Sweep",
-      "text": "From this position, attempt Base Attack to Sweep. This technique is attempted in 11% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -312,9 +294,9 @@ Work cooperatively on control the hip connection. Use the entanglement or foot-o
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 42% |
-| Advancement Probability | 50% |
-| Submission Probability | 28% |
+| Retention Rate | 78% |
+| Advancement Probability | 72% |
+| Submission Probability | 68% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

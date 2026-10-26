@@ -225,11 +225,6 @@
         "condition": "If opponent turns away from pressure to protect upper body",
         "actions": [
           {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 60
-          },
-          {
             "technique": "Side Control to Mount",
             "target": "Mount",
             "probability": 50

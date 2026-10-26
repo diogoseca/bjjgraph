@@ -243,8 +243,6 @@ Turtle Flatten to Side Control occupies a critical decision point in the turtle 
 
 - [[Positions/Side Control]] - Target position upon successful completion
 
-- [[Transitions/Back Take from Top]] - Primary alternative attack from turtle top
-
 - [[Transitions/Crucifix from Turtle]] - Alternative attack when opponent posts arm during flatten
 
 - [[Submissions/Kimura]] - Submission option on posted arm during flatten defense

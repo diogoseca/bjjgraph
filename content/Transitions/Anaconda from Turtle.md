@@ -298,8 +298,6 @@ The anaconda from turtle is part of the front headlock attack family and represe
 
 - [[Positions/Front Headlock]] - Parent position family from which anaconda attacks are launched
 
-- [[Transitions/Back Take from Top]] - Alternative turtle top attack focusing on positional advancement rather than submission
-
 - [[Positions/Anaconda Control]] - Target position where successful execution leads for finishing sequence
 
 - [[Transitions/Front Headlock to Anaconda]] - Alternative entry path to anaconda position from standing or scramble front headlock

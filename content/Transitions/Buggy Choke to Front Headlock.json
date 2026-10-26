@@ -15,33 +15,33 @@
   ],
   "outcomes": [
     {
+      "result": "success",
       "to": "Front Headlock/Top",
       "probability": {
-        "gi": 65,
-        "nogi": 65
-      },
-      "result": "success"
+        "gi": 35,
+        "nogi": 35
+      }
     },
     {
+      "result": "failure",
       "to": "Buggy Choke/Top",
       "probability": {
-        "gi": 25,
-        "nogi": 25
-      },
-      "result": "failure"
+        "gi": 45,
+        "nogi": 45
+      }
     },
     {
-      "to": "Turtle/Bottom",
+      "result": "counter",
+      "to": "Closed Guard/Top",
       "probability": {
-        "gi": 10,
-        "nogi": 10
-      },
-      "result": "counter"
+        "gi": 20,
+        "nogi": 20
+      }
     }
   ],
   "success_rate": {
-    "gi": 58,
-    "nogi": 58
+    "gi": 35,
+    "nogi": 35
   },
   "overview": "The top player is the choke defender even though this transition calls the moving player its attacker. Changing pins does not itself prove that the choke is gone. Clear the arm-and-leg loop first, and do not lift or slam the partner to escape.\n\nWatch for an arm reaching past your head and connecting to the same-side leg. Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape. Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.youtube.com/watch?v=zixbOyLpoOc); [Jay Rodriguez — three Buggy Choke mistakes](https://www.youtube.com/watch?v=MjKERx4N4mY).",
   "related_content": [
@@ -135,7 +135,7 @@
         "counter": "Close space with the arm, leg, and torso while avoiding twisting force on your own knee.",
         "effectiveness": "Low",
         "your_response": "Re-check the prerequisite before continuing. Move only through available space after the loop opens; tap if the neck is already enclosed.",
-        "targets_outcome": "Turtle/Bottom"
+        "targets_outcome": "Closed Guard/Top"
       }
     ],
     "common_errors": [
@@ -372,14 +372,14 @@
       {
         "action": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Turtle/Bottom",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Turtle/Bottom",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
@@ -393,7 +393,7 @@
       {
         "action": "Close space with the arm, leg, and torso while avoiding twisting force on your own knee.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Turtle/Bottom",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
@@ -404,7 +404,7 @@
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg."
       },
       {
-        "outcome": "Turtle/Bottom",
+        "outcome": "Closed Guard/Top",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg."
       }
     ],

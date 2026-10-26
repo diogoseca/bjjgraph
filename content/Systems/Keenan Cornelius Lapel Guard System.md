@@ -17,7 +17,7 @@ description: "What Keenan Cornelius’s public lapel-denial discussion reveals a
 <h1>Lapel Guard: What Stops the Entry</h1>
 <div class="system-tags"><span>Guard System</span><span>Advanced</span></div>
 
-<p class="system-reference-count">20 related references (techniques and positions)</p>
+<p class="system-reference-count">19 related references (techniques and positions)</p>
 </header>
 
 
@@ -118,9 +118,6 @@ These related references are not a claim about what the course teaches or eviden
 
 
 - [[Transitions/Lasso Guard Pass|Lasso Guard Pass]] (Transition)
-
-
-- [[Transitions/Back Take|Back Take]] (Transition)
 
 
 - [[Transitions/Triangle to Back|Triangle to Back]] (Transition)

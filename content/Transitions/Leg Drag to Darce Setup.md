@@ -250,8 +250,6 @@ The Leg Drag to Darce Setup occupies a crucial junction in the leg drag passing 
 
 - [[Transitions/Anaconda Choke]] - Alternative submission when elbow is tight
 
-- [[Transitions/Back Take from Top]] - Alternative attack from same position
-
 - [[Positions/Turtle]] - Opponent's defensive position that creates opportunity
 
 - [[Transitions/Leg Drag Pass to Side Control]] - Alternative consolidation from leg drag

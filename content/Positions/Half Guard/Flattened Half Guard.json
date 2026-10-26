@@ -103,11 +103,6 @@
         "condition": "If opponent turns away to escape crossface pressure or prevent pass completion",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 50
-          },
-          {
             "technique": "Side Control to Mount",
             "target": "Mount",
             "probability": 40

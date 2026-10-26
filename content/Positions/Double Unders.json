@@ -233,11 +233,6 @@
         "condition": "If opponent turns to their side trying to face away and escape the crushing pressure",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
             "technique": "Leg Weave Pass",
             "target": "Side Control",
             "probability": 65
@@ -378,36 +373,29 @@
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
+          "gi": 28,
+          "nogi": 28
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Over-Under Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 13
         },
         "deal_here": true,
         "success_rate": {
@@ -452,8 +440,8 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
@@ -466,8 +454,8 @@
       {
         "transition": "Stack Pass from Double Unders",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 16
+          "gi": 18,
+          "nogi": 17
         }
       },
       {

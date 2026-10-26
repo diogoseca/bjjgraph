@@ -102,7 +102,7 @@ description: "Hindulotine from Hindu Control joins the hands after the arm loops
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Leg-in guillotine</span>
 <span class="meta-chip">Targets Neck, enclosed by the arm and raised rubber-guard leg</span>
-<span class="meta-chip">40% success</span>
+<span class="meta-chip">30% success</span>
 </div>
 
 > [!danger] Safety
@@ -125,7 +125,7 @@ Drill the arm path with no choke pressure first. Protect the high knee, avoid ce
 
 Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc); [Ben Eddy — later Hindulotine S-grip clarification](https://www.10thplanetjj.com/forum/printthread.php?page=2&pp=10&t=22650).
 
-**Starting Position**: [[Positions/Hindulotine]] · **From**: [[Positions/Hindulotine]] (Top)
+**Starting Position**: [[Hindulotine/Bottom]] · **From**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -171,9 +171,9 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 40% |
-| Failure | [[Positions/Hindulotine]] | 39% |
-| Counter | [[Positions/Closed Guard]] | 21% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Hindulotine]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>

@@ -185,7 +185,7 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
 | **Position Type** | Offensive/Controlling | Defensive |
-| **Risk Level** | Medium | High |
+| **Risk Level** | High | High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
@@ -280,13 +280,7 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (29% of attempts)
-
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (28% of attempts)
-
-- **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** (23% of attempts)
-
-- **[[Transitions/Stack Pass from Carni/Attacker|Stack Pass from Carni]]** (20% of attempts)
+- **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** (100% of attempts)
 
 
 ### Common Mistakes

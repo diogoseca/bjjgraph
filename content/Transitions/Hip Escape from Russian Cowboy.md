@@ -255,8 +255,6 @@ The Hip Escape from Russian Cowboy occupies a critical role in the defensive hie
 
 - [[Positions/Back Control]] - Related dominant position sharing similar escape mechanics
 
-- [[Transitions/Arm Extraction to Turtle]] - Primary alternative escape from Russian Cowboy targeting turtle recovery
-
 - [[Positions/Turtle]] - Alternative escape target position when half guard recovery is blocked
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Preferred half guard variation to establish after successful escape

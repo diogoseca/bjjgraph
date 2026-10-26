@@ -343,8 +343,6 @@ The mat return from standing rear clinch functions as the critical link between 
 
 - [[Transitions/Double Leg Finish]] - Alternative takedown option from standing rear clinch when mat return is defended
 
-- [[Transitions/Back Take]] - Related back control entry transition from similar standing clinch positions
-
 
 </section>
 

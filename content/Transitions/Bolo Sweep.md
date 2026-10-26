@@ -241,7 +241,7 @@ The Bolo Sweep is the centerpiece technique of modern De La Riva guard systems, 
 
 - [[Transitions/De La Riva Sweep]] - Foundational technique from same position that chains directly into Bolo when defended
 
-- [[Transitions/Kiss of the Dragon]] - Complementary inversion attack creating two-directional rotational threat system
+- [[Transitions/Kiss of the Dragon from RDLR]] - Complementary inversion attack creating two-directional rotational threat system
 
 - [[Transitions/De La Riva to X-Guard Transition]] - Alternative transition when Bolo is defended by step-over or weight retraction
 

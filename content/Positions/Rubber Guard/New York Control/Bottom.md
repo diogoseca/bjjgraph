@@ -21,37 +21,37 @@ description: "Master offensive New York Control from bottom position. Complete g
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata",
-      "text": "From this position, attempt Gogoplata. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Omoplata",
-      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Back",
-      "text": "From this position, attempt Triangle to Back. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crackhead Control to Mission Control",
-      "text": "From this position, attempt Crackhead Control to Mission Control. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Crackhead Control to Mission Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -249,7 +249,6 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 
 
 **If opponent begins extracting leg from shoulder control:**
-- Execute **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 60%)
 - Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 

@@ -303,9 +303,9 @@ Protect the neck and clear the loop before circling around the shoulders. In the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/North-South]] | 55% |
-| Failure | [[Positions/Buggy Choke]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/North-South]] | 35% |
+| Failure | [[Positions/Buggy Choke]] | 45% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>

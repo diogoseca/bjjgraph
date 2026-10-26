@@ -263,8 +263,6 @@ The Japanese Necktie Setup is a crucial component of the front headlock attack s
 
 - [[Transitions/Arm Triangle from Front Headlock]] - Related neck attack from same control
 
-- [[Transitions/Back Take from Top]] - Positional alternative if submission fails
-
 
 </section>
 

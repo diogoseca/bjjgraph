@@ -307,8 +307,6 @@ The Underhook Sweep from Dogfight sits at a critical junction in the half guard 
 
 - [[Transitions/Forward Drive Sweep from Dogfight]] - Related forward-pressure sweep that chains with underhook sweep in the dogfight attack system
 
-- [[Transitions/Back Take]] - Alternative attack from dogfight when opponent overdefends the sweep by posting wide
-
 - [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome when opponent successfully drives you back down from dogfight
 
 - [[Positions/Half Guard]] - Parent position system from which dogfight and this sweep originate

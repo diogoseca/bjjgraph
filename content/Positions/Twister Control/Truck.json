@@ -155,7 +155,7 @@
         "condition": "Else if opponent clears boot pressure and begins to escape leg entanglement",
         "actions": [
           {
-            "technique": "Back Take from Top",
+            "technique": "Truck to Back Control",
             "target": "Back Control",
             "probability": 55
           },
@@ -170,7 +170,7 @@
         "condition": "Else if opponent turtles up or attempts to stand",
         "actions": [
           {
-            "technique": "Back Take from Top",
+            "technique": "Truck to Back Control",
             "target": "Back Control",
             "probability": 60
           },

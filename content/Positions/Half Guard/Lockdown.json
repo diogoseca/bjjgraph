@@ -686,11 +686,6 @@
             "technique": "Whip-up Sweep",
             "target": "Dogfight Position",
             "probability": 65
-          },
-          {
-            "technique": "Roll to Truck",
-            "target": "Truck",
-            "probability": 55
           }
         ]
       },

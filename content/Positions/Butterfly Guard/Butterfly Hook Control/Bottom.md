@@ -20,38 +20,38 @@ description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide coveri
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Arm Drag Sweep",
+      "text": "From this position, attempt Arm Drag Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Butterfly Hook Recovery",
+      "text": "From this position, attempt Butterfly Hook Recovery. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elevator Sweep",
-      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Butterfly Hook Sweep",
+      "text": "From this position, attempt Butterfly Hook Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke from Butterfly Guard",
-      "text": "From this position, attempt Guillotine Choke from Butterfly Guard. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Butterfly Sweep",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -405,7 +405,7 @@ Flow between butterfly guard and related positions: X-Guard, Deep Half, Back Tak
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

@@ -200,7 +200,7 @@ class Seam(unittest.TestCase):
                                            if t["result"]["success_rate"][fr] is not None})
             for t in expected["retired"]:
                 self.assertNotIn((t["listing"], t["move"]), dealt[fr], t["key"] + ": approved removed listing")
-        self.assertEqual(expected["surviving"], 91)
+        self.assertEqual(expected["surviving"], 88)
         self.assertGreater(expected["surviving"], 0, "the reviewed table sweep cannot be empty")
         print(f"listing tables Python: {expected['surviving']} surviving reviewed, {expected['added']} added, "
               f"{len(expected['retired'])} absent; gi={own['gi']}, nogi={own['nogi']}")

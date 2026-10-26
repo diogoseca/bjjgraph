@@ -239,7 +239,7 @@
         "condition": "If opponent defends armbar by turning away and exposing back",
         "actions": [
           {
-            "technique": "Back Take",
+            "technique": "Technical Mount to Back Control",
             "target": "Back Control",
             "probability": 75
           },
@@ -274,7 +274,7 @@
             "probability": 65
           },
           {
-            "technique": "Back Take",
+            "technique": "Technical Mount to Back Control",
             "target": "Back Control",
             "probability": 60
           }

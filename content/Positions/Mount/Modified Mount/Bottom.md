@@ -270,7 +270,6 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 
 **If opponent transitions toward S-mount or technical mount:**
-- Execute **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
 
 

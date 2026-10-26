@@ -253,8 +253,6 @@ Truck Position Entry from standing back control serves as a critical branching p
 
 - [[Submissions/Banana Split]] - Alternative submission from Truck position
 
-- [[Transitions/Back Take from Top]] - Alternative transition from standing back control
-
 - [[Submissions/Rear Naked Choke]] - Alternative standing back control attack
 
 - [[Transitions/Crucifix Transition]] - Alternative control option from standing back control
@@ -262,8 +260,6 @@ Truck Position Entry from standing back control serves as a critical branching p
 - [[Transitions/Mat Return to Back Mount]] - Alternative takedown from standing back control
 
 - [[Transitions/Body Triangle Lock]] - Setup tool to compromise base before Truck entry
-
-- [[Transitions/Roll to Truck]] - Related Truck entry variant
 
 - [[Positions/Half Guard/Electric Chair]] - Related Twister system submission
 

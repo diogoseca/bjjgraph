@@ -134,11 +134,6 @@
         "condition": "If opponent turns to side attempting to escape",
         "actions": [
           {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 50
-          },
-          {
             "technique": "S-Mount Transition",
             "target": "S Mount",
             "probability": 70

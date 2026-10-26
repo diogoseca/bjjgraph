@@ -86,10 +86,6 @@
       "relationship": "Related back attack control position with different entry angles"
     },
     {
-      "name": "Back Take",
-      "relationship": "Prerequisite back taking ability needed before advancing to crucifix"
-    },
-    {
       "name": "Crucifix from Turtle",
       "relationship": "Alternative crucifix entry bypassing standard back control"
     }

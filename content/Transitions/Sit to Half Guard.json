@@ -14,33 +14,33 @@
   "from_position": "Buggy Choke/Bottom",
   "outcomes": [
     {
+      "result": "success",
       "to": "Half Guard/Bottom",
       "probability": {
-        "gi": 55,
-        "nogi": 55
-      },
-      "result": "success"
+        "gi": 40,
+        "nogi": 40
+      }
     },
     {
+      "result": "failure",
       "to": "Buggy Choke/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
-      },
-      "result": "failure"
+        "gi": 40,
+        "nogi": 40
+      }
     },
     {
-      "to": "Back Control/Bottom",
+      "result": "counter",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 20,
         "nogi": 20
-      },
-      "result": "counter"
+      }
     }
   ],
   "success_rate": {
-    "gi": 55,
-    "nogi": 55
+    "gi": 40,
+    "nogi": 40
   },
   "summary": "Sit to Half Guard is a defensive escape from the Buggy Choke where the bottom player sits through from turtle to recover a leg entanglement, exchanging a collapsing turtle for the stronger framing and offense of Half Guard.",
   "overview": "The Sit to Half Guard transition represents a fundamental defensive escape from the Buggy Choke position that prioritizes guard recovery over continued turtle defense. When an opponent establishes threatening collar control from turtle top, the sitting motion creates a structural change that eliminates the choking angle while simultaneously recovering a leg entanglement that offers better defensive options.\n\nThis escape operates on the principle that Half Guard, while still a bottom position, provides significantly better defensive structure than remaining in a deteriorating turtle against a skilled attacker. The transition exploits the brief window where the opponent must adjust their weight distribution during your sitting motion, creating opportunity to establish the inside knee shield and hip positioning characteristic of effective Half Guard defense.\n\nStrategically, this technique is most valuable when grip prevention has failed and the opponent has begun establishing deep collar access. Rather than continuing a losing grip fight from turtle, the proactive sit creates immediate positional change that forces the top player to abandon their choking mechanics and address the new guard configuration. The timing window is critical—execute too early and you create unnecessary back exposure, too late and the choke is already locked.",
@@ -150,7 +150,7 @@
         "counter": "Opponent follows your sit and immediately takes the back with hooks",
         "effectiveness": "High",
         "your_response": "Accelerate the sitting motion and immediately hip escape away while inserting knee shield. Prioritize facing opponent over protecting your back during the transition window.",
-        "targets_outcome": "Back Control/Bottom"
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Opponent maintains collar grip and transitions to side control collar choke",
@@ -428,7 +428,7 @@
       {
         "action": "Follow the sit immediately and insert hooks for back control before knee shield can be established",
         "when_to_use": "When the sitting motion has already begun and prevention is no longer possible—capitalize on the exposed back during transition",
-        "targets_outcome": "Back Control/Bottom",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "You establish back control with hooks and seatbelt, converting from buggy choke attack to the most dominant position in BJJ",
         "risk": "If you are too slow with hook insertion, opponent completes the sit and establishes Half Guard before you can secure back control"
       },
@@ -453,7 +453,7 @@
         "how": "Prevent the sit entirely through heavy perpendicular sprawl pressure when you recognize the posting hand or hip shift. Drive your chest down and hips heavy to pin opponent's hips to the mat, eliminating the mobility they need for the sitting motion. Alternatively, if the sit is partially completed, use immediate crossface pressure and hip drive to flatten opponent before they can establish knee shield or leg entanglement."
       },
       {
-        "outcome": "Back Control/Bottom",
+        "outcome": "Side Control/Bottom",
         "how": "When the sit is already in motion and cannot be prevented, immediately follow opponent's hip movement and insert your hooks before they can turn and face you. The sitting motion necessarily exposes the back—use this window by maintaining your seatbelt grip while transitioning your legs from buggy choke top to back control hooks. Drive your top hook in first, then bottom hook, and pull opponent back into your chest-to-back connection."
       }
     ],

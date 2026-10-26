@@ -140,12 +140,12 @@ Emerging from Eddie Bravo's 10th Planet Jiu-Jitsu, the Rubber Guard reimagined w
 | [[Mission Control]] | Medium | High | Medium | High | High guard trades base for submission proximity |
 | [[New York]] | Medium | High | Medium | High | High-risk control trading stability for attacks |
 | [[New York Control]] | Medium | High | Medium | Medium | Extreme flexibility enables submission access |
-| [[Invisible Collar]] | High | Low to Medium | Medium | Medium | High two-leg clinch with an isolated arm |
-| [[Zombie]] | Medium | Medium | Medium | Medium | Arm pummel from Mission Control to New York |
+| [[Invisible Collar]] | Medium to High | Medium to High | Medium | Medium | High two-leg clinch with an isolated arm |
+| [[Zombie]] | Medium to High | Medium to High | Medium | Medium | Arm pummel from Mission Control to New York |
 | [[Crackhead Control]] | Medium to High | Medium to High | Medium | Medium | Two-leg reinforcement of Mission Control |
 | [[Meathook]] | Medium | High | High | High | Arm isolation via shin hook enables choke chains |
-| [[Chill Dog]] | Medium | Low to Medium | Medium | Medium | Neck-cleared New York rubber-guard control |
-| [[Carni]] | Medium | High | Medium | Medium | Leg-assisted shoulder isolation from guard |
+| [[Chill Dog]] | Medium to High | Medium to High | Medium | Medium | Neck-cleared New York rubber-guard control |
+| [[Carni]] | High | High | Medium | Medium | Leg-assisted shoulder isolation from guard |
 
 
 

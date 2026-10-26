@@ -231,7 +231,7 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 **If opponent advances hooking leg toward truck position:**
 - Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Roll Escape from Russian Cowboy/Attacker|Roll Escape from Russian Cowboy]]** → [[Positions/Turtle]] (Probability: 55%)
 
 
 **If opponent loosens upper body control to adjust position:**

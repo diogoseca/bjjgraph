@@ -253,11 +253,6 @@
         "condition": "Else if bottom player attempts to turn away or go to turtle",
         "actions": [
           {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 65
-          },
-          {
             "technique": "Darce Setup",
             "target": "Darce Control",
             "probability": 55

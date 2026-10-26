@@ -290,7 +290,7 @@ This position represents a critical junction in mount offense where the practiti
 
 
 **If opponent defends armbar by turning away and exposing back:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** → [[Positions/Back Control]] (Probability: 75%)
 - Execute **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** → [[Positions/Gift Wrap]] (Probability: 65%)
 
 
@@ -301,7 +301,7 @@ This position represents a critical junction in mount offense where the practiti
 
 **If opponent bridges explosively or attempts to roll while arm is controlled:**
 - Execute **[[Submissions/Armbar/from Technical Mount/Attacker|Armbar from Technical Mount]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 

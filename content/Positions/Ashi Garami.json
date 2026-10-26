@@ -436,8 +436,8 @@
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 20
+          "gi": 15,
+          "nogi": 19
         },
         "deal_here": true,
         "success_rate": {
@@ -483,20 +483,20 @@
         "transition": "Heel Hook from Ashi Garami",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 20
+          "nogi": 19
         }
       },
       {
         "transition": "Straight Ankle Lock Entry",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 15
+          "gi": 23,
+          "nogi": 14
         }
       },
       {
         "transition": "50-50 Entry",
         "attempt_probability": {
-          "gi": 16,
+          "gi": 15,
           "nogi": 9
         },
         "deal_here": true,
@@ -586,6 +586,13 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 4
+        }
+      },
+      {
+        "transition": "Aoki Lock",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

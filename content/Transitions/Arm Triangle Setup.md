@@ -245,8 +245,6 @@ The Arm Triangle Setup serves as a critical link in the North-South submission c
 
 - [[Submissions/Arm Triangle]] - Primary submission finish available once the head-and-arm configuration is locked
 
-- [[Transitions/Arm Triangle Transition]] - Alternative arm triangle entry path from different positions
-
 - [[Transitions/Arm Triangle from Top]] - Related setup initiated from side control rather than North-South
 
 - [[Transitions/North-South to Kimura]] - Complementary attack creating a three-way submission chain from North-South

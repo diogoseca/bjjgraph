@@ -11,7 +11,7 @@
   "submission_type": "Leg-in guillotine",
   "target_area": "Neck, enclosed by the arm and raised rubber-guard leg",
   "starting_position": "Hindulotine",
-  "from_position": "Hindulotine/Top",
+  "from_position": "Hindulotine/Bottom",
   "success_rate": {
     "gi": 40,
     "nogi": 40

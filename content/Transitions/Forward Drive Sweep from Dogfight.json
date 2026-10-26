@@ -90,10 +90,6 @@
       "relationship": "Complementary sweep from same position that chains when forward drive is defended"
     },
     {
-      "name": "Back Take",
-      "relationship": "Alternative offensive path from Dogfight when forward drive forces defensive overcommitment"
-    },
-    {
       "name": "Deep Half Guard",
       "relationship": "Fallback transition when opponent applies overwhelming forward pressure against the drive"
     },

@@ -324,9 +324,9 @@ Treat the failed pummel as a guard retention problem: keep the forearm between t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 45% |
-| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
-| Counter | [[Positions/Open Guard]] | 25% |
+| Success | [[Positions/Closed Guard]] | 65% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 20% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>

@@ -9,33 +9,33 @@
   "from_position": "Chill Dog/Top",
   "outcomes": [
     {
+      "result": "success",
       "to": "Half Guard/Top",
-      "probability": {
-        "gi": 45,
-        "nogi": 45
-      },
-      "result": "success"
-    },
-    {
-      "to": "Chill Dog/Top",
       "probability": {
         "gi": 35,
         "nogi": 35
-      },
-      "result": "failure"
+      }
     },
     {
+      "result": "failure",
+      "to": "Chill Dog/Top",
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      }
+    },
+    {
+      "result": "counter",
       "to": "Closed Guard/Top",
       "probability": {
         "gi": 20,
         "nogi": 20
-      },
-      "result": "counter"
+      }
     }
   ],
   "success_rate": {
-    "gi": 45,
-    "nogi": 45
+    "gi": 35,
+    "nogi": 35
   },
   "summary": "Defending Chill Dog requires a safe base and release of the high-leg enclosure before advancing through the remaining guard.",
   "overview": "The top player faces a bottom guard player using Chill Dog; the head, shoulder or arm may still be enclosed. Forward pressure must not fold the partner onto the neck. The reviewed sources do not establish stacking as a required Chill Dog escape or an automatic Half Guard result.\n\nKeep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).",

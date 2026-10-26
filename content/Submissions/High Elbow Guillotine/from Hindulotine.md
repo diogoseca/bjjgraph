@@ -102,7 +102,7 @@ description: "The high-elbow guillotine raises the supporting elbow over the sho
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">High-elbow guillotine</span>
 <span class="meta-chip">Targets Neck</span>
-<span class="meta-chip">58% success</span>
+<span class="meta-chip">30% success</span>
 </div>
 
 > [!danger] Safety
@@ -125,7 +125,7 @@ Raise the elbow through available space, never by wrenching the shoulder or neck
 
 Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control](https://www.grapplearts.com/guillotine-choke/); [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc).
 
-**Starting Position**: [[Positions/Hindulotine]] · **From**: [[Positions/Hindulotine]] (Bottom)
+**Starting Position**: [[Hindulotine/Bottom]] · **From**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -171,9 +171,9 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Hindulotine]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Hindulotine]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>

@@ -290,7 +290,6 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 **Else if opponent turns into triangle attempting escape:**
 - Execute **[[Extend Hips and Finish Triangle/Attacker|Extend Hips and Finish Triangle]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
 
 
 **Else if opponent creates space by posting free arm:**

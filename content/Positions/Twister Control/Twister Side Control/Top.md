@@ -237,7 +237,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 
 **If bottom player turns away exposing their back to escape shoulder pressure:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Twister SC to Back Take/Attacker|Twister SC to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
 - Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
 
 

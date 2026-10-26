@@ -229,7 +229,6 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 
 **If opponent turns away from pressure to protect upper body:**
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 60%)
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 

@@ -143,21 +143,17 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (21% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (12% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (16% of attempts)
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (25% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (7% of attempts)
+- **[[Transitions/Guard Recovery from Guillotine Control/Attacker|Guard Recovery from Guillotine Control]]** (30% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (14% of attempts)
+- **[[Transitions/Guillotine Escape to Von Flue/Attacker|Guillotine Escape to Von Flue]]** (2% of attempts)
 
-- **[[Transitions/Guard Recovery from Guillotine Control/Attacker|Guard Recovery from Guillotine Control]]** (17% of attempts)
+- **[[Transitions/Guillotine Escape via Posture/Attacker|Guillotine Escape via Posture]]** (2% of attempts)
 
-- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (23% of attempts)
-
-- **[[Transitions/Guillotine Escape to Von Flue/Attacker|Guillotine Escape to Von Flue]]** (1% of attempts)
-
-- **[[Transitions/Guillotine Escape via Posture/Attacker|Guillotine Escape via Posture]]** (1% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (29% of attempts)
 
 
 ### Common Mistakes

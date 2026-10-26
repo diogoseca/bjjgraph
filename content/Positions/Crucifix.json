@@ -512,7 +512,7 @@
         "condition": "If trapped arm begins to free from leg trap with space creation",
         "actions": [
           {
-            "technique": "Arm Extraction to Turtle",
+            "technique": "Crucifix Choke Defense",
             "target": "Turtle",
             "probability": 55
           },

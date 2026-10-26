@@ -13,7 +13,8 @@ test(file, () => {
   assert.equal(result.status, 0, out);
   const ran = Number((out.match(/Ran (\d+) tests?/) || [])[1] || 0);
   assert.ok(ran > 0, file + ' ran no tests');
-  assert.match(out, /listing tables Python: 91 surviving reviewed, 2 added, 4 absent; gi=93, nogi=83/);
+  // N4 removes three reviewed listings; exact approvals are in _listing_table_expectations.py.
+  assert.match(out, /listing tables Python: 88 surviving reviewed, 2 added, 7 absent; gi=90, nogi=80/);
   if (process.env.CI) assert.doesNotMatch(out, /skipped=\d+/, file + ': a skipped case is a failure in CI\n' + out);
   console.log(`${file}: ${ran} Python cases`);
   console.log(out.match(/listing tables Python:[^\n]+/)[0]);

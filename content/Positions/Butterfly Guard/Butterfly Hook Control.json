@@ -748,66 +748,24 @@
     },
     "transitions": [
       {
-        "transition": "Butterfly Sweep",
+        "transition": "Arm Drag Sweep",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 16
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 13
         }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Hook Sweep",
-        "attempt_probability": {
-          "gi": 10,
+          "gi": 9,
           "nogi": 9
-        }
-      },
-      {
-        "transition": "Elevator Sweep",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Guillotine Choke from Butterfly Guard",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Deep Half Entry",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Single Leg X Entry",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Butterfly Sweep with Guillotine",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 4
         }
       },
       {
@@ -818,10 +776,17 @@
         }
       },
       {
-        "transition": "Kimura Sweep",
+        "transition": "Butterfly Hook Sweep",
         "attempt_probability": {
           "gi": 4,
           "nogi": 4
+        }
+      },
+      {
+        "transition": "Butterfly Sweep",
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 17
         }
       },
       {
@@ -832,21 +797,35 @@
         }
       },
       {
-        "transition": "John Wayne Sweep",
+        "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
-        "transition": "Arm Drag Sweep",
+        "transition": "Elevator Sweep",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
-        "transition": "Butterfly Hook Sweep",
+        "transition": "Guillotine Choke from Butterfly Guard",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Hook Sweep",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Kimura Sweep",
         "attempt_probability": {
           "gi": 4,
           "nogi": 4
@@ -857,6 +836,13 @@
         "attempt_probability": {
           "gi": 4,
           "nogi": 4
+        }
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 12
         }
       }
     ],

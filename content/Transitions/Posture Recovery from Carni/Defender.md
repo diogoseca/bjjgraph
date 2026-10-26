@@ -261,7 +261,7 @@ As the shoulder clamp opens, rebuild guard retention with a frame on the side of
 ### 1. Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Ashi Garami/Saddle]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -275,7 +275,7 @@ As the shoulder clamp opens, rebuild guard retention with a frame on the side of
 ### 3. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -296,7 +296,7 @@ As the shoulder clamp opens, rebuild guard retention with a frame on the side of
 
 <p class="section-subtitle">What is the best outcome when defending Posture Recovery from Carni?</p>
 
-### → [[Positions/Ashi Garami/Saddle]]
+### → [[Positions/Rubber Guard/Carni]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 

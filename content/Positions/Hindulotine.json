@@ -35,8 +35,8 @@
     "overview": "The top player is responsible for recognizing and defending the control. The bottom player is on the back or hip with the raised rubber-guard knee close to the torso. The controlling arm passes over the foot and around the opponent's shoulder into the head-control space. The leg remains part of the enclosure when the hands connect for the choke. The top player faces the guard player and must address the neck enclosure even if the lower leg is passed.\n\nAn elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control. Avoid twisting the head against a fixed leg-and-arm enclosure. Use an inside hand frame before the attacker connects the finishing grip.\n\nClearing the lower leg alone may leave the neck caught; address the upper enclosure first. Move the head and shoulders free after the hand and high-leg controls have loosened. Do not wait for dizziness or severe pain before stopping a choke attempt.\n\nHindu Control is the holding configuration; Hindulotine names the choke applied from it. The raised leg contributes to head control, so an ordinary front-headlock guillotine does not by itself establish this position. A choke can impair consciousness quickly. Drill the entry without neck pressure, never add a neck twist, and release both hands and the high leg on any tap or loss of normal responsiveness.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
+      "position_type": "Defensive",
+      "risk_level": "High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -155,15 +155,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 78,
+        "value": 72,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 70,
+        "value": 65,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 65,
+        "value": 60,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
@@ -177,52 +177,10 @@
     ],
     "transitions": [
       {
-        "transition": "Guillotine Choke from Hindulotine",
+        "transition": "Hindu Control Head and Leg Release",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 25
-        }
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Front Headlock to Back",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Snap Down to Front Headlock",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Hindulotine from Hindulotine",
-        "attempt_probability": {
-          "gi": 21,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Finish from Hindulotine",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Arm Triangle from Hindulotine",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 100,
+          "nogi": 100
         }
       }
     ],
@@ -346,8 +304,8 @@
     "overview": "The bottom player is responsible for maintaining the control. The bottom player is on the back or hip with the raised rubber-guard knee close to the torso. The controlling arm passes over the foot and around the opponent's shoulder into the head-control space. The leg remains part of the enclosure when the hands connect for the choke. The top player faces the guard player and must address the neck enclosure even if the lower leg is passed.\n\nHug the knee and turn onto the hip to create room for the arm path. Bring the elbow above the raised foot and the hand around the shoulder rather than forcing it straight through a closed gap. Hold the head and leg enclosure without finishing pressure before seeking the second hand.\n\nUse the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration. Do not assume the choke has disappeared merely because the opponent clears the lower leg. Open the hands and move the controlling leg away immediately when a partner taps or stops responding normally.\n\nHindu Control is the holding configuration; Hindulotine names the choke applied from it. The raised leg contributes to head control, so an ordinary front-headlock guillotine does not by itself establish this position. A choke can impair consciousness quickly. Drill the entry without neck pressure, never add a neck twist, and release both hands and the high leg on any tap or loss of normal responsiveness.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Medium",
+      "position_type": "Offensive/Controlling",
+      "risk_level": "High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -466,15 +424,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 72,
+        "value": 78,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 65,
+        "value": 70,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 60,
+        "value": 65,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
@@ -488,66 +446,59 @@
     ],
     "transitions": [
       {
-        "transition": "Hindulotine to Darce Choke",
+        "transition": "Hindulotine from Hindulotine",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 13
+          "gi": 35,
+          "nogi": 30
         }
       },
       {
-        "transition": "Hindulotine to Anaconda Choke",
+        "transition": "Hindu Control to Triangle",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Back Take from Bottom",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Butterfly Sweep with Guillotine",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Guard Recovery from Hindulotine",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 12
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
-        "transition": "Arm Triangle Transition",
+        "transition": "Arm Triangle from Hindulotine",
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
         }
       },
       {
-        "transition": "Sweep to Mount",
+        "transition": "Back Take from Bottom",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
+          "gi": 5,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Guillotine Choke from Hindulotine",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 15
         }
       },
       {
         "transition": "High Elbow Guillotine from Hindulotine",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 11
+          "gi": 5,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Hindulotine to Anaconda Choke",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
         }
       }
     ],

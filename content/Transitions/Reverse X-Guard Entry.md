@@ -247,7 +247,7 @@ Reverse X-Guard Entry serves as a critical bridge between inverted guard mobilit
 
 - [[Transitions/Berimbolo Entry]] - Alternative attack from same position; chains well when this entry is blocked
 
-- [[Transitions/Kiss of the Dragon]] - Can convert to back take using same initial motion when opponent defends strongly
+- [[Transitions/Kiss of the Dragon from RDLR]] - Can convert to back take using same initial motion when opponent defends strongly
 
 - [[Transitions/Granby Roll to Guard]] - Defensive escape when stack pressure prevents entry attempt
 

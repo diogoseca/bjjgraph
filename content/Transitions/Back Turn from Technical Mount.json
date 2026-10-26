@@ -101,10 +101,6 @@
       "relationship": "Parent position of technical mount from which the overall escape sequence begins"
     },
     {
-      "name": "Back Take",
-      "relationship": "Opponent's transition used to follow the turn and establish back control with hooks"
-    },
-    {
       "name": "Half Guard",
       "relationship": "Alternative escape target from technical mount bottom when back turn is not necessary"
     },

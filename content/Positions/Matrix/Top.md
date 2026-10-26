@@ -281,7 +281,7 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 **Matrix rotation blocked successfully, opponent momentarily vulnerable:**
 - Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Matrix to Back Control/Attacker|Matrix to Back Control]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Opponent actively threatening Matrix, defensive posture required:**
@@ -398,7 +398,7 @@ Bottom player is encouraged to attempt Matrix back takes while top player focuse
 - **[[Transitions/Back Step]]** - Counter-attack available when opponent commits to Matrix rotation
 - **[[Transitions/Darce from Turtle]]** - Offensive counter when opponent posts arm for Matrix entry
 - **[[Transitions/Crossface Pass]]** - Pressure passing option after blocking Matrix rotation
-- **[[Transitions/Back Take from Top]]** - Alternative back attack approach when Matrix is defended
+- **[[Transitions/Matrix to Back Control]]** - Alternative back attack approach when Matrix is defended
 - **[[Transitions/Guillotine from Turtle]]** - Submission counter when opponent exposes neck during Matrix setup
 
 

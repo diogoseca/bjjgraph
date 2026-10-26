@@ -86,16 +86,6 @@
             "probability": 58
           }
         ]
-      },
-      {
-        "condition": "Only after releasing the high clinch and separately establishing both arms under the thighs",
-        "actions": [
-          {
-            "technique": "Double Underhook Pass",
-            "target": "Side Control",
-            "probability": 58
-          }
-        ]
       }
     ],
     "common_errors": [
@@ -177,76 +167,17 @@
     },
     "transitions": [
       {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 22,
-          "nogi": 21
-        }
-      },
-      {
-        "transition": "Stack Pass",
-        "attempt_probability": {
-          "gi": 16,
-          "nogi": 18
-        }
-      },
-      {
-        "transition": "Double Underhook Pass",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 19
-        }
-      },
-      {
-        "transition": "Rolling Back Take",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 11
-        },
-        "deal_here": true,
-        "success_rate": {
-          "gi": 29,
-          "nogi": 26
-        },
-        "outcomes": [
-          {
-            "to": "Back Control/Top",
-            "probability": {
-              "gi": 26,
-              "nogi": 26
-            },
-            "result": "success"
-          },
-          {
-            "to": "Crackhead Control/Top",
-            "probability": {
-              "gi": 55,
-              "nogi": 55
-            },
-            "result": "failure"
-          },
-          {
-            "to": "Half Guard/Bottom",
-            "probability": {
-              "gi": 19,
-              "nogi": 19
-            },
-            "result": "counter"
-          }
-        ]
-      },
-      {
         "transition": "Posture Recovery to Closed Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 85,
+          "nogi": 85
         }
       },
       {
         "transition": "Arm Extraction and Pass",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 15,
+          "nogi": 15
         }
       }
     ],

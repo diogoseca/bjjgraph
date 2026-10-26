@@ -267,7 +267,6 @@ Understanding the position's relationship to the broader passing game is essenti
 
 
 **If opponent turns away to escape crossface pressure or prevent pass completion:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 40%)
 
 

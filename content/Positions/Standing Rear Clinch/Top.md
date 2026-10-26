@@ -263,7 +263,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 **If opponent sits to guard with back exposed maintaining poor defensive posture:**
 - Execute **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 **If opponent drops to hands and knees attempting turtle defensive position:**

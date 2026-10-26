@@ -229,7 +229,7 @@
         "condition": "If opponent attempts forward roll, granby, or explosive rotation",
         "actions": [
           {
-            "technique": "Back Take",
+            "technique": "Cross Body to Back Control",
             "target": "Back Control",
             "probability": 65
           },

@@ -259,8 +259,6 @@ Triangle Clear to Side is the primary lateral escape from body triangle back con
 
 - [[Transitions/Body Triangle Lock]] - Opposing transition - the technique used to establish the position you are escaping
 
-- [[Transitions/Elbow Escape to Remove Hooks]] - Related back escape - alternative hip-based clearing option from back control
-
 
 </section>
 

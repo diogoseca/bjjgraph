@@ -242,7 +242,6 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 **If opponent turns away to defend neck:**
 - Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Back Control]] (Probability: 85%)
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 80%)
 
 
 **If opponent creates bridge creating space:**

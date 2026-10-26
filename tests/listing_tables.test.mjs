@@ -107,10 +107,14 @@ test("every dealt card is the node at its index, or exactly its listing's overla
   for (const t of EXPECTED.retired) {
     assert.ok(!dealt.has(t.listing + "|" + t.move), t.key + ": approved removed listing is never dealt");
     const node = WIRE.nodes.find((n) => n.t === t.move && n.ty === "transitions");
-    assert.ok(node, t.key + ": the generic technique still exists");
-    assert.ok(!node.cal?.at?.[t.listing.split("/")[0]], t.key + ": no stale wire table");
+    if (t.canonical_retired) {
+      assert.ok(!node, t.key + ": the approved duplicate retirement has no wire node");
+    } else {
+      assert.ok(node, t.key + ": the generic technique still exists");
+      assert.ok(!node.cal?.at?.[t.listing.split("/")[0]], t.key + ": no stale wire table");
+    }
   }
-  assert.equal(EXPECTED.surviving, 91, "positive coverage: all surviving reviewed tables");
+  assert.equal(EXPECTED.surviving, 88, "positive coverage: all surviving reviewed tables");
   assert.ok(EXPECTED.surviving > 0, "the reviewed table sweep cannot be empty");
   console.log(`listing tables JS: ${EXPECTED.surviving} surviving reviewed, ${EXPECTED.added} added, ${EXPECTED.retired.length} absent; ${overlays.size} gi overlays`);
   // each state is drawn as TWO pair members, and both deal the site's hand, so each overlay is dealt twice

@@ -17,7 +17,7 @@ description: "Technical development and belt recognition, explained through Step
 <h1>Blue to Purple: Development and Promotion</h1>
 <div class="system-tags"><span>Training Methodology</span><span>Intermediate</span></div>
 
-<p class="system-reference-count">14 related references (techniques and positions)</p>
+<p class="system-reference-count">13 related references (techniques and positions)</p>
 </header>
 
 
@@ -103,9 +103,6 @@ These related references are not a claim about what the course teaches or eviden
 
 
 - [[Transitions/Arm Drag|Arm Drag]] (Transition)
-
-
-- [[Transitions/Back Take|Back Take]] (Transition)
 
 
 - [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition)

@@ -63,10 +63,6 @@
       "relationship": "Follow-up submission accessible from consolidated Truck"
     },
     {
-      "name": "Roll to Truck",
-      "relationship": "Alternative entry - dynamic rolling variation to same position"
-    },
-    {
       "name": "Crab Ride",
       "relationship": "Related position - alternative leg-based control from turtle top"
     },

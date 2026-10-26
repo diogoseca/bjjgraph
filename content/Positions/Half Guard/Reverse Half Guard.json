@@ -210,7 +210,7 @@
         "condition": "If opponent attempts to turn and face you by rotating their chest toward you",
         "actions": [
           {
-            "technique": "Aoki Lock to Back Control",
+            "technique": "Backstep from Reverse Half",
             "target": "Back Control",
             "probability": 70
           },

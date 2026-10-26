@@ -751,7 +751,7 @@
             "probability": 55
           },
           {
-            "technique": "Kiss of the Dragon",
+            "technique": "Bolo Sweep",
             "target": "Back Control",
             "probability": 45
           }
@@ -897,7 +897,7 @@
         "relationship": "Essential movement pattern for exiting inverted guard safely and recovering guard"
       },
       {
-        "name": "Kiss of the Dragon",
+        "name": "Bolo Sweep",
         "relationship": "Advanced back take variation from inverted guard with high finishing potential"
       },
       {
@@ -953,8 +953,8 @@
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 8
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
@@ -1109,13 +1109,6 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 5
-        }
-      },
-      {
-        "transition": "Granby to Closed Guard",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 4
         }
       },
       {

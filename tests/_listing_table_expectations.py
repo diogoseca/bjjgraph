@@ -17,6 +17,11 @@ REMOVED = (
     ("Dead Orchard Control/Top", "Darce from Turtle"),
     ("Dead Orchard Control/Bottom", "Arm Extraction"),
     ("Leg Weave/Top", "Leg Weave Pass"),
+    # N4 approved as proposed (D-429): graph-restructure-plan.md:427,464
+    # removes these listings including their own tables (enumerated :1023-1025).
+    ("Chill Dog/Bottom", "Granby to Closed Guard"),
+    ("Chill Dog/Bottom", "Turtle to Guard"),
+    ("Crackhead Control/Top", "Rolling Back Take"),
 )
 # reports/restructure-inverted-panel.md:52,54,100-102,186-188 (I4 G02/G06):
 # retain the inverted listings and their approved tables on the named survivors.
@@ -43,7 +48,16 @@ def expectations(root=ROOT):
         if (hand, move) in REMOVED:
             assert any(e["transition"] == move and e.get("outcomes") for e in row["before"]), key
             assert all(e["transition"] != move for e in row["after"]), key
-            retired.append(current.pop(key))  # missing historical rows fail, never silently skip
+            removed = current.pop(key)  # missing historical rows fail, never silently skip
+            if move == "Granby to Closed Guard":
+                # G01's declared twin is Granby Roll to Guard; the canonical
+                # duplicate is also retired (restructure-inverted-panel.md G01,
+                # ORCH-415). Keep an explicit absence claim for that identity.
+                path = "content/Transitions/Granby to Closed Guard.json"
+                assert any(r["old_path"] == path for r in approval.ledger["retirements"]), path
+                assert not (root / path).exists(), path
+                removed = {**removed, "canonical_retired": True}
+            retired.append(removed)
         else:
             assert key not in historical, f"the approved addition already existed: {key}"
             matches = [e for e in row["after"] if e["transition"] == move]
@@ -57,8 +71,8 @@ def expectations(root=ROOT):
                     for o in e["outcomes"]]},
             }
     surviving = len(historical) - len(retired)
-    assert surviving == 91 and surviving > 0, "every surviving historical table is exercised"
-    assert len(retired) == 4 and len(current) == 93, "only the six approved listing changes"
+    assert surviving == 88 and surviving > 0, "every surviving historical table is exercised"
+    assert len(retired) == 7 and len(current) == 90, "only the nine approved listing changes"
     return {"tables": list(current.values()), "retired": retired,
             "surviving": surviving, "added": len(ADDED)}
 

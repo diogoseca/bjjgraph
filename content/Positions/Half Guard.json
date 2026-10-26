@@ -543,29 +543,29 @@
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 6
         }
       },
       {
         "transition": "Knee Shield Retention",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 11
         },
         "deal_here": true
       },
@@ -586,8 +586,8 @@
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 7
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
@@ -678,6 +678,13 @@
         "transition": "Half Guard to Kimura Trap",
         "attempt_probability": {
           "gi": 4,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "John Wayne Sweep",
+        "attempt_probability": {
+          "gi": 5,
           "nogi": 5
         }
       }

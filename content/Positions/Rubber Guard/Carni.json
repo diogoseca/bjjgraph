@@ -177,31 +177,10 @@
     },
     "transitions": [
       {
-        "transition": "Leg Drag Pass",
-        "attempt_probability": {
-          "gi": 28,
-          "nogi": 29
-        }
-      },
-      {
-        "transition": "Knee Slice Pass",
-        "attempt_probability": {
-          "gi": 30,
-          "nogi": 28
-        }
-      },
-      {
         "transition": "Posture Recovery from Carni",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 23
-        }
-      },
-      {
-        "transition": "Stack Pass from Carni",
-        "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 100,
+          "nogi": 100
         }
       }
     ],
@@ -343,7 +322,7 @@
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
+      "risk_level": "High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },

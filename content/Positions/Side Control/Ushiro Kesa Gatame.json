@@ -154,11 +154,6 @@
         "condition": "If opponent turns into you exposing their back",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 75
-          },
-          {
             "technique": "Side Control to North-South",
             "target": "Crucifix",
             "probability": 55

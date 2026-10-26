@@ -253,8 +253,6 @@ The Matrix to Back Control counter sits at the intersection of Matrix defense an
 
 - [[Transitions/Counter Roll from Matrix]] - Related counter technique using different mechanical approach against Matrix
 
-- [[Transitions/Back Take from Top]] - Alternative back take approach from similar top positions
-
 - [[Positions/Crab Ride]] - Alternative back attack system that shares timing windows with Matrix counters
 
 - [[Transitions/Escape Matrix Position]] - Related escape technique from the Matrix position

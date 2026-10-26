@@ -212,7 +212,7 @@ Use positional closure rather than a neck crank, practice the control without pr
 
 Protect the neck by keeping an early frame between the trapped shoulder and the closing arm. If that enclosure opens and the attacker remains on top, continue the escape with supported hip movement and a short shrimp to return a knee inside; do not bridge against a secured neck.
 
-**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 
 </section>

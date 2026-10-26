@@ -282,8 +282,6 @@ The Russian Tie to Back Take serves as a critical bridge between standing wrestl
 
 - [[Transitions/Arm Drag to Back]] - Alternative standing back take with similar objectives but different grip mechanics
 
-- [[Transitions/Back Take]] - Parent category of back take techniques from various positions
-
 - [[Transitions/Snap Down to Front Headlock]] - Chain technique when back take is defended and opponent drops level
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Target grip configuration established after successful back take

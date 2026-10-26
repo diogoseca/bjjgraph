@@ -17,7 +17,7 @@ description: "IBJJF membership, division, uniform and rules requirements that sh
 <h1>IBJJF Competition Requirements</h1>
 <div class="system-tags"><span>Competition Strategy</span><span>Intermediate</span></div>
 
-<p class="system-reference-count">20 related references (techniques and positions)</p>
+<p class="system-reference-count">19 related references (techniques and positions)</p>
 </header>
 
 
@@ -116,9 +116,6 @@ These related references are not a claim about what the course teaches or eviden
 
 
 - [[Transitions/Stack Pass|Stack Pass]] (Transition)
-
-
-- [[Transitions/Back Take|Back Take]] (Transition)
 
 
 - [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition)

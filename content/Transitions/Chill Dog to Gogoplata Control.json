@@ -1,0 +1,374 @@
+{
+  "name": "Chill Dog to Gogoplata Control",
+  "from_position": "Chill Dog/Bottom",
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
+  "outcomes": [
+    {
+      "to": "Gogoplata Control/Bottom",
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
+      "result": "success"
+    },
+    {
+      "to": "Chill Dog/Bottom",
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "The bottom Chill Dog holder uses the cleared-neck angle to establish a shin-under-chin Gogoplata enclosure, stopping at controlled setup before any separate finish.",
+  "description": "The bottom Chill Dog holder uses the cleared-neck angle to establish a shin-under-chin Gogoplata enclosure, stopping at controlled setup before any separate finish.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The bottom Chill Dog holder uses the cleared-neck angle to establish a shin-under-chin Gogoplata enclosure, stopping at controlled setup before any separate finish.\n\nStart as the bottom player after the neck has been cleared into the Chill Dog configuration. Maintain a comfortable hip angle to support the raised leg throughout the exchange.\n\nPreserve the space created by neck clearance before bringing the shin toward the chin. Establish the shin-under-chin connection without forcing the knee or adding uncontrolled neck pressure. The destination is Gogoplata Control/Bottom only when that distinct enclosure is present. Stop at the control checkpoint; finishing pressure belongs to the separate submission action.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Chill Dog",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Gogoplata Control",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Chill Dog to Gogoplata Control Attacker",
+    "description": "The bottom Chill Dog holder uses the cleared-neck angle to establish a shin-under-chin Gogoplata enclosure, stopping at controlled setup before any separate finish.",
+    "overview": "The bottom Chill Dog holder uses the cleared-neck angle to establish a shin-under-chin Gogoplata enclosure, stopping at controlled setup before any separate finish.\n\nStart as the bottom player after the neck has been cleared into the Chill Dog configuration. Maintain a comfortable hip angle to support the raised leg throughout the exchange.\n\nPreserve the space created by neck clearance before bringing the shin toward the chin. Establish the shin-under-chin connection without forcing the knee or adding uncontrolled neck pressure. The destination is Gogoplata Control/Bottom only when that distinct enclosure is present. Stop at the control checkpoint; finishing pressure belongs to the separate submission action.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom holds the cleared-neck guard: Start as the bottom player after the neck has been cleared into the Chill Dog configuration.",
+      "Hip angle supports the high knee: Maintain a comfortable hip angle to support the raised leg throughout the exchange.",
+      "Neck clearance before shin entry: Preserve the space created by neck clearance before bringing the shin toward the chin.",
+      "Shin-under-chin control established: Establish the shin-under-chin connection without forcing the knee or adding uncontrolled neck pressure.",
+      "Gogoplata Control from bottom: The destination is Gogoplata Control/Bottom only when that distinct enclosure is present.",
+      "Control established before pressure: Stop at the control checkpoint; finishing pressure belongs to the separate submission action."
+    ],
+    "setup_requirements": [
+      "Start as the bottom player after the neck has been cleared into the Chill Dog configuration.",
+      "Maintain a comfortable hip angle to support the raised leg throughout the exchange.",
+      "Preserve the space created by neck clearance before bringing the shin toward the chin.",
+      "Establish the shin-under-chin connection without forcing the knee or adding uncontrolled neck pressure."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm Chill Dog",
+        "description": "Start as the bottom player after the neck has been cleared into the Chill Dog configuration."
+      },
+      {
+        "step_number": 2,
+        "action": "Support the raised leg",
+        "description": "Maintain a comfortable hip angle to support the raised leg throughout the exchange."
+      },
+      {
+        "step_number": 3,
+        "action": "Keep the cleared path",
+        "description": "Preserve the space created by neck clearance before bringing the shin toward the chin."
+      },
+      {
+        "step_number": 4,
+        "action": "Place the shin",
+        "description": "Establish the shin-under-chin connection without forcing the knee or adding uncontrolled neck pressure."
+      },
+      {
+        "step_number": 5,
+        "action": "Confirm the enclosure",
+        "description": "The destination is Gogoplata Control/Bottom only when that distinct enclosure is present."
+      },
+      {
+        "step_number": 6,
+        "action": "Pause before finishing",
+        "description": "Stop at the control checkpoint; finishing pressure belongs to the separate submission action."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Recognize the cleared-neck angle before the shin enters.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Chill Dog/Bottom"
+      },
+      {
+        "counter": "Keep a useful inside frame while the enclosure is forming.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Chill Dog/Bottom"
+      },
+      {
+        "counter": "Protect neck alignment without pulling against the raised leg.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping confirm chill dog",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Start as the bottom player after the neck has been cleared into the Chill Dog configuration."
+      },
+      {
+        "error": "Skipping support the raised leg",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Maintain a comfortable hip angle to support the raised leg throughout the exchange."
+      },
+      {
+        "error": "Skipping keep the cleared path",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Preserve the space created by neck clearance before bringing the shin toward the chin."
+      },
+      {
+        "error": "Skipping place the shin",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Establish the shin-under-chin connection without forcing the knee or adding uncontrolled neck pressure."
+      },
+      {
+        "error": "Skipping confirm the enclosure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "The destination is Gogoplata Control/Bottom only when that distinct enclosure is present."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Confirm Chill Dog",
+        "description": "Start as the bottom player after the neck has been cleared into the Chill Dog configuration. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Support the raised leg",
+        "description": "Maintain a comfortable hip angle to support the raised leg throughout the exchange. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Keep the cleared path",
+        "description": "Preserve the space created by neck clearance before bringing the shin toward the chin. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Place the shin",
+        "description": "Establish the shin-under-chin connection without forcing the knee or adding uncontrolled neck pressure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Chill Dog to Gogoplata Control: what does confirm chill dog require?",
+        "answer": "Start as the bottom player after the neck has been cleared into the Chill Dog configuration.",
+        "answer_line": "Bottom holds the cleared-neck guard",
+        "distractors": {
+          "plausible": [
+            "The finish before shin placement",
+            "Top passing a turtle shell"
+          ],
+          "trap": [
+            "A rear collar grip with hooks"
+          ]
+        }
+      },
+      {
+        "question": "Chill Dog to Gogoplata Control: what does support the raised leg require?",
+        "answer": "Maintain a comfortable hip angle to support the raised leg throughout the exchange.",
+        "answer_line": "Hip angle supports the high knee",
+        "distractors": {
+          "plausible": [
+            "Top passing a turtle shell",
+            "A rear collar grip with hooks"
+          ],
+          "trap": [
+            "A knee pulled against a fixed foot"
+          ]
+        }
+      },
+      {
+        "question": "Chill Dog to Gogoplata Control: what does keep the cleared path require?",
+        "answer": "Preserve the space created by neck clearance before bringing the shin toward the chin.",
+        "answer_line": "Neck clearance before shin entry",
+        "distractors": {
+          "plausible": [
+            "A rear collar grip with hooks",
+            "A knee pulled against a fixed foot"
+          ],
+          "trap": [
+            "The finish before shin placement"
+          ]
+        }
+      },
+      {
+        "question": "Chill Dog to Gogoplata Control: what does place the shin require?",
+        "answer": "Establish the shin-under-chin connection without forcing the knee or adding uncontrolled neck pressure.",
+        "answer_line": "Shin-under-chin control established",
+        "distractors": {
+          "plausible": [
+            "A knee pulled against a fixed foot",
+            "The finish before shin placement"
+          ],
+          "trap": [
+            "Top passing a turtle shell"
+          ]
+        }
+      },
+      {
+        "question": "Chill Dog to Gogoplata Control: what does confirm the enclosure require?",
+        "answer": "The destination is Gogoplata Control/Bottom only when that distinct enclosure is present.",
+        "answer_line": "Gogoplata Control from bottom",
+        "distractors": {
+          "plausible": [
+            "The finish before shin placement",
+            "Top passing a turtle shell"
+          ],
+          "trap": [
+            "A rear collar grip with hooks"
+          ]
+        }
+      },
+      {
+        "question": "Chill Dog to Gogoplata Control: what does pause before finishing require?",
+        "answer": "Stop at the control checkpoint; finishing pressure belongs to the separate submission action.",
+        "answer_line": "Control established before pressure",
+        "distractors": {
+          "plausible": [
+            "Top passing a turtle shell",
+            "A rear collar grip with hooks"
+          ],
+          "trap": [
+            "A knee pulled against a fixed foot"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Chill Dog to Gogoplata Control Defender",
+    "description": "Recognize Chill Dog to Gogoplata Control and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Recognize the cleared-neck angle before the shin enters. Keep a useful inside frame while the enclosure is forming. Protect neck alignment without pulling against the raised leg. If the new enclosure fails, recognize retained Chill Dog control. If the high connection clears, recover posture inside ordinary guard.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Recognize the cleared-neck angle before the shin enters.",
+      "Keep a useful inside frame while the enclosure is forming.",
+      "Protect neck alignment without pulling against the raised leg.",
+      "If the new enclosure fails, recognize retained Chill Dog control.",
+      "If the high connection clears, recover posture inside ordinary guard."
+    ],
+    "recognition_cues": [
+      "Start as the bottom player after the neck has been cleared into the Chill Dog configuration.",
+      "Maintain a comfortable hip angle to support the raised leg throughout the exchange.",
+      "Preserve the space created by neck clearance before bringing the shin toward the chin."
+    ],
+    "defensive_options": [
+      {
+        "action": "Recognize the cleared-neck angle before the shin enters.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Chill Dog/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Keep a useful inside frame while the enclosure is forming.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Chill Dog/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Protect neck alignment without pulling against the raised leg.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "If the new enclosure fails, recognize retained Chill Dog control.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Chill Dog/Bottom",
+        "how": "Recognize the cleared-neck angle before the shin enters."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "If the high connection clears, recover posture inside ordinary guard."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "If the high connection clears, recover posture inside ordinary guard."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Keep a useful inside frame while the enclosure is forming."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Chill Dog to Gogoplata Control, what connection do you address first?",
+        "answer": "Recognize the cleared-neck angle before the shin enters."
+      },
+      {
+        "question": "Against Chill Dog to Gogoplata Control, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Chill Dog to Gogoplata Control, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Confirm Chill Dog",
+        "description": "Start as the bottom player after the neck has been cleared into the Chill Dog configuration. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Support the raised leg",
+        "description": "Maintain a comfortable hip angle to support the raised leg throughout the exchange. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Keep the cleared path",
+        "description": "Preserve the space created by neck clearance before bringing the shin toward the chin. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Start as the bottom player after the neck has been cleared into the Chill Dog configuration.",
+    "Maintain a comfortable hip angle to support the raised leg throughout the exchange.",
+    "Preserve the space created by neck clearance before bringing the shin toward the chin."
+  ],
+  "position_integration": "The bottom Chill Dog holder uses the cleared-neck angle to establish a shin-under-chin Gogoplata enclosure, stopping at controlled setup before any separate finish. Start as the bottom player after the neck has been cleared into the Chill Dog configuration. Stop at the control checkpoint; finishing pressure belongs to the separate submission action."
+}

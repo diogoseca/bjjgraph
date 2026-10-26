@@ -16,7 +16,7 @@ description: "Standing Escape (attacker): The bottom player faces the kneeling o
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Standing Escape in BJJ",
-  "description": "Step-by-step guide for executing Standing Escape from Invisible Collar/Bottom.",
+  "description": "Step-by-step guide for executing Standing Escape from Invisible Collar/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -219,7 +219,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 First use a framed hip escape to create distance after the high clinch opens. Keep a knee and forearm between the bodies for guard retention until the opponent's chest pressure no longer reaches you; only then establish the hand and foot posts for standing.
 
-**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 
 </section>
 
@@ -303,9 +303,9 @@ First use a framed hip escape to create distance after the high clinch opens. Ke
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 65% |
-| Failure | [[Positions/Rubber Guard/Invisible Collar]] | 25% |
-| Counter | [[Positions/Rubber Guard/Invisible Collar]] | 10% |
+| Success | [[Positions/Open Guard]] | 30% |
+| Failure | [[Positions/Rubber Guard/Invisible Collar]] | 50% |
+| Counter | [[Positions/Rubber Guard/Chill Dog]] | 20% |
 
 
 </section>
@@ -316,10 +316,10 @@ First use a framed hip escape to create distance after the high clinch opens. Ke
 
 <p class="section-subtitle">How might your opponent counter Standing Escape?</p>
 
-- **The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
-- **Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
-- **Avoid driving all weight onto the partner's shoulders while the legs are locked high.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
-- **Create space at the hip and thigh before trying to raise the head or extract the arm.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Bring the forearms and knees between the bodies as space becomes available. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
+- **The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Avoid driving all weight onto the partner's shoulders while the legs are locked high.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Create space at the hip and thigh before trying to raise the head or extract the arm.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Bring the forearms and knees between the bodies as space becomes available. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 
 
 </section>

@@ -259,21 +259,19 @@ Understanding double unders from both perspectives is essential for developing c
 ### Available Transitions
 
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (26% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (28% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (9% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (10% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (7% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (11% of attempts)
 
-- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (13% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (12% of attempts)
-
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (9% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Transitions/Stack Pass from Double Unders/Attacker|Stack Pass from Double Unders]]** (16% of attempts)
+- **[[Transitions/Stack Pass from Double Unders/Attacker|Stack Pass from Double Unders]]** (17% of attempts)
 
 - **[[Transitions/Toss Pass from Double Unders/Attacker|Toss Pass from Double Unders]]** (4% of attempts)
 

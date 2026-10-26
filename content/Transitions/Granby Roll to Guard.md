@@ -4,7 +4,7 @@
 
 ---
 title: "Granby Roll to Guard | BJJ Technique | BJJ Graph"
-description: "A Granby needs a free head and limbs for a shoulder-supported roll. Release the Buggy arm-and-leg loop before considering a separately established roll."
+description: "The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact."
 ---
 
 
@@ -16,7 +16,7 @@ description: "A Granby needs a free head and limbs for a shoulder-supported roll
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Granby Roll to Guard",
-  "description": "A Granby needs a free head and limbs for a shoulder-supported roll. Release the Buggy arm-and-leg loop before considering a separately established roll.",
+  "description": "The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,50 +36,6 @@ description: "A Granby needs a free head and limbs for a shoulder-supported roll
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Granby Roll to Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Basic granby roll technique",
-      "description": "Granby Roll to Guard film study: Basic granby roll technique, taught by Danny Mitchell.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vyphbya8ZVQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vyphbya8ZVQ",
-      "url": "https://www.youtube.com/watch?v=vyphbya8ZVQ",
-      "creator": { "@type": "Person", "name": "Danny Mitchell" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Progression of the granby roll",
-      "description": "Granby Roll to Guard film study: Progression of the granby roll, taught by Ryan Loder.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ww3UlhG2GzI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ww3UlhG2GzI",
-      "url": "https://www.youtube.com/watch?v=Ww3UlhG2GzI",
-      "creator": { "@type": "Person", "name": "Ryan Loder" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Why the granby roll matters in BJJ",
-      "description": "Granby Roll to Guard film study: Why the granby roll matters in BJJ, taught by Unknown coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rSn2PkpXaPw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rSn2PkpXaPw",
-      "url": "https://www.youtube.com/watch?v=rSn2PkpXaPw",
-      "creator": { "@type": "Person", "name": "Unknown coach" },
-      "duration": "PT58S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -87,7 +43,7 @@ description: "A Granby needs a free head and limbs for a shoulder-supported roll
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Granby Roll to Guard",
-  "description": "A Granby roll recovers guard through a shoulder-and-upper-back roll when the head and limbs are free; a Buggy Choke holder must release the arm-and-leg loop before considering that movement.",
+  "description": "The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,55 +61,21 @@ description: "A Granby needs a free head and limbs for a shoulder-supported roll
 
 <section id="overview" class="content-section">
 
-**A Granby roll recovers guard through a shoulder-and-upper-back roll when the head and limbs are free; a Buggy Choke holder must release the arm-and-leg loop before considering that movement.**
+**The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact.**
 
-The bottom player must have space to move over the shoulder without a trapped neck, arm or knee. Buggy Choke bottom is the holder of the choke, not a turtle defender under an upper-body ride. The reviewed Buggy instruction supports framing and recovering guard when the opponent disengages; it does not establish a direct Granby entry.
+The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact.
 
-Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam. Create distance while keeping the head free and the knees available to return inside. Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
+Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride. Check that the head and rolling shoulder can move safely before beginning the recovery.
 
-Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck. Bring the hips through the available space while keeping the neck unloaded and the knees free to move. Face the opponent and bring the knees back between the bodies as the rolling space opens. Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.
 
-Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.youtube.com/watch?v=zixbOyLpoOc); [Jay Rodriguez — three Buggy Choke mistakes](https://www.youtube.com/watch?v=MjKERx4N4mY).
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-**From Position**: [[Positions/Buggy Choke]] (Bottom)
-**Success Rate**: 46%
-
-</section>
-
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Granby Roll to Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vyphbya8ZVQ)
-
-<p class="clip-credit"><strong>Basic granby roll technique</strong> — taught by Danny Mitchell · 0:44 · <a href="https://www.youtube.com/watch?v=vyphbya8ZVQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ww3UlhG2GzI)
-
-<p class="clip-credit"><strong>Progression of the granby roll</strong> — taught by Ryan Loder · 0:59 · <a href="https://www.youtube.com/watch?v=Ww3UlhG2GzI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rSn2PkpXaPw)
-
-<p class="clip-credit"><strong>Why the granby roll matters in BJJ</strong> — taught by Unknown coach · 0:58 · <a href="https://www.youtube.com/watch?v=rSn2PkpXaPw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
+**From Position**: [[Positions/Turtle]] (Bottom)
+**Success Rate**: 38%
 
 </section>
+
 
 
 <section id="possible-outcomes" class="content-section">
@@ -162,10 +84,10 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 50% |
-| Success | [[Positions/Open Guard]] | 15% |
-| Failure | [[Positions/Buggy Choke]] | 20% |
-| Counter | [[Positions/Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Turtle]] | 45% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -177,7 +99,7 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Release the Buggy loop: Let go when the partner begins lifti... | Recognize the loop early: Watch for an arm reaching past you... |
+| **Key Principles** | Turtle with a controlling opponent: Begin on the knees and f... | Follow the controlled roll while maintaining a stable and ba... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -191,49 +113,49 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 ### Key Principles
 
 
-- Release the Buggy loop: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
+- Turtle with a controlling opponent: Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
 
-- Restore shoulder and hip frames: Create distance while keeping the head free and the knees available to return inside.
+- Head and rolling shoulder are free: Check that the head and rolling shoulder can move safely before beginning the recovery.
 
-- Check the rolling prerequisite: Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
+- Shoulder and upper back take weight: Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
 
-- Keep weight off the neck: Do not plant the head or roll over the cervical spine to force guard recovery.
+- Hips follow the controlled roll: Bring the hips through the available space while keeping the neck unloaded and the knees free to move.
 
-- Bring the knees back inside: Face the opponent and insert the legs when the space opens.
+- Knees return between the bodies: Face the opponent and bring the knees back between the bodies as the rolling space opens.
 
-- Settle the recovered guard: Stabilize open or closed guard according to the available leg connection rather than assuming either result.
+- Closed or open guard is established: Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.
 
 
 ### Execution Steps
 
 
-- **Release the Buggy loop**: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam...
+- **Identify the starting base**: Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling...
 
-- **Restore shoulder and hip frames**: Create distance while keeping the head free and the knees available to return inside....
+- **Check free movement**: Check that the head and rolling shoulder can move safely before beginning the recovery....
 
-- **Check the rolling prerequisite**: Use a shoulder roll only if a coach has established safe space and an untrapped upper back....
+- **Use the shoulder path**: Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck...
 
-- **Keep weight off the neck**: Do not plant the head or roll over the cervical spine to force guard recovery....
+- **Bring the hips through**: Bring the hips through the available space while keeping the neck unloaded and the knees free to mov...
 
-- **Bring the knees back inside**: Face the opponent and insert the legs when the space opens....
+- **Reinsert the legs**: Face the opponent and bring the knees back between the bodies as the rolling space opens....
 
-- **Settle the recovered guard**: Stabilize open or closed guard according to the available leg connection rather than assuming either...
+- **Confirm the recovered guard**: Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when t...
 
 
 ### Common Mistakes
 
 
-- **Skipping the checkpoint: release the buggy loop**
-  - Consequence: The intended control is not established before the next movement; the missing requirement is: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
-  - Correction: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
+- **Skipping identify the starting base**
+  - Consequence: The next action lacks its required control.
+  - Correction: Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
 
-- **Skipping the checkpoint: restore shoulder and hip frames**
-  - Consequence: The intended control is not established before the next movement; the missing requirement is: Create distance while keeping the head free and the knees available to return inside.
-  - Correction: Create distance while keeping the head free and the knees available to return inside.
+- **Skipping check free movement**
+  - Consequence: The next action lacks its required control.
+  - Correction: Check that the head and rolling shoulder can move safely before beginning the recovery.
 
-- **Skipping the checkpoint: check the rolling prerequisite**
-  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
-  - Correction: Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
+- **Skipping use the shoulder path**
+  - Consequence: The next action lacks its required control.
+  - Correction: Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
 
 
 </section>
@@ -247,55 +169,39 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 ### Key Principles
 
 
-- Recognize the loop early: Watch for an arm reaching past your head and connecting to the same-side leg.
+- Follow the controlled roll while maintaining a stable and balanced base.
 
-- Prevent hand-leg connection: Use balanced posture and safe inside frames before the loop closes.
+- Keep the recovering player's neck free of stacked body weight.
 
-- Protect the neck: Treat the choke as live even though you hold top side control.
+- Address the returning knees before guard is established.
 
-- Clear before circling: Free the head-and-arm enclosure before changing to north-south or chasing another pin.
+- Recognize Turtle if the roll is interrupted before guard recovery.
 
-- Do not slam or wrench: Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.
-
-- Tap early: Stop before dizziness or loss of normal responsiveness; top position does not make a secured choke safe.
+- Claim rear control only when its actual torso and leg connections exist.
 
 
 ### Recognition Cues
 
 
-- The bottom player must have space to move over the shoulder without a trapped neck, arm or knee.
+- Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
 
-- Create distance while keeping the head free and the knees available to return inside.
+- Check that the head and rolling shoulder can move safely before beginning the recovery.
 
-- Do not plant the head or roll over the cervical spine to force guard recovery.
+- Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
 
 
 ### Defensive Options
 
 
-- **Watch for an arm reaching past your head and connecting to the same-side leg.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
+- **Follow the controlled roll while maintaining a stable and balanced base.** - When: Before the next connection or pressure is established.
 
-- **Use balanced posture and safe inside frames before the loop closes.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
+- **Keep the recovering player's neck free of stacked body weight.** - When: Before the next connection or pressure is established.
 
-- **Treat the choke as live even though you hold top side control.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-
-
-</section>
-
-
-<section id="variants" class="content-section hide-minimal">
-
-## Variations
-
-
-**Cooperative checkpoint drill**: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam. Create distance while keeping the head free and the knees available to return inside. (When to use: Learning the control without submission pressure)
-
-
-**Response and reset drill**: Watch for an arm reaching past your head and connecting to the same-side leg. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
-
+- **Address the returning knees before guard is established.** - When: Before the next connection or pressure is established.
 
 
 </section>
+
 
 
 
@@ -303,7 +209,7 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 
 ## Position Integration
 
-The bottom player must have space to move over the shoulder without a trapped neck, arm or knee. Buggy Choke bottom is the holder of the choke, not a turtle defender under an upper-body ride. The reviewed Buggy instruction supports framing and recovering guard when the opponent disengages; it does not establish a direct Granby entry. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
+The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact. Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride. Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.
 
 </section>
 
@@ -313,13 +219,13 @@ The bottom player must have space to move over the shoulder without a trapped ne
 ## Related Techniques
 
 
-- [[Positions/Side Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Side Control.
+- [[Positions/Turtle]] - Starting configuration; establish these controls before attempting the action.
 
-- [[Positions/Half Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Half Guard.
+- [[Positions/Closed Guard]] - An approved landing or reset; confirm its controls before treating the action as complete.
 
-- [[Positions/Open Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Open Guard.
+- [[Positions/Open Guard]] - An approved landing or reset; confirm its controls before treating the action as complete.
 
-- [[Positions/Triangle Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Triangle Control.
+- [[Positions/Back Control]] - An approved landing or reset; confirm its controls before treating the action as complete.
 
 
 </section>

@@ -85,8 +85,10 @@ class SingleOriginSubmissions(unittest.TestCase):
         self.write()
         self.assertTrue(any("required property" in error for error in self.blocking()))
 
-    def test_exactly_six_live_approvals_match_the_corpus(self):
-        self.assertEqual(sum(r['kind']=='single_origin' for r in self.approved.values()), 6)
+    def test_exactly_eight_live_approvals_match_the_corpus(self):
+        # ORCH-399 preview and explicit authorization: Buggy's D-374 family variant
+        # and Invisible Collar Choke each add one exact origin to the six D-358 rows.
+        self.assertEqual(sum(r['kind']=='single_origin' for r in self.approved.values()), 8)
         self.assertEqual(validator.validate_content_exceptions(ROOT, self.approved), [])
 
 
@@ -100,7 +102,11 @@ class ShortDecisionTrees(unittest.TestCase):
         self.path.parent.mkdir(parents=True)
         self.data = json.loads((ROOT / self.relative).read_text())
         # Fixture only: both roles begin at the shared floor, then Top is shortened.
+        # D-362's real Top tree now has two conditions. Build the full fixture
+        # locally; a synthetic third condition never enters authored content.
         full = copy.deepcopy(self.data["top"]["decision_tree"])
+        full.append(copy.deepcopy(full[0]))
+        full[-1]["condition"] = "Fixture only: a third full-schema condition."
         self.assertEqual(len(full), 3)
         self.data["bottom"]["decision_tree"] = copy.deepcopy(full)
         self.data["top"]["decision_tree"] = full[:2]
@@ -160,11 +166,11 @@ class ShortDecisionTrees(unittest.TestCase):
                 self.write()
                 self.assertTrue(validator.validate_content_exceptions(self.root, self.rows))
 
-    def test_real_bottom_row_is_live_and_top_row_is_not_installed(self):
+    def test_both_authorized_role_rows_are_live(self):
         rows = validator.load_content_exceptions()
         short = [r for r in rows.values() if r["kind"] == "short_decision_tree"]
         self.assertEqual([(r["file"], r["role"], r["expected_count"]) for r in short],
-                         [(self.relative, "bottom", 2)])
+                         [(self.relative, "bottom", 2), (self.relative, "top", 2)])
         self.assertEqual(validator.validate_content_exceptions(ROOT, rows), [])
 
 

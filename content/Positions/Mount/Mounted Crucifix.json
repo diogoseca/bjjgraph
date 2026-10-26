@@ -130,11 +130,6 @@
             "technique": "Back Control to Crucifix",
             "target": "Back Control",
             "probability": 85
-          },
-          {
-            "technique": "Back Take from Top",
-            "target": "Seat Belt Control Back",
-            "probability": 80
           }
         ]
       },
@@ -723,21 +718,49 @@
     },
     "transitions": [
       {
-        "transition": "Hip Escape from Mounted Crucifix",
+        "transition": "Arm Drag Sweep",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 3,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Bridge Escape from Mounted Crucifix",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Elbow Escape to Guard",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Explosive Bridge to Turtle",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Hip Escape from Mounted Crucifix",
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 20
+        }
+      },
+      {
+        "transition": "Hip Escape to Guard",
         "attempt_probability": {
           "gi": 12,
           "nogi": 12
@@ -746,43 +769,8 @@
       {
         "transition": "Upa Escape",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Hip Escape to Guard",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Explosive Bridge to Turtle",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Arm Drag Sweep",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Rolling Escape to Guard",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Bridge Escape from Mounted Crucifix",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 15
         }
       }
     ],

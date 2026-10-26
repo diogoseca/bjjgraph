@@ -120,11 +120,6 @@
         "condition": "If opponent turns to side to escape triangle pressure",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 65
-          },
-          {
             "technique": "Triangle to Back",
             "target": "Back Control",
             "probability": 60

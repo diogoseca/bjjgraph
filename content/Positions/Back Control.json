@@ -505,87 +505,17 @@
     ],
     "transitions": [
       {
-        "transition": "Hand Fighting from Back",
-        "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
-        }
-      },
-      {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Hip Escape to Turtle",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Turn In and Face",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Hip Escape from Back Control",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Turtle from Back Control",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Shoulder Walk Escape from Back",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Scoot Hips to Guard from Back",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Turn into Opponent from Back",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Elbow Escape from Back",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Hand Fight to Turtle from Back",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -596,10 +526,66 @@
         }
       },
       {
-        "transition": "Rolling Escape to Guard",
+        "transition": "Hand Fight to Turtle from Back",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Hand Fighting from Back",
+        "attempt_probability": {
+          "gi": 25,
+          "nogi": 25
+        }
+      },
+      {
+        "transition": "Hip Escape from Back Control",
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
+      },
+      {
+        "transition": "Hip Escape to Turtle",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Scoot Hips to Guard from Back",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Shoulder Walk Escape from Back",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Turn In and Face",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Turn into Opponent from Back",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Turtle from Back Control",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
         }
       }
     ],

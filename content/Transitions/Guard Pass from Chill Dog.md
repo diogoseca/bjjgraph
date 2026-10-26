@@ -105,7 +105,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).
 
 **From Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 35%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 50% |
-| Failure | [[Positions/Rubber Guard/Chill Dog]] | 32% |
-| Counter | [[Positions/Closed Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>

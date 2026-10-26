@@ -256,7 +256,7 @@ The Triangle from Guard is the central submission threat that makes the entire M
 
 - [[Transitions/Crackhead Control to New York]] - System connection - Crackhead Control provides alternative triangle entry path
 
-- [[Transitions/New York Control to Zombie]] - System connection - New York offers alternative submission entries when triangle is defended
+- [[Transitions/Progression to Zombie]] - System connection - New York offers alternative submission entries when triangle is defended
 
 - [[Transitions/Triangle Escape]] - Counter technique - understanding opponent's escapes improves attack refinement
 

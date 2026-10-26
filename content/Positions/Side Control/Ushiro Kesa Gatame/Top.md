@@ -298,7 +298,6 @@ Ushiro Kesa Gatame Top is a dominant pinning position where the top practitioner
 
 
 **If opponent turns into you exposing their back:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 

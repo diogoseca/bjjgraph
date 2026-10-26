@@ -104,8 +104,8 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs).
 
-**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
-**Success Rate**: 58%
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
+**Success Rate**: 45%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Rubber Guard/Zombie]] | 58% |
-| Failure | [[Positions/Rubber Guard/New York]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Zombie]] | 45% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>

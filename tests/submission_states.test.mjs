@@ -35,7 +35,11 @@ test('every available submission has one finish, owned continuations, and named 
     // in no-gi). graph-restructure-plan.md:681/687/691/695; the approved additions
     // at :221 and :365 add Armbar from Dead Orchard Control and Carni Shoulder Lock
     // in both frames. Every surviving/new available state must retain the SAME contract.
-    assert.equal(subs.length,frame==='gi'?288:254);
+    // N4 (D-429): plan:519-522 retires three Invisible Collar submissions;
+    // N4 numbers:480-488,792-800 add the Buggy finish and Invisible Collar Choke.
+    // Cross Collar becomes gi-only (:782-790). Net states: gi -1, no-gi 0;
+    // keep the complete finish/continuation/defense contract on both frames.
+    assert.equal(subs.length,frame==='gi'?287:254);
     for(const s of subs) {
       a.currentPos=s.idx; a.playerRole=s.fromRole;
       const own=a.optionsFor(s.idx);

@@ -132,7 +132,7 @@
             "probability": 60
           },
           {
-            "technique": "Back Take",
+            "technique": "Rolling Back Take",
             "target": "Back Control",
             "probability": 55
           }
@@ -167,7 +167,7 @@
             "probability": 75
           },
           {
-            "technique": "Back Take",
+            "technique": "Rolling Back Take",
             "target": "Back Control",
             "probability": 70
           }

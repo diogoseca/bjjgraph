@@ -247,8 +247,6 @@ The Gift Wrap to Back transition fits into the broader mount attack system as a 
 
 - [[Transitions/Mount to Armbar]] - Complementary attack whose threat creates the turning reaction needed for gift wrap
 
-- [[Transitions/Back Take]] - General back take technique category this transition belongs to
-
 - [[Positions/Mount/Mounted Crucifix]] - Alternative destination when opponent's far arm is trapped during rotation
 
 - [[Positions/Mount/High Mount]] - Related dominant position that can also serve as gift wrap entry point

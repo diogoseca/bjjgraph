@@ -274,7 +274,6 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 
 **If opponent turns to side to escape triangle pressure:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
 - Execute **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
 
 

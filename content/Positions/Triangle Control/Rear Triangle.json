@@ -139,11 +139,6 @@
             "technique": "Extend Hips and Finish Triangle",
             "target": "Game Over",
             "probability": 55
-          },
-          {
-            "technique": "Aoki Lock to Crucifix",
-            "target": "Crucifix",
-            "probability": 50
           }
         ]
       },
@@ -551,11 +546,6 @@
         "condition": "If opponent transitions to armbar or loosens triangle to adjust position",
         "actions": [
           {
-            "technique": "Rolling Escape to Guard",
-            "target": "Closed Guard",
-            "probability": 40
-          },
-          {
             "technique": "Arm Extraction",
             "target": "Back Control",
             "probability": 35
@@ -576,14 +566,9 @@
             "probability": 50
           },
           {
-            "technique": "Rolling Escape to Guard",
+            "technique": "Arm Extraction",
             "target": "Closed Guard",
             "probability": 30
-          },
-          {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 20
           }
         ]
       }
@@ -713,8 +698,8 @@
       {
         "transition": "Arm Extraction",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 20,
+          "nogi": 20
         },
         "deal_here": true,
         "success_rate": {
@@ -757,38 +742,31 @@
         ]
       },
       {
-        "transition": "Rolling Escape to Guard",
+        "transition": "Grip Fight Escape from Rear Triangle",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Stack Defense",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Hand Fighting from Back",
         "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
-        }
-      },
-      {
-        "transition": "Grip Fight Escape from Rear Triangle",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
+          "gi": 31,
+          "nogi": 31
         }
       },
       {
         "transition": "Posture Defense from Rear Triangle",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 22,
+          "nogi": 22
+        }
+      },
+      {
+        "transition": "Stack Defense",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
         }
       }
     ],
