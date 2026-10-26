@@ -10,33 +10,33 @@
   "from_position": "Zombie/Top",
   "outcomes": [
     {
-      "to": "Open Guard/Top",
+      "to": "Mission Control/Top",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 45,
+        "nogi": 45
       },
       "result": "success"
     },
     {
       "to": "Zombie/Top",
       "probability": {
-        "gi": 30,
-        "nogi": 30
+        "gi": 35,
+        "nogi": 35
       },
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "New York/Top",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 20,
+        "nogi": 20
       },
       "result": "counter"
     }
   ],
   "success_rate": {
-    "gi": 55,
-    "nogi": 55
+    "gi": 45,
+    "nogi": 45
   },
   "overview": "The top player faces a bottom guard player using Zombie; the head, shoulder or arm may still be enclosed. The relevant grips connect the hand, high leg and arm isolation. This is not a lockdown leg-release sequence.\n\nKeep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs).",
   "variants_and_adaptations": [
@@ -136,13 +136,13 @@
         "counter": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "New York/Top"
       },
       {
         "counter": "Guide the wrist and forearm through the available space without bending individual fingers.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
-        "targets_outcome": "Open Guard/Top"
+        "targets_outcome": "Zombie/Top"
       },
       {
         "counter": "Cover the cleared arm and close the knee hug as the hand reaches the mat.",
@@ -364,7 +364,7 @@
       {
         "action": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "New York/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
@@ -378,14 +378,14 @@
       {
         "action": "Cover the cleared arm and close the knee hug as the hand reaches the mat.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Open Guard/Top",
+        "targets_outcome": "Zombie/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "New York/Top",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Maintain posture control while freeing the other arm for the pummel."
       },
       {

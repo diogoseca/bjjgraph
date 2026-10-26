@@ -227,7 +227,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 <p class="section-subtitle">What should you do from Kneebar Control (Top)?</p>
 
 **If opponent's leg straightens and defensive posture collapses under top pressure:**
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Kneebar/from Kneebar Control/Attacker|Kneebar from Kneebar Control]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Submissions/Straight Ankle Lock/Attacker|Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
 
 
@@ -361,7 +361,6 @@ Start with practitioner in top kneebar control against defending opponent. Attac
 
 - **[[Positions/Half Guard]]** - Common position from which top kneebar entries are initiated
 - **[[Positions/Headquarters Position]]** - Guard passing position offering kneebar attack opportunities
-- **[[Transitions/Kneebar Finish]]** - Terminal submission technique from top kneebar control
 - **[[Positions/Side Control]]** - Positional advancement when kneebar finish is defended
 - **[[Positions/Turtle]]** - Defensive position where top kneebar entries frequently occur
 - **[[Positions/North-South]]** - Alternative top position accessible when transitioning from kneebar control

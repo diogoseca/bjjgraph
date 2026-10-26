@@ -104,8 +104,8 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Instructional sources: [Shawn Williams — John Wayne sweep from half guard](https://www.youtube.com/watch?v=dKlm6xRmpIA).
 
-**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
-**Success Rate**: 58%
+**From Position**: [[Positions/Half Guard]] (Bottom)
+**Success Rate**: 40%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Shawn Williams — John Wayne sweep from half guard](htt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 58% |
-| Failure | [[Positions/Half Guard]] | 27% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Half Guard]] | 45% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>

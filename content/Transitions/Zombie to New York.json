@@ -1,0 +1,374 @@
+{
+  "name": "Zombie to New York",
+  "from_position": "Zombie/Bottom",
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
+  "outcomes": [
+    {
+      "to": "New York/Bottom",
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
+      "result": "success"
+    },
+    {
+      "to": "Zombie/Bottom",
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Mission Control/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "The bottom Zombie player completes the contested hand-clearing action, places the hand on the mat, and establishes the knee hug that defines completed New York control.",
+  "description": "The bottom Zombie player completes the contested hand-clearing action, places the hand on the mat, and establishes the knee hug that defines completed New York control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The bottom Zombie player completes the contested hand-clearing action, places the hand on the mat, and establishes the knee hug that defines completed New York control.\n\nBegin in the Zombie hand-clearing checkpoint, before completed New York control has been secured. Retain the first high-leg connection while the opposing hand is being cleared.\n\nComplete the hand-clearing action rather than treating a partially displaced hand as success. Establish the knee-hug connection after the hand reaches the mat. The destination is New York/Bottom only after both the hand-to-mat and knee-hug checkpoints exist. If the hand-clearing connection is lost, recognize the retained Mission Control configuration before starting again.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Zombie",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "New York",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Zombie to New York Attacker",
+    "description": "The bottom Zombie player completes the contested hand-clearing action, places the hand on the mat, and establishes the knee hug that defines completed New York control.",
+    "overview": "The bottom Zombie player completes the contested hand-clearing action, places the hand on the mat, and establishes the knee hug that defines completed New York control.\n\nBegin in the Zombie hand-clearing checkpoint, before completed New York control has been secured. Retain the first high-leg connection while the opposing hand is being cleared.\n\nComplete the hand-clearing action rather than treating a partially displaced hand as success. Establish the knee-hug connection after the hand reaches the mat. The destination is New York/Bottom only after both the hand-to-mat and knee-hug checkpoints exist. If the hand-clearing connection is lost, recognize the retained Mission Control configuration before starting again.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom is still clearing the hand: Begin in the Zombie hand-clearing checkpoint, before completed New York control has been secured.",
+      "Mission Control connection retained: Retain the first high-leg connection while the opposing hand is being cleared.",
+      "Opposing hand reaches the mat: Complete the hand-clearing action rather than treating a partially displaced hand as success.",
+      "Knee hug completes the control: Establish the knee-hug connection after the hand reaches the mat.",
+      "Completed New York from bottom: The destination is New York/Bottom only after both the hand-to-mat and knee-hug checkpoints exist.",
+      "Mission Control if hand returns: If the hand-clearing connection is lost, recognize the retained Mission Control configuration before starting again."
+    ],
+    "setup_requirements": [
+      "Begin in the Zombie hand-clearing checkpoint, before completed New York control has been secured.",
+      "Retain the first high-leg connection while the opposing hand is being cleared.",
+      "Complete the hand-clearing action rather than treating a partially displaced hand as success.",
+      "Establish the knee-hug connection after the hand reaches the mat."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the contested pummel",
+        "description": "Begin in the Zombie hand-clearing checkpoint, before completed New York control has been secured."
+      },
+      {
+        "step_number": 2,
+        "action": "Keep the first high connection",
+        "description": "Retain the first high-leg connection while the opposing hand is being cleared."
+      },
+      {
+        "step_number": 3,
+        "action": "Complete hand clearance",
+        "description": "Complete the hand-clearing action rather than treating a partially displaced hand as success."
+      },
+      {
+        "step_number": 4,
+        "action": "Establish the knee hug",
+        "description": "Establish the knee-hug connection after the hand reaches the mat."
+      },
+      {
+        "step_number": 5,
+        "action": "Confirm New York",
+        "description": "The destination is New York/Bottom only after both the hand-to-mat and knee-hug checkpoints exist."
+      },
+      {
+        "step_number": 6,
+        "action": "Recognize an interrupted pummel",
+        "description": "If the hand-clearing connection is lost, recognize the retained Mission Control configuration before starting again."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Keep the hand connected to useful inside space while the pummel is contested.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Zombie/Bottom"
+      },
+      {
+        "counter": "Address the hand clearance before the knee hug closes.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Zombie/Bottom"
+      },
+      {
+        "counter": "Maintain a balanced posture without forcing the raised knee.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Mission Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the contested pummel",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin in the Zombie hand-clearing checkpoint, before completed New York control has been secured."
+      },
+      {
+        "error": "Skipping keep the first high connection",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Retain the first high-leg connection while the opposing hand is being cleared."
+      },
+      {
+        "error": "Skipping complete hand clearance",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Complete the hand-clearing action rather than treating a partially displaced hand as success."
+      },
+      {
+        "error": "Skipping establish the knee hug",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Establish the knee-hug connection after the hand reaches the mat."
+      },
+      {
+        "error": "Skipping confirm new york",
+        "consequence": "The next action lacks its required control.",
+        "correction": "The destination is New York/Bottom only after both the hand-to-mat and knee-hug checkpoints exist."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the contested pummel",
+        "description": "Begin in the Zombie hand-clearing checkpoint, before completed New York control has been secured. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Keep the first high connection",
+        "description": "Retain the first high-leg connection while the opposing hand is being cleared. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Complete hand clearance",
+        "description": "Complete the hand-clearing action rather than treating a partially displaced hand as success. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Establish the knee hug",
+        "description": "Establish the knee-hug connection after the hand reaches the mat. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Zombie to New York: what does identify the contested pummel require?",
+        "answer": "Begin in the Zombie hand-clearing checkpoint, before completed New York control has been secured.",
+        "answer_line": "Bottom is still clearing the hand",
+        "distractors": {
+          "plausible": [
+            "A sweep straight into top mount",
+            "Rear hooks behind the opponent"
+          ],
+          "trap": [
+            "A settled lockdown half guard"
+          ]
+        }
+      },
+      {
+        "question": "Zombie to New York: what does keep the first high connection require?",
+        "answer": "Retain the first high-leg connection while the opposing hand is being cleared.",
+        "answer_line": "Mission Control connection retained",
+        "distractors": {
+          "plausible": [
+            "Rear hooks behind the opponent",
+            "A settled lockdown half guard"
+          ],
+          "trap": [
+            "A knee hug before hand clearance"
+          ]
+        }
+      },
+      {
+        "question": "Zombie to New York: what does complete hand clearance require?",
+        "answer": "Complete the hand-clearing action rather than treating a partially displaced hand as success.",
+        "answer_line": "Opposing hand reaches the mat",
+        "distractors": {
+          "plausible": [
+            "A settled lockdown half guard",
+            "A knee hug before hand clearance"
+          ],
+          "trap": [
+            "A sweep straight into top mount"
+          ]
+        }
+      },
+      {
+        "question": "Zombie to New York: what does establish the knee hug require?",
+        "answer": "Establish the knee-hug connection after the hand reaches the mat.",
+        "answer_line": "Knee hug completes the control",
+        "distractors": {
+          "plausible": [
+            "A knee hug before hand clearance",
+            "A sweep straight into top mount"
+          ],
+          "trap": [
+            "Rear hooks behind the opponent"
+          ]
+        }
+      },
+      {
+        "question": "Zombie to New York: what does confirm new york require?",
+        "answer": "The destination is New York/Bottom only after both the hand-to-mat and knee-hug checkpoints exist.",
+        "answer_line": "Completed New York from bottom",
+        "distractors": {
+          "plausible": [
+            "A sweep straight into top mount",
+            "Rear hooks behind the opponent"
+          ],
+          "trap": [
+            "A settled lockdown half guard"
+          ]
+        }
+      },
+      {
+        "question": "Zombie to New York: what does recognize an interrupted pummel require?",
+        "answer": "If the hand-clearing connection is lost, recognize the retained Mission Control configuration before starting again.",
+        "answer_line": "Mission Control if hand returns",
+        "distractors": {
+          "plausible": [
+            "Rear hooks behind the opponent",
+            "A settled lockdown half guard"
+          ],
+          "trap": [
+            "A knee hug before hand clearance"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Zombie to New York Defender",
+    "description": "Recognize Zombie to New York and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Keep the hand connected to useful inside space while the pummel is contested. Address the hand clearance before the knee hug closes. Maintain a balanced posture without forcing the raised knee. Recognize an unfinished pummel as Zombie rather than completed New York. Rebuild inside hand position if the holder returns to Mission Control.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Keep the hand connected to useful inside space while the pummel is contested.",
+      "Address the hand clearance before the knee hug closes.",
+      "Maintain a balanced posture without forcing the raised knee.",
+      "Recognize an unfinished pummel as Zombie rather than completed New York.",
+      "Rebuild inside hand position if the holder returns to Mission Control."
+    ],
+    "recognition_cues": [
+      "Begin in the Zombie hand-clearing checkpoint, before completed New York control has been secured.",
+      "Retain the first high-leg connection while the opposing hand is being cleared.",
+      "Complete the hand-clearing action rather than treating a partially displaced hand as success."
+    ],
+    "defensive_options": [
+      {
+        "action": "Keep the hand connected to useful inside space while the pummel is contested.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Zombie/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Address the hand clearance before the knee hug closes.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Zombie/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Maintain a balanced posture without forcing the raised knee.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Mission Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Recognize an unfinished pummel as Zombie rather than completed New York.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Mission Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Zombie/Bottom",
+        "how": "Keep the hand connected to useful inside space while the pummel is contested."
+      },
+      {
+        "outcome": "Mission Control/Bottom",
+        "how": "Rebuild inside hand position if the holder returns to Mission Control."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Rebuild inside hand position if the holder returns to Mission Control."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Address the hand clearance before the knee hug closes."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Zombie to New York, what connection do you address first?",
+        "answer": "Keep the hand connected to useful inside space while the pummel is contested."
+      },
+      {
+        "question": "Against Zombie to New York, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Zombie to New York, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the contested pummel",
+        "description": "Begin in the Zombie hand-clearing checkpoint, before completed New York control has been secured. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Keep the first high connection",
+        "description": "Retain the first high-leg connection while the opposing hand is being cleared. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Complete hand clearance",
+        "description": "Complete the hand-clearing action rather than treating a partially displaced hand as success. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin in the Zombie hand-clearing checkpoint, before completed New York control has been secured.",
+    "Retain the first high-leg connection while the opposing hand is being cleared.",
+    "Complete the hand-clearing action rather than treating a partially displaced hand as success."
+  ],
+  "position_integration": "The bottom Zombie player completes the contested hand-clearing action, places the hand on the mat, and establishes the knee hug that defines completed New York control. Begin in the Zombie hand-clearing checkpoint, before completed New York control has been secured. If the hand-clearing connection is lost, recognize the retained Mission Control configuration before starting again."
+}

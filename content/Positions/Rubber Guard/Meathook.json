@@ -602,11 +602,6 @@
             "technique": "Closed Guard to Omoplata",
             "target": "Omoplata Control",
             "probability": 75
-          },
-          {
-            "technique": "Crackhead Control to Carni",
-            "target": "Carni",
-            "probability": 70
           }
         ]
       },
@@ -632,11 +627,6 @@
             "technique": "Omoplata to Back",
             "target": "Back Control",
             "probability": 60
-          },
-          {
-            "technique": "Crackhead Control to Carni",
-            "target": "Carni",
-            "probability": 65
           }
         ]
       }
@@ -761,43 +751,36 @@
       {
         "transition": "Meathook to Gogoplata Control",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 22
+          "gi": 20,
+          "nogi": 24
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 15
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Crackhead Control to Carni",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Armbar from New York",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Crackhead Control to Mission Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 15
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
@@ -817,8 +800,8 @@
       {
         "transition": "Sweep from Meathook",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       }
     ],

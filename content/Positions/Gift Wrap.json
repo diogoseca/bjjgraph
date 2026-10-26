@@ -875,57 +875,50 @@
       {
         "transition": "Gift Wrap Arm Recovery",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 21
+          "gi": 20,
+          "nogi": 23
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 15
+          "gi": 18,
+          "nogi": 17
         }
       },
       {
         "transition": "Roll to Turtle",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Shrimp Escape",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 15
-        }
-      },
-      {
-        "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
+          "gi": 20,
+          "nogi": 17
         }
       },
       {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Counter Roll to Top",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 6
+          "gi": 6,
+          "nogi": 7
         }
       }
     ],

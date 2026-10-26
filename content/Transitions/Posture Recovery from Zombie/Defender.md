@@ -283,7 +283,7 @@ If posture control is lost, use a short hip escape behind your shoulder frame to
 ### 3. Guide the wrist and forearm through the available space without bending individual fingers.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -308,7 +308,7 @@ If posture control is lost, use a short hip escape behind your shoulder frame to
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Maintain posture control while freeing the other arm for the pummel.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Rubber Guard/New York]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 

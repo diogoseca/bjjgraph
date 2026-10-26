@@ -137,11 +137,6 @@
         "condition": "If opponent turns to side or turtles",
         "actions": [
           {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
             "technique": "Gift Wrap Transition",
             "target": "Technical Mount",
             "probability": 65
@@ -267,64 +262,57 @@
       {
         "transition": "Mount to Armbar",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 14
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 12
         }
       },
       {
         "transition": "Mounted Triangle",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Consolidate Mount",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 20
+          "gi": 20,
+          "nogi": 24
         }
       },
       {
         "transition": "Cross Collar Choke from Modified Mount",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 15,
           "nogi": null
         }
       },
       {
         "transition": "Kimura from Modified Mount",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
+          "gi": 11,
+          "nogi": 13
         }
       },
       {
         "transition": "Gift Wrap Transition",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 15
+          "gi": 13,
+          "nogi": 16
         }
       },
       {
         "transition": "Americana from Modified Mount",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 11
         }
       }
     ],
@@ -532,11 +520,6 @@
         "condition": "If opponent transitions toward S-mount or technical mount",
         "actions": [
           {
-            "technique": "Arm Extraction to Turtle",
-            "target": "Turtle",
-            "probability": 55
-          },
-          {
             "technique": "Deep Half Entry",
             "target": "Deep Half Guard",
             "probability": 40
@@ -658,15 +641,15 @@
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 15
+          "gi": 17,
+          "nogi": 16
         }
       },
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 19,
+          "nogi": 19
         },
         "deal_here": true,
         "success_rate": {
@@ -711,29 +694,29 @@
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Upa Escape",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
@@ -744,17 +727,10 @@
         }
       },
       {
-        "transition": "Arm Extraction to Turtle",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
         "transition": "Bridge Escape from Modified Mount",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       }
     ],

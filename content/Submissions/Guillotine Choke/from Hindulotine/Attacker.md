@@ -232,7 +232,7 @@ Use slow enclosure practice and avoid cervical extension or twisting. Open the h
 
 If the opponent clears your legs to the weak side, stop trying to finish the guillotine. Turn onto your side before a crossface and shoulder pressure pin the upper body; check the near knee or hip with the free hand as hip movement makes room to return your bottom knee inside. Keep the remaining neck connection unloaded while recovering that guard space.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 
 </section>
@@ -325,9 +325,9 @@ If the opponent clears your legs to the weak side, stop trying to finish the gui
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 62% |
-| Failure | [[Positions/Hindulotine]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Hindulotine]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>

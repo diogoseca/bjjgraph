@@ -112,7 +112,7 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Bow and Arrow Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Bow and Arrow Choke is a gi blood choke from back control in which you grip the opponent\u0027s collar and pull their leg in the opposite direction, drawing your body like a bow to compress both carotid arteries." } },
-    { "@type": "Question", "name": "What positions can you finish the Bow and Arrow Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Bow and Arrow Choke from Back Control, Body Triangle, Harness, Rear Triangle, Seat Belt Control Back, Invisible Collar, Rodeo Ride, Truck, Russian Cowboy." } },
+    { "@type": "Question", "name": "What positions can you finish the Bow and Arrow Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Bow and Arrow Choke from Back Control, Body Triangle, Harness, Rear Triangle, Seat Belt Control Back, Rodeo Ride, Truck, Russian Cowboy." } },
     { "@type": "Question", "name": "Is the Bow and Arrow Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Bow and Arrow Choke targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -202,7 +202,6 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 | [[Submissions/Bow and Arrow Choke/from Harness|Harness]] | Top | 65% | [[Submissions/Bow and Arrow Choke/from Harness/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Harness/Defender|Defend →]] |
 | [[Submissions/Bow and Arrow Choke/from Rear Triangle|Rear Triangle]] | Top | 65% | [[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Rear Triangle/Defender|Defend →]] |
 | [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back|Seat Belt Control Back]] | Top | 65% | [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Defender|Defend →]] |
-| [[Submissions/Bow and Arrow Choke/from Invisible Collar|Invisible Collar]] | Top | 58% | [[Submissions/Bow and Arrow Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Invisible Collar/Defender|Defend →]] |
 | [[Submissions/Bow and Arrow Choke/from Rodeo Ride|Rodeo Ride]] | Top | 58% | [[Submissions/Bow and Arrow Choke/from Rodeo Ride/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Rodeo Ride/Defender|Defend →]] |
 | [[Submissions/Bow and Arrow Choke/from Truck|Truck]] | Top | 58% | [[Submissions/Bow and Arrow Choke/from Truck/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Truck/Defender|Defend →]] |
 | [[Submissions/Bow and Arrow Choke/from Russian Cowboy|Russian Cowboy]] | Top | 40% | [[Submissions/Bow and Arrow Choke/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Russian Cowboy/Defender|Defend →]] |

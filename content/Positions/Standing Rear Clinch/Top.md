@@ -20,38 +20,38 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 13% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
       "text": "From this position, attempt Body Lock Pass. This technique is attempted in 3% of exchanges from this position.",
-      "position": 2
+      "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
       "text": "From this position, attempt Rolling Back Take. This technique is attempted in 2% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 21% of exchanges from this position.",
-      "position": 4
+      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 24% of exchanges from this position.",
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Finish",
-      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 6% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 7% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mat Return from Standing Rear Clinch",
-      "text": "From this position, attempt Mat Return from Standing Rear Clinch. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Mat Return from Standing Rear Clinch. This technique is attempted in 24% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rear Clinch to Body Lock",
+      "text": "From this position, attempt Rear Clinch to Body Lock. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -263,7 +263,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 **If opponent sits to guard with back exposed maintaining poor defensive posture:**
 - Execute **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 **If opponent drops to hands and knees attempting turtle defensive position:**

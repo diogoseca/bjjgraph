@@ -305,7 +305,7 @@ Recognize the vascular choke before choosing any movement. The first task is ope
 |--------|----------|-------------|
 | Success | [[Positions/Turtle]] | 50% |
 | Failure | [[Positions/Anaconda Control]] | 30% |
-| Counter | [[Positions/Dead Orchard Control]] | 20% |
+| Counter | [[Positions/Front Headlock]] | 20% |
 
 
 </section>
@@ -317,9 +317,9 @@ Recognize the vascular choke before choosing any movement. The first task is ope
 <p class="section-subtitle">How might your opponent counter Rolling Escape from Anaconda?</p>
 
 - **Contain the opponent's head and one arm while keeping a balanced base.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. An arm passing beneath the neck toward the armpit signals the Anaconda enclosure. → Leads to [[Positions/Anaconda Control]]
-- **Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Preserve space between the shoulder and neck before the attacker closes the arm loop. → Leads to [[Positions/Dead Orchard Control]]
+- **Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Preserve space between the shoulder and neck before the attacker closes the arm loop. → Leads to [[Positions/Front Headlock]]
 - **Join to the supporting arm without pulling the neck into a twist.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Do not fight a secured loop by twisting the neck or planting the head against a roll. → Leads to [[Positions/Anaconda Control]]
-- **Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso. → Leads to [[Positions/Turtle]]
+- **Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso. → Leads to [[Positions/Anaconda Control]]
 
 
 </section>

@@ -103,11 +103,11 @@
       "reviewer": "origin-coherence phase 2, an LLM persona panel, one round (calibration/listing_tables.json); not expert data"
     },
     "Waiter Sweep": {
-      "gi": 41,
-      "nogi": 38,
-      "verdict": "rehome",
-      "reason": "Re-homed from butterfly-guard/bottom to deep-half-guard/bottom (origin coherence, phase 2): the old prior was calibrated at the old origin; this is the panel's rate at the new one.",
-      "reviewer": "origin-coherence phase 2, an LLM persona panel, one round (calibration/listing_tables.json); not expert data"
+      "gi": 41.0,
+      "nogi": 38.0,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
     },
     "X Pass": {
       "gi": 41,
@@ -115,6 +115,167 @@
       "verdict": "rehome",
       "reason": "Re-homed from half-guard/top to open-guard/top (origin coherence, phase 2): the old prior was calibrated at the old origin; this is the panel's rate at the new one.",
       "reviewer": "origin-coherence phase 2, an LLM persona panel, one round (calibration/listing_tables.json); not expert data"
+    },
+    "Escape Dead Orchard Control": {
+      "gi": 30,
+      "nogi": 30,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Escape from Dead Orchard": {
+      "gi": 65,
+      "nogi": 65,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Complete Leg Weave Pass": {
+      "gi": 40,
+      "nogi": 40,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Leg Weave Escape to Half Guard": {
+      "gi": 40,
+      "nogi": 40,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Dogfight Position": {
+      "gi": 35,
+      "nogi": 35,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Half Guard to Leg Weave": {
+      "gi": 41.0,
+      "nogi": 41.0,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Posture Recovery to Closed Guard": {
+      "gi": 40,
+      "nogi": 40,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Crackhead Control to Mission Control": {
+      "gi": 65,
+      "nogi": 65,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Suloev Stretch from Half Guard": {
+      "gi": 35,
+      "nogi": 35,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Backstep from Leg Weave": {
+      "gi": 40,
+      "nogi": 40,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Sweep from Leg Weave": {
+      "gi": 35,
+      "nogi": null,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Carni to Gogoplata Setup": {
+      "gi": 40,
+      "nogi": 40,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Rotate to Carni": {
+      "gi": 35,
+      "nogi": 35,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Arm Extraction and Pass": {
+      "gi": 35,
+      "nogi": 35,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Baratoplata from Crackhead Control": {
+      "gi": 25,
+      "nogi": 25,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Crackhead Control to New York": {
+      "gi": 45,
+      "nogi": 45,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Omoplata from Crackhead Control": {
+      "gi": 30,
+      "nogi": 30,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Triangle Choke from Crackhead Control": {
+      "gi": 30,
+      "nogi": 30,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Crackhead Control to Dead Orchard": {
+      "gi": 40,
+      "nogi": 40,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Carni Shoulder Lock": {
+      "gi": 35,
+      "nogi": 35,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Carni Release to Guard": {
+      "gi": 60,
+      "nogi": 60,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Z Guard to Carni": {
+      "gi": 35,
+      "nogi": 35,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
+    },
+    "Armbar from Dead Orchard Control": {
+      "gi": 40,
+      "nogi": 40,
+      "verdict": "owner-approved",
+      "reason": "Exact approved N1/N3 values; physical origin and complete outcomes in calibration/graph_restructure_phase2.json.",
+      "reviewer": "owner-approved-restructure"
     }
   }
 }

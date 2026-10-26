@@ -212,25 +212,23 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (18% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (10% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (8% of attempts)
+- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (11% of attempts)
 
-- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (9% of attempts)
+- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (13% of attempts)
 
-- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (11% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (15% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (12% of attempts)
+- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (4% of attempts)
 
-- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (3% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (17% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (14% of attempts)
+- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (6% of attempts)
 
-- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (5% of attempts)
+- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (17% of attempts)
 
-- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (14% of attempts)
-
-- **[[Transitions/Body Lock to Standing/Attacker|Body Lock to Standing]]** (6% of attempts)
+- **[[Transitions/Body Lock to Standing/Attacker|Body Lock to Standing]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -296,7 +294,7 @@ The position is inherently transitional and requires immediate attack execution.
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria: No-Gi Pressure Passing</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Body Lock.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Power Ride: Craig Jones’s Pinning System</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position: Body Lock.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

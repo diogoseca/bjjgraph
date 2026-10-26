@@ -248,11 +248,6 @@
             "technique": "Side Control to Mount",
             "target": "Mount",
             "probability": 80
-          },
-          {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 72
           }
         ]
       }

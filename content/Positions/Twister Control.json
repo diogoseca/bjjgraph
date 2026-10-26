@@ -80,36 +80,29 @@
       {
         "transition": "Twister from Twister Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 33
-        }
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 35,
-          "nogi": 22
+          "gi": 21,
+          "nogi": 42
         }
       },
       {
         "transition": "Guillotine Choke from Twister Control",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 18
+          "gi": 40,
+          "nogi": 23
         }
       },
       {
         "transition": "Neck Crank from Twister Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 17
         }
       },
       {
         "transition": "Calf Slicer from Twister Control",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 14
+          "gi": 25,
+          "nogi": 18
         }
       }
     ],

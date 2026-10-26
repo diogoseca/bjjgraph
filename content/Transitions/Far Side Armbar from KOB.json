@@ -98,10 +98,6 @@
       "relationship": "Adjacent position — common fallback if KOB is lost during setup"
     },
     {
-      "name": "Back Take from Top",
-      "relationship": "Alternative transition from KOB when the opponent turns away instead of pushing"
-    },
-    {
       "name": "Mount",
       "relationship": "Alternative advancement target from KOB that shares the attack-from-pressure philosophy"
     },

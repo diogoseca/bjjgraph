@@ -14,33 +14,33 @@
   "from_position": "Buggy Choke/Bottom",
   "outcomes": [
     {
+      "result": "success",
       "to": "Deep Half Guard/Bottom",
       "probability": {
-        "gi": 55,
-        "nogi": 55
-      },
-      "result": "success"
+        "gi": 35,
+        "nogi": 35
+      }
     },
     {
+      "result": "failure",
       "to": "Buggy Choke/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
-      },
-      "result": "failure"
+        "gi": 45,
+        "nogi": 45
+      }
     },
     {
-      "to": "Back Control/Bottom",
+      "result": "counter",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 20,
         "nogi": 20
-      },
-      "result": "counter"
+      }
     }
   ],
   "success_rate": {
-    "gi": 55,
-    "nogi": 55
+    "gi": 35,
+    "nogi": 35
   },
   "overview": "The Roll to Deep Half Guard represents a specialized defensive transition from the buggy choke bottom position, utilizing rotational momentum to escape the choking pressure while establishing an advantageous guard position. This technique exploits the structural weakness inherent in the buggy choke grip configuration—when the attacker commits both arms to the choke, their base becomes compromised and vulnerable to directional rolling attacks.\n\nUnlike sitting to half guard or granby rolling to closed guard, the deep half entry creates immediate offensive opportunities upon completion. The bottom player transitions from pure defense to a position with sweeping potential and leg entanglement options. The key mechanical insight is that the rolling motion must travel toward the opponent's trapped leg rather than away from pressure, using the choke grip structure against the attacker.\n\nThis transition is particularly valuable when the buggy choke grips are established but body pressure hasn't fully consolidated. The attacker's commitment to finishing the choke creates windows for explosive rotational escapes that would not exist against a more positionally-focused opponent. Mastering this technique adds a counterattacking dimension to buggy choke defense, punishing overly aggressive finishing attempts.",
   "conditions": [
@@ -161,7 +161,7 @@
         "counter": "Release choke grips and take back during roll",
         "effectiveness": "High",
         "your_response": "Accept that skilled opponents may transition to back control. Prepare defensive grips during roll to address back take. Sometimes accepting back take is preferable to choke completion—you can escape backs, you cannot escape finished chokes.",
-        "targets_outcome": "Back Control/Bottom"
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Post far leg wide to prevent deep half entry",
@@ -405,7 +405,7 @@
       {
         "action": "Release choke grips and transition to back control during the roll",
         "when_to_use": "When the roll has already initiated and cannot be stopped by sprawling. Abandon the choke attempt and prioritize positional advancement by following the rotation to establish hooks on the back.",
-        "targets_outcome": "Back Control/Bottom",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "You give up the choke but establish back control with hooks, transitioning from a losing defensive exchange into the most dominant position in BJJ",
         "risk": "If the bottom player anticipates the back take, they may establish defensive hand positioning during the roll that makes hook insertion difficult"
       },
@@ -423,7 +423,7 @@
         "how": "Detect the escape attempt early through recognition cues (hip loading, frame creation, arm reaching for your leg) and sprawl decisively before the roll initiates. Drive your chest weight down onto their back and shoulders to eliminate the rotational mobility needed for the escape. Maintain your choking grips and continue finishing pressure."
       },
       {
-        "outcome": "Back Control/Bottom",
+        "outcome": "Side Control/Bottom",
         "how": "When the roll has already initiated and cannot be stopped, immediately release your choking grips and follow the bottom player's rotation. As they roll, insert your hooks into their hips and establish seatbelt control on their upper body. Convert their escape attempt into a transition to the most dominant position. This requires accepting the choke is lost but capitalizing on the positional exposure the roll creates."
       }
     ],

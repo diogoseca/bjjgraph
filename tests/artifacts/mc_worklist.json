@@ -1,9 +1,40 @@
 {
  "worklist": [
   "Americana from Triangle Control|Attacker",
+  "Aoki Control Release to Ashi|Defender",
+  "Aoki Grip and Hip Release|Defender",
+  "Armbar from Dead Orchard Control|Defender",
   "Armbar from Triangle Control|Attacker",
+  "Backstep from Leg Weave|Defender",
+  "Baratoplata from Crackhead Control|Defender",
+  "Buggy Choke from Buggy Choke|Defender",
+  "Buggy Choke to Triangle Control|Defender",
+  "Buggy Release to Guard|Defender",
+  "Carni Release to Guard|Defender",
+  "Carni Shoulder Lock|Defender",
+  "Chill Dog to Gogoplata Control|Defender",
+  "Chill Dog to Invisible Collar|Defender",
+  "Closed Guard to Hindulotine|Defender",
+  "Crackhead Control to Dead Orchard|Defender",
+  "Dogfight Position|Defender",
+  "Escape Dead Orchard Control|Defender",
+  "Frame and Posture Escape from Buggy Choke|Defender",
+  "Granby Roll to Guard|Defender",
   "Half Guard to Kimura Trap|Defender",
-  "Kimura from Triangle Control|Attacker"
+  "Hindu Control Head and Leg Release|Defender",
+  "Hindu Control to Triangle|Defender",
+  "Hindulotine to Anaconda Choke|Defender",
+  "Invisible Collar Choke|Defender",
+  "Invisible Collar Guard Reset|Defender",
+  "Invisible Collar Posture Recovery|Defender",
+  "Invisible Collar to Chill Dog|Defender",
+  "Kimura from Triangle Control|Attacker",
+  "Leg Weave Escape to Half Guard|Defender",
+  "Omoplata from Crackhead Control|Defender",
+  "Sweep from Leg Weave|Defender",
+  "Triangle Choke from Crackhead Control|Defender",
+  "Z Guard to Carni|Defender",
+  "Zombie to New York|Defender"
  ],
  "detail": {
   "Americana from Triangle Control|Attacker": {
@@ -14,6 +45,30 @@
    "clip_rate": 1.0,
    "pool_rate": 0.8
   },
+  "Aoki Control Release to Ashi|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Aoki Grip and Hip Release|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Armbar from Dead Orchard Control|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
   "Armbar from Triangle Control|Attacker": {
    "cards": 5,
    "clippable": 5,
@@ -21,6 +76,126 @@
    "micro": 1,
    "clip_rate": 1.0,
    "pool_rate": 0.8
+  },
+  "Backstep from Leg Weave|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Baratoplata from Crackhead Control|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Buggy Choke from Buggy Choke|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Buggy Choke to Triangle Control|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Buggy Release to Guard|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Carni Release to Guard|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Carni Shoulder Lock|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Chill Dog to Gogoplata Control|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Chill Dog to Invisible Collar|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Closed Guard to Hindulotine|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Crackhead Control to Dead Orchard|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Dogfight Position|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Escape Dead Orchard Control|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Frame and Posture Escape from Buggy Choke|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Granby Roll to Guard|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
   },
   "Half Guard to Kimura Trap|Defender": {
    "cards": 4,
@@ -30,6 +205,62 @@
    "clip_rate": 1.0,
    "pool_rate": 1.0
   },
+  "Hindu Control Head and Leg Release|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Hindu Control to Triangle|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Hindulotine to Anaconda Choke|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Invisible Collar Choke|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Invisible Collar Guard Reset|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Invisible Collar Posture Recovery|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Invisible Collar to Chill Dog|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
   "Kimura from Triangle Control|Attacker": {
    "cards": 5,
    "clippable": 5,
@@ -37,6 +268,54 @@
    "micro": 1,
    "clip_rate": 1.0,
    "pool_rate": 0.8
+  },
+  "Leg Weave Escape to Half Guard|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Omoplata from Crackhead Control|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Sweep from Leg Weave|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Triangle Choke from Crackhead Control|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Z Guard to Carni|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
+  },
+  "Zombie to New York|Defender": {
+   "cards": 3,
+   "clippable": 3,
+   "viable": 2,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.6666666666666666
   }
  }
 }

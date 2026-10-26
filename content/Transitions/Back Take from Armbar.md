@@ -302,8 +302,6 @@ The Back Take from Armbar occupies a critical junction in the submission chain h
 
 - [[Submissions/Armbar/from Armbar Control]] - Alternative high-percentage finish from armbar control when opponent stops defending
 
-- [[Transitions/Back Take]] - Related back take concept applied from various other positions
-
 - [[Transitions/Triangle Setup]] - Alternative chain attack from armbar when opponent defends by stacking rather than turning
 
 - [[Transitions/Belly Down Armbar Transition]] - Related armbar continuation option when opponent rolls away from the attack

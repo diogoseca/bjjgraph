@@ -81,10 +81,6 @@
       "relationship": "Parent guard category that inverted belongs to"
     },
     {
-      "name": "Kneebar Finish",
-      "relationship": "Completion technique from Kneebar Control position"
-    },
-    {
       "name": "Inverted Guard Elevation Sweep",
       "relationship": "Alternative offensive option from the same starting position"
     },

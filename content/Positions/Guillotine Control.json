@@ -223,7 +223,7 @@
             "probability": 75
           },
           {
-            "technique": "High Elbow Guillotine Variation",
+            "technique": "High Elbow Guillotine from Guillotine Control",
             "target": "Game Over",
             "probability": 70
           }
@@ -283,7 +283,7 @@
             "probability": 75
           },
           {
-            "technique": "High Elbow Guillotine Variation",
+            "technique": "High Elbow Guillotine from Guillotine Control",
             "target": "Game Over",
             "probability": 65
           }
@@ -677,11 +677,6 @@
         "condition": "If opponent postures up and attempts to create space by extending arms or lifting torso",
         "actions": [
           {
-            "technique": "High Elbow Guillotine Variation",
-            "target": "Game Over",
-            "probability": 65
-          },
-          {
             "technique": "Guillotine Setup",
             "target": "Closed Guard",
             "probability": 50
@@ -854,59 +849,45 @@
     },
     "transitions": [
       {
-        "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 21
-        }
-      },
-      {
-        "transition": "Hip Bump Sweep",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 16
-        }
-      },
-      {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 7
+          "gi": 16,
+          "nogi": 12
         }
       },
       {
         "transition": "Closed Guard to Triangle",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 22,
+          "nogi": 25
         }
       },
       {
         "transition": "Guard Recovery from Guillotine Control",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Butterfly Sweep with Guillotine",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 23
+          "gi": 28,
+          "nogi": 30
         }
       },
       {
         "transition": "Guillotine Escape to Von Flue",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Guillotine Escape via Posture",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": {
+          "gi": 28,
+          "nogi": 29
         }
       }
     ],

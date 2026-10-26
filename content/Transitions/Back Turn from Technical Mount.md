@@ -255,8 +255,6 @@ The Back Turn from Technical Mount occupies a unique place in the BJJ positional
 
 - [[Positions/Mount]] - Parent position of technical mount from which the overall escape sequence begins
 
-- [[Transitions/Back Take]] - Opponent's transition used to follow the turn and establish back control with hooks
-
 - [[Positions/Half Guard]] - Alternative escape target from technical mount bottom when back turn is not necessary
 
 - [[Positions/Back Control/Body Triangle]] - Back control variation opponent may establish after following the turn for enhanced hip control

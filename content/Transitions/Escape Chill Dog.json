@@ -10,33 +10,33 @@
   "from_position": "Chill Dog/Bottom",
   "outcomes": [
     {
-      "to": "Half Guard/Bottom",
+      "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 65,
+        "nogi": 65
       },
       "result": "success"
     },
     {
       "to": "Chill Dog/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 20,
+        "nogi": 20
       },
       "result": "failure"
     },
     {
-      "to": "Back Control/Bottom",
+      "to": "Open Guard/Bottom",
       "probability": {
-        "gi": 20,
-        "nogi": 20
+        "gi": 15,
+        "nogi": 15
       },
       "result": "counter"
     }
   ],
   "success_rate": {
-    "gi": 55,
-    "nogi": 55
+    "gi": 65,
+    "nogi": 65
   },
   "overview": "The bottom player is already facing the opponent in Chill Dog, with a high rubber-guard leg connection. The bottom player owns Chill Dog rather than being trapped in a turtle ride. An escape from the high guard by the top player is a different action.\n\nThe bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).",
   "conditions": [
@@ -136,7 +136,7 @@
         "counter": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
-        "targets_outcome": "Back Control/Bottom"
+        "targets_outcome": "Open Guard/Bottom"
       },
       {
         "counter": "Keep a safe base and prevent the free leg from closing high behind your head.",
@@ -378,7 +378,7 @@
       {
         "action": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Back Control/Bottom",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
@@ -403,7 +403,7 @@
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso."
       },
       {
-        "outcome": "Back Control/Bottom",
+        "outcome": "Open Guard/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape."
       }
     ],

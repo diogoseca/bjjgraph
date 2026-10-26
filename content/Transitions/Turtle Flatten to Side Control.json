@@ -54,10 +54,6 @@
       "relationship": "Target position upon successful completion"
     },
     {
-      "name": "Back Take from Top",
-      "relationship": "Primary alternative attack from turtle top"
-    },
-    {
       "name": "Crucifix from Turtle",
       "relationship": "Alternative attack when opponent posts arm during flatten"
     },

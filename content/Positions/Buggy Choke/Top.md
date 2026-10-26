@@ -20,39 +20,27 @@ description: "Buggy Choke top perspective: Watch for an arm reaching past your h
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Finish Buggy Choke",
-      "text": "From this position, attempt Finish Buggy Choke. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Grip Strip from Buggy Choke",
+      "text": "From this position, attempt Grip Strip from Buggy Choke. This technique is attempted in 65% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Hook Leg and Take Back",
-      "text": "From this position, attempt Hook Leg and Take Back. This technique is attempted in 12% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 12% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Switch to Darce Configuration",
-      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Switch to Anaconda Configuration",
-      "text": "From this position, attempt Switch to Anaconda Configuration. This technique is attempted in 5% of exchanges from this position.",
-      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Buggy Choke to Front Headlock",
       "text": "From this position, attempt Buggy Choke to Front Headlock. This technique is attempted in 10% of exchanges from this position.",
-      "position": 6
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Buggy Choke to North-South",
+      "text": "From this position, attempt Buggy Choke to North-South. This technique is attempted in 5% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Frame and Posture Escape from Buggy Choke",
+      "text": "From this position, attempt Frame and Posture Escape from Buggy Choke. This technique is attempted in 20% of exchanges from this position.",
+      "position": 4
     }
   ],
   "totalTime": "PT2M"
@@ -266,7 +254,7 @@ The bottom player supplies the arm-and-leg loop around the opponent's head and o
 
 
 **After the head and arm have been completely freed, when side control can be stabilized safely:**
-- Execute **[[Transitions/Buggy Choke to Side Control/Attacker|Buggy Choke to Side Control]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Grip Strip from Buggy Choke/Attacker|Grip Strip from Buggy Choke]]** → [[Positions/Side Control]] (Probability: 58%)
 
 
 **Only after clearing the choke loop, when the shoulder and hip line allow a controlled change of pin:**
@@ -351,9 +339,9 @@ Work cooperatively on protect the neck. Treat the choke as live even though you 
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 70% |
-| Advancement Probability | 75% |
-| Submission Probability | 72% |
+| Retention Rate | 48% |
+| Advancement Probability | 42% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

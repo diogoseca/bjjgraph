@@ -20,38 +20,38 @@ description: "Hindulotine bottom perspective: Hug the knee and turn onto the hip
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hindulotine to Darce Choke",
-      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Hindulotine from Hindulotine",
+      "text": "From this position, attempt Hindulotine from Hindulotine. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hindulotine to Anaconda Choke",
-      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Hindu Control to Triangle",
+      "text": "From this position, attempt Hindu Control to Triangle. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Hindulotine",
+      "text": "From this position, attempt Guard Recovery from Hindulotine. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Elbow Guillotine Variation",
-      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Hindulotine",
+      "text": "From this position, attempt Arm Triangle from Hindulotine. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Sweep with Guillotine",
-      "text": "From this position, attempt Butterfly Sweep with Guillotine. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Back Take from Bottom",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery from Hindulotine",
-      "text": "From this position, attempt Guard Recovery from Hindulotine. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Guillotine Choke from Hindulotine",
+      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -312,9 +312,9 @@ Work cooperatively on establish hindu control. Hold the head and leg enclosure w
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 72% |
-| Advancement Probability | 65% |
-| Submission Probability | 60% |
+| Retention Rate | 78% |
+| Advancement Probability | 70% |
+| Submission Probability | 65% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

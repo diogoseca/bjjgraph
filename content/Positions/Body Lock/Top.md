@@ -20,38 +20,38 @@ description: "Master body lock control from top position. Dominant standing cont
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Snap Down to Front Headlock",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Tani Otoshi",
+      "text": "From this position, attempt Tani Otoshi. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Tani Otoshi",
-      "text": "From this position, attempt Tani Otoshi. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Kosoto Gake",
+      "text": "From this position, attempt Kosoto Gake. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kosoto Gake",
-      "text": "From this position, attempt Kosoto Gake. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Mat Return to Back Mount",
+      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Harai Goshi",
+      "text": "From this position, attempt Harai Goshi. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Harai Goshi",
-      "text": "From this position, attempt Harai Goshi. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Body Lock Pass",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -275,7 +275,6 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 **Else if opponent attempts to sit or pull guard:**
 - Execute **[[Follow to Closed Guard Top/Attacker|Follow to Closed Guard Top]]** → [[Positions/Closed Guard]] (Probability: 65%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Else if opponent creates frames or attempts to break grip:**
@@ -405,7 +404,7 @@ Partner attempts various escapes from your body lock including frames, whizzer, 
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria: No-Gi Pressure Passing</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Body Lock.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Power Ride: Craig Jones’s Pinning System</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position: Body Lock.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

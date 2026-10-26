@@ -287,7 +287,7 @@ When the hand pummel is stripped, rebuild guard retention with hip movement and 
 ### 2. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -301,7 +301,7 @@ When the hand pummel is stripped, rebuild guard retention with hip movement and 
 ### 4. Cover the cleared arm and close the knee hug as the hand reaches the mat.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Open Guard]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -315,7 +315,7 @@ When the hand pummel is stripped, rebuild guard retention with hip movement and 
 
 <p class="section-subtitle">What is the best outcome when defending Strip Grip from Zombie?</p>
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Rubber Guard/New York]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Maintain posture control while freeing the other arm for the pummel.
 

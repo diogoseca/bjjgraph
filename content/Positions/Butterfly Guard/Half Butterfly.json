@@ -158,11 +158,6 @@
             "technique": "Front Headlock to Guillotine",
             "target": "Front Headlock",
             "probability": 50
-          },
-          {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 55
           }
         ]
       }
@@ -576,7 +571,7 @@
             "probability": 65
           },
           {
-            "technique": "Granby to Closed Guard",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 50
           }

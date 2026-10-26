@@ -288,28 +288,28 @@ An early escape withdraws the elevated leg or restores a usable post before your
 ### 1. A deep-half player supporting your elevated leg is setting the waiter mechanism.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Butterfly Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 2. Preserve hand or foot support before the opponent controls the tipping direction.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Butterfly Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 3. Avoid leaving the hips directly above an established deep-half shoulder connection.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Butterfly Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 4. Return the elevated leg only while the knee can move without twisting.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Butterfly Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -323,11 +323,11 @@ An early escape withdraws the elevated leg or restores a usable post before your
 
 <p class="section-subtitle">What is the best outcome when defending Waiter Sweep?</p>
 
-### → [[Positions/Butterfly Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. A deep-half player supporting your elevated leg is setting the waiter mechanism.
 
-### → [[Positions/Butterfly Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Preserve hand or foot support before the opponent controls the tipping direction.
 

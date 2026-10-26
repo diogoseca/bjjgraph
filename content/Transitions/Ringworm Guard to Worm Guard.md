@@ -247,8 +247,6 @@ The Ringworm Guard to Worm Guard transition is a critical link within the lapel 
 
 - [[Transitions/Omoplata Sweep]] - Common offensive chain from Worm Guard after transition
 
-- [[Transitions/Back Take]] - High-percentage follow-up from Worm Guard sweeps
-
 - [[Positions/Spider Guard]] - Alternative guard if lapel control is lost during transition
 
 - [[Positions/De La Riva Guard]] - Fallback position sharing leg hooking principles

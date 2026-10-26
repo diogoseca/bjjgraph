@@ -76,7 +76,7 @@
       "relationship": "Related transition on the graph."
     },
     {
-      "name": "Kiss of the Dragon",
+      "name": "Kiss of the Dragon from RDLR",
       "content_type": "Transition",
       "relationship": "Related transition on the graph."
     },
@@ -87,11 +87,6 @@
     },
     {
       "name": "Turtle to Back Take",
-      "content_type": "Transition",
-      "relationship": "Related transition on the graph."
-    },
-    {
-      "name": "Back Take",
       "content_type": "Transition",
       "relationship": "Related transition on the graph."
     },

@@ -286,13 +286,9 @@ The Twister entry from Cross Body Ride is a critical link in the 10th Planet Jiu
 
 - [[Submissions/Banana Split]] - Alternative submission available from Twister Control leg position
 
-- [[Transitions/Back Take from Top]] - Alternative offensive pathway from cross body ride when Twister is defended
-
 - [[Transitions/Crucifix Transition]] - Alternative arm-isolation attack from cross body ride
 
 - [[Positions/Crab Ride]] - Intermediate hip-control position enabling alternative Twister entry angle
-
-- [[Transitions/Roll to Truck]] - Alternative Twister Control entry from different starting position
 
 - [[Transitions/Electric Chair Transition]] - Related 10th Planet system transition from lockdown to leg entanglement
 

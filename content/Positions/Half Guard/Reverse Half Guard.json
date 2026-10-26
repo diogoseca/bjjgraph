@@ -210,7 +210,7 @@
         "condition": "If opponent attempts to turn and face you by rotating their chest toward you",
         "actions": [
           {
-            "technique": "Aoki Lock to Back Control",
+            "technique": "Backstep from Reverse Half",
             "target": "Back Control",
             "probability": 70
           },
@@ -357,64 +357,57 @@
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Knee Slice from Half",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Crossface Pass",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Crab Ride to Back",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 10
+          "gi": 7,
+          "nogi": 11
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": {
           "gi": 11,
-          "nogi": 13
+          "nogi": 12
         }
       },
       {
         "transition": "Backstep from Reverse Half",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 19,
+          "nogi": 20
         }
       },
       {
         "transition": "Pass Reverse Half",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 15
+          "gi": 19,
+          "nogi": 17
         }
       }
     ],

@@ -300,7 +300,7 @@ This sweep integrates seamlessly into a broader guard retention and advancement 
 
 - [[Transitions/Balloon Sweep]] - Complementary De La Riva sweep option when opponent posts high
 
-- [[Transitions/Kiss of the Dragon]] - Alternative - inversion-based back take when opponent pressures forward
+- [[Transitions/Kiss of the Dragon from RDLR]] - Alternative - inversion-based back take when opponent pressures forward
 
 - [[Transitions/Back Take from Bottom]] - Follow-up option when opponent posts hand to defend the sweep
 

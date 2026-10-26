@@ -1,0 +1,374 @@
+{
+  "name": "Aoki Control Release to Ashi",
+  "from_position": "Aoki Lock Control/Bottom",
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
+  "outcomes": [
+    {
+      "to": "Ashi Garami/Bottom",
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
+      "result": "success"
+    },
+    {
+      "to": "Aoki Lock Control/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "The Aoki holder removes finishing pressure and opens the foot grip while retaining the Ashi Garami leg connection, returning to control before choosing a new attack.",
+  "description": "The Aoki holder removes finishing pressure and opens the foot grip while retaining the Ashi Garami leg connection, returning to control before choosing a new attack.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The Aoki holder removes finishing pressure and opens the foot grip while retaining the Ashi Garami leg connection, returning to control before choosing a new attack.\n\nBegin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established. Remove the finishing pressure before allowing the captured foot to change angle.\n\nOpen the foot grip without pulling the foot through a fixed knee angle. Keep the established Ashi Garami leg connection while the foot grip is released. The completed reset is Ashi Garami/Bottom, with no foot-lock finishing pressure. If the leg connection also opens, recognize Open Guard/Bottom before choosing another attack.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Aoki Lock Control",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Aoki Control Release to Ashi Attacker",
+    "description": "The Aoki holder removes finishing pressure and opens the foot grip while retaining the Ashi Garami leg connection, returning to control before choosing a new attack.",
+    "overview": "The Aoki holder removes finishing pressure and opens the foot grip while retaining the Ashi Garami leg connection, returning to control before choosing a new attack.\n\nBegin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established. Remove the finishing pressure before allowing the captured foot to change angle.\n\nOpen the foot grip without pulling the foot through a fixed knee angle. Keep the established Ashi Garami leg connection while the foot grip is released. The completed reset is Ashi Garami/Bottom, with no foot-lock finishing pressure. If the leg connection also opens, recognize Open Guard/Bottom before choosing another attack.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom player owns the foot grip: Begin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established.",
+      "Finishing pressure fully released: Remove the finishing pressure before allowing the captured foot to change angle.",
+      "Hands release the foot capture: Open the foot grip without pulling the foot through a fixed knee angle.",
+      "Ashi connection stays controlled: Keep the established Ashi Garami leg connection while the foot grip is released.",
+      "Ashi Garami from underneath: The completed reset is Ashi Garami/Bottom, with no foot-lock finishing pressure.",
+      "Facing guard if legs disengage: If the leg connection also opens, recognize Open Guard/Bottom before choosing another attack."
+    ],
+    "setup_requirements": [
+      "Begin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established.",
+      "Remove the finishing pressure before allowing the captured foot to change angle.",
+      "Open the foot grip without pulling the foot through a fixed knee angle.",
+      "Keep the established Ashi Garami leg connection while the foot grip is released."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the holding side",
+        "description": "Begin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established."
+      },
+      {
+        "step_number": 2,
+        "action": "Unload the foot",
+        "description": "Remove the finishing pressure before allowing the captured foot to change angle."
+      },
+      {
+        "step_number": 3,
+        "action": "Open the grip",
+        "description": "Open the foot grip without pulling the foot through a fixed knee angle."
+      },
+      {
+        "step_number": 4,
+        "action": "Retain the legs",
+        "description": "Keep the established Ashi Garami leg connection while the foot grip is released."
+      },
+      {
+        "step_number": 5,
+        "action": "Confirm the reset",
+        "description": "The completed reset is Ashi Garami/Bottom, with no foot-lock finishing pressure."
+      },
+      {
+        "step_number": 6,
+        "action": "Recognize lost contact",
+        "description": "If the leg connection also opens, recognize Open Guard/Bottom before choosing another attack."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Wait for joint pressure to release before moving the foot.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Aoki Lock Control/Bottom"
+      },
+      {
+        "counter": "Keep the knee and foot aligned during the opening.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Aoki Lock Control/Bottom"
+      },
+      {
+        "counter": "Recover a comfortable foot position without an explosive twist.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Open Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the holding side",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established."
+      },
+      {
+        "error": "Skipping unload the foot",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Remove the finishing pressure before allowing the captured foot to change angle."
+      },
+      {
+        "error": "Skipping open the grip",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Open the foot grip without pulling the foot through a fixed knee angle."
+      },
+      {
+        "error": "Skipping retain the legs",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Keep the established Ashi Garami leg connection while the foot grip is released."
+      },
+      {
+        "error": "Skipping confirm the reset",
+        "consequence": "The next action lacks its required control.",
+        "correction": "The completed reset is Ashi Garami/Bottom, with no foot-lock finishing pressure."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the holding side",
+        "description": "Begin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Unload the foot",
+        "description": "Remove the finishing pressure before allowing the captured foot to change angle. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the grip",
+        "description": "Open the foot grip without pulling the foot through a fixed knee angle. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Retain the legs",
+        "description": "Keep the established Ashi Garami leg connection while the foot grip is released. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Aoki Control Release to Ashi: what does identify the holding side require?",
+        "answer": "Begin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established.",
+        "answer_line": "Bottom player owns the foot grip",
+        "distractors": {
+          "plausible": [
+            "A finish held through the reset",
+            "A pass with legs still entwined"
+          ],
+          "trap": [
+            "A rear seatbelt with both hooks"
+          ]
+        }
+      },
+      {
+        "question": "Aoki Control Release to Ashi: what does unload the foot require?",
+        "answer": "Remove the finishing pressure before allowing the captured foot to change angle.",
+        "answer_line": "Finishing pressure fully released",
+        "distractors": {
+          "plausible": [
+            "A pass with legs still entwined",
+            "A rear seatbelt with both hooks"
+          ],
+          "trap": [
+            "A foot turn against a fixed knee"
+          ]
+        }
+      },
+      {
+        "question": "Aoki Control Release to Ashi: what does open the grip require?",
+        "answer": "Open the foot grip without pulling the foot through a fixed knee angle.",
+        "answer_line": "Hands release the foot capture",
+        "distractors": {
+          "plausible": [
+            "A rear seatbelt with both hooks",
+            "A foot turn against a fixed knee"
+          ],
+          "trap": [
+            "A finish held through the reset"
+          ]
+        }
+      },
+      {
+        "question": "Aoki Control Release to Ashi: what does retain the legs require?",
+        "answer": "Keep the established Ashi Garami leg connection while the foot grip is released.",
+        "answer_line": "Ashi connection stays controlled",
+        "distractors": {
+          "plausible": [
+            "A foot turn against a fixed knee",
+            "A finish held through the reset"
+          ],
+          "trap": [
+            "A pass with legs still entwined"
+          ]
+        }
+      },
+      {
+        "question": "Aoki Control Release to Ashi: what does confirm the reset require?",
+        "answer": "The completed reset is Ashi Garami/Bottom, with no foot-lock finishing pressure.",
+        "answer_line": "Ashi Garami from underneath",
+        "distractors": {
+          "plausible": [
+            "A finish held through the reset",
+            "A pass with legs still entwined"
+          ],
+          "trap": [
+            "A rear seatbelt with both hooks"
+          ]
+        }
+      },
+      {
+        "question": "Aoki Control Release to Ashi: what does recognize lost contact require?",
+        "answer": "If the leg connection also opens, recognize Open Guard/Bottom before choosing another attack.",
+        "answer_line": "Facing guard if legs disengage",
+        "distractors": {
+          "plausible": [
+            "A pass with legs still entwined",
+            "A rear seatbelt with both hooks"
+          ],
+          "trap": [
+            "A foot turn against a fixed knee"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Aoki Control Release to Ashi Defender",
+    "description": "Recognize Aoki Control Release to Ashi and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Wait for joint pressure to release before moving the foot. Keep the knee and foot aligned during the opening. Recover a comfortable foot position without an explosive twist. Recognize the retained Ashi connection after the grip opens. Square up if both players fully disengage their legs.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Wait for joint pressure to release before moving the foot.",
+      "Keep the knee and foot aligned during the opening.",
+      "Recover a comfortable foot position without an explosive twist.",
+      "Recognize the retained Ashi connection after the grip opens.",
+      "Square up if both players fully disengage their legs."
+    ],
+    "recognition_cues": [
+      "Begin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established.",
+      "Remove the finishing pressure before allowing the captured foot to change angle.",
+      "Open the foot grip without pulling the foot through a fixed knee angle."
+    ],
+    "defensive_options": [
+      {
+        "action": "Wait for joint pressure to release before moving the foot.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Aoki Lock Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Keep the knee and foot aligned during the opening.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Aoki Lock Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Recover a comfortable foot position without an explosive twist.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Recognize the retained Ashi connection after the grip opens.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Aoki Lock Control/Bottom",
+        "how": "Wait for joint pressure to release before moving the foot."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Square up if both players fully disengage their legs."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Square up if both players fully disengage their legs."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Keep the knee and foot aligned during the opening."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Aoki Control Release to Ashi, what connection do you address first?",
+        "answer": "Wait for joint pressure to release before moving the foot."
+      },
+      {
+        "question": "Against Aoki Control Release to Ashi, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Aoki Control Release to Ashi, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the holding side",
+        "description": "Begin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Unload the foot",
+        "description": "Remove the finishing pressure before allowing the captured foot to change angle. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the grip",
+        "description": "Open the foot grip without pulling the foot through a fixed knee angle. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established.",
+    "Remove the finishing pressure before allowing the captured foot to change angle.",
+    "Open the foot grip without pulling the foot through a fixed knee angle."
+  ],
+  "position_integration": "The Aoki holder removes finishing pressure and opens the foot grip while retaining the Ashi Garami leg connection, returning to control before choosing a new attack. Begin as the holder in Aoki Lock Control/Bottom with the foot grip and the leg connection established. If the leg connection also opens, recognize Open Guard/Bottom before choosing another attack."
+}

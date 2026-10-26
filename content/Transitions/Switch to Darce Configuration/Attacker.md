@@ -16,7 +16,7 @@ description: "How to execute Switch to Darce Configuration in BJJ. Attacking per
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Switch to Darce Configuration in BJJ",
-  "description": "Step-by-step guide for executing Switch to Darce Configuration from Buggy Choke/Top.",
+  "description": "Step-by-step guide for executing Switch to Darce Configuration from Buggy Choke/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -82,10 +82,10 @@ description: "How to execute Switch to Darce Configuration in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "What mechanical difference decides between the darce switch and the anaconda switch?",
+      "name": "What threading path makes the darce switch mechanically available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The darce threads under the opponent's far armpit first and then wraps around the neck, while the anaconda wraps the neck first and connects under the armpit. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. Choose the anaconda when the near arm is tightly trapped between the opponent's head and your body and the far armpit is closed. The threading direction determines which choke is mechanically available."
+        "text": "The darce threads under the opponent's far armpit first and then wraps around the neck. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. If the far armpit is closed, keep the Buggy loop and re-read the opponent's reaction. The threading direction determines whether the darce is mechanically available."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "How to execute Switch to Darce Configuration in BJJ. Attacking per
       "name": "They clamp the far elbow to their ribs as you thread for the darce—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Abandon the darce angle because the threading path is blocked. Immediately switch to the anaconda configuration, which wraps the neck first and does not require far armpit access. Alternatively, return to the original buggy choke collar grip and wait for the opponent to react again, then read whether the next defensive motion opens the darce or anaconda path."
+        "text": "Keep the Buggy loop and re-read the opponent's reaction. The far elbow has closed the darce threading path, so retain control from underneath side control and reassess the opening before trying the switch again."
       }
     },
     {
@@ -188,7 +188,7 @@ The darce configuration is mechanically distinct from the anaconda because the c
 
 This transition is a critical branch in the buggy choke attack tree. Opponents who turn in to defend the collar grip inadvertently create the head-and-arm angle required for both darce and anaconda attacks. Choosing the darce over the anaconda depends on arm positioning and the specific angle of the opponent's rotation. The darce configuration offers a powerful finishing position because the choking arm's blade sits directly across the carotid with the opponent's own trapped shoulder acting as the secondary compression point. Once the figure-four locks, the top player sprawls and walks hips toward the head to generate finishing pressure through body mechanics rather than arm strength.
 
-**From Position**: [[Positions/Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
 
@@ -249,9 +249,9 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Darce Control]] | 55% |
-| Failure | [[Positions/Buggy Choke]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Darce Control]] | 40% |
+| Failure | [[Positions/Buggy Choke]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -264,7 +264,7 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 - **Opponent tucks chin hard and clamps far elbow tight to ribs, denying the armpit threading path during the redirect phase** (Effectiveness: High) - Your Response: If the far armpit is blocked, abandon the darce switch and either return to the original buggy choke collar grip or switch to the anaconda configuration which threads around the neck first and does not require far armpit access → Leads to [[Positions/Buggy Choke]]
 - **Opponent extracts their near arm from the trapped position before the figure-four grip is secured, eliminating the compression fulcrum** (Effectiveness: High) - Your Response: Without the trapped arm, switch to a guillotine configuration since you already have neck access, or disengage the neck and transition to back control by hooking the near leg as they posture to escape → Leads to [[Positions/Buggy Choke]]
-- **Opponent sits to guard explosively during the grip transition window when control is momentarily loosened** (Effectiveness: Medium) - Your Response: Follow the sitting motion and use the partial neck wrap to establish a front headlock or arm-in guillotine from the new angle. Maintain head control throughout the transition to prevent full guard recovery → Leads to [[Positions/Half Guard]]
+- **Opponent sits to guard explosively during the grip transition window when control is momentarily loosened** (Effectiveness: Medium) - Your Response: Follow the sitting motion and use the partial neck wrap to establish a front headlock or arm-in guillotine from the new angle. Maintain head control throughout the transition to prevent full guard recovery → Leads to [[Positions/Side Control]]
 - **Opponent drives forward aggressively and re-turtles tightly, collapsing the space needed for the darce arm to thread** (Effectiveness: Medium) - Your Response: Use a snapdown to break their forward drive and re-expose the neck. If they maintain a tight turtle, reset to buggy choke control and wait for the next rotation trigger before reattempting → Leads to [[Positions/Buggy Choke]]
 
 

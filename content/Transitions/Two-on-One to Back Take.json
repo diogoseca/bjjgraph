@@ -113,10 +113,6 @@
     {
       "name": "Snap Down to Front Headlock",
       "relationship": "Chain attack when back take is denied from clinch"
-    },
-    {
-      "name": "Back Take",
-      "relationship": "Generic back take transition sharing core principles"
     }
   ],
   "attacker": {

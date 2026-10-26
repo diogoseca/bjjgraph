@@ -285,7 +285,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 **If opponent has strong upper body control and is breaking you down:**
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
-- Execute **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Crab Ride Escape to Guard/Attacker|Crab Ride Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
 
 
 **If opponent is high on your back with loose hook control:**
@@ -418,7 +418,7 @@ Bottom player flows through all escape options (hip escape, granby, stand up, si
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Craig-Jones-Kneebar-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Kneebars</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

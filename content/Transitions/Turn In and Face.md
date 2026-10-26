@@ -82,10 +82,10 @@ Strategically, Turn In and Face is the preferred escape when the defender still 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 50% |
-| Success | [[Positions/Closed Guard]] | 15% |
-| Failure | [[Positions/Buggy Choke]] | 20% |
-| Counter | [[Positions/Back Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 30% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Buggy Choke]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>

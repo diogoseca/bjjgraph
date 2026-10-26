@@ -105,7 +105,10 @@ test("every authored destination resolves to a state the game can enter", () => 
   }
   assert.deepEqual(unresolved.slice(0, 8), [], `${unresolved.length} outcome destinations resolve to nothing`);
   assert.equal(node + terminal, ROWS.length);
-  assert.ok(node >= 3800, `only ${node} destinations land on a node`);
+  // N4 (D-429), graph-restructure-plan.md retirement tables and approved N4
+  // coupled outcomes: 48 changed technique rows move 3,803 node landings to
+  // 3,751 (RPHASE2N4-d434/census-evidence.json). Keep every destination resolved.
+  assert.equal(node, 3751, `node landings after the approved N4 restructuring`);
   assert.ok(terminal >= 250, `only ${terminal} destinations are game-over — submissions lost their finish`);
 });
 

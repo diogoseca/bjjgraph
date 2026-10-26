@@ -10,11 +10,11 @@
   "submission_category": "Choke",
   "submission_type": "Crossed gi-collar choke",
   "target_area": "Sides of the neck via crossed forearms and collar tension",
-  "starting_position": "Invisible Collar",
-  "from_position": "Invisible Collar/Top",
+  "starting_position": "Invisible Collar/Bottom",
+  "from_position": "Invisible Collar/Bottom",
   "success_rate": {
-    "gi": 58,
-    "nogi": 58
+    "gi": 25,
+    "nogi": null
   },
   "overview": "The attacker faces the opponent with access to both jacket collars and enough posture control to establish the grips. Invisible Collar names a high leg clinch, not a cloth grip. Releasing that clinch and arranging actual collar access is necessary; the reviewed primary lesson demonstrates mount rather than a direct Invisible Collar entry.\n\nKeep the opponent close enough to reach the collar without extending both arms unsupported. Take a secure collar grip beside the neck rather than a shallow handful of cloth. Bring the second hand to the opposite collar using the grip orientation taught for the chosen variation. Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully.\n\nThe collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.\n\nInstructional sources: [Stephan Kesting and Rob Biernacki — cross-collar choke](https://www.grapplearts.com/cross-collar-choke-mount/); [Eddie Bravo — MTS 134 Invisible Collar in Austin](https://www.youtube.com/watch?v=KCyIwacRKu8).",
   "safety_considerations": {
@@ -72,28 +72,28 @@
   ],
   "outcomes": [
     {
+      "result": "success",
       "to": "game-over",
       "probability": {
-        "gi": 65,
-        "nogi": 65
-      },
-      "result": "success"
+        "gi": 25,
+        "nogi": null
+      }
     },
     {
-      "to": "Back Control/Top",
+      "result": "failure",
+      "to": "Invisible Collar/Bottom",
+      "probability": {
+        "gi": 50,
+        "nogi": null
+      }
+    },
+    {
+      "result": "counter",
+      "to": "Chill Dog/Bottom",
       "probability": {
         "gi": 25,
-        "nogi": 25
-      },
-      "result": "failure"
-    },
-    {
-      "to": "Half Guard/Bottom",
-      "probability": {
-        "gi": 10,
-        "nogi": 10
-      },
-      "result": "counter"
+        "nogi": null
+      }
     }
   ],
   "variations_and_setups": [
@@ -163,25 +163,25 @@
         "counter": "Fight collar access while the attacker has only a shallow connection.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Keep the opponent close enough to reach the collar without extending both arms unsupported.",
-        "targets_outcome": "Back Control/Top"
+        "targets_outcome": "Invisible Collar/Bottom"
       },
       {
         "counter": "Keep an inside frame before the hands cross into a complete choke.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Take a secure collar grip beside the neck rather than a shallow handful of cloth.",
-        "targets_outcome": "Back Control/Top"
+        "targets_outcome": "Invisible Collar/Bottom"
       },
       {
         "counter": "Manage the distance before both collar grips are fixed; do not jerk backward against a loaded choke.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Bring the second hand to the opposite collar using the grip orientation taught for the chosen variation.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Chill Dog/Bottom"
       },
       {
         "counter": "Work on a grip and neck space while the enclosure remains loose.",
         "effectiveness": "Low",
         "your_response": "Re-check the prerequisite before continuing. Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Chill Dog/Bottom"
       }
     ],
     "common_errors": [
@@ -457,28 +457,28 @@
       {
         "action": "Fight collar access while the attacker has only a shallow connection.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Back Control/Top",
+        "targets_outcome": "Invisible Collar/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke."
       },
       {
         "action": "Keep an inside frame before the hands cross into a complete choke.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Chill Dog/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke."
       },
       {
         "action": "Manage the distance before both collar grips are fixed; do not jerk backward against a loaded choke.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Back Control/Top",
+        "targets_outcome": "Invisible Collar/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke."
       },
       {
         "action": "Work on a grip and neck space while the enclosure remains loose.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Chill Dog/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke."
       }
@@ -489,11 +489,11 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Back Control/Top",
+        "outcome": "Invisible Collar/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Fight collar access while the attacker has only a shallow connection."
       },
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Chill Dog/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep an inside frame before the hands cross into a complete choke."
       }
     ],

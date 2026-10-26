@@ -311,8 +311,6 @@ The Escape from Twister Side Control connects the 10th Planet defensive ecosyste
 
 - [[Positions/Twister Control/Truck]] - Related position in the twister system sharing leg entanglement mechanics
 
-- [[Transitions/Arm Extraction to Turtle]] - Related escape technique targeting the same turtle destination
-
 - [[Transitions/Granby Roll to Guard]] - Follow-up technique available after reaching turtle position
 
 - [[Transitions/Technical Stand-up]] - Follow-up technique available after reaching turtle position

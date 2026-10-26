@@ -106,8 +106,8 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive | Offensive/Controlling |
-| **Risk Level** | High | Medium |
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | High | High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
@@ -143,17 +143,11 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 ### Available Transitions
 
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (20% of attempts)
+- **[[Submissions/Aoki Lock/from Aoki Lock Control/Attacker|Aoki Lock from Aoki Lock Control]]** (60% of attempts)
 
-- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (21% of attempts)
+- **[[Transitions/Aoki Control Release to Ashi/Attacker|Aoki Control Release to Ashi]]** (25% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (21% of attempts)
-
-- **[[Transitions/Counter Roll to Top/Attacker|Counter Roll to Top]]** (12% of attempts)
-
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
-
-- **[[Transitions/Base Attack to Sweep/Attacker|Base Attack to Sweep]]** (11% of attempts)
+- **[[Transitions/Kimura Switch/Attacker|Kimura Switch]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -208,17 +202,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 ### Available Transitions
 
 
-- **[[Submissions/Aoki Lock/from Aoki Lock Control/Attacker|Aoki Lock from Aoki Lock Control]]** (26% of attempts)
-
-- **[[Transitions/Aoki Lock to Back Control/Attacker|Aoki Lock to Back Control]]** (25% of attempts)
-
-- **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (15% of attempts)
-
-- **[[Transitions/Kimura Switch/Attacker|Kimura Switch]]** (14% of attempts)
-
-- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (15% of attempts)
-
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (5% of attempts)
+- **[[Transitions/Aoki Grip and Hip Release/Attacker|Aoki Grip and Hip Release]]** (100% of attempts)
 
 
 ### Common Mistakes

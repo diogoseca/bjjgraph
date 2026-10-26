@@ -20,38 +20,38 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 24% of exchanges from this position.",
+      "name": "Execute Heel Hook from Kneebar Control",
+      "text": "From this position, attempt Heel Hook from Kneebar Control. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook from Kneebar Control",
-      "text": "From this position, attempt Heel Hook from Kneebar Control. This technique is attempted in 24% of exchanges from this position.",
+      "name": "Execute Inside Ashi Entry",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 24% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute X-Guard Sweep",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Straighten Leg Kneebar Defense",
+      "text": "From this position, attempt Straighten Leg Kneebar Defense. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straighten Leg Kneebar Defense",
-      "text": "From this position, attempt Straighten Leg Kneebar Defense. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Turn and Extract from Kneebar",
+      "text": "From this position, attempt Turn and Extract from Kneebar. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -232,7 +232,6 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 
 **If opponent's leg becomes straightened and defensive posture breaks under pulling pressure:**
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
 
 
@@ -361,7 +360,6 @@ Start with practitioner in bottom kneebar control against defending partner. Pra
 
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Primary leg entanglement configuration for bottom kneebar control and transitions
 - **[[Positions/Ashi Garami/Saddle]]** - Advanced position accessible when opponent defends kneebar by rotating hips
-- **[[Transitions/Kneebar Finish]]** - Terminal submission technique from this control position
 - **[[Positions/Straight Ankle Lock Control]]** - Alternative leg submission when kneebar angle is compromised
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetrical leg entanglement offering mutual kneebar threats
 - **[[Positions/X-Guard/Single Leg X-Guard]]** - Sweeping position accessible from kneebar control structure

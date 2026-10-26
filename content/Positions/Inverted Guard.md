@@ -184,13 +184,13 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 
 - **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (5% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (8% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
 - **[[Submissions/Omoplata/from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (2% of attempts)
 
 - **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (3% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (2% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (5% of attempts)
 
 - **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (3% of attempts)
 
@@ -211,10 +211,6 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 - **[[Transitions/Rolling Kneebar/Attacker|Rolling Kneebar]]** (2% of attempts)
 
 - **[[Transitions/Inverted Guard Elevation Sweep/Attacker|Inverted Guard Elevation Sweep]]** (5% of attempts)
-
-- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (4% of attempts)
-
-- **[[Transitions/Technical Standup from Inversion/Attacker|Technical Standup from Inversion]]** (3% of attempts)
 
 - **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (4% of attempts)
 
@@ -289,7 +285,7 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (4% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (13% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (15% of attempts)
 
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (17% of attempts)
 
@@ -297,7 +293,7 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 
 - **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (7% of attempts)
+- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (10% of attempts)
 
 - **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
 
@@ -305,15 +301,11 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 
 - **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (2% of attempts)
 
-- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (2% of attempts)
-
 - **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (2% of attempts)
 
 - **[[Transitions/Sprawl and Disengage/Attacker|Sprawl and Disengage]]** (4% of attempts)
 
 - **[[Transitions/Cartwheel Pass/Attacker|Cartwheel Pass]]** (2% of attempts)
-
-- **[[Transitions/Pressure Pass through Center/Attacker|Pressure Pass through Center]]** (3% of attempts)
 
 - **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** (4% of attempts)
 

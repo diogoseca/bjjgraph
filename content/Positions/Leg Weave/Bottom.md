@@ -20,39 +20,21 @@ description: "Leg Weave bottom perspective: The passer's arm connecting your leg
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Leg Weave Escape to Half Guard",
+      "text": "From this position, attempt Leg Weave Escape to Half Guard. This technique is attempted in 60% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Dogfight Position",
+      "text": "From this position, attempt Dogfight Position. This technique is attempted in 40% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Sweep from Leg Weave",
+      "text": "From this position, attempt Sweep from Leg Weave. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 7% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Dogfight Position",
-      "text": "From this position, attempt Dogfight Position. This technique is attempted in 12% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 9% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"

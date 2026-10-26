@@ -303,9 +303,9 @@ Hip movement turns the supported knee and torso into the shoulder clamp while th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Rubber Guard/Carni]] | 60% |
-| Failure | [[Positions/Rubber Guard/New York]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Carni]] | 35% |
+| Failure | [[Positions/Rubber Guard/New York]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>

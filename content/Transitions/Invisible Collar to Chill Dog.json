@@ -1,0 +1,374 @@
+{
+  "name": "Invisible Collar to Chill Dog",
+  "from_position": "Invisible Collar/Bottom",
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
+  "outcomes": [
+    {
+      "to": "Chill Dog/Bottom",
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
+      "result": "success"
+    },
+    {
+      "to": "Invisible Collar/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "The bottom holder opens the second Invisible Collar leg while retaining the neck-cleared knee hug, returning to Chill Dog with the first high-leg connection supported.",
+  "description": "The bottom holder opens the second Invisible Collar leg while retaining the neck-cleared knee hug, returning to Chill Dog with the first high-leg connection supported.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The bottom holder opens the second Invisible Collar leg while retaining the neck-cleared knee hug, returning to Chill Dog with the first high-leg connection supported.\n\nBegin as the bottom holder with the two-leg Invisible Collar enclosure established. Remove any finishing pressure before opening the high-leg arrangement.\n\nPreserve the first neck-cleared knee-hug connection as you prepare to open the second leg. Open the second leg through a comfortable hip angle without wrenching the foot or knee. The completed reset is Chill Dog/Bottom with the neck-cleared connection retained. If the first connection also releases, recognize ordinary closed guard before attempting another high-leg entry.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Invisible Collar",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Chill Dog",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Invisible Collar to Chill Dog Attacker",
+    "description": "The bottom holder opens the second Invisible Collar leg while retaining the neck-cleared knee hug, returning to Chill Dog with the first high-leg connection supported.",
+    "overview": "The bottom holder opens the second Invisible Collar leg while retaining the neck-cleared knee hug, returning to Chill Dog with the first high-leg connection supported.\n\nBegin as the bottom holder with the two-leg Invisible Collar enclosure established. Remove any finishing pressure before opening the high-leg arrangement.\n\nPreserve the first neck-cleared knee-hug connection as you prepare to open the second leg. Open the second leg through a comfortable hip angle without wrenching the foot or knee. The completed reset is Chill Dog/Bottom with the neck-cleared connection retained. If the first connection also releases, recognize ordinary closed guard before attempting another high-leg entry.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Both high legs form the clinch: Begin as the bottom holder with the two-leg Invisible Collar enclosure established.",
+      "Neck pressure released first: Remove any finishing pressure before opening the high-leg arrangement.",
+      "Neck-cleared knee hug stays intact: Preserve the first neck-cleared knee-hug connection as you prepare to open the second leg.",
+      "Second leg opens through the hip: Open the second leg through a comfortable hip angle without wrenching the foot or knee.",
+      "First high-leg connection remains: The completed reset is Chill Dog/Bottom with the neck-cleared connection retained.",
+      "Ordinary guard if both legs lower: If the first connection also releases, recognize ordinary closed guard before attempting another high-leg entry."
+    ],
+    "setup_requirements": [
+      "Begin as the bottom holder with the two-leg Invisible Collar enclosure established.",
+      "Remove any finishing pressure before opening the high-leg arrangement.",
+      "Preserve the first neck-cleared knee-hug connection as you prepare to open the second leg.",
+      "Open the second leg through a comfortable hip angle without wrenching the foot or knee."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm the starting enclosure",
+        "description": "Begin as the bottom holder with the two-leg Invisible Collar enclosure established."
+      },
+      {
+        "step_number": 2,
+        "action": "Remove finishing pressure",
+        "description": "Remove any finishing pressure before opening the high-leg arrangement."
+      },
+      {
+        "step_number": 3,
+        "action": "Retain the first connection",
+        "description": "Preserve the first neck-cleared knee-hug connection as you prepare to open the second leg."
+      },
+      {
+        "step_number": 4,
+        "action": "Open the reinforcing leg",
+        "description": "Open the second leg through a comfortable hip angle without wrenching the foot or knee."
+      },
+      {
+        "step_number": 5,
+        "action": "Confirm Chill Dog",
+        "description": "The completed reset is Chill Dog/Bottom with the neck-cleared connection retained."
+      },
+      {
+        "step_number": 6,
+        "action": "Recognize full release",
+        "description": "If the first connection also releases, recognize ordinary closed guard before attempting another high-leg entry."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Wait for finishing pressure to release before changing posture.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Invisible Collar/Bottom"
+      },
+      {
+        "counter": "Maintain an inside frame as the second leg opens.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Invisible Collar/Bottom"
+      },
+      {
+        "counter": "Keep the head and shoulder aligned through the opening.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping confirm the starting enclosure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the bottom holder with the two-leg Invisible Collar enclosure established."
+      },
+      {
+        "error": "Skipping remove finishing pressure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Remove any finishing pressure before opening the high-leg arrangement."
+      },
+      {
+        "error": "Skipping retain the first connection",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Preserve the first neck-cleared knee-hug connection as you prepare to open the second leg."
+      },
+      {
+        "error": "Skipping open the reinforcing leg",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Open the second leg through a comfortable hip angle without wrenching the foot or knee."
+      },
+      {
+        "error": "Skipping confirm chill dog",
+        "consequence": "The next action lacks its required control.",
+        "correction": "The completed reset is Chill Dog/Bottom with the neck-cleared connection retained."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Confirm the starting enclosure",
+        "description": "Begin as the bottom holder with the two-leg Invisible Collar enclosure established. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Remove finishing pressure",
+        "description": "Remove any finishing pressure before opening the high-leg arrangement. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Retain the first connection",
+        "description": "Preserve the first neck-cleared knee-hug connection as you prepare to open the second leg. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Open the reinforcing leg",
+        "description": "Open the second leg through a comfortable hip angle without wrenching the foot or knee. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Invisible Collar to Chill Dog: what does confirm the starting enclosure require?",
+        "answer": "Begin as the bottom holder with the two-leg Invisible Collar enclosure established.",
+        "answer_line": "Both high legs form the clinch",
+        "distractors": {
+          "plausible": [
+            "Removing both legs from the start",
+            "A rear seatbelt with two hooks"
+          ],
+          "trap": [
+            "Finishing while the neck twists"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar to Chill Dog: what does remove finishing pressure require?",
+        "answer": "Remove any finishing pressure before opening the high-leg arrangement.",
+        "answer_line": "Neck pressure released first",
+        "distractors": {
+          "plausible": [
+            "A rear seatbelt with two hooks",
+            "Finishing while the neck twists"
+          ],
+          "trap": [
+            "Pulling the foot against the knee"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar to Chill Dog: what does retain the first connection require?",
+        "answer": "Preserve the first neck-cleared knee-hug connection as you prepare to open the second leg.",
+        "answer_line": "Neck-cleared knee hug stays intact",
+        "distractors": {
+          "plausible": [
+            "Finishing while the neck twists",
+            "Pulling the foot against the knee"
+          ],
+          "trap": [
+            "Removing both legs from the start"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar to Chill Dog: what does open the reinforcing leg require?",
+        "answer": "Open the second leg through a comfortable hip angle without wrenching the foot or knee.",
+        "answer_line": "Second leg opens through the hip",
+        "distractors": {
+          "plausible": [
+            "Pulling the foot against the knee",
+            "Removing both legs from the start"
+          ],
+          "trap": [
+            "A rear seatbelt with two hooks"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar to Chill Dog: what does confirm chill dog require?",
+        "answer": "The completed reset is Chill Dog/Bottom with the neck-cleared connection retained.",
+        "answer_line": "First high-leg connection remains",
+        "distractors": {
+          "plausible": [
+            "Removing both legs from the start",
+            "A rear seatbelt with two hooks"
+          ],
+          "trap": [
+            "Finishing while the neck twists"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar to Chill Dog: what does recognize full release require?",
+        "answer": "If the first connection also releases, recognize ordinary closed guard before attempting another high-leg entry.",
+        "answer_line": "Ordinary guard if both legs lower",
+        "distractors": {
+          "plausible": [
+            "A rear seatbelt with two hooks",
+            "Finishing while the neck twists"
+          ],
+          "trap": [
+            "Pulling the foot against the knee"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Invisible Collar to Chill Dog Defender",
+    "description": "Recognize Invisible Collar to Chill Dog and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Wait for finishing pressure to release before changing posture. Maintain an inside frame as the second leg opens. Keep the head and shoulder aligned through the opening. Recognize that the first Chill Dog connection can still constrain posture. Recover ordinary guard posture only after the remaining high connection clears.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Wait for finishing pressure to release before changing posture.",
+      "Maintain an inside frame as the second leg opens.",
+      "Keep the head and shoulder aligned through the opening.",
+      "Recognize that the first Chill Dog connection can still constrain posture.",
+      "Recover ordinary guard posture only after the remaining high connection clears."
+    ],
+    "recognition_cues": [
+      "Begin as the bottom holder with the two-leg Invisible Collar enclosure established.",
+      "Remove any finishing pressure before opening the high-leg arrangement.",
+      "Preserve the first neck-cleared knee-hug connection as you prepare to open the second leg."
+    ],
+    "defensive_options": [
+      {
+        "action": "Wait for finishing pressure to release before changing posture.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Invisible Collar/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Maintain an inside frame as the second leg opens.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Invisible Collar/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Keep the head and shoulder aligned through the opening.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Recognize that the first Chill Dog connection can still constrain posture.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Invisible Collar/Bottom",
+        "how": "Wait for finishing pressure to release before changing posture."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Recover ordinary guard posture only after the remaining high connection clears."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Recover ordinary guard posture only after the remaining high connection clears."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Maintain an inside frame as the second leg opens."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Invisible Collar to Chill Dog, what connection do you address first?",
+        "answer": "Wait for finishing pressure to release before changing posture."
+      },
+      {
+        "question": "Against Invisible Collar to Chill Dog, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Invisible Collar to Chill Dog, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Confirm the starting enclosure",
+        "description": "Begin as the bottom holder with the two-leg Invisible Collar enclosure established. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Remove finishing pressure",
+        "description": "Remove any finishing pressure before opening the high-leg arrangement. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Retain the first connection",
+        "description": "Preserve the first neck-cleared knee-hug connection as you prepare to open the second leg. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the bottom holder with the two-leg Invisible Collar enclosure established.",
+    "Remove any finishing pressure before opening the high-leg arrangement.",
+    "Preserve the first neck-cleared knee-hug connection as you prepare to open the second leg."
+  ],
+  "position_integration": "The bottom holder opens the second Invisible Collar leg while retaining the neck-cleared knee hug, returning to Chill Dog with the first high-leg connection supported. Begin as the bottom holder with the two-leg Invisible Collar enclosure established. If the first connection also releases, recognize ordinary closed guard before attempting another high-leg entry."
+}

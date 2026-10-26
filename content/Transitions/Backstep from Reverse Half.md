@@ -261,8 +261,6 @@ The backstep from reverse half guard serves as the culminating technique in the 
 
 - [[Transitions/Back Step Pass]] - Foundational backstep passing technique in the same movement chain
 
-- [[Transitions/Back Take from Top]] - Alternative back take methodology from top positions for comparison
-
 - [[Transitions/Back Control to Reverse Half Guard]] - Reverse transition showing how back control can degrade to reverse half guard
 
 

@@ -219,6 +219,8 @@ description: "How to execute Toreando Pass in BJJ. Attacking perspective with se
 
 The Toreando Pass is a standing guard pass built on bilateral leg control and explosive lateral movement. The passer grips both of the opponent's knees or pant legs, then simultaneously steps to one side while redirecting the opponent's legs to the opposite side. This opposing-vector motion breaks the guard player's hip connection and clears a direct path to side control. The technique rewards practitioners who develop strong grip fighting, explosive footwork, and the ability to read defensive reactions in real time. Because the Toreando creates a binary choice for the defender — either allow the pass or turn and expose the back — it functions as both a standalone pass and a forcing mechanism that opens chain-passing opportunities.
 
+Neutralize obstructing grips before securing both legs; release one hand deliberately if another grip must be stripped. Control the outside of the knees or trouser fabric, redirect the elevated legs laterally, and circle the other way before the guard player tracks your hips. Clear the knees and consolidate torso control. Keep fingers outside trouser openings.
+
 **From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
@@ -414,7 +416,7 @@ The Toreando Pass is generally a safe passing technique when practiced with prop
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference: Toreando Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Toreando Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

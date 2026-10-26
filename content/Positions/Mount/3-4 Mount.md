@@ -220,25 +220,23 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (12% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (14% of attempts)
 
 - **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (1% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (11% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (13% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (13% of attempts)
-
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (26% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (30% of attempts)
 
 - **[[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Cross Collar Choke from 3-4 Mount]]** (gi only)
 
-- **[[Transitions/3-4 Mount to S Mount/Attacker|3-4 Mount to S Mount]]** (8% of attempts)
+- **[[Transitions/3-4 Mount to S Mount/Attacker|3-4 Mount to S Mount]]** (9% of attempts)
 
-- **[[Transitions/3-4 Mount to Technical Mount/Attacker|3-4 Mount to Technical Mount]]** (15% of attempts)
+- **[[Transitions/3-4 Mount to Technical Mount/Attacker|3-4 Mount to Technical Mount]]** (17% of attempts)
 
-- **[[Submissions/Americana/from 3-4 Mount/Attacker|Americana from 3-4 Mount]]** (8% of attempts)
+- **[[Submissions/Americana/from 3-4 Mount/Attacker|Americana from 3-4 Mount]]** (9% of attempts)
 
-- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (6% of attempts)
+- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (7% of attempts)
 
 
 ### Common Mistakes

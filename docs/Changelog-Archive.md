@@ -12432,6 +12432,117 @@ and floors remain exact. Own-build and retained-tree gates pass with current-con
 Earlier receipts remain immutable. All three derived source files reproduce byte-for-byte;
 D-285 preserves every unchanged Markdown byte and stamp.
 
+## v1.231.0 — Independent graph restructure and exact content exceptions
+
+The first checkpoint applies the independently consistent part of N1/N3 and the
+Inverted coalescences. The mixed third-round result remains unapplied pending N4.
+The original 15 menus and four additionally coupled menus retain their dev tables;
+the ten split records retain their dev bytes. The additional held menus are
+Crackhead Control/Top, Double Unders/Top, New York/Bottom and Turtle/Top. Their
+dependencies keep Double Underhook Pass, Turtle to Aoki Lock and the legacy Kiss
+of the Dragon alive until the remaining restructure can land together.
+
+D-358 keeps the submission schema's `from_positions.minItems` at 2 because the
+weekly proofreader uses that same floor for removals. Six explicit rows in
+`tests/artifacts/single_origin_submissions.json` permit a singleton only when its
+entry equals both the approved origin and the base of its own `from_position`.
+Missing files, changed origins, empty lists and re-widened lists fail.
+
+D-362 extends the same manifest with explicit exception kinds and a role-specific
+short decision tree for Crackhead Control/Bottom at exactly two conditions. R20's
+approved retirement leaves Mission Control and the retained R54 New York action;
+no replacement condition is invented. Top retains its full tree until N4, with no
+Top exception installed. The shared decision-tree floor remains three. Wrong
+counts, missing roles and stale rows fail; an exception on one role cannot waive
+the other role's floor. The validator prints seven live matches: six single
+origins and one short tree. The validator and Markdown generator use the same
+exception helper and both audit stale rows before processing files. Thirty-nine
+Python cases exercise both schema gates in the existing Node CI suite, including
+real Markdown writes for both kinds and no writes for unlisted short lists.
+Accept-all mutants make `test_listed_but_not_own_origin_is_blocking` and
+`test_wrong_count_is_blocking_even_when_it_meets_shared_floor` fail by name.
+A mutant bypassing the generator's shared exception hook makes both named
+Markdown regeneration cases fail.
+
+The calibration supersession ledger preserves the complete approved replacement
+tables and prior weights without rewriting historical ballots. Historical apply
+paths verify the replacement before bypassing an obsolete table and fail on drift.
+Nine regression cases cover changed topology, null versus zero, outcome drift,
+retired-source resurrection, prior weights and preservation of real community
+votes. Null success overrides produce absent prior blocks. Retirement redirects
+send action-role descendants to a surviving position or family hub when that
+destination has no compatible role page.
+
+Dead Orchard's existing passive-seat reachability entry moves from Bottom to Top
+with the approved physical role correction; no new entry move or outcome is added.
+The technique graph readers now retain divergent rates and outcome probabilities
+as a folded no-gi scalar plus the ruleset pair. Sweep from Leg Weave's no-gi nulls
+remain absent for both roles. D-363 retains the historical common-table vote
+rescale; a gi-only technique uses its own gi table without filling the no-gi
+cells. The solver reads outcome pairs in the requested frame, rejects any path
+reaching an absent technique, and checks sums in every present frame. The neural
+wire keeps its existing single tuple table, taken from the present frame(s),
+and refuses differing present tables or a technique without a frame. Both
+emission paths use the same common-table check in `_ruleset.py`. No app or wire
+format changes are made. Dropped cells and absent frames are counted.
+Nine reader contracts exercise both source readers and the approved Sweep from
+Leg Weave through the solver and wire; restoring the reduced reader or coercing null to zero makes
+`test_divergent_and_null_cells_survive_actual_readers` fail by name.
+Folded-scalar mutants fail `test_gi_solve_uses_35_45_20_from_its_pair` and
+`test_wire_tuple_is_the_gi_table_without_a_format_change`. The reproducible
+`scripts/check_technique_ruleset_parity.py` makes two separate comparisons.
+Old and new readers both regenerate from complete dev content at `4929de710`;
+their complete wire bytes and solver outputs must match. New readers then run
+on the complete current subset against the same dev reference, enumerating every
+moved graph, layout, ordinal, wire and solver field for approval tracing.
+Each run reads matching content, votes and choice sources, starting layout and
+ordinal regeneration from the same dev artifacts. No mixed-content control is used.
+The code-only comparison matches all 579,724 wire bytes and 1,985,790 solver
+bytes across four configurations, 8,236 outcome rows and 5,504 action rows.
+The only code-driven graph additions are 8,236 `probabilityByRuleset` fields.
+The separate content comparison traces 94 changed JSON inputs and all 95,153
+changed artifact fields to the approved subset or its derived indexes and solves:
+3,375 graph, 18,759 layout, 21 ordinal, 33,886 wire and 39,112 solver fields.
+Exactly 13 nodes retire and five are added; no existing node coordinate moves.
+The D-321 submission export gate keeps its historical 30-deck/241-card review
+receipt while applying the unanimous R20/R39/R41/R43 retirements (plan lines
+681/687/691/695, cited at the test's join). It exercises 22 surviving reviewed
+decks and 184 cards, fails on zero exercised decks, and individually asserts all
+eight retired role decks absent. The authored-field, legacy-byte and Aoki grading
+checks remain in force.
+Capture, receipt-bound baseline re-seeding and publication remain deferred until N4.
+
+The validation repairs recount 18 census-marked literals in six files; the full
+rewrite diff leaves every assertion message unchanged. D-316 (2a) raises the
+archive ceiling by exactly 50,000 in its own one-line checkpoint. Twenty-eight
+MC options in seven approved records are shortened to the existing 36-character
+cap, preserving ten correct answers and eighteen distractors. Listing-table
+specs keep the historical 95-row receipt and the complete authored-hand check:
+91 reviewed listings survive, two approved Inverted coalescences are added, and
+the four approved removals are individually asserted absent. The resulting
+tables number 93 in gi and 83 in no-gi; their positive coverage is asserted and
+printed. The plan and panel premises are cited at the shared expectation seam.
+
+Before the FLOW baseline refresh, all 19 rows below -0.25 were classified:
+zero new rows and zero rows beyond the existing worsening threshold. Six known
+rows fell within that unchanged threshold; their complete authored techniques
+are unchanged from dev. The gate passed before rewriting. All ten reviewed
+notes, the 19-row key set, threshold and max_new = 0 remain unchanged.
+
+D-366 holds exactly two FLOW sign assertions until N4 applies the held
+New York/Bottom menu. Fraction arithmetic through the production normalization,
+backward and adjoint steps proves its no-gi uniform-start gradient is nonzero
+and negative, approximately -2.1669092009315342884e-9 (lambda 2, horizon 11).
+All 1,425 priced decks were exercised: 23 negative, none exactly zero. The JS
+kernel agrees with authored shares (-2.166909200610737e-9), whereas the shipped
+rounded shares produce +0.000013162423834220919. The control compares all 1,273
+canonical actions across 242 states, retaining identical rates and branches.
+No tolerance, precision or expectation is changed; the other 53 focused tests
+pass. The full exact fraction and reproduction files are recorded in the phase
+report. After N4, repeat both measurements. Any persistent disagreement needs
+an owner decision among explicitly stated claims, including a rounding-error
+band census across all 1,425 decks; this checkpoint authorizes no consumer fix.
+
 ## v1.231.0 — Videos lead the cards, with separate actions
 
 Owner, 2026-10-15: the choices should lead with their technique's video and a thin

@@ -12,39 +12,31 @@
     {
       "to": "Closed Guard/Top",
       "probability": {
-        "gi": 40,
-        "nogi": 40
+        "gi": 25,
+        "nogi": 25
+      },
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": {
+        "gi": 10,
+        "nogi": 10
       },
       "result": "success"
     },
     {
       "to": "Chill Dog/Top",
       "probability": {
-        "gi": 35,
-        "nogi": 35
+        "gi": 65,
+        "nogi": 65
       },
       "result": "failure"
-    },
-    {
-      "to": "Half Guard/Top",
-      "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
-      "result": "success"
-    },
-    {
-      "to": "Back Control/Bottom",
-      "probability": {
-        "gi": 10,
-        "nogi": 10
-      },
-      "result": "counter"
     }
   ],
   "success_rate": {
-    "gi": 55,
-    "nogi": 55
+    "gi": 35,
+    "nogi": 35
   },
   "overview": "The top player faces a bottom guard player using Chill Dog; the head, shoulder or arm may still be enclosed. This is defense inside facing rubber guard. Closed or half guard depends on which lower-body connections remain; neither is guaranteed by raising the head.\n\nKeep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).",
   "variants_and_adaptations": [
@@ -144,13 +136,13 @@
         "counter": "Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.",
-        "targets_outcome": "Back Control/Bottom"
+        "targets_outcome": "Chill Dog/Top"
       },
       {
         "counter": "Move the controlling arm around the head while keeping the leg and trapped arm connected.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Chill Dog/Top"
       },
       {
         "counter": "Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.",
@@ -386,28 +378,28 @@
       {
         "action": "Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Back Control/Bottom",
+        "targets_outcome": "Chill Dog/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Move the controlling arm around the head while keeping the leg and trapped arm connected.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Half Guard/Top",
+        "targets_outcome": "Chill Dog/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Closed Guard/Top",
+        "targets_outcome": "Chill Dog/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Back Control/Bottom",
+        "outcome": "Chill Dog/Top",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the opposing hand on the mat and hug the knee before changing the head-side grip."
       },
       {

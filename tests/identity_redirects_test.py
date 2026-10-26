@@ -54,6 +54,21 @@ class ArchivedAliases(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Conflicting retirement redirect"):
             emitter.retirement_rules([first, second], self.root)
 
+    def test_action_retired_to_position_sends_role_urls_to_the_live_hub(self):
+        record = self.record("content/Transitions/Old Move.json",
+                             "content/Positions/Guard.json", [])
+        rules = emitter.retirement_rules([record], self.root)
+        self.assertIn("/Transitions/Old-Move/* /Positions/Guard 301", rules)
+        self.assertFalse(any(":splat" in rule for rule in rules))
+
+    def test_action_retired_to_family_does_not_invent_family_role_pages(self):
+        record = self.record("content/Submissions/Old Move.json",
+                             "content/Submissions/Family.json", [])
+        (self.root / record["replacement_path"]).write_text('{"is_family": true}\n')
+        rules = emitter.retirement_rules([record], self.root)
+        self.assertIn("/Submissions/Old-Move/* /Submissions/Family 301", rules)
+        self.assertFalse(any(":splat" in rule for rule in rules))
+
     def test_shared_quartz_page_rule_handles_percent_and_punctuation(self):
         self.assertEqual(emitter.content_url("content/Transitions/100% Sweep.json"),
                          "/Transitions/100-percent-Sweep")

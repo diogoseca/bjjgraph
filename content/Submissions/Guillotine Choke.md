@@ -201,7 +201,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 |---|---|---|---|---|
 | [[Submissions/Guillotine Choke/from Butterfly Guard|Butterfly Guard]] | Bottom | 62% | [[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Butterfly Guard/Defender|Defend →]] |
 | [[Submissions/Guillotine Choke/from Guillotine Control|Guillotine Control]] | Top | 62% | [[Submissions/Guillotine Choke/from Guillotine Control/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Guillotine Control/Defender|Defend →]] |
-| [[Submissions/Guillotine Choke/from Hindulotine|Hindulotine]] | Top | 62% | [[Submissions/Guillotine Choke/from Hindulotine/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Hindulotine/Defender|Defend →]] |
+| [[Submissions/Guillotine Choke/from Hindulotine|Hindulotine]] | Bottom | 62% | [[Submissions/Guillotine Choke/from Hindulotine/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Hindulotine/Defender|Defend →]] |
 | [[Submissions/Guillotine Choke/from Twister Control|Twister Control]] | Top | 62% | [[Submissions/Guillotine Choke/from Twister Control/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Twister Control/Defender|Defend →]] |
 | [[Submissions/Guillotine Choke/from Clinch|Clinch]] | Top | 40% | [[Submissions/Guillotine Choke/from Clinch/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Clinch/Defender|Defend →]] |
 

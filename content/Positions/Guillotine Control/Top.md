@@ -263,7 +263,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 **If opponent's posture is broken forward and chin is exposed:**
 - Execute **[[Submissions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 75%)
-- Execute **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Submissions/High Elbow Guillotine/from Guillotine Control/Attacker|High Elbow Guillotine from Guillotine Control]]** → [[game-over]] (Probability: 70%)
 
 
 **If opponent tucks chin and defends neck but neglects position:**
@@ -283,7 +283,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 **If opponent creates distance with legs but not hand fighting:**
 - Execute **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 75%)
-- Execute **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Submissions/High Elbow Guillotine/from Guillotine Control/Attacker|High Elbow Guillotine from Guillotine Control]]** → [[game-over]] (Probability: 65%)
 
 
 

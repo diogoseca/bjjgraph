@@ -1,7 +1,9 @@
 """Regression for #216/#169: a transition is not its similarly named submission.
 
-The fixture copies the three real sources; #216 removed the 7 gi / 5 nogi
-incoming edge and changed the submission's 26/26 attempts to 33/31.
+The fixture copies the three real sources. Historically #216 removed the 7 gi /
+5 nogi incoming edge and changed the submission's 26/26 attempts to 33/31.
+Approved N4 re-origins that setup to Ashi Garami/Bottom: the setup and its distinct
+direct finish must still survive a stale bot report, with their exact authored shares.
 """
 import json
 import os
@@ -26,16 +28,20 @@ class AokiRegression(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.addCleanup(os.chdir, Path.cwd())
         self.root = Path(self.temp.name)
-        for name in ["Positions/Aoki Lock Control.json", "Transitions/Aoki Lock.json",
-                     "Submissions/Aoki Lock/from Aoki Lock Control.json"]:
+        # D-434 stale-spec migration: graph-restructure-plan.md:136 moves the
+        # setup to Ashi/Bottom. restructure-kept-numbers.md:993-999 approves its
+        # 3/3 share alongside the distinct 1/2 direct finish; N4 recheck:82 keeps
+        # that menu unchanged. D-431 preserves both identities when co-listed.
+        for name in ["Positions/Ashi Garami.json", "Transitions/Aoki Lock.json",
+                     "Submissions/Aoki Lock/from Ashi Garami.json"]:
             dest = self.root / "content" / name
             dest.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(ROOT / "content" / name, dest)
         os.chdir(self.root)
-        self.position = Path("content/Positions/Aoki Lock Control.json")
+        self.position = Path("content/Positions/Ashi Garami.json")
         self.before = self.position.read_bytes()
-        self.dual = {"position": "Aoki Lock Control", "role": "top",
-                     "generic": "Aoki Lock", "specific": "Aoki Lock from Aoki Lock Control"}
+        self.dual = {"position": "Ashi Garami", "role": "bottom",
+                     "generic": "Aoki Lock", "specific": "Aoki Lock from Ashi Garami"}
 
     def test_aoki_detector_keeps_distinct_moves(self):
         refs = audit.build_position_reference_map()
@@ -47,14 +53,14 @@ class AokiRegression(unittest.TestCase):
         fixer.fix_dual_references([self.dual], dry_run=False)
         self.assertEqual(self.position.read_bytes(), self.before)
         attempts = {t["transition"]: t["attempt_probability"]
-                    for t in json.loads(self.before)["top"]["transitions"]}
-        self.assertEqual(attempts["Aoki Lock"], {"gi": 7, "nogi": 5})
-        self.assertEqual(attempts["Aoki Lock from Aoki Lock Control"], {"gi": 26, "nogi": 26})
+                    for t in json.loads(self.position.read_bytes())["bottom"]["transitions"]}
+        self.assertEqual(attempts["Aoki Lock"], {"gi": 3, "nogi": 3})
+        self.assertEqual(attempts["Aoki Lock from Ashi Garami"], {"gi": 1, "nogi": 2})
 
     def test_aoki_case_b_cannot_bypass_merger_guard(self):
         issue = {"technique": "Aoki Lock", "variant_name": self.dual["specific"],
                  "is_dual_reference": True,
-                 "referenced_by": {"file": str(self.position), "role": "top"}}
+                 "referenced_by": {"file": str(self.position), "role": "bottom"}}
         fixer.fix_case_b([issue], [self.dual], dry_run=False)
         self.assertEqual(self.position.read_bytes(), self.before)
 

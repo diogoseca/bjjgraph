@@ -309,8 +309,6 @@ The transition to mount from side control represents a critical component of the
 
 - [[Transitions/Knee Slice Pass]] - Recovery pass if opponent catches half guard
 
-- [[Transitions/Back Take from Top]] - Alternative when opponent turns away during transition
-
 
 </section>
 

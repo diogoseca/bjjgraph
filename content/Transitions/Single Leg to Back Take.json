@@ -88,10 +88,6 @@
       "relationship": "Initial setup transition that creates the single leg position from which the back take is attempted"
     },
     {
-      "name": "Back Take",
-      "relationship": "General back taking transition sharing core principles of climbing to back control"
-    },
-    {
       "name": "Rear Naked Choke",
       "relationship": "Primary submission finish available from the resulting back control position"
     },

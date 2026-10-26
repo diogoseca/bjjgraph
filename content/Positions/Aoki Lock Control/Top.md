@@ -20,39 +20,9 @@ description: "Aoki Lock Control top perspective: A turned-out foot enclosed besi
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Aoki Lock from Aoki Lock Control",
-      "text": "From this position, attempt Aoki Lock from Aoki Lock Control. This technique is attempted in 26% of exchanges from this position.",
+      "name": "Execute Aoki Grip and Hip Release",
+      "text": "From this position, attempt Aoki Grip and Hip Release. This technique is attempted in 100% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Aoki Lock to Back Control",
-      "text": "From this position, attempt Aoki Lock to Back Control. This technique is attempted in 25% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Aoki Lock to Crucifix",
-      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 15% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Kimura Switch",
-      "text": "From this position, attempt Kimura Switch. This technique is attempted in 14% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 15% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Aoki Lock",
-      "text": "From this position, attempt Aoki Lock. This technique is attempted in 5% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -312,9 +282,9 @@ Work cooperatively on keep foot and knee aligned. Do not spin the torso while th
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 78% |
-| Advancement Probability | 72% |
-| Submission Probability | 68% |
+| Retention Rate | 42% |
+| Advancement Probability | 50% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

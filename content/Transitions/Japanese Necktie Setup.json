@@ -88,10 +88,6 @@
     {
       "name": "Arm Triangle from Front Headlock",
       "relationship": "Related neck attack from same control"
-    },
-    {
-      "name": "Back Take from Top",
-      "relationship": "Positional alternative if submission fails"
     }
   ],
   "attacker": {

@@ -214,7 +214,7 @@ The early escape denies the finishing hand connection and clears the head-and-le
 
 Protect the neck while denying the finishing hand: keep the head aligned and an inside arm between your neck and the closing enclosure. A chin position alone cannot undo the raised-leg and arm connection.
 
-**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 
 </section>

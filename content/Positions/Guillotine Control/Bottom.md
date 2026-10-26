@@ -20,38 +20,38 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute High Elbow Guillotine Variation",
-      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Closed Guard to Triangle",
+      "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Guillotine Control",
+      "text": "From this position, attempt Guard Recovery from Guillotine Control. This technique is attempted in 30% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Triangle",
-      "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Guillotine Escape to Von Flue",
+      "text": "From this position, attempt Guillotine Escape to Von Flue. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery from Guillotine Control",
-      "text": "From this position, attempt Guard Recovery from Guillotine Control. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Guillotine Escape via Posture",
+      "text": "From this position, attempt Guillotine Escape via Posture. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Sweep with Guillotine",
-      "text": "From this position, attempt Butterfly Sweep with Guillotine. This technique is attempted in 23% of exchanges from this position.",
+      "name": "Execute Hip Bump Sweep",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 29% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -230,7 +230,6 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 
 **If opponent postures up and attempts to create space by extending arms or lifting torso:**
-- Execute **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** → [[game-over]] (Probability: 65%)
 - Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 

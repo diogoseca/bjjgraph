@@ -105,7 +105,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.youtube.com/watch?v=zixbOyLpoOc); [Jay Rodriguez — three Buggy Choke mistakes](https://www.youtube.com/watch?v=MjKERx4N4mY).
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 35%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/North-South]] | 55% |
-| Failure | [[Positions/Buggy Choke]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/North-South]] | 35% |
+| Failure | [[Positions/Buggy Choke]] | 45% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>

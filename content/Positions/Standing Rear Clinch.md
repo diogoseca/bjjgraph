@@ -208,27 +208,25 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 ### Available Transitions
 
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (13% of attempts)
-
 - **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (3% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (2% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (21% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (24% of attempts)
 
-- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (6% of attempts)
+- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (7% of attempts)
 
-- **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** (21% of attempts)
+- **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** (24% of attempts)
 
-- **[[Transitions/Rear Clinch to Body Lock/Attacker|Rear Clinch to Body Lock]]** (8% of attempts)
+- **[[Transitions/Rear Clinch to Body Lock/Attacker|Rear Clinch to Body Lock]]** (9% of attempts)
 
-- **[[Transitions/Suplex from Rear Clinch/Attacker|Suplex from Rear Clinch]]** (4% of attempts)
+- **[[Transitions/Suplex from Rear Clinch/Attacker|Suplex from Rear Clinch]]** (5% of attempts)
 
-- **[[Transitions/Standing Switch Defense/Attacker|Standing Switch Defense]]** (4% of attempts)
+- **[[Transitions/Standing Switch Defense/Attacker|Standing Switch Defense]]** (5% of attempts)
 
-- **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** (12% of attempts)
+- **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** (14% of attempts)
 
-- **[[Submissions/Rear Naked Choke/from Standing Rear Clinch/Attacker|Rear Naked Choke from Standing Rear Clinch]]** (6% of attempts)
+- **[[Submissions/Rear Naked Choke/from Standing Rear Clinch/Attacker|Rear Naked Choke from Standing Rear Clinch]]** (7% of attempts)
 
 
 ### Common Mistakes

@@ -199,7 +199,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 A high Invisible Collar enclosure can still apply vascular choke pressure during a posture change. Signal early and wait for the arm-and-leg connection to open completely; the other player beginning to stand does not make a trapped neck safe to lift.
 
-**Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 
 </section>
 
@@ -269,28 +269,28 @@ A high Invisible Collar enclosure can still apply vascular choke pressure during
 ### 1. The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 2. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 3. Avoid driving all weight onto the partner's shoulders while the legs are locked high.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 4. Create space at the hip and thigh before trying to raise the head or extract the arm.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -304,11 +304,11 @@ A high Invisible Collar enclosure can still apply vascular choke pressure during
 
 <p class="section-subtitle">What is the best outcome when defending Standing Escape?</p>
 
-### → [[Positions/Rubber Guard/Invisible Collar]]
+### → [[Positions/Rubber Guard/Chill Dog]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
 
-### → [[Positions/Rubber Guard/Invisible Collar]]
+### → [[Positions/Rubber Guard/Chill Dog]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
 

@@ -232,7 +232,7 @@ Use positional closure rather than a neck crank, practice the control without pr
 
 For a separately established top-side finish, chest pressure helps keep the trapped shoulder from withdrawing while the neck enclosure is adjusted. Balance on a stable base; pinning the torso is support for the choke, not a reason to drive harder into the neck.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 
 </section>
@@ -325,9 +325,9 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 62% |
-| Failure | [[Positions/Hindulotine]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Success | [[game-over]] | 25% |
+| Failure | [[Positions/Hindulotine]] | 50% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>

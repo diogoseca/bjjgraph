@@ -87,7 +87,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # same seam as 
 # ONE implementation of the ruleset contract.  `present_rulesets(values)` is the only correct way
 # to ask "which frames does this thing exist in" -- a bare loop over RULESETS answers a different
 # question and gets a plausible answer for a frame that is not there (CLAUDE.md 6.5).
-from _ruleset import RULESETS, present_rulesets   # noqa: E402
+from _ruleset import RULESETS, present_rulesets, outcome_cell   # noqa: E402
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GRAPH_PATH = os.path.join(REPO, "graph.json")
@@ -210,7 +210,8 @@ def tech_rate(tech, opts):
     here so that the null-safety pass moves no number, and it belongs in its own commit with
     the 146 named.
 
-    What IS taken here: a missing rate returns ``None`` and ``build_hand`` DROPS the card.
+    A missing rate returns ``None``. D-363 requires its attempt cell to be null too:
+    ``build_hand`` drops a null attempt and rejects a present attempt at an absent technique.
     ``or 0.0`` would price a technique that does not exist in this ruleset as one that always
     fails -- a plausible number where the truth is a structural absence.  Measured today: 0 of
     2656 ``/attacker`` + ``/defender`` nodes lack the field, so the drop is unreachable and this
@@ -288,6 +289,22 @@ def priced_tech(a):
     return a.tech
 
 
+def frame_outcomes(tech, frame):
+    """D-363: read this frame's edges, refusing to reach an absent technique.
+
+    The pair, when present, is authoritative even when its cell is null. Legacy
+    common tables use outcome_cell's scalar compatibility path. Individual absent
+    edges are omitted; selfcheck reports their count and each present frame's sum.
+    """
+    if _pair_rate(tech, frame) is None:
+        raise ValueError(f"frame_outcomes: {tech.get('name')!r} is absent in frame {frame}")
+    rows = [(o, outcome_cell(o, frame)) for o in tech.get('outcomes') or []]
+    live = [(o, value) for o, value in rows if value is not None]
+    if not live:
+        raise ValueError(f"frame_outcomes: {tech.get('name')!r} has no outcomes in frame {frame}")
+    return live
+
+
 def build_action(graph, tech, opts):
     """
     Expand one technique's /attacker node into (p, success-branch, miss-branch).
@@ -307,8 +324,8 @@ def build_action(graph, tech, opts):
                manufactures the false "19 broken nodes" finding; kept as a control).
     """
     succ_raw, miss_raw = [], []
-    for o in tech.get("outcomes") or []:
-        to, res, prob = o["to"], o["result"], float(o["probability"])
+    for o, value in frame_outcomes(tech, opts.frame):
+        to, res, prob = o["to"], o["result"], float(value)
         bucket = succ_raw if res == "success" else miss_raw
         if to == "game-over" or is_role(to):
             bucket.append((prob, _cell_outcome(to, res)))
@@ -320,8 +337,8 @@ def build_action(graph, tech, opts):
         if ch is None:                       # never happens today; selfcheck asserts it
             continue
         by_actor = True if opts.chain == "actor" else (res == "success")
-        for co in ch.get("outcomes") or []:
-            bucket.append((prob * float(co["probability"]) / 100.0,
+        for co, child_value in frame_outcomes(ch, opts.frame):
+            bucket.append((prob * float(child_value) / 100.0,
                            _cell_outcome(co["to"], co["result"], actor_frame=by_actor)))
 
     empty, out, mass = 0, [], []
@@ -337,8 +354,8 @@ def build_action(graph, tech, opts):
         p = mass[0] / (mass[0] + mass[1]) if (mass[0] + mass[1]) else 0.0
     else:
         rate = tech_rate(tech, opts)
-        # build_hand drops a rate-less technique before it can reach here.  If that ever stops
-        # being true, fail loudly: pricing the card at p=0 deals a move that can only miss, and
+        # build_hand rejects an attempt at a rate-less technique before it can reach here.
+        # Direct callers must fail too: pricing the card at p=0 deals a move that can only miss, and
         # a card that can only miss is indistinguishable from a hard one.
         if rate is None:
             raise ValueError("build_action: %r has no success rate in frame %s"
@@ -355,8 +372,8 @@ def build_hand(graph, key, opts):
 
     Returns ``(hand, relaxed, absent, frame_absent)``:
 
-      absent        transitions DROPPED because this ruleset has no cell for them - a null
-                    attempt probability, or a technique with no success rate here.  Counted,
+      absent        transitions DROPPED because this ruleset has no attempt cell for them.
+                    An attempt at a technique with no frame is an error (D-363). Counted,
                     never summed as 0: ``float(raw or 0)`` deals a byte-identical hand today
                     (``att <= 0`` already drops it two lines down) while destroying the only
                     signal that says WHY the card is missing.  A dealt hand cannot tell "no
@@ -374,17 +391,17 @@ def build_hand(graph, key, opts):
         if raw is None:                       # the move DOES NOT EXIST in this ruleset
             absent += 1
             continue
-        att = float(raw)
-        if att <= 0:                          # it exists here, and is ~never attempted
-            continue
         cat = "submissions" if t.get("isSubmission") else "transitions"
         tech = listing_view(graph[cat].get(t["target"] + "/attacker"), t)
         if tech is None:
             continue
-        if tech.get("fromRole") != role:      # the role filter is NEVER relaxed
+        if tech_rate(tech, opts) is None:
+            raise ValueError(f"build_hand: {key} reaches {t['target']} in absent frame {opts.frame}; "
+                             "its attempt cell must be null")
+        att = float(raw)
+        if att <= 0:                          # it exists here, and is ~never attempted
             continue
-        if tech_rate(tech, opts) is None:     # the edge exists, the technique has no rate here
-            absent += 1
+        if tech.get("fromRole") != role:      # the role filter is NEVER relaxed
             continue
         picks.append((t, att, cat, tech))
 
@@ -818,14 +835,24 @@ def selfcheck(graph):
                       if fold_bad else "")))
 
     tech, sums, chain, second, go_from_trans, unresolved = 0, 0, 0, 0, 0, 0
+    outcome_frames = outcome_absent = outcome_dropped = no_frame = 0
     for cat in ("transitions", "submissions"):
         for k, nd in graph[cat].items():
             if not (k.endswith("/attacker") or k.endswith("/defender")):
                 continue
             tech += 1
             oc = nd.get("outcomes") or []
-            if abs(sum(o["probability"] for o in oc) - 100) <= 1e-6:
-                sums += 1
+            present = [fr for fr in RULESETS if _pair_rate(nd, fr) is not None]
+            no_frame += not present
+            for fr in RULESETS:
+                values = [outcome_cell(o, fr) for o in oc]
+                outcome_dropped += sum(value is None for value in values)
+                if fr not in present:
+                    outcome_absent += 1
+                    continue
+                outcome_frames += 1
+                if abs(sum(value for value in values if value is not None) - 100) <= 1e-6:
+                    sums += 1
             for o in oc:
                 to = o["to"]
                 if to == "game-over":
@@ -843,7 +870,24 @@ def selfcheck(graph):
                     continue
                 second += sum(1 for c in ch.get("outcomes") or []
                               if c["to"] != "game-over" and not is_role(c["to"]))
-    checks.append(("outcome sums == 100", sums == tech, "%d/%d" % (sums, tech)))
+    checks.append(("outcome sums == 100", sums == outcome_frames and outcome_frames >= tech and not no_frame,
+                   f"{sums}/{outcome_frames} present frames across {tech} role-nodes; "
+                   f"{outcome_absent} absent frames, {outcome_dropped} null cells dropped, "
+                   f"{no_frame} techniques without a frame"))
+    absent_attempts = []
+    attempt_checks = 0
+    for key in roles:
+        for edge in P[key].get('transitions') or []:
+            cat = 'submissions' if edge.get('isSubmission') else 'transitions'
+            node = listing_view(graph[cat].get(edge['target'] + '/attacker'), edge)
+            if node is None:
+                continue
+            for fr in RULESETS:
+                attempt_checks += 1
+                if _pair_rate(node, fr) is None and edge['attemptProbabilityByRuleset'][fr] is not None:
+                    absent_attempts.append(f"{key} -> {edge['target']} [{fr}]")
+    checks.append(('absent techniques have null attempt cells', not absent_attempts and attempt_checks > 0,
+                   f"{attempt_checks} listing/frame checks; {len(absent_attempts)} violations: {absent_attempts[:5]}"))
     checks.append(("every outcome target resolves", unresolved == 0, "%d unresolved" % unresolved))
     checks.append(("game-over reached only from submissions", go_from_trans == 0,
                    "%d transition cells reach it" % go_from_trans))
@@ -887,7 +931,7 @@ def selfcheck(graph):
             for x, y in zip(ao, do):
                 if flip(x["to"]) != y["to"]:
                     viol["to_flip"] += 1
-                if x["probability"] != y["probability"]:
+                if any(outcome_cell(x, fr) != outcome_cell(y, fr) for fr in RULESETS):
                     viol["probability"] += 1
             sa, sd = a.get("strength"), d.get("strength")
             if sa is None or sd is None or abs(sa + sd) > 1e-9:
@@ -903,11 +947,11 @@ def selfcheck(graph):
 
 
 def _pair_rate(tech, frame):
-    """One frame's success rate off a technique node, for the mirror check ONLY.
+    """One frame's authored rate, for availability and per-frame invariant checks.
 
     Deliberately NOT `tech_rate`: that seam answers "what does the SOLVE price this card at", and
     it reads the folded scalar on purpose (see its docstring).  This one answers "does the
-    authored pair complement in this frame", which is a question about the forked cells, so it
+    technique exist and does its pair complement in this frame", so it
     reads them and falls back to the scalar only where a node carries no map at all.  Never
     `or 0` -- a missing rate is a technique that does not exist in this frame.
     """

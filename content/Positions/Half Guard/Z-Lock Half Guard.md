@@ -220,11 +220,9 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (10% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (11% of attempts)
 
 - **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
-
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (4% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
@@ -234,11 +232,11 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 
 - **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (7% of attempts)
 
-- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (19% of attempts)
+- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (20% of attempts)
 
-- **[[Transitions/Lockdown Break from Z-Lock/Attacker|Lockdown Break from Z-Lock]]** (16% of attempts)
+- **[[Transitions/Lockdown Break from Z-Lock/Attacker|Lockdown Break from Z-Lock]]** (17% of attempts)
 
-- **[[Transitions/Pass Z-Lock/Attacker|Pass Z-Lock]]** (12% of attempts)
+- **[[Transitions/Pass Z-Lock/Attacker|Pass Z-Lock]]** (13% of attempts)
 
 
 ### Common Mistakes

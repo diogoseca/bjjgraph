@@ -105,7 +105,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplanetjj.com/techniques/mts-169-rubber-guard-the-pump/); [10th Planet Costa Mesa — basic path with double bagger](https://www.youtube.com/watch?v=W2OFKidf9lE).
 
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
-**Success Rate**: 26%
+**Success Rate**: 40%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplane
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 55% |
-| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 30% |
-| Counter | [[Positions/Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 40% |
+| Counter | [[Positions/Rubber Guard/Mission Control]] | 20% |
 
 
 </section>

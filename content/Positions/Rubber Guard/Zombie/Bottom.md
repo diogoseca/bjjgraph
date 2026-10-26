@@ -20,39 +20,21 @@ description: "Zombie bottom perspective: Maintain posture control while freeing 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Zombie to New York",
+      "text": "From this position, attempt Zombie to New York. This technique is attempted in 65% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Zombie",
+      "text": "From this position, attempt Guard Recovery from Zombie. This technique is attempted in 30% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Sweep from Zombie Guard",
+      "text": "From this position, attempt Sweep from Zombie Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Guard Recovery from Zombie",
-      "text": "From this position, attempt Guard Recovery from Zombie. This technique is attempted in 14% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 7% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -392,9 +374,9 @@ Work cooperatively on move the hand to the mat. Guide the wrist and forearm thro
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 62% |
+| Retention Rate | 77% |
 | Advancement Probability | 58% |
-| Submission Probability | 16% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

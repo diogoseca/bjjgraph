@@ -294,8 +294,6 @@ Squid guard entry serves as a critical node in the lapel guard system, providing
 
 - [[Positions/Triangle Control]] - Submission option from squid guard when opponent postures
 
-- [[Transitions/Back Take]] - Follow-up when opponent attempts backstep escape from squid guard
-
 - [[Transitions/Lapel Sweep to Back]] - Primary sweep option using squid guard configuration
 
 - [[Positions/Ringworm Guard]] - Advanced lapel configuration that can incorporate squid guard elements

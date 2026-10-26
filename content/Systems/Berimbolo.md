@@ -124,7 +124,7 @@ These related references are not a claim about what the course teaches or eviden
 - [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition)
 
 
-- [[Transitions/Kiss of the Dragon|Kiss of the Dragon]] (Transition)
+- [[Transitions/Kiss of the Dragon from RDLR|Kiss of the Dragon from RDLR]] (Transition)
 
 
 - [[Transitions/De La Riva Sweep|De La Riva Sweep]] (Transition)

@@ -724,11 +724,6 @@
         "condition": "If opponent establishes one or both hooks while maintaining harness",
         "actions": [
           {
-            "technique": "Elbow Escape to Remove Hooks",
-            "target": "Harness",
-            "probability": 55
-          },
-          {
             "technique": "Granby Roll to Guard",
             "target": "Open Guard",
             "probability": 35

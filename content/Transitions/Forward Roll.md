@@ -323,7 +323,7 @@ The Forward Roll is a fundamental component of the turtle escape system in BJJ, 
 
 - [[Transitions/Granby Roll to Guard]] - Alternative rolling escape that moves laterally rather than forward
 
-- [[Transitions/Granby to Closed Guard]] - Similar guard recovery technique with different rolling direction
+- [[Transitions/Granby Roll to Guard]] - Similar guard recovery technique with different rolling direction
 
 - [[Transitions/Hip Escape to Guard]] - Complementary escape movement used in similar defensive situations
 

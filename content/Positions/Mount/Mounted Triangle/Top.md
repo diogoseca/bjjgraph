@@ -21,37 +21,37 @@ description: "Master mounted triangle attacks from top position. High-percentage
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke from Mounted Triangle",
-      "text": "From this position, attempt Triangle Choke from Mounted Triangle. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Choke from Mounted Triangle. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Consolidate Mount",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 11% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Gift Wrap",
-      "text": "From this position, attempt Gift Wrap. This technique is attempted in 5% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Gift Wrap. This technique is attempted in 6% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
       "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 5% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute S-Mount Transition",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -274,7 +274,6 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 
 **If opponent turns to side to escape triangle pressure:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
 - Execute **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
 
 

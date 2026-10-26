@@ -193,7 +193,7 @@ Use slow enclosure practice and avoid cervical extension or twisting. Open the h
 
 The early escape targets the chin strap and supporting hand before they form a closed neck loop. Maintain an aligned head while making space; a positional advance around the legs does not release a captured neck.
 
-**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 
 </section>

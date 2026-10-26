@@ -508,11 +508,6 @@
         "condition": "If opponent drives forward with pressure attempting to stack",
         "actions": [
           {
-            "technique": "Kiss of the Dragon",
-            "target": "Back Control",
-            "probability": 60
-          },
-          {
             "technique": "Berimbolo Entry",
             "target": "Back Control",
             "probability": 55
@@ -522,11 +517,6 @@
       {
         "condition": "If opponent turns away from threading leg to escape tension",
         "actions": [
-          {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 65
-          },
           {
             "technique": "Omoplata to Back",
             "target": "Back Control",

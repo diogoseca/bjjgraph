@@ -104,8 +104,8 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](https://www.youtube.com/watch?v=KCyIwacRKu8); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).
 
-**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
-**Success Rate**: 36%
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
+**Success Rate**: 30%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 65% |
-| Failure | [[Positions/Rubber Guard/Invisible Collar]] | 25% |
-| Counter | [[Positions/Rubber Guard/Invisible Collar]] | 10% |
+| Success | [[Positions/Open Guard]] | 30% |
+| Failure | [[Positions/Rubber Guard/Invisible Collar]] | 50% |
+| Counter | [[Positions/Rubber Guard/Chill Dog]] | 20% |
 
 
 </section>

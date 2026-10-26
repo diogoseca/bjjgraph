@@ -185,25 +185,23 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (17% of attempts)
+- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (19% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (7% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (8% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (7% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (8% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (10% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (11% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (10% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (8% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (7% of attempts)
+- **[[Transitions/Escape Seat Belt Control/Attacker|Escape Seat Belt Control]]** (13% of attempts)
 
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (10% of attempts)
+- **[[Transitions/Hand Fight from Seat Belt Control/Attacker|Hand Fight from Seat Belt Control]]** (14% of attempts)
 
-- **[[Transitions/Escape Seat Belt Control/Attacker|Escape Seat Belt Control]]** (12% of attempts)
+- **[[Transitions/Seat Belt Peel Escape/Attacker|Seat Belt Peel Escape]]** (8% of attempts)
 
-- **[[Transitions/Hand Fight from Seat Belt Control/Attacker|Hand Fight from Seat Belt Control]]** (13% of attempts)
-
-- **[[Transitions/Seat Belt Peel Escape/Attacker|Seat Belt Peel Escape]]** (7% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -264,7 +262,7 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Submissions/Rear Naked Choke/from Seat Belt Control Back/Attacker|Rear Naked Choke from Seat Belt Control Back]]** (30% of attempts)
+- **[[Submissions/Rear Naked Choke/from Seat Belt Control Back/Attacker|Rear Naked Choke from Seat Belt Control Back]]** (32% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
@@ -274,19 +272,17 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 
 - **[[Submissions/Short Choke/from Seat Belt Control Back/Attacker|Short Choke from Seat Belt Control Back]]** (5% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (17% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (18% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (11% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (12% of attempts)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (3% of attempts)
 
 - **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (3% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
-
 - **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** (5% of attempts)
 
-- **[[Transitions/Seat Belt to Body Triangle/Attacker|Seat Belt to Body Triangle]]** (6% of attempts)
+- **[[Transitions/Seat Belt to Body Triangle/Attacker|Seat Belt to Body Triangle]]** (7% of attempts)
 
 - **[[Transitions/Seat Belt to Full Back Control/Attacker|Seat Belt to Full Back Control]]** (6% of attempts)
 
@@ -357,8 +353,8 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni: Turtle Breakdowns and Back Attacks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

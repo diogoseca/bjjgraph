@@ -21,19 +21,19 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Ashi Garami",
-      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {

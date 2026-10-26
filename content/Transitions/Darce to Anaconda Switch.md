@@ -296,8 +296,6 @@ The Darce to Anaconda Switch serves as a critical link within the front headlock
 
 - [[Transitions/Anaconda to Side Control]] - Positional advancement option after establishing Anaconda control
 
-- [[Transitions/Anaconda Control to Dead Orchard Control]] - Advanced control transition accessible after completing the switch
-
 - [[Positions/Turtle]] - Common opponent position during front headlock exchanges where this switch occurs
 
 - [[Positions/Half Guard]] - Recovery position for defender if they successfully counter during the grip transition

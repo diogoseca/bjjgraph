@@ -204,8 +204,6 @@ Seat the wrist blade in Cross Collar Choke from Mount; shift the hips to clear t
 
 **Cross Collar Choke from Mount**: With grips and base established, recognize how wrist orientation seats the forearm blade; keep practice cooperative and stop before finishing pressure.
 
-**Hand Fighting to Remove Collar Grip**: Close the chin-to-shoulder gap while clearing the collar grip before it settles; tap early if a choke is established.
-
 
 
 </section>
@@ -321,7 +319,6 @@ With qualified supervision and a cooperative partner, start in a secured Saddle.
 - [[Positions/Side Control|Side Control]] (Position) - Illustrates supported shoulder loading that follows the opponent’s turn.
 - [[Transitions/Grip Break|Grip Break]] (Transition) - Illustrates hand placement and force directed through the grip’s opening.
 - [[Submissions/Heel Hook/from Saddle|Heel Hook from Saddle]] (Submission) - Illustrates recognizing a seated heel catch with knee-line control; reset before finishing pressure.
-- [[Transitions/Hand Fighting to Remove Collar Grip|Hand Fighting to Remove Collar Grip]] (Transition) - Illustrates small chin and shoulder adjustments while the hands deny early neck access.
 
 
 </section>

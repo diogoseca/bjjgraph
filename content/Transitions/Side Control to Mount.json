@@ -99,10 +99,6 @@
     {
       "name": "Knee Slice Pass",
       "relationship": "Recovery pass if opponent catches half guard"
-    },
-    {
-      "name": "Back Take from Top",
-      "relationship": "Alternative when opponent turns away during transition"
     }
   ],
   "attacker": {

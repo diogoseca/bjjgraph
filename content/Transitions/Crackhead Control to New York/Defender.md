@@ -288,7 +288,7 @@ The early escape restores the hand and elbow inside before the knee hug fixes th
 ### 1. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -302,14 +302,14 @@ The early escape restores the hand and elbow inside before the knee hug fixes th
 ### 3. The free hand working under yours is the cue to recover inside position before the knee hug closes.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 4. Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -323,7 +323,7 @@ The early escape restores the hand and elbow inside before the knee hug fixes th
 
 <p class="section-subtitle">What is the best outcome when defending Crackhead Control to New York?</p>
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Rubber Guard/Mission Control]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
 

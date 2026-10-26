@@ -115,6 +115,7 @@ description: "Suloev Stretch from Half Guard (defender): A hand reaching from yo
   "@type": "WebPage",
   "name": "Suloev Stretch from Half Guard Defender",
   "description": "Suloev Stretch from Half Guard (defender): A hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together.",
+  "alternateName": ["Suloev Stretch from Rear Tripod"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -164,6 +165,9 @@ description: "Suloev Stretch from Half Guard (defender): A hand reaching from yo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Suloev Stretch from Rear Tripod</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
@@ -178,7 +182,7 @@ The early escape denies the rear hand access to the ankle and reduces the expose
 
 Before an ankle is captured, rebuilding base brings the elbows beside the ribs and the knees back beneath the body. Keep that elbow-knee connection while checking the rear attacker's hands: rising into a tripod still exposes the ankle, so the base change alone does not remove the submission threat.
 
-**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -223,28 +227,28 @@ Before an ankle is captured, rebuilding base brings the elbows beside the ribs a
 ### 1. A hand reaching from your back toward the ankle is an early cue to protect the leg.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.
 
 ### 2. Use hand fighting before the ankle and torso are controlled together.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.
 
 ### 3. Maintain a stable base and address the rear attachment before raising the hips with a leg available.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.
 
 ### 4. Keep the captured leg aligned instead of rolling sideways against the ankle grip.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.
 
@@ -270,11 +274,11 @@ Before an ankle is captured, rebuilding base brings the elbows beside the ribs a
 
 <p class="section-subtitle">What is the best outcome when defending Suloev Stretch from Half Guard?</p>
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Back Control]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. A hand reaching from your back toward the ankle is an early cue to protect the leg.
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Turtle]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Use hand fighting before the ankle and torso are controlled together.
 

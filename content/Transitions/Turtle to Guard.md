@@ -300,8 +300,6 @@ The turtle to guard recovery is a critical link in the defensive chain, sitting 
 
 - [[Transitions/Rolling to Guard]] - Related guard recovery transition from turtle sharing defensive context
 
-- [[Transitions/Back Take from Top]] - Counter-technique opponent attempts during failed recovery
-
 - [[Positions/Back Control]] - Position being prevented by successful guard recovery
 
 - [[Transitions/Guillotine from Turtle]] - Submission threat present in the starting position

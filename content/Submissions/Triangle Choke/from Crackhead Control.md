@@ -4,7 +4,7 @@
 
 ---
 title: "Triangle Choke from Crackhead Control | BJJ Submission | BJJ Graph"
-description: "Complete guide to the triangle choke from Crackhead Control. Master the 10th Planet setup, finishing mechanics, counters, and defensive escape strategies."
+description: "A triangle from Crackhead Control requires changing the two-leg high clinch into a head-and-one-arm enclosure, establishing the angle, and releasing immediately at a tap."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Complete guide to the triangle choke from Crackhead Control. Maste
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Triangle Choke from Crackhead Control",
-  "description": "Complete guide to the triangle choke from Crackhead Control. Master the 10th Planet setup, finishing mechanics, counters, and defensive escape strategies.",
+  "description": "A triangle from Crackhead Control requires changing the two-leg high clinch into a head-and-one-arm enclosure, establishing the angle, and releasing immediately at a tap.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,27 +36,6 @@ description: "Complete guide to the triangle choke from Crackhead Control. Maste
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Triangle Choke from Crackhead Control \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Eddie Bravo Rubber Guard / MIssion Control /Meathook / Triangle / Double Bag /\u2026",
-      "description": "Triangle Choke from Crackhead Control film study: Eddie Bravo Rubber Guard / MIssion Control /Meathook / Triangle / Double Bag /\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EhiPyX_s044/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EhiPyX_s044",
-      "url": "https://www.youtube.com/watch?v=EhiPyX_s044",
-      "duration": "PT132S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -64,7 +43,7 @@ description: "Complete guide to the triangle choke from Crackhead Control. Maste
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Triangle Choke from Crackhead Control",
-  "description": "The triangle choke from Crackhead Control is a 10th Planet rubber guard blood choke that uses the shin already pinned across the opponent's face as a guide rail to shoot the choking leg over the far shoulder, compressing both carotid arteries with minimal transition distance.",
+  "description": "A triangle from Crackhead Control requires changing the two-leg high clinch into a head-and-one-arm enclosure, establishing the angle, and releasing immediately at a tap.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -74,16 +53,16 @@ description: "Complete guide to the triangle choke from Crackhead Control. Maste
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The triangle choke from Crackhead Control is a 10th Planet rubber guard blood choke that uses the shin already pinned across the opponent's face as a guide rail to shoot the choking leg over the far shoulder, compressing both carotid arteries with minimal transition distance.**
+**A triangle from Crackhead Control requires changing the two-leg high clinch into a head-and-one-arm enclosure, establishing the angle, and releasing immediately at a tap.**
 <div class="principle-meta">
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
-<span class="meta-chip">Targets Carotid arteries and brachial plexus</span>
-<span class="meta-chip">65% success</span>
+<span class="meta-chip">Targets Neck</span>
+<span class="meta-chip">30% success</span>
 </div>
 
 > [!danger] Safety
-> Triangle Choke from Crackhead Control targets the Carotid arteries and brachial plexus. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+> Triangle Choke from Crackhead Control targets the Neck. Primary risk: Neck injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -94,34 +73,18 @@ description: "Complete guide to the triangle choke from Crackhead Control. Maste
 
 <section id="overview" class="content-section">
 
-The triangle choke from Crackhead Control is one of the highest-percentage submissions available from the 10th Planet rubber guard system. Crackhead Control positions the bottom player's shin across the opponent's face and neck, creating a posture-breaking framework that naturally sets up triangle choke entries. Because the attacking leg is already at neck level and the opponent's posture is compromised, the transition to a locked triangle requires fewer steps than traditional closed guard setups, giving the defender significantly less time to mount an effective defense.
+A triangle from Crackhead Control requires changing the two-leg high clinch into a head-and-one-arm enclosure, establishing the angle, and releasing immediately at a tap.
 
-The position's strength lies in the asymmetric control it creates. The shin pressing across the opponent's face serves as both a barrier to posture recovery and a guide rail for the choking leg. By isolating one arm and swimming the locking leg over the far shoulder, the bottom player can establish the triangle configuration without the typical struggle of elevating hips and climbing legs that characterizes standard guard triangle attempts. This reduced transition distance means the opponent has fewer defensive windows to prevent the lock from closing.
+Start from the bottom player's reinforced high guard; do not assume the starting leg connection is already a triangle choke. Separate the arm configuration so the head and only one arm remain in the intended triangle enclosure.
 
-Strategically, the triangle from Crackhead Control functions as a primary threat within the rubber guard attacking system. It chains naturally with gogoplata, omoplata, and armbar attacks, creating a submission web where defending one threat exposes the opponent to another. The position is particularly effective in no-gi grappling where the absence of collar grips makes traditional posture-breaking more difficult, and Crackhead Control's mechanical posture break compensates for this limitation.
+Bring the leg across the shoulder line while preserving a comfortable hip and knee angle. Set the figure-four and body angle around the head and one arm before adding any closing pressure. Apply pressure gradually with close attention to the partner's signal; never wait for visible distress or fading resistance. Release fully on any tap or verbal signal. Any loss of responsiveness ends the drill immediately.
 
-**Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] · **From**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-</section>
-
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Triangle Choke from Crackhead Control in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EhiPyX_s044)
-
-<p class="clip-credit"><strong>Eddie Bravo Rubber Guard / MIssion Control /Meathook / Triangle / Double Bag /…</strong> · 2:12 · <a href="https://www.youtube.com/watch?v=EhiPyX_s044" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
+**Starting Position**: [[Crackhead Control/Bottom]] · **From**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
+
 
 
 <section id="outcomes" class="content-section">
@@ -130,9 +93,9 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 65% |
-| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 23% |
-| Counter | [[Positions/Closed Guard]] | 12% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>
@@ -144,8 +107,8 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Maintain complete posture control throughout the transition ... | Defend the arm isolation above all else because both arms in... |
-| **Options** | 7 execution steps | 3 defensive options |
+| **Key Principles** | Two reinforcing high legs: Start from the bottom player's re... | Keep an inside arm frame before the holder creates the one-a... |
+| **Options** | 6 execution steps | 3 defensive options |
 
 </section>
 
@@ -158,51 +121,49 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 ### Key Principles
 
 
-- Maintain complete posture control throughout the transition from Crackhead Control to locked triangle, never releasing head control during leg movement
+- Two reinforcing high legs: Start from the bottom player's reinforced high guard; do not assume the starting leg connection is already a triangle choke.
 
-- Isolate the far arm across your centerline before initiating the triangle leg transition, as both arms inside the triangle creates a structurally weak choke
+- One opposing arm outside the legs: Separate the arm configuration so the head and only one arm remain in the intended triangle enclosure.
 
-- Use the shin across the face as a guide rail for the choking leg, transitioning smoothly from face control to neck compression
+- Leg across the shoulder line: Bring the leg across the shoulder line while preserving a comfortable hip and knee angle.
 
-- Cut the angle 30 degrees toward the trapped arm side immediately after locking to create proper bilateral carotid compression
+- Figure-four with a useful hip angle: Set the figure-four and body angle around the head and one arm before adding any closing pressure.
 
-- Elevate hips off the mat during the finish to generate upward pressure that compounds the leg squeeze
+- Gradual closing without a neck crank: Apply pressure gradually with close attention to the partner's signal; never wait for visible distress or fading resistance.
 
-- Treat the triangle from Crackhead Control as part of a submission chain, threatening gogoplata and omoplata to create defensive dilemmas
+- Open legs and remove neck pressure: Release fully on any tap or verbal signal. Any loss of responsiveness ends the drill immediately.
 
 
 ### Execution Steps
 
 
-- **Secure Crackhead Control**: From closed guard, walk your shin across the opponent's face while cupping the back of their head wi...
+- **Identify the high clinch**: Start from the bottom player's reinforced high guard; do not assume the starting leg connection is a...
 
-- **Isolate the far arm**: Use your free hand to push the opponent's far arm across your centerline, directing it between your ...
+- **Create the one-arm-out shape**: Separate the arm configuration so the head and only one arm remain in the intended triangle enclosur...
 
-- **Shoot the locking leg over the shoulder**: Release the shin from across their face and immediately shoot that leg over their far shoulder on th...
+- **Place the choking leg**: Bring the leg across the shoulder line while preserving a comfortable hip and knee angle....
 
-- **Lock the triangle configuration**: Bring your opposite leg up and secure the triangle by placing the back of your choking leg's knee ov...
+- **Close and align the triangle**: Set the figure-four and body angle around the head and one arm before adding any closing pressure....
 
-- **Cut the angle toward the trapped arm**: Pivot your hips approximately 30 degrees toward the side of the trapped arm. This angular adjustment...
+- **Apply controlled pressure**: Apply pressure gradually with close attention to the partner's signal; never wait for visible distre...
 
-- **Apply progressive finishing pressure**: Pull the opponent's head down with both hands clasped behind their neck while squeezing your thighs ...
-
-- **Make finishing adjustments if needed**: If the choke does not finish within 10 seconds, make targeted micro-adjustments: verify the trapped ...
+- **Release immediately**: Release fully on any tap or verbal signal. Any loss of responsiveness ends the drill immediately....
 
 
 ### Common Mistakes
 
 
-- **Failing to angle off after locking the triangle**
-  - Consequence: Creates a frontal compression that is primarily muscular and does not efficiently target the carotid arteries, resulting in a tiring squeeze the opponent can survive through good posture defense
-  - Correction: Pivot hips 30 degrees toward the trapped arm side immediately after closing the lock, creating perpendicular alignment between your legs and the opponent's neck for proper bilateral compression
+- **Skipping identify the high clinch**
+  - Consequence: The next action lacks its required control.
+  - Correction: Start from the bottom player's reinforced high guard; do not assume the starting leg connection is already a triangle choke.
 
-- **Rushing the leg transition without maintaining head control**
-  - Consequence: Opponent postures up during the brief transition window when the shin leaves their face, escaping Crackhead Control entirely and negating the setup
-  - Correction: Keep at least one hand cupping the back of the head throughout the leg transition. Release the shin only when your pulling hand has firm downward control of the head
+- **Skipping create the one-arm-out shape**
+  - Consequence: The next action lacks its required control.
+  - Correction: Separate the arm configuration so the head and only one arm remain in the intended triangle enclosure.
 
-- **Attempting the triangle without first isolating the far arm**
-  - Consequence: Both arms remain inside the triangle giving the opponent strong framing ability, posture recovery options, and the structural space to prevent proper carotid compression
-  - Correction: Always confirm one arm is across your centerline before beginning the triangle transition. The arm isolation is the single most critical prerequisite for a finishing triangle
+- **Skipping place the choking leg**
+  - Consequence: The next action lacks its required control.
+  - Correction: Bring the leg across the shoulder line while preserving a comfortable hip and knee angle.
 
 
 </section>
@@ -216,39 +177,33 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 ### Key Principles
 
 
-- Defend the arm isolation above all else because both arms inside the triangle provides strong defensive structure while one arm across creates a finishing position
+- Keep an inside arm frame before the holder creates the one-arm-out enclosure.
 
-- Recover posture the instant the shin begins to leave your face, as this brief transition window is the widest defensive opportunity available
+- Prevent the high leg from closing over the shoulder while the connection is still loose.
 
-- Stack forward rather than pull backward when caught in the triangle, since pulling away creates space for the attacker to improve angle and tighten the lock
+- Maintain safe head and shoulder alignment while addressing the leg closure.
 
-- Keep your trapped arm tight to your body rather than reaching or flailing, which only helps the attacker complete the choke configuration
+- If the triangle entry fails, recognize that the original high clinch may remain.
 
-- Maintain awareness of the attacker's hip angle because a straight-on triangle is survivable while an angled triangle compresses the carotids efficiently
-
-- Tap early and without hesitation when bilateral carotid pressure is established, as the window between discomfort and unconsciousness is narrow with blood chokes
+- When the legs release, recover posture inside the ordinary closed guard.
 
 
 ### Recognition Cues
 
 
-- The opponent's shin pressing across your face begins to lighten or shift upward, indicating they are preparing to transition it from face control to the choking leg position across the back of your neck
+- Start from the bottom player's reinforced high guard; do not assume the starting leg connection is already a triangle choke.
 
-- Your far arm is being actively pushed or pulled across the opponent's centerline while in Crackhead Control, which is the critical arm isolation step before the triangle attempt
+- Separate the arm configuration so the head and only one arm remain in the intended triangle enclosure.
 
-- The opponent's hips begin to angle or pivot while maintaining strong head control, indicating preparation for the triangle lock and angle adjustment
-
-- You feel the opponent's free hand transition from general posture control to specifically cupping the back of your head with strong downward pulling pressure
+- Bring the leg across the shoulder line while preserving a comfortable hip and knee angle.
 
 
 ### Escape Paths
 
 
-- Posture recovery through framing on opponent's hips and driving upward before the triangle lock closes, returning to Crackhead Control top
+- Keep an inside arm frame before the holder creates the one-arm-out enclosure.
 
-- Stack defense by driving forward and walking to the side to change the choking angle, eventually extracting head and arm to pass to top position
-
-- Arm extraction by rotating the trapped arm toward the lock opening while posting the other hand for base and posture
+- When the legs release, recover posture inside the ordinary closed guard.
 
 
 </section>
@@ -260,7 +215,6 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 ## From Which Positions?
 
 - [[Positions/Rubber Guard/Crackhead Control]]
-- [[Positions/Rubber Guard/Mission Control]]
 
 
 </section>
@@ -268,13 +222,11 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Gogoplata]]
-- [[Transitions/Inverted Triangle]]
-- [[Submissions/Arm in Guillotine]]
-- [[Submissions/High Elbow Guillotine]]
-- [[Positions/Rubber Guard/Crackhead Control]] - Starting position for this submission variant
-- [[Positions/Rubber Guard/Mission Control]] - Alternative rubber guard position with similar triangle access
-- [[Positions/Closed Guard]] - Base guard from which Crackhead Control is established
+- [[Submissions/Armbar]]
+- [[Submissions/Omoplata]]
+- [[Submissions/Triangle Choke]]
+- [[Positions/Rubber Guard/Crackhead Control]] - Starting configuration; establish these controls before attempting the action.
+- [[Positions/Closed Guard]] - An approved landing or reset; confirm its controls before treating the action as complete.
 
 </section>
 
@@ -286,35 +238,27 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
-| Loss of consciousness from blood choke | CRITICAL | Immediate upon release, but potential for injury if held after tap |
-| Neck strain or cervical spine stress | Medium | 3-7 days with rest |
-| Brachial plexus compression causing temporary arm numbness | Low | Minutes to hours |
+| Neck injury from excessive pressure | High | Variable; obtain qualified medical assessment if injured. |
+| Neck or knee strain during a forced escape | High | Variable; do not train through symptoms. |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to tap. NEVER spike or jerk the finish.
+**Application Speed**: Apply gradually and release immediately at any signal.
 
 **Tap Signals**:
-- Verbal tap (saying 'tap' or any distress sound)
-- Physical hand tap (multiple taps on body or mat)
-- Physical foot tap (if hands trapped)
-- Any loss of resistance or going limp
+- Hand tap
+- Foot tap when the arms are trapped
+- Verbal tap or stop
 
 
 **Release Protocol**:
-1. Immediately open legs and release triangle configuration
-2. Remove shin from neck and lower legs to mat
-3. Release arm trap and create space
-4. Check partner's consciousness and breathing
-5. If unconscious, place in recovery position and alert instructor
+1. Stop adding pressure immediately.
+2. Remove the joint or neck load before changing grips.
+3. Free the trapped limb or neck and check the partner.
 
 
 **Training Restrictions**:
-- NEVER hold triangle after tap or loss of consciousness
-- NEVER use competition finishing speed in training
-- Always ensure partner has clear tap access with at least one hand
-- Release immediately upon any tap signal
-- Monitor partner's color and breathing throughout
-- Practice finishing mechanics on cooperative partners first
+- Practice under qualified supervision with a cooperative partner.
+- Do not force the movement through pain or a restricted joint range.
 
 
 </section>

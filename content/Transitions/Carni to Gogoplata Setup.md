@@ -166,7 +166,7 @@ The new shin-under-chin enclosure prepares the Gogoplata's throat compression. I
 |--------|----------|-------------|
 | Success | [[Positions/Gogoplata Control]] | 40% |
 | Failure | [[Positions/Rubber Guard/Carni]] | 40% |
-| Counter | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>

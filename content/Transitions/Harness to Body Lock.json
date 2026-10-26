@@ -109,10 +109,6 @@
       "relationship": "Related standing back control position with similar mechanics"
     },
     {
-      "name": "Back Take",
-      "relationship": "Follow-up from body lock to re-establish full back control on the ground"
-    },
-    {
       "name": "Turtle",
       "relationship": "Position opponent may reach if transition timing is late"
     },

@@ -110,10 +110,6 @@
     {
       "name": "Closed Guard to Triangle",
       "relationship": "Setup relationship where failed triangle creates ideal Balloon Sweep loading"
-    },
-    {
-      "name": "Back Take",
-      "relationship": "Alternative transition when opponent defends sweep by turning and exposing back"
     }
   ],
   "attacker": {

@@ -297,8 +297,6 @@ The arm triangle from top is a cornerstone of the side control submission system
 
 - [[Transitions/Arm Triangle Setup]] - Related transition for establishing the head-and-arm configuration from various positions
 
-- [[Transitions/Arm Triangle Transition]] - Related transition covering the movement between positions during arm triangle sequences
-
 - [[Transitions/Arm Triangle from Front Headlock]] - Alternative entry—arm triangle setup from front headlock rather than side control
 
 - [[Submissions/Arm Triangle/from Turtle]] - Alternative entry—arm triangle catch when opponent turtles from side control

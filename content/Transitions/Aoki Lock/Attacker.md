@@ -16,7 +16,7 @@ description: "Aoki Lock (attacker): Identify the turned-out foot without forcing
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Aoki Lock in BJJ",
-  "description": "Step-by-step guide for executing Aoki Lock from Aoki Lock Control/Top.",
+  "description": "Step-by-step guide for executing Aoki Lock from Ashi Garami/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -223,7 +223,7 @@ A change from this rotated-foot capture to another leg lock is a new submission 
 
 Once the rotated foot and hip are connected, even a small bridging motion can load the lock. Keep the hips quiet in control-only rehearsal and open the enclosure before the partner changes position; this bridge applies finishing force rather than creating escape space.
 
-**From Position**: [[Positions/Aoki Lock Control]] (Top)
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -307,9 +307,9 @@ Once the rotated foot and hip are connected, even a small bridging motion can lo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Aoki Lock/from Aoki Lock Control]] | 65% |
-| Failure | [[Positions/Aoki Lock Control]] | 25% |
-| Counter | [[Positions/Open Guard]] | 10% |
+| Success | [[Positions/Aoki Lock Control]] | 40% |
+| Failure | [[Positions/Ashi Garami]] | 40% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -320,9 +320,9 @@ Once the rotated foot and hip are connected, even a small bridging motion can lo
 
 <p class="section-subtitle">How might your opponent counter Aoki Lock?</p>
 
-- **Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Identify the turned-out foot without forcing it to rotate against resistance. → Leads to [[Positions/Aoki Lock Control]]
-- **Hand fight and recover foot position before the attacker connects around the foot.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. → Leads to [[Positions/Aoki Lock Control]]
-- **Do not rotate the torso independently of a captured foot and knee.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Secure the upper-body enclosure while leaving the foot unloaded during practice. → Leads to [[Positions/Aoki Lock Control]]
+- **Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Identify the turned-out foot without forcing it to rotate against resistance. → Leads to [[Positions/Ashi Garami]]
+- **Hand fight and recover foot position before the attacker connects around the foot.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. → Leads to [[Positions/Ashi Garami]]
+- **Do not rotate the torso independently of a captured foot and knee.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Secure the upper-body enclosure while leaving the foot unloaded during practice. → Leads to [[Positions/Ashi Garami]]
 - **Create slack in the hand and hip controls before withdrawing the leg.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Use the legs and hip connection to limit free movement without twisting a planted knee. → Leads to [[Positions/Open Guard]]
 
 

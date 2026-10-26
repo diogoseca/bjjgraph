@@ -30,7 +30,16 @@ test('every available submission has one finish, owned continuations, and named 
     // (v1.210.0) then hid Spider Guard and Double Sleeve Guard in no-gi, and with them their four
     // no-gi submissions: Belly Down Armbar and Triangle Choke from Spider Guard, and the Omoplata
     // from each guard (tests/artifacts/ruleset_availability.json).
-    assert.equal(subs.length,frame==='gi'?290:255);
+    // v1.231.0: the approved panel retirements R20/R39/R41/R43 remove four gi
+    // submissions and three no-gi submissions (Kneebar from Carni was already absent
+    // in no-gi). graph-restructure-plan.md:681/687/691/695; the approved additions
+    // at :221 and :365 add Armbar from Dead Orchard Control and Carni Shoulder Lock
+    // in both frames. Every surviving/new available state must retain the SAME contract.
+    // N4 (D-429): plan:519-522 retires three Invisible Collar submissions;
+    // N4 numbers:480-488,792-800 add the Buggy finish and Invisible Collar Choke.
+    // Cross Collar becomes gi-only (:782-790). Net states: gi -1, no-gi 0;
+    // keep the complete finish/continuation/defense contract on both frames.
+    assert.equal(subs.length,frame==='gi'?287:254);
     for(const s of subs) {
       a.currentPos=s.idx; a.playerRole=s.fromRole;
       const own=a.optionsFor(s.idx);
@@ -57,6 +66,8 @@ test('every available submission has one finish, owned continuations, and named 
       assert.deepEqual(threats.map(o=>o.label),defenses.map(o=>o.label),s.t);
       assert.ok(threats.every(o=>o.threat && o.actor==='opponent'));
     }
+    assert.ok(subs.length>0,`${frame}: available submission coverage must be positive`);
+    console.log(`[submission-states] ${frame}: ${subs.length} available submissions exercised`);
   }
 });
 

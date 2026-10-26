@@ -257,7 +257,7 @@ As the high legs lower, use a small hip escape behind an inside arm to return th
 ### 2. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Back Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -289,7 +289,7 @@ As the high legs lower, use a small hip escape behind an inside arm to return th
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Establish the first high leg and its hand support before adding the second leg.
 
-### → [[Positions/Back Control]]
+### → [[Positions/Rubber Guard/Mission Control]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 

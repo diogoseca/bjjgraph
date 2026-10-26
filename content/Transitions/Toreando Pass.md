@@ -100,6 +100,8 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 
 The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.
 
+Entry against inversion: Neutralize obstructing grips before securing both legs; release one hand deliberately if another grip must be stripped. Control the outside of the knees or trouser fabric, redirect the elevated legs laterally, and circle the other way before the guard player tracks your hips. Clear the knees and consolidate torso control. Keep fingers outside trouser openings.
+
 **From Position**: [[Positions/Open Guard]] (Top)
 **Success Rate**: 42%
 
@@ -287,6 +289,9 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 **Floating Toreando**: Execute the Toreando motion while remaining more upright and mobile, using multiple smaller steps rather than one large lateral step. This creates a more dynamic, flowing pass that can adjust mid-movement based on opponent's reactions. (When to use: Against highly mobile guard players who excel at following single directional movements. The floating variation allows you to change directions mid-pass)
 
 
+**Entry against inversion**: Neutralize obstructing grips before securing both legs; release one hand deliberately if another grip must be stripped. Control the outside of the knees or trouser fabric, redirect the elevated legs laterally, and circle the other way before the guard player tracks your hips. Clear the knees and consolidate torso control. Keep fingers outside trouser openings. (When to use: Against the shoulder-supported inversion described in Inverted Guard.)
+
+
 
 </section>
 
@@ -340,7 +345,7 @@ The Toreando Pass serves as a cornerstone technique in modern guard passing syst
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference: Toreando Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Toreando Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

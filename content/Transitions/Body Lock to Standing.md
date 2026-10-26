@@ -253,8 +253,6 @@ The Body Lock to Standing transition occupies a unique position within the broad
 
 - [[Transitions/Body Lock Pass]] - Ground passing alternative when body lock is maintained as opponent sits to guard
 
-- [[Transitions/Back Take]] - Highest-value alternative attack from body lock position instead of disengaging
-
 - [[Transitions/Body Lock Takedown from Clinch]] - Related clinch-to-takedown technique within the body lock offensive system
 
 

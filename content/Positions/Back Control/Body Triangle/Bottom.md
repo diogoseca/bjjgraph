@@ -21,37 +21,37 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Clear to Side",
-      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Escape to Side Control",
-      "text": "From this position, attempt Body Triangle Escape to Side Control. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Body Triangle Escape to Side Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Escape to Half Guard",
-      "text": "From this position, attempt Body Triangle Escape to Half Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Body Triangle Escape to Half Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Back Door Escape",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -421,7 +421,7 @@ Partner maintains body triangle while you focus exclusively on optimal defensive
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni: Turtle Breakdowns and Back Attacks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

@@ -293,8 +293,6 @@ The omoplata to back transition occupies a critical node in modern bottom guard 
 
 - [[Submissions/Rear Naked Choke]] - Primary submission threat from the resulting back control position
 
-- [[Transitions/Back Take]] - Broader category of back-taking techniques this transition belongs to
-
 - [[Transitions/Armbar from Back Transition]] - Follow-up arm attack available from the resulting back control position
 
 - [[Submissions/Baratoplata]] - Advanced shoulder lock variation that shares rolling mechanics with this transition

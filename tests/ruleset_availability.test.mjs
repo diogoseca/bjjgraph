@@ -318,11 +318,12 @@ test("the opponent is bound by the same garment you are", () => {
 // ── 4: THE STANDING GUARD AGAINST P3a ───────────────────────────────────────────────────────
 
 test("availability is never decided by a name", () => {
-  // The exact row the near-miss was about: the position is named "Invisible Collar", so every
-  // collar/lapel/sleeve name sweep flags it — and it is the canonical no-gi strangle. If anyone
-  // reintroduces a name heuristic, this goes red and names the node it killed.
+  // N4 (D-429) retires the rear-naked-choke route from this facing guard:
+  // graph-restructure-plan.md:522; the approved no-gi strangle is now Invisible
+  // Collar Choke (restructure-numbers-n4.md:792-800). Its misleading garment name
+  // must still be allowed by data, so the same name-heuristic mutant stays red.
   const NAME_SWEEP = /collar|sleeve|lapel|spider|lasso|worm|loop |bow and arrow|ezekiel|cross choke|judo|gi tail|pant/i;
-  const rnc = NOGI.nodes.find((n) => n.rep && /^Rear Naked Choke from Invisible Collar$/i.test(n.t || ""));
+  const rnc = NOGI.nodes.find((n) => n.rep && /^Invisible Collar Choke$/i.test(n.t || ""));
   assert.ok(rnc, "fixture node missing from the corpus — this test cannot fail correctly without it");
   assert.ok(NAME_SWEEP.test(rnc.t), "the fixture must be one a name matcher WOULD flag, or it proves nothing");
   assert.equal(NOGI.rsAllows(rnc), true, "a name matcher has been reintroduced: the canonical no-gi choke was removed from no-gi");

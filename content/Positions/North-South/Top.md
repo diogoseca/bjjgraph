@@ -21,31 +21,31 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke from North-South",
-      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
-      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 21% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from North-South",
-      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
@@ -380,7 +380,7 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: North-South.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: North-South.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie: Closed Guard</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura — Enter The System</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak: Outside Passing and Finishing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

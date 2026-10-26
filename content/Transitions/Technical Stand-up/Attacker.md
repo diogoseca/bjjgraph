@@ -27,7 +27,7 @@ description: "How to execute Technical Stand-up in BJJ. Attacking perspective wi
     {
       "@type": "HowToStep",
       "name": "Post hand behind hip",
-      "text": "Place your posting hand (same side as trail leg) flat on the mat approximately 12-18 inches behind and slightly to the side of your hip. Fingers should point away from your body at roughly 45 degrees. This hand becomes one point of your tripod base. Keep elbow locked and shoulder engaged to support your weight.",
+      "text": "Post one hand behind the hip and the opposite foot on the mat. Keep the supporting shoulder active and the elbow supported without forcing it into hyperextension. Retain the other leg as a barrier until you can withdraw it to stand.",
       "position": 2
     },
     {
@@ -203,6 +203,8 @@ The technique is particularly valuable in self-defense scenarios, scrambles, and
 
 Mastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.
 
+Release the inverted hooks, uncurl through the hips into a seated base, and post a hand and the opposite foot. Lift the hips, withdraw the free leg, and stand while maintaining distance. The completed finish is Standing Position/Top; a failed uncurling stays in Inverted Guard/Bottom.
+
 **From Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
@@ -267,7 +269,7 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 <p class="section-subtitle">How do you execute Technical Stand-up step by step?</p>
 
 1. **Establish seated base**: From seated guard or bottom position, sit up with back straight and hands ready. Your lead leg (typically the leg closest to opponent) should have foot flat on mat with knee up, creating a barrier. Your trail leg can be bent or extended depending on distance to opponent.
-2. **Post hand behind hip**: Place your posting hand (same side as trail leg) flat on the mat approximately 12-18 inches behind and slightly to the side of your hip. Fingers should point away from your body at roughly 45 degrees. This hand becomes one point of your tripod base. Keep elbow locked and shoulder engaged to support your weight.
+2. **Post hand behind hip**: Post one hand behind the hip and the opposite foot on the mat. Keep the supporting shoulder active and the elbow supported without forcing it into hyperextension. Retain the other leg as a barrier until you can withdraw it to stand.
 3. **Elevate hips off mat**: Drive through your posting hand and lead leg simultaneously to lift your hips completely off the mat. Your weight is now distributed across three points: posting hand, lead leg foot, and trail leg foot. Your hips should rise high enough that your glutes are well clear of the mat, creating maximum distance from opponent.
 4. **Swing trail leg through**: While maintaining elevated hip position, swing your trail leg (the leg on the posting hand side) backward and underneath your body. The foot should come through and plant firmly on the mat behind you, creating a strong base. This movement resembles swinging your leg under you to prepare for standing.
 5. **Transfer weight to feet**: As your trail leg plants, begin shifting your weight from the posting hand to both feet. You should now be in a position similar to a sprinter's stance with one foot forward (lead leg) and one back (trail leg), hands ready to defend. Your posting hand can now lift off the mat as your feet bear full weight.

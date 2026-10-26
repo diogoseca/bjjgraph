@@ -247,8 +247,6 @@ The arm triangle from front headlock is a critical second-layer attack in the fr
 
 - [[Transitions/Arm Triangle Setup]] - Related transition - alternative entry to arm triangle from north-south position
 
-- [[Transitions/Arm Triangle Transition]] - Related transition - arm triangle configuration change from hindulotine
-
 - [[Transitions/Front Headlock to Darce]] - Chain attack - alternative front headlock submission when arm triangle is defended
 
 - [[Transitions/Guillotine Setup]] - Primary threat - guillotine defense often creates the opening for arm triangle

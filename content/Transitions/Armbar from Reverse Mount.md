@@ -247,8 +247,6 @@ The armbar from reverse mount occupies a critical node in the reverse mount deci
 
 - [[Submissions/Armbar/from Armbar Control]] - Follow-up submission finish from armbar control to complete the submission
 
-- [[Transitions/Back Take]] - Primary alternative transition from reverse mount creating dilemma system
-
 - [[Positions/Closed Guard]] - Counter outcome position when opponent successfully reguards
 
 - [[Positions/Mount]] - Related dominant position and primary alternative conversion from reverse mount

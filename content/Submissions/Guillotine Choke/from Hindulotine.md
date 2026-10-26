@@ -102,7 +102,7 @@ description: "Guillotine Choke from Hindulotine changes the neck enclosure. Clea
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Front neck enclosure</span>
 <span class="meta-chip">Targets Neck</span>
-<span class="meta-chip">34% success</span>
+<span class="meta-chip">30% success</span>
 </div>
 
 > [!danger] Safety
@@ -125,7 +125,7 @@ Use slow enclosure practice and avoid cervical extension or twisting. Open the h
 
 Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control](https://www.grapplearts.com/guillotine-choke/); [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc).
 
-**Starting Position**: [[Positions/Hindulotine]] · **From**: [[Positions/Hindulotine]] (Top)
+**Starting Position**: [[Hindulotine/Bottom]] · **From**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -171,9 +171,9 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 62% |
-| Failure | [[Positions/Hindulotine]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Hindulotine]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>

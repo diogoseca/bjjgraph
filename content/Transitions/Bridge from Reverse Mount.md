@@ -257,8 +257,6 @@ The Bridge from Reverse Mount is a critical connector between the reverse mount 
 
 - [[Transitions/Armbar from Reverse Mount]] - Submission threat - primary danger motivating urgency of bridge escape from reverse mount bottom
 
-- [[Transitions/Back Take]] - Opponent counter option - primary threat the top player uses during bridge transition to advance position
-
 - [[Positions/Mount]] - Position family - reverse mount is a variant with different escape dynamics requiring adapted bridging angles
 
 - [[Positions/Half Guard]] - Alternative escape target - bridge variant may create sufficient space to recover half guard directly

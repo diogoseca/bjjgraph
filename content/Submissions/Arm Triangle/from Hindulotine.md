@@ -102,7 +102,7 @@ description: "Arm Triangle from Hindulotine requires a new head-and-arm enclosur
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Head-and-arm choke</span>
 <span class="meta-chip">Targets Sides of the neck</span>
-<span class="meta-chip">32% success</span>
+<span class="meta-chip">25% success</span>
 </div>
 
 > [!danger] Safety
@@ -125,7 +125,7 @@ Use positional closure rather than a neck crank, practice the control without pr
 
 Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](https://www.grapplearts.com/how-to-do-the-head-and-arm-choke-aka-kata-gatame/); [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc).
 
-**Starting Position**: [[Positions/Hindulotine]] · **From**: [[Positions/Hindulotine]] (Top)
+**Starting Position**: [[Hindulotine/Bottom]] · **From**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -171,9 +171,9 @@ Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](ht
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 62% |
-| Failure | [[Positions/Hindulotine]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Success | [[game-over]] | 25% |
+| Failure | [[Positions/Hindulotine]] | 50% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>

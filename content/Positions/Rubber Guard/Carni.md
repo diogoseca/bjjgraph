@@ -185,7 +185,7 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
 | **Position Type** | Offensive/Controlling | Defensive |
-| **Risk Level** | Medium | High |
+| **Risk Level** | High | High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
@@ -221,13 +221,11 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 ### Available Transitions
 
 
-- **[[Submissions/Heel Hook/from Carni/Attacker|Heel Hook from Carni]]** (45% of attempts)
+- **[[Submissions/Carni Shoulder Lock/Attacker|Carni Shoulder Lock]]** (50% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (21% of attempts)
+- **[[Transitions/Carni Release to Guard/Attacker|Carni Release to Guard]]** (35% of attempts)
 
-- **[[Submissions/Calf Slicer/from Carni/Attacker|Calf Slicer from Carni]]** (18% of attempts)
-
-- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (16% of attempts)
+- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -282,13 +280,7 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (29% of attempts)
-
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (28% of attempts)
-
-- **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** (23% of attempts)
-
-- **[[Transitions/Stack Pass from Carni/Attacker|Stack Pass from Carni]]** (20% of attempts)
+- **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** (100% of attempts)
 
 
 ### Common Mistakes
