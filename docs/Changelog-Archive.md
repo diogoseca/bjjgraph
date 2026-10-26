@@ -12540,3 +12540,36 @@ Its cancellation companion requires the deferred repaint to flush without openin
 The older reading-mode failure was the Back case's outgoing-reader/replacement-app identity
 boundary. Its current replacementReadingSnapshot and held-HTML/graph cases already cover that
 premise; both variants passed ten repeats per build kind. No reading-mode code changed here.
+
+## v1.232.0 — D-433 covered-card host finding (26 October 2026)
+
+The first host run passed emits, the no-growth guard, APP reseed, units, CI, its own
+keyless build, payload and analytics. Deferred raw was 506,757 B against base
+506,813 B (−56 B, entirely reader.js: 40,658 → 40,602). Focused journeys were
+6 passed / 1 failed; the short-phone combined question+Moves height was 592.25 px against a 439 px reader budget. Later gates did not run.
+
+A separate immutable host diagnostic measured all three viewports and checked its
+inputs before/after. At 390×631 and 390×844, the band was 144 px, the covered and
+opened question both 352.25 px, the answer area 258.6875 px, and native Moves
+224 px. The short-screen collapse rule lost to the MC block's inline display:flex.
+Adding !important alone made the cover 153.5625 px with a 60 px stage, but Reveal
+still began at y552.5625 below the short reader's y541 end: the reader's inline
+absolute placement at y478 was a second real defect under D-433. At 390×844,
+Reveal was reachable but the third opened answer was clipped. Desktop targets fit.
+
+D-433 adapts D-370 to U35: phone Reveal on arrival and every opened answer must
+be hit-testable without scrolling or an automatic scroll writer. Native Moves
+remain separate, unchanged and untimed, but need not fit with the question.
+The phone catch therefore places its question before Moves, with an 80 px band
+below 700 px viewport height (144 px on the taller phone). The band holds through
+the pick and returns to 186 px at its result. Normal card padding, text, targets,
+account reserve and native escape handoff remain checked. The collapse now wins
+the inline cascade. The former combined-height phone oracle is replaced with
+actual clipped-reader hit tests, scroll-write detection and a named collapse check;
+desktop retains the stronger combined-height check. The U16 phone order/band
+premises are migrated explicitly; their other claims remain.
+
+V2 also shares numeric CSS unit conversion within the existing guarded reader
+style writer and reuses its deck predicate to pay for the layout additions.
+Its emitted byte delta and runtime gates are pending the immutable host run;
+no payload baseline or ceiling has moved. The v1 runner, bundle and results remain.

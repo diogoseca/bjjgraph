@@ -248,9 +248,9 @@
   .ng-question-reveal small{font-size:11px;font-weight:500;line-height:16px;color:#9eacc4;white-space:nowrap;}
   .ng-question-reveal:focus-visible{outline:2px solid #b7caff;outline-offset:3px;}
   @media(max-width:640px){.ng-land-deck [data-panic-mc-opt]{padding-top:5px!important;padding-bottom:5px!important;min-height:44px;}}
-  /* The short phone keeps the untouched Moves and invitation together; answers
-     expand in the native reader only after the player asks for them. */
-  @media(max-height:700px){[data-question-covered]>[inert]{display:none;}.ng-landcard.ng-land-deck:has([data-question-covered]){min-height:0!important;}}
+  /* D-433: MC and recall set display inline. Collapse must win that cascade.
+     The reader places the phone catch question first; Moves stay untimed. */
+  @media(max-height:700px){[data-question-covered]>[inert]{display:none!important;}.ng-landcard.ng-land-deck:has([data-question-covered]){min-height:0!important;}}
 
   /* ══ THE OUTCOME LANDS ON YOUR CARDS (v1.218.0) — app.src.jsx `_outcome` / `_cardHit`. ══
      Root plane z:16, the ambient-fx band. Every layer is pointer-events:none, the whole subtree

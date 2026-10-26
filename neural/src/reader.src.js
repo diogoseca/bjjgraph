@@ -938,6 +938,9 @@ class Reader {
     if (!this.dock || this.app.__ngDestroyed || this.app._readerPress || this.laying) return;
     this.laying = true;
     const style = (el, key, value, priority = "") => {
+      // One numeric-to-px boundary keeps all geometry writes and their equality
+      // guard identical, without repeating the unit conversion at every call.
+      if (typeof value === "number") value += "px";
       const old = el.style.getPropertyValue(key);
       const same = old === value || old.endsWith("px") && value.endsWith("px") && Math.abs(parseFloat(old) - parseFloat(value)) < 1 / 64;
       if (!same || el.style.getPropertyPriority(key) !== priority) el.style.setProperty(key, value, priority);
@@ -945,8 +948,8 @@ class Reader {
     try {
       const a = this.app, H = window.innerHeight, W = window.innerWidth, free = a._paneLayout();
       const width = Math.max(240, Math.min(680, free.width - 24));
-      style(this.dock, "left", free.center + "px"); style(this.dock, "max-width", Math.min(width, W - 16) + "px");
-      style(this.dock, "bottom", a._readerShelfBottom(this.dock.getBoundingClientRect()) + "px");
+      style(this.dock, "left", free.center); style(this.dock, "max-width", Math.min(width, W - 16));
+      style(this.dock, "bottom", a._readerShelfBottom(this.dock.getBoundingClientRect()));
       const head = this.head, available = this.on("book");
       const reference = REFERENCE.test(this.path);
       const ownTop = Math.max(68, (a.wrapRef.current.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12);
@@ -972,19 +975,19 @@ class Reader {
         }
       }
       this.chromeActive = !!chrome;
-      // U16 b (owner, 2026-10-24): only the live catch band shrinks. The account and card retain
-      // their usual space; this marker follows the same predicate through the pick and result.
+      // D-433 adapts D-370 to U35: the live phone catch question must be reachable
+      // before/after Reveal without scrolling. Account and native Moves retain their space.
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
       const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
         ? H - a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 }) - 8
         : this.dock.getBoundingClientRect().top - 8;
-      for (const [key, value] of Object.entries({ left: "0px", top: top + "px", width: W + "px", height: Math.max(80, end - top) + "px" })) style(this.root, key, value);
+      for (const [key, value] of Object.entries({ left: 0, top, width: W, height: Math.max(80, end - top) })) style(this.root, key, value);
       this.articleEl.hidden = !available;
       // Contents never participates in the column's width or centre calculation.
-      style(this.articleEl, "width", Math.min(680, free.width - 24) + "px");
-      style(this.articleEl, "margin-left", Math.max(12, free.center - parseFloat(this.articleEl.style.width) / 2) + "px");
+      style(this.articleEl, "width", Math.min(680, free.width - 24));
+      style(this.articleEl, "margin-left", Math.max(12, free.center - parseFloat(this.articleEl.style.width) / 2));
       // U9 b (owner, 2026-10-21): the index sits on the LEFT, 24px inside the free area (the inset it had on the right).
       const lead = free.left + 24;
       const tocWidth = this.contents ? parseFloat(getComputedStyle(this.contents).width) : 200;
@@ -996,7 +999,7 @@ class Reader {
       if (this.contents) {
         this.contents.hidden = !available || this.root.dataset.readerReady !== "true" || !fits;
         this.root.toggleAttribute("data-indexed", !this.contents.hidden);
-        for (const [key, value] of Object.entries({ left: lead + "px", right: "auto", top: top + "px", "max-height": Math.max(44, end - top) + "px" })) style(this.contents, key, value);
+        for (const [key, value] of Object.entries({ left: lead, right: "auto", top, "max-height": Math.max(44, end - top) })) style(this.contents, key, value);
       }
       this.root.toggleAttribute("data-reference", reference);
       this.root.hidden = !available && reference;
@@ -1005,6 +1008,7 @@ class Reader {
       const band = this.nodeBand?.height || 0;
       if (reference) { this.restoreGame(); this.syncIndex(); return; }
       const card = a._landEl, row = a.optionsRef.current, showCard = card && this.on("card"), showHand = row && a._handShown();
+      const deck = !!card?.classList.contains("ng-land-deck");
       // D-351: _readerHold keeps a landing's card and hand unpublished until the article it asked
       // for renders (800ms at most). Parts the ceiling publishes are pinned (_readerPin), and the
       // Videos lift and the film's move wait until they settle: a late article used to move live
@@ -1038,7 +1042,7 @@ class Reader {
       // Keep the node-band reservation through navigation. A new card can be
       // adopted before its article arrives; resetting here would jump it to 64px.
       if (this.gameTop == null && oldTop > 0) this.gameTop = Math.max(64, oldTop - ownTop);
-      const gap = showCard && showHand ? card.classList.contains("ng-land-deck") ? 16 : a.isMobile() ? 8 : 12 : 0;
+      const gap = showCard && showHand ? deck ? 16 : a.isMobile() ? 8 : 12 : 0;
       // D-352 S2: a pinned landing keeps the media home it was pinned with, its film and its height:
       // any other film (a late chunk's, measuring 0 before its thumbnails load) waits hidden until
       // the parts settle, so nothing opens above or over the pinned rows.
@@ -1053,15 +1057,15 @@ class Reader {
       }
       let start = Math.max(6, showCard || showHand || homeMedia ? this.gameTop ?? 64 : 0);
       if (chrome) start += chrome.offset;
-      // Adopt the hand first: the DOM, and so the Tab order, reads Moves before Questions.
+      // Adopt the existing controls; the phone catch branch below also aligns Tab order.
       moved(row, "hand"); moved(card, "card");
       const position = (el, x, y, w) => {
-        for (const [key, value] of Object.entries({ position: "absolute", left: x + "px", right: "auto", top: y + "px", bottom: "auto" })) style(el, key, value, "important");
+        for (const [key, value] of Object.entries({ position: "absolute", left: x, right: "auto", top: y, bottom: "auto" })) style(el, key, value, "important");
         // Inspect owns the hand's horizontal animation. Clearing its transform
         // here exposes the closing row before its overflow/scroll is restored;
         // a following execution then inherits a different rectangle.
         if (el !== row) style(el, "transform", "none", "important");
-        if (w != null) style(el, "width", w + "px", "important");
+        if (w != null) style(el, "width", w, "important");
       };
       // Book keeps a stable, scrollable node reservation. Tall questions grow
       // downward instead of squeezing that reservation or moving live answers.
@@ -1072,15 +1076,14 @@ class Reader {
       if (this.mediaHome.hidden !== !homeMedia) this.mediaHome.hidden = !homeMedia;
       // D-368 (layout C): the Videos section is no longer lifted above the hand. Its current card sits in the
       // game's stage (above), and its credits read with the article; its toggle still governs the card.
-      const deck = !!card?.classList.contains("ng-land-deck");
       // Keep the deck's 44px outside arrows plus 8px clearance. The left arrow
       // lives in the 60px media gap; the right arrow also fits inside the pane.
       const beside = homeMedia && showCard && free.width >= 400 + 60 + 390 + 52 && H > 500;
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (this.game.dataset.mediaLayout !== mediaLayout) this.game.dataset.mediaLayout = mediaLayout;
-      if (card) style(card, "width", Math.min(beside ? 390 : deck ? 560 : 520, free.width - (deck && !beside ? 104 : 32)) + "px", "important");
+      if (card) style(card, "width", Math.min(beside ? 390 : deck ? 560 : 520, free.width - (deck && !beside ? 104 : 32)), "important");
       const mediaWidth = Math.min(400, free.width - 32), cardWidth = card?.getBoundingClientRect().width || 0;
-      style(this.mediaHome, "width", mediaWidth + "px", "important");
+      style(this.mediaHome, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
       // phone). Measuring the shared host keeps its future renderer independent.
       // D-353: a film in the media home is observed like the Videos card, so its growth (a played
@@ -1112,10 +1115,14 @@ class Reader {
           if (!label("hand").hidden) { position(label("hand"), left, y, width); y += label("hand").getBoundingClientRect().height + step; }
           else y = rowTop + (handoff?.rowHeight ?? handHeight) + step;
         };
-        // U16 b (owner, 2026-10-24): keep the usual layout C order in a live phone catch.
-        // Only the band shrinks; answers may require reader scroll. D-369 question-first is retired.
+        // D-433 (2026-10-26), D-370 adapted to U35: Reveal and all opened answers
+        // must be reachable on arrival, with no scroll writer. The SAME untimed
+        // Moves row follows the phone question; all other landings keep layout C.
+        // Keep DOM/Tab order aligned too, restoring it on a desktop resize.
         const caught = a._landMode === "defense" && !!a._defensePressure;
-        placeHand();
+        const questionFirst = phoneCatch && showCard && row;
+        if (questionFirst) { if (card.nextSibling !== row) row.before(card); }
+        else { if (card?.nextSibling === row) row.after(card); placeHand(); }
         // D-368 (layout C): the stage after Moves. On a desktop the current card sits 60px beside the
         // question (400 + 60 + 390, the approved A geometry), tops aligned so the question stays high; stacked
         // it sits above the question, except in a catch, where it follows the answers so they stay on screen.
@@ -1128,6 +1135,7 @@ class Reader {
         // The deck's backs peek 3px per remaining card below the face; the article clears them.
         if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);
         else if (!label("card").hidden) { position(label("card"), left, y, width); y += label("card").getBoundingClientRect().height; }
+        if (questionFirst) { y += step; placeHand(); y -= step; }
         if (follows) { y += step; position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
         else if (homeMedia && !showCard) { position(this.mediaHome, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
         gameHeight = Math.max(handoff?.height ?? 0, y);
@@ -1144,16 +1152,16 @@ class Reader {
         gameHeight = handoff?.height ?? rowTop + handHeight;
       }
       for (const [el, key] of [[a._landStackEl, "stack"], [a._landNavEl, "nav"]]) {
-        if (el && card) { moved(el, key); position(el, cardX, cardY, cardWidth); style(el, "height", cardHeight + "px"); }
+        if (el && card) { moved(el, key); position(el, cardX, cardY, cardWidth); style(el, "height", cardHeight); }
       }
       if (a._landNavEl && showCard) {
         // Long answers keep their outside arrows beside the visible face.
         const cardTop = top + cardY - this.root.scrollTop;
         const middle = (Math.max(top, cardTop) + Math.min(end, cardTop + cardHeight)) / 2 - cardTop;
-        style(a._landNavEl, "--guide-y", Math.max(22, Math.min(cardHeight - 22, middle)) + "px");
+        style(a._landNavEl, "--guide-y", Math.max(22, Math.min(cardHeight - 22, middle)));
       }
-      style(this.game, "height", gameHeight + "px");
-      style(this.articleEl, "margin-top", "6px");
+      style(this.game, "height", gameHeight);
+      style(this.articleEl, "margin-top", 6);
       this.trayBottom = H - end + 12 + Math.min(128, H * .15);
       this.cardBottom = this.trayBottom;
       // Publication is the last write, after the actual controls and their

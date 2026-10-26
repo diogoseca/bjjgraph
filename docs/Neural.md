@@ -339,6 +339,12 @@ catch question's answer area. Hidden answers are inert to mouse and keyboard. Co
 to the cached card: paging back preserves both its open state and remaining time; a fresh card
 is covered again. On short screens the invitation collapses the answer area; opening expands
 it into the native reader. Phone catch answers use 5px top/bottom padding instead of 9px.
+D-433 (D-370 adapted to U35, 2026-10-26): the live phone catch puts the question before
+the same native Moves row. Reveal on arrival and every opened answer must be hit-testable
+without scrolling or an automatic scroll writer, at 390×844 and 390×631. The live band
+is 144px on the taller phone and 80px below 700px viewport height; it holds through the
+pick and returns to the normal 186px at the result. Account, typography and target sizes
+stay unchanged. Moves may require user scrolling; they remain separate and untimed.
 
 Standing owner rule: question cards, MC and flashcards contain no technique video, poster,
 Watch control or next-video step. Video belongs to the video card or Videos section. The

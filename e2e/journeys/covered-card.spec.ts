@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test'
 import { journey } from '../dsl'
 import { coveredCatch, coveredRolls } from '../fixtures/covered-card'
+import { questionGeometry, watchQuestionScroll, stopQuestionScroll } from '../fixtures/question-geometry'
 
 // U34–U37, owner 26 October 2026. The media assertion uses real authored
 // dossiers and every production question builder, including dormant node MC.
@@ -64,17 +65,32 @@ for (const width of [1440, 390]) {
   })
 }
 
+// D-433 (2026-10-26): D-370 adapted to U35 replaces v1's overstrict combined
+// question+Moves fit premise. Reveal on arrival and EVERY opened answer must be
+// hit-testable without scrolling. Moves may need user scroll; their subtree,
+// dimensions, untimed lifetime and real escape after expiry remain guarded.
 for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 390, height: 631 }]) {
-  test(`@curated U35 covered catch fits with native untimed Moves (${viewport.width}x${viewport.height})`, async ({ page }) => {
+  test(`@curated U35 D-433 Reveal and answers need no scroll; native Moves stay untimed (${viewport.width}x${viewport.height})`, async ({ page }, info) => {
     await page.setViewportSize(viewport)
     const j = await coveredCatch(page)
-    const fit = await page.evaluate(() => {
-      const a = (window as any).__neural, r = a._reader.root.getBoundingClientRect()
-      const hand = a.optionsRef.current.getBoundingClientRect(), card = a._landEl.getBoundingClientRect()
-      return { span: Math.max(hand.bottom, card.bottom) - Math.min(hand.top, card.top),
-        available: Math.min(innerHeight, r.bottom) - Math.max(0, r.top) - 24 }
-    })
-    expect(fit.span, 'covered question plus native Moves fits with the original 12px edge margins').toBeLessThanOrEqual(fit.available)
+    await watchQuestionScroll(page)
+    const covered = await questionGeometry(page)
+    await info.attach('covered-arrival-geometry', { body: JSON.stringify(covered, null, 2), contentType: 'application/json' })
+    expect(covered.scrollTop, 'D-433 arrival has no reader scroll').toBe(0)
+    expect(covered.reveal, 'D-433 Reveal is hit-testable on arrival without scrolling').toMatchObject({ hit: true, inside: true })
+    expect(covered.reveal!.opacity).toBeGreaterThan(.05)
+    expect(covered.reveal!.rect.width).toBeGreaterThanOrEqual(44)
+    expect(covered.reveal!.rect.height).toBeGreaterThanOrEqual(44)
+    expect(covered.card.height, 'the covered question retains the original 12px edge-margin fit budget').toBeLessThanOrEqual(covered.bounds.bottom - covered.bounds.top - 24)
+    if (viewport.height < 700) {
+      expect(covered.answerBlock, 'D-433 short cover actually collapses the inline answer block').toMatchObject({ display: 'none', height: 0, inert: true })
+      expect(covered.stage.height, 'D-433 short cover reserves only its 60px Reveal target').toBe(60)
+    }
+    if (viewport.width > 640) {
+      // Desktop keeps the original, stronger combined-height claim too.
+      expect(Math.max(covered.moves.bottom, covered.card.bottom) - Math.min(covered.moves.top, covered.card.top),
+        'desktop covered question plus native Moves fits with the original 12px edge margins').toBeLessThanOrEqual(covered.bounds.bottom - covered.bounds.top - 24)
+    }
     await j.engage()
     await j.advance(20000)
     expect((await state(page)).remaining).toBeNull()
@@ -83,7 +99,28 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
       ;(window as any).__coveredHand = { el: a.optionsRef.current, parent: a.optionsRef.current.parentNode,
         cards: [...a.optionsRef.current.querySelectorAll('[data-tech]')], html: a.optionsRef.current.innerHTML }
     })
-    await j.openQuestion()
+    // Deliberately NOT openQuestion()/locator.click(): those helpers can scroll.
+    await j.clickByMouse('[data-question-reveal]', 'D-433 Reveal at the arrival position')
+    await expect(page.locator('[data-question-reveal]')).toHaveCount(0)
+    await j.readerLayoutSettled()
+    const opened = await questionGeometry(page)
+    const scroll = await stopQuestionScroll(page)
+    await info.attach('opened-geometry-and-scroll-writers', { body: JSON.stringify({ opened, scroll }, null, 2), contentType: 'application/json' })
+    expect(scroll.writes, 'D-433 no automatic scroll writer through Reveal').toEqual([])
+    expect(scroll.after).toBe(scroll.before)
+    expect(scroll.pageAfter).toBe(scroll.pageBefore)
+    expect(scroll.events.every(value => value === scroll.before), 'D-433 no browser scroll anchoring through Reveal').toBe(true)
+    expect(opened.answers).toHaveLength(3)
+    for (const answer of opened.answers) {
+      expect(answer, 'D-433 every revealed answer is hit-testable without scrolling').toMatchObject({ inside: true, hit: true })
+      expect(answer.opacity).toBeGreaterThan(.05)
+      expect(answer.rect.height, 'the native answer keeps its 44px target').toBeGreaterThanOrEqual(44)
+      expect(answer.rect.width).toBeGreaterThanOrEqual(44)
+      expect(answer.bottomMargin, 'D-370 answer clearance survives U35').toBeGreaterThanOrEqual(8)
+      expect(answer.fontSize, 'answer typography is unchanged').toBe('12px')
+    }
+    expect(opened.card.height, 'the opened question retains the original 12px edge-margin fit budget').toBeLessThanOrEqual(opened.bounds.bottom - opened.bounds.top - 24)
+    expect(opened.answerBlock).toMatchObject({ display: 'flex', visibility: 'visible', inert: false })
     expect((await state(page)).remaining).toBeGreaterThan(0)
     const hand = await page.evaluate(() => {
       const a = (window as any).__neural, h = (window as any).__coveredHand
@@ -92,7 +129,16 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
         outside: !a._landEl.contains(h.el), covered: !!h.el.closest('[data-question-covered]') }
     })
     expect(hand, 'Reveal leaves the separate native Moves subtree untouched').toEqual({ same: true, parent: true, cards: true, html: true, outside: true, covered: false })
-    // Even a question timeout cannot take the player's escape away.
+    expect([opened.moves.width, opened.moves.height], 'Reveal does not resize native Moves').toEqual([covered.moves.width, covered.moves.height])
+    if (viewport.width <= 640) {
+      expect(opened.moves.top - opened.card.bottom, 'D-433 separate Moves follows the phone question without overlap').toBeGreaterThanOrEqual(16)
+      expect(await page.evaluate(() => {
+        const a = (window as any).__neural
+        return !!(a._landEl.compareDocumentPosition(a.optionsRef.current) & Node.DOCUMENT_POSITION_FOLLOWING)
+      }), 'phone Tab order follows the visible question then Moves').toBe(true)
+    }
+    // Even a question timeout cannot take the player's escape away. Only this
+    // explicit user-scroll phase may move the reader; the no-scroll audit ended.
     await j.advance(20000)
     const escape = '.ng-choice-title-button'
     await page.locator(escape).first().scrollIntoViewIfNeeded()

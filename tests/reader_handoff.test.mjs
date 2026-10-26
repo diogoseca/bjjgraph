@@ -189,21 +189,24 @@ test("Book reserves its node band, with no part header, without changing an exec
   assert.equal(parseFloat(f.r.game.style.height), snapshot.height);
 });
 
-// U16 b (owner, 2026-10-24): the live catch keeps Moves first and shrinks only its band.
-test("a live phone catch keeps the usual row order and the band survives the pick until its result", () => {
+// D-433 (2026-10-26), D-370 adapted to U35: question-first lets the phone
+// reveal/answer without scrolling. Native handoff and result restoration survive.
+for (const height of [844, 631]) test(`a live phone catch at ${height} puts its question first and holds its band through the pick`, () => {
   const f = fixture(), { a, r, row } = f;
+  window.innerHeight = a.H = height;
   r.on = () => true; a._layerOn = () => true;
   a._defensePressure = true; a._landMode = "defense";
   const card = a._landEl = node(); card.parentElement = r.game; r.gameHomes.set(card, {});
-  card.classList = { contains: () => false };
-  card.getBoundingClientRect = () => ({ top: parseFloat(card.style.top) || 0, width: 266, height: 180 });
+  card.classList = { contains: () => true };
+  card.getBoundingClientRect = () => ({ top: parseFloat(card.style.top) || 0, width: 286, height: 352.25 });
   r.layoutNow();
-  assert.equal(r.nodeBand.height, 144, "the live catch shrinks the band");
-  assert.equal(parseFloat(row.style.top), 152, "Moves still leads directly after the small band");
-  assert.ok(parseFloat(card.style.top) >= parseFloat(row.style.top) + row.fixtureHeight, "Questions follows Moves without overlap");
+  const band = height < 700 ? 80 : 144;
+  assert.equal(r.nodeBand.height, band, "D-433: the live band fits the phone question");
+  assert.equal(parseFloat(card.style.top), band + 16, "the question leads directly after the band");
+  assert.ok(parseFloat(row.style.top) >= parseFloat(card.style.top) + 352.25 + 16, "native Moves follows the question without overlap");
   a._landMode = null; a._landEl = null; // clearLandCard at the pick must not end the live catch.
   r.layoutNow();
-  assert.equal(r.nodeBand.height, 144, "the pick retains the small band");
+  assert.equal(r.nodeBand.height, band, "the pick retains the small band");
   a._defensePressure = false;
   r.layoutNow();
   assert.equal(r.nodeBand.height, 186, "the result restores the usual band");

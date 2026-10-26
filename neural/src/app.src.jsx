@@ -14210,6 +14210,9 @@ class Component extends DCLogic {
         block.inert = false;
         stage.removeAttribute("data-question-covered");
         reveal.remove();
+        // D-433: this deliberate expansion settles a phone catch's publication
+        // pin, so its native Moves row follows the now-taller question.
+        if (this._phoneCatch()) this._readerPin = null;
         if (!defense && !rec.answered) this._landPending = true;
         this._reader?.beginPlay();
         this._engage();
@@ -18499,11 +18502,14 @@ class Component extends DCLogic {
     // it sat under, the room a move's execution had before D-338 removed them. At 136 a no-Videos
     // exchange's arc carried the pair, on screen, 3px into the Moves row; at 186 every frame with the
     // pair on screen clears the row by at least 30px (camera-continuity, D-350b).
-    // D-370 (1): a live phone catch draws no exchange arc until the answer, so its band is 144 again.
-    const height = this.H > 500 ? this.W <= 640 && !this._phoneCatch() ? 186 : 144 : 64;
+    // D-433 / D-370 adapted to U35 (2026-10-26): the phone catch question comes first,
+    // with no arrival/Reveal scroll. At 390x631 the reader has 463px: 80 band + 16 gap
+    // + the measured 352.25px open card leaves 14.75px. The usual phone keeps 144;
+    // no account, type, target or Moves compaction. Both bands hold through the pick.
+    const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186 : 144 : 64;
     return { top, bottom: top + height, height };
   }
-  // U16 b (owner, 2026-10-24): a LIVE phone catch shrinks only the band. A calm defender
+  // U16 b, extended by D-433: only a LIVE phone catch uses the smaller band. A calm defender
   // landing keeps 186. The predicate holds through the pick, whose clearLandCard also clears
   // _landMode, and ends in the escape's travel/result; navigation and restaging clear it too.
   _phoneCatch() {
