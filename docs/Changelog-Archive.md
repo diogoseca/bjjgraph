@@ -12540,3 +12540,26 @@ Its cancellation companion requires the deferred repaint to flush without openin
 The older reading-mode failure was the Back case's outgoing-reader/replacement-app identity
 boundary. Its current replacementReadingSnapshot and held-HTML/graph cases already cover that
 premise; both variants passed ten repeats per build kind. No reading-mode code changed here.
+
+
+## v1.233.0 — article grid (U31 a / U25 a)
+
+Opaque, borderless article cards pack adjacent sections into twelve columns on wide readers,
+with one column on phones and narrow grids. The single `--section-shadow` token defaults to
+U30 A (`0 0 16px 2px rgb(155 174 255 / .20)`) pending the owner’s selection. U31 extends
+the left divider to the prose inset while keeping the words centred and the right close reserve.
+U25’s native Hidden sections disclosure holds the original closed cards and controls, preserving
+content, source order and settings; the index remains the desktop reopening surface.
+
+The U16B-S1 control now dims the closed section label explicitly, instead of the first matching
+open-heading colour. The curated claims retain the 7:1 closed-label threshold and add actual
+packing, disclosure mouse/focus behavior and opaque-surface checks. Source work trims repeated
+identity aliases first. The D-444 trim removes the obsolete null-only videoCard branches and
+unreachable game/article-card selector, shares the label font, merges equivalent title/eye/gap
+rules, and reduces disclosure construction and adjacent-pair packing. The old and new packing
+blocks agree on all 19,683 ordered triples of section types. This is source preparation, not a
+browser or payload pass. The immutable host runner must reproduce the stopped +2,792 B result,
+verify dead-code evidence against the base and its retained HTML receipt, and measure each trim
+and optional feature variant. It stops above the unchanged 506,817 B ceiling (4 B over the base),
+then re-seeds app rows as a separate child of the clean candidate and runs all required gates.
+No payload ceiling or policy baseline changes are part of this implementation.

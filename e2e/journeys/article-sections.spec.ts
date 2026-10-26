@@ -114,7 +114,8 @@ for (const width of [1366, 390]) {
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
         sectionHeaders: labels, step: a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
         backs: 3 * (a._landStackEl?.childElementCount || 0),
-        gaps: cards.slice(1).map((c, i) => c.getBoundingClientRect().top - cards[i].getBoundingClientRect().bottom),
+        // U31: cards can share a row. Measure between actual row unions, not between peers.
+        gaps: [...new Set(cards.map(c => c.getBoundingClientRect().top))].slice(1).map(top => top - Math.max(...cards.map(c => c.getBoundingClientRect()).filter(r => r.top < top).map(r => r.bottom))),
         overflow: a._readerEl.scrollWidth - a._readerEl.clientWidth }
     })
     const normal = await measure()
@@ -129,19 +130,21 @@ for (const width of [1366, 390]) {
     expect(normal.sectionGap, 'the article follows Questions (and its backs) at the six-pixel token').toBeCloseTo(normal.backs + 6, 0)
     // U12 a (D-355): the article's own ✕ is its top row; the first section follows it directly.
     expect(normal.closeRow, 'the first section follows the article\'s ✕ row').toBeCloseTo(0, 0)
-    expect(normal.gaps.every(g => g === 6)).toBe(true)
+    const gapScale = width < 600 ? 3 : 4
+    expect(normal.gaps.length).toBeGreaterThan(0)
+    expect(normal.gaps.every(g => Math.abs(g - 6 * gapScale) < 1)).toBe(true)
     expect(normal.overflow).toBeLessThanOrEqual(1)
     await page.locator('[data-section-toggle=principles]').scrollIntoViewIfNeeded()
     await j.clickByMouse('[data-section-toggle=principles]')
     await expect(page.locator('[data-section-type=principles]')).toHaveAttribute('data-collapsed', 'true')
-    expect((await measure()).gaps.every(g => g === 6)).toBe(true)
+    expect((await measure()).gaps.every(g => Math.abs(g - 6 * gapScale) < 1)).toBe(true)
     expect(await page.evaluate(() => (window as any).__sectionsHand === (window as any).__neural.optionsRef.current)).toBe(true)
     expect(await page.evaluate(() => {
       const w = window as any, cards = [...w.__neural.optionsRef.current.querySelectorAll('.ngchoice-title')]
       return { titles: cards.map((e: any) => e.textContent), same: cards.every((e, i) => e === w.__sectionsCards[i]) && cards.length === w.__sectionsCards.length }
     })).toEqual({ titles: snapshot.titles, same: true })
     await page.locator(READY).evaluate(e => (e as HTMLElement).style.setProperty('--section-gap', '12px'))
-    expect((await measure()).gaps.every(g => g === 12)).toBe(true)
+    expect((await measure()).gaps.every(g => Math.abs(g - 12 * gapScale) < 1)).toBe(true)
     expect(await state(page)).toMatchObject({ paused: true, played: false, misses: 0 })
   })
 }
@@ -295,11 +298,17 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
     await expect(page.locator('.ng-reader .ng-section-glyph'), 'sections no longer have icons').toHaveCount(0)
     if (!hasToc) {
       await expect(page.locator('.ng-reader-toc')).toBeHidden()
+      // U25 a supersedes the in-flow placeholder: reveal the SAME closed label in the disclosure.
+      await expect(header).toBeHidden()
+      await expect(page.locator('.ng-reader-hidden>summary')).toHaveText('Hidden sections (1)›')
+      await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+      await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the closed labels')
+      await expect(header).toBeVisible()
       // D-338 (owner): a closed section is a light label, no box and no outline.
       expect(await page.locator('[data-section-type=principles]').evaluate(e => { const cs = getComputedStyle(e); return [cs.backgroundColor, cs.borderTopColor] }), 'no box around a closed section').toEqual(['rgba(0, 0, 0, 0)', 'rgba(0, 0, 0, 0)'])
-      const line = await header.evaluate(e => { const r = e.getBoundingClientRect(), name = e.querySelector('.ng-section-closed > span:first-child')!.getBoundingClientRect(), eye = e.querySelector('.ng-section-closed .ng-section-eye')!.getBoundingClientRect()
-        return { height: Math.round(r.height), oneLine: Math.abs((name.top + name.bottom) / 2 - (eye.top + eye.bottom) / 2) < 3, eyeAfter: eye.left >= name.right, eye: eye.width > 0 } })
-      expect(line, 'one compact line: the greyed name, then its eye').toEqual({ height: 44, oneLine: true, eyeAfter: true, eye: true })
+      const line = await header.evaluate(e => { const label = e.querySelector('.ng-section-closed')!, s = getComputedStyle(label)
+        return { height: Math.round(e.getBoundingClientRect().height), display: s.display, align: s.alignItems, action: getComputedStyle(label, '::after').content } })
+      expect(line, 'U25: one compact line, section name and Show action').toEqual({ height: 44, display: 'flex', align: 'center', action: '"Show"' })
       // The resting label, not its hover: the mouse that closed it is still over it.
       await page.mouse.move(viewport.width - 2, viewport.height - 2)
       const contrast = await header.evaluate(e => {
@@ -307,7 +316,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
         const fg = lum(getComputedStyle(e).color), bg = lum(getComputedStyle(e.closest('.ng-section-card')!).backgroundColor)
         return (Math.max(fg, bg) + .05) / (Math.min(fg, bg) + .05)
       })
-      expect(contrast).toBeGreaterThanOrEqual(7)
+      expect(contrast, 'U16B-S1: the closed section label retains 7:1 contrast').toBeGreaterThanOrEqual(7)
       await header.focus(); await page.keyboard.press('Space')
     } else {
       await expect(page.locator('.ng-reader-toc')).toBeVisible()
