@@ -11948,7 +11948,7 @@ class Component extends DCLogic {
     // the flag-derived truth (never the pixels), so the refusal flips back the instant the sheet
     // closes, with no transition to race. Not a decline and not a grade: the question is untouched
     // and still pays when the player comes back to it.
-    const answer = (i) => { if (truth.surface === "land" && this._landHidden(true)) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
+    const answer = (i) => { if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
     truth.answer = answer;                                    // the A/B/C keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
@@ -12094,7 +12094,7 @@ class Component extends DCLogic {
       got.style.display = truth.revealed ? "block" : "none";
     };
     truth.toggle = () => {
-      if (graded) return;                      // a paid question does not go back under the cover
+      if (graded || wrap.inert) return;         // covered and paid cards cannot reveal through shortcuts
       truth.seen = true; // monotonic: Space can hide, and paging reuses this truth, but neither unsees an answer
       truth.revealed = !truth.revealed;
       live.textContent = truth.revealed ? "Answer revealed." : "Answer hidden.";
@@ -12102,7 +12102,7 @@ class Component extends DCLogic {
       if ((surface === "land" || surface === "panic") && this._landEl) this._dockLandCard(this._landEl);
     };
     const grade = (ok) => {
-      if (graded || truth.spent) return; graded = true; truth.spent = true;
+      if (graded || truth.spent || wrap.inert) return; graded = true; truth.spent = true;
       this.gradeRecall(key, card, ok, null, surface || "deck");
       row.querySelectorAll("button").forEach((b) => { b.setAttribute("aria-disabled", "true"); b.style.cursor = "default"; });
       live.textContent = ok ? "Marked as recalled." : "Marked for review.";
@@ -12140,7 +12140,7 @@ class Component extends DCLogic {
   _recallLive() {
     const r = this._recall;
     if (!r || !r.wrap || !r.wrap.isConnected || !r.toggle) return null;
-    if (r.surface === "land" && this._landHidden()) return null;
+    if (r.wrap.inert || (["land", "panic"].includes(r.surface) && this._landHidden())) return null;
     return r;
   }
 
@@ -14148,7 +14148,7 @@ class Component extends DCLogic {
     const defense = mode === "defense", surface = defense ? "panic" : "land";
     const landRecall = !defense && !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
     const qh = this.qhash(card.q);
-    const rec = { key: key, card: card, mode: mode || "land", answered: false };
+    const rec = o.record || { key: key, card: card, mode: mode || "land", answered: false, opened: false };
     const qw = document.createElement("div");
     qw.setAttribute("data-land-q", "1");
     // no top border and no top margin (v1.101.1): with the header gone and film lifted out to
@@ -14189,7 +14189,37 @@ class Component extends DCLogic {
       block = this._recallBlock(card, key, done("recall"), surface);
     }
     if (!block) return null;
-    qw.appendChild(block);
+    // U34/U35: only this question's answers are covered. Media and the untimed
+    // Moves section have separate owners. Consent lives on the cached card record,
+    // so paging/backfill never opens a sibling or refunds a partly used window.
+    const stage = document.createElement("div");
+    stage.className = "ng-question-stage";
+    stage.toggleAttribute("data-question-covered", !rec.opened);
+    block.inert = !rec.opened;
+    stage.appendChild(block);
+    if (!rec.opened) {
+      const reveal = document.createElement("button");
+      reveal.type = "button";
+      reveal.className = "ng-question-reveal";
+      reveal.setAttribute("data-question-reveal", "");
+      reveal.setAttribute("aria-label", "Reveal. Answer for a boost." + (!defense || this._defensePressure ? " Starts this question's answer clock." : ""));
+      reveal.innerHTML = '<span class="ng-question-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 4 20 12 6 20Z"/></svg></span><span><strong>Reveal</strong><small>Answer for a boost</small></span>';
+      reveal.addEventListener("click", () => {
+        if (this._landQ !== rec || this._landHidden(true)) return;
+        rec.opened = true;
+        block.inert = false;
+        stage.removeAttribute("data-question-covered");
+        reveal.remove();
+        if (!defense && !rec.answered) this._landPending = true;
+        this._reader?.beginPlay();
+        this._engage();
+        this._armPagedLandClock();
+        this._dockLandCard(this._landEl);
+        block.querySelector("button")?.focus({ preventScroll: true });
+      });
+      stage.appendChild(reveal);
+    }
+    qw.appendChild(stage);
     this._landQ = rec;
     if (defense) this._panicFc = { fc: card, pk: key };
     if (this._landPageCache) this._landPageCache[qh] = { el: qw, q: rec, mc: usedRecall ? null : (block.__ngMc || null), recall: usedRecall ? block.__ngRecall : null };
@@ -14203,8 +14233,8 @@ class Component extends DCLogic {
         tried[key] = true;
         this._warmMcPool(card, key, "panic").then(() => {
           if (this._landQ !== rec || rec.answered || block.__ngRecall?.seen || !qw.isConnected) return;
-          const replacement = this._mountLandQ(card, key, mode, hooks, { paged: true });
-          if (replacement) { qw.replaceWith(replacement); this._updateLandDeck(); this._dockLandCard(this._landEl); }
+          const replacement = this._mountLandQ(card, key, mode, hooks, { paged: true, record: rec });
+          if (replacement) { if (this._recall === block.__ngRecall) this._recall = null; qw.replaceWith(replacement); this._updateLandDeck(); this._dockLandCard(this._landEl); }
         });
       }
     }
@@ -14213,7 +14243,7 @@ class Component extends DCLogic {
       for (let i = 0; i < cs.length; i++) if (cs[i].q === card.q) { this._landPage = i; break; }
     }
     if (!o.paged && !defense) {
-      this._landPending = true; // a question is on the table — walking past it breaks momentum
+      this._landPending = !!rec.opened; // a covered invitation is free to pass
       // COLD-START MEASUREMENT: is the game quizzing a state the player has never studied? The
       // glyph is the existing evidence ("○" = not one card in this deck has ever been met), so
       // this asks nothing new of the data model — it just names the suspected confusion.
@@ -14221,8 +14251,7 @@ class Component extends DCLogic {
       this._landSkipDebt = null; // the question showed — any deferred skip verdict is void
       this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: o.cards, backfill: !!this._landLate });
       if (unseen) this.fx("land_q_unseen", { deckKey: key, node: o.node || null, cards: o.cards, mode: mode || "land", landing: (this.rollLog || []).length });
-      // the question is on the table — the clock starts NOW (v1.133.0), never at deal; a paused
-      // (staged) board holds it at full, since the tick runs on the game clock
+      // Park the question clock until this card is deliberately opened (U34).
       if (this._decision && this._decision.remaining == null)
         this._armLandClock(this._landEl ? this._landEl.querySelector("[data-land-clock]") : null);
     }
@@ -14409,6 +14438,7 @@ class Component extends DCLogic {
       if (old) old.replaceWith(qw);
       else el.appendChild(qw);
       this._landPage = next;
+      if (this._landMode !== "defense") this._landPending = !!this._landQ.opened && !this._landQ.answered;
       this._armPagedLandClock();
       this._readStop(); this._readS = 0;
       this._landPaged = true; // the anti-reshuffle guard now answers for THIS cursor
@@ -15930,30 +15960,31 @@ class Component extends DCLogic {
 
   // heartbeat vignette — visible trouble, in slow motion (helmet.html `ngHeartbeat`). Escape
   // snaps it off in ~.3s (the relief IS the reward); a tap lets it drain slowly with the defeat.
-  _dangerAnimationOn() {
-    return !!this._defensePressure && this.get("dangerAnimation", true) !== false && !this._reducedMotion();
+  _dangerAnimationOn(includeStatic = false) {
+    return !!this._defensePressure && this.get("dangerAnimation", true) !== false && (includeStatic || !this._reducedMotion());
   }
   // Visuals only: never call killVignette here (it also releases the catch's
   // framing), rebuild a question, change odds, or disarm/refund the live clock.
   // State transitions own this work: pressure, setting, OS motion and progress
   // receipts. No frame polling or repeated DOM writes for an unchanged state.
   _syncDangerAnimation() {
-    const on = this._dangerAnimationOn();
-    if (!!this._dangerAnimated === on) return;
-    this._dangerAnimated = on;
+    const on = this._dangerAnimationOn(true);
+    const reduced = this._reducedMotion();
+    if (!!this._dangerAnimated === on && this._dangerReduced === reduced) return;
+    this._dangerAnimated = on; this._dangerReduced = reduced;
     if (on) this.showVignette();
     else {
       if (this._vignetteEl) { this._vignetteEl.remove(); this._vignetteEl = null; }
       const logo = this.wrapRef?.current?.querySelector(".ng-logo");
       if (logo) { logo.style.opacity = ""; logo.style.pointerEvents = ""; }
-      if (this._landEl && this._landMode === "defense") {
-        this._landEl.classList.remove("ng-clock-hot");
-        this._landEl.style.borderColor = ""; this._landEl.style.boxShadow = "";
-      }
+    }
+    if ((!on || reduced) && this._landEl && this._landMode === "defense") {
+      this._landEl.classList.remove("ng-clock-hot");
+      this._landEl.style.borderColor = ""; this._landEl.style.boxShadow = "";
     }
   }
   showVignette() {
-    if (!this._dangerAnimationOn()) return;
+    if (!this._dangerAnimationOn(true)) return;
     if (this._vignetteEl) return;
     const v = document.createElement("div");
     v.className = "ng-vignette";
@@ -17280,7 +17311,7 @@ class Component extends DCLogic {
     this._tryArmClock();
   }
   _clockGate() {
-    return !this._readerIntent && (this._landMode !== "defense" || this._defensePressure) && !!this._engaged && !this.deckShown && !!this._landEl && !this._landHidden();
+    return !!this._landQ?.opened && !this._readerIntent && (this._landMode !== "defense" || this._defensePressure) && !!this._engaged && !this.deckShown && !!this._landEl && !this._landHidden();
   }
   _tryArmClock() {
     if (!this._cwArm || !this._clockGate()) return;
@@ -17450,10 +17481,6 @@ class Component extends DCLogic {
         this._landEl.style.borderColor = "rgba(255,110,110," + (0.35 + 0.5 * ph).toFixed(3) + ")";
         this._landEl.style.boxShadow = "0 14px 44px rgba(0,0,0,.5), 0 0 22px rgba(255,110,110," + (0.25 * ph).toFixed(3) + ")";
       }
-    }
-    if (this._vignetteEl && d.total) { // defense heartbeat: 60 → 100bpm as the DRILL window drains
-      const f = Math.max(0, Math.min(1, d.remaining / d.total));
-      this._vignetteEl.style.animationDuration = (0.6 + 0.4 * f).toFixed(2) + "s";
     }
     const secLeft = Math.ceil(d.remaining / 1000);
     if (d.remaining > 0 && secLeft <= 3 && d.warned !== secLeft) {

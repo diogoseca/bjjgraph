@@ -394,6 +394,7 @@ test("@curated heading links focus the cloned article and a reopened question st
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
   await page.locator(`[data-land-mc-opt="${q!.correct}"]`).scrollIntoViewIfNeeded()
   await j.readerLayoutSettled()
+  await j.openQuestion() // U34: answering is an explicit play action.
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, 'answer the reopened question directly')
   await expect.poll(() => state(page)).toMatchObject({ intent: false })
   await j.advance(1000)

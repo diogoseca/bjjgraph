@@ -938,6 +938,28 @@ export class Journey {
     return this;
   }
 
+  /** Explicit U34 consent. Call before answering/timing a question, never from
+   * land(), engage(), or clickByMouse(): a normal arrival must stay covered. */
+  async openQuestion() {
+    await this.landSettled();
+    const cover = this.page.locator("[data-question-reveal]");
+    if (!await cover.count()) {
+      const state = await this.page.evaluate(() => {
+        const q = (window as W).__neural?._landQ;
+        return !q || !!q.opened;
+      });
+      expect(state, "a mounted unopened question must expose Reveal").toBe(true);
+      return this;
+    }
+    await expect(cover).toBeVisible();
+    await cover.scrollIntoViewIfNeeded();
+    await this.readerLayoutSettled();
+    await this.clickByMouse("[data-question-reveal]", "Reveal this question");
+    await expect(cover).toHaveCount(0);
+    await this.readerLayoutSettled();
+    return this;
+  }
+
   /** The first real interaction, minimally: a mouse move the document-level latch can see.
    *  Journeys about the PRE-engagement state must simply not call land()/engage(). */
   async engage() {

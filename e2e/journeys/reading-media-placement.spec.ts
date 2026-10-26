@@ -432,6 +432,7 @@ for (const [label, delay] of [['400ms', 400], ['2.6s, past the ceiling', 2600]] 
     expect(live.some((x: any) => x.film), 'past the ceiling the late film does not mount while the question is live').toBe(false)
     const mc = await j.landQuestion()
     expect(mc, 'premise: a multiple-choice question').not.toBeNull()
+    await j.openQuestion() // U34: answering is an explicit play action.
     await j.clickByMouse(`[data-land-mc-opt="${mc!.correct}"]`, 'answer the question where it sits')
     await expect.poll(() => page.evaluate(() => { const f = (window as any).__neural._landFilmEl
       return !!f && f.getClientRects().length > 0 && getComputedStyle(f).visibility !== 'hidden' }), 'the late film shows after the player answers').toBe(true)

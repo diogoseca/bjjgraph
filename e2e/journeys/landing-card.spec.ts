@@ -57,6 +57,7 @@ test("landing asks one question; a right answer pumps the odds and refunds the c
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U34: this journey deliberately answers/times the question.
 
   await expect(page.locator("[data-landcard]"), "landing card docked above the hand").toBeVisible()
   await expect(page.locator("[data-landcard] [data-land-corner] [data-land-count]"), "the deck count is a quiet line in the timed card's corner (v1.175.0)").toHaveCount(1)
@@ -88,6 +89,7 @@ test("a wrong answer costs THIS exchange only — the next arrival forgives it",
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U34: this journey deliberately answers/times the question.
 
   const t = await midOption(page)
   const before = await j.displayedOdds(t)
@@ -112,6 +114,7 @@ test("a proven deck asks nothing — the landing keeps only its remaining contro
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U34: this journey deliberately answers/times the question.
   await expect(page.locator("[data-land-q]")).toBeVisible()
 
   await page.evaluate(() => {
@@ -132,6 +135,7 @@ test("the sidebar reads back as classic recall — multiple choice is the in-rol
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U34: this journey deliberately answers/times the question.
 
   expect(
     await page.evaluate(() => (window as any).__neural.get("mcMode", "classic")),
@@ -159,6 +163,7 @@ test("shifted digits leave the live landing question and hand untouched", async 
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U34: this journey deliberately answers/times the question.
   await expect(page.locator("[data-land-q]")).toBeVisible()
 
   await page.keyboard.press("Shift+Digit1")
@@ -174,6 +179,7 @@ test("the corner shows card position as bare text that opens nothing", async ({ 
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U34: this journey deliberately answers/times the question.
 
   const cnt = page.locator("[data-landcard] [data-land-corner] [data-land-count]")
   await expect(cnt, "the count sits in the timed card's corner").toBeVisible()
@@ -238,7 +244,8 @@ test("@curated a timed-out question is spent — a late click grades nothing", a
     await page.evaluate(() => document.body.getBoundingClientRect().top)
     await j.advance(400)
   }
-  await j.engage() // v1.137.0: the clock waits for the player — this journey plays one
+  await j.engage()
+  await j.openQuestion() // U34: engagement alone no longer arms a covered question
   const armed = await page.evaluate(() => {
     const a: any = (window as any).__neural
     return !!(a._decision && a._decision.remaining != null && a._mc && a._mc.surface === "land")
@@ -335,7 +342,8 @@ test("@curated expiry is fluid — no re-entry replay, the bar eases home", asyn
     await page.evaluate(() => document.body.getBoundingClientRect().top)
     await j.advance(400)
   }
-  await j.engage() // v1.137.0: the clock waits for the player — this journey plays one
+  await j.engage()
+  await j.openQuestion() // U34: engagement alone no longer arms a covered question
   const armed = await page.evaluate(() => {
     const a: any = (window as any).__neural
     return !!(a._decision && a._decision.remaining != null && a._landEl)
@@ -385,7 +393,7 @@ test("@curated expiry is fluid — no re-entry replay, the bar eases home", asyn
  * Mutants that must die: arming immediately (gate dropped); the 1.5× grace dropped; the
  * document-level latch removed (a real mouse move must arm it).
  */
-test("@curated no clock before the first real interaction — then full pressure, with new-user grace", async ({
+test("@curated no clock before Reveal — engagement alone is free; opening keeps new-user grace", async ({
   page,
 }) => {
   const j = journey(page)
@@ -417,6 +425,8 @@ test("@curated no clock before the first real interaction — then full pressure
   await page.mouse.move(4, 4)
   await page.mouse.move(6, 6)
   await j.advance(300)
+  expect(await page.evaluate(() => (window as any).__neural._decision.remaining)).toBeNull()
+  await j.openQuestion()
   const armed = await page.evaluate(() => {
     const a: any = (window as any).__neural
     return {

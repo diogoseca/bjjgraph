@@ -92,6 +92,7 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
           previous.call(this, this.optionsRef.current, this.nodes[this._defendSub])
           if (this.get('readerBook', true)) this._landEl?.setAttribute('data-reader-pending', '')
           // The old enterDefense armed immediately AFTER buildPanicCard returned.
+          this._landQ = { opened: true } // legacy control represents a deliberately opened question
           this._armLandClock(this._landEl?.querySelector('[data-land-clock]'))
           return this._landEl
         }
@@ -126,6 +127,7 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
   await page.locator('[data-tech="Half Guard to Back Take"] .ng-choice-title-button').scrollIntoViewIfNeeded()
   await j.clickByMouse('[data-tech="Half Guard to Back Take"] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
+  if (!legacy) await j.openQuestion() // U34: this mechanics fixture studies an opened catch.
   await expect(page.locator(cold ? '[data-panic-reveal]' : '[data-panic-mc-opt]').first()).toBeVisible()
   // STALE TIMING (D-351, H57): a reading-view landing stays unpublished, its clock parked, until the
   // article it asked for renders, which happens in real time after the pumped catch; the parked arm
@@ -147,6 +149,7 @@ test('@curated link, reload and dormant answer keep the generic five-card defend
   expect(await page.evaluate(() => (window as any).__neural._landPage)).toBe(1)
   await j.clickByMouse('[data-land-prev]', 'return to the first defender card')
   const correct = await page.evaluate(() => (window as any).__neural._mc.correct)
+  await j.openQuestion()
   await j.clickByMouse(`[data-panic-mc-opt="${correct}"]`, 'answer the cold defender landing')
   await j.advance(20000)
   expect(await state(page)).toMatchObject({ pressure: false, vignette: false, caught: 0, remaining: null })
@@ -448,11 +451,11 @@ test('@curated Danger animation toggles live visuals only and survives a reload'
 // advance(20) cannot establish that the real change handler has run. Delayed native
 // delivery reproduces the immediate-assert race on base and head; waiting for the
 // visible outcome passes while removing the real listener must still fail.
-test('@curated reduced motion suppresses CSS and frame-driven danger without changing the saved setting', async ({ page }) => {
+test('@curated reduced motion keeps a static cue and suppresses frame-driven danger without changing the saved setting', async ({ page }) => {
   const j = await catchLoop(page)
   expect((await state(page)).vignette).toBe(true)
   await page.emulateMedia({ reducedMotion: 'reduce' })
-  await expect.poll(async () => (await state(page)).vignette, 'the real media-change handler suppresses danger').toBe(false)
+  await expect.poll(() => page.locator('.ng-vignette').evaluate(el => ({ opacity: getComputedStyle(el).opacity, animations: el.getAnimations().length }))).toEqual({ opacity: '0.144', animations: 0 })
   await j.advance(11000)
   const before = await mechanics(page)
   expect(before.remaining).toBeGreaterThan(0)
@@ -461,7 +464,7 @@ test('@curated reduced motion suppresses CSS and frame-driven danger without cha
     const a = (window as any).__neural
     return { saved: a.get('dangerAnimation', true), pressure: a._defensePressure, vignette: !!a._vignetteEl,
       glow: a._landEl.style.boxShadow, hot: a._landEl.classList.contains('ng-clock-hot'), clock: a._landClockEl.style.transform }
-  })).toMatchObject({ saved: true, pressure: true, vignette: false, glow: '', hot: false })
+  })).toMatchObject({ saved: true, pressure: true, vignette: true, glow: '', hot: false })
   await j.advance(500)
   expect((await mechanics(page)).remaining).toBeCloseTo(before.remaining! - 500, 4)
   await page.emulateMedia({ reducedMotion: 'no-preference' })

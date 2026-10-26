@@ -113,8 +113,9 @@ test("@curated a recall page mounted under the pane receives Space when the pane
     await j.clickByMouse(`[data-land-${dir}]`, `page the exposed landing deck ${dir}`)
     await j.landSettled()
   }
-  await expect(page.locator("[data-land-reveal]")).toBeVisible()
+  await expect(page.locator("[data-question-reveal]")).toBeVisible()
   await j.clickByMouse(".ng-explorer-close", "close the study pane")
+  await j.openQuestion()
   expect(await page.evaluate(() => {
     const a = (window as any).__neural
     return a._recall === a._landEl.querySelector("[data-land-recall]").__ngRecall

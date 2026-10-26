@@ -98,7 +98,7 @@ test("unchanged danger ticks do no DOM work; motion is cached and change-driven"
     a.wrapRef = { current: { querySelector: selector => { queries.push(selector); return { style }; } } };
     a._landEl = { style, classList: { remove: name => writes.push(name) } };
     a._landMode = "defense"; a._defendSub = sub.idx; a._readerIntent = true;
-    a.showVignette = () => { writes.push("show"); a._vignetteEl = { remove: () => writes.push("remove") }; };
+    a.showVignette = () => { if (a._vignetteEl) return; writes.push("show"); a._vignetteEl = { remove: () => writes.push("remove") }; };
     for (let i = 0; i < 122; i++) a._tickDecision(1 / 122);
     assert.equal(writes.length, 0, "calm ticks never rewrite unchanged danger styles");
     assert.deepEqual(queries, [], "calm ticks never look up the logo");
@@ -111,11 +111,11 @@ test("unchanged danger ticks do no DOM work; motion is cached and change-driven"
     };
     unchanged();
     media.matches = true; listeners.get("change")();
-    assert.equal(a._vignetteEl, null, "OS change removes danger immediately, without a tick");
+    assert.ok(a._vignetteEl, "U36 keeps the static danger cue; CSS removes motion");
     assert.equal(a._defensePressure, true);
     unchanged();
     media.matches = false; listeners.get("change")();
-    assert.equal(writes.filter(x => x === "show").length, 2);
+    assert.equal(writes.filter(x => x === "show").length, 1);
     unchanged();
     a.set("dangerAnimation", false);
     assert.equal(a._vignetteEl, null, "the setting removes danger immediately, without a tick");

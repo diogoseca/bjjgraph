@@ -56,6 +56,7 @@ async function landOnRecall(j: ReturnType<typeof journey>, page: Page) {
   await j.boot("/")
   await j.hydrateAll()
   await j.land("Mount Top")
+  await j.openQuestion() // U34: this journey deliberately answers/times the question.
   await page.evaluate(() => {
     const a = (window as W).__neural
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key
@@ -68,6 +69,7 @@ async function landOnRecall(j: ReturnType<typeof journey>, page: Page) {
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
   await page.waitForTimeout(300)
+  await j.openQuestion()
   await expect(page.locator("[data-land-recall]"), "the landing card is asking as recall").toBeVisible()
 }
 

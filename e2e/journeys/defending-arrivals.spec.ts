@@ -42,7 +42,7 @@ async function caught(page: Page) {
   await page.locator('[data-arrival-commit] .ng-choice-title-button').scrollIntoViewIfNeeded()
   await j.clickByMouse('[data-arrival-commit] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
-  await expect(page.locator('[data-panic-mc-opt]').first()).toBeVisible()
+  await expect(page.locator('[data-question-reveal]')).toBeVisible() // U34: navigation need not open the drill
   expect(await snapshot(page)).toMatchObject({ pressure: true, caught: 1, key: 'Loop Choke from Half Guard|Defender' })
   return { j, previous: await snapshot(page) }
 }

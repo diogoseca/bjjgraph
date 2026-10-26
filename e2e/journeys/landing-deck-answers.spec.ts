@@ -86,6 +86,7 @@ async function setup(page: Page, width: number, height: number) {
   const j = journey(page);
   await j.boot("/", { seedRolls: questionRolls() });
   await j.land("Mount Top");
+  await j.openQuestion() // U34: this journey deliberately answers/times the question.
   expect(await j.landQuestion(), "the landing asks a question").not.toBeNull();
   await j.advance(200); // let the hand settle under the card
   // D-338: in the article view Questions follows Videos and Moves and can start below the fold;
@@ -101,6 +102,7 @@ async function next(page: Page, j: ReturnType<typeof journey>) {
   await j.clickByMouse("[data-land-next]", "the next-flashcard chevron");
   await expect.poll(async () => { await j.advance(16); const s = await st(page); return s.page; }, { timeout: 20_000 }).toBe(p0 + 1);
   await j.advance(50);
+  await j.openQuestion();
 }
 // answer the mounted card through its own MC buttons; which option is right/trap comes from the MC
 // truth itself. False when this card cannot be answered that way (recall-only, or no such tier).
@@ -428,6 +430,7 @@ const panicSetup = async (page: Page) => {
   await j.boot("/", { seedRolls: questionRolls() });
   await j.hydrateAll();
   await j.land("Mount Top");
+  await j.openQuestion() // U34: this journey deliberately answers/times the question.
   await enterDefence(page);
   await page.waitForTimeout(400);
   const mc = await page.evaluate(() => {

@@ -8,7 +8,7 @@ const PARTS = [
 // Film has dedicated normal-home and section preferences; legacy keys remain in storage.
 // D-338 retired Focus on reading: `readingFocus` and its reading* overrides are never read
 // again (a settings key can never be deleted, §6.6), so a saved Focus cannot strand anyone.
-const GAME_KEYS = { card: "landCard", hand: "landHand", map: "landMap", feedback: "landFeedback" };
+const GAME_KEYS = { film: "landFilm", book: "readerBook", card: "landCard", hand: "landHand", map: "landMap", feedback: "landFeedback" };
 const CONTENT = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i;
 const ROLES = /\/(Top|Bottom|Attacker|Defender)$/i;
 const REFERENCE = /^\/(Principles|Learning|Systems)\//;
@@ -676,8 +676,6 @@ class Reader {
   }
   on(part) {
     if (part === "film" && this.wantsMedia()) return sectionShown(this.app, "videos");
-    if (part === "film") return this.app.get("landFilm", true) !== false;
-    if (part === "book") return this.app.get("readerBook", true) !== false;
     return this.app.get(GAME_KEYS[part], true) !== false;
   }
   toggle(part) {

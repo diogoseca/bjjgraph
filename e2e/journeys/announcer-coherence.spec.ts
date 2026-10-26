@@ -518,6 +518,7 @@ test("@curated an expiry never pins — off the announcer, and gone in ~1.6 s ev
   await page.mouse.move(4, 4);
   await page.mouse.move(6, 6);
   await j.advance(300);
+  await j.openQuestion() // U34: expiry begins only on Reveal.
   const armed = await page.evaluate(() => {
     const a: any = (window as any).__neural;
     return !!(a._decision && a._decision.remaining != null);

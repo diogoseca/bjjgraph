@@ -232,8 +232,26 @@
      by 7% so the squeeze never uncovers a corner). Attack and decay carry different easings,
      set per keyframe, so the rise snaps and the fall drains — the retired 1s ease-in-out
      sawtooth was the "panic" the owner asked to calm. Reduced motion: still, low fog (below). */
-  .ng-vignette{position:fixed;inset:-7%;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 50%,rgba(184,30,28,.3) 72%,rgba(226,58,48,.85) 100%);opacity:.36;will-change:opacity,transform;animation:ngHeartbeat 3.2s linear infinite;}
-  @keyframes ngHeartbeat{0%{opacity:.34;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:1;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.44;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.74;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.35;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.34;transform:scale(1)}}
+  /* U36: one active tum-tum, then the softer 30-second rhythm. The question
+     clock never changes this catch-owned cadence. Reduced motion is static. */
+  .ng-vignette{position:fixed;inset:-7%;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 50%,rgba(184,30,28,.3) 72%,rgba(226,58,48,.85) 100%);opacity:.136;will-change:opacity,transform;animation:ngCatchStart 1s linear,ngHeartbeat 30s linear 1s infinite;}
+  @keyframes ngCatchStart{0%{opacity:.34;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:1;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.44;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.74;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.35;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.136;transform:scale(1)}}
+  @keyframes ngHeartbeat{0%{opacity:.136;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:.4;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.176;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.296;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.14;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.136;transform:scale(1)}}
+  @media(prefers-reduced-motion:reduce){.ng-vignette{opacity:.144;transform:none;}}
+  .ng-question-stage{position:relative;min-height:60px;}
+  [data-question-covered]>[inert]{visibility:hidden;pointer-events:none;}
+  .ng-question-reveal{position:absolute;inset:0;margin:auto;display:flex;align-items:center;justify-content:center;gap:11px;width:max-content;max-width:100%;height:60px;padding:8px;border:0;border-radius:12px;background:none;font-family:inherit;color:#eef1f6;cursor:pointer;pointer-events:auto;}
+  .ng-question-play{box-sizing:border-box;display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border:1px solid rgba(135,164,229,.38);border-radius:50%;background:rgba(100,133,210,.12);font-size:14px;}
+  .ng-question-play svg{width:14px;height:14px;margin-left:2px;fill:currentColor;}
+  .ng-question-reveal>span:last-child{display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;}
+  .ng-question-reveal strong{font-size:14px;font-weight:700;line-height:20px;white-space:nowrap;}
+  .ng-question-reveal small{font-size:11px;font-weight:500;line-height:16px;color:#9eacc4;white-space:nowrap;}
+  .ng-question-reveal:focus-visible{outline:2px solid #b7caff;outline-offset:3px;}
+  @media(max-width:640px){.ng-land-deck [data-panic-mc-opt]{padding-top:5px!important;padding-bottom:5px!important;min-height:44px;}}
+  /* The short phone keeps the untouched Moves and invitation together; answers
+     expand in the native reader only after the player asks for them. */
+  @media(max-height:700px){[data-question-covered]>[inert]{display:none;}.ng-landcard.ng-land-deck:has([data-question-covered]){min-height:0!important;}}
+
   /* ══ THE OUTCOME LANDS ON YOUR CARDS (v1.218.0) — app.src.jsx `_outcome` / `_cardHit`. ══
      Root plane z:16, the ambient-fx band. Every layer is pointer-events:none, the whole subtree
      too (§6.1: it floats over the hand and must never eat the click under it). Wall-clock CSS, so

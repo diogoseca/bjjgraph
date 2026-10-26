@@ -110,6 +110,7 @@ async function setup(page: Page, width: number, height: number) {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
+  await j.openQuestion() // U34: this journey deliberately answers/times the question.
   expect(await j.landQuestion(), "the landing asks a question").not.toBeNull();
   await j.advance(200); // let the hand settle under the card
   // D-338: Questions follows Videos and Moves and can start below the fold; bring it into view first.
