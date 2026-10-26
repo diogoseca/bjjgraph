@@ -63,10 +63,6 @@
       "relationship": "Follow-up option - transition when back take not available after drag"
     },
     {
-      "name": "Back Take",
-      "relationship": "Follow-up sequence - finishing position after successful drag"
-    },
-    {
       "name": "Front Headlock to Back",
       "relationship": "Connected sequence - alternative back take from front headlock if collar drag transitions there"
     },

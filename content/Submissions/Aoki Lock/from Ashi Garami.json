@@ -9,10 +9,10 @@
   "submission_category": "Joint Lock",
   "submission_type": "Rotational foot lock",
   "target_area": "Foot and ankle, with rotational stress transmitted to the knee",
-  "starting_position": "Ashi Garami",
+  "starting_position": "Ashi Garami/Bottom",
   "success_rate": {
-    "gi": 50,
-    "nogi": 50
+    "gi": 30,
+    "nogi": 30
   },
   "summary": "The Aoki Lock is a rotational foot lock that captures a turned-out foot against the upper body while controlling the leg and hip, potentially stressing both the ankle and knee.",
   "overview": "The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.\n\nIdentify the turned-out foot without forcing it to rotate against resistance. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. Secure the upper-body enclosure while leaving the foot unloaded during practice. Use the legs and hip connection to limit free movement without twisting a planted knee.\n\nUse capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot.\n\nInstructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).",
@@ -50,16 +50,16 @@
     {
       "to": "game-over",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 30,
+        "nogi": 30
       },
       "result": "success"
     },
     {
-      "to": "Ashi Garami/Top",
+      "to": "Ashi Garami/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 50,
+        "nogi": 50
       },
       "result": "failure"
     },
@@ -157,19 +157,19 @@
         "counter": "Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Identify the turned-out foot without forcing it to rotate against resistance.",
-        "targets_outcome": "Ashi Garami/Top"
+        "targets_outcome": "Ashi Garami/Bottom"
       },
       {
         "counter": "Hand fight and recover foot position before the attacker connects around the foot.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Bring the instep under the upper arm and support the heel/Achilles region with the forearm.",
-        "targets_outcome": "Ashi Garami/Top"
+        "targets_outcome": "Ashi Garami/Bottom"
       },
       {
         "counter": "Do not rotate the torso independently of a captured foot and knee.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Secure the upper-body enclosure while leaving the foot unloaded during practice.",
-        "targets_outcome": "Ashi Garami/Top"
+        "targets_outcome": "Ashi Garami/Bottom"
       },
       {
         "counter": "Create slack in the hand and hip controls before withdrawing the leg.",
@@ -181,7 +181,7 @@
         "counter": "Stop at a secure rotational capture rather than testing whether the joint still tolerates movement.",
         "effectiveness": "Low",
         "your_response": "Re-check the prerequisite before continuing. Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement.",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Ashi Garami/Bottom"
       }
     ],
     "common_errors": [
@@ -457,7 +457,7 @@
       {
         "action": "Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Ashi Garami/Top",
+        "targets_outcome": "Ashi Garami/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot."
       },
@@ -471,7 +471,7 @@
       {
         "action": "Do not rotate the torso independently of a captured foot and knee.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Ashi Garami/Top",
+        "targets_outcome": "Ashi Garami/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot."
       },
@@ -489,7 +489,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Ashi Garami/Top",
+        "outcome": "Ashi Garami/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock."
       },
       {

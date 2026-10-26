@@ -210,7 +210,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 If the knee lever removes your base, release unsafe arm tension and begin an escape from the position you actually land in. Recover a shoulder frame and inside knee before the new top player closes the space beside your ribs.
 
-**Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -302,7 +302,7 @@ If the knee lever removes your base, release unsafe arm tension and begin an esc
 ### 3. Avoid letting the bottom player connect their upper body directly under your base.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -327,7 +327,7 @@ If the knee lever removes your base, release unsafe arm tension and begin an esc
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. A shallow lower-leg anchor with the opposing knee entering your hip signals the sweep.
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Side Control]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep a hand or foot able to support the tipping direction before the upper body is captured.
 

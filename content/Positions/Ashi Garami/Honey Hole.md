@@ -200,21 +200,19 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (11% of attempts)
+- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (12% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (13% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (15% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (12% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (14% of attempts)
 
-- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (7% of attempts)
+- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (8% of attempts)
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (25% of attempts)
+- **[[Transitions/Grip Break/Attacker|Grip Break]]** (28% of attempts)
 
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (12% of attempts)
-
-- **[[Transitions/Sweep from Honey Hole/Attacker|Sweep from Honey Hole]]** (6% of attempts)
+- **[[Transitions/Sweep from Honey Hole/Attacker|Sweep from Honey Hole]]** (7% of attempts)
 
 
 ### Common Mistakes

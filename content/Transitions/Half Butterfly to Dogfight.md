@@ -310,8 +310,6 @@ The Half Butterfly to Dogfight transition sits at the critical junction between 
 
 - [[Transitions/Forward Drive Sweep from Dogfight]] - Follow-up sweep available after successful dogfight entry
 
-- [[Transitions/Back Take]] - High-value follow-up when opponent over-commits to whizzer defense in dogfight
-
 - [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome position when top player successfully drives bottom player back down
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative half guard configuration that can also lead to dogfight entries

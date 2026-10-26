@@ -20,27 +20,21 @@ description: "Carni bottom perspective: Use the guard and shoulder connection to
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook from Carni",
-      "text": "From this position, attempt Heel Hook from Carni. This technique is attempted in 45% of exchanges from this position.",
+      "name": "Execute Carni Shoulder Lock",
+      "text": "From this position, attempt Carni Shoulder Lock. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Carni Release to Guard",
+      "text": "From this position, attempt Carni Release to Guard. This technique is attempted in 35% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer from Carni",
-      "text": "From this position, attempt Calf Slicer from Carni. This technique is attempted in 18% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Carni to Gogoplata Setup",
-      "text": "From this position, attempt Carni to Gogoplata Setup. This technique is attempted in 16% of exchanges from this position.",
-      "position": 4
+      "text": "From this position, attempt Carni to Gogoplata Setup. This technique is attempted in 15% of exchanges from this position.",
+      "position": 3
     }
   ],
   "totalTime": "PT2M"

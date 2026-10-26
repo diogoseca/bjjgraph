@@ -20,39 +20,27 @@ description: "Invisible Collar bottom perspective: Keep the elbow separated from
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hand Fighting to Remove Collar Grip",
-      "text": "From this position, attempt Hand Fighting to Remove Collar Grip. This technique is attempted in 39% of exchanges from this position.",
+      "name": "Execute Invisible Collar Choke",
+      "text": "From this position, attempt Invisible Collar Choke. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Invisible Collar to Chill Dog",
+      "text": "From this position, attempt Invisible Collar to Chill Dog. This technique is attempted in 40% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Invisible Collar Guard Reset",
+      "text": "From this position, attempt Invisible Collar Guard Reset. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke from Invisible Collar",
+      "text": "From this position, attempt Cross Collar Choke from Invisible Collar. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 11% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 6% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -373,9 +361,9 @@ Work cooperatively on close without knee torque. Bring the second leg into the h
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 30% |
-| Advancement Probability | 35% |
-| Submission Probability | 60% |
+| Retention Rate | 78% |
+| Advancement Probability | 72% |
+| Submission Probability | 70% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

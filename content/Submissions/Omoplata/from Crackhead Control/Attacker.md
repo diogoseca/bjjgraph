@@ -4,13 +4,13 @@
 
 ---
 title: "Omoplata from Crackhead Control Attacker | BJJ Submission Guide | BJJ Graph"
-description: "Learn to attack with the omoplata from Crackhead Control. Step-by-step setup, execution, and counter responses for this Rubber Guard shoulder lock technique."
+description: "An omoplata from Crackhead Control requires releasing the reinforcing clinch, isolating one shoulder with the leg, and establishing finishing control before applying pressure."
 ---
 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Crackhead Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
+> **SAFETY**: Omoplata from Crackhead Control targets the Shoulder joint. Risk: Shoulder joint injury from excessive pressure. Release immediately upon tap.
 
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
@@ -22,38 +22,38 @@ description: "Learn to attack with the omoplata from Crackhead Control. Step-by-
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Confirm Crackhead Control",
-      "text": "Verify the overhook is tight on the opponent's near arm and their posture is fully broken with their forehead near the mat. Your shin should be positioned across the back of their neck with your foot grabbed. This foundation determines whether the omoplata entry will succeed.",
+      "name": "Recognize the high clinch",
+      "text": "Begin as the bottom holder of the high two-leg clinch; the shoulder must still be separately isolated.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Initiate leg thread",
-      "text": "Release the shin from behind the opponent's neck and swing your attacking leg over their trapped arm, threading it across their shoulder and upper back. Maintain the overhook grip throughout this transition to prevent the arm from slipping free as the leg crosses over.",
+      "name": "Release the reinforcement",
+      "text": "Open the reinforcing leg while retaining enough upper-body connection to organize the shoulder entry.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Hip escape to perpendicular angle",
-      "text": "Execute a strong hip escape away from the opponent, pivoting your body to create a perpendicular angle to their torso. Your hips must clear past their shoulder line so that your thigh rests firmly across the back of their shoulder with their arm pinned between your legs.",
+      "name": "Isolate one arm",
+      "text": "Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Secure hip control",
-      "text": "Immediately grip the opponent's far hip or belt line with both hands to prevent the forward roll escape. Your inside leg should hook across their lower back while your outside leg posts on the mat for base. This is the single most critical step for finishing success.",
+      "name": "Build the finishing angle",
+      "text": "Establish the body angle and hip control that stop the opponent from freely following the shoulder movement.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Sit up to finishing position",
-      "text": "Walk your hands forward on the mat while sitting your torso upright and perpendicular to the opponent. Their arm should be trapped between your legs with their elbow pointed toward the ceiling and the shoulder already under significant rotational tension from the angle.",
+      "name": "Load the shoulder gradually",
+      "text": "Take up slack without bouncing or forcing the knee; stop before the shoulder is driven beyond its available range.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Apply finishing pressure",
-      "text": "Lean forward progressively, driving your chest toward the mat in front of you while keeping the opponent's arm pinned against your hip. Apply slow, steady pressure that externally rotates their shoulder joint. Increase force gradually over 4-6 seconds until the opponent taps.",
+      "name": "Release the whole enclosure",
+      "text": "Stop at a tap or verbal signal, remove the joint pressure, and release the leg clamp so the arm can move freely.",
       "position": 6
     }
   ],
@@ -70,50 +70,50 @@ description: "Learn to attack with the omoplata from Crackhead Control. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the omoplata from Crackhead Control primarily attack?",
+      "name": "Omoplata from Crackhead Control: what does recognize the high clinch require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The omoplata attacks the shoulder joint through forced external rotation, primarily targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral capsule, and the AC joint. The lever created by your legs against the trapped arm generates rotational force that exceeds the shoulder's natural range of motion, creating a submission through joint hyperextension and capsular stress."
+        "text": "Begin as the bottom holder of the high two-leg clinch; the shoulder must still be separately isolated."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control: they posture as you thread your leg for the omoplata — what adjustment?",
+      "name": "Omoplata from Crackhead Control: what does release the reinforcement require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately abandon the omoplata entry and switch to a triangle choke by closing your legs around their neck and arm, or return to Mission Control by resetting the shin across the back of their neck. Forcing the omoplata against a posturing opponent burns energy and creates scramble situations that favor the top player. The partially threaded leg provides a platform for alternative attacks rather than requiring a full position reset."
+        "text": "Open the reinforcing leg while retaining enough upper-body connection to organize the shoulder entry."
       }
     },
     {
       "@type": "Question",
-      "name": "Which control must be set before the Crackhead Control omoplata finish, and why is it critical?",
+      "name": "Omoplata from Crackhead Control: what does isolate one arm require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Two-handed control on the opponent's far hip or belt line must be established before sitting up to finish. This eliminates the forward roll escape, which is the highest-percentage defense against all omoplata variations. Without hip control, even a mechanically perfect finishing angle will fail because the opponent can simply somersault forward to relieve shoulder pressure. Securing the hip before finishing is more important than speed or angle precision."
+        "text": "Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled."
       }
     },
     {
       "@type": "Question",
-      "name": "In the omoplata from Crackhead Control, when can your opponent no longer escape safely?",
+      "name": "Omoplata from Crackhead Control: what does build the finishing angle require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The point of no safe escape occurs when the attacker has achieved the perpendicular angle with hip control established and begins sitting up with forward pressure. At this stage, the shoulder is already under significant rotational stress and explosive escape attempts risk acute injury to the rotator cuff or labrum. The shoulder's available range of motion is fully consumed, and any sudden force from either direction can cause immediate damage requiring surgical intervention."
+        "text": "Establish the body angle and hip control that stop the opponent from freely following the shoulder movement."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the three most common finishing errors and what underlying cause do they share?",
+      "name": "Omoplata from Crackhead Control: what does load the shoulder gradually require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The three most common errors are leaning backward instead of driving the chest forward toward the mat, failing to control the far hip which allows the forward roll escape, and creating space between your thigh and the opponent's shoulder which permits arm extraction. All three share a common root cause of insufficient body positioning discipline during the finishing sequence, typically caused by rushing to finish rather than methodically establishing each control point."
+        "text": "Take up slack without bouncing or forcing the knee; stop before the shoulder is driven beyond its available range."
       }
     },
     {
       "@type": "Question",
-      "name": "How should your grips change from Crackhead Control through the omoplata finish?",
+      "name": "Omoplata from Crackhead Control: what does release the whole enclosure require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Begin with the overhook grip on the opponent's near arm during Crackhead Control. Maintain this grip throughout the leg thread until your leg is fully across their shoulder. Then release the overhook and transition both hands to the opponent's far hip to prevent the roll escape. As you sit up to finish, one hand remains controlling the hip while the other walks forward on the mat for additional forward driving pressure. Never release the overhook before the leg thread is complete."
+        "text": "Stop at a tap or verbal signal, remove the joint pressure, and release the leg clamp so the arm can move freely."
       }
     }
   ]
@@ -126,7 +126,7 @@ description: "Learn to attack with the omoplata from Crackhead Control. Step-by-
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Omoplata from Crackhead Control Attacker",
-  "description": "Learn to attack with the omoplata from Crackhead Control. Step-by-step setup, execution, and counter responses for this Rubber Guard shoulder lock technique.",
+  "description": "An omoplata from Crackhead Control requires releasing the reinforcing clinch, isolating one shoulder with the leg, and establishing finishing control before applying pressure.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -178,7 +178,13 @@ description: "Learn to attack with the omoplata from Crackhead Control. Step-by-
 
 <section id="overview" class="content-section">
 
-Attacking with the omoplata from Crackhead Control provides a systematic path from Rubber Guard control to a high-percentage shoulder lock finish. The pre-existing arm isolation and broken posture from Crackhead Control eliminate the setup phase that makes standard omoplata entries unreliable. The guard player can focus entirely on smooth leg threading, decisive hip escaping to create the perpendicular finishing angle, and disciplined hip control to prevent the forward roll escape that accounts for the majority of failed omoplata attempts across all entry positions.
+An omoplata from Crackhead Control requires releasing the reinforcing clinch, isolating one shoulder with the leg, and establishing finishing control before applying pressure.
+
+Begin as the bottom holder of the high two-leg clinch; the shoulder must still be separately isolated. Open the reinforcing leg while retaining enough upper-body connection to organize the shoulder entry.
+
+Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled. Establish the body angle and hip control that stop the opponent from freely following the shoulder movement. Take up slack without bouncing or forcing the knee; stop before the shoulder is driven beyond its available range. Stop at a tap or verbal signal, remove the joint pressure, and release the leg clamp so the arm can move freely.
+
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
@@ -193,12 +199,12 @@ Attacking with the omoplata from Crackhead Control provides a systematic path fr
 
 <p class="section-subtitle">What are the key principles for executing Omoplata from Crackhead Control?</p>
 
-- Break posture completely in Crackhead Control before initiating the leg thread to prevent the opponent from posturing out during the transition
-- Thread the attacking leg smoothly across the opponent's shoulder line without releasing the overhook or creating space for posture recovery
-- Hip escape decisively to create the perpendicular angle that generates shoulder rotation leverage against the trapped arm
-- Establish two-handed control on the opponent's far hip before attempting to finish to eliminate the forward roll escape
-- Sit up tall and walk hands forward to maximize the lever arm on the shoulder joint during the finishing sequence
-- Maintain constant downward pressure on the opponent's back with your legs to prevent them from sitting up or stacking
+- Two legs controlling upper-body posture: Begin as the bottom holder of the high two-leg clinch; the shoulder must still be separately isolated.
+- Open the second high-leg connection: Open the reinforcing leg while retaining enough upper-body connection to organize the shoulder entry.
+- One upper arm caught by the leg: Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled.
+- Torso angle and opponent hip control: Establish the body angle and hip control that stop the opponent from freely following the shoulder movement.
+- Small controlled pressure after isolation: Take up slack without bouncing or forcing the knee; stop before the shoulder is driven beyond its available range.
+- Unload first, then free the arm: Stop at a tap or verbal signal, remove the joint pressure, and release the leg clamp so the arm can move freely.
 
 
 </section>
@@ -209,10 +215,10 @@ Attacking with the omoplata from Crackhead Control provides a systematic path fr
 
 <p class="section-subtitle">What do you need before attempting Omoplata from Crackhead Control?</p>
 
-- Established Crackhead Control with opponent's posture completely broken and head driven toward the mat
-- Overhook secured on opponent's near arm with their elbow trapped past your hip line between your legs
-- Attacking leg positioned to swing freely across opponent's shoulder and upper back without obstruction
-- Opponent's base compromised through sustained posture breaking so they cannot explosively posture during the transition
+- Begin as the bottom holder of the high two-leg clinch; the shoulder must still be separately isolated.
+- Open the reinforcing leg while retaining enough upper-body connection to organize the shoulder entry.
+- Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled.
+- Establish the body angle and hip control that stop the opponent from freely following the shoulder movement.
 
 
 </section>
@@ -223,12 +229,12 @@ Attacking with the omoplata from Crackhead Control provides a systematic path fr
 
 <p class="section-subtitle">How do you execute Omoplata from Crackhead Control step by step?</p>
 
-1. **Confirm Crackhead Control**: Verify the overhook is tight on the opponent's near arm and their posture is fully broken with their forehead near the mat. Your shin should be positioned across the back of their neck with your foot grabbed. This foundation determines whether the omoplata entry will succeed. (Timing: 2-3 seconds to verify position)
-2. **Initiate leg thread**: Release the shin from behind the opponent's neck and swing your attacking leg over their trapped arm, threading it across their shoulder and upper back. Maintain the overhook grip throughout this transition to prevent the arm from slipping free as the leg crosses over. (Timing: 1-2 seconds for the leg swing)
-3. **Hip escape to perpendicular angle**: Execute a strong hip escape away from the opponent, pivoting your body to create a perpendicular angle to their torso. Your hips must clear past their shoulder line so that your thigh rests firmly across the back of their shoulder with their arm pinned between your legs. (Timing: 1-2 seconds for decisive hip escape)
-4. **Secure hip control**: Immediately grip the opponent's far hip or belt line with both hands to prevent the forward roll escape. Your inside leg should hook across their lower back while your outside leg posts on the mat for base. This is the single most critical step for finishing success. (Timing: Immediate transition after hip escape)
-5. **Sit up to finishing position**: Walk your hands forward on the mat while sitting your torso upright and perpendicular to the opponent. Their arm should be trapped between your legs with their elbow pointed toward the ceiling and the shoulder already under significant rotational tension from the angle. (Timing: 2-3 seconds to establish upright posture)
-6. **Apply finishing pressure**: Lean forward progressively, driving your chest toward the mat in front of you while keeping the opponent's arm pinned against your hip. Apply slow, steady pressure that externally rotates their shoulder joint. Increase force gradually over 4-6 seconds until the opponent taps. (Timing: 4-6 seconds of progressive pressure application)
+1. **Recognize the high clinch**: Begin as the bottom holder of the high two-leg clinch; the shoulder must still be separately isolated.
+2. **Release the reinforcement**: Open the reinforcing leg while retaining enough upper-body connection to organize the shoulder entry.
+3. **Isolate one arm**: Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled.
+4. **Build the finishing angle**: Establish the body angle and hip control that stop the opponent from freely following the shoulder movement.
+5. **Load the shoulder gradually**: Take up slack without bouncing or forcing the knee; stop before the shoulder is driven beyond its available range.
+6. **Release the whole enclosure**: Stop at a tap or verbal signal, remove the joint pressure, and release the leg clamp so the arm can move freely.
 
 
 </section>
@@ -239,9 +245,9 @@ Attacking with the omoplata from Crackhead Control provides a systematic path fr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 52% |
-| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 31% |
-| Counter | [[Positions/Closed Guard]] | 17% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>
@@ -252,9 +258,9 @@ Attacking with the omoplata from Crackhead Control provides a systematic path fr
 
 <p class="section-subtitle">How might your opponent defend against Omoplata from Crackhead Control?</p>
 
-- **Forward roll escape to relieve shoulder pressure before hip control is established** (Effectiveness: High) - Your Response: Follow their roll by maintaining leg control on the arm and immediately transition to mount or re-establish the omoplata from the new angle by staying connected to the trapped arm throughout the rotation → Leads to [[Positions/Rubber Guard/Crackhead Control]]
-- **Posturing up explosively before the leg thread completes across the shoulder** (Effectiveness: Medium) - Your Response: Immediately switch to triangle choke setup using the partially threaded leg to close around their neck, or return to Mission Control by resetting the shin across the back of their neck to re-establish Rubber Guard control → Leads to [[Positions/Rubber Guard/Crackhead Control]]
-- **Stacking body weight forward to collapse the perpendicular finishing angle** (Effectiveness: Low) - Your Response: Frame against their hip with your free hand and use your leg hooks to redirect their pressure laterally. Angle your hips further away to maintain the perpendicular position and continue the finishing sequence with increased urgency → Leads to [[Positions/Closed Guard]]
+- **Keep the elbow close before the leg crosses into shoulder isolation.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Control the hip distance while the holder opens the reinforcing leg.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Clear the wrist before the shoulder is loaded by the new enclosure.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Closed Guard]]
 
 
 </section>
@@ -265,35 +271,30 @@ Attacking with the omoplata from Crackhead Control provides a systematic path fr
 
 <p class="section-subtitle">What mistakes should you avoid when executing Omoplata from Crackhead Control?</p>
 
-### 1. Rushing the leg thread before posture is fully broken in Crackhead Control
+### 1. Skipping recognize the high clinch
 
-- **Consequence**: Opponent postures up during the transition and extracts their arm, losing the entire omoplata setup and potentially the guard position
-- **Correction**: Confirm posture is completely broken with forehead near the mat before initiating any leg movement from Crackhead Control
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Begin as the bottom holder of the high two-leg clinch; the shoulder must still be separately isolated.
 
-### 2. Failing to hip escape far enough to create the perpendicular finishing angle
+### 2. Skipping release the reinforcement
 
-- **Consequence**: Insufficient leverage on the shoulder joint, allowing the opponent to stack forward and recover posture or pass the guard
-- **Correction**: Hip escape until your hip clears past their shoulder line and your body forms a clear right angle to their torso
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Open the reinforcing leg while retaining enough upper-body connection to organize the shoulder entry.
 
-### 3. Not controlling the opponent's far hip before attempting to finish
+### 3. Skipping isolate one arm
 
-- **Consequence**: Opponent performs the forward roll escape, the highest-percentage omoplata defense, potentially reversing to top position
-- **Correction**: Always establish two-handed hip control before sitting up to finish - prioritize this over speed of the finishing sequence
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled.
 
-### 4. Leaning backward instead of driving chest forward during the finishing pressure
+### 4. Skipping build the finishing angle
 
-- **Consequence**: Removes the mechanical advantage from the shoulder lock and allows opponent to sit up, extract their arm, and escape
-- **Correction**: Walk hands forward and drive chest toward the mat in front of you while keeping the trapped arm pinned against your hip
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Establish the body angle and hip control that stop the opponent from freely following the shoulder movement.
 
-### 5. Releasing the overhook too early during the leg thread transition
+### 5. Skipping load the shoulder gradually
 
-- **Consequence**: Opponent's arm slips free before the leg is fully threaded across the shoulder, nullifying the entire attack sequence
-- **Correction**: Maintain the overhook grip until your leg is fully threaded and positioned across the shoulder, only releasing to transition to hip control
-
-### 6. Allowing space between your thigh and the opponent's shoulder during the finish
-
-- **Consequence**: Opponent extracts their arm through the gap between your thigh and their shoulder, escaping the submission entirely
-- **Correction**: Keep your thigh tight against the back of their shoulder by squeezing your legs together and maintaining constant downward pressure
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Take up slack without bouncing or forcing the knee; stop before the shoulder is driven beyond its available range.
 
 
 
@@ -305,17 +306,17 @@ Attacking with the omoplata from Crackhead Control provides a systematic path fr
 
 <p class="section-subtitle">How do you train Omoplata from Crackhead Control (Attacker)?</p>
 
-**Phase 1: Entry Mechanics** - Leg thread and hip escape from Crackhead Control
-Practice the leg threading motion from Crackhead Control into omoplata position with a cooperative partner. Focus on smooth release of the shin, controlled leg swing across the shoulder, and decisive hip escape to the perpendicular angle.
+**Phase 1** - Recognize the high clinch
+Begin as the bottom holder of the high two-leg clinch; the shoulder must still be separately isolated. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 2: Position Establishment** - Hip control timing and perpendicular angle precision
-Drill establishing the finishing position with progressive resistance, emphasizing the transition from leg thread completion to two-handed hip control. Partner provides increasing posture recovery attempts to build timing.
+**Phase 2** - Release the reinforcement
+Open the reinforcing leg while retaining enough upper-body connection to organize the shoulder entry. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 3: Finishing and Counter Responses** - Pressure application and defensive reaction chains
-Work the complete finishing sequence against moderate resistance. Partner alternates between forward roll, stacking, and posture recovery defenses while attacker practices appropriate counter-responses to each.
+**Phase 3** - Isolate one arm
+Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 4: Live Integration** - Full Rubber Guard to omoplata chain under resistance
-Incorporate the omoplata into live sparring from the complete Rubber Guard system. Chain with triangle, gogoplata, and sweep threats to create genuine dilemmas that open the omoplata entry.
+**Phase 4** - Build the finishing angle
+Establish the body angle and hip control that stop the opponent from freely following the shoulder movement. Pause at this checkpoint with a cooperative partner before linking the next step.
 
 
 

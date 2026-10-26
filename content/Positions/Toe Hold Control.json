@@ -127,11 +127,6 @@
         "condition": "If opponent extends leg and pushes away with straight leg",
         "actions": [
           {
-            "technique": "Kneebar Finish",
-            "target": "Kneebar Control",
-            "probability": 65
-          },
-          {
             "technique": "Ankle Lock Finish",
             "target": "Ashi Garami",
             "probability": 60

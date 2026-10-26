@@ -17,7 +17,7 @@
   "from_position": "Side Control/Bottom",
   "outcomes": [
     {
-      "to": "Buggy Choke/Top",
+      "to": "Buggy Choke/Bottom",
       "probability": {
         "gi": 45,
         "nogi": 45
@@ -63,7 +63,7 @@
       "relationship": "Target position achieved on successful entry - the locked figure that strangles with the trapped arm"
     },
     {
-      "name": "Finish Buggy Choke",
+      "name": "Buggy Choke from Buggy Choke",
       "relationship": "Follow-up transition that completes the strangle once the buggy figure is locked"
     },
     {
@@ -81,10 +81,6 @@
     {
       "name": "Crucifix",
       "relationship": "Branching attack available from the buggy figure when the top player extends the far arm to base"
-    },
-    {
-      "name": "Hook Leg and Take Back",
-      "relationship": "Branching transition when the top player turns away from the locked buggy figure"
     }
   ],
   "attacker": {
@@ -162,7 +158,7 @@
         "counter": "Top player extends the far arm to base wide and refuses to be turned into",
         "effectiveness": "Low",
         "your_response": "Use the extended far arm to switch to a crucifix entry by trapping that arm with your legs, or keep the figure and patiently turn your hips harder to re-thread the strangle line into their carotid.",
-        "targets_outcome": "Buggy Choke/Top"
+        "targets_outcome": "Side Control/Bottom"
       }
     ],
     "common_errors": [

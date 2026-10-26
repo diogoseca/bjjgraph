@@ -301,8 +301,6 @@ The Darce from turtle is a cornerstone technique in the modern front headlock su
 
 - [[Transitions/Anaconda Choke]] - Sister technique with mirror-image arm threading mechanics
 
-- [[Transitions/Back Take from Top]] - Positional alternative when submission attacks are defended
-
 
 </section>
 

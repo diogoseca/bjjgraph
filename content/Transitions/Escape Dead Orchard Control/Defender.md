@@ -4,7 +4,7 @@
 
 ---
 title: "Escape Dead Orchard Control Defender | BJJ Defense Guide | BJJ Graph"
-description: "Escape Dead Orchard Control (defender): Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Keep the arms compact and avoid offering a straight arm while trying to force posture."
+description: "Recognize Escape Dead Orchard Control and interrupt its required connections before the final control is established."
 ---
 
 
@@ -20,26 +20,26 @@ description: "Escape Dead Orchard Control (defender): Treat a high leg triangle 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
-      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+      "name": "Keep the high triangle connected while the opposing shoulders remain safely inside.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Keep the arms compact and avoid offering a straight arm while trying to force posture.",
-      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+      "name": "Follow a small change of angle with the hips while supporting the raised knee.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
-      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+      "name": "Retain arm proximity without pulling against a trapped elbow.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.",
-      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+      "name": "If the shoulders clear, lower the legs and maintain a facing closed guard.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 4
     }
   ],
@@ -56,42 +56,26 @@ description: "Escape Dead Orchard Control (defender): Treat a high leg triangle 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Escape Dead Orchard Control (top): What threat persists even without neck pressure?",
+      "name": "Against Escape Dead Orchard Control, what connection do you address first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A comfortable neck does not make the captured elbows safe in Dead Orchard."
+        "text": "Keep the high triangle connected while the opposing shoulders remain safely inside."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Dead Orchard Control (top): Which action offers the attacker an elbow lever?",
+      "name": "Against Escape Dead Orchard Control, when must you stop moving?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Orchard's demonstration exploits a straightened arm; do not offer that lever while forcing posture."
+        "text": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Dead Orchard Control (top): What is an early hip frame meant to interrupt?",
+      "name": "Against Escape Dead Orchard Control, does interrupting one grip guarantee a new position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Before the high figure-four closes, a hip or thigh frame can preserve space against the shoulder-level climb. It is not a late escape guarantee after both arms are trapped."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Escape Dead Orchard Control (top): What lets the shoulder and elbow withdraw together?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use actual shoulder clearance through the opened legs, stopping if the arm is already loaded."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Escape Dead Orchard Control (top): What is the checkpoint before lifting your chest?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recover upright posture after the shoulder line clears, not by dragging the trapped elbows upward."
+        "text": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
       }
     }
   ]
@@ -104,7 +88,7 @@ description: "Escape Dead Orchard Control (defender): Treat a high leg triangle 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Escape Dead Orchard Control Defender",
-  "description": "Escape Dead Orchard Control (defender): Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Keep the arms compact and avoid offering a straight arm while trying to force posture.",
+  "description": "Recognize Escape Dead Orchard Control and interrupt its required connections before the final control is established.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,83 +134,20 @@ description: "Escape Dead Orchard Control (defender): Treat a high leg triangle 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Escape Dead Orchard Control (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Prevent the Sucker Drag Escape During the Anaconda",
-      "description": "Escape Dead Orchard Control (Defender) film study: Prevent the Sucker Drag Escape During the Anaconda, taught by Drew Darce.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/guHPx-OKi0M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/guHPx-OKi0M",
-      "url": "https://www.youtube.com/watch?v=guHPx-OKi0M",
-      "creator": { "@type": "Person", "name": "Drew Darce" },
-      "duration": "PT159S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Detail to Keep the Anaconda Choke Tight",
-      "description": "Escape Dead Orchard Control (Defender) film study: Detail to Keep the Anaconda Choke Tight, taught by Tommy P.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/grRBEneVtR8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/grRBEneVtR8",
-      "url": "https://www.youtube.com/watch?v=grRBEneVtR8",
-      "creator": { "@type": "Person", "name": "Tommy P" },
-      "duration": "PT124S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection. The listed bottom seat is the holder of the real guard. Headlock arm extraction is not a direct defense against the both-arm leg triangle.
+You oppose the performer of this action. Keep the high triangle connected while the opposing shoulders remain safely inside. Follow a small change of angle with the hips while supporting the raised knee. Retain arm proximity without pulling against a trapped elbow. If the shoulders clear, lower the legs and maintain a facing closed guard. If the ankles cannot close comfortably, retain facing open guard with inside frames.
 
-Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Keep the arms compact and avoid offering a straight arm while trying to force posture. Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded. Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow. Use a verbal tap or foot tap if both hands are trapped, and do not rely on pain to judge remaining range.
-
-Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
-
-**Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Top)
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Escape Dead Orchard Control (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=guHPx-OKi0M)
-
-<p class="clip-credit"><strong>Prevent the Sucker Drag Escape During the Anaconda</strong> — taught by Drew Darce · 2:39 · <a href="https://www.youtube.com/watch?v=guHPx-OKi0M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=grRBEneVtR8)
-
-<p class="clip-credit"><strong>Detail to Keep the Anaconda Choke Tight</strong> — taught by Tommy P · 2:04 · <a href="https://www.youtube.com/watch?v=grRBEneVtR8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -235,9 +156,9 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 <p class="section-subtitle">How do you know when someone is attempting Escape Dead Orchard Control?</p>
 
-- The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection.
-- Release any wrist, neck or elbow loading before opening the high-leg enclosure.
-- Bring the forearms and knees between the bodies as space becomes available.
+- You are the top player facing the guard holder. Both of your arms are enclosed by the high leg triangle.
+- Keep your elbows compact. Do not straighten a captured arm to force your head or shoulders upward.
+- Create space at the hip and leg connection before withdrawing the shoulders; stop if an elbow is already loaded.
 
 
 </section>
@@ -248,12 +169,11 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 <p class="section-subtitle">What are the key principles for defending Escape Dead Orchard Control?</p>
 
-- Recognize both-arm capture: Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.
-- Protect the elbows: Keep the arms compact and avoid offering a straight arm while trying to force posture.
-- Prevent the leg closure: Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.
-- Clear a shoulder safely: Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.
-- Recover base in stages: Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow.
-- Tap with any free signal: Use a verbal tap or foot tap if both hands are trapped, and do not rely on pain to judge remaining range.
+- Keep the high triangle connected while the opposing shoulders remain safely inside.
+- Follow a small change of angle with the hips while supporting the raised knee.
+- Retain arm proximity without pulling against a trapped elbow.
+- If the shoulders clear, lower the legs and maintain a facing closed guard.
+- If the ankles cannot close comfortably, retain facing open guard with inside frames.
 
 
 </section>
@@ -264,33 +184,33 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 <p class="section-subtitle">What can you do to defend against Escape Dead Orchard Control?</p>
 
-### 1. Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.
+### 1. Keep the high triangle connected while the opposing shoulders remain safely inside.
 
-- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
+- **When to use**: Before the next connection or pressure is established.
 - **Targets**: [[Positions/Dead Orchard Control]]
-- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
-- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-### 2. Keep the arms compact and avoid offering a straight arm while trying to force posture.
+### 2. Follow a small change of angle with the hips while supporting the raised knee.
 
-- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Anaconda Control]]
-- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
-- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
-
-### 3. Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.
-
-- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Back Control]]
-- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
-- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
-
-### 4. Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.
-
-- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
+- **When to use**: Before the next connection or pressure is established.
 - **Targets**: [[Positions/Dead Orchard Control]]
-- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
-- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
+
+### 3. Retain arm proximity without pulling against a trapped elbow.
+
+- **When to use**: Before the next connection or pressure is established.
+- **Targets**: [[Positions/Dead Orchard Control]]
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
+
+### 4. If the shoulders clear, lower the legs and maintain a facing closed guard.
+
+- **When to use**: Before the next connection or pressure is established.
+- **Targets**: [[Positions/Dead Orchard Control]]
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 
 
@@ -304,15 +224,11 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ### → [[Positions/Dead Orchard Control]]
 
-Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.
+Keep the high triangle connected while the opposing shoulders remain safely inside.
 
-### → [[Positions/Anaconda Control]]
+### → [[Positions/Dead Orchard Control]]
 
-Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the arms compact and avoid offering a straight arm while trying to force posture.
-
-### → [[Positions/Back Control]]
-
-Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.
+If the ankles cannot close comfortably, retain facing open guard with inside frames.
 
 
 
@@ -324,20 +240,20 @@ Interrupt the next connection while preserving a safe base. Establish any new gu
 
 <p class="section-subtitle">What mistakes should you avoid when defending Escape Dead Orchard Control?</p>
 
-### 1. Skipping the checkpoint: recognize both-arm capture
+### 1. Acting after the joint or neck is already loaded
 
-- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.
-- **Correction**: Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.
+- **Consequence**: The attempted movement may increase pressure.
+- **Correction**: Tap and release before moving.
 
-### 2. Skipping the checkpoint: protect the elbows
+### 2. Assuming a cleared grip completes the escape
 
-- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep the arms compact and avoid offering a straight arm while trying to force posture.
-- **Correction**: Keep the arms compact and avoid offering a straight arm while trying to force posture.
+- **Consequence**: The remaining control can still prevent the intended landing.
+- **Correction**: If the ankles cannot close comfortably, retain facing open guard with inside frames.
 
-### 3. Skipping the checkpoint: prevent the leg closure
+### 3. Losing a stable base during the response
 
-- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.
-- **Correction**: Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.
+- **Consequence**: You may concede the next connection.
+- **Correction**: Follow a small change of angle with the hips while supporting the raised knee.
 
 
 
@@ -349,14 +265,14 @@ Interrupt the next connection while preserving a safe base. Establish any new gu
 
 <p class="section-subtitle">How do you train defense against Escape Dead Orchard Control?</p>
 
-**Phase 1** - Identify the configuration
-Work cooperatively on recognize both-arm capture. Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
+**Phase 1** - Recognize both-arm capture
+You are the top player facing the guard holder. Both of your arms are enclosed by the high leg triangle. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 2** - Rehearse the connection
-Work cooperatively on protect the elbows. Keep the arms compact and avoid offering a straight arm while trying to force posture. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
+**Phase 2** - Protect the elbows
+Keep your elbows compact. Do not straighten a captured arm to force your head or shoulders upward. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 3** - Add an early response
-Work cooperatively on prevent the leg closure. Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
+**Phase 3** - Open the enclosure
+Create space at the hip and leg connection before withdrawing the shoulders; stop if an elbow is already loaded. Pause at this checkpoint with a cooperative partner before linking the next step.
 
 
 

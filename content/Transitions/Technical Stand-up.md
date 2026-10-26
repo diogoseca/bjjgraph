@@ -90,6 +90,8 @@ The technique is particularly valuable in self-defense scenarios, scrambles, and
 
 Mastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.
 
+Inversion disengagement: Release the inverted hooks, uncurl through the hips into a seated base, and post a hand and the opposite foot. Lift the hips, withdraw the free leg, and stand while maintaining distance. The completed finish is Standing Position/Top; a failed uncurling stays in Inverted Guard/Bottom.
+
 **From Position**: [[Positions/Seated Guard]] (Bottom)
 **Success Rate**: 41%
 
@@ -169,7 +171,7 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 
 - **Establish seated base**: From seated guard or bottom position, sit up with back straight and hands ready. Your lead leg (typi...
 
-- **Post hand behind hip**: Place your posting hand (same side as trail leg) flat on the mat approximately 12-18 inches behind a...
+- **Post hand behind hip**: Post one hand behind the hip and the opposite foot on the mat. Keep the supporting shoulder active a...
 
 - **Elevate hips off mat**: Drive through your posting hand and lead leg simultaneously to lift your hips completely off the mat...
 
@@ -262,6 +264,9 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 
 
 **Single Leg Integration Stand-up**: Technical stand-up initiated while controlling opponent's leg in Single Leg X-Guard or other leg entanglement. Use the controlled leg as reference point while executing standard technical stand-up mechanics. Creates opportunity for Single Leg Takedown or forces opponent to disengage their passing attempt. Requires coordination of leg control while standing. (When to use: When transitioning from leg entanglement positions and wanting to stand while maintaining offensive connection to opponent)
+
+
+**Inversion disengagement**: Release the inverted hooks, uncurl through the hips into a seated base, and post a hand and the opposite foot. Lift the hips, withdraw the free leg, and stand while maintaining distance. The completed finish is Standing Position/Top; a failed uncurling stays in Inverted Guard/Bottom. (When to use: Against the shoulder-supported inversion described in Inverted Guard.)
 
 
 

@@ -20,39 +20,15 @@ description: "Zombie top perspective: Keep a useful forearm between the bodies b
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Posture Recovery from Zombie",
+      "text": "From this position, attempt Posture Recovery from Zombie. This technique is attempted in 60% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Strip Grip from Zombie",
+      "text": "From this position, attempt Strip Grip from Zombie. This technique is attempted in 40% of exchanges from this position.",
       "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Turtle to Back Take",
-      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 12% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 7% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -371,9 +347,9 @@ Work cooperatively on notice the pummel early. The free hand working under yours
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 77% |
+| Retention Rate | 62% |
 | Advancement Probability | 58% |
-| Submission Probability | 32% |
+| Submission Probability | 16% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

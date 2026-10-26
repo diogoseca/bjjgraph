@@ -20,39 +20,9 @@ description: "Hindulotine top perspective: An elbow traveling over the opponent'
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke from Hindulotine",
-      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Hindu Control Head and Leg Release",
+      "text": "From this position, attempt Hindu Control Head and Leg Release. This technique is attempted in 100% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Back Take from Top",
-      "text": "From this position, attempt Back Take from Top. This technique is attempted in 14% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 14% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 10% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Hindulotine from Hindulotine",
-      "text": "From this position, attempt Hindulotine from Hindulotine. This technique is attempted in 17% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Finish from Hindulotine",
-      "text": "From this position, attempt Finish from Hindulotine. This technique is attempted in 11% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -312,9 +282,9 @@ Work cooperatively on fight the hand connection early. Use an inside hand frame 
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 78% |
-| Advancement Probability | 70% |
-| Submission Probability | 65% |
+| Retention Rate | 72% |
+| Advancement Probability | 65% |
+| Submission Probability | 60% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

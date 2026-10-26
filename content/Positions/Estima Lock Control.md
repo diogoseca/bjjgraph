@@ -143,15 +143,13 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (30% of attempts)
+- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (37% of attempts)
 
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (19% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (16% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (13% of attempts)
+- **[[Transitions/Estima Lock Counter Roll/Attacker|Estima Lock Counter Roll]]** (19% of attempts)
 
-- **[[Transitions/Estima Lock Counter Roll/Attacker|Estima Lock Counter Roll]]** (15% of attempts)
-
-- **[[Transitions/Counter from Estima Lock/Attacker|Counter from Estima Lock]]** (23% of attempts)
+- **[[Transitions/Counter from Estima Lock/Attacker|Counter from Estima Lock]]** (28% of attempts)
 
 
 ### Common Mistakes

@@ -129,6 +129,10 @@
     {
       "name": "Armbar from Triangle Control",
       "slug": "from-triangle-control"
+    },
+    {
+      "name": "from Dead Orchard Control",
+      "slug": "from-Dead-Orchard-Control"
     }
   ],
   "from_positions": [
@@ -142,7 +146,8 @@
     "Side Control",
     "Back Control",
     "High Mount",
-    "Triangle Control"
+    "Triangle Control",
+    "Dead Orchard Control"
   ],
   "related_submissions": [
     {

@@ -184,8 +184,8 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive | Offensive |
-| **Risk Level** | Medium | Low to Medium |
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | Medium to High | Medium to High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
@@ -221,23 +221,13 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Chill Dog to Gogoplata Control/Attacker|Chill Dog to Gogoplata Control]]** (40% of attempts)
 
-- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (9% of attempts)
+- **[[Transitions/Chill Dog to Invisible Collar/Attacker|Chill Dog to Invisible Collar]]** (35% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (10% of attempts)
+- **[[Transitions/Escape Chill Dog/Attacker|Escape Chill Dog]]** (20% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (12% of attempts)
-
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (14% of attempts)
-
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (10% of attempts)
-
-- **[[Transitions/Escape Chill Dog/Attacker|Escape Chill Dog]]** (15% of attempts)
-
-- **[[Transitions/Roll from Chill Dog/Attacker|Roll from Chill Dog]]** (9% of attempts)
-
-- **[[Transitions/Sweep from Chill Dog/Attacker|Sweep from Chill Dog]]** (7% of attempts)
+- **[[Transitions/Sweep from Chill Dog/Attacker|Sweep from Chill Dog]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -292,25 +282,11 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (18% of attempts)
+- **[[Transitions/Posture from Chill Dog/Attacker|Posture from Chill Dog]]** (85% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (7% of attempts)
+- **[[Transitions/Guard Pass from Chill Dog/Attacker|Guard Pass from Chill Dog]]** (10% of attempts)
 
-- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (12% of attempts)
-
-- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (7% of attempts)
-
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (11% of attempts)
-
-- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (7% of attempts)
-
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (8% of attempts)
-
-- **[[Transitions/Posture from Chill Dog/Attacker|Posture from Chill Dog]]** (10% of attempts)
-
-- **[[Transitions/Stack from Chill Dog/Attacker|Stack from Chill Dog]]** (8% of attempts)
-
-- **[[Transitions/Guard Pass from Chill Dog/Attacker|Guard Pass from Chill Dog]]** (12% of attempts)
+- **[[Transitions/Stack from Chill Dog/Attacker|Stack from Chill Dog]]** (5% of attempts)
 
 
 ### Common Mistakes

@@ -292,8 +292,6 @@ The cross face pass from flattened half guard occupies a critical position in th
 
 - [[Positions/Half Guard/Deep Half Guard]] - Defensive transition available to the bottom player if they dive under during the pass
 
-- [[Transitions/Back Take]] - Alternative transition if the defender turns away during the crossface pass attempt
-
 - [[Transitions/Arm Triangle Setup]] - Submission threat available when defender crosses their arm across their neck during defense
 
 - [[Positions/Half Guard/Lockdown]] - Leg control system the defender may employ to prevent leg extraction during the pass

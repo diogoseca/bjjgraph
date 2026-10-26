@@ -236,7 +236,6 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 
 **Else if bottom player attempts to turn away or go to turtle:**
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 65%)
 - Execute **[[Transitions/Darce Setup/Attacker|Darce Setup]]** → [[Positions/Darce Control]] (Probability: 55%)
 
 

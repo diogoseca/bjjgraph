@@ -134,11 +134,6 @@
         "condition": "If opponent turns to side attempting to escape",
         "actions": [
           {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 50
-          },
-          {
             "technique": "S-Mount Transition",
             "target": "S Mount",
             "probability": 70
@@ -268,64 +263,57 @@
       {
         "transition": "KOB to Mount",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 22
+          "gi": 19,
+          "nogi": 24
         }
       },
       {
         "transition": "Far Side Armbar from KOB",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 16
+          "gi": 14,
+          "nogi": 18
         }
       },
       {
         "transition": "Baseball Bat Choke from Knee on Belly",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 11,
           "nogi": null
         }
       },
       {
         "transition": "Cross Collar Choke from Knee on Belly",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 10,
           "nogi": null
         }
       },
       {
         "transition": "KOB to Side Control",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 17
+          "gi": 16,
+          "nogi": 19
         }
       },
       {
         "transition": "Kimura from Knee on Belly",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 9
+          "nogi": 13
         }
       },
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Armbar from Knee on Belly",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 11
         }
       },
       {

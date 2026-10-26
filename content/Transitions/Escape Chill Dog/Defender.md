@@ -274,7 +274,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 ### 2. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Back Control]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -306,7 +306,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.
 
-### → [[Positions/Back Control]]
+### → [[Positions/Open Guard]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 

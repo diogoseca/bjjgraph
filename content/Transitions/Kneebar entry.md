@@ -304,8 +304,6 @@ The Kneebar entry from 50-50 represents a critical branch in the leg lock decisi
 
 - [[Positions/X-Guard/Single Leg X-Guard]] - Escape position if entry fails and space is created
 
-- [[Transitions/Kneebar Finish]] - Follow-up submission from Kneebar Control
-
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement with similar attack options
 
 

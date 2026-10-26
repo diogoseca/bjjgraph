@@ -302,7 +302,6 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Positions/Kimura Trap]] - Control position incorporating reverse grip variations and systematic shoulder attacks
-- [[Transitions/Back Take]] - Primary transition when reverse Kimura is defended by rotation, attacker follows to back control
 - [[Positions/Overhook Control]] - Standing setup position for reverse Kimura entry
 - [[Positions/Gift Wrap]] - Alternative arm trap leading to similar submission mechanics
 - [[Positions/Turtle]] - Common position where reverse Kimura is applied from top control

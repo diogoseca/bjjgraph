@@ -537,7 +537,7 @@
             "probability": 55
           },
           {
-            "technique": "Rolling Escape to Guard",
+            "technique": "Armbar Defense",
             "target": "Closed Guard",
             "probability": 65
           }
@@ -683,59 +683,52 @@
     },
     "transitions": [
       {
-        "transition": "Hip Escape to Guard",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Stack Defense",
-        "attempt_probability": {
-          "gi": 19,
-          "nogi": 20
-        }
-      },
-      {
         "transition": "Arm Extraction",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 17
+          "gi": 16,
+          "nogi": 18
         }
       },
       {
-        "transition": "Hitchhiker Escape from Armbar",
+        "transition": "Armbar Defense",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 13
+          "gi": 16,
+          "nogi": 14
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
-        "transition": "Rolling Escape to Guard",
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "Hip Escape to Turtle",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
         }
       },
       {
-        "transition": "Hip Escape to Turtle",
+        "transition": "Hitchhiker Escape from Armbar",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
-        "transition": "Armbar Defense",
+        "transition": "Stack Defense",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 13
+          "gi": 21,
+          "nogi": 22
         }
       }
     ],

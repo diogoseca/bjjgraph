@@ -85,11 +85,6 @@
       "name": "from Anaconda Control",
       "slug": "from-anaconda-control",
       "description": "Primary finish from established anaconda control position"
-    },
-    {
-      "name": "from Dead Orchard",
-      "slug": "from-dead-orchard",
-      "description": "Finishing sequence from Dead Orchard control (10th Planet front headlock system)"
     }
   ],
   "from_positions": [
@@ -125,10 +120,6 @@
     {
       "name": "Arm in Guillotine",
       "relationship": "Arm-in guillotine variation with shared front headlock entries and transitions"
-    },
-    {
-      "name": "Anaconda Choke from Dead Orchard",
-      "relationship": "Advanced finishing variation accessed through Dead Orchard control pathway"
     }
   ],
   "related_content": [

@@ -255,8 +255,6 @@ The Roll Through to Reversal integrates into the front headlock escape system as
 
 - [[Submissions/Darce Choke]] - Submission available from front headlock top after successful reversal
 
-- [[Transitions/Back Take]] - Transition option after successful reversal from front headlock top
-
 - [[Positions/Turtle]] - Related defensive position with similar escape mechanics
 
 - [[Transitions/Arm Drag Escape]] - Alternative front headlock escape that chains with roll through

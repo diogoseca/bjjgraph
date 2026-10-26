@@ -302,7 +302,6 @@ The position also serves a critical strategic role in competition and training s
 
 **Else if opponent turns away exposing their back to escape pressure:**
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 72%)
 
 
 

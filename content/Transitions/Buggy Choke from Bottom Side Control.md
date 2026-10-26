@@ -301,7 +301,7 @@ The Buggy Choke from Bottom Side Control sits at the intersection of escape and 
 
 - [[Positions/Buggy Choke]] - Target position achieved on successful entry - the locked figure that strangles with the trapped arm
 
-- [[Transitions/Finish Buggy Choke]] - Follow-up transition that completes the strangle once the buggy figure is locked
+- [[Submissions/Buggy Choke/from Buggy Choke]] - Follow-up transition that completes the strangle once the buggy figure is locked
 
 - [[Transitions/Elbow Escape to Guard]] - Alternative bottom side control action when the near arm is not available for the buggy frame
 
@@ -310,8 +310,6 @@ The Buggy Choke from Bottom Side Control sits at the intersection of escape and 
 - [[Positions/Half Guard]] - Recovery position the exchange can resolve to when the entry fails and the bottom player frames back to guard
 
 - [[Positions/Crucifix]] - Branching attack available from the buggy figure when the top player extends the far arm to base
-
-- [[Transitions/Hook Leg and Take Back]] - Branching transition when the top player turns away from the locked buggy figure
 
 
 </section>

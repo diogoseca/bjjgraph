@@ -241,7 +241,6 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 
 **If opponent attempts to extract trapped leg by extending it:**
 - Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
-- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 

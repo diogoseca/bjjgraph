@@ -660,11 +660,6 @@
             "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 60
-          },
-          {
-            "technique": "Roll to Truck",
-            "target": "Truck",
-            "probability": 55
           }
         ]
       }

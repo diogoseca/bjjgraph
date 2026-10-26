@@ -298,7 +298,6 @@ The top player must establish upper body control first through crossface or unde
 
 **Else if bottom player turns to turtle to escape:**
 - Execute **[[Transitions/Front Headlock to Guillotine/Attacker|Front Headlock to Guillotine]]** → [[Positions/Front Headlock]] (Probability: 50%)
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 

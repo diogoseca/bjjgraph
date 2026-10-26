@@ -20,39 +20,15 @@ description: "Invisible Collar top perspective: The free leg moving behind your 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Cross Collar Choke from Invisible Collar",
-      "text": "From this position, attempt Cross Collar Choke from Invisible Collar. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Invisible Collar Posture Recovery",
+      "text": "From this position, attempt Invisible Collar Posture Recovery. This technique is attempted in 90% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke from Invisible Collar",
-      "text": "From this position, attempt Rear Naked Choke from Invisible Collar. This technique is attempted in 37% of exchanges from this position.",
+      "name": "Execute Standing Escape",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 8% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Aoki Lock to Crucifix",
-      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 3% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke from Invisible Collar",
-      "text": "From this position, attempt Bow and Arrow Choke from Invisible Collar. This technique exists in the gi ruleset only; it does not occur in no-gi.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Clock Choke from Invisible Collar",
-      "text": "From this position, attempt Clock Choke from Invisible Collar. This technique exists in the gi ruleset only; it does not occur in no-gi.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -392,9 +368,9 @@ Work cooperatively on keep a balanced base. Avoid driving all weight onto the pa
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 78% |
-| Advancement Probability | 72% |
-| Submission Probability | 70% |
+| Retention Rate | 30% |
+| Advancement Probability | 35% |
+| Submission Probability | 60% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

@@ -200,7 +200,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 |---|---|---|---|---|
 | [[Submissions/Arm Triangle/from High Mount|High Mount]] | Top | 68% | [[Submissions/Arm Triangle/from High Mount/Attacker|Attack →]] | [[Submissions/Arm Triangle/from High Mount/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Shoulder of Justice|Shoulder of Justice]] | Top | 68% | [[Submissions/Arm Triangle/from Shoulder of Justice/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Shoulder of Justice/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Hindulotine|Hindulotine]] | Top | 62% | [[Submissions/Arm Triangle/from Hindulotine/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Hindulotine/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Hindulotine|Hindulotine]] | Bottom | 62% | [[Submissions/Arm Triangle/from Hindulotine/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Hindulotine/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Kuzure Kesa Gatame|Kuzure Kesa Gatame]] | Top | 62% | [[Submissions/Arm Triangle/from Kuzure Kesa Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Kuzure Kesa Gatame/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Turtle|Turtle]] | Top | 62% | [[Submissions/Arm Triangle/from Turtle/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Turtle/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Kesa Gatame|Kesa Gatame]] | Top | 50% | [[Submissions/Arm Triangle/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Kesa Gatame/Defender|Defend →]] |

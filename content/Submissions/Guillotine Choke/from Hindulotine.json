@@ -10,11 +10,11 @@
   "submission_category": "Choke",
   "submission_type": "Front neck enclosure",
   "target_area": "Neck",
-  "starting_position": "Hindulotine",
-  "from_position": "Hindulotine/Top",
+  "starting_position": "Hindulotine/Bottom",
+  "from_position": "Hindulotine/Bottom",
   "success_rate": {
-    "gi": 62,
-    "nogi": 62
+    "gi": 30,
+    "nogi": 30
   },
   "overview": "The attacker is in front of a lowered head, with the choking arm around the neck and a stable standing or guard connection. Hindu Control includes a raised leg in the enclosure. An ordinary guillotine requires deliberate re-gripping and leg clearance; a shared word in the names does not make the grips interchangeable.\n\nEstablish a chin-strap or equivalent front head control without twisting the jaw. Bring the forearm into the neck space while keeping the head aligned. Secure the selected grip without pulling the head backward. Use a stable base or guard connection so the opponent cannot freely circle around the choke.\n\nUse slow enclosure practice and avoid cervical extension or twisting. Open the hands and remove the neck restraint immediately on any tap.\n\nInstructional sources: [Rob Biernacki and Stephan Kesting — guillotine control](https://www.grapplearts.com/guillotine-choke/); [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc).",
   "safety_considerations": {
@@ -73,28 +73,28 @@
   ],
   "outcomes": [
     {
+      "result": "success",
       "to": "game-over",
       "probability": {
-        "gi": 62,
-        "nogi": 62
-      },
-      "result": "success"
+        "gi": 30,
+        "nogi": 30
+      }
     },
     {
-      "to": "Hindulotine/Top",
+      "result": "failure",
+      "to": "Hindulotine/Bottom",
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      }
+    },
+    {
+      "result": "counter",
+      "to": "Closed Guard/Bottom",
       "probability": {
         "gi": 25,
         "nogi": 25
-      },
-      "result": "failure"
-    },
-    {
-      "to": "Closed Guard/Bottom",
-      "probability": {
-        "gi": 13,
-        "nogi": 13
-      },
-      "result": "counter"
+      }
     }
   ],
   "variations_and_setups": [
@@ -164,7 +164,7 @@
         "counter": "Manage posture and inside hands before the choking arm circles the neck.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Establish a chin-strap or equivalent front head control without twisting the jaw.",
-        "targets_outcome": "Hindulotine/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
         "counter": "Interrupt the hand connection before it becomes a closed enclosure.",
@@ -176,13 +176,13 @@
         "counter": "Do not wrench the head backward or rotate it against a fixed forearm.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Secure the selected grip without pulling the head backward.",
-        "targets_outcome": "Hindulotine/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
         "counter": "Use frames and base before the attacker fixes the relationship between both torsos.",
         "effectiveness": "Low",
         "your_response": "Re-check the prerequisite before continuing. Use a stable base or guard connection so the opponent cannot freely circle around the choke.",
-        "targets_outcome": "Hindulotine/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       }
     ],
     "common_errors": [
@@ -429,14 +429,14 @@
       {
         "action": "Manage posture and inside hands before the choking arm circles the neck.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Hindulotine/Top",
+        "targets_outcome": "Hindulotine/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Use slow enclosure practice and avoid cervical extension or twisting. Open the hands and remove the neck restraint immediately on any tap."
       },
       {
         "action": "Interrupt the hand connection before it becomes a closed enclosure.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Hindulotine/Top",
+        "targets_outcome": "Hindulotine/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Use slow enclosure practice and avoid cervical extension or twisting. Open the hands and remove the neck restraint immediately on any tap."
       },
@@ -465,7 +465,7 @@
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Manage posture and inside hands before the choking arm circles the neck."
       },
       {
-        "outcome": "Hindulotine/Top",
+        "outcome": "Hindulotine/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Interrupt the hand connection before it becomes a closed enclosure."
       }
     ],

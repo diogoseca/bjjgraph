@@ -326,7 +326,7 @@ As the shoulder clamp opens, keep the inside forearm between the bodies to manag
 |--------|----------|-------------|
 | Success | [[Positions/Gogoplata Control]] | 40% |
 | Failure | [[Positions/Rubber Guard/Carni]] | 40% |
-| Counter | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -339,8 +339,8 @@ As the shoulder clamp opens, keep the inside forearm between the bodies to manag
 
 - **Use an inside forearm frame before the shin enters under the chin.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Remove wrist and triceps finishing pressure before changing the leg angle. → Leads to [[Positions/Rubber Guard/Carni]]
 - **Do not jerk the head upward while the high leg remains fixed.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a comfortable knee hug and hip connection as the opponent's arm is released. → Leads to [[Positions/Rubber Guard/Carni]]
-- **Recover the elbow as the shoulder lock opens, without yanking against remaining control.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Use a forearm frame and hip turn to make room for the high leg. → Leads to [[Positions/Open Guard]]
-- **Avoid driving the partner into a neck stack during the leg change.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Use the available path without hauling the foot against a fixed knee. → Leads to [[Positions/Open Guard]]
+- **Recover the elbow as the shoulder lock opens, without yanking against remaining control.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Use a forearm frame and hip turn to make room for the high leg. → Leads to [[Positions/Closed Guard]]
+- **Avoid driving the partner into a neck stack during the leg change.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Use the available path without hauling the foot against a fixed knee. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

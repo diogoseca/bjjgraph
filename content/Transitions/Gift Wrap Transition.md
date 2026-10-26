@@ -296,8 +296,6 @@ The Gift Wrap Transition is a critical link in the mount attack system, connecti
 
 - [[Positions/Mount/Technical Mount]] - Alternative position if opponent turns during transition
 
-- [[Transitions/Back Take from Top]] - Synergistic technique - Gift Wrap facilitates back take entries
-
 - [[Submissions/Rear Naked Choke]] - Primary submission threat from established Gift Wrap position
 
 

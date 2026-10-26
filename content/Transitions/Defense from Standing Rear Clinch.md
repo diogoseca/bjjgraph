@@ -321,8 +321,6 @@ Defense from Standing Rear Clinch serves as the critical defensive gateway preve
 
 - [[Positions/Turtle]] - Intermediate position that may result from incomplete escape attempts
 
-- [[Transitions/Back Take]] - Opponent's strategic objective that this defense disrupts
-
 - [[Positions/Body Lock]] - Common grip configuration used by opponent that must be addressed during escape
 
 - [[Transitions/Break Clinch]] - Related standing escape technique with shared grip-fighting principles

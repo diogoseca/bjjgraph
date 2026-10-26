@@ -16,7 +16,7 @@ description: "Progression to Zombie (attacker): Maintain posture control while f
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Progression to Zombie in BJJ",
-  "description": "Step-by-step guide for executing Progression to Zombie from New York/Bottom.",
+  "description": "Step-by-step guide for executing Progression to Zombie from Mission Control/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -219,7 +219,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Rebuild the New York overhook after the inside hand has been cleared, keeping the knee supported throughout the pummel. Guard retention takes priority over the next submission if the partner regains posture or the knee begins to slip out of position.
 
-**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
 
@@ -303,9 +303,9 @@ Rebuild the New York overhook after the inside hand has been cleared, keeping th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Rubber Guard/Zombie]] | 58% |
-| Failure | [[Positions/Rubber Guard/New York]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Zombie]] | 45% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -316,10 +316,10 @@ Rebuild the New York overhook after the inside hand has been cleared, keeping th
 
 <p class="section-subtitle">How might your opponent counter Progression to Zombie?</p>
 
-- **Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Maintain posture control while freeing the other arm for the pummel. → Leads to [[Positions/Rubber Guard/New York]]
+- **Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Maintain posture control while freeing the other arm for the pummel. → Leads to [[Positions/Rubber Guard/Mission Control]]
 - **Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. → Leads to [[Positions/Closed Guard]]
-- **The free hand working under yours is the cue to recover inside position before the knee hug closes.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Guide the wrist and forearm through the available space without bending individual fingers. → Leads to [[Positions/Rubber Guard/New York]]
-- **Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Cover the cleared arm and close the knee hug as the hand reaches the mat. → Leads to [[Positions/Rubber Guard/New York]]
+- **The free hand working under yours is the cue to recover inside position before the knee hug closes.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Guide the wrist and forearm through the available space without bending individual fingers. → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Cover the cleared arm and close the knee hug as the hand reaches the mat. → Leads to [[Positions/Rubber Guard/Mission Control]]
 
 
 </section>

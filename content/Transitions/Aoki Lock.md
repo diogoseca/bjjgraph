@@ -104,8 +104,8 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).
 
-**From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 50%
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
+**Success Rate**: 40%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Aoki Lock/from Aoki Lock Control]] | 65% |
-| Failure | [[Positions/Aoki Lock Control]] | 25% |
-| Counter | [[Positions/Open Guard]] | 10% |
+| Success | [[Positions/Aoki Lock Control]] | 40% |
+| Failure | [[Positions/Ashi Garami]] | 40% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>

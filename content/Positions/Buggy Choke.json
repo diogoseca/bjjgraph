@@ -42,8 +42,8 @@
     "overview": "The top player is responsible for recognizing and defending the control. The top player is beside the bottom player in side-control geometry. The bottom player has turned partly toward the opponent and brought an arm past the head. That arm connects to the same-side raised leg, enclosing the top player's head and one arm. The controlling elbow stays near the knee so the loop does not depend on wrenching the foot.\n\nWatch for an arm reaching past your head and connecting to the same-side leg. Use balanced posture and safe inside frames before the loop closes. Treat the choke as live even though you hold top side control.\n\nFree the head-and-arm enclosure before changing to north-south or chasing another pin. Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape. Stop before dizziness or loss of normal responsiveness; top position does not make a secured choke safe.\n\nThe bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
+      "position_type": "Defensive",
+      "risk_level": "High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -195,7 +195,7 @@
         "condition": "After the head and arm have been completely freed, when side control can be stabilized safely",
         "actions": [
           {
-            "technique": "Buggy Choke to Side Control",
+            "technique": "Grip Strip from Buggy Choke",
             "target": "Side Control",
             "probability": 58
           }
@@ -276,102 +276,46 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 70,
+        "value": 48,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 75,
+        "value": 42,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 72,
+        "value": 12,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
     },
     "transitions": [
       {
-        "transition": "Finish Buggy Choke",
+        "transition": "Grip Strip from Buggy Choke",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Hook Leg and Take Back",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Roll to Truck",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Switch to Darce Configuration",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Switch to Anaconda Configuration",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 5
+          "gi": 65,
+          "nogi": 65
         }
       },
       {
         "transition": "Buggy Choke to Front Headlock",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 10,
           "nogi": 10
-        }
-      },
-      {
-        "transition": "Turtle Flatten to Side Control",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Guillotine from Turtle",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Crucifix from Turtle",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
         }
       },
       {
         "transition": "Buggy Choke to North-South",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Buggy Choke to Side Control",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Grip Strip from Buggy Choke",
-        "attempt_probability": {
-          "gi": 6,
           "nogi": 5
+        }
+      },
+      {
+        "transition": "Frame and Posture Escape from Buggy Choke",
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 20
         }
       }
     ],
@@ -397,7 +341,7 @@
     "overview": "The bottom player is responsible for maintaining the control. The top player is beside the bottom player in side-control geometry. The bottom player has turned partly toward the opponent and brought an arm past the head. That arm connects to the same-side raised leg, enclosing the top player's head and one arm. The controlling elbow stays near the knee so the loop does not depend on wrenching the foot.\n\nUse safe shoulder and hip frames to turn partly onto the side before reaching for the leg. Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg. Shorten the connection through body position, not by pulling the foot hard toward the face.\n\nClose space with the arm, leg, and torso while avoiding twisting force on your own knee. Use a disengaging opponent's movement to insert frames and knees if the choke is lost. Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.\n\nThe bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive",
+      "position_type": "Offensive/Controlling",
       "risk_level": "High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
@@ -540,7 +484,7 @@
         "condition": "When the same-side arm-and-leg loop encloses the head and one arm without loading your knee",
         "actions": [
           {
-            "technique": "Finish Buggy Choke",
+            "technique": "Buggy Choke from Buggy Choke",
             "target": "Game Over",
             "probability": 58
           }
@@ -631,67 +575,67 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 48,
+        "value": 70,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 42,
+        "value": 75,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 12,
+        "value": 72,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
     },
     "transitions": [
       {
-        "transition": "Sit to Half Guard",
+        "transition": "Buggy Choke from Buggy Choke",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 23
+          "gi": 35,
+          "nogi": 35
         }
       },
       {
-        "transition": "Granby Roll to Guard",
+        "transition": "Buggy Release to Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 15
-        }
-      },
-      {
-        "transition": "Technical Stand-up",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Turn In and Face",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 18
-        }
-      },
-      {
-        "transition": "Turtle to Guard",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Back Door Escape",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Roll to Deep Half Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 9
+          "gi": 5,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Sit to Half Guard",
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
+      },
+      {
+        "transition": "Switch to Darce Configuration",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Turn In and Face",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Buggy Choke to Triangle Control",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
         }
       }
     ],

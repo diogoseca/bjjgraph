@@ -297,8 +297,6 @@ The Escape Seat Belt Control sits within the broader back defense system as a sp
 
 - [[Positions/Back Control/Body Triangle]] - Related back control variant requiring modified escape approach due to leg lock control
 
-- [[Transitions/Elbow Escape to Remove Hooks]] - Complementary escape technique focusing on hook removal rather than grip breaking
-
 - [[Transitions/Back Door Escape]] - Alternative escape method using lateral sliding rather than grip dismantling
 
 - [[Transitions/Back Control Maintenance]] - Opposing technique the top player uses to prevent this escape

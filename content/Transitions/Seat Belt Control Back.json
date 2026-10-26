@@ -75,10 +75,6 @@
       "relationship": "Common entry path leading to mounted crucifix before this transition"
     },
     {
-      "name": "Back Take from Top",
-      "relationship": "Related back take transition from other top positions"
-    },
-    {
       "name": "Gift Wrap Transition",
       "relationship": "Alternative arm control transition from similar starting positions"
     }

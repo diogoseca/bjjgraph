@@ -323,9 +323,9 @@ Raise the elbow through available space, never by wrenching the shoulder or neck
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Hindulotine]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Hindulotine]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>

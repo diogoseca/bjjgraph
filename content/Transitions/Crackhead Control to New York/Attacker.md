@@ -322,9 +322,9 @@ Use hip movement to keep the knee close as the cleared arm is secured with the N
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Rubber Guard/New York]] | 65% |
-| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 20% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/New York]] | 45% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 35% |
+| Counter | [[Positions/Rubber Guard/Mission Control]] | 20% |
 
 
 </section>
@@ -336,9 +336,9 @@ Use hip movement to keep the knee close as the cleared arm is secured with the N
 <p class="section-subtitle">How might your opponent counter Crackhead Control to New York?</p>
 
 - **Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Keep the first high leg and hand connected while adjusting the second leg. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
-- **Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Open the reinforcing leg as needed without losing all posture control. → Leads to [[Positions/Closed Guard]]
+- **Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Open the reinforcing leg as needed without losing all posture control. → Leads to [[Positions/Rubber Guard/Mission Control]]
 - **The free hand working under yours is the cue to recover inside position before the knee hug closes.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
-- **Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Guide the wrist and forearm through the available space without bending individual fingers. → Leads to [[Positions/Rubber Guard/New York]]
+- **Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Guide the wrist and forearm through the available space without bending individual fingers. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 
 
 </section>

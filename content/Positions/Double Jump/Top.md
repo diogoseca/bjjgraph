@@ -233,7 +233,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 **If opponent attempts to sit to butterfly guard or turn into you:**
 - Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 65%)
 - Execute **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent rolls away from pressure to escape hooks:**
@@ -244,7 +244,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 **If opponent flattens to belly to defend hooks:**
 - Execute **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 

@@ -105,6 +105,7 @@ description: "Escape from Dead Orchard (defender): Treat a high leg triangle con
   "@type": "WebPage",
   "name": "Escape from Dead Orchard Defender",
   "description": "Escape from Dead Orchard (defender): Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Keep the arms compact and avoid offering a straight arm while trying to force posture.",
+  "alternateName": ["Dead Orchard guard reset"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -187,6 +188,9 @@ description: "Escape from Dead Orchard (defender): Treat a high leg triangle con
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Dead Orchard guard reset</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection. The bottom player owns the arm trap. The opponent who must escape the trap is the top player, so releasing the guard and escaping its attack are different actions.
@@ -281,7 +285,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 ### 3. Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Side Control]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -306,7 +310,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.
 
-### → [[Positions/Side Control]]
+### → [[Positions/Open Guard]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the arms compact and avoid offering a straight arm while trying to force posture.
 

@@ -1,0 +1,412 @@
+{
+  "name": "Buggy Choke from Buggy Choke",
+  "from_position": "Buggy Choke/Bottom",
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
+      "result": "success"
+    },
+    {
+      "to": "Buggy Choke/Bottom",
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
+      "result": "counter"
+    }
+  ],
+  "starting_position": "Buggy Choke/Bottom",
+  "from_positions": [
+    "Buggy Choke"
+  ],
+  "summary": "The bottom player finishes from the established Buggy arm-and-leg loop beneath side control, using controlled choke pressure and releasing immediately at any signal.",
+  "description": "The bottom player finishes from the established Buggy arm-and-leg loop beneath side control, using controlled choke pressure and releasing immediately at any signal.",
+  "tags": [
+    "bjj",
+    "submission",
+    "guard"
+  ],
+  "overview": "The bottom player finishes from the established Buggy arm-and-leg loop beneath side control, using controlled choke pressure and releasing immediately at any signal.\n\nBegin underneath side control with your same-side arm and leg forming the Buggy loop around the opponent's head and one arm. Confirm the head-and-one-arm enclosure before adding pressure; side-control contact alone is not the choke.\n\nKeep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee. Take up the choke pressure gradually with a cooperative partner and qualified supervision. An interrupted finish may leave the Buggy loop intact; complete loop loss returns you to Side Control/Bottom. Release immediately at a hand tap, foot tap, verbal signal or distress, then free the head and arm without forcing the knee.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Buggy Choke",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Side Control",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Armbar",
+      "relationship": "Compare the separate finishing enclosure and controls; this link does not establish a direct transition."
+    }
+  ],
+  "attacker": {
+    "name": "Buggy Choke from Buggy Choke Attacker",
+    "description": "The bottom player finishes from the established Buggy arm-and-leg loop beneath side control, using controlled choke pressure and releasing immediately at any signal.",
+    "overview": "The bottom player finishes from the established Buggy arm-and-leg loop beneath side control, using controlled choke pressure and releasing immediately at any signal.\n\nBegin underneath side control with your same-side arm and leg forming the Buggy loop around the opponent's head and one arm. Confirm the head-and-one-arm enclosure before adding pressure; side-control contact alone is not the choke.\n\nKeep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee. Take up the choke pressure gradually with a cooperative partner and qualified supervision. An interrupted finish may leave the Buggy loop intact; complete loop loss returns you to Side Control/Bottom. Release immediately at a hand tap, foot tap, verbal signal or distress, then free the head and arm without forcing the knee.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom player owns the loop: Begin underneath side control with your same-side arm and leg forming the Buggy loop around the opponent's head and one arm.",
+      "Head and one arm inside the loop: Confirm the head-and-one-arm enclosure before adding pressure; side-control contact alone is not the choke.",
+      "Comfortable hip and knee alignment: Keep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee.",
+      "Gradual pressure through the loop: Take up the choke pressure gradually with a cooperative partner and qualified supervision.",
+      "A retained loop may lack a finish: An interrupted finish may leave the Buggy loop intact; complete loop loss returns you to Side Control/Bottom.",
+      "Remove pressure at the first tap: Release immediately at a hand tap, foot tap, verbal signal or distress, then free the head and arm without forcing the knee."
+    ],
+    "setup_requirements": [
+      "Begin underneath side control with your same-side arm and leg forming the Buggy loop around the opponent's head and one arm.",
+      "Confirm the head-and-one-arm enclosure before adding pressure; side-control contact alone is not the choke.",
+      "Keep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee.",
+      "Take up the choke pressure gradually with a cooperative partner and qualified supervision."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the holder",
+        "description": "Begin underneath side control with your same-side arm and leg forming the Buggy loop around the opponent's head and one arm."
+      },
+      {
+        "step_number": 2,
+        "action": "Check the enclosure",
+        "description": "Confirm the head-and-one-arm enclosure before adding pressure; side-control contact alone is not the choke."
+      },
+      {
+        "step_number": 3,
+        "action": "Support the leg",
+        "description": "Keep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee."
+      },
+      {
+        "step_number": 4,
+        "action": "Apply controlled pressure",
+        "description": "Take up the choke pressure gradually with a cooperative partner and qualified supervision."
+      },
+      {
+        "step_number": 5,
+        "action": "Recognize interruption",
+        "description": "An interrupted finish may leave the Buggy loop intact; complete loop loss returns you to Side Control/Bottom."
+      },
+      {
+        "step_number": 6,
+        "action": "Release at a signal",
+        "description": "Release immediately at a hand tap, foot tap, verbal signal or distress, then free the head and arm without forcing the knee."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Recognize the head-and-arm enclosure before pressure develops.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Buggy Choke/Bottom"
+      },
+      {
+        "counter": "Keep head and torso aligned while space remains.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Buggy Choke/Bottom"
+      },
+      {
+        "counter": "Use early frames while the loop is still open.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the holder",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin underneath side control with your same-side arm and leg forming the Buggy loop around the opponent's head and one arm."
+      },
+      {
+        "error": "Skipping check the enclosure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Confirm the head-and-one-arm enclosure before adding pressure; side-control contact alone is not the choke."
+      },
+      {
+        "error": "Skipping support the leg",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Keep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee."
+      },
+      {
+        "error": "Skipping apply controlled pressure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Take up the choke pressure gradually with a cooperative partner and qualified supervision."
+      },
+      {
+        "error": "Skipping recognize interruption",
+        "consequence": "The next action lacks its required control.",
+        "correction": "An interrupted finish may leave the Buggy loop intact; complete loop loss returns you to Side Control/Bottom."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the holder",
+        "description": "Begin underneath side control with your same-side arm and leg forming the Buggy loop around the opponent's head and one arm. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Check the enclosure",
+        "description": "Confirm the head-and-one-arm enclosure before adding pressure; side-control contact alone is not the choke. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Support the leg",
+        "description": "Keep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Apply controlled pressure",
+        "description": "Take up the choke pressure gradually with a cooperative partner and qualified supervision. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Buggy Choke from Buggy Choke: what does identify the holder require?",
+        "answer": "Begin underneath side control with your same-side arm and leg forming the Buggy loop around the opponent's head and one arm.",
+        "answer_line": "Bottom player owns the loop",
+        "distractors": {
+          "plausible": [
+            "A jacket grip around the collar",
+            "Top player applying the choke"
+          ],
+          "trap": [
+            "An ankle lever below the hips"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Choke from Buggy Choke: what does check the enclosure require?",
+        "answer": "Confirm the head-and-one-arm enclosure before adding pressure; side-control contact alone is not the choke.",
+        "answer_line": "Head and one arm inside the loop",
+        "distractors": {
+          "plausible": [
+            "Top player applying the choke",
+            "An ankle lever below the hips"
+          ],
+          "trap": [
+            "Pressure continued after a tap"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Choke from Buggy Choke: what does support the leg require?",
+        "answer": "Keep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee.",
+        "answer_line": "Comfortable hip and knee alignment",
+        "distractors": {
+          "plausible": [
+            "An ankle lever below the hips",
+            "Pressure continued after a tap"
+          ],
+          "trap": [
+            "A jacket grip around the collar"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Choke from Buggy Choke: what does apply controlled pressure require?",
+        "answer": "Take up the choke pressure gradually with a cooperative partner and qualified supervision.",
+        "answer_line": "Gradual pressure through the loop",
+        "distractors": {
+          "plausible": [
+            "Pressure continued after a tap",
+            "A jacket grip around the collar"
+          ],
+          "trap": [
+            "Top player applying the choke"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Choke from Buggy Choke: what does recognize interruption require?",
+        "answer": "An interrupted finish may leave the Buggy loop intact; complete loop loss returns you to Side Control/Bottom.",
+        "answer_line": "A retained loop may lack a finish",
+        "distractors": {
+          "plausible": [
+            "A jacket grip around the collar",
+            "Top player applying the choke"
+          ],
+          "trap": [
+            "An ankle lever below the hips"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Choke from Buggy Choke: what does release at a signal require?",
+        "answer": "Release immediately at a hand tap, foot tap, verbal signal or distress, then free the head and arm without forcing the knee.",
+        "answer_line": "Remove pressure at the first tap",
+        "distractors": {
+          "plausible": [
+            "Top player applying the choke",
+            "An ankle lever below the hips"
+          ],
+          "trap": [
+            "Pressure continued after a tap"
+          ]
+        }
+      }
+    ]
+  },
+  "defender": {
+    "name": "Buggy Choke from Buggy Choke Defender",
+    "description": "Recognize Buggy Choke from Buggy Choke and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Recognize the head-and-arm enclosure before pressure develops. Keep head and torso aligned while space remains. Use early frames while the loop is still open. Tap before trying to move against established choke pressure. After release, confirm whether the loop remains or side control has returned.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Recognize the head-and-arm enclosure before pressure develops.",
+      "Keep head and torso aligned while space remains.",
+      "Use early frames while the loop is still open.",
+      "Tap before trying to move against established choke pressure.",
+      "After release, confirm whether the loop remains or side control has returned."
+    ],
+    "recognition_cues": [
+      "Begin underneath side control with your same-side arm and leg forming the Buggy loop around the opponent's head and one arm.",
+      "Confirm the head-and-one-arm enclosure before adding pressure; side-control contact alone is not the choke.",
+      "Keep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee."
+    ],
+    "defensive_options": [
+      {
+        "action": "Recognize the head-and-arm enclosure before pressure develops.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Buggy Choke/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Keep head and torso aligned while space remains.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Buggy Choke/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Use early frames while the loop is still open.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Tap before trying to move against established choke pressure.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Buggy Choke/Bottom",
+        "how": "Recognize the head-and-arm enclosure before pressure develops."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "After release, confirm whether the loop remains or side control has returned."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "After release, confirm whether the loop remains or side control has returned."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Keep head and torso aligned while space remains."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Buggy Choke from Buggy Choke, what connection do you address first?",
+        "answer": "Recognize the head-and-arm enclosure before pressure develops."
+      },
+      {
+        "question": "Against Buggy Choke from Buggy Choke, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Buggy Choke from Buggy Choke, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the holder",
+        "description": "Begin underneath side control with your same-side arm and leg forming the Buggy loop around the opponent's head and one arm. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Check the enclosure",
+        "description": "Confirm the head-and-one-arm enclosure before adding pressure; side-control contact alone is not the choke. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Support the leg",
+        "description": "Keep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "escape_paths": [
+      "Recognize the head-and-arm enclosure before pressure develops.",
+      "After release, confirm whether the loop remains or side control has returned."
+    ]
+  },
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Neck",
+  "related_submissions": [
+    "Armbar",
+    "Omoplata",
+    "Triangle Choke"
+  ],
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Neck injury from excessive pressure",
+        "severity": "High",
+        "recovery_time": "Variable; obtain qualified medical assessment if injured."
+      },
+      {
+        "injury": "Neck or knee strain during a forced escape",
+        "severity": "High",
+        "recovery_time": "Variable; do not train through symptoms."
+      }
+    ],
+    "application_speed": "Apply gradually and release immediately at any signal.",
+    "tap_signals": [
+      "Hand tap",
+      "Foot tap when the arms are trapped",
+      "Verbal tap or stop"
+    ],
+    "release_protocol": [
+      "Stop adding pressure immediately.",
+      "Remove the joint or neck load before changing grips.",
+      "Free the trapped limb or neck and check the partner."
+    ],
+    "training_restrictions": [
+      "Practice under qualified supervision with a cooperative partner.",
+      "Do not force the movement through pain or a restricted joint range."
+    ]
+  }
+}

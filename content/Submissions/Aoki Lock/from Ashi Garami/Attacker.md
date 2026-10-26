@@ -325,8 +325,8 @@ A failed Aoki entry does not justify changing targets while the foot remains twi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Positions/Ashi Garami]] | 25% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Ashi Garami]] | 50% |
 | Counter | [[Positions/Open Guard]] | 20% |
 
 
@@ -342,7 +342,7 @@ A failed Aoki entry does not justify changing targets while the foot remains twi
 - **Hand fight and recover foot position before the attacker connects around the foot.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. → Leads to [[Positions/Ashi Garami]]
 - **Do not rotate the torso independently of a captured foot and knee.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Secure the upper-body enclosure while leaving the foot unloaded during practice. → Leads to [[Positions/Ashi Garami]]
 - **Create slack in the hand and hip controls before withdrawing the leg.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Use the legs and hip connection to limit free movement without twisting a planted knee. → Leads to [[Positions/Open Guard]]
-- **Stop at a secure rotational capture rather than testing whether the joint still tolerates movement.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement. → Leads to [[game-over]]
+- **Stop at a secure rotational capture rather than testing whether the joint still tolerates movement.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement. → Leads to [[Positions/Ashi Garami]]
 
 
 </section>

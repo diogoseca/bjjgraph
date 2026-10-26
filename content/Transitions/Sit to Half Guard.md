@@ -70,7 +70,7 @@ This escape operates on the principle that Half Guard, while still a bottom posi
 Strategically, this technique is most valuable when grip prevention has failed and the opponent has begun establishing deep collar access. Rather than continuing a losing grip fight from turtle, the proactive sit creates immediate positional change that forces the top player to abandon their choking mechanics and address the new guard configuration. The timing window is critical—execute too early and you create unnecessary back exposure, too late and the choke is already locked.
 
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
-**Success Rate**: 43%
+**Success Rate**: 40%
 
 </section>
 
@@ -82,9 +82,9 @@ Strategically, this technique is most valuable when grip prevention has failed a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 55% |
-| Failure | [[Positions/Buggy Choke]] | 25% |
-| Counter | [[Positions/Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Buggy Choke]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>

@@ -7,36 +7,36 @@
     "transition",
     "position-change"
   ],
-  "from_position": "Aoki Lock Control/Top",
+  "from_position": "Aoki Lock Control/Bottom",
   "outcomes": [
     {
+      "result": "success",
       "to": "Kimura Trap/Top",
       "probability": {
-        "gi": 65,
-        "nogi": 65
-      },
-      "result": "success"
+        "gi": 35,
+        "nogi": 35
+      }
     },
     {
-      "to": "Aoki Lock Control/Top",
+      "result": "failure",
+      "to": "Aoki Lock Control/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
-      },
-      "result": "failure"
+        "gi": 45,
+        "nogi": 45
+      }
     },
     {
-      "to": "Turtle/Bottom",
+      "result": "counter",
+      "to": "Ashi Garami/Bottom",
       "probability": {
-        "gi": 10,
-        "nogi": 10
-      },
-      "result": "counter"
+        "gi": 20,
+        "nogi": 20
+      }
     }
   ],
   "success_rate": {
-    "gi": 58,
-    "nogi": 58
+    "gi": 35,
+    "nogi": 35
   },
   "overview": "The initial Aoki Lock Control configuration must be identified before considering Kimura Trap. The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. The reviewed instruction does not establish a direct Aoki Lock Control-to-Kimura Trap connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.\n\nThe opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules. Open the original connection before either partner turns, rises or changes the captured limb.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).",
   "related_content": [
@@ -108,25 +108,25 @@
         "counter": "Hold the arm close to the torso before a figure-four grip closes.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.",
-        "targets_outcome": "Aoki Lock Control/Top"
+        "targets_outcome": "Aoki Lock Control/Bottom"
       },
       {
         "counter": "Recover inside arm position while the attacker has only one point of control.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
-        "targets_outcome": "Turtle/Bottom"
+        "targets_outcome": "Ashi Garami/Bottom"
       },
       {
         "counter": "A Kimura threatens the shoulder and elbow, unlike the preceding foot lock.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Open the original connection before either partner turns, rises or changes the captured limb.",
-        "targets_outcome": "Kimura Trap/Top"
+        "targets_outcome": "Aoki Lock Control/Bottom"
       },
       {
         "counter": "Do not roll against a fixed wrist and shoulder.",
         "effectiveness": "Low",
         "your_response": "Re-check the prerequisite before continuing. Obtain a separate arm-control position before attempting a figure-four grip.",
-        "targets_outcome": "Kimura Trap/Top"
+        "targets_outcome": "Aoki Lock Control/Bottom"
       }
     ],
     "common_errors": [
@@ -372,39 +372,39 @@
       {
         "action": "Hold the arm close to the torso before a figure-four grip closes.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Aoki Lock Control/Top",
+        "targets_outcome": "Aoki Lock Control/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Recover inside arm position while the attacker has only one point of control.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Turtle/Bottom",
+        "targets_outcome": "Ashi Garami/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "A Kimura threatens the shoulder and elbow, unlike the preceding foot lock.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Aoki Lock Control/Top",
+        "targets_outcome": "Aoki Lock Control/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Do not roll against a fixed wrist and shoulder.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Turtle/Bottom",
+        "targets_outcome": "Ashi Garami/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Aoki Lock Control/Top",
+        "outcome": "Aoki Lock Control/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Hold the arm close to the torso before a figure-four grip closes."
       },
       {
-        "outcome": "Turtle/Bottom",
+        "outcome": "Ashi Garami/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Recover inside arm position while the attacker has only one point of control."
       }
     ],

@@ -17,7 +17,7 @@ description: "John Danaher’s Back Attacks Enter The System includes straightja
 <h1>John Danaher: Straightjacket Back Attacks</h1>
 <div class="system-tags"><span>Attack System</span><span>Advanced</span></div>
 
-<p class="system-reference-count">23 related references (techniques and positions)</p>
+<p class="system-reference-count">22 related references (techniques and positions)</p>
 </header>
 
 
@@ -128,9 +128,6 @@ These related references are not a claim about what the course teaches or eviden
 
 
 - [[Positions/Back Control/Body Triangle|Body Triangle]] (Position)
-
-
-- [[Transitions/Back Take|Back Take]] (Transition)
 
 
 - [[Transitions/Turtle to Back Take|Turtle to Back Take]] (Transition)

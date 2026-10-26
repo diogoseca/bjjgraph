@@ -15,33 +15,33 @@
   "from_position": "Hindulotine/Bottom",
   "outcomes": [
     {
+      "result": "success",
       "to": "Back Control/Top",
       "probability": {
-        "gi": 65,
-        "nogi": 65
-      },
-      "result": "success"
+        "gi": 35,
+        "nogi": 35
+      }
     },
     {
+      "result": "failure",
       "to": "Hindulotine/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
-      },
-      "result": "failure"
+        "gi": 45,
+        "nogi": 45
+      }
     },
     {
+      "result": "counter",
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 10,
-        "nogi": 10
-      },
-      "result": "counter"
+        "gi": 20,
+        "nogi": 20
+      }
     }
   ],
   "success_rate": {
-    "gi": 58,
-    "nogi": 58
+    "gi": 35,
+    "nogi": 35
   },
   "overview": "The Back Take from Bottom Hindulotine is a high-percentage transition that exploits the most common defensive reaction to guillotine pressure: turning away to relieve neck strain. When an opponent rotates to escape the choking grip from bottom Hindulotine, they inadvertently expose their back, creating an optimal entry point for back control. This transition epitomizes the modern submission grappling philosophy where defensive movements create offensive opportunities.\n\nThis technique transforms a failed or stalled submission attempt into a dominant positional advantage. Rather than chasing the guillotine as the opponent turns, the practitioner releases the guillotine grip and immediately establishes seatbelt control, threading the former choking arm across the opponent's chest as the overhook while the other arm slides under the armpit. The transition must be timed precisely with the opponent's rotation to capitalize on their momentum.\n\nThe back take from bottom Hindulotine is particularly effective because the opponent often commits fully to the turn, believing they are escaping danger. This commitment makes the back exposure more complete and the subsequent control establishment more secure. The position integrates seamlessly into front headlock and guillotine attack systems, providing a reliable secondary option when the primary choke stalls.",
   "conditions": [
@@ -66,14 +66,6 @@
     {
       "name": "Rear Naked Choke",
       "relationship": "Primary follow-up submission from back control"
-    },
-    {
-      "name": "Back Take from Top",
-      "relationship": "Similar transition executed from top Hindulotine"
-    },
-    {
-      "name": "Hindulotine to Darce Choke",
-      "relationship": "Alternative attack when opponent creates frames instead of turning"
     },
     {
       "name": "Hindulotine to Anaconda Choke",
@@ -172,7 +164,7 @@
         "counter": "Opponent turtles defensively before you can insert hooks",
         "effectiveness": "Low",
         "your_response": "Maintain seatbelt control on turtle and work standard back take entries from turtle, or transition to front headlock if they lower their hips",
-        "targets_outcome": "Back Control/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       }
     ],
     "common_errors": [

@@ -127,10 +127,6 @@
     {
       "name": "Double Leg Finish",
       "relationship": "Alternative takedown option from standing rear clinch when mat return is defended"
-    },
-    {
-      "name": "Back Take",
-      "relationship": "Related back control entry transition from similar standing clinch positions"
     }
   ],
   "attacker": {

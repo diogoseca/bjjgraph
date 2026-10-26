@@ -231,7 +231,6 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 
 **If opponent extends leg and pushes away with straight leg:**
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
 - Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[Positions/Ashi Garami]] (Probability: 60%)
 
 

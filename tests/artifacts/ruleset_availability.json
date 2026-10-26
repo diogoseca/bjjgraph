@@ -9,14 +9,14 @@
       "excluded_positions": 0,
       "excluded_techniques": 0,
       "unreachable_positions": 0,
-      "unreachable_techniques": 21,
+      "unreachable_techniques": 19,
       "acts": false
     },
     "nogi": {
       "excluded_positions": 22,
-      "excluded_techniques": 124,
+      "excluded_techniques": 122,
       "unreachable_positions": 22,
-      "unreachable_techniques": 124,
+      "unreachable_techniques": 122,
       "acts": true
     }
   },
@@ -52,10 +52,6 @@
       ],
       "techniques": [
         {
-          "id": "aoki-lock",
-          "name": "Aoki Lock"
-        },
-        {
           "id": "armbar-setup-from-double-sleeve",
           "name": "Armbar Setup from Double Sleeve"
         },
@@ -90,10 +86,6 @@
         {
           "id": "bow-and-arrow-choke-from-harness",
           "name": "Bow and Arrow Choke from Harness"
-        },
-        {
-          "id": "bow-and-arrow-choke-from-invisible-collar",
-          "name": "Bow and Arrow Choke from Invisible Collar"
         },
         {
           "id": "bow-and-arrow-choke-from-rear-triangle",
@@ -140,10 +132,6 @@
           "name": "Clock Choke"
         },
         {
-          "id": "clock-choke-from-invisible-collar",
-          "name": "Clock Choke from Invisible Collar"
-        },
-        {
           "id": "clock-choke-from-rodeo-ride",
           "name": "Clock Choke from Rodeo Ride"
         },
@@ -186,6 +174,10 @@
         {
           "id": "cross-collar-choke-from-high-mount",
           "name": "Cross Collar Choke from High Mount"
+        },
+        {
+          "id": "cross-collar-choke-from-invisible-collar",
+          "name": "Cross Collar Choke from Invisible Collar"
         },
         {
           "id": "cross-collar-choke-from-knee-on-belly",
@@ -262,10 +254,6 @@
         {
           "id": "kneebar",
           "name": "Kneebar"
-        },
-        {
-          "id": "kneebar-from-carni",
-          "name": "Kneebar from Carni"
         },
         {
           "id": "lapel-clear-to-toreando-pass",
@@ -520,6 +508,10 @@
           "name": "Strip Russian Leg Lasso"
         },
         {
+          "id": "sweep-from-leg-weave",
+          "name": "Sweep from Leg Weave"
+        },
+        {
           "id": "toreando-from-double-sleeve",
           "name": "Toreando from Double Sleeve"
         },
@@ -554,10 +546,6 @@
     "gi": {
       "positions": [],
       "techniques": [
-        {
-          "id": "aoki-lock",
-          "name": "Aoki Lock"
-        },
         {
           "id": "buggy-choke",
           "name": "Buggy Choke"
@@ -609,10 +597,6 @@
         {
           "id": "kneebar",
           "name": "Kneebar"
-        },
-        {
-          "id": "kneebar-from-carni",
-          "name": "Kneebar from Carni"
         },
         {
           "id": "outside-heel-hook-adjustment",

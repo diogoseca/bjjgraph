@@ -20,39 +20,9 @@ description: "Dead Orchard Control top perspective: Treat a high leg triangle co
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda Choke",
-      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Escape Dead Orchard Control",
+      "text": "From this position, attempt Escape Dead Orchard Control. This technique is attempted in 100% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 20% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Darce from Turtle",
-      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 13% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Anaconda Choke from Dead Orchard",
-      "text": "From this position, attempt Anaconda Choke from Dead Orchard. This technique is attempted in 18% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -390,9 +360,9 @@ Work cooperatively on prevent the leg closure. Maintain an early frame at the hi
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 72% |
-| Advancement Probability | 68% |
-| Submission Probability | 62% |
+| Retention Rate | 32% |
+| Advancement Probability | 38% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

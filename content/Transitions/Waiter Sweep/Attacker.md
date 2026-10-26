@@ -303,8 +303,7 @@ In Valle's gi demonstration, the collar connection manages the upper body while 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 22% |
-| Success | [[Positions/Side Control]] | 16% |
+| Success | [[Positions/Half Guard]] | 38% |
 | Failure | [[Positions/Half Guard/Deep Half Guard]] | 36% |
 | Failure | [[Positions/Half Guard]] | 12% |
 | Counter | [[Positions/Side Control]] | 14% |
@@ -318,10 +317,10 @@ In Valle's gi demonstration, the collar connection manages the upper body while 
 
 <p class="section-subtitle">How might your opponent counter Waiter Sweep?</p>
 
-- **A deep-half player supporting your elevated leg is setting the waiter mechanism.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Bring the shoulder under the hip while controlling the leg and protecting the exposed arm. → Leads to [[Positions/Butterfly Guard]]
-- **Preserve hand or foot support before the opponent controls the tipping direction.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Shift the opponent's weight enough to make the controlled leg available for elevation. → Leads to [[Positions/Butterfly Guard]]
-- **Avoid leaving the hips directly above an established deep-half shoulder connection.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Support the lower leg with the arm and shoulder connection while using the legs to help lift. → Leads to [[Positions/Butterfly Guard]]
-- **Return the elevated leg only while the knee can move without twisting.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Use an appropriate sleeve grip in gi or a suitable arm connection without assuming the same grip exists in no-gi. → Leads to [[Positions/Butterfly Guard]]
+- **A deep-half player supporting your elevated leg is setting the waiter mechanism.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Bring the shoulder under the hip while controlling the leg and protecting the exposed arm. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Preserve hand or foot support before the opponent controls the tipping direction.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Shift the opponent's weight enough to make the controlled leg available for elevation. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Avoid leaving the hips directly above an established deep-half shoulder connection.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Support the lower leg with the arm and shoulder connection while using the legs to help lift. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Return the elevated leg only while the knee can move without twisting.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Use an appropriate sleeve grip in gi or a suitable arm connection without assuming the same grip exists in no-gi. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 
 
 </section>

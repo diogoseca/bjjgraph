@@ -241,8 +241,6 @@ The Ten Finger Guillotine Variation occupies a specialized niche within the fron
 
 - [[Positions/Guillotine Control]] - Source position - the control position from which this variation is executed
 
-- [[Transitions/High Elbow Guillotine Variation]] - Alternative variation - different grip angle attacking behind the chin defense
-
 - [[Transitions/Arm in Guillotine Variation]] - Related variation - alternative grip when opponent's arm is trapped inside
 
 - [[Submissions/Chin Strap Guillotine/from Front Headlock]] - Alternative submission - different finishing grip targeting chin and jaw line

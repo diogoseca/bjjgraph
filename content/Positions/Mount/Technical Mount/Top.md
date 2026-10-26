@@ -21,37 +21,37 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Technical Mount",
-      "text": "From this position, attempt Armbar from Technical Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Technical Mount. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Consolidate Mount",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Gift Wrap Control",
+      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Gift Wrap Control",
-      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Technical Mount to Back Control",
+      "text": "From this position, attempt Technical Mount to Back Control. This technique is attempted in 21% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Mount to Back Control",
-      "text": "From this position, attempt Technical Mount to Back Control. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Technical Mount to Mount",
+      "text": "From this position, attempt Technical Mount to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Mount to Mount",
-      "text": "From this position, attempt Technical Mount to Mount. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Technical Mount to S Mount",
+      "text": "From this position, attempt Technical Mount to S Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -290,7 +290,7 @@ This position represents a critical junction in mount offense where the practiti
 
 
 **If opponent defends armbar by turning away and exposing back:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** → [[Positions/Back Control]] (Probability: 75%)
 - Execute **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** → [[Positions/Gift Wrap]] (Probability: 65%)
 
 
@@ -301,7 +301,7 @@ This position represents a critical junction in mount offense where the practiti
 
 **If opponent bridges explosively or attempts to roll while arm is controlled:**
 - Execute **[[Submissions/Armbar/from Technical Mount/Attacker|Armbar from Technical Mount]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 

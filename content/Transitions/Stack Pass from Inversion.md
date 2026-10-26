@@ -69,6 +69,8 @@ This pass requires precise timing, as attempting to stack against a fully establ
 
 Strategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.
 
+Center entry and leg clearance: Lower your level against the elevated legs and control the hips without loading the neck. Maintain contact while directing the legs aside, clear the remaining knee and foot barriers, then establish crossface control and consolidate side control. The center entry changes timing, not the need to clear the legs.
+
 **From Position**: [[Positions/Inverted Guard]] (Top)
 **Success Rate**: 40%
 
@@ -132,7 +134,7 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 
 - **Drive forward**: Push your hips and chest forward into opponent's legs, beginning to fold their hips toward their fac...
 
-- **Stack the hips**: Continue driving until opponent's hips pass over their shoulders, compressing their spine into a fol...
+- **Stack the hips**: Control the elevated legs and direct them aside while keeping the guard player supported on the shou...
 
 - **Pin and redirect**: Use your shoulder pressure on their thighs or hips to pin them in the stacked position while you beg...
 
@@ -218,6 +220,9 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 
 
 **Stack to Mount**: Instead of passing to side control, step directly over into mount as opponent's legs are compressed, using the stacked position to bypass side control entirely (When to use: When opponent's guard collapses completely and mount path is clear)
+
+
+**Center entry and leg clearance**: Lower your level against the elevated legs and control the hips without loading the neck. Maintain contact while directing the legs aside, clear the remaining knee and foot barriers, then establish crossface control and consolidate side control. The center entry changes timing, not the need to clear the legs. (When to use: Against the shoulder-supported inversion described in Inverted Guard.)
 
 
 

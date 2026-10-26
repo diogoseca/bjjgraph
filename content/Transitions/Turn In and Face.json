@@ -13,41 +13,41 @@
   "from_position": "Buggy Choke/Bottom",
   "outcomes": [
     {
+      "result": "success",
       "to": "Open Guard/Bottom",
       "probability": {
-        "gi": 50,
-        "nogi": 50
-      },
-      "result": "success"
+        "gi": 30,
+        "nogi": 30
+      }
     },
     {
+      "result": "success",
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
-      "result": "success"
+        "gi": 10,
+        "nogi": 10
+      }
     },
     {
+      "result": "failure",
       "to": "Buggy Choke/Bottom",
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      }
+    },
+    {
+      "result": "counter",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 20,
         "nogi": 20
-      },
-      "result": "failure"
-    },
-    {
-      "to": "Back Control/Bottom",
-      "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
-      "result": "counter"
+      }
     }
   ],
   "success_rate": {
-    "gi": 58,
-    "nogi": 58
+    "gi": 40,
+    "nogi": 40
   },
   "overview": "Turn In and Face is a critical escape from the Buggy Choke bottom position that exploits a fundamental geometric vulnerability in the choking mechanics. The buggy choke relies on perpendicular pressure and a threading arm that generates choking force through the angle between attacker and defender. By rotating toward the choking arm and squaring up to face the opponent, the bottom player collapses the choking angle, neutralizes collar pressure, and creates the structural conditions necessary for guard recovery. This technique embodies the defensive principle that facing your opponent is almost always preferable to giving them your back or side.\n\nThe escape works because the buggy choke's power comes from the threading arm wrapping around the defender's neck from behind. When the defender turns into the attacker, the arm loses its mechanical advantage — the choking pathway shortens, the collar grip becomes a front-facing grip with dramatically reduced finishing potential, and the perpendicular body pressure that kept the defender flattened becomes ineffective against a squared-up frame. The timing window for this escape is during the threading phase or immediately after grips are established but before heavy body pressure pins the defender flat.\n\nStrategically, Turn In and Face is the preferred escape when the defender still has sufficient posture and mobility to execute a rotation. It creates direct pathways to open guard, closed guard, or half guard depending on how the attacker reacts. Compared to alternatives like granby rolls or sitting to half guard, this escape keeps the defender facing the opponent from the outset, reducing the risk of exposing the back during the escape sequence. For practitioners who play guard-centric games, this transition provides the most direct route back to their preferred positions.",
   "related_content": [
@@ -163,7 +163,7 @@
         "counter": "Opponent releases the buggy choke grips during the turn and immediately transitions to back control by inserting hooks as the defender rotates",
         "effectiveness": "High",
         "your_response": "Commit fully to the rotation speed so the turn completes before hooks can be inserted. If hooks begin entering, continue the turn past facing into a seated guard position and immediately begin back escape protocols by fighting the bottom hook first",
-        "targets_outcome": "Back Control/Bottom"
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Opponent drives heavy chest pressure during the rotation to flatten the defender before the turn completes, maintaining side control",
@@ -400,7 +400,7 @@
       {
         "action": "Release the buggy choke grips as the rotation begins and immediately follow the turning motion by inserting hooks and establishing seat belt control for back take",
         "when_to_use": "When the rotation has progressed past the point where flattening pressure can stop it, but before the bottom player has fully squared their hips to face you",
-        "targets_outcome": "Back Control/Bottom",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "You convert the escape attempt into a back take with hooks and seat belt, achieving a superior position worth 4 points in competition with immediate rear naked choke access",
         "risk": "If the bottom player completes the rotation too quickly, you may end up in a front-facing scramble without established grips or hooks, losing both the choke and the back take opportunity"
       },
@@ -425,7 +425,7 @@
         "how": "Prevent the rotation entirely by driving heavy perpendicular pressure onto the bottom player's near hip and back, flattening them before rotational momentum builds. Deepen the threading arm grip simultaneously so that any partial rotation tightens rather than loosens the choke. Maintain head pressure on their far shoulder to block the rotational pathway."
       },
       {
-        "outcome": "Back Control/Bottom",
+        "outcome": "Side Control/Bottom",
         "how": "When the rotation has progressed past the stoppable point, immediately release buggy choke grips and follow the turning motion with your hips. Insert your near hook first as their hip clears during the rotation, then establish seat belt grip with the arm that was threading. The bottom player's own rotational momentum carries you into back control if you follow rather than resist their movement."
       }
     ],

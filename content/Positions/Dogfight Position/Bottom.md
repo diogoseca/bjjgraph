@@ -290,7 +290,6 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 
 **If opponent loses whizzer control, exposes their back, or commits weight forward excessively:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
 - Execute **[[Transitions/Underhook Sweep from Dogfight/Attacker|Underhook Sweep from Dogfight]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
@@ -300,7 +299,6 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 
 **If opponent attempts to circle their trapped leg free while maintaining balance:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 - Execute **[[Transitions/Dogfight Sweep/Attacker|Dogfight Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
 
 

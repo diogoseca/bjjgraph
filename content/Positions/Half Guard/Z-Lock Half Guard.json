@@ -225,11 +225,6 @@
         "condition": "If opponent turns away from pressure to protect upper body",
         "actions": [
           {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 60
-          },
-          {
             "technique": "Side Control to Mount",
             "target": "Mount",
             "probability": 50
@@ -372,7 +367,7 @@
         "transition": "Knee Slice from Half",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
@@ -380,13 +375,6 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
-        }
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 4
         }
       },
       {
@@ -420,22 +408,22 @@
       {
         "transition": "Lockdown Break and Pass",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 19
+          "gi": 21,
+          "nogi": 20
         }
       },
       {
         "transition": "Lockdown Break from Z-Lock",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 16
+          "gi": 18,
+          "nogi": 17
         }
       },
       {
         "transition": "Pass Z-Lock",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 13
         }
       }
     ],

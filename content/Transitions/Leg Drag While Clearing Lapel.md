@@ -255,8 +255,6 @@ The Leg Drag While Clearing Lapel functions as a critical bridge technique in th
 
 - [[Positions/Side Control]] - Follow-up consolidation position after completing the pass
 
-- [[Transitions/Back Take from Top]] - Alternative finish if opponent turns away during the drag
-
 - [[Transitions/Backstep Around Worm Guard]] - Alternative lapel guard passing method using backstep mechanics
 
 - [[Transitions/Lapel Clear to Toreando Pass]] - Alternative pass combining lapel clearing with toreando

@@ -43,7 +43,7 @@
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
+      "risk_level": "Medium to High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -81,7 +81,7 @@
         "condition": "When the knee shield is folded but a final half-guard hook still needs to be removed",
         "actions": [
           {
-            "technique": "Leg Weave Pass Completion",
+            "technique": "Complete Leg Weave Pass",
             "target": "Side Control",
             "probability": 50
           }
@@ -177,91 +177,10 @@
     },
     "transitions": [
       {
-        "transition": "Leg Weave Pass",
+        "transition": "Complete Leg Weave Pass",
         "attempt_probability": {
-          "gi": 27,
-          "nogi": 26
-        },
-        "deal_here": true,
-        "success_rate": {
-          "gi": 65,
-          "nogi": 62
-        },
-        "outcomes": [
-          {
-            "to": "Side Control/Top",
-            "probability": {
-              "gi": 62,
-              "nogi": 62
-            },
-            "result": "success"
-          },
-          {
-            "to": "Leg Weave/Top",
-            "probability": {
-              "gi": 17,
-              "nogi": 17
-            },
-            "result": "failure"
-          },
-          {
-            "to": "Half Guard/Top",
-            "probability": {
-              "gi": 10,
-              "nogi": 10
-            },
-            "result": "failure"
-          },
-          {
-            "to": "Deep Half Guard/Top",
-            "probability": {
-              "gi": 11,
-              "nogi": 11
-            },
-            "result": "counter"
-          }
-        ]
-      },
-      {
-        "transition": "Knee Slice Pass",
-        "attempt_probability": {
-          "gi": 16,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Leg Drag Pass",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Smash Pass",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Over-Under Pass",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Long Step Pass",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Back Step",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 6
+          "gi": 95,
+          "nogi": 95
         }
       },
       {
@@ -269,20 +188,6 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
-        }
-      },
-      {
-        "transition": "Complete Leg Weave Pass",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Leg Weave Pass Completion",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
         }
       }
     ],
@@ -423,7 +328,7 @@
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
-      "risk_level": "High",
+      "risk_level": "Medium to High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -557,66 +462,24 @@
     },
     "transitions": [
       {
-        "transition": "Frame and Shrimp to Guard",
+        "transition": "Leg Weave Escape to Half Guard",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 21
-        }
-      },
-      {
-        "transition": "Underhook Sweep from Half",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Deep Half Entry",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Old School Sweep",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 55,
+          "nogi": 60
         }
       },
       {
         "transition": "Dogfight Position",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Lockdown Recovery",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Half Guard Recovery",
-        "attempt_probability": {
-          "gi": 16,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Leg Weave Escape to Half Guard",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 11
+          "gi": 40,
+          "nogi": 40
         }
       },
       {
         "transition": "Sweep from Leg Weave",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 4
+          "nogi": null
         }
       }
     ],

@@ -39,7 +39,7 @@ description: "Master inverted guard from top perspective. Strategic passing appr
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {

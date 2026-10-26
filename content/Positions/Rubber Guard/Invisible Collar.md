@@ -184,8 +184,8 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive | Offensive/Controlling |
-| **Risk Level** | High | Low to Medium |
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | Medium to High | Medium to High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
@@ -221,17 +221,13 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 ### Available Transitions
 
 
-- **[[Transitions/Hand Fighting to Remove Collar Grip/Attacker|Hand Fighting to Remove Collar Grip]]** (39% of attempts)
+- **[[Submissions/Invisible Collar Choke/Attacker|Invisible Collar Choke]]** (40% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (21% of attempts)
+- **[[Transitions/Invisible Collar to Chill Dog/Attacker|Invisible Collar to Chill Dog]]** (40% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (15% of attempts)
+- **[[Transitions/Invisible Collar Guard Reset/Attacker|Invisible Collar Guard Reset]]** (20% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (8% of attempts)
-
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (11% of attempts)
-
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (6% of attempts)
+- **[[Submissions/Cross Collar Choke/from Invisible Collar/Attacker|Cross Collar Choke from Invisible Collar]]** (gi only)
 
 
 ### Common Mistakes
@@ -286,21 +282,9 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 ### Available Transitions
 
 
-- **[[Submissions/Cross Collar Choke/from Invisible Collar/Attacker|Cross Collar Choke from Invisible Collar]]** (4% of attempts)
+- **[[Transitions/Invisible Collar Posture Recovery/Attacker|Invisible Collar Posture Recovery]]** (90% of attempts)
 
-- **[[Submissions/Rear Naked Choke/from Invisible Collar/Attacker|Rear Naked Choke from Invisible Collar]]** (37% of attempts)
-
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (8% of attempts)
-
-- **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (3% of attempts)
-
-- **[[Submissions/Bow and Arrow Choke/from Invisible Collar/Attacker|Bow and Arrow Choke from Invisible Collar]]** (gi only)
-
-- **[[Submissions/Clock Choke/from Invisible Collar/Attacker|Clock Choke from Invisible Collar]]** (gi only)
-
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (29% of attempts)
-
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (19% of attempts)
+- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (10% of attempts)
 
 
 ### Common Mistakes

@@ -290,8 +290,6 @@ The Turtle to Truck Entry serves as the critical gateway between conventional tu
 
 - [[Submissions/Banana Split]] - Follow-up submission accessible from consolidated Truck
 
-- [[Transitions/Roll to Truck]] - Alternative entry - dynamic rolling variation to same position
-
 - [[Positions/Crab Ride]] - Related position - alternative leg-based control from turtle top
 
 - [[Positions/Twister Control]] - Follow-up position - natural progression from Truck for Twister finish

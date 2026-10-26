@@ -106,8 +106,8 @@ Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplane
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive | Defensive with offensive options |
-| **Risk Level** | High | Medium to High |
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | Medium to High | Medium to High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
@@ -143,21 +143,17 @@ Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplane
 ### Available Transitions
 
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (11% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (40% of attempts)
 
-- **[[Submissions/Omoplata/from Crackhead Control/Attacker|Omoplata from Crackhead Control]]** (12% of attempts)
+- **[[Transitions/Crackhead Control to Dead Orchard/Attacker|Crackhead Control to Dead Orchard]]** (25% of attempts)
 
-- **[[Submissions/Triangle Choke/from Crackhead Control/Attacker|Triangle Choke from Crackhead Control]]** (17% of attempts)
+- **[[Submissions/Baratoplata/from Crackhead Control/Attacker|Baratoplata from Crackhead Control]]** (5% of attempts)
 
-- **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (11% of attempts)
+- **[[Transitions/Crackhead Control to New York/Attacker|Crackhead Control to New York]]** (10% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (14% of attempts)
+- **[[Submissions/Omoplata/from Crackhead Control/Attacker|Omoplata from Crackhead Control]]** (10% of attempts)
 
-- **[[Submissions/Baratoplata/from Crackhead Control/Attacker|Baratoplata from Crackhead Control]]** (8% of attempts)
-
-- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (15% of attempts)
-
-- **[[Transitions/Crackhead Control to New York/Attacker|Crackhead Control to New York]]** (12% of attempts)
+- **[[Submissions/Triangle Choke/from Crackhead Control/Attacker|Triangle Choke from Crackhead Control]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -212,17 +208,9 @@ Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplane
 ### Available Transitions
 
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (21% of attempts)
+- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (85% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (18% of attempts)
-
-- **[[Transitions/Double Underhook Pass/Attacker|Double Underhook Pass]]** (19% of attempts)
-
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
-
-- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (14% of attempts)
-
-- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (17% of attempts)
+- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (15% of attempts)
 
 
 ### Common Mistakes

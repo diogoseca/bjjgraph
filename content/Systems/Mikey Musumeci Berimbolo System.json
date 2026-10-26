@@ -58,11 +58,6 @@
       "relationship": "Related transition on the graph."
     },
     {
-      "name": "Back Take",
-      "content_type": "Transition",
-      "relationship": "Related transition on the graph."
-    },
-    {
       "name": "Backstep from De La Riva",
       "content_type": "Transition",
       "relationship": "Related transition on the graph."

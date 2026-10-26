@@ -60,6 +60,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from _system_guides import canonical_course_url, compact_preview, related_references, resolved_guide
 from _learning import reading_index, related_readings
 from _slug import slugify  # canonical slugify (shared with node ids)
+from _ruleset import common_outcome_frame, outcome_cell
 LAYOUT = ROOT / "source/quartz/static/globalGraphLayout.json"
 GRAPH = ROOT / "graph.json"
 ORDINALS = ROOT / "node_ordinals.json"
@@ -387,6 +388,20 @@ def check_absence_hands(graph: dict, absent_at: dict, reach: dict | None = None)
     return checked, exempt, bad
 
 
+def wire_outcomes(technique: dict, counts: dict | None = None) -> list:
+    """D-363: one unchanged tuple table from the technique's common present frame(s)."""
+    frame = common_outcome_frame(technique)
+    rows = [[o.get('to'), outcome_cell(o, frame),
+             {'success': 's', 'failure': 'f', 'counter': 'c'}.get(o.get('result'), o.get('result'))]
+            for o in technique['outcomes']]
+    if counts is not None:
+        counts['techniques'] += 1
+        counts['tuples'] += len(rows)
+        if frame != 'nogi':
+            counts['without_nogi'] += 1
+    return rows
+
+
 def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     """Reshape globalGraphLayout nodes/links into the Neural graph-data.json shape,
     enriching each node with its calibrated numbers from graph.json."""
@@ -458,6 +473,7 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     #   · position `moves` -> `ew`, the precomputed [nodeIdx, weight*10000] edge-weight list
     #     (see below): the app only ever read moves to derive these exact products.
     _RESULT_CODE = {"success": "s", "failure": "f", "counter": "c"}
+    outcome_counts = {'techniques': 0, 'tuples': 0, 'without_nogi': 0}
 
     # ── ONE JOIN LADDER FOR EVERY TECHNIQUE (v1.115.0) ──────────────────────────────────────
     # `graph.json` keys a technique by `slugify(<display name>)` — ONE flat kebab token. A layout
@@ -542,10 +558,7 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                 if trimmed:
                     e["successRateByRuleset"] = trimmed
             if n.get("outcomes") is not None:
-                e["outcomes"] = [
-                    [o.get("to"), o.get("probability"), _RESULT_CODE.get(o.get("result"), o.get("result"))]
-                    for o in n["outcomes"]
-                ]
+                e["outcomes"] = wire_outcomes(n, outcome_counts)
             for c in keys:  # same ladder — `tech_avail` is keyed by slugify(display name) too
                 av = tech_avail.get(c)
                 if av:
@@ -897,6 +910,11 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             f"half-interned wire."
         )
     print(f"  outcome destinations: {len(to_tab)} interned, {_interned} references rewritten")
+    if not outcome_counts['techniques'] or not outcome_counts['tuples']:
+        raise ValueError('neural outcome projection examined no technique tables')
+    print(f"  common outcome tuples: {outcome_counts['techniques']} technique views, "
+          f"{outcome_counts['tuples']} tuples; {outcome_counts['without_nogi']} gi-only views "
+          "(no-gi frame absent, not filled); 0 divergent present tables")
     out = {"nodes": nodes, "links": links, "toTab": to_tab}
     # EDGE — the option card's ranking value. Attached to the POSITION nodes (see build_move_edge);
     # the two top-level keys below are the table's self-description, carried ONCE for the file.

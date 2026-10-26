@@ -112,7 +112,7 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Anaconda Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Anaconda Choke is a front-headlock blood choke that traps the opponent\u0027s head and near arm in a figure-four, driving their own shoulder into one carotid while your forearm compresses the other." } },
-    { "@type": "Question", "name": "What positions can you finish the Anaconda Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Anaconda Choke from Anaconda Control, Dead Orchard Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Anaconda Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Anaconda Choke from Anaconda Control." } },
     { "@type": "Question", "name": "Is the Anaconda Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Anaconda Choke targets the Carotid arteries and trachea. Primary risk: Loss of consciousness from carotid artery compression. Tap early and release immediately on the tap." } }
   ]
 }
@@ -202,7 +202,6 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Anaconda Choke/from Anaconda Control|Anaconda Control]] | Top | 65% | [[Submissions/Anaconda Choke/from Anaconda Control/Attacker|Attack →]] | [[Submissions/Anaconda Choke/from Anaconda Control/Defender|Defend →]] |
-| [[Submissions/Anaconda Choke/from Dead Orchard|Dead Orchard Control]] | Top | 50% | [[Submissions/Anaconda Choke/from Dead Orchard/Attacker|Attack →]] | [[Submissions/Anaconda Choke/from Dead Orchard/Defender|Defend →]] |
 
 
 </div>
@@ -236,7 +235,6 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - [[Submissions/Rear Naked Choke]] - Blood choke targeting same carotid arteries from rear control position
 - [[Submissions/Brabo Choke]] - Gi-specific arm-in choke variation from front headlock and passing positions
 - [[Submissions/Arm in Guillotine]] - Arm-in guillotine variation with shared front headlock entries and transitions
-- [[Submissions/Anaconda Choke/from Dead Orchard]] - Advanced finishing variation accessed through Dead Orchard control pathway
 - [[Transitions/Front Headlock to Anaconda]] - Primary setup transition from front headlock control
 - [[Transitions/Anaconda from Turtle]] - Common entry transition from opponent's turtle position
 - [[Transitions/Anaconda Setup]] - General setup technique for establishing Anaconda control

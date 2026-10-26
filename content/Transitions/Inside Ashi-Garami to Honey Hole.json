@@ -81,10 +81,6 @@
       "relationship": "Counter position - where opponent may arrive if they successfully counter-thread during transition"
     },
     {
-      "name": "Kneebar Finish",
-      "relationship": "Alternative attack - available when opponent straightens leg to prevent threading"
-    },
-    {
       "name": "Cross Ashi-Garami",
       "relationship": "Related entanglement - alternative leg lock configuration within ashi garami system"
     },

@@ -153,27 +153,25 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 ### Available Transitions
 
 
-- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (15% of attempts)
+- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (17% of attempts)
 
-- **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** (12% of attempts)
+- **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (18% of attempts)
 
-- **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (16% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (16% of attempts)
 
-- **[[Transitions/Rotate to Carni/Attacker|Rotate to Carni]]** (6% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (7% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (9% of attempts)
+- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (8% of attempts)
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (6% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (7% of attempts)
 
-- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (7% of attempts)
-
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (6% of attempts)
-
-- **[[Transitions/Sweep from New York/Attacker|Sweep from New York]]** (6% of attempts)
+- **[[Transitions/Sweep from New York/Attacker|Sweep from New York]]** (7% of attempts)
 
 - **[[Submissions/Belly Down Armbar/from New York/Attacker|Belly Down Armbar from New York]]** (3% of attempts)
+
+- **[[Transitions/Rotate to Carni/Attacker|Rotate to Carni]]** (7% of attempts)
 
 
 ### Common Mistakes

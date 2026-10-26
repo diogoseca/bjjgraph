@@ -1,0 +1,412 @@
+{
+  "name": "Invisible Collar Choke",
+  "from_position": "Invisible Collar/Bottom",
+  "success_rate": {
+    "gi": 25,
+    "nogi": 25
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
+      "result": "success"
+    },
+    {
+      "to": "Invisible Collar/Bottom",
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Chill Dog/Bottom",
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
+      "result": "counter"
+    }
+  ],
+  "starting_position": "Invisible Collar/Bottom",
+  "from_positions": [
+    "Invisible Collar"
+  ],
+  "summary": "The bottom Invisible Collar holder applies the vascular choke from the established high-leg enclosure, using gradual pressure and immediate release without neck cranking.",
+  "description": "The bottom Invisible Collar holder applies the vascular choke from the established high-leg enclosure, using gradual pressure and immediate release without neck cranking.",
+  "tags": [
+    "bjj",
+    "submission",
+    "guard"
+  ],
+  "overview": "The bottom Invisible Collar holder applies the vascular choke from the established high-leg enclosure, using gradual pressure and immediate release without neck cranking.\n\nBegin as the bottom holder of the established Invisible Collar enclosure, facing the opponent. Confirm the high-leg and arm connections before attempting any finishing pressure.\n\nKeep both raised knees supported through the hip angle while maintaining the enclosure. Use only the demonstrated vascular-choke configuration; do not substitute a neck crank when alignment is missing. An interrupted finish may leave Invisible Collar intact; opening the second leg can return to Chill Dog. Stop at a hand tap, foot tap, verbal signal or distress. Remove choke pressure before opening the legs.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Invisible Collar",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Chill Dog",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Armbar",
+      "relationship": "Compare the separate finishing enclosure and controls; this link does not establish a direct transition."
+    }
+  ],
+  "attacker": {
+    "name": "Invisible Collar Choke Attacker",
+    "description": "The bottom Invisible Collar holder applies the vascular choke from the established high-leg enclosure, using gradual pressure and immediate release without neck cranking.",
+    "overview": "The bottom Invisible Collar holder applies the vascular choke from the established high-leg enclosure, using gradual pressure and immediate release without neck cranking.\n\nBegin as the bottom holder of the established Invisible Collar enclosure, facing the opponent. Confirm the high-leg and arm connections before attempting any finishing pressure.\n\nKeep both raised knees supported through the hip angle while maintaining the enclosure. Use only the demonstrated vascular-choke configuration; do not substitute a neck crank when alignment is missing. An interrupted finish may leave Invisible Collar intact; opening the second leg can return to Chill Dog. Stop at a hand tap, foot tap, verbal signal or distress. Remove choke pressure before opening the legs.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom owns the high-leg enclosure: Begin as the bottom holder of the established Invisible Collar enclosure, facing the opponent.",
+      "High legs contain the shoulder line: Confirm the high-leg and arm connections before attempting any finishing pressure.",
+      "Hip angle supports both raised knees: Keep both raised knees supported through the hip angle while maintaining the enclosure.",
+      "Gradual pressure without neck twist: Use only the demonstrated vascular-choke configuration; do not substitute a neck crank when alignment is missing.",
+      "The high clinch may remain intact: An interrupted finish may leave Invisible Collar intact; opening the second leg can return to Chill Dog.",
+      "Unload the neck at the first signal: Stop at a hand tap, foot tap, verbal signal or distress. Remove choke pressure before opening the legs."
+    ],
+    "setup_requirements": [
+      "Begin as the bottom holder of the established Invisible Collar enclosure, facing the opponent.",
+      "Confirm the high-leg and arm connections before attempting any finishing pressure.",
+      "Keep both raised knees supported through the hip angle while maintaining the enclosure.",
+      "Use only the demonstrated vascular-choke configuration; do not substitute a neck crank when alignment is missing."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the holding side",
+        "description": "Begin as the bottom holder of the established Invisible Collar enclosure, facing the opponent."
+      },
+      {
+        "step_number": 2,
+        "action": "Confirm the enclosure",
+        "description": "Confirm the high-leg and arm connections before attempting any finishing pressure."
+      },
+      {
+        "step_number": 3,
+        "action": "Support the high legs",
+        "description": "Keep both raised knees supported through the hip angle while maintaining the enclosure."
+      },
+      {
+        "step_number": 4,
+        "action": "Apply the choke carefully",
+        "description": "Use only the demonstrated vascular-choke configuration; do not substitute a neck crank when alignment is missing."
+      },
+      {
+        "step_number": 5,
+        "action": "Recognize an interrupted finish",
+        "description": "An interrupted finish may leave Invisible Collar intact; opening the second leg can return to Chill Dog."
+      },
+      {
+        "step_number": 6,
+        "action": "Release immediately",
+        "description": "Stop at a hand tap, foot tap, verbal signal or distress. Remove choke pressure before opening the legs."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Recognize the high enclosure before pressure develops.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Invisible Collar/Bottom"
+      },
+      {
+        "counter": "Protect head and shoulder alignment while an early frame is available.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Invisible Collar/Bottom"
+      },
+      {
+        "counter": "Do not force a neck twist to try to escape a loaded choke.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Chill Dog/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the holding side",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the bottom holder of the established Invisible Collar enclosure, facing the opponent."
+      },
+      {
+        "error": "Skipping confirm the enclosure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Confirm the high-leg and arm connections before attempting any finishing pressure."
+      },
+      {
+        "error": "Skipping support the high legs",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Keep both raised knees supported through the hip angle while maintaining the enclosure."
+      },
+      {
+        "error": "Skipping apply the choke carefully",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Use only the demonstrated vascular-choke configuration; do not substitute a neck crank when alignment is missing."
+      },
+      {
+        "error": "Skipping recognize an interrupted finish",
+        "consequence": "The next action lacks its required control.",
+        "correction": "An interrupted finish may leave Invisible Collar intact; opening the second leg can return to Chill Dog."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the holding side",
+        "description": "Begin as the bottom holder of the established Invisible Collar enclosure, facing the opponent. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Confirm the enclosure",
+        "description": "Confirm the high-leg and arm connections before attempting any finishing pressure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Support the high legs",
+        "description": "Keep both raised knees supported through the hip angle while maintaining the enclosure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Apply the choke carefully",
+        "description": "Use only the demonstrated vascular-choke configuration; do not substitute a neck crank when alignment is missing. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Invisible Collar Choke: what does identify the holding side require?",
+        "answer": "Begin as the bottom holder of the established Invisible Collar enclosure, facing the opponent.",
+        "answer_line": "Bottom owns the high-leg enclosure",
+        "distractors": {
+          "plausible": [
+            "Neck cranking through resistance",
+            "A jacket grip from rear control"
+          ],
+          "trap": [
+            "An ankle lever below the hips"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Choke: what does confirm the enclosure require?",
+        "answer": "Confirm the high-leg and arm connections before attempting any finishing pressure.",
+        "answer_line": "High legs contain the shoulder line",
+        "distractors": {
+          "plausible": [
+            "A jacket grip from rear control",
+            "An ankle lever below the hips"
+          ],
+          "trap": [
+            "Pressure continued after the tap"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Choke: what does support the high legs require?",
+        "answer": "Keep both raised knees supported through the hip angle while maintaining the enclosure.",
+        "answer_line": "Hip angle supports both raised knees",
+        "distractors": {
+          "plausible": [
+            "An ankle lever below the hips",
+            "Pressure continued after the tap"
+          ],
+          "trap": [
+            "Neck cranking through resistance"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Choke: what does apply the choke carefully require?",
+        "answer": "Use only the demonstrated vascular-choke configuration; do not substitute a neck crank when alignment is missing.",
+        "answer_line": "Gradual pressure without neck twist",
+        "distractors": {
+          "plausible": [
+            "Pressure continued after the tap",
+            "Neck cranking through resistance"
+          ],
+          "trap": [
+            "A jacket grip from rear control"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Choke: what does recognize an interrupted finish require?",
+        "answer": "An interrupted finish may leave Invisible Collar intact; opening the second leg can return to Chill Dog.",
+        "answer_line": "The high clinch may remain intact",
+        "distractors": {
+          "plausible": [
+            "Neck cranking through resistance",
+            "A jacket grip from rear control"
+          ],
+          "trap": [
+            "An ankle lever below the hips"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Choke: what does release immediately require?",
+        "answer": "Stop at a hand tap, foot tap, verbal signal or distress. Remove choke pressure before opening the legs.",
+        "answer_line": "Unload the neck at the first signal",
+        "distractors": {
+          "plausible": [
+            "A jacket grip from rear control",
+            "An ankle lever below the hips"
+          ],
+          "trap": [
+            "Pressure continued after the tap"
+          ]
+        }
+      }
+    ]
+  },
+  "defender": {
+    "name": "Invisible Collar Choke Defender",
+    "description": "Recognize Invisible Collar Choke and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Recognize the high enclosure before pressure develops. Protect head and shoulder alignment while an early frame is available. Do not force a neck twist to try to escape a loaded choke. Tap and wait for complete pressure release before changing direction. Confirm whether the second leg remains or the position has returned to Chill Dog.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Recognize the high enclosure before pressure develops.",
+      "Protect head and shoulder alignment while an early frame is available.",
+      "Do not force a neck twist to try to escape a loaded choke.",
+      "Tap and wait for complete pressure release before changing direction.",
+      "Confirm whether the second leg remains or the position has returned to Chill Dog."
+    ],
+    "recognition_cues": [
+      "Begin as the bottom holder of the established Invisible Collar enclosure, facing the opponent.",
+      "Confirm the high-leg and arm connections before attempting any finishing pressure.",
+      "Keep both raised knees supported through the hip angle while maintaining the enclosure."
+    ],
+    "defensive_options": [
+      {
+        "action": "Recognize the high enclosure before pressure develops.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Invisible Collar/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Protect head and shoulder alignment while an early frame is available.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Invisible Collar/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Do not force a neck twist to try to escape a loaded choke.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Chill Dog/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Tap and wait for complete pressure release before changing direction.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Chill Dog/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Invisible Collar/Bottom",
+        "how": "Recognize the high enclosure before pressure develops."
+      },
+      {
+        "outcome": "Chill Dog/Bottom",
+        "how": "Confirm whether the second leg remains or the position has returned to Chill Dog."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Confirm whether the second leg remains or the position has returned to Chill Dog."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Protect head and shoulder alignment while an early frame is available."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Invisible Collar Choke, what connection do you address first?",
+        "answer": "Recognize the high enclosure before pressure develops."
+      },
+      {
+        "question": "Against Invisible Collar Choke, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Invisible Collar Choke, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the holding side",
+        "description": "Begin as the bottom holder of the established Invisible Collar enclosure, facing the opponent. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Confirm the enclosure",
+        "description": "Confirm the high-leg and arm connections before attempting any finishing pressure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Support the high legs",
+        "description": "Keep both raised knees supported through the hip angle while maintaining the enclosure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "escape_paths": [
+      "Recognize the high enclosure before pressure develops.",
+      "Confirm whether the second leg remains or the position has returned to Chill Dog."
+    ]
+  },
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Neck",
+  "related_submissions": [
+    "Armbar",
+    "Omoplata",
+    "Triangle Choke"
+  ],
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Neck injury from excessive pressure",
+        "severity": "High",
+        "recovery_time": "Variable; obtain qualified medical assessment if injured."
+      },
+      {
+        "injury": "Neck or knee strain during a forced escape",
+        "severity": "High",
+        "recovery_time": "Variable; do not train through symptoms."
+      }
+    ],
+    "application_speed": "Apply gradually and release immediately at any signal.",
+    "tap_signals": [
+      "Hand tap",
+      "Foot tap when the arms are trapped",
+      "Verbal tap or stop"
+    ],
+    "release_protocol": [
+      "Stop adding pressure immediately.",
+      "Remove the joint or neck load before changing grips.",
+      "Free the trapped limb or neck and check the partner."
+    ],
+    "training_restrictions": [
+      "Practice under qualified supervision with a cooperative partner.",
+      "Do not force the movement through pain or a restricted joint range."
+    ]
+  }
+}

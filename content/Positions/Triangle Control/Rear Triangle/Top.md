@@ -21,7 +21,7 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Triangle Choke Finish",
-      "text": "From this position, attempt Rear Triangle Choke Finish. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Rear Triangle Choke Finish. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Rear Triangle",
-      "text": "From this position, attempt Rear Naked Choke from Rear Triangle. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Rear Triangle. This technique is attempted in 21% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Aoki Lock to Crucifix",
-      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 4% of exchanges from this position.",
-      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Rear Triangle",
       "text": "From this position, attempt Bow and Arrow Choke from Rear Triangle. This technique exists in the gi ruleset only; it does not occur in no-gi.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Back",
       "text": "From this position, attempt Kimura from Back. This technique is attempted in 11% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rear Triangle to Armbar",
+      "text": "From this position, attempt Rear Triangle to Armbar. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -290,7 +290,6 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 **Else if opponent turns into triangle attempting escape:**
 - Execute **[[Extend Hips and Finish Triangle/Attacker|Extend Hips and Finish Triangle]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
 
 
 **Else if opponent creates space by posting free arm:**

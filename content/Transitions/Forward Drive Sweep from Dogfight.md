@@ -314,8 +314,6 @@ The Forward Drive Sweep occupies a central role in the Dogfight attack system as
 
 - [[Transitions/Dogfight Sweep]] - Complementary sweep from same position that chains when forward drive is defended
 
-- [[Transitions/Back Take]] - Alternative offensive path from Dogfight when forward drive forces defensive overcommitment
-
 - [[Positions/Half Guard/Deep Half Guard]] - Fallback transition when opponent applies overwhelming forward pressure against the drive
 
 - [[Transitions/Crossface from Dogfight]] - Primary defensive technique used by the top player to counter the forward drive

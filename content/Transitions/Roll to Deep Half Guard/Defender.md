@@ -207,7 +207,7 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 ### 2. Release choke grips and transition to back control during the roll
 
 - **When to use**: When the roll has already initiated and cannot be stopped by sprawling. Abandon the choke attempt and prioritize positional advancement by following the rotation to establish hooks on the back.
-- **Targets**: [[Positions/Back Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You give up the choke but establish back control with hooks, transitioning from a losing defensive exchange into the most dominant position in BJJ
 - **Risk**: If the bottom player anticipates the back take, they may establish defensive hand positioning during the roll that makes hook insertion difficult
 
@@ -232,7 +232,7 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 
 Detect the escape attempt early through recognition cues (hip loading, frame creation, arm reaching for your leg) and sprawl decisively before the roll initiates. Drive your chest weight down onto their back and shoulders to eliminate the rotational mobility needed for the escape. Maintain your choking grips and continue finishing pressure.
 
-### → [[Positions/Back Control]]
+### → [[Positions/Side Control]]
 
 When the roll has already initiated and cannot be stopped, immediately release your choking grips and follow the bottom player's rotation. As they roll, insert your hooks into their hips and establish seatbelt control on their upper body. Convert their escape attempt into a transition to the most dominant position. This requires accepting the choke is lost but capitalizing on the positional exposure the roll creates.
 

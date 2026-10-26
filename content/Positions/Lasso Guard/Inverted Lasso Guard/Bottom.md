@@ -233,7 +233,6 @@ Successful inverted lasso guard bottom requires understanding that inversion is 
 
 **If opponent posts hand near hip or drives forward to prevent sweep:**
 - Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent attempts to extract lassoed arm by pulling back:**

@@ -649,7 +649,7 @@
             "probability": 70
           },
           {
-            "technique": "Kneebar Finish",
+            "technique": "Kneebar from Straight Ankle Lock Control",
             "target": "Game Over",
             "probability": 55
           }
@@ -793,57 +793,50 @@
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 18
+          "gi": 15,
+          "nogi": 20
         }
       },
       {
         "transition": "X-Guard to Ashi Garami",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Kneebar Finish",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Ankle Pick Sweep",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Straight Footlock",
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 19
+        }
+      },
+      {
+        "transition": "Ankle Lock Escape to Standing",
         "attempt_probability": {
           "gi": 11,
           "nogi": 10
         }
       },
       {
-        "transition": "Straight Footlock",
-        "attempt_probability": {
-          "gi": 21,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Ankle Lock Escape to Standing",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
-        }
-      },
-      {
         "transition": "Kneebar from Straight Ankle Lock Control",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
+          "gi": 12,
+          "nogi": 13
         }
       }
     ],

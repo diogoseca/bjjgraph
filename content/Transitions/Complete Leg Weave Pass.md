@@ -116,7 +116,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 Instructional sources: [Lachlan Giles — leg weave pass, no gi](https://www.youtube.com/watch?v=9rDzchSk4fw); [Lachlan Giles — leg-weave counter demonstration](https://bjjfanatics.com/blogs/news/interesting-leg-weave-counter-with-lachlan-giles).
 
 **From Position**: [[Positions/Leg Weave]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 40%
 
 </section>
 
@@ -162,8 +162,8 @@ Instructional sources: [Lachlan Giles — leg weave pass, no gi](https://www.you
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 55% |
-| Failure | [[Positions/Leg Weave]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Leg Weave]] | 40% |
 | Counter | [[Positions/Half Guard]] | 20% |
 
 

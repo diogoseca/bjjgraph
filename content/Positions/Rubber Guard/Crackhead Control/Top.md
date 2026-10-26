@@ -20,39 +20,15 @@ description: "Crackhead Control top perspective: Avoid extending an arm between 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Posture Recovery to Closed Guard",
+      "text": "From this position, attempt Posture Recovery to Closed Guard. This technique is attempted in 85% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 18% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Double Underhook Pass",
-      "text": "From this position, attempt Double Underhook Pass. This technique is attempted in 19% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Posture Recovery to Closed Guard",
-      "text": "From this position, attempt Posture Recovery to Closed Guard. This technique is attempted in 14% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Arm Extraction and Pass",
-      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 17% of exchanges from this position.",
-      "position": 6
+      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 15% of exchanges from this position.",
+      "position": 2
     }
   ],
   "totalTime": "PT2M"
@@ -228,10 +204,6 @@ This is a facing guard configuration. Unlike the basic Invisible Collar path, it
 
 **Only after the captured arm and head are free and a complete guard pass is available:**
 - Execute **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** → [[Positions/Side Control]] (Probability: 58%)
-
-
-**Only after releasing the high clinch and separately establishing both arms under the thighs:**
-- Execute **[[Transitions/Double Underhook Pass/Attacker|Double Underhook Pass]]** → [[Positions/Side Control]] (Probability: 58%)
 
 
 

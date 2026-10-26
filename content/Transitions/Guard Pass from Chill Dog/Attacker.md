@@ -303,9 +303,9 @@ Protect the neck and free the isolated shoulder before beginning the pass. After
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 50% |
-| Failure | [[Positions/Rubber Guard/Chill Dog]] | 32% |
-| Counter | [[Positions/Closed Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>

@@ -249,8 +249,6 @@ The Stack Pass from Mission Control occupies a critical role in the Mission Cont
 
 - [[Transitions/Posture Recovery from Mission Control]] - Alternative escape technique—posture-based escape that complements the stack pass option
 
-- [[Transitions/Stack Pass from Carni]] - Related technique—similar stacking mechanics applied to a different rubber guard control
-
 - [[Positions/Closed Guard]] - Position reached if opponent counters the stack with a sweep or guard reclassification
 
 - [[Positions/Omoplata Control]] - Primary submission threat—opponent can enter omoplata using forward stacking momentum

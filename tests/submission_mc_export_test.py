@@ -49,25 +49,61 @@ class SubmissionMCExport(unittest.TestCase):
     def setUpClass(cls):
         with contextlib.redirect_stdout(io.StringIO()):
             cls.exported, _, _ = graph.process_submissions(ROOT / 'content')
-            cls.sources = [s for s in graph.load_json_files(ROOT / 'content/Submissions')
+            # D-434: the reviewed Cross Collar record is retained as gi-only by
+            # N4 (restructure-numbers-n4.md:782-790). Read its authored pairs as
+            # process_submissions does; scalar reduction rejects that absent
+            # no-gi frame before this test can exercise its unchanged cards.
+            cls.sources = [s for s in graph.load_json_files(ROOT / 'content/Submissions', reduce=False)
                            if s.get('name') and not s.get('is_family')]
+        assert not graph._PARSE_FAILURES, graph._PARSE_FAILURES
         cls.by_name = {s['name']: s for s in cls.sources}
+        # Premise migration approved by the owner: the unanimous retirements in
+        # orchestrator reports/restructure-panel.md R20:547, R39:813, R41:841,
+        # R43:869 match reports/graph-restructure-plan.md:681,687,691,695.
+        # The reviewed-content claim survives: exercise every surviving deck;
+        # only the ledger-backed retirements move to explicit absence assertions.
+        # N4 (D-429) also applies plan:519,520,522: the three unsupported
+        # Invisible Collar submissions (Bow and Arrow, Clock, Rear Naked Choke).
+        # Cross Collar is retained by the revised N4 table, cited above.
+        # Keep the original 30-deck / 241-card receipt and archived card counts.
+        approved = json.loads((ROOT / 'calibration/graph_restructure_phase2.json').read_text())['retirements']
+        archived = {r['old_path']: r for r in json.loads(
+            (ROOT / 'calibration/node_identity_retirements.json').read_text())['records']}
+        cls.retired = {}
+        for row in approved:
+            record = archived[row['old_path']]
+            name = record['source']['name']
+            if name in REVIEWED:
+                cls.retired[name] = record
+        cls.active_reviewed = {name: counts for name, counts in REVIEWED.items() if name not in cls.retired}
+        cls.active_decks = len(cls.active_reviewed) * len(ROLES)
+        cls.active_cards = sum(sum(counts) for counts in cls.active_reviewed.values())
 
-    def test_scope_is_exactly_the_reviewed_30_decks_and_241_cards(self):
+    def test_reviewed_receipt_survives_with_only_approved_retirements_absent(self):
         expected = {f'{graph.slugify(name)}/{role}' for name in REVIEWED for role in ROLES}
         self.assertEqual(graph.REVIEWED_SUBMISSION_MC_DECKS, expected)
         self.assertEqual(len(expected), 30)
+        self.assertEqual(sum(sum(counts) for counts in REVIEWED.values()), 241)
+        self.assertGreater(self.active_decks, 0)
+        self.assertGreater(len(self.retired), 0, 'The approved retirement coverage must run')
+        for name, record in self.retired.items():
+            self.assertFalse((ROOT / record['old_path']).exists(), name)
+            self.assertTrue((ROOT / record['replacement_path']).exists(), name)
+            self.assertNotIn(name, self.by_name)
+            for role, count in zip(ROLES, REVIEWED[name]):
+                self.assertNotIn(f'{graph.slugify(name)}/{role}', self.exported)
+                self.assertEqual(len(record['source'][role]['flashcards']), count)
         cards = 0
-        for name, counts in REVIEWED.items():
+        for name, counts in self.active_reviewed.items():
             for role, count in zip(ROLES, counts):
                 self.assertEqual(len(self.by_name[name][role]['flashcards']), count, (name, role))
                 self.assertEqual(len(self.exported[f'{graph.slugify(name)}/{role}']['flashcards']), count)
                 cards += count
-        self.assertEqual(cards, 241)
+        self.assertEqual(cards, self.active_cards)
 
     def test_reviewed_fields_survive_both_producers_and_keep_full_detail(self):
-        seen = 0
-        for name in REVIEWED:
+        seen = decks = 0
+        for name in self.active_reviewed:
             for role in ROLES:
                 source = self.by_name[name][role]['flashcards']
                 wire = self.exported[f'{graph.slugify(name)}/{role}']['flashcards']
@@ -87,7 +123,10 @@ class SubmissionMCExport(unittest.TestCase):
                         self.assertGreater(len(option), 0)
                         self.assertLessEqual(len(option), 36, (name, role, option))
                     seen += 1
-        self.assertEqual(seen, 241)
+                decks += 1
+        self.assertEqual(seen, self.active_cards)
+        self.assertGreater(decks, 0, 'Zero surviving reviewed decks exercised is a failure')
+        self.assertEqual(decks, self.active_decks)
 
     def test_every_other_submission_preserves_legacy_bytes(self):
         decks = cards = dormant_choices = 0
@@ -133,10 +172,13 @@ if __name__ == '__main__':
     # The Node test runs production mcDistractors and _mcAnswer on these actual
     # producer outputs. No separately authored "expected" deck stands in for it.
     decks = {}
-    for name in REVIEWED:
+    for name in SubmissionMCExport.active_reviewed:
         for role in ROLES:
             key = f'{graph.slugify(name)}/{role}'
             decks[f'{name}|{role.title()}'] = {'cards': neural._qa_cards(SubmissionMCExport.exported[key]['flashcards'])}
     aoki = SubmissionMCExport.by_name['Aoki Lock from Ashi Garami']['attacker']['flashcards']
     json.dump({'pythonTests': result.testsRun, 'outside': SubmissionMCExport.outside_counts, 'decks': decks,
+               'scope': {'activeDecks': SubmissionMCExport.active_decks, 'activeCards': SubmissionMCExport.active_cards,
+                         'retiredDecks': len(SubmissionMCExport.retired) * len(ROLES),
+                         'retiredNames': list(SubmissionMCExport.retired)},
                'legacyAoki': neural._qa_cards(legacy_cards(aoki))}, sys.stdout, ensure_ascii=False)

@@ -65,11 +65,6 @@
       "relationship": "Related transition reference: Arm Drag."
     },
     {
-      "name": "Back Take",
-      "content_type": "Transition",
-      "relationship": "Related transition reference: Back Take."
-    },
-    {
       "name": "Berimbolo Entry",
       "content_type": "Transition",
       "relationship": "Related transition reference: Berimbolo Entry."

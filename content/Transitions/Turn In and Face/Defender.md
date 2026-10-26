@@ -213,7 +213,7 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 ### 2. Release the buggy choke grips as the rotation begins and immediately follow the turning motion by inserting hooks and establishing seat belt control for back take
 
 - **When to use**: When the rotation has progressed past the point where flattening pressure can stop it, but before the bottom player has fully squared their hips to face you
-- **Targets**: [[Positions/Back Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You convert the escape attempt into a back take with hooks and seat belt, achieving a superior position worth 4 points in competition with immediate rear naked choke access
 - **Risk**: If the bottom player completes the rotation too quickly, you may end up in a front-facing scramble without established grips or hooks, losing both the choke and the back take opportunity
 
@@ -245,7 +245,7 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 
 Prevent the rotation entirely by driving heavy perpendicular pressure onto the bottom player's near hip and back, flattening them before rotational momentum builds. Deepen the threading arm grip simultaneously so that any partial rotation tightens rather than loosens the choke. Maintain head pressure on their far shoulder to block the rotational pathway.
 
-### → [[Positions/Back Control]]
+### → [[Positions/Side Control]]
 
 When the rotation has progressed past the stoppable point, immediately release buggy choke grips and follow the turning motion with your hips. Insert your near hook first as their hip clears during the rotation, then establish seat belt grip with the arm that was threading. The bottom player's own rotational momentum carries you into back control if you follow rather than resist their movement.
 

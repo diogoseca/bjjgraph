@@ -292,8 +292,6 @@ The body lock pass is a cornerstone technique in modern pressure passing systems
 
 - [[Transitions/Double Under Pass]] - Related passing technique using similar body lock control concepts
 
-- [[Transitions/Back Take from Top]] - Transition option when opponent turns away to defend the pass
-
 - [[Positions/Half Guard/Flattened Half Guard]] - Intermediate state created by successful pressure application
 
 - [[Positions/Body Lock]] - Control position that defines the grip configuration for this pass

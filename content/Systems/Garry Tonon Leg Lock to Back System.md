@@ -17,7 +17,7 @@ description: "Garry Tonon’s Shoot To Kill: Wrestle, Scramble, Submit covers wr
 <h1>Garry Tonon: Wrestling, Scrambles and Submissions</h1>
 <div class="system-tags"><span>Attack System</span><span>Advanced</span></div>
 
-<p class="system-reference-count">22 related references (techniques and positions)</p>
+<p class="system-reference-count">21 related references (techniques and positions)</p>
 </header>
 
 
@@ -133,16 +133,13 @@ These related references are not a claim about what the course teaches or eviden
 - [[Transitions/Saddle Entry from Top|Saddle Entry from Top]] (Transition)
 
 
-- [[Transitions/Kiss of the Dragon|Kiss of the Dragon]] (Transition)
+- [[Transitions/Kiss of the Dragon from RDLR|Kiss of the Dragon from RDLR]] (Transition)
 
 
 - [[Transitions/X-Guard to Ashi Garami|X-Guard to Ashi Garami]] (Transition)
 
 
 - [[Transitions/Turtle to Back Take|Turtle to Back Take]] (Transition)
-
-
-- [[Transitions/Back Take|Back Take]] (Transition)
 
 
 - [[Submissions/Heel Hook|Heel Hook]] (Submission)

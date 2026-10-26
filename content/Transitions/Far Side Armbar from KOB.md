@@ -253,8 +253,6 @@ The far side armbar from knee on belly integrates into the KOB attack system as 
 
 - [[Positions/Side Control]] - Adjacent position — common fallback if KOB is lost during setup
 
-- [[Transitions/Back Take from Top]] - Alternative transition from KOB when the opponent turns away instead of pushing
-
 - [[Positions/Mount]] - Alternative advancement target from KOB that shares the attack-from-pressure philosophy
 
 - [[Submissions/Far Side Armbar]] - Parent submission family — the far side armbar finish executed from armbar control

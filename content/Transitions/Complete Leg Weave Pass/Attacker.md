@@ -322,8 +322,8 @@ Keep hip control as the last foot or half-guard hook clears, then settle the sid
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 55% |
-| Failure | [[Positions/Leg Weave]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Leg Weave]] | 40% |
 | Counter | [[Positions/Half Guard]] | 20% |
 
 

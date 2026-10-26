@@ -294,8 +294,6 @@ The arm drag from clinch bottom integrates into the broader BJJ standing game as
 
 - [[Transitions/Single Leg Takedown]] - Fallback takedown option when arm drag fails but opponent's weight shifts forward
 
-- [[Transitions/Back Take]] - General back take methodology that the arm drag feeds into
-
 - [[Transitions/Snap Down to Front Headlock]] - Setup technique that creates arm extension for subsequent arm drag entry
 
 - [[Transitions/Body Lock Takedown from Clinch]] - Alternative clinch attack that can be chained with arm drag feints

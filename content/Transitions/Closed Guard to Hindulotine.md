@@ -4,7 +4,7 @@
 
 ---
 title: "Closed Guard to Hindulotine | BJJ Technique | BJJ Graph"
-description: "Catch the high-elbow guillotine from closed guard and rotate your hips to enter the Hindulotine, adding spinal torque to the choke for a high-percentage no-gi finish."
+description: "The bottom closed-guard player establishes the leg-in Hindu head enclosure with controlled hip movement, stopping at Hindu Control before any separate finishing pressure."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Catch the high-elbow guillotine from closed guard and rotate your 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Closed Guard to Hindulotine",
-  "description": "Catch the high-elbow guillotine from closed guard and rotate your hips to enter the Hindulotine, adding spinal torque to the choke for a high-percentage no-gi finish.",
+  "description": "The bottom closed-guard player establishes the leg-in Hindu head enclosure with controlled hip movement, stopping at Hindu Control before any separate finishing pressure.",
   "alternateName": ["High Elbow Guillotine to Hindulotine", "Closed Guard Guillotine to Hindulotine"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
@@ -44,7 +44,7 @@ description: "Catch the high-elbow guillotine from closed guard and rotate your 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Closed Guard to Hindulotine",
-  "description": "Closed Guard to Hindulotine is a guillotine entry in which the bottom player catches a high-elbow guillotine as the opponent postures forward, then angles their hips perpendicular to the spine to enter the rotational-torque Hindulotine.",
+  "description": "The bottom closed-guard player establishes the leg-in Hindu head enclosure with controlled hip movement, stopping at Hindu Control before any separate finishing pressure.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -65,16 +65,18 @@ description: "Catch the high-elbow guillotine from closed guard and rotate your 
 
 <section id="overview" class="content-section">
 
-**Closed Guard to Hindulotine is a guillotine entry in which the bottom player catches a high-elbow guillotine as the opponent postures forward, then angles their hips perpendicular to the spine to enter the rotational-torque Hindulotine.**
+**The bottom closed-guard player establishes the leg-in Hindu head enclosure with controlled hip movement, stopping at Hindu Control before any separate finishing pressure.**
 
-Closed Guard to Hindulotine is the primary guard-based entry into the Hindulotine, the front-headlock guillotine variation that layers spinal-twisting hip torque onto a standard choke. The transition begins from closed guard, where the bottom player breaks the opponent's posture and snatches the chin the instant their head drops below the chest line. Rather than simply pulling the head straight down toward the sternum as in a conventional guillotine, the attacker opens the guard, shifts their hips out to one side, and rotates perpendicular to the opponent's spine, converting a linear pull into the rotational pressure that defines the Hindulotine.
+The bottom closed-guard player establishes the leg-in Hindu head enclosure with controlled hip movement, stopping at Hindu Control before any separate finishing pressure.
 
-This entry is one of the most commonly taught ways to reach the Hindulotine because closed guard naturally produces the broken-posture, head-low scenario the position requires. The closed-guard frame already controls the opponent's hips, preventing them from circling or standing while the attacker establishes grip and angle. As the bottom player pivots, the guard transitions from a hip-clamp into either butterfly hooks or an open knee-shield that lets the hips finish rotating to roughly 45-90 degrees, the angle range that generates the Hindulotine's torque.
+Begin as the bottom closed-guard player with both players facing one another. Establish comfortable head control while avoiding forced neck rotation.
 
-Strategically the entry is valuable because it threatens immediately while preserving fallback options. If the choke does not finish, the rotational angle feeds directly into a butterfly sweep to mount, a back take when the opponent turns away, or a Darce when they frame the near arm. The chief risk is the Von Flue counter and the stack pass, both of which the attacker mitigates by keeping their hips off-line and their grip high under the chin before committing to the rotation.
+Adjust the hips to create space for the taught leg-in arrangement while keeping the raised knee supported. Bring the leg into the Hindu Control head enclosure without forcing the knee or adding spinal torque. Recognize Hindulotine/Bottom only when the leg-in control is established; the legacy position identity is retained. Stop at the control checkpoint. If the enclosure fails, recognize ordinary closed or open guard before trying another action.
+
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 40%
 
 </section>
 
@@ -86,9 +88,9 @@ Strategically the entry is valuable because it threatens immediately while prese
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Hindulotine]] | 55% |
-| Failure | [[Positions/Closed Guard]] | 30% |
-| Counter | [[Positions/Side Control]] | 15% |
+| Success | [[Positions/Hindulotine]] | 40% |
+| Failure | [[Positions/Closed Guard]] | 40% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -100,7 +102,7 @@ Strategically the entry is valuable because it threatens immediately while prese
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Catch the chin the instant posture breaks and the head drops... | Prevent the entry by keeping your head up and spine stacked ... |
+| **Key Principles** | Bottom faces the opponent in guard: Begin as the bottom clos... | Keep the head and shoulders aligned as the enclosure begins.... |
 | **Options** | 6 execution steps | 3 defensive options |
 
 </section>
@@ -114,51 +116,49 @@ Strategically the entry is valuable because it threatens immediately while prese
 ### Key Principles
 
 
-- Catch the chin the instant posture breaks and the head drops below your chest line, before the opponent can re-stack their spine
+- Bottom faces the opponent in guard: Begin as the bottom closed-guard player with both players facing one another.
 
-- Lock the blade of your forearm high under the chin on the carotids, not low on the trachea or shoulder, before you commit to rotation
+- Head control without neck twisting: Establish comfortable head control while avoiding forced neck rotation.
 
-- Open the guard and shift your hips off-line to your choking-arm side rather than staying flat and square
+- Hip movement supports leg entry: Adjust the hips to create space for the taught leg-in arrangement while keeping the raised knee supported.
 
-- Generate the choke with hip rotation and core, treating your arms only as a fixed frame that transmits the torque
+- The leg joins the head enclosure: Bring the leg into the Hindu Control head enclosure without forcing the knee or adding spinal torque.
 
-- Keep your legs working as control, butterfly hooks or a knee shield, so the opponent cannot circle out or stack you flat
+- Bottom holds the completed enclosure: Recognize Hindulotine/Bottom only when the leg-in control is established; the legacy position identity is retained.
 
-- Stay tight to the head and shoulders so the opponent cannot insert a near-arm frame or drive a Von Flue shoulder into your throat
-
-- Read the opponent's reaction early so the entry flows into a sweep, back take, or Darce if the choke alone stalls
+- Control before a separate finish: Stop at the control checkpoint. If the enclosure fails, recognize ordinary closed or open guard before trying another action.
 
 
 ### Execution Steps
 
 
-- **Break posture and bait the head down**: From closed guard, use collar or head grips and the clamp of your knees to break the opponent's post...
+- **Start from closed guard**: Begin as the bottom closed-guard player with both players facing one another....
 
-- **Snatch the high-elbow guillotine grip**: As the chin clears your chest line, thread your choking arm around the neck and bring the blade of y...
+- **Control the head safely**: Establish comfortable head control while avoiding forced neck rotation....
 
-- **Open the guard and clear your hips**: Unlock your ankles and open the closed guard. This is the commitment point that separates the Hindul...
+- **Make space for the leg**: Adjust the hips to create space for the taught leg-in arrangement while keeping the raised knee supp...
 
-- **Shrimp off-line to your choking-arm side**: Shrimp your hips out toward the side of your choking arm so your spine is no longer stacked square b...
+- **Establish the leg-in enclosure**: Bring the leg into the Hindu Control head enclosure without forcing the knee or adding spinal torque...
 
-- **Convert the legs into control hooks**: As your hips rotate, replace the hip-clamp of closed guard with active control: insert a butterfly h...
+- **Confirm Hindu Control**: Recognize Hindulotine/Bottom only when the leg-in control is established; the legacy position identi...
 
-- **Rotate the hips to load the torque and settle the Hindulotine**: With the grip fixed and the angle set, rotate your hips and pull your choking elbow toward your oppo...
+- **Pause before finishing**: Stop at the control checkpoint. If the enclosure fails, recognize ordinary closed or open guard befo...
 
 
 ### Common Mistakes
 
 
-- **Trying to finish the guillotine flat on your back and square, never clearing your hips off-line**
-  - Consequence: You get a standard guillotine instead of the Hindulotine, the opponent defends with a chin tuck and stack, and you never gain the rotational pressure or the sweep and back-take branches.
-  - Correction: Treat the catch as a doorway. The moment the grip is locked, open the guard and shrimp your hips out to your choking-arm side so your core can drive the choke.
+- **Skipping start from closed guard**
+  - Consequence: The next action lacks its required control.
+  - Correction: Begin as the bottom closed-guard player with both players facing one another.
 
-- **Opening the closed guard before the grip is locked high and tight**
-  - Consequence: Opening the legs gives the opponent room to lift their head, re-posture, or begin passing while your choke is not yet secured, and you lose both the submission and your guard.
-  - Correction: Secure the high-elbow grip on the carotids first and confirm it is tight, then open the guard. Grip security must precede the hip clearance.
+- **Skipping control the head safely**
+  - Consequence: The next action lacks its required control.
+  - Correction: Establish comfortable head control while avoiding forced neck rotation.
 
-- **Gripping low on the neck near the shoulder or pressing into the trachea instead of high under the chin**
-  - Consequence: Pressure lands on muscle or windpipe rather than the carotids, so the opponent can endure it and methodically work an escape while you burn out your arms.
-  - Correction: Set the blade of your forearm high under the chin on the carotid line with a high choking elbow before committing to rotation.
+- **Skipping make space for the leg**
+  - Consequence: The next action lacks its required control.
+  - Correction: Adjust the hips to create space for the taught leg-in arrangement while keeping the raised knee supported.
 
 
 </section>
@@ -172,60 +172,39 @@ Strategically the entry is valuable because it threatens immediately while prese
 ### Key Principles
 
 
-- Prevent the entry by keeping your head up and spine stacked so your chin never drops below the attacker's chest line
+- Keep the head and shoulders aligned as the enclosure begins.
 
-- Fight the choking grip with both hands before it locks high under your chin
+- Maintain a useful inside frame before the high leg enters.
 
-- Recognize the hip clearance, the attacker opening the guard and shrimping off-line, as the true Hindulotine danger signal
+- Avoid twisting against a fixed neck or raised knee.
 
-- Drive your weight forward to stack and square your hips back over the attacker the instant you feel them angle away
+- Recognize ordinary closed guard if the entry fails without opening the ankles.
 
-- Use the Von Flue shoulder pressure into the neck as an aggressive counter while the guillotine is being held
-
-- Protect your own neck and keep your chin tucked so the rotational pressure cannot wrap cleanly around the carotids
+- Face open guard if the high entry and ordinary closed guard both release.
 
 
 ### Recognition Cues
 
 
-- The bottom player breaks your posture and your head drops below their chest line as they reach for your chin
+- Begin as the bottom closed-guard player with both players facing one another.
 
-- You feel a forearm blade slide high under your chin onto the carotid line with the choking elbow lifting high
+- Establish comfortable head control while avoiding forced neck rotation.
 
-- The bottom player unlocks their ankles and opens the closed guard while keeping the grip glued tight to your neck
-
-- The bottom player shrimps their hips out to one side so their spine is no longer square beneath you and a butterfly hook or knee shield appears
+- Adjust the hips to create space for the taught leg-in arrangement while keeping the raised knee supported.
 
 
 ### Defensive Options
 
 
-- **Posture up early and pull your head out before the grip locks, keeping your spine stacked and chin up** - When: Preventive defense, the moment you feel your posture being broken and the bottom player reaching for your chin
+- **Keep the head and shoulders aligned as the enclosure begins.** - When: Before the next connection or pressure is established.
 
-- **Drive forward to stack and square your hips back over the bottom player as they try to clear their hips off-line** - When: When the grip is already caught and you feel the bottom player opening the guard and shrimping to one side
+- **Maintain a useful inside frame before the high leg enters.** - When: Before the next connection or pressure is established.
 
-- **Execute the Von Flue choke by dropping your near shoulder into the side of their neck and driving toward their head** - When: While the bottom player holds the guillotine and has not yet locked the off-line angle and leg hooks
-
-
-</section>
-
-
-<section id="variants" class="content-section hide-minimal">
-
-## Variations
-
-
-**No-Gi High-Elbow Entry**: Without collar grips, break posture using head and tricep control, then catch a high-elbow arm-in guillotine before clearing the hips off-line into the Hindulotine. The grip relies on a tight gable lock since sweat reduces friction, so the hip rotation must do even more of the finishing work. (When to use: No-gi training and MMA where collar grips are unavailable and the Hindulotine is most commonly seen)
-
-
-**Gi Collar-Assisted Entry**: In the gi, use a cross-collar grip to break posture and pin the head down, making the chin easier to catch. The collar grip also helps hold the head in place while you open the guard and shrimp off-line, stabilizing the angle as you transition into the Hindulotine. (When to use: Gi training where collar control accelerates posture breaking and head pinning)
-
-
-**Butterfly-Hook Entry**: Rather than fully opening to a flat angle, insert butterfly hooks as you clear your hips, using the hooks to both elevate the opponent and lock the off-line angle. This keeps the sweep branch immediately loaded so a stalled choke flows straight into a butterfly sweep to mount. (When to use: When the opponent drives forward heavily and you want the sweep branch primed alongside the choke)
-
+- **Avoid twisting against a fixed neck or raised knee.** - When: Before the next connection or pressure is established.
 
 
 </section>
+
 
 
 
@@ -233,7 +212,7 @@ Strategically the entry is valuable because it threatens immediately while prese
 
 ## Position Integration
 
-Closed Guard to Hindulotine is the principal guard-based on-ramp into the Hindulotine sub-system and sits within the broader family of closed-guard front-headlock attacks. It shares its broken-posture trigger with the hip bump sweep and the closed-guard guillotine, so it chains naturally out of the same posture-breaking sequence every closed-guard player drills. Once the Hindulotine is established, the entry hands off to the position's internal transitions: the guillotine finish, the butterfly sweep with the grip retained, the back take when the opponent turns, and the Darce when they frame. Strategically it converts a defensive-looking guard into an offensive submission hub, giving the bottom player a reachable path from a neutral closed guard into a high-pressure choke that threatens both the finish and positional advancement, which is precisely why it is one of the most commonly taught ways to arrive at the Hindulotine.
+The bottom closed-guard player establishes the leg-in Hindu head enclosure with controlled hip movement, stopping at Hindu Control before any separate finishing pressure. Begin as the bottom closed-guard player with both players facing one another. Stop at the control checkpoint. If the enclosure fails, recognize ordinary closed or open guard before trying another action.
 
 </section>
 
@@ -243,19 +222,11 @@ Closed Guard to Hindulotine is the principal guard-based on-ramp into the Hindul
 ## Related Techniques
 
 
-- [[Positions/Hindulotine]] - Target position reached on a successful entry
+- [[Positions/Closed Guard]] - Starting configuration; establish these controls before attempting the action.
 
-- [[Positions/Closed Guard]] - Starting position from which this entry is executed
+- [[Positions/Hindulotine]] - An approved landing or reset; confirm its controls before treating the action as complete.
 
-- [[Submissions/Guillotine Choke/from Hindulotine]] - Primary finishing transition available once the Hindulotine is established
-
-- [[Transitions/Hip Bump Sweep]] - Shares the broken-posture trigger from closed guard and chains with guillotine catches
-
-- [[Transitions/Butterfly Sweep with Guillotine]] - Fallback transition if the Hindulotine choke stalls and the opponent drives forward
-
-- [[Transitions/Back Take from Bottom]] - Follow-up when the opponent turns away from the rotational pressure
-
-- [[Transitions/Hindulotine to Darce Choke]] - Alternative finish when the opponent frames their near arm against the choke
+- [[Positions/Open Guard]] - An approved landing or reset; confirm its controls before treating the action as complete.
 
 
 </section>

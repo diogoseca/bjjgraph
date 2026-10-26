@@ -9,33 +9,33 @@
   "from_position": "New York/Bottom",
   "outcomes": [
     {
+      "result": "success",
       "to": "Carni/Bottom",
       "probability": {
-        "gi": 60,
-        "nogi": 60
-      },
-      "result": "success"
+        "gi": 35,
+        "nogi": 35
+      }
     },
     {
+      "result": "failure",
       "to": "New York/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
-      },
-      "result": "failure"
+        "gi": 45,
+        "nogi": 45
+      }
     },
     {
+      "result": "counter",
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
-      "result": "counter"
+        "gi": 20,
+        "nogi": 20
+      }
     }
   ],
   "success_rate": {
-    "gi": 55,
-    "nogi": 55
+    "gi": 35,
+    "nogi": 35
   },
   "summary": "Rotating to Carni seeks a leg-assisted shoulder clamp after clearing the high leg around the head and turning partly belly down with triceps and wrist control.",
   "overview": "The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. Richie Martinez demonstrates the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.\n\nUse the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Richie Martinez — Carni shoulder lock from Z guard](https://www.youtube.com/watch?v=iClQ2Np-n30).",

@@ -1,0 +1,374 @@
+{
+  "name": "Z Guard to Carni",
+  "from_position": "Z-Guard/Bottom",
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
+  "outcomes": [
+    {
+      "to": "Carni/Bottom",
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
+      "result": "success"
+    },
+    {
+      "to": "Z-Guard/Bottom",
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "From bottom Z-Guard, the Carni entry passes through the Jersey shoulder connection, clears the high leg around the head, and establishes the upper-arm clamp before finishing.",
+  "description": "From bottom Z-Guard, the Carni entry passes through the Jersey shoulder connection, clears the high leg around the head, and establishes the upper-arm clamp before finishing.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "From bottom Z-Guard, the Carni entry passes through the Jersey shoulder connection, clears the high leg around the head, and establishes the upper-arm clamp before finishing.\n\nBegin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder. Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni.\n\nUse the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee. Move the high leg through the available space while keeping the opposing arm close. Hold the upper arm at the triceps as the leg and torso angle establish the shoulder enclosure. The entry succeeds at Carni/Bottom. Wrist leverage and finishing pressure belong to the separate shoulder-lock action.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Z-Guard",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Carni",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Z Guard to Carni Attacker",
+    "description": "From bottom Z-Guard, the Carni entry passes through the Jersey shoulder connection, clears the high leg around the head, and establishes the upper-arm clamp before finishing.",
+    "overview": "From bottom Z-Guard, the Carni entry passes through the Jersey shoulder connection, clears the high leg around the head, and establishes the upper-arm clamp before finishing.\n\nBegin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder. Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni.\n\nUse the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee. Move the high leg through the available space while keeping the opposing arm close. Hold the upper arm at the triceps as the leg and torso angle establish the shoulder enclosure. The entry succeeds at Carni/Bottom. Wrist leverage and finishing pressure belong to the separate shoulder-lock action.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom Z-Guard with shoulder access: Begin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder.",
+      "The intermediate shoulder connection: Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni.",
+      "An inside forearm frame: Use the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee.",
+      "Leg clears the head under control: Move the high leg through the available space while keeping the opposing arm close.",
+      "Triceps controlled by the leg clamp: Hold the upper arm at the triceps as the leg and torso angle establish the shoulder enclosure.",
+      "Shoulder enclosed before the finish: The entry succeeds at Carni/Bottom. Wrist leverage and finishing pressure belong to the separate shoulder-lock action."
+    ],
+    "setup_requirements": [
+      "Begin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder.",
+      "Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni.",
+      "Use the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee.",
+      "Move the high leg through the available space while keeping the opposing arm close."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Keep the guard connection",
+        "description": "Begin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Jersey control",
+        "description": "Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni."
+      },
+      {
+        "step_number": 3,
+        "action": "Make space by the head",
+        "description": "Use the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear the high leg",
+        "description": "Move the high leg through the available space while keeping the opposing arm close."
+      },
+      {
+        "step_number": 5,
+        "action": "Retain the upper arm",
+        "description": "Hold the upper arm at the triceps as the leg and torso angle establish the shoulder enclosure."
+      },
+      {
+        "step_number": 6,
+        "action": "Stop at Carni control",
+        "description": "The entry succeeds at Carni/Bottom. Wrist leverage and finishing pressure belong to the separate shoulder-lock action."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Keep a useful upper-body frame before the shoulder connection closes.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Z-Guard/Bottom"
+      },
+      {
+        "counter": "Prevent the upper arm from separating from the torso while Jersey control is forming.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Z-Guard/Bottom"
+      },
+      {
+        "counter": "Clear the arm before the high leg closes around the shoulder.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping keep the guard connection",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder."
+      },
+      {
+        "error": "Skipping establish jersey control",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni."
+      },
+      {
+        "error": "Skipping make space by the head",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Use the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee."
+      },
+      {
+        "error": "Skipping clear the high leg",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Move the high leg through the available space while keeping the opposing arm close."
+      },
+      {
+        "error": "Skipping retain the upper arm",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Hold the upper arm at the triceps as the leg and torso angle establish the shoulder enclosure."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Keep the guard connection",
+        "description": "Begin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Establish Jersey control",
+        "description": "Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Make space by the head",
+        "description": "Use the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Clear the high leg",
+        "description": "Move the high leg through the available space while keeping the opposing arm close. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Z Guard to Carni: what does keep the guard connection require?",
+        "answer": "Begin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder.",
+        "answer_line": "Bottom Z-Guard with shoulder access",
+        "distractors": {
+          "plausible": [
+            "A lower-leg kneebar enclosure",
+            "An ankle caught in a heel hook"
+          ],
+          "trap": [
+            "The finish before shoulder capture"
+          ]
+        }
+      },
+      {
+        "question": "Z Guard to Carni: what does establish jersey control require?",
+        "answer": "Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni.",
+        "answer_line": "The intermediate shoulder connection",
+        "distractors": {
+          "plausible": [
+            "An ankle caught in a heel hook",
+            "The finish before shoulder capture"
+          ],
+          "trap": [
+            "A pull on the foot against the knee"
+          ]
+        }
+      },
+      {
+        "question": "Z Guard to Carni: what does make space by the head require?",
+        "answer": "Use the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee.",
+        "answer_line": "An inside forearm frame",
+        "distractors": {
+          "plausible": [
+            "The finish before shoulder capture",
+            "A pull on the foot against the knee"
+          ],
+          "trap": [
+            "A lower-leg kneebar enclosure"
+          ]
+        }
+      },
+      {
+        "question": "Z Guard to Carni: what does clear the high leg require?",
+        "answer": "Move the high leg through the available space while keeping the opposing arm close.",
+        "answer_line": "Leg clears the head under control",
+        "distractors": {
+          "plausible": [
+            "A pull on the foot against the knee",
+            "A lower-leg kneebar enclosure"
+          ],
+          "trap": [
+            "An ankle caught in a heel hook"
+          ]
+        }
+      },
+      {
+        "question": "Z Guard to Carni: what does retain the upper arm require?",
+        "answer": "Hold the upper arm at the triceps as the leg and torso angle establish the shoulder enclosure.",
+        "answer_line": "Triceps controlled by the leg clamp",
+        "distractors": {
+          "plausible": [
+            "A lower-leg kneebar enclosure",
+            "An ankle caught in a heel hook"
+          ],
+          "trap": [
+            "The finish before shoulder capture"
+          ]
+        }
+      },
+      {
+        "question": "Z Guard to Carni: what does stop at carni control require?",
+        "answer": "The entry succeeds at Carni/Bottom. Wrist leverage and finishing pressure belong to the separate shoulder-lock action.",
+        "answer_line": "Shoulder enclosed before the finish",
+        "distractors": {
+          "plausible": [
+            "An ankle caught in a heel hook",
+            "The finish before shoulder capture"
+          ],
+          "trap": [
+            "A pull on the foot against the knee"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Z Guard to Carni Defender",
+    "description": "Recognize Z Guard to Carni and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Keep a useful upper-body frame before the shoulder connection closes. Prevent the upper arm from separating from the torso while Jersey control is forming. Clear the arm before the high leg closes around the shoulder. If the entry stalls, maintain your base above the remaining Z-Guard. If the high connection opens fully, recover posture inside the ordinary closed guard.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Keep a useful upper-body frame before the shoulder connection closes.",
+      "Prevent the upper arm from separating from the torso while Jersey control is forming.",
+      "Clear the arm before the high leg closes around the shoulder.",
+      "If the entry stalls, maintain your base above the remaining Z-Guard.",
+      "If the high connection opens fully, recover posture inside the ordinary closed guard."
+    ],
+    "recognition_cues": [
+      "Begin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder.",
+      "Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni.",
+      "Use the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee."
+    ],
+    "defensive_options": [
+      {
+        "action": "Keep a useful upper-body frame before the shoulder connection closes.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Z-Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Prevent the upper arm from separating from the torso while Jersey control is forming.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Z-Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Clear the arm before the high leg closes around the shoulder.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "If the entry stalls, maintain your base above the remaining Z-Guard.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Z-Guard/Bottom",
+        "how": "Keep a useful upper-body frame before the shoulder connection closes."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "If the high connection opens fully, recover posture inside the ordinary closed guard."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "If the high connection opens fully, recover posture inside the ordinary closed guard."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Prevent the upper arm from separating from the torso while Jersey control is forming."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Z Guard to Carni, what connection do you address first?",
+        "answer": "Keep a useful upper-body frame before the shoulder connection closes."
+      },
+      {
+        "question": "Against Z Guard to Carni, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Z Guard to Carni, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Keep the guard connection",
+        "description": "Begin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Establish Jersey control",
+        "description": "Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Make space by the head",
+        "description": "Use the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder.",
+    "Use the Jersey intermediate taught with this entry rather than treating knee-shield contact as a completed Carni.",
+    "Use the frame and hip angle to give the high leg a clear path around the head without pulling on a fixed knee."
+  ],
+  "position_integration": "From bottom Z-Guard, the Carni entry passes through the Jersey shoulder connection, clears the high leg around the head, and establishes the upper-arm clamp before finishing. Begin underneath in Z-Guard with a stable knee-shield connection and access to the opponent's shoulder. The entry succeeds at Carni/Bottom. Wrist leverage and finishing pressure belong to the separate shoulder-lock action."
+}

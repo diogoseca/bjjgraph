@@ -296,8 +296,6 @@ Pass Reverse Half connects the backstep passing system to side control consolida
 
 - [[Transitions/Invert from Reverse Half Guard]] - Defender's inversion-based counter to the pass attempt
 
-- [[Transitions/Back Take from Top]] - Alternative offensive option from the same position when opponent turns
-
 - [[Positions/Half Guard/Deep Half Guard]] - Guard variation the defender may recover to during failed pass
 
 - [[Positions/Crab Ride]] - Alternative transitional position from reverse half guard for back attacks

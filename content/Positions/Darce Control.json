@@ -233,50 +233,43 @@
       {
         "transition": "Darce Choke from Darce Control",
         "attempt_probability": {
-          "gi": 34,
-          "nogi": 34
+          "gi": 38,
+          "nogi": 39
         }
       },
       {
-        "transition": "Turtle to Back Take",
+        "transition": "Darce Control Maintenance",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 21,
+          "nogi": 21
         }
       },
       {
-        "transition": "Switch to Anaconda Configuration",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Side Control to North-South",
+        "transition": "Darce to Anaconda Switch",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
         }
       },
       {
-        "transition": "Darce Control Maintenance",
+        "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
-        "transition": "Darce to Anaconda Switch",
+        "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Turtle to Back Take",
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
         }
       }
     ],

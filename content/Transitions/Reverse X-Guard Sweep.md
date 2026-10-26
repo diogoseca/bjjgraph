@@ -294,8 +294,6 @@ The Reverse X-Guard Sweep functions as a primary offensive weapon within the Rev
 
 - [[Positions/Half Guard/Deep Half Guard]] - Defensive transition when opponent drives forward with smash pressure
 
-- [[Transitions/Back Take]] - Alternative outcome when opponent backsteps during sweep defense
-
 - [[Positions/De La Riva Guard]] - Common entry position for establishing Reverse X-Guard
 
 - [[Transitions/Elevation Sweep to Mount]] - Related elevation-based sweep with similar mechanics

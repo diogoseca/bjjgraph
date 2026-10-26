@@ -143,21 +143,19 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (16% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (18% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (11% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (13% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
 
-- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (12% of attempts)
+- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (18% of attempts)
 
-- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (16% of attempts)
+- **[[Transitions/Hip Escape from Russian Cowboy/Attacker|Hip Escape from Russian Cowboy]]** (15% of attempts)
 
-- **[[Transitions/Hip Escape from Russian Cowboy/Attacker|Hip Escape from Russian Cowboy]]** (13% of attempts)
+- **[[Transitions/Roll Escape from Russian Cowboy/Attacker|Roll Escape from Russian Cowboy]]** (11% of attempts)
 
-- **[[Transitions/Roll Escape from Russian Cowboy/Attacker|Roll Escape from Russian Cowboy]]** (10% of attempts)
-
-- **[[Transitions/Escape from Russian Cowboy/Attacker|Escape from Russian Cowboy]]** (8% of attempts)
+- **[[Transitions/Escape from Russian Cowboy/Attacker|Escape from Russian Cowboy]]** (9% of attempts)
 
 
 ### Common Mistakes

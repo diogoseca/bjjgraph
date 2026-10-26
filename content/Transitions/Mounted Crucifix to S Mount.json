@@ -85,10 +85,6 @@
       "relationship": "Alternative attack from starting position"
     },
     {
-      "name": "Back Take from Top",
-      "relationship": "Alternative transition if opponent turns during movement"
-    },
-    {
       "name": "Mount Control",
       "relationship": "Foundation skill for maintaining base during transition"
     },

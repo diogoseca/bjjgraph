@@ -149,8 +149,8 @@
     ],
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
+      "position_type": "Defensive",
+      "risk_level": "High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -269,15 +269,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 78,
+        "value": 42,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 72,
+        "value": 50,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 68,
+        "value": 28,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
@@ -291,45 +291,10 @@
     ],
     "transitions": [
       {
-        "transition": "Aoki Lock from Aoki Lock Control",
+        "transition": "Aoki Grip and Hip Release",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
-        }
-      },
-      {
-        "transition": "Aoki Lock to Back Control",
-        "attempt_probability": {
-          "gi": 22,
-          "nogi": 25
-        }
-      },
-      {
-        "transition": "Aoki Lock to Crucifix",
-        "attempt_probability": {
-          "gi": 16,
-          "nogi": 15
-        }
-      },
-      {
-        "transition": "Kimura Switch",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Truck Entry",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 15
-        }
-      },
-      {
-        "transition": "Aoki Lock",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 5
+          "gi": 100,
+          "nogi": 100
         }
       }
     ],
@@ -453,7 +418,7 @@
     ],
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive",
+      "position_type": "Offensive/Controlling",
       "risk_level": "High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
@@ -573,15 +538,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 42,
+        "value": 78,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 50,
+        "value": 72,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 28,
+        "value": 68,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
@@ -595,45 +560,24 @@
     ],
     "transitions": [
       {
-        "transition": "Rolling Escape to Guard",
+        "transition": "Aoki Lock from Aoki Lock Control",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 20
+          "gi": 60,
+          "nogi": 60
         }
       },
       {
-        "transition": "Arm Extraction to Turtle",
+        "transition": "Aoki Control Release to Ashi",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
+          "gi": 25,
+          "nogi": 25
         }
       },
       {
-        "transition": "Hip Escape to Guard",
-        "attempt_probability": {
-          "gi": 22,
-          "nogi": 21
-        }
-      },
-      {
-        "transition": "Counter Roll to Top",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Granby Roll to Guard",
+        "transition": "Kimura Switch",
         "attempt_probability": {
           "gi": 15,
           "nogi": 15
-        }
-      },
-      {
-        "transition": "Base Attack to Sweep",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
         }
       }
     ],

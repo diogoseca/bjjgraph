@@ -20,39 +20,27 @@ description: "Chill Dog bottom perspective: Keep the opposing hand on the mat an
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Chill Dog to Gogoplata Control",
+      "text": "From this position, attempt Chill Dog to Gogoplata Control. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby to Closed Guard",
-      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Chill Dog to Invisible Collar",
+      "text": "From this position, attempt Chill Dog to Invisible Collar. This technique is attempted in 35% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Escape Chill Dog",
+      "text": "From this position, attempt Escape Chill Dog. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Sweep from Chill Dog",
+      "text": "From this position, attempt Sweep from Chill Dog. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 14% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -373,9 +361,9 @@ Work cooperatively on clear the neck. Move the controlling arm around the head w
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 62% |
-| Advancement Probability | 52% |
-| Submission Probability | 12% |
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

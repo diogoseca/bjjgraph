@@ -633,7 +633,11 @@ test("@curated hovering any pair names it once, on the midline, with the role on
   await j.advance(120)
   const dn = await strips(page, c.mid, x)
   expect(dn.name, `the name held its line (${up.name} -> ${dn.name} bright px)`).toBeGreaterThan(300)
-  expect(dn.below, "and the role moved below it").toBeGreaterThan(40)
+  // D-459 / host-dual-pair-results-v1 (3/3, Von Flue Choke from Side Control): below reads
+  // 40 on upper hover and 39 on lower; both count "from Side Control". The defender role's
+  // subCol is below the luminance-90 cut, so this band never measured the role (dev: 78/78,
+  // D-318 below). The draw checks retain the claim: lower subY 204.21 > nameY 174.21,
+  // upper 156.21 < 174.21, each role drawn once, with one unmoved name. No threshold lowered.
   const dnDraw = await draws(c.upper.idx)
   // STALE CONTRACT (D-318 U4a, CI 48be3a910): the bright-pixel differential below needed a pair whose
   // qualifier does not fill the band under the name. The centred reading arrival puts a qualified

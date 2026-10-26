@@ -95,11 +95,6 @@
       "relationship": "Lasso Guard Pass: related transition study, separate from the source syllabus."
     },
     {
-      "name": "Back Take",
-      "content_type": "Transition",
-      "relationship": "Back Take: related transition study, separate from the source syllabus."
-    },
-    {
       "name": "Triangle to Back",
       "content_type": "Transition",
       "relationship": "Triangle to Back: related transition study, separate from the source syllabus."

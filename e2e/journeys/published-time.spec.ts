@@ -45,9 +45,10 @@ test("@curated served publication metadata matches authored or followed Git evid
     ["Principles", "Principles"],
     // Refactor sentinel: first-add says 2026-02-09; --follow reaches 2025-06-15.
     ["Transitions/100-percent-Sweep", "Transitions/100% Sweep"],
+    // D-459 / plan:248,681: live sibling has no publishDate/date; --follow reaches 2025-06-15 (22 commits).
     [
-      "Submissions/Anaconda-Choke/from-Dead-Orchard/Attacker",
-      "Submissions/Anaconda Choke/from Dead Orchard/Attacker",
+      "Submissions/Anaconda-Choke/from-Anaconda-Control/Attacker",
+      "Submissions/Anaconda Choke/from Anaconda Control/Attacker",
     ],
     [
       "Transitions/Mount-to-Armbar/Attacker",

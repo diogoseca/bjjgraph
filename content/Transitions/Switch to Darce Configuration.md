@@ -69,8 +69,8 @@ The darce configuration is mechanically distinct from the anaconda because the c
 
 This transition is a critical branch in the buggy choke attack tree. Opponents who turn in to defend the collar grip inadvertently create the head-and-arm angle required for both darce and anaconda attacks. Choosing the darce over the anaconda depends on arm positioning and the specific angle of the opponent's rotation. The darce configuration offers a powerful finishing position because the choking arm's blade sits directly across the carotid with the opponent's own trapped shoulder acting as the secondary compression point. Once the figure-four locks, the top player sprawls and walks hips toward the head to generate finishing pressure through body mechanics rather than arm strength.
 
-**From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 39%
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
+**Success Rate**: 40%
 
 </section>
 
@@ -82,9 +82,9 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Darce Control]] | 55% |
-| Failure | [[Positions/Buggy Choke]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Darce Control]] | 40% |
+| Failure | [[Positions/Buggy Choke]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -247,15 +247,13 @@ The Switch to Darce Configuration is a critical branch in the buggy choke attack
 
 - [[Submissions/Darce Choke]] - Primary submission finish available from the darce control position
 
-- [[Transitions/Switch to Anaconda Configuration]] - Mirror sibling transition using opposite threading direction from same starting position
-
 - [[Positions/Anaconda Control]] - Alternative control position when anaconda angle is favored over darce
 
 - [[Transitions/Buggy Choke to Front Headlock]] - Alternative transition when neither darce nor anaconda angle is available
 
 - [[Positions/Front Headlock]] - Fallback control position accessible during failed darce switch attempts
 
-- [[Transitions/Finish Buggy Choke]] - Alternative path when opponent remains static and original choke angle is maintained
+- [[Submissions/Buggy Choke/from Buggy Choke]] - Alternative path when opponent remains static and original choke angle is maintained
 
 - [[Transitions/Darce from Turtle]] - Related darce entry from standard turtle top without buggy choke intermediate
 

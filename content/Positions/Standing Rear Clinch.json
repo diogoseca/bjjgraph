@@ -100,13 +100,6 @@
     ],
     "transitions": [
       {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
-        }
-      },
-      {
         "transition": "Body Lock Pass",
         "attempt_probability": {
           "gi": 3,
@@ -123,15 +116,15 @@
       {
         "transition": "Mat Return to Back Mount",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 21
+          "gi": 26,
+          "nogi": 24
         }
       },
       {
         "transition": "Double Leg Finish",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         },
         "deal_here": true,
         "success_rate": {
@@ -184,43 +177,43 @@
       {
         "transition": "Mat Return from Standing Rear Clinch",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 21
+          "gi": 26,
+          "nogi": 24
         }
       },
       {
         "transition": "Rear Clinch to Body Lock",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Suplex from Rear Clinch",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 4
+          "nogi": 5
         }
       },
       {
         "transition": "Standing Switch Defense",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Rear Naked Choke Setup",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Rear Naked Choke from Standing Rear Clinch",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 7
         }
       }
     ],
@@ -234,7 +227,7 @@
             "probability": 65
           },
           {
-            "technique": "Back Take",
+            "technique": "Mat Return from Standing Rear Clinch",
             "target": "Back Control",
             "probability": 70
           }

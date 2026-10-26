@@ -253,8 +253,6 @@ The Transition to Matrix serves as the bridge between standard turtle top contro
 
 - [[Transitions/Crab Ride to Back]] - Alternative back take approach that can chain with or substitute for Matrix entry
 
-- [[Transitions/Back Take from Top]] - Traditional back take that serves as primary alternative when Matrix entry is not viable
-
 - [[Transitions/Crucifix from Turtle]] - Alternative attack available when opponent exposes arm defending Matrix entry
 
 - [[Transitions/Front Headlock to Back]] - Complementary transition used as feint or fallback during Matrix entry attempts
