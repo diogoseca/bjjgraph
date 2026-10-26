@@ -2797,7 +2797,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
             "nodes": [] if applicability else sorted(set(nodes)),
             **({"nodeMask": format(sum(1 << ordinals[nid] for nid in set(nodes)), "x")} if applicability and not all_nodes else {}),
             **({"allNodes": True} if all_nodes else {}),
-            "unresolved": unresolved,
+            **({"unresolved": unresolved} if unresolved else {}),
         })
 
     # Editorial Learning pages authored as .md with no .json beside them (3 today) carry no
@@ -2819,7 +2819,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
                 "principles": sum(1 for c in concepts if c["cat"] == "Principle"),
                 "learning": sum(1 for c in concepts if c["cat"] == "Learning"),
                 "nodes": sum(len(node_ids) if c.get("allNodes") else (int(c["nodeMask"], 16).bit_count() if "nodeMask" in c else len(c["nodes"])) for c in concepts),
-                "unresolved": sum(len(c["unresolved"]) for c in concepts),
+                "unresolved": sum(len(c.get("unresolved", [])) for c in concepts),
                 "related": sum(len(d["related"]) for d in dossiers.values()),
                 "nonGraphRefs": non_graph,
                 "pathSpelledRefs": path_spelled,
