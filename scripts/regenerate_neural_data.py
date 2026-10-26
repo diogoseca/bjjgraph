@@ -2792,7 +2792,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
                 x for x in ((data.get("application_level") or "").strip(),
                             (data.get("complexity_level") or "").strip(),
                             (data.get("category") or "").strip()) if x), 60),
-            "nodes": [] if applicability else sorted(set(nodes)),
+            **({"nodes": sorted(set(nodes))} if not applicability else {}),
             **({"nodeMask": format(sum(1 << ordinals[nid] for nid in set(nodes)), "x")} if applicability and not all_nodes else {}),
             **({"allNodes": True} if all_nodes else {}),
             **({"unresolved": unresolved} if unresolved else {}),
