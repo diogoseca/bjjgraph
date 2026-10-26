@@ -304,8 +304,21 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
       await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
       await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the closed labels')
       await expect(header).toBeVisible()
-      // D-338 (owner): a closed section is a light label, no box and no outline.
-      expect(await page.locator('[data-section-type=principles]').evaluate(e => { const cs = getComputedStyle(e); return [cs.backgroundColor, cs.borderTopColor] }), 'no box around a closed section').toEqual(['rgba(0, 0, 0, 0)', 'rgba(0, 0, 0, 0)'])
+      // D-338 / D-475: a closed section is a light label with no box. A zero-width border
+      // draws nothing even when its computed color is currentColor; the open-card glow must vanish too.
+      const closed = await page.locator('[data-section-type=principles]').evaluate(e => {
+        const cs = getComputedStyle(e)
+        return { background: cs.backgroundColor, shadow: cs.boxShadow,
+          borders: ['top', 'right', 'bottom', 'left'].map(side => ({ side,
+            width: parseFloat(cs.getPropertyValue(`border-${side}-width`)),
+            color: cs.getPropertyValue(`border-${side}-color`) })) }
+      })
+      expect(closed.background, 'D-338: no background around a closed section').toBe('rgba(0, 0, 0, 0)')
+      expect(closed.shadow, 'D-475: no shadow around a closed section').toBe('none')
+      for (const { side, width, color } of closed.borders) {
+        const transparent = color === 'transparent' || /^rgba\(.+,\s*0(?:\.0+)?\s*\)$/.test(color)
+        expect(width === 0 || transparent, `D-338: no visible ${side} border around a closed section`).toBe(true)
+      }
       const line = await header.evaluate(e => { const label = e.querySelector('.ng-section-closed')!, s = getComputedStyle(label)
         return { height: Math.round(e.getBoundingClientRect().height), display: s.display, align: s.alignItems, action: getComputedStyle(label, '::after').content } })
       expect(line, 'U25: one compact line, section name and Show action').toEqual({ height: 44, display: 'flex', align: 'center', action: '"Show"' })
