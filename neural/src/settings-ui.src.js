@@ -10,6 +10,7 @@ export async function ngInstallSettingsPresentation(target, dependencies) {
   const { SECTION_TYPES, sectionShown } = await import(target._appAsset("reader.js") + (attempt > 1 ? "&retry=" + attempt : ""));
   if (target.__ngDestroyed || !target._progressCurrent()) throw new Error("Settings owner changed");
   const { NG_SETTINGS_TABS, NG_START_FROM } = dependencies;
+  const sectionStyle = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
   const methods = {
 _settingsTabRow(row, tab, refocus) {
     const go = (id) => { if (id !== this._settingsTab) { this._settingsTab = id; this.renderSettings(); } };
@@ -186,7 +187,7 @@ renderSettings() {
       // spots" it also names the live spot — the crack and where the roll opens — read from the
       // SAME window the draw uses (`_weakStates`), never a second ranking (§6.5).
       const sf = document.createElement("div");
-      sf.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      sf.style.cssText = sectionStyle;
       sf.setAttribute("data-settings-start", "1");
       sf.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Where the roll starts</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Where you and your opponent are when a new roll begins. Which side you play \u2014 top or bottom \u2014 is still drawn each time.</div>';
       const sseg = document.createElement("div");
@@ -230,7 +231,7 @@ renderSettings() {
       // tabs each carried a duplicate pill). Placement only: setGiMode is unchanged and
       // still re-filters techniques, lessons, checkpoints and odds everywhere.
       const gv = document.createElement("div");
-      gv.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      gv.style.cssText = sectionStyle;
       gv.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Uniform</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Gi or no-gi. Filters which techniques, lessons and odds the whole app uses.</div>';
       const gseg = document.createElement("div");
       gseg.style.cssText = "display:flex;gap:9px;margin-top:12px;";
@@ -246,7 +247,7 @@ renderSettings() {
       // never read again and never deleted (CLAUDE.md §6.6); the wire ships the default block only.
       // decision time pace
       const dt = document.createElement("div");
-      dt.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      dt.style.cssText = sectionStyle;
       const dsecBase = this.get("decisionSec", 9);
       dt.innerHTML =
         '<div style="display:flex;align-items:baseline;justify-content:space-between;"><div style="font-size:14px;font-weight:600;color:#eef1f6;">Answer time</div><div style="font-size:13px;font-weight:700;color:#9ab0e0;font-family:\'Space Grotesk\',sans-serif;"><span class="paceVal">' + dsecBase + '</span>s</div></div>' +
@@ -281,7 +282,7 @@ renderSettings() {
       // ── THE THREE BOTTOM LAYERS (v1.171.0) ── the same rows the ghost ✕ and the dock write,
       // here so the state is discoverable when every handle is collapsed. Same ✓ box as above.
       const lay = document.createElement("div");
-      lay.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      lay.style.cssText = sectionStyle;
       lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each row has its own ✕ on the board; the small glyphs at the bottom bring one back. Your choice sticks across states and devices.</div>';
       const LAYER_ROWS = [
         ["film", "Videos during play", "The current node's videos while playing."],
