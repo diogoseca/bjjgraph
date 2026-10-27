@@ -83,7 +83,7 @@ for (const [path, width, fixture] of [
       })
     } })
     await expect(page.locator(READY)).toBeVisible()
-    expect(await page.evaluate(() => typeof Element.prototype.moveBefore === 'function'), 'premise: requested card-move capability').toBe(native)
+    expect(await page.evaluate(() => typeof (Element.prototype as any).moveBefore === 'function'), 'premise: requested card-move capability').toBe(native)
     const before = await page.evaluate(async path => {
       const a = (window as any).__neural, doc = new DOMParser().parseFromString(await (await fetch(path)).text(), 'text/html')
       const sources = [...doc.querySelectorAll('article iframe')].map(f => new URL(f.getAttribute('src')!).pathname.split('/').pop())
