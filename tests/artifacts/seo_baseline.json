@@ -1710,8 +1710,8 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "324c60e7a726dc8e5c9c542eb5f85b4e4273b8dc",
-   "capture_id": "6e37539bbfe54e15bc366be6ed30c9ab",
+   "capture_git_head": "b05f7b54172ceb77fd06dbf5aca04a9cf4c6bc95",
+   "capture_id": "23ade999a21b4101be4a9c27f9df8bad",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6295,
@@ -1742,11 +1742,11 @@
    },
    "output_identity": {
     "files": 15735,
-    "sha256": "79ff158907b6eb06692af92e82eb90c0dbe91bf9080342923065e05d9b0c49c5"
+    "sha256": "118be07420e72bd1d23e76cd3018dbfae49bba590f4db794614b09002c744118"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/reorigined-prose/HUBGO507-v1/capture/pr-reorigined-prose-hub-324c60e7a"
+    "/home/user/bjj-orchestrator/scratch/reorigined-prose/FPGO516-v2/capture/pr-reorigined-prose-merge-b05f7b541-v2"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
