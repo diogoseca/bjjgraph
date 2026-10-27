@@ -1710,14 +1710,14 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "fb8058b99b74ef5177b2f76820f56a224b66d02d",
-   "capture_id": "282a6eb713de439d8d359c4f87719cb6",
+   "capture_git_head": "b9006efb60b091126da201a047857edecea80834",
+   "capture_id": "110ba84c558c4e59928753368ed3d5b6",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6295,
    "content_md": 4522,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "f8c4dd567a1cef54dae5ac76eb8e6e277cd174b7",
+   "content_tree": "6634d77db476798581daca2479a1ef0dc88a10b6",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1742,11 +1742,11 @@
    },
    "output_identity": {
     "files": 15735,
-    "sha256": "a34151974482d52719f9a29405c87f705d9ce8a7c6aed694e58058d9e8232593"
+    "sha256": "a4d3605d70529d8ea22fa49c6091571c7cea472ad0ae518ab1db2309de502aa0"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/restructure-phase2/capture/pr-restructure-n4-fb8058b99"
+    "/home/user/bjj-orchestrator/scratch/narration-additions-x5/capture/pr-narration-additions-x5-b9006efb6"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
