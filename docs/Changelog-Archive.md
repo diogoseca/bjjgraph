@@ -12677,3 +12677,31 @@ verify dead-code evidence against the base and its retained HTML receipt, and me
 and optional feature variant. It stops above the unchanged 506,817 B ceiling (4 B over the base),
 then re-seeds app rows as a separate child of the clean candidate and runs all required gates.
 No payload ceiling or policy baseline changes are part of this implementation.
+
+
+## v1.235.0 — the directed opening (owner U48 → U50 d, "S2 · Z2")
+
+The owner, on the round-1 preview (V2): "It seems weird that the graph ... moves up. It would make sense if
+the scaffold was already appearing ... the zoom should already have started in the first frames and
+accelerate ... until we land on the node (... so it lands smoothly rather than abruptly)".
+
+Phase 0, measured on Mount (Top) through draw()'s transform: the scaffold is the reader section (Moves,
+Videos, the practice card, the article), which the landing framing reserves the band above. Under the
+reading view `_viewRect` returns that band before it measures any row, so `_bandMemo` never learns the rows
+and `_predictBottom` stays the first-visit guess `H × 0.1` (84.4 px phone, 90 px desktop). Beat 1's
+`_liftForLanding` therefore panned the WIDE graph 317 px up (267 px desktop) over an empty screen, 95 / 66 px
+past the landing, then back down. At the reveal the rows appeared at full opacity, the Videos row laid out
+at y 67 inside the node band for one frame (the deferred reader adopts the rows a frame late), and the
+heading jumped 251 px. A restart dropped the old Moves, Videos and card at once and the article jumped 748 px
+(494 px desktop).
+
+Four variants were built behind `?camOpen` and shown side by side (S1/S2: the board fades in place / rides up
+with the node; Z1/Z2: the zoom accelerates into the node / lands softly). The owner picked S2 · Z2; it is now
+the law for the first opening and every staged restart, and the variants and the switch are deleted.
+The first opening is no longer guest-scoped: anything that does not own the board or camera at the first
+frame (URL seed, reference page, staged board, camera lease) gets it.
+Defects found while finishing it: the first cut's centre blend carried the named node 19.6 px out and back
+at 1440 (replaced by an inherited drift that eases to rest; "the drift never reverses"), and the variants
+still flashed the unadopted rows for one frame on the first opening (now hidden with visibility until the
+section adopts them; NO-FLASH). `tests/game_study_inputs.test.mjs` had been red since round 1's
+`startRoll(opening)` signature (its anchor now tolerates parameters).

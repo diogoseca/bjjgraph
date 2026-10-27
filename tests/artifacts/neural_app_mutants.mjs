@@ -72,8 +72,8 @@ const controls = [
     [['._ngRO.disconnect(),(e=this._reader)==null||e.resize.unobserve(this._landFilmEl);try{', '._ngRO.disconnect();try{']], 'the removed film is no longer observed by the reader'],
   // D-350b: the header's ZERO-overlap mutants (v1.219.0's noprelift / noahead), scripted so the frame filter is
   // shown not to carry their kills. noprelift: the arrival and the URL intro make no room for the rows.
-  ['noprelift-roll-start', 'camera-continuity.spec.ts', 'camera continuity.*roll start: the intro and the staged arrival',
-    [['_liftForLanding(e,t){let s=this.nodes&&this.nodes[t];', '_liftForLanding(e,t){return e;let s=this.nodes&&this.nodes[t];']], 'ZERO overlap roll start @'],
+  // RETIRED (v1.235.0): noprelift-roll-start. The roll start is the directed arrival now (`_openingPose`), which
+  // never asks `_liftForLanding`; its own mutants are in opening-camera.spec.ts's header.
   ['noprelift-url-arrival', 'camera-continuity.spec.ts', 'camera continuity.*URL arrival: from the intro',
     [['_liftForLanding(e,t){let s=this.nodes&&this.nodes[t];', '_liftForLanding(e,t){return e;let s=this.nodes&&this.nodes[t];']], 'ZERO overlap URL arrival @'],
   // noahead: `_viewRect` ignores `ahead`, so a landing's band is not predicted before its rows mount.

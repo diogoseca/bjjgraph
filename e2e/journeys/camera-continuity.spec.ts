@@ -30,7 +30,8 @@ import { journey } from "../dsl";
  *   at 390: 250 px in one frame when the film row mounted.
  *
  * AND THE ROWS. Wherever the band is PREDICTABLE the camera makes room before the rows mount, and
- * ZERO overlap is asserted on every frame: the roll start (beat 1 lifts the wide framing), the URL
+ * ZERO overlap is asserted on every frame: the roll start (v1.235.0: the directed arrival holds the node
+ * until the board mounts, then the board rides up a fixed distance below it), the URL
  * arrival (the intro's parting overview lifts), the exchange (travel frames into the landing's band)
  * — here — and the staged restart in `landing-reveal.spec.ts`. The one rule that is not zero is for a
  * row the camera cannot see coming:
@@ -65,7 +66,9 @@ import { journey } from "../dsl";
  *   the lift's edge takes 1 s                         → the lift unit (camera_motion.test.mjs); here
  *                                                       the re-aimed flight still clears the node in time
  *   ...and flights take ≥1.5 s too (slow clearing)    → "CLEAR_SEC"
- *   no pre-lift (the arrival makes no room)           → "ZERO overlap" (roll start, URL arrival);
+ *   no pre-lift (the arrival makes no room)           → "ZERO overlap" (URL arrival; the roll start is the
+ *                                                       directed arrival since v1.235.0, whose own mutants
+ *                                                       are in opening-camera.spec.ts's header);
  *                                                       scripted since D-350b as noprelift-roll-start
  *                                                       and noprelift-url-arrival, killed under the
  *                                                       on-screen filter (H45)
@@ -330,8 +333,10 @@ for (const viewport of VIEWPORTS) {
       const S = await record(page, 60 * 10);   // intro 3.2 s + arrival 6.2 s + settle
       const m = expectContinuous(S, W, "roll start");
       expectClearOfRows(S, W, "roll start");
-      const flights = await page.evaluate(() => (window as any).__neural._camFlights || 0);
-      expect(flights, "the arrival flew (a run with no flight measures only the spring)").toBeGreaterThan(0);
+      // v1.235.0: the opening is a directed pose per frame (`_openingPose`), not a flight. Either way a
+      // run that drove neither measures only the spring.
+      const directed = await page.evaluate(() => (window as any).__neural._camPoses || 0);
+      expect(directed, "the arrival was directed (a run with no directed frame measures only the spring)").toBeGreaterThan(300);
       test.info().annotations.push({ type: "motion", description: JSON.stringify(m) });
     });
 

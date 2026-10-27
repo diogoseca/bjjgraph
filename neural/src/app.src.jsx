@@ -102,42 +102,33 @@ const NG_CAM_RHO = 1.2;         // van Wijk's rho: how far a long flight zooms o
 const NG_CAM_TRACK_W = 6;       // the tracking spring, rad/s (critically damped)
 const NG_CAM_EDGE_SEC = 0.3;    // how long the lift's band edge takes to reach a new band
 const NG_CAM_LIFT_SOFT = 6;     // the soft clamp's knee, px
-// Temporary, URL-only opening comparison. Keep the pick/content clocks (3.2/2s)
-// unchanged; spend their existing time on rest-to-rest camera flights.
-const NG_CAM_OPEN_INTRO = 3.2;
-const NG_CAM_OPEN_OUT_SEC = 0.75;
-const NG_CAM_OPEN_WIDE = 1.12;
-const NG_CAM_OPEN_IN_SEC = 4;
-const NG_CAM_OPEN_SLOPE = 1.875; // max derivative of 6u^5 - 15u^4 + 10u^3
-// ── ROUND 2 (owner U48, 2026-10-27), `?camOpen=v2s{1,2}z{1,2}`, also URL-only ─────────────────────
-// "It seems weird that the graph ... moves up. It would make sense if the scaffold was already
-// appearing ... the zoom should already have started in the first frames and accelerate the zoom in
-// until we land on the node." Round 1's V2 panned the WIDE graph up for 2s (beat 1's pre-lift, aimed
-// at `_predictBottom`'s H*0.1 guess), before the reader section it makes room for had mounted, and
-// held the zoom still while it did. Round 2 directs the whole opening on ONE clock (`now`):
-//   ZOOM  one log-width curve from the first frame to the landing (equal ratios read as equal
-//         speed, so log is the perceptual axis). The pick lands mid-curve; the zoom's fixed point
-//         is then the node: it keeps the outward drift the centre zoom gave it and eases that to rest
-//         over NG_CAM_OPEN2_ANCHOR, so the hand-over has no velocity step and no reversal.
-//         Z1 z = v0 u + (1 - v0) u^2: constant log-acceleration, landing at full speed (the stop's
-//            per-frame step stays inside camera-continuity's KICK bound, measured per variant);
-//         Z2 z' = (1 - u)(v0 + b u + c u^2): its peak is placed on the rise's peak, so the two
-//            reach full speed together, then it brakes to touch down at zero velocity.
-//   RISE  the node's SCREEN path from where it was named to the reading band, starting only when the
+// ── THE OPENING AND EVERY STAGED RESTART ARE DIRECTED (v1.235.0, owner U48 → U50 d) ─────────────────
+// Owner, 2026-10-27, on the round-1 preview: "It seems weird that the graph ... moves up. It would make
+// sense if the scaffold was already appearing ... the zoom should already have started in the first
+// frames and accelerate ... until we land on the node (... so it lands smoothly rather than abruptly)".
+// The old arrival panned the WIDE graph up for 2s (beat 1's pre-lift aims at `_predictBottom`'s H*0.1
+// guess, which the reading view never corrects: 317px up at 390x844, 95px past the landing) before the
+// reader section it makes room for had mounted, and held the zoom still while it did. Four variants
+// were built and shown side by side; the owner picked S2 · Z2. `_openingPose` is that law, on ONE clock (`now`):
+//   ZOOM  one log-width curve from the first frame to the landing (equal ratios read as equal speed,
+//         so log is the perceptual axis): z'(u) = (1-u)(v0 + b u + c u^2), its peak placed on the
+//         rise's peak so the two reach full speed together, then braking to touch down at zero
+//         velocity. The pick lands mid-curve; from it the camera is anchored on the node, whose
+//         outward drift eases to rest over NG_CAM_OPEN_ANCHOR: no velocity step, no reversal.
+//   RISE  the node's SCREEN path from where it was named to the reading band starts only when the
 //         reader section mounts (the reveal, pick + NG_ARRIVE_KICKER), on cubic-bezier(.4,0,.2,1):
-//         a soft departure from rest, then the back half spent settling into the band.
-//   BOARD the reader section rides the rise's own progress: S1 fades in place; S2 fades and rides
-//         up the node's remaining rise, so node and board share one velocity.
-const NG_CAM_OPEN_VARIANTS = ["v1", "v2", "v2s1z1", "v2s1z2", "v2s2z1", "v2s2z2"];
-const NG_CAM_OPEN2_LAND = 6.0;      // landing, s after the pick (round 1 still at 5.98-6.28)
-const NG_CAM_OPEN2_RISE = 2.0;      // the rise and the board's entrance, from the reveal
-const NG_CAM_OPEN2_EASE = [0.4, 0, 0.2, 1]; // the rise; its velocity peaks at 30% of NG_CAM_OPEN2_RISE
-const NG_CAM_OPEN2_V0 = 0.15;       // first-opening zoom speed at frame 0, of the mean: under the fade-in
-const NG_CAM_OPEN2_ANCHOR = 0.8;    // s: the named node's inherited drift eases to rest (and the landing width takes over)
-const NG_CAM_OPEN2_OUT = 1.4;       // s: a restart's breath out to the overview, rest to rest (sine)
-const NG_CAM_OPEN2_GOAL_W = 14;     // rad/s: the landing framing is followed through a spring, as a flight's goal is
-const ngCamOpenV2 = (v) => typeof v === "string" && v.slice(0, 2) === "v2";
-const ngCamOpenR2 = (v) => typeof v === "string" && v.length === 6 && NG_CAM_OPEN_VARIANTS.includes(v);
+//         a soft departure from rest, the back half spent settling into the band.
+//   BOARD the reader section fades in and rides up the node's remaining rise on that same progress,
+//         so node and board share one velocity; the heading glides into the band with them.
+//   A restart first breathes out to the overview (NG_CAM_OPEN_OUT) while the old board fades and sinks.
+const NG_CAM_OPEN_PICK = 3.2;      // the intro hands over to the first roll at 3.2s (updateCamera)
+const NG_CAM_OPEN_LAND = 6.0;      // the camera lands this long after the pick (the old arrival settled at 5.9-6.2)
+const NG_CAM_OPEN_RISE = 2.0;      // the rise and the board's entrance, from the reveal
+const NG_CAM_OPEN_EASE = [0.4, 0, 0.2, 1]; // the rise; its velocity peaks at 30% of NG_CAM_OPEN_RISE
+const NG_CAM_OPEN_V0 = 0.15;       // the first opening's zoom speed at frame 0, of the mean: under the fade-in
+const NG_CAM_OPEN_ANCHOR = 0.8;    // s: the named node's inherited drift eases to rest (and the landing width takes over)
+const NG_CAM_OPEN_OUT = 1.4;       // s: a restart's breath out to the overview, rest to rest (sine)
+const NG_CAM_OPEN_GOAL_W = 14;     // rad/s: the landing framing is followed through a spring, as a flight's goal is
 /** CSS cubic-bezier(x1, y1, x2, y2) at x in [0, 1]: bisect the x polynomial, read y. */
 function ngBezier(p, x) {
   if (x <= 0) return 0; if (x >= 1) return 1;
@@ -146,13 +137,13 @@ function ngBezier(p, x) {
   for (let i = 0; i < 40; i++) { const m = (lo + hi) / 2; if (B(m, p[0], p[2]) < x) lo = m; else hi = m; }
   return B((lo + hi) / 2, p[1], p[3]);
 }
-/** Round-2 zoom progress in [0, 1] at u in [0, 1]. `v0` is the normalised start speed; `up` is
- *  Z2's peak, kept in [1/3, 2/3]: outside it (1-u)(v0 + b u + c u^2) dips below zero (from v0 = 0). */
-function ngOpenZoom(kind, u, v0, up) {
+/** The opening's zoom progress in [0, 1] at u in [0, 1]: z'(u) = (1-u)(v0 + b u + c u^2), integral 1,
+ *  peak at `up`. `v0` is the normalised start speed; `up` stays in [1/3, 2/3], outside which the
+ *  velocity polynomial dips below zero (from v0 = 0). */
+function ngOpenZoom(u, v0, up) {
   u = Math.max(0, Math.min(1, u));
-  if (kind === "z1") return v0 * u + (1 - v0) * u * u;
   up = Math.max(0.34, Math.min(0.66, up));
-  // z'(u) = (1-u)(v0 + b u + c u^2): integral 1 and z''(up) = 0, two linear equations in b, c
+  // integral 1 and z''(up) = 0: two linear equations in b, c
   const a11 = 1 - 2 * up, a12 = 2 * up - 3 * up * up, a21 = 1 / 6, a22 = 1 / 12, r2 = 1 - v0 / 2;
   const det = a11 * a22 - a12 * a21, b = (v0 * a22 - a12 * r2) / det, c = (a11 * r2 - a21 * v0) / det;
   return v0 * u + (b - v0) * u * u / 2 + (c - b) * u * u * u / 3 - c * u * u * u * u / 4;
@@ -12636,7 +12627,7 @@ class Component extends DCLogic {
     const box = this.evCenterRef.current; if (!box) return;
     const band = this._viewRect();
     if (rise != null && rise < 1) {
-      // ROUND 2: the heading rides the opening's rise from the screen's centre into the band on the
+      // A DIRECTED ARRIVAL: the heading rides the rise from the screen's centre into the band on the
       // rise's own progress — a transform (no layout per frame) that equals the band placement at 1
       const block = box.firstElementChild, H = this.H || 800;
       box.style.top = "0px"; box.style.bottom = "0px";
@@ -12652,15 +12643,13 @@ class Component extends DCLogic {
     const block = box.firstElementChild;
     block.style.transform = "scale(" + Math.min(1, Math.max(1, band.height - 8) / Math.max(1, block.offsetHeight)) + ")";
   }
-  _centerReveal(text, sub, opening) {
+  _centerReveal(text, sub) {
     for (const [el, val] of [[this.evcTextRef.current, text], [this.evcSubRef.current, sub]]) {
       if (!el) continue;
       el.textContent = val;
       el.style.transition = "opacity .6s ease";
       el.style.opacity = "0";
-      requestAnimationFrame(() => requestAnimationFrame(() => {
-        if (!opening || this._camOpen === opening && !opening.cancelled) el.style.opacity = "1";
-      }));
+      requestAnimationFrame(() => requestAnimationFrame(() => { el.style.opacity = "1"; }));
     }
     this._frameArrivalHeading();
   }
@@ -16991,10 +16980,11 @@ class Component extends DCLogic {
   }
 
   startRoll(opening) {
-    // Only updateCamera passes this first-opening token. Ordinary restarts retire it, except that a
-    // round-2 switch mints a fresh one for each later staged restart (below).
+    // THE ARRIVAL IS DIRECTED (NG_CAM_OPEN_*): updateCamera passes the first opening's token, and
+    // every later staged restart mints its own below. Without one (a first roll under a camera lease)
+    // the staged arrival below keeps its own beats.
     const manual = !!(opening && this._camOpenManual), cancelled = !!opening?.cancelled;
-    const restart = !opening && this._camOpenKind && this.cam && this.currentPos != null && this.nodes?.[this.currentPos]
+    const restart = !opening && this.cam && this.currentPos != null && this.nodes?.[this.currentPos]
       ? { from: this.currentPos, art: this._reader?.articleEl || null } : null;
     // the clears below drop the old hand, film and card at once, and the reader re-lays out a frame
     // later with the article jumped up by their height (measured 748px at 390x844); read where it
@@ -17006,8 +16996,7 @@ class Component extends DCLogic {
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
     if (opening) { this._camOpen = opening; opening.cancelled = cancelled; opening.pick = this.now; this._camOpenManual = manual; }
     else if (restart) {
-      opening = this._camOpen = { variant: this._camOpenKind, pick: this.now, cancelled: false, restart: true,
-        from: restart.from, land: this.now + NG_CAM_OPEN2_LAND };
+      opening = this._camOpen = { pick: this.now, cancelled: false, restart: true, from: restart.from, land: this.now + NG_CAM_OPEN_LAND };
       if (restart.off != null && !this._reducedMotion()) { opening.art = restart.art; opening.artOff = restart.off; opening.artPrev = restart.art.style.translate; }
     }
     this._beltTest = null; // a fresh normal roll is never a belt test (manual reset = clean cancel, no attempt burned)
@@ -17114,8 +17103,9 @@ class Component extends DCLogic {
     this.showCenter(
       this._startSpot ? "Your weak spot: " + this._startSpot.split("|")[0]
         : this._rollsBegun > 1 ? "Restarting the roll" : "Starting the roll",
-      ngCamOpenV2(opening?.variant) && !opening.cancelled ? this.posFamily(this.nodes[this.currentPos].t) : "",
-      ngCamOpenV2(opening?.variant) && !opening.cancelled ? this.roleLabel() : "", "muted", true);
+      // a directed arrival names the state at the pick, over the graph it is about to dive into
+      opening && !opening.cancelled ? this.posFamily(this.nodes[this.currentPos].t) : "",
+      opening && !opening.cancelled ? this.roleLabel() : "", "muted", true);
     if (opening?.cancelled) this.hideCenter();
     this.focusIdx = -1; this.pulse = null;
     this.camFocus = this.pairMid(this.nodes[this.currentPos]);
@@ -17129,12 +17119,8 @@ class Component extends DCLogic {
       this._arriveWide = false;
       // Reveal identity, URL, highlight and measured content in the same frame.
       this.enterLand(true, true);
+      // a directed arrival named the state at the pick, and its heading glides on the rise (updateCamera)
       if (!opening) this._centerReveal(this.posFamily(this.nodes[this.currentPos].t), this.roleLabel());
-      else if (this._camOpen === opening && !opening.cancelled) {
-        // round 2 glides the heading per frame on the rise (updateCamera), so nothing jumps here
-        if (ngCamOpenV2(opening.variant)) { if (!ngCamOpenR2(opening.variant)) this._frameArrivalHeading(); }
-        else this._centerReveal(this.posFamily(this.nodes[this.currentPos].t), this.roleLabel(), opening);
-      }
     });
     this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME, () => {
       if (!opening || this._camOpen === opening && !opening.cancelled) this._centerHandoff();
@@ -18736,20 +18722,16 @@ class Component extends DCLogic {
     this._labelWCache.set(key, w);
     return w;
   }
-  _openingPreview() {
+  /** The first automatic opening is directed when nothing else owns the board or the camera at the
+   *  intro's first frame: no URL seed (it stages its own board), no reference page (it starts
+   *  nothing), no board staged, no camera lease (a shared list's flight, decoded at ingest).
+   *  Considered once; every later staged restart mints its own token in startRoll. */
+  _firstOpening() {
     if (this._camOpenChecked) return this._camOpen;
     this._camOpenChecked = true;
     if (this.introDone || this._urlSeeded || this._refPage || this._staged != null
-      || this.currentPos != null || this.user || this._authUserId || this.camHeld()) return null;
-    try {
-      const variant = new URLSearchParams(window.location.search).get("camOpen");
-      if (NG_CAM_OPEN_VARIANTS.includes(variant) && ngAuthIsGuest(this._auth())) {
-        this._camOpen = { variant, pick: null, cancelled: false };
-        // Round 2 also directs every later staged restart in this visit (startRoll mints its token).
-        if (ngCamOpenR2(variant)) this._camOpenKind = variant;
-      }
-    } catch (e) { /* no browser: ordinary camera */ }
-    return this._camOpen;
+      || this.currentPos != null || this.camHeld()) return null;
+    return (this._camOpen = { pick: null, cancelled: false });
   }
   _retireCamOpen() {
     if (this._camOpen) { this._camOpen.cancelled = true; this._openBoardRestore(this._camOpen, false); } // also kills queued reveal rAFs
@@ -18766,23 +18748,23 @@ class Component extends DCLogic {
     Object.assign(this.camTarget, this.cam);
     this._cm = null; // adopt the hand's pose at rest on the next deliberate camera move
   }
-  /** ROUND 2: the directed opening's PANE-FREE pose {x, y, w} for this frame (see NG_CAM_OPEN2_*),
+  /** The directed arrival's PANE-FREE pose {x, y, w} for this frame (see NG_CAM_OPEN_*),
    *  or null once it has landed. Closed-form in `now`, so the frame pump and a live 144 Hz screen
    *  draw the same curve; `_camStep` only records it. Everything the board and the heading need
    *  (the rise's progress, the node's remaining rise, the old node's descent) is left on `op`. */
   _openingPose(op) {
-    const W = this.W || 1200, H = this.H || 800, t = this.now, kind = op.variant.slice(4);
+    const W = this.W || 1200, H = this.H || 800, t = this.now;
     const lstar = Math.log(this.graphW * this.ROLL_ZOOM);   // the landing width before there is a node
     const sm = (x) => { x = Math.max(0, Math.min(1, x)); return x * x * x * (x * (x * 6 - 15) + 10); };
     if (op.land == null) {
       // the first opening's clock starts on its first frame; the pick is due at the intro's 3.2s
-      op.t0 = t; op.land = t + NG_CAM_OPEN_INTRO + NG_CAM_OPEN2_LAND; op.L0 = Math.log(this.cam.vw);
-      op.v0 = NG_CAM_OPEN2_V0;
-      op.up = (NG_CAM_OPEN_INTRO + this.NG_ARRIVE_KICKER + 0.3 * NG_CAM_OPEN2_RISE) / (op.land - op.t0);
+      op.t0 = t; op.land = t + NG_CAM_OPEN_PICK + NG_CAM_OPEN_LAND; op.L0 = Math.log(this.cam.vw);
+      op.v0 = NG_CAM_OPEN_V0;
+      op.up = (NG_CAM_OPEN_PICK + this.NG_ARRIVE_KICKER + 0.3 * NG_CAM_OPEN_RISE) / (op.land - op.t0);
     }
     if (op.landed) return null;
     if (op.pick == null) {   // the intro: the same zoom curve, about the graph's centre
-      return { x: this.gcx, y: this.gcy, w: Math.exp(op.L0 + (lstar - op.L0) * ngOpenZoom(kind, (t - op.t0) / (op.land - op.t0), op.v0, op.up)) };
+      return { x: this.gcx, y: this.gcy, w: Math.exp(op.L0 + (lstar - op.L0) * ngOpenZoom((t - op.t0) / (op.land - op.t0), op.v0, op.up)) };
     }
     // the node named at the pick stays the subject even if the landing canonicalises the seat
     const n = this.nodes && this.nodes[op.idx ?? (op.idx = this.currentPos)]; if (!n) return null;
@@ -18797,8 +18779,8 @@ class Component extends DCLogic {
     const F = this.rollCamTarget(q, false, this.currentPos);
     const Fx = F.cx + (F._paneFraction || 0) * F.vw, dt = this._mdt || 0;
     if (!op.g) op.g = { x: Fx, vx: 0, y: F.cy, vy: 0, l: Math.log(F.vw), vl: 0 };
-    const G = op.g, GX = this._camSpring(G.x, G.vx, Fx, NG_CAM_OPEN2_GOAL_W, dt);
-    const GY = this._camSpring(G.y, G.vy, F.cy, NG_CAM_OPEN2_GOAL_W, dt), GL = this._camSpring(G.l, G.vl, Math.log(F.vw), NG_CAM_OPEN2_GOAL_W, dt);
+    const G = op.g, GX = this._camSpring(G.x, G.vx, Fx, NG_CAM_OPEN_GOAL_W, dt);
+    const GY = this._camSpring(G.y, G.vy, F.cy, NG_CAM_OPEN_GOAL_W, dt), GL = this._camSpring(G.l, G.vl, Math.log(F.vw), NG_CAM_OPEN_GOAL_W, dt);
     G.x = GX[0]; G.vx = GX[1]; G.y = GY[0]; G.vy = GY[1]; G.l = GL[0]; G.vl = GL[1];
     const goal = { x: G.x, y: G.y, w: Math.exp(G.l) }, P1 = scr(q, goal);
     if (t >= op.land) { op.landed = true; op.rise = 1; op.riseDy = 0; return { ...goal, last: true }; }
@@ -18814,28 +18796,29 @@ class Component extends DCLogic {
         const sx = (ov.x - a.x) / a.w * W + W / 2, sy = (ov.y - a.y) / a.w * W + H / 2;
         const pk = sx >= -0.25 * W && sx <= 1.25 * W && sy >= -0.25 * H && sy <= 1.25 * H ? "pivot" : "arc";
         const path = this._camPath(a, ov, pk), travel = pk === "pivot" ? Math.abs(Math.log(ov.w / a.w)) : NG_CAM_RHO * path.S;
-        op.ov = ov; op.path = path; op.tin = op.pick + Math.max(NG_CAM_OPEN2_OUT, Math.PI / 2 * travel / 3.2);
+        op.ov = ov; op.path = path; op.tin = op.pick + Math.max(NG_CAM_OPEN_OUT, Math.PI / 2 * travel / 3.2);
         op.P0 = scr(q, ov); op.Lov = Math.log(ov.w);
         const E = op.pick + this.NG_ARRIVE_KICKER;
-        op.up = (E + 0.3 * NG_CAM_OPEN2_RISE - op.tin) / (op.land - op.tin);
+        op.up = (E + 0.3 * NG_CAM_OPEN_RISE - op.tin) / (op.land - op.tin);
         const o = this.nodes[op.from];
         if (o) { op.oldQ = this.pairMid(o); op.oldY0 = scr(op.oldQ, a).y; }
       }
+      Ph = op.P0;
       if (t < op.tin) {   // the breath out: rest to rest, the old board leaving with it
         const x = (t - op.pick) / (op.tin - op.pick), pose = op.path.at((1 - Math.cos(Math.PI * x)) / 2);
         op.exitDy = op.oldQ ? Math.max(0, scr(op.oldQ, pose).y - op.oldY0) : 0; op.rise = 0; op.riseDy = 0;
         return pose;
       }
-      w = Math.exp(op.Lov + (G.l - op.Lov) * ngOpenZoom(kind, (t - op.tin) / (op.land - op.tin), 0, op.up));
+      w = Math.exp(op.Lov + (G.l - op.Lov) * ngOpenZoom((t - op.tin) / (op.land - op.tin), 0, op.up));
     } else {
       // the first opening, after the pick. The landing width replaces the estimate over
-      // NG_CAM_OPEN2_ANCHOR (smootherstep). The camera is anchored on the node from the pick on: the
+      // NG_CAM_OPEN_ANCHOR (smootherstep). The camera is anchored on the node from the pick on: the
       // centre zoom was carrying it outward at V, and that drift eases to rest, v = V (1 - smoothstep),
       // travelling V T / 2. Node and camera centre keep their velocity across the pick, and the node
       // settles where its momentum takes it instead of drifting out and back (a centre blend measured
       // 19.6 px out and back at 1440).
-      const T = NG_CAM_OPEN2_ANCHOR, x = Math.min(1, (t - op.pick) / T), lw = (tt) => op.L0 + (lstar - op.L0) * ngOpenZoom(kind, (tt - op.t0) / (op.land - op.t0), op.v0, op.up);
-      w = Math.exp(op.L0 + (lstar + sm(x) * (G.l - lstar) - op.L0) * ngOpenZoom(kind, (t - op.t0) / (op.land - op.t0), op.v0, op.up));
+      const T = NG_CAM_OPEN_ANCHOR, x = Math.min(1, (t - op.pick) / T), lw = (tt) => op.L0 + (lstar - op.L0) * ngOpenZoom((tt - op.t0) / (op.land - op.t0), op.v0, op.up);
+      w = Math.exp(op.L0 + (lstar + sm(x) * (G.l - lstar) - op.L0) * ngOpenZoom((t - op.t0) / (op.land - op.t0), op.v0, op.up));
       if (!op.P0) {
         const Pk = scr(q, { x: this.gcx, y: this.gcy, w: Math.exp(lw(op.pick)) }), rate = (lw(op.pick + 1e-3) - lw(op.pick - 1e-3)) / 2e-3;
         op.Pk = Pk; op.V = { x: -(Pk.x - W / 2) * rate, y: -(Pk.y - H / 2) * rate };
@@ -18845,19 +18828,32 @@ class Component extends DCLogic {
       Ph = { x: op.Pk.x + op.V.x * T * g + (op.P0.x - op.Pfree.x) * sm(x), y: op.Pk.y + op.V.y * T * g + (op.P0.y - op.Pfree.y) * sm(x) };
     }
     // the node holds where it was named until the board it rises FOR exists, then rises with it
-    const E = op.pick + this.NG_ARRIVE_KICKER, r = t < E ? 0 : ngBezier(NG_CAM_OPEN2_EASE, (t - E) / NG_CAM_OPEN2_RISE);
+    const E = op.pick + this.NG_ARRIVE_KICKER, r = t < E ? 0 : ngBezier(NG_CAM_OPEN_EASE, (t - E) / NG_CAM_OPEN_RISE);
     const P = { x: Ph.x + (P1.x - op.P0.x) * r, y: Ph.y + (P1.y - op.P0.y) * r };
     op.rise = r; op.riseDy = Math.max(0, P.y - P1.y);
     const cx = q.x - (P.x - W / 2) * w / W, cy = q.y - (P.y - H / 2) * w / W;
     return { x: cx, y: cy, w };
   }
-  /** ROUND 2: the board (the reader section, and the layer shelf) on the opening's clock. A restart
+  /** The board (the reader section, and the layer shelf) on the opening's clock. A restart
    *  first takes the PREVIOUS board out with the breath out; every board enters with the rise. Inline
    *  values are saved on first touch and restored, so nothing here outlives the opening. */
   _openingBoard(op) {
     if (!op || op.cancelled || op.pick == null || op.boardDone || this._reducedMotion()) return;
-    const els = [this._readerEl || this._reader?.root, this._layerDockEl].filter((el) => el && el.isConnected);
+    const sec = this._readerEl || this._reader?.root, book = this.get("readerBook", true);
+    const els = [sec, this._layerDockEl].filter((el) => el && el.isConnected);
     const saved = op.saved || (op.saved = new Map()), t = this.now, E = op.pick + this.NG_ARRIVE_KICKER;
+    // THE ROWS BEFORE THE READER ADOPTS THEM. On the first opening the deferred reader builds its
+    // section a frame AFTER the Moves, Videos and card rows mount in their own homes: measured at
+    // 390x844, the Videos row at y 67 (inside the node band) and Moves at 333, at full opacity, for
+    // one frame. With the reading view on, such a row is HIDDEN (visibility, so it neither paints nor
+    // takes a click, CLAUDE.md 6.1) until the section adopts it; without it the rows are the board.
+    const rows = [this._landFilmEl, this._landEl, this.optionsRef?.current]
+      .filter((el) => el && el.isConnected && el.offsetHeight > 40 && !(sec && sec.isConnected && sec.contains(el)));
+    for (const [el, v] of saved) if (v.loose && !rows.includes(el)) { el.style.visibility = v.visibility; saved.delete(el); }
+    if (book) for (const el of rows) {
+      if (!saved.has(el)) saved.set(el, { loose: true, visibility: el.style.visibility });
+      el.style.visibility = "hidden";
+    } else els.push(...rows);
     let o, y;
     if (t < E) {
       if (op.restart && op.tin) { const x = Math.min(1, (t - op.pick) / (op.tin - op.pick)); o = (1 + Math.cos(Math.PI * x)) / 2; y = op.exitDy || 0; }
@@ -18872,12 +18868,11 @@ class Component extends DCLogic {
       o = op.rise ?? 0; y = op.riseDy || 0;
       if (op.art) { op.art.style.translate = op.artPrev || ""; op.art = null; }   // the new board has laid out
     }
-    if (op.variant[3] !== "2") y = 0;   // S1 fades in place
-    for (const [i, el] of els.entries()) {
+    for (const el of els) {
       if (!saved.has(el)) saved.set(el, { opacity: el.style.opacity, translate: el.style.translate, transition: el.style.transition });
       el.style.transition = "none";
       el.style.opacity = String(Math.round(o * 1e4) / 1e4);
-      el.style.translate = i === 0 && y ? "0 " + y.toFixed(2) + "px" : "";   // the shelf is docked: fade only
+      el.style.translate = el !== this._layerDockEl && y ? "0 " + y.toFixed(2) + "px" : "";   // the shelf is docked: fade only
     }
     if (t >= E && o >= 1) { op.boardDone = true; this._openBoardRestore(op, false); }
   }
@@ -18885,48 +18880,37 @@ class Component extends DCLogic {
     if (op.art) { op.art.style.translate = op.artPrev || ""; op.art = null; }
     if (!op.saved) return;
     for (const [el, v] of op.saved) {
+      if (v.loose) { el.style.visibility = v.visibility; continue; }
       el.style.transition = fade ? "opacity .2s ease, translate .2s ease" : v.transition;
       el.style.opacity = v.opacity; el.style.translate = v.translate;
       if (fade) setTimeout(() => { if (el.style.transition.startsWith("opacity .2s")) el.style.transition = v.transition; }, 260);
     }
     op.saved = null;
   }
-  _openingFrame(opening) {
-    if (!opening || opening.cancelled) return null;
-    let target = { cx: this.gcx, cy: this.gcy, vw: this.graphW }, phase = "intro", dur = NG_CAM_OPEN_INTRO;
-    const snap = this._reducedMotion();
-    if (!snap && ngCamOpenR2(opening.variant)) {
-      if (this.paused) { this._cancelCamOpen(); return null; }   // the pane (or any pause) is the user's
-      const pose = this._openingPose(opening);
-      if (!pose) return null;
-      target = opening.pick == null ? { cx: this.gcx, cy: this.gcy, vw: pose.w }
-        : this.rollCamTarget(this.pairMid(this.nodes[this.currentPos]), false, this.currentPos);
-      return { target, pose, phase: "direct", snap: false };
+  _openingFrame(op) {
+    if (!op || op.cancelled) return null;
+    if (this._reducedMotion()) {
+      // REDUCED MOTION SNAPS (updateCamera writes the target straight into the camera): the whole
+      // graph until the board mounts, then the landing framing, so the one change of view the
+      // opening makes is the frame the board appears on
+      const later = op.pick != null && this.now >= op.pick + this.NG_ARRIVE_KICKER;
+      return { snap: true, target: later ? this.rollCamTarget(this.pairMid(this.nodes[this.currentPos]), false, this.currentPos)
+        : { cx: this.gcx, cy: this.gcy, vw: this.graphW } };
     }
-    if (opening.pick != null) {
-      const age = this.now - opening.pick, out = opening.variant === "v1";
-      if (snap || age >= this.NG_ARRIVE_KICKER) {
-        phase = "in"; dur = NG_CAM_OPEN_IN_SEC;
-        target = this.rollCamTarget(this.camFocus, false, this.currentPos, this._arriveWide ? this.currentPos : undefined);
-      } else {
-        target.vw *= out ? NG_CAM_OPEN_WIDE : 1;
-        if (out && age < NG_CAM_OPEN_OUT_SEC) { phase = "out"; dur = NG_CAM_OPEN_OUT_SEC; }
-        else {
-          phase = "wide"; dur = this.NG_ARRIVE_KICKER - (out ? NG_CAM_OPEN_OUT_SEC : 0);
-          target = this._liftForLanding(target, this.currentPos);
-        }
-      }
-    }
-    return { target, phase, dur, snap };
+    if (this.paused) { this._cancelCamOpen(); return null; }   // the pane (or any pause) is the user's
+    const pose = this._openingPose(op);
+    if (!pose) return null;
+    return { pose, target: op.pick == null ? { cx: this.gcx, cy: this.gcy, vw: pose.w }
+      : this.rollCamTarget(this.pairMid(this.nodes[this.currentPos]), false, this.currentPos) };
   }
   updateCamera(dt) {
-    const opening = this._openingPreview();
+    const opening = this._firstOpening();
     // The pane's inset is re-applied to every TARGET each frame; the camera itself takes it in
     // `_camStep`, which displays its pane-free pose at the current inset.
     if (!this._camOpenManual) Object.assign(this.camTarget, this._paneCameraTarget(this.camTarget));
     if (this._camHoldTarget) Object.assign(this._camHoldTarget, this._paneCameraTarget(this._camHoldTarget));
     const el = this.now - this.startTime;
-    const directed = opening && !opening.cancelled && ngCamOpenR2(opening.variant) && !this._reducedMotion();
+    const directed = opening && !opening.cancelled && !this._reducedMotion();
     if (this._arriveGlideUntil != null && !this._arriveWide && !this._camOpenManual && !directed) this._frameArrivalHeading();
     // a lease taken before there was a clock starts counting now (see holdCamera)
     if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
@@ -19012,11 +18996,13 @@ class Component extends DCLogic {
         tgt = this.rollCamTarget(this.camFocus, !!this.pulse);
       }
     }
-    // Presentation changes do not move the pick or enterLand clocks above. A cancelled
-    // preview still runs those gameplay boundaries, but no callback reclaims the camera.
+    // THE DIRECTED ARRIVAL moves the camera, the board and the heading, never the pick or enterLand
+    // clocks above. A gesture cancels it (`_cancelCamOpen`): those gameplay boundaries still run, but
+    // nothing reclaims the camera until the player's next deliberate act (clearTimers: a move, a
+    // navigation, a new roll) or a camera lease.
     if (this._camOpenManual) return;
-    const preview = this._openingFrame(opening);
-    if (preview) tgt = preview.target;
+    const openFrame = this._openingFrame(opening);
+    if (openFrame) tgt = openFrame.target;
     // while paused or reading an in-node dossier, suppress only the AUTO-retarget — the tween
     // itself keeps flying toward whatever camTarget was set (Follow/Overview must not yank the
     // camera away mid-read, but manual prezi targets still animate).
@@ -19038,7 +19024,7 @@ class Component extends DCLogic {
     // through its whole travel, even past the window (`calmHeld`, latched at the pick).
     if (this.introDone && this._execution && this._execution.camera === false && this._execution.calmHeld) tgt = null;
     if (tgt) Object.assign(this.camTarget, this._paneCameraTarget(tgt));
-    if (tgt && execution && this._reducedMotion()) {
+    if (tgt && (execution || openFrame?.snap) && this._reducedMotion()) {
       Object.assign(this.cam, this.camTarget, { lvw: Math.log(this.camTarget.vw) });
       return;
     }
@@ -19088,12 +19074,7 @@ class Component extends DCLogic {
       }
       if (!R.band || fl) ctx.lift = { f: this.camFocus, n, top: this.paused ? R.top : 16, bottom: R.bottom, active: !R.band || !!fl?.band };
     }
-    if (preview && tgt && preview.pose) {
-      ctx.pose = preview.pose; ctx.lift = null;   // the directed path frames the band itself
-    } else if (preview && tgt) {
-      ctx.openPhase = preview.phase; ctx.quintic = true;
-      ctx.trackW = 3; ctx.dur = () => preview.dur; ctx.snap = preview.snap;
-    }
+    if (openFrame?.pose && tgt) { ctx.pose = openFrame.pose; ctx.lift = null; }   // the directed path frames the band itself
     this._camStep(dt, ctx);
     if (directed && this._camOpen === opening) {
       // the board and the heading read the rise this frame's pose just computed: one clock
@@ -19185,11 +19166,6 @@ class Component extends DCLogic {
     const cam = this.cam, T = this.camTarget;
     if (!cam || !T || !(T.vw > 0) || !isFinite(T.cx) || !isFinite(T.cy)) return;
     ctx = ctx || {};
-    if (ctx.snap) {
-      Object.assign(cam, T, { lvw: Math.log(T.vw) });
-      this._cm = null;
-      return;
-    }
     const W = this.W || 1200, H = this.H || 800;
     let m = this._cm;
     if (!m || !m.shown || m.shown.cx !== cam.cx || m.shown.cy !== cam.cy || m.shown.vw !== cam.vw) {
@@ -19203,36 +19179,32 @@ class Component extends DCLogic {
     // A NEW DESTINATION: the target jumped (or this is the first frame), and it is not here yet.
     const jump = m.lastT ? this._camDist(m.lastT, TV) : Infinity;
     m.lastT = TV;
-    const newPhase = ctx.openPhase && ctx.openPhase !== m.openPhase;
-    m.openPhase = ctx.openPhase;
-    if (!ctx.pose && ((jump > NG_CAM_JUMP && this._camDist(base, TV) > NG_CAM_JUMP)
-      || newPhase && this._camDist(base, TV) > 1e-8)) {
+    if (!ctx.pose && jump > NG_CAM_JUMP && this._camDist(base, TV) > NG_CAM_JUMP) {
       const sx = (TV.x - base.x) / base.w * W + W / 2, sy = (TV.y - base.y) / base.w * W + H / 2;
       const kind = sx >= -0.25 * W && sx <= 1.25 * W && sy >= -0.25 * H && sy <= 1.25 * H ? "pivot" : "arc";
       const S = this._camPath(base, TV, "arc").S;
       // A narrow reading band can demand a much larger zoom than the old landing.
       // Preserve the path and easing, but give its log-zoom distance enough time:
-      // Sine peaks at pi/2, preview quintic at 1.875; an arc bounds log-width by rho*S.
+      // sine easing peaks at pi/2; the arc's log-width slope is bounded by rho*S.
       const zoomTravel = kind === "pivot" ? Math.abs(Math.log(TV.w / base.w)) : NG_CAM_RHO * S;
-      const dur = Math.max(ctx.dur ? ctx.dur(S) : Math.max(0.6, Math.min(1.4, 0.5 + 0.25 * S)), (ctx.quintic ? NG_CAM_OPEN_SLOPE : Math.PI / 2) * zoomTravel / 3.2);
-      m.flight = { a: { ...base }, t: 0, dur, v0: { ...m.v }, kind, quintic: !!ctx.quintic,
+      const dur = Math.max(ctx.dur ? ctx.dur(S) : Math.max(0.6, Math.min(1.4, 0.5 + 0.25 * S)), Math.PI / 2 * zoomTravel / 3.2);
+      m.flight = { a: { ...base }, t: 0, dur, v0: { ...m.v }, kind,
         goal: { x: TV.x, y: TV.y, l: Math.log(TV.w), vx: 0, vy: 0, vl: 0 } };
       this._camFlights = (this._camFlights || 0) + 1;
     }
     let next;
     const fl = m.flight;
     if (ctx.pose) {
-      // A DIRECTED POSE (the round-2 opening): its law is closed-form in time, so the integrator only
-      // records it, with the chord as its velocity. Its landing frame hands over at rest: Z1 arrives
-      // at speed and STOPS there, which camera-continuity's KICK bound must accept (measured).
+      // A DIRECTED POSE (the opening, `_openingPose`): its law is closed-form in time, so the integrator
+      // only records it, with the chord as its velocity. It touches down at rest, and its landing frame
+      // hands over at rest, so nothing whatever follows inherits a stale velocity.
       next = { x: ctx.pose.x, y: ctx.pose.y, w: ctx.pose.w };
-      m.flight = null;
+      m.flight = null; this._camPoses = (this._camPoses || 0) + 1;   // a test rail, beside _camFlights
       m.v = ctx.pose.last || !(dt > 0) ? { x: 0, y: 0, l: 0 }
         : { x: (next.x - base.x) / dt, y: (next.y - base.y) / dt, l: Math.log(next.w / base.w) / dt };
     } else if (fl) {
       fl.t += dt;
-      const u = Math.min(1, fl.t / fl.dur);
-      const e = fl.quintic ? u * u * u * (u * (u * 6 - 15) + 10) : (1 - Math.cos(Math.PI * u)) / 2;
+      const u = Math.min(1, fl.t / fl.dur), e = (1 - Math.cos(Math.PI * u)) / 2;
       // THE FLIGHT'S GOAL follows the target through a fast spring. A target that moves less than a
       // jump (the announcer hiding moves the band's top 33px; a re-measured row) would otherwise move
       // the pose by e * delta in ONE frame — near the end of a flight, almost all of it.
@@ -19248,9 +19220,6 @@ class Component extends DCLogic {
       if (u >= 1 && (fl.t > 1.8 || (!fl.v0.x && !fl.v0.y && !fl.v0.l))) {
         // hand the residual (goal still settling, carried velocity) to the tracking spring, moving
         m.flight = null;
-        // The finite last-frame chord is not the endpoint velocity of a quintic.
-        // Preserve a moving goal's velocity; a static endpoint hands over at rest.
-        if (fl.quintic && !fl.v0.x && !fl.v0.y && !fl.v0.l) m.v = { x: G.vx, y: G.vy, l: G.vl };
       }
     } else {
       const w = ctx.trackW || NG_CAM_TRACK_W;
@@ -19719,9 +19688,8 @@ class Component extends DCLogic {
     const ctx = this.ctx; if (!ctx || !this.nodes) return;
     this._warmMapPaint();
     const W = this.W, H = this.H, dpr = this.dpr;
-    // V2 identifies the chosen seat without focusing/dealing it before enterLand.
-    const drawFocus = ngCamOpenV2(this._camOpen?.variant) && !this._camOpen.cancelled
-      && this._camOpen.pick != null ? this.currentPos : this.focusIdx;
+    // A directed arrival lights the chosen seat from the pick, without focusing or dealing it before enterLand.
+    const drawFocus = this._camOpen && !this._camOpen.cancelled && this._camOpen.pick != null ? this.currentPos : this.focusIdx;
     const scale = W / this.cam.vw;
     // ── THE LIFT IS RE-APPLIED PER FRAME, AND IT COLLAPSES WITH ZOOM (v1.113.1) ────────────────
     // `nodeK` rescales every orb by up to 2.5x across the zoom range, so a lift baked into the

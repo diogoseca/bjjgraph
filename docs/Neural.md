@@ -584,6 +584,16 @@ Horizontally it parks the node at ~44% of the width on desktop, because a name r
 *from* its node; on a phone it centres the **orb + label block**, with `NG_LABEL_LEFT_MIN` as a floor
 on the drawn silhouette.
 
+**The opening and every staged restart are directed** (v1.235.0, owner U50 d, "S2 · Z2"; `_openingPose`,
+`NG_CAM_OPEN_*`). One log-width zoom runs from the first frame to the landing (pick + 6.0 s) and touches down
+at rest. The state is named at the pick, and the named node holds on the glass until the reader section
+mounts (pick + 2.0 s, unchanged). It then rises into the band on `cubic-bezier(.4,0,.2,1)` over 2 s, the board
+fading in and riding up a fixed distance below it, the heading gliding with them. A restart first breathes
+out to the overview while the old board fades, its article held in place. Reduced motion snaps twice (the
+overview, then the landing on the board's frame); a pan, pinch, drag or pause hands the camera over at once,
+and it stays the player's until their next move, navigation or roll. Pinned by
+`e2e/journeys/opening-camera.spec.ts` and `tests/camera_opening.test.mjs`.
+
 A focus flight takes a **lease** (`holdCamera`, ~7s). While it is live every automatic retarget
 yields; a real pan, pinch or wheel releases it, as do the user's own "go somewhere else" paths. The
 lease expires on its own.
