@@ -114,6 +114,7 @@ test("×2 streak (pop live in DOM) → two soft navs: each remount boots combo-c
         : null
     })
     if (!mc) return false
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.keyboard.press("abcd"[mc.correct])
     return true
   }

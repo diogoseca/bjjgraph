@@ -12736,3 +12736,38 @@ verify dead-code evidence against the base and its retained HTML receipt, and me
 and optional feature variant. It stops above the unchanged 506,817 B ceiling (4 B over the base),
 then re-seeds app rows as a separate child of the clean candidate and runs all required gates.
 No payload ceiling or policy baseline changes are part of this implementation.
+
+## v1.234.0 — Answer for Points: the landing asks with its question alone (owner U47 d)
+
+U47 asked whether the covered card should be A (question plus a "Reveal / Answer for a boost"
+button) or B (the same plus a blurred peek). The owner answered **d**: "the landcard is not
+shown until the user clicks on the question (which gets cutoff in mobile if it's too long) and
+instead of showing Show more, say Answer for Points which reveals the landcard (and no reveal
+button is needed in it, just show the multiple choices or the UI of flashcards if the user is
+already advanced as it already works)".
+
+"Show more" is not a label anywhere on dev, on the branch, or in production's bundle (production
+v1.224.14 carries a card **More** button, "Read more about this state", that dev already
+retired); it is read as the familiar truncation affordance. A landing, attempt or catch now
+arrives **asking** (`_landAsk`, `[data-land-ask]`): only the question and **Answer for Points**
+show. The answers stay built but inert and out of layout; the deck count, clock bar, backs and
+guides are absent; no key, click or paging gesture acts and no clock runs. The ✕ stays, as the
+Questions layer's handle. A phone (≤640px) cuts a long question to two lines (questions are
+capped at 100 characters, median 87, so the longest quarter or so are cut); desktop shows the
+whole question with the same button. Answer for Points, or a tap on the question, runs
+`_landReveal`: today's card for the rest of the landing — MC, or the recall flashcard for an
+advanced player — with paging, backfill and per-card windows as before.
+
+Deleted, not hidden: U34 a's `.ng-question-stage`, the in-card `[data-question-reveal]` button,
+its play-glyph CSS, the per-record `opened` consent, `_mountLandQ`'s `o.record` carry, the
+paging `_landPending` rewrite and the short-screen `:has([data-question-covered])` collapse.
+Kept: the `wrap.inert` guards in `_mcBlock`/`_recallBlock`/`_recallLive` (they now refuse the
+asking card), U35's media segregation, U36's heartbeat, U37 and D-433's phone-catch placement
+and short band. Restored: dev's `_landPending = true` at mount. The branch had set it false while
+covered ("a covered invitation is free to pass"), which silenced `land_q_ignored` — the cold-start
+funnel's `question_ignored` mark for the most likely first-visit behaviour, committing straight
+past the question. `coldstart-funnel.spec.ts` (never run by the branch, which gated on @curated
+only) went red on exactly that. The one deliberate difference from dev: `_declineLandQ("reading")`
+does not decline an asking question during a reading gesture, because a phone scrolls the reader
+to reach the question at all. The phone's ordinary layout C (Moves, Videos, then the question) is unchanged,
+so at 390×844 the asking question starts below the reader's fold exactly as dev's card does.

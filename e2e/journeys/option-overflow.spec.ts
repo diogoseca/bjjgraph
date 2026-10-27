@@ -75,7 +75,7 @@ test("@curated the hand never expires — the clock belongs to the question (v1.
   await j.boot("/")
   await j.land("Mount Top")
   const before = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length)
-  await j.openQuestion() // U34 a: only an explicitly Revealed question can expire; Moves stay untimed.
+  await j.openQuestion() // U47 d: only a question taken up with Answer for Points can expire; Moves stay untimed.
   await j.advance(30_000)
   const after = await page.evaluate(() => {
     const a: any = (window as any).__neural

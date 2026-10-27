@@ -93,10 +93,10 @@ for (const width of [1440, 390]) {
     })
     expect(question).not.toBeNull()
     const beforeImmediate = await own.locator('.ngodds').allTextContents()
-    // U34 a: first-hand values above must arrive while covered; only this explicit
-    // Reveal consents to answering. A keyboard answer cannot open the card for us.
-    await page.locator('[data-question-reveal]').click()
-    await expect(page.locator('[data-question-reveal]')).toHaveCount(0)
+    // U47 d: first-hand values above must arrive while the question asks; only this explicit
+    // Answer for Points shows the card. A keyboard answer cannot open the card for us.
+    await page.locator('[data-land-ask-go]').click()
+    await expect(page.locator('[data-land-ask-go]')).toHaveCount(0)
     await page.keyboard.press('ABC'[question!.correct])
     await expect.poll(() => page.evaluate((oldHash) => {
       const app = (window as any).__neural, value = app._choiceValues?.snapshot()

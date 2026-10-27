@@ -34,6 +34,7 @@ const answerAndHarvest = async (page: any) => {
     return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null
   })
   expect(mc, "a live landing question (empty seeded stage map ⇒ questionFor always asks)").toBeTruthy()
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.keyboard.press("abcd"[mc!.correct])
   const minted = await page.evaluate(() => {
     const a = (window as any).__neural

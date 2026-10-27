@@ -72,6 +72,7 @@ test("A-C answer the live question; shifted digits leave it untouched", async ({
   // the landing block mounts once its distractor pool is resident (v1.80.4)
   const mc = await j.landQuestion()
   expect(mc, "a live landing question").toBeTruthy()
+  await j.openQuestion() // U47 d: letters answer the question once it is taken up
 
   await page.keyboard.press("Shift+Digit1")
   await expect(page.locator("[data-go], [data-choice-inspect]")).toHaveCount(0)
@@ -90,6 +91,7 @@ test("a letter beyond the option count is ignored, not a crash", async ({ page }
 
   const n = (await j.landQuestion())?.n || 0
   expect(n).toBeGreaterThan(1)
+  await j.openQuestion() // U47 d: an out-of-range letter is tested against a shown, answerable question
   const beyond = "abcde"[n] // one past the last real option
   if (beyond) {
     await page.keyboard.press(beyond)

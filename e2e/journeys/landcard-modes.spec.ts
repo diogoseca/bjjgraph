@@ -133,7 +133,7 @@ test("arrows page the deck; only the first answer pays; commit fires no ignore @
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await j.openQuestion() // U34: exercise the opened question in this existing journey.
+  await j.openQuestion() // U47 d: exercise the shown card in this existing journey.
 
   const deckLen = await page.evaluate(() => {
     const a = (window as W).__neural
@@ -219,7 +219,7 @@ test("a horizontal swipe pages, a vertical one scrolls, and a swipe never answer
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await j.openQuestion() // U34: exercise the opened question in this existing journey.
+  await j.openQuestion() // U47 d: exercise the shown card in this existing journey.
 
   const swipe = (x1: number, y1: number, x2: number, y2: number) =>
     page.evaluate(
@@ -280,7 +280,7 @@ test("trackpad deltaX pages once per gesture; arrows never page a hidden or stud
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await j.openQuestion() // U34: exercise the opened question in this existing journey.
+  await j.openQuestion() // U47 d: exercise the shown card in this existing journey.
 
   // two quick wheel bursts = ONE page (accumulate + cooldown)
   const b0 = await j.beats()
@@ -354,7 +354,7 @@ test("the generic defending card pages its own deck with the same arrows", async
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await j.openQuestion() // U34: exercise the opened question in this existing journey.
+  await j.openQuestion() // U47 d: exercise the shown card in this existing journey.
   await page.evaluate(() => {
     const a = (window as W).__neural
     const sub = a.adj[a.currentPos].find((k: number) => a.nodes[k].ty === "submissions")
@@ -369,6 +369,7 @@ test("the generic defending card pages its own deck with the same arrows", async
   await j.landSettled()
   expect(await page.evaluate(() => { const a = (window as W).__neural; return { page: a._landPage, q: !!a._landEl?.querySelector("[data-land-q]") } }),
     "premise: the defender's question is mounted at its first card").toEqual({ page: 0, q: true })
+  await j.openQuestion() // U47 d: the defender deck pages once its card is shown
   const b0 = await j.beats()
   await page.keyboard.press("ArrowRight")
   await j.landSettled()
@@ -512,7 +513,7 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await j.openQuestion() // U34: exercise the opened question in this existing journey.
+  await j.openQuestion() // U47 d: exercise the shown card in this existing journey.
 
   // prove the current card to stage 2 (the MC cap), then re-mount: still a WHITE-belt profile,
   // so recognition-first MC must hold even on a proven card

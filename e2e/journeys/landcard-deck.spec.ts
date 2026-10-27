@@ -17,7 +17,7 @@ async function setup(page: Page, recall = false) {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await j.openQuestion() // U34: this journey deliberately answers/times the question.
+  await j.openQuestion() // U47 d: this journey deliberately answers/times the question.
   const total = await page.evaluate((recall) => {
     const a = (window as any).__neural
     const key = a._landQ.key, cards = a._landDeckCards(key)
@@ -41,9 +41,11 @@ async function setup(page: Page, recall = false) {
   // D-338 (owner): the article view reads Videos, Moves, Questions, so the deck now starts under
   // the moves and can begin below the fold. Bring the face into the reader's view, as a reader
   // scrolls to it; a programmatic scroll is not a reading gesture and starts nothing.
+  // U47 d: a recall re-render asks again. Take it up before bringing the face into view, so the
+  // reader scrolls to the shown card rather than to the shorter asking question.
+  await j.openQuestion()
   await page.locator('[data-landcard]').evaluate(e => e.scrollIntoView({ block: 'nearest' }))
   await j.readerLayoutSettled()
-  await j.openQuestion()
   return { j, total }
 }
 
@@ -87,7 +89,7 @@ for (const width of [1440, 390]) {
         await page.waitForFunction((index) => (window as any).__neural._landPage === index, index)
         await expect(page.locator("[data-land-count]")).toHaveText(`${index + 1}/${total}`)
         await expect(page.locator("[data-land-back]")).toHaveCount(Math.min(4, total - index - 1))
-        if (recall && index === 1) { await j.openQuestion(); await j.clickByMouse("[data-land-reveal]") }
+        if (recall && index === 1) await j.clickByMouse("[data-land-reveal]")
         const samples = await page.evaluate(async () => {
           const a = (window as any).__neural, samples = []
           for (let frame = 0; frame < 14; frame++) {
@@ -203,7 +205,6 @@ test("@curated answering the entire deck celebrates once, without paying extra r
   const { j, total } = await setup(page)
   for (let index = 0; index < total; index++) {
     const correct = await page.evaluate(() => (window as any).__neural._mc.correct)
-    await j.openQuestion()
     await j.clickByMouse(`[data-land-mc-opt="${correct}"]`)
     if (index < total - 1) {
       await page.keyboard.press("ArrowRight")
@@ -242,7 +243,6 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
   // Resize the SAME mounted deck: rotation must release the landscape column and keep the
   // selected card, rather than accidentally passing by rebuilding a fresh screen each time.
   await page.keyboard.press("ArrowRight")
-  await j.openQuestion() // U34 a: page 1 needs its own Reveal before measuring its open answer targets.
   for (const viewport of [
     { width: 320, height: 568 }, { width: 390, height: 844 },
     { width: 768, height: 1024 }, { width: 1440, height: 900 },
@@ -415,8 +415,6 @@ for (const recall of [false, true]) {
     const left0 = await page.evaluate(() => (window as any).__neural._decision.remaining)
     await page.keyboard.press("ArrowRight")
     await page.waitForFunction(() => (window as any).__neural._landPage === 1)
-    expect(await page.evaluate(() => (window as any).__neural._decision.remaining)).toBeNull()
-    await j.openQuestion()
     const fresh = await page.evaluate(() => {
       const a = (window as any).__neural
       return { remaining: a._decision.remaining, total: a._decision.total,
@@ -483,8 +481,6 @@ test("@curated loading the next card pauses expiry, then starts its full countdo
   expect((await j.beats()).filter(b => b.beat === "land_q_expired")).toHaveLength(0)
   await page.evaluate(() => (window as any).releasePage())
   await page.waitForFunction(() => (window as any).__neural._landPage === 1)
-  expect(await page.evaluate(() => (window as any).__neural._decision.remaining)).toBeNull()
-  await j.openQuestion()
   expect(await page.evaluate(() => {
     const d = (window as any).__neural._decision
     return d.remaining === d.total && d.remaining > 3000
@@ -571,7 +567,6 @@ test("@curated long recall answers grow the card and scroll with the whole colum
   await expect(page.locator(".ng-challenge-reward")).toHaveCount(0)
   await j.clickByMouse("[data-land-next]")
   await j.readerLayoutSettled()
-  await j.openQuestion() // U34 a: Reveal the newly paged card before its separate recall Show answer control.
   // With the reserved node band, Show answer starts at y533 below the y478 flow end.
   // Scroll it into view; the following native click must still own its centre.
   await page.locator("[data-land-reveal]").scrollIntoViewIfNeeded()

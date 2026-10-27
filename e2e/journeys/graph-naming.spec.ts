@@ -472,6 +472,7 @@ test("the option bars never drain, and the question bar cannot disagree with its
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U47 d: the question bar runs once the question is taken up
   await j.advance(1500)
 
   const read = () =>

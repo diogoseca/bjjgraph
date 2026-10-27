@@ -1,7 +1,7 @@
 import type { Page } from '@playwright/test'
 
-// D-433 / D-370 adapted to U35: observe the actual reader and hit targets.
-// These helpers never align, focus, click or scroll a surface.
+// D-433 / D-370 adapted to U35, and to U47 d's asking question: observe the actual
+// reader and hit targets. These helpers never align, focus, click or scroll a surface.
 export async function questionGeometry(page: Page) {
   return page.evaluate(() => {
     const a = (window as any).__neural, root = a._reader.root
@@ -18,13 +18,14 @@ export async function questionGeometry(page: Page) {
         inside: r.top >= bounds.top && r.bottom <= bounds.bottom && r.left >= bounds.left && r.right <= bounds.right,
         bottomMargin: bounds.bottom - r.bottom, fontSize: getComputedStyle(e).fontSize }
     }
-    const stage = a._landEl.querySelector('.ng-question-stage'), block = stage.firstElementChild
-    const reveal = a._landEl.querySelector('[data-question-reveal]')
+    const qw = a._landEl.querySelector('[data-land-q]'), question = qw.firstElementChild, block = qw.lastElementChild
+    const go = a._landEl.querySelector('[data-land-ask-go]')
     return { reader: reader.toJSON(), bounds, scrollTop: root.scrollTop, pageScroll: window.scrollY,
       band: a._reader.nodeBand, card: rect(a._landEl), moves: rect(a.optionsRef.current),
-      stage: rect(stage), answerBlock: { ...rect(block), display: getComputedStyle(block).display,
+      asking: a._landEl.hasAttribute('data-land-ask'), question: target(question),
+      answerBlock: { ...rect(block), display: getComputedStyle(block).display,
         visibility: getComputedStyle(block).visibility, inert: block.inert },
-      reveal: reveal ? target(reveal) : null,
+      go: go ? target(go) : null,
       answers: [...a._landEl.querySelectorAll('[data-panic-mc-opt]')].map(e => target(e as HTMLElement)) }
   })
 }

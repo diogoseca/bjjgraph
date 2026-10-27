@@ -14148,7 +14148,7 @@ class Component extends DCLogic {
     const defense = mode === "defense", surface = defense ? "panic" : "land";
     const landRecall = !defense && !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
     const qh = this.qhash(card.q);
-    const rec = o.record || { key: key, card: card, mode: mode || "land", answered: false, opened: false };
+    const rec = { key: key, card: card, mode: mode || "land", answered: false };
     const qw = document.createElement("div");
     qw.setAttribute("data-land-q", "1");
     // no top border and no top margin (v1.101.1): with the header gone and film lifted out to
@@ -14189,40 +14189,22 @@ class Component extends DCLogic {
       block = this._recallBlock(card, key, done("recall"), surface);
     }
     if (!block) return null;
-    // U34/U35: only this question's answers are covered. Media and the untimed
-    // Moves section have separate owners. Consent lives on the cached card record,
-    // so paging/backfill never opens a sibling or refunds a partly used window.
-    const stage = document.createElement("div");
-    stage.className = "ng-question-stage";
-    stage.toggleAttribute("data-question-covered", !rec.opened);
-    block.inert = !rec.opened;
-    stage.appendChild(block);
-    if (!rec.opened) {
-      const reveal = document.createElement("button");
-      reveal.type = "button";
-      reveal.className = "ng-question-reveal";
-      reveal.setAttribute("data-question-reveal", "");
-      reveal.setAttribute("aria-label", "Reveal. Answer for a boost." + (!defense || this._defensePressure ? " Starts this question's answer clock." : ""));
-      reveal.innerHTML = '<span class="ng-question-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 4 20 12 6 20Z"/></svg></span><span><strong>Reveal</strong><small>Answer for a boost</small></span>';
-      reveal.addEventListener("click", () => {
-        if (this._landQ !== rec || this._landHidden(true)) return;
-        rec.opened = true;
-        block.inert = false;
-        stage.removeAttribute("data-question-covered");
-        reveal.remove();
-        // D-433: this deliberate expansion settles a phone catch's publication
-        // pin, so its native Moves row follows the now-taller question.
-        if (this._phoneCatch()) this._readerPin = null;
-        if (!defense && !rec.answered) this._landPending = true;
-        this._reader?.beginPlay();
-        this._engage();
-        this._armPagedLandClock();
-        this._dockLandCard(this._landEl);
-        block.querySelector("button")?.focus({ preventScroll: true });
-      });
-      stage.appendChild(reveal);
+    // U47 d (owner, 2026-10-27): a landing asks with its question alone. The card
+    // (answers, deck count, clock, backs, guides) waits for "Answer for Points" or a tap
+    // on the question; nothing inside the card reveals it. Answers stay built but
+    // inert, so no key or click can grade what is not shown. Media is never here (U35).
+    block.inert = !!this._landAsk;
+    if (this._landAsk) {
+      qt.addEventListener("click", () => this._landReveal());
+      const go = document.createElement("button");
+      go.type = "button";
+      go.setAttribute("data-land-ask-go", "");
+      go.textContent = "Answer for Points";
+      go.style.pointerEvents = "auto";
+      go.addEventListener("click", () => this._landReveal());
+      qw.appendChild(go);
     }
-    qw.appendChild(stage);
+    qw.appendChild(block);
     this._landQ = rec;
     if (defense) this._panicFc = { fc: card, pk: key };
     if (this._landPageCache) this._landPageCache[qh] = { el: qw, q: rec, mc: usedRecall ? null : (block.__ngMc || null), recall: usedRecall ? block.__ngRecall : null };
@@ -14236,7 +14218,7 @@ class Component extends DCLogic {
         tried[key] = true;
         this._warmMcPool(card, key, "panic").then(() => {
           if (this._landQ !== rec || rec.answered || block.__ngRecall?.seen || !qw.isConnected) return;
-          const replacement = this._mountLandQ(card, key, mode, hooks, { paged: true, record: rec });
+          const replacement = this._mountLandQ(card, key, mode, hooks, { paged: true });
           if (replacement) { if (this._recall === block.__ngRecall) this._recall = null; qw.replaceWith(replacement); this._updateLandDeck(); this._dockLandCard(this._landEl); }
         });
       }
@@ -14246,7 +14228,9 @@ class Component extends DCLogic {
       for (let i = 0; i < cs.length; i++) if (cs[i].q === card.q) { this._landPage = i; break; }
     }
     if (!o.paged && !defense) {
-      this._landPending = !!rec.opened; // a covered invitation is free to pass
+      // a question is on the table — committing past it is a free skip the funnel still names
+      // (land_q_ignored), and putting it away declines it, whether or not it was taken up (U47 d)
+      this._landPending = true;
       // COLD-START MEASUREMENT: is the game quizzing a state the player has never studied? The
       // glyph is the existing evidence ("○" = not one card in this deck has ever been met), so
       // this asks nothing new of the data model — it just names the suspected confusion.
@@ -14254,11 +14238,33 @@ class Component extends DCLogic {
       this._landSkipDebt = null; // the question showed — any deferred skip verdict is void
       this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: o.cards, backfill: !!this._landLate });
       if (unseen) this.fx("land_q_unseen", { deckKey: key, node: o.node || null, cards: o.cards, mode: mode || "land", landing: (this.rollLog || []).length });
-      // Park the question clock until this card is deliberately opened (U34).
+      // The clock is parked until the player takes the question up (_landReveal).
       if (this._decision && this._decision.remaining == null)
         this._armLandClock(this._landEl ? this._landEl.querySelector("[data-land-clock]") : null);
     }
     return qw;
+  }
+  /** U47 d: "Answer for Points", or a tap on the question, shows today's card for the
+   *  rest of this landing: paging, backfill and the catch's next question stay open.
+   *  It starts the question clock, like the arrival used to (v1.133.0). */
+  _landReveal() {
+    const el = this._landEl, q = this._landQ;
+    if (!this._landAsk || !el || !q || this._landHidden(true)) return;
+    this._landAsk = false;
+    el.removeAttribute("data-land-ask");
+    const qw = el.querySelector("[data-land-q]");
+    qw.querySelector("[data-land-ask-go]")?.remove();
+    const block = qw.lastElementChild;
+    block.inert = false;
+    // D-433: the expansion settles a phone catch's publication pin, so its
+    // native Moves row follows the now-taller question.
+    if (this._phoneCatch()) this._readerPin = null;
+    this._reader?.beginPlay();
+    this._engage();
+    this._armPagedLandClock();
+    this._updateLandDeck();
+    this._dockLandCard(el);
+    block.querySelector("button")?.focus({ preventScroll: true });
   }
   _defenseQuestion(key) {
     const cards = this._landDeckCards(key);
@@ -14330,8 +14336,8 @@ class Component extends DCLogic {
     }
     const prev = nav.querySelector("[data-land-prev]"), next = nav.querySelector("[data-land-next]");
     const focused = document.activeElement;
-    prev.hidden = this._landPage === 0;
-    next.hidden = this._landPage === total - 1;
+    prev.hidden = !!this._landAsk || this._landPage === 0;
+    next.hidden = !!this._landAsk || this._landPage === total - 1;
     // Do not strand keyboard focus on a control that disappeared at a deck boundary.
     if ((focused === prev && prev.hidden) || (focused === next && next.hidden)) {
       const available = prev.hidden ? next : prev;
@@ -14346,7 +14352,7 @@ class Component extends DCLogic {
       this._landStackEl = stack;
     }
     const stack = this._landStackEl;
-    const remaining = Math.min(4, total - this._landPage - 1);
+    const remaining = this._landAsk ? 0 : Math.min(4, total - this._landPage - 1);
     stack.replaceChildren();
     for (let i = remaining; i > 0; i--) {
       const back = document.createElement("div");
@@ -14416,7 +14422,7 @@ class Component extends DCLogic {
   // place in a deck they are browsing.
   _landPageTo(dir) {
     const el = this._landEl;
-    if (!el || !["land", "attempt", "defense"].includes(this._landMode)) return false;
+    if (!el || this._landAsk || !["land", "attempt", "defense"].includes(this._landMode)) return false;
     if (!this._landQ || !this._landQ.key || this._landPage == null) return false;
     const key = this._landQ.key;
     const cards = this._landDeckCards(key);
@@ -14441,7 +14447,6 @@ class Component extends DCLogic {
       if (old) old.replaceWith(qw);
       else el.appendChild(qw);
       this._landPage = next;
-      if (this._landMode !== "defense") this._landPending = !!this._landQ.opened && !this._landQ.answered;
       this._armPagedLandClock();
       this._readStop(); this._readS = 0;
       this._landPaged = true; // the anti-reshuffle guard now answers for THIS cursor
@@ -14538,6 +14543,7 @@ class Component extends DCLogic {
     // clearLandCard deliberately does NOT touch these: this reset is the one owner of their
     // lifecycle, and the gates on `_landEl`/`_landMode` keep any stale tail inert.
     if (!reuse) {
+      this._landAsk = true;          // U47 d: the question asks first; _landReveal shows the card
       this._landPage = null;         // cursor into _cardsOf(deck); set at the first mount
       this._landPaged = false;       // "the user moved the cursor this landing"
       this._landDeckComplete = false;
@@ -14691,6 +14697,7 @@ class Component extends DCLogic {
       else this._landQSkip(key, reason, mode);
     }
 
+    el.toggleAttribute("data-land-ask", !!this._landAsk && !!this._landQ);
     // Ordinary landings and panic drills share question chrome. The article, film and
     // hand retain their own lifetimes and preferences.
     this._landCardChrome(el, node, key, this._landPerspSide(node));
@@ -17314,7 +17321,7 @@ class Component extends DCLogic {
     this._tryArmClock();
   }
   _clockGate() {
-    return !!this._landQ?.opened && !this._readerIntent && (this._landMode !== "defense" || this._defensePressure) && !!this._engaged && !this.deckShown && !!this._landEl && !this._landHidden();
+    return !this._landAsk && !this._readerIntent && (this._landMode !== "defense" || this._defensePressure) && !!this._engaged && !this.deckShown && !!this._landEl && !this._landHidden();
   }
   _tryArmClock() {
     if (!this._cwArm || !this._clockGate()) return;
@@ -17379,6 +17386,9 @@ class Component extends DCLogic {
     const q = this._landQ;
     this._disarmLandClock();
     if (!q || q.answered || !this._landPending) return;
+    // U47 d: a reading gesture (a phone scrolls to reach the question) does not decline a
+    // question the player has not taken up; leaving for an article, the pane or the ✕ still do.
+    if (reason === "reading" && this._landAsk && this._reader?.interacting) return;
     q.answered = true;
     this._landPending = false;
     this.fx("land_q_declined", { deckKey: q.key || null, reason: reason || null });

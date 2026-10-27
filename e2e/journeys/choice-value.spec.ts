@@ -188,7 +188,7 @@ test('@curated completed MC updates immediate odds, requests one new value snaps
   const j = await ready(page)
   const question = await j.landQuestion()
   expect(question).toBeTruthy()
-  await j.openQuestion() // U34 a: explicit Reveal precedes the answer; keys cannot consent for a covered card.
+  await j.openQuestion() // U47 d: Answer for Points precedes the answer; keys cannot take an asking question up.
   await installControlledProvider(page)
   const before = await names(page)
   const chance = await page.locator('[data-choice-group="you"] .ngodds').allTextContents()
@@ -227,7 +227,7 @@ test('@curated a re-solve after an answer keeps each card\'s last Win chance, di
   const j = await ready(page)
   const question = await j.landQuestion()
   expect(question).toBeTruthy()
-  await j.openQuestion() // U34 a: Reveal this card before establishing the pre-grade provider snapshot.
+  await j.openQuestion() // U47 d: Answer for Points before establishing the pre-grade provider snapshot.
   await installControlledProvider(page)
   await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
   await expect.poll(() => wins(page)).toContain('65')

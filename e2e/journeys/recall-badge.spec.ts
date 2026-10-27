@@ -126,7 +126,7 @@ test("with the badge on, a proven card lands as pure recall — and stays MC bel
   await j.boot("/");
   await j.hydrateAll();
   await j.land("Mount Top");
-  await j.openQuestion() // U34: this journey deliberately answers/times the question.
+  await j.openQuestion() // U47 d: this journey deliberately answers/times the question.
 
   const r = await page.evaluate(() => {
     const a = (window as any).__neural;

@@ -124,6 +124,42 @@ const controls = [
   // its transition-end reveal reproduces the card extending below the Learning pane at 1440px.
   ['concept-fit-reveal-lost', 'concepts-surface.spec.ts', 'principle film study.*1440px',
     [['e.addEventListener("transitionend",_)', 'void 0']], 'the expanded portrait and its close button fit inside the reading pane'],
+  // U47 d (owner, 2026-10-27): a landing asks with its question alone; "Answer for Points", or a tap on the
+  // question, shows today's card for the rest of the landing. Each control dies at one covered-card claim.
+  ['u47-arrives-shown', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
+    [['i||(this._landAsk=!0,this._landPage=null', 'i||(this._landAsk=!1,this._landPage=null']], 'U47 d: on landing only the question (and its ✕) shows; the card waits'],
+  ['u47-asking-clock-runs', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
+    [['_clockGate(){return!this._landAsk&&', '_clockGate(){return ']], 'an arriving question has no running clock'],
+  ['u47-asking-pages', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
+    [['_landPageTo(e){let t=this._landEl;if(!t||this._landAsk||', '_landPageTo(e){let t=this._landEl;if(!t||']], 'an asking question cannot grade, page or charge time'],
+  ['u47-reveal-keeps-answers-inert', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
+    [['i.inert=!1,this._phoneCatch()', 'this._phoneCatch()']], "Answer for Points shows today's card, with no reveal control inside it"],
+  // U34 a's per-card cover, reintroduced at paging: the shown card must stay shown.
+  ['u47-paging-asks-again', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
+    [['this._landPage=n,this._armPagedLandClock(),this._readStop()', 'this._landPage=n,this._landAsk=!0,this._armPagedLandClock(),this._readStop()']], 'the shown card stays shown across paging, with its own window'],
+  ['u47-question-tap-dead', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
+    [['u.addEventListener("click",()=>this._landReveal());', '']], 'a tap on the question shows the card'],
+  ['u47-phone-clamp-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844', [],
+    'U47 d: a long question is cut to two lines on a phone', [['-webkit-line-clamp:2;', '']]],
+  ['u47-desktop-clamped', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900', [],
+    'desktop shows the whole question and still offers Answer for Points', [['@media(max-width:640px){[data-land-ask] [data-land-q]>div:first-child{', '@media(min-width:1px){[data-land-ask] [data-land-q]>div:first-child{']]],
+  ['u47-desktop-offer-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900',
+    [['d.appendChild(b)}if(d.appendChild(f)', 'this.isMobile()&&d.appendChild(b)}if(d.appendChild(f)']], 'Answer for Points follows the question'],
+  ['u47-reveal-keeps-asking-face', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844',
+    [['this._landAsk=!1,e.removeAttribute("data-land-ask");', 'this._landAsk=!1;']], 'the shown card carries the whole question'],
+  ['u47-asking-answers-laid-out', 'covered-card.spec.ts', 'U35 D-433.*1440x900', [],
+    'U47 d the asking card collapses its answer block', [['[data-land-ask] [data-land-count],[data-land-ask] [data-land-q]>[inert]{display:none!important}', '[data-land-ask] [data-land-count]{display:none!important}']]],
+  ['u47-reveal-scroll-writer', 'covered-card.spec.ts', 'U35 D-433.*390x844',
+    [['i.inert=!1,this._phoneCatch()', 'i.inert=!1,e.scrollIntoView(),this._phoneCatch()']], 'D-433 no automatic scroll writer through Answer for Points'],
+  // U47 d: a reading gesture (a phone scrolls the reader to reach it) must not decline an asking question.
+  ['u47-reading-declines-asking', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
+    [['(e==="reading"&&this._landAsk&&((s=this._reader)!=null&&s.interacting)||', '(']], 'U47 d: scrolling to an asking question does not decline it'],
+  // The covered-card branch's "a covered invitation is free to pass" silenced the cold-start funnel's
+  // question_ignored mark; restoring dev's pending question is what coldstart-funnel pins.
+  ['u47-asking-ignore-silent', 'coldstart-funnel.spec.ts', 'ignoring the landing question is measured',
+    [['if(!n.paged&&!o){this._landPending=!0;let', 'if(!n.paged&&!o){this._landPending=!this._landAsk;let']], 'beat "land_q_ignored" emitted'],
+  ['u35-watch-in-question', 'covered-card.spec.ts', 'U35 every question builder segregates technique media',
+    [['if(d.appendChild(f),this._landQ=c', 'if(d.appendChild(f),d.insertAdjacentHTML("beforeend","<button data-choice-watch>Watch technique</button>"),this._landQ=c']], 'U35 question surfaces contain no media/watch controls'],
   // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
   // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
   ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',

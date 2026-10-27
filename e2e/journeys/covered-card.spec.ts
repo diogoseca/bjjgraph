@@ -3,35 +3,51 @@ import { journey } from '../dsl'
 import { coveredCatch, coveredRolls } from '../fixtures/covered-card'
 import { questionGeometry, watchQuestionScroll, stopQuestionScroll } from '../fixtures/question-geometry'
 
-// U34–U37, owner 26 October 2026. The media assertion uses real authored
-// dossiers and every production question builder, including dormant node MC.
-// The mutant runner injects a Watch control into _mountLandQ and must fail at
-// "U35 question surfaces contain no media/watch controls", not at setup.
-// Heartbeat samples seek real CSS animations; no 30-second wall-clock sleep.
-// Host evidence is required before calling either mutant or these gates green.
+// U47 d (owner, 27 October 2026) supersedes U34 a's in-card Reveal: a landing asks
+// with its question alone, and "Answer for Points" (or a tap on the question) shows
+// today's card for the rest of that landing. U35–U37 and D-433 are unchanged. The
+// media assertion uses real authored dossiers and every production question builder,
+// including dormant node MC. The mutant runner injects a Watch control into
+// _mountLandQ and must fail at "U35 question surfaces contain no media/watch
+// controls", not at setup. Heartbeat samples seek real CSS animations; no 30-second
+// wall-clock sleep.
 
 const state = (page: any) => page.evaluate(() => {
   const a = (window as any).__neural
-  return { opened: !!a._landQ?.opened, remaining: a._decision?.remaining ?? null,
+  return { asking: !!a._landAsk, remaining: a._decision?.remaining ?? null,
     q: a._landQ?.card.q, page: a._landPage, qMod: a._qMod || 0,
     grades: (a.beats || []).filter((b: any) => ['mc_correct', 'mc_wrong', 'land_q_expired'].includes(b.beat)).length }
 })
 
+// What of the card is on screen: an element counts when it takes layout.
+const face = (page: any) => page.evaluate(() => {
+  const a = (window as any).__neural, el = a._landEl, qw = el.querySelector('[data-land-q]')
+  const shown = (e: Element | null) => !!e && e.getClientRects().length > 0
+  return { asking: el.hasAttribute('data-land-ask'), question: shown(qw.firstElementChild),
+    go: el.querySelectorAll('[data-land-ask-go]').length,
+    answers: [...el.querySelectorAll('[data-land-mc-opt],[data-land-recall] button')].filter(shown).length,
+    inert: qw.lastElementChild.inert, close: shown(el.querySelector('[data-land-close]')), count: shown(el.querySelector('[data-land-count]')),
+    clock: shown(el.querySelector('[data-land-clock-track]')), backs: a._landStackEl?.childElementCount ?? 0,
+    guides: [...(a._landNavEl?.querySelectorAll('button') || [])].filter((b: any) => !b.hidden).length }
+})
+
 for (const width of [1440, 390]) {
-  test(`@curated U34 cover gates mouse, keys and time per card (${width})`, async ({ page }) => {
+  test(`@curated U47 d a landing asks with its question alone; Answer for Points shows today's card (${width})`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const j = journey(page)
     await j.boot('/', { seedRolls: coveredRolls })
     await j.land('Mount Top')
-    const cover = page.locator('[data-question-reveal]')
-    await expect(cover.locator('strong')).toHaveText('Reveal')
-    await expect(cover.locator('small')).toHaveText('Answer for a boost')
+    await expect(page.locator('.ng-landcard [data-land-ask-go]')).toHaveText('Answer for Points')
+    // U34 a's in-card Reveal is deleted, not hidden.
+    await expect(page.locator('[data-question-reveal], .ng-question-stage, [data-question-covered]')).toHaveCount(0)
+    expect(await face(page), 'U47 d: on landing only the question (and its ✕) shows; the card waits').toEqual(
+      { asking: true, question: true, go: 1, answers: 0, inert: true, close: true, count: false, clock: false, backs: 0, guides: 0 })
     const before = await state(page)
-    expect(before.opened).toBe(false)
-    expect(before.remaining).toBeNull()
+    expect(before, 'an arriving question has no running clock').toMatchObject({ asking: true, remaining: null })
     await page.keyboard.press('a')
     await page.keyboard.press('b')
     await page.keyboard.press('c')
+    await page.keyboard.press('ArrowRight')
     // Exercise the same closure as mouse input as well as native inert hit testing.
     await page.evaluate(() => {
       const a = (window as any).__neural
@@ -39,53 +55,110 @@ for (const width of [1440, 390]) {
       ;(document.querySelector('[data-land-mc-opt]') as HTMLElement).click()
     })
     await j.advance(20000)
-    expect(await state(page), 'covered input and time cannot grade or charge').toEqual(before)
-    expect(await page.locator('[data-land-mc-opt]').first().evaluate(el => {
-      const r = el.getBoundingClientRect(), hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2)
-      return el.contains(hit)
-    }), 'covered answers cannot intercept the mouse').toBe(false)
+    expect(await state(page), 'an asking question cannot grade, page or charge time').toEqual(before)
     await j.openQuestion()
+    const shown = await face(page)
+    expect(shown, 'Answer for Points shows today\'s card, with no reveal control inside it').toMatchObject(
+      { asking: false, question: true, go: 0, answers: 3, inert: false, close: true, count: true, clock: true })
+    expect(shown.backs).toBeGreaterThan(0)
+    expect(shown.guides).toBeGreaterThan(0)
     expect((await state(page)).remaining).toBeGreaterThan(0)
     await j.advance(500)
     const opened = await state(page)
-    await j.clickByMouse('[data-land-next]', 'page to a different covered card')
+    await j.clickByMouse('[data-land-next]', 'page to the next card of this landing')
     await expect.poll(async () => (await state(page)).page).toBe(opened.page + 1)
-    expect(await state(page)).toMatchObject({ opened: false, remaining: null, grades: 0 })
-    await j.advance(20000)
+    const next = await state(page)
+    expect(next, 'the shown card stays shown across paging, with its own window').toMatchObject({ asking: false, grades: 0 })
+    expect(next.remaining).toBeGreaterThan(0)
+    expect((await face(page)).answers).toBe(3)
     await j.clickByMouse('[data-land-prev]', 'return to the partly used question')
-    expect(await state(page)).toMatchObject({ opened: true, remaining: opened.remaining, q: opened.q })
+    expect(await state(page)).toMatchObject({ asking: false, remaining: opened.remaining, q: opened.q })
     await page.evaluate(() => (window as any).__neural._landBackfill())
     await j.landSettled()
-    expect(await state(page), 'backfill preserves consent and the remaining window').toMatchObject({ opened: true, remaining: opened.remaining, q: opened.q })
+    expect(await state(page), 'backfill keeps the card shown and the remaining window').toMatchObject({ asking: false, remaining: opened.remaining, q: opened.q })
+    expect((await face(page)).asking).toBe(false)
     const correct = await page.evaluate(() => (window as any).__neural._mc.correct)
     await page.keyboard.press('abc'[correct])
     expect((await state(page)).grades).toBe(1)
     await page.keyboard.press('abc'[correct])
     expect((await state(page)).grades).toBe(1)
   })
+
+  test(`@curated U47 d tapping the question itself shows the card (${width})`, async ({ page }) => {
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
+    const j = journey(page)
+    await j.boot('/', { seedRolls: coveredRolls })
+    await j.land('Mount Top')
+    const question = '.ng-landcard[data-land-ask] [data-land-q] > div:first-child'
+    // A reading gesture first — a real wheel over the article, as a phone scrolls the reader to
+    // reach the question (layout C puts Moves and Videos above it). Reading declines a LIVE
+    // question; it must not decline one that is still asking.
+    const at = await page.evaluate(() => {
+      const a = (window as any).__neural, r = a._reader.root.getBoundingClientRect(), art = a._reader.articleEl.getBoundingClientRect()
+      return { x: r.left + r.width / 2, y: Math.round(Math.min(r.bottom - 24, Math.max(art.top + 24, r.top + 24))) }
+    })
+    await page.mouse.move(at.x, at.y)
+    await page.mouse.wheel(0, 120)
+    await j.advance(500)
+    expect(await page.evaluate(() => (window as any).__neural._reader.interacting), 'premise: a reading gesture').toBe(true)
+    expect((await j.beats()).map(b => b.beat), 'U47 d: scrolling to an asking question does not decline it').not.toContain('land_q_declined')
+    await page.locator(question).scrollIntoViewIfNeeded()
+    await j.readerLayoutSettled()
+    await j.clickByMouse(question, 'tap the asking question')
+    expect(await face(page), 'a tap on the question shows the card').toMatchObject({ asking: false, go: 0, answers: 3, inert: false })
+    expect((await state(page)).remaining, 'the question taken up after a scroll starts its clock').toBeGreaterThan(0)
+  })
+}
+
+// A real 99-character question (Twister Control, Top, card 1), not injected text.
+for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 }]) {
+  test(`@curated U47 d a long question is cut to two lines on a phone and shown whole on desktop (${viewport.width}x${viewport.height})`, async ({ page }) => {
+    const measure = () => page.evaluate(() => {
+      const el = (window as any).__neural._landEl, q = el.querySelector('[data-land-q]').firstElementChild
+      const line = parseFloat(getComputedStyle(q).lineHeight), go = el.querySelector('[data-land-ask-go]')
+      return { text: q.textContent, lines: Math.round(q.clientHeight / line), cut: q.scrollHeight > q.clientHeight + 1,
+        full: Math.round(q.scrollHeight / line), goBelow: go ? go.getBoundingClientRect().top >= q.getBoundingClientRect().bottom - 1 : null,
+        goHeight: go ? go.getBoundingClientRect().height : null }
+    })
+    await page.setViewportSize(viewport)
+    const j = journey(page)
+    await j.boot('/', { seedRolls: coveredRolls })
+    await j.land('Twister Control Top')
+    const asking = await measure()
+    expect(asking.text).toBe('What structural configuration defines Twister Control and separates it from ordinary back exposure?')
+    expect(asking.goBelow, 'Answer for Points follows the question').toBe(true)
+    expect(asking.goHeight).toBeGreaterThanOrEqual(44)
+    if (viewport.width <= 640) {
+      expect(asking.full, 'premise: this question needs more than two phone lines').toBeGreaterThan(2)
+      expect(asking, 'U47 d: a long question is cut to two lines on a phone').toMatchObject({ lines: 2, cut: true })
+    } else expect(asking, 'desktop shows the whole question and still offers Answer for Points').toMatchObject({ cut: false })
+    await j.openQuestion()
+    expect(await measure(), 'the shown card carries the whole question').toMatchObject({ text: asking.text, cut: false, goBelow: null })
+  })
 }
 
 // D-433 (2026-10-26): D-370 adapted to U35 replaces v1's overstrict combined
-// question+Moves fit premise. Reveal on arrival and EVERY opened answer must be
-// hit-testable without scrolling. Moves may need user scroll; their subtree,
-// dimensions, untimed lifetime and real escape after expiry remain guarded.
+// question+Moves fit premise. U47 d: the asking question and its Answer for Points on
+// arrival, and EVERY shown answer, must be hit-testable without scrolling. Moves may
+// need user scroll; their subtree, dimensions, untimed lifetime and real escape after
+// expiry remain guarded.
 for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 390, height: 631 }]) {
-  test(`@curated U35 D-433 Reveal and answers need no scroll; native Moves stay untimed (${viewport.width}x${viewport.height})`, async ({ page }, info) => {
+  test(`@curated U35 D-433 the asking question, Answer for Points and answers need no scroll; native Moves stay untimed (${viewport.width}x${viewport.height})`, async ({ page }, info) => {
     await page.setViewportSize(viewport)
     const j = await coveredCatch(page)
     await watchQuestionScroll(page)
     const covered = await questionGeometry(page)
     await info.attach('covered-arrival-geometry', { body: JSON.stringify(covered, null, 2), contentType: 'application/json' })
     expect(covered.scrollTop, 'D-433 arrival has no reader scroll').toBe(0)
-    expect(covered.reveal, 'D-433 Reveal is hit-testable on arrival without scrolling').toMatchObject({ hit: true, inside: true })
-    expect(covered.reveal!.opacity).toBeGreaterThan(.05)
-    expect(covered.reveal!.rect.width).toBeGreaterThanOrEqual(44)
-    expect(covered.reveal!.rect.height).toBeGreaterThanOrEqual(44)
-    expect(covered.card.height, 'the covered question retains the original 12px edge-margin fit budget').toBeLessThanOrEqual(covered.bounds.bottom - covered.bounds.top - 24)
-    if (viewport.height < 700) {
-      expect(covered.answerBlock, 'D-433 short cover actually collapses the inline answer block').toMatchObject({ display: 'none', height: 0, inert: true })
-      expect(covered.stage.height, 'D-433 short cover reserves only its 60px Reveal target').toBe(60)
-    }
+    expect(covered.asking, 'premise: the catch arrives asking').toBe(true)
+    expect(covered.question, 'D-433 the asking question is hit-testable on arrival without scrolling').toMatchObject({ hit: true, inside: true })
+    expect(covered.go, 'D-433 Answer for Points is hit-testable on arrival without scrolling').toMatchObject({ hit: true, inside: true })
+    expect(covered.go!.opacity).toBeGreaterThan(.05)
+    expect(covered.go!.rect.width).toBeGreaterThanOrEqual(44)
+    expect(covered.go!.rect.height).toBeGreaterThanOrEqual(44)
+    expect(covered.card.height, 'the asking question retains the original 12px edge-margin fit budget').toBeLessThanOrEqual(covered.bounds.bottom - covered.bounds.top - 24)
+    // U47 d at every size: the card's answers are out of layout until the player answers for points.
+    expect(covered.answerBlock, 'U47 d the asking card collapses its answer block').toMatchObject({ display: 'none', height: 0, inert: true })
     if (viewport.width > 640) {
       // Desktop keeps the original, stronger combined-height claim too.
       expect(Math.max(covered.moves.bottom, covered.card.bottom) - Math.min(covered.moves.top, covered.card.top),
@@ -93,23 +166,23 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
     }
     await j.engage()
     await j.advance(20000)
-    expect((await state(page)).remaining).toBeNull()
+    expect((await state(page)).remaining, 'engagement alone does not start an asking question').toBeNull()
     await page.evaluate(() => {
       const a = (window as any).__neural
       ;(window as any).__coveredHand = { el: a.optionsRef.current, parent: a.optionsRef.current.parentNode,
         cards: [...a.optionsRef.current.querySelectorAll('[data-tech]')], html: a.optionsRef.current.innerHTML }
     })
     // Deliberately NOT openQuestion()/locator.click(): those helpers can scroll.
-    await j.clickByMouse('[data-question-reveal]', 'D-433 Reveal at the arrival position')
-    await expect(page.locator('[data-question-reveal]')).toHaveCount(0)
+    await j.clickByMouse('[data-land-ask-go]', 'D-433 Answer for Points at the arrival position')
+    await expect(page.locator('[data-land-ask-go]')).toHaveCount(0)
     await j.readerLayoutSettled()
     const opened = await questionGeometry(page)
     const scroll = await stopQuestionScroll(page)
     await info.attach('opened-geometry-and-scroll-writers', { body: JSON.stringify({ opened, scroll }, null, 2), contentType: 'application/json' })
-    expect(scroll.writes, 'D-433 no automatic scroll writer through Reveal').toEqual([])
+    expect(scroll.writes, 'D-433 no automatic scroll writer through Answer for Points').toEqual([])
     expect(scroll.after).toBe(scroll.before)
     expect(scroll.pageAfter).toBe(scroll.pageBefore)
-    expect(scroll.events.every(value => value === scroll.before), 'D-433 no browser scroll anchoring through Reveal').toBe(true)
+    expect(scroll.events.every(value => value === scroll.before), 'D-433 no browser scroll anchoring through Answer for Points').toBe(true)
     expect(opened.answers).toHaveLength(3)
     for (const answer of opened.answers) {
       expect(answer, 'D-433 every revealed answer is hit-testable without scrolling').toMatchObject({ inside: true, hit: true })
@@ -126,10 +199,10 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
       const a = (window as any).__neural, h = (window as any).__coveredHand
       return { same: h.el === a.optionsRef.current, parent: h.parent === h.el.parentNode,
         cards: h.cards.every((el: Element) => h.el.contains(el)), html: h.html === h.el.innerHTML,
-        outside: !a._landEl.contains(h.el), covered: !!h.el.closest('[data-question-covered]') }
+        outside: !a._landEl.contains(h.el), covered: !!h.el.closest('[data-land-ask]') }
     })
-    expect(hand, 'Reveal leaves the separate native Moves subtree untouched').toEqual({ same: true, parent: true, cards: true, html: true, outside: true, covered: false })
-    expect([opened.moves.width, opened.moves.height], 'Reveal does not resize native Moves').toEqual([covered.moves.width, covered.moves.height])
+    expect(hand, 'Answer for Points leaves the separate native Moves subtree untouched').toEqual({ same: true, parent: true, cards: true, html: true, outside: true, covered: false })
+    expect([opened.moves.width, opened.moves.height], 'Answer for Points does not resize native Moves').toEqual([covered.moves.width, covered.moves.height])
     if (viewport.width <= 640) {
       expect(opened.moves.top - opened.card.bottom, 'D-433 separate Moves follows the phone question without overlap').toBeGreaterThanOrEqual(16)
       expect(await page.evaluate(() => {

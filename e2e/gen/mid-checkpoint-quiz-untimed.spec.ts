@@ -60,6 +60,7 @@ test("checkpoint quiz is untimed: 45s pump fires no expiry beats, i moves only o
   const j = journey(page);
   await j.boot("/", { initialState: curriculumMid() });
   await j.land("Mount Top"); // land() dismisses the coach → the decision clock is genuinely RUNNING
+  await j.openQuestion(); // U47 d: ...once the question is taken up with Answer for Points
 
   // rig every tagged draw on the arc (quiz picks + card renders; auto-pick defensively — on
   // the broken app the expiry path must still never fall through to Math.random)

@@ -92,7 +92,7 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
           previous.call(this, this.optionsRef.current, this.nodes[this._defendSub])
           if (this.get('readerBook', true)) this._landEl?.setAttribute('data-reader-pending', '')
           // The old enterDefense armed immediately AFTER buildPanicCard returned.
-          this._landQ = { opened: true } // legacy control represents a deliberately opened question
+          this._landAsk = false // legacy control represents a question already taken up (U47 d)
           this._armLandClock(this._landEl?.querySelector('[data-land-clock]'))
           return this._landEl
         }
@@ -127,7 +127,7 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
   await page.locator('[data-tech="Half Guard to Back Take"] .ng-choice-title-button').scrollIntoViewIfNeeded()
   await j.clickByMouse('[data-tech="Half Guard to Back Take"] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
-  if (!legacy) await j.openQuestion() // U34: this mechanics fixture studies an opened catch.
+  if (!legacy) await j.openQuestion() // U47 d: this mechanics fixture studies a shown catch card.
   await expect(page.locator(cold ? '[data-panic-reveal]' : '[data-panic-mc-opt]').first()).toBeVisible()
   // STALE TIMING (D-351, H57): a reading-view landing stays unpublished, its clock parked, until the
   // article it asked for renders, which happens in real time after the pumped catch; the parked arm
@@ -145,11 +145,11 @@ test('@curated link, reload and dormant answer keep the generic five-card defend
   const j = journey(page)
   await j.boot(LOOP + '/Defender', { beforeNavigate: realContent })
   await calm(page)
+  await j.openQuestion() // U47 d: the defender deck pages once its card is shown; a calm card arms no clock.
   await j.clickByMouse('[data-land-next]', 'browse the next defender card')
   expect(await page.evaluate(() => (window as any).__neural._landPage)).toBe(1)
   await j.clickByMouse('[data-land-prev]', 'return to the first defender card')
   const correct = await page.evaluate(() => (window as any).__neural._mc.correct)
-  await j.openQuestion()
   await j.clickByMouse(`[data-panic-mc-opt="${correct}"]`, 'answer the cold defender landing')
   await j.advance(20000)
   expect(await state(page)).toMatchObject({ pressure: false, vignette: false, caught: 0, remaining: null })

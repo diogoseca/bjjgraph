@@ -441,6 +441,7 @@ test("only the question line clears the corner controls — the answers get thei
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U47 d: the answers lay out once the question is taken up
   await j.advance(1500)
 
   const m = await page.evaluate(() => {

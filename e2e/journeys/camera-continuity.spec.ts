@@ -625,6 +625,12 @@ for (const viewport of VIEWPORTS) {
       expect(before.rows, "no rows while every layer is off").toBeNull();
       // the player turns the card and the hand back on (the layer dock): rows the camera did not predict
       await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("card", true, "test"); a.setLayer("hand", true, "test"); });
+      // U47 d: the card returns asking, a question too short to reach the node. Taking it up (a real
+      // mouse, no frame pumped since `before`) grows it over the node: that is the row under test.
+      // The 0.28s slide-in is wall-clock CSS, so let it finish first: a click measured mid-slide can
+      // land beside the moving button.
+      await expect.poll(() => page.evaluate(() => (window as any).__neural._landEl.getAnimations().every((x: Animation) => x.playState === "finished"))).toBe(true);
+      await j.clickByMouse("[data-land-ask-go]", "Answer for Points on the restored card");
       const S = await record(page, 60 * 2);
       expect(S[0].rows, "the rows mounted").not.toBeNull();
       // NON-VACUITY: the row came up OVER the node; a scenario where it did not would pass vacuously

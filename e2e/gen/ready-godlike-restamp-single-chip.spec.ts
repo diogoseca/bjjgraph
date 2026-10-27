@@ -88,6 +88,7 @@ test("×1→×8 perfect streak: one identity-stable chip re-stamped per climb, p
         : null
     })
     if (!mc) return false // silent landing: the streak carries, nothing to answer
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.keyboard.press("abcd"[mc.correct])
     const pending = await page.evaluate(() => !!(window as any).__neural._landPending)
     expect(pending, "answer registered — nothing left on the table for the next pick to ignore").toBe(false)

@@ -88,8 +88,8 @@ test('@curated a late full article preserves the answered question and never pay
   await expect.poll(() => requested).toBe(true)
   const q = await j.landQuestion()
   expect(q).not.toBeNull()
-  // U34 a: explicitly Reveal before answering, without waiting for the held article.
-  await j.clickByMouse('[data-question-reveal]', 'Reveal this question before its answer')
+  // U47 d: explicitly Answer for Points before answering, without waiting for the held article.
+  await j.clickByMouse('[data-land-ask-go]', 'Answer for Points before its answer')
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
   const before = await page.evaluate(() => {
     const w = window as any, a = w.__neural
@@ -139,9 +139,9 @@ test('@curated the first queued reader layout cannot move a published answer bef
   } })
   await expect.poll(() => requested).toBe(true)
   const q = await j.landQuestion(); expect(q).not.toBeNull()
-  // U34 a: Reveal before arming the ANSWER-click interceptor. No reader-ready or
+  // U47 d: Answer for Points before arming the ANSWER-click interceptor. No reader-ready or
   // layout wait may consume the first queued-publication race being tested.
-  await j.clickByMouse('[data-question-reveal]', 'Reveal before the answer publication probe')
+  await j.clickByMouse('[data-land-ask-go]', 'Answer for Points before the answer publication probe')
   const click = page.mouse.click.bind(page.mouse)
   page.mouse.click = async (...args: Parameters<typeof click>) => {
     page.mouse.click = click
@@ -177,9 +177,9 @@ for (const width of [390, 1440]) {
     await expect(page.locator(READY)).toBeVisible()
     const q = await j.landQuestion()
     expect(q).not.toBeNull()
-    // U34 a: Reveal before restoreGame and the one-shot answer pointerdown hook;
+    // U47 d: Answer for Points before restoreGame and the one-shot answer pointerdown hook;
     // the adoption race still begins with the original answer measurement.
-    await j.clickByMouse('[data-question-reveal]', 'Reveal before the native answer press')
+    await j.clickByMouse('[data-land-ask-go]', 'Answer for Points before the native answer press')
     await page.evaluate(() => {
       const w = window as any, a = w.__neural, reader = a._reader;
       const layout = reader.layoutNow;
@@ -291,7 +291,7 @@ test('@curated a late real dossier preserves reader focus, scroll and the answer
   await expect(page.locator(READY)).toBeVisible()
   const q = await j.landQuestion()
   expect(q).not.toBeNull()
-  await j.openQuestion() // U34 a: this card must be explicitly Revealed before the real answer click.
+  await j.openQuestion() // U47 d: Answer for Points before the real answer click.
   // D-338: Questions follows Videos and Moves and can start below the fold; scroll to it first.
   await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
   await j.readerLayoutSettled()

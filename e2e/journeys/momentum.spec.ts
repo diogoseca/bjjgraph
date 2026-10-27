@@ -44,7 +44,7 @@ const answer = async (j: ReturnType<typeof journey>, page: any, correct: boolean
     return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null
   })
   expect(mc, "a live landing question").toBeTruthy()
-  await j.openQuestion() // U34 a: every fresh card needs explicit Reveal before its answer key.
+  await j.openQuestion() // U47 d: every fresh landing asks first; Answer for Points precedes its answer key.
   await page.keyboard.press("abcd"[correct ? mc!.correct : (mc!.correct + 1) % mc!.n])
 }
 

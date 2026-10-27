@@ -615,6 +615,7 @@ for (const width of [1440, 1024]) {
     const j = journey(page)
     await j.boot("/")
     await j.land("Mount Top")
+    await j.openQuestion() // U47 d: the card (and its guides) shows, and the question is live for the pane to decline
     await page.waitForTimeout(350)
     const card = page.locator("[data-landcard]")
     const before = await card.boundingBox()

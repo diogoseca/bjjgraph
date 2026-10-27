@@ -55,6 +55,7 @@ test("rigged catch → panic drill → rigged escape: _combo stays at its earned
         : null
     })
     if (!mc) return false // a proven deck asks nothing — silence carries the streak
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.keyboard.press("abcd"[mc.correct])
     const pending = await page.evaluate(() => !!(window as any).__neural._landPending)
     expect(pending, "answer registered — nothing left on the table for the pick to ignore").toBe(false)
@@ -142,6 +143,7 @@ test("rigged catch → panic drill → rigged escape: _combo stays at its earned
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
   })
   if (mcCorrect != null) {
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
   } else {
     await page.locator("[data-panic-reveal]").click()

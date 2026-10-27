@@ -39,6 +39,7 @@ test("the chip opens the menu — not the pane, not the pause latch, not the clo
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U47 d: the question's clock runs once it is taken up with Answer for Points
 
   await expect(page.locator(".ng-account-menu")).toBeAttached()
   expect(await menuOpen(page), "menu starts shut").toBe(false)

@@ -458,7 +458,8 @@ for (const [label, delay] of [['400ms', 400], ['2.6s, past the ceiling', 2600]] 
       const tick = () => {
         const a = w.__neural, c = a?._landEl, f = a?._landFilmEl
         const live = !!c && c.isConnected && !c.hasAttribute('data-reader-pending') && getComputedStyle(c).visibility === 'visible'
-        const opt = live ? c.querySelector('[data-land-mc-opt]') : null, b = opt?.getBoundingClientRect()
+        // U47 d: the published tap target is Answer for Points while the question asks, then the answers.
+        const opt = live ? c.querySelector('[data-land-ask-go]') || c.querySelector('[data-land-mc-opt]') : null, b = opt?.getBoundingClientRect()
         if (a) out.push({ answer: b && b.height ? [Math.round(b.left), Math.round(b.top)] : null, card: c || null,
           film: !!f && f.isConnected && !f.hidden && f.getClientRects().length > 0 && getComputedStyle(f).visibility !== 'hidden' })
         if (!w.__lateFilmStop) requestAnimationFrame(tick)
@@ -477,7 +478,7 @@ for (const [label, delay] of [['400ms', 400], ['2.6s, past the ceiling', 2600]] 
     expect(held, 'premise: the content chunk was held').toBeGreaterThan(0)
     const live = T.filter((x: any) => x.answer)
     expect(live.length, 'premise: the question was published').toBeGreaterThan(5)
-    expect([...new Set(live.map((x: any) => x.answer.join()))], 'the published answers never move').toHaveLength(1)
+    expect([...new Set(live.map((x: any) => x.answer.join()))], 'the published answers never move (U47 d: Answer for Points while asking)').toHaveLength(1)
     if (delay < 800) {
       expect(live[0].film, 'inside the ceiling the question publishes with its film in place').toBe(true)
       return
@@ -485,7 +486,7 @@ for (const [label, delay] of [['400ms', 400], ['2.6s, past the ceiling', 2600]] 
     expect(live.some((x: any) => x.film), 'past the ceiling the late film does not mount while the question is live').toBe(false)
     const mc = await j.landQuestion()
     expect(mc, 'premise: a multiple-choice question').not.toBeNull()
-    await j.openQuestion() // U34: answering is an explicit play action.
+    await j.openQuestion() // U47 d: answering is an explicit play action.
     await j.clickByMouse(`[data-land-mc-opt="${mc!.correct}"]`, 'answer the question where it sits')
     await expect.poll(() => page.evaluate(() => { const f = (window as any).__neural._landFilmEl
       return !!f && f.getClientRects().length > 0 && getComputedStyle(f).visibility !== 'hidden' }), 'the late film shows after the player answers').toBe(true)

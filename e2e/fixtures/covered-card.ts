@@ -31,7 +31,7 @@ export async function coveredCatch(page: Page, pauseHeartbeat = false) {
   await j.clickByMouse(move, 'take the authored move into the opponent catch')
   await j.advanceUntil('caught', 20000, 100)
   await j.landSettled()
-  await expect(page.locator('[data-landcard=defense] [data-question-reveal]')).toBeVisible()
+  await expect(page.locator('[data-landcard=defense][data-land-ask] [data-land-ask-go]')).toBeVisible()
   await j.readerLayoutSettled()
   expect(await page.evaluate(() => (window as any).__neural._landQ.key)).toBe('Loop Choke from Half Guard|Defender')
   return j

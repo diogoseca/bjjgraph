@@ -106,6 +106,7 @@ test("a correct landing answer moves the odds by exactly its own study credit �
     return m && m.surface === "land" && typeof m.correct === "number" ? m.correct : -1
   })
   expect(mc, "live land-surface MC block with a known correct index").toBeGreaterThanOrEqual(0)
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.keyboard.press("abcd"[mc])
 
   // ── the ledger after: one credit, everywhere it should be and nowhere it shouldn't ──

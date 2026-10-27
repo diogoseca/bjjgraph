@@ -113,6 +113,7 @@ test("landQuestions off freezes surface + meter across hops; flipping back on as
       : null
   })
   expect(mc, "live land-surface MC block with a known correct index").toBeTruthy()
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.keyboard.press("abcd"[mc!.correct])
 
   // ── the thaw, in one read: exactly one shown, one answered {correct:true}, meter at ×1 ──

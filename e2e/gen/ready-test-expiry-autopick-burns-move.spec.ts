@@ -92,6 +92,7 @@ test("frozen belt-test hand: expiry_warning → land_q_expired narrated, ZERO mo
   // STALE TIMING (D-351, CI 931a7eea0): the landing publishes once its article renders, and its parked
   // clock arms on the next frame; this pumped harness ticks only when asked, so pump one.
   await j.landSettled()
+  await j.openQuestion() // U47 d: the test question's window arms when it is taken up
   await j.advance(17)
 
   // ── The test hand: live belt test, zero moves spent, its QUESTION on the clock ──

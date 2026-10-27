@@ -177,6 +177,7 @@ test("belt-ready: caught mid-test opens the panic drill, escape resumes the SAME
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
   })
   if (mcCorrect != null) {
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
   } else {
     await page.locator("[data-panic-reveal]").click()

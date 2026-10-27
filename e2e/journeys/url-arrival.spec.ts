@@ -226,6 +226,8 @@ test("answering the landing card starts play, and only then can the roll reach h
   expect((await arrival(page)).played, "staged again, still not played").toBe(false)
   const q = await j.landQuestion()
   expect(q).not.toBeNull()
+  // U47 d: the arrival's question asks first; Answer for Points, where it sits, shows the card.
+  await j.clickByMouse("[data-land-ask-go]", "Answer for Points on the selected node’s landing card")
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, "answer the selected node’s landing card")
   await j.advance(900)
   const live = await arrival(page)

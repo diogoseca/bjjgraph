@@ -65,6 +65,7 @@ test("the question corner keeps its close button and count; capture belongs to t
   await j.land("Mount Top");
   await seedFilm(page);
   await page.waitForTimeout(300);
+  await j.openQuestion(); // U47 d: the deck count shows on the card, once the question is taken up
   // D-338: Questions follows Videos and Moves and can start below the fold; scroll to it first.
   await page.locator(".ng-landcard").evaluate(e => e.scrollIntoView({ block: "nearest" }));
   await j.readerLayoutSettled();

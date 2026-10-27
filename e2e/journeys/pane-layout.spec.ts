@@ -24,6 +24,7 @@ async function setup(page: Page) {
   // transitions so an unrelated expiry announcement does not reframe the camera.
   await page.evaluate(() => (window as any).__neural.set("decisionSec", 120))
   await j.land("Mount Top")
+  await j.openQuestion() // U47 d: the deck pages (and the pane declines a live question) once the card is shown.
   await page.evaluate(() => {
     const w = window as any, a = w.__neural
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key

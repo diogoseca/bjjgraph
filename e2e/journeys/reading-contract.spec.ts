@@ -123,7 +123,7 @@ for (const width of [1366, 390]) {
     // (a programmatic scroll is not a reading gesture) and answers it there.
     await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
     await j.readerLayoutSettled()
-    await j.openQuestion() // U34: answering is an explicit play action.
+    await j.openQuestion() // U47 d: answering is an explicit play action.
     await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, 'answer the dormant landing card')
     expect(await activity(page)).toMatchObject({ intent: false, paused: false, remaining: null })
     await j.advance(20000)
@@ -319,7 +319,7 @@ for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {
       await j.boot(path + '/Defender')
       await expect(page.locator(READY)).toBeVisible()
       await expect.poll(() => page.evaluate(() => ((window as any).__neural._optionCards || []).filter((c: any) => c.opt.action === 'escape').length)).toBeGreaterThan(0)
-      await expect(page.locator('[data-question-reveal]')).toBeVisible()
+      await expect(page.locator('[data-land-ask-go]')).toBeVisible()
       await j.advance(20000)
       expect(await activity(page)).toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
       await expect(page.locator('[data-land-clock-track]')).toBeHidden()
@@ -329,7 +329,7 @@ for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {
         await expect(page.locator('[data-executing-tech]')).toBeVisible()
       } else {
         const correct = await page.evaluate(() => (window as any).__neural._mc.correct)
-        await j.openQuestion() // U34: answering is an explicit play action.
+        await j.openQuestion() // U47 d: answering is an explicit play action.
         await j.clickByMouse(`[data-panic-mc-opt="${correct}"]`, 'answer the dormant defender question')
       }
       expect(await activity(page)).toMatchObject({ intent: false, paused: false })

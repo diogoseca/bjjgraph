@@ -105,6 +105,7 @@ test("migrated v1 rec looks proven at deck level, yet the landing still asks and
     return m && m.surface === "land" && typeof m.correct === "number" ? m.correct : -1
   })
   expect(mc, "live land-surface MC block with a known correct index").toBeGreaterThanOrEqual(0)
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.keyboard.press("abcd"[mc])
 
   const post = await page.evaluate(() => {

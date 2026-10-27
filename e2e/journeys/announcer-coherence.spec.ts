@@ -147,7 +147,7 @@ test("@curated a Decide countdown does not survive staging another node", async 
   await j.advance(6000);
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
 
-  await j.openQuestion(); // U34 a: Reveal starts this card's clock; engagement alone is free.
+  await j.openQuestion(); // U47 d: Answer for Points starts this card's clock; engagement alone is free.
 
   // burn the live window down into the <=3s warning band, where the countdown is written
   for (let i = 0; i < 40; i++) {
@@ -282,6 +282,7 @@ test("the sentences after an expiry survive the hand being torn down", async ({ 
   await j.boot("/");
   await j.advance(6000);
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
+  await j.openQuestion(); // U47 d: the question expires only after Answer for Points
 
   const seen: string[] = [];
   let named = false;
@@ -343,7 +344,7 @@ test("@curated the clock running out reveals the answer, says so, and steals not
   await j.boot("/");
   await j.advance(10200); // intro 3.2s + the staged arrival 6.2s (v1.168.0) + the deal
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
-  await j.openQuestion(); // U34 a: explicitly Reveal before testing expiry; covered time is free.
+  await j.openQuestion(); // U47 d: Answer for Points before testing expiry; asking time is free.
 
   const handBefore = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length);
   // walk the announcer at 100ms so the ORDER of the sentences is observed, not inferred
@@ -390,6 +391,7 @@ test("a timed-out question costs the answer, not the exchange", async ({ page })
   await j.boot("/");
   await j.advance(6000);
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
+  await j.openQuestion(); // U47 d: the question expires only after Answer for Points
   for (let i = 0; i < 240; i++) {
     await j.advance(100);
     const b = (await j.beats()).map((x) => x.beat);
@@ -521,7 +523,7 @@ test("@curated an expiry never pins — off the announcer, and gone in ~1.6 s ev
   await page.mouse.move(4, 4);
   await page.mouse.move(6, 6);
   await j.advance(300);
-  await j.openQuestion() // U34: expiry begins only on Reveal.
+  await j.openQuestion() // U47 d: expiry begins only after Answer for Points.
   const armed = await page.evaluate(() => {
     const a: any = (window as any).__neural;
     return !!(a._decision && a._decision.remaining != null);

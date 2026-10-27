@@ -56,7 +56,7 @@ async function landOnRecall(j: ReturnType<typeof journey>, page: Page) {
   await j.boot("/")
   await j.hydrateAll()
   await j.land("Mount Top")
-  await j.openQuestion() // U34: this journey deliberately answers/times the question.
+  await j.openQuestion() // U47 d: this journey deliberately answers/times the question.
   await page.evaluate(() => {
     const a = (window as W).__neural
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key

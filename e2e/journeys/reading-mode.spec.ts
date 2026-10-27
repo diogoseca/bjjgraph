@@ -156,7 +156,7 @@ test("@curated reading interaction waits past the question window without a miss
   await j.land("Mount Top")
   await j.landQuestion()
   await expect(page.locator(READY)).toBeVisible({ timeout: 20000 })
-  await j.openQuestion() // U34 a: Reveal starts the live question that this reading interaction declines.
+  await j.openQuestion() // U47 d: Answer for Points starts the live question that this reading interaction declines.
   await page.evaluate(() => { const a = (window as any).__neural; a._engage("reading-test"); a._tryArmClock() })
   expect((await state(page)).clock, "a live question before reading").toBeGreaterThan(0)
   const before = await state(page)
@@ -299,7 +299,7 @@ for (const action of ["wheel", "selection"] as const) {
     await j.advance(5000)
     await expect(page.locator(READY)).toBeVisible()
     await j.landQuestion()
-    await j.openQuestion() // U34 a: covered time is free; explicitly Reveal before testing the live-window gesture.
+    await j.openQuestion() // U47 d: asking time is free; Answer for Points before testing the live-window gesture.
     await page.evaluate(() => { const a = (window as any).__neural; a._engage("reading-proof"); a._tryArmClock() })
     expect((await state(page)).clock).toBeGreaterThan(0)
     const before = await state(page)
@@ -403,9 +403,9 @@ test("@curated heading links focus the cloned article and a reopened question st
   expect(q).not.toBeNull()
   await j.advance(20000)
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
+  await j.openQuestion() // U47 d: answering is an explicit play action; the answers lay out once it is taken up.
   await page.locator(`[data-land-mc-opt="${q!.correct}"]`).scrollIntoViewIfNeeded()
   await j.readerLayoutSettled()
-  await j.openQuestion() // U34: answering is an explicit play action.
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, 'answer the reopened question directly')
   await expect.poll(() => state(page)).toMatchObject({ intent: false })
   await j.advance(1000)

@@ -279,7 +279,7 @@ regression remains covered by `roll-card.spec.ts`; the execution cases live in
 The shared defending card uses `_mcBlock` on surface `"panic"` (`data-panic-mc-opt`, RNG tags
 `panic-mc-pick`/`panic-mc-shuffle`), preserving its knowledge/telemetry identity. The separate
 renderer and red skin are retired. Defense always uses MC despite the in-play recall preference.
-Correct answers pump escape odds and deal the next covered card; wrong answers reveal without a boost
+Correct answers pump escape odds and deal the next card; wrong answers reveal without a boost
 and break momentum. Expiry reveals a miss. Reveal/Got-it is the cold-pool fallback, with one
 warm-upgrade attempt per deck. Seeing the answer permanently prevents that upgrade, even
 after Space hides it or paging brings it back. The "+7 Tilt toward winning" legend retired; the meter is 165×7px.
@@ -334,14 +334,23 @@ player is already reaching into.
 Choice cards show a direct title, approved video, immediate chance and Win chance; the shortcut
 sits inside the same category shape used on the map. A threat card's colour is your win chance.
 
-U34/U35 (v1.232.0): **Reveal / Answer for a boost** covers each landing, attempt and
-catch question's answer area. Hidden answers are inert to mouse and keyboard. Consent belongs
-to the cached card: paging back preserves both its open state and remaining time; a fresh card
-is covered again. On short screens the invitation collapses the answer area; opening expands
-it into the native reader. Phone catch answers use 5px top/bottom padding instead of 9px.
+U47 d (v1.234.0, owner 2026-10-27; supersedes U34 a's in-card **Reveal / Answer for a boost**):
+a landing, attempt or catch arrives **asking** — only its question shows, with **Answer for
+Points** beneath it (`_landAsk`, `[data-land-ask]`). The card itself (answers, deck count, clock
+bar, backs, guides) is not shown; its answers are built but inert, so no key, click or paging
+gesture acts on them, and no clock runs. The ✕ stays: it is the Questions layer's handle. On a
+phone (≤640px) a long question is cut to two lines, and Answer for Points sits where a "Show
+more" would; desktop shows the whole question and the same button. Answer for Points, or a tap
+on the question, calls `_landReveal`: the card is today's card for the rest of that landing
+(multiple choice, or the recall flashcard for an advanced player), paging and backfill keep it
+shown, and each card keeps its own window. There is no reveal control inside the card. As on
+dev, an asking question is pending: committing past it emits `land_q_ignored`, and the pane, ✕,
+a background tap or leaving for an article decline it (`land_q_declined`); only a reading gesture
+(a phone scrolling to reach it) does not decline a question the player has not taken up.
+Phone catch answers use 5px top/bottom padding instead of 9px.
 D-433 (D-370 adapted to U35, 2026-10-26): the live phone catch puts the question before
-the same native Moves row. Reveal on arrival and every opened answer must be hit-testable
-without scrolling or an automatic scroll writer, at 390×844 and 390×631. The live band
+the same native Moves row. The asking question, its Answer for Points and every shown answer
+must be hit-testable without scrolling or an automatic scroll writer, at 390×844 and 390×631. The live band
 is 144px on the taller phone and 80px below 700px viewport height; it holds through the
 pick and returns to the normal 186px at the result. Account, typography and target sizes
 stay unchanged. Moves may require user scrolling; they remain separate and untimed.
@@ -353,7 +362,7 @@ next-step overlay inside a video player.
 
 The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the
 choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat —
-the v1.123.0 Hick's-law knee died with the hand clock) arms when the player presses **Reveal**
+the v1.123.0 Hick's-law knee died with the hand clock) arms when the player presses **Answer for Points**
 (`_armLandClock`) and drains a 3px bar on the card's top edge (neutral, red at ≤3s, "Answer
 3…2…1" in the announcer). Expiry (`_expireLandQ`) reveals the answer as a MISS — correct option
 highlighted, a failed SRS review, −4% and momentum broken (a later card: its smaller step) — and
@@ -365,8 +374,8 @@ penalty exists only for letting it expire while it faces you. **The question clo
 pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
 staged boards and internal pauses included — **but it never STARTS before the player does**
 (v1.137.0, owner: "a first-time Guest can land on TOO SLOW · −4% before ever interacting"): no
-window arms until that card is deliberately opened and visible; engagement alone (click,
-keypress or graph hover) cannot open it. An early arm parks in
+window arms until the player presses Answer for Points (or taps the question) and the card is
+visible; engagement alone (click, keypress or graph hover) cannot take the question up. An early arm parks in
 `_cwArm` (a FLAG — the bar element resolves at arm time, because the card can re-render
 between park and engagement) and fires the moment both hold. Brand-new visitors
 (`_returningVisitor()` false) get a 1.5× grace window; returning players keep full pressure; the last three seconds pulse the card itself

@@ -238,19 +238,8 @@
   @keyframes ngCatchStart{0%{opacity:.34;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:1;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.44;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.74;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.35;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.136;transform:scale(1)}}
   @keyframes ngHeartbeat{0%{opacity:.136;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:.4;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.176;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.296;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.14;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.136;transform:scale(1)}}
   @media(prefers-reduced-motion:reduce){.ng-vignette{opacity:.144;transform:none;}}
-  .ng-question-stage{position:relative;min-height:60px;}
-  [data-question-covered]>[inert]{visibility:hidden;pointer-events:none;}
-  .ng-question-reveal{position:absolute;inset:0;margin:auto;display:flex;align-items:center;justify-content:center;gap:11px;width:max-content;max-width:100%;height:60px;padding:8px;border:0;border-radius:12px;background:none;font-family:inherit;color:#eef1f6;cursor:pointer;pointer-events:auto;}
-  .ng-question-play{box-sizing:border-box;display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border:1px solid rgba(135,164,229,.38);border-radius:50%;background:rgba(100,133,210,.12);font-size:14px;}
-  .ng-question-play svg{width:14px;height:14px;margin-left:2px;fill:currentColor;}
-  .ng-question-reveal>span:last-child{display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;}
-  .ng-question-reveal strong{font-size:14px;font-weight:700;line-height:20px;white-space:nowrap;}
-  .ng-question-reveal small{font-size:11px;font-weight:500;line-height:16px;color:#9eacc4;white-space:nowrap;}
-  .ng-question-reveal:focus-visible{outline:2px solid #b7caff;outline-offset:3px;}
+  /* D-433: the reader places the phone catch question first; Moves stay untimed. */
   @media(max-width:640px){.ng-land-deck [data-panic-mc-opt]{padding-top:5px!important;padding-bottom:5px!important;min-height:44px;}}
-  /* D-433: MC and recall set display inline. Collapse must win that cascade.
-     The reader places the phone catch question first; Moves stay untimed. */
-  @media(max-height:700px){[data-question-covered]>[inert]{display:none!important;}.ng-landcard.ng-land-deck:has([data-question-covered]){min-height:0!important;}}
 
   /* ══ THE OUTCOME LANDS ON YOUR CARDS (v1.218.0) — app.src.jsx `_outcome` / `_cardHit`. ══
      Root plane z:16, the ambient-fx band. Every layer is pointer-events:none, the whole subtree
@@ -362,6 +351,20 @@
   .ng-landstack{--back-step-x:3px;position:fixed;left:50%;transform:translateX(-50%);z-index:4;pointer-events:none;}
   .ng-landstack>div{transform:translate(calc(var(--back-index)*var(--back-step-x)),calc(var(--back-index)*3px));position:absolute;inset:0;border:1px solid rgba(130,150,190,.3);border-radius:15px;background:linear-gradient(180deg,#20263b,#171c2e);box-shadow:1px 2px 3px rgba(0,0,0,.22);}
   @media(max-width:640px){.ng-landstack{--back-step-x:2px;}}
+  /* U47 d (owner, 2026-10-27): until "Answer for Points" the landing card is not shown, only its
+     question. The answers (inert: no key or click grades them), the deck count and the clock bar
+     leave the layout; _updateLandDeck drops the backs and guides. The ✕ stays: it is the Questions
+     layer's handle, so a question can still be put away unanswered. A phone clamps a long question
+     to two lines, and the button sits where a "Show more" would. Desktop gets the same button even
+     when the question fits. MC and recall set display inline, so the hide must be !important, and
+     these follow the deck rules above so the equal-specificity overrides win. app.src.jsx `_landReveal`. */
+  .ng-landcard[data-land-ask]{min-height:0!important;padding:11px 14px 2px!important;}
+  [data-land-ask]>[data-land-clock-track],[data-land-ask] [data-land-count],[data-land-ask] [data-land-q]>[inert]{display:none!important;}
+  [data-land-ask] [data-land-q]>div:first-child{min-height:0!important;margin:0!important;cursor:pointer;}
+  [data-land-ask-go]{display:block;min-height:44px;margin-left:-8px;padding:0 8px;border:0;border-radius:8px;background:none;font:inherit;font-size:13px;font-weight:700;color:#9cbcff;cursor:pointer;}
+  [data-land-ask-go]:focus-visible{outline:2px solid #9cbcff;outline-offset:-4px;}
+  @media(hover:hover){[data-land-ask-go]:hover{color:#e0e9ff;}}
+  @media(max-width:640px){[data-land-ask] [data-land-q]>div:first-child{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;}}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */
   /* .ng-clock-hot is a MARKER CLASS with no rule (v1.135.1). It used to carry

@@ -35,7 +35,7 @@ nothing, and a member row that starts a roll).
 **The hand.** `optionsFor` deals every legal move (uncapped) ranked by **EDGE**, sorted ONCE by
 **Win chance** (Neural.md §4) if untouched, else **frozen**: a grade moves
 the numbers but must never re-sort a tray the player is reaching into. The clock times the QUESTION, never the hand (v1.133.0):
-`decisionSec` arms when the player opens that card with Reveal and expiry reveals the answer as a miss
+`decisionSec` arms when the player takes the landing's question up with Answer for Points (`_landReveal`, U47 d) and expiry reveals the answer as a miss
 (`_expireLandQ`) while the hand stays live, untimed;
 deck warm-up is capped at `NG_PREFETCH_CAP`.
 

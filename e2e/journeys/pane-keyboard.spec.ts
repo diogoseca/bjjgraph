@@ -70,6 +70,7 @@ test("@curated Esc closes the pane and leaves the independent article reading", 
 test("@curated fresh, cached and backfilled landing pages preserve the pane's answer keys", async ({ page }) => {
   const j = await setup(page)
   await study(page, j)
+  await j.openQuestion() // U47 d: the landing deck pages once its card is shown; the pane keeps its keys.
   const pane = await page.evaluate(() => {
     const m = (window as any).__neural._mc
     return { qhash: m.qhash, correct: m.correct }
@@ -96,7 +97,6 @@ test("@curated fresh, cached and backfilled landing pages preserve the pane's an
     return { ownsKeys: a._mc === m, correct: m.correct }
   })
   expect(land.ownsKeys, "the mounted landing block receives its keys back").toBe(true)
-  await j.openQuestion() // U34 a: key ownership is not consent; explicitly Reveal before the answer key.
   await page.keyboard.press("abc"[land.correct])
   await expect(page.locator(`[data-land-mc-opt="${land.correct}"]`)).toHaveAttribute("data-mc-result", "correct")
 })
@@ -110,13 +110,13 @@ test("@curated a recall page mounted under the pane receives Space when the pane
     a.stage[key] ||= {}; a.stage[key][a.qhash(card.q)] = 2
   })
   await study(page, j)
+  await j.openQuestion() // U47 d: the landing deck pages once its card is shown.
   for (const dir of ["next", "prev", "next"]) {
     await j.clickByMouse(`[data-land-${dir}]`, `page the exposed landing deck ${dir}`)
     await j.landSettled()
   }
-  await expect(page.locator("[data-question-reveal]")).toBeVisible()
+  await expect(page.locator("[data-land-reveal]")).toBeVisible()
   await j.clickByMouse(".ng-explorer-close", "close the study pane")
-  await j.openQuestion()
   expect(await page.evaluate(() => {
     const a = (window as any).__neural
     return a._recall === a._landEl.querySelector("[data-land-recall]").__ngRecall
