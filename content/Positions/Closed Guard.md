@@ -129,7 +129,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - Maintain constant hip connection eliminating space between your hips and opponent's hips to prevent posture establishment and passing angles
 
-- Control opponent's posture through strategic grips on collar, sleeves, or behind head using combined arm and leg pressure to break them forward
+- Control opponent's posture through strategic grips on collar, sleeves, or behind head using combined arm and leg pressure to break them forward. In this example, the narrator responds to the partner holding both hands high by pushing the biceps to make space and quickly pummeling an arm underneath for a collar grip, because the partner may lower his elbows after the push. Narration: [JonThomasBJJ, 4:31.24–4:59.72](https://www.youtube.com/watch?v=Z_FBT8ZDSmo&t=271s).
 
 - Create angles by shifting hips laterally to off-balance opponent and expose their base, setting up sweeps and submissions from advantageous positions
 
@@ -137,7 +137,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - Manage defensive frames with arms to prevent opponent from establishing heavy pressure while maintaining offensive grips that enable attacks
 
-- Use active legs to pull opponent forward with heels while squeezing knees together to restrict hip movement and breathing, creating cumulative fatigue
+- Use active legs to pull opponent forward with heels while squeezing knees together to restrict hip movement and breathing, creating cumulative fatigue. In this example, the narrator responds to the partner bracing both hands on his hips by pulling his knees toward his chest and crunching, folding the partner over those hands so the partner must change where he supports himself. Narration: [JonThomasBJJ, 0:59.64–1:20.439](https://www.youtube.com/watch?v=Z_FBT8ZDSmo&t=59s).
 
 
 ### Available Transitions

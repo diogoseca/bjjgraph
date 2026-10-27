@@ -249,12 +249,12 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 <p class="section-subtitle">What are the key principles for defending Half Guard?</p>
 
 - Maintain constant frames to prevent opponent's chest from connecting to your chest - create and preserve distance through knee shield, underhook, or forearm frames
-- Battle aggressively for the underhook on the trapped leg side as it provides primary offensive pathway to sweeps and back takes
+- Battle aggressively for the underhook on the trapped leg side as it provides primary offensive pathway to sweeps and back takes. In this example, the narrator describes Roosevelt in half guard preventing his opponent from controlling his head and spine, then threading his top elbow through to a deep reverse underhook that keeps the octopus guard entry available. Narration: [FloGrappling, 3:52.4–4:33.44](https://www.youtube.com/watch?v=idoCRB1ewqw&t=232s).
 - Keep hips mobile and angled rather than flat on back - being on your side allows hip escape, angle creation, and sweep entries
 - Use the trapped leg as an anchor point for leverage - control opponent's base and posture by manipulating their trapped leg through lockdown, ankle control, or knee pinch
 - Create constant dilemmas through threatening sweeps, back takes, and guard recoveries - force opponent to react defensively rather than advancing their pass
 - Protect against the cross-face and underhook from top player which lead to flattening and eventual pass to side control or mount
-- Transition between half guard variations based on opponent's pressure and positioning to maintain offensive options
+- Transition between half guard variations based on opponent's pressure and positioning to maintain offensive options. In this example, the narrator describes Tommy taking pressure in half guard, entering octopus guard, posting on his hand, and using his left foot to bridge into his opponent; as the opponent struggles to keep balance, Tommy starts entering the legs. Narration: [FloGrappling, 8:33.2–8:58.08](https://www.youtube.com/watch?v=idoCRB1ewqw&t=513s).
 
 
 </section>

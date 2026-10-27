@@ -210,7 +210,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - Never allow opponent to secure underhook on trapped-leg side without immediate defensive response
 
-- Keep weight distributed to prevent whip-up and Old School sweep attempts
+- Keep weight distributed to prevent whip-up and Old School sweep attempts. In this example, the narrator describes Gordon keeping his head over Andre's or toward the near side while freeing his foot from lockdown, making it harder for Andre to off-balance him toward the underhook side. Only after freeing the foot does Gordon commit more weight over the far shoulder. Narration: [Less Impressed More Involved BJJ, 16:03.72–16:53.759](https://www.youtube.com/watch?v=XGBHXO-EMk0&t=963s).
 
 - Time leg extraction attempts when opponent is defensive or adjusting position
 

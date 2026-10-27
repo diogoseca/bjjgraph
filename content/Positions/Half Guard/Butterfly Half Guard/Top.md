@@ -271,7 +271,7 @@ The strategic approach from top butterfly half guard involves several key consid
 - Work systematically to free trapped leg while defending sweep attempts, never forcing extraction when timing is unfavorable
 - Maintain wide base on free leg with strategic hand posting to prevent being swept while preserving mobility for passing
 - Recognize when forward pressure is advantageous versus when it creates sweep opportunities for opponent
-- Transition between different passing strategies based on opponent's reactions and positioning adjustments
+- Transition between different passing strategies based on opponent's reactions and positioning adjustments. In this example, the narrator says the top player can force the opponent’s frame toward the mat from butterfly half guard to enter a smash pass, then sprawl a leg back from the smash pass to reach chest-to-chest half guard. Narration: [Less Impressed More Involved BJJ, 4:30.18–4:44.58](https://www.youtube.com/watch?v=eKVzL5kmijk&t=270s).
 - Never allow opponent to achieve full seated posture with established grips and active butterfly hook simultaneously
 
 
