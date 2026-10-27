@@ -650,7 +650,8 @@ test('@curated independent section preferences merge per key and preserve stale 
   expect(await page.evaluate(() => (window as any).__neural.get('readerSection.future-type'))).toBe(false)
 })
 
-test('@curated unknown authored sections and cross-section anchors survive regrouping', async ({ page }) => {
+for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sections and cross-section anchors survive regrouping`, async ({ page }) => {
+  await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   const j = journey(page)
   await j.boot(KNEE + '/Attacker', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
@@ -662,17 +663,46 @@ test('@curated unknown authored sections and cross-section anchors survive regro
   expect(await page.locator('.ng-section-card').evaluateAll(es => es.map(e => e.getAttribute('data-section-type')))).toEqual(['principles', 'additional', 'related', 'sources'])
   await expect(page.locator('[data-section-type=additional]')).toContainText('Unmapped content survives in full.')
   await expect(page.locator('[data-section-type=additional]')).toContainText('Its detail also survives.')
-  await page.locator('[data-reader-anchor=legacy-notes]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-reader-anchor=legacy-notes]')
+  const original = await page.locator('[data-reader-body]').textContent()
+  const followAnchor = async () => {
+    const anchor = page.locator('[data-reader-anchor=legacy-notes]')
+    await anchor.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    // STALE SPEC (D-482): the approved side-by-side grid wraps this inline link.
+    // Its union-box centre is blank paragraph space, not a link fragment. Hit-test
+    // the first actual fragment, still rejecting ancestors/overlays; use a real mouse.
+    const hit = await anchor.evaluate(el => {
+      const rect = el.getClientRects()[0]
+      if (!rect || !rect.width || !rect.height) return { x: 0, y: 0, reachable: false }
+      const x = rect.left + rect.width / 2, y = rect.top + rect.height / 2
+      const top = document.elementFromPoint(x, y)
+      return { x, y, reachable: x >= 0 && y >= 0 && x < innerWidth && y < innerHeight && !!top && (top === el || el.contains(top)) }
+    })
+    expect(hit.reachable, 'D-482: the authored link text is reachable by mouse').toBe(true)
+    await page.mouse.click(hit.x, hit.y)
+  }
+  await followAnchor()
   expect(await page.evaluate(() => document.activeElement?.closest('[data-section-type]')?.getAttribute('data-section-type'))).toBe('additional')
   const body = page.locator('[data-section-type=additional] .ng-section-body')
   await body.evaluate(e => { (e as HTMLElement).tabIndex = 0; (e as HTMLElement).focus() })
   await page.evaluate(() => { const a = (window as any).__neural; a.set('readerSection.additional', false); a._applyLayers() })
-  // STALE CONTRACT (D-355, U11): where the index shows, the closed section has no control in the content,
-  // so focus moves to its index row.
-  await expect(page.locator('[data-toc-type=additional] a')).toBeFocused()
+  // U11 / U25 a: closing moves focus to the index or the phone disclosure summary.
+  await expect(page.locator(width === 1440 ? '[data-toc-type=additional] a' : '.ng-reader-hidden>summary')).toBeFocused()
   await expect(body).toBeHidden()
   expect(await body.evaluate(e => (e as HTMLElement).inert)).toBe(true)
+  // REAL BREAK (D-482): the old anchor path measured a closed, hidden control.
+  // Both widths must reveal the SAME target and focus its visible anchor destination.
+  await body.evaluate(e => { (window as any).__anchorTargetBody = e })
+  await followAnchor()
+  await expect(page.locator('[data-section-toggle=additional]'), 'D-482: a cross-section anchor reveals its closed target').toHaveAttribute('aria-expanded', 'true')
+  await expect(body).toBeVisible()
+  expect(await body.evaluate(e => e === (window as any).__anchorTargetBody && !(e as HTMLElement).inert)).toBe(true)
+  expect(await page.locator('[data-section-type=additional]').evaluate(card => {
+    const el = document.activeElement!
+    const box = el.getBoundingClientRect(), root = card.closest('[data-reader]')!.getBoundingClientRect()
+    return card.contains(el) && box.width > 0 && box.height > 0 && box.top >= root.top && box.top < root.bottom
+  }), 'the anchor destination is inside the reader').toBe(true)
+  expect(new URL(page.url()).hash).toBe('#legacy-notes')
+  expect(await page.locator('[data-reader-body]').textContent(), 'every authored character returns in source order').toBe(original)
   expect(await state(page)).toMatchObject({ paused: true, played: false, deals: 0, misses: 0 })
 })
 

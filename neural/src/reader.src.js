@@ -654,7 +654,12 @@ class Reader {
     if (!node) return;
     node.tabIndex = -1;
     const section = node.closest(".ng-section-card");
-    this.scrollTo(section?.dataset.collapsed === "true" || node.classList.contains("ng-section-source-title") ? section.querySelector("[data-section-toggle]") : node);
+    // D-482 / U25 a: a closed target now lives inside the hidden disclosure.
+    // Reveal it before measuring/focusing, just as an index link reveals its section.
+    if (section?.dataset.collapsed === "true") {
+      this.toggleSection(section.dataset.sectionType, true); this.layoutNow();
+    }
+    this.scrollTo(node.classList.contains("ng-section-source-title") ? section.querySelector("[data-section-toggle]") : node);
     history.replaceState({ ...history.state, ngReading: !!this.intent }, "", this.path + hash);
   }
   scrollTo(node, focus = node) {
