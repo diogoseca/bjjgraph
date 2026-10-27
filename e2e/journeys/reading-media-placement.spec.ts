@@ -217,9 +217,20 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
     await j.readerLayoutSettled()
     // U11 (D-355): where the index shows, the closed Videos section leaves no placeholder; its row reopens it.
     const indexed = await page.locator('[data-reader][data-indexed]').count() > 0
+    if (!indexed) {
+      // STALE SPEC (D-482 / U25 a): the phone's reopen control is inside Hidden sections.
+      // Open the approved disclosure by mouse before measuring that control.
+      const summary = page.locator('.ng-reader-hidden>summary')
+      await expect(page.locator('.ng-reader-hidden')).not.toHaveAttribute('open', '')
+      await summary.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+      await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the hidden Videos control')
+      await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
+      await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    }
     await j.clickByMouse(indexed ? '[data-toc-type=videos] a' : '[data-section-toggle=videos]', 'reopen Videos')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeVisible()
-    expect((await snapshot(page)).paused).toBe(true)
+    expect(await snapshot(page)).toMatchObject({ same: true, frame: true, player: native, hosts: 1, frames: 1, total: 1, paused: true })
+    if (native) expect((await snapshot(page)).document).toBe(true)
     expect(await page.evaluate(() => (window as any).__pauseCalls)).toBeGreaterThan(0)
     expect((await snapshot(page)).events).not.toContain('destroy')
     expect((await snapshot(page)).events.filter((e: string) => e.startsWith('STALE:'))).toEqual([])

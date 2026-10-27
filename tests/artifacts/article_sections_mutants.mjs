@@ -74,6 +74,11 @@ const retiredGutter = `  frameCamera(target) {
   }
 `;
 const mutants = [
+  // D-482: reach the claim through the approved U25 disclosure and actual inline-link fragments.
+  ['d482-closed-anchor-hidden', sections, '390px unknown authored sections and cross-section anchors',
+    s => replace(s, 'this.toggleSection(section.dataset.sectionType, true); this.layoutNow();', '/* mutant: leave the anchor target hidden */')],
+  ['d482-hidden-row-inert', 'reading-navigation.spec.ts', '390px native reading keys and section toggles',
+    s => replace(s, 'const opening = !sectionShown(this.app, group.type);', 'const opening = !sectionShown(this.app, group.type); if (opening) return;')],
   ['content-loss', sections, 'semantic sections.*Mount/Bottom', s => replace(s, 'fragment.append(part.node);', 'part.node.querySelector?.("p")?.remove(); fragment.append(part.node);')],
   ['wrong-order', sections, 'semantic sections.*Knee-Slice-Pass/Attacker', s => replace(s, 'return rank(a) - rank(b);', 'return rank(b) - rank(a);')],
   ['settings-ignored', sections, 'section settings carry', s => replace(s, 'return app.get("readerSection." + type, true) !== false;', 'return true;')],
