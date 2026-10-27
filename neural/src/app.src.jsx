@@ -117,7 +117,8 @@ const NG_CAM_OPEN_SLOPE = 1.875; // max derivative of 6u^5 - 15u^4 + 10u^3
 // held the zoom still while it did. Round 2 directs the whole opening on ONE clock (`now`):
 //   ZOOM  one log-width curve from the first frame to the landing (equal ratios read as equal
 //         speed, so log is the perceptual axis). The pick lands mid-curve; the zoom's fixed point
-//         then slides from the graph's centre to the node over NG_CAM_OPEN2_ANCHOR.
+//         is then the node: it keeps the outward drift the centre zoom gave it and eases that to rest
+//         over NG_CAM_OPEN2_ANCHOR, so the hand-over has no velocity step and no reversal.
 //         Z1 z = v0 u + (1 - v0) u^2: constant log-acceleration, landing at full speed (the stop's
 //            per-frame step stays inside camera-continuity's KICK bound, measured per variant);
 //         Z2 z' = (1 - u)(v0 + b u + c u^2): its peak is placed on the rise's peak, so the two
@@ -132,7 +133,7 @@ const NG_CAM_OPEN2_LAND = 6.0;      // landing, s after the pick (round 1 still 
 const NG_CAM_OPEN2_RISE = 2.0;      // the rise and the board's entrance, from the reveal
 const NG_CAM_OPEN2_EASE = [0.4, 0, 0.2, 1]; // the rise; its velocity peaks at 30% of NG_CAM_OPEN2_RISE
 const NG_CAM_OPEN2_V0 = 0.15;       // first-opening zoom speed at frame 0, of the mean: under the fade-in
-const NG_CAM_OPEN2_ANCHOR = 0.8;    // s: the zoom's fixed point moves from the graph centre to the node
+const NG_CAM_OPEN2_ANCHOR = 0.8;    // s: the named node's inherited drift eases to rest (and the landing width takes over)
 const NG_CAM_OPEN2_OUT = 1.4;       // s: a restart's breath out to the overview, rest to rest (sine)
 const NG_CAM_OPEN2_GOAL_W = 14;     // rad/s: the landing framing is followed through a spring, as a flight's goal is
 const ngCamOpenV2 = (v) => typeof v === "string" && v.slice(0, 2) === "v2";
@@ -18801,7 +18802,7 @@ class Component extends DCLogic {
     G.x = GX[0]; G.vx = GX[1]; G.y = GY[0]; G.vy = GY[1]; G.l = GL[0]; G.vl = GL[1];
     const goal = { x: G.x, y: G.y, w: Math.exp(G.l) }, P1 = scr(q, goal);
     if (t >= op.land) { op.landed = true; op.rise = 1; op.riseDy = 0; return { ...goal, last: true }; }
-    let w, beta = 1;
+    let w, Ph = op.P0;
     if (op.restart) {
       if (!op.ov) {
         // the overview the restart breathes out to: the whole graph, moved the least distance that
@@ -18827,23 +18828,28 @@ class Component extends DCLogic {
       }
       w = Math.exp(op.Lov + (G.l - op.Lov) * ngOpenZoom(kind, (t - op.tin) / (op.land - op.tin), 0, op.up));
     } else {
-      // the first opening, after the pick: the landing width replaces the estimate, and the zoom's
-      // fixed point moves onto the node, both over NG_CAM_OPEN2_ANCHOR on a C2 smootherstep, so
-      // neither the width nor the centre has a velocity step at the pick
-      beta = sm((t - op.pick) / NG_CAM_OPEN2_ANCHOR);
-      const L1 = lstar + beta * (G.l - lstar);
-      w = Math.exp(op.L0 + (L1 - op.L0) * ngOpenZoom(kind, (t - op.t0) / (op.land - op.t0), op.v0, op.up));
+      // the first opening, after the pick. The landing width replaces the estimate over
+      // NG_CAM_OPEN2_ANCHOR (smootherstep). The camera is anchored on the node from the pick on: the
+      // centre zoom was carrying it outward at V, and that drift eases to rest, v = V (1 - smoothstep),
+      // travelling V T / 2. Node and camera centre keep their velocity across the pick, and the node
+      // settles where its momentum takes it instead of drifting out and back (a centre blend measured
+      // 19.6 px out and back at 1440).
+      const T = NG_CAM_OPEN2_ANCHOR, x = Math.min(1, (t - op.pick) / T), lw = (tt) => op.L0 + (lstar - op.L0) * ngOpenZoom(kind, (tt - op.t0) / (op.land - op.t0), op.v0, op.up);
+      w = Math.exp(op.L0 + (lstar + sm(x) * (G.l - lstar) - op.L0) * ngOpenZoom(kind, (t - op.t0) / (op.land - op.t0), op.v0, op.up));
       if (!op.P0) {
-        const wp = Math.exp(op.L0 + (lstar - op.L0) * ngOpenZoom(kind, (op.pick - op.t0) / (op.land - op.t0), op.v0, op.up));
-        op.P0 = safe(scr(q, { x: this.gcx, y: this.gcy, w: wp }));
+        const Pk = scr(q, { x: this.gcx, y: this.gcy, w: Math.exp(lw(op.pick)) }), rate = (lw(op.pick + 1e-3) - lw(op.pick - 1e-3)) / 2e-3;
+        op.Pk = Pk; op.V = { x: -(Pk.x - W / 2) * rate, y: -(Pk.y - H / 2) * rate };
+        op.Pfree = { x: Pk.x + op.V.x * T / 2, y: Pk.y + op.V.y * T / 2 }; op.P0 = safe(op.Pfree);
       }
+      const g = x - x * x * x + x * x * x * x / 2;   // the integral of 1 - smoothstep: 1/2 at x = 1
+      Ph = { x: op.Pk.x + op.V.x * T * g + (op.P0.x - op.Pfree.x) * sm(x), y: op.Pk.y + op.V.y * T * g + (op.P0.y - op.Pfree.y) * sm(x) };
     }
     // the node holds where it was named until the board it rises FOR exists, then rises with it
     const E = op.pick + this.NG_ARRIVE_KICKER, r = t < E ? 0 : ngBezier(NG_CAM_OPEN2_EASE, (t - E) / NG_CAM_OPEN2_RISE);
-    const P = { x: op.P0.x + (P1.x - op.P0.x) * r, y: op.P0.y + (P1.y - op.P0.y) * r };
+    const P = { x: Ph.x + (P1.x - op.P0.x) * r, y: Ph.y + (P1.y - op.P0.y) * r };
     op.rise = r; op.riseDy = Math.max(0, P.y - P1.y);
     const cx = q.x - (P.x - W / 2) * w / W, cy = q.y - (P.y - H / 2) * w / W;
-    return { x: this.gcx + beta * (cx - this.gcx), y: this.gcy + beta * (cy - this.gcy), w };
+    return { x: cx, y: cy, w };
   }
   /** ROUND 2: the board (the reader section, and the layer shelf) on the opening's clock. A restart
    *  first takes the PREVIOUS board out with the breath out; every board enters with the rise. Inline

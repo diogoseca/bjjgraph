@@ -163,6 +163,11 @@ test("round-2 path: holds the named node until the board, rises with it, lands e
     assert.ok(Math.abs(last.node.x - 163) < 1e-6 && Math.abs(last.node.y - 171) < 1e-6, "lands on the band framing");
     const held = live.filter((f) => f.t >= op.pick + R2.NG_CAM_OPEN2_ANCHOR && f.t < E);
     assert.ok(held.length > 60 && held.every((f) => Math.hypot(f.node.x - held[0].node.x, f.node.y - held[0].node.y) < 1e-6), "no rise before the board");
+    // the hand-over at the pick: the node keeps its drift, eases it to rest, never reverses
+    const k = live.findIndex((f) => f.t >= op.pick), dv = (i) => ({ x: live[i].node.x - live[i - 1].node.x, y: live[i].node.y - live[i - 1].node.y });
+    const v0 = dv(k);
+    assert.ok(Math.hypot(v0.x - dv(k - 1).x, v0.y - dv(k - 1).y) < 0.02, "no velocity step at the pick");
+    for (let i = k + 1; live[i].t <= op.pick + R2.NG_CAM_OPEN2_ANCHOR; i++) assert.ok(dv(i).x * v0.x + dv(i).y * v0.y >= -1e-9, "the drift never reverses");
     const rising = live.filter((f) => f.t >= E && f.t <= E + R2.NG_CAM_OPEN2_RISE);
     for (let i = 1; i < rising.length; i++) assert.ok(rising[i].node.y <= rising[i - 1].node.y + 1e-9, "the rise only rises");
     let pc = { x: 0, y: 0 }, maxKick = 0, maxMove = 0, prevRate = null, maxJerk = 0;
