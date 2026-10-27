@@ -102,6 +102,13 @@ const NG_CAM_RHO = 1.2;         // van Wijk's rho: how far a long flight zooms o
 const NG_CAM_TRACK_W = 6;       // the tracking spring, rad/s (critically damped)
 const NG_CAM_EDGE_SEC = 0.3;    // how long the lift's band edge takes to reach a new band
 const NG_CAM_LIFT_SOFT = 6;     // the soft clamp's knee, px
+// Temporary, URL-only opening comparison. Keep the pick/content clocks (3.2/2s)
+// unchanged; spend their existing time on rest-to-rest camera flights.
+const NG_CAM_OPEN_INTRO = 3.2;
+const NG_CAM_OPEN_OUT_SEC = 0.75;
+const NG_CAM_OPEN_WIDE = 1.12;
+const NG_CAM_OPEN_IN_SEC = 4;
+const NG_CAM_OPEN_SLOPE = 1.875; // max derivative of 6u^5 - 15u^4 + 10u^3
 // The 24px ghost button every layer handle is cut from — the landing card's ✕ wrote this inline
 // first (v1.101.1); the film ✕, the hand ✕ and the dock glyphs share it so they cannot drift.
 const NG_GHOST_BTN_CSS = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;border:none;border-radius:7px;background:none;color:#8b97b0;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center;transition:color .15s,background .15s;";
@@ -279,7 +286,7 @@ class Component extends DCLogic {
   /** Every arrival stamp dies here — the complete lifter set is this call (§6.5): the normal
    *  path (enterLand), and both user takeovers (rollFromPosition, stageRollAt). `_arriveWide`
    *  also carries its own deadline in updateCamera, so a missed lifter costs 2s, not forever. */
-  _endArrival() { this._arriveWide = false; this._arriveGlideUntil = null; this._arriveLabelT = null; }
+  _endArrival() { this._arriveWide = false; this._arriveGlideUntil = null; this._arriveLabelT = null; this._retireCamOpen(); }
   /** The resting light on the state you are STANDING IN — present always, hugging the orb.
    *  Not the retired halo: a third of its alpha and a quarter of its reach. See v1.114.1. */
   REST_GLOW = 0.42;
@@ -392,7 +399,7 @@ class Component extends DCLogic {
   }
 
   // ---------- timers (pause-aware) ----------
-  clearTimers() { (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; }
+  clearTimers() { (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; this._retireCamOpen(); this._camOpenManual = false; }
   /** Cancel ONE timer handed back by `after()` — the replay steps its own film and must be able to
    *  stop it without `clearTimers()`, which would also disarm the paused roll waiting underneath. */
   _cancelTimer(it) {
@@ -5517,6 +5524,7 @@ class Component extends DCLogic {
   // somewhere else is not a collision, it is a decision.
   // ══════════════════════════════════════════════════════════════════════════════════════
   holdCamera(sec) {
+    this._retireCamOpen(); this._camOpenManual = false;
     if (this._execution) this._execution.camera = false;
     // PENDING (-1) when the frame clock does not exist yet. A share arrival is decoded during
     // ingest, which can be before the first frame — and `this.now` is not a page-relative zero in
@@ -12587,13 +12595,15 @@ class Component extends DCLogic {
     const block = box.firstElementChild;
     block.style.transform = "scale(" + Math.min(1, Math.max(1, band.height - 8) / Math.max(1, block.offsetHeight)) + ")";
   }
-  _centerReveal(text, sub) {
+  _centerReveal(text, sub, opening) {
     for (const [el, val] of [[this.evcTextRef.current, text], [this.evcSubRef.current, sub]]) {
       if (!el) continue;
       el.textContent = val;
       el.style.transition = "opacity .6s ease";
       el.style.opacity = "0";
-      requestAnimationFrame(() => requestAnimationFrame(() => { el.style.opacity = "1"; }));
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        if (!opening || this._camOpen === opening && !opening.cancelled) el.style.opacity = "1";
+      }));
     }
     this._frameArrivalHeading();
   }
@@ -16923,10 +16933,13 @@ class Component extends DCLogic {
     this._refreshHistoryRows();
   }
 
-  startRoll() {
+  startRoll(opening) {
+    // Only updateCamera passes this first-opening token. Ordinary restarts retire it.
+    const manual = !!(opening && this._camOpenManual), cancelled = !!opening?.cancelled;
     this._gameValueChanged("new-roll", "roll");
     this.stopReplay("roll");   // a new roll ends the film first (see rollFromPosition)
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
+    if (opening) { this._camOpen = opening; opening.cancelled = cancelled; opening.pick = this.now; this._camOpenManual = manual; }
     this._beltTest = null; // a fresh normal roll is never a belt test (manual reset = clean cancel, no attempt burned)
     this._cancelCheckpoint(); // and never a stale checkpoint quiz
     this._combo = 0; this._landPending = false; this._updateComboChip(); // momentum is per-MATCH: a new roll starts cold
@@ -17031,7 +17044,9 @@ class Component extends DCLogic {
     this.showCenter(
       this._startSpot ? "Your weak spot: " + this._startSpot.split("|")[0]
         : this._rollsBegun > 1 ? "Restarting the roll" : "Starting the roll",
-      "", "", "muted", true);
+      opening?.variant === "v2" && !opening.cancelled ? this.posFamily(this.nodes[this.currentPos].t) : "",
+      opening?.variant === "v2" && !opening.cancelled ? this.roleLabel() : "", "muted", true);
+    if (opening?.cancelled) this.hideCenter();
     this.focusIdx = -1; this.pulse = null;
     this.camFocus = this.pairMid(this.nodes[this.currentPos]);
     this.prevPosVal = this.myVal(this.nodes[this.currentPos]);
@@ -17044,11 +17059,18 @@ class Component extends DCLogic {
       this._arriveWide = false;
       // Reveal identity, URL, highlight and measured content in the same frame.
       this.enterLand(true, true);
-      this._centerReveal(this.posFamily(this.nodes[this.currentPos].t), this.roleLabel());
+      if (!opening) this._centerReveal(this.posFamily(this.nodes[this.currentPos].t), this.roleLabel());
+      else if (this._camOpen === opening && !opening.cancelled) {
+        if (opening.variant === "v2") this._frameArrivalHeading();
+        else this._centerReveal(this.posFamily(this.nodes[this.currentPos].t), this.roleLabel(), opening);
+      }
     });
-    this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME, () => this._centerHandoff());
+    this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME, () => {
+      if (!opening || this._camOpen === opening && !opening.cancelled) this._centerHandoff();
+    });
     this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME + this.NG_ARRIVE_HANDOFF, () => {
-      this.hideCenter(); this._endArrival();
+      if (!opening || this._camOpen === opening) this.hideCenter();
+      this._endArrival();
     });
   }
 
@@ -18643,13 +18665,60 @@ class Component extends DCLogic {
     this._labelWCache.set(key, w);
     return w;
   }
+  _openingPreview() {
+    if (this._camOpenChecked) return this._camOpen;
+    this._camOpenChecked = true;
+    if (this.introDone || this._urlSeeded || this._refPage || this._staged != null
+      || this.currentPos != null || this.user || this._authUserId || this.camHeld()) return null;
+    try {
+      const variant = new URLSearchParams(window.location.search).get("camOpen");
+      if ((variant === "v1" || variant === "v2") && ngAuthIsGuest(this._auth()))
+        this._camOpen = { variant, pick: null, cancelled: false };
+    } catch (e) { /* no browser: ordinary camera */ }
+    return this._camOpen;
+  }
+  _retireCamOpen() {
+    if (this._camOpen) this._camOpen.cancelled = true; // also kills queued reveal rAFs
+    this._camOpen = null;
+  }
+  _cancelCamOpen() {
+    if (!this._camOpen || this._camOpen.cancelled) return;
+    this._camOpen.cancelled = true;
+    // Unlike the four-second activity window, this survives the arrival's callbacks.
+    // The next roll/navigation (clearTimers) or explicit camera lease releases it.
+    this._camOpenManual = true;
+    this.hideCenter();
+    Object.assign(this.camTarget, this.cam);
+    this._cm = null; // adopt the hand's pose at rest on the next deliberate camera move
+  }
+  _openingFrame(opening) {
+    if (!opening || opening.cancelled) return null;
+    let target = { cx: this.gcx, cy: this.gcy, vw: this.graphW }, phase = "intro", dur = NG_CAM_OPEN_INTRO;
+    const snap = this._reducedMotion();
+    if (opening.pick != null) {
+      const age = this.now - opening.pick, out = opening.variant === "v1";
+      if (snap || age >= this.NG_ARRIVE_KICKER) {
+        phase = "in"; dur = NG_CAM_OPEN_IN_SEC;
+        target = this.rollCamTarget(this.camFocus, false, this.currentPos, this._arriveWide ? this.currentPos : undefined);
+      } else {
+        target.vw *= out ? NG_CAM_OPEN_WIDE : 1;
+        if (out && age < NG_CAM_OPEN_OUT_SEC) { phase = "out"; dur = NG_CAM_OPEN_OUT_SEC; }
+        else {
+          phase = "wide"; dur = this.NG_ARRIVE_KICKER - (out ? NG_CAM_OPEN_OUT_SEC : 0);
+          target = this._liftForLanding(target, this.currentPos);
+        }
+      }
+    }
+    return { target, phase, dur, snap };
+  }
   updateCamera(dt) {
+    const opening = this._openingPreview();
     // The pane's inset is re-applied to every TARGET each frame; the camera itself takes it in
     // `_camStep`, which displays its pane-free pose at the current inset.
-    Object.assign(this.camTarget, this._paneCameraTarget(this.camTarget));
+    if (!this._camOpenManual) Object.assign(this.camTarget, this._paneCameraTarget(this.camTarget));
     if (this._camHoldTarget) Object.assign(this._camHoldTarget, this._paneCameraTarget(this._camHoldTarget));
     const el = this.now - this.startTime;
-    if (this._arriveGlideUntil != null && !this._arriveWide) this._frameArrivalHeading();
+    if (this._arriveGlideUntil != null && !this._arriveWide && !this._camOpenManual) this._frameArrivalHeading();
     // a lease taken before there was a clock starts counting now (see holdCamera)
     if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
     // ...and so does a calm reading catch's window (D-332 D2-S1), on the first frame with a clock
@@ -18707,7 +18776,7 @@ class Component extends DCLogic {
             // starting a fresh roll here moved the map to a random start while the article still
             // read the chosen node, leaving D-318's role change (its other half) off-screen.
           } else {
-            this.startRoll();
+            this.startRoll(opening);
           }
         }
       }
@@ -18734,6 +18803,11 @@ class Component extends DCLogic {
         tgt = this.rollCamTarget(this.camFocus, !!this.pulse);
       }
     }
+    // Presentation changes do not move the pick or enterLand clocks above. A cancelled
+    // preview still runs those gameplay boundaries, but no callback reclaims the camera.
+    if (this._camOpenManual) return;
+    const preview = this._openingFrame(opening);
+    if (preview) tgt = preview.target;
     // while paused or reading an in-node dossier, suppress only the AUTO-retarget — the tween
     // itself keeps flying toward whatever camTarget was set (Follow/Overview must not yank the
     // camera away mid-read, but manual prezi targets still animate).
@@ -18804,6 +18878,10 @@ class Component extends DCLogic {
         fl.band = (this.H || 800) / 2 + (this.camFocus.y - this.cam.cy) * (this.W || 1200) / this.cam.vw + margin + NG_CAM_LIFT_SOFT > R.bottom;
       }
       if (!R.band || fl) ctx.lift = { f: this.camFocus, n, top: this.paused ? R.top : 16, bottom: R.bottom, active: !R.band || !!fl?.band };
+    }
+    if (preview && tgt) {
+      ctx.openPhase = preview.phase; ctx.quintic = true;
+      ctx.trackW = 3; ctx.dur = () => preview.dur; ctx.snap = preview.snap;
     }
     this._camStep(dt, ctx);
   }
@@ -18891,6 +18969,11 @@ class Component extends DCLogic {
     const cam = this.cam, T = this.camTarget;
     if (!cam || !T || !(T.vw > 0) || !isFinite(T.cx) || !isFinite(T.cy)) return;
     ctx = ctx || {};
+    if (ctx.snap) {
+      Object.assign(cam, T, { lvw: Math.log(T.vw) });
+      this._cm = null;
+      return;
+    }
     const W = this.W || 1200, H = this.H || 800;
     let m = this._cm;
     if (!m || !m.shown || m.shown.cx !== cam.cx || m.shown.cy !== cam.cy || m.shown.vw !== cam.vw) {
@@ -18904,16 +18987,19 @@ class Component extends DCLogic {
     // A NEW DESTINATION: the target jumped (or this is the first frame), and it is not here yet.
     const jump = m.lastT ? this._camDist(m.lastT, TV) : Infinity;
     m.lastT = TV;
-    if (jump > NG_CAM_JUMP && this._camDist(base, TV) > NG_CAM_JUMP) {
+    const newPhase = ctx.openPhase && ctx.openPhase !== m.openPhase;
+    m.openPhase = ctx.openPhase;
+    if ((jump > NG_CAM_JUMP && this._camDist(base, TV) > NG_CAM_JUMP)
+      || newPhase && this._camDist(base, TV) > 1e-8) {
       const sx = (TV.x - base.x) / base.w * W + W / 2, sy = (TV.y - base.y) / base.w * W + H / 2;
       const kind = sx >= -0.25 * W && sx <= 1.25 * W && sy >= -0.25 * H && sy <= 1.25 * H ? "pivot" : "arc";
       const S = this._camPath(base, TV, "arc").S;
       // A narrow reading band can demand a much larger zoom than the old landing.
       // Preserve the path and easing, but give its log-zoom distance enough time:
-      // sine easing peaks at pi/2; the arc's log-width slope is bounded by rho*S.
+      // Sine peaks at pi/2, preview quintic at 1.875; an arc bounds log-width by rho*S.
       const zoomTravel = kind === "pivot" ? Math.abs(Math.log(TV.w / base.w)) : NG_CAM_RHO * S;
-      const dur = Math.max(ctx.dur ? ctx.dur(S) : Math.max(0.6, Math.min(1.4, 0.5 + 0.25 * S)), Math.PI / 2 * zoomTravel / 3.2);
-      m.flight = { a: { ...base }, t: 0, dur, v0: { ...m.v }, kind,
+      const dur = Math.max(ctx.dur ? ctx.dur(S) : Math.max(0.6, Math.min(1.4, 0.5 + 0.25 * S)), (ctx.quintic ? NG_CAM_OPEN_SLOPE : Math.PI / 2) * zoomTravel / 3.2);
+      m.flight = { a: { ...base }, t: 0, dur, v0: { ...m.v }, kind, quintic: !!ctx.quintic,
         goal: { x: TV.x, y: TV.y, l: Math.log(TV.w), vx: 0, vy: 0, vl: 0 } };
       this._camFlights = (this._camFlights || 0) + 1;
     }
@@ -18921,7 +19007,8 @@ class Component extends DCLogic {
     const fl = m.flight;
     if (fl) {
       fl.t += dt;
-      const u = Math.min(1, fl.t / fl.dur), e = (1 - Math.cos(Math.PI * u)) / 2;
+      const u = Math.min(1, fl.t / fl.dur);
+      const e = fl.quintic ? u * u * u * (u * (u * 6 - 15) + 10) : (1 - Math.cos(Math.PI * u)) / 2;
       // THE FLIGHT'S GOAL follows the target through a fast spring. A target that moves less than a
       // jump (the announcer hiding moves the band's top 33px; a re-measured row) would otherwise move
       // the pose by e * delta in ONE frame — near the end of a flight, almost all of it.
@@ -18937,6 +19024,9 @@ class Component extends DCLogic {
       if (u >= 1 && (fl.t > 1.8 || (!fl.v0.x && !fl.v0.y && !fl.v0.l))) {
         // hand the residual (goal still settling, carried velocity) to the tracking spring, moving
         m.flight = null;
+        // The finite last-frame chord is not the endpoint velocity of a quintic.
+        // Preserve a moving goal's velocity; a static endpoint hands over at rest.
+        if (fl.quintic && !fl.v0.x && !fl.v0.y && !fl.v0.l) m.v = { x: G.vx, y: G.vy, l: G.vl };
       }
     } else {
       const w = ctx.trackW || NG_CAM_TRACK_W;
@@ -19258,7 +19348,7 @@ class Component extends DCLogic {
         // 80 → 84 → 71 → 62 → 66 … (one step toward the fingers, one back toward the staged
         // framing, per frame) and flew from 24 back to 118 the moment the fingers lifted. The
         // owner: "while zooming in, the landcard flickers" — the board jittering under the card.
-        this.releaseCamera(); this._stagedCamFree = false;
+        this._cancelCamOpen(); this.releaseCamera(); this._stagedCamFree = false;
         this.lastInteract = this.now; return;
       }
       if (!dragging || !this.cam) { this._updateHover(e); return; }
@@ -19266,6 +19356,7 @@ class Component extends DCLogic {
       const scale = this.W / this.cam.vw;
       this.cam.cx -= (e.clientX - lx) / scale; this.cam.cy -= (e.clientY - ly) / scale;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy;
+      if (e.clientX !== lx || e.clientY !== ly) this._cancelCamOpen();
       if (moved > 6) { this.releaseCamera(); this._stagedCamFree = false; } // a real pan ends the lease AND the staged framing
       lx = e.clientX; ly = e.clientY; this.lastInteract = this.now;
     });
@@ -19335,7 +19426,7 @@ class Component extends DCLogic {
       const sa = this.W / vw;
       this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
-      this.releaseCamera(); this._stagedCamFree = false; // wheel-zoom is the desktop equivalent of a pinch
+      this._cancelCamOpen(); this.releaseCamera(); this._stagedCamFree = false; // wheel-zoom is the desktop equivalent of a pinch
       if (this._replay) this.stopReplay("input");   // ...and so it ends a film, for the same reason
       this.lastInteract = this.now;
     }, { passive: false });
@@ -19404,6 +19495,9 @@ class Component extends DCLogic {
     const ctx = this.ctx; if (!ctx || !this.nodes) return;
     this._warmMapPaint();
     const W = this.W, H = this.H, dpr = this.dpr;
+    // V2 identifies the chosen seat without focusing/dealing it before enterLand.
+    const drawFocus = this._camOpen?.variant === "v2" && !this._camOpen.cancelled
+      && this._camOpen.pick != null ? this.currentPos : this.focusIdx;
     const scale = W / this.cam.vw;
     // ── THE LIFT IS RE-APPLIED PER FRAME, AND IT COLLAPSES WITH ZOOM (v1.113.1) ────────────────
     // `nodeK` rescales every orb by up to 2.5x across the zoom range, so a lift baked into the
@@ -19577,8 +19671,8 @@ class Component extends DCLogic {
     if (this.adj && this.alpha > 0.05) {
       const NN = this.nodes.length;
       const lit = [];
-      if (this.focusIdx >= 0) lit.push(this.focusIdx);
-      if (this._dossierIdx != null && this._dossierIdx !== this.focusIdx) lit.push(this._dossierIdx);
+      if (drawFocus >= 0) lit.push(drawFocus);
+      if (this._dossierIdx != null && this._dossierIdx !== drawFocus) lit.push(this._dossierIdx);
       for (const li of lit) {
         const cn = this.nodes[li]; if (!cn || !this.adj[li]) continue;
         const mw = (this._maxW && this._maxW[li]) || 0;
@@ -19770,8 +19864,8 @@ class Component extends DCLogic {
     // floor, lit all roll long, which is the "blooming, beaming" the owner named. The steady
     // state is now a MARK — the node's own silhouette in your perspective colour, with a rim —
     // and the light is spent where it means something: the moment the move lands.
-    if (this.focusIdx >= 0 && !this.pulse) {
-      const n = this.nodes[this.focusIdx];
+    if (drawFocus >= 0 && !this.pulse) {
+      const n = this.nodes[drawFocus];
       const pc = this._mapFocusColor(n);
       // landing settle: damped overshoot when the roll arrives
       let settle = 1;
@@ -19828,12 +19922,12 @@ class Component extends DCLogic {
     // arrival bloom, which means the bloom no longer decays to zero at 1.9s — it decays INTO
     // this, so there is no cliff and no stale state. And it DRAINS into the pulse on departure
     // exactly as the halo did, which is what covers the marker's own cut at `!this.pulse`.
-    if (this.focusIdx >= 0 && this.nodes[this.focusIdx]) {
-      const cur = this.nodes[this.focusIdx];
+    if (drawFocus >= 0 && this.nodes[drawFocus]) {
+      const cur = this.nodes[drawFocus];
       const pu = this.pulse;
       let dep = 1;
       if (pu && !pu.done) {
-        dep = pu.path && pu.path[0] === this.focusIdx
+        dep = pu.path && pu.path[0] === drawFocus
           ? Math.max(0, 1 - (pu.seg + (pu.t || 0)) * 1.4)   // leg 1: stream it into the light
           : 0;                                              // later legs: the light has left
       }
@@ -19901,7 +19995,7 @@ class Component extends DCLogic {
       ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
       for (const n of this.nodes) {
         if (!rsOk[n.idx]) continue;
-        const age = this.now - n.lit; if (age > 3.2 || n.idx === this.focusIdx) continue;
+        const age = this.now - n.lit; if (age > 3.2 || n.idx === drawFocus) continue;
         if (this.activeMove && n.idx === this.activeMove.idx) continue;
         if (this.optionIdxs.indexOf(n.idx) >= 0) continue; // outgoing nodes get persistent labels below
         const k = Math.max(0, 1 - age / 3.2);
@@ -19958,8 +20052,8 @@ class Component extends DCLogic {
         const am = this.activeMove;
         // a staged technique already wears the big pair label (name · qualifier · role) — the
         // small travel label over it was the owner's "just 'armbar', tiny" report
-        const fn = this.focusIdx >= 0 ? this.nodes[this.focusIdx] : null;
-        const dup = fn && (am.idx === this.focusIdx || (fn.pairId && this.nodes[am.idx] && this.nodes[am.idx].pairId === fn.pairId));
+        const fn = drawFocus >= 0 ? this.nodes[drawFocus] : null;
+        const dup = fn && (am.idx === drawFocus || (fn.pairId && this.nodes[am.idx] && this.nodes[am.idx].pairId === fn.pairId));
         if (!dup) richLabel(am.idx, am.verb, am.col, false);
       }
       // persistent labels on the outgoing option nodes while a decision is open
@@ -19972,7 +20066,7 @@ class Component extends DCLogic {
           // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
           // names it, and an option label on the same orb is the "printed twice" defect the
           // in-node pass was deleted for. Never possible before: an option was never the focus.
-          if (idx === this.focusIdx || (this.focusIdx >= 0 && n.pairId && this.nodes[this.focusIdx].pairId === n.pairId)) continue;
+          if (idx === drawFocus || (drawFocus >= 0 && n.pairId && this.nodes[drawFocus].pairId === n.pairId)) continue;
           const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
           if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
           ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
@@ -20040,7 +20134,7 @@ class Component extends DCLogic {
         // "Kimura"), this one says which side of the exchange you are pointing at. They sit on
         // opposite sides of the name for exactly that reason and must never be conflated.
         const sub = this.seatWord(n.ty, above);
-        const subCol = act.idx === this.focusIdx
+        const subCol = act.idx === drawFocus
           ? this.myColor(act)
           : (act.z < 0 && act.colU ? act.colU : act.col);
         const dfam = this._displayFam || "'Space Grotesk'";
@@ -20123,8 +20217,8 @@ class Component extends DCLogic {
       const _hovNode = heldStar ? this.nodes[Number(heldStar.getAttribute("data-seat-star"))]
         : (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
           ? this.nodes[this._hover.idx] : null;
-      if (this.focusIdx >= 0 && !this.pulse) {
-        const n = this.nodes[this.focusIdx];
+      if (drawFocus >= 0 && !this.pulse) {
+        const n = this.nodes[drawFocus];
         const partner = n.pi >= 0 ? this.nodes[n.pi] : null;
         const act = (partner && _hovNode && (_hovNode === n || _hovNode === partner)) ? _hovNode : n;
         // a pair too merged to carry the group still needs naming — fall through to the single
@@ -20145,22 +20239,22 @@ class Component extends DCLogic {
           const kick = rl
             ? String(rl).toUpperCase()
             : (n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION");
-          richLabel(this.focusIdx, kick, this.myColor(n), true);
+          richLabel(drawFocus, kick, this.myColor(n), true);
         }
       }
       // ...and the SAME group for whatever pair the cursor is over, when it is not the focus's.
       let _hovPairDrawn = false;
       if (_hovNode && _hovNode.pi >= 0) {
-        const inFocusPair = this.focusIdx >= 0 &&
-          (_hovNode.idx === this.focusIdx || _hovNode.idx === this.nodes[this.focusIdx].pi);
+        const inFocusPair = drawFocus >= 0 &&
+          (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
         if (!inFocusPair) _hovPairDrawn = pairGroup(_hovNode, _hovNode, false);
       }
       // hover: nearest node label (brighter + "your move" tag if it's an outgoing option)
       // ...but NOT for a member of the focused pair: the label group above already names it, and
       // its whole point is that the name does not move — a second copy hanging off the hovered
       // orb would be the "printed twice" problem the in-node pass had (v1.114.0), on hover.
-      const _hovIsPairHalf = _hovNode && this.focusIdx >= 0 &&
-        (_hovNode.idx === this.focusIdx || _hovNode.idx === this.nodes[this.focusIdx].pi);
+      const _hovIsPairHalf = _hovNode && drawFocus >= 0 &&
+        (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
       if (_hovNode && !_hovIsPairHalf && !_hovPairDrawn) {
         const n = _hovNode;
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
