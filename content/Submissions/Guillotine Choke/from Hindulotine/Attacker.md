@@ -222,7 +222,7 @@ description: "Guillotine Choke from Hindulotine (attacker): Establish a chin-str
 
 <section id="overview" class="content-section">
 
-The attacker is in front of a lowered head, with the choking arm around the neck and a stable standing or guard connection. Hindu Control includes a raised leg in the enclosure. An ordinary guillotine requires deliberate re-gripping and leg clearance; a shared word in the names does not make the grips interchangeable.
+The attacker starts underneath in Hindu Control, facing the opponent's lowered head and retaining a stable guard connection. Hindu Control includes a raised leg in the enclosure. An ordinary guillotine requires deliberate re-gripping and leg clearance; a shared word in the names does not make the grips interchangeable.
 
 Establish a chin-strap or equivalent front head control without twisting the jaw. Bring the forearm into the neck space while keeping the head aligned. Secure the selected grip without pulling the head backward.
 
@@ -295,7 +295,7 @@ If the opponent clears your legs to the weak side, stop trying to finish the gui
 
 <p class="section-subtitle">What do you need before attempting Guillotine Choke from Hindulotine?</p>
 
-- The attacker is in front of a lowered head, with the choking arm around the neck and a stable standing or guard connection.
+- The attacker starts underneath in Hindu Control, clears the raised leg and retains a choking arm around the lowered head with a stable guard connection.
 - Establish a chin-strap or equivalent front head control without twisting the jaw.
 - Bring the forearm into the neck space while keeping the head aligned.
 - Hindu Control includes a raised leg in the enclosure. An ordinary guillotine requires deliberate re-gripping and leg clearance; a shared word in the names does not make the grips interchangeable.

@@ -275,9 +275,9 @@ _3 of these outcomes do not exist in no-gi and carry no probability here. The ou
 
 - The attacker faces the opponent with access to both jacket collars and enough posture control to establish the grips.
 
-- Take a secure collar grip beside the neck rather than a shallow handful of cloth.
+- The attacker takes a secure collar grip beside your neck rather than a shallow handful of cloth.
 
-- Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully.
+- The attacker places the forearms beside your neck without dragging across the jaw or bending the wrists painfully.
 
 
 ### Escape Paths

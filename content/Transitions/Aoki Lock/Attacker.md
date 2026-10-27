@@ -209,7 +209,7 @@ description: "Aoki Lock (attacker): Identify the turned-out foot without forcing
 
 <section id="overview" class="content-section">
 
-The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.
+The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.
 
 Identify the turned-out foot without forcing it to rotate against resistance. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. Secure the upper-body enclosure while leaving the foot unloaded during practice.
 
@@ -277,7 +277,7 @@ Once the rotated foot and hip are connected, even a small bridging motion can lo
 
 <p class="section-subtitle">What do you need before attempting Aoki Lock?</p>
 
-- The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.
+- The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection.
 - Identify the turned-out foot without forcing it to rotate against resistance.
 - Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
 - The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.

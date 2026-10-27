@@ -241,8 +241,8 @@ Protect the neck by addressing the first deep grip and keeping an inside frame b
 <p class="section-subtitle">How do you know when someone is attempting Cross Collar Choke from Invisible Collar?</p>
 
 - The attacker faces the opponent with access to both jacket collars and enough posture control to establish the grips.
-- Take a secure collar grip beside the neck rather than a shallow handful of cloth.
-- Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully.
+- The attacker takes a secure collar grip beside your neck rather than a shallow handful of cloth.
+- The attacker places the forearms beside your neck without dragging across the jaw or bending the wrists painfully.
 
 
 </section>

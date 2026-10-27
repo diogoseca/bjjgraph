@@ -4,7 +4,7 @@
 
 ---
 title: "Suloev Stretch from Half Guard Attacker | BJJ Submission Guide | BJJ Graph"
-description: "Suloev Stretch from Half Guard (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance."
+description: "Suloev Stretch from Rear Tripod (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance."
 ---
 
 
@@ -70,7 +70,7 @@ description: "Suloev Stretch from Half Guard (attacker): Control the torso from 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Suloev Stretch after Half Guard: what must you control before reaching below the opponent's hips?",
+      "name": "Suloev Stretch from Rear Tripod: what must you control before reaching below the opponent's hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their torso from behind. Control the torso from behind before reaching below the hips."
@@ -126,7 +126,7 @@ description: "Suloev Stretch from Half Guard (attacker): Control the torso from 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Suloev Stretch from Half Guard Attacker",
-  "description": "Suloev Stretch from Half Guard (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
+  "description": "Suloev Stretch from Rear Tripod (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
   "alternateName": ["Suloev Stretch from Rear Tripod"],
   "isPartOf": {
     "@type": "WebSite",

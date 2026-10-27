@@ -239,7 +239,7 @@ The early escape keeps the wrist near the torso and denies the elbow wrap while 
 
 - The initial Aoki Lock Control configuration must be identified before considering Kimura Trap.
 - Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
-- Obtain a separate arm-control position before attempting a figure-four grip.
+- The attacker seeks a separate arm-control position before attempting a figure-four grip.
 
 
 </section>

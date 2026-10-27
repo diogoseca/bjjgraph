@@ -273,9 +273,9 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 - The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder.
 
-- Bring the elbow above the raised foot and the hand around the shoulder into the head-control space.
+- The attacker brings the elbow above their raised foot and the hand around your shoulder into the head-control space.
 
-- Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.
+- The attacker uses the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.
 
 
 ### Escape Paths

@@ -333204,7 +333204,7 @@
         },
         {
           "question": "Aoki Lock (attacker): Where is the attacker relative to the captured leg?",
-          "answer": "The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.",
+          "answer": "The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection.",
           "answer_line": "Seated or on a hip, facing the legs",
           "distractors": {
             "plausible": [
@@ -333438,7 +333438,7 @@
         },
         {
           "question": "Aoki Lock (attacker): Where is the attacker relative to the captured leg?",
-          "answer": "The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.",
+          "answer": "The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection.",
           "answer_line": "Seated or on a hip, facing the legs",
           "distractors": {
             "plausible": [
@@ -605326,9 +605326,9 @@
       "role": "hub",
       "flashcards": [
         {
-          "question": "Invisible Collar stand-up (bottom): What must open before you prepare to rise?",
-          "answer": "The bottom player must release the facing Invisible Collar enclosure before creating space and posts for standing.",
-          "answer_line": "Your high leg-and-arm clinch",
+          "question": "Invisible Collar stand-up (top): What must open before you prepare to rise?",
+          "answer": "The top player must clear the opponent's high leg-and-arm enclosure before recovering posture and establishing a standing base.",
+          "answer_line": "Opponent's high leg-and-arm clinch",
           "distractors": {
             "plausible": [
               "Only second leg; first holds neck",
@@ -605340,135 +605340,135 @@
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): Which loading must end before the leg comes down?",
-          "answer": "Unload captured neck and shoulder connections before lowering the high legs into the guard reset.",
-          "answer_line": "Neck and isolated-arm tension",
+          "question": "Invisible Collar stand-up (top): What should you do if the neck or isolated arm is loaded?",
+          "answer": "Stop the rise and tap so the partner releases the enclosure. Posture recovery must not force a captured neck or shoulder through the high guard.",
+          "answer_line": "Stop rising; tap for release",
           "distractors": {
             "plausible": [
-              "Only free-foot pressure on the mat",
-              "Only the opponent's mat post"
+              "Stand to pull your neck free",
+              "Twist the captured elbow outward"
             ],
             "trap": [
-              "Only leg cross; arm wrap still pulls"
+              "Lift them before opening the loop"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): How does the high knee return toward ordinary guard?",
-          "answer": "Create a free path with the hips rather than dragging the foot against the knee while the upper body remains entangled.",
-          "answer_line": "Lower leg through a free hip angle",
+          "question": "Invisible Collar stand-up (top): Where must space open before you free the head and arm?",
+          "answer": "Create slack at the opponent's hip and thigh while keeping your head aligned. Do not force the head upward or drag their foot against a fixed knee.",
+          "answer_line": "Space at their hip and thigh",
           "distractors": {
             "plausible": [
-              "Pull foot down with knee fixed high",
-              "Straighten leg into their shoulder"
+              "At your head by pulling it upward",
+              "At their knee by wrenching the foot"
             ],
             "trap": [
-              "Keep ankle grip; flatten hip first"
+              "At your neck by turning it alone"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): What should you keep between you while creating distance?",
-          "answer": "Guard retention comes first: keep forearm and knee between the bodies until the opponent's chest pressure no longer reaches you.",
-          "answer_line": "An inside forearm and knee barrier",
+          "question": "Invisible Collar stand-up (top): What should you keep between you while creating distance?",
+          "answer": "Recover inside forearm frames as the head-and-arm enclosure opens. Keep the freed elbow near the ribs while separating from the high guard.",
+          "answer_line": "Inside frames and a compact elbow",
           "distractors": {
             "plausible": [
-              "Hands on floor, torso gap left open",
-              "Legs outside, hands reach for head"
+              "Both arms extended outside the legs",
+              "A wide elbow behind their shoulder"
             ],
             "trap": [
-              "Forearm inside, near knee outside"
+              "Hands on mat with head still caught"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): Which orientation helps you preserve that distance?",
-          "answer": "Keep shoulders and hips oriented toward the opponent while the framed hip escape creates room.",
+          "question": "Invisible Collar stand-up (top): Which orientation helps you preserve that distance?",
+          "answer": "Keep your shoulders and hips facing the opponent while building a balanced standing base after the high clinch opens.",
           "answer_line": "Face them while your hips move",
           "distractors": {
             "plausible": [
-              "Turn back before the knee returns",
-              "Chest down beneath their pressure"
+              "Turn away with the arm still trapped",
+              "Twist head before shoulders can turn"
             ],
             "trap": [
-              "Shoulders face them, knees trail"
+              "Face away while the high loop holds"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): When can supporting posts be established?",
-          "answer": "Create distance after releasing the clinch, then establish stable hand and foot posts for standing.",
-          "answer_line": "Once frames free your chest space",
+          "question": "Invisible Collar stand-up (top): When can supporting posts be established?",
+          "answer": "After the head and arm are clear, bring your feet underneath a balanced base before rising. Do not stand by lifting the partner through the high clinch.",
+          "answer_line": "After the head and arm are clear",
           "distractors": {
             "plausible": [
-              "While their chest still pins yours",
-              "While both high legs hold their head"
+              "While the high loop holds your neck",
+              "Before freeing the isolated arm"
             ],
             "trap": [
-              "Once ankles open, before knee space"
+              "As you lift them through the clinch"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): Why retain an inside knee before making your supporting posts?",
-          "answer": "An inside knee and forearm preserve distance after the high clinch opens. Establish posts only when the opponent cannot pin your torso with chest pressure.",
-          "answer_line": "Keep chest away to make rising space",
+          "question": "Invisible Collar stand-up (top): Why recover your freed elbow before rising?",
+          "answer": "A compact inside elbow makes it harder for the guard player to isolate the arm again while you establish foot posts. Clear the head-and-arm enclosure before standing.",
+          "answer_line": "Deny renewed arm isolation",
           "distractors": {
             "plausible": [
-              "Keep high loop closed while standing",
-              "Replace the supporting hand post"
+              "Keep their high loop closed",
+              "Replace your standing foot posts"
             ],
             "trap": [
-              "Raise hips before separating chests"
+              "Rise with your neck still captured"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): What does a stand-up need beyond opening the high legs?",
-          "answer": "Releasing the high guard is only the first phase. Rising needs enough distance and a supported base.",
-          "answer_line": "Space with firm hand and foot posts",
+          "question": "Invisible Collar stand-up (top): What does a stand-up need beyond opening the high legs?",
+          "answer": "Opening the high legs alone is not enough. Free the head and arm, recover posture and establish balanced foot posts before rising.",
+          "answer_line": "Clear head and arm; balanced posts",
           "distractors": {
             "plausible": [
-              "Only free hand, chest pressure stays",
-              "Only the opponent's head rising"
+              "Only free hands, neck still caught",
+              "Only the second high leg opening"
             ],
             "trap": [
-              "Hand post with both feet caught"
+              "Foot posts with the head restrained"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): The neck loop remains loaded as you sit up; what now?",
-          "answer": "Stop the rise and open the leg-and-arm enclosure rather than lifting or rotating a neck still caught inside it.",
-          "answer_line": "Release loop fully before rising",
+          "question": "Invisible Collar stand-up (top): The neck loop remains loaded as you start to rise; what now?",
+          "answer": "Stop rising and tap for a complete release. Do not lift or rotate your neck against the high leg-and-arm enclosure.",
+          "answer_line": "Stop rising; tap for full release",
           "distractors": {
             "plausible": [
-              "Sit up until the loop pulls apart",
-              "Keep loop, move both feet under you"
+              "Stand until the loop pulls apart",
+              "Keep rising with your arm trapped"
             ],
             "trap": [
-              "Post hand behind, leg curl tight"
+              "Turn your head against the high leg"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): What confirms readiness for the separate standing phase?",
-          "answer": "After guard recovery creates distance, confirm a stable hand-and-foot base before initiating the separately taught stand-up.",
-          "answer_line": "Space, firm hand and foot posts",
+          "question": "Invisible Collar stand-up (top): What confirms readiness for the separate standing phase?",
+          "answer": "The high enclosure has opened, the head and arm are free, and balanced foot posts support your weight. Rise while facing the opponent's open guard.",
+          "answer_line": "Head and arm clear; feet support you",
           "distractors": {
             "plausible": [
-              "High leg open, chest still pins you",
-              "Hands free, both feet still caught"
+              "Second leg open, head still trapped",
+              "Hands free, isolated elbow caught"
             ],
             "trap": [
-              "Hands off mat, chest pressure stays"
+              "Feet set, neck still under pressure"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (top): What can still enclose your head as they sit up?",
-          "answer": "A bottom player changing posture does not prove their Invisible Collar has opened; check the remaining head and shoulder connection.",
-          "answer_line": "High leg-and-arm loop round the head",
+          "question": "Invisible Collar stand-up (bottom): What can still hold their head as they start to rise?",
+          "answer": "Your high leg-and-arm clinch may remain closed as the top player changes posture. Recognize the remaining neck connection and release if it loads the neck or you are lifted.",
+          "answer_line": "Your high leg-and-arm clinch",
           "distractors": {
             "plausible": [
               "Low knee frame after high legs drop",
@@ -605480,58 +605480,58 @@
           }
         },
         {
-          "question": "Invisible Collar stand-up (top): How should you remain aligned during their reset?",
-          "answer": "Avoid turning the head or torso away while the arm remains caught; wait for usable slack in the upper-body enclosure.",
-          "answer_line": "Head-shoulder aligned; elbow compact",
+          "question": "Invisible Collar stand-up (bottom): What supports your high leg while they free their arm?",
+          "answer": "Keep the high knee close and supported through your hip position. Do not hold the foot in place while the knee is forced away, or twist the opponent's trapped shoulder.",
+          "answer_line": "Supported knee with a free hip angle",
           "distractors": {
             "plausible": [
-              "Head turns away, elbow held outside",
-              "Shoulder turns back, wrist pinned"
+              "Foot held while high knee drifts out",
+              "Ankle pulled against a fixed knee"
             ],
             "trap": [
-              "Head aligned, caught elbow extends"
+              "High leg straightened under a stack"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (top): If the high loop is applying choke pressure, what first?",
-          "answer": "A loaded neck enclosure needs immediate release, even if the bottom player has started a posture change toward standing.",
-          "answer_line": "Tap; get the high loop released",
+          "question": "Invisible Collar stand-up (bottom): Their neck is loaded as they try to rise; what must you do?",
+          "answer": "Release the whole high leg-and-arm enclosure on any stop signal. Do not retain the clinch through a forced rise, a stack or a lift.",
+          "answer_line": "Release the whole high enclosure",
           "distractors": {
             "plausible": [
-              "Wait until they stand before tapping",
-              "Lift chest to drag your neck free"
+              "Wait until they stand to release",
+              "Hold their head as they rise"
             ],
             "trap": [
-              "Tap while lifting head through loop"
+              "Open one hand but keep legs clamped"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (top): What should create room before you lift your head?",
-          "answer": "Use early balanced positioning to open the high connection before head extraction; do not force an already loaded neck.",
-          "answer_line": "Slack at high leg's hip and thigh",
+          "question": "Invisible Collar stand-up (bottom): If only the second leg opens, what control may remain?",
+          "answer": "The neck-cleared first leg and knee hug can retain Chill Dog. Check that the remaining connection is comfortable; do not force a closed high clinch as the opponent regains posture.",
+          "answer_line": "First high leg with the knee hug",
           "distractors": {
             "plausible": [
-              "Only widen your stance on the floor",
-              "Only their hand posts on the mat"
+              "Rear hooks behind their hips",
+              "Both high legs already closed"
             ],
             "trap": [
-              "Only free leg down; high thigh tight"
+              "A knee hug after both legs disengage"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (top): Where should the freed arm return as they disengage?",
-          "answer": "Recover a compact inside elbow after the high closure opens so the arm is not left outside for renewed isolation.",
-          "answer_line": "Inside by ribs, available to frame",
+          "question": "Invisible Collar stand-up (bottom): Where should frames return if the high clinch is lost?",
+          "answer": "Bring the forearms and knees inside to keep a facing guard as the opponent creates standing distance. Recover guard structure rather than chasing a lost neck connection.",
+          "answer_line": "Forearms and knees between bodies",
           "distractors": {
             "plausible": [
-              "Wide on the mat beyond their hips",
-              "Across far shoulder, elbow flared"
+              "Both hands behind their shoulders",
+              "Knees outside as you chase the head"
             ],
             "trap": [
-              "Hand in, elbow outside their thigh"
+              "Arms extended with the torso open"
             ]
           }
         }
@@ -605560,9 +605560,9 @@
       },
       "flashcards": [
         {
-          "question": "Invisible Collar stand-up (bottom): What must open before you prepare to rise?",
-          "answer": "The bottom player must release the facing Invisible Collar enclosure before creating space and posts for standing.",
-          "answer_line": "Your high leg-and-arm clinch",
+          "question": "Invisible Collar stand-up (top): What must open before you prepare to rise?",
+          "answer": "The top player must clear the opponent's high leg-and-arm enclosure before recovering posture and establishing a standing base.",
+          "answer_line": "Opponent's high leg-and-arm clinch",
           "distractors": {
             "plausible": [
               "Only second leg; first holds neck",
@@ -605574,150 +605574,150 @@
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): Which loading must end before the leg comes down?",
-          "answer": "Unload captured neck and shoulder connections before lowering the high legs into the guard reset.",
-          "answer_line": "Neck and isolated-arm tension",
+          "question": "Invisible Collar stand-up (top): What should you do if the neck or isolated arm is loaded?",
+          "answer": "Stop the rise and tap so the partner releases the enclosure. Posture recovery must not force a captured neck or shoulder through the high guard.",
+          "answer_line": "Stop rising; tap for release",
           "distractors": {
             "plausible": [
-              "Only free-foot pressure on the mat",
-              "Only the opponent's mat post"
+              "Stand to pull your neck free",
+              "Twist the captured elbow outward"
             ],
             "trap": [
-              "Only leg cross; arm wrap still pulls"
+              "Lift them before opening the loop"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): How does the high knee return toward ordinary guard?",
-          "answer": "Create a free path with the hips rather than dragging the foot against the knee while the upper body remains entangled.",
-          "answer_line": "Lower leg through a free hip angle",
+          "question": "Invisible Collar stand-up (top): Where must space open before you free the head and arm?",
+          "answer": "Create slack at the opponent's hip and thigh while keeping your head aligned. Do not force the head upward or drag their foot against a fixed knee.",
+          "answer_line": "Space at their hip and thigh",
           "distractors": {
             "plausible": [
-              "Pull foot down with knee fixed high",
-              "Straighten leg into their shoulder"
+              "At your head by pulling it upward",
+              "At their knee by wrenching the foot"
             ],
             "trap": [
-              "Keep ankle grip; flatten hip first"
+              "At your neck by turning it alone"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): What should you keep between you while creating distance?",
-          "answer": "Guard retention comes first: keep forearm and knee between the bodies until the opponent's chest pressure no longer reaches you.",
-          "answer_line": "An inside forearm and knee barrier",
+          "question": "Invisible Collar stand-up (top): What should you keep between you while creating distance?",
+          "answer": "Recover inside forearm frames as the head-and-arm enclosure opens. Keep the freed elbow near the ribs while separating from the high guard.",
+          "answer_line": "Inside frames and a compact elbow",
           "distractors": {
             "plausible": [
-              "Hands on floor, torso gap left open",
-              "Legs outside, hands reach for head"
+              "Both arms extended outside the legs",
+              "A wide elbow behind their shoulder"
             ],
             "trap": [
-              "Forearm inside, near knee outside"
+              "Hands on mat with head still caught"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): Which orientation helps you preserve that distance?",
-          "answer": "Keep shoulders and hips oriented toward the opponent while the framed hip escape creates room.",
+          "question": "Invisible Collar stand-up (top): Which orientation helps you preserve that distance?",
+          "answer": "Keep your shoulders and hips facing the opponent while building a balanced standing base after the high clinch opens.",
           "answer_line": "Face them while your hips move",
           "distractors": {
             "plausible": [
-              "Turn back before the knee returns",
-              "Chest down beneath their pressure"
+              "Turn away with the arm still trapped",
+              "Twist head before shoulders can turn"
             ],
             "trap": [
-              "Shoulders face them, knees trail"
+              "Face away while the high loop holds"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): When can supporting posts be established?",
-          "answer": "Create distance after releasing the clinch, then establish stable hand and foot posts for standing.",
-          "answer_line": "Once frames free your chest space",
+          "question": "Invisible Collar stand-up (top): When can supporting posts be established?",
+          "answer": "After the head and arm are clear, bring your feet underneath a balanced base before rising. Do not stand by lifting the partner through the high clinch.",
+          "answer_line": "After the head and arm are clear",
           "distractors": {
             "plausible": [
-              "While their chest still pins yours",
-              "While both high legs hold their head"
+              "While the high loop holds your neck",
+              "Before freeing the isolated arm"
             ],
             "trap": [
-              "Once ankles open, before knee space"
+              "As you lift them through the clinch"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): Why retain an inside knee before making your supporting posts?",
-          "answer": "An inside knee and forearm preserve distance after the high clinch opens. Establish posts only when the opponent cannot pin your torso with chest pressure.",
-          "answer_line": "Keep chest away to make rising space",
+          "question": "Invisible Collar stand-up (top): Why recover your freed elbow before rising?",
+          "answer": "A compact inside elbow makes it harder for the guard player to isolate the arm again while you establish foot posts. Clear the head-and-arm enclosure before standing.",
+          "answer_line": "Deny renewed arm isolation",
           "distractors": {
             "plausible": [
-              "Keep high loop closed while standing",
-              "Replace the supporting hand post"
+              "Keep their high loop closed",
+              "Replace your standing foot posts"
             ],
             "trap": [
-              "Raise hips before separating chests"
+              "Rise with your neck still captured"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): What does a stand-up need beyond opening the high legs?",
-          "answer": "Releasing the high guard is only the first phase. Rising needs enough distance and a supported base.",
-          "answer_line": "Space with firm hand and foot posts",
+          "question": "Invisible Collar stand-up (top): What does a stand-up need beyond opening the high legs?",
+          "answer": "Opening the high legs alone is not enough. Free the head and arm, recover posture and establish balanced foot posts before rising.",
+          "answer_line": "Clear head and arm; balanced posts",
           "distractors": {
             "plausible": [
-              "Only free hand, chest pressure stays",
-              "Only the opponent's head rising"
+              "Only free hands, neck still caught",
+              "Only the second high leg opening"
             ],
             "trap": [
-              "Hand post with both feet caught"
+              "Foot posts with the head restrained"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): The neck loop remains loaded as you sit up; what now?",
-          "answer": "Stop the rise and open the leg-and-arm enclosure rather than lifting or rotating a neck still caught inside it.",
-          "answer_line": "Release loop fully before rising",
+          "question": "Invisible Collar stand-up (top): The neck loop remains loaded as you start to rise; what now?",
+          "answer": "Stop rising and tap for a complete release. Do not lift or rotate your neck against the high leg-and-arm enclosure.",
+          "answer_line": "Stop rising; tap for full release",
           "distractors": {
             "plausible": [
-              "Sit up until the loop pulls apart",
-              "Keep loop, move both feet under you"
+              "Stand until the loop pulls apart",
+              "Keep rising with your arm trapped"
             ],
             "trap": [
-              "Post hand behind, leg curl tight"
+              "Turn your head against the high leg"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (bottom): What confirms readiness for the separate standing phase?",
-          "answer": "After guard recovery creates distance, confirm a stable hand-and-foot base before initiating the separately taught stand-up.",
-          "answer_line": "Space, firm hand and foot posts",
+          "question": "Invisible Collar stand-up (top): What confirms readiness for the separate standing phase?",
+          "answer": "The high enclosure has opened, the head and arm are free, and balanced foot posts support your weight. Rise while facing the opponent's open guard.",
+          "answer_line": "Head and arm clear; feet support you",
           "distractors": {
             "plausible": [
-              "High leg open, chest still pins you",
-              "Hands free, both feet still caught"
+              "Second leg open, head still trapped",
+              "Hands free, isolated elbow caught"
             ],
             "trap": [
-              "Hands off mat, chest pressure stays"
+              "Feet set, neck still under pressure"
             ]
           }
         }
       ],
       "commonCounters": [
         {
-          "technique": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.",
+          "technique": "Use the remaining high leg and knee hug to control the opponent's posture when the second leg opens.",
           "effectiveness": 70,
           "resultPosition": "invisible-collar"
         },
         {
-          "technique": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.",
+          "technique": "Keep your high knee supported and the isolated arm contained without twisting the opponent's neck or shoulder.",
           "effectiveness": 50,
           "resultPosition": "invisible-collar"
         },
         {
-          "technique": "Avoid driving all weight onto the partner's shoulders while the legs are locked high.",
+          "technique": "Keep the first high leg supported as the second leg opens, and release if the movement loads your knee or their neck.",
           "effectiveness": 50,
           "resultPosition": "invisible-collar"
         },
         {
-          "technique": "Create space at the hip and thigh before trying to raise the head or extract the arm.",
+          "technique": "If the second leg is opened, retain the neck-cleared knee hug only while it remains comfortable.",
           "effectiveness": 70,
           "resultPosition": "invisible-collar"
         }
@@ -605772,9 +605772,9 @@
       },
       "flashcards": [
         {
-          "question": "Invisible Collar stand-up (top): What can still enclose your head as they sit up?",
-          "answer": "A bottom player changing posture does not prove their Invisible Collar has opened; check the remaining head and shoulder connection.",
-          "answer_line": "High leg-and-arm loop round the head",
+          "question": "Invisible Collar stand-up (bottom): What can still hold their head as they start to rise?",
+          "answer": "Your high leg-and-arm clinch may remain closed as the top player changes posture. Recognize the remaining neck connection and release if it loads the neck or you are lifted.",
+          "answer_line": "Your high leg-and-arm clinch",
           "distractors": {
             "plausible": [
               "Low knee frame after high legs drop",
@@ -605786,58 +605786,58 @@
           }
         },
         {
-          "question": "Invisible Collar stand-up (top): How should you remain aligned during their reset?",
-          "answer": "Avoid turning the head or torso away while the arm remains caught; wait for usable slack in the upper-body enclosure.",
-          "answer_line": "Head-shoulder aligned; elbow compact",
+          "question": "Invisible Collar stand-up (bottom): What supports your high leg while they free their arm?",
+          "answer": "Keep the high knee close and supported through your hip position. Do not hold the foot in place while the knee is forced away, or twist the opponent's trapped shoulder.",
+          "answer_line": "Supported knee with a free hip angle",
           "distractors": {
             "plausible": [
-              "Head turns away, elbow held outside",
-              "Shoulder turns back, wrist pinned"
+              "Foot held while high knee drifts out",
+              "Ankle pulled against a fixed knee"
             ],
             "trap": [
-              "Head aligned, caught elbow extends"
+              "High leg straightened under a stack"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (top): If the high loop is applying choke pressure, what first?",
-          "answer": "A loaded neck enclosure needs immediate release, even if the bottom player has started a posture change toward standing.",
-          "answer_line": "Tap; get the high loop released",
+          "question": "Invisible Collar stand-up (bottom): Their neck is loaded as they try to rise; what must you do?",
+          "answer": "Release the whole high leg-and-arm enclosure on any stop signal. Do not retain the clinch through a forced rise, a stack or a lift.",
+          "answer_line": "Release the whole high enclosure",
           "distractors": {
             "plausible": [
-              "Wait until they stand before tapping",
-              "Lift chest to drag your neck free"
+              "Wait until they stand to release",
+              "Hold their head as they rise"
             ],
             "trap": [
-              "Tap while lifting head through loop"
+              "Open one hand but keep legs clamped"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (top): What should create room before you lift your head?",
-          "answer": "Use early balanced positioning to open the high connection before head extraction; do not force an already loaded neck.",
-          "answer_line": "Slack at high leg's hip and thigh",
+          "question": "Invisible Collar stand-up (bottom): If only the second leg opens, what control may remain?",
+          "answer": "The neck-cleared first leg and knee hug can retain Chill Dog. Check that the remaining connection is comfortable; do not force a closed high clinch as the opponent regains posture.",
+          "answer_line": "First high leg with the knee hug",
           "distractors": {
             "plausible": [
-              "Only widen your stance on the floor",
-              "Only their hand posts on the mat"
+              "Rear hooks behind their hips",
+              "Both high legs already closed"
             ],
             "trap": [
-              "Only free leg down; high thigh tight"
+              "A knee hug after both legs disengage"
             ]
           }
         },
         {
-          "question": "Invisible Collar stand-up (top): Where should the freed arm return as they disengage?",
-          "answer": "Recover a compact inside elbow after the high closure opens so the arm is not left outside for renewed isolation.",
-          "answer_line": "Inside by ribs, available to frame",
+          "question": "Invisible Collar stand-up (bottom): Where should frames return if the high clinch is lost?",
+          "answer": "Bring the forearms and knees inside to keep a facing guard as the opponent creates standing distance. Recover guard structure rather than chasing a lost neck connection.",
+          "answer_line": "Forearms and knees between bodies",
           "distractors": {
             "plausible": [
-              "Wide on the mat beyond their hips",
-              "Across far shoulder, elbow flared"
+              "Both hands behind their shoulders",
+              "Knees outside as you chase the head"
             ],
             "trap": [
-              "Hand in, elbow outside their thigh"
+              "Arms extended with the torso open"
             ]
           }
         }
@@ -665748,16 +665748,16 @@
       "role": "hub",
       "flashcards": [
         {
-          "question": "From buggy choke top, what signals the right moment to switch to the darce?",
-          "answer": "The primary trigger is the opponent rotating their torso toward your choking arm to relieve collar pressure. Their near shoulder rises and far shoulder drops, exposing the armpit-to-neck channel. Simultaneously, the far arm must be posted or elevated enough to allow arm threading under the far armpit. This rotation creates the mechanical angle that makes the darce viable while weakening the original buggy choke.",
-          "answer_line": "Opponent rotates toward choking arm",
+          "question": "From buggy choke bottom, what opening should you check before attempting the darce switch?",
+          "answer": "Check whether the top player's reaction exposes an armpit-to-neck path with the arm sufficiently separated for threading. You begin underneath side control with a Buggy arm-and-leg loop, not a collar grip above a turtle. A turn alone is insufficient: if the path stays closed, retain the Buggy loop and re-read the reaction.",
+          "answer_line": "Reaction opens armpit-to-neck path",
           "distractors": {
             "plausible": [
               "Opponent postures up fully",
               "Far arm drops to defend"
             ],
             "trap": [
-              "Wait for opponent to turtle tight"
+              "Assume a top ride already exists"
             ]
           }
         },
@@ -665818,7 +665818,7 @@
           }
         },
         {
-          "question": "How do you generate finishing pressure in the darce without relying on arm strength alone?",
+          "question": "From top darce control, how do you generate finishing pressure without arm strength alone?",
           "answer": "Walk your hips toward the opponent's head while sprawling your legs back to create a perpendicular angle between your body and theirs. This uses body weight and gravity to drive the figure-four compression downward through the grip structure. The elbows squeeze together to eliminate slack, but the actual finishing force comes from the sprawl pressure and hip angle, not from bicep squeezing. This makes the choke sustainable and mechanically efficient.",
           "answer_line": "Walk hips, sprawl legs, angle body",
           "distractors": {
@@ -665832,23 +665832,23 @@
           }
         },
         {
-          "question": "They sit to guard explosively as you release the buggy collar for the darce—what is your response?",
-          "answer": "Follow the sitting motion and use whatever neck contact you have to establish a front headlock or arm-in guillotine from the new angle. The opponent's explosive sit creates forward momentum you can redirect into a snapdown. If they achieve full closed guard before you can secure head control, consolidate top position inside their guard and reset. Do not chase the darce from inside closed guard.",
-          "answer_line": "Follow into headlock or guillotine",
+          "question": "They clear the Buggy loop and settle side control during your grip change; what is your response?",
+          "answer": "Protect yourself with inside frames from bottom side control. The opponent has cleared the head-and-arm loop and retained the top pin, so neither a front headlock nor a top-position reset has been established for you. Recover usable guard space before beginning a new attack.",
+          "answer_line": "Recover inside frames from bottom",
           "distractors": {
             "plausible": [
               "Force the darce thread anyway",
               "Release everything and reset neutral"
             ],
             "trap": [
-              "Chase darce grip inside closed guard"
+              "Assume you are now in top guard"
             ]
           }
         },
         {
-          "question": "What conditions must exist before you attempt the darce switch from buggy choke top?",
-          "answer": "Four conditions must be present: buggy choke top control with at least partial collar or neck access, opponent rotation toward the choking arm exposing the far side, far arm posted or elevated enough to allow threading under the armpit, and sufficient chest-to-back pressure maintained to prevent the opponent from escaping during the grip transition window. Missing any one of these conditions significantly reduces success probability.",
-          "answer_line": "Grip, rotation, posted arm, pressure",
+          "question": "What starting control and opening are needed for the darce switch from buggy choke bottom?",
+          "answer": "Start underneath side control with a same-side Buggy arm-and-leg loop around the opponent's head and arm. Their reaction must leave an accessible armpit-to-neck path while you retain useful contact. The switch requires a new arm enclosure; reaching the top Darce Control outcome additionally requires a real positional change.",
+          "answer_line": "Bottom Buggy loop; open armpit path",
           "distractors": {
             "plausible": [
               "Only need opponent to turtle up",
@@ -665860,13 +665860,13 @@
           }
         },
         {
-          "question": "Why must the collar release and darce thread be one continuous motion?",
-          "answer": "Any pause between releasing the collar and threading under the far armpit creates a defensive window where the opponent can re-turtle tightly, clamp the far elbow to their ribs, strip remaining grips, or sit to guard. The continuous motion ensures the opponent's reaction to losing collar pressure flows directly into the new threading path before they can process the grip change and implement specific darce defense.",
-          "answer_line": "One continuous motion, no gap",
+          "question": "Why coordinate release of the Buggy leg connection with the new darce arm entry?",
+          "answer": "Opening the leg connection before an arm path is available gives the top player room to free the head and restore side-control pressure. Check the opening first and preserve useful head-and-arm contact through the change. If the far armpit stays closed, retain the Buggy loop and reassess instead of abandoning it for an unavailable grip.",
+          "answer_line": "Keep contact through the grip change",
           "distractors": {
             "plausible": [
               "Pause to confirm grip is secure",
-              "Release collar well before threading"
+              "Release leg well before threading"
             ],
             "trap": [
               "Let opponent settle then attack"
@@ -665888,8 +665888,8 @@
           }
         },
         {
-          "question": "Under buggy choke, what is the earliest cue of a darce switch, and how do you respond?",
-          "answer": "The earliest cue is feeling the attacker's threading arm release the far-side collar grip and begin traveling across your upper back. Your immediate response should be to clamp your far elbow tight against your ribs to seal the armpit and prevent the threading path. This must happen within one second of sensing the collar release because the attacker's arm redirect is designed to be a continuous motion without pause.",
+          "question": "On top inside the Buggy loop, what signals a darce switch and how should you respond?",
+          "answer": "The bottom player begins releasing the arm connection to their raised leg and directs the arm toward your exposed armpit. Keep that elbow close to the ribs to deny the new path while preserving a balanced top base. React before the separate head-and-arm loop closes; a collar release across your back is not the starting cue here.",
           "answer_line": "Clamp far elbow to ribs instantly",
           "distractors": {
             "plausible": [
@@ -665902,13 +665902,13 @@
           }
         },
         {
-          "question": "Why does sitting to guard during the darce grip transition work, and what timing does it demand?",
-          "answer": "Sitting to guard works because the attacker's control is momentarily reduced between releasing the buggy choke collar and establishing the darce grip. During this 1-2 second window, the attacker has incomplete neck control and reduced ability to prevent hip movement. You must commit to the sit explosively the instant you feel the collar release. Hesitating even slightly allows the attacker to re-establish pressure with the darce threading, closing the escape window permanently.",
-          "answer_line": "Sit explosively during the gap",
+          "question": "How can the Buggy-to-darce grip change let you retain top side control?",
+          "answer": "If the bottom player opens the original loop before the new grip closes, use the available space to recover the head and arm. Stabilize side control only after the neck is clear. You begin on top, so this response preserves the pin rather than sitting to guard; a partial release is not proof that the choke has gone.",
+          "answer_line": "Clear loop; retain top side control",
           "distractors": {
             "plausible": [
               "Wait for figure-four before reacting",
-              "Sit slowly to conserve energy"
+              "Sit to guard with your neck caught"
             ],
             "trap": [
               "Hesitate to read the position"
@@ -665931,7 +665931,7 @@
         },
         {
           "question": "Why is pulling away from the darce counterproductive, and what should you do instead?",
-          "answer": "Pulling away opens the neck-armpit channel wider by stretching your neck away from your shoulder, allowing the attacker's forearm blade to seat deeper across the carotid. The correct response is to move toward the attacker by turning your torso into the choking arm and collapsing the distance between your neck and their arm. This reduces the perpendicular angle needed for effective compression and creates space for arm extraction or guard recovery.",
+          "answer": "Pulling away opens the neck-armpit channel wider by stretching your neck away from your shoulder, allowing the attacker's forearm blade to seat deeper across the carotid. The correct response is to move toward the attacker by turning your torso into the choking arm and collapsing the distance between your neck and their arm. This reduces the perpendicular angle needed for effective compression and creates space for arm recovery while preserving top position.",
           "answer_line": "Turn into the arm, close distance",
           "distractors": {
             "plausible": [
@@ -665945,8 +665945,8 @@
         },
         {
           "question": "How does defending the darce switch from buggy choke differ from defending a standard darce entry?",
-          "answer": "The key difference is the grip transition window. In a standard darce entry, the attacker threads directly from neutral control without releasing an existing grip. In the buggy choke switch, the attacker must release the collar grip before rethreading for the darce, creating a 1-2 second control gap. This window is the defender's primary advantage and does not exist in standard darce entries. However, the defender is also starting from a more compromised position with partially broken posture from the buggy choke.",
-          "answer_line": "Switch has a 1-2s transition gap",
+          "answer": "You start on top with your head and an arm already enclosed by the bottom player's Buggy loop. Their change to a darce requires opening the raised-leg connection and building a different arm grip. That change may create an early defensive opportunity, but the original restraint can remain partly closed. Watch the actual enclosure instead of assuming a fixed time gap or that top position makes the neck safe.",
+          "answer_line": "Leg loop opens for a new arm grip",
           "distractors": {
             "plausible": [
               "Both entries have identical timing",
@@ -665982,16 +665982,16 @@
       },
       "flashcards": [
         {
-          "question": "From buggy choke top, what signals the right moment to switch to the darce?",
-          "answer": "The primary trigger is the opponent rotating their torso toward your choking arm to relieve collar pressure. Their near shoulder rises and far shoulder drops, exposing the armpit-to-neck channel. Simultaneously, the far arm must be posted or elevated enough to allow arm threading under the far armpit. This rotation creates the mechanical angle that makes the darce viable while weakening the original buggy choke.",
-          "answer_line": "Opponent rotates toward choking arm",
+          "question": "From buggy choke bottom, what opening should you check before attempting the darce switch?",
+          "answer": "Check whether the top player's reaction exposes an armpit-to-neck path with the arm sufficiently separated for threading. You begin underneath side control with a Buggy arm-and-leg loop, not a collar grip above a turtle. A turn alone is insufficient: if the path stays closed, retain the Buggy loop and re-read the reaction.",
+          "answer_line": "Reaction opens armpit-to-neck path",
           "distractors": {
             "plausible": [
               "Opponent postures up fully",
               "Far arm drops to defend"
             ],
             "trap": [
-              "Wait for opponent to turtle tight"
+              "Assume a top ride already exists"
             ]
           }
         },
@@ -666052,7 +666052,7 @@
           }
         },
         {
-          "question": "How do you generate finishing pressure in the darce without relying on arm strength alone?",
+          "question": "From top darce control, how do you generate finishing pressure without arm strength alone?",
           "answer": "Walk your hips toward the opponent's head while sprawling your legs back to create a perpendicular angle between your body and theirs. This uses body weight and gravity to drive the figure-four compression downward through the grip structure. The elbows squeeze together to eliminate slack, but the actual finishing force comes from the sprawl pressure and hip angle, not from bicep squeezing. This makes the choke sustainable and mechanically efficient.",
           "answer_line": "Walk hips, sprawl legs, angle body",
           "distractors": {
@@ -666066,23 +666066,23 @@
           }
         },
         {
-          "question": "They sit to guard explosively as you release the buggy collar for the darce—what is your response?",
-          "answer": "Follow the sitting motion and use whatever neck contact you have to establish a front headlock or arm-in guillotine from the new angle. The opponent's explosive sit creates forward momentum you can redirect into a snapdown. If they achieve full closed guard before you can secure head control, consolidate top position inside their guard and reset. Do not chase the darce from inside closed guard.",
-          "answer_line": "Follow into headlock or guillotine",
+          "question": "They clear the Buggy loop and settle side control during your grip change; what is your response?",
+          "answer": "Protect yourself with inside frames from bottom side control. The opponent has cleared the head-and-arm loop and retained the top pin, so neither a front headlock nor a top-position reset has been established for you. Recover usable guard space before beginning a new attack.",
+          "answer_line": "Recover inside frames from bottom",
           "distractors": {
             "plausible": [
               "Force the darce thread anyway",
               "Release everything and reset neutral"
             ],
             "trap": [
-              "Chase darce grip inside closed guard"
+              "Assume you are now in top guard"
             ]
           }
         },
         {
-          "question": "What conditions must exist before you attempt the darce switch from buggy choke top?",
-          "answer": "Four conditions must be present: buggy choke top control with at least partial collar or neck access, opponent rotation toward the choking arm exposing the far side, far arm posted or elevated enough to allow threading under the armpit, and sufficient chest-to-back pressure maintained to prevent the opponent from escaping during the grip transition window. Missing any one of these conditions significantly reduces success probability.",
-          "answer_line": "Grip, rotation, posted arm, pressure",
+          "question": "What starting control and opening are needed for the darce switch from buggy choke bottom?",
+          "answer": "Start underneath side control with a same-side Buggy arm-and-leg loop around the opponent's head and arm. Their reaction must leave an accessible armpit-to-neck path while you retain useful contact. The switch requires a new arm enclosure; reaching the top Darce Control outcome additionally requires a real positional change.",
+          "answer_line": "Bottom Buggy loop; open armpit path",
           "distractors": {
             "plausible": [
               "Only need opponent to turtle up",
@@ -666094,13 +666094,13 @@
           }
         },
         {
-          "question": "Why must the collar release and darce thread be one continuous motion?",
-          "answer": "Any pause between releasing the collar and threading under the far armpit creates a defensive window where the opponent can re-turtle tightly, clamp the far elbow to their ribs, strip remaining grips, or sit to guard. The continuous motion ensures the opponent's reaction to losing collar pressure flows directly into the new threading path before they can process the grip change and implement specific darce defense.",
-          "answer_line": "One continuous motion, no gap",
+          "question": "Why coordinate release of the Buggy leg connection with the new darce arm entry?",
+          "answer": "Opening the leg connection before an arm path is available gives the top player room to free the head and restore side-control pressure. Check the opening first and preserve useful head-and-arm contact through the change. If the far armpit stays closed, retain the Buggy loop and reassess instead of abandoning it for an unavailable grip.",
+          "answer_line": "Keep contact through the grip change",
           "distractors": {
             "plausible": [
               "Pause to confirm grip is secure",
-              "Release collar well before threading"
+              "Release leg well before threading"
             ],
             "trap": [
               "Let opponent settle then attack"
@@ -666134,12 +666134,12 @@
           "resultPosition": "buggy-choke"
         },
         {
-          "technique": "Opponent sits to guard explosively during the grip transition window when control is momentarily loosened",
+          "technique": "Opponent clears the head-and-arm enclosure during the grip transition and settles their weight back into side control",
           "effectiveness": 50,
           "resultPosition": "buggy-choke"
         },
         {
-          "technique": "Opponent drives forward aggressively and re-turtles tightly, collapsing the space needed for the darce arm to thread",
+          "technique": "Opponent keeps the elbow tight and maintains top pressure, closing the space needed for the darce arm to thread",
           "effectiveness": 50,
           "resultPosition": "buggy-choke"
         }
@@ -666194,8 +666194,8 @@
       },
       "flashcards": [
         {
-          "question": "Under buggy choke, what is the earliest cue of a darce switch, and how do you respond?",
-          "answer": "The earliest cue is feeling the attacker's threading arm release the far-side collar grip and begin traveling across your upper back. Your immediate response should be to clamp your far elbow tight against your ribs to seal the armpit and prevent the threading path. This must happen within one second of sensing the collar release because the attacker's arm redirect is designed to be a continuous motion without pause.",
+          "question": "On top inside the Buggy loop, what signals a darce switch and how should you respond?",
+          "answer": "The bottom player begins releasing the arm connection to their raised leg and directs the arm toward your exposed armpit. Keep that elbow close to the ribs to deny the new path while preserving a balanced top base. React before the separate head-and-arm loop closes; a collar release across your back is not the starting cue here.",
           "answer_line": "Clamp far elbow to ribs instantly",
           "distractors": {
             "plausible": [
@@ -666208,13 +666208,13 @@
           }
         },
         {
-          "question": "Why does sitting to guard during the darce grip transition work, and what timing does it demand?",
-          "answer": "Sitting to guard works because the attacker's control is momentarily reduced between releasing the buggy choke collar and establishing the darce grip. During this 1-2 second window, the attacker has incomplete neck control and reduced ability to prevent hip movement. You must commit to the sit explosively the instant you feel the collar release. Hesitating even slightly allows the attacker to re-establish pressure with the darce threading, closing the escape window permanently.",
-          "answer_line": "Sit explosively during the gap",
+          "question": "How can the Buggy-to-darce grip change let you retain top side control?",
+          "answer": "If the bottom player opens the original loop before the new grip closes, use the available space to recover the head and arm. Stabilize side control only after the neck is clear. You begin on top, so this response preserves the pin rather than sitting to guard; a partial release is not proof that the choke has gone.",
+          "answer_line": "Clear loop; retain top side control",
           "distractors": {
             "plausible": [
               "Wait for figure-four before reacting",
-              "Sit slowly to conserve energy"
+              "Sit to guard with your neck caught"
             ],
             "trap": [
               "Hesitate to read the position"
@@ -666237,7 +666237,7 @@
         },
         {
           "question": "Why is pulling away from the darce counterproductive, and what should you do instead?",
-          "answer": "Pulling away opens the neck-armpit channel wider by stretching your neck away from your shoulder, allowing the attacker's forearm blade to seat deeper across the carotid. The correct response is to move toward the attacker by turning your torso into the choking arm and collapsing the distance between your neck and their arm. This reduces the perpendicular angle needed for effective compression and creates space for arm extraction or guard recovery.",
+          "answer": "Pulling away opens the neck-armpit channel wider by stretching your neck away from your shoulder, allowing the attacker's forearm blade to seat deeper across the carotid. The correct response is to move toward the attacker by turning your torso into the choking arm and collapsing the distance between your neck and their arm. This reduces the perpendicular angle needed for effective compression and creates space for arm recovery while preserving top position.",
           "answer_line": "Turn into the arm, close distance",
           "distractors": {
             "plausible": [
@@ -666251,8 +666251,8 @@
         },
         {
           "question": "How does defending the darce switch from buggy choke differ from defending a standard darce entry?",
-          "answer": "The key difference is the grip transition window. In a standard darce entry, the attacker threads directly from neutral control without releasing an existing grip. In the buggy choke switch, the attacker must release the collar grip before rethreading for the darce, creating a 1-2 second control gap. This window is the defender's primary advantage and does not exist in standard darce entries. However, the defender is also starting from a more compromised position with partially broken posture from the buggy choke.",
-          "answer_line": "Switch has a 1-2s transition gap",
+          "answer": "You start on top with your head and an arm already enclosed by the bottom player's Buggy loop. Their change to a darce requires opening the raised-leg connection and building a different arm grip. That change may create an early defensive opportunity, but the original restraint can remain partly closed. Watch the actual enclosure instead of assuming a fixed time gap or that top position makes the neck safe.",
+          "answer_line": "Leg loop opens for a new arm grip",
           "distractors": {
             "plausible": [
               "Both entries have identical timing",
@@ -691099,9 +691099,9 @@
       "role": "hub",
       "flashcards": [
         {
-          "question": "Progression to Zombie (bottom): What has to be lost before New York needs Zombie again?",
-          "answer": "Zombie normally creates New York. A renewed attempt requires the opponent to have recovered the hand or forearm inside.",
-          "answer_line": "Arm isolation; hand returns inside",
+          "question": "Progression to Zombie (bottom): What remains contested when you start from Mission Control?",
+          "answer": "The opponent's hand or forearm remains inside. Begin the hand-clearing pummel while retaining Mission Control; the arm has not yet been isolated in New York.",
+          "answer_line": "Their hand or forearm stays inside",
           "distractors": {
             "plausible": [
               "Only free foot's contact with mat",
@@ -691113,7 +691113,7 @@
           }
         },
         {
-          "question": "Progression to Zombie (bottom): What holds posture while you re-pummel?",
+          "question": "Progression to Zombie (bottom): What holds posture while you pummel?",
           "answer": "Keep posture broken with a supported high leg so the free arm can work on the hand opening.",
           "answer_line": "Supported high leg held by one hand",
           "distractors": {
@@ -691155,7 +691155,7 @@
           }
         },
         {
-          "question": "Progression to Zombie (bottom): What locks in the pummel's positional gain?",
+          "question": "Progression to Zombie (bottom): What later action completes New York after the pummel?",
           "answer": "The hand reaching the mat is followed by arm coverage and knee support so the opponent cannot easily re-pummel inside.",
           "answer_line": "Cover arm and hug the raised knee",
           "distractors": {
@@ -691169,8 +691169,8 @@
           }
         },
         {
-          "question": "Progression to Zombie (bottom): Their hand circles back inside; what was missing?",
-          "answer": "The pummel must close the return path with the arm wrap and supported knee; lifting the hand alone can leave it recoverable.",
+          "question": "Progression to Zombie (bottom): After clearing the hand, what blocks its return in New York?",
+          "answer": "After the contested Zombie phase, New York closes the return path with the arm wrap and supported knee; lifting the hand alone can leave it recoverable.",
           "answer_line": "Arm coverage as the knee hug closed",
           "distractors": {
             "plausible": [
@@ -691197,13 +691197,13 @@
           }
         },
         {
-          "question": "Progression to Zombie (bottom): What configuration confirms the pummel succeeded?",
-          "answer": "The success checkpoint is New York arm isolation supported by the high leg; Zombie is the action that creates it.",
-          "answer_line": "Hand on mat; arm wrapped; knee hug",
+          "question": "Progression to Zombie (bottom): What marks this entry into the contested Zombie checkpoint?",
+          "answer": "The free arm has begun clearing the inside hand while the high leg controls posture. The pummel remains contested; hand-to-mat clearance and the closed knee hug establish New York afterward.",
+          "answer_line": "High leg held; hand pummel contested",
           "distractors": {
             "plausible": [
               "Both forearms inside on your chest",
-              "Hand on mat; elbow across your chest"
+              "Hand on mat; arm wrapped; knee hug"
             ],
             "trap": [
               "Wrist out; knee floats off the arm"
@@ -691239,8 +691239,8 @@
           }
         },
         {
-          "question": "Progression to Zombie (top): What should you retain after regaining your inside hand?",
-          "answer": "Retain the recovered frame so the guard player cannot immediately clear the hand out again.",
+          "question": "Progression to Zombie (top): What should you retain as their hand-clearing pummel starts?",
+          "answer": "Retain the inside frame so the guard player cannot clear your hand toward the mat and complete the arm isolation.",
           "answer_line": "Inside elbow with a forearm frame",
           "distractors": {
             "plausible": [
@@ -691333,9 +691333,9 @@
       },
       "flashcards": [
         {
-          "question": "Progression to Zombie (bottom): What has to be lost before New York needs Zombie again?",
-          "answer": "Zombie normally creates New York. A renewed attempt requires the opponent to have recovered the hand or forearm inside.",
-          "answer_line": "Arm isolation; hand returns inside",
+          "question": "Progression to Zombie (bottom): What remains contested when you start from Mission Control?",
+          "answer": "The opponent's hand or forearm remains inside. Begin the hand-clearing pummel while retaining Mission Control; the arm has not yet been isolated in New York.",
+          "answer_line": "Their hand or forearm stays inside",
           "distractors": {
             "plausible": [
               "Only free foot's contact with mat",
@@ -691347,7 +691347,7 @@
           }
         },
         {
-          "question": "Progression to Zombie (bottom): What holds posture while you re-pummel?",
+          "question": "Progression to Zombie (bottom): What holds posture while you pummel?",
           "answer": "Keep posture broken with a supported high leg so the free arm can work on the hand opening.",
           "answer_line": "Supported high leg held by one hand",
           "distractors": {
@@ -691389,7 +691389,7 @@
           }
         },
         {
-          "question": "Progression to Zombie (bottom): What locks in the pummel's positional gain?",
+          "question": "Progression to Zombie (bottom): What later action completes New York after the pummel?",
           "answer": "The hand reaching the mat is followed by arm coverage and knee support so the opponent cannot easily re-pummel inside.",
           "answer_line": "Cover arm and hug the raised knee",
           "distractors": {
@@ -691403,8 +691403,8 @@
           }
         },
         {
-          "question": "Progression to Zombie (bottom): Their hand circles back inside; what was missing?",
-          "answer": "The pummel must close the return path with the arm wrap and supported knee; lifting the hand alone can leave it recoverable.",
+          "question": "Progression to Zombie (bottom): After clearing the hand, what blocks its return in New York?",
+          "answer": "After the contested Zombie phase, New York closes the return path with the arm wrap and supported knee; lifting the hand alone can leave it recoverable.",
           "answer_line": "Arm coverage as the knee hug closed",
           "distractors": {
             "plausible": [
@@ -691431,13 +691431,13 @@
           }
         },
         {
-          "question": "Progression to Zombie (bottom): What configuration confirms the pummel succeeded?",
-          "answer": "The success checkpoint is New York arm isolation supported by the high leg; Zombie is the action that creates it.",
-          "answer_line": "Hand on mat; arm wrapped; knee hug",
+          "question": "Progression to Zombie (bottom): What marks this entry into the contested Zombie checkpoint?",
+          "answer": "The free arm has begun clearing the inside hand while the high leg controls posture. The pummel remains contested; hand-to-mat clearance and the closed knee hug establish New York afterward.",
+          "answer_line": "High leg held; hand pummel contested",
           "distractors": {
             "plausible": [
               "Both forearms inside on your chest",
-              "Hand on mat; elbow across your chest"
+              "Hand on mat; arm wrapped; knee hug"
             ],
             "trap": [
               "Wrist out; knee floats off the arm"
@@ -691545,8 +691545,8 @@
       },
       "flashcards": [
         {
-          "question": "Progression to Zombie (top): What should you retain after regaining your inside hand?",
-          "answer": "Retain the recovered frame so the guard player cannot immediately clear the hand out again.",
+          "question": "Progression to Zombie (top): What should you retain as their hand-clearing pummel starts?",
+          "answer": "Retain the inside frame so the guard player cannot clear your hand toward the mat and complete the arm isolation.",
           "answer_line": "Inside elbow with a forearm frame",
           "distractors": {
             "plausible": [
@@ -734088,7 +734088,7 @@
       "targetArea": "Hamstring and posterior hip; knee at risk if the leg is twisted",
       "flashcards": [
         {
-          "question": "Suloev Stretch after Half Guard: what must you control before reaching below the opponent's hips?",
+          "question": "Suloev Stretch from Rear Tripod: what must you control before reaching below the opponent's hips?",
           "answer": "Their torso from behind. Control the torso from behind before reaching below the hips.",
           "answer_line": "Their torso from behind",
           "distractors": {
@@ -734582,7 +734582,7 @@
       },
       "flashcards": [
         {
-          "question": "Suloev Stretch after Half Guard: what must you control before reaching below the opponent's hips?",
+          "question": "Suloev Stretch from Rear Tripod: what must you control before reaching below the opponent's hips?",
           "answer": "Their torso from behind. Control the torso from behind before reaching below the hips.",
           "answer_line": "Their torso from behind",
           "distractors": {
@@ -775437,7 +775437,7 @@
       "flashcards": [
         {
           "question": "Arm Triangle after Hindu Control: which direction should the opponent's trapped arm cross?",
-          "answer": "Across the front of their neck. Establish a stable pin or equivalent control with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it.",
+          "answer": "Across the front of their neck. Maintain a stable guard connection with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it.",
           "answer_line": "Across the front of their neck",
           "distractors": {
             "plausible": [
@@ -775693,7 +775693,7 @@
       "flashcards": [
         {
           "question": "Arm Triangle after Hindu Control: which direction should the opponent's trapped arm cross?",
-          "answer": "Across the front of their neck. Establish a stable pin or equivalent control with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it.",
+          "answer": "Across the front of their neck. Maintain a stable guard connection with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it.",
           "answer_line": "Across the front of their neck",
           "distractors": {
             "plausible": [
@@ -781255,7 +781255,7 @@
       "flashcards": [
         {
           "question": "Arm Triangle after Hindu Control: which direction should the opponent's trapped arm cross?",
-          "answer": "Across the front of their neck. Establish a stable pin or equivalent control with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it.",
+          "answer": "Across the front of their neck. Maintain a stable guard connection with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it.",
           "answer_line": "Across the front of their neck",
           "distractors": {
             "plausible": [
@@ -804450,7 +804450,7 @@
     }
   },
   "meta": {
-    "generated": "2026-10-26T20:37:32.240603Z",
+    "generated": "2026-10-27T03:00:02.449487Z",
     "positionCount": 397,
     "transitionCount": 3009,
     "submissionCount": 923,

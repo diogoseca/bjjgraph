@@ -249,8 +249,8 @@ Begin an escape while the hand enclosure and hip connection are still loose. Rel
 <p class="section-subtitle">How do you know when someone is attempting Aoki Lock from Aoki Lock Control?</p>
 
 - The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.
-- Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
-- Use the legs and hip connection to limit free movement without twisting a planted knee.
+- The attacker brings your instep under the upper arm and supports the heel/Achilles region with the forearm.
+- The attacker uses the legs and hip connection to limit your free movement without twisting a planted knee.
 
 
 </section>

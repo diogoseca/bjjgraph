@@ -257,8 +257,8 @@ If the knee lever removes your base, release unsafe arm tension and begin an esc
 <p class="section-subtitle">How do you know when someone is attempting John Wayne Sweep?</p>
 
 - The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor.
-- Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack.
-- Bring the knee into the hip line as the other foot supplies a controlled post.
+- The bottom player uses an underhook and controls your whizzer or posting arm without leaving the elbow exposed to a front-headlock attack.
+- The bottom player brings the knee into your hip line as their other foot supplies a controlled post.
 
 
 </section>
