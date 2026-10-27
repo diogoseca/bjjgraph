@@ -675,7 +675,12 @@ for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sect
       if (!rect || !rect.width || !rect.height) return { x: 0, y: 0, reachable: false }
       const x = rect.left + rect.width / 2, y = rect.top + rect.height / 2
       const top = document.elementFromPoint(x, y)
-      return { x, y, reachable: x >= 0 && y >= 0 && x < innerWidth && y < innerHeight && !!top && (top === el || el.contains(top)) }
+      let opacity = 1, visible = true
+      for (let parent: Element | null = el; parent; parent = parent.parentElement) {
+        const style = getComputedStyle(parent)
+        opacity *= Number(style.opacity); visible &&= style.visibility === 'visible'
+      }
+      return { x, y, reachable: visible && opacity >= .99 && x >= 0 && y >= 0 && x < innerWidth && y < innerHeight && !!top && (top === el || el.contains(top)) }
     })
     expect(hit.reachable, 'D-482: the authored link text is reachable by mouse').toBe(true)
     await page.mouse.click(hit.x, hit.y)
