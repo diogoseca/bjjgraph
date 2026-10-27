@@ -101,11 +101,6 @@
       "relationship": "Related transition reference: Stack Pass."
     },
     {
-      "name": "Back Take",
-      "content_type": "Transition",
-      "relationship": "Related transition reference: Back Take."
-    },
-    {
       "name": "Double Leg Entry",
       "content_type": "Transition",
       "relationship": "Related transition reference: Double Leg Entry."

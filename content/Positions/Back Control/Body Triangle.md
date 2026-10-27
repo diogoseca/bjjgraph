@@ -143,21 +143,19 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (28% of attempts)
+- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (31% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (8% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (9% of attempts)
 
-- **[[Transitions/Body Triangle Escape to Side Control/Attacker|Body Triangle Escape to Side Control]]** (13% of attempts)
+- **[[Transitions/Body Triangle Escape to Side Control/Attacker|Body Triangle Escape to Side Control]]** (15% of attempts)
 
-- **[[Transitions/Body Triangle Escape to Half Guard/Attacker|Body Triangle Escape to Half Guard]]** (12% of attempts)
+- **[[Transitions/Body Triangle Escape to Half Guard/Attacker|Body Triangle Escape to Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (10% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (9% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (8% of attempts)
-
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (5% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (6% of attempts)
 
 - **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (4% of attempts)
 
@@ -220,25 +218,23 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Submissions/Rear Naked Choke/from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (38% of attempts)
+- **[[Submissions/Rear Naked Choke/from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (40% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
 - **[[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Bow and Arrow Choke from Body Triangle]]** (gi only)
 
-- **[[Submissions/Short Choke/from Body Triangle/Attacker|Short Choke from Body Triangle]]** (12% of attempts)
+- **[[Submissions/Short Choke/from Body Triangle/Attacker|Short Choke from Body Triangle]]** (13% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (2% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (21% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (22% of attempts)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (5% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
-
 - **[[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Cross Collar Choke from Body Triangle]]** (gi only)
 
-- **[[Transitions/Body Triangle Squeeze/Attacker|Body Triangle Squeeze]]** (13% of attempts)
+- **[[Transitions/Body Triangle Squeeze/Attacker|Body Triangle Squeeze]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -302,7 +298,7 @@ From this position, you maintain upper body control with your arms while your le
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni: Turtle Breakdowns and Back Attacks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

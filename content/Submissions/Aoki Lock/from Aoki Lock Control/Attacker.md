@@ -232,7 +232,7 @@ Use capture-and-release practice without finishing rotation. Pain is not a relia
 
 Treat a switch to another leg lock as a new submission entry: release the Aoki rotation, inspect the available ankle and knee alignment, and confirm the replacement controls before closing another grip.
 
-**From Position**: [[Positions/Aoki Lock Control]] (Top)
+**From Position**: [[Positions/Aoki Lock Control]] (Bottom)
 
 
 </section>
@@ -325,9 +325,9 @@ Treat a switch to another leg lock as a new submission entry: release the Aoki r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 50% |
-| Failure | [[Positions/Aoki Lock Control]] | 32% |
-| Counter | [[Positions/Closed Guard]] | 18% |
+| Success | [[game-over]] | 35% |
+| Failure | [[Positions/Aoki Lock Control]] | 45% |
+| Counter | [[Positions/Ashi Garami]] | 20% |
 
 
 </section>
@@ -340,7 +340,7 @@ Treat a switch to another leg lock as a new submission entry: release the Aoki r
 
 - **Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Identify the turned-out foot without forcing it to rotate against resistance. → Leads to [[Positions/Aoki Lock Control]]
 - **Hand fight and recover foot position before the attacker connects around the foot.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. → Leads to [[Positions/Aoki Lock Control]]
-- **Do not rotate the torso independently of a captured foot and knee.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Secure the upper-body enclosure while leaving the foot unloaded during practice. → Leads to [[Positions/Closed Guard]]
+- **Do not rotate the torso independently of a captured foot and knee.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Secure the upper-body enclosure while leaving the foot unloaded during practice. → Leads to [[Positions/Ashi Garami]]
 - **Create slack in the hand and hip controls before withdrawing the leg.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Use the legs and hip connection to limit free movement without twisting a planted knee. → Leads to [[Positions/Aoki Lock Control]]
 
 

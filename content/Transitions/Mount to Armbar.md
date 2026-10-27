@@ -306,8 +306,6 @@ The Mount to Armbar serves as the cornerstone of the mount attack system, functi
 
 - [[Transitions/S-Mount Transition]] - Advanced mount variation optimizing armbar setup leverage
 
-- [[Transitions/Back Take from Top]] - Alternative transition when opponent turns to defend armbar
-
 
 </section>
 

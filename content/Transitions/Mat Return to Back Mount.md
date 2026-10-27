@@ -292,8 +292,6 @@ The Mat Return to Back Mount serves as the critical bridge between standing back
 
 - [[Positions/Turtle]] - Common defensive transition if opponent escapes during descent
 
-- [[Transitions/Back Take]] - Prerequisite technique for establishing standing back control
-
 - [[Transitions/Crucifix Transition]] - Alternative attack pathway if arm control opportunity presents during descent
 
 - [[Positions/Harness]] - Essential grip configuration maintained throughout the technique

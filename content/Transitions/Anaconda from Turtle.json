@@ -69,10 +69,6 @@
       "relationship": "Parent position family from which anaconda attacks are launched"
     },
     {
-      "name": "Back Take from Top",
-      "relationship": "Alternative turtle top attack focusing on positional advancement rather than submission"
-    },
-    {
       "name": "Anaconda Control",
       "relationship": "Target position where successful execution leads for finishing sequence"
     },

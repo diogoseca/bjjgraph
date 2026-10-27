@@ -46,8 +46,15 @@ def retirement_rules(records: list[dict], root: Path = ROOT) -> list[str]:
         if (root / old_path).exists() or not (root / new_path).is_file():
             raise ValueError(f"Retirement must have an absent old source and a live replacement: {old_path}")
         old_url, new_url = content_url(old_path), content_url(new_path)
+        # Navigation retirements can cross from action roles (Attacker/Defender)
+        # to position roles (Top/Bottom), or end at a family without role pages.
+        # Those descendants resolve to the surviving hub, not a nonexistent role.
+        replacement = json.loads((root / new_path).read_text())
+        same_roles = ((Path(old_path).parts[1] == "Positions") ==
+                      (Path(new_path).parts[1] == "Positions"))
+        descendants = new_url + "/:splat" if same_roles and not replacement.get("is_family") else new_url
         for source in dict.fromkeys([old_url, old_url.lower()]):
-            for origin, target in [(source + "/*", new_url + "/:splat"), (source, new_url)]:
+            for origin, target in [(source + "/*", descendants), (source, new_url)]:
                 add(origin, target)
         parent = old_url.rsplit("/", 1)[0]
         aliases = record["source"].get("aliases") or []

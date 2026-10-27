@@ -294,8 +294,6 @@ The Inside Ashi-Garami to Honey Hole transition occupies a critical junction in 
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Counter position - where opponent may arrive if they successfully counter-thread during transition
 
-- [[Transitions/Kneebar Finish]] - Alternative attack - available when opponent straightens leg to prevent threading
-
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Related entanglement - alternative leg lock configuration within ashi garami system
 
 - [[Positions/Leg Entanglement]] - Conceptual framework - fundamental system governing all leg lock positions and transitions

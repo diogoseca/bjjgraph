@@ -260,8 +260,6 @@ The Transition to Body Lock occupies a critical junction in the back attack syst
 
 - [[Positions/Back Control/Standing Back Control]] - Related standing back control position with similar mechanics
 
-- [[Transitions/Back Take]] - Follow-up from body lock to re-establish full back control on the ground
-
 - [[Positions/Turtle]] - Position opponent may reach if transition timing is late
 
 - [[Positions/Clinch]] - Counter outcome if opponent successfully breaks grip during transition

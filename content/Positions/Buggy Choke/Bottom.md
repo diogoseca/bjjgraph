@@ -20,38 +20,38 @@ description: "Buggy Choke bottom perspective: Use safe shoulder and hip frames t
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Sit to Half Guard",
-      "text": "From this position, attempt Sit to Half Guard. This technique is attempted in 23% of exchanges from this position.",
+      "name": "Execute Buggy Choke from Buggy Choke",
+      "text": "From this position, attempt Buggy Choke from Buggy Choke. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Buggy Release to Guard",
+      "text": "From this position, attempt Buggy Release to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Roll to Deep Half Guard",
+      "text": "From this position, attempt Roll to Deep Half Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turn In and Face",
-      "text": "From this position, attempt Turn In and Face. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Sit to Half Guard",
+      "text": "From this position, attempt Sit to Half Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Switch to Darce Configuration",
+      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Turn In and Face",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -263,7 +263,7 @@ The bottom player supplies the arm-and-leg loop around the opponent's head and o
 <p class="section-subtitle">What should you do from Buggy Choke (Bottom)?</p>
 
 **When the same-side arm-and-leg loop encloses the head and one arm without loading your knee:**
-- Execute **[[Transitions/Finish Buggy Choke/Attacker|Finish Buggy Choke]]** → [[game-over]] (Probability: 58%)
+- Execute **[[Submissions/Buggy Choke/from Buggy Choke/Attacker|Buggy Choke from Buggy Choke]]** → [[game-over]] (Probability: 58%)
 
 
 **After releasing the Buggy loop and fully recovering open guard, when there is room for safe posts:**
@@ -352,9 +352,9 @@ Work cooperatively on keep elbow near knee. Shorten the connection through body 
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 48% |
-| Advancement Probability | 42% |
-| Submission Probability | 12% |
+| Retention Rate | 70% |
+| Advancement Probability | 75% |
+| Submission Probability | 72% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

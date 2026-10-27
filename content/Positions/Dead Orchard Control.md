@@ -184,8 +184,8 @@ Instructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.you
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive | Offensive/Controlling |
-| **Risk Level** | High | Low to Medium |
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | Medium to High | Medium to High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
@@ -221,21 +221,9 @@ Instructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.you
 ### Available Transitions
 
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (19% of attempts)
+- **[[Submissions/Armbar/from Dead Orchard Control/Attacker|Armbar from Dead Orchard Control]]** (70% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (15% of attempts)
-
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (11% of attempts)
-
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
-
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
-
-- **[[Transitions/Escape Dead Orchard Control/Attacker|Escape Dead Orchard Control]]** (13% of attempts)
-
-- **[[Transitions/Roll from Dead Orchard/Attacker|Roll from Dead Orchard]]** (9% of attempts)
-
-- **[[Transitions/Escape from Dead Orchard/Attacker|Escape from Dead Orchard]]** (7% of attempts)
+- **[[Transitions/Escape from Dead Orchard/Attacker|Escape from Dead Orchard]]** (30% of attempts)
 
 
 ### Common Mistakes
@@ -290,19 +278,7 @@ Instructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.you
 ### Available Transitions
 
 
-- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (16% of attempts)
-
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (20% of attempts)
-
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
-
-- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (13% of attempts)
-
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
-
-- **[[Submissions/Anaconda Choke/from Dead Orchard/Attacker|Anaconda Choke from Dead Orchard]]** (18% of attempts)
-
-- **[[Transitions/Dead Orchard to Darce Switch/Attacker|Dead Orchard to Darce Switch]]** (12% of attempts)
+- **[[Transitions/Escape Dead Orchard Control/Attacker|Escape Dead Orchard Control]]** (100% of attempts)
 
 
 ### Common Mistakes

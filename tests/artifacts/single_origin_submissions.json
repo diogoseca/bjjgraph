@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "single_origin",
+    "file": "content/Submissions/Armbar/from Dead Orchard Control.json",
+    "origin": "Dead Orchard Control",
+    "reason": "The approved new armbar starts in the bottom holder's completed two-arm high triangle.",
+    "plan_ref": "graph-restructure-plan.md: Dead Orchard Control, N1; D-358"
+  },
+  {
+    "kind": "single_origin",
+    "file": "content/Submissions/Baratoplata/from Crackhead Control.json",
+    "origin": "Crackhead Control",
+    "reason": "R52 retains this exact high-clinch origin and requires separate arm isolation before the finish.",
+    "plan_ref": "restructure-kept-numbers.md: certain N3, R52; D-358"
+  },
+  {
+    "kind": "single_origin",
+    "file": "content/Submissions/Carni Shoulder Lock.json",
+    "origin": "Carni",
+    "reason": "The approved new submission finishes the shoulder enclosure from bottom Carni.",
+    "plan_ref": "graph-restructure-plan.md: Carni, N1; D-358"
+  },
+  {
+    "kind": "single_origin",
+    "file": "content/Submissions/Omoplata/from Crackhead Control.json",
+    "origin": "Crackhead Control",
+    "reason": "R56 retains this exact origin with a separate shoulder-isolation step.",
+    "plan_ref": "restructure-kept-numbers.md: certain N3, R56; D-358"
+  },
+  {
+    "kind": "single_origin",
+    "file": "content/Submissions/Suloev Stretch/from Half Guard.json",
+    "origin": "Back Control",
+    "reason": "The legacy path remains, but the approved physical origin is rear control against a tripod.",
+    "plan_ref": "graph-restructure-plan.md: Suloev Stretch re-origin, N1; D-358"
+  },
+  {
+    "kind": "single_origin",
+    "file": "content/Submissions/Triangle Choke/from Crackhead Control.json",
+    "origin": "Crackhead Control",
+    "reason": "R57 retains this exact origin and requires changing the high clinch into a triangle enclosure.",
+    "plan_ref": "restructure-kept-numbers.md: certain N3, R57; D-358"
+  },
+  {
+    "kind": "short_decision_tree",
+    "file": "content/Positions/Rubber Guard/Crackhead Control.json",
+    "role": "bottom",
+    "expected_count": 2,
+    "reason": "R20 Crackhead Control to Carni retired by the unanimous panel; no third condition is invented (D-362).",
+    "plan_ref": "restructure-panel.md: R20; D-362"
+  },
+  {
+    "kind": "single_origin",
+    "file": "content/Submissions/Buggy Choke/from Buggy Choke.json",
+    "origin": "Buggy Choke",
+    "reason": "The N4 approved finish has exactly its approved Buggy Choke origin; D-374 canonical family path.",
+    "plan_ref": "N4 approved as proposed, D-429 (2026-10-26); explicit authorization of these two single_origin rows; D-358"
+  },
+  {
+    "kind": "single_origin",
+    "file": "content/Submissions/Invisible Collar Choke.json",
+    "origin": "Invisible Collar",
+    "reason": "The approved new choke has exactly its Invisible Collar origin.",
+    "plan_ref": "N4 approved as proposed, D-429 (2026-10-26); explicit authorization of these two single_origin rows; D-358"
+  },
+  {
+    "kind": "short_decision_tree",
+    "file": "content/Positions/Rubber Guard/Crackhead Control.json",
+    "role": "top",
+    "expected_count": 2,
+    "reason": "The approved Double Underhook Pass retirement leaves exactly two conditions; no third condition is invented (D-362).",
+    "plan_ref": "graph-restructure-plan.md:1304; N4 approved as proposed, D-429 (2026-10-26); D-362"
+  }
+]

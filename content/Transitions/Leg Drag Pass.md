@@ -284,8 +284,6 @@ The leg drag pass is a central technique in modern Brazilian Jiu-Jitsu passing s
 
 - [[Transitions/Toreando Pass]] - Follow-up when opponent stands legs to defend drag
 
-- [[Transitions/Back Take]] - Direct transition when opponent turns away defensively
-
 - [[Positions/Side Control]] - Primary ending position for successful leg drag completion
 
 - [[Positions/Headquarters Position]] - Common intermediate position before completing leg drag

@@ -266,7 +266,6 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 **If opponent drives forward with heavy crossface pressure and low posture:**
 - Execute **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** → [[Positions/Dogfight Position]] (Probability: 65%)
-- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 **If opponent establishes underhook and attempts knee slice pass:**

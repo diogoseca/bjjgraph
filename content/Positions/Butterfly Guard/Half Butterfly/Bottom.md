@@ -269,7 +269,7 @@ This position represents an evolution in half guard theory, popularized by pract
 
 **Else if opponent drives forward with heavy chest pressure attempting to flatten you:**
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **Else if opponent attempts to extract trapped leg and establish passing pressure:**

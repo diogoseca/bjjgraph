@@ -244,9 +244,9 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 40% |
-| Failure | [[Positions/Hindulotine]] | 35% |
-| Counter | [[Positions/Side Control]] | 25% |
+| Success | [[Positions/Closed Guard]] | 60% |
+| Failure | [[Positions/Hindulotine]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -257,7 +257,7 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 <p class="section-subtitle">How might your opponent counter Guard Recovery from Hindulotine?</p>
 
-- **Opponent circles to the exposed back side during hip realignment, taking advantage of the angular position to advance behind your guard** (Effectiveness: High) - Your Response: Prioritize the near-side knee shield on the exposed side before beginning hip rotation, and use your overhook grip to prevent the opponent from circling past your shoulder line → Leads to [[Positions/Side Control]]
+- **Opponent circles to the exposed back side during hip realignment, taking advantage of the angular position to advance behind your guard** (Effectiveness: High) - Your Response: Prioritize the near-side knee shield on the exposed side before beginning hip rotation, and use your overhook grip to prevent the opponent from circling past your shoulder line → Leads to [[Positions/Open Guard]]
 - **Opponent drives heavy forward pressure to flatten you during the grip transition, collapsing your frames before hip realignment completes** (Effectiveness: High) - Your Response: Use the knee shield and frame together to absorb the pressure, and if flattened, immediately work to regain lateral position through small incremental hip escapes rather than attempting one large recovery movement → Leads to [[Positions/Hindulotine]]
 - **Opponent strips the overhook conversion and postures up aggressively to create maximum distance before you can recompose guard** (Effectiveness: Medium) - Your Response: Chase with feet on hips immediately upon losing upper body control, and secure sleeve or collar grip with your free hand to maintain connection at range → Leads to [[Positions/Hindulotine]]
 

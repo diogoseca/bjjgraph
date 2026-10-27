@@ -9,14 +9,14 @@
   "submission_category": "Choke",
   "submission_type": "Head-and-arm choke",
   "target_area": "Sides of the neck",
-  "starting_position": "Hindulotine",
-  "from_position": "Hindulotine/Top",
+  "starting_position": "Hindulotine/Bottom",
+  "from_position": "Hindulotine/Bottom",
   "success_rate": {
-    "gi": 62,
-    "nogi": 62
+    "gi": 25,
+    "nogi": 25
   },
   "summary": "The Arm Triangle encloses the head and one arm so the attacker's upper arm and the defender's trapped shoulder compress opposite sides of the neck.",
-  "overview": "The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.\n\nEstablish a stable pin or equivalent control with one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable. Close the arm loop without changing the neck into a twisting position.\n\nUse positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap.\n\nInstructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](https://www.grapplearts.com/how-to-do-the-head-and-arm-choke-aka-kata-gatame/); [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc).",
+  "overview": "The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.\n\nMaintain a stable guard connection while bringing one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable. Close the arm loop without changing the neck into a twisting position.\n\nUse positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap.\n\nInstructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](https://www.grapplearts.com/how-to-do-the-head-and-arm-choke-aka-kata-gatame/); [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc).",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -73,34 +73,34 @@
   ],
   "outcomes": [
     {
+      "result": "success",
       "to": "game-over",
-      "probability": {
-        "gi": 62,
-        "nogi": 62
-      },
-      "result": "success"
-    },
-    {
-      "to": "Hindulotine/Top",
       "probability": {
         "gi": 25,
         "nogi": 25
-      },
-      "result": "failure"
+      }
     },
     {
+      "result": "failure",
+      "to": "Hindulotine/Bottom",
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      }
+    },
+    {
+      "result": "counter",
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 13,
-        "nogi": 13
-      },
-      "result": "counter"
+        "gi": 25,
+        "nogi": 25
+      }
     }
   ],
   "variations_and_setups": [
     {
       "variation_name": "Control-only rehearsal",
-      "description": "The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin. Establish a stable pin or equivalent control with one opposing arm across the neck.",
+      "description": "The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck. Maintain a stable guard connection while bringing one opposing arm across the neck.",
       "when_to_use": "Cooperative practice before adding resistance or any finishing pressure"
     },
     {
@@ -111,10 +111,10 @@
   ],
   "attacker": {
     "name": "from Hindulotine Attacker",
-    "description": "Arm Triangle from Hindulotine (attacker): Establish a stable pin or equivalent control with one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward.",
-    "overview": "The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.\n\nEstablish a stable pin or equivalent control with one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.\n\nClose the arm loop without changing the neck into a twisting position. Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze. Open the arm loop and take pressure off the trapped shoulder immediately.\n\nUse positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap.\n\nFor a separately established top-side finish, chest pressure helps keep the trapped shoulder from withdrawing while the neck enclosure is adjusted. Balance on a stable base; pinning the torso is support for the choke, not a reason to drive harder into the neck.",
+    "description": "Arm Triangle from Hindulotine (attacker): Maintain a stable guard connection while bringing one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward.",
+    "overview": "The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.\n\nMaintain a stable guard connection while bringing one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.\n\nClose the arm loop without changing the neck into a twisting position. Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze. Open the arm loop and take pressure off the trapped shoulder immediately.\n\nUse positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap.\n\nFor a separately established top-side finish, chest pressure helps keep the trapped shoulder from withdrawing while the neck enclosure is adjusted. Balance on a stable base; pinning the torso is support for the choke, not a reason to drive harder into the neck.",
     "key_principles": [
-      "Obtain head-and-arm access: Establish a stable pin or equivalent control with one opposing arm across the neck.",
+      "Obtain head-and-arm access: Maintain a stable guard connection while bringing one opposing arm across the neck.",
       "Wrap the head: Place the attacking upper arm beside one side of the neck without levering the head backward.",
       "Keep the shoulder enclosed: Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.",
       "Connect the support hand: Close the arm loop without changing the neck into a twisting position.",
@@ -122,8 +122,8 @@
       "Release at the first signal: Open the arm loop and take pressure off the trapped shoulder immediately."
     ],
     "setup_requirements": [
-      "The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin.",
-      "Establish a stable pin or equivalent control with one opposing arm across the neck.",
+      "The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck.",
+      "Maintain a stable guard connection while bringing one opposing arm across the neck.",
       "Place the attacking upper arm beside one side of the neck without levering the head backward.",
       "Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface."
     ],
@@ -131,7 +131,7 @@
       {
         "step_number": 1,
         "action": "Obtain head-and-arm access",
-        "description": "Establish a stable pin or equivalent control with one opposing arm across the neck."
+        "description": "Maintain a stable guard connection while bringing one opposing arm across the neck."
       },
       {
         "step_number": 2,
@@ -163,20 +163,20 @@
       {
         "counter": "Recover the arm before it crosses the neck and becomes enclosed.",
         "effectiveness": "High",
-        "your_response": "Re-check the prerequisite before continuing. Establish a stable pin or equivalent control with one opposing arm across the neck.",
-        "targets_outcome": "Hindulotine/Top"
+        "your_response": "Re-check the prerequisite before continuing. Maintain a stable guard connection while bringing one opposing arm across the neck.",
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
         "counter": "Maintain an early frame between the shoulder and head while the loop is still open.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Place the attacking upper arm beside one side of the neck without levering the head backward.",
-        "targets_outcome": "Hindulotine/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
         "counter": "An upper arm beside the neck plus your own shoulder on the other side is the key threat.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.",
-        "targets_outcome": "Hindulotine/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
         "counter": "Move the hips and shoulders together while space remains; do not turn the head alone.",
@@ -188,8 +188,8 @@
     "common_errors": [
       {
         "error": "Skipping the checkpoint: obtain head-and-arm access",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: Establish a stable pin or equivalent control with one opposing arm across the neck.",
-        "correction": "Establish a stable pin or equivalent control with one opposing arm across the neck."
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Maintain a stable guard connection while bringing one opposing arm across the neck.",
+        "correction": "Maintain a stable guard connection while bringing one opposing arm across the neck."
       },
       {
         "error": "Skipping the checkpoint: wrap the head",
@@ -216,7 +216,7 @@
       {
         "phase": "Phase 1",
         "focus": "Identify the configuration",
-        "description": "Work cooperatively on obtain head-and-arm access. Establish a stable pin or equivalent control with one opposing arm across the neck. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+        "description": "Work cooperatively on obtain head-and-arm access. Maintain a stable guard connection while bringing one opposing arm across the neck. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
         "phase": "Phase 2",
@@ -237,7 +237,7 @@
     "flashcards": [
       {
         "question": "Arm Triangle after Hindu Control: which direction should the opponent's trapped arm cross?",
-        "answer": "Across the front of their neck. Establish a stable pin or equivalent control with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it.",
+        "answer": "Across the front of their neck. Maintain a stable guard connection with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it.",
         "answer_line": "Across the front of their neck",
         "distractors": {
           "plausible": [
@@ -411,7 +411,7 @@
   "defender": {
     "name": "from Hindulotine Defender",
     "description": "Arm Triangle from Hindulotine (defender): Recover the arm before it crosses the neck and becomes enclosed. Maintain an early frame between the shoulder and head while the loop is still open.",
-    "overview": "The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.\n\nRecover the arm before it crosses the neck and becomes enclosed. Maintain an early frame between the shoulder and head while the loop is still open. An upper arm beside the neck plus your own shoulder on the other side is the key threat.\n\nMove the hips and shoulders together while space remains; do not turn the head alone. Stop before dizziness or impaired awareness instead of treating top position as a prerequisite for danger. Rebuild a safe arm position once the head-and-arm loop is open.\n\nUse positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap.\n\nProtect the neck by keeping an early frame between the trapped shoulder and the closing arm. If that enclosure opens and the attacker remains on top, continue the escape with supported hip movement and a short shrimp to return a knee inside; do not bridge against a secured neck.",
+    "overview": "The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.\n\nRecover the arm before it crosses the neck and becomes enclosed. Maintain an early frame between the shoulder and head while the loop is still open. An upper arm beside the neck plus your own shoulder on the other side is the key threat.\n\nMove the hips and shoulders together while space remains; do not turn the head alone. Stop before dizziness or impaired awareness instead of treating top position as a prerequisite for danger. Rebuild a safe arm position once the head-and-arm loop is open.\n\nUse positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap.\n\nProtect the neck by keeping an early frame between the trapped shoulder and the closing arm. If that enclosure opens and the attacker remains on top, continue the escape with supported hip movement and a short shrimp to return a knee inside; do not bridge against a secured neck.",
     "key_principles": [
       "Keep the elbow inside: Recover the arm before it crosses the neck and becomes enclosed.",
       "Preserve neck space: Maintain an early frame between the shoulder and head while the loop is still open.",
@@ -421,22 +421,22 @@
       "Restore frames after release: Rebuild a safe arm position once the head-and-arm loop is open."
     ],
     "recognition_cues": [
-      "The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin.",
-      "Place the attacking upper arm beside one side of the neck without levering the head backward.",
-      "Close the arm loop without changing the neck into a twisting position."
+      "The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck.",
+      "The attacker places the attacking upper arm beside one side of your neck without levering your head backward.",
+      "The attacker closes the arm loop without changing your neck into a twisting position."
     ],
     "defensive_options": [
       {
         "action": "Recover the arm before it crosses the neck and becomes enclosed.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Hindulotine/Top",
+        "targets_outcome": "Hindulotine/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Use positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap."
       },
       {
         "action": "Maintain an early frame between the shoulder and head while the loop is still open.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Hindulotine/Top",
+        "targets_outcome": "Hindulotine/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Use positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap."
       },
@@ -461,7 +461,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Hindulotine/Top",
+        "outcome": "Hindulotine/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Recover the arm before it crosses the neck and becomes enclosed."
       },
       {

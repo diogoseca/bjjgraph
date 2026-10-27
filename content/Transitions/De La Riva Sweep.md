@@ -287,7 +287,7 @@ The De La Riva Sweep is a foundational technique within the broader De La Riva G
 
 - [[Transitions/Berimbolo Entry]] - Alternative attack - complementary technique from De La Riva Guard exploiting forward pressure
 
-- [[Transitions/Kiss of the Dragon]] - Counter transition - back take option when opponent defends sweep by retreating
+- [[Transitions/Kiss of the Dragon from RDLR]] - Counter transition - back take option when opponent defends sweep by retreating
 
 - [[Transitions/Waiter Sweep]] - Variation - overhead sweep using similar De La Riva hook structure against upright opponents
 

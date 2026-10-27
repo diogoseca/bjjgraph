@@ -1,0 +1,374 @@
+{
+  "name": "Frame and Posture Escape from Buggy Choke",
+  "from_position": "Buggy Choke/Top",
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
+  "outcomes": [
+    {
+      "result": "success",
+      "to": "Open Guard/Top",
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      }
+    },
+    {
+      "result": "failure",
+      "to": "Buggy Choke/Top",
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      }
+    },
+    {
+      "result": "counter",
+      "to": "Triangle Control/Top",
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      }
+    }
+  ],
+  "summary": "The caught top player uses inside frames to open the Buggy loop, clears the head and arm, and disengages into facing open guard after restoring safe head and torso alignment.",
+  "description": "The caught top player uses inside frames to open the Buggy loop, clears the head and arm, and disengages into facing open guard after restoring safe head and torso alignment.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The caught top player uses inside frames to open the Buggy loop, clears the head and arm, and disengages into facing open guard after restoring safe head and torso alignment.\n\nBegin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop. Use the available inside frames to make space around the enclosure while protecting the neck.\n\nRecover head and torso alignment without treating improved posture inside a closed loop as a completed escape. Open the enclosure and clear the head and trapped arm before attempting to disengage. Withdraw continuously and square up toward the opponent's legs, conceding the side pin. Recognize Open Guard/Top only after the loop is free. A caught triangle remains Triangle Control/Top, with the same physical actor.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Buggy Choke",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Frame and Posture Escape from Buggy Choke Attacker",
+    "description": "The caught top player uses inside frames to open the Buggy loop, clears the head and arm, and disengages into facing open guard after restoring safe head and torso alignment.",
+    "overview": "The caught top player uses inside frames to open the Buggy loop, clears the head and arm, and disengages into facing open guard after restoring safe head and torso alignment.\n\nBegin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop. Use the available inside frames to make space around the enclosure while protecting the neck.\n\nRecover head and torso alignment without treating improved posture inside a closed loop as a completed escape. Open the enclosure and clear the head and trapped arm before attempting to disengage. Withdraw continuously and square up toward the opponent's legs, conceding the side pin. Recognize Open Guard/Top only after the loop is free. A caught triangle remains Triangle Control/Top, with the same physical actor.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Top is caught in the Buggy loop: Begin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop.",
+      "Inside frames protect head space: Use the available inside frames to make space around the enclosure while protecting the neck.",
+      "Head and torso align within space: Recover head and torso alignment without treating improved posture inside a closed loop as a completed escape.",
+      "Head and arm leave the open loop: Open the enclosure and clear the head and trapped arm before attempting to disengage.",
+      "Face the opponent as legs separate: Withdraw continuously and square up toward the opponent's legs, conceding the side pin.",
+      "Open Guard/Top after full clearance: Recognize Open Guard/Top only after the loop is free. A caught triangle remains Triangle Control/Top, with the same physical actor."
+    ],
+    "setup_requirements": [
+      "Begin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop.",
+      "Use the available inside frames to make space around the enclosure while protecting the neck.",
+      "Recover head and torso alignment without treating improved posture inside a closed loop as a completed escape.",
+      "Open the enclosure and clear the head and trapped arm before attempting to disengage."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the caught side",
+        "description": "Begin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish framing space",
+        "description": "Use the available inside frames to make space around the enclosure while protecting the neck."
+      },
+      {
+        "step_number": 3,
+        "action": "Recover alignment",
+        "description": "Recover head and torso alignment without treating improved posture inside a closed loop as a completed escape."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear the enclosure",
+        "description": "Open the enclosure and clear the head and trapped arm before attempting to disengage."
+      },
+      {
+        "step_number": 5,
+        "action": "Withdraw while facing",
+        "description": "Withdraw continuously and square up toward the opponent's legs, conceding the side pin."
+      },
+      {
+        "step_number": 6,
+        "action": "Confirm facing open guard",
+        "description": "Recognize Open Guard/Top only after the loop is free. A caught triangle remains Triangle Control/Top, with the same physical actor."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Keep the Buggy enclosure connected while respecting neck safety.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Buggy Choke/Top"
+      },
+      {
+        "counter": "Follow small posture changes with controlled hip movement.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Buggy Choke/Top"
+      },
+      {
+        "counter": "Use the remaining connection if the caught player cannot clear the loop.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Triangle Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the caught side",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop."
+      },
+      {
+        "error": "Skipping establish framing space",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Use the available inside frames to make space around the enclosure while protecting the neck."
+      },
+      {
+        "error": "Skipping recover alignment",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Recover head and torso alignment without treating improved posture inside a closed loop as a completed escape."
+      },
+      {
+        "error": "Skipping clear the enclosure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Open the enclosure and clear the head and trapped arm before attempting to disengage."
+      },
+      {
+        "error": "Skipping withdraw while facing",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Withdraw continuously and square up toward the opponent's legs, conceding the side pin."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the caught side",
+        "description": "Begin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Establish framing space",
+        "description": "Use the available inside frames to make space around the enclosure while protecting the neck. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Recover alignment",
+        "description": "Recover head and torso alignment without treating improved posture inside a closed loop as a completed escape. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Clear the enclosure",
+        "description": "Open the enclosure and clear the head and trapped arm before attempting to disengage. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Frame and Posture Escape from Buggy Choke: what does identify the caught side require?",
+        "answer": "Begin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop.",
+        "answer_line": "Top is caught in the Buggy loop",
+        "distractors": {
+          "plausible": [
+            "Posture alone inside a closed loop",
+            "A reversal to the bottom seat"
+          ],
+          "trap": [
+            "A retained side pin after withdrawal"
+          ]
+        }
+      },
+      {
+        "question": "Frame and Posture Escape from Buggy Choke: what does establish framing space require?",
+        "answer": "Use the available inside frames to make space around the enclosure while protecting the neck.",
+        "answer_line": "Inside frames protect head space",
+        "distractors": {
+          "plausible": [
+            "A reversal to the bottom seat",
+            "A retained side pin after withdrawal"
+          ],
+          "trap": [
+            "A neck twist against loaded pressure"
+          ]
+        }
+      },
+      {
+        "question": "Frame and Posture Escape from Buggy Choke: what does recover alignment require?",
+        "answer": "Recover head and torso alignment without treating improved posture inside a closed loop as a completed escape.",
+        "answer_line": "Head and torso align within space",
+        "distractors": {
+          "plausible": [
+            "A retained side pin after withdrawal",
+            "A neck twist against loaded pressure"
+          ],
+          "trap": [
+            "Posture alone inside a closed loop"
+          ]
+        }
+      },
+      {
+        "question": "Frame and Posture Escape from Buggy Choke: what does clear the enclosure require?",
+        "answer": "Open the enclosure and clear the head and trapped arm before attempting to disengage.",
+        "answer_line": "Head and arm leave the open loop",
+        "distractors": {
+          "plausible": [
+            "A neck twist against loaded pressure",
+            "Posture alone inside a closed loop"
+          ],
+          "trap": [
+            "A reversal to the bottom seat"
+          ]
+        }
+      },
+      {
+        "question": "Frame and Posture Escape from Buggy Choke: what does withdraw while facing require?",
+        "answer": "Withdraw continuously and square up toward the opponent's legs, conceding the side pin.",
+        "answer_line": "Face the opponent as legs separate",
+        "distractors": {
+          "plausible": [
+            "Posture alone inside a closed loop",
+            "A reversal to the bottom seat"
+          ],
+          "trap": [
+            "A retained side pin after withdrawal"
+          ]
+        }
+      },
+      {
+        "question": "Frame and Posture Escape from Buggy Choke: what does confirm facing open guard require?",
+        "answer": "Recognize Open Guard/Top only after the loop is free. A caught triangle remains Triangle Control/Top, with the same physical actor.",
+        "answer_line": "Open Guard/Top after full clearance",
+        "distractors": {
+          "plausible": [
+            "A reversal to the bottom seat",
+            "A retained side pin after withdrawal"
+          ],
+          "trap": [
+            "A neck twist against loaded pressure"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Frame and Posture Escape from Buggy Choke Defender",
+    "description": "Recognize Frame and Posture Escape from Buggy Choke and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Keep the Buggy enclosure connected while respecting neck safety. Follow small posture changes with controlled hip movement. Use the remaining connection if the caught player cannot clear the loop. Recognize the distinct triangle enclosure only if the neck and one arm are captured by the legs. If the player fully disengages, retain facing open guard instead of claiming the choke remains.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Keep the Buggy enclosure connected while respecting neck safety.",
+      "Follow small posture changes with controlled hip movement.",
+      "Use the remaining connection if the caught player cannot clear the loop.",
+      "Recognize the distinct triangle enclosure only if the neck and one arm are captured by the legs.",
+      "If the player fully disengages, retain facing open guard instead of claiming the choke remains."
+    ],
+    "recognition_cues": [
+      "Begin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop.",
+      "Use the available inside frames to make space around the enclosure while protecting the neck.",
+      "Recover head and torso alignment without treating improved posture inside a closed loop as a completed escape."
+    ],
+    "defensive_options": [
+      {
+        "action": "Keep the Buggy enclosure connected while respecting neck safety.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Buggy Choke/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Follow small posture changes with controlled hip movement.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Buggy Choke/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Use the remaining connection if the caught player cannot clear the loop.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Triangle Control/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Recognize the distinct triangle enclosure only if the neck and one arm are captured by the legs.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Triangle Control/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Buggy Choke/Top",
+        "how": "Keep the Buggy enclosure connected while respecting neck safety."
+      },
+      {
+        "outcome": "Triangle Control/Top",
+        "how": "If the player fully disengages, retain facing open guard instead of claiming the choke remains."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "If the player fully disengages, retain facing open guard instead of claiming the choke remains."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Follow small posture changes with controlled hip movement."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Frame and Posture Escape from Buggy Choke, what connection do you address first?",
+        "answer": "Keep the Buggy enclosure connected while respecting neck safety."
+      },
+      {
+        "question": "Against Frame and Posture Escape from Buggy Choke, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Does interrupting one grip complete the escape from Buggy Choke?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the caught side",
+        "description": "Begin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Establish framing space",
+        "description": "Use the available inside frames to make space around the enclosure while protecting the neck. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Recover alignment",
+        "description": "Recover head and torso alignment without treating improved posture inside a closed loop as a completed escape. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop.",
+    "Use the available inside frames to make space around the enclosure while protecting the neck.",
+    "Recover head and torso alignment without treating improved posture inside a closed loop as a completed escape."
+  ],
+  "position_integration": "The caught top player uses inside frames to open the Buggy loop, clears the head and arm, and disengages into facing open guard after restoring safe head and torso alignment. Begin as the physically overlying player caught in the bottom player's same-side arm-and-leg loop. Recognize Open Guard/Top only after the loop is free. A caught triangle remains Triangle Control/Top, with the same physical actor."
+}

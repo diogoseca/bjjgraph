@@ -293,8 +293,6 @@ Hand fighting from back represents the foundational defensive layer in the back 
 
 - [[Submissions/Bow and Arrow Choke]] - Gi choke threat requiring modified hand fighting approach
 
-- [[Transitions/Elbow Escape to Remove Hooks]] - Follow-up technique after establishing hand control
-
 - [[Transitions/Granby Roll to Guard]] - Alternative escape that can follow successful hand fighting
 
 - [[Positions/Back Control/Body Triangle]] - Back control variation that significantly alters hand fighting strategy due to sustained squeeze pressure

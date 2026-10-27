@@ -82,10 +82,6 @@
       "relationship": "Related guard recovery transition from turtle sharing defensive context"
     },
     {
-      "name": "Back Take from Top",
-      "relationship": "Counter-technique opponent attempts during failed recovery"
-    },
-    {
       "name": "Back Control",
       "relationship": "Position being prevented by successful guard recovery"
     },

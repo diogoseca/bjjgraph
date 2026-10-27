@@ -232,7 +232,7 @@ Drill the arm path with no choke pressure first. Protect the high knee, avoid ce
 
 This neck enclosure can load the sides of the neck as a vascular choke, and misplaced forearm pressure can also compress the windpipe. Neither pressure type is a training target: rehearse the grip without squeezing, and release before the partner needs to tolerate throat or neck pressure.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 
 </section>
@@ -325,9 +325,9 @@ This neck enclosure can load the sides of the neck as a vascular choke, and misp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 40% |
-| Failure | [[Positions/Hindulotine]] | 39% |
-| Counter | [[Positions/Closed Guard]] | 21% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Hindulotine]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>

@@ -4,7 +4,7 @@
 
 ---
 title: "Granby Roll to Guard Attacker | BJJ Technique Guide | BJJ Graph"
-description: "Granby Roll to Guard (attacker): Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam. Create distance while keeping the head free and the knees available to return inside."
+description: "The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact."
 ---
 
 
@@ -16,42 +16,42 @@ description: "Granby Roll to Guard (attacker): Let go when the partner begins li
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Granby Roll to Guard in BJJ",
-  "description": "Step-by-step guide for executing Granby Roll to Guard from Buggy Choke/Bottom.",
+  "description": "Step-by-step guide for executing Granby Roll to Guard from Turtle/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Release the Buggy loop",
-      "text": "Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.",
+      "name": "Identify the starting base",
+      "text": "Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Restore shoulder and hip frames",
-      "text": "Create distance while keeping the head free and the knees available to return inside.",
+      "name": "Check free movement",
+      "text": "Check that the head and rolling shoulder can move safely before beginning the recovery.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Check the rolling prerequisite",
-      "text": "Use a shoulder roll only if a coach has established safe space and an untrapped upper back.",
+      "name": "Use the shoulder path",
+      "text": "Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Keep weight off the neck",
-      "text": "Do not plant the head or roll over the cervical spine to force guard recovery.",
+      "name": "Bring the hips through",
+      "text": "Bring the hips through the available space while keeping the neck unloaded and the knees free to move.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Bring the knees back inside",
-      "text": "Face the opponent and insert the legs when the space opens.",
+      "name": "Reinsert the legs",
+      "text": "Face the opponent and bring the knees back between the bodies as the rolling space opens.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Settle the recovered guard",
-      "text": "Stabilize open or closed guard according to the available leg connection rather than assuming either result.",
+      "name": "Confirm the recovered guard",
+      "text": "Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.",
       "position": 6
     }
   ],
@@ -68,50 +68,50 @@ description: "Granby Roll to Guard (attacker): Let go when the partner begins li
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (bottom): What must you do if lifted while holding the Buggy loop?",
+      "name": "Granby Roll to Guard: what does identify the starting base require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam."
+        "text": "Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride."
       }
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (bottom): After release, what creates space for a knee to return?",
+      "name": "Granby Roll to Guard: what does check free movement require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use forearm frames and lateral hip movement to make space before bringing a knee between the bodies."
+        "text": "Check that the head and rolling shoulder can move safely before beginning the recovery."
       }
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (bottom): What separate condition is needed before a shoulder roll?",
+      "name": "Granby Roll to Guard: what does use the shoulder path require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use a shoulder roll only if a coach has established safe space and an untrapped upper back."
+        "text": "Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck."
       }
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (bottom): Which surface should carry a permitted shoulder roll?",
+      "name": "Granby Roll to Guard: what does bring the hips through require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not plant the head or roll over the cervical spine to force guard recovery."
+        "text": "Bring the hips through the available space while keeping the neck unloaded and the knees free to move."
       }
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (bottom): What do you insert when facing space opens?",
+      "name": "Granby Roll to Guard: what does reinsert the legs require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Face the opponent and insert the legs when the space opens."
+        "text": "Face the opponent and bring the knees back between the bodies as the rolling space opens."
       }
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (bottom): What confirms a basic closed-guard landing after recovery?",
+      "name": "Granby Roll to Guard: what does confirm the recovered guard require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stabilize open or closed guard according to the available leg connection rather than assuming either result. In a basic closed-guard landing you face the opponent with your legs enclosing the torso and your ankles crossed behind. Knees inside with unjoined feet establish an open guard instead; neither landing follows automatically from a roll."
+        "text": "Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot."
       }
     }
   ]
@@ -124,7 +124,7 @@ description: "Granby Roll to Guard (attacker): Let go when the partner begins li
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Granby Roll to Guard Attacker",
-  "description": "Granby Roll to Guard (attacker): Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam. Create distance while keeping the head free and the knees available to return inside.",
+  "description": "The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,104 +170,24 @@ description: "Granby Roll to Guard (attacker): Let go when the partner begins li
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Granby Roll to Guard (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Basic granby roll technique",
-      "description": "Granby Roll to Guard (Attacker) film study: Basic granby roll technique, taught by Danny Mitchell.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vyphbya8ZVQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vyphbya8ZVQ",
-      "url": "https://www.youtube.com/watch?v=vyphbya8ZVQ",
-      "creator": { "@type": "Person", "name": "Danny Mitchell" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Progression of the granby roll",
-      "description": "Granby Roll to Guard (Attacker) film study: Progression of the granby roll, taught by Ryan Loder.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ww3UlhG2GzI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ww3UlhG2GzI",
-      "url": "https://www.youtube.com/watch?v=Ww3UlhG2GzI",
-      "creator": { "@type": "Person", "name": "Ryan Loder" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Why the granby roll matters in BJJ",
-      "description": "Granby Roll to Guard (Attacker) film study: Why the granby roll matters in BJJ, taught by Unknown coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rSn2PkpXaPw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rSn2PkpXaPw",
-      "url": "https://www.youtube.com/watch?v=rSn2PkpXaPw",
-      "creator": { "@type": "Person", "name": "Unknown coach" },
-      "duration": "PT58S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The bottom player must have space to move over the shoulder without a trapped neck, arm or knee. Buggy Choke bottom is the holder of the choke, not a turtle defender under an upper-body ride. The reviewed Buggy instruction supports framing and recovering guard when the opponent disengages; it does not establish a direct Granby entry.
+The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact.
 
-Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam. Create distance while keeping the head free and the knees available to return inside. Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
+Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride. Check that the head and rolling shoulder can move safely before beginning the recovery.
 
-Do not plant the head or roll over the cervical spine to force guard recovery. Face the opponent and insert the legs when the space opens. Stabilize open or closed guard according to the available leg connection rather than assuming either result.
+Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck. Bring the hips through the available space while keeping the neck unloaded and the knees free to move. Face the opponent and bring the knees back between the bodies as the rolling space opens. Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.
 
-Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-While the Buggy loop is still in place, forearm and shin hip control can limit the top player rising; release immediately if you are lifted. For guard retention, open that loop and place forearms between the bodies to manage chest pressure. Move the hips to recover knee space first; a shoulder roll remains conditional on a free head and limbs.
-
-**From Position**: [[Positions/Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Granby Roll to Guard (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vyphbya8ZVQ)
-
-<p class="clip-credit"><strong>Basic granby roll technique</strong> — taught by Danny Mitchell · 0:44 · <a href="https://www.youtube.com/watch?v=vyphbya8ZVQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ww3UlhG2GzI)
-
-<p class="clip-credit"><strong>Progression of the granby roll</strong> — taught by Ryan Loder · 0:59 · <a href="https://www.youtube.com/watch?v=Ww3UlhG2GzI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rSn2PkpXaPw)
-
-<p class="clip-credit"><strong>Why the granby roll matters in BJJ</strong> — taught by Unknown coach · 0:58 · <a href="https://www.youtube.com/watch?v=rSn2PkpXaPw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -276,12 +196,12 @@ While the Buggy loop is still in place, forearm and shin hip control can limit t
 
 <p class="section-subtitle">What are the key principles for executing Granby Roll to Guard?</p>
 
-- Release the Buggy loop: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
-- Restore shoulder and hip frames: Create distance while keeping the head free and the knees available to return inside.
-- Check the rolling prerequisite: Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
-- Keep weight off the neck: Do not plant the head or roll over the cervical spine to force guard recovery.
-- Bring the knees back inside: Face the opponent and insert the legs when the space opens.
-- Settle the recovered guard: Stabilize open or closed guard according to the available leg connection rather than assuming either result.
+- Turtle with a controlling opponent: Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
+- Head and rolling shoulder are free: Check that the head and rolling shoulder can move safely before beginning the recovery.
+- Shoulder and upper back take weight: Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
+- Hips follow the controlled roll: Bring the hips through the available space while keeping the neck unloaded and the knees free to move.
+- Knees return between the bodies: Face the opponent and bring the knees back between the bodies as the rolling space opens.
+- Closed or open guard is established: Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.
 
 
 </section>
@@ -292,10 +212,10 @@ While the Buggy loop is still in place, forearm and shin hip control can limit t
 
 <p class="section-subtitle">What do you need before attempting Granby Roll to Guard?</p>
 
-- The bottom player must have space to move over the shoulder without a trapped neck, arm or knee.
-- Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
-- Create distance while keeping the head free and the knees available to return inside.
-- Buggy Choke bottom is the holder of the choke, not a turtle defender under an upper-body ride. The reviewed Buggy instruction supports framing and recovering guard when the opponent disengages; it does not establish a direct Granby entry.
+- Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
+- Check that the head and rolling shoulder can move safely before beginning the recovery.
+- Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
+- Bring the hips through the available space while keeping the neck unloaded and the knees free to move.
 
 
 </section>
@@ -306,12 +226,12 @@ While the Buggy loop is still in place, forearm and shin hip control can limit t
 
 <p class="section-subtitle">How do you execute Granby Roll to Guard step by step?</p>
 
-1. **Release the Buggy loop**: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
-2. **Restore shoulder and hip frames**: Create distance while keeping the head free and the knees available to return inside.
-3. **Check the rolling prerequisite**: Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
-4. **Keep weight off the neck**: Do not plant the head or roll over the cervical spine to force guard recovery.
-5. **Bring the knees back inside**: Face the opponent and insert the legs when the space opens.
-6. **Settle the recovered guard**: Stabilize open or closed guard according to the available leg connection rather than assuming either result.
+1. **Identify the starting base**: Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
+2. **Check free movement**: Check that the head and rolling shoulder can move safely before beginning the recovery.
+3. **Use the shoulder path**: Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
+4. **Bring the hips through**: Bring the hips through the available space while keeping the neck unloaded and the knees free to move.
+5. **Reinsert the legs**: Face the opponent and bring the knees back between the bodies as the rolling space opens.
+6. **Confirm the recovered guard**: Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.
 
 
 </section>
@@ -322,10 +242,10 @@ While the Buggy loop is still in place, forearm and shin hip control can limit t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 50% |
-| Success | [[Positions/Open Guard]] | 15% |
-| Failure | [[Positions/Buggy Choke]] | 20% |
-| Counter | [[Positions/Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Turtle]] | 45% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -336,10 +256,9 @@ While the Buggy loop is still in place, forearm and shin hip control can limit t
 
 <p class="section-subtitle">How might your opponent counter Granby Roll to Guard?</p>
 
-- **Watch for an arm reaching past your head and connecting to the same-side leg.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam. → Leads to [[Positions/Back Control]]
-- **Use balanced posture and safe inside frames before the loop closes.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Create distance while keeping the head free and the knees available to return inside. → Leads to [[Positions/Buggy Choke]]
-- **Treat the choke as live even though you hold top side control.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Use a shoulder roll only if a coach has established safe space and an untrapped upper back. → Leads to [[Positions/Closed Guard]]
-- **Free the head-and-arm enclosure before changing to north-south or chasing another pin.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Do not plant the head or roll over the cervical spine to force guard recovery. → Leads to [[Positions/Buggy Choke]]
+- **Follow the controlled roll while maintaining a stable and balanced base.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Turtle]]
+- **Keep the recovering player's neck free of stacked body weight.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Turtle]]
+- **Address the returning knees before guard is established.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Back Control]]
 
 
 </section>
@@ -350,30 +269,30 @@ While the Buggy loop is still in place, forearm and shin hip control can limit t
 
 <p class="section-subtitle">What mistakes should you avoid when executing Granby Roll to Guard?</p>
 
-### 1. Skipping the checkpoint: release the buggy loop
+### 1. Skipping identify the starting base
 
-- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
-- **Correction**: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
 
-### 2. Skipping the checkpoint: restore shoulder and hip frames
+### 2. Skipping check free movement
 
-- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Create distance while keeping the head free and the knees available to return inside.
-- **Correction**: Create distance while keeping the head free and the knees available to return inside.
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Check that the head and rolling shoulder can move safely before beginning the recovery.
 
-### 3. Skipping the checkpoint: check the rolling prerequisite
+### 3. Skipping use the shoulder path
 
-- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
-- **Correction**: Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
 
-### 4. Skipping the checkpoint: keep weight off the neck
+### 4. Skipping bring the hips through
 
-- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Do not plant the head or roll over the cervical spine to force guard recovery.
-- **Correction**: Do not plant the head or roll over the cervical spine to force guard recovery.
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Bring the hips through the available space while keeping the neck unloaded and the knees free to move.
 
-### 5. Skipping the checkpoint: bring the knees back inside
+### 5. Skipping reinsert the legs
 
-- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Face the opponent and insert the legs when the space opens.
-- **Correction**: Face the opponent and insert the legs when the space opens.
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Face the opponent and bring the knees back between the bodies as the rolling space opens.
 
 
 
@@ -385,17 +304,17 @@ While the Buggy loop is still in place, forearm and shin hip control can limit t
 
 <p class="section-subtitle">How do you train Granby Roll to Guard (Attacker)?</p>
 
-**Phase 1** - Identify the configuration
-Work cooperatively on release the buggy loop. Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
+**Phase 1** - Identify the starting base
+Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 2** - Rehearse the connection
-Work cooperatively on restore shoulder and hip frames. Create distance while keeping the head free and the knees available to return inside. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
+**Phase 2** - Check free movement
+Check that the head and rolling shoulder can move safely before beginning the recovery. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 3** - Add an early response
-Work cooperatively on check the rolling prerequisite. Use a shoulder roll only if a coach has established safe space and an untrapped upper back. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
+**Phase 3** - Use the shoulder path
+Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 4** - Link only verified checkpoints
-Work cooperatively on keep weight off the neck. Do not plant the head or roll over the cervical spine to force guard recovery. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
+**Phase 4** - Bring the hips through
+Bring the hips through the available space while keeping the neck unloaded and the knees free to move. Pause at this checkpoint with a cooperative partner before linking the next step.
 
 
 
@@ -409,7 +328,7 @@ Work cooperatively on keep weight off the neck. Do not plant the head or roll ov
 
 <p class="section-subtitle">What are the safety concerns for Granby Roll to Guard?</p>
 
-Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 </section>
 

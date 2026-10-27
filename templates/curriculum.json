@@ -188,8 +188,8 @@
               "deckKey": "Hip Escape from Back Control|Attacker"
             },
             {
-              "nodeId": "Transitions/Elbow-Escape-to-Remove-Hooks",
-              "deckKey": "Elbow Escape to Remove Hooks|Attacker"
+              "nodeId": "Transitions/Elbow-Escape-from-Back",
+              "deckKey": "Elbow Escape from Back|Attacker"
             },
             {
               "nodeId": "Transitions/Turn-In-and-Face",

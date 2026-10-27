@@ -115,8 +115,8 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).
 
-**From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 38%
+**From Position**: [[Positions/Aoki Lock Control]] (Bottom)
+**Success Rate**: 35%
 
 </section>
 
@@ -162,9 +162,9 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Kimura Trap]] | 65% |
-| Failure | [[Positions/Aoki Lock Control]] | 25% |
-| Counter | [[Positions/Turtle]] | 10% |
+| Success | [[Positions/Kimura Trap]] | 35% |
+| Failure | [[Positions/Aoki Lock Control]] | 45% |
+| Counter | [[Positions/Ashi Garami]] | 20% |
 
 
 </section>
@@ -200,7 +200,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 - Connect the arm figure-four: Hold the opposing wrist and your own wrist while keeping the captured elbow controlled.
 
-- Stop at shoulder control: Use the grip as a positional handle without forcing the wrist behind the back.
+- Stop at top Kimura Trap control: Use the grip as a positional handle without forcing the wrist behind the back. The original bottom player must also establish top control.
 
 
 ### Execution Steps
@@ -216,7 +216,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 - **Connect the arm figure-four**: Hold the opposing wrist and your own wrist while keeping the captured elbow controlled....
 
-- **Stop at shoulder control**: Use the grip as a positional handle without forcing the wrist behind the back....
+- **Stop at top Kimura Trap control**: Use the grip as a positional handle without forcing the wrist behind the back....
 
 
 ### Common Mistakes
@@ -266,7 +266,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 - Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
 
-- Obtain a separate arm-control position before attempting a figure-four grip.
+- The attacker seeks a separate arm-control position before attempting a figure-four grip.
 
 
 ### Defensive Options

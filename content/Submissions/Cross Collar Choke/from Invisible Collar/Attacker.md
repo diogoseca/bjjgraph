@@ -230,7 +230,7 @@ Place the forearms beside the neck without dragging across the jaw or bending th
 
 The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.
 
-**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 
 </section>
@@ -323,9 +323,11 @@ The collar must be used as a controlled choking surface, never to grind the face
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 65% |
-| Failure | [[Positions/Back Control]] | 25% |
-| Counter | [[Positions/Half Guard]] | 10% |
+| Success | [[game-over]] | gi only |
+| Failure | [[Positions/Rubber Guard/Invisible Collar]] | gi only |
+| Counter | [[Positions/Rubber Guard/Chill Dog]] | gi only |
+
+_3 of these outcomes do not exist in no-gi and carry no probability here. The outcomes that do exist total 0%._
 
 
 </section>
@@ -336,10 +338,10 @@ The collar must be used as a controlled choking surface, never to grind the face
 
 <p class="section-subtitle">How might your opponent defend against Cross Collar Choke from Invisible Collar?</p>
 
-- **Fight collar access while the attacker has only a shallow connection.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Keep the opponent close enough to reach the collar without extending both arms unsupported. → Leads to [[Positions/Back Control]]
-- **Keep an inside frame before the hands cross into a complete choke.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Take a secure collar grip beside the neck rather than a shallow handful of cloth. → Leads to [[Positions/Back Control]]
-- **Manage the distance before both collar grips are fixed; do not jerk backward against a loaded choke.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Bring the second hand to the opposite collar using the grip orientation taught for the chosen variation. → Leads to [[Positions/Half Guard]]
-- **Work on a grip and neck space while the enclosure remains loose.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully. → Leads to [[Positions/Half Guard]]
+- **Fight collar access while the attacker has only a shallow connection.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Keep the opponent close enough to reach the collar without extending both arms unsupported. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
+- **Keep an inside frame before the hands cross into a complete choke.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Take a secure collar grip beside the neck rather than a shallow handful of cloth. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
+- **Manage the distance before both collar grips are fixed; do not jerk backward against a loaded choke.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Bring the second hand to the opposite collar using the grip orientation taught for the chosen variation. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Work on a grip and neck space while the enclosure remains loose.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 
 
 </section>

@@ -243,8 +243,6 @@ Body Triangle Lock serves as a critical transition within the back attack system
 
 - [[Positions/Crucifix]] - Alternative advancement - can transition to crucifix if opponent attempts belly-down escape
 
-- [[Transitions/Back Take from Top]] - Entry pathway - common method of reaching Gift Wrap before body triangle
-
 - [[Transitions/Back Door Escape]] - Defensive counter-system - understanding escapes improves offensive application
 
 - [[Positions/Mount/Technical Mount]] - Alternative advancement - can follow opponent to mount if body triangle is blocked

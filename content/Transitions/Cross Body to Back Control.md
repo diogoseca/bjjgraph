@@ -302,8 +302,6 @@ Cross Body to Back Control functions as the primary advancement pathway within t
 
 - [[Positions/Back Control/Body Triangle]] - Follow-up variation - leg control option after establishing back control
 
-- [[Transitions/Back Take]] - Related transition category - broader back take system this technique belongs to
-
 - [[Transitions/Crab Ride to Back]] - Alternative pathway - parallel transition through crab ride intermediate
 
 - [[Submissions/Rear Naked Choke]] - Primary follow-up submission - highest percentage finish from back control

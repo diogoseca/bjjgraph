@@ -156,8 +156,8 @@
     ],
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
+      "position_type": "Defensive",
+      "risk_level": "Medium to High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -276,75 +276,32 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 78,
+        "value": 30,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 72,
+        "value": 35,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 70,
+        "value": 60,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
     },
     "transitions": [
       {
-        "transition": "Cross Collar Choke from Invisible Collar",
+        "transition": "Invisible Collar Posture Recovery",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 4
+          "gi": 95,
+          "nogi": 90
         }
       },
       {
-        "transition": "Rear Naked Choke from Invisible Collar",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 37
-        }
-      },
-      {
-        "transition": "Armbar from Back Transition",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Aoki Lock to Crucifix",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Bow and Arrow Choke from Invisible Collar",
-        "attempt_probability": {
-          "gi": 16,
-          "nogi": null
-        }
-      },
-      {
-        "transition": "Clock Choke from Invisible Collar",
+        "transition": "Standing Escape",
         "attempt_probability": {
           "gi": 5,
-          "nogi": null
-        }
-      },
-      {
-        "transition": "Back Control Maintenance",
-        "attempt_probability": {
-          "gi": 28,
-          "nogi": 29
-        },
-        "deal_here": true
-      },
-      {
-        "transition": "Body Triangle Lock",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 19
+          "nogi": 10
         }
       }
     ],
@@ -503,8 +460,8 @@
     ],
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "High",
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium to High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -623,60 +580,46 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 30,
+        "value": 78,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 35,
+        "value": 72,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 60,
+        "value": 70,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
     },
     "transitions": [
       {
-        "transition": "Hand Fighting to Remove Collar Grip",
+        "transition": "Invisible Collar Choke",
         "attempt_probability": {
-          "gi": 39,
-          "nogi": 39
+          "gi": 35,
+          "nogi": 40
         }
       },
       {
-        "transition": "Hip Escape to Guard",
+        "transition": "Invisible Collar to Chill Dog",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 21
+          "gi": 35,
+          "nogi": 40
         }
       },
       {
-        "transition": "Elbow Escape to Remove Hooks",
+        "transition": "Invisible Collar Guard Reset",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 15
+          "gi": 15,
+          "nogi": 20
         }
       },
       {
-        "transition": "Rolling Escape to Guard",
+        "transition": "Cross Collar Choke from Invisible Collar",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Standing Escape",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Granby Roll to Guard",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 15,
+          "nogi": null
         }
       }
     ],

@@ -102,7 +102,7 @@ description: "Arm Triangle from Hindulotine requires a new head-and-arm enclosur
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Head-and-arm choke</span>
 <span class="meta-chip">Targets Sides of the neck</span>
-<span class="meta-chip">32% success</span>
+<span class="meta-chip">25% success</span>
 </div>
 
 > [!danger] Safety
@@ -117,15 +117,15 @@ description: "Arm Triangle from Hindulotine requires a new head-and-arm enclosur
 
 <section id="overview" class="content-section">
 
-The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.
+The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.
 
-Establish a stable pin or equivalent control with one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable. Close the arm loop without changing the neck into a twisting position.
+Maintain a stable guard connection while bringing one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable. Close the arm loop without changing the neck into a twisting position.
 
 Use positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap.
 
 Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](https://www.grapplearts.com/how-to-do-the-head-and-arm-choke-aka-kata-gatame/); [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc).
 
-**Starting Position**: [[Positions/Hindulotine]] · **From**: [[Positions/Hindulotine]] (Top)
+**Starting Position**: [[Hindulotine/Bottom]] · **From**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -171,9 +171,9 @@ Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](ht
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 62% |
-| Failure | [[Positions/Hindulotine]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Success | [[game-over]] | 25% |
+| Failure | [[Positions/Hindulotine]] | 50% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>
@@ -185,7 +185,7 @@ Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](ht
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Obtain head-and-arm access: Establish a stable pin or equiva... | Keep the elbow inside: Recover the arm before it crosses the... |
+| **Key Principles** | Obtain head-and-arm access: Maintain a stable guard connecti... | Keep the elbow inside: Recover the arm before it crosses the... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -199,7 +199,7 @@ Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](ht
 ### Key Principles
 
 
-- Obtain head-and-arm access: Establish a stable pin or equivalent control with one opposing arm across the neck.
+- Obtain head-and-arm access: Maintain a stable guard connection while bringing one opposing arm across the neck.
 
 - Wrap the head: Place the attacking upper arm beside one side of the neck without levering the head backward.
 
@@ -215,7 +215,7 @@ Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](ht
 ### Execution Steps
 
 
-- **Obtain head-and-arm access**: Establish a stable pin or equivalent control with one opposing arm across the neck....
+- **Obtain head-and-arm access**: Maintain a stable guard connection while bringing one opposing arm across the neck....
 
 - **Wrap the head**: Place the attacking upper arm beside one side of the neck without levering the head backward....
 
@@ -232,8 +232,8 @@ Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](ht
 
 
 - **Skipping the checkpoint: obtain head-and-arm access**
-  - Consequence: The intended control is not established before the next movement; the missing requirement is: Establish a stable pin or equivalent control with one opposing arm across the neck.
-  - Correction: Establish a stable pin or equivalent control with one opposing arm across the neck.
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Maintain a stable guard connection while bringing one opposing arm across the neck.
+  - Correction: Maintain a stable guard connection while bringing one opposing arm across the neck.
 
 - **Skipping the checkpoint: wrap the head**
   - Consequence: The intended control is not established before the next movement; the missing requirement is: Place the attacking upper arm beside one side of the neck without levering the head backward.
@@ -271,11 +271,11 @@ Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](ht
 ### Recognition Cues
 
 
-- The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin.
+- The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck.
 
-- Place the attacking upper arm beside one side of the neck without levering the head backward.
+- The attacker places the attacking upper arm beside one side of your neck without levering your head backward.
 
-- Close the arm loop without changing the neck into a twisting position.
+- The attacker closes the arm loop without changing your neck into a twisting position.
 
 
 ### Escape Paths
@@ -294,7 +294,7 @@ Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](ht
 ## Variations
 
 
-**Control-only rehearsal**: The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin. Establish a stable pin or equivalent control with one opposing arm across the neck. (When to use: Cooperative practice before adding resistance or any finishing pressure)
+**Control-only rehearsal**: The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck. Maintain a stable guard connection while bringing one opposing arm across the neck. (When to use: Cooperative practice before adding resistance or any finishing pressure)
 
 
 **Entry prerequisite check**: Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface. (When to use: Before linking this submission to a different starting position)

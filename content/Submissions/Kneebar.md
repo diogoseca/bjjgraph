@@ -113,7 +113,7 @@ description: "Master the Kneebar in BJJ. Complete guide covering safety protocol
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Kneebar?", "acceptedAnswer": { "@type": "Answer", "text": "The Kneebar is a leg-lock submission that hyperextends the opponent\u0027s knee by trapping their leg against your torso and driving your hips forward, attacked from ashi garami and other leg entanglements as the linear-force complement to the heel hook." } },
-    { "@type": "Question", "name": "What positions can you finish the Kneebar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kneebar from 50-50 Guard, Carni, Half Guard, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Straight Ankle Lock Control, Toe Hold Control, Side Control, Closed Guard, Single Leg X-Guard, Backside 50-50, Leg Entanglement, Saddle." } },
+    { "@type": "Question", "name": "What positions can you finish the Kneebar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kneebar from 50-50 Guard, Half Guard, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Straight Ankle Lock Control, Toe Hold Control, Side Control, Closed Guard, Single Leg X-Guard, Backside 50-50, Leg Entanglement, Saddle." } },
     { "@type": "Question", "name": "Is the Kneebar dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Kneebar targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early and release immediately on the tap." } }
   ]
 }
@@ -201,7 +201,6 @@ The technique has evolved significantly with modern leg lock systems, particular
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Kneebar/from 50-50|50-50 Guard]] | Top | 60% | [[Submissions/Kneebar/from 50-50/Attacker|Attack →]] | [[Submissions/Kneebar/from 50-50/Defender|Defend →]] |
-| [[Submissions/Kneebar/from Carni|Carni]] | Bottom | 60% | [[Submissions/Kneebar/from Carni/Attacker|Attack →]] | [[Submissions/Kneebar/from Carni/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Half Guard|Half Guard]] | Bottom | 60% | [[Submissions/Kneebar/from Half Guard/Attacker|Attack →]] | [[Submissions/Kneebar/from Half Guard/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Kneebar/from Honey Hole/Attacker|Attack →]] | [[Submissions/Kneebar/from Honey Hole/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Inside Ashi-Garami|Inside Ashi-Garami]] | Top | 60% | [[Submissions/Kneebar/from Inside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Kneebar/from Inside Ashi-Garami/Defender|Defend →]] |

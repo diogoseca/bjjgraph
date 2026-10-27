@@ -104,8 +104,8 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Instructional sources: [Shawn Williams — John Wayne sweep from half guard](https://www.youtube.com/watch?v=dKlm6xRmpIA).
 
-**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
-**Success Rate**: 58%
+**From Position**: [[Positions/Half Guard]] (Bottom)
+**Success Rate**: 40%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Shawn Williams — John Wayne sweep from half guard](htt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 58% |
-| Failure | [[Positions/Half Guard]] | 27% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Half Guard]] | 45% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -245,9 +245,9 @@ Instructional sources: [Shawn Williams — John Wayne sweep from half guard](htt
 
 - The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor.
 
-- Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack.
+- The bottom player uses an underhook and controls your whizzer or posting arm without leaving the elbow exposed to a front-headlock attack.
 
-- Bring the knee into the hip line as the other foot supplies a controlled post.
+- The bottom player brings the knee into your hip line as their other foot supplies a controlled post.
 
 
 ### Defensive Options

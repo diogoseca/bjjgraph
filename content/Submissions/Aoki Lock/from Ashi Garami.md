@@ -102,7 +102,7 @@ description: "Aoki Lock from Ashi Garami captures a foot turned outward beside t
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Rotational foot lock</span>
 <span class="meta-chip">Targets Foot and ankle, with rotational stress transmitted to the knee</span>
-<span class="meta-chip">50% success</span>
+<span class="meta-chip">30% success</span>
 </div>
 
 > [!danger] Safety
@@ -125,7 +125,7 @@ Use capture-and-release practice without finishing rotation. Pain is not a relia
 
 Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).
 
-**Starting Position**: [[Positions/Ashi Garami]] · **From**: [[Positions/Ashi Garami]] (Bottom)
+**Starting Position**: [[Ashi Garami/Bottom]] · **From**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -171,8 +171,8 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Positions/Ashi Garami]] | 25% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Ashi Garami]] | 50% |
 | Counter | [[Positions/Open Guard]] | 20% |
 
 

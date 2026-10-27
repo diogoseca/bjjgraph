@@ -56,10 +56,10 @@ description: "Progression to Zombie (defender): Keep a useful forearm between th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Progression to Zombie (top): What should you retain after regaining your inside hand?",
+      "name": "Progression to Zombie (top): What should you retain as their hand-clearing pummel starts?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Retain the recovered frame so the guard player cannot immediately clear the hand out again."
+        "text": "Retain the inside frame so the guard player cannot clear your hand toward the mat and complete the arm isolation."
       }
     },
     {
@@ -200,7 +200,7 @@ description: "Progression to Zombie (defender): Keep a useful forearm between th
 
 <section id="overview" class="content-section">
 
-The bottom guard player begins in New York, facing a top player whose posture is controlled. Completed New York already contains the result of the Zombie pummel. First recognize a lost arm isolation and re-establish Mission Control rather than treating Zombie as a later static lockdown.
+The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside. Completed New York already contains the result of the Zombie pummel. The bottom player begins clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation.
 
 Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. The free hand working under yours is the cue to recover inside position before the knee hug closes.
 
@@ -208,9 +208,9 @@ Retract the elbow toward your ribs through available space, stopping if the shou
 
 Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-The early escape keeps the elbow inside and denies the knee hug. Treat the renewed arm isolation as a submission setup once it closes, and open the connection safely instead of twisting the trapped shoulder.
+The early escape keeps the elbow inside and denies the knee hug. Treat completed arm isolation as a submission setup once it closes, and open the connection safely instead of twisting the trapped shoulder.
 
-**Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
 
@@ -256,9 +256,9 @@ The early escape keeps the elbow inside and denies the knee hug. Treat the renew
 
 <p class="section-subtitle">How do you know when someone is attempting Progression to Zombie?</p>
 
-- The bottom guard player begins in New York, facing a top player whose posture is controlled.
-- Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
-- Cover the cleared arm and close the knee hug as the hand reaches the mat.
+- The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside.
+- The bottom player works through the opening near your hand rather than forcing a tightly clamped elbow straight outward.
+- The bottom player keeps the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.
 
 
 </section>
@@ -288,7 +288,7 @@ The early escape keeps the elbow inside and denies the knee hug. Treat the renew
 ### 1. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Rubber Guard/New York]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -302,14 +302,14 @@ The early escape keeps the elbow inside and denies the knee hug. Treat the renew
 ### 3. The free hand working under yours is the cue to recover inside position before the knee hug closes.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Rubber Guard/New York]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 4. Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Rubber Guard/New York]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -323,7 +323,7 @@ The early escape keeps the elbow inside and denies the knee hug. Treat the renew
 
 <p class="section-subtitle">What is the best outcome when defending Progression to Zombie?</p>
 
-### → [[Positions/Rubber Guard/New York]]
+### → [[Positions/Rubber Guard/Mission Control]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
 

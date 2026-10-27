@@ -17,6 +17,7 @@ description: "Leaving Dead Orchard from bottom releases the high both-arm leg tr
   "@type": "WebPage",
   "name": "Escape from Dead Orchard",
   "description": "Leaving Dead Orchard from bottom releases the high both-arm leg triangle and restores guard frames. The top player is the one defending the captured arms.",
+  "alternateName": ["Dead Orchard guard reset"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -96,6 +97,9 @@ description: "Leaving Dead Orchard from bottom releases the high both-arm leg tr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Dead Orchard guard reset</strong></p>
+</aside>
 <div class="role-links">
 
 [[Escape from Dead Orchard/Attacker|Play as Attacker]]
@@ -116,7 +120,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 Instructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.youtube.com/watch?v=XoiB1D2WJwE); [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo).
 
 **From Position**: [[Positions/Dead Orchard Control]] (Bottom)
-**Success Rate**: 35%
+**Success Rate**: 65%
 
 </section>
 
@@ -162,9 +166,9 @@ Instructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.you
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 35% |
-| Failure | [[Positions/Dead Orchard Control]] | 40% |
-| Counter | [[Positions/Side Control]] | 25% |
+| Success | [[Positions/Closed Guard]] | 65% |
+| Failure | [[Positions/Dead Orchard Control]] | 20% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>

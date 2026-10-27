@@ -4,7 +4,7 @@
 
 ---
 title: "Suloev Stretch from Half Guard | BJJ Submission | BJJ Graph"
-description: "The Suloev Stretch captures an ankle from rear control against a tripod. It stretches the extended leg; half guard alone does not establish the finish."
+description: "The Suloev Stretch from a rear tripod captures the elevated opponent's ankle while retaining rear torso control, extending the leg with controlled hamstring tension."
 ---
 
 
@@ -16,7 +16,8 @@ description: "The Suloev Stretch captures an ankle from rear control against a t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Suloev Stretch from Half Guard",
-  "description": "The Suloev Stretch captures an ankle from rear control against a tripod. It stretches the extended leg; half guard alone does not establish the finish.",
+  "description": "The Suloev Stretch from a rear tripod captures the elevated opponent\u0027s ankle while retaining rear torso control, extending the leg with controlled hamstring tension.",
+  "alternateName": ["Suloev Stretch from Rear Tripod"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +77,7 @@ description: "The Suloev Stretch captures an ankle from rear control against a t
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Suloev Stretch from Half Guard",
-  "description": "The Suloev Stretch is a back-control submission that captures a tripoding opponent's ankle and extends the leg while the torso is contained, loading the hamstring rather than folding the calf.",
+  "description": "The Suloev Stretch from a rear tripod captures the elevated opponent's ankle while retaining rear torso control, extending the leg with controlled hamstring tension.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -86,17 +87,20 @@ description: "The Suloev Stretch captures an ankle from rear control against a t
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Suloev Stretch is a back-control submission that captures a tripoding opponent's ankle and extends the leg while the torso is contained, loading the hamstring rather than folding the calf.**
+**The Suloev Stretch from a rear tripod captures the elevated opponent's ankle while retaining rear torso control, extending the leg with controlled hamstring tension.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Hamstring stretch</span>
 <span class="meta-chip">Targets Hamstring and posterior hip; knee at risk if the leg is twisted</span>
-<span class="meta-chip">60% success</span>
+<span class="meta-chip">35% success</span>
 </div>
 
 > [!danger] Safety
 > Suloev Stretch from Half Guard targets the Hamstring and posterior hip; knee at risk if the leg is twisted. Primary risk: Hamstring or tendon injury from forced extension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Suloev Stretch from Rear Tripod</strong></p>
+</aside>
 <div class="role-links">
 
 [[Submissions/Suloev Stretch/from Half Guard/Attacker|Play as Attacker]]
@@ -114,7 +118,7 @@ Use a cooperative entry and stop at the aligned capture. Never drop onto the str
 
 Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submission breakdown](https://www.youtube.com/watch?v=iHhOQwl1src); [ADCC — competition rules](https://adcombat.com/adcc-rules-regulations/).
 
-**Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Top)
+**Starting Position**: [[Back Control/Top]] · **From**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -152,9 +156,9 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Half Guard]] | 25% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[game-over]] | 35% |
+| Failure | [[Positions/Back Control]] | 45% |
+| Counter | [[Positions/Turtle]] | 20% |
 
 
 </section>
@@ -254,9 +258,9 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 
 - The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle.
 
-- Work only when the opponent's raised hips expose an ankle without sacrificing your balance.
+- Your raised hips expose an ankle that the rear attacker can reach while retaining balance.
 
-- Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.
+- The attacker arranges your leg so it extends in its natural line rather than rotating sideways at the knee.
 
 
 ### Escape Paths
@@ -289,14 +293,7 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 
 ## From Which Positions?
 
-- [[Positions/Half Guard]]
-- [[Positions/Half Guard/Deep Half Guard]]
-- [[Positions/Z-Guard]]
-- [[Positions/Half Guard/Lockdown]]
-- [[Positions/Half Guard/Knee Shield Half Guard]]
-- [[Positions/Quarter Guard]]
-- [[Positions/Turtle]]
-- [[Positions/Side Control]]
+- [[Positions/Back Control]]
 
 
 </section>

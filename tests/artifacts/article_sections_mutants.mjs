@@ -76,6 +76,14 @@ const retiredGutter = `  frameCamera(target) {
   }
 `;
 const mutants = [
+  // D-501: restore the ancestor move that reloads a seatless reference player's document.
+  ['d501-card-insert-before', seam, 'published reference videos.*Learning/Position-Over-Submission 1440px.*native card moves',
+    s => replace(s, 'parent.moveBefore(s.card, parent.children[i] || null)', 'parent.insertBefore(s.card, parent.children[i] || null)')],
+  // D-482: reach the claim through the approved U25 disclosure and actual inline-link fragments.
+  ['d482-closed-anchor-hidden', sections, '390px unknown authored sections and cross-section anchors',
+    s => replace(s, 'this.toggleSection(section.dataset.sectionType, true); this.layoutNow();', '/* mutant: leave the anchor target hidden */')],
+  ['d482-hidden-row-inert', 'reading-navigation.spec.ts', '390px native reading keys and section toggles',
+    s => replace(s, 'const opening = !sectionShown(this.app, group.type);', 'const opening = !sectionShown(this.app, group.type); if (opening) return;')],
   ['content-loss', sections, 'semantic sections.*Mount/Bottom', s => replace(s, 'fragment.append(part.node);', 'part.node.querySelector?.("p")?.remove(); fragment.append(part.node);')],
   ['wrong-order', sections, 'semantic sections.*Knee-Slice-Pass/Attacker', s => replace(s, 'return rank(a) - rank(b);', 'return rank(b) - rank(a);')],
   ['settings-ignored', sections, 'section settings carry', s => replace(s, 'return app.get("readerSection." + type, true) !== false;', 'return true;')],
@@ -125,7 +133,10 @@ const mutants = [
   ['toc-not-fixed', sections, 'floating contents owns.*dark', s => s, css => replace(css, '.ng-reader-toc{position:fixed', '.ng-reader-toc{position:absolute')],
   ['toc-container', sections, 'floating contents owns.*light', s => s, css => css + '\n.ng-reader-toc{background:#1b2034;border:1px solid #414c68;box-shadow:0 0 4px #000}\n'],
   ['missing-gap', sections, '1366px choices precede', s => s, css => replace(css, '--section-gap:6px', '--section-gap:0px')],
-  ['collapsed-contrast', sections, 'contents and header targets at 390x844', s => s, css => replace(css, 'color:#a8b0c2', 'color:#555b68')],
+  // U16B-S1: target the closed label itself. The first #a8b0c2 is the OPEN divider title.
+  // U25 now carries that same control in its disclosure; the 7:1 claim must kill this override.
+  ['collapsed-contrast', sections, 'contents and header targets at 390x844', s => s,
+    css => css + '\n.ng-reader .ng-section-card[data-collapsed=true] [data-section-toggle]{color:#555b68!important}\n'],
   ['game-collapsed-contrast', sections, 'D-338 1024px', s => s, css => css + '\n.ng-reader-closed-part [data-game-open]{color:#555b68!important}\n'],
   ['defender-hub-leak', contract, 'defender reading excludes.*Rear-Naked-Choke', s => replace(s, 'shared.replaceChildren(...safety);', '/* mutant: keep the full attacker-rich hub */')],
   ['stale-response', contract, 'a late response cannot repaint', s => replace(replace(s, 'this.abort?.abort();', '/* mutant: no abort */'), 'if (serial !== this.serial || this.app.__ngDestroyed) return;', 'if (this.app.__ngDestroyed) return;')],
@@ -208,7 +219,7 @@ const mutants = [
   ['d433-question-first-lost-631', 'covered-card.spec.ts', 'U35 D-433.*390x631', phoneQuestionFirstLost],
   // U14 b (owner, 2026-10-24): asymmetric side reserves shift the words; missing rules lose the divider.
   ['u14-divider-off-centre', 'section-divider.spec.ts', '1440px divider titles', s => s,
-    css => css + '.ng-section-card>h2{padding-left:20px}'],
+    css => css + '.ng-section-card>h2{padding-left:52px}'],
   // U14 b (owner, 2026-10-24), H163: display:none also moved the words and failed centering first.
   // Keep the flex boxes and remove only their paint so this control reaches its own rules claim.
   ['u14-divider-rules-lost', 'section-divider.spec.ts', '390px divider titles', s => s,

@@ -10,11 +10,11 @@
   "submission_category": "Choke",
   "submission_type": "High-elbow guillotine",
   "target_area": "Neck",
-  "starting_position": "Hindulotine",
+  "starting_position": "Hindulotine/Bottom",
   "from_position": "Hindulotine/Bottom",
   "success_rate": {
-    "gi": 58,
-    "nogi": 58
+    "gi": 30,
+    "nogi": 30
   },
   "overview": "The attacker is in front of the lowered head with a neck-wrapping arm and a supporting hand whose elbow can rise over the shoulder. The high elbow belongs to the supporting arm in this guillotine configuration. Hindu Control instead routes an arm over a raised foot; a separate re-grip is needed to change between the two.\n\nControl the lowered head with a stable base before seeking the finishing grip. Place the choking forearm beside the neck without pulling the head into extension. Close the hand connection while leaving space during the learning drill. Bring the supporting elbow over the shoulder through a comfortable arm path.\n\nRaise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap.\n\nInstructional sources: [Rob Biernacki and Stephan Kesting — guillotine control](https://www.grapplearts.com/guillotine-choke/); [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc).",
   "safety_considerations": {
@@ -72,28 +72,28 @@
   ],
   "outcomes": [
     {
+      "result": "success",
       "to": "game-over",
       "probability": {
-        "gi": 58,
-        "nogi": 58
-      },
-      "result": "success"
+        "gi": 30,
+        "nogi": 30
+      }
     },
     {
+      "result": "failure",
       "to": "Hindulotine/Bottom",
       "probability": {
-        "gi": 27,
-        "nogi": 27
-      },
-      "result": "failure"
+        "gi": 45,
+        "nogi": 45
+      }
     },
     {
-      "to": "Closed Guard/Top",
+      "result": "counter",
+      "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
-      "result": "counter"
+        "gi": 25,
+        "nogi": 25
+      }
     }
   ],
   "attacker": {
@@ -157,13 +157,13 @@
         "counter": "Hand fight before the support hand locks into place.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Place the choking forearm beside the neck without pulling the head into extension.",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Closed Guard/Bottom"
       },
       {
         "counter": "Do not force the head backward against the closed arm loop.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Close the hand connection while leaving space during the learning drill.",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Closed Guard/Bottom"
       },
       {
         "counter": "Use inside frames before the raised elbow blocks the shoulder space.",
@@ -423,14 +423,14 @@
       {
         "action": "Hand fight before the support hand locks into place.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Closed Guard/Top",
+        "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Raise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap."
       },
       {
         "action": "Do not force the head backward against the closed arm loop.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Closed Guard/Top",
+        "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Raise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap."
       },
@@ -448,7 +448,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Closed Guard/Top",
+        "outcome": "Closed Guard/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. A support elbow traveling above the shoulder signals the high-elbow variation."
       }
     ],

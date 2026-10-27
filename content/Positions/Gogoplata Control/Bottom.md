@@ -269,7 +269,6 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 
 **If opponent turns shoulder away from choking shin to escape the throat compression:**
 - Execute **[[Omoplata Transition/Attacker|Omoplata Transition]]** → [[Positions/Omoplata Control]] (Probability: 60%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts forward roll through the position to escape shin pressure:**

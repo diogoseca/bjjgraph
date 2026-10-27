@@ -102,7 +102,7 @@ description: "Cross Collar Choke from Invisible Collar requires jacket grips. Es
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Crossed gi-collar choke</span>
 <span class="meta-chip">Targets Sides of the neck via crossed forearms and collar tension</span>
-<span class="meta-chip">58% success</span>
+<span class="meta-chip">gi only</span>
 </div>
 
 > [!danger] Safety
@@ -125,7 +125,7 @@ The collar must be used as a controlled choking surface, never to grind the face
 
 Instructional sources: [Stephan Kesting and Rob Biernacki — cross-collar choke](https://www.grapplearts.com/cross-collar-choke-mount/); [Eddie Bravo — MTS 134 Invisible Collar in Austin](https://www.youtube.com/watch?v=KCyIwacRKu8).
 
-**Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] · **From**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
+**Starting Position**: [[Invisible Collar/Bottom]] · **From**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
 
@@ -171,9 +171,11 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — cross-collar choke
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 65% |
-| Failure | [[Positions/Back Control]] | 25% |
-| Counter | [[Positions/Half Guard]] | 10% |
+| Success | [[game-over]] | gi only |
+| Failure | [[Positions/Rubber Guard/Invisible Collar]] | gi only |
+| Counter | [[Positions/Rubber Guard/Chill Dog]] | gi only |
+
+_3 of these outcomes do not exist in no-gi and carry no probability here. The outcomes that do exist total 0%._
 
 
 </section>
@@ -273,9 +275,9 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — cross-collar choke
 
 - The attacker faces the opponent with access to both jacket collars and enough posture control to establish the grips.
 
-- Take a secure collar grip beside the neck rather than a shallow handful of cloth.
+- The attacker takes a secure collar grip beside your neck rather than a shallow handful of cloth.
 
-- Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully.
+- The attacker places the forearms beside your neck without dragging across the jaw or bending the wrists painfully.
 
 
 ### Escape Paths

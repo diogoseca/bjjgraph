@@ -165,11 +165,6 @@
         "condition": "If opponent loses whizzer control, exposes their back, or commits weight forward excessively",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
             "technique": "Underhook Sweep from Dogfight",
             "target": "Side Control",
             "probability": 65
@@ -194,11 +189,6 @@
       {
         "condition": "If opponent attempts to circle their trapped leg free while maintaining balance",
         "actions": [
-          {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 60
-          },
           {
             "technique": "Dogfight Sweep",
             "target": "Side Control",
@@ -591,11 +581,6 @@
         "condition": "If opponent loses whizzer control, exposes their back, or commits weight forward excessively",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
             "technique": "Underhook Sweep from Dogfight",
             "target": "Side Control",
             "probability": 65
@@ -620,11 +605,6 @@
       {
         "condition": "If opponent attempts to circle their trapped leg free while maintaining balance",
         "actions": [
-          {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 60
-          },
           {
             "technique": "Dogfight Sweep",
             "target": "Side Control",

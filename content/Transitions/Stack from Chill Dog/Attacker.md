@@ -303,8 +303,8 @@ The safe passing checkpoint is a free shoulder and inside arm position, with hip
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 45% |
-| Failure | [[Positions/Rubber Guard/Chill Dog]] | 35% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 45% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 
 

@@ -102,7 +102,7 @@ description: "Aoki Lock from Aoki Lock Control uses the turned-out foot and hip 
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Rotational foot lock</span>
 <span class="meta-chip">Targets Foot and ankle, with rotational stress transmitted to the knee</span>
-<span class="meta-chip">31% success</span>
+<span class="meta-chip">35% success</span>
 </div>
 
 > [!danger] Safety
@@ -125,7 +125,7 @@ Use capture-and-release practice without finishing rotation. Pain is not a relia
 
 Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).
 
-**Starting Position**: [[Positions/Aoki Lock Control]] · **From**: [[Positions/Aoki Lock Control]] (Top)
+**Starting Position**: [[Aoki Lock Control/Bottom]] · **From**: [[Positions/Aoki Lock Control]] (Bottom)
 
 </section>
 
@@ -171,9 +171,9 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 50% |
-| Failure | [[Positions/Aoki Lock Control]] | 32% |
-| Counter | [[Positions/Closed Guard]] | 18% |
+| Success | [[game-over]] | 35% |
+| Failure | [[Positions/Aoki Lock Control]] | 45% |
+| Counter | [[Positions/Ashi Garami]] | 20% |
 
 
 </section>
@@ -273,9 +273,9 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 - The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.
 
-- Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
+- The attacker brings your instep under the upper arm and supports the heel/Achilles region with the forearm.
 
-- Use the legs and hip connection to limit free movement without twisting a planted knee.
+- The attacker uses the legs and hip connection to limit your free movement without twisting a planted knee.
 
 
 ### Escape Paths

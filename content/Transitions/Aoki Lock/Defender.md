@@ -189,7 +189,7 @@ description: "Aoki Lock (defender): Treat an outward-turned foot caught by the u
 
 <section id="overview" class="content-section">
 
-The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.
+The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.
 
 Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock. Hand fight and recover foot position before the attacker connects around the foot. Do not rotate the torso independently of a captured foot and knee.
 
@@ -199,7 +199,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 The early escape removes the hand enclosure and the leg entanglement while the foot and knee can still stay aligned. Once released, bring the freed knee back toward the torso and recover a facing frame before restarting the exchange.
 
-**Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ The early escape removes the hand enclosure and the leg entanglement while the f
 
 <p class="section-subtitle">How do you know when someone is attempting Aoki Lock?</p>
 
-- The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.
-- Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
-- Use the legs and hip connection to limit free movement without twisting a planted knee.
+- The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection.
+- The attacker brings your instep under the upper arm and supports the heel/Achilles region with the forearm.
+- The attacker uses the legs and hip connection to limit your free movement without twisting a planted knee.
 
 
 </section>
@@ -276,21 +276,21 @@ The early escape removes the hand enclosure and the leg entanglement while the f
 ### 2. Hand fight and recover foot position before the attacker connects around the foot.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Aoki Lock Control]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 3. Do not rotate the torso independently of a captured foot and knee.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Aoki Lock Control]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 4. Create slack in the hand and hip controls before withdrawing the leg.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Submissions/Aoki Lock/from Aoki Lock Control]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -304,7 +304,7 @@ The early escape removes the hand enclosure and the leg entanglement while the f
 
 <p class="section-subtitle">What is the best outcome when defending Aoki Lock?</p>
 
-### → [[Positions/Aoki Lock Control]]
+### → [[Positions/Ashi Garami]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.
 

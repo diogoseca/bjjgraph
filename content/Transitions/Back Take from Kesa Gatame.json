@@ -103,10 +103,6 @@
       "relationship": "Counter position opponent may achieve if back take attempt fails and they step over"
     },
     {
-      "name": "Back Take",
-      "relationship": "Generic back take transition sharing similar mechanical principles"
-    },
-    {
       "name": "Rear Naked Choke",
       "relationship": "Primary follow-up submission after achieving back control from this transition"
     }

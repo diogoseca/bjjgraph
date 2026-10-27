@@ -311,7 +311,6 @@ The submission's danger profile demands extreme caution in training. The spinal 
 - [[Positions/Russian Cowboy]] - Starting position providing the single-hook back control foundation
 - [[Positions/Back Control]] - Positional alternative when Twister defense is too strong
 - [[Positions/Half Guard/Lockdown]] - Bottom half guard position that feeds into the Twister system
-- [[Transitions/Back Take]] - Primary transition for establishing back control that leads to Russian Cowboy
 - [[Positions/Half Guard]] - Recovery position for defender who successfully counters the Twister attempt
 
 </section>

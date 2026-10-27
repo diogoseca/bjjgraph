@@ -191,7 +191,6 @@ Within the broader Kimura shoulder-lock system, the Reverse Kimura occupies the 
 - [[Submissions/Japanese Necktie]] - Front headlock neck crank sharing similar turtle and front headlock entries
 - [[Submissions/High Elbow Guillotine]] - Standing choke alternative when reverse Kimura grip is denied at the neck
 - [[Positions/Kimura Trap]] - Control position incorporating reverse grip variations and systematic shoulder attacks
-- [[Transitions/Back Take]] - Primary transition when reverse Kimura is defended by rotation, attacker follows to back control
 - [[Positions/Overhook Control]] - Standing setup position for reverse Kimura entry
 - [[Positions/Gift Wrap]] - Alternative arm trap leading to similar submission mechanics
 - [[Positions/Turtle]] - Common position where reverse Kimura is applied from top control

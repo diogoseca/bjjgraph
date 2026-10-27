@@ -1,0 +1,374 @@
+{
+  "name": "Invisible Collar Posture Recovery",
+  "from_position": "Invisible Collar/Top",
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
+      "result": "success"
+    },
+    {
+      "to": "Invisible Collar/Top",
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
+      "result": "failure"
+    }
+  ],
+  "summary": "The top player opens the high Invisible Collar enclosure before recovering posture, then identifies closed or open guard with the head and shoulders safely released.",
+  "description": "The top player opens the high Invisible Collar enclosure before recovering posture, then identifies closed or open guard with the head and shoulders safely released.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The top player opens the high Invisible Collar enclosure before recovering posture, then identifies closed or open guard with the head and shoulders safely released.\n\nBegin as the top player caught by the bottom holder's high Invisible Collar leg enclosure. Keep the head and shoulders aligned instead of forcing posture through a closed enclosure.\n\nRelease the high enclosure while respecting the position of the head, arm and raised knees. Clear the shoulder line before trying to rebuild upright posture. When ordinary guard closes, recognize Closed Guard/Top with the high enclosure removed. When the legs cannot close, recognize facing Open Guard/Top; an intact high enclosure remains a failed recovery.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Invisible Collar",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Invisible Collar Posture Recovery Attacker",
+    "description": "The top player opens the high Invisible Collar enclosure before recovering posture, then identifies closed or open guard with the head and shoulders safely released.",
+    "overview": "The top player opens the high Invisible Collar enclosure before recovering posture, then identifies closed or open guard with the head and shoulders safely released.\n\nBegin as the top player caught by the bottom holder's high Invisible Collar leg enclosure. Keep the head and shoulders aligned instead of forcing posture through a closed enclosure.\n\nRelease the high enclosure while respecting the position of the head, arm and raised knees. Clear the shoulder line before trying to rebuild upright posture. When ordinary guard closes, recognize Closed Guard/Top with the high enclosure removed. When the legs cannot close, recognize facing Open Guard/Top; an intact high enclosure remains a failed recovery.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Top inside a facing high clinch: Begin as the top player caught by the bottom holder's high Invisible Collar leg enclosure.",
+      "Head and shoulders remain aligned: Keep the head and shoulders aligned instead of forcing posture through a closed enclosure.",
+      "Leg enclosure opens before rising: Release the high enclosure while respecting the position of the head, arm and raised knees.",
+      "Shoulder line clears the high legs: Clear the shoulder line before trying to rebuild upright posture.",
+      "Top inside ordinary closed guard: When ordinary guard closes, recognize Closed Guard/Top with the high enclosure removed.",
+      "Open guard after the legs release: When the legs cannot close, recognize facing Open Guard/Top; an intact high enclosure remains a failed recovery."
+    ],
+    "setup_requirements": [
+      "Begin as the top player caught by the bottom holder's high Invisible Collar leg enclosure.",
+      "Keep the head and shoulders aligned instead of forcing posture through a closed enclosure.",
+      "Release the high enclosure while respecting the position of the head, arm and raised knees.",
+      "Clear the shoulder line before trying to rebuild upright posture."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the defending side",
+        "description": "Begin as the top player caught by the bottom holder's high Invisible Collar leg enclosure."
+      },
+      {
+        "step_number": 2,
+        "action": "Protect alignment",
+        "description": "Keep the head and shoulders aligned instead of forcing posture through a closed enclosure."
+      },
+      {
+        "step_number": 3,
+        "action": "Open the high connection",
+        "description": "Release the high enclosure while respecting the position of the head, arm and raised knees."
+      },
+      {
+        "step_number": 4,
+        "action": "Free the shoulders",
+        "description": "Clear the shoulder line before trying to rebuild upright posture."
+      },
+      {
+        "step_number": 5,
+        "action": "Recover closed-guard posture",
+        "description": "When ordinary guard closes, recognize Closed Guard/Top with the high enclosure removed."
+      },
+      {
+        "step_number": 6,
+        "action": "Recover facing open guard",
+        "description": "When the legs cannot close, recognize facing Open Guard/Top; an intact high enclosure remains a failed recovery."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Retain the high enclosure without forcing neck pressure.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Invisible Collar/Top"
+      },
+      {
+        "counter": "Follow small posture changes with a supported hip angle.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Invisible Collar/Top"
+      },
+      {
+        "counter": "Keep the first connection if the second leg begins to open.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Invisible Collar/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the defending side",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the top player caught by the bottom holder's high Invisible Collar leg enclosure."
+      },
+      {
+        "error": "Skipping protect alignment",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Keep the head and shoulders aligned instead of forcing posture through a closed enclosure."
+      },
+      {
+        "error": "Skipping open the high connection",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Release the high enclosure while respecting the position of the head, arm and raised knees."
+      },
+      {
+        "error": "Skipping free the shoulders",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Clear the shoulder line before trying to rebuild upright posture."
+      },
+      {
+        "error": "Skipping recover closed-guard posture",
+        "consequence": "The next action lacks its required control.",
+        "correction": "When ordinary guard closes, recognize Closed Guard/Top with the high enclosure removed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the defending side",
+        "description": "Begin as the top player caught by the bottom holder's high Invisible Collar leg enclosure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Protect alignment",
+        "description": "Keep the head and shoulders aligned instead of forcing posture through a closed enclosure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the high connection",
+        "description": "Release the high enclosure while respecting the position of the head, arm and raised knees. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Free the shoulders",
+        "description": "Clear the shoulder line before trying to rebuild upright posture. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Invisible Collar Posture Recovery: what does identify the defending side require?",
+        "answer": "Begin as the top player caught by the bottom holder's high Invisible Collar leg enclosure.",
+        "answer_line": "Top inside a facing high clinch",
+        "distractors": {
+          "plausible": [
+            "A jacket-grip escape from the back",
+            "Rising while the head stays enclosed"
+          ],
+          "trap": [
+            "A pass before clearing both legs"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Posture Recovery: what does protect alignment require?",
+        "answer": "Keep the head and shoulders aligned instead of forcing posture through a closed enclosure.",
+        "answer_line": "Head and shoulders remain aligned",
+        "distractors": {
+          "plausible": [
+            "Rising while the head stays enclosed",
+            "A pass before clearing both legs"
+          ],
+          "trap": [
+            "An automatic physical reversal"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Posture Recovery: what does open the high connection require?",
+        "answer": "Release the high enclosure while respecting the position of the head, arm and raised knees.",
+        "answer_line": "Leg enclosure opens before rising",
+        "distractors": {
+          "plausible": [
+            "A pass before clearing both legs",
+            "An automatic physical reversal"
+          ],
+          "trap": [
+            "A jacket-grip escape from the back"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Posture Recovery: what does free the shoulders require?",
+        "answer": "Clear the shoulder line before trying to rebuild upright posture.",
+        "answer_line": "Shoulder line clears the high legs",
+        "distractors": {
+          "plausible": [
+            "An automatic physical reversal",
+            "A jacket-grip escape from the back"
+          ],
+          "trap": [
+            "Rising while the head stays enclosed"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Posture Recovery: what does recover closed-guard posture require?",
+        "answer": "When ordinary guard closes, recognize Closed Guard/Top with the high enclosure removed.",
+        "answer_line": "Top inside ordinary closed guard",
+        "distractors": {
+          "plausible": [
+            "A jacket-grip escape from the back",
+            "Rising while the head stays enclosed"
+          ],
+          "trap": [
+            "A pass before clearing both legs"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Posture Recovery: what does recover facing open guard require?",
+        "answer": "When the legs cannot close, recognize facing Open Guard/Top; an intact high enclosure remains a failed recovery.",
+        "answer_line": "Open guard after the legs release",
+        "distractors": {
+          "plausible": [
+            "Rising while the head stays enclosed",
+            "A pass before clearing both legs"
+          ],
+          "trap": [
+            "An automatic physical reversal"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Invisible Collar Posture Recovery Defender",
+    "description": "Recognize Invisible Collar Posture Recovery and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Retain the high enclosure without forcing neck pressure. Follow small posture changes with a supported hip angle. Keep the first connection if the second leg begins to open. Restore closed guard when the high enclosure releases and distance permits. Use open guard if the ankles cannot close comfortably.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Retain the high enclosure without forcing neck pressure.",
+      "Follow small posture changes with a supported hip angle.",
+      "Keep the first connection if the second leg begins to open.",
+      "Restore closed guard when the high enclosure releases and distance permits.",
+      "Use open guard if the ankles cannot close comfortably."
+    ],
+    "recognition_cues": [
+      "Begin as the top player caught by the bottom holder's high Invisible Collar leg enclosure.",
+      "Keep the head and shoulders aligned instead of forcing posture through a closed enclosure.",
+      "Release the high enclosure while respecting the position of the head, arm and raised knees."
+    ],
+    "defensive_options": [
+      {
+        "action": "Retain the high enclosure without forcing neck pressure.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Invisible Collar/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Follow small posture changes with a supported hip angle.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Invisible Collar/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Keep the first connection if the second leg begins to open.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Invisible Collar/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Restore closed guard when the high enclosure releases and distance permits.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Invisible Collar/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Invisible Collar/Top",
+        "how": "Retain the high enclosure without forcing neck pressure."
+      },
+      {
+        "outcome": "Invisible Collar/Top",
+        "how": "Use open guard if the ankles cannot close comfortably."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Use open guard if the ankles cannot close comfortably."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Follow small posture changes with a supported hip angle."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Invisible Collar Posture Recovery, what connection do you address first?",
+        "answer": "Retain the high enclosure without forcing neck pressure."
+      },
+      {
+        "question": "Against Invisible Collar Posture Recovery, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Invisible Collar Posture Recovery, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the defending side",
+        "description": "Begin as the top player caught by the bottom holder's high Invisible Collar leg enclosure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Protect alignment",
+        "description": "Keep the head and shoulders aligned instead of forcing posture through a closed enclosure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the high connection",
+        "description": "Release the high enclosure while respecting the position of the head, arm and raised knees. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the top player caught by the bottom holder's high Invisible Collar leg enclosure.",
+    "Keep the head and shoulders aligned instead of forcing posture through a closed enclosure.",
+    "Release the high enclosure while respecting the position of the head, arm and raised knees."
+  ],
+  "position_integration": "The top player opens the high Invisible Collar enclosure before recovering posture, then identifies closed or open guard with the head and shoulders safely released. Begin as the top player caught by the bottom holder's high Invisible Collar leg enclosure. When the legs cannot close, recognize facing Open Guard/Top; an intact high enclosure remains a failed recovery."
+}

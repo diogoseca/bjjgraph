@@ -105,7 +105,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](https://www.youtube.com/watch?v=iClQ2Np-n30).
 
 **From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 35%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Rubber Guard/Carni]] | 60% |
-| Failure | [[Positions/Rubber Guard/New York]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Carni]] | 35% |
+| Failure | [[Positions/Rubber Guard/New York]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>

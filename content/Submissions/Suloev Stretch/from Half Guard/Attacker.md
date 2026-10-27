@@ -4,7 +4,7 @@
 
 ---
 title: "Suloev Stretch from Half Guard Attacker | BJJ Submission Guide | BJJ Graph"
-description: "Suloev Stretch from Half Guard (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance."
+description: "Suloev Stretch from Rear Tripod (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance."
 ---
 
 
@@ -70,7 +70,7 @@ description: "Suloev Stretch from Half Guard (attacker): Control the torso from 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Suloev Stretch after Half Guard: what must you control before reaching below the opponent's hips?",
+      "name": "Suloev Stretch from Rear Tripod: what must you control before reaching below the opponent's hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their torso from behind. Control the torso from behind before reaching below the hips."
@@ -126,7 +126,8 @@ description: "Suloev Stretch from Half Guard (attacker): Control the torso from 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Suloev Stretch from Half Guard Attacker",
-  "description": "Suloev Stretch from Half Guard (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
+  "description": "Suloev Stretch from Rear Tripod (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
+  "alternateName": ["Suloev Stretch from Rear Tripod"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -209,6 +210,9 @@ description: "Suloev Stretch from Half Guard (attacker): Control the torso from 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Suloev Stretch from Rear Tripod</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
@@ -219,7 +223,7 @@ Arrange the leg so it extends in its natural line rather than rotating sideways 
 
 Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.
 
-**From Position**: [[Positions/Half Guard]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -304,9 +308,9 @@ Use a cooperative entry and stop at the aligned capture. Never drop onto the str
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Half Guard]] | 25% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[game-over]] | 35% |
+| Failure | [[Positions/Back Control]] | 45% |
+| Counter | [[Positions/Turtle]] | 20% |
 
 
 </section>
@@ -317,10 +321,10 @@ Use a cooperative entry and stop at the aligned capture. Never drop onto the str
 
 <p class="section-subtitle">How might your opponent defend against Suloev Stretch from Half Guard?</p>
 
-- **A hand reaching from your back toward the ankle is an early cue to protect the leg.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Control the torso from behind before reaching below the hips. → Leads to [[Positions/Half Guard]]
-- **Use hand fighting before the ankle and torso are controlled together.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. → Leads to [[Positions/Half Guard]]
-- **Maintain a stable base and address the rear attachment before raising the hips with a leg available.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control. → Leads to [[Positions/Half Guard]]
-- **Keep the captured leg aligned instead of rolling sideways against the ankle grip.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee. → Leads to [[Positions/Half Guard]]
+- **A hand reaching from your back toward the ankle is an early cue to protect the leg.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Control the torso from behind before reaching below the hips. → Leads to [[Positions/Back Control]]
+- **Use hand fighting before the ankle and torso are controlled together.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. → Leads to [[Positions/Turtle]]
+- **Maintain a stable base and address the rear attachment before raising the hips with a leg available.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control. → Leads to [[Positions/Back Control]]
+- **Keep the captured leg aligned instead of rolling sideways against the ankle grip.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee. → Leads to [[Positions/Turtle]]
 
 
 </section>

@@ -4,7 +4,7 @@
 
 ---
 title: "Aoki Lock | BJJ Technique | BJJ Graph"
-description: "Entering the Aoki Lock from Aoki Lock Control keeps the outward-turned foot enclosed and the hip contained. Rehearse the transition without finishing rotation."
+description: "Entering Aoki Lock Control from Ashi Garami captures an available outward-turned foot while retaining the hip connection. Rehearse the transition without finishing rotation."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Entering the Aoki Lock from Aoki Lock Control keeps the outward-tu
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Aoki Lock",
-  "description": "Entering the Aoki Lock from Aoki Lock Control keeps the outward-turned foot enclosed and the hip contained. Rehearse the transition without finishing rotation.",
+  "description": "Entering Aoki Lock Control from Ashi Garami captures an available outward-turned foot while retaining the hip connection. Rehearse the transition without finishing rotation.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -96,7 +96,7 @@ description: "Entering the Aoki Lock from Aoki Lock Control keeps the outward-tu
 
 **The Aoki Lock is a rotational foot lock that captures a turned-out foot against the upper body while controlling the leg and hip, potentially stressing both the ankle and knee.**
 
-The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.
+The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.
 
 Identify the turned-out foot without forcing it to rotate against resistance. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. Secure the upper-body enclosure while leaving the foot unloaded during practice.
 
@@ -104,8 +104,8 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).
 
-**From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 50%
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
+**Success Rate**: 40%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Aoki Lock/from Aoki Lock Control]] | 65% |
-| Failure | [[Positions/Aoki Lock Control]] | 25% |
-| Counter | [[Positions/Open Guard]] | 10% |
+| Success | [[Positions/Aoki Lock Control]] | 40% |
+| Failure | [[Positions/Ashi Garami]] | 40% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,11 +243,11 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 ### Recognition Cues
 
 
-- The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.
+- The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection.
 
-- Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
+- The attacker brings your instep under the upper arm and supports the heel/Achilles region with the forearm.
 
-- Use the legs and hip connection to limit free movement without twisting a planted knee.
+- The attacker uses the legs and hip connection to limit your free movement without twisting a planted knee.
 
 
 ### Defensive Options
@@ -283,7 +283,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 ## Position Integration
 
-The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
+The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 

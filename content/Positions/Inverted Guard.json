@@ -430,9 +430,40 @@
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 13
-        }
+          "gi": 14,
+          "nogi": 15
+        },
+        "success_rate": {
+          "gi": 55,
+          "nogi": 55
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 55,
+              "nogi": 55
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inverted Guard/Top",
+            "probability": {
+              "gi": 30,
+              "nogi": 30
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ],
+        "deal_here": true
       },
       {
         "transition": "Leg Drag Pass",
@@ -458,8 +489,8 @@
       {
         "transition": "Stack Pass from Inversion",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 7
+          "gi": 13,
+          "nogi": 10
         }
       },
       {
@@ -484,13 +515,6 @@
         }
       },
       {
-        "transition": "Toreando from Inverted",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
         "transition": "Step Over to Mount",
         "attempt_probability": {
           "gi": 3,
@@ -509,13 +533,6 @@
         "attempt_probability": {
           "gi": 2,
           "nogi": 2
-        }
-      },
-      {
-        "transition": "Pressure Pass through Center",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 3
         }
       },
       {
@@ -734,7 +751,7 @@
             "probability": 55
           },
           {
-            "technique": "Kiss of the Dragon",
+            "technique": "Bolo Sweep",
             "target": "Back Control",
             "probability": 45
           }
@@ -880,7 +897,7 @@
         "relationship": "Essential movement pattern for exiting inverted guard safely and recovering guard"
       },
       {
-        "name": "Kiss of the Dragon",
+        "name": "Bolo Sweep",
         "relationship": "Advanced back take variation from inverted guard with high finishing potential"
       },
       {
@@ -936,8 +953,8 @@
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 8
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
@@ -957,9 +974,40 @@
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 2
-        }
+          "gi": 6,
+          "nogi": 5
+        },
+        "success_rate": {
+          "gi": 58,
+          "nogi": 58
+        },
+        "outcomes": [
+          {
+            "to": "Standing Position/Top",
+            "probability": {
+              "gi": 55,
+              "nogi": 55
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inverted Guard/Bottom",
+            "probability": {
+              "gi": 30,
+              "nogi": 30
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Headquarters Position/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ],
+        "deal_here": true
       },
       {
         "transition": "Bolo Sweep",
@@ -1061,20 +1109,6 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 5
-        }
-      },
-      {
-        "transition": "Granby to Closed Guard",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Technical Standup from Inversion",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
         }
       },
       {

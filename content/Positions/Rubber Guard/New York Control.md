@@ -149,25 +149,23 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (8% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (9% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (9% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
 
-- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (10% of attempts)
+- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (11% of attempts)
 
-- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (9% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (10% of attempts)
 
-- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (10% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (11% of attempts)
 
-- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (8% of attempts)
-
-- **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** (8% of attempts)
+- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (9% of attempts)
 
 - **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (6% of attempts)
 
-- **[[Submissions/Kimura/from New York Control/Attacker|Kimura from New York Control]]** (8% of attempts)
+- **[[Submissions/Kimura/from New York Control/Attacker|Kimura from New York Control]]** (9% of attempts)
 
 - **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (5% of attempts)
 

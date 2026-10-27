@@ -257,13 +257,11 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (17% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (18% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (13% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (14% of attempts)
 
 - **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
-
-- **[[Transitions/Back Take/Attacker|Back Take]]** (4% of attempts)
 
 - **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (9% of attempts)
 
@@ -271,9 +269,9 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 - **[[Submissions/Kimura/from Flattened Half Guard/Attacker|Kimura from Flattened Half Guard]]** (5% of attempts)
 
-- **[[Transitions/Complete Pass from Flattened Half/Attacker|Complete Pass from Flattened Half]]** (15% of attempts)
+- **[[Transitions/Complete Pass from Flattened Half/Attacker|Complete Pass from Flattened Half]]** (16% of attempts)
 
-- **[[Transitions/Knee Slide from Flattened Half/Attacker|Knee Slide from Flattened Half]]** (11% of attempts)
+- **[[Transitions/Knee Slide from Flattened Half/Attacker|Knee Slide from Flattened Half]]** (12% of attempts)
 
 - **[[Transitions/Cross Face Pass from Flattened Half/Attacker|Cross Face Pass from Flattened Half]]** (9% of attempts)
 

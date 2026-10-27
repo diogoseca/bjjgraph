@@ -285,23 +285,21 @@ Strategically, Ushiro Kesa Gatame serves as an excellent transitional position i
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (10% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
-- **[[Submissions/Kimura/from Ushiro Kesa Gatame/Attacker|Kimura from Ushiro Kesa Gatame]]** (16% of attempts)
+- **[[Submissions/Kimura/from Ushiro Kesa Gatame/Attacker|Kimura from Ushiro Kesa Gatame]]** (18% of attempts)
 
-- **[[Submissions/Americana/from Ushiro Kesa Gatame/Attacker|Americana from Ushiro Kesa Gatame]]** (9% of attempts)
+- **[[Submissions/Americana/from Ushiro Kesa Gatame/Attacker|Americana from Ushiro Kesa Gatame]]** (10% of attempts)
 
-- **[[Submissions/Arm Triangle/from Ushiro Kesa Gatame/Attacker|Arm Triangle from Ushiro Kesa Gatame]]** (10% of attempts)
+- **[[Submissions/Arm Triangle/from Ushiro Kesa Gatame/Attacker|Arm Triangle from Ushiro Kesa Gatame]]** (11% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (10% of attempts)
+- **[[Transitions/Ushiro Kesa Gatame to North-South/Attacker|Ushiro Kesa Gatame to North-South]]** (13% of attempts)
 
-- **[[Transitions/Ushiro Kesa Gatame to North-South/Attacker|Ushiro Kesa Gatame to North-South]]** (12% of attempts)
+- **[[Transitions/Ushiro Kesa Gatame to Side Control/Attacker|Ushiro Kesa Gatame to Side Control]]** (15% of attempts)
 
-- **[[Transitions/Ushiro Kesa Gatame to Side Control/Attacker|Ushiro Kesa Gatame to Side Control]]** (13% of attempts)
-
-- **[[Submissions/North-South Choke/from Ushiro Kesa Gatame/Attacker|North-South Choke from Ushiro Kesa Gatame]]** (9% of attempts)
+- **[[Submissions/North-South Choke/from Ushiro Kesa Gatame/Attacker|North-South Choke from Ushiro Kesa Gatame]]** (10% of attempts)
 
 
 ### Common Mistakes

@@ -28,7 +28,7 @@ from _slug import slugify  # shared single-source slugify (node keys + alias map
 # regenerate_neural_data, tests/learning_content, tests/system_guides).
 from _slug import quartz_page_path as quartz_slug
 from _atomic_io import atomic_write_json
-from _ruleset import reduce_to_scalar, as_map, cell, present_rulesets, RULESETS  # {gi,nogi} contract (calibration-v2); positions load raw since Q3
+from _ruleset import reduce_to_scalar, as_map, cell, present_rulesets, RULESETS, common_outcome_frame
 import _votes  # forked {community, prior} votes schema — prior-blended per-ruleset rates (Phase 2.3b)
 
 
@@ -875,6 +875,7 @@ def _defender_outcomes(att_outcomes: list) -> list:
         {
             'to': _flip_role_suffix(o.get('to', '')),
             'probability': o.get('probability', 0),
+            'probabilityByRuleset': dict(o['probabilityByRuleset']),
             'result': _DEFENDER_RESULT.get(o.get('result', 'success'), o.get('result', 'success')),
         }
         for o in att_outcomes
@@ -894,11 +895,12 @@ _OUTCOME_STATS: dict = {}
 
 def _reset_outcome_stats(scope: str) -> None:
     _OUTCOME_STATS[scope] = {'outcomes': 0, 'no_prob_key': 0, 'no_frame': 0, 'no_frame_refs': [],
-                             'techniques': 0, 'no_sr_key': 0}
+                             'techniques': 0, 'no_sr_key': 0, 'sr_no_gi': 0, 'sr_no_nogi': 0,
+                             'no_gi': 0, 'no_nogi': 0}
 
 
 def _outcome_prob(o: dict, ref: str, scope: str):
-    """The authored probability of ONE outcome, censused as it is read.
+    """One authored outcome's no-gi scalar AND ruleset pair, censused as it is read.
 
     Read at the two AUTHORED sites only (the transition attacker and the submission
     attacker). `_defender_outcomes` deliberately does NOT call this: it is a role-FLIP of an
@@ -913,13 +915,31 @@ def _outcome_prob(o: dict, ref: str, scope: str):
     st['outcomes'] += 1
     if 'probability' not in o:
         st['no_prob_key'] += 1
-        return 0
-    prob = o['probability']
-    if not present_rulesets([prob]):
+    prob = as_map(o.get('probability', 0))
+    frames = present_rulesets([prob])
+    for rs in RULESETS:
+        if rs not in frames:
+            st['no_' + rs] += 1
+    if not frames:
         st['no_frame'] += 1
         if len(st['no_frame_refs']) < 40:
             st['no_frame_refs'].append(ref)
-    return prob
+    # Keep the row in the combined graph: the other frame can still use it. A null
+    # headline is an absent no-gi edge, never an authored zero or a copy of gi.
+    return {'probability': cell(prob, 'nogi'), 'probabilityByRuleset': prob}
+
+
+def _technique_rate(data: dict, slug: str, scope: str) -> dict:
+    """Read a technique's rate without flattening away its ruleset availability."""
+    _count_success_rate_key(data, scope)
+    rate = as_map(data.get('success_rate', 50))
+    frames = present_rulesets([rate])
+    for rs in RULESETS:
+        if rs not in frames:
+            _OUTCOME_STATS[scope]['sr_no_' + rs] += 1
+    if not frames:
+        _record_no_frame_rate(data, slug)
+    return rate
 
 
 def _count_success_rate_key(data: dict, scope: str) -> None:
@@ -940,13 +960,16 @@ def _count_success_rate_key(data: dict, scope: str) -> None:
 def _report_outcomes(scope: str) -> None:
     st = _OUTCOME_STATS[scope]
     print(f"  {scope.capitalize()} rates: {st['techniques']} technique(s); "
-          f"{st['no_sr_key']} with no success_rate key (defaulted to 50)")
+          f"{st['no_sr_key']} with no success_rate key (defaulted to 50); "
+          f"absent in gi {st['sr_no_gi']}, no-gi {st['sr_no_nogi']}")
     if st['no_sr_key']:
         print(f"  WARNING: {st['no_sr_key']} {scope} carry NO success_rate key and were "
               f"defaulted to 50 in BOTH frames — a fabricated number, not an absence.")
     print(f"  {scope.capitalize()} outcomes: {st['outcomes']} authored; "
           f"{st['no_prob_key']} with no probability key (defaulted to 0), "
           f"{st['no_frame']} that exist in no ruleset frame (emitted null)")
+    print(f"  {scope.capitalize()} outcome cells absent (dropped from that frame): "
+          f"gi {st['no_gi']}, no-gi {st['no_nogi']}; combined rows retain both cells")
     if st['no_prob_key']:
         print(f"  WARNING: {st['no_prob_key']} {scope} outcome(s) carry NO probability key "
               f"and were defaulted to 0 — a fabricated number, not an absence.")
@@ -958,16 +981,7 @@ def _report_outcomes(scope: str) -> None:
 
 
 def _complement_rate(success_rate):
-    """The defender's side of an exchange: 100 - attacker, or None when there is no exchange.
-
-    Transitions and Submissions still load REDUCED (reduce_to_scalar), so a DIVERGENT
-    {gi,nogi} rate is caught in load_json_files and never reaches here; a MIRROR null
-    ({gi:null,nogi:null}) collapses to a bare None and DOES. `max(0, 100 - None)` is a
-    TypeError that killed the run after "Processed N position roles" with no path in the
-    message — but coercing to `max(0, 100 - 0)` = 100 would be far worse: it hands the
-    defender a 100% success rate in a ruleset where the exchange does not exist at all.
-    A null attacker frame must yield a null defender frame; nothing else is honest.
-    """
+    """The defender's side of ONE frame: 100 - attacker, or None for an absent exchange."""
     return None if success_rate is None else max(0, 100 - success_rate)
 
 
@@ -994,7 +1008,7 @@ def _first_success_target(outcomes: list) -> str:
 def process_transitions(content_dir: Path) -> dict:
     transitions_dir = content_dir / 'Transitions'
     positions_dir = content_dir / 'Positions'
-    transition_files = load_json_files(transitions_dir)
+    transition_files = load_json_files(transitions_dir, reduce=False)
     path_index = build_position_path_index(positions_dir)
     transitions = {}
     _reset_outcome_stats('transitions')   # module-level counters; one run == one census
@@ -1039,10 +1053,8 @@ def process_transitions(content_dir: Path) -> dict:
             for c in cc_source
         ]
 
-        _count_success_rate_key(trans_data, 'transitions')
-        success_rate = trans_data.get('success_rate', 50)
-        if success_rate is None:
-            _record_no_frame_rate(trans_data, slug)
+        rate = _technique_rate(trans_data, slug, 'transitions')
+        success_rate = cell(rate, 'nogi')
 
         # Derive endingPosition from first success outcome in outcomes[]
         ending_slug = ''
@@ -1077,7 +1089,7 @@ def process_transitions(content_dir: Path) -> dict:
             to_slug = '/'.join(slugify(part) for part in to_parts) if to_raw else ''
             outcomes.append({
                 'to': to_slug,
-                'probability': _outcome_prob(o, f"{slug} -> {to_slug or '?'}", 'transitions'),
+                **_outcome_prob(o, f"{slug} -> {to_slug or '?'}", 'transitions'),
                 'result': o.get('result', 'success')
             })
 
@@ -1106,6 +1118,7 @@ def process_transitions(content_dir: Path) -> dict:
             'endingPosition': ending_slug,
             'endingPositionPath': ending_path,
             'successRate': success_rate,
+            'successRateByRuleset': rate,
             'flashcards': attacker_flashcards,
             'commonCounters': common_counters,
         }
@@ -1127,6 +1140,7 @@ def process_transitions(content_dir: Path) -> dict:
             'endingPosition': _first_success_target(def_outcomes),  # already role-flipped in def_outcomes
             'endingPositionPath': '',
             'successRate': _complement_rate(success_rate),
+            'successRateByRuleset': {rs: _complement_rate(rate[rs]) for rs in RULESETS},
             'flashcards': defender_flashcards,
             'commonCounters': [],
         }
@@ -1155,7 +1169,7 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
     """Process submissions. Returns (submissions_dict, hub_slugs_set, family_hubs_dict)."""
     submissions_dir = content_dir / 'Submissions'
     positions_dir = content_dir / 'Positions'
-    submission_files = load_json_files(submissions_dir)
+    submission_files = load_json_files(submissions_dir, reduce=False)
     path_index = build_position_path_index(positions_dir)
     submissions = {}
     hub_slugs = set()
@@ -1194,10 +1208,8 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
         ]
 
         from_positions = [slugify(p) for p in sub_data.get('from_positions', [])]
-        _count_success_rate_key(sub_data, 'submissions')
-        success_rate = sub_data.get('success_rate', 50)
-        if success_rate is None:
-            _record_no_frame_rate(sub_data, slug)
+        rate = _technique_rate(sub_data, slug, 'submissions')
+        success_rate = cell(rate, 'nogi')
 
         # Determine starting position: prefer from_position (split on "/" to get position part),
         # fall back to starting_position
@@ -1223,7 +1235,7 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
         outcomes = [
             {
                 'to': '/'.join(slugify(part) for part in o.get('to', '').split('/')) if o.get('to') else '',
-                'probability': _outcome_prob(o, f"{slug} -> {o.get('to', '?')}", 'submissions'),
+                **_outcome_prob(o, f"{slug} -> {o.get('to', '?')}", 'submissions'),
                 'result': o.get('result', 'success')
             }
             for o in outcomes_raw
@@ -1253,6 +1265,7 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
             'fromRole': att_role,
             'fromPositions': from_positions,
             'successRate': success_rate,
+            'successRateByRuleset': rate,
             'flashcards': attacker_flashcards,
         }
         if outcomes:
@@ -1273,6 +1286,7 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
             'fromRole': def_role,
             'fromPositions': from_positions,
             'successRate': _complement_rate(success_rate),
+            'successRateByRuleset': {rs: _complement_rate(rate[rs]) for rs in RULESETS},
             'flashcards': defender_flashcards,
         }
         if def_outcomes:
@@ -1551,7 +1565,7 @@ def validate_graph(graph: dict, *, verbose: bool = False) -> dict:
             # in the log. Classify before any arithmetic touches the values.
             a_sr, d_sr = att.get('successRate'), dfn.get('successRate')
             if a_sr is None and d_sr is None:
-                sr_absent += 1          # no exchange in any ruleset: nothing to complement
+                sr_absent += 1          # no exchange in the default no-gi frame
             elif a_sr is None or d_sr is None:
                 role_violations.append(f"{coll_name}:{key} successRate present on ONE side only "
                                        f"(attacker={a_sr}, defender={d_sr})")
@@ -1600,7 +1614,7 @@ def validate_graph(graph: dict, *, verbose: bool = False) -> dict:
             print(f"    ... and {len(role_violations) - 15} more")
     else:
         print(f"  Role-typed techniques: OK ({sr_compared} of {hub_count} hub(s) complement-"
-              f"checked, {sr_absent} absent in every ruleset; every hub paired with "
+              f"checked, {sr_absent} absent in no-gi; every hub paired with "
               f"/attacker + /defender, edgeless)")
 
     if not missing_positions and not orphan_positions:
@@ -1628,6 +1642,39 @@ def _rate_complement(x):
     Never 100 — that would hand the defender a full success rate in a ruleset where the
     exchange does not exist. (Same rule as _complement_rate, applied to voted rates.)"""
     return None if x is None else max(0, round(100 - x, 1))
+
+
+def _rescale_outcomes_by_ruleset(data: dict) -> dict:
+    """D-363: preserve the historical common table, without filling absent frames.
+
+    The old rescale used the no-gi headline, even when the gi success rate differed.
+    Keep those bytes. A gi-only technique instead uses its own gi table and rate;
+    the no-gi cells remain null. Differing present tables fail the common-table
+    contract shared with the neural emitter. Census absent cells before rescaling.
+    """
+    counts = {'rescaled': 0, 'skipped': 0, 'dropped': {rs: 0 for rs in RULESETS}}
+    outcomes = data.get('outcomes') or []
+    pairs = [dict(o['probabilityByRuleset']) for o in outcomes]
+    if not outcomes:
+        return counts
+    frame = common_outcome_frame(data)
+    for rs in RULESETS:
+        counts['dropped'][rs] = sum(pair[rs] is None for pair in pairs)
+        if all(pair[rs] is None for pair in pairs):
+            counts['skipped'] += 1
+    if any(o.get('result') == 'success' for o in outcomes):
+        rate = data['successRate'] if frame == 'nogi' else data['successRateByRuleset'][frame]
+        fitted = _votes.rescale_dist_to_success(
+            [{**o, 'probability': pairs[i][frame]} for i, o in enumerate(outcomes)], int(round(rate)))
+        for i, row in enumerate(fitted):
+            for rs in RULESETS:
+                if pairs[i][rs] is not None:
+                    pairs[i][rs] = row['probability']
+        counts['rescaled'] += 1
+    if outcomes:
+        data['outcomes'] = [{**o, 'probability': pairs[i]['nogi'], 'probabilityByRuleset': pairs[i]}
+                            for i, o in enumerate(outcomes)]
+    return counts
 
 
 def load_votes(project_root: Path) -> dict[str, dict]:
@@ -1668,6 +1715,43 @@ def load_votes(project_root: Path) -> dict[str, dict]:
     return rates
 
 
+# D-431: N4's Ashi/Bottom menu names the Aoki setup AND its distinct finish.
+# Variant-first resolution collapsed both into the finish and cut off Aoki Control.
+# This measured census is a gate: another co-listed seat needs an explicit review.
+CO_LISTED_TRANSITION_SEATS = frozenset({'ashi-garami/bottom'})
+
+
+def resolve_target(slug, leaf, *, listed_slugs, seat, transitions, submissions,
+                   co_listed_seats, unresolved_targets):
+    """Resolve one menu row; explicit co-listing keeps its two named moves distinct."""
+    if not slug:
+        return slug, False
+    if '-from-' not in slug and leaf:
+        sub_variant = f"{slug}-from-{leaf}"
+        if sub_variant in submissions:
+            if slug in transitions and {slug, sub_variant} <= listed_slugs:
+                co_listed_seats.add(seat)
+                return slug, False
+            return sub_variant, True
+        if sub_variant in transitions:
+            return sub_variant, False
+    if slug in submissions:
+        return slug, True
+    if slug in transitions:
+        return slug, False
+    unresolved_targets.append((slug, leaf))
+    return slug, False
+
+
+def check_co_listed_seats(seats):
+    """D-431: count the exercised rule and refuse an unreviewed seat or zero coverage."""
+    print(f"  Explicit co-listed transition/finish seats: {len(seats)} "
+          f"({', '.join(sorted(seats)) or 'none'})")
+    if seats != CO_LISTED_TRANSITION_SEATS:
+        raise ValueError(f"Co-listed target resolution census changed: "
+                         f"expected {sorted(CO_LISTED_TRANSITION_SEATS)}, got {sorted(seats)}")
+
+
 def generate_state_graph(project_root: Path) -> dict:
     content_dir = project_root / 'content'
     print(f"Processing content from: {content_dir}")
@@ -1703,6 +1787,7 @@ def generate_state_graph(project_root: Path) -> dict:
     # Override success rates with community votes (prior-blended, per {gi,nogi} frame).
     vote_overrides = 0
     rescaled = rescale_skipped = 0
+    rescale_dropped = {rs: 0 for rs in RULESETS}
     # The join's real coverage is how many of the LOADED NAMES were found, not how many role-
     # nodes were written: each matched name writes two nodes (attacker + defender), so a
     # node count against a name denominator prints the nonsense "2656 of 1614".
@@ -1739,30 +1824,17 @@ def generate_state_graph(project_root: Path) -> dict:
                             "gi": _rate_complement(rate['gi']),
                             "nogi": _rate_complement(rate['nogi']),
                         }
-                    # Headline <-> breakdown coherence: rescale the outcome distribution so the
-                    # success-result cells sum to the node's scalar successRate.
-                    #
-                    # The rescale runs on the FOLDED scalar rate and on scalar outcome
-                    # probabilities, and either can be null once the technique layer forks:
-                    # `int(round(None))` raises here, and one null probability cell raises
-                    # inside _votes.rescale_dist_to_success at `sum(d['probability'] …)`.
-                    # Skip and COUNT — a rescale that silently did not run is the same failure
-                    # class as a check that never ran, so the count is printed either way.
-                    outcomes = data.get('outcomes')
-                    if outcomes and any(o.get('result') == 'success' for o in outcomes):
-                        if data['successRate'] is None or any(
-                                o.get('probability') is None for o in outcomes):
-                            rescale_skipped += 1
-                        else:
-                            data['outcomes'] = _votes.rescale_dist_to_success(
-                                outcomes, int(round(data['successRate']))
-                            )
-                            rescaled += 1
+                    counts = _rescale_outcomes_by_ruleset(data)
+                    rescaled += counts['rescaled']
+                    rescale_skipped += counts['skipped']
+                    for rs in RULESETS:
+                        rescale_dropped[rs] += counts['dropped'][rs]
                     vote_overrides += 1
     print(f"  Applied {vote_overrides} community vote rate override(s) from "
           f"{len(voted_names_hit)} of {len(vote_rates)} loaded rate(s); "
-          f"rescaled {rescaled} outcome distribution(s), skipped {rescale_skipped} "
-          f"(rate or outcome absent in every frame)")
+          f"rescaled {rescaled} common outcome table(s), skipped {rescale_skipped} absent frame(s); "
+          f"null outcome cells dropped from rescaling: "
+          f"gi {rescale_dropped['gi']}, no-gi {rescale_dropped['nogi']}")
     if vote_rates and not voted_names_hit:
         # The name join is `data.get('name', '') in vote_rates` — a spelling-sensitive join
         # with no coverage of its own (CLAUDE.md 6.6, `_tech_keys`). If it ever stops matching,
@@ -1776,6 +1848,7 @@ def generate_state_graph(project_root: Path) -> dict:
              f"matched nothing, so every published rate reverted to the authored one"))
 
     # Resolve position transition targets BY TYPE (type-aware disambiguation):
+    #   explicit co-listed transition + finish stay distinct (D-431); otherwise
     #   position-specific variant > real submission > transition; NEVER an edgeless family hub.
     # Fixes same-name collisions where a generic name exists as both a transition (entry) and a
     # family-hub submission (grouping): the old membership-only check shadowed the entry transition
@@ -1785,32 +1858,20 @@ def generate_state_graph(project_root: Path) -> dict:
     # so `slug in submissions` == a real (non-hub) submission node.
     all_submission_slugs = set(submissions.keys()) | hub_slugs
     unresolved_targets = []
-
-    def resolve_target(slug, leaf):
-        """Return (resolved_slug, is_submission) for a position->technique target, by node type."""
-        if not slug:
-            return slug, False
-        if '-from-' not in slug and leaf:
-            sub_variant = f"{slug}-from-{leaf}"
-            if sub_variant in submissions:
-                return sub_variant, True
-            if sub_variant in transitions:
-                return sub_variant, False
-        if slug in submissions:          # real submission (hubs not in `submissions` yet)
-            return slug, True
-        if slug in transitions:          # entry/movement transition
-            return slug, False
-        # Only a family hub (or nothing) matches — do NOT bind to the edgeless hub.
-        unresolved_targets.append((slug, leaf))
-        return slug, False
+    co_listed_seats = set()
 
     resolved_count = 0
     sr_from_attacker = sr_from_hub = sr_defaulted = sr_null = sr_own = 0
     for pos_data in positions.values():
         leaf = pos_data.get('hub', '')
+        seat = f"{leaf}/{pos_data.get('role', '')}"
+        listed_slugs = {t.get('target', '') for t in pos_data.get('transitions', [])}
         for t in pos_data.get('transitions', []):
             orig = t.get('target', '')
-            resolved, is_sub = resolve_target(orig, leaf)
+            resolved, is_sub = resolve_target(
+                orig, leaf, listed_slugs=listed_slugs, seat=seat,
+                transitions=transitions, submissions=submissions,
+                co_listed_seats=co_listed_seats, unresolved_targets=unresolved_targets)
             t['target'] = resolved
             t['isSubmission'] = is_sub
             coll = submissions if is_sub else transitions
@@ -1845,6 +1906,7 @@ def generate_state_graph(project_root: Path) -> dict:
             if t['successRate'] is None:
                 sr_null += 1
             resolved_count += 1
+    check_co_listed_seats(co_listed_seats)
     print(f"  Resolved {resolved_count} position transition target(s) by type "
           f"(successRate: {sr_from_attacker} from /attacker, {sr_from_hub} from hub, "
           f"{sr_defaulted} defaulted to 50, {sr_null} null, {sr_own} the listing's own)")
@@ -1858,7 +1920,7 @@ def generate_state_graph(project_root: Path) -> dict:
               f"that failed to load (see the parse errors above).")
     if sr_null:
         print(f"  INFO: {sr_null} position edge(s) carry successRate null (the technique's "
-              f"rate exists in no ruleset frame) — deliberately NOT defaulted to 50.")
+              f"rate is absent in no-gi) — deliberately NOT defaulted to 50.")
     if unresolved_targets:
         uniq = sorted({s for s, _ in unresolved_targets})
         print(f"  WARNING: {len(unresolved_targets)} position target(s) resolved to no real node "

@@ -259,8 +259,6 @@ The Elevation Sweep to Mount occupies a central position within the Reverse X-Gu
 
 - [[Submissions/Americana]] - Follow-up submission from achieved mount position
 
-- [[Transitions/Back Take from Top]] - Alternative advancement from mount
-
 
 </section>
 

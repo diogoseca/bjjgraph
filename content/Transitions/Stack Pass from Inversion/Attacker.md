@@ -39,7 +39,7 @@ description: "How to execute Stack Pass from Inversion in BJJ. Attacking perspec
     {
       "@type": "HowToStep",
       "name": "Stack the hips",
-      "text": "Continue driving until opponent's hips pass over their shoulders, compressing their spine into a folded position with their weight resting on their upper back and neck",
+      "text": "Control the elevated legs and direct them aside while keeping the guard player supported on the shoulders and upper back. Do not drive the hips onto the head or neck. Stop and release if the neck is loaded; clear the knees and feet before consolidating side control.",
       "position": 4
     },
     {
@@ -182,6 +182,8 @@ This pass requires precise timing, as attempting to stack against a fully establ
 
 Strategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.
 
+Lower your level against the elevated legs and control the hips without loading the neck. Maintain contact while directing the legs aside, clear the remaining knee and foot barriers, then establish crossface control and consolidate side control. The center entry changes timing, not the need to clear the legs.
+
 **From Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
@@ -228,7 +230,7 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 1. **Secure leg control**: Pin opponent's legs together by gripping behind both knees or controlling their ankles, preventing them from separating legs to create hooks or entanglements
 2. **Lower your level**: Drop your hips and chest toward opponent, bringing your center of gravity low to generate maximum forward pressure while maintaining a stable, sprawled base
 3. **Drive forward**: Push your hips and chest forward into opponent's legs, beginning to fold their hips toward their face while walking your feet forward to maintain driving pressure
-4. **Stack the hips**: Continue driving until opponent's hips pass over their shoulders, compressing their spine into a folded position with their weight resting on their upper back and neck
+4. **Stack the hips**: Control the elevated legs and direct them aside while keeping the guard player supported on the shoulders and upper back. Do not drive the hips onto the head or neck. Stop and release if the neck is loaded; clear the knees and feet before consolidating side control.
 5. **Pin and redirect**: Use your shoulder pressure on their thighs or hips to pin them in the stacked position while you begin walking your hips to one side to clear their legs
 6. **Complete the pass**: Slide your hips past their legs to one side, transitioning to side control by establishing crossface and hip-to-hip contact as their legs fall away
 

@@ -201,7 +201,7 @@ The collar must be used as a controlled choking surface, never to grind the face
 
 Protect the neck by addressing the first deep grip and keeping an inside frame before the second arm crosses. If you are underneath a top attacker and the grips have opened, use framed hip movement and a short shrimp to restore knee space; an escape must first remove the collar tension.
 
-**Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 
 </section>
@@ -241,8 +241,8 @@ Protect the neck by addressing the first deep grip and keeping an inside frame b
 <p class="section-subtitle">How do you know when someone is attempting Cross Collar Choke from Invisible Collar?</p>
 
 - The attacker faces the opponent with access to both jacket collars and enough posture control to establish the grips.
-- Take a secure collar grip beside the neck rather than a shallow handful of cloth.
-- Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully.
+- The attacker takes a secure collar grip beside your neck rather than a shallow handful of cloth.
+- The attacker places the forearms beside your neck without dragging across the jaw or bending the wrists painfully.
 
 
 </section>
@@ -272,28 +272,28 @@ Protect the neck by addressing the first deep grip and keeping an inside frame b
 ### 1. Fight collar access while the attacker has only a shallow connection.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Back Control]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.
 
 ### 2. Keep an inside frame before the hands cross into a complete choke.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.
 
 ### 3. Manage the distance before both collar grips are fixed; do not jerk backward against a loaded choke.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Back Control]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.
 
 ### 4. Work on a grip and neck space while the enclosure remains loose.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.
 
@@ -319,11 +319,11 @@ Protect the neck by addressing the first deep grip and keeping an inside frame b
 
 <p class="section-subtitle">What is the best outcome when defending Cross Collar Choke from Invisible Collar?</p>
 
-### → [[Positions/Back Control]]
+### → [[Positions/Rubber Guard/Invisible Collar]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Fight collar access while the attacker has only a shallow connection.
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Rubber Guard/Chill Dog]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep an inside frame before the hands cross into a complete choke.
 

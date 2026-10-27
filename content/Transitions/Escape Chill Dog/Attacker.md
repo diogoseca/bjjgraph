@@ -305,9 +305,9 @@ As the high leg comes down, place a forearm inside the approaching shoulder to p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 55% |
-| Failure | [[Positions/Rubber Guard/Chill Dog]] | 25% |
-| Counter | [[Positions/Back Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 65% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 20% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -319,7 +319,7 @@ As the high leg comes down, place a forearm inside the approaching shoulder to p
 <p class="section-subtitle">How might your opponent counter Escape Chill Dog?</p>
 
 - **Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside. → Leads to [[Positions/Rubber Guard/Chill Dog]]
-- **The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure. → Leads to [[Positions/Back Control]]
+- **The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure. → Leads to [[Positions/Open Guard]]
 - **Keep a safe base and prevent the free leg from closing high behind your head.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 - **Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Bring the forearms and knees between the bodies as space becomes available. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 

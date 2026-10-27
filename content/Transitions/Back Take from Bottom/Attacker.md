@@ -249,9 +249,9 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Back Control]] | 65% |
-| Failure | [[Positions/Hindulotine]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 35% |
+| Failure | [[Positions/Hindulotine]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -265,7 +265,7 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 - **Opponent stops mid-turn and re-faces to prevent back exposure** (Effectiveness: High) - Your Response: If they stop the turn, immediately re-establish guillotine grip and continue attacking the choke, or transition to darce if their arm position allows → Leads to [[Positions/Hindulotine]]
 - **Opponent turns fully through and faces you, preventing back control establishment** (Effectiveness: Medium) - Your Response: Accept the guard recovery and look for immediate sweep or submission from the new guard configuration, using your seatbelt attempt as an arm drag setup → Leads to [[Positions/Closed Guard]]
 - **Opponent posts hands on mat and creates distance during transition** (Effectiveness: Medium) - Your Response: Use butterfly hooks to elevate their hips and follow them as they create distance, or transition to technical stand-up and pursue from standing → Leads to [[Positions/Hindulotine]]
-- **Opponent turtles defensively before you can insert hooks** (Effectiveness: Low) - Your Response: Maintain seatbelt control on turtle and work standard back take entries from turtle, or transition to front headlock if they lower their hips → Leads to [[Positions/Back Control]]
+- **Opponent turtles defensively before you can insert hooks** (Effectiveness: Low) - Your Response: Maintain seatbelt control on turtle and work standard back take entries from turtle, or transition to front headlock if they lower their hips → Leads to [[Positions/Hindulotine]]
 
 
 </section>
@@ -344,7 +344,7 @@ This transition is generally low-risk when performed with proper technique, but 
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

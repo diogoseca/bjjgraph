@@ -143,17 +143,15 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (18% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (20% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (10% of attempts)
+- **[[Transitions/Grip Fight Escape from Rear Triangle/Attacker|Grip Fight Escape from Rear Triangle]]** (16% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (10% of attempts)
+- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (31% of attempts)
 
-- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (28% of attempts)
+- **[[Transitions/Posture Defense from Rear Triangle/Attacker|Posture Defense from Rear Triangle]]** (22% of attempts)
 
-- **[[Transitions/Grip Fight Escape from Rear Triangle/Attacker|Grip Fight Escape from Rear Triangle]]** (14% of attempts)
-
-- **[[Transitions/Posture Defense from Rear Triangle/Attacker|Posture Defense from Rear Triangle]]** (20% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -218,23 +216,21 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Transitions/Rear Triangle Choke Finish/Attacker|Rear Triangle Choke Finish]]** (20% of attempts)
+- **[[Transitions/Rear Triangle Choke Finish/Attacker|Rear Triangle Choke Finish]]** (21% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (8% of attempts)
 
-- **[[Submissions/Rear Naked Choke/from Rear Triangle/Attacker|Rear Naked Choke from Rear Triangle]]** (20% of attempts)
-
-- **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (4% of attempts)
+- **[[Submissions/Rear Naked Choke/from Rear Triangle/Attacker|Rear Naked Choke from Rear Triangle]]** (21% of attempts)
 
 - **[[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Bow and Arrow Choke from Rear Triangle]]** (gi only)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (11% of attempts)
 
-- **[[Transitions/Rear Triangle to Armbar/Attacker|Rear Triangle to Armbar]]** (15% of attempts)
+- **[[Transitions/Rear Triangle to Armbar/Attacker|Rear Triangle to Armbar]]** (16% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (6% of attempts)
 
-- **[[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|Rear Triangle Choke from Rear Triangle]]** (16% of attempts)
+- **[[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|Rear Triangle Choke from Rear Triangle]]** (17% of attempts)
 
 
 ### Common Mistakes

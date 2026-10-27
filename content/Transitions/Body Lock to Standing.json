@@ -94,10 +94,6 @@
       "relationship": "Ground passing alternative when body lock is maintained as opponent sits to guard"
     },
     {
-      "name": "Back Take",
-      "relationship": "Highest-value alternative attack from body lock position instead of disengaging"
-    },
-    {
       "name": "Body Lock Takedown from Clinch",
       "relationship": "Related clinch-to-takedown technique within the body lock offensive system"
     }

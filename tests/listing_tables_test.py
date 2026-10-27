@@ -44,6 +44,7 @@ sys.path.insert(0, str(ROOT / "scripts" / "semantics"))
 
 import regenerate_graph as rg  # noqa: E402
 import solve_edge_values as sev  # noqa: E402
+from _listing_table_expectations import expectations  # same approved premise as the JS path
 # NOT semantics/_kernel: it needs numpy, which the validate job does not install. Its use of the
 # priced technique is pinned below by reading its source, and run for real by `_kernel --selfcheck`.
 
@@ -168,12 +169,14 @@ class Seam(unittest.TestCase):
     def test_every_card_is_canonical_or_its_listings_table(self):
         """B2 (v1.216.0): a dealt card is its technique's canonical node, unless its listing carries its
         own table, and then it is exactly that table's view. The expected counts come from the
-        provenance, never a literal: every applied table deals in gi, the gi-only ones not in no-gi."""
-        prov = json.loads((ROOT / "calibration" / "listing_tables.json").read_text(encoding="utf-8"))
-        dropped = {d["key"] for d in prov.get("dropped", [])}
-        applied = [t for t in prov["tables"] if t["key"] not in dropped]
+        approval provenance: every surviving table deals in gi, the gi-only ones not in no-gi.
+        Exact removed/added listings and plan citations are in _listing_table_expectations.py."""
+        expected = expectations()
+        applied = expected["tables"]
         want = {"gi": len(applied), "nogi": sum(1 for t in applied if t["result"]["success_rate"].get("nogi") is not None)}
         cards, own = 0, {"gi": 0, "nogi": 0}
+        dealt = {fr: set() for fr in own}
+        overlays = {fr: set() for fr in own}
         for key, node in GRAPH["positions"].items():
             if node.get("role") not in ("top", "bottom"):
                 continue
@@ -182,14 +185,25 @@ class Seam(unittest.TestCase):
                 hand, *_ = sev.build_hand(GRAPH, key, sev.Opts(frame=fr))
                 for a in hand:
                     cards += 1
+                    dealt[fr].add((key, a.name))
                     e = edges.get(a.target)
                     if e and e.get("ownTable"):
                         own[fr] += 1
+                        overlays[fr].add((key, a.name))
                         self.assertIs(a.tech["outcomes"], e["outcomes"], f"{key} {a.name}: priced from its listing's table")
                     else:
                         self.assertIs(a.tech, GRAPH[a.cat][a.target + "/attacker"], f"{key} {a.name}: the canonical node")
         self.assertGreater(cards, 2000, "the walk dealt the corpus")
         self.assertEqual(own, want, "every applied table is dealt, once per frame it exists in")
+        for fr in own:
+            self.assertEqual(overlays[fr], {(t["listing"], t["move"]) for t in applied
+                                           if t["result"]["success_rate"][fr] is not None})
+            for t in expected["retired"]:
+                self.assertNotIn((t["listing"], t["move"]), dealt[fr], t["key"] + ": approved removed listing")
+        self.assertEqual(expected["surviving"], 88)
+        self.assertGreater(expected["surviving"], 0, "the reviewed table sweep cannot be empty")
+        print(f"listing tables Python: {expected['surviving']} surviving reviewed, {expected['added']} added, "
+              f"{len(expected['retired'])} absent; gi={own['gi']}, nogi={own['nogi']}")
 
 
 class Absence(unittest.TestCase):

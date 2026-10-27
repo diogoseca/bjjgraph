@@ -245,8 +245,6 @@ Gift Wrap Control functions as a transitional hub within the side control and mo
 
 - [[Positions/Mount]] - Common follow-up—Gift Wrap facilitates low-resistance mount transition
 
-- [[Transitions/Back Take from Top]] - Chain attack—opponent turning away from Gift Wrap exposes back
-
 - [[Transitions/Side Control to Mount]] - Alternative transition—used when Gift Wrap is not available
 
 - [[Submissions/Arm Triangle]] - Submission option—wrapped arm position can set up arm triangle

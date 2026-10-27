@@ -12,16 +12,8 @@
     {
       "to": "Half Guard/Top",
       "probability": {
-        "gi": 22,
-        "nogi": 22
-      },
-      "result": "success"
-    },
-    {
-      "to": "Side Control/Top",
-      "probability": {
-        "gi": 16,
-        "nogi": 16
+        "gi": 38,
+        "nogi": 38
       },
       "result": "success"
     },
@@ -51,7 +43,7 @@
     }
   ],
   "success_rate": {
-    "gi": 38,
+    "gi": 41,
     "nogi": 38
   },
   "overview": "The bottom player is underneath the opponent's hips in deep half guard with one leg available to be lifted and supported. The waiter leg shelf and deep-half hip position distinguish this sweep from a generic underhook wrestle-up. The landing may retain half guard; side control requires clearing the legs.\n\nBring the shoulder under the hip while controlling the leg and protecting the exposed arm. Shift the opponent's weight enough to make the controlled leg available for elevation. Support the lower leg with the arm and shoulder connection while using the legs to help lift.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Lucas Valle — waiter sweep from deep half](https://www.youtube.com/watch?v=LzphtRQwv6g); [Ryan Hall — the Waiter Sweep](https://ryanhallonline.com/p/waiter-sweep).",
@@ -129,25 +121,25 @@
         "counter": "A deep-half player supporting your elevated leg is setting the waiter mechanism.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Bring the shoulder under the hip while controlling the leg and protecting the exposed arm.",
-        "targets_outcome": "Butterfly Guard/Bottom"
+        "targets_outcome": "Deep Half Guard/Bottom"
       },
       {
         "counter": "Preserve hand or foot support before the opponent controls the tipping direction.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Shift the opponent's weight enough to make the controlled leg available for elevation.",
-        "targets_outcome": "Butterfly Guard/Bottom"
+        "targets_outcome": "Deep Half Guard/Bottom"
       },
       {
         "counter": "Avoid leaving the hips directly above an established deep-half shoulder connection.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Support the lower leg with the arm and shoulder connection while using the legs to help lift.",
-        "targets_outcome": "Butterfly Guard/Bottom"
+        "targets_outcome": "Deep Half Guard/Bottom"
       },
       {
         "counter": "Return the elevated leg only while the knee can move without twisting.",
         "effectiveness": "Low",
         "your_response": "Re-check the prerequisite before continuing. Use an appropriate sleeve grip in gi or a suitable arm connection without assuming the same grip exists in no-gi.",
-        "targets_outcome": "Butterfly Guard/Top"
+        "targets_outcome": "Deep Half Guard/Bottom"
       }
     ],
     "common_errors": [
@@ -384,39 +376,39 @@
       {
         "action": "A deep-half player supporting your elevated leg is setting the waiter mechanism.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Butterfly Guard/Bottom",
+        "targets_outcome": "Deep Half Guard/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Preserve hand or foot support before the opponent controls the tipping direction.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Butterfly Guard/Bottom",
+        "targets_outcome": "Deep Half Guard/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Avoid leaving the hips directly above an established deep-half shoulder connection.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Butterfly Guard/Bottom",
+        "targets_outcome": "Deep Half Guard/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Return the elevated leg only while the knee can move without twisting.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Butterfly Guard/Top",
+        "targets_outcome": "Deep Half Guard/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Butterfly Guard/Bottom",
+        "outcome": "Deep Half Guard/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. A deep-half player supporting your elevated leg is setting the waiter mechanism."
       },
       {
-        "outcome": "Butterfly Guard/Top",
+        "outcome": "Deep Half Guard/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Preserve hand or foot support before the opponent controls the tipping direction."
       }
     ],

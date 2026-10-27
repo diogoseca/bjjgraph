@@ -495,7 +495,7 @@
  "Positions/Mount.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount",
   "content_floor": 13412,
-  "content_hash": "da6e3c51b372772f55b75840342e69d9138361d8d7ac8b046f06c0a5e93f0147",
+  "content_hash": "57d971589349c16389e0d54bc4aefd5f66b61278bfb25d41f8c5fc65a0f46a03",
   "content_len": 15608,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount\", \"name\": \"Mount\", \"position\": 3}]}",
@@ -605,7 +605,7 @@
  "Positions/Mount/Bottom.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount/Bottom",
   "content_floor": 11816,
-  "content_hash": "76b46fb0784407844b36dfef30ee4c7d5bdc5bdcd8422bebc7660a77f1b81244",
+  "content_hash": "6fdc2327748d2ab256cf6c65f629c068a0f7d744bbace79667fd5eb04755a8df",
   "content_len": 13925,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount-Bottom\", \"name\": \"Mount Bottom\", \"position\": 3}]}",
@@ -700,8 +700,8 @@
  "Positions/Mount/Top.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount/Top",
   "content_floor": 11781,
-  "content_hash": "7a09962ca0df0ecd6578f1a228f967e2df728a71eda4d37cc616ff9af97338af",
-  "content_len": 13766,
+  "content_hash": "5c05c9db1f18a86757ce69183d1ac0494713c76990074375a6c76bd84e3ecb4e",
+  "content_len": 13705,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount-Top\", \"name\": \"Mount Top\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Vulnerable to explosive upa or bridge escapes resulting in complete position reversal to closed guard The correct approach is: Maintain hips at solar plexus level with wide base until deliberately advancing to high mount with grips established\"}, \"name\": \"What happens if you sitting too high on opponent's chest without establishing proper base control first?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Creates space for opponent's hip escape and knee insertion leading to guard recovery The correct approach is: Keep hands close to opponent's body using tight grips and maintaining chest-to-chest pressure throughout\"}, \"name\": \"What happens if you posting hands too far from opponent's body during submission transitions?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Opponent escapes mount during overcommitted finish attempt, returning to neutral or guard position The correct approach is: Establish dominant grips and verify control before progressing methodically to submission finish\"}, \"name\": \"What happens if you committing to submissions prematurely without establishing dominant grip control?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Opponent builds progressively stronger frames and eventually creates enough space for guard recovery The correct approach is: Immediately advance to high mount or attack the framing arms when frames are established\"}, \"name\": \"What happens if you allowing opponent to establish frames without immediately transitioning or attacking?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Gives opponent time to develop effective defensive strategy and build frames for escape The correct approach is: Constantly threaten submissions or advance position to maintain offensive pressure and defensive uncertainty\"}, \"name\": \"What happens if you remaining static in low mount without threatening submissions or advancing position?\"}]}",
@@ -773,7 +773,6 @@
    "../../../Systems/Submission-Clinic-System",
    "../../../Systems/Teaching-Methodology-Framework",
    "../../../Systems/Vagner-Rocha-Float-Passing-System",
-   "../../../Transitions/Back-Take-from-Top/Attacker",
    "../../../Transitions/Gift-Wrap-to-Technical-Mount/Attacker",
    "../../../Transitions/High-Mount-Transition/Attacker",
    "../../../Transitions/Mount-to-Armbar",
@@ -1388,13 +1387,13 @@
  "Submissions/Rear-Naked-Choke.html": {
   "canonical": "https://bjjgraph.org/Submissions/Rear-Naked-Choke",
   "content_floor": 6754,
-  "content_hash": "912704879c9e97d5f20801e90a2bbe700acc3804d0928fcd3903f422a6bb89da",
-  "content_len": 7946,
+  "content_hash": "7bf20976966c22f16d00d29c5aee1177ab4feda97bdda7defbae67f1ce480fa9",
+  "content_len": 7903,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/\", \"name\": \"Submissions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/Rear-Naked-Choke\", \"name\": \"Rear Naked Choke\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"CollectionPage\", \"alternateName\": [\"Mata Leão\", \"Mata Leao\", \"Hadaka Jime\", \"RNC\", \"Sleeper Hold\"], \"dateModified\": \"<volatile>\", \"datePublished\": \"<volatile>\", \"description\": \"Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Rear Naked Choke\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"sameAs\": [\"https://en.wikipedia.org/wiki/Rear_naked_choke\", \"https://www.wikidata.org/wiki/Q4845233\"]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"description\": \"The Rear Naked Choke is a blood choke applied from behind that wraps a forearm across the throat to compress both carotid arteries, cutting blood flow to the brain and forcing a tap or unconsciousness within seconds.\", \"inDefinedTermSet\": \"https://bjjgraph.org/Submissions/\", \"name\": \"Rear Naked Choke\"}",
-   "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The Rear Naked Choke is a blood choke applied from behind that wraps a forearm across the throat to compress both carotid arteries, cutting blood flow to the brain and forcing a tap or unconsciousness within seconds.\"}, \"name\": \"What is the Rear Naked Choke?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"You can finish the Rear Naked Choke from Back Control, Body Triangle, Crucifix, Gift Wrap, Harness, Rear Triangle, Seat Belt Control Back, Standing Back Control, Invisible Collar, Mounted Crucifix, Rodeo Ride, Russian Cowboy, Standing Rear Clinch.\"}, \"name\": \"What positions can you finish the Rear Naked Choke from?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Rear Naked Choke targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early and release immediately on the tap.\"}, \"name\": \"Is the Rear Naked Choke dangerous?\"}]}",
+   "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The Rear Naked Choke is a blood choke applied from behind that wraps a forearm across the throat to compress both carotid arteries, cutting blood flow to the brain and forcing a tap or unconsciousness within seconds.\"}, \"name\": \"What is the Rear Naked Choke?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"You can finish the Rear Naked Choke from Back Control, Body Triangle, Crucifix, Gift Wrap, Harness, Rear Triangle, Seat Belt Control Back, Standing Back Control, Mounted Crucifix, Rodeo Ride, Russian Cowboy, Standing Rear Clinch.\"}, \"name\": \"What positions can you finish the Rear Naked Choke from?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Rear Naked Choke targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early and release immediately on the tap.\"}, \"name\": \"Is the Rear Naked Choke dangerous?\"}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"itemListElement\": [{\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Affinity Academy\"}, \"description\": \"Rear Naked Choke film study: Rear Naked Choke from Back Control, taught by Affinity Academy.\", \"duration\": \"PT75S\", \"embedUrl\": \"https://www.youtube.com/embed/3vCytl_OI-4\", \"name\": \"Rear Naked Choke from Back Control\", \"position\": 1, \"thumbnailUrl\": \"https://i.ytimg.com/vi/3vCytl_OI-4/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=3vCytl_OI-4\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Gordon Ryan\"}, \"description\": \"Rear Naked Choke film study: Rear Naked Choke, taught by Gordon Ryan.\", \"duration\": \"PT73S\", \"embedUrl\": \"https://www.youtube.com/embed/70jECxFfCSA\", \"name\": \"Rear Naked Choke\", \"position\": 2, \"thumbnailUrl\": \"https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=70jECxFfCSA\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Henry Akins\"}, \"description\": \"Rear Naked Choke film study: Rear Naked Choke: It's in the Squeeze, taught by Henry Akins.\", \"duration\": \"PT95S\", \"embedUrl\": \"https://www.youtube.com/embed/rPRORaAiJAs\", \"name\": \"Rear Naked Choke: It's in the Squeeze\", \"position\": 3, \"thumbnailUrl\": \"https://i.ytimg.com/vi/rPRORaAiJAs/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=rPRORaAiJAs\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Grapple Box\"}, \"description\": \"Rear Naked Choke film study: Attack the Back with a Body Triangle, taught by Grapple Box.\", \"duration\": \"PT28S\", \"embedUrl\": \"https://www.youtube.com/embed/3OkCuU0B0UE\", \"name\": \"Attack the Back with a Body Triangle\", \"position\": 4, \"thumbnailUrl\": \"https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=3OkCuU0B0UE\"}], \"name\": \"Rear Naked Choke — Film Study\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
   ],
@@ -1436,9 +1435,6 @@
    "../../Submissions/Rear-Naked-Choke/from-Harness",
    "../../Submissions/Rear-Naked-Choke/from-Harness/Attacker",
    "../../Submissions/Rear-Naked-Choke/from-Harness/Defender",
-   "../../Submissions/Rear-Naked-Choke/from-Invisible-Collar",
-   "../../Submissions/Rear-Naked-Choke/from-Invisible-Collar/Attacker",
-   "../../Submissions/Rear-Naked-Choke/from-Invisible-Collar/Defender",
    "../../Submissions/Rear-Naked-Choke/from-Mounted-Crucifix",
    "../../Submissions/Rear-Naked-Choke/from-Mounted-Crucifix/Attacker",
    "../../Submissions/Rear-Naked-Choke/from-Mounted-Crucifix/Defender",
@@ -1606,7 +1602,7 @@
  "Transitions/Armbar-from-Back-Transition.html": {
   "canonical": "https://bjjgraph.org/Transitions/Armbar-from-Back-Transition",
   "content_floor": 8861,
-  "content_hash": "8c9a0cffddfa2174b5b2d7a61586521b83b5342b6f1e4f57cc77d10a3448357a",
+  "content_hash": "9ee8da51c65ae4eb4bf854c704d99790c2f4f1ed8ec532da401a92ac09aaa74f",
   "content_len": 10425,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/\", \"name\": \"Transitions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/Armbar-from-Back-Transition\", \"name\": \"Armbar from Back Transition\", \"position\": 3}]}",
@@ -1664,7 +1660,7 @@
  "Transitions/Armbar-from-Back-Transition/Attacker.html": {
   "canonical": "https://bjjgraph.org/Transitions/Armbar-from-Back-Transition/Attacker",
   "content_floor": 9433,
-  "content_hash": "6201a1057a85ab3d026b4a68d9b6ba23b454dd185c6fb8ea4e1f0efc3072d820",
+  "content_hash": "66db0727e9c7b62549e91137d66b1951a4311af0be12839f4e03b1fb360a0140",
   "content_len": 11098,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/\", \"name\": \"Transitions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/Armbar-from-Back-Transition\", \"name\": \"Armbar from Back Transition\", \"position\": 3}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/Armbar-from-Back-Transition/Attacker\", \"name\": \"Attacker\", \"position\": 4}]}",
@@ -1714,14 +1710,14 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "d93ed826d8931ab9b6c85489459320c6924e4204",
-   "capture_id": "3843d6aaa8be4d3196c0a7ee811207ff",
+   "capture_git_head": "b05f7b54172ceb77fd06dbf5aca04a9cf4c6bc95",
+   "capture_id": "23ade999a21b4101be4a9c27f9df8bad",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
-   "content_files": 6395,
-   "content_md": 4597,
+   "content_files": 6295,
+   "content_md": 4522,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "8ea8e8fabf646e9f0bd6fc879ff53fb229cf5659",
+   "content_tree": "11def55b3b667000774eee7982f0fde538e8b36e",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1745,12 +1741,12 @@
     }
    },
    "output_identity": {
-    "files": 15989,
-    "sha256": "00231c0bfe35b0fd1f73a9205a8c6c48ccae0baccea342fab00ed32a7afb4a95"
+    "files": 15735,
+    "sha256": "118be07420e72bd1d23e76cd3018dbfae49bba590f4db794614b09002c744118"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/narration-additions/capture/pr-narration-additions-d93ed826d"
+    "/home/user/bjj-orchestrator/scratch/reorigined-prose/FPGO516-v2/capture/pr-reorigined-prose-merge-b05f7b541-v2"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"

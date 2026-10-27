@@ -303,10 +303,9 @@ Recover the elbow from the knee-hugging overhook before lifting posture. Hip con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 40% |
-| Failure | [[Positions/Rubber Guard/Chill Dog]] | 35% |
-| Success | [[Positions/Half Guard]] | 15% |
-| Counter | [[Positions/Back Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 65% |
 
 
 </section>
@@ -318,8 +317,8 @@ Recover the elbow from the knee-hugging overhook before lifting posture. Hip con
 <p class="section-subtitle">How might your opponent counter Posture from Chill Dog?</p>
 
 - **Keep the opposing hand on the mat and hug the knee before changing the head-side grip.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. → Leads to [[Positions/Rubber Guard/Chill Dog]]
-- **Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape. → Leads to [[Positions/Back Control]]
-- **Move the controlling arm around the head while keeping the leg and trapped arm connected.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Half Guard]]
+- **Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Move the controlling arm around the head while keeping the leg and trapped arm connected.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 - **Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Create slack at the hip and thigh while keeping the head and captured arm aligned. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 
 

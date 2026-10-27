@@ -1,44 +1,44 @@
 {
   "name": "Standing Escape",
-  "description": "Standing after Invisible Collar requires releasing the high guard, creating space and establishing safe posts. The facing leg clinch contains no rear hooks.",
+  "description": "Standing Escape starts on top in Invisible Collar. Clear the high head-and-arm clinch before recovering posture and foot posts to rise facing the guard.",
   "tags": [
     "bjj",
     "transition",
     "position-change"
   ],
-  "summary": "Standing after a high-guard reset requires releasing Invisible Collar, creating space and establishing a stable base before rising.",
-  "from_position": "Invisible Collar/Bottom",
+  "summary": "Standing Escape frees the top player's head and arm from Invisible Collar before they recover posture and rise to face the opponent's open guard.",
+  "from_position": "Invisible Collar/Top",
   "outcomes": [
     {
+      "result": "success",
       "to": "Open Guard/Top",
       "probability": {
-        "gi": 65,
-        "nogi": 65
-      },
-      "result": "success"
+        "gi": 30,
+        "nogi": 30
+      }
     },
     {
-      "to": "Invisible Collar/Bottom",
+      "result": "failure",
+      "to": "Invisible Collar/Top",
       "probability": {
-        "gi": 25,
-        "nogi": 25
-      },
-      "result": "failure"
+        "gi": 50,
+        "nogi": 50
+      }
     },
     {
-      "to": "Invisible Collar/Bottom",
+      "result": "counter",
+      "to": "Chill Dog/Top",
       "probability": {
-        "gi": 10,
-        "nogi": 10
-      },
-      "result": "counter"
+        "gi": 20,
+        "nogi": 20
+      }
     }
   ],
   "success_rate": {
-    "gi": 58,
-    "nogi": 58
+    "gi": 30,
+    "nogi": 30
   },
-  "overview": "The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection. A technical stand-up needs disengaged space and supporting posts. It is not a direct escape from rear hooks inside the facing leg clinch.\n\nThe bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](https://www.youtube.com/watch?v=KCyIwacRKu8); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).",
+  "overview": "The escaping player starts on top in Invisible Collar, with the bottom player's high leg-and-arm clinch controlling the head and an isolated arm. Standing requires freeing the head and arm, creating space and establishing a stable base. The facing high guard contains no rear hooks to remove.\n\nThe escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence. Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded. Create slack at the opponent's hip and thigh before freeing the head and arm, without pulling the foot against the knee.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](https://www.youtube.com/watch?v=KCyIwacRKu8); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).",
   "related_content": [
     {
       "name": "Chill Dog",
@@ -59,134 +59,134 @@
   ],
   "attacker": {
     "name": "Standing Escape Attacker",
-    "description": "Standing Escape (attacker): The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
-    "overview": "The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection. A technical stand-up needs disengaged space and supporting posts. It is not a direct escape from rear hooks inside the facing leg clinch.\n\nThe bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.\n\nBring the forearms and knees between the bodies as space becomes available. Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard. Check posture, knee comfort and inside space before resuming a sweep or submission attack.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nFirst use a framed hip escape to create distance after the high clinch opens. Keep a knee and forearm between the bodies for guard retention until the opponent's chest pressure no longer reaches you; only then establish the hand and foot posts for standing.",
+    "description": "Standing Escape (attacker): The escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence. Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded.",
+    "overview": "The escaping player starts on top in Invisible Collar, with the bottom player's high leg-and-arm clinch controlling the head and an isolated arm. Standing requires freeing the head and arm, creating space and establishing a stable base. The facing high guard contains no rear hooks to remove.\n\nThe escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence. Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded. Create slack at the opponent's hip and thigh before freeing the head and arm, without pulling the foot against the knee.\n\nRecover inside forearm frames as the high enclosure opens, keeping the freed elbow close to the ribs. Keep the shoulders and hips facing the opponent while establishing balanced foot posts and rising from the top position. Check that the head and arm are clear and the feet support a stable stance before moving away from the opened guard.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nFirst clear the high clinch and recover the isolated arm before raising your posture. Keep inside frames and a balanced base as you bring your feet underneath you; rise only after the head and shoulder can move freely. The endpoint is standing over a facing open guard, not a bottom-player guard recovery.",
     "key_principles": [
-      "Recognize the actual control: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.",
-      "Remove submission pressure: Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
-      "Open the high connection: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
-      "Restore inside frames: Bring the forearms and knees between the bodies as space becomes available.",
-      "Face the opponent: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.",
-      "Stabilize before moving again: Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+      "Recognize the actual control: The escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence.",
+      "Remove submission pressure: Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded.",
+      "Open the high connection: Create slack at the opponent's hip and thigh before freeing the head and arm, without pulling the foot against the knee.",
+      "Restore inside frames: Recover inside forearm frames as the high enclosure opens, keeping the freed elbow close to the ribs.",
+      "Face the opponent: Keep the shoulders and hips facing the opponent while establishing balanced foot posts and rising from the top position.",
+      "Stabilize before moving again: Check that the head and arm are clear and the feet support a stable stance before moving away from the opened guard."
     ],
     "setup_requirements": [
-      "The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection.",
-      "The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.",
-      "Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
-      "A technical stand-up needs disengaged space and supporting posts. It is not a direct escape from rear hooks inside the facing leg clinch."
+      "The escaping player starts on top in Invisible Collar, with the bottom player's high leg-and-arm clinch controlling the head and an isolated arm.",
+      "The escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence.",
+      "Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded.",
+      "Standing requires freeing the head and arm, creating space and establishing a stable base. The facing high guard contains no rear hooks to remove."
     ],
     "execution_steps": [
       {
         "step_number": 1,
         "action": "Recognize the actual control",
-        "description": "The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence."
+        "description": "The escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence."
       },
       {
         "step_number": 2,
         "action": "Remove submission pressure",
-        "description": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "description": "Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded."
       },
       {
         "step_number": 3,
         "action": "Open the high connection",
-        "description": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "description": "Create slack at the opponent's hip and thigh before freeing the head and arm, without pulling the foot against the knee."
       },
       {
         "step_number": 4,
         "action": "Restore inside frames",
-        "description": "Bring the forearms and knees between the bodies as space becomes available."
+        "description": "Recover inside forearm frames as the high enclosure opens, keeping the freed elbow close to the ribs."
       },
       {
         "step_number": 5,
         "action": "Face the opponent",
-        "description": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "description": "Keep the shoulders and hips facing the opponent while establishing balanced foot posts and rising from the top position."
       },
       {
         "step_number": 6,
         "action": "Stabilize before moving again",
-        "description": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "description": "Check that the head and arm are clear and the feet support a stable stance before moving away from the opened guard."
       }
     ],
     "common_counters": [
       {
-        "counter": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.",
+        "counter": "Use the remaining high leg and knee hug to control the opponent's posture when the second leg opens.",
         "effectiveness": "High",
-        "your_response": "Re-check the prerequisite before continuing. The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.",
-        "targets_outcome": "Invisible Collar/Bottom"
+        "your_response": "Re-check the prerequisite before continuing. The escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence.",
+        "targets_outcome": "Chill Dog/Top"
       },
       {
-        "counter": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.",
+        "counter": "Keep your high knee supported and the isolated arm contained without twisting the opponent's neck or shoulder.",
         "effectiveness": "Medium",
-        "your_response": "Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
-        "targets_outcome": "Invisible Collar/Bottom"
+        "your_response": "Re-check the prerequisite before continuing. Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded.",
+        "targets_outcome": "Chill Dog/Top"
       },
       {
-        "counter": "Avoid driving all weight onto the partner's shoulders while the legs are locked high.",
+        "counter": "Keep the first high leg supported as the second leg opens, and release if the movement loads your knee or their neck.",
         "effectiveness": "Medium",
-        "your_response": "Re-check the prerequisite before continuing. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
-        "targets_outcome": "Invisible Collar/Bottom"
+        "your_response": "Re-check the prerequisite before continuing. Create slack at the opponent's hip and thigh before freeing the head and arm, without pulling the foot against the knee.",
+        "targets_outcome": "Chill Dog/Top"
       },
       {
-        "counter": "Create space at the hip and thigh before trying to raise the head or extract the arm.",
+        "counter": "If the second leg is opened, retain the neck-cleared knee hug only while it remains comfortable.",
         "effectiveness": "High",
-        "your_response": "Re-check the prerequisite before continuing. Bring the forearms and knees between the bodies as space becomes available.",
-        "targets_outcome": "Invisible Collar/Bottom"
+        "your_response": "Re-check the prerequisite before continuing. Recover inside forearm frames as the high enclosure opens, keeping the freed elbow close to the ribs.",
+        "targets_outcome": "Chill Dog/Top"
       }
     ],
     "common_errors": [
       {
         "error": "Skipping the checkpoint: recognize the actual control",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.",
-        "correction": "The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence."
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: The escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence.",
+        "correction": "The escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence."
       },
       {
         "error": "Skipping the checkpoint: remove submission pressure",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
-        "correction": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded.",
+        "correction": "Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded."
       },
       {
         "error": "Skipping the checkpoint: open the high connection",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
-        "correction": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Create slack at the opponent's hip and thigh before freeing the head and arm, without pulling the foot against the knee.",
+        "correction": "Create slack at the opponent's hip and thigh before freeing the head and arm, without pulling the foot against the knee."
       },
       {
         "error": "Skipping the checkpoint: restore inside frames",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: Bring the forearms and knees between the bodies as space becomes available.",
-        "correction": "Bring the forearms and knees between the bodies as space becomes available."
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Recover inside forearm frames as the high enclosure opens, keeping the freed elbow close to the ribs.",
+        "correction": "Recover inside forearm frames as the high enclosure opens, keeping the freed elbow close to the ribs."
       },
       {
         "error": "Skipping the checkpoint: face the opponent",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.",
-        "correction": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep the shoulders and hips facing the opponent while establishing balanced foot posts and rising from the top position.",
+        "correction": "Keep the shoulders and hips facing the opponent while establishing balanced foot posts and rising from the top position."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1",
         "focus": "Identify the configuration",
-        "description": "Work cooperatively on recognize the actual control. The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+        "description": "Work cooperatively on recognize the actual control. The escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
         "phase": "Phase 2",
         "focus": "Rehearse the connection",
-        "description": "Work cooperatively on remove submission pressure. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+        "description": "Work cooperatively on remove submission pressure. Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
         "phase": "Phase 3",
         "focus": "Add an early response",
-        "description": "Work cooperatively on open the high connection. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+        "description": "Work cooperatively on open the high connection. Create slack at the opponent's hip and thigh before freeing the head and arm, without pulling the foot against the knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
         "phase": "Phase 4",
         "focus": "Link only verified checkpoints",
-        "description": "Work cooperatively on restore inside frames. Bring the forearms and knees between the bodies as space becomes available. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+        "description": "Work cooperatively on restore inside frames. Recover inside forearm frames as the high enclosure opens, keeping the freed elbow close to the ribs. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "flashcards": [
       {
-        "question": "Invisible Collar stand-up (bottom): What must open before you prepare to rise?",
-        "answer": "The bottom player must release the facing Invisible Collar enclosure before creating space and posts for standing.",
-        "answer_line": "Your high leg-and-arm clinch",
+        "question": "Invisible Collar stand-up (top): What must open before you prepare to rise?",
+        "answer": "The top player must clear the opponent's high leg-and-arm enclosure before recovering posture and establishing a standing base.",
+        "answer_line": "Opponent's high leg-and-arm clinch",
         "distractors": {
           "plausible": [
             "Only second leg; first holds neck",
@@ -198,128 +198,128 @@
         }
       },
       {
-        "question": "Invisible Collar stand-up (bottom): Which loading must end before the leg comes down?",
-        "answer": "Unload captured neck and shoulder connections before lowering the high legs into the guard reset.",
-        "answer_line": "Neck and isolated-arm tension",
+        "question": "Invisible Collar stand-up (top): What should you do if the neck or isolated arm is loaded?",
+        "answer": "Stop the rise and tap so the partner releases the enclosure. Posture recovery must not force a captured neck or shoulder through the high guard.",
+        "answer_line": "Stop rising; tap for release",
         "distractors": {
           "plausible": [
-            "Only free-foot pressure on the mat",
-            "Only the opponent's mat post"
+            "Stand to pull your neck free",
+            "Twist the captured elbow outward"
           ],
           "trap": [
-            "Only leg cross; arm wrap still pulls"
+            "Lift them before opening the loop"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (bottom): How does the high knee return toward ordinary guard?",
-        "answer": "Create a free path with the hips rather than dragging the foot against the knee while the upper body remains entangled.",
-        "answer_line": "Lower leg through a free hip angle",
+        "question": "Invisible Collar stand-up (top): Where must space open before you free the head and arm?",
+        "answer": "Create slack at the opponent's hip and thigh while keeping your head aligned. Do not force the head upward or drag their foot against a fixed knee.",
+        "answer_line": "Space at their hip and thigh",
         "distractors": {
           "plausible": [
-            "Pull foot down with knee fixed high",
-            "Straighten leg into their shoulder"
+            "At your head by pulling it upward",
+            "At their knee by wrenching the foot"
           ],
           "trap": [
-            "Keep ankle grip; flatten hip first"
+            "At your neck by turning it alone"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (bottom): What should you keep between you while creating distance?",
-        "answer": "Guard retention comes first: keep forearm and knee between the bodies until the opponent's chest pressure no longer reaches you.",
-        "answer_line": "An inside forearm and knee barrier",
+        "question": "Invisible Collar stand-up (top): What should you keep between you while creating distance?",
+        "answer": "Recover inside forearm frames as the head-and-arm enclosure opens. Keep the freed elbow near the ribs while separating from the high guard.",
+        "answer_line": "Inside frames and a compact elbow",
         "distractors": {
           "plausible": [
-            "Hands on floor, torso gap left open",
-            "Legs outside, hands reach for head"
+            "Both arms extended outside the legs",
+            "A wide elbow behind their shoulder"
           ],
           "trap": [
-            "Forearm inside, near knee outside"
+            "Hands on mat with head still caught"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (bottom): Which orientation helps you preserve that distance?",
-        "answer": "Keep shoulders and hips oriented toward the opponent while the framed hip escape creates room.",
+        "question": "Invisible Collar stand-up (top): Which orientation helps you preserve that distance?",
+        "answer": "Keep your shoulders and hips facing the opponent while building a balanced standing base after the high clinch opens.",
         "answer_line": "Face them while your hips move",
         "distractors": {
           "plausible": [
-            "Turn back before the knee returns",
-            "Chest down beneath their pressure"
+            "Turn away with the arm still trapped",
+            "Twist head before shoulders can turn"
           ],
           "trap": [
-            "Shoulders face them, knees trail"
+            "Face away while the high loop holds"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (bottom): When can supporting posts be established?",
-        "answer": "Create distance after releasing the clinch, then establish stable hand and foot posts for standing.",
-        "answer_line": "Once frames free your chest space",
+        "question": "Invisible Collar stand-up (top): When can supporting posts be established?",
+        "answer": "After the head and arm are clear, bring your feet underneath a balanced base before rising. Do not stand by lifting the partner through the high clinch.",
+        "answer_line": "After the head and arm are clear",
         "distractors": {
           "plausible": [
-            "While their chest still pins yours",
-            "While both high legs hold their head"
+            "While the high loop holds your neck",
+            "Before freeing the isolated arm"
           ],
           "trap": [
-            "Once ankles open, before knee space"
+            "As you lift them through the clinch"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (bottom): Why retain an inside knee before making your supporting posts?",
-        "answer": "An inside knee and forearm preserve distance after the high clinch opens. Establish posts only when the opponent cannot pin your torso with chest pressure.",
-        "answer_line": "Keep chest away to make rising space",
+        "question": "Invisible Collar stand-up (top): Why recover your freed elbow before rising?",
+        "answer": "A compact inside elbow makes it harder for the guard player to isolate the arm again while you establish foot posts. Clear the head-and-arm enclosure before standing.",
+        "answer_line": "Deny renewed arm isolation",
         "distractors": {
           "plausible": [
-            "Keep high loop closed while standing",
-            "Replace the supporting hand post"
+            "Keep their high loop closed",
+            "Replace your standing foot posts"
           ],
           "trap": [
-            "Raise hips before separating chests"
+            "Rise with your neck still captured"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (bottom): What does a stand-up need beyond opening the high legs?",
-        "answer": "Releasing the high guard is only the first phase. Rising needs enough distance and a supported base.",
-        "answer_line": "Space with firm hand and foot posts",
+        "question": "Invisible Collar stand-up (top): What does a stand-up need beyond opening the high legs?",
+        "answer": "Opening the high legs alone is not enough. Free the head and arm, recover posture and establish balanced foot posts before rising.",
+        "answer_line": "Clear head and arm; balanced posts",
         "distractors": {
           "plausible": [
-            "Only free hand, chest pressure stays",
-            "Only the opponent's head rising"
+            "Only free hands, neck still caught",
+            "Only the second high leg opening"
           ],
           "trap": [
-            "Hand post with both feet caught"
+            "Foot posts with the head restrained"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (bottom): The neck loop remains loaded as you sit up; what now?",
-        "answer": "Stop the rise and open the leg-and-arm enclosure rather than lifting or rotating a neck still caught inside it.",
-        "answer_line": "Release loop fully before rising",
+        "question": "Invisible Collar stand-up (top): The neck loop remains loaded as you start to rise; what now?",
+        "answer": "Stop rising and tap for a complete release. Do not lift or rotate your neck against the high leg-and-arm enclosure.",
+        "answer_line": "Stop rising; tap for full release",
         "distractors": {
           "plausible": [
-            "Sit up until the loop pulls apart",
-            "Keep loop, move both feet under you"
+            "Stand until the loop pulls apart",
+            "Keep rising with your arm trapped"
           ],
           "trap": [
-            "Post hand behind, leg curl tight"
+            "Turn your head against the high leg"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (bottom): What confirms readiness for the separate standing phase?",
-        "answer": "After guard recovery creates distance, confirm a stable hand-and-foot base before initiating the separately taught stand-up.",
-        "answer_line": "Space, firm hand and foot posts",
+        "question": "Invisible Collar stand-up (top): What confirms readiness for the separate standing phase?",
+        "answer": "The high enclosure has opened, the head and arm are free, and balanced foot posts support your weight. Rise while facing the opponent's open guard.",
+        "answer_line": "Head and arm clear; feet support you",
         "distractors": {
           "plausible": [
-            "High leg open, chest still pins you",
-            "Hands free, both feet still caught"
+            "Second leg open, head still trapped",
+            "Hands free, isolated elbow caught"
           ],
           "trap": [
-            "Hands off mat, chest pressure stays"
+            "Feet set, neck still under pressure"
           ]
         }
       }
@@ -348,83 +348,83 @@
   },
   "defender": {
     "name": "Standing Escape Defender",
-    "description": "Standing Escape (defender): The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.",
-    "overview": "The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection. A technical stand-up needs disengaged space and supporting posts. It is not a direct escape from rear hooks inside the facing leg clinch.\n\nThe free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure. Avoid driving all weight onto the partner's shoulders while the legs are locked high.\n\nCreate space at the hip and thigh before trying to raise the head or extract the arm. Bring the elbow back between the bodies after the high closure opens. Tap immediately to a choke or joint pressure; posture recovery is an early defense, not a late escape guarantee.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nA high Invisible Collar enclosure can still apply vascular choke pressure during a posture change. Signal early and wait for the arm-and-leg connection to open completely; the other player beginning to stand does not make a trapped neck safe to lift.",
+    "description": "Standing Escape (defender): Use the remaining high leg and knee hug to control the opponent's posture when the second leg opens. Keep your high knee supported and the isolated arm contained without twisting the opponent's neck or shoulder.",
+    "overview": "The escaping player starts on top in Invisible Collar, with the bottom player's high leg-and-arm clinch controlling the head and an isolated arm. Standing requires freeing the head and arm, creating space and establishing a stable base. The facing high guard contains no rear hooks to remove.\n\nUse the remaining high leg and knee hug to control the opponent's posture when the second leg opens. Keep your high knee supported and the isolated arm contained without twisting the opponent's neck or shoulder. Keep the first high leg supported as the second leg opens, and release if the movement loads your knee or their neck.\n\nIf the second leg is opened, retain the neck-cleared knee hug only while it remains comfortable. Rebuild inside forearm and knee frames when the upper-body enclosure is lost. Release the whole enclosure immediately on a tap or loss of normal responsiveness; retaining guard never justifies loading a trapped neck.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nYour high Invisible Collar enclosure can still apply vascular choke pressure during a posture change. Release promptly on any stop signal, and open the clinch if you are stacked or lifted. The top player beginning to stand does not make a trapped neck or your high knee safe to load.",
     "key_principles": [
-      "Recognize the high closure: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.",
-      "Protect the neck and arm: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.",
-      "Keep a balanced base: Avoid driving all weight onto the partner's shoulders while the legs are locked high.",
-      "Address the leg enclosure: Create space at the hip and thigh before trying to raise the head or extract the arm.",
-      "Recover inside position: Bring the elbow back between the bodies after the high closure opens.",
-      "Stop on compression: Tap immediately to a choke or joint pressure; posture recovery is an early defense, not a late escape guarantee."
+      "Recognize the high closure: Use the remaining high leg and knee hug to control the opponent's posture when the second leg opens.",
+      "Protect the neck and arm: Keep your high knee supported and the isolated arm contained without twisting the opponent's neck or shoulder.",
+      "Keep the knee supported: Keep the first high leg supported as the second leg opens, and release if the movement loads your knee or their neck.",
+      "Address the leg enclosure: If the second leg is opened, retain the neck-cleared knee hug only while it remains comfortable.",
+      "Recover inside position: Rebuild inside forearm and knee frames when the upper-body enclosure is lost.",
+      "Stop on compression: Release the whole enclosure immediately on a tap or loss of normal responsiveness; retaining guard never justifies loading a trapped neck."
     ],
     "recognition_cues": [
-      "The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection.",
-      "Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
-      "Bring the forearms and knees between the bodies as space becomes available."
+      "The escaping player starts on top in Invisible Collar, with the bottom player's high leg-and-arm clinch controlling the head and an isolated arm.",
+      "The top player addresses the head-and-arm enclosure before rising; stop and release if their neck or isolated arm is already loaded.",
+      "The top player recovers inside forearm frames as the high enclosure opens, keeping the freed elbow close to the ribs."
     ],
     "defensive_options": [
       {
-        "action": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.",
+        "action": "Use the remaining high leg and knee hug to control the opponent's posture when the second leg opens.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Invisible Collar/Bottom",
+        "targets_outcome": "Chill Dog/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.",
+        "action": "Keep your high knee supported and the isolated arm contained without twisting the opponent's neck or shoulder.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Invisible Collar/Bottom",
+        "targets_outcome": "Chill Dog/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Avoid driving all weight onto the partner's shoulders while the legs are locked high.",
+        "action": "Keep the first high leg supported as the second leg opens, and release if the movement loads your knee or their neck.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Invisible Collar/Bottom",
+        "targets_outcome": "Chill Dog/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Create space at the hip and thigh before trying to raise the head or extract the arm.",
+        "action": "If the second leg is opened, retain the neck-cleared knee hug only while it remains comfortable.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Invisible Collar/Bottom",
+        "targets_outcome": "Chill Dog/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Invisible Collar/Bottom",
-        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip."
+        "outcome": "Chill Dog/Top",
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Use the remaining high leg and knee hug to control the opponent's posture when the second leg opens."
       },
       {
-        "outcome": "Invisible Collar/Bottom",
-        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
+        "outcome": "Chill Dog/Top",
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep your high knee supported and the isolated arm contained without twisting the opponent's neck or shoulder."
       }
     ],
     "common_errors": [
       {
         "error": "Skipping the checkpoint: recognize the high closure",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.",
-        "correction": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip."
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Use the remaining high leg and knee hug to control the opponent's posture when the second leg opens.",
+        "correction": "Use the remaining high leg and knee hug to control the opponent's posture when the second leg opens."
       },
       {
         "error": "Skipping the checkpoint: protect the neck and arm",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.",
-        "correction": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep your high knee supported and the isolated arm contained without twisting the opponent's neck or shoulder.",
+        "correction": "Keep your high knee supported and the isolated arm contained without twisting the opponent's neck or shoulder."
       },
       {
-        "error": "Skipping the checkpoint: keep a balanced base",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: Avoid driving all weight onto the partner's shoulders while the legs are locked high.",
-        "correction": "Avoid driving all weight onto the partner's shoulders while the legs are locked high."
+        "error": "Skipping the checkpoint: keep the knee supported",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep the first high leg supported as the second leg opens, and release if the movement loads your knee or their neck.",
+        "correction": "Keep the first high leg supported as the second leg opens, and release if the movement loads your knee or their neck."
       }
     ],
     "flashcards": [
       {
-        "question": "Invisible Collar stand-up (top): What can still enclose your head as they sit up?",
-        "answer": "A bottom player changing posture does not prove their Invisible Collar has opened; check the remaining head and shoulder connection.",
-        "answer_line": "High leg-and-arm loop round the head",
+        "question": "Invisible Collar stand-up (bottom): What can still hold their head as they start to rise?",
+        "answer": "Your high leg-and-arm clinch may remain closed as the top player changes posture. Recognize the remaining neck connection and release if it loads the neck or you are lifted.",
+        "answer_line": "Your high leg-and-arm clinch",
         "distractors": {
           "plausible": [
             "Low knee frame after high legs drop",
@@ -436,58 +436,58 @@
         }
       },
       {
-        "question": "Invisible Collar stand-up (top): How should you remain aligned during their reset?",
-        "answer": "Avoid turning the head or torso away while the arm remains caught; wait for usable slack in the upper-body enclosure.",
-        "answer_line": "Head-shoulder aligned; elbow compact",
+        "question": "Invisible Collar stand-up (bottom): What supports your high leg while they free their arm?",
+        "answer": "Keep the high knee close and supported through your hip position. Do not hold the foot in place while the knee is forced away, or twist the opponent's trapped shoulder.",
+        "answer_line": "Supported knee with a free hip angle",
         "distractors": {
           "plausible": [
-            "Head turns away, elbow held outside",
-            "Shoulder turns back, wrist pinned"
+            "Foot held while high knee drifts out",
+            "Ankle pulled against a fixed knee"
           ],
           "trap": [
-            "Head aligned, caught elbow extends"
+            "High leg straightened under a stack"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (top): If the high loop is applying choke pressure, what first?",
-        "answer": "A loaded neck enclosure needs immediate release, even if the bottom player has started a posture change toward standing.",
-        "answer_line": "Tap; get the high loop released",
+        "question": "Invisible Collar stand-up (bottom): Their neck is loaded as they try to rise; what must you do?",
+        "answer": "Release the whole high leg-and-arm enclosure on any stop signal. Do not retain the clinch through a forced rise, a stack or a lift.",
+        "answer_line": "Release the whole high enclosure",
         "distractors": {
           "plausible": [
-            "Wait until they stand before tapping",
-            "Lift chest to drag your neck free"
+            "Wait until they stand to release",
+            "Hold their head as they rise"
           ],
           "trap": [
-            "Tap while lifting head through loop"
+            "Open one hand but keep legs clamped"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (top): What should create room before you lift your head?",
-        "answer": "Use early balanced positioning to open the high connection before head extraction; do not force an already loaded neck.",
-        "answer_line": "Slack at high leg's hip and thigh",
+        "question": "Invisible Collar stand-up (bottom): If only the second leg opens, what control may remain?",
+        "answer": "The neck-cleared first leg and knee hug can retain Chill Dog. Check that the remaining connection is comfortable; do not force a closed high clinch as the opponent regains posture.",
+        "answer_line": "First high leg with the knee hug",
         "distractors": {
           "plausible": [
-            "Only widen your stance on the floor",
-            "Only their hand posts on the mat"
+            "Rear hooks behind their hips",
+            "Both high legs already closed"
           ],
           "trap": [
-            "Only free leg down; high thigh tight"
+            "A knee hug after both legs disengage"
           ]
         }
       },
       {
-        "question": "Invisible Collar stand-up (top): Where should the freed arm return as they disengage?",
-        "answer": "Recover a compact inside elbow after the high closure opens so the arm is not left outside for renewed isolation.",
-        "answer_line": "Inside by ribs, available to frame",
+        "question": "Invisible Collar stand-up (bottom): Where should frames return if the high clinch is lost?",
+        "answer": "Bring the forearms and knees inside to keep a facing guard as the opponent creates standing distance. Recover guard structure rather than chasing a lost neck connection.",
+        "answer_line": "Forearms and knees between bodies",
         "distractors": {
           "plausible": [
-            "Wide on the mat beyond their hips",
-            "Across far shoulder, elbow flared"
+            "Both hands behind their shoulders",
+            "Knees outside as you chase the head"
           ],
           "trap": [
-            "Hand in, elbow outside their thigh"
+            "Arms extended with the torso open"
           ]
         }
       }
@@ -496,17 +496,17 @@
       {
         "phase": "Phase 1",
         "focus": "Identify the configuration",
-        "description": "Work cooperatively on recognize the high closure. The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+        "description": "Work cooperatively on recognize the high closure. Use the remaining high leg and knee hug to control the opponent's posture when the second leg opens. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
         "phase": "Phase 2",
         "focus": "Rehearse the connection",
-        "description": "Work cooperatively on protect the neck and arm. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+        "description": "Work cooperatively on protect the neck and arm. Keep your high knee supported and the isolated arm contained without twisting the opponent's neck or shoulder. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
         "phase": "Phase 3",
         "focus": "Add an early response",
-        "description": "Work cooperatively on keep a balanced base. Avoid driving all weight onto the partner's shoulders while the legs are locked high. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+        "description": "Work cooperatively on keep the knee supported. Keep the first high leg supported as the second leg opens, and release if the movement loads your knee or their neck. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "clips": [
@@ -533,19 +533,19 @@
   "variants_and_adaptations": [
     {
       "variant_name": "Cooperative checkpoint drill",
-      "description": "The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+      "description": "The escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence. Address the head-and-arm enclosure before rising; stop and tap if the neck or isolated arm is already loaded.",
       "when_to_use": "Learning the control without submission pressure"
     },
     {
       "variant_name": "Response and reset drill",
-      "description": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+      "description": "Use the remaining high leg and knee hug to control the opponent's posture when the second leg opens. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
       "when_to_use": "Adding one early response after both partners recognize the configuration"
     }
   ],
   "conditions": [
-    "The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection.",
-    "The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.",
-    "A technical stand-up needs disengaged space and supporting posts. It is not a direct escape from rear hooks inside the facing leg clinch."
+    "The escaping player starts on top in Invisible Collar, with the bottom player's high leg-and-arm clinch controlling the head and an isolated arm.",
+    "The escaping top player faces a bottom guard player whose high legs control the head. One arm is isolated by the New York and neck-clearing sequence.",
+    "Standing requires freeing the head and arm, creating space and establishing a stable base. The facing high guard contains no rear hooks to remove."
   ],
-  "position_integration": "The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection. A technical stand-up needs disengaged space and supporting posts. It is not a direct escape from rear hooks inside the facing leg clinch. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route."
+  "position_integration": "The escaping player starts on top in Invisible Collar, with the bottom player's high leg-and-arm clinch controlling the head and an isolated arm. Standing requires freeing the head and arm, creating space and establishing a stable base. The facing high guard contains no rear hooks to remove. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route."
 }

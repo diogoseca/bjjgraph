@@ -253,8 +253,6 @@ The Armbar from North-South is a cornerstone attack within the North-South contr
 
 - [[Submissions/Far Side Armbar]] - Alternative armbar variation with different entry angle
 
-- [[Transitions/Back Take from Top]] - Transition option when armbar rotation is defended
-
 - [[Positions/Half Guard]] - Common counter position if rotation fails
 
 - [[Submissions/Belly Down Armbar]] - Variant finish against hitchhiker defense

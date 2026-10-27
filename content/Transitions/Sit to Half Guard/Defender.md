@@ -215,7 +215,7 @@ Successful defense requires reading the bottom player's body language and immedi
 ### 2. Follow the sit immediately and insert hooks for back control before knee shield can be established
 
 - **When to use**: When the sitting motion has already begun and prevention is no longer possible—capitalize on the exposed back during transition
-- **Targets**: [[Positions/Back Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You establish back control with hooks and seatbelt, converting from buggy choke attack to the most dominant position in BJJ
 - **Risk**: If you are too slow with hook insertion, opponent completes the sit and establishes Half Guard before you can secure back control
 
@@ -247,7 +247,7 @@ Successful defense requires reading the bottom player's body language and immedi
 
 Prevent the sit entirely through heavy perpendicular sprawl pressure when you recognize the posting hand or hip shift. Drive your chest down and hips heavy to pin opponent's hips to the mat, eliminating the mobility they need for the sitting motion. Alternatively, if the sit is partially completed, use immediate crossface pressure and hip drive to flatten opponent before they can establish knee shield or leg entanglement.
 
-### → [[Positions/Back Control]]
+### → [[Positions/Side Control]]
 
 When the sit is already in motion and cannot be prevented, immediately follow opponent's hip movement and insert your hooks before they can turn and face you. The sitting motion necessarily exposes the back—use this window by maintaining your seatbelt grip while transitioning your legs from buggy choke top to back control hooks. Drive your top hook in first, then bottom hook, and pull opponent back into your chest-to-back connection.
 

@@ -16,7 +16,7 @@ description: "Kimura Switch (attacker): The opposing foot is turned outward and 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kimura Switch in BJJ",
-  "description": "Step-by-step guide for executing Kimura Switch from Aoki Lock Control/Top.",
+  "description": "Step-by-step guide for executing Kimura Switch from Aoki Lock Control/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -50,7 +50,7 @@ description: "Kimura Switch (attacker): The opposing foot is turned outward and 
     },
     {
       "@type": "HowToStep",
-      "name": "Stop at shoulder control",
+      "name": "Stop at top Kimura Trap control",
       "text": "Use the grip as a positional handle without forcing the wrist behind the back.",
       "position": 6
     }
@@ -230,7 +230,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Open the Aoki leg entanglement and its hip control before changing from the foot to a new arm capture. The Kimura then requires its own wrist and elbow connections; the original leg position does not supply upper-body access.
 
-**From Position**: [[Positions/Aoki Lock Control]] (Top)
+**From Position**: [[Positions/Aoki Lock Control]] (Bottom)
 
 </section>
 
@@ -281,7 +281,7 @@ Open the Aoki leg entanglement and its hip control before changing from the foot
 - Release before repositioning: Open the original connection before either partner turns, rises or changes the captured limb.
 - Require wrist and elbow access: Obtain a separate arm-control position before attempting a figure-four grip.
 - Connect the arm figure-four: Hold the opposing wrist and your own wrist while keeping the captured elbow controlled.
-- Stop at shoulder control: Use the grip as a positional handle without forcing the wrist behind the back.
+- Stop at top Kimura Trap control: Use the grip as a positional handle without forcing the wrist behind the back. The original bottom player must also establish top control.
 
 
 </section>
@@ -311,7 +311,7 @@ Open the Aoki leg entanglement and its hip control before changing from the foot
 3. **Release before repositioning**: Open the original connection before either partner turns, rises or changes the captured limb.
 4. **Require wrist and elbow access**: Obtain a separate arm-control position before attempting a figure-four grip.
 5. **Connect the arm figure-four**: Hold the opposing wrist and your own wrist while keeping the captured elbow controlled.
-6. **Stop at shoulder control**: Use the grip as a positional handle without forcing the wrist behind the back.
+6. **Stop at top Kimura Trap control**: Use the grip as a positional handle without forcing the wrist behind the back.
 
 
 </section>
@@ -322,9 +322,9 @@ Open the Aoki leg entanglement and its hip control before changing from the foot
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Kimura Trap]] | 65% |
-| Failure | [[Positions/Aoki Lock Control]] | 25% |
-| Counter | [[Positions/Turtle]] | 10% |
+| Success | [[Positions/Kimura Trap]] | 35% |
+| Failure | [[Positions/Aoki Lock Control]] | 45% |
+| Counter | [[Positions/Ashi Garami]] | 20% |
 
 
 </section>
@@ -336,9 +336,9 @@ Open the Aoki leg entanglement and its hip control before changing from the foot
 <p class="section-subtitle">How might your opponent counter Kimura Switch?</p>
 
 - **Hold the arm close to the torso before a figure-four grip closes.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. → Leads to [[Positions/Aoki Lock Control]]
-- **Recover inside arm position while the attacker has only one point of control.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules. → Leads to [[Positions/Turtle]]
-- **A Kimura threatens the shoulder and elbow, unlike the preceding foot lock.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Open the original connection before either partner turns, rises or changes the captured limb. → Leads to [[Positions/Kimura Trap]]
-- **Do not roll against a fixed wrist and shoulder.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Obtain a separate arm-control position before attempting a figure-four grip. → Leads to [[Positions/Kimura Trap]]
+- **Recover inside arm position while the attacker has only one point of control.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules. → Leads to [[Positions/Ashi Garami]]
+- **A Kimura threatens the shoulder and elbow, unlike the preceding foot lock.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Open the original connection before either partner turns, rises or changes the captured limb. → Leads to [[Positions/Aoki Lock Control]]
+- **Do not roll against a fixed wrist and shoulder.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Obtain a separate arm-control position before attempting a figure-four grip. → Leads to [[Positions/Aoki Lock Control]]
 
 
 </section>

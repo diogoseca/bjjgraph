@@ -21,37 +21,37 @@ description: "Master seat belt control escape strategies from bottom back positi
     {
       "@type": "HowToStep",
       "name": "Execute Hand Fighting from Back",
-      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Hip Escape to Turtle",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Escape Seat Belt Control",
+      "text": "From this position, attempt Escape Seat Belt Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -270,7 +270,7 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 **If opponent has both hooks and seat belt with choking hand near neck:**
 - Execute **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 60%)
-- Execute **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Escape Seat Belt Control/Attacker|Escape Seat Belt Control]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent's over-shoulder grip is loose or broken temporarily:**
@@ -280,7 +280,7 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 **If opponent is high on your back with weight forward and hooks shallow:**
 - Execute **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 45%)
-- Execute **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Escape Seat Belt Control/Attacker|Escape Seat Belt Control]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 
@@ -391,7 +391,6 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 - **[[Positions/Half Guard]]** - Transitional defensive state during escape attempts when partially recovering guard
 - **[[Submissions/Rear Naked Choke]]** - Primary submission threat from this position requiring constant defensive awareness
 - **[[Transitions/Hand Fighting from Back]]** - Essential defensive transition for grip management from bottom back control
-- **[[Transitions/Elbow Escape to Remove Hooks]]** - Critical escape technique for removing hooks and beginning escape sequence
 - **[[Positions/Closed Guard]]** - Alternative escape target position when rolling through to face opponent
 - **[[Transitions/Back Door Escape]]** - Key escape transition when opponent's grip is compromised
 
@@ -403,8 +402,8 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni: Turtle Breakdowns and Back Attacks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

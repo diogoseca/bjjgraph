@@ -63,7 +63,7 @@ const paintedClearance = (page: Page, idx: number) => page.evaluate(idx => {
     const r = a._nodeHalfW(q, scale, k, a._lodK ?? 1);
     return { left: x - r, right: x + r, top: y - r, bottom: y + r };
   });
-  const selectors = '[data-executing-tech],.ng-evtoast,.ng-reader-article,.ng-reader-toc,.ng-reader-head,.ng-reader-tools,.ng-reader-closed-part,.ng-reader-game>.ng-section-card,.ng-landcard,.ng-land-film,[data-layer-dock],.ng-logo,.ng-winbar,.ng-challenge-reward';
+  const selectors = '[data-executing-tech],.ng-evtoast,.ng-reader-article,[data-reader-body],.ng-reader-toc,.ng-reader-head,.ng-reader-tools,.ng-reader-closed-part,.ng-reader-game>.ng-section-card,.ng-landcard,.ng-land-film,[data-layer-dock],.ng-logo,.ng-winbar,.ng-challenge-reward';
   const surfaces = [...document.querySelectorAll(selectors), a.accountRef.current, a.shareCueRef.current, a._handCloseEl].filter(Boolean);
   const occupied = surfaces.flatMap((el: any) => {
     const r = el.getBoundingClientRect(), cs = getComputedStyle(el);

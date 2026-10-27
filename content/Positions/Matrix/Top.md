@@ -21,37 +21,37 @@ description: "Defend against Matrix back take attempts from top position. Strate
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl Defense",
-      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Top",
-      "text": "From this position, attempt Back Take from Top. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Darce from Turtle",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce from Turtle",
-      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Guillotine from Turtle",
+      "text": "From this position, attempt Guillotine from Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -281,7 +281,7 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 **Matrix rotation blocked successfully, opponent momentarily vulnerable:**
 - Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Matrix to Back Control/Attacker|Matrix to Back Control]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Opponent actively threatening Matrix, defensive posture required:**
@@ -398,7 +398,7 @@ Bottom player is encouraged to attempt Matrix back takes while top player focuse
 - **[[Transitions/Back Step]]** - Counter-attack available when opponent commits to Matrix rotation
 - **[[Transitions/Darce from Turtle]]** - Offensive counter when opponent posts arm for Matrix entry
 - **[[Transitions/Crossface Pass]]** - Pressure passing option after blocking Matrix rotation
-- **[[Transitions/Back Take from Top]]** - Alternative back attack approach when Matrix is defended
+- **[[Transitions/Matrix to Back Control]]** - Alternative back attack approach when Matrix is defended
 - **[[Transitions/Guillotine from Turtle]]** - Submission counter when opponent exposes neck during Matrix setup
 
 

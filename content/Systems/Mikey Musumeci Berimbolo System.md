@@ -17,7 +17,7 @@ description: "Mikey Musumeci’s Berimbolo foundation course develops stacking, 
 <h1>Mikey Musumeci: Berimbolo Variations</h1>
 <div class="system-tags"><span>Attack System</span><span>Advanced</span></div>
 
-<p class="system-reference-count">13 related references (techniques and positions)</p>
+<p class="system-reference-count">12 related references (techniques and positions)</p>
 </header>
 
 
@@ -114,9 +114,6 @@ These related references are not a claim about what the course teaches or eviden
 
 
 - [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition)
-
-
-- [[Transitions/Back Take|Back Take]] (Transition)
 
 
 - [[Transitions/Backstep from De La Riva|Backstep from De La Riva]] (Transition)

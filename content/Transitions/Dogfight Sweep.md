@@ -294,8 +294,6 @@ The Dogfight Sweep is the central technique of the Dogfight Position attacking s
 
 - [[Transitions/Underhook Sweep from Dogfight]] - Alternative sweep variation using underhook leverage without far leg control
 
-- [[Transitions/Back Take]] - Primary chain attack when opponent over-defends the sweep by pulling hips away
-
 - [[Transitions/Crossface from Dogfight]] - Defender's primary counter technique using crossface pressure to shut down the sweep drive
 
 

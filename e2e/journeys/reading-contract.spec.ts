@@ -242,14 +242,16 @@ for (const width of [1366, 390]) {
       // D-338: the heading's words are its title (the toggle beside it is now the one ✕).
       const list = section.querySelector('ul')!, card = section.closest('.ng-section-card')!, head = card.querySelector('.ng-section-title')!, prose = list.querySelector('li')!
       const sub = document.querySelector('[data-reader-article="guide"] [data-source-id="defensive-options"] h3')!
-      return { gap: card.nextElementSibling!.getBoundingClientRect().top - card.getBoundingClientRect().bottom,
+      const peers = [...card.parentElement!.children].map(e => e.getBoundingClientRect())
+      const nextTop = Math.min(...peers.filter(r => r.top > card.getBoundingClientRect().top + 1).map(r => r.top))
+      return { gap: nextTop - Math.max(...peers.filter(r => r.top < nextTop).map(r => r.bottom)),
         item: px(list, 'rowGap'), unit: parseFloat(getComputedStyle(section.closest('[data-reader]')!).getPropertyValue('--reader-unit')),
         head: px(head, 'fontSize'), sub: px(sub, 'fontSize'), prose: px(prose, 'fontSize'),
         uppercase: getComputedStyle(head).textTransform, headLum: lum(head),
         bgLum: (() => { const rgb = getComputedStyle(card).backgroundColor.match(/\d+/g)!.slice(0,3).map(s => { const x = +s / 255; return x <= .03928 ? x / 12.92 : ((x + .055) / 1.055) ** 2.4 }); return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2] })() }
     })
     const normal = await sample()
-    expect(normal.gap).toBe(6)
+    expect(normal.gap).toBeCloseTo(width < 600 ? 18 : 24, 0)
     expect(normal.item / normal.unit).toBe(.5)
     // U14 b (owner, 2026-10-24): the title is now a small uppercase divider; it no longer
     // outranks the prose by size or brightness. Keep AA contrast and the prose's hierarchy.
@@ -259,7 +261,7 @@ for (const width of [1366, 390]) {
     expect((normal.headLum + .05) / (normal.bgLum + .05), 'the divider title retains AA text contrast').toBeGreaterThanOrEqual(4.5)
     await page.locator(READY).evaluate(e => (e as HTMLElement).style.setProperty('--reader-unit', '18px'))
     const scaled = await sample()
-    expect(scaled.gap, 'section spacing retains the approved independent 6px token').toBe(6)
+    expect(scaled.gap, 'grid spacing scales the independent 6px token, not the prose unit').toBeCloseTo(width < 600 ? 18 : 24, 0)
     expect(scaled.item / scaled.unit).toBe(.5)
     expect(scaled.item).not.toBe(normal.item)
   })

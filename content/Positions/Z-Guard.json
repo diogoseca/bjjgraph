@@ -728,22 +728,15 @@
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 16
+          "gi": 13,
+          "nogi": 15
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Back Take from Bottom",
-        "attempt_probability": {
           "gi": 9,
-          "nogi": 10
+          "nogi": 7
         }
       },
       {
@@ -770,22 +763,36 @@
       {
         "transition": "Z-Guard Sweep",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 16
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Z-Guard to Half Guard",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Sweep from Z-Guard",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Z Guard to Carni",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Back Take from Bottom",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
         }
       }
     ],

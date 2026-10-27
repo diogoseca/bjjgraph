@@ -112,7 +112,7 @@ description: "Master the Clock Choke in BJJ. Gi-based blood choke from turtle us
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Clock Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Clock Choke is a gi blood choke attacked from the top of turtle, where the attacker feeds a deep grip on the opponent\u0027s collar and walks in a circle around their head to compress the carotid arteries." } },
-    { "@type": "Question", "name": "What positions can you finish the Clock Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Clock Choke from Invisible Collar, Rodeo Ride." } },
+    { "@type": "Question", "name": "What positions can you finish the Clock Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Clock Choke from Rodeo Ride." } },
     { "@type": "Question", "name": "Is the Clock Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Clock Choke targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -194,7 +194,6 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Clock Choke/from Invisible Collar|Invisible Collar]] | Top | 58% | [[Submissions/Clock Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Clock Choke/from Invisible Collar/Defender|Defend →]] |
 | [[Submissions/Clock Choke/from Rodeo Ride|Rodeo Ride]] | Top | 58% | [[Submissions/Clock Choke/from Rodeo Ride/Attacker|Attack →]] | [[Submissions/Clock Choke/from Rodeo Ride/Defender|Defend →]] |
 
 

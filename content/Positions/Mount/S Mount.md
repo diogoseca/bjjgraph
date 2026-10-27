@@ -254,25 +254,23 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (14% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (15% of attempts)
 
-- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (7% of attempts)
+- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (8% of attempts)
 
 - **[[Submissions/Americana/from S Mount/Attacker|Americana from S Mount]]** (3% of attempts)
 
 - **[[Submissions/Kimura/from S Mount/Attacker|Kimura from S Mount]]** (5% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (8% of attempts)
-
 - **[[Transitions/Mounted Crucifix Entry/Attacker|Mounted Crucifix Entry]]** (5% of attempts)
 
-- **[[Transitions/Gift Wrap to Back/Attacker|Gift Wrap to Back]]** (11% of attempts)
+- **[[Transitions/Gift Wrap to Back/Attacker|Gift Wrap to Back]]** (12% of attempts)
 
-- **[[Transitions/S Mount Armbar Setup/Attacker|S Mount Armbar Setup]]** (19% of attempts)
+- **[[Transitions/S Mount Armbar Setup/Attacker|S Mount Armbar Setup]]** (21% of attempts)
 
-- **[[Transitions/S Mount to Mounted Triangle/Attacker|S Mount to Mounted Triangle]]** (10% of attempts)
+- **[[Transitions/S Mount to Mounted Triangle/Attacker|S Mount to Mounted Triangle]]** (11% of attempts)
 
-- **[[Submissions/Armbar/from S Mount/Attacker|Armbar from S Mount]]** (18% of attempts)
+- **[[Submissions/Armbar/from S Mount/Attacker|Armbar from S Mount]]** (20% of attempts)
 
 
 ### Common Mistakes

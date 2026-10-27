@@ -203,7 +203,7 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 ### 1. Circle rapidly toward the bottom player's exposed back side before hip realignment completes, advancing past their guard structure to side control or back control
 
 - **When to use**: Immediately when the Hindulotine grip releases and before the bottom player establishes a knee shield on the exposed flank
-- **Targets**: [[Positions/Side Control]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You advance to side control on the exposed flank with the bottom player's guard completely bypassed, consolidating with crossface and underhook
 - **Risk**: If the bottom player reads the circling movement early and establishes the knee shield, you may end up stuck against their strongest guard angle
 
@@ -217,7 +217,7 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 ### 3. Drive heavy crossface pressure toward the exposed side to flatten the bottom player and collapse their frame structure during the grip transition
 
 - **When to use**: When the bottom player has released the Hindulotine but has not yet established leg barriers or completed grip conversion
-- **Targets**: [[Positions/Side Control]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You flatten the bottom player and consolidate side control before they can establish any guard structure
 - **Risk**: If the bottom player still has partial Hindulotine grip control, driving into them may allow them to re-lock the choke
 
@@ -238,7 +238,7 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 
 <p class="section-subtitle">What is the best outcome when defending Guard Recovery from Hindulotine?</p>
 
-### → [[Positions/Side Control]]
+### → [[Positions/Open Guard]]
 
 Circle to the exposed back side during the grip transition window before the bottom player completes hip realignment, driving crossface pressure to flatten their structure and consolidating side control with underhook and crossface
 

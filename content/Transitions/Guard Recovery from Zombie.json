@@ -12,31 +12,31 @@
     {
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 45,
-        "nogi": 45
+        "gi": 65,
+        "nogi": 65
       },
       "result": "success"
     },
     {
       "to": "Zombie/Bottom",
       "probability": {
-        "gi": 30,
-        "nogi": 30
+        "gi": 20,
+        "nogi": 20
       },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 15,
+        "nogi": 15
       },
       "result": "counter"
     }
   ],
   "success_rate": {
-    "gi": 45,
-    "nogi": 45
+    "gi": 65,
+    "nogi": 65
   },
   "overview": "The bottom player is already facing the opponent in Zombie, with a high rubber-guard leg connection. The player begins facing the opponent in rubber guard; the reset does not free a lockdown on the opponent's leg.\n\nThe bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs).",
   "conditions": [

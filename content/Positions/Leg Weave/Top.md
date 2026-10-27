@@ -20,39 +20,15 @@ description: "Leg Weave top perspective: Thread the arm through the available le
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 26% of exchanges from this position.",
+      "name": "Execute Complete Leg Weave Pass",
+      "text": "From this position, attempt Complete Leg Weave Pass. This technique is attempted in 95% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Backstep from Leg Weave",
+      "text": "From this position, attempt Backstep from Leg Weave. This technique is attempted in 5% of exchanges from this position.",
       "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 11% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 11% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Over-Under Pass",
-      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -266,7 +242,7 @@ The weaving limb is the passer's arm. The passer still moves the feet and hips t
 
 
 **When the knee shield is folded but a final half-guard hook still needs to be removed:**
-- Execute **[[Transitions/Leg Weave Pass Completion/Attacker|Leg Weave Pass Completion]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Complete Leg Weave Pass/Attacker|Complete Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **After resetting to top half guard, when a new leg gap permits the arm-weave entry:**

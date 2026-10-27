@@ -64,13 +64,14 @@ const snapshot = (page: Page) => page.evaluate(() => {
 // replacement: the published Frames Play-ID set is empty instead of four (B1).
 for (const [path, width, fixture] of [
   ['/Principles/Frames', 1440, false], ['/Principles/Frames', 390, false],
-  ['/Learning/Position-Over-Submission', 1440, true],
-  ['/Systems/Danaher-Pin-Escape-Fundamentals-System', 1440, true],
-] as const) {
-  test(`@curated published reference videos remain playable without a seat: ${path} ${width}px${fixture ? ' (video fixture)' : ''}`, async ({ page }) => {
+  ['/Learning/Position-Over-Submission', 1440, true], ['/Learning/Position-Over-Submission', 390, true],
+  ['/Systems/Danaher-Pin-Escape-Fundamentals-System', 1440, true], ['/Systems/Danaher-Pin-Escape-Fundamentals-System', 390, true],
+] as const) for (const native of fixture ? [true, false] : [true]) {
+  test(`@curated published reference videos remain playable without a seat: ${path} ${width}px${fixture ? ' (video fixture)' : ''} (${native ? 'native card moves' : 'stationary fallback'})`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const j = journey(page)
     await j.boot(path, { keepTutorial: true, initialState: QUIET, beforeNavigate: async () => {
+      if (!native) await page.addInitScript(() => Object.defineProperty(Element.prototype, 'moveBefore', { configurable: true, value: undefined }))
       await page.route('**/static/neural/content/*.json', route => route.continue())
       await page.route(/https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//, route => route.fulfill({ contentType: 'text/html', body: '<title>Source transport fixture</title>' }))
       if (fixture) await page.route(url => url.pathname === path, async route => {
@@ -82,6 +83,7 @@ for (const [path, width, fixture] of [
       })
     } })
     await expect(page.locator(READY)).toBeVisible()
+    expect(await page.evaluate(() => typeof (Element.prototype as any).moveBefore === 'function'), 'premise: requested card-move capability').toBe(native)
     const before = await page.evaluate(async path => {
       const a = (window as any).__neural, doc = new DOMParser().parseFromString(await (await fetch(path)).text(), 'text/html')
       const sources = [...doc.querySelectorAll('article iframe')].map(f => new URL(f.getAttribute('src')!).pathname.split('/').pop())
@@ -113,7 +115,7 @@ for (const [path, width, fixture] of [
       // STALE CONTRACT (v1.230.0, feat/video-cards): the player opens on its own controls and never autoplays;
       // the viewer's Play is the provider's own control, made here through the player.
       await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip?._playerReady), 'premise: the player is ready').toBe(true)
-    await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo())
+      await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo())
       await expect.poll(() => page.evaluate(() => {
         const f = document.querySelector('[data-land-film] iframe') as HTMLIFrameElement
         return f?.contentDocument?.querySelector('video')?.currentTime || 0
@@ -125,11 +127,51 @@ for (const [path, width, fixture] of [
     // STALE CONTRACT (D-338, no View menu): the article view cannot hide Book, so "hidden audio"
     // is reached through the one remaining hide path, the Videos ✕, while the clip still plays.
     expect(await page.evaluate(() => (document.querySelector('[data-land-film] iframe') as HTMLIFrameElement).contentDocument!.querySelector('video')!.paused), 'the clip is playing before its section closes').toBe(false)
+    // D-501: hold actual browser objects before either move; a reloaded iframe is
+    // a failure even when a fresh fixture has already loaded and reports paused.
+    await page.evaluate(() => {
+      const w = window as any, a = w.__neural, frame = a._landFilmEl.querySelector('iframe')
+      w.__referenceLive = { host: a._landFilmEl, frame, doc: frame.contentDocument,
+        video: frame.contentDocument.querySelector('video'), player: a._expandedClip._player,
+        plays: w.__mediaEvents.filter((x: string) => x === 'play').length, loads: 0 }
+      frame.addEventListener('load', () => w.__referenceLive.loads++)
+    })
+    const continuity = () => page.evaluate(() => {
+      const w = window as any, a = w.__neural, saved = w.__referenceLive, frame = a._landFilmEl?.querySelector('iframe')
+      return { host: a._landFilmEl === saved.host, frame: frame === saved.frame,
+        document: frame?.contentDocument === saved.doc, player: a._expandedClip?._player === saved.player,
+        video: frame?.contentDocument?.querySelector('video') === saved.video, loads: saved.loads,
+        paused: frame?.contentDocument?.querySelector('video')?.paused,
+        extraPlay: w.__mediaEvents.filter((x: string) => x === 'play').length - saved.plays }
+    })
+    const intact = { host: true, frame: true, document: true, player: true, video: true, loads: 0 }
     await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded()
     await j.clickByMouse('[data-section-toggle=videos]', 'closing a seatless article\'s videos cannot leave hidden audio playing')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeHidden()
     expect(await page.evaluate(() => (window as any).__mediaEvents.filter((x: string) => x === 'destroy').length)).toBe(1)
-    expect(await page.evaluate(() => (document.querySelector('[data-land-film] iframe') as HTMLIFrameElement).contentDocument!.querySelector('video')!.paused)).toBe(true)
+    expect(await continuity(), 'D-501: closing Videos preserves the iframe document and player').toMatchObject(intact)
+    expect(await continuity(), 'closed reference video stays paused without a replacement player').toMatchObject({ paused: true, extraPlay: 0 })
+    const indexLink = page.locator('[data-toc-type=videos] [data-section-link]')
+    if (await indexLink.isVisible()) {
+      await indexLink.scrollIntoViewIfNeeded()
+      await j.clickByMouse('[data-toc-type=videos] [data-section-link]', 'reopen Videos through the visible index')
+    } else {
+      const summary = page.locator('.ng-reader-hidden>summary')
+      await summary.scrollIntoViewIfNeeded()
+      await j.clickByMouse('.ng-reader-hidden>summary', 'open Hidden sections before its Videos control')
+      await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
+      await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded()
+      await j.clickByMouse('[data-section-toggle=videos]', 'reopen the same Videos section')
+    }
+    await expect(page.locator('[data-section-toggle=videos]')).toHaveAttribute('aria-expanded', 'true')
+    await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeVisible()
+    expect(await continuity(), 'D-501: reopening Videos preserves the iframe document and player').toMatchObject(intact)
+    expect(await continuity(), 'reopening never autoplays').toMatchObject({ paused: true, extraPlay: 0 })
+    const stoppedAt = await page.evaluate(() => (window as any).__referenceLive.video.currentTime)
+    await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo())
+    await expect.poll(() => page.evaluate(() => (window as any).__referenceLive.video.currentTime)).toBeGreaterThan(stoppedAt + .1)
+    expect(await continuity(), 'D-501: resumed reference playback still owns the original document and player').toMatchObject({ ...intact, paused: false, extraPlay: 1 })
+    expect(await dormant()).toEqual(resting)
     if (!fixture) {
       const link = page.locator('[data-reader-body] a[href*="/Principles/Distance-Control"]').first()
       await link.scrollIntoViewIfNeeded(); await link.evaluate(el => el.setAttribute('data-reference-next', ''))
@@ -217,9 +259,20 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
     await j.readerLayoutSettled()
     // U11 (D-355): where the index shows, the closed Videos section leaves no placeholder; its row reopens it.
     const indexed = await page.locator('[data-reader][data-indexed]').count() > 0
+    if (!indexed) {
+      // STALE SPEC (D-482 / U25 a): the phone's reopen control is inside Hidden sections.
+      // Open the approved disclosure by mouse before measuring that control.
+      const summary = page.locator('.ng-reader-hidden>summary')
+      await expect(page.locator('.ng-reader-hidden')).not.toHaveAttribute('open', '')
+      await summary.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+      await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the hidden Videos control')
+      await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
+      await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    }
     await j.clickByMouse(indexed ? '[data-toc-type=videos] a' : '[data-section-toggle=videos]', 'reopen Videos')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeVisible()
-    expect((await snapshot(page)).paused).toBe(true)
+    expect(await snapshot(page)).toMatchObject({ same: true, frame: true, player: native, hosts: 1, frames: 1, total: 1, paused: true })
+    if (native) expect((await snapshot(page)).document).toBe(true)
     expect(await page.evaluate(() => (window as any).__pauseCalls)).toBeGreaterThan(0)
     expect((await snapshot(page)).events).not.toContain('destroy')
     expect((await snapshot(page)).events.filter((e: string) => e.startsWith('STALE:'))).toEqual([])

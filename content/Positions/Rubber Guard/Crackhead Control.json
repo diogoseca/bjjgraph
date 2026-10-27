@@ -42,7 +42,7 @@
     "overview": "The top player is responsible for recognizing and defending the control. The bottom player keeps the opponent close with a Mission Control leg and hand connection. The second leg rises high to reinforce the upper-body clinch behind the head. The opponent's arms remain inside and must still be managed before an arm-isolation attack. The bottom player adjusts from the hips while the top player works to recover posture and inside frames.\n\nAvoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem. Build a balanced base and an early hip frame before the high clinch closes.\n\nUndo the high-leg connection before attempting to stand tall or extract an arm. Do not answer the clinch by driving the partner onto the neck. Begin ordinary guard passing once the shoulders and arms are free of the high enclosure.\n\nThis is a facing guard configuration. Unlike the basic Invisible Collar path, it does not require first clearing an arm to the mat and clearing the neck; unlike Dead Orchard, it does not define a completed both-arm leg triangle. The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive with offensive options",
+      "position_type": "Defensive",
       "risk_level": "Medium to High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
@@ -82,16 +82,6 @@
         "actions": [
           {
             "technique": "Arm Extraction and Pass",
-            "target": "Side Control",
-            "probability": 58
-          }
-        ]
-      },
-      {
-        "condition": "Only after releasing the high clinch and separately establishing both arms under the thighs",
-        "actions": [
-          {
-            "technique": "Double Underhook Pass",
             "target": "Side Control",
             "probability": 58
           }
@@ -177,76 +167,17 @@
     },
     "transitions": [
       {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 22,
-          "nogi": 21
-        }
-      },
-      {
-        "transition": "Stack Pass",
-        "attempt_probability": {
-          "gi": 16,
-          "nogi": 18
-        }
-      },
-      {
-        "transition": "Double Underhook Pass",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 19
-        }
-      },
-      {
-        "transition": "Rolling Back Take",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 11
-        },
-        "deal_here": true,
-        "success_rate": {
-          "gi": 29,
-          "nogi": 26
-        },
-        "outcomes": [
-          {
-            "to": "Back Control/Top",
-            "probability": {
-              "gi": 26,
-              "nogi": 26
-            },
-            "result": "success"
-          },
-          {
-            "to": "Crackhead Control/Top",
-            "probability": {
-              "gi": 55,
-              "nogi": 55
-            },
-            "result": "failure"
-          },
-          {
-            "to": "Half Guard/Bottom",
-            "probability": {
-              "gi": 19,
-              "nogi": 19
-            },
-            "result": "counter"
-          }
-        ]
-      },
-      {
         "transition": "Posture Recovery to Closed Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 85,
+          "nogi": 85
         }
       },
       {
         "transition": "Arm Extraction and Pass",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 15,
+          "nogi": 15
         }
       }
     ],
@@ -377,8 +308,8 @@
     "overview": "The bottom player is responsible for maintaining the control. The bottom player keeps the opponent close with a Mission Control leg and hand connection. The second leg rises high to reinforce the upper-body clinch behind the head. The opponent's arms remain inside and must still be managed before an arm-isolation attack. The bottom player adjusts from the hips while the top player works to recover posture and inside frames.\n\nEstablish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Do not assume that high legs alone have isolated an arm or completed Dead Orchard.\n\nUse hip position and connected leg pressure rather than pulling the feet against fixed knees. Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again. Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.\n\nThis is a facing guard configuration. Unlike the basic Invisible Collar path, it does not require first clearing an arm to the mat and clearing the neck; unlike Dead Orchard, it does not define a completed both-arm leg triangle. The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank.\n\nTwo high legs do not make the torso immune to chest pressure. Preserve space with the available inside arm and the supported knees; open the clinch before the passer can fold your shoulders and hips into a neck stack.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "High",
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium to High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -419,16 +350,6 @@
             "technique": "Crackhead Control to New York",
             "target": "New York",
             "probability": 58
-          }
-        ]
-      },
-      {
-        "condition": "Only after opening the high clinch, isolating an arm and establishing the separately taught Carni angle",
-        "actions": [
-          {
-            "technique": "Crackhead Control to Carni",
-            "target": "Carni",
-            "probability": 55
           }
         ]
       }
@@ -512,59 +433,45 @@
     },
     "transitions": [
       {
-        "transition": "Gogoplata",
+        "transition": "Crackhead Control to Mission Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 11
+          "gi": 40,
+          "nogi": 40
         }
       },
       {
-        "transition": "Omoplata from Crackhead Control",
+        "transition": "Crackhead Control to Dead Orchard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Triangle Choke from Crackhead Control",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Crackhead Control to Carni",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Hook Sweep",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 25,
+          "nogi": 25
         }
       },
       {
         "transition": "Baratoplata from Crackhead Control",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Crackhead Control to Mission Control",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Crackhead Control to New York",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Omoplata from Crackhead Control",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Triangle Choke from Crackhead Control",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
         }
       }
     ],

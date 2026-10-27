@@ -290,7 +290,7 @@ The transition to inverted lasso guard occupies a critical junction in the moder
 
 - [[Positions/Inverted Guard]] - Related movement pattern - shares inversion mechanics and shoulder-based weight distribution principles
 
-- [[Transitions/Kiss of the Dragon]] - Chain technique - inverted lasso naturally flows into kiss of the dragon back take when opponent defends berimbolo
+- [[Transitions/Kiss of the Dragon from RDLR]] - Chain technique - inverted lasso naturally flows into kiss of the dragon back take when opponent defends berimbolo
 
 - [[Transitions/Lasso Guard Pass]] - Opponent's primary counter - understanding pass mechanics informs optimal inversion timing
 

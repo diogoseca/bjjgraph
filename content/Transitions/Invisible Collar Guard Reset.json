@@ -1,0 +1,374 @@
+{
+  "name": "Invisible Collar Guard Reset",
+  "from_position": "Invisible Collar/Bottom",
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
+      "result": "success"
+    },
+    {
+      "to": "Invisible Collar/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "The Invisible Collar holder unloads the neck, opens the high-leg clinch, and restores a facing bottom guard with inside frames before selecting another attack.",
+  "description": "The Invisible Collar holder unloads the neck, opens the high-leg clinch, and restores a facing bottom guard with inside frames before selecting another attack.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The Invisible Collar holder unloads the neck, opens the high-leg clinch, and restores a facing bottom guard with inside frames before selecting another attack.\n\nBegin as the bottom holder of the Invisible Collar high-leg enclosure. Release all neck pressure before changing the high-leg connections.\n\nOpen the enclosure through the hips while keeping the raised knees comfortable and supported. Retain inside frames as the legs lower so you remain facing the opponent. Restore ordinary Closed Guard/Bottom when the distance permits the ankles to close comfortably. If the ankles cannot close, recognize Open Guard/Bottom instead of forcing the high enclosure back together.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Invisible Collar",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Invisible Collar Guard Reset Attacker",
+    "description": "The Invisible Collar holder unloads the neck, opens the high-leg clinch, and restores a facing bottom guard with inside frames before selecting another attack.",
+    "overview": "The Invisible Collar holder unloads the neck, opens the high-leg clinch, and restores a facing bottom guard with inside frames before selecting another attack.\n\nBegin as the bottom holder of the Invisible Collar high-leg enclosure. Release all neck pressure before changing the high-leg connections.\n\nOpen the enclosure through the hips while keeping the raised knees comfortable and supported. Retain inside frames as the legs lower so you remain facing the opponent. Restore ordinary Closed Guard/Bottom when the distance permits the ankles to close comfortably. If the ankles cannot close, recognize Open Guard/Bottom instead of forcing the high enclosure back together.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom owns the facing high clinch: Begin as the bottom holder of the Invisible Collar high-leg enclosure.",
+      "Finishing pressure released first: Release all neck pressure before changing the high-leg connections.",
+      "Hip-led opening of the enclosure: Open the enclosure through the hips while keeping the raised knees comfortable and supported.",
+      "Inside frames protect the reset: Retain inside frames as the legs lower so you remain facing the opponent.",
+      "Closed guard from underneath: Restore ordinary Closed Guard/Bottom when the distance permits the ankles to close comfortably.",
+      "Facing guard if ankles stay open: If the ankles cannot close, recognize Open Guard/Bottom instead of forcing the high enclosure back together."
+    ],
+    "setup_requirements": [
+      "Begin as the bottom holder of the Invisible Collar high-leg enclosure.",
+      "Release all neck pressure before changing the high-leg connections.",
+      "Open the enclosure through the hips while keeping the raised knees comfortable and supported.",
+      "Retain inside frames as the legs lower so you remain facing the opponent."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the holder",
+        "description": "Begin as the bottom holder of the Invisible Collar high-leg enclosure."
+      },
+      {
+        "step_number": 2,
+        "action": "Unload the neck",
+        "description": "Release all neck pressure before changing the high-leg connections."
+      },
+      {
+        "step_number": 3,
+        "action": "Open the high legs",
+        "description": "Open the enclosure through the hips while keeping the raised knees comfortable and supported."
+      },
+      {
+        "step_number": 4,
+        "action": "Keep facing frames",
+        "description": "Retain inside frames as the legs lower so you remain facing the opponent."
+      },
+      {
+        "step_number": 5,
+        "action": "Close ordinary guard",
+        "description": "Restore ordinary Closed Guard/Bottom when the distance permits the ankles to close comfortably."
+      },
+      {
+        "step_number": 6,
+        "action": "Recognize open guard",
+        "description": "If the ankles cannot close, recognize Open Guard/Bottom instead of forcing the high enclosure back together."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Let all neck pressure release before moving through the opening.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Invisible Collar/Bottom"
+      },
+      {
+        "counter": "Keep a balanced base as the high legs lower.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Invisible Collar/Bottom"
+      },
+      {
+        "counter": "Retain inside arm position without twisting a captured shoulder.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Open Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the holder",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the bottom holder of the Invisible Collar high-leg enclosure."
+      },
+      {
+        "error": "Skipping unload the neck",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Release all neck pressure before changing the high-leg connections."
+      },
+      {
+        "error": "Skipping open the high legs",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Open the enclosure through the hips while keeping the raised knees comfortable and supported."
+      },
+      {
+        "error": "Skipping keep facing frames",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Retain inside frames as the legs lower so you remain facing the opponent."
+      },
+      {
+        "error": "Skipping close ordinary guard",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Restore ordinary Closed Guard/Bottom when the distance permits the ankles to close comfortably."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the holder",
+        "description": "Begin as the bottom holder of the Invisible Collar high-leg enclosure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Unload the neck",
+        "description": "Release all neck pressure before changing the high-leg connections. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the high legs",
+        "description": "Open the enclosure through the hips while keeping the raised knees comfortable and supported. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Keep facing frames",
+        "description": "Retain inside frames as the legs lower so you remain facing the opponent. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Invisible Collar Guard Reset: what does identify the holder require?",
+        "answer": "Begin as the bottom holder of the Invisible Collar high-leg enclosure.",
+        "answer_line": "Bottom owns the facing high clinch",
+        "distractors": {
+          "plausible": [
+            "A pass without clearing the legs",
+            "A rear choke with two hooks"
+          ],
+          "trap": [
+            "A knee forced through resistance"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Guard Reset: what does unload the neck require?",
+        "answer": "Release all neck pressure before changing the high-leg connections.",
+        "answer_line": "Finishing pressure released first",
+        "distractors": {
+          "plausible": [
+            "A rear choke with two hooks",
+            "A knee forced through resistance"
+          ],
+          "trap": [
+            "A finish maintained during release"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Guard Reset: what does open the high legs require?",
+        "answer": "Open the enclosure through the hips while keeping the raised knees comfortable and supported.",
+        "answer_line": "Hip-led opening of the enclosure",
+        "distractors": {
+          "plausible": [
+            "A knee forced through resistance",
+            "A finish maintained during release"
+          ],
+          "trap": [
+            "A pass without clearing the legs"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Guard Reset: what does keep facing frames require?",
+        "answer": "Retain inside frames as the legs lower so you remain facing the opponent.",
+        "answer_line": "Inside frames protect the reset",
+        "distractors": {
+          "plausible": [
+            "A finish maintained during release",
+            "A pass without clearing the legs"
+          ],
+          "trap": [
+            "A rear choke with two hooks"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Guard Reset: what does close ordinary guard require?",
+        "answer": "Restore ordinary Closed Guard/Bottom when the distance permits the ankles to close comfortably.",
+        "answer_line": "Closed guard from underneath",
+        "distractors": {
+          "plausible": [
+            "A pass without clearing the legs",
+            "A rear choke with two hooks"
+          ],
+          "trap": [
+            "A knee forced through resistance"
+          ]
+        }
+      },
+      {
+        "question": "Invisible Collar Guard Reset: what does recognize open guard require?",
+        "answer": "If the ankles cannot close, recognize Open Guard/Bottom instead of forcing the high enclosure back together.",
+        "answer_line": "Facing guard if ankles stay open",
+        "distractors": {
+          "plausible": [
+            "A rear choke with two hooks",
+            "A knee forced through resistance"
+          ],
+          "trap": [
+            "A finish maintained during release"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Invisible Collar Guard Reset Defender",
+    "description": "Recognize Invisible Collar Guard Reset and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Let all neck pressure release before moving through the opening. Keep a balanced base as the high legs lower. Retain inside arm position without twisting a captured shoulder. Recognize ordinary closed guard when the legs close around the waist. Face the remaining open guard when the ankles stay apart.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Let all neck pressure release before moving through the opening.",
+      "Keep a balanced base as the high legs lower.",
+      "Retain inside arm position without twisting a captured shoulder.",
+      "Recognize ordinary closed guard when the legs close around the waist.",
+      "Face the remaining open guard when the ankles stay apart."
+    ],
+    "recognition_cues": [
+      "Begin as the bottom holder of the Invisible Collar high-leg enclosure.",
+      "Release all neck pressure before changing the high-leg connections.",
+      "Open the enclosure through the hips while keeping the raised knees comfortable and supported."
+    ],
+    "defensive_options": [
+      {
+        "action": "Let all neck pressure release before moving through the opening.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Invisible Collar/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Keep a balanced base as the high legs lower.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Invisible Collar/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Retain inside arm position without twisting a captured shoulder.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Recognize ordinary closed guard when the legs close around the waist.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Invisible Collar/Bottom",
+        "how": "Let all neck pressure release before moving through the opening."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Face the remaining open guard when the ankles stay apart."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Face the remaining open guard when the ankles stay apart."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Keep a balanced base as the high legs lower."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Invisible Collar Guard Reset, what connection do you address first?",
+        "answer": "Let all neck pressure release before moving through the opening."
+      },
+      {
+        "question": "Against Invisible Collar Guard Reset, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Invisible Collar Guard Reset, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the holder",
+        "description": "Begin as the bottom holder of the Invisible Collar high-leg enclosure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Unload the neck",
+        "description": "Release all neck pressure before changing the high-leg connections. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the high legs",
+        "description": "Open the enclosure through the hips while keeping the raised knees comfortable and supported. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the bottom holder of the Invisible Collar high-leg enclosure.",
+    "Release all neck pressure before changing the high-leg connections.",
+    "Open the enclosure through the hips while keeping the raised knees comfortable and supported."
+  ],
+  "position_integration": "The Invisible Collar holder unloads the neck, opens the high-leg clinch, and restores a facing bottom guard with inside frames before selecting another attack. Begin as the bottom holder of the Invisible Collar high-leg enclosure. If the ankles cannot close, recognize Open Guard/Bottom instead of forcing the high enclosure back together."
+}

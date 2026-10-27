@@ -297,8 +297,6 @@ Escape Reverse Mount connects the reverse mount survival system to the half guar
 
 - [[Transitions/Armbar from Reverse Mount]] - Submission threat the top player may attempt that this escape must account for during execution
 
-- [[Transitions/Back Take]] - Primary threat during escape — opponent capitalizes on turning movement to insert hooks
-
 - [[Positions/Turtle]] - Intermediate position that may occur during escape scramble before guard is fully recovered
 
 - [[Positions/Mount]] - Related position — opponent may convert to standard mount during failed escape attempt

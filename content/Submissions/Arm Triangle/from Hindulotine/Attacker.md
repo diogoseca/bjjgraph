@@ -4,7 +4,7 @@
 
 ---
 title: "Arm Triangle from Hindulotine Attacker | BJJ Submission Guide | BJJ Graph"
-description: "Arm Triangle from Hindulotine (attacker): Establish a stable pin or equivalent control with one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward."
+description: "Arm Triangle from Hindulotine (attacker): Maintain a stable guard connection while bringing one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward."
 ---
 
 
@@ -23,7 +23,7 @@ description: "Arm Triangle from Hindulotine (attacker): Establish a stable pin o
     {
       "@type": "HowToStep",
       "name": "Obtain head-and-arm access",
-      "text": "Establish a stable pin or equivalent control with one opposing arm across the neck.",
+      "text": "Maintain a stable guard connection while bringing one opposing arm across the neck.",
       "position": 1
     },
     {
@@ -73,7 +73,7 @@ description: "Arm Triangle from Hindulotine (attacker): Establish a stable pin o
       "name": "Arm Triangle after Hindu Control: which direction should the opponent's trapped arm cross?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Across the front of their neck. Establish a stable pin or equivalent control with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it."
+        "text": "Across the front of their neck. Maintain a stable guard connection with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it."
       }
     },
     {
@@ -126,7 +126,7 @@ description: "Arm Triangle from Hindulotine (attacker): Establish a stable pin o
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Arm Triangle from Hindulotine Attacker",
-  "description": "Arm Triangle from Hindulotine (attacker): Establish a stable pin or equivalent control with one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward.",
+  "description": "Arm Triangle from Hindulotine (attacker): Maintain a stable guard connection while bringing one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -222,9 +222,9 @@ description: "Arm Triangle from Hindulotine (attacker): Establish a stable pin o
 
 <section id="overview" class="content-section">
 
-The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.
+The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.
 
-Establish a stable pin or equivalent control with one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.
+Maintain a stable guard connection while bringing one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.
 
 Close the arm loop without changing the neck into a twisting position. Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze. Open the arm loop and take pressure off the trapped shoulder immediately.
 
@@ -232,7 +232,7 @@ Use positional closure rather than a neck crank, practice the control without pr
 
 For a separately established top-side finish, chest pressure helps keep the trapped shoulder from withdrawing while the neck enclosure is adjusted. Balance on a stable base; pinning the torso is support for the choke, not a reason to drive harder into the neck.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 
 </section>
@@ -279,7 +279,7 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 <p class="section-subtitle">What are the key principles for executing Arm Triangle from Hindulotine?</p>
 
-- Obtain head-and-arm access: Establish a stable pin or equivalent control with one opposing arm across the neck.
+- Obtain head-and-arm access: Maintain a stable guard connection while bringing one opposing arm across the neck.
 - Wrap the head: Place the attacking upper arm beside one side of the neck without levering the head backward.
 - Keep the shoulder enclosed: Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.
 - Connect the support hand: Close the arm loop without changing the neck into a twisting position.
@@ -295,8 +295,8 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 <p class="section-subtitle">What do you need before attempting Arm Triangle from Hindulotine?</p>
 
-- The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin.
-- Establish a stable pin or equivalent control with one opposing arm across the neck.
+- The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck.
+- Maintain a stable guard connection while bringing one opposing arm across the neck.
 - Place the attacking upper arm beside one side of the neck without levering the head backward.
 - Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.
 
@@ -309,7 +309,7 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 <p class="section-subtitle">How do you execute Arm Triangle from Hindulotine step by step?</p>
 
-1. **Obtain head-and-arm access**: Establish a stable pin or equivalent control with one opposing arm across the neck.
+1. **Obtain head-and-arm access**: Maintain a stable guard connection while bringing one opposing arm across the neck.
 2. **Wrap the head**: Place the attacking upper arm beside one side of the neck without levering the head backward.
 3. **Keep the shoulder enclosed**: Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.
 4. **Connect the support hand**: Close the arm loop without changing the neck into a twisting position.
@@ -325,9 +325,9 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 62% |
-| Failure | [[Positions/Hindulotine]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Success | [[game-over]] | 25% |
+| Failure | [[Positions/Hindulotine]] | 50% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>
@@ -338,7 +338,7 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 <p class="section-subtitle">How might your opponent defend against Arm Triangle from Hindulotine?</p>
 
-- **Recover the arm before it crosses the neck and becomes enclosed.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Establish a stable pin or equivalent control with one opposing arm across the neck. → Leads to [[Positions/Hindulotine]]
+- **Recover the arm before it crosses the neck and becomes enclosed.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Maintain a stable guard connection while bringing one opposing arm across the neck. → Leads to [[Positions/Hindulotine]]
 - **Maintain an early frame between the shoulder and head while the loop is still open.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Place the attacking upper arm beside one side of the neck without levering the head backward. → Leads to [[Positions/Hindulotine]]
 - **An upper arm beside the neck plus your own shoulder on the other side is the key threat.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable. → Leads to [[Positions/Hindulotine]]
 - **Move the hips and shoulders together while space remains; do not turn the head alone.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Close the arm loop without changing the neck into a twisting position. → Leads to [[Positions/Closed Guard]]
@@ -354,8 +354,8 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 ### 1. Skipping the checkpoint: obtain head-and-arm access
 
-- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Establish a stable pin or equivalent control with one opposing arm across the neck.
-- **Correction**: Establish a stable pin or equivalent control with one opposing arm across the neck.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Maintain a stable guard connection while bringing one opposing arm across the neck.
+- **Correction**: Maintain a stable guard connection while bringing one opposing arm across the neck.
 
 ### 2. Skipping the checkpoint: wrap the head
 
@@ -388,7 +388,7 @@ For a separately established top-side finish, chest pressure helps keep the trap
 <p class="section-subtitle">How do you train Arm Triangle from Hindulotine (Attacker)?</p>
 
 **Phase 1** - Identify the configuration
-Work cooperatively on obtain head-and-arm access. Establish a stable pin or equivalent control with one opposing arm across the neck. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
+Work cooperatively on obtain head-and-arm access. Maintain a stable guard connection while bringing one opposing arm across the neck. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 **Phase 2** - Rehearse the connection
 Work cooperatively on wrap the head. Place the attacking upper arm beside one side of the neck without levering the head backward. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.

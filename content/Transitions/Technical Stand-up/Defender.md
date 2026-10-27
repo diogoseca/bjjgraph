@@ -83,7 +83,7 @@ description: "How to defend against Technical Stand-up in BJJ. Recognition cues,
       "name": "How do you tell a committed technical stand-up from a feint set up to bait a sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A genuine stand-up shows full commitment: posting hand firmly planted with locked elbow, hip elevation beginning immediately after posting, and trail leg actively preparing to swing. A feint typically shows posting hand placement without weight commitment, partial hip elevation that stalls, and the opponent's eyes tracking your reaction rather than focused on completing the movement. The key tell is weight transfer — in a real stand-up, the opponent shifts significant weight onto the posting hand and lead foot, which you can feel through your grips. In a feint, weight stays centered on the hips. If you rush forward against a feint, you overcommit and walk into the sweep they actually intended."
+        "text": "A genuine stand-up shows full commitment: posting hand firmly planted with a supported elbow and active shoulder, hip elevation beginning immediately after posting, and trail leg actively preparing to swing. A feint typically shows posting hand placement without weight commitment, partial hip elevation that stalls, and the opponent's eyes tracking your reaction rather than focused on completing the movement. The key tell is weight transfer — in a real stand-up, the opponent shifts significant weight onto the posting hand and lead foot, which you can feel through your grips. In a feint, weight stays centered on the hips. If you rush forward against a feint, you overcommit and walk into the sweep they actually intended."
       }
     },
     {

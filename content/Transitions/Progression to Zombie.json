@@ -1,48 +1,48 @@
 {
   "name": "Progression to Zombie",
-  "description": "Progression to Zombie from New York is a reset when the opponent recovers the inside hand. Pummel it back to the mat before restoring arm isolation and the knee hug.",
+  "description": "Progression to Zombie starts the contested hand-clearing pummel from Mission Control. Retain posture control and support the high knee while seeking inside space.",
   "tags": [
     "bjj",
     "transition",
     "position-change"
   ],
-  "from_position": "New York/Bottom",
+  "from_position": "Mission Control/Bottom",
   "outcomes": [
     {
       "to": "Zombie/Bottom",
       "probability": {
-        "gi": 58,
-        "nogi": 58
+        "gi": 45,
+        "nogi": 45
       },
       "result": "success"
     },
     {
-      "to": "New York/Bottom",
+      "to": "Mission Control/Bottom",
       "probability": {
-        "gi": 27,
-        "nogi": 27
+        "gi": 35,
+        "nogi": 35
       },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 20,
+        "nogi": 20
       },
       "result": "counter"
     }
   ],
   "success_rate": {
-    "gi": 58,
-    "nogi": 58
+    "gi": 45,
+    "nogi": 45
   },
-  "summary": "Zombie is the hand-clearing pummel from Mission Control into New York; it is needed again only if the opponent has recovered the arm inside.",
-  "overview": "The bottom guard player begins in New York, facing a top player whose posture is controlled. Completed New York already contains the result of the Zombie pummel. First recognize a lost arm isolation and re-establish Mission Control rather than treating Zombie as a later static lockdown.\n\nMaintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Guide the wrist and forearm through the available space without bending individual fingers.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs).",
+  "summary": "Progression to Zombie begins the hand-clearing pummel from Mission Control while arm isolation is still contested; completing the hand clearance and knee hug leads onward to New York.",
+  "overview": "The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside. Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation.\n\nMaintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Guide the wrist and forearm through the available space without bending individual fingers.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs).",
   "conditions": [
-    "The bottom guard player begins in New York, facing a top player whose posture is controlled.",
+    "The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside.",
     "Maintain posture control while freeing the other arm for the pummel.",
-    "Completed New York already contains the result of the Zombie pummel. First recognize a lost arm isolation and re-establish Mission Control rather than treating Zombie as a later static lockdown."
+    "Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation."
   ],
   "related_content": [
     {
@@ -65,20 +65,20 @@
   "attacker": {
     "name": "Progression to Zombie Attacker",
     "description": "Progression to Zombie (attacker): Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
-    "overview": "The bottom guard player begins in New York, facing a top player whose posture is controlled. Completed New York already contains the result of the Zombie pummel. First recognize a lost arm isolation and re-establish Mission Control rather than treating Zombie as a later static lockdown.\n\nMaintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Guide the wrist and forearm through the available space without bending individual fingers.\n\nCover the cleared arm and close the knee hug as the hand reaches the mat. Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement. Keep a safe guard and look for another opening when the opponent maintains inside frames.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nRebuild the New York overhook after the inside hand has been cleared, keeping the knee supported throughout the pummel. Guard retention takes priority over the next submission if the partner regains posture or the knee begins to slip out of position.",
+    "overview": "The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside. Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation.\n\nMaintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Guide the wrist and forearm through the available space without bending individual fingers.\n\nKeep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step. Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward. Keep a safe guard and look for another opening when the opponent maintains inside frames.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nContinue to the New York arm wrap only after the inside hand has been cleared, keeping the knee supported throughout the pummel. Guard retention takes priority over the next submission if the partner regains posture or the knee begins to slip out of position.",
     "key_principles": [
       "Keep Mission Control: Maintain posture control while freeing the other arm for the pummel.",
       "Find inside space: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
-      "Move the hand to the mat: Guide the wrist and forearm through the available space without bending individual fingers.",
-      "Prevent the return pummel: Cover the cleared arm and close the knee hug as the hand reaches the mat.",
-      "Recognize New York: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.",
+      "Begin clearing the hand: Guide the wrist and forearm through the available space without bending individual fingers.",
+      "Prevent the return pummel: Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.",
+      "Distinguish New York: Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward.",
       "Reset a blocked attempt: Keep a safe guard and look for another opening when the opponent maintains inside frames."
     ],
     "setup_requirements": [
-      "The bottom guard player begins in New York, facing a top player whose posture is controlled.",
+      "The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside.",
       "Maintain posture control while freeing the other arm for the pummel.",
       "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
-      "Completed New York already contains the result of the Zombie pummel. First recognize a lost arm isolation and re-establish Mission Control rather than treating Zombie as a later static lockdown."
+      "Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation."
     ],
     "execution_steps": [
       {
@@ -93,18 +93,18 @@
       },
       {
         "step_number": 3,
-        "action": "Move the hand to the mat",
+        "action": "Begin clearing the hand",
         "description": "Guide the wrist and forearm through the available space without bending individual fingers."
       },
       {
         "step_number": 4,
         "action": "Prevent the return pummel",
-        "description": "Cover the cleared arm and close the knee hug as the hand reaches the mat."
+        "description": "Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step."
       },
       {
         "step_number": 5,
-        "action": "Recognize New York",
-        "description": "Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement."
+        "action": "Distinguish New York",
+        "description": "Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward."
       },
       {
         "step_number": 6,
@@ -117,7 +117,7 @@
         "counter": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Maintain posture control while freeing the other arm for the pummel.",
-        "targets_outcome": "New York/Bottom"
+        "targets_outcome": "Mission Control/Bottom"
       },
       {
         "counter": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
@@ -129,13 +129,13 @@
         "counter": "The free hand working under yours is the cue to recover inside position before the knee hug closes.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Guide the wrist and forearm through the available space without bending individual fingers.",
-        "targets_outcome": "New York/Bottom"
+        "targets_outcome": "Mission Control/Bottom"
       },
       {
         "counter": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.",
         "effectiveness": "Low",
-        "your_response": "Re-check the prerequisite before continuing. Cover the cleared arm and close the knee hug as the hand reaches the mat.",
-        "targets_outcome": "New York/Bottom"
+        "your_response": "Re-check the prerequisite before continuing. Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.",
+        "targets_outcome": "Mission Control/Bottom"
       }
     ],
     "common_errors": [
@@ -150,19 +150,19 @@
         "correction": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward."
       },
       {
-        "error": "Skipping the checkpoint: move the hand to the mat",
+        "error": "Skipping the checkpoint: begin clearing the hand",
         "consequence": "The intended control is not established before the next movement; the missing requirement is: Guide the wrist and forearm through the available space without bending individual fingers.",
         "correction": "Guide the wrist and forearm through the available space without bending individual fingers."
       },
       {
         "error": "Skipping the checkpoint: prevent the return pummel",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: Cover the cleared arm and close the knee hug as the hand reaches the mat.",
-        "correction": "Cover the cleared arm and close the knee hug as the hand reaches the mat."
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.",
+        "correction": "Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step."
       },
       {
-        "error": "Skipping the checkpoint: recognize new york",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.",
-        "correction": "Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement."
+        "error": "Skipping the checkpoint: distinguish new york",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward.",
+        "correction": "Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward."
       }
     ],
     "training_progressions": [
@@ -179,19 +179,19 @@
       {
         "phase": "Phase 3",
         "focus": "Add an early response",
-        "description": "Work cooperatively on move the hand to the mat. Guide the wrist and forearm through the available space without bending individual fingers. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+        "description": "Work cooperatively on begin clearing the hand. Guide the wrist and forearm through the available space without bending individual fingers. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
         "phase": "Phase 4",
         "focus": "Link only verified checkpoints",
-        "description": "Work cooperatively on prevent the return pummel. Cover the cleared arm and close the knee hug as the hand reaches the mat. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+        "description": "Work cooperatively on prevent the return pummel. Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "flashcards": [
       {
-        "question": "Progression to Zombie (bottom): What has to be lost before New York needs Zombie again?",
-        "answer": "Zombie normally creates New York. A renewed attempt requires the opponent to have recovered the hand or forearm inside.",
-        "answer_line": "Arm isolation; hand returns inside",
+        "question": "Progression to Zombie (bottom): What remains contested when you start from Mission Control?",
+        "answer": "The opponent's hand or forearm remains inside. Begin the hand-clearing pummel while retaining Mission Control; the arm has not yet been isolated in New York.",
+        "answer_line": "Their hand or forearm stays inside",
         "distractors": {
           "plausible": [
             "Only free foot's contact with mat",
@@ -203,7 +203,7 @@
         }
       },
       {
-        "question": "Progression to Zombie (bottom): What holds posture while you re-pummel?",
+        "question": "Progression to Zombie (bottom): What holds posture while you pummel?",
         "answer": "Keep posture broken with a supported high leg so the free arm can work on the hand opening.",
         "answer_line": "Supported high leg held by one hand",
         "distractors": {
@@ -245,7 +245,7 @@
         }
       },
       {
-        "question": "Progression to Zombie (bottom): What locks in the pummel's positional gain?",
+        "question": "Progression to Zombie (bottom): What later action completes New York after the pummel?",
         "answer": "The hand reaching the mat is followed by arm coverage and knee support so the opponent cannot easily re-pummel inside.",
         "answer_line": "Cover arm and hug the raised knee",
         "distractors": {
@@ -259,8 +259,8 @@
         }
       },
       {
-        "question": "Progression to Zombie (bottom): Their hand circles back inside; what was missing?",
-        "answer": "The pummel must close the return path with the arm wrap and supported knee; lifting the hand alone can leave it recoverable.",
+        "question": "Progression to Zombie (bottom): After clearing the hand, what blocks its return in New York?",
+        "answer": "After the contested Zombie phase, New York closes the return path with the arm wrap and supported knee; lifting the hand alone can leave it recoverable.",
         "answer_line": "Arm coverage as the knee hug closed",
         "distractors": {
           "plausible": [
@@ -287,13 +287,13 @@
         }
       },
       {
-        "question": "Progression to Zombie (bottom): What configuration confirms the pummel succeeded?",
-        "answer": "The success checkpoint is New York arm isolation supported by the high leg; Zombie is the action that creates it.",
-        "answer_line": "Hand on mat; arm wrapped; knee hug",
+        "question": "Progression to Zombie (bottom): What marks this entry into the contested Zombie checkpoint?",
+        "answer": "The free arm has begun clearing the inside hand while the high leg controls posture. The pummel remains contested; hand-to-mat clearance and the closed knee hug establish New York afterward.",
+        "answer_line": "High leg held; hand pummel contested",
         "distractors": {
           "plausible": [
             "Both forearms inside on your chest",
-            "Hand on mat; elbow across your chest"
+            "Hand on mat; arm wrapped; knee hug"
           ],
           "trap": [
             "Wrist out; knee floats off the arm"
@@ -354,7 +354,7 @@
   "defender": {
     "name": "Progression to Zombie Defender",
     "description": "Progression to Zombie (defender): Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
-    "overview": "The bottom guard player begins in New York, facing a top player whose posture is controlled. Completed New York already contains the result of the Zombie pummel. First recognize a lost arm isolation and re-establish Mission Control rather than treating Zombie as a later static lockdown.\n\nKeep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. The free hand working under yours is the cue to recover inside position before the knee hug closes.\n\nRetract the elbow toward your ribs through available space, stopping if the shoulder is caught. Raise the chest after freeing the arm and reducing the high-leg control. Do not confuse an arm pummel with lockdown defense or apply twisting leg escapes to this upper-body exchange.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nThe early escape keeps the elbow inside and denies the knee hug. Treat the renewed arm isolation as a submission setup once it closes, and open the connection safely instead of twisting the trapped shoulder.",
+    "overview": "The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside. Completed New York already contains the result of the Zombie pummel. The bottom player begins clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation.\n\nKeep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. The free hand working under yours is the cue to recover inside position before the knee hug closes.\n\nRetract the elbow toward your ribs through available space, stopping if the shoulder is caught. Raise the chest after freeing the arm and reducing the high-leg control. Do not confuse an arm pummel with lockdown defense or apply twisting leg escapes to this upper-body exchange.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nThe early escape keeps the elbow inside and denies the knee hug. Treat completed arm isolation as a submission setup once it closes, and open the connection safely instead of twisting the trapped shoulder.",
     "key_principles": [
       "Maintain inside frames: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
       "Keep elbow and hand connected: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
@@ -364,15 +364,15 @@
       "Respect the high guard: Do not confuse an arm pummel with lockdown defense or apply twisting leg escapes to this upper-body exchange."
     ],
     "recognition_cues": [
-      "The bottom guard player begins in New York, facing a top player whose posture is controlled.",
-      "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
-      "Cover the cleared arm and close the knee hug as the hand reaches the mat."
+      "The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside.",
+      "The bottom player works through the opening near your hand rather than forcing a tightly clamped elbow straight outward.",
+      "The bottom player keeps the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step."
     ],
     "defensive_options": [
       {
         "action": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "New York/Bottom",
+        "targets_outcome": "Mission Control/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
@@ -386,21 +386,21 @@
       {
         "action": "The free hand working under yours is the cue to recover inside position before the knee hug closes.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "New York/Bottom",
+        "targets_outcome": "Mission Control/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "New York/Bottom",
+        "targets_outcome": "Mission Control/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "New York/Bottom",
+        "outcome": "Mission Control/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
       },
       {
@@ -427,8 +427,8 @@
     ],
     "flashcards": [
       {
-        "question": "Progression to Zombie (top): What should you retain after regaining your inside hand?",
-        "answer": "Retain the recovered frame so the guard player cannot immediately clear the hand out again.",
+        "question": "Progression to Zombie (top): What should you retain as their hand-clearing pummel starts?",
+        "answer": "Retain the inside frame so the guard player cannot clear your hand toward the mat and complete the arm isolation.",
         "answer_line": "Inside elbow with a forearm frame",
         "distractors": {
           "plausible": [
@@ -556,5 +556,5 @@
       "when_to_use": "Adding one early response after both partners recognize the configuration"
     }
   ],
-  "position_integration": "The bottom guard player begins in New York, facing a top player whose posture is controlled. Completed New York already contains the result of the Zombie pummel. First recognize a lost arm isolation and re-establish Mission Control rather than treating Zombie as a later static lockdown. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route."
+  "position_integration": "The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside. Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route."
 }

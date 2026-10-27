@@ -10,11 +10,11 @@
   "submission_category": "Choke",
   "submission_type": "Leg-in guillotine",
   "target_area": "Neck, enclosed by the arm and raised rubber-guard leg",
-  "starting_position": "Hindulotine",
-  "from_position": "Hindulotine/Top",
+  "starting_position": "Hindulotine/Bottom",
+  "from_position": "Hindulotine/Bottom",
   "success_rate": {
-    "gi": 40,
-    "nogi": 40
+    "gi": 30,
+    "nogi": 30
   },
   "overview": "The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.\n\nTurn onto the hip and keep the knee close so the foot is reached through body position. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space. Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.\n\nDrill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal.\n\nInstructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc); [Ben Eddy — later Hindulotine S-grip clarification](https://www.10thplanetjj.com/forum/printthread.php?page=2&pp=10&t=22650).",
   "safety_considerations": {
@@ -74,24 +74,24 @@
     {
       "to": "game-over",
       "probability": {
-        "gi": 40,
-        "nogi": 40
+        "gi": 30,
+        "nogi": 30
       },
       "result": "success"
     },
     {
-      "to": "Hindulotine/Top",
+      "to": "Hindulotine/Bottom",
       "probability": {
-        "gi": 39,
-        "nogi": 39
+        "gi": 45,
+        "nogi": 45
       },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 21,
-        "nogi": 21
+        "gi": 25,
+        "nogi": 25
       },
       "result": "counter"
     }
@@ -151,25 +151,25 @@
         "counter": "An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Turn onto the hip and keep the knee close so the foot is reached through body position.",
-        "targets_outcome": "Hindulotine/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
         "counter": "Use an early inside frame before both hands close around the neck enclosure.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space.",
-        "targets_outcome": "Hindulotine/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
         "counter": "Avoid turning the head sharply against the fixed leg and forearm.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand.",
-        "targets_outcome": "Hindulotine/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
         "counter": "Address the head-and-leg connection instead of assuming a lower-body guard pass solves the choke.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.",
-        "targets_outcome": "Hindulotine/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
         "counter": "Stop before neck pain, dizziness, or reduced awareness; positional progress does not cancel the choke.",
@@ -415,28 +415,28 @@
     ],
     "recognition_cues": [
       "The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder.",
-      "Bring the elbow above the raised foot and the hand around the shoulder into the head-control space.",
-      "Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee."
+      "The attacker brings the elbow above their raised foot and the hand around your shoulder into the head-control space.",
+      "The attacker uses the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee."
     ],
     "defensive_options": [
       {
         "action": "An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Hindulotine/Top",
+        "targets_outcome": "Hindulotine/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal."
       },
       {
         "action": "Use an early inside frame before both hands close around the neck enclosure.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Hindulotine/Top",
+        "targets_outcome": "Hindulotine/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal."
       },
       {
         "action": "Avoid turning the head sharply against the fixed leg and forearm.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Hindulotine/Top",
+        "targets_outcome": "Hindulotine/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal."
       },
@@ -454,7 +454,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Hindulotine/Top",
+        "outcome": "Hindulotine/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup."
       },
       {

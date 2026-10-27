@@ -266,14 +266,14 @@ Move through available space with a stable base. Stop and release any trapped ne
 ### 2. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Dead Orchard Control]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 ### 3. Join to the supporting arm without pulling the neck into a twist.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Dead Orchard Control]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
@@ -298,7 +298,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Contain the opponent's head and one arm while keeping a balanced base.
 
-### → [[Positions/Dead Orchard Control]]
+### → [[Positions/Front Headlock]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
 

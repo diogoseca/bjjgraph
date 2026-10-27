@@ -249,9 +249,9 @@ Strategically, this technique is most valuable when grip prevention has failed a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 55% |
-| Failure | [[Positions/Buggy Choke]] | 25% |
-| Counter | [[Positions/Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Buggy Choke]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -262,7 +262,7 @@ Strategically, this technique is most valuable when grip prevention has failed a
 
 <p class="section-subtitle">How might your opponent counter Sit to Half Guard?</p>
 
-- **Opponent follows your sit and immediately takes the back with hooks** (Effectiveness: High) - Your Response: Accelerate the sitting motion and immediately hip escape away while inserting knee shield. Prioritize facing opponent over protecting your back during the transition window. → Leads to [[Positions/Back Control]]
+- **Opponent follows your sit and immediately takes the back with hooks** (Effectiveness: High) - Your Response: Accelerate the sitting motion and immediately hip escape away while inserting knee shield. Prioritize facing opponent over protecting your back during the transition window. → Leads to [[Positions/Side Control]]
 - **Opponent maintains collar grip and transitions to side control collar choke** (Effectiveness: Medium) - Your Response: Strip the collar grip aggressively during the sitting motion using two-on-one grip breaking. The structural change during sitting is your best opportunity to break grips. → Leads to [[Positions/Buggy Choke]]
 - **Opponent sprawls weight heavily to prevent hip movement and flatten you** (Effectiveness: Medium) - Your Response: If sprawl prevents sitting, switch to granby roll escape in the opposite direction. The sprawl commits their weight forward, creating space behind you for the roll. → Leads to [[Positions/Buggy Choke]]
 - **Opponent switches to darce or anaconda as you turn into them** (Effectiveness: Medium) - Your Response: Keep chin tucked and shoulder elevated during the turn. If head gets trapped, continue sitting motion to reduce choking leverage and immediately fight for underhook. → Leads to [[Positions/Buggy Choke]]

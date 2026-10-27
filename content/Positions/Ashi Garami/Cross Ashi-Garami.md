@@ -184,25 +184,23 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ### Available Transitions
 
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (9% of attempts)
 
 - **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (2% of attempts)
 
-- **[[Transitions/Heel Hook Defense Escape/Attacker|Heel Hook Defense Escape]]** (19% of attempts)
+- **[[Transitions/Heel Hook Defense Escape/Attacker|Heel Hook Defense Escape]]** (22% of attempts)
 
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (14% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (13% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (11% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (11% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (9% of attempts)
+- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (17% of attempts)
 
-- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (15% of attempts)
+- **[[Transitions/Counter Entangle from Cross Ashi/Attacker|Counter Entangle from Cross Ashi]]** (7% of attempts)
 
-- **[[Transitions/Counter Entangle from Cross Ashi/Attacker|Counter Entangle from Cross Ashi]]** (6% of attempts)
+- **[[Transitions/Leg Extraction from Cross Ashi/Attacker|Leg Extraction from Cross Ashi]]** (12% of attempts)
 
-- **[[Transitions/Leg Extraction from Cross Ashi/Attacker|Leg Extraction from Cross Ashi]]** (10% of attempts)
-
-- **[[Transitions/Sweep from Cross Ashi-Garami/Attacker|Sweep from Cross Ashi-Garami]]** (6% of attempts)
+- **[[Transitions/Sweep from Cross Ashi-Garami/Attacker|Sweep from Cross Ashi-Garami]]** (7% of attempts)
 
 
 ### Common Mistakes

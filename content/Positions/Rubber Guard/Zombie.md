@@ -165,8 +165,8 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive with offensive options | Offensive/Controlling |
-| **Risk Level** | Medium | Medium |
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | Medium to High | Medium to High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
@@ -202,23 +202,11 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (11% of attempts)
+- **[[Transitions/Zombie to New York/Attacker|Zombie to New York]]** (65% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (11% of attempts)
+- **[[Transitions/Guard Recovery from Zombie/Attacker|Guard Recovery from Zombie]]** (30% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (13% of attempts)
-
-- **[[Transitions/Guard Recovery from Zombie/Attacker|Guard Recovery from Zombie]]** (14% of attempts)
-
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (10% of attempts)
-
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (7% of attempts)
-
-- **[[Transitions/Escape Zombie Control/Attacker|Escape Zombie Control]]** (13% of attempts)
-
-- **[[Transitions/Turn to Face from Zombie/Attacker|Turn to Face from Zombie]]** (13% of attempts)
-
-- **[[Transitions/Sweep from Zombie Guard/Attacker|Sweep from Zombie Guard]]** (8% of attempts)
+- **[[Transitions/Sweep from Zombie Guard/Attacker|Sweep from Zombie Guard]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -273,27 +261,9 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 ### Available Transitions
 
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (8% of attempts)
+- **[[Transitions/Posture Recovery from Zombie/Attacker|Posture Recovery from Zombie]]** (60% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (6% of attempts)
-
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
-
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
-
-- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (12% of attempts)
-
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (7% of attempts)
-
-- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (7% of attempts)
-
-- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (10% of attempts)
-
-- **[[Transitions/Back Take/Attacker|Back Take]]** (9% of attempts)
-
-- **[[Transitions/Posture Recovery from Zombie/Attacker|Posture Recovery from Zombie]]** (12% of attempts)
-
-- **[[Transitions/Strip Grip from Zombie/Attacker|Strip Grip from Zombie]]** (11% of attempts)
+- **[[Transitions/Strip Grip from Zombie/Attacker|Strip Grip from Zombie]]** (40% of attempts)
 
 
 ### Common Mistakes

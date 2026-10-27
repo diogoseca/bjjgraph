@@ -20,38 +20,38 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Arm Extraction",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Armbar Defense",
+      "text": "From this position, attempt Armbar Defense. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Bridge and Roll",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hitchhiker Escape from Armbar",
-      "text": "From this position, attempt Hitchhiker Escape from Armbar. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Hip Escape to Turtle",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Hitchhiker Escape from Armbar",
+      "text": "From this position, attempt Hitchhiker Escape from Armbar. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -309,7 +309,7 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 **If opponent is attempting to drop back for the finish with legs loose:**
 - Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Armbar Defense/Attacker|Armbar Defense]]** → [[Positions/Closed Guard]] (Probability: 65%)
 
 
 **If opponent has tight control but arm is still bent:**

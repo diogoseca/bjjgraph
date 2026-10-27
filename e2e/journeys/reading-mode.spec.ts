@@ -90,8 +90,8 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     for (const part of ["book", "map", "feedback", "film", "card", "hand"]) {
       await expect(page.locator(`[data-layer-hide="${part}"],[data-layer-show="${part}"]`), `no View control offers ${part}`).toBeHidden()
     }
-    // STALE CONTRACT (D-338): each part closes with its own ✕ and reopens from the label it
-    // leaves (Videos from the label in its section's place). Neither deals nor starts play.
+    // D-338: each part has its own ✕. U25 a moves the closed Videos label into Hidden sections;
+    // Questions/Moves retain their own labels. Neither closing nor reopening starts play.
     const close = { film: '[data-section-toggle="videos"]', card: '[data-land-close]', hand: '[data-hand-close]' } as Record<string, string>
     const open = { film: '[data-section-toggle="videos"]', card: '[data-game-open="card"]', hand: '[data-game-open="hand"]' } as Record<string, string>
     // STALE SPEC (D-368, layout C): Moves lead the flow, so reopening a part can scroll the tray out of view, and the
@@ -100,7 +100,8 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     const tray = async () => { await page.evaluate(() => (window as any).__neural.optionsRef.current.scrollIntoView({ block: "nearest" })); await j.readerLayoutSettled(); await j.advance(40) }
     const press = async (sel: string, what: string) => { if (sel === '[data-hand-close]') await tray(); await page.locator(sel).scrollIntoViewIfNeeded(); await j.readerLayoutSettled(); await j.clickByMouse(sel, what) }
     // STALE SPEC (D-355, U11): where the index shows (1366), a closed part or section leaves no label or header in
-    // the content: its index row shows it closed and reopens it. Without the index (390) the label does.
+    // the content: its index row shows it closed and reopens it. Without the index (390), use its label
+    // after opening Hidden sections for Videos (D-482 / U25 a).
     const indexed = await page.locator('.ng-reader-toc').isVisible()
     const row = { film: '[data-toc-type="videos"]', card: '[data-toc-type="card"]', hand: '[data-toc-type="hand"]' } as Record<string, string>
     for (const part of ["film", "card", "hand"]) {
@@ -116,7 +117,15 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
         if (part !== "film") expect(await page.evaluate(part => { const a = (window as any).__neural, el = part === "card" ? a._landEl : a.optionsRef.current
           const b = el?.getBoundingClientRect(), v = a._reader.root.getBoundingClientRect(); return !!b && b.top >= v.top - 1 && b.top < v.bottom }, part), `the index row shows the reopened ${part}`).toBe(true)
       }
-      else await press(open[part], `reopen ${part}`)
+      else {
+        if (part === 'film') {
+          // STALE SPEC (D-482): a rectangle under a closed disclosure is not a reachable control.
+          await expect(page.locator('.ng-reader-hidden')).not.toHaveAttribute('open', '')
+          await press('.ng-reader-hidden>summary', 'reveal the hidden Videos control')
+          await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
+        }
+        await press(open[part], `reopen ${part}`)
+      }
       if (part === "film") await expect(page.locator(open.film)).toHaveAttribute("aria-expanded", "true")
       else { await expect(page.locator(open[part])).toBeHidden(); if (part === "hand") await tray(); await expect(page.locator(close[part]).first()).toBeVisible() }
       expect((await state(page)).deals, "reopening never deals or starts play").toBe(0)

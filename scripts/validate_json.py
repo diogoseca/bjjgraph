@@ -12,6 +12,8 @@ Usage:
 """
 
 import argparse
+import copy
+from functools import lru_cache
 import json
 import sys
 from pathlib import Path
@@ -52,6 +54,103 @@ CATEGORIES = {
     "Systems": "content/Systems",
     "Learning": "content/Learning"
 }
+
+ROOT = Path(__file__).resolve().parent.parent
+CONTENT_EXCEPTIONS = ROOT / "tests/artifacts/single_origin_submissions.json"
+
+
+@lru_cache(maxsize=None)
+def load_content_exceptions(path=CONTENT_EXCEPTIONS):
+    """D-358/D-362 exceptions leave the shared authoring schema floors intact."""
+    rows = json.loads(Path(path).read_text())
+    if not isinstance(rows, list) or not rows:
+        raise ValueError("reviewed content exception list must be nonempty")
+    approved = {}
+    for row in rows:
+        common = {"kind", "file", "reason", "plan_ref"}
+        kind = row.get("kind") if isinstance(row, dict) else None
+        extra = {"single_origin": {"origin"}, "short_decision_tree": {"role", "expected_count"}}.get(kind)
+        if extra is None or set(row) != common | extra:
+            raise ValueError("content exception must have the exact fields for its supported kind")
+        if any(not isinstance(row[key], str) or not row[key].strip()
+               for key in set(row) - {"expected_count"}):
+            raise ValueError("content exception text fields must be nonempty strings")
+        path = Path(row["file"])
+        prefix = "content/Submissions/" if kind == "single_origin" else "content/Positions/"
+        key = (kind, row["file"], row.get("role"))
+        if (not row["file"].startswith(prefix) or path.suffix != ".json"
+                or ".." in path.parts or key in approved):
+            raise ValueError(f"invalid or duplicate content exception: {row['file']}")
+        if kind == "short_decision_tree" and (row["role"] not in ("top", "bottom")
+                or type(row["expected_count"]) is not int or not 0 < row["expected_count"] < 3):
+            raise ValueError("short-decision-tree approval requires a role and a count below the shared floor of 3")
+        approved[key] = row
+    return approved
+
+
+def content_exception_errors(data, row):
+    if not isinstance(data, dict):
+        return ["approved content exception must match a record"]
+    if row["kind"] == "short_decision_tree":
+        side = data.get(row["role"])
+        tree = side.get("decision_tree") if isinstance(side, dict) else None
+        if not isinstance(tree, list) or len(tree) != row["expected_count"]:
+            return [f"short decision-tree approval requires {row['role']} to have exactly {row['expected_count']} conditions"]
+        return []
+    origin = data.get("from_position", "")
+    if not isinstance(origin, str) or "/" not in origin:
+        return ["approved single-origin submission must declare its own from_position"]
+    base, role = origin.rsplit("/", 1)
+    if (role not in ("Top", "Bottom") or base != row["origin"]
+            or data.get("from_positions") != [base]):
+        return ["single-origin approval requires exactly one entry equal to its own from_position base and approved origin"]
+    return []
+
+
+def accept_content_exception(data, row):
+    return row is not None and not content_exception_errors(data, row)
+
+
+def schema_for_reviewed_content(json_path, data, schema, category):
+    """Use the same exact approvals in validation and Markdown regeneration."""
+    if category not in ("Submissions", "Positions"):
+        return schema
+    try:
+        relative = Path(json_path).resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        return schema
+    for row in load_content_exceptions().values():
+        if row["file"] != relative:
+            continue
+        if not accept_content_exception(data, row):
+            raise ValueError("; ".join(content_exception_errors(data, row)))
+        schema = copy.deepcopy(schema)
+        if row["kind"] == "single_origin":
+            schema["properties"]["from_positions"]["minItems"] = 1
+        else:
+            tree = copy.deepcopy(schema["$defs"]["decision_tree"])
+            tree["minItems"] = row["expected_count"]
+            schema["properties"][row["role"]]["properties"]["decision_tree"] = tree
+    return schema
+
+
+def validate_content_exceptions(root=ROOT, approved=None):
+    """Every row must match its live record and exact approval; stale rows fail."""
+    approved = load_content_exceptions() if approved is None else approved
+    errors, matched, counts = [], 0, {}
+    for row in approved.values():
+        path = row["file"]
+        try:
+            data = json.loads((root / path).read_text())
+        except (OSError, ValueError) as error:
+            errors.append(f"{path}: stale content exception ({error})")
+            continue
+        problems = content_exception_errors(data, row)
+        errors.extend(f"{path}: {problem}" for problem in problems)
+        matched += not problems
+        counts[row["kind"]] = counts.get(row["kind"], 0) + (not problems)
+    print(f"Reviewed content exceptions: {matched}/{len(approved)} matched ({counts})")
+    return errors
 
 # Reference fields by category
 REFERENCE_FIELDS = {
@@ -1254,6 +1353,14 @@ def validate_json_file(json_path, schema, category, strict=False):
         msg = f"Invalid JSON: {e}"
         return [msg], [], {"blocking": [msg], "non_blocking": []}
 
+    # D-358/D-362: waive only the named field, never the shared authoring schema.
+    # A stale row is blocking even if its record meets the ordinary schema floor.
+    try:
+        schema = schema_for_reviewed_content(json_path, data, schema, category)
+    except ValueError as error:
+        errors.append(str(error))
+        categories["blocking"].append(str(error))
+
     # Validate against JSON Schema → blocking
     try:
         validate(instance=data, schema=schema)
@@ -1550,6 +1657,15 @@ Examples:
     # Validate arguments
     if not (args.file or (args.category and args.all) or args.all):
         parser.error("Must specify --file, --category with --all, or just --all")
+
+    try:
+        approval_errors = validate_content_exceptions()
+    except (OSError, ValueError) as error:
+        approval_errors = [str(error)]
+    if approval_errors:
+        for error in approval_errors:
+            print(f"BLOCKING: {error}")
+        sys.exit(1)
 
     # Execute based on arguments
     if args.file:

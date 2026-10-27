@@ -31,7 +31,7 @@ export const SECTION_TYPES = [
 export function sectionShown(app, type) {
   return app.get("readerSection." + type, true) !== false;
 }
-// Group aliases by their semantic type: one destination string per group.
+// Group aliases by their semantic type; identity aliases below ship each name only once.
 const SECTION_IDS = Object.fromEntries(Object.entries({
   "videos": "film-study official-preview",
   "overview": "overview definition state-invariants",
@@ -43,22 +43,16 @@ const SECTION_IDS = Object.fromEntries(Object.entries({
   "safety": "safety-considerations",
   "mistakes": "common-mistakes mistakes-to-avoid mistakes",
   "escapes": "escape-paths",
-  "favorable-outcomes": "favorable-outcomes",
   "outcomes": "possible-outcomes outcomes terminal-state",
   "training": "exercises training-drills training-progressions practice how-to-practice training",
   "variations": "variations-and-setups variants-and-adaptations variations variants",
   "assessment": "knowledge-assessment self-assessment test-your-knowledge",
   "statistics": "position-metrics",
-  "role-comparison": "role-comparison",
-  "top-summary": "top-summary",
-  "bottom-summary": "bottom-summary",
-  "attacker-summary": "attacker-summary",
-  "defender-summary": "defender-summary",
   "progress": "progress-markers",
   "integration": "position-integration",
-  "sources": "sources",
   "related": "related related-content related-positions related-submissions related-techniques related-systems techniques from-positions",
 }).flatMap(([type, ids]) => ids.split(" ").map(id => [id, type])));
+for (const type of "favorable-outcomes role-comparison top-summary bottom-summary attacker-summary defender-summary sources".split(" ")) SECTION_IDS[type] = type;
 const SECTION_ORDER = ["videos", "overview", "principles", "recognition", "setup", "prerequisites", "options", "safety", "mistakes"];
 // D-338 (owner): one close icon, the same on every width, and a closed section becomes a
 // light label (its glyph above its name, no box). Both faces live in the one toggle and CSS
@@ -249,7 +243,7 @@ class Reader {
     this.resize.observe(this.root);
     this.resize.observe(this.head);
   }
-  gameInput(event) { const path = event.composedPath(); return path.includes(this.game) && !(this.videoCard && path.includes(this.videoCard)); }
+  gameInput(event) { return event.composedPath().includes(this.game); }
   extract(doc) {
     const article = doc.querySelector("article");
     if (!article) throw new Error("This page has no article.");
@@ -308,7 +302,6 @@ class Reader {
     this.root.dataset.readerReady = "false";
     if (this.contents) this.contents.hidden = true;
     this.place(this.mediaHome);
-    this.videoCard?.remove(); this.videoCard = null;
     this.sections = []; this.mediaSlot = null;
     this.articleEl.replaceChildren(...(this.head.parentElement === this.articleEl ? [this.head] : []), element("p", { role: "status" }, "Loading the complete article…"));
     this.sync();
@@ -425,7 +418,6 @@ class Reader {
     const tools = this.tools;
     this.heading.textContent = title;
     tools.querySelector("[data-reader-study]")?.remove();
-    this.videoCard?.remove(); this.videoCard = null;
     if (REFERENCE.test(this.path)) {
       tools.append(button("Study tools", async () => {
         const id = this.path.slice(1);
@@ -434,7 +426,7 @@ class Reader {
       }, { "data-reader-study": "" }));
     }
     this.head.toggleAttribute("data-bare", !tools.children.length);
-    const body = element("div", { "data-reader-body": "", tabindex: "0" });
+    const body = this.body = element("div", { "data-reader-body": "", tabindex: "0" });
     if (context) {
       const shared = this.article(context, hub, "hub");
       // A perspective page is already complete. Its hub contains BOTH players'
@@ -479,7 +471,12 @@ class Reader {
       link.style.pointerEvents = "auto";
       row.append(link, eyeOff()); contents.append(row); section.row = row;
     }
-    this.articleEl.append(body);
+    // U25 a: native disclosure; the SAME closed controls live here, in source order.
+    // No rewritten content or replacement click targets during an observer/layout callback.
+    const hidden = this.hiddenSections = element("details", { class: "ng-reader-hidden" });
+    // Static markup only: same count, decorative chevron and list; no article HTML is interpolated.
+    hidden.innerHTML = '<summary><span></span><span aria-hidden="true">›</span></summary><div></div>';
+    this.articleEl.append(body, hidden);
     this.app.wrapRef.current.append(contents);
     this.syncSections();
   }
@@ -542,7 +539,11 @@ class Reader {
       const id = "reader-section-" + this.serial + "-" + index;
       const card = element("section", { class: "ng-section-card", "data-section-type": group.type, id });
       const heading = element("h2", { id: id + "-title" });
-      const toggle = button("", () => this.toggleSection(group.type), { "data-section-toggle": group.type, "aria-controls": id + "-body" });
+      const toggle = button("", () => {
+        const opening = !sectionShown(this.app, group.type);
+        this.toggleSection(group.type);
+        if (opening) { this.layoutNow(); this.scrollTo(card, toggle); }
+      }, { "data-section-toggle": group.type, "aria-controls": id + "-body" });
       toggle.append(...faces(group.type, group.title)); heading.append(element("span", { class: "ng-section-title" }, group.title), toggle);
       const content = element("div", { class: "ng-section-body", id: id + "-body" });
       if (group.type === "videos") { this.mediaSlot = element("div", { "data-reader-media-slot": "" }); content.append(this.mediaSlot); }
@@ -576,21 +577,57 @@ class Reader {
     this.sync();
   }
   syncSections() {
-    const labels = this.on("book") && !REFERENCE.test(this.path);
+    const labels = this.on("book") && !REFERENCE.test(this.path), hidden = this.hiddenSections;
+    const open = [], closed = [];
+    let focus;
     for (const s of [...this.gameSections, ...this.sections]) {
       const body = s.part ? this.partEl(s.part) : s.body;
-      const shown = s.part ? this.on(s.part) : sectionShown(this.app, s.type), focused = !shown && body?.contains(document.activeElement);
+      const shown = s.part ? this.on(s.part) : sectionShown(this.app, s.type), focused = !shown && (body?.contains(document.activeElement) || !s.part && s.card.dataset.collapsed !== "true" && s.card.contains(document.activeElement));
       if (s.type === "videos" && !shown && !body.hidden) this.app.pauseLandFilm();
       s.card.dataset.collapsed = String(!shown);
       // An open game part shows itself and its own ✕; only a closed one leaves its label.
       if (s.part) s.card.hidden = shown || !labels;
-      else { body.hidden = !shown; body.inert = !shown; }
+      else { body.hidden = !shown; body.inert = !shown; (shown ? open : closed).push(s); }
       s.row?.setAttribute("data-collapsed", String(!shown));
       if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {
         s.toggle.setAttribute("aria-expanded", String(shown)); s.toggle.setAttribute("aria-label", (shown ? "Hide " : "Show ") + s.title);
       }
       // U11: where the index shows, a closed section has no control in the content, so focus goes to its index row.
-      if (focused) (this.root.hasAttribute("data-indexed") && s.row?.querySelector("a") || s.toggle).focus({ preventScroll: true });
+      if (focused) focus = this.root.hasAttribute("data-indexed") && s.row?.querySelector("a") || (s.part ? s.toggle : hidden?.firstChild);
+    }
+    if (!hidden) { focus?.focus({ preventScroll: true }); return; }
+    hidden.hidden = !closed.length;
+    hidden.firstChild.firstChild.textContent = "Hidden sections (" + closed.length + ")";
+    if (!closed.length) hidden.open = false;
+    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {
+      sections.forEach((s, i) => {
+        // D-501: moving an iframe's ancestor with insertBefore reloads its document.
+        // Without atomic moves, keep ALL bodies in source order and move only the
+        // existing heading/control into an empty closed-row shell. Never move media.
+        if (typeof parent.moveBefore === "function") {
+          if (parent.children[i] !== s.card) parent.moveBefore(s.card, parent.children[i] || null);
+        } else {
+          s.card.hidden = parent !== this.body;
+          if (s.card.hidden) {
+            s.closedRow ||= element("section", { class: "ng-section-card", "data-collapsed": "true" });
+            if (!s.closedRow.firstChild) s.closedRow.append(s.card.firstElementChild);
+            if (parent.children[i] !== s.closedRow) parent.insertBefore(s.closedRow, parent.children[i] || null);
+          } else if (s.closedRow?.firstChild) {
+            s.card.prepend(s.closedRow.firstChild); s.closedRow.remove();
+          }
+        }
+      });
+    }
+    focus?.focus({ preventScroll: true });
+    // Adjacent pairs only: never dense-fill or change the reading order. Wide prose stays full.
+    const full = /^(videos|overview|options|outcomes|favorable-outcomes|role-comparison|sources)$/;
+    let remaining = 0;
+    for (let i = 0; i < open.length; i++) {
+      const s = open[i], next = open[i + 1]?.type;
+      const span = remaining || (next && (/^(options|recognition)$/.test(s.type) && /^(recognition|setup|prerequisites|safety|statistics|progress)$/.test(next) ? 8
+        : s.type === "statistics" && next === "related" ? 4 : !full.test(s.type) && !full.test(next) ? 6 : 12) || 12);
+      remaining = remaining ? 0 : 12 - span;
+      s.card.style.setProperty("--span", span);
     }
   }
 
@@ -633,7 +670,12 @@ class Reader {
     if (!node) return;
     node.tabIndex = -1;
     const section = node.closest(".ng-section-card");
-    this.scrollTo(section?.dataset.collapsed === "true" || node.classList.contains("ng-section-source-title") ? section.querySelector("[data-section-toggle]") : node);
+    // D-482 / U25 a: a closed target now lives inside the hidden disclosure.
+    // Reveal it before measuring/focusing, just as an index link reveals its section.
+    if (section?.dataset.collapsed === "true") {
+      this.toggleSection(section.dataset.sectionType, true); this.layoutNow();
+    }
+    this.scrollTo(node.classList.contains("ng-section-source-title") ? section.querySelector("[data-section-toggle]") : node);
     history.replaceState({ ...history.state, ngReading: !!this.intent }, "", this.path + hash);
   }
   scrollTo(node, focus = node) {
@@ -819,7 +861,7 @@ class Reader {
     // article's final source. Article focus retains the browser's native keys.
     const a = this.app, card = a._landEl, target = event.target;
     if (!card || this.interacting || a.deckShown || a._landHidden() || event.metaKey || event.ctrlKey || event.altKey ||
-        target !== document.body && (!this.game.contains(target) || this.videoCard?.contains(target)) || target?.closest("input,textarea,select,[contenteditable]") ||
+        target !== document.body && !this.game.contains(target) || target?.closest("input,textarea,select,[contenteditable]") ||
         !/^(Home|End|PageUp|PageDown)$/.test(event.key)) return false;
     // The question's own span: since D-338 Videos and Moves sit above it, so Home is its top edge.
     // Home and PageUp never move the view down (D5-S2: at arrival the reader sits above the card).
@@ -881,7 +923,7 @@ class Reader {
       const clip = this.root.contains(el) ? root : { top: 0, bottom: H };
       return { left: r.left, right: r.right, top: Math.max(0, r.top, clip.top), bottom: Math.min(H, r.bottom, clip.bottom) };
     };
-    for (const el of [a._execution.card, a.evRef.current, this.articleEl, this.videoCard, this.contents, this.head, this.tools,
+    for (const el of [a._execution.card, a.evRef.current, this.articleEl, this.body, this.contents, this.head, this.tools,
       ...this.gameSections.map(s => s.card), a._landEl, a._landFilmEl, this.dock, a._handCloseEl,
       a.accountRef.current, a.shareCueRef.current, a._challengeRewardEl, ...a.wrapRef.current.querySelectorAll(".ng-logo,.ng-winbar")]) {
       const r = rect(el); if (r && r.bottom > r.top) occupied.push(r);
@@ -996,6 +1038,9 @@ class Reader {
       // and stays centred on the column. Decided by the fit, not by readiness, so a loading article
       // never re-centres the hand.
       const indexEdge = available && fits ? lead + tocWidth + 12 : null;
+      // Grow only the article's inner grid, leaving the native column, hand and index homes alone.
+      // The left index still has its 12px clearance; phone gutters leave the glow visible.
+      style(this.articleEl, "--article-width", Math.max(240, Math.min(902, free.width - 64, fits ? 2 * (free.center - lead - tocWidth - 12) : Infinity)) + "px");
       if (this.contents) {
         this.contents.hidden = !available || this.root.dataset.readerReady !== "true" || !fits;
         this.root.toggleAttribute("data-indexed", !this.contents.hidden);

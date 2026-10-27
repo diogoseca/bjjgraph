@@ -10,33 +10,33 @@
   "from_position": "Crackhead Control/Bottom",
   "outcomes": [
     {
+      "result": "success",
       "to": "New York/Bottom",
       "probability": {
-        "gi": 65,
-        "nogi": 65
-      },
-      "result": "success"
+        "gi": 45,
+        "nogi": 45
+      }
     },
     {
+      "result": "failure",
       "to": "Crackhead Control/Bottom",
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      }
+    },
+    {
+      "result": "counter",
+      "to": "Mission Control/Bottom",
       "probability": {
         "gi": 20,
         "nogi": 20
-      },
-      "result": "failure"
-    },
-    {
-      "to": "Closed Guard/Bottom",
-      "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
-      "result": "counter"
+      }
     }
   ],
   "success_rate": {
-    "gi": 58,
-    "nogi": 58
+    "gi": 45,
+    "nogi": 45
   },
   "overview": "The bottom player faces the opponent in a high two-leg clinch with the target arm still inside. Opening enough of the second-leg reinforcement to pummel is a prerequisite. New York is defined by arm isolation, not a collar grip.\n\nKeep the first high leg and hand connected while adjusting the second leg. Open the reinforcing leg as needed without losing all posture control. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [10th Planet Costa Mesa — basic path with double bagger](https://www.youtube.com/watch?v=W2OFKidf9lE).",
   "related_content": [
@@ -118,7 +118,7 @@
         "counter": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Open the reinforcing leg as needed without losing all posture control.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "targets_outcome": "Mission Control/Bottom"
       },
       {
         "counter": "The free hand working under yours is the cue to recover inside position before the knee hug closes.",
@@ -130,7 +130,7 @@
         "counter": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.",
         "effectiveness": "Low",
         "your_response": "Re-check the prerequisite before continuing. Guide the wrist and forearm through the available space without bending individual fingers.",
-        "targets_outcome": "New York/Bottom"
+        "targets_outcome": "Crackhead Control/Bottom"
       }
     ],
     "common_errors": [
@@ -376,7 +376,7 @@
       {
         "action": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Mission Control/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
@@ -390,21 +390,21 @@
       {
         "action": "The free hand working under yours is the cue to recover inside position before the knee hug closes.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Mission Control/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Mission Control/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Closed Guard/Bottom",
+        "outcome": "Mission Control/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
       }
     ],

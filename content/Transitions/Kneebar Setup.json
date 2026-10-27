@@ -60,10 +60,6 @@
       "relationship": "Target position after successful setup"
     },
     {
-      "name": "Kneebar Finish",
-      "relationship": "Follow-up submission from control position"
-    },
-    {
       "name": "Outside Heel Hook",
       "relationship": "Primary alternative attack from same position"
     },

@@ -42,8 +42,8 @@
     "overview": "The top player is responsible for recognizing and defending the control. The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside. The bottom player hugs the raised knee and has cleared the controlling arm around the head. A forearm frame and hip angle help preserve space without pulling the foot against the knee.\n\nKeep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape. Keep a safe base and prevent the free leg from closing high behind your head.\n\nRecover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder. Bring the head and chest upright in stages after clearing the upper-body control. Do not drive the partner onto the neck or force the bent leg sideways to escape the control.\n\nNew York supplies the arm isolation; clearing the neck changes the controlling hand and forearm position without abandoning the knee hug. This is a guard exchange with the players facing each other. Keep the knee close to the torso and move from the hip. Release to guard if posture control demands knee torque or if the partner is stacked on the neck.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Low to Medium",
+      "position_type": "Defensive",
+      "risk_level": "Medium to High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -162,88 +162,39 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 68,
-        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
-      },
-      "advancement_probability": {
         "value": 62,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
+      "advancement_probability": {
+        "value": 52,
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
+      },
       "submission_probability": {
-        "value": 42,
+        "value": 12,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
     },
     "transitions": [
       {
-        "transition": "Turtle to Back Control",
-        "attempt_probability": {
-          "gi": 21,
-          "nogi": 18
-        }
-      },
-      {
-        "transition": "Crucifix from Turtle",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Darce Setup",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Anaconda Setup",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Front Headlock to Back",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Truck Entry",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Guillotine Setup",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 8
-        }
-      },
-      {
         "transition": "Posture from Chill Dog",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 80,
+          "nogi": 85
+        }
+      },
+      {
+        "transition": "Guard Pass from Chill Dog",
+        "attempt_probability": {
+          "gi": 15,
           "nogi": 10
         }
       },
       {
         "transition": "Stack from Chill Dog",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Guard Pass from Chill Dog",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 12
+          "gi": 5,
+          "nogi": 5
         }
       }
     ],
@@ -393,8 +344,8 @@
     "overview": "The bottom player is responsible for maintaining the control. The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside. The bottom player hugs the raised knee and has cleared the controlling arm around the head. A forearm frame and hip angle help preserve space without pulling the foot against the knee.\n\nKeep the opposing hand on the mat and hug the knee before changing the head-side grip. Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee. Move the controlling arm around the head while keeping the leg and trapped arm connected.\n\nUse the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist. Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup. Return the legs to a comfortable guard if the opponent withdraws the elbow or stacks your upper back.\n\nNew York supplies the arm isolation; clearing the neck changes the controlling hand and forearm position without abandoning the knee hug. This is a guard exchange with the players facing each other. Keep the knee close to the torso and move from the hip. Release to guard if posture control demands knee torque or if the partner is stacked on the neck.\n\nThe knee-hugging arm maintains an overhook around the isolated upper arm as the neck is cleared. Keep the inside forearm between the bodies to manage incoming chest pressure; if that barrier fails, release the high leg before rebuilding an elbow-to-knee shield.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "Medium",
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium to High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
@@ -513,167 +464,46 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 62,
+        "value": 68,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 52,
+        "value": 62,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 12,
+        "value": 42,
         "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
     },
     "transitions": [
       {
-        "transition": "Granby Roll to Guard",
+        "transition": "Chill Dog to Gogoplata Control",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 14
+          "gi": 40,
+          "nogi": 40
         }
       },
       {
-        "transition": "Granby to Closed Guard",
+        "transition": "Chill Dog to Invisible Collar",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
-        },
-        "deal_here": true,
-        "success_rate": {
-          "gi": 38,
-          "nogi": 41
-        },
-        "outcomes": [
-          {
-            "to": "Closed Guard/Bottom",
-            "probability": {
-              "gi": 30,
-              "nogi": 30
-            },
-            "result": "success"
-          },
-          {
-            "to": "Open Guard/Bottom",
-            "probability": {
-              "gi": 11,
-              "nogi": 11
-            },
-            "result": "success"
-          },
-          {
-            "to": "Chill Dog/Bottom",
-            "probability": {
-              "gi": 35,
-              "nogi": 35
-            },
-            "result": "failure"
-          },
-          {
-            "to": "Back Control/Bottom",
-            "probability": {
-              "gi": 24,
-              "nogi": 24
-            },
-            "result": "counter"
-          }
-        ]
-      },
-      {
-        "transition": "Technical Stand-up",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Rolling to Guard",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Turtle to Guard",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
-        },
-        "deal_here": true,
-        "success_rate": {
-          "gi": 42,
-          "nogi": 44
-        },
-        "outcomes": [
-          {
-            "to": "Open Guard/Bottom",
-            "probability": {
-              "gi": 18,
-              "nogi": 18
-            },
-            "result": "success"
-          },
-          {
-            "to": "Half Guard/Bottom",
-            "probability": {
-              "gi": 15,
-              "nogi": 15
-            },
-            "result": "success"
-          },
-          {
-            "to": "Closed Guard/Bottom",
-            "probability": {
-              "gi": 11,
-              "nogi": 11
-            },
-            "result": "success"
-          },
-          {
-            "to": "Chill Dog/Bottom",
-            "probability": {
-              "gi": 34,
-              "nogi": 34
-            },
-            "result": "failure"
-          },
-          {
-            "to": "Back Control/Bottom",
-            "probability": {
-              "gi": 22,
-              "nogi": 22
-            },
-            "result": "counter"
-          }
-        ]
-      },
-      {
-        "transition": "Hip Escape to Guard",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 35,
+          "nogi": 35
         }
       },
       {
         "transition": "Escape Chill Dog",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
-        }
-      },
-      {
-        "transition": "Roll from Chill Dog",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Sweep from Chill Dog",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 7
+          "gi": 5,
+          "nogi": 5
         }
       }
     ],

@@ -245,8 +245,6 @@ The High Mount Transition integrates gogoplata attacks with positional advanceme
 
 - [[Positions/Mount]] - Alternative landing position if knees settle lower
 
-- [[Transitions/Back Take]] - Alternative transition when opponent escapes laterally
-
 - [[Positions/Rubber Guard]] - System context providing entry pathways
 
 - [[Positions/Rubber Guard/Mission Control]] - Preceding rubber guard control position

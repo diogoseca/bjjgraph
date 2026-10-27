@@ -57,10 +57,6 @@
       "relationship": "Primary submission finish available once the head-and-arm configuration is locked"
     },
     {
-      "name": "Arm Triangle Transition",
-      "relationship": "Alternative arm triangle entry path from different positions"
-    },
-    {
       "name": "Arm Triangle from Top",
       "relationship": "Related setup initiated from side control rather than North-South"
     },

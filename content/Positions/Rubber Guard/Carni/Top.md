@@ -20,27 +20,9 @@ description: "Carni top perspective: A leg clearing the head with an overhook is
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 29% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 28% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Posture Recovery from Carni",
-      "text": "From this position, attempt Posture Recovery from Carni. This technique is attempted in 23% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Stack Pass from Carni",
-      "text": "From this position, attempt Stack Pass from Carni. This technique is attempted in 20% of exchanges from this position.",
-      "position": 4
+      "text": "From this position, attempt Posture Recovery from Carni. This technique is attempted in 100% of exchanges from this position.",
+      "position": 1
     }
   ],
   "totalTime": "PT2M"

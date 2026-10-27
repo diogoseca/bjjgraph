@@ -300,6 +300,8 @@ except ImportError:
     print("Install with: pip install jsonschema")
     sys.exit(1)
 
+from validate_json import schema_for_reviewed_content, validate_content_exceptions
+
 # Category configurations
 CATEGORIES = {
     "Positions": "content/Positions",
@@ -1034,6 +1036,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
     # scripts/validate_json.py has always done.
     raw = load_raw_json_file(json_path)
     schema = load_schema(category, json_path, raw)
+    schema = schema_for_reviewed_content(json_path, raw, schema, category)
     try:
         jsonschema.validate(instance=raw, schema=schema)
     except jsonschema.ValidationError as e:
@@ -1566,6 +1569,15 @@ Examples:
 
     if not (args.file or (args.category and args.all) or args.all):
         parser.error("Must specify --file, --category with --all, or just --all")
+
+    try:
+        approval_errors = validate_content_exceptions()
+    except (OSError, ValueError) as error:
+        approval_errors = [str(error)]
+    if approval_errors:
+        for error in approval_errors:
+            print(f"BLOCKING: {error}")
+        sys.exit(1)
 
     failures = []
     if args.file:

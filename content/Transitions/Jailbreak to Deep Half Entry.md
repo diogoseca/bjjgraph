@@ -296,7 +296,7 @@ The Jailbreak to Deep Half Entry serves as a critical branch point in the half g
 
 - [[Transitions/Back Take from Bottom]] - Follow-up option - kiss of the dragon available from deep half
 
-- [[Transitions/Kiss of the Dragon]] - Advanced chain - inversion back take accessible after deep half entry
+- [[Transitions/Kiss of the Dragon from RDLR]] - Advanced chain - inversion back take accessible after deep half entry
 
 
 </section>

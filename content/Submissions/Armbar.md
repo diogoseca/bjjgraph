@@ -102,7 +102,7 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Armbar?", "acceptedAnswer": { "@type": "Answer", "text": "The Armbar is a fundamental BJJ joint lock that hyperextends the opponent\u0027s elbow by trapping their straightened arm between your legs and bridging your hips against the joint as a fulcrum, forcing the tap." } },
-    { "@type": "Question", "name": "What positions can you finish the Armbar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Armbar from High Mount, S Mount, Crucifix, Closed Guard, Back Control, Mount, Knee on Belly, Armbar Control, Side Control, Triangle Control, Technical Mount." } },
+    { "@type": "Question", "name": "What positions can you finish the Armbar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Armbar from High Mount, S Mount, Crucifix, Closed Guard, Back Control, Mount, Knee on Belly, Dead Orchard Control, Armbar Control, Side Control, Triangle Control, Technical Mount." } },
     { "@type": "Question", "name": "Is the Armbar dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Armbar targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early and release immediately on the tap." } }
   ]
 }
@@ -191,6 +191,7 @@ As one of the first submissions taught to beginners and one of the last perfecte
 | [[Submissions/Armbar/Reverse Armbar from Mount|Mount]] | Top | 58% | [[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Attack →]] | [[Submissions/Armbar/Reverse Armbar from Mount/Defender|Defend →]] |
 | [[Submissions/Armbar/from Back with Legs|Back Control]] | Top | 58% | [[Submissions/Armbar/from Back with Legs/Attacker|Attack →]] | [[Submissions/Armbar/from Back with Legs/Defender|Defend →]] |
 | [[Submissions/Armbar/from Knee on Belly|Knee on Belly]] | Top | 58% | [[Submissions/Armbar/from Knee on Belly/Attacker|Attack →]] | [[Submissions/Armbar/from Knee on Belly/Defender|Defend →]] |
+| [[Submissions/Armbar/from Dead Orchard Control|Dead Orchard Control]] | Bottom | 55% | [[Submissions/Armbar/from Dead Orchard Control/Attacker|Attack →]] | [[Submissions/Armbar/from Dead Orchard Control/Defender|Defend →]] |
 | [[Submissions/Armbar/from Guard|Closed Guard]] | Bottom | 52% | [[Submissions/Armbar/from Guard/Attacker|Attack →]] | [[Submissions/Armbar/from Guard/Defender|Defend →]] |
 | [[Submissions/Armbar/from Armbar Control|Armbar Control]] | Top | 50% | [[Submissions/Armbar/from Armbar Control/Attacker|Attack →]] | [[Submissions/Armbar/from Armbar Control/Defender|Defend →]] |
 | [[Submissions/Armbar/from Side Control|Side Control]] | Top | 50% | [[Submissions/Armbar/from Side Control/Attacker|Attack →]] | [[Submissions/Armbar/from Side Control/Defender|Defend →]] |

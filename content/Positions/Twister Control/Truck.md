@@ -264,29 +264,25 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (14% of attempts)
-
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (4% of attempts)
+- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (15% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (4% of attempts)
 
 - **[[Submissions/Bow and Arrow Choke/from Truck/Attacker|Bow and Arrow Choke from Truck]]** (gi only)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (6% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (7% of attempts)
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (2% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (6% of attempts)
+- **[[Transitions/Truck Maintenance/Attacker|Truck Maintenance]]** (21% of attempts)
 
-- **[[Transitions/Truck Maintenance/Attacker|Truck Maintenance]]** (19% of attempts)
+- **[[Transitions/Truck to Back Control/Attacker|Truck to Back Control]]** (16% of attempts)
 
-- **[[Transitions/Truck to Back Control/Attacker|Truck to Back Control]]** (14% of attempts)
+- **[[Transitions/Truck to Twister Side Control/Attacker|Truck to Twister Side Control]]** (6% of attempts)
 
-- **[[Transitions/Truck to Twister Side Control/Attacker|Truck to Twister Side Control]]** (5% of attempts)
+- **[[Submissions/Calf Slicer/from Truck/Attacker|Calf Slicer from Truck]]** (16% of attempts)
 
-- **[[Submissions/Calf Slicer/from Truck/Attacker|Calf Slicer from Truck]]** (14% of attempts)
-
-- **[[Submissions/Banana Split/from Truck/Attacker|Banana Split from Truck]]** (9% of attempts)
+- **[[Submissions/Banana Split/from Truck/Attacker|Banana Split from Truck]]** (10% of attempts)
 
 - **[[Submissions/Spine Lock/from Truck/Attacker|Spine Lock from Truck]]** (3% of attempts)
 
@@ -358,7 +354,7 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Twister and Truck Entries</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: The Ultimate Rubber Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Truck: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Tom DeBlass: The Lockdown Blueprint</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

@@ -103,11 +103,6 @@
         "condition": "If opponent turns away to escape crossface pressure or prevent pass completion",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 50
-          },
-          {
             "technique": "Side Control to Mount",
             "target": "Mount",
             "probability": 40
@@ -223,15 +218,15 @@
       {
         "transition": "Knee Slice from Half",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Crossface Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
@@ -239,13 +234,6 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
-        }
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 4
         }
       },
       {
@@ -272,15 +260,15 @@
       {
         "transition": "Complete Pass from Flattened Half",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 15
+          "gi": 17,
+          "nogi": 16
         }
       },
       {
         "transition": "Knee Slide from Flattened Half",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 11
+          "nogi": 12
         }
       },
       {

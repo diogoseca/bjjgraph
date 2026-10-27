@@ -143,8 +143,7 @@ Instructional sources: [Lucas Valle — waiter sweep from deep half](https://www
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 22% |
-| Success | [[Positions/Side Control]] | 16% |
+| Success | [[Positions/Half Guard]] | 38% |
 | Failure | [[Positions/Half Guard/Deep Half Guard]] | 36% |
 | Failure | [[Positions/Half Guard]] | 12% |
 | Counter | [[Positions/Side Control]] | 14% |

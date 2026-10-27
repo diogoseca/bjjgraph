@@ -255,8 +255,6 @@ The Kneebar Entry from Inverted Guard fits into the broader leg entanglement sys
 
 - [[Positions/Inverted Guard]] - Parent guard category that inverted belongs to
 
-- [[Transitions/Kneebar Finish]] - Completion technique from Kneebar Control position
-
 - [[Transitions/Inverted Guard Elevation Sweep]] - Alternative offensive option from the same starting position
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Potential entanglement when both players engage legs simultaneously

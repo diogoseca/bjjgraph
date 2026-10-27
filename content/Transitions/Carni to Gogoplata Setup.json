@@ -10,28 +10,28 @@
   "from_position": "Carni/Bottom",
   "outcomes": [
     {
+      "result": "success",
       "to": "Gogoplata Control/Bottom",
       "probability": {
         "gi": 40,
         "nogi": 40
-      },
-      "result": "success"
+      }
     },
     {
+      "result": "failure",
       "to": "Carni/Bottom",
       "probability": {
         "gi": 40,
         "nogi": 40
-      },
-      "result": "failure"
+      }
     },
     {
-      "to": "Open Guard/Bottom",
+      "result": "counter",
+      "to": "Closed Guard/Bottom",
       "probability": {
         "gi": 20,
         "nogi": 20
-      },
-      "result": "counter"
+      }
     }
   ],
   "success_rate": {
@@ -138,13 +138,13 @@
         "counter": "Recover the elbow as the shoulder lock opens, without yanking against remaining control.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Use a forearm frame and hip turn to make room for the high leg.",
-        "targets_outcome": "Open Guard/Bottom"
+        "targets_outcome": "Closed Guard/Bottom"
       },
       {
         "counter": "Avoid driving the partner into a neck stack during the leg change.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Use the available path without hauling the foot against a fixed knee.",
-        "targets_outcome": "Open Guard/Bottom"
+        "targets_outcome": "Closed Guard/Bottom"
       }
     ],
     "common_errors": [
@@ -390,21 +390,21 @@
       {
         "action": "Recover the elbow as the shoulder lock opens, without yanking against remaining control.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Open Guard/Bottom",
+        "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Avoid driving the partner into a neck stack during the leg change.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Open Guard/Bottom",
+        "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Open Guard/Bottom",
+        "outcome": "Closed Guard/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Use an inside forearm frame before the shin enters under the chin."
       },
       {

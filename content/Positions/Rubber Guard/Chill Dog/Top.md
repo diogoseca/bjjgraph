@@ -20,39 +20,21 @@ description: "Chill Dog top perspective: Keep the free hand available for framin
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Posture from Chill Dog",
+      "text": "From this position, attempt Posture from Chill Dog. This technique is attempted in 85% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Guard Pass from Chill Dog",
+      "text": "From this position, attempt Guard Pass from Chill Dog. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce Setup",
-      "text": "From this position, attempt Darce Setup. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Stack from Chill Dog",
+      "text": "From this position, attempt Stack from Chill Dog. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Anaconda Setup",
-      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 7% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 11% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 7% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -371,9 +353,9 @@ Work cooperatively on deny the second leg. Keep a safe base and prevent the free
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 68% |
-| Advancement Probability | 62% |
-| Submission Probability | 42% |
+| Retention Rate | 62% |
+| Advancement Probability | 52% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 

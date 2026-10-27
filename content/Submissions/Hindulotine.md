@@ -181,7 +181,7 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Hindulotine/from Hindulotine|Hindulotine]] | Top | 62% | [[Submissions/Hindulotine/from Hindulotine/Attacker|Attack →]] | [[Submissions/Hindulotine/from Hindulotine/Defender|Defend →]] |
+| [[Submissions/Hindulotine/from Hindulotine|Hindulotine]] | Bottom | 62% | [[Submissions/Hindulotine/from Hindulotine/Attacker|Attack →]] | [[Submissions/Hindulotine/from Hindulotine/Defender|Defend →]] |
 
 
 </div>

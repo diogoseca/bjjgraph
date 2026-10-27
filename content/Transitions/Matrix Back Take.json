@@ -84,10 +84,6 @@
       "relationship": "Alternative back take path that can be chained when matrix entry is defended"
     },
     {
-      "name": "Back Take from Top",
-      "relationship": "Traditional seat belt back take that serves as primary alternative from same position"
-    },
-    {
       "name": "Matrix",
       "relationship": "Parent position representing the dynamic rolling back take system"
     }

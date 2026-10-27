@@ -303,9 +303,9 @@ The first escape task is keeping the hand and elbow inside the developing overho
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 55% |
-| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Mission Control]] | 45% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 35% |
+| Counter | [[Positions/Rubber Guard/New York]] | 20% |
 
 
 </section>
@@ -317,8 +317,8 @@ The first escape task is keeping the hand and elbow inside the developing overho
 <p class="section-subtitle">How might your opponent counter Strip Grip from Zombie?</p>
 
 - **Maintain posture control while freeing the other arm for the pummel.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. → Leads to [[Positions/Rubber Guard/Zombie]]
-- **Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. → Leads to [[Positions/Half Guard]]
-- **Guide the wrist and forearm through the available space without bending individual fingers.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Open Guard]]
+- **Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. → Leads to [[Positions/Rubber Guard/New York]]
+- **Guide the wrist and forearm through the available space without bending individual fingers.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Rubber Guard/Zombie]]
 - **Cover the cleared arm and close the knee hug as the hand reaches the mat.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Create slack at the hip and thigh while keeping the head and captured arm aligned. → Leads to [[Positions/Rubber Guard/Zombie]]
 
 

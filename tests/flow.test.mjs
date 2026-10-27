@@ -314,17 +314,26 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   // more than the seat belt it is entered from and entering it stopped costing value.
   const jsNeg = K.deckKeys.filter((d, i) => RUN.grad[i] < -1e-12).sort();
   const pyNeg = NOGI.decks.filter((d) => PY.get(d) < -1e-12).sort();
-  assert.equal(jsNeg.length, 21, "21 decks backfire at lam 2 on a blank no-gi profile"); // census:negDecks
+  assert.equal(jsNeg.length, 18, "21 decks backfire at lam 2 on a blank no-gi profile"); // census:negDecks
   assert.deepEqual(jsNeg, pyNeg, "and they are the same 21");
   const gi = SOLVED.gi;
   const giNeg = gi.k.deckKeys.filter((d, i) => gi.run.grad[i] < -1e-12);
   // 22 since v1.210.0 (origin coherence): `De La Riva to Inverted Guard|Attacker` joined once 50-50 Entry
   // was listed at inverted-guard/bottom, its own origin, and inverted guard stopped being worth more than
   // the DLR it is entered from. Nothing left the set, and no-gi stayed at 24.
-  assert.equal(giNeg.length, 21, "21 decks backfire at lam 2 on a blank gi profile"); // census:negDecksGi
-  // ...and they are the Eddie Bravo rubber-guard ladder, which is the finding, not a curiosity
-  assert.ok(jsNeg.includes("New York to Invisible Collar|Attacker"));
-  assert.ok(jsNeg.includes("New York Control to Invisible Collar|Attacker"));
+  assert.equal(giNeg.length, 18, "21 decks backfire at lam 2 on a blank gi profile"); // census:negDecksGi
+  // N4's approved Invisible Collar correction gives Bottom its attacks (restructure-numbers-n4.md
+  // 335–345, 788–820, 854–860). D-431 follow-up preserves the sign claim on that new premise:
+  // these two entries now help. D-366's exact N4 New York|Bottom gradient is +0.00282975265428865064,
+  // also positive with authored and shipped JS shares; no epsilon, cap or tolerance changes.
+  let correctedEntries = 0;
+  for (const deck of ["New York to Invisible Collar|Attacker", "New York Control to Invisible Collar|Attacker"]) {
+    assert.ok(RUN.grad[K.deckIdx.get(deck)] > 0, `${deck}: corrected entry is positive in JS`);
+    assert.ok(PY.get(deck) > 0, `${deck}: corrected entry is positive in the Python reference`);
+    correctedEntries++;
+  }
+  assert.equal(correctedEntries, 2, "both corrected New York entries were exercised");
+  console.log(`N4 corrected Invisible Collar entries: ${correctedEntries}/2 positive in JS and Python`);
   // a sign-blind build cannot satisfy this: with |grad| the two sums are equal
   let sum = 0, abs = 0;
   for (const g of RUN.grad) { sum += g; abs += Math.abs(g); }

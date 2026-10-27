@@ -303,9 +303,9 @@ The early escape is from a rotational lock at the shoulder. Open the triceps and
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 50% |
-| Failure | [[Positions/Rubber Guard/Carni]] | 30% |
-| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Rubber Guard/Carni]] | 65% |
 
 
 </section>
@@ -317,8 +317,8 @@ The early escape is from a rotational lock at the shoulder. Open the triceps and
 <p class="section-subtitle">How might your opponent counter Posture Recovery from Carni?</p>
 
 - **Use the guard and shoulder connection to bring the opponent close before moving the high leg.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. → Leads to [[Positions/Rubber Guard/Carni]]
-- **Manage the shoulder and neck line with a forearm frame as the leg clears the head.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Avoid reaching away while the opponent sets the triceps control. → Leads to [[Positions/Ashi Garami/Saddle]]
-- **Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Closed Guard]]
+- **Manage the shoulder and neck line with a forearm frame as the leg clears the head.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Avoid reaching away while the opponent sets the triceps control. → Leads to [[Positions/Rubber Guard/Carni]]
+- **Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Rubber Guard/Carni]]
 - **Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Create slack at the hip and thigh while keeping the head and captured arm aligned. → Leads to [[Positions/Rubber Guard/Carni]]
 
 

@@ -29,7 +29,7 @@
       "result": "failure"
     },
     {
-      "to": "Deep Half Guard/Bottom",
+      "to": "Deep Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -121,7 +121,7 @@
         "counter": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Thread the arm through the available leg gap and connect to the lower thigh or knee.",
-        "targets_outcome": "Deep Half Guard/Bottom"
+        "targets_outcome": "Deep Half Guard/Top"
       },
       {
         "counter": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
@@ -327,7 +327,7 @@
       {
         "action": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Deep Half Guard/Bottom",
+        "targets_outcome": "Deep Half Guard/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
@@ -352,7 +352,7 @@
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip."
       },
       {
-        "outcome": "Deep Half Guard/Bottom",
+        "outcome": "Deep Half Guard/Top",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Maintain a useful knee angle and upper-body frame before the passer folds the legs together."
       }
     ],

@@ -70,7 +70,7 @@ This technique transforms a failed or stalled submission attempt into a dominant
 The back take from bottom Hindulotine is particularly effective because the opponent often commits fully to the turn, believing they are escaping danger. This commitment makes the back exposure more complete and the subsequent control establishment more secure. The position integrates seamlessly into front headlock and guillotine attack systems, providing a reliable secondary option when the primary choke stalls.
 
 **From Position**: [[Positions/Hindulotine]] (Bottom)
-**Success Rate**: 30%
+**Success Rate**: 35%
 
 </section>
 
@@ -82,9 +82,9 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Back Control]] | 65% |
-| Failure | [[Positions/Hindulotine]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 35% |
+| Failure | [[Positions/Hindulotine]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -249,10 +249,6 @@ The Back Take from Bottom Hindulotine is a critical component of the front headl
 
 - [[Submissions/Rear Naked Choke]] - Primary follow-up submission from back control
 
-- [[Transitions/Back Take from Top]] - Similar transition executed from top Hindulotine
-
-- [[Transitions/Hindulotine to Darce Choke]] - Alternative attack when opponent creates frames instead of turning
-
 - [[Transitions/Hindulotine to Anaconda Choke]] - Alternative transition from same control position
 
 - [[Positions/Closed Guard]] - Common guard configuration during bottom Hindulotine
@@ -269,7 +265,7 @@ The Back Take from Bottom Hindulotine is a critical component of the front headl
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

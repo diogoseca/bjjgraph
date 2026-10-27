@@ -4,7 +4,7 @@
 
 ---
 title: "Progression to Zombie | BJJ Technique | BJJ Graph"
-description: "Progression to Zombie from New York is a reset when the opponent recovers the inside hand. Pummel it back to the mat before restoring arm isolation and the knee hug."
+description: "Progression to Zombie starts the contested hand-clearing pummel from Mission Control. Retain posture control and support the high knee while seeking inside space."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Progression to Zombie from New York is a reset when the opponent r
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Progression to Zombie",
-  "description": "Progression to Zombie from New York is a reset when the opponent recovers the inside hand. Pummel it back to the mat before restoring arm isolation and the knee hug.",
+  "description": "Progression to Zombie starts the contested hand-clearing pummel from Mission Control. Retain posture control and support the high knee while seeking inside space.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Progression to Zombie from New York is a reset when the opponent r
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Progression to Zombie",
-  "description": "Zombie is the hand-clearing pummel from Mission Control into New York; it is needed again only if the opponent has recovered the arm inside.",
+  "description": "Progression to Zombie begins the hand-clearing pummel from Mission Control while arm isolation is still contested; completing the hand clearance and knee hug leads onward to New York.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,9 +94,9 @@ description: "Progression to Zombie from New York is a reset when the opponent r
 
 <section id="overview" class="content-section">
 
-**Zombie is the hand-clearing pummel from Mission Control into New York; it is needed again only if the opponent has recovered the arm inside.**
+**Progression to Zombie begins the hand-clearing pummel from Mission Control while arm isolation is still contested; completing the hand clearance and knee hug leads onward to New York.**
 
-The bottom guard player begins in New York, facing a top player whose posture is controlled. Completed New York already contains the result of the Zombie pummel. First recognize a lost arm isolation and re-establish Mission Control rather than treating Zombie as a later static lockdown.
+The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside. Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation.
 
 Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Guide the wrist and forearm through the available space without bending individual fingers.
 
@@ -104,8 +104,8 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs).
 
-**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
-**Success Rate**: 58%
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
+**Success Rate**: 45%
 
 </section>
 
@@ -143,9 +143,9 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Rubber Guard/Zombie]] | 58% |
-| Failure | [[Positions/Rubber Guard/New York]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Zombie]] | 45% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -175,11 +175,11 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 - Find inside space: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-- Move the hand to the mat: Guide the wrist and forearm through the available space without bending individual fingers.
+- Begin clearing the hand: Guide the wrist and forearm through the available space without bending individual fingers.
 
-- Prevent the return pummel: Cover the cleared arm and close the knee hug as the hand reaches the mat.
+- Prevent the return pummel: Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.
 
-- Recognize New York: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.
+- Distinguish New York: Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward.
 
 - Reset a blocked attempt: Keep a safe guard and look for another opening when the opponent maintains inside frames.
 
@@ -191,11 +191,11 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 - **Find inside space**: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward....
 
-- **Move the hand to the mat**: Guide the wrist and forearm through the available space without bending individual fingers....
+- **Begin clearing the hand**: Guide the wrist and forearm through the available space without bending individual fingers....
 
-- **Prevent the return pummel**: Cover the cleared arm and close the knee hug as the hand reaches the mat....
+- **Prevent the return pummel**: Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug be...
 
-- **Recognize New York**: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separ...
+- **Distinguish New York**: Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug e...
 
 - **Reset a blocked attempt**: Keep a safe guard and look for another opening when the opponent maintains inside frames....
 
@@ -211,7 +211,7 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
   - Consequence: The intended control is not established before the next movement; the missing requirement is: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
   - Correction: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-- **Skipping the checkpoint: move the hand to the mat**
+- **Skipping the checkpoint: begin clearing the hand**
   - Consequence: The intended control is not established before the next movement; the missing requirement is: Guide the wrist and forearm through the available space without bending individual fingers.
   - Correction: Guide the wrist and forearm through the available space without bending individual fingers.
 
@@ -243,11 +243,11 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 ### Recognition Cues
 
 
-- The bottom guard player begins in New York, facing a top player whose posture is controlled.
+- The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside.
 
-- Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+- The bottom player works through the opening near your hand rather than forcing a tightly clamped elbow straight outward.
 
-- Cover the cleared arm and close the knee hug as the hand reaches the mat.
+- The bottom player keeps the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.
 
 
 ### Defensive Options
@@ -283,7 +283,7 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 ## Position Integration
 
-The bottom guard player begins in New York, facing a top player whose posture is controlled. Completed New York already contains the result of the Zombie pummel. First recognize a lost arm isolation and re-establish Mission Control rather than treating Zombie as a later static lockdown. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
+The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside. Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 

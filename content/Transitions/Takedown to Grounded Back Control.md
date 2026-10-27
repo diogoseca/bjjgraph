@@ -265,8 +265,6 @@ The Takedown to Grounded Back Control occupies a pivotal role in the back attack
 
 - [[Transitions/Controlled Descent]] - Counter technique - the bottom player's controlled drop to turtle to deny hooks
 
-- [[Transitions/Back Take]] - Prerequisite technique chain - back take leads to standing back control which leads to this mat return
-
 - [[Transitions/Armbar from Back Transition]] - Alternative submission follow-up when opponent over-defends neck after grounded back control
 
 - [[Transitions/Follow to Back Control]] - Related transition - following opponent to the ground when they voluntarily descend

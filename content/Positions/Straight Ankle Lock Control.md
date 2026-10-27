@@ -151,21 +151,19 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (18% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (20% of attempts)
 
-- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (12% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (13% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (13% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (14% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (9% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (11% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (10% of attempts)
+- **[[Transitions/Straight Footlock/Attacker|Straight Footlock]]** (19% of attempts)
 
-- **[[Transitions/Straight Footlock/Attacker|Straight Footlock]]** (17% of attempts)
+- **[[Transitions/Ankle Lock Escape to Standing/Attacker|Ankle Lock Escape to Standing]]** (10% of attempts)
 
-- **[[Transitions/Ankle Lock Escape to Standing/Attacker|Ankle Lock Escape to Standing]]** (9% of attempts)
-
-- **[[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (12% of attempts)
+- **[[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (13% of attempts)
 
 
 ### Common Mistakes

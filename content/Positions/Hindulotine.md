@@ -106,8 +106,8 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive | Offensive/Controlling |
-| **Risk Level** | Medium | Low to Medium |
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | High | High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
@@ -143,23 +143,21 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 ### Available Transitions
 
 
-- **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (13% of attempts)
+- **[[Submissions/Hindulotine/from Hindulotine/Attacker|Hindulotine from Hindulotine]]** (30% of attempts)
 
-- **[[Transitions/Hindulotine to Anaconda Choke/Attacker|Hindulotine to Anaconda Choke]]** (7% of attempts)
+- **[[Transitions/Hindu Control to Triangle/Attacker|Hindu Control to Triangle]]** (20% of attempts)
 
-- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (9% of attempts)
+- **[[Transitions/Guard Recovery from Hindulotine/Attacker|Guard Recovery from Hindulotine]]** (15% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (17% of attempts)
+- **[[Submissions/Arm Triangle/from Hindulotine/Attacker|Arm Triangle from Hindulotine]]** (5% of attempts)
 
-- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (18% of attempts)
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (5% of attempts)
 
-- **[[Transitions/Guard Recovery from Hindulotine/Attacker|Guard Recovery from Hindulotine]]** (12% of attempts)
+- **[[Submissions/Guillotine Choke/from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (15% of attempts)
 
-- **[[Transitions/Arm Triangle Transition/Attacker|Arm Triangle Transition]]** (5% of attempts)
+- **[[Submissions/High Elbow Guillotine/from Hindulotine/Attacker|High Elbow Guillotine from Hindulotine]]** (5% of attempts)
 
-- **[[Transitions/Sweep to Mount/Attacker|Sweep to Mount]]** (8% of attempts)
-
-- **[[Submissions/High Elbow Guillotine/from Hindulotine/Attacker|High Elbow Guillotine from Hindulotine]]** (11% of attempts)
+- **[[Transitions/Hindulotine to Anaconda Choke/Attacker|Hindulotine to Anaconda Choke]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -214,19 +212,7 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 ### Available Transitions
 
 
-- **[[Submissions/Guillotine Choke/from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (25% of attempts)
-
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (14% of attempts)
-
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (14% of attempts)
-
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (10% of attempts)
-
-- **[[Submissions/Hindulotine/from Hindulotine/Attacker|Hindulotine from Hindulotine]]** (17% of attempts)
-
-- **[[Transitions/Finish from Hindulotine/Attacker|Finish from Hindulotine]]** (11% of attempts)
-
-- **[[Submissions/Arm Triangle/from Hindulotine/Attacker|Arm Triangle from Hindulotine]]** (9% of attempts)
+- **[[Transitions/Hindu Control Head and Leg Release/Attacker|Hindu Control Head and Leg Release]]** (100% of attempts)
 
 
 ### Common Mistakes

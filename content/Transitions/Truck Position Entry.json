@@ -68,10 +68,6 @@
       "relationship": "Alternative submission from Truck position"
     },
     {
-      "name": "Back Take from Top",
-      "relationship": "Alternative transition from standing back control"
-    },
-    {
       "name": "Rear Naked Choke",
       "relationship": "Alternative standing back control attack"
     },
@@ -86,10 +82,6 @@
     {
       "name": "Body Triangle Lock",
       "relationship": "Setup tool to compromise base before Truck entry"
-    },
-    {
-      "name": "Roll to Truck",
-      "relationship": "Related Truck entry variant"
     },
     {
       "name": "Electric Chair",

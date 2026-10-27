@@ -279,7 +279,6 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 **If opponent turns toward you to escape shoulder pressure or go to turtle:**
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 82%)
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 74%)
 
 
 **If opponent brings far arm across to defend face from shoulder pressure:**

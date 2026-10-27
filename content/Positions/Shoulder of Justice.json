@@ -251,11 +251,6 @@
             "technique": "Side Control to North-South",
             "target": "North-South",
             "probability": 82
-          },
-          {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 74
           }
         ]
       },

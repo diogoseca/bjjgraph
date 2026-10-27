@@ -252,7 +252,7 @@ Within competition strategy, reliable RDLR recovery reduces the psychological pr
 
 - [[Positions/De La Riva Guard]] - Related guard system with similar recovery principles and hook mechanics
 
-- [[Transitions/Kiss of the Dragon]] - Offensive option that can be chained from successful recovery momentum
+- [[Transitions/Kiss of the Dragon from RDLR]] - Offensive option that can be chained from successful recovery momentum
 
 - [[Transitions/Technical Stand-up]] - Alternative recovery strategy when bottom guard recovery is compromised
 

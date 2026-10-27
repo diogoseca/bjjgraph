@@ -209,7 +209,7 @@ Use capture-and-release practice without finishing rotation. Pain is not a relia
 
 Begin an escape while the hand enclosure and hip connection are still loose. Release the rotated-foot capture before bringing the freed knee back toward your torso; ordinary guard recovery starts after the ankle and knee can move together.
 
-**Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Bottom)
 
 
 </section>
@@ -249,8 +249,8 @@ Begin an escape while the hand enclosure and hip connection are still loose. Rel
 <p class="section-subtitle">How do you know when someone is attempting Aoki Lock from Aoki Lock Control?</p>
 
 - The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.
-- Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
-- Use the legs and hip connection to limit free movement without twisting a planted knee.
+- The attacker brings your instep under the upper arm and supports the heel/Achilles region with the forearm.
+- The attacker uses the legs and hip connection to limit your free movement without twisting a planted knee.
 
 
 </section>
@@ -294,14 +294,14 @@ Begin an escape while the hand enclosure and hip connection are still loose. Rel
 ### 3. Do not rotate the torso independently of a captured foot and knee.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot.
 
 ### 4. Create slack in the hand and hip controls before withdrawing the leg.
 
 - **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Aoki Lock Control]]
 - **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
 - **Risk**: Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot.
 
@@ -327,7 +327,7 @@ Begin an escape while the hand enclosure and hip connection are still loose. Rel
 
 <p class="section-subtitle">What is the best outcome when defending Aoki Lock from Aoki Lock Control?</p>
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Ashi Garami]]
 
 Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.
 
