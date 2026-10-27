@@ -81,12 +81,13 @@
 .ng-section-body :is(li,td,th) { color:#d6def0; }
 .ng-section-body :is(ul,ol) { display:grid;gap:calc(var(--reader-unit)/2);padding-left:24px;margin:0; }
 .ng-section-body li { margin:0; }
-.ng-section-body a { color:#adc9ff;text-decoration:underline;text-underline-offset:3px; }
+.ng-section-body a,.ng-section-body .system-card__cta { color:#adc9ff; }
+.ng-section-body a { text-decoration:underline;text-underline-offset:3px; }
 .ng-section-body table { display:block;overflow-x:auto;font-size:14px; }
 .ng-section-body :is(td,th) { padding:8px;border-bottom:1px solid #414c68; }
 .ng-section-body img { max-width:100%; }
-/* D-489: keep all reader hatnote text, including Quartz's em/role labels, on the existing muted-prose color. */
-.ng-section-body :is(.section-subtitle,.entity-relations,.entity-relations *) { opacity:1;color:#b6c5df; }
+/* D-489/HATGO489b: hatnotes and Related badges share muted prose; CTA text keeps the reader link color above. */
+.ng-section-body :is(.section-subtitle,.entity-relations,.entity-relations *,.system-card__chip) { opacity:1;color:#b6c5df; }
 .ng-section-body blockquote { margin:0 0 var(--reader-unit);padding:12px;border-left:2px solid #ffb45a;background:#ffb45a08;color:#d6def0; }
 .ng-reader-toc-row[data-collapsed=true] { color:#a8b0c2; }
 /* Video names no header either: its ✕ sits in the corner, over the clip's own frame. */
