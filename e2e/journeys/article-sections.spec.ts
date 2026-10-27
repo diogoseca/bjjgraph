@@ -114,7 +114,8 @@ for (const width of [1366, 390]) {
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
         sectionHeaders: labels, step: a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
         backs: 3 * (a._landStackEl?.childElementCount || 0),
-        gaps: cards.slice(1).map((c, i) => c.getBoundingClientRect().top - cards[i].getBoundingClientRect().bottom),
+        // U31: cards can share a row. Measure between actual row unions, not between peers.
+        gaps: [...new Set(cards.map(c => c.getBoundingClientRect().top))].slice(1).map(top => top - Math.max(...cards.map(c => c.getBoundingClientRect()).filter(r => r.top < top).map(r => r.bottom))),
         overflow: a._readerEl.scrollWidth - a._readerEl.clientWidth }
     })
     const normal = await measure()
@@ -129,19 +130,21 @@ for (const width of [1366, 390]) {
     expect(normal.sectionGap, 'the article follows Questions (and its backs) at the six-pixel token').toBeCloseTo(normal.backs + 6, 0)
     // U12 a (D-355): the article's own ✕ is its top row; the first section follows it directly.
     expect(normal.closeRow, 'the first section follows the article\'s ✕ row').toBeCloseTo(0, 0)
-    expect(normal.gaps.every(g => g === 6)).toBe(true)
+    const gapScale = width < 600 ? 3 : 4
+    expect(normal.gaps.length).toBeGreaterThan(0)
+    expect(normal.gaps.every(g => Math.abs(g - 6 * gapScale) < 1)).toBe(true)
     expect(normal.overflow).toBeLessThanOrEqual(1)
     await page.locator('[data-section-toggle=principles]').scrollIntoViewIfNeeded()
     await j.clickByMouse('[data-section-toggle=principles]')
     await expect(page.locator('[data-section-type=principles]')).toHaveAttribute('data-collapsed', 'true')
-    expect((await measure()).gaps.every(g => g === 6)).toBe(true)
+    expect((await measure()).gaps.every(g => Math.abs(g - 6 * gapScale) < 1)).toBe(true)
     expect(await page.evaluate(() => (window as any).__sectionsHand === (window as any).__neural.optionsRef.current)).toBe(true)
     expect(await page.evaluate(() => {
       const w = window as any, cards = [...w.__neural.optionsRef.current.querySelectorAll('.ngchoice-title')]
       return { titles: cards.map((e: any) => e.textContent), same: cards.every((e, i) => e === w.__sectionsCards[i]) && cards.length === w.__sectionsCards.length }
     })).toEqual({ titles: snapshot.titles, same: true })
     await page.locator(READY).evaluate(e => (e as HTMLElement).style.setProperty('--section-gap', '12px'))
-    expect((await measure()).gaps.every(g => g === 12)).toBe(true)
+    expect((await measure()).gaps.every(g => Math.abs(g - 12 * gapScale) < 1)).toBe(true)
     expect(await state(page)).toMatchObject({ paused: true, played: false, misses: 0 })
   })
 }
@@ -295,11 +298,30 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
     await expect(page.locator('.ng-reader .ng-section-glyph'), 'sections no longer have icons').toHaveCount(0)
     if (!hasToc) {
       await expect(page.locator('.ng-reader-toc')).toBeHidden()
-      // D-338 (owner): a closed section is a light label, no box and no outline.
-      expect(await page.locator('[data-section-type=principles]').evaluate(e => { const cs = getComputedStyle(e); return [cs.backgroundColor, cs.borderTopColor] }), 'no box around a closed section').toEqual(['rgba(0, 0, 0, 0)', 'rgba(0, 0, 0, 0)'])
-      const line = await header.evaluate(e => { const r = e.getBoundingClientRect(), name = e.querySelector('.ng-section-closed > span:first-child')!.getBoundingClientRect(), eye = e.querySelector('.ng-section-closed .ng-section-eye')!.getBoundingClientRect()
-        return { height: Math.round(r.height), oneLine: Math.abs((name.top + name.bottom) / 2 - (eye.top + eye.bottom) / 2) < 3, eyeAfter: eye.left >= name.right, eye: eye.width > 0 } })
-      expect(line, 'one compact line: the greyed name, then its eye').toEqual({ height: 44, oneLine: true, eyeAfter: true, eye: true })
+      // U25 a supersedes the in-flow placeholder: reveal the SAME closed label in the disclosure.
+      await expect(header).toBeHidden()
+      await expect(page.locator('.ng-reader-hidden>summary')).toHaveText('Hidden sections (1)›')
+      await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+      await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the closed labels')
+      await expect(header).toBeVisible()
+      // D-338 / D-475: a closed section is a light label with no box. A zero-width border
+      // draws nothing even when its computed color is currentColor; the open-card glow must vanish too.
+      const closed = await page.locator('[data-section-type=principles]').evaluate(e => {
+        const cs = getComputedStyle(e)
+        return { background: cs.backgroundColor, shadow: cs.boxShadow,
+          borders: ['top', 'right', 'bottom', 'left'].map(side => ({ side,
+            width: parseFloat(cs.getPropertyValue(`border-${side}-width`)),
+            color: cs.getPropertyValue(`border-${side}-color`) })) }
+      })
+      expect(closed.background, 'D-338: no background around a closed section').toBe('rgba(0, 0, 0, 0)')
+      expect(closed.shadow, 'D-475: no shadow around a closed section').toBe('none')
+      for (const { side, width, color } of closed.borders) {
+        const transparent = color === 'transparent' || /^rgba\(.+,\s*0(?:\.0+)?\s*\)$/.test(color)
+        expect(width === 0 || transparent, `D-338: no visible ${side} border around a closed section`).toBe(true)
+      }
+      const line = await header.evaluate(e => { const label = e.querySelector('.ng-section-closed')!, s = getComputedStyle(label)
+        return { height: Math.round(e.getBoundingClientRect().height), display: s.display, align: s.alignItems, action: getComputedStyle(label, '::after').content } })
+      expect(line, 'U25: one compact line, section name and Show action').toEqual({ height: 44, display: 'flex', align: 'center', action: '"Show"' })
       // The resting label, not its hover: the mouse that closed it is still over it.
       await page.mouse.move(viewport.width - 2, viewport.height - 2)
       const contrast = await header.evaluate(e => {
@@ -307,7 +329,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
         const fg = lum(getComputedStyle(e).color), bg = lum(getComputedStyle(e.closest('.ng-section-card')!).backgroundColor)
         return (Math.max(fg, bg) + .05) / (Math.min(fg, bg) + .05)
       })
-      expect(contrast).toBeGreaterThanOrEqual(7)
+      expect(contrast, 'U16B-S1: the closed section label retains 7:1 contrast').toBeGreaterThanOrEqual(7)
       await header.focus(); await page.keyboard.press('Space')
     } else {
       await expect(page.locator('.ng-reader-toc')).toBeVisible()
@@ -628,7 +650,8 @@ test('@curated independent section preferences merge per key and preserve stale 
   expect(await page.evaluate(() => (window as any).__neural.get('readerSection.future-type'))).toBe(false)
 })
 
-test('@curated unknown authored sections and cross-section anchors survive regrouping', async ({ page }) => {
+for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sections and cross-section anchors survive regrouping`, async ({ page }) => {
+  await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   const j = journey(page)
   await j.boot(KNEE + '/Attacker', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
@@ -640,17 +663,51 @@ test('@curated unknown authored sections and cross-section anchors survive regro
   expect(await page.locator('.ng-section-card').evaluateAll(es => es.map(e => e.getAttribute('data-section-type')))).toEqual(['principles', 'additional', 'related', 'sources'])
   await expect(page.locator('[data-section-type=additional]')).toContainText('Unmapped content survives in full.')
   await expect(page.locator('[data-section-type=additional]')).toContainText('Its detail also survives.')
-  await page.locator('[data-reader-anchor=legacy-notes]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-reader-anchor=legacy-notes]')
+  const original = await page.locator('[data-reader-body]').textContent()
+  const followAnchor = async () => {
+    const anchor = page.locator('[data-reader-anchor=legacy-notes]')
+    await anchor.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    // STALE SPEC (D-482): the approved side-by-side grid wraps this inline link.
+    // Its union-box centre is blank paragraph space, not a link fragment. Hit-test
+    // the first actual fragment, still rejecting ancestors/overlays; use a real mouse.
+    const hit = await anchor.evaluate(el => {
+      const rect = el.getClientRects()[0]
+      if (!rect || !rect.width || !rect.height) return { x: 0, y: 0, reachable: false }
+      const x = rect.left + rect.width / 2, y = rect.top + rect.height / 2
+      const top = document.elementFromPoint(x, y)
+      let opacity = 1, visible = true
+      for (let parent: Element | null = el; parent; parent = parent.parentElement) {
+        const style = getComputedStyle(parent)
+        opacity *= Number(style.opacity); visible &&= style.visibility === 'visible'
+      }
+      return { x, y, reachable: visible && opacity >= .99 && x >= 0 && y >= 0 && x < innerWidth && y < innerHeight && !!top && (top === el || el.contains(top)) }
+    })
+    expect(hit.reachable, 'D-482: the authored link text is reachable by mouse').toBe(true)
+    await page.mouse.click(hit.x, hit.y)
+  }
+  await followAnchor()
   expect(await page.evaluate(() => document.activeElement?.closest('[data-section-type]')?.getAttribute('data-section-type'))).toBe('additional')
   const body = page.locator('[data-section-type=additional] .ng-section-body')
   await body.evaluate(e => { (e as HTMLElement).tabIndex = 0; (e as HTMLElement).focus() })
   await page.evaluate(() => { const a = (window as any).__neural; a.set('readerSection.additional', false); a._applyLayers() })
-  // STALE CONTRACT (D-355, U11): where the index shows, the closed section has no control in the content,
-  // so focus moves to its index row.
-  await expect(page.locator('[data-toc-type=additional] a')).toBeFocused()
+  // U11 / U25 a: closing moves focus to the index or the phone disclosure summary.
+  await expect(page.locator(width === 1440 ? '[data-toc-type=additional] a' : '.ng-reader-hidden>summary')).toBeFocused()
   await expect(body).toBeHidden()
   expect(await body.evaluate(e => (e as HTMLElement).inert)).toBe(true)
+  // REAL BREAK (D-482): the old anchor path measured a closed, hidden control.
+  // Both widths must reveal the SAME target and focus its visible anchor destination.
+  await body.evaluate(e => { (window as any).__anchorTargetBody = e })
+  await followAnchor()
+  await expect(page.locator('[data-section-toggle=additional]'), 'D-482: a cross-section anchor reveals its closed target').toHaveAttribute('aria-expanded', 'true')
+  await expect(body).toBeVisible()
+  expect(await body.evaluate(e => e === (window as any).__anchorTargetBody && !(e as HTMLElement).inert)).toBe(true)
+  expect(await page.locator('[data-section-type=additional]').evaluate(card => {
+    const el = document.activeElement!
+    const box = el.getBoundingClientRect(), root = card.closest('[data-reader]')!.getBoundingClientRect()
+    return card.contains(el) && box.width > 0 && box.height > 0 && box.top >= root.top && box.top < root.bottom
+  }), 'the anchor destination is inside the reader').toBe(true)
+  expect(new URL(page.url()).hash).toBe('#legacy-notes')
+  expect(await page.locator('[data-reader-body]').textContent(), 'every authored character returns in source order').toBe(original)
   expect(await state(page)).toMatchObject({ paused: true, played: false, deals: 0, misses: 0 })
 })
 

@@ -25,6 +25,7 @@ for (const width of [320, 390]) {
     const before = await page.evaluate(() => {
       const w = window as any, a = w.__neural, root = document.querySelector('[data-reader]')!
       w.__readingBody = root.querySelector('[data-reader-body]')
+      w.__readingText = w.__readingBody.textContent
       const heads = [...root.querySelectorAll('[data-section-toggle]')]
       return { labels: heads.map(e => e.textContent!.trim()), question: a._landQ?.card.q ?? null, beats: a.beats.length }
     })
@@ -48,15 +49,26 @@ for (const width of [320, 390]) {
     await page.mouse.wheel(0, 400)
     await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBeGreaterThan(200)
     expect(await page.locator('[data-reader-body]').evaluate(e => e.getBoundingClientRect().top)).toBeLessThan(bodyTop - 200)
-    const last = page.locator('[data-section-toggle]').last()
+    await page.locator('[data-section-toggle]').last().evaluate(e => e.setAttribute('data-reader-last-header', ''))
+    const last = page.locator('[data-reader-last-header]')
     await last.scrollIntoViewIfNeeded()
-    await last.evaluate(e => e.setAttribute('data-reader-last-header', ''))
     await j.clickByMouse('[data-reader-last-header]', 'phone sections have their own toggle')
     await expect(last).toHaveAttribute('aria-expanded', 'false')
+    // STALE SPEC (D-482 / U25 a): closing transfers focus to the aggregate disclosure.
+    // Enter opens that list; Tab reaches the SAME section's row; Enter reopens it.
+    await expect(page.locator('.ng-reader-hidden>summary')).toBeFocused()
+    await expect(page.locator('.ng-reader-hidden')).not.toHaveAttribute('open', '')
     await page.keyboard.press('Enter')
-    await expect(last).toHaveAttribute('aria-expanded', 'true')
+    await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
+    await page.keyboard.press('Tab')
+    await expect(last, 'the hidden row remains in native keyboard order').toBeFocused()
+    await page.keyboard.press('Enter')
+    await expect(last, 'D-482: Enter on the revealed row reopens the section').toHaveAttribute('aria-expanded', 'true')
+    await expect(last).toBeFocused()
+    await expect(page.locator('.ng-reader-hidden')).toBeHidden()
     await expect(page.locator('[data-layer-hide]:visible,[data-layer-show]:visible'), 'no Book control in the article view').toHaveCount(0)
     expect(await page.evaluate(() => (window as any).__readingBody === document.querySelector('[data-reader-body]'))).toBe(true)
+    expect(await page.evaluate(() => (window as any).__readingText === document.querySelector('[data-reader-body]')!.textContent), 'complete authored document and order survive the round trip').toBe(true)
     expect(await page.locator(READY).evaluate(e => e.scrollWidth - e.clientWidth), 'the document has no horizontal overflow').toBeLessThanOrEqual(1)
     await j.advance(20000)
     expect(await page.evaluate(() => {
