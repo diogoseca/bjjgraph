@@ -50,7 +50,7 @@ description: "Kimura Switch (attacker): The opposing foot is turned outward and 
     },
     {
       "@type": "HowToStep",
-      "name": "Stop at shoulder control",
+      "name": "Stop at top Kimura Trap control",
       "text": "Use the grip as a positional handle without forcing the wrist behind the back.",
       "position": 6
     }
@@ -281,7 +281,7 @@ Open the Aoki leg entanglement and its hip control before changing from the foot
 - Release before repositioning: Open the original connection before either partner turns, rises or changes the captured limb.
 - Require wrist and elbow access: Obtain a separate arm-control position before attempting a figure-four grip.
 - Connect the arm figure-four: Hold the opposing wrist and your own wrist while keeping the captured elbow controlled.
-- Stop at shoulder control: Use the grip as a positional handle without forcing the wrist behind the back.
+- Stop at top Kimura Trap control: Use the grip as a positional handle without forcing the wrist behind the back. The original bottom player must also establish top control.
 
 
 </section>
@@ -311,7 +311,7 @@ Open the Aoki leg entanglement and its hip control before changing from the foot
 3. **Release before repositioning**: Open the original connection before either partner turns, rises or changes the captured limb.
 4. **Require wrist and elbow access**: Obtain a separate arm-control position before attempting a figure-four grip.
 5. **Connect the arm figure-four**: Hold the opposing wrist and your own wrist while keeping the captured elbow controlled.
-6. **Stop at shoulder control**: Use the grip as a positional handle without forcing the wrist behind the back.
+6. **Stop at top Kimura Trap control**: Use the grip as a positional handle without forcing the wrist behind the back.
 
 
 </section>

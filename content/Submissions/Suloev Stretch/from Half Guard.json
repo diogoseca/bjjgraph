@@ -97,7 +97,7 @@
   ],
   "attacker": {
     "name": "Suloev Stretch Attacker",
-    "description": "Suloev Stretch from Half Guard (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
+    "description": "Suloev Stretch from Rear Tripod (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
     "overview": "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.\n\nControl the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.\n\nArrange the leg so it extends in its natural line rather than rotating sideways at the knee. In practice, identify the stretch geometry without dropping body weight or driving the leg to end range. Let the ankle go immediately on a tap and help the partner return to a stable base.\n\nUse a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.",
     "key_principles": [
       "Establish rear attachment: Control the torso from behind before reaching below the hips.",
@@ -222,7 +222,7 @@
     ],
     "flashcards": [
       {
-        "question": "Suloev Stretch after Half Guard: what must you control before reaching below the opponent's hips?",
+        "question": "Suloev Stretch from Rear Tripod: what must you control before reaching below the opponent's hips?",
         "answer": "Their torso from behind. Control the torso from behind before reaching below the hips.",
         "answer_line": "Their torso from behind",
         "distractors": {
@@ -542,7 +542,7 @@
   },
   "defender": {
     "name": "Suloev Stretch Defender",
-    "description": "Suloev Stretch from Half Guard (defender): A hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together.",
+    "description": "Suloev Stretch from Rear Tripod (defender): A hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together.",
     "overview": "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.\n\nA hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together. Maintain a stable base and address the rear attachment before raising the hips with a leg available.\n\nKeep the captured leg aligned instead of rolling sideways against the ankle grip. Stop before a forced hamstring stretch or knee rotation develops. Recover the base only after the attacker has opened the ankle and torso controls.\n\nUse a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.\n\nThe early escape denies the rear hand access to the ankle and reduces the exposed tripod while the leg is still free. If the ankle and torso are already captured together, tap and let both controls open before rebuilding your base.\n\nBefore an ankle is captured, rebuilding base brings the elbows beside the ribs and the knees back beneath the body. Keep that elbow-knee connection while checking the rear attacker's hands: rising into a tripod still exposes the ankle, so the base change alone does not remove the submission threat.",
     "key_principles": [
       "Recognize ankle access: A hand reaching from your back toward the ankle is an early cue to protect the leg.",
@@ -554,8 +554,8 @@
     ],
     "recognition_cues": [
       "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle.",
-      "Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
-      "Arrange the leg so it extends in its natural line rather than rotating sideways at the knee."
+      "Your raised hips expose an ankle that the rear attacker can reach while retaining balance.",
+      "The attacker arranges your leg so it extends in its natural line rather than rotating sideways at the knee."
     ],
     "defensive_options": [
       {

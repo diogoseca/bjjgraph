@@ -183,7 +183,7 @@ description: "Guillotine Choke from Hindulotine (defender): Manage posture and i
 
 <section id="overview" class="content-section">
 
-The attacker is in front of a lowered head, with the choking arm around the neck and a stable standing or guard connection. Hindu Control includes a raised leg in the enclosure. An ordinary guillotine requires deliberate re-gripping and leg clearance; a shared word in the names does not make the grips interchangeable.
+The attacker starts underneath in Hindu Control, facing the opponent's lowered head and retaining a stable guard connection. Hindu Control includes a raised leg in the enclosure. An ordinary guillotine requires deliberate re-gripping and leg clearance; a shared word in the names does not make the grips interchangeable.
 
 Manage posture and inside hands before the choking arm circles the neck. Interrupt the hand connection before it becomes a closed enclosure. Do not wrench the head backward or rotate it against a fixed forearm.
 
@@ -232,9 +232,9 @@ The early escape targets the chin strap and supporting hand before they form a c
 
 <p class="section-subtitle">How do you know when someone is attempting Guillotine Choke from Hindulotine?</p>
 
-- The attacker is in front of a lowered head, with the choking arm around the neck and a stable standing or guard connection.
-- Bring the forearm into the neck space while keeping the head aligned.
-- Use a stable base or guard connection so the opponent cannot freely circle around the choke.
+- The attacker starts underneath in Hindu Control, clears the raised leg and retains a choking arm around the lowered head with a stable guard connection.
+- The attacker brings the forearm into your neck space while keeping your head aligned.
+- The attacker uses a stable guard connection so you cannot freely circle around the choke.
 
 
 </section>

@@ -6167,7 +6167,7 @@ The caught player releases the Aoki foot grip early, frees the hip connection, a
 
 ### [[Transitions/Aoki Lock|Aoki Lock]]
 
-Entering the Aoki Lock from Aoki Lock Control keeps the outward-turned foot enclosed and the hip contained. Rehearse the transition without finishing rotation.
+Entering Aoki Lock Control from Ashi Garami captures an available outward-turned foot while retaining the hip connection. Rehearse the transition without finishing rotation.
 
 ### [[Transitions/Arm Drag|Arm Drag]]
 
@@ -8747,7 +8747,7 @@ Master the pressure pass from Shin-to-Shin Guard. Step-by-step guide covering we
 
 ### [[Transitions/Progression to Zombie|Progression to Zombie]]
 
-Progression to Zombie from New York is a reset when the opponent recovers the inside hand. Pummel it back to the mat before restoring arm isolation and the knee hug.
+Progression to Zombie starts the contested hand-clearing pummel from Mission Control. Retain posture control and support the high knee while seeking inside space.
 
 ### [[Transitions/Pull Guard from Combat Base|Pull Guard from Combat Base]]
 
@@ -9447,7 +9447,7 @@ Master the Standing Back Control Entry in BJJ. Learn to follow opponents to stan
 
 ### [[Transitions/Standing Escape|Standing Escape]]
 
-Standing after Invisible Collar requires releasing the high guard, creating space and establishing safe posts. The facing leg clinch contains no rear hooks.
+Standing Escape starts on top in Invisible Collar. Clear the high head-and-arm clinch before recovering posture and foot posts to rise facing the guard.
 
 ### [[Transitions/Standing Escape from Reverse X-Guard|Standing Escape from Reverse X-Guard]]
 
@@ -9659,7 +9659,7 @@ A sweep from Zombie needs a controlled posting arm and an off-balanced base; the
 
 ### [[Transitions/Switch to Darce Configuration|Switch to Darce Configuration]]
 
-Learn Switch to Darce Configuration from Buggy Choke in BJJ. Reconfigure grips to darce control when opponent turns in. Success: Beginner 30%, Intermediate 50%, Advanced 65%.
+Learn Switch to Darce Configuration from bottom Buggy Choke. Seek an open darce arm path; top control is also required. Success: Beginner 30%, Intermediate 50%, Advanced 65%.
 
 ### [[Transitions/Switch to Triangle|Switch to Triangle]]
 
