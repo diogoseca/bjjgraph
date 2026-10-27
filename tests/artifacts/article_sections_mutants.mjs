@@ -74,6 +74,9 @@ const retiredGutter = `  frameCamera(target) {
   }
 `;
 const mutants = [
+  // D-501: restore the ancestor move that reloads a seatless reference player's document.
+  ['d501-card-insert-before', seam, 'published reference videos.*Learning/Position-Over-Submission 1440px.*native card moves',
+    s => replace(s, 'parent.moveBefore(s.card, parent.children[i] || null)', 'parent.insertBefore(s.card, parent.children[i] || null)')],
   // D-482: reach the claim through the approved U25 disclosure and actual inline-link fragments.
   ['d482-closed-anchor-hidden', sections, '390px unknown authored sections and cross-section anchors',
     s => replace(s, 'this.toggleSection(section.dataset.sectionType, true); this.layoutNow();', '/* mutant: leave the anchor target hidden */')],

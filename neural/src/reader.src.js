@@ -471,7 +471,7 @@ class Reader {
       link.style.pointerEvents = "auto";
       row.append(link, eyeOff()); contents.append(row); section.row = row;
     }
-    // U25 a: native disclosure; the SAME closed cards/controls live here, in source order.
+    // U25 a: native disclosure; the SAME closed controls live here, in source order.
     // No rewritten content or replacement click targets during an observer/layout callback.
     const hidden = this.hiddenSections = element("details", { class: "ng-reader-hidden" });
     // Static markup only: same count, decorative chevron and list; no article HTML is interpolated.
@@ -600,7 +600,23 @@ class Reader {
     hidden.firstChild.firstChild.textContent = "Hidden sections (" + closed.length + ")";
     if (!closed.length) hidden.open = false;
     for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {
-      sections.forEach((s, i) => { if (parent.children[i] !== s.card) parent.insertBefore(s.card, parent.children[i] || null); });
+      sections.forEach((s, i) => {
+        // D-501: moving an iframe's ancestor with insertBefore reloads its document.
+        // Without atomic moves, keep ALL bodies in source order and move only the
+        // existing heading/control into an empty closed-row shell. Never move media.
+        if (typeof parent.moveBefore === "function") {
+          if (parent.children[i] !== s.card) parent.moveBefore(s.card, parent.children[i] || null);
+        } else {
+          s.card.hidden = parent !== this.body;
+          if (s.card.hidden) {
+            s.closedRow ||= element("section", { class: "ng-section-card", "data-collapsed": "true" });
+            if (!s.closedRow.firstChild) s.closedRow.append(s.card.firstElementChild);
+            if (parent.children[i] !== s.closedRow) parent.insertBefore(s.closedRow, parent.children[i] || null);
+          } else if (s.closedRow?.firstChild) {
+            s.card.prepend(s.closedRow.firstChild); s.closedRow.remove();
+          }
+        }
+      });
     }
     focus?.focus({ preventScroll: true });
     // Adjacent pairs only: never dense-fill or change the reading order. Wide prose stays full.
