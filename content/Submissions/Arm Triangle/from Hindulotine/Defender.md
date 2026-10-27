@@ -202,7 +202,7 @@ description: "Arm Triangle from Hindulotine (defender): Recover the arm before i
 
 <section id="overview" class="content-section">
 
-The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.
+The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.
 
 Recover the arm before it crosses the neck and becomes enclosed. Maintain an early frame between the shoulder and head while the loop is still open. An upper arm beside the neck plus your own shoulder on the other side is the key threat.
 
@@ -259,9 +259,9 @@ Protect the neck by keeping an early frame between the trapped shoulder and the 
 
 <p class="section-subtitle">How do you know when someone is attempting Arm Triangle from Hindulotine?</p>
 
-- The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin.
-- Place the attacking upper arm beside one side of the neck without levering the head backward.
-- Close the arm loop without changing the neck into a twisting position.
+- The attacker starts underneath in Hindu Control and must clear the raised leg to arrange an arm around the head and the opponent's arm across the neck.
+- The attacker places the attacking upper arm beside one side of your neck without levering your head backward.
+- The attacker closes the arm loop without changing your neck into a twisting position.
 
 
 </section>

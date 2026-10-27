@@ -117,7 +117,7 @@ description: "Guillotine Choke from Hindulotine changes the neck enclosure. Clea
 
 <section id="overview" class="content-section">
 
-The attacker is in front of a lowered head, with the choking arm around the neck and a stable standing or guard connection. Hindu Control includes a raised leg in the enclosure. An ordinary guillotine requires deliberate re-gripping and leg clearance; a shared word in the names does not make the grips interchangeable.
+The attacker starts underneath in Hindu Control, clears the raised leg and retains a choking arm around the lowered head with a stable guard connection. Hindu Control includes a raised leg in the enclosure. An ordinary guillotine requires deliberate re-gripping and leg clearance; a shared word in the names does not make the grips interchangeable.
 
 Establish a chin-strap or equivalent front head control without twisting the jaw. Bring the forearm into the neck space while keeping the head aligned. Secure the selected grip without pulling the head backward. Use a stable base or guard connection so the opponent cannot freely circle around the choke.
 
@@ -271,11 +271,11 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 ### Recognition Cues
 
 
-- The attacker is in front of a lowered head, with the choking arm around the neck and a stable standing or guard connection.
+- The attacker starts underneath in Hindu Control, clears the raised leg and retains a choking arm around the lowered head with a stable guard connection.
 
-- Bring the forearm into the neck space while keeping the head aligned.
+- The attacker brings the forearm into your neck space while keeping your head aligned.
 
-- Use a stable base or guard connection so the opponent cannot freely circle around the choke.
+- The attacker uses a stable guard connection so you cannot freely circle around the choke.
 
 
 ### Escape Paths
@@ -294,7 +294,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 ## Variations
 
 
-**Control-only rehearsal**: The attacker is in front of a lowered head, with the choking arm around the neck and a stable standing or guard connection. Establish a chin-strap or equivalent front head control without twisting the jaw. (When to use: Cooperative practice before adding resistance or any finishing pressure)
+**Control-only rehearsal**: The attacker starts underneath in Hindu Control, clears the raised leg and retains a choking arm around the lowered head with a stable guard connection. Establish a chin-strap or equivalent front head control without twisting the jaw. (When to use: Cooperative practice before adding resistance or any finishing pressure)
 
 
 **Entry prerequisite check**: Hindu Control includes a raised leg in the enclosure. An ordinary guillotine requires deliberate re-gripping and leg clearance; a shared word in the names does not make the grips interchangeable. (When to use: Before linking this submission to a different starting position)

@@ -63,7 +63,7 @@
       "Release before repositioning: Open the original connection before either partner turns, rises or changes the captured limb.",
       "Require wrist and elbow access: Obtain a separate arm-control position before attempting a figure-four grip.",
       "Connect the arm figure-four: Hold the opposing wrist and your own wrist while keeping the captured elbow controlled.",
-      "Stop at shoulder control: Use the grip as a positional handle without forcing the wrist behind the back."
+      "Stop at top Kimura Trap control: Use the grip as a positional handle without forcing the wrist behind the back. The original bottom player must also establish top control."
     ],
     "setup_requirements": [
       "The initial Aoki Lock Control configuration must be identified before considering Kimura Trap.",
@@ -99,7 +99,7 @@
       },
       {
         "step_number": 6,
-        "action": "Stop at shoulder control",
+        "action": "Stop at top Kimura Trap control",
         "description": "Use the grip as a positional handle without forcing the wrist behind the back."
       }
     ],
@@ -366,7 +366,7 @@
     "recognition_cues": [
       "The initial Aoki Lock Control configuration must be identified before considering Kimura Trap.",
       "Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
-      "Obtain a separate arm-control position before attempting a figure-four grip."
+      "The attacker seeks a separate arm-control position before attempting a figure-four grip."
     ],
     "defensive_options": [
       {

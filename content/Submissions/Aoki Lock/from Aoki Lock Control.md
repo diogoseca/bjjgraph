@@ -273,9 +273,9 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 - The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.
 
-- Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
+- The attacker brings your instep under the upper arm and supports the heel/Achilles region with the forearm.
 
-- Use the legs and hip connection to limit free movement without twisting a planted knee.
+- The attacker uses the legs and hip connection to limit your free movement without twisting a planted knee.
 
 
 ### Escape Paths

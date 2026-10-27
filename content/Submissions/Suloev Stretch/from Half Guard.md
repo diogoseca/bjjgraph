@@ -258,9 +258,9 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 
 - The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle.
 
-- Work only when the opponent's raised hips expose an ankle without sacrificing your balance.
+- Your raised hips expose an ankle that the rear attacker can reach while retaining balance.
 
-- Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.
+- The attacker arranges your leg so it extends in its natural line rather than rotating sideways at the knee.
 
 
 ### Escape Paths

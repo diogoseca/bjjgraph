@@ -4,7 +4,7 @@
 
 ---
 title: "Suloev Stretch from Half Guard Defender | BJJ Defense Guide | BJJ Graph"
-description: "Suloev Stretch from Half Guard (defender): A hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together."
+description: "Suloev Stretch from Rear Tripod (defender): A hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together."
 ---
 
 
@@ -114,7 +114,7 @@ description: "Suloev Stretch from Half Guard (defender): A hand reaching from yo
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Suloev Stretch from Half Guard Defender",
-  "description": "Suloev Stretch from Half Guard (defender): A hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together.",
+  "description": "Suloev Stretch from Rear Tripod (defender): A hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together.",
   "alternateName": ["Suloev Stretch from Rear Tripod"],
   "isPartOf": {
     "@type": "WebSite",
@@ -196,8 +196,8 @@ Before an ankle is captured, rebuilding base brings the elbows beside the ribs a
 <p class="section-subtitle">How do you know when someone is attempting Suloev Stretch from Half Guard?</p>
 
 - The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle.
-- Work only when the opponent's raised hips expose an ankle without sacrificing your balance.
-- Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.
+- Your raised hips expose an ankle that the rear attacker can reach while retaining balance.
+- The attacker arranges your leg so it extends in its natural line rather than rotating sideways at the knee.
 
 
 </section>

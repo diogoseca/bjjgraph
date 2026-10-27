@@ -189,7 +189,7 @@ description: "Aoki Lock (defender): Treat an outward-turned foot caught by the u
 
 <section id="overview" class="content-section">
 
-The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.
+The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.
 
 Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock. Hand fight and recover foot position before the attacker connects around the foot. Do not rotate the torso independently of a captured foot and knee.
 
@@ -237,9 +237,9 @@ The early escape removes the hand enclosure and the leg entanglement while the f
 
 <p class="section-subtitle">How do you know when someone is attempting Aoki Lock?</p>
 
-- The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.
-- Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
-- Use the legs and hip connection to limit free movement without twisting a planted knee.
+- The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection.
+- The attacker brings your instep under the upper arm and supports the heel/Achilles region with the forearm.
+- The attacker uses the legs and hip connection to limit your free movement without twisting a planted knee.
 
 
 </section>
