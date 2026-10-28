@@ -12,7 +12,7 @@ import { questionGeometry, watchQuestionScroll, stopQuestionScroll } from '../fi
 // controls", not at setup. Heartbeat samples seek real CSS animations; no 30-second
 // wall-clock sleep.
 // RDR-R2b (2026-10-28): the touch-scroll test now dismisses the earned White Foundations patch before its
-// take-up. Its claim is still pinned:
+// take-up, and the pane-open focus test waits for landSettled(). The touch test's claim is still pinned:
 // u52b-touch-press-declines (tests/artifacts/article_sections_mutants.mjs, the reader.src.js pointer-type
 // check removed) turned the fixed test red 2 of 2, by hand, at "U52 b: a touch scroll does not decline an
 // asking question".
@@ -318,6 +318,10 @@ test('@curated U52 b a landing rendered with the pane open shows the full card; 
   await j.clickByMouse('.ng-logo', 'open the pane')
   await expect(page.locator('.ng-drill')).toBeVisible()
   await render('Side Control Top'); await mounted()
+  // RDR-R2b: mounted() waits for _landQ only, while D-351's _readerHold keeps the card and its arrows
+  // visibility:hidden for up to 800 ms, and focus() on a hidden button silently does nothing. Wait for the landing
+  // to publish before the card is judged or its arrow focused. Forced with a 600 ms article delay: 5/5 per bundle.
+  await j.landSettled()
   expect(await face(page), 'U52 b a landing rendered with the pane open shows the full card').toMatchObject({ asking: false, go: 0, answers: 3 })
   await j.clickByMouse('.ng-explorer-close', 'close the pane')
   await page.locator('[data-land-next]').focus()
