@@ -251,8 +251,6 @@ Kimura from Back occupies a central role in the rear triangle attack system, ser
 
 - [[Transitions/Kimura Sweep]] - Related technique using same figure-four grip mechanics
 
-- [[Transitions/Kimura Switch]] - Transition option when position changes during kimura attempt
-
 - [[Positions/Gift Wrap]] - Alternative arm control from back position
 
 - [[Positions/Crucifix]] - Transition target if opponent rotates during attack

@@ -80,8 +80,8 @@ test("every shipped deck is mintable, and every mintable key ships a deck", () =
   // non-triviality floor FIRST: an empty node list would satisfy set equality perfectly. The floor
   // IS the census count (a `>=` against today's corpus), so a deliberate content move re-arms it
   // with `npm run census:update` and an accidental loss still trips it.
-  assert.ok(shipped.size >= 2844, `manifest starved: ${shipped.size} decks`); // census:members
-  assert.ok(APP.nodes.length >= 2844, `node set starved: ${APP.nodes.length}`); // census:members
+  assert.ok(shipped.size >= 2842, `manifest starved: ${shipped.size} decks`); // census:members
+  assert.ok(APP.nodes.length >= 2842, `node set starved: ${APP.nodes.length}`); // census:members
 
   const unreachable = [...shipped].filter((k) => !mint.has(k));
   assert.deepEqual(unreachable, [], `${unreachable.length} shipped deck(s) the app cannot ask for`);
@@ -105,7 +105,7 @@ test("every shipped deck is mintable, and every mintable key ships a deck", () =
 // the same source it is checking.
 test("every technique site: the rep keys |Attacker and the partner keys |Defender", () => {
   const tech = SITES.filter((n) => n.ty !== "positions");
-  assert.equal(tech.length, 1290, "the technique site count itself"); // census:techSites
+  assert.equal(tech.length, 1289, "the technique site count itself"); // census:techSites
   let checked = 0;
   for (const rep of tech) {
     const partner = APP.nodes.find((m) => m.id === rep.pairId);
@@ -114,7 +114,7 @@ test("every technique site: the rep keys |Attacker and the partner keys |Defende
     assert.equal(APP.deckKeyFor(partner).role, "Defender", partner.id);
     checked += 2;
   }
-  assert.equal(checked, 2580, "positive coverage: every technique seat was read"); // census:techMembers
+  assert.equal(checked, 2578, "positive coverage: every technique seat was read"); // census:techMembers
 });
 
 test("every position site: the rep keys |Top and the partner keys |Bottom", () => {

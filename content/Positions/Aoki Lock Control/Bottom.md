@@ -21,20 +21,14 @@ description: "Aoki Lock Control bottom perspective: Recognize the foot orientati
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock from Aoki Lock Control",
-      "text": "From this position, attempt Aoki Lock from Aoki Lock Control. This technique is attempted in 60% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Lock from Aoki Lock Control. This technique is attempted in 71% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Control Release to Ashi",
-      "text": "From this position, attempt Aoki Control Release to Ashi. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Control Release to Ashi. This technique is attempted in 29% of exchanges from this position.",
       "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Kimura Switch",
-      "text": "From this position, attempt Kimura Switch. This technique is attempted in 15% of exchanges from this position.",
-      "position": 3
     }
   ],
   "totalTime": "PT2M"

@@ -54320,10 +54320,10 @@
           "target": "aoki-lock-from-aoki-lock-control",
           "targetPath": "Aoki-Lock-from-Aoki-Lock-Control",
           "isSubmission": true,
-          "attemptProbability": 60,
+          "attemptProbability": 71,
           "attemptProbabilityByRuleset": {
-            "gi": 60,
-            "nogi": 60
+            "gi": 71,
+            "nogi": 71
           },
           "successRate": 35.0
         },
@@ -54332,24 +54332,12 @@
           "target": "aoki-control-release-to-ashi",
           "targetPath": "Aoki-Control-Release-to-Ashi",
           "isSubmission": false,
-          "attemptProbability": 25,
+          "attemptProbability": 29,
           "attemptProbabilityByRuleset": {
-            "gi": 25,
-            "nogi": 25
+            "gi": 29,
+            "nogi": 29
           },
           "successRate": 65.0
-        },
-        {
-          "technique": "Kimura Switch",
-          "target": "kimura-switch",
-          "targetPath": "Kimura-Switch",
-          "isSubmission": false,
-          "attemptProbability": 15,
-          "attemptProbabilityByRuleset": {
-            "gi": 15,
-            "nogi": 15
-          },
-          "successRate": 35.0
         }
       ],
       "flashcards": [
@@ -627461,560 +627449,6 @@
       ],
       "strength": 0.1
     },
-    "kimura-switch": {
-      "name": "Kimura Switch",
-      "hub": "kimura-switch",
-      "role": "hub",
-      "flashcards": [
-        {
-          "question": "Kimura Switch (attacker): What is held in the initial Aoki configuration?",
-          "answer": "The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.",
-          "answer_line": "Outward foot beside the armpit",
-          "distractors": {
-            "plausible": [
-              "Inward foot beside the armpit",
-              "Straight ankle, instep outside arm"
-            ],
-            "trap": [
-              "Outward heel, forefoot outside arms"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): Why unload the first capture before reaching for an arm?",
-          "answer": "Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
-          "answer_line": "Movement can twist held foot/knee",
-          "distractors": {
-            "plausible": [
-              "Reaching for wrist frees foot grip",
-              "Hip turns load calf, not the knee"
-            ],
-            "trap": [
-              "New wrist grip allows foot loading"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): What must open before the target limb changes?",
-          "answer": "Open the original connection before either partner turns, rises or changes the captured limb.",
-          "answer_line": "Foot enclosure and hip connection",
-          "distractors": {
-            "plausible": [
-              "Just hand reaching for new wrist",
-              "Just hip leg, instep still clamped"
-            ],
-            "trap": [
-              "Just heel support, hip and arm tight"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): What access is needed for the new kimura grip?",
-          "answer": "Obtain a separate arm-control position before attempting a figure-four grip.",
-          "answer_line": "Separate wrist-and-elbow access",
-          "distractors": {
-            "plausible": [
-              "Wrist reached, elbow hidden at torso",
-              "Elbow reached, wrist beyond reach"
-            ],
-            "trap": [
-              "Hand only, other arm outside elbow"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): How is the arm figure-four connected?",
-          "answer": "Hold the opposing wrist and your own wrist while keeping the captured elbow controlled.",
-          "answer_line": "Their wrist and yours via elbow wrap",
-          "distractors": {
-            "plausible": [
-              "Both hands side by side on wrist",
-              "Own wrist, both arms outside elbow"
-            ],
-            "trap": [
-              "Wrist and upper arm, hands unlinked"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): In a positional kimura drill, what is the intended endpoint?",
-          "answer": "Use the grip as a positional handle without forcing the wrist behind the back.",
-          "answer_line": "Hold wrist and elbow without torque",
-          "distractors": {
-            "plausible": [
-              "Wrist behind back to test pressure",
-              "Keep wrist, release wrap and elbow"
-            ],
-            "trap": [
-              "Turn torso to test shoulder mobility"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): Which lower-body connection belongs to the initial setup?",
-          "answer": "The initial Aoki setup manages foot and hip; those lower-body controls are dismantled before arm capture.",
-          "answer_line": "Legs contain captured leg's hip",
-          "distractors": {
-            "plausible": [
-              "Foot grip, both legs outside hip",
-              "Knee on thigh, hip still mobile"
-            ],
-            "trap": [
-              "Crossed ankles, their leg outside"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): Why is the old Aoki grip not already a kimura?",
-          "answer": "The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. The reviewed instruction does not establish a direct Aoki Lock Control-to-Kimura Trap connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.",
-          "answer_line": "Foot held, not their wrist and elbow",
-          "distractors": {
-            "plausible": [
-              "Same grip already wraps their elbow",
-              "Palms on foot form own-wrist grip"
-            ],
-            "trap": [
-              "Foot grip shape also locks shoulder"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): Your partner turns while the wrist and shoulder remain fixed. What next?",
-          "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-          "answer_line": "Release arm restraint before turning",
-          "distractors": {
-            "plausible": [
-              "Free wrist, elbow wrap still wedged",
-              "Turn with partner before releasing"
-            ],
-            "trap": [
-              "Ease hand pressure, keep wrist fixed"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): With one hand on their wrist, how does the other complete the figure-four?",
-          "answer": "Keep the first hand on the opposing wrist. The second arm wraps around their elbow and connects to your own wrist, securing the figure-four before any shoulder pressure.",
-          "answer_line": "Wrap elbow and hold your own wrist",
-          "distractors": {
-            "plausible": [
-              "Second hand beside first on wrist",
-              "Wrap forearm, leave elbow outside"
-            ],
-            "trap": [
-              "Grip upper arm, release the wrist"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (defender): Before the figure-four closes, where should you keep the arm?",
-          "answer": "Hold the arm close to the torso before a figure-four grip closes.",
-          "answer_line": "Wrist and elbow close to the torso",
-          "distractors": {
-            "plausible": [
-              "Wrist extended behind your shoulder",
-              "Elbow flared, hand across their back"
-            ],
-            "trap": [
-              "Hand on floor, shoulder turned away"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (defender): With only your wrist held, how do you deny the next grip?",
-          "answer": "Recover inside arm position while the attacker has only one point of control.",
-          "answer_line": "Regain inside arm before elbow wrap",
-          "distractors": {
-            "plausible": [
-              "Extend elbow beyond their shoulder",
-              "Turn torso away with wrist fixed"
-            ],
-            "trap": [
-              "Wait for both grips to hand fight"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (defender): Which limb relationship signals the new threat after Aoki release?",
-          "answer": "A Kimura threatens the shoulder and elbow, unlike the preceding foot lock.",
-          "answer_line": "Wrist/elbow grip isolates shoulder",
-          "distractors": {
-            "plausible": [
-              "Two hands on wrist, elbow free",
-              "Elbow held, wrist free to withdraw"
-            ],
-            "trap": [
-              "Forearm wrapped, elbow left outside"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (defender): Why should you not roll with the wrist and shoulder fixed?",
-          "answer": "Do not roll against a fixed wrist and shoulder. Create slack in the existing control before changing the body angle.",
-          "answer_line": "Torso turns against fixed shoulder",
-          "distractors": {
-            "plausible": [
-              "Wrist slips before shoulder turns",
-              "Elbow wrap lets arm turn with chest"
-            ],
-            "trap": [
-              "Forearm absorbs all shoulder load"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (defender): What should end a cooperative positional hold?",
-          "answer": "Stop before the arm is driven behind the back. Create slack in the existing control before changing the body angle.",
-          "answer_line": "Capture before wrist goes behind you",
-          "distractors": {
-            "plausible": [
-              "Lift wrist to test shoulder load",
-              "Turn to test elbow containment"
-            ],
-            "trap": [
-              "Hand at spine, elbow still held"
-            ]
-          }
-        }
-      ],
-      "strength": {
-        "attacker": -0.102,
-        "defender": 0.102
-      }
-    },
-    "kimura-switch/attacker": {
-      "name": "Kimura Switch",
-      "hub": "kimura-switch",
-      "role": "attacker",
-      "startingPosition": "aoki-lock-control",
-      "startingPositionPath": "Aoki-Lock-Control",
-      "startingPositionRole": "bottom",
-      "fromPosition": "Aoki Lock Control",
-      "fromPositionId": "aoki-lock-control",
-      "fromRole": "bottom",
-      "endingPosition": "kimura-trap/top",
-      "endingPositionPath": "Kimura-Trap",
-      "successRate": 35.0,
-      "successRateByRuleset": {
-        "gi": 35.0,
-        "nogi": 35.0
-      },
-      "flashcards": [
-        {
-          "question": "Kimura Switch (attacker): What is held in the initial Aoki configuration?",
-          "answer": "The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.",
-          "answer_line": "Outward foot beside the armpit",
-          "distractors": {
-            "plausible": [
-              "Inward foot beside the armpit",
-              "Straight ankle, instep outside arm"
-            ],
-            "trap": [
-              "Outward heel, forefoot outside arms"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): Why unload the first capture before reaching for an arm?",
-          "answer": "Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
-          "answer_line": "Movement can twist held foot/knee",
-          "distractors": {
-            "plausible": [
-              "Reaching for wrist frees foot grip",
-              "Hip turns load calf, not the knee"
-            ],
-            "trap": [
-              "New wrist grip allows foot loading"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): What must open before the target limb changes?",
-          "answer": "Open the original connection before either partner turns, rises or changes the captured limb.",
-          "answer_line": "Foot enclosure and hip connection",
-          "distractors": {
-            "plausible": [
-              "Just hand reaching for new wrist",
-              "Just hip leg, instep still clamped"
-            ],
-            "trap": [
-              "Just heel support, hip and arm tight"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): What access is needed for the new kimura grip?",
-          "answer": "Obtain a separate arm-control position before attempting a figure-four grip.",
-          "answer_line": "Separate wrist-and-elbow access",
-          "distractors": {
-            "plausible": [
-              "Wrist reached, elbow hidden at torso",
-              "Elbow reached, wrist beyond reach"
-            ],
-            "trap": [
-              "Hand only, other arm outside elbow"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): How is the arm figure-four connected?",
-          "answer": "Hold the opposing wrist and your own wrist while keeping the captured elbow controlled.",
-          "answer_line": "Their wrist and yours via elbow wrap",
-          "distractors": {
-            "plausible": [
-              "Both hands side by side on wrist",
-              "Own wrist, both arms outside elbow"
-            ],
-            "trap": [
-              "Wrist and upper arm, hands unlinked"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): In a positional kimura drill, what is the intended endpoint?",
-          "answer": "Use the grip as a positional handle without forcing the wrist behind the back.",
-          "answer_line": "Hold wrist and elbow without torque",
-          "distractors": {
-            "plausible": [
-              "Wrist behind back to test pressure",
-              "Keep wrist, release wrap and elbow"
-            ],
-            "trap": [
-              "Turn torso to test shoulder mobility"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): Which lower-body connection belongs to the initial setup?",
-          "answer": "The initial Aoki setup manages foot and hip; those lower-body controls are dismantled before arm capture.",
-          "answer_line": "Legs contain captured leg's hip",
-          "distractors": {
-            "plausible": [
-              "Foot grip, both legs outside hip",
-              "Knee on thigh, hip still mobile"
-            ],
-            "trap": [
-              "Crossed ankles, their leg outside"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): Why is the old Aoki grip not already a kimura?",
-          "answer": "The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. The reviewed instruction does not establish a direct Aoki Lock Control-to-Kimura Trap connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.",
-          "answer_line": "Foot held, not their wrist and elbow",
-          "distractors": {
-            "plausible": [
-              "Same grip already wraps their elbow",
-              "Palms on foot form own-wrist grip"
-            ],
-            "trap": [
-              "Foot grip shape also locks shoulder"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): Your partner turns while the wrist and shoulder remain fixed. What next?",
-          "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-          "answer_line": "Release arm restraint before turning",
-          "distractors": {
-            "plausible": [
-              "Free wrist, elbow wrap still wedged",
-              "Turn with partner before releasing"
-            ],
-            "trap": [
-              "Ease hand pressure, keep wrist fixed"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (attacker): With one hand on their wrist, how does the other complete the figure-four?",
-          "answer": "Keep the first hand on the opposing wrist. The second arm wraps around their elbow and connects to your own wrist, securing the figure-four before any shoulder pressure.",
-          "answer_line": "Wrap elbow and hold your own wrist",
-          "distractors": {
-            "plausible": [
-              "Second hand beside first on wrist",
-              "Wrap forearm, leave elbow outside"
-            ],
-            "trap": [
-              "Grip upper arm, release the wrist"
-            ]
-          }
-        }
-      ],
-      "commonCounters": [
-        {
-          "technique": "Hold the arm close to the torso before a figure-four grip closes.",
-          "effectiveness": 70,
-          "resultPosition": "aoki-lock-control"
-        },
-        {
-          "technique": "Recover inside arm position while the attacker has only one point of control.",
-          "effectiveness": 50,
-          "resultPosition": "aoki-lock-control"
-        },
-        {
-          "technique": "A Kimura threatens the shoulder and elbow, unlike the preceding foot lock.",
-          "effectiveness": 50,
-          "resultPosition": "aoki-lock-control"
-        },
-        {
-          "technique": "Do not roll against a fixed wrist and shoulder.",
-          "effectiveness": 30,
-          "resultPosition": "aoki-lock-control"
-        }
-      ],
-      "outcomes": [
-        {
-          "to": "kimura-trap/top",
-          "probability": 35,
-          "probabilityByRuleset": {
-            "gi": 35,
-            "nogi": 35
-          },
-          "result": "success"
-        },
-        {
-          "to": "aoki-lock-control/bottom",
-          "probability": 45,
-          "probabilityByRuleset": {
-            "gi": 45,
-            "nogi": 45
-          },
-          "result": "failure"
-        },
-        {
-          "to": "ashi-garami/bottom",
-          "probability": 20,
-          "probabilityByRuleset": {
-            "gi": 20,
-            "nogi": 20
-          },
-          "result": "counter"
-        }
-      ],
-      "strength": -0.102
-    },
-    "kimura-switch/defender": {
-      "name": "Kimura Switch",
-      "hub": "kimura-switch",
-      "role": "defender",
-      "startingPosition": "aoki-lock-control",
-      "startingPositionPath": "Aoki-Lock-Control",
-      "startingPositionRole": "top",
-      "fromPosition": "Aoki Lock Control",
-      "fromPositionId": "aoki-lock-control",
-      "fromRole": "top",
-      "endingPosition": "aoki-lock-control/top",
-      "endingPositionPath": "",
-      "successRate": 65.0,
-      "successRateByRuleset": {
-        "gi": 65.0,
-        "nogi": 65.0
-      },
-      "flashcards": [
-        {
-          "question": "Kimura Switch (defender): Before the figure-four closes, where should you keep the arm?",
-          "answer": "Hold the arm close to the torso before a figure-four grip closes.",
-          "answer_line": "Wrist and elbow close to the torso",
-          "distractors": {
-            "plausible": [
-              "Wrist extended behind your shoulder",
-              "Elbow flared, hand across their back"
-            ],
-            "trap": [
-              "Hand on floor, shoulder turned away"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (defender): With only your wrist held, how do you deny the next grip?",
-          "answer": "Recover inside arm position while the attacker has only one point of control.",
-          "answer_line": "Regain inside arm before elbow wrap",
-          "distractors": {
-            "plausible": [
-              "Extend elbow beyond their shoulder",
-              "Turn torso away with wrist fixed"
-            ],
-            "trap": [
-              "Wait for both grips to hand fight"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (defender): Which limb relationship signals the new threat after Aoki release?",
-          "answer": "A Kimura threatens the shoulder and elbow, unlike the preceding foot lock.",
-          "answer_line": "Wrist/elbow grip isolates shoulder",
-          "distractors": {
-            "plausible": [
-              "Two hands on wrist, elbow free",
-              "Elbow held, wrist free to withdraw"
-            ],
-            "trap": [
-              "Forearm wrapped, elbow left outside"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (defender): Why should you not roll with the wrist and shoulder fixed?",
-          "answer": "Do not roll against a fixed wrist and shoulder. Create slack in the existing control before changing the body angle.",
-          "answer_line": "Torso turns against fixed shoulder",
-          "distractors": {
-            "plausible": [
-              "Wrist slips before shoulder turns",
-              "Elbow wrap lets arm turn with chest"
-            ],
-            "trap": [
-              "Forearm absorbs all shoulder load"
-            ]
-          }
-        },
-        {
-          "question": "Kimura Switch (defender): What should end a cooperative positional hold?",
-          "answer": "Stop before the arm is driven behind the back. Create slack in the existing control before changing the body angle.",
-          "answer_line": "Capture before wrist goes behind you",
-          "distractors": {
-            "plausible": [
-              "Lift wrist to test shoulder load",
-              "Turn to test elbow containment"
-            ],
-            "trap": [
-              "Hand at spine, elbow still held"
-            ]
-          }
-        }
-      ],
-      "commonCounters": [],
-      "outcomes": [
-        {
-          "to": "kimura-trap/bottom",
-          "probability": 35,
-          "probabilityByRuleset": {
-            "gi": 35,
-            "nogi": 35
-          },
-          "result": "failure"
-        },
-        {
-          "to": "aoki-lock-control/top",
-          "probability": 45,
-          "probabilityByRuleset": {
-            "gi": 45,
-            "nogi": 45
-          },
-          "result": "success"
-        },
-        {
-          "to": "ashi-garami/top",
-          "probability": 20,
-          "probabilityByRuleset": {
-            "gi": 20,
-            "nogi": 20
-          },
-          "result": "success"
-        }
-      ],
-      "strength": 0.102
-    },
     "butterfly-guard-to-half-butterfly": {
       "name": "Butterfly Guard to Half Butterfly",
       "hub": "butterfly-guard-to-half-butterfly",
@@ -665748,219 +665182,177 @@
       "role": "hub",
       "flashcards": [
         {
-          "question": "From buggy choke bottom, what opening should you check before attempting the darce switch?",
-          "answer": "Check whether the top player's reaction exposes an armpit-to-neck path with the arm sufficiently separated for threading. You begin underneath side control with a Buggy arm-and-leg loop, not a collar grip above a turtle. A turn alone is insufficient: if the path stays closed, retain the Buggy loop and re-read the reaction.",
-          "answer_line": "Reaction opens armpit-to-neck path",
+          "question": "From bottom Buggy Choke, what reaction tells you to switch toward the D'Arce?",
+          "answer": "The top player postures up, or presses up with both hands, to escape the Buggy. That lift is the trigger: it makes space under their stomach for your far hand. If they stay low and heavy, keep the Buggy.",
+          "answer_line": "They posture up or press up",
           "distractors": {
             "plausible": [
-              "Opponent postures up fully",
-              "Far arm drops to defend"
+              "They flatten out and stay heavy",
+              "They turn their back to you"
             ],
             "trap": [
-              "Assume a top ride already exists"
+              "Any movement at all"
             ]
           }
         },
         {
-          "question": "What threading path makes the darce switch mechanically available?",
-          "answer": "The darce threads under the opponent's far armpit first and then wraps around the neck. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. If the far armpit is closed, keep the Buggy loop and re-read the opponent's reaction. The threading direction determines whether the darce is mechanically available.",
-          "answer_line": "Darce threads armpit, then neck",
+          "question": "During the switch, what do you keep and what do you let go?",
+          "answer": "Keep your arm around their head and trapped arm the whole way. Let go only of the Buggy's connection to your raised leg.",
+          "answer_line": "Keep head and arm; release the leg",
           "distractors": {
             "plausible": [
-              "Darce wraps neck before armpit",
-              "Choose darce when near arm trapped"
+              "Keep the leg; release the head",
+              "Release both, then regrip"
             ],
             "trap": [
-              "Always choose darce when available"
+              "Hold everything and squeeze harder"
             ]
           }
         },
         {
-          "question": "They clamp the far elbow to their ribs as you thread for the darce—how do you adjust?",
-          "answer": "Keep the Buggy loop and re-read the opponent's reaction. The far elbow has closed the darce threading path, so retain control from underneath side control and reassess the opening before trying the switch again.",
-          "answer_line": "Keep Buggy loop, re-read",
+          "question": "Where does your far hand go before you let go of the leg?",
+          "answer": "Under their stomach or armpit, through the space their posture opens. Reach under first, then release the leg, so the loop never opens with nothing replacing it.",
+          "answer_line": "Under their stomach or armpit",
           "distractors": {
             "plausible": [
-              "Force the thread through anyway",
-              "Lock figure-four before threading"
+              "Behind their far knee",
+              "Onto their far wrist"
             ],
             "trap": [
-              "Release all grips and disengage"
+              "Nowhere: release the leg first"
             ]
           }
         },
         {
-          "question": "Why must the choking arm thread deep under the far armpit before locking the figure-four?",
-          "answer": "Insufficient threading depth means the forearm blade does not seat fully across the throat against the near-side carotid artery. A shallow darce creates a loose grip where the opponent can posture up, create space between your forearm and their neck, or strip the grip entirely. Deep threading ensures the wrist bone and forearm blade create a tight seal across the carotid that cannot be relieved by head movement or posture changes.",
-          "answer_line": "Deep seal locks blade on carotid",
+          "question": "After you let go of the leg, how do you get out from underneath?",
+          "answer": "Run or spin your legs through and walk your feet away, rotating out from under them until you reach their head. The grip change alone leaves you on the bottom.",
+          "answer_line": "Run legs through, walk to the head",
           "distractors": {
             "plausible": [
-              "Speed matters more than depth",
-              "Lock figure-four immediately"
+              "Bridge them straight over",
+              "Shrimp back to closed guard"
             ],
             "trap": [
-              "Grip the far wrist loosely"
+              "Wait for them to roll you over"
             ]
           }
         },
         {
-          "question": "What role does the opponent's trapped near arm play in the darce choke mechanics?",
-          "answer": "The trapped near arm acts as a compression fulcrum. The choking arm compresses one carotid from the front, while the opponent's own trapped shoulder drives into the opposite carotid as the figure-four tightens. Without this trapped arm, the darce becomes a one-sided neck pressure that is far easier to defend and significantly less likely to produce a tap from bilateral blood restriction.",
-          "answer_line": "Bilateral compression fulcrum",
+          "question": "Where does Switch to Darce Configuration end in this graph?",
+          "answer": "At the opponent's head in a front headlock (Front Headlock/Top), with them bent forward on their knees and the head and arm still held. The D'Arce is attacked from there as the next move.",
+          "answer_line": "Front headlock, at their head",
           "distractors": {
             "plausible": [
-              "Only stops the escape",
-              "Handle to pull them down"
+              "Top Darce Control, choke locked",
+              "Side control on top"
             ],
             "trap": [
-              "Release the trapped arm early"
+              "Still underneath, in the Buggy"
             ]
           }
         },
         {
-          "question": "From top darce control, how do you generate finishing pressure without arm strength alone?",
-          "answer": "Walk your hips toward the opponent's head while sprawling your legs back to create a perpendicular angle between your body and theirs. This uses body weight and gravity to drive the figure-four compression downward through the grip structure. The elbows squeeze together to eliminate slack, but the actual finishing force comes from the sprawl pressure and hip angle, not from bicep squeezing. This makes the choke sustainable and mechanically efficient.",
-          "answer_line": "Walk hips, sprawl legs, angle body",
+          "question": "They pull the head and arm free as you release the leg. Where are you?",
+          "answer": "Underneath side control. The connection you needed is gone and they keep their weight on you, so frame and protect your inside space instead of chasing the neck.",
+          "answer_line": "Underneath side control",
           "distractors": {
             "plausible": [
-              "Squeeze biceps as hard as possible",
-              "Pull head down with the grip"
+              "In a front headlock",
+              "Back in the Buggy"
             ],
             "trap": [
-              "Lean back and yank the arm"
+              "On top in Darce Control"
             ]
           }
         },
         {
-          "question": "They clear the Buggy loop and settle side control during your grip change; what is your response?",
-          "answer": "Protect yourself with inside frames from bottom side control. The opponent has cleared the head-and-arm loop and retained the top pin, so neither a front headlock nor a top-position reset has been established for you. Recover usable guard space before beginning a new attack.",
-          "answer_line": "Recover inside frames from bottom",
+          "question": "They stay low and heavy and never posture up. What do you do?",
+          "answer": "Keep the Buggy. The switch needs them to lift; without that there is no space under their stomach and nothing to come out through.",
+          "answer_line": "Keep the Buggy and wait",
           "distractors": {
             "plausible": [
-              "Force the darce thread anyway",
-              "Release everything and reset neutral"
+              "Let go of the leg anyway",
+              "Reach for the far knee"
             ],
             "trap": [
-              "Assume you are now in top guard"
+              "Force the rotation out now"
             ]
           }
         },
         {
-          "question": "What starting control and opening are needed for the darce switch from buggy choke bottom?",
-          "answer": "Start underneath side control with a same-side Buggy arm-and-leg loop around the opponent's head and arm. Their reaction must leave an accessible armpit-to-neck path while you retain useful contact. The switch requires a new arm enclosure; reaching the top Darce Control outcome additionally requires a real positional change.",
-          "answer_line": "Bottom Buggy loop; open armpit path",
+          "question": "On top inside the Buggy, what does posturing up give the bottom player?",
+          "answer": "Space under your stomach. Posturing up, or pressing up with both hands, is the trigger for this switch: their far hand reaches under, the leg lets go and they come out from under to your head.",
+          "answer_line": "Space to switch to a front headlock",
           "distractors": {
             "plausible": [
-              "Only need opponent to turtle up",
-              "Far arm trapped tight to ribs"
+              "A clean escape from the Buggy",
+              "A chance to pass to mount"
             ],
             "trap": [
-              "Release all control to reposition"
+              "Nothing; posture is always safe"
             ]
           }
         },
         {
-          "question": "Why coordinate release of the Buggy leg connection with the new darce arm entry?",
-          "answer": "Opening the leg connection before an arm path is available gives the top player room to free the head and restore side-control pressure. Check the opening first and preserve useful head-and-arm contact through the change. If the far armpit stays closed, retain the Buggy loop and reassess instead of abandoning it for an unavailable grip.",
-          "answer_line": "Keep contact through the grip change",
+          "question": "What are the signs that the Buggy is turning into a front headlock?",
+          "answer": "Their far hand slides under your stomach or armpit, the connection to their raised leg lets go while the arm stays around your head and arm, and their legs run through as they come out from under toward your head.",
+          "answer_line": "Hand under, leg off, legs through",
           "distractors": {
             "plausible": [
-              "Pause to confirm grip is secure",
-              "Release leg well before threading"
+              "They tighten the leg connection",
+              "They reach for your far ankle"
             ],
             "trap": [
-              "Let opponent settle then attack"
+              "They stop moving and wait"
             ]
           }
         },
         {
-          "question": "Your darce is locked but they roll to their back to kill the sprawl finish—what do you adjust?",
-          "answer": "Follow the roll and maintain the darce grip throughout. The darce finishes effectively from the chest-to-chest position with the opponent on their back, and in some cases the finishing angle improves because gravity assists the compression. Walk your hips to maintain perpendicular pressure and continue squeezing. Do not release the grip to chase a top position—the darce is viable from multiple angles once the figure-four is fully locked.",
-          "answer_line": "Follow the roll, keep squeezing",
+          "question": "When is the best moment to free your head and arm?",
+          "answer": "As the leg connection lets go. The loop is then held by the arm alone, and freeing the head and arm before they reach your head keeps you on top in side control.",
+          "answer_line": "When their leg lets go",
           "distractors": {
             "plausible": [
-              "Release grip to regain top position",
-              "Loosen the figure-four to follow"
+              "Before they ever lock the Buggy",
+              "After they reach your head"
             ],
             "trap": [
-              "Abandon choke, pass to side control"
+              "Never; just stay heavy"
             ]
           }
         },
         {
-          "question": "On top inside the Buggy loop, what signals a darce switch and how should you respond?",
-          "answer": "The bottom player begins releasing the arm connection to their raised leg and directs the arm toward your exposed armpit. Keep that elbow close to the ribs to deny the new path while preserving a balanced top base. React before the separate head-and-arm loop closes; a collar release across your back is not the starting cue here.",
-          "answer_line": "Clamp far elbow to ribs instantly",
+          "question": "They come out from under and reach your head. Where are you?",
+          "answer": "Bent forward on your knees in their front headlock, with your head and arm still trapped. The D'Arce is their next attack from there.",
+          "answer_line": "In their front headlock",
           "distractors": {
             "plausible": [
-              "Wait to confirm grip is locked",
-              "Turn head away from choking arm"
+              "Still on top in side control",
+              "In their closed guard"
             ],
             "trap": [
-              "Pull head back to create space"
+              "Already in a locked D'Arce"
             ]
           }
         },
         {
-          "question": "How can the Buggy-to-darce grip change let you retain top side control?",
-          "answer": "If the bottom player opens the original loop before the new grip closes, use the available space to recover the head and arm. Stabilize side control only after the neck is clear. You begin on top, so this response preserves the pin rather than sitting to guard; a partial release is not proof that the choke has gone.",
-          "answer_line": "Clear loop; retain top side control",
+          "question": "Does staying low end the Buggy threat?",
+          "answer": "Staying low gives them no space to switch, but the Buggy is still on: it stops this move, not the choke you are already in.",
+          "answer_line": "No: stops the switch, not the choke",
           "distractors": {
             "plausible": [
-              "Wait for figure-four before reacting",
-              "Sit to guard with your neck caught"
+              "Yes, the Buggy needs you to posture",
+              "Yes, once you are flat it is over"
             ],
             "trap": [
-              "Hesitate to read the position"
-            ]
-          }
-        },
-        {
-          "question": "They are threading under your far armpit but the figure-four is not locked—your best defense?",
-          "answer": "Extract the trapped near arm immediately by gripping your own wrist with your free hand and pulling the arm out of the darce channel. The near arm serves as the compression fulcrum that makes the darce a bilateral choke rather than a one-sided squeeze. Removing this arm before the figure-four locks eliminates the choke mechanics entirely, forcing the attacker to abandon the darce and seek a different position. This window closes permanently once the figure-four grip is secured.",
-          "answer_line": "Extract near arm, grip own wrist",
-          "distractors": {
-            "plausible": [
-              "Posture up to break the grip",
-              "Push attacker's head away"
-            ],
-            "trap": [
-              "Wait for figure-four then defend"
-            ]
-          }
-        },
-        {
-          "question": "Why is pulling away from the darce counterproductive, and what should you do instead?",
-          "answer": "Pulling away opens the neck-armpit channel wider by stretching your neck away from your shoulder, allowing the attacker's forearm blade to seat deeper across the carotid. The correct response is to move toward the attacker by turning your torso into the choking arm and collapsing the distance between your neck and their arm. This reduces the perpendicular angle needed for effective compression and creates space for arm recovery while preserving top position.",
-          "answer_line": "Turn into the arm, close distance",
-          "distractors": {
-            "plausible": [
-              "Pull straight back to create space",
-              "Push down and turtle harder"
-            ],
-            "trap": [
-              "Yank neck away from the arm"
-            ]
-          }
-        },
-        {
-          "question": "How does defending the darce switch from buggy choke differ from defending a standard darce entry?",
-          "answer": "You start on top with your head and an arm already enclosed by the bottom player's Buggy loop. Their change to a darce requires opening the raised-leg connection and building a different arm grip. That change may create an early defensive opportunity, but the original restraint can remain partly closed. Watch the actual enclosure instead of assuming a fixed time gap or that top position makes the neck safe.",
-          "answer_line": "Leg loop opens for a new arm grip",
-          "distractors": {
-            "plausible": [
-              "Both entries have identical timing",
-              "Standard entry has bigger gap"
-            ],
-            "trap": [
-              "Ignore the gap, defend late"
+              "It ends every attack from there"
             ]
           }
         }
       ],
       "strength": {
-        "attacker": -0.094,
-        "defender": 0.094
+        "attacker": -0.126,
+        "defender": 0.126
       }
     },
     "switch-to-darce-configuration/attacker": {
@@ -665973,8 +665365,8 @@
       "fromPosition": "Buggy Choke",
       "fromPositionId": "buggy-choke",
       "fromRole": "bottom",
-      "endingPosition": "darce-control/top",
-      "endingPositionPath": "Darce-Control",
+      "endingPosition": "front-headlock/top",
+      "endingPositionPath": "Front-Headlock",
       "successRate": 40.0,
       "successRateByRuleset": {
         "gi": 40.0,
@@ -665982,171 +665374,124 @@
       },
       "flashcards": [
         {
-          "question": "From buggy choke bottom, what opening should you check before attempting the darce switch?",
-          "answer": "Check whether the top player's reaction exposes an armpit-to-neck path with the arm sufficiently separated for threading. You begin underneath side control with a Buggy arm-and-leg loop, not a collar grip above a turtle. A turn alone is insufficient: if the path stays closed, retain the Buggy loop and re-read the reaction.",
-          "answer_line": "Reaction opens armpit-to-neck path",
+          "question": "From bottom Buggy Choke, what reaction tells you to switch toward the D'Arce?",
+          "answer": "The top player postures up, or presses up with both hands, to escape the Buggy. That lift is the trigger: it makes space under their stomach for your far hand. If they stay low and heavy, keep the Buggy.",
+          "answer_line": "They posture up or press up",
           "distractors": {
             "plausible": [
-              "Opponent postures up fully",
-              "Far arm drops to defend"
+              "They flatten out and stay heavy",
+              "They turn their back to you"
             ],
             "trap": [
-              "Assume a top ride already exists"
+              "Any movement at all"
             ]
           }
         },
         {
-          "question": "What threading path makes the darce switch mechanically available?",
-          "answer": "The darce threads under the opponent's far armpit first and then wraps around the neck. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. If the far armpit is closed, keep the Buggy loop and re-read the opponent's reaction. The threading direction determines whether the darce is mechanically available.",
-          "answer_line": "Darce threads armpit, then neck",
+          "question": "During the switch, what do you keep and what do you let go?",
+          "answer": "Keep your arm around their head and trapped arm the whole way. Let go only of the Buggy's connection to your raised leg.",
+          "answer_line": "Keep head and arm; release the leg",
           "distractors": {
             "plausible": [
-              "Darce wraps neck before armpit",
-              "Choose darce when near arm trapped"
+              "Keep the leg; release the head",
+              "Release both, then regrip"
             ],
             "trap": [
-              "Always choose darce when available"
+              "Hold everything and squeeze harder"
             ]
           }
         },
         {
-          "question": "They clamp the far elbow to their ribs as you thread for the darce—how do you adjust?",
-          "answer": "Keep the Buggy loop and re-read the opponent's reaction. The far elbow has closed the darce threading path, so retain control from underneath side control and reassess the opening before trying the switch again.",
-          "answer_line": "Keep Buggy loop, re-read",
+          "question": "Where does your far hand go before you let go of the leg?",
+          "answer": "Under their stomach or armpit, through the space their posture opens. Reach under first, then release the leg, so the loop never opens with nothing replacing it.",
+          "answer_line": "Under their stomach or armpit",
           "distractors": {
             "plausible": [
-              "Force the thread through anyway",
-              "Lock figure-four before threading"
+              "Behind their far knee",
+              "Onto their far wrist"
             ],
             "trap": [
-              "Release all grips and disengage"
+              "Nowhere: release the leg first"
             ]
           }
         },
         {
-          "question": "Why must the choking arm thread deep under the far armpit before locking the figure-four?",
-          "answer": "Insufficient threading depth means the forearm blade does not seat fully across the throat against the near-side carotid artery. A shallow darce creates a loose grip where the opponent can posture up, create space between your forearm and their neck, or strip the grip entirely. Deep threading ensures the wrist bone and forearm blade create a tight seal across the carotid that cannot be relieved by head movement or posture changes.",
-          "answer_line": "Deep seal locks blade on carotid",
+          "question": "After you let go of the leg, how do you get out from underneath?",
+          "answer": "Run or spin your legs through and walk your feet away, rotating out from under them until you reach their head. The grip change alone leaves you on the bottom.",
+          "answer_line": "Run legs through, walk to the head",
           "distractors": {
             "plausible": [
-              "Speed matters more than depth",
-              "Lock figure-four immediately"
+              "Bridge them straight over",
+              "Shrimp back to closed guard"
             ],
             "trap": [
-              "Grip the far wrist loosely"
+              "Wait for them to roll you over"
             ]
           }
         },
         {
-          "question": "What role does the opponent's trapped near arm play in the darce choke mechanics?",
-          "answer": "The trapped near arm acts as a compression fulcrum. The choking arm compresses one carotid from the front, while the opponent's own trapped shoulder drives into the opposite carotid as the figure-four tightens. Without this trapped arm, the darce becomes a one-sided neck pressure that is far easier to defend and significantly less likely to produce a tap from bilateral blood restriction.",
-          "answer_line": "Bilateral compression fulcrum",
+          "question": "Where does Switch to Darce Configuration end in this graph?",
+          "answer": "At the opponent's head in a front headlock (Front Headlock/Top), with them bent forward on their knees and the head and arm still held. The D'Arce is attacked from there as the next move.",
+          "answer_line": "Front headlock, at their head",
           "distractors": {
             "plausible": [
-              "Only stops the escape",
-              "Handle to pull them down"
+              "Top Darce Control, choke locked",
+              "Side control on top"
             ],
             "trap": [
-              "Release the trapped arm early"
+              "Still underneath, in the Buggy"
             ]
           }
         },
         {
-          "question": "From top darce control, how do you generate finishing pressure without arm strength alone?",
-          "answer": "Walk your hips toward the opponent's head while sprawling your legs back to create a perpendicular angle between your body and theirs. This uses body weight and gravity to drive the figure-four compression downward through the grip structure. The elbows squeeze together to eliminate slack, but the actual finishing force comes from the sprawl pressure and hip angle, not from bicep squeezing. This makes the choke sustainable and mechanically efficient.",
-          "answer_line": "Walk hips, sprawl legs, angle body",
+          "question": "They pull the head and arm free as you release the leg. Where are you?",
+          "answer": "Underneath side control. The connection you needed is gone and they keep their weight on you, so frame and protect your inside space instead of chasing the neck.",
+          "answer_line": "Underneath side control",
           "distractors": {
             "plausible": [
-              "Squeeze biceps as hard as possible",
-              "Pull head down with the grip"
+              "In a front headlock",
+              "Back in the Buggy"
             ],
             "trap": [
-              "Lean back and yank the arm"
+              "On top in Darce Control"
             ]
           }
         },
         {
-          "question": "They clear the Buggy loop and settle side control during your grip change; what is your response?",
-          "answer": "Protect yourself with inside frames from bottom side control. The opponent has cleared the head-and-arm loop and retained the top pin, so neither a front headlock nor a top-position reset has been established for you. Recover usable guard space before beginning a new attack.",
-          "answer_line": "Recover inside frames from bottom",
+          "question": "They stay low and heavy and never posture up. What do you do?",
+          "answer": "Keep the Buggy. The switch needs them to lift; without that there is no space under their stomach and nothing to come out through.",
+          "answer_line": "Keep the Buggy and wait",
           "distractors": {
             "plausible": [
-              "Force the darce thread anyway",
-              "Release everything and reset neutral"
+              "Let go of the leg anyway",
+              "Reach for the far knee"
             ],
             "trap": [
-              "Assume you are now in top guard"
-            ]
-          }
-        },
-        {
-          "question": "What starting control and opening are needed for the darce switch from buggy choke bottom?",
-          "answer": "Start underneath side control with a same-side Buggy arm-and-leg loop around the opponent's head and arm. Their reaction must leave an accessible armpit-to-neck path while you retain useful contact. The switch requires a new arm enclosure; reaching the top Darce Control outcome additionally requires a real positional change.",
-          "answer_line": "Bottom Buggy loop; open armpit path",
-          "distractors": {
-            "plausible": [
-              "Only need opponent to turtle up",
-              "Far arm trapped tight to ribs"
-            ],
-            "trap": [
-              "Release all control to reposition"
-            ]
-          }
-        },
-        {
-          "question": "Why coordinate release of the Buggy leg connection with the new darce arm entry?",
-          "answer": "Opening the leg connection before an arm path is available gives the top player room to free the head and restore side-control pressure. Check the opening first and preserve useful head-and-arm contact through the change. If the far armpit stays closed, retain the Buggy loop and reassess instead of abandoning it for an unavailable grip.",
-          "answer_line": "Keep contact through the grip change",
-          "distractors": {
-            "plausible": [
-              "Pause to confirm grip is secure",
-              "Release leg well before threading"
-            ],
-            "trap": [
-              "Let opponent settle then attack"
-            ]
-          }
-        },
-        {
-          "question": "Your darce is locked but they roll to their back to kill the sprawl finish—what do you adjust?",
-          "answer": "Follow the roll and maintain the darce grip throughout. The darce finishes effectively from the chest-to-chest position with the opponent on their back, and in some cases the finishing angle improves because gravity assists the compression. Walk your hips to maintain perpendicular pressure and continue squeezing. Do not release the grip to chase a top position—the darce is viable from multiple angles once the figure-four is fully locked.",
-          "answer_line": "Follow the roll, keep squeezing",
-          "distractors": {
-            "plausible": [
-              "Release grip to regain top position",
-              "Loosen the figure-four to follow"
-            ],
-            "trap": [
-              "Abandon choke, pass to side control"
+              "Force the rotation out now"
             ]
           }
         }
       ],
       "commonCounters": [
         {
-          "technique": "Opponent tucks chin hard and clamps far elbow tight to ribs, denying the armpit threading path during the redirect phase",
+          "technique": "The top player stays low and heavy and never postures, so the trigger does not appear",
           "effectiveness": 70,
           "resultPosition": "buggy-choke"
         },
         {
-          "technique": "Opponent extracts their near arm from the trapped position before the figure-four grip is secured, eliminating the compression fulcrum",
+          "technique": "The top player drops back down before your far hand gets under their stomach, closing the space",
+          "effectiveness": 50,
+          "resultPosition": "buggy-choke"
+        },
+        {
+          "technique": "The top player pulls the head and arm free as the leg lets go and settles their weight back on you",
           "effectiveness": 70,
-          "resultPosition": "buggy-choke"
-        },
-        {
-          "technique": "Opponent clears the head-and-arm enclosure during the grip transition and settles their weight back into side control",
-          "effectiveness": 50,
-          "resultPosition": "buggy-choke"
-        },
-        {
-          "technique": "Opponent keeps the elbow tight and maintains top pressure, closing the space needed for the darce arm to thread",
-          "effectiveness": 50,
           "resultPosition": "buggy-choke"
         }
       ],
       "outcomes": [
         {
-          "to": "darce-control/top",
+          "to": "front-headlock/top",
           "probability": 40,
           "probabilityByRuleset": {
             "gi": 40,
@@ -666173,7 +665518,7 @@
           "result": "counter"
         }
       ],
-      "strength": -0.094
+      "strength": -0.126
     },
     "switch-to-darce-configuration/defender": {
       "name": "Switch to Darce Configuration",
@@ -666194,72 +665539,72 @@
       },
       "flashcards": [
         {
-          "question": "On top inside the Buggy loop, what signals a darce switch and how should you respond?",
-          "answer": "The bottom player begins releasing the arm connection to their raised leg and directs the arm toward your exposed armpit. Keep that elbow close to the ribs to deny the new path while preserving a balanced top base. React before the separate head-and-arm loop closes; a collar release across your back is not the starting cue here.",
-          "answer_line": "Clamp far elbow to ribs instantly",
+          "question": "On top inside the Buggy, what does posturing up give the bottom player?",
+          "answer": "Space under your stomach. Posturing up, or pressing up with both hands, is the trigger for this switch: their far hand reaches under, the leg lets go and they come out from under to your head.",
+          "answer_line": "Space to switch to a front headlock",
           "distractors": {
             "plausible": [
-              "Wait to confirm grip is locked",
-              "Turn head away from choking arm"
+              "A clean escape from the Buggy",
+              "A chance to pass to mount"
             ],
             "trap": [
-              "Pull head back to create space"
+              "Nothing; posture is always safe"
             ]
           }
         },
         {
-          "question": "How can the Buggy-to-darce grip change let you retain top side control?",
-          "answer": "If the bottom player opens the original loop before the new grip closes, use the available space to recover the head and arm. Stabilize side control only after the neck is clear. You begin on top, so this response preserves the pin rather than sitting to guard; a partial release is not proof that the choke has gone.",
-          "answer_line": "Clear loop; retain top side control",
+          "question": "What are the signs that the Buggy is turning into a front headlock?",
+          "answer": "Their far hand slides under your stomach or armpit, the connection to their raised leg lets go while the arm stays around your head and arm, and their legs run through as they come out from under toward your head.",
+          "answer_line": "Hand under, leg off, legs through",
           "distractors": {
             "plausible": [
-              "Wait for figure-four before reacting",
-              "Sit to guard with your neck caught"
+              "They tighten the leg connection",
+              "They reach for your far ankle"
             ],
             "trap": [
-              "Hesitate to read the position"
+              "They stop moving and wait"
             ]
           }
         },
         {
-          "question": "They are threading under your far armpit but the figure-four is not locked—your best defense?",
-          "answer": "Extract the trapped near arm immediately by gripping your own wrist with your free hand and pulling the arm out of the darce channel. The near arm serves as the compression fulcrum that makes the darce a bilateral choke rather than a one-sided squeeze. Removing this arm before the figure-four locks eliminates the choke mechanics entirely, forcing the attacker to abandon the darce and seek a different position. This window closes permanently once the figure-four grip is secured.",
-          "answer_line": "Extract near arm, grip own wrist",
+          "question": "When is the best moment to free your head and arm?",
+          "answer": "As the leg connection lets go. The loop is then held by the arm alone, and freeing the head and arm before they reach your head keeps you on top in side control.",
+          "answer_line": "When their leg lets go",
           "distractors": {
             "plausible": [
-              "Posture up to break the grip",
-              "Push attacker's head away"
+              "Before they ever lock the Buggy",
+              "After they reach your head"
             ],
             "trap": [
-              "Wait for figure-four then defend"
+              "Never; just stay heavy"
             ]
           }
         },
         {
-          "question": "Why is pulling away from the darce counterproductive, and what should you do instead?",
-          "answer": "Pulling away opens the neck-armpit channel wider by stretching your neck away from your shoulder, allowing the attacker's forearm blade to seat deeper across the carotid. The correct response is to move toward the attacker by turning your torso into the choking arm and collapsing the distance between your neck and their arm. This reduces the perpendicular angle needed for effective compression and creates space for arm recovery while preserving top position.",
-          "answer_line": "Turn into the arm, close distance",
+          "question": "They come out from under and reach your head. Where are you?",
+          "answer": "Bent forward on your knees in their front headlock, with your head and arm still trapped. The D'Arce is their next attack from there.",
+          "answer_line": "In their front headlock",
           "distractors": {
             "plausible": [
-              "Pull straight back to create space",
-              "Push down and turtle harder"
+              "Still on top in side control",
+              "In their closed guard"
             ],
             "trap": [
-              "Yank neck away from the arm"
+              "Already in a locked D'Arce"
             ]
           }
         },
         {
-          "question": "How does defending the darce switch from buggy choke differ from defending a standard darce entry?",
-          "answer": "You start on top with your head and an arm already enclosed by the bottom player's Buggy loop. Their change to a darce requires opening the raised-leg connection and building a different arm grip. That change may create an early defensive opportunity, but the original restraint can remain partly closed. Watch the actual enclosure instead of assuming a fixed time gap or that top position makes the neck safe.",
-          "answer_line": "Leg loop opens for a new arm grip",
+          "question": "Does staying low end the Buggy threat?",
+          "answer": "Staying low gives them no space to switch, but the Buggy is still on: it stops this move, not the choke you are already in.",
+          "answer_line": "No: stops the switch, not the choke",
           "distractors": {
             "plausible": [
-              "Both entries have identical timing",
-              "Standard entry has bigger gap"
+              "Yes, the Buggy needs you to posture",
+              "Yes, once you are flat it is over"
             ],
             "trap": [
-              "Ignore the gap, defend late"
+              "It ends every attack from there"
             ]
           }
         }
@@ -666267,7 +665612,7 @@
       "commonCounters": [],
       "outcomes": [
         {
-          "to": "darce-control/bottom",
+          "to": "front-headlock/bottom",
           "probability": 40,
           "probabilityByRuleset": {
             "gi": 40,
@@ -666294,7 +665639,7 @@
           "result": "success"
         }
       ],
-      "strength": 0.094
+      "strength": 0.126
     },
     "new-york-entry-from-rubber-guard": {
       "name": "New York Entry from Rubber Guard",
@@ -804450,9 +803795,9 @@
     }
   },
   "meta": {
-    "generated": "2026-10-27T03:00:02.449487Z",
+    "generated": "2026-10-28T01:32:48.310404Z",
     "positionCount": 397,
-    "transitionCount": 3009,
+    "transitionCount": 3006,
     "submissionCount": 923,
     "principleCount": 63,
     "systemCount": 83,

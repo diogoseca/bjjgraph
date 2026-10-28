@@ -4,7 +4,7 @@
 
 ---
 title: "Switch to Darce Configuration | BJJ Technique | BJJ Graph"
-description: "Learn Switch to Darce Configuration from bottom Buggy Choke. Seek an open darce arm path; top control is also required. Success: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "Learn Switch to Darce Configuration from bottom Buggy Choke: as the top player postures up, keep the head and arm, let go of the leg and come out to a front headlock."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Switch to Darce Configuration from bottom Buggy Choke. Seek 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Switch to Darce Configuration",
-  "description": "Learn Switch to Darce Configuration from bottom Buggy Choke. Seek an open darce arm path; top control is also required. Success: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Learn Switch to Darce Configuration from bottom Buggy Choke: as the top player postures up, keep the head and arm, let go of the leg and come out to a front headlock.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -43,7 +43,7 @@ description: "Learn Switch to Darce Configuration from bottom Buggy Choke. Seek 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Switch to Darce Configuration",
-  "description": "Switch to Darce Configuration begins with the bottom player's Buggy loop and seeks a separate head-and-arm grip when the armpit opens; reaching Darce Control/Top also requires establishing top control.",
+  "description": "From bottom Buggy Choke, when the top player postures or presses up to escape, keep the head and arm, reach the far hand under their stomach, let go of the leg and come out from under to their head: a front headlock, where the D'Arce is attacked next.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -61,13 +61,13 @@ description: "Learn Switch to Darce Configuration from bottom Buggy Choke. Seek 
 
 <section id="overview" class="content-section">
 
-**Switch to Darce Configuration begins with the bottom player's Buggy loop and seeks a separate head-and-arm grip when the armpit opens; reaching Darce Control/Top also requires establishing top control.**
+**From bottom Buggy Choke, when the top player postures or presses up to escape, keep the head and arm, reach the far hand under their stomach, let go of the leg and come out from under to their head: a front headlock, where the D'Arce is attacked next.**
 
-Within the buggy choke attack tree, this switch starts with the attacking player underneath side control, holding a same-side arm-and-leg loop around the top player's head and arm. Read the opponent's movement against that loop and check whether it opens the armpit-to-neck channel. The original control uses the raised leg, not a collar grip. Replacing it with a darce requires releasing the leg connection and establishing a separate arm enclosure through the accessible armpit and around the neck; an opponent's turn alone does not establish that new grip.
+Switch to Darce Configuration starts underneath side control with the Buggy Choke: the bottom player's arm wraps the top player's head and one arm and connects to their own raised leg. The switch answers one reaction. When the top player postures up, or presses up with both hands, to escape the Buggy, keep the arm around the head and arm and reach the far hand through under their stomach or armpit. Then let go of the leg connection and come out from under: run or spin the legs through and walk the feet away until you are at the opponent's head, with them bent forward on their knees.
 
-The darce configuration is mechanically distinct from the anaconda because the choking arm enters under the opponent's far armpit first and then wraps around the neck, whereas the anaconda wraps the neck first and connects under the armpit. This threading direction means the darce is favored when the opponent's far arm is elevated or posted wide, creating space under the armpit for arm insertion. The Buggy loop does not already supply that arm path: the raised leg must be released and the new head-and-arm enclosure established without assuming top control.
+That landing is a front headlock, Front Headlock/Top in the graph. The grip change alone does not put the bottom player on top; coming out from under is a separate movement, and it is the part this move counts. The D'Arce is attacked from the front headlock, by Front Headlock to Darce or Darce Setup, so it stays one move away instead of being assumed here.
 
-This transition depends on the opponent's arm position and the space their reaction actually creates. If the armpit stays closed, keep the Buggy loop and re-read the reaction. The darce configuration uses the attacking forearm and the opponent's trapped shoulder on opposite sides of the neck. Its grip does not by itself reverse the players: Darce Control/Top requires the former bottom player to establish top control as well. Sprawl and hip-walk details apply only after that top position has been reached, as a separate finishing continuation. If the opponent clears the loop and retains the pin, the attacker remains underneath side control.
+If the top player stays low and never postures, keep the Buggy. If they free the head and arm as the leg lets go and keep their weight on you, you are left underneath in side control.
 
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
 **Success Rate**: 40%
@@ -82,7 +82,7 @@ This transition depends on the opponent's arm position and the space their react
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Darce Control]] | 40% |
+| Success | [[Positions/Front Headlock]] | 40% |
 | Failure | [[Positions/Buggy Choke]] | 40% |
 | Counter | [[Positions/Side Control]] | 20% |
 
@@ -96,8 +96,8 @@ This transition depends on the opponent's arm position and the space their react
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Read the opponent's rotation toward the choking arm as the t... | Recognize the release of the Buggy leg connection and the ne... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | The trigger is the top player posturing up or pressing up wi... | Posturing up or pressing up with both hands is what opens th... |
+| **Options** | 6 execution steps | 3 defensive options |
 
 </section>
 
@@ -110,53 +110,47 @@ This transition depends on the opponent's arm position and the space their react
 ### Key Principles
 
 
-- Read the opponent's rotation toward the choking arm as the trigger to initiate the darce switch rather than forcing the original buggy choke angle
+- The trigger is the top player posturing up or pressing up with both hands to escape the Buggy; do not start the switch against a flat, heavy top player
 
-- Release the Buggy leg connection only for an available head-and-arm entry, then redirect the arm through the exposed armpit and around the neck
+- Keep the arm around the head and arm for the whole switch; the leg connection is the only thing you let go
 
-- Thread the choking arm under the opponent's far armpit first, then wrap around the back of the neck to establish the darce arm path
+- Reach the far hand under their stomach or armpit before you let go of the leg
 
-- Lock the figure-four grip with the choking arm's hand gripping your own bicep and the support arm's hand pressing the opponent's head or trapped shoulder down
+- Coming out from under is its own movement: run or spin the legs through and walk the feet away until you are at their head
 
-- Maintain head-and-arm contact and protect inside space from underneath; a grip change alone does not provide chest-to-back pressure or top control
-
-- Use sprawl and hip-walk mechanics only after top Darce Control is separately established; they are not available from the bottom Buggy starting position
-
-- Prioritize threading depth over speed—a shallow darce grip that does not fully encircle the neck-armpit channel will not generate bilateral carotid compression
+- The switch ends at the head in a front headlock; the D'Arce is attacked from there as the next move, not assumed during the switch
 
 
 ### Execution Steps
 
 
-- **Recognize rotation trigger**: Feel how the top player moves against your Buggy loop and check whether their reaction exposes the a...
+- **Feel the posture**: Hold the Buggy and feel for the top player posturing up, or pressing up with both hands, to escape i...
 
-- **Release leg connection and redirect arm**: Open the arm connection to your raised leg without pulling the foot against the knee. Redirect the a...
+- **Keep the head and arm**: Keep your arm wrapped around their head and trapped arm. This connection stays on through every late...
 
-- **Thread under far armpit**: Thread through the available armpit first and then around the neck, only while that path is open. Wo...
+- **Reach under the stomach**: As they lift, bring your far hand through underneath their stomach or armpit. Their posture is what ...
 
-- **Secure opponent's head position**: Use your support arm (the arm that was not threading) to cup the back of the opponent's head or pres...
+- **Let go of the leg**: Release the Buggy's connection to your raised leg. Only the leg comes off; the arm around the head a...
 
-- **Lock figure-four grip**: Connect the figure-four by gripping your own bicep with the choking arm's hand while the support arm...
+- **Come out from under**: Run or spin your legs through and walk your feet away, rotating out from underneath them instead of ...
 
-- **Consolidate darce control position**: Walk your hips toward the opponent's head and sprawl your legs back to create a perpendicular angle ...
-
-- **Verify top Darce Control**: Squeeze your elbows together while maintaining the sprawl and hip angle to finish the darce choke. I...
+- **Arrive at the head**: Finish the rotation at their head, with them bent forward on their knees: a front headlock, the head...
 
 
 ### Common Mistakes
 
 
-- **Abandoning the Buggy leg connection and all head-and-arm contact before the new threading path is available**
-  - Consequence: Opponent clears the loop and settles side-control pressure while the bottom player has neither the original Buggy enclosure nor a new darce grip
-  - Correction: Confirm the armpit opening before releasing the leg connection, preserve useful contact during the arm change and keep inside space protected from underneath
+- **Starting the switch while the top player is flat and heavy**
+  - Consequence: There is no space under their stomach and nothing to come out through, so the Buggy is given up for nothing
+  - Correction: Wait for them to posture up or press up with both hands; that is the trigger
 
-- **Attempting the darce switch when the opponent has not rotated and the far armpit remains closed**
-  - Consequence: The threading path does not exist, resulting in a shallow grip that cannot generate choking pressure and wasting the existing buggy choke position
-  - Correction: Only initiate the darce switch when you feel genuine rotation toward your choking arm and the far arm is posted or elevated. If the opponent is static, maintain the buggy choke or wait for a defensive reaction
+- **Letting go of the leg before the far hand is under their stomach or armpit**
+  - Consequence: The loop opens with nothing replacing it, and the top player can clear the head and arm
+  - Correction: Reach under first, then let go of the leg
 
-- **Threading the choking arm too shallow under the far armpit without achieving full neck encirclement**
-  - Consequence: The grip cannot lock at the correct depth, creating a loose darce that the opponent easily defends by posturing up or stripping with minimal effort
-  - Correction: Drive the choking arm deep under the far armpit until the forearm blade seats fully across the throat against the near-side carotid. Prioritize depth over speed for reliable finishing pressure
+- **Letting the head and arm go during the rotation**
+  - Consequence: You come out without the connection that makes the front headlock, or stay underneath side control
+  - Correction: Keep the arm around the head and arm from the first step to the last
 
 
 </section>
@@ -170,39 +164,35 @@ This transition depends on the opponent's arm position and the space their react
 ### Key Principles
 
 
-- Recognize the release of the Buggy leg connection and the new arm path as the cue to deny the darce entry while the enclosure remains open
+- Posturing up or pressing up with both hands is what opens the switch: your escape attempt is its trigger
 
-- Clamp the far elbow tight to the ribs as the primary defense to deny the armpit threading path that the darce requires for arm insertion
+- Their far hand reaching under your stomach or armpit is the first sign
 
-- Maintain a balanced top base with the head aligned and elbows compact to deny the arm path while the bottom player changes grips
+- The leg letting go is the moment the loop is weakest; free the head and arm then
 
-- Use the grip transition to clear the head and arm and retain side control, rather than sitting to guard as though you began underneath
+- If they come out from under, you end bent forward in their front headlock with the head and arm still trapped
 
-- If the darce arm begins threading, immediately work to extract the near arm from the trapped position to eliminate the compression fulcrum that makes the choke functional
-
-- Move toward the attacker rather than away when the darce begins locking, as turning into the choke reduces the choking angle and creates space for arm extraction
+- Staying low denies the switch but leaves the Buggy on; it is not an escape by itself
 
 
 ### Recognition Cues
 
 
-- The bottom player releases the arm connection to their raised leg and redirects that arm toward your exposed armpit, signaling a change from the Buggy loop to a separate head-and-arm grip
+- Their far hand slides under your stomach or armpit as you lift
 
-- You feel the high leg connection loosen as the bottom player adjusts underneath you and reaches for the new arm path; your starting position is still top side control
+- The Buggy's connection to their raised leg lets go while their arm stays around your head and arm
 
-- The incoming hand probes beneath the accessible armpit before wrapping around the neck; this arm-first route distinguishes the darce enclosure from a neck-first anaconda entry
-
-- The arm-and-leg Buggy restraint begins to open while a new arm loop forms around the neck and trapped shoulder; neither a collar release nor a top turtle ride supplies this change
+- Their legs run or spin through and their feet walk away as they rotate out from under you toward your head
 
 
 ### Defensive Options
 
 
-- **Clamp far elbow tight to ribs and tuck chin to deny the armpit threading path during the attacker's arm redirect phase** - When: As the bottom player releases the Buggy leg connection and begins directing the arm toward your exposed armpit, before the new loop closes
+- **Stay low and keep your weight on them instead of posturing up** - When: While you are inside the Buggy and have not yet lifted
 
-- **Clear the head-and-arm enclosure while the leg connection opens, then retain balanced side-control pressure with the neck free** - When: When the bottom player opens the Buggy loop before establishing a new darce grip and enough space remains to recover the enclosed head and arm
+- **Drop back down onto them before their far hand gets under your stomach** - When: As soon as you feel the far hand reaching under during your posture
 
-- **Extract the trapped near arm by gripping your own wrist with your free hand and pulling the arm out of the darce channel before the figure-four locks** - When: When the attacker has already threaded under the far armpit but has not yet locked the figure-four grip. This is the last high-percentage defensive window before the darce fully consolidates
+- **Free your head and arm as the leg connection lets go, then settle your weight back into side control** - When: When their leg releases and they have not yet come out from under
 
 
 </section>
@@ -213,13 +203,13 @@ This transition depends on the opponent's arm position and the space their react
 ## Variations
 
 
-**No-gi palm-to-palm darce switch**: The initial bottom Buggy control uses the same-side arm-and-leg loop in no-gi; it does not depend on collar access. The darce switch uses a gable grip or palm-to-palm connection rather than the classical figure-four, with the choking arm's wrist bone driving into the carotid. The no-gi version often requires faster execution because grips are less secure without fabric friction. (When to use: No-gi practice after the Buggy leg connection opens and a separate darce arm path is available)
+**D'Arce finished from underneath**: Some demonstrations never come out from under. After the far hand goes under the stomach and the leg lets go, the legs run through and the D'Arce is locked and finished with the bottom player still on their side or back. The graph has no node for that branch; this move ends at the front headlock. (When to use: When the top player postures up and the D'Arce can be locked before coming out; not modelled by this edge)
 
 
-**Darce switch with roll-through finish**: After separately reaching top darce control over a turtled opponent, instead of finishing with a static sprawl, immediately roll the opponent to their back upon locking the figure-four. The rolling motion breaks the turtle base and places you chest-to-chest with the opponent on their back, where gravity assists the darce compression from a mounted angle. (When to use: After reaching top control, when the opponent maintains a strong turtle base that resists top sprawl pressure, or when a fast finish is needed before they can process the grip change and implement escape movements)
+**Ghost escape to the D'Arce**: From the first Buggy frame, the bottom player escapes out from under side control (a ghost escape) and goes to the D'Arce from there. Instructional chapter lists name this route; it is a variant of coming out from under, not a separate landing. (When to use: When the bottom player can get out from under side control before the top player postures)
 
 
-**Shallow darce to front headlock transition**: From an independently established top head-and-arm position, when the darce threading achieves partial but insufficient depth to lock the figure-four for a finish, convert the position to a front headlock by walking to the opponent's head side. The partial arm threading provides neck control for snapdowns, guillotine attempts, or anaconda entries from the front headlock angle. (When to use: After top head-and-arm access is established, when the far armpit threading is partially blocked and full darce depth cannot be achieved, but neck contact has been established)
+**Roll over to finish on top**: With a D'Arce already locked from underneath side control, rolling the opponent over, toward the side where they have no hand posted, ends with the attacker on top. It is a second movement after the grip, not part of this switch. (When to use: When a D'Arce is locked from underneath and a finish on top is wanted)
 
 
 
@@ -231,7 +221,7 @@ This transition depends on the opponent's arm position and the space their react
 
 ## Position Integration
 
-The Switch to Darce Configuration begins with the Buggy holder underneath side control and seeks a separate head-and-arm enclosure. The arm-and-leg loop must change into an arm grip through an available armpit; it is not a collar-based turtle attack. The retained destination is Darce Control/Top, so both the new grip and an actual change to top control are required. Sprawl or roll-through finishing details belong after that destination is established. When the armpit stays closed, retain the Buggy loop and re-read the reaction. If the opponent clears the loop and preserves the pin, the attacker remains in Side Control/Bottom. Related front-headlock, crucifix or back-control entries have their own prerequisites and are not supplied by a failed switch.
+Switch to Darce Configuration links Buggy Choke/Bottom to Front Headlock/Top. It is the bottom player's answer when the top player postures or presses up to escape the Buggy: keep the head and arm, reach under the stomach, let go of the leg and come out from under to the head. From Front Headlock/Top the graph continues to Darce Control/Top through Front Headlock to Darce and Darce Setup. A failed switch leaves the Buggy in place (Buggy Choke/Bottom); if the top player clears the head and arm and keeps the pin, the attacker stays in Side Control/Bottom.
 
 </section>
 
@@ -241,25 +231,27 @@ The Switch to Darce Configuration begins with the Buggy holder underneath side c
 ## Related Techniques
 
 
-- [[Positions/Buggy Choke]] - Starting position and control structure from which the darce switch initiates
+- [[Positions/Buggy Choke]] - Starting position: the bottom player's arm-and-leg loop around the top player's head and arm, released at the leg during this switch
 
-- [[Positions/Darce Control]] - Target position achieved upon successful grip reconfiguration to darce and a separate change to top control
+- [[Positions/Front Headlock]] - Landing position: out from under, at the opponent's head with them bent forward on their knees
 
-- [[Submissions/Darce Choke]] - Primary submission finish available from the darce control position
+- [[Transitions/Front Headlock to Darce]] - Next move: attacks the D'Arce from the front headlock this switch reaches
 
-- [[Positions/Anaconda Control]] - Alternative control position when anaconda angle is favored over darce
+- [[Transitions/Darce Setup]] - Next move: the graph's other D'Arce entry from the front headlock
 
-- [[Transitions/Buggy Choke to Front Headlock]] - Related top-player escape from the Buggy loop; compare its separate role and headlock prerequisites
+- [[Positions/Darce Control]] - Reached from the front headlock by a separate move, not by this switch
 
-- [[Positions/Front Headlock]] - Related head-control configuration with its own positional prerequisites; not supplied by a failed bottom Buggy switch
+- [[Submissions/Darce Choke]] - The finish attacked once Darce Control is established from the front headlock
 
-- [[Submissions/Buggy Choke/from Buggy Choke]] - Alternative path when opponent remains static and original choke angle is maintained
+- [[Submissions/Buggy Choke/from Buggy Choke]] - The Buggy finish from the same starting position; this switch is the option when the top player postures up
 
-- [[Transitions/Darce from Turtle]] - Related darce entry from standard turtle top without buggy choke intermediate
+- [[Transitions/Buggy Choke to Front Headlock]] - The top player's own route from the same Buggy to a front headlock; here the bottom player comes out to the head instead
 
-- [[Transitions/Front Headlock to Darce]] - Related darce entry from front headlock for cross-reference
+- [[Positions/Anaconda Control]] - Another head-and-arm choke control the graph reaches from the front headlock
 
-- [[Submissions/Arm in Guillotine]] - Alternative submission when darce grip fails but neck access is maintained
+- [[Transitions/Darce from Turtle]] - Related D'Arce entry from turtle top, without the Buggy
+
+- [[Submissions/Arm in Guillotine]] - Another neck attack the graph offers from the front headlock
 
 - [[Positions/Crucifix]] - Related arm-isolation configuration requiring its own rear attachment; a posted arm alone does not establish it from bottom Buggy control
 
