@@ -12875,7 +12875,8 @@ Function; and `/Tree` must stay at the edge because `Tree.html` is built and onl
 Shipped: `_redirects` lists every exact rule first (1,794 static) plus the three wildcards that must stay at the edge
 (`/Training/*`, `/l/*` — the 200 rewrite share links need with no Function — and `/Tree/*`): **static 1,794/2,000 ·
 dynamic 3/100**. The 104 Title-Case category wildcards go to `static/redirect-fallback.json` (10.5 KB, 1.7 KB gzip),
-which `site/redirect-fallback.mjs` consults from the middleware only after the asset server's 404; `_routes.json`
+which `site/redirect-fallback.mjs` consulted from the middleware after the asset server's 404 (first push; see RDR-R2
+below for the order that shipped); `_routes.json`
 already sends `/Positions/*`, `/Transitions/*`, `/Submissions/*` to it, so no new invocation. The 53 lowercase
 retirement wildcards are no longer emitted: 0 of 5,807 page paths in content/'s whole history sit under any of them,
 the one frozen-base source that does keeps its exact rule, and the ordinal lockfile holds only Title-Case ids.
@@ -12897,3 +12898,23 @@ the last fallback wildcards (`X-Redirect-Source: fallback` required), retries a 
 an empty URL. `tests/redirect_fallback.test.mjs` holds the JS matcher to the Python port (832 requests, 104 rules).
 Mutants, each red at a named test: a dynamic rule on line 1, 101 dynamic (and 81, the floor), 2,001 static, the
 emitter's split removed, a probe with no probes, `--probe ""`, a no-op probe step in deploy-dev.yaml.
+
+**RDR-R2: redirect first, from a bundled table.** The independent review (MERGE WITH FOLLOW-UPS; its oracle over 22,359
+paths found no drift) raised one MEDIUM: a 404-only fallback misses Cloudflare's retention of removed pages, which can
+serve 200 `noindex` for up to ~7 days, where the old edge rules ran before any page lookup. Now:
+- **Bundled table.** `functions/_middleware.js` imports the build's `static/redirect-fallback.json`, so wrangler inlines
+  it: `pages functions build` (wrangler 4.154.0) compiles it, and esbuild's bundle is 29.9 KB with all 208 rules.
+  There is no runtime fetch, and a build without the table cannot bundle.
+- **Answered first.** The middleware answers every category path from the table before `context.next()`.
+- **Exact rules too.** The table holds every category rule, exact ones as well (104 exact + 104 wildcard, exact first).
+  With wildcards alone, an entry's exact rule (`/Submissions/Marce-Choke/from-Side-Control`) would lose to its family
+  wildcard. The exact rules stay in `_redirects` too, so `_redirects` and the census are unchanged.
+- **Results.** 4,124 paths compared, 0 differ; 102/102 retired ordinals redirect. New gate, no shadowing: 0 of 5,830
+  built category page URLs match any of the 208 rules. Its mutant on the real tree (`/Positions/Mount/*`) shadows 31.
+- **Real runtime.** On wrangler `pages dev` (workerd), which reported "Parsed 1797 valid redirect rules", the probe
+  answered 8 of 8: the four table probes with `X-Redirect-Source`, a live page (`/Positions/Rubber-Guard/Crackhead-Control`)
+  200, an unknown path 404.
+- **LOW items.** The port refuses dot segments that climb past or collapse to the root, and placeholder values carrying
+  `$&`, `` $` ``, `$'` or `$$`. `resolve()` follows handler.ts for queries and absolute targets. The docstring now says
+  Cloudflare parses `_redirects` server-side. Added: a test for an empty file in `--file` mode, and probe mutants on the
+  real YAML.

@@ -12,7 +12,9 @@ TARGET is built, so every gate stayed green while ~1,850 rules were dead (CLAUDE
 produced a plausible answer).
 
 WHAT THIS IS. An exact Python port of Cloudflare's own code, pinned to workers-sdk commit
-fc57bc0e03b096cff58e949e67ccfb9f7832a3c2 (main, 2026-10-28), which `wrangler pages deploy` runs:
+fc57bc0e03b096cff58e949e67ccfb9f7832a3c2 (main, 2026-10-28). `wrangler pages deploy` uploads `_redirects`
+as raw text and Cloudflare parses it server-side; `wrangler pages dev` runs these same files locally
+(wrangler 4.154.0 reported "Parsed 1797 valid redirect rules" on this build, the count the port gives):
   - packages/workers-shared/utils/configuration/parseRedirects.ts       -> parse_redirects()
   - packages/workers-shared/utils/configuration/constants.ts            -> the MAX_* and regex constants
   - packages/workers-shared/utils/configuration/validateURL.ts          -> validate_url(), extract_pathname()
@@ -26,9 +28,11 @@ added inline comments. Re-pin by diffing those five files at a newer commit, nev
 WHAT THE PORT REFUSES. `validateUrl` normalises a path through WHATWG `new URL()`. The port implements
 that parser's steps for these inputs: the `?`/`#` split, the path, query and fragment percent-encode
 sets of a non-special URL (UTF-8 for anything non-ASCII), dot-segment removal, and trailing C0
-stripping. Two shapes it does not model, a path starting with `//` and a `^` (runtimes encode it
-differently), make the gate FAIL naming the line instead of guessing. tests/redirect_limits_test.py
-replays upstream's own parseRedirects.{valid,invalid}.test.ts vectors against it.
+stripping. Shapes it does not model make the gate FAIL naming the line instead of guessing: a path
+starting with `//`, a `^` (runtimes encode it differently), dot segments that climb past the root or
+leave nothing (`/..`, `/a/..`), and a placeholder value carrying a JS replacement pattern (`$&`, `` $` ``,
+`$'`, `$$`, which String#replaceAll expands). tests/redirect_limits_test.py replays upstream's own
+parseRedirects.{valid,invalid}.test.ts vectors against it.
 
 WHAT IT CHECKS, on the BUILT file (source/public/_redirects, the deploy root Cloudflare reads):
   - no line is invalid or skipped by the parser, and the file parses at least one rule;
@@ -39,24 +43,28 @@ WHAT IT CHECKS, on the BUILT file (source/public/_redirects, the deploy root Clo
     free dynamic slots it fails, so the next retirement wave cannot walk the file back to the edge.
 It prints `static N/2000 · dynamic M/100 · skipped 0 · parsed T of T`.
 
-AND THE FALLBACK TABLE (static/redirect-fallback.json, consulted by site/redirect-fallback.mjs after
-the asset server answers 404). On the built tree it also checks that:
-  - the table parses, through this same port, into wildcard redirects only, every one of them under
-    a path the built `_routes.json` sends to the Pages middleware (a rule outside it never fires);
-  - no built file sits under a fallback wildcard (the asset would now win where the rule used to);
+AND THE CATEGORY TABLE (static/redirect-fallback.json: every rule under /Positions, /Transitions and
+/Submissions, exact first; functions/_middleware.js bundles it and site/redirect-fallback.mjs answers
+from it BEFORE `context.next()`, the order Cloudflare's own redirects had). On the built tree it also
+checks that:
+  - the table parses, through this same port, into redirects under those three prefixes, exact rules
+    ahead of wildcards, every one under a path the built `_routes.json` sends to the middleware;
+  - NO SHADOWING: no table rule matches a URL a built page answers at (it would hide a live page);
+    it prints how many page URLs it tested and fails on any match, naming each, and on zero;
   - EVERY rule source, every wildcard with sample children ("", Attacker, Defender, Top, Bottom,
-    x/y) and every retired ordinal's URL ends at the same place through the two layers
-    (`_redirects` -> assets -> fallback) as through the one unlimited list regenerate_redirects.py
-    builds (Cloudflare's own first-match semantics, no limits). It prints how many it compared and
-    fails on any difference and on zero.
+    x/y) and every retired ordinal's URL ends at the same place through the two layers (table ->
+    `_redirects` -> assets) as through the one unlimited list regenerate_redirects.py builds
+    (Cloudflare's own first-match semantics, no limits). It prints how many it compared and fails on
+    any difference and on zero.
 
 --source checks the same against a fresh emit of regenerate_redirects.py into a temp dir, with the
 pages and folders content/ would build standing in for the built tree (no build; ci-validate.yml
 runs it). --probe BASE_URL requests, on a live deployment, the LAST static rule, the LAST dynamic
-rule with a child path, one lowercase alias rule, the last exact category rule, and the last fallback
+rule with a child path, one lowercase alias rule, the last exact category rule and the last category
 wildcards (plus any --probe-path), and asserts each answers 301/308 with the Location this port
-computes, the fallback ones with `X-Redirect-Source: fallback` and the others without it; an unknown
-category path must stay a plain 404. It counts its probes and fails on zero and on an empty URL.
+computes, the table's with `X-Redirect-Source: fallback` and the others without it. A live category
+page no rule covers must serve 200, and an unknown category path must stay a plain 404. It counts its
+probes and fails on zero and on an empty URL.
 
 Usage:
   python3 scripts/check_redirect_limits.py [--public DIR | --source]   # the full gate
@@ -157,23 +165,34 @@ def _percent_encode(text: str, encode_set: set[str]) -> str:
 
 
 def _remove_dot_segments(path: str) -> str:
-    """WHATWG path state for a non-special URL whose path starts with '/'."""
+    """WHATWG path state for a non-special URL whose path starts with '/'.
+
+    A path whose dot segments climb past the root or leave nothing (`/..`, `/a/..`, `/a/../..`,
+    `/.`) is REFUSED: what such a request is depends on who normalised it first (client, edge,
+    runtime), and no rule here needs one (RDR-R2)."""
     out: list[str] = []
+    dotted = False
     segments = path[1:].split("/")
     for i, seg in enumerate(segments):
         last = i == len(segments) - 1
         low = seg.lower()
         if low in ("..", ".%2e", "%2e.", "%2e%2e"):
-            if out:
-                out.pop()
+            dotted = True
+            if not out:
+                raise UnportedURL(f"{path!r} climbs above the root; not ported")
+            out.pop()
             if last:
                 out.append("")
         elif low in (".", "%2e"):
+            dotted = True
             if last:
                 out.append("")
         else:
             out.append(seg)
-    return "/" + "/".join(out)
+    result = "/" + "/".join(out)
+    if dotted and not result.strip("/"):
+        raise UnportedURL(f"{path!r} reduces to nothing; not ported")
+    return result
 
 
 def extract_pathname(path: str = "/", include_search: bool = False, include_hash: bool = False) -> str:
@@ -375,14 +394,23 @@ class Redirects:
             return None
         to = rule.to
         for name, value in groups.items():  # replacer(): every ":name" occurrence, in group order
-            to = to.replace(":" + name, value or "")
-        if rule.status == 200 or url_has_host(to):
-            return rule.status, to, rule
-        # new URL(to, request.url): `to` is a relative path; same origin keeps the request's search.
-        dest = extract_pathname(to, True, True)
-        dest_path, _, dest_hash = dest.partition("#")
+            value = value or ""
+            # JS String#replaceAll expands these in a STRING replacement; Python's replace does not.
+            if any(pattern in value for pattern in ("$&", "$`", "$'", "$$")):
+                raise UnportedURL(f"the :{name} value {value!r} carries a JS replacement pattern; not ported")
+            to = to.replace(":" + name, value)
+        if rule.status == 200:
+            return rule.status, to, rule  # a rewrite: the asset at `to` is served, no Location
+        # handler.ts: new URL(to, request.url). The target's own query, if it has one, wins over the
+        # request's; otherwise the request's query is kept. Same for an absolute (cross-origin)
+        # target, which keeps its scheme and host. The corpus has neither today; both are ported.
+        host = _URL_REGEX.match(to)
+        rest = extract_pathname(host.group("path") if host and host.group("host") else to, True, True)
+        dest_path, _, dest_hash = rest.partition("#")
         dest_path, _, dest_search = dest_path.partition("?")
-        location = dest_path + ("?" + dest_search if dest_search else search) + ("#" + dest_hash if dest_hash else "")
+        origin = f"https://{host.group('host')}" if host and host.group("host") else ""
+        location = (origin + dest_path + ("?" + dest_search if dest_search else search)
+                    + ("#" + dest_hash if dest_hash else ""))
         return rule.status, location, rule
 
 
@@ -452,10 +480,16 @@ def emit_from_source(directory: Path) -> Path:
     return directory / "_redirects"
 
 
-# ---- the two layers: _redirects, then assets, then the middleware's fallback --------------------
+# ---- the two layers: the middleware's category table, then _redirects, then assets ---------------
+
+# regenerate_redirects.FALLBACK_PREFIXES and site/redirect-fallback.mjs CATEGORY_PREFIXES.
+CATEGORY_PREFIXES = ("/Positions/", "/Transitions/", "/Submissions/")
+
 
 def load_fallback(text: str) -> tuple[list[str], Parsed, Redirects]:
-    """The fallback table, read through the same port: wildcard redirects only, in table order."""
+    """The category table, read through the same port: redirects under the three category prefixes
+    only, exact rules first and then wildcards, in table order (site/redirect-fallback.mjs reads it
+    the same way, as constructRedirects would)."""
     failures: list[str] = []
     try:
         data = json.loads(text)
@@ -477,11 +511,14 @@ def load_fallback(text: str) -> tuple[list[str], Parsed, Redirects]:
     redirects = construct(parsed)
     failures += [f"FALLBACK UNPORTED {u}" for u in parsed.unported]
     failures += [f"FALLBACK INVALID line {e.get('lineNumber', '?')}: {e['message']}" for e in parsed.invalid]
-    failures += [f"FALLBACK row {r.line_number}: {r.source} is not a wildcard; exact rules belong in _redirects"
-                 for r in redirects.static.values()]
+    failures += [f"FALLBACK row {r.line_number}: exact rule {r.source} follows a wildcard; list exact rules first"
+                 for r in redirects.demoted]
     failures += [f"FALLBACK row {r.line_number}: {r.source} does not compile" for r in redirects.uncompiled]
-    failures += [f"FALLBACK row {r.line_number}: status {r.status} is not a redirect" for _, r in redirects.dynamic
+    every = list(redirects.static.values()) + [r for _, r in redirects.dynamic]
+    failures += [f"FALLBACK row {r.line_number}: status {r.status} is not a redirect" for r in every
                  if r.status not in REDIRECT_STATUSES]
+    failures += [f"FALLBACK row {r.line_number}: {r.source} is outside {', '.join(CATEGORY_PREFIXES)}, which the "
+                 f"middleware alone consults" for r in every if not r.source.startswith(CATEGORY_PREFIXES)]
     return failures, parsed, redirects
 
 
@@ -521,8 +558,18 @@ class Assets:
             return p + "index.html" in self.files or p[:-1] + ".html" in self.files
         return p + ".html" in self.files or p + "/index.html" in self.files
 
-    def under(self, prefix: str) -> list[str]:
-        return sorted(f for f in self.files if f.startswith(prefix))
+    def page_urls(self) -> list[str]:
+        """Every URL a built page answers 200 at: /X for X.html, /X/ for X/index.html, and every
+        other built file at its own path."""
+        urls = set()
+        for f in self.files:
+            if f.endswith("/index.html"):
+                urls.add(f[: -len("index.html")])
+            elif f.endswith(".html"):
+                urls.add(f[: -len(".html")])
+            else:
+                urls.add(f)
+        return sorted(urls)
 
 
 def middleware_categories() -> tuple[str, ...]:
@@ -577,16 +624,32 @@ def unified_outcome(path: str, unified: Redirects, assets: Assets) -> tuple:
 
 
 def layered_outcome(path: str, edge: Redirects, fallback: Redirects, assets: Assets, routes: Routes) -> tuple:
-    hit = _outcome(edge.resolve(path))
-    if hit != ("none",):
-        return hit
-    if assets.answers(path):
-        return ("asset",)
+    """A request as Pages serves it now: a path the middleware runs on (`_routes.json`) and whose
+    category it handles is answered from the bundled table FIRST (site/redirect-fallback.mjs, before
+    `context.next()`); everything else reaches the asset server, which applies `_redirects` before
+    any page, as Cloudflare always did."""
     if routes.reach_fallback(path):
         hit = _outcome(fallback.resolve(path))
         if hit != ("none",):
             return hit
-    return ("404",)
+    hit = _outcome(edge.resolve(path))
+    if hit != ("none",):
+        return hit
+    return ("asset",) if assets.answers(path) else ("404",)
+
+
+def shadowed_pages(fallback: Redirects, assets: Assets) -> tuple[list[str], int]:
+    """(offenders, page URLs inspected): a table rule matching a URL a built page answers at. The
+    middleware answers the table before any page lookup, so such a rule would hide a LIVE page."""
+    urls = [u for u in assets.page_urls() if u.startswith(CATEGORY_PREFIXES)]
+    offenders = []
+    for url in urls:
+        rule = fallback.static.get(url)
+        if rule is None:
+            rule = next((r for rx, r in fallback.dynamic if rx.match(url)), None)
+        if rule is not None:
+            offenders.append(f"{url} (row {rule.line_number}: {rule.source} -> {rule.to})")
+    return offenders, len(urls)
 
 
 def probe_paths(rules: list[Rule]) -> list[str]:
@@ -618,21 +681,25 @@ def audit_layers(edge: Redirects, fallback_parsed: Parsed, fallback: Redirects, 
     unified_parsed = parse_redirects("\n".join(unified_lines), max_static=10**9, max_dynamic=10**9)
     unified = construct(unified_parsed)
     failures += [f"UNIFIED INVALID {e['message']}" for e in unified_parsed.invalid]
-    for _, rule in fallback.dynamic:
-        prefix = rule.source.split("*")[0]
-        sample = prefix + "Attacker"
+    for rule in list(fallback.static.values()) + [r for _, r in fallback.dynamic]:
+        sample = rule.source.split("*")[0] + ("Attacker" if "*" in rule.source else "")
         if not routes.reach_fallback(sample):
             failures.append(f"FALLBACK row {rule.line_number}: {rule.source} is outside {routes.origin}, "
                             f"so the middleware never sees {sample}")
-        shadowed = assets.under(prefix)
-        if shadowed:
-            failures.append(f"FALLBACK row {rule.line_number}: {len(shadowed)} built file(s) under {prefix} "
-                            f"(e.g. {shadowed[0]}) would now be served instead of redirected")
+    # NO SHADOWING (RDR-R2): a table rule that matches a live page would redirect it away.
+    offenders, inspected = shadowed_pages(fallback, assets)
+    for offender in offenders[:20]:
+        failures.append(f"SHADOW a category rule matches the built page {offender}")
+    if len(offenders) > 20:
+        failures.append(f"SHADOW ... and {len(offenders) - 20} more")
+    if inspected == 0:
+        failures.append(f"SHADOW 0 built category pages to inspect in {assets.origin}: nothing was checked")
     paths = probe_paths(unified_parsed.rules)
     retired = retired_ordinal_paths() if retired is None else retired
     paths = list(dict.fromkeys(paths + retired))
     counts = {"compared": 0, "redirect": 0, "rewrite": 0, "asset": 0, "404": 0, "differ": 0,
-              "retired": len(retired), "retired_redirect": 0}
+              "retired": len(retired), "retired_redirect": 0, "shadow_rules": len(fallback.static) + len(fallback.dynamic),
+              "shadow_pages": inspected, "shadowed": len(offenders)}
     retired_set = set(retired)
     for path in paths:
         try:
@@ -672,50 +739,70 @@ CATEGORY_PROBE_ROOTS = ("Positions", "Transitions", "Submissions")
 UNKNOWN_PROBE = "/Positions/No-Such-Page-rdr546-probe"
 
 
-def choose_probes(edge: Redirects, fallback: Redirects) -> list[tuple[str, str, str]]:
-    """(label, request path, layer): the LAST static rule, the LAST dynamic rule with a child, one
-    alias rule, the last exact category rule (an edge redirect passing through the middleware), and
-    the LAST fallback wildcard with a child plus the last one that keeps :splat. probe() adds an
-    unknown category path that must stay a plain 404."""
-    probes: list[tuple[str, str, str]] = []
+def choose_probes(edge: Redirects, fallback: Redirects, assets: "Assets | None" = None) -> list[tuple[str, str]]:
+    """(label, request path): the LAST static rule, the LAST dynamic rule with a child, one alias
+    rule, the last exact category rule, the LAST category wildcard with a child plus the last one
+    that keeps :splat, and a live category page no rule covers (it must serve 200, never redirect).
+    probe() adds an unknown category path that must stay a plain 404, and computes which layer must
+    answer each one."""
+    probes: list[tuple[str, str]] = []
     redirecting = [r for r in edge.static.values() if r.status in REDIRECT_STATUSES]
     if redirecting:
         last = max(redirecting, key=lambda r: r.line_number)
-        probes.append((f"last static rule (line {last.line_number})", last.source, "edge"))
+        probes.append((f"last static rule (line {last.line_number})", last.source))
     wild = [r for _, r in edge.dynamic if r.status in REDIRECT_STATUSES and r.source.endswith("/*")]
     if wild:
         last = max(wild, key=lambda r: r.line_number)
-        probes.append((f"last dynamic rule (line {last.line_number}) with a child", last.source[:-1] + "Attacker", "edge"))
+        probes.append((f"last dynamic rule (line {last.line_number}) with a child", last.source[:-1] + "Attacker"))
     alias = next((r for r in sorted(redirecting, key=lambda r: -r.line_number)
                   if r.source == r.source.lower() and r.to != r.to.lower()
                   and r.source.rsplit("/", 1)[-1] != r.to.rsplit("/", 1)[-1].lower()), None)
     if alias:
-        probes.append((f"alias rule (line {alias.line_number})", alias.source, "edge"))
-    category = [r for r in redirecting if r.source != r.source.lower() and r.source.split("/")[1:2]
-                and r.source.split("/")[1] in CATEGORY_PROBE_ROOTS]
-    if category:
-        last = max(category, key=lambda r: r.line_number)
-        probes.append((f"exact category rule (line {last.line_number}) through the middleware", last.source, "edge"))
+        probes.append((f"alias rule (line {alias.line_number})", alias.source))
+    exact = sorted(fallback.static.values(), key=lambda r: r.line_number)
+    if exact:
+        probes.append((f"last exact category rule (table row {exact[-1].line_number})", exact[-1].source))
     rows = [r for _, r in fallback.dynamic if r.source.endswith("/*")]
     if rows:
-        probes.append((f"last fallback rule (row {rows[-1].line_number}) with a child", rows[-1].source[:-1] + "Attacker",
-                       "fallback"))
+        probes.append((f"last category wildcard (table row {rows[-1].line_number}) with a child",
+                       rows[-1].source[:-1] + "Attacker"))
         splat = [r for r in rows if ":splat" in r.to]
         if splat and splat[-1] is not rows[-1]:
-            probes.append((f"last fallback :splat rule (row {splat[-1].line_number})", splat[-1].source[:-1] + "Defender",
-                           "fallback"))
+            probes.append((f"last category :splat wildcard (table row {splat[-1].line_number})",
+                           splat[-1].source[:-1] + "Defender"))
+    if assets is not None:
+        live = next((t for t in (r.to for r in sorted(exact + rows, key=lambda r: -r.line_number))
+                     if ":" not in t and t.startswith(CATEGORY_PREFIXES) and t + ".html" in assets.files
+                     and expected_answer(t, edge, fallback)[0] == "page"), None)
+        if live:
+            probes.append(("live category page no rule covers", live))
     return probes
 
 
-def probe(base_url: str, edge: Redirects, fallback: Redirects, extra: list[str], attempts: int, wait: float) -> int:
+def expected_answer(path: str, edge: Redirects, fallback: Redirects) -> tuple[str, str]:
+    """(layer, location) the deployment must give: the category table first for its prefixes (the
+    middleware, with X-Redirect-Source), then _redirects (the asset server, without it), else "page"
+    (a 200 from the asset server; the caller decides whether a page exists)."""
+    if path.startswith(CATEGORY_PREFIXES):
+        hit = fallback.resolve(path)
+        if hit:
+            return "fallback", hit[1]
+    hit = edge.resolve(path)
+    if hit:
+        return "edge", hit[1]
+    return "page", ""
+
+
+def probe(base_url: str, edge: Redirects, fallback: Redirects, extra: list[str], attempts: int, wait: float,
+          assets: "Assets | None" = None) -> int:
     opener = urllib.request.build_opener(_NoRedirect)
     expected: list[tuple[str, str, str, str]] = []
-    for label, path, layer in choose_probes(edge, fallback):
-        hit = (edge if layer == "edge" else fallback).resolve(path)
-        if hit is None or hit[0] not in (301, 308):
+    for label, path in choose_probes(edge, fallback, assets):
+        layer, location = expected_answer(path, edge, fallback)
+        if layer != "page" and (fallback if layer == "fallback" else edge).resolve(path)[0] not in (301, 308):
             print(f"{TAG} FAIL the port does not resolve its own probe {path} to a 301/308", file=sys.stderr)
             return 1
-        expected.append((label, path, hit[1], layer))
+        expected.append((label, path, location, layer))
     for item in extra:
         path, _, location = item.partition("=")
         if not path.startswith("/") or not location.startswith("/"):
@@ -725,7 +812,7 @@ def probe(base_url: str, edge: Redirects, fallback: Redirects, extra: list[str],
     if not expected:
         print(f"{TAG} FAIL 0 probes chosen: nothing would be requested", file=sys.stderr)
         return 1
-    if edge.resolve(UNKNOWN_PROBE) is None and fallback.resolve(UNKNOWN_PROBE) is None:
+    if expected_answer(UNKNOWN_PROBE, edge, fallback)[0] == "page":
         expected.append(("unknown category path", UNKNOWN_PROBE, "404", "none"))
 
     def request(url: str) -> tuple[int, str, str]:
@@ -742,6 +829,8 @@ def probe(base_url: str, edge: Redirects, fallback: Redirects, extra: list[str],
         status, got, source = result
         if layer == "none":
             return status == 404 and not got and not source
+        if layer == "page":
+            return status == 200 and not got and not source
         if status not in (301, 308) or re.sub(r"^https?://[^/]+", "", got) != location:
             return False
         return layer == "any" or (source == "fallback") == (layer == "fallback")
@@ -758,7 +847,7 @@ def probe(base_url: str, edge: Redirects, fallback: Redirects, extra: list[str],
         passed += ok
         print(f"{TAG} {'ok  ' if ok else 'FAIL'} {label}: {path} -> {result[0]} {result[1] or '-'}"
               f"{' [' + FALLBACK_HEADER + ': ' + result[2] + ']' if result[2] else ''} "
-              f"(expected {'a plain 404' if layer == 'none' else f'301/308 {location} from the {layer} layer'})")
+              f"(expected {'a plain 404' if layer == 'none' else 'a 200 page' if layer == 'page' else f'301/308 {location} from the {layer} layer'})")
         if not ok:
             failures.append(path)
     print(f"{TAG} live probe: {passed} of {len(expected)} probes answered as the parser port predicts on {base_url}")
@@ -805,6 +894,7 @@ def run(args) -> int:
               f"{MAX_DYNAMIC_REDIRECT_RULES - len(edge.dynamic) - len(edge.uncompiled)} "
               f"(workers-sdk {UPSTREAM_COMMIT[:9]}) — {origin}")
         fallback = None
+        probe_assets = None
         if public is not None:
             table = public / FALLBACK_REL
             if not table.is_file():
@@ -815,7 +905,7 @@ def run(args) -> int:
                 if args.source:
                     assets, routes = Assets.from_content(), Routes.from_source()
                 else:
-                    assets = Assets.built(public)
+                    assets = probe_assets = Assets.built(public)
                     routes = Routes.built(public) if (public / "_routes.json").is_file() else None
                     if routes is None:
                         failures.append(f"{public / '_routes.json'} is missing: run this after "
@@ -824,11 +914,13 @@ def run(args) -> int:
                     layer_failures, counts = audit_layers(edge, fallback_parsed, fallback, assets, routes,
                                                           unified_rules())
                     failures += layer_failures
-                    print(f"{TAG} fallback {len(fallback.dynamic)} wildcard rule(s) · "
-                          f"{counts['compared']} paths compared against the one unlimited list "
-                          f"({counts['redirect']} redirect, {counts['rewrite']} rewrite, {counts['asset']} asset, "
-                          f"{counts['404']} 404) · {counts['differ']} differ · retired ordinals "
-                          f"{counts['retired_redirect']} of {counts['retired']} redirect — {assets.origin}")
+                    print(f"{TAG} category table {len(fallback.static)} exact + {len(fallback.dynamic)} wildcard "
+                          f"rule(s), answered before any page · {counts['compared']} paths compared against the "
+                          f"one unlimited list ({counts['redirect']} redirect, {counts['rewrite']} rewrite, "
+                          f"{counts['asset']} asset, {counts['404']} 404) · {counts['differ']} differ · retired "
+                          f"ordinals {counts['retired_redirect']} of {counts['retired']} redirect — {assets.origin}")
+                    print(f"{TAG} no shadowing: {counts['shadowed']} of {counts['shadow_pages']} built category "
+                          f"page URLs match any of the {counts['shadow_rules']} table rules")
     if failures:
         for f in failures:
             print(f"{TAG} FAIL {f}", file=sys.stderr)
@@ -838,7 +930,7 @@ def run(args) -> int:
         if fallback is None:
             print(f"{TAG} FAIL --probe needs the built tree's fallback table", file=sys.stderr)
             return 1
-        return probe(args.probe, edge, fallback, args.probe_path, max(1, args.attempts), args.wait)
+        return probe(args.probe, edge, fallback, args.probe_path, max(1, args.attempts), args.wait, probe_assets)
     return 0
 
 

@@ -55,7 +55,7 @@ def published_text(public: Path) -> str:
     """Every published rule: `_redirects` plus the fallback table's wildcards (v1.237.2, RDR546).
 
     Cloudflare cannot hold every wildcard in `_redirects`, so regenerate_redirects.py moves the
-    category ones to static/redirect-fallback.json and the Pages middleware serves them after a 404.
+    category rules to static/redirect-fallback.json, which the Pages middleware bundles and answers first.
     A base emitter that predates the split writes no table; today's always does, and without it the
     moved wildcards read as vanished sources here, never as preserved ones."""
     text = (public / "_redirects").read_text()

@@ -1,4 +1,4 @@
-import { redirectFallback } from "./redirect-fallback.mjs";
+import { categoryRedirect, compileRules } from "./redirect-fallback.mjs";
 
 // Only explicit Markdown preferences opt in; ordinary browser Accept stays HTML.
 export function prefersMarkdown(accept = "") {
@@ -55,14 +55,28 @@ const SECURITY_HEADERS = {
     "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data: https: blob:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://assets.mediadelivery.net https://www.youtube.com https://s.ytimg.com https://cdn.jsdelivr.net https://*.posthog.com https://*.i.posthog.com https://www.clarity.ms https://static.cloudflareinsights.com https://*.bjjgraph.org; connect-src 'self' https://api.github.com https://*.supabase.co https://*.posthog.com https://*.i.posthog.com https://www.clarity.ms https://cloudflareinsights.com https://*.bjjgraph.org; worker-src 'self' blob:; manifest-src 'self'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://iframe.mediadelivery.net https://player.mediadelivery.net",
 };
 
-export async function onRequest(context) {
+// The Function entry (functions/_middleware.js) passes the build's own category redirect table,
+// bundled at deploy time. Without one this is pure content negotiation, as tests/agent_discovery
+// exercises it.
+export function withRedirects(table) {
+  const redirects = compileRules(table);
+  return (context) => respond(context, redirects);
+}
+
+export const onRequest = withRedirects(null);
+
+async function respond(context, redirects) {
   const { request, env } = context;
   const url = new URL(request.url);
+  // A retired or renamed URL under a category answers BEFORE any page lookup, as Cloudflare's own
+  // _redirects did (v1.237.2, RDR546): _redirects cannot hold every rule (100 dynamic), and a page
+  // a deploy removed can still be served from Cloudflare's retention cache for days.
+  const moved = categoryRedirect(redirects, request, PAGE_CACHE);
   let path;
   try {
     path = decodeURIComponent(url.pathname).replace(/\/$/, "") || "/";
   } catch {
-    return context.next();
+    return moved || context.next();
   }
   const isPublic =
     path === "/" ||
@@ -75,14 +89,14 @@ export async function onRequest(context) {
     path.split("/").some((p) => p === "." || p === "..") ||
     /[\\\u0000-\u001f]/.test(path)
   ) {
-    return context.next();
+    return moved || context.next();
   }
 
-  let response;
+  let response = moved;
   let markdown = false;
   const markdownPath =
     "/markdown/" + (path === "/" ? "index" : path.slice(1)) + ".md";
-  if (prefersMarkdown(request.headers.get("accept") || "")) {
+  if (!response && prefersMarkdown(request.headers.get("accept") || "")) {
     const asset = new URL(url.origin);
     asset.pathname = markdownPath;
     // Fresh internal GET: no user credentials, Range, or HTML validators forwarded.
@@ -107,15 +121,6 @@ export async function onRequest(context) {
     }
   }
   response ||= await context.next();
-  // A retired or renamed URL under a category: Cloudflare's _redirects cannot hold every wildcard
-  // (100 dynamic rules), so they are looked up here, after the asset server's 404 (v1.237.2).
-  if (response.status === 404 && !markdown) {
-    const moved = await redirectFallback(request, env, PAGE_CACHE);
-    if (moved) {
-      await response.body?.cancel();
-      response = moved;
-    }
-  }
   const headers = new Headers(response.headers);
   for (const [key, value] of Object.entries(SECURITY_HEADERS))
     headers.set(key, value);

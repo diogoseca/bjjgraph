@@ -230,7 +230,7 @@ PR with `validate:build-shape:update`) · `validate:seo`
 crawlable-surface ratchet ·
 `validate:headers` cache/security headers · `validate:redirect-limits` the built `_redirects`
 through an exact port of Cloudflare's parser (it loads 100 wildcard rules, and every rule after
-the first wildcard counts as one), plus the category wildcards the middleware serves after a 404;
+the first wildcard counts as one), plus the category table the middleware bundles and answers first;
 `:source` is the no-build half ci-validate runs · `validate:affiliate` the product-link surface (neutral
 source, verified links) · `validate:analytics` the BUILT PostHog injection against the key its
 build ran with, plus

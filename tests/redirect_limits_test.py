@@ -260,6 +260,44 @@ class BriefMutants(unittest.TestCase):
         print("[redirect-limits] RED emitter: an unordered _redirects is refused before it is written")
 
 
+class PortRefusals(unittest.TestCase):
+    """RDR-R2 (LOW): shapes the port cannot model exactly make the gate fail, never guess."""
+
+    def test_dot_segments_that_climb_past_or_collapse_to_the_root_are_unported(self):
+        for path in ("/..", "/a/..", "/a/../..", "/."):
+            with self.subTest(path=path):
+                parsed = crl.parse_redirects(f"{path} /x 301\n")
+                self.assertEqual(parsed.rules, [])
+                self.assertEqual(len(parsed.unported), 1, parsed.unported)
+        self.assertEqual(crl.extract_pathname("/a/./b/../c"), "/a/c")
+
+    def test_a_placeholder_value_with_a_js_replacement_pattern_is_unported(self):
+        redirects = crl.construct(crl.parse_redirects("/a/* /b/:splat 301\n"))
+        for value in ("$&", "$`", "$'", "x$$y"):
+            with self.subTest(value=value), self.assertRaises(crl.UnportedURL):
+                redirects.resolve("/a/" + value)
+        self.assertEqual(redirects.resolve("/a/plain$x")[1], "/b/plain$x")
+
+    def test_resolve_is_explicit_about_queries_and_absolute_targets(self):
+        redirects = crl.construct(crl.parse_redirects(
+            "/keep/* /dest 301\n/own/* /dest?k=1 301\n/ext/* https://example.com/z 301\n/extq/* https://example.com/z?k=1#h 302\n"))
+        self.assertEqual(redirects.resolve("/keep/x", "?u=1")[1], "/dest?u=1")
+        self.assertEqual(redirects.resolve("/own/x", "?u=1")[1], "/dest?k=1")
+        self.assertEqual(redirects.resolve("/ext/x", "?u=1")[1], "https://example.com/z?u=1")
+        self.assertEqual(redirects.resolve("/extq/x", "?u=1")[1], "https://example.com/z?k=1#h")
+
+    def test_an_empty_redirects_file_fails_in_file_mode(self):
+        for text in ("", "# only a comment\n\n"):
+            with self.subTest(text=text), tempfile.TemporaryDirectory() as tmp:
+                path = Path(tmp) / "_redirects"
+                path.write_text(text)
+                with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()) as err:
+                    code = crl.run(SimpleNamespace(source=False, file=path, public=None, probe=None,
+                                                   probe_path=[], attempts=1, wait=0))
+                self.assertEqual(code, 1)
+                self.assertIn("parsed 0 rules", err.getvalue())
+
+
 class Layers(unittest.TestCase):
     def setUp(self):
         self.routes = crl.Routes(["/Positions", "/Positions/*"], [], "fixture routes")
@@ -279,24 +317,48 @@ class Layers(unittest.TestCase):
         self.assertTrue(any(f.startswith("DIFFER /Positions/Old/Top") for f in failures), failures)
         self.assertGreater(counts["compared"], 0)
 
-    def test_a_built_page_under_a_fallback_wildcard_fails(self):
+    def test_the_table_lists_exact_rules_first_so_an_entry_beats_its_family_wildcard(self):
+        # The identity block's own order: the entry's exact rule, then the family's wildcard.
+        failures, _ = self.layers(["/Positions/Fam/Entry /Positions/New-Entry 301",
+                                   "/Positions/Fam/* /Positions/New-Fam 301"])
+        self.assertEqual(failures, [])
+
+    def test_mutant_a_rule_that_matches_a_live_page_is_a_shadow(self):
         failures, _ = self.layers(["/Positions/Gone/* /Positions/Other 301"])
         self.assertEqual(failures, [])
         self.assets.files.add("/Positions/Gone/Top.html")
-        failures, _ = self.layers(["/Positions/Gone/* /Positions/Other 301"])
-        self.assertTrue(any("would now be served instead of redirected" in f for f in failures), failures)
-        self.assertTrue(any(f.startswith("DIFFER /Positions/Gone/Top") for f in failures), failures)
+        failures, counts = self.layers(["/Positions/Gone/* /Positions/Other 301"])
+        self.assertTrue(any(f.startswith("SHADOW a category rule matches the built page /Positions/Gone/Top")
+                            for f in failures), failures)
+        self.assertEqual(counts["shadowed"], 1)
+        failures, _ = self.layers(["/Positions/Mount /Positions/Other 301"])  # an exact rule on a live page
+        self.assertTrue(any("built page /Positions/Mount (" in f for f in failures), failures)
 
-    def test_a_live_hub_beside_a_fallback_wildcard_is_a_difference(self):
-        # /Positions/Mount/ 308s to the flat Mount.html, so the asset server never 404s and the
-        # fallback cannot fire there, where the old single list redirected it.
-        failures, _ = self.layers(["/Positions/Mount/* /Positions/Other 301"])
-        self.assertTrue(any(f.startswith("DIFFER /Positions/Mount/:") for f in failures), failures)
+    def test_no_page_to_inspect_is_not_a_clean_shadow_check(self):
+        self.assets = crl.Assets({"/index.html"}, "no category pages")
+        failures, _ = self.layers(["/Positions/Gone/* /Positions/Other 301"])
+        self.assertTrue(any("nothing was checked" in f for f in failures), failures)
 
     def test_a_fallback_rule_outside_the_routes_fails(self):
         self.routes = crl.Routes(["/Transitions/*"], [], "fixture routes")
         failures, _ = self.layers(["/Positions/Old/* /Positions/Mount 301"])
         self.assertTrue(any("never sees" in f for f in failures), failures)
+
+    def test_mutant_on_the_real_tree_a_pattern_over_a_live_page(self):
+        import regenerate_redirects as rr
+        unified = crl.unified_rules() + ["/Positions/Mount/* /Positions/Side-Control 301"]
+        edge_lines, table = rr.split_rules(unified)
+        _, _, edge = crl.audit("\n".join(edge_lines) + "\n", "edge")
+        _, parsed, fallback = crl.load_fallback(rr.fallback_json(table))
+        failures, counts = crl.audit_layers(edge, parsed, fallback, crl.Assets.from_content(), crl.Routes.from_source(),
+                                            unified)
+        shadows = [f for f in failures if f.startswith("SHADOW")]
+        self.assertTrue(shadows, "the gate must fail on a pattern over live pages")
+        offenders, _ = crl.shadowed_pages(fallback, crl.Assets.from_content())
+        self.assertTrue(any(o.startswith("/Positions/Mount/Top (") for o in offenders), offenders[:3])
+        self.assertEqual(counts["shadowed"], len(offenders))
+        print(f"[redirect-limits] RED a pattern over live pages: {counts['shadowed']} of {counts['shadow_pages']} "
+              f"category page URLs shadowed, e.g. {shadows[0]}")
 
     def test_the_real_source_emit_passes_and_counts(self):
         out, err = io.StringIO(), io.StringIO()
@@ -306,6 +368,7 @@ class Layers(unittest.TestCase):
         self.assertEqual(code, 0, err.getvalue())
         self.assertRegex(out.getvalue(), r"skipped 0 · parsed (\d+) of \1")
         self.assertRegex(out.getvalue(), r"[1-9]\d* paths compared .* · 0 differ · retired ordinals (\d+) of \1 redirect")
+        self.assertRegex(out.getvalue(), r"no shadowing: 0 of [1-9]\d* built category page URLs match any of the [1-9]\d* table rules")
         print("[redirect-limits]", out.getvalue().strip().replace("\n", " | "))
 
 
@@ -338,6 +401,7 @@ class LiveProbe(unittest.TestCase):
         edge_lines, table = rr.split_rules(unified)
         _, _, cls.edge = crl.audit("\n".join(edge_lines) + "\n", "edge")
         _, _, cls.fallback = crl.load_fallback(rr.fallback_json(table))
+        cls.assets = crl.Assets.from_content()
 
     def run_probe(self, behaviour, edge=None, extra=()):
         server = serve(behaviour)
@@ -345,49 +409,62 @@ class LiveProbe(unittest.TestCase):
         out, err = io.StringIO(), io.StringIO()
         with redirect_stdout(out), redirect_stderr(err):
             code = crl.probe(f"http://127.0.0.1:{server.server_port}", edge or self.edge, self.fallback,
-                             list(extra), attempts=1, wait=0)
+                             list(extra), attempts=1, wait=0, assets=self.assets)
         return code, out.getvalue() + err.getvalue()
 
-    def both_layers(self, path):
+    def pages(self, path):
+        """Pages as served now: the category table first (the middleware), then _redirects, then pages."""
+        if path.startswith(crl.CATEGORY_PREFIXES):
+            hit = self.fallback.resolve(path)
+            if hit:
+                return hit[0], {"Location": hit[1], crl.FALLBACK_HEADER: "fallback"}
         hit = self.edge.resolve(path)
         if hit:
             return hit[0], {"Location": hit[1]}
-        hit = self.fallback.resolve(path)
-        if hit:
-            return hit[0], {"Location": hit[1], crl.FALLBACK_HEADER: "fallback"}
-        return 404, {}
+        return (200, {}) if self.assets.answers(path) else (404, {})
 
     def test_a_deployment_that_serves_both_layers_passes_every_probe(self):
-        code, output = self.run_probe(self.both_layers)
+        code, output = self.run_probe(self.pages)
         self.assertEqual(code, 0, output)
-        passed = int(output.split("live probe: ")[1].split(" of ")[0])
-        self.assertGreaterEqual(passed, 4, output)
-        for label in ("last static rule", "last dynamic rule", "alias rule", "exact category rule",
-                      "last fallback rule", "unknown category path"):
+        for label in ("last static rule", "last dynamic rule", "alias rule", "last exact category rule",
+                      "last category wildcard", "live category page no rule covers", "unknown category path"):
             self.assertIn(label, output)
+        self.assertRegex(output, r"live probe: (\d+) of \1 probes answered")
         print("[redirect-limits] probe control:", output.strip().splitlines()[-1])
 
-    def test_a_deployment_without_the_fallback_fails(self):
-        code, output = self.run_probe(lambda p: self.both_layers(p) if self.edge.resolve(p) else (404, {}))
+    def test_a_deployment_without_the_table_fails(self):
+        # The middleware's table is gone: exact category rules still 301 from _redirects, without the
+        # header, and the wildcards 404, as on the live sites before this change.
+        code, output = self.run_probe(lambda p: (self.edge.resolve(p)[0], {"Location": self.edge.resolve(p)[1]})
+                                      if self.edge.resolve(p) else ((200, {}) if self.assets.answers(p) else (404, {})))
         self.assertEqual(code, 1, output)
+        self.assertIn("FAIL last category wildcard", output)
 
     def test_a_fallback_that_redirects_everything_fails(self):
         # Every positive probe passes on such a deployment; only the unknown path can see it.
-        code, output = self.run_probe(lambda p: self.both_layers(p) if self.both_layers(p)[0] != 404
+        code, output = self.run_probe(lambda p: self.pages(p) if self.pages(p)[0] != 404
                                       else (301, {"Location": "/", crl.FALLBACK_HEADER: "fallback"}))
         self.assertEqual(code, 1, output)
         self.assertIn("FAIL unknown category path", output)
         print("[redirect-limits] RED a fallback that redirects every unknown path")
 
+    def test_a_table_that_redirects_a_live_page_fails(self):
+        code, output = self.run_probe(lambda p: self.pages(p) if self.pages(p)[0] != 200
+                                      else (301, {"Location": "/", crl.FALLBACK_HEADER: "fallback"}))
+        self.assertEqual(code, 1, output)
+        self.assertIn("FAIL live category page no rule covers", output)
+        print("[redirect-limits] RED a deployment that redirects a live category page")
+
     def test_a_fallback_redirect_that_does_not_say_so_fails(self):
-        code, output = self.run_probe(lambda p: (self.both_layers(p)[0], {"Location": self.both_layers(p)[1].get("Location", "")}))
+        code, output = self.run_probe(lambda p: (self.pages(p)[0], {k: v for k, v in self.pages(p)[1].items()
+                                                                   if k != crl.FALLBACK_HEADER}))
         self.assertEqual(code, 1, output)
 
     def test_mutant_a_probe_that_requests_nothing(self):
         original = crl.choose_probes
         try:
-            crl.choose_probes = lambda edge, fallback: []  # seeded mutant
-            code, output = self.run_probe(self.both_layers)
+            crl.choose_probes = lambda *args, **kwargs: []  # seeded mutant
+            code, output = self.run_probe(self.pages)
         finally:
             crl.choose_probes = original
         self.assertEqual(code, 1)
@@ -403,45 +480,60 @@ class LiveProbe(unittest.TestCase):
         print("[redirect-limits] RED probe that requests nothing: no probes chosen, and an empty URL")
 
 
+PROBE_RUN = 'run: python3 scripts/check_redirect_limits.py --probe "${{ steps.cf.outputs.deployment-url }}"'
+
+
+def wiring_failures(workflow: str, text: str) -> list[str]:
+    """Why a deploy workflow's text does not probe its own deployment after deploying, or []."""
+    import yaml
+    jobs = yaml.safe_load(text)["jobs"]
+    steps = (jobs.get("deploy") or jobs.get("deploy-preview"))["steps"]
+    failures = []
+    cf = next((i for i, s in enumerate(steps) if s.get("id") == "cf"), None)
+    probes = [(i, s) for i, s in enumerate(steps) if "check_redirect_limits.py --probe" in (s.get("run") or "")]
+    gates = [i for i, s in enumerate(steps) if "check_redirect_limits.py" in (s.get("run") or "")
+             and "--probe" not in s["run"]]
+    if cf is None:
+        return [f"{workflow}: no deploy step with id cf"]
+    if len(probes) != 1:
+        return failures + [f"{workflow}: {len(probes)} probe steps, not exactly one"]
+    index, step = probes[0]
+    if index < cf:
+        failures.append(f"{workflow}: the probe runs before the deploy")
+    if "${{ steps.cf.outputs.deployment-url }}" not in step["run"]:
+        failures.append(f"{workflow}: the probe does not request the deployment's own URL")
+    if len(gates) != 1 or gates[0] > cf:
+        failures.append(f"{workflow}: the built-tree gate must run once, before the deploy")
+    if step.get("continue-on-error"):
+        # Production: the site is live, so the verdict turns red in its own job.
+        if step.get("id") not in json.dumps(jobs["deploy"].get("outputs", {})):
+            failures.append(f"{workflow}: the probe's outcome is not a job output")
+        if f"needs.deploy.outputs.{step.get('id')}" not in json.dumps(jobs.get("deployed-console", {})):
+            failures.append(f"{workflow}: no verdict job reads the probe's outcome")
+    return failures
+
+
 class DeployWiring(unittest.TestCase):
     """The probe must actually run after both deploys, on the deployment's own URL."""
-
-    def steps(self, workflow):
-        import yaml
-        data = yaml.safe_load((ROOT / ".github/workflows" / workflow).read_text())
-        jobs = data["jobs"]
-        job = jobs.get("deploy") or jobs.get("deploy-preview")
-        return [s for s in job["steps"]], jobs
-
-    def probe_step(self, steps):
-        return [(i, s) for i, s in enumerate(steps) if "check_redirect_limits.py --probe" in (s.get("run") or "")]
 
     def test_both_deploys_probe_the_deployment_after_deploying(self):
         for workflow in ("deploy.yaml", "deploy-dev.yaml"):
             with self.subTest(workflow=workflow):
-                steps, jobs = self.steps(workflow)
-                cf = next(i for i, s in enumerate(steps) if s.get("id") == "cf")
-                found = self.probe_step(steps)
-                self.assertEqual(len(found), 1, f"{workflow}: exactly one probe step")
-                index, step = found[0]
-                self.assertGreater(index, cf, f"{workflow}: the probe runs after the deploy")
-                self.assertIn("${{ steps.cf.outputs.deployment-url }}", step["run"])
-                gate = [i for i, s in enumerate(steps) if "check_redirect_limits.py" in (s.get("run") or "")
-                        and "--probe" not in s["run"]]
-                self.assertEqual(len(gate), 1, f"{workflow}: the built-tree gate runs once")
-                self.assertLess(gate[0], cf, f"{workflow}: the built-tree gate runs before the deploy")
-                if step.get("continue-on-error"):
-                    # Production: the site is live, so the verdict turns red in its own job.
-                    self.assertIn(step["id"], json.dumps(jobs["deploy"].get("outputs", {})))
-                    verdict = json.dumps(jobs["deployed-console"])
-                    self.assertIn(f"needs.deploy.outputs.{step['id']}", verdict)
+                text = (ROOT / ".github/workflows" / workflow).read_text()
+                self.assertEqual(text.count(PROBE_RUN), 1, f"{workflow}: the probe line the mutants below edit")
+                self.assertEqual(wiring_failures(workflow, text), [])
 
-    def test_mutant_a_probe_step_that_runs_nothing_is_red(self):
-        steps, _ = self.steps("deploy-dev.yaml")
-        index, step = self.probe_step(steps)[0]
-        steps[index] = {**step, "run": "true"}  # seeded mutant
-        self.assertEqual(self.probe_step(steps), [], "the wiring test must not find a probe in a no-op step")
-        print("[redirect-limits] RED deploy step that requests nothing: the wiring test finds no probe")
+    def test_mutants_of_the_real_workflows_are_red(self):
+        # The same assertion as above, on the real YAML with one edit each (RDR-R2 INFO).
+        for workflow in ("deploy.yaml", "deploy-dev.yaml"):
+            text = (ROOT / ".github/workflows" / workflow).read_text()
+            for name, mutant in [("runs nothing", text.replace(PROBE_RUN, 'run: "true"')),
+                                 ("requests no URL", text.replace(PROBE_RUN, PROBE_RUN.replace(
+                                     ' "${{ steps.cf.outputs.deployment-url }}"', ' ""')))]:
+                with self.subTest(workflow=workflow, mutant=name):
+                    self.assertNotEqual(mutant, text, "dead mutant anchor")
+                    self.assertTrue(wiring_failures(workflow, mutant), f"{workflow}: a probe step that {name} passed")
+        print("[redirect-limits] RED deploy probe step that runs nothing or requests no URL, in both workflows")
 
 
 if __name__ == "__main__":

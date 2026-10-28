@@ -877,7 +877,7 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
             '[regenerate_redirects] 3 authored rule(s) carried over',
             '[regenerate_redirects] 1 alias 301 rule(s)',
             f'[regenerate_redirects] Wrote 5 rules to {self.public / "_redirects"} '
-            '(static 5/2000 · dynamic 0/100 · skipped 0 · parsed 5 of 5) and 0 wildcard rule(s) to '
+            '(static 5/2000 · dynamic 0/100 · skipped 0 · parsed 5 of 5) and 0 category rule(s) (0 exact, 0 wildcard) to '
             f'{self.public / "static/redirect-fallback.json"}',
         ])
 
@@ -923,7 +923,7 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
             self.assertEqual(result.stdout.splitlines(), [
                 '[regenerate_redirects] 2000 authored rule(s) carried over',
                 f'[regenerate_redirects] Wrote 2000 rules to {self.public / "_redirects"} '
-                '(static 2000/2000 · dynamic 0/100 · skipped 0 · parsed 2000 of 2000) and 0 wildcard rule(s) to '
+                '(static 2000/2000 · dynamic 0/100 · skipped 0 · parsed 2000 of 2000) and 0 category rule(s) (0 exact, 0 wildcard) to '
                 f'{self.public / "static/redirect-fallback.json"}',
             ])
         with FixtureSnapshot(canonical):

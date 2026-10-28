@@ -12,8 +12,9 @@ static-rule limit.
 
 TWO OUTPUTS (v1.237.2, RDR546). Cloudflare loaded only the first 100 of 1,954 rules
 for months: see split_rules() and scripts/check_redirect_limits.py. `_redirects` now
-lists every static rule first, and the category wildcards go to
-static/redirect-fallback.json, which the Pages middleware consults after a 404.
+lists every static rule first, and every category rule also goes to
+static/redirect-fallback.json, which functions/_middleware.js bundles and answers from
+before any page lookup.
 
 Runs automatically after `npm run build` via the `postbuild` hook.
 
@@ -45,9 +46,10 @@ import check_redirect_limits  # the exact port of Cloudflare's _redirects parser
 
 CATEGORIES = ("Positions", "Transitions", "Submissions")
 ROLE_PAGES = {"Top", "Bottom", "Attacker", "Defender"}
-# The wildcard table the Pages middleware reads after a 404 (see split_rules). Its prefixes are
-# a subset of regenerate_agent_discovery.py's routed CATEGORIES; check_redirect_limits.py fails
-# if a fallback rule ever falls outside the built _routes.json.
+# The category table the Pages middleware bundles and answers from first (see split_rules). Its
+# prefixes are a subset of regenerate_agent_discovery.py's routed CATEGORIES and equal
+# site/redirect-fallback.mjs's CATEGORY_PREFIXES; check_redirect_limits.py fails if a rule ever
+# falls outside the built _routes.json.
 FALLBACK_REL = Path("static") / "redirect-fallback.json"
 FALLBACK_PREFIXES = tuple(f"/{category}/" for category in CATEGORIES)
 FALLBACK_STATUSES = {301, 302, 303, 307, 308}
@@ -168,43 +170,47 @@ def collect_rules() -> tuple[list[str], list[str], list[str]]:
 
 
 def split_rules(rules: list[str]) -> tuple[list[str], list[list]]:
-    """(_redirects lines, fallback rules) for one first-match-ordered list (v1.237.2, RDR546).
+    """(_redirects lines, category table) for one first-match-ordered list (v1.237.2, RDR546).
 
     Cloudflare files a rule as STATIC only while no dynamic rule (a `*` or a `:placeholder`
     in the source) has been seen, and stops reading at the 101st dynamic one. Rule #1 used to
     be `/Training/*`, so only the first 100 of 1,954 rules ever worked. So:
-      - every static rule goes first, in its original order: the exact map is consulted before
-        any wildcard, so this keeps first-match only while no wildcard shadows an exact rule
-        that follows it; check_redirect_limits.py diffs every source's destination to prove it;
-      - a wildcard under a category the Pages middleware serves (`_routes.json` includes
-        /Positions/* etc.) and that redirects (not a 200 rewrite) moves to the fallback table,
-        which site/redirect-fallback.mjs consults only when the asset server answered 404 —
-        no new Function invocations, and no ceiling;
-      - every other wildcard (`/l/*`, the 200 rewrite the share links need with NO Function
-        deployed; `/Training/*`, `/Tree/*`, outside the Function's routes) stays in `_redirects`,
-        after the statics.
-    A fallback wildcard therefore yields to a built asset where the old rule would have won;
-    the gate fails if any built page sits under one.
+      - `_redirects` lists every exact rule first, in its original order (Cloudflare consults
+        the exact map before any wildcard), then the wildcards that must stay at the edge:
+        `/l/*`, the 200 rewrite the share links need with NO Function deployed, and
+        `/Training/*`, `/Tree/*`, outside the Function's routes;
+      - every redirect under /Positions, /Transitions and /Submissions, exact rules first and
+        then the wildcards, each in its original order, goes to the category table. The Pages
+        middleware bundles it and answers from it BEFORE any page lookup, the order Cloudflare's
+        own redirects had (site/redirect-fallback.mjs). Its exact rules stay in `_redirects`
+        too, for a deploy whose Function is absent.
+    Statics-first keeps first-match only while no wildcard shadows an exact rule that follows
+    it; check_redirect_limits.py diffs every source's destination to prove it, and fails if any
+    rule in the table matches a built page.
     """
-    static, edge_dynamic, fallback = [], [], []
+    static, edge_dynamic, table_exact, table_wild = [], [], [], []
     for rule in rules:
         source, to, *rest = rule.split()
         status = int(rest[0]) if rest else 302
-        if not (check_redirect_limits.SPLAT_REGEX.search(source)
-                or check_redirect_limits.PLACEHOLDER_REGEX.search(source)):
+        dynamic = bool(check_redirect_limits.SPLAT_REGEX.search(source)
+                       or check_redirect_limits.PLACEHOLDER_REGEX.search(source))
+        category = source.startswith(FALLBACK_PREFIXES) and status in FALLBACK_STATUSES
+        if not dynamic:
             static.append(rule)
-        elif source.startswith(FALLBACK_PREFIXES) and status in FALLBACK_STATUSES:
-            fallback.append([source, to, status])
+            if category:
+                table_exact.append([source, to, status])
+        elif category:
+            table_wild.append([source, to, status])
         else:
             edge_dynamic.append(rule)
-    return static + edge_dynamic, fallback
+    return static + edge_dynamic, table_exact + table_wild
 
 
 def fallback_json(fallback: list[list]) -> str:
     rows = ",\n".join(json.dumps(row, ensure_ascii=False) for row in fallback)
     return ('{"version": 1, "note": "Generated by scripts/regenerate_redirects.py; consulted by '
-            'site/redirect-fallback.mjs after a 404, in this order, with Cloudflare\'s own wildcard '
-            'semantics. Never edit.",\n"rules": [\n' + rows + "\n]}\n")
+            'functions/_middleware.js (bundled) BEFORE any page lookup, in this order, with Cloudflare\'s '
+            'own semantics: exact rules first, then wildcards. Never edit.",\n"rules": [\n' + rows + "\n]}\n")
 
 
 def main() -> None:
@@ -232,9 +238,10 @@ def main() -> None:
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(text)
     fallback_output.write_text(fallback_json(fallback))
+    wild = sum(1 for source, _, _ in fallback if "*" in source or ":" in source)
     print(f"[regenerate_redirects] Wrote {len(edge)} rules to {OUTPUT} "
-          f"({check_redirect_limits.summary(parsed, redirects)}) and {len(fallback)} wildcard "
-          f"rule(s) to {fallback_output}")
+          f"({check_redirect_limits.summary(parsed, redirects)}) and {len(fallback)} category "
+          f"rule(s) ({len(fallback) - wild} exact, {wild} wildcard) to {fallback_output}")
 
 
 if __name__ == "__main__":
