@@ -49,7 +49,7 @@ const controls = [
     [['this._refPage||this._staged!=null||this.startRoll(t)', 'this._refPage||this.startRoll(t)']], 'the other read role must be a reachable drawn canvas half'],
   // D-338: a saved Focus is read again by the layer seam (its reading* overrides hide the card).
   ['d338-saved-focus-layer-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$',
-    [['let t=xt[e];return!t||this.get(t,!0)!==!1', 'let t=xt[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
+    [['let t=vt[e];return!t||this.get(t,!0)!==!1', 'let t=vt[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
     'a saved Focus no longer hides the question'],
   // RETIRED (v1.237.0, PR #320's review): reading-band-lift-restored (the follow-cam lifts the node against the
   // reading band's edge again: two rest framings). pane-layout:131 stopped seeing it when that journey's first landing
@@ -65,7 +65,7 @@ const controls = [
   ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
     [['else if(!t)n.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
   ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
-    [['h==null||h.toggleAttribute("data-reader-pending",a>0);return d&&a<=0', 'h==null||h.toggleAttribute("data-reader-pending",!1);return d&&a<=0']], 'the new hand is shown once, at its final place'],
+    [['p==null||p.toggleAttribute("data-reader-pending",a>0);return d&&a<=0', 'p==null||p.toggleAttribute("data-reader-pending",!1);return d&&a<=0']], 'the new hand is shown once, at its final place'],
   // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
   ['d354-pane-follow-lag', 'pane-keyboard.spec.ts', 'D-354: the landing deck and its arrows follow the pane',
     [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
@@ -123,7 +123,7 @@ const controls = [
   // CLEAR_SEC (v1.219.0's hand mutant `slowclear`, scripted at APTS-CI2): the lift's edge takes 1 s and every flight
   // at least 1.5 s, so a row turned back on stays over the node past CLEAR_SEC.
   ['slowclear', 'camera-continuity.spec.ts', '1440px camera continuity.*CLEAR_SEC: a card the player turns back on',
-    [['x.t=Math.min(1,x.t+e/vn)', 'x.t=Math.min(1,x.t+e/1)'],
+    [['x.t=Math.min(1,x.t+e/Cn)', 'x.t=Math.min(1,x.t+e/1)'],
      ['A=Math.max(t.dur?t.dur(L):Math.max(.6,Math.min(1.4,.5+.25*L))', 'A=Math.max(1.5,t.dur?t.dur(L):Math.max(.6,Math.min(1.4,.5+.25*L))']], 'CLEAR_SEC a row turned on'],
   ['d355-flight-lift-ungated', 'dual-pair.spec.ts', 'hovering any pair names it once',
     [['active:!m.band||!!(y!=null&&y.band)', 'active:!0']], 'and the role moved below it'],
@@ -137,7 +137,7 @@ const controls = [
   // longer turns the ZERO-overlap pin red there. Not root-caused further: read it as no coverage of the
   // fixed-margin gate on this bundle.
   ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['y.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+b+vt>m.bottom', 'y.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
+    [['y.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+b+Ct>m.bottom', 'y.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
   ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
     [['(!m.band||y)&&(c.lift=', '(!m.band||y!=null&&y.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
   // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
@@ -162,13 +162,13 @@ const controls = [
   ['u47-paging-asks-again', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['this._landPage=n,this._armPagedLandClock(),this._readStop()', 'this._landPage=n,this._landAsk=!0,this._armPagedLandClock(),this._readStop()']], 'the shown card stays shown across paging, with its own window'],
   ['u47-question-tap-dead', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
-    [['p.append(b," ",w),p.addEventListener("click",()=>this._landReveal());', 'p.append(b," ",w);']], 'a tap on the question shows the card'],
+    [['u.append(b," ",v),u.addEventListener("click",()=>this._landReveal());', 'u.append(b," ",v);']], 'a tap on the question shows the card'],
   // U52 b: the phone's two-line cut is _fitAskLine's (the CSS clamp is gone). Its desktop twin, trimming on a
   // desktop too, is a recorded NON-KILL (covered-card.spec.ts's header): no real question needs a third line there.
   ['u47-phone-trim-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844',
     [['if(t.textContent=s,!this.isMobile())return;', 'if(t.textContent=s,!0)return;']], 'U47 d: a long question is cut to two lines on a phone'],
   ['u47-desktop-offer-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900',
-    [['p.append(b," ",w),p.addEventListener("click",()=>this._landReveal())', 'p.append(b," ",...this.isMobile()?[w]:[]),p.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
+    [['u.append(b," ",v),u.addEventListener("click",()=>this._landReveal())', 'u.append(b," ",...this.isMobile()?[v]:[]),u.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
   ['u47-reveal-keeps-asking-face', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
     [['this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none",e.removeAttribute("data-land-ask");', 'this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none";']], "Answer for Points shows today's card, with no reveal control inside it"],
   // U52 b: the take-up lays the reader out at once (the card leaves the quiet line's width); deferred, the first
@@ -188,7 +188,7 @@ const controls = [
   ['u52b-take-up-replays-entry', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
     [['this._landOptIn(),e.style.animation="none",e.removeAttribute("data-land-ask")', 'this._landOptIn(),e.removeAttribute("data-land-ask")']], "the take-up does not replay the card's entry on the question just tapped"],
   ['u52b-focus-dropped', 'covered-card.spec.ts', 'U52 b a landing rendered with the pane open shows the full card; focus survives',
-    [['R(120)}c&&this._landQ&&!this._defenseDrillOpened', '}c&&this._landQ&&!this._defenseDrillOpened']], 'keyboard focus moves to Answer for Points, not the page'],
+    [['E(120)}c&&this._landQ&&!this._defenseDrillOpened', '}c&&this._landQ&&!this._defenseDrillOpened']], 'keyboard focus moves to Answer for Points, not the page'],
   ['u52b-arrow-in-name', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)', [],
     'the accessible name is "Answer for Points", without the arrow', [['content:" \\2192"/""', 'content:" \\2192"']]],
   ['u47-asking-answers-laid-out', 'covered-card.spec.ts', 'U35 D-433.*1440x900', [],
@@ -218,7 +218,7 @@ const controls = [
   ['u47-take-up-unmeasured', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['this.fx("land_q_taken_up",{deckKey:t.key||null,mode:this._landMode||"land"}),', '']], 'land_q_taken_up fires once per take-up'],
   ['u47-asking-letters-answer', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
-    [['f=m=>{if(!(a.inert||["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(p||o.spent)', 'f=m=>{if(!(["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(p||o.spent)']], 'an asking question cannot grade, page or charge time'],
+    [['f=m=>{if(!(a.inert||["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(u||o.spent)', 'f=m=>{if(!(["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(u||o.spent)']], 'an asking question cannot grade, page or charge time'],
   ['u47-hover-latch-lost', 'landing-card.spec.ts', 'no clock before Answer for Points',
     [['["pointerdown","pointermove","keydown"]', '["pointerdown","keydown"]']], 'one hover engages'],
   ['u36-motion-listener-lost', 'defending-landing.spec.ts', 'reduced motion keeps a static cue',
@@ -228,7 +228,7 @@ const controls = [
   // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
   // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
   ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
-    [['if(p&&!((c=this._reader)!=null&&c.interacting))', 'if(p&&!this._reader?.intent&&!((c=this._reader)!=null&&c.interacting))']],
+    [['if(u&&!((c=this._reader)!=null&&c.interacting))', 'if(u&&!this._reader?.intent&&!((c=this._reader)!=null&&c.interacting))']],
     '...and the chosen escape stays on the table'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
