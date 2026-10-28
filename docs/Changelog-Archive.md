@@ -12805,9 +12805,10 @@ handler: ↑/↓ the node (Challenges lessons, Last rolls rolls, a session's or 
 Contrast over the map, sampled with the text transparent and its shadow kept: the link inherited the question's
 shadow and measured 3.5:1 against the brightest 5% of a lit map label behind the long question at 1440, so it now
 carries its own denser shadow (still no box, fill or border). Across the five sampled frames (390x844, 390x631 and
-1440x900 short; 390x844 and 1440x900 long), measured on the final build, the question measures min 13.5 / median
-14.0:1 against the median background and min 10.2 / median 12.4:1 against the brightest 5%; the link min 9.0 / median
-10.1:1 and min 7.9 / median 9.1:1 (it was 3.5). The single brightest pixel behind any sample is at least 3.8:1. Three subtle looks (quiet line, pill, ghost card) were
+1440x900 short; 390x844 and 1440x900 long), measured on the final build (after APTS-R4's one-line short phone), the
+question measures min 13.9 / median 14.1:1 against the median background and min 10.2 / median 12.9:1 against the
+brightest 5%; the link min 9.9 / median 10.1:1 and min 8.4 / median 9.1:1 (it was 3.5). The single brightest pixel
+behind any sample is at least 4.4:1. Three subtle looks (quiet line, pill, ghost card) were
 started for U52 b's first note and dropped unbuilt-to-screens when the fuller note arrived.
 
 The first build gave the asking line the parts' small step (8px phone, 12px desktop) as well as the column's width.
