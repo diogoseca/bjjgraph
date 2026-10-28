@@ -1062,7 +1062,7 @@ class Reader {
       const grid = indexEdge ? W - 24 - indexEdge : Math.max(240, Math.min(902, free.width - 64)), wide = grid >= 1100;
       // U59 c: when the grid's width changes (the pane opening, a resize), the first text block at
       // the reader's top keeps its place on screen; the finally puts it back after every other write.
-      keep = this.gridW != (this.gridW = grid) && [...this.root.querySelectorAll("p,li")].find(e => (was = e.getBoundingClientRect().top) >= top);
+      keep = this.gridW - (this.gridW = grid) && [...this.articleEl.querySelectorAll("p,li")].find(e => (was = e.getBoundingClientRect().top) >= top);
       style(this.articleEl, "--article-width", grid);
       if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");
       // U59 c (owner): every desktop row holds two open sections side by side, in source order, so

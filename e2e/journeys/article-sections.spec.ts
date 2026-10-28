@@ -420,7 +420,17 @@ test('@curated current node stays centred as the native sections cover it at eve
     expect(reading).toMatchObject({ map: true, reading: true })
     expect(Math.abs(reading.center - board.center)).toBeLessThan(1)
     expect(Math.abs(reading.point.y - board.point.y)).toBeLessThan(1)
-    expect(await page.evaluate(({ x, y }) => !!document.elementFromPoint(x, y)?.closest('.ng-section-card'), reading.point), 'native prose covers the stationary node').toBe(true)
+    // CLAIM CHANGED (U59 c, owner, 2026-10-28). Old: the node's centre is under a section card. New: it is under the
+    // article's grid, a section card or the token gutter between two cards of one row. Reason: desktop rows are two
+    // sections side by side with a 24px gutter between them, and at 1366 on this page the node's centre (x 608) falls
+    // in the gutter between Videos (1/3) and Overview (2/3); the map shows through it there by design.
+    expect(await page.evaluate(({ x, y }) => {
+      const hit = document.elementFromPoint(x, y)
+      if (hit?.closest('.ng-section-card')) return true
+      if (!hit?.matches('[data-reader-body]')) return false
+      const row = [...hit.children].map(c => c.getBoundingClientRect()).filter(r => r.width && r.top <= y && r.bottom >= y)
+      return row.some(l => l.right <= x) && row.some(r => r.left >= x)
+    }, reading.point), 'native prose covers the stationary node (a card, or the gutter inside a row)').toBe(true)
     expect(reading.intersections, width + 'px reading: ' + JSON.stringify(reading)).toEqual([])
     const column = await page.locator('.ng-reader-article').boundingBox()
     expect(column!.x).toBe(Math.max(12, (width - 680) / 2))
