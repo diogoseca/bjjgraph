@@ -1063,12 +1063,14 @@ class Reader {
       if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");
       // U55 b: a big card (the video, long prose) takes two thirds of three lanes, or the whole of two;
       // the rest take a lane. Spans first, then every card's content plus the token gap under it (its
-      // margin), then the rows: 4px each, measured all before any is written, so it is one layout. The
-      // card stretches over its rows, up to 3px past its content, and every gap stays the token exactly.
+      // margin), then the rows: 8px each, measured all before any is written, so it is one layout. The
+      // card stretches over its rows, up to 7px past its content, and every gap stays the token exactly.
+      // 8px, not 4px: Gecko caps an implicit grid at 10,000 lines, 80,000px here (the Half-Guard hub's
+      // tallest grid used 64% of 4px rows' 40,000px).
       // reading.css uses the rows and the margin above 640px only; a closed card is not in the grid
       // (display:none beside the index, moved to Hidden sections without it), so writing it is inert.
       for (const s of this.sections) style(s.card, "--span", "" + (wide ? 4 : 6) * (s.big ? 2 : 1));
-      for (const [s, h] of this.sections.map(s => [s, s.card.firstChild.offsetHeight + s.body.offsetHeight + parseFloat(getComputedStyle(s.card).marginBottom)])) style(s.card, "--rows", "" + Math.ceil(h / 4));
+      for (const [s, h] of this.sections.map(s => [s, s.card.firstChild.offsetHeight + s.body.offsetHeight + parseFloat(getComputedStyle(s.card).marginBottom)])) style(s.card, "--rows", "" + Math.ceil(h / 8));
       if (this.contents) {
         this.contents.hidden = !available || this.root.dataset.readerReady !== "true" || !fits;
         this.root.toggleAttribute("data-indexed", !this.contents.hidden);

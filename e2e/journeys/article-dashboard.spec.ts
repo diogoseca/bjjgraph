@@ -17,8 +17,15 @@ import { journey } from '../dsl'
 // Claims, each with its control in tests/artifacts/article_sections_mutants.mjs:
 //   u55-tile-capped        every tile shows its whole content (a 520px cap, the owner-rejected mock)
 //   u55-rows-short         every tile shows its whole content (rows counted short of the content)
+//   u55-margin-uncounted   every tile shows its whole content (a heading's collapsed margin left out)
+//   u55r-rows-long         every tile ends within one 8px row of its content (25 rows too many)
+//   u55r-body-capped       nothing inside a tile clips its text (the body capped at 240px)
+//   u55r-para-clamp        nothing inside a tile clips its text (paragraphs clamped to two lines)
 //   u55-tile-click-toggles a section tile click does nothing (a click on the tile toggles it)
+//   u55r-link-swallowed    a link inside a tile still opens its page (the tile swallows the click)
 //   u55-band-covered       the node band stays clear (the article pulled up over the game stage)
+//   u55-width-unused       the dashboard uses the width (the grid keeps the centred column)
+//   u55r-phone-dashboard   the phone keeps its stacked flow (the dashboard's rows applied at 390px)
 const READY = '[data-reader][data-reader-ready="true"]'
 
 async function boot(page: Page, width: number, height: number) {
@@ -43,8 +50,16 @@ const dashboard = (page: Page) => page.evaluate(() => {
     states: r.sections.map((s: any) => s.type + ':' + s.toggle.getAttribute('aria-expanded') + ':' + s.card.dataset.collapsed).join(' '),
     tiles: cards.map(c => {
       const s = getComputedStyle(c)
+      // Anything that hides text: the tile, or any box inside it holding text, whose content overflows a
+      // non-visible overflow. A cap (max-height), a clamp (-webkit-line-clamp) or a fade-by-overflow all show up
+      // here once they actually cut something; a clamp that cuts nothing (the Related cards' 3-line blurbs, all
+      // one line on this page) does not. Boxes with no text are left out (an inline SVG icon clips by default).
+      const clipped = [c, c.lastElementChild!, ...c.lastElementChild!.querySelectorAll('*')].filter(e => {
+        if (!e.textContent!.trim()) return false
+        return getComputedStyle(e).overflowY !== 'visible' && e.scrollHeight > e.clientHeight + 1
+      }).map(e => e.tagName.toLowerCase() + '.' + [...e.classList].join('.'))
       return { type: c.dataset.sectionType!, box: box(c), content: box(c.lastElementChild!), head: box(c.firstElementChild!),
-        maxHeight: s.maxHeight, mask: s.maskImage || s.getPropertyValue('-webkit-mask-image'), overflowY: s.overflowY }
+        maxHeight: s.maxHeight, mask: s.maskImage || s.getPropertyValue('-webkit-mask-image'), overflowY: s.overflowY, clipped }
     }),
   }
 })
@@ -58,6 +73,8 @@ function wholeContent(d: Dash) {
     expect(t.maxHeight, t.type + ' is not capped').toBe('none')
     expect(t.mask, t.type + ' is not faded').toBe('none')
     expect(t.box.bottom, t.type + ' shows its whole content').toBeGreaterThanOrEqual(t.content.bottom - 1)
+    expect(t.box.bottom - t.content.bottom, t.type + ' ends within one 8px row of its content').toBeLessThanOrEqual(8.5)
+    expect(t.clipped, t.type + ': nothing inside the tile clips its text').toEqual([])
     expect(t.head.top, t.type + ' starts with its own title').toBeGreaterThanOrEqual(t.box.top - 1)
   }
   for (const [i, t] of d.tiles.entries()) for (const o of d.tiles.slice(0, i)) {
@@ -132,4 +149,38 @@ test('@curated U55 b: at 1440x900 a click on a section tile does nothing; its li
   await expect(page.locator('[data-section-toggle=principles]')).toHaveAttribute('aria-expanded', 'false')
   await j.clickByMouse('[data-toc-type=principles] a')
   await expect(page.locator('[data-section-toggle=principles]')).toHaveAttribute('aria-expanded', 'true')
+  // A link inside a tile still works: it opens its page in the reader.
+  const link = await page.evaluate(() => {
+    const r = (window as any).__neural._reader
+    // A same-origin link to another technique or position page (tiles carry absolute hrefs; anchors and the
+    // Videos tile's YouTube links are other paths).
+    const a = [...r.body.querySelectorAll('.ng-section-card a[href]')].find(e => {
+      const u = new URL((e as HTMLAnchorElement).href)
+      return u.origin === location.origin && !(e as HTMLElement).dataset.readerAnchor && /^\/(Positions|Transitions|Submissions)\//.test(u.pathname) && !u.pathname.startsWith('/Positions/Mount')
+    }) as HTMLAnchorElement
+    if (!a) return null
+    a.setAttribute('data-test-tile-link', '')
+    r.root.scrollTop += a.getBoundingClientRect().top - r.root.getBoundingClientRect().top - 200
+    return new URL(a.href).pathname.replace(/\.html$/, '').replace(/\/$/, '')
+  })
+  expect(link, 'premise: a tile on Mount/Top carries an internal link').toBeTruthy()
+  await j.readerLayoutSettled()
+  await j.clickByMouse('[data-test-tile-link]', 'a link inside a tile')
+  await expect(page.locator('[data-reader]')).toHaveAttribute('data-reader-path', decodeURI(link!))
+})
+
+test('U55 b: at 390x844 the phone keeps its stacked flow, untouched by the dashboard', async ({ page }) => {
+  await boot(page, 390, 844)
+  const phone = await page.evaluate(() => {
+    const r = (window as any).__neural._reader, cards = ([...r.body.children] as HTMLElement[]).filter(c => c.getClientRects().length)
+    const boxes = cards.map(c => c.getBoundingClientRect())
+    return { rows: getComputedStyle(r.body).gridAutoRows, spans: [...new Set(cards.map(c => getComputedStyle(c).gridRowEnd))],
+      lefts: new Set(boxes.map(b => Math.round(b.left))).size, gaps: boxes.slice(1).map((b, i) => +(b.top - boxes[i].bottom).toFixed(2)),
+      token: 3 * parseFloat(getComputedStyle(r.root).getPropertyValue('--section-gap')) }
+  })
+  expect(phone.gaps.length, 'Mount/Top shows its real sections').toBeGreaterThan(4)
+  expect(phone.rows, 'no dashboard rows on a phone').toBe('auto')
+  expect(phone.spans, 'no card spans rows on a phone').toEqual(['auto'])
+  expect(phone.lefts, 'one column').toBe(1)
+  for (const g of phone.gaps) expect(Math.abs(g - phone.token), `gap ${g} is the phone's ${phone.token}px token`).toBeLessThan(1)
 })

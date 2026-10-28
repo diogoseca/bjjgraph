@@ -259,7 +259,18 @@ const mutants = [
   // the content, and a first heading's collapsed top margin left uncounted (the Related tile clipped by ~19px).
   ['u55-tile-capped', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => s,
     css => css + '\n[data-reader-body]>*{max-height:520px;overflow:hidden;mask-image:linear-gradient(#000 82%,transparent)}\n'],
-  ['u55-rows-short', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => replace(s, '"--rows", "" + Math.ceil(h / 4)', '"--rows", "" + Math.ceil(h / 5)')],
+  ['u55-rows-short', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => replace(s, '"--rows", "" + Math.ceil(h / 8)', '"--rows", "" + Math.ceil(h / 10)')],
+  // DASH-R2 (the independent review of #323): three mutants of "every tile shows its whole content" that survived
+  // its first spec, now killed; the claim is two-sided (no shorter AND no taller than its content) and inward.
+  ['u55r-rows-long', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => replace(s, '"--rows", "" + Math.ceil(h / 8)', '"--rows", "" + (Math.ceil(h / 8) + 25)')],
+  ['u55r-body-capped', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => s, css => css + '\n.ng-section-body{max-height:240px;overflow:hidden}\n'],
+  ['u55r-para-clamp', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => s,
+    css => css + '\n.ng-section-body p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}\n'],
+  // "A link inside a tile still opens its page": the tile swallows its links' clicks.
+  ['u55r-link-swallowed', 'article-dashboard.spec.ts', 'a click on a section tile does nothing', s => replace(s, '      this.resize.observe(content);\n',
+    '      this.resize.observe(content);\n      card.addEventListener("click", e => { if (e.target.closest("a")) { e.preventDefault(); e.stopPropagation(); } });\n')],
+  // "The phone keeps its stacked flow": the dashboard's rows and margin applied at every width.
+  ['u55r-phone-dashboard', 'article-dashboard.spec.ts', 'at 390x844 the phone keeps', s => s, css => replace(css, '@media(width>640px){', '@media(width>0px){')],
   ['u55-margin-uncounted', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => s,
     css => replace(css, 'var(--reader-unit) var(--reader-unit);display:flow-root}', 'var(--reader-unit) var(--reader-unit)}')],
   // "A section tile click does nothing": a click on the tile (not on its links or controls) toggles it.

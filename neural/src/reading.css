@@ -36,12 +36,12 @@
 .ng-section-card { box-sizing:border-box;grid-column:span var(--span,12);background:#141b2b;border:0;border-radius:20px;min-width:0;overflow:clip;box-shadow:var(--section-shadow); }
 @container(max-width:660px) { .ng-section-card { grid-column:1/-1; } }
 /* U55 b (owner): the desktop dashboard. Every tile shows its whole content: none is capped, faded or
-   expanded by a click. layoutNow measures each open card's content and spans it over 4px rows (its
+   expanded by a click. layoutNow measures each open card's content and spans it over 8px rows (its
    content plus this token margin), so a short tile never stretches beside a long one, every gap is the
    token, and dense flow lets a later tile fill the hole beside a wide one. The phone (640px and under)
    keeps its stacked flow untouched. The last card's margin and the article's 30px foot (54px) let the
    last right-hand tile scroll clear of the account pill in the corner. */
-@media(width>640px) { .ng-reader [data-reader-body] { grid-auto-rows:4px;row-gap:0;grid-auto-flow:dense; } [data-reader-body]>* { grid-row:span var(--rows);margin-bottom:calc(var(--section-gap)*4); } }
+@media(width>640px) { .ng-reader [data-reader-body] { grid-auto-rows:8px;row-gap:0;grid-auto-flow:dense; } [data-reader-body]>* { grid-row:span var(--rows);margin-bottom:calc(var(--section-gap)*4); } }
 /* D-338 (owner): one close icon on every width, the ghost ✕ the question card and the hand
    already wear (NG_GHOST_BTN_CSS: a 24px #8b97b0 glyph), on a 44px target. A closed section
    is a light label instead, its glyph above its name: no box, no outline, centred. */

@@ -90,7 +90,8 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
     // CLAIM CHANGED (U55 b, owner, 2026-10-28). Old: every card starts at or below the previous one on
     // every width ("adjacent pairs, never dense-fill"). New: the phone keeps that strict source order; the
     // desktop dashboard's dense flow may lift a later one-third tile into the hole beside a wide one (the
-    // owner asked for it), so there the reading order is the index's, and article-dashboard.spec.ts pins it.
+    // owner asked for it). NOTHING asserts a visual reading order on desktop: the index lists the sections in
+    // source order, and the DOM (hence Tab) keeps source order; whether tiles read in that order is unpinned.
     if (i && width === 390) expect(card.top).toBeGreaterThanOrEqual(geometry[i - 1].top - 1)
     for (const other of geometry.slice(0, i)) expect(card.left >= other.right - 1 || card.right <= other.left + 1 || card.top >= other.bottom - 1, 'cards never overlap').toBe(true)
   }
