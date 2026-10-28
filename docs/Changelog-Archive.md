@@ -13225,8 +13225,8 @@ top moves a median 1 px (max 5 px; was 354-566 px on the U55 b head). The R2 pro
 moves 58 px: mid-slide a different block becomes the first at the top, because the other tile of its row reflows. A
 sticky anchor (P2's) fixes that and costs ~77 B more than the 22 B left.
 
-**Bytes.** Deferred 506,795 of 506,817 B: reader.js 42,463 -> 42,629 (+166), reading.css 10,904 -> 10,724 (-180),
--14 B against the U55 b head and +205 B against dev. Paid for by deleting the masonry (rows, dense flow, observers,
+**Bytes.** Deferred 506,799 of 506,817 B (18 B left): reader.js 42,463 -> 42,633 (+170), reading.css 10,904 ->
+10,724 (-180), -10 B against the U55 b head and +209 B against dev. Paid for by deleting the masonry (rows, dense flow, observers,
 flow-root), with the pill fixed as a widened reserve (negative bytes) instead of a measured right edge. esbuild lowers
 `?.` to `== null ? void 0 :` for this target, so `(y || x).len` and `&&` are cheaper here.
 
@@ -13262,3 +13262,17 @@ median there, so the spec's band is 45-75).
 **Claims restored.** article-grid, article-sections and reading-contract are dev's own again: U55 b had made the
 source-order claim phone-only and measured gaps per lane because dense flow lifted tiles and left no row unions.
 Rows in source order bring back both.
+
+**What the reader batch found (51 reader-touching and camera journeys, one worker, private port).** The first
+batch went red on 7 at 390-1440 (D-338's hand and question closes, the optional chrome frame, an orb arrival); with
+dev's reader.js and reading.css swapped into the same served tree all 8 passed. The cause was the anchor: the first
+layoutNow counted as a grid-width change, and that pass writes the game parts' height, so the anchor held a text
+block still and scrolled the question and the hand out of their reserved places. `this.gridW - (this.gridW = grid)`
+is NaN on the first layout (no anchor), and the search is the article's own text, not the game parts'
+(8db420cc3); all 7 green. The eighth, article-sections "current node stays centred as the native sections cover
+it", is a CLAIM CHANGE: at 1366 the node's centre (x 608) falls in the 24 px gutter between Videos (1/3) and
+Overview (2/3) of one row, so it now accepts a card or the gutter inside a row (old/new/reason in the spec; its
+control toc-camera-gutter-restored is still killed). On the final build: 217 + 165 + 185 passed, the 8 re-run green,
+1 owner-deferred fixme skipped; one land-layers timeout in the second batch was green alone and 15 of 15 on repeat.
+The reader_handoff units' minimal DOM node gained an empty querySelectorAll (a11b6231e). Units 1,364 of 1,364;
+ci:validate 25 of 25; validate:payload OK (deferred 506,799 of 506,817 B).
