@@ -84,6 +84,7 @@ test("grading the drill in time pumps the escape odds and spends the window (v1.
   await j.advance(17);
   if (!(await geo(page))) test.skip();
 
+  await j.openQuestion();
   const before = await page.evaluate(() => {
     const a: any = (window as any).__neural;
     return { rem: a._decision.remaining, odds: a._optList.map((o: any) => a.escapeChance(o)) };

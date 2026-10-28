@@ -12652,6 +12652,65 @@ The older reading-mode failure was the Back case's outgoing-reader/replacement-a
 boundary. Its current replacementReadingSnapshot and held-HTML/graph cases already cover that
 premise; both variants passed ten repeats per build kind. No reading-mode code changed here.
 
+## v1.232.0 — D-433 covered-card host finding (26 October 2026)
+
+The first host run passed emits, the no-growth guard, APP reseed, units, CI, its own
+keyless build, payload and analytics. Deferred raw was 506,757 B against base
+506,813 B (−56 B, entirely reader.js: 40,658 → 40,602). Focused journeys were
+6 passed / 1 failed; the short-phone combined question+Moves height was 592.25 px against a 439 px reader budget. Later gates did not run.
+
+A separate immutable host diagnostic measured all three viewports and checked its
+inputs before/after. At 390×631 and 390×844, the band was 144 px, the covered and
+opened question both 352.25 px, the answer area 258.6875 px, and native Moves
+224 px. The short-screen collapse rule lost to the MC block's inline display:flex.
+Adding !important alone made the cover 153.5625 px with a 60 px stage, but Reveal
+still began at y552.5625 below the short reader's y541 end: the reader's inline
+absolute placement at y478 was a second real defect under D-433. At 390×844,
+Reveal was reachable but the third opened answer was clipped. Desktop targets fit.
+
+D-433 adapts D-370 to U35: phone Reveal on arrival and every opened answer must
+be hit-testable without scrolling or an automatic scroll writer. Native Moves
+remain separate, unchanged and untimed, but need not fit with the question.
+The phone catch therefore places its question before Moves, with an 80 px band
+below 700 px viewport height (144 px on the taller phone). The band holds through
+the pick and returns to 186 px at its result. Normal card padding, text, targets,
+account reserve and native escape handoff remain checked. The collapse now wins
+the inline cascade. The former combined-height phone oracle is replaced with
+actual clipped-reader hit tests, scroll-write detection and a named collapse check;
+desktop retains the stronger combined-height check. The U16 phone order/band
+premises are migrated explicitly; their other claims remain.
+
+V2 also shares numeric CSS unit conversion within the existing guarded reader
+style writer and reuses its deck predicate to pay for the layout additions.
+Its emitted byte delta and runtime gates are pending the immutable host run;
+no payload baseline or ceiling has moved. The v1 runner, bundle and results remain.
+
+
+## v1.232.0 — D-451 explicit Reveal in the remaining curated journeys (2026-10-26)
+
+The covered-card v3 host run passed its thirteen owner frames, then full curated
+reported 578 passes and 24 failures. All 24 failed snapshots still showed the
+U34 a cover: the specs attempted an answer, answer geometry, expiry or decline
+without first Revealing that card. Add the explicit Reveal action at those
+premises, with U34 a cited at each edit; retain all original assertions, timing
+bounds and native hit tests. Reader publication/adoption probes open the card
+before installing their answer-click hooks, without adding a reader-ready wait.
+A keyboard answer or move-number key is not consent to open a covered question.
+
+The real-MDP cases had already received bounded, verified first-hand values at
+both widths (3,099.5 ms at 1440px; 2,786.4 ms at 390px after hand publication).
+Their failed 45-second wait was the post-grade profile-hash change after an inert
+keyboard answer. Keep first-hand readiness and display proofs before Reveal.
+The recall selector data-land-reveal remains Show answer, behind the separate
+U34 data-question-reveal control. Paging requires consent for the new card too.
+
+No product, payload, timing, U35 media segregation, U36 heartbeat or D-433
+geometry rule changes. Version remains the owner's assigned v1.232.0. The
+journey-written first_hand_payload.json is OBSERVED ONLY: archive its result and
+restore HEAD before the runner's clean check; never accept it as a new baseline.
+The new immutable host continuation reuses the twelve v2 gates and v3 owner
+frames, then requires full curated and all five existing named-claim mutants.
+Those new host results are pending; this migration does not claim them green.
 
 ## v1.233.0 — article grid (U31 a / U25 a)
 
@@ -12678,6 +12737,121 @@ and optional feature variant. It stops above the unchanged 506,817 B ceiling (4 
 then re-seeds app rows as a separate child of the clean candidate and runs all required gates.
 No payload ceiling or policy baseline changes are part of this implementation.
 
+## v1.236.0 — Answer for Points: the landing asks with its question alone (owner U47 d)
+
+U47 asked whether the covered card should be A (question plus a "Reveal / Answer for a boost"
+button) or B (the same plus a blurred peek). The owner answered **d**: "the landcard is not
+shown until the user clicks on the question (which gets cutoff in mobile if it's too long) and
+instead of showing Show more, say Answer for Points which reveals the landcard (and no reveal
+button is needed in it, just show the multiple choices or the UI of flashcards if the user is
+already advanced as it already works)".
+
+"Show more" is not a label anywhere on dev, on the branch, or in production's bundle (production
+v1.224.14 carries a card **More** button, "Read more about this state", that dev already
+retired); it is read as the familiar truncation affordance. A landing, attempt or catch now
+arrives **asking** (`_landAsk`, `[data-land-ask]`): only the question and **Answer for Points**
+show. The answers stay built but inert and out of layout; the deck count, clock bar, backs and
+guides are absent; no key, click or paging gesture acts and no clock runs. The ✕ stays, as the
+Questions layer's handle. A phone (≤640px) cuts a long question to two lines (questions are
+capped at 100 characters, median 87, so the longest quarter or so are cut); desktop shows the
+whole question with the same button. Answer for Points, or a tap on the question, runs
+`_landReveal`: today's card for the rest of the landing — MC, or the recall flashcard for an
+advanced player — with paging, backfill and per-card windows as before.
+
+Deleted, not hidden: U34 a's `.ng-question-stage`, the in-card `[data-question-reveal]` button,
+its play-glyph CSS, the per-record `opened` consent, `_mountLandQ`'s `o.record` carry, the
+paging `_landPending` rewrite and the short-screen `:has([data-question-covered])` collapse.
+Kept: the `wrap.inert` guards in `_mcBlock`/`_recallBlock`/`_recallLive` (they now refuse the
+asking card), U35's media segregation, U36's heartbeat, U37 and D-433's phone-catch placement
+and short band. Restored: dev's `_landPending = true` at mount. The branch had set it false while
+covered ("a covered invitation is free to pass"), which silenced `land_q_ignored` — the cold-start
+funnel's `question_ignored` mark for the most likely first-visit behaviour, committing straight
+past the question. `coldstart-funnel.spec.ts` (never run by the branch, which gated on @curated
+only) went red on exactly that. The one deliberate difference from dev: `_declineLandQ("reading")`
+does not decline an asking question during a reading gesture, because a phone scrolls the reader
+to reach the question at all. The phone's ordinary layout C (Moves, Videos, then the question) was unchanged at
+first, so at 390×844 the asking question started below the reader's fold as dev's card does (U52 b, below, moved it).
+
+**Review fixes (APTS533, 28 October).** An independent review of PR #319 blocked it with reproduced
+findings, all fixed in the same PR. (1) A double tap on Answer for Points answered: the answers appear
+where the button was, so touch taps 180 ms and 350 ms apart, and a mouse double click on the landing
+and on the 1440 catch, graded answer A. Clicks on land/panic answers are now ignored for 500 ms after a
+take-up (`NG_LAND_TAP_GUARD_MS`; 350 was too short, because a 350 ms double tap's second click arrives
+after dispatch); letters stay unguarded and are inert while asking. (2) Following an article link no
+longer declined an asking question: the exemption covered every "reading" decline while the reader was
+interacting, and a link's own pointerdown sets interacting first. Only wheel and touch scrolls now pass
+`scroll` to `_declineLandQ`; links, Learn, the pane and the ✕ decline as on dev, with
+`land_q_declined:reading` and the funnel's `question_ignored`. (3) "As it already works": on a reading
+(URL) arrival the take-up called `beginPlay`, `_engage` and the clock, so 13.3 s later the question
+expired at −4 %. A reading arrival's take-up now only shows the card and clears the reader's
+`interacting`; the answer starts play, and reading-contract and url-arrival assert dev's dormant claims
+again. (10) `land_q_taken_up` (funnel side mark `question_taken_up`) makes the new step from asked to
+taken up visible. The gate gaps it found (D-433 mutants never run, hover engagement asserted after a call
+that engages by itself, the 6 px token after a shown deck's backs, a CSS-only reduced-motion poll, a
+mouse-driven keyboard spec, `locator.click()` in game-value-live) are each closed with a spec claim and,
+where a claim is new, a named mutant.
+
+**U52 b (owner, 28 October): no block at all.** Seeing the compact asking card, the owner wrote "seems like a
+whole nasty block hangin around there. i thought it'd be much more subtle", then: "immediately following the
+your move row without showing a block unless the user already clicked to reveal it once, or the user is doing
+flashcards/landcards from the study challenge or navigation". The asking state is now a quiet line of text
+directly after Moves (no container, fill or border; a soft text shadow), with Answer for Points inline at its
+end. On a stacked phone stage the question now precedes the Videos card in every landing (D-368's order put
+Videos between Moves and the question, which is why dev's card started at the fold, y 752 of 844). A phone trims
+the question with an ellipsis so question and link fit two lines: at 390x631 (the p10 real height) both show at
+arrival. After one take-up the session shows full cards (`NG_LAND_ASK_MEMORY = "session"`, sessionStorage), and
+a landing rendered with the pane open is always full. Study keeps the app's own arrows, verified in the key
+handler: ↑/↓ the node (Challenges lessons, Last rolls rolls, a session's or the drill's techniques), ←/→ the card.
+Contrast over the map, sampled with the text transparent and its shadow kept: the link inherited the question's
+shadow and measured 3.5:1 against the brightest 5% of a lit map label behind the long question at 1440, so it now
+carries its own denser shadow (still no box, fill or border). Across the five sampled frames (390x844, 390x631 and
+1440x900 short; 390x844 and 1440x900 long), measured on the final build (after APTS-R4's one-line short phone), the
+question measures min 13.9 / median 14.1:1 against the median background and min 10.2 / median 12.9:1 against the
+brightest 5%; the link min 9.9 / median 10.1:1 and min 8.4 / median 9.1:1 (it was 3.5). The single brightest pixel
+behind any sample is at least 4.4:1. Three subtle looks (quiet line, pill, ghost card) were
+started for U52 b's first note and dropped unbuilt-to-screens when the fuller note arrived.
+
+The first build gave the asking line the parts' small step (8px phone, 12px desktop) as well as the column's width.
+The stacked-order sweep caught what that costs: at take-up the step went back to the deck's 16px, so Moves and the
+question moved 4px each, and D-351's "the answer appears once, at its final rect" read 8px in a 1440 catch; with
+the line nearer Moves, the phone execution camera also found no free slot at 190px of reader scroll (roll-execution's
+D-370 sweep at 390x844 and 390x631, `noFit` +174, the pair painted over the prose). The
+step now stays the deck's through take-up (only the width differs: the line has no outside arrows to clear), and
+`_landReveal` lays the reader out synchronously, so the answers' first painted frame is final. The card's own entry
+fade (`ngCardInX`; in the reader its transform is pinned to none) now runs when the card is taken up, since the
+quiet line itself has none.
+
+CI's shard 4 then found the second cost of the quiet line, in the phone execution camera. D-370's free space under
+the executing row was the landing card's slot, emptied for the execution; the quiet line empties about 65px at 390, so
+with the reader scrolled 170-200px over the band `frameExecution` found no slot (`noFit` +174 per step) and the pair
+fell under the card just pressed. Controls at 390x844, 3 runs each: red 3/3 on this branch, green 3/3 on dev
+`ae3c8c347`'s own bundle served on the same merged content, green 3/3 on the dev twin. `frameExecution` now opens
+the missing height under the row for that execution only (the handoff's height grows, so the article moves down and
+the clicked row never does), once per execution and counted (`_execFrame.slot`); mutant `u52b-execution-slot-lost`.
+An earlier focused re-run had filtered by `file:line` after the specs moved one or two lines, so three of its four
+targets (this sweep among them) never ran and its green said nothing about them. From then on each focused run's
+JSON report went through a ran-count check that exits 1 on zero (`ran.py`, in the worker's scratch, not the repo);
+the full shards and gen ran on PR CI, and the mutant runners already count a run with no test as not killed.
+
+**Review round APTS-R4 (merge with follow-ups, three must-fix).** (1) At 390x631 the link was off screen at arrival:
+the deck's 16px gap after Moves (kept so a take-up moves nothing, D-351) pushed the two-line asking line to y 521-556
+with the link on its second line (540.5-554.5) and the reader ending at 541. Under 700px tall `_fitAskLine` now trims
+to ONE line, so the link shares the first; covered-card pins it at arrival for a short and a long question
+(`u52b-short-phone-two-lines`). (2) Chromium delivers a touch press's pointerdown before touchstart, so a touch
+scroll declined the asking question; `readingInteraction` counts a touch or pen pointerdown as a scroll, and a reader
+already reading still declines on a link, key or focus (a real CDP touch drag pins it; `u52b-touch-press-declines`).
+(3) U52 b's two rules got specs and mutants: the session opt-in (`u52b-opt-in-forgotten`) and the pane-open full card
+(`u52b-pane-asks`). Polish: a take-up keeps `animation:none`, so the card's entry fade does not replay on the
+question just tapped; the arrow is `content:" →"/""`, outside the accessible name; keyboard focus on the old card or
+its arrows moves to Answer for Points when the next landing asks. The clock text in Neural.md and the rules now says
+what `_clockGate` does: a card shown on arrival after an opt-in arms once the player has engaged; with the pane open
+no clock runs. Deferred payload +116 B (506,590 of 506,817). CI's shard 1 on `7990c0399` then went red once at camera-continuity's
+CLEAR_SEC "a card the player turns back on" non-vacuity check: the failing frame shows a move executing, so the click
+measured on Answer for Points landed on a move (the restored card re-docks above the re-dealt hand on a real frame).
+Not this round's change: 10/10 green on `7990c0399` and 10/10 on `1cf59ba38` here. The premise now waits for the card
+to hold still across real frames and requires the click to have taken the question up; the claim and its
+non-vacuity check are unchanged, and v1.219.0's hand mutant is scripted as `slowclear` (killed at "CLEAR_SEC a row
+turned on").
 
 ## v1.237.0 — the directed opening (owner U48 → U50 d, "S2 · Z2")
 

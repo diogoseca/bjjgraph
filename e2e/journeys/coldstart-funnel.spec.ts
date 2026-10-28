@@ -230,6 +230,7 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   // ── answering: click a real MC option on the LANDING surface (its own handle) ──
   const opts = page.locator("[data-land-mc-opt]");
   expect(await opts.count(), "multiple choice, in play").toBeGreaterThan(1);
+  await j.openQuestion(); // U47 d: the answers lay out once the question is taken up
   await opts.first().click();
   await j.expectBeat("land_q_answered");
 

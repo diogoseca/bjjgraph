@@ -120,6 +120,7 @@ test("one ×2..×8 climb: exact-n challenges complete once each, the ×8 re-stam
         : null
     })
     expect(mc, "landing question live (srsVeteran stage:{} — every landing asks)").toBeTruthy()
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.keyboard.press("abcd"[(mc as any).correct])
     const pending = await page.evaluate(() => !!(window as any).__neural._landPending)
     expect(pending, "answer registered — nothing left on the table for the pick to ignore").toBe(false)

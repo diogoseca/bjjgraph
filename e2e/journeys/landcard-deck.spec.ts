@@ -17,6 +17,7 @@ async function setup(page: Page, recall = false) {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U47 d: this journey deliberately answers/times the question.
   const total = await page.evaluate((recall) => {
     const a = (window as any).__neural
     const key = a._landQ.key, cards = a._landDeckCards(key)
@@ -37,9 +38,13 @@ async function setup(page: Page, recall = false) {
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await page.waitForTimeout(350) // initial entry motion, not the transition under test
   if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]', 'dismiss the harness visitor’s earned patch')
-  // D-338 (owner): the article view reads Videos, Moves, Questions, so the deck now starts under
-  // the moves and can begin below the fold. Bring the face into the reader's view, as a reader
-  // scrolls to it; a programmatic scroll is not a reading gesture and starts nothing.
+  // D-338 (owner), then U52 b: the article view reads Moves, the question, then Videos, so the deck
+  // starts under the moves and can begin below the fold. Bring the face into the reader's view, as a
+  // reader scrolls to it; a programmatic scroll is not a reading gesture and starts nothing.
+  // U47 d + U52 b: this re-render is the tab's first landing, so it asks (no take-up yet; after one, a
+  // landing shows its card directly). Take it up before bringing the face into view, so the reader
+  // scrolls to the shown card rather than to the shorter asking line.
+  await j.openQuestion()
   await page.locator('[data-landcard]').evaluate(e => e.scrollIntoView({ block: 'nearest' }))
   await j.readerLayoutSettled()
   return { j, total }
@@ -140,10 +145,10 @@ for (const width of [1440, 390]) {
       // the DEEPEST back is the first child: `_updateLandDeck` appends --back-index descending
       const deepest = document.querySelector(".ng-landstack")!.firstElementChild!.getBoundingClientRect()
       const article = a._reader.articleEl.getBoundingClientRect(), film = a._landFilmEl?.getClientRects().length ? a._landFilmEl.getBoundingClientRect() : null
-      // D-368: on a stacked stage the current card sits between the Moves tray and the face
-      const stacked = !!film && a._reader.game.dataset.mediaLayout !== "side-by-side" && film.top >= rr.bottom && film.bottom <= r.top
+      // U52 b (superseding D-368's stacked order): on a stacked stage the current card follows the face's backs
+      const stacked = !!film && a._reader.game.dataset.mediaLayout === "stacked" && film.top >= r.bottom
       return {
-        stacked, filmToFace: film ? r.top - film.bottom : null,
+        stacked, backTipToFilm: film ? film.top - deepest.bottom : null, filmToArticle: film ? article.top - film.bottom : null,
         side: parseFloat(cs.paddingLeft), foot: parseFloat(cs.paddingBottom),
         padTop: parseFloat(cs.paddingTop), border: parseFloat(cs.borderBottomWidth),
         height: r.height, face: qr.height, sizing: cs.boxSizing,
@@ -167,18 +172,22 @@ for (const width of [1440, 390]) {
       .toBeLessThanOrEqual(Math.max(m.foot + m.border, 236 - m.padTop - m.face - m.border))
     expect(m.overflow, "the whole face still fits without scrolling").toBeLessThanOrEqual(1)
     // Tight under the hand: the one 16px deck gap at both widths, with the same 18 ceiling, so
-    // the deck can never go back to paying the gap twice while staying green.
-    // STALE CONTRACT (D-368, layout C): on a stacked stage (the phone) the current card sits above the face, which
-    // is tight under it instead, at the stage's own 12px; beside it (the desktop) the face is tight under Moves.
-    if (m.stacked) {
-      expect(m.filmToFace, "the face sits tight under the current card").toBeLessThanOrEqual(14)
-      expect(m.filmToFace, "…and never under it").toBeGreaterThanOrEqual(0)
-    } else {
-      expect(m.trayToFace, "the face sits tight under the Moves tray").toBeLessThanOrEqual(18)
-      expect(m.trayToFace, "…and never under it").toBeGreaterThanOrEqual(0)
-    }
+    // the deck can never go back to paying the gap twice while staying green. STALE CONTRACT (D-368, layout C:
+    // stacked, the current card sat between Moves and the face): U52 b puts the question straight after Moves
+    // everywhere, so the face is tight under the Moves tray on a stacked stage too.
+    expect(m.trayToFace, "the face sits tight under the Moves tray").toBeLessThanOrEqual(18)
+    expect(m.trayToFace, "…and never under it").toBeGreaterThanOrEqual(0)
     expect(m.backTipBelowFace, "premise: the deepest back peeks below the face").toBeGreaterThan(0)
-    expect(m.backTipToArticle, "the deepest back stays clear of the article").toBeGreaterThanOrEqual(0)
+    // U47 d review: article-sections measures the asking face (no backs), so what follows a SHOWN deck's
+    // backs is pinned here: the reader pays 3px per back first. Stacked (U52 b), the current card follows
+    // them at the parts' 16px step and the article follows it at the 6px section token; with nothing after
+    // the deck the article follows the backs at that token. Beside the Videos card (1440) the taller of the
+    // two sets the article, so there it stays a clearance.
+    if (m.stacked) {
+      expect(m.backTipToFilm, "stacked: the current card follows the deck's backs at the parts' step").toBeCloseTo(16, 0)
+      expect(m.filmToArticle, "…and the article follows it at the six-pixel token").toBeCloseTo(6, 0)
+    } else if (width === 390) expect(m.backTipToArticle, "the article follows the deck's backs at the six-pixel token").toBeCloseTo(6, 0)
+    else expect(m.backTipToArticle, "the deepest back stays clear of the article").toBeGreaterThanOrEqual(0)
   })
 }
 
@@ -259,7 +268,7 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
         beside: a._reader.game.dataset.mediaLayout === 'side-by-side',
         sameScrollport: a._reader.game.contains(a._landEl) && a._reader.game.contains(a._landFilmEl) && a._reader.game.contains(a.optionsRef.current),
         extent: a._reader.root.getBoundingClientRect().top + a._reader.root.scrollHeight - a._reader.root.scrollTop,
-        page: a._landPage,
+        page: a._landPage, backs: a._landStackEl.childElementCount,
         targets: [...a._landEl.querySelectorAll("[data-land-mc-opt]")].map((b: any) => b.getBoundingClientRect().height),
         overflow: a._landEl.scrollWidth - a._landEl.clientWidth,
       }
@@ -279,13 +288,14 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
     expect(layout.sameScrollport).toBe(true)
     // STALE CONTRACT (D-368, layout C, reversing D-338's Videos, Moves, Questions): Moves lead, and the stage
     // follows them at the parts' 16px step. The current card sits beside the question where the width holds
-    // 400 + 60 + 390 (tops aligned), otherwise above it at 12px.
+    // 400 + 60 + 390 (tops aligned). STALE CONTRACT (D-368: stacked, it sat 12px above the question): U52 b puts
+    // the question straight after Moves, so stacked, the current card follows the question's backs at that step.
     const stageTop = Math.min(layout.film.top, layout.card.top)
     expect(stageTop - layout.hand.bottom, 'the stage follows Moves at the parts\' step').toBeCloseTo(16, 0)
     if (layout.beside) {
       expect(layout.card.left - layout.film.right, 'beside: the current card is 60px left of the question').toBeCloseTo(60, 0)
       expect(layout.film.top, 'beside: tops aligned').toBeCloseTo(layout.card.top, 0)
-    } else expect(layout.card.top - layout.film.bottom, 'stacked: the current card is 12px above the question').toBeCloseTo(12, 0)
+    } else expect(layout.film.top - (layout.card.bottom + 3 * layout.backs), 'stacked: the current card follows the question\'s backs at the parts\' step').toBeCloseTo(16, 0)
   }
 })
 
@@ -563,7 +573,7 @@ test("@curated long recall answers grow the card and scroll with the whole colum
   await expect(page.locator(".ng-challenge-reward")).toHaveCount(0)
   await j.clickByMouse("[data-land-next]")
   await j.readerLayoutSettled()
-  // With the reserved node band, Reveal starts at y533 below the y478 flow end.
+  // With the reserved node band, Show answer starts at y533 below the y478 flow end.
   // Scroll it into view; the following native click must still own its centre.
   await page.locator("[data-land-reveal]").scrollIntoViewIfNeeded()
   await j.clickByMouse("[data-land-reveal]")

@@ -34,6 +34,7 @@ const answer = async (page: any, correct: boolean) => {
     return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null
   })
   expect(mc, "a live landing question").toBeTruthy()
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.keyboard.press("abcd"[correct ? mc!.correct : (mc!.correct + 1) % mc!.n])
 }
 

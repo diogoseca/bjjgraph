@@ -289,7 +289,11 @@ after Space hides it or paging brings it back. The "+7 Tilt toward winning" lege
 (default `true`). Off removes pulsing edges and card warnings, retaining static catch status,
 countdown and mechanics. Reduced motion also suppresses frame-driven glow without changing
 the saved key. Pressure, settings, progress receipts and a cached motion-query change listener
-synchronize visuals only when the effective state changes; frame ticks still drive the clock. Sound/volume still govern caught and expiry cues; no heartbeat audio loops.
+synchronize visuals only when the effective state changes; frame ticks still drive the clock.
+U36 (v1.232.0): a catch starts with one full-strength double beat in 1 second, then one
+softer double beat every 30 seconds (peaks .4 and .296 opacity). The question clock cannot
+accelerate it. Reduced motion keeps a static .144-opacity cue. Sound/volume still govern
+caught and expiry cues; no heartbeat audio loops.
 
 ### The pair label (v1.135.0; compact qualified stack v1.173.2)
 
@@ -331,10 +335,45 @@ player is already reaching into.
 Choice cards show a direct title, approved video, immediate chance and Win chance; the shortcut
 sits inside the same category shape used on the map. A threat card's colour is your win chance.
 
+U47 d + U52 b (v1.236.0, owner 2026-10-27/28; supersedes U34 a's in-card **Reveal / Answer for a
+boost**): a landing, attempt or catch arrives **asking** — no card at all, only its question as a
+quiet line **immediately after the Your move row** (`_landAsk`, `[data-land-ask]`; on a stacked
+phone stage the Videos card now follows the question), with **Answer for Points** inline at its
+end. No container, fill or border; a soft text shadow keeps it legible over the map. A phone trims
+the question with an ellipsis (`_fitAskLine`, never the link) so the line is at most two lines; a
+390×631 phone shows both at arrival. The card's answers are built but inert, so no key, click or
+paging gesture acts on them, letters a/b/c included, and no clock runs. The ✕ stays: it is the
+Questions layer's handle. Answer for Points (Tab + Enter too), or a tap on the question, calls
+`_landReveal`: the card opens in place as today's card (multiple choice, or the recall flashcard)
+for the rest of that landing; paging and backfill keep it shown, each card keeps its own window.
+A take-up moves nothing above the card: the line keeps the deck's step (only its width differs) and the
+reader lays out at once, so the answers paint first at their final rect (D-351). After one take-up, later landings show the full card directly (`NG_LAND_ASK_MEMORY`, "session":
+this browser tab), and a landing rendered while the pane is open (Study, Challenges, Last rolls,
+Explore) is always the full card. Study keeps its own arrows: ↑/↓ the node (lesson, roll,
+technique), ←/→ the card. In a roll the take-up starts the question clock; a reading (URL) arrival
+stays dormant "as it already works" — the answer starts play. For 500 ms after a take-up, clicks
+on land/panic answers are ignored (`NG_LAND_TAP_GUARD_MS`). Each take-up emits `land_q_taken_up`
+(funnel side mark `question_taken_up`). As on dev, an asking question is pending: committing past
+it emits `land_q_ignored`, and an article link, Learn, the pane, ✕ or a background tap decline it
+(`land_q_declined`); only a wheel or touch scroll does not decline a question not yet taken up.
+Phone catch answers use 5px top/bottom padding instead of 9px.
+D-433 (D-370 adapted to U35, 2026-10-26): the live phone catch puts the question before
+the same native Moves row. The asking question, its Answer for Points and every shown answer
+must be hit-testable without scrolling or an automatic scroll writer, at 390×844 and 390×631. The live band
+is 144px on the taller phone and 80px below 700px viewport height; it holds through the
+pick and returns to the normal 186px at the result. Account, typography and target sizes
+stay unchanged. Moves may require user scrolling; they remain separate and untimed.
+
+Standing owner rule: question cards, MC and flashcards contain no technique video, poster,
+Watch control or next-video step. Video belongs to the video card or Videos section. The
+catch covers only its question; native Moves remain separate and untimed. U37: there is no
+next-step overlay inside a video player.
+
 The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the
 choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat —
-the v1.123.0 Hick's-law knee died with the hand clock) arms when a question mounts
-(`_armLandClock`) and drains a 3px bar on the card's top edge (neutral, red at ≤3s, "Answer
+the v1.123.0 Hick's-law knee died with the hand clock) arms when the player presses **Answer for Points**
+(`_armLandClock`) — or, for a card that arrives already shown (after one take-up in this tab, U52 b), on arrival
+once the player has engaged; with the pane open (study) it does not run (`_clockGate`: `!deckShown`) — and drains a 3px bar on the card's top edge (neutral, red at ≤3s, "Answer
 3…2…1" in the announcer). Expiry (`_expireLandQ`) reveals the answer as a MISS — correct option
 highlighted, a failed SRS review, −4% and momentum broken (a later card: its smaller step) — and
 the hand stays
@@ -345,9 +384,9 @@ penalty exists only for letting it expire while it faces you. **The question clo
 pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
 staged boards and internal pauses included — **but it never STARTS before the player does**
 (v1.137.0, owner: "a first-time Guest can land on TOO SLOW · −4% before ever interacting"): no
-window arms until the first real interaction (click, keypress, graph hover — one document-level
-once+capture latch, `_engage`) AND the question card is visible; an early arm parks in
-`_clockWait` (a FLAG — the bar element resolves at arm time, because the card can re-render
+window arms until the player presses Answer for Points (or taps the question; a card shown on arrival
+after an opt-in needs only engagement) and the card is visible; engagement alone (click, keypress or graph hover) cannot take the question up. An early arm parks in
+`_cwArm` (a FLAG — the bar element resolves at arm time, because the card can re-render
 between park and engagement) and fires the moment both hold. Brand-new visitors
 (`_returningVisitor()` false) get a 1.5× grace window; returning players keep full pressure; the last three seconds pulse the card itself
 (`ng-clock-hot` — a MARKER class since v1.135.1: the pulse is frame-driven border/box-shadow

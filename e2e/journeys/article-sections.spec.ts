@@ -126,7 +126,10 @@ for (const width of [1366, 390]) {
     expect(normal.sectionHeaders, 'no header names an open Moves or Questions').toEqual([0, 0])
     expect(normal.cardGap, 'Questions follows Moves at the deck gap').toBeCloseTo(16, 0)
     // The deck's backs peek 3px per remaining card below the face; the token is paid after them.
-    expect(normal.backs, 'premise: the deck shows its backs').toBeGreaterThan(0)
+    // U47 d: a reading arrival's question asks alone, with no backs until Answer for Points (which
+    // would start play, so this reading journey cannot take it up); landcard-deck.spec.ts measures
+    // the shown deck's backs and its article clearance.
+    expect(normal.backs, 'U47 d: the asking question shows no backs').toBe(0)
     expect(normal.sectionGap, 'the article follows Questions (and its backs) at the six-pixel token').toBeCloseTo(normal.backs + 6, 0)
     // U12 a (D-355): the article's own ✕ is its top row; the first section follows it directly.
     expect(normal.closeRow, 'the first section follows the article\'s ✕ row').toBeCloseTo(0, 0)

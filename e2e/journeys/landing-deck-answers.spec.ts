@@ -86,6 +86,7 @@ async function setup(page: Page, width: number, height: number) {
   const j = journey(page);
   await j.boot("/", { seedRolls: questionRolls() });
   await j.land("Mount Top");
+  await j.openQuestion() // U47 d: this journey deliberately answers/times the question.
   expect(await j.landQuestion(), "the landing asks a question").not.toBeNull();
   await j.advance(200); // let the hand settle under the card
   // D-338: in the article view Questions follows Videos and Moves and can start below the fold;
@@ -101,6 +102,7 @@ async function next(page: Page, j: ReturnType<typeof journey>) {
   await j.clickByMouse("[data-land-next]", "the next-flashcard chevron");
   await expect.poll(async () => { await j.advance(16); const s = await st(page); return s.page; }, { timeout: 20_000 }).toBe(p0 + 1);
   await j.advance(50);
+  await j.openQuestion();
 }
 // answer the mounted card through its own MC buttons; which option is right/trap comes from the MC
 // truth itself. False when this card cannot be answered that way (recall-only, or no such tier).
@@ -365,6 +367,7 @@ test(`a new landing starts the table over: its first card is the landing questio
   await page.waitForTimeout(1700);
   expect((await named(page, "roll_end")).length, "the roll did not end").toBe(0);
   expect((await st(page)).qMod, "the old exchange's steps are forgiven on arrival").toBe(0);
+  await j.openQuestion(); // U47 d: the new landing asks first; Answer for Points shows its card
   const before = await cards(page);
   expect(await answer(page, "wrong"), "the new landing's first card").toBe(true);
   await j.advance(100);
@@ -428,6 +431,7 @@ const panicSetup = async (page: Page) => {
   await j.boot("/", { seedRolls: questionRolls() });
   await j.hydrateAll();
   await j.land("Mount Top");
+  await j.openQuestion() // U47 d: this journey deliberately answers/times the question.
   await enterDefence(page);
   await page.waitForTimeout(400);
   const mc = await page.evaluate(() => {
@@ -436,6 +440,7 @@ const panicSetup = async (page: Page) => {
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? { correct: a._mc.correct, n: a._mc.n } : null;
   });
   expect(mc, "the drill asks multiple choice (its pool is warm)").not.toBeNull();
+  await j.openQuestion(); // U47 d: the catch's question asks first; these journeys answer it or time it out
   return { j, mc: mc! };
 };
 const panicState = (page: Page) =>

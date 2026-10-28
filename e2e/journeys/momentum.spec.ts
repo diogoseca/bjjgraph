@@ -24,7 +24,7 @@ const state = (page: any) =>
   })
 
 /** answer the live landing question (correct or deliberately wrong) via the keyboard */
-const answer = async (page: any, correct: boolean) => {
+const answer = async (j: ReturnType<typeof journey>, page: any, correct: boolean) => {
   // v1.80.4: the landing question mounts once this state's deck AND its distractor pool are
   // resident — the card itself (identity + film) renders immediately, the question can be one
   // fetch behind. Waiting for the block is not a weaker assertion: it is still "a live landing
@@ -44,6 +44,7 @@ const answer = async (page: any, correct: boolean) => {
     return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null
   })
   expect(mc, "a live landing question").toBeTruthy()
+  await j.openQuestion() // U47 d + U52 b: the tab's first landing asks; after one take-up later landings show the card (a no-op here).
   await page.keyboard.press("abcd"[correct ? mc!.correct : (mc!.correct + 1) % mc!.n])
 }
 
@@ -68,12 +69,12 @@ test("back-to-back rights climb the ladder: DOUBLE at ×2, TRIPLE at ×3, heat r
   await j.boot("/")
   await j.land("Mount Top")
 
-  await answer(page, true) // ×1 — no announcer yet, no chip
+  await answer(j, page, true) // ×1 — no announcer yet, no chip
   expect((await state(page)).combo).toBe(1)
   await expect(page.locator("[data-momentum]")).toHaveCount(0)
 
   await advanceState(j, page)
-  await answer(page, true) // ×2 — DOUBLE COMBO!
+  await answer(j, page, true) // ×2 — DOUBLE COMBO!
   let s = await state(page)
   expect(s.combo).toBe(2)
   expect(s.mod, "+2.5% at ×2").toBeCloseTo(0.025, 6)
@@ -81,7 +82,7 @@ test("back-to-back rights climb the ladder: DOUBLE at ×2, TRIPLE at ×3, heat r
   await expect(page.locator('[data-momentum="2"]'), "the heat chip appears").toBeVisible()
 
   await advanceState(j, page)
-  await answer(page, true) // ×3 — TRIPLE COMBO!
+  await answer(j, page, true) // ×3 — TRIPLE COMBO!
   s = await state(page)
   expect(s.combo).toBe(3)
   expect(s.mod).toBeCloseTo(0.05, 6)
@@ -190,13 +191,13 @@ test("a wrong answer breaks the combo, names the loss, and cools the hand", asyn
   await j.boot("/")
   await j.land("Mount Top")
 
-  await answer(page, true)
+  await answer(j, page, true)
   await advanceState(j, page)
-  await answer(page, true) // ×2
+  await answer(j, page, true) // ×2
   expect((await state(page)).combo).toBe(2)
 
   await advanceState(j, page)
-  await answer(page, false) // wrong — the streak dies
+  await answer(j, page, false) // wrong — the streak dies
 
   const s = await state(page)
   expect(s.combo).toBe(0)
@@ -216,7 +217,7 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
   await j.boot("/")
   await j.land("Mount Top")
 
-  await answer(page, true) // ×1
+  await answer(j, page, true) // ×1
   // Prove the NEXT state's whole deck before we get there, so it will ask nothing.
   //
   // The destination is the CALIBRATED outcome's target — the same rule the second half of this
@@ -334,9 +335,9 @@ test("momentum is per roll — a fresh match starts cold", async ({ page }) => {
   await j.boot("/")
   await j.land("Mount Top")
 
-  await answer(page, true)
+  await answer(j, page, true)
   await advanceState(j, page)
-  await answer(page, true) // ×2, chip live
+  await answer(j, page, true) // ×2, chip live
   await expect(page.locator("[data-momentum]")).toBeVisible()
 
   await j.rig("ai-skill", [0.5])

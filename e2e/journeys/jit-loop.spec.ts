@@ -13,6 +13,7 @@ test("expiry narrates 3-2-1, reveals the answer as a miss, and the HAND stays li
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U47 d: only a question taken up with Answer for Points can expire
   const handBefore = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length)
   await j.advance(30_000)
   const beats = (await j.beats()).map((b) => b.beat)

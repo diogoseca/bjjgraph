@@ -169,6 +169,10 @@ test("cold start: the deck payload landing mid-turn gives the CURRENT state its 
   // pointer-events:auto trap (a fixed overlay that does not re-enable it is unclickable, because the
   // canvas hit-tests above it, and a keyboard-driven assertion masks that entirely).
   await cardSettled(page);
+  // U47 d: the backfilled question asks first; Answer for Points, where it sits, shows its answers.
+  await j.clickByMouse("[data-land-ask-go]", "the backfilled question's Answer for Points");
+  await j.tapGuardSettled(); // the double-tap guard: a deliberate answer comes after it
+  await cardSettled(page);
   await j.clickByMouse(
     "[data-land-mc-opt]",
     "the backfilled question's first MC option",
@@ -286,6 +290,10 @@ test("cold start: the FIRST landing carries its question, and a late payload rea
   // option has to be where the visitor can reach it WITHOUT scrolling — exactly the part
   // `locator.click()` cannot say (it scrolls first).
   await cardSettled(page);
+  // U47 d: the first landing's question asks first; Answer for Points, where it sits, shows its answers.
+  await j.clickByMouse("[data-land-ask-go]", "the first landing's Answer for Points");
+  await j.tapGuardSettled(); // the double-tap guard: a deliberate answer comes after it
+  await cardSettled(page);
   await j.clickByMouse(
     "[data-land-mc-opt]",
     "the first landing's first MC option",
@@ -305,6 +313,10 @@ test("cold start: a late dossier preserves both the unanswered question and the 
   await j.boot("/", { keepTutorial: true });
   await j.land("Mount Top"); // decks present: the question is on the table, unanswered
   await expect(page.locator("[data-land-q]")).toHaveCount(1);
+  // U47 d: take the question up first, so its options are laid out (and read) before the dossier lands.
+  await cardSettled(page);
+  await j.clickByMouse("[data-land-ask-go]", "Answer for Points");
+  await j.tapGuardSettled(); // the double-tap guard: a deliberate answer comes after it
   const article = page.locator('[data-reader-ready="true"] [data-reader-body]');
   await expect(article).toContainText("Mount");
   const published = await article.textContent();
@@ -372,6 +384,9 @@ test("cold start: the landing card stays centred through its entry animation", a
   // mounts — and the backfill mounts it again mid-turn, so a cold visitor sees it twice.
   const j = journey(page);
   await j.boot("/", { keepTutorial: true });
+  // U52 b: the asking question is a quiet line with no entry animation, and a take-up keeps the card still
+  // (APTS-R4). The card ENTERS when a landing shows it directly: after a take-up in this tab (the session opt-in).
+  await page.evaluate(() => sessionStorage.setItem("ng-land-opted-in", "1"));
   await j.land("Mount Top");
 
   // Read the card's own resolved animation-name, then the keyframes it actually names. This is the
@@ -450,6 +465,7 @@ test("cold start: a payload arriving after the question was answered never re-as
       .querySelector("[data-land-q]")!
       .setAttribute("data-identity-probe", "1"),
   );
+  await j.openQuestion(); // U47 d: the answers lay out once the question is taken up
   await page.locator("[data-land-mc-opt]").first().click();
   await j.expectBeat("land_q_answered");
   const answered = await read(page);

@@ -44,6 +44,7 @@ test("attack window spent by expiry → caught opens a NEW defense window armed 
   await j.boot("/", { initialState: whiteBeltHolder() })
   await j.land("Mount Top")
   await j.expectBeat("options_dealt")
+  await j.openQuestion() // U47 d: the attack window arms when the question is taken up
 
   // ── ATTACK WINDOW: the landing question is up and its clock armed ──
   const attack = await page.evaluate(() => {
@@ -102,6 +103,7 @@ test("attack window spent by expiry → caught opens a NEW defense window armed 
   // STALE TIMING (D-351, CI 931a7eea0): the drill publishes once its defender article renders, and its
   // parked clock arms on the next frame; this pumped harness ticks only when asked, so pump one.
   await j.landSettled()
+  await j.openQuestion() // U47 d: the catch's question asks first; its window arms when taken up
   await j.advance(17)
   const defense = await page.evaluate(() => {
     const a = (window as any).__neural
@@ -128,6 +130,7 @@ test("attack window spent by expiry → caught opens a NEW defense window armed 
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
   })
   if (mcCorrect != null) {
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
   } else {
     await page.locator("[data-panic-reveal]").click()
