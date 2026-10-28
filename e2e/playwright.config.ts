@@ -36,10 +36,6 @@ export default defineConfig({
     baseURL: "http://localhost:8133",
     viewport: { width: 1440, height: 900 },
     screenshot: "only-on-failure",
-    // RDR-R2b: both deploy workflows' curated gates set PW_TRACE=retain-on-failure, so the next red
-    // nobody can reproduce (article-sections.spec.ts:437 went red once, 0 of 81 local runs) ships its
-    // trace in the failure artifacts (e2e/test-results/). Unset, nothing is traced, as before.
-    trace: (process.env.PW_TRACE as "on" | "off" | "retain-on-failure" | undefined) || "off",
   },
   webServer: {
     // scripts/e2e-serve.mjs, not `serve`: a BARE route naming a page emitted both as `X.html`
