@@ -94,7 +94,8 @@ With Book shown no control turns the article, Map or Feedback off (D-338: no Vie
 opens the pane, as Browse did. Book off (a saved state) keeps the restore shelf. `landFilm/Card/Hand/Map/Feedback` store normal visibility; with the article shown
 the film follows `readerSection.videos`. `readerBook` controls the article.
 Hidden questions are not built; hidden hands stay dealt and untimed. Card and hand publish once
-the landing's article renders (≤800ms, D-351); late Videos or film never move them. Focus is retired (D-338):
+the landing's article renders (≤800ms, D-351); late Videos or film never move them. The hand starts its Win
+chance only after the reader has laid its landing out once (`_readerAwaited`, D-354; 3 s at most). Focus is retired (D-338):
 `readingFocus` and `readingCard/Hand/Map/Feedback` are not read. Restores start no play. References offer Study tools.
 
 Content URLs and links prepare dormant controls (`NG_READING_DEFAULT_ON_CONTENT_URL`).
@@ -589,9 +590,10 @@ on the drawn silhouette.
 at rest. The state is named at the pick, and the named node holds on the glass until the reader section
 mounts (pick + 2.0 s, unchanged). It then rises into the band on `cubic-bezier(.4,0,.2,1)` over 2 s, the board
 fading in and riding up a fixed distance below it, the heading gliding with them; with the Book put away the
-rows are the board. The board's styles are state on the app wrap (`data-ng-open`, `NG_CAM_OPEN_CSS`), never on
-a row, so the reader adopting a row restyles it at once; below 10% opacity the rows are hidden, not merely
-transparent, so they take no tap. A restart first breathes out to the overview while the old board fades, its
+rows are the board. The board's state is on the app wrap (`data-ng-open`, `NG_CAM_OPEN_CSS`) and its two values,
+registered not to inherit, are stamped on the parts that read them, so the reader adopting a row restyles it at
+once and no frame restyles the article; below 10% opacity the rows are hidden, not merely transparent, so they
+take no tap, and the Win chance is asked again the frame they show. A restart first breathes out to the overview while the old board fades, its
 article held in place. Reduced motion snaps twice (the overview, then the landing once the reader has adopted
 the rows); a pan, pinch or drag hands the camera over at once, and it stays the player's until their next
 move, navigation or roll. A pause or a camera lease ends the arrival without taking the camera, and the
