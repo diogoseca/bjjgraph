@@ -140,7 +140,8 @@ test.describe("the directed arrival", () => {
     const j = journey(page);
     await j.boot("/");
     await rigAmbient(j); await rigStart(page, "Side Control Top");
-    await record(page, 630);   // the first opening, settled
+    const settled = (await record(page, 630)).at(-1)!;   // the first opening, settled: where the article sits
+    expect(settled.article, "premise: the settled board shows its article").not.toBeNull();
     await rigStart(page, "Mount Top");
     await page.evaluate(() => (window as any).__neural.resetRoll());
     const S = await record(page, 414);
@@ -149,7 +150,8 @@ test.describe("the directed arrival", () => {
     const E = pick! + 2.0;
     const fading = S.filter((f) => f.t < E && f.secO != null && f.secO > 0.01 && f.article != null);
     expect(fading.length, "premise: frames with the old board fading").toBeGreaterThan(30);
-    expect(span(fading.map((f) => f.article!)), "HOLD-ARTICLE: the fading article stays where it sat in its board").toBeLessThan(1);
+    // against the frame BEFORE the restart: the clears reflow the reader before the first recorded frame
+    expect(Math.max(...fading.map((f) => Math.abs(f.article! - settled.article!))), "HOLD-ARTICLE: the fading article stays where it sat in its board").toBeLessThan(1);
     const m = motion(S);
     expect(m.move, "BOUNDS: MOVE").toBeLessThanOrEqual(MOVE_PX[390]);
     expect(m.kick, "BOUNDS: KICK").toBeLessThanOrEqual(KICK_PX[390]);
