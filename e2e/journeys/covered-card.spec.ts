@@ -46,7 +46,7 @@ for (const width of [1440, 390]) {
     const j = journey(page)
     await j.boot('/', { seedRolls: coveredRolls })
     await j.land('Mount Top')
-    await expect(page.locator('.ng-landcard [data-land-ask-go]')).toHaveText('Answer for Points')
+    await expect(page.locator('.ng-landcard [data-land-ask-go]'), 'the arriving question offers Answer for Points').toHaveText('Answer for Points')
     // APTS-R4: the arrow is decoration (`content:" →"/""`); the link's accessible name is its words alone.
     await expect(page.getByRole('button', { name: 'Answer for Points', exact: true }), 'the accessible name is "Answer for Points", without the arrow').toHaveCount(1)
     // U34 a's in-card Reveal is deleted, not hidden.

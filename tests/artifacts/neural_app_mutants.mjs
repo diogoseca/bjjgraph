@@ -49,7 +49,7 @@ const controls = [
     'a saved Focus no longer hides the question'],
   // The follow-cam lifts the node against the reading band's edge again (two rest framings).
   ['reading-band-lift-restored', 'pane-layout.spec.ts', '1440px pane moves film, card, article',
-    [['(!c.band||u)&&(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus'], ['active:!c.band||!!(u!=null&&u.band)', 'active:!0']], 131],   // back.node.y; 125 -> 127 (D-347), -> 131 (D-368's pane-layout:82). D-355: the band lifts only in a flight
+    [['(!c.band||u)&&(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus'], ['active:!c.band||!!(u!=null&&u.band)', 'active:!0']], 135],   // back.node.y; 125 -> 127 (D-347), -> 131 (D-368's pane-layout:82), -> 135 (U52 b's pane-layout claims). D-355: the band lifts only in a flight
   // H46 (2026-10-21): landcard-modes:349 now waits for the defender's question before its press; the arrows must
   // still be what pages it (the defense mode dropped from the landing card's arrow branch).
   ['defense-arrows-lost', 'landcard-modes.spec.ts', 'the generic defending card pages its own deck with the same arrows',
@@ -126,7 +126,7 @@ const controls = [
   // U47 d (owner, 2026-10-27): a landing asks with its question alone; "Answer for Points", or a tap on the
   // question, shows today's card for the rest of the landing. Each control dies at one covered-card claim.
   ['u47-arrives-shown', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
-    [['i||(this._landAsk=!this.deckShown&&!this._landOptedIn(),this._landPage=null', 'i||(this._landAsk=!1,this._landPage=null']], 'U47 d: on landing only the question (and its ✕) shows; the card waits'],
+    [['i||(this._landAsk=!this.deckShown&&!this._landOptedIn(),this._landPage=null', 'i||(this._landAsk=!1,this._landPage=null']], 'the arriving question offers Answer for Points'],   // APTS-R4: the first assertion an arriving shown card fails; the claim used to match only through the code frame
   ['u47-asking-clock-runs', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['_clockGate(){return!this._landAsk&&', '_clockGate(){return ']], 'an arriving question has no running clock'],
   ['u47-asking-pages', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
