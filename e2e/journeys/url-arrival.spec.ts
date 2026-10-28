@@ -343,7 +343,7 @@ test("the camera frames the space the card WILL occupy, not the gap while it reb
 // base8aa-opening-verified,d318-cpu4-proof}. The original ungated case and its
 // <3 bound remain; the second case pins the real delivery that exposes the bug.
 for (const lateDeck of [false, true]) {
-test(`@curated the opening flight aims once, at the landing, and the aim never drifts under it${lateDeck ? ' with the landing deck held' : ''}`, async ({
+test(`@curated the opening flight is piecewise-fixed: one wide aim, one landing aim, no drift in either${lateDeck ? ' with the landing deck held' : ''}`, async ({
   page,
 }) => {
   const j = journey(page)
@@ -357,14 +357,13 @@ test(`@curated the opening flight aims once, at the landing, and the aim never d
   }
   await j.advance(3300) // the intro hands the camera over at 3.2s
 
-  // v1.168.0 CHANGED THE CLAIM, NOT THE BUG THIS SPEC PINS: the staged arrival aimed WIDE for its first
-  // beat and re-aimed ONCE at the landing framing. v1.237.0 changed it again: the opening is the directed
-  // arrival (`_openingPose`, owner U50 d), which aims ONCE, at the landing framing, from the pick, and flies
-  // its own closed-form path there; there is no wide beat left to aim at (its centre-column and zoom
-  // checks went with it; the arrival's own claims are pinned in opening-camera.spec.ts). What must still
-  // never happen is the original defect: the aim moving UNDER the flight because the card mounted or the
-  // band's cold prior gave way. So ONE window now spans the hold, the reveal (pick + 2.0s), the rise, the
-  // card's mount and the landing — longer than either of the old two — pinned to zero drift.
+  // v1.168.0 CHANGED THE CLAIM, NOT THE BUG THIS SPEC PINS. The staged arrival aims WIDE for
+  // its first beat (NG_ARRIVE_KICKER = 2.0s) and then re-aims ONCE at the landing framing — a
+  // designed retarget at a designed moment. What must still never happen is the original
+  // defect: the aim moving UNDER the flight because the card mounted or the band's cold prior
+  // gave way. So each phase is sampled separately and pinned to zero drift, and phase B's
+  // window deliberately spans enterLand (~9.4s) and the card's mount — the exact event whose
+  // aim-shift this spec exists to forbid.
   const sample = async (n: number) => {
     const out: number[] = []
     for (let i = 0; i < n; i++) {
@@ -376,13 +375,29 @@ test(`@curated the opening flight aims once, at the landing, and the aim never d
     }
     return out
   }
-  const aims = await sample(20) // 3.7s → 11.7s: the hold, the reveal, the rise, the landing AND the card's mount
+  const wide = await sample(4) // 3.3s → 4.9s: the kicker beat, camera on the whole graph
+  const g = await page.evaluate(() => {
+    const a = (window as any).__neural
+    return { gcx: a.gcx, gW: a.graphW, cx: a.camTarget.cx, vw: a.camTarget.vw }
+  })
+  expect(wide.length, "the wide beat was sampled").toBeGreaterThan(2)
+  // v1.219.0 MOVED THE WIDE AIM VERTICALLY, deliberately: beat 1 frames the whole graph shifted the
+  // least distance that clears the start node of the rows its landing mounts at the reveal
+  // (`_liftForLanding`; camera-continuity.spec.ts asserts zero overlap from there). So the claim
+  // is now: the whole graph (its centre column, its zoom), and an aim that does not drift.
+  expect(Math.abs(g.cx - g.gcx), "beat 1 aims at the graph's centre column").toBeLessThan(3)
+  expect(Math.abs(g.vw / g.gW - 1), "at the whole graph's zoom").toBeLessThan(0.01)
+  const wideDrift = Math.max(...wide) - Math.min(...wide)
+  expect(wideDrift, `beat 1's aim does not drift (${wideDrift.toFixed(2)} world units)`).toBeLessThan(3)
+
+  await j.advance(700) // cross the beat boundary at 5.2s
+  const aims = await sample(14) // 5.6s → 11.2s: the approach, the landing AND the card's mount
   if (lateDeck) {
     const delivery = j.payloadTimeline().filter(e => e.pattern === "flashcards/e08ec988.json")
     expect(delivery.length, "the real landing deck was held").toBeGreaterThan(0)
     expect(delivery[0].releasedAtSim).toBeGreaterThanOrEqual(7000)
   }
-  expect(aims.length, "the flight was sampled").toBeGreaterThan(15)
+  expect(aims.length, "the flight was sampled").toBeGreaterThan(10)
   const drift = Math.max(...aims) - Math.min(...aims)
   expect(
     drift,

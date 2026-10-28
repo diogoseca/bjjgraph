@@ -114,92 +114,6 @@ const NG_CAM_RHO = 1.2;         // van Wijk's rho: how far a long flight zooms o
 const NG_CAM_TRACK_W = 6;       // the tracking spring, rad/s (critically damped)
 const NG_CAM_EDGE_SEC = 0.3;    // how long the lift's band edge takes to reach a new band
 const NG_CAM_LIFT_SOFT = 6;     // the soft clamp's knee, px
-// ── THE OPENING AND EVERY STAGED RESTART ARE DIRECTED (v1.237.0, owner U48 → U50 d) ─────────────────
-// Owner, 2026-10-27, on the round-1 preview: "It seems weird that the graph ... moves up. It would make
-// sense if the scaffold was already appearing ... the zoom should already have started in the first
-// frames and accelerate ... until we land on the node (... so it lands smoothly rather than abruptly)".
-// The old arrival panned the WIDE graph up for 2s (beat 1's pre-lift aims at `_predictBottom`'s H*0.1
-// guess, which the reading view never corrects: 317px up at 390x844, 95px past the landing) before the
-// reader section it makes room for had mounted, and held the zoom still while it did. Four variants
-// were built and shown side by side; the owner picked S2 · Z2. `_openingPose` is that law, on ONE clock (`now`):
-//   ZOOM  one log-width curve from the first frame to the landing (equal ratios read as equal speed,
-//         so log is the perceptual axis): z'(u) = (1-u)(v0 + b u + c u^2), its peak placed on the
-//         rise's peak so the two reach full speed together, then braking to touch down at zero
-//         velocity. The pick lands mid-curve; from it the camera is anchored on the node, whose
-//         outward drift eases to rest over NG_CAM_OPEN_ANCHOR: no velocity step, no reversal.
-//   RISE  the node's SCREEN path from where it was named to the reading band starts only when the
-//         reader section mounts (the reveal, pick + NG_ARRIVE_KICKER), on cubic-bezier(.4,0,.2,1):
-//         a soft departure from rest, the back half spent settling into the band.
-//   BOARD the reader section fades in and rides up the node's remaining rise on that same progress,
-//         so node and board share one velocity; the heading glides into the band with them.
-//   A restart first breathes out to the overview (NG_CAM_OPEN_OUT) while the old board fades and sinks.
-const NG_CAM_OPEN_PICK = 3.2;      // the intro hands over to the first roll at 3.2s (updateCamera)
-const NG_CAM_OPEN_LAND = 6.0;      // the camera lands this long after the pick (the old arrival settled at 5.9-6.2)
-const NG_CAM_OPEN_RISE = 2.0;      // the rise and the board's entrance, from the reveal
-const NG_CAM_OPEN_EASE = [0.4, 0, 0.2, 1]; // the rise; its velocity peaks at 30% of NG_CAM_OPEN_RISE
-const NG_CAM_OPEN_V0 = 0.15;       // the first opening's zoom speed at frame 0, of the mean: under the fade-in
-const NG_CAM_OPEN_ANCHOR = 0.8;    // s: the named node's inherited drift eases to rest (and the landing width takes over)
-const NG_CAM_OPEN_OUT = 1.4;       // s: a restart's breath out to the overview, rest to rest (sine)
-const NG_CAM_OPEN_GOAL_W = 14;     // rad/s: the landing framing is followed through a spring, as a flight's goal is
-// THE BOARD'S STYLES live in ONE rule set keyed to the app wrap's state (`_openingBoard`), never on a row
-// (PR #320's review, B1/B2). The deferred reader adopts the Moves, Videos and card rows by MOVING them (and
-// can hand them back), marking them `data-reader-game-part`; the cascade restyles a moved row at once, with no
-// camera frame needed, and ending the opening is one attribute. Inline styles on the rows were held until a
-// later frame released them: seven cold-start journeys stopped the clock and waited on a hand that the
-// reader had already adopted, still hidden. A row is styled by where it stands: inside the reader section
-// it rides with it; loose, it fades in place (with the Book put away, the rows ARE the board, so they ride).
-// The two values are REGISTERED NOT TO INHERIT and are stamped on the few elements that read them (`_openStamp`):
-// written on the app wrap as inherited custom properties they restyled its whole subtree, article included, every
-// frame (CAM2548, CDP counters over the opening at 1440x900: style recalc 463-479 ms against dev's 76-80, at the same
-// ~335 recalcs; 291 frames drawn against dev's 374-403). Their initial values show a row that was never stamped.
-const NG_CAM_OPEN_ROWS = ".ng-landfilm,.ng-landcard,.ng-optionrow";
-// A row the reader has taken in: adopted (`data-reader-game-part`), or the film placed in its media home or slot
-// (`place()` tags those `data-reader-game-media` / `data-reader-media`, never game-part). Such a row rides and fades
-// with the section; styling it as loose as well rode the Videos row twice (Book off: the node-to-Moves distance varied
-// 188px) and faded it at o-squared (Book on: 0.29 at a board of 0.54). PR #320's re-review, F1/F2.
-const NG_CAM_OPEN_HOMED = "[data-reader-game-part],[data-reader-game-media],[data-reader-media]";
-const NG_CAM_OPEN_CSS = "@property --ng-open-o{syntax:'<number>';inherits:false;initial-value:1}"
-  + "@property --ng-open-y{syntax:'<length>';inherits:false;initial-value:0px}"
-  + "[data-ng-open] .ng-reader{opacity:var(--ng-open-o);translate:0 var(--ng-open-y)}"
-  + "[data-ng-open] .ng-reader-shelf{opacity:var(--ng-open-o)}"
-  + "[data-ng-open] :is(" + NG_CAM_OPEN_ROWS + "):not(" + NG_CAM_OPEN_HOMED + "){opacity:var(--ng-open-o)!important}"
-  + "[data-ng-open][data-ng-book=off] :is(" + NG_CAM_OPEN_ROWS + "):not(" + NG_CAM_OPEN_HOMED + "){translate:0 var(--ng-open-y)!important}"
-  + "[data-ng-open=faint] :is(" + NG_CAM_OPEN_ROWS + ",.ng-reader-shelf){visibility:hidden}"
-  // the film in the reader's media home keeps reading.css's `visibility:visible!important`; a faint board outranks it
-  + "[data-ng-open=faint] .ng-reader :is([data-reader-media],[data-reader-game-media]){visibility:hidden!important}"
-  // ...and the section's own controls (article links, tools, section labels) take no tap or focus while faint
-  + "[data-ng-open=faint] .ng-reader :is(a,button,input,select,textarea,summary,[tabindex]:not([tabindex='-1'])){visibility:hidden!important}"
-  + "[data-ng-open=release] :is(.ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS + "){transition:opacity .2s ease,translate .2s ease}";
-// Below this the board's rows and shelf are HIDDEN, not merely transparent: an opacity-0 row still takes a
-// tap and focus (CLAUDE.md 6.1; review m3 measured a tap on the first card at effective opacity 0.066). The
-// rise passes it in its first ~0.24s, and a restart's breath out in its last ~0.3s.
-const NG_CAM_OPEN_FAINT = 0.1;
-// LAST RESORT, the one timer: if nothing advances the opening's clock while the board is faint (a hidden
-// tab, a test clock nobody advances), the rows come back after this long, wall clock: never hidden, only
-// faint. Frames at 60 Hz arrive every 17ms and the slowest measured reveal task took 70ms.
-const NG_CAM_OPEN_STALL_MS = 500;
-// Reduced motion takes the landing view once the target has held still this many frames: with the Book
-// put away the band is measured from rows that settle over a few frames after they mount.
-const NG_CAM_OPEN_RM_SETTLE = 4;
-/** CSS cubic-bezier(x1, y1, x2, y2) at x in [0, 1]: bisect the x polynomial, read y. */
-function ngBezier(p, x) {
-  if (x <= 0) return 0; if (x >= 1) return 1;
-  const B = (t, a, b) => 3 * a * t * (1 - t) * (1 - t) + 3 * b * t * t * (1 - t) + t * t * t;
-  let lo = 0, hi = 1;
-  for (let i = 0; i < 40; i++) { const m = (lo + hi) / 2; if (B(m, p[0], p[2]) < x) lo = m; else hi = m; }
-  return B((lo + hi) / 2, p[1], p[3]);
-}
-/** The opening's zoom progress in [0, 1] at u in [0, 1]: z'(u) = (1-u)(v0 + b u + c u^2), integral 1,
- *  peak at `up`. `v0` is the normalised start speed; `up` stays in [1/3, 2/3], outside which the
- *  velocity polynomial dips below zero (from v0 = 0). */
-function ngOpenZoom(u, v0, up) {
-  u = Math.max(0, Math.min(1, u));
-  up = Math.max(0.34, Math.min(0.66, up));
-  // integral 1 and z''(up) = 0: two linear equations in b, c
-  const a11 = 1 - 2 * up, a12 = 2 * up - 3 * up * up, a21 = 1 / 6, a22 = 1 / 12, r2 = 1 - v0 / 2;
-  const det = a11 * a22 - a12 * a21, b = (v0 * a22 - a12 * r2) / det, c = (a11 * r2 - a21 * v0) / det;
-  return v0 * u + (b - v0) * u * u / 2 + (c - b) * u * u * u / 3 - c * u * u * u * u / 4;
-}
 // The 24px ghost button every layer handle is cut from — the landing card's ✕ wrote this inline
 // first (v1.101.1); the film ✕, the hand ✕ and the dock glyphs share it so they cannot drift.
 const NG_GHOST_BTN_CSS = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;border:none;border-radius:7px;background:none;color:#8b97b0;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center;transition:color .15s,background .15s;";
@@ -272,16 +186,6 @@ const NG_PREFETCH_CAP = 10;
 // once more when it settles, and at least every MAX_HOLD ms while it keeps streaming.
 const NG_RESIDENCY_SETTLE_MS = 250;
 const NG_RESIDENCY_MAX_HOLD_MS = 2000;
-// D-354 + D-351 as an ORDER, not a race (PR #320's review, CAM2547): a landing's hand is not playable for the
-// Win chance until the reader has laid that landing out once (`_readerAwaited`), because that first layout may
-// hold it (the article it asked for) and moves it. Dev met this order only by timing: the deal is held by the
-// residency burst, and the burst's trailing flush (NG_RESIDENCY_SETTLE_MS, wall clock) happened to land after the
-// cold reader held the hand. The directed arrival's frames cost ~2.4x more wall time per pumped second (300 vs
-// 125 ms), so the flush landed inside the reveal's own pump, on a loose hand fading in at 0.58, and the activation
-// started before the hold (article-sections:839's premise, 3/3 red). A reader that never lays the landing out
-// (its module hung) is waited for this long, wall clock: its module took ~0.7 s locally on a cold load, and CI
-// runs ~4x slower.
-const NG_READER_FIRST_LAYOUT_MS = 3000;
 // THE PANE'S TABS, IN NAV ORDER — one list, because two readers need it and they need different
 // halves. `setViewMode` needs the SET (it validated against a hand-typed triple of the same three
 // strings) and `_paneTabPageTo` needs the ORDER. The order here is the DOM order in
@@ -387,7 +291,7 @@ class Component extends DCLogic {
   /** Every arrival stamp dies here — the complete lifter set is this call (§6.5): the normal
    *  path (enterLand), and both user takeovers (rollFromPosition, stageRollAt). `_arriveWide`
    *  also carries its own deadline in updateCamera, so a missed lifter costs 2s, not forever. */
-  _endArrival() { this._arriveWide = false; this._arriveGlideUntil = null; this._arriveLabelT = null; this._retireCamOpen(); }
+  _endArrival() { this._arriveWide = false; this._arriveGlideUntil = null; this._arriveLabelT = null; }
   /** The resting light on the state you are STANDING IN — present always, hugging the orb.
    *  Not the retired halo: a third of its alpha and a quarter of its reach. See v1.114.1. */
   REST_GLOW = 0.42;
@@ -500,7 +404,7 @@ class Component extends DCLogic {
   }
 
   // ---------- timers (pause-aware) ----------
-  clearTimers() { (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; this._retireCamOpen(); this._camOpenManual = false; }
+  clearTimers() { (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; }
   /** Cancel ONE timer handed back by `after()` — the replay steps its own film and must be able to
    *  stop it without `clearTimers()`, which would also disarm the paused roll waiting underneath. */
   _cancelTimer(it) {
@@ -5626,7 +5530,6 @@ class Component extends DCLogic {
   // somewhere else is not a collision, it is a decision.
   // ══════════════════════════════════════════════════════════════════════════════════════
   holdCamera(sec) {
-    this._retireCamOpen(); this._camOpenManual = false;
     if (this._execution) this._execution.camera = false;
     // PENDING (-1) when the frame clock does not exist yet. A share arrival is decoded during
     // ingest, which can be before the first frame — and `this.now` is not a page-relative zero in
@@ -12687,18 +12590,9 @@ class Component extends DCLogic {
   hideCenter() { const box = this.evCenterRef.current; if (box) box.style.opacity = "0"; }
   /** Beat 2 of the staged arrival: the name and the role fade into the already-showing centre
    *  block. Inline opacity + transition, both reset by the next showCenter (see above). */
-  _frameArrivalHeading(rise) {
+  _frameArrivalHeading() {
     const box = this.evCenterRef.current; if (!box) return;
     const band = this._viewRect();
-    if (rise != null && rise < 1) {
-      // A DIRECTED ARRIVAL: the heading rides the rise from the screen's centre into the band on the
-      // rise's own progress — a transform (no layout per frame) that equals the band placement at 1
-      const block = box.firstElementChild, H = this.H || 800;
-      box.style.top = "0px"; box.style.bottom = "0px";
-      const fit = Math.min(1, Math.max(1, band.height - 8) / Math.max(1, block.offsetHeight));
-      block.style.transform = "translateY(" + (((band.top + band.bottom) / 2 - H / 2) * rise).toFixed(2) + "px) scale(" + (1 + (fit - 1) * rise) + ")";
-      return;
-    }
     box.style.top = band.top + "px";
     box.style.bottom = ((this.H || 800) - band.bottom) + "px";
     // Keep the whole name/role block inside the measured band on a short phone.
@@ -13022,17 +12916,6 @@ class Component extends DCLogic {
     // leading restart. A burst of one deck is one restart, exactly as before, so no pattern costs more.
     hold.t = setTimeout(flush, NG_RESIDENCY_SETTLE_MS);
   }
-  /** True while the current landing's hand waits for the reader's first layout of it (NG_READER_FIRST_LAYOUT_MS):
-   *  the reader was asked for its article (`_queueReader`) and has neither laid it out, skipped it nor failed.
-   *  A refusal here is asked again by that layout (`_readerHold`), by a failed import, or at the bound. */
-  _readerAwaited() {
-    const q = this._readerQueued;
-    if (!q || q.laid || q.skip || q.pub || q.idx !== this._landIdx || this._readerFailed || q.t0 == null) return false;
-    const left = q.t0 + NG_READER_FIRST_LAYOUT_MS - performance.now();
-    if (left <= 0) return false;
-    if (!q.armed) { q.armed = true; setTimeout(() => { this._ensureGameValues(); if (!this.__ngDestroyed) this.paintChoiceValues?.(); }, left + 1); }   // once per landing
-    return true;
-  }
   _gameValuePlayable() {
     if (this.__ngDestroyed || !this._progressLoaded || this._execution || this._checkpoint
       || this._waitingSubmission || this._sweep || typeof this._optPick !== "function"
@@ -13044,7 +12927,6 @@ class Component extends DCLogic {
     if (style.display === "none" || style.visibility === "hidden" || +style.opacity === 0 || style.pointerEvents === "none") return false;
     const cards = (this._optionCards || []).filter(c => !c.opt.threat);
     if (!cards.length || cards.some(c => !c.card?.isConnected || !row.contains(c.card) || !this._optList.includes(c.opt))) return false;
-    if (this._readerAwaited()) return false;
     return cards.some(c => {
       const r = c.card.getBoundingClientRect();
       return r.width > 0 && r.height > 0 && r.bottom > 0 && r.top < window.innerHeight && r.right > 0 && r.left < window.innerWidth;
@@ -13175,8 +13057,7 @@ class Component extends DCLogic {
   }
   choiceValueView(opt) {
     const runtime = this.choiceValueRuntime(), record = this.choiceValueRecord(opt);
-    // waiting for the reader's first layout (`_readerAwaited`) is preparing too, never "unavailable" (re-review m-c)
-    const preparing = ["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._readerAwaited();
+    const preparing = ["scheduled", "loading", "preparing"].includes(this._gameValueState);
     if (runtime && !preparing) return runtime.ngChoiceValueView(record, this._choiceValues && this._choiceValues.snapshot());
     const p = record.immediateExecutionChance, loading = preparing || this._choiceRuntimeState === "loading", error = this._choiceRuntimeState === "error";
     return { label: "Win chance", value: "—", status: loading ? "pending" : error ? "error" : "unavailable",
@@ -13288,7 +13169,7 @@ class Component extends DCLogic {
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
     const row = this.optionsRef.current, status = row?.querySelector("[data-choice-value-status]");
-    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
+    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading") ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
     const retry = row?.querySelector("[data-choice-value-retry]");
     if (retry) retry.style.display = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status))) ? "inline-block" : "none";
     const sort = row?.querySelector("[data-choice-value-sort]");
@@ -15047,7 +14928,7 @@ class Component extends DCLogic {
     // until this article renders. One request per landing (a rebuilt card, a backfill, keeps it),
     // and every way of opening no article marks it skipped, which releases the hold at once.
     const p = this._readerInitialPath || path, prev = this._readerQueued;
-    const request = this._readerQueued = prev?.idx === node.idx && prev.path === p ? prev : { path: p, idx: node.idx, t0: performance.now() };
+    const request = this._readerQueued = prev?.idx === node.idx && prev.path === p ? prev : { path: p, idx: node.idx };
     requestAnimationFrame(() => setTimeout(() => {
       if (this.__ngDestroyed || this._readerIntent || this._reader?.interacting || request !== this._readerQueued || !request.path ||
         !this.optionsRef.current?.querySelector("[data-tech]") && !this._urlSeeded) { request.skip = true; this._reader?.layout(); return; }
@@ -15077,9 +14958,6 @@ class Component extends DCLogic {
   }
   _readerHold(r, shown, W, H) {
     const q = this._readerQueued, pin = this._readerPin, card = this._landEl;
-    // the landing's first layout: the hand is adopted and held (or not) by the time this layout returns, so the
-    // Win chance it waited for (`_readerAwaited`) is asked again then, held or not
-    if (q && !q.laid && q.idx === this._landIdx) { q.laid = true; queueMicrotask(() => this._ensureGameValues()); }
     // Settled: graded (the event: a reading decline also marks the question answered, and must not
     // release live parts), the card or hand closed, the next landing, the article put away, a new viewport.
     if (pin && (pin.q !== q || !shown || pin.W !== W || pin.H !== H || !this._handShown() || pin.graded || card && !this._layerOn("card"))) {
@@ -15144,7 +15022,6 @@ class Component extends DCLogic {
       .then((m) => { if (!this.__ngDestroyed) return m.installReader(this); })
       .catch((error) => {
         this._readerFailed = true;
-        this._ensureGameValues();   // nothing will lay the landing out now (`_readerAwaited`)
         this._landEl?.removeAttribute("data-reader-pending");
         this._readerLoad = null; this._readerRetry = (this._readerRetry || 0) + 1;
         console.warn("[reader] load failed", error);
@@ -17176,28 +17053,10 @@ class Component extends DCLogic {
     this._refreshHistoryRows();
   }
 
-  startRoll(opening) {
-    // THE ARRIVAL IS DIRECTED (NG_CAM_OPEN_*): updateCamera passes the first opening's token, and
-    // every later staged restart mints its own below. Without one (a first roll under a camera lease)
-    // the staged arrival below keeps its own beats.
-    const manual = !!(opening && this._camOpenManual), cancelled = !!opening?.cancelled;
-    const restart = !opening && this.cam && this.currentPos != null && this.nodes?.[this.currentPos]
-      ? { from: this.currentPos, art: this._reader?.articleEl || null } : null;
-    // the clears below drop the old hand, film and card at once, and the reader re-lays out a frame
-    // later with the article jumped up by their height (measured 748px at 390x844); read where it
-    // sat in its section, so the breath out can hold it there, frame by frame, while it fades
-    const sec0 = this._readerEl || this._reader?.root;
-    if (restart?.art?.isConnected && sec0) restart.off = restart.art.getBoundingClientRect().top - sec0.getBoundingClientRect().top;
+  startRoll() {
     this._gameValueChanged("new-roll", "roll");
     this.stopReplay("roll");   // a new roll ends the film first (see rollFromPosition)
-    this._openHandOff = !!this.wrapRef?.current?.dataset.ngOpen;   // a board still on screen: the restart takes it over
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
-    if (opening) { this._camOpen = opening; opening.cancelled = cancelled; opening.pick = this.now; this._camOpenManual = manual; }
-    else if (restart) {
-      opening = this._camOpen = { pick: this.now, cancelled: false, restart: true, from: restart.from, land: this.now + NG_CAM_OPEN_LAND };
-      if (this._openHandOff) { opening.o0 = this._openO ?? 1; opening.y0 = this._openY || 0; }
-      if (restart.off != null && !this._reducedMotion()) { opening.art = restart.art; opening.artOff = restart.off; opening.artPrev = restart.art.style.translate; }
-    }
     this._beltTest = null; // a fresh normal roll is never a belt test (manual reset = clean cancel, no attempt burned)
     this._cancelCheckpoint(); // and never a stale checkpoint quiz
     this._combo = 0; this._landPending = false; this._updateComboChip(); // momentum is per-MATCH: a new roll starts cold
@@ -17302,12 +17161,7 @@ class Component extends DCLogic {
     this.showCenter(
       this._startSpot ? "Your weak spot: " + this._startSpot.split("|")[0]
         : this._rollsBegun > 1 ? "Restarting the roll" : "Starting the roll",
-      // a directed arrival names the state at the pick, over the graph it is about to dive into
-      opening && !opening.cancelled ? this.posFamily(this.nodes[this.currentPos].t) : "",
-      opening && !opening.cancelled ? this.roleLabel() : "", "muted", true);
-    if (opening?.cancelled) this.hideCenter();
-    if (this._openHandOff && !opening?.restart) this._openBoardEnd(true);   // nobody took the board over: release it
-    this._openHandOff = false;
+      "", "", "muted", true);
     this.focusIdx = -1; this.pulse = null;
     this.camFocus = this.pairMid(this.nodes[this.currentPos]);
     this.prevPosVal = this.myVal(this.nodes[this.currentPos]);
@@ -17316,20 +17170,12 @@ class Component extends DCLogic {
     this._arriveWideUntil = this.now + this.NG_ARRIVE_KICKER + 0.5;
     this._arriveGlideUntil = this.now + this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME + this.NG_ARRIVE_HANDOFF;
     this._arriveLabelT = this.now + this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME; // hand-off start
-    const reveal = this.after(this.NG_ARRIVE_KICKER, () => {
+    this.after(this.NG_ARRIVE_KICKER, () => {
       this._arriveWide = false;
       // Reveal identity, URL, highlight and measured content in the same frame.
       this.enterLand(true, true);
-      // a directed arrival named the state at the pick, and its heading glides on the rise (updateCamera)
-      if (!opening) this._centerReveal(this.posFamily(this.nodes[this.currentPos].t), this.roleLabel());
-      // THE ROWS MOUNT ON THIS WALL-CLOCK TIMER, which can fire a frame or more before the rAF clock reaches the
-      // reveal (re-review F4: 2 of 16 first openings painted Moves and Videos at full opacity for 52 and 82ms). The
-      // board is styled here, at the mount, and holds faint until the clock's rise begins.
-      if (opening && this._camOpen === opening && !opening.cancelled) { opening.mounted = true; this._openingBoard(opening); }
+      this._centerReveal(this.posFamily(this.nodes[this.currentPos].t), this.roleLabel());
     });
-    if (opening) opening.reveal = reveal;   // the mount's own timer: a spec fires it early (opening-camera, MOUNT)
-    // UNCONDITIONAL, as before the directed arrival: a lease (`holdCamera`: a share cue, a session) retires the
-    // token mid-arrival, and a hide gated on it left "Mount / Top" up for good (review M1)
     this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME, () => this._centerHandoff());
     this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME + this.NG_ARRIVE_HANDOFF, () => {
       this.hideCenter(); this._endArrival();
@@ -18807,23 +18653,15 @@ class Component extends DCLogic {
     }
     let bottom = H - 16, measured = false, rows = "";
     const surfaces = [this._landFilmEl, this._landEl, this._handShown() && this.optionsRef?.current, this._reader?.articleEl || this._readerEl, this._layerDockEl];
-    // A row the directed arrival holds FAINT (NG_CAM_OPEN_CSS) is hidden only so it takes no tap; it still
-    // stands in the band, or the landing target jumps the frame it comes back (Book off at 390x844, measured: the
-    // band's bottom 493 -> 208 mid-rise).
-    // Hidden by anything else (its own inline hide, a hidden parent) it is skipped as before.
-    const faint = this.wrapRef?.current?.dataset.ngOpen === "faint";
-    const held = (el) => faint && el.style.visibility !== "hidden" && (!el.parentElement || getComputedStyle(el.parentElement).visibility !== "hidden");
     for (const [i, el] of surfaces.entries()) {
       let on = false;
       if (el && el.offsetHeight) {
         const css = getComputedStyle(el);
-        if (css.display !== "none" && (css.visibility !== "hidden" || held(el))) {
+        if (css.display !== "none" && css.visibility !== "hidden") {
           // Inside the native reader, a used bottom is relative to the game
           // container, not the viewport. Read its actual visible rectangle.
           const dock = this._readerEl?.contains(el) ? NaN : parseFloat(css.bottom);
-          // ...and without the directed arrival's ride (NG_CAM_OPEN_CSS), or the band would move with the board
-          const ride = this.wrapRef?.current?.dataset.ngOpen && (this._readerEl?.contains(el) || !this.get("readerBook", true)) ? this._openY || 0 : 0;
-          const y = Number.isFinite(dock) ? H - dock - el.offsetHeight : el.getBoundingClientRect().top - ride;
+          const y = Number.isFinite(dock) ? H - dock - el.offsetHeight : el.getBoundingClientRect().top;
           if (y > top + 32) { bottom = Math.min(bottom, y - 12); measured = on = true; }
         }
       }
@@ -18939,258 +18777,13 @@ class Component extends DCLogic {
     this._labelWCache.set(key, w);
     return w;
   }
-  /** The first automatic opening is directed when nothing else owns the board or the camera at the
-   *  intro's first frame: no URL seed (it stages its own board), no reference page (it starts
-   *  nothing), no board staged, no camera lease (a shared list's flight, decoded at ingest).
-   *  Considered once; every later staged restart mints its own token in startRoll. */
-  _firstOpening() {
-    if (this._camOpenChecked) return this._camOpen;
-    this._camOpenChecked = true;
-    if (this.introDone || this._urlSeeded || this._refPage || this._staged != null
-      || this.currentPos != null || this.camHeld()) return null;
-    return (this._camOpen = { pick: null, cancelled: false });
-  }
-  _retireCamOpen() {
-    if (this._camOpen) this._camOpen.cancelled = true;   // also kills queued reveal rAFs
-    // ...and beat 1's wide flag, which only the reveal used to clear: a pause between the pick and the reveal left the
-    // retired staged arrival's zoom-out-and-back running until pick + 2.5 (re-review m-a; owner U48 removed it)
-    if (this._camOpen && this._arriveWide) this._arriveWide = false;
-    // a staged restart takes the board over where it stands (startRoll's hand-off: two quick restarts must
-    // not pop the old board back to full, review m2); every other retirement releases it in 0.2s
-    if (!this._openHandOff) this._openBoardEnd(true);
-    this._camOpen = null;
-  }
-  _cancelCamOpen() {
-    if (!this._camOpen || this._camOpen.cancelled) return;
-    this._camOpen.cancelled = true;
-    // Unlike the four-second activity window, this survives the arrival's callbacks.
-    // The next roll/navigation (clearTimers) or explicit camera lease releases it.
-    this._camOpenManual = true;
-    this.hideCenter();
-    this._openBoardEnd(true); // a half-shown board finishes in 0.2s, not a pop
-    Object.assign(this.camTarget, this.cam);
-    this._cm = null; // adopt the hand's pose at rest on the next deliberate camera move
-  }
-  /** The directed arrival's PANE-FREE pose {x, y, w} for this frame (see NG_CAM_OPEN_*),
-   *  or null once it has landed. Closed-form in `now`, so the frame pump and a live 144 Hz screen
-   *  draw the same curve; `_camStep` only records it. Everything the board and the heading need
-   *  (the rise's progress, the node's remaining rise, the old node's descent) is left on `op`. */
-  _openingPose(op) {
-    const W = this.W || 1200, H = this.H || 800, t = this.now;
-    const lstar = Math.log(this.graphW * this.ROLL_ZOOM);   // the landing width before there is a node
-    const sm = (x) => { x = Math.max(0, Math.min(1, x)); return x * x * x * (x * (x * 6 - 15) + 10); };
-    if (op.land == null) {
-      // the first opening's clock starts on its first frame; the pick is due at the intro's 3.2s
-      op.t0 = t; op.land = t + NG_CAM_OPEN_PICK + NG_CAM_OPEN_LAND; op.L0 = Math.log(this.cam.vw);
-      op.v0 = NG_CAM_OPEN_V0;
-      op.up = (NG_CAM_OPEN_PICK + this.NG_ARRIVE_KICKER + 0.3 * NG_CAM_OPEN_RISE) / (op.land - op.t0);
-    }
-    if (op.landed) return null;
-    if (op.pick == null) {   // the intro: the same zoom curve, about the graph's centre
-      return { x: this.gcx, y: this.gcy, w: Math.exp(op.L0 + (lstar - op.L0) * ngOpenZoom((t - op.t0) / (op.land - op.t0), op.v0, op.up)) };
-    }
-    // the node named at the pick stays the subject even if the landing canonicalises the seat
-    const n = this.nodes && this.nodes[op.idx ?? (op.idx = this.currentPos)]; if (!n) return null;
-    const q = this.pairMid(n), frac = this.cam._paneFraction || 0;
-    const scr = (p, v) => ({ x: (p.x - v.x) * W / v.w + W / 2, y: (p.y - v.y) * W / v.w + H / 2 });
-    const safe = (p) => {   // a node is never pinned under a screen edge
-      const m = Math.max(48, 0.1 * Math.min(W, H));
-      return { x: Math.max(m, Math.min(W - m, p.x)), y: Math.max(m, Math.min(H - m, p.y)) };
-    };
-    // THE LANDING FRAMING, re-read every frame and followed through a fast spring: the reader band
-    // is re-measured when the section mounts, and a step in it must bend the path, never jump it.
-    const F = this.rollCamTarget(q, false, this.currentPos);
-    const Fx = F.cx + (F._paneFraction || 0) * F.vw, dt = this._mdt || 0;
-    if (!op.g) op.g = { x: Fx, vx: 0, y: F.cy, vy: 0, l: Math.log(F.vw), vl: 0 };
-    const G = op.g, GX = this._camSpring(G.x, G.vx, Fx, NG_CAM_OPEN_GOAL_W, dt);
-    const GY = this._camSpring(G.y, G.vy, F.cy, NG_CAM_OPEN_GOAL_W, dt), GL = this._camSpring(G.l, G.vl, Math.log(F.vw), NG_CAM_OPEN_GOAL_W, dt);
-    G.x = GX[0]; G.vx = GX[1]; G.y = GY[0]; G.vy = GY[1]; G.l = GL[0]; G.vl = GL[1];
-    const goal = { x: G.x, y: G.y, w: Math.exp(G.l) }, P1 = scr(q, goal);
-    // ...and the landing as the band stands THIS frame, unsprung: what the board rides against (below)
-    const Pb = scr(q, { x: Fx, y: F.cy, w: F.vw });
-    if (t >= op.land) { op.landed = true; op.rise = 1; op.riseDy = 0; return { ...goal, last: true }; }
-    let w, Ph = op.P0;
-    if (op.restart) {
-      if (!op.ov) {
-        // the overview the restart breathes out to: the whole graph, moved the least distance that
-        // keeps the NEW node off the screen edge (the old one may be anywhere)
-        const a = { x: this.cam.cx + frac * this.cam.vw, y: this.cam.cy, w: this.cam.vw };
-        const ov = { x: this.gcx, y: this.gcy, w: this.graphW };
-        const p = scr(q, ov), s = safe(p);
-        ov.x += (p.x - s.x) * ov.w / W; ov.y += (p.y - s.y) * ov.w / W;
-        const sx = (ov.x - a.x) / a.w * W + W / 2, sy = (ov.y - a.y) / a.w * W + H / 2;
-        const pk = sx >= -0.25 * W && sx <= 1.25 * W && sy >= -0.25 * H && sy <= 1.25 * H ? "pivot" : "arc";
-        const path = this._camPath(a, ov, pk), travel = pk === "pivot" ? Math.abs(Math.log(ov.w / a.w)) : NG_CAM_RHO * path.S;
-        op.ov = ov; op.path = path; op.tin = op.pick + Math.max(NG_CAM_OPEN_OUT, Math.PI / 2 * travel / 3.2);
-        op.P0 = scr(q, ov); op.Lov = Math.log(ov.w);
-        const E = op.pick + this.NG_ARRIVE_KICKER;
-        op.up = (E + 0.3 * NG_CAM_OPEN_RISE - op.tin) / (op.land - op.tin);
-        const o = this.nodes[op.from];
-        if (o) { op.oldQ = this.pairMid(o); op.oldY0 = scr(op.oldQ, a).y; }
-      }
-      Ph = op.P0;
-      if (t < op.tin) {   // the breath out: rest to rest, the old board leaving with it
-        const x = (t - op.pick) / (op.tin - op.pick), pose = op.path.at((1 - Math.cos(Math.PI * x)) / 2);
-        op.exitDy = op.oldQ ? Math.max(0, scr(op.oldQ, pose).y - op.oldY0) : 0; op.rise = 0; op.riseDy = 0;
-        return pose;
-      }
-      w = Math.exp(op.Lov + (G.l - op.Lov) * ngOpenZoom((t - op.tin) / (op.land - op.tin), 0, op.up));
-    } else {
-      // the first opening, after the pick. The landing width replaces the estimate over
-      // NG_CAM_OPEN_ANCHOR (smootherstep). The camera is anchored on the node from the pick on: the
-      // centre zoom was carrying it outward at V, and that drift eases to rest, v = V (1 - smoothstep),
-      // travelling V T / 2. Node and camera centre keep their velocity across the pick, and the node
-      // settles where its momentum takes it instead of drifting out and back (a centre blend measured
-      // 19.6 px out and back at 1440).
-      const T = NG_CAM_OPEN_ANCHOR, x = Math.min(1, (t - op.pick) / T), lw = (tt) => op.L0 + (lstar - op.L0) * ngOpenZoom((tt - op.t0) / (op.land - op.t0), op.v0, op.up);
-      w = Math.exp(op.L0 + (lstar + sm(x) * (G.l - lstar) - op.L0) * ngOpenZoom((t - op.t0) / (op.land - op.t0), op.v0, op.up));
-      if (!op.P0) {
-        const Pk = scr(q, { x: this.gcx, y: this.gcy, w: Math.exp(lw(op.pick)) }), rate = (lw(op.pick + 1e-3) - lw(op.pick - 1e-3)) / 2e-3;
-        op.Pk = Pk; op.V = { x: -(Pk.x - W / 2) * rate, y: -(Pk.y - H / 2) * rate };
-        op.Pfree = { x: Pk.x + op.V.x * T / 2, y: Pk.y + op.V.y * T / 2 }; op.P0 = safe(op.Pfree);
-      }
-      const g = x - x * x * x + x * x * x * x / 2;   // the integral of 1 - smoothstep: 1/2 at x = 1
-      Ph = { x: op.Pk.x + op.V.x * T * g + (op.P0.x - op.Pfree.x) * sm(x), y: op.Pk.y + op.V.y * T * g + (op.P0.y - op.Pfree.y) * sm(x) };
-    }
-    // the node holds where it was named until the board it rises FOR exists, then rises with it
-    const E = op.pick + this.NG_ARRIVE_KICKER, r = t < E ? 0 : ngBezier(NG_CAM_OPEN_EASE, (t - E) / NG_CAM_OPEN_RISE);
-    const P = { x: Ph.x + (P1.x - op.P0.x) * r, y: Ph.y + (P1.y - op.P0.y) * r };
-    // The board rides by the node's distance from its landing as the band stands NOW, not from the spring's
-    // goal: the band is measured from the board's own rows, so a step in it moves the rows and the landing
-    // together, and the spring's lag would show as the board sliding against the node. With the Book put
-    // away the rows mount at the reveal and the reader adopts them 0.1s later, 64px higher: measured at
-    // 390x844, the node-to-Moves distance drifted 47px through the first 0.4s of the rise.
-    op.rise = r; op.riseDy = Math.max(0, P.y - Pb.y);
-    const cx = q.x - (P.x - W / 2) * w / W, cy = q.y - (P.y - H / 2) * w / W;
-    return { x: cx, y: cy, w };
-  }
-  /** The board on the opening's clock, as state on the app wrap (NG_CAM_OPEN_CSS): `data-ng-open` is board,
-   *  faint (rows hidden) or release, `--ng-open-o` / `--ng-open-y` its opacity and ride. A restart first
-   *  takes the PREVIOUS board out with the breath out, from wherever it stood; every board enters with the
-   *  rise. Nothing is written on a row, so adoption needs no frame (review B1/B2). */
-  _openingBoard(op) {
-    if (!op || op.cancelled || op.pick == null || op.boardDone || this._reducedMotion()) return;
-    const wrap = this.wrapRef?.current; if (!wrap) return;
-    const t = this.now, E = op.pick + this.NG_ARRIVE_KICKER, sec = this._readerEl || this._reader?.root;
-    if (t < E && !op.restart && !op.mounted) return;   // a first opening has no board before its rows mount
-    let o, y;
-    if (t < E) {
-      if (op.restart && op.tin) {
-        const x = Math.min(1, (t - op.pick) / (op.tin - op.pick));
-        o = (op.o0 ?? 1) * (1 + Math.cos(Math.PI * x)) / 2; y = (op.y0 || 0) + (op.exitDy || 0);
-      } else { o = 0; y = 0; }
-      // hold the old article where it sat in its section (both rects carry the section's translate)
-      if (op.art && op.art.isConnected && sec && o > 0) {
-        const cur = parseFloat((op.art.style.translate || "0 0").split(" ")[1]) || 0;
-        const lay = op.art.getBoundingClientRect().top - cur - sec.getBoundingClientRect().top;
-        op.art.style.translate = Math.abs(op.artOff - lay) > 0.25 ? "0 " + (op.artOff - lay).toFixed(2) + "px" : (op.artPrev || "");
-      }
-    } else {
-      o = op.rise ?? 0; y = op.riseDy || 0;
-      if (op.art) { op.art.style.translate = op.artPrev || ""; op.art = null; }   // the new board has laid out
-    }
-    if (!document.getElementById("ng-open-css")) {
-      const st = document.createElement("style"); st.id = "ng-open-css"; st.textContent = NG_CAM_OPEN_CSS; document.head.appendChild(st);
-    }
-    this._openStamp(String(Math.round(o * 1e4) / 1e4), y.toFixed(2) + "px");
-    // the wrap's state attributes are written only when they change: each write is a style invalidation
-    const book = this.get("readerBook", true) ? "on" : "off", was = wrap.dataset.ngOpen, state = o < NG_CAM_OPEN_FAINT ? "faint" : "board";
-    if (wrap.dataset.ngBook !== book) wrap.dataset.ngBook = book;
-    if (was !== state) wrap.dataset.ngOpen = state;
-    // a hand refused while faint (hidden, `_gameValuePlayable`) is asked again the frame it shows: nothing else would
-    if (was === "faint" && wrap.dataset.ngOpen === "board") this._ensureGameValues();
-    this._openO = o; this._openY = y;   // what the board shows: `_viewRect` reads the ride, a restart inherits both
-    if (t >= E && o >= 1) { op.boardDone = true; this._openBoardEnd(false); return; }
-    if (op.stallAt !== t) {   // the last resort (NG_CAM_OPEN_STALL_MS), re-armed by every frame that moves the clock
-      op.stallAt = t; clearTimeout(this._openStall);
-      if (wrap.dataset.ngOpen === "faint") this._openStall = setTimeout(() => {
-        if (this._camOpen === op && op.stallAt === t && wrap.dataset.ngOpen === "faint") { wrap.dataset.ngOpen = "board"; this._ensureGameValues(); }
-      }, NG_CAM_OPEN_STALL_MS);
-    }
-  }
-  /** The board's two values on the elements that read them (NG_CAM_OPEN_CSS registers both as not inherited): the
-   *  wrap (the state record), the reader section, its shelf and the three rows. A row mounted between frames reads
-   *  the initial values (shown) until the next frame stamps it; `_openUnstamp` takes every stamp off at the end. */
-  _openStamp(ov, yv) {
-    const S = this._openStamped || (this._openStamped = new Set());
-    for (const el of [this.wrapRef?.current, this._readerEl || this._reader?.root, this._layerDockEl, this._landFilmEl, this._landEl, this.optionsRef?.current]) {
-      if (!el || !el.style) continue;
-      if (el.style.getPropertyValue?.("--ng-open-o") !== ov) el.style.setProperty("--ng-open-o", ov);
-      if (el.style.getPropertyValue?.("--ng-open-y") !== yv) el.style.setProperty("--ng-open-y", yv);
-      S.add(el);
-    }
-  }
-  _openUnstamp() {
-    for (const el of this._openStamped || []) { el.style.removeProperty("--ng-open-o"); el.style.removeProperty("--ng-open-y"); }
-    this._openStamped?.clear();
-  }
-  /** Ends the board's styling: at once, or (`fade`) through a 0.2s release that its own transitionend clears,
-   *  so no transition is left behind on any element (review m1). */
-  _openBoardEnd(fade) {
-    clearTimeout(this._openStall);
-    const wrap = this.wrapRef?.current, op = this._camOpen;
-    if (op?.art) { op.art.style.translate = op.artPrev || ""; op.art = null; }
-    if (!wrap || !wrap.dataset.ngOpen) return;
-    const clear = () => {
-      delete wrap.dataset.ngOpen; delete wrap.dataset.ngBook;
-      this._openUnstamp();
-      this._openO = 1; this._openY = 0;
-      this._ensureGameValues();   // the board is the player's now: a refusal during the entrance is asked again
-    };
-    // a release needs something actually fading, or no transitionend would ever come to clear it
-    const fading = [...wrap.querySelectorAll(".ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS)]
-      .some((el) => el.offsetHeight && parseFloat(getComputedStyle(el).opacity) < 0.999);
-    if (!fade || !fading || ((this._openO ?? 1) >= 0.999 && !this._openY)) { clear(); return; }
-    this._openStamp("1", "0px");
-    wrap.dataset.ngOpen = "release"; this._openO = 1; this._openY = 0;
-    const id = (this._openRelease = (this._openRelease || 0) + 1);
-    const done = (e) => {
-      if (e && (e.propertyName !== "opacity" || !e.target.matches?.(".ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS))) return;
-      wrap.removeEventListener("transitionend", done); wrap.removeEventListener("transitioncancel", done);
-      if (this._openRelease === id && wrap.dataset.ngOpen === "release") clear();
-    };
-    wrap.addEventListener("transitionend", done); wrap.addEventListener("transitioncancel", done);
-  }
-  _openingFrame(op) {
-    if (!op || op.cancelled) return null;
-    if (this._reducedMotion()) {
-      // REDUCED MOTION SNAPS (updateCamera writes the target straight into the camera): the whole
-      // graph until the board mounts, then the landing framing, so the one change of view the
-      // opening makes is the frame the board appears on
-      const over = { cx: this.gcx, cy: this.gcy, vw: this.graphW };
-      if (op.pick == null || this.now < op.pick + this.NG_ARRIVE_KICKER) return { snap: true, target: op.rmShown || over };
-      // ...taken once the target holds still (NG_CAM_OPEN_RM_SETTLE): a Book-off band settles as its rows lay out
-      const F = this.rollCamTarget(this.pairMid(this.nodes[this.currentPos]), false, this.currentPos), L = op.rmLast;
-      const near = (A, B) => Math.abs(A.cx - B.cx) + Math.abs(A.cy - B.cy) < 0.5 * A.vw / (this.W || 1200) && Math.abs(A.vw / B.vw - 1) < 1e-3;
-      // ...and once the rows stand where they will stay. The reader, loaded or still loading (`_readerLoad`),
-      // adopts the card and the hand on its own layout pass a few frames after they mount, and with the Book put
-      // away that moves them (and the band) 64px at 390x844: a second cut, measured at 32px on the node when
-      // the module arrived 0.1s after the reveal. It is waited for no longer than the reader's own publication
-      // ceiling (D-351, 800ms), so a row that is never adopted costs one more cut, never a stuck view.
-      const sec = this._readerEl || this._reader?.root, coming = !!(this._reader || this._readerLoad) && !this._readerFailed;
-      const loose = coming && this.now < op.pick + this.NG_ARRIVE_KICKER + 0.8
-        && [this._landEl, this._handShown() && this.optionsRef?.current].some((el) => el && el.isConnected && el.offsetHeight > (el === this._landEl ? 0 : 40) && !(sec?.isConnected && sec.contains(el)));   // a card of any height: an asking line is ~37px
-      op.rmLast = F; op.rmStill = L && near(F, L) && !loose ? (op.rmStill || 0) + 1 : 0;
-      if (op.rmStill >= NG_CAM_OPEN_RM_SETTLE && !(op.rmShown && near(op.rmShown, F))) op.rmShown = F;
-      return { snap: true, target: op.rmShown || over };
-    }
-    // a pause (the pane, or anything that stops the game) ends the directed arrival WITHOUT taking the camera:
-    // the follow-cam resumes with the game (review M2: the owner's hold is for pan, pinch, wheel and drag)
-    if (this.paused) { this._retireCamOpen(); return null; }
-    const pose = this._openingPose(op);
-    if (!pose) return null;
-    return { pose, target: op.pick == null ? { cx: this.gcx, cy: this.gcy, vw: pose.w }
-      : this.rollCamTarget(this.pairMid(this.nodes[this.currentPos]), false, this.currentPos) };
-  }
   updateCamera(dt) {
-    const opening = this._firstOpening();
     // The pane's inset is re-applied to every TARGET each frame; the camera itself takes it in
     // `_camStep`, which displays its pane-free pose at the current inset.
-    if (!this._camOpenManual) Object.assign(this.camTarget, this._paneCameraTarget(this.camTarget));
+    Object.assign(this.camTarget, this._paneCameraTarget(this.camTarget));
     if (this._camHoldTarget) Object.assign(this._camHoldTarget, this._paneCameraTarget(this._camHoldTarget));
     const el = this.now - this.startTime;
-    const directed = opening && !opening.cancelled && !this._reducedMotion();
-    if (this._arriveGlideUntil != null && !this._arriveWide && !this._camOpenManual && !directed) this._frameArrivalHeading();
+    if (this._arriveGlideUntil != null && !this._arriveWide) this._frameArrivalHeading();
     // a lease taken before there was a clock starts counting now (see holdCamera)
     if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
     // ...and so does a calm reading catch's window (D-332 D2-S1), on the first frame with a clock
@@ -19248,7 +18841,7 @@ class Component extends DCLogic {
             // starting a fresh roll here moved the map to a random start while the article still
             // read the chosen node, leaving D-318's role change (its other half) off-screen.
           } else {
-            this.startRoll(opening);
+            this.startRoll();
           }
         }
       }
@@ -19275,13 +18868,6 @@ class Component extends DCLogic {
         tgt = this.rollCamTarget(this.camFocus, !!this.pulse);
       }
     }
-    // THE DIRECTED ARRIVAL moves the camera, the board and the heading, never the pick or enterLand
-    // clocks above. A gesture cancels it (`_cancelCamOpen`): those gameplay boundaries still run, but
-    // nothing reclaims the camera until the player's next deliberate act (clearTimers: a move, a
-    // navigation, a new roll) or a camera lease.
-    if (this._camOpenManual) return;
-    const openFrame = this._openingFrame(opening);
-    if (openFrame) tgt = openFrame.target;
     // while paused or reading an in-node dossier, suppress only the AUTO-retarget — the tween
     // itself keeps flying toward whatever camTarget was set (Follow/Overview must not yank the
     // camera away mid-read, but manual prezi targets still animate).
@@ -19303,7 +18889,7 @@ class Component extends DCLogic {
     // through its whole travel, even past the window (`calmHeld`, latched at the pick).
     if (this.introDone && this._execution && this._execution.camera === false && this._execution.calmHeld) tgt = null;
     if (tgt) Object.assign(this.camTarget, this._paneCameraTarget(tgt));
-    if (tgt && (execution || openFrame?.snap) && this._reducedMotion()) {
+    if (tgt && execution && this._reducedMotion()) {
       Object.assign(this.cam, this.camTarget, { lvw: Math.log(this.camTarget.vw) });
       return;
     }
@@ -19353,13 +18939,7 @@ class Component extends DCLogic {
       }
       if (!R.band || fl) ctx.lift = { f: this.camFocus, n, top: this.paused ? R.top : 16, bottom: R.bottom, active: !R.band || !!fl?.band };
     }
-    if (openFrame?.pose && tgt) { ctx.pose = openFrame.pose; ctx.lift = null; }   // the directed path frames the band itself
     this._camStep(dt, ctx);
-    if (directed && this._camOpen === opening) {
-      // the board and the heading read the rise this frame's pose just computed: one clock
-      this._openingBoard(opening);
-      if (this._arriveGlideUntil != null && !this._arriveWide && !opening.cancelled) this._frameArrivalHeading(opening.rise ?? 1);
-    }
   }
 
   // ══ CAMERA MOTION — ONE INTEGRATOR (v1.219.0) ═══════════════════════════════════════════════
@@ -19458,7 +19038,7 @@ class Component extends DCLogic {
     // A NEW DESTINATION: the target jumped (or this is the first frame), and it is not here yet.
     const jump = m.lastT ? this._camDist(m.lastT, TV) : Infinity;
     m.lastT = TV;
-    if (!ctx.pose && jump > NG_CAM_JUMP && this._camDist(base, TV) > NG_CAM_JUMP) {
+    if (jump > NG_CAM_JUMP && this._camDist(base, TV) > NG_CAM_JUMP) {
       const sx = (TV.x - base.x) / base.w * W + W / 2, sy = (TV.y - base.y) / base.w * W + H / 2;
       const kind = sx >= -0.25 * W && sx <= 1.25 * W && sy >= -0.25 * H && sy <= 1.25 * H ? "pivot" : "arc";
       const S = this._camPath(base, TV, "arc").S;
@@ -19473,15 +19053,7 @@ class Component extends DCLogic {
     }
     let next;
     const fl = m.flight;
-    if (ctx.pose) {
-      // A DIRECTED POSE (the opening, `_openingPose`): its law is closed-form in time, so the integrator
-      // only records it, with the chord as its velocity. It touches down at rest, and its landing frame
-      // hands over at rest, so nothing whatever follows inherits a stale velocity.
-      next = { x: ctx.pose.x, y: ctx.pose.y, w: ctx.pose.w };
-      m.flight = null; this._camPoses = (this._camPoses || 0) + 1;   // a test rail, beside _camFlights
-      m.v = ctx.pose.last || !(dt > 0) ? { x: 0, y: 0, l: 0 }
-        : { x: (next.x - base.x) / dt, y: (next.y - base.y) / dt, l: Math.log(next.w / base.w) / dt };
-    } else if (fl) {
+    if (fl) {
       fl.t += dt;
       const u = Math.min(1, fl.t / fl.dur), e = (1 - Math.cos(Math.PI * u)) / 2;
       // THE FLIGHT'S GOAL follows the target through a fast spring. A target that moves less than a
@@ -19820,7 +19392,7 @@ class Component extends DCLogic {
         // 80 → 84 → 71 → 62 → 66 … (one step toward the fingers, one back toward the staged
         // framing, per frame) and flew from 24 back to 118 the moment the fingers lifted. The
         // owner: "while zooming in, the landcard flickers" — the board jittering under the card.
-        this._cancelCamOpen(); this.releaseCamera(); this._stagedCamFree = false;
+        this.releaseCamera(); this._stagedCamFree = false;
         this.lastInteract = this.now; return;
       }
       if (!dragging || !this.cam) { this._updateHover(e); return; }
@@ -19828,7 +19400,6 @@ class Component extends DCLogic {
       const scale = this.W / this.cam.vw;
       this.cam.cx -= (e.clientX - lx) / scale; this.cam.cy -= (e.clientY - ly) / scale;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy;
-      if (e.clientX !== lx || e.clientY !== ly) this._cancelCamOpen();
       if (moved > 6) { this.releaseCamera(); this._stagedCamFree = false; } // a real pan ends the lease AND the staged framing
       lx = e.clientX; ly = e.clientY; this.lastInteract = this.now;
     });
@@ -19898,7 +19469,7 @@ class Component extends DCLogic {
       const sa = this.W / vw;
       this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
-      this._cancelCamOpen(); this.releaseCamera(); this._stagedCamFree = false; // wheel-zoom is the desktop equivalent of a pinch
+      this.releaseCamera(); this._stagedCamFree = false; // wheel-zoom is the desktop equivalent of a pinch
       if (this._replay) this.stopReplay("input");   // ...and so it ends a film, for the same reason
       this.lastInteract = this.now;
     }, { passive: false });
@@ -19967,8 +19538,6 @@ class Component extends DCLogic {
     const ctx = this.ctx; if (!ctx || !this.nodes) return;
     this._warmMapPaint();
     const W = this.W, H = this.H, dpr = this.dpr;
-    // A directed arrival lights the chosen seat from the pick, without focusing or dealing it before enterLand.
-    const drawFocus = this._camOpen && !this._camOpen.cancelled && this._camOpen.pick != null ? this.currentPos : this.focusIdx;
     const scale = W / this.cam.vw;
     // ── THE LIFT IS RE-APPLIED PER FRAME, AND IT COLLAPSES WITH ZOOM (v1.113.1) ────────────────
     // `nodeK` rescales every orb by up to 2.5x across the zoom range, so a lift baked into the
@@ -20142,8 +19711,8 @@ class Component extends DCLogic {
     if (this.adj && this.alpha > 0.05) {
       const NN = this.nodes.length;
       const lit = [];
-      if (drawFocus >= 0) lit.push(drawFocus);
-      if (this._dossierIdx != null && this._dossierIdx !== drawFocus) lit.push(this._dossierIdx);
+      if (this.focusIdx >= 0) lit.push(this.focusIdx);
+      if (this._dossierIdx != null && this._dossierIdx !== this.focusIdx) lit.push(this._dossierIdx);
       for (const li of lit) {
         const cn = this.nodes[li]; if (!cn || !this.adj[li]) continue;
         const mw = (this._maxW && this._maxW[li]) || 0;
@@ -20335,8 +19904,8 @@ class Component extends DCLogic {
     // floor, lit all roll long, which is the "blooming, beaming" the owner named. The steady
     // state is now a MARK — the node's own silhouette in your perspective colour, with a rim —
     // and the light is spent where it means something: the moment the move lands.
-    if (drawFocus >= 0 && !this.pulse) {
-      const n = this.nodes[drawFocus];
+    if (this.focusIdx >= 0 && !this.pulse) {
+      const n = this.nodes[this.focusIdx];
       const pc = this._mapFocusColor(n);
       // landing settle: damped overshoot when the roll arrives
       let settle = 1;
@@ -20393,12 +19962,12 @@ class Component extends DCLogic {
     // arrival bloom, which means the bloom no longer decays to zero at 1.9s — it decays INTO
     // this, so there is no cliff and no stale state. And it DRAINS into the pulse on departure
     // exactly as the halo did, which is what covers the marker's own cut at `!this.pulse`.
-    if (drawFocus >= 0 && this.nodes[drawFocus]) {
-      const cur = this.nodes[drawFocus];
+    if (this.focusIdx >= 0 && this.nodes[this.focusIdx]) {
+      const cur = this.nodes[this.focusIdx];
       const pu = this.pulse;
       let dep = 1;
       if (pu && !pu.done) {
-        dep = pu.path && pu.path[0] === drawFocus
+        dep = pu.path && pu.path[0] === this.focusIdx
           ? Math.max(0, 1 - (pu.seg + (pu.t || 0)) * 1.4)   // leg 1: stream it into the light
           : 0;                                              // later legs: the light has left
       }
@@ -20466,7 +20035,7 @@ class Component extends DCLogic {
       ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
       for (const n of this.nodes) {
         if (!rsOk[n.idx]) continue;
-        const age = this.now - n.lit; if (age > 3.2 || n.idx === drawFocus) continue;
+        const age = this.now - n.lit; if (age > 3.2 || n.idx === this.focusIdx) continue;
         if (this.activeMove && n.idx === this.activeMove.idx) continue;
         if (this.optionIdxs.indexOf(n.idx) >= 0) continue; // outgoing nodes get persistent labels below
         const k = Math.max(0, 1 - age / 3.2);
@@ -20523,8 +20092,8 @@ class Component extends DCLogic {
         const am = this.activeMove;
         // a staged technique already wears the big pair label (name · qualifier · role) — the
         // small travel label over it was the owner's "just 'armbar', tiny" report
-        const fn = drawFocus >= 0 ? this.nodes[drawFocus] : null;
-        const dup = fn && (am.idx === drawFocus || (fn.pairId && this.nodes[am.idx] && this.nodes[am.idx].pairId === fn.pairId));
+        const fn = this.focusIdx >= 0 ? this.nodes[this.focusIdx] : null;
+        const dup = fn && (am.idx === this.focusIdx || (fn.pairId && this.nodes[am.idx] && this.nodes[am.idx].pairId === fn.pairId));
         if (!dup) richLabel(am.idx, am.verb, am.col, false);
       }
       // persistent labels on the outgoing option nodes while a decision is open
@@ -20537,7 +20106,7 @@ class Component extends DCLogic {
           // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
           // names it, and an option label on the same orb is the "printed twice" defect the
           // in-node pass was deleted for. Never possible before: an option was never the focus.
-          if (idx === drawFocus || (drawFocus >= 0 && n.pairId && this.nodes[drawFocus].pairId === n.pairId)) continue;
+          if (idx === this.focusIdx || (this.focusIdx >= 0 && n.pairId && this.nodes[this.focusIdx].pairId === n.pairId)) continue;
           const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
           if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
           ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
@@ -20605,7 +20174,7 @@ class Component extends DCLogic {
         // "Kimura"), this one says which side of the exchange you are pointing at. They sit on
         // opposite sides of the name for exactly that reason and must never be conflated.
         const sub = this.seatWord(n.ty, above);
-        const subCol = act.idx === drawFocus
+        const subCol = act.idx === this.focusIdx
           ? this.myColor(act)
           : (act.z < 0 && act.colU ? act.colU : act.col);
         const dfam = this._displayFam || "'Space Grotesk'";
@@ -20688,8 +20257,8 @@ class Component extends DCLogic {
       const _hovNode = heldStar ? this.nodes[Number(heldStar.getAttribute("data-seat-star"))]
         : (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
           ? this.nodes[this._hover.idx] : null;
-      if (drawFocus >= 0 && !this.pulse) {
-        const n = this.nodes[drawFocus];
+      if (this.focusIdx >= 0 && !this.pulse) {
+        const n = this.nodes[this.focusIdx];
         const partner = n.pi >= 0 ? this.nodes[n.pi] : null;
         const act = (partner && _hovNode && (_hovNode === n || _hovNode === partner)) ? _hovNode : n;
         // a pair too merged to carry the group still needs naming — fall through to the single
@@ -20710,22 +20279,22 @@ class Component extends DCLogic {
           const kick = rl
             ? String(rl).toUpperCase()
             : (n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION");
-          richLabel(drawFocus, kick, this.myColor(n), true);
+          richLabel(this.focusIdx, kick, this.myColor(n), true);
         }
       }
       // ...and the SAME group for whatever pair the cursor is over, when it is not the focus's.
       let _hovPairDrawn = false;
       if (_hovNode && _hovNode.pi >= 0) {
-        const inFocusPair = drawFocus >= 0 &&
-          (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
+        const inFocusPair = this.focusIdx >= 0 &&
+          (_hovNode.idx === this.focusIdx || _hovNode.idx === this.nodes[this.focusIdx].pi);
         if (!inFocusPair) _hovPairDrawn = pairGroup(_hovNode, _hovNode, false);
       }
       // hover: nearest node label (brighter + "your move" tag if it's an outgoing option)
       // ...but NOT for a member of the focused pair: the label group above already names it, and
       // its whole point is that the name does not move — a second copy hanging off the hovered
       // orb would be the "printed twice" problem the in-node pass had (v1.114.0), on hover.
-      const _hovIsPairHalf = _hovNode && drawFocus >= 0 &&
-        (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
+      const _hovIsPairHalf = _hovNode && this.focusIdx >= 0 &&
+        (_hovNode.idx === this.focusIdx || _hovNode.idx === this.nodes[this.focusIdx].pi);
       if (_hovNode && !_hovIsPairHalf && !_hovPairDrawn) {
         const n = _hovNode;
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
