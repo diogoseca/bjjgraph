@@ -312,16 +312,18 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   // Body Triangle Lock and Seat Belt to Body Triangle (both |Attacker), and Vaporizer|Bottom (no-gi
   // only). Body triangle now deals Back Control Maintenance (a deal_here listing), so it is worth
   // more than the seat belt it is entered from and entering it stopped costing value.
+  // v1.235.1 (owner N5 a): 18 -> 17 in both frames. `Kimura Switch|Attacker` LEFT with the withdrawn
+  // move (it succeeded into Kimura Trap/Top, which has no finish); none joined.
   const jsNeg = K.deckKeys.filter((d, i) => RUN.grad[i] < -1e-12).sort();
   const pyNeg = NOGI.decks.filter((d) => PY.get(d) < -1e-12).sort();
-  assert.equal(jsNeg.length, 18, "21 decks backfire at lam 2 on a blank no-gi profile"); // census:negDecks
+  assert.equal(jsNeg.length, 17, "21 decks backfire at lam 2 on a blank no-gi profile"); // census:negDecks
   assert.deepEqual(jsNeg, pyNeg, "and they are the same 21");
   const gi = SOLVED.gi;
   const giNeg = gi.k.deckKeys.filter((d, i) => gi.run.grad[i] < -1e-12);
   // 22 since v1.210.0 (origin coherence): `De La Riva to Inverted Guard|Attacker` joined once 50-50 Entry
   // was listed at inverted-guard/bottom, its own origin, and inverted guard stopped being worth more than
   // the DLR it is entered from. Nothing left the set, and no-gi stayed at 24.
-  assert.equal(giNeg.length, 18, "21 decks backfire at lam 2 on a blank gi profile"); // census:negDecksGi
+  assert.equal(giNeg.length, 17, "21 decks backfire at lam 2 on a blank gi profile"); // census:negDecksGi
   // N4's approved Invisible Collar correction gives Bottom its attacks (restructure-numbers-n4.md
   // 335–345, 788–820, 854–860). D-431 follow-up preserves the sign claim on that new premise:
   // these two entries now help. D-366's exact N4 New York|Bottom gradient is +0.00282975265428865064,

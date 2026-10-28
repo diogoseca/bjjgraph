@@ -562,22 +562,15 @@
       {
         "transition": "Aoki Lock from Aoki Lock Control",
         "attempt_probability": {
-          "gi": 60,
-          "nogi": 60
+          "gi": 71,
+          "nogi": 71
         }
       },
       {
         "transition": "Aoki Control Release to Ashi",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
-        }
-      },
-      {
-        "transition": "Kimura Switch",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 29,
+          "nogi": 29
         }
       }
     ],

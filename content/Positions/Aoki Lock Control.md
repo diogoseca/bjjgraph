@@ -143,11 +143,9 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 ### Available Transitions
 
 
-- **[[Submissions/Aoki Lock/from Aoki Lock Control/Attacker|Aoki Lock from Aoki Lock Control]]** (60% of attempts)
+- **[[Submissions/Aoki Lock/from Aoki Lock Control/Attacker|Aoki Lock from Aoki Lock Control]]** (71% of attempts)
 
-- **[[Transitions/Aoki Control Release to Ashi/Attacker|Aoki Control Release to Ashi]]** (25% of attempts)
-
-- **[[Transitions/Kimura Switch/Attacker|Kimura Switch]]** (15% of attempts)
+- **[[Transitions/Aoki Control Release to Ashi/Attacker|Aoki Control Release to Ashi]]** (29% of attempts)
 
 
 ### Common Mistakes
