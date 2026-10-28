@@ -12989,3 +12989,51 @@ its ledger 101/101; units 1,351/1,351; ci:validate 24/24. Every opening mutant w
 against a green control (three re-aimed after the frame-cost fix moved their targets); the app-mutant rows 28 of 31,
 the survivors being noahead-exchange-1440/-390 (H139's recorded non-kills) and d355-flight-lift-ungated (predates
 this PR). neural.js 675,030 B raw / 207,452 B gzip, +11,760 / +4,174 over dev's app; first-hand core 360,594 B.
+
+### The re-review (CAM2562) and a CI red (CAM-CI)
+
+**CAM-CI.** PR #320's CI shard 3 read opening-camera:226 (HEADING) at 0.066 against < 0.05 at its last sample; it
+passed locally. Classified a TEST that depended on machine speed, not an app fault: the heading's fade is the hand-off's
+CSS transition (`_centerHandoff`, NG_ARRIVE_HANDOFF = 1.8 s), which runs on the document timeline, i.e. wall clock,
+while the recording pumps the game clock. Measured: the real test 20/20 green on this box; a probe read, at the last
+sample, the timeline 2.4-4.0 s past the hand-off for 2.6 s of pumped time (20/20 at 0); under 4x CPU throttling 12/12
+green with 8.4-12.3 s behind the fade; and a FASTER pump (60 frames per evaluate) cut the wall clock to 1.4-1.85 s and
+the last sample rose to 0.031, the curve CI's 0.066 sits on. HEADING now asserts the app's own decision, clock-free (the
+heading's target opacity is "0" at the arrival's end; the M1 defect left it "1"), then polls the fade on wall clock,
+bounded at its own 1.8 s plus 0.7 s. 20/20 under the lock; `hide-gated-on-token` still dies at HEADING.
+
+**The re-review** probed the real build with real content and found the board's class still open where no spec looked:
+- **F1/F2:** the reader places the film with `place()`, which tags it `data-reader-game-media` (or `data-reader-media`),
+  never `data-reader-game-part`, so the loose-row rules still matched it inside the section: with the Book put away it
+  rode twice (node-to-Moves distance varied 188 px on Mount Top, 140 on Side Control) and with it on faded at o-squared
+  (0.29 at a board of 0.54). Both rules now skip every homed row (`NG_CAM_OPEN_HOMED`).
+- **F3:** reading.css's `visibility:visible!important` kept that film visible, and hit-testable, while faint; a faint
+  rule now outranks it.
+- **F4:** the reveal's rows mount on a wall-clock `after()` timer, while `_openingBoard` waited for the rAF clock to
+  reach the reveal: 2 of 16 first openings painted Moves and Videos at full opacity for 52 and 82 ms. The timer now marks
+  the arrival mounted and styles the board at once (faint).
+- **F5 (gate honesty):** the harness serves `{}` for every content chunk and fires `after()` in lockstep with the game
+  clock, so no spec could see F1-F4. opening-camera now authors Mount Top's content with two clips, Book on and off
+  (FILM-FADE, FILM-RIDE, FILM-FAINT), fires the reveal timer early by hand (MOUNT), and its header names what the harness
+  does not do.
+- **m-a:** a pause between the pick and the reveal retired the arrival but left beat 1's wide flag set, so the retired
+  zoom-out-and-back ran to pick + 2.5; retiring clears it (PAUSE-EARLY). **m-b:** the section's links, tools and labels
+  were live below 0.1; they are hidden while faint (FAINT-INERT). **m-c:** during the reader wait the hand read "Win
+  chance unavailable"; it reads "Preparing win chances" while `_readerAwaited` holds, and the bound repaints. **m-e:** a
+  card of any height counts (an asking line is ~37 px). **m-d:** NO-FLASH narrowed to what holds: adoption inside the
+  faint window.
+
+Each new claim's mutant was killed at its named assertion against a green control: film-fades-twice → FILM-FADE,
+film-rides-twice → FILM-RIDE, film-faint-visible → FILM-FAINT, faint-controls-live → FAINT-INERT, mount-unstyled → MOUNT,
+retire-keeps-beat1 → PAUSE-EARLY, awaited-reads-unavailable → its unit; the re-aimed no-loose-row-fade → FADE-ROWS.
+
+After #319 (ef14e7fed, v1.236.0) merged as 83534e4f4, the version kept at 1.237.0 and the app rows re-seeded on their
+own (d44e9b9b6: neural.js 666,412 -> 678,762 B, and the four game-worker files whose hashes carry the gameplay hash),
+outside the lock under the usual conditions: opening-camera 16/16 (now with #319's interplay check, ASK-FAINT: a tap on
+Answer for Points while faint does not reach the link), camera-continuity 27/27, article-sections:839 1/1;
+reader-not-awaited, layout-retry-lost and ask-link-escapes (the link made visible over its card's hide → ASK-FAINT)
+killed at their claims against a green control; 21 moved rows of the merged catalogue re-aimed (62 rows, each matching
+once). Final bundle: eager gzip 342,629 B (+3,044 on the 339,585 baseline, inside the +5,000 cap); deferred raw 506,590 of
+506,817 B, exactly what #319 left (this branch adds nothing deferred); first-hand core 362,027 B (-3,269). docs/Neural.md
+merged at 67,996 of 67,000 (#319 left 577; this branch's behaviour text is +1,573) and its ceiling was raised by hand to
+72,000 in its own commit.
