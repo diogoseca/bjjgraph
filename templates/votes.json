@@ -8835,36 +8835,6 @@
         }
       }
     },
-    "Kimura Switch": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 35,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 35,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
-        }
-      }
-    },
     "Kimura Trap to Ushiro Kesa Gatame": {
       "community": {
         "gi": {

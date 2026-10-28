@@ -4880,125 +4880,6 @@
         }
       }
     },
-    "content/Transitions/Kimura Switch.json": {
-      "name": "Kimura Switch",
-      "source": "N4 exact table approved as proposed by the owner (D-429)",
-      "before": {
-        "from_position": "Aoki Lock Control/Top",
-        "success_rate": {
-          "gi": 58,
-          "nogi": 58
-        },
-        "outcomes": [
-          {
-            "to": "Kimura Trap/Top",
-            "probability": {
-              "gi": 65,
-              "nogi": 65
-            },
-            "result": "success"
-          },
-          {
-            "to": "Aoki Lock Control/Top",
-            "probability": {
-              "gi": 25,
-              "nogi": 25
-            },
-            "result": "failure"
-          },
-          {
-            "to": "Turtle/Bottom",
-            "probability": {
-              "gi": 10,
-              "nogi": 10
-            },
-            "result": "counter"
-          }
-        ]
-      },
-      "after": {
-        "from_position": "Aoki Lock Control/Bottom",
-        "success_rate": {
-          "gi": 35,
-          "nogi": 35
-        },
-        "outcomes": [
-          {
-            "result": "success",
-            "to": "Kimura Trap/Top",
-            "probability": {
-              "gi": 35,
-              "nogi": 35
-            }
-          },
-          {
-            "result": "failure",
-            "to": "Aoki Lock Control/Bottom",
-            "probability": {
-              "gi": 45,
-              "nogi": 45
-            }
-          },
-          {
-            "result": "counter",
-            "to": "Ashi Garami/Bottom",
-            "probability": {
-              "gi": 20,
-              "nogi": 20
-            }
-          }
-        ]
-      },
-      "old_votes": {
-        "community": {
-          "gi": {
-            "success_rate": 58.0,
-            "vote_count": 30
-          },
-          "nogi": {
-            "success_rate": 58.0,
-            "vote_count": 30
-          }
-        },
-        "prior": {
-          "gi": {
-            "success_rate": 38,
-            "pseudo_count": 8,
-            "extrapolated": false
-          },
-          "nogi": {
-            "success_rate": 38,
-            "pseudo_count": 8,
-            "extrapolated": false
-          },
-          "provenance": {
-            "source": "calibrate+review",
-            "run_id": "2026-07-07T17:37:32.832419Z",
-            "reviewed": false,
-            "override": false
-          }
-        }
-      },
-      "old_override": null,
-      "prior_after": {
-        "gi": {
-          "success_rate": 35,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 35,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
-        }
-      }
-    },
     "content/Transitions/Buggy Choke to Front Headlock.json": {
       "name": "Buggy Choke to Front Headlock",
       "source": "N4 exact table approved as proposed by the owner (D-429)",
@@ -5451,7 +5332,7 @@
     },
     "content/Transitions/Switch to Darce Configuration.json": {
       "name": "Switch to Darce Configuration",
-      "source": "N4 exact table approved as proposed by the owner (D-429)",
+      "source": "N5 a: success re-pointed Darce Control/Top -> Front Headlock/Top, probabilities unchanged (owner, 2026-10-27); N4 exact table approved as proposed by the owner (D-429)",
       "before": {
         "from_position": "Buggy Choke/Top",
         "success_rate": {
@@ -5494,7 +5375,7 @@
         "outcomes": [
           {
             "result": "success",
-            "to": "Darce Control/Top",
+            "to": "Front Headlock/Top",
             "probability": {
               "gi": 40,
               "nogi": 40
@@ -13965,26 +13846,19 @@
         {
           "transition": "Aoki Lock from Aoki Lock Control",
           "attempt_probability": {
-            "gi": 60,
-            "nogi": 60
+            "gi": 71,
+            "nogi": 71
           }
         },
         {
           "transition": "Aoki Control Release to Ashi",
           "attempt_probability": {
-            "gi": 25,
-            "nogi": 25
-          }
-        },
-        {
-          "transition": "Kimura Switch",
-          "attempt_probability": {
-            "gi": 15,
-            "nogi": 15
+            "gi": 29,
+            "nogi": 29
           }
         }
       ],
-      "source": "N4 menu approved as proposed by the owner (D-429)"
+      "source": "N5 a: Kimura Switch withdrawn, the two remaining moves re-split 60/25 -> 71/29 in gi and no-gi as the owner approved (2026-10-27); N4 menu approved as proposed by the owner (D-429)"
     },
     "Aoki Lock Control/Top": {
       "path": "content/Positions/Aoki Lock Control.json",
@@ -19228,6 +19102,10 @@
     {
       "old_path": "content/Transitions/Turtle to Aoki Lock.json",
       "replacement_path": "content/Positions/Turtle.json"
+    },
+    {
+      "old_path": "content/Transitions/Kimura Switch.json",
+      "replacement_path": "content/Positions/Aoki Lock Control.json"
     }
   ],
   "superseded_calibration": {
@@ -19581,7 +19459,6 @@
       "Invisible Collar Guard Reset",
       "Zombie to New York",
       "Hindu Control to Triangle",
-      "Kimura Switch",
       "Buggy Choke to Front Headlock",
       "Buggy Choke to North-South",
       "Roll to Deep Half Guard",
@@ -19609,5 +19486,13 @@
     "decision": "N4 a: approve as proposed",
     "ruling": "D-429",
     "approved_on": "2026-10-26"
+  },
+  "n5_approval": {
+    "decision": "N5 a: both, as researched",
+    "approved_on": "2026-10-27",
+    "research": "reports/n5-research.md (sections 3.3 and 5)",
+    "switch_to_darce_configuration": "success Darce Control/Top -> Front Headlock/Top; gi 40 / no-gi 40 unchanged; steps re-authored from section 3.3",
+    "kimura_switch": "withdrawn; retired to content/Positions/Aoki Lock Control.json, the origin position's page (the N4 convention)",
+    "aoki_lock_control_bottom": "Aoki Lock from Aoki Lock Control 60 -> 71; Aoki Control Release to Ashi 25 -> 29; gi and no-gi alike"
   }
 }

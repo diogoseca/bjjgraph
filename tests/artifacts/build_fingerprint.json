@@ -1,26 +1,15 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "npm run regenerate:neural",
-   "esbuild": "0.27.0",
-   "git_head": "0c894d1ff54a61906459b5a8780fc4b98018c695",
-   "inputs": {
-    "tree": "be2ad54db8f8af0dbaea15bbc8e8ac85d257d56f"
-   },
-   "package_version": "1.235.0",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v2"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/reorigined-prose/FPGO516-v2/capture/pr-reorigined-prose-merge-b05f7b541-v2",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/n5-two-moves/capture/pr-n5-two-moves-26df4c4b7",
   "content_provenance": {
-   "capture_git_head": "b05f7b54172ceb77fd06dbf5aca04a9cf4c6bc95",
-   "capture_id": "23ade999a21b4101be4a9c27f9df8bad",
+   "capture_git_head": "26df4c4b7c9bf0d7bef64f284f1ffb5be873c997",
+   "capture_id": "2a7bdf5e8b99441fa9511fff38db6b21",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
-   "content_files": 6295,
-   "content_md": 4522,
+   "content_files": 6291,
+   "content_md": 4519,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "11def55b3b667000774eee7982f0fde538e8b36e",
+   "content_tree": "75ed91385879513fc75f42e0560371c8fa5e8925",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -44,12 +33,12 @@
     }
    },
    "output_identity": {
-    "files": 15735,
-    "sha256": "118be07420e72bd1d23e76cd3018dbfae49bba590f4db794614b09002c744118"
+    "files": 15725,
+    "sha256": "47e8a7031a4245a69d1f7f0a5633dd6a45c2138f5925254f201a63af8ae23fd9"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/reorigined-prose/FPGO516-v2/capture/pr-reorigined-prose-merge-b05f7b541-v2"
+    "/home/user/bjj-orchestrator/scratch/n5-two-moves/capture/pr-n5-two-moves-26df4c4b7"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -66,21 +55,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "d8cea20b13ebe43a73e47072a333ebd54da7093b0a2a39a9ab506d505da0fe16"
+    "sha256": "9bf8977be7c43e2be88a1a95e905b4b5e6016baf146ef51e9bcebc33f6ff80fe"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "8771dbb03d426ecb9c85b096290ae77c392fe40d49df534e5fc06e0ae52c80a9",
+    "sha256": "0451a5e400f38f3f3a28933708aac97cd8a63203ad2dabbac1ac203ee40cd0b4",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "b87598451682ebda4027dd6086d5cbd9764c2df692ab38e84cc2f374da099567",
+    "sha256": "597395ec1860ff9434a0e8170401ad60749548b92d038a9b3aa812d5e5b9197e",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "f730b620781f5b56ef28e9c5622c6c9c1441a91af78a97a1ecf334688ea998ce",
+    "sha256": "a7eafe9e97eedbbe500e738dce7e43c0da45ef296b5a8360a2bca94b1cef563a",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
@@ -100,8 +89,8 @@
     "sha256": "576608ff933e87799e0e9a4d245e12ba6a31527c07da25ac1ffdba372a7c9707"
    },
    "static/neural/app/neural.js": {
-    "bytes": 671367,
-    "sha256": "14c2e6b8f70ebd08584395a7a1ad96e815b354e28e77fba993cd00836fa9934b",
+    "bytes": 663360,
+    "sha256": "c312e323acc71c37bbe570f8aac919043c5aee063c7369aace5c9ed84e0c4d45",
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
@@ -147,11 +136,11 @@
   "binary": 16,
   "css": 17,
   "gzip": 1,
-  "html": 6106,
+  "html": 6102,
   "js": 41,
-  "json_opaque": 4955,
+  "json_opaque": 4952,
   "json_semantic": 5,
-  "text_opaque": 4585,
+  "text_opaque": 4582,
   "text_semantic": 7,
   "xml": 2
  },
@@ -163,92 +152,92 @@
   "Principles": 64,
   "Submissions": 1284,
   "Systems": 84,
-  "Transitions": 4013,
+  "Transitions": 4009,
   "dev": 59,
-  "markdown": 4520,
-  "static": 5042,
+  "markdown": 4517,
+  "static": 5039,
   "tags": 73
  },
  "census": {
-  "article_headings": 89613,
-  "article_links": 194733,
-  "files": 15735,
+  "article_headings": 89550,
+  "article_links": 194612,
+  "files": 15725,
   "gzip_files": 1,
-  "head_links": 48911,
-  "html_pages": 6106,
-  "jsonld_blocks": 30133,
-  "meta_tags": 127871,
-  "outside_links": 144236,
-  "pages_with_article": 6095,
-  "pages_with_canonical": 6098,
-  "pages_with_description": 6101,
-  "pages_with_og_title": 6095,
-  "pages_with_outside_links": 6102,
-  "pages_with_title": 6106,
+  "head_links": 48879,
+  "html_pages": 6102,
+  "jsonld_blocks": 30111,
+  "meta_tags": 127787,
+  "outside_links": 144137,
+  "pages_with_article": 6091,
+  "pages_with_canonical": 6094,
+  "pages_with_description": 6097,
+  "pages_with_og_title": 6091,
+  "pages_with_outside_links": 6098,
+  "pages_with_title": 6102,
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 5042
+  "static_files": 5039
  },
  "distinct_values": {
-  "name=description": 4457,
-  "property=og:title": 4596
+  "name=description": 4454,
+  "property=og:title": 4593
  },
  "jsonld_types": {
   "Article": 26,
-  "BreadcrumbList": 5923,
+  "BreadcrumbList": 5919,
   "CollectionPage": 124,
-  "DefinedTerm": 3057,
-  "FAQPage": 3067,
-  "HowTo": 2917,
-  "ItemList": 3062,
-  "Organization": 6095,
+  "DefinedTerm": 3055,
+  "FAQPage": 3065,
+  "HowTo": 2915,
+  "ItemList": 3058,
+  "Organization": 6091,
   "WebApplication": 2,
-  "WebPage": 5858,
+  "WebPage": 5854,
   "WebSite": 2
  },
  "markers": {
-  "body:data-current-role": 6095,
-  "body:data-slug": 6095,
-  "class:category-nav": 6095,
-  "class:popover-hint": 6095,
-  "class:search": 6095,
-  "id:page-graph-data": 4466,
-  "id:quartz-body": 6095,
-  "id:quartz-root": 6095,
-  "id:sidebar-overlay": 6095,
-  "js:__rollPositions": 6095,
+  "body:data-current-role": 6091,
+  "body:data-slug": 6091,
+  "class:category-nav": 6091,
+  "class:popover-hint": 6091,
+  "class:search": 6091,
+  "id:page-graph-data": 4463,
+  "id:quartz-body": 6091,
+  "id:quartz-root": 6091,
+  "id:sidebar-overlay": 6091,
+  "js:__rollPositions": 6091,
   "meta:robots": 12,
-  "tag:article": 6095,
-  "tag:footer": 6095,
-  "tag:main": 5973,
-  "tag:nav": 6096
+  "tag:article": 6091,
+  "tag:footer": 6091,
+  "tag:main": 5969,
+  "tag:nav": 6092
  },
  "meta_keys": {
   "charset=UTF-8": 6,
-  "charset=utf-8": 6100,
+  "charset=utf-8": 6096,
   "http-equiv=refresh": 3,
-  "name=description": 6101,
-  "name=generator": 6095,
+  "name=description": 6097,
+  "name=generator": 6091,
   "name=robots": 12,
-  "name=theme-color": 6095,
-  "name=twitter:card": 6095,
-  "name=twitter:description": 6095,
-  "name=twitter:image": 6095,
-  "name=twitter:image:alt": 6095,
-  "name=twitter:title": 6095,
-  "name=viewport": 6103,
-  "property=article:modified_time": 6013,
-  "property=article:published_time": 6013,
-  "property=og:description": 6095,
-  "property=og:height": 6095,
-  "property=og:image": 6095,
-  "property=og:locale": 6095,
-  "property=og:site_name": 6095,
-  "property=og:title": 6095,
-  "property=og:type": 6095,
-  "property=og:url": 6095,
-  "property=og:width": 6095
+  "name=theme-color": 6091,
+  "name=twitter:card": 6091,
+  "name=twitter:description": 6091,
+  "name=twitter:image": 6091,
+  "name=twitter:image:alt": 6091,
+  "name=twitter:title": 6091,
+  "name=viewport": 6099,
+  "property=article:modified_time": 6009,
+  "property=article:published_time": 6009,
+  "property=og:description": 6091,
+  "property=og:height": 6091,
+  "property=og:image": 6091,
+  "property=og:locale": 6091,
+  "property=og:site_name": 6091,
+  "property=og:title": 6091,
+  "property=og:type": 6091,
+  "property=og:url": 6091,
+  "property=og:width": 6091
  },
  "zeros": {
   "gzip_decompress_errors": 0,
