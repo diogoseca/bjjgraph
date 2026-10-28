@@ -108,7 +108,10 @@ test("every authored destination resolves to a state the game can enter", () => 
   // N4 (D-429), graph-restructure-plan.md retirement tables and approved N4
   // coupled outcomes: 48 changed technique rows move 3,803 node landings to
   // 3,751 (RPHASE2N4-d434/census-evidence.json). Keep every destination resolved.
-  assert.equal(node, 3751, `node landings after the approved N4 restructuring`);
+  // v1.235.1 (owner N5 a): 3,751 -> 3,748. The withdrawn Kimura Switch takes its three node
+  // landings with it (kimura-trap/top, aoki-lock-control/bottom, ashi-garami/bottom); the Switch to
+  // Darce Configuration re-point swaps darce-control/top for front-headlock/top, net zero.
+  assert.equal(node, 3748, `node landings after the approved N4 restructuring and N5 a`);
   assert.ok(terminal >= 250, `only ${terminal} destinations are game-over — submissions lost their finish`);
 });
 

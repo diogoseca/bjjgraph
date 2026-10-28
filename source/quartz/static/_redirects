@@ -344,6 +344,10 @@
 /Transitions/Sweep-to-Mount /Positions/Hindulotine 301
 /transitions/sweep-to-mount/* /Positions/Hindulotine 301
 /transitions/sweep-to-mount /Positions/Hindulotine 301
+/Transitions/Kimura-Switch/* /Positions/Aoki-Lock-Control 301
+/Transitions/Kimura-Switch /Positions/Aoki-Lock-Control 301
+/transitions/kimura-switch/* /Positions/Aoki-Lock-Control 301
+/transitions/kimura-switch /Positions/Aoki-Lock-Control 301
 /Transitions/Roll-to-Truck/* /Positions/Buggy-Choke 301
 /Transitions/Roll-to-Truck /Positions/Buggy-Choke 301
 /transitions/roll-to-truck/* /Positions/Buggy-Choke 301

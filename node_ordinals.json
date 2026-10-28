@@ -4,7 +4,7 @@
  "source": "source/quartz/static/globalGraphLayout.json#nodes[].id",
  "next_ordinal": 1523,
  "count_assigned": 1523,
- "count_live": 1422,
+ "count_live": 1421,
  "ordinals": {
   "Positions/Anaconda-Control": 0,
   "Positions/Aoki-Lock-Control": 1,
@@ -1602,6 +1602,7 @@
   "Transitions/Hook-Leg-and-Take-Back": "2026-10-24",
   "Transitions/Kesa-Gatame-to-Modified-Scarf-Hold": "2026-09-03",
   "Transitions/Kesa-Gatame-to-Reverse-Kesa-Gatame": "2026-09-03",
+  "Transitions/Kimura-Switch": "2026-10-28",
   "Transitions/Kimura-Trap-to-Reverse-Scarf-Hold": "2026-09-03",
   "Transitions/Kimura-from-Half-Guard": "2026-08-31",
   "Transitions/Kiss-of-the-Dragon": "2026-10-24",
