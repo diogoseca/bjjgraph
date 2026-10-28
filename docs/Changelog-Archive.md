@@ -12820,3 +12820,14 @@ step now stays the deck's through take-up (only the width differs: the line has 
 fade (`ngCardInX`; in the reader its transform is pinned to none) now runs when the card is taken up, since the
 quiet line itself has none.
 
+CI's shard 4 then found the second cost of the quiet line, in the phone execution camera. D-370's free space under
+the executing row was the landing card's slot, emptied for the execution; the quiet line empties about 65px at 390, so
+with the reader scrolled 170-200px over the band `frameExecution` found no slot (`noFit` +174 per step) and the pair
+fell under the card just pressed. Controls at 390x844, 3 runs each: red 3/3 on this branch, green 3/3 on dev
+`ae3c8c347`'s own bundle served on the same merged content, green 3/3 on the dev twin. `frameExecution` now opens
+the missing height under the row for that execution only (the handoff's height grows, so the article moves down and
+the clicked row never does), once per execution and counted (`_execFrame.slot`); mutant `u52b-execution-slot-lost`.
+An earlier focused re-run had filtered by `file:line` after the specs moved one or two lines, so three of its four
+targets (this sweep among them) never ran and its green said nothing about them; every final stage now prints its
+ran-count and fails on zero.
+

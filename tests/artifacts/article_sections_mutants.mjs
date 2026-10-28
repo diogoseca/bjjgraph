@@ -223,6 +223,10 @@ const mutants = [
   // asking step shows as the article's chrome-frame card gap.
   ['u52b-asking-small-step', sections, 'optional chrome frame preserves the node band',
     s => replace(s, 'const deck = !!card?.classList.contains("ng-land-deck");', 'const deck = !!card?.classList.contains("ng-land-deck") && !card.hasAttribute("data-land-ask");')],
+  // U52 b (APTS-SHARD4): a quiet asking line leaves no slot under the executing row on a covered phone band; the
+  // execution opens one. Without it the pair falls under the card just pressed at reader scroll 170-200px.
+  ['u52b-execution-slot-lost', 'roll-execution.spec.ts', 'at 390x844 a pick with the reader scrolled',
+    s => replace(s, '      if (need > 0 && need < H / 3) {', '      if (false) {')],
   ['u47-backs-unpaid', 'landcard-deck.spec.ts', '390px: the deck face keeps its 1.5x foot',
     s => replace(s, 'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);',
       'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight);')],

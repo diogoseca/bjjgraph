@@ -968,6 +968,21 @@ class Reader {
     const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null, col = this.articleEl.getBoundingClientRect();
     const free = nodeBand && (search(nodeBand) || col.width && search(null, { left: col.left, right: col.right, top: nodeBand.bottom, bottom: H })) || search(null);
     if (free) return free;
+    // U52 b: D-370's free space was the landing card's slot, emptied for the execution. An asking question is a
+    // quiet line, so on a phone with the reader scrolled 170-200px over the band the slot left under the executing
+    // row (65px at 390x844) is shorter than the pair's box, and the pair fell back under the card just pressed
+    // (roll-execution's phone sweep). Open the missing height under the row for this execution only: the
+    // handoff's height grows, so the article moves down and the clicked row never does. Once per execution,
+    // counted (traps §6.6); the reservation leaves with the execution's card.
+    const handoff = a._executionDock()?.reader;
+    if (handoff && card && !handoff.slot && nodeBand) {
+      const need = Math.ceil(box.bottom - box.top + 24 - (col.top - card.bottom));
+      if (need > 0 && need < H / 3) {
+        handoff.slot = need; said.slot = (said.slot || 0) + 1;
+        this.layoutNow();
+        return this.frameExecution(target, node);
+      }
+    }
     said.noFit++;
     return nodeBand ? { ...target, cy: target.cy - Math.min(Math.max(0, nodeBand.top - box.top), nodeBand.bottom - box.bottom) / scale } : target;
   }
@@ -1188,7 +1203,7 @@ class Reader {
         if (questionFirst) { y += step; placeHand(); y -= step; }
         if (follows) { y += step; position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
         else if (homeMedia && !showCard) { position(this.mediaHome, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
-        gameHeight = Math.max(handoff?.height ?? 0, y);
+        gameHeight = Math.max((handoff?.height ?? 0) + (handoff?.slot || 0), y);
       } else {
         const stageHeight = beside ? Math.max(cardHeight, mediaHeight) : cardHeight + mediaHeight + (homeMedia && showCard ? 12 : 0);
         start = Math.max(6, Math.min(start, end - top - stageHeight - gap - handHeight));
@@ -1199,7 +1214,7 @@ class Reader {
         if (card) position(card, cardX, cardY);
         const rowTop = handoff?.rowTop ?? start + stageHeight + gap;
         if (row) position(row, 0, rowTop, W);
-        gameHeight = handoff?.height ?? rowTop + handHeight;
+        gameHeight = (handoff?.height ?? rowTop + handHeight) + (handoff?.slot || 0);
       }
       for (const [el, key] of [[a._landStackEl, "stack"], [a._landNavEl, "nav"]]) {
         if (el && card) { moved(el, key); position(el, cardX, cardY, cardWidth); style(el, "height", cardHeight); }
