@@ -245,6 +245,16 @@ const NG_PREFETCH_CAP = 10;
 // once more when it settles, and at least every MAX_HOLD ms while it keeps streaming.
 const NG_RESIDENCY_SETTLE_MS = 250;
 const NG_RESIDENCY_MAX_HOLD_MS = 2000;
+// D-354 + D-351 as an ORDER, not a race (PR #320's review, CAM2547): a landing's hand is not playable for the
+// Win chance until the reader has laid that landing out once (`_readerAwaited`), because that first layout may
+// hold it (the article it asked for) and moves it. Dev met this order only by timing: the deal is held by the
+// residency burst, and the burst's trailing flush (NG_RESIDENCY_SETTLE_MS, wall clock) happened to land after the
+// cold reader held the hand. The directed arrival's frames cost ~2.4x more wall time per pumped second (300 vs
+// 125 ms), so the flush landed inside the reveal's own pump, on a loose hand fading in at 0.58, and the activation
+// started before the hold (article-sections:839's premise, 3/3 red). A reader that never lays the landing out
+// (its module hung) is waited for this long, wall clock: its module took ~0.7 s locally on a cold load, and CI
+// runs ~4x slower.
+const NG_READER_FIRST_LAYOUT_MS = 3000;
 // THE PANE'S TABS, IN NAV ORDER — one list, because two readers need it and they need different
 // halves. `setViewMode` needs the SET (it validated against a hand-typed triple of the same three
 // strings) and `_paneTabPageTo` needs the ORDER. The order here is the DOM order in
@@ -12983,6 +12993,17 @@ class Component extends DCLogic {
     // leading restart. A burst of one deck is one restart, exactly as before, so no pattern costs more.
     hold.t = setTimeout(flush, NG_RESIDENCY_SETTLE_MS);
   }
+  /** True while the current landing's hand waits for the reader's first layout of it (NG_READER_FIRST_LAYOUT_MS):
+   *  the reader was asked for its article (`_queueReader`) and has neither laid it out, skipped it nor failed.
+   *  A refusal here is asked again by that layout (`_readerHold`), by a failed import, or at the bound. */
+  _readerAwaited() {
+    const q = this._readerQueued;
+    if (!q || q.laid || q.skip || q.pub || q.idx !== this._landIdx || this._readerFailed || q.t0 == null) return false;
+    const left = q.t0 + NG_READER_FIRST_LAYOUT_MS - performance.now();
+    if (left <= 0) return false;
+    if (!q.armed) { q.armed = true; setTimeout(() => this._ensureGameValues(), left + 1); }   // once per landing
+    return true;
+  }
   _gameValuePlayable() {
     if (this.__ngDestroyed || !this._progressLoaded || this._execution || this._checkpoint
       || this._waitingSubmission || this._sweep || typeof this._optPick !== "function"
@@ -12994,6 +13015,7 @@ class Component extends DCLogic {
     if (style.display === "none" || style.visibility === "hidden" || +style.opacity === 0 || style.pointerEvents === "none") return false;
     const cards = (this._optionCards || []).filter(c => !c.opt.threat);
     if (!cards.length || cards.some(c => !c.card?.isConnected || !row.contains(c.card) || !this._optList.includes(c.opt))) return false;
+    if (this._readerAwaited()) return false;
     return cards.some(c => {
       const r = c.card.getBoundingClientRect();
       return r.width > 0 && r.height > 0 && r.bottom > 0 && r.top < window.innerHeight && r.right > 0 && r.left < window.innerWidth;
@@ -14880,7 +14902,7 @@ class Component extends DCLogic {
     // until this article renders. One request per landing (a rebuilt card, a backfill, keeps it),
     // and every way of opening no article marks it skipped, which releases the hold at once.
     const p = this._readerInitialPath || path, prev = this._readerQueued;
-    const request = this._readerQueued = prev?.idx === node.idx && prev.path === p ? prev : { path: p, idx: node.idx };
+    const request = this._readerQueued = prev?.idx === node.idx && prev.path === p ? prev : { path: p, idx: node.idx, t0: performance.now() };
     requestAnimationFrame(() => setTimeout(() => {
       if (this.__ngDestroyed || this._readerIntent || this._reader?.interacting || request !== this._readerQueued || !request.path ||
         !this.optionsRef.current?.querySelector("[data-tech]") && !this._urlSeeded) { request.skip = true; this._reader?.layout(); return; }
@@ -14910,6 +14932,9 @@ class Component extends DCLogic {
   }
   _readerHold(r, shown, W, H) {
     const q = this._readerQueued, pin = this._readerPin, card = this._landEl;
+    // the landing's first layout: the hand is adopted and held (or not) by the time this layout returns, so the
+    // Win chance it waited for (`_readerAwaited`) is asked again then, held or not
+    if (q && !q.laid && q.idx === this._landIdx) { q.laid = true; queueMicrotask(() => this._ensureGameValues()); }
     // Settled: graded (the event: a reading decline also marks the question answered, and must not
     // release live parts), the card or hand closed, the next landing, the article put away, a new viewport.
     if (pin && (pin.q !== q || !shown || pin.W !== W || pin.H !== H || !this._handShown() || pin.graded || card && !this._layerOn("card"))) {
@@ -14974,6 +14999,7 @@ class Component extends DCLogic {
       .then((m) => { if (!this.__ngDestroyed) return m.installReader(this); })
       .catch((error) => {
         this._readerFailed = true;
+        this._ensureGameValues();   // nothing will lay the landing out now (`_readerAwaited`)
         this._landEl?.removeAttribute("data-reader-pending");
         this._readerLoad = null; this._readerRetry = (this._readerRetry || 0) + 1;
         console.warn("[reader] load failed", error);
@@ -18911,13 +18937,16 @@ class Component extends DCLogic {
     wrap.style.setProperty("--ng-open-o", String(Math.round(o * 1e4) / 1e4));
     wrap.style.setProperty("--ng-open-y", y.toFixed(2) + "px");
     wrap.dataset.ngBook = this.get("readerBook", true) ? "on" : "off";
+    const was = wrap.dataset.ngOpen;
     wrap.dataset.ngOpen = o < NG_CAM_OPEN_FAINT ? "faint" : "board";
+    // a hand refused while faint (hidden, `_gameValuePlayable`) is asked again the frame it shows: nothing else would
+    if (was === "faint" && wrap.dataset.ngOpen === "board") this._ensureGameValues();
     this._openO = o; this._openY = y;   // what the board shows: `_viewRect` reads the ride, a restart inherits both
     if (t >= E && o >= 1) { op.boardDone = true; this._openBoardEnd(false); return; }
     if (op.stallAt !== t) {   // the last resort (NG_CAM_OPEN_STALL_MS), re-armed by every frame that moves the clock
       op.stallAt = t; clearTimeout(this._openStall);
       if (wrap.dataset.ngOpen === "faint") this._openStall = setTimeout(() => {
-        if (this._camOpen === op && op.stallAt === t && wrap.dataset.ngOpen === "faint") wrap.dataset.ngOpen = "board";
+        if (this._camOpen === op && op.stallAt === t && wrap.dataset.ngOpen === "faint") { wrap.dataset.ngOpen = "board"; this._ensureGameValues(); }
       }, NG_CAM_OPEN_STALL_MS);
     }
   }
@@ -18932,6 +18961,7 @@ class Component extends DCLogic {
       delete wrap.dataset.ngOpen; delete wrap.dataset.ngBook;
       wrap.style.removeProperty("--ng-open-o"); wrap.style.removeProperty("--ng-open-y");
       this._openO = 1; this._openY = 0;
+      this._ensureGameValues();   // the board is the player's now: a refusal during the entrance is asked again
     };
     // a release needs something actually fading, or no transitionend would ever come to clear it
     const fading = [...wrap.querySelectorAll(".ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS)]
@@ -18958,13 +18988,14 @@ class Component extends DCLogic {
       // ...taken once the target holds still (NG_CAM_OPEN_RM_SETTLE): a Book-off band settles as its rows lay out
       const F = this.rollCamTarget(this.pairMid(this.nodes[this.currentPos]), false, this.currentPos), L = op.rmLast;
       const near = (A, B) => Math.abs(A.cx - B.cx) + Math.abs(A.cy - B.cy) < 0.5 * A.vw / (this.W || 1200) && Math.abs(A.vw / B.vw - 1) < 1e-3;
-      // ...and once the rows stand where they will stay. A loaded reader adopts the card and the hand on its
-      // own layout pass, a few frames after they mount, and with the Book put away that moves them (and the
-      // band) 64px at 390x844: a second snap. It is waited for no longer than the reader's own publication
-      // ceiling (D-351, 800ms), so a row that is never adopted costs one more snap, never a stuck view.
-      const sec = this._readerEl || this._reader?.root;
-      const loose = !!this._reader && !!sec?.isConnected && this.now < op.pick + this.NG_ARRIVE_KICKER + 0.8
-        && [this._landEl, this._handShown() && this.optionsRef?.current].some((el) => el && el.isConnected && el.offsetHeight > 40 && !sec.contains(el));
+      // ...and once the rows stand where they will stay. The reader, loaded or still loading (`_readerLoad`),
+      // adopts the card and the hand on its own layout pass a few frames after they mount, and with the Book put
+      // away that moves them (and the band) 64px at 390x844: a second cut, measured at 32px on the node when
+      // the module arrived 0.1s after the reveal. It is waited for no longer than the reader's own publication
+      // ceiling (D-351, 800ms), so a row that is never adopted costs one more cut, never a stuck view.
+      const sec = this._readerEl || this._reader?.root, coming = !!(this._reader || this._readerLoad) && !this._readerFailed;
+      const loose = coming && this.now < op.pick + this.NG_ARRIVE_KICKER + 0.8
+        && [this._landEl, this._handShown() && this.optionsRef?.current].some((el) => el && el.isConnected && el.offsetHeight > 40 && !(sec?.isConnected && sec.contains(el)));
       op.rmLast = F; op.rmStill = L && near(F, L) && !loose ? (op.rmStill || 0) + 1 : 0;
       if (op.rmStill >= NG_CAM_OPEN_RM_SETTLE && !(op.rmShown && near(op.rmShown, F))) op.rmShown = F;
       return { snap: true, target: op.rmShown || over };

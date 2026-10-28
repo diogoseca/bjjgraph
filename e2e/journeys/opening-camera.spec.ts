@@ -27,7 +27,7 @@ import { journey } from "../dsl";
  *   GLIDE        the heading never jumps (the old cut moved it 251px; Book off once moved it 51.9px)
  *   HOLD-ARTICLE (Book on) a restart's fading article stays where it sat in its board (the old cut: 748px)
  *   BOUNDS       camera-continuity's per-frame MOVE / KICK / ZOOM bounds hold on a restart too
- *   SNAP         reduced motion: the view changes on at most two frames, and the board is never styled
+ *   SNAP         reduced motion: two cuts only, the overview then the landing, and the board is never styled
  *   STALL        a clock that stops while the board is faint leaves no row hidden (the last resort)
  *   HEADING      a camera lease mid-arrival (holdCamera: a share cue, a session) still takes the heading down
  *   PAUSE        a pause during the arrival does not freeze the camera: it frames the node after the game resumes
@@ -40,7 +40,7 @@ import { journey } from "../dsl";
  *   the rise starts at the pick → HOLD           zoom held until the pick → ZOOM-START   Z1 → SOFT
  *   the board pops at full opacity → FADE        no loose-row fade → FADE-ROWS (Book off)
  *   no faint hiding → FAINT                       S1 (no ride) → RIDE                     the heading cut → GLIDE
- *   no ride compensation in _viewRect → GLIDE (Book off)                                   no article hold → HOLD-ARTICLE
+ *   no ride compensation in _viewRect → RIDE (Book off)                                   no article hold → HOLD-ARTICLE
  *   a 0.15s rise → BOUNDS                         reduced motion ignored → SNAP           no last resort → STALL
  *   the hide gated on the token → HEADING         a pause that takes the camera → PAUSE
  *   a retirement that ends the board on a restart → HANDOFF   a drag that does not cancel → INPUT
@@ -189,15 +189,19 @@ test.describe(`the directed arrival, Book ${book}`, () => {
     expect(S.at(-1)!.open, "premise: nothing of the board's state outlives the arrival").toBe("");
   });
 
-  test(`reduced motion (Book ${book}): the view changes on at most two frames, and the board is never styled @curated`, async ({ page }) => {
+  test(`reduced motion (Book ${book}): the view cuts twice, the overview then the landing, and the board is never styled @curated`, async ({ page }) => {
     await page.emulateMedia({ reducedMotion: "reduce" });
     await bootTo(page, "Mount Top", book);
     expect(await page.evaluate(() => matchMedia("(prefers-reduced-motion: reduce)").matches), "premise: reduced motion is emulated").toBe(true);
     const S = await record(page, 613);
     // a change of VIEW is one a player could see: a hundredth of a pixel (the token's retirement re-states the
-    // landing pose with float noise of 1e-10 world units, which is not a frame of motion; a snap is hundreds of px)
-    const moves = S.filter((f, i) => i > 1 && motion([S[i - 1], f]).move > 0.01);
-    expect(moves.length, "SNAP: the camera changes view on at most two frames (the overview, then the landing)").toBeLessThanOrEqual(2);
+    // landing pose with float noise of 1e-10 world units, which is not a frame of motion; a snap is hundreds of px).
+    // The overview is the FIRST frame's cut, so S[0] already shows it (measured: 604px at frame 1, el 0); every
+    // later change is counted. Book off once landed on the loose rows and cut again 32px when the reader adopted
+    // them, which a limit of two let through.
+    const moves = S.filter((f, i) => i > 0 && motion([S[i - 1], f]).move > 0.01);
+    expect(moves.length, "premise: the camera cut to the landing").toBeGreaterThanOrEqual(1);
+    expect(moves.map((f) => +f.el.toFixed(3)), "SNAP: after the overview the camera changes view on one frame only (the landing)").toHaveLength(1);
     expect(S.filter((f) => f.open !== "").length, "SNAP: the board is never styled").toBe(0);
   });
 });

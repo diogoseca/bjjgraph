@@ -9,6 +9,10 @@
 // NON-KILLS, not coverage (H139 / ORCH-377): noahead-exchange-1440 and -390 both pass on green
 // unmutated baselines. Reading-view exchanges use frameExecution; these journeys do not exercise
 // the map-view `ahead` prediction. Keep their receipts and report both limits in the counts.
+// NON-KILL, not coverage (PR #320's review, CAM2540), A/B'd against dev ae3c8c347's own bundle served in place of
+// the branch's: d355-flight-lift-ungated survives on dev as well. It predates v1.237.0, and dual-pair:565 no longer
+// sees it (recorded in that spec; a follow-up). reading-band-lift-restored, the one the directed arrival caused, is
+// retired below with its source-level pin.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { createHash } from 'node:crypto'
@@ -47,9 +51,11 @@ const controls = [
   ['d338-saved-focus-layer-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$',
     [['let t=_t[e];return!t||this.get(t,!0)!==!1', 'let t=_t[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
     'a saved Focus no longer hides the question'],
-  // The follow-cam lifts the node against the reading band's edge again (two rest framings).
-  ['reading-band-lift-restored', 'pane-layout.spec.ts', '1440px pane moves film, card, article',
-    [['(!m.band||y)&&(c.lift={f:this.camFocus', '(c.lift={f:this.camFocus'], ['active:!m.band||!!(y!=null&&y.band)', 'active:!0']], 131],   // back.node.y; 125 -> 127 (D-347), -> 131 (D-368's pane-layout:82). D-355: the band lifts only in a flight
+  // RETIRED (v1.237.0, PR #320's review): reading-band-lift-restored (the follow-cam lifts the node against the
+  // reading band's edge again: two rest framings). pane-layout:131 stopped seeing it when that journey's first landing
+  // became the directed arrival, which never flies. Classified a REAL GAP, not an equivalent: the active lift's soft
+  // clamp is not exactly zero at rest. The same mutation, made in the source, is killed by tests/camera_motion.test.mjs
+  // "in the reading view the follow-cam engages no lift at rest", which drives updateCamera on the reader's band.
   // H46 (2026-10-21): landcard-modes:349 now waits for the defender's question before its press; the arrows must
   // still be what pages it (the defense mode dropped from the landing card's arrow branch).
   ['defense-arrows-lost', 'landcard-modes.spec.ts', 'the generic defending card pages its own deck with the same arrows',

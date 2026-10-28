@@ -10,7 +10,7 @@ import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 const source = readFileSync(new URL("../neural/src/app.src.jsx", import.meta.url), "utf8");
 const evalApp = (tail) => new Function("DCLogic", "React", `${knowledgeSource}\n${source}\n${tail}`)(class {}, { createRef: () => ({ current: null }) });
 const Component = evalApp("return Component;");
-const K = evalApp("return { ngOpenZoom, ngBezier, NG_CAM_OPEN_EASE, NG_CAM_OPEN_LAND, NG_CAM_OPEN_RISE, NG_CAM_OPEN_ANCHOR, NG_CAM_OPEN_OUT, NG_CAM_OPEN_PICK, NG_CAM_OPEN_STALL_MS, NG_CAM_OPEN_FAINT };");
+const K = evalApp("return { ngOpenZoom, ngBezier, NG_CAM_OPEN_EASE, NG_CAM_OPEN_LAND, NG_CAM_OPEN_RISE, NG_CAM_OPEN_ANCHOR, NG_CAM_OPEN_OUT, NG_CAM_OPEN_PICK, NG_CAM_OPEN_STALL_MS, NG_CAM_OPEN_FAINT, NG_READER_FIRST_LAYOUT_MS };");
 const make = () => Object.assign(Object.create(Component.prototype), {
   W: 1440, H: 900, graphW: 1600, gcx: 0, gcy: 0, now: 0, NG_ARRIVE_KICKER: 2,
   cam: { cx: 0, cy: 0, vw: 3680 }, camTarget: { cx: 0, cy: 0, vw: 1600 },
@@ -229,6 +229,41 @@ test("the last resort: a faint board whose clock stops brings its rows back; a l
     assert.equal(wrap.dataset.ngOpen, "faint", "frames keep coming: the faint window is the rise's own");
     clearTimeout(a._openStall);
   });
+});
+
+test("the Win chance is asked again when the board shows and when it ends: a refusal while faint is never final (D-354)", () => {
+  withDocument(() => {
+    const { a, wrap } = boardApp(); let asked = 0; a._ensureGameValues = () => { asked++; };
+    const op = a._camOpen = { pick: 0, cancelled: false, rise: 0.05, riseDy: 200 };
+    a.now = 2.05; a._openingBoard(op);
+    assert.equal(wrap.dataset.ngOpen, "faint"); assert.equal(asked, 0, "a faint board's hand is hidden: nothing to ask yet");
+    op.rise = 0.06; a.now = 2.06; a._openingBoard(op); assert.equal(asked, 0, "still faint");
+    op.rise = 0.3; a.now = 2.3; a._openingBoard(op);
+    assert.equal(asked, 1, "the frame the hand shows, the activation refused while it was hidden is asked again");
+    op.rise = 0.4; a.now = 2.4; a._openingBoard(op); assert.equal(asked, 1, "once, on the transition");
+    a._openBoardEnd(false);
+    assert.equal(asked, 2, "and when the board is the player's");
+    clearTimeout(a._openStall);
+  });
+});
+
+test("a landing's hand waits for the reader's first layout of it, and that layout asks again (D-354 + D-351 as an order)", async () => {
+  const a = make(); let asked = 0; a._ensureGameValues = () => { asked++; };
+  a._landIdx = 7; a._readerQueued = { path: "/Positions/Mount/Top", idx: 7, t0: performance.now() };
+  assert.equal(a._readerAwaited(), true, "asked for its article, not yet laid out: not playable");
+  a._readerQueued.skip = true; assert.equal(a._readerAwaited(), false, "a skipped article releases it"); delete a._readerQueued.skip;
+  a._readerFailed = true; assert.equal(a._readerAwaited(), false, "so does a reader that failed to load"); a._readerFailed = false;
+  a._readerQueued.t0 = performance.now() - K.NG_READER_FIRST_LAYOUT_MS - 1;
+  assert.equal(a._readerAwaited(), false, "and the bound: a reader that never lays it out is not waited for forever");
+  a._readerQueued = { path: "/Positions/Mount/Top", idx: 7, t0: performance.now() };
+  Object.assign(a, { optionsRef: { current: { hasAttribute: () => false, toggleAttribute: () => {} } }, _landStackEl: null, _landNavEl: null, _handCloseEl: null,
+    _landEl: null, _readerPin: null, _handShown: () => true, _layerOn: () => true, _filmPending: () => false });
+  const loc = globalThis.location; globalThis.location = { href: "http://localhost/" };
+  try { a._readerHold({ root: { dataset: {} }, path: "/x", layout: () => {} }, false, 390, 844); } finally { globalThis.location = loc; }
+  assert.equal(a._readerQueued.laid, true, "the reader's first layout of the landing marks it");
+  assert.equal(a._readerAwaited(), false);
+  await Promise.resolve();
+  assert.equal(asked, 1, "and asks the Win chance again once that layout has adopted (and held, or not) the hand");
 });
 
 test("reduced motion: the whole graph until the board, then the landing once it holds still, and the board is never styled", () => {
