@@ -136,8 +136,14 @@ const NG_CAM_OPEN_GOAL_W = 14;     // rad/s: the landing framing is followed thr
 // later frame released them: seven cold-start journeys stopped the clock and waited on a hand that the
 // reader had already adopted, still hidden. A row is styled by where it stands: inside the reader section
 // it rides with it; loose, it fades in place (with the Book put away, the rows ARE the board, so they ride).
+// The two values are REGISTERED NOT TO INHERIT and are stamped on the few elements that read them (`_openStamp`):
+// written on the app wrap as inherited custom properties they restyled its whole subtree, article included, every
+// frame (CAM2548, CDP counters over the opening at 1440x900: style recalc 463-479 ms against dev's 76-80, at the same
+// ~335 recalcs; 291 frames drawn against dev's 374-403). Their initial values show a row that was never stamped.
 const NG_CAM_OPEN_ROWS = ".ng-landfilm,.ng-landcard,.ng-optionrow";
-const NG_CAM_OPEN_CSS = "[data-ng-open] .ng-reader{opacity:var(--ng-open-o);translate:0 var(--ng-open-y)}"
+const NG_CAM_OPEN_CSS = "@property --ng-open-o{syntax:'<number>';inherits:false;initial-value:1}"
+  + "@property --ng-open-y{syntax:'<length>';inherits:false;initial-value:0px}"
+  + "[data-ng-open] .ng-reader{opacity:var(--ng-open-o);translate:0 var(--ng-open-y)}"
   + "[data-ng-open] .ng-reader-shelf{opacity:var(--ng-open-o)}"
   + "[data-ng-open] :is(" + NG_CAM_OPEN_ROWS + "):not([data-reader-game-part]){opacity:var(--ng-open-o)!important}"
   + "[data-ng-open][data-ng-book=off] :is(" + NG_CAM_OPEN_ROWS + "):not([data-reader-game-part]){translate:0 var(--ng-open-y)!important}"
@@ -18934,11 +18940,11 @@ class Component extends DCLogic {
     if (!document.getElementById("ng-open-css")) {
       const st = document.createElement("style"); st.id = "ng-open-css"; st.textContent = NG_CAM_OPEN_CSS; document.head.appendChild(st);
     }
-    wrap.style.setProperty("--ng-open-o", String(Math.round(o * 1e4) / 1e4));
-    wrap.style.setProperty("--ng-open-y", y.toFixed(2) + "px");
-    wrap.dataset.ngBook = this.get("readerBook", true) ? "on" : "off";
-    const was = wrap.dataset.ngOpen;
-    wrap.dataset.ngOpen = o < NG_CAM_OPEN_FAINT ? "faint" : "board";
+    this._openStamp(String(Math.round(o * 1e4) / 1e4), y.toFixed(2) + "px");
+    // the wrap's state attributes are written only when they change: each write is a style invalidation
+    const book = this.get("readerBook", true) ? "on" : "off", was = wrap.dataset.ngOpen, state = o < NG_CAM_OPEN_FAINT ? "faint" : "board";
+    if (wrap.dataset.ngBook !== book) wrap.dataset.ngBook = book;
+    if (was !== state) wrap.dataset.ngOpen = state;
     // a hand refused while faint (hidden, `_gameValuePlayable`) is asked again the frame it shows: nothing else would
     if (was === "faint" && wrap.dataset.ngOpen === "board") this._ensureGameValues();
     this._openO = o; this._openY = y;   // what the board shows: `_viewRect` reads the ride, a restart inherits both
@@ -18950,6 +18956,22 @@ class Component extends DCLogic {
       }, NG_CAM_OPEN_STALL_MS);
     }
   }
+  /** The board's two values on the elements that read them (NG_CAM_OPEN_CSS registers both as not inherited): the
+   *  wrap (the state record), the reader section, its shelf and the three rows. A row mounted between frames reads
+   *  the initial values (shown) until the next frame stamps it; `_openUnstamp` takes every stamp off at the end. */
+  _openStamp(ov, yv) {
+    const S = this._openStamped || (this._openStamped = new Set());
+    for (const el of [this.wrapRef?.current, this._readerEl || this._reader?.root, this._layerDockEl, this._landFilmEl, this._landEl, this.optionsRef?.current]) {
+      if (!el || !el.style) continue;
+      if (el.style.getPropertyValue?.("--ng-open-o") !== ov) el.style.setProperty("--ng-open-o", ov);
+      if (el.style.getPropertyValue?.("--ng-open-y") !== yv) el.style.setProperty("--ng-open-y", yv);
+      S.add(el);
+    }
+  }
+  _openUnstamp() {
+    for (const el of this._openStamped || []) { el.style.removeProperty("--ng-open-o"); el.style.removeProperty("--ng-open-y"); }
+    this._openStamped?.clear();
+  }
   /** Ends the board's styling: at once, or (`fade`) through a 0.2s release that its own transitionend clears,
    *  so no transition is left behind on any element (review m1). */
   _openBoardEnd(fade) {
@@ -18959,7 +18981,7 @@ class Component extends DCLogic {
     if (!wrap || !wrap.dataset.ngOpen) return;
     const clear = () => {
       delete wrap.dataset.ngOpen; delete wrap.dataset.ngBook;
-      wrap.style.removeProperty("--ng-open-o"); wrap.style.removeProperty("--ng-open-y");
+      this._openUnstamp();
       this._openO = 1; this._openY = 0;
       this._ensureGameValues();   // the board is the player's now: a refusal during the entrance is asked again
     };
@@ -18967,7 +18989,7 @@ class Component extends DCLogic {
     const fading = [...wrap.querySelectorAll(".ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS)]
       .some((el) => el.offsetHeight && parseFloat(getComputedStyle(el).opacity) < 0.999);
     if (!fade || !fading || ((this._openO ?? 1) >= 0.999 && !this._openY)) { clear(); return; }
-    wrap.style.setProperty("--ng-open-o", "1"); wrap.style.setProperty("--ng-open-y", "0px");
+    this._openStamp("1", "0px");
     wrap.dataset.ngOpen = "release"; this._openO = 1; this._openY = 0;
     const id = (this._openRelease = (this._openRelease || 0) + 1);
     const done = (e) => {

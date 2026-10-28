@@ -182,6 +182,24 @@ test("the board is wrap state the CSS turns into styles; a row is styled by wher
   });
 });
 
+test("the board's two values never inherit: they are stamped on the parts that read them, and taken off at the end (CAM2548)", () => {
+  const css = evalApp("return NG_CAM_OPEN_CSS;");
+  assert.match(css, /@property --ng-open-o\{[^}]*inherits:false[^}]*initial-value:1\}/, "the opacity is registered, not inherited, shown by default");
+  assert.match(css, /@property --ng-open-y\{[^}]*inherits:false[^}]*initial-value:0px\}/, "and so is the ride");
+  withDocument(() => {
+    const { a, wrap } = boardApp(), part = () => { const e = { props: {} }; e.style = { setProperty: (k, v) => { e.props[k] = v; }, removeProperty: (k) => { delete e.props[k]; }, getPropertyValue: (k) => e.props[k] ?? "" }; return e; };
+    const sec = part(), shelf = part(), card = part(), hand = part();
+    Object.assign(a, { _readerEl: sec, _layerDockEl: shelf, _landEl: card, optionsRef: { current: hand }, _landFilmEl: null });
+    const op = a._camOpen = { pick: 0, cancelled: false, rise: 0.4, riseDy: 120 };
+    a.now = 2.5; a._openingBoard(op);
+    for (const [name, e] of [["section", sec], ["shelf", shelf], ["card", card], ["hand", hand]])
+      assert.deepEqual([e.props["--ng-open-o"], e.props["--ng-open-y"]], ["0.4", "120.00px"], name + " reads its own stamp: an inherited value on the wrap restyled its whole subtree every frame");
+    a._openBoardEnd(false);
+    for (const e of [sec, shelf, card, hand]) assert.deepEqual(e.props, {}, "every stamp comes off with the board");
+    clearTimeout(a._openStall);
+  });
+});
+
 test("a release fades to full in 0.2s and its own transitionend clears it, leaving nothing behind", () => {
   withDocument(() => {
     const { a, wrap } = boardApp(); a.now = 2.5;
