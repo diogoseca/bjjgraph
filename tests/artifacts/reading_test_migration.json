@@ -1321,7 +1321,7 @@
         "disposition": "The hidden arrival preview temporarily released 128px of reserved space, moving the same landing target twice. Keep its reservation while hiding it for the heading. Preserve both original <3 world-unit drift bounds and all final-band assertions.",
         "replacement_test": {
           "file": "e2e/journeys/url-arrival.spec.ts",
-          "title_contains": "@curated the opening flight aims once, at the landing, and the aim never drifts under it"
+          "title_contains": "@curated the opening flight is piecewise-fixed: one wide aim, one landing aim, no drift in either"
         }
       },
       {

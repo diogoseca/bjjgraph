@@ -82,13 +82,12 @@ principles, setup/recognition, options, safety, mistakes, the rest, Related; 6px
 last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
 shared hub safety. Failed loads offer Retry.
 
-**The desktop dashboard (U55 b).** Where the index shows (from 1152px), the sections run from its 12px
-clearance to a 24px right margin as a bento grid: Videos and any section over ~2,000 characters take two of
-three lanes (all of two below a 1,100px grid), the rest one. `layoutNow` measures each open card's title and
-body and spans it over 4px rows plus the token gap, so no tile is capped, faded or stretched, and dense flow
-lifts a later tile into the hole beside a wide one; the index carries the reading order. A click on a tile
-does nothing. The node band, Moves and the question keep their places; at 640px and under nothing changes.
-`article-dashboard.spec.ts` serves real content and pins it.
+**The desktop dashboard (U55 b).** With the index shown (from 1152px) the sections run from its 12px
+clearance to a 24px right margin: Videos and sections over ~2,000 characters take two of three lanes (all of
+two below a 1,100px grid), the rest one. `layoutNow` spans each open card over 4px rows (title, body, token
+gap) with dense flow, so no tile is capped, faded or stretched; the index carries the reading order. A tile
+click does nothing; the node band, Moves and question keep their places; ≤640px is unchanged.
+`article-dashboard.spec.ts` pins it on real content.
 
 One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. A closed
 part leaves a light label (glyph above name, no box) that reopens it. Contents floats at the right-control inset, taking no layout
@@ -102,8 +101,7 @@ With Book shown no control turns the article, Map or Feedback off (D-338: no Vie
 opens the pane, as Browse did. Book off (a saved state) keeps the restore shelf. `landFilm/Card/Hand/Map/Feedback` store normal visibility; with the article shown
 the film follows `readerSection.videos`. `readerBook` controls the article.
 Hidden questions are not built; hidden hands stay dealt and untimed. Card and hand publish once
-the landing's article renders (≤800ms, D-351); late Videos or film never move them. The hand starts its Win
-chance only after the reader has laid its landing out once (`_readerAwaited`, D-354; 3 s at most). Focus is retired (D-338):
+the landing's article renders (≤800ms, D-351); late Videos or film never move them. Focus is retired (D-338):
 `readingFocus` and `readingCard/Hand/Map/Feedback` are not read. Restores start no play. References offer Study tools.
 
 Content URLs and links prepare dormant controls (`NG_READING_DEFAULT_ON_CONTENT_URL`).
@@ -631,21 +629,6 @@ within 0.35 s, never in one frame.
 Horizontally it parks the node at ~44% of the width on desktop, because a name runs left-to-right
 *from* its node; on a phone it centres the **orb + label block**, with `NG_LABEL_LEFT_MIN` as a floor
 on the drawn silhouette.
-
-**The opening and every staged restart are directed** (v1.237.0, owner U50 d, "S2 · Z2"; `_openingPose`,
-`NG_CAM_OPEN_*`). One log-width zoom runs from the first frame to the landing (pick + 6.0 s) and touches down
-at rest. The state is named at the pick, and the named node holds on the glass until the reader section
-mounts (pick + 2.0 s, unchanged). It then rises into the band on `cubic-bezier(.4,0,.2,1)` over 2 s, the board
-fading in and riding up a fixed distance below it, the heading gliding with them; with the Book put away the
-rows are the board. The board's state is on the app wrap (`data-ng-open`, `NG_CAM_OPEN_CSS`) and its two values,
-registered not to inherit, are stamped on the parts that read them, so the reader adopting a row restyles it at
-once and no frame restyles the article; below 10% opacity the rows are hidden, not merely transparent, so they
-take no tap, and the Win chance is asked again the frame they show. A restart first breathes out to the overview while the old board fades, its
-article held in place. Reduced motion snaps twice (the overview, then the landing once the reader has adopted
-the rows); a pan, pinch or drag hands the camera over at once, and it stays the player's until their next
-move, navigation or roll. A pause or a camera lease ends the arrival without taking the camera, and the
-heading still goes down. Pinned by
-`e2e/journeys/opening-camera.spec.ts` and `tests/camera_opening.test.mjs`.
 
 A focus flight takes a **lease** (`holdCamera`, ~7s). While it is live every automatic retarget
 yields; a real pan, pinch or wheel releases it, as do the user's own "go somewhere else" paths. The

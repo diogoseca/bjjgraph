@@ -177,27 +177,4 @@ test("a deliberate camera subject is never retargeted by the pane composition", 
   }
 });
 
-// D-347 / pane-layout:82 (CI 48be3a910): in the reading view the follow-cam engages NO lift while no flight is under
-// way. The reader's node band is reserved and rollCamTarget already centres the pair in it, so a lift against its edge
-// only held the node off centre until a pane toggle reset it: two rest framings. pane-layout:131 was this claim's only
-// gate, and from v1.237.0 its first landing is the directed arrival, which never flies and so never met the lift
-// (PR #320's review: reading-band-lift-restored survived there). updateCamera is driven here, at rest, on the
-// reader's band; the lift it hands the integrator is read from the integrator's own state (`_cm.lift`).
-test("in the reading view the follow-cam engages no lift at rest: one rest framing, whatever the pane does (D-347)", () => {
-  const { a, n } = readerCamera();
-  Object.assign(a, { introDone: true, startTime: 0, camFocus: { x: n.x, y: n.y }, pulse: null, _camOpenChecked: true, _camOpen: null,
-    _reducedMotion: () => false, userActiveNow: () => false, camHeld: () => false, cfg: () => ({ cameraMode: "Follow" }),
-    _frameArrivalHeading: () => {}, _refPage: null, _execution: null });
-  a.paused = false;
-  const rest = a.rollCamTarget(n, false);
-  a.cam = { ...rest, lvw: Math.log(rest.vw) }; a.camTarget = { ...rest };
-  const on = [];
-  for (let i = 0; i < 120; i++) { a.now += DT; a.updateCamera(DT); on.push(!!a._cm?.lift?.on); }
-  assert.equal(a._viewRect().band, true, "premise: the reading view's band (the reader's reserved node band)");
-  assert.ok(a._cm && !a._cm.flight, "premise: no flight was under way");
-  assert.deepEqual(on.filter(Boolean).length, 0, "no frame at rest engaged a lift against the reader's band");
-  const drawnY = H / 2 + (n.y - a.cam.cy) * a.W / a.cam.vw, restY = H / 2 + (n.y - rest.cy) * a.W / rest.vw;
-  assert.ok(Math.abs(drawnY - restY) < 1e-6, "and the node rests exactly where rollCamTarget framed it: " + JSON.stringify({ drawnY, restY }));
-});
-
-console.log("camera motion: 8 cases (flight, straight zoom, adopted write, lift, moving goal, reader exclusion, deliberate subject, no rest lift)");
+console.log("camera motion: 7 cases (flight, straight zoom, adopted write, lift, moving goal, reader exclusion, deliberate subject)");
