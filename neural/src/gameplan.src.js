@@ -110,17 +110,28 @@ export function ngGameplanFromModel(result, context) {
       "These are game effects; they don't measure improvement on the mat."] };
 }
 
+// PRACTICE IS ONE SESSION (owner U56 e, D-565): "Practice is flashcards reviewing which included past +
+// new (new = gaps)… similar to how Anki mixes known + new cards." The ratio is counted in CARDS: one new
+// card for every four reviews (80/20, the blend the owner chose for deck seasoning). Four keeps reviews
+// the bulk of a heavy day without starving the gaps; two would double tomorrow's debt from a day already
+// in debt. The day's NEW QUOTA is the goal itself (`target`, the app's NG_PRACTICE_GOAL): new cards fill
+// what reviews leave of it, are never fewer than one per four reviews owed, and stop once the day's
+// answers reach it. A smaller quota would leave a fresh player's goal out of reach; a larger one lets new
+// cards outrun the goal and build tomorrow's debt. Reviews are never capped (goals, not limits).
+// Not exported: the deferred chunk pays for every exported name, and nothing outside reads it.
+const NG_PRACTICE_REVIEWS_PER_NEW = 4;
+
 // Deck descriptors: {count, questions:[hash], exact, allowed, headroom}.
 // A manifest supplies shared hashes + stored SRS hashes before hydration. The
 // remainder is counted as pending, never treated as already reviewed.
-export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 30, decks = {}, srs = {}, provider, fallback }) {
+export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, decks = {}, srs = {}, provider, fallback }) {
   const debt = ngGameplanDebt({ srs, day, decks });
   const reviewed = ngGameplanReviewed(srs, day);
   let ranking = ngGameplanRecommendations(provider, stamp, decks);
   const comparison = ranking.status;
   if (fallback && ["unavailable", "pending", "stale"].includes(comparison)) ranking = ngGameplanWeakSpots(fallback, decks);
-  const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 30));
-  const room = Math.max(0, budget - reviewed.length - debt.count);
+  const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length;
+  const room = Math.max(0, Math.min(left, Math.max(left - debt.count, Math.ceil(debt.count / NG_PRACTICE_REVIEWS_PER_NEW))));
   const used = new Set([...reviewed, ...debt.questions]);
   const dueKeys = new Set(debt.rows.map((r) => r.key));
   const fresh = [], more = [];
@@ -146,8 +157,17 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 30, de
       (decks[other.key].questions || []).some((q) => r.questions.includes(q)))
       .map((other) => ({ key: other.key, role: other.role, reason: other.reason }));
   }
+  // THE ONE QUEUE: due rows by urgency (ngGameplanDebt's order), and the next new deck once the reviews
+  // placed have paid for every new card so far plus one; whatever kind runs out first, the other follows.
+  const queue = [];
+  let reviews = 0, learned = 0, next = 0;
+  for (const r of debt.rows) {
+    while (next < fresh.length && reviews >= NG_PRACTICE_REVIEWS_PER_NEW * (learned + 1)) { learned += fresh[next].count; queue.push(fresh[next++].key); }
+    queue.push(r.key); reviews += r.count;
+  }
+  for (const r of fresh.slice(next)) queue.push(r.key);
   return ngGameplanFreeze({
-    version: NG_GAMEPLAN_VERSION, day, ruleset, revision, stamp, target: budget,
+    version: NG_GAMEPLAN_VERSION, day, ruleset, revision, stamp, target: budget, queue,
     reviewed, due: debt.rows, fresh, more, blocked: debt.blocked,
     dueQuestions: debt.questions, status: ranking.status, comparison, assumptions: ranking.assumptions,
     missing: ranking.missing, room, newCards: spent, dueCards: debt.count,
@@ -210,6 +230,6 @@ export function ngGameplanSummary(plan) {
   // what happens after (a live "you've answered 0 today" read wrong once the session was done).
   return "Your daily goal is " + cards(plan.target) +
     (plan.reviewed.length ? "; the " + cards(plan.reviewed.length) + " you'd already answered today count toward it." : ".") +
-    (plan.overrun ? " Techniques come whole, so today's session runs " + cards(plan.overrun) + " over the goal." : "") +
+    (plan.overrun ? " Today's session runs " + cards(plan.overrun) + " over the goal." : "") +
     (plan.fresh.some((r) => r.pending) ? " Card counts settle as decks load." : "") + " " + source;
 }

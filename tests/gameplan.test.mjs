@@ -46,12 +46,55 @@ test("an eight-card first deck with five spaces explicitly exceeds the soft targ
   assert.match(summary(p), /runs 3 cards over the goal/);
 });
 
-test("reviewed unique questions and uncapped due debt consume the target before new work", () => {
+// PRACTICE (owner U56 e, v1.242.0) reverses the v1.138.0 rule this test used to pin ("due debt consumes
+// the target before new work", which dealt a heavy day no new card at all). Reviews still count toward
+// the goal and are never capped; new cards now keep one per four reviews owed while the goal is unmet.
+test("Practice: reviewed questions count toward the goal, due stays uncapped, and new cards keep their share", () => {
   const decks = { "A|Top": deck(["x", "y", "z"]), "B|Bottom": deck(["b"]) };
   const srs = { "A|Top": { x: due(), y: due(), z: [101, 1, 100] }, copy: { z: [101, 1, 100] } };
   const p = build(input({ target: 2, decks, srs, provider: provider([row("B|Bottom")]) }));
   assert.equal(p.reviewed.length, 1); assert.equal(p.dueCards, 2);
-  assert.equal(p.fresh.length, 0); assert.equal(p.overrun, 1); assert.equal(p.more.length, 1);
+  assert.deepEqual(p.fresh.map((r) => r.key), ["B|Bottom"], "ceil(2 reviews / 4) = one new card");
+  assert.equal(p.overrun, 2); assert.equal(p.more.length, 0);
+});
+
+// The three Practice claims, at the planner. Mutants recorded in tests/artifacts/sidebar_mutants.md.
+const ten = (prefix) => Array.from({ length: 10 }, (_, i) => prefix + i);
+const practiceDecks = () => ({ ...Object.fromEntries(Array.from({ length: 12 }, (_, i) => ["D" + i + "|Top", deck(["d" + i])])),
+  "N1|Top": deck(["n1a", "n1b"]), "N2|Bottom": deck(["n2a", "n2b"]), "N3|Attacker": deck(["n3a"]), "N4|Defender": deck(ten("n4")) });
+const ranked = () => provider(["N1|Top", "N2|Bottom", "N3|Attacker", "N4|Defender"].map((k, i) => row(k, 9 - i)));
+
+test("Practice: a fresh player's session is the gaps, up to the 20-card default goal", () => {
+  const p = build({ day, revision: 1, stamp: "r1", ruleset: "gi", decks: practiceDecks(), provider: ranked() });
+  assert.equal(p.target, 20, "the default goal is 20 cards");
+  assert.equal(p.dueCards, 0);
+  assert.deepEqual(p.queue, ["N1|Top", "N2|Bottom", "N3|Attacker", "N4|Defender"], "new gap decks fill the goal, in rank order");
+  assert.equal(p.newCards, 15);
+});
+
+test("Practice: due reviews come first by urgency, and new decks are slipped in at one card per four reviews", () => {
+  const decks = practiceDecks();
+  // twelve one-card reviews, the oldest first (D0 is twelve days overdue, D11 one)
+  const srs = Object.fromEntries(Array.from({ length: 12 }, (_, i) => ["D" + i + "|Top", { ["d" + i]: due(12 - i) }]));
+  const p = build(input({ target: 20, decks, srs, provider: ranked() }));
+  assert.equal(p.dueCards, 12); assert.equal(p.newCards, 5, "8 left of the goal buys N1 + N2 + N3; N4's ten cards wait");
+  assert.deepEqual(p.queue, ["D0|Top", "D1|Top", "D2|Top", "D3|Top", "N1|Top", "D4|Top", "D5|Top", "D6|Top", "D7|Top", "D8|Top", "D9|Top", "D10|Top", "D11|Top", "N2|Bottom", "N3|Attacker"],
+    "four reviews before the first new card; N1's two cards cost eight more before N2; the rest follow the reviews");
+  assert.deepEqual(p.queue.filter((k) => k[0] === "D"), p.due.map((r) => r.key), "reviews keep the debt's urgency order");
+});
+
+test("Practice: a heavy day keeps the mix without capping reviews; the goal stops new cards, never reviews", () => {
+  const decks = practiceDecks();
+  const srs = Object.fromEntries(Array.from({ length: 12 }, (_, i) => ["D" + i + "|Top", { ["d" + i]: due(1) }]));
+  const heavy = build(input({ target: 10, decks, srs, provider: ranked() }));
+  assert.equal(heavy.due.length, 12, "all twelve reviews, past a ten-card goal");
+  assert.deepEqual(heavy.fresh.map((r) => r.key), ["N1|Top"], "ceil(12 / 4) = 3 new cards: N1's two fit; N2's two would pass the share, so it waits");
+  assert.deepEqual(heavy.queue.slice(0, 5), heavy.due.slice(0, 4).map((r) => r.key).concat("N1|Top"), "and the new deck is mixed in, not appended");
+  // the goal already met today: nothing new is dealt, every review still is
+  const answered = Object.fromEntries(ten("t").map((q) => [q, [day + 1, 1, day]]));
+  const met = build(input({ target: 10, decks, srs: { ...srs, done: answered }, provider: ranked() }));
+  assert.equal(met.reviewed.length, 10); assert.equal(met.fresh.length, 0); assert.equal(met.due.length, 12);
+  assert.deepEqual(met.queue, met.due.map((r) => r.key));
 });
 
 test("all four roles are independent opportunities; illegal new decks are excluded in each frame", () => {

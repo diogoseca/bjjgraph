@@ -432,7 +432,10 @@ test("frozen planner keeps authoritative due debt, soft budget and shared-card d
   const srs = { [keys[0]]: { shared: [2, 99, 98] } };
   const plan = ngGameplanBuild({ day: 100, ruleset: "nogi", revision: 7, stamp: input.context.stamp, target: 1,
     decks: input.context.decks, srs, provider: p });
-  assert.equal(plan.dueCards, 1); assert.equal(plan.fresh.length, 0); assert.equal(plan.more[0].questions.includes("shared"), false);
+  // Practice (owner U56 e, v1.242.0): one owed review buys one new card's share even on a one-card
+  // goal, so the first ranked deck is dealt (whole, softly over); nothing re-deals the shared question.
+  assert.equal(plan.dueCards, 1); assert.equal(plan.fresh.length, 1);
+  assert.equal(plan.fresh.concat(plan.more).some((r) => r.questions.includes("shared")), false);
   assert.equal(ngGameplanProgress(plan, { srs, day: 100, decks: input.context.decks }).complete, false);
   const without = ngGameplanBuild({ day: 100, ruleset: "nogi", revision: 7, stamp: input.context.stamp, target: 1,
     decks: input.context.decks, srs, provider: present({ ...input, receipts: [] }) });

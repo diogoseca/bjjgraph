@@ -48,7 +48,9 @@ function installed(extra={}){const f=fixture(),document=documentFixture();f.opti
   f.options.document=document;Object.assign(f.options,extra);const host=ngGameplanStudyInstallBrowser(f.app,f.options);f.app._gameStudyHost=host;return {...f,document,host};}
 const source=readFileSync(new URL('../neural/src/app.src.jsx',import.meta.url),'utf8');
 function method(name){const m=new RegExp('^  (?:async )?'+name+'\\([^\\n]*\\) \\{','m').exec(source);assert.ok(m,name);const tail=source.slice(m.index),next=/\n  (?:async )?[A-Za-z_$][\w$]*\([^\n]*\) \{/.exec(tail.slice(1));return next?tail.slice(0,next.index+1):tail;}
-const App=Function('return class {\n'+['_requestGameplanStudy','_dispatchGameplanStudy','_gameStudyChanged','_destroyGameplanStudy','_gameplanStamp','startFrom'].map(method).join('\n')+'\n}')();
+// the extracted methods read one module constant (the daily goal, v1.242.0); bind it from the source
+const NG_PRACTICE_GOAL=+(/^const NG_PRACTICE_GOAL = (\d+);$/m.exec(source)||[])[1];assert.ok(NG_PRACTICE_GOAL>0,'NG_PRACTICE_GOAL is declared');
+const App=Function('NG_PRACTICE_GOAL','return class {\n'+['_requestGameplanStudy','_dispatchGameplanStudy','_gameStudyChanged','_destroyGameplanStudy','_gameplanStamp','startFrom'].map(method).join('\n')+'\n}')(NG_PRACTICE_GOAL);
 test('actual browser host construction is inert and exposes controls without inventing declaration',async()=>{
  const f=fixture(),doc=documentFixture();delete f.app._gameplanStudyDeclaration;f.options.build.computation.study.manifest={maxDecks:8};
  const h=ngGameplanStudyInstallBrowser(f.app,{...f.options,document:doc});f.app._gameStudyHost=h;

@@ -303,7 +303,7 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   // 2026-09-30, restored dev's plain header), and the planner's
   // arrival NEVER replaces a queue that still owes cards (gameplan-learning-loop.spec.ts pins
   // that). v1.138.0's "N cards due today · N techniques · maintenance first" header and its
-  // "Maintenance" section belong to the PLAN surface now, asserted further down. What this
+  // "Maintenance" section (the Practice head since v1.242.0) belong to the PLAN surface now, asserted further down. What this
   // queue must still do is the v1.172.0 contract: repeat the cell's CARD count, and list a COVER.
   const { header, ...queue } = await page.evaluate(() => {
     const a = (window as any).__neural;
@@ -335,16 +335,18 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   }, r.other), "and that is a narrowing: the whole deck is larger").toBeGreaterThan(2);
 
   // THE PLAN SURFACE (the other door's destination, and the queue's own "Open / retry study
-  // plan" button): the MAINTENANCE SECTION is still the cover, headed by the same card count.
+  // plan" button): the review rows are still the cover, and the Practice head repeats the card count
+  // (v1.242.0: Practice interleaves reviews and new decks under one head; each row says its kind).
   await j.clickByMouse("[data-gameplan-load]", "Open / retry study plan");
-  await expect(page.locator('[data-session-section="Maintenance"]')).toBeVisible();
-  await expect(page.locator('[data-session-section="Maintenance"]')).toContainText("2 cards owed across 1 technique");
+  await expect(page.locator('[data-session-section="Practice"]')).toBeVisible();
+  await expect(page.locator('[data-session-section="Practice"]')).toContainText("2 cards to review");
   expect(await page.evaluate(() => {
     const s = (window as any).__neural._session;
-    return { plan: !!s.plan, label: s.label, anchor: s.anchor, dueRows: s.dueUntil, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };
-  }), "the plan's maintenance head is the same cover and the same card count").toEqual({
+    return { plan: !!s.plan, label: s.label, anchor: s.anchor, dueRows: s.plan && s.plan.due.length, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };
+  }), "the plan's review rows are the same cover and the same card count").toEqual({
     plan: true, label: "2 cards due today", anchor: "due", dueRows: 1, first: r.other, dueCards: 2,
   });
+  await expect(page.locator(`[data-session-row="${r.other}"]`)).toHaveAttribute("data-practice-kind", "due");
   await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText("Reviewed 0/");
 
   // and the Challenges band prints the SAME number while something is owed

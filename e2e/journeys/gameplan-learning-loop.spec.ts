@@ -29,6 +29,20 @@ async function setup(page: any, recommendations = true, runtime = true) {
   return { j, fixture };
 }
 
+// PRACTICE MIXES NEW CARDS INTO A REVIEW DAY (owner U56 e, v1.242.0): two owed reviews now buy one
+// new card, so with no comparison the weak-spots ranking adds a new deck and the session is not done
+// until it is learned too (practice-mix.spec.ts pins that). The tests that use this are about the
+// REVIEW half, so they take a comparison that offers nothing new: a real state ("partial", no rows),
+// not a stub of the planner.
+async function noNewMaterial(page: any) {
+  await page.evaluate(() => {
+    const a = (window as any).__neural;
+    a._gameplanProvider = { status: "ready", kind: "learning-opportunity", stamp: a._gameplanStamp(),
+      assumptions: ["Fixture: a comparison with nothing new to add."], rows: [] };
+    a.renderPaneAnchor();
+  });
+}
+
 // D2 (owner, 2026-09-30): the live due count is the pane HEADER ("N cards due today"); the polite
 // `[data-gameplan-current]` line now carries only what the player must act on (a new day, new
 // reviews, missing content). Read the header the app rendered, never a recomputed count.
@@ -60,10 +74,10 @@ test("dashboard and opened plan share counts, target overrun and keyboard-access
   const { fixture } = await setup(page);
   await expect(page.locator('[data-explore-stats] [data-b="new"]')).toHaveAttribute("data-new", String(fixture.newCount));
   await hit(page, '[data-explore-stats] [data-b="new"]', isMobile);
-  // the plan's own section note repeats the cell's count, and says what ranked it
-  await expect(page.locator('[data-session-section="Learn next"]')).toContainText(fixture.newCards + " new card");
-  await expect(page.locator('[data-session-section="Learn next"]')).toContainText("across " + fixture.newCount + " technique");
-  await expect(page.locator('[data-session-section="Learn next"]')).toContainText("ranked by your study comparison");
+  // the Practice head repeats the cell's count, and says what ranked it (v1.242.0: one head, not two)
+  await expect(page.locator('[data-session-section="Practice"]')).toContainText(fixture.newCards + " new across");
+  await expect(page.locator('[data-session-section="Practice"]')).toContainText("across " + fixture.newCount + " technique");
+  await expect(page.locator('[data-session-section="Practice"]')).toContainText("ranked by your study comparison");
   expect(fixture.overrun, "the fixture's whole deck overruns the 7-card goal").toBeGreaterThan(0);
   await expect(page.locator('[data-gameplan-summary]')).toContainText(fixture.overrun + (fixture.overrun === 1 ? " card" : " cards") + " over the goal");
   await dueHeader(page, "2 cards due today");
@@ -87,6 +101,7 @@ test("dashboard and opened plan share counts, target overrun and keyboard-access
 
 test("capped due deck requires real reviews, one failure clears today's debt and completion emits once @curated", async ({ page, isMobile }) => {
   const { fixture } = await setup(page, false);
+  await noNewMaterial(page);
   await page.evaluate(() => {
     const a = (window as any).__neural, original = a.track.bind(a);
     (window as any).__gameplanCompleted = 0;
@@ -133,6 +148,7 @@ test("live debt changes without reranking; missing provider remains visible thro
 
 test("keyboard-only review advances real cards and earns completion through the shared grade path @curated", async ({ page, isMobile }) => {
   await setup(page, false);
+  await noNewMaterial(page);
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
   await page.evaluate(() => (document.activeElement as HTMLElement)?.blur());
   await page.keyboard.press("Space");
@@ -146,6 +162,7 @@ test("keyboard-only review advances real cards and earns completion through the 
 
 test("post-grade callback can complete a mounted plan through shared-question credit @curated", async ({ page, isMobile }) => {
   await setup(page, false);
+  await noNewMaterial(page);
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
   await page.evaluate(() => {
     const a = (window as any).__neural, questions = new Set(a._session.plan.dueQuestions);
@@ -223,14 +240,14 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
 
 // D1 (owner, 2026-09-30): "when no study comparison exists, fall back to the weak-spots ranking so
 // every player, a new one included, always has a plan". A player with nothing due and no comparison
-// opens a plan whose "Learn next" is dealt from the app's OWN weak-spots ranking, in its order.
-// Mutant, recorded 2026-09-30: dropping the fallback in ngGameplanBuild leaves "Learn next" absent
+// opens a plan whose new rows are dealt from the app's OWN weak-spots ranking, in its order.
+// Mutant, recorded 2026-09-30: dropping the fallback in ngGameplanBuild leaves the new rows absent
 // and turns this red at its first assertion.
 test("D1: a new player with no comparison still gets a plan, dealt from the weak-spots ranking @curated", async ({ page, isMobile }) => {
   await setup(page, false);
   await page.evaluate(() => { const a = (window as any).__neural; a.srs = {}; a.prep = {}; a.settings.dailyGoal = 30; a.renderPaneAnchor(); });
   await hit(page, '[data-explore-stats] [data-b="new"]', isMobile);
-  await expect(page.locator('[data-session-section="Learn next"]')).toContainText("weakest first");
+  await expect(page.locator('[data-session-section="Practice"]')).toContainText("weakest first");
   await expect(page.locator('[data-gameplan-summary]')).toContainText("weakest spots first");
   const got = await page.evaluate(() => {
     const a = (window as any).__neural, s = a._session;

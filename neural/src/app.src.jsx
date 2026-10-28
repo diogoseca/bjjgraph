@@ -207,6 +207,12 @@ const NG_GHOST_BTN_CSS = "flex:none;pointer-events:auto;cursor:pointer;font-fami
 // tested, not timed" canon). No ease factor: fewer fields, fewer merge cases. A success climbs one
 // rung; any failure resets to rung 0 (1 day).
 const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];
+// THE DAILY GOAL, in cards (owner U56 e, 2026-10-28: "The goal today is to do 20 flashcards"). A goal,
+// never a cap: reviews and new cards both count, and it is also the day's NEW-card quota — the planner
+// stops dealing new cards once the day's answers reach it, and never stops dealing reviews
+// (NG_PRACTICE_REVIEWS_PER_NEW in gameplan.src.js has the ratio and the reasoning). The `dailyGoal`
+// setting overrides it; Settings' own default repeats the 20.
+const NG_PRACTICE_GOAL = 20;
 // How long a landing question may be "still settling" before readers stop waiting on it. A stalled
 // deck fetch must not make the app look hung; the fetch itself is never cancelled. See v1.104.8.
 const NG_LAND_WARM_CEILING_MS = 8000;
@@ -5382,14 +5388,14 @@ class Component extends DCLogic {
     if (this._checkKnowledgeDay) this._checkKnowledgeDay();
     return JSON.stringify([this._knowledgeRevision || this._stageVer || 0, this._flowVer || 0,
       this._epochDay(), this._giMode || "gi", this.startFrom(),
-      this.get("dailyGoal", 30), this._gameplanContextKey || ""]);
+      this.get("dailyGoal", NG_PRACTICE_GOAL), this._gameplanContextKey || ""]);
   }
   planSummary() {
     if (!this._gameplanRuntime) return null;
     const stamp = this._gameplanStamp();
     return this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
-      target: this.get("dailyGoal", 30), decks: this._gameplanDecks(), srs: this.srs,
+      target: this.get("dailyGoal", NG_PRACTICE_GOAL), decks: this._gameplanDecks(), srs: this.srs,
       provider: this._gameplanProvider, fallback: this._gameplanWeakFallback() });
   }
   /**
@@ -5736,27 +5742,27 @@ class Component extends DCLogic {
       return;
     }
     const plan = this.planSummary();
-    const due = plan.due.map((r) => r.key), fresh = plan.fresh.map((r) => r.key), more = plan.more.map((r) => r.key);
-    const keys = due.concat(fresh, more);
-    // D2 (owner, 2026-09-30). The session list (due reviews plus the new-card budget) is headed
-    // "Finish these to unlock more" with its progress, and `more` below it stays LOCKED until that
-    // list is done (renderSession, `_planGoalHead`). Inside the session, dev's own section names
-    // (v1.138.0: maintenance first, then learn next) say why each row is there.
+    // PRACTICE IS ONE INTERLEAVED QUEUE (owner U56 e, v1.242.0): the planner's `queue` puts due rows
+    // first by urgency and slips a new deck in once the reviews before it pay for its cards at
+    // NG_PRACTICE_REVIEWS_PER_NEW, the way Anki mixes known and new. Each row says which it is
+    // (`data-practice-kind`), so the two v1.138.0 section heads ("Maintenance", then "Learn next")
+    // became one. `anchor` "new" still opens on the first new deck, so every door keeps its landing.
+    const fresh = plan.fresh.map((r) => r.key), keys = plan.queue.concat(plan.more.map((r) => r.key));
+    // D2 (owner, 2026-09-30). The session list is headed "Finish these to unlock more" with its
+    // progress, and `more` below it stays LOCKED until that list is done (renderSession, `_planGoalHead`).
     const cards = (n) => n + (n === 1 ? " card" : " cards"), techs = (n) => n + (n === 1 ? " technique" : " techniques");
-    const sections = [];
-    if (due.length) sections.push({ at: 0, label: "Maintenance", note: cards(plan.dueCards) + " owed across " + techs(due.length) });
-    if (fresh.length) sections.push({ at: due.length, label: "Learn next", note: plan.newCards + " new " + (plan.newCards === 1 ? "card" : "cards") + " across " + techs(fresh.length) + ", " +
-      (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") });
+    const sections = [{ at: 0, label: "Practice", note: [plan.dueCards ? cards(plan.dueCards) + " to review" : "", fresh.length ? plan.newCards + " new across " + techs(fresh.length) + ", " +
+      (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : ""].filter(Boolean).join(" \u00b7 ") }];
     this._session = {
       keys, plan, label: this._dueTodayLabel(plan.dueCards), sub: "",
-      idx: anchor === "new" && fresh.length ? due.length : 0,
-      filter: null, dueUntil: due.length, anchor, sections, bucket: "plan",
+      idx: anchor === "new" && fresh.length ? keys.indexOf(fresh[0]) : 0,
+      filter: null, anchor, sections, bucket: "plan",
       // `required` rows are the session; everything after them is the locked extra list, dealt a
       // page at a time once unlocked (`shown`).
-      required: due.length + fresh.length, shown: Math.min(keys.length, due.length + fresh.length + 10),
+      required: plan.queue.length, shown: Math.min(keys.length, plan.queue.length + 10),
     };
     const session = this._session;
-    this.hydrateDecks(due.concat(fresh)).then(() => {
+    this.hydrateDecks(plan.queue).then(() => {
       const s = this._session;
       if (!s || s !== session || this.__ngDestroyed) return;
       s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks());
@@ -5824,6 +5830,14 @@ class Component extends DCLogic {
     if (complete && !p.complete) { complete.remove(); this.renderSession(); }
     if (!complete && p.complete && p.total > 0) this.drillListRef.current.appendChild(this._sessionDoneCard(s));
   }
+  /**
+   * TODAY AGAINST THE DAILY GOAL (owner U56 e: "the goal today is to do 20 flashcards"). `done` is the
+   * planner's own count — distinct cards answered today, reviews and new alike, a failure included —
+   * so the figure and the plan's goal accounting cannot disagree. A goal, never a cap: nothing reads
+   * this to stop a review. `_practiceGoalText` is the one phrasing every surface prints.
+   */
+  practiceToday() { return { done: ngGameplanReviewed(this.srs, this._epochDay()).length, goal: this.get("dailyGoal", NG_PRACTICE_GOAL) }; }
+  _practiceGoalText(t) { t = t || this.practiceToday(); return t.done + " of " + t.goal + " today" + (t.done >= t.goal ? " \u2713" : ""); }
   /** D2 (owner, 2026-09-30): the plain due header, "N cards due today", live from the current debt. */
   _dueTodayLabel(n) { return !n ? "No cards due today" : n + (n === 1 ? " card" : " cards") + " due today"; }
   /**
@@ -5838,8 +5852,11 @@ class Component extends DCLogic {
     title.style.cssText = "font-size:13.5px;font-weight:700;color:#eef1f6;";
     const progress = document.createElement("span"); progress.setAttribute("data-plan-goal-progress", "1"); progress.setAttribute("aria-live", "polite");
     progress.style.cssText = "font-size:11.5px;font-weight:600;color:#9ab0e0;white-space:nowrap;";
-    head.appendChild(title); head.appendChild(progress);
-    head._ngGoal = { title, progress };   // painted through these references, never re-queried
+    // the day's goal beside the session's own count (U56 e): it only ever says how far, never stops
+    const goal = document.createElement("span"); goal.setAttribute("data-practice-goal", "1");
+    goal.style.cssText = "flex-basis:100%;font-size:11px;font-weight:600;color:#7e8aa3;";
+    head.appendChild(title); head.appendChild(progress); head.appendChild(goal);
+    head._ngGoal = { title, progress, goal };   // painted through these references, never re-queried
     this._paintPlanGoal(s, head);
     return head;
   }
@@ -5848,8 +5865,11 @@ class Component extends DCLogic {
     if (!head || !s.plan) return;
     const p = s.live || this._gameplanProgress(s), extra = s.keys.length - s.required;
     // FGD13 (owner): the "Reviewed 0/30" style he liked; the celebration is the end card's job
-    const { title, progress } = head._ngGoal || {};
+    const { title, progress, goal } = head._ngGoal || {};
     if (!title || !progress) return;
+    const today = this.practiceToday();
+    goal.textContent = "Daily goal: " + this._practiceGoalText(today);
+    goal.style.color = today.done >= today.goal ? "#7ee0a8" : "#7e8aa3";
     title.textContent = s.unlocked || p.complete ? "Today's session" : extra > 0 ? "Finish these to unlock more" : "Finish today's session";
     progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
   }
@@ -5890,7 +5910,7 @@ class Component extends DCLogic {
     details.appendChild(summary);
     const explanation = document.createElement("p");
     // PLAIN COPY (item 9, owner 2026-09-30): what the order means, then the ranking's own caveats.
-    explanation.textContent = "Reviews come back on your memory schedule, so they come first. New techniques are ranked by how much practising them would help your game. " +
+    explanation.textContent = "Reviews come back on your memory schedule, most overdue first. New techniques, ranked by how much practising them would help your game, are mixed in: one new card for every four reviews. " +
       "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks share counts once. " +
       s.plan.assumptions.join(" ");
     details.appendChild(explanation); box.appendChild(details);
@@ -6090,10 +6110,14 @@ class Component extends DCLogic {
         (done ? "rgba(110,214,160,.42)" : open ? "rgba(150,180,255,.5)" : "rgba(150,170,210,.12)") + ";background:" +
         (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";";
       const label = this._deckCountLabel(key, true);
+      // PRACTICE'S MIX, said per row (U56 e): a review or a new deck, read from the plan's own rows
+      const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? "new" : "" : "";
+      if (kind) r.setAttribute("data-practice-kind", kind);
       r.innerHTML =
         '<span style="width:9px;height:9px;border-radius:' + (cat === "Position" ? "50%" : "2px") + ';background:' + (done ? "#7ee0a8" : (catCol[cat] || "#9fb0d8")) + ';flex:none;"></span>' +
         '<div style="flex:1;min-width:0;"><div style="font-size:13px;font-weight:600;color:' + (done ? "#bff0d2" : "#eef1f6") + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + fam + '</div>' +
-        '<div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:1px;">' + cat + ' · ' + role + '</div></div>' +
+        '<div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:1px;">' + cat + ' · ' + role +
+        (kind ? ' · <span style="color:' + (kind === "due" ? "#e9bd70" : "#9ab0e0") + ';">' + (kind === "due" ? "Review" : "New") + '</span>' : '') + '</div></div>' +
         (done
           ? '<span data-session-tick="1" style="flex:none;color:#7ee0a8;font-size:13px;font-weight:700;">✓</span>'
           : !ncards
@@ -6124,7 +6148,7 @@ class Component extends DCLogic {
       const planned = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === key);
       const extraRow = !planned && s.plan ? s.plan.more.find((r) => r.key === key) : null;   // an unlocked extra: whole deck, its reason
       const only = planned ? (this._cardsOf(deck) || []).filter((c) => planned.questions.includes(this.qhash(c.q)))
-        : (s.filter === "due" || i < (s.dueUntil || 0)) ? this._entryForKey(key, "due").cards : null;
+        : s.filter === "due" ? this._entryForKey(key, "due").cards : null;
       if (planned || extraRow) {
         const why = document.createElement("p"); why.setAttribute("data-gameplan-reason", key);
         why.style.cssText = "font-size:12px;line-height:1.5;color:#aab9d5;padding:0 12px;overflow-wrap:anywhere;";

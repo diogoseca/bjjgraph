@@ -8,7 +8,7 @@ import { journey } from "../dsl";
  *   Gi pricing:  "ideally fix weak spots now" — a gi player was being ranked on no-gi numbers.
  *   The start:   "it should match the starting point set by the app indeed".
  *
- * THE SURFACE. Explore's "N new" cell opens the study plan, and its "Learn next" rows ARE the weak-spots
+ * THE SURFACE. Explore's "N new" cell opens the study plan, and its new rows (the Practice queue's `data-practice-kind="new"`) ARE the weak-spots
  * ranking whenever no study comparison exists (D1, same day: "fall back to the weak-spots ranking so
  * every player, a new one included, always has a plan"). The section note says so in the plan itself
  * ("weakest first"), and every read below requires that note, so a comparison-ranked plan can never be
@@ -16,7 +16,7 @@ import { journey } from "../dsl";
  * click is a measured mouse click (`clickByMouse`); every assertion reads the rendered rows by their own
  * marker, `data-session-row` (the deck key), and pairs lists by that identity, never by position.
  *
- * WHY A 200-CARD DAILY GOAL. "Learn next" holds as many decks as the goal buys: 3 at the default 30, ~20
+ * WHY A 200-CARD DAILY GOAL. Practice holds as many new decks as the goal buys: ~2 at the default 20, ~20
  * at the 200 maximum. The player sets it in Settings → Flashcards, here by mouse, so every list compared
  * holds at least ROWS_FLOOR rows (§6.6: three rows can agree by accident).
  *
@@ -157,22 +157,23 @@ async function setStart(j: any, page: Page, v: "standing" | "random" | "weak") {
 }
 
 /**
- * The rendered plan: its "Learn next" rows, read once the section's own count ("across N techniques")
- * matches the rows on screen. A fresh player owes no reviews, so no Maintenance section precedes them.
+ * The rendered plan: its new rows, read once the Practice head's own count ("across N techniques")
+ * matches the rows on screen. A fresh player owes no reviews, so no row is a review (v1.242.0: one
+ * interleaved Practice queue, each row tagged `data-practice-kind`, replaced the two section heads).
  */
 async function readPlan(page: Page): Promise<Plan> {
   let plan: Plan & { sections: number; maint: number; across: number } = { keys: [], names: [], note: "", sections: 0, maint: 0, across: -1 };
   await expect.poll(async () => {
     plan = await page.evaluate(() => {
-      const sec = document.querySelectorAll('[data-session-section="Learn next"]');
+      const sec = document.querySelectorAll('[data-session-section="Practice"]');
       const note = sec.length === 1 ? (sec[0] as HTMLElement).innerText.replace(/\s+/g, " ") : "";
       const m = note.match(/across (\d+) techniques?/);
       const rows = [...document.querySelectorAll("[data-session] [data-session-row]")] as HTMLElement[];
       return { keys: rows.map((r) => r.getAttribute("data-session-row") as string), names: rows.map((r) => r.innerText.split("\n")[0]),
-        note, sections: sec.length, maint: document.querySelectorAll('[data-session-section="Maintenance"]').length, across: m ? +m[1] : -1 };
+        note, sections: sec.length, maint: document.querySelectorAll('[data-session] [data-practice-kind="due"]').length, across: m ? +m[1] : -1 };
     });
     return plan.sections === 1 && plan.across === plan.keys.length && plan.keys.length > 0;
-  }, { timeout: 30_000, message: "the plan mounts with its Learn next rows" }).toBe(true);
+  }, { timeout: 30_000, message: "the plan mounts with its new rows" }).toBe(true);
   expect(plan.maint, "a fresh player owes no reviews").toBe(0);
   expect(plan.note, "the rows are the weak-spots ranking, and the plan says so").toContain("weakest first");
   return { keys: plan.keys, names: plan.names, note: plan.note };

@@ -84,15 +84,15 @@ renderSettings() {
       // daily goal
       const g = document.createElement("div");
       g.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px;";
-      // CARDS, NOT TECHNIQUES (v1.138.0). The budget is spent on what is DUE first and only the
-      // remainder buys new techniques (newTechniques) — maintenance is the debt, new is the
-      // throttle. Anki pairs 20 new/day with a 200 reviews/day cap for the same reason:
-      // steady-state reviews land near 10x daily new, so 30 cards supports ~3 new cards a day.
-      g.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Daily goal</div><div style="font-size:12px;color:#93a0bd;margin-top:3px;">Cards a day. What\u2019s due comes first; the rest buys new techniques.</div></div>';
+      // CARDS, NOT TECHNIQUES (v1.138.0). Practice (U56 e, v1.242.0) counts reviews and new cards
+      // together against this goal, default 20 (NG_PRACTICE_GOAL in the app): new cards fill what
+      // reviews leave of it, at least one per four reviews owed (NG_PRACTICE_REVIEWS_PER_NEW, the
+      // planner), and stop once the day's answers reach it. Reviews are never capped.
+      g.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Daily goal</div><div style="font-size:12px;color:#93a0bd;margin-top:3px;">Cards a day, reviews and new together.</div></div>';
       const inp = document.createElement("input");
-      inp.type = "number"; inp.value = this.get("dailyGoal", 30); inp.min = "5"; inp.max = "200";
+      inp.type = "number"; inp.value = this.get("dailyGoal", 20); inp.min = "5"; inp.max = "200";
       inp.style.cssText = "width:74px;font-family:inherit;font-size:14px;font-weight:600;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:9px;padding:9px 11px;text-align:center;";
-      inp.addEventListener("change", () => { this.set("dailyGoal", Math.max(5, Math.min(200, parseInt(inp.value) || 30))); inp.value = this.get("dailyGoal", 30); });
+      inp.addEventListener("change", () => { this.set("dailyGoal", Math.max(5, Math.min(200, parseInt(inp.value) || 20))); inp.value = this.get("dailyGoal", 20); });
       g.appendChild(inp); body.appendChild(g);
       // study order
       body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",

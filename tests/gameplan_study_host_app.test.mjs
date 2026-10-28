@@ -101,7 +101,7 @@ test("joint coverage text preserves roles uncertainty and full-group conditions 
 test("new plan and explicit refresh request study; due-only entry and internal runtime reopening do not", async () => {
   const { app, calls } = fixture(); app._requestGameplanStudy = i => { calls.requests.push(i); return Promise.resolve(); };
   app._ensureGameplanClock = () => {}; app._gameplanRuntime = { ngGameplanSummary: () => "plan", ngGameplanBind: x => x };
-  app.planSummary = () => ({ due: [], fresh: [], more: [], dueCards: 0, newCards: 0 });
+  app.planSummary = () => ({ due: [], fresh: [], more: [], queue: [], dueCards: 0, newCards: 0 });
   app.hydrateDecks = () => Promise.resolve(); app._sessionInline = () => false; app.nodeForKey = () => -1;
   for (const name of ["closeModal", "frameNodes", "renderSession", "applyDeckVisibility"]) app[name] = () => {};
   app.openPlanSession("due"); assert.deepEqual(calls.requests, []);
