@@ -9,7 +9,7 @@ const M=createRequire(import.meta.url)('../neural/src/mdp-identity.src.js');
 const source=readFileSync(new URL('../neural/src/app.src.jsx',import.meta.url),'utf8');
 // The bundle's prelude (wire-keys + knowledge-profile, export-stripped) from the one shared harness.
 const Component=new Function('DCLogic','React',knowledgeSource+'\n'+source+'\nreturn Component;')(class {},{createRef:()=>({current:null})});
-// the anchor tolerates startRoll's parameters (the camOpen preview passes a token); it must still be found
+// the anchor tolerates startRoll's parameters (the directed arrival passes its opening token); it must still be found
 const startAt=source.search(/\n  startRoll\([^)]*\) \{/); if(startAt<0)throw new Error('startRoll not found');
 const startBody=source.slice(source.indexOf('    const rsOk = this._rulesetMask();',startAt),source.indexOf('    this._prefetchLandDeck(this.currentPos);',startAt));
 const selectSource=new Function(startBody+'\nreturn {idx:this.currentPos,role:this.playerRole};');

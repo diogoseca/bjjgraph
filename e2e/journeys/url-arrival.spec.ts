@@ -335,7 +335,7 @@ test("the camera frames the space the card WILL occupy, not the gap while it reb
 // base8aa-opening-verified,d318-cpu4-proof}. The original ungated case and its
 // <3 bound remain; the second case pins the real delivery that exposes the bug.
 for (const lateDeck of [false, true]) {
-test(`@curated the opening flight is piecewise-fixed: one wide aim, one landing aim, no drift in either${lateDeck ? ' with the landing deck held' : ''}`, async ({
+test(`@curated the opening flight aims once, at the landing, and the aim never drifts under it${lateDeck ? ' with the landing deck held' : ''}`, async ({
   page,
 }) => {
   const j = journey(page)
@@ -350,7 +350,7 @@ test(`@curated the opening flight is piecewise-fixed: one wide aim, one landing 
   await j.advance(3300) // the intro hands the camera over at 3.2s
 
   // v1.168.0 CHANGED THE CLAIM, NOT THE BUG THIS SPEC PINS: the staged arrival aimed WIDE for its first
-  // beat and re-aimed ONCE at the landing framing. v1.235.0 changed it again: the opening is the directed
+  // beat and re-aimed ONCE at the landing framing. v1.237.0 changed it again: the opening is the directed
   // arrival (`_openingPose`, owner U50 d), which aims ONCE, at the landing framing, from the pick, and flies
   // its own closed-form path there; there is no wide beat left to aim at (its centre-column and zoom
   // checks went with it; the arrival's own claims are pinned in opening-camera.spec.ts). What must still

@@ -12679,7 +12679,7 @@ then re-seeds app rows as a separate child of the clean candidate and runs all r
 No payload ceiling or policy baseline changes are part of this implementation.
 
 
-## v1.235.0 — the directed opening (owner U48 → U50 d, "S2 · Z2")
+## v1.237.0 — the directed opening (owner U48 → U50 d, "S2 · Z2")
 
 The owner, on the round-1 preview (V2): "It seems weird that the graph ... moves up. It would make sense if
 the scaffold was already appearing ... the zoom should already have started in the first frames and

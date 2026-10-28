@@ -12,7 +12,7 @@ for (const role of ["bottom", "top"] as const) {
     const readSeat = () => page.evaluate(() => {
       const a = (window as any).__neural;
       const n = a.nodes[a.currentPos];
-      // v1.235.0: a directed arrival names the seat at the pick, before enterLand sets focusIdx; until
+      // v1.237.0: a directed arrival names the seat at the pick, before enterLand sets focusIdx; until
       // then the node the camera flies to is the directed arrival's own subject (`_camOpen.idx`)
       const f = a.nodes[a.focusIdx >= 0 ? a.focusIdx : (a._camOpen?.idx ?? -1)];
       return {

@@ -42,45 +42,49 @@ const controls = [
     'an escape picked inside the window keeps the catch framing to the landing'],
   // The intro's handover starts a fresh roll over a board staged during it (a shared-list read).
   ['intro-overrides-stage', 'defending-arrivals.spec.ts', 'a shared list link opens its defending item',
-    [['this._refPage||this._staged!=null||this.startRoll()', 'this._refPage||this.startRoll()']], 'the other read role must be a reachable drawn canvas half'],
+    [['this._refPage||this._staged!=null||this.startRoll(t)', 'this._refPage||this.startRoll(t)']], 'the other read role must be a reachable drawn canvas half'],
   // D-338: a saved Focus is read again by the layer seam (its reading* overrides hide the card).
   ['d338-saved-focus-layer-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$',
-    [['let t=ft[e];return!t||this.get(t,!0)!==!1', 'let t=ft[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
+    [['let t=_t[e];return!t||this.get(t,!0)!==!1', 'let t=_t[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
     'a saved Focus no longer hides the question'],
   // The follow-cam lifts the node against the reading band's edge again (two rest framings).
   ['reading-band-lift-restored', 'pane-layout.spec.ts', '1440px pane moves film, card, article',
-    [['(!d.band||u)&&(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus'], ['active:!d.band||!!(u!=null&&u.band)', 'active:!0']], 131],   // back.node.y; 125 -> 127 (D-347), -> 131 (D-368's pane-layout:82). D-355: the band lifts only in a flight
+    [['(!m.band||y)&&(c.lift={f:this.camFocus', '(c.lift={f:this.camFocus'], ['active:!m.band||!!(y!=null&&y.band)', 'active:!0']], 131],   // back.node.y; 125 -> 127 (D-347), -> 131 (D-368's pane-layout:82). D-355: the band lifts only in a flight
   // H46 (2026-10-21): landcard-modes:349 now waits for the defender's question before its press; the arrows must
   // still be what pages it (the defense mode dropped from the landing card's arrow branch).
   ['defense-arrows-lost', 'landcard-modes.spec.ts', 'the generic defending card pages its own deck with the same arrows',
-    [['["land","attempt","defense"].includes(this._landMode)&&this._landPage!=null&&(o.key==="ArrowLeft"', '["land","attempt"].includes(this._landMode)&&this._landPage!=null&&(o.key==="ArrowLeft"']], 'arrows page the defender deck'],
+    [['["land","attempt","defense"].includes(this._landMode)&&this._landPage!=null&&(r.key==="ArrowLeft"', '["land","attempt"].includes(this._landMode)&&this._landPage!=null&&(r.key==="ArrowLeft"']], 'arrows page the defender deck'],
   // D-352 (Delta 6): S1, a landing laid out with the article put away is live, so showing the article
   // mid-load publishes it pinned instead of holding it; and N1, the hand's half of D-351's hold.
   ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
     [['else if(!t)n.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
   ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
-    [['h==null||h.toggleAttribute("data-reader-pending",a>0);return c&&a<=0', 'h==null||h.toggleAttribute("data-reader-pending",!1);return c&&a<=0']], 'the new hand is shown once, at its final place'],
+    [['u==null||u.toggleAttribute("data-reader-pending",a>0);return d&&a<=0', 'u==null||u.toggleAttribute("data-reader-pending",!1);return d&&a<=0']], 'the new hand is shown once, at its final place'],
   // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
   ['d354-pane-follow-lag', 'pane-keyboard.spec.ts', 'D-354: the landing deck and its arrows follow the pane',
-    [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
+    [[',this.uiShift!==s&&((o=this._reader)==null||o.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
   // D-354 (H95, H97): REAL BREAK from D-351. A hand the reader held starts its Win chance when it publishes.
   ['d354-held-hand-no-value', 'article-sections.spec.ts', 'D-354: a hand the reader held starts its Win chance',
-    [['return c&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
+    [['return d&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
   // RETIRED (D-368, layout C): d354-play-film-left-home; the game film never enters the Videos slot.
   // D-354 N3: the film's only remover ends the reader's media-home observation.
   ['d354-removed-film-observed', 'defending-landing.spec.ts', 'D-354 N3: a removed film',
     [['._ngRO.disconnect(),(e=this._reader)==null||e.resize.unobserve(this._landFilmEl);try{', '._ngRO.disconnect();try{']], 'the removed film is no longer observed by the reader'],
   // D-350b: the header's ZERO-overlap mutants (v1.219.0's noprelift / noahead), scripted so the frame filter is
   // shown not to carry their kills. noprelift: the arrival and the URL intro make no room for the rows.
-  // RETIRED (v1.235.0): noprelift-roll-start. The roll start is the directed arrival now (`_openingPose`), which
-  // never asks `_liftForLanding`; its own mutants are in opening-camera.spec.ts's header.
+  // RETIRED (v1.237.0): noprelift-roll-start. The roll start is the directed arrival now (`_openingPose`), which
+  // never asks `_liftForLanding`; its own mutants are in opening-camera.spec.ts's header. Its ZERO-overlap
+  // claim is scripted again by noride-roll-start (PR #320's review): the board does not ride, so the rows
+  // stand at their settled place under the node the arrival is still holding.
+  ['noride-roll-start', 'camera-continuity.spec.ts', '390px camera continuity.*roll start: the intro and the staged arrival',
+    [['t.style.setProperty("--ng-open-y",o.toFixed(2)+"px")', 't.style.setProperty("--ng-open-y","0px")']], 'ZERO overlap roll start @'],
   ['noprelift-url-arrival', 'camera-continuity.spec.ts', 'camera continuity.*URL arrival: from the intro',
     [['_liftForLanding(e,t){let s=this.nodes&&this.nodes[t];', '_liftForLanding(e,t){return e;let s=this.nodes&&this.nodes[t];']], 'ZERO overlap URL arrival @'],
   // noahead: `_viewRect` ignores `ahead`, so a landing's band is not predicted before its rows mount.
   ['noahead-exchange-1440', 'camera-continuity.spec.ts', '1440px camera continuity.*an exchange lands on a new current node',
-    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),u=!0)', '!1&&(a=this._predictBottom(e.ahead),u=!0)']], 'ZERO overlap exchange @'],
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),f=!0)', '!1&&(a=this._predictBottom(e.ahead),f=!0)']], 'ZERO overlap exchange @'],
   ['noahead-exchange-390', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node',
-    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),u=!0)', '!1&&(a=this._predictBottom(e.ahead),u=!0)']], 'ZERO overlap exchange @'],
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),f=!0)', '!1&&(a=this._predictBottom(e.ahead),f=!0)']], 'ZERO overlap exchange @'],
   // U16 b (owner, 2026-10-24): retain band shrink/revert and the usual account/card spacing.
   // RETIRED: d370-account-keeps-reserve and d370-card-spacing-kept guarded the retired no-scroll fit.
   // d370-band-186-in-catch retains its mutation, now killed directly at the band claim.
@@ -93,7 +97,7 @@ const controls = [
     'only the live phone catch band shrinks', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
       '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-landcard.ng-land-deck{padding-top:8px!important}']]],
   ['u16-scrolled-answer-inert', 'defending-landing.spec.ts', 'U16 b: in a catch at 390x631',
-    [["_mcAnswer(e,t,s,i,n,o,r){", "_mcAnswer(e,t,s,i,n,o,r){if(this._reader?.root.scrollTop>0&&this._mc?.surface===\"panic\")return;"]], 'the scrolled escape answer receives its real mouse click'],
+    [["_mcAnswer(e,t,s,i,n,r,o){", "_mcAnswer(e,t,s,i,n,r,o){if(this._reader?.root.scrollTop>0&&this._mc?.surface===\"panic\")return;"]], 'the scrolled escape answer receives its real mouse click'],
   ['u16-band-restoration-lost', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band',
     [['this.W<=640&&!this._phoneCatch()?186:144', '144']], 'the result transition restores the usual 186px band'],
   ['u16-band-ends-at-pick', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band',
@@ -110,15 +114,15 @@ const controls = [
   // D-355: the band's soft hold engages only for a flight that reaches its lower edge (a URL arrival), never for one
   // inside the band (a hover's re-aim), and it is what keeps the arrival clear of the Moves row.
   ['d355-flight-lift-ungated', 'dual-pair.spec.ts', 'hovering any pair names it once',
-    [['active:!d.band||!!(u!=null&&u.band)', 'active:!0']], 'and the role moved below it'],
+    [['active:!m.band||!!(y!=null&&y.band)', 'active:!0']], 'and the role moved below it'],
   ['d355-flight-lift-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['(!d.band||u)&&(a.lift=', '!d.band&&(a.lift=']], 'URL arrival @'],
+    [['(!m.band||y)&&(c.lift=', '!m.band&&(c.lift=']], 'URL arrival @'],
   // ORCH-382 / H140-H144: the old 30px gate engages after contact; activating the subject only
   // when its gate opens starts the spring too late. Both fail the unchanged ZERO-overlap pin.
   ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['u.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+g+gt>d.bottom', 'u.band=(this.H||800)/2+(this.pairMid(h).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>d.bottom']], 'ZERO overlap URL arrival @'],
+    [['y.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+x+bt>m.bottom', 'y.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
   ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['(!d.band||u)&&(a.lift=', '(!d.band||u!=null&&u.band)&&(a.lift=']], 'ZERO overlap URL arrival @'],
+    [['(!m.band||y)&&(c.lift=', '(!m.band||y!=null&&y.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
   // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
   // its transition-end reveal reproduces the card extending below the Learning pane at 1440px.
   ['concept-fit-reveal-lost', 'concepts-surface.spec.ts', 'principle film study.*1440px',
@@ -126,7 +130,7 @@ const controls = [
   // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
   // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
   ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
-    [['if(u&&!((d=this._reader)!=null&&d.interacting))', 'if(u&&!this._reader?.intent&&!((d=this._reader)!=null&&d.interacting))']],
+    [['if(h&&!((c=this._reader)!=null&&c.interacting))', 'if(h&&!this._reader?.intent&&!((c=this._reader)!=null&&c.interacting))']],
     '...and the chosen escape stays on the table'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null

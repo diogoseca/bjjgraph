@@ -1,4 +1,4 @@
-// THE DIRECTED ARRIVAL (v1.235.0, owner U48 → U50 d: S2 · Z2), as source behaviour: who gets it, the
+// THE DIRECTED ARRIVAL (v1.237.0, owner U48 → U50 d: S2 · Z2), as source behaviour: who gets it, the
 // zoom curve, the path (pick hand-over, hold, rise, landing, bounds), the integrator's pose branch, the
 // board, reduced motion and the gesture hand-over. The same claims are measured in a real browser
 // through draw()'s transform by e2e/journeys/opening-camera.spec.ts.
@@ -10,7 +10,7 @@ import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 const source = readFileSync(new URL("../neural/src/app.src.jsx", import.meta.url), "utf8");
 const evalApp = (tail) => new Function("DCLogic", "React", `${knowledgeSource}\n${source}\n${tail}`)(class {}, { createRef: () => ({ current: null }) });
 const Component = evalApp("return Component;");
-const K = evalApp("return { ngOpenZoom, ngBezier, NG_CAM_OPEN_EASE, NG_CAM_OPEN_LAND, NG_CAM_OPEN_RISE, NG_CAM_OPEN_ANCHOR, NG_CAM_OPEN_OUT, NG_CAM_OPEN_PICK };");
+const K = evalApp("return { ngOpenZoom, ngBezier, NG_CAM_OPEN_EASE, NG_CAM_OPEN_LAND, NG_CAM_OPEN_RISE, NG_CAM_OPEN_ANCHOR, NG_CAM_OPEN_OUT, NG_CAM_OPEN_PICK, NG_CAM_OPEN_STALL_MS, NG_CAM_OPEN_FAINT };");
 const make = () => Object.assign(Object.create(Component.prototype), {
   W: 1440, H: 900, graphW: 1600, gcx: 0, gcy: 0, now: 0, NG_ARRIVE_KICKER: 2,
   cam: { cx: 0, cy: 0, vw: 3680 }, camTarget: { cx: 0, cy: 0, vw: 1600 },
@@ -138,60 +138,141 @@ test("the integrator records a directed pose and hands over at rest", () => {
   assert.equal(a._camFlights ?? 0, 0, "a directed pose never starts a flight");
 });
 
-test("the board fades in and rides the node's remaining rise, and nothing outlives it", () => {
-  const a = make(), sec = { isConnected: true, style: { opacity: "", translate: "", transition: "" } };
-  a._readerEl = sec; a._layerDockEl = null; a._reducedMotion = () => false; a.now = 2.5;
-  const op = a._camOpen = { pick: 0, cancelled: false, rise: 0.4, riseDy: 120 };
-  a._openingBoard(op);
-  assert.equal(sec.style.opacity, "0.4"); assert.equal(sec.style.translate, "0 120.00px"); assert.equal(sec.style.transition, "none");
-  a.now = 1.5; op.rise = 0; a._openingBoard(op);
-  assert.equal(sec.style.opacity, "0", "before the reveal a first opening's board stays out of sight");
-  a.now = 4.1; op.rise = 1; op.riseDy = 0; a._openingBoard(op);
-  assert.equal(sec.style.opacity, ""); assert.equal(sec.style.translate, ""); assert.equal(sec.style.transition, "");
-  assert.equal(op.boardDone, true);
+// The board is state on the app wrap (NG_CAM_OPEN_CSS), never a style on a row: a stub wrap and document.
+const stubWrap = () => {
+  const w = { dataset: {}, listeners: {}, props: {}, fading: [],
+    querySelectorAll: () => w.fading,
+    addEventListener(type, fn) { (w.listeners[type] ||= []).push(fn); },
+    removeEventListener(type, fn) { w.listeners[type] = (w.listeners[type] || []).filter((f) => f !== fn); } };
+  w.style = { setProperty: (k, v) => { w.props[k] = v; }, removeProperty: (k) => { delete w.props[k]; } };
+  return w;
+};
+globalThis.getComputedStyle ||= (el) => ({ opacity: el._opacity ?? "1" });
+const withDocument = (fn) => {
+  const old = globalThis.document, nodes = {};
+  globalThis.document = { getElementById: (id) => nodes[id] || null, createElement: () => ({}), head: { appendChild: (el) => { nodes[el.id] = el; } } };
+  let out;
+  try { out = fn(nodes); } finally { if (!(out instanceof Promise)) globalThis.document = old; }
+  return out instanceof Promise ? out.finally(() => { globalThis.document = old; }) : out;
+};
+const boardApp = (state = {}) => {
+  const a = make(), wrap = stubWrap();
+  Object.assign(a, { wrapRef: { current: wrap }, _reducedMotion: () => false, get: (k, d) => (k in state ? state[k] : d) });
+  return { a, wrap };
+};
+
+test("the board is wrap state the CSS turns into styles; a row is styled by where it stands, so adoption needs no frame", () => {
+  const css = evalApp("return NG_CAM_OPEN_CSS;");
+  assert.match(css, /:not\(\[data-reader-game-part\]\)\{opacity:var\(--ng-open-o\)!important\}/, "a loose row fades by the reader's own adoption mark");
+  assert.match(css, /\[data-ng-open=faint\][^{]*\{visibility:hidden\}/, "only a faint board hides its rows");
+  assert.equal((css.match(/visibility/g) || []).length, 1, "no other rule hides anything");
+  withDocument((nodes) => {
+    const { a, wrap } = boardApp(); a.now = 2.5;
+    const op = a._camOpen = { pick: 0, cancelled: false, rise: 0.4, riseDy: 120 };
+    a._openingBoard(op);
+    assert.ok(nodes["ng-open-css"], "the rule set is injected once");
+    assert.deepEqual([wrap.dataset.ngOpen, wrap.props["--ng-open-o"], wrap.props["--ng-open-y"], wrap.dataset.ngBook], ["board", "0.4", "120.00px", "on"]);
+    op.rise = 0.05; a.now = 2.1; a._openingBoard(op);
+    assert.equal(wrap.dataset.ngOpen, "faint", "below NG_CAM_OPEN_FAINT the rows take no tap");
+    wrap.dataset = {}; wrap.props = {}; a.now = 1.5; op.rise = 0; a._openingBoard(op);
+    assert.equal(wrap.dataset.ngOpen, undefined, "a first opening holds no board before its reveal: there is none");
+    a.now = 4.1; op.rise = 1; op.riseDy = 0; a._openingBoard(op);
+    assert.equal(wrap.dataset.ngOpen, undefined); assert.equal(wrap.props["--ng-open-o"], undefined); assert.equal(op.boardDone, true);
+    clearTimeout(a._openStall);
+  });
 });
 
-test("a row the reader has not adopted yet is hidden, not faded, and handed back the moment it is adopted", () => {
-  const a = make(), inside = new Set();
-  const sec = { isConnected: true, style: { opacity: "", translate: "", transition: "" }, contains: (el) => inside.has(el) };
-  const film = { isConnected: true, offsetHeight: 220, style: { visibility: "" } };
-  a._readerEl = sec; a._landFilmEl = film; a._layerDockEl = null; a._reducedMotion = () => false; a.get = () => true; a.now = 2.02;
-  const op = a._camOpen = { pick: 0, cancelled: false, rise: 0, riseDy: 230 };
-  a._openingBoard(op);
-  assert.equal(film.style.visibility, "hidden", "outside the section on the reveal frame: hidden, so it neither paints nor takes a click");
-  inside.add(film); a.now = 2.04; a._openingBoard(op);
-  assert.equal(film.style.visibility, "", "adopted: the section carries the fade from here");
-  assert.equal(sec.style.translate, "0 230.00px");
+test("a release fades to full in 0.2s and its own transitionend clears it, leaving nothing behind", () => {
+  withDocument(() => {
+    const { a, wrap } = boardApp(); a.now = 2.5;
+    const op = a._camOpen = { pick: 0, cancelled: false, rise: 0.3, riseDy: 90 };
+    a._openingBoard(op); wrap.fading = [{ offsetHeight: 300, _opacity: "0.3" }]; a._openBoardEnd(true);
+    assert.deepEqual([wrap.dataset.ngOpen, wrap.props["--ng-open-o"], wrap.props["--ng-open-y"]], ["release", "1", "0px"]);
+    const fire = (propertyName, target) => (wrap.listeners.transitionend || []).slice().forEach((f) => f({ propertyName, target }));
+    fire("opacity", { matches: () => false });
+    assert.equal(wrap.dataset.ngOpen, "release", "an unrelated element's transition is not the board's");
+    fire("opacity", { matches: () => true });
+    assert.equal(wrap.dataset.ngOpen, undefined); assert.equal(wrap.props["--ng-open-o"], undefined);
+    assert.equal((wrap.listeners.transitionend || []).length, 0, "and the listener goes with it");
+    clearTimeout(a._openStall);
+  });
 });
 
-test("reduced motion: the whole graph until the board, then the landing framing, and the board is left alone", () => {
-  const { a } = world(); a._reducedMotion = () => true;
-  const op = { pick: null, cancelled: false };
-  assert.deepEqual(a._openingFrame(op), { snap: true, target: { cx: 0, cy: 0, vw: 1724 } });
-  op.pick = 3.2; a.now = 5.1;
-  assert.equal(a._openingFrame(op).target.vw, 1724, "named, not yet framed: no camera change before the board");
-  a.now = 5.2;
-  assert.equal(a._openingFrame(op).target.vw, 146.5, "the board's frame is the one change of view");
-  const sec = { isConnected: true, style: { opacity: "", translate: "", transition: "" } };
-  a._readerEl = sec; a._openingBoard(op);
-  assert.equal(sec.style.opacity, ""); assert.equal(sec.style.translate, "");
+test("a staged restart takes the board over where it stands; any other retirement releases it", () => {
+  withDocument(() => {
+    const { a, wrap } = boardApp(); a.now = 2.5;
+    a._camOpen = { pick: 0, cancelled: false, rise: 0.44, riseDy: 193 };
+    a._openingBoard(a._camOpen);
+    a._openHandOff = true; a._retireCamOpen();
+    assert.equal(wrap.dataset.ngOpen, "board", "two quick restarts: the old board is not popped back to full");
+    assert.deepEqual([a._openO, a._openY], [0.44, 193], "the new token inherits what the board shows");
+    wrap.fading = [{ offsetHeight: 300, _opacity: "0.44" }];
+    a._openHandOff = false; a._camOpen = { pick: 0, cancelled: false }; a._retireCamOpen();
+    assert.equal(wrap.dataset.ngOpen, "release");
+    wrap.fading = []; a._camOpen = { pick: 0, cancelled: false, rise: 0.5 }; a.now = 2.6; a._openingBoard(a._camOpen); a._retireCamOpen();
+    assert.equal(wrap.dataset.ngOpen, undefined, "nothing fading: cleared at once, never a release that no transitionend would end");
+    clearTimeout(a._openStall);
+  });
 });
 
-test("a gesture cancels the arrival at once, finishes the board, and completion cannot reclaim its camera", () => {
-  const a = make(), sec = { isConnected: true, style: { opacity: "", translate: "", transition: "" } };
-  a._readerEl = sec; a._layerDockEl = null; a._reducedMotion = () => false; a.now = 2.5;
-  a.evCenterRef = { current: { style: {} } };
-  const op = a._camOpen = { pick: 0, cancelled: false, rise: 0.3, riseDy: 90 };
-  a._openingBoard(op);
-  a.cam.cx = 200; a._cancelCamOpen();
-  assert.equal(a.camTarget.cx, 200, "the camera is where the hand left it");
-  assert.equal(sec.style.opacity, ""); assert.match(sec.style.transition, /^opacity \.2s/, "the board finishes in 0.2s, not a pop");
-  assert.equal(a._openingFrame(op), null, "a cancelled arrival directs nothing");
-  a._endArrival();
-  assert.equal(a._camOpen, null);
-  assert.equal(a._camOpenManual, true, "the arrival's own end does not take the camera back");
-  a.clearTimers();
-  assert.equal(a._camOpenManual, false, "the player's next deliberate act releases the hold");
+test("the last resort: a faint board whose clock stops brings its rows back; a live clock never trips it", async () => {
+  await withDocument(async () => {
+    const { a, wrap } = boardApp(); a.now = 2.05;
+    const op = a._camOpen = { pick: 0, cancelled: false, rise: 0.02, riseDy: 200 };
+    a._openingBoard(op);
+    assert.equal(wrap.dataset.ngOpen, "faint");
+    await new Promise((r) => setTimeout(r, K.NG_CAM_OPEN_STALL_MS + 150));
+    assert.equal(wrap.dataset.ngOpen, "board", "never hidden, only faint");
+    assert.equal(wrap.props["--ng-open-o"], "0.02", "and the clock that stopped is not overruled: it shows what it showed");
+    const live = a._camOpen = { pick: 0, cancelled: false, rise: 0.02, riseDy: 200 };
+    for (let i = 0; i < 4; i++) { a.now = 2.1 + i * 0.01; a._openingBoard(live); await new Promise((r) => setTimeout(r, K.NG_CAM_OPEN_STALL_MS * 0.6)); }
+    assert.equal(wrap.dataset.ngOpen, "faint", "frames keep coming: the faint window is the rise's own");
+    clearTimeout(a._openStall);
+  });
 });
 
-console.log("camera opening: 9 cases (scope, zoom curve, first opening, restart, integrator, board, unadopted rows, reduced motion, gesture)");
+test("reduced motion: the whole graph until the board, then the landing once it holds still, and the board is never styled", () => {
+  withDocument(() => {
+    const { a } = world(); a._reducedMotion = () => true; const wrap = stubWrap(); a.wrapRef = { current: wrap };
+    const op = { pick: null, cancelled: false };
+    assert.deepEqual(a._openingFrame(op), { snap: true, target: { cx: 0, cy: 0, vw: 1724 } });
+    op.pick = 3.2; a.now = 5.1;
+    assert.equal(a._openingFrame(op).target.vw, 1724, "named, not yet framed: no camera change before the board");
+    const seen = [];
+    for (let i = 0; i < 8; i++) { a.now = 5.2 + i / 60; seen.push(a._openingFrame(op).target.vw); }
+    assert.deepEqual(seen.slice(0, 4), [1724, 1724, 1724, 1724], "the landing waits until the target holds still");
+    assert.equal(seen.at(-1), 146.5, "then it is the one change of view");
+    a._openingBoard(op);
+    assert.equal(wrap.dataset.ngOpen, undefined, "reduced motion never styles the board");
+  });
+});
+
+test("a pause ends the arrival without taking the camera; the follow-cam resumes with the game", () => {
+  withDocument(() => {
+    const { a } = world(); const wrap = stubWrap(); a.wrapRef = { current: wrap }; a.paused = true;
+    const op = a._camOpen = { pick: 3.2, cancelled: false };
+    assert.equal(a._openingFrame(op), null);
+    assert.equal(op.cancelled, true); assert.equal(a._camOpen, null);
+    assert.equal(a._camOpenManual ?? false, false, "a pause is not a gesture: nothing holds the camera after it");
+  });
+});
+
+test("a gesture cancels the arrival at once, releases the board, and completion cannot reclaim its camera", () => {
+  withDocument(() => {
+    const { a, wrap } = boardApp(); a.now = 2.5; a.evCenterRef = { current: { style: {} } };
+    const op = a._camOpen = { pick: 0, cancelled: false, rise: 0.3, riseDy: 90 };
+    a._openingBoard(op); wrap.fading = [{ offsetHeight: 300, _opacity: "0.3" }];
+    a.cam.cx = 200; a._cancelCamOpen();
+    assert.equal(a.camTarget.cx, 200, "the camera is where the hand left it");
+    assert.equal(wrap.dataset.ngOpen, "release", "the board finishes in 0.2s, not a pop");
+    assert.equal(a._openingFrame(op), null, "a cancelled arrival directs nothing");
+    a._endArrival();
+    assert.equal(a._camOpen, null);
+    assert.equal(a._camOpenManual, true, "the arrival's own end does not take the camera back");
+    a.clearTimers();
+    assert.equal(a._camOpenManual, false, "the player's next deliberate act releases the hold");
+    clearTimeout(a._openStall);
+  });
+});
+
+console.log("camera opening: 12 cases (scope, zoom curve, first opening, restart, integrator, board state, release, restart hand-off, last resort, reduced motion, pause, gesture)");
