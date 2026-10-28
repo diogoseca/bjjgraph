@@ -362,13 +362,22 @@ class LiveProbe(unittest.TestCase):
         self.assertEqual(code, 0, output)
         passed = int(output.split("live probe: ")[1].split(" of ")[0])
         self.assertGreaterEqual(passed, 4, output)
-        for label in ("last static rule", "last dynamic rule", "alias rule", "last fallback rule"):
+        for label in ("last static rule", "last dynamic rule", "alias rule", "exact category rule",
+                      "last fallback rule", "unknown category path"):
             self.assertIn(label, output)
         print("[redirect-limits] probe control:", output.strip().splitlines()[-1])
 
     def test_a_deployment_without_the_fallback_fails(self):
         code, output = self.run_probe(lambda p: self.both_layers(p) if self.edge.resolve(p) else (404, {}))
         self.assertEqual(code, 1, output)
+
+    def test_a_fallback_that_redirects_everything_fails(self):
+        # Every positive probe passes on such a deployment; only the unknown path can see it.
+        code, output = self.run_probe(lambda p: self.both_layers(p) if self.both_layers(p)[0] != 404
+                                      else (301, {"Location": "/", crl.FALLBACK_HEADER: "fallback"}))
+        self.assertEqual(code, 1, output)
+        self.assertIn("FAIL unknown category path", output)
+        print("[redirect-limits] RED a fallback that redirects every unknown path")
 
     def test_a_fallback_redirect_that_does_not_say_so_fails(self):
         code, output = self.run_probe(lambda p: (self.both_layers(p)[0], {"Location": self.both_layers(p)[1].get("Location", "")}))

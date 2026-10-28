@@ -52,9 +52,11 @@ the asset server answers 404). On the built tree it also checks that:
 
 --source checks the same against a fresh emit of regenerate_redirects.py into a temp dir, with the
 pages and folders content/ would build standing in for the built tree (no build; ci-validate.yml
-runs it). --probe BASE_URL requests, on a live deployment, the LAST static rule, the
-LAST dynamic rule with a child path and one lowercase alias rule (plus any --probe-path), and asserts
-each answers 301/308 with the Location this port computes. It counts its probes and fails on zero.
+runs it). --probe BASE_URL requests, on a live deployment, the LAST static rule, the LAST dynamic
+rule with a child path, one lowercase alias rule, the last exact category rule, and the last fallback
+wildcards (plus any --probe-path), and asserts each answers 301/308 with the Location this port
+computes, the fallback ones with `X-Redirect-Source: fallback` and the others without it; an unknown
+category path must stay a plain 404. It counts its probes and fails on zero and on an empty URL.
 
 Usage:
   python3 scripts/check_redirect_limits.py [--public DIR | --source]   # the full gate
@@ -665,11 +667,16 @@ class _NoRedirect(urllib.request.HTTPRedirectHandler):
 
 
 FALLBACK_HEADER = "X-Redirect-Source"   # site/redirect-fallback.mjs sets it to "fallback"
+CATEGORY_PROBE_ROOTS = ("Positions", "Transitions", "Submissions")
+# Must stay a plain 404: a fallback that redirected everything would pass every positive probe.
+UNKNOWN_PROBE = "/Positions/No-Such-Page-rdr546-probe"
 
 
 def choose_probes(edge: Redirects, fallback: Redirects) -> list[tuple[str, str, str]]:
     """(label, request path, layer): the LAST static rule, the LAST dynamic rule with a child, one
-    alias rule, and the LAST fallback wildcard with a child plus the last one that keeps :splat."""
+    alias rule, the last exact category rule (an edge redirect passing through the middleware), and
+    the LAST fallback wildcard with a child plus the last one that keeps :splat. probe() adds an
+    unknown category path that must stay a plain 404."""
     probes: list[tuple[str, str, str]] = []
     redirecting = [r for r in edge.static.values() if r.status in REDIRECT_STATUSES]
     if redirecting:
@@ -684,6 +691,11 @@ def choose_probes(edge: Redirects, fallback: Redirects) -> list[tuple[str, str, 
                   and r.source.rsplit("/", 1)[-1] != r.to.rsplit("/", 1)[-1].lower()), None)
     if alias:
         probes.append((f"alias rule (line {alias.line_number})", alias.source, "edge"))
+    category = [r for r in redirecting if r.source != r.source.lower() and r.source.split("/")[1:2]
+                and r.source.split("/")[1] in CATEGORY_PROBE_ROOTS]
+    if category:
+        last = max(category, key=lambda r: r.line_number)
+        probes.append((f"exact category rule (line {last.line_number}) through the middleware", last.source, "edge"))
     rows = [r for _, r in fallback.dynamic if r.source.endswith("/*")]
     if rows:
         probes.append((f"last fallback rule (row {rows[-1].line_number}) with a child", rows[-1].source[:-1] + "Attacker",
@@ -713,6 +725,8 @@ def probe(base_url: str, edge: Redirects, fallback: Redirects, extra: list[str],
     if not expected:
         print(f"{TAG} FAIL 0 probes chosen: nothing would be requested", file=sys.stderr)
         return 1
+    if edge.resolve(UNKNOWN_PROBE) is None and fallback.resolve(UNKNOWN_PROBE) is None:
+        expected.append(("unknown category path", UNKNOWN_PROBE, "404", "none"))
 
     def request(url: str) -> tuple[int, str, str]:
         req = urllib.request.Request(url, method="GET", headers={"User-Agent": "bjjgraph-redirect-probe"})
@@ -726,6 +740,8 @@ def probe(base_url: str, edge: Redirects, fallback: Redirects, extra: list[str],
 
     def verdict(result: tuple[int, str, str], location: str, layer: str) -> bool:
         status, got, source = result
+        if layer == "none":
+            return status == 404 and not got and not source
         if status not in (301, 308) or re.sub(r"^https?://[^/]+", "", got) != location:
             return False
         return layer == "any" or (source == "fallback") == (layer == "fallback")
@@ -742,10 +758,10 @@ def probe(base_url: str, edge: Redirects, fallback: Redirects, extra: list[str],
         passed += ok
         print(f"{TAG} {'ok  ' if ok else 'FAIL'} {label}: {path} -> {result[0]} {result[1] or '-'}"
               f"{' [' + FALLBACK_HEADER + ': ' + result[2] + ']' if result[2] else ''} "
-              f"(expected 301/308 {location} from the {layer} layer)")
+              f"(expected {'a plain 404' if layer == 'none' else f'301/308 {location} from the {layer} layer'})")
         if not ok:
             failures.append(path)
-    print(f"{TAG} live probe: {passed} of {len(expected)} redirects answered as the parser port predicts on {base_url}")
+    print(f"{TAG} live probe: {passed} of {len(expected)} probes answered as the parser port predicts on {base_url}")
     if failures or passed == 0:
         print(f"{TAG} FAIL {len(failures)} of {len(expected)} probe(s) did not redirect as expected", file=sys.stderr)
         return 1
