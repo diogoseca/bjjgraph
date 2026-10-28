@@ -109,6 +109,11 @@ const controls = [
     [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
   // D-355: the band's soft hold engages only for a flight that reaches its lower edge (a URL arrival), never for one
   // inside the band (a hover's re-aim), and it is what keeps the arrival clear of the Moves row.
+  // CLEAR_SEC (v1.219.0's hand mutant `slowclear`, scripted at APTS-CI2): the lift's edge takes 1 s and every flight
+  // at least 1.5 s, so a row turned back on stays over the node past CLEAR_SEC.
+  ['slowclear', 'camera-continuity.spec.ts', '1440px camera continuity.*CLEAR_SEC: a card the player turns back on',
+    [['b.t=Math.min(1,b.t+e/cn)', 'b.t=Math.min(1,b.t+e/1)'],
+     ['A=Math.max(t.dur?t.dur(M):Math.max(.6,Math.min(1.4,.5+.25*M))', 'A=Math.max(1.5,t.dur?t.dur(M):Math.max(.6,Math.min(1.4,.5+.25*M))']], 'CLEAR_SEC a row turned on'],
   ['d355-flight-lift-ungated', 'dual-pair.spec.ts', 'hovering any pair names it once',
     [['active:!c.band||!!(u!=null&&u.band)', 'active:!0']], 'and the role moved below it'],
   ['d355-flight-lift-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',

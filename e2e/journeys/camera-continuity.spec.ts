@@ -630,7 +630,18 @@ for (const viewport of VIEWPORTS) {
       // The 0.28s slide-in is wall-clock CSS, so let it finish first: a click measured mid-slide can
       // land beside the moving button.
       await expect.poll(() => page.evaluate(() => (window as any).__neural._landEl.getAnimations().every((x: Animation) => x.playState === "finished"))).toBe(true);
+      // APTS-CI2 (CI run 40675333437, 1 of 23 runs here): the restored card re-docks above the re-dealt hand on a
+      // real frame, so a click measured just before it landed on a move (why.exec in the failing frame) instead of
+      // Answer for Points, and the test failed at the non-vacuity check below, far from its cause. Wait until the
+      // card holds still across real frames, then require the click to have taken the question up.
+      await expect.poll(() => page.evaluate(async () => {
+        const el = (window as any).__neural._landEl, at = el.getBoundingClientRect().top;
+        await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame);
+        return Math.abs(el.getBoundingClientRect().top - at) < 0.5;
+      }), { message: "premise: the restored card holds still before the click" }).toBe(true);
       await j.clickByMouse("[data-land-ask-go]", "Answer for Points on the restored card");
+      expect(await page.evaluate(() => { const a = (window as any).__neural; return { move: !!a._execution, takenUp: (a.beats || []).filter((b: any) => b.beat === "land_q_taken_up").length }; }),
+        "premise: the click took the question up, and started no move").toEqual({ move: false, takenUp: 1 });
       const S = await record(page, 60 * 2);
       expect(S[0].rows, "the rows mounted").not.toBeNull();
       // NON-VACUITY: the row came up OVER the node; a scenario where it did not would pass vacuously

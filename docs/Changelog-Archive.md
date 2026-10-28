@@ -12845,5 +12845,11 @@ already reading still declines on a link, key or focus (a real CDP touch drag pi
 question just tapped; the arrow is `content:" →"/""`, outside the accessible name; keyboard focus on the old card or
 its arrows moves to Answer for Points when the next landing asks. The clock text in Neural.md and the rules now says
 what `_clockGate` does: a card shown on arrival after an opt-in arms once the player has engaged; with the pane open
-no clock runs. Deferred payload +116 B (506,590 of 506,817).
+no clock runs. Deferred payload +116 B (506,590 of 506,817). CI's shard 1 on `7990c0399` then went red once at camera-continuity's
+CLEAR_SEC "a card the player turns back on" non-vacuity check: the failing frame shows a move executing, so the click
+measured on Answer for Points landed on a move (the restored card re-docks above the re-dealt hand on a real frame).
+Not this round's change: 10/10 green on `7990c0399` and 10/10 on `1cf59ba38` here. The premise now waits for the card
+to hold still across real frames and requires the click to have taken the question up; the claim and its
+non-vacuity check are unchanged, and v1.219.0's hand mutant is scripted as `slowclear` (killed at "CLEAR_SEC a row
+turned on").
 
