@@ -83,14 +83,14 @@ const controls = [
   // claim is scripted again by noride-roll-start (PR #320's review): the board does not ride, so the rows
   // stand at their settled place under the node the arrival is still holding.
   ['noride-roll-start', 'camera-continuity.spec.ts', '390px camera continuity.*roll start: the intro and the staged arrival',
-    [['t.style.setProperty("--ng-open-y",o.toFixed(2)+"px")', 't.style.setProperty("--ng-open-y","0px")']], 'ZERO overlap roll start @'],
+    [['this._openStamp(String(Math.round(r*1e4)/1e4),o.toFixed(2)+"px")', 'this._openStamp(String(Math.round(r*1e4)/1e4),"0px")']], 'ZERO overlap roll start @'],
   ['noprelift-url-arrival', 'camera-continuity.spec.ts', 'camera continuity.*URL arrival: from the intro',
     [['_liftForLanding(e,t){let s=this.nodes&&this.nodes[t];', '_liftForLanding(e,t){return e;let s=this.nodes&&this.nodes[t];']], 'ZERO overlap URL arrival @'],
   // noahead: `_viewRect` ignores `ahead`, so a landing's band is not predicted before its rows mount.
   ['noahead-exchange-1440', 'camera-continuity.spec.ts', '1440px camera continuity.*an exchange lands on a new current node',
-    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),f=!0)', '!1&&(a=this._predictBottom(e.ahead),f=!0)']], 'ZERO overlap exchange @'],
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),m=!0)', '!1&&(a=this._predictBottom(e.ahead),m=!0)']], 'ZERO overlap exchange @'],
   ['noahead-exchange-390', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node',
-    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),f=!0)', '!1&&(a=this._predictBottom(e.ahead),f=!0)']], 'ZERO overlap exchange @'],
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),m=!0)', '!1&&(a=this._predictBottom(e.ahead),m=!0)']], 'ZERO overlap exchange @'],
   // U16 b (owner, 2026-10-24): retain band shrink/revert and the usual account/card spacing.
   // RETIRED: d370-account-keeps-reserve and d370-card-spacing-kept guarded the retired no-scroll fit.
   // d370-band-186-in-catch retains its mutation, now killed directly at the band claim.
@@ -120,15 +120,15 @@ const controls = [
   // D-355: the band's soft hold engages only for a flight that reaches its lower edge (a URL arrival), never for one
   // inside the band (a hover's re-aim), and it is what keeps the arrival clear of the Moves row.
   ['d355-flight-lift-ungated', 'dual-pair.spec.ts', 'hovering any pair names it once',
-    [['active:!m.band||!!(y!=null&&y.band)', 'active:!0']], 'and the role moved below it'],
+    [['active:!f.band||!!(y!=null&&y.band)', 'active:!0']], 'and the role moved below it'],
   ['d355-flight-lift-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['(!m.band||y)&&(c.lift=', '!m.band&&(c.lift=']], 'URL arrival @'],
+    [['(!f.band||y)&&(c.lift=', '!f.band&&(c.lift=']], 'URL arrival @'],
   // ORCH-382 / H140-H144: the old 30px gate engages after contact; activating the subject only
   // when its gate opens starts the spring too late. Both fail the unchanged ZERO-overlap pin.
   ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['y.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+x+bt>m.bottom', 'y.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
+    [['y.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+x+bt>f.bottom', 'y.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>f.bottom']], 'ZERO overlap URL arrival @'],
   ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['(!m.band||y)&&(c.lift=', '(!m.band||y!=null&&y.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
+    [['(!f.band||y)&&(c.lift=', '(!f.band||y!=null&&y.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
   // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
   // its transition-end reveal reproduces the card extending below the Learning pane at 1440px.
   ['concept-fit-reveal-lost', 'concepts-surface.spec.ts', 'principle film study.*1440px',
