@@ -345,7 +345,8 @@ paging gesture acts on them, letters a/b/c included, and no clock runs. The ✕ 
 Questions layer's handle. Answer for Points (Tab + Enter too), or a tap on the question, calls
 `_landReveal`: the card opens in place as today's card (multiple choice, or the recall flashcard)
 for the rest of that landing; paging and backfill keep it shown, each card keeps its own window.
-After one take-up, later landings show the full card directly (`NG_LAND_ASK_MEMORY`, "session":
+A take-up moves nothing above the card: the line keeps the deck's step (only its width differs) and the
+reader lays out at once, so the answers paint first at their final rect (D-351). After one take-up, later landings show the full card directly (`NG_LAND_ASK_MEMORY`, "session":
 this browser tab), and a landing rendered while the pane is open (Study, Challenges, Last rolls,
 Explore) is always the full card. Study keeps its own arrows: ↑/↓ the node (lesson, roll,
 technique), ←/→ the card. In a roll the take-up starts the question clock; a reading (URL) arrival
