@@ -110,13 +110,17 @@ for (const width of [1440, 390]) {
   })
 }
 
-// A real 99-character question (Twister Control, Top, card 1), not injected text.
+// A real 99-character question (Twister Control, Top, card 1), not injected text. Questions are
+// capped at 100 characters, so none needs a third line on a desktop card: there the visible cut
+// cannot tell a clamp from none, and the claim reads the computed clamp the render emitted.
+// (u47-desktop-clamped survived the visible-cut form of this claim; it is killed by this one.)
 for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 }]) {
   test(`@curated U47 d a long question is cut to two lines on a phone and shown whole on desktop (${viewport.width}x${viewport.height})`, async ({ page }) => {
     const measure = () => page.evaluate(() => {
       const el = (window as any).__neural._landEl, q = el.querySelector('[data-land-q]').firstElementChild
       const line = parseFloat(getComputedStyle(q).lineHeight), go = el.querySelector('[data-land-ask-go]')
       return { text: q.textContent, lines: Math.round(q.clientHeight / line), cut: q.scrollHeight > q.clientHeight + 1,
+        clamp: getComputedStyle(q).getPropertyValue('-webkit-line-clamp'),
         full: Math.round(q.scrollHeight / line), goBelow: go ? go.getBoundingClientRect().top >= q.getBoundingClientRect().bottom - 1 : null,
         goHeight: go ? go.getBoundingClientRect().height : null }
     })
@@ -130,8 +134,8 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 
     expect(asking.goHeight).toBeGreaterThanOrEqual(44)
     if (viewport.width <= 640) {
       expect(asking.full, 'premise: this question needs more than two phone lines').toBeGreaterThan(2)
-      expect(asking, 'U47 d: a long question is cut to two lines on a phone').toMatchObject({ lines: 2, cut: true })
-    } else expect(asking, 'desktop shows the whole question and still offers Answer for Points').toMatchObject({ cut: false })
+      expect(asking, 'U47 d: a long question is cut to two lines on a phone').toMatchObject({ lines: 2, cut: true, clamp: '2' })
+    } else expect(asking, 'desktop shows the whole question and still offers Answer for Points').toMatchObject({ cut: false, clamp: 'none' })
     await j.openQuestion()
     expect(await measure(), 'the shown card carries the whole question').toMatchObject({ text: asking.text, cut: false, goBelow: null })
   })
