@@ -45,7 +45,7 @@ const controls = [
     [['this._refPage||this._staged!=null||this.startRoll()', 'this._refPage||this.startRoll()']], 'the other read role must be a reachable drawn canvas half'],
   // D-338: a saved Focus is read again by the layer seam (its reading* overrides hide the card).
   ['d338-saved-focus-layer-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$',
-    [['let t=ft[e];return!t||this.get(t,!0)!==!1', 'let t=ft[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
+    [['let t=gt[e];return!t||this.get(t,!0)!==!1', 'let t=gt[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
     'a saved Focus no longer hides the question'],
   // The follow-cam lifts the node against the reading band's edge again (two rest framings).
   ['reading-band-lift-restored', 'pane-layout.spec.ts', '1440px pane moves film, card, article',
@@ -117,7 +117,7 @@ const controls = [
   // ORCH-382 / H140-H144: the old 30px gate engages after contact; activating the subject only
   // when its gate opens starts the spring too late. Both fail the unchanged ZERO-overlap pin.
   ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['u.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+g+gt>d.bottom', 'u.band=(this.H||800)/2+(this.pairMid(h).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>d.bottom']], 'ZERO overlap URL arrival @'],
+    [['u.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+g+mt>d.bottom', 'u.band=(this.H||800)/2+(this.pairMid(h).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>d.bottom']], 'ZERO overlap URL arrival @'],
   ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
     [['(!d.band||u)&&(a.lift=', '(!d.band||u!=null&&u.band)&&(a.lift=']], 'ZERO overlap URL arrival @'],
   // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
@@ -127,7 +127,7 @@ const controls = [
   // U47 d (owner, 2026-10-27): a landing asks with its question alone; "Answer for Points", or a tap on the
   // question, shows today's card for the rest of the landing. Each control dies at one covered-card claim.
   ['u47-arrives-shown', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
-    [['i||(this._landAsk=!0,this._landPage=null', 'i||(this._landAsk=!1,this._landPage=null']], 'U47 d: on landing only the question (and its ✕) shows; the card waits'],
+    [['i||(this._landAsk=!this.deckShown&&!this._landOptedIn(),this._landPage=null', 'i||(this._landAsk=!1,this._landPage=null']], 'U47 d: on landing only the question (and its ✕) shows; the card waits'],
   ['u47-asking-clock-runs', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['_clockGate(){return!this._landAsk&&', '_clockGate(){return ']], 'an arriving question has no running clock'],
   ['u47-asking-pages', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
@@ -139,14 +139,18 @@ const controls = [
     [['this._landPage=n,this._armPagedLandClock(),this._readStop()', 'this._landPage=n,this._landAsk=!0,this._armPagedLandClock(),this._readStop()']], 'the shown card stays shown across paging, with its own window'],
   ['u47-question-tap-dead', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
     [['u.addEventListener("click",()=>this._landReveal());', '']], 'a tap on the question shows the card'],
-  ['u47-phone-clamp-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844', [],
-    'U47 d: a long question is cut to two lines on a phone', [['-webkit-line-clamp:2;', '']]],
-  ['u47-desktop-clamped', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900', [],
-    'desktop shows the whole question and still offers Answer for Points', [['@media(max-width:640px){[data-land-ask] [data-land-q]>div:first-child{', '@media(min-width:1px){[data-land-ask] [data-land-q]>div:first-child{']]],
+  // U52 b: the phone's two-line cut is _fitAskLine's (the CSS clamp is gone). Its desktop twin, trimming on a
+  // desktop too, is a recorded NON-KILL (covered-card.spec.ts's header): no real question needs a third line there.
+  ['u47-phone-trim-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844',
+    [['if(t.textContent=s,!this.isMobile())return;', 'if(t.textContent=s,!0)return;']], 'U47 d: a long question is cut to two lines on a phone'],
   ['u47-desktop-offer-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900',
-    [['d.appendChild(b)}if(d.appendChild(f)', 'this.isMobile()&&d.appendChild(b)}if(d.appendChild(f)']], "Answer for Points sits on the question's line, at its right"],
-  ['u47-reveal-keeps-asking-face', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844',
-    [['this._landTakenAt=performance.now(),e.removeAttribute("data-land-ask");', 'this._landTakenAt=performance.now();']], 'the shown card carries the whole question'],
+    [['u.append(x," ",w),u.addEventListener("click",()=>this._landReveal())', 'u.append(x," ",...this.isMobile()?[w]:[]),u.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
+  ['u47-reveal-keeps-asking-face', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
+    [['this._landTakenAt=performance.now(),this._landOptIn(),e.removeAttribute("data-land-ask");', 'this._landTakenAt=performance.now(),this._landOptIn();']], "Answer for Points shows today's card, with no reveal control inside it"],
+  // U52 b: the take-up lays the reader out at once (the card leaves the quiet line's width); deferred, the first
+  // queued layout moves the answers that already painted.
+  ['u52b-take-up-layout-deferred', 'reading-navigation.spec.ts', 'the first queued reader layout cannot move a published answer',
+    [['this._updateLandDeck(),(o=this._reader)==null||o.layoutNow(),this._dockLandCard(e)', 'this._updateLandDeck(),this._dockLandCard(e)']], 'the first queued layout moves no published answer'],
   ['u47-asking-answers-laid-out', 'covered-card.spec.ts', 'U35 D-433.*1440x900', [],
     'U47 d the asking card collapses its answer block', [['[data-land-ask] [data-land-count],[data-land-ask] [data-land-q]>[inert]{display:none!important}', '[data-land-ask] [data-land-count]{display:none!important}']]],
   ['u47-reveal-scroll-writer', 'covered-card.spec.ts', 'U35 D-433.*390x844',

@@ -14298,6 +14298,10 @@ class Component extends DCLogic {
       this._armPagedLandClock();
     }
     this._updateLandDeck();
+    // The card leaves the quiet line's width for the deck's: lay the reader out now, so the answers' first
+    // painted frame is their final rect (D-351). A press never defers it here: pointerup clears _readerPress
+    // before the click that takes the question up.
+    this._reader?.layoutNow();
     this._dockLandCard(el);
     block.querySelector("button")?.focus({ preventScroll: true });
   }

@@ -283,8 +283,8 @@ test("the film row rides the game card", async ({ page }) => {
   expect(film!.clips, "with the authored clip").toBeGreaterThan(0)
   expect(film!.shared, "one media host shares the scrollport with practice").toBe(true)
   // STALE CONTRACT (D-368, layout C, reversing D-338): Moves lead, and the current card is the stage after them,
-  // beside the question where the width holds it, otherwise above it.
-  expect(["side-by-side", "stacked"], "the current card is the stage: beside the question or stacked above it").toContain(film!.layout)
+  // beside the question where the width holds it, otherwise above it. U52 b: stacked, it follows the question.
+  expect(["side-by-side", "stacked"], "the current card is the stage: beside the question or stacked after it").toContain(film!.layout)
   expect(film!.belowMoves, "Moves lead the flow, above the stage").toBe(true)
 })
 

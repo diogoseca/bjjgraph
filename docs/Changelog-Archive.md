@@ -12769,8 +12769,8 @@ funnel's `question_ignored` mark for the most likely first-visit behaviour, comm
 past the question. `coldstart-funnel.spec.ts` (never run by the branch, which gated on @curated
 only) went red on exactly that. The one deliberate difference from dev: `_declineLandQ("reading")`
 does not decline an asking question during a reading gesture, because a phone scrolls the reader
-to reach the question at all. The phone's ordinary layout C (Moves, Videos, then the question) is unchanged,
-so at 390×844 the asking question starts below the reader's fold exactly as dev's card does.
+to reach the question at all. The phone's ordinary layout C (Moves, Videos, then the question) was unchanged at
+first, so at 390×844 the asking question started below the reader's fold as dev's card does (U52 b, below, moved it).
 
 **Review fixes (APTS533, 28 October).** An independent review of PR #319 blocked it with reproduced
 findings, all fixed in the same PR. (1) A double tap on Answer for Points answered: the answers appear
@@ -12802,8 +12802,21 @@ the question with an ellipsis so question and link fit two lines: at 390x631 (th
 arrival. After one take-up the session shows full cards (`NG_LAND_ASK_MEMORY = "session"`, sessionStorage), and
 a landing rendered with the pane open is always full. Study keeps the app's own arrows, verified in the key
 handler: ↑/↓ the node (Challenges lessons, Last rolls rolls, a session's or the drill's techniques), ←/→ the card.
-Contrast over the map, sampled with the text transparent and its shadow kept: question 13.4-14.1:1 against the
-median background and 8.3-13.1:1 against the brightest 5%; link 8.2-9.1:1 median, 8.1-8.2:1 brightest 5% except
-the long question at 1440 (3.5:1 over a bright map spot). Three subtle looks (quiet line, pill, ghost card) were
+Contrast over the map, sampled with the text transparent and its shadow kept: the link inherited the question's
+shadow and measured 3.5:1 against the brightest 5% of a lit map label behind the long question at 1440, so it now
+carries its own denser shadow (still no box, fill or border). Across the five sampled frames (390x844, 390x631 and
+1440x900 short; 390x844 and 1440x900 long) the question measures min 13.9 / median 14.0:1 against the median
+background and min 9.4 / median 12.5:1 against the brightest 5%; the link min 9.8 / median 10.1:1 and min 6.2 /
+median 9.1:1 (it was 3.5). Every sampled pixel, the brightest included, is at least 4.2:1. Three subtle looks (quiet line, pill, ghost card) were
 started for U52 b's first note and dropped unbuilt-to-screens when the fuller note arrived.
+
+The first build gave the asking line the parts' small step (8px phone, 12px desktop) as well as the column's width.
+The stacked-order sweep caught what that costs: at take-up the step went back to the deck's 16px, so Moves and the
+question moved 4px each, and D-351's "the answer appears once, at its final rect" read 8px in a 1440 catch; with
+the line nearer Moves, the phone execution camera also found no free slot at 190px of reader scroll (roll-execution's
+D-370 sweep at 390x844 and 390x631, `noFit` +174, the pair painted over the prose). The
+step now stays the deck's through take-up (only the width differs: the line has no outside arrows to clear), and
+`_landReveal` lays the reader out synchronously, so the answers' first painted frame is final. The card's own entry
+fade (`ngCardInX`; in the reader its transform is pinned to none) now runs when the card is taken up, since the
+quiet line itself has none.
 

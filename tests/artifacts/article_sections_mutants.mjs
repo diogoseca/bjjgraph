@@ -165,7 +165,7 @@ const mutants = [
   ['native-game-focus-lost', 'pane-keyboard.spec.ts', 'recall page mounted under the pane', s => replace(s, '{ class: "ng-reader-game", tabindex: "-1" }', '{ class: "ng-reader-game" }')],
   ['reduced-motion-flash-lost', 'outcome-on-cards.spec.ts', 'reduced motion.*1440', s => s, css => replace(css, '.ng-reader,.ng-reader-article *', '.ng-reader,.ng-reader *')],
   ['entry-centering-lost', 'coldstart-backfill.spec.ts', 'landing card stays centred', s => replace(s, 'if (el !== row) style(el, "transform", "none", "important");', 'if (el !== row) style(el, "transform", "translateX(-50%)", "important");')],
-  ['pane-card-overflow', 'layer-dock-centre.spec.ts', '800px with the pane open', s => replace(s, 'free.width - (deck && !beside ? 104 : 32)', 'W - (deck && !beside ? 104 : 32)')],
+  ['pane-card-overflow', 'layer-dock-centre.spec.ts', '800px with the pane open', s => replace(s, 'free.width - (arrows && !beside ? 104 : 32)', 'W - (arrows && !beside ? 104 : 32)')],
   // D-338: with the article shown the film's home is its Videos section's slot ([data-reader-media]).
   // RETIRED (v1.230.0, feat/video-cards): media-inset-lost removed the film strip's side padding, which the current
   // card no longer has (padding 0, no fades: choice-value.css .ng-current-card); film-row-arrows retires those ratios.
@@ -217,6 +217,15 @@ const mutants = [
   // Band lifetime is now controlled directly in the app runner, not through the CSS marker.
   ['d433-question-first-lost-844', 'covered-card.spec.ts', 'U35 D-433.*390x844', phoneQuestionFirstLost],
   ['d433-question-first-lost-631', 'covered-card.spec.ts', 'U35 D-433.*390x631', phoneQuestionFirstLost],
+  // U47 d review (6) + U52 b: the reader pays 3px per deck back before what follows a shown deck (the current card
+  // stacked, else the article's 6px token); unpaid, the next part starts on the backs.
+  // U52 b: the asking line keeps the deck's step, so a take-up moves nothing above its answers (D-351); a smaller
+  // asking step shows as the article's chrome-frame card gap.
+  ['u52b-asking-small-step', sections, 'optional chrome frame preserves the node band',
+    s => replace(s, 'const deck = !!card?.classList.contains("ng-land-deck");', 'const deck = !!card?.classList.contains("ng-land-deck") && !card.hasAttribute("data-land-ask");')],
+  ['u47-backs-unpaid', 'landcard-deck.spec.ts', '390px: the deck face keeps its 1.5x foot',
+    s => replace(s, 'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);',
+      'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight);')],
   // U14 b (owner, 2026-10-24): asymmetric side reserves shift the words; missing rules lose the divider.
   ['u14-divider-off-centre', 'section-divider.spec.ts', '1440px divider titles', s => s,
     css => css + '.ng-section-card>h2{padding-left:52px}'],

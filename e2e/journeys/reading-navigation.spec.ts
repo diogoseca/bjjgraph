@@ -151,7 +151,9 @@ test('@curated the first queued reader layout cannot move a published answer bef
   }
   await j.tapGuardSettled() // the double-tap guard; reader.layout is held, so no queued layout runs meanwhile
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
-  expect(await page.evaluate(() => (window as any).__answerPublication)).toEqual({ dx: 0, dy: 0, same: true })
+  // U52 b: the take-up itself lays the reader out (the shown card leaves the quiet line's width), so a layout
+  // queued before it moves nothing.
+  expect(await page.evaluate(() => (window as any).__answerPublication), 'the first queued layout moves no published answer').toEqual({ dx: 0, dy: 0, same: true })
   const before = await page.evaluate(() => {
     const w = window as any, a = w.__neural
     w.__answeredReaderQuestion = document.querySelector('[data-land-q]')

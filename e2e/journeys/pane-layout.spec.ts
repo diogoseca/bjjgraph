@@ -76,6 +76,7 @@ const geometry = (page: Page) => page.evaluate(() => {
     node: { id: n.id, x: a.W / 2 + (mid.x - a.cam.cx) * scale, y: a.H / 2 + (mid.y - a.cam.cy) * scale },
     zoom: a.cam.vw, paused: !!a.paused, read: a._readerEl?.scrollTop || 0, open: !!a._reader?.interacting,
     selected: a._landPage, answers: a._landAnswers ? Array.from(a._landAnswers.keys()) : [],
+    backs: a._landStackEl?.childElementCount ?? 0,
   }
 })
 
@@ -94,6 +95,8 @@ for (const width of [1440, 1024]) {
     // STALE CONTRACT (D-368, layout C): the A geometry is back as the stage under Moves: the current card
     // sits beside the question (400 + 60 + 390), and where the pane leaves less than that it stacks above
     // it. So the A-era claims return (the film's 400px and the stacked reflow), with Moves above the stage.
+    // STALE CONTRACT (D-368's stacked order): U52 b puts the question straight after Moves, so a stacked
+    // reflow keeps the question under Moves and the current card follows the question's backs.
     const shift = open.card.x - before.card.x, reflow = open.layout !== before.layout
     expect(before.layout, 'the closed pane leaves room for the card beside the question').toBe('side-by-side')
     if (!reflow) expect(shift).toBeGreaterThan(80)
@@ -111,8 +114,8 @@ for (const width of [1440, 1024]) {
       expect(open.layout).toBe('stacked')
       expect(open.film.width).toBe(400)
       expect(open.card.width).toBe(Math.min(560, width - open.pane.width - 104))
-      expect(open.film.y - open.hand.bottom, 'the stage follows Moves at the deck gap').toBeCloseTo(16, 0)
-      expect(open.card.y - open.film.bottom, 'the question follows the card at 12px').toBeCloseTo(12, 0)
+      expect(open.card.y - open.hand.bottom, 'the question follows Moves at the deck gap').toBeCloseTo(16, 0)
+      expect(open.film.y - (open.card.bottom + 3 * open.backs), "the current card follows the question's backs at the deck gap").toBeCloseTo(16, 0)
     }
     expect(open.more.center - before.more.center).toBeCloseTo(open.pane.width / 2, -1)
     expect(open.more.right).toBeLessThanOrEqual(width)
@@ -174,7 +177,8 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   await settle(page, j)
   await openPane(page, j)
   // D-368 (layout C): at 1024 the open pane leaves too little width for the card beside the question, so the
-  // stage stacks it above and the question moves down; a reader scrolls to it again.
+  // stage stacks. U52 b: the question stays straight after Moves and the current card follows it; a reader
+  // still scrolls to the question again, which is a no-op when it is already in view.
   await page.locator("[data-landcard]").evaluate(e => e.scrollIntoView({ block: "nearest" }))
   await settle(page, j)
   const keyed = await geometry(page)
@@ -196,6 +200,9 @@ test("@curated exposed cards, videos and reading take real mouse input while the
 
   // STALE SPEC (v1.230.0, feat/video-cards): the current card shows one full video and a 10% peek of the
   // next, so the exposed thumbnail is the first; the peek's centre sits off screen beside the pane.
+  // U52 b: stacked, the current card follows the question, so a reader scrolls to it, as to the question above.
+  await page.locator('[data-land-film] .ng-clip[data-i="0"]').evaluate(e => e.scrollIntoView({ block: "nearest" }))
+  await settle(page, j)
   await j.clickByMouse('[data-land-film] .ng-clip[data-i="0"]', "an exposed video thumbnail")
   await expect(page.locator("[data-land-film] .ngPlayerHost")).toBeVisible()
   await page.waitForTimeout(450)
@@ -263,10 +270,11 @@ test("@curated resizing an open pane preserves the card through the stacked land
   expect(landscape.card.visible).toBe(true)
   // STALE CONTRACT (D-338): the landscape flow reads Videos, Moves, Questions (no stacked film home).
   // STALE CONTRACT (D-368, layout C): a short landscape has no room beside the question, so the stage stacks:
-  // Moves, then the current card, then the question at 12px.
+  // Moves, then the current card, then the question at 12px. STALE CONTRACT (that stacked order): U52 b puts
+  // the question straight after Moves, and the current card follows the question's backs at the deck gap.
   expect(landscape.layout).toBe('stacked')
   expect(landscape.film.y, "the stage follows Moves").toBeGreaterThanOrEqual(landscape.hand.bottom)
-  expect(landscape.card.y - landscape.film.bottom, "the question follows the card at 12px").toBeCloseTo(12, 0)
+  expect(landscape.film.y - (landscape.card.bottom + 3 * landscape.backs), "the current card follows the question's backs at the deck gap").toBeCloseTo(16, 0)
   expect(landscape.film.right, "the composition stays within the viewport").toBeLessThanOrEqual(844)
   await closePane(page, j)
   const closed = await geometry(page)

@@ -70,7 +70,9 @@ const paintedClearance = (page: Page, idx: number) => page.evaluate(idx => {
     if (!r.width || !r.height || cs.display === 'none' || cs.visibility === 'hidden' || cs.opacity === '0') return [];
     const clip = a._reader.root.contains(el) ? a._reader.root.getBoundingClientRect() : { top: 0, bottom: a.H };
     const box = { left: r.left, right: r.right, top: Math.max(0, r.top, clip.top), bottom: Math.min(a.H, r.bottom, clip.bottom) };
-    return box.bottom > box.top ? [{ surface: el.className, ...box }] : [];
+    // A surface with no class is named by its tag and data attributes, so a failure says WHICH surface.
+    const name = (typeof el.className === 'string' && el.className) || el.tagName + [...el.attributes].filter((x: any) => x.name.startsWith('data-')).map((x: any) => '[' + x.name + ']').join('')
+    return box.bottom > box.top ? [{ surface: name, ...box }] : [];
   });
   const intersections = occupied.flatMap((r: any) => [...labels, ...orbs].filter((p: any) => p.left < r.right && p.right > r.left && p.top < r.bottom && p.bottom > r.top).map((paint: any) => ({ surface: r, paint })));
   return { name: a.graphName(n), labels, orbs, occupied, intersections };

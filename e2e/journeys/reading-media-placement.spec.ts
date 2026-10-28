@@ -352,7 +352,8 @@ test('@curated same-seat hydration retains the host; a role change retires it', 
 // stacked sizes and "until videos lands, the host rect supplies identical geometry".
 // STALE CONTRACT (D-368, layout C): nothing is lifted; Moves lead and the current card sits in the game's
 // stage, beside the question on a desktop (top-aligned, 60px gap) and above it on a phone (12px gap). The
-// kept claims are unchanged; the video cards' A journey pins the stage's sizes.
+// kept claims are unchanged; the video cards' A journey pins the stage's sizes. STALE CONTRACT (D-368's
+// phone order): U52 b puts the question straight after Moves, and the current card follows its backs.
 for (const width of [1366, 390]) {
   test(`@curated ${width}px the current card sits in the game's stage without fixed overlap or resize loops`, async ({ page }) => {
     const errors: string[] = []
@@ -391,7 +392,8 @@ for (const width of [1366, 390]) {
         together: r.mediaHome.parentElement === r.game && card.parentElement === r.game && row.parentElement === r.game,
         layout: r.game.getAttribute('data-media-layout'), overlap: meet(m, c) || meet(m, h),
         media: { x: m.x, w: m.width, h: m.height, top: m.top, bottom: m.bottom }, card: { x: c.x, y: c.y, bottom: c.bottom }, hand: { top: h.top, bottom: h.bottom },
-        gap: card.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12, position: getComputedStyle(a._landFilmEl).position }
+        gap: card.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
+        backs: 3 * (a._landStackEl?.childElementCount || 0), position: getComputedStyle(a._landFilmEl).position }
     })
     const g = await geometry()
     expect(g).toMatchObject({ same: true, hosts: 1, home: true, lifted: false, together: true, overlap: false, layout: width > 640 ? 'side-by-side' : 'stacked', position: 'relative' })
@@ -401,8 +403,8 @@ for (const width of [1366, 390]) {
       expect(g.media.top, 'the current card is top-aligned with the question').toBeCloseTo(g.card.y, 1)
       expect(g.card.x - g.media.x - g.media.w, 'beside it at the 60px gap').toBeCloseTo(60, 1)
     } else {
-      expect(g.media.top - g.hand.bottom, 'the current card follows Moves at one gap').toBeCloseTo(g.gap, 1)
-      expect(g.card.y - g.media.bottom, 'the question follows the card at 12px').toBeCloseTo(12, 1)
+      expect(g.card.y - g.hand.bottom, 'the question follows Moves at one gap').toBeCloseTo(g.gap, 1)
+      expect(g.media.top - g.card.bottom - g.backs, 'the current card follows the question (and its backs) at one gap').toBeCloseTo(g.gap, 1)
     }
     await page.evaluate(async () => { await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame) })
     const churn = await page.evaluate(async () => {

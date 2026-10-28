@@ -104,9 +104,9 @@ for (const width of [1440, 390]) {
     await j.boot('/', { seedRolls: coveredRolls })
     await j.land('Mount Top')
     const question = '.ng-landcard[data-land-ask] [data-land-ask-text]'
-    // A reading gesture first — a real wheel over the article, as a phone scrolls the reader to
-    // reach the question (layout C puts Moves and Videos above it). Reading declines a LIVE
-    // question; it must not decline one that is still asking.
+    // A reading gesture first — a real wheel over the article, as a reader scrolls past or back to
+    // the question (U52 b puts it straight after Moves, but a long Moves row or a short phone can
+    // still push it down). Reading declines a LIVE question; it must not decline one still asking.
     const at = await page.evaluate(() => {
       const a = (window as any).__neural, r = a._reader.root.getBoundingClientRect(), art = a._reader.articleEl.getBoundingClientRect()
       return { x: r.left + r.width / 2, y: Math.round(Math.min(r.bottom - 24, Math.max(art.top + 24, r.top + 24))) }
@@ -118,7 +118,20 @@ for (const width of [1440, 390]) {
     expect((await j.beats()).map(b => b.beat), 'U47 d: scrolling to an asking question does not decline it').not.toContain('land_q_declined')
     await page.locator(question).scrollIntoViewIfNeeded()
     await j.readerLayoutSettled()
-    await j.clickByMouse(question, 'tap the asking question')
+    // U52 b: the link runs inline at the end of the question and its padding gives it a 44px target, which
+    // reaches over the line above it; on a two-line question the span's centre is under that target. Tap
+    // the question's own words instead: a measured point on its first line, refused unless it hits them.
+    const words = await page.evaluate((sel) => {
+      const t = document.querySelector(sel)!, seen: string[] = []
+      for (const r of [...t.getClientRects()].filter(r => r.width > 8 && r.height > 4)) for (const fx of [.1, .3, .5]) {
+        const x = r.left + r.width * fx, y = r.top + r.height / 2, at = document.elementFromPoint(x, y)
+        if (at && t.contains(at)) return { x, y, hit: true, seen }
+        seen.push(at ? at.tagName + '.' + String(at.className).slice(0, 24) + [...at.attributes].filter(a => a.name.startsWith('data-')).map(a => '[' + a.name + ']').join('') : 'nothing')
+      }
+      return { x: 0, y: 0, hit: false, seen }
+    }, question)
+    expect(words, 'the question\'s own words are hit-testable where they sit').toMatchObject({ hit: true })
+    await page.mouse.click(words.x, words.y)
     expect(await face(page), 'a tap on the question shows the card').toMatchObject({ asking: false, go: 0, answers: 3, inert: false })
     expect((await state(page)).remaining, 'the question taken up after a scroll starts its clock').toBeGreaterThan(0)
   })

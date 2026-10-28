@@ -1053,8 +1053,11 @@ class Reader {
       const band = this.nodeBand?.height || 0;
       if (reference) { this.restoreGame(); this.syncIndex(); return; }
       const card = a._landEl, row = a.optionsRef.current, showCard = card && this.on("card"), showHand = row && a._handShown();
-      // U52 b: an asking question is a quiet line, not a deck: the column's width and the parts' small step.
-      const deck = !!card?.classList.contains("ng-land-deck") && !card.hasAttribute("data-land-ask");
+      const deck = !!card?.classList.contains("ng-land-deck");
+      // U52 b: an asking question is a quiet line with no outside arrows to clear, so it takes the column's width.
+      // Its step stays the deck's: taking it up must move nothing above its answers (D-351, the answer appears
+      // once at its final rect; a smaller asking step moved Moves and the answers 8px at 1440).
+      const arrows = deck && !card.hasAttribute("data-land-ask");
       // D-351: _readerHold keeps a landing's card and hand unpublished until the article it asked
       // for renders (800ms at most). Parts the ceiling publishes are pinned (_readerPin), and the
       // Videos lift and the film's move wait until they settle: a late article used to move live
@@ -1127,7 +1130,7 @@ class Reader {
       const beside = homeMedia && showCard && free.width >= 400 + 60 + 390 + 52 && H > 500;
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (this.game.dataset.mediaLayout !== mediaLayout) this.game.dataset.mediaLayout = mediaLayout;
-      if (card) style(card, "width", Math.min(beside ? 390 : deck ? 560 : 520, free.width - (deck && !beside ? 104 : 32)), "important");
+      if (card) style(card, "width", Math.min(beside ? 390 : arrows ? 560 : 520, free.width - (arrows && !beside ? 104 : 32)), "important");
       const mediaWidth = Math.min(400, free.width - 32), cardWidth = card?.getBoundingClientRect().width || 0;
       style(this.mediaHome, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
