@@ -254,6 +254,21 @@ const mutants = [
       'return nodeBand ? { ...target, cy: target.cy - Math.min(Math.max(0, nodeBand.top - box.top), nodeBand.bottom - box.bottom) / scale } : target;', 'return target;')],
   // D-354 N2 (Delta 8): reopening Videos is the player's own input and settles the pin.
   ['d354-reopen-keeps-pin', 'defending-landing.spec.ts', 'D-354 N2: reopening Videos while pinned', s => replace(s, '    if (shown && type === "videos") this.app._readerGraded();\n', '')],
+  // U55 b (owner, 2026-10-28): the desktop dashboard. Each control breaks one claim of article-dashboard.spec.ts,
+  // which serves real content. "No tile is capped": the owner-rejected mock's cap and fade, rows counted short of
+  // the content, and a first heading's collapsed top margin left uncounted (the Related tile clipped by ~19px).
+  ['u55-tile-capped', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => s,
+    css => css + '\n[data-reader-body]>*{max-height:520px;overflow:hidden;mask-image:linear-gradient(#000 82%,transparent)}\n'],
+  ['u55-rows-short', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => replace(s, '"--rows", "" + Math.ceil(h / 4)', '"--rows", "" + Math.ceil(h / 5)')],
+  ['u55-margin-uncounted', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => s,
+    css => replace(css, 'var(--reader-unit) var(--reader-unit);display:flow-root}', 'var(--reader-unit) var(--reader-unit)}')],
+  // "A section tile click does nothing": a click on the tile (not on its links or controls) toggles it.
+  ['u55-tile-click-toggles', 'article-dashboard.spec.ts', 'a click on a section tile does nothing', s => replace(s, '      this.resize.observe(content);\n',
+    '      this.resize.observe(content);\n      card.addEventListener("click", e => e.target.closest("button,a") || toggle.click());\n')],
+  // "The node band stays clear": the article pulled up over the game stage to use the space above it.
+  ['u55-band-covered', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => replace(s, 'style(this.articleEl, "margin-top", 6);', 'style(this.articleEl, "margin-top", 6 - gameHeight);')],
+  // "Uses the width": the grid keeps today's centred column instead of starting at the index's clearance.
+  ['u55-width-unused', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard', s => replace(s, 'if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");', '')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
 const STALL_CLAIMS = new Set([])

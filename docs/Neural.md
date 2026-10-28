@@ -82,6 +82,14 @@ principles, setup/recognition, options, safety, mistakes, the rest, Related; 6px
 last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
 shared hub safety. Failed loads offer Retry.
 
+**The desktop dashboard (U55 b).** Where the index shows (from 1152px), the sections run from its 12px
+clearance to a 24px right margin as a bento grid: Videos and any section over ~2,000 characters take two of
+three lanes (all of two below a 1,100px grid), the rest one. `layoutNow` measures each open card's title and
+body and spans it over 4px rows plus the token gap, so no tile is capped, faded or stretched, and dense flow
+lifts a later tile into the hole beside a wide one; the index carries the reading order. A click on a tile
+does nothing. The node band, Moves and the question keep their places; at 640px and under nothing changes.
+`article-dashboard.spec.ts` serves real content and pins it.
+
 One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. A closed
 part leaves a light label (glyph above name, no box) that reopens it. Contents floats at the right-control inset, taking no layout
 space. It hides at width ≤640px, height ≤500px, or a gutter below 212px (below

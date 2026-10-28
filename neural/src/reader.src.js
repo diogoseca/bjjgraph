@@ -302,6 +302,8 @@ class Reader {
     this.root.dataset.readerReady = "false";
     if (this.contents) this.contents.hidden = true;
     this.place(this.mediaHome);
+    // U55 b: splitSections observes each card's content; the observer must not keep a left article alive.
+    for (const s of this.sections) this.resize.unobserve(s.body);
     this.sections = []; this.mediaSlot = null;
     this.articleEl.replaceChildren(...(this.head.parentElement === this.articleEl ? [this.head] : []), element("p", { role: "status" }, "Loading the complete article…"));
     this.sync();
@@ -559,7 +561,9 @@ class Reader {
         fragment.append(part.node); content.append(fragment);
       }
       card.setAttribute("aria-labelledby", heading.id); card.append(heading, content); body.append(card);
-      this.sections.push({ ...group, id, card, body: content, toggle });
+      // U55 b: a card's rows follow its content, which late fonts and images change; the observer lays out.
+      this.resize.observe(content);
+      this.sections.push({ ...group, id, card, body: content, toggle, big: group.type == "videos" || content.textContent.length > 2e3 });
     });
   }
   // D-338 (owner): Video, Moves, Questions, then the article in its own order.
@@ -619,16 +623,8 @@ class Reader {
       });
     }
     focus?.focus({ preventScroll: true });
-    // Adjacent pairs only: never dense-fill or change the reading order. Wide prose stays full.
-    const full = /^(videos|overview|options|outcomes|favorable-outcomes|role-comparison|sources)$/;
-    let remaining = 0;
-    for (let i = 0; i < open.length; i++) {
-      const s = open[i], next = open[i + 1]?.type;
-      const span = remaining || (next && (/^(options|recognition)$/.test(s.type) && /^(recognition|setup|prerequisites|safety|statistics|progress)$/.test(next) ? 8
-        : s.type === "statistics" && next === "related" ? 4 : !full.test(s.type) && !full.test(next) ? 6 : 12) || 12);
-      remaining = remaining ? 0 : 12 - span;
-      s.card.style.setProperty("--span", span);
-    }
+    // U55 b: the open cards' spans and rows are layoutNow's (they follow the grid's width); every
+    // sync() ends in a layout through shelf() -> publishCard().
   }
 
   link(event) {
@@ -1052,14 +1048,27 @@ class Reader {
       // U9 b (owner, 2026-10-21): the index sits on the LEFT, 24px inside the free area (the inset it had on the right).
       const lead = free.left + 24;
       const tocWidth = this.contents ? parseFloat(getComputedStyle(this.contents).width) : 200;
-      const fits = W > 640 && H > 500 && this.articleEl.getBoundingClientRect().left - lead >= tocWidth + 12;
+      const column = this.articleEl.getBoundingClientRect().left, fits = W > 640 && H > 500 && column - lead >= tocWidth + 12;
       // Where the index fits, the Moves tray (which sits beside its rows, D-338) starts 12px past it
       // and stays centred on the column. Decided by the fit, not by readiness, so a loading article
       // never re-centres the hand.
       const indexEdge = available && fits ? lead + tocWidth + 12 : null;
       // Grow only the article's inner grid, leaving the native column, hand and index homes alone.
       // The left index still has its 12px clearance; phone gutters leave the glow visible.
-      style(this.articleEl, "--article-width", Math.max(240, Math.min(902, free.width - 64, fits ? 2 * (free.center - lead - tocWidth - 12) : Infinity)) + "px");
+      // U55 b (owner): where the index fits, the grid starts at its 12px clearance (the Moves row's
+      // left edge) and ends 24px from the right, the index's own inset mirrored; the node band, the
+      // Moves row and the question above it keep their places. Elsewhere it stays centred, as before.
+      const grid = indexEdge ? W - 24 - indexEdge : Math.max(240, Math.min(902, free.width - 64)), wide = grid >= 1100;
+      style(this.articleEl, "--article-width", grid);
+      if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");
+      // U55 b: a big card (the video, long prose) takes two thirds of three lanes, or the whole of two;
+      // the rest take a lane. Spans first, then every card's content plus the token gap under it (its
+      // margin), then the rows: 4px each, measured all before any is written, so it is one layout. The
+      // card stretches over its rows, up to 3px past its content, and every gap stays the token exactly.
+      // reading.css uses the rows and the margin above 640px only; a closed card is not in the grid
+      // (display:none beside the index, moved to Hidden sections without it), so writing it is inert.
+      for (const s of this.sections) style(s.card, "--span", "" + (wide ? 4 : 6) * (s.big ? 2 : 1));
+      for (const [s, h] of this.sections.map(s => [s, s.card.firstChild.offsetHeight + s.body.offsetHeight + parseFloat(getComputedStyle(s.card).marginBottom)])) style(s.card, "--rows", "" + Math.ceil(h / 4));
       if (this.contents) {
         this.contents.hidden = !available || this.root.dataset.readerReady !== "true" || !fits;
         this.root.toggleAttribute("data-indexed", !this.contents.hidden);
