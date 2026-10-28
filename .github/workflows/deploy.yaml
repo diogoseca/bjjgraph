@@ -36,6 +36,7 @@ jobs:
     outputs:
       console: ${{ steps.console.outcome }}
       stamp: ${{ steps.stamp.outcome }}
+      redirects: ${{ steps.redirects.outcome }}
     env:
       POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
       POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
@@ -151,6 +152,14 @@ jobs:
         env:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/apply_affiliate_ref.py
+
+      # Every _redirects rule loads in Cloudflare's parser, and the two layers end every redirect where
+      # the one list would (v1.236.1, RDR546). For months Cloudflare skipped rules #101-#1954: one
+      # wildcard on line 1 made every later rule "dynamic", past its 100-rule cap. The targets gate
+      # above cannot see that; it checks targets, not whether the rule is loaded. Runs after agent
+      # discovery, which writes the _routes.json the fallback layer depends on.
+      - name: Redirects fit Cloudflare's parser (gate)
+        run: python3 scripts/check_redirect_limits.py
 
       # Budget the final emitted bytes, after Forward, discovery export, and referral
       # resolution have added their artifacts, URLs, and media loader.
@@ -312,6 +321,14 @@ jobs:
           { echo '### Deployed console'; echo '```'; cat deployed-console.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
           exit $rc
 
+      # THE REDIRECTS AS THIS DEPLOYMENT SERVES THEM (v1.236.1, RDR546): see deploy-dev.yaml's step of
+      # the same purpose. Like console, the site is already live, so its verdict fails separately in
+      # `deployed-console` and Lighthouse, IndexNow and release still run.
+      - name: Live redirects answer
+        id: redirects
+        continue-on-error: true
+        run: python3 scripts/check_redirect_limits.py --probe "${{ steps.cf.outputs.deployment-url }}"
+
       # Production only: the dev preview uses a pages.dev hostname that the zone setting cannot
       # affect, so this check would always pass there. Like console, its verdict fails separately
       # below so Lighthouse, IndexNow and release can still run after the site is live.
@@ -353,7 +370,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Deployed console and stamp cache header are clean (gate)
+      - name: Deployed console, stamp cache header and live redirects are clean (gate)
         run: |
           if [ "${{ needs.deploy.outputs.console }}" != "success" ]; then
             echo "::error::The deployed console check did not pass (outcome: ${{ needs.deploy.outputs.console }}). Its offenders are in the deploy job's 'Deployed console check' step and summary."
@@ -365,6 +382,11 @@ jobs:
             exit 1
           fi
           echo "live stamp cache header clean"
+          if [ "${{ needs.deploy.outputs.redirects }}" != "success" ]; then
+            echo "::error::The live redirect probe did not pass (outcome: ${{ needs.deploy.outputs.redirects }}). See the deploy job's 'Live redirects answer' step for each probe's status and Location."
+            exit 1
+          fi
+          echo "live redirects answer"
 
   lighthouse-ci:
     needs: deploy

@@ -802,6 +802,8 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
         shutil.copyfile(ROOT / 'scripts' / name, target)
         if name == 'regenerate_redirects.py':
             shutil.copyfile(ROOT / 'scripts/_slug.py', target.with_name('_slug.py'))
+            # v1.236.1: the emitter refuses a file Cloudflare would truncate, using the parser port.
+            shutil.copyfile(ROOT / 'scripts/check_redirect_limits.py', target.with_name('check_redirect_limits.py'))
         return target
 
     def run_script(self, script):
@@ -869,12 +871,14 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
                     '/positions/side-control /Positions/Side-Control 301']
         script = self.copy_script('regenerate_redirects.py')
         result = self.kill_fresh_write_mutants(
-            script, '    OUTPUT.write_text("\\n".join(rules) + "\\n")\n', '_redirects',
+            script, '    OUTPUT.write_text(text)\n', '_redirects',
             lambda actual: self.assertEqual(actual.splitlines(), expected))
         self.assertEqual(result.stdout.splitlines(), [
             '[regenerate_redirects] 3 authored rule(s) carried over',
             '[regenerate_redirects] 1 alias 301 rule(s)',
-            f'[regenerate_redirects] Wrote 5 301 rules to {self.public / "_redirects"}',
+            f'[regenerate_redirects] Wrote 5 rules to {self.public / "_redirects"} '
+            '(static 5/2000 · dynamic 0/100 · skipped 0 · parsed 5 of 5) and 0 wildcard rule(s) to '
+            f'{self.public / "static/redirect-fallback.json"}',
         ])
 
     def test_redirect_limit_accepts_2000_rejects_2001_and_kills_removed_guard(self):
@@ -883,7 +887,7 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
         script = self.copy_script('regenerate_redirects.py')
         snapshot = FixtureSnapshot(script)
         original = snapshot.text(script)
-        guard = '    if len(rules) > CLOUDFLARE_STATIC_RULE_LIMIT:\n'
+        guard = '    if failures:\n'
         self.assertEqual(original.count(guard), 1, 'dead overflow mutant anchor')
 
         def populate(count):
@@ -895,9 +899,10 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
             result = self.run_script(script)
             self.assertEqual(result.returncode, 1, 'overflow guard must reject 2001 rules')
             self.assertEqual(result.stderr.splitlines(), [
-                "[regenerate_redirects] ERROR: 2001 rules exceeds Cloudflare's "
-                '2000-static-rule limit — Cloudflare would silently ignore the overflow. '
-                'Reduce rules (e.g. fold case-correction into a Cloudflare redirect rule) before shipping.',
+                '[regenerate_redirects] ERROR: INVALID Maximum number of static rules supported is 2000. Skipping line.',
+                '[regenerate_redirects] ERROR: SKIPPED 1 rule line(s) Cloudflare would not load',
+                "[regenerate_redirects] ERROR: Cloudflare would not load this _redirects as written "
+                '(static 2000/2000 · dynamic 0/100 · skipped 1 · parsed 2000 of 2001); nothing was written.',
             ])
             self.assertFalse((self.public / '_redirects').exists())
 
@@ -917,7 +922,9 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
             self.assertEqual(len((self.public / '_redirects').read_text().splitlines()), 2000)
             self.assertEqual(result.stdout.splitlines(), [
                 '[regenerate_redirects] 2000 authored rule(s) carried over',
-                f'[regenerate_redirects] Wrote 2000 301 rules to {self.public / "_redirects"}',
+                f'[regenerate_redirects] Wrote 2000 rules to {self.public / "_redirects"} '
+                '(static 2000/2000 · dynamic 0/100 · skipped 0 · parsed 2000 of 2000) and 0 wildcard rule(s) to '
+                f'{self.public / "static/redirect-fallback.json"}',
             ])
         with FixtureSnapshot(canonical):
             populate(2001)

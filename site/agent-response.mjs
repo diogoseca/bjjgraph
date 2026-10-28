@@ -1,3 +1,5 @@
+import { redirectFallback } from "./redirect-fallback.mjs";
+
 // Only explicit Markdown preferences opt in; ordinary browser Accept stays HTML.
 export function prefersMarkdown(accept = "") {
   const ranges = accept.split(",").map((part) => {
@@ -34,6 +36,9 @@ const CATEGORIES = new Set([
   "Learning",
 ]);
 const SIGNAL = "search=yes, ai-input=yes";
+// The category pages' tier in _headers; Pages applies _headers to asset responses only, so the
+// fallback's redirect carries the value the asset server's own redirects got.
+const PAGE_CACHE = "public, max-age=300, stale-while-revalidate=3600";
 const DISCOVERY_LINKS =
   '<https://bjjgraph.org/sitemap.xml>; rel="sitemap"; type="application/xml", <https://bjjgraph.org/.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", <https://bjjgraph.org/llms.txt>; rel="describedby"; type="text/plain"';
 
@@ -102,6 +107,15 @@ export async function onRequest(context) {
     }
   }
   response ||= await context.next();
+  // A retired or renamed URL under a category: Cloudflare's _redirects cannot hold every wildcard
+  // (100 dynamic rules), so they are looked up here, after the asset server's 404 (v1.236.1).
+  if (response.status === 404 && !markdown) {
+    const moved = await redirectFallback(request, env, PAGE_CACHE);
+    if (moved) {
+      await response.body?.cancel();
+      response = moved;
+    }
+  }
   const headers = new Headers(response.headers);
   for (const [key, value] of Object.entries(SECURITY_HEADERS))
     headers.set(key, value);
@@ -148,10 +162,7 @@ export async function onRequest(context) {
       `<https://bjjgraph.org${url.pathname}>; rel="canonical"`,
     );
   } else if (response.ok && !headers.has("Cache-Control")) {
-    headers.set(
-      "Cache-Control",
-      "public, max-age=300, stale-while-revalidate=3600",
-    );
+    headers.set("Cache-Control", PAGE_CACHE);
   }
   if (request.method === "HEAD") await response.body?.cancel();
   return new Response(request.method === "HEAD" ? null : response.body, {

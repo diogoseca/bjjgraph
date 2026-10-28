@@ -228,7 +228,10 @@ byte ratchet at once; `--set-floors --reason` moves one, `--update` never touche
 detector (PR only, via `e2e-full.yml`: a content edit legitimately moves it, so re-seed in the same
 PR with `validate:build-shape:update`) · `validate:seo`
 crawlable-surface ratchet ·
-`validate:headers` cache/security headers · `validate:affiliate` the product-link surface (neutral
+`validate:headers` cache/security headers · `validate:redirect-limits` the built `_redirects`
+through an exact port of Cloudflare's parser (it loads 100 wildcard rules, and every rule after
+the first wildcard counts as one), plus the category wildcards the middleware serves after a 404;
+`:source` is the no-build half ci-validate runs · `validate:affiliate` the product-link surface (neutral
 source, verified links) · `validate:analytics` the BUILT PostHog injection against the key its
 build ran with, plus
 `validate:analytics:nokey`, which builds its own keyless one-file fixture because no deploy can

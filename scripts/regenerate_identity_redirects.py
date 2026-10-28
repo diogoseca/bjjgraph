@@ -53,9 +53,17 @@ def retirement_rules(records: list[dict], root: Path = ROOT) -> list[str]:
         same_roles = ((Path(old_path).parts[1] == "Positions") ==
                       (Path(new_path).parts[1] == "Positions"))
         descendants = new_url + "/:splat" if same_roles and not replacement.get("is_family") else new_url
+        # The Title-Case wildcard covers every page that lived under the hub: its role
+        # pages and its folder page /X/. The lowercase form gets the hub rule only
+        # (v1.236.1, RDR546). Quartz never built a lowercase page and the case rules
+        # never covered role pages, so nothing was ever published under a lowercase
+        # hub: of 5,807 page paths in content/'s whole history, 0 sit under any of the
+        # 53 lowercase prefixes, and the one frozen-base source that does
+        # (/submissions/marce-choke/from-side-control) keeps its own exact rule. Each
+        # lowercase wildcard only spent one of Cloudflare's 100 dynamic slots.
+        add(old_url + "/*", descendants)
         for source in dict.fromkeys([old_url, old_url.lower()]):
-            for origin, target in [(source + "/*", descendants), (source, new_url)]:
-                add(origin, target)
+            add(source, new_url)
         parent = old_url.rsplit("/", 1)[0]
         aliases = record["source"].get("aliases") or []
         if not isinstance(aliases, list):
