@@ -7,10 +7,6 @@ import { journey, type Journey } from "../dsl"
  * Prior virtual-More/pause-transfer mutants were retired with that interaction.
  * Current MDP sandbox control m38 (2026-10-14) removes paused lift retention:
  * both widths fail the unchanged vertical-clearance assertion.
- * NOT the gate for D-347's rest lift since v1.237.0 (PR #320's review): reading-band-lift-restored no longer turns
- * line 131 red, because this journey's first landing is the directed arrival, which never flies and so never engages
- * the follow-cam's band lift. That claim is pinned at the source by tests/camera_motion.test.mjs ("in the reading
- * view the follow-cam engages no lift at rest"), which the same mutation turns red.
  * External video playback is not covered by the harness. */
 
 async function settle(page: Page, j: Journey) {
