@@ -1126,7 +1126,7 @@ for (const viewport of [
     await page.locator("[data-concept-back]").scrollIntoViewIfNeeded();
     await j.clickByMouse("[data-concept-back]");
     await expect(page.locator("[data-principle-view]")).toHaveCount(0);
-    await expect(page.locator(".ng-learning-nav")).toBeVisible();
+    await expect(page.locator(".ng-drawer-head")).toBeVisible();
   });
 }
 
@@ -1270,8 +1270,10 @@ test("clicking the pressed Explore tab returns a drilled Principle, then a Syste
   await readerStudyTools(page, j);
   await expect(page.locator(`[data-concept-detail="${first.id}"]`), "premise: the principle owns the pane").toBeVisible();
   await expect(searchRow, "premise: and the root's search row is gone with it").toBeHidden();
-  await expect(page.locator(tab), "premise: Explore is the pressed tab").toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator(tab), "premise: the drawer's brand, its way home (v1.242.0: the Explore tab's job), is on screen").toBeVisible();
   const before = await principleStudyState(page);
+  // v1.242.0: the helper above reaches the list through the brand too, so count this click's beat alone
+  await page.evaluate(() => { (window as any).__homeBeats0 = ((window as any).__neural.beats || []).filter((b: any) => b.beat === "pane_tab_home").length; });
 
   await j.clickByMouse(tab, "the pressed Explore tab");
   await expect(page.locator("[data-concept-detail]"), "the drilled body is gone").toHaveCount(0);
@@ -1282,7 +1284,7 @@ test("clicking the pressed Explore tab returns a drilled Principle, then a Syste
   expect(s.input, "and none in the box").toBe("");
   expect(await page.evaluate(() => {
     const a = (window as any).__neural;
-    return { concept: a._conceptId, system: a._systemId, view: a._viewMode, pane: !!a.deckShown, beat: (a.beats || []).filter((b: any) => b.beat === "pane_tab_home").length };
+    return { concept: a._conceptId, system: a._systemId, view: a._viewMode, pane: !!a.deckShown, beat: (a.beats || []).filter((b: any) => b.beat === "pane_tab_home").length - (window as any).__homeBeats0 };
   }), "no page owns the list, the tab and the pane are as they were, and the way home left its beat").toEqual({ concept: null, system: null, view: "explore", pane: true, beat: 1 });
   expect(await principleStudyState(page), "going home starts nothing: the roll state is untouched").toEqual(before);
 
@@ -1297,18 +1299,11 @@ test("clicking the pressed Explore tab returns a drilled Principle, then a Syste
   await expect(rows, "the root list is back").toHaveCount(principles.length);
   expect(await page.evaluate(() => (window as any).__neural._systemId), "no System owns the list").toBeNull();
 
-  // ── the other tabs did not change: the pressed Challenges tab is still a no-op ──
-  await j.clickByMouse("[data-view='challenges']", "the Challenges tab");
-  await expect(page.locator("[data-view='challenges']")).toHaveAttribute("aria-pressed", "true");
-  await page.evaluate(() => {
-    const a = (window as any).__neural;
-    (window as any).__paneRenders = 0;
-    const orig = a._renderPaneBody.bind(a);
-    a._renderPaneBody = () => { (window as any).__paneRenders++; return orig(); };
-  });
-  await j.clickByMouse("[data-view='challenges']", "the pressed Challenges tab");
-  await j.advance(200);
-  expect(await page.evaluate(() => ({ renders: (window as any).__paneRenders, view: (window as any).__neural._viewMode })),
-    "a pressed tab other than Explore is the no-op it always was").toEqual({ renders: 0, view: "challenges" });
+  // ── v1.242.0: Path is a row of the list (no pressed tab to re-press); its brand leads home again ──
+  await page.locator("[data-view='challenges']").scrollIntoViewIfNeeded();   // below the expanded Principles
+  await j.clickByMouse("[data-view='challenges']", "the Path row");
+  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Path");
+  await j.clickByMouse(tab, "the brand, from Path");
+  await expect(rows, "the root list is back").toHaveCount(principles.length);
   expect(errors, "no page errors along the way").toEqual([]);
 });

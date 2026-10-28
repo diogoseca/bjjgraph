@@ -315,11 +315,11 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
     };
   });
   expect(queue, "the queue is the review debt, and its rows are the cover").toEqual({
-    session: true, label: "2 cards due today", anchor: "due", keys: [r.other],
+    session: true, label: "Practice \u00b7 2 reviews", anchor: "due", keys: [r.other],
     review: { count: 2, rows: [[r.other, 2]] },
   });
   // the RENDERED header repeats the cell's number in the cell's unit, and the foot counts progress
-  expect(header, "the header is the cell's card count").toContain("2 cards due today");
+  expect(header, "the header is the cell's card count").toContain("Practice \u00b7 2 reviews");
   await expect(page.locator("[data-session-foot]"), "the foot counts the same cards").toContainText("0 of 2 cards");
   // ...and the one row is narrowed to what is OWED — both cards, not its whole deck. Read off
   // what the row EMITTED: its progress figure, its reason, and one progress tick per card dealt.
@@ -342,9 +342,9 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   await expect(page.locator('[data-session-section="Practice"]')).toContainText("2 cards to review");
   expect(await page.evaluate(() => {
     const s = (window as any).__neural._session;
-    return { plan: !!s.plan, label: s.label, anchor: s.anchor, dueRows: s.plan && s.plan.due.length, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };
+    return { plan: !!s.plan, label: s.label.replace(/, \d+ new$/, ""), anchor: s.anchor, dueRows: s.plan && s.plan.due.length, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };
   }), "the plan's review rows are the same cover and the same card count").toEqual({
-    plan: true, label: "2 cards due today", anchor: "due", dueRows: 1, first: r.other, dueCards: 2,
+    plan: true, label: "Practice \u00b7 2 reviews", anchor: "due", dueRows: 1, first: r.other, dueCards: 2,
   });
   await expect(page.locator(`[data-session-row="${r.other}"]`)).toHaveAttribute("data-practice-kind", "due");
   await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText("Reviewed 0/");

@@ -13,7 +13,7 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  * exactly one column gap below whatever control is above it (the "about:" row when a state is
  * current, the textarea otherwise), which is the same distance as textarea -> "about:".
  *
- * Both entry points live in the pane foot (`[data-feedback="technique" | "issue"]`, footer-feedback
+ * Both entry points live in the badge's menu since v1.242.0 (`[data-feedback="technique" | "issue"]`, footer-feedback
  * pins that the row exists on every tab); `openFeedback(kind)` is their only caller. Every control
  * here is reached with `j.clickByMouse` — never `locator.click()`, which dispatches ON the element
  * and cannot see an overlay eating the click (CLAUDE.md 6.1/6.3). The modal portals to the app
@@ -101,7 +101,7 @@ for (const vp of [
     });
 
     for (const entry of ENTRIES) {
-      await page.evaluate(() => (window as any).__neural.openPane("explore"));
+      await page.evaluate(() => (window as any).__neural.openPane("explore")); await j.openAccountMenu(); // v1.242.0: the entries live in the badge's menu
       await page.waitForTimeout(300);
       const entryLink = page.locator(`[data-feedback="${entry.kind}"]`);
       await expect(entryLink, `${entry.kind}: exactly one entry`).toHaveCount(1);
@@ -115,7 +115,7 @@ for (const vp of [
         expect.soft(lines, "issue: the entry renders on ONE line at 390").toBe(1);
       }
       await expect.soft(entryLink, `${entry.kind}: entry copy`).toHaveText(
-        entry.kind === "issue" ? "Help improve it" : "Request a technique",
+        entry.kind === "issue" ? "Feedback" : "Request a technique",
       );
       await j.clickByMouse(`[data-feedback="${entry.kind}"]`, `the "${entry.title}" entry in the pane foot`);
       await page.waitForTimeout(300);
@@ -204,7 +204,7 @@ for (const vp of [
       });
 
       // and the close control by mouse: reopen, close, nothing captured
-      await page.evaluate(() => (window as any).__neural.openPane("explore"));
+      await page.evaluate(() => (window as any).__neural.openPane("explore")); await j.openAccountMenu(); // v1.242.0: the entries live in the badge's menu
       await page.waitForTimeout(300);
       await j.clickByMouse(`[data-feedback="${entry.kind}"]`, `${entry.kind}: the entry, again`);
       await page.waitForTimeout(300);
@@ -232,7 +232,7 @@ test("both feedback events carry signed_in true after the session user is applie
   await expect(page.locator(".ngAcctChip")).toContainText("Feedback Tester");
 
   for (const entry of ENTRIES) {
-    await page.evaluate(() => (window as any).__neural.openPane("explore"));
+    await page.evaluate(() => (window as any).__neural.openPane("explore")); await j.openAccountMenu(); // v1.242.0: the entries live in the badge's menu
     await page.waitForTimeout(300);
     await j.clickByMouse(`[data-feedback="${entry.kind}"]`, `${entry.kind}: signed-in entry`);
     await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur());

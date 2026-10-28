@@ -1062,7 +1062,7 @@ test("the + works at 390px inside the drawer", async ({ page }) => {
   await j.land("Mount Top");
   await page.locator(".ng-logo").click(); // the phone pane opener (the pill is gone, v1.99.0)
   await expect(page.locator(".ng-drill")).toBeVisible();
-  await page.locator('.ng-learning-nav [data-view="explore"]').click();
+  await page.locator('[data-view="explore"]').click();
   await expect(page.locator("[data-lists-new]")).toBeVisible();
   await j.clickByMouse("[data-lists-new]", "the New list + in the drawer");
   await expect(page.locator("[data-lists-head]")).toContainText(/Your lists\s*\(1\)/);

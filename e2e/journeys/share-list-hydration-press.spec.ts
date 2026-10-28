@@ -42,7 +42,7 @@ for (const kind of ["systems", "concepts"] as const) {
       await j.land("Mount Top");
       await page.locator(".ng-logo").click();
       await expect(page.locator(".ng-drill")).toBeVisible();
-      await page.locator('.ng-learning-nav [data-view="explore"]').click();
+      await page.locator('[data-view="explore"]').click();
       const plus = page.locator("[data-lists-new]");
       await expect(plus).toBeVisible();
       await expect(page.locator("[data-lists-head]")).toContainText(/Your lists\s*\(0\)/);
@@ -218,7 +218,7 @@ test("390px: the alias index landing does not move the New list +", async ({ pag
   await j.land("Mount Top");
   await page.locator(".ng-logo").click();
   await expect(page.locator(".ng-drill")).toBeVisible();
-  await page.locator('.ng-learning-nav [data-view="explore"]').click();
+  await page.locator('[data-view="explore"]').click();
   const note = page.locator('.ng-learning-list [data-alias-status="loading"]');
   await expect(note, "the alias index is genuinely still in flight").toHaveCount(1);
   expect(j.payloadTimeline().filter((row) => row.pattern === "aliases.json").length,

@@ -60,54 +60,31 @@ const NG_CHALLENGE_UI_METHODS = {
   //    scroll, the glow, the cue — and never the belt. Game Knowledge is a percentage only.
   //  · Last rolls — static copy from the template ("History reads as the history of BJJ",
   //    owner). The internal view id and settings keys stay `history`.
+  // THE PATH ROW (v1.242.0, owner T-b): the Challenges tab became Train's Path row, so the worn belt
+  // that was the tab's subtitle is drawn under the row and its stripes are the row's tail. Explore's
+  // "Mastered N%" subtitle moved to the badge's menu. Rules unchanged: stripes = the worn belt's
+  // PROVEN UNITS (lessons done + checkpoint passed) over its unit count, 0-4 — never objectives
+  // (v1.95.3: a guest must wear 0).
   renderTabSubtitles() {
-    const vt = this.viewToggleRef && this.viewToggleRef.current;
-    if (!vt) return;
-    const ex = vt.querySelector('[data-tab-sub="explore"]');
-    if (ex)
-      // word first, integer percent (owner, v1.95.2): "Mastered 0%", never "0.0% mastered"
-      ex.textContent = "Mastered " + Math.round(this.gameScore().score * 100) + "%";
-    const ch = vt.querySelector('[data-tab-sub="challenges"]');
-    if (ch) {
-      // stripes = the worn belt's PROVEN UNITS (all live lessons done + checkpoint passed) over
-      // its unit count → 0-4. NOT the objectives fraction (v1.95.3): the first-roll coach
-      // auto-ticks objectives and incidental evidence completes more through normal play, so a
-      // casual guest wore stripes he never deliberately earned (owner: a guest must be 0).
-      // Units only move through deliberate challenge work — and since v1.211.0 so does the belt.
-      const worn = this.wornBelt();
-      const pinned = worn.id, done = worn.done, total = worn.total, stripes = worn.stripes;
-      let tape = "";
-      for (let i = 0; i < stripes; i++) tape += "<b></b>";
-      ch.innerHTML =
-        '<i class="ng-tab-belt" data-tab-belt="' +
-        pinned +
-        '" data-tab-stripes="' +
-        stripes +
-        '" style="--tb:' +
-        (NG_CHALLENGE_TRACK_COLORS[pinned] || NG_CHALLENGE_TRACK_COLORS.white) +
-        ';" aria-hidden="true"><span>' +
-        tape +
-        "</span></i>";
-      // NO printed count beside the belt (owner, v1.137.0 — reverting v1.133.0's "tofu"
-      // fix): the `done/total` <em> pushed the belt off the tab's centre line, and the tab's
-      // job is to say WHICH belt you are on, not to audit it. The count still ships to screen
-      // readers in the aria-label below, and every belt header in the corridor prints it.
-      const btn = ch.closest("button");
-      if (btn)
-        btn.setAttribute(
-          "aria-label",
-          "Challenges: " +
-            done +
-            " of " +
-            total +
-            " units proven on the " +
-            pinned +
-            " track, " +
-            stripes +
-            (stripes === 1 ? " stripe" : " stripes"),
-        );
-    }
+    const root = this.drillRef && this.drillRef.current;
+    const ch = root && root.querySelector('[data-tab-sub="challenges"]');
+    if (!ch) return;
+    const worn = this.wornBelt();
+    const pinned = worn.id, done = worn.done, total = worn.total, stripes = worn.stripes;
+    let tape = "";
+    for (let i = 0; i < stripes; i++) tape += "<b></b>";
+    ch.textContent = stripes + (stripes === 1 ? " stripe" : " stripes");
+    const belt = root.querySelector("[data-path-belt]");
+    if (belt)
+      belt.innerHTML =
+        '<i class="ng-tab-belt" data-tab-belt="' + pinned + '" data-tab-stripes="' + stripes + '" style="--tb:' +
+        (NG_CHALLENGE_TRACK_COLORS[pinned] || NG_CHALLENGE_TRACK_COLORS.white) + ';" aria-hidden="true"><span>' + tape + "</span></i>";
+    ch.closest("button").setAttribute(
+      "aria-label",
+      "Path: " + done + " of " + total + " units proven on the " + pinned + " track, " + stripes + (stripes === 1 ? " stripe" : " stripes"),
+    );
   },
+
 
   noteLearningViewOpen(view) {
     this._learningViewsTracked = this._learningViewsTracked || {};

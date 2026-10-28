@@ -13103,3 +13103,39 @@ serve 200 `noindex` for up to ~7 days, where the old edge rules ran before any p
   `$&`, `` $` ``, `$'` or `$$`. `resolve()` follows handler.ts for queries and absolute targets. The docstring now says
   Cloudflare parses `_redirects` server-side. Added: a test for an empty file in `--file` mode, and probe mutants on the
   real YAML.
+
+## v1.242.0 — the drawer (owner A5 · E1 · T-b) and Practice as one mixed session (owner U56 e, 2026-10-28)
+
+The owner's rounds 3–6 (U45–U56) on the design canvas settled a Claude-style drawer and one daily habit:
+"Practice is flashcards reviewing which included past + new (new = gaps) okay? Similar to how Anki
+mixes known + new cards… The goal today is to do 20 flashcards."
+
+- **Practice engine** (its own commit). The planner's `queue` deals every owed review, most overdue
+  first, and slips the next new gap deck in once the reviews placed before it pay for its cards at
+  `NG_PRACTICE_REVIEWS_PER_NEW = 4`, counted in cards (80/20, the deck-seasoning blend the owner chose).
+  The goal `NG_PRACTICE_GOAL = 20` (was 30) is also the day's new-card quota:
+  `room = min(goal − answered, max(goal − answered − due, ⌈due / 4⌉))`. This reverses v1.138.0's "due
+  debt consumes the target before new work", which dealt a heavy review day no new card at all.
+  Mutants: 7 planner (tests/gameplan.test.mjs) and 5 app (e2e/journeys/practice-mix.spec.ts), all killed.
+- **The drawer.** The three tabs became one list: Search, Explore (an expandable list, the six
+  categories on a guide line), Train (Practice then Path; nothing under them), Your lists, Last rolls,
+  and the badge, which shows "Today: N of 20 cards · M rolls" before it is opened. One drawer icon opens
+  it, with no "Menu" label; the brand ("‹ Path") leads home from Path and Last rolls; a left swipe closes
+  it. The stat row, the guest save block and the pane foot's links moved into the Practice row and the
+  badge's short menu (Settings, Account preferences, Feedback, sign in/out; Request a technique · Terms ·
+  Privacy · GitHub small). The 145-row capability inventory (U49, D-523) maps every row: kept, moved, or
+  retired by an owner decision (tests/artifacts/sidebar_capabilities.md).
+- **Defects the inventory found, fixed:** the account chip and the pane-foot links were not keyboard
+  controls (now buttons); the save-progress toast reached signed-in players (now guests only); the
+  guest sign-up pill was coded and never placed (now the badge's Save).
+- **The dim (U45).** A lit page fades the rest of the map to 20% (was an instant 30%), easing on the
+  WALL clock because the drawer pauses the game clock (§6.2); the frame publishes `_fogLow`.
+- **The word gap (orchestrator SIDE-R1).** Plus Jakarta Sans draws its space at 0.143 em (2.00 px at
+  14 px; Arial 3.89 px), identical on dev, so "Your lists" read as one word in the owner's screens. The
+  drawer adds `word-spacing: .1em`, naming its buttons too because the UA stylesheet resets `word-spacing`
+  on every button (the first cut reached no row). sidebar.spec.ts measures the label's gap against a
+  control with normal spacing: the harness never loads the Google face, so an absolute gap passed
+  without the fix (mutant D5 survived it).
+- **Retired:** the tab pager and the trackpad flick (pane-tab-swipe.spec.ts deleted; the tabs it paged
+  are gone), the stat row's `_mountStatsRow`/`_exploreStatsRow` (their FGD13 repaint-in-place rule moved
+  to `_paintTrain`, still pinned by tests/gameplan_stats_repaint.test.mjs), `renderPaneAnchor`.

@@ -43,7 +43,7 @@ async function setup(page: any, seed: { due: number, answered: number }) {
     }
     // answered today: distinct questions graded today count toward the goal whatever deck they sit in
     if (answered) a.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: answered }, (_, i) => ["s" + i, [day + 1, 1, day]]));
-    a.setViewMode("explore"); a.openExplorer(); a.renderPaneAnchor();
+    a.setViewMode("explore"); a.openExplorer(); a.renderExplorer();
     return { dueKeys, day, goal: a.practiceToday().goal };
   }, seed);
   return { j, fx };

@@ -123,7 +123,7 @@ async function bootPlayer(page: Page, opts: { withoutGiHands?: boolean } = {}) {
 
 /** Settings, by mouse: the account chip → Settings → a tab; act; Esc closes the modal (and only it). */
 async function inSettings(j: any, page: Page, tab: string | null, act: () => Promise<void>) {
-  await j.clickByMouse(".ngAcctChip", "the account chip");
+  await j.openAccountMenu();
   await j.clickByMouse("[data-menu-settings]", "Settings in the account menu");
   if (tab) await j.clickByMouse(`[data-settings-tab="${tab}"]`, `the ${tab} tab`);
   await act();
@@ -189,7 +189,7 @@ async function openPlan(j: any, page: Page) {
   if (!at.open) await j.clickByMouse(".ng-logo", "the logo opens the pane");
   else if (at.back) await j.clickByMouse("[data-pane-back]", "‹ Back leaves the open plan");
   await j.clickByMouse("[data-view='explore']", "the Explore tab");
-  await j.clickByMouse('[data-explore-stats] [data-b="new"]', 'the "N new" cell');
+  await j.clickByMouse('[data-explore-stats] [data-b="due"]', 'Practice (v1.242.0: the "N new" door is Practice now)');
   return readPlan(page);
 }
 

@@ -395,8 +395,10 @@ test('@curated a real catch keeps its generic stack and own films while danger i
 
 async function dangerSettings(page: Page) {
   const j = journey(page)
-  await j.clickByMouse('.ngAcctChip', 'open the account menu')
-  await j.clickByMouse('[data-menu-settings]', 'open Settings')
+  // v1.242.0: a player reaches Settings through the drawer's badge, and the drawer stops the game by
+  // the pane law (declining a live question). This spec's subject is what the setting does to LIVE
+  // visuals, so it opens the Settings modal itself, which needs no drawer (it portals to the root).
+  await page.evaluate(() => (window as any).__neural.openSettings())
   await expect(page.locator('#ng-stab-rolling')).toBeVisible()
   await j.clickByMouse('#ng-stab-rolling', 'open Rolling settings')
   // Scroll the real panel; clickByMouse never scrolls an off-screen control for us.
@@ -777,8 +779,11 @@ test('D-433: at 390x631 the smaller live band reverts without moving the native 
       end: Math.round(a._reader.root.getBoundingClientRect().bottom), acctTop: Math.round(acct.getBoundingClientRect().top), pressure: !!a._defensePressure }
   })
   const caught = await look()
-  expect(caught, 'D-433 short live catch uses the smaller band').toMatchObject({ pressure: true, band: 80, account: 'visible', conceded: true, padding: '11px' })
-  expect(caught.end, 'the account keeps its scrollport reserve during the catch').toBeLessThanOrEqual(caught.acctTop - 8)
+  expect(caught, 'D-433 short live catch uses the smaller band').toMatchObject({ pressure: true, band: 80, conceded: true, padding: '11px' })
+  // v1.242.0 (owner U46 b): the account is the drawer's badge, so no account button sits on the map to
+  // reserve room for; the scrollport's claim is now that it stays on screen
+  expect(caught.acctTop, 'premise: no account button on the map').toBe(0)
+  expect(caught.end, 'the scrollport stays on screen during the catch').toBeLessThanOrEqual(631)
   const title = '[data-tech] .ngchoice-title'
   await page.evaluate((sel) => (window as any).__neural.optionsRef.current.querySelector(sel).scrollIntoView({ block: 'nearest', behavior: 'instant' }), title)
   await j.readerLayoutSettled()
@@ -796,7 +801,7 @@ test('D-433: at 390x631 the smaller live band reverts without moving the native 
   await expect.poll(async () => (await look()).conceded, 'the reader lays out the result').toBe(false)
   const after = await look()
   expect(after, 'the result transition restores the usual 186px band').toMatchObject({ band: 186, account: 'visible', conceded: false })
-  expect(after.end, 'the scrollport still ends above the account button').toBeLessThanOrEqual(after.acctTop - 8)
+  expect(after.end, 'the scrollport still stays on screen').toBeLessThanOrEqual(631)
   const result = await rect('[data-executing-tech]')
   expect(result.map((v, i) => Math.abs(v - chosen[i])).every((d) => d <= 2), 'the result-time band revert preserves the picked escape rectangle').toBe(true)
 })

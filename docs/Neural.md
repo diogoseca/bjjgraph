@@ -654,8 +654,16 @@ drawn inside a node at any zoom; zoom changes how many nodes you can see, never 
 
 ## 7. The pane
 
-One pane, anchored left, 360px, opened by the logo. Three tabs: **Explore · Challenges · Last
-rolls**.
+One pane, anchored left, 360px: **the drawer** (v1.242.0, owner A5 / E1 / T-b), opened by one
+drawer icon with no label (an amber dot while reviews are owed). It is ONE list, in the owner's
+order: Search, **Explore** (an expandable list: Positions, Transitions, Submissions, Systems,
+Principles, Learning — the category folds below), **Train** (Practice, then Path, nothing under
+them), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
+of 20 cards · 2 rolls") before it is opened and opens a short menu (Settings, Account preferences,
+Feedback, sign in/out; Request a technique · Terms · Privacy · GitHub small). Practice opens the mixed
+session (§8), Path the Challenges corridor and Last rolls the roll history; the brand ("‹ Path")
+leads back. The view ids stay `explore` · `challenges` · `history`. A lit page fades the rest of the
+map to 20%, easing on the wall clock.
 
 The card, videos, article and camera shift beside the pane with the choices. The article fits
 the free width; game-control overlap paints beneath the pane. Phones retain the overlay drawer, and short landscape
@@ -674,22 +682,11 @@ On a phone the pane is an 88vw drawer and **is** the screen, so closing it is ho
 graph: a list focus survives a mobile close, and closing it during a replay hands the clock to the
 film rather than resuming.
 
-**The tab bar is a pager** (v1.147.0). A horizontal touch drag anywhere in the pane, or a
-trackpad's horizontal wheel, walks the three tabs; the CONTENT FOLLOWS THE FINGER, so dragging
-leftward pulls the tab on the right into view — `_landPageTo`'s convention, and every native
-pager's. It clamps at both ends rather than wrapping, refuses a vertical-dominant drag (that axis
-belongs to the pane's own scroller) and refuses one begun inside a horizontal scroller such as a
-dossier's film strip. A study surface keeps the gesture for its own cards. No platform exposes a
-swipe-direction preference to a web app; the one device signal that exists is writing direction,
-so an RTL layout flips the mapping (`_paneGestureDir`). A swipe is never a tap: a capture-phase
-suppressor eats the click the browser synthesises at the end of one.
-
-**One gesture is one tab** (v1.151.1). The wheel path ends its gesture on the STREAM going idle
-(a 300ms gap), not on a timer: a trackpad's inertia keeps deltas arriving for about a second after
-the fingers lift, and v1.147.0's cooldown merely rate-limited that tail, so one flick off the
-rightmost tab paged twice and landed two tabs away — "passing through the middle tab but never
-landing on it". The clamp was never involved. The touch path was always one step, because a drag
-has an explicit end.
+**A left swipe closes the drawer** (v1.242.0). The tab pager (v1.147.0, v1.151.1) went with the
+tabs; a horizontal-dominant touch drag toward the left edge closes the drawer instead, a vertical drag
+belongs to the scroller, and a drag begun inside a horizontal scroller is that scroller's. A study
+surface keeps the gesture for its own cards. A swipe is never a tap: a capture-phase suppressor eats
+the click the browser synthesises at the end of one.
 
 **Explore** — sections start collapsed and persist their folds. Search ranks results before sections;
 filter to `rep` to avoid duplicates. Lists sit first and use the
@@ -810,6 +807,14 @@ Control|Top` leads).
 **Nothing about the score decays.** `deckMastery` moves only on answers — the score cannot drop
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
 are shown*), never in what a deck is *worth*.
+
+**Practice is one mixed session** (v1.242.0, owner U56 e). The planner (`gameplan.src.js`) deals every
+owed review, most overdue first, and slips the next new gap deck (the weak-spots or study-comparison
+ranking) in once the reviews placed before it pay for its cards at `NG_PRACTICE_REVIEWS_PER_NEW` = 4,
+counted in cards. The daily goal, `NG_PRACTICE_GOAL` = 20 (`dailyGoal` overrides), counts both kinds and
+is also the day's new-card quota: new cards fill what reviews leave of it, are never fewer than one per
+four reviews owed, and stop once the day's answers reach it. Reviews are never capped. Each row says
+Review or New; the head reads "Practice · N reviews, M new" and "Daily goal: N of 20 today".
 
 **Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}` — each seat
 once by node **ordinal** (v1.204.3), one int array **per ruleset**, each `t` entry carrying **both

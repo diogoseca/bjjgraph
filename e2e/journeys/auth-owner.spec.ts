@@ -181,7 +181,7 @@ test('@curated A to B to signout restores separate caches and publishes only eac
   await expect.poll(async () => (await fixture(page)).writes.filter((r: any) => r.user_id === B).length).toBeGreaterThan(0)
   await j.land('Mount Top')
   await j.decksSettled()
-  await j.clickByMouse('.ngAcctChip', 'signed-in account menu')
+  await j.openAccountMenu();
   await expect(page.locator('[data-menu-email]')).toContainText(B + '@example.invalid')
   await j.clickByMouse('[data-menu-logout]', 'real facade signout')
   await waitOwner(page, null)

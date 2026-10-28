@@ -10,44 +10,62 @@
   border: 0 !important;
 }
 
-/* No resting box: the glyph is the control, and the 44px thumb target stays. States, which it
-   never had, now carry the affordance instead of a permanent border. */
-.ng-explorer-close {
-  position: absolute;
-  top: 18px;
-  right: 14px;
-  z-index: 10;
-  width: 44px;
-  height: 44px;
+/* THE DRAWER HEAD (v1.242.0, owner A5/E1): brand left (the way home), the drawer icon right. */
+.ng-drawer-head {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 10px 4px 12px;
+}
+
+.ng-drawer-brand {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 8px;
   border: 0;
   border-radius: 12px;
   background: transparent;
-  color: #9ba8c1;
-  font: 500 20px/1 "Plus Jakarta Sans", sans-serif;
+  color: #f0f2fa;
+  font: 750 16px/1 "Plus Jakarta Sans", sans-serif;
+  letter-spacing: -0.01em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ng-explorer-close {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: #c7cde0;
   cursor: pointer;
   transition:
     background 0.14s,
     color 0.14s;
 }
 
-.ng-explorer-close:hover {
+.ng-explorer-close:hover,
+.ng-drawer-brand:hover {
   background: rgba(255, 255, 255, 0.07);
-  color: #eef1f6;
+  color: #fff;
 }
 
-.ng-explorer-close:active {
-  background: rgba(255, 255, 255, 0.11);
-}
-
-/* study takeover: the drill head becomes the pane's first visible child, so it clears the
-   absolute close button (44px at top:18/right:14) on its own — and, since the pane anchors
-   LEFT (v1.94.0), the top-left LOGO too (z9, above the pane, bottom edge ~55px): without the
-   64px top pad the study header's ‹ Back sat exactly under the logo and mouse clicks landed
-   on the wordmark instead. `!important` is load-bearing: the head carries a padding INLINE
-   style (xdc-template.html, kept equal), and only an !important stylesheet declaration
-   outranks an inline one — the same cascade fact _dockLandCard is commented for. */
+/* study takeover: the drawer head stays above the drill head, so the old 64px clearance for the
+   logo and the absolute close button is gone. `!important` is load-bearing: the head carries a
+   padding INLINE style (xdc-template.html, kept equal), and only an !important stylesheet
+   declaration outranks an inline one. */
 .ng-drill[data-pane-study] .ng-pane-drillhead {
-  padding: 64px 64px 16px 24px !important;
+  padding: 4px 24px 16px !important;
 }
 
 .ng-collection-section > div:first-child {
@@ -60,60 +78,6 @@
 /* the woven score-belt CSS (meter, rank bar, tape, band road) left with its renderer
    (v1.98.1) — see git history at v1.96.0. The corridor rails and .ng-tab-belt carry the
    belt craft now. */
-
-.ng-learning-nav {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4px;
-  /* 64px top: the nav is the pane's FIRST child since the knowledge header left (v1.96.0)
-     — it must clear the top-left logo and the absolute close button (44px at top:18),
-     the same clearance the study head carries. */
-  padding: 64px 12px 6px;
-}
-
-/* two-line tabs (v1.95.0): <b> title over one <small> subtitle — Explore carries the
-   score ("N% mastered"), Challenges a mini ladder belt, Last rolls its plain line */
-.ng-learning-nav > button {
-  min-height: 44px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 3px;
-  padding: 5px 2px;
-  border: 1px solid transparent;
-  border-radius: 9px;
-  background: transparent;
-  color: #7f8ba4;
-  font: 800 9px/1 "Plus Jakarta Sans", sans-serif;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.ng-learning-nav > button > b {
-  font: inherit; /* the title keeps the tab's uppercase voice */
-}
-
-.ng-learning-nav > button > small {
-  min-height: 10px;
-  display: flex;
-  align-items: center;
-  color: #6b7691;
-  font: 600 8px/1.2 "Plus Jakarta Sans", sans-serif;
-  letter-spacing: 0.02em;
-  text-transform: none;
-}
-
-.ng-learning-nav > button[aria-pressed="true"] {
-  border-color: rgba(150, 170, 210, 0.2);
-  background: rgba(255, 255, 255, 0.055);
-  color: #eef1f6;
-}
-
-.ng-learning-nav > button[aria-pressed="true"] > small {
-  color: #93a0ba;
-}
 
 /* the Challenges tab's miniature belt — the PINNED track's color (--tb) with a dark rank
    sleeve wearing 0-4 tape stripes from that track's PROVEN UNITS fraction (v1.95.3 —

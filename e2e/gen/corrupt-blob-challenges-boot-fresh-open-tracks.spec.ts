@@ -58,8 +58,10 @@ test("corrupt legacy progress stays untouched while guest Challenges opens five 
   });
 
   await j.land("Mount Top");
+  // v1.242.0: the drawer opens on its list; its Path row is the Challenges corridor
   await page.evaluate(() => (window as any).__neural.toggleExplorer());
   await expect(page.locator('[data-view="challenges"]')).toBeVisible();
+  await page.locator('[data-view="challenges"]').click();
   expect(await page.evaluate(() => (window as any).__neural._viewMode)).toBe(
     "challenges",
   );

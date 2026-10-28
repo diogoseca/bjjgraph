@@ -86,9 +86,9 @@ async function openPlan(page: Page, touch: boolean, withDebt = false) {
         a.srs[key] = { ...(a.srs[key] || {}), [a.qhash(card.q)]: [day - 1, 3, day - 4] };
       }
     }
-    a.setViewMode('explore'); a.openExplorer(); a.renderPaneAnchor();
+    a.setViewMode('explore'); a.openExplorer(); a.renderExplorer();
   }, withDebt);
-  await hit(page, page.locator('[data-explore-stats] [data-b="new"]').first(), touch);
+  await hit(page, page.locator('[data-explore-stats] [data-b="due"]').first(), touch);
   // polled WITH the study state, so a plan that never mounts says why (FGGPLAN1: one CI red ended in
   // the abandoned-load state, and its generic status text did not name the signal that caused it)
   await expect.poll(async () => (await page.locator(form).count()) ? 'mounted' : page.evaluate(() => {
@@ -176,8 +176,8 @@ async function holdStudyLoad(page: Page) {
 }
 async function tapPlanWithHeldLoad(page: Page, touch: boolean) {
   const hold = await holdStudyLoad(page);
-  await page.evaluate(() => { const a = (window as any).__neural; a.setPaused(true); a.setViewMode('explore'); a.openExplorer(); a.renderPaneAnchor(); });
-  await hit(page, page.locator('[data-explore-stats] [data-b="new"]').first(), touch);
+  await page.evaluate(() => { const a = (window as any).__neural; a.setPaused(true); a.setViewMode('explore'); a.openExplorer(); a.renderExplorer(); });
+  await hit(page, page.locator('[data-explore-stats] [data-b="due"]').first(), touch);
   await expect.poll(() => hold.held(), { message: 'the study bundle request is held' }).toBeGreaterThan(0);
   expect(await page.evaluate(() => !!(window as any).__neural._gameStudyLoading), 'the plan load is in flight').toBe(true);
   return hold;

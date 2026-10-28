@@ -30,12 +30,16 @@ test("the feedback row rides the pane foot on every tab, and a request reaches P
   await page.evaluate(() => (window as any).__neural.openPane("explore"));
   await page.waitForTimeout(400);
 
+  // v1.242.0: the pane foot's links moved into the badge's menu (owner U46 b), one press away from
+  // every view of the drawer
   for (const tab of ["explore", "challenges", "history"]) {
     await page.evaluate((t) => (window as any).__neural.openPane(t), tab);
-    await page.waitForTimeout(200);
-    await expect(page.locator('[data-feedback="technique"]'), `row on ${tab}`).toBeVisible();
-    await expect(page.locator("[data-gh-chip]"), `chip on ${tab}`).toBeVisible();
+    await j.openAccountMenu();
+    await expect(page.locator('[data-feedback="technique"]'), `row from ${tab}`).toBeVisible();
+    await expect(page.locator("[data-gh-chip]"), `chip from ${tab}`).toBeVisible();
+    await page.keyboard.press("Escape");
   }
+  await j.openAccountMenu();
 
   // request a technique: modal, typed text, send → ONE capture with the text + context node
   await j.clickByMouse('[data-feedback="technique"]', "the technique entry");
@@ -101,6 +105,7 @@ test("the feedback row rides the pane foot on every tab, and a request reaches P
   await expect(page.locator(".ng-modal"), "Send closes the modal").toBeHidden();
 
   // report an issue: the OTHER event name, and an empty send goes nowhere
+  await j.openAccountMenu();
   await j.clickByMouse('[data-feedback="issue"]', "the issue entry");
   await page.waitForTimeout(300);
   await j.clickByMouse("[data-feedback-send]", "empty Send must not capture");
@@ -124,14 +129,14 @@ test("the GitHub chip paints a day-cached star count, stays a plain link without
   await j.boot("/");
   // no cache, fetch aborted by the harness → plain "GitHub" link, zero page errors
   await page.evaluate(() => (window as any).__neural.openPane("explore"));
-  await page.waitForTimeout(600);
+  await j.openAccountMenu();
   await expect(page.locator("[data-gh-label]")).toHaveText("GitHub");
 
   // seed the day cache, re-boot: the chip paints the count without any network
   await page.evaluate(() => localStorage.setItem("gh-stars", JSON.stringify({ n: 1234, at: Date.now() })));
   await j.boot("/", { preserveStorage: true });
   await page.evaluate(() => (window as any).__neural.openPane("explore"));
-  await page.waitForTimeout(600);
+  await j.openAccountMenu();
   await expect(page.locator("[data-gh-label]")).toHaveText("★ 1.2k");
   await expect(page.locator("[data-gh-chip]")).toHaveAttribute("href", "https://github.com/diogoseca/bjjgraph");
 
