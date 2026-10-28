@@ -37,6 +37,7 @@ import { journey } from "../dsl";
  *   HANDOFF      two quick restarts do not pop the old board back to full
  *   INPUT        a 2px drag takes the camera at once, and nothing takes it back
  *   RELEASE      a gesture's 0.2s release leaves no state and no transition behind
+ *   ASK-FAINT    while faint, a tap on #319's "Answer for Points" line does not reach the link
  *   FAINT-INERT  while faint, no control in the reader section (article links, tools, section labels) is live
  *   MOUNT        rows whose wall-clock reveal timer fires before the rAF clock reaches the reveal are styled at once
  *   PAUSE-EARLY  a pause between the pick and the reveal runs no wide zoom-out (beat 1 is retired with the arrival)
@@ -58,6 +59,7 @@ import { journey } from "../dsl";
  *   reduced motion lands before the reader adopts the rows → SNAP (Book off)
  *   the film styled as loose too (fade) → FILM-FADE (Book on)   ...(ride) → FILM-RIDE (Book off)
  *   no faint rule for the homed film → FILM-FAINT   no faint rule for the section's controls → FAINT-INERT
+ *   the ask link made visible over its card's hide → ASK-FAINT
  *   the reveal timer that does not style the board → MOUNT       a retirement that keeps beat 1 → PAUSE-EARLY
  * WHAT THE HARNESS DOES NOT DO (CLAUDE.md 6.4), and so what a case here must author itself:
  *   - every content chunk is served as `{}`, so no node has a Videos row: the real-content cases inject Mount Top's
@@ -78,7 +80,7 @@ const BOOK_OFF = { initialState: { v: 2, settings: { readerBook: false }, settin
 type F = { t: number; el: number; W: number; H: number; cx: number; cy: number; vw: number; node: { x: number; y: number } | null;
   pick: number | null; secO: number | null; open: string; hand: number | null; handO: number | null; head: number | null;
   headO: number; article: number | null; loose: number; rowsShown: number; rowsHidden: number;
-  film: number | null; filmO: number | null; filmVis: string | null; secLive: number };
+  film: number | null; filmO: number | null; filmVis: string | null; secLive: number; askHit: boolean | null };
 // `article` is measured from the board's own top: in a restart the board sinks while it fades, on purpose
 
 const frame = (page: Page) => page.evaluate(() => {
@@ -100,12 +102,16 @@ const frame = (page: Page) => page.evaluate(() => {
   // the section's own controls a tap or Tab could reach (only counted while faint: it walks the article)
   const secLive = open === "faint" && sec ? [...sec.querySelectorAll("a,button,input,select,textarea,summary,[tabindex]")]
     .filter((e: any) => e.getAttribute("tabindex") !== "-1" && getComputedStyle(e).visibility !== "hidden" && e.getClientRects().length).length : 0;
+  // #319's interplay: what a tap at the centre of "Answer for Points" reaches while faint (null: no link, or not faint)
+  const go = open === "faint" ? document.querySelector("[data-land-ask-go]") as HTMLElement | null : null, gr = go?.getBoundingClientRect();
+  const hit = go && gr && gr.width > 0 ? document.elementFromPoint(gr.left + gr.width / 2, gr.top + gr.height / 2) : null;
+  const askHit = go && gr && gr.width > 0 ? !!hit && (hit === go || go.contains(hit)) : null;
   // a board row PAINTING outside the reader section: the old reveal frame showed Videos at y 67
   const loose = rows.filter((el: any) => !(sec && sec.isConnected && sec.contains(el)) && getComputedStyle(el).visibility !== "hidden" && eff(el) > 0.02).length;
   return { t: a.now, el: a.now - a.startTime, W, H, cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw,
     node: mid ? { x: W / 2 + (mid.x - a.cam.cx) * s, y: H / 2 + (mid.y - a.cam.cy) * s } : null,
     pick: a._camOpen?.pick ?? null, secO, open,
-    film: film ? film.getBoundingClientRect().top : null, filmO: film ? eff(film) : null, filmVis: film ? getComputedStyle(film).visibility : null, secLive,
+    film: film ? film.getBoundingClientRect().top : null, filmO: film ? eff(film) : null, filmVis: film ? getComputedStyle(film).visibility : null, secLive, askHit,
     hand: handEl ? handEl.getBoundingClientRect().top : null, handO: handEl ? eff(handEl) : null,
     head: br && parseFloat(getComputedStyle(box).opacity) > 0.05 ? br.top + br.height / 2 : null, headO: parseFloat(getComputedStyle(box).opacity),
     article: shown(art) && shown(sec) ? art.getBoundingClientRect().top - sec.getBoundingClientRect().top : null, loose,
@@ -179,6 +185,9 @@ test.describe(`the directed arrival, Book ${book}`, () => {
     const faint = S.filter((f) => f.t > E && f.open === "faint" && f.rowsShown > 0);
     expect(faint.length, "premise: the board was faint for a few frames").toBeGreaterThan(3);
     expect(faint.filter((f) => f.rowsHidden < f.rowsShown).map((f) => +f.t.toFixed(3)), "FAINT: a faint board's rows are hidden, not merely transparent").toEqual([]);
+    const asking = faint.filter((f) => f.askHit != null);
+    expect(asking.length, "premise: the landing asks with #319's Answer for Points line while the board is faint").toBeGreaterThan(0);
+    expect(asking.filter((f) => f.askHit).map((f) => +f.t.toFixed(3)), "ASK-FAINT: a tap on Answer for Points while faint does not reach the link").toEqual([]);
     expect(faint.filter((f) => f.secLive > 0).map((f) => [+f.t.toFixed(3), f.secLive]), "FAINT-INERT: no control in the reader section is live while faint").toEqual([]);
 
     const rise = S.filter((f) => f.t >= E && f.t <= E + 2.0 && f.hand != null && f.node && f.handO! > 0.02);
