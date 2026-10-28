@@ -1,20 +1,9 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "npm run regenerate:neural",
-   "esbuild": "0.27.0",
-   "git_head": "94877694f8db2b8918d038a98704e5ed8f40a961",
-   "inputs": {
-    "tree": "9c3d5887907e2f8121793ee8f409266ccc85e1a5"
-   },
-   "package_version": "1.236.0",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v2"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/n5-two-moves/capture/pr-n5-two-moves-26df4c4b7",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/redirects-capture/capture/pr-redirects-cf-limits-0454f665b",
   "content_provenance": {
-   "capture_git_head": "26df4c4b7c9bf0d7bef64f284f1ffb5be873c997",
-   "capture_id": "2a7bdf5e8b99441fa9511fff38db6b21",
+   "capture_git_head": "0454f665b3279744b5283cfc31fb5dcc236fa0dd",
+   "capture_id": "58829c26eefd4939b31c04f955f70d1c",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6291,
@@ -44,12 +33,12 @@
     }
    },
    "output_identity": {
-    "files": 15725,
-    "sha256": "47e8a7031a4245a69d1f7f0a5633dd6a45c2138f5925254f201a63af8ae23fd9"
+    "files": 15726,
+    "sha256": "1589ba3e4a5af1436ed735caa93c3c9df9537bf3b3ccdd18bf0284a1e5326137"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/n5-two-moves/capture/pr-n5-two-moves-26df4c4b7"
+    "/home/user/bjj-orchestrator/scratch/redirects-capture/capture/pr-redirects-cf-limits-0454f665b"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -149,7 +138,7 @@
   "gzip": 1,
   "html": 6102,
   "js": 41,
-  "json_opaque": 4952,
+  "json_opaque": 4953,
   "json_semantic": 5,
   "text_opaque": 4582,
   "text_semantic": 7,
@@ -166,13 +155,13 @@
   "Transitions": 4009,
   "dev": 59,
   "markdown": 4517,
-  "static": 5039,
+  "static": 5040,
   "tags": 73
  },
  "census": {
   "article_headings": 89550,
   "article_links": 194612,
-  "files": 15725,
+  "files": 15726,
   "gzip_files": 1,
   "head_links": 48879,
   "html_pages": 6102,
@@ -188,7 +177,7 @@
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 5039
+  "static_files": 5040
  },
  "distinct_values": {
   "name=description": 4454,
