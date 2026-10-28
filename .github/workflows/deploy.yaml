@@ -271,10 +271,6 @@ jobs:
         # 20m05s; the suite was 381 tests in 18m15s before. The 26 remaining run ~1 min more.
         # Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
         timeout-minutes: 30
-        # A failing test keeps its Playwright trace in e2e/test-results/, which the upload step below
-        # already ships (RDR-R2b; e2e/playwright.config.ts reads PW_TRACE).
-        env:
-          PW_TRACE: retain-on-failure
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
