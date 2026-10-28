@@ -562,6 +562,9 @@ const otherPair = (page: Page) =>
  * between MERGE (1.15 px/unit) and SPLIT (2.20), which is the same number that decides whether
  * there are two orbs to point at in the first place.
  */
+// NON-KILL, not coverage (measured in PR #320's review on dev ae3c8c347's own bundle and on v1.237.0 alike):
+// d355-flight-lift-ungated (tests/artifacts/neural_app_mutants.mjs, the band hold engaged for every flight) no longer
+// turns this journey red; read it as no coverage of D-355's hover-flight gate.
 test("@curated hovering any pair names it once, on the midline, with the role on the hovered side", async ({
   page,
 }) => {
