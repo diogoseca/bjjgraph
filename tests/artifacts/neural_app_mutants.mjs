@@ -49,7 +49,7 @@ const controls = [
     'a saved Focus no longer hides the question'],
   // The follow-cam lifts the node against the reading band's edge again (two rest framings).
   ['reading-band-lift-restored', 'pane-layout.spec.ts', '1440px pane moves film, card, article',
-    [['(!d.band||u)&&(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus'], ['active:!d.band||!!(u!=null&&u.band)', 'active:!0']], 131],   // back.node.y; 125 -> 127 (D-347), -> 131 (D-368's pane-layout:82). D-355: the band lifts only in a flight
+    [['(!c.band||u)&&(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus'], ['active:!c.band||!!(u!=null&&u.band)', 'active:!0']], 131],   // back.node.y; 125 -> 127 (D-347), -> 131 (D-368's pane-layout:82). D-355: the band lifts only in a flight
   // H46 (2026-10-21): landcard-modes:349 now waits for the defender's question before its press; the arrows must
   // still be what pages it (the defense mode dropped from the landing card's arrow branch).
   ['defense-arrows-lost', 'landcard-modes.spec.ts', 'the generic defending card pages its own deck with the same arrows',
@@ -59,13 +59,13 @@ const controls = [
   ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
     [['else if(!t)n.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
   ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
-    [['h==null||h.toggleAttribute("data-reader-pending",a>0);return c&&a<=0', 'h==null||h.toggleAttribute("data-reader-pending",!1);return c&&a<=0']], 'the new hand is shown once, at its final place'],
+    [['h==null||h.toggleAttribute("data-reader-pending",a>0);return d&&a<=0', 'h==null||h.toggleAttribute("data-reader-pending",!1);return d&&a<=0']], 'the new hand is shown once, at its final place'],
   // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
   ['d354-pane-follow-lag', 'pane-keyboard.spec.ts', 'D-354: the landing deck and its arrows follow the pane',
     [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
   // D-354 (H95, H97): REAL BREAK from D-351. A hand the reader held starts its Win chance when it publishes.
   ['d354-held-hand-no-value', 'article-sections.spec.ts', 'D-354: a hand the reader held starts its Win chance',
-    [['return c&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
+    [['return d&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
   // RETIRED (D-368, layout C): d354-play-film-left-home; the game film never enters the Videos slot.
   // D-354 N3: the film's only remover ends the reader's media-home observation.
   ['d354-removed-film-observed', 'defending-landing.spec.ts', 'D-354 N3: a removed film',
@@ -83,8 +83,7 @@ const controls = [
     [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),u=!0)', '!1&&(a=this._predictBottom(e.ahead),u=!0)']], 'ZERO overlap exchange @'],
   // D-433 (2026-10-26): migrate only the phone ordering/short-band premises.
   // U16's account, card spacing, scrolled input, handoff and restoration controls remain.
-  // Kills on this implementation are pending the guarded host run; these tuples
-  // name their claims, not new execution evidence.
+  // Run at 1cf59ba38 (answerpts round 2): all six killed at the claims named here.
   ['d370-band-186-in-catch', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band',
     [['this.W<=640?this._phoneCatch()?this.H<700?80:144:186:144', 'this.W<=640?186:144']], 'D-433 short live catch uses the smaller band'],
   ['u16-account-hidden', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band', [],
@@ -111,15 +110,15 @@ const controls = [
   // D-355: the band's soft hold engages only for a flight that reaches its lower edge (a URL arrival), never for one
   // inside the band (a hover's re-aim), and it is what keeps the arrival clear of the Moves row.
   ['d355-flight-lift-ungated', 'dual-pair.spec.ts', 'hovering any pair names it once',
-    [['active:!d.band||!!(u!=null&&u.band)', 'active:!0']], 'and the role moved below it'],
+    [['active:!c.band||!!(u!=null&&u.band)', 'active:!0']], 'and the role moved below it'],
   ['d355-flight-lift-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['(!d.band||u)&&(a.lift=', '!d.band&&(a.lift=']], 'URL arrival @'],
+    [['(!c.band||u)&&(a.lift=', '!c.band&&(a.lift=']], 'URL arrival @'],
   // ORCH-382 / H140-H144: the old 30px gate engages after contact; activating the subject only
   // when its gate opens starts the spring too late. Both fail the unchanged ZERO-overlap pin.
   ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['u.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+g+mt>d.bottom', 'u.band=(this.H||800)/2+(this.pairMid(h).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>d.bottom']], 'ZERO overlap URL arrival @'],
+    [['u.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+g+mt>c.bottom', 'u.band=(this.H||800)/2+(this.pairMid(h).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>c.bottom']], 'ZERO overlap URL arrival @'],
   ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['(!d.band||u)&&(a.lift=', '(!d.band||u!=null&&u.band)&&(a.lift=']], 'ZERO overlap URL arrival @'],
+    [['(!c.band||u)&&(a.lift=', '(!c.band||u!=null&&u.band)&&(a.lift=']], 'ZERO overlap URL arrival @'],
   // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
   // its transition-end reveal reproduces the card extending below the Learning pane at 1440px.
   ['concept-fit-reveal-lost', 'concepts-surface.spec.ts', 'principle film study.*1440px',
@@ -146,11 +145,27 @@ const controls = [
   ['u47-desktop-offer-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900',
     [['u.append(x," ",w),u.addEventListener("click",()=>this._landReveal())', 'u.append(x," ",...this.isMobile()?[w]:[]),u.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
   ['u47-reveal-keeps-asking-face', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
-    [['this._landTakenAt=performance.now(),this._landOptIn(),e.removeAttribute("data-land-ask");', 'this._landTakenAt=performance.now(),this._landOptIn();']], "Answer for Points shows today's card, with no reveal control inside it"],
+    [['this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none",e.removeAttribute("data-land-ask");', 'this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none";']], "Answer for Points shows today's card, with no reveal control inside it"],
   // U52 b: the take-up lays the reader out at once (the card leaves the quiet line's width); deferred, the first
   // queued layout moves the answers that already painted.
   ['u52b-take-up-layout-deferred', 'reading-navigation.spec.ts', 'the first queued reader layout cannot move a published answer',
     [['this._updateLandDeck(),(o=this._reader)==null||o.layoutNow(),this._dockLandCard(e)', 'this._updateLandDeck(),this._dockLandCard(e)']], 'the first queued layout moves no published answer'],
+  // APTS-R4 (1): a short phone trims the asking line to ONE line, so the link is on screen at arrival at 390x631.
+  ['u52b-short-phone-two-lines', 'covered-card.spec.ts', 'U52 b at 390x631 Answer for Points is on screen at arrival \\(short question\\)',
+    [['let i=(innerHeight<700?1:2)*parseFloat(', 'let i=2*parseFloat(']], 'U52 b at 390x631 Answer for Points is on screen and hit-testable at arrival'],
+  // U52 b (a) and (b): after one take-up in this tab, and with the pane open, a landing shows its card directly.
+  ['u52b-opt-in-forgotten', 'covered-card.spec.ts', 'U52 b after one take-up, later landings show the full card',
+    [['i||(this._landAsk=!this.deckShown&&!this._landOptedIn(),', 'i||(this._landAsk=!this.deckShown,']], 'U52 b after one take-up, later landings show the full card'],
+  ['u52b-pane-asks', 'covered-card.spec.ts', 'U52 b a landing rendered with the pane open shows the full card',
+    [['i||(this._landAsk=!this.deckShown&&!this._landOptedIn(),', 'i||(this._landAsk=!this._landOptedIn(),']], 'U52 b a landing rendered with the pane open shows the full card'],
+  // APTS-R4 (5): polish — no entry fade replayed at take-up; focus kept on the next asking landing; the arrow is
+  // not part of the link's accessible name.
+  ['u52b-take-up-replays-entry', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
+    [['this._landOptIn(),e.style.animation="none",e.removeAttribute("data-land-ask")', 'this._landOptIn(),e.removeAttribute("data-land-ask")']], "the take-up does not replay the card's entry on the question just tapped"],
+  ['u52b-focus-dropped', 'covered-card.spec.ts', 'U52 b a landing rendered with the pane open shows the full card; focus survives',
+    [['L(120)}c&&this._landQ&&!this._defenseDrillOpened', '}c&&this._landQ&&!this._defenseDrillOpened']], 'keyboard focus moves to Answer for Points, not the page'],
+  ['u52b-arrow-in-name', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)', [],
+    'the accessible name is "Answer for Points", without the arrow', [['content:" \\2192"/""', 'content:" \\2192"']]],
   ['u47-asking-answers-laid-out', 'covered-card.spec.ts', 'U35 D-433.*1440x900', [],
     'U47 d the asking card collapses its answer block', [['[data-land-ask] [data-land-count],[data-land-ask] [data-land-q]>[inert]{display:none!important}', '[data-land-ask] [data-land-count]{display:none!important}']]],
   ['u47-reveal-scroll-writer', 'covered-card.spec.ts', 'U35 D-433.*390x844',
@@ -184,11 +199,11 @@ const controls = [
   ['u36-motion-listener-lost', 'defending-landing.spec.ts', 'reduced motion keeps a static cue',
     [['(e=this._motionQuery)==null||e.addEventListener("change",this._motionChanged)', '(e=this._motionQuery)==null||0']], 'the media-change listener acted, with no frame pumped'],
   ['u35-watch-in-question', 'covered-card.spec.ts', 'U35 every question builder segregates technique media',
-    [['if(d.appendChild(f),this._landQ=c', 'if(d.appendChild(f),d.insertAdjacentHTML("beforeend","<button data-choice-watch>Watch technique</button>"),this._landQ=c']], 'U35 question surfaces contain no media/watch controls'],
+    [['if(c.appendChild(f),this._landQ=d', 'if(c.appendChild(f),c.insertAdjacentHTML("beforeend","<button data-choice-watch>Watch technique</button>"),this._landQ=d']], 'U35 question surfaces contain no media/watch controls'],
   // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
   // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
   ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
-    [['if(u&&!((d=this._reader)!=null&&d.interacting))', 'if(u&&!this._reader?.intent&&!((d=this._reader)!=null&&d.interacting))']],
+    [['if(u&&!((c=this._reader)!=null&&c.interacting))', 'if(u&&!this._reader?.intent&&!((c=this._reader)!=null&&c.interacting))']],
     '...and the chosen escape stays on the table'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null

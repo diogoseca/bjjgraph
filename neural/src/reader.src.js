@@ -222,7 +222,7 @@ class Reader {
         if (this.gameInput(event)) return;
         // Toolbar activation has its own intent. Native text selection and prose
         // focus count as reading before the question clock gets another frame.
-        if (type === "wheel" || type === "touchstart" || !event.target.closest(".ng-reader-tools")) this.readingInteraction(type);
+        if (type === "wheel" || type === "touchstart" || !event.target.closest(".ng-reader-tools")) this.readingInteraction(type, event);
         event.stopPropagation();
       }, { passive: true });
     }
@@ -682,12 +682,16 @@ class Reader {
     this.root.scrollTop += node.getBoundingClientRect().top - this.root.getBoundingClientRect().top - 6;
     focus.focus({ preventScroll: true });
   }
-  readingInteraction(type) {
+  readingInteraction(type, event) {
+    // U47 d / APTS-R4: a scroll does not decline a question still asking. Chromium sends a touch or pen press's
+    // pointerdown BEFORE touchstart, so that press counts as a scroll too; a link still declines on its click
+    // (sections and anchors below come back here with no type, articles through _readArticle).
+    const scroll = type === "wheel" || type === "touchstart" || type === "pointerdown" && event.pointerType !== "mouse";
     // Reading stops the game every time it is running: since D-338 a Videos clip is reading too, so
     // a pane that paused first can resume the game on close while the reader is still reading.
-    if (this.interacting && this.app.paused) return;
+    if (this.interacting && this.app.paused) { if (!scroll && !this.intent) this.app._declineLandQ("reading"); return; }
     this.interacting = true;
-    if (!this.intent) this.app._declineLandQ("reading", type === "wheel" || type === "touchstart");
+    if (!this.intent) this.app._declineLandQ("reading", scroll);
     this.app.setPaused(true);
     // Do not move text during a drag selection. The clock is already declined;
     // expanding after pointerup keeps the browser's native selection intact.

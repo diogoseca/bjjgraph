@@ -371,7 +371,8 @@ next-step overlay inside a video player.
 The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the
 choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat —
 the v1.123.0 Hick's-law knee died with the hand clock) arms when the player presses **Answer for Points**
-(`_armLandClock`) and drains a 3px bar on the card's top edge (neutral, red at ≤3s, "Answer
+(`_armLandClock`) — or, for a card that arrives already shown (after one take-up in this tab, U52 b), on arrival
+once the player has engaged; with the pane open (study) it does not run (`_clockGate`: `!deckShown`) — and drains a 3px bar on the card's top edge (neutral, red at ≤3s, "Answer
 3…2…1" in the announcer). Expiry (`_expireLandQ`) reveals the answer as a MISS — correct option
 highlighted, a failed SRS review, −4% and momentum broken (a later card: its smaller step) — and
 the hand stays
@@ -382,8 +383,8 @@ penalty exists only for letting it expire while it faces you. **The question clo
 pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
 staged boards and internal pauses included — **but it never STARTS before the player does**
 (v1.137.0, owner: "a first-time Guest can land on TOO SLOW · −4% before ever interacting"): no
-window arms until the player presses Answer for Points (or taps the question) and the card is
-visible; engagement alone (click, keypress or graph hover) cannot take the question up. An early arm parks in
+window arms until the player presses Answer for Points (or taps the question; a card shown on arrival
+after an opt-in needs only engagement) and the card is visible; engagement alone (click, keypress or graph hover) cannot take the question up. An early arm parks in
 `_cwArm` (a FLAG — the bar element resolves at arm time, because the card can re-render
 between park and engagement) and fires the moment both hold. Brand-new visitors
 (`_returningVisitor()` false) get a 1.5× grace window; returning players keep full pressure; the last three seconds pulse the card itself

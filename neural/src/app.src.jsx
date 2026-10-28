@@ -14279,6 +14279,9 @@ class Component extends DCLogic {
     this._landAsk = false;
     this._landTakenAt = performance.now(); // opens the double-tap guard (_landTapGuard)
     this._landOptIn();                     // U52 b: later landings show the full card directly
+    // The quiet line had `animation:none`; dropping it would replay the card's entry fade on the question just
+    // tapped. The card is already here, so it keeps none (APTS-R4).
+    el.style.animation = "none";
     el.removeAttribute("data-land-ask");
     const qw = el.querySelector("[data-land-q]");
     qw.firstElementChild.textContent = q.card.q; // the whole question, with the link gone
@@ -14306,14 +14309,16 @@ class Component extends DCLogic {
     block.querySelector("button")?.focus({ preventScroll: true });
   }
   /** U52 b: on a phone the asking line is at most two lines, with "Answer for Points" at its end:
-   *  trim the question (never the link) with an ellipsis until it fits. Desktop shows it whole. */
+   *  trim the question (never the link) with an ellipsis until it fits. Desktop shows it whole.
+   *  APTS-R4: a short phone (under 700px tall; the real p10 is 631) gets ONE line, so the link shares the
+   *  question's first line and is on screen at arrival with the deck's 16px gap after Moves (D-351). */
   _fitAskLine(qt) {
     const tx = qt.querySelector("[data-land-ask-text]");
     if (!tx) return;
     const full = tx.dataset.full || (tx.dataset.full = tx.textContent);
     tx.textContent = full;
     if (!this.isMobile()) return;
-    const max = 2 * parseFloat(getComputedStyle(qt).lineHeight) + 1;
+    const max = (innerHeight < 700 ? 1 : 2) * parseFloat(getComputedStyle(qt).lineHeight) + 1;
     if (qt.getBoundingClientRect().height <= max) return;
     let lo = 0, hi = full.length;
     while (lo < hi) {
@@ -14412,7 +14417,8 @@ class Component extends DCLogic {
     // Do not strand keyboard focus on a control that disappeared at a deck boundary.
     if ((focused === prev && prev.hidden) || (focused === next && next.hidden)) {
       const available = prev.hidden ? next : prev;
-      if (!available.hidden) available.focus({ preventScroll: true });
+      // Asking hides both (U52 b): keyboard focus goes to Answer for Points, never to the page (APTS-R4).
+      (available.hidden ? el.querySelector("[data-land-ask-go]") : available)?.focus({ preventScroll: true });
     }
     if (!this._landStackEl) {
       const stack = document.createElement("div");
@@ -14598,6 +14604,8 @@ class Component extends DCLogic {
     }
     // A late film/question backfill preserves the current landing's reader.
     const sameLanding = this._landIdx === node.idx;
+    // APTS-R4: keyboard focus on the old card or its arrows is not dropped when the next landing asks (below).
+    const kept = this._landSurfaces().some((s) => s.contains(document.activeElement));
     if (sameLanding) this.clearLandCard(true, this._landFilmEl?._ngMediaRole === (this._landPerspSide(node) || this.playerRole));
     else {
       // Navigation retires the old question before the new landing is rendered.
@@ -14776,6 +14784,13 @@ class Component extends DCLogic {
     // hand retain their own lifetimes and preferences.
     this._landCardChrome(el, node, key, this._landPerspSide(node));
     this._updateLandDeck();
+    if (kept && el.hasAttribute("data-land-ask")) {
+      // A held landing (D-351) is hidden until its article publishes it and cannot take focus yet: retry per frame,
+      // only while focus is still on the page (never taking it back from anything the player chose), ~2s at most.
+      const go = el.querySelector("[data-land-ask-go]");
+      const give = (n) => { if (n && go?.isConnected && document.activeElement === document.body) { go.focus({ preventScroll: true }); if (document.activeElement !== go) requestAnimationFrame(() => give(n - 1)); } };
+      give(120);
+    }
     if (defense && this._landQ && !this._defenseDrillOpened) {
       this._defenseDrillOpened = true;
       this.fx("panic_drill_opened", { deck_key: key });

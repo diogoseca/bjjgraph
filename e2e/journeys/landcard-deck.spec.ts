@@ -38,11 +38,12 @@ async function setup(page: Page, recall = false) {
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await page.waitForTimeout(350) // initial entry motion, not the transition under test
   if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]', 'dismiss the harness visitor’s earned patch')
-  // D-338 (owner): the article view reads Videos, Moves, Questions, so the deck now starts under
-  // the moves and can begin below the fold. Bring the face into the reader's view, as a reader
-  // scrolls to it; a programmatic scroll is not a reading gesture and starts nothing.
-  // U47 d: a recall re-render asks again. Take it up before bringing the face into view, so the
-  // reader scrolls to the shown card rather than to the shorter asking question.
+  // D-338 (owner), then U52 b: the article view reads Moves, the question, then Videos, so the deck
+  // starts under the moves and can begin below the fold. Bring the face into the reader's view, as a
+  // reader scrolls to it; a programmatic scroll is not a reading gesture and starts nothing.
+  // U47 d + U52 b: this re-render is the tab's first landing, so it asks (no take-up yet; after one, a
+  // landing shows its card directly). Take it up before bringing the face into view, so the reader
+  // scrolls to the shown card rather than to the shorter asking line.
   await j.openQuestion()
   await page.locator('[data-landcard]').evaluate(e => e.scrollIntoView({ block: 'nearest' }))
   await j.readerLayoutSettled()

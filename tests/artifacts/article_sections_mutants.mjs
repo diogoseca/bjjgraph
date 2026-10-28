@@ -187,7 +187,7 @@ const mutants = [
   ['d338-closed-label-boxed', sections, 'contents and header targets at 390x844', s => s, css => css + '\n.ng-section-card[data-collapsed=true]{background:#1b2034!important;border-color:#414c68!important}\n'],
   ['d338-page-scrolls-flow-top', 'landcard-deck.spec.ts', '390px MC: deck pages', s => replace(s, 'root.scrollTop = Math.min(root.scrollTop, Math.max(0, top));', 'root.scrollTop = 0;')],
   ['d338-clamped-place-lost', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '      if (this.placeTop > this.root.scrollTop) this.root.scrollTop = this.placeTop;\n', '')],
-  ['d338-running-reader-not-paused', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '    if (this.interacting && this.app.paused) return;', '    if (this.interacting) return;')],
+  ['d338-running-reader-not-paused', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '    if (this.interacting && this.app.paused) { if', '    if (this.interacting) { if')],
   // D5-N1: the deck backs' clearance and the tray's symmetry, each with its own claim.
   // D-368: at 1440 the current card's film beside the question is taller and absorbs the backs' reserve; the
   // stacked phone stage is where the article must clear them.
@@ -227,6 +227,10 @@ const mutants = [
   // execution opens one. Without it the pair falls under the card just pressed at reader scroll 170-200px.
   ['u52b-execution-slot-lost', 'roll-execution.spec.ts', 'at 390x844 a pick with the reader scrolled',
     s => replace(s, '      if (need > 0 && need < H / 3) {', '      if (false) {')],
+  // APTS-R4 (2): Chromium sends a touch press's pointerdown before touchstart; without the pointer-type check a
+  // touch scroll declines the asking question.
+  ['u52b-touch-press-declines', 'covered-card.spec.ts', 'a touch scroll over the article does not decline',
+    s => replace(s, ' || type === "pointerdown" && event.pointerType !== "mouse"', '')],
   ['u47-backs-unpaid', 'landcard-deck.spec.ts', '390px: the deck face keeps its 1.5x foot',
     s => replace(s, 'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);',
       'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight);')],

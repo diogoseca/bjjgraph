@@ -47,6 +47,8 @@ for (const width of [1440, 390]) {
     await j.boot('/', { seedRolls: coveredRolls })
     await j.land('Mount Top')
     await expect(page.locator('.ng-landcard [data-land-ask-go]')).toHaveText('Answer for Points')
+    // APTS-R4: the arrow is decoration (`content:" →"/""`); the link's accessible name is its words alone.
+    await expect(page.getByRole('button', { name: 'Answer for Points', exact: true }), 'the accessible name is "Answer for Points", without the arrow').toHaveCount(1)
     // U34 a's in-card Reveal is deleted, not hidden.
     await expect(page.locator('[data-question-reveal], .ng-question-stage, [data-question-covered]')).toHaveCount(0)
     expect(await face(page), 'U47 d: on landing only the question (and its ✕) shows; the card waits').toEqual(
@@ -132,6 +134,9 @@ for (const width of [1440, 390]) {
     }, question)
     expect(words, 'the question\'s own words are hit-testable where they sit').toMatchObject({ hit: true })
     await page.mouse.click(words.x, words.y)
+    // APTS-R4: the card is already on screen, so the take-up must not replay its entry fade (ngCardInX).
+    expect(await page.evaluate(() => (window as any).__neural._landEl.getAnimations().filter((x: any) => x.animationName === 'ngCardInX').length),
+      "the take-up does not replay the card's entry on the question just tapped").toBe(0)
     expect(await face(page), 'a tap on the question shows the card').toMatchObject({ asking: false, go: 0, answers: 3, inert: false })
     expect((await state(page)).remaining, 'the question taken up after a scroll starts its clock').toBeGreaterThan(0)
   })
@@ -209,6 +214,108 @@ test('@curated U47 d following an article link declines an asking question, as o
   const declined = await page.evaluate(() => ((window as any).__neural.beats || []).filter((b: any) => b.beat === 'land_q_declined').map((b: any) => b.reason))
   expect(declined, 'following an article link declines the asking question (reason reading), as on dev').toEqual(['reading'])
   expect(await funnelMarks(page), 'and the funnel marks it question_ignored, as on dev').toContain('question_ignored')
+})
+
+// APTS-R4 (1): a short phone (390x631, the real p10) shows Answer for Points at arrival. The asking line keeps the
+// deck's 16px gap after Moves (a take-up moves nothing, D-351), so under 700px tall the question is trimmed to ONE
+// line and the link shares it. At 1cf59ba38 the link sat on the second line, at y 540.5-554.5, under the reader's
+// end at 541. Real questions: Mount Top (59 characters) and Twister Control Top (99).
+for (const [label, at] of [['short', 'Mount Top'], ['long', 'Twister Control Top']] as const) {
+  test(`@curated U52 b at 390x631 Answer for Points is on screen at arrival (${label} question)`, async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 631 })
+    const j = journey(page)
+    await j.boot('/', { seedRolls: coveredRolls })
+    await j.land(at)
+    await j.readerLayoutSettled()
+    const m = await page.evaluate(() => {
+      const a = (window as any).__neural, go = a._landEl.querySelector('[data-land-ask-go]'), q = a._landEl.querySelector('[data-land-q]').firstElementChild
+      // the link's TEXT box (a Range), not its padded 44px target
+      const rg = document.createRange(); rg.selectNodeContents(go)
+      const t = rg.getBoundingClientRect(), r = a._reader.root.getBoundingClientRect(), x = t.left + t.width / 2, y = t.top + t.height / 2
+      const hit = document.elementFromPoint(x, y)
+      return { scrollTop: a._reader.root.scrollTop, lines: Math.round(q.clientHeight / parseFloat(getComputedStyle(q).lineHeight)),
+        inReader: y > r.top && y < r.bottom, hit: !!hit && go.contains(hit), y: Math.round(y), end: Math.round(r.bottom) }
+    })
+    expect(m.scrollTop, 'premise: an arrival, nothing scrolled').toBe(0)
+    expect(m, 'U52 b at 390x631 Answer for Points is on screen and hit-testable at arrival').toMatchObject({ lines: 1, inReader: true, hit: true })
+  })
+}
+
+// APTS-R4 (2): a TOUCH scroll does not decline an asking question. Chromium delivers a touch press's pointerdown
+// BEFORE touchstart, so the reader counts a touch or pen pointerdown as a scroll; links still decline (above). A real
+// CDP touch drag over the article, then a take-up that must get its clock.
+test.describe('touch', () => {
+  test.use({ hasTouch: true })
+  test('@curated U52 b a touch scroll over the article does not decline an asking question (390)', async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 })
+    const j = journey(page)
+    await j.boot('/', { seedRolls: coveredRolls })
+    await j.land('Mount Top')
+    await j.readerLayoutSettled()
+    const at = await page.evaluate(() => {
+      const a = (window as any).__neural, r = a._reader.root.getBoundingClientRect(), art = a._reader.articleEl.getBoundingClientRect()
+      const x = Math.round(r.left + r.width / 2), y = Math.round(Math.min(r.bottom - 40, Math.max(art.top + 40, r.top + 200)))
+      return { x, y, onArticle: a._reader.articleEl.contains(document.elementFromPoint(x, y)) }
+    })
+    expect(at.onArticle, 'premise: the drag starts on the article').toBe(true)
+    const cdp = await page.context().newCDPSession(page)
+    const touch = (type: string, y: number) => cdp.send('Input.dispatchTouchEvent', { type, touchPoints: type === 'touchEnd' ? [] : [{ x: at.x, y }] })
+    await touch('touchStart', at.y)
+    for (let i = 1; i <= 8; i++) await touch('touchMove', at.y - i * 20)
+    await touch('touchEnd', at.y - 160)
+    await j.advance(500)
+    expect(await page.evaluate(() => (window as any).__neural._reader.interacting), 'premise: the touch reached the reader as reading').toBe(true)
+    expect((await j.beats()).map(b => b.beat), 'U52 b: a touch scroll does not decline an asking question').not.toContain('land_q_declined')
+    expect((await state(page)).asking, 'and the question still asks').toBe(true)
+    await j.openQuestion()
+    expect((await state(page)).remaining, 'a later take-up gets its clock').toBeGreaterThan(0)
+  })
+})
+
+// U52 b (a): after one take-up, later landings in this tab show the full card (NG_LAND_ASK_MEMORY "session",
+// `_landOptedIn`). The next landing comes through the app's own staging seam, as roll-execution's sweep restages.
+test('@curated U52 b after one take-up, later landings show the full card (1440)', async ({ page }) => {
+  const j = journey(page)
+  await j.boot('/', { seedRolls: coveredRolls })
+  await j.land('Mount Top')
+  expect((await face(page)).asking, 'premise: the first landing asks').toBe(true)
+  await j.openQuestion()
+  expect(await page.evaluate(() => sessionStorage.getItem('ng-land-opted-in')), 'the take-up is remembered for this tab').toBe('1')
+  await page.evaluate(() => { const w = window as any, a = w.__neural; w.__firstLanding = a._landEl; a.rollFromPosition(a.currentPos, false, a.playerRole) })
+  for (let i = 0; i < 40; i++) {
+    if (await page.evaluate(() => { const w = window as any, a = w.__neural; return !!a._landEl && a._landEl !== w.__firstLanding && !!a._landQ })) break
+    await j.advance(500)
+  }
+  expect(await page.evaluate(() => (window as any).__neural._landEl !== (window as any).__firstLanding), 'premise: a new landing').toBe(true)
+  expect(await face(page), 'U52 b after one take-up, later landings show the full card').toMatchObject({ asking: false, go: 0, answers: 3 })
+})
+
+// U52 b (b): a landing rendered while the pane is open (Study, Challenges, Last rolls) shows the full card. A study
+// arrow renders ANOTHER node's landing through renderLandCard, so this does too. APTS-R4 (5): when the next landing
+// asks, keyboard focus on the old card's deck arrow moves to Answer for Points instead of dropping to the page.
+test('@curated U52 b a landing rendered with the pane open shows the full card; focus survives the next asking landing (1440)', async ({ page }) => {
+  const j = journey(page)
+  await j.boot('/', { seedRolls: coveredRolls })
+  await j.land('Mount Top')
+  const render = (t: string) => page.evaluate(async (t) => {
+    const a = (window as any).__neural, node = a.nodes.find((n: any) => n.ty === 'positions' && n.t === t)
+    a.renderLandCard(node, 'land', null)
+  }, t)
+  const mounted = async () => { for (let i = 0; i < 40; i++) { if (await page.evaluate(() => !!(window as any).__neural._landQ)) return; await j.advance(250) } }
+  await j.clickByMouse('.ng-logo', 'open the pane')
+  await expect(page.locator('.ng-drill')).toBeVisible()
+  await render('Side Control Top'); await mounted()
+  expect(await face(page), 'U52 b a landing rendered with the pane open shows the full card').toMatchObject({ asking: false, go: 0, answers: 3 })
+  await j.clickByMouse('.ng-explorer-close', 'close the pane')
+  await page.locator('[data-land-next]').focus()
+  expect(await page.evaluate(() => document.activeElement?.hasAttribute('data-land-next')), 'premise: keyboard focus on the deck arrow').toBe(true)
+  await render('Mount Top'); await mounted()
+  expect((await face(page)).asking, 'premise: with the pane shut and no take-up, the next landing asks').toBe(true)
+  // The new landing is held hidden until its article renders (D-351), so focus lands when it publishes.
+  await j.readerLayoutSettled()
+  await expect.poll(() => page.evaluate(() => !(window as any).__neural._landEl.hasAttribute('data-reader-pending')), { message: 'premise: the landing publishes' }).toBe(true)
+  await j.advance(100)
+  expect(await page.evaluate(() => document.activeElement?.hasAttribute('data-land-ask-go')), 'keyboard focus moves to Answer for Points, not the page').toBe(true)
 })
 
 // A real 99-character question (Twister Control, Top, card 1), not injected text.

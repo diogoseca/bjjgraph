@@ -12828,6 +12828,21 @@ fell under the card just pressed. Controls at 390x844, 3 runs each: red 3/3 on t
 the missing height under the row for that execution only (the handoff's height grows, so the article moves down and
 the clicked row never does), once per execution and counted (`_execFrame.slot`); mutant `u52b-execution-slot-lost`.
 An earlier focused re-run had filtered by `file:line` after the specs moved one or two lines, so three of its four
-targets (this sweep among them) never ran and its green said nothing about them; every final stage now prints its
-ran-count and fails on zero.
+targets (this sweep among them) never ran and its green said nothing about them. From then on each focused run's
+JSON report went through a ran-count check that exits 1 on zero (`ran.py`, in the worker's scratch, not the repo);
+the full shards and gen ran on PR CI, and the mutant runners already count a run with no test as not killed.
+
+**Review round APTS-R4 (merge with follow-ups, three must-fix).** (1) At 390x631 the link was off screen at arrival:
+the deck's 16px gap after Moves (kept so a take-up moves nothing, D-351) pushed the two-line asking line to y 521-556
+with the link on its second line (540.5-554.5) and the reader ending at 541. Under 700px tall `_fitAskLine` now trims
+to ONE line, so the link shares the first; covered-card pins it at arrival for a short and a long question
+(`u52b-short-phone-two-lines`). (2) Chromium delivers a touch press's pointerdown before touchstart, so a touch
+scroll declined the asking question; `readingInteraction` counts a touch or pen pointerdown as a scroll, and a reader
+already reading still declines on a link, key or focus (a real CDP touch drag pins it; `u52b-touch-press-declines`).
+(3) U52 b's two rules got specs and mutants: the session opt-in (`u52b-opt-in-forgotten`) and the pane-open full card
+(`u52b-pane-asks`). Polish: a take-up keeps `animation:none`, so the card's entry fade does not replay on the
+question just tapped; the arrow is `content:" →"/""`, outside the accessible name; keyboard focus on the old card or
+its arrows moves to Answer for Points when the next landing asks. The clock text in Neural.md and the rules now says
+what `_clockGate` does: a card shown on arrival after an opt-in arms once the player has engaged; with the pane open
+no clock runs. Deferred payload +116 B (506,590 of 506,817).
 

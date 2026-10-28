@@ -384,10 +384,10 @@ test("cold start: the landing card stays centred through its entry animation", a
   // mounts — and the backfill mounts it again mid-turn, so a cold visitor sees it twice.
   const j = journey(page);
   await j.boot("/", { keepTutorial: true });
+  // U52 b: the asking question is a quiet line with no entry animation, and a take-up keeps the card still
+  // (APTS-R4). The card ENTERS when a landing shows it directly: after a take-up in this tab (the session opt-in).
+  await page.evaluate(() => sessionStorage.setItem("ng-land-opted-in", "1"));
   await j.land("Mount Top");
-  // U52 b: the asking question is a quiet line with no entry animation (`animation:none`); the card's
-  // entry runs when it is taken up, so take it up first and measure that card.
-  await j.openQuestion();
 
   // Read the card's own resolved animation-name, then the keyframes it actually names. This is the
   // defect exactly: any keyframe that mentions `transform` must carry the centring translate, or
