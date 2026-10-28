@@ -1,3 +1,5 @@
+import { categoryRedirect, compileRules } from "./redirect-fallback.mjs";
+
 // Only explicit Markdown preferences opt in; ordinary browser Accept stays HTML.
 export function prefersMarkdown(accept = "") {
   const ranges = accept.split(",").map((part) => {
@@ -34,6 +36,9 @@ const CATEGORIES = new Set([
   "Learning",
 ]);
 const SIGNAL = "search=yes, ai-input=yes";
+// The category pages' tier in _headers; Pages applies _headers to asset responses only, so the
+// fallback's redirect carries the value the asset server's own redirects got.
+const PAGE_CACHE = "public, max-age=300, stale-while-revalidate=3600";
 const DISCOVERY_LINKS =
   '<https://bjjgraph.org/sitemap.xml>; rel="sitemap"; type="application/xml", <https://bjjgraph.org/.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", <https://bjjgraph.org/llms.txt>; rel="describedby"; type="text/plain"';
 
@@ -50,14 +55,28 @@ const SECURITY_HEADERS = {
     "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data: https: blob:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://assets.mediadelivery.net https://www.youtube.com https://s.ytimg.com https://cdn.jsdelivr.net https://*.posthog.com https://*.i.posthog.com https://www.clarity.ms https://static.cloudflareinsights.com https://*.bjjgraph.org; connect-src 'self' https://api.github.com https://*.supabase.co https://*.posthog.com https://*.i.posthog.com https://www.clarity.ms https://cloudflareinsights.com https://*.bjjgraph.org; worker-src 'self' blob:; manifest-src 'self'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://iframe.mediadelivery.net https://player.mediadelivery.net",
 };
 
-export async function onRequest(context) {
+// The Function entry (functions/_middleware.js) passes the build's own category redirect table,
+// bundled at deploy time. Without one this is pure content negotiation, as tests/agent_discovery
+// exercises it.
+export function withRedirects(table) {
+  const redirects = compileRules(table);
+  return (context) => respond(context, redirects);
+}
+
+export const onRequest = withRedirects(null);
+
+async function respond(context, redirects) {
   const { request, env } = context;
   const url = new URL(request.url);
+  // A retired or renamed URL under a category answers BEFORE any page lookup, as Cloudflare's own
+  // _redirects did (v1.237.2, RDR546): _redirects cannot hold every rule (100 dynamic), and a page
+  // a deploy removed can still be served from Cloudflare's retention cache for days.
+  const moved = categoryRedirect(redirects, request, PAGE_CACHE);
   let path;
   try {
     path = decodeURIComponent(url.pathname).replace(/\/$/, "") || "/";
   } catch {
-    return context.next();
+    return moved || context.next();
   }
   const isPublic =
     path === "/" ||
@@ -70,14 +89,14 @@ export async function onRequest(context) {
     path.split("/").some((p) => p === "." || p === "..") ||
     /[\\\u0000-\u001f]/.test(path)
   ) {
-    return context.next();
+    return moved || context.next();
   }
 
-  let response;
+  let response = moved;
   let markdown = false;
   const markdownPath =
     "/markdown/" + (path === "/" ? "index" : path.slice(1)) + ".md";
-  if (prefersMarkdown(request.headers.get("accept") || "")) {
+  if (!response && prefersMarkdown(request.headers.get("accept") || "")) {
     const asset = new URL(url.origin);
     asset.pathname = markdownPath;
     // Fresh internal GET: no user credentials, Range, or HTML validators forwarded.
@@ -148,10 +167,7 @@ export async function onRequest(context) {
       `<https://bjjgraph.org${url.pathname}>; rel="canonical"`,
     );
   } else if (response.ok && !headers.has("Cache-Control")) {
-    headers.set(
-      "Cache-Control",
-      "public, max-age=300, stale-while-revalidate=3600",
-    );
+    headers.set("Cache-Control", PAGE_CACHE);
   }
   if (request.method === "HEAD") await response.body?.cancel();
   return new Response(request.method === "HEAD" ? null : response.body, {

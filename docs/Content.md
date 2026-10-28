@@ -101,7 +101,12 @@ replacement path. The originals leave the active content tree; their ordinal ass
 in `node_ordinals.json` and are marked retired by the normal graph pipeline. Never reuse them.
 After changing the archive mappings, run `python3 scripts/regenerate_identity_redirects.py`.
 It regenerates the marked section of `source/quartz/static/_redirects`, with entry-specific
-rules before family wildcards. The normal build then emits the public redirect file.
+rules before family wildcards: the Title-Case hub and its wildcard, and the lowercase hub as an
+exact rule only (nothing was ever published under a lowercase hub). The normal build then emits
+two files from it: `_redirects`, every exact rule first, and `static/redirect-fallback.json`, every
+rule under the three categories, which the Pages middleware bundles and answers before any page
+lookup, because Cloudflare loads at most 100 wildcard rules. `npm run validate:redirect-limits`
+checks both against Cloudflare's own parser, and that no rule hides a live page.
 
 ## Probabilities and Published Rates
 

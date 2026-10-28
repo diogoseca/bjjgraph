@@ -51,6 +51,20 @@ def parse_rules(text: str) -> dict[str, tuple[str, ...]]:
     return rules
 
 
+def published_text(public: Path) -> str:
+    """Every published rule: `_redirects` plus the fallback table's wildcards (v1.237.2, RDR546).
+
+    Cloudflare cannot hold every wildcard in `_redirects`, so regenerate_redirects.py moves the
+    category rules to static/redirect-fallback.json, which the Pages middleware bundles and answers first.
+    A base emitter that predates the split writes no table; today's always does, and without it the
+    moved wildcards read as vanished sources here, never as preserved ones."""
+    text = (public / "_redirects").read_text()
+    table = public / "static" / "redirect-fallback.json"
+    if table.is_file():
+        text += "".join(f"{source} {target} {status}\n" for source, target, status in json.loads(table.read_text())["rules"])
+    return text
+
+
 def compare_sources(
     before: dict[str, tuple[str, ...]],
     after: dict[str, tuple[str, ...]],
@@ -92,7 +106,7 @@ def emit_rules(repo: Path, output: Path) -> dict[str, tuple[str, ...]]:
                             cwd=repo, capture_output=True, text=True)
     if result.returncode:
         raise RuntimeError(result.stdout + result.stderr)
-    return parse_rules((output / "_redirects").read_text())
+    return parse_rules(published_text(output))
 
 
 def base_rules(repo: Path, baseline_ref: str) -> dict[str, tuple[str, ...]]:
@@ -145,7 +159,7 @@ def audit(repo: Path, public: Path | None = None, verify_baseline: bool = False)
         with tempfile.TemporaryDirectory(prefix="identity-redirect-current-") as directory:
             after = emit_rules(repo, Path(directory))
     else:
-        after = parse_rules((public / "_redirects").read_text())
+        after = parse_rules(published_text(public))
     explicit = parse_rules("\n".join(retirement_rules(archive["records"], repo)))
     missing, counts = compare_sources(before, after, explicit)
     return {"baseline_ref": baseline_ref, "baseline_reproduced": verify_baseline,
