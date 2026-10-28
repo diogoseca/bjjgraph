@@ -141,13 +141,22 @@ const NG_CAM_OPEN_GOAL_W = 14;     // rad/s: the landing framing is followed thr
 // frame (CAM2548, CDP counters over the opening at 1440x900: style recalc 463-479 ms against dev's 76-80, at the same
 // ~335 recalcs; 291 frames drawn against dev's 374-403). Their initial values show a row that was never stamped.
 const NG_CAM_OPEN_ROWS = ".ng-landfilm,.ng-landcard,.ng-optionrow";
+// A row the reader has taken in: adopted (`data-reader-game-part`), or the film placed in its media home or slot
+// (`place()` tags those `data-reader-game-media` / `data-reader-media`, never game-part). Such a row rides and fades
+// with the section; styling it as loose as well rode the Videos row twice (Book off: the node-to-Moves distance varied
+// 188px) and faded it at o-squared (Book on: 0.29 at a board of 0.54). PR #320's re-review, F1/F2.
+const NG_CAM_OPEN_HOMED = "[data-reader-game-part],[data-reader-game-media],[data-reader-media]";
 const NG_CAM_OPEN_CSS = "@property --ng-open-o{syntax:'<number>';inherits:false;initial-value:1}"
   + "@property --ng-open-y{syntax:'<length>';inherits:false;initial-value:0px}"
   + "[data-ng-open] .ng-reader{opacity:var(--ng-open-o);translate:0 var(--ng-open-y)}"
   + "[data-ng-open] .ng-reader-shelf{opacity:var(--ng-open-o)}"
-  + "[data-ng-open] :is(" + NG_CAM_OPEN_ROWS + "):not([data-reader-game-part]){opacity:var(--ng-open-o)!important}"
-  + "[data-ng-open][data-ng-book=off] :is(" + NG_CAM_OPEN_ROWS + "):not([data-reader-game-part]){translate:0 var(--ng-open-y)!important}"
+  + "[data-ng-open] :is(" + NG_CAM_OPEN_ROWS + "):not(" + NG_CAM_OPEN_HOMED + "){opacity:var(--ng-open-o)!important}"
+  + "[data-ng-open][data-ng-book=off] :is(" + NG_CAM_OPEN_ROWS + "):not(" + NG_CAM_OPEN_HOMED + "){translate:0 var(--ng-open-y)!important}"
   + "[data-ng-open=faint] :is(" + NG_CAM_OPEN_ROWS + ",.ng-reader-shelf){visibility:hidden}"
+  // the film in the reader's media home keeps reading.css's `visibility:visible!important`; a faint board outranks it
+  + "[data-ng-open=faint] .ng-reader :is([data-reader-media],[data-reader-game-media]){visibility:hidden!important}"
+  // ...and the section's own controls (article links, tools, section labels) take no tap or focus while faint
+  + "[data-ng-open=faint] .ng-reader :is(a,button,input,select,textarea,summary,[tabindex]:not([tabindex='-1'])){visibility:hidden!important}"
   + "[data-ng-open=release] :is(.ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS + "){transition:opacity .2s ease,translate .2s ease}";
 // Below this the board's rows and shelf are HIDDEN, not merely transparent: an opacity-0 row still takes a
 // tap and focus (CLAUDE.md 6.1; review m3 measured a tap on the first card at effective opacity 0.066). The
@@ -13007,7 +13016,7 @@ class Component extends DCLogic {
     if (!q || q.laid || q.skip || q.pub || q.idx !== this._landIdx || this._readerFailed || q.t0 == null) return false;
     const left = q.t0 + NG_READER_FIRST_LAYOUT_MS - performance.now();
     if (left <= 0) return false;
-    if (!q.armed) { q.armed = true; setTimeout(() => this._ensureGameValues(), left + 1); }   // once per landing
+    if (!q.armed) { q.armed = true; setTimeout(() => { this._ensureGameValues(); if (!this.__ngDestroyed) this.paintChoiceValues?.(); }, left + 1); }   // once per landing
     return true;
   }
   _gameValuePlayable() {
@@ -13152,7 +13161,8 @@ class Component extends DCLogic {
   }
   choiceValueView(opt) {
     const runtime = this.choiceValueRuntime(), record = this.choiceValueRecord(opt);
-    const preparing = ["scheduled", "loading", "preparing"].includes(this._gameValueState);
+    // waiting for the reader's first layout (`_readerAwaited`) is preparing too, never "unavailable" (re-review m-c)
+    const preparing = ["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._readerAwaited();
     if (runtime && !preparing) return runtime.ngChoiceValueView(record, this._choiceValues && this._choiceValues.snapshot());
     const p = record.immediateExecutionChance, loading = preparing || this._choiceRuntimeState === "loading", error = this._choiceRuntimeState === "error";
     return { label: "Win chance", value: "—", status: loading ? "pending" : error ? "error" : "unavailable",
@@ -13264,7 +13274,7 @@ class Component extends DCLogic {
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
     const row = this.optionsRef.current, status = row?.querySelector("[data-choice-value-status]");
-    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading") ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
+    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
     const retry = row?.querySelector("[data-choice-value-retry]");
     if (retry) retry.style.display = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status))) ? "inline-block" : "none";
     const sort = row?.querySelector("[data-choice-value-sort]");
@@ -17176,13 +17186,18 @@ class Component extends DCLogic {
     this._arriveWideUntil = this.now + this.NG_ARRIVE_KICKER + 0.5;
     this._arriveGlideUntil = this.now + this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME + this.NG_ARRIVE_HANDOFF;
     this._arriveLabelT = this.now + this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME; // hand-off start
-    this.after(this.NG_ARRIVE_KICKER, () => {
+    const reveal = this.after(this.NG_ARRIVE_KICKER, () => {
       this._arriveWide = false;
       // Reveal identity, URL, highlight and measured content in the same frame.
       this.enterLand(true, true);
       // a directed arrival named the state at the pick, and its heading glides on the rise (updateCamera)
       if (!opening) this._centerReveal(this.posFamily(this.nodes[this.currentPos].t), this.roleLabel());
+      // THE ROWS MOUNT ON THIS WALL-CLOCK TIMER, which can fire a frame or more before the rAF clock reaches the
+      // reveal (re-review F4: 2 of 16 first openings painted Moves and Videos at full opacity for 52 and 82ms). The
+      // board is styled here, at the mount, and holds faint until the clock's rise begins.
+      if (opening && this._camOpen === opening && !opening.cancelled) { opening.mounted = true; this._openingBoard(opening); }
     });
+    if (opening) opening.reveal = reveal;   // the mount's own timer: a spec fires it early (opening-camera, MOUNT)
     // UNCONDITIONAL, as before the directed arrival: a lease (`holdCamera`: a share cue, a session) retires the
     // token mid-arrival, and a hide gated on it left "Mount / Top" up for good (review M1)
     this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME, () => this._centerHandoff());
@@ -18803,6 +18818,9 @@ class Component extends DCLogic {
   }
   _retireCamOpen() {
     if (this._camOpen) this._camOpen.cancelled = true;   // also kills queued reveal rAFs
+    // ...and beat 1's wide flag, which only the reveal used to clear: a pause between the pick and the reveal left the
+    // retired staged arrival's zoom-out-and-back running until pick + 2.5 (re-review m-a; owner U48 removed it)
+    if (this._camOpen && this._arriveWide) this._arriveWide = false;
     // a staged restart takes the board over where it stands (startRoll's hand-off: two quick restarts must
     // not pop the old board back to full, review m2); every other retirement releases it in 0.2s
     if (!this._openHandOff) this._openBoardEnd(true);
@@ -18920,7 +18938,7 @@ class Component extends DCLogic {
     if (!op || op.cancelled || op.pick == null || op.boardDone || this._reducedMotion()) return;
     const wrap = this.wrapRef?.current; if (!wrap) return;
     const t = this.now, E = op.pick + this.NG_ARRIVE_KICKER, sec = this._readerEl || this._reader?.root;
-    if (t < E && !op.restart) return;   // a first opening has no board before its reveal: nothing to hold
+    if (t < E && !op.restart && !op.mounted) return;   // a first opening has no board before its rows mount
     let o, y;
     if (t < E) {
       if (op.restart && op.tin) {
@@ -19017,7 +19035,7 @@ class Component extends DCLogic {
       // ceiling (D-351, 800ms), so a row that is never adopted costs one more cut, never a stuck view.
       const sec = this._readerEl || this._reader?.root, coming = !!(this._reader || this._readerLoad) && !this._readerFailed;
       const loose = coming && this.now < op.pick + this.NG_ARRIVE_KICKER + 0.8
-        && [this._landEl, this._handShown() && this.optionsRef?.current].some((el) => el && el.isConnected && el.offsetHeight > 40 && !(sec?.isConnected && sec.contains(el)));
+        && [this._landEl, this._handShown() && this.optionsRef?.current].some((el) => el && el.isConnected && el.offsetHeight > (el === this._landEl ? 0 : 40) && !(sec?.isConnected && sec.contains(el)));   // a card of any height: an asking line is ~37px
       op.rmLast = F; op.rmStill = L && near(F, L) && !loose ? (op.rmStill || 0) + 1 : 0;
       if (op.rmStill >= NG_CAM_OPEN_RM_SETTLE && !(op.rmShown && near(op.rmShown, F))) op.rmShown = F;
       return { snap: true, target: op.rmShown || over };

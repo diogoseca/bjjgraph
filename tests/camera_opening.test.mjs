@@ -163,9 +163,12 @@ const boardApp = (state = {}) => {
 
 test("the board is wrap state the CSS turns into styles; a row is styled by where it stands, so adoption needs no frame", () => {
   const css = evalApp("return NG_CAM_OPEN_CSS;");
-  assert.match(css, /:not\(\[data-reader-game-part\]\)\{opacity:var\(--ng-open-o\)!important\}/, "a loose row fades by the reader's own adoption mark");
-  assert.match(css, /\[data-ng-open=faint\][^{]*\{visibility:hidden\}/, "only a faint board hides its rows");
-  assert.equal((css.match(/visibility/g) || []).length, 1, "no other rule hides anything");
+  assert.match(css, /:not\(\[data-reader-game-part\],\[data-reader-game-media\],\[data-reader-media\]\)\{opacity:var\(--ng-open-o\)!important\}/,
+    "a loose row fades by the reader's own marks: adopted, or the film in its media home or slot (re-review F1/F2)");
+  assert.match(css, /\[data-ng-open=faint\][^{]*\{visibility:hidden\}/, "a faint board hides its rows");
+  assert.match(css, /\[data-ng-open=faint\] \.ng-reader :is\(\[data-reader-media\],\[data-reader-game-media\]\)\{visibility:hidden!important\}/, "...the homed film too, over reading.css (F3)");
+  const hides = css.split("}").filter((r) => /visibility/.test(r));
+  assert.ok(hides.length >= 1 && hides.every((r) => r.startsWith("[data-ng-open=faint]")), "and only a faint board hides anything: " + hides.join(" | "));
   withDocument((nodes) => {
     const { a, wrap } = boardApp(); a.now = 2.5;
     const op = a._camOpen = { pick: 0, cancelled: false, rise: 0.4, riseDy: 120 };
@@ -198,6 +201,39 @@ test("the board's two values never inherit: they are stamped on the parts that r
     for (const e of [sec, shelf, card, hand]) assert.deepEqual(e.props, {}, "every stamp comes off with the board");
     clearTimeout(a._openStall);
   });
+});
+
+test("rows that mount before the clock reaches the reveal are styled at once, faint (re-review F4)", () => {
+  withDocument(() => {
+    const { a, wrap } = boardApp(); a.now = 1.9;   // the pick at 0: the rAF clock has not reached the reveal (2.0)
+    const op = a._camOpen = { pick: 0, cancelled: false, rise: 0, riseDy: 0 };
+    a._openingBoard(op);
+    assert.equal(wrap.dataset.ngOpen, undefined, "no rows yet: nothing to style");
+    op.mounted = true; a._openingBoard(op);   // the reveal's wall-clock timer fired first and mounted them
+    assert.equal(wrap.dataset.ngOpen, "faint", "mounted early, the board is faint at once: never a frame at full opacity");
+    assert.equal(wrap.props["--ng-open-o"], "0");
+    clearTimeout(a._openStall);
+  });
+});
+
+test("retiring the arrival also ends beat 1's wide view (re-review m-a)", () => {
+  withDocument(() => {
+    const { a } = boardApp();
+    a._camOpen = { pick: 0, cancelled: false }; a._arriveWide = true; a._openHandOff = false;
+    a._retireCamOpen();
+    assert.equal(a._arriveWide, false, "a pause between the pick and the reveal runs no zoom-out-and-back");
+  });
+});
+
+test("while the reader is awaited the hand reads preparing, never unavailable (re-review m-c)", () => {
+  const a = make();
+  Object.assign(a, { choiceValueRuntime: () => null, choiceValueRecord: () => ({ immediateExecutionChance: 0.5, kind: "move" }),
+    choiceImmediateFallback: () => ({}), _gameValueState: "idle", _choiceRuntimeState: "unavailable" });
+  a._readerAwaited = () => true;
+  const v = a.choiceValueView({});
+  assert.deepEqual([v.status, v.state], ["pending", "Preparing…"], "the reader's first layout is still coming");
+  a._readerAwaited = () => false;
+  assert.equal(a.choiceValueView({}).state, "Unavailable", "and once it is not, the old honest answer");
 });
 
 test("a release fades to full in 0.2s and its own transitionend clears it, leaving nothing behind", () => {
@@ -266,7 +302,7 @@ test("the Win chance is asked again when the board shows and when it ends: a ref
 });
 
 test("a landing's hand waits for the reader's first layout of it, and that layout asks again (D-354 + D-351 as an order)", async () => {
-  const a = make(); let asked = 0; a._ensureGameValues = () => { asked++; };
+  const a = make(); let asked = 0; a._ensureGameValues = () => { asked++; }; a.paintChoiceValues = () => {};
   a._landIdx = 7; a._readerQueued = { path: "/Positions/Mount/Top", idx: 7, t0: performance.now() };
   assert.equal(a._readerAwaited(), true, "asked for its article, not yet laid out: not playable");
   a._readerQueued.skip = true; assert.equal(a._readerAwaited(), false, "a skipped article releases it"); delete a._readerQueued.skip;

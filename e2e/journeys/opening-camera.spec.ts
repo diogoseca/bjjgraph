@@ -22,18 +22,27 @@ import { journey } from "../dsl";
  *   FADE         the board is invisible on the frame it mounts and only grows
  *   FADE-ROWS    ...and so is the Moves row, wherever it stands (with the Book put away it IS the board)
  *   FAINT        while the board is faint (opacity < 0.1) its rows are hidden: an invisible row takes no tap
- *   NO-FLASH     (Book on) no board row paints outside the reader section, which adopts them a frame late
+ *   NO-FLASH     (Book on) no board row paints outside the reader section when the reader adopts it inside the faint
+ *                window (~0.24 s), as it does here; a later adoption shows the loose row fading with the board, as
+ *                dev shows it at the reveal (the B1 rule: never hidden waiting for the reader)
  *   RIDE         the board rides up with the node: node-to-Moves-row distance constant through the rise
  *   GLIDE        the heading never jumps (the old cut moved it 251px; Book off once moved it 51.9px)
  *   HOLD-ARTICLE (Book on) a restart's fading article stays where it sat in its board (the old cut: 748px)
  *   BOUNDS       camera-continuity's per-frame MOVE / KICK / ZOOM bounds hold on a restart too
  *   SNAP         reduced motion: two cuts only, the overview then the landing, and the board is never styled
  *   STALL        a clock that stops while the board is faint leaves no row hidden (the last resort)
- *   HEADING      a camera lease mid-arrival (holdCamera: a share cue, a session) still takes the heading down
+ *   HEADING      a camera lease mid-arrival (holdCamera: a share cue, a session) still takes the heading down: its
+ *                target is 0 at the arrival's end, and its fade settles within its own transition (wall clock)
  *   PAUSE        a pause during the arrival does not freeze the camera: it frames the node after the game resumes
  *   HANDOFF      two quick restarts do not pop the old board back to full
  *   INPUT        a 2px drag takes the camera at once, and nothing takes it back
  *   RELEASE      a gesture's 0.2s release leaves no state and no transition behind
+ *   FAINT-INERT  while faint, no control in the reader section (article links, tools, section labels) is live
+ *   MOUNT        rows whose wall-clock reveal timer fires before the rAF clock reaches the reveal are styled at once
+ *   PAUSE-EARLY  a pause between the pick and the reveal runs no wide zoom-out (beat 1 is retired with the arrival)
+ *   FILM-FADE    (real content, a Videos row) the film's effective opacity is the section's: it fades once
+ *   FILM-RIDE    ...the film-to-Moves distance is constant through the rise: it rides once
+ *   FILM-FAINT   ...and the film is hidden while the board is faint, over reading.css's visible!important
  * The rows held hidden until the reader adopted them (PR #320's CI) are killed at the cold-start journeys
  * (coldstart-spine's watch-button visibility); the pick hand-over in tests/camera_opening.test.mjs.
  * Mutation kills (each at its own message, against a green control; the archive entry for v1.237.0):
@@ -47,6 +56,16 @@ import { journey } from "../dsl";
  *   a release that is never cleared → RELEASE     the band skips the faint rows → RIDE (Book off)
  *   the board rides against the spring's goal → RIDE (Book off)
  *   reduced motion lands before the reader adopts the rows → SNAP (Book off)
+ *   the film styled as loose too (fade) → FILM-FADE (Book on)   ...(ride) → FILM-RIDE (Book off)
+ *   no faint rule for the homed film → FILM-FAINT   no faint rule for the section's controls → FAINT-INERT
+ *   the reveal timer that does not style the board → MOUNT       a retirement that keeps beat 1 → PAUSE-EARLY
+ * WHAT THE HARNESS DOES NOT DO (CLAUDE.md 6.4), and so what a case here must author itself:
+ *   - every content chunk is served as `{}`, so no node has a Videos row: the real-content cases inject Mount Top's
+ *     content with two clips (a re-review found the film riding twice and fading at o-squared where no spec looked);
+ *   - `after()` timers fire inside `advance()`, in lockstep with the game clock, so the reveal's wall-clock timer can
+ *     never fire ahead of the rAF clock here: MOUNT fires it early by hand;
+ *   - CSS transitions (the heading's hand-off, the release) run on the document timeline, which is WALL clock, never the
+ *     pumped one: HEADING and RELEASE read them without pumping (CI's faster pump once read the heading at 0.066).
  * NOT PINNED HERE: the live frame rate (the pump is deterministic), and a wheel mid-rise, which scrolls
  * the reading column by design and so does not cancel (app.src.jsx's document capture listener).
  */
@@ -58,7 +77,8 @@ const BOOK_OFF = { initialState: { v: 2, settings: { readerBook: false }, settin
 
 type F = { t: number; el: number; W: number; H: number; cx: number; cy: number; vw: number; node: { x: number; y: number } | null;
   pick: number | null; secO: number | null; open: string; hand: number | null; handO: number | null; head: number | null;
-  headO: number; article: number | null; loose: number; rowsShown: number; rowsHidden: number };
+  headO: number; article: number | null; loose: number; rowsShown: number; rowsHidden: number;
+  film: number | null; filmO: number | null; filmVis: string | null; secLive: number };
 // `article` is measured from the board's own top: in a restart the board sinks while it fades, on purpose
 
 const frame = (page: Page) => page.evaluate(() => {
@@ -73,12 +93,19 @@ const frame = (page: Page) => page.evaluate(() => {
   const handEl = a._handShown?.() && shown(a.optionsRef?.current) && a.optionsRef.current.offsetHeight > 40 ? a.optionsRef.current : null;
   const box = a.evCenterRef.current, blk = box?.firstElementChild, br = blk?.getBoundingClientRect();
   const art = a._reader?.articleEl;
-  const rows = [a._landFilmEl, a._landEl, a.optionsRef?.current].filter((el: any) => el && el.isConnected && el.offsetHeight > 40);
+  // a card of any height counts: #319's asking line is ~37px (the re-review's m-e)
+  const rows = [a._landFilmEl, a._landEl, a.optionsRef?.current].filter((el: any) => el && el.isConnected && el.offsetHeight > (el === a._landEl ? 0 : 40));
+  const film = a._landFilmEl && shown(a._landFilmEl) && a._landFilmEl.offsetHeight > 40 ? a._landFilmEl : null;
+  const open = a.wrapRef.current.dataset.ngOpen || "";
+  // the section's own controls a tap or Tab could reach (only counted while faint: it walks the article)
+  const secLive = open === "faint" && sec ? [...sec.querySelectorAll("a,button,input,select,textarea,summary,[tabindex]")]
+    .filter((e: any) => e.getAttribute("tabindex") !== "-1" && getComputedStyle(e).visibility !== "hidden" && e.getClientRects().length).length : 0;
   // a board row PAINTING outside the reader section: the old reveal frame showed Videos at y 67
   const loose = rows.filter((el: any) => !(sec && sec.isConnected && sec.contains(el)) && getComputedStyle(el).visibility !== "hidden" && eff(el) > 0.02).length;
   return { t: a.now, el: a.now - a.startTime, W, H, cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw,
     node: mid ? { x: W / 2 + (mid.x - a.cam.cx) * s, y: H / 2 + (mid.y - a.cam.cy) * s } : null,
-    pick: a._camOpen?.pick ?? null, secO, open: a.wrapRef.current.dataset.ngOpen || "",
+    pick: a._camOpen?.pick ?? null, secO, open,
+    film: film ? film.getBoundingClientRect().top : null, filmO: film ? eff(film) : null, filmVis: film ? getComputedStyle(film).visibility : null, secLive,
     hand: handEl ? handEl.getBoundingClientRect().top : null, handO: handEl ? eff(handEl) : null,
     head: br && parseFloat(getComputedStyle(box).opacity) > 0.05 ? br.top + br.height / 2 : null, headO: parseFloat(getComputedStyle(box).opacity),
     article: shown(art) && shown(sec) ? art.getBoundingClientRect().top - sec.getBoundingClientRect().top : null, loose,
@@ -152,6 +179,7 @@ test.describe(`the directed arrival, Book ${book}`, () => {
     const faint = S.filter((f) => f.t > E && f.open === "faint" && f.rowsShown > 0);
     expect(faint.length, "premise: the board was faint for a few frames").toBeGreaterThan(3);
     expect(faint.filter((f) => f.rowsHidden < f.rowsShown).map((f) => +f.t.toFixed(3)), "FAINT: a faint board's rows are hidden, not merely transparent").toEqual([]);
+    expect(faint.filter((f) => f.secLive > 0).map((f) => [+f.t.toFixed(3), f.secLive]), "FAINT-INERT: no control in the reader section is live while faint").toEqual([]);
 
     const rise = S.filter((f) => f.t >= E && f.t <= E + 2.0 && f.hand != null && f.node && f.handO! > 0.02);
     expect(rise.length, "premise: rise frames with the Moves row up").toBeGreaterThan(60);
@@ -228,8 +256,15 @@ test.describe("the directed arrival: what it hands back", () => {
     const before = await record(page, 255);   // ~4.25s: pick + 1.0, the heading names the node
     expect(before.at(-1)!.headO, "premise: the heading is up").toBeGreaterThan(0.9);
     await page.evaluate(() => (window as any).__neural.holdCamera(7));   // a share cue's or a session's flight
-    const S = await record(page, 360);   // to pick + 7.0
-    expect(S.at(-1)!.headO, "HEADING: the arrival's end still takes the heading down").toBeLessThan(0.05);
+    await record(page, 360);   // to pick + 7.0
+    // THE APP'S DECISION, clock-free: by the arrival's end the hand-off and the hide have both set the heading's target
+    // to 0. Gated on the token a lease retires (review M1), neither ran and the target stayed "1" for good.
+    expect(await page.evaluate(() => (window as any).__neural.evCenterRef.current.style.opacity), "HEADING: the arrival's end takes the heading down (its target opacity is 0)").toBe("0");
+    // THE FADE ITSELF is the hand-off's CSS transition (NG_ARRIVE_HANDOFF, 1.8 s) on the document timeline, WALL clock,
+    // while this recording pumps the game clock: CI's faster pump read 0.066 at the last sample, where this box's timeline
+    // had run 2.4-4.0 s (CAM-CI). So it is read without pumping, until it settles, bounded at its own 1.8 s + 0.7 s.
+    await expect.poll(() => page.evaluate(() => parseFloat(getComputedStyle((window as any).__neural.evCenterRef.current).opacity)),
+      { message: "HEADING: ...and the heading's fade settles within its own 1.8 s transition (+0.7 s)", timeout: 2500, intervals: [25] }).toBeLessThan(0.05);
   });
 
   test("a pause during the arrival does not freeze the camera @curated", async ({ page }) => {
@@ -242,6 +277,35 @@ test.describe("the directed arrival: what it hands back", () => {
     const band = await page.evaluate(() => (window as any).__neural._viewRect());
     const end = S.at(-1)!;
     expect(end.node && end.node.y >= band.top && end.node.y <= band.bottom, `PAUSE: the camera frames the node in the band after the pause (node ${end.node?.y.toFixed(1)}, band ${band.top}-${band.bottom})`).toBe(true);
+  });
+
+  test("rows whose reveal timer fires before the clock reaches the reveal are styled at once, never shown unstyled @curated", async ({ page }) => {
+    await bootTo(page, "Mount Top");
+    await record(page, 310);   // ~5.17s: the pick (~3.22s) + 1.95, a few frames short of the reveal
+    const r = await page.evaluate(() => {
+      const a = (window as any).__neural, op = a._camOpen;
+      if (!op || !op.reveal || op.pick == null) return null;
+      const early = op.pick + a.NG_ARRIVE_KICKER - a.now;
+      op.reveal._fire();   // the reveal's own wall-clock timer, as a real browser can fire it: ahead of the rAF clock
+      const rows = [a._landFilmEl, a._landEl, a.optionsRef?.current].filter((el: any) => el && el.isConnected && el.offsetHeight > 0);
+      return { early, open: a.wrapRef.current.dataset.ngOpen || "", rows: rows.length, visible: rows.filter((el: any) => getComputedStyle(el).visibility !== "hidden").length };
+    });
+    expect(r, "premise: the arrival carries its reveal timer").not.toBeNull();
+    expect(r!.early, "premise: fired before the clock reached the reveal").toBeGreaterThan(0);
+    expect(r!.rows, "premise: the timer mounted the rows").toBeGreaterThan(0);
+    expect([r!.open, r!.visible], "MOUNT: rows mounted before the reveal are styled at once: faint, and hidden").toEqual(["faint", 0]);
+  });
+
+  test("a pause between the pick and the reveal runs no wide zoom-out @curated", async ({ page }) => {
+    await bootTo(page, "Mount Top");
+    await record(page, 225);   // ~3.75s: the pick + 0.5, before the reveal
+    expect(await page.evaluate(() => (window as any).__neural._camOpen?.pick != null), "premise: the arrival has picked").toBe(true);
+    await page.evaluate(() => (window as any).__neural.setPaused(true));
+    await record(page, 30);
+    await page.evaluate(() => (window as any).__neural.setPaused(false));
+    const S = await record(page, 120);   // past beat 1's old deadline (pick + 2.5)
+    const widest = Math.max(...S.map((f, i) => (i ? f.vw / S[i - 1].vw : 1)));
+    expect(widest, "PAUSE-EARLY: after the pause the view never widens (beat 1's zoom-out-and-back is retired with the arrival)").toBeLessThan(1.002);
   });
 
   test("two quick restarts do not pop the old board back to full @curated", async ({ page }) => {
@@ -290,3 +354,39 @@ test.describe("the directed arrival on desktop", () => {
     expect(left, "RELEASE: no state, no transition and a fully shown board after the release").toEqual({ open: "", vars: "", dur: "0s", o: "1" });
   });
 });
+
+/** Mount Top's content with two clips, so the landing has a Videos row (the harness serves `{}` for every chunk). */
+const withFilm = (page: Page, title: string) => page.evaluate((title) => {
+  const w = window as any, a = w.__neural, n = a.nodes.filter((x: any) => x.ty === "positions" && x.rep && x.t === title)[0];
+  w.NG_CONTENT ||= {}; w.NG_CONTENT.decks ||= {};
+  const keys = [...new Set([n, n.pi >= 0 ? a.nodes[n.pi] : null].filter(Boolean).map((m: any) => a.deckKeyFor(m).key))];
+  for (const key of keys) {
+    w.NG_CONTENT.decks[key] = { cat: "Position", role: "Top", lead: "Opening fixture: a real Videos row.",
+      principles: ["Keep the connection while your partner changes direction."],
+      clips: [{ id: "aQ2vFXXBn-o", title: "First mounted demonstration" }, { id: "aQ2vFXXBn-o", title: "Second mounted demonstration" }] };
+    a.onContentReady(key);
+  }
+  return keys;
+}, title);
+
+for (const book of ["on", "off"] as const) {
+test.describe(`the directed arrival with a Videos row, Book ${book}`, () => {
+  test.use({ viewport: { width: 390, height: 844 }, hasTouch: true });
+
+  test(`the film fades and rides once, with the section, and is hidden while faint (Book ${book}) @curated`, async ({ page }) => {
+    await bootTo(page, "Mount Top", book);
+    expect((await withFilm(page, "Mount Top")).length, "premise: the content is authored").toBeGreaterThan(0);
+    const S = await record(page, 613);
+    const pick = S.find((f) => f.pick != null)?.pick, E = pick! + 2.0;
+    const withF = S.filter((f) => f.t >= E && f.t <= E + 2.0 && f.film != null);
+    expect(withF.length, "premise: the Videos row mounted with the board").toBeGreaterThan(60);
+    const seen = withF.filter((f) => f.filmVis !== "hidden" && f.filmO! > 0.02 && f.secO != null && f.hand != null);
+    expect(seen.length, "premise: rise frames with the film, the section and the Moves row up").toBeGreaterThan(60);
+    expect(Math.max(...seen.map((f) => Math.abs(f.filmO! - f.secO!))), "FILM-FADE: the film's effective opacity is the section's (it fades once)").toBeLessThan(0.01);
+    expect(span(seen.map((f) => f.hand! - f.film!)), "FILM-RIDE: the film-to-Moves distance is constant through the rise (it rides once)").toBeLessThan(1.5);
+    const faint = S.filter((f) => f.open === "faint" && f.film != null);
+    expect(faint.length, "premise: faint frames with the film mounted").toBeGreaterThan(3);
+    expect(faint.filter((f) => f.filmVis !== "hidden").map((f) => +f.t.toFixed(3)), "FILM-FAINT: the film is hidden while the board is faint").toEqual([]);
+  });
+});
+}
