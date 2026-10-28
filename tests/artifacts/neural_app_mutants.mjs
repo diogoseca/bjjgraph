@@ -138,7 +138,7 @@ const controls = [
   ['u47-paging-asks-again', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['this._landPage=n,this._armPagedLandClock(),this._readStop()', 'this._landPage=n,this._landAsk=!0,this._armPagedLandClock(),this._readStop()']], 'the shown card stays shown across paging, with its own window'],
   ['u47-question-tap-dead', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
-    [['u.addEventListener("click",()=>this._landReveal());', '']], 'a tap on the question shows the card'],
+    [['u.append(x," ",w),u.addEventListener("click",()=>this._landReveal());', 'u.append(x," ",w);']], 'a tap on the question shows the card'],
   // U52 b: the phone's two-line cut is _fitAskLine's (the CSS clamp is gone). Its desktop twin, trimming on a
   // desktop too, is a recorded NON-KILL (covered-card.spec.ts's header): no real question needs a third line there.
   ['u47-phone-trim-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844',
@@ -173,7 +173,7 @@ const controls = [
   ['u47-link-spares-asking', 'covered-card.spec.ts', 'U47 d following an article link declines an asking question',
     [['(t&&this._landAsk||(s.answered=!0', '(e==="reading"&&this._landAsk||(s.answered=!0']], 'following an article link declines the asking question (reason reading), as on dev'],
   // The branch's reveal that played a reading arrival ("as it already works" says it must not).
-  ['u47-arrival-plays-on-take-up', 'reading-contract.spec.ts', '1440px a real landing-card answer starts the dormant game once',
+  ['u47-arrival-plays-on-take-up', 'reading-contract.spec.ts', '1366px a real landing-card answer starts the dormant game once',
     [['this._readerIntent?this._reader&&(this._reader.interacting=!1):(', '!1?this._reader&&(this._reader.interacting=!1):(']], 'Answer for Points leaves a reading arrival dormant, with no clock'],
   ['u47-take-up-unmeasured', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['this.fx("land_q_taken_up",{deckKey:t.key||null,mode:this._landMode||"land"}),', '']], 'land_q_taken_up fires once per take-up'],
