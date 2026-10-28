@@ -13179,3 +13179,86 @@ green baseline of the same spec and grep, all killed at their claim in article-d
 Not covered by a spec: the visual balance of the masonry (a long last section leaves one lane empty at the
 bottom; Mount's Related, Knee Slice's Training) and the 1920 line length of a two-thirds prose tile (~150
 characters). Both are the owner's to judge on the U59 screens.
+
+## v1.241.0 — the dashboard rebuilt as rows of two, at a readable measure (owner U59 c)
+
+U59 put the R2 review's paid fixes to the owner with a ceiling raise (+1,009 B). He chose c, no raise, with a design
+note that governs: "there are two sections side by side always. Some sections can take two columns while the other
+one takes one ... The most important thing is for that dashboard, especially when it's viewed on desktop, to never
+only show one section full width. That has really poor readability, making the user's eyes scroll left and right
+successively", and the measure kept readable "through some use of padding". The DASH-R2 free fixes (8 px rows, the
+spec gaps) had shipped at d5c9c2186; the paid stack (344a1fb29: pill, Explore anchor, packer, ✕) was never pushed.
+
+**What shipped.** The masonry is gone: no 8 px rows, no `--rows`, no dense flow, no per-card ResizeObserver, no
+flow-root body. `layoutNow` pairs the open sections in source order. On three lanes (a grid of 1,100 px or more,
+1366 and wider with the index) the longer text of a pair takes two thirds and the other one third, either way; on two
+lanes, halves. An odd count makes ONE row of three thirds: the run of three, starting on a row, whose longest section
+is shortest (Mount: Principles, Prerequisites, Options; its last three hold Related, 3,981 characters). A lone open
+section takes two thirds. Rows take the grid's auto height and stretch, so the gap is the 24 px token and nothing is
+lifted: the eye, the DOM and Tab agree. Each tile's text is a centred `max-width:46ch` article column inside the
+token padding (the section titles are centred labels already); the media slot is outside the article.
+- The pill: `_readerShelfBottom` measured the bottom chrome over the old 680 px column only; it now measures to the
+  right edge, so the reader ends 8 px above the account pill (and at 1024-1151 too, where dev's centred grid already
+  ran under it). Cost: ~62 px of reading height at the bottom; the alternative (the grid ending left of the pill, P1a)
+  was ~50 B and gave up ~111 px of width at every size.
+- The place: when the grid's width changes, `layoutNow` notes the first text block at or below the reader's top and,
+  after every other write and the clamp's restore, scrolls so it is back where it was, recording that as the place
+  (the pane slides open over ~20 passes; the next pass's clamp must not undo a scroll its event has not recorded yet:
+  the first version without that write drifted 253 px).
+- ch is not characters: prose glyphs are narrower than the 0 the unit measures. 60ch gave an 83-98 character median;
+  44ch 62-65; 46ch 66-68 (2/3 tiles, real fonts, 1366-1920).
+
+**Measured (real served pages: Mount/Top, Knee Slice/Attacker, RNC from Back Control/Attacker, the Half-Guard hub,
+the RNC family; 1152, 1280, 1366, 1440 and 1920; scratch/article-dashboard/r3/probe-r3.cjs).** In all 25 page x width
+cases: no single-section row, every row fills the grid, one row of three exactly where the open count is odd, the
+visual order is the source order, nothing lifted, every row gap 24 px, 0 pill-covered samples (was 13-246 on the
+U55 b head), and Tab never steps back to an earlier tile (apart from the wrap to the top). Characters per full line,
+median (p10-p90):
+- two-thirds tiles: 65-68 (61-71) at 1366, 1440 and 1920 (was 83-98 uncapped);
+- one-third tiles: 34-41 at 1366-1440, 58-63 at 1920;
+- halves (1152, 1280): 45-47 and 53-55;
+- the odd row's thirds at 1152 and 1280: 25-33. This is the weakest measure in the design: a row of three on two
+  lanes is 281 px a tile.
+
+Explore at 1440 and 1920, 4 pages, from 15/35/55/75% scroll depth (32 cases): the first text block at the reader's
+top moves a median 1 px (max 5 px; was 354-566 px on the U55 b head). The R2 probe's own position on Knee Slice still
+moves 58 px: mid-slide a different block becomes the first at the top, because the other tile of its row reflows. A
+sticky anchor (P2's) fixes that and costs ~77 B more than the 22 B left.
+
+**Bytes.** Deferred 506,795 of 506,817 B: reader.js 42,463 -> 42,629 (+166), reading.css 10,904 -> 10,724 (-180),
+-14 B against the U55 b head and +205 B against dev. Paid for by deleting the masonry (rows, dense flow, observers,
+flow-root), with the pill fixed as a widened reserve (negative bytes) instead of a measured right edge. esbuild lowers
+`?.` to `== null ? void 0 :` for this target, so `(y || x).len` and `&&` are cheaper here.
+
+**Claims (article-dashboard.spec.ts), each killed at its claim by tests/artifacts/article_sections_mutants.mjs
+(`SECTIONS_MUTANT_ONLY='^u5[59]'`, 17 of 17, against green baselines):**
+
+| control | mutation | killed by |
+|---|---|---|
+| u55-tile-capped | the mock's 520 px cap and fade | "videos is not capped" |
+| u59-rows-padded | 100 px padded under every tile | "the row videos+overview ends at its tallest content" |
+| u55r-body-capped | the body capped at 240 px | "overview: nothing inside the tile clips its text" |
+| u55r-para-clamp | paragraphs clamped to two lines | "videos: nothing inside the tile clips its text" |
+| u59-row-alone | a section over 3,000 characters alone | "every row holds two sections, or three thirds (videos)" |
+| u59-pair-flipped | the shorter text takes two thirds | "of videos+overview, the longer text takes two thirds" |
+| u59-trio-last | the row of three always the last three | "the row of three is the shortest run" |
+| u59-order-moved | Related moved first by the grid | "the eye reads the tiles in source order" |
+| u59-tab-rtl | the rows laid right to left | "Tab stop 4 goes forward" |
+| u59-measure-unset | the 46ch column removed | "overview: no line runs past 80 characters" (104) |
+| u59-pill-covers | the reserve over the old column only | "the reader ends above the account pill" (880 > 834) |
+| u59-place-lost | the anchor's restore removed | "the first text block ... keeps its place" (309 px) |
+| u55r-link-swallowed | the tile swallows its links' clicks | the reader stays on Mount/Top |
+| u55-tile-click-toggles | a tile click toggles it | "a click on the title changes nothing" |
+| u55-band-covered | the article pulled over the game stage | "videos leaves the node band clear" |
+| u55-width-unused | the grid keeps the centred column | body.left at the index clearance (130 vs 236) |
+| u59-phone-pairs | the phone's one-column rules removed | "one column" (4) |
+
+Retired with the masonry: u55-rows-short, u55r-rows-long, u55-margin-uncounted and u55r-phone-dashboard (they mutated
+`--rows`, the flow-root body and the `width>640px` rows rule, all deleted). Not covered by the spec: "a video keeps
+the tile's width" (Mount's media slot is empty in the harness, 0x0; the slot sits outside the article column by
+construction), and characters per line in the real fonts (the harness serves fallback fonts: 46ch measures a 51-52
+median there, so the spec's band is 45-75).
+
+**Claims restored.** article-grid, article-sections and reading-contract are dev's own again: U55 b had made the
+source-order claim phone-only and measured gaps per lane because dense flow lifted tiles and left no row unions.
+Rows in source order bring back both.

@@ -114,14 +114,8 @@ for (const width of [1366, 390]) {
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
         sectionHeaders: labels, step: a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
         backs: 3 * (a._landStackEl?.childElementCount || 0),
-        // CLAIM CHANGED (U55 b, owner, 2026-10-28). Old (U31): cards share rows, so each gap was measured
-        // between row unions. New: the desktop dashboard stacks tiles in lanes with mixed spans, so a row union
-        // no longer exists; each gap is measured from a card to the nearest card above it that shares its
-        // columns. The token claim itself is unchanged: every such gap is 4x (3x on a phone) --section-gap.
-        gaps: cards.map(c => c.getBoundingClientRect()).map((r, i, all) => {
-          const above = all.filter((o, k) => k !== i && o.left < r.right - 1 && r.left < o.right - 1 && o.bottom <= r.top + 1)
-          return above.length ? r.top - Math.max(...above.map(o => o.bottom)) : null
-        }).filter(g => g !== null),
+        // U31: cards can share a row. Measure between actual row unions, not between peers.
+        gaps: [...new Set(cards.map(c => c.getBoundingClientRect().top))].slice(1).map(top => top - Math.max(...cards.map(c => c.getBoundingClientRect()).filter(r => r.top < top).map(r => r.bottom))),
         overflow: a._readerEl.scrollWidth - a._readerEl.clientWidth }
     })
     const normal = await measure()

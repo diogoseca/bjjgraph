@@ -246,12 +246,9 @@ for (const width of [1366, 390]) {
       // D-338: the heading's words are its title (the toggle beside it is now the one ✕).
       const list = section.querySelector('ul')!, card = section.closest('.ng-section-card')!, head = card.querySelector('.ng-section-title')!, prose = list.querySelector('li')!
       const sub = document.querySelector('[data-reader-article="guide"] [data-source-id="defensive-options"] h3')!
-      // CLAIM CHANGED (U55 b, owner, 2026-10-28). Old: the gap from this card's row to the next row (a row
-      // union). New: the desktop dashboard stacks tiles in lanes with mixed spans and no row union, so the gap is
-      // from this card to its nearest neighbour above or below in its own columns. The token is unchanged.
-      const r = card.getBoundingClientRect(), lane = [...card.parentElement!.children].filter(e => e !== card).map(e => e.getBoundingClientRect())
-        .filter(o => o.left < r.right - 1 && r.left < o.right - 1)
-      return { gap: Math.min(...lane.filter(o => o.top >= r.bottom - 1).map(o => o.top - r.bottom), ...lane.filter(o => o.bottom <= r.top + 1).map(o => r.top - o.bottom)),
+      const peers = [...card.parentElement!.children].map(e => e.getBoundingClientRect())
+      const nextTop = Math.min(...peers.filter(r => r.top > card.getBoundingClientRect().top + 1).map(r => r.top))
+      return { gap: nextTop - Math.max(...peers.filter(r => r.top < nextTop).map(r => r.bottom)),
         item: px(list, 'rowGap'), unit: parseFloat(getComputedStyle(section.closest('[data-reader]')!).getPropertyValue('--reader-unit')),
         head: px(head, 'fontSize'), sub: px(sub, 'fontSize'), prose: px(prose, 'fontSize'),
         uppercase: getComputedStyle(head).textTransform, headLum: lum(head),

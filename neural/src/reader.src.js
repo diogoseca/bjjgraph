@@ -302,8 +302,6 @@ class Reader {
     this.root.dataset.readerReady = "false";
     if (this.contents) this.contents.hidden = true;
     this.place(this.mediaHome);
-    // U55 b: splitSections observes each card's content; the observer must not keep a left article alive.
-    for (const s of this.sections) this.resize.unobserve(s.body);
     this.sections = []; this.mediaSlot = null;
     this.articleEl.replaceChildren(...(this.head.parentElement === this.articleEl ? [this.head] : []), element("p", { role: "status" }, "Loading the complete article…"));
     this.sync();
@@ -561,9 +559,8 @@ class Reader {
         fragment.append(part.node); content.append(fragment);
       }
       card.setAttribute("aria-labelledby", heading.id); card.append(heading, content); body.append(card);
-      // U55 b: a card's rows follow its content, which late fonts and images change; the observer lays out.
-      this.resize.observe(content);
-      this.sections.push({ ...group, id, card, body: content, toggle, big: group.type == "videos" || content.textContent.length > 2e3 });
+      // U59 c: a section's text length decides its share of a desktop row (layoutNow).
+      this.sections.push({ ...group, id, card, body: content, toggle, len: content.textContent.length });
     });
   }
   // D-338 (owner): Video, Moves, Questions, then the article in its own order.
@@ -623,8 +620,8 @@ class Reader {
       });
     }
     focus?.focus({ preventScroll: true });
-    // U55 b: the open cards' spans and rows are layoutNow's (they follow the grid's width); every
-    // sync() ends in a layout through shelf() -> publishCard().
+    // U59 c: the open cards' spans are layoutNow's (they follow the grid's width); every sync()
+    // ends in a layout through shelf() -> publishCard().
   }
 
   link(event) {
@@ -994,6 +991,7 @@ class Reader {
   layoutNow() {
     if (!this.dock || this.app.__ngDestroyed || this.app._readerPress || this.laying) return;
     this.laying = true;
+    let keep, was;
     const style = (el, key, value, priority = "") => {
       // One numeric-to-px boundary keeps all geometry writes and their equality
       // guard identical, without repeating the unit conversion at every call.
@@ -1037,8 +1035,10 @@ class Reader {
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
+      // U59 c: the article's tiles run to the right edge, so the account pill in the corner reserves
+      // the bottom too: the reader ends above it and the pill never covers text or a link.
       const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
-        ? H - a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 }) - 8
+        ? H - a._readerShelfBottom({ left: free.center - width / 2, right: W }) - 8
         : this.dock.getBoundingClientRect().top - 8;
       for (const [key, value] of Object.entries({ left: 0, top, width: W, height: Math.max(80, end - top) })) style(this.root, key, value);
       this.articleEl.hidden = !available;
@@ -1058,19 +1058,25 @@ class Reader {
       // U55 b (owner): where the index fits, the grid starts at its 12px clearance (the Moves row's
       // left edge) and ends 24px from the right, the index's own inset mirrored; the node band, the
       // Moves row and the question above it keep their places. Elsewhere it stays centred, as before.
+      // Three lanes from an 1,100px grid (1366 and wider), else two.
       const grid = indexEdge ? W - 24 - indexEdge : Math.max(240, Math.min(902, free.width - 64)), wide = grid >= 1100;
+      // U59 c: when the grid's width changes (the pane opening, a resize), the first text block at
+      // the reader's top keeps its place on screen; the finally puts it back after every other write.
+      keep = this.gridW != (this.gridW = grid) && [...this.root.querySelectorAll("p,li")].find(e => (was = e.getBoundingClientRect().top) >= top);
       style(this.articleEl, "--article-width", grid);
       if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");
-      // U55 b: a big card (the video, long prose) takes two thirds of three lanes, or the whole of two;
-      // the rest take a lane. Spans first, then every card's content plus the token gap under it (its
-      // margin), then the rows: 8px each, measured all before any is written, so it is one layout. The
-      // card stretches over its rows, up to 7px past its content, and every gap stays the token exactly.
-      // 8px, not 4px: Gecko caps an implicit grid at 10,000 lines, 80,000px here (the Half-Guard hub's
-      // tallest grid used 64% of 4px rows' 40,000px).
-      // reading.css uses the rows and the margin above 640px only; a closed card is not in the grid
-      // (display:none beside the index, moved to Hidden sections without it), so writing it is inert.
-      for (const s of this.sections) style(s.card, "--span", "" + (wide ? 4 : 6) * (s.big ? 2 : 1));
-      for (const [s, h] of this.sections.map(s => [s, s.card.firstChild.offsetHeight + s.body.offsetHeight + parseFloat(getComputedStyle(s.card).marginBottom)])) style(s.card, "--rows", "" + Math.ceil(h / 8));
+      // U59 c (owner): every desktop row holds two open sections side by side, in source order, so
+      // Tab and the eye agree and nothing is lifted: of three lanes the longer text takes two and the
+      // shorter one; of two lanes, a half each. An odd count makes ONE row of three thirds, the run
+      // of three (starting on a row) whose longest section is shortest; a single open section takes
+      // two thirds. Rows are as tall as their taller card (the default stretch); gaps are the token.
+      const open = this.sections.filter(s => !s.body.hidden), n = open.length;
+      let t = -1, best = 1e9;
+      if (n % 2) for (let i = 0; i < n - 2; i += 2) { const m = Math.max(...open.slice(i, i + 3).map(s => s.len)); if (m < best) best = m, t = i; }
+      for (let i = 0, k; i < n; i += k) {
+        const row = open.slice(i, i + (k = i == t ? 3 : 2)), [x, y] = row;
+        for (const s of row) style(s.card, "--span", "" + (k > 2 ? 4 : !wide ? 6 : (s == x) == (x.len < (y || x).len) ? 4 : 8));
+      }
       if (this.contents) {
         this.contents.hidden = !available || this.root.dataset.readerReady !== "true" || !fits;
         this.root.toggleAttribute("data-indexed", !this.contents.hidden);
@@ -1251,6 +1257,9 @@ class Reader {
       this.syncIndex();
     } finally {
       if (this.placeTop > this.root.scrollTop) this.root.scrollTop = this.placeTop;
+      // After the clamp's restore, and it is the new place at once: the pane slides open over many
+      // passes, and the next pass's clamp must not put back a place its scroll event has not recorded.
+      if (keep) this.placeTop = this.root.scrollTop += keep.getBoundingClientRect().top - was;
       this.laying = false;
     }
   }

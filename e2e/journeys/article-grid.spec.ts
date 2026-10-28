@@ -87,18 +87,11 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
     expect(card.webkit, 'missing WebKit support is explicit, never an ignored field').toBe(card.webkitSupported ? 'none' : '')
     expect(card.overflow, card.type + ' has no horizontal overflow').toBeLessThanOrEqual(1)
     expect(card.left).toBeGreaterThanOrEqual(24); expect(card.right).toBeLessThanOrEqual(width - 24)
-    // CLAIM CHANGED (U55 b, owner, 2026-10-28). Old: every card starts at or below the previous one on
-    // every width ("adjacent pairs, never dense-fill"). New: the phone keeps that strict source order; the
-    // desktop dashboard's dense flow may lift a later one-third tile into the hole beside a wide one (the
-    // owner asked for it). NOTHING asserts a visual reading order on desktop: the index lists the sections in
-    // source order, and the DOM (hence Tab) keeps source order; whether tiles read in that order is unpinned.
-    if (i && width === 390) expect(card.top).toBeGreaterThanOrEqual(geometry[i - 1].top - 1)
+    if (i) expect(card.top).toBeGreaterThanOrEqual(geometry[i - 1].top - 1)
     for (const other of geometry.slice(0, i)) expect(card.left >= other.right - 1 || card.right <= other.left + 1 || card.top >= other.bottom - 1, 'cards never overlap').toBe(true)
   }
   if (width === 390) expect(new Set(geometry.map(c => c.left)).size).toBe(1)
-  // CLAIM CHANGED (U55 b). Old: two cards adjacent in source order share a top ("really pairs"). New: cards
-  // really sit side by side (overlapping rows, disjoint columns); masonry tiles need not share a top.
-  else expect(geometry.some((c, i) => geometry.slice(0, i).some(o => c.top < o.bottom - 1 && o.top < c.bottom - 1 && (c.left >= o.right - 1 || c.right <= o.left + 1))), 'desktop really places cards side by side').toBe(true)
+  else expect(geometry.some((c, i) => i && Math.abs(c.top - geometry[i - 1].top) < 1), 'desktop really pairs cards').toBe(true)
   // A stable real section identity, not a first/nth fixture that changes when the corpus grows.
   const prerequisites = page.locator('[data-section-type=prerequisites]')
   await prerequisites.evaluate(el => { const root = el.closest('[data-reader]')!; root.scrollTop += el.getBoundingClientRect().top - root.getBoundingClientRect().top - 24 })

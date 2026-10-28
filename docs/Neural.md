@@ -82,12 +82,16 @@ principles, setup/recognition, options, safety, mistakes, the rest, Related; 6px
 last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
 shared hub safety. Failed loads offer Retry.
 
-**The desktop dashboard (U55 b).** With the index shown (from 1152px) the sections run from its 12px
-clearance to a 24px right margin: Videos and sections over ~2,000 characters take two of three lanes (all of
-two below a 1,100px grid), the rest one. `layoutNow` spans each open card over 4px rows (title, body, token
-gap) with dense flow, so no tile is capped, faded or stretched; the index carries the reading order. A tile
-click does nothing; the node band, Moves and question keep their places; ≤640px is unchanged.
-`article-dashboard.spec.ts` pins it on real content.
+**The desktop dashboard (U55 b, U59 c).** With the index shown (from 1152px) the sections run from its 12px
+clearance to a 24px right margin in rows of two open sections, in source order: on three lanes (a grid of
+1,100px or more) the longer text takes two thirds and the other one third, either way; on two lanes, halves.
+An odd count makes one row of three thirds, the run of three (starting on a row) whose longest section is
+shortest. No section sits alone across the width. Rows take their taller card's height and the token gap;
+nothing is capped, faded or reordered, so Tab follows the eye. Each tile's text is a centred 46ch column (a
+65-68 character median line on real pages); the media slot is outside it. The reader ends above the account
+pill. When the grid's width changes (Explore opening, a resize), `layoutNow` keeps the first text block at the
+reader's top in place. A tile click does nothing; the node band, Moves and question keep their places; ≤640px
+is unchanged. `article-dashboard.spec.ts` pins it on real content.
 
 One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. A closed
 part leaves a light label (glyph above name, no box) that reopens it. Contents floats at the right-control inset, taking no layout
