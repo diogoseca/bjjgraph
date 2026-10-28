@@ -13221,7 +13221,7 @@ median (p10-p90):
   lanes is 281 px a tile.
 
 Explore at 1440 and 1920, 4 pages, from 15/35/55/75% scroll depth (32 cases): the first text block at the reader's
-top moves a median 1 px (max 5 px; was 354-566 px on the U55 b head). The R2 probe's own position on Knee Slice still
+top moves a median 1 px (max 4 px on the final build, 8db420cc3; was 354-566 px on the U55 b head). The R2 probe's own position on Knee Slice still
 moves 58 px: mid-slide a different block becomes the first at the top, because the other tile of its row reflows. A
 sticky anchor (P2's) fixes that and costs ~77 B more than the 22 B left.
 
