@@ -171,6 +171,7 @@ test("cold start: the deck payload landing mid-turn gives the CURRENT state its 
   await cardSettled(page);
   // U47 d: the backfilled question asks first; Answer for Points, where it sits, shows its answers.
   await j.clickByMouse("[data-land-ask-go]", "the backfilled question's Answer for Points");
+  await j.tapGuardSettled(); // the double-tap guard: a deliberate answer comes after it
   await cardSettled(page);
   await j.clickByMouse(
     "[data-land-mc-opt]",
@@ -291,6 +292,7 @@ test("cold start: the FIRST landing carries its question, and a late payload rea
   await cardSettled(page);
   // U47 d: the first landing's question asks first; Answer for Points, where it sits, shows its answers.
   await j.clickByMouse("[data-land-ask-go]", "the first landing's Answer for Points");
+  await j.tapGuardSettled(); // the double-tap guard: a deliberate answer comes after it
   await cardSettled(page);
   await j.clickByMouse(
     "[data-land-mc-opt]",
@@ -314,6 +316,7 @@ test("cold start: a late dossier preserves both the unanswered question and the 
   // U47 d: take the question up first, so its options are laid out (and read) before the dossier lands.
   await cardSettled(page);
   await j.clickByMouse("[data-land-ask-go]", "Answer for Points");
+  await j.tapGuardSettled(); // the double-tap guard: a deliberate answer comes after it
   const article = page.locator('[data-reader-ready="true"] [data-reader-body]');
   await expect(article).toContainText("Mount");
   const published = await article.textContent();

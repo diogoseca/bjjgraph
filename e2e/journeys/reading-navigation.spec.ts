@@ -90,6 +90,7 @@ test('@curated a late full article preserves the answered question and never pay
   expect(q).not.toBeNull()
   // U47 d: explicitly Answer for Points before answering, without waiting for the held article.
   await j.clickByMouse('[data-land-ask-go]', 'Answer for Points before its answer')
+  await j.tapGuardSettled() // the double-tap guard; the article stays held throughout
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
   const before = await page.evaluate(() => {
     const w = window as any, a = w.__neural
@@ -148,6 +149,7 @@ test('@curated the first queued reader layout cannot move a published answer bef
     await page.evaluate(() => (window as any).__publishReader())
     return click(...args)
   }
+  await j.tapGuardSettled() // the double-tap guard; reader.layout is held, so no queued layout runs meanwhile
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
   expect(await page.evaluate(() => (window as any).__answerPublication)).toEqual({ dx: 0, dy: 0, same: true })
   const before = await page.evaluate(() => {
@@ -197,6 +199,7 @@ for (const width of [390, 1440]) {
         w.__pressedReader.held = { sameParent: parent === a._landEl.parentElement, dx: after.x - before.x, dy: after.y - before.y };
       }, { once: true, capture: true });
     })
+    await j.tapGuardSettled() // the double-tap guard; layoutNow is held, so the adoption still lands in the press
     await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
     expect(await page.evaluate(() => {
       const w = window as any, a = w.__neural, old = w.__pressedReader;

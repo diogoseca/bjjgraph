@@ -334,19 +334,26 @@ player is already reaching into.
 Choice cards show a direct title, approved video, immediate chance and Win chance; the shortcut
 sits inside the same category shape used on the map. A threat card's colour is your win chance.
 
-U47 d (v1.234.0, owner 2026-10-27; supersedes U34 a's in-card **Reveal / Answer for a boost**):
-a landing, attempt or catch arrives **asking** — only its question shows, with **Answer for
-Points** beneath it (`_landAsk`, `[data-land-ask]`). The card itself (answers, deck count, clock
-bar, backs, guides) is not shown; its answers are built but inert, so no key, click or paging
-gesture acts on them, and no clock runs. The ✕ stays: it is the Questions layer's handle. On a
-phone (≤640px) a long question is cut to two lines, and Answer for Points sits where a "Show
-more" would; desktop shows the whole question and the same button. Answer for Points, or a tap
-on the question, calls `_landReveal`: the card is today's card for the rest of that landing
-(multiple choice, or the recall flashcard for an advanced player), paging and backfill keep it
-shown, and each card keeps its own window. There is no reveal control inside the card. As on
-dev, an asking question is pending: committing past it emits `land_q_ignored`, and the pane, ✕,
-a background tap or leaving for an article decline it (`land_q_declined`); only a reading gesture
-(a phone scrolling to reach it) does not decline a question the player has not taken up.
+U47 d + U52 b (v1.236.0, owner 2026-10-27/28; supersedes U34 a's in-card **Reveal / Answer for a
+boost**): a landing, attempt or catch arrives **asking** — no card at all, only its question as a
+quiet line **immediately after the Your move row** (`_landAsk`, `[data-land-ask]`; on a stacked
+phone stage the Videos card now follows the question), with **Answer for Points** inline at its
+end. No container, fill or border; a soft text shadow keeps it legible over the map. A phone trims
+the question with an ellipsis (`_fitAskLine`, never the link) so the line is at most two lines; a
+390×631 phone shows both at arrival. The card's answers are built but inert, so no key, click or
+paging gesture acts on them, letters a/b/c included, and no clock runs. The ✕ stays: it is the
+Questions layer's handle. Answer for Points (Tab + Enter too), or a tap on the question, calls
+`_landReveal`: the card opens in place as today's card (multiple choice, or the recall flashcard)
+for the rest of that landing; paging and backfill keep it shown, each card keeps its own window.
+After one take-up, later landings show the full card directly (`NG_LAND_ASK_MEMORY`, "session":
+this browser tab), and a landing rendered while the pane is open (Study, Challenges, Last rolls,
+Explore) is always the full card. Study keeps its own arrows: ↑/↓ the node (lesson, roll,
+technique), ←/→ the card. In a roll the take-up starts the question clock; a reading (URL) arrival
+stays dormant "as it already works" — the answer starts play. For 500 ms after a take-up, clicks
+on land/panic answers are ignored (`NG_LAND_TAP_GUARD_MS`). Each take-up emits `land_q_taken_up`
+(funnel side mark `question_taken_up`). As on dev, an asking question is pending: committing past
+it emits `land_q_ignored`, and an article link, Learn, the pane, ✕ or a background tap decline it
+(`land_q_declined`); only a wheel or touch scroll does not decline a question not yet taken up.
 Phone catch answers use 5px top/bottom padding instead of 9px.
 D-433 (D-370 adapted to U35, 2026-10-26): the live phone catch puts the question before
 the same native Moves row. The asking question, its Answer for Points and every shown answer

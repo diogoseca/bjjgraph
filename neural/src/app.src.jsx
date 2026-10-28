@@ -50,6 +50,18 @@ const NG_FILM_FADE_RATIO = 3;
 // (11px phone / 13px desktop), so 32px reaches 43px on the tighter of the two. A two-line
 // question (2 × 12.5px × 1.35 ≈ 34px) is already past it, so this only ever moves a one-liner.
 const NG_LAND_Q_MIN_H = 32;
+// U47 d review (2026-10-28): the answers appear where "Answer for Points" was, so a double tap (or a
+// double click) on it graded answer A: touch taps 180 ms and 350 ms apart both did. For this long after
+// a take-up, clicks on land/panic answers are ignored (_landTapGuard). 500, not 350: a 350 ms double
+// tap's second click arrives after 350 ms once event dispatch is added. Letter keys are deliberate and
+// are not guarded.
+const NG_LAND_TAP_GUARD_MS = 500;
+// U52 b (owner, 2026-10-28): "without showing a block unless the user already clicked to reveal it
+// once". After the player takes one question up, later landings open with the full card. Where that
+// opt-in is remembered — the owner's knob: "session" = this browser tab (sessionStorage: a reload
+// keeps it, a new tab asks again), "page" = until the page reloads, "never" = every landing asks.
+const NG_LAND_ASK_MEMORY = "session";
+const NG_LAND_ASK_KEY = "ng-land-opted-in";
 // THE DECK CARD'S FLOOR (owner: "there's this empty space after the last answer of the question
 // and it's a bit annoying ... trim a little bit of space after that last question"). The face
 // has hugged its content since v1.185.2, so the FLOOR was the only thing still padding it out.
@@ -3957,6 +3969,7 @@ class Component extends DCLogic {
       land_q_answered: "question_answered", // BRANCH, not a gate — see the note above
       land_q_ignored: "question_ignored", // committing past an unanswered question (direct pick)
       land_q_declined: "question_ignored", // closing/hiding the question instead of answering (v1.134.0)
+      land_q_taken_up: "question_taken_up", // U47 d: "Answer for Points" (or a tap on the question)
       land_q_skipped: "question_skipped", // the landing could ask nothing; `reason` says why
       land_q_unseen: "unseen_question",   // the specific suspected confusion (see renderLandCard)
       commit: "move_committed",
@@ -4034,7 +4047,7 @@ class Component extends DCLogic {
     let extra = null;
     if (beat === "land_q_answered") extra = { correct: !!props.correct, tier: props.tier || null };
     else if (beat === "land_q_unseen") extra = { node: props.node || null, cards_authored: props.cards || 0 };
-    else if (beat === "land_q_ignored") extra = { deck_key: props.deckKey || null };
+    else if (beat === "land_q_ignored" || beat === "land_q_taken_up") extra = { deck_key: props.deckKey || null };
     else if (beat === "land_q_skipped") extra = { deck_key: props.deckKey || null, reason: props.reason || null };
     this._csStep(step, extra);
   }
@@ -11957,7 +11970,7 @@ class Component extends DCLogic {
       b.setAttribute("aria-checked", "false");
       b.style.cssText = "cursor:pointer;font-family:inherit;text-align:left;font-size:12px;line-height:1.45;padding:9px 11px;border-radius:9px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.03);color:#c8d2e4;transition:border-color .15s,background .15s;" + (oneLine ? "white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" : "");
       b.innerHTML = '<b style="color:#8094b4;font-weight:800;margin-right:7px;">' + (this.MC_KEYS[i] || i + 1) + '</b>' + o.text;
-      b.addEventListener("click", () => answer(i));
+      b.addEventListener("click", () => { if (!this._landTapGuard(truth.surface)) answer(i); });
       wrap.appendChild(b);
     });
     this.fx("mc_shown", { deckKey: key, qhash: qh, opts: mc.options.length, surface: truth.surface });
@@ -12109,10 +12122,11 @@ class Component extends DCLogic {
       if (this._recall === truth) this._recall = null;   // graded: give the key back (see `_recallLive`)
       if (onDone) onDone(!!ok, ok ? "recalled" : "review");
     };
-    reveal.addEventListener("click", () => truth.toggle());
-    hide.addEventListener("click", () => truth.toggle());
-    again.addEventListener("click", () => grade(false));
-    got.addEventListener("click", () => grade(true));
+    const tap = (fn) => () => { if (!this._landTapGuard(surface)) fn(); };
+    reveal.addEventListener("click", tap(() => truth.toggle()));
+    hide.addEventListener("click", tap(() => truth.toggle()));
+    again.addEventListener("click", tap(() => grade(false)));
+    got.addEventListener("click", tap(() => grade(true)));
     paint();
     if (truth.surface !== "land" || !this.deckShown) this._recall = truth;
     wrap.appendChild(ans); wrap.appendChild(row);
@@ -14195,14 +14209,24 @@ class Component extends DCLogic {
     // inert, so no key or click can grade what is not shown. Media is never here (U35).
     block.inert = !!this._landAsk;
     if (this._landAsk) {
-      qt.addEventListener("click", () => this._landReveal());
+      // U52 b: a quiet line, "Answer for Points" inline at the end of the question, so a short phone
+      // shows both. The question text is its own span so _fitAskLine can trim it, never the link.
+      qt.textContent = "";
+      const tx = document.createElement("span");
+      tx.setAttribute("data-land-ask-text", "");
+      tx.textContent = card.q;
       const go = document.createElement("button");
       go.type = "button";
       go.setAttribute("data-land-ask-go", "");
       go.textContent = "Answer for Points";
       go.style.pointerEvents = "auto";
-      go.addEventListener("click", () => this._landReveal());
-      qw.appendChild(go);
+      qt.append(tx, " ", go);
+      qt.addEventListener("click", () => this._landReveal()); // the link's click bubbles here too
+      const ro = new ResizeObserver(() => {
+        if (!qt.isConnected || !this._landAsk) { ro.disconnect(); return; }
+        if (qt.clientWidth !== ro.w) { ro.w = qt.clientWidth; this._fitAskLine(qt); }
+      });
+      ro.observe(qt);
     }
     qw.appendChild(block);
     this._landQ = rec;
@@ -14246,25 +14270,68 @@ class Component extends DCLogic {
   }
   /** U47 d: "Answer for Points", or a tap on the question, shows today's card for the
    *  rest of this landing: paging, backfill and the catch's next question stay open.
-   *  It starts the question clock, like the arrival used to (v1.133.0). */
+   *  In a roll it starts the question clock, like the arrival used to (v1.133.0). A reading
+   *  arrival stays dormant "as it already works": the card shows and nothing starts; the
+   *  answer starts play (reader.src.js wraps _landAnswered). */
   _landReveal() {
     const el = this._landEl, q = this._landQ;
     if (!this._landAsk || !el || !q || this._landHidden(true)) return;
     this._landAsk = false;
+    this._landTakenAt = performance.now(); // opens the double-tap guard (_landTapGuard)
+    this._landOptIn();                     // U52 b: later landings show the full card directly
     el.removeAttribute("data-land-ask");
     const qw = el.querySelector("[data-land-q]");
-    qw.querySelector("[data-land-ask-go]")?.remove();
+    qw.firstElementChild.textContent = q.card.q; // the whole question, with the link gone
     const block = qw.lastElementChild;
     block.inert = false;
+    this.fx("land_q_taken_up", { deckKey: q.key || null, mode: this._landMode || "land" });
     // D-433: the expansion settles a phone catch's publication pin, so its
     // native Moves row follows the now-taller question.
     if (this._phoneCatch()) this._readerPin = null;
-    this._reader?.beginPlay();
-    this._engage();
-    this._armPagedLandClock();
+    if (this._readerIntent) {
+      // Dormant: a scroll to reach the question left the reader interacting; clear it so the
+      // tick cannot read the tap as reading. Pause, intent and the parked clock are untouched.
+      if (this._reader) this._reader.interacting = false;
+    } else {
+      this._reader?.beginPlay();
+      this._engage();
+      this._armPagedLandClock();
+    }
     this._updateLandDeck();
     this._dockLandCard(el);
     block.querySelector("button")?.focus({ preventScroll: true });
+  }
+  /** U52 b: on a phone the asking line is at most two lines, with "Answer for Points" at its end:
+   *  trim the question (never the link) with an ellipsis until it fits. Desktop shows it whole. */
+  _fitAskLine(qt) {
+    const tx = qt.querySelector("[data-land-ask-text]");
+    if (!tx) return;
+    const full = tx.dataset.full || (tx.dataset.full = tx.textContent);
+    tx.textContent = full;
+    if (!this.isMobile()) return;
+    const max = 2 * parseFloat(getComputedStyle(qt).lineHeight) + 1;
+    if (qt.getBoundingClientRect().height <= max) return;
+    let lo = 0, hi = full.length;
+    while (lo < hi) {
+      const mid = (lo + hi + 1) >> 1;
+      tx.textContent = full.slice(0, mid).trimEnd() + "\u2026";
+      if (qt.getBoundingClientRect().height <= max) lo = mid; else hi = mid - 1;
+    }
+    tx.textContent = full.slice(0, lo).trimEnd() + "\u2026";
+  }
+  _landOptedIn() {
+    if (NG_LAND_ASK_MEMORY === "never") return false;
+    if (this._landOpted) return true;
+    if (NG_LAND_ASK_MEMORY === "session") { try { return sessionStorage.getItem(NG_LAND_ASK_KEY) === "1"; } catch (e) { return false; } }
+    return false;
+  }
+  _landOptIn() {
+    if (NG_LAND_ASK_MEMORY === "never") return;
+    this._landOpted = true;
+    if (NG_LAND_ASK_MEMORY === "session") { try { sessionStorage.setItem(NG_LAND_ASK_KEY, "1"); } catch (e) { /* page-long, then */ } }
+  }
+  _landTapGuard(surface) {
+    return (surface === "land" || surface === "panic") && performance.now() - (this._landTakenAt ?? -Infinity) < NG_LAND_TAP_GUARD_MS;
   }
   _defenseQuestion(key) {
     const cards = this._landDeckCards(key);
@@ -14543,7 +14610,10 @@ class Component extends DCLogic {
     // clearLandCard deliberately does NOT touch these: this reset is the one owner of their
     // lifecycle, and the gates on `_landEl`/`_landMode` keep any stale tail inert.
     if (!reuse) {
-      this._landAsk = true;          // U47 d: the question asks first; _landReveal shows the card
+      // U47 d / U52 b: the question asks first, as a quiet line after Moves; _landReveal shows the
+      // card. Study (the pane open: Study, Challenges, Last rolls, Explore) and a player who has
+      // taken one up (NG_LAND_ASK_MEMORY) get the full card directly.
+      this._landAsk = !this.deckShown && !this._landOptedIn();
       this._landPage = null;         // cursor into _cardsOf(deck); set at the first mount
       this._landPaged = false;       // "the user moved the cursor this landing"
       this._landDeckComplete = false;
@@ -17382,13 +17452,13 @@ class Component extends DCLogic {
   // close the dialog") ── anything that puts the question away — the ✕, a background tap, the
   // pane, an option sheet — DECLINES it: spent for this landing, no reveal, no penalty. The
   // penalty exists only for letting it expire while it faces you.
-  _declineLandQ(reason) {
+  _declineLandQ(reason, scroll) {
     const q = this._landQ;
     this._disarmLandClock();
     if (!q || q.answered || !this._landPending) return;
-    // U47 d: a reading gesture (a phone scrolls to reach the question) does not decline a
-    // question the player has not taken up; leaving for an article, the pane or the ✕ still do.
-    if (reason === "reading" && this._landAsk && this._reader?.interacting) return;
+    // U47 d: a wheel or touch scroll (a phone scrolls to reach the question) does not decline a
+    // question the player has not taken up; an article link, Learn, the pane or the ✕ still do.
+    if (scroll && this._landAsk) return;
     q.answered = true;
     this._landPending = false;
     this.fx("land_q_declined", { deckKey: q.key || null, reason: reason || null });
@@ -17470,7 +17540,9 @@ class Component extends DCLogic {
   // any more, and a card hit cannot pin, it is gone in ~1.3s of wall clock.)
   _tickDecision(gdt) {
     if (this._readerIntent) return;
-    if (this._reader?.interacting) { this._declineLandQ("reading"); return; }
+    // Only a scroll leaves the reader interacting with a question still pending: every other
+    // reading gesture declined it as it happened (reader.src.js readingInteraction).
+    if (this._reader?.interacting) { this._declineLandQ("reading", true); return; }
     if (this._cwArm) this._tryArmClock(); // the card can become visible after engagement
     const d = this._decision;
     if (!d || d.remaining == null || this._checkpoint) return; // Q002 lives on: the checkpoint quiz is untimed — and so is every HAND now (v1.133.0); this window times the QUESTION only
@@ -18513,7 +18585,7 @@ class Component extends DCLogic {
     // exchange's arc carried the pair, on screen, 3px into the Moves row; at 186 every frame with the
     // pair on screen clears the row by at least 30px (camera-continuity, D-350b).
     // D-433 / D-370 adapted to U35 (2026-10-26): the phone catch question comes first,
-    // with no arrival/Reveal scroll. At 390x631 the reader has 463px: 80 band + 16 gap
+    // with no arrival or Answer for Points scroll (U47 d). At 390x631 the reader has 463px: 80 band + 16 gap
     // + the measured 352.25px open card leaves 14.75px. The usual phone keeps 144;
     // no account, type, target or Moves compaction. Both bands hold through the pick.
     const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186 : 144 : 64;

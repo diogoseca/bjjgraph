@@ -351,20 +351,27 @@
   .ng-landstack{--back-step-x:3px;position:fixed;left:50%;transform:translateX(-50%);z-index:4;pointer-events:none;}
   .ng-landstack>div{transform:translate(calc(var(--back-index)*var(--back-step-x)),calc(var(--back-index)*3px));position:absolute;inset:0;border:1px solid rgba(130,150,190,.3);border-radius:15px;background:linear-gradient(180deg,#20263b,#171c2e);box-shadow:1px 2px 3px rgba(0,0,0,.22);}
   @media(max-width:640px){.ng-landstack{--back-step-x:2px;}}
-  /* U47 d (owner, 2026-10-27): until "Answer for Points" the landing card is not shown, only its
-     question. The answers (inert: no key or click grades them), the deck count and the clock bar
-     leave the layout; _updateLandDeck drops the backs and guides. The ✕ stays: it is the Questions
-     layer's handle, so a question can still be put away unanswered. A phone clamps a long question
-     to two lines, and the button sits where a "Show more" would. Desktop gets the same button even
-     when the question fits. MC and recall set display inline, so the hide must be !important, and
-     these follow the deck rules above so the equal-specificity overrides win. app.src.jsx `_landReveal`. */
-  .ng-landcard[data-land-ask]{min-height:0!important;padding:11px 14px 2px!important;}
+  /* U47 d + U52 b (owner, 2026-10-27/28): until "Answer for Points" there is no card at all. The question
+     is a QUIET LINE "immediately following the your move row" (reader.src.js places it there): no
+     container, fill, border or shadow box, the row's own quiet type, and a soft text shadow so it
+     stays legible over the map. Answer for Points runs inline at the end of the question; on a phone
+     _fitAskLine (app.src.jsx) trims the question with an ellipsis so question and link stay within two
+     lines, which a 390x631 phone (the p10 real height) shows in its first view. The link is inline, so
+     its padding reaches a 44px target without growing the line. The link carries its own denser
+     shadow: inherited from the question it measured 3.5:1 against the brightest 5% of a lit map
+     label at 1440 (long question), and needs 4.5. The answers (inert: no key or click
+     grades them), the deck count and the clock bar leave the layout; _updateLandDeck drops the backs
+     and guides. The ✕ stays, small: it is the Questions layer's handle. MC and recall set display
+     inline, so the hide is !important, and these follow the deck rules above. `_landReveal`. */
+  .ng-landcard[data-land-ask]{min-height:0!important;padding:0 0 0 3px!important;background:none!important;border-color:transparent!important;box-shadow:none!important;overflow:visible!important;animation:none!important;}
   [data-land-ask]>[data-land-clock-track],[data-land-ask] [data-land-count],[data-land-ask] [data-land-q]>[inert]{display:none!important;}
-  [data-land-ask] [data-land-q]>div:first-child{min-height:0!important;margin:0!important;cursor:pointer;}
-  [data-land-ask-go]{display:block;min-height:44px;margin-left:-8px;padding:0 8px;border:0;border-radius:8px;background:none;font:inherit;font-size:13px;font-weight:700;color:#9cbcff;cursor:pointer;}
-  [data-land-ask-go]:focus-visible{outline:2px solid #9cbcff;outline-offset:-4px;}
+  [data-land-ask] [data-land-q]>div:first-child{min-height:0!important;margin:0!important;padding-right:26px!important;font-size:13px!important;font-weight:600;line-height:1.35!important;color:#d3dbea;cursor:pointer;}
+  [data-land-ask] [data-land-q]>div:first-child{text-shadow:0 1px 2px #070912,0 0 8px rgba(7,9,18,.95),0 0 16px rgba(7,9,18,.8);}
+  [data-land-ask] [data-land-corner]{top:-4px!important;right:-6px!important;}
+  [data-land-ask-go]{display:inline;margin:-14px -6px;padding:14px 6px;border:0;border-radius:8px;background:none;font:inherit;font-size:12px;font-weight:700;letter-spacing:.02em;white-space:nowrap;color:#9cbcff;cursor:pointer;text-shadow:0 0 1px #070912,0 0 3px #070912,0 0 6px rgba(7,9,18,.95),0 0 12px rgba(7,9,18,.9),0 0 20px rgba(7,9,18,.75);}
+  [data-land-ask-go]::after{content:" \2192";}
+  [data-land-ask-go]:focus-visible{outline:2px solid #9cbcff;outline-offset:-10px;}
   @media(hover:hover){[data-land-ask-go]:hover{color:#e0e9ff;}}
-  @media(max-width:640px){[data-land-ask] [data-land-q]>div:first-child{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;}}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */
   /* .ng-clock-hot is a MARKER CLASS with no rule (v1.135.1). It used to carry

@@ -110,6 +110,8 @@ test("returner freeze on comeback hand → clock waits for engagement, then narr
   await page.mouse.move(4, 4)
   await page.mouse.move(6, 6)
   // U47 d: engagement alone no longer arms an asking question; Answer for Points does (no pump).
+  // Engagement is read BEFORE Answer for Points, which engages by itself.
+  expect(await page.evaluate(() => !!(window as any).__neural._engaged), "the corner moves engaged the player").toBe(true)
   expect(await page.evaluate(() => (window as any).__neural._decision?.remaining ?? null), "U47 d: engagement alone leaves the asking question unclocked").toBeNull()
   await j.openQuestion()
   const armed = await page.evaluate(() => {

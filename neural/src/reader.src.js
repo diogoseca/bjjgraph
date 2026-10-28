@@ -687,7 +687,7 @@ class Reader {
     // a pane that paused first can resume the game on close while the reader is still reading.
     if (this.interacting && this.app.paused) return;
     this.interacting = true;
-    if (!this.intent) this.app._declineLandQ("reading");
+    if (!this.intent) this.app._declineLandQ("reading", type === "wheel" || type === "touchstart");
     this.app.setPaused(true);
     // Do not move text during a drag selection. The clock is already declined;
     // expanding after pointerup keeps the browser's native selection intact.
@@ -1018,7 +1018,7 @@ class Reader {
       }
       this.chromeActive = !!chrome;
       // D-433 adapts D-370 to U35: the live phone catch question must be reachable
-      // before/after Reveal without scrolling. Account and native Moves retain their space.
+      // before and after Answer for Points (U47 d) without scrolling. Account and native Moves retain their space.
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
@@ -1053,7 +1053,8 @@ class Reader {
       const band = this.nodeBand?.height || 0;
       if (reference) { this.restoreGame(); this.syncIndex(); return; }
       const card = a._landEl, row = a.optionsRef.current, showCard = card && this.on("card"), showHand = row && a._handShown();
-      const deck = !!card?.classList.contains("ng-land-deck");
+      // U52 b: an asking question is a quiet line, not a deck: the column's width and the parts' small step.
+      const deck = !!card?.classList.contains("ng-land-deck") && !card.hasAttribute("data-land-ask");
       // D-351: _readerHold keeps a landing's card and hand unpublished until the article it asked
       // for renders (800ms at most). Parts the ceiling publishes are pinned (_readerPin), and the
       // Videos lift and the film's move wait until they settle: a late article used to move live
@@ -1160,18 +1161,19 @@ class Reader {
           if (!label("hand").hidden) { position(label("hand"), left, y, width); y += label("hand").getBoundingClientRect().height + step; }
           else y = rowTop + (handoff?.rowHeight ?? handHeight) + step;
         };
-        // D-433 (2026-10-26), D-370 adapted to U35: Reveal and all opened answers
+        // D-433 (2026-10-26), D-370 adapted to U35: Answer for Points (U47 d) and all shown answers
         // must be reachable on arrival, with no scroll writer. The SAME untimed
         // Moves row follows the phone question; all other landings keep layout C.
         // Keep DOM/Tab order aligned too, restoring it on a desktop resize.
-        const caught = a._landMode === "defense" && !!a._defensePressure;
         const questionFirst = phoneCatch && showCard && row;
         if (questionFirst) { if (card.nextSibling !== row) row.before(card); }
         else { if (card?.nextSibling === row) row.after(card); placeHand(); }
         // D-368 (layout C): the stage after Moves. On a desktop the current card sits 60px beside the
-        // question (400 + 60 + 390, the approved A geometry), tops aligned so the question stays high; stacked
-        // it sits above the question, except in a catch, where it follows the answers so they stay on screen.
-        const follows = homeMedia && !beside && showCard && caught;
+        // question (400 + 60 + 390, the approved A geometry), tops aligned so the question stays high.
+        // U52 b (owner, 2026-10-28) supersedes D-368's stacked order: the question comes "immediately
+        // following the your move row", so stacked, the current card follows the question in every
+        // landing (it already did in a catch, so the answers stay on screen).
+        const follows = homeMedia && !beside && showCard;
         if (homeMedia && !beside && !follows) { position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }
         if (pin) y = pin.cardY || (pin.cardY = y);
         cardY = y;

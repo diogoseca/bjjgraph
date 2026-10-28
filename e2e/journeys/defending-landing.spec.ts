@@ -456,6 +456,9 @@ test('@curated reduced motion keeps a static cue and suppresses frame-driven dan
   expect((await state(page)).vignette).toBe(true)
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await expect.poll(() => page.locator('.ng-vignette').evaluate(el => ({ opacity: getComputedStyle(el).opacity, animations: el.getAnimations().length }))).toEqual({ opacity: '0.144', animations: 0 })
+  // The poll above is CSS-only (the @media rule alone satisfies it). The media-change LISTENER is what
+  // re-syncs danger visuals; with no frame pumped, only it writes _dangerReduced (U47 d review).
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._dangerReduced), { message: 'the media-change listener acted, with no frame pumped' }).toBe(true)
   await j.advance(11000)
   const before = await mechanics(page)
   expect(before.remaining).toBeGreaterThan(0)
@@ -681,8 +684,8 @@ test('D-354 N3: a removed film is no longer observed by the reader', async ({ pa
   expect(released, 'the removed film is no longer observed by the reader').toEqual({ removed: true, observed: false })
 })
 
-// D-433 (2026-10-26), D-370 adapted to U35: the covered phone question must
-// expose Reveal and every opened answer without scrolling. This supersedes U16 b's
+// D-433 (2026-10-26), D-370 adapted to U35: the asking phone question must
+// expose Answer for Points (U47 d) and every shown answer without scrolling. This supersedes U16 b's
 // phone Moves-first/scroll-accepted premise. Keep desktop clearance, native Moves,
 // account visibility, normal card padding, target size and execution handoff claims.
 test.beforeEach(async ({ page }, info) => { if (!/^(D-368|U16 b|D-433)/.test(info.title)) return

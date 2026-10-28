@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test'
 import { createHash } from 'node:crypto'
 import { readFileSync, writeFileSync } from 'node:fs'
 import { verifySharedCoreArtifact, isSharedCoreRequest, type SharedCoreArtifact } from '../fixtures/game-worker-core'
+import { journey } from '../dsl'
 
 let sharedCore: SharedCoreArtifact
 
@@ -95,7 +96,11 @@ for (const width of [1440, 390]) {
     const beforeImmediate = await own.locator('.ngodds').allTextContents()
     // U47 d: first-hand values above must arrive while the question asks; only this explicit
     // Answer for Points shows the card. A keyboard answer cannot open the card for us.
-    await page.locator('[data-land-ask-go]').click()
+    // A real mouse where it sits, not locator.click() (§6.3): bring it into view first, as a reader
+    // scrolls (programmatic, so not a reading gesture), then let the reader settle.
+    await page.locator('[data-land-ask-go]').scrollIntoViewIfNeeded()
+    await page.evaluate(() => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r))))
+    await journey(page).clickByMouse('[data-land-ask-go]', 'Answer for Points')
     await expect(page.locator('[data-land-ask-go]')).toHaveCount(0)
     await page.keyboard.press('ABC'[question!.correct])
     await expect.poll(() => page.evaluate((oldHash) => {

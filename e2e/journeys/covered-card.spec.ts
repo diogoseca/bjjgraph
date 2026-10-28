@@ -16,8 +16,17 @@ const state = (page: any) => page.evaluate(() => {
   const a = (window as any).__neural
   return { asking: !!a._landAsk, remaining: a._decision?.remaining ?? null,
     q: a._landQ?.card.q, page: a._landPage, qMod: a._qMod || 0,
-    grades: (a.beats || []).filter((b: any) => ['mc_correct', 'mc_wrong', 'land_q_expired'].includes(b.beat)).length }
+    grades: (a.beats || []).filter((b: any) => ['mc_correct', 'mc_wrong', 'land_q_expired'].includes(b.beat)).length,
+    takenUp: (a.beats || []).filter((b: any) => b.beat === 'land_q_taken_up').length }
 })
+const funnelMarks = (page: any) => page.evaluate(() => ((window as any).__neural.csBeats || []).filter((b: any) => b.beat === 'funnel').map((b: any) => b.step))
+// The measured, hit-tested centre of a control (the clickByMouse canon), for touch and double clicks.
+const centre = (page: any, selector: string) => page.evaluate((sel: string) => {
+  const e = document.querySelector(sel)!, r = e.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2
+  const hit = document.elementFromPoint(x, y)
+  return { x, y, hit: !!hit && e.contains(hit), inView: y > 0 && y < innerHeight }
+}, selector)
+
 
 // What of the card is on screen: an element counts when it takes layout.
 const face = (page: any) => page.evaluate(() => {
@@ -44,6 +53,8 @@ for (const width of [1440, 390]) {
       { asking: true, question: true, go: 1, answers: 0, inert: true, close: true, count: false, clock: false, backs: 0, guides: 0 })
     const before = await state(page)
     expect(before, 'an arriving question has no running clock').toMatchObject({ asking: true, remaining: null })
+    // Letters are INERT while the question asks (they neither answer nor take it up); only
+    // Answer for Points or a tap on the question does.
     await page.keyboard.press('a')
     await page.keyboard.press('b')
     await page.keyboard.press('c')
@@ -57,6 +68,8 @@ for (const width of [1440, 390]) {
     await j.advance(20000)
     expect(await state(page), 'an asking question cannot grade, page or charge time').toEqual(before)
     await j.openQuestion()
+    expect((await state(page)).takenUp, 'land_q_taken_up fires once per take-up').toBe(1)
+    expect((await funnelMarks(page)).filter((m: string) => m === 'question_taken_up'), 'the funnel marks the take-up once').toHaveLength(1)
     const shown = await face(page)
     expect(shown, 'Answer for Points shows today\'s card, with no reveal control inside it').toMatchObject(
       { asking: false, question: true, go: 0, answers: 3, inert: false, close: true, count: true, clock: true })
@@ -77,6 +90,7 @@ for (const width of [1440, 390]) {
     await j.landSettled()
     expect(await state(page), 'backfill keeps the card shown and the remaining window').toMatchObject({ asking: false, remaining: opened.remaining, q: opened.q })
     expect((await face(page)).asking).toBe(false)
+    expect((await state(page)).takenUp, 'paging and backfill take nothing up again').toBe(1)
     const correct = await page.evaluate(() => (window as any).__neural._mc.correct)
     await page.keyboard.press('abc'[correct])
     expect((await state(page)).grades).toBe(1)
@@ -89,7 +103,7 @@ for (const width of [1440, 390]) {
     const j = journey(page)
     await j.boot('/', { seedRolls: coveredRolls })
     await j.land('Mount Top')
-    const question = '.ng-landcard[data-land-ask] [data-land-q] > div:first-child'
+    const question = '.ng-landcard[data-land-ask] [data-land-ask-text]'
     // A reading gesture first — a real wheel over the article, as a phone scrolls the reader to
     // reach the question (layout C puts Moves and Videos above it). Reading declines a LIVE
     // question; it must not decline one that is still asking.
@@ -110,34 +124,112 @@ for (const width of [1440, 390]) {
   })
 }
 
-// A real 99-character question (Twister Control, Top, card 1), not injected text. Questions are
-// capped at 100 characters, so none needs a third line on a desktop card: there the visible cut
-// cannot tell a clamp from none, and the claim reads the computed clamp the render emitted.
-// (u47-desktop-clamped survived the visible-cut form of this claim; it is killed by this one.)
+// U47 d review (2026-10-28): a double tap or double click on Answer for Points graded answer A, which
+// appeared under the second tap. U52 b moved the link inline, so the second tap now lands wherever
+// the card puts answer A; these put it there on purpose, inside NG_LAND_TAP_GUARD_MS, which is the
+// claim the guard exists for. Each first proves the second tap really lands on an answer.
+const secondTapOnAnswer = async (page: any, go: string, tap: (x: number, y: number) => Promise<void>, gap: number) => {
+  const at = await centre(page, go)
+  expect(at, 'premise: Answer for Points is hit-testable where it sits').toMatchObject({ hit: true, inView: true })
+  const t0 = Date.now()
+  await tap(at.x, at.y)
+  const wait = gap - 40 - (Date.now() - t0)
+  expect(wait, 'premise: the second tap still falls inside the gap').toBeGreaterThan(0)
+  await page.waitForTimeout(wait)
+  // measured just before the second tap, so a settling layout cannot make the claim vacuous
+  const a = await centre(page, '[data-land-mc-opt="0"],[data-panic-mc-opt="0"]')
+  expect(a, 'premise: answer A is on screen and hit-testable').toMatchObject({ hit: true, inView: true })
+  await tap(a.x, a.y)
+  expect(Date.now() - t0, 'premise: the second tap fell inside the guard window').toBeLessThan(500)
+  await page.waitForTimeout(600)
+}
+test.describe('touch', () => {
+  test.use({ hasTouch: true })
+  for (const gap of [180, 350]) {
+    test(`@curated U47 d a double tap on Answer for Points grades nothing (touch, ${gap} ms)`, async ({ page }) => {
+      await page.setViewportSize({ width: 390, height: 844 })
+      const j = journey(page)
+      await j.boot('/', { seedRolls: coveredRolls })
+      await j.land('Mount Top')
+      await page.locator('[data-land-ask-go]').scrollIntoViewIfNeeded()
+      await j.readerLayoutSettled()
+      await secondTapOnAnswer(page, '[data-land-ask-go]', (x, y) => page.touchscreen.tap(x, y), gap)
+      expect(await state(page), 'a double tap on Answer for Points grades nothing').toMatchObject({ asking: false, grades: 0, takenUp: 1 })
+    })
+  }
+})
+
+test('@curated U47 d a double click on Answer for Points grades nothing (390 landing)', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  const j = journey(page)
+  await j.boot('/', { seedRolls: coveredRolls })
+  await j.land('Mount Top')
+  await page.locator('[data-land-ask-go]').scrollIntoViewIfNeeded()
+  await j.readerLayoutSettled()
+  await secondTapOnAnswer(page, '[data-land-ask-go]', (x, y) => page.mouse.click(x, y), 180)
+  expect(await state(page), 'a double click on Answer for Points grades nothing').toMatchObject({ asking: false, grades: 0, takenUp: 1 })
+})
+
+test("@curated U47 d a double click on the catch's Answer for Points grades nothing (1440)", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 })
+  await coveredCatch(page)
+  await secondTapOnAnswer(page, '[data-landcard=defense] [data-land-ask-go]', (x, y) => page.mouse.click(x, y), 180)
+  expect(await state(page), "a double click on the catch's Answer for Points grades nothing").toMatchObject({ asking: false, grades: 0, takenUp: 1 })
+})
+
+// U47 d review: only a wheel or touch scroll spares an asking question. Following an article link is
+// leaving the question for the article: it declines, with dev's beat and funnel mark.
+test('@curated U47 d following an article link declines an asking question, as on dev', async ({ page }) => {
+  const j = journey(page)
+  await j.boot('/', { seedRolls: coveredRolls })
+  await j.land('Mount Top')
+  const marked = await page.evaluate(() => {
+    const link = [...document.querySelectorAll('[data-reader-body] a[href^="/Positions/"]')].find(e => (e as HTMLElement).getClientRects().length) as HTMLElement | undefined
+    link?.setAttribute('data-u47-link', '')
+    return !!link
+  })
+  expect(marked, 'premise: the article carries a position link').toBe(true)
+  await page.locator('[data-u47-link]').scrollIntoViewIfNeeded()
+  await j.readerLayoutSettled()
+  expect((await state(page)).asking, 'premise: the question is still asking').toBe(true)
+  await j.clickByMouse('[data-u47-link]', 'follow an article link')
+  const declined = await page.evaluate(() => ((window as any).__neural.beats || []).filter((b: any) => b.beat === 'land_q_declined').map((b: any) => b.reason))
+  expect(declined, 'following an article link declines the asking question (reason reading), as on dev').toEqual(['reading'])
+  expect(await funnelMarks(page), 'and the funnel marks it question_ignored, as on dev').toContain('question_ignored')
+})
+
+// A real 99-character question (Twister Control, Top, card 1), not injected text.
+// NON-KILL, recorded (U52 b): questions are capped at 100 characters, so no question plus its link
+// needs a third line on a desktop card; trimming on desktop (_fitAskLine without its phone gate) is
+// unobservable with real content, and no spec here can kill that mutant.
 for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 }]) {
   test(`@curated U47 d a long question is cut to two lines on a phone and shown whole on desktop (${viewport.width}x${viewport.height})`, async ({ page }) => {
     const measure = () => page.evaluate(() => {
       const el = (window as any).__neural._landEl, q = el.querySelector('[data-land-q]').firstElementChild
-      const line = parseFloat(getComputedStyle(q).lineHeight), go = el.querySelector('[data-land-ask-go]')
-      return { text: q.textContent, lines: Math.round(q.clientHeight / line), cut: q.scrollHeight > q.clientHeight + 1,
-        clamp: getComputedStyle(q).getPropertyValue('-webkit-line-clamp'),
-        full: Math.round(q.scrollHeight / line), goBelow: go ? go.getBoundingClientRect().top >= q.getBoundingClientRect().bottom - 1 : null,
-        goHeight: go ? go.getBoundingClientRect().height : null }
+      const tx = el.querySelector('[data-land-ask-text]'), go = el.querySelector('[data-land-ask-go]')
+      const line = parseFloat(getComputedStyle(q).lineHeight), qr = q.getBoundingClientRect()
+      let goEnds: boolean | null = null
+      if (go) { const rg = document.createRange(); rg.selectNodeContents(go); goEnds = q.contains(go) && Math.abs(rg.getBoundingClientRect().bottom - qr.bottom) <= 4 }
+      return { text: (tx || q).textContent, full: tx ? (tx.dataset.full || tx.textContent) : q.textContent,
+        lines: Math.round(q.clientHeight / line), cut: /\u2026$/.test((tx || q).textContent),
+        // U52 b: Answer for Points runs inline at the end of the question's line
+        goEnds, goHeight: go ? go.getBoundingClientRect().height : null }
     })
     await page.setViewportSize(viewport)
     const j = journey(page)
     await j.boot('/', { seedRolls: coveredRolls })
     await j.land('Twister Control Top')
     const asking = await measure()
-    expect(asking.text).toBe('What structural configuration defines Twister Control and separates it from ordinary back exposure?')
-    expect(asking.goBelow, 'Answer for Points follows the question').toBe(true)
-    expect(asking.goHeight).toBeGreaterThanOrEqual(44)
+    const QUESTION = 'What structural configuration defines Twister Control and separates it from ordinary back exposure?'
+    expect(asking.full).toBe(QUESTION)
+    expect(asking.goEnds, "Answer for Points ends the question's line").toBe(true)
+    expect(asking.goHeight, 'the inline link keeps a 44px target').toBeGreaterThanOrEqual(44)
     if (viewport.width <= 640) {
-      expect(asking.full, 'premise: this question needs more than two phone lines').toBeGreaterThan(2)
-      expect(asking, 'U47 d: a long question is cut to two lines on a phone').toMatchObject({ lines: 2, cut: true, clamp: '2' })
-    } else expect(asking, 'desktop shows the whole question and still offers Answer for Points').toMatchObject({ cut: false, clamp: 'none' })
+      expect(asking, 'U47 d: a long question is cut to two lines on a phone').toMatchObject({ lines: 2, cut: true })
+      expect(QUESTION.startsWith(asking.text!.slice(0, -1).trimEnd()), 'the trim keeps the question\'s own words, in order').toBe(true)
+    } else expect(asking, 'desktop shows the whole question and still offers Answer for Points').toMatchObject({ text: QUESTION, cut: false })
     await j.openQuestion()
-    expect(await measure(), 'the shown card carries the whole question').toMatchObject({ text: asking.text, cut: false, goBelow: null })
+    expect(await measure(), 'the shown card carries the whole question').toMatchObject({ text: QUESTION, cut: false, goEnds: null })
   })
 }
 

@@ -959,6 +959,18 @@ export class Journey {
     await this.clickByMouse("[data-land-ask-go]", "Answer for Points");
     await expect(go).toHaveCount(0);
     await this.readerLayoutSettled();
+    await this.tapGuardSettled();
+    return this;
+  }
+
+  /** U47 d review: for NG_LAND_TAP_GUARD_MS after a take-up, clicks on land/panic answers are
+   * ignored (a double tap on Answer for Points must not answer). A journey that takes the question
+   * up and then answers by pointer waits it out, as a player's deliberate second tap would. */
+  async tapGuardSettled() {
+    await this.page.waitForFunction(() => {
+      const a = (window as W).__neural;
+      return !a?._landTapGuard || !a._landTapGuard("land");
+    }, undefined, { timeout: 5_000 });
     return this;
   }
 

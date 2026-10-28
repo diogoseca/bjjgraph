@@ -393,7 +393,7 @@ test("@curated expiry is fluid — no re-entry replay, the bar eases home", asyn
  * Mutants that must die: arming immediately (gate dropped); the 1.5× grace dropped; the
  * document-level latch removed (a real mouse move must arm it).
  */
-test("@curated no clock before Reveal — engagement alone is free; opening keeps new-user grace", async ({
+test("@curated no clock before Answer for Points — engagement alone is free; taking it up keeps new-user grace", async ({
   page,
 }) => {
   const j = journey(page)
@@ -425,20 +425,23 @@ test("@curated no clock before Reveal — engagement alone is free; opening keep
   await page.mouse.move(4, 4)
   await page.mouse.move(6, 6)
   await j.advance(300)
-  expect(await page.evaluate(() => (window as any).__neural._decision.remaining)).toBeNull()
+  // U47 d review: read engagement BEFORE Answer for Points, which engages by itself.
+  const hovered = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return { engaged: !!a._engaged, beat: (a.beats || []).some((b: any) => b.beat === "engaged"), remaining: a._decision.remaining }
+  })
+  expect(hovered.engaged, "one hover engages").toBe(true)
+  expect(hovered.beat).toBe(true)
+  expect(hovered.remaining, "…but an asking question stays unclocked").toBeNull()
   await j.openQuestion()
   const armed = await page.evaluate(() => {
     const a: any = (window as any).__neural
     return {
-      engaged: !!a._engaged,
       total: a._decision ? a._decision.total : null,
       base: a.get("decisionSec", 9) * 1000,
       returning: a._returningVisitor(),
-      beat: (a.beats || []).some((b: any) => b.beat === "engaged"),
     }
   })
-  expect(armed.engaged, "one hover engages").toBe(true)
-  expect(armed.beat).toBe(true)
   expect(armed.returning, "a fresh profile is a brand-new user").toBe(false)
   expect(armed.total, "…who gets the 1.5× grace window").toBe(armed.base * 1.5)
 

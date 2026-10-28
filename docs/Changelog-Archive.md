@@ -12737,7 +12737,7 @@ and optional feature variant. It stops above the unchanged 506,817 B ceiling (4 
 then re-seeds app rows as a separate child of the clean candidate and runs all required gates.
 No payload ceiling or policy baseline changes are part of this implementation.
 
-## v1.234.0 — Answer for Points: the landing asks with its question alone (owner U47 d)
+## v1.236.0 — Answer for Points: the landing asks with its question alone (owner U47 d)
 
 U47 asked whether the covered card should be A (question plus a "Reveal / Answer for a boost"
 button) or B (the same plus a blurred peek). The owner answered **d**: "the landcard is not
@@ -12771,3 +12771,39 @@ only) went red on exactly that. The one deliberate difference from dev: `_declin
 does not decline an asking question during a reading gesture, because a phone scrolls the reader
 to reach the question at all. The phone's ordinary layout C (Moves, Videos, then the question) is unchanged,
 so at 390×844 the asking question starts below the reader's fold exactly as dev's card does.
+
+**Review fixes (APTS533, 28 October).** An independent review of PR #319 blocked it with reproduced
+findings, all fixed in the same PR. (1) A double tap on Answer for Points answered: the answers appear
+where the button was, so touch taps 180 ms and 350 ms apart, and a mouse double click on the landing
+and on the 1440 catch, graded answer A. Clicks on land/panic answers are now ignored for 500 ms after a
+take-up (`NG_LAND_TAP_GUARD_MS`; 350 was too short, because a 350 ms double tap's second click arrives
+after dispatch); letters stay unguarded and are inert while asking. (2) Following an article link no
+longer declined an asking question: the exemption covered every "reading" decline while the reader was
+interacting, and a link's own pointerdown sets interacting first. Only wheel and touch scrolls now pass
+`scroll` to `_declineLandQ`; links, Learn, the pane and the ✕ decline as on dev, with
+`land_q_declined:reading` and the funnel's `question_ignored`. (3) "As it already works": on a reading
+(URL) arrival the take-up called `beginPlay`, `_engage` and the clock, so 13.3 s later the question
+expired at −4 %. A reading arrival's take-up now only shows the card and clears the reader's
+`interacting`; the answer starts play, and reading-contract and url-arrival assert dev's dormant claims
+again. (10) `land_q_taken_up` (funnel side mark `question_taken_up`) makes the new step from asked to
+taken up visible. The gate gaps it found (D-433 mutants never run, hover engagement asserted after a call
+that engages by itself, the 6 px token after a shown deck's backs, a CSS-only reduced-motion poll, a
+mouse-driven keyboard spec, `locator.click()` in game-value-live) are each closed with a spec claim and,
+where a claim is new, a named mutant.
+
+**U52 b (owner, 28 October): no block at all.** Seeing the compact asking card, the owner wrote "seems like a
+whole nasty block hangin around there. i thought it'd be much more subtle", then: "immediately following the
+your move row without showing a block unless the user already clicked to reveal it once, or the user is doing
+flashcards/landcards from the study challenge or navigation". The asking state is now a quiet line of text
+directly after Moves (no container, fill or border; a soft text shadow), with Answer for Points inline at its
+end. On a stacked phone stage the question now precedes the Videos card in every landing (D-368's order put
+Videos between Moves and the question, which is why dev's card started at the fold, y 752 of 844). A phone trims
+the question with an ellipsis so question and link fit two lines: at 390x631 (the p10 real height) both show at
+arrival. After one take-up the session shows full cards (`NG_LAND_ASK_MEMORY = "session"`, sessionStorage), and
+a landing rendered with the pane open is always full. Study keeps the app's own arrows, verified in the key
+handler: ↑/↓ the node (Challenges lessons, Last rolls rolls, a session's or the drill's techniques), ←/→ the card.
+Contrast over the map, sampled with the text transparent and its shadow kept: question 13.4-14.1:1 against the
+median background and 8.3-13.1:1 against the brightest 5%; link 8.2-9.1:1 median, 8.1-8.2:1 brightest 5% except
+the long question at 1440 (3.5:1 over a bright map spot). Three subtle looks (quiet line, pill, ghost card) were
+started for U52 b's first note and dropped unbuilt-to-screens when the fuller note arrived.
+

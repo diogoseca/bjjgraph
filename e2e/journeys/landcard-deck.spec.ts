@@ -182,7 +182,11 @@ for (const width of [1440, 390]) {
       expect(m.trayToFace, "…and never under it").toBeGreaterThanOrEqual(0)
     }
     expect(m.backTipBelowFace, "premise: the deepest back peeks below the face").toBeGreaterThan(0)
-    expect(m.backTipToArticle, "the deepest back stays clear of the article").toBeGreaterThanOrEqual(0)
+    // U47 d review: article-sections measures the asking face (no backs), so the token after a SHOWN
+    // deck's backs is pinned here: the reader pays 3px per back, then the 6px section token. Beside
+    // the Videos card (1440) the taller of the two sets the article, so there it stays a clearance.
+    if (m.stacked || width === 390) expect(m.backTipToArticle, "the article follows the deck's backs at the six-pixel token").toBeCloseTo(6, 0)
+    else expect(m.backTipToArticle, "the deepest back stays clear of the article").toBeGreaterThanOrEqual(0)
   })
 }
 

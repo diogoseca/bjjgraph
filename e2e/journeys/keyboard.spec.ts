@@ -72,7 +72,16 @@ test("A-C answer the live question; shifted digits leave it untouched", async ({
   // the landing block mounts once its distractor pool is resident (v1.80.4)
   const mc = await j.landQuestion()
   expect(mc, "a live landing question").toBeTruthy()
-  await j.openQuestion() // U47 d: letters answer the question once it is taken up
+  // U47 d: letters are inert while the question asks (covered-card pins that); take it up FROM THE
+  // KEYBOARD — Tab to Answer for Points, then Enter — and the letters answer it.
+  let reached = false
+  for (let i = 0; i < 200 && !reached; i++) {
+    await page.keyboard.press("Tab")
+    reached = await page.evaluate(() => !!document.activeElement?.matches("[data-land-ask-go]"))
+  }
+  expect(reached, "Tab reaches Answer for Points").toBe(true)
+  await page.keyboard.press("Enter")
+  expect(await page.evaluate(() => (window as any).__neural._landAsk), "Enter on Answer for Points takes the question up").toBe(false)
 
   await page.keyboard.press("Shift+Digit1")
   await expect(page.locator("[data-go], [data-choice-inspect]")).toHaveCount(0)
