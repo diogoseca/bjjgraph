@@ -12705,3 +12705,113 @@ at 1440 (replaced by an inherited drift that eases to rest; "the drift never rev
 still flashed the unadopted rows for one frame on the first opening (now hidden with visibility until the
 section adopts them; NO-FLASH). `tests/game_study_inputs.test.mjs` had been red since round 1's
 `startRoll(opening)` signature (its anchor now tolerates parameters).
+
+### PR #320's independent review (CAM2540): the board is state on the wrap, not on its rows
+
+CI run 40616953392 went red on seven journeys: coldstart-funnel:105, coldstart-late-payload:185 and :458,
+coldstart-spine:108, :151 and :175, and the gen spec casual-guard-pull-coin-counts-matching-commits-only:50.
+REAL BREAK (an app race), reproduced on the branch (6 of the core six failed) against dev (13 of 13 passed):
+`_openingBoard` wrote an inline `visibility:hidden` on every row the reader had not adopted, and only a later
+camera frame took it off. The cold-start journeys advance the test clock in 1 s steps and then wait without
+advancing it, so a hand the reader had already adopted stayed hidden for good; a real player whose reader.js
+arrived late saw the hand hidden, and could not tap it, for up to ~2 s. This corrects the paragraph above:
+"now hidden with visibility until the section adopts them" was that defect, not its fix.
+
+What changed, each item with the spec that pins it and the mutant that proves it (every kill read at its
+named assertion, against a green control):
+
+- **B1.** The board's styles are ONE rule set keyed to the app wrap (`data-ng-open` = board | faint |
+  release, `--ng-open-o`, `--ng-open-y`; `NG_CAM_OPEN_CSS`, injected once). A loose row is matched by
+  `:not([data-reader-game-part])`, so when the reader moves a row the cascade restyles it at once, with no
+  frame. Pinned by coldstart-spine "explores a sheet first"; `held-until-adopted` (an inline hide on a loose row that
+  only a later frame takes off: the B1 class itself) is killed at its `toBeVisible`.
+- **B2.** With the Book put away (`readerBook:false`, sticky and one tap away) the loose rows are the board
+  and ride with it. A per-frame Book-off probe at 390x844 found two more causes behind the review's 104 px
+  pop. (1) A faint row is `visibility:hidden`, so `_viewRect` skipped it, and the band's bottom jumped
+  493 → 208 mid-rise; it now counts a row held faint. (2) The board rode against the spring's GOAL, which
+  lags the band: the rows mount at the reveal and the reader adopts them ~0.1 s later, 64 px higher, so the
+  node-to-Moves distance drifted 47 px over the first 0.4 s of the rise. The ride is now measured against the
+  landing as the band stands each frame. Reduced motion waited four still frames, snapped, then snapped again
+  on adoption (4 view changes); it now also waits for the reader to adopt the card and the hand, no longer
+  than the reader's own 800 ms ceiling (D-351). opening-camera.spec runs the first opening, the restart and
+  reduced motion with the Book on AND off.
+- **M1.** startRoll's heading hide and `_endArrival` are unconditional again: a `holdCamera` lease
+  mid-arrival (the share cue, `openSession`, `openPlanSession`) had left "Mount / Top" up at pick + 15 s.
+- **M2.** A pause ends the arrival through `_retireCamOpen`, without `_camOpenManual`, so the follow-cam
+  resumes with the game (measured: the camera did not move for 8 s after the pane closed).
+- **m1.** The 0.2 s release is a wrap state that its own `transitionend` / `transitioncancel` clears; no
+  inline transition is ever written, so none can be left behind.
+- **m2.** A restart begun while a board still shows takes it over (`_openHandOff`; the new token inherits
+  `o0` / `y0`) instead of restoring it first (measured: opacity 0.444 → 1.0 and 193 px up in one frame).
+- **m3.** Below `NG_CAM_OPEN_FAINT` (0.1) the rows and the shelf are `visibility:hidden`: a card at
+  effective opacity 0.066 had taken a tap. If no frame advances the opening while it is faint (a hidden tab,
+  a clock nobody advances), a 500 ms wall-clock watchdog shows the rows: never hidden, only faint.
+- SNAP counts every change of view a player could see (over 0.01 px) after the overview, and allows ONE (the
+  landing): retiring the token re-states the landing pose with 1e-10 world units of float noise, which is not a
+  frame of motion, and the old limit of two let a second landing cut through.
+- **Reduced motion with the Book put away** landed on the loose rows and cut again, 32 px, when the reader
+  adopted them 64 px higher (half the band's step). The wait now also covers a reader still LOADING
+  (`_readerLoad`), not only one loaded: the module arrived 0.1 s after the reveal in the failing run.
+- **D-354, found by the merged tree's full suite (CAM2540/CAM2547).** article-sections:839 failed 3/3 on this
+  branch's bundle and passed 3/3 on dev's, served the same way (a REAL regression). An A/B probe, both bundles,
+  logged every `refreshChoiceValues` caller and the reader's timeline: on both, the deal (el 5.2) is held by the
+  residency burst, and what reaches `_ensureGameValues` is the burst's trailing flush after NG_RESIDENCY_SETTLE_MS
+  (250 ms, WALL clock). Dev's pumped frames cost ~125 ms of wall time per game second, so its flush landed at el
+  9.98, after the cold reader loaded (7.98) and held the hand: refused, then started at publication (the D-354
+  path). The directed arrival's frames cost ~300 ms per game second, so the flush landed inside the reveal's own
+  pump (el 5.98), on a loose hand fading in at 0.58 that nothing held yet: the activation started before the hold
+  and the spec's premise failed. Dev held D-354's order only by timing. `_readerAwaited` makes it an order: a
+  landing's hand is not playable for the Win chance until the reader has laid that landing out once (a skipped
+  article, a failed import or 3 s of wall clock release it), and that first layout asks again once it has adopted
+  and held, or not, the hand. The same review exposed a refusal that was final: a hand is hidden while the board is
+  faint, so an activation asked then went idle; the board leaving faint, the stall watchdog and the board's end
+  each ask again.
+
+**The opening's real frame cost (CAM2548).** Measured in real time (no pumped clock), a cold load rigged to Mount
+Top, every requestAnimationFrame delta from the app's first frame to the landing's rest, 3 runs per bundle, this
+headless box (software GL, under another seat's suite):
+
+| config | bundle | frames | p50 ms | p95 ms | max ms | >16.7 | >33 |
+|---|---|---|---|---|---|---|---|
+| 390x631, CPU 4x | dev | 140-151 | 33.4 | 150-167 | 417-483 | 120-133 | 116-126 |
+| 390x631, CPU 4x | branch, before | 140-157 | 33.4 | 150-167 | 400-500 | 117-139 | 101-131 |
+| 390x631, CPU 4x | branch, after | 155-178 | 33.4 | 117-167 | 333-367 | 128-147 | 115-127 |
+| 1440x900 | dev | 362-366 | 16.7 | 67-83 | 150-183 | 157-174 | 77-87 |
+| 1440x900 | branch, before | 275-303 | 16.7 | 83 | 133-167 | 174-198 | 104-120 |
+| 1440x900 | branch, after | 321-329 | 16.7 | 67 | 167-183 | 188-200 | 121-132 |
+
+The throttled phone janks on both bundles alike here. CDP Performance counters over the same window named the
+branch's cost: style recalc 463-479 ms at 1440 against dev's 76-80, at the same ~335 recalcs (574-580 against
+222-232 throttled). The board's two values were custom properties on the app wrap, and custom properties
+INHERIT, so every frame restyled the wrap's whole subtree, article included. They are now registered
+(`@property`, `inherits:false`, initial values that show an unstamped row) and stamped each frame on the five
+parts that read them, taken off at the end; the wrap's attributes are written only on a change. After: style
+137-149 ms (365-368 throttled). The residual desktop gap (~10% fewer frames) was not removed by `will-change` on
+the board's parts, which measured worse in software compositing and was not kept.
+
+The gates. 15 rows of `tests/artifacts/neural_app_mutants.mjs` matched 0 times after re-minification (the
+review counted 12 on its snapshot; the edits since moved three more). Each was re-aimed by a search that
+treats minified locals as wildcards and keeps everything else literal, and each now matches exactly once.
+`noride-roll-start` scripts camera-continuity's "ZERO overlap roll start" claim again (the retired
+`noprelift-roll-start`'s): with `--ng-open-y` written as 0px the rows stand at their settled place under the
+node the arrival is still holding. Two re-aimed rows survived, each A/B'd against dev's own bundle served in place
+of ours. `reading-band-lift-restored` is killed on dev at pane-layout:131 and survived here: that journey's first
+landing is now the directed arrival, which never flies and so never meets the follow-cam's band lift (the same
+mutant passes pane-layout, camera-continuity, url-arrival, share-camera, landing-reveal, review-fixes and
+restart-hygiene whole). Classified a REAL GAP, not an equivalent, because the active lift's soft clamp
+(NG_CAM_LIFT_SOFT, 6 px) is not exactly zero at rest; it is pinned at the source by a camera_motion unit that drives
+updateCamera on the reader's band, the same mutation turns it red, and its e2e row is retired. `d355-flight-lift-
+ungated` survives on dev too: it predates this branch (recorded in dual-pair's spec; the orchestrator's follow-up).
+Two of my own mutants were weak and were rewritten to restate the defect exactly: `hide-gated-on-token` had gated
+only the final hide (the unconditional hand-off still faded the heading), and `held-until-adopted` had used a CSS
+rule keyed to the adoption mark, which is the fix's own mechanism (now an inline per-frame hide released only on a
+frame, the B1 class itself).
+
+Gates on the merged tree, under the build lock, one worker, private ports: regenerate:neural and a fresh build,
+exit 0, no tracked file changed; article-sections plus every camera spec (opening-camera Book on and off,
+camera-continuity, url-arrival, share-camera, landing-reveal, review-fixes, restart-hygiene, landing-role, pane-layout,
+dual-pair, coldstart x3) 144 passed, 1 skipped; the full core suite 1,054 passed, 0 failed, 5 skipped; e2e:gen against
+its ledger 101/101; units 1,351/1,351; ci:validate 24/24. Every opening mutant was killed at its claim, 29 of 29
+against a green control (three re-aimed after the frame-cost fix moved their targets); the app-mutant rows 28 of 31,
+the survivors being noahead-exchange-1440/-390 (H139's recorded non-kills) and d355-flight-lift-ungated (predates
+this PR). neural.js 675,030 B raw / 207,452 B gzip, +11,760 / +4,174 over dev's app; first-hand core 360,594 B.
