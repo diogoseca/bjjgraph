@@ -85,14 +85,14 @@ renderSettings() {
       const g = document.createElement("div");
       g.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px;";
       // CARDS, NOT TECHNIQUES (v1.138.0). Practice (U56 e, v1.242.0) counts reviews and new cards
-      // together against this goal, default 20 (NG_PRACTICE_GOAL in the app): new cards fill what
-      // reviews leave of it, at least one per four reviews owed (NG_PRACTICE_REVIEWS_PER_NEW, the
-      // planner), and stop once the day's answers reach it. Reviews are never capped.
+      // together against this goal (the app's NG_PRACTICE_GOAL, through `practiceGoal`, its one source:
+      // SIDE-R2 M3): new cards fill what reviews leave of it, never fewer than a fifth of it (the
+      // planner's quota), and stop once the day's answers reach it. Reviews are never capped.
       g.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Daily goal</div><div style="font-size:12px;color:#93a0bd;margin-top:3px;">Cards a day, reviews and new together.</div></div>';
       const inp = document.createElement("input");
-      inp.type = "number"; inp.value = this.get("dailyGoal", 20); inp.min = "5"; inp.max = "200";
+      inp.type = "number"; inp.value = this.practiceGoal(); inp.min = "5"; inp.max = "200";
       inp.style.cssText = "width:74px;font-family:inherit;font-size:14px;font-weight:600;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:9px;padding:9px 11px;text-align:center;";
-      inp.addEventListener("change", () => { this.set("dailyGoal", Math.max(5, Math.min(200, parseInt(inp.value) || 20))); inp.value = this.get("dailyGoal", 20); });
+      inp.addEventListener("change", () => { this.set("dailyGoal", this.practiceGoal(parseInt(inp.value))); inp.value = this.practiceGoal(); });
       g.appendChild(inp); body.appendChild(g);
       // study order
       body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",
@@ -165,7 +165,7 @@ renderSettings() {
         const note = document.createElement("div");
         note.setAttribute("data-notif-signedout", "1");
         note.style.cssText = "font-size:12.5px;line-height:1.6;color:#93a0bd;padding:2px 0 4px;";
-        note.textContent = "The training-day email needs a signed-in account \u2014 that\u2019s where it would be sent. Sign in from the account menu to turn it on.";
+        note.textContent = "The training-day email needs a signed-in account \u2014 that\u2019s where it would be sent. Sign in from the badge at the foot of the sidebar to turn it on.";
         body.appendChild(note);
       }
     } else if (tab === "rolling") {

@@ -13114,8 +13114,9 @@ mixes known + new cards… The goal today is to do 20 flashcards."
   first, and slips the next new gap deck in once the reviews placed before it pay for its cards at
   `NG_PRACTICE_REVIEWS_PER_NEW = 4`, counted in cards (80/20, the deck-seasoning blend the owner chose).
   The goal `NG_PRACTICE_GOAL = 20` (was 30) is also the day's new-card quota:
-  `room = min(goal − answered, max(goal − answered − due, ⌈due / 4⌉))`. This reverses v1.138.0's "due
-  debt consumes the target before new work", which dealt a heavy review day no new card at all.
+  `room = min(left, max(left − due, ⌈left / 5⌉))`, `left` = the goal less today's answers (SIDE-R2 M2;
+  the first cut's `⌈due / 4⌉` floor climbed back to the whole goal at 77 owed). This reverses v1.138.0's
+  "due debt consumes the target before new work", which dealt a heavy review day no new card at all.
   Mutants: 7 planner (tests/gameplan.test.mjs) and 5 app (e2e/journeys/practice-mix.spec.ts), all killed.
 - **The drawer.** The three tabs became one list: Search, Explore (an expandable list, the six
   categories on a guide line), Train (Practice then Path; nothing under them), Your lists, Last rolls,
@@ -13139,3 +13140,46 @@ mixes known + new cards… The goal today is to do 20 flashcards."
 - **Retired:** the tab pager and the trackpad flick (pane-tab-swipe.spec.ts deleted; the tabs it paged
   are gone), the stat row's `_mountStatsRow`/`_exploreStatsRow` (their FGD13 repaint-in-place rule moved
   to `_paintTrain`, still pinned by tests/gameplan_stats_repaint.test.mjs), `renderPaneAnchor`.
+
+### v1.242.0, SIDE-R2: the independent review's HOLD, and PR 327's first CI
+
+- **B1, Practice was reviews-only on a visit's first press.** The planner chunk was fetched only by
+  the cold Practice press, and its arrival never replaced the waiting review queue, so a returning player's
+  first session ended on "come back tomorrow" with no new card. Now the drawer's opening asks for
+  `gameplan.js` (8.7 KB, deferred, never at boot), and a waiting queue nothing in which was graded is
+  reopened as the mix when it lands; a graded one is still never replaced. practice-mix.spec.ts claim 2b
+  presses cold with the chunk held.
+- **S1, a left swipe mid-Practice closed the drawer** and the next open threw the session away. The
+  retired pager's study guard (`_paneStudyActive`) is back on the gesture, and the pager's other guards
+  (horizontal scroller, vertical drag, pinch, swipe-is-not-a-tap at 16 px) are re-pinned in sidebar.spec.ts.
+- **P1, the phone's closing tap leaked into the map.** Probed at 390x844: a click on a node in the exposed
+  strip closed the drawer AND staged a roll there (the live roll discarded: `roll_discarded`,
+  `roll_staged`); on open ground it dismissed the landing card. `attachInput` now consumes the tap whose
+  pointerdown closed the drawer; a drag begun with it still pans. A headless finger tap at the drawer's
+  edge snaps to a drawer button (touch adjustment); not changed.
+- **M1/M2, the quota and its copy.** Decks are dealt whole (median 8 cards), so the copy says "a new
+  technique after every few reviews"; the quota's floor is a fifth of what is left of the goal, so it never
+  climbs back up on a heavy day (one line, `ngPracticeRoom`, beside the ratio; the owner's question U63).
+- **M9, measured:** asking for the study comparison on the first Practice press (390x844, 4x CPU throttle)
+  fetched `game-study.js` (78,719 B) and added one or two long tasks (~160 ms), and the comparison had not
+  started 8 s later. Practice opens without it, as dev's due door did; "Open study plan" still asks.
+- **Smaller:** one goal source (`practiceGoal`, clamped like the Settings field); the day's rolls persist
+  (`rollDays` beside `days`, the badge's "Today"); the star count is asked for once per page; the Practice
+  tail is written only when it changed; the study head's ‹ Back is a button; the badge menu takes focus on
+  open and walks by arrow keys; Account preferences, the amber dot and the Explore fold across a reload
+  are pinned; the share cue keeps dev's phone seat (bottom 84 px); a no-view open lands
+  on the list; the reviews' technique count is rendered again in the Practice note.
+- **CI on 70ebae7a5, 16 reds classified dev vs head**: 15 STALE SPEC (9 gen specs expected the pane to
+  open on Challenges; the 44 px drawer icon puts the reader's top inset 6 px deeper, 68 → 74, which moved
+  dual-pair's widest pair and roll-execution's two pins; a share-lists read whose selector no build ever
+  emitted, so it had always read the whole body; a scroll premise the taller list no longer met;
+  systems-demand-live's "the menu alone must not warm Systems", where the drawer IS the Explore entry now)
+  and 1 REAL BREAK, fixed in the app: the cue's first frame could show its pill over the phone's layer dock
+  (`_setShareCue` now lays the dock out in the same task; 4 of 8 red before, 4 of 4 after).
+- **Tried and reverted: payload-free category headers** (Systems/Principles/Learning fetched on expanding
+  the fold instead of on the drawer's opening). It needed a landing render that bypassed D-325's hover hold,
+  its first cut re-rendered without end on an index that landed empty (a settled promise re-armed on every
+  render), and five more journeys assumed the drawer's opening hydrates both indexes. The ~20 KB gzip a
+  Practice-only visit would save is not worth that churn in this PR; the drawer asks for both on opening,
+  as dev's Explore tab did.
+

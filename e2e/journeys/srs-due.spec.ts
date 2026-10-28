@@ -251,6 +251,12 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
 }) => {
   const j = journey(page);
   await j.boot("/");
+  // THE PLANNER IS HELD (SIDE-R2 B1, v1.242.0): the drawer's opening now asks for it, so a press can only
+  // meet the eager review queue while the chunk is in flight. Held here, released below, where its
+  // arrival upgrades the untouched queue to the plan surface this test reads next.
+  let release!: () => void;
+  const gate = new Promise<void>((resolve) => { release = resolve; });
+  await page.route("**/app/gameplan.js*", async (route) => { await gate; await route.continue(); });
   await j.hydrateAll();
   await j.land("Mount Top");
 
@@ -334,12 +340,12 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
     return a._cardsOf(a.flashcards.decks[k]).length;
   }, r.other), "and that is a narrowing: the whole deck is larger").toBeGreaterThan(2);
 
-  // THE PLAN SURFACE (the other door's destination, and the queue's own "Open / retry study
-  // plan" button): the review rows are still the cover, and the Practice head repeats the card count
-  // (v1.242.0: Practice interleaves reviews and new decks under one head; each row says its kind).
-  await j.clickByMouse("[data-gameplan-load]", "Open / retry study plan");
+  // THE PLAN SURFACE (where the untouched queue goes once the planner lands, SIDE-R2 B1; before v1.242.0
+  // the queue's own "Open / retry study plan" button): the review rows are still the cover, and the
+  // Practice head repeats the card count and the technique count (each row says its kind).
+  release();
   await expect(page.locator('[data-session-section="Practice"]')).toBeVisible();
-  await expect(page.locator('[data-session-section="Practice"]')).toContainText("2 cards to review");
+  await expect(page.locator('[data-session-section="Practice"]')).toContainText("2 cards to review across 1 technique");
   expect(await page.evaluate(() => {
     const s = (window as any).__neural._session;
     return { plan: !!s.plan, label: s.label.replace(/, \d+ new$/, ""), anchor: s.anchor, dueRows: s.plan && s.plan.due.length, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };

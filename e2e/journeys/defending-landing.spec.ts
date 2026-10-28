@@ -395,9 +395,12 @@ test('@curated a real catch keeps its generic stack and own films while danger i
 
 async function dangerSettings(page: Page) {
   const j = journey(page)
-  // v1.242.0: a player reaches Settings through the drawer's badge, and the drawer stops the game by
-  // the pane law (declining a live question). This spec's subject is what the setting does to LIVE
-  // visuals, so it opens the Settings modal itself, which needs no drawer (it portals to the root).
+  // NO PLAYER PATH REACHES SETTINGS MID-CATCH ON v1.242.0 (SIDE-R2 M6, measured, reported as an owner
+  // call): Settings lives in the badge menu inside the drawer (owner U46 b), and the drawer's only opener,
+  // `.ng-logo`, yields to the danger vignette (`showVignette`, v1.133.0: opacity 0, pointer-events none;
+  // `elementFromPoint` at its centre is the canvas). Dev reached it through the corner chip U16 b kept
+  // visible in a catch. This spec's subject is what the setting does to LIVE visuals, so it opens the
+  // Settings modal itself, which needs no drawer (it portals to the root).
   await page.evaluate(() => (window as any).__neural.openSettings())
   await expect(page.locator('#ng-stab-rolling')).toBeVisible()
   await j.clickByMouse('#ng-stab-rolling', 'open Rolling settings')
@@ -768,22 +771,23 @@ test('D-368: at 1440x900 the question card\'s top is above the fold', async ({ p
 // D-433 (2026-10-26): the short live catch uses an 80px band and question-first order.
 // Retain U16 b's visible account and normal card spacing. The clicked escape keeps
 // its measured rectangle through the pick/result; D-325's handoff claim is unchanged.
+// SIDE-R2 M6 (v1.242.0): the account button this reserve was for is the drawer's badge now (owner U46 b),
+// and its corner holds the share cue, which `_readerShelfBottom` reserves for in exactly the same way, so
+// the reserve is claimed against a raised cue (a stale link, the kind that needs no list).
 test('D-433: at 390x631 the smaller live band reverts without moving the native pick', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 631 })
   const j = await catchLoop(page)
+  await page.evaluate(() => (window as any).__neural._setShareCue({ kind: 'stale' }))
   await j.readerLayoutSettled()
   const look = () => page.evaluate(() => {
-    const a = (window as any).__neural, acct = a.accountRef.current
-    return { band: a._reader.nodeBand?.height, account: getComputedStyle(acct).visibility, conceded: a.wrapRef.current.hasAttribute('data-phone-catch'),
+    const a = (window as any).__neural, cue = a.shareCueRef.current
+    return { band: a._reader.nodeBand?.height, cue: getComputedStyle(cue).display !== 'none' ? getComputedStyle(cue).visibility : 'none', conceded: a.wrapRef.current.hasAttribute('data-phone-catch'),
       padding: a._landEl ? getComputedStyle(a._landEl).paddingTop : null,
-      end: Math.round(a._reader.root.getBoundingClientRect().bottom), acctTop: Math.round(acct.getBoundingClientRect().top), pressure: !!a._defensePressure }
+      end: Math.round(a._reader.root.getBoundingClientRect().bottom), cueTop: Math.round(cue.getBoundingClientRect().top), pressure: !!a._defensePressure }
   })
   const caught = await look()
-  expect(caught, 'D-433 short live catch uses the smaller band').toMatchObject({ pressure: true, band: 80, conceded: true, padding: '11px' })
-  // v1.242.0 (owner U46 b): the account is the drawer's badge, so no account button sits on the map to
-  // reserve room for; the scrollport's claim is now that it stays on screen
-  expect(caught.acctTop, 'premise: no account button on the map').toBe(0)
-  expect(caught.end, 'the scrollport stays on screen during the catch').toBeLessThanOrEqual(631)
+  expect(caught, 'D-433 short live catch uses the smaller band').toMatchObject({ pressure: true, band: 80, cue: 'visible', conceded: true, padding: '11px' })
+  expect(caught.end, 'the share cue keeps its scrollport reserve during the catch').toBeLessThanOrEqual(caught.cueTop - 8)
   const title = '[data-tech] .ngchoice-title'
   await page.evaluate((sel) => (window as any).__neural.optionsRef.current.querySelector(sel).scrollIntoView({ block: 'nearest', behavior: 'instant' }), title)
   await j.readerLayoutSettled()
@@ -792,7 +796,7 @@ test('D-433: at 390x631 the smaller live band reverts without moving the native 
   const chosen = await rect(`[data-tech="${name}"]`)
   await j.clickByMouse(`[data-tech="${name}"] .ngchoice-title`, 'pick an escape')
   await j.advance(40)
-  expect(await look(), 'at the pick the small band holds and the account stays visible').toMatchObject({ band: 80, account: 'visible', conceded: true })
+  expect(await look(), 'at the pick the small band holds and the share cue stays visible').toMatchObject({ band: 80, cue: 'visible', conceded: true })
   // D-433 changes phone ordering, not the native handoff: the picked escape
   // stays in place, including when the result restores the taller band.
   const stand = await rect('[data-executing-tech]')
@@ -800,8 +804,8 @@ test('D-433: at 390x631 the smaller live band reverts without moving the native 
   await expect.poll(async () => { await j.advance(200); return (await look()).pressure }, 'the escape resolves').toBe(false)
   await expect.poll(async () => (await look()).conceded, 'the reader lays out the result').toBe(false)
   const after = await look()
-  expect(after, 'the result transition restores the usual 186px band').toMatchObject({ band: 186, account: 'visible', conceded: false })
-  expect(after.end, 'the scrollport still stays on screen').toBeLessThanOrEqual(631)
+  expect(after, 'the result transition restores the usual 186px band').toMatchObject({ band: 186, cue: 'visible', conceded: false })
+  expect(after.end, 'the scrollport still ends above the share cue').toBeLessThanOrEqual(after.cueTop - 8)
   const result = await rect('[data-executing-tech]')
   expect(result.map((v, i) => Math.abs(v - chosen[i])).every((d) => d <= 2), 'the result-time band revert preserves the picked escape rectangle').toBe(true)
 })

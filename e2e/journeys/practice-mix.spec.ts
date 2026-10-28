@@ -7,7 +7,9 @@ import { journey } from "../dsl";
  * goal today is to do 20 flashcards". Three claims, each read off the mounted session the player opens,
  * never recomputed here:
  *   1. a fresh player's Practice holds new gap cards (the weak-spots ranking, D1);
- *   2. a player with due cards gets BOTH, interleaved: reviews first, a new deck before the last review;
+ *   2. a player with due cards gets BOTH, interleaved: reviews first, a new deck before the last review —
+ *      with the planner already loaded (2a), and pressed COLD (2b, SIDE-R2 B1): the drawer's opening asks
+ *      for the planner, and a queue pressed before it lands is upgraded to the mix once it does;
  *   3. the 20-card goal shows progress and never blocks: past the goal, reviews still deal and grade.
  * The ratio and the quota are pinned at the planner by tests/gameplan.test.mjs; this file pins that the
  * session the player sees is the planner's queue, and that the goal line moves with real grades.
@@ -18,14 +20,17 @@ import { journey } from "../dsl";
  * Mutants (tests/artifacts/sidebar_mutants.md has the table): the session dealt as reviews-then-new
  * (`plan.due` + `plan.fresh` in place of `plan.queue`) is red at claim 2; a planner that only fills
  * the goal from reviews' share is red at claim 1; a goal line that does not count today's answers is red
- * at claim 3's first read; a session that deals nothing once the goal is met is red at claim 3's rows.
+ * at claim 3's first read; a session that deals nothing once the goal is met is red at claim 3's rows;
+ * the cold queue left as reviews alone when the planner lands (B1's upgrade reverted) is red at 2b, and
+ * the drawer no longer asking for the planner as it opens is red at 2b's request count.
  */
-async function setup(page: any, seed: { due: number, answered: number }) {
+async function setup(page: any, seed: { due: number, answered: number }, beforeOpen?: () => Promise<void>) {
   const j = journey(page);
   await j.boot("/");
-  const fx = await page.evaluate(async ({ due, answered }: { due: number, answered: number }) => {
+  if (beforeOpen) await beforeOpen();
+  const fx = await page.evaluate(async ({ due, answered, warm }: { due: number, answered: number, warm: boolean }) => {
     const a = (window as any).__neural;
-    if (!await a._ensureGameplanRuntime()) throw Error("Study runtime did not load");
+    if (warm && !await a._ensureGameplanRuntime()) throw Error("Study runtime did not load");
     a.setPaused(true);
     a.srs = {}; a.prep = {}; a.stage = {}; a.rec = {}; a.cardDone = new Set(); a._miniGraded = new Set();
     a._gameplanProvider = null;   // no study comparison: new cards come from the weak-spots ranking (D1)
@@ -45,7 +50,10 @@ async function setup(page: any, seed: { due: number, answered: number }) {
     if (answered) a.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: answered }, (_, i) => ["s" + i, [day + 1, 1, day]]));
     a.setViewMode("explore"); a.openExplorer(); a.renderExplorer();
     return { dueKeys, day, goal: a.practiceToday().goal };
-  }, seed);
+  }, { ...seed, warm: !beforeOpen });
+  // the drawer's opening also asks for the Systems and Concepts indexes; their landing is not under test
+  // here, so it is waited out before any press (a press that met it was lost once in 27 runs, unexplained)
+  await page.waitForFunction(() => { const a = (window as any).__neural; return !a._systemsLoading && (a.systems || []).length > 0 && (a.concepts || []).length > 0; });
   return { j, fx };
 }
 
@@ -85,20 +93,51 @@ test("Practice: a fresh player's session is new gap cards from the weak-spots ra
   await expect(page.locator("[data-practice-goal]")).toHaveText("Daily goal: 0 of 20 today");
 });
 
-test("Practice: a player with due cards gets reviews and new decks, interleaved @curated", async ({ page }) => {
+/** Claim 2's shape, read off the mounted rows: every owed deck, the most overdue first, the first new
+ *  deck after four one-card reviews and before the last one. */
+function expectInterleaved(rows: { key: string, kind: string }[], dueKeys: string[]) {
+  const kinds = rows.map((r) => r.kind);
+  expect(rows.filter((r) => r.kind === "due").map((r) => r.key).sort(), "every owed deck is dealt").toEqual([...dueKeys].sort());
+  expect(kinds[0], "the most overdue review comes first").toBe("due");
+  expect(rows[0].key).toBe(dueKeys[dueKeys.length - 1]);
+  const firstNew = kinds.indexOf("new");
+  expect(firstNew, "new gap decks are dealt beside the reviews").toBeGreaterThan(0);
+  expect(firstNew, "and mixed in before the last review, not appended after it").toBeLessThan(kinds.lastIndexOf("due"));
+  expect(firstNew, "a new technique after every few reviews: four one-card reviews come first").toBe(4);
+}
+
+test("Practice (2b): pressed cold, before the planner has landed, the session becomes the mix once it does @curated", async ({ page }) => {
+  // THE PLAYER'S DEFAULT PATH (SIDE-R2 B1): nothing preloads the planner. Its chunk is held, so the press
+  // provably lands first and deals the owed reviews alone; releasing it must upgrade that untouched queue.
+  let requests = 0, release!: () => void;
+  const gate = new Promise<void>((resolve) => { release = resolve; });
+  const { j, fx } = await setup(page, { due: 8, answered: 0 }, async () => {
+    page.on("request", (r: any) => { if (r.url().includes("/app/gameplan.js")) requests++; });
+    await page.route("**/app/gameplan.js*", async (route: any) => { await gate; await route.continue(); });
+  });
+  try {
+    expect(await page.evaluate(() => !!(window as any).__neural._gameplanRuntime), "premise: the planner has not landed").toBe(false);
+    await expect.poll(() => requests, { message: "the drawer's opening asked for the planner, once" }).toBe(1);
+    await openPractice(j);
+    const waiting = await readQueue(page);
+    expect(waiting.every((r) => r.kind !== "new"), "premise: pressed before the planner, the queue is the owed reviews").toBe(true);
+    release();
+    let rows: { key: string, kind: string }[] = [];
+    await expect.poll(async () => { rows = await readQueue(page); return rows.some((r) => r.kind === "new"); },
+      { message: "the planner's arrival turns the untouched queue into Practice's mix" }).toBe(true);
+    console.log(`[practice] cold: ${rows.map((r) => r.kind).join(",")}`);
+    expectInterleaved(rows, fx.dueKeys);
+    expect(requests, "and no second request").toBe(1);
+  } finally { release(); }
+});
+
+test("Practice (2a): a player with due cards gets reviews and new decks, interleaved @curated", async ({ page }) => {
   const { j, fx } = await setup(page, { due: 8, answered: 0 });
   await openPractice(j);
   const rows = await readQueue(page);
   const kinds = rows.map((r) => r.kind);
   console.log(`[practice] mixed: ${kinds.join(",")}`);
-  const dueRows = rows.filter((r) => r.kind === "due").map((r) => r.key);
-  expect(dueRows.sort(), "every owed deck is dealt").toEqual([...fx.dueKeys].sort());
-  expect(kinds[0], "the most overdue review comes first").toBe("due");
-  expect(rows[0].key).toBe(fx.dueKeys[fx.dueKeys.length - 1]);
-  const firstNew = kinds.indexOf("new");
-  expect(firstNew, "new gap decks are dealt beside the reviews").toBeGreaterThan(0);
-  expect(firstNew, "and mixed in before the last review, not appended after it").toBeLessThan(kinds.lastIndexOf("due"));
-  expect(firstNew, "one new card for every four reviews: four one-card reviews come first").toBe(4);
+  expectInterleaved(rows, fx.dueKeys);
   await expect(page.locator('[data-session-section="Practice"]')).toContainText("8 cards to review");
 });
 

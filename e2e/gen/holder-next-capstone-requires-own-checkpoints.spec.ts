@@ -12,6 +12,7 @@ test("white capstone does not gate Blue content; Blue capstone needs Blue checkp
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
 
   await expect(page.locator('[data-view="challenges"]')).toBeVisible()
+  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
   expect(await page.locator(".ng-track-card").count()).toBe(CURRICULUM.belts.length)
   for (const track of [WHITE, BLUE, PURPLE]) {
     await expect(page.locator(`.ng-track-card[data-track="${track.id}"]`)).toBeVisible()

@@ -96,9 +96,10 @@ const controls = [
   // Run at 1cf59ba38 (answerpts round 2): all six killed at the claims named here.
   ['d370-band-186-in-catch', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band',
     [['this.W<=640?this._phoneCatch()?this.H<700?80:144:186:144', 'this.W<=640?186:144']], 'D-433 short live catch uses the smaller band'],
-  ['u16-account-hidden', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band', [],
-    'D-433 short live catch uses the smaller band', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
-      '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-acctwrap{visibility:hidden!important}']]],
+  // RETIRED (v1.242.0): u16-account-hidden. Its claim, U16 b's account kept visible on the map during a
+  // phone catch, went with the corner chip: owner U46 b put the account in the drawer as the badge, so no
+  // account sits on the map to hide; D-433 now claims the same reserve against a raised share cue (SIDE-R2 M6).
+  // Run 2 of the table at 110bbb1f4 left it NOT KILLED for exactly that reason.
   ['u16-card-compacted', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band', [],
     'D-433 short live catch uses the smaller band', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
       '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-landcard.ng-land-deck{padding-top:8px!important}']]],
@@ -130,12 +131,21 @@ const controls = [
     [['(!m.band||y)&&(c.lift=', '!m.band&&(c.lift=']], 'URL arrival @'],
   // ORCH-382 / H140-H144: the old 30px gate engages after contact; activating the subject only
   // when its gate opens starts the spring too late. Both fail the unchanged ZERO-overlap pin.
+  // NON-KILL on v1.242.0 (run 2, 110bbb1f4): flight-lift-fixed-margin SURVIVES on the drawer's bundle and is
+  // KILLED on dev f63049013's (A/B, same spec, same table). The drawer's 44px icon puts the reader's top
+  // inset 6px deeper (68 -> 74) and so moves this arrival's framing; the band decision it mutates no
+  // longer turns the ZERO-overlap pin red there. Not root-caused further: read it as no coverage of the
+  // fixed-margin gate on this bundle.
   ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
     [['y.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+b+vt>m.bottom', 'y.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
   ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
     [['(!m.band||y)&&(c.lift=', '(!m.band||y!=null&&y.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
   // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
   // its transition-end reveal reproduces the card extending below the Learning pane at 1440px.
+  // NON-KILL on v1.242.0 (run 2, 110bbb1f4; KILLED on dev f63049013's bundle): the drawer's list is 709px
+  // tall at 1440x900 against the tabbed pane's 506px (measured: no tab nav, no stat row, no pane foot), so
+  // the portrait's first, taller frame already fits and the claim cannot see the lost reveal there. A
+  // shorter viewport would restore the geometry; until then read it as no coverage of D-371's reveal.
   ['concept-fit-reveal-lost', 'concepts-surface.spec.ts', 'principle film study.*1440px',
     [['e.addEventListener("transitionend",_)', 'void 0']], 'the expanded portrait and its close button fit inside the reading pane'],
   // U47 d (owner, 2026-10-27): a landing asks with its question alone; "Answer for Points", or a tap on the

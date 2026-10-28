@@ -602,8 +602,12 @@ test("a received technique is named the way a coach named it: WITH the position 
   const toast = await page.evaluate((id: string) => {
     const a = (window as any).__neural;
     a.pickList(a.newList("Qualifier check"), id);
-    const el = document.querySelector(".ng-event") || document.body;
-    return (el.textContent || "").replace(/\s+/g, " ");
+    // THE ANNOUNCER'S OWN TOAST, asserted to exist exactly once (§6.7). This read `.ng-event`, a class no
+    // build has ever emitted (0 on dev f63049013 and on head), so it always fell back to the whole BODY, and
+    // went red the day the body first said "Today" (v1.242.0: the badge's "Today: N of 20 cards").
+    const els = document.querySelectorAll(".ng-evtoast");
+    if (els.length !== 1) return "(" + els.length + " announcer toasts)";
+    return (els[0].textContent || "").replace(/\s+/g, " ");
   }, picks[0].id);
   expect(toast, `the confirmation names the technique in full (got: ${toast})`).toContain(
     picks[0].from.replace(/^from /, ""),

@@ -3,9 +3,10 @@ import { journey } from "../dsl";
 
 // Real mounted pane and grading. Recommendation fixtures test the consumer only:
 // they are NOT production MDP or corpus evidence. No gameplay random branch used.
-async function setup(page: any, recommendations = true, runtime = true) {
+async function setup(page: any, recommendations = true, runtime = true, beforeOpen?: () => Promise<void>) {
   const j = journey(page);
   await j.boot("/");
+  if (beforeOpen) await beforeOpen();
   const fixture = await page.evaluate(async ({ recommendations, runtime }: { recommendations: boolean, runtime: boolean }) => {
     const a = (window as any).__neural;
     if (runtime && !await a._ensureGameplanRuntime()) throw Error("Study runtime did not load");
@@ -204,14 +205,18 @@ test("no-gi defender recommendations retain their actual role and reason @curate
   await expect(page.locator('[data-session-complete]')).toHaveCount(0);
 });
 
+// SIDE-R2 B1 (v1.242.0): the intent is now the drawer's OPENING — its Practice row is the one door — so
+// the planner is asked for there, never at boot; a queue graded before it lands is still never replaced.
 test("planner loads only on intent while eager reviews finish without queue replacement @curated", async ({ page, isMobile }) => {
   let requests = 0, release!: () => void;
   page.on("request", (request) => { if (request.url().includes("/app/gameplan.js")) requests++; });
   const gate = new Promise<void>((resolve) => { release = resolve; });
-  await setup(page, false, false);
-  // Install after boot's generic routing, so that it cannot shadow this delay.
-  await page.route("**/app/gameplan.js*", async (route) => { await gate; await route.continue(); });
-  expect(requests).toBe(0);
+  await setup(page, false, false, async () => {
+    expect(requests, "boot never asks for the planner").toBe(0);
+    // Install after boot's generic routing, so that it cannot shadow this delay.
+    await page.route("**/app/gameplan.js*", async (route) => { await gate; await route.continue(); });
+  });
+  await expect.poll(() => requests, { message: "the drawer's opening asked for it, once" }).toBe(1);
   expect(await page.locator('[data-explore-stats] [data-b="due"]').getAttribute("data-new")).toBeNull();
   try {
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
@@ -229,18 +234,24 @@ test("planner loads only on intent while eager reviews finish without queue repl
   } finally { release(); }
 });
 
+// SIDE-R2 B1: the drawer's opening asks first, and the Practice press asks again when that failed, so
+// both are aborted here; the retry under test is still the deliberate one, the button.
 test("failed planner load keeps due cards actionable and retries on deliberate intent @curated", async ({ page, isMobile }) => {
   let requests = 0;
-  await setup(page, false, false);
-  await page.route("**/app/gameplan.js*", async (route) => { if (++requests === 1) await route.abort(); else await route.continue(); });
+  await setup(page, false, false, async () => {
+    await page.route("**/app/gameplan.js*", async (route) => { if (++requests <= 2) await route.abort(); else await route.continue(); });
+  });
+  await expect.poll(() => requests, { message: "the drawer's opening asked, and failed" }).toBe(1);
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
   await expect(page.locator('[data-gameplan-loading]')).toContainText("could not load");
+  expect(requests, "the press asked again, and failed").toBe(2);
   await dueHeader(page, "Practice \u00b7 2 reviews");
   await expect(page.locator('[data-mini-reveal]')).toBeVisible();
   expect(await page.locator('[data-explore-stats] [data-b="due"]').getAttribute("data-new")).toBeNull();
   await hit(page, '[data-gameplan-load]', isMobile);
-  await expect(page.locator('[data-gameplan-loading]')).toContainText("suggestions are ready");
-  expect(requests).toBe(2);
+  // the retry lands, and the queue it reopened, untouched, becomes the plan (SIDE-R2 B1); the reviews lead it
+  await expect(page.locator('[data-session-section="Practice"]')).toBeVisible();
+  expect(requests).toBe(3);
   await dueHeader(page, "Practice \u00b7 2 reviews");
 });
 

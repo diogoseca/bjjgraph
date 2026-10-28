@@ -71,6 +71,7 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
+  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
 
   // ── pre-state: the pass is on the books and the Challenge control is re-takeable ──
   expect(
@@ -152,6 +153,7 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
   // ── re-open Challenges: the cleared checkpoint remains a usable control ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
+  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).isDisabled(),
     "cleared checkpoint remains re-takeable after the bombed retake",

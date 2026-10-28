@@ -105,6 +105,14 @@ test("signed in with legacy progress: email, Account preferences, Sign out; sign
   await expect(menu.locator("[data-menu-sep]"), "still ONE separator").toHaveCount(1)
   await expect(menu.locator("[data-menu-import-guest]")).toHaveText("Review guest progress")
   await expect(menu.locator("button")).toHaveCount(9)
+  // ACCOUNT PREFERENCES DEEP-LINKS NOTIFICATIONS (SIDE-R2 M7: only its text was asserted): the row opens
+  // Settings on its Notifications tab, where the signed-in player's training-day email lives
+  await j.clickByMouse("[data-menu-account]", "Account preferences")
+  await expect(page.locator("#ng-stab-notifications"), "Settings opened on Notifications").toHaveAttribute("aria-selected", "true")
+  await expect(page.locator('[role="tabpanel"]')).toHaveAttribute("aria-labelledby", "ng-stab-notifications")
+  expect(await page.evaluate(() => (window as any).__neural._settingsTab)).toBe("notifications")
+  await page.evaluate(() => (window as any).__neural.closeModal())
+  await j.openAccountMenu("the signed-in badge, again")
 
   await j.clickByMouse("[data-menu-logout]", "Sign out")
   await waitNeuralAuthOwner(page, null)
@@ -116,6 +124,10 @@ test("signed in with legacy progress: email, Account preferences, Sign out; sign
 
 test("rows open the real surfaces", async ({ page }) => {
   const j = journey(page)
+  // the star count is asked for once per page, however often the menu renders (SIDE-R2 M5); the harness
+  // aborts the request, the miss every first visit, 403 or offline player meets
+  let gh = 0
+  page.on("request", (r) => { if (r.url().startsWith("https://api.github.com/")) gh++ })
   await j.boot("/")
   await j.land("Mount Top")
   const via = async (sel: string, what: string) => { await j.openAccountMenu(); await j.clickByMouse(sel, what); expect(await menuOpen(page), "menu closed before " + what).toBe(false) }
@@ -132,6 +144,7 @@ test("rows open the real surfaces", async ({ page }) => {
   await via("[data-menu-mastered]", "Mastered"); await expect(page.locator(".ng-modal")).toContainText("Mastered"); await close()
   await j.openAccountMenu()
   await expect(page.locator("[data-gh-chip]")).toHaveAttribute("href", "https://github.com/diogoseca/bjjgraph")
+  expect(gh, "nine menu renders, one star request").toBe(1)
 })
 
 test("Esc closes the menu first, then the drawer; an outside tap closes the menu", async ({ page }) => {

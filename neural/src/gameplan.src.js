@@ -111,15 +111,20 @@ export function ngGameplanFromModel(result, context) {
 }
 
 // PRACTICE IS ONE SESSION (owner U56 e, D-565): "Practice is flashcards reviewing which included past +
-// new (new = gaps)… similar to how Anki mixes known + new cards." The ratio is counted in CARDS: one new
-// card for every four reviews (80/20, the blend the owner chose for deck seasoning). Four keeps reviews
-// the bulk of a heavy day without starving the gaps; two would double tomorrow's debt from a day already
-// in debt. The day's NEW QUOTA is the goal itself (`target`, the app's NG_PRACTICE_GOAL): new cards fill
-// what reviews leave of it, are never fewer than one per four reviews owed, and stop once the day's
-// answers reach it. A smaller quota would leave a fresh player's goal out of reach; a larger one lets new
-// cards outrun the goal and build tomorrow's debt. Reviews are never capped (goals, not limits).
+// new (new = gaps)… similar to how Anki mixes known + new cards." The ratio is counted in CARDS: a new
+// deck is slipped in once the reviews before it pay four cards for every new card so far (80/20, the
+// blend the owner chose for deck seasoning). Four keeps reviews the bulk of a heavy day without starving
+// the gaps; two would double tomorrow's debt from a day already in debt. Decks are dealt WHOLE (a median
+// of 8 cards), so the copy says "a new technique after every few reviews", never "one card per four"
+// (SIDE-R2 M1). Reviews are never capped (goals, not limits).
 // Not exported: the deferred chunk pays for every exported name, and nothing outside reads it.
 const NG_PRACTICE_REVIEWS_PER_NEW = 4;
+// THE DAY'S NEW-CARD QUOTA — the owner's number to set (his question U63); one line, so a change or a
+// revert is one line. New cards fill what reviews leave of the goal (`left`, the goal less today's
+// answers), and never fewer than one in five of it, so a heavy day still mixes; they stop once the day's
+// answers reach the goal. Non-increasing in `due` (SIDE-R2 M2: the first curve gave 16 owed reviews 4 new
+// cards and 77 owed the whole goal again). Goal 20: 20 new on a clear day, 4 once 16 or more are owed.
+const ngPracticeRoom = (left, due) => Math.max(0, Math.min(left, Math.max(left - due, Math.ceil(left / (NG_PRACTICE_REVIEWS_PER_NEW + 1)))));
 
 // Deck descriptors: {count, questions:[hash], exact, allowed, headroom}.
 // A manifest supplies shared hashes + stored SRS hashes before hydration. The
@@ -131,7 +136,7 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
   const comparison = ranking.status;
   if (fallback && ["unavailable", "pending", "stale"].includes(comparison)) ranking = ngGameplanWeakSpots(fallback, decks);
   const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length;
-  const room = Math.max(0, Math.min(left, Math.max(left - debt.count, Math.ceil(debt.count / NG_PRACTICE_REVIEWS_PER_NEW))));
+  const room = ngPracticeRoom(left, debt.count);
   const used = new Set([...reviewed, ...debt.questions]);
   const dueKeys = new Set(debt.rows.map((r) => r.key));
   const fresh = [], more = [];

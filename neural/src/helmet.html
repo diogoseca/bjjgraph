@@ -192,9 +192,10 @@
      see CLAUDE.md. A thumb drags the tray and needs no affordance. */
   @media (max-width:767px), (max-height:500px){
   }
-  /* the share cue rides above the chip on every viewport (v1.99.0 — the pill is gone) */
+  /* the share cue on a phone keeps its seat above the thumb band (v1.99.0) though the corner chip it sat over
+     is gone (v1.242.0); the layer dock steps above it wherever it sits (`_setShareCue` lays it out at once) */
   @media (max-width:640px){
-    .ng-sharecue{bottom:28px!important;right:14px!important;}
+    .ng-sharecue{bottom:84px!important;right:14px!important;}
     .ng-logo{top:16px!important;left:10px!important;}
     .ng-drill{width:88vw!important;}
     .ng-evtoast{width:86vw!important;}

@@ -109,13 +109,23 @@ test("new plan and explicit refresh request study; due-only entry and internal r
   assert.deepEqual(calls.requests, ["open-plan", "refresh-plan"]);
 });
 
-test("active due queue survives deferred planner arrival and study notifications", async () => {
-  const { app, calls } = fixture(), ready = deferred();
-  app._requestGameplanStudy = i => { calls.requests.push(i); return Promise.resolve(); };
-  app._ensureGameplanClock = () => {}; app.openSession = () => { app._session = { keys: ["real-due"], idx: 0, review: { count: 1 } }; };
-  app._ensureGameplanRuntime = () => ready.promise; app._sessionInline = () => true; app.dueCount = () => 1;
-  app.openPlanSession("new"); const due = app._session; ready.resolve(true); await flush();
-  assert.equal(app._session, due); assert.deepEqual(due.keys, ["real-due"]); assert.deepEqual(calls.requests, ["open-plan"]);
+// SIDE-R2 B1 (v1.242.0): a queue GRADED before the planner lands is the one under the player's hand and
+// survives its arrival, as it always did; an UNTOUCHED one is reopened as the plan (Practice's mix),
+// asking for no study of its own.
+test("active due queue survives deferred planner arrival and study notifications once graded; an untouched one becomes the plan", async () => {
+  for (const graded of [true, false]) {
+    const { app, calls } = fixture(), ready = deferred();
+    let done = 0; app.practiceToday = () => ({ done, goal: 20 });
+    app._requestGameplanStudy = i => { calls.requests.push(i); return Promise.resolve(); };
+    app._ensureGameplanClock = () => {}; app.openSession = () => { app._session = { keys: ["real-due"], idx: 0, review: { count: 1 } }; };
+    app._ensureGameplanRuntime = () => ready.promise; app._sessionInline = () => true; app.dueCount = () => 1;
+    app.openPlanSession("new"); const due = app._session;
+    if (graded) done = 1;
+    const reopened = []; app.openPlanSession = (...args) => { reopened.push(args); };
+    ready.resolve(true); await flush();
+    assert.equal(app._session, due); assert.deepEqual(due.keys, ["real-due"]); assert.deepEqual(calls.requests, ["open-plan"]);
+    assert.deepEqual(reopened, graded ? [] : [["new", false]], graded ? "a graded queue is never replaced" : "the untouched queue is reopened as the plan");
+  }
 });
 
 test("live queue notification occurs before deferred card evaluation and render notification sees pending state", async () => {

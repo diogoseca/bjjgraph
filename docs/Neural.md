@@ -659,7 +659,7 @@ drawer icon with no label (an amber dot while reviews are owed). It is ONE list,
 order: Search, **Explore** (an expandable list: Positions, Transitions, Submissions, Systems,
 Principles, Learning — the category folds below), **Train** (Practice, then Path, nothing under
 them), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
-of 20 cards · 2 rolls") before it is opened and opens a short menu (Settings, Account preferences,
+of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings, Account preferences,
 Feedback, sign in/out; Request a technique · Terms · Privacy · GitHub small). Practice opens the mixed
 session (§8), Path the Challenges corridor and Last rolls the roll history; the brand ("‹ Path")
 leads back. The view ids stay `explore` · `challenges` · `history`. A lit page fades the rest of the
@@ -684,13 +684,17 @@ film rather than resuming.
 
 **A left swipe closes the drawer** (v1.242.0). The tab pager (v1.147.0, v1.151.1) went with the
 tabs; a horizontal-dominant touch drag toward the left edge closes the drawer instead, a vertical drag
-belongs to the scroller, and a drag begun inside a horizontal scroller is that scroller's. A study
-surface keeps the gesture for its own cards. A swipe is never a tap: a capture-phase suppressor eats
-the click the browser synthesises at the end of one.
+belongs to the scroller, a drag begun inside a horizontal scroller is that scroller's, and a second
+finger makes it a pinch. A study surface keeps the gesture: the full-screen deck pages its cards with
+it, and an inline deck, a Practice session or a cold study ignores it, so a swipe never closes the
+drawer on a session it would throw away (`_paneStudyActive`). A swipe is never a tap: a capture-phase
+suppressor eats the click the browser synthesises at the end of one.
 
-**Explore** — sections start collapsed and persist their folds. Search ranks results before sections;
-filter to `rep` to avoid duplicates. Lists sit first and use the
-shared three-rung indent. Your lists folds like the other six (v1.196.1, key `Your lists` in
+**Explore** — the Explore fold itself starts open; its six category sections start collapsed; every
+fold persists. Search ranks results before sections; filter to `rep` to avoid duplicates. Your lists sit
+after Train, in their own section, and use the shared three-rung indent. The drawer's opening is the
+Explore entry, so it asks for the Systems and Concepts indexes (deferred, never at boot), as dev's Explore
+tab did. Your lists folds like the other six (v1.196.1, key `Your lists` in
 `exploreOpenSections`; an absent key is closed, so existing users need no migration). The one
 difference is `_revealLists`: making, adding to or restoring a list, or a saved class lit by a
 share arrival or the cue, opens the section for the session without writing the map — the older
@@ -811,10 +815,15 @@ are shown*), never in what a deck is *worth*.
 **Practice is one mixed session** (v1.242.0, owner U56 e). The planner (`gameplan.src.js`) deals every
 owed review, most overdue first, and slips the next new gap deck (the weak-spots or study-comparison
 ranking) in once the reviews placed before it pay for its cards at `NG_PRACTICE_REVIEWS_PER_NEW` = 4,
-counted in cards. The daily goal, `NG_PRACTICE_GOAL` = 20 (`dailyGoal` overrides), counts both kinds and
-is also the day's new-card quota: new cards fill what reviews leave of it, are never fewer than one per
-four reviews owed, and stop once the day's answers reach it. Reviews are never capped. Each row says
-Review or New; the head reads "Practice · N reviews, M new" and "Daily goal: N of 20 today".
+counted in cards; decks are dealt whole, so the copy says "a new technique after every few reviews". The
+daily goal, `NG_PRACTICE_GOAL` = 20 (`dailyGoal` overrides, read through `practiceGoal()`), counts both
+kinds and is also the day's new-card quota (`ngPracticeRoom`, the owner's number): new cards fill what
+reviews leave of it, are never fewer than a fifth of it, and stop once the day's answers reach it.
+Reviews are never capped. Each row says Review or New; the head reads "Practice · N reviews, M new" and
+"Daily goal: N of 20 today". The drawer's opening asks for the planner chunk, and a queue pressed before
+it lands, with nothing graded, becomes the mix when it does. Practice does not ask for the study
+comparison (measured cost on a throttled phone, no benefit in the first session); "Open study plan"
+and "Refresh plan" do.
 
 **Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}` — each seat
 once by node **ordinal** (v1.204.3), one int array **per ruleset**, each `t` entry carrying **both

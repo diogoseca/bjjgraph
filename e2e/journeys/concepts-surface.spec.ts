@@ -1051,10 +1051,13 @@ for (const viewport of [
     // responses detach the summary on BOTH heads. Progress hydration and motion sync
     // do not replace it. Wait for publication, not a delay or an action retry.
     // The DSL supplies {} for bodies: wait for its bounded missing-body retry too.
+    // v1.242.0 (SIDE-R2 M8): an open that names no view lands on the drawer's list, not on Path, and this
+    // flow's list is the principle's own page, so nothing asks for the Systems index here (it did through
+    // Path); the late repaint it guarded cannot happen. It is waited out only if something asked for it.
     await page.waitForFunction(() => {
       const w = window as any, a = w.__neural;
       const c = a._conceptsById?.[a._conceptId], p = a._conceptPaint;
-      return c && !a._systemsLoading && a.systems?.length > 0 &&
+      return c && !a._systemsLoading && (!a._systemsWait || a.systems?.length > 0) &&
         a._docRetried?.[c.key] && w.NG_CONTENT?.decks?.[c.key] === null &&
         p?.id === c.id && p.body === null && p.retry;
     });
@@ -1123,10 +1126,13 @@ for (const viewport of [
     expect(
       await page.evaluate(() => (window as any).__neural._focusIdxSet.size),
     ).toBe(result.lit);
+    // SIDE-R2 M6: the drawer's head is on screen whenever the drawer is, so it proved nothing here. What
+    // Back must restore is the home list the principle had taken over (dev: the tab nav it had hidden).
+    await expect(page.locator("[data-drawer-explore]"), "premise: the principle owns the list").toHaveCount(0);
     await page.locator("[data-concept-back]").scrollIntoViewIfNeeded();
     await j.clickByMouse("[data-concept-back]");
     await expect(page.locator("[data-principle-view]")).toHaveCount(0);
-    await expect(page.locator(".ng-drawer-head")).toBeVisible();
+    await expect(page.locator("[data-drawer-explore]"), "Back returns to the drawer's list").toBeVisible();
   });
 }
 
