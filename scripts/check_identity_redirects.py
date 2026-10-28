@@ -52,7 +52,7 @@ def parse_rules(text: str) -> dict[str, tuple[str, ...]]:
 
 
 def published_text(public: Path) -> str:
-    """Every published rule: `_redirects` plus the fallback table's wildcards (v1.237.1, RDR546).
+    """Every published rule: `_redirects` plus the fallback table's wildcards (v1.237.2, RDR546).
 
     Cloudflare cannot hold every wildcard in `_redirects`, so regenerate_redirects.py moves the
     category ones to static/redirect-fallback.json and the Pages middleware serves them after a 404.

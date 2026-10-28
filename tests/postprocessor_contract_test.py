@@ -802,7 +802,7 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
         shutil.copyfile(ROOT / 'scripts' / name, target)
         if name == 'regenerate_redirects.py':
             shutil.copyfile(ROOT / 'scripts/_slug.py', target.with_name('_slug.py'))
-            # v1.237.1: the emitter refuses a file Cloudflare would truncate, using the parser port.
+            # v1.237.2: the emitter refuses a file Cloudflare would truncate, using the parser port.
             shutil.copyfile(ROOT / 'scripts/check_redirect_limits.py', target.with_name('check_redirect_limits.py'))
         return target
 

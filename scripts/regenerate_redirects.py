@@ -10,7 +10,7 @@ Hub pages only — role pages (Top/Bottom/Attacker/Defender) were never produced
 as lowercase URLs, so skipping them keeps us under Cloudflare's 2,000
 static-rule limit.
 
-TWO OUTPUTS (v1.237.1, RDR546). Cloudflare loaded only the first 100 of 1,954 rules
+TWO OUTPUTS (v1.237.2, RDR546). Cloudflare loaded only the first 100 of 1,954 rules
 for months: see split_rules() and scripts/check_redirect_limits.py. `_redirects` now
 lists every static rule first, and the category wildcards go to
 static/redirect-fallback.json, which the Pages middleware consults after a 404.
@@ -168,7 +168,7 @@ def collect_rules() -> tuple[list[str], list[str], list[str]]:
 
 
 def split_rules(rules: list[str]) -> tuple[list[str], list[list]]:
-    """(_redirects lines, fallback rules) for one first-match-ordered list (v1.237.1, RDR546).
+    """(_redirects lines, fallback rules) for one first-match-ordered list (v1.237.2, RDR546).
 
     Cloudflare files a rule as STATIC only while no dynamic rule (a `*` or a `:placeholder`
     in the source) has been seen, and stops reading at the 101st dynamic one. Rule #1 used to

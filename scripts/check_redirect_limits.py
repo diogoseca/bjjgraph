@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""check_redirect_limits.py — the built `_redirects` fits Cloudflare's parser, rule for rule (v1.237.1, RDR546).
+"""check_redirect_limits.py — the built `_redirects` fits Cloudflare's parser, rule for rule (v1.237.2, RDR546).
 
 WHY. Only the first 100 of the built file's 1,954 rules worked, on production and on the dev preview,
 from the day the file first carried a wildcard ahead of its static rules. Cloudflare's parser counts

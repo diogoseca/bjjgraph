@@ -150,7 +150,7 @@ jobs:
       - name: Postprocessor contract mutation specs
         run: python3 -B tests/postprocessor_contract_test.py
 
-      # The source half of check_redirect_limits.py (v1.237.1, RDR546): emit _redirects and the
+      # The source half of check_redirect_limits.py (v1.237.2, RDR546): emit _redirects and the
       # fallback table from content/ into a temp dir, run them through the exact port of
       # Cloudflare's parser, and diff every rule's destination across the two layers. No build;
       # ~2 s. The built-tree half runs in the build chain, both deploys and e2e-full.yml.

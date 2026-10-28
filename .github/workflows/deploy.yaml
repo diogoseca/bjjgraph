@@ -154,7 +154,7 @@ jobs:
         run: python3 scripts/apply_affiliate_ref.py
 
       # Every _redirects rule loads in Cloudflare's parser, and the two layers end every redirect where
-      # the one list would (v1.237.1, RDR546). For months Cloudflare skipped rules #101-#1954: one
+      # the one list would (v1.237.2, RDR546). For months Cloudflare skipped rules #101-#1954: one
       # wildcard on line 1 made every later rule "dynamic", past its 100-rule cap. The targets gate
       # above cannot see that; it checks targets, not whether the rule is loaded. Runs after agent
       # discovery, which writes the _routes.json the fallback layer depends on.
@@ -321,7 +321,7 @@ jobs:
           { echo '### Deployed console'; echo '```'; cat deployed-console.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
           exit $rc
 
-      # THE REDIRECTS AS THIS DEPLOYMENT SERVES THEM (v1.237.1, RDR546): see deploy-dev.yaml's step of
+      # THE REDIRECTS AS THIS DEPLOYMENT SERVES THEM (v1.237.2, RDR546): see deploy-dev.yaml's step of
       # the same purpose. Like console, the site is already live, so its verdict fails separately in
       # `deployed-console` and Lighthouse, IndexNow and release still run.
       - name: Live redirects answer

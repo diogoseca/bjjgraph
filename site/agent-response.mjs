@@ -108,7 +108,7 @@ export async function onRequest(context) {
   }
   response ||= await context.next();
   // A retired or renamed URL under a category: Cloudflare's _redirects cannot hold every wildcard
-  // (100 dynamic rules), so they are looked up here, after the asset server's 404 (v1.237.1).
+  // (100 dynamic rules), so they are looked up here, after the asset server's 404 (v1.237.2).
   if (response.status === 404 && !markdown) {
     const moved = await redirectFallback(request, env, PAGE_CACHE);
     if (moved) {

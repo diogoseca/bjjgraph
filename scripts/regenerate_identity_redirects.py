@@ -55,7 +55,7 @@ def retirement_rules(records: list[dict], root: Path = ROOT) -> list[str]:
         descendants = new_url + "/:splat" if same_roles and not replacement.get("is_family") else new_url
         # The Title-Case wildcard covers every page that lived under the hub: its role
         # pages and its folder page /X/. The lowercase form gets the hub rule only
-        # (v1.237.1, RDR546). Quartz never built a lowercase page and the case rules
+        # (v1.237.2, RDR546). Quartz never built a lowercase page and the case rules
         # never covered role pages, so nothing was ever published under a lowercase
         # hub: of 5,807 page paths in content/'s whole history, 0 sit under any of the
         # 53 lowercase prefixes, and the one frozen-base source that does

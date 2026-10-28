@@ -1,5 +1,5 @@
 // site/redirect-fallback.mjs answers every fallback wildcard exactly as the Python port of
-// Cloudflare's matcher does, and the middleware serves it only after a 404 (v1.237.1, RDR546).
+// Cloudflare's matcher does, and the middleware serves it only after a 404 (v1.237.2, RDR546).
 //
 // The table is emitted from THIS checkout's content by regenerate_redirects.py (no build), and the
 // expected Location for every rule comes from scripts/check_redirect_limits.py, the port the gate
