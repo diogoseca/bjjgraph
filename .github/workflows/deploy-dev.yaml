@@ -140,7 +140,7 @@ jobs:
         run: python3 scripts/apply_affiliate_ref.py
 
       # Every _redirects rule loads in Cloudflare's parser, and the two layers end every redirect where
-      # the one list would (v1.236.1, RDR546). For months Cloudflare skipped rules #101-#1954: one
+      # the one list would (v1.237.1, RDR546). For months Cloudflare skipped rules #101-#1954: one
       # wildcard on line 1 made every later rule "dynamic", past its 100-rule cap. The targets gate
       # above cannot see that; it checks targets, not whether the rule is loaded. Runs after agent
       # discovery, which writes the _routes.json the fallback layer depends on.
@@ -286,7 +286,7 @@ jobs:
       - name: Deployed console is clean (gate)
         run: node scripts/check_deployed_console.mjs "${{ steps.cf.outputs.deployment-url }}"
 
-      # THE REDIRECTS AS THIS DEPLOYMENT SERVES THEM (v1.236.1, RDR546), on its own URL: the LAST
+      # THE REDIRECTS AS THIS DEPLOYMENT SERVES THEM (v1.237.1, RDR546), on its own URL: the LAST
       # static and the LAST dynamic rule of _redirects, one alias, and the last fallback wildcards,
       # each a 301/308 to the Location the parser port predicts; the fallback ones must also say
       # X-Redirect-Source: fallback. The first rules always worked, which is how 1,854 dead ones went

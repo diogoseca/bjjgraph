@@ -1,4 +1,4 @@
-// The category wildcard redirects that Cloudflare's `_redirects` cannot hold (v1.236.1, RDR546).
+// The category wildcard redirects that Cloudflare's `_redirects` cannot hold (v1.237.1, RDR546).
 //
 // Cloudflare loads at most 100 dynamic rules, and it counts every rule after the first wildcard as
 // one, so only the first 100 of 1,954 rules worked for months. scripts/regenerate_redirects.py now
