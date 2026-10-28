@@ -25,6 +25,7 @@ test("a correct landing answer spends the one window; the viewer finds nothing t
   ])
   await j.rig("land-mc-shuffle", [0.2, 0.5, 0.8, 0.35, 0.65, 0.95])
   await j.land("Mount Top")
+  await j.openQuestion() // U47 d: the question's window arms when it is taken up
 
   // ── the mid-curriculum landing asks: blob ingested, question live, its window fresh ──
   const boot = await page.evaluate(() => {
@@ -55,6 +56,7 @@ test("a correct landing answer spends the one window; the viewer finds nothing t
   expect(mc?.surface, "the live MC block is the landing surface").toBe("land")
   const r0 = await remaining()
   expect(r0, "the window is running before the answer").toBeGreaterThan(0)
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.keyboard.press("abc"[mc!.correct])
   const r1 = await remaining()
   // v1.133.0: no +2.5s — answering is what the window was for, so a right answer spends it

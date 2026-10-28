@@ -226,6 +226,14 @@ test("answering the landing card starts play, and only then can the roll reach h
   expect((await arrival(page)).played, "staged again, still not played").toBe(false)
   const q = await j.landQuestion()
   expect(q).not.toBeNull()
+  // U47 d: the arrival's question asks first; Answer for Points, where it sits, shows the card — and,
+  // "as it already works", starts nothing: the arrival stays dormant until the answer.
+  await j.clickByMouse("[data-land-ask-go]", "Answer for Points on the selected node’s landing card")
+  await j.advance(900)
+  const shown = await arrival(page)
+  expect(shown.played, "Answer for Points alone leaves the arrival dormant: not played").toBe(false)
+  expect(shown.paused, "…and paused").toBe(true)
+  await j.tapGuardSettled()
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, "answer the selected node’s landing card")
   await j.advance(900)
   const live = await arrival(page)

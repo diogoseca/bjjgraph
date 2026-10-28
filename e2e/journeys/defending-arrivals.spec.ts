@@ -42,7 +42,7 @@ async function caught(page: Page) {
   await page.locator('[data-arrival-commit] .ng-choice-title-button').scrollIntoViewIfNeeded()
   await j.clickByMouse('[data-arrival-commit] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
-  await expect(page.locator('[data-panic-mc-opt]').first()).toBeVisible()
+  await expect(page.locator('[data-land-ask-go]')).toBeVisible() // U47 d: navigation leaves the catch asking
   expect(await snapshot(page)).toMatchObject({ pressure: true, caught: 1, key: 'Loop Choke from Half Guard|Defender' })
   return { j, previous: await snapshot(page) }
 }
@@ -202,8 +202,9 @@ test('@curated clicking the caught defender orb manually restages a calm journey
 test('a list click on the current position also ends its old journey', async ({ page }) => {
   const j = journey(page)
   await j.boot('/Positions/Mount/Top', { beforeNavigate: content })
-  await expect(page.locator('[data-land-mc-opt]').first()).toBeVisible()
+  await expect(page.locator('[data-land-ask-go]')).toBeVisible() // U47 d: the arrival's question asks first
   const q = await j.landQuestion()
+  await j.openQuestion() // U47 d: Answer for Points lays the answers out; answering starts play
   // D-338: Questions follows Videos and Moves and can start below the fold; scroll to it first.
   await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
   await j.readerLayoutSettled()

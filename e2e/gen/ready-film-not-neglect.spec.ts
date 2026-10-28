@@ -16,6 +16,7 @@ const answer = async (page: Page) => {
     return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null
   })
   expect(mc, "a live landing question (surface 'land')").toBeTruthy()
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.keyboard.press("abcd"[mc!.correct])
 }
 
@@ -97,6 +98,8 @@ test("film with a question pending: Watch declines it free, +4 mints, the film n
   for (const t of titles) oddsBefore[t] = await j.displayedOdds(t)
   const target = titles.find((t) => oddsBefore[t] > 5 && oddsBefore[t] <= 91)
   expect(target, "a mid-band option (>5, <=91) — the +4 lands whole, clear of both clamps").toBeTruthy()
+  // U47 d: take the question up first, so Watch declines — and must out-own the keys of — a SHOWN question.
+  await j.openQuestion()
   await openChoiceVideo(page, target!)
   // Watch declines once and owns all keyboard input until Escape.
   const declinesAtOpen = ((await j.beats()) as Array<{ beat: string; reason?: string }>)

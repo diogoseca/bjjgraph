@@ -88,6 +88,9 @@ test('@curated a late full article preserves the answered question and never pay
   await expect.poll(() => requested).toBe(true)
   const q = await j.landQuestion()
   expect(q).not.toBeNull()
+  // U47 d: explicitly Answer for Points before answering, without waiting for the held article.
+  await j.clickByMouse('[data-land-ask-go]', 'Answer for Points before its answer')
+  await j.tapGuardSettled() // the double-tap guard; the article stays held throughout
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
   const before = await page.evaluate(() => {
     const w = window as any, a = w.__neural
@@ -137,14 +140,20 @@ test('@curated the first queued reader layout cannot move a published answer bef
   } })
   await expect.poll(() => requested).toBe(true)
   const q = await j.landQuestion(); expect(q).not.toBeNull()
+  // U47 d: Answer for Points before arming the ANSWER-click interceptor. No reader-ready or
+  // layout wait may consume the first queued-publication race being tested.
+  await j.clickByMouse('[data-land-ask-go]', 'Answer for Points before the answer publication probe')
   const click = page.mouse.click.bind(page.mouse)
   page.mouse.click = async (...args: Parameters<typeof click>) => {
     page.mouse.click = click
     await page.evaluate(() => (window as any).__publishReader())
     return click(...args)
   }
+  await j.tapGuardSettled() // the double-tap guard; reader.layout is held, so no queued layout runs meanwhile
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
-  expect(await page.evaluate(() => (window as any).__answerPublication)).toEqual({ dx: 0, dy: 0, same: true })
+  // U52 b: the take-up itself lays the reader out (the shown card leaves the quiet line's width), so a layout
+  // queued before it moves nothing.
+  expect(await page.evaluate(() => (window as any).__answerPublication), 'the first queued layout moves no published answer').toEqual({ dx: 0, dy: 0, same: true })
   const before = await page.evaluate(() => {
     const w = window as any, a = w.__neural
     w.__answeredReaderQuestion = document.querySelector('[data-land-q]')
@@ -172,6 +181,9 @@ for (const width of [390, 1440]) {
     await expect(page.locator(READY)).toBeVisible()
     const q = await j.landQuestion()
     expect(q).not.toBeNull()
+    // U47 d: Answer for Points before restoreGame and the one-shot answer pointerdown hook;
+    // the adoption race still begins with the original answer measurement.
+    await j.clickByMouse('[data-land-ask-go]', 'Answer for Points before the native answer press')
     await page.evaluate(() => {
       const w = window as any, a = w.__neural, reader = a._reader;
       const layout = reader.layoutNow;
@@ -189,6 +201,7 @@ for (const width of [390, 1440]) {
         w.__pressedReader.held = { sameParent: parent === a._landEl.parentElement, dx: after.x - before.x, dy: after.y - before.y };
       }, { once: true, capture: true });
     })
+    await j.tapGuardSettled() // the double-tap guard; layoutNow is held, so the adoption still lands in the press
     await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
     expect(await page.evaluate(() => {
       const w = window as any, a = w.__neural, old = w.__pressedReader;
@@ -283,6 +296,7 @@ test('@curated a late real dossier preserves reader focus, scroll and the answer
   await expect(page.locator(READY)).toBeVisible()
   const q = await j.landQuestion()
   expect(q).not.toBeNull()
+  await j.openQuestion() // U47 d: Answer for Points before the real answer click.
   // D-338: Questions follows Videos and Moves and can start below the fold; scroll to it first.
   await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
   await j.readerLayoutSettled()

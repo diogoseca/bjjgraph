@@ -71,6 +71,7 @@ test.describe("White Challenges @curated", () => {
       return mc ? { correct: mc.correct } : null;
     });
     expect(question).toBeTruthy();
+    await j.openQuestion(); // U47 d: Answer for Points is separate consent; the following answer key records the objective.
     await page.keyboard.press("abcd"[question!.correct]);
     expect(
       await page.evaluate(

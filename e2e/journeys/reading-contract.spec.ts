@@ -119,6 +119,11 @@ for (const width of [1366, 390]) {
     expect(q).not.toBeNull()
     await j.advance(20000)
     expect(await activity(page)).toMatchObject({ intent: true, paused: true, remaining: null, played: false, beats: [] })
+    // U47 d: Answer for Points shows the answers "as it already works": the arrival stays dormant,
+    // with no clock, until the answer itself starts play (dev's claim, restored).
+    await j.openQuestion()
+    await j.advance(20000)
+    expect(await activity(page), 'Answer for Points leaves a reading arrival dormant, with no clock').toMatchObject({ intent: true, paused: true, remaining: null, played: false, beats: [] })
     // D-338: Questions follows Videos and Moves and can start below the fold; a reader scrolls to it
     // (a programmatic scroll is not a reading gesture) and answers it there.
     await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
@@ -318,7 +323,7 @@ for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {
       await j.boot(path + '/Defender')
       await expect(page.locator(READY)).toBeVisible()
       await expect.poll(() => page.evaluate(() => ((window as any).__neural._optionCards || []).filter((c: any) => c.opt.action === 'escape').length)).toBeGreaterThan(0)
-      await expect(page.locator('[data-panic-mc-opt]').first()).toBeVisible()
+      await expect(page.locator('[data-land-ask-go]')).toBeVisible()
       await j.advance(20000)
       expect(await activity(page)).toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
       await expect(page.locator('[data-land-clock-track]')).toBeHidden()
@@ -328,6 +333,9 @@ for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {
         await expect(page.locator('[data-executing-tech]')).toBeVisible()
       } else {
         const correct = await page.evaluate(() => (window as any).__neural._mc.correct)
+        await j.openQuestion() // U47 d: Answer for Points shows the answers; the answer starts play
+        await j.advance(20000)
+        expect(await activity(page), 'Answer for Points leaves a dormant defender dormant, with no clock').toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
         await j.clickByMouse(`[data-panic-mc-opt="${correct}"]`, 'answer the dormant defender question')
       }
       expect(await activity(page)).toMatchObject({ intent: false, paused: false })

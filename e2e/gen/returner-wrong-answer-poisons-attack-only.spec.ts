@@ -73,6 +73,7 @@ test("wrong landing answer drops every clear option's moveChance by exactly 0.04
     return -1
   })
   expect(pickIdx, "a wrong non-trap option exists in the landing MC").toBeGreaterThanOrEqual(0)
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.locator(`[data-land-mc-opt="${pickIdx}"]`).click()
 
   const answered = (await j.beats()).filter((b: any) => b.beat === "land_q_answered")

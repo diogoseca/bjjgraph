@@ -135,6 +135,7 @@ const miss = async (j: Journey, page: Page, tier: "plausible" | "trap", pick: nu
   expect(mid, "a mid-band option (20-70 displayed) to carry the exact integer delta").toBeTruthy()
   const answered0 = ((await j.beats()) as any[]).filter((b) => b.beat === "land_q_answered").length
 
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.keyboard.press("abcd"[pick])
 
   // the beat carries the truthful tier + qMod (:4319)

@@ -69,6 +69,7 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
   expect(await page.evaluate(() => (window as any).__neural._landMode)).toBe("defense")
   await expect(panic.locator("[data-land-q]"), "the shared live-catch question").toBeVisible()
   await expect(page.locator(".ng-vignette"), "heartbeat vignette on").toHaveCount(1)
+  await j.openQuestion() // U47 d: the catch's question asks first; Answer for Points shows the drill
 
   // grading the defender card pumps the ESCAPE odds visibly. v1.135.0: the drill is MULTIPLE
   // CHOICE when the pool is warm (owner: "much more similar to the ng-landcard with multiple

@@ -70,6 +70,7 @@ test("@curated Esc closes the pane and leaves the independent article reading", 
 test("@curated fresh, cached and backfilled landing pages preserve the pane's answer keys", async ({ page }) => {
   const j = await setup(page)
   await study(page, j)
+  await j.openQuestion() // U47 d: the landing deck pages once its card is shown; the pane keeps its keys.
   const pane = await page.evaluate(() => {
     const m = (window as any).__neural._mc
     return { qhash: m.qhash, correct: m.correct }
@@ -109,6 +110,7 @@ test("@curated a recall page mounted under the pane receives Space when the pane
     a.stage[key] ||= {}; a.stage[key][a.qhash(card.q)] = 2
   })
   await study(page, j)
+  await j.openQuestion() // U47 d: the landing deck pages once its card is shown.
   for (const dir of ["next", "prev", "next"]) {
     await j.clickByMouse(`[data-land-${dir}]`, `page the exposed landing deck ${dir}`)
     await j.landSettled()

@@ -8,7 +8,7 @@ const PARTS = [
 // Film has dedicated normal-home and section preferences; legacy keys remain in storage.
 // D-338 retired Focus on reading: `readingFocus` and its reading* overrides are never read
 // again (a settings key can never be deleted, §6.6), so a saved Focus cannot strand anyone.
-const GAME_KEYS = { card: "landCard", hand: "landHand", map: "landMap", feedback: "landFeedback" };
+const GAME_KEYS = { film: "landFilm", book: "readerBook", card: "landCard", hand: "landHand", map: "landMap", feedback: "landFeedback" };
 const CONTENT = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i;
 const ROLES = /\/(Top|Bottom|Attacker|Defender)$/i;
 const REFERENCE = /^\/(Principles|Learning|Systems)\//;
@@ -222,7 +222,7 @@ class Reader {
         if (this.gameInput(event)) return;
         // Toolbar activation has its own intent. Native text selection and prose
         // focus count as reading before the question clock gets another frame.
-        if (type === "wheel" || type === "touchstart" || !event.target.closest(".ng-reader-tools")) this.readingInteraction(type);
+        if (type === "wheel" || type === "touchstart" || !event.target.closest(".ng-reader-tools")) this.readingInteraction(type, event);
         event.stopPropagation();
       }, { passive: true });
     }
@@ -682,12 +682,16 @@ class Reader {
     this.root.scrollTop += node.getBoundingClientRect().top - this.root.getBoundingClientRect().top - 6;
     focus.focus({ preventScroll: true });
   }
-  readingInteraction(type) {
+  readingInteraction(type, event) {
+    // U47 d / APTS-R4: a scroll does not decline a question still asking. Chromium sends a touch or pen press's
+    // pointerdown BEFORE touchstart, so that press counts as a scroll too; a link still declines on its click
+    // (sections and anchors below come back here with no type, articles through _readArticle).
+    const scroll = type === "wheel" || type === "touchstart" || type === "pointerdown" && event.pointerType !== "mouse";
     // Reading stops the game every time it is running: since D-338 a Videos clip is reading too, so
     // a pane that paused first can resume the game on close while the reader is still reading.
-    if (this.interacting && this.app.paused) return;
+    if (this.interacting && this.app.paused) { if (!scroll && !this.intent) this.app._declineLandQ("reading"); return; }
     this.interacting = true;
-    if (!this.intent) this.app._declineLandQ("reading");
+    if (!this.intent) this.app._declineLandQ("reading", scroll);
     this.app.setPaused(true);
     // Do not move text during a drag selection. The clock is already declined;
     // expanding after pointerup keeps the browser's native selection intact.
@@ -718,8 +722,6 @@ class Reader {
   }
   on(part) {
     if (part === "film" && this.wantsMedia()) return sectionShown(this.app, "videos");
-    if (part === "film") return this.app.get("landFilm", true) !== false;
-    if (part === "book") return this.app.get("readerBook", true) !== false;
     return this.app.get(GAME_KEYS[part], true) !== false;
   }
   toggle(part) {
@@ -970,6 +972,21 @@ class Reader {
     const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null, col = this.articleEl.getBoundingClientRect();
     const free = nodeBand && (search(nodeBand) || col.width && search(null, { left: col.left, right: col.right, top: nodeBand.bottom, bottom: H })) || search(null);
     if (free) return free;
+    // U52 b: D-370's free space was the landing card's slot, emptied for the execution. An asking question is a
+    // quiet line, so on a phone with the reader scrolled 170-200px over the band the slot left under the executing
+    // row (65px at 390x844) is shorter than the pair's box, and the pair fell back under the card just pressed
+    // (roll-execution's phone sweep). Open the missing height under the row for this execution only: the
+    // handoff's height grows, so the article moves down and the clicked row never does. Once per execution,
+    // counted (traps §6.6); the reservation leaves with the execution's card.
+    const handoff = a._executionDock()?.reader;
+    if (handoff && card && !handoff.slot && nodeBand) {
+      const need = Math.ceil(box.bottom - box.top + 24 - (col.top - card.bottom));
+      if (need > 0 && need < H / 3) {
+        handoff.slot = need; said.slot = (said.slot || 0) + 1;
+        this.layoutNow();
+        return this.frameExecution(target, node);
+      }
+    }
     said.noFit++;
     return nodeBand ? { ...target, cy: target.cy - Math.min(Math.max(0, nodeBand.top - box.top), nodeBand.bottom - box.bottom) / scale } : target;
   }
@@ -982,6 +999,9 @@ class Reader {
     if (!this.dock || this.app.__ngDestroyed || this.app._readerPress || this.laying) return;
     this.laying = true;
     const style = (el, key, value, priority = "") => {
+      // One numeric-to-px boundary keeps all geometry writes and their equality
+      // guard identical, without repeating the unit conversion at every call.
+      if (typeof value === "number") value += "px";
       const old = el.style.getPropertyValue(key);
       const same = old === value || old.endsWith("px") && value.endsWith("px") && Math.abs(parseFloat(old) - parseFloat(value)) < 1 / 64;
       if (!same || el.style.getPropertyPriority(key) !== priority) el.style.setProperty(key, value, priority);
@@ -989,8 +1009,8 @@ class Reader {
     try {
       const a = this.app, H = window.innerHeight, W = window.innerWidth, free = a._paneLayout();
       const width = Math.max(240, Math.min(680, free.width - 24));
-      style(this.dock, "left", free.center + "px"); style(this.dock, "max-width", Math.min(width, W - 16) + "px");
-      style(this.dock, "bottom", a._readerShelfBottom(this.dock.getBoundingClientRect()) + "px");
+      style(this.dock, "left", free.center); style(this.dock, "max-width", Math.min(width, W - 16));
+      style(this.dock, "bottom", a._readerShelfBottom(this.dock.getBoundingClientRect()));
       const head = this.head, available = this.on("book");
       const reference = REFERENCE.test(this.path);
       const ownTop = Math.max(68, (a.wrapRef.current.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12);
@@ -1016,19 +1036,19 @@ class Reader {
         }
       }
       this.chromeActive = !!chrome;
-      // U16 b (owner, 2026-10-24): only the live catch band shrinks. The account and card retain
-      // their usual space; this marker follows the same predicate through the pick and result.
+      // D-433 adapts D-370 to U35: the live phone catch question must be reachable
+      // before and after Answer for Points (U47 d) without scrolling. Account and native Moves retain their space.
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
       const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
         ? H - a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 }) - 8
         : this.dock.getBoundingClientRect().top - 8;
-      for (const [key, value] of Object.entries({ left: "0px", top: top + "px", width: W + "px", height: Math.max(80, end - top) + "px" })) style(this.root, key, value);
+      for (const [key, value] of Object.entries({ left: 0, top, width: W, height: Math.max(80, end - top) })) style(this.root, key, value);
       this.articleEl.hidden = !available;
       // Contents never participates in the column's width or centre calculation.
-      style(this.articleEl, "width", Math.min(680, free.width - 24) + "px");
-      style(this.articleEl, "margin-left", Math.max(12, free.center - parseFloat(this.articleEl.style.width) / 2) + "px");
+      style(this.articleEl, "width", Math.min(680, free.width - 24));
+      style(this.articleEl, "margin-left", Math.max(12, free.center - parseFloat(this.articleEl.style.width) / 2));
       // U9 b (owner, 2026-10-21): the index sits on the LEFT, 24px inside the free area (the inset it had on the right).
       const lead = free.left + 24;
       const tocWidth = this.contents ? parseFloat(getComputedStyle(this.contents).width) : 200;
@@ -1043,7 +1063,7 @@ class Reader {
       if (this.contents) {
         this.contents.hidden = !available || this.root.dataset.readerReady !== "true" || !fits;
         this.root.toggleAttribute("data-indexed", !this.contents.hidden);
-        for (const [key, value] of Object.entries({ left: lead + "px", right: "auto", top: top + "px", "max-height": Math.max(44, end - top) + "px" })) style(this.contents, key, value);
+        for (const [key, value] of Object.entries({ left: lead, right: "auto", top, "max-height": Math.max(44, end - top) })) style(this.contents, key, value);
       }
       this.root.toggleAttribute("data-reference", reference);
       this.root.hidden = !available && reference;
@@ -1052,6 +1072,11 @@ class Reader {
       const band = this.nodeBand?.height || 0;
       if (reference) { this.restoreGame(); this.syncIndex(); return; }
       const card = a._landEl, row = a.optionsRef.current, showCard = card && this.on("card"), showHand = row && a._handShown();
+      const deck = !!card?.classList.contains("ng-land-deck");
+      // U52 b: an asking question is a quiet line with no outside arrows to clear, so it takes the column's width.
+      // Its step stays the deck's: taking it up must move nothing above its answers (D-351, the answer appears
+      // once at its final rect; a smaller asking step moved Moves and the answers 8px at 1440).
+      const arrows = deck && !card.hasAttribute("data-land-ask");
       // D-351: _readerHold keeps a landing's card and hand unpublished until the article it asked
       // for renders (800ms at most). Parts the ceiling publishes are pinned (_readerPin), and the
       // Videos lift and the film's move wait until they settle: a late article used to move live
@@ -1085,7 +1110,7 @@ class Reader {
       // Keep the node-band reservation through navigation. A new card can be
       // adopted before its article arrives; resetting here would jump it to 64px.
       if (this.gameTop == null && oldTop > 0) this.gameTop = Math.max(64, oldTop - ownTop);
-      const gap = showCard && showHand ? card.classList.contains("ng-land-deck") ? 16 : a.isMobile() ? 8 : 12 : 0;
+      const gap = showCard && showHand ? deck ? 16 : a.isMobile() ? 8 : 12 : 0;
       // D-352 S2: a pinned landing keeps the media home it was pinned with, its film and its height:
       // any other film (a late chunk's, measuring 0 before its thumbnails load) waits hidden until
       // the parts settle, so nothing opens above or over the pinned rows.
@@ -1100,15 +1125,15 @@ class Reader {
       }
       let start = Math.max(6, showCard || showHand || homeMedia ? this.gameTop ?? 64 : 0);
       if (chrome) start += chrome.offset;
-      // Adopt the hand first: the DOM, and so the Tab order, reads Moves before Questions.
+      // Adopt the existing controls; the phone catch branch below also aligns Tab order.
       moved(row, "hand"); moved(card, "card");
       const position = (el, x, y, w) => {
-        for (const [key, value] of Object.entries({ position: "absolute", left: x + "px", right: "auto", top: y + "px", bottom: "auto" })) style(el, key, value, "important");
+        for (const [key, value] of Object.entries({ position: "absolute", left: x, right: "auto", top: y, bottom: "auto" })) style(el, key, value, "important");
         // Inspect owns the hand's horizontal animation. Clearing its transform
         // here exposes the closing row before its overflow/scroll is restored;
         // a following execution then inherits a different rectangle.
         if (el !== row) style(el, "transform", "none", "important");
-        if (w != null) style(el, "width", w + "px", "important");
+        if (w != null) style(el, "width", w, "important");
       };
       // Book keeps a stable, scrollable node reservation. Tall questions grow
       // downward instead of squeezing that reservation or moving live answers.
@@ -1119,15 +1144,14 @@ class Reader {
       if (this.mediaHome.hidden !== !homeMedia) this.mediaHome.hidden = !homeMedia;
       // D-368 (layout C): the Videos section is no longer lifted above the hand. Its current card sits in the
       // game's stage (above), and its credits read with the article; its toggle still governs the card.
-      const deck = !!card?.classList.contains("ng-land-deck");
       // Keep the deck's 44px outside arrows plus 8px clearance. The left arrow
       // lives in the 60px media gap; the right arrow also fits inside the pane.
       const beside = homeMedia && showCard && free.width >= 400 + 60 + 390 + 52 && H > 500;
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (this.game.dataset.mediaLayout !== mediaLayout) this.game.dataset.mediaLayout = mediaLayout;
-      if (card) style(card, "width", Math.min(beside ? 390 : deck ? 560 : 520, free.width - (deck && !beside ? 104 : 32)) + "px", "important");
+      if (card) style(card, "width", Math.min(beside ? 390 : arrows ? 560 : 520, free.width - (arrows && !beside ? 104 : 32)), "important");
       const mediaWidth = Math.min(400, free.width - 32), cardWidth = card?.getBoundingClientRect().width || 0;
-      style(this.mediaHome, "width", mediaWidth + "px", "important");
+      style(this.mediaHome, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
       // phone). Measuring the shared host keeps its future renderer independent.
       // D-353: a film in the media home is observed like the Videos card, so its growth (a played
@@ -1159,14 +1183,19 @@ class Reader {
           if (!label("hand").hidden) { position(label("hand"), left, y, width); y += label("hand").getBoundingClientRect().height + step; }
           else y = rowTop + (handoff?.rowHeight ?? handHeight) + step;
         };
-        // U16 b (owner, 2026-10-24): keep the usual layout C order in a live phone catch.
-        // Only the band shrinks; answers may require reader scroll. D-369 question-first is retired.
-        const caught = a._landMode === "defense" && !!a._defensePressure;
-        placeHand();
+        // D-433 (2026-10-26), D-370 adapted to U35: Answer for Points (U47 d) and all shown answers
+        // must be reachable on arrival, with no scroll writer. The SAME untimed
+        // Moves row follows the phone question; all other landings keep layout C.
+        // Keep DOM/Tab order aligned too, restoring it on a desktop resize.
+        const questionFirst = phoneCatch && showCard && row;
+        if (questionFirst) { if (card.nextSibling !== row) row.before(card); }
+        else { if (card?.nextSibling === row) row.after(card); placeHand(); }
         // D-368 (layout C): the stage after Moves. On a desktop the current card sits 60px beside the
-        // question (400 + 60 + 390, the approved A geometry), tops aligned so the question stays high; stacked
-        // it sits above the question, except in a catch, where it follows the answers so they stay on screen.
-        const follows = homeMedia && !beside && showCard && caught;
+        // question (400 + 60 + 390, the approved A geometry), tops aligned so the question stays high.
+        // U52 b (owner, 2026-10-28) supersedes D-368's stacked order: the question comes "immediately
+        // following the your move row", so stacked, the current card follows the question in every
+        // landing (it already did in a catch, so the answers stay on screen).
+        const follows = homeMedia && !beside && showCard;
         if (homeMedia && !beside && !follows) { position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }
         if (pin) y = pin.cardY || (pin.cardY = y);
         cardY = y;
@@ -1175,9 +1204,10 @@ class Reader {
         // The deck's backs peek 3px per remaining card below the face; the article clears them.
         if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);
         else if (!label("card").hidden) { position(label("card"), left, y, width); y += label("card").getBoundingClientRect().height; }
+        if (questionFirst) { y += step; placeHand(); y -= step; }
         if (follows) { y += step; position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
         else if (homeMedia && !showCard) { position(this.mediaHome, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
-        gameHeight = Math.max(handoff?.height ?? 0, y);
+        gameHeight = Math.max((handoff?.height ?? 0) + (handoff?.slot || 0), y);
       } else {
         const stageHeight = beside ? Math.max(cardHeight, mediaHeight) : cardHeight + mediaHeight + (homeMedia && showCard ? 12 : 0);
         start = Math.max(6, Math.min(start, end - top - stageHeight - gap - handHeight));
@@ -1188,19 +1218,19 @@ class Reader {
         if (card) position(card, cardX, cardY);
         const rowTop = handoff?.rowTop ?? start + stageHeight + gap;
         if (row) position(row, 0, rowTop, W);
-        gameHeight = handoff?.height ?? rowTop + handHeight;
+        gameHeight = (handoff?.height ?? rowTop + handHeight) + (handoff?.slot || 0);
       }
       for (const [el, key] of [[a._landStackEl, "stack"], [a._landNavEl, "nav"]]) {
-        if (el && card) { moved(el, key); position(el, cardX, cardY, cardWidth); style(el, "height", cardHeight + "px"); }
+        if (el && card) { moved(el, key); position(el, cardX, cardY, cardWidth); style(el, "height", cardHeight); }
       }
       if (a._landNavEl && showCard) {
         // Long answers keep their outside arrows beside the visible face.
         const cardTop = top + cardY - this.root.scrollTop;
         const middle = (Math.max(top, cardTop) + Math.min(end, cardTop + cardHeight)) / 2 - cardTop;
-        style(a._landNavEl, "--guide-y", Math.max(22, Math.min(cardHeight - 22, middle)) + "px");
+        style(a._landNavEl, "--guide-y", Math.max(22, Math.min(cardHeight - 22, middle)));
       }
-      style(this.game, "height", gameHeight + "px");
-      style(this.articleEl, "margin-top", "6px");
+      style(this.game, "height", gameHeight);
+      style(this.articleEl, "margin-top", 6);
       this.trayBottom = H - end + 12 + Math.min(128, H * .15);
       this.cardBottom = this.trayBottom;
       // Publication is the last write, after the actual controls and their

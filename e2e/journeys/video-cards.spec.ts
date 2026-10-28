@@ -141,12 +141,19 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
   test(`@curated A uses the measured media height and preserves the outside deck arrows (${width}px)`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const errors: string[] = []; page.on("pageerror", e => errors.push(e.message))
-    await boot(page, "approved", { revealChoice: false })
+    const j = await boot(page, "approved", { revealChoice: false })
+    // U52 b: an asking question is a quiet line in the column's width, with no deck arrows to keep; the deck face
+    // and its outside arrows are what this measures, so take the question up first.
+    await j.openQuestion()
     await expect(page.locator("[data-land-film]")).toBeVisible()
     const geometry = () => page.evaluate(() => {
       const a = (window as any).__neural, media = a._landFilmEl.getBoundingClientRect(), face = a._landEl.getBoundingClientRect()
       return { mediaWidth: media.width, mediaHeight: media.height, reportedHeight: a.currentFilmHeight(), faceWidth: face.width,
-        sideGap: face.left - media.right, stackGap: face.top - media.bottom, footprint: face.right + 52 - media.left,
+        // U52 b (superseding D-368's stacked order): stacked, the current card follows the question and its backs
+        // at the parts' step
+        sideGap: face.left - media.right, footprint: face.right + 52 - media.left,
+        followGap: media.top - face.bottom - 3 * (a._landStackEl?.childElementCount || 0),
+        step: a._landEl.classList.contains("ng-land-deck") ? 16 : a.isMobile() ? 8 : 12,
         layout: a._reader.game.dataset.mediaLayout, hosts: document.querySelectorAll("[data-land-film]").length }
     })
     await expect.poll(async () => (await geometry()).layout).toBe(width > 640 ? "side-by-side" : "stacked")
@@ -157,7 +164,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     expect(g.reportedHeight).toBe(g.mediaHeight)
     expect(g.mediaHeight).toBeCloseTo(width > 640 ? 241.42 : 219.94, 0)
     if (width > 640) { expect(g.sideGap).toBe(60); expect(g.footprint).toBe(902) }
-    else expect(g.stackGap).toBe(12)
+    else expect(g.followGap, "stacked: the current card follows the question at the parts' step").toBeCloseTo(g.step, 0)
     // The unchanged landcard-deck journeys pin the 44px arrow hit targets.
     // Flush observer/layout frames to catch a host resize feedback loop.
     await page.evaluate(async () => { for (let i = 0; i < 6; i++) await new Promise(requestAnimationFrame) })

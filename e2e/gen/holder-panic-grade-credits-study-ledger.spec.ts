@@ -104,6 +104,7 @@ test("caught → panic grade credits the shared study ledger (prep +1, cardsToda
       : null
   })
   if (mcCorrect != null) {
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await j.clickByMouse(`[data-panic-mc-opt="${mcCorrect}"]`, "Grade the defender question")
   } else {
     await j.clickByMouse("[data-panic-reveal]", "Reveal the defender answer")

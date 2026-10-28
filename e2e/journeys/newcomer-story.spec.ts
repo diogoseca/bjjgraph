@@ -46,6 +46,7 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   await expect(page.locator("[data-landcard] [data-land-count]"),
     "nothing proven yet").toHaveAttribute("data-land-count", /^0\/\d+$/);
   await expect(page.locator("[data-land-q]"), "one question").toHaveCount(1);
+  await j.openQuestion(); // U47 d: the newcomer takes the question up with Answer for Points
 
   // ── 3. answering right raises the odds and buys clock ──
   const target = await page.evaluate(() => {

@@ -92,6 +92,7 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
           previous.call(this, this.optionsRef.current, this.nodes[this._defendSub])
           if (this.get('readerBook', true)) this._landEl?.setAttribute('data-reader-pending', '')
           // The old enterDefense armed immediately AFTER buildPanicCard returned.
+          this._landAsk = false // legacy control represents a question already taken up (U47 d)
           this._armLandClock(this._landEl?.querySelector('[data-land-clock]'))
           return this._landEl
         }
@@ -126,6 +127,7 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
   await page.locator('[data-tech="Half Guard to Back Take"] .ng-choice-title-button').scrollIntoViewIfNeeded()
   await j.clickByMouse('[data-tech="Half Guard to Back Take"] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
+  if (!legacy) await j.openQuestion() // U47 d: this mechanics fixture studies a shown catch card.
   await expect(page.locator(cold ? '[data-panic-reveal]' : '[data-panic-mc-opt]').first()).toBeVisible()
   // STALE TIMING (D-351, H57): a reading-view landing stays unpublished, its clock parked, until the
   // article it asked for renders, which happens in real time after the pumped catch; the parked arm
@@ -143,6 +145,7 @@ test('@curated link, reload and dormant answer keep the generic five-card defend
   const j = journey(page)
   await j.boot(LOOP + '/Defender', { beforeNavigate: realContent })
   await calm(page)
+  await j.openQuestion() // U47 d: the defender deck pages once its card is shown; a calm card arms no clock.
   await j.clickByMouse('[data-land-next]', 'browse the next defender card')
   expect(await page.evaluate(() => (window as any).__neural._landPage)).toBe(1)
   await j.clickByMouse('[data-land-prev]', 'return to the first defender card')
@@ -448,11 +451,14 @@ test('@curated Danger animation toggles live visuals only and survives a reload'
 // advance(20) cannot establish that the real change handler has run. Delayed native
 // delivery reproduces the immediate-assert race on base and head; waiting for the
 // visible outcome passes while removing the real listener must still fail.
-test('@curated reduced motion suppresses CSS and frame-driven danger without changing the saved setting', async ({ page }) => {
+test('@curated reduced motion keeps a static cue and suppresses frame-driven danger without changing the saved setting', async ({ page }) => {
   const j = await catchLoop(page)
   expect((await state(page)).vignette).toBe(true)
   await page.emulateMedia({ reducedMotion: 'reduce' })
-  await expect.poll(async () => (await state(page)).vignette, 'the real media-change handler suppresses danger').toBe(false)
+  await expect.poll(() => page.locator('.ng-vignette').evaluate(el => ({ opacity: getComputedStyle(el).opacity, animations: el.getAnimations().length }))).toEqual({ opacity: '0.144', animations: 0 })
+  // The poll above is CSS-only (the @media rule alone satisfies it). The media-change LISTENER is what
+  // re-syncs danger visuals; with no frame pumped, only it writes _dangerReduced (U47 d review).
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._dangerReduced), { message: 'the media-change listener acted, with no frame pumped' }).toBe(true)
   await j.advance(11000)
   const before = await mechanics(page)
   expect(before.remaining).toBeGreaterThan(0)
@@ -461,7 +467,7 @@ test('@curated reduced motion suppresses CSS and frame-driven danger without cha
     const a = (window as any).__neural
     return { saved: a.get('dangerAnimation', true), pressure: a._defensePressure, vignette: !!a._vignetteEl,
       glow: a._landEl.style.boxShadow, hot: a._landEl.classList.contains('ng-clock-hot'), clock: a._landClockEl.style.transform }
-  })).toMatchObject({ saved: true, pressure: true, vignette: false, glow: '', hot: false })
+  })).toMatchObject({ saved: true, pressure: true, vignette: true, glow: '', hot: false })
   await j.advance(500)
   expect((await mechanics(page)).remaining).toBeCloseTo(before.remaining! - 500, 4)
   await page.emulateMedia({ reducedMotion: 'no-preference' })
@@ -678,16 +684,16 @@ test('D-354 N3: a removed film is no longer observed by the reader', async ({ pa
   expect(released, 'the removed film is no longer observed by the reader').toEqual({ removed: true, observed: false })
 })
 
-// U16 b (owner, 2026-10-24): retain the usual Moves-first layout C order and shrink only
-// the live phone catch's band. Retire D-369 question-first and D-370's phone no-scroll fit
-// (including 390x631/8px), account hiding and card compaction. Every answer remains reachable
-// after reader scroll; desktop no-scroll fit and the above-fold question claim remain unchanged.
-test.beforeEach(async ({ page }, info) => { if (!/^(D-368|U16 b)/.test(info.title)) return
+// D-433 (2026-10-26), D-370 adapted to U35: the asking phone question must
+// expose Answer for Points (U47 d) and every shown answer without scrolling. This supersedes U16 b's
+// phone Moves-first/scroll-accepted premise. Keep desktop clearance, native Moves,
+// account visibility, normal card padding, target size and execution handoff claims.
+test.beforeEach(async ({ page }, info) => { if (!/^(D-368|U16 b|D-433)/.test(info.title)) return
   await page.addInitScript(() => { (window as any).__d368film = () => { const f = (window as any).__neural?._landFilmEl
     return !!f && f.isConnected && !f.hidden && f.getClientRects().length > 0 && f.getBoundingClientRect().height > 0 } }) })
 for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
   test(width > 640 ? `D-368: in a catch at ${width}x${height} the escape answers are on screen without scrolling`
-    : `U16 b: in a catch at ${width}x${height} the usual order keeps every answer reachable after scrolling`, async ({ page }) => {
+    : `D-433: in a catch at ${width}x${height} every opened answer is reachable without scrolling`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await catchLoop(page)
     await j.readerLayoutSettled()
@@ -699,7 +705,7 @@ for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
       })
       return { answers, film: (window as any).__d368film(), layout: a._reader.game.dataset.mediaLayout,
         end: Math.round(a._reader.root.getBoundingClientRect().bottom), pressure: !!a._defensePressure,
-        handBottom: a.optionsRef.current.getBoundingClientRect().bottom, cardTop: a._landEl.getBoundingClientRect().top, band: a._reader.nodeBand.height }
+        handBottom: a.optionsRef.current.getBoundingClientRect().bottom, handTop: a.optionsRef.current.getBoundingClientRect().top, cardTop: a._landEl.getBoundingClientRect().top, cardBottom: a._landEl.getBoundingClientRect().bottom, band: a._reader.nodeBand.height }
     })
     expect(r.film, 'premise: the current card is shown').toBe(true)
     expect(r.pressure, 'premise: a live catch').toBe(true)
@@ -708,9 +714,12 @@ for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
       const off = r.answers.filter((x) => !x.hit || x.top < 0 || x.bottom > Math.min(height, r.end) - 8)
       expect(off, 'every escape answer is on screen and reachable without scrolling, 8px clear of the scrollport end').toEqual([])
     } else {
-      // U16 b (owner, 2026-10-24): scrolling is accepted; the old phone no-scroll fit is retired.
-      expect(r.band, 'the live phone catch band is 144').toBe(144)
-      expect(r.cardTop - r.handBottom, 'the usual order keeps Moves before Questions without overlap').toBeGreaterThanOrEqual(0)
+      // D-433 restores D-370's no-scroll answers for U35. Unlike the old
+      // combined-fit oracle, this checks the actual clipped reader and targets.
+      expect(r.band, 'D-433 live phone band preserves the opened question clearance').toBe(height < 700 ? 80 : 144)
+      expect(r.handTop - r.cardBottom, 'D-433 keeps native Moves separate after the phone question').toBeGreaterThanOrEqual(16)
+      expect(r.answers.filter(x => !x.hit || x.top < 0 || x.bottom > Math.min(height, r.end) - 8),
+        'D-433 every answer is immediately hit-testable, 8px clear of the reader end').toEqual([])
       const answers = page.locator('[data-panic-mc-opt]')
       const identities = await answers.evaluateAll(es => es.map(e => e.getAttribute('data-panic-mc-opt')))
       for (const identity of identities) {
@@ -728,8 +737,9 @@ for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
       // Also deliver an actual mouse activation after scrolling, retaining the deck's own identity.
       const correct = await page.evaluate(() => String((window as any).__neural._mc.correct))
       const target = `[data-panic-mc-opt="${correct}"]`
-      await page.locator(target).evaluate(e => e.scrollIntoView({ block: 'center', behavior: 'instant' }))
+      await page.locator(target).evaluate(e => e.scrollIntoView({ block: 'start', behavior: 'instant' }))
       await j.readerLayoutSettled()
+      expect(await page.evaluate(() => (window as any).__neural._reader.root.scrollTop), 'premise: the scrolled-answer control really scrolls').toBeGreaterThan(0)
       // U16 b (owner, 2026-10-24): a live catch answers through _mcAnswer/_defenseAnswered,
       // which emits mc_correct and advances its deck, not the calm landing's land_q_answered beat.
       // H158 already advanced to Card 2/5; the original new oracle named the wrong event.
@@ -753,10 +763,10 @@ test('D-368: at 1440x900 the question card\'s top is above the fold', async ({ p
   expect(r.top, "the question card's top is above the fold").toBeLessThan(900)
 })
 
-// U16 b (owner, 2026-10-24): only the band shrinks, and only during the live catch.
-// The account and card spacing stay normal. The clicked escape keeps its measured rectangle
-// through the pick and the result-time band revert; D-325's handoff claim remains.
-test('U16 b: at 390x631 only the live catch band shrinks and reverts without moving the pick', async ({ page }) => {
+// D-433 (2026-10-26): the short live catch uses an 80px band and question-first order.
+// Retain U16 b's visible account and normal card spacing. The clicked escape keeps
+// its measured rectangle through the pick/result; D-325's handoff claim is unchanged.
+test('D-433: at 390x631 the smaller live band reverts without moving the native pick', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 631 })
   const j = await catchLoop(page)
   await j.readerLayoutSettled()
@@ -767,7 +777,7 @@ test('U16 b: at 390x631 only the live catch band shrinks and reverts without mov
       end: Math.round(a._reader.root.getBoundingClientRect().bottom), acctTop: Math.round(acct.getBoundingClientRect().top), pressure: !!a._defensePressure }
   })
   const caught = await look()
-  expect(caught, 'only the live phone catch band shrinks').toMatchObject({ pressure: true, band: 144, account: 'visible', conceded: true, padding: '11px' })
+  expect(caught, 'D-433 short live catch uses the smaller band').toMatchObject({ pressure: true, band: 80, account: 'visible', conceded: true, padding: '11px' })
   expect(caught.end, 'the account keeps its scrollport reserve during the catch').toBeLessThanOrEqual(caught.acctTop - 8)
   const title = '[data-tech] .ngchoice-title'
   await page.evaluate((sel) => (window as any).__neural.optionsRef.current.querySelector(sel).scrollIntoView({ block: 'nearest', behavior: 'instant' }), title)
@@ -777,9 +787,9 @@ test('U16 b: at 390x631 only the live catch band shrinks and reverts without mov
   const chosen = await rect(`[data-tech="${name}"]`)
   await j.clickByMouse(`[data-tech="${name}"] .ngchoice-title`, 'pick an escape')
   await j.advance(40)
-  expect(await look(), 'at the pick the small band holds and the account stays visible').toMatchObject({ band: 144, account: 'visible', conceded: true })
-  // U16 b (owner, 2026-10-24): Questions now follows Moves. The existing row handoff must still
-  // keep the picked escape in place, including when the result restores the taller band.
+  expect(await look(), 'at the pick the small band holds and the account stays visible').toMatchObject({ band: 80, account: 'visible', conceded: true })
+  // D-433 changes phone ordering, not the native handoff: the picked escape
+  // stays in place, including when the result restores the taller band.
   const stand = await rect('[data-executing-tech]')
   expect(stand.map((v, i) => Math.abs(v - chosen[i])).every((d) => d <= 2), `the stand-in sits where the escape was (${stand} vs ${chosen})`).toBe(true)
   await expect.poll(async () => { await j.advance(200); return (await look()).pressure }, 'the escape resolves').toBe(false)

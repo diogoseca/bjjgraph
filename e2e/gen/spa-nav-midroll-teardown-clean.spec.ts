@@ -71,6 +71,7 @@ test("mid-roll soft nav: old life torn down silent, remount residue-free, fresh 
   await j.land(POSITION)
   await j.expectBeat("land")
   await j.expectBeat("options_dealt")
+  await j.openQuestion() // U47 d: life 1's question is taken up, so its clock is LIVE
 
   // ── life-1 premise: a LIVE hand under a LIVE clock, long enough for signal separation ──
   const hand1 = await j.optionTitles()

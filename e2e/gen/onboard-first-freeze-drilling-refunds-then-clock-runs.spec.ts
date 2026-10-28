@@ -67,6 +67,11 @@ test("day-1 first window: no clock before engagement, then live; the viewer decl
   // ── the first REAL interaction (dsl.engage()'s two corner moves, without its pump) ──
   await page.mouse.move(4, 4)
   await page.mouse.move(6, 6)
+  // U47 d: engagement alone no longer arms an asking question; Answer for Points does (no pump).
+  // Engagement is read BEFORE Answer for Points, which engages by itself.
+  expect(await page.evaluate(() => !!(window as any).__neural._engaged), "the corner moves engaged the player").toBe(true)
+  expect(await page.evaluate(() => (window as any).__neural._decision?.remaining ?? null), "U47 d: engagement alone leaves the asking question unclocked").toBeNull()
+  await j.openQuestion()
   const armed = await page.evaluate(() => {
     const d = (window as any).__neural._decision
     return { total: d ? d.total : 0, remaining: d ? d.remaining : 0 }

@@ -68,6 +68,7 @@ test("frozen landing question: expiry narrates (warning→land_q_expired), break
     return m && m.surface === "land" && typeof m.correct === "number" ? m.correct : -1
   })
   expect(correctIdx, "live land-surface MC block with a known correct index").toBeGreaterThanOrEqual(0)
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.keyboard.press("abcd"[correctIdx])
 
   const after1 = await page.evaluate(() => {
@@ -95,6 +96,7 @@ test("frozen landing question: expiry narrates (warning→land_q_expired), break
 
   // ── landing 2 asks again; arrival reset the exchange (_qMod=0, :4799); streak carried ──
   await expect(page.locator("[data-land-q]"), "landing 2 asks a question").toBeVisible()
+  await j.openQuestion() // U47 d: landing 2's question can expire only once it is taken up
   const at2 = await page.evaluate(() => {
     const a = (window as any).__neural
     return {
