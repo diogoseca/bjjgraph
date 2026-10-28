@@ -11,6 +11,11 @@ import { questionGeometry, watchQuestionScroll, stopQuestionScroll } from '../fi
 // _mountLandQ and must fail at "U35 question surfaces contain no media/watch
 // controls", not at setup. Heartbeat samples seek real CSS animations; no 30-second
 // wall-clock sleep.
+// RDR-R2b (2026-10-28): the touch-scroll test now dismisses the earned White Foundations patch before its
+// take-up. Its claim is still pinned:
+// u52b-touch-press-declines (tests/artifacts/article_sections_mutants.mjs, the reader.src.js pointer-type
+// check removed) turned the fixed test red 2 of 2, by hand, at "U52 b: a touch scroll does not decline an
+// asking question".
 
 const state = (page: any) => page.evaluate(() => {
   const a = (window as any).__neural
@@ -267,6 +272,14 @@ test.describe('touch', () => {
     expect(await page.evaluate(() => (window as any).__neural._reader.interacting), 'premise: the touch reached the reader as reading').toBe(true)
     expect((await j.beats()).map(b => b.beat), 'U52 b: a touch scroll does not decline an asking question').not.toContain('land_q_declined')
     expect((await state(page)).asking, 'and the question still asks').toBe(true)
+    // RDR-R2b: boot() pre-completes the White track, so the landing's first beat mints the harness visitor's
+    // White Foundations patch, and its phone notice (y 82-184, 4.8 s, only its own buttons take clicks) is up for
+    // this whole test. On a fast runner the fling's touch events land ~17-18 ms apart and park Answer for Points
+    // under its View Collection button. Dismiss it as a player would (landcard-deck.spec.ts's pattern), so the
+    // take-up below is about THIS question. Forced at 17 and 18 ms apart: 15/15 per bundle with the dismissal.
+    if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]', "dismiss the harness visitor's earned patch")
+    await expect(page.locator('.ng-challenge-reward')).toHaveCount(0)
+    expect((await state(page)).asking, 'dismissing the notice leaves the question asking').toBe(true)
     await j.openQuestion()
     expect((await state(page)).remaining, 'a later take-up gets its clock').toBeGreaterThan(0)
   })
