@@ -12853,3 +12853,78 @@ to hold still across real frames and requires the click to have taken the questi
 non-vacuity check are unchanged, and v1.219.0's hand mutant is scripted as `slowclear` (killed at "CLEAR_SEC a row
 turned on").
 
+## v1.239.0 — the article as a bento dashboard on desktop (owner U55 b)
+
+U55 asked: keep today's article grid, go wider, or a dashboard of tiles? The owner answered b, Dashboard, with a
+correction to the mock (three tiles a row, capped heights): leave the node's "available" space, show all content (a
+click on a section does nothing), "three cols is great but sometimes 2 is better, and they dont need to be the same
+size", the current video taking about 2/3. His reference was diogoseca.com's 12-column bento.
+
+**Measured before (dev c4c013a6a, real served pages).** The grid was centred and capped at 902 px: x 269–1171 at
+1440 (about 270 px empty on the right), 509–1411 at 1920, and 236–916 (680 px) at 1152, where the left index first
+fits. Adjacent sections paired 6+6 or 8+4 and a short tile stretched to its neighbour's height (Mount's Statistics,
+193 characters, stood 2,784 px tall beside Related). Payload room: deferred raw 506,590 of 506,817 B (227 B), eager
+gzip +3,044 of the +5,000 cap; reader.js and reading.css are both deferred.
+
+**What shipped.** Where the index shows, `layoutNow` runs the grid from the index's 12 px clearance (the Moves row's
+left edge) to a 24 px right margin (the index's inset, mirrored) with an inline margin-left on the body; elsewhere it
+stays centred exactly as before. Spans follow type and size: Videos and any section over 2,000 characters take two
+of three lanes (`--span` 8), the rest one (4); below a 1,100 px grid, the whole width and half (12, 6). Above 640 px
+the body has 4 px rows, no row gap and dense flow; each open card spans its title + body + the token margin under
+it (`calc(var(--section-gap)*4)`) in rows, and stretches over them, so every gap is the token exactly and a card
+runs at most 3 px past its content. Spans, then all heights, then all rows: one forced layout. The ResizeObserver
+watches each card's body (late fonts and images) and is released when the reader opens another path. The adjacent-
+pair packing is deleted. After: x 236–1416 at 1440, 236–1896 at 1920, 236–1128 at 1152 (two lanes); page height at
+1440 Mount 8,348 → 6,813, Knee Slice 7,501 → 5,790, RNC from Back Control 7,135 → 6,085.
+
+**A defect the new spec found.** The first version measured a card as title height + body height. A section whose
+body opens with a heading (Mount's Related) lets that heading's 20 px top margin collapse out of the body (no top
+padding), so the row count fell ~19 px short and the tile was clipped. My own probe repeated the same sum and
+reported "fits"; the spec, which compares the tile's bottom with its content's bottom edge, went red. Fix:
+`.ng-section-body` is a flow root, so the margin stays inside it; positions are unchanged (the phone measured
+identical card for card at 390x844, 390x631 and 640x900 before and after).
+
+**Bytes.** Deferred +219 B (reader.js +12, reading.css +207) of the 227 B room: 506,809 of 506,817, the same on
+the camera base (c4c013a6a) and on dev after #320's revert (372d1ea97, merged here as 25eb0b024). Eager is untouched:
+on the merged base 1,357,830 B raw and 338,236 B gzip (−1,349 on the v1.230.0 baseline, the camera's code gone). Paid for inside
+the change: the inline margin instead of a CSS variable, a selector without its prefix where specificity allows, no
+filter over open sections (a closed card is not in the grid, so writing it is inert), and the token margin as the
+pill clearance instead of a foot rule. Kept where it was: the article's own ✕ at the old column's right edge
+(moving it to the grid's edge is ~75 B, over the ceiling; offered to the owner in U59).
+
+**Claims changed, old → new.** article-grid 1440: "each card starts at or below the previous one" → kept on the
+phone; on desktop dense flow may lift a later one-third tile into the hole beside a wide one, and the index carries
+the reading order. "Desktop really pairs cards" (two neighbours share a top) → cards really sit side by side.
+article-sections 1366: gaps between row unions → gaps from each card to the nearest card above in its columns; the
+token claim (4x, 3x on a phone, and 12 px → 48) is unchanged.
+
+**Specs that followed the layout (claims unchanged).** On the camera base, the affected-spec batch went 214 of 216:
+opening-camera "a drag mid-rise releases the board" started its drag at (1300,760), map beside the old centred
+article and now a tile, so the press was reading; it moved to the node band's right side with a premise that the
+point is map (11ad9b466). That spec left with #320's revert, so the move is recorded for #320's re-landing.
+reading-contract "reader rhythm" measured its gap to the next row union; it now measures to the card's nearest
+neighbour in its own columns. One outcome-on-cards red ("+N pops", 22 s) ran beside the ci:validate replay; alone it
+was green 3 of 3 at both widths (under 4.2 s), so it is load, not layout.
+
+**Gates (merged base 25eb0b024).** New and affected specs, one worker, private port: the direct set (dashboard,
+grid, sections, reading-contract, camera-continuity, pane-layout) 100 of 100; the remaining 34 reader-touching
+files 147 + 156 passed (1 owner-deferred fixme skipped, the one load red above re-run green). The camera-base batch
+of 13 heavier files went 214 of 216 before the two spec moves. Units 1,336 of 1,336; ci:validate 24 of 24 replayed
+steps; validate:payload OK; build-shape app rows re-seeded at 25eb0b024 (reader.js 42,451 → 42,463 B, reading.css
+10,697 → 10,904 B, the other 12 unchanged). CI runs the four core shards, @curated and gen on the merge ref (D-554).
+
+**Mutant controls** (tests/artifacts/article_sections_mutants.mjs, `SECTIONS_MUTANT_ONLY=^u55-`, each against a
+green baseline of the same spec and grep, all killed at their claim in article-dashboard.spec.ts):
+
+| control | mutation | killed by |
+|---|---|---|
+| u55-tile-capped | the mock's 520 px cap and fade on every tile | "videos is not capped" |
+| u55-rows-short | rows counted as h/5 instead of h/4 | "videos shows its whole content" |
+| u55-margin-uncounted | the body is no longer a flow root | "related shows its whole content" |
+| u55-tile-click-toggles | a click on a tile (not a link or control) toggles it | "a click on the title changes nothing" |
+| u55-band-covered | the article pulled up over the game stage | "videos leaves the node band clear" |
+| u55-width-unused | the grid keeps the centred column | body.left at the index clearance |
+
+Not covered by a spec: the visual balance of the masonry (a long last section leaves one lane empty at the
+bottom; Mount's Related, Knee Slice's Training) and the 1920 line length of a two-thirds prose tile (~150
+characters). Both are the owner's to judge on the U59 screens.
