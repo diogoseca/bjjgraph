@@ -13276,3 +13276,33 @@ control toc-camera-gutter-restored is still killed). On the final build: 217 + 1
 1 owner-deferred fixme skipped; one land-layers timeout in the second batch was green alone and 15 of 15 on repeat.
 The reader_handoff units' minimal DOM node gained an empty querySelectorAll (a11b6231e). Units 1,364 of 1,364;
 ci:validate 25 of 25; validate:payload OK (deferred 506,799 of 506,817 B).
+
+**DASH-R4 / DASHCX1 (2026-10-29): arrival, readable lanes, and U65.** The independent R3 review found that
+the place anchor also moved the arrival stage when Explore opened at 1152px, a window narrowed, or a phone
+rotated. It now acts only after the article has scrolled above the reader's top; hiding the article resets the
+remembered grid width to NaN. Restoring a rounded offset, with 20px of slack for the chosen block, prevents the
+pane's repeated layout passes from accumulating rounding drift. Close/reopen retains the line at both tested
+depths. The hidden-width reset alone is redundant with the arrival gate in that journey; its control restores
+both old behaviours and does not claim to distinguish them.
+
+Wide tables (four or more columns) and reference Videos count as long, and wide-table articles escape the 46ch
+prose measure. Removing the inherited static table margin also prevents Knee Slice's three-column Outcomes
+table from needing a 16px sideways scroll at 768px. Three lanes now require a 1,150px grid; thirds require an odd count and a run whose longest
+section is below 1,500 characters. Otherwise an odd section ends beside an empty lane. Grids up to 660px stay
+one column, and other grids below three lanes use halves. The default span is a half too, so an article arriving
+under a held press does not briefly show every tile full width before layout writes its spans.
+
+**U65 b (owner, 2026-10-29): end at the content.** Tiles no longer stretch to the taller neighbour. The next row
+still follows the taller tile plus the token gap; a node can show through the space below a short tile, but that
+space remains reader input. The article-sections header records this changed claim. U65's note also retires the
+duplicate Videos credits tile on game pages. The stage film retains its title, instructor credit and close
+button; Videos retains its index and closed disclosure preference. The duplicated credits list and standalone
+Watch on YouTube links are retired from game articles. Reference pages retain their tile, player and links.
+The published static source is unchanged.
+
+Final deferred payload: **506,775 / 506,817 B**, 42 B spare, no ceiling increase. reader.js is 42,444 B and
+reading.css 10,889 B, together 24 B below R3. Reusing local element/path references pays for the added behaviour;
+eager payload is unchanged. The dashboard tests now select the Explore line by geometry at two widths and two
+depths, assert phone measure and full content, and exercise the surviving film controls. Opening-camera checks
+that a drag starts on the canvas. Related reader tests use the surviving controls, exclude only the explicitly
+retired source credits, and wait for the replacement article before choosing its index or closed label.

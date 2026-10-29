@@ -358,8 +358,9 @@ test.describe("the directed arrival on desktop", () => {
     // point is an article tile and the press was reading, not a drag. New: the right side of the node band,
     // which the reader keeps clear by design (article-dashboard.spec.ts pins that).
     const at = { x: 1300, y: 160 };
-    expect(await page.evaluate(({ x, y }) => !document.elementFromPoint(x, y)?.closest(".ng-section-card,[data-reader-game-part],.ng-reader-toc"), at),
-      "premise: the drag starts on the map, not on an article tile or a game part").toBe(true);
+    // DASH-R4 (review finding 9e): the premise names what the point IS, the map's canvas, not only what it is not.
+    expect(await page.evaluate(({ x, y }) => document.elementFromPoint(x, y)?.tagName, at),
+      "premise: the drag starts on the map (its canvas), not on an article tile or a game part").toBe("CANVAS");
     await page.mouse.move(at.x, at.y); await page.mouse.down(); await page.mouse.move(at.x + 2, at.y);
     await page.mouse.move(at.x + 30, at.y + 10, { steps: 5 }); await page.mouse.up();
     await page.waitForTimeout(700);   // the release is a CSS transition: wall clock

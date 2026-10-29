@@ -85,7 +85,10 @@ for (const path of [
       const doc = new DOMParser().parseFromString(await response.text(), "text/html")
       const source = doc.querySelector("article")!
       const normalized = (s: string) => s.replace(/Play as /g, "Read as ").replace(/\s+/g, " ").trim()
-      const prose = [...source.querySelectorAll("p,li,h2,h3,h4,td,th,aside")].map(n => normalized(n.textContent || "")).filter(s => s.length > 0)
+      // U65 note (owner, 2026-10-29) retires only the duplicate game video credits. Reference
+      // players and credits remain; every other published block still belongs in the reader.
+      const reference = /^\/(Principles|Learning|Systems)\//.test(path)
+      const prose = [...source.querySelectorAll("p,li,h2,h3,h4,td,th,aside")].filter(n => reference || !n.closest('#film-study,#official-preview')).map(n => normalized(n.textContent || "")).filter(s => s.length > 0)
       const shown = normalized([...document.querySelectorAll('[data-reader-article="guide"]')].map(e => e.textContent).join(" "))
       const a = (window as any).__neural
       return { status: response.status, prose: prose.length, missing: prose.filter(s => !shown.includes(s)),

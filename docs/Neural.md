@@ -82,16 +82,27 @@ principles, setup/recognition, options, safety, mistakes, the rest, Related; 6px
 last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
 shared hub safety. Failed loads offer Retry.
 
-**The desktop dashboard (U55 b, U59 c).** With the index shown (from 1152px) the sections run from its 12px
-clearance to a 24px right margin in rows of two open sections, in source order: on three lanes (a grid of
-1,100px or more) the longer text takes two thirds and the other one third, either way; on two lanes, halves.
-An odd count makes one row of three thirds, the run of three (starting on a row) whose longest section is
-shortest. No section sits alone across the width. Rows take their taller card's height and the token gap;
-nothing is capped, faded or reordered, so Tab follows the eye. Each tile's text is a centred 46ch column (a
-65-68 character median line on real pages); the media slot is outside it. The reader ends above the account
-pill. When the grid's width changes (Explore opening, a resize), `layoutNow` keeps the first text block at the
-reader's top in place. A tile click does nothing; the node band, Moves and question keep their places; ≤640px
-is unchanged. `article-dashboard.spec.ts` pins it on real content.
+**The desktop dashboard (U55 b, U59 c).** Above 640px the sections sit in rows of two open sections, in source
+order. With the index shown (from 1152px) the grid runs from its 12px clearance to a 24px right margin; narrower
+it is centred, at most 902px. On three lanes (a grid of 1,150px or more: 1440 and wider with the index) the longer
+section takes two thirds and the other one third, either way; a table with a fourth column and a reference page's
+Videos (its player) count as long. A grid of 661-1,149px uses two lanes, each taking a half (including 768px tablets,
+844px phones held sideways and 1152-1366px with the index). Between 641 and 1151px, the grid stays centred and
+becomes two lanes only once its own width exceeds 660px. An odd count makes one row of three thirds only on three lanes and only from the
+run of three (starting on a row) whose longest section is under 1,500 characters; otherwise the last section ends
+the article beside an empty lane (two thirds, or a half). A grid of 660px or less is one column. **U65 b (owner,
+2026-10-29): tiles end at their own content.** Rows take their taller card's height and the token gap; the map can
+show in the space below a shorter tile, where the reader grid owns input and the node is not clickable. Nothing
+is capped, faded or reordered, so Tab follows the eye. Each tile's
+text is a centred 46ch column (a 65-68 character median line at 1440-1920), except an article holding a wide table;
+tables use the section's spacing instead of an additional outer margin.
+The media slot is outside the prose measure. The reader ends above the account pill. When the grid's width changes (Explore
+opening, a resize) and the article has scrolled above the reader's top, `layoutNow` keeps the first text block
+there in place; at the arrival the stage holds still. A tile click does nothing; the node band, Moves and question
+keep their places; ≤640px keeps its stacked geometry. **U65 note:** game pages omit the duplicate Videos credits
+tile; the film remains in the stage above, with its own close button. Videos keeps its index entry and closed
+disclosure control. Reference pages keep their Videos tile and player. `article-dashboard.spec.ts` pins this on
+real content.
 
 One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. A closed
 part leaves a light label (glyph above name, no box) that reopens it. Contents floats at the right-control inset, taking no layout

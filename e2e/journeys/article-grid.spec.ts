@@ -70,7 +70,8 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
   } })
   await expect(page.locator(READY)).toBeVisible(); await j.readerLayoutSettled()
   const original = await page.locator('[data-reader-body]').textContent()
-  const geometry = await page.locator('[data-reader-body]').evaluate(body => [...body.children].map(card => {
+  // U65 note (owner, 2026-10-29): Videos keeps only its closed control; no open credits tile on game pages.
+  const geometry = await page.locator('[data-reader-body]').evaluate(body => [...body.children].filter(card => card.getClientRects().length).map(card => {
     const b = card.getBoundingClientRect(), s = getComputedStyle(card)
     return { type: (card as HTMLElement).dataset.sectionType, left: b.left, top: b.top, right: b.right, bottom: b.bottom,
       fill: s.backgroundColor, border: s.borderWidth, shadow: s.boxShadow, filter: s.filter, backdrop: s.backdropFilter,
@@ -99,7 +100,12 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
   await ownerFrame(page, `grid-stack-${width}`)
   for (const type of ['principles', 'prerequisites', 'mistakes']) {
     const selector = `[data-section-toggle=${type}]`
-    await page.locator(selector).scrollIntoViewIfNeeded(); await j.readerLayoutSettled(); await j.clickByMouse(selector)
+    await page.locator(selector).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    // CLAIM UNCHANGED (U59 c, DASH-R4): the DSL boot pre-completes the White track, so reading mints a patch whose
+    // toast sits in the top-right corner over the right lane's top tile, where Mistakes' ✕ now lands at 1440.
+    // Let its ordinary 4.8s lifetime end; a separate mouse click can race that expiry.
+    await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
+    await j.clickByMouse(selector)
     await expect(page.locator(selector)).toHaveAttribute('aria-expanded', 'false')
   }
   const summary = page.locator('.ng-reader-hidden>summary')
