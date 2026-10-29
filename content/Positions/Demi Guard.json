@@ -1,0 +1,145 @@
+{
+  "name": "Demi Guard",
+  "slug": "demi-guard",
+  "aliases": ["Demi-Guard", "demi guard"],
+  "description": "Demi Guard is Keenan Cornelius' gi lapel guard against forward pressure. Learn its collar grip, foot-on-lapel control, sweep options and passing priorities.",
+  "variant_uniqueness": "Foot on lapel supports a knee-line barrier",
+  "summary": "Demi Guard is a gi lapel guard that combines a collar grip, the opponent's lapel behind their knee, and a foot pressing on the lapel tail to resist pressure and create elevation.",
+  "overview": "Keenan Cornelius introduces Demi Guard as an answer to a passer driving forward after a worm-wrestling attempt. The bottom player's foot has left the worm configuration, so rebuilding that guard may be difficult. Demi supplies a different connection at the knee rather than requiring the original wrap to be restored. See [Keenan's introduction](https://jiujitsux.com/courses/keenans-lapel-encyclopedia/lesson/16-1-introduction-to-the-demi-guard/).\n\n[Legion's dictionary](https://legionsandiego.com/the-jiu-jitsu-dictionary/#demi-guard) describes the collar grip, lapel behind the passer's knee, and foot on the lapel tail. The guard player stays in front of the passer with bent legs between their bodies; the fabric supports the foot's work against pressure. The top player must deal with that connection while keeping balance.\n\nDemi belongs with [[Positions/Lapel Guard]] and connects to [[Positions/Worm Guard]]. It is distinct from [[Positions/Half Guard]], whose defining control is trapping one opponent's leg between both legs. Half guard can be a recovery destination after releasing the lapel structure. A lapel is essential to Demi, so this position has no no-gi equivalent. Back takes and submissions are follow-ups through recovered guards, not automatic results of holding Demi.",
+  "disambiguations": [
+    {"name": "Half Guard", "reason": "Demi uses a collar grip and foot-on-lapel knee control; Half Guard traps one leg between both legs and also exists in no-gi."}
+  ],
+  "key_principles": [
+    "Recognize the collar, knee-line lapel and foot as a connected guard structure.",
+    "Keep the legs between the players while the top player presses forward.",
+    "Use the lapel connection to create room and elevation, not to twist a trapped knee.",
+    "Distinguish a completed guard configuration from merely holding loose fabric.",
+    "Recover another guard when the foot-on-lapel connection is lost.",
+    "Clear the lapel and leg barrier before treating a passing attempt as complete."
+  ],
+  "related_positions": [
+    {"name": "Lapel Guard", "relationship": "Broader gi lapel-control position and route to existing back-take and submission setups"},
+    {"name": "Worm Guard", "relationship": "Related lapel guard; forward pressure after leaving its leg wrap motivates the Demi entry"},
+    {"name": "Open Guard", "relationship": "Entry platform with room to establish the lapel and collar connections"},
+    {"name": "Half Guard", "relationship": "Adjacent leg-capture position used for entry and recovery, not a synonym"},
+    {"name": "Side Control", "relationship": "Passing destination once the lapel and both leg barriers have been cleared"}
+  ],
+  "top": {
+    "name": "Demi Guard Top",
+    "description": "Recognize Demi Guard from top, protect your balance, clear the foot-on-lapel connection and distinguish a guard reset from a completed pass.",
+    "tags": ["Gi", "Lapel Guard", "Guard Passing"],
+    "overview": "You are the passer above an opponent who has connected your collar and knee line with your own lapel. Their foot presses on the lapel tail, and their bent legs remain between your bodies. Driving forward can load that structure instead of bringing you closer to a pass. Keep a usable base while addressing the fabric and foot connection.\n\nClearing the lapel may leave you facing [[Positions/Open Guard]] or caught in [[Positions/Half Guard]]. Neither is a completed pass. Advance to [[Positions/Side Control]] only after clearing the legs and controlling the upper body. The defensive priorities here are applications of the published configuration; they do not claim to reproduce an unavailable Demi passing lesson.",
+    "state_properties": {"point_value": 0, "position_type": "Defensive with offensive options", "risk_level": "Medium", "energy_cost": "Medium", "time_sustainability": "Medium"},
+    "state_invariants": [
+      "The top player's torso faces the bottom player while one knee is controlled by the lapel running behind it.",
+      "The bottom player's bent legs remain in front of the passer, with one foot pressing against the lapel tail.",
+      "The collar grip connects the passer's upper body to the guard player while the passer still has space to adjust base."
+    ],
+    "prerequisites": ["Your opponent has established the collar and knee-line lapel connections.", "Their foot remains engaged with the lapel tail.", "You are still facing a guard rather than holding a completed pin."],
+    "key_principles": ["Keep balance while identifying the loaded foot and fabric.", "Reduce the lapel connection before committing forward weight.", "Move the controlled leg only when the fabric permits it.", "Recognize a remaining leg trap as half guard.", "Complete leg clearance before settling a side-control pin."],
+    "transitions": [
+      {"transition": "Lapel Clear from Demi Guard", "attempt_probability": {"gi": 65, "nogi": null}},
+      {"transition": "Pass from Demi Guard", "attempt_probability": {"gi": 35, "nogi": null}}
+    ],
+    "decision_tree": [
+      {"condition": "The foot-on-lapel barrier is intact and prevents a safe passing step", "actions": [{"technique": "Lapel Clear from Demi Guard", "target": "Open Guard/Top", "probability": {"gi": 60, "nogi": null}}]},
+      {"condition": "You can clear the fabric and control the legs without losing balance", "actions": [{"technique": "Pass from Demi Guard", "target": "Side Control/Top", "probability": {"gi": 45, "nogi": null}}]},
+      {"condition": "The bottom player starts elevating your controlled knee", "actions": [{"technique": "Lapel Clear from Demi Guard", "target": "Open Guard/Top", "probability": {"gi": 60, "nogi": null}}]}
+    ],
+    "common_errors": [
+      {"error": "Driving into the intact lapel barrier", "consequence": "Your weight loads the guard player's elevation structure.", "correction": "Restore balance and address the foot and fabric first."},
+      {"error": "Pulling the controlled knee free by force", "consequence": "The remaining wrap can bind the leg during the movement.", "correction": "Loosen the fabric before moving the controlled leg."},
+      {"error": "Watching only the collar-gripping hand", "consequence": "The foot-on-lapel connection remains active below you.", "correction": "Track the collar, foot and knee-line connection together."},
+      {"error": "Treating a cleared lapel as a finished pass", "consequence": "The opponent's legs can still retain an ordinary guard.", "correction": "Check whether a leg trap or open-guard frame remains."},
+      {"error": "Reaching with both hands while losing base", "consequence": "The bottom player can redirect your unsupported weight.", "correction": "Keep a stable base throughout the grip-clearing exchange."}
+    ],
+    "training_drills": [
+      {"name": "Connection recognition", "description": "Begin in a cooperative Demi configuration. Name the collar grip, lapel path and loaded foot, then reset before attempting to clear any of them.", "duration": "2 minutes per role"},
+      {"name": "Clear and stop", "description": "Start with light lapel tension. Clear the connection while the partner retains ordinary leg frames; stop at open guard and check that neither knee is bound.", "duration": "3 minutes per role"},
+      {"name": "Pass or reset", "description": "Begin in Demi with light resistance. Attempt the clear and pass; reset on side control, a sweep, or a recovered guard. Stop immediately on discomfort.", "duration": "Three 1-minute rounds per role"}
+    ],
+    "related_content": [
+      {"name": "Lapel Clear from Demi Guard", "relationship": "Remove the special control and reset against open guard"},
+      {"name": "Pass from Demi Guard", "relationship": "Clear the connections and complete a pass"},
+      {"name": "Half Guard", "relationship": "Recognize the remaining leg trap when the pass is incomplete"}
+    ],
+    "position_metrics": {
+      "retention_rate": {"value": 87, "description": "Rounded modeled chance of remaining on top after one of the two listed attempts, using their proposed gi weights; not observed match data."},
+      "advancement_probability": {"value": 16, "description": "Rounded modeled chance of a completed pass in one choice: 35% pass attempt share times 45% pass success."},
+      "submission_probability": {"value": 0, "description": "No listed top transition finishes a submission; this says nothing about later attacks."}
+    },
+    "flashcards": [
+      {"question": "What should you address before driving through Demi Guard?", "answer": "Address the foot-on-lapel connection while maintaining your balance; forward pressure can otherwise load the opponent's elevation."},
+      {"question": "What tells you that a lapel clear has not yet passed Demi Guard?", "answer": "The bottom player's legs still frame between you or trap one leg, leaving open guard or half guard instead of side control."},
+      {"question": "Why should you avoid twisting a knee caught in the Demi lapel connection?", "answer": "The fabric can keep the leg bound while your body turns; release the tension before moving the controlled knee."},
+      {"question": "Which upper-body grip should you monitor against Demi Guard?", "answer": "Monitor the bottom player's collar grip together with the knee-line lapel and foot, rather than watching only one connection."},
+      {"question": "What is your priority when Demi Guard begins to elevate you?", "answer": "Recover a stable base and reduce the loaded connection before trying to continue the passing movement."},
+      {"question": "When has a pass from Demi Guard reached side control?", "answer": "Both leg barriers have been cleared and you control the opponent's upper body from the side, without a remaining half-guard trap."}
+    ],
+    "clips": []
+  },
+  "bottom": {
+    "name": "Demi Guard Bottom",
+    "description": "Maintain Demi Guard's collar and foot-on-lapel connections, recognize forward pressure for elevation, and recover half guard or another lapel guard when needed.",
+    "tags": ["Gi", "Lapel Guard", "Guard Retention"],
+    "overview": "You face the passer from underneath with the lapel routed behind their knee, a collar grip controlling their upper body, and a foot pressing on the lapel tail. Keep your knees in front of your torso so the connection can support distance and elevation. Having the lapel in your hand alone does not establish Demi Guard.\n\nUse the passer's pressure as the cue for [[Transitions/Demi Guard Elevation Sweep]]. If the fabric or foot connection stops working, recover [[Positions/Half Guard]] or return to [[Positions/Lapel Guard]] before chasing another attack. The latter has existing back-take, omoplata and triangle setups; those require a new position and their own controls. Do not treat the word Demi as another name for ordinary half guard.",
+    "state_properties": {"point_value": 0, "position_type": "Defensive with offensive options", "risk_level": "Medium", "energy_cost": "Medium", "time_sustainability": "Medium"},
+    "state_invariants": [
+      "The bottom player faces the passer with bent knees between their torsos rather than allowing chest-to-chest side control.",
+      "The passer's lapel runs behind the controlled knee and reaches the bottom player's foot, which presses on its tail.",
+      "The bottom player maintains a collar grip and a working lapel connection so the foot can help manage pressure at the knee line."
+    ],
+    "prerequisites": ["The opponent wears a gi with an accessible lapel.", "You can keep your legs between the players while arranging the grips.", "There is space to route the lapel behind the knee and place the foot on its tail."],
+    "key_principles": ["Keep the collar and knee-line connections working together.", "Place the foot on the lapel tail rather than merely holding loose cloth.", "Keep bent legs between you and the passer.", "Read forward pressure before attempting elevation.", "Recover another guard promptly when the Demi connection is lost."],
+    "transitions": [
+      {"transition": "Demi Guard Elevation Sweep", "attempt_probability": {"gi": 40, "nogi": null}},
+      {"transition": "Demi Guard to Lapel Guard", "attempt_probability": {"gi": 35, "nogi": null}},
+      {"transition": "Demi Guard to Half Guard", "attempt_probability": {"gi": 25, "nogi": null}}
+    ],
+    "decision_tree": [
+      {"condition": "The passer's weight comes forward over your working lapel connection", "actions": [{"technique": "Demi Guard Elevation Sweep", "target": "Half Guard/Top", "probability": {"gi": 30, "nogi": null}}]},
+      {"condition": "The passer retreats and you retain useful lapel control", "actions": [{"technique": "Demi Guard to Lapel Guard", "target": "Lapel Guard/Bottom", "probability": {"gi": 65, "nogi": null}}]},
+      {"condition": "The foot-on-lapel control fails but one opponent's leg remains within reach", "actions": [{"technique": "Demi Guard to Half Guard", "target": "Half Guard/Bottom", "probability": {"gi": 70, "nogi": null}}]}
+    ],
+    "common_errors": [
+      {"error": "Holding fabric without engaging the foot", "consequence": "The characteristic knee-line barrier is incomplete.", "correction": "Confirm the lapel path and foot contact before relying on Demi."},
+      {"error": "Letting both knees drift behind the passer", "consequence": "The passer can approach your torso without a leg barrier.", "correction": "Recover your legs in front before attempting another lapel feed."},
+      {"error": "Trying to lift a balanced opponent with the arms", "consequence": "The grips tire without creating a useful change of base.", "correction": "Wait for or create a visible weight shift before elevation."},
+      {"error": "Hanging onto a lost lapel while being passed", "consequence": "The grip occupies a hand needed for frames and recovery.", "correction": "Release the ineffective connection and recover a guard."},
+      {"error": "Keeping the lapel bound after coming on top", "consequence": "The same connection can obstruct your own stabilization.", "correction": "Release unnecessary fabric and establish the actual landing position."}
+    ],
+    "training_drills": [
+      {"name": "Build and identify", "description": "From seated open guard, arrange the collar, knee-line lapel and foot contact with a cooperative partner. Identify all three before releasing and resetting.", "duration": "2 minutes per role"},
+      {"name": "Pressure recognition", "description": "With light grips, let the passer alternate forward pressure and retreat. Name the sweep or recovery opportunity; reset without forcing a loaded knee.", "duration": "3 minutes per role"},
+      {"name": "Guard recovery exchange", "description": "Start in Demi and allow a gradual lapel clear. Recover half guard or another lapel configuration; stop and reset when the destination is stable or the passer clears both legs.", "duration": "Three 1-minute rounds per role"}
+    ],
+    "related_content": [
+      {"name": "Demi Guard Elevation Sweep", "relationship": "Use forward pressure to begin a reversal"},
+      {"name": "Demi Guard to Lapel Guard", "relationship": "Recover the position that lists existing lapel back-take and submission setups"},
+      {"name": "Demi Guard to Half Guard", "relationship": "Replace the lost fabric connection with an ordinary leg trap"}
+    ],
+    "position_metrics": {
+      "retention_rate": {"value": 66, "description": "Rounded modeled probability of retaining a bottom guard after one listed attempt: 40% times 35%, plus 35% times 85%, plus 25% times 90%."},
+      "advancement_probability": {"value": 20, "description": "Modeled probability of coming on top in one choice: 40% sweep attempt share times 50% sweep success; not observed match data."},
+      "submission_probability": {"value": 0, "description": "The listed Demi transitions contain no direct finish. Submission routes continue through other established positions."}
+    },
+    "flashcards": [
+      {"question": "Where does your foot contact the fabric in Demi Guard?", "answer": "The foot presses on the tail of the opponent's lapel after that lapel has been routed behind their knee."},
+      {"question": "What upper-body grip accompanies the foot-on-lapel control?", "answer": "A collar grip connects the opponent's upper body to your guard while the lapel and foot control their knee line."},
+      {"question": "Which passer reaction creates Demi Guard's elevation opportunity?", "answer": "Forward pressure can bring the passer's weight onto the working lapel connection, providing an opportunity to elevate and reverse."},
+      {"question": "What should you recover if the foot-on-lapel connection is lost?", "answer": "Recover a guard that still fits the available controls, such as half guard around one leg or a usable lapel guard in front."},
+      {"question": "Why keep your knees between you and the passer in Demi Guard?", "answer": "The legs supply the barrier that lets the lapel connection help manage distance; a loose grip alone does not prevent a pass."},
+      {"question": "What must change after a Demi elevation brings you on top?", "answer": "Free any fabric that obstructs movement and stabilize the landing, recognizing whether the opponent still holds half or open guard."}
+    ],
+    "clips": []
+  },
+  "flashcards_position": [
+    {"question": "Which uniform is required for Demi Guard?", "answer": "Demi Guard requires a gi because the opponent's lapel supplies the fabric connection behind the knee and under the foot."},
+    {"question": "What are the three defining connections in Demi Guard?", "answer": "A collar grip, the opponent's lapel behind their knee, and a foot pressing on the lapel tail form the defining configuration."},
+    {"question": "Which pressure problem does Keenan's Demi Guard address?", "answer": "It addresses a passer driving forward, including the reaction that stops a worm-wrestling attempt after the original leg wrap has been left."},
+    {"question": "How is Demi Guard different from ordinary Half Guard?", "answer": "Demi is defined by a collar and foot-on-lapel structure, while ordinary half guard traps one opponent's leg between both legs."},
+    {"question": "Which player is on top in Demi Guard?", "answer": "The passer is the top player; the bottom player maintains the collar, lapel and leg structure while seeking a sweep or guard recovery."},
+    {"question": "What separates a Demi Guard sweep from a submission finish?", "answer": "A sweep changes which player is on top and still requires stabilization; it does not by itself end the exchange with a tap."}
+  ],
+  "clips": []
+}

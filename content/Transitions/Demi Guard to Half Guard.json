@@ -1,0 +1,303 @@
+{
+  "name": "Demi Guard to Half Guard",
+  "summary": "Demi Guard to Half Guard replaces a failing gi lapel-and-foot connection with a conventional one-leg trap while the bottom player keeps frames against the passer.",
+  "description": "Demi Guard to Half Guard in gi BJJ: learn the starting controls, movement sequence, defensive reactions and recovery options for a connected lapel-guard exchange.",
+  "tags": [
+    "Gi",
+    "Lapel Guard",
+    "Guard Transitions"
+  ],
+  "from_position": "Demi Guard/Bottom",
+  "success_rate": {
+    "gi": 70,
+    "nogi": null
+  },
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": {
+        "gi": 70,
+        "nogi": null
+      },
+      "result": "success"
+    },
+    {
+      "to": "Demi Guard/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": null
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": {
+        "gi": 10,
+        "nogi": null
+      },
+      "result": "counter"
+    }
+  ],
+  "overview": "When the foot-on-lapel barrier stops managing pressure, the nearby leg may still be available for ordinary half guard. This recovery exchanges the special fabric control for a leg trap; it does not turn every loose Demi position into half guard automatically.\n\nThe defining Demi configuration is documented by [Legion](https://legionsandiego.com/the-jiu-jitsu-dictionary/#demi-guard). The half-guard recovery is a conservative connection between that configuration and [[Positions/Half Guard]], requiring the leg to remain within reach and frames to prevent a completed pass. Once half guard is established, its own underhook, back-take and submission routes require their usual controls.",
+  "related_content": [
+    {
+      "name": "Demi Guard",
+      "relationship": "Origin whose fabric structure is being released"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Recovery destination with existing back-take and submission choices"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Counter destination if recovery fails"
+    }
+  ],
+  "attacker": {
+    "name": "Demi Guard to Half Guard Attacker",
+    "description": "Execute Demi Guard to Half Guard with the right starting controls, a stable destination and a clear recovery when the attempt is blocked.",
+    "overview": "You are underneath as Demi's lapel connection becomes unreliable. Recover a conventional leg trap while keeping your torso facing the passer. Release cloth that obstructs the change and retain frames; the recovery ends at half guard rather than at an immediate sweep or submission.",
+    "key_principles": [
+      "Recognize loss of useful lapel tension early.",
+      "Keep frames while changing the legs.",
+      "Capture a reachable leg rather than stretching after it.",
+      "Release fabric that prevents a safe change.",
+      "Reestablish half-guard posture before attacking."
+    ],
+    "setup_requirements": [
+      "You begin in Demi Guard bottom.",
+      "The lapel or foot control is failing or no longer useful.",
+      "One opponent's leg remains between or within reach of your legs.",
+      "You can maintain frames that prevent a completed side-control pin."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the failing barrier",
+        "description": "Notice when the foot no longer has useful support from the lapel, before the passer clears both knees and reaches your torso."
+      },
+      {
+        "step_number": 2,
+        "action": "Keep your frames",
+        "description": "Use the remaining upper-body frames and facing angle to preserve space for the legs to change without surrendering chest control."
+      },
+      {
+        "step_number": 3,
+        "action": "Release obstructing fabric",
+        "description": "Let go of lapel tension that binds your leg movement, keeping another frame in place rather than reaching after lost cloth."
+      },
+      {
+        "step_number": 4,
+        "action": "Capture the nearby leg",
+        "description": "Bring both legs around the reachable opponent's leg without turning against a knee that is still caught in fabric."
+      },
+      {
+        "step_number": 5,
+        "action": "Settle half guard",
+        "description": "Confirm the one-leg trap and recover your side-facing posture with frames between the two upper bodies."
+      },
+      {
+        "step_number": 6,
+        "action": "Choose the next half-guard action",
+        "description": "Assess the passer's posture and upper-body controls before pursuing the existing half-guard sweep, back-take or recovery options."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Keep the knee line outside the closing leg clamp",
+        "effectiveness": "Medium",
+        "targets_outcome": "Demi Guard/Bottom",
+        "your_response": "Keep the remaining guard or base and reassess the controls before repeating the attempt; do not force a knee against the lapel."
+      },
+      {
+        "counter": "Contest the recovery while preserving base",
+        "effectiveness": "Medium",
+        "targets_outcome": "Demi Guard/Bottom",
+        "your_response": "Keep the remaining guard or base and reassess the controls before repeating the attempt; do not force a knee against the lapel."
+      },
+      {
+        "counter": "Clear both legs and settle the pin",
+        "effectiveness": "Medium",
+        "targets_outcome": "Side Control/Bottom",
+        "your_response": "Keep the remaining guard or base and reassess the controls before repeating the attempt; do not force a knee against the lapel."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting until both knees have been passed",
+        "consequence": "No reachable leg remains for the intended recovery.",
+        "correction": "Start the change when the lapel barrier first becomes ineffective."
+      },
+      {
+        "error": "Releasing all upper-body frames",
+        "consequence": "The passer closes chest-to-chest space during the leg change.",
+        "correction": "Keep at least one effective frame while exchanging the controls."
+      },
+      {
+        "error": "Clamping while the lapel still binds a knee",
+        "consequence": "The new trap can add tension to an already restricted joint.",
+        "correction": "Release the obstructing fabric before tightening the leg trap."
+      },
+      {
+        "error": "Chasing a distant leg with straight arms",
+        "consequence": "The passer gains a path around your remaining barrier.",
+        "correction": "Keep your torso protected and recover a reachable guard."
+      },
+      {
+        "error": "Attacking before confirming half guard",
+        "consequence": "The opponent frees the leg during your premature reach.",
+        "correction": "Confirm the leg trap and posture before changing to offense."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Identify the starting configuration",
+        "description": "You begin in Demi Guard bottom. With a cooperative partner, identify the required grips and leg contacts, then reset without applying pressure."
+      },
+      {
+        "phase": "Cooperative sequence",
+        "focus": "Practice the control change",
+        "description": "Perform the listed sequence slowly with a cooperative partner. Pause at the change of lapel or foot control and reset on any joint discomfort."
+      },
+      {
+        "phase": "One response",
+        "focus": "Recognize the first defense",
+        "description": "Let the partner use this response: Keep the knee line outside the closing leg clamp. Practice keeping a safe base or guard when it blocks the attempt, then reset."
+      },
+      {
+        "phase": "Bounded exchange",
+        "focus": "Confirm the landing",
+        "description": "Start at the stated origin with light resistance. Stop and reset at a stable destination, a counter, or a request to release; do not continue through a bound knee."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What replaces the foot-on-lapel connection in this recovery?",
+        "answer": "A conventional half-guard trap around one opponent's leg replaces the failing fabric-supported barrier."
+      },
+      {
+        "question": "When should you start recovering half guard from Demi?",
+        "answer": "Start when the lapel barrier stops working but the opponent's leg is still reachable and your frames can preserve space."
+      },
+      {
+        "question": "What should your upper body keep during the leg change?",
+        "answer": "Keep protective frames and a facing angle so the passer cannot use the change to connect chest to chest."
+      },
+      {
+        "question": "Why release fabric before tightening the half-guard trap?",
+        "answer": "Fabric that still binds a knee can obstruct the transition; release that tension before closing a new leg configuration."
+      },
+      {
+        "question": "What must be checked before attacking from the recovered half guard?",
+        "answer": "Confirm that one opponent's leg is trapped and your posture and frames are stable before seeking a separate attack."
+      }
+    ],
+    "safety_considerations": "Use controlled pressure with a cooperative partner when learning the lapel path. Release fabric immediately on a tap, verbal stop or discomfort. Do not rotate against a knee held by the lapel, and stop the drill when a stable landing is reached.",
+    "clips": []
+  },
+  "defender": {
+    "name": "Demi Guard to Half Guard Defender",
+    "description": "Recognize and respond to Demi Guard to Half Guard while protecting balance, remaining frames and a safe recovery route.",
+    "overview": "You are the passer trying to prevent the guard player from replacing the foot-on-lapel barrier with a leg trap. Track their knees and your controlled leg while keeping base. If they capture one leg between both of theirs, you must recognize the resulting half guard before continuing.",
+    "key_principles": [
+      "Recognize the change of collar, lapel and foot controls early.",
+      "Keep a usable base or leg barrier while contesting the movement.",
+      "Choose a response that fits the current controls rather than a lost grip.",
+      "Release any connection that binds a knee during movement.",
+      "Identify the resulting position before continuing the exchange."
+    ],
+    "recognition_cues": [
+      "The bottom player removes the foot from the lapel tail.",
+      "Both knees begin closing around one of your legs.",
+      "Their hands change from fabric control to frames protecting their torso."
+    ],
+    "defensive_options": [
+      {
+        "action": "Keep the knee line outside the closing leg clamp",
+        "when_to_use": "Before both of the guard player's legs capture your leg",
+        "targets_outcome": "Demi Guard/Bottom",
+        "if_successful": "The opponent must retain their existing Demi configuration.",
+        "risk": "Pulling against uncleared fabric can bind your knee."
+      },
+      {
+        "action": "Contest the recovery while preserving base",
+        "when_to_use": "As the guard player exchanges foot contact for a leg clamp",
+        "targets_outcome": "Demi Guard/Bottom",
+        "if_successful": "The change stalls while the original guard remains contested.",
+        "risk": "Overcommitting weight can give the opponent an elevation opportunity."
+      },
+      {
+        "action": "Clear both legs and settle the pin",
+        "when_to_use": "When the opponent has released Demi without securing a leg trap",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You establish side control after denying the recovery.",
+        "risk": "An incomplete clear leaves a conventional half guard."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Demi Guard/Bottom",
+        "how": "Keep the knee line outside the closing leg clamp. The opponent must retain their existing Demi configuration."
+      },
+      {
+        "outcome": "Demi Guard/Bottom",
+        "how": "Contest the recovery while preserving base. The change stalls while the original guard remains contested."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Clear both legs and settle the pin. You establish side control after denying the recovery."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Responding after the new controls are established",
+        "consequence": "The attacker completes the movement before the response affects it.",
+        "correction": "Recognize the listed cues during the control change."
+      },
+      {
+        "error": "Turning against a knee still bound by the lapel",
+        "consequence": "The joint cannot follow the body movement freely.",
+        "correction": "Release binding tension and reset rather than forcing the turn."
+      },
+      {
+        "error": "Ignoring the position left after the attempt",
+        "consequence": "You continue with a response intended for a guard that has already changed.",
+        "correction": "Check the actual leg and upper-body controls before the next action."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What signals the Demi player is recovering half guard?",
+        "answer": "Their foot leaves the lapel tail and both legs move to capture one of your legs while the hands protect their torso."
+      },
+      {
+        "question": "What remains if the opponent captures one leg after you clear the lapel?",
+        "answer": "You are in top half guard, so the leg extraction and upper-body control for a completed pass still need to be established."
+      },
+      {
+        "question": "When can you complete side control during this recovery?",
+        "answer": "Complete it only when both the lapel barrier and the replacement leg trap have been denied and you have cleared the legs."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Name the cue",
+        "description": "From the stated origin, have the partner begin slowly. Call out a listed recognition cue, then release and reset."
+      },
+      {
+        "phase": "Cooperative response",
+        "focus": "Practice the first defense",
+        "description": "Keep the knee line outside the closing leg clamp. Use light resistance and stop when the response succeeds or the connection becomes uncomfortable."
+      },
+      {
+        "phase": "Bounded defense",
+        "focus": "Recognize the outcome",
+        "description": "Let the partner choose whether to continue or recover. Respond using the available controls; stop at the resulting stable position and name both players' roles."
+      }
+    ],
+    "clips": []
+  },
+  "clips": []
+}
