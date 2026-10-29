@@ -11,10 +11,9 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *      click shuts it. The drawer already holds the game paused (pane law); the menu changes nothing.
  *   2. The menu is short. Signed out: Mastered (the detail, after opening) │ Settings · Feedback ·
  *      Create account · Log in, and one small line: Request a technique · Terms · Privacy · GitHub.
- *   3. Signed in: the email (not a control) · Mastered │ Settings · Account preferences · Feedback ·
+ *   3. Signed in: the email (not a control) · Mastered │ Settings · Feedback ·
  *      Sign out (+ Review guest progress when an owned guest cache exists). Sign out flips the badge.
- *   4. Rows open the real surfaces: the auth modal, Settings (Account preferences deep-links the
- *      Notifications tab), the two feedback modals, the legal modals, the Mastered list.
+ *   4. Rows open the real surfaces: the auth modal, Settings (including its Notifications tab, U60 b), the two feedback modals, the legal modals, the Mastered list.
  *   5. Esc closes the menu FIRST, then the drawer; an outside tap closes the menu too.
  *   6. On a 390x844 phone the badge and its menu sit in thumb reach and on screen; the main rows are
  *      44px targets, the small line's at least 24px.
@@ -61,7 +60,7 @@ test("signed out: a short menu and one small line", async ({ page }) => {
   await expect(menu.locator("[data-menu-feedback]")).toHaveText("Feedback")
   await expect(menu.locator("[data-menu-create]")).toHaveText("Create account")
   await expect(menu.locator("[data-menu-login]")).toHaveText("Log in")
-  await expect(menu.locator("[data-menu-account]"), "account preferences need an account").toHaveCount(0)
+  await expect(menu.locator("[data-menu-account]"), "U60 b: preferences live in Settings").toHaveCount(0)
   await expect(menu.locator("[data-menu-shortcuts]"), "Keyboard shortcuts are Settings' own tab").toHaveCount(0)
   const small = menu.locator(".ng-menu-small > *")
   await expect(small).toHaveText(["Request a technique", "Terms", "Privacy", /GitHub|★/])
@@ -76,7 +75,7 @@ test("signed out: a short menu and one small line", async ({ page }) => {
   await expect(menu.locator('[role="status"]')).toContainText("Progress could not be saved on this device")
 })
 
-test("signed in with legacy progress: email, Account preferences, Sign out; sign out flips the badge", async ({ page }) => {
+test("signed in with legacy progress: email, Settings, Sign out; sign out flips the badge", async ({ page }) => {
   const j = journey(page)
   await j.boot("/", { beforeNavigate: beforeNeuralAuthNavigate })
   await waitNeuralAuthOwner(page, null)
@@ -98,16 +97,18 @@ test("signed in with legacy progress: email, Account preferences, Sign out; sign
   const menu = page.locator(".ng-account-menu")
   await expect(menu.locator("[data-menu-email]")).toContainText("diogo@example.com")
   expect(await menu.locator("[data-menu-email]").evaluate((el) => el.tagName), "the email row is not a button").not.toBe("BUTTON")
-  await expect(menu.locator("[data-menu-account]")).toHaveText("Account preferences")
+  await expect(menu.locator("[data-menu-account]"), "U60 b: only Settings remains").toHaveCount(0)
+  await expect(menu.locator("[data-menu-settings]")).toHaveCount(1)
   await expect(menu.locator("[data-menu-logout]")).toHaveText("Sign out")
   await expect(menu.locator("[data-menu-create]"), "no create row when signed in").toHaveCount(0)
   await expect(menu.locator("[data-menu-login]"), "no login row when signed in").toHaveCount(0)
   await expect(menu.locator("[data-menu-sep]"), "still ONE separator").toHaveCount(1)
   await expect(menu.locator("[data-menu-import-guest]")).toHaveText("Review guest progress")
-  await expect(menu.locator("button")).toHaveCount(9)
-  // ACCOUNT PREFERENCES DEEP-LINKS NOTIFICATIONS (SIDE-R2 M7: only its text was asserted): the row opens
-  // Settings on its Notifications tab, where the signed-in player's training-day email lives
-  await j.clickByMouse("[data-menu-account]", "Account preferences")
+  await expect(menu.locator("button")).toHaveCount(8)
+  // U60 b: Account preferences is folded into Settings; Notifications is still reachable there.
+  await j.clickByMouse("[data-menu-settings]", "Settings")
+  await expect(page.locator("#ng-stab-notifications")).toBeVisible()
+  await j.clickByMouse("#ng-stab-notifications", "Notifications in Settings")
   await expect(page.locator("#ng-stab-notifications"), "Settings opened on Notifications").toHaveAttribute("aria-selected", "true")
   await expect(page.locator('[role="tabpanel"]')).toHaveAttribute("aria-labelledby", "ng-stab-notifications")
   expect(await page.evaluate(() => (window as any).__neural._settingsTab)).toBe("notifications")

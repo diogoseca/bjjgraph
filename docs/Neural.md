@@ -657,13 +657,14 @@ drawn inside a node at any zoom; zoom changes how many nodes you can see, never 
 One pane, anchored left, 360px: **the drawer** (v1.242.0, owner A5 / E1 / T-b), opened by one
 drawer icon with no label (an amber dot while reviews are owed). It is ONE list, in the owner's
 order: Search, **Explore** (an expandable list: Positions, Transitions, Submissions, Systems,
-Principles, Learning — the category folds below), **Train** (Practice, then Path, nothing under
-them), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
-of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings, Account preferences,
+Principles, Learning — the category folds below), **Practice**, then **Path** (U60 b: no Train
+header), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
+of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings, including Notifications,
 Feedback, sign in/out; Request a technique · Terms · Privacy · GitHub small). Practice opens the mixed
 session (§8), Path the Challenges corridor and Last rolls the roll history; the brand ("‹ Path")
 leads back. The view ids stay `explore` · `challenges` · `history`. A lit page fades the rest of the
-map to 20%, easing on the wall clock.
+map to 20%, easing on the wall clock. The icon stays reachable during a catch (U16 b, U66 a);
+opening the drawer pauses the roll through the same pane law.
 
 The card, videos, article and camera shift beside the pane with the choices. The article fits
 the free width; game-control overlap paints beneath the pane. Phones retain the overlay drawer, and short landscape
@@ -692,7 +693,7 @@ suppressor eats the click the browser synthesises at the end of one.
 
 **Explore** — the Explore fold itself starts open; its six category sections start collapsed; every
 fold persists. Search ranks results before sections; filter to `rep` to avoid duplicates. Your lists sit
-after Train, in their own section, and use the shared three-rung indent. The drawer's opening is the
+after Path, in their own section, and use the shared three-rung indent. The drawer's opening is the
 Explore entry, so it asks for the Systems and Concepts indexes (deferred, never at boot), as dev's Explore
 tab did. Your lists folds like the other six (v1.196.1, key `Your lists` in
 `exploreOpenSections`; an absent key is closed, so existing users need no migration). The one

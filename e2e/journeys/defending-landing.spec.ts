@@ -42,6 +42,9 @@ import { legacyDefenseRenderer } from '../fixtures/legacy-defense-renderer'
 // NON-KILL (review N1): deleting only _defenseAnswered's refreshEscapeOdds survives;
 // _mcAnswer -> refreshOptionOdds already refreshes. No redundant call-count assertion.
 // Playback on YouTube is outside this contract; mounted reel identity is in it.
+// U16 b + U66 a (owner, 2026-10-29): the drawer icon remains reachable during a catch, and
+// opening it pauses the roll. The measured mouse/touch claim below reaches Settings through the
+// badge. Mutants: hide the icon in showVignette; bypass the pane's pause while in defense.
 const LOOP = '/Submissions/Loop-Choke/from-Half-Guard'
 const KEY = 'Loop Choke from Half Guard|Defender'
 // D-307: one exact escape; the Whittier course/coupon promotion remains withheld.
@@ -124,7 +127,11 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
     // move by the app's stable data-tech identity below; a replaced card remains the same choice.
   }, { old: legacyDefenseRenderer, legacy, cold })
   if (before) await before()
-  await page.locator('[data-tech="Half Guard to Back Take"] .ng-choice-title-button').scrollIntoViewIfNeeded()
+  // Native tray positioning followed by the reader's settled layout. Playwright's stability
+  // wait can stall on this animated title before any catch has begun; the measured mouse below
+  // still proves that the actual chosen control is visible and receives the press.
+  await page.locator('[data-tech="Half Guard to Back Take"]').evaluate(el => el.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'instant' }))
+  await j.readerLayoutSettled()
   await j.clickByMouse('[data-tech="Half Guard to Back Take"] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
   if (!legacy) await j.openQuestion() // U47 d: this mechanics fixture studies a shown catch card.
@@ -395,12 +402,8 @@ test('@curated a real catch keeps its generic stack and own films while danger i
 
 async function dangerSettings(page: Page) {
   const j = journey(page)
-  // NO PLAYER PATH REACHES SETTINGS MID-CATCH ON v1.242.0 (SIDE-R2 M6, measured, reported as an owner
-  // call): Settings lives in the badge menu inside the drawer (owner U46 b), and the drawer's only opener,
-  // `.ng-logo`, yields to the danger vignette (`showVignette`, v1.133.0: opacity 0, pointer-events none;
-  // `elementFromPoint` at its centre is the canvas). Dev reached it through the corner chip U16 b kept
-  // visible in a catch. This spec's subject is what the setting does to LIVE visuals, so it opens the
-  // Settings modal itself, which needs no drawer (it portals to the root).
+  // U66 a's player path is pinned separately below. This differential keeps the catch running so it
+  // can compare the live clock before/after a visual setting (opening the drawer pauses it).
   await page.evaluate(() => (window as any).__neural.openSettings())
   await expect(page.locator('#ng-stab-rolling')).toBeVisible()
   await j.clickByMouse('#ng-stab-rolling', 'open Rolling settings')
@@ -414,6 +417,42 @@ async function dangerSettings(page: Page) {
     await page.waitForTimeout(80)
   }
 }
+
+for (const width of [390, 1440]) test.describe(`catch drawer ${width}`, () => {
+  test.use({ viewport: { width, height: width === 390 ? 844 : 900 }, hasTouch: width === 390 })
+  test("U16 b / U66 a: the drawer icon stays reachable in a catch and opening it pauses the roll @curated", async ({ page }) => {
+    const j = await catchLoop(page)
+    await page.emulateMedia({ reducedMotion: 'no-preference' })
+    await settled(page)
+    expect(await state(page)).toMatchObject({ pressure: true, vignette: true })
+    expect(await page.evaluate(() => (window as any).__neural.paused), 'premise: the catch is running').toBe(false)
+    // A pausable roll timer exercises the same clock used by live transitions. `now` is the
+    // display clock, and the question's independent deadline deliberately keeps running.
+    await page.evaluate(() => { const a = (window as any).__neural; a.__catchTimerFired = false; a.after(1, () => { a.__catchTimerFired = true }) })
+    const icon = await j.boxOf('.ng-logo', 'the reachable catch drawer icon')
+    const opacity = await page.locator('.ng-logo').evaluate(el => {
+      let value = 1
+      for (let n: Element | null = el; n; n = n.parentElement) value *= Number(getComputedStyle(n).opacity)
+      return value
+    })
+    expect(opacity, 'the icon stays visible during danger').toBeGreaterThan(.9)
+    if (width === 390) await page.touchscreen.tap(icon.x + icon.width / 2, icon.y + icon.height / 2)
+    else await j.clickByMouse('.ng-logo', 'the drawer during a catch')
+    await expect(page.locator('.ng-drawer-head')).toBeVisible()
+    expect(await page.evaluate(() => ({ paused: (window as any).__neural.paused, owned: (window as any).__neural._paneAutoPaused })),
+      'the drawer owns the catch pause').toEqual({ paused: true, owned: true })
+    await j.advance(2000)
+    expect(await page.evaluate(() => (window as any).__neural.__catchTimerFired), 'the roll timer is held while the drawer is open').toBe(false)
+    await j.openAccountMenu('the catch badge')
+    await j.clickByMouse('[data-menu-settings]', 'Settings during the catch')
+    await expect(page.locator('#ng-stab-rolling')).toBeVisible()
+    await page.evaluate(() => (window as any).__neural.closeModal())
+    await j.clickByMouse('.ng-explorer-close', 'close the catch drawer')
+    expect(await page.evaluate(() => (window as any).__neural.paused), 'closing returns the pause the drawer took').toBe(false)
+    await j.advance(1100)
+    expect(await page.evaluate(() => (window as any).__neural.__catchTimerFired), 'the held roll timer resumes after closing').toBe(true)
+  })
+})
 
 // STALE SPEC (PR 305, owner D-307): Danger animation toggles live visuals only and survives a reload.
 // Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.

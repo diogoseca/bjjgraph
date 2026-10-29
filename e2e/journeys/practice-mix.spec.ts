@@ -10,6 +10,7 @@ import { journey } from "../dsl";
  *   2. a player with due cards gets BOTH, interleaved: reviews first, a new deck before the last review —
  *      with the planner already loaded (2a), and pressed COLD (2b, SIDE-R2 B1): the drawer's opening asks
  *      for the planner, and a queue pressed before it lands is upgraded to the mix once it does;
+ *      a revealed, ungraded card stays put (2c, SIDE-R3 N4), even when the planner lands late;
  *   3. the 20-card goal shows progress and never blocks: past the goal, reviews still deal and grade.
  * The ratio and the quota are pinned at the planner by tests/gameplan.test.mjs; this file pins that the
  * session the player sees is the planner's queue, and that the goal line moves with real grades.
@@ -23,6 +24,7 @@ import { journey } from "../dsl";
  * at claim 3's first read; a session that deals nothing once the goal is met is red at claim 3's rows;
  * the cold queue left as reviews alone when the planner lands (B1's upgrade reverted) is red at 2b, and
  * the drawer no longer asking for the planner as it opens is red at 2b's request count.
+ * SIDE-R3: removing the revealed-card guard is red at 2c's queue identity assertion.
  */
 async function setup(page: any, seed: { due: number, answered: number }, beforeOpen?: () => Promise<void>) {
   const j = journey(page);
@@ -51,9 +53,6 @@ async function setup(page: any, seed: { due: number, answered: number }, beforeO
     a.setViewMode("explore"); a.openExplorer(); a.renderExplorer();
     return { dueKeys, day, goal: a.practiceToday().goal };
   }, { ...seed, warm: !beforeOpen });
-  // the drawer's opening also asks for the Systems and Concepts indexes; their landing is not under test
-  // here, so it is waited out before any press (a press that met it was lost once in 27 runs, unexplained)
-  await page.waitForFunction(() => { const a = (window as any).__neural; return !a._systemsLoading && (a.systems || []).length > 0 && (a.concepts || []).length > 0; });
   return { j, fx };
 }
 
@@ -139,6 +138,31 @@ test("Practice (2a): a player with due cards gets reviews and new decks, interle
   console.log(`[practice] mixed: ${kinds.join(",")}`);
   expectInterleaved(rows, fx.dueKeys);
   await expect(page.locator('[data-session-section="Practice"]')).toContainText("8 cards to review");
+});
+
+// SIDE-R3 N4: a reveal is engagement even before a grade. The real held planner lands while the
+// answer is visible; its session, question and answer must survive. Mutant: remove the reveal guard.
+test("Practice (2c): a revealed ungraded answer survives the cold planner landing", async ({ page }) => {
+  let release!: () => void, held = 0;
+  const gate = new Promise<void>(resolve => { release = resolve; });
+  const { j } = await setup(page, { due: 2, answered: 0 }, async () => {
+    await page.route("**/app/gameplan.js*", async route => { held++; await gate; await route.continue(); });
+  });
+  try {
+    await expect.poll(() => held).toBe(1);
+    await openPractice(j);
+    await press(page, j, "[data-mini-reveal]", "Reveal before the planner lands");
+    const answer = page.locator("[data-mini-a]");
+    await expect(answer).toBeVisible();
+    const text = await answer.innerText();
+    await page.evaluate(() => { (window as any).__waitingPractice = (window as any).__neural._session; });
+    expect(await page.evaluate(() => (window as any).__neural.practiceToday().done)).toBe(0);
+    release();
+    await page.waitForFunction(() => !!(window as any).__neural._gameplanRuntime);
+    expect(await page.evaluate(() => (window as any).__waitingPractice === (window as any).__neural._session), "the revealed queue is not replaced").toBe(true);
+    await expect(answer, "the same ungraded answer stays visible").toBeVisible();
+    await expect(answer).toHaveText(text);
+  } finally { release(); }
 });
 
 test("Practice: the daily goal shows progress and never blocks a review @curated", async ({ page }) => {

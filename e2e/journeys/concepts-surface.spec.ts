@@ -64,6 +64,10 @@ import { journey } from "../dsl";
  * There is no action retry; an element handle models the locate-before-repaint race
  * in the diagnostic probe, not a claimed failure of the 20 unchanged repetitions.
  *
+ * SIDE-R3 N7: concept-fit-reveal-lost historically survived at 1440x900 because the taller drawer
+ * already fit its first portrait frame. At 1440x700 the same portrait-and-close-button fit assertion
+ * kills it; both desktop and phone controls pass. No fit bound is relaxed.
+ *
  * NON-KILLS, recorded so nobody reads this spec as covering them (CLAUDE.md section 6.3):
  *  · Learning's complete 26-page inventory, native disclosures and three migrated guide routes
  *    are covered by learning-reader.spec.ts and tests/learning_content.py.
@@ -754,8 +758,10 @@ test("arriving on a System's own page opens it and starts NOTHING", async ({
   expect(errors, "no page error across the journey").toEqual([]);
 });
 
+// SIDE-R3 N7: 700px restores the short reading pane needed to observe the portrait
+// transition-end reveal (concept-fit-reveal-lost); 900px already fits its first frame.
 for (const viewport of [
-  { width: 1440, height: 900 },
+  { width: 1440, height: 700 },
   { width: 390, height: 844 },
 ]) {
   test(`principle film study hydrates, plays on request, and stops on leaving at ${viewport.width}px @curated`, async ({ page }) => {

@@ -100,18 +100,27 @@ test("Practice: a heavy day keeps the mix without capping reviews; the goal stop
 // THE QUOTA NEVER CLIMBS BACK UP (SIDE-R2 M2). The first curve gave 16 owed reviews 4 new cards and 77 owed
 // the whole goal again; the floor is now one in five of what is left of the goal. The curve is the owner's
 // number (U63): this pins its SHAPE, and the heavy-day floor it has today.
-test("Practice: the new-card quota is non-increasing in the reviews owed, for a fixed goal", () => {
-  const rooms = [];
-  for (const owed of [0, 1, 4, 8, 12, 15, 16, 17, 20, 40, 76, 77, 100]) {
-    const keys = Array.from({ length: owed }, (_, i) => "D" + i + "|Top");
-    const decks = Object.fromEntries(keys.map((k, i) => [k, deck(["d" + i])]));
-    const srs = Object.fromEntries(keys.map((k, i) => [k, { ["d" + i]: due(1) }]));
-    const p = build(input({ target: 20, decks, srs, provider: provider([]) }));
-    assert.equal(p.dueCards, owed);
-    rooms.push(p.room);
+// SIDE-R3 N5: all 303 points, including the seven cards left after 13 real answers. Mutations that
+// dip only at due=21 for left=20 or left=7 both die at due=22; the old 13 samples missed that gap.
+test("Practice: the new-card quota is non-increasing over due 0..100 with 20, 7 and 60 left", () => {
+  let points = 0;
+  for (const [target, answered] of [[20, 0], [20, 13], [60, 0]]) {
+    const left = target - answered, rooms = [];
+    for (let owed = 0; owed <= 100; owed++) {
+      const keys = Array.from({ length: owed }, (_, i) => "D" + i + "|Top");
+      const decks = Object.fromEntries(keys.map((k, i) => [k, deck(["d" + i])]));
+      const srs = Object.fromEntries(keys.map((k, i) => [k, { ["d" + i]: due(1) }]));
+      srs.done = Object.fromEntries(Array.from({ length: answered }, (_, i) => ["answered" + i, [day + 1, 1, day]]));
+      const p = build(input({ target, decks, srs, provider: provider([]) }));
+      assert.equal(p.dueCards, owed);
+      assert.equal(p.reviewed.length, answered);
+      rooms.push(p.room); points++;
+    }
+    for (let i = 1; i < rooms.length; i++) assert.ok(rooms[i] <= rooms[i - 1], `left=${left} due=${i}: ${rooms[i - 1]} -> ${rooms[i]}`);
+    const floor = Math.ceil(left / 5);
+    assert.deepEqual([rooms[0], rooms[left - floor], rooms.at(-1)], [left, floor, floor], "U63 a: one in five of the remaining goal on a heavy day");
   }
-  for (let i = 1; i < rooms.length; i++) assert.ok(rooms[i] <= rooms[i - 1], "the quota climbed: " + rooms.join(" "));
-  assert.deepEqual([rooms[0], rooms[6], rooms.at(-1)], [20, 4, 4], "20 on a clear day; 4 from 16 owed on, however heavy the day");
+  console.log("Practice quota: " + points + " planner points asserted");
 });
 
 // THE MIX IS DECK-GRANULAR (SIDE-R2 M1). Real decks run a median of 8 cards (p90 10), so a whole deck is

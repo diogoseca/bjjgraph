@@ -3523,7 +3523,8 @@ class Component extends DCLogic {
     return this._systemsWait;
   }
   _renderSystemsStatus(list, mk) {
-        const status = mk('<span role="status">' + (this._systemsError ? 'Systems could not be loaded. Retry systems' : 'Loading systems…') + '</span>', 12, () => {
+        // the header's own line box (14px), so the swap to the Systems header moves nothing below (SIDE-R3 N1)
+        const status = mk('<span role="status" style="font-size:14px;">' + (this._systemsError ? 'Systems could not be loaded. Retry systems' : 'Loading systems…') + '</span>', 12, () => {
           if (this._systemsError) { this._ensureSystems(true); this.showExplorerList(); }
         });
         status.setAttribute("data-systems-status", this._systemsError ? "error" : "pending");
@@ -3568,6 +3569,7 @@ class Component extends DCLogic {
       .catch(() => null)
       .then((c) => {
         if (c && Array.isArray(c.concepts) && c.concepts.length) { this.concepts = c.concepts; this._onConcepts(); }
+        else { this._conceptsMissing = true; this._afterPress(() => { if (this.deckShown && this._viewMode === "explore" && !this._systemId) this._renderPaneBody(); }); }   // no index: the placeholders go
         return this.concepts || [];
       });
     return this._conceptsWait;
@@ -5597,7 +5599,10 @@ class Component extends DCLogic {
         // ended on "come back tomorrow"); after a grade it is the queue under the player's hand and is
         // never replaced. Either way, only if the player has not navigated away, and never under a press in
         // flight (FGD13: a rebuild between pointerdown and its release swallows the click): it waits for it.
-        const upgrade = () => { if (ready && !this.__ngDestroyed && this._session === waiting && this._sessionInline() && this.practiceToday().done === graded) this.openPlanSession(anchor, false); };
+        // SIDE-R3 N4: revealing is already engagement, even without a grade. A full study deck
+        // is excluded by _sessionInline; keep the current inline answer too, including a reveal
+        // made by the press whose release this callback is waiting for.
+        const upgrade = () => { if (ready && !this.__ngDestroyed && this._session === waiting && this._sessionInline() && !this._deckState?.[waiting.keys[waiting.idx]]?.revealed && this.practiceToday().done === graded) this.openPlanSession(anchor, false); };
         if (this._panePress) (this._paneOwed || (this._paneOwed = [])).push(upgrade); else upgrade();
       });
       return;
@@ -6723,7 +6728,7 @@ class Component extends DCLogic {
         items[(to + items.length) % items.length].focus();
       });
     }
-    const first = m.querySelector('[role="menuitem"]'); if (first) first.focus({ preventScroll: true });
+    const first = m.querySelector('[role="menuitem"]'); if (first && this._kbNav) first.focus({ preventScroll: true });
     this.track("neural_account_menu_opened", { signed_in: !!this.user });
   }
   // returns true when it actually closed something — the Esc handler uses that to stop there
@@ -6815,7 +6820,7 @@ class Component extends DCLogic {
     sep.setAttribute("data-menu-sep", "1");
     sep.style.cssText = "flex:none;height:1px;margin:5px 4px;background:rgba(150,170,210,.14);";
     m.appendChild(sep);
-    // THE BADGE'S MENU IS SHORT (owner U46 b): Settings, Account preferences, Feedback, sign in/out;
+    // THE BADGE'S MENU IS SHORT (owner U46 b, U60 b): Settings, Feedback, sign in/out;
     // Terms · Privacy small. What the pane's foot carried moved here (v1.242.0): the gear became
     // Settings, the two feedback links became Feedback and a small "Request a technique", and the
     // GitHub chip and the legal pair became the small line. Keyboard shortcuts are Settings' own tab.
@@ -6823,7 +6828,6 @@ class Component extends DCLogic {
     const gs = this.gameScore(), mastered = row("data-menu-mastered", "Mastered " + this.masteredCount() + " \u00b7 " + Math.round((gs && gs.score ? gs.score : 0) * 100) + "%", () => this.openFlashBrowser("mastered", "Mastered"));
     m.insertBefore(mastered, sep);
     m.appendChild(row("data-menu-settings", "Settings", () => this.openSettings()));
-    if (this.user) m.appendChild(row("data-menu-account", "Account preferences", () => this.openSettings("notifications")));
     const fb = row("data-menu-feedback", "Feedback", () => this.openFeedback("issue")); fb.setAttribute("data-feedback", "issue"); m.appendChild(fb);
     m.append(...auth);
     const small = document.createElement("div"); small.className = "ng-menu-small";
@@ -7030,7 +7034,7 @@ class Component extends DCLogic {
     return b;
   }
   /**
-   * TRAIN (owner U56 e): exactly two rows, Practice then Path, and nothing under them. Practice is the
+   * PRACTICE AND PATH (owner U56 e, U60 b): two rows, without a Train header. Practice is the
    * mixed session (openPlanSession: reviews + new gap cards); its row carries today's goal and what is
    * owed. It keeps the stat row's handles (`data-explore-stats`, `data-b="due"`) because it IS that
    * row's due cell, grown up; "N new" and "Mastered" moved (into Practice, and onto the badge).
@@ -7041,7 +7045,6 @@ class Component extends DCLogic {
     let box = this._trainBox;
     if (!box) {
       box = this._trainBox = document.createElement("div"); box.setAttribute("data-explore-stats", "1");
-      box.innerHTML = '<div class="ng-dr-label">Train</div>';
       // Practice is both old doors, and it opens the way dev's due door did: WITHOUT asking for the study
       // comparison (SIDE-R2 M9, measured at 390x844 under a 4x CPU throttle: asking fetched game-study.js,
       // 78,719 B, and added one or two long tasks, ~160 ms, while the comparison had not started 8 s later,
@@ -7901,8 +7904,19 @@ class Component extends DCLogic {
     const renderConcepts = (cat, label) => {
       const all = (this.concepts || []).filter((c) => c.cat === cat);
       // Deferred payload (63KB), same posture as Systems: ask at the first read, and _onConcepts
-      // re-renders Explore when it lands. Absent (or 404) -> no section yet, never a stub list.
-      if (!all.length) { this._ensureConcepts(); return; }
+      // re-renders Explore when it lands. Absent (or 404) -> no section, never a stub list.
+      // HELD AT ITS HEIGHT WHILE IT LOADS (SIDE-R3 N1): the drawer opens on this fold, and the two headers
+      // appearing on landing pushed Train down 60px (measured, 390x844 and 1440x900) under a thumb on its
+      // way to Practice; touch gets no `_afterPress` hover hold. Until the index lands each category holds
+      // a placeholder of the header's own shape (a disabled button, the same spans), so nothing moves.
+      if (!all.length) {
+        if (!this._conceptsMissing) {
+          const ph = mk('<span style="font-size:14px;font-weight:700;color:#5d6883;">' + label + '</span><span role="status" style="margin-left:auto;color:#5d6883;font-size:11px;">Loading\u2026</span>', 12, () => {});
+          ph.disabled = true; ph.style.cursor = "default"; ph.setAttribute("data-concepts-status", label);
+          ex.appendChild(ph);
+        }
+        this._ensureConcepts(); return;
+      }
       const open = this._exploreSectionOpen(label);
       const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection(label));
       hdr.setAttribute("data-explore-section", label);
@@ -16149,8 +16163,6 @@ class Component extends DCLogic {
     if (on) this.showVignette();
     else {
       if (this._vignetteEl) { this._vignetteEl.remove(); this._vignetteEl = null; }
-      const logo = this.wrapRef?.current?.querySelector(".ng-logo");
-      if (logo) { logo.style.opacity = ""; logo.style.pointerEvents = ""; }
     }
     if ((!on || reduced) && this._landEl && this._landMode === "defense") {
       this._landEl.classList.remove("ng-clock-hot");
@@ -16164,15 +16176,12 @@ class Component extends DCLogic {
     v.className = "ng-vignette";
     (this.__ngRoot || document.body).appendChild(v);
     this._vignetteEl = v;
-    // danger owns the frame (v1.133.0): the brand yields while the vignette burns
-    const logo = this.wrapRef && this.wrapRef.current ? this.wrapRef.current.querySelector(".ng-logo") : null;
-    if (logo) { logo.style.opacity = "0"; logo.style.pointerEvents = "none"; }
+    // U16 b + U66 a: the drawer icon stays reachable during a catch. Opening it pauses
+    // the roll through the ordinary pane law, giving access to the badge and Settings.
   }
   killVignette(relief) {
     this._dangerAnimated = false;
     this._dangerSet = null; // the fog lifts with the danger (set in enterDefense)
-    const logo = this.wrapRef && this.wrapRef.current ? this.wrapRef.current.querySelector(".ng-logo") : null;
-    if (logo) { logo.style.opacity = ""; logo.style.pointerEvents = ""; }
     const v = this._vignetteEl; if (!v) return; this._vignetteEl = null;
     // STOP THE HEARTBEAT BEFORE FADING. A running CSS animation outranks an inline declaration
     // of the property it animates (the same cascade fact `_suppressLand` documents), so with
@@ -19746,8 +19755,9 @@ class Component extends DCLogic {
       if (ptrs.size === 0) closing = shown && !this.deckShown;
       // A HAND ON THE GRAPH ENDS THE FILM (v1.106.5). This covers pan, pinch and tap in one place —
       // the overlays that own controls have already returned above, and the replay bar is a
-      // root-plane sibling of this wrap, so its own ✕ never reaches here.
-      if (this._replay) this.stopReplay("input");
+      // root-plane sibling of this wrap, so its own ✕ never reaches here. NOT the tap that closes the
+      // drawer (SIDE-R3 N2): on a phone that is how you WATCH the replay you just started.
+      if (this._replay && !closing) this.stopReplay("input");
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
       if (ptrs.size === 2) {

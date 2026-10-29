@@ -109,3 +109,39 @@ App (one named spec per mutant, rebuilt each time, the named test only; ran-coun
 | R21 a no-view open lands on Path again, read after the drawer had opened | SURVIVED | — the first open had already set the view; the claim needed a fresh boot. R21b is. |
 | R21b a no-view open lands on Path again (the migration), read on a fresh boot | KILLED | sidebar.spec "an open that names no view lands on the drawer's list, never on Path" |
 
+
+## SIDECX1 / SIDE-R3 and owner answers of 29 October
+
+All controls below were measured against passing unmutated claims on the final source. Each app
+control ran one selected test; expected assertion failures count as kills, not setup or test timeouts.
+`sidebar_r3_mutants.json` records the eleven exact source patches and anchored spec/claim selectors.
+The source and served bundle were restored after every control (bundle SHA-256
+`26fb8ee2e2e01e819f5a25880caaa785cf604bd5d65644ebff983fc21d77ca40`).
+
+| Control | Result | Named failing claim |
+|---|---|---|
+| n1-placeholders-lost | KILLED | sidebar: Practice did not move when concepts landed (60px > 1px) |
+| n2-close-stops-replay | KILLED | sidebar: N2 closing the drawer keeps the replay |
+| n3-touch-focus-ring | KILLED | sidebar: a touch never moves focus into the menu |
+| n4-revealed-queue-replaced | KILLED | practice-mix 2c: the revealed queue is not replaced |
+| u60-train-restored | KILLED | sidebar: U60 b no Train header |
+| u60-duplicate-account | KILLED | account-menu: U60 b only Settings remains |
+| u60-notifications-lost | KILLED | account-menu: Notifications tab remains reachable through Settings |
+| u66-icon-hidden | KILLED | defending-landing: the icon stays visible during danger |
+| u66-catch-unpaused | KILLED | defending-landing: the drawer owns the catch pause |
+| fog-snaps | KILLED | sidebar: not at once, the first frame is still mostly clear |
+| fog-never-eases | KILLED | sidebar: it passes through the values between |
+| quota-gap-21: return 3 only at left=20, due=21 | KILLED (21 unit tests ran) | gameplan: left=20 due=22 increases 3 → 4; the old thirteen samples missed due=21 |
+| quota-left-7: return 1 only at left=7, due=21 | KILLED (21 unit tests ran) | gameplan: left=7 due=22 increases 1 → 2 |
+| n4-open-deck: remove the cold-upgrade `_sessionInline()` guard | KILLED (12 unit tests ran) | gameplan_study_host_app: open-deck unexpectedly reopens the plan |
+| flight-lift-fixed-margin | KILLED (1 test ran, 1 stopped after failure) | camera-continuity: ZERO overlap URL arrival at 1440×720; band 74..218, label bottom 235.82, required <232 |
+| concept-fit-reveal-lost | KILLED (1 test ran) | concepts-surface: the expanded portrait and its close button fit inside the reading pane at 1440×700 |
+
+N7's historical non-kills at 1440×900 remain documented in the spec and runner headers. The new
+viewports expose their geometry without changing the assertions; the camera baseline ran 2/2 and
+the desktop film baseline 1/1. No new control survived.
+
+The revised fog observation reads each pumped draw synchronously. The cancelled CI run sampled
+0.20 on its first wall-timer observation, after the fade had already finished; both snapping and
+never easing still fail the revised claim. This is separate from SIDE-R2's REAL app defect where
+fog did not ease under pumped time (corrected classification N6).

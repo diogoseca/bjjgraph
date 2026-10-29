@@ -131,21 +131,18 @@ const controls = [
     [['(!m.band||y)&&(c.lift=', '!m.band&&(c.lift=']], 'URL arrival @'],
   // ORCH-382 / H140-H144: the old 30px gate engages after contact; activating the subject only
   // when its gate opens starts the spring too late. Both fail the unchanged ZERO-overlap pin.
-  // NON-KILL on v1.242.0 (run 2, 110bbb1f4): flight-lift-fixed-margin SURVIVES on the drawer's bundle and is
-  // KILLED on dev f63049013's (A/B, same spec, same table). The drawer's 44px icon puts the reader's top
-  // inset 6px deeper (68 -> 74) and so moves this arrival's framing; the band decision it mutates no
-  // longer turns the ZERO-overlap pin red there. Not root-caused further: read it as no coverage of the
-  // fixed-margin gate on this bundle.
+  // Historical NON-KILL at 1440x900 on v1.242.0 (110bbb1f4). SIDE-R3 N7 restores the kill at
+  // 1440x720, with the drawer's actual 74px inset and band 74..218: the fixed gate puts the label's
+  // bottom at 235.82 against rows at 234 (required <232). The same ZERO-overlap assertion stays.
   ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
     [['y.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+b+Ct>m.bottom', 'y.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
   ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
     [['(!m.band||y)&&(c.lift=', '(!m.band||y!=null&&y.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
   // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
   // its transition-end reveal reproduces the card extending below the Learning pane at 1440px.
-  // NON-KILL on v1.242.0 (run 2, 110bbb1f4; KILLED on dev f63049013's bundle): the drawer's list is 709px
-  // tall at 1440x900 against the tabbed pane's 506px (measured: no tab nav, no stat row, no pane foot), so
-  // the portrait's first, taller frame already fits and the claim cannot see the lost reveal there. A
-  // shorter viewport would restore the geometry; until then read it as no coverage of D-371's reveal.
+  // Historical NON-KILL at 1440x900 on v1.242.0 (110bbb1f4): its taller drawer let the first portrait
+  // frame fit. SIDE-R3 N7 restores the kill at 1440x700: without the transition-end reveal, the
+  // unchanged portrait-and-close-button fit assertion fails. Both controls have green baselines.
   ['concept-fit-reveal-lost', 'concepts-surface.spec.ts', 'principle film study.*1440px',
     [['e.addEventListener("transitionend",_)', 'void 0']], 'the expanded portrait and its close button fit inside the reading pane'],
   // U47 d (owner, 2026-10-27): a landing asks with its question alone; "Answer for Points", or a tap on the
@@ -245,7 +242,7 @@ const baseline = (spec, grep) => {
     // Preserve the same unmutated run's log and JSON; a red baseline still cannot count as a kill.
     const report = resolve(out, 'baseline-' + baselines.size + '.json')
     const log = resolve(out, 'baseline-' + baselines.size + '.log')
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--output', resolve(out, 'baseline-' + baselines.size + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report } })
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, 'journeys/' + spec.replaceAll('.', '\\.'), '--grep', grep, '--output', resolve(out, 'baseline-' + baselines.size + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report } })
     writeFileSync(log, (run.stdout || '') + (run.stderr || ''))
     baselines.set(key, { green: run.status === 0 && / passed /.test(run.stdout || ''), exit: run.status, report, log })
   }
@@ -266,7 +263,7 @@ try {
     try { new Script(mutant) } catch (e) { throw Error(name + ': the mutant does not parse: ' + e.message) }
     writeFileSync(app, mutant)
     const report = resolve(out, name + '.json')
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--max-failures=1', '--output', resolve(out, name + '-results'), '--reporter=list,json'], {
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, 'journeys/' + spec.replaceAll('.', '\\.'), '--grep', grep, '--max-failures=1', '--output', resolve(out, name + '-results'), '--reporter=list,json'], {
       cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report },
     })
     writeFileSync(app, original)
