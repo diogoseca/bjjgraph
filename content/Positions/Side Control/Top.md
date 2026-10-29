@@ -167,35 +167,12 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side Control Top Danger Control",
-      "description": "Side Control (Top) film study: Side Control Top Danger Control, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WuSBXB22-1Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WuSBXB22-1Q",
-      "url": "https://www.youtube.com/watch?v=WuSBXB22-1Q",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT156S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Buggy Choke From Top Side Control",
-      "description": "Side Control (Top) film study: Buggy Choke From Top Side Control, taught by azigarami.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mt7SMNzP4Ak/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mt7SMNzP4Ak",
-      "url": "https://www.youtube.com/watch?v=mt7SMNzP4Ak",
-      "creator": { "@type": "Person", "name": "azigarami" },
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Top 3 Submissions From Side Control",
-      "description": "Side Control (Top) film study: Top 3 Submissions From Side Control, taught by Marcus Buchecha Almeida.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/onIP1GC3Daw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/onIP1GC3Daw",
-      "url": "https://www.youtube.com/watch?v=onIP1GC3Daw",
-      "creator": { "@type": "Person", "name": "Marcus Buchecha Almeida" },
-      "duration": "PT296S"
+      "name": "Side Control - Dealing with Frames and Establishing a Chest to Chest Pin",
+      "description": "Side Control (Top) film study: Side Control - Dealing with Frames and Establishing a Chest to Chest Pin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e8OUw05ZBwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e8OUw05ZBwo",
+      "url": "https://www.youtube.com/watch?v=e8OUw05ZBwo",
+      "duration": "PT245S"
     }
   ]
 }
@@ -225,25 +202,9 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=WuSBXB22-1Q)
+![](https://www.youtube.com/watch?v=e8OUw05ZBwo)
 
-<p class="clip-credit"><strong>Side Control Top Danger Control</strong> — taught by Craig Jones · 2:36 · <a href="https://www.youtube.com/watch?v=WuSBXB22-1Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mt7SMNzP4Ak)
-
-<p class="clip-credit"><strong>Buggy Choke From Top Side Control</strong> — taught by azigarami · 1:31 · <a href="https://www.youtube.com/watch?v=mt7SMNzP4Ak" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=onIP1GC3Daw)
-
-<p class="clip-credit"><strong>Top 3 Submissions From Side Control</strong> — taught by Marcus Buchecha Almeida · 4:56 · <a href="https://www.youtube.com/watch?v=onIP1GC3Daw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control - Dealing with Frames and Establishing a Chest to Chest Pin</strong> · 4:05 · <a href="https://www.youtube.com/watch?v=e8OUw05ZBwo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -453,10 +414,10 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria: No-Gi Pressure Passing</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position: Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Teaching BJJ: Explanation, Recall and Application</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie: Closed Guard</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura — Enter The System</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

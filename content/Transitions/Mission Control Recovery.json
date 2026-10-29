@@ -354,35 +354,7 @@
       }
     ],
     "safety_considerations": "Mission Control Recovery is generally safe as a transitional technique since it does not involve joint locks or chokes directly. The primary safety concern is hip and hamstring flexibility - practitioners without adequate flexibility attempting rubber guard positions risk hip flexor or hamstring strains. Always warm up thoroughly before drilling. During recovery attempts, avoid jerking leg movements that could strain the groin. If you feel joint discomfort in the hip during the transition, release the position entirely rather than forcing the recovery. Partners should avoid explosive passing attempts during early drilling phases to allow proper technique development. In live training, tap immediately if you feel your hip being forced past its comfortable range during the recovery movement.",
-    "clips": [
-      {
-        "id": "gFYyMkaMz34",
-        "title": "Prison Guard breakdown from rubber guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 59,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PxgOIpmDmxE",
-        "title": "Mission Control Position Breakdown",
-        "by": "Coach Lord",
-        "vertical": false,
-        "channel": "TeamSubmissionInc",
-        "duration": 131,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EhiPyX_s044",
-        "title": "Mission Control to Meathook to Triangle Chain",
-        "by": "Abel",
-        "vertical": false,
-        "channel": "ABEL BJJ: 5 Minutes Alone",
-        "duration": 132,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Mission Control Recovery Defender",
@@ -557,26 +529,7 @@
         "description": "Begin from gogoplata control with bottom player attempting recovery and top player defending. Full resistance from both sides. Track success rates and identify which defensive options work best against your training partners' specific recovery habits."
       }
     ],
-    "clips": [
-      {
-        "id": "4RNjb6jeRcQ",
-        "title": "The 4 Core Principles of Guard Passing",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ",
-        "duration": 292,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "tk48nvbT7go",
-        "title": "Complete Guard Passing System in 6 Min",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ",
-        "duration": 360,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

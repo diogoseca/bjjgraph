@@ -46,34 +46,31 @@ description: "Master Electric Chair Transition from Lockdown. Step-by-step eleva
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Electric Chair from Lockdown Half Guard",
-      "description": "Electric Chair Transition film study: Electric Chair from Lockdown Half Guard, taught by Brandon McCaghren.",
+      "name": "Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard",
+      "description": "Electric Chair Transition film study: Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
       "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Electric Chair Sweep from Lockdown",
-      "description": "Electric Chair Transition film study: Electric Chair Sweep from Lockdown, taught by Moncaio Brothers.",
+      "name": "Electric Chair / lockdown sweep:Moncaio Brothers JiuJitsu",
+      "description": "Electric Chair Transition film study: Electric Chair / lockdown sweep:Moncaio Brothers JiuJitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/adarj-QUB4Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/adarj-QUB4Y",
       "url": "https://www.youtube.com/watch?v=adarj-QUB4Y",
-      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
       "duration": "PT47S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Electric Chair Sweep Breakdown",
-      "description": "Electric Chair Transition film study: Electric Chair Sweep Breakdown, taught by Asaf Mich.",
+      "name": "Electric Chair Sweep - Technique Breakdown",
+      "description": "Electric Chair Transition film study: Electric Chair Sweep - Technique Breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9CxxyZEd7-E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9CxxyZEd7-E",
       "url": "https://www.youtube.com/watch?v=9CxxyZEd7-E",
-      "creator": { "@type": "Person", "name": "Asaf Mich" },
       "duration": "PT76S"
     }
   ]
@@ -130,7 +127,7 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 ![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
 
-<p class="clip-credit"><strong>Electric Chair from Lockdown Half Guard</strong> — taught by Brandon McCaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,7 +135,7 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 ![](https://www.youtube.com/watch?v=adarj-QUB4Y)
 
-<p class="clip-credit"><strong>Electric Chair Sweep from Lockdown</strong> — taught by Moncaio Brothers · 0:47 · <a href="https://www.youtube.com/watch?v=adarj-QUB4Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair / lockdown sweep:Moncaio Brothers JiuJitsu</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=adarj-QUB4Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +143,7 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 ![](https://www.youtube.com/watch?v=9CxxyZEd7-E)
 
-<p class="clip-credit"><strong>Electric Chair Sweep Breakdown</strong> — taught by Asaf Mich · 1:16 · <a href="https://www.youtube.com/watch?v=9CxxyZEd7-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair Sweep - Technique Breakdown</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=9CxxyZEd7-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,35 +186,12 @@ description: "How to execute Turtle to Back Control in BJJ. Attacking perspectiv
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Taking the back from a tight turtle",
-      "description": "Turtle to Back Control (Attacker) film study: Taking the back from a tight turtle, taught by Devine Jiu Jitsu.",
+      "name": "Taking the Back From A Tight Turtle",
+      "description": "Turtle to Back Control (Attacker) film study: Taking the Back From A Tight Turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gvFU2sS3fLE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gvFU2sS3fLE",
       "url": "https://www.youtube.com/watch?v=gvFU2sS3fLE",
-      "creator": { "@type": "Person", "name": "Devine Jiu Jitsu" },
       "duration": "PT99S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Breaking the turtle with the spiral ride",
-      "description": "Turtle to Back Control (Attacker) film study: Breaking the turtle with the spiral ride, taught by Big Guy BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XXnawMQEfKw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XXnawMQEfKw",
-      "url": "https://www.youtube.com/watch?v=XXnawMQEfKw",
-      "creator": { "@type": "Person", "name": "Big Guy BJJ" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Back take basics",
-      "description": "Turtle to Back Control (Attacker) film study: Back take basics, taught by Leo Vieira.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_ApGfiRgL5k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_ApGfiRgL5k",
-      "url": "https://www.youtube.com/watch?v=_ApGfiRgL5k",
-      "creator": { "@type": "Person", "name": "Leo Vieira" },
-      "duration": "PT54S"
     }
   ]
 }
@@ -244,23 +221,7 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 
 ![](https://www.youtube.com/watch?v=gvFU2sS3fLE)
 
-<p class="clip-credit"><strong>Taking the back from a tight turtle</strong> — taught by Devine Jiu Jitsu · 1:39 · <a href="https://www.youtube.com/watch?v=gvFU2sS3fLE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XXnawMQEfKw)
-
-<p class="clip-credit"><strong>Breaking the turtle with the spiral ride</strong> — taught by Big Guy BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=XXnawMQEfKw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_ApGfiRgL5k)
-
-<p class="clip-credit"><strong>Back take basics</strong> — taught by Leo Vieira · 0:54 · <a href="https://www.youtube.com/watch?v=_ApGfiRgL5k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Taking the Back From A Tight Turtle</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=gvFU2sS3fLE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -433,7 +394,7 @@ The turtle to back transition is generally safe for training at all levels as it
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

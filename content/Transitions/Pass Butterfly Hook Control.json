@@ -404,30 +404,11 @@
     "clips": [
       {
         "id": "IKs6ZDfahHE",
-        "title": "Passing butterfly guard via cross butterfly hook",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
+        "title": "Pass Butterfly Guard (Cross Butterfly Hook)",
         "channel": "Thunderdome BJJ",
         "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Pk_6CrydIRQ",
-        "title": "Half butterfly guard pass for no-gi",
-        "by": "Factory Fresh Jiu Jitsu",
         "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 110,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "s5MYmM58Ipg",
-        "title": "Passing by smash-baiting the butterfly hook",
-        "by": "JT Torres",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 198,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -606,25 +587,6 @@
         "description": "Positional sparring where successful pass defense must immediately convert to a sweep or back take attempt. Develops the habit of transitioning from defensive posture to offensive action without pause, exploiting the passer's vulnerability after their pass attempt fails."
       }
     ],
-    "clips": [
-      {
-        "id": "02sVMQyHuGc",
-        "title": "Guard retention with butterfly hooks vs the pass",
-        "by": "Diamondback Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Diamondback Jiu-Jitsu",
-        "duration": 81,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "SMTORT8NDGw",
-        "title": "Guard recovery variation against the pass",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 185,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

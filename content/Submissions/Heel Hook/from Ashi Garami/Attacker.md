@@ -193,35 +193,32 @@ description: "Learn to attack the heel hook from outside Ashi Garami with proper
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Nasty heel hook from outside ashi garami",
-      "description": "Heel Hook from Ashi Garami (Attacker) film study: Nasty heel hook from outside ashi garami, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
-      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT141S"
+      "name": "Ashi Garami + Heel Hook",
+      "description": "Heel Hook from Ashi Garami (Attacker) film study: Ashi Garami + Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
+      "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
+      "duration": "PT82S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Inside ashi garami heel hook",
-      "description": "Heel Hook from Ashi Garami (Attacker) film study: Inside ashi garami heel hook, taught by Modesto Judo Club.",
+      "name": "Inside Ashi Garami Heel Hook #890",
+      "description": "Heel Hook from Ashi Garami (Attacker) film study: Inside Ashi Garami Heel Hook #890.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FfkVEt5YHbY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FfkVEt5YHbY",
       "url": "https://www.youtube.com/watch?v=FfkVEt5YHbY",
-      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
       "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Ashi garami + heel hook",
-      "description": "Heel Hook from Ashi Garami (Attacker) film study: Ashi garami + heel hook, taught by The Coop BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
-      "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
-      "creator": { "@type": "Person", "name": "The Coop BJJ" },
-      "duration": "PT83S"
+      "name": "Craig Jones - Nasty Heel Hook from Outside Ashi Garami",
+      "description": "Heel Hook from Ashi Garami (Attacker) film study: Craig Jones - Nasty Heel Hook from Outside Ashi Garami.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
+      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
+      "duration": "PT141S"
     }
   ]
 }
@@ -253,9 +250,9 @@ Attacking the heel hook from outside Ashi Garami requires understanding that thi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=m4sGDhukUmk)
+![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
 
-<p class="clip-credit"><strong>Nasty heel hook from outside ashi garami</strong> — taught by Craig Jones · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami + Heel Hook</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,15 +260,15 @@ Attacking the heel hook from outside Ashi Garami requires understanding that thi
 
 ![](https://www.youtube.com/watch?v=FfkVEt5YHbY)
 
-<p class="clip-credit"><strong>Inside ashi garami heel hook</strong> — taught by Modesto Judo Club · 0:59 · <a href="https://www.youtube.com/watch?v=FfkVEt5YHbY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside Ashi Garami Heel Hook #890</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=FfkVEt5YHbY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
+![](https://www.youtube.com/watch?v=m4sGDhukUmk)
 
-<p class="clip-credit"><strong>Ashi garami + heel hook</strong> — taught by The Coop BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Craig Jones - Nasty Heel Hook from Outside Ashi Garami</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

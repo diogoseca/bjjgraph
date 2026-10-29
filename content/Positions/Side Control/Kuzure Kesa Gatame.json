@@ -248,11 +248,6 @@
             "technique": "Side Control to Mount",
             "target": "Mount",
             "probability": 80
-          },
-          {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 72
           }
         ]
       }
@@ -465,22 +460,23 @@
     ],
     "clips": [
       {
-        "id": "tfykooWW-xk",
-        "title": "Triangle Attacks from Kuzure Kesa Gatame",
-        "by": "Chokes And More",
-        "vertical": false,
-        "channel": "Chokes And More",
-        "duration": 66,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "oXzrusNRq70",
-        "title": "Kuzure Kesa Gatame (Broken Scarf Hold)",
+        "title": "No Gi Judo | 崩袈裟固 | Kuzure Kesa Gatame (Broken scarf hold)",
         "by": "Sampson Judo",
         "vertical": false,
         "channel": "Sampson Judo",
         "duration": 19,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
+      },
+      {
+        "id": "TfNpVcekHGg",
+        "title": "Kesa Gatame - Basic Scarf Hold",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 120,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -890,31 +886,32 @@
     ],
     "clips": [
       {
-        "id": "qdycaYFRfa4",
-        "title": "Kuzure Kesa Gatame Escape",
-        "by": "Dojo Tarraco",
-        "vertical": false,
-        "channel": "Dojo Tarraco",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "2M_6VytUaus",
-        "title": "Kesa Gatame Escape",
+        "title": "Kesa Gatame escape",
         "by": "SBG Australia",
         "vertical": false,
         "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-14"
+        "duration": 42,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "fvp5_BVEtLg",
-        "title": "Kesa Gatame Pressure Defense w/ Framing",
+        "title": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
         "by": "Kohbukan Sisu",
         "vertical": false,
         "channel": "Kohbukan Sisu",
-        "duration": 84,
-        "verified": "2026-07-14"
+        "duration": 83,
+        "verified": "2026-10-19"
+      },
+      {
+        "id": "TfNpVcekHGg",
+        "title": "Kesa Gatame - Basic Scarf Hold",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 120,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1034,13 +1031,34 @@
   ],
   "clips": [
     {
-      "id": "aTsvuZ1vM48",
-      "title": "Kuzure Kesa Gatame: Study It",
-      "by": "Judo Life",
+      "id": "oXzrusNRq70",
+      "title": "No Gi Judo | 崩袈裟固 | Kuzure Kesa Gatame (Broken scarf hold)",
+      "by": "Sampson Judo",
       "vertical": false,
-      "channel": "Judo Life",
-      "duration": 33,
-      "verified": "2026-07-14"
+      "channel": "Sampson Judo",
+      "duration": 19,
+      "verified": "2026-10-19",
+      "half": "top"
+    },
+    {
+      "id": "2M_6VytUaus",
+      "title": "Kesa Gatame escape",
+      "by": "SBG Australia",
+      "vertical": false,
+      "channel": "SBG Australia",
+      "duration": 42,
+      "verified": "2026-10-19",
+      "half": "bottom"
+    },
+    {
+      "id": "fvp5_BVEtLg",
+      "title": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
+      "by": "Kohbukan Sisu",
+      "vertical": false,
+      "channel": "Kohbukan Sisu",
+      "duration": 83,
+      "verified": "2026-10-19",
+      "half": "bottom"
     },
     {
       "id": "TfNpVcekHGg",
@@ -1048,8 +1066,9 @@
       "by": "Grappler Station",
       "vertical": false,
       "channel": "Grappler Station",
-      "duration": 121,
-      "verified": "2026-07-14"
+      "duration": 120,
+      "verified": "2026-10-19",
+      "half": "both"
     }
   ]
 }

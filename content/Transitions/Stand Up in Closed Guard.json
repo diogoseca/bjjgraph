@@ -396,31 +396,19 @@
     "safety_considerations": "Standing up in closed guard carries inherent balance risks that both practitioners must manage. Ensure stable footing before committing to the standing motion, as falling backward while standing can cause injury to both players. Avoid explosive jerking motions when breaking the guard open, as sudden forceful guard breaks can strain the bottom player's lower back or ankles. When training this technique, bottom players should release their guard voluntarily if they feel excessive pressure on their ankles rather than holding a guard that is clearly broken. On mats with seams or uneven surfaces, check footing before standing to prevent slipping during the transition.",
     "clips": [
       {
-        "id": "3tvI0nmCXRk",
-        "title": "3 ways to open closed guard by standing up",
-        "by": "RGA South Herts",
-        "vertical": false,
-        "channel": "RGA South Herts",
-        "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RrD643OqTao",
-        "title": "Basic standing guard break and pass",
-        "by": "Rickson Gracie",
-        "vertical": false,
-        "channel": "Gallerr",
-        "duration": 66,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "E4UjJi0n0mM",
-        "title": "Vale tudo standing guard pass",
-        "by": "Adam Song",
-        "vertical": false,
+        "title": "RLVT \"Carlson Gracie\" Vale Tudo Standing Guard Pass",
         "channel": "Adam Song MMA",
         "duration": 51,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "3tvI0nmCXRk",
+        "title": "3 ways to open closed guard by standing up",
+        "channel": "RGA South Herts",
+        "duration": 62,
+        "vertical": false
       }
     ]
   },
@@ -601,30 +589,11 @@
     "clips": [
       {
         "id": "weabtq_uapY",
-        "title": "Closed guard sweep when opponent stands up",
-        "by": "Crispim Soares",
-        "vertical": false,
+        "title": "Closed Guard Sweep When Opponent Stands Up (GREAT)",
         "channel": "CrispimSoares",
-        "duration": 45,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dMcMblcXhF0",
-        "title": "Sweep from closed guard",
-        "by": "Roger Gracie",
+        "duration": 44,
         "vertical": false,
-        "channel": "Gentle Art Media",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "UhYqXfpluYs",
-        "title": "Detail to strengthen your closed guard",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 75,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

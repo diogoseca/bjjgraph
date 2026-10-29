@@ -47,35 +47,12 @@ description: "Master the Knee Slice Pass in BJJ. High-percentage guard passing t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside knee cut pass through the knee shield",
-      "description": "Knee Slice Pass film study: Inside knee cut pass through the knee shield, taught by War Room Jiu Jitsu.",
+      "name": "How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026",
+      "description": "Knee Slice Pass film study: How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
       "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
-      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
       "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Double collar grip to knee slice pass",
-      "description": "Knee Slice Pass film study: Double collar grip to knee slice pass, taught by Clube De Lutas Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TIsH40L5AVQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TIsH40L5AVQ",
-      "url": "https://www.youtube.com/watch?v=TIsH40L5AVQ",
-      "creator": { "@type": "Person", "name": "Clube De Lutas Australia" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee cut pass into saddle entry",
-      "description": "Knee Slice Pass film study: Knee cut pass into saddle entry, taught by thejiujitsupedia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/p40WssWwJoY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/p40WssWwJoY",
-      "url": "https://www.youtube.com/watch?v=p40WssWwJoY",
-      "creator": { "@type": "Person", "name": "thejiujitsupedia" },
-      "duration": "PT48S"
     }
   ]
 }
@@ -134,23 +111,7 @@ Understanding the knee slice is essential for developing a complete passing game
 
 ![](https://www.youtube.com/watch?v=yj_6xcl2emA)
 
-<p class="clip-credit"><strong>Inside knee cut pass through the knee shield</strong> — taught by War Room Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TIsH40L5AVQ)
-
-<p class="clip-credit"><strong>Double collar grip to knee slice pass</strong> — taught by Clube De Lutas Australia · 0:47 · <a href="https://www.youtube.com/watch?v=TIsH40L5AVQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=p40WssWwJoY)
-
-<p class="clip-credit"><strong>Knee cut pass into saddle entry</strong> — taught by thejiujitsupedia · 0:48 · <a href="https://www.youtube.com/watch?v=p40WssWwJoY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class…</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -372,7 +333,7 @@ The knee slice pass is a cornerstone technique in any complete guard passing sys
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria: No-Gi Pressure Passing</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related BJJGraph transition.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: 50/50 Leg Locks and Defense</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference for leg-entanglement study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition reference: Knee Slice Pass.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Knee Slice Pass.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Guard-Passing Courses</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related BJJGraph transition.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan: No-Gi Guard Passing</span><span class="system-card__unlocks-badge">17 related references</span><span class="system-card__blurb">Related BJJGraph transition.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>

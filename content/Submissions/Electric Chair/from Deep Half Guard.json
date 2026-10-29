@@ -521,21 +521,11 @@
     "clips": [
       {
         "id": "O18n2Z5HISI",
-        "title": "Electric Chair from Deep Half",
-        "by": "Heart & Dagger BJJ",
-        "vertical": false,
+        "title": "Electric Chair From Deep Half- Mineral Wells BJJ",
         "channel": "Heart & Dagger  BJJ - Mineral Wells Jiu Jitsu",
         "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sMbaY4vG2mM",
-        "title": "Electric Chair from Lockdown Half Guard",
-        "by": "Brandon Mccaghren",
         "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 42,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -734,21 +724,11 @@
     "clips": [
       {
         "id": "3A6oRsDf3oU",
-        "title": "Lockdown and Electric Chair counters and escapes",
-        "by": "Street Jitsu",
-        "vertical": false,
+        "title": "Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and…",
         "channel": "Street Jitsu",
-        "duration": 286,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "2mom9Urqxa4",
-        "title": "How to pass the deep half guard",
-        "by": "Dimitrius Souza",
+        "duration": 285,
         "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 237,
-        "verified": "2026-07-16"
+        "front": true
       }
     ]
   },

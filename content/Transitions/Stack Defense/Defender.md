@@ -152,35 +152,12 @@ description: "How to maintain and complete your stack pass against an opponent's
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stack pass breakdown",
-      "description": "Stack Defense (Defender) film study: Stack pass breakdown, taught by Kenny Kim.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2KcAEYsaHAg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2KcAEYsaHAg",
-      "url": "https://www.youtube.com/watch?v=2KcAEYsaHAg",
-      "creator": { "@type": "Person", "name": "Kenny Kim" },
-      "duration": "PT88S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Stack pass from closed guard",
-      "description": "Stack Defense (Defender) film study: Stack pass from closed guard, taught by Procel BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EC4JVnymW3U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EC4JVnymW3U",
-      "url": "https://www.youtube.com/watch?v=EC4JVnymW3U",
-      "creator": { "@type": "Person", "name": "Procel BJJ coach" },
-      "duration": "PT95S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Stack pass mechanics",
-      "description": "Stack Defense (Defender) film study: Stack pass mechanics, taught by Andy Varela.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0HIyQwUm2lw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0HIyQwUm2lw",
-      "url": "https://www.youtube.com/watch?v=0HIyQwUm2lw",
-      "creator": { "@type": "Person", "name": "Andy Varela" },
-      "duration": "PT133S"
+      "name": "BJJ Guard Pass: When the Double Stack Pass Fails",
+      "description": "Stack Defense (Defender) film study: BJJ Guard Pass: When the Double Stack Pass Fails.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X29_Z3lkVTU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X29_Z3lkVTU",
+      "url": "https://www.youtube.com/watch?v=X29_Z3lkVTU",
+      "duration": "PT150S"
     }
   ]
 }
@@ -208,25 +185,9 @@ As the top player attempting to complete a stack pass against an opponent who is
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2KcAEYsaHAg)
+![](https://www.youtube.com/watch?v=X29_Z3lkVTU)
 
-<p class="clip-credit"><strong>Stack pass breakdown</strong> — taught by Kenny Kim · 1:28 · <a href="https://www.youtube.com/watch?v=2KcAEYsaHAg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EC4JVnymW3U)
-
-<p class="clip-credit"><strong>Stack pass from closed guard</strong> — taught by Procel BJJ coach · 1:35 · <a href="https://www.youtube.com/watch?v=EC4JVnymW3U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0HIyQwUm2lw)
-
-<p class="clip-credit"><strong>Stack pass mechanics</strong> — taught by Andy Varela · 2:13 · <a href="https://www.youtube.com/watch?v=0HIyQwUm2lw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Guard Pass: When the Double Stack Pass Fails</strong> · 2:30 · <a href="https://www.youtube.com/watch?v=X29_Z3lkVTU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

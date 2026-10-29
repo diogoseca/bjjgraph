@@ -289,15 +289,15 @@
       {
         "transition": "Turtle to Back Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Chair Sit to Back",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 10
         }
       },
       {
@@ -324,8 +324,8 @@
       {
         "transition": "Turtle Flatten to Side Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 11
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
@@ -399,24 +399,10 @@
         }
       },
       {
-        "transition": "Turtle to Aoki Lock",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 2
-        }
-      },
-      {
         "transition": "Turtle to Russian Cowboy",
         "attempt_probability": {
           "gi": 1,
           "nogi": 2
-        }
-      },
-      {
-        "transition": "Kiss of the Dragon",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
         }
       },
       {
@@ -585,31 +571,11 @@
     ],
     "clips": [
       {
-        "id": "6ns9XP2BsjQ",
-        "title": "Back take from the turtle position",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 66,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "o_7f8c64YrY",
-        "title": "Gator roll back take from turtle",
-        "by": "Gracie Barra Pymble",
-        "vertical": false,
-        "channel": "Gracie Barra Pymble",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "f0zi7eZEXnk",
-        "title": "Tight waist tilt to rear head-and-arm",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
-        "channel": "Fox Den Martial Arts",
-        "duration": 68,
-        "verified": "2026-07-14"
+        "id": "I3tKiknIR70",
+        "title": "John Danaher`s Back System - Turtle Top Control - Focus Points  (week 21)",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 329,
+        "front": true
       }
     ]
   },
@@ -847,8 +813,8 @@
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 11,
+          "nogi": 13
         }
       },
       {
@@ -905,13 +871,6 @@
         "attempt_probability": {
           "gi": 14,
           "nogi": 14
-        }
-      },
-      {
-        "transition": "Granby to Closed Guard",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 12
         }
       },
       {
@@ -1052,31 +1011,11 @@
     ],
     "clips": [
       {
-        "id": "waVFl1Ip6VU",
-        "title": "Turtle back escape by shrugging",
-        "by": "Andy Tong",
-        "vertical": false,
-        "channel": "Andy Tong",
-        "duration": 33,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing up from turtle (defensive BJJ)",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "LTGHO-aRBxw",
-        "title": "Head and arm escape from turtle",
-        "by": "Chosen Few BJJ",
-        "vertical": false,
-        "channel": "Chosen Few BJJ",
-        "duration": 78,
-        "verified": "2026-07-14"
+        "id": "gufPd37zsU4",
+        "title": "Understanding The Turtle Position In BJJ | Ft. Matt Thornton",
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 226,
+        "front": true
       }
     ]
   },
@@ -1194,33 +1133,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "_sBB-O8fqP4",
-      "title": "Standing up from turtle (defensive BJJ)",
-      "by": "Priit Mihkelson",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 114,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "Dyxkw13p49I",
-      "title": "Belly-down ankle lock setup from turtle",
-      "by": "Revolution BJJ",
-      "vertical": false,
-      "channel": "Revolution BJJ",
-      "duration": 67,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "qitDr1GnnAk",
-      "title": "Sneaky triangle from turtle position",
-      "by": "Submission Concepts San Antonio",
-      "vertical": false,
-      "channel": "Submission Concepts San Antonio",
-      "duration": 73,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

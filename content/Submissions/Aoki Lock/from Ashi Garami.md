@@ -4,7 +4,7 @@
 
 ---
 title: "Aoki Lock from Ashi Garami | BJJ Submission | BJJ Graph"
-description: "Master the Aoki Lock leg compression in BJJ. Safety guide with setup, execution, and defense. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%."
+description: "Aoki Lock from Ashi Garami captures a foot turned outward beside the upper arm. Leg and hip control support the rotational lock; drill capture and release."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Aoki Lock from Ashi Garami",
-  "description": "Master the Aoki Lock leg compression in BJJ. Safety guide with setup, execution, and defense. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.",
+  "description": "Aoki Lock from Ashi Garami captures a foot turned outward beside the upper arm. Leg and hip control support the rotational lock; drill capture and release.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Aoki Lock from Ashi Garami",
-  "description": "The Aoki Lock from Ashi Garami is a leg-compression submission that traps the opponent's foot in a figure-four and squeezes the legs together to force extreme plantar flexion while crushing the shin and calf, forcing a rapid tap.",
+  "description": "The Aoki Lock is a rotational foot lock that captures a turned-out foot against the upper body while controlling the leg and hip, potentially stressing both the ankle and knee.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -97,16 +97,16 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Aoki Lock from Ashi Garami is a leg-compression submission that traps the opponent's foot in a figure-four and squeezes the legs together to force extreme plantar flexion while crushing the shin and calf, forcing a rapid tap.**
+**The Aoki Lock is a rotational foot lock that captures a turned-out foot against the upper body while controlling the leg and hip, potentially stressing both the ankle and knee.**
 <div class="principle-meta">
-<span class="meta-chip">Compression</span>
-<span class="meta-chip">Leg Compression</span>
-<span class="meta-chip">Targets Shin and ankle compression</span>
-<span class="meta-chip">50% success</span>
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Rotational foot lock</span>
+<span class="meta-chip">Targets Foot and ankle, with rotational stress transmitted to the knee</span>
+<span class="meta-chip">30% success</span>
 </div>
 
 > [!danger] Safety
-> Aoki Lock from Ashi Garami targets the Shin and ankle compression. Primary risk: Severe plantar fascia strain or tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+> Aoki Lock from Ashi Garami targets the Foot and ankle, with rotational stress transmitted to the knee. Primary risk: Ankle ligament or joint injury from rotational loading. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -117,9 +117,15 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 
 <section id="overview" class="content-section">
 
-The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated leg compression submission that targets the opponent's shin and ankle through extreme plantar flexion and compression forces. Unlike traditional heel hooks or kneebars that attack specific joints, the Aoki Lock creates intense pressure across multiple structures of the lower leg simultaneously, making it extremely painful and effective for securing taps. The submission works by trapping the opponent's foot in a figure-four configuration while using your legs to apply tremendous squeezing pressure, forcing the foot into extreme plantar flexion while compressing the shin and calf muscle. This creates a unique combination of joint stress and muscular compression that becomes unbearable rapidly. The Aoki Lock is particularly effective from ashi garami positions and 50-50 configurations where traditional heel hooks might be defended. Its unconventional mechanics often catch opponents off-guard, as the setup can appear less threatening than a heel hook until the pressure is fully applied. The technique requires excellent leg dexterity and hip flexibility to properly configure the figure-four trap, making it a more advanced submission that rewards technical precision over raw strength.
+The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.
 
-**Starting Position**: [[Positions/Ashi Garami]] · **From**: [[Positions/Ashi Garami]] (Bottom)
+Identify the turned-out foot without forcing it to rotate against resistance. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. Secure the upper-body enclosure while leaving the foot unloaded during practice. Use the legs and hip connection to limit free movement without twisting a planted knee.
+
+Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot.
+
+Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).
+
+**Starting Position**: [[Ashi Garami/Bottom]] · **From**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -165,8 +171,8 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Positions/Ashi Garami]] | 25% |
+| Success | [[game-over]] | 30% |
+| Failure | [[Positions/Ashi Garami]] | 50% |
 | Counter | [[Positions/Open Guard]] | 20% |
 
 
@@ -179,8 +185,8 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Figure-four leg configuration creates mechanical advantage f... | Recognize the figure-four threading early - defense before t... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Confirm the foot orientation: Identify the turned-out foot w... | Recognize rotation: Treat an outward-turned foot caught by t... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -193,53 +199,49 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 ### Key Principles
 
 
-- Figure-four leg configuration creates mechanical advantage for compression
+- Confirm the foot orientation: Identify the turned-out foot without forcing it to rotate against resistance.
 
-- Hip positioning and angle determine effectiveness of plantar flexion force
+- Enclose the foot: Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
 
-- Squeezing pressure must be distributed across entire lower leg structure
+- Connect the hands: Secure the upper-body enclosure while leaving the foot unloaded during practice.
 
-- Foot entrapment must be secure before applying compression force
+- Manage the hip: Use the legs and hip connection to limit free movement without twisting a planted knee.
 
-- Body angle and hip extension control the direction of force application
+- Stop at controlled capture: Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement.
 
-- Opponent's defensive foot positioning determines setup approach
-
-- Combination with heel hook threat creates powerful dilemma
+- Release before movement: Open the arms and leg connection on a tap, sudden turn, or loss of communication.
 
 
 ### Execution Steps
 
 
-- **Establish ashi garami control**: Begin from inside ashi garami position with your outside leg hooking over opponent's trapped leg and...
+- **Confirm the foot orientation**: Identify the turned-out foot without forcing it to rotate against resistance....
 
-- **Thread inside leg for figure-four**: Begin weaving your inside leg (the leg that was underneath) through the gap between your outside leg...
+- **Enclose the foot**: Bring the instep under the upper arm and support the heel/Achilles region with the forearm....
 
-- **Secure opponent's foot in the trap**: Use your hands to guide opponent's foot into position between your legs, placing their heel or ankle...
+- **Connect the hands**: Secure the upper-body enclosure while leaving the foot unloaded during practice....
 
-- **Lock the figure-four configuration**: Complete the figure-four by gripping your own shin or ankle with the foot of your inside leg. This c...
+- **Manage the hip**: Use the legs and hip connection to limit free movement without twisting a planted knee....
 
-- **Adjust hip angle and extension**: Position your hips at an angle that allows you to extend and create space while simultaneously squee...
+- **Stop at controlled capture**: Recognize that a small body extension can create rotational ankle and knee pressure; do not search f...
 
-- **Apply gradual squeezing compression**: Begin squeezing your legs together while maintaining hip extension, forcing their foot into extreme ...
-
-- **Maintain control and await tap**: Hold steady pressure without increasing or jerking. Your upper body should remain controlled and rea...
+- **Release before movement**: Open the arms and leg connection on a tap, sudden turn, or loss of communication....
 
 
 ### Common Mistakes
 
 
-- **Applying compression too quickly without proper setup**
-  - Consequence: Opponent escapes easily and you lose position, or worse, you cause injury before they can tap
-  - Correction: Take time to fully secure the figure-four and foot positioning before applying any squeezing pressure. Build pressure gradually over 5-7 seconds minimum.
+- **Skipping the checkpoint: confirm the foot orientation**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Identify the turned-out foot without forcing it to rotate against resistance.
+  - Correction: Identify the turned-out foot without forcing it to rotate against resistance.
 
-- **Failing to maintain ashi garami control with outside leg**
-  - Consequence: Opponent extracts their leg and escapes before submission is secured
-  - Correction: Keep your outside leg hook tight throughout the entire setup and finishing sequence. This is your primary position control mechanism.
+- **Skipping the checkpoint: enclose the foot**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
+  - Correction: Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
 
-- **Incorrect figure-four placement creating ineffective lock**
-  - Consequence: No compression force is generated and opponent easily defends or escapes
-  - Correction: Experiment with exact foot placement in training to find optimal position based on your and opponent's leg lengths. The lock should feel secure before squeezing.
+- **Skipping the checkpoint: connect the hands**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Secure the upper-body enclosure while leaving the foot unloaded during practice.
+  - Correction: Secure the upper-body enclosure while leaving the foot unloaded during practice.
 
 
 </section>
@@ -253,41 +255,35 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 ### Key Principles
 
 
-- Recognize the figure-four threading early - defense before the lock is secured is ten times more effective than after
+- Recognize rotation: Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.
 
-- Maintain dorsiflexion (toes pulled toward shin) to resist plantar flexion and reduce compression angle
+- Deny the enclosure: Hand fight and recover foot position before the attacker connects around the foot.
 
-- Keep your trapped leg actively rotating externally to prevent the foot from seating into the compression pocket
+- Keep the leg aligned: Do not rotate the torso independently of a captured foot and knee.
 
-- Create distance through hip movement and posturing to disrupt the attacker's hip extension mechanics
+- Free the connection early: Create slack in the hand and hip controls before withdrawing the leg.
 
-- Tap early and tap often - the Aoki Lock attacks multiple structures simultaneously and damage accumulates faster than pain signals register
+- Tap before pain: Stop at a secure rotational capture rather than testing whether the joint still tolerates movement.
 
-- Prioritize leg extraction over guard passing during early defense phases when the figure-four is not yet locked
+- Reset after release: Wait for the entire enclosure to open before standing, turning, or restarting the exchange.
 
 
 ### Recognition Cues
 
 
-- Opponent begins weaving their inside leg through the gap between their outside leg and your trapped leg while in ashi garami - this threading motion is the primary setup indicator
+- The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.
 
-- Opponent's hands shift from heel or ankle control to foot manipulation, guiding your foot into a specific position between their legs rather than attacking a traditional heel hook grip
+- Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
 
-- Opponent's legs begin crossing over each other in a figure-four pattern around your lower leg, creating a distinctly different configuration from standard ashi garami control
-
-- Opponent adjusts hip angle away from you while maintaining leg control - this extension positioning indicates they are preparing compression rather than rotational attack
-
-- You feel your foot being guided into plantar flexion (toes pointing) rather than being rotated for a heel hook - the force vector is compression and extension rather than twisting
+- Use the legs and hip connection to limit free movement without twisting a planted knee.
 
 
 ### Escape Paths
 
 
-- Leg extraction through internal hip rotation and knee-to-chest pull before figure-four is locked, returning to standard ashi garami defensive positioning
+- Hand fight and recover foot position before the attacker connects around the foot.
 
-- Aggressive forward posturing and sit-up to collapse attacker's hip extension angle, breaking the figure-four structure and transitioning to top position
-
-- Standing base recovery with explosive drive forward, breaking ashi garami control and figure-four simultaneously through structural pressure
+- Do not rotate the torso independently of a captured foot and knee.
 
 
 </section>
@@ -298,16 +294,10 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 ## Variations
 
 
-**50-50 Aoki Lock**: From 50-50 position, establish the figure-four trap on opponent's leg while they are also attempting leg attacks. This variation works well when traditional heel hooks are being defended, as the Aoki Lock mechanics differ enough to catch opponents by surprise. (When to use: When in 50-50 stalemate and opponent is defending traditional heel hook attacks effectively. Also useful when both competitors have strong heel hook defense.)
+**Control-only rehearsal**: The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. Identify the turned-out foot without forcing it to rotate against resistance. (When to use: Cooperative practice before adding resistance or any finishing pressure)
 
 
-**Aoki Lock from Butterfly Ashi**: From butterfly ashi position with your inside leg butterfly hooking, transition the butterfly hook into the figure-four configuration for the Aoki Lock. This variation flows naturally from certain guard passing attempts by opponent. (When to use: When opponent attempts to pass butterfly ashi and you want to counter with immediate leg attack. The butterfly hook position sets up the figure-four nicely.)
-
-
-**Cross Ashi Aoki Lock**: From cross ashi position, use the different angle and leg configuration to apply the Aoki Lock with modified mechanics. Your legs create the compression from a different vector, which can bypass certain defensive reactions. (When to use: When in cross ashi and traditional heel hook is being well-defended. The angle change makes the Aoki Lock setup more available and harder to recognize.)
-
-
-**Aoki Lock as Heel Hook Bait**: Begin threatening obvious heel hook to draw defensive reactions, then transition to Aoki Lock when opponent overcommits to heel hook defense. The setup appears similar but finishes differently, creating a powerful dilemma. (When to use: Against experienced opponents who have strong heel hook awareness and defense. Use their defensive reactions to set up the less-familiar Aoki Lock.)
+**Entry prerequisite check**: The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it. (When to use: Before linking this submission to a different starting position)
 
 
 
@@ -334,20 +324,11 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Kneebar]]
-- [[Submissions/Inside Heel Hook]]
-- [[Submissions/Outside Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
-- [[Submissions/Estima Lock]]
-- [[Submissions/Calf Slicer]]
-- [[Submissions/Achilles Lock]]
-- [[Positions/Ashi Garami]] - Primary position for entry and control
-- [[Positions/Ashi Garami/Honey Hole]] - Alternative leg entanglement for similar attacks
-- [[Positions/Ashi Garami/50-50 Guard]] - Alternative position for Aoki Lock application
-- [[Positions/Leg Entanglement]] - Fundamental principle underlying technique
-- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement for Aoki Lock setup
-- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary entry position with direct access to Aoki Lock
+- [[Positions/Aoki Lock Control]] - Related prerequisite or contrasting submission: compare the configuration and required controls for Aoki Lock Control.
+- [[Positions/Ashi Garami]] - Related prerequisite or contrasting submission: compare the configuration and required controls for Ashi Garami.
 
 </section>
 
@@ -359,39 +340,28 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
-| Severe plantar fascia strain or tear | High | 4-8 weeks with potential chronic issues |
-| Ankle ligament damage (ATFL, deltoid ligament) | High | 6-12 weeks for grade 2-3 sprains |
-| Achilles tendon strain | CRITICAL | 8-16 weeks, potential surgery required |
-| Calf muscle tear or compartment syndrome | Medium | 3-6 weeks |
-| Shin bone periosteum damage | Medium | 2-4 weeks |
+| Ankle ligament or joint injury from rotational loading | High | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
+| Knee ligament injury when the foot is fixed and the body turns | High | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial compression to full pressure
+**Application Speed**: Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot. No fixed number of seconds makes a locked submission safe.
 
 **Tap Signals**:
-- Verbal tap (most common due to leg entanglement)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap with free leg
-- Any distress vocalization
-- Rapid tapping on own body
+- Repeated hand taps anywhere the partner can feel them
+- A clear verbal tap or stop, including when the hands are trapped
+- Foot taps or any agreed stop signal; release immediately if normal responsiveness changes
 
 
 **Release Protocol**:
-1. Immediately release the squeezing pressure with your legs
-2. Uncross your legs and open the figure-four configuration
-3. Release the trapped foot from the lock
-4. Allow opponent to straighten their leg naturally
-5. Do not pull or twist the leg during release
-6. Check with opponent before continuing to roll
+1. Open the finishing grip immediately at the first signal; do not wait for repeated confirmation
+2. Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement
+3. Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom
 
 
 **Training Restrictions**:
-- Never spike or jerk the compression - smooth gradual pressure only
-- Never use competition speed in training
-- Always allow tap access - never pin both arms
-- Stop immediately at first sign of discomfort
-- Never practice with full resistance until technique is mastered
-- Avoid repeated applications on same training partner in single session
+- Start with supervised, cooperative control-and-release drilling rather than a loaded finish
+- Check the event's current rules for the specific age, experience and clothing division before live use
+- Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot.
 
 
 </section>

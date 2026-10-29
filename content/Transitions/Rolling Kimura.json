@@ -433,30 +433,11 @@
     "clips": [
       {
         "id": "YvTmqi750wQ",
-        "title": "Rolling kimura from bottom side control",
-        "by": "Mat Life Training Center",
-        "vertical": false,
+        "title": "Kimura Trap Rolling Sweep from Bottom Side Control",
         "channel": "Mat Life Training Center",
         "duration": 31,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2lqHT7gaQKQ",
-        "title": "Rolling kimura lock from bottom turtle",
-        "by": "Big Boy Friendly Jiu-Jitsu",
         "vertical": false,
-        "channel": "Big Boy Friendly jiu-jitsu",
-        "duration": 98,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "UymiirWc8EY",
-        "title": "Rolling kimura trap for gi and no-gi",
-        "by": "Gold BJJ",
-        "vertical": false,
-        "channel": "Gold BJJ",
-        "duration": 169,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -637,25 +618,6 @@
         "description": "Start in Kimura Trap top with the bottom player working the full system, including the Rolling Kimura, Old School sweep, and back take. Drill distinguishing the roll from the other branches and responding with the right defense in real time, integrating shoulder safety and base management under live pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "wyaWWm8sUQE",
-        "title": "Counter to the rolling kimura",
-        "by": "Brandon Olsen",
-        "vertical": false,
-        "channel": "Sylvio Behring - United States",
-        "duration": 137,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MO0PFxgjuJ4",
-        "title": "Deep half guard counter to rolling kimura",
-        "by": "Scott Ryan Chiriboga",
-        "vertical": false,
-        "channel": "Scott Ryan Chiriboga",
-        "duration": 155,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

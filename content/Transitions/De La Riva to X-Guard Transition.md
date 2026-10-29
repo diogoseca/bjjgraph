@@ -46,24 +46,12 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR ho
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X-guard sweep",
-      "description": "De La Riva to X-Guard Transition film study: X-guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
-      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-gi X-guard sweep",
-      "description": "De La Riva to X-Guard Transition film study: No-gi X-guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m-ueyJXiShY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m-ueyJXiShY",
-      "url": "https://www.youtube.com/watch?v=m-ueyJXiShY",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT126S"
+      "name": "De la Riva to X Guard",
+      "description": "De La Riva to X-Guard Transition film study: De la Riva to X Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cSYO_xLB7KU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cSYO_xLB7KU",
+      "url": "https://www.youtube.com/watch?v=cSYO_xLB7KU",
+      "duration": "PT61S"
     }
   ]
 }
@@ -117,17 +105,9 @@ Understanding this transition requires mastery of hook mechanics, grip control t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+![](https://www.youtube.com/watch?v=cSYO_xLB7KU)
 
-<p class="clip-credit"><strong>X-guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=m-ueyJXiShY)
-
-<p class="clip-credit"><strong>No-gi X-guard sweep</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De la Riva to X Guard</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=cSYO_xLB7KU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -310,7 +290,7 @@ The De La Riva to X-Guard transition represents a critical connection in modern 
 
 - [[Transitions/Single Leg X Sweep]] - Follow-up option when transitioning to Single Leg X variation
 
-- [[Transitions/Kiss of the Dragon]] - Advanced inversion variation for transitioning under heavy forward pressure
+- [[Transitions/Kiss of the Dragon from RDLR]] - Advanced inversion variation for transitioning under heavy forward pressure
 
 - [[Transitions/Reverse De La Riva Recovery]] - Alternative position when opponent circles away from X-Guard transition
 
@@ -330,7 +310,7 @@ The De La Riva to X-Guard transition represents a critical connection in modern 
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">De La Riva to X-Guard Transition: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">De La Riva to X-Guard Transition: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

@@ -154,35 +154,12 @@ description: "How to defend against Sit Through Escape in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Scoring with a crab ride when opponent sits out",
-      "description": "Sit Through Escape (Defender) film study: Scoring with a crab ride when opponent sits out, taught by WrestlingTournaments.com.",
+      "name": "How to score with a CRAB RIDE when your opponent sits out",
+      "description": "Sit Through Escape (Defender) film study: How to score with a CRAB RIDE when your opponent sits out.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X06h6EJpV24/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X06h6EJpV24",
       "url": "https://www.youtube.com/watch?v=X06h6EJpV24",
-      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
       "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crab ride turn when opponent traps you on your back",
-      "description": "Sit Through Escape (Defender) film study: Crab ride turn when opponent traps you on your back, taught by CMPTV.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qp--XOaaFjk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qp--XOaaFjk",
-      "url": "https://www.youtube.com/watch?v=qp--XOaaFjk",
-      "creator": { "@type": "Person", "name": "CMPTV" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Crab ride transition to leg ride",
-      "description": "Sit Through Escape (Defender) film study: Crab ride transition to leg ride, taught by Myrmidon Wrestling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F-5OoSOUBBo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/F-5OoSOUBBo",
-      "url": "https://www.youtube.com/watch?v=F-5OoSOUBBo",
-      "creator": { "@type": "Person", "name": "Myrmidon Wrestling" },
-      "duration": "PT118S"
     }
   ]
 }
@@ -216,23 +193,7 @@ The most effective defense combines constant forward pressure with active hook m
 
 ![](https://www.youtube.com/watch?v=X06h6EJpV24)
 
-<p class="clip-credit"><strong>Scoring with a crab ride when opponent sits out</strong> — taught by WrestlingTournaments.com · 0:52 · <a href="https://www.youtube.com/watch?v=X06h6EJpV24" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=qp--XOaaFjk)
-
-<p class="clip-credit"><strong>Crab ride turn when opponent traps you on your back</strong> — taught by CMPTV · 1:01 · <a href="https://www.youtube.com/watch?v=qp--XOaaFjk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=F-5OoSOUBBo)
-
-<p class="clip-credit"><strong>Crab ride transition to leg ride</strong> — taught by Myrmidon Wrestling · 1:58 · <a href="https://www.youtube.com/watch?v=F-5OoSOUBBo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to score with a CRAB RIDE when your opponent sits out</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=X06h6EJpV24" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

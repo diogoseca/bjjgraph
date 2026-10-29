@@ -54,6 +54,16 @@ import { journey } from "../dsl";
  * assertions ("the board is seeded from the page", "the roll stands where the principle teaches")
  * were CORRECT for their contract and are deliberately inverted below.
  *
+ * CI bd87d42d4, 1440px overview classification: PRE-EXISTING FLAKE. The unchanged test
+ * passed 10/10 on each of bd87d42d4 and 79f7e09c4 (concept-{current,reviewed}-10.log).
+ * Controlled late body and Systems publications detach the summary on BOTH heads;
+ * progress hydration and the motion callback do not (ci-red-{current,reviewed}.log).
+ * Wait for those publications and the DSL's bounded missing-body retry to settle,
+ * preserving every geometry, count, open-state, scroll and mouse assertion. The fixed
+ * test passes 10/10 with body and Systems delayed (concept-delayed-fixed-10.log).
+ * There is no action retry; an element handle models the locate-before-repaint race
+ * in the diagnostic probe, not a claimed failure of the 20 unchanged repetitions.
+ *
  * NON-KILLS, recorded so nobody reads this spec as covering them (CLAUDE.md section 6.3):
  *  · Learning's complete 26-page inventory, native disclosures and three migrated guide routes
  *    are covered by learning-reader.spec.ts and tests/learning_content.py.
@@ -343,6 +353,15 @@ const searchState = (page: Page) =>
     };
   });
 
+// Reader navigation opens full HTML. These study-panel regressions enter the
+// retained reference controls through the reader's Study tools action.
+async function readerStudyTools(page: Page, j: ReturnType<typeof journey>) {
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 20000 });
+  expect(await page.evaluate(() => { const a = (window as any).__neural; return { hand: a.optionIdxs.length, question: !!a._landQ, played: !!a._played }; })).toEqual({ hand: 0, question: false, played: false });
+  if (await page.locator("[data-reward-close]").isVisible()) await j.clickByMouse("[data-reward-close]", "dismiss the fixture's grandfathered reward");
+  await j.clickByMouse("[data-reader-study]", "open the page's related practice");
+}
+
 test("Explore lists every authored principle, and opening one opens content — never a search @curated", async ({
   page,
 }) => {
@@ -390,6 +409,7 @@ test("Explore lists every authored principle, and opening one opens content — 
     `[data-concept-row="${first.id}"]`,
     `the ${first.name} principle row`,
   );
+  await readerStudyTools(page, j);
   await expect(
     page.locator(`[data-concept-detail="${first.id}"]`),
     "a principle row opens that principle",
@@ -435,6 +455,7 @@ test("Explore lists every authored principle, and opening one opens content — 
     (a, b) => b.nodes.length - a.nodes.length,
   )[0];
   await page.locator(`[data-concept-row="${target.id}"]`).click();
+  await readerStudyTools(page, j);
   const detail = page.locator(`[data-concept-detail="${target.id}"]`);
   await expect(detail).toBeVisible();
   await expect(page, "the second principle pushed its path too").toHaveURL(
@@ -554,20 +575,21 @@ test("Explore lists every authored Learning entry, and opening one opens content
     `the ${target.name} learning row`,
   );
   await expect(
-    page.locator(`[data-concept-detail="${target.id}"]`),
+    page.locator(`[data-reader-ready="true"][data-reader-path="/${target.id}"]`),
   ).toBeVisible();
 
+  await expect.poll(async () => (await litIds(page))?.length || 0).toBeGreaterThan(0);
   const s = await searchState(page);
   expect(s.exQ, "a Learning row does not run a query either").toBe("");
   expect(s.input, "and leaves the search box alone").toBe("");
   expect(s.resultsHeader, "and does not render search results").toBe(false);
 
   await expect(
-    page.locator("[data-concept-body]"),
+    page.locator("[data-reader-body]"),
     "it opens the entry's own content",
   ).toBeVisible({ timeout: 20_000 });
   expect(
-    ((await page.locator("[data-concept-body]").textContent()) || "").trim()
+    ((await page.locator("[data-reader-body]").textContent()) || "").trim()
       .length,
   ).toBeGreaterThan(400);
 
@@ -596,6 +618,9 @@ test("arriving on a principle's own page opens it and starts NOTHING @curated", 
 
   const j = journey(page);
   await j.boot("/" + target.id);
+  await expect(page.locator('[data-reader-ready="true"]')).toHaveAttribute("data-reader-path", "/" + target.id);
+  await expect.poll(() => litIds(page), { message: "URL arrival lights every referenced technique before Study tools" }).toEqual([...target.nodes].sort());
+  await readerStudyTools(page, j);
 
   // concepts.json is deferred, so the arrival kicks the fetch itself and the panel opens when it
   // lands. Nothing has advanced the game clock yet, so the intro is still running — which is the
@@ -772,6 +797,17 @@ for (const viewport of [
     expect(await page.evaluate(() => (window as any).__neural.challengeProgress("white.film").done),
       "film challenge starts incomplete, so an accidental reward cannot pass vacuously").toBe(false);
     const highlighted = await litIds(page);
+    // Multiple subscribers to one deferred body must not repeatedly detach the
+    // controls. The old callback repainted this detail three times on hydration.
+    await page.evaluate(() => {
+      const w = window as any;
+      w.__conceptPaints = 0;
+      w.__conceptPaintObserver = new MutationObserver(records => {
+        for (const record of records) for (const node of record.addedNodes)
+          if (node instanceof Element && node.matches('[data-concept-detail]')) w.__conceptPaints++;
+      });
+      w.__conceptPaintObserver.observe(w.__neural.explorerListRef.current, { childList: true });
+    });
     release();
 
     const film = page.locator(`[data-concept-film="${concept.id}"]`);
@@ -779,13 +815,19 @@ for (const viewport of [
     await expect(film).toContainText("Film study");
     await expect(film.locator(".ng-clip")).toHaveCount(4);
     await expect(film.locator(".ng-clip").first()).toContainText(clips[0].title);
-    await expect(film.locator(".ng-clip").first()).toHaveAccessibleName(`Play: ${clips[0].title} — ${clips[0].by}`);
+    // STALE SPEC (v1.230.0, feat/video-cards): a clip's control is its play button, named "Watch: title — by".
+    await expect(film.locator(".ng-clip").first().locator("[data-film-play]")).toHaveAccessibleName(`Watch: ${clips[0].title} — ${clips[0].by}`);
     expect(await film.evaluate((el) => {
       const detail = document.querySelector("[data-concept-detail]")!;
       const body = document.querySelector("[data-concept-body]")!;
       return !!(detail.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING)
         && !!(el.compareDocumentPosition(body) & Node.DOCUMENT_POSITION_FOLLOWING);
     }), "film follows the summary and precedes the readable body").toBe(true);
+    expect(await page.evaluate(() => {
+      const w = window as any;
+      w.__conceptPaintObserver.disconnect();
+      return w.__conceptPaints;
+    }), "one deferred body replaces the summary once, preserving live controls").toBe(1);
     const widths = await film.locator(".ng-clip").evaluateAll((cards) => cards.map((card) => card.getBoundingClientRect().width));
     expect(widths[2], "longer landscape videos keep their wider thumbnails").toBeGreaterThan(widths[0]);
     const row = film.locator(".ng-cliprow");
@@ -801,11 +843,16 @@ for (const viewport of [
     await stubPrincipleVideos(page);
 
     const first = `[data-concept-film="${concept.id}"] .ng-clip[data-i="0"]`;
+    // STALE CONTRACT (v1.230.0, feat/video-cards): the play button opens the player on its own controls and
+    // never autoplays, so the viewer's own play, once the player is ready, goes through its handle. The
+    // player has no mute control; its close button is what must fit inside the pane.
     const play = async () => {
       await page.locator(first).scrollIntoViewIfNeeded();
-      if (viewport.width > 600) await j.clickByMouse(first);
-      else { await page.locator(first).focus(); await page.keyboard.press("Enter"); }
+      if (viewport.width > 600) await j.clickByMouse(`${first} [data-film-play]`);
+      else { await page.locator(`${first} [data-film-play]`).focus(); await page.keyboard.press("Enter"); }
       await expect(film.locator(".ngPlayerHost")).toHaveCount(1);
+      await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip?._playerReady), "premise: the player is ready").toBe(true);
+      await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo());
       await expect.poll(() => page.evaluate(() => {
         const players = (window as any).__principlePlayers;
         return players.length && players[players.length - 1].plays > 0;
@@ -816,10 +863,10 @@ for (const viewport of [
         const pane = (window as any).__neural.explorerListRef.current.getBoundingClientRect();
         const rect = card.getBoundingClientRect();
         const finalHeight = parseFloat((card as HTMLElement).style.height);
-        const mute = card.querySelector(".ngMuteBtn")!.getBoundingClientRect();
+        const close = card.querySelector(".ngClipX")!.getBoundingClientRect();
         return Math.abs(rect.height - finalHeight) < 1 && rect.top >= pane.top
-          && rect.bottom <= pane.bottom && mute.bottom <= pane.bottom;
-      }), { message: "the expanded portrait and mute control fit inside the reading pane" }).toBe(true);
+          && rect.bottom <= pane.bottom && close.bottom <= pane.bottom;
+      }), { message: "the expanded portrait and its close button fit inside the reading pane" }).toBe(true);
     };
     const stopped = async () => {
       await expect(page.locator(".ngPlayerHost")).toHaveCount(0);
@@ -857,12 +904,13 @@ for (const viewport of [
     const longFilm = page.locator(`[data-concept-film="${longer.id}"]`);
     await expect(longFilm.locator(".ng-clip")).toHaveCount(1);
     await expect(longFilm).toContainText(clips[2].title);
-    await longFilm.locator(".ng-clip").focus();
+    await longFilm.locator(".ng-clip [data-film-play]").focus();
     await page.keyboard.press("Enter");
     await expect(longFilm.locator(".ngPlayerHost")).toHaveCount(1);
     expect(await page.evaluate(() => (window as any).__principlePlayers.at(-1).id)).toBe(clips[2].id);
     await page.keyboard.press("Escape");
     await stopped();
+    // Escape collapses a principle's film and returns focus to its clip card (the app's Escape ladder), as before.
     await expect(longFilm.locator(".ng-clip")).toBeFocused();
     await expect(page.locator(`[data-concept-detail="${longer.id}"]`)).toBeVisible();
     const noVideo = page.locator(`[data-concept-link="${empty.id}"]`);
@@ -993,10 +1041,23 @@ for (const viewport of [
   }) => {
     await page.setViewportSize(viewport);
     const j = journey(page);
-    await j.boot("/Principles/Compression-Locks");
+    await j.boot("/Principles/Compression-Locks", { keepTutorial: true });
+    await readerStudyTools(page, j);
     await expect(
       page.locator('[data-concept-detail="Principles/Compression-Locks"]'),
     ).toBeVisible();
+    // CI bd87d42d4 raced a late payload repaint between locate and scroll. Unmodified
+    // 1440px trials passed 10/10 on both bd87d42d4 and 79f7e09c4; held body/Systems
+    // responses detach the summary on BOTH heads. Progress hydration and motion sync
+    // do not replace it. Wait for publication, not a delay or an action retry.
+    // The DSL supplies {} for bodies: wait for its bounded missing-body retry too.
+    await page.waitForFunction(() => {
+      const w = window as any, a = w.__neural;
+      const c = a._conceptsById?.[a._conceptId], p = a._conceptPaint;
+      return c && !a._systemsLoading && a.systems?.length > 0 &&
+        a._docRetried?.[c.key] && w.NG_CONTENT?.decks?.[c.key] === null &&
+        p?.id === c.id && p.body === null && p.retry;
+    });
     await j.advance(10000); // beyond the intro AND the camera lease
     const result = await page.evaluate(() => {
       const a = (window as any).__neural;
@@ -1071,8 +1132,12 @@ for (const viewport of [
 
 // Unlike the arrival cases above, these start with a live hand and authored film. The DSL's
 // empty dossier default cannot prove that selecting a reference tears down existing videos.
-for (const category of ["Principles", "Systems", "Learning"] as const) {
-  test(`clicking ${category} retires the current node and its surfaces @curated`, async ({ page }) => {
+// STALE CONTRACT, superseded by review3 B1 (2026-10-16): reference playback
+// uses the same media owner. Retire the old game host; allow only this reference's
+// published videos. Classification: /home/user/bjj-orchestrator/scratch/article-sections/
+// ci-e26/reference-retirement-classification.md (old host disconnected before new host).
+for (const [category, reference] of [["Principles", null], ["Systems", null], ["Learning", null], ["Principles", "Principles/Microing"]] as const) {
+  test(`clicking ${reference || category} retires the current node and its surfaces @curated`, async ({ page }) => {
     const errors = watchErrors(page);
     const j = journey(page);
     await j.boot("/");
@@ -1087,6 +1152,7 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
     await expect(page.locator("[data-land-film]")).toBeVisible();
     await expect(page.locator("[data-landcard]")).toBeVisible();
     expect(await page.evaluate(() => (window as any).__neural.optionIdxs.length)).toBeGreaterThan(0);
+    await page.evaluate(() => { (window as any).__retiringGameFilm = (window as any).__neural._landFilmEl; });
     await page.locator(".ng-logo").click();
     await page.locator("[data-view='explore']").click();
     const header = page.locator(`[data-explore-section="${category}"]`);
@@ -1098,29 +1164,58 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
       if (await group.getAttribute("aria-expanded") !== "true") await group.click();
     }
     const kind = category === "Systems" ? "system" : "concept";
-    const row = page.locator(`[data-${kind}-row]`).first();
+    const row = reference ? page.locator(`[data-${kind}-row="${reference}"]`) : page.locator(`[data-${kind}-row]`).first();
     const id = await row.getAttribute(`data-${kind}-row`);
     expect(id).toBeTruthy();
     await row.scrollIntoViewIfNeeded();
     await j.clickByMouse(`[data-${kind}-row="${id}"]`);
-    await expect(page.locator(`[data-${kind}-detail="${id}"]`)).toBeVisible();
+    await expect(page.locator('[data-reader-ready="true"]')).toHaveAttribute("data-reader-path", "/" + id);
+    await expect(page.locator("[data-reader-body]")).not.toBeEmpty();
     expect(new URL(page.url()).pathname).toBe("/" + id);
-    expect((await litIds(page))!.length).toBeGreaterThan(0);
+    await expect.poll(async () => (await litIds(page))?.length || 0).toBeGreaterThan(0);
+    const publishedVideos = await page.evaluate(async path => {
+      const html = await (await fetch(path)).text();
+      const doc = new DOMParser().parseFromString(html, "text/html");
+      return [...new Set([...doc.querySelectorAll("article iframe")].flatMap(frame => {
+        const url = new URL(frame.getAttribute("src")!, location.origin);
+        const id = /(^|\.)youtube(-nocookie)?\.com$/.test(url.hostname) && url.pathname.match(/^\/embed\/([^/]+)/)?.[1];
+        return id ? [id] : [];
+      }))].sort();
+    }, "/" + id);
+    if (reference) expect(publishedVideos, "Microing is the published no-video reference control").toEqual([]);
     const assertIdle = async () => {
       expect(await page.evaluate(() => {
         const a = (window as any).__neural;
         return { current: a.currentPos ?? null, focus: a.focusIdx, staged: a._staged ?? null,
-          options: a.optionIdxs.length, land: !!a._landEl, film: !!a._landFilmEl,
+          options: a.optionIdxs.length, land: !!a._landEl, film: !!a._landFilmEl && !a._landFilmEl.dataset.referenceFilm,
           more: !!a._landMoreEl, pulse: !!a.pulse, decision: !!a._decision, played: !!a._played };
       })).toEqual({ current: null, focus: -1, staged: null, options: 0, land: false,
         film: false, more: false, pulse: false, decision: false, played: false });
-      await expect(page.locator("[data-landcard], [data-land-film]")).toHaveCount(0);
+      await expect(page.locator("[data-landcard]")).toHaveCount(0);
+      expect(await page.evaluate(() => {
+        const w = window as any, a = w.__neural;
+        return { connected: w.__retiringGameFilm.isConnected, reused: a._landFilmEl === w.__retiringGameFilm };
+      }), "the old game's film is retired, including after Browse closes").toEqual({ connected: false, reused: false });
+      const film = page.locator("[data-land-film]");
+      await expect(film).toHaveCount(publishedVideos.length ? 1 : 0);
+      if (publishedVideos.length) {
+        await expect(film).toHaveAttribute("data-reference-film", "/" + id);
+        expect(await film.evaluate(el => [...el.querySelectorAll(".ng-clip img")].map(img =>
+          new URL((img as HTMLImageElement).src).pathname.split("/")[2]).sort())).toEqual(publishedVideos);
+        expect(await film.evaluate(el => (el as any)._ngMediaIdx)).toBe(-1);
+      } else {
+        expect(await page.evaluate(() => ({ film: !!(window as any).__neural._landFilmEl })),
+          "a reference without published videos retains film:false").toEqual({ film: false });
+      }
       expect(new URL(page.url()).pathname).toBe("/" + id);
     };
     await assertIdle();
-    await page.locator(".ng-logo").click(); // closing the reading pane must not resume the old roll
+    // STALE CONTRACT (D-338): Browse is gone; the logo opens the same pane.
+    await j.clickByMouse(".ng-logo", "the logo opens the pane, as Browse did");
+    await j.clickByMouse(".ng-explorer-close"); // closing the pane must not resume the old roll
     await j.advance(12000);
     await assertIdle();
+    expect((await litIds(page))!.length).toBeGreaterThan(0);
     await page.evaluate(() => {
       const a = (window as any).__neural;
       a.stageRollAt(a.nodes.findIndex((n: any) => n.id === "Positions/Mount"));
@@ -1172,6 +1267,7 @@ test("clicking the pressed Explore tab returns a drilled Principle, then a Syste
   // ── a Principle owns the pane ──
   const first = [...principles].sort((a, b) => a.id.localeCompare(b.id))[0];
   await j.clickByMouse(`[data-concept-row="${first.id}"]`, `the ${first.name} principle row`);
+  await readerStudyTools(page, j);
   await expect(page.locator(`[data-concept-detail="${first.id}"]`), "premise: the principle owns the pane").toBeVisible();
   await expect(searchRow, "premise: and the root's search row is gone with it").toBeHidden();
   await expect(page.locator(tab), "premise: Explore is the pressed tab").toHaveAttribute("aria-pressed", "true");

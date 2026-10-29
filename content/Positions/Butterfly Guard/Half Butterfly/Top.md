@@ -176,24 +176,13 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to pass the flat half guard",
-      "description": "Half Butterfly (Top) film study: How to pass the flat half guard, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
-      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Effective half butterfly guard pass (no-gi)",
-      "description": "Half Butterfly (Top) film study: Effective half butterfly guard pass (no-gi), taught by Factory Fresh Jiu Jitsu.",
+      "name": "Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu",
+      "description": "Half Butterfly (Top) film study: Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu, taught by Factory Fresh Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
       "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
       "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT110S"
+      "duration": "PT109S"
     }
   ]
 }
@@ -221,7 +210,7 @@ The top player must establish upper body control first through crossface or unde
 <p class="section-subtitle">Watch Half Butterfly (Top) in action — curated instructionals</p>
 
 
-<div class="film-clip">
+<div class="film-clip film-clip--vertical">
 
 ![](https://www.youtube.com/watch?v=LIITsrlsAaI)
 
@@ -229,19 +218,11 @@ The top player must establish upper body control first through crossface or unde
 
 </div>
 
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8WbQvytyCX0)
-
-<p class="clip-credit"><strong>How to pass the flat half guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
+<div class="film-clip film-clip--vertical">
 
 ![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
 
-<p class="clip-credit"><strong>Effective half butterfly guard pass (no-gi)</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu</strong> — taught by Factory Fresh Jiu Jitsu · 1:49 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -317,7 +298,6 @@ The top player must establish upper body control first through crossface or unde
 
 **Else if bottom player turns to turtle to escape:**
 - Execute **[[Transitions/Front Headlock to Guillotine/Attacker|Front Headlock to Guillotine]]** → [[Positions/Front Headlock]] (Probability: 50%)
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 

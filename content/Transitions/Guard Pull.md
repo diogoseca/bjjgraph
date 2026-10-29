@@ -46,35 +46,32 @@ description: "Master the Guard Pull transition in BJJ. Complete guide from stand
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Pulling closed guard from standing",
-      "description": "Guard Pull film study: Pulling closed guard from standing, taught by UAE Jiu Jitsu Federation.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sWK9QdT0I_M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sWK9QdT0I_M",
-      "url": "https://www.youtube.com/watch?v=sWK9QdT0I_M",
-      "creator": { "@type": "Person", "name": "UAE Jiu Jitsu Federation" },
-      "duration": "PT37S"
+      "name": "Standing Guard Pull",
+      "description": "Guard Pull film study: Standing Guard Pull.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nw8Psj0tm5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nw8Psj0tm5k",
+      "url": "https://www.youtube.com/watch?v=nw8Psj0tm5k",
+      "duration": "PT20S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Pulling closed guard - setup and entry",
-      "description": "Guard Pull film study: Pulling closed guard - setup and entry, taught by Team Daruma Dojo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CI1w02grvCs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CI1w02grvCs",
-      "url": "https://www.youtube.com/watch?v=CI1w02grvCs",
-      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
-      "duration": "PT44S"
+      "name": "06 - Pulling Closed Guard from Standing",
+      "description": "Guard Pull film study: 06 - Pulling Closed Guard from Standing.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sWK9QdT0I_M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sWK9QdT0I_M",
+      "url": "https://www.youtube.com/watch?v=sWK9QdT0I_M",
+      "duration": "PT36S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Standing guard pull",
-      "description": "Guard Pull film study: Standing guard pull, taught by Daniel Frank.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nw8Psj0tm5k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nw8Psj0tm5k",
-      "url": "https://www.youtube.com/watch?v=nw8Psj0tm5k",
-      "creator": { "@type": "Person", "name": "Daniel Frank" },
-      "duration": "PT20S"
+      "name": "Pulling Closed Guard",
+      "description": "Guard Pull film study: Pulling Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CI1w02grvCs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CI1w02grvCs",
+      "url": "https://www.youtube.com/watch?v=CI1w02grvCs",
+      "duration": "PT44S"
     }
   ]
 }
@@ -126,9 +123,17 @@ The technique has become increasingly sophisticated in modern competition, with 
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=nw8Psj0tm5k)
+
+<p class="clip-credit"><strong>Standing Guard Pull</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=nw8Psj0tm5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=sWK9QdT0I_M)
 
-<p class="clip-credit"><strong>Pulling closed guard from standing</strong> — taught by UAE Jiu Jitsu Federation · 0:37 · <a href="https://www.youtube.com/watch?v=sWK9QdT0I_M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>06 - Pulling Closed Guard from Standing</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=sWK9QdT0I_M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,15 +141,7 @@ The technique has become increasingly sophisticated in modern competition, with 
 
 ![](https://www.youtube.com/watch?v=CI1w02grvCs)
 
-<p class="clip-credit"><strong>Pulling closed guard - setup and entry</strong> — taught by Team Daruma Dojo · 0:44 · <a href="https://www.youtube.com/watch?v=CI1w02grvCs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nw8Psj0tm5k)
-
-<p class="clip-credit"><strong>Standing guard pull</strong> — taught by Daniel Frank · 0:20 · <a href="https://www.youtube.com/watch?v=nw8Psj0tm5k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pulling Closed Guard</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=CI1w02grvCs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -354,13 +351,13 @@ The guard pull serves as the primary entry point into bottom guard game from sta
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Guard Pull: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference: Guard Pull.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Guard Pull: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Guard Pull.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Rubber Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Guard Pull: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition reference: Guard Pull.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition reference: Guard Pull.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Guard Pull.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Guard Pull.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Preparation with Matt D’Aquino</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition reference: Guard Pull.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Champions Stay Present: Competition Mindset</span><span class="system-card__unlocks-badge">15 related references</span><span class="system-card__blurb">Related transition reference: Guard Pull.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>

@@ -21,32 +21,26 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
     {
       "@type": "HowToStep",
       "name": "Execute Twister from Twister Control",
-      "text": "From this position, attempt Twister from Twister Control. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Twister from Twister Control. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Guillotine Choke from Twister Control",
+      "text": "From this position, attempt Guillotine Choke from Twister Control. This technique is attempted in 23% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke from Twister Control",
-      "text": "From this position, attempt Guillotine Choke from Twister Control. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Neck Crank from Twister Control",
+      "text": "From this position, attempt Neck Crank from Twister Control. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Neck Crank from Twister Control",
-      "text": "From this position, attempt Neck Crank from Twister Control. This technique is attempted in 13% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Calf Slicer from Twister Control",
-      "text": "From this position, attempt Calf Slicer from Twister Control. This technique is attempted in 14% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Calf Slicer from Twister Control. This technique is attempted in 18% of exchanges from this position.",
+      "position": 4
     }
   ],
   "totalTime": "PT2M"
@@ -149,50 +143,6 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Twister Control (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Twister side attacks",
-      "description": "Twister Control (Top) film study: Twister side attacks, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
-      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Twister side control",
-      "description": "Twister Control (Top) film study: Twister side control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
-      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Grace\u0027s twister",
-      "description": "Twister Control (Top) film study: Grace\u0027s twister, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nnphEk5pmjk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nnphEk5pmjk",
-      "url": "https://www.youtube.com/watch?v=nnphEk5pmjk",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -213,40 +163,6 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Twister Control (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=odT3-cVWXdc)
-
-<p class="clip-credit"><strong>Twister side attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R55lmkc6Mus)
-
-<p class="clip-credit"><strong>Twister side control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nnphEk5pmjk)
-
-<p class="clip-credit"><strong>Grace&#39;s twister</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=nnphEk5pmjk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

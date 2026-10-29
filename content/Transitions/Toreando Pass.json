@@ -48,7 +48,7 @@
     "gi": 58,
     "nogi": 58
   },
-  "overview": "The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.",
+  "overview": "The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.\n\nEntry against inversion: Neutralize obstructing grips before securing both legs; release one hand deliberately if another grip must be stripped. Control the outside of the knees or trouser fabric, redirect the elevated legs laterally, and circle the other way before the guard player tracks your hips. Clear the knees and consolidate torso control. Keep fingers outside trouser openings.",
   "conditions": [
     "Passer must be standing or in combat base with upright posture above opponent's open guard",
     "Opponent's guard must be open with legs not locked around passer's waist or entangled in deep hooks",
@@ -113,7 +113,7 @@
   "attacker": {
     "name": "Toreando Pass Attacker",
     "description": "How to execute Toreando Pass in BJJ. Attacking perspective with setup, execution steps, and counters.",
-    "overview": "The Toreando Pass is a standing guard pass built on bilateral leg control and explosive lateral movement. The passer grips both of the opponent's knees or pant legs, then simultaneously steps to one side while redirecting the opponent's legs to the opposite side. This opposing-vector motion breaks the guard player's hip connection and clears a direct path to side control. The technique rewards practitioners who develop strong grip fighting, explosive footwork, and the ability to read defensive reactions in real time. Because the Toreando creates a binary choice for the defender — either allow the pass or turn and expose the back — it functions as both a standalone pass and a forcing mechanism that opens chain-passing opportunities.",
+    "overview": "The Toreando Pass is a standing guard pass built on bilateral leg control and explosive lateral movement. The passer grips both of the opponent's knees or pant legs, then simultaneously steps to one side while redirecting the opponent's legs to the opposite side. This opposing-vector motion breaks the guard player's hip connection and clears a direct path to side control. The technique rewards practitioners who develop strong grip fighting, explosive footwork, and the ability to read defensive reactions in real time. Because the Toreando creates a binary choice for the defender — either allow the pass or turn and expose the back — it functions as both a standalone pass and a forcing mechanism that opens chain-passing opportunities.\n\nNeutralize obstructing grips before securing both legs; release one hand deliberately if another grip must be stripped. Control the outside of the knees or trouser fabric, redirect the elevated legs laterally, and circle the other way before the guard player tracks your hips. Clear the knees and consolidate torso control. Keep fingers outside trouser openings.",
     "key_principles": [
       "Establish dominant grips on opponent's knees or pants before initiating the pass",
       "Create lateral angles by stepping to the side rather than moving straight forward",
@@ -437,31 +437,19 @@
     "safety_considerations": "The Toreando Pass is generally a safe passing technique when practiced with proper control and awareness. Primary safety considerations include controlling your explosive lateral movement to avoid knee injuries to yourself (from sudden directional changes) and to your partner (from excessive force when redirecting their legs). When redirecting the opponent's legs, maintain awareness of their knee and hip flexibility - do not force their legs beyond their comfortable range of motion, particularly when they are less flexible. During drilling, communicate with your partner about the speed and force level, especially when first learning the explosive timing. Be cautious when executing the pass near the training area boundaries to avoid driving your partner into walls or other students. In competition or live sparring, be aware that the Toreando can create scramble situations where both practitioners may end up in awkward positions - maintain control throughout the pass to prevent accidental injuries. Partners with existing knee or hip injuries should communicate these limitations before training this pass.",
     "clips": [
       {
-        "id": "JZHp3VI-X_g",
-        "title": "Toreando straight to side control",
-        "by": "Joao Mendes",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 237,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "wVcOSPR18y8",
-        "title": "Toreando pass quick instructional",
-        "by": "Maverick TV coach",
-        "vertical": false,
+        "title": "Torreando/Bull Fighter Pass Quick Instructional",
         "channel": "Maverick TV",
         "duration": 194,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "BZCnqNI9CVI",
-        "title": "Toreando pass complete guide",
-        "by": "Jon Thomas",
-        "vertical": false,
+        "title": "Toreando Pass - Complete Guide",
         "channel": "JonThomasBJJ",
         "duration": 594,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -655,21 +643,11 @@
     "clips": [
       {
         "id": "Ad4250mBWKc",
-        "title": "Toreando defense with roll counter",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "Toreando Defense - Roll counter",
         "channel": "Revolution BJJ",
         "duration": 84,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PRaqiE5oPvc",
-        "title": "Toreando pass fail options and counters",
-        "by": "SimpleBJJ",
         "vertical": false,
-        "channel": "SimpleBJJ",
-        "duration": 203,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -698,6 +676,11 @@
       "variant_name": "Floating Toreando",
       "description": "Execute the Toreando motion while remaining more upright and mobile, using multiple smaller steps rather than one large lateral step. This creates a more dynamic, flowing pass that can adjust mid-movement based on opponent's reactions.",
       "when_to_use": "Against highly mobile guard players who excel at following single directional movements. The floating variation allows you to change directions mid-pass"
+    },
+    {
+      "variant_name": "Entry against inversion",
+      "description": "Neutralize obstructing grips before securing both legs; release one hand deliberately if another grip must be stripped. Control the outside of the knees or trouser fabric, redirect the elevated legs laterally, and circle the other way before the guard player tracks your hips. Clear the knees and consolidate torso control. Keep fingers outside trouser openings.",
+      "when_to_use": "Against the shoulder-supported inversion described in Inverted Guard."
     }
   ],
   "position_integration": "The Toreando Pass serves as a cornerstone technique in modern guard passing systems, functioning as both a standalone pass and an integral component of passing chains. It fits into the BJJ positional hierarchy as a primary standing or combat base pass used to clear open guard configurations and progress toward dominant top positions (side control, knee on belly, or mount). The Toreando excels against open guard systems including De La Riva (after clearing the hook), Spider Guard, Collar Sleeve Guard, and Seated Guard positions. It integrates seamlessly with pressure passing systems by creating initial penetration past the guard, at which point pressure can be applied in side control. The pass also complements speed-based passing approaches where the explosive lateral movement fits naturally. Within a guard passing progression, the Toreando typically appears after standing has been established and guard opening has occurred, but before final pressure consolidation in top position. It creates decision points for the opponent that expose them to complementary techniques: if they don't follow the movement, the Toreando completes; if they turn to defend, back takes or over-under passes become available; if they create distance, long step or knee slice passes open up. This integration into broader passing systems makes the Toreando valuable not just as an individual technique but as a strategic tool that structures the entire guard passing game."

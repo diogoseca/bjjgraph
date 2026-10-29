@@ -434,29 +434,10 @@
       {
         "id": "xHQ152Wxywk",
         "title": "Sneaky Kimura from Lockdown",
-        "by": "BJJ Level UP Workshops",
-        "vertical": false,
         "channel": "BJJ Level UP Workshops",
-        "duration": 108,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "VcW4GCI5_8w",
-        "title": "Sneaky Submissions from Lockdown Half Guard",
-        "by": "Coach Paul",
+        "duration": 107,
         "vertical": false,
-        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
-        "duration": 87,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "OIr4wDxl-Ys",
-        "title": "Lockdown Clinches",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -626,25 +607,6 @@
         "description": "Full positional sparring starting in lockdown with partner attacking freely using sweeps, submissions, and back takes. Defend all attacks including the Kimura while working to pass. Develop the ability to distinguish between Kimura setups and sweep setups in real time and apply the appropriate defensive response."
       }
     ],
-    "clips": [
-      {
-        "id": "_JzYqwuH-Q0",
-        "title": "Counter the Kimura From Half Guard",
-        "by": "Troy Manning",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 51,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-49CypLW9aM",
-        "title": "Breaking the Lockdown Half Guard",
-        "by": "Superhero Jiu Jitsu",
-        "vertical": false,
-        "channel": "Superhero Jiu Jitsu Academy ",
-        "duration": 61,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

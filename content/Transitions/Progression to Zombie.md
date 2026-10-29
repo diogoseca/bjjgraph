@@ -4,7 +4,7 @@
 
 ---
 title: "Progression to Zombie | BJJ Technique | BJJ Graph"
-description: "Learn Progression to Zombie in 10th Planet Rubber Guard. Advance from New York to deeper control with systematic hip rotation and overhook mechanics."
+description: "Progression to Zombie starts the contested hand-clearing pummel from Mission Control. Retain posture control and support the high knee while seeking inside space."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Progression to Zombie in 10th Planet Rubber Guard. Advance f
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Progression to Zombie",
-  "description": "Learn Progression to Zombie in 10th Planet Rubber Guard. Advance from New York to deeper control with systematic hip rotation and overhook mechanics.",
+  "description": "Progression to Zombie starts the contested hand-clearing pummel from Mission Control. Retain posture control and support the high knee while seeking inside space.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Learn Progression to Zombie in 10th Planet Rubber Guard. Advance f
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Progression to Zombie",
-  "description": "Progression to Zombie is a 10th Planet Rubber Guard transition where the bottom player elevates the controlling shin from across the opponent's back to wrap their shoulder-neck junction, deepening New York control and unlocking gogoplata and omoplata attacks.",
+  "description": "Progression to Zombie begins the hand-clearing pummel from Mission Control while arm isolation is still contested; completing the hand clearance and knee hug leads onward to New York.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,16 +94,18 @@ description: "Learn Progression to Zombie in 10th Planet Rubber Guard. Advance f
 
 <section id="overview" class="content-section">
 
-**Progression to Zombie is a 10th Planet Rubber Guard transition where the bottom player elevates the controlling shin from across the opponent's back to wrap their shoulder-neck junction, deepening New York control and unlocking gogoplata and omoplata attacks.**
+**Progression to Zombie begins the hand-clearing pummel from Mission Control while arm isolation is still contested; completing the hand clearance and knee hug leads onward to New York.**
 
-Progression to Zombie represents the natural evolution of control within the Rubber Guard system, allowing the bottom player to transition from New York into a deeper, more restrictive control position. The Zombie position intensifies the pressure on the opponent by bringing the controlling leg higher around their shoulder while maintaining the overhook, creating a system where escape becomes exponentially more difficult and submission threats multiply.
+The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside. Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation.
 
-Strategically, this transition exploits the opponent's compromised posture in New York. When the opponent settles into defending the standard New York attacks or begins slowly working toward posture recovery, the Zombie progression catches them mid-adjustment. The key insight is that the transition occurs during the opponent's defensive cycle, capitalizing on the brief moment when their defensive structure is weakest. Advanced practitioners time this movement to coincide with the opponent's exhale or minor weight shift.
+Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Guide the wrist and forearm through the available space without bending individual fingers.
 
-The biomechanical advantage of Zombie over New York lies in the increased leverage created by the higher leg position. By bringing the shin from across the back to wrapping around the shoulder and neck region, the bottom player gains mechanical advantage that makes posture recovery nearly impossible. This deeper control also opens direct pathways to high-percentage submissions including the gogoplata, omoplata, and various choke combinations that are less accessible from standard New York control.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
-**Success Rate**: 58%
+Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs).
+
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
+**Success Rate**: 45%
 
 </section>
 
@@ -141,9 +143,9 @@ The biomechanical advantage of Zombie over New York lies in the increased levera
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Rubber Guard/Zombie]] | 58% |
-| Failure | [[Positions/Rubber Guard/New York]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Zombie]] | 45% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -155,7 +157,7 @@ The biomechanical advantage of Zombie over New York lies in the increased levera
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Maintain overhook depth throughout the transition - releasin... | Recognize transition cues early - defense during the leg rep... |
+| **Key Principles** | Keep Mission Control: Maintain posture control while freeing... | Maintain inside frames: Keep a useful forearm between the bo... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -169,51 +171,49 @@ The biomechanical advantage of Zombie over New York lies in the increased levera
 ### Key Principles
 
 
-- Maintain overhook depth throughout the transition - releasing grip pressure even momentarily allows escape
+- Keep Mission Control: Maintain posture control while freeing the other arm for the pummel.
 
-- Use hip rotation rather than arm pulling to drive the leg higher around the opponent's shoulder
+- Find inside space: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-- Time the progression when opponent begins defensive adjustment or weight shift
+- Begin clearing the hand: Guide the wrist and forearm through the available space without bending individual fingers.
 
-- Keep constant downward pressure on opponent's head and shoulders during leg repositioning
+- Prevent the return pummel: Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.
 
-- Core engagement must increase during transition to prevent opponent from driving forward
+- Distinguish New York: Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward.
 
-- The free hand guides the shin while the overhook arm maintains control independently
-
-- Small incremental movements are more effective than large explosive repositioning attempts
+- Reset a blocked attempt: Keep a safe guard and look for another opening when the opponent maintains inside frames.
 
 
 ### Execution Steps
 
 
-- **Confirm control integrity**: Verify your overhook depth is secure with shoulder tight against opponent's armpit. Check that your ...
+- **Keep Mission Control**: Maintain posture control while freeing the other arm for the pummel....
 
-- **Increase core engagement**: Tighten your abdominal muscles and hip flexors to create a stable platform for the transition. This ...
+- **Find inside space**: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward....
 
-- **Initiate hip rotation toward overhook side**: Begin rotating your hips toward the overhook side while simultaneously pulling your knee toward your...
+- **Begin clearing the hand**: Guide the wrist and forearm through the available space without bending individual fingers....
 
-- **Guide shin from back to shoulder**: Use your shin-gripping hand to guide your leg from across the opponent's back upward to wrap around ...
+- **Prevent the return pummel**: Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug be...
 
-- **Secure Zombie grip at new elevation**: Once the shin is positioned around the shoulder-neck junction, adjust your grip to control the shin ...
+- **Distinguish New York**: Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug e...
 
-- **Consolidate Zombie position**: Pull opponent's head down with the overhook while using the new leg position to trap their shoulder ...
+- **Reset a blocked attempt**: Keep a safe guard and look for another opening when the opponent maintains inside frames....
 
 
 ### Common Mistakes
 
 
-- **Releasing overhook pressure while focusing on leg repositioning**
-  - Consequence: Opponent extracts trapped arm and restores posture, completely escaping rubber guard control
-  - Correction: Maintain overhook as the anchor throughout transition - the overhook must work independently while leg moves
+- **Skipping the checkpoint: keep mission control**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Maintain posture control while freeing the other arm for the pummel.
+  - Correction: Maintain posture control while freeing the other arm for the pummel.
 
-- **Attempting to pull leg higher using only arm strength rather than hip rotation**
-  - Consequence: Inefficient movement that exhausts grip strength and often fails to achieve proper Zombie position
-  - Correction: Drive transition with hip rotation toward overhook side, using arm only to guide rather than pull
+- **Skipping the checkpoint: find inside space**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+  - Correction: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-- **Rushing the transition without confirming initial New York control is solid**
-  - Consequence: Starting from compromised position results in failed transition and potential loss of all control
-  - Correction: Verify deep overhook, broken posture, and secure shin grip before initiating any movement
+- **Skipping the checkpoint: begin clearing the hand**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Guide the wrist and forearm through the available space without bending individual fingers.
+  - Correction: Guide the wrist and forearm through the available space without bending individual fingers.
 
 
 </section>
@@ -227,41 +227,37 @@ The biomechanical advantage of Zombie over New York lies in the increased levera
 ### Key Principles
 
 
-- Recognize transition cues early - defense during the leg repositioning phase is far more effective than defense after Zombie is consolidated
+- Maintain inside frames: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
 
-- Drive forward pressure during the transition to collapse the space needed for hip rotation and leg elevation
+- Keep elbow and hand connected: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
 
-- Target the shin grip as the weakest link in the control chain during repositioning
+- Notice the pummel early: The free hand working under yours is the cue to recover inside position before the knee hug closes.
 
-- Maintain constant defensive tension on the overhook to prevent the anchor from deepening
+- Recover without yanking: Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.
 
-- Use the brief reduction in shin pressure during transition as a window for posture recovery
+- Rebuild posture gradually: Raise the chest after freeing the arm and reducing the high-leg control.
 
-- Never remain passive in New York waiting for the Zombie to establish - force the attacker to maintain current position or regress
+- Respect the high guard: Do not confuse an arm pummel with lockdown defense or apply twisting leg escapes to this upper-body exchange.
 
 
 ### Recognition Cues
 
 
-- Feeling the opponent's hip begin rotating toward the overhook side - this is the earliest indicator that Zombie progression is initiating
+- The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside.
 
-- Sensing decreased shin pressure across your back as the attacker's leg begins to slide upward from its static New York position
+- The bottom player works through the opening near your hand rather than forcing a tightly clamped elbow straight outward.
 
-- Opponent's shin-gripping hand shifts position or releases momentarily to guide the leg to a higher elevation around your shoulder
-
-- Increased core tension from the bottom player - you feel their abdominal engagement tighten as they prepare the platform for transition
-
-- The overhook arm pulls your shoulder slightly more forward as the attacker compensates for reduced shin control during repositioning
+- The bottom player keeps the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.
 
 
 ### Defensive Options
 
 
-- **Explosive posture recovery - drive hips forward and lift head aggressively the moment you feel shin pressure decrease** - When: Immediately upon sensing the first recognition cue (hip rotation or decreased shin pressure) before the leg reaches shoulder level
+- **Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Overhook extraction with arm pull - aggressively retract trapped arm toward your hip while the opponent's attention is divided between overhook and leg repositioning** - When: When you feel the opponent's overhook grip momentarily soften as they focus on guiding their shin with their other hand
+- **Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Shin grip strip - use free hand to peel opponent's grip off their own shin during the moment they are repositioning** - When: When the opponent's shin grip visibly loosens or repositions during the leg elevation phase, creating a window where their grip is weakest
+- **The free hand working under yours is the cue to recover inside position before the knee hug closes.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -272,13 +268,10 @@ The biomechanical advantage of Zombie over New York lies in the increased levera
 ## Variations
 
 
-**Quick Zombie Entry**: Abbreviated transition that skips incremental adjustment in favor of explosive hip rotation when opponent creates opening. Used when opponent momentarily compromises their defensive structure with a failed escape attempt or significant weight shift. (When to use: When opponent attempts posture recovery and creates brief window of vulnerability)
+**Cooperative checkpoint drill**: Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. (When to use: Learning the control without submission pressure)
 
 
-**Zombie with Wrist Control**: Modified entry where the free hand controls opponent's wrist on the non-overhook side before transitioning. Provides additional control and prevents opponent from using that arm to grip strip, frame, or counter during the leg repositioning phase. (When to use: Against opponents who actively use their free hand to grip strip or frame during transitions)
-
-
-**Low Flexibility Zombie**: Modified position for practitioners with limited hip mobility. Leg wraps around upper back rather than full shoulder encirclement. Provides similar control vectors with reduced flexibility requirement, trading some submission access for accessibility. (When to use: When hip flexibility limits ability to achieve full Zombie position)
+**Response and reset drill**: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -290,7 +283,7 @@ The biomechanical advantage of Zombie over New York lies in the increased levera
 
 ## Position Integration
 
-Progression to Zombie is a critical link in the 10th Planet Rubber Guard system's decision tree. From New York, practitioners have four primary advancement options: Invisible Collar (attacking the neck), Zombie (deepening leg control), Chill Dog (gogoplata pathway), and Carni (omoplata pathway). Zombie specifically addresses situations where the opponent attempts to weather the storm in New York, settling into passive defense or slowly working toward posture recovery. The deeper control of Zombie forces renewed defensive urgency and opens submission pathways that were less accessible from New York. From Zombie, practitioners can further advance to Chill Dog for gogoplata finishes, transition to mounted positions via sweeps, or attack with triangles and omoplatas. Understanding when to progress to Zombie versus the other New York follow-ups depends on reading the opponent's defensive reactions and selecting the pathway that exploits their specific defensive choices.
+The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside. Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -300,25 +293,13 @@ Progression to Zombie is a critical link in the 10th Planet Rubber Guard system'
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/New York]] - Starting position - must be established before Progression to Zombie
+- [[Positions/Rubber Guard/Mission Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control.
 
-- [[Positions/Rubber Guard/Zombie]] - Target position - deeper rubber guard control achieved through this transition
+- [[Positions/Rubber Guard/New York]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for New York.
 
-- [[Positions/Rubber Guard/Mission Control]] - Foundation position - entry point to entire rubber guard system
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Rubber Guard/Invisible Collar]] - Alternative progression from New York - targets neck control
-
-- [[Positions/Rubber Guard/Chill Dog]] - Follow-up position from Zombie - gogoplata setup
-
-- [[Positions/Rubber Guard/Carni]] - Alternative progression - omoplata attack pathway
-
-- [[Transitions/Gogoplata]] - Primary submission available from Zombie position
-
-- [[Positions/Closed Guard]] - Fallback position if rubber guard control fails
-
-- [[Submissions/Omoplata]] - Secondary submission pathway accessible from Zombie
-
-- [[Transitions/Advance to Chill Dog]] - Alternative transition from New York toward gogoplata pathway
+- [[Positions/Dead Orchard Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Dead Orchard Control.
 
 
 </section>

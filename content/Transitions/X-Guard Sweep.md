@@ -46,34 +46,21 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X guard sweep",
-      "description": "X-Guard Sweep film study: X guard sweep, taught by Marcelo Garcia.",
+      "name": "Marcelo Garcia | X Guard Sweep | Choke_lab",
+      "description": "X-Guard Sweep film study: Marcelo Garcia | X Guard Sweep | Choke_lab.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
       "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT53S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "X-guard sweep and pass",
-      "description": "X-Guard Sweep film study: X-guard sweep and pass, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7OnjPU1WjH4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7OnjPU1WjH4",
-      "url": "https://www.youtube.com/watch?v=7OnjPU1WjH4",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT35S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "No-gi X-guard sweep",
-      "description": "X-Guard Sweep film study: No-gi X-guard sweep, taught by Marcelo Garcia.",
+      "name": "Marcelo Garcia: No-Gi X-Guard sweep",
+      "description": "X-Guard Sweep film study: Marcelo Garcia: No-Gi X-Guard sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/m-ueyJXiShY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/m-ueyJXiShY",
       "url": "https://www.youtube.com/watch?v=m-ueyJXiShY",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT126S"
     }
   ]
@@ -130,15 +117,7 @@ Strategically, the X-Guard Sweep creates a powerful dilemma for the standing opp
 
 ![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
 
-<p class="clip-credit"><strong>X guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7OnjPU1WjH4)
-
-<p class="clip-credit"><strong>X-guard sweep and pass</strong> — taught by Marcelo Garcia · 0:35 · <a href="https://www.youtube.com/watch?v=7OnjPU1WjH4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marcelo Garcia | X Guard Sweep | Choke_lab</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +125,7 @@ Strategically, the X-Guard Sweep creates a powerful dilemma for the standing opp
 
 ![](https://www.youtube.com/watch?v=m-ueyJXiShY)
 
-<p class="clip-credit"><strong>No-gi X-guard sweep</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marcelo Garcia: No-Gi X-Guard sweep</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -360,7 +339,7 @@ The X-Guard Sweep serves as the primary offensive weapon within the X-Guard atta
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">X-Guard Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">X-Guard Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Foundations with Mikey Musumeci</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

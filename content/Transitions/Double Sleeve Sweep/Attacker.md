@@ -186,35 +186,22 @@ description: "Learn to execute the Double Sleeve Sweep from bottom guard. Step-b
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double sleeve guard sweep breakdown",
-      "description": "Double Sleeve Sweep (Attacker) film study: Double sleeve guard sweep breakdown, taught by Black Dragon BJJ coach.",
+      "name": "Double Sleeve Guard System - Setting up Double Sleeve from  De La Riva Guard -\u2026",
+      "description": "Double Sleeve Sweep (Attacker) film study: Double Sleeve Guard System - Setting up Double Sleeve from  De La Riva Guard -\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RHe0Is-Ax6M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RHe0Is-Ax6M",
       "url": "https://www.youtube.com/watch?v=RHe0Is-Ax6M",
-      "creator": { "@type": "Person", "name": "Black Dragon BJJ coach" },
       "duration": "PT198S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Double Sleeve Guard Attacks and Sweeps",
-      "description": "Double Sleeve Sweep (Attacker) film study: Double Sleeve Guard Attacks and Sweeps, taught by Jay Wadsworth.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kqRa84RqJXM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kqRa84RqJXM",
-      "url": "https://www.youtube.com/watch?v=kqRa84RqJXM",
-      "creator": { "@type": "Person", "name": "Jay Wadsworth" },
-      "duration": "PT324S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Double Sleeve Scissor Sweep Breakdown",
-      "description": "Double Sleeve Sweep (Attacker) film study: Double Sleeve Scissor Sweep Breakdown, taught by Andrew Riddles.",
+      "name": "Double Sleeve Scissor Sweep Instructional with Andrew Riddles of SJBJJ - Nogi\u2026",
+      "description": "Double Sleeve Sweep (Attacker) film study: Double Sleeve Scissor Sweep Instructional with Andrew Riddles of SJBJJ - Nogi\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zAz7Zu5Nf58/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zAz7Zu5Nf58",
       "url": "https://www.youtube.com/watch?v=zAz7Zu5Nf58",
-      "creator": { "@type": "Person", "name": "Andrew Riddles" },
-      "duration": "PT257S"
+      "duration": "PT256S"
     }
   ]
 }
@@ -244,15 +231,7 @@ Executing the Double Sleeve Sweep requires mastery of the push-pull dynamic that
 
 ![](https://www.youtube.com/watch?v=RHe0Is-Ax6M)
 
-<p class="clip-credit"><strong>Double sleeve guard sweep breakdown</strong> — taught by Black Dragon BJJ coach · 3:18 · <a href="https://www.youtube.com/watch?v=RHe0Is-Ax6M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kqRa84RqJXM)
-
-<p class="clip-credit"><strong>Double Sleeve Guard Attacks and Sweeps</strong> — taught by Jay Wadsworth · 5:24 · <a href="https://www.youtube.com/watch?v=kqRa84RqJXM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Sleeve Guard System - Setting up Double Sleeve from  De La Riva Guard -…</strong> · 3:18 · <a href="https://www.youtube.com/watch?v=RHe0Is-Ax6M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +239,7 @@ Executing the Double Sleeve Sweep requires mastery of the push-pull dynamic that
 
 ![](https://www.youtube.com/watch?v=zAz7Zu5Nf58)
 
-<p class="clip-credit"><strong>Double Sleeve Scissor Sweep Breakdown</strong> — taught by Andrew Riddles · 4:17 · <a href="https://www.youtube.com/watch?v=zAz7Zu5Nf58" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Sleeve Scissor Sweep Instructional with Andrew Riddles of SJBJJ - Nogi…</strong> · 4:16 · <a href="https://www.youtube.com/watch?v=zAz7Zu5Nf58" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

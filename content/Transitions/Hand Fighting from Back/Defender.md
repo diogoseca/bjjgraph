@@ -160,24 +160,12 @@ description: "How to counter hand fighting defense from back control in BJJ. Mai
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Key concepts for finishing the rear naked choke",
-      "description": "Hand Fighting from Back (Defender) film study: Key concepts for finishing the rear naked choke, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Q9Deu0fqLH0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Q9Deu0fqLH0",
-      "url": "https://www.youtube.com/watch?v=Q9Deu0fqLH0",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT24S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rear naked choke grip fighting to the finish",
-      "description": "Hand Fighting from Back (Defender) film study: Rear naked choke grip fighting to the finish, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
-      "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT73S"
+      "name": "Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki",
+      "description": "Hand Fighting from Back (Defender) film study: Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/51cmLSANvsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/51cmLSANvsw",
+      "url": "https://www.youtube.com/watch?v=51cmLSANvsw",
+      "duration": "PT153S"
     }
   ]
 }
@@ -209,17 +197,9 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Q9Deu0fqLH0)
+![](https://www.youtube.com/watch?v=51cmLSANvsw)
 
-<p class="clip-credit"><strong>Key concepts for finishing the rear naked choke</strong> — taught by Gordon Ryan · 0:24 · <a href="https://www.youtube.com/watch?v=Q9Deu0fqLH0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=70jECxFfCSA)
-
-<p class="clip-credit"><strong>Rear naked choke grip fighting to the finish</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki</strong> · 2:33 · <a href="https://www.youtube.com/watch?v=51cmLSANvsw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

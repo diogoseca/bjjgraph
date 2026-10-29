@@ -232,10 +232,22 @@ test("the clock is held for the whole film, and a hand on the graph ends it", as
   expect(mid.paused, "the game clock is held while the film plays").toBe(true)
   expect(mid.held, "and the film owns the camera while it does").toBe(true)
 
-  // a real pan on the canvas — never fight the user's camera
-  await page.mouse.move(1150, 300)
+  // a real pan on the canvas — never fight the user's camera.
+  // STALE CONTRACT (D-318 U4a, CI 48be3a910): the centred reading arrival frames the graph
+  // differently, and a graph-chrome button now sits under the old fixed (1150,300). Start and end
+  // the same 60x40 drag on measured, unobstructed canvas instead.
+  const pan = await page.evaluate(() => {
+    const canvas = (window as any).__neural.canvasRef.current
+    for (let fy = .2; fy <= .8; fy += .05) for (let fx = .9; fx >= .1; fx -= .05) {
+      const x = innerWidth * fx, y = innerHeight * fy
+      if (document.elementFromPoint(x, y) === canvas && document.elementFromPoint(x - 60, y + 40) === canvas) return { x, y }
+    }
+    return null
+  })
+  expect(pan, "a real pan starts and ends on unobstructed canvas").toBeTruthy()
+  await page.mouse.move(pan!.x, pan!.y)
   await page.mouse.down()
-  await page.mouse.move(1090, 340, { steps: 6 })
+  await page.mouse.move(pan!.x - 60, pan!.y + 40, { steps: 6 })
   await page.mouse.up()
 
   const after = await shot(page)

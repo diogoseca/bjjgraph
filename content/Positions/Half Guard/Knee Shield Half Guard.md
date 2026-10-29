@@ -46,24 +46,13 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee shield to scissor/push sweep",
-      "description": "Knee Shield Half Guard film study: Knee shield to scissor/push sweep, taught by Strong Hold Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CLBRo3Jef54/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CLBRo3Jef54",
-      "url": "https://www.youtube.com/watch?v=CLBRo3Jef54",
-      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
-      "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Bottom half guard attacks basics",
-      "description": "Knee Shield Half Guard film study: Bottom half guard attacks basics, taught by Cobrinha.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZqsGp9fWi3Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZqsGp9fWi3Y",
-      "url": "https://www.youtube.com/watch?v=ZqsGp9fWi3Y",
-      "creator": { "@type": "Person", "name": "Cobrinha" },
-      "duration": "PT205S"
+      "name": "Knee Shield Half Guard Basics",
+      "description": "Knee Shield Half Guard film study: Knee Shield Half Guard Basics, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q_ND-09HiWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q_ND-09HiWg",
+      "url": "https://www.youtube.com/watch?v=q_ND-09HiWg",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT263S"
     }
   ]
 }
@@ -116,17 +105,9 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CLBRo3Jef54)
+![](https://www.youtube.com/watch?v=q_ND-09HiWg)
 
-<p class="clip-credit"><strong>Knee shield to scissor/push sweep</strong> — taught by Strong Hold Jiu Jitsu · 0:52 · <a href="https://www.youtube.com/watch?v=CLBRo3Jef54" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZqsGp9fWi3Y)
-
-<p class="clip-credit"><strong>Bottom half guard attacks basics</strong> — taught by Cobrinha · 3:25 · <a href="https://www.youtube.com/watch?v=ZqsGp9fWi3Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield Half Guard Basics</strong> — taught by MMA Leech · 4:23 · <a href="https://www.youtube.com/watch?v=q_ND-09HiWg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -190,7 +171,7 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - Keep hips mobile and ready to adjust angles—never allow hips to become completely flat or static against the mat
 
-- Control at least one of opponent's arms through grips to prevent them from establishing dominant passing grips
+- Control at least one of opponent's arms through grips to prevent them from establishing dominant passing grips. In the narrator's knee-shield examples, moving the shield toward the passer's far hip helps free the guard player's trapped leg. The wrist connection is either direct control of the passer's wrist or contact preserved while the passer holds the guard player's wrist. Narration: [Less Impressed More Involved BJJ, 1:59–2:33.4](https://www.youtube.com/watch?v=gtRIw-60Yzk&t=119s).
 
 - Use bottom leg actively to control opponent's posture and prevent them from standing or creating advantageous passing angles
 
@@ -277,11 +258,11 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - Use crossface and shoulder pressure to break bottom player's posture and upper body control
 
-- Apply strategic pressure in waves rather than constant grinding to create defensive reactions
+- Apply strategic pressure in waves rather than constant grinding to create defensive reactions. In the narrated example, the passer establishes head position and a tripod base before changing knee direction between a smash threat and a shin pummel. The defender resists the smash by opening the crossed feet, and the passer uses that opening to free the trapped foot with the shin pummel. Narration: [Less Impressed More Involved BJJ, 1:06–1:58.6](https://www.youtube.com/watch?v=AcxCqMwW_7o&t=66s).
 
 - Control distance to prevent bottom player from creating additional frames or re-guarding
 
-- Switch between passing approaches based on opponent's defensive adjustments
+- Switch between passing approaches based on opponent's defensive adjustments. In another narrated knee-shield example, the passer keeps the arm weave after freeing the trapped foot and circles away from the defender's head until the hips are flat. Only then does the passer let go of the weave and change to a leg-drag angle. Narration: [Less Impressed More Involved BJJ, 2:09–2:34.5](https://www.youtube.com/watch?v=AcxCqMwW_7o&t=129s).
 
 - Never allow opponent to establish strong underhook connection on near side
 

@@ -448,31 +448,18 @@
     ],
     "clips": [
       {
-        "id": "xAW3spYg9vE",
-        "title": "Inverted Triangle",
-        "by": "Bristol Jiu Jitsu",
-        "vertical": false,
-        "channel": "Bristol Jiu Jitsu",
-        "duration": 51,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "i2l9Gx72DU0",
-        "title": "Inverted Triangle Finish",
-        "by": "BJJ Lotus Club",
-        "vertical": false,
+        "title": "Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle",
         "channel": "BJJ Lotus Club",
         "duration": 25,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
-        "id": "RCzCmK7AeVU",
-        "title": "Inverted Triangle Choke Finish",
-        "by": "MMAYHEM",
-        "vertical": false,
-        "channel": "MMAYHEM",
-        "duration": 60,
-        "verified": "2026-07-14"
+        "id": "xAW3spYg9vE",
+        "title": "Inverted Triangle",
+        "channel": "Bristol Jiu Jitsu",
+        "duration": 51,
+        "vertical": false
       }
     ]
   },
@@ -658,30 +645,23 @@
     "clips": [
       {
         "id": "dJOw0ZEyXXc",
-        "title": "Triangle Posture Up Escape",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Triangle choke from Guard \"Posture Up Escape",
         "channel": "Cosens MMA LLC",
-        "duration": 73,
-        "verified": "2026-07-14"
+        "duration": 72,
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a Full Inversion",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "id": "AptNwQLD_EQ",
+        "title": "Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape",
+        "channel": "Relson Gracie Jiu-Jitsu Team HK",
+        "duration": 117
       },
       {
-        "id": "sR2rS2dwpNY",
-        "title": "How to Escape a Triangle Choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-14"
+        "id": "EaZA0UUXIq8",
+        "title": "Counter to the Inverted Triangle",
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 186
       }
     ]
   }

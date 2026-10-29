@@ -328,10 +328,6 @@
         "relationship": "Key transition - primary arm-in switch when the trapped arm straightens and the darce angle opens"
       },
       {
-        "name": "Anaconda Control to Dead Orchard Control",
-        "relationship": "Secondary transition - situational sequence for advancing to dead orchard control"
-      },
-      {
         "name": "Side Control",
         "relationship": "Advancement target - position gained after successful roll-through from anaconda"
       },
@@ -359,66 +355,53 @@
       {
         "transition": "Anaconda Choke from Anaconda Control",
         "attempt_probability": {
-          "gi": 37,
-          "nogi": 41
-        }
-      },
-      {
-        "transition": "Switch to Darce Configuration",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 13
+          "gi": 49,
+          "nogi": 53
         }
       },
       {
         "transition": "Anaconda to Side Control",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 20
-        }
-      },
-      {
-        "transition": "Anaconda Control to Dead Orchard Control",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 30,
+          "nogi": 26
         }
       },
       {
         "transition": "Back Take from Anaconda",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 21,
+          "nogi": 21
         }
       }
     ],
     "clips": [
       {
         "id": "RbkOnRb2lvA",
-        "title": "Anaconda choke finish",
+        "title": "Anaconda Choke BJJ",
         "by": "Ninja Pinto",
         "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 49,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "6d6Wkgh9imU",
-        "title": "Anaconda vs D'Arce choke difference",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 67,
-        "verified": "2026-07-14"
+        "channel": "Ninja Pinto",
+        "duration": 48,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "EbhWFWp-B6s",
-        "title": "How to do an anaconda choke",
+        "title": "How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur",
         "by": "Brandon McCaghren",
         "vertical": false,
         "channel": "Brandon Mccaghren",
         "duration": 81,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
+      },
+      {
+        "id": "6d6Wkgh9imU",
+        "title": "Difference Between The ANACONDA CHOKE and D’ARCE CHOKE in Jiu Jitsu!",
+        "by": "Matt Arroyo",
+        "vertical": true,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 66,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -816,31 +799,23 @@
     ],
     "clips": [
       {
-        "id": "N9MbEtAv_Lw",
-        "title": "Anaconda choke defense",
-        "by": "Mamba BJJ",
-        "vertical": false,
-        "channel": "Mamba BJJ",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "s94GexEkoQ0",
-        "title": "Anaconda defense plus counter",
+        "title": "BJJ defense anaconda plus counter",
         "by": "Cyril Robert",
         "vertical": false,
         "channel": "Cyril Robert MMA",
         "duration": 43,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       },
       {
-        "id": "At1_GDu4hSc",
-        "title": "How to escape the anaconda choke",
-        "by": "ArtOfSayingGoodbye",
+        "id": "N9MbEtAv_Lw",
+        "title": "Anaconda Choke Defense",
+        "by": "Mamba BJJ",
         "vertical": false,
-        "channel": "ArtOfSayingGoodbye",
-        "duration": 23,
-        "verified": "2026-07-14"
+        "channel": "Mamba BJJ",
+        "duration": 61,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -961,30 +936,13 @@
   "clips": [
     {
       "id": "6d6Wkgh9imU",
-      "title": "Anaconda vs D'Arce choke difference",
+      "title": "Difference Between The ANACONDA CHOKE and D’ARCE CHOKE in Jiu Jitsu!",
       "by": "Matt Arroyo",
-      "vertical": false,
+      "vertical": true,
       "channel": "Matt Arroyo Jiu Jitsu ",
-      "duration": 67,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "oUib2H2bOMQ",
-      "title": "Basic anaconda choke, step by step",
-      "by": "Caleb McAllister",
-      "vertical": false,
-      "channel": "Caleb McAllister",
-      "duration": 102,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "DHYmDsncdS8",
-      "title": "Marcelo Garcia anaconda choke finish",
-      "by": "Marcelo Garcia",
-      "vertical": false,
-      "channel": "forlogosVideos",
-      "duration": 126,
-      "verified": "2026-07-14"
+      "duration": 66,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

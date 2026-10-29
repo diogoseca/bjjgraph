@@ -35,13 +35,13 @@ description: "Defend the Outside Heel Hook from Backside 50-50 in BJJ. Complete 
     {
       "@type": "HowToStep",
       "name": "Rotate entire body to face the attacker, converting asymmetric backside 50-50 to symmetric standard 50-50 guard",
-      "text": "When attacker lightens chest pressure to reach for heel or when you have created enough space through bridging to initiate the turn If successful: Eliminates the backside positional disadvantage and creates a more neutral exchange where defensive options are significantly better",
+      "text": "When attacker lightens knee-line control to reach for heel or when you have created enough space through bridging to initiate the turn If successful: Eliminates the backside positional disadvantage and creates a more neutral exchange where defensive options are significantly better",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Bridge explosively and extract trapped leg from entanglement through internal hip rotation and framing",
-      "text": "When attacker has not yet secured heel grip and their chest pressure is momentarily reduced during grip transition If successful: Complete escape from the leg entanglement, recovering to open guard or standing position with full defensive structure",
+      "text": "When attacker has not yet secured heel grip and their knee-line control is momentarily reduced during grip transition If successful: Complete escape from the leg entanglement, recovering to open guard or standing position with full defensive structure",
       "position": 4
     }
   ],
@@ -85,7 +85,7 @@ description: "Defend the Outside Heel Hook from Backside 50-50 in BJJ. Complete 
       "name": "Why is heel hook defense harder in backside 50-50 than in standard 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Backside 50-50 creates three specific defensive disadvantages. First, the attacker's chest-to-back pressure pins your hips, removing the hip rotation that is the primary heel hook defense mechanism in standard 50-50. Second, your back is to the attacker, eliminating visual feedback on their grip progression so you cannot see what they are doing with their hands. Third, your framing options are limited because you cannot easily push against their chest from the backside position. In standard 50-50, the face-to-face orientation provides visual information, framing access, and more effective hip mobility."
+        "text": "The opponent's inside foot blocks the turn back in, their legs contain your knee line, and their position behind the trapped leg reduces your view of the heel grip. Protect the heel and manage the controlling foot and leg to recover space. Avoid forcing a spin while your heel is captured."
       }
     },
     {
@@ -152,78 +152,19 @@ description: "Defend the Outside Heel Hook from Backside 50-50 in BJJ. Complete 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Outside Heel Hook from Backside 50-50 (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Defending heel hooks fundamentals",
-      "description": "Outside Heel Hook from Backside 50-50 (Defender) film study: Defending heel hooks fundamentals, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
-      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The one key thing about defending heel hooks",
-      "description": "Outside Heel Hook from Backside 50-50 (Defender) film study: The one key thing about defending heel hooks, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Z0WDtUMkBP8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Z0WDtUMkBP8",
-      "url": "https://www.youtube.com/watch?v=Z0WDtUMkBP8",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT170S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-Defending the Outside Heel Hook from Backside 50-50 is one of the most challenging defensive scenarios in modern leg lock grappling. The defender faces the dual threat of a high-percentage submission combined with significant positional disadvantage—their back is exposed to the attacker's chest pressure with limited visual feedback on the attacker's grip progression. Survival depends on early recognition of the attack sequence, immediate heel protection through internal knee rotation, aggressive grip fighting to prevent the attacker from establishing the finishing configuration, and systematic work toward position improvement or leg extraction. The window for successful defense narrows rapidly once the attacker secures a clean two-handed heel grip, making preemptive defensive habits and early recognition essential. Defenders must accept that tapping early to heel hooks in training is not weakness but intelligent self-preservation, given the minimal pain warning these submissions provide before catastrophic knee injury.
+Defending the Outside Heel Hook from Backside 50-50 is one of the most challenging defensive scenarios in modern leg lock grappling. The defender faces the dual threat of a high-percentage submission combined with significant positional disadvantage—they are turned away with their trapped knee line controlled with limited visual feedback on the attacker's grip progression. Survival depends on early recognition of the attack sequence, immediate heel protection through internal knee rotation, aggressive grip fighting to prevent the attacker from establishing the finishing configuration, and systematic work toward position improvement or leg extraction. The window for successful defense narrows rapidly once the attacker secures a clean two-handed heel grip, making preemptive defensive habits and early recognition essential. Defenders must accept that tapping early to heel hooks in training is not weakness but intelligent self-preservation, given the minimal pain warning these submissions provide before catastrophic knee injury.
 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Outside Heel Hook from Backside 50-50 (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=v3w0qXLKxug)
-
-<p class="clip-credit"><strong>Defending heel hooks fundamentals</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Z0WDtUMkBP8)
-
-<p class="clip-credit"><strong>The one key thing about defending heel hooks</strong> — taught by Lachlan Giles · 2:50 · <a href="https://www.youtube.com/watch?v=Z0WDtUMkBP8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -235,7 +176,7 @@ Defending the Outside Heel Hook from Backside 50-50 is one of the most challengi
 - Attacker's near hand releases upper-body positional control and reaches toward your foot, ankle, or heel area
 - Attacker drives their elbow toward the inside of your thigh, creating a wedge between your legs to establish the rotational fulcrum
 - Contact on your heel shifts from neutral entanglement pressure to a deliberate cupping grip wrapping around your Achilles and heel bone
-- Attacker's chest pressure increases momentarily as they stabilize their base before committing both hands to the heel hunt
+- Attacker's knee-line control increases momentarily as they stabilize their base before committing both hands to the heel hunt
 - You feel the attacker's second hand join the first on your heel area, indicating they are establishing the reinforced finishing grip
 
 
@@ -279,14 +220,14 @@ Defending the Outside Heel Hook from Backside 50-50 is one of the most challengi
 
 ### 3. Rotate entire body to face the attacker, converting asymmetric backside 50-50 to symmetric standard 50-50 guard
 
-- **When to use**: When attacker lightens chest pressure to reach for heel or when you have created enough space through bridging to initiate the turn
+- **When to use**: When attacker lightens knee-line control to reach for heel or when you have created enough space through bridging to initiate the turn
 - **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Eliminates the backside positional disadvantage and creates a more neutral exchange where defensive options are significantly better
 - **Risk**: Higher risk—the rotation may momentarily expose your heel further during the turning movement
 
 ### 4. Bridge explosively and extract trapped leg from entanglement through internal hip rotation and framing
 
-- **When to use**: When attacker has not yet secured heel grip and their chest pressure is momentarily reduced during grip transition
+- **When to use**: When attacker has not yet secured heel grip and their knee-line control is momentarily reduced during grip transition
 - **Targets**: [[Positions/Open Guard]]
 - **If successful**: Complete escape from the leg entanglement, recovering to open guard or standing position with full defensive structure
 - **Risk**: High risk if attempted while attacker has heel grip—the extraction movement can accelerate rotational damage to the knee
@@ -302,7 +243,7 @@ Defending the Outside Heel Hook from Backside 50-50 is one of the most challengi
 <p class="section-subtitle">How do you escape Outside Heel Hook from Backside 50-50?</p>
 
 - Rotate entire body toward the attacker during the grip establishment phase, converting the asymmetric backside 50-50 to standard 50-50 where defensive options are significantly better and the positional hierarchy is more neutral
-- Extract trapped leg through internal hip rotation combined with explosive bridging and framing against attacker's hips, recovering to open guard or standing when attacker's chest pressure is momentarily reduced
+- Extract trapped leg through internal hip rotation combined with explosive bridging and framing against attacker's hips, recovering to open guard or standing when attacker's knee-line control is momentarily reduced
 - Counter-attack the attacker's own heel when they overcommit both hands to your heel, creating a mutual threat that forces them to release your heel to defend their own knee
 
 
@@ -316,11 +257,11 @@ Defending the Outside Heel Hook from Backside 50-50 is one of the most challengi
 
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
-Rotate your body to face the attacker during their grip establishment phase, using a bridge to create space for the turn. Time the rotation when their chest pressure lightens as they reach for your heel, converting the asymmetric backside position to the symmetric standard 50-50 where your defensive and counter-offensive options improve dramatically.
+Protect the heel and address the inside-foot frame. As the knee-line clamp loosens, recover a facing angle and a standard 50-50 configuration without turning through a captured heel.
 
 ### → [[Positions/Open Guard]]
 
-Bridge explosively when the attacker lightens chest pressure to transition hands from positional control to heel hunting grips. Frame against their hips with both hands and extract your trapped leg through internal hip rotation, threading the leg free from the entanglement and immediately establishing distance to recover open guard.
+Bridge explosively when the attacker lightens knee-line control to transition hands from positional control to heel hunting grips. Frame against their hips with both hands and extract your trapped leg through internal hip rotation, threading the leg free from the entanglement and immediately establishing distance to recover open guard.
 
 
 
@@ -349,8 +290,8 @@ Bridge explosively when the attacker lightens chest pressure to transition hands
 
 ### 4. Using both hands for grip fighting without maintaining any frame against the attacker's body
 
-- **Consequence**: Attacker closes distance and increases chest pressure while you strip grips, re-establishing control immediately after your grip break and gaining even better finishing position.
-- **Correction**: Maintain at least one frame against the attacker's hip or chest while using the other hand for grip fighting. Alternate which hand frames and which fights grips. Preserve the space needed for eventual escape even while defending the immediate submission threat.
+- **Consequence**: Attacker closes distance and increases knee-line control while you strip grips, re-establishing control immediately after your grip break and gaining even better finishing position.
+- **Correction**: Manage the controlling foot and leg with the hands and free leg where reachable, while protecting the heel. Create room around the knee line before trying to recover a facing angle.
 
 
 

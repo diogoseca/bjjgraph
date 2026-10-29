@@ -20,38 +20,38 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Arm Extraction",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Armbar Defense",
+      "text": "From this position, attempt Armbar Defense. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Bridge and Roll",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hitchhiker Escape from Armbar",
-      "text": "From this position, attempt Hitchhiker Escape from Armbar. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Hip Escape to Turtle",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Hitchhiker Escape from Armbar",
+      "text": "From this position, attempt Hitchhiker Escape from Armbar. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,35 +165,35 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Favorite armbar escape",
-      "description": "Armbar Control (Bottom) film study: Favorite armbar escape, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
-      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Armbar escape to RNC",
-      "description": "Armbar Control (Bottom) film study: Armbar escape to RNC, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
-      "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Armbar stack escape",
-      "description": "Armbar Control (Bottom) film study: Armbar stack escape, taught by WNY MMA.",
+      "name": "BJJ Armbar Stack Escape",
+      "description": "Armbar Control (Bottom) film study: BJJ Armbar Stack Escape, taught by WNY MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lXpel1GO2Do/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lXpel1GO2Do",
       "url": "https://www.youtube.com/watch?v=lXpel1GO2Do",
       "creator": { "@type": "Person", "name": "WNY MMA" },
       "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar Escape: RNC",
+      "description": "Armbar Control (Bottom) film study: Armbar Escape: RNC, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
+      "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Armbar Control (Bottom) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
     }
   ]
 }
@@ -223,25 +223,25 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+![](https://www.youtube.com/watch?v=lXpel1GO2Do)
 
-<p class="clip-credit"><strong>Favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Armbar Stack Escape</strong> — taught by WNY MMA · 0:37 · <a href="https://www.youtube.com/watch?v=lXpel1GO2Do" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
-<div class="film-clip">
+<div class="film-clip film-clip--vertical">
 
 ![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
 
-<p class="clip-credit"><strong>Armbar escape to RNC</strong> — taught by ZombieProofBJJ · 1:03 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar Escape: RNC</strong> — taught by ZombieProofBJJ · 1:02 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
-<div class="film-clip">
+<div class="film-clip film-clip--vertical">
 
-![](https://www.youtube.com/watch?v=lXpel1GO2Do)
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
 
-<p class="clip-credit"><strong>Armbar stack escape</strong> — taught by WNY MMA · 0:37 · <a href="https://www.youtube.com/watch?v=lXpel1GO2Do" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -309,7 +309,7 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 **If opponent is attempting to drop back for the finish with legs loose:**
 - Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Armbar Defense/Attacker|Armbar Defense]]** → [[Positions/Closed Guard]] (Probability: 65%)
 
 
 **If opponent has tight control but arm is still bent:**

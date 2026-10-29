@@ -165,24 +165,13 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse De La Riva into a Knee Bar",
-      "description": "Reverse De La Riva Guard (Bottom) film study: Reverse De La Riva into a Knee Bar, taught by Pardee BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9cyNdPpL4-I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9cyNdPpL4-I",
-      "url": "https://www.youtube.com/watch?v=9cyNdPpL4-I",
-      "creator": { "@type": "Person", "name": "Pardee BJJ" },
-      "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Use Reverse De La Riva",
-      "description": "Reverse De La Riva Guard (Bottom) film study: How to Use Reverse De La Riva, taught by Lachlan Giles.",
+      "name": "How to Use Reverse De La Riva by Lachlan Giles",
+      "description": "Reverse De La Riva Guard (Bottom) film study: How to Use Reverse De La Riva by Lachlan Giles, taught by Lachlan Giles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_beJGS2-yIE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_beJGS2-yIE",
       "url": "https://www.youtube.com/watch?v=_beJGS2-yIE",
       "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT122S"
+      "duration": "PT121S"
     }
   ]
 }
@@ -212,17 +201,9 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9cyNdPpL4-I)
-
-<p class="clip-credit"><strong>Reverse De La Riva into a Knee Bar</strong> — taught by Pardee BJJ · 1:05 · <a href="https://www.youtube.com/watch?v=9cyNdPpL4-I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=_beJGS2-yIE)
 
-<p class="clip-credit"><strong>How to Use Reverse De La Riva</strong> — taught by Lachlan Giles · 2:02 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Use Reverse De La Riva by Lachlan Giles</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -291,7 +272,7 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 
 
 **If opponent stands up tall or attempts to disengage from hook engagement:**
-- Execute **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kiss of the Dragon from RDLR/Attacker|Kiss of the Dragon from RDLR]]** → [[Positions/Back Control]] (Probability: 60%)
 - Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
@@ -432,8 +413,8 @@ From established Reverse De La Riva position, practice elevating and rotating hi
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Foundations with Mikey Musumeci</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Reverse De La Riva Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dante-Leon-Reverse-De-La-Riva-System" data-cta="related-system-card" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Dante Leon: No-Gi Reverse De La Riva</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Reverse De La Riva Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dante-Leon-Wrestling-Up-From-Guard-System" data-cta="related-system-card" data-system-slug="systems/dante-leon-wrestling-up-from-guard-system" data-system-name="Dante Leon Wrestling Up From Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Dante Leon: Wrestling Up From Guard</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Reverse De La Riva Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Lachlan-Giles-K-Guard-System" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-k-guard-system" data-system-name="Lachlan Giles K-Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: K-Guard Entries and Offense</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Reverse De La Riva Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

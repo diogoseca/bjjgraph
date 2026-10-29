@@ -21,19 +21,19 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Ashi Garami",
-      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
@@ -165,35 +165,22 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Irimi ashi garami counter",
-      "description": "Ashi Garami (Bottom) film study: Irimi ashi garami counter, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
-      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT29S"
+      "name": "Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)",
+      "description": "Ashi Garami (Bottom) film study: Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pYnp2_gJIoM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pYnp2_gJIoM",
+      "url": "https://www.youtube.com/watch?v=pYnp2_gJIoM",
+      "duration": "PT330S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Stop Getting Leg Locked: Ashi Garami Defense Tips",
-      "description": "Ashi Garami (Bottom) film study: Stop Getting Leg Locked: Ashi Garami Defense Tips, taught by Brandon Mccaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mycu_0dRZg8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mycu_0dRZg8",
-      "url": "https://www.youtube.com/watch?v=mycu_0dRZg8",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
-      "duration": "PT331S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "50/50 Defense: Protecting Your Leg",
-      "description": "Ashi Garami (Bottom) film study: 50/50 Defense: Protecting Your Leg, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
-      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT161S"
+      "name": "Ashi Garami Explained: The Control System Behind Modern No-Gi",
+      "description": "Ashi Garami (Bottom) film study: Ashi Garami Explained: The Control System Behind Modern No-Gi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hhOOwMNfV-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hhOOwMNfV-0",
+      "url": "https://www.youtube.com/watch?v=hhOOwMNfV-0",
+      "duration": "PT606S"
     }
   ]
 }
@@ -227,25 +214,17 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+![](https://www.youtube.com/watch?v=pYnp2_gJIoM)
 
-<p class="clip-credit"><strong>Irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mycu_0dRZg8)
-
-<p class="clip-credit"><strong>Stop Getting Leg Locked: Ashi Garami Defense Tips</strong> — taught by Brandon Mccaghren · 5:31 · <a href="https://www.youtube.com/watch?v=mycu_0dRZg8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=pYnp2_gJIoM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+![](https://www.youtube.com/watch?v=hhOOwMNfV-0)
 
-<p class="clip-credit"><strong>50/50 Defense: Protecting Your Leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami Explained: The Control System Behind Modern No-Gi</strong> · 10:06 · <a href="https://www.youtube.com/watch?v=hhOOwMNfV-0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

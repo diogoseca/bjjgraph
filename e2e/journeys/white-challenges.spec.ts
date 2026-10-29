@@ -1,3 +1,4 @@
+// v1.230.0: Read/Watch retain saved sheet_opened evidence after Inspect retirement.
 import { expect, test } from "@playwright/test";
 import { journey } from "../dsl";
 
@@ -38,7 +39,7 @@ test.describe("White Challenges @curated", () => {
     ).toBe(false);
 
     // open a real move sheet: the option cards are the hand, and the sheet is what a card opens
-    await page.locator("[data-tech]").first().locator("[data-choice-inspect]").click();
+    await j.watchChoice((await page.locator("[data-tech]").first().getAttribute("data-tech"))!);
     await page.waitForTimeout(250);
     await j.expectBeat("sheet_opened");
     expect(
@@ -70,6 +71,7 @@ test.describe("White Challenges @curated", () => {
       return mc ? { correct: mc.correct } : null;
     });
     expect(question).toBeTruthy();
+    await j.openQuestion(); // U47 d: Answer for Points is separate consent; the following answer key records the objective.
     await page.keyboard.press("abcd"[question!.correct]);
     expect(
       await page.evaluate(

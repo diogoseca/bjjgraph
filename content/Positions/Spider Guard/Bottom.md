@@ -165,35 +165,35 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "13 spider guard sweeps in 64 seconds",
-      "description": "Spider Guard (Bottom) film study: 13 spider guard sweeps in 64 seconds, taught by The ROL Radio.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EQHr97AWDaM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EQHr97AWDaM",
-      "url": "https://www.youtube.com/watch?v=EQHr97AWDaM",
-      "creator": { "@type": "Person", "name": "The ROL Radio" },
-      "duration": "PT64S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Upgrade your spider guard",
-      "description": "Spider Guard (Bottom) film study: Upgrade your spider guard, taught by Romulo Barral.",
+      "name": "A SUA GUARDA-ARANHA NUNCA MAIS SER\u00c1 A MESMA DEPOIS DESSE V\u00cdDEO",
+      "description": "Spider Guard (Bottom) film study: A SUA GUARDA-ARANHA NUNCA MAIS SER\u00c1 A MESMA DEPOIS DESSE V\u00cdDEO, taught by Romulo Barral.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GENLH8FOczM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GENLH8FOczM",
       "url": "https://www.youtube.com/watch?v=GENLH8FOczM",
       "creator": { "@type": "Person", "name": "Romulo Barral" },
-      "duration": "PT208S"
+      "duration": "PT207S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider Guard  Mindset By Romulo Barral",
+      "description": "Spider Guard (Bottom) film study: Spider Guard  Mindset By Romulo Barral, taught by Romulo Barral.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D-VuUJqNDZc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D-VuUJqNDZc",
+      "url": "https://www.youtube.com/watch?v=D-VuUJqNDZc",
+      "creator": { "@type": "Person", "name": "Romulo Barral" },
+      "duration": "PT216S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Spider guard and biceps control",
-      "description": "Spider Guard (Bottom) film study: Spider guard and biceps control, taught by AJ Agazarm.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rRDmaMkOrSI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rRDmaMkOrSI",
-      "url": "https://www.youtube.com/watch?v=rRDmaMkOrSI",
-      "creator": { "@type": "Person", "name": "AJ Agazarm" },
-      "duration": "PT98S"
+      "name": "Spider Guard Entry Drill",
+      "description": "Spider Guard (Bottom) film study: Spider Guard Entry Drill, taught by Paragon Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aXTKuGGfwOs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aXTKuGGfwOs",
+      "url": "https://www.youtube.com/watch?v=aXTKuGGfwOs",
+      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu" },
+      "duration": "PT60S"
     }
   ]
 }
@@ -219,25 +219,25 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=EQHr97AWDaM)
-
-<p class="clip-credit"><strong>13 spider guard sweeps in 64 seconds</strong> — taught by The ROL Radio · 1:04 · <a href="https://www.youtube.com/watch?v=EQHr97AWDaM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=GENLH8FOczM)
 
-<p class="clip-credit"><strong>Upgrade your spider guard</strong> — taught by Romulo Barral · 3:28 · <a href="https://www.youtube.com/watch?v=GENLH8FOczM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>A SUA GUARDA-ARANHA NUNCA MAIS SERÁ A MESMA DEPOIS DESSE VÍDEO</strong> — taught by Romulo Barral · 3:27 · <a href="https://www.youtube.com/watch?v=GENLH8FOczM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rRDmaMkOrSI)
+![](https://www.youtube.com/watch?v=D-VuUJqNDZc)
 
-<p class="clip-credit"><strong>Spider guard and biceps control</strong> — taught by AJ Agazarm · 1:38 · <a href="https://www.youtube.com/watch?v=rRDmaMkOrSI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard  Mindset By Romulo Barral</strong> — taught by Romulo Barral · 3:36 · <a href="https://www.youtube.com/watch?v=D-VuUJqNDZc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aXTKuGGfwOs)
+
+<p class="clip-credit"><strong>Spider Guard Entry Drill</strong> — taught by Paragon Jiu-Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=aXTKuGGfwOs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -439,11 +439,11 @@ Start with compromised spider guard position (weak grips or poor foot placement)
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Spider Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ryan Hall: The Modern Triangle</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position: Spider Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Spider Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Spider Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: Spider Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Spider Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Spider Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position: Spider Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Edwin-Najmi-Submission-Attack-System" data-cta="related-system-card" data-system-slug="systems/edwin-najmi-submission-attack-system" data-system-name="Edwin Najmi Submission Attack System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Edwin Najmi: Darces, Triangles and Estima Locks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

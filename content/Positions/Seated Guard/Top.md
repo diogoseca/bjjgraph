@@ -165,35 +165,12 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing a Seated Guard With Underhooks",
-      "description": "Seated Guard (Top) film study: Passing a Seated Guard With Underhooks, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zT3JjOR838w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zT3JjOR838w",
-      "url": "https://www.youtube.com/watch?v=zT3JjOR838w",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT143S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Countering a Full Inversion While Passing",
-      "description": "Seated Guard (Top) film study: Countering a Full Inversion While Passing, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Application Against a Seated Opponent",
-      "description": "Seated Guard (Top) film study: Application Against a Seated Opponent, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Es7T1KjTUpI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Es7T1KjTUpI",
-      "url": "https://www.youtube.com/watch?v=Es7T1KjTUpI",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT157S"
+      "name": "How to Pass the Seated Guard in BJJ",
+      "description": "Seated Guard (Top) film study: How to Pass the Seated Guard in BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EmQ8Sloj1Oo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EmQ8Sloj1Oo",
+      "url": "https://www.youtube.com/watch?v=EmQ8Sloj1Oo",
+      "duration": "PT412S"
     }
   ]
 }
@@ -223,25 +200,9 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zT3JjOR838w)
+![](https://www.youtube.com/watch?v=EmQ8Sloj1Oo)
 
-<p class="clip-credit"><strong>Passing a Seated Guard With Underhooks</strong> — taught by John Danaher · 2:23 · <a href="https://www.youtube.com/watch?v=zT3JjOR838w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
-
-<p class="clip-credit"><strong>Countering a Full Inversion While Passing</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Es7T1KjTUpI)
-
-<p class="clip-credit"><strong>Application Against a Seated Opponent</strong> — taught by John Danaher · 2:37 · <a href="https://www.youtube.com/watch?v=Es7T1KjTUpI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Pass the Seated Guard in BJJ</strong> · 6:52 · <a href="https://www.youtube.com/watch?v=EmQ8Sloj1Oo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -459,7 +420,7 @@ Start with you standing/kneeling and partner in seated guard. Attempt to pass. P
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Leglocks — Enter The System</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Seated Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Seated Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Foundations with Mikey Musumeci</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Seated Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem: Ankle Picks</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

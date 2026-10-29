@@ -416,30 +416,11 @@
     "clips": [
       {
         "id": "yj_6xcl2emA",
-        "title": "Passing half guard knee shield with an inside knee cut",
-        "by": "War Room Jiu Jitsu",
-        "vertical": false,
+        "title": "How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class…",
         "channel": "War Room Jiu Jitsu",
         "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Freeing your trapped foot while passing half guard",
-        "by": "Kameron Ross",
         "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "TIsH40L5AVQ",
-        "title": "Double collar grip to knee slice pass",
-        "by": "Clube De Lutas",
-        "vertical": false,
-        "channel": "Clube De Lutas Australia",
-        "duration": 47,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -631,22 +612,11 @@
     ],
     "clips": [
       {
-        "id": "WMcD-_R-To0",
-        "title": "Stopping the pass when stuck under top half guard",
-        "by": "Trapp Martial Arts",
-        "vertical": false,
-        "channel": "Trapp Martial Arts",
-        "duration": 35,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dOdO6xJ-TcU",
-        "title": "Stopping the half guard underhook",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-15"
+        "id": "XhZs3IX_p2s",
+        "title": "Defending the cross knee pass and underhook from half guard",
+        "channel": "Inverted Gear",
+        "duration": 163,
+        "front": true
       }
     ]
   },

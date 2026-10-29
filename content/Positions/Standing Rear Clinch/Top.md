@@ -20,38 +20,38 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 13% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
       "text": "From this position, attempt Body Lock Pass. This technique is attempted in 3% of exchanges from this position.",
-      "position": 2
+      "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
       "text": "From this position, attempt Rolling Back Take. This technique is attempted in 2% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 21% of exchanges from this position.",
-      "position": 4
+      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 24% of exchanges from this position.",
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Finish",
-      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 6% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 7% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mat Return from Standing Rear Clinch",
-      "text": "From this position, attempt Mat Return from Standing Rear Clinch. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Mat Return from Standing Rear Clinch. This technique is attempted in 24% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rear Clinch to Body Lock",
+      "text": "From this position, attempt Rear Clinch to Body Lock. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,35 +165,12 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mat Return Drill from Rear Bodylock",
-      "description": "Standing Rear Clinch (Top) film study: Mat Return Drill from Rear Bodylock, taught by Nicky Rodriguez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GKrJsIYmycM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GKrJsIYmycM",
-      "url": "https://www.youtube.com/watch?v=GKrJsIYmycM",
-      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
-      "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Bodylock to Back Take",
-      "description": "Standing Rear Clinch (Top) film study: Bodylock to Back Take, taught by Diogo Reis.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iPXirj0gvko/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iPXirj0gvko",
-      "url": "https://www.youtube.com/watch?v=iPXirj0gvko",
-      "creator": { "@type": "Person", "name": "Diogo Reis" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Leg Switch Cutback from Rear Bodylock",
-      "description": "Standing Rear Clinch (Top) film study: Leg Switch Cutback from Rear Bodylock, taught by Procel BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
-      "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
-      "duration": "PT52S"
+      "name": "3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson\u2026",
+      "description": "Standing Rear Clinch (Top) film study: 3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lF5kkB2rq5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lF5kkB2rq5Y",
+      "url": "https://www.youtube.com/watch?v=lF5kkB2rq5Y",
+      "duration": "PT194S"
     }
   ]
 }
@@ -223,25 +200,9 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GKrJsIYmycM)
+![](https://www.youtube.com/watch?v=lF5kkB2rq5Y)
 
-<p class="clip-credit"><strong>Mat Return Drill from Rear Bodylock</strong> — taught by Nicky Rodriguez · 1:24 · <a href="https://www.youtube.com/watch?v=GKrJsIYmycM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iPXirj0gvko)
-
-<p class="clip-credit"><strong>Bodylock to Back Take</strong> — taught by Diogo Reis · 0:36 · <a href="https://www.youtube.com/watch?v=iPXirj0gvko" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2VCyaassiRI)
-
-<p class="clip-credit"><strong>Leg Switch Cutback from Rear Bodylock</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson…</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=lF5kkB2rq5Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -302,7 +263,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 **If opponent sits to guard with back exposed maintaining poor defensive posture:**
 - Execute **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 **If opponent drops to hands and knees attempting turtle defensive position:**

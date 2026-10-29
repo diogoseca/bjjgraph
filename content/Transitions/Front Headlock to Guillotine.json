@@ -397,22 +397,11 @@
     "safety_considerations": "When practicing the Front Headlock to Guillotine transition, both partners must maintain clear communication and respect tap signals immediately. The guillotine choke can cause loss of consciousness within 4-6 seconds when properly applied, so practitioners should tap early rather than risk injury. When drilling, apply pressure gradually and progressively, never jerking or slamming the choke on suddenly. Partners should be especially careful during the transition phase when the practitioner is adjusting their grip, as this is when the opponent's neck is most vulnerable to awkward pressure or cranking. Beginners should practice with very light pressure, focusing on positioning and mechanics rather than finishing the choke. When the choking partner feels a tap, they should release immediately and create space. The person being choked should tap on their partner's body, the mat, or verbally if their arms are controlled. Never attempt this technique with full force on training partners who are significantly smaller or less experienced, and always err on the side of caution when practicing. In competition scenarios, recognize that your opponent may not tap until unconsciousness is imminent, so be prepared to hold the position consistently but also to recognize when to release if a referee intervenes. Avoid practicing this technique when fatigued, as tired athletes are more likely to apply dangerous pressure or fail to recognize a tap in time.",
     "clips": [
       {
-        "id": "V8mEHRoiX1U",
-        "title": "Snapdown to Guillotine",
-        "by": "Alec Hooben",
-        "vertical": false,
-        "channel": "Alec Hooben",
-        "duration": 68,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "GgXRLKAm9pY",
-        "title": "Guillotine from the Front Headlock",
-        "by": "Chris Jones",
-        "vertical": false,
+        "title": "Guillotine From Front Headlock - Technique Of The Month #7",
         "channel": "Chris Jones",
         "duration": 97,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -596,29 +585,10 @@
       {
         "id": "OQYU2BXdEEw",
         "title": "Guillotine Choke Defense",
-        "by": "Todd Hendrickson",
-        "vertical": false,
-        "channel": "Todd Hendrickson Jiu Jitsu",
+        "channel": "Hendrickson Combatives",
         "duration": 51,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8okq4cIHMO0",
-        "title": "Standing Guillotine Escape",
-        "by": "Dogtownman",
         "vertical": false,
-        "channel": "dogtownman",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "k5BNGdsb5P4",
-        "title": "Standing Guillotine Defense with Sitting Throw",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
-        "channel": "Gracie Charlottesville",
-        "duration": 23,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

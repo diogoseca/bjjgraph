@@ -156,24 +156,22 @@ description: "Defend the Ezekiel Choke from mount bottom. Recognize sleeve grip 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defense to the ezekiel choke",
-      "description": "Ezekiel Choke from Mount (Defender) film study: Defense to the ezekiel choke, taught by Gracie Ohio Jiu-Jitsu.",
+      "name": "Defense to the Ezekiel Choke",
+      "description": "Ezekiel Choke from Mount (Defender) film study: Defense to the Ezekiel Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AaZPuF7ppY8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AaZPuF7ppY8",
       "url": "https://www.youtube.com/watch?v=AaZPuF7ppY8",
-      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu" },
       "duration": "PT176S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Five ways out of the mount",
-      "description": "Ezekiel Choke from Mount (Defender) film study: Five ways out of the mount, taught by Knight Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pw_9ZZLkkNI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pw_9ZZLkkNI",
-      "url": "https://www.youtube.com/watch?v=pw_9ZZLkkNI",
-      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
-      "duration": "PT505S"
+      "name": "BJJ Basics: Ezekiel Choke Escape from Mount Late Stage",
+      "description": "Ezekiel Choke from Mount (Defender) film study: BJJ Basics: Ezekiel Choke Escape from Mount Late Stage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y70_wbEGmng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y70_wbEGmng",
+      "url": "https://www.youtube.com/watch?v=y70_wbEGmng",
+      "duration": "PT225S"
     }
   ]
 }
@@ -204,15 +202,15 @@ Defending the Ezekiel Choke from mount bottom compounds the challenge of an alre
 
 ![](https://www.youtube.com/watch?v=AaZPuF7ppY8)
 
-<p class="clip-credit"><strong>Defense to the ezekiel choke</strong> — taught by Gracie Ohio Jiu-Jitsu · 2:56 · <a href="https://www.youtube.com/watch?v=AaZPuF7ppY8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defense to the Ezekiel Choke</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=AaZPuF7ppY8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pw_9ZZLkkNI)
+![](https://www.youtube.com/watch?v=y70_wbEGmng)
 
-<p class="clip-credit"><strong>Five ways out of the mount</strong> — taught by Knight Jiu-Jitsu · 8:25 · <a href="https://www.youtube.com/watch?v=pw_9ZZLkkNI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Basics: Ezekiel Choke Escape from Mount Late Stage</strong> · 3:45 · <a href="https://www.youtube.com/watch?v=y70_wbEGmng" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

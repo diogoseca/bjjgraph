@@ -192,23 +192,11 @@ description: "How to execute Half Guard to Back Take in BJJ. Attacking perspecti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back take from half guard using a butterfly hook",
-      "description": "Half Guard to Back Take (Attacker) film study: Back take from half guard using a butterfly hook, taught by Procel.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WoSyrVZ1VvY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WoSyrVZ1VvY",
-      "url": "https://www.youtube.com/watch?v=WoSyrVZ1VvY",
-      "creator": { "@type": "Person", "name": "Procel" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back take from half guard bottom",
-      "description": "Half Guard to Back Take (Attacker) film study: Back take from half guard bottom, taught by BJJ Recap coach.",
+      "name": "Joe Rogan inspired backtake from half guard | BJJ passes",
+      "description": "Half Guard to Back Take (Attacker) film study: Joe Rogan inspired backtake from half guard | BJJ passes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XqH1Bt0-AgY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XqH1Bt0-AgY",
       "url": "https://www.youtube.com/watch?v=XqH1Bt0-AgY",
-      "creator": { "@type": "Person", "name": "BJJ Recap coach" },
       "duration": "PT39S"
     }
   ]
@@ -237,17 +225,9 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=WoSyrVZ1VvY)
-
-<p class="clip-credit"><strong>Back take from half guard using a butterfly hook</strong> — taught by Procel · 0:55 · <a href="https://www.youtube.com/watch?v=WoSyrVZ1VvY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=XqH1Bt0-AgY)
 
-<p class="clip-credit"><strong>Back take from half guard bottom</strong> — taught by BJJ Recap coach · 0:39 · <a href="https://www.youtube.com/watch?v=XqH1Bt0-AgY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Joe Rogan inspired backtake from half guard | BJJ passes</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=XqH1Bt0-AgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -419,7 +399,7 @@ Ensure controlled execution to avoid injury during the transition. Maintain awar
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Twister and Truck Entries</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovering Closed Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Half Guard to Back Take: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Tom DeBlass: The Lockdown Blueprint</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

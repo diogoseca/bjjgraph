@@ -399,21 +399,10 @@
     "clips": [
       {
         "id": "4gzXKLfRlYY",
-        "title": "Twister Roll to Calf Slicer",
-        "by": "Asaf Mich",
-        "vertical": false,
+        "title": "X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER",
         "channel": "Asaf Mich",
         "duration": 82,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "odT3-cVWXdc",
-        "title": "Twister Side Attacks",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -585,34 +574,6 @@
         "description": "Defend against the calf slicer from twister control with the partner applying full resistance and finishing intent. Practice the complete defensive sequence from recognition through prevention to escape or tap decision-making under realistic competition-intensity conditions."
       }
     ],
-    "clips": [
-      {
-        "id": "Va1YNgx2E6M",
-        "title": "Escaping and countering twister control",
-        "by": "Matrix Jiu Jitsu",
-        "vertical": false,
-        "channel": "Matrix Jiu Jitsu",
-        "duration": 165,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "oNCcwLYDM_g",
-        "title": "Twister defense and escape breakdown",
-        "by": "Unknown coach",
-        "vertical": false,
-        "channel": "m mill",
-        "duration": 201,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hXp34AtDjac",
-        "title": "Escaping twister side control",
-        "by": "Black Dragon BJJ coach",
-        "vertical": false,
-        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
-        "duration": 291,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

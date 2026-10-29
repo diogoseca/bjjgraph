@@ -3,23 +3,24 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "767f6cb99e6137e633abba11abf7597eb042bdb3",
+   "git_head": "7e7a0ffde1226680f96f16dcb0bb40989ff3b183",
    "inputs": {
-    "tree": "22d267c39d81d8448adec0f53f1d82b197e8c11f"
+    "tree": "88d7dcb9015f99556c8f324f4b82721407e224ec"
    },
-   "package_version": "1.224.13",
+   "package_version": "1.237.0",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-dead-clips-75b323227/pr-dead-clips-75b323227",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/redirects-capture/capture/pr-redirects-cf-limits-0454f665b",
   "content_provenance": {
-   "capture_git_head": "75b323227fcaa4cb24c48472c8715fb969b1201f",
-   "capture_id": "b0f94acd8c0e46fab6c89ffea31053af",
+   "capture_git_head": "0454f665b3279744b5283cfc31fb5dcc236fa0dd",
+   "capture_id": "58829c26eefd4939b31c04f955f70d1c",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
-   "content_files": 6412,
-   "content_md": 4601,
-   "content_tree": "1bc475940b941d320bf97d71b09de9c20b35b734",
+   "content_files": 6291,
+   "content_md": 4519,
+   "content_scope": "content-excluding-obsidian-v1",
+   "content_tree": "75ed91385879513fc75f42e0560371c8fa5e8925",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -43,12 +44,12 @@
     }
    },
    "output_identity": {
-    "files": 16001,
-    "sha256": "c2210efd31f8b660d0a6baae5c8749ef1a8897c51b9f64248fc2b457e1e776b8"
+    "files": 15726,
+    "sha256": "1589ba3e4a5af1436ed735caa93c3c9df9537bf3b3ccdd18bf0284a1e5326137"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-dead-clips-75b323227/pr-dead-clips-75b323227"
+    "/home/user/bjj-orchestrator/scratch/redirects-capture/capture/pr-redirects-cf-limits-0454f665b"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -57,29 +58,29 @@
  },
  "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update (and a guarded capture's receipt) whenever the emit legitimately changes (content edits move article_links and the @type histogram), or with --update-app-assets when only static/neural/app/** moved, and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
  "app_assets": {
-  "count": 12,
+  "count": 14,
   "files": {
    "static/neural/app/choice-values.js": {
-    "bytes": 19998,
-    "sha256": "08199540914912e852e47fa193bc1a89305248fe97f9d40e2d1bc7c1420d419f"
+    "bytes": 18792,
+    "sha256": "3ca50aa4672e1df6efd0bdd8d5e83265c340a17f3d319ccaceea82d5f6db6908"
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "ed322ab3e6bafb6b682d81453d6958685455501cbbd71075ccc831d832a9213d"
+    "sha256": "9f5f0597d9641f066556b64a1d1313074f74f5bb2756ca45fa0cdfc06bbf65b0"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "94025fa4d59d9e64abb050ba88777dd592c7ba41bacb152b17f91ef262865f3a",
+    "sha256": "2d870c26e172dda1001f78b03346554bdc4e5b662e86860e916fa86223565341",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "99f40fd1a72d38ab12631caaa101493976395740d2796b5310a9e3ccf0232e0a",
+    "sha256": "6e587b83eb2395f688b45a1ce5f94837605d83c966d8b1dca924a2c20ae71230",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "178feaa92fafeb95390b10fba8bc8f109a4fcc69fd8bf4ef87659348b9186dfc",
+    "sha256": "d245a4634c364a2db7f8f363adce9743e488a8b15d61b559cb48876a1489c5ea",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
@@ -90,26 +91,34 @@
     "bytes": 8503,
     "sha256": "df5c7cc44b72f51be63a84b5b3e42df67bef67e448a561b176b20c0e57204f23"
    },
+   "static/neural/app/mastery-gold.js": {
+    "bytes": 1412,
+    "sha256": "d807ef6f5dc3649d41932f2145b6716a61bd9386a1459974180854ef1e10dbf2"
+   },
    "static/neural/app/neural.css": {
-    "bytes": 41201,
-    "sha256": "c82c317592daaa88c9e29bcacd2c90f3933ed5c0864aa9fd3480fb15ee8d631e"
+    "bytes": 46362,
+    "sha256": "0a21240a9eaa400c2d599b904d147943336ad5c3522271e7f04327827115f4a6"
    },
    "static/neural/app/neural.js": {
-    "bytes": 686827,
-    "sha256": "96e7410167829b99c7998a24dd924551cdd6744e49daba735fdaaa1173c7a942",
+    "bytes": 678762,
+    "sha256": "a22496f317111066ce40502668cc91ac3589e23bcd1aff88bcdf6d6ed72e053c",
     "version_token": "normalised"
    },
+   "static/neural/app/reader.js": {
+    "bytes": 42451,
+    "sha256": "2f6404226e1436df33fce7f4c0f61082e3fd8036990fadbc70af762433fbc452"
+   },
    "static/neural/app/reading.css": {
-    "bytes": 2104,
-    "sha256": "6f19fbb8330533c0bf2b3f6a8e2328f12df77bfd53f02021bd9564711062f206"
+    "bytes": 10697,
+    "sha256": "47218de6c06f85e6005009f7c29bfd133f469613dbb9b548ce639eaf71bc0c85"
    },
    "static/neural/app/reference.css": {
     "bytes": 15360,
     "sha256": "dc1c8ffede52936811c93d809eed54bacf71d83faf087dcded336f13c42e25d7"
    },
    "static/neural/app/settings-ui.js": {
-    "bytes": 19592,
-    "sha256": "89abbaf6e257162375cace52c27c53254a1510ba27b5d612ef8d2e12dcbbda1b",
+    "bytes": 21239,
+    "sha256": "60338014312d5567f18f0b2d85a0958a93d4c842ecd84000f5e0e87a45d9303f",
     "version_token": "normalised"
    }
   }
@@ -138,11 +147,11 @@
   "binary": 16,
   "css": 17,
   "gzip": 1,
-  "html": 6212,
-  "js": 39,
-  "json_opaque": 5037,
+  "html": 6102,
+  "js": 41,
+  "json_opaque": 4953,
   "json_semantic": 5,
-  "text_opaque": 4665,
+  "text_opaque": 4582,
   "text_semantic": 7,
   "xml": 2
  },
@@ -150,96 +159,96 @@
   ".well-known": 2,
   "<root>": 30,
   "Learning": 27,
-  "Positions": 541,
+  "Positions": 537,
   "Principles": 64,
-  "Submissions": 1298,
+  "Submissions": 1284,
   "Systems": 84,
-  "Transitions": 4101,
+  "Transitions": 4009,
   "dev": 59,
-  "markdown": 4599,
-  "static": 5123,
+  "markdown": 4517,
+  "static": 5040,
   "tags": 73
  },
  "census": {
-  "article_headings": 94291,
-  "article_links": 213116,
-  "files": 16001,
+  "article_headings": 89550,
+  "article_links": 194612,
+  "files": 15726,
   "gzip_files": 1,
-  "head_links": 49759,
-  "html_pages": 6212,
-  "jsonld_blocks": 33517,
-  "meta_tags": 130097,
-  "outside_links": 149868,
-  "pages_with_article": 6201,
-  "pages_with_canonical": 6204,
-  "pages_with_description": 6207,
-  "pages_with_og_title": 6201,
-  "pages_with_outside_links": 6208,
-  "pages_with_title": 6212,
+  "head_links": 48879,
+  "html_pages": 6102,
+  "jsonld_blocks": 30111,
+  "meta_tags": 127787,
+  "outside_links": 144137,
+  "pages_with_article": 6091,
+  "pages_with_canonical": 6094,
+  "pages_with_description": 6097,
+  "pages_with_og_title": 6091,
+  "pages_with_outside_links": 6098,
+  "pages_with_title": 6102,
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 5123
+  "static_files": 5040
  },
  "distinct_values": {
-  "name=description": 4563,
-  "property=og:title": 4675
+  "name=description": 4454,
+  "property=og:title": 4593
  },
  "jsonld_types": {
   "Article": 26,
-  "BreadcrumbList": 6029,
-  "CollectionPage": 126,
-  "DefinedTerm": 3111,
-  "FAQPage": 3121,
-  "HowTo": 2969,
-  "ItemList": 5968,
-  "Organization": 6201,
+  "BreadcrumbList": 5919,
+  "CollectionPage": 124,
+  "DefinedTerm": 3055,
+  "FAQPage": 3065,
+  "HowTo": 2915,
+  "ItemList": 3058,
+  "Organization": 6091,
   "WebApplication": 2,
-  "WebPage": 5962,
+  "WebPage": 5854,
   "WebSite": 2
  },
  "markers": {
-  "body:data-current-role": 6201,
-  "body:data-slug": 6201,
-  "class:category-nav": 6201,
-  "class:popover-hint": 6201,
-  "class:search": 6201,
-  "id:page-graph-data": 4545,
-  "id:quartz-body": 6201,
-  "id:quartz-root": 6201,
-  "id:sidebar-overlay": 6201,
-  "js:__rollPositions": 6201,
+  "body:data-current-role": 6091,
+  "body:data-slug": 6091,
+  "class:category-nav": 6091,
+  "class:popover-hint": 6091,
+  "class:search": 6091,
+  "id:page-graph-data": 4463,
+  "id:quartz-body": 6091,
+  "id:quartz-root": 6091,
+  "id:sidebar-overlay": 6091,
+  "js:__rollPositions": 6091,
   "meta:robots": 12,
-  "tag:article": 6201,
-  "tag:footer": 6201,
-  "tag:main": 6079,
-  "tag:nav": 6202
+  "tag:article": 6091,
+  "tag:footer": 6091,
+  "tag:main": 5969,
+  "tag:nav": 6092
  },
  "meta_keys": {
   "charset=UTF-8": 6,
-  "charset=utf-8": 6206,
+  "charset=utf-8": 6096,
   "http-equiv=refresh": 3,
-  "name=description": 6207,
-  "name=generator": 6201,
+  "name=description": 6097,
+  "name=generator": 6091,
   "name=robots": 12,
-  "name=theme-color": 6201,
-  "name=twitter:card": 6201,
-  "name=twitter:description": 6201,
-  "name=twitter:image": 6201,
-  "name=twitter:image:alt": 6201,
-  "name=twitter:title": 6201,
-  "name=viewport": 6209,
-  "property=article:modified_time": 6119,
-  "property=article:published_time": 6119,
-  "property=og:description": 6201,
-  "property=og:height": 6201,
-  "property=og:image": 6201,
-  "property=og:locale": 6201,
-  "property=og:site_name": 6201,
-  "property=og:title": 6201,
-  "property=og:type": 6201,
-  "property=og:url": 6201,
-  "property=og:width": 6201
+  "name=theme-color": 6091,
+  "name=twitter:card": 6091,
+  "name=twitter:description": 6091,
+  "name=twitter:image": 6091,
+  "name=twitter:image:alt": 6091,
+  "name=twitter:title": 6091,
+  "name=viewport": 6099,
+  "property=article:modified_time": 6009,
+  "property=article:published_time": 6009,
+  "property=og:description": 6091,
+  "property=og:height": 6091,
+  "property=og:image": 6091,
+  "property=og:locale": 6091,
+  "property=og:site_name": 6091,
+  "property=og:title": 6091,
+  "property=og:type": 6091,
+  "property=og:url": 6091,
+  "property=og:width": 6091
  },
  "zeros": {
   "gzip_decompress_errors": 0,

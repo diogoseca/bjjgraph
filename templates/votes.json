@@ -307,36 +307,6 @@
         }
       }
     },
-    "Anaconda Control to Dead Orchard Control": {
-      "community": {
-        "gi": {
-          "success_rate": 60.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 60.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 47,
-          "pseudo_count": 7,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 42,
-          "pseudo_count": 7,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
-        }
-      }
-    },
     "Anaconda Finish from Dead Orchard": {
       "community": {
         "gi": {
@@ -587,6 +557,16 @@
           "success_rate": 50.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        }
       }
     },
     "Aoki Lock Finish": {
@@ -598,66 +578,6 @@
         "nogi": {
           "success_rate": 50.0,
           "vote_count": 30
-        }
-      }
-    },
-    "Aoki Lock to Back Control": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 46,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 52,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
-        }
-      }
-    },
-    "Aoki Lock to Crucifix": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 42,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 42,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
         }
       }
     },
@@ -869,6 +789,24 @@
           "success_rate": 58.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
       }
     },
     "Arm Extraction from Clamp Guard": {
@@ -890,36 +828,6 @@
         },
         "nogi": {
           "success_rate": 48,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
-        }
-      }
-    },
-    "Arm Extraction to Turtle": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 37,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 37,
           "pseudo_count": 8,
           "extrapolated": false
         },
@@ -1012,18 +920,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": true,
           "override": false
-        }
-      }
-    },
-    "Arm Triangle Transition": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
         }
       }
     },
@@ -1687,36 +1583,6 @@
         }
       }
     },
-    "Back Take": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 36,
-          "pseudo_count": 7,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 36,
-          "pseudo_count": 7,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
-        }
-      }
-    },
     "Back Take from 50-50": {
       "community": {
         "gi": {
@@ -1814,12 +1680,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 30,
+          "success_rate": 35,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 30,
+          "success_rate": 35,
           "pseudo_count": 8,
           "extrapolated": false
         },
@@ -1852,36 +1718,6 @@
         "nogi": {
           "success_rate": 58.0,
           "vote_count": 30
-        }
-      }
-    },
-    "Back Take from Top": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 44,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 44,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
         }
       }
     },
@@ -2045,6 +1881,24 @@
           "success_rate": 55.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
       }
     },
     "Backstep from Reverse Half": {
@@ -2146,36 +2000,6 @@
         "nogi": {
           "success_rate": 55.0,
           "vote_count": 30
-        }
-      }
-    },
-    "Base Attack to Sweep": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 17,
-          "pseudo_count": 7,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 17,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
         }
       }
     },
@@ -2828,12 +2652,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 37,
+          "success_rate": 35,
           "pseudo_count": 8,
           "extrapolated": true
         },
         "nogi": {
-          "success_rate": 41,
+          "success_rate": 35,
           "pseudo_count": 8,
           "extrapolated": true
         },
@@ -2855,17 +2679,15 @@
           "success_rate": 55.0,
           "vote_count": 30
         }
-      }
-    },
-    "Buggy Choke to Side Control": {
-      "community": {
+      },
+      "prior": {
         "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
+          "success_rate": 35,
+          "pseudo_count": 3
         },
         "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
+          "success_rate": 35,
+          "pseudo_count": 3
         }
       }
     },
@@ -3127,36 +2949,6 @@
         }
       }
     },
-    "Butterfly Sweep with Guillotine": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 39,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 44,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
-        }
-      }
-    },
     "Calf Slicer": {
       "community": {
         "gi": {
@@ -3226,6 +3018,24 @@
         "nogi": {
           "success_rate": 40.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -3532,6 +3342,24 @@
         "nogi": {
           "success_rate": 55.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -3997,18 +3825,6 @@
         }
       }
     },
-    "Crackhead Control to Carni": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Crackhead Control to Mission Control": {
       "community": {
         "gi": {
@@ -4018,6 +3834,24 @@
         "nogi": {
           "success_rate": 58.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 65,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 65,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -4030,6 +3864,24 @@
         "nogi": {
           "success_rate": 58.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 45,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 45,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -4543,18 +4395,6 @@
         }
       }
     },
-    "Dead Orchard to Darce Switch": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Deashi Harai": {
       "community": {
         "gi": {
@@ -4736,20 +4576,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 33,
+          "success_rate": 35,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "nogi": {
-          "success_rate": 37,
+          "success_rate": 35,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
           "reviewed": true,
-          "override": false
+          "override": true
         }
       }
     },
@@ -4951,18 +4791,6 @@
         }
       }
     },
-    "Double Underhook Pass": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Duck Under": {
       "community": {
         "gi": {
@@ -5083,36 +4911,6 @@
         }
       }
     },
-    "Elbow Escape to Remove Hooks": {
-      "community": {
-        "gi": {
-          "success_rate": 48.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 48.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 23,
-          "pseudo_count": 7,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 23,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
-        }
-      }
-    },
     "Electric Chair Entry from Deep Half": {
       "community": {
         "gi": {
@@ -5225,6 +5023,16 @@
           "success_rate": 55.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 65,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 65,
+          "pseudo_count": 3
+        }
       }
     },
     "Escape Dead Orchard Control": {
@@ -5240,20 +5048,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 38,
+          "success_rate": 30,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "nogi": {
-          "success_rate": 34,
+          "success_rate": 30,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
           "reviewed": true,
-          "override": false
+          "override": true
         }
       }
     },
@@ -5437,18 +5245,6 @@
         }
       }
     },
-    "Escape Zombie Control": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Escape from Crab Ride": {
       "community": {
         "gi": {
@@ -5482,6 +5278,24 @@
         "nogi": {
           "success_rate": 35.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 65,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 65,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -5882,48 +5696,6 @@
       }
     },
     "Fight to Inside Ashi from Saddle": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Finish Buggy Choke": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 24,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 20,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
-        }
-      }
-    },
-    "Finish from Hindulotine": {
       "community": {
         "gi": {
           "success_rate": 55.0,
@@ -6752,12 +6524,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 39,
+          "success_rate": 35,
           "pseudo_count": 7,
           "extrapolated": true
         },
         "nogi": {
-          "success_rate": 44,
+          "success_rate": 35,
           "pseudo_count": 8,
           "extrapolated": true
         },
@@ -6765,36 +6537,6 @@
           "source": "calibrate+review",
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": true,
-          "override": false
-        }
-      }
-    },
-    "Granby to Closed Guard": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 40,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 40,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
           "override": false
         }
       }
@@ -6875,6 +6617,16 @@
           "success_rate": 55.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        }
       }
     },
     "Guard Opening Sequence": {
@@ -6916,6 +6668,16 @@
         "nogi": {
           "success_rate": 50.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3
         }
       }
     },
@@ -7148,12 +6910,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 50,
+          "success_rate": 60,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 50,
+          "success_rate": 60,
           "pseudo_count": 8,
           "extrapolated": false
         },
@@ -7294,6 +7056,16 @@
         "nogi": {
           "success_rate": 45.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 65,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 65,
+          "pseudo_count": 3
         }
       }
     },
@@ -7717,18 +7489,6 @@
         }
       }
     },
-    "Hand Fighting to Remove Collar Grip": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Harai Goshi": {
       "community": {
         "gi": {
@@ -7963,36 +7723,6 @@
         }
       }
     },
-    "High Elbow Guillotine Variation": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 39,
-          "pseudo_count": 7,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 46,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
-        }
-      }
-    },
     "High Guard to Rubber Guard": {
       "community": {
         "gi": {
@@ -8051,35 +7781,15 @@
           "success_rate": 58.0,
           "vote_count": 30
         }
-      }
-    },
-    "Hindulotine to Darce Choke": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
       },
       "prior": {
         "gi": {
-          "success_rate": 32,
-          "pseudo_count": 8,
-          "extrapolated": false
+          "success_rate": 35,
+          "pseudo_count": 3
         },
         "nogi": {
-          "success_rate": 32,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
+          "success_rate": 35,
+          "pseudo_count": 3
         }
       }
     },
@@ -8386,36 +8096,6 @@
         "nogi": {
           "success_rate": 55.0,
           "vote_count": 30
-        }
-      }
-    },
-    "Hook Leg and Take Back": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 39,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 39,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
         }
       }
     },
@@ -8933,6 +8613,16 @@
           "success_rate": 58.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        }
       }
     },
     "Jumping Guard": {
@@ -9134,36 +8824,6 @@
         },
         "nogi": {
           "success_rate": 39,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
-        }
-      }
-    },
-    "Kimura Switch": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 38,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 38,
           "pseudo_count": 8,
           "extrapolated": false
         },
@@ -9441,36 +9101,6 @@
           "source": "calibrate+review",
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
-          "override": false
-        }
-      }
-    },
-    "Kiss of the Dragon": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 35,
-          "pseudo_count": 7,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 29,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
           "override": false
         }
       }
@@ -9987,36 +9617,6 @@
           "source": "calibrate+review",
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
-          "override": false
-        }
-      }
-    },
-    "Kneebar Finish": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 37,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 32,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
           "override": false
         }
       }
@@ -11195,6 +10795,24 @@
           "success_rate": 55.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
       }
     },
     "Leg Weave Pass": {
@@ -11224,18 +10842,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
           "override": false
-        }
-      }
-    },
-    "Leg Weave Pass Completion": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
         }
       }
     },
@@ -11967,18 +11573,6 @@
         },
         "nogi": {
           "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "New York Control to Zombie": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
           "vote_count": 30
         }
       }
@@ -13079,6 +12673,16 @@
           "success_rate": 50.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        }
       }
     },
     "Posture Recovery from Diamond Guard": {
@@ -13127,6 +12731,16 @@
           "success_rate": 48.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        }
       }
     },
     "Posture Recovery to Closed Guard": {
@@ -13142,20 +12756,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 33,
+          "success_rate": 40,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "nogi": {
-          "success_rate": 26,
+          "success_rate": 40,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
           "reviewed": true,
-          "override": false
+          "override": true
         }
       }
     },
@@ -13204,6 +12818,16 @@
         "nogi": {
           "success_rate": 55.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3
         }
       }
     },
@@ -13333,18 +12957,6 @@
         }
       }
     },
-    "Pressure Pass through Center": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Pressure Through Squid Guard": {
       "community": {
         "gi": {
@@ -13378,6 +12990,16 @@
         "nogi": {
           "success_rate": 58.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 45,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 45,
+          "pseudo_count": 3
         }
       }
     },
@@ -14323,30 +13945,6 @@
         }
       }
     },
-    "Roll from Chill Dog": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Roll from Dead Orchard": {
-      "community": {
-        "gi": {
-          "success_rate": 40.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 40.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Roll from Rodeo Ride": {
       "community": {
         "gi": {
@@ -14384,12 +13982,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 34,
+          "success_rate": 35,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 34,
+          "success_rate": 35,
           "pseudo_count": 8,
           "extrapolated": false
         },
@@ -14440,36 +14038,6 @@
         "nogi": {
           "success_rate": 45.0,
           "vote_count": 30
-        }
-      }
-    },
-    "Roll to Truck": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 33,
-          "pseudo_count": 7,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 40,
-          "pseudo_count": 7,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
         }
       }
     },
@@ -14578,36 +14146,6 @@
         "nogi": {
           "success_rate": 50.0,
           "vote_count": 30
-        }
-      }
-    },
-    "Rolling Escape to Guard": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 28,
-          "pseudo_count": 7,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 28,
-          "pseudo_count": 7,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
         }
       }
     },
@@ -14728,6 +14266,24 @@
         "nogi": {
           "success_rate": 55.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -15722,12 +15278,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 43,
+          "success_rate": 40,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 43,
+          "success_rate": 40,
           "pseudo_count": 7,
           "extrapolated": false
         },
@@ -16285,18 +15841,6 @@
         }
       }
     },
-    "Stack Pass from Carni": {
-      "community": {
-        "gi": {
-          "success_rate": 45.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 45.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Stack Pass from Clamp Guard": {
       "community": {
         "gi": {
@@ -16445,6 +15989,16 @@
           "success_rate": 45.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        }
       }
     },
     "Stack from Inverted": {
@@ -16580,12 +16134,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 41,
+          "success_rate": 30,
           "pseudo_count": 8,
           "extrapolated": true
         },
         "nogi": {
-          "success_rate": 36,
+          "success_rate": 30,
           "pseudo_count": 7,
           "extrapolated": true
         },
@@ -16961,6 +16515,16 @@
           "success_rate": 55.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 45,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 45,
+          "pseudo_count": 3
+        }
       }
     },
     "Strip Lapel from Piranha": {
@@ -17234,8 +16798,22 @@
           "vote_count": 30
         },
         "nogi": {
-          "success_rate": 40.0,
+          "success_rate": null,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": null,
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -17383,48 +16961,6 @@
         }
       }
     },
-    "Sweep to Mount": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Switch to Anaconda Configuration": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 46,
-          "pseudo_count": 8,
-          "extrapolated": false
-        },
-        "nogi": {
-          "success_rate": 46,
-          "pseudo_count": 7,
-          "extrapolated": false
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
-        }
-      }
-    },
     "Switch to Darce Configuration": {
       "community": {
         "gi": {
@@ -17438,12 +16974,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 45,
+          "success_rate": 40,
           "pseudo_count": 8,
           "extrapolated": true
         },
         "nogi": {
-          "success_rate": 39,
+          "success_rate": 40,
           "pseudo_count": 8,
           "extrapolated": true
         },
@@ -17686,18 +17222,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
           "override": false
-        }
-      }
-    },
-    "Technical Standup from Inversion": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
         }
       }
     },
@@ -17998,18 +17522,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
           "override": false
-        }
-      }
-    },
-    "Toreando from Inverted": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
         }
       }
     },
@@ -18518,7 +18030,7 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 44,
+          "success_rate": 40,
           "pseudo_count": 8,
           "extrapolated": true
         },
@@ -18572,18 +18084,6 @@
       }
     },
     "Turn into Opponent from Back": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Turn to Face from Zombie": {
       "community": {
         "gi": {
           "success_rate": 55.0,
@@ -19202,19 +18702,19 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 41,
+          "success_rate": 41.0,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 38,
+          "success_rate": 38.0,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "provenance": {
-          "source": "origin-coherence-p2",
-          "run_id": "calibration/listing_tables.json",
-          "reviewed": false,
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
           "override": true
         }
       }
@@ -20939,6 +20439,24 @@
           "success_rate": 65.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 30,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 30,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
       }
     },
     "Triangle Choke from Triangle Control": {
@@ -20974,6 +20492,16 @@
         "nogi": {
           "success_rate": 50.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 30,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 30,
+          "pseudo_count": 3
         }
       }
     },
@@ -21601,18 +21129,6 @@
         }
       }
     },
-    "Heel Hook from Carni": {
-      "community": {
-        "gi": {
-          "success_rate": 45.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 45.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Heel Hook from Ashi Garami": {
       "community": {
         "gi": {
@@ -21799,18 +21315,6 @@
         }
       }
     },
-    "Calf Slicer from Carni": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Calf Slicer from Saddle": {
       "community": {
         "gi": {
@@ -21940,6 +21444,24 @@
         "nogi": {
           "success_rate": 42.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 25,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 25,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -22193,6 +21715,16 @@
           "success_rate": 58.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 30,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 30,
+          "pseudo_count": 3
+        }
       }
     },
     "High Elbow Guillotine from Guillotine Control": {
@@ -22282,6 +21814,24 @@
         "nogi": {
           "success_rate": 60.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -22490,9 +22040,16 @@
           "vote_count": 30
         },
         "nogi": {
-          "success_rate": 58.0,
+          "success_rate": null,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 25,
+          "pseudo_count": 3
+        },
+        "nogi": null
       }
     },
     "Cross Collar Choke from Body Triangle": {
@@ -22603,18 +22160,6 @@
         }
       }
     },
-    "Bow and Arrow Choke from Invisible Collar": {
-      "community": {
-        "gi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Bow and Arrow Choke from Body Triangle": {
       "community": {
         "gi": {
@@ -22712,12 +22257,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 40,
+          "success_rate": 30,
           "pseudo_count": 3,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 40,
+          "success_rate": 30,
           "pseudo_count": 3,
           "extrapolated": false
         },
@@ -22946,18 +22491,6 @@
       }
     },
     "Rear Naked Choke from Rear Triangle": {
-      "community": {
-        "gi": {
-          "success_rate": 65.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 65.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Rear Naked Choke from Invisible Collar": {
       "community": {
         "gi": {
           "success_rate": 65.0,
@@ -23231,6 +22764,24 @@
           "success_rate": 52.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 30,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 30,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
       }
     },
     "Omoplata from Russian Leg Lasso": {
@@ -23348,12 +22899,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 34,
+          "success_rate": 30,
           "pseudo_count": 3,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 34,
+          "success_rate": 30,
           "pseudo_count": 3,
           "extrapolated": false
         },
@@ -23965,18 +23516,6 @@
         }
       }
     },
-    "Kneebar from Carni": {
-      "community": {
-        "gi": {
-          "success_rate": 60.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 60.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Kneebar from Kneebar Control": {
       "community": {
         "gi": {
@@ -24098,12 +23637,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 32,
+          "success_rate": 25,
           "pseudo_count": 3,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 32,
+          "success_rate": 25,
           "pseudo_count": 3,
           "extrapolated": false
         },
@@ -24159,18 +23698,6 @@
         },
         "nogi": {
           "success_rate": 45.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Clock Choke from Invisible Collar": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
           "vote_count": 30
         }
       }
@@ -24662,12 +24189,12 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 27,
+          "success_rate": 35,
           "pseudo_count": 3,
           "extrapolated": true
         },
         "nogi": {
-          "success_rate": 31,
+          "success_rate": 35,
           "pseudo_count": 3,
           "extrapolated": true
         },
@@ -24833,6 +24360,16 @@
           "success_rate": 45.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 30,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 30,
+          "pseudo_count": 3
+        }
       }
     },
     "Darce Choke from Leg Drag": {
@@ -24913,36 +24450,6 @@
         }
       }
     },
-    "Anaconda Choke from Dead Orchard": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 29,
-          "pseudo_count": 3,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 37,
-          "pseudo_count": 3,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
-        }
-      }
-    },
     "Closed Guard to Hindulotine": {
       "community": {
         "gi": {
@@ -24952,6 +24459,16 @@
         "nogi": {
           "success_rate": 55.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3
         }
       }
     },
@@ -25066,18 +24583,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": true,
           "override": false
-        }
-      }
-    },
-    "Turtle to Aoki Lock": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
         }
       }
     },
@@ -25256,20 +24761,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 41,
+          "success_rate": 41.0,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 41,
+          "success_rate": 41.0,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -25330,6 +24835,542 @@
         "nogi": {
           "success_rate": 50.0,
           "vote_count": 30
+        }
+      }
+    },
+    "Darce Choke from Side Control": {
+      "community": {
+        "gi": {
+          "success_rate": 58.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 58.0,
+          "vote_count": 30
+        }
+      }
+    },
+    "Kneebar Entry from Inverted Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 26,
+          "pseudo_count": 8,
+          "extrapolated": true
+        },
+        "nogi": {
+          "success_rate": 33,
+          "pseudo_count": 8,
+          "extrapolated": true
+        },
+        "provenance": {
+          "source": "calibrate+review",
+          "run_id": "2026-07-07T17:37:32.832419Z",
+          "reviewed": true,
+          "override": false
+        }
+      }
+    },
+    "Inverted Guard Elevation Sweep": {
+      "community": {
+        "gi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        }
+      }
+    },
+    "Heel Hook from Inverted Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 45.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 45.0,
+          "vote_count": 30
+        }
+      }
+    },
+    "De La Riva Inversion Entry": {
+      "community": {
+        "gi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        }
+      }
+    },
+    "Crackhead Control to Dead Orchard": {
+      "community": {
+        "gi": {
+          "success_rate": 40,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 40,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
+      }
+    },
+    "Carni Shoulder Lock": {
+      "community": {
+        "gi": {
+          "success_rate": 35,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 35,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
+      }
+    },
+    "Carni Release to Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 60,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 60,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 60,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 60,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
+      }
+    },
+    "Z Guard to Carni": {
+      "community": {
+        "gi": {
+          "success_rate": 35,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 35,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
+      }
+    },
+    "Armbar from Dead Orchard Control": {
+      "community": {
+        "gi": {
+          "success_rate": 40,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 40,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
+      }
+    },
+    "Aoki Grip and Hip Release": {
+      "community": {
+        "gi": {
+          "success_rate": 35,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 35,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Aoki Control Release to Ashi": {
+      "community": {
+        "gi": {
+          "success_rate": 65,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 65,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 65,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 65,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Buggy Release to Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 40,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 40,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Hindu Control Head and Leg Release": {
+      "community": {
+        "gi": {
+          "success_rate": 35,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 35,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Chill Dog to Gogoplata Control": {
+      "community": {
+        "gi": {
+          "success_rate": 40,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 40,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Chill Dog to Invisible Collar": {
+      "community": {
+        "gi": {
+          "success_rate": 50,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 50,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 50,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 50,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Invisible Collar Posture Recovery": {
+      "community": {
+        "gi": {
+          "success_rate": 30,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 30,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 30,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 30,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Invisible Collar Choke": {
+      "community": {
+        "gi": {
+          "success_rate": 25,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 25,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 25,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 25,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Invisible Collar to Chill Dog": {
+      "community": {
+        "gi": {
+          "success_rate": 65,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 65,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 65,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 65,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Invisible Collar Guard Reset": {
+      "community": {
+        "gi": {
+          "success_rate": 65,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 65,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 65,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 65,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Zombie to New York": {
+      "community": {
+        "gi": {
+          "success_rate": 50,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 50,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 50,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 50,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Hindu Control to Triangle": {
+      "community": {
+        "gi": {
+          "success_rate": 40,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 40,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Frame and Posture Escape from Buggy Choke": {
+      "community": {
+        "gi": {
+          "success_rate": 35,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 35,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        }
+      }
+    },
+    "Buggy Choke to Triangle Control": {
+      "community": {
+        "gi": {
+          "success_rate": 35,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 35,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3
         }
       }
     }

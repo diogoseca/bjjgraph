@@ -168,24 +168,12 @@ description: "How to defend against S-Mount Transition in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mount escape when standard escapes fail",
-      "description": "S-Mount Transition (Defender) film study: Mount escape when standard escapes fail, taught by Gabriel Gonzaga.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
-      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
-      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
-      "duration": "PT93S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Arm-under-leg mount escape",
-      "description": "S-Mount Transition (Defender) film study: Arm-under-leg mount escape, taught by Professor Aaron.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PnQdaoKyxoc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PnQdaoKyxoc",
-      "url": "https://www.youtube.com/watch?v=PnQdaoKyxoc",
-      "creator": { "@type": "Person", "name": "Professor Aaron" },
-      "duration": "PT130S"
+      "name": "Goathook escape from mount: dealing with the switch to S-mount",
+      "description": "S-Mount Transition (Defender) film study: Goathook escape from mount: dealing with the switch to S-mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WKqvJLpq7nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WKqvJLpq7nc",
+      "url": "https://www.youtube.com/watch?v=WKqvJLpq7nc",
+      "duration": "PT72S"
     }
   ]
 }
@@ -213,17 +201,9 @@ Defending the S-Mount Transition requires recognizing the technique during its e
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9252EvCT0q4)
+![](https://www.youtube.com/watch?v=WKqvJLpq7nc)
 
-<p class="clip-credit"><strong>Mount escape when standard escapes fail</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PnQdaoKyxoc)
-
-<p class="clip-credit"><strong>Arm-under-leg mount escape</strong> — taught by Professor Aaron · 2:10 · <a href="https://www.youtube.com/watch?v=PnQdaoKyxoc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Goathook escape from mount: dealing with the switch to S-mount</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

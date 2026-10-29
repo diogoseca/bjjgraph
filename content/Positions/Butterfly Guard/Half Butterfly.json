@@ -158,11 +158,6 @@
             "technique": "Front Headlock to Guillotine",
             "target": "Front Headlock",
             "probability": 50
-          },
-          {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 55
           }
         ]
       }
@@ -490,28 +485,20 @@
         "id": "LIITsrlsAaI",
         "title": "Passing half butterfly guard",
         "by": "Morto BJJ",
-        "vertical": false,
+        "vertical": true,
         "channel": "Morto BJJ",
         "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8WbQvytyCX0",
-        "title": "How to pass the flat half guard",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 63,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "Pk_6CrydIRQ",
-        "title": "Effective half butterfly guard pass (no-gi)",
+        "title": "Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu",
         "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
+        "vertical": true,
         "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 110,
-        "verified": "2026-07-14"
+        "duration": 109,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -584,7 +571,7 @@
             "probability": 65
           },
           {
-            "technique": "Granby to Closed Guard",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 50
           }
@@ -916,31 +903,11 @@
     ],
     "clips": [
       {
-        "id": "oyBedW2q0Qo",
-        "title": "Half butterfly sweep",
-        "by": "StadiumMMA",
-        "vertical": false,
-        "channel": "StadiumMMA",
-        "duration": 30,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_PJ9H2B8us8",
-        "title": "Half butterfly sweep from head wrap",
-        "by": "Six Blades JJ",
-        "vertical": false,
-        "channel": "Six Blades JJ Yorktown ",
-        "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "X3M6JUqr1Bo",
-        "title": "Windmill half guard sweep",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 16,
-        "verified": "2026-07-14"
+        "id": "IPe_nWt17bg",
+        "title": "Half Butterfly Guard For Oldies",
+        "channel": "Ebsayz",
+        "duration": 628,
+        "front": true
       }
     ]
   },
@@ -1058,24 +1025,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "ttMQzRPkHRA",
-      "title": "What to do when flattened in butterfly guard",
-      "by": "Ante Dzolic",
-      "vertical": false,
-      "channel": "Ante Dzolic",
-      "duration": 125,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "9XULQjZeOEU",
-      "title": "Basic butterfly sweep",
-      "by": "Lachlan Giles",
-      "vertical": false,
-      "channel": "Absolute MMA St Kilda - Melbourne",
-      "duration": 243,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

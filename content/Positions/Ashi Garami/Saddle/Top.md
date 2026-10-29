@@ -165,35 +165,32 @@ description: "Master saddle position mechanics with systematic entries, control 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Easy entry to the saddle",
-      "description": "Saddle (Top) film study: Easy entry to the saddle, taught by Ilya.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HniaoFWTsmI",
-      "url": "https://www.youtube.com/watch?v=HniaoFWTsmI",
-      "creator": { "@type": "Person", "name": "Ilya" },
-      "duration": "PT53S"
+      "name": "Intro to Saddle | 411 | Honey Hole | Inside Sankaku",
+      "description": "Saddle (Top) film study: Intro to Saddle | 411 | Honey Hole | Inside Sankaku.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RbuQjr3-F2I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RbuQjr3-F2I",
+      "url": "https://www.youtube.com/watch?v=RbuQjr3-F2I",
+      "duration": "PT290S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "X guard to heel hook",
-      "description": "Saddle (Top) film study: X guard to heel hook, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
-      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT94S"
+      "name": "Saddle Transition from Top Half Guard",
+      "description": "Saddle (Top) film study: Saddle Transition from Top Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P-rkPE4bjdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P-rkPE4bjdE",
+      "url": "https://www.youtube.com/watch?v=P-rkPE4bjdE",
+      "duration": "PT31S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Saddle transition from top half guard",
-      "description": "Saddle (Top) film study: Saddle transition from top half guard, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/P-rkPE4bjdE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/P-rkPE4bjdE",
-      "url": "https://www.youtube.com/watch?v=P-rkPE4bjdE",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT31S"
+      "name": "Easy Entry to Saddle (411, inside sankaku, cross ashi garami)",
+      "description": "Saddle (Top) film study: Easy Entry to Saddle (411, inside sankaku, cross ashi garami).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HniaoFWTsmI",
+      "url": "https://www.youtube.com/watch?v=HniaoFWTsmI",
+      "duration": "PT53S"
     }
   ]
 }
@@ -227,17 +224,9 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=HniaoFWTsmI)
+![](https://www.youtube.com/watch?v=RbuQjr3-F2I)
 
-<p class="clip-credit"><strong>Easy entry to the saddle</strong> — taught by Ilya · 0:53 · <a href="https://www.youtube.com/watch?v=HniaoFWTsmI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
-
-<p class="clip-credit"><strong>X guard to heel hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Intro to Saddle | 411 | Honey Hole | Inside Sankaku</strong> · 4:50 · <a href="https://www.youtube.com/watch?v=RbuQjr3-F2I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -245,7 +234,15 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 ![](https://www.youtube.com/watch?v=P-rkPE4bjdE)
 
-<p class="clip-credit"><strong>Saddle transition from top half guard</strong> — taught by Thunderdome BJJ · 0:31 · <a href="https://www.youtube.com/watch?v=P-rkPE4bjdE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Saddle Transition from Top Half Guard</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=P-rkPE4bjdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HniaoFWTsmI)
+
+<p class="clip-credit"><strong>Easy Entry to Saddle (411, inside sankaku, cross ashi garami)</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=HniaoFWTsmI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -446,9 +443,9 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Leglocks — Enter The System</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Ankle Locks and Kneebars</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: 50/50 Leg Locks and Defense</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position reference for leg-entanglement study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Down Under Leg Attacks</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Triangle and Leg-Lock Combinations</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Competition: IBJJF and ADCC</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Saddle.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>

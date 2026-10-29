@@ -36,50 +36,6 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Lasso Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Open Guard to Lasso Sweep",
-      "description": "Lasso Guard film study: Open Guard to Lasso Sweep, taught by Lucas Lepri.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LwnoWDFJlN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LwnoWDFJlN0",
-      "url": "https://www.youtube.com/watch?v=LwnoWDFJlN0",
-      "creator": { "@type": "Person", "name": "Lucas Lepri" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lasso Sweep from Closed Guard",
-      "description": "Lasso Guard film study: Lasso Sweep from Closed Guard, taught by Ralph Gracie BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3zM3gZsUPWc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3zM3gZsUPWc",
-      "url": "https://www.youtube.com/watch?v=3zM3gZsUPWc",
-      "creator": { "@type": "Person", "name": "Ralph Gracie BJJ" },
-      "duration": "PT39S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lasso Guard to Arm Drag Sweep",
-      "description": "Lasso Guard film study: Lasso Guard to Arm Drag Sweep, taught by Xande Ribeiro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K4n_MQnR08c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K4n_MQnR08c",
-      "url": "https://www.youtube.com/watch?v=K4n_MQnR08c",
-      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
-      "duration": "PT150S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -121,40 +77,6 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Lasso Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LwnoWDFJlN0)
-
-<p class="clip-credit"><strong>Open Guard to Lasso Sweep</strong> — taught by Lucas Lepri · 0:44 · <a href="https://www.youtube.com/watch?v=LwnoWDFJlN0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3zM3gZsUPWc)
-
-<p class="clip-credit"><strong>Lasso Sweep from Closed Guard</strong> — taught by Ralph Gracie BJJ · 0:39 · <a href="https://www.youtube.com/watch?v=3zM3gZsUPWc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K4n_MQnR08c)
-
-<p class="clip-credit"><strong>Lasso Guard to Arm Drag Sweep</strong> — taught by Xande Ribeiro · 2:30 · <a href="https://www.youtube.com/watch?v=K4n_MQnR08c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -380,7 +302,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Lasso Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Lasso Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Lasso Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position: Lasso Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak: Outside Passing and Finishing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

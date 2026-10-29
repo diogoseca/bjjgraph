@@ -46,23 +46,11 @@ description: "Master the Single Leg X Sweep in BJJ. Complete guide to executing 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Single leg X sweep to 50/50 transition",
-      "description": "Single Leg X Sweep film study: Single leg X sweep to 50/50 transition, taught by Won-hee Cho.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TVQXVTX6Szw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TVQXVTX6Szw",
-      "url": "https://www.youtube.com/watch?v=TVQXVTX6Szw",
-      "creator": { "@type": "Person", "name": "Won-hee Cho" },
-      "duration": "PT23S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Modified single leg X guard sweep",
-      "description": "Single Leg X Sweep film study: Modified single leg X guard sweep, taught by Escapology BJJ.",
+      "name": "2 Minute Jiu Jitsu Ep.59: Modified Single Leg X Guard Sweep",
+      "description": "Single Leg X Sweep film study: 2 Minute Jiu Jitsu Ep.59: Modified Single Leg X Guard Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ElAdD4QuxXk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ElAdD4QuxXk",
       "url": "https://www.youtube.com/watch?v=ElAdD4QuxXk",
-      "creator": { "@type": "Person", "name": "Escapology BJJ" },
       "duration": "PT160S"
     }
   ]
@@ -117,17 +105,9 @@ The Single Leg X Sweep is a cornerstone technique in modern leg entanglement sys
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=TVQXVTX6Szw)
-
-<p class="clip-credit"><strong>Single leg X sweep to 50/50 transition</strong> — taught by Won-hee Cho · 0:23 · <a href="https://www.youtube.com/watch?v=TVQXVTX6Szw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=ElAdD4QuxXk)
 
-<p class="clip-credit"><strong>Modified single leg X guard sweep</strong> — taught by Escapology BJJ · 2:40 · <a href="https://www.youtube.com/watch?v=ElAdD4QuxXk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>2 Minute Jiu Jitsu Ep.59: Modified Single Leg X Guard Sweep</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=ElAdD4QuxXk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -338,7 +318,7 @@ The Single Leg X Sweep is a cornerstone technique within the broader X-Guard and
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Single Leg X Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Single Leg X Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

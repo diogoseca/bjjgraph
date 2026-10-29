@@ -251,11 +251,6 @@
             "technique": "Side Control to North-South",
             "target": "North-South",
             "probability": 82
-          },
-          {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 74
           }
         ]
       },
@@ -472,31 +467,14 @@
     ],
     "clips": [
       {
-        "id": "BjeDX3WupdA",
-        "title": "Shoulder Pressure From Side Control",
-        "by": "Roy Dean",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 39,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "MpWpNkQwBGA",
-        "title": "Side Smash Side Control Pressure",
-        "by": "Owen Livesey",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "HO877lE69nM",
-        "title": "Cross Sides Shoulder of Justice",
+        "title": "Cross Sides Shoulder of Justice 1",
         "by": "SBG New Braunfels",
         "vertical": false,
         "channel": "SBG New Braunfels BJJ",
-        "duration": 145,
-        "verified": "2026-07-14"
+        "duration": 144,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -873,35 +851,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "4L25UQntnPg",
-        "title": "Side Control Escape: Reverse Hip Escape",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
-        "channel": "Fox Den Martial Arts",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Zw_QEoWDvcw",
-        "title": "Bump 'n Roll Side Control Escape",
-        "by": "PIOT",
-        "vertical": false,
-        "channel": "PIOT",
-        "duration": 82,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-Jib9G-LM-M",
-        "title": "Shoulder Crunch Side Control Escape",
-        "by": "Cauliflower Ear Family",
-        "vertical": false,
-        "channel": "Cauliflower Ear Family",
-        "duration": 188,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1019,31 +969,14 @@
   ],
   "clips": [
     {
-      "id": "BjeDX3WupdA",
-      "title": "Shoulder Pressure Concept",
-      "by": "Roy Dean",
+      "id": "HO877lE69nM",
+      "title": "Cross Sides Shoulder of Justice 1",
+      "by": "SBG New Braunfels",
       "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 39,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ajC_jfdoMCE",
-      "title": "Heavy shoulder of justice in side control",
-      "by": "Coach Cane",
-      "vertical": false,
-      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-      "duration": 192,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "zMVWIvd6MQU",
-      "title": "Cross sides shoulder of justice pressure",
-      "by": "SBG PDX",
-      "vertical": false,
-      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-      "duration": 256,
-      "verified": "2026-07-15"
+      "channel": "SBG New Braunfels BJJ",
+      "duration": 144,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

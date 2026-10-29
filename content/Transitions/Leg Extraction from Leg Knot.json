@@ -368,26 +368,7 @@
       }
     ],
     "safety_considerations": "Leg extraction from entanglements involves forces applied to both practitioners' knee and ankle joints during the disengagement process. Always begin drilling at controlled speeds — explosive extraction attempts can torque training partners' knees at unsafe angles. If your trapped leg feels locked in a position where extraction creates lateral knee pressure, reset the position rather than forcing through. Communicate with your partner when pressure changes feel uncomfortable. Be particularly cautious when the entanglement involves crossed legs or figure-four configurations, as extraction forces can transfer unexpectedly to the opponent's knee joint. In training, tap and reset if either practitioner feels joint stress rather than continuing to fight the entanglement.",
-    "clips": [
-      {
-        "id": "m0NLphEuFoc",
-        "title": "Extracting the leg from a leg entanglement",
-        "by": "10th Planet Jiu Jitsu",
-        "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uZbUhFapIhg",
-        "title": "Craig Jones leg entanglement escape",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 163,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Leg Extraction from Leg Knot Defender",
@@ -537,25 +518,6 @@
         "description": "Begin in leg knot with full resistance from both players. Bottom player works to prevent extraction or recover guard, top player attempts extraction or submissions. After successful defense, bottom player should immediately counterattack to develop the habit of transitioning from defense to offense. Measure defensive success rate over multiple rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "8VfldffVsFU",
-        "title": "Rolling leg knot control",
-        "by": "Tom Dinklage",
-        "vertical": false,
-        "channel": "Tom Dinklage",
-        "duration": 91,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iVa-jgMsLUk",
-        "title": "411 leg entanglement control details",
-        "by": "Holy Grail BJJ",
-        "vertical": false,
-        "channel": "Holy Grail BJJ",
-        "duration": 135,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

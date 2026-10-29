@@ -165,35 +165,12 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Corona lockdown sweep",
-      "description": "Lockdown (Bottom) film study: Corona lockdown sweep, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/08cbHHs_NsM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/08cbHHs_NsM",
-      "url": "https://www.youtube.com/watch?v=08cbHHs_NsM",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lockdown clinches (MTS 176)",
-      "description": "Lockdown (Bottom) film study: Lockdown clinches (MTS 176), taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
-      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Advanced lockdown details",
-      "description": "Lockdown (Bottom) film study: Advanced lockdown details, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AmOMN0S1v8Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AmOMN0S1v8Q",
-      "url": "https://www.youtube.com/watch?v=AmOMN0S1v8Q",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
+      "name": "BJJ LOCKDOWN || Entry and sweep options",
+      "description": "Lockdown (Bottom) film study: BJJ LOCKDOWN || Entry and sweep options.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b6PvbfAz2N0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b6PvbfAz2N0",
+      "url": "https://www.youtube.com/watch?v=b6PvbfAz2N0",
+      "duration": "PT511S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=08cbHHs_NsM)
+![](https://www.youtube.com/watch?v=b6PvbfAz2N0)
 
-<p class="clip-credit"><strong>Corona lockdown sweep</strong> — taught by Eddie Bravo · 0:53 · <a href="https://www.youtube.com/watch?v=08cbHHs_NsM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
-
-<p class="clip-credit"><strong>Lockdown clinches (MTS 176)</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AmOMN0S1v8Q)
-
-<p class="clip-credit"><strong>Advanced lockdown details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=AmOMN0S1v8Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ LOCKDOWN || Entry and sweep options</strong> · 8:31 · <a href="https://www.youtube.com/watch?v=b6PvbfAz2N0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -305,7 +266,6 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 **If opponent drives forward with heavy crossface pressure and low posture:**
 - Execute **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** → [[Positions/Dogfight Position]] (Probability: 65%)
-- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 **If opponent establishes underhook and attempts knee slice pass:**

@@ -90,7 +90,7 @@ const POSTSCRIPT = "/postscript.js"
 // replace it. A pattern that can never match is not a gate.
 // reading.css joins this list in the same commit that adds it to check_payload_budget.py's
 // DEFERRED tuple (v1.194.0). Declaring a file deferred is an assertion about behaviour; this is
-// what checks it. If anything ever imports or prefetches the More fold's stylesheet at boot,
+// what checks it. If anything ever imports or prefetches the reading stylesheet at boot,
 // the static gate would happily keep excluding it and only this would notice.
 // ONE PATTERN PER LINE, for the same reason `check_payload_budget.py`'s DEFERRED tuple is:
 // the next branch that defers an artifact adds a line here rather than rewriting this one.
@@ -100,6 +100,7 @@ const BANNED_ON_BOOT = [
   /\/flashcards\.json(\?|$)/,
   /\/technique-content\.js(\?|$)/,
   /\/reading\.css(\?|$)/,
+  /\/reader\.js(\?|$)/,
   /\/reference\.css(\?|$)/,
   /\/static\/neural\/mdp\//,
   /\/game-values\.js(\?|$)/,
@@ -110,6 +111,7 @@ const BANNED_ON_BOOT = [
   /\/game-study\.js(\?|$)/,
   /\/game-study\.worker\.js(\?|$)/,
   /\/settings-ui\.js(\?|$)/,
+  /\/mastery-gold\.js(\?|$)/,
 ]
 
 test("@curated a first-time visitor reaches a playable hand inside the payload budget", async ({

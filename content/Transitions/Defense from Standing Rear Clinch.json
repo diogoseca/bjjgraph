@@ -108,10 +108,6 @@
       "relationship": "Intermediate position that may result from incomplete escape attempts"
     },
     {
-      "name": "Back Take",
-      "relationship": "Opponent's strategic objective that this defense disrupts"
-    },
-    {
       "name": "Body Lock",
       "relationship": "Common grip configuration used by opponent that must be addressed during escape"
     },
@@ -423,21 +419,18 @@
     "clips": [
       {
         "id": "fnkewg_4NJ4",
-        "title": "Bear hug defense into rear clinch takedown",
-        "by": "Jiu Jitsu Five-O",
-        "vertical": false,
-        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "title": "Bear Hug Defense to Rear Clinch Takedown",
+        "channel": "Jiu Jitsu Five-O // BJJ Training for the Street",
         "duration": 48,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "2VCyaassiRI",
-        "title": "Leg switch cutback from the rear bodylock",
-        "by": "Procel Brazilian Jiu-Jitsu",
-        "vertical": false,
+        "title": "Leg Switch Cutback From Rear Bodylock",
         "channel": "Procel Brazilian Jiu-Jitsu",
         "duration": 52,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -603,34 +596,6 @@
         "description": "Partner attempts full escape sequences at competition intensity while you work to maintain the clinch or advance to ground back control. 2-minute rounds with role switching. Track retention rate and identify which escape types cause the most difficulty for targeted technical work."
       }
     ],
-    "clips": [
-      {
-        "id": "nAFyFmMMeEw",
-        "title": "Reversing the clinch against the wall",
-        "by": "The Academy MN",
-        "vertical": false,
-        "channel": "The Academy MN",
-        "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "DFXdqByRxNg",
-        "title": "Standing Rear Body Lock: Counters and Defense",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 318,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iY14-ZWmtAQ",
-        "title": "Body Lock Clinch Escape",
-        "by": "Penny Thomas",
-        "vertical": false,
-        "channel": "JiuJitsuMag",
-        "duration": 62,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

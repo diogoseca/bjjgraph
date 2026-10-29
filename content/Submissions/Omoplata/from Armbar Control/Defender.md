@@ -156,35 +156,32 @@ description: "Defend against the omoplata from armbar control in BJJ. Recognitio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Best way to escape the omoplata shoulder lock",
-      "description": "Omoplata from Armbar Control (Defender) film study: Best way to escape the omoplata shoulder lock, taught by John Connors.",
+      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+      "description": "Omoplata from Armbar Control (Defender) film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
       "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
-      "creator": { "@type": "Person", "name": "John Connors" },
-      "duration": "PT62S"
+      "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Escape the omoplata when it\u0027s locked in",
-      "description": "Omoplata from Armbar Control (Defender) film study: Escape the omoplata when it\u0027s locked in, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jKdERMTQqPY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jKdERMTQqPY",
-      "url": "https://www.youtube.com/watch?v=jKdERMTQqPY",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT72S"
+      "name": "Submission escape - omoplata",
+      "description": "Omoplata from Armbar Control (Defender) film study: Submission escape - omoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqBK1Y2BdSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqBK1Y2BdSg",
+      "url": "https://www.youtube.com/watch?v=xqBK1Y2BdSg",
+      "duration": "PT17S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Submission escape from the omoplata",
-      "description": "Omoplata from Armbar Control (Defender) film study: Submission escape from the omoplata, taught by Thiago Stefanutti.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xqBK1Y2BdSg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xqBK1Y2BdSg",
-      "url": "https://www.youtube.com/watch?v=xqBK1Y2BdSg",
-      "creator": { "@type": "Person", "name": "Thiago Stefanutti" },
-      "duration": "PT17S"
+      "name": "How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026",
+      "description": "Omoplata from Armbar Control (Defender) film study: How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jKdERMTQqPY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jKdERMTQqPY",
+      "url": "https://www.youtube.com/watch?v=jKdERMTQqPY",
+      "duration": "PT71S"
     }
   ]
 }
@@ -215,15 +212,7 @@ Defending the omoplata from armbar control demands early recognition that the at
 
 ![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
 
-<p class="clip-credit"><strong>Best way to escape the omoplata shoulder lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jKdERMTQqPY)
-
-<p class="clip-credit"><strong>Escape the omoplata when it&#39;s locked in</strong> — taught by Matt Arroyo · 1:12 · <a href="https://www.youtube.com/watch?v=jKdERMTQqPY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -231,7 +220,15 @@ Defending the omoplata from armbar control demands early recognition that the at
 
 ![](https://www.youtube.com/watch?v=xqBK1Y2BdSg)
 
-<p class="clip-credit"><strong>Submission escape from the omoplata</strong> — taught by Thiago Stefanutti · 0:17 · <a href="https://www.youtube.com/watch?v=xqBK1Y2BdSg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Submission escape - omoplata</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=xqBK1Y2BdSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jKdERMTQqPY)
+
+<p class="clip-credit"><strong>How to escape the omoplata when it’s already in and he’s ready to break your…</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=jKdERMTQqPY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

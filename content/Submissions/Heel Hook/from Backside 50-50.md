@@ -46,35 +46,12 @@ description: "Master the heel hook from Backside 50-50 in BJJ. Complete guide to
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Backside 50/50 inside heel hook finish",
-      "description": "Heel Hook from Backside 50-50 film study: Backside 50/50 inside heel hook finish, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
-      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT18S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "50/50 heel hook finishing details",
-      "description": "Heel Hook from Backside 50-50 film study: 50/50 heel hook finishing details, taught by Thunderdome BJJ.",
+      "name": "50/50 Heelhook Finishing Details",
+      "description": "Heel Hook from Backside 50-50 film study: 50/50 Heelhook Finishing Details.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fB3FYb-Jx_0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fB3FYb-Jx_0",
       "url": "https://www.youtube.com/watch?v=fB3FYb-Jx_0",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
       "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "True 50/50 heel hook",
-      "description": "Heel Hook from Backside 50-50 film study: True 50/50 heel hook, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U1vlUbJN3sc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U1vlUbJN3sc",
-      "url": "https://www.youtube.com/watch?v=U1vlUbJN3sc",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT34S"
     }
   ]
 }
@@ -117,7 +94,7 @@ description: "Master the heel hook from Backside 50-50 in BJJ. Complete guide to
 
 <section id="overview" class="content-section">
 
-The heel hook from Backside 50-50 bottom represents one of the most tactically significant opportunistic attacks in modern leg lock grappling. Despite occupying the disadvantaged position with your back exposed to your opponent's chest, the shared leg entanglement inherent in all 50-50 configurations means your access to the opponent's heel remains viable. This attack capitalizes on moments when the top player overcommits to passing, back control transitions, or their own leg attacks, temporarily reducing their defensive attention to their entangled leg.
+The heel hook from Backside 50-50 bottom represents one of the most tactically significant opportunistic attacks in modern leg lock grappling. Despite occupying the disadvantaged position with you turned away from the opponent behind your trapped leg, the shared leg entanglement inherent in all 50-50 configurations means your access to the opponent's heel remains viable. This attack capitalizes on moments when the top player overcommits to passing, back control transitions, or their own leg attacks, temporarily reducing their defensive attention to their entangled leg.
 
 The mechanics of this heel hook rely on the same fundamental rotational breaking principles as any heel hook finish, but the execution demands heightened awareness of positional vulnerability. Because you are attacking from the bottom, every second spent committing hands to the heel is a second your frames and back defense are compromised. This creates a high-stakes timing puzzle where attacking too early means insufficient heel exposure and attacking too late means the top player has already advanced past your leg entanglement.
 
@@ -137,25 +114,9 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
-
-<p class="clip-credit"><strong>Backside 50/50 inside heel hook finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=fB3FYb-Jx_0)
 
-<p class="clip-credit"><strong>50/50 heel hook finishing details</strong> — taught by Thunderdome BJJ · 0:27 · <a href="https://www.youtube.com/watch?v=fB3FYb-Jx_0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U1vlUbJN3sc)
-
-<p class="clip-credit"><strong>True 50/50 heel hook</strong> — taught by John Danaher · 0:34 · <a href="https://www.youtube.com/watch?v=U1vlUbJN3sc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>50/50 Heelhook Finishing Details</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=fB3FYb-Jx_0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +186,7 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 
 - **Control the Finish and Monitor for Tap**: Maintain constant progressive pressure while monitoring for verbal or physical tap signals. If the o...
 
-- **Manage Post-Attempt Recovery**: If the submission attempt fails, the opponent defends successfully, or you choose to abandon the att...
+- **Manage Post-Attempt Recovery**: If the counterattack fails or you abandon it, immediately protect your own heel and address the cont...
 
 
 ### Common Mistakes
@@ -271,7 +232,7 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 ### Recognition Cues
 
 
-- Bottom player's hands release from defensive frames against your chest or hips and redirect downward toward your lower leg or ankle area
+- The turned-away player's hands leave your controlling foot or leg and reach toward your exposed heel or ankle
 
 - Bottom player's hip angle shifts noticeably as they rotate their body to create access to your heel from underneath the entanglement
 
@@ -285,7 +246,7 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 ### Escape Paths
 
 
-- Boot the heel proactively and strip any initial grip contact before figure-four is established, then re-establish dominant chest-to-back pressure to maintain top control in Backside 50-50
+- Boot the heel proactively and strip any initial grip contact before figure-four is established, then re-establish dominant knee-line and hip control to maintain top control in Backside 50-50
 
 - Abandon the leg entanglement entirely by walking hips up the opponent's body and transitioning to back control while their hands are committed to the heel hook instead of framing
 

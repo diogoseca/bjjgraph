@@ -429,30 +429,18 @@
     "clips": [
       {
         "id": "2uuP147GoBk",
-        "title": "Mount bottom bridge and roll escape",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
+        "title": "Mount (Bottom) Bridge & Roll Escape #2",
         "channel": "Academy Jiu Jitsu",
-        "duration": 62,
-        "verified": "2026-07-15"
+        "duration": 61,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "Q2YZ0oiVMYo",
-        "title": "How to do a bridge and roll mount escape",
-        "by": "Diaz Combat Sports",
-        "vertical": false,
+        "title": "How To Do A Bridge & Roll Mount Escape In BJJ",
         "channel": "DCS - Diaz Combat Sports",
         "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MgF9kZdPnDE",
-        "title": "Upa mount escape beating shadow hooks",
-        "by": "SBG PDX",
-        "vertical": false,
-        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-        "duration": 104,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -646,22 +634,12 @@
     ],
     "clips": [
       {
-        "id": "IgYot9fcBh0",
-        "title": "Why your upa mount escape fails",
-        "by": "Jean Jacques Machado",
+        "id": "0dzzXGjWKWI",
+        "title": "maintaining mount - preventing the bridge escape",
+        "channel": "St. Paul Brazilian Jiu Jitsu",
+        "duration": 337,
         "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 310,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ly8voPPzYaU",
-        "title": "Why the bridge and roll escape fails",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 85,
-        "verified": "2026-07-16"
+        "front": true
       }
     ]
   }

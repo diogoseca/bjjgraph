@@ -192,24 +192,12 @@ description: "How to execute Stack Pass in BJJ. Complete attacking guide with se
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stack pass to back control",
-      "description": "Stack Pass (Attacker) film study: Stack pass to back control, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_l_u3jIJaY4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_l_u3jIJaY4",
-      "url": "https://www.youtube.com/watch?v=_l_u3jIJaY4",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Stack pass from closed guard",
-      "description": "Stack Pass (Attacker) film study: Stack pass from closed guard, taught by Procel BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EC4JVnymW3U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EC4JVnymW3U",
-      "url": "https://www.youtube.com/watch?v=EC4JVnymW3U",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
-      "duration": "PT95S"
+      "name": "David Morris 24AUG  Closed Guard Break to Stack Pass",
+      "description": "Stack Pass (Attacker) film study: David Morris 24AUG  Closed Guard Break to Stack Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZhB5ipMXXPQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZhB5ipMXXPQ",
+      "url": "https://www.youtube.com/watch?v=ZhB5ipMXXPQ",
+      "duration": "PT363S"
     }
   ]
 }
@@ -237,17 +225,9 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_l_u3jIJaY4)
+![](https://www.youtube.com/watch?v=ZhB5ipMXXPQ)
 
-<p class="clip-credit"><strong>Stack pass to back control</strong> — taught by Clark Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=_l_u3jIJaY4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EC4JVnymW3U)
-
-<p class="clip-credit"><strong>Stack pass from closed guard</strong> — taught by Procel BJJ · 1:35 · <a href="https://www.youtube.com/watch?v=EC4JVnymW3U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>David Morris 24AUG  Closed Guard Break to Stack Pass</strong> · 6:03 · <a href="https://www.youtube.com/watch?v=ZhB5ipMXXPQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -419,7 +399,7 @@ The stack pass places significant pressure on the opponent's neck, cervical spin
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference: Stack Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Stack Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

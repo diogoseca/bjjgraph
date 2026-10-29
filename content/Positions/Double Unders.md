@@ -46,24 +46,12 @@ description: "Master Double Unders position in BJJ. Strategic guide covering whe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double unders pass concept and mechanics",
-      "description": "Double Unders film study: Double unders pass concept and mechanics, taught by Nicky Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N4PxPPv98k4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N4PxPPv98k4",
-      "url": "https://www.youtube.com/watch?v=N4PxPPv98k4",
-      "creator": { "@type": "Person", "name": "Nicky Ryan" },
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-gi double under guard pass walkthrough",
-      "description": "Double Unders film study: No-gi double under guard pass walkthrough, taught by Garden State BJJ.",
+      "name": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
+      "description": "Double Unders film study: No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
       "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
-      "creator": { "@type": "Person", "name": "Garden State BJJ" },
-      "duration": "PT63S"
+      "duration": "PT62S"
     }
   ]
 }
@@ -114,17 +102,9 @@ Understanding double unders from both perspectives is essential for developing c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=N4PxPPv98k4)
-
-<p class="clip-credit"><strong>Double unders pass concept and mechanics</strong> — taught by Nicky Ryan · 1:31 · <a href="https://www.youtube.com/watch?v=N4PxPPv98k4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=wBZrTpuXV50)
 
-<p class="clip-credit"><strong>No-gi double under guard pass walkthrough</strong> — taught by Garden State BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -279,21 +259,19 @@ Understanding double unders from both perspectives is essential for developing c
 ### Available Transitions
 
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (26% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (28% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (9% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (10% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (7% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (11% of attempts)
 
-- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (13% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (12% of attempts)
-
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (9% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Transitions/Stack Pass from Double Unders/Attacker|Stack Pass from Double Unders]]** (16% of attempts)
+- **[[Transitions/Stack Pass from Double Unders/Attacker|Stack Pass from Double Unders]]** (17% of attempts)
 
 - **[[Transitions/Toss Pass from Double Unders/Attacker|Toss Pass from Double Unders]]** (4% of attempts)
 

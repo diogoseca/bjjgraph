@@ -401,29 +401,10 @@
       {
         "id": "EMvNZfNLCY0",
         "title": "Half guard whip up",
-        "by": "Flashback Submission",
-        "vertical": false,
-        "channel": "Flashback Submission Subscription",
+        "channel": "Flashback Jiu-Jitsu and Boxing Appleton ",
         "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "qLdzklkFCNM",
-        "title": "Lockdown sweep",
-        "by": "Midtown Grappling Academy",
         "vertical": false,
-        "channel": "Midtown Grappling Academy",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uY4ZC6b6e3s",
-        "title": "Lockdown to dogfight to roll under sweep",
-        "by": "Coach Paul",
-        "vertical": false,
-        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
-        "duration": 78,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -609,31 +590,11 @@
     ],
     "clips": [
       {
-        "id": "PptkZQh_MFA",
-        "title": "Lockdown escape",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 31,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Freeing your foot while passing half guard",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Y4eC_7dtzOA",
-        "title": "Advanced half guard lockdown passing",
-        "by": "Peter Mettler",
-        "vertical": false,
-        "channel": "Peter Mettler Martial Arts",
-        "duration": 73,
-        "verified": "2026-07-15"
+        "id": "msc2L6tMESs",
+        "title": "Indian Death Lock counter to Whip Up",
+        "channel": "TakingItToTheMMAT",
+        "duration": 387,
+        "front": true
       }
     ]
   },

@@ -55,6 +55,7 @@ test("rigged catch → panic drill → rigged escape: _combo stays at its earned
         : null
     })
     if (!mc) return false // a proven deck asks nothing — silence carries the streak
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.keyboard.press("abcd"[mc.correct])
     const pending = await page.evaluate(() => !!(window as any).__neural._landPending)
     expect(pending, "answer registered — nothing left on the table for the pick to ignore").toBe(false)
@@ -135,13 +136,14 @@ test("rigged catch → panic drill → rigged escape: _combo stays at its earned
   //    `[data-panic-reveal]` click waited out the 240s timeout. Answer whichever block the card
   //    mounted, correctly (guidance-defense.spec.ts idiom): the claim is that a CORRECT defence
   //    grade leaves the streak alone, so the answer must be the right one either way. ──
-  await expect(page.locator("[data-panic]"), "inline panic drill visible while caught").toBeVisible()
+  await expect(page.locator("[data-landcard=defense]"), "inline panic drill visible while caught").toBeVisible()
   const mcCorrect = await page.evaluate(() => {
     const a = (window as any).__neural
-    const card = document.querySelector("[data-panic]")
+    const card = document.querySelector("[data-landcard=defense]")
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
   })
   if (mcCorrect != null) {
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
   } else {
     await page.locator("[data-panic-reveal]").click()

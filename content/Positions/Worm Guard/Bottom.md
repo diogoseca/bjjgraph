@@ -165,35 +165,12 @@ description: "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Worm Guard to back choke",
-      "description": "Worm Guard (Bottom) film study: Worm Guard to back choke, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
-      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Worm Guard reverse omoplata",
-      "description": "Worm Guard (Bottom) film study: Worm Guard reverse omoplata, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qua4MaF2d98/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qua4MaF2d98",
-      "url": "https://www.youtube.com/watch?v=qua4MaF2d98",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT49S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Worm Guard attacks: sweep \u0026 berimbolo",
-      "description": "Worm Guard (Bottom) film study: Worm Guard attacks: sweep \u0026 berimbolo, taught by jamielovesmartialarts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BHwU-bbyvkc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BHwU-bbyvkc",
-      "url": "https://www.youtube.com/watch?v=BHwU-bbyvkc",
-      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
-      "duration": "PT89S"
+      "name": "Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM",
+      "description": "Worm Guard (Bottom) film study: Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rE7YuZTNmyE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rE7YuZTNmyE",
+      "url": "https://www.youtube.com/watch?v=rE7YuZTNmyE",
+      "duration": "PT1917S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+![](https://www.youtube.com/watch?v=rE7YuZTNmyE)
 
-<p class="clip-credit"><strong>Worm Guard to back choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=qua4MaF2d98)
-
-<p class="clip-credit"><strong>Worm Guard reverse omoplata</strong> — taught by Keenan Cornelius · 0:49 · <a href="https://www.youtube.com/watch?v=qua4MaF2d98" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BHwU-bbyvkc)
-
-<p class="clip-credit"><strong>Worm Guard attacks: sweep &amp; berimbolo</strong> — taught by jamielovesmartialarts · 1:29 · <a href="https://www.youtube.com/watch?v=BHwU-bbyvkc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM</strong> · 31:57 · <a href="https://www.youtube.com/watch?v=rE7YuZTNmyE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -443,7 +404,7 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Worm Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Worm Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

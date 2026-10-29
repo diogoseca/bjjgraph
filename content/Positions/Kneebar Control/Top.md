@@ -155,50 +155,6 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Kneebar Control (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Dog Bar Kneebar",
-      "description": "Kneebar Control (Top) film study: Dog Bar Kneebar, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
-      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Top Half Guard Toe Hold to Kneebar",
-      "description": "Kneebar Control (Top) film study: Top Half Guard Toe Hold to Kneebar, taught by Eliot Marshall.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-HT8Vfiq5Pk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-HT8Vfiq5Pk",
-      "url": "https://www.youtube.com/watch?v=-HT8Vfiq5Pk",
-      "creator": { "@type": "Person", "name": "Eliot Marshall" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Go Behind Kneebar",
-      "description": "Kneebar Control (Top) film study: Go Behind Kneebar, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
-      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT129S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -217,40 +173,6 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Kneebar Control (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vMqDIi10z4k)
-
-<p class="clip-credit"><strong>Dog Bar Kneebar</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-HT8Vfiq5Pk)
-
-<p class="clip-credit"><strong>Top Half Guard Toe Hold to Kneebar</strong> — taught by Eliot Marshall · 1:07 · <a href="https://www.youtube.com/watch?v=-HT8Vfiq5Pk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
-
-<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -305,7 +227,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 <p class="section-subtitle">What should you do from Kneebar Control (Top)?</p>
 
 **If opponent's leg straightens and defensive posture collapses under top pressure:**
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Kneebar/from Kneebar Control/Attacker|Kneebar from Kneebar Control]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Submissions/Straight Ankle Lock/Attacker|Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
 
 
@@ -439,7 +361,6 @@ Start with practitioner in top kneebar control against defending opponent. Attac
 
 - **[[Positions/Half Guard]]** - Common position from which top kneebar entries are initiated
 - **[[Positions/Headquarters Position]]** - Guard passing position offering kneebar attack opportunities
-- **[[Transitions/Kneebar Finish]]** - Terminal submission technique from top kneebar control
 - **[[Positions/Side Control]]** - Positional advancement when kneebar finish is defended
 - **[[Positions/Turtle]]** - Defensive position where top kneebar entries frequently occur
 - **[[Positions/North-South]]** - Alternative top position accessible when transitioning from kneebar control

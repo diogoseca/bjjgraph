@@ -36,39 +36,6 @@ description: "Master the Chair Sit to Back Take in BJJ. Control opponent from tu
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Chair Sit to Back \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Chair sit back take from turtle",
-      "description": "Chair Sit to Back film study: Chair sit back take from turtle, taught by New Legacy Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KU5nK5cWZos/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KU5nK5cWZos",
-      "url": "https://www.youtube.com/watch?v=KU5nK5cWZos",
-      "creator": { "@type": "Person", "name": "New Legacy Martial Arts" },
-      "duration": "PT133S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back take basics",
-      "description": "Chair Sit to Back film study: Back take basics, taught by Leo Vieira.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_ApGfiRgL5k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_ApGfiRgL5k",
-      "url": "https://www.youtube.com/watch?v=_ApGfiRgL5k",
-      "creator": { "@type": "Person", "name": "Leo Vieira" },
-      "duration": "PT54S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -107,32 +74,6 @@ Success requires precise hip positioning, weight distribution, and grip sequenci
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Chair Sit to Back in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KU5nK5cWZos)
-
-<p class="clip-credit"><strong>Chair sit back take from turtle</strong> — taught by New Legacy Martial Arts · 2:13 · <a href="https://www.youtube.com/watch?v=KU5nK5cWZos" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_ApGfiRgL5k)
-
-<p class="clip-credit"><strong>Back take basics</strong> — taught by Leo Vieira · 0:54 · <a href="https://www.youtube.com/watch?v=_ApGfiRgL5k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -334,7 +275,7 @@ The chair sit to back take occupies a central position within the turtle attack 
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

@@ -378,35 +378,7 @@
       }
     ],
     "safety_considerations": "Knee extraction is a relatively safe defensive technique when executed properly. The primary safety concern is avoiding the actual ankle lock submission by maintaining knee bend throughout - if you feel significant pressure on your ankle joint, tap immediately rather than forcing the extraction. Never allow full leg extension under load as this dramatically increases injury risk to the ankle and Achilles tendon. Practice grip breaking and leg positioning components separately before combining into the full sequence under resistance. Training partners should release immediately upon tap and avoid cranking submissions during extraction drilling.",
-    "clips": [
-      {
-        "id": "CUnX7TOpb-A",
-        "title": "Ankle lock escape by booting the foot free",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 16,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MqtG9kuVt-Q",
-        "title": "Leg lock escape: roll through",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "vg-Luhls7yE",
-        "title": "Straight ankle lock defence and escapes",
-        "by": "Jiu Jitsu Brotherhood",
-        "vertical": false,
-        "channel": "Jiu Jitsu Brotherhood",
-        "duration": 164,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Knee Extraction Defender",
@@ -583,35 +555,7 @@
         "description": "Start from established straight ankle lock control with full resistance from both sides. Practice the complete decision tree: maintain control, transition to deeper entanglement, or finish the submission based on opponent's defensive choices. Develop fluid responses to all extraction variations."
       }
     ],
-    "clips": [
-      {
-        "id": "KcA6VYd8J2c",
-        "title": "Backstep counter to primary leg extraction",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 115,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6fLuhvhUw-w",
-        "title": "Keeping the entanglement when they block the reap",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 179,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0RZnPM25lKo",
-        "title": "Fixing your heel hook grip to hold the leg",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 211,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

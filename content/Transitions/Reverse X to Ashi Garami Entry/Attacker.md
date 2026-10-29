@@ -180,34 +180,21 @@ description: "How to execute Reverse X to Ashi Garami Entry in BJJ. Attacking pe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Butterfly to reverse X to cross ashi garami",
-      "description": "Reverse X to Ashi Garami Entry (Attacker) film study: Butterfly to reverse X to cross ashi garami, taught by Bowerhouse MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GqE4UobpkMs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GqE4UobpkMs",
-      "url": "https://www.youtube.com/watch?v=GqE4UobpkMs",
-      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
-      "duration": "PT88S"
+      "name": "Reverse X  ashi garami",
+      "description": "Reverse X to Ashi Garami Entry (Attacker) film study: Reverse X  ashi garami.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bf5cJNYCMcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bf5cJNYCMcA",
+      "url": "https://www.youtube.com/watch?v=Bf5cJNYCMcA",
+      "duration": "PT104S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Reverse X to ashi garami",
-      "description": "Reverse X to Ashi Garami Entry (Attacker) film study: Reverse X to ashi garami, taught by The Sanctuary BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bf5cJNYCMcA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bf5cJNYCMcA",
-      "url": "https://www.youtube.com/watch?v=Bf5cJNYCMcA",
-      "creator": { "@type": "Person", "name": "The Sanctuary BJJ" },
-      "duration": "PT105S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse X-guard to cross ashi garami",
-      "description": "Reverse X to Ashi Garami Entry (Attacker) film study: Reverse X-guard to cross ashi garami, taught by Ascend Institute.",
+      "name": "Reverse X-Guard to Cross Ashi Garami",
+      "description": "Reverse X to Ashi Garami Entry (Attacker) film study: Reverse X-Guard to Cross Ashi Garami.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RIo0PSEgxSg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RIo0PSEgxSg",
       "url": "https://www.youtube.com/watch?v=RIo0PSEgxSg",
-      "creator": { "@type": "Person", "name": "Ascend Institute" },
       "duration": "PT257S"
     }
   ]
@@ -238,17 +225,9 @@ The entry demands precise coordination between hip elevation, grip transfer, and
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GqE4UobpkMs)
-
-<p class="clip-credit"><strong>Butterfly to reverse X to cross ashi garami</strong> — taught by Bowerhouse MMA · 1:28 · <a href="https://www.youtube.com/watch?v=GqE4UobpkMs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Bf5cJNYCMcA)
 
-<p class="clip-credit"><strong>Reverse X to ashi garami</strong> — taught by The Sanctuary BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=Bf5cJNYCMcA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse X  ashi garami</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=Bf5cJNYCMcA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -256,7 +235,7 @@ The entry demands precise coordination between hip elevation, grip transfer, and
 
 ![](https://www.youtube.com/watch?v=RIo0PSEgxSg)
 
-<p class="clip-credit"><strong>Reverse X-guard to cross ashi garami</strong> — taught by Ascend Institute · 4:17 · <a href="https://www.youtube.com/watch?v=RIo0PSEgxSg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse X-Guard to Cross Ashi Garami</strong> · 4:17 · <a href="https://www.youtube.com/watch?v=RIo0PSEgxSg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

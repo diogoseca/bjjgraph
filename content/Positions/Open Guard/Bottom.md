@@ -165,35 +165,23 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Open Guard (Bottom) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
+      "name": "Guard Retention: The Complete Guide",
+      "description": "Open Guard (Bottom) film study: Guard Retention: The Complete Guide.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ToKDHylpgDY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ToKDHylpgDY",
+      "url": "https://www.youtube.com/watch?v=ToKDHylpgDY",
+      "duration": "PT650S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "3 attacks from collar \u0026 sleeve guard",
-      "description": "Open Guard (Bottom) film study: 3 attacks from collar \u0026 sleeve guard, taught by Giancarlo Bodoni.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SehIaBibwYY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SehIaBibwYY",
-      "url": "https://www.youtube.com/watch?v=SehIaBibwYY",
-      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
-      "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Tomoe nage overhead sweep from open guard",
-      "description": "Open Guard (Bottom) film study: Tomoe nage overhead sweep from open guard, taught by Sapateiro Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fM9jaU9qlUE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fM9jaU9qlUE",
-      "url": "https://www.youtube.com/watch?v=fM9jaU9qlUE",
-      "creator": { "@type": "Person", "name": "Sapateiro Jiu-Jitsu" },
-      "duration": "PT35S"
+      "name": "Effortless Jiu Jitsu Explained - Open Guard Warm Up",
+      "description": "Open Guard (Bottom) film study: Effortless Jiu Jitsu Explained - Open Guard Warm Up, taught by Jiu Jitsu Vintage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aYknDsVN5aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aYknDsVN5aM",
+      "url": "https://www.youtube.com/watch?v=aYknDsVN5aM",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Vintage" },
+      "duration": "PT106S"
     }
   ]
 }
@@ -219,25 +207,17 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+![](https://www.youtube.com/watch?v=ToKDHylpgDY)
 
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SehIaBibwYY)
-
-<p class="clip-credit"><strong>3 attacks from collar &amp; sleeve guard</strong> — taught by Giancarlo Bodoni · 0:16 · <a href="https://www.youtube.com/watch?v=SehIaBibwYY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Retention: The Complete Guide</strong> · 10:50 · <a href="https://www.youtube.com/watch?v=ToKDHylpgDY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=fM9jaU9qlUE)
+![](https://www.youtube.com/watch?v=aYknDsVN5aM)
 
-<p class="clip-credit"><strong>Tomoe nage overhead sweep from open guard</strong> — taught by Sapateiro Jiu-Jitsu · 0:35 · <a href="https://www.youtube.com/watch?v=fM9jaU9qlUE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Effortless Jiu Jitsu Explained - Open Guard Warm Up</strong> — taught by Jiu Jitsu Vintage · 1:46 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -318,7 +298,7 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 **If opponent establishes strong grips and attempts toreando:**
 - Execute **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** → [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Probability: 50%)
-- Execute **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 **If opponent postures up and creates distance:**
@@ -455,7 +435,7 @@ Positional sparring focused exclusively on establishing and breaking grips from 
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Guard-Passing Courses</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem: Ankle Picks</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak: Outside Passing and Finishing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

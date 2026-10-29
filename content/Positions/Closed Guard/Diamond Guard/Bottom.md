@@ -155,39 +155,6 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Diamond Guard (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Diamond guard to dead orchid sweep",
-      "description": "Diamond Guard (Bottom) film study: Diamond guard to dead orchid sweep, taught by Moncaio Brothers.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-fudB_l1Sbc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-fudB_l1Sbc",
-      "url": "https://www.youtube.com/watch?v=-fudB_l1Sbc",
-      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
-      "duration": "PT37S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "High/diamond guard attacks",
-      "description": "Diamond Guard (Bottom) film study: High/diamond guard attacks, taught by Avant-Garde BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VtSbv2sWvEw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VtSbv2sWvEw",
-      "url": "https://www.youtube.com/watch?v=VtSbv2sWvEw",
-      "creator": { "@type": "Person", "name": "Avant-Garde BJJ" },
-      "duration": "PT83S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -202,32 +169,6 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Diamond Guard (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-fudB_l1Sbc)
-
-<p class="clip-credit"><strong>Diamond guard to dead orchid sweep</strong> — taught by Moncaio Brothers · 0:37 · <a href="https://www.youtube.com/watch?v=-fudB_l1Sbc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=VtSbv2sWvEw)
-
-<p class="clip-credit"><strong>High/diamond guard attacks</strong> — taught by Avant-Garde BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=VtSbv2sWvEw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

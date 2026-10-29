@@ -123,18 +123,11 @@ test("a leased selection zoom retains its subject while the pane opens, closes a
   const { j, idx: current } = await bootPaused(page)
   const subject = await distantSubject(page)
   expect(subject).not.toBe(current)
-  await page.evaluate((i) => {
-    const a = (window as any).__neural
-    a.frameNodes([i])
-    a.holdCamera(120)
-  }, subject)
-  await settle(j)
-  const before = await screen(page, subject)
   // v1.219.0 (owner: "center ... not to the center of the screen but to the visible area of the
   // graph"): frameNodes centres in the VISIBLE rect — below the announcer, above the highest showing
-  // row — so the subject's vertical home is that rect's middle, measured here from the DOM. Every
-  // claim below is relative to `before`, which is what this test is about.
-  const rectMid = await page.evaluate(() => {
+  // row. Measure that rect WHEN requesting the frame: an announcer's real-time fade can change
+  // its visibility during the flight, but a leased selection keeps the requested destination.
+  const rectMid = await page.evaluate((i) => {
     const a = (window as any).__neural
     const shown = (el: any) => el && el.offsetHeight && getComputedStyle(el).display !== "none"
     const tops = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current].filter(shown)
@@ -142,8 +135,15 @@ test("a leased selection zoom retains its subject while the pane opens, closes a
     const ev = a.evRef.current, er = ev && ev.getBoundingClientRect()
     const top = er && er.height > 0 && getComputedStyle(ev).opacity !== "0" ? Math.max(16, er.bottom + 12) : 16
     const bottom = tops.length ? Math.min(...tops) - 12 : a.H - 16
-    return (top + bottom) / 2
-  })
+    // STALE CONTRACT (D-318 U4a, CI 48be3a910): with the article shown, frameNodes centres in the
+    // reader's published node band (the rect _viewRect returns), not the announcer-to-rows rect.
+    const band = a.get("readerBook", true) ? a._reader?.nodeBand : null
+    a.frameNodes([i])
+    a.holdCamera(120)
+    return band ? (band.top + band.bottom) / 2 : (top + bottom) / 2
+  }, subject)
+  await settle(j)
+  const before = await screen(page, subject)
   expect(before.x).toBeCloseTo(before.W / 2, 1)
   expect(before.y).toBeCloseTo(rectMid, 0)
   expect(before.held).toBe(true)

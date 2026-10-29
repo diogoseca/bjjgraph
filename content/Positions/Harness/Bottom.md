@@ -166,35 +166,12 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Up From Turtle/Back Defense",
-      "description": "Harness (Bottom) film study: Standing Up From Turtle/Back Defense, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "name": "Back Control (Defending) Seatbelt Grip",
+      "description": "Harness (Bottom) film study: Back Control (Defending) Seatbelt Grip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wga4PfuShEg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wga4PfuShEg",
+      "url": "https://www.youtube.com/watch?v=Wga4PfuShEg",
       "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Simple Standing Rear Naked Choke Escape",
-      "description": "Harness (Bottom) film study: Simple Standing Rear Naked Choke Escape, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BL0RhUlKPQs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BL0RhUlKPQs",
-      "url": "https://www.youtube.com/watch?v=BL0RhUlKPQs",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT205S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Back Control Escape Explained Simply",
-      "description": "Harness (Bottom) film study: Back Control Escape Explained Simply, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
-      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT189S"
     }
   ]
 }
@@ -227,25 +204,9 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+![](https://www.youtube.com/watch?v=Wga4PfuShEg)
 
-<p class="clip-credit"><strong>Standing Up From Turtle/Back Defense</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BL0RhUlKPQs)
-
-<p class="clip-credit"><strong>Simple Standing Rear Naked Choke Escape</strong> — taught by Henry Akins · 3:25 · <a href="https://www.youtube.com/watch?v=BL0RhUlKPQs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3Jd2llamfl8)
-
-<p class="clip-credit"><strong>Back Control Escape Explained Simply</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Control (Defending) Seatbelt Grip</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=Wga4PfuShEg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -318,7 +279,6 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 
 **If opponent establishes one or both hooks while maintaining harness:**
-- Execute **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** → [[Positions/Harness]] (Probability: 55%)
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 - Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
 
@@ -451,7 +411,7 @@ Start from harness bottom with no hooks. Work through complete escape sequence: 
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

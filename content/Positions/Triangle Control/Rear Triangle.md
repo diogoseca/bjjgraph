@@ -36,39 +36,6 @@ description: "Master Rear Triangle position in BJJ. Advanced back control variat
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Rear Triangle \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Rear triangle overview",
-      "description": "Rear Triangle film study: Rear triangle overview, taught by Kaynan Duarte.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iFFM0xAnXMQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iFFM0xAnXMQ",
-      "url": "https://www.youtube.com/watch?v=iFFM0xAnXMQ",
-      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back triangle system overview",
-      "description": "Rear Triangle film study: Back triangle system overview, taught by Mint Flow Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BLouv3W29lg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BLouv3W29lg",
-      "url": "https://www.youtube.com/watch?v=BLouv3W29lg",
-      "creator": { "@type": "Person", "name": "Mint Flow Jiu-Jitsu" },
-      "duration": "PT60S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -104,32 +71,6 @@ The strategic significance of the rear triangle lies in its ability to create su
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Rear Triangle in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iFFM0xAnXMQ)
-
-<p class="clip-credit"><strong>Rear triangle overview</strong> — taught by Kaynan Duarte · 1:02 · <a href="https://www.youtube.com/watch?v=iFFM0xAnXMQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BLouv3W29lg)
-
-<p class="clip-credit"><strong>Back triangle system overview</strong> — taught by Mint Flow Jiu-Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=BLouv3W29lg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -202,17 +143,15 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (18% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (20% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (10% of attempts)
+- **[[Transitions/Grip Fight Escape from Rear Triangle/Attacker|Grip Fight Escape from Rear Triangle]]** (16% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (10% of attempts)
+- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (31% of attempts)
 
-- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (28% of attempts)
+- **[[Transitions/Posture Defense from Rear Triangle/Attacker|Posture Defense from Rear Triangle]]** (22% of attempts)
 
-- **[[Transitions/Grip Fight Escape from Rear Triangle/Attacker|Grip Fight Escape from Rear Triangle]]** (14% of attempts)
-
-- **[[Transitions/Posture Defense from Rear Triangle/Attacker|Posture Defense from Rear Triangle]]** (20% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -277,23 +216,21 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Transitions/Rear Triangle Choke Finish/Attacker|Rear Triangle Choke Finish]]** (20% of attempts)
+- **[[Transitions/Rear Triangle Choke Finish/Attacker|Rear Triangle Choke Finish]]** (21% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (8% of attempts)
 
-- **[[Submissions/Rear Naked Choke/from Rear Triangle/Attacker|Rear Naked Choke from Rear Triangle]]** (20% of attempts)
-
-- **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (4% of attempts)
+- **[[Submissions/Rear Naked Choke/from Rear Triangle/Attacker|Rear Naked Choke from Rear Triangle]]** (21% of attempts)
 
 - **[[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Bow and Arrow Choke from Rear Triangle]]** (gi only)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (11% of attempts)
 
-- **[[Transitions/Rear Triangle to Armbar/Attacker|Rear Triangle to Armbar]]** (15% of attempts)
+- **[[Transitions/Rear Triangle to Armbar/Attacker|Rear Triangle to Armbar]]** (16% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (6% of attempts)
 
-- **[[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|Rear Triangle Choke from Rear Triangle]]** (16% of attempts)
+- **[[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|Rear Triangle Choke from Rear Triangle]]** (17% of attempts)
 
 
 ### Common Mistakes

@@ -387,30 +387,25 @@
     "clips": [
       {
         "id": "8AaRLOSM61U",
-        "title": "Sprawl technique to defend the shot",
-        "by": "Coach Lang",
-        "vertical": false,
+        "title": "Best Wrestling Defense Sprawl Technique",
         "channel": "Coach Lang",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LiRrlPGboK8",
-        "title": "Sprawl technique breakdown",
-        "by": "Jordan Burroughs",
+        "duration": 54,
         "vertical": false,
-        "channel": "CreightonWrestling",
-        "duration": 122,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "Io79xaXZx_c",
-        "title": "How to sprawl against a double leg",
-        "by": "ateambjj",
-        "vertical": false,
+        "title": "How to Sprawl against a Double Leg!",
         "channel": "ateambjj",
         "duration": 56,
-        "verified": "2026-07-15"
+        "vertical": false
+      },
+      {
+        "id": "LiRrlPGboK8",
+        "title": "Jordan Burroughs: Sprawl Technique",
+        "channel": "CreightonWrestling",
+        "duration": 122,
+        "vertical": false
       }
     ]
   },
@@ -596,31 +591,12 @@
     ],
     "clips": [
       {
-        "id": "ymf_c1j3JEY",
-        "title": "Reshots after being sprawled on",
-        "by": "Askren Wrestling Academy",
+        "id": "suLByvCIBN4",
+        "title": "Move of the week - Double leg when they sprawl",
+        "channel": "Infliction Derby",
+        "duration": 145,
         "vertical": false,
-        "channel": "Askren Wrestling Academy",
-        "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "F_cW7ETcTPg",
-        "title": "Sucker drag and peek out vs short offense",
-        "by": "Glover Teixeira",
-        "vertical": false,
-        "channel": "Black and Gold MMA",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "U3T0fy6-iNE",
-        "title": "Chain wrestling: shot recovery after the sprawl",
-        "by": "Jordan Burroughs",
-        "vertical": false,
-        "channel": "FCA Wrestling",
-        "duration": 244,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

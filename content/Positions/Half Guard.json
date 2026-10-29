@@ -100,7 +100,7 @@
     }
   ],
   "top": {
-    "overview": "Half Guard Top represents the dominant counterpart in the Half Guard exchange, where the top player has one leg trapped between the bottom player's legs while maintaining superior positioning with weight and pressure. This position serves as a critical transitional battleground between guard retention and side control, requiring methodical work to advance position while defending against sweeps, submissions, and back takes. The position demands a systematic approach to passing that begins with upper body control establishment and progresses through leg isolation, extraction, and pass completion.\n\nSuccess in Half Guard Top requires understanding pressure distribution, weight placement, and upper body control mechanisms that neutralize the bottom player's offensive capabilities while creating passing opportunities. The top player must recognize specific half guard variations such as Lockdown, Knee Shield, Deep Half, and Z-Guard, applying appropriate passing strategies for each defensive structure. The crossface, underhook battle, and head position constitute the primary control hierarchy, with the winner of these exchanges typically dictating the pace and direction of the positional exchange.\n\nThe fundamental challenge in Half Guard Top lies in freeing the trapped leg while maintaining enough control to prevent sweeps and guard recoveries. This requires systematic progression through stabilization of upper body control, isolation of the trapped leg through weight distribution and pressure, extraction of the leg through technical passing mechanics, and completion of the pass to side control or mount. Rushing any phase of this progression exposes the top player to sweeps, back takes, and submission entries that the bottom player is actively seeking.\n\nAdvanced practitioners develop multiple passing pathways and chain them together based on the bottom player's defensive reactions, creating passing dilemmas that force the bottom player into increasingly compromised positions. The ability to recognize which Half Guard variation the bottom player is employing and immediately apply the corresponding passing strategy separates competent top players from dominant ones. Integration of submission threats like the Kimura and Darce Choke into passing sequences adds additional layers of offensive pressure that prevent the bottom player from committing fully to guard retention.",
+    "overview": "Half Guard Top represents the dominant counterpart in the Half Guard exchange, where the top player has one leg trapped between the bottom player's legs while maintaining superior positioning with weight and pressure. This position serves as a critical transitional battleground between guard retention and side control, requiring methodical work to advance position while defending against sweeps, submissions, and back takes. The position demands a systematic approach to passing that begins with upper body control establishment and progresses through leg isolation, extraction, and pass completion.\n\nSuccess in Half Guard Top requires understanding pressure distribution, weight placement, and upper body control mechanisms that neutralize the bottom player's offensive capabilities while creating passing opportunities. The top player must recognize specific half guard variations such as Lockdown, Knee Shield, Deep Half, and Z-Guard, applying appropriate passing strategies for each defensive structure. The crossface, underhook battle, and head position constitute the primary control hierarchy, with the winner of these exchanges typically dictating the pace and direction of the positional exchange.\n\nThe fundamental challenge in Half Guard Top lies in freeing the trapped leg while maintaining enough control to prevent sweeps and guard recoveries. This requires systematic progression through stabilization of upper body control, isolation of the trapped leg through weight distribution and pressure, extraction of the leg through technical passing mechanics, and completion of the pass to side control or mount. Rushing any phase of this progression exposes the top player to sweeps, back takes, and submission entries that the bottom player is actively seeking.\n\nAdvanced practitioners develop multiple passing pathways and chain them together based on the bottom player's defensive reactions, creating passing dilemmas that force the bottom player into increasingly compromised positions. The ability to recognize which Half Guard variation the bottom player is employing and immediately apply the corresponding passing strategy separates competent top players from dominant ones. Integration of submission threats like the Kimura and Darce Choke into passing sequences adds additional layers of offensive pressure that prevent the bottom player from committing fully to guard retention.\n\nDean Lister demonstrates a calf slicer beginning from top half guard: a shoulder roll changes the position into a folded-leg capture with the shin behind the knee. This belongs to compression locks, where a limb folds around a wedge, rather than the extended-leg stretch used in the Suloev finish. Rehearse the entry without tightening the leg fold and release before either partner turns against the captured knee. Instructional source: [Dean Lister, calf slicer from half mount](https://www.youtube.com/watch?v=3DqTxlVYzfI).",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive",
@@ -124,8 +124,8 @@
     ],
     "key_principles": [
       "Establish and maintain effective upper body control through crossface, underhook, or head control to limit opponent's mobility and offensive capabilities",
-      "Distribute weight strategically to control opponent's hips while maintaining base against sweep attempts and back take entries",
-      "Control opponent's bottom knee to prevent them from creating angles or inserting additional frames that enable guard recovery",
+      "Distribute weight strategically to control opponent's hips while maintaining base against sweep attempts and back take entries. In this example, the narrator favors lower hips when passing a smaller opponent with a crafty guard, but more distance from a much heavier opponent. He frames both choices as ways to keep the bottom player flat, while cautioning that close contact can invite a bridge and too much distance can allow guard recovery. Narration: [Less Impressed More Involved BJJ, 2:34.86–3:21.12](https://www.youtube.com/watch?v=XGBHXO-EMk0&t=154s).",
+      "Control opponent's bottom knee to prevent them from creating angles or inserting additional frames that enable guard recovery. In the narrated half-guard example, the guard player's knee recovers beneath the passer's forearm frame at the hip. As that hip frame loses its effect, the passer redirects the arm frame the guard player has just established. Narration: [Less Impressed More Involved BJJ, 0:38–1:00.4](https://www.youtube.com/watch?v=gtRIw-60Yzk&t=38s). In this example, the narrator offers the top player an option from smashed half guard: square back up to the opponent and keep the elbow in the inside space while moving to the other side, so the opponent cannot reinsert a knee shield. Narration: [Less Impressed More Involved BJJ, 6:03.24–6:18.38](https://www.youtube.com/watch?v=eKVzL5kmijk&t=363s).",
       "Progress methodically through passing stages: stabilization, isolation, extraction, completion rather than rushing to free trapped leg",
       "Recognize specific half guard variation and apply appropriate passing strategy for that defensive configuration",
       "Maintain constant forward pressure while preventing opponent from recovering full guard or creating distance for offensive entries",
@@ -149,8 +149,8 @@
       {
         "transition": "Underhook Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
@@ -245,13 +245,6 @@
         }
       },
       {
-        "transition": "Suloev Stretch from Half Guard",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 2
-        }
-      },
-      {
         "transition": "Half Guard to Leg Weave",
         "attempt_probability": {
           "gi": 3,
@@ -269,7 +262,7 @@
         "transition": "Body Lock Pass",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
@@ -495,22 +488,13 @@
     ],
     "clips": [
       {
-        "id": "8WbQvytyCX0",
-        "title": "How to Pass the Flat Half Guard",
-        "by": "Malachy Friedman",
+        "id": "qNHk-dNW5pI",
         "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 63,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Free Your Foot While Passing Half Guard",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "title": "Half Guard Passing Fundamentals and Top Control",
+        "channel": "KD Grappling | Kieran Davern",
+        "duration": 546,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "yj_6xcl2emA",
@@ -519,7 +503,7 @@
         "vertical": false,
         "channel": "War Room Jiu Jitsu",
         "duration": 70,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -548,40 +532,40 @@
     ],
     "key_principles": [
       "Maintain constant frames to prevent opponent's chest from connecting to your chest - create and preserve distance through knee shield, underhook, or forearm frames",
-      "Battle aggressively for the underhook on the trapped leg side as it provides primary offensive pathway to sweeps and back takes",
+      "Battle aggressively for the underhook on the trapped leg side as it provides primary offensive pathway to sweeps and back takes. In this example, the narrator describes Roosevelt in half guard preventing his opponent from controlling his head and spine, then threading his top elbow through to a deep reverse underhook that keeps the octopus guard entry available. Narration: [FloGrappling, 3:52.4–4:33.44](https://www.youtube.com/watch?v=idoCRB1ewqw&t=232s).",
       "Keep hips mobile and angled rather than flat on back - being on your side allows hip escape, angle creation, and sweep entries",
       "Use the trapped leg as an anchor point for leverage - control opponent's base and posture by manipulating their trapped leg through lockdown, ankle control, or knee pinch",
       "Create constant dilemmas through threatening sweeps, back takes, and guard recoveries - force opponent to react defensively rather than advancing their pass",
       "Protect against the cross-face and underhook from top player which lead to flattening and eventual pass to side control or mount",
-      "Transition between half guard variations based on opponent's pressure and positioning to maintain offensive options"
+      "Transition between half guard variations based on opponent's pressure and positioning to maintain offensive options. In this example, the narrator describes Tommy taking pressure in half guard, entering octopus guard, posting on his hand, and using his left foot to bridge into his opponent; as the opponent struggles to keep balance, Tommy starts entering the legs. Narration: [FloGrappling, 8:33.2–8:58.08](https://www.youtube.com/watch?v=idoCRB1ewqw&t=513s)."
     ],
     "transitions": [
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 6
         }
       },
       {
         "transition": "Knee Shield Retention",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 11
         },
         "deal_here": true
       },
@@ -602,8 +586,8 @@
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 7
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
@@ -694,6 +678,13 @@
         "transition": "Half Guard to Kimura Trap",
         "attempt_probability": {
           "gi": 4,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "John Wayne Sweep",
+        "attempt_probability": {
+          "gi": 5,
           "nogi": 5
         }
       }
@@ -900,31 +891,13 @@
     ],
     "clips": [
       {
-        "id": "N_NGkZs9I-M",
-        "title": "Black X Sweep from Half Guard",
-        "by": "Bruno Bastos",
+        "id": "15kus9CLg2s",
         "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "llsV9Gn_usg",
-        "title": "Octopus Half Guard Sweep",
-        "by": "Khabib Nurmagomedov",
-        "vertical": false,
-        "channel": "The Fight Site",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "F8zTqADm7fU",
-        "title": "Arm Drag from Half Guard Knee Shield",
-        "by": "Bernardo Faria",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 162,
-        "verified": "2026-07-14"
+        "title": "JIU JITSU - HALF GUARD BASICS",
+        "channel": "East Midlands BJJ",
+        "duration": 512,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1159,30 +1132,13 @@
   "clips": [
     {
       "id": "X4jR2wWOy2M",
-      "title": "Half Guard to the Dogfight",
+      "title": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
       "by": "The Base Jiu Jitsu",
       "vertical": false,
       "channel": "The Base Jiu Jitsu",
       "duration": 79,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "N_NGkZs9I-M",
-      "title": "Black X Sweep from Half Guard",
-      "by": "Bruno Bastos",
-      "vertical": false,
-      "channel": "Bernardo Faria BJJ Fanatics",
-      "duration": 61,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "llsV9Gn_usg",
-      "title": "Octopus Half Guard Sweep",
-      "by": "Khabib Nurmagomedov",
-      "vertical": false,
-      "channel": "The Fight Site",
-      "duration": 61,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

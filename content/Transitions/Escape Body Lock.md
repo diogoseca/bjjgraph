@@ -46,35 +46,22 @@ description: "Master the Escape Body Lock in BJJ. Complete guide to breaking loc
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escape Rear Body Lock with a Granby Roll",
-      "description": "Escape Body Lock film study: Escape Rear Body Lock with a Granby Roll, taught by Nakapan MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_QDpqIbTa1k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_QDpqIbTa1k",
-      "url": "https://www.youtube.com/watch?v=_QDpqIbTa1k",
-      "creator": { "@type": "Person", "name": "Nakapan MMA" },
-      "duration": "PT65S"
+      "name": "Body lock break - Kimura",
+      "description": "Escape Body Lock film study: Body lock break - Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fxpu62evbwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fxpu62evbwk",
+      "url": "https://www.youtube.com/watch?v=Fxpu62evbwk",
+      "duration": "PT44S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Leg Switch Cutback from Rear Body Lock",
-      "description": "Escape Body Lock film study: Leg Switch Cutback from Rear Body Lock, taught by Procel BJJ.",
+      "name": "Leg Switch Cutback From Rear Bodylock",
+      "description": "Escape Body Lock film study: Leg Switch Cutback From Rear Bodylock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
       "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
       "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Body Lock Break to Kimura",
-      "description": "Escape Body Lock film study: Body Lock Break to Kimura, taught by SBG Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Fxpu62evbwk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Fxpu62evbwk",
-      "url": "https://www.youtube.com/watch?v=Fxpu62evbwk",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT44S"
     }
   ]
 }
@@ -128,9 +115,9 @@ Understanding this escape is essential for any serious competitor. Body lock tak
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_QDpqIbTa1k)
+![](https://www.youtube.com/watch?v=Fxpu62evbwk)
 
-<p class="clip-credit"><strong>Escape Rear Body Lock with a Granby Roll</strong> — taught by Nakapan MMA · 1:05 · <a href="https://www.youtube.com/watch?v=_QDpqIbTa1k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Body lock break - Kimura</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=Fxpu62evbwk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +125,7 @@ Understanding this escape is essential for any serious competitor. Body lock tak
 
 ![](https://www.youtube.com/watch?v=2VCyaassiRI)
 
-<p class="clip-credit"><strong>Leg Switch Cutback from Rear Body Lock</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Fxpu62evbwk)
-
-<p class="clip-credit"><strong>Body Lock Break to Kimura</strong> — taught by SBG Australia · 0:44 · <a href="https://www.youtube.com/watch?v=Fxpu62evbwk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Switch Cutback From Rear Bodylock</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -335,8 +314,6 @@ The Escape Body Lock occupies a critical defensive node in the standing grapplin
 - [[Transitions/Body Lock to Standing]] - Related escape option focusing on returning to standing position
 
 - [[Transitions/Pummeling Escape from Body Lock]] - Alternative escape technique using inside control to break body lock
-
-- [[Transitions/Back Take]] - Opponent's highest-value transition that this escape aims to prevent
 
 - [[Positions/Standing Position]] - Possible intermediate position during escape
 

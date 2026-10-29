@@ -100,10 +100,6 @@
       "relationship": "Positional advancement option after establishing Anaconda control"
     },
     {
-      "name": "Anaconda Control to Dead Orchard Control",
-      "relationship": "Advanced control transition accessible after completing the switch"
-    },
-    {
       "name": "Turtle",
       "relationship": "Common opponent position during front headlock exchanges where this switch occurs"
     },
@@ -403,31 +399,11 @@
     "safety_considerations": "Both the Darce and Anaconda configurations create significant pressure on the cervical spine and carotid arteries. During training, communicate clearly with your partner before switching grips, as the new choking angle can produce unexpected pressure that catches the defender off guard. Partners should establish a clear tap signal before drilling. Release immediately upon any tap signal, even if you believe the choke is not yet tight. Never crank or twist the neck during the transition - maintain controlled, steady pressure throughout. Be especially cautious when drilling the rolling switch variant, as the dynamic movement combined with grip changes can produce sudden choking pressure.",
     "clips": [
       {
-        "id": "6d6Wkgh9imU",
-        "title": "Darce vs anaconda: switching between the grips",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 67,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "m-lsvmzr8zc",
-        "title": "Darce, Anaconda and Guillotine from Front Headlock",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 507,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2FwrOrzR3kk",
-        "title": "Darce vs Anaconda: How the Switch Differs",
-        "by": "Chad Hardy",
-        "vertical": false,
-        "channel": "Chad The Beast Hardy",
-        "duration": 161,
-        "verified": "2026-07-15"
+        "id": "G3MRCCrK6Z0",
+        "title": "Darce Choke to Anaconda & Vice Versa",
+        "channel": "MMA Leech",
+        "duration": 211,
+        "front": true
       }
     ]
   },
@@ -602,16 +578,6 @@
         "description": "Start from Darce control with attacker free to switch to Anaconda or finish the Darce at any time. Defender scores for escaping to guard or neutral. Attacker scores for finishing either choke or advancing position. Full resistance rounds developing real-time defensive instincts against the complete front headlock choke system including the switch."
       }
     ],
-    "clips": [
-      {
-        "id": "5rVU51Brvs4",
-        "title": "Turtle escape from the front headlock",
-        "by": "Jiu Jitsu Five-O coach",
-        "vertical": false,
-        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
-        "duration": 49,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

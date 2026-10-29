@@ -383,30 +383,11 @@
     "clips": [
       {
         "id": "0T4T2so40C4",
-        "title": "Basic escape from the saddle (cross ashi)",
-        "by": "Travis Anderson",
-        "vertical": false,
+        "title": "basic escape from the saddle (cross ashi) - berimbolo skills",
         "channel": "Travis Anderson",
         "duration": 171,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0g_ALDkfU2Q",
-        "title": "Ashi Garami Escape by Pulling the Leg Free",
-        "by": "Brandon McCaghren",
         "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 107,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KvCwwSOW11w",
-        "title": "Escaping Double Trouble Cross Ashi",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 544,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -571,34 +552,6 @@
         "description": "During live rolling, focus specifically on retaining cross ashi when partners attempt extraction. Develop automatic re-crossing, hip following, and saddle advancement responses. Review which extraction methods succeed against you most often and develop specific counters for those patterns."
       }
     ],
-    "clips": [
-      {
-        "id": "nVfqMfVpTVk",
-        "title": "Fixing cross ashi control to keep the leg",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "UqPMAE7TfrE",
-        "title": "Staying Entangled vs Ashi Garami Defense",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 333,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "svkYt81yBcE",
-        "title": "Drill to Maintain Ashi Garami Position",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

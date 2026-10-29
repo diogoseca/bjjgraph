@@ -522,35 +522,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "kGoEjQMRp3I",
-        "title": "Double deep hook submissions from the Russian Cowboy",
-        "by": "10th Planet Rochester",
-        "vertical": false,
-        "channel": "10thPlanetRochester",
-        "duration": 193,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "qrzsom95zes",
-        "title": "Deep hook submissions from the Russian Cowboy, part 1",
-        "by": "10th Planet Rochester",
-        "vertical": false,
-        "channel": "10thPlanetRochester",
-        "duration": 275,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ndwBL1fHhl4",
-        "title": "Deep hook submissions from the Russian Cowboy, part 2",
-        "by": "10th Planet Rochester",
-        "vertical": false,
-        "channel": "10thPlanetRochester",
-        "duration": 252,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Russian Cowboy Bottom",
@@ -732,7 +704,7 @@
             "probability": 50
           },
           {
-            "technique": "Arm Extraction to Turtle",
+            "technique": "Roll Escape from Russian Cowboy",
             "target": "Turtle",
             "probability": 55
           }
@@ -854,80 +826,54 @@
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 16
+          "gi": 16,
+          "nogi": 18
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
+          "gi": 11,
+          "nogi": 13
         }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Arm Extraction to Turtle",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Arm Recovery to Guard",
         "attempt_probability": {
           "gi": 17,
           "nogi": 16
         }
       },
       {
+        "transition": "Arm Recovery to Guard",
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 18
+        }
+      },
+      {
         "transition": "Hip Escape from Russian Cowboy",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Roll Escape from Russian Cowboy",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Escape from Russian Cowboy",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 9
         }
       }
     ],
-    "clips": [
-      {
-        "id": "NhxDerwXxSU",
-        "title": "Counter the truck by flipping it",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 640,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "WEpVDP7MRpo",
-        "title": "Defending the rolling back take and truck roll",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 209,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1043,33 +989,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "kGoEjQMRp3I",
-      "title": "Double deep hook submissions from Russian Cowboy",
-      "by": "10th Planet Rochester",
-      "vertical": false,
-      "channel": "10thPlanetRochester",
-      "duration": 193,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "IY0CbahJG2A",
-      "title": "Truck entries and submissions overview",
-      "by": "Energia Martial Arts",
-      "vertical": false,
-      "channel": "Energia Martial Arts",
-      "duration": 667,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "6gZXaEZozto",
-      "title": "Setting up twister side control",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Submissions101",
-      "duration": 92,
-      "verified": "2026-07-15"
-    }
-  ]
+  "clips": []
 }

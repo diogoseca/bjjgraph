@@ -37,50 +37,6 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Z-Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Use the Z-Guard: three options",
-      "description": "Z-Guard film study: Use the Z-Guard: three options, taught by Way of BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/T3Gwg-ABsZA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/T3Gwg-ABsZA",
-      "url": "https://www.youtube.com/watch?v=T3Gwg-ABsZA",
-      "creator": { "@type": "Person", "name": "Way of BJJ" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Reverse Z-Guard options, Craig Jones style",
-      "description": "Z-Guard film study: Reverse Z-Guard options, Craig Jones style, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TrVf9YzEe0E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TrVf9YzEe0E",
-      "url": "https://www.youtube.com/watch?v=TrVf9YzEe0E",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT139S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle from the Z-Guard",
-      "description": "Z-Guard film study: Triangle from the Z-Guard, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cnW27eV9H8U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cnW27eV9H8U",
-      "url": "https://www.youtube.com/watch?v=cnW27eV9H8U",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT95S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -119,40 +75,6 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Z-Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=T3Gwg-ABsZA)
-
-<p class="clip-credit"><strong>Use the Z-Guard: three options</strong> — taught by Way of BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=T3Gwg-ABsZA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TrVf9YzEe0E)
-
-<p class="clip-credit"><strong>Reverse Z-Guard options, Craig Jones style</strong> — taught by Craig Jones · 2:19 · <a href="https://www.youtube.com/watch?v=TrVf9YzEe0E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cnW27eV9H8U)
-
-<p class="clip-credit"><strong>Triangle from the Z-Guard</strong> — taught by Evolve MMA · 1:35 · <a href="https://www.youtube.com/watch?v=cnW27eV9H8U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -227,11 +149,9 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (7% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (16% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (15% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (7% of attempts)
-
-- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (10% of attempts)
 
 - **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (6% of attempts)
 
@@ -239,11 +159,15 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 - **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
 
-- **[[Transitions/Z-Guard Sweep/Attacker|Z-Guard Sweep]]** (16% of attempts)
+- **[[Transitions/Z-Guard Sweep/Attacker|Z-Guard Sweep]]** (15% of attempts)
 
-- **[[Transitions/Z-Guard to Half Guard/Attacker|Z-Guard to Half Guard]]** (14% of attempts)
+- **[[Transitions/Z-Guard to Half Guard/Attacker|Z-Guard to Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Sweep from Z-Guard/Attacker|Sweep from Z-Guard]]** (13% of attempts)
+- **[[Transitions/Sweep from Z-Guard/Attacker|Sweep from Z-Guard]]** (12% of attempts)
+
+- **[[Transitions/Z Guard to Carni/Attacker|Z Guard to Carni]]** (5% of attempts)
+
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (9% of attempts)
 
 
 ### Common Mistakes

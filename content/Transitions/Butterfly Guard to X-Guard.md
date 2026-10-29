@@ -46,35 +46,12 @@ description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn set
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia X-guard sweep",
-      "description": "Butterfly Guard to X-Guard film study: Marcelo Garcia X-guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
-      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Marcelo Garcia single leg X-guard sweep",
-      "description": "Butterfly Guard to X-Guard film study: Marcelo Garcia single leg X-guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
-      "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "X-guard entry from butterfly in 60 seconds",
-      "description": "Butterfly Guard to X-Guard film study: X-guard entry from butterfly in 60 seconds, taught by Aces Jiu Jitsu Club.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gxyHU7nPA0A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gxyHU7nPA0A",
-      "url": "https://www.youtube.com/watch?v=gxyHU7nPA0A",
-      "creator": { "@type": "Person", "name": "Aces Jiu Jitsu Club" },
-      "duration": "PT61S"
+      "name": "How to enter X-Guard from Butterfly Guard",
+      "description": "Butterfly Guard to X-Guard film study: How to enter X-Guard from Butterfly Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YSkgoJ5JWWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YSkgoJ5JWWg",
+      "url": "https://www.youtube.com/watch?v=YSkgoJ5JWWg",
+      "duration": "PT85S"
     }
   ]
 }
@@ -128,25 +105,9 @@ From a systems perspective, the butterfly to X-Guard pathway is the most natural
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+![](https://www.youtube.com/watch?v=YSkgoJ5JWWg)
 
-<p class="clip-credit"><strong>Marcelo Garcia X-guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AhsXraebbdg)
-
-<p class="clip-credit"><strong>Marcelo Garcia single leg X-guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gxyHU7nPA0A)
-
-<p class="clip-credit"><strong>X-guard entry from butterfly in 60 seconds</strong> — taught by Aces Jiu Jitsu Club · 1:01 · <a href="https://www.youtube.com/watch?v=gxyHU7nPA0A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to enter X-Guard from Butterfly Guard</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=YSkgoJ5JWWg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -355,7 +316,7 @@ The butterfly guard to X-Guard transition represents a crucial link in modern gu
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Butterfly Guard to X-Guard: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Butterfly Guard to X-Guard: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

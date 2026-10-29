@@ -349,26 +349,7 @@
       }
     ],
     "safety_considerations": "The Lapel Strip from Worm Guard is a grip fighting technique with minimal injury risk when performed correctly. Avoid explosive yanking motions that can hyperextend fingers or strain wrist joints during grip breaks. Use controlled finger peeling technique rather than sudden violent force. Be mindful of your training partner's finger safety when stripping grips and communicate clearly during drilling to prevent unnecessary strain on small joints.",
-    "clips": [
-      {
-        "id": "lLvkMU0xdHw",
-        "title": "Worm Guard 101",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 427,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aR0dbddbfQA",
-        "title": "Stripping the lapel to pass worm rider guard",
-        "by": "Daniel Maira",
-        "vertical": false,
-        "channel": "Movement Art",
-        "duration": 54,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Lapel Strip from Worm Guard Defender",
@@ -531,25 +512,6 @@
         "description": "Full positional sparring starting from established worm guard. Partner attempts to strip and pass while you use all defensive tools: grip reinforcement, sweep threats, re-feeds, and guard transitions. Track how long you maintain worm guard and what position you end up in when it eventually fails."
       }
     ],
-    "clips": [
-      {
-        "id": "Apdhlgpalgc",
-        "title": "How to Pass the Worm Guard",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 202,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kMybfbRxsPg",
-        "title": "Single Grip to Slice Through Lapel Guards",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 512,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

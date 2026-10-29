@@ -147,35 +147,12 @@ description: "Master Combat Base bottom in BJJ. Guard player's guide to retainin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Dealing with the switch/combat base",
-      "description": "Combat Base (Bottom) film study: Dealing with the switch/combat base, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rja-2KKDGb0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rja-2KKDGb0",
-      "url": "https://www.youtube.com/watch?v=rja-2KKDGb0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT284S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Half Guard Sweep and Back Take Against Switch Base",
-      "description": "Combat Base (Bottom) film study: Half Guard Sweep and Back Take Against Switch Base, taught by MMA Leech.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l8veEF9hGW8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/l8veEF9hGW8",
-      "url": "https://www.youtube.com/watch?v=l8veEF9hGW8",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
-      "duration": "PT461S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defeating the Weave Pass with the Underhook",
-      "description": "Combat Base (Bottom) film study: Defeating the Weave Pass with the Underhook, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZXt2yzy0BL0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZXt2yzy0BL0",
-      "url": "https://www.youtube.com/watch?v=ZXt2yzy0BL0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT249S"
+      "name": "Guard retention from combat base Jiu Jitsu",
+      "description": "Combat Base (Bottom) film study: Guard retention from combat base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iR4_EYOBjJ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iR4_EYOBjJ0",
+      "url": "https://www.youtube.com/watch?v=iR4_EYOBjJ0",
+      "duration": "PT31S"
     }
   ]
 }
@@ -207,25 +184,9 @@ Offensively, the bottom of Combat Base is more dangerous than it looks. The pass
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rja-2KKDGb0)
+![](https://www.youtube.com/watch?v=iR4_EYOBjJ0)
 
-<p class="clip-credit"><strong>Dealing with the switch/combat base</strong> — taught by Lachlan Giles · 4:44 · <a href="https://www.youtube.com/watch?v=rja-2KKDGb0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=l8veEF9hGW8)
-
-<p class="clip-credit"><strong>Half Guard Sweep and Back Take Against Switch Base</strong> — taught by MMA Leech · 7:41 · <a href="https://www.youtube.com/watch?v=l8veEF9hGW8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZXt2yzy0BL0)
-
-<p class="clip-credit"><strong>Defeating the Weave Pass with the Underhook</strong> — taught by Lachlan Giles · 4:09 · <a href="https://www.youtube.com/watch?v=ZXt2yzy0BL0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard retention from combat base Jiu Jitsu</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=iR4_EYOBjJ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

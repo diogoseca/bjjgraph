@@ -93,7 +93,7 @@
       "Trapped Leg Extraction Priority: Systematically work to free your trapped leg as it's the key to escaping",
       "Crossface Control: Establish crossface or head control to limit opponent's ability to execute sweep mechanics",
       "Posture Maintenance: Keep good posture and avoid being flattened or broken down",
-      "Base Widening: Use free leg to establish wide base that makes you difficult to off-balance",
+      "Base Widening: Use free leg to establish wide base that makes you difficult to off-balance. In this example, the narrator describes Gordon Ryan first trying to flatten the deep-half player with a crossface; if that fails, he points his trailing leg toward their far hip to make it harder for them to rise or use the old school sweep. Narration: [Less Impressed More Involved BJJ, 13:51.959–14:11.579](https://www.youtube.com/watch?v=XGBHXO-EMk0&t=831s).",
       "Grips: Prevent opponent from establishing sweep grips on belt or pants",
       "Patience Under Pressure: Recognize this is dangerous position requiring methodical escape"
     ],
@@ -460,31 +460,11 @@
     ],
     "clips": [
       {
-        "id": "hHbb7ywVTwU",
-        "title": "Top Deep Half Guard Counter to Back Take",
-        "by": "JiuJitsu.com",
-        "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 63,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "dOdO6xJ-TcU",
-        "title": "Stop the Half Guard Underhook",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "2mom9Urqxa4",
-        "title": "How to Pass the Deep Half Guard",
-        "by": "Dimitrius Souza",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 237,
-        "verified": "2026-07-14"
+        "id": "wZRvy4-ula4",
+        "title": "How to PASS and submit from the deep half guard every time!",
+        "channel": "Mason Fowler",
+        "duration": 277,
+        "front": true
       }
     ]
   },
@@ -879,31 +859,19 @@
     ],
     "clips": [
       {
-        "id": "4EpYNsTwjWY",
-        "title": "Deep Half Faria Sweep",
-        "by": "Team Daruma Dojo",
+        "id": "rYMsh27-f7g",
+        "title": "Deep Half Guard - Basics Summary",
+        "channel": "Kaizen Academy Lancaster",
+        "duration": 263,
         "vertical": false,
-        "channel": "Team Daruma Dojo",
-        "duration": 71,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "ZQzg3TnzMJI",
-        "title": "Deep Half Guard Sweep",
-        "by": "Kyle Dimmitt",
-        "vertical": false,
-        "channel": "Kyle Dimmitt",
-        "duration": 42,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "v7MopqNBzwY",
-        "title": "Deep Half Guard Sweep (No Gi)",
-        "by": "Prism Jiu Jitsu",
-        "vertical": false,
-        "channel": "Prism Jiu Jitsu",
-        "duration": 53,
-        "verified": "2026-07-14"
+        "id": "_IGB9jEvXfo",
+        "title": "Jeff Glover explains low grip and high grip for deep half guard",
+        "channel": "The Jiu Jitsu Encyclopedia",
+        "duration": 41,
+        "vertical": false
       }
     ]
   },
@@ -1024,30 +992,19 @@
   "clips": [
     {
       "id": "_IGB9jEvXfo",
-      "title": "Deep Half Guard Low Grip vs High Grip",
-      "by": "Jeff Glover",
-      "vertical": false,
+      "title": "Jeff Glover explains low grip and high grip for deep half guard",
       "channel": "The Jiu Jitsu Encyclopedia",
-      "duration": 42,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ZQzg3TnzMJI",
-      "title": "Deep Half Guard Sweep",
-      "by": "Kyle Dimmitt",
+      "duration": 41,
       "vertical": false,
-      "channel": "Kyle Dimmitt",
-      "duration": 42,
-      "verified": "2026-07-14"
+      "half": "bottom"
     },
     {
       "id": "rYMsh27-f7g",
-      "title": "Deep Half Guard Basics Summary",
-      "by": "Kaizen Academy",
-      "vertical": false,
+      "title": "Deep Half Guard - Basics Summary",
       "channel": "Kaizen Academy Lancaster",
       "duration": 263,
-      "verified": "2026-07-14"
+      "vertical": false,
+      "half": "bottom"
     }
   ]
 }

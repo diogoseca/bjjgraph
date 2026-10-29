@@ -388,35 +388,7 @@
       }
     ],
     "safety_considerations": "During the transition from crucifix to mount, exercise control over the speed and force of the leg swing to avoid striking your training partner's face or ribs. The weight transfer must be controlled and gradual rather than dropping full bodyweight abruptly onto a partner's torso, which can cause rib injuries or wind the partner. When drilling at higher resistance levels, communicate with training partners to establish boundaries for bridge intensity and counter force. Be especially cautious with the crossface pressure during training, as excessive shoulder driving can cause neck strain.",
-    "clips": [
-      {
-        "id": "C-to6LGEjIs",
-        "title": "Turtle attack finishing in mount",
-        "by": "Dirtball BJJ",
-        "vertical": false,
-        "channel": "Dirtball BJJ",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "elQcegGHtho",
-        "title": "Relationship Between Rear Mount and Back Crucifix",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 212,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "BLv_uIiwjws",
-        "title": "Why Switch From Mount to Mounted Crucifix",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Crucifix to Mount Defender",
@@ -588,25 +560,6 @@
         "description": "Positional sparring starting from crucifix bottom with full resistance. Top player works complete crucifix attack sequence including submissions and mount transition. Bottom player works all defensive options and escape pathways. Evaluate success rates for preventing mount establishment and identify which defensive responses are most effective under pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "41koUZWmeHE",
-        "title": "Escaping the mounted crucifix",
-        "by": "Shem Rock",
-        "vertical": false,
-        "channel": "Shem Rock ",
-        "duration": 146,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C7wr6klxbC8",
-        "title": "Crucifix escape",
-        "by": "Chosen Few BJJ",
-        "vertical": false,
-        "channel": "Chosen Few BJJ",
-        "duration": 89,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

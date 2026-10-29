@@ -166,35 +166,24 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ushiro Kesa Gatame Escape to Back Take",
-      "description": "Kesa Gatame (Bottom) film study: Ushiro Kesa Gatame Escape to Back Take, taught by Gymnanigains.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
-      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
-      "creator": { "@type": "Person", "name": "Gymnanigains" },
-      "duration": "PT26S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kesa Gatame Escape",
-      "description": "Kesa Gatame (Bottom) film study: Kesa Gatame Escape, taught by SBG Australia.",
+      "name": "Kesa Gatame escape",
+      "description": "Kesa Gatame (Bottom) film study: Kesa Gatame escape, taught by SBG Australia.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
       "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
       "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT43S"
+      "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Kesa Gatame Pressure Defense w/ Framing",
-      "description": "Kesa Gatame (Bottom) film study: Kesa Gatame Pressure Defense w/ Framing, taught by Kohbukan Sisu.",
+      "position": 2,
+      "name": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
+      "description": "Kesa Gatame (Bottom) film study: Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing, taught by Kohbukan Sisu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
       "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
       "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
-      "duration": "PT84S"
+      "duration": "PT83S"
     }
   ]
 }
@@ -227,17 +216,9 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
-
-<p class="clip-credit"><strong>Ushiro Kesa Gatame Escape to Back Take</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=2M_6VytUaus)
 
-<p class="clip-credit"><strong>Kesa Gatame Escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame escape</strong> — taught by SBG Australia · 0:42 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -245,7 +226,7 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 ![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
 
-<p class="clip-credit"><strong>Kesa Gatame Pressure Defense w/ Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing</strong> — taught by Kohbukan Sisu · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

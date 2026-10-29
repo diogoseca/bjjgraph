@@ -67,10 +67,10 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you allowing yourself to be completely flattened on your back with opponent's full chest pressure?",
+      "name": "What happens if you letting the opponent retain both the inside-foot frame and exposed heel without addressing the knee line?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Eliminates hip mobility and makes sweeps nearly impossible while giving opponent dominant pressure and control. Once flattened, opponent can focus entirely on attacking your legs or taking your back with minimal risk. The correct approach is: Stay active on your side, never fully flat on your back. Use your top arm to post and create frames. Constantly adjust hip position to maintain angles. If being flattened, immediately bridge and turn to side. Recognition: If you feel opponent's full chest weight on your back and can't move your hips, you're too flat."
+        "text": "The opponent can keep you turned away while controlling the heel, reducing the space available to recover a facing angle or free the trapped knee. The correct approach is: Recognize the foot across your stomach and the clamp above your knee. Protect the heel, address that frame, and recover hip movement as the knee line loosens."
       }
     },
     {
@@ -102,7 +102,7 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
       "name": "What happens if you failing to use frames and posting arms to maintain space?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent collapses all space between you, making it impossible to move hips or create angles needed for escapes or reversals. The correct approach is: Top arm should constantly post on opponent's chest, shoulder, or hip to maintain separation. Bottom arm can frame against opponent's leg or hip. These frames are crucial for maintaining the ability to move."
+        "text": "Opponent collapses all space between you, making it impossible to move hips or create angles needed for escapes or reversals. The correct approach is: Frame against the controlling foot and leg where reachable. Coordinate the hands and free leg to recover space around the knee line while keeping the heel protected."
       }
     }
   ]
@@ -165,23 +165,11 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roll Under Counter to Backside 50/50",
-      "description": "Backside 50-50 (Bottom) film study: Roll Under Counter to Backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escape and Counter the Backside 50/50",
-      "description": "Backside 50-50 (Bottom) film study: Escape and Counter the Backside 50/50, taught by Matrix Jiu Jitsu.",
+      "name": "How to Escape and Counter the Backside 50/50 - Matrix Jiu Jitsu",
+      "description": "Backside 50-50 (Bottom) film study: How to Escape and Counter the Backside 50/50 - Matrix Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RTzSOGlxSWg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RTzSOGlxSWg",
       "url": "https://www.youtube.com/watch?v=RTzSOGlxSWg",
-      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
       "duration": "PT240S"
     }
   ]
@@ -194,11 +182,11 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
 
 <section id="overview" class="content-section">
 
-Backside 50-50 Bottom is an advanced defensive leg entanglement position where both practitioners have their legs intertwined in mirrored configuration, but the bottom player faces away from their opponent with their back exposed to the opponent's chest. This creates a unique tactical situation where both players have access to leg attacks, but the bottom player must manage significant positional disadvantages while seeking opportunities to sweep, escape, or attack the legs.
+In Backside 50-50 Bottom, you are turned away from the opponent behind your trapped leg. Their inside foot crosses in front of your stomach and their leg clamp contains your knee line, limiting the turn back in and exposing your heel.
 
-This position is characterized by the mirrored leg entanglement typical of 50-50 variations, but with the critical difference that the bottom player's back is to the opponent, fundamentally changing the mechanical advantages and available techniques. While offering legitimate attack opportunities, the bottom position in backside 50-50 requires careful management of defensive responsibilities and constant work toward position improvement.
+Protect the heel and manage the controlling foot and leg frame before trying to rotate. Work toward freeing the knee line or recovering a facing angle without driving a captured heel through resistance. Their hands and grips may be difficult to see, so respond to changes in leg tension as well as visible cues.
 
-Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competition, where it often arises from scrambles, failed leg attacks, or as a defensive position when transitioning between different leg entanglements. The position demands technical knowledge of leg lock mechanics, positional awareness to prevent being overwhelmed by the top player's advantages, and systematic approach to escaping or reversing the unfavorable configuration. Success requires balancing defensive priorities (preventing back control and defending leg attacks) with offensive opportunities (sweeps and opportunistic submissions) while maintaining constant hip mobility to avoid complete flattening.
+The immediate problem is the leg entanglement and turn restriction. A back take is a separate threat if the opponent releases the entanglement and establishes upper-body control.
 
 </section>
 
@@ -212,17 +200,9 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll Under Counter to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=RTzSOGlxSWg)
 
-<p class="clip-credit"><strong>Escape and Counter the Backside 50/50</strong> — taught by Matrix Jiu Jitsu · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Escape and Counter the Backside 50/50 - Matrix Jiu Jitsu</strong> · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,10 +216,10 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 <p class="section-subtitle">What is Backside 50-50 (Bottom)?</p>
 
-- Bottom player's back is oriented toward top player's chest, creating exposed back position while maintaining leg entanglement configuration with mirrored leg positioning characteristic of 50-50 variations
+- Bottom player is turned away from the opponent behind the trapped leg, with the knee line contained in the 50-50 leg configuration
 - Both legs are entangled with opponent's legs in mirrored 50-50 configuration, with each player's right leg controlling opponent's left leg or vice versa, creating mutual control and attack opportunities despite positional asymmetry
-- Bottom player's hips are positioned at an angle to opponent, not completely flat on back, maintaining mobility and preventing complete flattening which would eliminate offensive options and escape pathways
-- Top player has positional advantage with ability to apply chest pressure on bottom player's back while maintaining leg entanglement control with both hands free for attacks or control adjustments
+- Bottom player's ability to face the opponent is restricted by the inside foot across the stomach and the clamp on the trapped knee line
+- Top player controls the trapped knee line with the legs, leaving the hands available for the heel and foot
 - Both players have access to heel hooks, toe holds, and ankle locks on entangled legs, but top player has superior leverage and visibility advantages for leg attacks while bottom player has reduced mechanical efficiency
 
 
@@ -273,7 +253,7 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 - Sweeping Mechanics Application: Use leg entanglement and hip movement to off-balance opponent and reverse position
 - Leg Lock Awareness: Understand available leg attacks for both players and defend appropriately while seeking opportunistic finishes
 - Position Before Submission: Prioritize improving position over forcing submissions from inferior position
-- Distance Control Through Frames: Use frames and movement to prevent opponent from flattening you completely
+- Frame Management: Work against the controlling foot and leg to recover hip movement while protecting the heel
 
 
 </section>
@@ -284,7 +264,7 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 <p class="section-subtitle">What should you do from Backside 50-50 (Bottom)?</p>
 
-**If opponent is flattening you with chest pressure and you cannot maintain hip mobility:**
+**If the inside foot blocks your turn and your knee line remains trapped:**
 - Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
 - Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 35%)
 
@@ -319,10 +299,10 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 <p class="section-subtitle">What mistakes should you avoid when defending Backside 50-50?</p>
 
-### 1. Allowing yourself to be completely flattened on your back with opponent's full chest pressure
+### 1. Letting the opponent retain both the inside-foot frame and exposed heel without addressing the knee line
 
-- ❌ **Consequence**: Eliminates hip mobility and makes sweeps nearly impossible while giving opponent dominant pressure and control. Once flattened, opponent can focus entirely on attacking your legs or taking your back with minimal risk.
-- ✅ **Correction**: Stay active on your side, never fully flat on your back. Use your top arm to post and create frames. Constantly adjust hip position to maintain angles. If being flattened, immediately bridge and turn to side. Recognition: If you feel opponent's full chest weight on your back and can't move your hips, you're too flat.
+- ❌ **Consequence**: The opponent can keep you turned away while controlling the heel, reducing the space available to recover a facing angle or free the trapped knee.
+- ✅ **Correction**: Recognize the foot across your stomach and the clamp above your knee. Protect the heel, address that frame, and recover hip movement as the knee line loosens.
 
 ### 2. Ignoring back control threats while focusing exclusively on leg attacks
 
@@ -342,7 +322,7 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 ### 5. Failing to use frames and posting arms to maintain space
 
 - ❌ **Consequence**: Opponent collapses all space between you, making it impossible to move hips or create angles needed for escapes or reversals.
-- ✅ **Correction**: Top arm should constantly post on opponent's chest, shoulder, or hip to maintain separation. Bottom arm can frame against opponent's leg or hip. These frames are crucial for maintaining the ability to move.
+- ✅ **Correction**: Frame against the controlling foot and leg where reachable. Coordinate the hands and free leg to recover space around the knee line while keeping the heel protected.
 
 ### 6. Releasing leg entanglement control prematurely while attempting to escape
 
@@ -361,7 +341,7 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 ### Position Maintenance Under Pressure
 
-Start in backside 50-50 bottom with partner applying moderate chest pressure. Practice maintaining hip mobility, using frames, and preventing complete flattening for 2-minute rounds. Partner gradually increases pressure as you improve.
+Begin with a cooperative partner holding the backside leg configuration without a finishing grip. Practice recognizing the inside-foot frame, protecting the heel, and clearing space to recover a facing angle or free the knee. Increase positional resistance gradually and reset before applying joint pressure.
 
 **Duration**: 5 rounds of 2 minutes
 

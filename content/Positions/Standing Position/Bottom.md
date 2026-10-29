@@ -165,35 +165,12 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Beat the Stiff Arm Grip",
-      "description": "Standing Position (Bottom) film study: Beat the Stiff Arm Grip, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VGy3imISlaA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VGy3imISlaA",
-      "url": "https://www.youtube.com/watch?v=VGy3imISlaA",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT95S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Break Any Collar Grip with Technique",
-      "description": "Standing Position (Bottom) film study: Break Any Collar Grip with Technique, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jTk5AaZd1Rc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jTk5AaZd1Rc",
-      "url": "https://www.youtube.com/watch?v=jTk5AaZd1Rc",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT113S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Deal With an Opponent Who Stiff Arms",
-      "description": "Standing Position (Bottom) film study: Deal With an Opponent Who Stiff Arms, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yjQHCaCmhyo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yjQHCaCmhyo",
-      "url": "https://www.youtube.com/watch?v=yjQHCaCmhyo",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT114S"
+      "name": "Judo Basic Grip fighting 101: right vs right",
+      "description": "Standing Position (Bottom) film study: Judo Basic Grip fighting 101: right vs right.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/67RpDNWRPDU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/67RpDNWRPDU",
+      "url": "https://www.youtube.com/watch?v=67RpDNWRPDU",
+      "duration": "PT356S"
     }
   ]
 }
@@ -219,25 +196,9 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=VGy3imISlaA)
+![](https://www.youtube.com/watch?v=67RpDNWRPDU)
 
-<p class="clip-credit"><strong>Beat the Stiff Arm Grip</strong> — taught by Travis Stevens · 1:35 · <a href="https://www.youtube.com/watch?v=VGy3imISlaA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jTk5AaZd1Rc)
-
-<p class="clip-credit"><strong>Break Any Collar Grip with Technique</strong> — taught by Travis Stevens · 1:53 · <a href="https://www.youtube.com/watch?v=jTk5AaZd1Rc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yjQHCaCmhyo)
-
-<p class="clip-credit"><strong>Deal With an Opponent Who Stiff Arms</strong> — taught by Travis Stevens · 1:54 · <a href="https://www.youtube.com/watch?v=yjQHCaCmhyo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Judo Basic Grip fighting 101: right vs right</strong> · 5:56 · <a href="https://www.youtube.com/watch?v=67RpDNWRPDU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

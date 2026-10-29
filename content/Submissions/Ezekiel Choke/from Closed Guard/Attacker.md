@@ -188,24 +188,32 @@ description: "Learn to attack with the Ezekiel Choke from closed guard top. Step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ezekiel Choke from Closed Guard with a Twist",
-      "description": "Ezekiel Choke from Closed Guard (Attacker) film study: Ezekiel Choke from Closed Guard with a Twist, taught by BJJ After Forty.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U0bEVMh07b0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U0bEVMh07b0",
-      "url": "https://www.youtube.com/watch?v=U0bEVMh07b0",
-      "creator": { "@type": "Person", "name": "BJJ After Forty" },
-      "duration": "PT149S"
+      "name": "Ezekiel Choke from Inside Closed Guard",
+      "description": "Ezekiel Choke from Closed Guard (Attacker) film study: Ezekiel Choke from Inside Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5vLZ1RB10fU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5vLZ1RB10fU",
+      "url": "https://www.youtube.com/watch?v=5vLZ1RB10fU",
+      "duration": "PT77S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The Ezekiel To End All Ezekiels (No Gi)",
-      "description": "Ezekiel Choke from Closed Guard (Attacker) film study: The Ezekiel To End All Ezekiels (No Gi), taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/B7_MjC4WAoI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/B7_MjC4WAoI",
-      "url": "https://www.youtube.com/watch?v=B7_MjC4WAoI",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT87S"
+      "name": "Ezekiel Choke \u2022 Inside Closed Guard",
+      "description": "Ezekiel Choke from Closed Guard (Attacker) film study: Ezekiel Choke \u2022 Inside Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fSipr-4-G0E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fSipr-4-G0E",
+      "url": "https://www.youtube.com/watch?v=fSipr-4-G0E",
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ezekiel Choke from Inside the Closed Guard",
+      "description": "Ezekiel Choke from Closed Guard (Attacker) film study: Ezekiel Choke from Inside the Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I3aJL0VttX4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I3aJL0VttX4",
+      "url": "https://www.youtube.com/watch?v=I3aJL0VttX4",
+      "duration": "PT114S"
     }
   ]
 }
@@ -234,17 +242,25 @@ Attacking with the Ezekiel Choke from inside closed guard requires precise timin
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=U0bEVMh07b0)
+![](https://www.youtube.com/watch?v=5vLZ1RB10fU)
 
-<p class="clip-credit"><strong>Ezekiel Choke from Closed Guard with a Twist</strong> — taught by BJJ After Forty · 2:29 · <a href="https://www.youtube.com/watch?v=U0bEVMh07b0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ezekiel Choke from Inside Closed Guard</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=5vLZ1RB10fU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=B7_MjC4WAoI)
+![](https://www.youtube.com/watch?v=fSipr-4-G0E)
 
-<p class="clip-credit"><strong>The Ezekiel To End All Ezekiels (No Gi)</strong> — taught by Henry Akins · 1:27 · <a href="https://www.youtube.com/watch?v=B7_MjC4WAoI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ezekiel Choke • Inside Closed Guard</strong> · 1:38 · <a href="https://www.youtube.com/watch?v=fSipr-4-G0E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I3aJL0VttX4)
+
+<p class="clip-credit"><strong>Ezekiel Choke from Inside the Closed Guard</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=I3aJL0VttX4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

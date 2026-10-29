@@ -36,50 +36,6 @@ description: "Master the Seat Belt Control transition from Mounted Crucifix in B
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Seat Belt Control Back \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Holding the seatbelt position",
-      "description": "Seat Belt Control Back film study: Holding the seatbelt position, taught by Kyuzo Brazilian Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/y_GjhMb6Qf8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/y_GjhMb6Qf8",
-      "url": "https://www.youtube.com/watch?v=y_GjhMb6Qf8",
-      "creator": { "@type": "Person", "name": "Kyuzo Brazilian Jiu Jitsu" },
-      "duration": "PT26S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Reverse seat belt mount trap back take",
-      "description": "Seat Belt Control Back film study: Reverse seat belt mount trap back take, taught by David Avellan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/a_4vNWWM7gU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/a_4vNWWM7gU",
-      "url": "https://www.youtube.com/watch?v=a_4vNWWM7gU",
-      "creator": { "@type": "Person", "name": "David Avellan" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guard pass to seat belt to the back",
-      "description": "Seat Belt Control Back film study: Guard pass to seat belt to the back, taught by Anker Fugslang.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pV10eiTh1qQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pV10eiTh1qQ",
-      "url": "https://www.youtube.com/watch?v=pV10eiTh1qQ",
-      "creator": { "@type": "Person", "name": "Anker Fugslang" },
-      "duration": "PT136S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -118,40 +74,6 @@ The seat belt grip configuration (one arm over the shoulder, one under the armpi
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Seat Belt Control Back in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=y_GjhMb6Qf8)
-
-<p class="clip-credit"><strong>Holding the seatbelt position</strong> — taught by Kyuzo Brazilian Jiu Jitsu · 0:26 · <a href="https://www.youtube.com/watch?v=y_GjhMb6Qf8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=a_4vNWWM7gU)
-
-<p class="clip-credit"><strong>Reverse seat belt mount trap back take</strong> — taught by David Avellan · 1:32 · <a href="https://www.youtube.com/watch?v=a_4vNWWM7gU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pV10eiTh1qQ)
-
-<p class="clip-credit"><strong>Guard pass to seat belt to the back</strong> — taught by Anker Fugslang · 2:16 · <a href="https://www.youtube.com/watch?v=pV10eiTh1qQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -329,8 +251,6 @@ Seat Belt Control Back serves as the critical link between mounted crucifix domi
 
 - [[Positions/Mount/High Mount]] - Common entry path leading to mounted crucifix before this transition
 
-- [[Transitions/Back Take from Top]] - Related back take transition from other top positions
-
 - [[Transitions/Gift Wrap Transition]] - Alternative arm control transition from similar starting positions
 
 
@@ -341,8 +261,8 @@ Seat Belt Control Back serves as the critical link between mounted crucifix domi
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni: Turtle Breakdowns and Back Attacks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

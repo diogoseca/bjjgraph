@@ -223,7 +223,7 @@
             "probability": 75
           },
           {
-            "technique": "High Elbow Guillotine Variation",
+            "technique": "High Elbow Guillotine from Guillotine Control",
             "target": "Game Over",
             "probability": 70
           }
@@ -283,7 +283,7 @@
             "probability": 75
           },
           {
-            "technique": "High Elbow Guillotine Variation",
+            "technique": "High Elbow Guillotine from Guillotine Control",
             "target": "Game Over",
             "probability": 65
           }
@@ -492,31 +492,11 @@
     ],
     "clips": [
       {
-        "id": "NUnTxPvjCa0",
-        "title": "Marcelo Garcia's Marcelotine Choke",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "stuartcooperfilms",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Dg1dvtWkXhE",
-        "title": "Marcelotine high-elbow guillotine demo",
-        "by": "Half The Battle",
-        "vertical": false,
-        "channel": "Half The Battle",
-        "duration": 110,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "9U5nyBImGj4",
-        "title": "High Elbow Guillotine (Marcelotine)",
-        "by": "Wrecking Crew BJJ",
-        "vertical": false,
-        "channel": "Wrecking Crew BJJ",
-        "duration": 45,
-        "verified": "2026-07-14"
+        "id": "VvkYx4zEWNo",
+        "title": "Guillotine System and Front Head Lock Overview",
+        "channel": "Elevate MMA Academy",
+        "duration": 956,
+        "front": true
       }
     ]
   },
@@ -697,11 +677,6 @@
         "condition": "If opponent postures up and attempts to create space by extending arms or lifting torso",
         "actions": [
           {
-            "technique": "High Elbow Guillotine Variation",
-            "target": "Game Over",
-            "probability": 65
-          },
-          {
             "technique": "Guillotine Setup",
             "target": "Closed Guard",
             "probability": 50
@@ -874,82 +849,49 @@
     },
     "transitions": [
       {
-        "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 21
-        }
-      },
-      {
-        "transition": "Hip Bump Sweep",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 16
-        }
-      },
-      {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 7
+          "gi": 16,
+          "nogi": 12
         }
       },
       {
         "transition": "Closed Guard to Triangle",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 22,
+          "nogi": 25
         }
       },
       {
         "transition": "Guard Recovery from Guillotine Control",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Butterfly Sweep with Guillotine",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 23
+          "gi": 28,
+          "nogi": 30
         }
       },
       {
         "transition": "Guillotine Escape to Von Flue",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Guillotine Escape via Posture",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": {
+          "gi": 28,
+          "nogi": 29
         }
       }
     ],
-    "clips": [
-      {
-        "id": "nGpAcI79frk",
-        "title": "Positional Check Against the Guillotine",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 116,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PYiD6UjqMTw",
-        "title": "Worst Case Guillotine Escape",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 108,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1065,33 +1007,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "NUnTxPvjCa0",
-      "title": "Marcelo Garcia's Marcelotine Choke",
-      "by": "Marcelo Garcia",
-      "vertical": false,
-      "channel": "stuartcooperfilms",
-      "duration": 73,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "SP960PaJkoc",
-      "title": "J-Hook Guillotine Grip Explained",
-      "by": "Elevate MMA Academy",
-      "vertical": false,
-      "channel": "Elevate MMA Academy",
-      "duration": 65,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "z4tNXffuHXM",
-      "title": "Guillotine Choke Fundamentals",
-      "by": "Todd Hendrickson",
-      "vertical": false,
-      "channel": "Todd Hendrickson Jiu Jitsu",
-      "duration": 60,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

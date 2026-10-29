@@ -4,7 +4,7 @@
 
 ---
 title: "Progression to Zombie Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Progression to Zombie in BJJ. Attacking perspective with setup, execution steps, and counters for deepening Rubber Guard control."
+description: "Progression to Zombie (attacker): Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward."
 ---
 
 
@@ -16,42 +16,42 @@ description: "How to execute Progression to Zombie in BJJ. Attacking perspective
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Progression to Zombie in BJJ",
-  "description": "Step-by-step guide for executing Progression to Zombie from New York/Bottom.",
+  "description": "Step-by-step guide for executing Progression to Zombie from Mission Control/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Confirm control integrity",
-      "text": "Verify your overhook depth is secure with shoulder tight against opponent's armpit. Check that your shin-gripping hand has solid purchase near the ankle. Ensure opponent's posture remains broken with their head below your chin level before initiating any transition movement.",
+      "name": "Keep Mission Control",
+      "text": "Maintain posture control while freeing the other arm for the pummel.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Increase core engagement",
-      "text": "Tighten your abdominal muscles and hip flexors to create a stable platform for the transition. This increased tension prevents the opponent from driving forward during leg repositioning and maintains the forward-pulling force on their upper body that compensates for temporarily reduced shin pressure.",
+      "name": "Find inside space",
+      "text": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Initiate hip rotation toward overhook side",
-      "text": "Begin rotating your hips toward the overhook side while simultaneously pulling your knee toward your same-side shoulder. This rotation is the primary mechanical driver of leg elevation. Do not attempt to pull the shin higher with arm strength alone, as this exhausts your grip and creates inconsistent movement.",
+      "name": "Begin clearing the hand",
+      "text": "Guide the wrist and forearm through the available space without bending individual fingers.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Guide shin from back to shoulder",
-      "text": "Use your shin-gripping hand to guide your leg from across the opponent's back upward to wrap around their shoulder. The shin should progressively slide from mid-back to upper back to the junction where neck meets shoulder. Maintain constant contact with the opponent's body throughout this sliding motion.",
+      "name": "Prevent the return pummel",
+      "text": "Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Secure Zombie grip at new elevation",
-      "text": "Once the shin is positioned around the shoulder-neck junction, adjust your grip to control the shin at this new angle. Your hand position may need to shift from near the ankle to mid-shin to maintain effective control at the higher elevation. Test grip security before releasing any transitional pressure.",
+      "name": "Distinguish New York",
+      "text": "Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Consolidate Zombie position",
-      "text": "Pull opponent's head down with the overhook while using the new leg position to trap their shoulder completely. Adjust your hip angle to load their weight onto the trapped arm side, eliminating their ability to post or create base. Begin assessing which submission or advancement pathway their defensive posture exposes.",
+      "name": "Reset a blocked attempt",
+      "text": "Keep a safe guard and look for another opening when the opponent maintains inside frames.",
       "position": 6
     }
   ],
@@ -68,50 +68,50 @@ description: "How to execute Progression to Zombie in BJJ. Attacking perspective
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical driver of leg elevation during the Progression to Zombie?",
+      "name": "Progression to Zombie (bottom): What remains contested when you start from Mission Control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hip rotation toward the overhook side is the primary driver of leg elevation, not arm strength. The arm guides and controls the shin position, but the mechanical power for elevating the leg comes from rotating the hips. Using only arm strength is inefficient, exhausts grip strength quickly, and often fails to achieve proper Zombie position. The hip rotation creates a smooth, progressive elevation that maintains constant contact with the opponent's body."
+        "text": "The opponent's hand or forearm remains inside. Begin the hand-clearing pummel while retaining Mission Control; the arm has not yet been isolated in New York."
       }
     },
     {
       "@type": "Question",
-      "name": "Starting the Zombie transition, they slowly extract the overhooked arm. How do you respond?",
+      "name": "Progression to Zombie (bottom): What holds posture while you pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tighten overhook grip immediately and convert their extraction attempt into a triangle setup by shooting your transitioning leg over their shoulder rather than around it. Their arm extraction naturally positions the arm inside your guard as it pulls back, creating the perfect triangle entry. The extraction attempt becomes an offensive opportunity rather than a defensive success for them."
+        "text": "Keep posture broken with a supported high leg so the free arm can work on the hand opening."
       }
     },
     {
       "@type": "Question",
-      "name": "Which two grips does Progression to Zombie require, and what does each do?",
+      "name": "Progression to Zombie (bottom): Where does Eddy begin against a tight elbow clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Two critical grips must be maintained: the deep overhook around opponent's tricep with shoulder-to-armpit pressure preventing arm extraction, and the shin grip near the ankle with hand positioned to guide leg elevation. The overhook functions as the immovable anchor throughout the transition while the shin grip repositions progressively as the leg moves higher, adjusting its angle to maintain control at each new elevation."
+        "text": "The hand-first version seeks the weaker opening under the hand rather than prying directly beneath the clamped elbow."
       }
     },
     {
       "@type": "Question",
-      "name": "When is the optimal timing window to attempt Progression to Zombie?",
+      "name": "Progression to Zombie (bottom): How should the cleared hand travel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing is when the opponent settles into defending standard New York attacks or begins a slow, methodical posture recovery attempt. During these defensive adjustments, their structure is temporarily compromised as they redistribute weight and attention. Advanced practitioners specifically time the transition to coincide with the opponent's exhale or minor weight shift when their defensive engagement drops to its lowest point."
+        "text": "The pummel moves the wrist and forearm through available space so the inside frame becomes an outside arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Why must core engagement increase rather than decrease during the transition phase?",
+      "name": "Progression to Zombie (bottom): What later action completes New York after the pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "During leg repositioning, you temporarily reduce the pressure your shin exerts across the opponent's back as it slides upward. This creates a brief window where opponents commonly drive forward to flatten your hips and escape. Increased core engagement compensates for the reduced shin pressure, maintains the forward-pulling force on their upper body, and creates the stable platform needed for controlled hip rotation throughout the transition."
+        "text": "The hand reaching the mat is followed by arm coverage and knee support so the opponent cannot easily re-pummel inside."
       }
     },
     {
       "@type": "Question",
-      "name": "Mid-transition to Zombie, they explode their posture up. Correct response?",
+      "name": "Progression to Zombie (bottom): After clearing the hand, what blocks its return in New York?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Abandon the Zombie transition immediately and return to New York control. Use their forward momentum against them by transitioning to Chill Dog setup or shooting for a triangle as they drive in. Their aggressive forward movement actually assists these alternative attacks because it brings their head closer and compresses the space needed for control. Never fight against explosive posture recovery during mid-transition - redirect their energy instead."
+        "text": "After the contested Zombie phase, New York closes the return path with the arm wrap and supported knee; lifting the hand alone can leave it recoverable."
       }
     }
   ]
@@ -124,7 +124,7 @@ description: "How to execute Progression to Zombie in BJJ. Attacking perspective
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Progression to Zombie Attacker",
-  "description": "How to execute Progression to Zombie in BJJ. Attacking perspective with setup, execution steps, and counters for deepening Rubber Guard control.",
+  "description": "Progression to Zombie (attacker): Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -209,13 +209,17 @@ description: "How to execute Progression to Zombie in BJJ. Attacking perspective
 
 <section id="overview" class="content-section">
 
-Executing the Progression to Zombie requires precise coordination between hip rotation, overhook maintenance, and incremental shin repositioning. As the attacker from New York Bottom, your goal is to elevate your controlling leg from across the opponent's back to wrapping around their shoulder-neck junction, creating a dramatically deeper control position that severely limits their defensive options and opens high-percentage submission pathways.
+The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside. Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation.
 
-The transition exploits a fundamental timing window in the opponent's defensive cycle. When they settle into defending standard New York attacks or begin methodically working toward posture recovery, their defensive structure experiences brief moments of reduced engagement. These micro-windows are where the Zombie progression succeeds. The movement must be driven primarily by hip rotation rather than arm strength, using the core as the engine while the shin-gripping hand merely guides the leg along its path.
+Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Guide the wrist and forearm through the available space without bending individual fingers.
 
-Success depends on maintaining the overhook as an independent anchor throughout the entire transition. The overhook cannot be sacrificed or weakened during leg repositioning. This dual-task demand - keeping the anchor solid while moving the leg - is what makes the transition technically challenging but also what makes it effective, since the opponent cannot exploit the repositioning phase if overhook control remains constant.
+Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step. Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward. Keep a safe guard and look for another opening when the opponent maintains inside frames.
 
-**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Continue to the New York arm wrap only after the inside hand has been cleared, keeping the knee supported throughout the pummel. Guard retention takes priority over the next submission if the partner regains posture or the knee begins to slip out of position.
+
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
 
@@ -253,13 +257,12 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 <p class="section-subtitle">What are the key principles for executing Progression to Zombie?</p>
 
-- Maintain overhook depth throughout the transition - releasing grip pressure even momentarily allows escape
-- Use hip rotation rather than arm pulling to drive the leg higher around the opponent's shoulder
-- Time the progression when opponent begins defensive adjustment or weight shift
-- Keep constant downward pressure on opponent's head and shoulders during leg repositioning
-- Core engagement must increase during transition to prevent opponent from driving forward
-- The free hand guides the shin while the overhook arm maintains control independently
-- Small incremental movements are more effective than large explosive repositioning attempts
+- Keep Mission Control: Maintain posture control while freeing the other arm for the pummel.
+- Find inside space: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+- Begin clearing the hand: Guide the wrist and forearm through the available space without bending individual fingers.
+- Prevent the return pummel: Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.
+- Distinguish New York: Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward.
+- Reset a blocked attempt: Keep a safe guard and look for another opening when the opponent maintains inside frames.
 
 
 </section>
@@ -270,11 +273,10 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 <p class="section-subtitle">What do you need before attempting Progression to Zombie?</p>
 
-- Established New York control with deep overhook secured around opponent's tricep
-- Opponent's posture must be broken with head and shoulders pulled down toward your chest
-- Hip flexibility sufficient to elevate shin from back position to shoulder level
-- Shin grip hand positioned near ankle with ability to guide leg movement
-- Opponent showing signs of settling into defensive posture or beginning slow escape attempt
+- The bottom guard player begins in Mission Control, facing a top player whose posture is controlled and whose hand remains inside.
+- Maintain posture control while freeing the other arm for the pummel.
+- Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+- Completed New York already contains the result of the Zombie pummel. Begin clearing the inside hand from Mission Control; this entry stops while the pummel is contested rather than assuming completed arm isolation.
 
 
 </section>
@@ -285,12 +287,12 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 <p class="section-subtitle">How do you execute Progression to Zombie step by step?</p>
 
-1. **Confirm control integrity**: Verify your overhook depth is secure with shoulder tight against opponent's armpit. Check that your shin-gripping hand has solid purchase near the ankle. Ensure opponent's posture remains broken with their head below your chin level before initiating any transition movement.
-2. **Increase core engagement**: Tighten your abdominal muscles and hip flexors to create a stable platform for the transition. This increased tension prevents the opponent from driving forward during leg repositioning and maintains the forward-pulling force on their upper body that compensates for temporarily reduced shin pressure.
-3. **Initiate hip rotation toward overhook side**: Begin rotating your hips toward the overhook side while simultaneously pulling your knee toward your same-side shoulder. This rotation is the primary mechanical driver of leg elevation. Do not attempt to pull the shin higher with arm strength alone, as this exhausts your grip and creates inconsistent movement.
-4. **Guide shin from back to shoulder**: Use your shin-gripping hand to guide your leg from across the opponent's back upward to wrap around their shoulder. The shin should progressively slide from mid-back to upper back to the junction where neck meets shoulder. Maintain constant contact with the opponent's body throughout this sliding motion.
-5. **Secure Zombie grip at new elevation**: Once the shin is positioned around the shoulder-neck junction, adjust your grip to control the shin at this new angle. Your hand position may need to shift from near the ankle to mid-shin to maintain effective control at the higher elevation. Test grip security before releasing any transitional pressure.
-6. **Consolidate Zombie position**: Pull opponent's head down with the overhook while using the new leg position to trap their shoulder completely. Adjust your hip angle to load their weight onto the trapped arm side, eliminating their ability to post or create base. Begin assessing which submission or advancement pathway their defensive posture exposes.
+1. **Keep Mission Control**: Maintain posture control while freeing the other arm for the pummel.
+2. **Find inside space**: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+3. **Begin clearing the hand**: Guide the wrist and forearm through the available space without bending individual fingers.
+4. **Prevent the return pummel**: Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.
+5. **Distinguish New York**: Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward.
+6. **Reset a blocked attempt**: Keep a safe guard and look for another opening when the opponent maintains inside frames.
 
 
 </section>
@@ -301,9 +303,9 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Rubber Guard/Zombie]] | 58% |
-| Failure | [[Positions/Rubber Guard/New York]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Zombie]] | 45% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -314,10 +316,10 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 <p class="section-subtitle">How might your opponent counter Progression to Zombie?</p>
 
-- **Posture explosion during transition - opponent drives hips forward and lifts head aggressively as leg moves** (Effectiveness: High) - Your Response: Abandon transition and return to New York control, using their forward drive momentum to set up Chill Dog or triangle instead → Leads to [[Positions/Rubber Guard/New York]]
-- **Overhook extraction attempt - opponent pulls trapped arm back toward their hip during leg repositioning** (Effectiveness: Medium) - Your Response: Tighten overhook grip and shoot leg over their shoulder for triangle setup, converting their extraction attempt into submission opportunity → Leads to [[Positions/Closed Guard]]
-- **Stack pressure - opponent drives weight forward to flatten your hips and prevent leg elevation** (Effectiveness: Medium) - Your Response: Accept stack momentarily and use momentum to sweep or transition to omoplata setup as their weight commits forward → Leads to [[Positions/Rubber Guard/New York]]
-- **Grip stripping - opponent uses free hand to peel your grip off your own shin during repositioning** (Effectiveness: Low) - Your Response: Maintain control with overhook while re-establishing shin grip, or transition to Invisible Collar using the free hand opportunity created by their grip fighting → Leads to [[Positions/Rubber Guard/New York]]
+- **Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Maintain posture control while freeing the other arm for the pummel. → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. → Leads to [[Positions/Closed Guard]]
+- **The free hand working under yours is the cue to recover inside position before the knee hug closes.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Guide the wrist and forearm through the available space without bending individual fingers. → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step. → Leads to [[Positions/Rubber Guard/Mission Control]]
 
 
 </section>
@@ -328,35 +330,30 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 <p class="section-subtitle">What mistakes should you avoid when executing Progression to Zombie?</p>
 
-### 1. Releasing overhook pressure while focusing on leg repositioning
+### 1. Skipping the checkpoint: keep mission control
 
-- **Consequence**: Opponent extracts trapped arm and restores posture, completely escaping rubber guard control
-- **Correction**: Maintain overhook as the anchor throughout transition - the overhook must work independently while leg moves
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Maintain posture control while freeing the other arm for the pummel.
+- **Correction**: Maintain posture control while freeing the other arm for the pummel.
 
-### 2. Attempting to pull leg higher using only arm strength rather than hip rotation
+### 2. Skipping the checkpoint: find inside space
 
-- **Consequence**: Inefficient movement that exhausts grip strength and often fails to achieve proper Zombie position
-- **Correction**: Drive transition with hip rotation toward overhook side, using arm only to guide rather than pull
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+- **Correction**: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-### 3. Rushing the transition without confirming initial New York control is solid
+### 3. Skipping the checkpoint: begin clearing the hand
 
-- **Consequence**: Starting from compromised position results in failed transition and potential loss of all control
-- **Correction**: Verify deep overhook, broken posture, and secure shin grip before initiating any movement
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Guide the wrist and forearm through the available space without bending individual fingers.
+- **Correction**: Guide the wrist and forearm through the available space without bending individual fingers.
 
-### 4. Relaxing core engagement during leg repositioning phase
+### 4. Skipping the checkpoint: prevent the return pummel
 
-- **Consequence**: Opponent drives forward immediately, flattening your hips and preventing leg elevation
-- **Correction**: Increase core engagement during transition - this is when you need maximum tension, not minimum
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.
+- **Correction**: Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step.
 
-### 5. Moving the leg in one large explosive movement rather than incremental adjustments
+### 5. Skipping the checkpoint: distinguish new york
 
-- **Consequence**: Creates opening for opponent to counter during large movement, loses control during adjustment
-- **Correction**: Use small progressive movements, continuously adjusting grip and hip position throughout
-
-### 6. Failing to adjust grip position after shin reaches shoulder level
-
-- **Consequence**: Grip at wrong angle cannot maintain control, position deteriorates back to New York or worse
-- **Correction**: Proactively reposition grip hand as leg elevation changes angle requirements
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward.
+- **Correction**: Recognize the contested hand-clearing position as Zombie; completed arm isolation and the knee hug establish New York afterward.
 
 
 
@@ -368,17 +365,17 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 <p class="section-subtitle">How do you train Progression to Zombie (Attacker)?</p>
 
-**Week 1-2** - Flexibility and position recognition
-Practice hip flexibility drills specifically targeting the range needed for Zombie position. Work static holds in New York, then Zombie, without opponent resistance. Focus on understanding the structural differences between positions and building comfort with high leg elevation.
+**Phase 1** - Identify the configuration
+Work cooperatively on keep mission control. Maintain posture control while freeing the other arm for the pummel. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Transition mechanics
-Practice the full transition sequence with compliant partner. Partner maintains New York position while you execute 20-30 repetitions per session. Focus on hip rotation as primary driver and maintaining overhook throughout. Partner provides feedback on pressure consistency.
+**Phase 2** - Rehearse the connection
+Work cooperatively on find inside space. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Timing and resistance
-Partner begins offering moderate defensive reactions during transition. Practice recognizing optimal timing windows when opponent adjusts position. Work counter-responses to common defenses. Build reaction speed and ability to abandon transition when countered.
+**Phase 3** - Add an early response
+Work cooperatively on begin clearing the hand. Guide the wrist and forearm through the available space without bending individual fingers. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 7+** - Live integration
-Incorporate transition into positional sparring from closed guard and rubber guard positions. Track success rate and identify personal failure patterns. Work chains from Zombie to submissions. Practice recognizing when Zombie is appropriate versus other New York progressions.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on prevent the return pummel. Keep the high knee supported while contesting the inside hand; arm coverage and a closed knee hug belong to the next New York step. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -392,7 +389,7 @@ Incorporate transition into positional sparring from closed guard and rubber gua
 
 <p class="section-subtitle">What are the safety concerns for Progression to Zombie?</p>
 
-Progression to Zombie requires significant hip flexibility, and forcing the position beyond your comfortable range can strain hip flexors, adductors, or cause knee discomfort. During training, communicate with partners about pressure levels and never hold position past the point of discomfort. The transition involves complex leg positioning that can torque the knee if performed incorrectly - always move the hip joint rather than rotating the knee in isolation. When practicing with resistance, start slowly and build speed gradually to allow your body to adapt to the movement patterns. If you experience any sharp pain in hips, knees, or lower back during the transition, stop immediately and consult with a qualified instructor about your technique.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

@@ -46,24 +46,22 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roger Gracie armbars",
-      "description": "Armbar from Armbar Control film study: Roger Gracie armbars, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT102S"
+      "name": "Stop Racking Yourself with Armbars in BJJ",
+      "description": "Armbar from Armbar Control film study: Stop Racking Yourself with Armbars in BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kZsCLF6O-Cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kZsCLF6O-Cg",
+      "url": "https://www.youtube.com/watch?v=kZsCLF6O-Cg",
+      "duration": "PT146S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Armbar from mount when they bump you off",
-      "description": "Armbar from Armbar Control film study: Armbar from mount when they bump you off, taught by Kyle Dimmitt.",
+      "description": "Armbar from Armbar Control film study: Armbar from mount when they bump you off.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gDn6uThIABM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gDn6uThIABM",
       "url": "https://www.youtube.com/watch?v=gDn6uThIABM",
-      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
-      "duration": "PT76S"
+      "duration": "PT75S"
     }
   ]
 }
@@ -126,9 +124,9 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+![](https://www.youtube.com/watch?v=kZsCLF6O-Cg)
 
-<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stop Racking Yourself with Armbars in BJJ</strong> · 2:26 · <a href="https://www.youtube.com/watch?v=kZsCLF6O-Cg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,7 +134,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 ![](https://www.youtube.com/watch?v=gDn6uThIABM)
 
-<p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> — taught by Kyle Dimmitt · 1:16 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -372,7 +370,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related submission on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related submission reference: Armbar from Armbar Control.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related submission reference: Armbar from Armbar Control.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Preparation with Matt D’Aquino</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related submission reference: Armbar from Armbar Control.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

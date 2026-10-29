@@ -165,35 +165,22 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lasso Guard Knee Press Pass",
-      "description": "Lasso Guard (Top) film study: Lasso Guard Knee Press Pass, taught by Roll 247.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Cx53Xl0SGC4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Cx53Xl0SGC4",
-      "url": "https://www.youtube.com/watch?v=Cx53Xl0SGC4",
-      "creator": { "@type": "Person", "name": "Roll 247" },
-      "duration": "PT27S"
+      "name": "HOW-TO: Pass the lasso guard with Guilherme Mendes",
+      "description": "Lasso Guard (Top) film study: HOW-TO: Pass the lasso guard with Guilherme Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RmeptYbx1to/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RmeptYbx1to",
+      "url": "https://www.youtube.com/watch?v=RmeptYbx1to",
+      "duration": "PT105S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Destroying the Lasso Guard - Pass Details",
-      "description": "Lasso Guard (Top) film study: Destroying the Lasso Guard - Pass Details, taught by Gustavo Batista.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qIESyGHwDgs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qIESyGHwDgs",
-      "url": "https://www.youtube.com/watch?v=qIESyGHwDgs",
-      "creator": { "@type": "Person", "name": "Gustavo Batista" },
-      "duration": "PT257S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Over Under Pass Against Spider Lasso Guard",
-      "description": "Lasso Guard (Top) film study: Over Under Pass Against Spider Lasso Guard, taught by Bernardo Faria.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Cwpk8obMtkE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Cwpk8obMtkE",
-      "url": "https://www.youtube.com/watch?v=Cwpk8obMtkE",
-      "creator": { "@type": "Person", "name": "Bernardo Faria" },
-      "duration": "PT286S"
+      "name": "part 1 breaking opponents grips lasso guard set pass",
+      "description": "Lasso Guard (Top) film study: part 1 breaking opponents grips lasso guard set pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ES5Kz7zHK5E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ES5Kz7zHK5E",
+      "url": "https://www.youtube.com/watch?v=ES5Kz7zHK5E",
+      "duration": "PT349S"
     }
   ]
 }
@@ -231,25 +218,17 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Cx53Xl0SGC4)
+![](https://www.youtube.com/watch?v=RmeptYbx1to)
 
-<p class="clip-credit"><strong>Lasso Guard Knee Press Pass</strong> — taught by Roll 247 · 0:27 · <a href="https://www.youtube.com/watch?v=Cx53Xl0SGC4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=qIESyGHwDgs)
-
-<p class="clip-credit"><strong>Destroying the Lasso Guard - Pass Details</strong> — taught by Gustavo Batista · 4:17 · <a href="https://www.youtube.com/watch?v=qIESyGHwDgs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>HOW-TO: Pass the lasso guard with Guilherme Mendes</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=RmeptYbx1to" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Cwpk8obMtkE)
+![](https://www.youtube.com/watch?v=ES5Kz7zHK5E)
 
-<p class="clip-credit"><strong>Over Under Pass Against Spider Lasso Guard</strong> — taught by Bernardo Faria · 4:46 · <a href="https://www.youtube.com/watch?v=Cwpk8obMtkE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>part 1 breaking opponents grips lasso guard set pass</strong> · 5:49 · <a href="https://www.youtube.com/watch?v=ES5Kz7zHK5E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -452,7 +431,7 @@ Start every round with partner in established lasso control. Full intensity spar
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Lasso Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Lasso Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Lasso Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position: Lasso Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak: Outside Passing and Finishing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

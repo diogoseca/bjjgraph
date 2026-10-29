@@ -18,7 +18,11 @@ exec >> clips_sourcing/run.log 2>&1
 echo "=== [$(date '+%F %T')] corpus run starting (pid $$) ==="
 for cat in Positions Submissions Transitions Principles; do
   echo "=== [$(date '+%F %T')] category: $cat ==="
-  python3 scripts/source_clips.py --stage all --category "$cat"
+  python3 scripts/source_clips.py --stage all --category "$cat" || {
+    status=$?
+    # Fatal credentials cannot recover in another category; preserve other exits.
+    if [ "$status" -eq 2 ]; then exit "$status"; fi
+  }
 done
 python3 scripts/source_clips.py --stage report
 echo "=== [$(date '+%F %T')] CORPUS RUN COMPLETE ==="

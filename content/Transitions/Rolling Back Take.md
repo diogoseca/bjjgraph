@@ -46,35 +46,22 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rolling back take from turtle",
-      "description": "Rolling Back Take film study: Rolling back take from turtle, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oijKoS9siS4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oijKoS9siS4",
-      "url": "https://www.youtube.com/watch?v=oijKoS9siS4",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT41S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Gator roll back take from turtle",
-      "description": "Rolling Back Take film study: Gator roll back take from turtle, taught by Gracie Barra Pymble.",
+      "name": "Gator Roll Back Take from Turtle",
+      "description": "Rolling Back Take film study: Gator Roll Back Take from Turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/o_7f8c64YrY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/o_7f8c64YrY",
       "url": "https://www.youtube.com/watch?v=o_7f8c64YrY",
-      "creator": { "@type": "Person", "name": "Gracie Barra Pymble" },
       "duration": "PT37S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Ninja roll back take",
-      "description": "Rolling Back Take film study: Ninja roll back take, taught by bjjtaro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7rE8Y4XyHno/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7rE8Y4XyHno",
-      "url": "https://www.youtube.com/watch?v=7rE8Y4XyHno",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
-      "duration": "PT11S"
+      "position": 2,
+      "name": "Rolling Back Take from Turtle",
+      "description": "Rolling Back Take film study: Rolling Back Take from Turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oijKoS9siS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oijKoS9siS4",
+      "url": "https://www.youtube.com/watch?v=oijKoS9siS4",
+      "duration": "PT41S"
     }
   ]
 }
@@ -124,25 +111,17 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=oijKoS9siS4)
-
-<p class="clip-credit"><strong>Rolling back take from turtle</strong> — taught by JiuJitsu.com · 0:41 · <a href="https://www.youtube.com/watch?v=oijKoS9siS4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=o_7f8c64YrY)
 
-<p class="clip-credit"><strong>Gator roll back take from turtle</strong> — taught by Gracie Barra Pymble · 0:37 · <a href="https://www.youtube.com/watch?v=o_7f8c64YrY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gator Roll Back Take from Turtle</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=o_7f8c64YrY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7rE8Y4XyHno)
+![](https://www.youtube.com/watch?v=oijKoS9siS4)
 
-<p class="clip-credit"><strong>Ninja roll back take</strong> — taught by bjjtaro · 0:11 · <a href="https://www.youtube.com/watch?v=7rE8Y4XyHno" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rolling Back Take from Turtle</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=oijKoS9siS4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -350,7 +329,7 @@ The Rolling Back Take is a fundamental component of the top turtle attack system
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Foundations with Mikey Musumeci</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>

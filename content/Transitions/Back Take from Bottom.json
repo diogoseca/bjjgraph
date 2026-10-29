@@ -15,33 +15,33 @@
   "from_position": "Hindulotine/Bottom",
   "outcomes": [
     {
+      "result": "success",
       "to": "Back Control/Top",
       "probability": {
-        "gi": 65,
-        "nogi": 65
-      },
-      "result": "success"
+        "gi": 35,
+        "nogi": 35
+      }
     },
     {
+      "result": "failure",
       "to": "Hindulotine/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
-      },
-      "result": "failure"
+        "gi": 45,
+        "nogi": 45
+      }
     },
     {
+      "result": "counter",
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 10,
-        "nogi": 10
-      },
-      "result": "counter"
+        "gi": 20,
+        "nogi": 20
+      }
     }
   ],
   "success_rate": {
-    "gi": 58,
-    "nogi": 58
+    "gi": 35,
+    "nogi": 35
   },
   "overview": "The Back Take from Bottom Hindulotine is a high-percentage transition that exploits the most common defensive reaction to guillotine pressure: turning away to relieve neck strain. When an opponent rotates to escape the choking grip from bottom Hindulotine, they inadvertently expose their back, creating an optimal entry point for back control. This transition epitomizes the modern submission grappling philosophy where defensive movements create offensive opportunities.\n\nThis technique transforms a failed or stalled submission attempt into a dominant positional advantage. Rather than chasing the guillotine as the opponent turns, the practitioner releases the guillotine grip and immediately establishes seatbelt control, threading the former choking arm across the opponent's chest as the overhook while the other arm slides under the armpit. The transition must be timed precisely with the opponent's rotation to capitalize on their momentum.\n\nThe back take from bottom Hindulotine is particularly effective because the opponent often commits fully to the turn, believing they are escaping danger. This commitment makes the back exposure more complete and the subsequent control establishment more secure. The position integrates seamlessly into front headlock and guillotine attack systems, providing a reliable secondary option when the primary choke stalls.",
   "conditions": [
@@ -66,14 +66,6 @@
     {
       "name": "Rear Naked Choke",
       "relationship": "Primary follow-up submission from back control"
-    },
-    {
-      "name": "Back Take from Top",
-      "relationship": "Similar transition executed from top Hindulotine"
-    },
-    {
-      "name": "Hindulotine to Darce Choke",
-      "relationship": "Alternative attack when opponent creates frames instead of turning"
     },
     {
       "name": "Hindulotine to Anaconda Choke",
@@ -172,7 +164,7 @@
         "counter": "Opponent turtles defensively before you can insert hooks",
         "effectiveness": "Low",
         "your_response": "Maintain seatbelt control on turtle and work standard back take entries from turtle, or transition to front headlock if they lower their hips",
-        "targets_outcome": "Back Control/Top"
+        "targets_outcome": "Hindulotine/Bottom"
       }
     ],
     "common_errors": [
@@ -395,35 +387,7 @@
       }
     ],
     "safety_considerations": "This transition is generally low-risk when performed with proper technique, but awareness of several safety factors ensures injury-free training. The primary risk involves neck strain if the guillotine is maintained too aggressively during the opponent's turn, potentially causing cervical spine torque. Release the guillotine cleanly when transitioning rather than holding while they rotate. During drilling, partners should turn at controlled speeds to allow proper timing development. Avoid explosive hook insertions that could strike training partner's groin or inner thigh. In competition or hard sparring, be aware that rapid transitions can result in scrambles where joint locks may be applied unexpectedly. Always tap early to any submission caught during chaotic transitions. Practitioners with neck injuries should approach this technique cautiously due to the rotational forces involved during the transition phase.",
-    "clips": [
-      {
-        "id": "MFed9IE8afA",
-        "title": "Reverse armdrag from butterfly to back take",
-        "by": "Jerry Musquiz",
-        "vertical": false,
-        "channel": "Jerry Musquiz",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kflXezQ9_8g",
-        "title": "Marcelo Garcia back attack study",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Josh Presley",
-        "duration": 315,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "z3DrDbDeI8M",
-        "title": "Back take and guillotine options",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 157,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Back Take from Bottom Defender",
@@ -599,26 +563,7 @@
         "description": "Start from bottom Hindulotine position with full resistance. Partner chooses between finishing the guillotine, transitioning to back take, or switching to darce. Develop real-time decision-making under pressure, building the ability to defend the back take while managing all Hindulotine threats simultaneously."
       }
     ],
-    "clips": [
-      {
-        "id": "bhkb4ItZQno",
-        "title": "How not to get mounted when escaping the back",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 131,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "I43ALzc733w",
-        "title": "Escaping back control in jiu-jitsu",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 71,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

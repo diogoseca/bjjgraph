@@ -76,10 +76,6 @@
       "relationship": "Common offensive chain from Worm Guard after transition"
     },
     {
-      "name": "Back Take",
-      "relationship": "High-percentage follow-up from Worm Guard sweeps"
-    },
-    {
       "name": "Spider Guard",
       "relationship": "Alternative guard if lapel control is lost during transition"
     },
@@ -389,35 +385,7 @@
       }
     ],
     "safety_considerations": "This transition involves minimal injury risk as it is a control reconfiguration rather than a joint attack or impact movement. The primary safety concern is maintaining awareness of your own posture during the transition to avoid being stacked or having your neck compressed if the opponent drives forward aggressively. Ensure sufficient space exists before attempting the transition rather than forcing it under pressure. When drilling, communicate with your partner about the lapel tension to avoid friction burns on fingers or wrists from the gi material. Stop immediately if either partner feels sharp pain from the lapel wrapping.",
-    "clips": [
-      {
-        "id": "CdPHu-ly6t8",
-        "title": "Lapel guard examples: worm, reverse De La Worm, ring worm",
-        "by": "Greg Hamilton",
-        "vertical": false,
-        "channel": "Renzo Gracie Jiu Jitsu DFW",
-        "duration": 287,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ionS-bmfXxk",
-        "title": "Worm guard back take and ringworm overhead sweeps",
-        "by": "Meerkatsu",
-        "vertical": false,
-        "channel": "Meerkatsu's BJJ Videos",
-        "duration": 430,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "--69GBxx7ig",
-        "title": "Worm guard and ringworm guard basic sweeps",
-        "by": "Meerkatsu",
-        "vertical": false,
-        "channel": "Meerkatsu's BJJ Videos",
-        "duration": 734,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Ringworm Guard to Worm Guard Defender",
@@ -592,35 +560,7 @@
         "description": "Start in Ringworm Guard with the bottom player free to attempt any technique including the Worm Guard transition. Practice reading the full range of bottom player's options and selecting appropriate defensive responses. Develop the ability to distinguish transition attempts from direct attacks and allocate defensive resources accordingly."
       }
     ],
-    "clips": [
-      {
-        "id": "aR0dbddbfQA",
-        "title": "Passing the Polish worm rider lapel guard",
-        "by": "Daniel Maira",
-        "vertical": false,
-        "channel": "Movement Art",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "4ZpRKQjkFe0",
-        "title": "Worm guard counter",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "OZ BJJ",
-        "duration": 127,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wB2JljlB1Rg",
-        "title": "Countering the worm and lapel guard",
-        "by": "Kevin Nguyen",
-        "vertical": false,
-        "channel": "Kevin Nguyen",
-        "duration": 210,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

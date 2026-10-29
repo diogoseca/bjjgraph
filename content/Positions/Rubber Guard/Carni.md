@@ -4,7 +4,7 @@
 
 ---
 title: "Carni | BJJ Position Guide | BJJ Graph"
-description: "Master Carni position in BJJ. Advanced leg entanglement with systematic heel hook and back take paths. Strategic guide covering both attacking and defending perspectives."
+description: "Carni is a rubber-guard shoulder-lock configuration in which the bottom player clears a leg around the head, clamps the shoulder, and controls the arm while turning partly belly down."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master Carni position in BJJ. Advanced leg entanglement with syste
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Carni",
-  "description": "Master Carni position in BJJ. Advanced leg entanglement with systematic heel hook and back take paths. Strategic guide covering both attacking and defending perspectives.",
+  "description": "Carni is a rubber-guard shoulder-lock configuration in which the bottom player clears a leg around the head, clamps the shoulder, and controls the arm while turning partly belly down.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master Carni position in BJJ. Advanced leg entanglement with syste
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Carni",
-  "description": "Carni is an advanced no-gi leg entanglement where you trap one of the opponent's legs from the inside while threading your top leg over their hip, forcing a dilemma between heel-hook defense and back exposure.",
+  "description": "Carni is a rubber-guard shoulder-lock configuration in which the bottom player clears a leg around the head, clamps the shoulder, and controls the arm while turning partly belly down.",
   "inDefinedTermSet": "https://bjjgraph.org/Positions/"
 }
 </script>
@@ -105,15 +105,17 @@ description: "Master Carni position in BJJ. Advanced leg entanglement with syste
 
 <section id="overview" class="content-section">
 
-**Carni is an advanced no-gi leg entanglement where you trap one of the opponent's legs from the inside while threading your top leg over their hip, forcing a dilemma between heel-hook defense and back exposure.**
+**Carni is a rubber-guard shoulder-lock configuration in which the bottom player clears a leg around the head, clamps the shoulder, and controls the arm while turning partly belly down.**
 
-Emerging from modern no-gi grappling, the Carni was popularized by Australian grapplers like Lachlan Giles and adopted by Craig Jones and the B-Team. Named after the "carnivore" concept of aggressively attacking the legs, it functions as a transitional control state between standard ashi garami variants and more dominant positions like the saddle or back control. The Carni is characterized by controlling one of the opponent's legs while maintaining inside positioning with your own legs, creating immediate threats of heel hooks, transitions to the saddle, or unexpected paths to the back.
+The guard player has a high leg and an overhook-side shoulder connection. The controlling leg has cleared around the head while the knee stays close to the torso. The guard player turns partly belly down and anchors the foot to limit posture recovery. Triceps and wrist control isolate the captured arm for a controlled shoulder-lock threat.
 
-What distinguishes the Carni from other leg entanglement positions is its versatility and the high-percentage nature of its attack paths. Unlike static leg lock positions, the Carni emphasizes dynamic control and transition, forcing opponents into defensive reactions that open up multiple submission and positional advancement opportunities. The position is particularly effective in no-gi competition where leg attacks are legal, and it has become a cornerstone of modern leg lock systems.
+Richie Martinez demonstrates the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Terminology: Carnie, Carni shoulder-lock control.
 
-The Carni requires sophisticated understanding of leg entanglement mechanics, back exposure principles, and the ability to chain attacks seamlessly. Practitioners must develop the sensitivity to recognize when opponents are defending the leg attack versus when they're creating back exposure, and the technical proficiency to capitalize on either defensive choice. This position represents the evolution of leg lock systems from isolated submissions to comprehensive control positions with multiple high-percentage finishing paths.
+Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
-From the attacking perspective (bottom), the Carni offers exceptional offensive opportunities with relatively low energy expenditure. The position allows the bottom player to create constant dilemmas for their opponent while maintaining multiple high-percentage attack paths. From the defensive perspective (top), understanding the Carni is crucial for recognizing escape opportunities and preventing the attacker from establishing dominant control or finishing submissions.
+Shoulder pressure can arrive before a large movement is visible. Stop at control during drills, tap early, and never combine a fixed wrist with an explosive roll or a forced stack.
+
+Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](https://www.youtube.com/watch?v=iClQ2Np-n30).
 
 </section>
 
@@ -158,19 +160,17 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ## Key Principles
 
 
-- Maintain inside positioning with top leg over opponent's hip to prevent escape and create saddle entry angles
+- Set the upper-body angle: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
-- Control opponent's heel and ankle with both hands to establish immediate submission threat
+- Frame before clearing: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-- Keep hips mobile and ready to invert, roll, or transition as opponent attempts to defend or escape
+- Anchor through the hips: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
-- Create constant dilemma between defending leg attack and preventing back exposure
+- Hold the triceps: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
 
-- Use leg configuration to control distance and prevent opponent from establishing upper body control
+- Control before finishing: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
 
-- Anticipate opponent's roll or spin attempts and follow movement to transition to back or saddle
-
-- Maintain tension in leg entanglement while staying relaxed in upper body to conserve energy
+- Let the lock go: Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
 
 
 </section>
@@ -185,11 +185,11 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
 | **Position Type** | Offensive/Controlling | Defensive |
-| **Risk Level** | Medium | High |
-| **Energy Cost** | Medium | High |
-| **Time** | Short to Medium | Short |
+| **Risk Level** | High | High |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Short to Medium |
 
-**Key Difference:** Dynamic leg control trades static security
+**Key Difference:** Leg-assisted shoulder isolation from guard
 
 
 
@@ -205,63 +205,51 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Key Principles
 
 
-- Maintain inside positioning with top leg over opponent's hip to prevent escape and create saddle entry angles
+- Set the upper-body angle: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
-- Control opponent's heel and ankle with both hands to establish immediate submission threat and prevent leg extraction
+- Frame before clearing: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-- Keep hips mobile and ready to invert, roll, or transition as opponent attempts to defend or escape
+- Anchor through the hips: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
-- Create constant dilemma between defending leg attack and preventing back exposure
+- Hold the triceps: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
 
-- Use leg configuration to control distance and prevent opponent from establishing upper body control or pressure
+- Control before finishing: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
 
-- Anticipate opponent's roll or spin attempts and follow the movement to transition to back control or saddle
-
-- Maintain tension in the leg entanglement while staying relaxed in upper body to conserve energy and react quickly
+- Let the lock go: Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
 
 
 ### Available Transitions
 
 
-- **[[Submissions/Heel Hook/from Carni/Attacker|Heel Hook from Carni]]** (45% of attempts)
+- **[[Submissions/Carni Shoulder Lock/Attacker|Carni Shoulder Lock]]** (50% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (21% of attempts)
+- **[[Transitions/Carni Release to Guard/Attacker|Carni Release to Guard]]** (35% of attempts)
 
-- **[[Submissions/Calf Slicer/from Carni/Attacker|Calf Slicer from Carni]]** (18% of attempts)
-
-- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (16% of attempts)
+- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (15% of attempts)
 
 
 ### Common Mistakes
 
 
-- ❌ **Failing to maintain inside positioning with top leg, allowing opponent to step over and escape**
-  - Consequence: Opponent easily extracts leg and passes to top position or establishes distance control
-  - ✅ Correction: Keep top leg actively hooking over opponent's hip or threading inside, using this leg as primary control point for maintaining entanglement
+- ❌ **Skipping the checkpoint: set the upper-body angle**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+  - ✅ Correction: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
-- ❌ **Gripping too high on opponent's leg (above knee) instead of controlling heel and ankle**
-  - Consequence: Lose immediate submission threat and allow opponent time to defend and escape safely
-  - ✅ Correction: Prioritize heel and ankle control with both hands, establishing immediate finishing threat before attempting transitions
+- ❌ **Skipping the checkpoint: frame before clearing**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+  - ✅ Correction: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-- ❌ **Remaining static and not following opponent's defensive movements**
-  - Consequence: Opponent successfully rolls, spins, or extracts leg while you maintain outdated angle and lose control
-  - ✅ Correction: Stay mobile and ready to invert, roll under, or rotate with opponent's movement, treating Carni as dynamic transitional position rather than static control
+- ❌ **Skipping the checkpoint: anchor through the hips**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+  - ✅ Correction: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
-- ❌ **Applying submission pressure too early before securing proper angle and control**
-  - Consequence: Premature submission attempt allows opponent to recognize danger and escape before control is fully established
-  - ✅ Correction: Establish solid positional control first, then gradually apply submission pressure while maintaining readiness to transition based on opponent's defensive reactions
+- ❌ **Skipping the checkpoint: hold the triceps**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
+  - ✅ Correction: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
 
-- ❌ **Ignoring back exposure opportunities when opponent turns away from leg attack**
-  - Consequence: Miss high-percentage transition to back control while fixating only on heel hook finish
-  - ✅ Correction: Recognize back exposure as equal or better opportunity than leg finish, following opponent's roll immediately to secure back control or truck position
-
-- ❌ **Allowing opponent to establish upper body grips and create stacking pressure**
-  - Consequence: Lose leg entanglement structure and get passed to top position or forced to release control
-  - ✅ Correction: Use leg configuration to maintain distance and prevent upper body engagement, inverting or repositioning before opponent can establish heavy pressure
-
-- ❌ **Committing fully to heel hook without recognizing opponent's successful defensive positioning**
-  - Consequence: Expend energy on low-percentage finish while missing available transitions to better positions
-  - ✅ Correction: Maintain awareness of opponent's defensive success and immediately transition to saddle, back, or truck when heel hook is well-defended
+- ❌ **Skipping the checkpoint: control before finishing**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
+  - ✅ Correction: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
 
 
 </section>
@@ -276,63 +264,47 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Key Principles
 
 
-- First priority is protecting the heel and preventing immediate submission by controlling ankle position
+- Identify the shoulder threat: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
 
-- Maintain leg extension to prevent saddle transition while simultaneously working to extract trapped leg
+- Keep the elbow close early: Avoid reaching away while the opponent sets the triceps control.
 
-- Create frames and distance with upper body to prevent bottom player from establishing additional control
+- Deny the belly-down angle: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
 
-- Recognize when to accept positional loss rather than risk catastrophic knee injury
+- Free the arm before passing: Create slack around the shoulder and elbow before moving the hips past the legs.
 
-- Keep free leg positioned defensively to prevent bottom player from establishing more control
+- Avoid rolling against the lock: Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged.
 
-- Move decisively once escape opportunity is recognized rather than remaining static in danger
-
-- Be willing to give up position or accept guard passing if it means safely extracting from leg entanglement
+- Rebuild posture after release: Raise the head and chest only after the arm and head-side leg are clear.
 
 
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (29% of attempts)
-
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (28% of attempts)
-
-- **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** (23% of attempts)
-
-- **[[Transitions/Stack Pass from Carni/Attacker|Stack Pass from Carni]]** (20% of attempts)
+- **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** (100% of attempts)
 
 
 ### Common Mistakes
 
 
-- ❌ **Panicking and attempting explosive movements without systematic escape sequence**
-  - Consequence: Expend energy rapidly while failing to improve position and potentially tearing own knee ligaments
-  - ✅ Correction: Remain calm, protect heel first, then systematically work through escape hierarchy prioritizing safety over speed
+- ❌ **Skipping the checkpoint: identify the shoulder threat**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+  - ✅ Correction: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
 
-- ❌ **Ignoring the heel hook threat while focusing only on extracting the leg**
-  - Consequence: Suffer catastrophic knee injury while attempting escape without first securing ankle position
-  - ✅ Correction: Always address immediate submission threat first by controlling ankle and keeping toes pointed away from attacker
+- ❌ **Skipping the checkpoint: keep the elbow close early**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Avoid reaching away while the opponent sets the triceps control.
+  - ✅ Correction: Avoid reaching away while the opponent sets the triceps control.
 
-- ❌ **Rolling away from the leg attack without recognizing back exposure risk**
-  - Consequence: Give up back control to bottom player who follows the roll and secures dominant position
-  - ✅ Correction: Recognize that rolling away often plays into bottom player's strategy and consider alternative escapes
+- ❌ **Skipping the checkpoint: deny the belly-down angle**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
+  - ✅ Correction: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
 
-- ❌ **Remaining static in the position hoping bottom player will make mistake**
-  - Consequence: Allow bottom player time to perfect their controls and establish multiple attack paths
-  - ✅ Correction: Begin escape sequence immediately upon recognizing position rather than waiting for opportunity
+- ❌ **Skipping the checkpoint: free the arm before passing**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Create slack around the shoulder and elbow before moving the hips past the legs.
+  - ✅ Correction: Create slack around the shoulder and elbow before moving the hips past the legs.
 
-- ❌ **Using upper body strength to try to muscle out of entanglement**
-  - Consequence: Expend massive energy without addressing technical problems of leg isolation and control
-  - ✅ Correction: Focus on technical solutions like creating angles, clearing hooks, and systematic leg extraction
-
-- ❌ **Failing to tap when submission is locked and inevitable**
-  - Consequence: Suffer serious knee injury that requires surgery and extended recovery time
-  - ✅ Correction: Recognize when position is lost and tap early to protect health for long-term training
-
-- ❌ **Extending trapped leg forcefully to create distance**
-  - Consequence: Present perfectly extended heel for immediate heel hook finish
-  - ✅ Correction: Keep slight bend in knee while defending, only extending strategically during actual escape sequence
+- ❌ **Skipping the checkpoint: avoid rolling against the lock**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged.
+  - ✅ Correction: Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged.
 
 
 </section>
@@ -343,21 +315,13 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ## Related Positions
 
 
-- **[[Positions/Ashi Garami]]** - Entry position - standard leg entanglement from which Carni is often accessed
+- **[[Positions/Rubber Guard]]** - Related position, not an automatic outcome: compare the configuration and required controls for Rubber Guard.
 
-- **[[Positions/X-Guard/Single Leg X-Guard]]** - Entry position - common starting point for Carni entries with inside leg positioning
+- **[[Positions/Rubber Guard/Chill Dog]]** - Related position, not an automatic outcome: compare the configuration and required controls for Chill Dog.
 
-- **[[Positions/Ashi Garami/Saddle]]** - Primary advancement target - most common transition when opponent defends heel
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Related position, not an automatic outcome: compare the configuration and required controls for Knee Shield Half Guard.
 
-- **[[Positions/Twister Control/Truck]]** - Back exposure transition - accessed when opponent turns belly down
-
-- **[[Positions/Back Control]]** - Alternative finish position - taken when opponent rolls to defend leg attack
-
-- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related entanglement - alternative leg position with different attack angles
-
-- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Entry position - common guard to initiate Carni entries
-
-- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related control position - shares similar leg entanglement principles
+- **[[Positions/Omoplata Control]]** - Related position, not an automatic outcome: compare the configuration and required controls for Omoplata Control.
 
 
 </section>

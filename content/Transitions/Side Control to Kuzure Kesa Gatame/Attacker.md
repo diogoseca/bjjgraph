@@ -186,24 +186,12 @@ description: "How to execute the transition from side control to Kuzure Kesa Gat
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kuzure Kesa Gatame (broken scarf hold) no-gi demo",
-      "description": "Side Control to Kuzure Kesa Gatame (Attacker) film study: Kuzure Kesa Gatame (broken scarf hold) no-gi demo, taught by Sampson Judo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oXzrusNRq70/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oXzrusNRq70",
-      "url": "https://www.youtube.com/watch?v=oXzrusNRq70",
-      "creator": { "@type": "Person", "name": "Sampson Judo" },
-      "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kuzure Kesa Gatame study and application",
-      "description": "Side Control to Kuzure Kesa Gatame (Attacker) film study: Kuzure Kesa Gatame study and application, taught by Judo Life.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aTsvuZ1vM48/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aTsvuZ1vM48",
-      "url": "https://www.youtube.com/watch?v=aTsvuZ1vM48",
-      "creator": { "@type": "Person", "name": "Judo Life" },
-      "duration": "PT33S"
+      "name": "Side Control to Sideways Side Control (Kuzure Kesa Gatame) Transition Drill\u2026",
+      "description": "Side Control to Kuzure Kesa Gatame (Attacker) film study: Side Control to Sideways Side Control (Kuzure Kesa Gatame) Transition Drill\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/suuUxpNKU5g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/suuUxpNKU5g",
+      "url": "https://www.youtube.com/watch?v=suuUxpNKU5g",
+      "duration": "PT296S"
     }
   ]
 }
@@ -231,17 +219,9 @@ Executing the transition to Kuzure Kesa Gatame from side control centers on one 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=oXzrusNRq70)
+![](https://www.youtube.com/watch?v=suuUxpNKU5g)
 
-<p class="clip-credit"><strong>Kuzure Kesa Gatame (broken scarf hold) no-gi demo</strong> — taught by Sampson Judo · 0:19 · <a href="https://www.youtube.com/watch?v=oXzrusNRq70" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aTsvuZ1vM48)
-
-<p class="clip-credit"><strong>Kuzure Kesa Gatame study and application</strong> — taught by Judo Life · 0:33 · <a href="https://www.youtube.com/watch?v=aTsvuZ1vM48" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control to Sideways Side Control (Kuzure Kesa Gatame) Transition Drill…</strong> · 4:56 · <a href="https://www.youtube.com/watch?v=suuUxpNKU5g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

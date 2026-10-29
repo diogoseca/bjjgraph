@@ -68,24 +68,24 @@ description: "Master the Darce Choke in BJJ. Complete guide covering setup requi
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Double stack pass to a Darce choke",
-      "description": "Darce Choke film study: Double stack pass to a Darce choke, taught by All Day MMA and Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eEDKC2F3U2k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eEDKC2F3U2k",
-      "url": "https://www.youtube.com/watch?v=eEDKC2F3U2k",
-      "creator": { "@type": "Person", "name": "All Day MMA and Jiu Jitsu" },
-      "duration": "PT85S"
+      "name": "1 Minute Jiu-Jitsu Hack: Marce Choke",
+      "description": "Darce Choke film study: 1 Minute Jiu-Jitsu Hack: Marce Choke, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hCiHjCbhGyE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hCiHjCbhGyE",
+      "url": "https://www.youtube.com/watch?v=hCiHjCbhGyE",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT67S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
-      "name": "Darce choke to guard pass",
-      "description": "Darce Choke film study: Darce choke to guard pass, taught by Josh Presley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Rosmg5rjo_s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Rosmg5rjo_s",
-      "url": "https://www.youtube.com/watch?v=Rosmg5rjo_s",
-      "creator": { "@type": "Person", "name": "Josh Presley" },
-      "duration": "PT121S"
+      "name": "Knee Flare Marce Choke Detail",
+      "description": "Darce Choke film study: Knee Flare Marce Choke Detail, taught by Drew Darce.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mp7Ffm85k0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mp7Ffm85k0A",
+      "url": "https://www.youtube.com/watch?v=Mp7Ffm85k0A",
+      "creator": { "@type": "Person", "name": "Drew Darce" },
+      "duration": "PT113S"
     }
   ]
 }
@@ -112,7 +112,7 @@ description: "Master the Darce Choke in BJJ. Complete guide covering setup requi
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Darce Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Darce is a no-gi arm-triangle blood choke that threads one arm under the opponent\u0027s near armpit and across their neck, then closes a figure-four to compress both carotids using their own trapped shoulder." } },
-    { "@type": "Question", "name": "What positions can you finish the Darce Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Darce Choke from Darce Control, Overhook Control, Leg Drag Control, Twister Side Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Darce Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Darce Choke from Darce Control, Overhook Control, Side Control, Leg Drag Control, Twister Side Control." } },
     { "@type": "Question", "name": "Is the Darce Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Darce Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to unconsciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -143,6 +143,8 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 The Darce's effectiveness stems from its applicability across multiple positions—front headlock, turtle, scrambles, and even from bottom positions—making it a cornerstone technique in modern no-gi grappling. Unlike traditional gi chokes that rely on fabric grips, the Darce's body mechanics and leverage make it equally effective with or without the gi, though it's primarily considered a no-gi specialist's weapon. The technique creates a powerful dilemma for defenders: protecting the neck exposes the back, while defending the back creates the arm-neck gap needed for the Darce entry.
 
+The Marce Choke is a named rolling D'Arce variation, available in both gi and no-gi and more common in no-gi. It retains the under-armpit head-and-arm connection while the attacker moves close to the hip and rolls onto the shoulder. It is not a separate lapel choke.
+
 </section>
 
 
@@ -171,17 +173,17 @@ The Darce's effectiveness stems from its applicability across multiple positions
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eEDKC2F3U2k)
+![](https://www.youtube.com/watch?v=hCiHjCbhGyE)
 
-<p class="clip-credit"><strong>Double stack pass to a Darce choke</strong> — taught by All Day MMA and Jiu Jitsu · 1:25 · <a href="https://www.youtube.com/watch?v=eEDKC2F3U2k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1 Minute Jiu-Jitsu Hack: Marce Choke</strong> — taught by Brandon McCaghren · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Rosmg5rjo_s)
+![](https://www.youtube.com/watch?v=Mp7Ffm85k0A)
 
-<p class="clip-credit"><strong>Darce choke to guard pass</strong> — taught by Josh Presley · 2:01 · <a href="https://www.youtube.com/watch?v=Rosmg5rjo_s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Flare Marce Choke Detail</strong> — taught by Drew Darce · 1:53 · <a href="https://www.youtube.com/watch?v=Mp7Ffm85k0A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -201,6 +203,7 @@ The Darce's effectiveness stems from its applicability across multiple positions
 |---|---|---|---|---|
 | [[Submissions/Darce Choke/from Darce Control|Darce Control]] | Top | 62% | [[Submissions/Darce Choke/from Darce Control/Attacker|Attack →]] | [[Submissions/Darce Choke/from Darce Control/Defender|Defend →]] |
 | [[Submissions/Darce Choke/from Overhook Control|Overhook Control]] | Top | 62% | [[Submissions/Darce Choke/from Overhook Control/Attacker|Attack →]] | [[Submissions/Darce Choke/from Overhook Control/Defender|Defend →]] |
+| [[Submissions/Darce Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/Darce Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Darce Choke/from Side Control/Defender|Defend →]] |
 | [[Submissions/Darce Choke/from Leg Drag|Leg Drag Control]] | Top | 45% | [[Submissions/Darce Choke/from Leg Drag/Attacker|Attack →]] | [[Submissions/Darce Choke/from Leg Drag/Defender|Defend →]] |
 | [[Submissions/Darce Choke/from Twister Side Control|Twister Side Control]] | Top | 40% | [[Submissions/Darce Choke/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Darce Choke/from Twister Side Control/Defender|Defend →]] |
 
@@ -216,7 +219,7 @@ The Darce's effectiveness stems from its applicability across multiple positions
 - **Darce from Half Guard Top**: When opponent has you in half guard, establish cross-face control, thread choking arm through neck-shoulder gap on their far side, secure figure-four, and finish by creating angle while maintaining top position or rolling to side. (When to use: Passing half guard when opponent keeps their head low; opponent attempts deep half guard entry; transitioning from knee slice pass.)
 - **Standing Darce**: Apply Darce mechanics from standing front headlock position. Secure the grip while standing, then either drop to guard while maintaining control or take opponent to ground before finishing with body weight through the choke. (When to use: Opponent shoots failed takedown; front headlock from standing clinch; defensive counter to single or double leg attempts.)
 - **Darce to Anaconda Transition**: If opponent defends darce by turning into you, maintain grip but switch to anaconda configuration by adjusting shoulder and elbow position to attack from the new angle their defense created. (When to use: When opponent successfully turns into the darce—rather than losing position, flow to the related anaconda choke finish.)
-- **Marce (Reverse Darce)**: Similar mechanics to standard Darce but executed from the opposite side. Thread your arm from the far side of opponent's neck rather than the near side. Often available when opponent defends standard Darce by controlling their near arm. (When to use: Standard Darce is blocked due to opponent defending their near arm; front headlock position with control of opponent's far arm instead of near arm.)
+- **Marce Choke (Rolling D'Arce)**: Keep the D'Arce head-and-arm connection while moving hip to hip and rolling or diving onto the shoulder. Finish with the grip close to the torso and the elbows closing; the opponent's trapped shoulder remains part of the choke. (When to use: The shoulder-roll angle is available while the head and arm remain contained. Usable in gi and no-gi, and more commonly taught in no-gi.)
 - **Brabo Choke from Side Control**: Enter Darce mechanics from top side control by threading arm under opponent's far armpit and around their neck. Finish by walking your feet toward their head and dropping weight through the choke structure. (When to use: From top side control when opponent's far arm is available; when transitioning to mount and opponent defends by framing; alternative to standard arm triangle.)
 - **Darce from Scramble**: Opportunistic Darce applied during transitions or scrambles when opponent momentarily exposes their neck and arm together. Requires fast recognition and explosive entry to secure the figure-four before the window closes. (When to use: Dynamic scramble situations; opponent is recovering guard; transitions between positions where standard setups aren't available; no-gi competition scenarios.)
 

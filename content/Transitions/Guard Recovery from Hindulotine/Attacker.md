@@ -176,50 +176,6 @@ description: "Learn to recover guard from Hindulotine as the bottom player in BJ
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Guard Recovery from Hindulotine (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Guard recovery when getting smashed",
-      "description": "Guard Recovery from Hindulotine (Attacker) film study: Guard recovery when getting smashed, taught by Finesse Jiu-Jitsu HTX.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
-      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
-      "creator": { "@type": "Person", "name": "Finesse Jiu-Jitsu HTX" },
-      "duration": "PT103S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Guard Recovery from Hindulotine (Attacker) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Getting to feet on biceps correctly",
-      "description": "Guard Recovery from Hindulotine (Attacker) film study: Getting to feet on biceps correctly, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
-      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT125S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -232,40 +188,6 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Guard Recovery from Hindulotine (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BhNZGloJ56c)
-
-<p class="clip-credit"><strong>Guard recovery when getting smashed</strong> — taught by Finesse Jiu-Jitsu HTX · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
-
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
-
-<p class="clip-credit"><strong>Getting to feet on biceps correctly</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -322,9 +244,9 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 40% |
-| Failure | [[Positions/Hindulotine]] | 35% |
-| Counter | [[Positions/Side Control]] | 25% |
+| Success | [[Positions/Closed Guard]] | 60% |
+| Failure | [[Positions/Hindulotine]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -335,7 +257,7 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 <p class="section-subtitle">How might your opponent counter Guard Recovery from Hindulotine?</p>
 
-- **Opponent circles to the exposed back side during hip realignment, taking advantage of the angular position to advance behind your guard** (Effectiveness: High) - Your Response: Prioritize the near-side knee shield on the exposed side before beginning hip rotation, and use your overhook grip to prevent the opponent from circling past your shoulder line → Leads to [[Positions/Side Control]]
+- **Opponent circles to the exposed back side during hip realignment, taking advantage of the angular position to advance behind your guard** (Effectiveness: High) - Your Response: Prioritize the near-side knee shield on the exposed side before beginning hip rotation, and use your overhook grip to prevent the opponent from circling past your shoulder line → Leads to [[Positions/Open Guard]]
 - **Opponent drives heavy forward pressure to flatten you during the grip transition, collapsing your frames before hip realignment completes** (Effectiveness: High) - Your Response: Use the knee shield and frame together to absorb the pressure, and if flattened, immediately work to regain lateral position through small incremental hip escapes rather than attempting one large recovery movement → Leads to [[Positions/Hindulotine]]
 - **Opponent strips the overhook conversion and postures up aggressively to create maximum distance before you can recompose guard** (Effectiveness: Medium) - Your Response: Chase with feet on hips immediately upon losing upper body control, and secure sleeve or collar grip with your free hand to maintain connection at range → Leads to [[Positions/Hindulotine]]
 

@@ -75,10 +75,6 @@
       "relationship": "Escape position if entry fails and space is created"
     },
     {
-      "name": "Kneebar Finish",
-      "relationship": "Follow-up submission from Kneebar Control"
-    },
-    {
       "name": "Inside Ashi-Garami",
       "relationship": "Related leg entanglement with similar attack options"
     }
@@ -383,30 +379,18 @@
     "clips": [
       {
         "id": "BbtWWX6Glw0",
-        "title": "50/50 Kneebar Entry",
-        "by": "The Jiu-Jitsu Foundry",
-        "vertical": false,
+        "title": "5050 Kneebar",
         "channel": "The Jiu-Jitsu Foundry",
-        "duration": 40,
-        "verified": "2026-07-15"
+        "duration": 39,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "-5BXaxHLsyo",
-        "title": "50/50 Spinning Kneebar Entry",
-        "by": "Andrew Smith",
-        "vertical": false,
+        "title": "50/50 Spinning Kneebar",
         "channel": "Revolution BJJ",
         "duration": 97,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "DBbSqQf6iCo",
-        "title": "Roll Under to Backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 110,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -583,26 +567,7 @@
         "description": "Start in 50-50 with partner attacking freely. Defend kneebar entries in live rolling while also managing heel hook threats. Develop the ability to recognize and counter the entry while maintaining offensive options of your own. Full resistance from both partners."
       }
     ],
-    "clips": [
-      {
-        "id": "cYEzCp2l4rQ",
-        "title": "50/50 Escape, No-Gi Leg Locks",
-        "by": "Elite Team Monterey",
-        "vertical": false,
-        "channel": "ELITE TEAM MONTEREY",
-        "duration": 46,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-1c4KyEfZ9Y",
-        "title": "Knee Bar Defense to Leg Drag",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 234,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

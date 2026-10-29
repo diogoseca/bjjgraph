@@ -409,31 +409,19 @@
     "safety_considerations": "The triangle from spider guard places significant pressure on the opponent's neck and cervical spine during the entry phase. During training, control the speed of your hip elevation and leg swing to avoid striking the opponent's face or jaw with your knee or shin. When drilling the technique, communicate with your partner about neck discomfort and release immediately upon any tap signal. Be especially cautious with the pulling force on the sleeve grip, as sudden jerking can cause shoulder strain in the opponent. The triangle choke itself restricts blood flow to the brain—monitor your training partner for signs of consciousness loss and release within one second of a tap signal. Avoid cranking the neck to finish if the choking angle is incorrect.",
     "clips": [
       {
-        "id": "DnEJZf_t8PU",
-        "title": "Rafael Mendes Triangle Choke from Guard",
-        "by": "Rafael Mendes",
+        "id": "7ItTf1BFDZA",
+        "title": "Spider Guard Foot On Bicep Triangle Choke",
+        "channel": "Ritchie Yip",
+        "duration": 31,
         "vertical": false,
-        "channel": "GRACIEMAG - The original BJJ magazine. ",
-        "duration": 62,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "wl48JJRddV8",
         "title": "Spider Guard to Triangle or Omoplata",
-        "by": "Clark Gracie",
-        "vertical": false,
         "channel": "Clark Gracie Allegiance Jiu Jitsu",
         "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7ItTf1BFDZA",
-        "title": "Spider Guard Foot on Bicep Triangle Choke",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 31,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -612,34 +600,6 @@
         "description": "After successfully defending or escaping the triangle attempt, immediately transition to a passing sequence rather than resetting to neutral. Partner allows the escape at 60-80% resistance, then defends the pass at full resistance. This phase develops the ability to capitalize on the disrupted guard structure that follows a failed triangle entry."
       }
     ],
-    "clips": [
-      {
-        "id": "YGFC75H8m8s",
-        "title": "Spider Guard Defense Concepts",
-        "by": "Ricardo Liborio",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 250,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7GonpUVWF3g",
-        "title": "Passing the lasso and spider guard",
-        "by": "Tainan Dalpra",
-        "vertical": false,
-        "channel": "ART OF JIU JITSU",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "qVnPgUvfXl0",
-        "title": "Dealing with spider guard",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 302,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

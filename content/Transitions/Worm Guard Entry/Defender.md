@@ -160,24 +160,12 @@ description: "How to defend against Worm Guard Entry in BJJ. Recognition cues, d
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing the Polish worm rider",
-      "description": "Worm Guard Entry (Defender) film study: Passing the Polish worm rider, taught by Daniel Maira.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
-      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
-      "creator": { "@type": "Person", "name": "Daniel Maira" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lapel guard counters and entries",
-      "description": "Worm Guard Entry (Defender) film study: Lapel guard counters and entries, taught by Bradley Hill.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4W-dStVHCIQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4W-dStVHCIQ",
-      "url": "https://www.youtube.com/watch?v=4W-dStVHCIQ",
-      "creator": { "@type": "Person", "name": "Bradley Hill" },
-      "duration": "PT90S"
+      "name": "DESTROY The Worm Guard - Early Counters \u0026 Late Escapes To One Of The Trickiest\u2026",
+      "description": "Worm Guard Entry (Defender) film study: DESTROY The Worm Guard - Early Counters \u0026 Late Escapes To One Of The Trickiest\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h-BN0Hpx13o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h-BN0Hpx13o",
+      "url": "https://www.youtube.com/watch?v=h-BN0Hpx13o",
+      "duration": "PT717S"
     }
   ]
 }
@@ -207,17 +195,9 @@ When prevention fails and the bottom player begins threading, your options narro
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aR0dbddbfQA)
+![](https://www.youtube.com/watch?v=h-BN0Hpx13o)
 
-<p class="clip-credit"><strong>Passing the Polish worm rider</strong> — taught by Daniel Maira · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4W-dStVHCIQ)
-
-<p class="clip-credit"><strong>Lapel guard counters and entries</strong> — taught by Bradley Hill · 1:30 · <a href="https://www.youtube.com/watch?v=4W-dStVHCIQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>DESTROY The Worm Guard - Early Counters &amp; Late Escapes To One Of The Trickiest…</strong> · 11:57 · <a href="https://www.youtube.com/watch?v=h-BN0Hpx13o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

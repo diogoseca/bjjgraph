@@ -20,38 +20,38 @@ description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide coveri
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Arm Drag Sweep",
+      "text": "From this position, attempt Arm Drag Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Butterfly Hook Recovery",
+      "text": "From this position, attempt Butterfly Hook Recovery. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elevator Sweep",
-      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Butterfly Hook Sweep",
+      "text": "From this position, attempt Butterfly Hook Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke from Butterfly Guard",
-      "text": "From this position, attempt Guillotine Choke from Butterfly Guard. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Butterfly Sweep",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,35 +165,12 @@ description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide coveri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "2-on-1 lift to back from butterfly",
-      "description": "Butterfly Hook Control (Bottom) film study: 2-on-1 lift to back from butterfly, taught by Lorenz Sadychow.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sJfkAL95S9k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sJfkAL95S9k",
-      "url": "https://www.youtube.com/watch?v=sJfkAL95S9k",
-      "creator": { "@type": "Person", "name": "Lorenz Sadychow" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The hook sweep in 5 steps",
-      "description": "Butterfly Hook Control (Bottom) film study: The hook sweep in 5 steps, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mJyjWNGm_XE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mJyjWNGm_XE",
-      "url": "https://www.youtube.com/watch?v=mJyjWNGm_XE",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse hook sweep to Hart roll",
-      "description": "Butterfly Hook Control (Bottom) film study: Reverse hook sweep to Hart roll, taught by Hart Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4CW6mPgx4C0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4CW6mPgx4C0",
-      "url": "https://www.youtube.com/watch?v=4CW6mPgx4C0",
-      "creator": { "@type": "Person", "name": "Hart Jiu Jitsu" },
-      "duration": "PT48S"
+      "name": "White Belt Basics - Butterfly Guard",
+      "description": "Butterfly Hook Control (Bottom) film study: White Belt Basics - Butterfly Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SIyEqd4PrvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SIyEqd4PrvI",
+      "url": "https://www.youtube.com/watch?v=SIyEqd4PrvI",
+      "duration": "PT291S"
     }
   ]
 }
@@ -221,27 +198,11 @@ The fundamental mechanics rely on creating a lever system where your hooks act a
 <p class="section-subtitle">Watch Butterfly Hook Control (Bottom) in action — curated instructionals</p>
 
 
-<div class="film-clip film-clip--vertical">
-
-![](https://www.youtube.com/watch?v=sJfkAL95S9k)
-
-<p class="clip-credit"><strong>2-on-1 lift to back from butterfly</strong> — taught by Lorenz Sadychow · 1:01 · <a href="https://www.youtube.com/watch?v=sJfkAL95S9k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mJyjWNGm_XE)
+![](https://www.youtube.com/watch?v=SIyEqd4PrvI)
 
-<p class="clip-credit"><strong>The hook sweep in 5 steps</strong> — taught by Stephan Kesting · 0:31 · <a href="https://www.youtube.com/watch?v=mJyjWNGm_XE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4CW6mPgx4C0)
-
-<p class="clip-credit"><strong>Reverse hook sweep to Hart roll</strong> — taught by Hart Jiu Jitsu · 0:48 · <a href="https://www.youtube.com/watch?v=4CW6mPgx4C0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>White Belt Basics - Butterfly Guard</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=SIyEqd4PrvI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -444,7 +405,7 @@ Flow between butterfly guard and related positions: X-Guard, Deep Half, Back Tak
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

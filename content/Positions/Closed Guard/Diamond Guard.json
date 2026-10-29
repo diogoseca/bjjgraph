@@ -430,26 +430,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "aKeWGv9pkKI",
-        "title": "Leg Weave Pass vs Shin Shield",
-        "by": "Brandon Quick",
-        "vertical": false,
-        "channel": "Brandon Quick",
-        "duration": 320,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "HOTmrlkfUb8",
-        "title": "Connecting Underhooks and Overhooks in Guard",
-        "by": "Magid Hage",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Diamond Guard Bottom",
@@ -839,26 +820,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "-fudB_l1Sbc",
-        "title": "Diamond guard to dead orchid sweep",
-        "by": "Moncaio Brothers",
-        "vertical": false,
-        "channel": "Moncaio Brothers Jiujitsu",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "VtSbv2sWvEw",
-        "title": "High/diamond guard attacks",
-        "by": "Avant-Garde BJJ",
-        "vertical": false,
-        "channel": "Avant-Garde BJJ",
-        "duration": 83,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -974,24 +936,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "oqR6MLjUrd4",
-      "title": "Diamond Guard: setup + 2 attacks",
-      "by": "Caron Jiu Jitsu",
-      "vertical": false,
-      "channel": "Caron Jiu Jitsu",
-      "duration": 252,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "fjRWdwc1KjA",
-      "title": "Choke from the diamond/knee-shield guard",
-      "by": "DS Team Jiu Jitsu",
-      "vertical": false,
-      "channel": "DS Team Jiu Jitsu School",
-      "duration": 85,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

@@ -138,39 +138,6 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Reverse Mount (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Countering a full inversion",
-      "description": "Reverse Mount (Top) film study: Countering a full inversion, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The Knee Drop Technique",
-      "description": "Reverse Mount (Top) film study: The Knee Drop Technique, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GJJEZjzzGBw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GJJEZjzzGBw",
-      "url": "https://www.youtube.com/watch?v=GJJEZjzzGBw",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT271S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,32 +155,6 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Reverse Mount (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
-
-<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GJJEZjzzGBw)
-
-<p class="clip-credit"><strong>The Knee Drop Technique</strong> — taught by John Danaher · 4:31 · <a href="https://www.youtube.com/watch?v=GJJEZjzzGBw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

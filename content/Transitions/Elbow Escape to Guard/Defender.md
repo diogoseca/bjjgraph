@@ -160,24 +160,12 @@ description: "How to prevent and counter the Elbow Escape to Guard in BJJ. Recog
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 Buggy Choke Finishing Concepts",
-      "description": "Elbow Escape to Guard (Defender) film study: 3 Buggy Choke Finishing Concepts, taught by Kade and Tye Ruotolo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
-      "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
-      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
-      "duration": "PT201S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Buggy Choke Position Tips and Finish Details",
-      "description": "Elbow Escape to Guard (Defender) film study: Buggy Choke Position Tips and Finish Details, taught by Rene Sousa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7xyLRBtUmoU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7xyLRBtUmoU",
-      "url": "https://www.youtube.com/watch?v=7xyLRBtUmoU",
-      "creator": { "@type": "Person", "name": "Rene Sousa" },
-      "duration": "PT356S"
+      "name": "Moving to sit out side control to counter the elbow escape",
+      "description": "Elbow Escape to Guard (Defender) film study: Moving to sit out side control to counter the elbow escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4MK2oNSJCs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4MK2oNSJCs",
+      "url": "https://www.youtube.com/watch?v=N4MK2oNSJCs",
+      "duration": "PT68S"
     }
   ]
 }
@@ -207,17 +195,9 @@ The escape relies on a specific sequence—chin tuck, elbow wedge insertion, hip
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
+![](https://www.youtube.com/watch?v=N4MK2oNSJCs)
 
-<p class="clip-credit"><strong>3 Buggy Choke Finishing Concepts</strong> — taught by Kade and Tye Ruotolo · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7xyLRBtUmoU)
-
-<p class="clip-credit"><strong>Buggy Choke Position Tips and Finish Details</strong> — taught by Rene Sousa · 5:56 · <a href="https://www.youtube.com/watch?v=7xyLRBtUmoU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Moving to sit out side control to counter the elbow escape</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=N4MK2oNSJCs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

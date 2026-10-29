@@ -46,35 +46,22 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg Locks: Enter the System",
-      "description": "Honey Hole film study: Leg Locks: Enter the System, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F5rdV0PUuDc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/F5rdV0PUuDc",
-      "url": "https://www.youtube.com/watch?v=F5rdV0PUuDc",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT176S"
+      "name": "HONEY HOLE FROM SINGLE LEG X - LEG LOCK ENTRY",
+      "description": "Honey Hole film study: HONEY HOLE FROM SINGLE LEG X - LEG LOCK ENTRY.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VmxgqU-ScTM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VmxgqU-ScTM",
+      "url": "https://www.youtube.com/watch?v=VmxgqU-ScTM",
+      "duration": "PT33S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Inside Sankaku Entries",
-      "description": "Honey Hole film study: Inside Sankaku Entries, taught by Dynamic Martial Arts.",
+      "name": "INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg",
+      "description": "Honey Hole film study: INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Jn_JST6ZJ3o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Jn_JST6ZJ3o",
       "url": "https://www.youtube.com/watch?v=Jn_JST6ZJ3o",
-      "creator": { "@type": "Person", "name": "Dynamic Martial Arts" },
-      "duration": "PT138S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Honey Hole from Single Leg X",
-      "description": "Honey Hole film study: Honey Hole from Single Leg X, taught by Danny Mitchell.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VmxgqU-ScTM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VmxgqU-ScTM",
-      "url": "https://www.youtube.com/watch?v=VmxgqU-ScTM",
-      "creator": { "@type": "Person", "name": "Danny Mitchell" },
-      "duration": "PT34S"
+      "duration": "PT137S"
     }
   ]
 }
@@ -125,9 +112,9 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=F5rdV0PUuDc)
+![](https://www.youtube.com/watch?v=VmxgqU-ScTM)
 
-<p class="clip-credit"><strong>Leg Locks: Enter the System</strong> — taught by John Danaher · 2:56 · <a href="https://www.youtube.com/watch?v=F5rdV0PUuDc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>HONEY HOLE FROM SINGLE LEG X - LEG LOCK ENTRY</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=VmxgqU-ScTM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,15 +122,7 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 ![](https://www.youtube.com/watch?v=Jn_JST6ZJ3o)
 
-<p class="clip-credit"><strong>Inside Sankaku Entries</strong> — taught by Dynamic Martial Arts · 2:18 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=VmxgqU-ScTM)
-
-<p class="clip-credit"><strong>Honey Hole from Single Leg X</strong> — taught by Danny Mitchell · 0:34 · <a href="https://www.youtube.com/watch?v=VmxgqU-ScTM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg</strong> · 2:17 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -221,21 +200,19 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (11% of attempts)
+- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (12% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (13% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (15% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (12% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (14% of attempts)
 
-- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (7% of attempts)
+- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (8% of attempts)
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (25% of attempts)
+- **[[Transitions/Grip Break/Attacker|Grip Break]]** (28% of attempts)
 
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (12% of attempts)
-
-- **[[Transitions/Sweep from Honey Hole/Attacker|Sweep from Honey Hole]]** (6% of attempts)
+- **[[Transitions/Sweep from Honey Hole/Attacker|Sweep from Honey Hole]]** (7% of attempts)
 
 
 ### Common Mistakes

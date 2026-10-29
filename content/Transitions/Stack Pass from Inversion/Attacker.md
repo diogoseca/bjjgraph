@@ -16,7 +16,7 @@ description: "How to execute Stack Pass from Inversion in BJJ. Attacking perspec
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Stack Pass from Inversion in BJJ",
-  "description": "Step-by-step guide for executing Stack Pass from Inversion from Grasshopper Guard/Top.",
+  "description": "Step-by-step guide for executing Stack Pass from Inversion from Inverted Guard/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -39,7 +39,7 @@ description: "How to execute Stack Pass from Inversion in BJJ. Attacking perspec
     {
       "@type": "HowToStep",
       "name": "Stack the hips",
-      "text": "Continue driving until opponent's hips pass over their shoulders, compressing their spine into a folded position with their weight resting on their upper back and neck",
+      "text": "Control the elevated legs and direct them aside while keeping the guard player supported on the shoulders and upper back. Do not drive the hips onto the head or neck. Stop and release if the neck is loaded; clear the knees and feet before consolidating side control.",
       "position": 4
     },
     {
@@ -79,7 +79,7 @@ description: "How to execute Stack Pass from Inversion in BJJ. Attacking perspec
       "name": "What position do you start Stack Pass from Inversion from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from top position against an inverted guard, most commonly Grasshopper Guard. You are standing or in low combat base facing an opponent who has inverted with elevated hips and legs seeking to create entanglements or sweeps."
+        "text": "This technique starts from top position against an inverted guard, most commonly Inverted Guard. You are standing or in low combat base facing an opponent who has inverted with elevated hips and legs seeking to create entanglements or sweeps."
       }
     },
     {
@@ -170,100 +170,24 @@ description: "How to execute Stack Pass from Inversion in BJJ. Attacking perspec
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Stack Pass from Inversion (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Countering a full inversion",
-      "description": "Stack Pass from Inversion (Attacker) film study: Countering a full inversion, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to pass the inverted guard",
-      "description": "Stack Pass from Inversion (Attacker) film study: How to pass the inverted guard, taught by Wim Deputter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/M6gK8yjDFGE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/M6gK8yjDFGE",
-      "url": "https://www.youtube.com/watch?v=M6gK8yjDFGE",
-      "creator": { "@type": "Person", "name": "Wim Deputter" },
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing the inverted guard",
-      "description": "Stack Pass from Inversion (Attacker) film study: Passing the inverted guard, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/P7JKadlMi_M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/P7JKadlMi_M",
-      "url": "https://www.youtube.com/watch?v=P7JKadlMi_M",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT97S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The Stack Pass from Inversion is a high-pressure passing technique designed to neutralize inverted guard players by driving their hips over their shoulders, compressing their spine and eliminating their mobility. When facing grasshopper guard or similar inverted positions, the bottom player relies on hip elevation and leg mobility to threaten sweeps and leg entanglements. The stack pass directly attacks this mechanic by reversing the pressure dynamic - instead of allowing them to use their elevated hips offensively, you fold them over themselves, making their legs heavy and immobile.
+The Stack Pass from Inversion is a high-pressure passing technique designed to neutralize inverted guard players by driving their hips over their shoulders, compressing their spine and eliminating their mobility. When facing inverted guard or similar inverted positions, the bottom player relies on hip elevation and leg mobility to threaten sweeps and leg entanglements. The stack pass directly attacks this mechanic by reversing the pressure dynamic - instead of allowing them to use their elevated hips offensively, you fold them over themselves, making their legs heavy and immobile.
 
 This pass requires precise timing, as attempting to stack against a fully established inversion with active legs will likely result in leg entanglements or sweeps. The optimal window occurs when the bottom player's hips begin to drop from fatigue or during transitions between leg configurations. Recognizing this window separates successful stack passers from those who get caught in leg attacks.
 
 Strategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Top)
+Lower your level against the elevated legs and control the hips without loading the neck. Maintain contact while directing the legs aside, clear the remaining knee and foot barriers, then establish crossface control and consolidate side control. The center entry changes timing, not the need to clear the legs.
+
+**From Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Stack Pass from Inversion (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
-
-<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=M6gK8yjDFGE)
-
-<p class="clip-credit"><strong>How to pass the inverted guard</strong> — taught by Wim Deputter · 1:31 · <a href="https://www.youtube.com/watch?v=M6gK8yjDFGE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=P7JKadlMi_M)
-
-<p class="clip-credit"><strong>Passing the inverted guard</strong> — taught by JiuJitsu.com · 1:37 · <a href="https://www.youtube.com/watch?v=P7JKadlMi_M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -306,7 +230,7 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 1. **Secure leg control**: Pin opponent's legs together by gripping behind both knees or controlling their ankles, preventing them from separating legs to create hooks or entanglements
 2. **Lower your level**: Drop your hips and chest toward opponent, bringing your center of gravity low to generate maximum forward pressure while maintaining a stable, sprawled base
 3. **Drive forward**: Push your hips and chest forward into opponent's legs, beginning to fold their hips toward their face while walking your feet forward to maintain driving pressure
-4. **Stack the hips**: Continue driving until opponent's hips pass over their shoulders, compressing their spine into a folded position with their weight resting on their upper back and neck
+4. **Stack the hips**: Control the elevated legs and direct them aside while keeping the guard player supported on the shoulders and upper back. Do not drive the hips onto the head or neck. Stop and release if the neck is loaded; clear the knees and feet before consolidating side control.
 5. **Pin and redirect**: Use your shoulder pressure on their thighs or hips to pin them in the stacked position while you begin walking your hips to one side to clear their legs
 6. **Complete the pass**: Slide your hips past their legs to one side, transitioning to side control by establishing crossface and hip-to-hip contact as their legs fall away
 
@@ -320,7 +244,7 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Counter | [[Positions/Closed Guard]] | 10% |
 
 
@@ -332,9 +256,9 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 
 <p class="section-subtitle">How might your opponent counter Stack Pass from Inversion?</p>
 
-- **Re-inverting and shooting legs through for leg entanglement before stack is complete** (Effectiveness: High) - Your Response: Maintain tight leg control throughout and do not release grip until you have cleared to side control → Leads to [[Positions/Grasshopper Guard]]
+- **Re-inverting and shooting legs through for leg entanglement before stack is complete** (Effectiveness: High) - Your Response: Maintain tight leg control throughout and do not release grip until you have cleared to side control → Leads to [[Positions/Inverted Guard]]
 - **Granby roll away from stacking pressure to reset guard** (Effectiveness: Medium) - Your Response: Follow their roll direction and transition to a leg drag or toreando pass as they turn → Leads to [[Positions/Closed Guard]]
-- **Posting on your hips with hands to prevent forward pressure** (Effectiveness: Medium) - Your Response: Strip their hand posts by circling your arms inside their frames and continue driving forward → Leads to [[Positions/Grasshopper Guard]]
+- **Posting on your hips with hands to prevent forward pressure** (Effectiveness: Medium) - Your Response: Strip their hand posts by circling your arms inside their frames and continue driving forward → Leads to [[Positions/Inverted Guard]]
 - **Technical standup using the stacking momentum to come up on top** (Effectiveness: Low) - Your Response: Drive your weight down and forward if they attempt to post - a fully committed stack prevents standing → Leads to [[Positions/Closed Guard]]
 
 
@@ -385,13 +309,13 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 Practice the folding motion against a compliant partner, learning proper body positioning to drive hips over shoulders without relying on arm strength
 
 **Week 3-4** - Timing recognition
-Partner holds grasshopper guard with 50% intensity, randomly allowing hip drops. Practice recognizing the window and initiating stack at the right moment
+Partner holds inverted guard with 50% intensity, randomly allowing hip drops. Practice recognizing the window and initiating stack at the right moment
 
 **Week 5-6** - Counter integration
 Partner actively attempts counters including leg threading and Granby rolls. Learn to maintain leg control through counters and adjust pass direction
 
 **Week 7+** - Live application
-Full resistance positional sparring starting with partner in grasshopper guard. Integrate stack pass into complete passing game with chain attacks
+Full resistance positional sparring starting with partner in inverted guard. Integrate stack pass into complete passing game with chain attacks
 
 
 

@@ -165,35 +165,12 @@ description: "Master Squid Guard Top in BJJ. Learn guard passing strategies, lap
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing the Polish Worm Rider lapel guard",
-      "description": "Squid Guard (Top) film study: Passing the Polish Worm Rider lapel guard, taught by Daniel Maira.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
-      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
-      "creator": { "@type": "Person", "name": "Daniel Maira" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing lapel guard",
-      "description": "Squid Guard (Top) film study: Passing lapel guard, taught by Vicente Cavalcanti.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/u0D9HUwXuKE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/u0D9HUwXuKE",
-      "url": "https://www.youtube.com/watch?v=u0D9HUwXuKE",
-      "creator": { "@type": "Person", "name": "Vicente Cavalcanti" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Modern lapel guard passing 03",
-      "description": "Squid Guard (Top) film study: Modern lapel guard passing 03, taught by Romulo Barral.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pbK4xwr8ggU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pbK4xwr8ggU",
-      "url": "https://www.youtube.com/watch?v=pbK4xwr8ggU",
-      "creator": { "@type": "Person", "name": "Romulo Barral" },
-      "duration": "PT105S"
+      "name": "Passing The Squid Guard Concepts w/ Pablo Mantovani",
+      "description": "Squid Guard (Top) film study: Passing The Squid Guard Concepts w/ Pablo Mantovani.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zmy16f69rb4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zmy16f69rb4",
+      "url": "https://www.youtube.com/watch?v=zmy16f69rb4",
+      "duration": "PT608S"
     }
   ]
 }
@@ -223,25 +200,9 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aR0dbddbfQA)
+![](https://www.youtube.com/watch?v=zmy16f69rb4)
 
-<p class="clip-credit"><strong>Passing the Polish Worm Rider lapel guard</strong> — taught by Daniel Maira · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=u0D9HUwXuKE)
-
-<p class="clip-credit"><strong>Passing lapel guard</strong> — taught by Vicente Cavalcanti · 1:10 · <a href="https://www.youtube.com/watch?v=u0D9HUwXuKE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pbK4xwr8ggU)
-
-<p class="clip-credit"><strong>Modern lapel guard passing 03</strong> — taught by Romulo Barral · 1:45 · <a href="https://www.youtube.com/watch?v=pbK4xwr8ggU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing The Squid Guard Concepts w/ Pablo Mantovani</strong> · 10:08 · <a href="https://www.youtube.com/watch?v=zmy16f69rb4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -442,7 +403,7 @@ Isolated drill focusing on preventing bottom player from deepening lapel grips w
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Squid Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Squid Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

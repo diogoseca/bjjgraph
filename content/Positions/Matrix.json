@@ -243,7 +243,7 @@
             "probability": 60
           },
           {
-            "technique": "Back Take from Top",
+            "technique": "Matrix to Back Control",
             "target": "Back Control",
             "probability": 55
           }
@@ -345,7 +345,7 @@
         "relationship": "Pressure passing option after blocking Matrix rotation"
       },
       {
-        "name": "Back Take from Top",
+        "name": "Matrix to Back Control",
         "relationship": "Alternative back attack approach when Matrix is defended"
       },
       {
@@ -372,108 +372,82 @@
       {
         "transition": "Sprawl Defense",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Crossface Pass",
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Back Step",
         "attempt_probability": {
           "gi": 13,
           "nogi": 11
         }
       },
       {
-        "transition": "Back Step",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
-        }
-      },
-      {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 18,
+          "nogi": 14
         }
       },
       {
         "transition": "Darce from Turtle",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 7
+          "gi": 4,
+          "nogi": 8
         }
       },
       {
         "transition": "Guillotine from Turtle",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 7
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "Anaconda from Turtle",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 4
+          "nogi": 5
         }
       },
       {
         "transition": "Turtle Flatten to Side Control",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Matrix to Back Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Matrix to Side Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 7
         }
       }
     ],
     "clips": [
       {
-        "id": "8DG2hn0xxMI",
-        "title": "Leg drag to rolling back take",
-        "by": "Grapple Box",
+        "id": "QCEdvqfWZMI",
+        "title": "4. Matrix Defense (Leg Drag Series)",
+        "channel": "BJJ Lab Zürich",
+        "duration": 96,
         "vertical": false,
-        "channel": "Grapple Box llc",
-        "duration": 18,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "oijKoS9siS4",
-        "title": "Rolling back take from turtle",
-        "by": "JiuJitsu.com",
-        "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 41,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "W3JU6HAibZE",
-        "title": "Guard passing to rolling back take",
-        "by": "James O'Connor",
-        "vertical": false,
-        "channel": "James O’Connor",
-        "duration": 158,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -864,31 +838,11 @@
     ],
     "clips": [
       {
-        "id": "DvD3VVl1kDk",
-        "title": "De La Riva wrist control matrix back take",
-        "by": "Luciana Marcos",
-        "vertical": false,
-        "channel": "luciana MARCOS",
-        "duration": 59,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "BWDsJPV7iPA",
-        "title": "The no-gi matrix back take",
-        "by": "LangakerBjj",
-        "vertical": false,
-        "channel": "LangakerBjj",
-        "duration": 96,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "H0SUb0Eo168",
-        "title": "Set up and finish the matrix",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 132,
-        "verified": "2026-07-14"
+        "id": "NjF4195IuW0",
+        "title": "The Complete Matrix Guide",
+        "channel": "JonThomasBJJ",
+        "duration": 1131,
+        "front": true
       }
     ]
   },
@@ -1006,33 +960,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "BWDsJPV7iPA",
-      "title": "The no-gi matrix back take",
-      "by": "LangakerBjj",
-      "vertical": false,
-      "channel": "LangakerBjj",
-      "duration": 96,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "lKoEMLwgwMc",
-      "title": "Matrix back take compilation",
-      "by": "FreeChannelOpen",
-      "vertical": false,
-      "channel": "FreeChannelOpen",
-      "duration": 67,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "uo8-ZJyba08",
-      "title": "B-Team matrix back take compilation",
-      "by": "FreeChannelOpen",
-      "vertical": false,
-      "channel": "FreeChannelOpen",
-      "duration": 63,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

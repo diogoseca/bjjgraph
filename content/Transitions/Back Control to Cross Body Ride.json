@@ -360,35 +360,7 @@
       }
     ],
     "safety_considerations": "This transition involves lateral weight shifting across the opponent's spine and upper back. Avoid dropping weight suddenly or explosively onto the opponent's cervical spine area, as this can cause neck injury. When drilling, initiate the transition smoothly and progressively increase speed only as both partners become comfortable with the movement pattern. Communicate with your training partner about pressure levels, particularly regarding shoulder pressure across the upper back and neck region. In competition, be aware that excessive pressure on the back of the head or neck may constitute a foul depending on the ruleset.",
-    "clips": [
-      {
-        "id": "355ZYLDGjqw",
-        "title": "Getting the leg in: ankle lift to cross body ride",
-        "by": "Hideout Wrestling",
-        "vertical": false,
-        "channel": "Hideout Wrestling",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Kyn30KTFmzc",
-        "title": "Leg riding with a cross body ride",
-        "by": "Grapple Academy",
-        "vertical": false,
-        "channel": "Grapple Academy",
-        "duration": 95,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "h3C7rZzKHVY",
-        "title": "Cross body ride entry from knee shield",
-        "by": "BOWERHOUSE MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 25,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Back Control to Cross Body Ride Defender",
@@ -551,34 +523,6 @@
         "description": "Start from back control with partner given full freedom to transition to cross body ride or maintain back control. You score by escaping to guard or standing. Partner scores by establishing cross body ride or advancing to crucifix or back control. Develop the judgment to read which escape option is available in real time."
       }
     ],
-    "clips": [
-      {
-        "id": "923eYpD1E58",
-        "title": "Inside roll escape from turtle vs leg ride",
-        "by": "Kenny Lester",
-        "vertical": false,
-        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
-        "duration": 158,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NxKC6qHEgl8",
-        "title": "Turtle roll counter to cross body ride",
-        "by": "Mark VanSchuyver",
-        "vertical": false,
-        "channel": "Mark VanSchuyver",
-        "duration": 85,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "yO4uYmaOEfw",
-        "title": "Defending the turtle breakdown on all fours",
-        "by": "DanTheWolfman",
-        "vertical": false,
-        "channel": "DanTheWolfman",
-        "duration": 102,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -160,24 +160,12 @@ description: "How to defend against Pressure Pass in BJJ. Recognition cues, defe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Pressure Pass (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Three tricks to stop your guard being passed",
-      "description": "Pressure Pass (Defender) film study: Three tricks to stop your guard being passed, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q4e8HHp7avk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/q4e8HHp7avk",
-      "url": "https://www.youtube.com/watch?v=q4e8HHp7avk",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT147S"
+      "name": "Defending Half Guard Pass ( DONT get STUCK on Bottom )",
+      "description": "Pressure Pass (Defender) film study: Defending Half Guard Pass ( DONT get STUCK on Bottom ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_XovOvE_Bwg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_XovOvE_Bwg",
+      "url": "https://www.youtube.com/watch?v=_XovOvE_Bwg",
+      "duration": "PT433S"
     }
   ]
 }
@@ -205,17 +193,9 @@ Defending against the Pressure Pass requires early recognition and proactive fra
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+![](https://www.youtube.com/watch?v=_XovOvE_Bwg)
 
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=q4e8HHp7avk)
-
-<p class="clip-credit"><strong>Three tricks to stop your guard being passed</strong> — taught by Jon Thomas · 2:27 · <a href="https://www.youtube.com/watch?v=q4e8HHp7avk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending Half Guard Pass ( DONT get STUCK on Bottom )</strong> · 7:13 · <a href="https://www.youtube.com/watch?v=_XovOvE_Bwg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

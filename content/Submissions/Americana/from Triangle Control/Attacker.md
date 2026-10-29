@@ -164,6 +164,27 @@ description: "Americana from an established triangle entanglement, with attack a
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Triangle Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do an Americana from closed guard/side guard/ also how to Americana from\u2026",
+      "description": "Americana from Triangle Control (Attacker) film study: How to do an Americana from closed guard/side guard/ also how to Americana from\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gcLBBQcHOc8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gcLBBQcHOc8",
+      "url": "https://www.youtube.com/watch?v=gcLBBQcHOc8",
+      "duration": "PT192S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -177,6 +198,24 @@ Americana from Triangle Control is a distinct submission state: the bottom playe
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Triangle Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gcLBBQcHOc8)
+
+<p class="clip-credit"><strong>How to do an Americana from closed guard/side guard/ also how to Americana from…</strong> · 3:12 · <a href="https://www.youtube.com/watch?v=gcLBBQcHOc8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

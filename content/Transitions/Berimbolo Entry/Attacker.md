@@ -180,35 +180,12 @@ description: "How to execute Berimbolo Entry in BJJ. Attacking perspective with 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Berimbolo entry from double guard pull",
-      "description": "Berimbolo Entry (Attacker) film study: Berimbolo entry from double guard pull, taught by Johnny Tama.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ecd48BZmReA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ecd48BZmReA",
-      "url": "https://www.youtube.com/watch?v=Ecd48BZmReA",
-      "creator": { "@type": "Person", "name": "Johnny Tama" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Quick guide to the no-gi berimbolo",
-      "description": "Berimbolo Entry (Attacker) film study: Quick guide to the no-gi berimbolo, taught by Margot Ciccarelli.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XIdGS3OyXlE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XIdGS3OyXlE",
-      "url": "https://www.youtube.com/watch?v=XIdGS3OyXlE",
-      "creator": { "@type": "Person", "name": "Margot Ciccarelli" },
-      "duration": "PT125S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Berimbolo from De La Riva guard",
-      "description": "Berimbolo Entry (Attacker) film study: Berimbolo from De La Riva guard, taught by Mikey Musumeci.",
+      "name": "Como fazer Berimbolo da De La Riva com Mikey Musumeci - LEGENDADO",
+      "description": "Berimbolo Entry (Attacker) film study: Como fazer Berimbolo da De La Riva com Mikey Musumeci - LEGENDADO.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kk5yC5phq5s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kk5yC5phq5s",
       "url": "https://www.youtube.com/watch?v=kk5yC5phq5s",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT223S"
+      "duration": "PT222S"
     }
   ]
 }
@@ -238,25 +215,9 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Ecd48BZmReA)
-
-<p class="clip-credit"><strong>Berimbolo entry from double guard pull</strong> — taught by Johnny Tama · 1:17 · <a href="https://www.youtube.com/watch?v=Ecd48BZmReA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XIdGS3OyXlE)
-
-<p class="clip-credit"><strong>Quick guide to the no-gi berimbolo</strong> — taught by Margot Ciccarelli · 2:05 · <a href="https://www.youtube.com/watch?v=XIdGS3OyXlE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=kk5yC5phq5s)
 
-<p class="clip-credit"><strong>Berimbolo from De La Riva guard</strong> — taught by Mikey Musumeci · 3:43 · <a href="https://www.youtube.com/watch?v=kk5yC5phq5s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Como fazer Berimbolo da De La Riva com Mikey Musumeci - LEGENDADO</strong> · 3:42 · <a href="https://www.youtube.com/watch?v=kk5yC5phq5s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -420,12 +381,12 @@ When training the berimbolo entry, proper neck and spine positioning is critical
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Berimbolo Entry: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition reference: Berimbolo Entry.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Berimbolo Entry: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Berimbolo Entry.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Foundations with Mikey Musumeci</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Berimbolo Entry: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition reference: Berimbolo Entry.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

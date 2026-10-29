@@ -46,35 +46,12 @@ description: "Master the Scissor Sweep from Open Guard in BJJ. Learn grip setup,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roger Gracie: sweep from closed guard",
-      "description": "Scissor Sweep from Open Guard film study: Roger Gracie: sweep from closed guard, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dMcMblcXhF0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dMcMblcXhF0",
-      "url": "https://www.youtube.com/watch?v=dMcMblcXhF0",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Royce Gracie scissor sweep demo",
-      "description": "Scissor Sweep from Open Guard film study: Royce Gracie scissor sweep demo, taught by Royce Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-wWHC0uqVAA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-wWHC0uqVAA",
-      "url": "https://www.youtube.com/watch?v=-wWHC0uqVAA",
-      "creator": { "@type": "Person", "name": "Royce Gracie" },
-      "duration": "PT12S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Scissor sweep competition compilation",
-      "description": "Scissor Sweep from Open Guard film study: Scissor sweep competition compilation, taught by Bennett Smolen.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/S38J412QoW8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/S38J412QoW8",
-      "url": "https://www.youtube.com/watch?v=S38J412QoW8",
-      "creator": { "@type": "Person", "name": "Bennett Smolen" },
-      "duration": "PT59S"
+      "name": "Defending the Scissor Sweep Position",
+      "description": "Scissor Sweep from Open Guard film study: Defending the Scissor Sweep Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ke2QNnPRrWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ke2QNnPRrWQ",
+      "url": "https://www.youtube.com/watch?v=Ke2QNnPRrWQ",
+      "duration": "PT37S"
     }
   ]
 }
@@ -128,25 +105,9 @@ The technique's effectiveness at competition level depends heavily on timing and
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dMcMblcXhF0)
+![](https://www.youtube.com/watch?v=Ke2QNnPRrWQ)
 
-<p class="clip-credit"><strong>Roger Gracie: sweep from closed guard</strong> — taught by Roger Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=dMcMblcXhF0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-wWHC0uqVAA)
-
-<p class="clip-credit"><strong>Royce Gracie scissor sweep demo</strong> — taught by Royce Gracie · 0:12 · <a href="https://www.youtube.com/watch?v=-wWHC0uqVAA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=S38J412QoW8)
-
-<p class="clip-credit"><strong>Scissor sweep competition compilation</strong> — taught by Bennett Smolen · 0:59 · <a href="https://www.youtube.com/watch?v=S38J412QoW8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the Scissor Sweep Position</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=Ke2QNnPRrWQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

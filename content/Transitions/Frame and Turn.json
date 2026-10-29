@@ -389,26 +389,7 @@
       }
     ],
     "safety_considerations": "Frame and Turn involves escaping from a position with significant spinal rotation, making safety paramount throughout execution. Never attempt explosive escape movements while your spine is fully rotated, as this can cause serious cervical or thoracic injury. Tap immediately if opponent locks in a Twister submission grip - the potential for neck injury outweighs any positional considerations. During training, communicate clearly with partners about the intensity of rotational pressure. Practice initially with cooperative partners who release upon request. Be especially cautious about neck cranks and guillotine attempts during the turning phase. If you experience any sharp pain, numbness, or tingling during the escape, stop immediately and tap. The discomfort of Twister Control is expected, but pain indicating potential injury requires immediate termination of the technique.",
-    "clips": [
-      {
-        "id": "gawKiLxmZbc",
-        "title": "Spinning back door escape from side control",
-        "by": "Science Of JiuJitsu",
-        "vertical": false,
-        "channel": "Science Of JiuJitsu",
-        "duration": 48,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Va1YNgx2E6M",
-        "title": "Escape and Counter the Twister",
-        "by": "Matrix Jiu Jitsu",
-        "vertical": false,
-        "channel": "Matrix Jiu Jitsu",
-        "duration": 165,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Frame and Turn Defender",
@@ -584,35 +565,7 @@
         "description": "Incorporate Twister Control defense against Frame and Turn into full rolling. Practice creating offensive dilemmas that force the bottom player to choose between defending submissions and executing their escape. Develop the tactical awareness to read escape timing and shut it down preemptively."
       }
     ],
-    "clips": [
-      {
-        "id": "odT3-cVWXdc",
-        "title": "Twister side attacks: holding the turn",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6kWSdS6uKtA",
-        "title": "Twister Side Control vs Regular Side Control",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Submissions101",
-        "duration": 321,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "McaB7pfeCGo",
-        "title": "Twister Side Control: How To",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 516,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

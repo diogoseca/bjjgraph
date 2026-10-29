@@ -388,22 +388,12 @@
     "safety_considerations": "Leg extraction from ashi-garami positions carries significant injury risk when performed improperly. Never yank or explosively pull your leg when the opponent has any grip on your heel—this can cause catastrophic knee ligament damage by accelerating the heel hook mechanism. Always strip grips before generating extraction force. Tap immediately if you feel any rotational pressure on your knee during the extraction process. In training, communicate with your partner and practice at controlled speeds before adding resistance. If your extraction stalls and opponent secures deep heel control, it is safer to tap and reset than to force the escape against a locked submission. Knee and ankle injuries from forced extractions are among the most common training injuries in leg lock-focused gyms.",
     "clips": [
       {
-        "id": "PhS9Xj-4KbA",
-        "title": "Escaping the honey hole (inside sankaku)",
-        "by": "Oneonta Jiu Jitsu",
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond",
+        "channel": "Coach Scott Elliott",
+        "duration": 140,
         "vertical": false,
-        "channel": "OneontaJiuJitsu Academy",
-        "duration": 56,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "L417yCl_-dc",
-        "title": "Leg defense from ashi garami",
-        "by": "The Coop BJJ",
-        "vertical": false,
-        "channel": "The Coop BJJ",
-        "duration": 48,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -569,34 +559,6 @@
         "description": "Start in Inside Ashi-Garami. Bottom player attacks while top player works extraction or alternative escapes at full resistance. Track retention rate, submission rate during extraction, and positional advancement rate. 3-minute rounds with 1-minute rest, 5 rounds per session."
       }
     ],
-    "clips": [
-      {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a full inversion escape",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ZaIn-9crgXY",
-        "title": "Inside Sankaku Recovery: The Bear Trap",
-        "by": "Ed Ingamells",
-        "vertical": false,
-        "channel": "Stuart Tomlinson",
-        "duration": 407,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Pl_2oDznYKc",
-        "title": "Keeping the Knee Line by Bending the Knee",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 273,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

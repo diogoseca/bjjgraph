@@ -188,23 +188,11 @@ description: "Step-by-step guide to finishing the bow and arrow choke from body 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bow and Arrow Choke from Back Control",
-      "description": "Bow and Arrow Choke from Body Triangle (Attacker) film study: Bow and Arrow Choke from Back Control, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xqNhZVNhxnE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xqNhZVNhxnE",
-      "url": "https://www.youtube.com/watch?v=xqNhZVNhxnE",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT45S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Bow \u0026 Arrow Choke",
-      "description": "Bow and Arrow Choke from Body Triangle (Attacker) film study: Bow \u0026 Arrow Choke, taught by Gracie Barra.",
+      "description": "Bow and Arrow Choke from Body Triangle (Attacker) film study: Bow \u0026 Arrow Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R5LFNqtx1ps/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R5LFNqtx1ps",
       "url": "https://www.youtube.com/watch?v=R5LFNqtx1ps",
-      "creator": { "@type": "Person", "name": "Gracie Barra" },
       "duration": "PT66S"
     }
   ]
@@ -234,17 +222,9 @@ Executing the Bow and Arrow Choke from Body Triangle requires establishing a dee
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=xqNhZVNhxnE)
-
-<p class="clip-credit"><strong>Bow and Arrow Choke from Back Control</strong> — taught by Evolve MMA · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=R5LFNqtx1ps)
 
-<p class="clip-credit"><strong>Bow &amp; Arrow Choke</strong> — taught by Gracie Barra · 1:06 · <a href="https://www.youtube.com/watch?v=R5LFNqtx1ps" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow &amp; Arrow Choke</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=R5LFNqtx1ps" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

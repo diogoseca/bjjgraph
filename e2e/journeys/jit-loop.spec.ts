@@ -1,91 +1,8 @@
+// v1.230.0: the owner dropped practise-before-you-try on 2026-10-15 (question 6).
+// The two removed JIT-only cases are mapped in reading_test_migration.json.
+// Keep the surviving question-clock and reveal-versus-grade economy assertions.
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
-
-/**
- * P1 — HONEST ECONOMY + JIT DRILL LOOP (spec first; drives the implementation).
- *
- * The core fantasy: mid-decision, the user peeks a move's expand sheet, drills the exact
- * flashcards for it "just in time", SEES the odds pump, and commits with earned confidence.
- * The economy must be honest (only graded answers credit mastery) and the clock must make
- * drilling a real tempo decision (refunds, capped).
- *
- * New app surfaces this spec forces into existence:
- *   [data-jit]        — the in-sheet micro-drill block (at the "+X% drilling" seam)
- *   [data-jit-reveal] — reveal-answer button, the ladder's RECALL rung (stage >= 2, or a cold
- *                       distractor pool); [data-jit-got] grades it
- *   [data-jit-mc-opt] — the ladder's RECOGNITION rung (stage < 2), the default for a fresh deck
- *   This file is about the ECONOMY, not the format, so it grades through `j.jitGrade()`, which
- *   answers whichever rung is on screen. The ladder itself is jit-format.spec.ts's subject.
- *   [data-odds]       — the sheet's live odds odometer element (textContent = "NN%")
- *   beats: jit_opened, bonus_pumped (existing), expiry_warning, land_q_expired (v1.133.0 —
- *   timer_refund and hesitated retired with the hand clock)
- *   __neural.decisionRemaining() — seconds left in the current decision window (test read API)
- */
-
-test("JIT sheet drill pumps the odds odometer and the canvas edge", async ({ page }) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
-
-  // A resolving transition with headroom for +18. Submission entries now land in a
-  // separate submission state, so selecting one would not close this resolution loop.
-  const target = "Consolidate Mount"
-  const before = await j.displayedOdds(target)
-  expect(before).toBeGreaterThanOrEqual(20)
-  expect(before).toBeLessThanOrEqual(70)
-
-  // open the expand sheet (real click) — the JIT drill block must exist inside it
-  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click()
-  const jit = page.locator("[data-jit]")
-  await expect(jit, "in-sheet JIT micro-drill visible").toBeVisible()
-
-  // drill 3 cards through the SHEET UI: reveal → Got it, three times
-  for (let i = 0; i < 3; i++) {
-    await j.jitGrade()
-    await j.advance(600) // odometer animation window
-  }
-
-  // the sheet odometer shows the pumped odds; +6/card on the displayed number
-  const odoText = await page.locator("[data-odds]").first().textContent()
-  const odo = parseInt((odoText || "").replace(/[^0-9]/g, ""), 10)
-  const after = await j.displayedOdds(target)
-  expect(after - before).toBeGreaterThanOrEqual(17) // 3 cards ≈ +18
-  expect(Math.abs(odo - after)).toBeLessThanOrEqual(1) // odometer == live odds
-
-  // beats: the pump moments are first-class
-  const beats = (await j.beats()).map((b) => b.beat)
-  expect(beats).toContain("jit_opened")
-  expect(beats.filter((b) => b === "bonus_pumped").length).toBeGreaterThanOrEqual(3)
-
-  // commit from the same sheet — the loop closes where the confidence was earned
-  await j.rig("resolve", [0.01])
-  await j.rig("outcome", [0.01])
-  await page.locator("[data-go]").click()
-  await j.advance(5000)
-  await j.expectBeat("impact_success")
-})
-
-test("drilling pumps odds and buys NO time — the clock belongs to the question (v1.133.0)", async ({ page }) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
-  const options = await j.optionTitles()
-  await page.locator(`[data-tech="${options[0]}"]`).first().locator("[data-choice-inspect]").click()
-  await expect(page.locator("[data-jit]")).toBeVisible()
-
-  const remaining = () => page.evaluate(() => (window as any).__neural.decisionRemaining())
-
-  // v1.134.0: opening the sheet DECLINED the landing question (reading a move instead of
-  // answering), so no window is running — and grading refunds nothing because there is nothing
-  // to refund. The drill's whole payment is odds.
-  expect(await remaining(), "the sheet declined the question").toBe(0)
-  await j.jitGrade()
-  expect(await remaining(), "still no clock — the drill buys odds, never time").toBe(0)
-  const refunds = (await j.beats()).filter((b: any) => b.beat === "timer_refund")
-  expect(refunds.length, "the refund beat is retired").toBe(0)
-  await j.expectBeat("land_q_declined")
-  await j.expectBeat("bonus_pumped") // the grade still pays — in odds, not seconds
-})
 
 test("expiry narrates 3-2-1, reveals the answer as a miss, and the HAND stays live (v1.133.0)", async ({
   page,
@@ -96,6 +13,7 @@ test("expiry narrates 3-2-1, reveals the answer as a miss, and the HAND stays li
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U47 d: only a question taken up with Answer for Points can expire
   const handBefore = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length)
   await j.advance(30_000)
   const beats = (await j.beats()).map((b) => b.beat)
@@ -136,7 +54,7 @@ test("honest economy: revealing a card is 'seen', only grading credits mastery",
   const mastered1 = await page.evaluate(() => (window as any).__neural.masteredCount())
   expect(mastered1).toBe(mastered0)
 
-  // P2 tightened the economy again: prep-style grading (JIT, MC) feeds ODDS but no longer
+  // P2 tightened the economy again: prep-style grading (MC) feeds ODDS but no longer
   // mints mastery — masteredCount is RECALL-proven (rec >= 3). Assert both halves.
   await page.evaluate(() => {
     const a = (window as any).__neural

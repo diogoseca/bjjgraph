@@ -46,35 +46,12 @@ description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execut
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Split sweep from De La Riva",
-      "description": "Sickle Sweep film study: Split sweep from De La Riva, taught by Josef Manuel.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q5bXcsqGs3U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/q5bXcsqGs3U",
-      "url": "https://www.youtube.com/watch?v=q5bXcsqGs3U",
-      "creator": { "@type": "Person", "name": "Josef Manuel" },
-      "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "De La Riva sweep pushing the knee",
-      "description": "Sickle Sweep film study: De La Riva sweep pushing the knee, taught by Kimura BJJ USA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DS0dGhisTW8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DS0dGhisTW8",
-      "url": "https://www.youtube.com/watch?v=DS0dGhisTW8",
-      "creator": { "@type": "Person", "name": "Kimura BJJ USA" },
-      "duration": "PT106S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Simple De La Riva sweep",
-      "description": "Sickle Sweep film study: Simple De La Riva sweep, taught by Ninja Pinto.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zveJosx6Np0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zveJosx6Np0",
-      "url": "https://www.youtube.com/watch?v=zveJosx6Np0",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
-      "duration": "PT37S"
+      "name": "De La Riva open Guard - to the Tripod and the Sickle Sweep.",
+      "description": "Sickle Sweep film study: De La Riva open Guard - to the Tripod and the Sickle Sweep..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hc36A8soSKQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hc36A8soSKQ",
+      "url": "https://www.youtube.com/watch?v=hc36A8soSKQ",
+      "duration": "PT248S"
     }
   ]
 }
@@ -128,25 +105,9 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=q5bXcsqGs3U)
+![](https://www.youtube.com/watch?v=hc36A8soSKQ)
 
-<p class="clip-credit"><strong>Split sweep from De La Riva</strong> — taught by Josef Manuel · 1:05 · <a href="https://www.youtube.com/watch?v=q5bXcsqGs3U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DS0dGhisTW8)
-
-<p class="clip-credit"><strong>De La Riva sweep pushing the knee</strong> — taught by Kimura BJJ USA · 1:46 · <a href="https://www.youtube.com/watch?v=DS0dGhisTW8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zveJosx6Np0)
-
-<p class="clip-credit"><strong>Simple De La Riva sweep</strong> — taught by Ninja Pinto · 0:37 · <a href="https://www.youtube.com/watch?v=zveJosx6Np0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva open Guard - to the Tripod and the Sickle Sweep.</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=hc36A8soSKQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -339,7 +300,7 @@ This sweep integrates seamlessly into a broader guard retention and advancement 
 
 - [[Transitions/Balloon Sweep]] - Complementary De La Riva sweep option when opponent posts high
 
-- [[Transitions/Kiss of the Dragon]] - Alternative - inversion-based back take when opponent pressures forward
+- [[Transitions/Kiss of the Dragon from RDLR]] - Alternative - inversion-based back take when opponent pressures forward
 
 - [[Transitions/Back Take from Bottom]] - Follow-up option when opponent posts hand to defend the sweep
 

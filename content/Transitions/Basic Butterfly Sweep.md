@@ -46,24 +46,22 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia butterfly sweep demonstration",
-      "description": "Basic Butterfly Sweep film study: Marcelo Garcia butterfly sweep demonstration, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
-      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT81S"
+      "name": "half butterfly sweep (Half Guard)",
+      "description": "Basic Butterfly Sweep film study: half butterfly sweep (Half Guard).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oyBedW2q0Qo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oyBedW2q0Qo",
+      "url": "https://www.youtube.com/watch?v=oyBedW2q0Qo",
+      "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Butterfly sweep breakdown, version 2",
-      "description": "Basic Butterfly Sweep film study: Butterfly sweep breakdown, version 2, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Mo2vJ0_xb1U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Mo2vJ0_xb1U",
-      "url": "https://www.youtube.com/watch?v=Mo2vJ0_xb1U",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT239S"
+      "name": "Technique Tuesday: half butterfly guard sweep from head wrap",
+      "description": "Basic Butterfly Sweep film study: Technique Tuesday: half butterfly guard sweep from head wrap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_PJ9H2B8us8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_PJ9H2B8us8",
+      "url": "https://www.youtube.com/watch?v=_PJ9H2B8us8",
+      "duration": "PT43S"
     }
   ]
 }
@@ -117,17 +115,17 @@ This is considered an essential technique for all BJJ practitioners and forms th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
+![](https://www.youtube.com/watch?v=oyBedW2q0Qo)
 
-<p class="clip-credit"><strong>Marcelo Garcia butterfly sweep demonstration</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>half butterfly sweep (Half Guard)</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=oyBedW2q0Qo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Mo2vJ0_xb1U)
+![](https://www.youtube.com/watch?v=_PJ9H2B8us8)
 
-<p class="clip-credit"><strong>Butterfly sweep breakdown, version 2</strong> — taught by Marcelo Garcia · 3:59 · <a href="https://www.youtube.com/watch?v=Mo2vJ0_xb1U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Tuesday: half butterfly guard sweep from head wrap</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=_PJ9H2B8us8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -342,8 +340,8 @@ The Basic Butterfly Sweep is a cornerstone technique within the broader butterfl
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Basic Butterfly Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Basic Butterfly Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

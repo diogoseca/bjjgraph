@@ -112,7 +112,6 @@
     "Rear Naked Choke",
     "Brabo Choke",
     "Arm in Guillotine",
-    "Marce Choke",
     "Peruvian Necktie",
     "Japanese Necktie"
   ],
@@ -151,7 +150,7 @@
     },
     {
       "name": "North-South",
-      "relationship": "Alternative finishing position for Marce variation"
+      "relationship": "Alternative position reached after releasing or changing the head-and-arm connection"
     },
     {
       "name": "Darce Control",
@@ -179,11 +178,6 @@
       "when_to_use": "When opponent is defending near-side attacks effectively or when you have better angle to far side"
     },
     {
-      "variation_name": "Marce Choke (Modified Anaconda)",
-      "description": "Similar setup to Anaconda but instead of rolling to side with figure-four, you transition to North-South position and apply pressure from top. This variation works when opponent's base is too strong to roll them.",
-      "when_to_use": "When opponent has strong base and prevents your roll, or in gi when you can use lapel control"
-    },
-    {
       "variation_name": "Standing Anaconda",
       "description": "Apply Anaconda choke from standing position during takedown defense or front headlock clinch. Less common but effective when you have strong front headlock control and opponent cannot counter-wrestle effectively.",
       "when_to_use": "In standing grappling exchanges or when opponent is on knees but not flat on turtle"
@@ -197,11 +191,6 @@
       "variation_name": "High Elbow Anaconda",
       "description": "Instead of rolling or dropping elbow, maintain elevated elbow position near opponent's temple while driving shoulder into their neck. This creates darce-style shoulder pressure while maintaining anaconda arm configuration. Highly effective standing or when opponent sprawls. Requires less body movement, making it faster to finish in scrambles.",
       "when_to_use": "When opponent stands or sprawls making rolling difficult; when in scramble situation requiring quick finish; against flexible opponents who can defend standard roll; in transitions from takedown attempts"
-    },
-    {
-      "variation_name": "Marce Choke (Anaconda-Darce Hybrid)",
-      "description": "Combine anaconda arm positioning with darce-style shoulder driving mechanics. After securing anaconda grip, instead of rolling, walk your feet toward opponent's head while driving your shoulder into their neck. This creates intense pressure from unusual angle that defeats traditional anaconda defenses. Named for its hybrid nature combining arm triangle and anaconda mechanics.",
-      "when_to_use": "When standard anaconda angle is compromised; when opponent defends their neck exceptionally well; from certain turtle positions where rolling is impractical; when you want standing finish option"
     },
     {
       "variation_name": "Reverse Anaconda Roll",
@@ -560,31 +549,26 @@
     ],
     "clips": [
       {
-        "id": "DHYmDsncdS8",
-        "title": "Anaconda choke finish",
-        "by": "Marcelo Garcia",
+        "id": "1e2GPOUYR-o",
+        "title": "Fix your Anaconda Chokes (Quick)",
+        "channel": "Lycan",
+        "duration": 41,
         "vertical": false,
-        "channel": "forlogosVideos",
-        "duration": 126,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "RbkOnRb2lvA",
-        "title": "Anaconda choke",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 49,
-        "verified": "2026-07-14"
+        "title": "Anaconda Choke BJJ",
+        "channel": "Ninja Pinto",
+        "duration": 48,
+        "vertical": false
       },
       {
-        "id": "1e2GPOUYR-o",
-        "title": "Fix your anaconda chokes",
-        "by": "Lycan",
-        "vertical": false,
-        "channel": "Lycan",
-        "duration": 41,
-        "verified": "2026-07-14"
+        "id": "EbhWFWp-B6s",
+        "title": "How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur",
+        "channel": "Brandon Mccaghren",
+        "duration": 81,
+        "vertical": false
       }
     ]
   },
@@ -782,21 +766,11 @@
     "clips": [
       {
         "id": "SXm9wA1HcvM",
-        "title": "Anaconda choke defense",
-        "by": "SFS MMA",
-        "vertical": false,
+        "title": "Anaconda choke defense (BJJ) - SFS MMA",
         "channel": "Fierce Pierce15",
         "duration": 64,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "guHPx-OKi0M",
-        "title": "Prevent the sucker drag during anaconda",
-        "by": "Drew Darce",
         "vertical": false,
-        "channel": "Drew Darce",
-        "duration": 159,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

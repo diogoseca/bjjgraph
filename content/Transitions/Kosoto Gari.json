@@ -419,30 +419,11 @@
     "clips": [
       {
         "id": "9nFKizOUCdI",
-        "title": "Minor outer reap kosoto gari for judo and BJJ",
-        "by": "Conway",
-        "vertical": false,
+        "title": "Minor Outer Reap (Kosoto Gari): An Easy and Effective Takedown for Judo and…",
         "channel": "ConwayToe2Toe Jiu-Jitsu",
-        "duration": 21,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sX02CGHnOag",
-        "title": "Fast ko soto gari entry",
-        "by": "Grappler Kingdom",
+        "duration": 20,
         "vertical": false,
-        "channel": "Grappler Kingdom",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "H5lOkLcs1tM",
-        "title": "Kosoto gari demonstration",
-        "by": "Casimiro Bento",
-        "vertical": false,
-        "channel": "Casimiro Bento",
-        "duration": 40,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -624,21 +605,11 @@
     "clips": [
       {
         "id": "KG3kJoh57uk",
-        "title": "Counter kosoto gari with ouchi gari",
-        "by": "Mick",
-        "vertical": false,
+        "title": "#2 counter ko soto gari with ouchi gari",
         "channel": "Mick",
         "duration": 158,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C7HnA1zd5Rs",
-        "title": "Judo throw counter-attacks",
-        "by": "Shintaro Higashi",
         "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 161,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

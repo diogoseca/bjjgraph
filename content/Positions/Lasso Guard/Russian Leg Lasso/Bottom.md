@@ -155,50 +155,6 @@ description: "Master Russian Leg Lasso Bottom guard. Complete technical guide co
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Russian Leg Lasso (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Lasso Guard vs Top Pressure",
-      "description": "Russian Leg Lasso (Bottom) film study: Lasso Guard vs Top Pressure, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ErsvmCAGxnA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ErsvmCAGxnA",
-      "url": "https://www.youtube.com/watch?v=ErsvmCAGxnA",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lasso Guard Variations",
-      "description": "Russian Leg Lasso (Bottom) film study: Lasso Guard Variations, taught by Felipe Costa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n4ddjzGemrw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n4ddjzGemrw",
-      "url": "https://www.youtube.com/watch?v=n4ddjzGemrw",
-      "creator": { "@type": "Person", "name": "Felipe Costa" },
-      "duration": "PT28S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lasso Tripod Sweep Finish to Armbar",
-      "description": "Russian Leg Lasso (Bottom) film study: Lasso Tripod Sweep Finish to Armbar, taught by Marcos Tinoco.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0Szhzt-o9Cs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0Szhzt-o9Cs",
-      "url": "https://www.youtube.com/watch?v=0Szhzt-o9Cs",
-      "creator": { "@type": "Person", "name": "Marcos Tinoco" },
-      "duration": "PT37S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -209,40 +165,6 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Russian Leg Lasso (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ErsvmCAGxnA)
-
-<p class="clip-credit"><strong>Lasso Guard vs Top Pressure</strong> — taught by Mikey Musumeci · 1:18 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=n4ddjzGemrw)
-
-<p class="clip-credit"><strong>Lasso Guard Variations</strong> — taught by Felipe Costa · 0:28 · <a href="https://www.youtube.com/watch?v=n4ddjzGemrw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0Szhzt-o9Cs)
-
-<p class="clip-credit"><strong>Lasso Tripod Sweep Finish to Armbar</strong> — taught by Marcos Tinoco · 0:37 · <a href="https://www.youtube.com/watch?v=0Szhzt-o9Cs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

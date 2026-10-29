@@ -446,30 +446,25 @@
     "clips": [
       {
         "id": "tc-XXMg7v48",
-        "title": "The mounted arm triangle",
-        "by": "Coach Brian",
-        "vertical": false,
+        "title": "TMG Clips #128 - The Mounted Arm Triangle",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 145,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "YHCZ7SHep5k",
-        "title": "Finishing head-and-arm chokes the right way",
-        "by": "Henry Akins",
         "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 88,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "wrZCRBlAB3Y",
-        "title": "Head and arm choke from mount finishing details",
-        "by": "Roger Gracie",
-        "vertical": false,
+        "title": "Head and Arm Choke from Mount Finishing Details",
         "channel": "Roger Gracie TV",
         "duration": 265,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "YHCZ7SHep5k",
+        "title": "Finishing Head-And-Arm Chokes, The RIGHT Way",
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 88,
+        "vertical": false
       }
     ]
   },
@@ -660,31 +655,11 @@
     ],
     "clips": [
       {
-        "id": "n_2zR6BaF8A",
-        "title": "The best arm-triangle escape",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 58,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Nspz2EAIQ_k",
-        "title": "Arm triangle escape using hawking",
-        "by": "Crucifix Mike",
-        "vertical": false,
-        "channel": "Crucifix Mike",
-        "duration": 27,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "N7SC93aEOIA",
-        "title": "Head and arm choke escape",
-        "by": "Gracie Barra Jupiter",
-        "vertical": false,
+        "title": "Gracie Barra Jupiter- Head and arm choke escape",
         "channel": "Gracie Barra Jupiter And Stuart",
         "duration": 174,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

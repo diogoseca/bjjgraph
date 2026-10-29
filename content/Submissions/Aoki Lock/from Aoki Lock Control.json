@@ -1,68 +1,50 @@
 {
   "name": "Aoki Lock from Aoki Lock Control",
-  "description": "Complete guide to finishing the Aoki Lock leg compression from Aoki Lock control. Figure-four foot trap, plantar-flexion mechanics, and key defensive counters.",
+  "description": "Aoki Lock from Aoki Lock Control uses the turned-out foot and hip connection to prepare a rotational finish. Protect the ankle and knee with early release.",
   "tags": [
     "bjj",
     "submission",
-    "leg-lock",
-    "compression",
-    "aoki-lock",
-    "shin-lock",
-    "advanced",
-    "no-gi"
+    "joint-lock"
   ],
-  "submission_category": "Compression",
-  "submission_type": "Leg Compression",
-  "target_area": "Shin and ankle compression (forced plantar flexion crushing the shin, calf, and Achilles)",
-  "starting_position": "Aoki Lock Control",
-  "from_position": "Aoki Lock Control/Top",
+  "submission_category": "Joint Lock",
+  "submission_type": "Rotational foot lock",
+  "target_area": "Foot and ankle, with rotational stress transmitted to the knee",
+  "starting_position": "Aoki Lock Control/Bottom",
+  "from_position": "Aoki Lock Control/Bottom",
   "success_rate": {
-    "gi": 50,
-    "nogi": 50
+    "gi": 35,
+    "nogi": 35
   },
-  "summary": "The Aoki Lock from Aoki Lock Control is a leg-compression finish where the attacker traps the foot in a figure-four and squeezes the legs together to drive extreme plantar flexion, crushing the shin and calf to force a rapid tap.",
-  "overview": "The Aoki Lock from Aoki Lock control represents the culmination of this signature leg-entanglement system, where the attacker converts established foot and ankle isolation into a fight-ending compression submission. Named after Japanese MMA fighter Shinya Aoki, the lock attacks the shin, calf, and ankle simultaneously through extreme plantar flexion rather than isolating a single joint, which makes it brutally effective and hard to ride out once locked. The primary control is leg-based: the attacker traps the opponent's foot inside a figure-four configuration and uses the large muscles of the legs and hips to generate compression, freeing the hands to manage distance and prevent the opponent from spinning out.\n\nFrom the Aoki Lock control position, the attacker has already secured the leg entanglement with the foot trapped between the legs and the figure-four closing the loop. The finishing sequence focuses on squeezing the knees together while extending the hips, forcing the trapped foot into extreme plantar flexion while crushing the shin and calf against the attacker's own leg. Unlike a heel hook, which isolates rotational force on the knee through tibial torsion, the Aoki Lock distributes pressure across multiple structures of the lower leg at once, so it can finish even when classic heel-hook defenses are strong.\n\nStrategically, this finish carries a 50% overall success rate reflecting strong positional control offset by the leg dexterity and precision required for safe application. When defended, the attacker retains the entanglement and can flow back to control, re-isolate for a heel hook or kneebar, or chase the scramble, making the Aoki Lock a versatile offensive hub rather than a single-dimension attack.",
+  "summary": "The Aoki Lock is a rotational foot lock that captures a turned-out foot against the upper body while controlling the leg and hip, potentially stressing both the ankle and knee.",
+  "overview": "The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.\n\nIdentify the turned-out foot without forcing it to rotate against resistance. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. Secure the upper-body enclosure while leaving the foot unloaded during practice. Use the legs and hip connection to limit free movement without twisting a planted knee.\n\nUse capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot.\n\nInstructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).",
   "safety_considerations": {
     "injury_risks": [
       {
-        "injury": "Achilles tendon strain or rupture from sudden loading in extreme plantar flexion",
-        "severity": "CRITICAL",
-        "recovery_time": "8-16 weeks, potential surgery and extensive rehabilitation"
-      },
-      {
-        "injury": "Ankle ligament damage (ATFL, deltoid ligament) from forced plantar flexion and compression",
+        "injury": "Ankle ligament or joint injury from rotational loading",
         "severity": "High",
-        "recovery_time": "6-12 weeks for grade 2-3 sprains"
+        "recovery_time": "Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms."
       },
       {
-        "injury": "Plantar fascia strain or tear from extreme foot extension",
+        "injury": "Knee ligament injury when the foot is fixed and the body turns",
         "severity": "High",
-        "recovery_time": "4-8 weeks with potential chronic issues"
-      },
-      {
-        "injury": "Calf muscle tear or compartment syndrome from sustained shin and calf compression",
-        "severity": "Medium",
-        "recovery_time": "3-6 weeks"
+        "recovery_time": "Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms."
       }
     ],
-    "application_speed": "SLOW and PROGRESSIVE. Apply compression gradually over 5-7 seconds minimum using a smooth leg squeeze and hip extension. Never jerk, spike, or explosively load the foot into plantar flexion. Allow adequate time for partner to recognize danger and tap.",
+    "application_speed": "Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot. No fixed number of seconds makes a locked submission safe.",
     "tap_signals": [
-      "Verbal tap (most common due to leg entanglement restricting the arms)",
-      "Physical hand tap on partner, mat, or any available surface",
-      "Physical foot tap on mat with free leg",
-      "Any unusual screaming, groaning, or distress vocalization"
+      "Repeated hand taps anywhere the partner can feel them",
+      "A clear verbal tap or stop, including when the hands are trapped",
+      "Foot taps or any agreed stop signal; release immediately if normal responsiveness changes"
     ],
     "release_protocol": [
-      "Release the squeezing pressure with your legs immediately upon any tap signal without question or hesitation",
-      "If in doubt whether partner tapped, release immediately and ask before continuing",
-      "Uncross your legs to open the figure-four and free the trapped foot, allowing their leg to straighten naturally without pulling or twisting",
-      "Monitor partner for ankle, Achilles, or calf injury after release — check mobility, pain level, and range of motion before continuing"
+      "Open the finishing grip immediately at the first signal; do not wait for repeated confirmation",
+      "Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement",
+      "Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom"
     ],
     "training_restrictions": [
-      "Practice finishing pressure only with experienced partners who understand leg-lock risks and compression mechanics",
-      "Never apply full finishing pressure speed in training — always use slow progressive application even when drilling at speed",
-      "Beginners should not attempt this finish until they have demonstrated leg-lock safety awareness under qualified instruction",
-      "Do not apply this submission to partners with pre-existing ankle, Achilles, or knee injuries or recent lower-limb surgery"
+      "Start with supervised, cooperative control-and-release drilling rather than a loaded finish",
+      "Check the event's current rules for the specific age, experience and clothing division before live use",
+      "Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot."
     ]
   },
   "from_positions": [
@@ -70,375 +52,327 @@
     "Ashi Garami"
   ],
   "related_submissions": [
-    "Aoki Lock",
-    "Inside Heel Hook",
-    "Outside Heel Hook",
-    "Kneebar",
+    "Heel Hook",
     "Straight Ankle Lock",
-    "Calf Slicer",
     "Toe Hold"
   ],
   "related_content": [
     {
       "name": "Aoki Lock Control",
-      "relationship": "Starting control position for this finish"
+      "relationship": "Related prerequisite or contrasting submission: compare the configuration and required controls for Aoki Lock Control."
     },
     {
       "name": "Ashi Garami",
-      "relationship": "Related leg-entanglement control with the same compression mechanics"
+      "relationship": "Related prerequisite or contrasting submission: compare the configuration and required controls for Ashi Garami."
     },
     {
-      "name": "Inside Heel Hook",
-      "relationship": "Primary transition target when the compression is defended"
-    },
-    {
-      "name": "Aoki Lock",
-      "relationship": "Generic finishing technique across all entry positions"
-    },
-    {
-      "name": "Kneebar",
-      "relationship": "Related leg attack that chains from the same entanglement"
+      "name": "Straight Ankle Lock",
+      "relationship": "Related prerequisite or contrasting submission: compare the configuration and required controls for Straight Ankle Lock."
     }
   ],
   "outcomes": [
     {
       "to": "game-over",
       "probability": {
-        "gi": 50,
-        "nogi": 50
+        "gi": 35,
+        "nogi": 35
       },
       "result": "success"
     },
     {
-      "to": "Aoki Lock Control/Top",
+      "to": "Aoki Lock Control/Bottom",
       "probability": {
-        "gi": 32,
-        "nogi": 32
+        "gi": 45,
+        "nogi": 45
       },
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Bottom",
+      "to": "Ashi Garami/Bottom",
       "probability": {
-        "gi": 18,
-        "nogi": 18
+        "gi": 20,
+        "nogi": 20
       },
       "result": "counter"
     }
   ],
   "variations_and_setups": [
     {
-      "variation_name": "Standard Squeeze-and-Extend Finish",
-      "description": "The primary finishing method where the attacker squeezes the knees together while extending the hips to drive the trapped foot into extreme plantar flexion. Relies on the large leg muscles and the closed figure-four loop rather than grip strength, creating sustainable compression that is difficult to defend through dorsiflexion alone.",
-      "when_to_use": "Default finishing approach when the figure-four is secure and the opponent's foot is seated correctly in the compression pocket"
+      "variation_name": "Control-only rehearsal",
+      "description": "The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. Identify the turned-out foot without forcing it to rotate against resistance.",
+      "when_to_use": "Cooperative practice before adding resistance or any finishing pressure"
     },
     {
-      "variation_name": "Rolling Follow Finish",
-      "description": "When the opponent initiates a roll to escape, the attacker follows their momentum while maintaining the figure-four and entanglement. The roll often tightens the compression as the opponent's rotation seats the foot deeper into plantar flexion against the attacker's leg.",
-      "when_to_use": "When opponent attempts to roll through the position — follow rather than resist their movement to compound the compression"
-    },
-    {
-      "variation_name": "Heel Hook Dilemma Finish",
-      "description": "Threaten an inside heel hook to draw the opponent into rotation defense, then close the figure-four and finish with compression when they overcommit to defending the knee. The setup appears similar to a heel hook but finishes through shin and ankle crush, creating a powerful dilemma.",
-      "when_to_use": "When the opponent's heel-hook defense is strong and standard compression alone is being resisted"
+      "variation_name": "Entry prerequisite check",
+      "description": "The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.",
+      "when_to_use": "Before linking this submission to a different starting position"
     }
   ],
   "attacker": {
     "name": "from Aoki Lock Attacker",
-    "description": "Learn to execute the Aoki Lock compression from Aoki Lock control. Setup requirements, figure-four mechanics, progressive pressure, and counter management.",
-    "overview": "Executing the Aoki Lock finish from established Aoki Lock control requires converting your leg-entanglement advantage into fight-ending compression on the opponent's shin and ankle. The attacker's primary task is generating progressive squeezing force through a tight figure-four while extending the hips to drive the trapped foot into extreme plantar flexion. Your legs and hips do the breaking work while your hands manage distance and prevent the opponent from spinning out or extracting the foot. The finish demands precision over power: the closed figure-four loop recruits your largest muscles against multiple structures of the lower leg, so technique trumps strength, but rushed or jerking application risks serious injury to your training partner's Achilles, ankle, and calf. Recognizing when to commit to the finish versus re-isolating for a heel hook, kneebar, or returning to control is essential for high-level execution.",
+    "description": "Aoki Lock from Aoki Lock Control (attacker): Identify the turned-out foot without forcing it to rotate against resistance. Bring the instep under the upper arm and support the heel/Achilles region with the forearm.",
+    "overview": "The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.\n\nIdentify the turned-out foot without forcing it to rotate against resistance. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. Secure the upper-body enclosure while leaving the foot unloaded during practice.\n\nUse the legs and hip connection to limit free movement without twisting a planted knee. Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement. Open the arms and leg connection on a tap, sudden turn, or loss of communication.\n\nUse capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot.\n\nTreat a switch to another leg lock as a new submission entry: release the Aoki rotation, inspect the available ankle and knee alignment, and confirm the replacement controls before closing another grip.",
     "key_principles": [
-      "Secure the foot in the figure-four before applying any compression so the closed loop, not your arms, generates the force",
-      "Squeeze the knees together while extending the hips to drive the trapped foot into extreme plantar flexion using body mechanics rather than grip",
-      "Distribute pressure across the entire shin and calf rather than isolating the ankle joint so flexible opponents cannot ride it out",
-      "Keep the foot seated deep in the compression pocket — any slack lets the opponent dorsiflex and relieve the lock",
-      "Apply pressure progressively over 5-7 seconds minimum with constant monitoring for tap signals",
-      "Use your hands to manage the opponent's distance and posture, preventing the sit-up or spin that neutralizes the compression"
+      "Confirm the foot orientation: Identify the turned-out foot without forcing it to rotate against resistance.",
+      "Enclose the foot: Bring the instep under the upper arm and support the heel/Achilles region with the forearm.",
+      "Connect the hands: Secure the upper-body enclosure while leaving the foot unloaded during practice.",
+      "Manage the hip: Use the legs and hip connection to limit free movement without twisting a planted knee.",
+      "Stop at controlled capture: Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement.",
+      "Release before movement: Open the arms and leg connection on a tap, sudden turn, or loss of communication."
     ],
     "setup_requirements": [
-      "Secure the leg entanglement with the opponent's foot trapped between your legs and the figure-four loop closing on your own shin or ankle",
-      "Establish a stable base and hip position that lets you extend away while squeezing the knees together",
-      "Seat the opponent's foot deep in the compression pocket so it is forced toward plantar flexion when you squeeze",
-      "Control the opponent's distance and posture with your hands to prevent the sit-up and spin defenses",
-      "Confirm there is no slack in the figure-four and the ankle is positioned for plantar flexion before applying pressure"
+      "The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.",
+      "Identify the turned-out foot without forcing it to rotate against resistance.",
+      "Bring the instep under the upper arm and support the heel/Achilles region with the forearm.",
+      "The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it."
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Confirm the Figure-Four Trap",
-        "description": "Verify the opponent's foot is trapped between your legs with the figure-four loop closed by hooking your top foot behind your bottom knee or shin, creating the closed loop that will generate compression before initiating any finishing pressure.",
-        "timing": "2-3 seconds for verification"
+        "action": "Confirm the foot orientation",
+        "description": "Identify the turned-out foot without forcing it to rotate against resistance."
       },
       {
         "step_number": 2,
-        "action": "Seat the Foot in the Pocket",
-        "description": "Use your hands to guide the opponent's heel and ankle deep into the space created by your figure-four so that when you squeeze, the foot is driven into plantar flexion rather than slipping into dorsiflexion. The deeper the seat, the less slack the opponent can exploit.",
-        "timing": "1-2 seconds"
+        "action": "Enclose the foot",
+        "description": "Bring the instep under the upper arm and support the heel/Achilles region with the forearm."
       },
       {
         "step_number": 3,
-        "action": "Manage Distance and Posture",
-        "description": "Brace your hands on the opponent's knee or hip to block their sit-up and prevent them from spinning toward you, removing the angles they need to break the figure-four or extract the trapped foot before the compression engages.",
-        "timing": "1 second"
+        "action": "Connect the hands",
+        "description": "Secure the upper-body enclosure while leaving the foot unloaded during practice."
       },
       {
         "step_number": 4,
-        "action": "Set the Hip Extension",
-        "description": "Position your hips so you can extend and elevate away from the opponent while keeping the figure-four tight, creating the opposing force that drives the trapped foot into plantar flexion as your knees draw together.",
-        "timing": "1-2 seconds for adjustment"
+        "action": "Manage the hip",
+        "description": "Use the legs and hip connection to limit free movement without twisting a planted knee."
       },
       {
         "step_number": 5,
-        "action": "Apply Gradual Compression",
-        "description": "Begin squeezing your knees together while extending your hips slowly over five to seven seconds, crushing the shin and calf while forcing extreme plantar flexion with gradual controlled intensity. Focus on distributed compression across the lower leg rather than an isolated ankle bend.",
-        "timing": "5-7 seconds progressive build"
+        "action": "Stop at controlled capture",
+        "description": "Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement."
       },
       {
         "step_number": 6,
-        "action": "Monitor Tap Signals",
-        "description": "While increasing compression, maintain constant awareness of all tap indicators including verbal signals, hand tapping on any surface, foot stomping, and body language showing distress, ready for immediate release.",
-        "timing": "Continuous throughout finish"
-      },
-      {
-        "step_number": 7,
-        "action": "Complete or Transition",
-        "description": "If opponent taps, release immediately following safety protocol. If they defend effectively by dorsiflexing and extracting the foot or breaking the figure-four, transition to an inside heel hook or kneebar rather than forcing a defended compression.",
-        "timing": "Immediate decision point"
+        "action": "Release before movement",
+        "description": "Open the arms and leg connection on a tap, sudden turn, or loss of communication."
       }
     ],
     "common_counters": [
       {
-        "counter": "Rolling through the position to relieve compression and create a scramble",
+        "counter": "Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.",
         "effectiveness": "High",
-        "your_response": "Follow their roll momentum while maintaining the figure-four — this often re-tightens the compression as the rotation seats the foot deeper. Do not resist the roll by pulling back, as this creates slack for foot extraction.",
-        "targets_outcome": "Aoki Lock Control/Top"
+        "your_response": "Re-check the prerequisite before continuing. Identify the turned-out foot without forcing it to rotate against resistance.",
+        "targets_outcome": "Aoki Lock Control/Bottom"
       },
       {
-        "counter": "Foot extraction by dorsiflexing and pulling the trapped leg free before the lock is tight",
+        "counter": "Hand fight and recover foot position before the attacker connects around the foot.",
         "effectiveness": "Medium",
-        "your_response": "Immediately re-tighten the figure-four by hooking your top foot deeper and pulling your knees together. Re-seat their heel into the pocket and increase hip extension to prevent further extraction before they complete the escape.",
-        "targets_outcome": "Aoki Lock Control/Top"
+        "your_response": "Re-check the prerequisite before continuing. Bring the instep under the upper arm and support the heel/Achilles region with the forearm.",
+        "targets_outcome": "Aoki Lock Control/Bottom"
       },
       {
-        "counter": "Sitting up and spinning to break the figure-four and change the angle on the foot",
+        "counter": "Do not rotate the torso independently of a captured foot and knee.",
         "effectiveness": "Medium",
-        "your_response": "Use your hands to push their shoulders or knee back and maintain distance. If they generate a significant angle change, follow their hips and re-establish the entanglement; if distance opens fully, accept the scramble back to open guard.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "your_response": "Re-check the prerequisite before continuing. Secure the upper-body enclosure while leaving the foot unloaded during practice.",
+        "targets_outcome": "Ashi Garami/Bottom"
       },
       {
-        "counter": "Keeping the foot in dorsiflexion (toes up) to resist plantar flexion",
+        "counter": "Create slack in the hand and hip controls before withdrawing the leg.",
         "effectiveness": "Low",
-        "your_response": "Shift emphasis to the compression component, squeezing the knees harder to crush the shin and calf. The distributed pressure forces the tap even if full plantar flexion is not achieved; increase hip extension to add posterior-chain stretch.",
-        "targets_outcome": "Aoki Lock Control/Top"
+        "your_response": "Re-check the prerequisite before continuing. Use the legs and hip connection to limit free movement without twisting a planted knee.",
+        "targets_outcome": "Aoki Lock Control/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "Applying explosive or jerking compression instead of progressive gradual application",
-        "consequence": "Serious lower-leg injury to training partner including Achilles rupture, ankle ligament damage, or calf tear with months of recovery",
-        "correction": "Always build compression over 5-7 seconds minimum using a smooth leg squeeze and hip extension. Treat every training application as if your partner's ankle and Achilles depend on your control — because they do."
+        "error": "Skipping the checkpoint: confirm the foot orientation",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Identify the turned-out foot without forcing it to rotate against resistance.",
+        "correction": "Identify the turned-out foot without forcing it to rotate against resistance."
       },
       {
-        "error": "Seating the foot too shallow in the compression pocket",
-        "consequence": "Opponent gains slack to dorsiflex and pull the foot free, reducing plantar flexion and creating openings for extraction or scramble",
-        "correction": "Guide the heel and ankle deep into the figure-four pocket and keep the loop tight so any squeeze drives the foot into plantar flexion rather than letting it slip out"
+        "error": "Skipping the checkpoint: enclose the foot",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Bring the instep under the upper arm and support the heel/Achilles region with the forearm.",
+        "correction": "Bring the instep under the upper arm and support the heel/Achilles region with the forearm."
       },
       {
-        "error": "Relying only on the leg squeeze while neglecting hip extension",
-        "consequence": "Minimal breaking force is generated and a flexible opponent rides out the compression, allowing them to defend or escape",
-        "correction": "Combine the knee squeeze with active hip extension — the opposing forces are what crush the shin and force plantar flexion together"
+        "error": "Skipping the checkpoint: connect the hands",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Secure the upper-body enclosure while leaving the foot unloaded during practice.",
+        "correction": "Secure the upper-body enclosure while leaving the foot unloaded during practice."
       },
       {
-        "error": "Neglecting distance and posture control with the hands while focusing solely on leg pressure",
-        "consequence": "Opponent sits up, spins, or extracts the foot, breaking the figure-four entirely",
-        "correction": "Keep both hands actively managing the opponent's knee, hip, and distance to block the sit-up and spin — hands manage position while legs generate the submission"
+        "error": "Skipping the checkpoint: manage the hip",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Use the legs and hip connection to limit free movement without twisting a planted knee.",
+        "correction": "Use the legs and hip connection to limit free movement without twisting a planted knee."
       },
       {
-        "error": "Forcing the finish when the opponent has established a strong dorsiflexion and extraction defense",
-        "consequence": "Wastes energy on a low-percentage finish while missing high-percentage transitions to a heel hook or kneebar",
-        "correction": "Recognize when the opponent's defense is structurally sound after two progressive compression attempts and flow to an inside heel hook, kneebar, or back to control"
-      },
-      {
-        "error": "Losing visual and tactile contact with the opponent during the finishing sequence",
-        "consequence": "Miss critical tap signals, fail to read defensive movements, or get caught by an unexpected roll or extraction",
-        "correction": "Maintain constant awareness of the opponent's body language, hand position for taps, and the tightness of the figure-four throughout the entire finish"
+        "error": "Skipping the checkpoint: stop at controlled capture",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement.",
+        "correction": "Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "Figure-four configuration and compression angle",
-        "description": "From the entanglement, partner allows you to trap the foot and close the figure-four. Focus on smooth foot seating, base establishment, and understanding the squeeze-and-extend angle that generates plantar flexion. 10-15 repetitions per side with zero resistance."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on confirm the foot orientation. Identify the turned-out foot without forcing it to rotate against resistance. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 2: Control Maintenance",
-        "focus": "Maintaining the entanglement against progressive resistance",
-        "description": "Partner provides 30-50% resistance while you maintain Aoki Lock control and attempt the compression. They practice common escapes (rolling, foot extraction, sit-up) while you counter and maintain the figure-four. Three-minute rounds."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on enclose the foot. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 3: Safe Finishing",
-        "focus": "Progressive compression application with safety emphasis",
-        "description": "With a compliant partner, practice applying compression using 5-7 second gradual increases. Partner taps at first discomfort. Develop sensitivity to submission depth, tap recognition, and immediate release protocol. 8-10 controlled repetitions per side."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on connect the hands. Secure the upper-body enclosure while leaving the foot unloaded during practice. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 4: Transition Integration",
-        "focus": "Recognizing finish vs transition decision points",
-        "description": "Partner gives specific defensive reactions. Practice deciding between committing to the compression or flowing to an inside heel hook, kneebar, or back to control based on their defense quality. Emphasize the decision-making process over any single technique."
-      },
-      {
-        "phase": "Phase 5: Live Application",
-        "focus": "Situational sparring from Aoki Lock position",
-        "description": "Start in Aoki Lock control with full resistance. Top player attempts the finish or transitions, bottom player defends and escapes. Two-minute rounds with position reset. Focus on reading live defensive responses and selecting the appropriate finishing or transition path."
+        "phase": "Phase 4",
+        "focus": "Link only verified checkpoints",
+        "description": "Work cooperatively on manage the hip. Use the legs and hip connection to limit free movement without twisting a planted knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the Aoki Lock finish primarily attack?",
-        "answer": "The Aoki Lock finish attacks the shin, calf, ankle, and Achilles through combined compression and extreme plantar flexion, distributing force across the plantar fascia, ankle ligaments (ATFL and deltoid), Achilles tendon, calf muscle, and shin periosteum simultaneously. Because the pressure is spread across multiple structures rather than isolating one joint, the Achilles and ankle ligaments are most vulnerable to injury from excessive or explosive application.",
-        "safety_critical": true,
-        "answer_line": "Shin, calf, ankle and Achilles",
+        "question": "Aoki from Control: which direction are the offered toes facing before you collect the foot?",
+        "answer": "Outward, away from the leg's neutral line. Identify an already outward-oriented foot rather than forcing a reluctant foot into the angle. The resulting enclosure can load both ankle and knee.",
+        "answer_line": "Outward from the neutral leg line",
         "distractors": {
           "plausible": [
-            "Knee joint and ACL",
-            "Toes and forefoot only"
+            "Straight up with no external turn",
+            "Inward across the opposite leg"
           ],
           "trap": [
-            "Just discomfort — safe to hold"
+            "Downward with the heel square"
           ]
         }
       },
       {
-        "question": "Your opponent rolls explosively out of your locked Aoki Lock — how do you keep the finish?",
-        "answer": "Follow their roll momentum while keeping the figure-four tight and the knees squeezing together. The rotation often seats the foot deeper into plantar flexion and tightens the compression rather than relieving it. Keep your hands managing distance so they cannot create the angle to extract the foot, and if they generate enough momentum, ride the roll back into control rather than fighting it directly.",
-        "safety_critical": false,
-        "answer_line": "Ride the roll, keep figure-four",
+        "question": "Aoki from Control: which surface of the foot rests under your upper arm?",
+        "answer": "The instep against the biceps-and-armpit region. The instep meets the upper arm while the forearm supports the heel/Achilles region. Keep the capture unloaded in a control drill.",
+        "answer_line": "Instep at the biceps and armpit",
         "distractors": {
           "plausible": [
-            "Plant your base, stop the roll",
-            "Straighten legs for more leverage"
+            "Sole flat against your biceps",
+            "Only toes beneath your upper arm"
           ],
           "trap": [
-            "Let go and chase the back"
+            "Heel wedged beneath your armpit"
           ]
         }
       },
       {
-        "question": "What are the key indicators that your compression is reaching the breaking point?",
-        "answer": "Indicators include the opponent's free hand reaching toward their leg or your legs, audible groaning or distress vocalizations, visible foot color change as circulation is affected, their body stiffening with involuntary reactions, and any tap signal including hand tapping, verbal submission, or foot stomping. Because the lock attacks multiple structures at once, maintain steady compression without spiking — the tap is imminent and additional force risks injury before they can signal.",
-        "safety_critical": true,
-        "answer_line": "Hand reaching, groans, foot color",
+        "question": "Aoki from Control: where does Kesting place the looping hand for a deep arm connection?",
+        "answer": "Around the back of the opposite triceps. The written lesson distinguishes a deep hold behind the other upper arm from merely resting the hand on the biceps. Learn the connection without adding finishing rotation.",
+        "answer_line": "Behind the opposite triceps",
         "distractors": {
           "plausible": [
-            "Calm face and even breathing",
-            "Their grip fight gets stronger"
+            "Lightly on the opposite biceps",
+            "Across their shin below the knee"
           ],
           "trap": [
-            "No reaction — crank harder fast"
+            "Same-side wrist, no arm enclosure"
           ]
         }
       },
       {
-        "question": "What control must be established before you can safely initiate the finishing compression?",
-        "answer": "Four controls must be confirmed: the figure-four is closed with your top foot hooked behind your bottom knee or shin, the opponent's foot is seated deep in the compression pocket positioned for plantar flexion, your hands are managing distance to block the sit-up and spin, and there is no slack in the loop. Missing any single control element either reduces finishing effectiveness or creates safety risks from uncontrolled pressure angles.",
-        "safety_critical": false,
-        "answer_line": "All four controls set, zero slack",
+        "question": "Aoki from Control: what role do your legs play around the opponent's hip?",
+        "answer": "Limit free hip movement without twisting a planted knee. Use the legs and hip connection to limit free movement without twisting a planted knee.",
+        "answer_line": "Restrain hips without a knee twist",
         "distractors": {
           "plausible": [
-            "Only the figure-four is closed",
-            "Only the heel seated deep"
+            "Replace the upper-body foot grip",
+            "Force a planted knee sideways"
           ],
           "trap": [
-            "Crank first, fix controls later"
+            "Let hips retreat with toes caught"
           ]
         }
       },
       {
-        "question": "At what point during the Aoki Lock finish does the opponent pass the point of no escape?",
-        "answer": "The point of no escape occurs when the figure-four is fully locked, the foot is seated deep for plantar flexion, and you have begun hip extension with the knee squeeze engaged. Once the opponent can no longer dorsiflex to relieve pressure or spin to break the loop, their only option is to tap. This threshold varies by individual ankle flexibility and should always be approached progressively.",
-        "safety_critical": false,
-        "answer_line": "Loop locked, foot deep, hips driving",
+        "question": "Aoki from Control: why is a large finishing motion unnecessary and hazardous?",
+        "answer": "Small body extension can load ankle and knee rotation. Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement.",
+        "answer_line": "Small extension can load rotation",
         "distractors": {
           "plausible": [
-            "As soon as you catch the foot",
-            "When you first cross your ankles"
+            "Load starts only with torso on mat",
+            "Calf squeezing absorbs extension"
           ],
           "trap": [
-            "Rip it fast to beat the escape"
+            "Foot under arm keeps the knee safe"
           ]
         }
       },
       {
-        "question": "What are the most common finishing errors that cause the Aoki Lock to fail from this position?",
-        "answer": "The three most common errors are seating the foot too shallow so the opponent retains slack to dorsiflex, relying only on the knee squeeze while neglecting hip extension which is what drives the plantar flexion, and neglecting distance control with the hands which lets the opponent sit up and spin out. A fourth critical error is applying compression explosively rather than progressively, which does not increase the finish rate but dramatically increases injury risk to training partners.",
-        "safety_critical": false,
-        "answer_line": "Shallow foot seat, weak hip drive",
+        "question": "Aoki from Control: what must you open if the partner suddenly turns or taps?",
+        "answer": "Both the arm enclosure and the leg connection. Open the arms and leg connection on a tap, sudden turn, or loss of communication.",
+        "answer_line": "Arm enclosure and leg connection",
         "distractors": {
           "plausible": [
-            "Squeezing the knees too hard",
-            "Crossing the wrong ankle on top"
+            "Outer hand, elbow still clamped",
+            "Free foot, hip still trapped"
           ],
           "trap": [
-            "Let go and re-grip mid-finish"
+            "Knees, while pulling the foot closer"
+          ]
+        },
+        "safety_critical": true
+      },
+      {
+        "question": "Aoki from Control: which opposing post is collected in Kesting's counter-leglock example?",
+        "answer": "The foot pressing against the holder's hip. The example catches the foot that was pinning the defender's hip in standard ashi. A named dominant entanglement does not prevent that foot from being exposed.",
+        "answer_line": "The foot posted on the holder's hip",
+        "distractors": {
+          "plausible": [
+            "The knee on the mat behind them",
+            "The free heel outside both legs"
+          ],
+          "trap": [
+            "Toes tucked under their own hips"
           ]
         }
       },
       {
-        "question": "How should you adjust if your opponent begins extracting their foot during the finish?",
-        "answer": "Re-tighten the figure-four by hooking your top foot deeper and drawing your knees together, then re-seat their heel into the compression pocket while increasing hip extension to remove slack. If extraction continues past the point where the heel clears the loop, transition immediately to an inside heel hook or kneebar using your existing leg positioning rather than chasing the foot, which leaves you in a poor scramble position.",
-        "safety_critical": false,
-        "answer_line": "Re-seat the heel, retighten grip",
+        "question": "Aoki from Control: which mechanism distinguishes this from a calf slicer?",
+        "answer": "Rotation through an enclosed foot. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.",
+        "answer_line": "Rotation through an enclosed foot",
         "distractors": {
           "plausible": [
-            "Wait until the foot clears fully",
-            "Slide back to gain more room"
+            "Bent calf compressed over a fulcrum",
+            "Heel folded to same-side buttock"
           ],
           "trap": [
-            "Dive after the escaping foot"
+            "Calf pressure with a free ankle"
           ]
         }
       },
       {
-        "question": "What is the correct protocol for releasing the Aoki Lock after your training partner taps?",
-        "answer": "Release all squeezing pressure with your legs immediately upon any tap signal without hesitation or question. Do not maintain the lock to ask if they really tapped. Uncross your legs to open the figure-four, free the trapped foot, and allow their leg to straighten naturally without pulling or twisting. Check on your partner's ankle, Achilles, and calf mobility and pain level before continuing training. If there is any doubt about whether they tapped, always release first and ask second.",
-        "safety_critical": true,
-        "answer_line": "Release the squeeze instantly",
+        "question": "Aoki from Control: what amount of rotational load belongs in an initial capture-only repetition?",
+        "answer": "Contact without finishing tension through the leg. Rehearse collecting and completely releasing the foot and hip controls. Omit the finishing extension, and release if the partner moves or signals.",
+        "answer_line": "Contact without finishing tension",
         "distractors": {
           "plausible": [
-            "Pull their leg straight for them",
-            "Ease the pressure off gradually"
+            "Tension to test remaining range",
+            "A small bridge before grip checks"
           ],
           "trap": [
-            "Hold two seconds to confirm"
+            "Rotation until an escape starts"
           ]
-        }
+        },
+        "safety_critical": true
       },
       {
-        "question": "When should you abandon the finish attempt and transition to a heel hook or kneebar instead?",
-        "answer": "Transition when you have applied two progressive compression attempts without submission progress, when the opponent has established a strong dorsiflexion-and-extraction defense that structurally blocks plantar flexion, when they create an opening for a different leg attack, or when you feel your own energy expenditure becoming unsustainable. The Aoki Lock entanglement offers excellent transitions to the inside heel hook and kneebar that are higher percentage than forcing a well-defended compression.",
-        "safety_critical": false,
-        "answer_line": "After 2 stalled compressions, bail",
+        "question": "Aoki from Control: if the foot is not naturally presented at the right angle, what should you do?",
+        "answer": "Reset the entry instead of forcing the foot outward. Identify the turned-out foot without forcing it to rotate against resistance.",
+        "answer_line": "Reset instead of forcing the angle",
         "distractors": {
           "plausible": [
-            "Bail after the first attempt",
-            "Reset control and restart the same"
+            "Twist toes against a planted knee",
+            "Pull heel until the lower leg turns"
           ],
           "trap": [
-            "Keep cranking until you gas out"
-          ]
-        }
-      },
-      {
-        "question": "How does finishing the Aoki Lock in competition differ from training application?",
-        "answer": "In competition, you can apply compression more decisively since the opponent is motivated to defend rather than tap early, but you must still control the application speed to avoid disqualification for dangerous leg attacks. Secure the figure-four and seat the foot fully before committing, as competition opponents will exploit any slack to extract. Time management matters: if the finish is not progressing within 15-20 seconds, transition to a heel hook or kneebar rather than stalling in a contested compression.",
-        "safety_critical": false,
-        "answer_line": "Compress firmly but control speed",
-        "distractors": {
-          "plausible": [
-            "Commit first, then seat the foot",
-            "Ease off to let them tap early"
-          ],
-          "trap": [
-            "Leave slack to reset the figure-four"
+            "Fix knee and turn only the ankle"
           ]
         }
       }
@@ -475,202 +409,184 @@
   },
   "defender": {
     "name": "from Aoki Lock Defender",
-    "description": "Defend against the Aoki Lock compression from Aoki Lock control. Recognition cues, escape techniques, and survival strategies for this dangerous leg lock.",
-    "overview": "Defending against the Aoki Lock finish from Aoki Lock control is one of the most urgent defensive scenarios in no-gi grappling. Your foot is trapped in a figure-four under progressive compression, with the attacker squeezing the shin and calf while driving extreme plantar flexion. Standard heel-hook defenses are limited because the Aoki Lock attacks through compression and plantar flexion rather than isolated tibial rotation, so preventing knee rotation does not stop the crush. Your survival depends on recognizing the figure-four threading early, fighting to keep the foot in dorsiflexion and extract it before the loop closes, and disrupting the attacker's hip extension with aggressive posture before the compression engages. Recognizing your tap threshold early is critical because the Aoki Lock loads the Achilles, ankle ligaments, and calf simultaneously, where damage accumulates faster than pain signals register. No defensive position is worth risking an Achilles rupture.",
+    "description": "Aoki Lock from Aoki Lock Control (defender): Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock. Hand fight and recover foot position before the attacker connects around the foot.",
+    "overview": "The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.\n\nTreat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock. Hand fight and recover foot position before the attacker connects around the foot. Do not rotate the torso independently of a captured foot and knee.\n\nCreate slack in the hand and hip controls before withdrawing the leg. Stop at a secure rotational capture rather than testing whether the joint still tolerates movement. Wait for the entire enclosure to open before standing, turning, or restarting the exchange.\n\nUse capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot.\n\nBegin an escape while the hand enclosure and hip connection are still loose. Release the rotated-foot capture before bringing the freed knee back toward your torso; ordinary guard recovery starts after the ankle and knee can move together.",
     "key_principles": [
-      "Keep the foot in dorsiflexion (toes toward shin) to resist the plantar flexion the attacker needs to finish",
-      "Address the figure-four and foot trap first — pulling your leg straight back without freeing the loop drives the foot deeper into compression",
-      "Extract the foot before the figure-four closes, using internal hip rotation and a knee-to-chest pull while the loop still has slack",
-      "Sit up and posture forward to collapse the attacker's hip extension and break the compression structure",
-      "Recognize your tap threshold early — Aoki Lock injuries include Achilles rupture, ankle ligament damage, and calf tears that accumulate before pain registers",
-      "Create continuous movement toward escape rather than holding static positions that let the attacker perfect the squeeze"
+      "Recognize rotation: Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.",
+      "Deny the enclosure: Hand fight and recover foot position before the attacker connects around the foot.",
+      "Keep the leg aligned: Do not rotate the torso independently of a captured foot and knee.",
+      "Free the connection early: Create slack in the hand and hip controls before withdrawing the leg.",
+      "Tap before pain: Stop at a secure rotational capture rather than testing whether the joint still tolerates movement.",
+      "Reset after release: Wait for the entire enclosure to open before standing, turning, or restarting the exchange."
     ],
     "recognition_cues": [
-      "Opponent weaving their legs into a figure-four around your lower leg and trapping your foot between their legs",
-      "Increasing squeezing compression on your shin and calf rather than a twisting force on your knee",
-      "Your foot being guided into plantar flexion (toes pointing) as it is seated deeper into the compression pocket",
-      "Opponent extending and elevating their hips away from you while keeping the leg entanglement tight",
-      "Loss of ability to dorsiflex or extract your foot indicating the figure-four is fully secured"
+      "The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.",
+      "The attacker brings your instep under the upper arm and supports the heel/Achilles region with the forearm.",
+      "The attacker uses the legs and hip connection to limit your free movement without twisting a planted knee."
     ],
     "defensive_options": [
       {
-        "action": "Extract the trapped foot before the figure-four closes by dorsiflexing and pulling the knee to your chest with internal hip rotation",
-        "when_to_use": "As soon as you recognize the figure-four threading, before the closed loop and compression are established — this is the highest-percentage window",
-        "targets_outcome": "Aoki Lock Control/Top",
-        "if_successful": "Returns you to neutral leg-entanglement control where you can work standard leg-lock defense or attempt to extract fully",
-        "risk": "If extraction fails midway, you may expose your heel to an inside heel hook as a backup threat"
+        "action": "Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Aoki Lock Control/Bottom",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot."
       },
       {
-        "action": "Sit up aggressively and drive forward to collapse the attacker's hip extension and break the figure-four structure",
-        "when_to_use": "When the figure-four is partially locked but full compression has not yet engaged — forward pressure disrupts the hip mechanics that drive the lock",
-        "targets_outcome": "Aoki Lock Control/Top",
-        "if_successful": "Breaks the figure-four configuration and lets you re-establish position or begin a full escape",
-        "risk": "If the attacker maintains the lock during your sit-up, closing distance can drive your own foot deeper into compression"
+        "action": "Hand fight and recover foot position before the attacker connects around the foot.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Aoki Lock Control/Bottom",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot."
       },
       {
-        "action": "Roll toward the trapped leg following the entanglement to create a scramble and recover guard",
-        "when_to_use": "Early in the finish attempt before compression becomes dangerous, when the figure-four has any looseness",
-        "targets_outcome": "Closed Guard/Bottom",
-        "if_successful": "Relieves compression and creates a path to closed guard recovery or scramble position",
-        "risk": "If the attacker follows the roll effectively, the rotation can seat the foot deeper and tighten the compression"
+        "action": "Do not rotate the torso independently of a captured foot and knee.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Ashi Garami/Bottom",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot."
       },
       {
-        "action": "Tap immediately when compression reaches a dangerous threshold",
-        "when_to_use": "When you feel sharp pain in the ankle, Achilles, or shin, cannot dorsiflex or extract the foot, or compression is increasing with no escape path available",
-        "targets_outcome": "game-over",
-        "if_successful": "Prevents serious lower-leg injury including Achilles rupture, ankle ligament damage, and calf tears",
-        "risk": "None — tapping is always the correct decision when injury is imminent"
+        "action": "Create slack in the hand and hip controls before withdrawing the leg.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Aoki Lock Control/Bottom",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Use capture-and-release practice without finishing rotation. Pain is not a reliable warning margin for a secured rotational lock; neither partner should spin against a fixed foot."
       }
     ],
     "escape_paths": [
-      "Extract the foot through dorsiflexion, internal hip rotation, and a knee-to-chest pull before the figure-four locks, returning to neutral entanglement control",
-      "Sit up and posture forward to collapse the attacker's hip extension, breaking the figure-four structure before compression engages",
-      "Roll toward the trapped leg following the entanglement to create a scramble and recover closed guard when the loop loosens"
+      "Hand fight and recover foot position before the attacker connects around the foot.",
+      "Do not rotate the torso independently of a captured foot and knee."
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Closed Guard/Bottom",
-        "how": "Time your roll toward the trapped leg to coincide with the attacker's pressure adjustment. Use their forward pressure to assist the roll, extracting your foot as the figure-four loosens during the positional change, then immediately close your guard to prevent re-attack."
+        "outcome": "Ashi Garami/Bottom",
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock."
       },
       {
-        "outcome": "Aoki Lock Control/Top",
-        "how": "Disrupt the attacker's hip extension by sitting up and posturing forward while working foot extraction. If successful, you collapse the figure-four and return to the neutral entanglement without active compression, giving you time to execute a more complete escape sequence."
+        "outcome": "Aoki Lock Control/Bottom",
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Hand fight and recover foot position before the attacker connects around the foot."
       }
     ],
     "common_errors": [
       {
-        "error": "Pulling the trapped leg straight back against the figure-four configuration",
-        "consequence": "Straight pulling tightens the loop and drives the foot deeper into the compression pocket, accelerating the submission and increasing injury risk to the ankle and shin",
-        "correction": "Use circular internal hip rotation and a knee-to-chest curl to collapse the figure-four rather than linear pulling, addressing the closed-loop mechanics directly"
+        "error": "Skipping the checkpoint: recognize rotation",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.",
+        "correction": "Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock."
       },
       {
-        "error": "Attempting standard heel-hook defense (boot defense, knee rotation) against the compression mechanics",
-        "consequence": "Boot defense and knee rotation address rotational force, not compression and plantar flexion — they waste the critical defense window while the figure-four is being secured",
-        "correction": "Focus on dorsiflexion, foot extraction, and collapsing the attacker's hip extension rather than rotation-based heel-hook defenses"
+        "error": "Skipping the checkpoint: deny the enclosure",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Hand fight and recover foot position before the attacker connects around the foot.",
+        "correction": "Hand fight and recover foot position before the attacker connects around the foot."
       },
       {
-        "error": "Remaining static and defensive without active escape attempts hoping the attacker releases",
-        "consequence": "Allows the attacker time to seat the foot, perfect the compression angle, and finish at their pace",
-        "correction": "Move immediately upon recognizing the position — create continuous movement toward escape. Static defense is losing defense against this submission."
-      },
-      {
-        "error": "Defending beyond safe ankle and Achilles range to avoid tapping",
-        "consequence": "Serious lower-leg injury including Achilles rupture, ankle ligament damage, or calf tear with 6-16 week recovery",
-        "correction": "Tap early when compression reaches your discomfort threshold. The multi-structure attack means there is no safe threshold to fight through — no round or match is worth an Achilles reconstruction."
+        "error": "Skipping the checkpoint: keep the leg aligned",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Do not rotate the torso independently of a captured foot and knee.",
+        "correction": "Do not rotate the torso independently of a captured foot and knee."
       }
     ],
     "flashcards": [
       {
-        "question": "How do you recognize the Aoki Lock finish is being initiated from Aoki Lock control?",
-        "answer": "Key recognition cues include the opponent weaving their legs into a figure-four around your lower leg, increasing squeezing compression on your shin and calf rather than a twist on your knee, your foot being guided into plantar flexion and seated deeper into a pocket, and the opponent extending and elevating their hips while keeping the entanglement tight. The transition from control to finish is marked by progressive compression increase rather than a sudden change.",
-        "safety_critical": false,
-        "answer_line": "Compression builds on shin & calf",
+        "question": "Aoki from Control defense: what warns you that a straight-ankle response may be inadequate?",
+        "answer": "Your outward-turned foot is enclosed by their upper body. Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.",
+        "answer_line": "Turned-out foot clamped to the torso",
         "distractors": {
           "plausible": [
-            "Twisting torque on your knee",
-            "Foot forced into dorsiflexion"
+            "Forearm touches only mid-calf",
+            "Ankle free beyond a loose elbow"
           ],
           "trap": [
-            "Feels mild — ride it out and wait"
+            "Hands on shin without foot contact"
           ]
         }
       },
       {
-        "question": "When should you tap to the Aoki Lock finish rather than continuing to defend?",
-        "answer": "Tap immediately when you feel sharp pain in the ankle, Achilles, or shin, when you can no longer dorsiflex or extract your foot, when compression reaches uncomfortable levels, or when the attacker's pressure is increasing and you have no viable escape path. Aoki Lock injuries include Achilles rupture, ankle ligament damage, and calf tears — none is worth continuing defense in training or competition, and damage accumulates faster than pain signals register.",
-        "safety_critical": true,
-        "answer_line": "Tap on sharp pain or trapped foot",
+        "question": "Aoki from Control defense: before their grip closes, what should you contest?",
+        "answer": "The arm wrapping your foot while recovering its position. Hand fight and recover foot position before the attacker connects around the foot.",
+        "answer_line": "The wrapping arm; recover your foot",
         "distractors": {
           "plausible": [
-            "Tap the moment they catch the foot",
-            "Tap only after both escapes fail"
+            "Their far ankle, your foot offered",
+            "Free knee, trapped leg pushed in"
           ],
           "trap": [
-            "Rip your foot out explosively"
+            "The mat behind you with both hands"
           ]
         }
       },
       {
-        "question": "What defensive options are available against the Aoki Lock finish from Aoki Lock control?",
-        "answer": "Primary options are extracting the foot through dorsiflexion and internal hip rotation before the figure-four locks, sitting up and posturing forward to collapse the attacker's hip extension, and rolling toward the trapped leg to create a scramble when the loop loosens. The critical principle is addressing the figure-four and foot trap before anything else, and using circular hip movement rather than pulling the leg straight back, which only tightens the lock.",
-        "safety_critical": false,
-        "answer_line": "Extract foot, posture up, roll in",
+        "question": "Aoki from Control defense: why avoid turning your torso against a foot that remains fixed?",
+        "answer": "The turn can transfer load into the captured knee. Keep the torso from rotating independently of a foot and leg that remain restrained; have the full enclosure released before turning away.",
+        "answer_line": "The turn can load the trapped knee",
         "distractors": {
           "plausible": [
-            "Hand-fight their upper-body grips",
-            "Wait for the loop to loosen"
+            "It only tightens their forearm",
+            "The grip always follows harmlessly"
           ],
           "trap": [
-            "Pull the trapped leg straight back"
+            "The foot turns freely in the clamp"
           ]
         }
       },
       {
-        "question": "Why is pulling your leg straight back dangerous when defending the Aoki Lock finish?",
-        "answer": "Pulling the trapped leg straight back tightens the figure-four configuration and drives your foot deeper into the compression pocket rather than relieving it. The closed loop acts as a one-way ratchet, so linear pulling seats the foot into deeper plantar flexion and accelerates the crush on the shin, calf, and Achilles. Always use circular internal hip rotation and a knee-to-chest curl to collapse the loop instead.",
-        "safety_critical": true,
-        "answer_line": "It ratchets your foot in deeper",
+        "question": "Aoki from Control defense: how does Kesting protect the outside foot while holding standard ashi?",
+        "answer": "Keep the inside knee close to that outside foot. His preventive detail closes access to the outside foot before an Aoki grip is established. It is not an escape to apply after the foot is already locked.",
+        "answer_line": "Keep inside knee near outside foot",
         "distractors": {
           "plausible": [
-            "It just wastes your energy",
-            "It exposes your knee to a kneebar"
+            "Spread knees, expose the hip post",
+            "Turn toes away, leaving knee open"
           ],
           "trap": [
-            "Nothing — yank harder to rip free"
+            "Extend the post across their torso"
           ]
         }
       },
       {
-        "question": "Your opponent adjusts their hip position during the finish — how do you capitalize?",
-        "answer": "Attack the moment of instability by sitting up and driving forward to collapse their hip extension before they re-establish it. Time your foot-extraction attempt to coincide with the adjustment, since the figure-four often loosens during repositioning. Use their momentary instability to create internal hip rotation and pull the knee to your chest. This is typically your best window for a successful escape attempt.",
-        "safety_critical": false,
-        "answer_line": "Sit up, drive forward, extract foot",
+        "question": "Aoki from Control defense: what is the problem with testing a secure lock for remaining movement?",
+        "answer": "Joint load may rise before pain provides a warning. Stop at a secure rotational capture rather than testing whether the joint still tolerates movement.",
+        "answer_line": "Joint load can precede the warning",
         "distractors": {
           "plausible": [
-            "Wait for a bigger opening later",
-            "Match their hip movement passively"
+            "Bent knees make rotation harmless",
+            "Only straight toes permit the lock"
           ],
           "trap": [
-            "Pull the trapped leg straight back"
+            "A painless foot cannot load a knee"
           ]
         }
       },
       {
-        "question": "How should you manage your energy when defending the Aoki Lock finish over an extended period?",
-        "answer": "Avoid fighting the compression with constant maximum tension, which exhausts you within seconds against leg-based squeezing. Focus on efficient movement patterns and time your escape attempts to coincide with the attacker's adjustments or pressure changes rather than fighting continuously. Maintain dorsiflexion to slow the lock, accept that some compression is inevitable, and conserve energy for explosive extraction attempts at the specific moments when the figure-four loosens.",
-        "safety_critical": false,
-        "answer_line": "Time escapes to their adjustments",
+        "question": "Aoki from Control defense: what should be free before you stand or turn after release?",
+        "answer": "The entire foot enclosure and leg restraint. Wait for the entire enclosure to open before standing, turning, or restarting the exchange.",
+        "answer_line": "The foot clamp and leg restraint",
         "distractors": {
           "plausible": [
-            "Escape only after they tighten",
-            "Hold dorsiflexion and nothing else"
+            "Toes only, with heel still clamped",
+            "Hip only, foot beneath their arm"
           ],
           "trap": [
-            "Thrash at full power until you gas"
+            "Only one hand of the linked grip"
           ]
-        }
+        },
+        "safety_critical": true
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition and Safety",
-        "focus": "Identifying the finish attempt and developing tap awareness",
-        "description": "Partner establishes the Aoki Lock and applies very slow progressive compression at 30% intensity. Practice recognizing the transition from control to active finish, identifying your personal ankle and Achilles safety threshold, and tapping promptly with clear signals. Build confidence in early tap recognition."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on recognize rotation. Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 2: Escape Mechanics",
-        "focus": "Drilling individual escape techniques with a cooperative partner",
-        "description": "Practice each escape path individually: foot extraction with dorsiflexion and internal hip rotation, sit-up to collapse the hip extension, and rolling toward the trapped leg when the figure-four loosens. Partner maintains position but allows controlled movement. Focus on correct escape direction and circular movement patterns rather than speed or power."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on deny the enclosure. Hand fight and recover foot position before the attacker connects around the foot. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 3: Defensive Flow",
-        "focus": "Chaining defensive options against increasing resistance",
-        "description": "Partner provides 50-70% resistance while you chain escape attempts together. When one escape is blocked, flow immediately to the next option. Develop the habit of continuous defensive movement rather than committing entirely to a single escape attempt, while maintaining dorsiflexion throughout."
-      },
-      {
-        "phase": "Phase 4: Live Defense",
-        "focus": "Full-resistance situational sparring from Aoki Lock bottom",
-        "description": "Start in Aoki Lock bottom position with the partner at full resistance. Practice reading their finishing attempts in real time, selecting appropriate defensive responses, and executing escapes under pressure. Two-minute rounds with position reset and emphasis on surviving without injury."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on keep the leg aligned. Do not rotate the torso independently of a captured foot and knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "clips": [

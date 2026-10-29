@@ -21,37 +21,37 @@ description: "Defend against Matrix back take attempts from top position. Strate
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl Defense",
-      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Top",
-      "text": "From this position, attempt Back Take from Top. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Darce from Turtle",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce from Turtle",
-      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Guillotine from Turtle",
+      "text": "From this position, attempt Guillotine from Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,35 +165,12 @@ description: "Defend against Matrix back take attempts from top position. Strate
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg drag to rolling back take",
-      "description": "Matrix (Top) film study: Leg drag to rolling back take, taught by Grapple Box.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8DG2hn0xxMI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8DG2hn0xxMI",
-      "url": "https://www.youtube.com/watch?v=8DG2hn0xxMI",
-      "creator": { "@type": "Person", "name": "Grapple Box" },
-      "duration": "PT18S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rolling back take from turtle",
-      "description": "Matrix (Top) film study: Rolling back take from turtle, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oijKoS9siS4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oijKoS9siS4",
-      "url": "https://www.youtube.com/watch?v=oijKoS9siS4",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT41S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guard passing to rolling back take",
-      "description": "Matrix (Top) film study: Guard passing to rolling back take, taught by James O\u0027Connor.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/W3JU6HAibZE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/W3JU6HAibZE",
-      "url": "https://www.youtube.com/watch?v=W3JU6HAibZE",
-      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
-      "duration": "PT158S"
+      "name": "4. Matrix Defense (Leg Drag Series)",
+      "description": "Matrix (Top) film study: 4. Matrix Defense (Leg Drag Series).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QCEdvqfWZMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QCEdvqfWZMI",
+      "url": "https://www.youtube.com/watch?v=QCEdvqfWZMI",
+      "duration": "PT96S"
     }
   ]
 }
@@ -231,25 +208,9 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=8DG2hn0xxMI)
+![](https://www.youtube.com/watch?v=QCEdvqfWZMI)
 
-<p class="clip-credit"><strong>Leg drag to rolling back take</strong> — taught by Grapple Box · 0:18 · <a href="https://www.youtube.com/watch?v=8DG2hn0xxMI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oijKoS9siS4)
-
-<p class="clip-credit"><strong>Rolling back take from turtle</strong> — taught by JiuJitsu.com · 0:41 · <a href="https://www.youtube.com/watch?v=oijKoS9siS4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=W3JU6HAibZE)
-
-<p class="clip-credit"><strong>Guard passing to rolling back take</strong> — taught by James O&#39;Connor · 2:38 · <a href="https://www.youtube.com/watch?v=W3JU6HAibZE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4. Matrix Defense (Leg Drag Series)</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=QCEdvqfWZMI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -320,7 +281,7 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 **Matrix rotation blocked successfully, opponent momentarily vulnerable:**
 - Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Matrix to Back Control/Attacker|Matrix to Back Control]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Opponent actively threatening Matrix, defensive posture required:**
@@ -437,7 +398,7 @@ Bottom player is encouraged to attempt Matrix back takes while top player focuse
 - **[[Transitions/Back Step]]** - Counter-attack available when opponent commits to Matrix rotation
 - **[[Transitions/Darce from Turtle]]** - Offensive counter when opponent posts arm for Matrix entry
 - **[[Transitions/Crossface Pass]]** - Pressure passing option after blocking Matrix rotation
-- **[[Transitions/Back Take from Top]]** - Alternative back attack approach when Matrix is defended
+- **[[Transitions/Matrix to Back Control]]** - Alternative back attack approach when Matrix is defended
 - **[[Transitions/Guillotine from Turtle]]** - Submission counter when opponent exposes neck during Matrix setup
 
 

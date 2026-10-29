@@ -21,7 +21,7 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Seat Belt Control Back",
-      "text": "From this position, attempt Rear Naked Choke from Seat Belt Control Back. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Seat Belt Control Back. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
@@ -51,7 +51,7 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,35 +165,24 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Seatbelt Grip Quick Fix",
-      "description": "Seat Belt Control Back (Top) film study: Seatbelt Grip Quick Fix, taught by Ben Kool.",
+      "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
+      "description": "Seat Belt Control Back (Top) film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip, taught by Ben Kool.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
       "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
       "creator": { "@type": "Person", "name": "Ben Kool" },
-      "duration": "PT62S"
+      "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Deep Seatbelt Control",
-      "description": "Seat Belt Control Back (Top) film study: Deep Seatbelt Control, taught by Tom Halpin.",
+      "name": "Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin",
+      "description": "Seat Belt Control Back (Top) film study: Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin, taught by Tom Halpin.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rvh8MFq_tb0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rvh8MFq_tb0",
       "url": "https://www.youtube.com/watch?v=rvh8MFq_tb0",
       "creator": { "@type": "Person", "name": "Tom Halpin" },
       "duration": "PT111S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Application Against a Seated Opponent",
-      "description": "Seat Belt Control Back (Top) film study: Application Against a Seated Opponent, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Es7T1KjTUpI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Es7T1KjTUpI",
-      "url": "https://www.youtube.com/watch?v=Es7T1KjTUpI",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT157S"
     }
   ]
 }
@@ -225,7 +214,7 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ![](https://www.youtube.com/watch?v=MwxnveKrlxU)
 
-<p class="clip-credit"><strong>Seatbelt Grip Quick Fix</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> — taught by Ben Kool · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,15 +222,7 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ![](https://www.youtube.com/watch?v=rvh8MFq_tb0)
 
-<p class="clip-credit"><strong>Deep Seatbelt Control</strong> — taught by Tom Halpin · 1:51 · <a href="https://www.youtube.com/watch?v=rvh8MFq_tb0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Es7T1KjTUpI)
-
-<p class="clip-credit"><strong>Application Against a Seated Opponent</strong> — taught by John Danaher · 2:37 · <a href="https://www.youtube.com/watch?v=Es7T1KjTUpI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin</strong> — taught by Tom Halpin · 1:51 · <a href="https://www.youtube.com/watch?v=rvh8MFq_tb0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -324,7 +305,6 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 **If opponent turns away and attempts to remove bottom hook by hip movement:**
 - Execute **[[Submissions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
 
 
 
@@ -461,8 +441,8 @@ Start from turtle position. Practice taking back, establishing seat belt control
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni: Turtle Breakdowns and Back Attacks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

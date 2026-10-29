@@ -36,50 +36,6 @@ description: "Master lapel guard in BJJ with comprehensive strategies for contro
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Lapel Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Lapel Guard Encyclopedia Teaser",
-      "description": "Lapel Guard film study: Lapel Guard Encyclopedia Teaser, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AL0k21Zdk5s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AL0k21Zdk5s",
-      "url": "https://www.youtube.com/watch?v=AL0k21Zdk5s",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Worm Guard to Back Choke",
-      "description": "Lapel Guard film study: Worm Guard to Back Choke, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
-      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lapel Guard Takedown Breakdown",
-      "description": "Lapel Guard film study: Lapel Guard Takedown Breakdown, taught by Legion AJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_iV0LtOiXNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_iV0LtOiXNY",
-      "url": "https://www.youtube.com/watch?v=_iV0LtOiXNY",
-      "creator": { "@type": "Person", "name": "Legion AJJ" },
-      "duration": "PT64S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -121,40 +77,6 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Lapel Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AL0k21Zdk5s)
-
-<p class="clip-credit"><strong>Lapel Guard Encyclopedia Teaser</strong> — taught by Keenan Cornelius · 0:44 · <a href="https://www.youtube.com/watch?v=AL0k21Zdk5s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ARmiJRANTpg)
-
-<p class="clip-credit"><strong>Worm Guard to Back Choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_iV0LtOiXNY)
-
-<p class="clip-credit"><strong>Lapel Guard Takedown Breakdown</strong> — taught by Legion AJJ · 1:04 · <a href="https://www.youtube.com/watch?v=_iV0LtOiXNY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -391,7 +313,7 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Lapel Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Lapel Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position: Lapel Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

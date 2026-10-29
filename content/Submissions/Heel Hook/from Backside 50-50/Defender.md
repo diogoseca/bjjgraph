@@ -61,7 +61,7 @@ description: "Complete defensive guide against the heel hook from Backside 50-50
       "name": "What is the earliest cue that the bottom player is about to attempt a heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest cue is the reduction or removal of frame pressure against your chest or hips. Before any heel hook attempt, the bottom player must redirect at least one hand from defensive framing to offensive gripping. You feel this as a sudden lightening of the resistance against your forward pressure. This reduction in frame strength precedes the actual heel contact by one to two seconds and is your primary early warning signal to proactively boot your heel and prepare defensive response."
+        "text": "Notice the opponent's hands leaving the controlling foot or leg to reach toward your heel or ankle. Protect your exposed foot while preserving the knee-line clamp. Respond to the developing grip before it is secured."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "Complete defensive guide against the heel hook from Backside 50-50
       "name": "What is the defensive benefit of maintaining constant forward pressure from Backside 50-50 top?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Constant forward chest pressure limits the bottom player's ability to create the hip angle and body rotation needed to configure effective heel hook finishing mechanics. It keeps their spine compressed against the mat, restricting the posterior chain arch that generates finishing force. It also keeps your own body close to theirs, making heel access more difficult because the angle of approach is compressed. The pressure also mentally occupies the bottom player with defensive priorities, reducing their bandwidth for identifying and exploiting heel hook timing windows. Maintaining pressure is simultaneously offense for you and defense against their heel hook."
+        "text": "Constant forward knee-line control limits the bottom player's ability to create the hip angle and body rotation needed to configure effective heel hook finishing mechanics. It keeps their spine compressed against the mat, restricting the posterior chain arch that generates finishing force. It also keeps your own body close to theirs, making heel access more difficult because the angle of approach is compressed. The pressure also mentally occupies the bottom player with defensive priorities, reducing their bandwidth for identifying and exploiting heel hook timing windows. Maintaining pressure is simultaneously offense for you and defense against their heel hook."
       }
     }
   ]
@@ -152,78 +152,19 @@ description: "Complete defensive guide against the heel hook from Backside 50-50
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Heel Hook from Backside 50-50 (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Roll under escape to backside 50/50",
-      "description": "Heel Hook from Backside 50-50 (Defender) film study: Roll under escape to backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to escape and counter the backside 50/50",
-      "description": "Heel Hook from Backside 50-50 (Defender) film study: How to escape and counter the backside 50/50, taught by Matrix Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RTzSOGlxSWg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RTzSOGlxSWg",
-      "url": "https://www.youtube.com/watch?v=RTzSOGlxSWg",
-      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
-      "duration": "PT240S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-Defending the heel hook from Backside 50-50 top requires recognizing the attack early and responding with decisive action before the bottom player can establish full finishing mechanics. As the top player, you hold significant positional advantages through chest-to-back pressure and superior visibility, but you must remain vigilant about your heel exposure, particularly during your own offensive transitions when your defensive awareness drops. The most dangerous moment is precisely when you shift focus to attack, because this is when the bottom player strikes at the opening. Your defense begins with prevention through proper heel positioning and constant awareness, escalates to immediate grip fighting if they secure initial contact, and culminates in positional advancement to punish their commitment when the opportunity presents itself.
+Defending the heel hook from Backside 50-50 top requires recognizing the attack early and responding with decisive action before the bottom player can establish full finishing mechanics. As the top player, you hold significant positional advantages through knee-line and hip control and superior visibility, but you must remain vigilant about your heel exposure, particularly during your own offensive transitions when your defensive awareness drops. The most dangerous moment is precisely when you shift focus to attack, because this is when the bottom player strikes at the opening. Your defense begins with prevention through proper heel positioning and constant awareness, escalates to immediate grip fighting if they secure initial contact, and culminates in positional advancement to punish their commitment when the opportunity presents itself.
 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Heel Hook from Backside 50-50 (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll under escape to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RTzSOGlxSWg)
-
-<p class="clip-credit"><strong>How to escape and counter the backside 50/50</strong> — taught by Matrix Jiu Jitsu · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -232,7 +173,7 @@ Defending the heel hook from Backside 50-50 top requires recognizing the attack 
 
 <p class="section-subtitle">How do you know when someone is attempting Heel Hook from Backside 50-50?</p>
 
-- Bottom player's hands release from defensive frames against your chest or hips and redirect downward toward your lower leg or ankle area
+- The turned-away player's hands leave your controlling foot or leg and reach toward your exposed heel or ankle
 - Bottom player's hip angle shifts noticeably as they rotate their body to create access to your heel from underneath the entanglement
 - Forward pressure from bottom player's frames decreases as they redirect energy from maintaining defensive structure to gripping your foot
 - Bottom player's knees begin squeezing together around your entangled leg, signaling commitment to clamping your leg for the submission sequence
@@ -301,7 +242,7 @@ Defending the heel hook from Backside 50-50 top requires recognizing the attack 
 
 <p class="section-subtitle">How do you escape Heel Hook from Backside 50-50?</p>
 
-- Boot the heel proactively and strip any initial grip contact before figure-four is established, then re-establish dominant chest-to-back pressure to maintain top control in Backside 50-50
+- Boot the heel proactively and strip any initial grip contact before figure-four is established, then re-establish dominant knee-line and hip control to maintain top control in Backside 50-50
 - Abandon the leg entanglement entirely by walking hips up the opponent's body and transitioning to back control while their hands are committed to the heel hook instead of framing
 - Counter-rotate in the direction of the heel hook to neutralize breaking force, strip the figure-four grip during the rotation, then re-engage with dominant top pressure
 
@@ -320,7 +261,7 @@ Capitalize on opponent's hand commitment to the heel hook by walking your hips u
 
 ### → [[Positions/Ashi Garami/Backside 50-50]]
 
-Defend the heel hook through early recognition, proactive heel booting, and aggressive grip stripping before the figure-four is established. Re-establish dominant chest-to-back pressure immediately after neutralizing the attack to keep opponent pinned in the disadvantaged bottom position. Use the failed attack as an opportunity to increase your pressure and offensive tempo.
+Defend the heel hook through early recognition, proactive heel booting, and aggressive grip stripping before the figure-four is established. Re-establish dominant knee-line and hip control immediately after neutralizing the attack to keep opponent pinned in the disadvantaged bottom position. Use the failed attack as an opportunity to increase your pressure and offensive tempo.
 
 
 

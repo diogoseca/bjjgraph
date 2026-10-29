@@ -46,24 +46,12 @@ description: "Master Ashi Garami maintenance in BJJ. Complete guide to systemati
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "4 ashi foot positions: single leg X, outside ashi, 50/50",
-      "description": "Ashi Garami Maintenance film study: 4 ashi foot positions: single leg X, outside ashi, 50/50, taught by Evo BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eiI_4VBA-qA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eiI_4VBA-qA",
-      "url": "https://www.youtube.com/watch?v=eiI_4VBA-qA",
-      "creator": { "@type": "Person", "name": "Evo BJJ" },
-      "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "De La Riva knee bump entry into ashi garami",
-      "description": "Ashi Garami Maintenance film study: De La Riva knee bump entry into ashi garami, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_4jDUxFg7uU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_4jDUxFg7uU",
-      "url": "https://www.youtube.com/watch?v=_4jDUxFg7uU",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT165S"
+      "name": "Understanding The Leglock Ashi Garami Control",
+      "description": "Ashi Garami Maintenance film study: Understanding The Leglock Ashi Garami Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TfphXCUTdIk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TfphXCUTdIk",
+      "url": "https://www.youtube.com/watch?v=TfphXCUTdIk",
+      "duration": "PT426S"
     }
   ]
 }
@@ -117,17 +105,9 @@ Successful Ashi Garami Maintenance requires simultaneous management of multiple 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eiI_4VBA-qA)
+![](https://www.youtube.com/watch?v=TfphXCUTdIk)
 
-<p class="clip-credit"><strong>4 ashi foot positions: single leg X, outside ashi, 50/50</strong> — taught by Evo BJJ · 2:42 · <a href="https://www.youtube.com/watch?v=eiI_4VBA-qA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_4jDUxFg7uU)
-
-<p class="clip-credit"><strong>De La Riva knee bump entry into ashi garami</strong> — taught by Gordon Ryan · 2:45 · <a href="https://www.youtube.com/watch?v=_4jDUxFg7uU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understanding The Leglock Ashi Garami Control</strong> · 7:06 · <a href="https://www.youtube.com/watch?v=TfphXCUTdIk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -162,35 +162,12 @@ description: "Defend against the Americana from Shoulder of Justice. Recognition
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the Americana",
-      "description": "Americana from Shoulder of Justice (Defender) film study: Defending the Americana, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
-      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escape Americana/key lock from side",
-      "description": "Americana from Shoulder of Justice (Defender) film study: Escape Americana/key lock from side, taught by Chuck Jack.",
+      "name": "Escape americana/key lock from side to chest lock.",
+      "description": "Americana from Shoulder of Justice (Defender) film study: Escape americana/key lock from side to chest lock..",
       "thumbnailUrl": "https://i.ytimg.com/vi/Unz1euhI2y8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Unz1euhI2y8",
       "url": "https://www.youtube.com/watch?v=Unz1euhI2y8",
-      "creator": { "@type": "Person", "name": "Chuck Jack" },
-      "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Ultimate side control escape",
-      "description": "Americana from Shoulder of Justice (Defender) film study: Ultimate side control escape, taught by Pedro Sauer.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NuweBGC8xz8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NuweBGC8xz8",
-      "url": "https://www.youtube.com/watch?v=NuweBGC8xz8",
-      "creator": { "@type": "Person", "name": "Pedro Sauer" },
-      "duration": "PT162S"
+      "duration": "PT71S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Defending the Americana from Shoulder of Justice requires discipline under extre
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=FNyL93v5fGs)
-
-<p class="clip-credit"><strong>Defending the Americana</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Unz1euhI2y8)
 
-<p class="clip-credit"><strong>Escape Americana/key lock from side</strong> — taught by Chuck Jack · 1:12 · <a href="https://www.youtube.com/watch?v=Unz1euhI2y8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NuweBGC8xz8)
-
-<p class="clip-credit"><strong>Ultimate side control escape</strong> — taught by Pedro Sauer · 2:42 · <a href="https://www.youtube.com/watch?v=NuweBGC8xz8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape americana/key lock from side to chest lock.</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=Unz1euhI2y8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

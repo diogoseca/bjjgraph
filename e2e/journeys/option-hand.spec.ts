@@ -93,7 +93,7 @@ test("@curated every legal move is dealt — the hand IS the pool", async ({ pag
   const j = journey(page)
   await j.boot("/")
   const hands = await sweep(page)
-  expect(hands.length, "every distinct position seat was walked").toBe(242) // census:positionChoiceSeats
+  expect(hands.length, "every distinct position seat was walked").toBe(240) // census:positionChoiceSeats
 
   // v1.119.0 asked the weaker question — "did the cap erase a CATEGORY" — because a cap existed
   // and some truncation was accepted. With NG_HAND_CAP gone the invariant is the strongest one
@@ -281,7 +281,8 @@ test("@curated a mid-decision JIT grade moves every number and no card", async (
   const moved = after.find((c: any) => c.t === target)!
   const was = before.find((c: any) => c.t === target)!
   expect(parseInt(moved.odds!, 10), "the drilled card's odds moved").toBeGreaterThan(parseInt(was.odds!, 10))
-  expect(moved.valueLabel, "future win is a separately named model value").toContain("Win chance")
+  // STALE SPEC (v1.230.0, feat/video-cards): the card labels its two numbers "Move %" and "Win %" (U10 a).
+  expect(moved.valueLabel, "future win is a separately named model value").toContain("Win %")
   // Numerical future-value updates and stale-profile rejection use controlled solver replies
   // in choice-value.spec.ts; this legacy fixture exercises the live immediate odds only.
 })
@@ -313,7 +314,7 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
       fbDistinct: new Set(fb).size,
     }
   })
-  expect(wire.n, "the corpus").toBe(290) // census:submissions
+  expect(wire.n, "the corpus").toBe(287) // census:submissions
   expect(wire.uncalibrated, "every submission carries a calibrated rate").toBe(0)
   expect(wire.min, "authored rates run from").toBe(10)
   expect(wire.max, "...to").toBe(74)
@@ -352,8 +353,8 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   const dealt = await subCards()
   expect(dealt.length, "mount top deals submissions").toBeGreaterThan(3)
   expect([...new Set(dealt.map((c: any) => c.label))], "a submission dealt on a position reads Works").toEqual(["Works"])
-  expect(dealt.filter((c: any) => c.odds === "100%"), "and never prints its certain step as a success rate").toEqual([])
-  await expect.poll(async () => (await subCards()).every((c: any) => /^\d+%$/.test(c.odds)),
+  expect(dealt.filter((c: any) => c.odds === "100"), "and never prints its certain step as a success rate").toEqual([])
+  await expect.poll(async () => (await subCards()).every((c: any) => /^\d+$/.test(c.odds)),
     { timeout: 120_000, message: "the follow-up finish chances arrive with the values" }).toBe(true)
   const works = (await subCards()).map((c: any) => parseInt(c.odds, 10))
   expect(works.every((p: number) => p >= 5 && p <= 95), "each inside the finish clamp: " + works).toBe(true)
@@ -384,7 +385,7 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
     await j.advance(4000)
     const card = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
     await expect(card, url + " deals its finish").toHaveCount(1)
-    await expect(card.locator("[data-immediate-label]")).toHaveText("Finish")
+    await expect(card.locator("[data-immediate-label]")).toHaveText("Submit")
     finish[url] = parseInt(((await card.locator(".ngodds").textContent()) || "0").replace("%", ""), 10)
     // the authored rate of the node the app DEALT as the finish (its own option list, not a lookup)
     const live = await page.evaluate(() => {

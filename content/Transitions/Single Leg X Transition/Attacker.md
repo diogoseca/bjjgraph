@@ -4,7 +4,7 @@
 
 ---
 title: "Single Leg X Transition Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Single Leg X Transition in BJJ. Attacking perspective with setup, execution steps, and counters from Grasshopper Guard."
+description: "How to execute Single Leg X Transition in BJJ. Attacking perspective with setup, execution steps, and counters from Inverted Guard."
 ---
 
 
@@ -16,12 +16,12 @@ description: "How to execute Single Leg X Transition in BJJ. Attacking perspecti
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Single Leg X Transition in BJJ",
-  "description": "Step-by-step guide for executing Single Leg X Transition from Grasshopper Guard/Bottom.",
+  "description": "Step-by-step guide for executing Single Leg X Transition from Inverted Guard/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Secure ankle control",
-      "text": "From Grasshopper Guard, establish a firm grip on the opponent's near-side ankle or heel using your same-side hand. This grip prevents them from stepping away and creates the anchor for threading your legs around their limb.",
+      "text": "From Inverted Guard, establish a firm grip on the opponent's near-side ankle or heel using your same-side hand. This grip prevents them from stepping away and creates the anchor for threading your legs around their limb.",
       "position": 1
     },
     {
@@ -68,10 +68,10 @@ description: "How to execute Single Leg X Transition in BJJ. Attacking perspecti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary strategic goal of Single Leg X Transition from Grasshopper Guard?",
+      "name": "What is the primary strategic goal of Single Leg X Transition from Inverted Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to convert the high-energy, low-sustainability Grasshopper Guard into the stable Single Leg X-Guard position. This transition preserves offensive momentum while establishing a platform that offers sweeping opportunities, submission entries to Inside Ashi-Garami or Outside Ashi-Garami, and clear pathways to back takes - all from a position you can maintain for extended periods without the core fatigue of inversion."
+        "text": "The primary goal is to convert the high-energy, low-sustainability Inverted Guard into the stable Single Leg X-Guard position. This transition preserves offensive momentum while establishing a platform that offers sweeping opportunities, submission entries to Inside Ashi-Garami or Outside Ashi-Garami, and clear pathways to back takes - all from a position you can maintain for extended periods without the core fatigue of inversion."
       }
     },
     {
@@ -79,7 +79,7 @@ description: "How to execute Single Leg X Transition in BJJ. Attacking perspecti
       "name": "What position do you start Single Leg X Transition from, and what makes it viable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Grasshopper Guard Bottom, an inverted guard position where your shoulders and upper back contact the mat while your hips remain elevated. The elevated hip positioning and existing leg contact with the opponent's lower body provide the mechanical prerequisites for threading into Single Leg X. The inversion gives you angles that would be impossible from seated guard positions."
+        "text": "This technique starts from Inverted Guard Bottom, an inverted guard position where your shoulders and upper back contact the mat while your hips remain elevated. The elevated hip positioning and existing leg contact with the opponent's lower body provide the mechanical prerequisites for threading into Single Leg X. The inversion gives you angles that would be impossible from seated guard positions."
       }
     },
     {
@@ -124,7 +124,7 @@ description: "How to execute Single Leg X Transition in BJJ. Attacking perspecti
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Single Leg X Transition Attacker",
-  "description": "How to execute Single Leg X Transition in BJJ. Attacking perspective with setup, execution steps, and counters from Grasshopper Guard.",
+  "description": "How to execute Single Leg X Transition in BJJ. Attacking perspective with setup, execution steps, and counters from Inverted Guard.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,102 +170,24 @@ description: "How to execute Single Leg X Transition in BJJ. Attacking perspecti
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Single Leg X Transition (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Single leg X to X guard transition",
-      "description": "Single Leg X Transition (Attacker) film study: Single leg X to X guard transition, taught by Cate BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ufdgy_flsdg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ufdgy_flsdg",
-      "url": "https://www.youtube.com/watch?v=ufdgy_flsdg",
-      "creator": { "@type": "Person", "name": "Cate BJJ" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Getting to backside 50/50 from single leg X",
-      "description": "Single Leg X Transition (Attacker) film study: Getting to backside 50/50 from single leg X, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
-      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT121S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Single leg X transition to X guard sweep",
-      "description": "Single Leg X Transition (Attacker) film study: Single leg X transition to X guard sweep, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aoyScppYR1E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aoyScppYR1E",
-      "url": "https://www.youtube.com/watch?v=aoyScppYR1E",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT160S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The Single Leg X Transition represents a fundamental pathway from inverted guard positions into one of the most versatile leg entanglement platforms in modern grappling. When executed from Grasshopper Guard, this transition capitalizes on the elevated hip positioning and leg control inherent to the inverted posture, converting it into the stable Single Leg X-Guard configuration that offers both sweeping and submission opportunities.
+The Single Leg X Transition represents a fundamental pathway from inverted guard positions into one of the most versatile leg entanglement platforms in modern grappling. When executed from Inverted Guard, this transition capitalizes on the elevated hip positioning and leg control inherent to the inverted posture, converting it into the stable Single Leg X-Guard configuration that offers both sweeping and submission opportunities.
 
-The mechanical essence of this transition involves threading your outside leg around the opponent's trapped leg while simultaneously positioning your inside foot on their hip. This creates the characteristic X-shape that gives the position its name - your legs cross behind their thigh while your hip remains tight against their leg. The transition preserves the offensive momentum from Grasshopper Guard while establishing a more sustainable control position.
+The mechanical essence of this transition involves threading your outside leg around the opponent's trapped leg while simultaneously positioning your inside foot on their hip. This creates the characteristic X-shape that gives the position its name - your legs cross behind their thigh while your hip remains tight against their leg. The transition preserves the offensive momentum from Inverted Guard while establishing a more sustainable control position.
 
-Strategically, the Single Leg X Transition serves as a crucial link in the leg entanglement game. From Grasshopper Guard, you have elevation but limited sustainability. Single Leg X-Guard provides that missing sustainability while maintaining sweep threats and offering clear pathways to heel hooks, ankle locks, and back takes. The transition is particularly effective when the opponent attempts to pressure forward or narrow their base, as their commitment creates the angle needed for successful entry.
+Strategically, the Single Leg X Transition serves as a crucial link in the leg entanglement game. From Inverted Guard, you have elevation but limited sustainability. Single Leg X-Guard provides that missing sustainability while maintaining sweep threats and offering clear pathways to heel hooks, ankle locks, and back takes. The transition is particularly effective when the opponent attempts to pressure forward or narrow their base, as their commitment creates the angle needed for successful entry.
 
 The timing window for this transition typically opens when the opponent shifts their weight toward your trapped leg or attempts to step over your guard. Their forward pressure actually assists the entry by loading weight onto the leg you're attacking. Advanced practitioners learn to bait this pressure through feinting other attacks, then capitalizing on the reaction to secure the transition.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Single Leg X Transition (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ufdgy_flsdg)
-
-<p class="clip-credit"><strong>Single leg X to X guard transition</strong> — taught by Cate BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=ufdgy_flsdg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
-
-<p class="clip-credit"><strong>Getting to backside 50/50 from single leg X</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aoyScppYR1E)
-
-<p class="clip-credit"><strong>Single leg X transition to X guard sweep</strong> — taught by BJJ4Breakfast · 2:40 · <a href="https://www.youtube.com/watch?v=aoyScppYR1E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -291,7 +213,7 @@ The timing window for this transition typically opens when the opponent shifts t
 
 <p class="section-subtitle">What do you need before attempting Single Leg X Transition?</p>
 
-- Established Grasshopper Guard position with elevated hips and shoulder-based stability
+- Established Inverted Guard position with elevated hips and shoulder-based stability
 - At least one leg maintaining active engagement with opponent's lower body
 - Opponent standing or in combat base with at least one leg within threading range
 - Sufficient core strength to maintain inversion during the leg threading motion
@@ -307,7 +229,7 @@ The timing window for this transition typically opens when the opponent shifts t
 
 <p class="section-subtitle">How do you execute Single Leg X Transition step by step?</p>
 
-1. **Secure ankle control**: From Grasshopper Guard, establish a firm grip on the opponent's near-side ankle or heel using your same-side hand. This grip prevents them from stepping away and creates the anchor for threading your legs around their limb.
+1. **Secure ankle control**: From Inverted Guard, establish a firm grip on the opponent's near-side ankle or heel using your same-side hand. This grip prevents them from stepping away and creates the anchor for threading your legs around their limb.
 2. **Thread outside leg**: Shoot your outside leg (the one furthest from their controlled leg) around and behind their trapped leg, aiming to hook behind their knee. Your calf should make contact with their hamstring as you spiral your leg around.
 3. **Position hip connection**: Pull your hips tight against opponent's trapped leg by contracting your core and pulling with the ankle grip. Your hip bone should be pressing firmly against the back of their thigh, eliminating any space between your body and their leg.
 4. **Establish hip foot**: Place your inside foot (same side as the trapped leg) firmly on opponent's far hip. The ball of your foot creates a pushing point that controls their posture and prevents them from stepping over or around your guard.
@@ -324,7 +246,7 @@ The timing window for this transition typically opens when the opponent shifts t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
-| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
 | Counter | [[Positions/Side Control]] | 15% |
 
 
@@ -336,9 +258,9 @@ The timing window for this transition typically opens when the opponent shifts t
 
 <p class="section-subtitle">How might your opponent counter Single Leg X Transition?</p>
 
-- **Opponent sprawls and drives hips back immediately upon recognizing the entry attempt** (Effectiveness: High) - Your Response: Anticipate the sprawl and use their backward momentum to come up into a technical standup or follow with Reverse De La Riva recovery → Leads to [[Positions/Grasshopper Guard]]
-- **Opponent posts hands on your hips and creates distance before the leg can thread completely** (Effectiveness: Medium) - Your Response: Switch to X-Guard entry by shooting both legs to their hips, or disengage to Butterfly Guard to reset the attack → Leads to [[Positions/Grasshopper Guard]]
-- **Opponent steps their targeted leg backward and circles away from the entanglement** (Effectiveness: Medium) - Your Response: Follow with continuous inversion and roll toward them, transitioning to Outside Ashi-Garami on their retreating leg → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent sprawls and drives hips back immediately upon recognizing the entry attempt** (Effectiveness: High) - Your Response: Anticipate the sprawl and use their backward momentum to come up into a technical standup or follow with Reverse De La Riva recovery → Leads to [[Positions/Inverted Guard]]
+- **Opponent posts hands on your hips and creates distance before the leg can thread completely** (Effectiveness: Medium) - Your Response: Switch to X-Guard entry by shooting both legs to their hips, or disengage to Butterfly Guard to reset the attack → Leads to [[Positions/Inverted Guard]]
+- **Opponent steps their targeted leg backward and circles away from the entanglement** (Effectiveness: Medium) - Your Response: Follow with continuous inversion and roll toward them, transitioning to Outside Ashi-Garami on their retreating leg → Leads to [[Positions/Inverted Guard]]
 - **Opponent drops their knee to the mat and drives a smash pass through your guard** (Effectiveness: Low) - Your Response: Use their committed knee position to complete the entry - their knee drop actually assists the leg threading motion and exposes them to the X configuration → Leads to [[Positions/Side Control]]
 
 
@@ -386,13 +308,13 @@ The timing window for this transition typically opens when the opponent shifts t
 <p class="section-subtitle">How do you train Single Leg X Transition (Attacker)?</p>
 
 **Week 1-2** - Entry mechanics
-Drill the basic motion from static Grasshopper Guard position. Partner remains stationary while you practice ankle grip establishment, leg threading sequence, and X configuration. Focus on smoothness and proper hip positioning without resistance.
+Drill the basic motion from static Inverted Guard position. Partner remains stationary while you practice ankle grip establishment, leg threading sequence, and X configuration. Focus on smoothness and proper hip positioning without resistance.
 
 **Week 3-4** - Timing recognition
 Partner begins adding light movement - stepping, shifting weight, attempting to disengage. Practice recognizing the timing windows when their weight shifts forward or they narrow their base. Emphasis on entering during opponent's movement rather than forcing against resistance.
 
 **Week 5-6** - Chain attacks
-Integrate the transition into attack sequences. Practice flowing from Grasshopper Guard to Single Leg X, then immediately threatening sweeps or submission entries. Partner provides moderate resistance and begins using basic counters. Develop ability to adjust when initial entry is blocked.
+Integrate the transition into attack sequences. Practice flowing from Inverted Guard to Single Leg X, then immediately threatening sweeps or submission entries. Partner provides moderate resistance and begins using basic counters. Develop ability to adjust when initial entry is blocked.
 
 **Week 7+** - Live application
 Apply transition in live rolling situations with full resistance. Focus on creating the entry opportunities through feints and pressure, then executing under competition-like conditions. Analyze failures to refine timing and technique selection.

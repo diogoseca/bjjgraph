@@ -21,37 +21,37 @@ description: "Master Ushiro Kesa Gatame Top in BJJ. Complete guide covering cont
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Ushiro Kesa Gatame",
-      "text": "From this position, attempt Kimura from Ushiro Kesa Gatame. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Ushiro Kesa Gatame. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Ushiro Kesa Gatame",
-      "text": "From this position, attempt Americana from Ushiro Kesa Gatame. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Ushiro Kesa Gatame. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Ushiro Kesa Gatame",
-      "text": "From this position, attempt Arm Triangle from Ushiro Kesa Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Ushiro Kesa Gatame. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Ushiro Kesa Gatame to North-South",
+      "text": "From this position, attempt Ushiro Kesa Gatame to North-South. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -166,24 +166,22 @@ description: "Master Ushiro Kesa Gatame Top in BJJ. Complete guide covering cont
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse Kesa Leg Submission",
-      "description": "Ushiro Kesa Gatame (Top) film study: Reverse Kesa Leg Submission, taught by dogtownman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n-kEfODDUPM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n-kEfODDUPM",
-      "url": "https://www.youtube.com/watch?v=n-kEfODDUPM",
-      "creator": { "@type": "Person", "name": "dogtownman" },
-      "duration": "PT130S"
+      "name": "\u5f8c\u8888\u88df\u56fa /  Ushiro-kesa-gatame",
+      "description": "Ushiro Kesa Gatame (Top) film study: \u5f8c\u8888\u88df\u56fa /  Ushiro-kesa-gatame.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SBapox2M2dE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SBapox2M2dE",
+      "url": "https://www.youtube.com/watch?v=SBapox2M2dE",
+      "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kimura Setup from Ushiro Kesa Gatame",
-      "description": "Ushiro Kesa Gatame (Top) film study: Kimura Setup from Ushiro Kesa Gatame, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RYo2TWEnOiY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RYo2TWEnOiY",
-      "url": "https://www.youtube.com/watch?v=RYo2TWEnOiY",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT234S"
+      "name": "JUDO - One minute clinic - Ushiro Kesa Gatame",
+      "description": "Ushiro Kesa Gatame (Top) film study: JUDO - One minute clinic - Ushiro Kesa Gatame.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4EcIrvgi9q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4EcIrvgi9q4",
+      "url": "https://www.youtube.com/watch?v=4EcIrvgi9q4",
+      "duration": "PT60S"
     }
   ]
 }
@@ -212,17 +210,17 @@ Ushiro Kesa Gatame Top is a dominant pinning position where the top practitioner
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=n-kEfODDUPM)
+![](https://www.youtube.com/watch?v=SBapox2M2dE)
 
-<p class="clip-credit"><strong>Reverse Kesa Leg Submission</strong> — taught by dogtownman · 2:10 · <a href="https://www.youtube.com/watch?v=n-kEfODDUPM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>後袈裟固 /  Ushiro-kesa-gatame</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=SBapox2M2dE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=RYo2TWEnOiY)
+![](https://www.youtube.com/watch?v=4EcIrvgi9q4)
 
-<p class="clip-credit"><strong>Kimura Setup from Ushiro Kesa Gatame</strong> — taught by BJJ4Breakfast · 3:54 · <a href="https://www.youtube.com/watch?v=RYo2TWEnOiY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>JUDO - One minute clinic - Ushiro Kesa Gatame</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=4EcIrvgi9q4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -300,7 +298,6 @@ Ushiro Kesa Gatame Top is a dominant pinning position where the top practitioner
 
 
 **If opponent turns into you exposing their back:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 

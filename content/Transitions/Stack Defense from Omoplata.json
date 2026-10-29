@@ -357,35 +357,7 @@
       }
     ],
     "safety_considerations": "Stack defense from omoplata involves managing significant compressive forces on your spine and neck. Never fight the stack with your neck—always redirect with hip movement. If you feel excessive pressure on your cervical spine, release the omoplata and recover guard rather than risking neck injury. During training, the stacking partner should apply gradual pressure rather than explosive drives to allow the defending partner time to execute proper defensive mechanics. Both partners should communicate clearly about pressure levels and tap immediately if discomfort occurs in the shoulder, neck, or spine.",
-    "clips": [
-      {
-        "id": "jKdERMTQqPY",
-        "title": "Escaping a locked-in omoplata by stacking",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 72,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "UaZdeo4ro3E",
-        "title": "Highly effective omoplata escape",
-        "by": "Queixinho",
-        "vertical": false,
-        "channel": "Quiexinho Online Ares BJJ Goodyear",
-        "duration": 141,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Swa-hGf7EDI",
-        "title": "Escaping the omoplata off an armbar escape",
-        "by": "AMS MMA coach",
-        "vertical": false,
-        "channel": "AMS MMA",
-        "duration": 47,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Stack Defense from Omoplata Defender",
@@ -571,25 +543,6 @@
         "description": "Positional sparring starting in omoplata control with you as the person being controlled. Attempt various escapes including the stack while partner uses full defensive options. Develop the ability to read defensive reactions in real time and adapt your escape strategy accordingly. Focus on energy efficiency and decisive escape attempts."
       }
     ],
-    "clips": [
-      {
-        "id": "gyynua1XBj8",
-        "title": "Omoplata finishes vs the opponent's half roll",
-        "by": "Andris Brunovskis",
-        "vertical": false,
-        "channel": "The Grapplers Guide by Jason Scully",
-        "duration": 177,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LDZRIUjMUeE",
-        "title": "Omoplata stack finish and the stacking counter",
-        "by": "Wilson Bros. Grappling",
-        "vertical": false,
-        "channel": "Wilson Bros. Grappling",
-        "duration": 62,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

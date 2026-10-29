@@ -46,35 +46,22 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Deashi harai foot sweep",
-      "description": "Deashi Harai film study: Deashi harai foot sweep, taught by B King.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9pUI4_Nrg9Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9pUI4_Nrg9Q",
-      "url": "https://www.youtube.com/watch?v=9pUI4_Nrg9Q",
-      "creator": { "@type": "Person", "name": "B King" },
-      "duration": "PT39S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "De ashi harai foot sweep on Giancarlo Bodoni",
-      "description": "Deashi Harai film study: De ashi harai foot sweep on Giancarlo Bodoni, taught by John Danaher.",
+      "name": "John Danaher Shows a Beautiful Foot Sweep on Giancarlo Bodoni! (De Ashi Harai)",
+      "description": "Deashi Harai film study: John Danaher Shows a Beautiful Foot Sweep on Giancarlo Bodoni! (De Ashi Harai).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ckv5xkIoWUk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ckv5xkIoWUk",
       "url": "https://www.youtube.com/watch?v=Ckv5xkIoWUk",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT34S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Textbook foot sweep",
-      "description": "Deashi Harai film study: Textbook foot sweep, taught by Grappler Kingdom.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rU6zeS9abRc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rU6zeS9abRc",
-      "url": "https://www.youtube.com/watch?v=rU6zeS9abRc",
-      "creator": { "@type": "Person", "name": "Grappler Kingdom" },
-      "duration": "PT48S"
+      "position": 2,
+      "name": "Deashi Harai Foot Sweep",
+      "description": "Deashi Harai film study: Deashi Harai Foot Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9pUI4_Nrg9Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9pUI4_Nrg9Q",
+      "url": "https://www.youtube.com/watch?v=9pUI4_Nrg9Q",
+      "duration": "PT38S"
     }
   ]
 }
@@ -128,25 +115,17 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9pUI4_Nrg9Q)
-
-<p class="clip-credit"><strong>Deashi harai foot sweep</strong> — taught by B King · 0:39 · <a href="https://www.youtube.com/watch?v=9pUI4_Nrg9Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Ckv5xkIoWUk)
 
-<p class="clip-credit"><strong>De ashi harai foot sweep on Giancarlo Bodoni</strong> — taught by John Danaher · 0:34 · <a href="https://www.youtube.com/watch?v=Ckv5xkIoWUk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>John Danaher Shows a Beautiful Foot Sweep on Giancarlo Bodoni! (De Ashi Harai)</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=Ckv5xkIoWUk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rU6zeS9abRc)
+![](https://www.youtube.com/watch?v=9pUI4_Nrg9Q)
 
-<p class="clip-credit"><strong>Textbook foot sweep</strong> — taught by Grappler Kingdom · 0:48 · <a href="https://www.youtube.com/watch?v=rU6zeS9abRc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deashi Harai Foot Sweep</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=9pUI4_Nrg9Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,19 +46,19 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The gift wrap in 2 minutes",
-      "description": "Gift Wrap film study: The gift wrap in 2 minutes, taught by Brian Glick.",
+      "name": "The Gift Wrap in 2 Minutes - No GI BJJ",
+      "description": "Gift Wrap film study: The Gift Wrap in 2 Minutes - No GI BJJ, taught by Brian Glick.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
       "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
       "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT112S"
+      "duration": "PT111S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Gift wrap backtake (intro)",
-      "description": "Gift Wrap film study: Gift wrap backtake (intro), taught by BJJ Lab Zurich.",
+      "name": "1.3 Giftwrap Backtake (Intro Version)",
+      "description": "Gift Wrap film study: 1.3 Giftwrap Backtake (Intro Version), taught by BJJ Lab Zurich.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EOv5GYpUYDw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EOv5GYpUYDw",
       "url": "https://www.youtube.com/watch?v=EOv5GYpUYDw",
@@ -68,8 +68,8 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "3 back takes from mount using the gift wrap",
-      "description": "Gift Wrap film study: 3 back takes from mount using the gift wrap, taught by MMA Leech.",
+      "name": "3 Back Takes From Mount Using The Gift Wrap Control",
+      "description": "Gift Wrap film study: 3 Back Takes From Mount Using The Gift Wrap Control, taught by MMA Leech.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UIWX13Sx-zw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UIWX13Sx-zw",
       "url": "https://www.youtube.com/watch?v=UIWX13Sx-zw",
@@ -131,7 +131,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 ![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
 
-<p class="clip-credit"><strong>The gift wrap in 2 minutes</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Gift Wrap in 2 Minutes - No GI BJJ</strong> — taught by Brian Glick · 1:51 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -139,7 +139,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 ![](https://www.youtube.com/watch?v=EOv5GYpUYDw)
 
-<p class="clip-credit"><strong>Gift wrap backtake (intro)</strong> — taught by BJJ Lab Zurich · 1:09 · <a href="https://www.youtube.com/watch?v=EOv5GYpUYDw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1.3 Giftwrap Backtake (Intro Version)</strong> — taught by BJJ Lab Zurich · 1:09 · <a href="https://www.youtube.com/watch?v=EOv5GYpUYDw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,7 +147,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 ![](https://www.youtube.com/watch?v=UIWX13Sx-zw)
 
-<p class="clip-credit"><strong>3 back takes from mount using the gift wrap</strong> — taught by MMA Leech · 3:44 · <a href="https://www.youtube.com/watch?v=UIWX13Sx-zw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Back Takes From Mount Using The Gift Wrap Control</strong> — taught by MMA Leech · 3:44 · <a href="https://www.youtube.com/watch?v=UIWX13Sx-zw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,21 +225,19 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Transitions/Gift Wrap Arm Recovery/Attacker|Gift Wrap Arm Recovery]]** (21% of attempts)
+- **[[Transitions/Gift Wrap Arm Recovery/Attacker|Gift Wrap Arm Recovery]]** (23% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (13% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (14% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (15% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (17% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (10% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (10% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (9% of attempts)
-
-- **[[Transitions/Counter Roll to Top/Attacker|Counter Roll to Top]]** (6% of attempts)
+- **[[Transitions/Counter Roll to Top/Attacker|Counter Roll to Top]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -391,8 +389,8 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Craig-Jones-Riding-Control-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-riding-control-system" data-system-name="Craig Jones Riding Control System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Riding Control with Power Ride</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>

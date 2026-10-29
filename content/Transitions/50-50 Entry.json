@@ -76,11 +76,11 @@
       "relationship": "Advanced leg entanglement accessible from 50-50"
     },
     {
-      "name": "Kiss of the Dragon",
+      "name": "Kiss of the Dragon from RDLR",
       "relationship": "Aggressive berimbolo-style variant of the 50-50 Entry"
     },
     {
-      "name": "Grasshopper Guard",
+      "name": "Inverted Guard",
       "relationship": "Inverted guard variant commonly used to initiate 50-50 entries"
     }
   ],
@@ -362,31 +362,11 @@
     "safety_considerations": "The 50-50 Entry leads directly to positions where devastating leg locks are available. Practice with controlled speed and always respect tap signals immediately. When drilling, complete the entry without immediately attacking the heel to build proper habits. Avoid forcing the entry against flexible opponents who can counter-rotate and apply heel hooks faster than you. If you feel any torque on your own knee during a failed entry, disengage immediately rather than fighting through. Never attempt this technique against partners with existing knee injuries. In competition, be aware that explosive 50-50 entries can result in accidental heel hooks that injure both practitioners.",
     "clips": [
       {
-        "id": "xLrbkcvIdy0",
-        "title": "Reverse De La Riva to 50/50 with heel hook",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 77,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "p0e38zh3Sg4",
-        "title": "50/50 entry from single leg X",
-        "by": "Grappling How to",
-        "vertical": false,
-        "channel": "Grappling How to",
-        "duration": 96,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ucAwPgTLSpQ",
-        "title": "Getting to backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 121,
-        "verified": "2026-07-15"
+        "id": "PF4pdmp7Plk",
+        "title": "ZGuard Inversion To 50/50 HeelHook - BJJ",
+        "channel": "OffYourBackBJJ",
+        "duration": 137,
+        "front": true
       }
     ]
   },
@@ -563,26 +543,7 @@
         "description": "Positional rounds starting with partner in inverted guard and you standing. Partner attempts 50-50 entries at full speed while you defend and counter-pass with full resistance. Track your prevention rate and identify which entry variants still catch you. Focus on the specific variants that penetrate your defense most often."
       }
     ],
-    "clips": [
-      {
-        "id": "_hyZqLRwsWE",
-        "title": "Counter the 50/50 heel hook with a wristlock",
-        "by": "Whangarei BJJ",
-        "vertical": false,
-        "channel": "Whangarei BJJ",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Q-ZBPkqGOgE",
-        "title": "Standing pass for 50/50",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 135,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {
@@ -607,5 +568,5 @@
     "At least one of your legs has contact with opponent's lower body",
     "Opponent's weight is shifted predominantly to one leg or they are in the process of stepping"
   ],
-  "position_integration": "The 50-50 Entry functions as the primary gateway from inverted guard positions into the leg entanglement system. It connects grasshopper guard, K-Guard, and single leg X-Guard to the 50-50 position, which then branches into inside heel hook attacks, backside 50-50 transitions, and sweeping opportunities. The entry represents a critical skill for any practitioner building a leg lock game, as 50-50 is one of the most common competitive leg lock positions. Defensively, understanding the 50-50 Entry helps you recognize when opponents are attempting to establish the position, allowing earlier prevention. The technique integrates with upper body attacks as well - a threatening 50-50 Entry forces opponents to address their legs, potentially opening guillotines and front headlock transitions if they over-commit to leg clearing."
+  "position_integration": "The 50-50 Entry functions as the primary gateway from inverted guard positions into the leg entanglement system. It connects inverted guard, K-Guard, and single leg X-Guard to the 50-50 position, which then branches into inside heel hook attacks, backside 50-50 transitions, and sweeping opportunities. The entry represents a critical skill for any practitioner building a leg lock game, as 50-50 is one of the most common competitive leg lock positions. Defensively, understanding the 50-50 Entry helps you recognize when opponents are attempting to establish the position, allowing earlier prevention. The technique integrates with upper body attacks as well - a threatening 50-50 Entry forces opponents to address their legs, potentially opening guillotines and front headlock transitions if they over-commit to leg clearing."
 }

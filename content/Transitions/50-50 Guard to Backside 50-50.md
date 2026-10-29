@@ -36,50 +36,6 @@ description: "Master the transition from 50-50 Guard to Backside 50-50 in BJJ. L
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "50-50 Guard to Backside 50-50 \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Roll under to backside 50/50",
-      "description": "50-50 Guard to Backside 50-50 film study: Roll under to backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Backside 50/50 entry",
-      "description": "50-50 Guard to Backside 50-50 film study: Backside 50/50 entry, taught by Combat Principles MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1s9wTxwTqwM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1s9wTxwTqwM",
-      "url": "https://www.youtube.com/watch?v=1s9wTxwTqwM",
-      "creator": { "@type": "Person", "name": "Combat Principles MMA" },
-      "duration": "PT38S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse De La Riva to backside 50-50",
-      "description": "50-50 Guard to Backside 50-50 film study: Reverse De La Riva to backside 50-50, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h1kv3AHUKJk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h1kv3AHUKJk",
-      "url": "https://www.youtube.com/watch?v=h1kv3AHUKJk",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT41S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -107,7 +63,7 @@ description: "Master the transition from 50-50 Guard to Backside 50-50 in BJJ. L
 
 **The 50-50 Guard to Backside 50-50 transition is a rotational advancement in which the top player walks their hips behind the opponent—pivoting on a locked inside leg—to convert the symmetrical 50-50 entanglement into the dominant, back-facing Backside 50-50.**
 
-The Transition to Backside 50-50 is a rotational positional advancement from standard 50-50 Guard Top that places your chest against your opponent's back while maintaining the mirrored leg entanglement. This transition breaks the symmetry of standard 50-50 by creating a back-facing orientation that provides superior pressure, better visual access to leg attack entries, and the constant secondary threat of abandoning the entanglement entirely for back control. The rotation fundamentally shifts the position from a roughly equal exchange into a clearly dominant configuration.
+The Transition to Backside 50-50 is a rotational positional advancement from standard 50-50 Guard Top that places you on your hip behind the opponent's trapped leg while maintaining the mirrored leg entanglement. This transition breaks the symmetry of standard 50-50 by creating a back-facing orientation that provides superior pressure, better visual access to leg attack entries, and the constant secondary threat of abandoning the entanglement entirely for back control. The rotation fundamentally shifts the position from a roughly equal exchange into a clearly dominant configuration.
 
 Executing this transition requires precise timing around your opponent's defensive reactions in standard 50-50. The rotation occurs when your opponent is focused on heel defense or grip fighting, creating a window where their hip movement is restricted and they cannot prevent you from circling behind them. The key mechanical detail is maintaining tight leg entanglement throughout the rotation so you arrive in Backside 50-50 with full control rather than creating space that allows extraction. Inside position control with your lead leg serves as the rotational pivot point.
 
@@ -118,40 +74,6 @@ This transition occupies a critical role in modern leg lock systems as the bridg
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch 50-50 Guard to Backside 50-50 in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1s9wTxwTqwM)
-
-<p class="clip-credit"><strong>Backside 50/50 entry</strong> — taught by Combat Principles MMA · 0:38 · <a href="https://www.youtube.com/watch?v=1s9wTxwTqwM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=h1kv3AHUKJk)
-
-<p class="clip-credit"><strong>Reverse De La Riva to backside 50-50</strong> — taught by Thunderdome BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=h1kv3AHUKJk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -194,7 +116,7 @@ This transition occupies a critical role in modern leg lock systems as the bridg
 
 - Time the rotation when opponent is focused on heel defense, grip fighting, or any distraction that limits their hip mobility
 
-- Arrive with chest pressure immediately on opponent's back - any gap between completing the rotation and establishing pressure allows them to turn and re-face you
+- Keep the inside foot in front of the stomach and contain the trapped knee as you move behind the leg; a loose frame lets the opponent turn back in
 
 - Control at least one grip on opponent's lower leg or ankle throughout the rotation to prevent them from spinning with you
 
@@ -212,11 +134,11 @@ This transition occupies a critical role in modern leg lock systems as the bridg
 
 - **Maintain entanglement tension**: As your hips move behind your opponent, actively squeeze your legs tighter around their trapped leg....
 
-- **Complete the arc to back-facing position**: Continue the hip walk until your chest faces your opponent's back rather than their front. You shoul...
+- **Complete the arc to back-facing position**: Rotate onto your hip or shoulder behind the opponent's trapped leg as they turn away. Keep your insi...
 
-- **Establish chest-to-back pressure**: Immediately drive your chest forward and down onto opponent's upper back the moment you complete the...
+- **Establish knee-line and hip control**: Settle the leg clamp and inside-foot frame as the rotation completes. Guide the trapped knee forward...
 
-- **Secure controlling grips for attack**: With chest pressure established and leg entanglement maintained, transition your hands to attacking ...
+- **Secure controlling grips for attack**: With knee-line control established and leg entanglement maintained, transition your hands to attacki...
 
 
 ### Common Mistakes
@@ -230,9 +152,9 @@ This transition occupies a critical role in modern leg lock systems as the bridg
   - Consequence: Large sudden movements create gaps in the entanglement and telegraph your intention, giving opponent time to counter with hip escape or matching rotation. The momentary loss of control during a jump is often enough for a skilled opponent to extract.
   - Correction: Walk your hips in small two-to-three-inch increments, maintaining pressure and entanglement tension at each step. The rotation should take three to five seconds of steady movement rather than one explosive repositioning.
 
-- **Failing to establish chest pressure immediately upon completing the rotation**
-  - Consequence: Arriving behind opponent without immediate chest pressure gives them a window to turn and re-face you, negating the entire transition. Even a one-second delay is enough for an experienced opponent to spin back to standard 50-50.
-  - Correction: Treat the chest pressure as part of the final rotation step, not a separate action. As your last hip walk step brings you behind them, simultaneously drive your chest forward and down. The arrival and the pressure establishment should be one continuous motion.
+- **Failing to establish knee-line control immediately upon completing the rotation**
+  - Consequence: Arriving behind opponent without immediate knee-line control gives them a window to turn and re-face you, negating the entire transition. Even a one-second delay is enough for an experienced opponent to spin back to standard 50-50.
+  - Correction: Finish the rotation with the knee line contained and the inside foot in front of the stomach. Coordinate the heel catch with that movement so there is no gap in leg control.
 
 
 </section>
@@ -250,7 +172,7 @@ This transition occupies a critical role in modern leg lock systems as the bridg
 
 - Hip mobility is your primary defensive tool: active hip movement prevents the opponent from establishing the stable base needed to initiate the walking arc
 
-- Match their rotation direction by turning your body to face them, denying the chest-to-back angle they need to complete the transition
+- Match their rotation direction by turning your body to face them, denying the angle behind the trapped leg they need to complete the transition
 
 - Grip fighting on their anchor hand disrupts the rotation's foundation since they need that grip to prevent you from spinning with them
 
@@ -295,7 +217,7 @@ This transition occupies a critical role in modern leg lock systems as the bridg
 **Hip Switch Entry**: From top 50-50, explosively switch your hip angle by driving your near hip forward and rotating your torso while maintaining leg entanglement. The hip switch creates angular momentum that carries you behind the opponent before they can reorient. Requires more athleticism but works against opponents who are actively monitoring your position. (When to use: Against opponents who are alert to positional changes and defend the slower grip-and-circle approach)
 
 
-**Pressure Walk Entry**: Gradually increase forward chest pressure while incrementally walking your hips in small steps around the opponent. Each step moves you a few inches further behind them. This slow, grinding approach is harder to identify and defend because no single movement is dramatic enough to trigger a strong defensive reaction. (When to use: Against experienced opponents who react explosively to sudden movement but struggle against steady incremental pressure changes)
+**Pressure Walk Entry**: Gradually increase forward knee-line control while incrementally walking your hips in small steps around the opponent. Each step moves you a few inches further behind them. This slow, grinding approach is harder to identify and defend because no single movement is dramatic enough to trigger a strong defensive reaction. (When to use: Against experienced opponents who react explosively to sudden movement but struggle against steady incremental pressure changes)
 
 
 

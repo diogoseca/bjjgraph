@@ -4,7 +4,7 @@
 
 ---
 title: "X-Guard Elevation Sweep | BJJ Technique | BJJ Graph"
-description: "Learn X-Guard Elevation Sweep from Grasshopper Guard in BJJ. Step-by-step hip elevation mechanics to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "Learn X-Guard Elevation Sweep from Inverted Guard in BJJ. Step-by-step hip elevation mechanics to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn X-Guard Elevation Sweep from Grasshopper Guard in BJJ. Step-
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "X-Guard Elevation Sweep",
-  "description": "Learn X-Guard Elevation Sweep from Grasshopper Guard in BJJ. Step-by-step hip elevation mechanics to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Learn X-Guard Elevation Sweep from Inverted Guard in BJJ. Step-by-step hip elevation mechanics to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,39 +36,6 @@ description: "Learn X-Guard Elevation Sweep from Grasshopper Guard in BJJ. Step-
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "X-Guard Elevation Sweep \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "X guard elevation sweep",
-      "description": "X-Guard Elevation Sweep film study: X guard elevation sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
-      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-gi X-guard sweep",
-      "description": "X-Guard Elevation Sweep film study: No-gi X-guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m-ueyJXiShY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m-ueyJXiShY",
-      "url": "https://www.youtube.com/watch?v=m-ueyJXiShY",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT126S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -76,7 +43,7 @@ description: "Learn X-Guard Elevation Sweep from Grasshopper Guard in BJJ. Step-
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "X-Guard Elevation Sweep",
-  "description": "X-Guard Elevation Sweep is a high-amplitude reversal from Grasshopper Guard where the bottom player threads X-Guard hooks beneath a standing opponent and explosively extends the hips to topple them backward, landing directly in Mount.",
+  "description": "X-Guard Elevation Sweep is a high-amplitude reversal from Inverted Guard where the bottom player threads X-Guard hooks beneath a standing opponent and explosively extends the hips to topple them backward, landing directly in Mount.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,45 +61,19 @@ description: "Learn X-Guard Elevation Sweep from Grasshopper Guard in BJJ. Step-
 
 <section id="overview" class="content-section">
 
-**X-Guard Elevation Sweep is a high-amplitude reversal from Grasshopper Guard where the bottom player threads X-Guard hooks beneath a standing opponent and explosively extends the hips to topple them backward, landing directly in Mount.**
+**X-Guard Elevation Sweep is a high-amplitude reversal from Inverted Guard where the bottom player threads X-Guard hooks beneath a standing opponent and explosively extends the hips to topple them backward, landing directly in Mount.**
 
-Within the grasshopper guard offensive system, the elevation sweep is the headline reversal that justifies investing in such an energetically expensive, inherently unstable inverted position. From the inverted grasshopper position, the bottom player shoots both legs into an X-Guard formation beneath the opponent's hips, then uses explosive hip extension to elevate and topple the standing player backward. The sweep leverages the grasshopper guard's inverted posture as a launching platform, converting the temporary inversion into one of the most powerful elevation mechanics available in modern guard play.
+Within the inverted guard offensive system, the elevation sweep is the headline reversal that justifies investing in such an energetically expensive, inherently unstable inverted position. From the inverted inverted position, the bottom player shoots both legs into an X-Guard formation beneath the opponent's hips, then uses explosive hip extension to elevate and topple the standing player backward. The sweep leverages the inverted guard's inverted posture as a launching platform, converting the temporary inversion into one of the most powerful elevation mechanics available in modern guard play.
 
-Strategically, this sweep represents the highest-reward option from grasshopper guard because it bypasses all intermediate positions and lands directly in the 4-point mount. The technique works optimally when the opponent pressures forward into the grasshopper player or maintains a narrow, upright stance with centered weight distribution. The forward pressure that most top players instinctively generate against inverted guards becomes the very fuel that powers the elevation, making this a conceptually elegant counter-pressure technique.
+Strategically, this sweep represents the highest-reward option from inverted guard because it bypasses all intermediate positions and lands directly in the 4-point mount. The technique works optimally when the opponent pressures forward into the inverted player or maintains a narrow, upright stance with centered weight distribution. The forward pressure that most top players instinctively generate against inverted guards becomes the very fuel that powers the elevation, making this a conceptually elegant counter-pressure technique.
 
-The sweep integrates into the broader grasshopper guard offensive system as the primary direct sweep threat. When the opponent recognizes the elevation setup and widens their base or drops their hips, this reaction opens pathways to leg entanglements via Ashi Garami entries, Single Leg X-Guard transitions, or rolling kneebar attacks. The threat of being swept to mount forces defensive postures that compromise the opponent's ability to pass, creating the dilemma structure that makes grasshopper guard viable despite its high energy cost.
+The sweep integrates into the broader inverted guard offensive system as the primary direct sweep threat. When the opponent recognizes the elevation setup and widens their base or drops their hips, this reaction opens pathways to leg entanglements via Ashi Garami entries, Single Leg X-Guard transitions, or rolling kneebar attacks. The threat of being swept to mount forces defensive postures that compromise the opponent's ability to pass, creating the dilemma structure that makes inverted guard viable despite its high energy cost.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 **Success Rate**: 32%
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch X-Guard Elevation Sweep in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
-
-<p class="clip-credit"><strong>X guard elevation sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=m-ueyJXiShY)
-
-<p class="clip-credit"><strong>No-gi X-guard sweep</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -142,7 +83,7 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 65% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
 
@@ -155,7 +96,7 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Transition from grasshopper inversion to X-Guard hook config... | Maintain wide base with hips low and back - vertical posture... |
+| **Key Principles** | Transition from inverted inversion to X-Guard hook configura... | Maintain wide base with hips low and back - vertical posture... |
 | **Options** | 7 execution steps | 4 defensive options |
 
 </section>
@@ -169,7 +110,7 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 ### Key Principles
 
 
-- Transition from grasshopper inversion to X-Guard hook configuration must happen in a single fluid motion without pausing
+- Transition from inverted inversion to X-Guard hook configuration must happen in a single fluid motion without pausing
 
 - Load both hooks underneath the opponent's center of gravity before initiating any upward force
 
@@ -187,7 +128,7 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 ### Execution Steps
 
 
-- **Establish grasshopper contact**: From grasshopper guard with shoulders on mat and hips elevated, secure initial leg contact by hookin...
+- **Establish inverted contact**: From inverted guard with shoulders on mat and hips elevated, secure initial leg contact by hooking b...
 
 - **Secure controlling grip**: Reach and establish a strong controlling grip on the opponent's near-side ankle, sleeve, or wrist. T...
 
@@ -205,7 +146,7 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 ### Common Mistakes
 
 
-- **Attempting elevation before fully transitioning from grasshopper into X-Guard hook configuration**
+- **Attempting elevation before fully transitioning from inverted into X-Guard hook configuration**
   - Consequence: Insufficient mechanical advantage results in a weak lift that the opponent easily resists, and you waste the energy expenditure of the inversion without any offensive return
   - Correction: Complete the full hook transition with inside foot on far hip and outside hook behind near knee before initiating any upward force
 
@@ -233,9 +174,9 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 
 - Deny hook insertion by keeping legs moving and circling rather than standing static in the attacker's optimal threading range
 
-- Recognize the grasshopper-to-X-Guard transition early and respond during hook insertion rather than waiting for the elevation phase when power is maximum
+- Recognize the inverted-to-X-Guard transition early and respond during hook insertion rather than waiting for the elevation phase when power is maximum
 
-- Use time as your ally since grasshopper guard is unsustainable beyond 10-15 seconds - patient defense forces the attacker to abandon or transition
+- Use time as your ally since inverted guard is unsustainable beyond 10-15 seconds - patient defense forces the attacker to abandon or transition
 
 - Break grip control on your ankle or wrist as first priority since this grip prevents your primary escape of stepping backward out of range
 
@@ -245,7 +186,7 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 ### Recognition Cues
 
 
-- Opponent's legs begin threading underneath your hips from the inverted grasshopper position, with inside foot seeking your far hip and outside leg hooking behind your near knee
+- Opponent's legs begin threading underneath your hips from the inverted inverted position, with inside foot seeking your far hip and outside leg hooking behind your near knee
 
 - You feel upward pressure building under your hips as the opponent slides their body directly beneath your center of gravity and begins loading their hook platform
 
@@ -275,7 +216,7 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 **Ankle Grip Elevation**: Instead of sleeve or wrist control, grip the opponent's far ankle with your free hand during the elevation. Pulling the ankle toward you while elevating eliminates their ability to step and creates a more controlled rotational sweep trajectory. (When to use: No-gi situations or when opponent keeps hands free and is difficult to grip on the upper body)
 
 
-**Rolling Entry Elevation**: Rather than setting X-Guard hooks from static grasshopper, use a forward roll from inverted position to dynamically insert hooks while generating momentum. The rolling motion carries directly into the elevation, combining entry and sweep into one continuous action. (When to use: When opponent is retreating or creating distance, making static hook insertion difficult)
+**Rolling Entry Elevation**: Rather than setting X-Guard hooks from static inverted, use a forward roll from inverted position to dynamically insert hooks while generating momentum. The rolling motion carries directly into the elevation, combining entry and sweep into one continuous action. (When to use: When opponent is retreating or creating distance, making static hook insertion difficult)
 
 
 **Single Leg X Elevation Hybrid**: Transition to a Single Leg X configuration rather than full X-Guard, hooking only one leg while controlling the other with grips. Elevation is angled laterally rather than straight back, creating a diagonal sweep path. (When to use: When opponent defends by removing one leg from hook range but leaves the other accessible)
@@ -290,7 +231,7 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 
 ## Position Integration
 
-The X-Guard Elevation Sweep occupies a central role within the grasshopper guard attack system as the highest-value direct sweep option. It provides the primary offensive threat when opponents pressure forward or maintain narrow stance, while the threat itself forces defensive postures that open pathways to leg entanglements and alternative sweeps. When the opponent defends by widening base, transitions to Single Leg X-Guard, Ashi Garami, or rolling kneebar become available. When they retreat, the guard player can follow with inversions to maintain contact. The sweep connects the grasshopper guard system to the mount attack system including Armbar from Mount, Americana, and Cross Collar Choke chains. Failed attempts flow naturally into the broader leg entanglement game, making the elevation threat a forcing function that creates offensive opportunities regardless of whether the sweep itself completes.
+The X-Guard Elevation Sweep occupies a central role within the inverted guard attack system as the highest-value direct sweep option. It provides the primary offensive threat when opponents pressure forward or maintain narrow stance, while the threat itself forces defensive postures that open pathways to leg entanglements and alternative sweeps. When the opponent defends by widening base, transitions to Single Leg X-Guard, Ashi Garami, or rolling kneebar become available. When they retreat, the guard player can follow with inversions to maintain contact. The sweep connects the inverted guard system to the mount attack system including Armbar from Mount, Americana, and Cross Collar Choke chains. Failed attempts flow naturally into the broader leg entanglement game, making the elevation threat a forcing function that creates offensive opportunities regardless of whether the sweep itself completes.
 
 </section>
 
@@ -300,19 +241,19 @@ The X-Guard Elevation Sweep occupies a central role within the grasshopper guard
 ## Related Techniques
 
 
-- [[Positions/Grasshopper Guard]] - Starting position - inverted guard from which sweep is initiated
+- [[Positions/Inverted Guard]] - Starting position - inverted guard from which sweep is initiated
 
 - [[Positions/X-Guard]] - Hook configuration used during the sweep mechanics
 
 - [[Positions/Mount]] - Target position on successful sweep completion
 
-- [[Transitions/Grasshopper Sweep]] - Alternative sweep from same starting position
+- [[Transitions/Inverted Guard Elevation Sweep]] - Alternative sweep from same starting position
 
 - [[Transitions/Single Leg X Transition]] - Chain option when opponent widens base to defend elevation
 
 - [[Transitions/Elevation Sweep to Mount]] - Related elevation sweep from Reverse X-Guard with similar mechanics
 
-- [[Transitions/Kneebar from Grasshopper]] - Alternative leg attack from grasshopper when sweep is defended
+- [[Transitions/Kneebar Entry from Inverted Guard]] - Alternative leg attack from inverted when sweep is defended
 
 - [[Positions/Ashi Garami]] - Leg entanglement destination when opponent defends by lowering hips
 

@@ -162,35 +162,12 @@ description: "Defend the Darce Choke from Twister Side Control with recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the Darce choke, stack escape",
-      "description": "Darce Choke from Twister Side Control (Defender) film study: Defending the Darce choke, stack escape, taught by BJJ101.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FMAWiNfgp74/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FMAWiNfgp74",
-      "url": "https://www.youtube.com/watch?v=FMAWiNfgp74",
-      "creator": { "@type": "Person", "name": "BJJ101" },
-      "duration": "PT30S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "D\u0027arce choke defense breakdown",
-      "description": "Darce Choke from Twister Side Control (Defender) film study: D\u0027arce choke defense breakdown, taught by Lachlan Giles.",
+      "name": "D\u0027arce Defense",
+      "description": "Darce Choke from Twister Side Control (Defender) film study: D\u0027arce Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ug2Kxs54GuU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ug2Kxs54GuU",
       "url": "https://www.youtube.com/watch?v=ug2Kxs54GuU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT714S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defending head and arm chokes: anaconda, darce",
-      "description": "Darce Choke from Twister Side Control (Defender) film study: Defending head and arm chokes: anaconda, darce, taught by Knight Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rAY6Me3rNBE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rAY6Me3rNBE",
-      "url": "https://www.youtube.com/watch?v=rAY6Me3rNBE",
-      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
-      "duration": "PT523S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Defending the Darce Choke from Twister Side Control requires early recognition o
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=FMAWiNfgp74)
-
-<p class="clip-credit"><strong>Defending the Darce choke, stack escape</strong> — taught by BJJ101 · 0:30 · <a href="https://www.youtube.com/watch?v=FMAWiNfgp74" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=ug2Kxs54GuU)
 
-<p class="clip-credit"><strong>D&#39;arce choke defense breakdown</strong> — taught by Lachlan Giles · 11:54 · <a href="https://www.youtube.com/watch?v=ug2Kxs54GuU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rAY6Me3rNBE)
-
-<p class="clip-credit"><strong>Defending head and arm chokes: anaconda, darce</strong> — taught by Knight Jiu-Jitsu · 8:43 · <a href="https://www.youtube.com/watch?v=rAY6Me3rNBE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>D&#39;arce Defense</strong> · 11:54 · <a href="https://www.youtube.com/watch?v=ug2Kxs54GuU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

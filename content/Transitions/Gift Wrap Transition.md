@@ -46,35 +46,12 @@ description: "Master Gift Wrap Transition from High Mount in BJJ. Arm isolation 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gift wrap back take",
-      "description": "Gift Wrap Transition film study: Gift wrap back take, taught by BJJ Lab Z\u00fcrich.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EOv5GYpUYDw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EOv5GYpUYDw",
-      "url": "https://www.youtube.com/watch?v=EOv5GYpUYDw",
-      "creator": { "@type": "Person", "name": "BJJ Lab Z\u00fcrich" },
-      "duration": "PT69S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Mount to gift wrap to submission",
-      "description": "Gift Wrap Transition film study: Mount to gift wrap to submission, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/X3yIMfhGHnk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/X3yIMfhGHnk",
-      "url": "https://www.youtube.com/watch?v=X3yIMfhGHnk",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Gift wrap to armbar from mount",
-      "description": "Gift Wrap Transition film study: Gift wrap to armbar from mount, taught by The Fight Coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KwhoNiUJboI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KwhoNiUJboI",
-      "url": "https://www.youtube.com/watch?v=KwhoNiUJboI",
-      "creator": { "@type": "Person", "name": "The Fight Coach" },
-      "duration": "PT87S"
+      "name": "Escaping the Gift Wrap in jiu jitsu",
+      "description": "Gift Wrap Transition film study: Escaping the Gift Wrap in jiu jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
+      "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
+      "duration": "PT47S"
     }
   ]
 }
@@ -128,25 +105,9 @@ The transition rewards patience and methodical execution. Rushing the arm isolat
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=EOv5GYpUYDw)
+![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
 
-<p class="clip-credit"><strong>Gift wrap back take</strong> — taught by BJJ Lab Zürich · 1:09 · <a href="https://www.youtube.com/watch?v=EOv5GYpUYDw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=X3yIMfhGHnk)
-
-<p class="clip-credit"><strong>Mount to gift wrap to submission</strong> — taught by Henry Akins · 1:32 · <a href="https://www.youtube.com/watch?v=X3yIMfhGHnk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KwhoNiUJboI)
-
-<p class="clip-credit"><strong>Gift wrap to armbar from mount</strong> — taught by The Fight Coach · 1:27 · <a href="https://www.youtube.com/watch?v=KwhoNiUJboI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping the Gift Wrap in jiu jitsu</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -334,8 +295,6 @@ The Gift Wrap Transition is a critical link in the mount attack system, connecti
 - [[Submissions/Cross Collar Choke]] - Complementary attack that creates arm isolation opportunities
 
 - [[Positions/Mount/Technical Mount]] - Alternative position if opponent turns during transition
-
-- [[Transitions/Back Take from Top]] - Synergistic technique - Gift Wrap facilitates back take entries
 
 - [[Submissions/Rear Naked Choke]] - Primary submission threat from established Gift Wrap position
 

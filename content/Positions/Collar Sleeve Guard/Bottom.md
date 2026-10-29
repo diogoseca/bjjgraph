@@ -165,35 +165,12 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 attacks from collar \u0026 sleeve guard",
-      "description": "Collar Sleeve Guard (Bottom) film study: 3 attacks from collar \u0026 sleeve guard, taught by Giancarlo Bodoni.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SehIaBibwYY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SehIaBibwYY",
-      "url": "https://www.youtube.com/watch?v=SehIaBibwYY",
-      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
-      "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Five sweeps from collar \u0026 sleeve guard",
-      "description": "Collar Sleeve Guard (Bottom) film study: Five sweeps from collar \u0026 sleeve guard, taught by OneontaJiuJitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/I2xn1bMaBdg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/I2xn1bMaBdg",
-      "url": "https://www.youtube.com/watch?v=I2xn1bMaBdg",
-      "creator": { "@type": "Person", "name": "OneontaJiuJitsu Academy" },
-      "duration": "PT103S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Collar sleeve over-head sweep",
-      "description": "Collar Sleeve Guard (Bottom) film study: Collar sleeve over-head sweep, taught by luciana MARCOS.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wdvJF6S68TI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wdvJF6S68TI",
-      "url": "https://www.youtube.com/watch?v=wdvJF6S68TI",
-      "creator": { "@type": "Person", "name": "luciana MARCOS" },
-      "duration": "PT68S"
+      "name": "Understand the Collar Sleeve Guard In 5 Min",
+      "description": "Collar Sleeve Guard (Bottom) film study: Understand the Collar Sleeve Guard In 5 Min.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PKQEms4w9T4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PKQEms4w9T4",
+      "url": "https://www.youtube.com/watch?v=PKQEms4w9T4",
+      "duration": "PT339S"
     }
   ]
 }
@@ -233,25 +210,9 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=SehIaBibwYY)
+![](https://www.youtube.com/watch?v=PKQEms4w9T4)
 
-<p class="clip-credit"><strong>3 attacks from collar &amp; sleeve guard</strong> — taught by Giancarlo Bodoni · 0:16 · <a href="https://www.youtube.com/watch?v=SehIaBibwYY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=I2xn1bMaBdg)
-
-<p class="clip-credit"><strong>Five sweeps from collar &amp; sleeve guard</strong> — taught by OneontaJiuJitsu Academy · 1:43 · <a href="https://www.youtube.com/watch?v=I2xn1bMaBdg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=wdvJF6S68TI)
-
-<p class="clip-credit"><strong>Collar sleeve over-head sweep</strong> — taught by luciana MARCOS · 1:08 · <a href="https://www.youtube.com/watch?v=wdvJF6S68TI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understand the Collar Sleeve Guard In 5 Min</strong> · 5:39 · <a href="https://www.youtube.com/watch?v=PKQEms4w9T4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -455,7 +416,7 @@ Attempt collar sleeve sweep (pendulum, flower, or scissor). If partner defends a
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Collar Sleeve Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Collar Sleeve Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Collar Sleeve Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position: Collar Sleeve Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>

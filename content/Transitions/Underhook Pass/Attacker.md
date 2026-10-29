@@ -186,24 +186,12 @@ description: "How to execute Underhook Pass in BJJ. Attacking perspective with s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Body lock pass off their underhook",
-      "description": "Underhook Pass (Attacker) film study: Body lock pass off their underhook, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aAd6OIq94X0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aAd6OIq94X0",
-      "url": "https://www.youtube.com/watch?v=aAd6OIq94X0",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT205S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing half guard against the underhook",
-      "description": "Underhook Pass (Attacker) film study: Passing half guard against the underhook, taught by Holy Grail BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Zy88ds_RDG4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Zy88ds_RDG4",
-      "url": "https://www.youtube.com/watch?v=Zy88ds_RDG4",
-      "creator": { "@type": "Person", "name": "Holy Grail BJJ coach" },
-      "duration": "PT126S"
+      "name": "Half Guard Passing - Basic Under Hook \u0026 Cross Face PLUS CONCEPTS",
+      "description": "Underhook Pass (Attacker) film study: Half Guard Passing - Basic Under Hook \u0026 Cross Face PLUS CONCEPTS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rL6lzwo0W8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rL6lzwo0W8U",
+      "url": "https://www.youtube.com/watch?v=rL6lzwo0W8U",
+      "duration": "PT780S"
     }
   ]
 }
@@ -231,17 +219,9 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aAd6OIq94X0)
+![](https://www.youtube.com/watch?v=rL6lzwo0W8U)
 
-<p class="clip-credit"><strong>Body lock pass off their underhook</strong> — taught by Gordon Ryan · 3:25 · <a href="https://www.youtube.com/watch?v=aAd6OIq94X0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Zy88ds_RDG4)
-
-<p class="clip-credit"><strong>Passing half guard against the underhook</strong> — taught by Holy Grail BJJ coach · 2:06 · <a href="https://www.youtube.com/watch?v=Zy88ds_RDG4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Guard Passing - Basic Under Hook &amp; Cross Face PLUS CONCEPTS</strong> · 13:00 · <a href="https://www.youtube.com/watch?v=rL6lzwo0W8U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -4,7 +4,7 @@
 
 ---
 title: "Granby Roll to Guard Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Granby Roll to Guard in BJJ. Attacking perspective with setup, execution steps, and counters."
+description: "The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact."
 ---
 
 
@@ -16,42 +16,42 @@ description: "How to execute Granby Roll to Guard in BJJ. Attacking perspective 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Granby Roll to Guard in BJJ",
-  "description": "Step-by-step guide for executing Granby Roll to Guard from Buggy Choke/Bottom.",
+  "description": "Step-by-step guide for executing Granby Roll to Guard from Turtle/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Create space",
-      "text": "Drive your hips backward momentarily to create a slight gap between your body and the opponent's chest pressure, disrupting their forward weight commitment and creating space for the rolling motion.",
+      "name": "Identify the starting base",
+      "text": "Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Post the far arm",
-      "text": "Place your hand (on the side away from opponent's control) on the mat near your ear with fingers pointing toward your feet, establishing the pivot point for the inverted roll.",
+      "name": "Check free movement",
+      "text": "Check that the head and rolling shoulder can move safely before beginning the recovery.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Tuck and rotate",
-      "text": "Tuck your chin firmly to your chest while driving off your knees, initiating the shoulder roll by turning your head away from the opponent and rolling diagonally across your upper back.",
+      "name": "Use the shoulder path",
+      "text": "Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Invert through",
-      "text": "Continue the rotational momentum, allowing your hips to pass over your shoulders as you invert. Your legs will swing through the space where your torso was, creating the escape angle.",
+      "name": "Bring the hips through",
+      "text": "Bring the hips through the available space while keeping the neck unloaded and the knees free to move.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Hip extension",
-      "text": "As you complete the inversion, extend your hips powerfully to push away from the opponent and create distance. This extension prevents them from following directly into mount or side control.",
+      "name": "Reinsert the legs",
+      "text": "Face the opponent and bring the knees back between the bodies as the rolling space opens.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Establish guard",
-      "text": "Land facing the opponent with your legs between you and them. Immediately establish foot contact on their hips, close to closed guard if possible, or frame with open guard grips to prevent immediate passing.",
+      "name": "Confirm the recovered guard",
+      "text": "Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.",
       "position": 6
     }
   ],
@@ -68,50 +68,50 @@ description: "How to execute Granby Roll to Guard in BJJ. Attacking perspective 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary goal of the Granby Roll to Guard?",
+      "name": "Granby Roll to Guard: what does identify the starting base require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to escape the deteriorating turtle position under Buggy Choke threat and recover to a guard position where you can implement offensive tactics. Rather than fighting a losing grip battle in turtle, the granby provides a complete positional reset that eliminates the submission threat and reestablishes your defensive structure."
+        "text": "Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride."
       }
     },
     {
       "@type": "Question",
-      "name": "When is the optimal timing window to initiate the Granby Roll?",
+      "name": "Granby Roll to Guard: what does check free movement require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal window is when the opponent's weight commits forward as they reach to secure their second grip or adjust position, and before their body pressure fully consolidates. This moment provides maximum space for rotation while the opponent is temporarily off-balance during their adjustment."
+        "text": "Check that the head and rolling shoulder can move safely before beginning the recovery."
       }
     },
     {
       "@type": "Question",
-      "name": "Why must you tuck your chin during the rolling motion?",
+      "name": "Granby Roll to Guard: what does use the shoulder path require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tucking the chin protects your cervical spine from hyperextension during the inverted roll, prevents the opponent from catching your neck during rotation, and ensures smooth rolling mechanics by allowing the roll to travel diagonally across your upper back rather than compressing your neck vertebrae."
+        "text": "Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls heavily as you initiate the granby—how do you adjust?",
+      "name": "Granby Roll to Guard: what does bring the hips through require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Abort the granby attempt and switch to sitting to half guard instead. Use their forward sprawl momentum against them by shooting your hips away and sliding underneath to establish half guard. Their committed forward pressure actually assists this alternative escape once you redirect the movement."
+        "text": "Bring the hips through the available space while keeping the neck unloaded and the knees free to move."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the most critical action immediately upon completing the roll?",
+      "name": "Granby Roll to Guard: what does reinsert the legs require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establishing immediate leg contact with the opponent is the most critical action. Get your feet on their hips or close to closed guard before anything else. Without this defensive structure, the opponent will pass your guard immediately and you will have traded one bad position for another."
+        "text": "Face the opponent and bring the knees back between the bodies as the rolling space opens."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is the hip extension at the apex of the roll important?",
+      "name": "Granby Roll to Guard: what does confirm the recovered guard require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The hip extension creates distance between you and the opponent, preventing them from following directly into mount or side control. Without this extension, you complete the roll but remain too close to the opponent, allowing them to immediately consolidate a passing position."
+        "text": "Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot."
       }
     }
   ]
@@ -124,7 +124,7 @@ description: "How to execute Granby Roll to Guard in BJJ. Attacking perspective 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Granby Roll to Guard Attacker",
-  "description": "How to execute Granby Roll to Guard in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "description": "The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,100 +170,24 @@ description: "How to execute Granby Roll to Guard in BJJ. Attacking perspective 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Granby Roll to Guard (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Basic granby roll technique",
-      "description": "Granby Roll to Guard (Attacker) film study: Basic granby roll technique, taught by Danny Mitchell.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vyphbya8ZVQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vyphbya8ZVQ",
-      "url": "https://www.youtube.com/watch?v=vyphbya8ZVQ",
-      "creator": { "@type": "Person", "name": "Danny Mitchell" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Progression of the granby roll",
-      "description": "Granby Roll to Guard (Attacker) film study: Progression of the granby roll, taught by Ryan Loder.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ww3UlhG2GzI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ww3UlhG2GzI",
-      "url": "https://www.youtube.com/watch?v=Ww3UlhG2GzI",
-      "creator": { "@type": "Person", "name": "Ryan Loder" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Why the granby roll matters in BJJ",
-      "description": "Granby Roll to Guard (Attacker) film study: Why the granby roll matters in BJJ, taught by Unknown coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rSn2PkpXaPw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rSn2PkpXaPw",
-      "url": "https://www.youtube.com/watch?v=rSn2PkpXaPw",
-      "creator": { "@type": "Person", "name": "Unknown coach" },
-      "duration": "PT58S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The Granby Roll to Guard is a dynamic defensive escape technique used to recover guard position when caught in the Buggy Choke or similar turtle-attacking positions. Named after the wrestling-derived shoulder roll movement, this technique uses rotational momentum and hip mobility to invert beneath the opponent and emerge facing them in a guard position. The movement exploits the brief windows when the attacking player commits weight forward or attempts to consolidate grips.
+The turtled player rolls across the shoulder and upper back, keeps weight off the neck, and reinserts the legs to recover facing closed or open guard under controlled contact.
 
-Strategically, the Granby Roll represents an aggressive defensive philosophy where controlled movement is preferable to static survival. Rather than fighting grip-by-grip against a deteriorating position, the practitioner accepts temporary vulnerability during the roll in exchange for a complete positional reset. This technique is particularly valuable against sophisticated turtle attacks where passive defense leads inevitably to submission or back exposure.
+Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride. Check that the head and rolling shoulder can move safely before beginning the recovery.
 
-The technical demands of the Granby Roll require significant hip mobility, proprioceptive awareness, and precise timing. Executing the roll too early allows the opponent to follow and maintain control; executing too late means the position has already consolidated beyond the escape window. Mastery of this technique provides a reliable emergency exit from dangerous turtle scenarios while building the movement vocabulary necessary for advanced guard retention and recovery systems.
+Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck. Bring the hips through the available space while keeping the neck unloaded and the knees free to move. Face the opponent and bring the knees back between the bodies as the rolling space opens. Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.
 
-**From Position**: [[Positions/Buggy Choke]] (Bottom)
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-</section>
-
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Granby Roll to Guard (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vyphbya8ZVQ)
-
-<p class="clip-credit"><strong>Basic granby roll technique</strong> — taught by Danny Mitchell · 0:44 · <a href="https://www.youtube.com/watch?v=vyphbya8ZVQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ww3UlhG2GzI)
-
-<p class="clip-credit"><strong>Progression of the granby roll</strong> — taught by Ryan Loder · 0:59 · <a href="https://www.youtube.com/watch?v=Ww3UlhG2GzI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rSn2PkpXaPw)
-
-<p class="clip-credit"><strong>Why the granby roll matters in BJJ</strong> — taught by Unknown coach · 0:58 · <a href="https://www.youtube.com/watch?v=rSn2PkpXaPw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
 
 
 <section id="key-principles" class="content-section">
@@ -272,13 +196,12 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 <p class="section-subtitle">What are the key principles for executing Granby Roll to Guard?</p>
 
-- Initiate the roll when opponent's weight commits forward or their grips are not fully secured
-- Lead with the shoulder on the side away from the primary threat, creating rotational momentum
-- Tuck the chin to protect the neck and allow smooth rolling over the shoulder blade
-- Use hip extension at the apex of the roll to create distance and complete the inversion
-- Establish immediate leg contact with opponent upon completing the roll to prevent guard pass
-- Maintain awareness of opponent's position throughout the roll to adjust guard type appropriately
-- Commit fully to the movement once initiated—hesitation results in getting caught mid-roll
+- Turtle with a controlling opponent: Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
+- Head and rolling shoulder are free: Check that the head and rolling shoulder can move safely before beginning the recovery.
+- Shoulder and upper back take weight: Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
+- Hips follow the controlled roll: Bring the hips through the available space while keeping the neck unloaded and the knees free to move.
+- Knees return between the bodies: Face the opponent and bring the knees back between the bodies as the rolling space opens.
+- Closed or open guard is established: Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.
 
 
 </section>
@@ -289,11 +212,10 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 <p class="section-subtitle">What do you need before attempting Granby Roll to Guard?</p>
 
-- Opponent has not fully consolidated Buggy Choke grips with complete body pressure
-- Sufficient space exists on the side away from opponent's primary control to initiate roll
-- Your head and neck retain enough mobility to tuck and protect during the rotation
-- You can momentarily free or reduce opponent's hip control to allow rolling motion
-- Mental commitment to abandon turtle position and accept brief exposure during roll
+- Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
+- Check that the head and rolling shoulder can move safely before beginning the recovery.
+- Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
+- Bring the hips through the available space while keeping the neck unloaded and the knees free to move.
 
 
 </section>
@@ -304,12 +226,12 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 <p class="section-subtitle">How do you execute Granby Roll to Guard step by step?</p>
 
-1. **Create space**: Drive your hips backward momentarily to create a slight gap between your body and the opponent's chest pressure, disrupting their forward weight commitment and creating space for the rolling motion.
-2. **Post the far arm**: Place your hand (on the side away from opponent's control) on the mat near your ear with fingers pointing toward your feet, establishing the pivot point for the inverted roll.
-3. **Tuck and rotate**: Tuck your chin firmly to your chest while driving off your knees, initiating the shoulder roll by turning your head away from the opponent and rolling diagonally across your upper back.
-4. **Invert through**: Continue the rotational momentum, allowing your hips to pass over your shoulders as you invert. Your legs will swing through the space where your torso was, creating the escape angle.
-5. **Hip extension**: As you complete the inversion, extend your hips powerfully to push away from the opponent and create distance. This extension prevents them from following directly into mount or side control.
-6. **Establish guard**: Land facing the opponent with your legs between you and them. Immediately establish foot contact on their hips, close to closed guard if possible, or frame with open guard grips to prevent immediate passing.
+1. **Identify the starting base**: Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
+2. **Check free movement**: Check that the head and rolling shoulder can move safely before beginning the recovery.
+3. **Use the shoulder path**: Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
+4. **Bring the hips through**: Bring the hips through the available space while keeping the neck unloaded and the knees free to move.
+5. **Reinsert the legs**: Face the opponent and bring the knees back between the bodies as the rolling space opens.
+6. **Confirm the recovered guard**: Settle Closed Guard/Bottom when the ankles can close comfortably, or facing Open Guard/Bottom when they cannot.
 
 
 </section>
@@ -320,10 +242,10 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 50% |
-| Success | [[Positions/Open Guard]] | 15% |
-| Failure | [[Positions/Buggy Choke]] | 20% |
-| Counter | [[Positions/Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Turtle]] | 45% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -334,10 +256,9 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 <p class="section-subtitle">How might your opponent counter Granby Roll to Guard?</p>
 
-- **Opponent follows the roll and takes back control** (Effectiveness: High) - Your Response: Complete the roll faster with more hip extension, or transition directly to deep half guard by underhooking opponent's leg as they follow → Leads to [[Positions/Back Control]]
-- **Opponent sprawls heavy and drives forward as you initiate** (Effectiveness: High) - Your Response: Abort the granby and switch to sitting to half guard, using their forward momentum to create space underneath → Leads to [[Positions/Buggy Choke]]
-- **Opponent maintains collar grip and follows to mounted position** (Effectiveness: Medium) - Your Response: Strip the collar grip during the roll using your far hand, or accept the collar grip and play collar defense from closed guard → Leads to [[Positions/Closed Guard]]
-- **Opponent angles perpendicular and blocks roll with knee pressure** (Effectiveness: Medium) - Your Response: Change direction mid-movement to granby to the opposite side, or use their knee as a pivot to sit directly to butterfly guard → Leads to [[Positions/Buggy Choke]]
+- **Follow the controlled roll while maintaining a stable and balanced base.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Turtle]]
+- **Keep the recovering player's neck free of stacked body weight.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Turtle]]
+- **Address the returning knees before guard is established.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Back Control]]
 
 
 </section>
@@ -348,30 +269,30 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 <p class="section-subtitle">What mistakes should you avoid when executing Granby Roll to Guard?</p>
 
-### 1. Initiating the roll before creating any space from opponent's pressure
+### 1. Skipping identify the starting base
 
-- **Consequence**: Roll stalls immediately as opponent's weight pins you, often resulting in flattening and accelerated submission
-- **Correction**: Always create a small hip bump or frame to disrupt opponent's pressure before committing to the roll
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride.
 
-### 2. Failing to tuck chin during the roll
+### 2. Skipping check free movement
 
-- **Consequence**: Neck hyperextension risk during the inversion, potential for opponent to catch neck during rotation
-- **Correction**: Focus on looking at your own belt or belly button throughout the roll to ensure chin stays tucked
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Check that the head and rolling shoulder can move safely before beginning the recovery.
 
-### 3. Rolling directly over the top of the head instead of diagonally across shoulder
+### 3. Skipping use the shoulder path
 
-- **Consequence**: Places dangerous compression on cervical spine and reduces rolling efficiency
-- **Correction**: Post the arm properly and turn the head away, rolling diagonally from shoulder to opposite hip
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck.
 
-### 4. Stopping momentum mid-roll in the inverted position
+### 4. Skipping bring the hips through
 
-- **Consequence**: Opponent easily takes back control or establishes mount while you are stuck inverted and vulnerable
-- **Correction**: Commit fully to completing the roll once initiated—partial execution is worse than not attempting
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Bring the hips through the available space while keeping the neck unloaded and the knees free to move.
 
-### 5. Not establishing immediate leg contact after completing the roll
+### 5. Skipping reinsert the legs
 
-- **Consequence**: Opponent passes guard immediately as you land without defensive structure
-- **Correction**: Prioritize getting feet on hips or closing guard before worrying about grip fighting or other concerns
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Face the opponent and bring the knees back between the bodies as the rolling space opens.
 
 
 
@@ -383,17 +304,17 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 <p class="section-subtitle">How do you train Granby Roll to Guard (Attacker)?</p>
 
-**Week 1-2** - Solo movement drilling
-Practice the granby roll motion without a partner, focusing on smooth shoulder rolling, proper chin tuck, and landing in guard position. Build the proprioceptive awareness needed for the inverted movement pattern.
+**Phase 1** - Identify the starting base
+Begin on the knees and forearms in Turtle/Bottom, underneath or alongside the opponent's controlling ride. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Week 3-4** - Controlled partner drilling
-Partner establishes turtle top position without attacking. Practice timing the roll initiation, creating space, and establishing guard upon completion. Partner provides positional pressure but does not counter.
+**Phase 2** - Check free movement
+Check that the head and rolling shoulder can move safely before beginning the recovery. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Week 5-6** - Reaction training
-Partner threatens buggy choke grips at varying speeds and intensities. Practice recognizing the escape window and executing the granby before position consolidates. Partner begins following the roll to develop counter-to-counter awareness.
+**Phase 3** - Use the shoulder path
+Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Week 7+** - Live positional sparring
-Full resistance turtle sparring where bottom player works all escape options including granby roll. Integrate the technique into live rolling, using it as part of complete turtle defense system.
+**Phase 4** - Bring the hips through
+Bring the hips through the available space while keeping the neck unloaded and the knees free to move. Pause at this checkpoint with a cooperative partner before linking the next step.
 
 
 
@@ -407,7 +328,7 @@ Full resistance turtle sparring where bottom player works all escape options inc
 
 <p class="section-subtitle">What are the safety concerns for Granby Roll to Guard?</p>
 
-Practice the granby roll movement pattern extensively before applying it against resistance. The inverted rolling motion places stress on the cervical spine if performed incorrectly—always maintain a tucked chin and roll diagonally across the shoulder blade rather than over the top of the head. Start with soft mats and gradually increase drilling intensity. Avoid this technique if you have neck injuries or cervical spine issues. When drilling with partners, communicate clearly about intensity levels and establish tap signals for any neck discomfort during training. The roll should feel smooth and controlled; any grinding or pressure on the neck indicates incorrect mechanics.
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 </section>
 

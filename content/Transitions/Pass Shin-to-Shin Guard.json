@@ -370,21 +370,18 @@
     "clips": [
       {
         "id": "YV26zZARJdA",
-        "title": "One easy way to pass shin-to-shin guard",
-        "by": "Dynasty Jiu Jitsu",
-        "vertical": false,
+        "title": "1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard",
         "channel": "Dynasty Jiu Jitsu",
-        "duration": 164,
-        "verified": "2026-07-15"
+        "duration": 163,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "4jrUwVLezI4",
-        "title": "Passing the shin-to-shin guard",
-        "by": "Arte Suave",
-        "vertical": false,
+        "title": "Passing the Shin/Shin guard",
         "channel": "Arte Suave - BJJ Brisbane",
         "duration": 184,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -563,34 +560,6 @@
         "description": "Progress from purely defensive guard retention to actively threatening sweeps and transitions during the passer's clearing sequences. Practice using the passer's clearing movements as triggers for offensive actions like Single Leg X entries and butterfly elevations. Develop the ability to make the passer choose between safe clearing and defending your attacks, creating genuine dilemmas."
       }
     ],
-    "clips": [
-      {
-        "id": "sUJIGs8Othc",
-        "title": "Shin-to-shin guard fundamentals from the bottom",
-        "by": "RGA South Herts",
-        "vertical": false,
-        "channel": "RGA South Herts",
-        "duration": 76,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "a1lWupzNhkg",
-        "title": "De La Riva shin-on-shin to the back",
-        "by": "Carpio Jiu Jitsu",
-        "vertical": false,
-        "channel": "Carpio Jiu Jitsu",
-        "duration": 81,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "vKjAcZbsTwI",
-        "title": "Shin-to-shin guard to single leg X sweep",
-        "by": "Bermuda Martial Arts",
-        "vertical": false,
-        "channel": "Bermuda Martial Arts",
-        "duration": 138,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

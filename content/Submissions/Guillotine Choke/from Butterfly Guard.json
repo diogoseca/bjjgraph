@@ -446,22 +446,12 @@
     ],
     "clips": [
       {
-        "id": "SAWvSovVk4A",
-        "title": "Guillotine from Butterfly Guard",
-        "by": "Jake Shields",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 64,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "Z75kDSCIeN4",
         "title": "Guillotine Choke from Butterfly Guard",
-        "by": "Modesto Judo Club",
-        "vertical": false,
         "channel": "Modesto Judo Club",
         "duration": 76,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -651,22 +641,11 @@
     ],
     "clips": [
       {
-        "id": "fYE1jgWfIgY",
-        "title": "Late arm-in guillotine defense",
-        "by": "Noel Danforth",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 188,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "VUaJgz4FzY0",
-        "title": "Guillotine defense: the vaulting method",
-        "by": "Brian Glick",
-        "vertical": false,
+        "title": "Guillotine Defense: The Vaulting Method (BJJ No Gi)",
         "channel": "Brian Glick",
         "duration": 282,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

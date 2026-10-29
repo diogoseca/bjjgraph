@@ -46,34 +46,21 @@ description: "Master the Forward Drive Sweep from Dogfight in BJJ. High-percenta
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Dogfight basics: driving forward to the sweep",
-      "description": "Forward Drive Sweep from Dogfight film study: Dogfight basics: driving forward to the sweep, taught by Brandon McCaghren.",
+      "name": "DOG FIGHT BASICS (Plan B \u0026 Oldschool Sweep)",
+      "description": "Forward Drive Sweep from Dogfight film study: DOG FIGHT BASICS (Plan B \u0026 Oldschool Sweep).",
       "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
       "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT145S"
+      "duration": "PT144S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Dogfight sweep mechanics",
-      "description": "Forward Drive Sweep from Dogfight film study: Dogfight sweep mechanics, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ea1HexPjAh0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ea1HexPjAh0",
-      "url": "https://www.youtube.com/watch?v=ea1HexPjAh0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Timing the forward drive sweep from dogfight",
-      "description": "Forward Drive Sweep from Dogfight film study: Timing the forward drive sweep from dogfight, taught by Brandon McCaghren.",
+      "name": "THIS will make SWEEPS in BJJ so EASY (DOG FIGHT)",
+      "description": "Forward Drive Sweep from Dogfight film study: THIS will make SWEEPS in BJJ so EASY (DOG FIGHT).",
       "thumbnailUrl": "https://i.ytimg.com/vi/hotSXTK9oGI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hotSXTK9oGI",
       "url": "https://www.youtube.com/watch?v=hotSXTK9oGI",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT169S"
     }
   ]
@@ -130,15 +117,7 @@ This sweep integrates seamlessly into the broader Dogfight attack chain. If the 
 
 ![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
 
-<p class="clip-credit"><strong>Dogfight basics: driving forward to the sweep</strong> — taught by Brandon McCaghren · 2:25 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ea1HexPjAh0)
-
-<p class="clip-credit"><strong>Dogfight sweep mechanics</strong> — taught by Lachlan Giles · 0:54 · <a href="https://www.youtube.com/watch?v=ea1HexPjAh0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>DOG FIGHT BASICS (Plan B &amp; Oldschool Sweep)</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +125,7 @@ This sweep integrates seamlessly into the broader Dogfight attack chain. If the 
 
 ![](https://www.youtube.com/watch?v=hotSXTK9oGI)
 
-<p class="clip-credit"><strong>Timing the forward drive sweep from dogfight</strong> — taught by Brandon McCaghren · 2:49 · <a href="https://www.youtube.com/watch?v=hotSXTK9oGI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>THIS will make SWEEPS in BJJ so EASY (DOG FIGHT)</strong> · 2:49 · <a href="https://www.youtube.com/watch?v=hotSXTK9oGI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -334,8 +313,6 @@ The Forward Drive Sweep occupies a central role in the Dogfight attack system as
 - [[Positions/Half Guard/Flattened Half Guard]] - Position attacker regresses to when the sweep is countered by crossface pressure
 
 - [[Transitions/Dogfight Sweep]] - Complementary sweep from same position that chains when forward drive is defended
-
-- [[Transitions/Back Take]] - Alternative offensive path from Dogfight when forward drive forces defensive overcommitment
 
 - [[Positions/Half Guard/Deep Half Guard]] - Fallback transition when opponent applies overwhelming forward pressure against the drive
 

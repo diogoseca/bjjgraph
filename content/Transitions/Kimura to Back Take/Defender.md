@@ -160,35 +160,12 @@ description: "How to defend against Kimura to Back Take in BJJ. Recognition cues
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering the kimura back take",
-      "description": "Kimura to Back Take (Defender) film study: Countering the kimura back take, taught by Placido Santos.",
+      "name": "Countering The Kimura Back Take",
+      "description": "Kimura to Back Take (Defender) film study: Countering The Kimura Back Take.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qKj5Y-jDEeM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qKj5Y-jDEeM",
       "url": "https://www.youtube.com/watch?v=qKj5Y-jDEeM",
-      "creator": { "@type": "Person", "name": "Placido Santos" },
-      "duration": "PT32S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending the kimura",
-      "description": "Kimura to Back Take (Defender) film study: Defending the kimura, taught by Eddie Kone.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TuaopPUakM8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TuaopPUakM8",
-      "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
-      "creator": { "@type": "Person", "name": "Eddie Kone" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Three ways to defend the back take",
-      "description": "Kimura to Back Take (Defender) film study: Three ways to defend the back take, taught by Roberto Cyborg Abreu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
-      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
-      "creator": { "@type": "Person", "name": "Roberto Cyborg Abreu" },
-      "duration": "PT89S"
+      "duration": "PT31S"
     }
   ]
 }
@@ -222,23 +199,7 @@ The defender must also recognize that panic rolling or explosive uncontrolled mo
 
 ![](https://www.youtube.com/watch?v=qKj5Y-jDEeM)
 
-<p class="clip-credit"><strong>Countering the kimura back take</strong> — taught by Placido Santos · 0:32 · <a href="https://www.youtube.com/watch?v=qKj5Y-jDEeM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TuaopPUakM8)
-
-<p class="clip-credit"><strong>Defending the kimura</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
-
-<p class="clip-credit"><strong>Three ways to defend the back take</strong> — taught by Roberto Cyborg Abreu · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering The Kimura Back Take</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=qKj5Y-jDEeM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

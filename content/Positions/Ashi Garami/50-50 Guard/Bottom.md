@@ -165,24 +165,12 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Counter the 50/50 Heel Hook with a Wristlock",
-      "description": "50-50 Guard (Bottom) film study: Counter the 50/50 Heel Hook with a Wristlock, taught by Whangarei BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_hyZqLRwsWE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_hyZqLRwsWE",
-      "url": "https://www.youtube.com/watch?v=_hyZqLRwsWE",
-      "creator": { "@type": "Person", "name": "Whangarei BJJ" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roll Under to Backside 50/50",
-      "description": "50-50 Guard (Bottom) film study: Roll Under to Backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
+      "name": "INTRO to LEGLOCKS - Staying SAFE in 5050 (Jiu Jitsu)",
+      "description": "50-50 Guard (Bottom) film study: INTRO to LEGLOCKS - Staying SAFE in 5050 (Jiu Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c0h_XUG_R_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c0h_XUG_R_o",
+      "url": "https://www.youtube.com/watch?v=c0h_XUG_R_o",
+      "duration": "PT369S"
     }
   ]
 }
@@ -212,17 +200,9 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_hyZqLRwsWE)
+![](https://www.youtube.com/watch?v=c0h_XUG_R_o)
 
-<p class="clip-credit"><strong>Counter the 50/50 Heel Hook with a Wristlock</strong> — taught by Whangarei BJJ · 1:01 · <a href="https://www.youtube.com/watch?v=_hyZqLRwsWE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll Under to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>INTRO to LEGLOCKS - Staying SAFE in 5050 (Jiu Jitsu)</strong> · 6:09 · <a href="https://www.youtube.com/watch?v=c0h_XUG_R_o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -269,7 +249,7 @@ From this position, you face multiple submission threats, primarily heel hook, a
 - Heel Protection Priority: Defending your heel from heel hook is absolute first priority; hide heel through knee rotation inward and aggressive grip fighting
 - Inside Position Recovery: Working to match opponent's inside control neutralizes their advantage and enables position reversal opportunities
 - Hip Mobility Maintenance: Constant hip movement prevents opponent from settling their pressure and creates escape opportunities
-- Strategic Decision Making: Quickly assess whether to fight for reversal or escape to standing based on inside position control and opponent's skill level
+- Strategic Decision Making: Quickly assess whether to fight for reversal or escape to standing based on inside position control and opponent's skill level. Deep Dive JJ describes Felipe opening his 50-50 figure-four and threading a leg beneath Gordon's backside as a back threat. Gordon sits in response, giving Felipe room to extract his own leg and start wrestling up. The narration leaves the final position unspecified. Sources: [Deep Dive JJ, 2:51–3:06.6](https://www.youtube.com/watch?v=pt3APdFOPh4&t=171s); [standing-opponent context, 4:35–4:47.4](https://www.youtube.com/watch?v=pt3APdFOPh4&t=275s).
 - Counter-Attack Recognition: Identifying when opponent's aggressive attacks expose their own leg for counter submissions
 - Energy Conservation: Position requires sustained defensive effort; avoid exhausting yourself with futile escape attempts when strategic extraction is better option
 

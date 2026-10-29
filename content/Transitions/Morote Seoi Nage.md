@@ -46,35 +46,12 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Morote-seoi-nage from same stance position",
-      "description": "Morote Seoi Nage film study: Morote-seoi-nage from same stance position, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Z8ZJ159pIIk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Z8ZJ159pIIk",
-      "url": "https://www.youtube.com/watch?v=Z8ZJ159pIIk",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT94S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Morote Seoi Nage instructional trailer",
-      "description": "Morote Seoi Nage film study: Morote Seoi Nage instructional trailer, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wvE1-TVqzzY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wvE1-TVqzzY",
-      "url": "https://www.youtube.com/watch?v=wvE1-TVqzzY",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT45S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Seoi Nage dropping to both knees",
-      "description": "Morote Seoi Nage film study: Seoi Nage dropping to both knees, taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/klwnsvq4RJc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/klwnsvq4RJc",
-      "url": "https://www.youtube.com/watch?v=klwnsvq4RJc",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT65S"
+      "name": "Learn how to counter seoi-nage with a quick foot sweep",
+      "description": "Morote Seoi Nage film study: Learn how to counter seoi-nage with a quick foot sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qEE09xFbu8I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qEE09xFbu8I",
+      "url": "https://www.youtube.com/watch?v=qEE09xFbu8I",
+      "duration": "PT28S"
     }
   ]
 }
@@ -124,25 +101,9 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Z8ZJ159pIIk)
+![](https://www.youtube.com/watch?v=qEE09xFbu8I)
 
-<p class="clip-credit"><strong>Morote-seoi-nage from same stance position</strong> — taught by Shintaro Higashi · 1:34 · <a href="https://www.youtube.com/watch?v=Z8ZJ159pIIk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=wvE1-TVqzzY)
-
-<p class="clip-credit"><strong>Morote Seoi Nage instructional trailer</strong> — taught by Shintaro Higashi · 0:45 · <a href="https://www.youtube.com/watch?v=wvE1-TVqzzY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=klwnsvq4RJc)
-
-<p class="clip-credit"><strong>Seoi Nage dropping to both knees</strong> — taught by Revolution BJJ · 1:05 · <a href="https://www.youtube.com/watch?v=klwnsvq4RJc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Learn how to counter seoi-nage with a quick foot sweep</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=qEE09xFbu8I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

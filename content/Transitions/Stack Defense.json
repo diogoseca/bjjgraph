@@ -438,30 +438,18 @@
     "clips": [
       {
         "id": "YZkWd9yDOjg",
-        "title": "Stack pass guard recovery into triangle",
-        "by": "Revolution BJJ coach",
-        "vertical": false,
+        "title": "Stack pass guard recovery to triangle",
         "channel": "Revolution BJJ Ashland",
         "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "BhNZGloJ56c",
-        "title": "Guard recovery trick when getting smashed",
-        "by": "Finesse Jiujitsu coach",
         "vertical": false,
-        "channel": "FINESSE JIUJITSU HTX",
-        "duration": 103,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "Y6R29wW_KrU",
-        "title": "Defending the stack pass in no-gi",
-        "by": "Matt Serra",
-        "vertical": false,
+        "title": "16_P1_Matt Sera Nogi - Defending Stack Pass",
         "channel": "Fernaldi Jonatan",
         "duration": 158,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -628,31 +616,11 @@
     ],
     "clips": [
       {
-        "id": "2KcAEYsaHAg",
-        "title": "Stack pass breakdown",
-        "by": "Kenny Kim",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 88,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EC4JVnymW3U",
-        "title": "Stack pass from closed guard",
-        "by": "Procel BJJ coach",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 95,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0HIyQwUm2lw",
-        "title": "Stack pass mechanics",
-        "by": "Andy Varela",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 133,
-        "verified": "2026-07-15"
+        "id": "X29_Z3lkVTU",
+        "title": "BJJ Guard Pass: When the Double Stack Pass Fails",
+        "channel": "Water Style Jiu Jitsu",
+        "duration": 150,
+        "front": true
       }
     ]
   }

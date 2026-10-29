@@ -404,30 +404,11 @@
     "clips": [
       {
         "id": "P-rkPE4bjdE",
-        "title": "Saddle transition from top half guard",
-        "by": "Thunderdome BJJ coach",
-        "vertical": false,
+        "title": "Saddle Transition from Top Half Guard",
         "channel": "Thunderdome BJJ",
         "duration": 31,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "HniaoFWTsmI",
-        "title": "Easy entry to the saddle from top",
-        "by": "Ilya",
         "vertical": false,
-        "channel": "Ilya's Jiu-Jitsu",
-        "duration": 53,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "IOyoyijtaBY",
-        "title": "Gordon Ryan saddle entry breakdown",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "THE FLAWED CASUAL",
-        "duration": 85,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -618,26 +599,7 @@
         "description": "Situational sparring starting from guard positions where top player actively hunts saddle entries alongside passing attempts. Defender works preventive leg management, early recognition, and full defensive sequence against committed entries. Progress to open rolling where saddle entry defense is tested against complete game plans."
       }
     ],
-    "clips": [
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending heel hooks from the saddle",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "m0NLphEuFoc",
-        "title": "Leg lock defense basics",
-        "by": "10th Planet coach",
-        "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

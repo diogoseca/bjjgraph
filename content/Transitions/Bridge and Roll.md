@@ -46,35 +46,22 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mount bottom bridge and roll escape",
-      "description": "Bridge and Roll film study: Mount bottom bridge and roll escape, taught by Academy Jiu Jitsu.",
+      "name": "Mount (Bottom) Bridge \u0026 Roll Escape #2",
+      "description": "Bridge and Roll film study: Mount (Bottom) Bridge \u0026 Roll Escape #2.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2uuP147GoBk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2uuP147GoBk",
       "url": "https://www.youtube.com/watch?v=2uuP147GoBk",
-      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
-      "duration": "PT62S"
+      "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to do a bridge and roll mount escape",
-      "description": "Bridge and Roll film study: How to do a bridge and roll mount escape, taught by Diaz Combat Sports.",
+      "name": "How To Do A Bridge \u0026 Roll Mount Escape In BJJ",
+      "description": "Bridge and Roll film study: How To Do A Bridge \u0026 Roll Mount Escape In BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Q2YZ0oiVMYo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Q2YZ0oiVMYo",
       "url": "https://www.youtube.com/watch?v=Q2YZ0oiVMYo",
-      "creator": { "@type": "Person", "name": "Diaz Combat Sports" },
       "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Upa mount escape beating shadow hooks",
-      "description": "Bridge and Roll film study: Upa mount escape beating shadow hooks, taught by SBG PDX.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MgF9kZdPnDE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MgF9kZdPnDE",
-      "url": "https://www.youtube.com/watch?v=MgF9kZdPnDE",
-      "creator": { "@type": "Person", "name": "SBG PDX" },
-      "duration": "PT104S"
     }
   ]
 }
@@ -130,7 +117,7 @@ The technique demonstrates fundamental BJJ principles including the use of frame
 
 ![](https://www.youtube.com/watch?v=2uuP147GoBk)
 
-<p class="clip-credit"><strong>Mount bottom bridge and roll escape</strong> — taught by Academy Jiu Jitsu · 1:02 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mount (Bottom) Bridge &amp; Roll Escape #2</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +125,7 @@ The technique demonstrates fundamental BJJ principles including the use of frame
 
 ![](https://www.youtube.com/watch?v=Q2YZ0oiVMYo)
 
-<p class="clip-credit"><strong>How to do a bridge and roll mount escape</strong> — taught by Diaz Combat Sports · 1:27 · <a href="https://www.youtube.com/watch?v=Q2YZ0oiVMYo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MgF9kZdPnDE)
-
-<p class="clip-credit"><strong>Upa mount escape beating shadow hooks</strong> — taught by SBG PDX · 1:44 · <a href="https://www.youtube.com/watch?v=MgF9kZdPnDE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Do A Bridge &amp; Roll Mount Escape In BJJ</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=Q2YZ0oiVMYo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -358,7 +337,7 @@ The Bridge and Roll escape is the foundational technique in the mount escape hie
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference: Bridge and Roll.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Bridge and Roll.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Teaching BJJ: Explanation, Recall and Application</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Bridge and Roll.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Defensive Priorities Under IBJJF Rules</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition reference for defensive decision study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Sport Grappling and Self-Defense</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Related transition reference: Bridge and Roll.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

@@ -188,35 +188,32 @@ description: "Learn to execute the cross collar choke from closed guard with dee
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross Collar Chokes breakdown",
-      "description": "Cross Collar Choke from Closed Guard (Attacker) film study: Cross Collar Chokes breakdown, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
-      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT80S"
+      "name": "Closed guard bottom - Cross collar choke",
+      "description": "Cross Collar Choke from Closed Guard (Attacker) film study: Closed guard bottom - Cross collar choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OKXBAzR_Y98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OKXBAzR_Y98",
+      "url": "https://www.youtube.com/watch?v=OKXBAzR_Y98",
+      "duration": "PT91S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The one thing that makes the cross collar choke easy",
-      "description": "Cross Collar Choke from Closed Guard (Attacker) film study: The one thing that makes the cross collar choke easy, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/X93MdMlmrUg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/X93MdMlmrUg",
-      "url": "https://www.youtube.com/watch?v=X93MdMlmrUg",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT77S"
+      "name": "Finishing Cross Collar Choke If You Can\u0027t Pull Them In",
+      "description": "Cross Collar Choke from Closed Guard (Attacker) film study: Finishing Cross Collar Choke If You Can\u0027t Pull Them In.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TDBe1SHzHKo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TDBe1SHzHKo",
+      "url": "https://www.youtube.com/watch?v=TDBe1SHzHKo",
+      "duration": "PT51S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Finishing when you can\u0027t pull them in",
-      "description": "Cross Collar Choke from Closed Guard (Attacker) film study: Finishing when you can\u0027t pull them in, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TDBe1SHzHKo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TDBe1SHzHKo",
-      "url": "https://www.youtube.com/watch?v=TDBe1SHzHKo",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT51S"
+      "name": "The ONE THING that makes your cross collar choke EASY",
+      "description": "Cross Collar Choke from Closed Guard (Attacker) film study: The ONE THING that makes your cross collar choke EASY.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X93MdMlmrUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X93MdMlmrUg",
+      "url": "https://www.youtube.com/watch?v=X93MdMlmrUg",
+      "duration": "PT77S"
     }
   ]
 }
@@ -245,17 +242,9 @@ Executing the cross collar choke from closed guard requires establishing a deep 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+![](https://www.youtube.com/watch?v=OKXBAzR_Y98)
 
-<p class="clip-credit"><strong>Cross Collar Chokes breakdown</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=X93MdMlmrUg)
-
-<p class="clip-credit"><strong>The one thing that makes the cross collar choke easy</strong> — taught by Henry Akins · 1:17 · <a href="https://www.youtube.com/watch?v=X93MdMlmrUg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed guard bottom - Cross collar choke</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=OKXBAzR_Y98" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +252,15 @@ Executing the cross collar choke from closed guard requires establishing a deep 
 
 ![](https://www.youtube.com/watch?v=TDBe1SHzHKo)
 
-<p class="clip-credit"><strong>Finishing when you can&#39;t pull them in</strong> — taught by Henry Akins · 0:51 · <a href="https://www.youtube.com/watch?v=TDBe1SHzHKo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finishing Cross Collar Choke If You Can&#39;t Pull Them In</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=TDBe1SHzHKo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X93MdMlmrUg)
+
+<p class="clip-credit"><strong>The ONE THING that makes your cross collar choke EASY</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=X93MdMlmrUg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

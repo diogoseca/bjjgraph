@@ -1,4 +1,5 @@
-/* @hyperspace {"theme":"challenges-and-belt-bar","L":"srs-veteran","F":"option-tray-sheet","B":"guard-limit"} @invariant "Hidden reward counters (reward.sheet-twelve) advance without ever emitting challenge_completed or tut_step, yet crossing twelve sheet_opened events mints the oss-and-found coin with exactly one coin_earned beat and a thirteenth sheet re-mints nothing." */
+// v1.230.0 reverses v1.218.1/v1.220.0 Inspect. D-318 moves research to the video viewer, preserving every reward assertion.
+/* @hyperspace {"theme":"challenges-and-belt-bar","L":"srs-veteran","F":"option-tray-sheet","B":"guard-limit"} @invariant "Hidden reward counters (reward.sheet-twelve) advance without ever emitting challenge_completed or tut_step, yet crossing twelve sheet_opened events mints the oss-and-found coin with exactly one coin_earned beat and a thirteenth video open re-mints nothing." */
 import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 import { srsVeteran } from "./personas"
@@ -17,13 +18,9 @@ import { srsVeteran } from "./personas"
  * nothing (progress caps at target, engine line 40) and re-mints nothing (mint-once guard
  * challenge-engine.src.js:142 `if (nextCoins[id]) continue`).
  *
- * Determinism (probe 2/2 green, ~9s each, through real UI): land()'s built-in rigs
- * (ai-skill/role/max-moves) cover ALL ambient draws; opening/closing the expand sheet draws
- * no RNG, and sim time is never advanced after the deal so the decision clock stays inert
- * (expandOption pauses it anyway; closeOptionDetail resumes a clock we never pump). Close
- * waits on BOTH `!_detailCtx` AND `optionsRef.current.style.transform === "none"` — the
- * latter is closeOptionDetail's 400ms wall-clock row reset (app.src.jsx:1905), and waiting
- * it out is what makes 13 consecutive open/close cycles click-stable on the same card.
+ * Determinism: land() rigs the ambient draws. The video viewer draws no RNG, declines
+ * the question, and pauses the game. watchChoice closes the viewer before the next
+ * measured input; the source card remains in place throughout all thirteen visits.
  *
  * GOTCHA the whole spec is shaped around: the 13-open phase is COMMIT-FREE. sheetsSinceLand
  * accumulates in the reward runtime (challenge-engine.src.js:134) and any commit after >=3
@@ -34,24 +31,12 @@ import { srsVeteran } from "./personas"
  * hidden-guard silence per open (1-11), and proves the durable localStorage save.
  */
 
-/** Open the target's expand sheet like a user: tray card click → Execute visible.
- *  expandOption (app.src.jsx:1587) fires sheet_opened on EVERY open — no dedupe. */
+/** The video viewer opens and preserves the research event for every visit. */
 async function openSheet(page: Page, technique: string, cycle: number) {
-  const card = page.locator(`[data-tech="${technique}"]`).first()
-  await expect(card, `cycle ${cycle}: option card for "${technique}" visible`).toBeVisible()
-  await card.locator("[data-choice-inspect]").click()
-  await expect(page.locator("[data-go]").first(), `cycle ${cycle}: expand-sheet Execute button visible`).toBeVisible()
+  await journey(page).watchChoice(technique)
 }
-
-/** Close via keyboard Escape (app.src.jsx:283 → closeOptionDetail), then wait out the
- *  400ms wall-clock row reset — _detailCtx clears synchronously but the tray row only
- *  returns to transform:none (clickable, settled) after the setTimeout at :1905. */
 async function closeSheet(page: Page) {
-  await page.keyboard.press("Escape")
-  await page.waitForFunction(() => {
-    const a = (window as any).__neural
-    return !a._detailCtx && !!a.optionsRef.current && a.optionsRef.current.style.transform === "none"
-  })
+  await expect(page.locator("[data-choice-viewer]")).toHaveCount(0)
 }
 
 /** Everything the invariant watches, in one evaluate: the hidden counter's live progress,
@@ -78,7 +63,7 @@ const snap = (page: Page, baseline: number) =>
     }
   }, baseline)
 
-test("veteran opens the same sheet 13 times: silent counter 1-11, one oss-and-found mint at 12, no re-mint at 13", async ({
+test("veteran video opens the same move 13 times: silent counter 1-11, one oss-and-found mint at 12, no re-mint at 13", async ({
   page,
 }) => {
   const errors: string[] = []

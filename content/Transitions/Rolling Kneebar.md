@@ -4,7 +4,7 @@
 
 ---
 title: "Rolling Kneebar | BJJ Technique | BJJ Graph"
-description: "Master the Rolling Kneebar from Grasshopper Guard. Dynamic leg attack using rotational momentum and inversion to capture the knee for hyperextension."
+description: "Master the Rolling Kneebar Entry from Inverted Guard Guard. Dynamic leg attack using rotational momentum and inversion to capture the knee for hyperextension."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Rolling Kneebar from Grasshopper Guard. Dynamic leg att
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rolling Kneebar",
-  "description": "Master the Rolling Kneebar from Grasshopper Guard. Dynamic leg attack using rotational momentum and inversion to capture the knee for hyperextension.",
+  "description": "Master the Rolling Kneebar Entry from Inverted Guard Guard. Dynamic leg attack using rotational momentum and inversion to capture the knee for hyperextension.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,50 +36,6 @@ description: "Master the Rolling Kneebar from Grasshopper Guard. Dynamic leg att
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Rolling Kneebar \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Go-behind kneebar entry",
-      "description": "Rolling Kneebar film study: Go-behind kneebar entry, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
-      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT129S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Half guard to kneebar",
-      "description": "Rolling Kneebar film study: Half guard to kneebar, taught by CholoMMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uB23Ogno7DM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uB23Ogno7DM",
-      "url": "https://www.youtube.com/watch?v=uB23Ogno7DM",
-      "creator": { "@type": "Person", "name": "CholoMMA" },
-      "duration": "PT24S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "No-gi kneebar technique",
-      "description": "Rolling Kneebar film study: No-gi kneebar technique, taught by Jiu Jitsu Matrix.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/12rNXPlqVXo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/12rNXPlqVXo",
-      "url": "https://www.youtube.com/watch?v=12rNXPlqVXo",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Matrix" },
-      "duration": "PT20S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -87,7 +43,7 @@ description: "Master the Rolling Kneebar from Grasshopper Guard. Dynamic leg att
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Rolling Kneebar",
-  "description": "The Rolling Kneebar is a dynamic leg attack from Grasshopper Guard where the bottom player uses rotational momentum to roll through the opponent's base, capturing and hyperextending the knee in a belly-down finishing position.",
+  "description": "The Rolling Kneebar is a dynamic leg attack from Inverted Guard where the bottom player uses rotational momentum to roll through the opponent's base, capturing and hyperextending the knee in a belly-down finishing position.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,55 +61,21 @@ description: "Master the Rolling Kneebar from Grasshopper Guard. Dynamic leg att
 
 <section id="overview" class="content-section">
 
-**The Rolling Kneebar is a dynamic leg attack from Grasshopper Guard where the bottom player uses rotational momentum to roll through the opponent's base, capturing and hyperextending the knee in a belly-down finishing position.**
+**The Rolling Kneebar is a dynamic leg attack from Inverted Guard where the bottom player uses rotational momentum to roll through the opponent's base, capturing and hyperextending the knee in a belly-down finishing position.**
 
-Within the modern leg-lock game, the Rolling Kneebar is the most aggressive committed entry available from the inverted grasshopper platform, trading positional safety for a high-momentum attack that becomes difficult to defend once launched. This technique leverages the inverted positioning inherent to grasshopper guard, converting the guard player's elevated hips and leg entanglement into an aggressive rolling submission entry.
+Within the modern leg-lock game, the Rolling Kneebar is the most aggressive committed entry available from the inverted inverted platform, trading positional safety for a high-momentum attack that becomes difficult to defend once launched. This technique leverages the inverted positioning inherent to inverted guard, converting the guard player's elevated hips and leg entanglement into an aggressive rolling submission entry.
 
 The attack works by using the bottom player's existing leg contact as an anchor point while rolling underneath and through the opponent's base. As you roll, your legs trap the opponent's leg while your hips rotate to create the breaking angle across their knee joint. The momentum of the roll makes this attack difficult to defend once initiated properly, as the opponent must deal with both the rotational force and the sudden positional change.
 
-Strategically, the Rolling Kneebar excels when opponents attempt to back step away from grasshopper guard. Their retreating motion actually facilitates the roll by creating space and providing directional momentum. The technique also works when opponents freeze against your leg engagement, as their static positioning gives you time to set the roll. However, against opponents who drive forward aggressively, the roll becomes harder to execute and other attacks like X-Guard sweeps become preferable.
+Strategically, the Rolling Kneebar excels when opponents attempt to back step away from inverted guard. Their retreating motion actually facilitates the roll by creating space and providing directional momentum. The technique also works when opponents freeze against your leg engagement, as their static positioning gives you time to set the roll. However, against opponents who drive forward aggressively, the roll becomes harder to execute and other attacks like X-Guard sweeps become preferable.
 
 This submission requires significant timing and body coordination, as the roll must be executed smoothly while maintaining leg control throughout. Rushing the roll or losing hip connection mid-technique typically results in the opponent extracting their leg and passing. Mastery requires understanding the precise moment when your hip elevation, leg grip, and opponent's positioning align to create the ideal rolling window.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Rolling Kneebar in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
-
-<p class="clip-credit"><strong>Go-behind kneebar entry</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uB23Ogno7DM)
-
-<p class="clip-credit"><strong>Half guard to kneebar</strong> — taught by CholoMMA · 0:24 · <a href="https://www.youtube.com/watch?v=uB23Ogno7DM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=12rNXPlqVXo)
-
-<p class="clip-credit"><strong>No-gi kneebar technique</strong> — taught by Jiu Jitsu Matrix · 0:20 · <a href="https://www.youtube.com/watch?v=12rNXPlqVXo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -163,7 +85,7 @@ This submission requires significant timing and body coordination, as the roll m
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Kneebar Control]] | 55% |
-| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
 | Counter | [[Positions/Side Control]] | 15% |
 
 
@@ -192,7 +114,7 @@ This submission requires significant timing and body coordination, as the roll m
 
 - Maintain leg contact throughout the entire rolling motion to prevent escape
 
-- Use hip elevation from grasshopper as launching point for rotational momentum
+- Use hip elevation from inverted as launching point for rotational momentum
 
 - Roll through the opponent rather than around them for maximum control
 
@@ -208,7 +130,7 @@ This submission requires significant timing and body coordination, as the roll m
 ### Execution Steps
 
 
-- **Secure leg control**: From grasshopper guard, ensure your inside leg hooks firmly behind opponent's knee while your outsid...
+- **Secure leg control**: From inverted guard, ensure your inside leg hooks firmly behind opponent's knee while your outside l...
 
 - **Load hips toward target**: Shift your hip angle to face the trapped leg directly, loading your weight onto the shoulder on the ...
 
@@ -252,7 +174,7 @@ This submission requires significant timing and body coordination, as the roll m
 
 - Maintain a bent knee and active hip rotation to deny the extension angle required for the finish
 
-- Post your hand and sprawl immediately when you feel lateral hip shift from the grasshopper player
+- Post your hand and sprawl immediately when you feel lateral hip shift from the inverted player
 
 - Keep your base wide and weight distributed to resist being pulled into the rolling motion
 
@@ -266,7 +188,7 @@ This submission requires significant timing and body coordination, as the roll m
 ### Recognition Cues
 
 
-- Opponent's hips shift laterally toward your trapped leg while in grasshopper guard, loading weight onto one shoulder for the roll
+- Opponent's hips shift laterally toward your trapped leg while in inverted guard, loading weight onto one shoulder for the roll
 
 - You feel increased pulling pressure on your hooked leg combined with the opponent's hands pushing off the mat
 
@@ -284,7 +206,7 @@ This submission requires significant timing and body coordination, as the roll m
 
 - **Step over the rolling body with your free leg while pulling the trapped leg backward** - When: Mid-stage - when the roll has begun but not yet completed, stepping over allows you to clear the entanglement before the figure-four locks
 
-- **Drive forward aggressively to flatten the inversion before roll develops** - When: Pre-emptive - when you recognize the grasshopper player is setting up for the roll but has not yet committed, forward pressure collapses their inversion
+- **Drive forward aggressively to flatten the inversion before roll develops** - When: Pre-emptive - when you recognize the inverted player is setting up for the roll but has not yet committed, forward pressure collapses their inversion
 
 
 </section>
@@ -313,7 +235,7 @@ This submission requires significant timing and body coordination, as the roll m
 
 ## Position Integration
 
-The Rolling Kneebar is a primary submission weapon within the grasshopper guard system, representing the most direct leg attack from the inverted position. It integrates with the broader leg lock game by creating entry to kneebar control, which itself chains to calf slicers, heel hooks, and toe holds. When the rolling kneebar is defended, the movement naturally flows into alternative leg entanglements like 50-50 guard or outside ashi-garami. The technique also functions as a guard retention tool - threatening the rolling kneebar forces standing opponents to respect your leg engagement and prevents casual disengagement. This creates openings for sweeps and other submissions even when you don't complete the kneebar itself. Mastery of rolling kneebar makes the entire grasshopper guard system more dangerous by giving the guard player a reliable high-percentage submission threat.
+The Rolling Kneebar is a primary submission weapon within the inverted guard system, representing the most direct leg attack from the inverted position. It integrates with the broader leg lock game by creating entry to kneebar control, which itself chains to calf slicers, heel hooks, and toe holds. When the rolling kneebar is defended, the movement naturally flows into alternative leg entanglements like 50-50 guard or outside ashi-garami. The technique also functions as a guard retention tool - threatening the rolling kneebar forces standing opponents to respect your leg engagement and prevents casual disengagement. This creates openings for sweeps and other submissions even when you don't complete the kneebar itself. Mastery of rolling kneebar makes the entire inverted guard system more dangerous by giving the guard player a reliable high-percentage submission threat.
 
 </section>
 
@@ -323,7 +245,7 @@ The Rolling Kneebar is a primary submission weapon within the grasshopper guard 
 ## Related Techniques
 
 
-- [[Positions/Grasshopper Guard]] - Starting position for the rolling kneebar entry
+- [[Positions/Inverted Guard]] - Starting position for the rolling kneebar entry
 
 - [[Positions/Kneebar Control]] - Destination position on successful roll completion
 

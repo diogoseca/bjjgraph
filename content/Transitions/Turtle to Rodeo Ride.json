@@ -380,35 +380,7 @@
       }
     ],
     "safety_considerations": "The Transition to Rodeo Ride involves loading significant hip pressure onto the opponent's torso and ribs. Avoid dropping your full weight suddenly, particularly in training, as this can cause rib injuries or thoracic spine compression. When drilling, load pressure gradually and communicate with your partner about pressure intensity. The near-arm control should not involve hyper-extending the shoulder—control the wrist or elbow rather than cranking the arm into uncomfortable positions. During the hip walk phase, be aware of your knee placement to avoid accidentally driving your knee into your partner's face or neck. In competition, these considerations still apply but the pace of entry is naturally faster.",
-    "clips": [
-      {
-        "id": "6MhcPYISQDU",
-        "title": "Rodeo ride and choke from turtle top",
-        "by": "Ethos Jiu-Jitsu Fullerton",
-        "vertical": false,
-        "channel": "Ethos Jiu-Jitsu Fullerton",
-        "duration": 85,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "vYD01Vgjy_8",
-        "title": "Rodeo ride vs turtle and prone opponent",
-        "by": "Steve Scott",
-        "vertical": false,
-        "channel": "welcomematstevescott",
-        "duration": 211,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "BF0dNxRR444",
-        "title": "Seated rodeo ride to juji gatame",
-        "by": "Steve Scott",
-        "vertical": false,
-        "channel": "welcomematstevescott",
-        "duration": 266,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Turtle to Rodeo Ride Defender",
@@ -572,25 +544,6 @@
         "description": "Begin from turtle bottom against an opponent who will attempt Rodeo Ride among other turtle attacks. Defend the entry, escape if caught, and recover to guard or standing. Full resistance, full speed. 5-minute rounds tracking how often you successfully prevent the entry versus how often you must escape from established Rodeo Ride."
       }
     ],
-    "clips": [
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing up out of turtle, defensive detail",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "F7LWaSTKDPI",
-        "title": "Turtle bottom: connecting head and shoulder",
-        "by": "Black Dragon BJJ coach",
-        "vertical": false,
-        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
-        "duration": 305,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

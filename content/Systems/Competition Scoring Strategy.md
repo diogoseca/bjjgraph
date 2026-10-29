@@ -17,7 +17,7 @@ description: "How IBJJF guard-pass scoring, continuous positional progression an
 <h1>IBJJF Points, Control and Tiebreakers</h1>
 <div class="system-tags"><span>Competition Strategy</span><span>Intermediate</span></div>
 
-<p class="system-reference-count">17 related references (techniques and positions)</p>
+<p class="system-reference-count">16 related references (techniques and positions)</p>
 </header>
 
 
@@ -106,9 +106,6 @@ These related references are not a claim about what the course teaches or eviden
 
 
 - [[Transitions/Guard Pull|Guard Pull]] (Transition)
-
-
-- [[Transitions/Back Take|Back Take]] (Transition)
 
 
 - [[Transitions/Ankle Pick|Ankle Pick]] (Transition)

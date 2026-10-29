@@ -83,7 +83,7 @@ description: "Complete guide to defending the rotation from 50-50 Guard to Backs
       "name": "When should you stop preventing the rotation and switch to Backside 50-50 bottom defense?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When the opponent's chest has passed perpendicular to your back and they have begun establishing forward pressure, the rotation is past the point of efficient prevention. Continuing to fight the transition at this point wastes energy that you will desperately need for Backside 50-50 Bottom defense. Immediately shift to back exposure management, heel protection, and active hip movement to prevent complete flattening. Accept the positional loss and focus on the next phase of defense."
+        "text": "Once the opponent is behind the trapped leg with their inside foot across your stomach and your knee line contained, respond to the established Backside 50-50. Protect the heel, manage the foot frame, and work to recover the knee line or a facing angle. Do not force a turn through a captured heel."
       }
     }
   ]
@@ -142,50 +142,6 @@ description: "Complete guide to defending the rotation from 50-50 Guard to Backs
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "50-50 Guard to Backside 50-50 (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Escape and counter the backside 50/50",
-      "description": "50-50 Guard to Backside 50-50 (Defender) film study: Escape and counter the backside 50/50, taught by Matrix Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RTzSOGlxSWg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RTzSOGlxSWg",
-      "url": "https://www.youtube.com/watch?v=RTzSOGlxSWg",
-      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
-      "duration": "PT240S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "50/50 defense: protecting your leg",
-      "description": "50-50 Guard to Backside 50-50 (Defender) film study: 50/50 defense: protecting your leg, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
-      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT161S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Backside 50/50 defense",
-      "description": "50-50 Guard to Backside 50-50 (Defender) film study: Backside 50/50 defense, taught by Giancarlo Bodoni.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zhApZgQzWVk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zhApZgQzWVk",
-      "url": "https://www.youtube.com/watch?v=zhApZgQzWVk",
-      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
-      "duration": "PT174S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -198,40 +154,6 @@ As the defender against the Transition to Backside 50-50, your primary objective
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch 50-50 Guard to Backside 50-50 (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RTzSOGlxSWg)
-
-<p class="clip-credit"><strong>Escape and counter the backside 50/50</strong> — taught by Matrix Jiu Jitsu · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R7lPdQWLOus)
-
-<p class="clip-credit"><strong>50/50 defense: protecting your leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zhApZgQzWVk)
-
-<p class="clip-credit"><strong>Backside 50/50 defense</strong> — taught by Giancarlo Bodoni · 2:54 · <a href="https://www.youtube.com/watch?v=zhApZgQzWVk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -257,7 +179,7 @@ As the defender against the Transition to Backside 50-50, your primary objective
 
 - Early recognition is the most effective defense: stopping the rotation in the first two inches of hip movement is dramatically easier than stopping it at the halfway point
 - Hip mobility is your primary defensive tool: active hip movement prevents the opponent from establishing the stable base needed to initiate the walking arc
-- Match their rotation direction by turning your body to face them, denying the chest-to-back angle they need to complete the transition
+- Match their rotation direction by turning your body to face them, denying the angle behind the trapped leg they need to complete the transition
 - Grip fighting on their anchor hand disrupts the rotation's foundation since they need that grip to prevent you from spinning with them
 - When the transition is past the point of prevention, immediately shift to Backside 50-50 Bottom defense rather than wasting energy trying to reverse a completed rotation
 
@@ -314,7 +236,7 @@ Prevent the rotation entirely by matching their movement with your own hip turn,
 
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
-Bridge explosively during the opponent's rotation when their base is compromised by the lateral movement. Time the bridge for the moment they have committed weight to the arc but have not yet established chest pressure on your back. The sweep reversal requires aggressive hip elevation combined with directional force toward the side they are rotating from.
+Bridge explosively during the opponent's rotation when their base is compromised by the lateral movement. Time the bridge for the moment they have committed weight to the arc but have not yet established control of your trapped knee line. The sweep reversal requires aggressive hip elevation combined with directional force toward the side they are rotating from.
 
 
 
@@ -333,7 +255,7 @@ Bridge explosively during the opponent's rotation when their base is compromised
 
 ### 2. Remaining flat on your back with static hips when you feel the opponent beginning to circle
 
-- **Consequence**: Static hips provide no resistance to the rotation. Opponent walks behind you unimpeded and establishes Backside 50-50 with full chest pressure.
+- **Consequence**: Static hips provide no resistance to the rotation. Opponent walks behind you unimpeded and establishes Backside 50-50 with full knee-line control.
 - **Correction**: Maintain active hip movement whenever you are in standard 50-50 bottom. Constant small hip adjustments prevent the opponent from establishing the stable platform needed to initiate the walking arc. Move your hips proactively, do not wait for the rotation to begin before becoming active.
 
 ### 3. Trying to prevent the rotation by pushing against opponent's upper body with your hands instead of addressing the hip-level mechanics

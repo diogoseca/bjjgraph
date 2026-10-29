@@ -95,7 +95,7 @@
       "Work systematically to free trapped leg while defending sweep attempts, never forcing extraction when timing is unfavorable",
       "Maintain wide base on free leg with strategic hand posting to prevent being swept while preserving mobility for passing",
       "Recognize when forward pressure is advantageous versus when it creates sweep opportunities for opponent",
-      "Transition between different passing strategies based on opponent's reactions and positioning adjustments",
+      "Transition between different passing strategies based on opponent's reactions and positioning adjustments. In this example, the narrator says the top player can force the opponent’s frame toward the mat from butterfly half guard to enter a smash pass, then sprawl a leg back from the smash pass to reach chest-to-chest half guard. Narration: [Less Impressed More Involved BJJ, 4:30.18–4:44.58](https://www.youtube.com/watch?v=eKVzL5kmijk&t=270s).",
       "Never allow opponent to achieve full seated posture with established grips and active butterfly hook simultaneously"
     ],
     "decision_tree": [
@@ -455,30 +455,22 @@
     "clips": [
       {
         "id": "LIITsrlsAaI",
-        "title": "Passing Half Butterfly Guard",
+        "title": "Passing half butterfly guard",
         "by": "Morto BJJ",
-        "vertical": false,
+        "vertical": true,
         "channel": "Morto BJJ",
         "duration": 70,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "Pk_6CrydIRQ",
-        "title": "Effective Half Butterfly Guard Pass (No Gi)",
+        "title": "Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu",
         "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
+        "vertical": true,
         "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 110,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "BkT2cQdqqgU",
-        "title": "How to Pass the Butterfly Guard",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 117,
-        "verified": "2026-07-14"
+        "duration": 109,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -938,31 +930,11 @@
     ],
     "clips": [
       {
-        "id": "MlMwtCvfYlQ",
-        "title": "Marcelo Garcia Short Hook Sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "BJJ Joe",
-        "duration": 57,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "c8JBXJMc0Oc",
-        "title": "Marcelo Garcia Butterfly Sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Butterfly The World",
-        "duration": 81,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "WoSyrVZ1VvY",
-        "title": "Butterfly Hook Back Take from Half Guard",
-        "by": "Procel BJJ",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "id": "IPe_nWt17bg",
+        "title": "Half Butterfly Guard For Oldies",
+        "channel": "Ebsayz",
+        "duration": 628,
+        "front": true
       }
     ]
   },
@@ -1080,33 +1052,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "MFed9IE8afA",
-      "title": "Reverse Armdrag to Back Take (Marcelo style)",
-      "by": "Jerry Musquiz",
-      "vertical": false,
-      "channel": "Jerry Musquiz",
-      "duration": 42,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "-fnzNp6TWQo",
-      "title": "Rafael Lovato Jr Half Guard Sweep Breakdown",
-      "by": "Rafael Lovato Jr",
-      "vertical": false,
-      "channel": "Conceptual Grappling",
-      "duration": 88,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "wVWtFcfAbgE",
-      "title": "No Gi Butterfly Guard Explained Simply",
-      "by": "Jean Jacques Machado",
-      "vertical": false,
-      "channel": "JeanJacquesMachado",
-      "duration": 177,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

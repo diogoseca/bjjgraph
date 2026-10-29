@@ -186,35 +186,12 @@ description: "Master completing the guard pass from quarter guard top position. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Freeing your trapped foot to finish the pass",
-      "description": "Complete Pass from Quarter (Attacker) film study: Freeing your trapped foot to finish the pass, taught by Kameron Ross.",
+      "name": "EASY Way to Free Your Foot While Passing Half Guard",
+      "description": "Complete Pass from Quarter (Attacker) film study: EASY Way to Free Your Foot While Passing Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
       "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
-      "creator": { "@type": "Person", "name": "Kameron Ross" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Quarter guard escape and pass with slow motion",
-      "description": "Complete Pass from Quarter (Attacker) film study: Quarter guard escape and pass with slow motion, taught by Marcus Almeida.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8lAqEhHz8ao/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8lAqEhHz8ao",
-      "url": "https://www.youtube.com/watch?v=8lAqEhHz8ao",
-      "creator": { "@type": "Person", "name": "Marcus Almeida" },
-      "duration": "PT37S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Quarter guard passing mechanics",
-      "description": "Complete Pass from Quarter (Attacker) film study: Quarter guard passing mechanics, taught by RGA South Herts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/S8qzvGaBp74/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/S8qzvGaBp74",
-      "url": "https://www.youtube.com/watch?v=S8qzvGaBp74",
-      "creator": { "@type": "Person", "name": "RGA South Herts" },
-      "duration": "PT66S"
+      "duration": "PT54S"
     }
   ]
 }
@@ -244,23 +221,7 @@ Completing the pass from quarter guard is the top player's highest-priority acti
 
 ![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
 
-<p class="clip-credit"><strong>Freeing your trapped foot to finish the pass</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8lAqEhHz8ao)
-
-<p class="clip-credit"><strong>Quarter guard escape and pass with slow motion</strong> — taught by Marcus Almeida · 0:37 · <a href="https://www.youtube.com/watch?v=8lAqEhHz8ao" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=S8qzvGaBp74)
-
-<p class="clip-credit"><strong>Quarter guard passing mechanics</strong> — taught by RGA South Herts · 1:06 · <a href="https://www.youtube.com/watch?v=S8qzvGaBp74" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>EASY Way to Free Your Foot While Passing Half Guard</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

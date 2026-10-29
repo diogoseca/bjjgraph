@@ -186,35 +186,12 @@ description: "How to execute Body Lock Pass in BJJ. Attacking perspective with s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Nicky Rod\u0027s body lock pass explained",
-      "description": "Body Lock Pass (Attacker) film study: Nicky Rod\u0027s body lock pass explained, taught by Professor Buck.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sztjmLZYxIQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sztjmLZYxIQ",
-      "url": "https://www.youtube.com/watch?v=sztjmLZYxIQ",
-      "creator": { "@type": "Person", "name": "Professor Buck" },
-      "duration": "PT38S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Body lock guard pass off their underhook",
-      "description": "Body Lock Pass (Attacker) film study: Body lock guard pass off their underhook, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aAd6OIq94X0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aAd6OIq94X0",
-      "url": "https://www.youtube.com/watch?v=aAd6OIq94X0",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT205S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Body lock pass from butterfly guard",
-      "description": "Body Lock Pass (Attacker) film study: Body lock pass from butterfly guard, taught by Pagano BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jbCjWHAU9Rc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jbCjWHAU9Rc",
-      "url": "https://www.youtube.com/watch?v=jbCjWHAU9Rc",
-      "creator": { "@type": "Person", "name": "Pagano BJJ" },
-      "duration": "PT126S"
+      "name": "Half guard body lock smash pass",
+      "description": "Body Lock Pass (Attacker) film study: Half guard body lock smash pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Vg-SrkZdhGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Vg-SrkZdhGU",
+      "url": "https://www.youtube.com/watch?v=Vg-SrkZdhGU",
+      "duration": "PT184S"
     }
   ]
 }
@@ -244,25 +221,9 @@ The technique's effectiveness stems from removing the bottom player's primary de
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sztjmLZYxIQ)
+![](https://www.youtube.com/watch?v=Vg-SrkZdhGU)
 
-<p class="clip-credit"><strong>Nicky Rod&#39;s body lock pass explained</strong> — taught by Professor Buck · 0:38 · <a href="https://www.youtube.com/watch?v=sztjmLZYxIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aAd6OIq94X0)
-
-<p class="clip-credit"><strong>Body lock guard pass off their underhook</strong> — taught by Gordon Ryan · 3:25 · <a href="https://www.youtube.com/watch?v=aAd6OIq94X0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jbCjWHAU9Rc)
-
-<p class="clip-credit"><strong>Body lock pass from butterfly guard</strong> — taught by Pagano BJJ · 2:06 · <a href="https://www.youtube.com/watch?v=jbCjWHAU9Rc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half guard body lock smash pass</strong> · 3:04 · <a href="https://www.youtube.com/watch?v=Vg-SrkZdhGU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

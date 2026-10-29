@@ -188,35 +188,12 @@ description: "Master outside heel hook attacking technique from Honey Hole. Grip
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Honey hole to heel hook finish",
-      "description": "Outside Heel Hook from Honey Hole (Attacker) film study: Honey hole to heel hook finish, taught by Ilya Bodnya.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
-      "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
-      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
-      "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Heel hook breaking mechanics",
-      "description": "Outside Heel Hook from Honey Hole (Attacker) film study: Heel hook breaking mechanics, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
-      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "4 heel hook finishes from the saddle",
-      "description": "Outside Heel Hook from Honey Hole (Attacker) film study: 4 heel hook finishes from the saddle, taught by The Grappling Bloke.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n6EoUkDwUVc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n6EoUkDwUVc",
-      "url": "https://www.youtube.com/watch?v=n6EoUkDwUVc",
-      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
-      "duration": "PT102S"
+      "name": "GE Online Series - Episode 29 - Saddle To Outside Heel Hook",
+      "description": "Outside Heel Hook from Honey Hole (Attacker) film study: GE Online Series - Episode 29 - Saddle To Outside Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7ZrKaOZhGnU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7ZrKaOZhGnU",
+      "url": "https://www.youtube.com/watch?v=7ZrKaOZhGnU",
+      "duration": "PT170S"
     }
   ]
 }
@@ -245,25 +222,9 @@ Attacking with the outside heel hook from Honey Hole requires mastery of grip tr
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
+![](https://www.youtube.com/watch?v=7ZrKaOZhGnU)
 
-<p class="clip-credit"><strong>Honey hole to heel hook finish</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
-
-<p class="clip-credit"><strong>Heel hook breaking mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=n6EoUkDwUVc)
-
-<p class="clip-credit"><strong>4 heel hook finishes from the saddle</strong> — taught by The Grappling Bloke · 1:42 · <a href="https://www.youtube.com/watch?v=n6EoUkDwUVc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>GE Online Series - Episode 29 - Saddle To Outside Heel Hook</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=7ZrKaOZhGnU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

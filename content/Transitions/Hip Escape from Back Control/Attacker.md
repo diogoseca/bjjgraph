@@ -192,24 +192,12 @@ description: "Master executing the hip escape from back control bottom in BJJ. D
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back escape to half guard",
-      "description": "Hip Escape from Back Control (Attacker) film study: Back escape to half guard, taught by Soma Academy.",
+      "name": "Seated Back Mount Escape #2 Transition to Half Guard",
+      "description": "Hip Escape from Back Control (Attacker) film study: Seated Back Mount Escape #2 Transition to Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RR-T-7E7yjo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RR-T-7E7yjo",
       "url": "https://www.youtube.com/watch?v=RR-T-7E7yjo",
-      "creator": { "@type": "Person", "name": "Soma Academy" },
-      "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back control escape fundamentals",
-      "description": "Hip Escape from Back Control (Attacker) film study: Back control escape fundamentals, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
-      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT189S"
+      "duration": "PT88S"
     }
   ]
 }
@@ -239,15 +227,7 @@ As the bottom player executing the hip escape from back control, your primary ob
 
 ![](https://www.youtube.com/watch?v=RR-T-7E7yjo)
 
-<p class="clip-credit"><strong>Back escape to half guard</strong> — taught by Soma Academy · 1:29 · <a href="https://www.youtube.com/watch?v=RR-T-7E7yjo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3Jd2llamfl8)
-
-<p class="clip-credit"><strong>Back control escape fundamentals</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seated Back Mount Escape #2 Transition to Half Guard</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=RR-T-7E7yjo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

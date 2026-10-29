@@ -1,517 +1,299 @@
 {
   "name": "Dead Orchard Control",
   "slug": "dead-orchard-control",
-  "description": "Master Dead Orchard Control in BJJ. Strategic guide covering specialized anaconda variation with enhanced control mechanics, submission threats, and systematic defensive responses.",
-  "variant_uniqueness": "Trades quick finish for extended control",
-  "summary": "Dead Orchard Control is a 10th Planet anaconda-choke variation that trades an immediate finish for extended front-headlock dominance, systematically dismantling a trapped opponent's defenses while threatening blood chokes and positional advancement.",
-  "overview": "Dead Orchard Control represents an advanced positional control within Brazilian Jiu-Jitsu, particularly emphasized in the 10th Planet system. This position combines the structural control elements of the anaconda choke with strategic patience and extended dominance, creating a hybrid state between pure submission attempt and positional control. The name reflects the trapped, lifeless quality of the opponent's positioning - caught in a grip that systematically breaks down defensive capabilities while maintaining constant submission threat. Unlike standard anaconda setups that prioritize immediate finishing, Dead Orchard Control emphasizes sustainable pressure application and systematic dismantling of opponent defenses, allowing the practitioner to control timing and choose between maintaining position, advancing to more dominant states, or completing the submission. The position exists in both offensive and defensive contexts, with the top player working to maintain crushing pressure and submission mechanics while the bottom player must navigate a severely compromised defensive scenario with limited mobility and breathing restriction. Understanding both perspectives is essential for complete positional mastery, as the control mechanics, escape principles, and transition opportunities differ dramatically based on which role the practitioner occupies. This position demonstrates the evolution of modern grappling beyond simple submission hunting toward sophisticated positional dominance that creates multiple offensive pathways.",
+  "description": "Dead Orchard Control is Nathan Orchard's high rubber-guard trap in which the bottom player triangles the legs around the opponent's shoulders with both arms inside, creating short arm-lock opportunities.",
+  "variant_uniqueness": "Both arms trapped inside a high leg triangle",
+  "summary": "Dead Orchard Control is Nathan Orchard's high rubber-guard trap in which the bottom player triangles the legs around the opponent's shoulders with both arms inside, creating short arm-lock opportunities.",
+  "overview": "The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. The top player has not cleared a shoulder or withdrawn the elbows below the controlling leg line. The hands can isolate an arm while the legs maintain the shoulder enclosure.\n\nThe defining feature is both shoulders and arms enclosed by the legs. An anaconda instead uses an arm loop around the neck and one arm from a front headlock; the two controls require different body configurations. Terminology: Dead Orchard, Dead Orchard high guard.\n\nBring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose. Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard. Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee.\n\nBoth arms may be trapped, so agree on verbal and foot taps. Never stack the neck, wrench a knee into the leg triangle, or test a captured elbow by pulling hard.\n\nInstructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.youtube.com/watch?v=XoiB1D2WJwE); [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo).",
   "key_principles": [
-    "Establish deep anaconda grip configuration before committing to extended control or submission finish",
-    "Apply gradual, systematic pressure increases rather than explosive finishing attempts to break down defenses",
-    "Maintain shoulder pressure into opponent's trapped shoulder to prevent posture recovery and structural escape",
-    "Control opponent's hips and movement through strategic weight distribution and positioning adjustments",
-    "Recognize optimal windows for submission finish versus position advancement based on opponent reactions",
-    "From bottom, prioritize calm breathing and systematic escape sequences over explosive panic movements",
-    "Create and maintain proper angles for compression whether attacking or defending the position"
+    "Break posture first: Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose.",
+    "Enclose both arms: Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard.",
+    "Keep the knee supported: Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee.",
+    "Control an elbow: Hold an exposed arm without straightening it to its limit; leg control should carry the posture work.",
+    "Follow the shoulder line: Adjust the hip angle if the opponent starts withdrawing a shoulder, and recover guard if the enclosure opens.",
+    "Release before loading: Uncross the legs and let the arm go immediately on a tap, pain, or unsafe stacking pressure."
   ],
   "related_positions": [
     {
-      "name": "Anaconda Control",
-      "relationship": "Parent technique - standard anaconda without dead orchard control emphasis"
+      "name": "Rubber Guard",
+      "relationship": "Related position, not an automatic outcome: compare the configuration and required controls for Rubber Guard."
     },
     {
-      "name": "Darce Control",
-      "relationship": "Sister position - alternative arm-in choke with similar control mechanics"
+      "name": "Mission Control",
+      "relationship": "Related position, not an automatic outcome: compare the configuration and required controls for Mission Control."
     },
     {
-      "name": "Front Headlock",
-      "relationship": "Entry position - common setup state for dead orchard establishment"
-    },
-    {
-      "name": "Guillotine Control",
-      "relationship": "Alternative control - different front headlock choke configuration"
-    },
-    {
-      "name": "Turtle",
-      "relationship": "Common entry state where dead orchard is frequently established"
-    },
-    {
-      "name": "Mount",
-      "relationship": "Transition target - high-percentage advancement when submission is defended"
-    },
-    {
-      "name": "Back Control",
-      "relationship": "Alternative advancement - positional transition when opponent drives forward"
-    },
-    {
-      "name": "North-South",
-      "relationship": "Control alternative - transition option when maintaining top pressure"
+      "name": "Crackhead Control",
+      "relationship": "Related position, not an automatic outcome: compare the configuration and required controls for Crackhead Control."
     },
     {
       "name": "Closed Guard",
-      "relationship": "Escape target from bottom - primary defensive objective"
-    },
-    {
-      "name": "Half Guard",
-      "relationship": "Secondary escape target - achievable defensive recovery position"
+      "relationship": "Related position, not an automatic outcome: compare the configuration and required controls for Closed Guard."
     }
   ],
   "top": {
     "name": "Dead Orchard Control Top",
-    "description": "Master Dead Orchard Control Top in BJJ. Advanced anaconda variation emphasizing extended positional dominance with systematic breakdown mechanics and multiple finishing options.",
+    "description": "Dead Orchard Control top perspective: Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Keep the arms compact and avoid offering a straight arm while trying to force posture.",
     "tags": [
       "bjj",
       "position",
-      "dead-orchard",
-      "anaconda",
-      "front-headlock",
-      "choke-control",
-      "top-position",
-      "10th-planet",
-      "submission-control"
+      "top"
     ],
-    "overview": "Dead Orchard Control Top is an advanced anaconda choke variation developed within the 10th Planet system, characterized by a specific grip configuration and body positioning that creates exceptional control while maintaining submission threat. This position represents a hybrid control state where the practitioner has secured the anaconda grip but emphasizes positional dominance and control mechanics over immediate submission completion. The nomenclature refers to the trapped, lifeless quality of the opponent's arm position combined with the systematic breakdown of their defensive structure. From top position, the practitioner establishes a deep anaconda-style grip around the opponent's neck and nearside arm while maintaining superior body positioning that prevents escape and creates submission opportunities. Unlike standard anaconda control, dead orchard control incorporates specific grip adjustments and weight distribution principles that allow for extended positional maintenance while gradually increasing submission pressure. This position is particularly effective in no-gi contexts where the practitioner can control timing and gradually advance position or finish the submission based on opponent reactions. The position serves as both a control platform and a submission gateway, allowing the practitioner to maintain dominant position while threatening the finish. Understanding dead orchard control requires mastery of anaconda mechanics, shoulder pressure application, and the ability to read opponent defensive patterns to determine optimal finishing timing.",
+    "overview": "The top player is responsible for recognizing and defending the control. The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. The top player has not cleared a shoulder or withdrawn the elbows below the controlling leg line. The hands can isolate an arm while the legs maintain the shoulder enclosure.\n\nTreat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Keep the arms compact and avoid offering a straight arm while trying to force posture. Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.\n\nWork on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded. Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow. Use a verbal tap or foot tap if both hands are trapped, and do not rely on pain to judge remaining range.\n\nThe defining feature is both shoulders and arms enclosed by the legs. An anaconda instead uses an arm loop around the neck and one arm from a front headlock; the two controls require different body configurations. Both arms may be trapped, so agree on verbal and foot taps. Never stack the neck, wrench a knee into the leg triangle, or test a captured elbow by pulling hard.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
+      "position_type": "Defensive",
+      "risk_level": "Medium to High",
       "energy_cost": "Medium",
-      "time_sustainability": "Medium"
+      "time_sustainability": "Short to Medium"
     },
     "state_invariants": [
-      "Deep anaconda grip secured around opponent's neck and nearside arm with gable or S-grip configuration, creating circular compression on carotid arteries and restricting opponent's movement while establishing submission mechanics",
-      "Top practitioner's shoulder driving into opponent's trapped shoulder, creating downward pressure that prevents posture recovery and maintains submission angle while systematically breaking down defensive structure",
-      "Opponent's trapped arm secured tightly against their own neck by the anaconda grip, eliminating space and creating structural weakness in their defensive frame that compounds with continued pressure application",
-      "Top practitioner's hips positioned to control opponent's movement while maintaining weight distribution that prevents escape attempts and allows for positional adjustments based on defensive reactions",
-      "Top practitioner's free arm controlling opponent's far side or establishing secondary grips that enhance control and submission mechanics while preventing defensive hand fighting or space creation"
+      "The bottom player faces the opponent and keeps the hips close beneath the shoulders.",
+      "The legs form a high figure-four around the shoulder line, with both opposing arms inside.",
+      "The top player has not cleared a shoulder or withdrawn the elbows below the controlling leg line.",
+      "The hands can isolate an arm while the legs maintain the shoulder enclosure."
     ],
     "prerequisites": [
-      "Successful front headlock control establishment with opponent's posture broken down",
-      "Deep underhook secured on opponent's nearside arm with hand positioned past opponent's far shoulder",
-      "Opponent's head controlled and positioned appropriately for anaconda grip configuration",
-      "Top position maintained with ability to adjust weight distribution and hip placement",
-      "Grip strength and shoulder mobility sufficient to maintain anaconda configuration under resistance"
+      "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
+      "Keep the arms compact and avoid offering a straight arm while trying to force posture.",
+      "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders."
     ],
     "key_principles": [
-      "Maintain deep anaconda grip with constant circular pressure toward opponent's far shoulder to create blood choke mechanics",
-      "Drive shoulder pressure into opponent's trapped shoulder to prevent posture recovery and maintain submission angle",
-      "Control opponent's hips and movement with strategic weight distribution to prevent escape attempts",
-      "Keep opponent's trapped arm tight against their neck by maintaining grip depth and shoulder pressure",
-      "Use gradual pressure increases rather than explosive finishing attempts to break down defensive structure systematically",
-      "Maintain awareness of opponent's free arm and control secondary grips to prevent defensive hand fighting",
-      "Adjust body position based on opponent's escape attempts while preserving grip integrity and submission mechanics"
+      "Recognize both-arm capture: Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
+      "Protect the elbows: Keep the arms compact and avoid offering a straight arm while trying to force posture.",
+      "Prevent the leg closure: Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
+      "Clear a shoulder safely: Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.",
+      "Recover base in stages: Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow.",
+      "Tap with any free signal: Use a verbal tap or foot tap if both hands are trapped, and do not rely on pain to judge remaining range."
     ],
     "decision_tree": [
       {
-        "condition": "If opponent remains stationary with minimal defensive movement",
+        "condition": "Only after the both-arm triangle has opened into Mission Control and the elbows can move freely",
         "actions": [
           {
-            "technique": "Anaconda Choke",
-            "target": "Game Over",
-            "probability": 70
-          },
-          {
-            "technique": "Increase shoulder pressure gradually",
-            "target": "Dead Orchard Control",
-            "probability": 30
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to turn away from the choke pressure",
-        "actions": [
-          {
-            "technique": "Side Control to Mount",
-            "target": "Mount",
-            "probability": 60
-          },
-          {
-            "technique": "Front Headlock to Back",
-            "target": "Back Control",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "If opponent drives forward attempting to escape the grip",
-        "actions": [
-          {
-            "technique": "Front Headlock to Back",
-            "target": "Back Control",
-            "probability": 55
-          },
-          {
-            "technique": "Guillotine Setup",
-            "target": "Guillotine Control",
+            "technique": "Posture Recovery from Mission Control",
+            "target": "Closed Guard",
             "probability": 45
           }
         ]
       },
       {
-        "condition": "If opponent creates space on the trapped arm side",
+        "condition": "After the leg triangle opens but a two-leg Crackhead clinch still controls posture, with no loaded elbow",
         "actions": [
           {
-            "technique": "Darce from Turtle",
-            "target": "Darce Control",
-            "probability": 65
-          },
-          {
-            "technique": "Side Control to North-South",
-            "target": "North-South",
-            "probability": 35
+            "technique": "Posture Recovery to Closed Guard",
+            "target": "Closed Guard",
+            "probability": 55
           }
         ]
       },
       {
-        "condition": "If opponent establishes strong defensive grips preventing finish",
+        "condition": "Only after the triangle has ended and a separately established Chill Dog arm isolation has also loosened",
         "actions": [
           {
-            "technique": "Side Control to North-South",
-            "target": "North-South",
-            "probability": 50
-          },
-          {
-            "technique": "Side Control to Mount",
-            "target": "Mount",
-            "probability": 50
+            "technique": "Posture from Chill Dog",
+            "target": "Closed Guard",
+            "probability": 55
           }
         ]
       }
     ],
     "common_errors": [
       {
-        "error": "Rushing the submission finish without establishing proper control and breaking down opponent's defensive structure",
-        "consequence": "Opponent escapes grip during explosive finishing attempt, returns to neutral or advantageous position",
-        "correction": "Focus on gradual pressure increases while maintaining positional control, allowing submission mechanics to develop systematically over 10-15 seconds of sustained pressure"
+        "error": "Skipping the checkpoint: recognize both-arm capture",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
+        "correction": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked."
       },
       {
-        "error": "Allowing opponent's free arm to establish defensive grips or frames against the choking arm",
-        "consequence": "Opponent creates space, defends submission effectively, and potentially escapes to better position",
-        "correction": "Control opponent's free arm with strategic secondary grips or body positioning, prevent defensive hand fighting before attempting finish"
+        "error": "Skipping the checkpoint: protect the elbows",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep the arms compact and avoid offering a straight arm while trying to force posture.",
+        "correction": "Keep the arms compact and avoid offering a straight arm while trying to force posture."
       },
       {
-        "error": "Losing shoulder pressure on opponent's trapped shoulder during position maintenance",
-        "consequence": "Opponent recovers posture, creates space, and escapes the control position",
-        "correction": "Maintain constant shoulder drive into opponent's trapped shoulder throughout the position, adjust body weight to reinforce pressure as needed"
+        "error": "Skipping the checkpoint: prevent the leg closure",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
+        "correction": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders."
       },
       {
-        "error": "Failing to adjust grip depth as opponent defends, allowing grip to become shallow",
-        "consequence": "Submission mechanics weaken, opponent creates space for escape, control position deteriorates",
-        "correction": "Continuously reassess and adjust grip depth, using body movement and weight shifts to maintain or improve hand position"
+        "error": "Skipping the checkpoint: clear a shoulder safely",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.",
+        "correction": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded."
       },
       {
-        "error": "Poor hip positioning allowing opponent to create distance or turn into the practitioner",
-        "consequence": "Opponent escapes to guard, achieves sweep, or otherwise reverses the position",
-        "correction": "Maintain active hip control with strategic weight distribution, adjust positioning based on opponent's movement patterns while preserving grip integrity"
-      },
-      {
-        "error": "Neglecting to monitor opponent's breathing and defensive responses during extended control",
-        "consequence": "Miss optimal finishing opportunities or fail to recognize when position maintenance is more advantageous than immediate submission attempt",
-        "correction": "Develop sensitivity to opponent's defensive patterns, breathing changes, and fatigue indicators to time submission attempts optimally"
+        "error": "Skipping the checkpoint: recover base in stages",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow.",
+        "correction": "Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow."
       }
     ],
     "training_drills": [
       {
-        "name": "Anaconda Grip Maintenance Drill",
-        "description": "Partner starts in defensive turtle position. Establish dead orchard control and maintain grip and shoulder pressure for 2-minute rounds while partner attempts various escape sequences. Focus on grip depth preservation, shoulder pressure consistency, and positional adjustments without releasing control. Reset and repeat for 5 rounds with 1-minute rest periods.",
-        "duration": "5 rounds x 2 minutes"
+        "name": "Identify the configuration",
+        "description": "Work cooperatively on recognize both-arm capture. Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       },
       {
-        "name": "Positional Flow Drill",
-        "description": "From dead orchard control top, practice flowing between control maintenance and various offensive transitions (mount, north-south, back control, submission finish) based on partner's defensive reactions. Partner provides progressive resistance increasing from 30% to 70% over multiple rounds. Focus on smooth transitions while maintaining grip integrity and pressure throughout movement sequences.",
-        "duration": "10 minutes continuous flow"
+        "name": "Rehearse the connection",
+        "description": "Work cooperatively on protect the elbows. Keep the arms compact and avoid offering a straight arm while trying to force posture. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       },
       {
-        "name": "Submission Timing Development",
-        "description": "Establish dead orchard control and practice recognizing optimal finishing windows based on partner's defensive responses. Partner alternates between different defensive patterns (static defense, explosive escape attempts, gradual space creation). Practitioner must identify and capitalize on submission opportunities while maintaining position when finish is not available. Instructor provides feedback on timing decisions.",
-        "duration": "6 rounds x 3 minutes"
-      },
-      {
-        "name": "Counter-Response Chain Drill",
-        "description": "Partner executes specific escape sequences from dead orchard control (hip escape, arm extraction, rolling attempts). Practitioner responds with appropriate counter-transitions maintaining offensive advantage. Focus on reading opponent movement patterns early and executing counters smoothly. Progress through all major escape patterns with increasing speed and resistance.",
-        "duration": "15 minutes"
+        "name": "Add an early response",
+        "description": "Work cooperatively on prevent the leg closure. Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       }
     ],
     "related_content": [
       {
-        "name": "Anaconda Control",
-        "relationship": "Parent position - standard anaconda configuration without dead orchard specific mechanics"
+        "name": "Rubber Guard",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Rubber Guard."
       },
       {
-        "name": "Darce Control",
-        "relationship": "Sister technique - alternative arm-in choke control from similar entries"
+        "name": "Mission Control",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Mission Control."
       },
       {
-        "name": "Front Headlock",
-        "relationship": "Entry position - primary setup position for dead orchard control establishment"
+        "name": "Crackhead Control",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Crackhead Control."
       },
       {
-        "name": "Guillotine Control",
-        "relationship": "Alternative control - different front headlock choke configuration"
-      },
-      {
-        "name": "Anaconda Choke",
-        "relationship": "Primary submission - main finishing technique from this control position"
-      },
-      {
-        "name": "Turtle",
-        "relationship": "Common entry - opponent position from which dead orchard is frequently established"
-      },
-      {
-        "name": "Mount",
-        "relationship": "Transition target - high-percentage advancement when opponent defends submission"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Alternative advancement - transition when opponent drives forward"
-      },
-      {
-        "name": "North-South",
-        "relationship": "Control alternative - transition option maintaining top pressure"
-      },
-      {
-        "name": "Darce Choke",
-        "relationship": "Alternative submission - accessible when opponent defends anaconda by creating space"
+        "name": "Closed Guard",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Closed Guard."
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 72,
-        "description": "High retention due to deep grip configuration and shoulder pressure mechanics"
+        "value": 32,
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 68,
-        "description": "Strong advancement options to mount, back control, or north-south when submission is defended"
+        "value": 38,
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 62,
-        "description": "High submission rate from anaconda choke with darce as secondary option"
+        "value": 12,
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
-      "average_time": "45-90 seconds"
+      "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
     },
     "transitions": [
       {
-        "transition": "Anaconda Choke",
+        "transition": "Escape Dead Orchard Control",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 16
-        },
-        "deal_here": true,
-        "success_rate": {
-          "gi": 55,
-          "nogi": 51
-        },
-        "outcomes": [
-          {
-            "to": "Anaconda Control/Top",
-            "probability": {
-              "gi": 51,
-              "nogi": 51
-            },
-            "result": "success"
-          },
-          {
-            "to": "Dead Orchard Control/Top",
-            "probability": {
-              "gi": 31,
-              "nogi": 31
-            },
-            "result": "failure"
-          },
-          {
-            "to": "Half Guard/Bottom",
-            "probability": {
-              "gi": 18,
-              "nogi": 18
-            },
-            "result": "counter"
-          }
-        ]
-      },
-      {
-        "transition": "Front Headlock to Back",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 20
-        }
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Darce from Turtle",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        },
-        "deal_here": true,
-        "success_rate": {
-          "gi": 43,
-          "nogi": 48
-        },
-        "outcomes": [
-          {
-            "to": "Darce Control/Top",
-            "probability": {
-              "gi": 48,
-              "nogi": 48
-            },
-            "result": "success"
-          },
-          {
-            "to": "Dead Orchard Control/Top",
-            "probability": {
-              "gi": 36,
-              "nogi": 36
-            },
-            "result": "failure"
-          },
-          {
-            "to": "Half Guard/Bottom",
-            "probability": {
-              "gi": 16,
-              "nogi": 16
-            },
-            "result": "counter"
-          }
-        ]
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Anaconda Choke from Dead Orchard",
-        "attempt_probability": {
-          "gi": 20,
-          "nogi": 18
-        }
-      },
-      {
-        "transition": "Dead Orchard to Darce Switch",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 12
+          "gi": 100,
+          "nogi": 100
         }
       }
     ],
     "flashcards": [
       {
-        "question": "What grip adjustment maintains choke pressure when opponent attempts to create space at the neck?",
-        "answer": "When opponent creates space at the neck, walk your gable grip deeper toward their far shoulder while simultaneously driving your shoulder harder into their trapped shoulder. This re-establishes the compression angle and tightens the blood choke mechanics. The key is maintaining circular pressure direction toward their far armpit rather than simply squeezing harder in place.",
-        "answer_line": "Walk grip deeper, shoulder in",
+        "question": "Dead Orchard defense: both arms are inside the high leg triangle; what is the immediate threat?",
+        "answer": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
+        "answer_line": "An isolated elbow can be extended",
         "distractors": {
           "plausible": [
-            "Switch to a new choking grip",
-            "Drive shoulder pressure only"
+            "Neck pressure with both elbows safe",
+            "A wrist pull opens the high legs"
           ],
           "trap": [
-            "Just squeeze harder in place"
+            "Elbow extension frees the shoulder"
           ]
         }
       },
       {
-        "question": "Your opponent starts turning their body away from the choke - what adjustment prevents escape?",
-        "answer": "Follow their turning motion by walking your hips around while maintaining chest pressure on their trapped shoulder. Use their turning momentum to transition to mount or back control rather than fighting to keep them flat. If they turn toward you, accelerate to back control. If they turn away, step over to mount. The dead orchard position naturally flows into these superior positions when opponents try to turn.",
-        "answer_line": "Follow turn, advance position",
+        "question": "Dead Orchard defense: what arm position avoids offering an easy straight-arm lever?",
+        "answer": "Keep the arms compact and avoid offering a straight arm while trying to force posture.",
+        "answer_line": "Keep your elbows bent and compact",
         "distractors": {
           "plausible": [
-            "Fight to keep them flat",
-            "Release grip and reset position"
+            "Straighten both arms against hips",
+            "Reach an arm far behind their back"
           ],
           "trap": [
-            "Hold them flat, ignore the turn"
+            "Lock both arms overhead and lift"
           ]
         }
       },
       {
-        "question": "What are the essential weight distribution points for maintaining dead orchard control?",
-        "answer": "Primary weight drives through your shoulder into opponent's trapped shoulder, pinning it to the mat. Secondary weight distribution uses your hips to control their movement - keep hips low and connected to their body rather than floating. Your chest maintains constant contact with their upper back. The free hand posts or controls their far hip to prevent rolling. Weight should feel like a gradual crushing pressure, not static dead weight.",
-        "answer_line": "Shoulder pin, hips low, chest tight",
+        "question": "Dead Orchard defense: before the legs close high, where can an early frame interrupt the climb?",
+        "answer": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
+        "answer_line": "Against the hip or approaching thigh",
         "distractors": {
           "plausible": [
-            "Weight balanced evenly overall",
-            "Hips floated, weight on chest only"
+            "On the mat beyond their head",
+            "On the far shoulder, elbow flared"
           ],
           "trap": [
-            "Dead static weight, no chest contact"
+            "Across your chest, missing the thigh"
           ]
         }
       },
       {
-        "question": "How do you recognize when to finish the choke versus continue holding position?",
-        "answer": "Finish attempts are optimal when opponent's defensive movements slow, their breathing becomes labored, their trapped arm relaxes, or their free arm stops actively fighting your grips. Continue holding when opponent is actively hand-fighting, has strong neck defense, or is explosively trying to escape. The dead orchard philosophy emphasizes patience - a tired opponent who has burned energy defending becomes much easier to finish than a fresh opponent with full defensive capacity.",
-        "answer_line": "Finish when defense slows, tires",
+        "question": "Dead Orchard defense: what is the order for withdrawing a shoulder from the enclosure?",
+        "answer": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.",
+        "answer_line": "Open legs; clear shoulder and elbow",
         "distractors": {
           "plausible": [
-            "Attack the choke immediately",
-            "Only finish when fully still"
+            "Pull elbow out, shoulder still held",
+            "Raise the chest with legs closed"
           ],
           "trap": [
-            "Force finish while they resist"
+            "Twist the wrist, shoulders enclosed"
           ]
         }
       },
       {
-        "question": "In Dead Orchard control, they get a hand inside the choking arm—how do you re-establish it?",
-        "answer": "Rather than fighting their grip directly, use body movement to re-establish control. Walk your hips slightly away to create angle, which naturally tightens the grip around their neck. Simultaneously, use your free arm to attack their defending hand by stripping it toward their hip or controlling their elbow. If the hand fight continues, transition to darce grip or advance to mount/back control where their defensive hand becomes irrelevant.",
-        "answer_line": "Angle hips away, strip their hand",
+        "question": "Dead Orchard defense: when can you safely begin rebuilding upright posture?",
+        "answer": "Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow.",
+        "answer_line": "Once the shoulder line is free",
         "distractors": {
           "plausible": [
-            "Muscle grip back into place",
-            "Release and reset the choke"
+            "Once neck pressure feels relieved",
+            "With elbows still above the legs"
           ],
           "trap": [
-            "Grip fight their hand directly"
+            "Once a hand reaches their hip"
           ]
         }
       },
       {
-        "question": "What breathing pattern should you maintain during extended dead orchard control?",
-        "answer": "Maintain slow, controlled nasal breathing that matches your pressure application rhythm. Exhale when increasing pressure, inhale during brief relaxation phases. This prevents tension buildup that causes premature fatigue and helps you remain sensitive to opponent's defensive patterns. Your breathing should reflect the patient, methodical nature of the position - not the rapid breathing of explosive attacks.",
-        "answer_line": "Controlled nasal breath, not rapid",
+        "question": "Dead Orchard defense: with both hands trapped, how can you signal the attacker to stop?",
+        "answer": "Use a verbal tap or foot tap if both hands are trapped, and do not rely on pain to judge remaining range.",
+        "answer_line": "Give a clear verbal or foot tap",
         "distractors": {
           "plausible": [
-            "Rapid breathing for output",
-            "Hold breath during pressure"
+            "Wait until one hand pulls free",
+            "Straighten a trapped arm first"
           ],
           "trap": [
-            "Mouth-breathe fast to power through"
+            "Use an unagreed head gesture alone"
           ]
         }
       },
       {
-        "question": "How do you prevent opponent from recovering turtle base during the control sequence?",
-        "answer": "Keep constant downward shoulder pressure that flattens their trapped shoulder to the mat. Your hip placement should block their ability to get their nearside knee underneath them. Use your free arm to control their far hip, preventing them from building base on that side. If they start to post on their far hand, immediately drive weight forward and walk your hips to take their angle away. The dead orchard position should progressively flatten them rather than allowing any base recovery.",
-        "answer_line": "Flatten shoulder, block hip base",
+        "question": "Dead Orchard defense: what lets the bottom player keep your shoulders within leg reach?",
+        "answer": "The bottom player faces the opponent and keeps the hips close beneath the shoulders.",
+        "answer_line": "Hips close beneath your shoulders",
         "distractors": {
           "plausible": [
-            "Let them post to control tempo",
-            "Focus only on choking arm"
+            "Hips retreat far beyond your knees",
+            "Distant hips while hands pull you"
           ],
           "trap": [
-            "Ease pressure to save energy"
+            "Straight knees as hips retreat"
           ]
         }
       },
       {
-        "question": "What indicates you should abandon the choke and transition to a different position?",
-        "answer": "Transition when opponent successfully extracts their trapped arm past your grip depth, when they establish solid frames that you cannot collapse after 15-20 seconds of effort, when they achieve strong underhook on your far leg threatening sweep, or when they begin to successfully stand or build base despite your pressure. In these scenarios, flowing to mount, back control, or north-south maintains your advantage better than fighting for a position that has been significantly compromised.",
-        "answer_line": "Arm slips free or frames hold firm",
+        "question": "Dead Orchard defense: what distinguishes this trap from an anaconda front headlock?",
+        "answer": "The defining feature is both shoulders and arms enclosed by the legs. An anaconda instead uses an arm loop around the neck and one arm from a front headlock; the two controls require different body configurations.",
+        "answer_line": "Legs enclose both shoulders and arms",
         "distractors": {
           "plausible": [
-            "Any brief defensive movement",
-            "Opponent breathes hard once"
+            "Arm loop around neck and shoulder",
+            "One arm outside the leg triangle"
           ],
           "trap": [
-            "Keep grinding the same grip"
+            "High legs with both elbows free"
           ]
         }
       }
@@ -548,454 +330,274 @@
   },
   "bottom": {
     "name": "Dead Orchard Control Bottom",
-    "description": "Master Dead Orchard Control Bottom defense in BJJ. Systematic escape guide with survival techniques, breathing management, and recovery pathways from severely compromised position.",
+    "description": "Dead Orchard Control bottom perspective: Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose. Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard.",
     "tags": [
       "bjj",
       "position",
-      "dead-orchard",
-      "bottom",
-      "defensive",
-      "turtle",
-      "front-headlock",
-      "submission-control",
-      "escape-hierarchy"
+      "bottom"
     ],
-    "overview": "Dead Orchard Control Bottom represents one of the most disadvantageous positions in Brazilian Jiu-Jitsu, where the practitioner is trapped in a modified front headlock position with their opponent controlling both the head and an arm while applying significant pressure. This position is a variation of the anaconda and darce control family, named for its ability to systematically eliminate offensive options and leave the bottom player in a state of severe positional deficit. The bottom practitioner finds themselves with limited mobility, restricted breathing, and facing immediate submission threats from multiple angles including anaconda choke, darce choke, guillotine variations, and potential transitions to back control or mount. The crushing pressure applied by the top player makes this an extremely energy-draining position for the defender, requiring calm, technical responses rather than explosive escape attempts that often worsen the situation. Understanding the mechanics of Dead Orchard Control Bottom is essential for comprehensive defensive jiu-jitsu, as knowing the proper defensive frames, breathing techniques, and systematic escape sequences can mean the difference between tapping and surviving to recover guard. The position emphasizes the critical importance of preventing front headlock positions in the first place, as escaping once fully established requires significant technical knowledge, mental composure under pressure, and efficient energy management throughout the defensive sequence.",
+    "overview": "The bottom player is responsible for maintaining the control. The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. The top player has not cleared a shoulder or withdrawn the elbows below the controlling leg line. The hands can isolate an arm while the legs maintain the shoulder enclosure.\n\nBring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose. Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard. Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee.\n\nHold an exposed arm without straightening it to its limit; leg control should carry the posture work. Adjust the hip angle if the opponent starts withdrawing a shoulder, and recover guard if the enclosure opens. Uncross the legs and let the arm go immediately on a tap, pain, or unsafe stacking pressure.\n\nThe defining feature is both shoulders and arms enclosed by the legs. An anaconda instead uses an arm loop around the neck and one arm from a front headlock; the two controls require different body configurations. Both arms may be trapped, so agree on verbal and foot taps. Never stack the neck, wrench a knee into the leg triangle, or test a captured elbow by pulling hard.\n\nKeep a supported forearm inside if the top player begins driving chest pressure into you before both arms are captured. The high triangle controls the shoulders and arms; it does not replace the frames that keep a failed entry from becoming a pin.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "High",
-      "energy_cost": "High",
-      "time_sustainability": "Short"
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium to High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
     },
     "state_invariants": [
-      "Opponent controls your head with one arm wrapped around the neck, typically in a front headlock configuration with their chest pressing down on the back of your head and neck, restricting upward movement and creating a heavy, oppressive weight that limits breathing and vision while establishing the foundation for submission mechanics",
-      "Your trapped arm is secured by opponent's control, either caught inside their grip or pinned between your bodies, eliminating the ability to post or create frames on that side while the opponent's body weight reinforces this arm isolation and creates leverage for potential choke finishes",
-      "Your base is severely compromised with weight distributed awkwardly across knees and free hand, unable to establish proper turtle posture due to the opponent's angle of attack and pressure direction forcing you into a curled, defensive shell position that limits mobility and power generation",
-      "Opponent's hips are positioned to your side or slightly behind, applying perpendicular or angular pressure that prevents you from squaring up or establishing defensive frames, while maintaining the ability to transition between multiple submission threats or positional advancements based on your defensive reactions",
-      "Your free arm must work simultaneously to create space at the neck and prevent choking mechanics while trying to maintain enough base to prevent being flattened completely to the mat, creating a constant dilemma between defending submissions and defending position with insufficient resources to address both threats optimally"
+      "The bottom player faces the opponent and keeps the hips close beneath the shoulders.",
+      "The legs form a high figure-four around the shoulder line, with both opposing arms inside.",
+      "The top player has not cleared a shoulder or withdrawn the elbows below the controlling leg line.",
+      "The hands can isolate an arm while the legs maintain the shoulder enclosure."
     ],
     "prerequisites": [
-      "Failed turtle defense allowing opponent to secure front headlock control with deep grip",
-      "Unsuccessful takedown attempt resulting in opponent securing head and arm control during scramble",
-      "Transition from failed guard pull or guard recovery where opponent capitalizes on exposed posture",
-      "Lost scramble from bottom position with opponent achieving superior angle and head control",
-      "Mistimed or poorly executed escape attempt from side control, mount, or back control"
+      "Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose.",
+      "Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard.",
+      "Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee."
     ],
     "key_principles": [
-      "Maintain calm, controlled breathing despite restricted airway - panic and explosive movement accelerate fatigue and worsen position",
-      "Create space at the neck with your free hand using consistent, technical frames rather than desperate pushing that wastes energy",
-      "Protect your trapped arm from being used as leverage for submissions by keeping elbow tight and preventing overextension",
-      "Work systematically toward hip escape and guard recovery rather than attempting to immediately stand or roll which often fails",
-      "Recognize submission threats early and address choking mechanics before they become fully locked in and inescapable",
-      "Use small, efficient movements to conserve energy while progressively improving position through incremental gains",
-      "Keep chin tucked and neck protected to minimize submission vulnerability while working systematic escapes"
+      "Break posture first: Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose.",
+      "Enclose both arms: Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard.",
+      "Keep the knee supported: Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee.",
+      "Control an elbow: Hold an exposed arm without straightening it to its limit; leg control should carry the posture work.",
+      "Follow the shoulder line: Adjust the hip angle if the opponent starts withdrawing a shoulder, and recover guard if the enclosure opens.",
+      "Release before loading: Uncross the legs and let the arm go immediately on a tap, pain, or unsafe stacking pressure."
     ],
     "decision_tree": [
       {
-        "condition": "If opponent is actively working to lock anaconda or darce choke with arm trapped deep",
+        "condition": "When both arms remain enclosed but you choose to release the leg triangle and restore guard",
         "actions": [
           {
-            "technique": "Arm Extraction",
-            "target": "Front Headlock",
-            "probability": 40
-          },
-          {
-            "technique": "Rolling to Guard",
-            "target": "Closed Guard",
+            "technique": "Escape from Dead Orchard",
+            "target": "Open Guard",
             "probability": 35
-          },
-          {
-            "technique": "Shrimp Escape",
-            "target": "Turtle",
-            "probability": 25
           }
         ]
       },
       {
-        "condition": "If opponent is transitioning to mount or back control rather than immediate submission",
+        "condition": "When a shoulder withdraws and the high triangle can no longer be retained comfortably",
         "actions": [
           {
-            "technique": "Hip Escape to Guard",
+            "technique": "Escape from Dead Orchard",
             "target": "Open Guard",
-            "probability": 45
-          },
-          {
-            "technique": "Granby Roll to Guard",
-            "target": "Half Guard",
-            "probability": 30
-          },
-          {
-            "technique": "Sit Through to Guard",
-            "target": "Closed Guard",
-            "probability": 25
-          }
-        ]
-      },
-      {
-        "condition": "If opponent's grip is loose or pressure is temporarily reduced",
-        "actions": [
-          {
-            "technique": "Hip Escape to Guard",
-            "target": "Open Guard",
-            "probability": 40
-          },
-          {
-            "technique": "Sit Through to Guard",
-            "target": "Clinch",
             "probability": 35
-          },
-          {
-            "technique": "Rolling to Guard",
-            "target": "Closed Guard",
-            "probability": 25
           }
         ]
       },
       {
-        "condition": "If opponent walks hips toward your head for anaconda finishing angle",
+        "condition": "Only after releasing the triangle completely and creating open-guard space with safe posts",
         "actions": [
           {
-            "technique": "Rolling to Guard",
-            "target": "Closed Guard",
-            "probability": 45
-          },
-          {
-            "technique": "Arm Extraction",
-            "target": "Front Headlock",
-            "probability": 30
-          },
-          {
-            "technique": "Granby Roll to Guard",
-            "target": "Open Guard",
-            "probability": 25
+            "technique": "Technical Stand Up from Open Guard",
+            "target": "Standing Position",
+            "probability": 55
           }
         ]
       }
     ],
     "common_errors": [
       {
-        "error": "Explosive bridging or rolling without first addressing the head and arm control",
-        "consequence": "Opponent easily follows the movement and locks in anaconda or darce choke, or takes back control with hooks",
-        "correction": "First create frames at the neck with free hand, then use systematic hip escape movements to progressively improve position before attempting larger movements"
+        "error": "Skipping the checkpoint: break posture first",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose.",
+        "correction": "Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose."
       },
       {
-        "error": "Allowing the trapped arm to be pulled across your own body or overextended",
-        "consequence": "Provides opponent with leverage for anaconda choke and eliminates any base on that side, making position nearly inescapable",
-        "correction": "Keep trapped arm elbow tight to your ribs and actively pull it back toward your hip whenever possible to maintain structural integrity"
+        "error": "Skipping the checkpoint: enclose both arms",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard.",
+        "correction": "Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard."
       },
       {
-        "error": "Pushing directly into opponent's chest or shoulders with free arm",
-        "consequence": "Wastes energy, provides no effective space creation, and leaves neck exposed when arm tires",
-        "correction": "Frame specifically at the choking arm and opponent's hip or shoulder to create angles for hip escape, using skeletal structure rather than muscular pushing"
+        "error": "Skipping the checkpoint: keep the knee supported",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee.",
+        "correction": "Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee."
       },
       {
-        "error": "Holding breath or breathing shallowly due to panic from restricted airway",
-        "consequence": "Rapid fatigue, mental panic, and inability to execute technical escapes before running out of energy",
-        "correction": "Focus on controlled nasal breathing and accept the discomfort, understanding that technical escapes are possible even with restricted breathing"
+        "error": "Skipping the checkpoint: control an elbow",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Hold an exposed arm without straightening it to its limit; leg control should carry the posture work.",
+        "correction": "Hold an exposed arm without straightening it to its limit; leg control should carry the posture work."
       },
       {
-        "error": "Attempting to immediately stand up or posture fully upright",
-        "consequence": "Opponent uses the upward movement to elevate and lock submission even tighter, or easily takes back control",
-        "correction": "Work through progressive position improvement: create space, free trapped arm or secure frames, hip escape to guard recovery, then consider standing"
-      },
-      {
-        "error": "Giving up mentally and waiting for inevitable submission",
-        "consequence": "Missing escape opportunities and failing to develop essential defensive skills for high-pressure situations",
-        "correction": "Maintain problem-solving mindset and systematically work through defensive sequence even when position seems hopeless, as opponent errors create escape windows"
-      },
-      {
-        "error": "Turning away from opponent or exposing back further to escape head control",
-        "consequence": "Opponent secures back control with hooks, an even worse position with higher submission probability",
-        "correction": "Keep chest facing downward or toward opponent's hips, using hip escape to create distance rather than turning away and exposing back"
+        "error": "Skipping the checkpoint: follow the shoulder line",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Adjust the hip angle if the opponent starts withdrawing a shoulder, and recover guard if the enclosure opens.",
+        "correction": "Adjust the hip angle if the opponent starts withdrawing a shoulder, and recover guard if the enclosure opens."
       }
     ],
     "training_drills": [
       {
-        "name": "Dead Orchard Survival Drill",
-        "description": "Partner establishes dead orchard control with moderate pressure. Bottom player practices maintaining calm breathing, creating frames at neck, and working systematic hip escape without explosive movement. Focus on survival for 2-minute rounds before attempting escapes. Build mental toughness and technique under sustained pressure.",
-        "duration": "5 rounds of 2 minutes"
+        "name": "Identify the configuration",
+        "description": "Work cooperatively on break posture first. Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       },
       {
-        "name": "Progressive Escape Sequence Drill",
-        "description": "Partner establishes dead orchard control. Bottom player must complete sequence: (1) create frame at neck, (2) begin hip escape movement, (3) free trapped arm or secure better base, (4) complete hip escape to guard recovery. Reset and repeat, gradually increasing opponent's resistance level from 50% to 80%.",
-        "duration": "10 minutes alternating"
+        "name": "Rehearse the connection",
+        "description": "Work cooperatively on enclose both arms. Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       },
       {
-        "name": "Submission Defense Recognition Drill",
-        "description": "Partner establishes dead orchard control and randomly attempts anaconda, darce, or guillotine finish. Bottom player must identify the specific threat within 3 seconds and apply appropriate defensive counter (hand fighting for guillotine, arm extraction for anaconda, hip angle change for darce). Develops pattern recognition under pressure.",
-        "duration": "8 minutes alternating"
-      },
-      {
-        "name": "Positional Sparring from Dead Orchard",
-        "description": "Start in established dead orchard control bottom position. Bottom player works to escape to any guard position (scored as success) or avoid submission for 90 seconds (scored as survival). Top player works to submit or advance to mount or back. Track success rates to measure defensive improvement over time.",
-        "duration": "6 rounds of 90 seconds"
+        "name": "Add an early response",
+        "description": "Work cooperatively on keep the knee supported. Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       }
     ],
     "related_content": [
       {
-        "name": "Anaconda Control",
-        "relationship": "Common transition - dead orchard often becomes full anaconda control"
+        "name": "Rubber Guard",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Rubber Guard."
       },
       {
-        "name": "Darce Control",
-        "relationship": "Similar defensive challenges - same escape principles apply"
+        "name": "Mission Control",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Mission Control."
       },
       {
-        "name": "Front Headlock",
-        "relationship": "Parent position - dead orchard is specialized variation"
-      },
-      {
-        "name": "Turtle",
-        "relationship": "Typical entry position - prevention starts in turtle defense"
-      },
-      {
-        "name": "Guillotine Control",
-        "relationship": "Alternative submission threat from same control framework"
+        "name": "Crackhead Control",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Crackhead Control."
       },
       {
         "name": "Closed Guard",
-        "relationship": "Primary escape target - most achievable defensive goal"
-      },
-      {
-        "name": "Anaconda Choke",
-        "relationship": "Primary submission threat requiring specific defense"
-      },
-      {
-        "name": "Darce Choke",
-        "relationship": "Secondary submission threat with different mechanics"
-      },
-      {
-        "name": "Shrimp Escape",
-        "relationship": "Essential escape technique from compressed positions"
-      },
-      {
-        "name": "Half Guard",
-        "relationship": "Secondary escape target accessible via granby roll"
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Closed Guard."
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 32,
-        "description": "Low retention - position is extremely difficult to maintain as bottom player faces constant submission threat"
+        "value": 72,
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
-        "value": 38,
-        "description": "Moderate escape probability with proper technique, but requires systematic approach and opponent error"
+        "value": 68,
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
-        "value": 12,
-        "description": "Minimal offensive threat from bottom - focus is entirely on survival and escape"
+        "value": 62,
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
-      "average_time": "30-90 seconds before submission or escape"
+      "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
     },
     "transitions": [
       {
-        "transition": "Shrimp Escape",
+        "transition": "Armbar from Dead Orchard Control",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 19
-        }
-      },
-      {
-        "transition": "Arm Extraction",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
-        },
-        "deal_here": true,
-        "success_rate": {
-          "gi": 24,
-          "nogi": 26
-        },
-        "outcomes": [
-          {
-            "to": "Front Headlock/Bottom",
-            "probability": {
-              "gi": 13,
-              "nogi": 13
-            },
-            "result": "success"
-          },
-          {
-            "to": "Turtle/Bottom",
-            "probability": {
-              "gi": 13,
-              "nogi": 13
-            },
-            "result": "success"
-          },
-          {
-            "to": "Dead Orchard Control/Bottom",
-            "probability": {
-              "gi": 54,
-              "nogi": 54
-            },
-            "result": "failure"
-          },
-          {
-            "to": "Back Control/Bottom",
-            "probability": {
-              "gi": 20,
-              "nogi": 20
-            },
-            "result": "counter"
-          }
-        ]
-      },
-      {
-        "transition": "Rolling to Guard",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Hip Escape to Guard",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Granby Roll to Guard",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Escape Dead Orchard Control",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Roll from Dead Orchard",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 70,
+          "nogi": 70
         }
       },
       {
         "transition": "Escape from Dead Orchard",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 7
+          "gi": 30,
+          "nogi": 30
         }
       }
     ],
     "flashcards": [
       {
-        "question": "What is your immediate priority when opponent locks the dead orchard grip around your neck?",
-        "answer": "Immediate priority is getting your free hand to the choking arm at the crook of the elbow and creating a frame to prevent the grip from tightening further. Do not waste energy trying to peel their hands apart - focus on blocking the squeeze at the elbow joint where leverage is most effective. Simultaneously, tuck your chin and turn your face toward their body to protect your neck and reduce choke effectiveness.",
-        "answer_line": "Frame elbow, tuck chin, turn in",
+        "question": "Dead Orchard control: what must happen before you climb the legs around the shoulders?",
+        "answer": "Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose.",
+        "answer_line": "Bring their upper body close",
         "distractors": {
           "plausible": [
-            "Peel their hands apart first",
-            "Pull head straight backward"
+            "Push their chest away, knees long",
+            "Reach for the head with distant hips"
           ],
           "trap": [
-            "Yank the trapped arm free fast"
+            "Let posture rise, then cross ankles"
           ]
         }
       },
       {
-        "question": "Caught in Dead Orchard control with the choke tightening—what adjustment prevents the finish?",
-        "answer": "Turn your body toward your trapped arm side while simultaneously hip escaping away from opponent. This changes the angle of the choke and reduces the circular compression on your neck. Use your free hand to create space at the elbow of the choking arm, not by pushing outward but by wedging your forearm between your neck and their grip. The combination of angle change and frame creates survival space.",
-        "answer_line": "Turn toward trapped arm, hip escape",
+        "question": "Dead Orchard control: how many opposing arms belong inside your high leg figure-four?",
+        "answer": "Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard.",
+        "answer_line": "Both arms and both shoulders",
         "distractors": {
           "plausible": [
-            "Pull straight back away from grip",
-            "Push opponent's chest off you"
+            "One arm; opposite shoulder outside",
+            "Neither arm; legs around neck alone"
           ],
           "trap": [
-            "Pull outward on the choking arm"
+            "One wrist; shoulders below the knees"
           ]
         }
       },
       {
-        "question": "How do you maintain proper breathing when your airway is partially restricted?",
-        "answer": "Focus on slow, controlled nasal breathing rather than gasping through your mouth. Accept that full breaths are impossible and work with shallow but consistent breathing rhythm. Exhale fully when creating frames or executing movements, then inhale during brief pauses. Mental calm is essential - panic breathing accelerates fatigue dramatically. Your body can function on restricted oxygen longer than most people realize if you remain calm.",
-        "answer_line": "Calm shallow nasal breaths",
+        "question": "Dead Orchard control: how do you bring the leg high without twisting a planted knee?",
+        "answer": "Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee.",
+        "answer_line": "Turn hips; bring knee to your torso",
         "distractors": {
           "plausible": [
-            "Gasp through mouth for air",
-            "Hold breath, then power move"
+            "Pull the foot across a fixed knee",
+            "Keep hips flat and haul the ankle"
           ],
           "trap": [
-            "Panic-breathe to grab oxygen"
+            "Straighten knee, force toes inward"
           ]
         }
       },
       {
-        "question": "When should you attempt to extract your trapped arm versus focusing on other escape routes?",
-        "answer": "Attempt arm extraction when opponent's grip is not fully locked and their weight is transitioning - such as when they're adjusting position or reaching for a secondary grip. If the arm is deeply trapped with full weight commitment, arm extraction wastes energy and often tightens the position. In that case, focus on hip escape and guard recovery first. Once you've created hip angle, arm extraction becomes more viable as opponent must adjust to follow you.",
-        "answer_line": "Extract only when grip isn't locked",
+        "question": "Dead Orchard control: what should maintain posture control while your hands isolate an elbow?",
+        "answer": "Hold an exposed arm without straightening it to its limit; leg control should carry the posture work.",
+        "answer_line": "The high legs around the shoulders",
         "distractors": {
           "plausible": [
-            "Always extract arm first",
-            "Extract once fully trapped"
+            "Pull the captured elbow straight",
+            "Both feet pushing against the hips"
           ],
           "trap": [
-            "Force arm out under full weight"
+            "Both hands pulling only the head"
           ]
         }
       },
       {
-        "question": "In Dead Orchard control, they walk their hips toward your head for the anaconda—what do you do?",
-        "answer": "As opponent walks hips toward your head, you must follow their movement by walking your hips in the same direction to prevent them from achieving the finishing angle. Simultaneously, use your free arm to push on their far hip to slow their rotation. If you cannot match their speed, immediately execute a forward roll in the direction they're rotating to invert the position and potentially escape to guard. Staying static while they rotate guarantees the finish.",
-        "answer_line": "Match hip walk, push far hip",
+        "question": "Dead Orchard control: the opponent starts withdrawing a shoulder; how should you respond?",
+        "answer": "Adjust the hip angle if the opponent starts withdrawing a shoulder, and recover guard if the enclosure opens.",
+        "answer_line": "Move hips to follow their shoulders",
         "distractors": {
           "plausible": [
-            "Stay still and brace neck",
-            "Pull head away from pressure"
+            "Keep hips fixed and tug the wrist",
+            "Squeeze the neck; let both arms go"
           ],
           "trap": [
-            "Stay static while they rotate"
+            "Extend the elbow to halt movement"
           ]
         }
       },
       {
-        "question": "What body position minimizes the effectiveness of the dead orchard choke while you work escapes?",
-        "answer": "Keep your chin tucked tight to your chest with your face turned toward opponent's body. Your shoulders should be slightly curled forward creating a defensive shell shape. Keep your trapped arm elbow tight to your ribs rather than allowing it to extend across your neck. Your hips should be slightly turned toward the trapped arm side, not flat. This position reduces choke effectiveness by 30-40% compared to flat positioning with chin up.",
-        "answer_line": "Chin tucked, elbow tight to ribs",
+        "question": "Dead Orchard control: what releases the partner when they tap during arm isolation?",
+        "answer": "Uncross the legs and let the arm go immediately on a tap, pain, or unsafe stacking pressure.",
+        "answer_line": "Uncross your legs and let the arm go",
         "distractors": {
           "plausible": [
-            "Chin up, arm extended for space",
-            "Shoulders squared flat to mat"
+            "Free wrist, keep high triangle tight",
+            "Open a hand while extending elbow"
           ],
           "trap": [
-            "Face away, chin up, arm extended"
+            "Pull shoulder in before opening legs"
           ]
         }
       },
       {
-        "question": "How do you recognize the optimal moment to execute your primary escape?",
-        "answer": "The optimal escape moment occurs when opponent shifts their weight - either to adjust their grip, transition to a different position, or respond to your defensive movements. Feel for when pressure momentarily reduces on your trapped shoulder or when their hips lift slightly. Their movement creates windows where your hip escape can succeed. Never try to escape against settled, committed pressure - make small movements to force them to adjust, then escape during their adjustment.",
-        "answer_line": "Escape when they shift weight",
+        "question": "Dead Orchard control: where should your pelvis be while you build the high guard?",
+        "answer": "The bottom player faces the opponent and keeps the hips close beneath the shoulders.",
+        "answer_line": "Close beneath their shoulder line",
         "distractors": {
           "plausible": [
-            "Escape against settled pressure",
-            "Wait for them to fully commit"
+            "Back near their knees, legs extended",
+            "Far aside, beyond one shoulder"
           ],
           "trap": [
-            "Explode escape into set pressure"
+            "Far away while hands pull the head"
           ]
         }
       },
       {
-        "question": "What indicates you should stop fighting and tap rather than continue escape attempts?",
-        "answer": "Tap when you feel sharp pressure on the blood vessels in your neck combined with vision changes, ringing in ears, or a sensation of pressure building in your head. Also tap if you've been fighting the position for extended time and feel your movements becoming sluggish or uncoordinated. Never wait until you're about to lose consciousness. In training, tap early and learn - an early tap is far better than brain hypoxia or cervical injury. The position will be there tomorrow to practice again.",
-        "answer_line": "Vision changes, ringing, pressure",
+        "question": "Dead Orchard control: what changes if one opposing shoulder escapes outside your legs?",
+        "answer": "The defining feature is both shoulders and arms enclosed by the legs. An anaconda instead uses an arm loop around the neck and one arm from a front headlock; the two controls require different body configurations.",
+        "answer_line": "The two-arm enclosure is lost",
         "distractors": {
           "plausible": [
-            "Muscle burn in your forearms",
-            "Only sharp joint pain counts"
+            "One shoulder keeps the two-arm trap",
+            "Low crossed ankles replace the trap"
           ],
           "trap": [
-            "Hold on until you feel faint"
+            "A wrist grip keeps shoulders inside"
           ]
         }
       }
@@ -1032,114 +634,114 @@
   },
   "flashcards_position": [
     {
-      "question": "What configuration defines Dead Orchard Control and distinguishes it from a standard anaconda?",
-      "answer": "Dead Orchard Control is a front-headlock state built on the anaconda arm-in structure, where the top player has threaded an arm under the trapped player's near armpit and around the neck, isolating the head and one arm together in a constricting loop. What distinguishes it from a standard anaconda is intent rather than grip: instead of racing to the roll-through finish, the configuration is held as an extended control platform that systematically breaks down the trapped player's structure over time. This is a 10th Planet-emphasized variation where the arm-in loop, chest-to-shoulder pressure, and perpendicular body angle are maintained deliberately to preserve multiple pathways. The result is a hybrid state that is simultaneously a submission threat and a positional cage.",
-      "answer_line": "Anaconda arm-in held as control",
+      "question": "Dead Orchard Control (position): What matters when you break posture first?",
+      "answer": "Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose.",
+      "answer_line": "Break posture first",
       "distractors": {
         "plausible": [
-          "Standard rear naked choke setup",
-          "Guillotine facing under chin"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Loose headlock with no arm trap"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "Which control points make Dead Orchard Control so difficult for the trapped player to escape?",
-      "answer": "The primary control point is the arm-in loop that traps the head and near arm together, so the trapped player cannot post or frame on that entire side of their body. The second is the top player's shoulder and chest pressure driving down into the trapped shoulder, which pins it toward the mat and prevents posture recovery. The third is the perpendicular hip position beside or slightly behind the trapped player, applying angular weight that stops them from squaring up. Because these three points reinforce each other, relieving one alone does not free the position, the compression, the trapped limb, and the base disruption all have to be addressed.",
-      "answer_line": "Arm-in loop, shoulder pin, angle",
+      "question": "Dead Orchard Control (position): What matters when you enclose both arms?",
+      "answer": "Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard.",
+      "answer_line": "Enclose both arms",
       "distractors": {
         "plausible": [
-          "Just the neck grip alone",
-          "Only leg control matters"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Relieve one point frees it all"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "How is weight directed in Dead Orchard Control, and why does that direction matter to both players?",
-      "answer": "Weight is driven forward and down through the chest and shoulder into the trapped player's near shoulder, pinning it toward the mat while the hips stay connected to control movement. This direction matters because it flattens the trapped shoulder and removes the base the bottom player would need to rebuild posture. If the weight drifts too far past the head, the top player loses the ability to follow movement and the trapped player gains room to turn in; if it stays too upright, the compression slackens and the loop loosens. The whole position lives or dies on that forward-and-down shoulder pressure being a constant crushing pressure rather than static dead weight.",
-      "answer_line": "Forward-down into trapped shoulder",
+      "question": "Dead Orchard Control (position): What matters when you keep the knee supported?",
+      "answer": "Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee.",
+      "answer_line": "Keep the knee supported",
       "distractors": {
         "plausible": [
-          "Weight centered over own hips",
-          "Weight pressed onto opponent's head"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Lean back upright for base"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "Why is the trapped arm such a critical element of the Dead Orchard configuration for both players?",
-      "answer": "The trapped arm is what converts a simple headlock into a strangle mechanism, because pinning it inside the loop uses the trapped player's own limb and shoulder as one wall of the compression against their neck. As long as that arm stays isolated, the bottom player has no frame on the choking side and the loop stays structurally sound. This is why the arm's depth and tightness govern the whole position: keeping it trapped and bent tight preserves the control, while extracting it or straightening it fundamentally changes the geometry and opens escape or transition to a different attack. Both players effectively fight over that single limb because it determines whether the configuration holds.",
-      "answer_line": "Arm forms the choke's other wall",
+      "question": "Dead Orchard Control (position): What matters when you control an elbow?",
+      "answer": "Hold an exposed arm without straightening it to its limit; leg control should carry the posture work.",
+      "answer_line": "Control an elbow",
       "distractors": {
         "plausible": [
-          "Arm only blocks their striking",
-          "Arm controls their far hip"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Let the trapped arm extend free"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "What role does the angle of compression play in why Dead Orchard Control functions as a blood choke?",
-      "answer": "The compression is directed circularly toward the trapped player's far shoulder and armpit rather than pressing straight into the front of the throat, which places pressure on the sides of the neck over the carotid arteries instead of the windpipe. This carotid-focused angle is what makes it a blood choke, cutting circulation rather than air, and produces lightheadedness and tunnel vision rather than gagging. Maintaining that angle depends on the loop staying tight and the head being bent forward and to the side by the grip. Changing the angle, whether the top player deepens toward the far shoulder or the bottom player turns to realign their neck, directly changes how much of the strangle is live.",
-      "answer_line": "Circular pressure hits carotids",
+      "question": "Dead Orchard Control (position): What matters when you follow the shoulder line?",
+      "answer": "Adjust the hip angle if the opponent starts withdrawing a shoulder, and recover guard if the enclosure opens.",
+      "answer_line": "Follow the shoulder line",
       "distractors": {
         "plausible": [
-          "Pressure crushes the windpipe",
-          "Angle targets the jaw only"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Press straight into the throat"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "How does Dead Orchard Control relate to and differ from its neighboring front-headlock positions?",
-      "answer": "Dead Orchard Control sits inside the front-headlock family alongside Anaconda Control, Darce Control, and Guillotine Control, all of which trap the head and share the compromised-posture dynamic. It is essentially the anaconda's arm-in loop held as extended control, whereas the darce uses a different hand path across the neck and the guillotine faces the choking arm the other direction under the chin. The key differentiator is temporal rather than structural: adjacent controls tend toward an immediate finish, while Dead Orchard prioritizes sustained dominance and the option to advance to mount, back, or north-south. Because the base configuration overlaps so heavily, the position can flow into a darce or anaconda finish depending on how the trapped arm and neck angle shift.",
-      "answer_line": "Anaconda loop held, not rushed",
+      "question": "Dead Orchard Control (position): What matters when you release before loading?",
+      "answer": "Uncross the legs and let the arm go immediately on a tap, pain, or unsafe stacking pressure.",
+      "answer_line": "Release before loading",
       "distractors": {
         "plausible": [
-          "Identical to guillotine grip",
-          "Same hand path as the darce"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Rush finish just like a darce"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "Why does time work against the trapped player in Dead Orchard Control?",
-      "answer": "The trapped player must simultaneously fight the choking pressure and the positional control with limited resources, so every second under the crushing chest pressure and restricted breathing drains energy faster than it drains the top player, who can rely on skeletal structure and body weight rather than muscular squeezing. This asymmetry is the entire point of the position's name and design, it lets pressure and fatigue break the bottom player down gradually rather than requiring an explosive finish. As the trapped player tires, their defensive frames weaken and finishing windows open. That is why the controlling player is rewarded for patience and the trapped player is rewarded for acting early before the deficit compounds.",
-      "answer_line": "Pressure drains them, not you",
+      "question": "Dead Orchard Control (position): What configuration must exist before this sequence?",
+      "answer": "The bottom player faces the opponent and keeps the hips close beneath the shoulders.",
+      "answer_line": "Check the starting configuration",
       "distractors": {
         "plausible": [
-          "Time favors whoever moves first",
-          "Fatigue hits both sides equally"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Rush the finish to save time"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "Why is explosive movement counterproductive for both players in Dead Orchard Control?",
-      "answer": "The position is governed by tight connection and constant compression, so sudden explosive movement tends to create the very momentum and space the other side can exploit. For the trapped player, thrashing burns oxygen against a restricted airway and often feeds the top player's transitions to mount or back. For the controlling player, lunging for a rushed finish sacrifices the connection that keeps the loop tight and lets the trapped arm or head slip free. Both sides are therefore better served by small, deliberate adjustments that preserve or attack structure incrementally, which is why the position rewards methodical pressure and composure over speed.",
-      "answer_line": "Explosive moves burn energy, space",
+      "question": "Dead Orchard Control (position): What distinguishes this control from a similar-looking position?",
+      "answer": "The defining feature is both shoulders and arms enclosed by the legs. An anaconda instead uses an arm loop around the neck and one arm from a front headlock; the two controls require different body configurations.",
+      "answer_line": "Check the defining controls",
       "distractors": {
         "plausible": [
-          "Explosive moves speed up escapes",
-          "Speed always beats patience here"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Lunge for a fast, rushed finish"
+          "Force a trapped joint to move"
         ]
       }
     }

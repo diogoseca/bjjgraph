@@ -46,35 +46,22 @@ description: "Master the Cross Collar Choke from Modified Mount. Learn grip plac
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross Collar Chokes breakdown",
-      "description": "Cross Collar Choke from Modified Mount film study: Cross Collar Chokes breakdown, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
-      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT80S"
+      "name": "Cross Choke from mount",
+      "description": "Cross Collar Choke from Modified Mount film study: Cross Choke from mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5cYvd0U5IQQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5cYvd0U5IQQ",
+      "url": "https://www.youtube.com/watch?v=5cYvd0U5IQQ",
+      "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Cross collar choke from mount",
-      "description": "Cross Collar Choke from Modified Mount film study: Cross collar choke from mount, taught by Chad Lyman.",
+      "name": "Cross Collar Choke from Mount with Chad Lyman",
+      "description": "Cross Collar Choke from Modified Mount film study: Cross Collar Choke from Mount with Chad Lyman.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pXcCvjwjPHw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pXcCvjwjPHw",
       "url": "https://www.youtube.com/watch?v=pXcCvjwjPHw",
-      "creator": { "@type": "Person", "name": "Chad Lyman" },
-      "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cross choke from mount",
-      "description": "Cross Collar Choke from Modified Mount film study: Cross choke from mount, taught by Blue Springs Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5cYvd0U5IQQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5cYvd0U5IQQ",
-      "url": "https://www.youtube.com/watch?v=5cYvd0U5IQQ",
-      "creator": { "@type": "Person", "name": "Blue Springs Jiu-Jitsu" },
-      "duration": "PT29S"
+      "duration": "PT55S"
     }
   ]
 }
@@ -135,9 +122,9 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+![](https://www.youtube.com/watch?v=5cYvd0U5IQQ)
 
-<p class="clip-credit"><strong>Cross Collar Chokes breakdown</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Choke from mount</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=5cYvd0U5IQQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -145,15 +132,7 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 
 ![](https://www.youtube.com/watch?v=pXcCvjwjPHw)
 
-<p class="clip-credit"><strong>Cross collar choke from mount</strong> — taught by Chad Lyman · 0:56 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5cYvd0U5IQQ)
-
-<p class="clip-credit"><strong>Cross choke from mount</strong> — taught by Blue Springs Jiu-Jitsu · 0:29 · <a href="https://www.youtube.com/watch?v=5cYvd0U5IQQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Collar Choke from Mount with Chad Lyman</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -469,31 +469,19 @@
     ],
     "clips": [
       {
-        "id": "uPazS4MJiDc",
-        "title": "How To Perform An Americana From Top Mount",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "Z44VF9pmJBg",
-        "title": "Americana from Mount",
-        "by": "Chelsea Ozer",
-        "vertical": false,
+        "title": "BJJ technique with Chelsea Ozer: Americana from mount",
         "channel": "Alain Pozo",
         "duration": 52,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "mk4jR6Anm8g",
         "title": "Finishing the Americana",
-        "by": "The Muscular Octopus",
-        "vertical": false,
         "channel": "The Muscular Octopus",
         "duration": 71,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -684,31 +672,19 @@
     ],
     "clips": [
       {
-        "id": "FNyL93v5fGs",
-        "title": "Defending The Americana",
-        "by": "Lachlan Giles",
+        "id": "qfoEZtys84k",
+        "title": "Bjj defense against the americana",
+        "channel": "Kevin Conan Bankens",
+        "duration": 42,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "qnRj5DpzGmc",
-        "title": "Americana Defense with Wrist Lock",
-        "by": "Jiu-Jitsu Channel",
-        "vertical": false,
+        "title": "Americana defense with wrist lock",
         "channel": "Jiu-Jitsu Channel",
         "duration": 51,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "qfoEZtys84k",
-        "title": "BJJ Defense Against the Americana",
-        "by": "Kevin Conan Bankens",
-        "vertical": false,
-        "channel": "Kevin Conan Bankens",
-        "duration": 42,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

@@ -46,24 +46,24 @@ description: "Master mounted triangle position in BJJ. High-risk, high-reward po
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mounted Triangle overview",
-      "description": "Mounted Triangle film study: Mounted Triangle overview, taught by Satori BJJ.",
+      "name": "Mounted Triangle",
+      "description": "Mounted Triangle film study: Mounted Triangle, taught by Satori BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vLUua_voKzc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vLUua_voKzc",
       "url": "https://www.youtube.com/watch?v=vLUua_voKzc",
       "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT53S"
+      "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Triangle to mounted triangle entry",
-      "description": "Mounted Triangle film study: Triangle to mounted triangle entry, taught by Ground X Jiu Jitsu.",
+      "name": "Triangle to mounted triangle",
+      "description": "Mounted Triangle film study: Triangle to mounted triangle, taught by Ground X Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1qxxbBWo9kw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1qxxbBWo9kw",
       "url": "https://www.youtube.com/watch?v=1qxxbBWo9kw",
       "creator": { "@type": "Person", "name": "Ground X Jiu Jitsu" },
-      "duration": "PT155S"
+      "duration": "PT154S"
     }
   ]
 }
@@ -120,7 +120,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 ![](https://www.youtube.com/watch?v=vLUua_voKzc)
 
-<p class="clip-credit"><strong>Mounted Triangle overview</strong> — taught by Satori BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=vLUua_voKzc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mounted Triangle</strong> — taught by Satori BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=vLUua_voKzc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -128,7 +128,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 ![](https://www.youtube.com/watch?v=1qxxbBWo9kw)
 
-<p class="clip-credit"><strong>Triangle to mounted triangle entry</strong> — taught by Ground X Jiu Jitsu · 2:35 · <a href="https://www.youtube.com/watch?v=1qxxbBWo9kw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle to mounted triangle</strong> — taught by Ground X Jiu Jitsu · 2:34 · <a href="https://www.youtube.com/watch?v=1qxxbBWo9kw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -287,25 +287,23 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Submissions/Triangle Choke/from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (21% of attempts)
+- **[[Submissions/Triangle Choke/from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (23% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (14% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (16% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (10% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (12% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (11% of attempts)
-
-- **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** (5% of attempts)
+- **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** (6% of attempts)
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (5% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (10% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (11% of attempts)
 
-- **[[Transitions/Mounted Triangle Squeeze/Attacker|Mounted Triangle Squeeze]]** (11% of attempts)
+- **[[Transitions/Mounted Triangle Squeeze/Attacker|Mounted Triangle Squeeze]]** (12% of attempts)
 
-- **[[Transitions/Mounted Triangle to S Mount/Attacker|Mounted Triangle to S Mount]]** (8% of attempts)
+- **[[Transitions/Mounted Triangle to S Mount/Attacker|Mounted Triangle to S Mount]]** (9% of attempts)
 
-- **[[Submissions/Belly Down Armbar/from Mounted Triangle/Attacker|Belly Down Armbar from Mounted Triangle]]** (5% of attempts)
+- **[[Submissions/Belly Down Armbar/from Mounted Triangle/Attacker|Belly Down Armbar from Mounted Triangle]]** (6% of attempts)
 
 
 ### Common Mistakes

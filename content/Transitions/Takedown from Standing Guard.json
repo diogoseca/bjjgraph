@@ -403,35 +403,7 @@
       }
     ],
     "safety_considerations": "Takedowns carry inherent impact risk for both practitioners. Always ensure sufficient mat space before initiating takedown attempts, and practice on appropriate padded training surfaces with proper breakfall technique. The level change movement places significant stress on the knees—warm up thoroughly and develop correct penetration step mechanics at low intensity before drilling under resistance. When finishing takedowns, control the descent to prevent slamming, which is illegal in most BJJ competition rulesets and can cause serious injury in training. Both partners should communicate about intensity and impact comfort levels, and the attacking player bears primary responsibility for controlling the speed and force of the landing.",
-    "clips": [
-      {
-        "id": "mq7Kdd7r8ro",
-        "title": "Double Leg Lift to Standing Inside Trip",
-        "by": "Cary Kolat",
-        "vertical": false,
-        "channel": "Cary Kolat",
-        "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "G98oKGgneQ8",
-        "title": "Snatch double leg takedown",
-        "by": "Unknown",
-        "vertical": false,
-        "channel": "Ochiru",
-        "duration": 31,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dhZgpDHCARw",
-        "title": "Double Leg Takedown technique",
-        "by": "Predators MMA Manchester",
-        "vertical": false,
-        "channel": "Predators MMA and BJJ Academy Manchester",
-        "duration": 15,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Takedown from Standing Guard Defender",
@@ -611,30 +583,18 @@
     "clips": [
       {
         "id": "8AaRLOSM61U",
-        "title": "Sprawl technique for takedown defense",
-        "by": "Coach Lang",
-        "vertical": false,
+        "title": "Best Wrestling Defense Sprawl Technique",
         "channel": "Coach Lang",
-        "duration": 55,
-        "verified": "2026-07-15"
+        "duration": 54,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "Io79xaXZx_c",
-        "title": "How to sprawl against a double leg",
-        "by": "A-Team BJJ",
-        "vertical": false,
+        "title": "How to Sprawl against a Double Leg!",
         "channel": "ateambjj",
         "duration": 56,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "yeL15sJvtG8",
-        "title": "Basic sprawl fundamentals",
-        "by": "Justin Thurman",
-        "vertical": false,
-        "channel": "Superhero Jiu Jitsu Academy ",
-        "duration": 47,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

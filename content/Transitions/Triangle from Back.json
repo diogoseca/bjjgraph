@@ -375,31 +375,12 @@
     "safety_considerations": "The Triangle from Back involves significant neck compression and cervical spine stress on the bottom player once the rear triangle is locked. Training partners must tap early when the triangle tightens around the neck, as the choking pressure from a rear triangle can cause unconsciousness rapidly due to bilateral carotid compression. The threading motion can also strain the top player's hip flexors and groin if forced without adequate flexibility. During drilling, practice the leg thread at controlled speed and avoid cranking the triangle lock aggressively. Partners with neck injuries or cervical disc issues should avoid being placed in the bottom position. Always establish clear tap signals before drilling this technique, and release immediately upon any tap or verbal submission.",
     "clips": [
       {
-        "id": "oyXaGXU3mFU",
-        "title": "Rear triangle entry from side control",
-        "by": "Onyx Martial Arts",
-        "vertical": false,
-        "channel": "Onyx Martial Arts Edmundston ",
-        "duration": 77,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "e5-wNLYzJT0",
-        "title": "Back triangle when the choke stalls",
-        "by": "Josh Presley",
-        "vertical": false,
+        "title": "Back Triangle - Your Choke Didn’t Work…Use This!",
         "channel": "Josh Presley",
         "duration": 101,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-lMabjvtaLk",
-        "title": "Entries into the rear triangle from the back",
-        "by": "John Danaher",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 252,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -581,20 +562,10 @@
       {
         "id": "qZ5ahQCqrTE",
         "title": "Back triangle escapes",
-        "by": "Michael Hoffman",
-        "vertical": false,
         "channel": "Michael Hoffman",
         "duration": 110,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jOL9pqG7lwo",
-        "title": "Back mount triangle escape",
-        "by": "Eli Knight",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 244,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

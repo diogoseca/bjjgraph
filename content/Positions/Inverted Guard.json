@@ -409,30 +409,61 @@
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 12
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Headquarters Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 14
-        }
+          "gi": 14,
+          "nogi": 15
+        },
+        "success_rate": {
+          "gi": 55,
+          "nogi": 55
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 55,
+              "nogi": 55
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inverted Guard/Top",
+            "probability": {
+              "gi": 30,
+              "nogi": 30
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ],
+        "deal_here": true
       },
       {
         "transition": "Leg Drag Pass",
@@ -444,80 +475,96 @@
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Stack Pass from Inversion",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 5
+          "gi": 13,
+          "nogi": 10
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 9,
+          "nogi": 11
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 3
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "Stack from Inverted",
         "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Step Over to Mount",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Sprawl and Disengage",
+        "attempt_probability": {
           "gi": 4,
           "nogi": 4
         }
       },
       {
-        "transition": "Toreando from Inverted",
+        "transition": "Cartwheel Pass",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 2,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Counter Ashi Entry",
+        "attempt_probability": {
+          "gi": 2,
           "nogi": 4
+        }
+      },
+      {
+        "transition": "Double Under Pass",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],
     "clips": [
       {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a Full Inversion",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "M6gK8yjDFGE",
-        "title": "How to Pass Inverted Guard",
-        "by": "Wim Deputter",
-        "vertical": false,
+        "title": "How to Pass Inverted Guard?",
         "channel": "Wim Deputter BJJ",
         "duration": 91,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "P7JKadlMi_M",
         "title": "How to Pass The Inverted Guard",
-        "by": "JiuJitsu.com",
-        "vertical": false,
         "channel": "JiuJitsu.com",
-        "duration": 97,
-        "verified": "2026-07-14"
+        "duration": 96,
+        "vertical": false
       }
     ]
   },
@@ -704,7 +751,7 @@
             "probability": 55
           },
           {
-            "technique": "Kiss of the Dragon",
+            "technique": "Bolo Sweep",
             "target": "Back Control",
             "probability": 45
           }
@@ -850,7 +897,7 @@
         "relationship": "Essential movement pattern for exiting inverted guard safely and recovering guard"
       },
       {
-        "name": "Kiss of the Dragon",
+        "name": "Bolo Sweep",
         "relationship": "Advanced back take variation from inverted guard with high finishing potential"
       },
       {
@@ -885,43 +932,43 @@
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 8
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 17
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 11
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 16
+          "nogi": 12
         }
       },
       {
         "transition": "Omoplata from Inverted Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 3
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Reverse X-Guard Entry",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
@@ -929,13 +976,44 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 5
-        }
+        },
+        "success_rate": {
+          "gi": 58,
+          "nogi": 58
+        },
+        "outcomes": [
+          {
+            "to": "Standing Position/Top",
+            "probability": {
+              "gi": 55,
+              "nogi": 55
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inverted Guard/Bottom",
+            "probability": {
+              "gi": 30,
+              "nogi": 30
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Headquarters Position/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ],
+        "deal_here": true
       },
       {
         "transition": "Bolo Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 5
+          "gi": 4,
+          "nogi": 3
         },
         "deal_here": true,
         "success_rate": {
@@ -973,52 +1051,89 @@
         "transition": "Reverse De La Riva Recovery",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 9
+          "nogi": 7
         },
         "deal_here": true
       },
       {
         "transition": "Sweep from Inverted Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 5
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "50-50 Entry",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 9
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Kneebar Entry from Inverted Guard",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Single Leg X Transition",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Rolling Kneebar",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Inverted Guard Elevation Sweep",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "X-Guard Elevation Sweep",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Heel Hook from Inverted Guard",
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 4
         }
       }
     ],
     "clips": [
       {
-        "id": "KNz5AkZ4jrg",
-        "title": "Jiu Jitsu Inversion Mechanics",
-        "by": "Mikey Musumeci",
+        "id": "Ez4LvZ2PtRk",
+        "title": "BJJ guard maintenance drill #3:  basic inversion",
+        "channel": "Revolution BJJ",
+        "duration": 17,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 72,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ErsvmCAGxnA",
-        "title": "Inverting under top pressure",
-        "by": "Mikey Musumeci",
-        "vertical": false,
-        "channel": "Chase Namba",
-        "duration": 78,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "SCfmkmD4PYA",
-        "title": "Standing Alternative to Circle Hand",
-        "by": "Mikey Musumeci",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 119,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1124,31 +1239,12 @@
   ],
   "clips": [
     {
-      "id": "KNz5AkZ4jrg",
-      "title": "Jiu Jitsu Inversion Mechanics",
-      "by": "Mikey Musumeci",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 72,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "Ez4LvZ2PtRk",
-      "title": "Basic inversion guard maintenance drill",
-      "by": "Revolution BJJ",
-      "vertical": false,
+      "title": "BJJ guard maintenance drill #3:  basic inversion",
       "channel": "Revolution BJJ",
       "duration": 17,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "SCfmkmD4PYA",
-      "title": "Standing Alternative to Circle Hand",
-      "by": "Mikey Musumeci",
       "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 119,
-      "verified": "2026-07-14"
+      "half": "bottom"
     }
   ]
 }

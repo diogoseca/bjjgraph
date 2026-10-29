@@ -363,22 +363,12 @@
     "safety_considerations": "This is a defensive technique with minimal injury risk to either practitioner when performed correctly. The primary safety concern is arm isolation leading to shoulder submissions (kimura, americana) if the framing arm becomes extended and trapped. Always maintain bent elbows during framing and immediately prioritize arm recovery over frame maintenance if the opponent secures wrist control. Training partners should apply consolidation pressure progressively, starting at low intensity to allow the bottom player to develop frame timing before increasing to competition-level pressure. Tap immediately if any shoulder lock develops during frame training.",
     "clips": [
       {
-        "id": "wDSd5Qy8Kac",
-        "title": "Babybridge frames from bottom side control",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 231,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "dlIH3VjvDRo",
-        "title": "Sticky hands framing from bottom side control",
-        "by": "Select Jiu Jitsu Academy",
-        "vertical": false,
+        "title": "“Sticky Hands” Framing Punch Defense and Escapes from bottom Side Mount",
         "channel": "Select Jiu Jitsu Academy",
         "duration": 220,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -526,30 +516,18 @@
     "clips": [
       {
         "id": "e8OUw05ZBwo",
-        "title": "Dealing with frames from top side control",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
+        "title": "Side Control - Dealing with Frames and Establishing a Chest to Chest Pin",
         "channel": "Fox Den Martial Arts",
         "duration": 245,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "LUxMvOFbxIY",
         "title": "Killing the near side arm from side control",
-        "by": "Inverted Gear",
-        "vertical": false,
         "channel": "Inverted Gear",
         "duration": 123,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AErzgTWDSnE",
-        "title": "Passing against the elbow and knee frame",
-        "by": "Eric DeVere",
-        "vertical": false,
-        "channel": "Eric DeVere",
-        "duration": 287,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

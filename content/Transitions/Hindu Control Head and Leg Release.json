@@ -1,0 +1,374 @@
+{
+  "name": "Hindu Control Head and Leg Release",
+  "from_position": "Hindulotine/Top",
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
+      "result": "success"
+    },
+    {
+      "to": "Hindulotine/Top",
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
+      "result": "failure"
+    }
+  ],
+  "summary": "The top player releases the head-and-leg enclosure of Hindu Control early, then restores posture in closed or open guard without forcing a neck twist or assuming a pass.",
+  "description": "The top player releases the head-and-leg enclosure of Hindu Control early, then restores posture in closed or open guard without forcing a neck twist or assuming a pass.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The top player releases the head-and-leg enclosure of Hindu Control early, then restores posture in closed or open guard without forcing a neck twist or assuming a pass.\n\nBegin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present. Protect head and neck alignment; tap instead of rotating against established pressure.\n\nWork on releasing the enclosure while the head and leg can still move without forced joint pressure. Free the head from the enclosure before rebuilding upright posture. If the opponent closes ordinary guard, recognize Closed Guard/Top with the Hindu enclosure released. If the ankles do not close, remain facing Open Guard/Top; retained Hindu Control means the release is incomplete.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Hindulotine",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Hindu Control Head and Leg Release Attacker",
+    "description": "The top player releases the head-and-leg enclosure of Hindu Control early, then restores posture in closed or open guard without forcing a neck twist or assuming a pass.",
+    "overview": "The top player releases the head-and-leg enclosure of Hindu Control early, then restores posture in closed or open guard without forcing a neck twist or assuming a pass.\n\nBegin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present. Protect head and neck alignment; tap instead of rotating against established pressure.\n\nWork on releasing the enclosure while the head and leg can still move without forced joint pressure. Free the head from the enclosure before rebuilding upright posture. If the opponent closes ordinary guard, recognize Closed Guard/Top with the Hindu enclosure released. If the ankles do not close, remain facing Open Guard/Top; retained Hindu Control means the release is incomplete.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Top faces a bottom leg-in hold: Begin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present.",
+      "Comfortable head and neck alignment: Protect head and neck alignment; tap instead of rotating against established pressure.",
+      "Head-and-leg connection loosens: Work on releasing the enclosure while the head and leg can still move without forced joint pressure.",
+      "Head clears before posture rises: Free the head from the enclosure before rebuilding upright posture.",
+      "Top inside ordinary closed guard: If the opponent closes ordinary guard, recognize Closed Guard/Top with the Hindu enclosure released.",
+      "Facing legs after full clearance: If the ankles do not close, remain facing Open Guard/Top; retained Hindu Control means the release is incomplete."
+    ],
+    "setup_requirements": [
+      "Begin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present.",
+      "Protect head and neck alignment; tap instead of rotating against established pressure.",
+      "Work on releasing the enclosure while the head and leg can still move without forced joint pressure.",
+      "Free the head from the enclosure before rebuilding upright posture."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the caught side",
+        "description": "Begin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present."
+      },
+      {
+        "step_number": 2,
+        "action": "Keep the neck unloaded",
+        "description": "Protect head and neck alignment; tap instead of rotating against established pressure."
+      },
+      {
+        "step_number": 3,
+        "action": "Open the enclosure",
+        "description": "Work on releasing the enclosure while the head and leg can still move without forced joint pressure."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear before rising",
+        "description": "Free the head from the enclosure before rebuilding upright posture."
+      },
+      {
+        "step_number": 5,
+        "action": "Recognize closed guard",
+        "description": "If the opponent closes ordinary guard, recognize Closed Guard/Top with the Hindu enclosure released."
+      },
+      {
+        "step_number": 6,
+        "action": "Recognize open guard",
+        "description": "If the ankles do not close, remain facing Open Guard/Top; retained Hindu Control means the release is incomplete."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Keep the leg-in control connected while the opponent's neck remains unloaded.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Hindulotine/Top"
+      },
+      {
+        "counter": "Follow an early posture change without twisting the head.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Hindulotine/Top"
+      },
+      {
+        "counter": "Release immediately at a tap or verbal stop.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Hindulotine/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the caught side",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present."
+      },
+      {
+        "error": "Skipping keep the neck unloaded",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Protect head and neck alignment; tap instead of rotating against established pressure."
+      },
+      {
+        "error": "Skipping open the enclosure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Work on releasing the enclosure while the head and leg can still move without forced joint pressure."
+      },
+      {
+        "error": "Skipping clear before rising",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Free the head from the enclosure before rebuilding upright posture."
+      },
+      {
+        "error": "Skipping recognize closed guard",
+        "consequence": "The next action lacks its required control.",
+        "correction": "If the opponent closes ordinary guard, recognize Closed Guard/Top with the Hindu enclosure released."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the caught side",
+        "description": "Begin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Keep the neck unloaded",
+        "description": "Protect head and neck alignment; tap instead of rotating against established pressure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the enclosure",
+        "description": "Work on releasing the enclosure while the head and leg can still move without forced joint pressure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Clear before rising",
+        "description": "Free the head from the enclosure before rebuilding upright posture. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Hindu Control Head and Leg Release: what does identify the caught side require?",
+        "answer": "Begin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present.",
+        "answer_line": "Top faces a bottom leg-in hold",
+        "distractors": {
+          "plausible": [
+            "A spinal twist through resistance",
+            "A guard pass before leg clearance"
+          ],
+          "trap": [
+            "A top rear choke with two hooks"
+          ]
+        }
+      },
+      {
+        "question": "Hindu Control Head and Leg Release: what does keep the neck unloaded require?",
+        "answer": "Protect head and neck alignment; tap instead of rotating against established pressure.",
+        "answer_line": "Comfortable head and neck alignment",
+        "distractors": {
+          "plausible": [
+            "A guard pass before leg clearance",
+            "A top rear choke with two hooks"
+          ],
+          "trap": [
+            "Rising while the head stays trapped"
+          ]
+        }
+      },
+      {
+        "question": "Hindu Control Head and Leg Release: what does open the enclosure require?",
+        "answer": "Work on releasing the enclosure while the head and leg can still move without forced joint pressure.",
+        "answer_line": "Head-and-leg connection loosens",
+        "distractors": {
+          "plausible": [
+            "A top rear choke with two hooks",
+            "Rising while the head stays trapped"
+          ],
+          "trap": [
+            "A spinal twist through resistance"
+          ]
+        }
+      },
+      {
+        "question": "Hindu Control Head and Leg Release: what does clear before rising require?",
+        "answer": "Free the head from the enclosure before rebuilding upright posture.",
+        "answer_line": "Head clears before posture rises",
+        "distractors": {
+          "plausible": [
+            "Rising while the head stays trapped",
+            "A spinal twist through resistance"
+          ],
+          "trap": [
+            "A guard pass before leg clearance"
+          ]
+        }
+      },
+      {
+        "question": "Hindu Control Head and Leg Release: what does recognize closed guard require?",
+        "answer": "If the opponent closes ordinary guard, recognize Closed Guard/Top with the Hindu enclosure released.",
+        "answer_line": "Top inside ordinary closed guard",
+        "distractors": {
+          "plausible": [
+            "A spinal twist through resistance",
+            "A guard pass before leg clearance"
+          ],
+          "trap": [
+            "A top rear choke with two hooks"
+          ]
+        }
+      },
+      {
+        "question": "Hindu Control Head and Leg Release: what does recognize open guard require?",
+        "answer": "If the ankles do not close, remain facing Open Guard/Top; retained Hindu Control means the release is incomplete.",
+        "answer_line": "Facing legs after full clearance",
+        "distractors": {
+          "plausible": [
+            "A guard pass before leg clearance",
+            "A top rear choke with two hooks"
+          ],
+          "trap": [
+            "Rising while the head stays trapped"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Hindu Control Head and Leg Release Defender",
+    "description": "Recognize Hindu Control Head and Leg Release and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Keep the leg-in control connected while the opponent's neck remains unloaded. Follow an early posture change without twisting the head. Release immediately at a tap or verbal stop. Return to ordinary closed guard if the enclosure clears and the distance permits. Use facing open guard when a closed guard cannot comfortably form.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Keep the leg-in control connected while the opponent's neck remains unloaded.",
+      "Follow an early posture change without twisting the head.",
+      "Release immediately at a tap or verbal stop.",
+      "Return to ordinary closed guard if the enclosure clears and the distance permits.",
+      "Use facing open guard when a closed guard cannot comfortably form."
+    ],
+    "recognition_cues": [
+      "Begin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present.",
+      "Protect head and neck alignment; tap instead of rotating against established pressure.",
+      "Work on releasing the enclosure while the head and leg can still move without forced joint pressure."
+    ],
+    "defensive_options": [
+      {
+        "action": "Keep the leg-in control connected while the opponent's neck remains unloaded.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Hindulotine/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Follow an early posture change without twisting the head.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Hindulotine/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Release immediately at a tap or verbal stop.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Hindulotine/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Return to ordinary closed guard if the enclosure clears and the distance permits.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Hindulotine/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Hindulotine/Top",
+        "how": "Keep the leg-in control connected while the opponent's neck remains unloaded."
+      },
+      {
+        "outcome": "Hindulotine/Top",
+        "how": "Use facing open guard when a closed guard cannot comfortably form."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Use facing open guard when a closed guard cannot comfortably form."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Follow an early posture change without twisting the head."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Hindu Control Head and Leg Release, what connection do you address first?",
+        "answer": "Keep the leg-in control connected while the opponent's neck remains unloaded."
+      },
+      {
+        "question": "Against Hindu Control Head and Leg Release, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Hindu Control Head and Leg Release, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the caught side",
+        "description": "Begin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Keep the neck unloaded",
+        "description": "Protect head and neck alignment; tap instead of rotating against established pressure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the enclosure",
+        "description": "Work on releasing the enclosure while the head and leg can still move without forced joint pressure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present.",
+    "Protect head and neck alignment; tap instead of rotating against established pressure.",
+    "Work on releasing the enclosure while the head and leg can still move without forced joint pressure."
+  ],
+  "position_integration": "The top player releases the head-and-leg enclosure of Hindu Control early, then restores posture in closed or open guard without forcing a neck twist or assuming a pass. Begin as the top player facing the bottom Hindu Control holder, with the head-and-leg enclosure still present. If the ankles do not close, remain facing Open Guard/Top; retained Hindu Control means the release is incomplete."
+}

@@ -46,35 +46,13 @@ description: "Master Reverse X-Guard in BJJ. Strategic guide covering when to us
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse/X-Guard to heel hook",
-      "description": "Reverse X-Guard film study: Reverse/X-Guard to heel hook, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
-      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT94S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The Reverse X-Guard entry",
-      "description": "Reverse X-Guard film study: The Reverse X-Guard entry, taught by Black Flag Submission Company.",
+      "name": "Technique Talk: The Reverse X-Guard Entry",
+      "description": "Reverse X-Guard film study: Technique Talk: The Reverse X-Guard Entry, taught by Black Flag Submission Company.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dISye8G6dpU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dISye8G6dpU",
       "url": "https://www.youtube.com/watch?v=dISye8G6dpU",
       "creator": { "@type": "Person", "name": "Black Flag Submission Company" },
-      "duration": "PT191S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Single X to Reverse X to 411",
-      "description": "Reverse X-Guard film study: Single X to Reverse X to 411, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yWF7dsUJOKs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yWF7dsUJOKs",
-      "url": "https://www.youtube.com/watch?v=yWF7dsUJOKs",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT249S"
+      "duration": "PT190S"
     }
   ]
 }
@@ -127,25 +105,9 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
-
-<p class="clip-credit"><strong>Reverse/X-Guard to heel hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=dISye8G6dpU)
 
-<p class="clip-credit"><strong>The Reverse X-Guard entry</strong> — taught by Black Flag Submission Company · 3:11 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yWF7dsUJOKs)
-
-<p class="clip-credit"><strong>Single X to Reverse X to 411</strong> — taught by Factory Fresh Jiu Jitsu · 4:09 · <a href="https://www.youtube.com/watch?v=yWF7dsUJOKs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Talk: The Reverse X-Guard Entry</strong> — taught by Black Flag Submission Company · 3:10 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -377,8 +339,8 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: Reverse X-Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Reverse X-Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

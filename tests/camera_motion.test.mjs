@@ -21,12 +21,12 @@ function app() {
 /** The view that puts world point p at screen point (sx, sy) with view width w. */
 const frameAt = (p, sx, sy, w) => ({ cx: p.x - (sx - W / 2) * w / W, cy: p.y - (sy - H / 2) * w / W, vw: w });
 /** Per-frame motion a viewer sees: max corner displacement, zoom ratio, centre kick (spec header). */
-function motion(views) {
+function motion(views, width = W) {
   let move = 0, kick = 0, zoom = 1, prev = [0, 0];
   for (let i = 1; i < views.length; i++) {
-    const a = views[i - 1], b = views[i], s0 = W / a.vw, s1 = W / b.vw;
-    for (const [px, py] of [[0, 0], [W, 0], [0, H], [W, H]]) {
-      move = Math.max(move, Math.hypot((a.cx - b.cx) * s1 + (px - W / 2) * (s1 / s0 - 1), (a.cy - b.cy) * s1 + (py - H / 2) * (s1 / s0 - 1)));
+    const a = views[i - 1], b = views[i], s0 = width / a.vw, s1 = width / b.vw;
+    for (const [px, py] of [[0, 0], [width, 0], [0, H], [width, H]]) {
+      move = Math.max(move, Math.hypot((a.cx - b.cx) * s1 + (px - width / 2) * (s1 / s0 - 1), (a.cy - b.cy) * s1 + (py - H / 2) * (s1 / s0 - 1)));
     }
     const c = [(a.cx - b.cx) * s1, (a.cy - b.cy) * s1];
     kick = Math.max(kick, Math.hypot(c[0] - prev[0], c[1] - prev[1])); prev = c;
@@ -124,4 +124,80 @@ test("a target that moves LESS than a jump during a flight bends it smoothly, ne
   assert.ok(Math.abs((P.y - last.cy) * W / last.vw + H / 2 - 233) < 1, "and it still arrives at the moved target");
 });
 
-console.log("camera motion: 5 cases (flight, straight zoom, adopted write, lift, moving goal)");
+function readerCamera() {
+  const a = app(), reader = {}, n = { idx: 0, pi: -1, x: 0, y: 0, r: 12, ty: "positions" };
+  a.W = 1152; a.nodes = [n]; a.focusIdx = 0; a.paused = true;
+  a._LY = q => q.y; a._paneLayout = () => ({ left: 0, shift: 0, center: a.W / 2, width: a.W }); a._labelWidthPx = () => 150;
+  a.get = () => true; a.isMobile = () => false; a.ROLL_ZOOM = .085; a.NG_LABEL_LEFT_MIN = 50;
+  reader.nodeBand = a._readerBand(); a._reader = reader;
+  reader.contents = { hidden: false, getBoundingClientRect: () => ({ left: 928, right: 1128, top: 68, bottom: 700, width: 200 }) };
+  reader.articleEl = { getBoundingClientRect: () => ({ left: 236, right: 916, top: 68, bottom: 800, width: 680 }) };
+  return { a, reader, n };
+}
+
+// D-318 U4a supersedes the free-gutter claim: scrolling covers a stationary,
+// centred composition. Keep the original continuity bounds and idempotence.
+test("the reader centres its drawn composition continuously, independently of article and index", () => {
+  const { a, reader, n } = readerCamera();
+  const original = { cx: a.W / 2 - 980, cy: H / 2 - 300, vw: a.W };
+  a.cam = { ...original }; a.camTarget = { ...original };
+  const settle = () => {
+    const views = [{ ...a.cam }];
+    let framed;
+    for (let i = 0; i < 240; i++) {
+      a.camTarget = a.rollCamTarget(n, false);
+      if (!framed) framed = { ...a.camTarget };
+      // Target equality pins idempotence only. Motion and visibility below read
+      // the actual drawn camera, never the requested target (§6.2).
+      assert.equal(a.camTarget.cx, framed.cx, "re-applying the reading composition must not drift");
+      a._camStep(DT); views.push({ ...a.cam });
+    }
+    const m = motion(views, a.W);
+    assert.ok(m.move <= 120 && m.kick <= 14 && m.zoom <= 1.07, JSON.stringify(m));
+  };
+  settle();
+  const drawnX = (n.x - a.cam.cx) * a.W / a.cam.vw + a.W / 2;
+  assert.ok(Math.abs(drawnX + (150 + 11) / 2 - a.W / 2) < 1e-6, "orb and full label are centred together: " + JSON.stringify({ drawnX, cam: a.cam, target: a.camTarget }));
+  assert.ok(Math.abs(H / 2 + (n.y - a.cam.cy) * a.W / a.cam.vw - 140) < 1e-6, "node is in the reserved arrival band");
+  const before = { ...a.cam };
+  reader.contents.hidden = true;
+  reader.articleEl.getBoundingClientRect = () => ({ left: 236, right: 916, top: 0, bottom: 900, width: 680 });
+  settle();
+  assert.ok(Math.abs(a.cam.cx - before.cx) < 1e-6 && Math.abs(a.cam.cy - before.cy) < 1e-6, "scrolling or hiding the index never moves the node");
+});
+
+test("a deliberate camera subject is never retargeted by the pane composition", () => {
+  const { a, reader, n } = readerCamera(), subject = { x: 2000, y: 0 };
+  a.cam = { cx: subject.x, cy: 150, vw: a.W }; a.camTarget = { ...a.cam };
+  for (let i = 0; i < 180; i++) {
+    a.camTarget = a._paneCameraTarget(a.camTarget); a._camStep(DT);
+    assert.equal(a.W / 2 + (subject.x - a.cam.cx) * a.W / a.cam.vw, a.W / 2,
+      "the requested subject remains at the drawn centre");
+    assert.ok(a.W / 2 + (n.x - a.cam.cx) * a.W / a.cam.vw < 0, "the off-screen current node is not pulled back");
+  }
+});
+
+// D-347 / pane-layout:82 (CI 48be3a910): in the reading view the follow-cam engages NO lift while no flight is under
+// way. The reader's node band is reserved and rollCamTarget already centres the pair in it, so a lift against its edge
+// only held the node off centre until a pane toggle reset it: two rest framings. pane-layout:131 was this claim's only
+// gate, and from v1.237.0 its first landing is the directed arrival, which never flies and so never met the lift
+// (PR #320's review: reading-band-lift-restored survived there). updateCamera is driven here, at rest, on the
+// reader's band; the lift it hands the integrator is read from the integrator's own state (`_cm.lift`).
+test("in the reading view the follow-cam engages no lift at rest: one rest framing, whatever the pane does (D-347)", () => {
+  const { a, n } = readerCamera();
+  Object.assign(a, { introDone: true, startTime: 0, camFocus: { x: n.x, y: n.y }, pulse: null, _camOpenChecked: true, _camOpen: null,
+    _reducedMotion: () => false, userActiveNow: () => false, camHeld: () => false, cfg: () => ({ cameraMode: "Follow" }),
+    _frameArrivalHeading: () => {}, _refPage: null, _execution: null });
+  a.paused = false;
+  const rest = a.rollCamTarget(n, false);
+  a.cam = { ...rest, lvw: Math.log(rest.vw) }; a.camTarget = { ...rest };
+  const on = [];
+  for (let i = 0; i < 120; i++) { a.now += DT; a.updateCamera(DT); on.push(!!a._cm?.lift?.on); }
+  assert.equal(a._viewRect().band, true, "premise: the reading view's band (the reader's reserved node band)");
+  assert.ok(a._cm && !a._cm.flight, "premise: no flight was under way");
+  assert.deepEqual(on.filter(Boolean).length, 0, "no frame at rest engaged a lift against the reader's band");
+  const drawnY = H / 2 + (n.y - a.cam.cy) * a.W / a.cam.vw, restY = H / 2 + (n.y - rest.cy) * a.W / rest.vw;
+  assert.ok(Math.abs(drawnY - restY) < 1e-6, "and the node rests exactly where rollCamTarget framed it: " + JSON.stringify({ drawnY, restY }));
+});
+
+console.log("camera motion: 8 cases (flight, straight zoom, adopted write, lift, moving goal, reader exclusion, deliberate subject, no rest lift)");

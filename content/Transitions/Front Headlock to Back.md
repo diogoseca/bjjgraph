@@ -46,35 +46,32 @@ description: "Master Front Headlock to Back Take in BJJ. Complete guide covering
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Front Headlock to the Back Take",
-      "description": "Front Headlock to Back film study: Front Headlock to the Back Take, taught by Coach Casey.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/87l6l0dmPWM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/87l6l0dmPWM",
-      "url": "https://www.youtube.com/watch?v=87l6l0dmPWM",
-      "creator": { "@type": "Person", "name": "Coach Casey" },
-      "duration": "PT52S"
+      "name": "MJC #709 Front Headlock To Back Take",
+      "description": "Front Headlock to Back film study: MJC #709 Front Headlock To Back Take.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m1zVrv0CQ_E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m1zVrv0CQ_E",
+      "url": "https://www.youtube.com/watch?v=m1zVrv0CQ_E",
+      "duration": "PT28S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Front Headlock Snap Down to Spin Behind",
-      "description": "Front Headlock to Back film study: Front Headlock Snap Down to Spin Behind, taught by Procel BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9QCJFDsDQmk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9QCJFDsDQmk",
-      "url": "https://www.youtube.com/watch?v=9QCJFDsDQmk",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
-      "duration": "PT66S"
+      "name": "Front headlock to the back",
+      "description": "Front Headlock to Back film study: Front headlock to the back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/87l6l0dmPWM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/87l6l0dmPWM",
+      "url": "https://www.youtube.com/watch?v=87l6l0dmPWM",
+      "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Front Headlock to Back Take",
-      "description": "Front Headlock to Back film study: Front Headlock to Back Take, taught by Modesto Judo Club.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m1zVrv0CQ_E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m1zVrv0CQ_E",
-      "url": "https://www.youtube.com/watch?v=m1zVrv0CQ_E",
-      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
-      "duration": "PT28S"
+      "name": "Front Headlock Snap Down To Spin Behind",
+      "description": "Front Headlock to Back film study: Front Headlock Snap Down To Spin Behind.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9QCJFDsDQmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9QCJFDsDQmk",
+      "url": "https://www.youtube.com/watch?v=9QCJFDsDQmk",
+      "duration": "PT66S"
     }
   ]
 }
@@ -128,9 +125,17 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=m1zVrv0CQ_E)
+
+<p class="clip-credit"><strong>MJC #709 Front Headlock To Back Take</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=m1zVrv0CQ_E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=87l6l0dmPWM)
 
-<p class="clip-credit"><strong>Front Headlock to the Back Take</strong> — taught by Coach Casey · 0:52 · <a href="https://www.youtube.com/watch?v=87l6l0dmPWM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front headlock to the back</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=87l6l0dmPWM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +143,7 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 ![](https://www.youtube.com/watch?v=9QCJFDsDQmk)
 
-<p class="clip-credit"><strong>Front Headlock Snap Down to Spin Behind</strong> — taught by Procel BJJ · 1:06 · <a href="https://www.youtube.com/watch?v=9QCJFDsDQmk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=m1zVrv0CQ_E)
-
-<p class="clip-credit"><strong>Front Headlock to Back Take</strong> — taught by Modesto Judo Club · 0:28 · <a href="https://www.youtube.com/watch?v=m1zVrv0CQ_E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front Headlock Snap Down To Spin Behind</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=9QCJFDsDQmk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -330,8 +327,6 @@ The front headlock to back take serves as a critical connector in the overall BJ
 - [[Transitions/Crucifix from Turtle]] - Alternative advancement - Different dominant position from similar starting point
 
 - [[Transitions/Chair Sit to Back]] - Related technique - Alternative back take method from turtle attack position
-
-- [[Transitions/Back Take from Top]] - Related transition - Alternative back take pathway from top position
 
 - [[Transitions/Arm Triangle from Front Headlock]] - Alternative attack - Choke option available when opponent defends back take
 

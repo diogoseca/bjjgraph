@@ -362,21 +362,11 @@
     "clips": [
       {
         "id": "y_GjhMb6Qf8",
-        "title": "Holding the seatbelt in back control",
-        "by": "Kyuzo BJJ",
-        "vertical": false,
+        "title": "Holding Seatbelt Position",
         "channel": "Kyuzo Brazilian Jiu Jitsu",
-        "duration": 26,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lpgcKpIgClw",
-        "title": "Why you keep losing the back: back control retention",
-        "by": "Brandon McCaghren",
+        "duration": 25,
         "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 143,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -557,30 +547,18 @@
     "clips": [
       {
         "id": "k-78AJwPYig",
-        "title": "Defending back control vs double unders",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
+        "title": "Back Control (Defending) Double Under",
         "channel": "Academy Jiu Jitsu",
-        "duration": 64,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OltjLaTW3wQ",
-        "title": "3 ways to defend the back take",
-        "by": "Roberto Cyborg Abreu",
+        "duration": 63,
         "vertical": false,
-        "channel": "Cyborg BJJ",
-        "duration": 89,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "485wvqwlBYA",
-        "title": "Defending back control face down and sprawled out",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
+        "title": "Back Control (Defending) Face Down Sprawled Out",
         "channel": "Academy Jiu Jitsu",
-        "duration": 92,
-        "verified": "2026-07-15"
+        "duration": 91,
+        "vertical": false
       }
     ]
   },

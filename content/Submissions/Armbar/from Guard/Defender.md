@@ -162,35 +162,22 @@ description: "How to defend against Armbar from Guard in BJJ. Recognition, escap
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "My favorite armbar escape",
-      "description": "Armbar from Guard (Defender) film study: My favorite armbar escape, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
-      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT92S"
+      "name": "Arm Bar Escape Closed Guard 1/2",
+      "description": "Armbar from Guard (Defender) film study: Arm Bar Escape Closed Guard 1/2.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vfKVCQ-tA9M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vfKVCQ-tA9M",
+      "url": "https://www.youtube.com/watch?v=vfKVCQ-tA9M",
+      "duration": "PT84S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending the armbar under EBI/submission-only rules",
-      "description": "Armbar from Guard (Defender) film study: Defending the armbar under EBI/submission-only rules, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zwNOXB8GQ3w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zwNOXB8GQ3w",
-      "url": "https://www.youtube.com/watch?v=zwNOXB8GQ3w",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT208S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to defend an armbar",
-      "description": "Armbar from Guard (Defender) film study: How to defend an armbar, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CDpv10qYFLo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CDpv10qYFLo",
-      "url": "https://www.youtube.com/watch?v=CDpv10qYFLo",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT274S"
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Armbar from Guard (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "duration": "PT92S"
     }
   ]
 }
@@ -219,25 +206,17 @@ Defending the armbar from guard requires understanding the attacker's sequential
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=vfKVCQ-tA9M)
+
+<p class="clip-credit"><strong>Arm Bar Escape Closed Guard 1/2</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=vfKVCQ-tA9M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
 
-<p class="clip-credit"><strong>My favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zwNOXB8GQ3w)
-
-<p class="clip-credit"><strong>Defending the armbar under EBI/submission-only rules</strong> — taught by Lachlan Giles · 3:28 · <a href="https://www.youtube.com/watch?v=zwNOXB8GQ3w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=CDpv10qYFLo)
-
-<p class="clip-credit"><strong>How to defend an armbar</strong> — taught by Gordon Ryan · 4:34 · <a href="https://www.youtube.com/watch?v=CDpv10qYFLo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

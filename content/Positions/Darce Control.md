@@ -46,8 +46,8 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Darce choke details",
-      "description": "Darce Control film study: Darce choke details, taught by Chad Lyman.",
+      "name": "Darce details",
+      "description": "Darce Control film study: Darce details, taught by Chad Lyman.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jeHPHHtBbAo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jeHPHHtBbAo",
       "url": "https://www.youtube.com/watch?v=jeHPHHtBbAo",
@@ -57,8 +57,8 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side control to north-south darce",
-      "description": "Darce Control film study: Side control to north-south darce, taught by Gracie Westchase.",
+      "name": "Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj",
+      "description": "Darce Control film study: Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj, taught by Gracie Westchase.",
       "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
       "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
@@ -68,8 +68,8 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "How to do a darce from front headlock",
-      "description": "Darce Control film study: How to do a darce from front headlock, taught by LI MMA.",
+      "name": "How to do a D\u0027arce choke from front headlock",
+      "description": "Darce Control film study: How to do a D\u0027arce choke from front headlock, taught by LI MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Pc2yhqtRxJA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Pc2yhqtRxJA",
       "url": "https://www.youtube.com/watch?v=Pc2yhqtRxJA",
@@ -127,7 +127,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 
 ![](https://www.youtube.com/watch?v=jeHPHHtBbAo)
 
-<p class="clip-credit"><strong>Darce choke details</strong> — taught by Chad Lyman · 0:53 · <a href="https://www.youtube.com/watch?v=jeHPHHtBbAo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce details</strong> — taught by Chad Lyman · 0:53 · <a href="https://www.youtube.com/watch?v=jeHPHHtBbAo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,7 +135,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 
 ![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
 
-<p class="clip-credit"><strong>Side control to north-south darce</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control to north south D’ARCE!!! #graciewestchase #jiujitsu #darce #bjj</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -143,7 +143,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 
 ![](https://www.youtube.com/watch?v=Pc2yhqtRxJA)
 
-<p class="clip-credit"><strong>How to do a darce from front headlock</strong> — taught by LI MMA · 2:30 · <a href="https://www.youtube.com/watch?v=Pc2yhqtRxJA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to do a D&#39;arce choke from front headlock</strong> — taught by LI MMA · 2:30 · <a href="https://www.youtube.com/watch?v=Pc2yhqtRxJA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -282,19 +282,17 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Submissions/Darce Choke/from Darce Control/Attacker|Darce Choke from Darce Control]]** (34% of attempts)
+- **[[Submissions/Darce Choke/from Darce Control/Attacker|Darce Choke from Darce Control]]** (39% of attempts)
 
-- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (12% of attempts)
+- **[[Transitions/Darce Control Maintenance/Attacker|Darce Control Maintenance]]** (21% of attempts)
 
-- **[[Transitions/Switch to Anaconda Configuration/Attacker|Switch to Anaconda Configuration]]** (12% of attempts)
+- **[[Transitions/Darce to Anaconda Switch/Attacker|Darce to Anaconda Switch]]** (8% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (8% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (9% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (8% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (9% of attempts)
 
-- **[[Transitions/Darce Control Maintenance/Attacker|Darce Control Maintenance]]** (19% of attempts)
-
-- **[[Transitions/Darce to Anaconda Switch/Attacker|Darce to Anaconda Switch]]** (7% of attempts)
+- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (14% of attempts)
 
 
 ### Common Mistakes

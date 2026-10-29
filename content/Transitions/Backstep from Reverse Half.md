@@ -36,39 +36,6 @@ description: "Master the backstep from reverse half guard in BJJ. Complete guide
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Backstep from Reverse Half \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Back Take from Reverse Half Guard",
-      "description": "Backstep from Reverse Half film study: Back Take from Reverse Half Guard, taught by Trapp Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iVUskeb2-Ss/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iVUskeb2-Ss",
-      "url": "https://www.youtube.com/watch?v=iVUskeb2-Ss",
-      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
-      "duration": "PT104S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sweep and Back Take from Reverse Half Guard",
-      "description": "Backstep from Reverse Half film study: Sweep and Back Take from Reverse Half Guard, taught by Legacy Jiu-Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/s21HgPr-lIA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/s21HgPr-lIA",
-      "url": "https://www.youtube.com/watch?v=s21HgPr-lIA",
-      "creator": { "@type": "Person", "name": "Legacy Jiu-Jitsu Academy" },
-      "duration": "PT146S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -107,32 +74,6 @@ The backstep from reverse half guard integrates as the natural finishing sequenc
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Backstep from Reverse Half in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iVUskeb2-Ss)
-
-<p class="clip-credit"><strong>Back Take from Reverse Half Guard</strong> — taught by Trapp Martial Arts · 1:44 · <a href="https://www.youtube.com/watch?v=iVUskeb2-Ss" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=s21HgPr-lIA)
-
-<p class="clip-credit"><strong>Sweep and Back Take from Reverse Half Guard</strong> — taught by Legacy Jiu-Jitsu Academy · 2:26 · <a href="https://www.youtube.com/watch?v=s21HgPr-lIA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -319,8 +260,6 @@ The backstep from reverse half guard serves as the culminating technique in the 
 - [[Transitions/Backstep from Deep Half]] - Related backstep pass that frequently leads to reverse half guard position
 
 - [[Transitions/Back Step Pass]] - Foundational backstep passing technique in the same movement chain
-
-- [[Transitions/Back Take from Top]] - Alternative back take methodology from top positions for comparison
 
 - [[Transitions/Back Control to Reverse Half Guard]] - Reverse transition showing how back control can degrade to reverse half guard
 

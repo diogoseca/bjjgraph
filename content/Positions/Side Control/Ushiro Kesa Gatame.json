@@ -154,11 +154,6 @@
         "condition": "If opponent turns into you exposing their back",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 75
-          },
-          {
             "technique": "Side Control to North-South",
             "target": "Crucifix",
             "probability": 55
@@ -277,64 +272,57 @@
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Kimura from Ushiro Kesa Gatame",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Americana from Ushiro Kesa Gatame",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Arm Triangle from Ushiro Kesa Gatame",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Back Take",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
+        "transition": "Arm Triangle from Ushiro Kesa Gatame",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 11
+        }
+      },
+      {
         "transition": "Ushiro Kesa Gatame to North-South",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Ushiro Kesa Gatame to Side Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "North-South Choke from Ushiro Kesa Gatame",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 10
         }
       }
     ],
@@ -454,22 +442,19 @@
     ],
     "clips": [
       {
-        "id": "n-kEfODDUPM",
-        "title": "Reverse Kesa Leg Submission",
-        "by": "dogtownman",
+        "id": "SBapox2M2dE",
+        "title": "後袈裟固 /  Ushiro-kesa-gatame",
+        "channel": "KODOKAN",
+        "duration": 54,
         "vertical": false,
-        "channel": "dogtownman",
-        "duration": 130,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "RYo2TWEnOiY",
-        "title": "Kimura Setup from Ushiro Kesa Gatame",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 234,
-        "verified": "2026-07-14"
+        "id": "4EcIrvgi9q4",
+        "title": "JUDO - One minute clinic - Ushiro Kesa Gatame",
+        "channel": "Nick Delpopolo",
+        "duration": 60,
+        "vertical": false
       }
     ]
   },
@@ -914,31 +899,17 @@
     ],
     "clips": [
       {
-        "id": "O9H8V9BL_b0",
-        "title": "Escaping Kesa Gatame Position",
-        "by": "Full Metal Jiu Jitsu",
-        "vertical": false,
-        "channel": "Full Metal Jiu Jitsu",
-        "duration": 79,
-        "verified": "2026-07-14"
+        "id": "4QuzAAucQsA",
+        "title": "後袈裟固の逃れ方 /  Ushiro-kesa-gatame Escapes",
+        "channel": "KODOKAN",
+        "duration": 60,
+        "front": true
       },
       {
-        "id": "4L25UQntnPg",
-        "title": "Reverse Hip Escape from Side Control",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
-        "channel": "Fox Den Martial Arts",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "2M_6VytUaus",
-        "title": "Kesa Gatame Escape",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-14"
+        "id": "9kdzSOMmtMo",
+        "title": "Ushiro Kesa Gatame Escapes",
+        "channel": "Utah Shudokan USA",
+        "duration": 60
       }
     ]
   },
@@ -1059,21 +1030,19 @@
   "clips": [
     {
       "id": "SBapox2M2dE",
-      "title": "Ushiro-Kesa-Gatame (Reverse Scarf Hold)",
-      "by": "Kodokan",
-      "vertical": false,
+      "title": "後袈裟固 /  Ushiro-kesa-gatame",
       "channel": "KODOKAN",
       "duration": 54,
-      "verified": "2026-07-14"
+      "vertical": false,
+      "half": "top"
     },
     {
       "id": "4EcIrvgi9q4",
-      "title": "One Minute Clinic: Ushiro Kesa Gatame",
-      "by": "Nick Delpopolo",
-      "vertical": false,
+      "title": "JUDO - One minute clinic - Ushiro Kesa Gatame",
       "channel": "Nick Delpopolo",
       "duration": 60,
-      "verified": "2026-07-14"
+      "vertical": false,
+      "half": "top"
     }
   ]
 }

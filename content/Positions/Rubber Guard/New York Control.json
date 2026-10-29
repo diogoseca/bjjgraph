@@ -379,26 +379,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "wEedvmB_878",
-        "title": "Stoner Control from rubber guard top-side pressure",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Submissions101",
-        "duration": 191,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RJ7Iutti8cY",
-        "title": "Rubber Guard system overview for the top player",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 521,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "New York Control Bottom",
@@ -504,11 +485,6 @@
       {
         "condition": "If opponent begins extracting leg from shoulder control",
         "actions": [
-          {
-            "technique": "New York Control to Zombie",
-            "target": "Zombie",
-            "probability": 60
-          },
           {
             "technique": "Armbar on Free Arm",
             "target": "Armbar Control",
@@ -622,56 +598,49 @@
         "transition": "Gogoplata",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Triangle to Omoplata",
         "attempt_probability": {
           "gi": 11,
           "nogi": 10
         }
       },
       {
+        "transition": "Triangle to Omoplata",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
+      },
+      {
         "transition": "Triangle to Back",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Crackhead Control to Mission Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "New York to Invisible Collar",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "New York Control to Zombie",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
@@ -684,8 +653,8 @@
       {
         "transition": "Kimura from New York Control",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
@@ -817,26 +786,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "jT4wPY2Dc_U",
-        "title": "Dead Orchard Armbar from Rubber Guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "James O'Brien",
-        "duration": 88,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Cllvkg2qg-w",
-        "title": "Rubber Guard Live Drills",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -952,24 +902,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "tWAZbCiWQ9E",
-      "title": "Rubber Guard Philosophy",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 61,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "h1XzZDsUxHQ",
-      "title": "Eddie Bravo explains Rubber Guard",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "JAN FERNANDEZ ",
-      "duration": 111,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

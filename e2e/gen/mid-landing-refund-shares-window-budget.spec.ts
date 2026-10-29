@@ -1,42 +1,19 @@
-/* @hyperspace {"theme":"momentum-and-economy","L":"curriculum-mid","F":"decision-timer","B":"economy-math"} @invariant "The landing answer and the in-sheet JIT drill share ONE question window and neither door buys time: a correct landing answer SPENDS the window (decisionRemaining 0, combo x1), the option sheet then finds no open question to decline (zero land_q_declined), and JIT grades after it refund nothing (zero timer_refund, the window stays disarmed)." */
+// v1.230.0: the owner dropped practise-before-you-try on 2026-10-15 (question 6).
+/* @hyperspace {"theme":"momentum-and-economy","L":"curriculum-mid","F":"decision-timer","B":"economy-math"} @invariant "The landing answer, the video viewer and sidebar study share one question window: a correct answer spends it (decisionRemaining 0, combo x1), the viewer finds no open question to decline, and study grades refund no time or momentum." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { curriculumMid } from "./personas"
 
-/**
- * ONE WINDOW, TWO DOORS, NO TIME — the cross-surface economy claim, under the v1.133.0 law.
- *
- * INVERTED (gen-triage, v1.206.x) — the owner reversed this spec's claim on purpose. It pinned
- * that the landing answer's refundDecision(2500) and the JIT drill's refunds drew ONE 2-per-window
- * budget (granted [true,true,false] across the two doors). v1.133.0 (e6f655a6a) retired
- * refundDecision/timer_refund: "answering IS what the window was for" (owner: "Pressure should
- * not be on the choices … You get penalized if you don't click the right answer or click 'Show'
- * in time"), and v1.134.0 (f12f8f74c) made opening a move's sheet DECLINE an open question. What survives —
- * and what this spec now pins — is that the two doors still share ONE window:
- *   - door 1, the landing answer (`_landAnswered`): a correct MC answer disarms the window
- *     (spent, well) and credits momentum (combo ×1) — no +2.5s;
- *   - door 2, the option sheet (`expandOption` → `_declineLandQ("sheet")`): it declines only an
- *     OPEN question, so after door 1 it finds nothing to decline — zero land_q_declined, and the
- *     combo the answer earned survives;
- *   - the JIT drill inside the sheet grades into odds, never time: decisionRemaining() stays 0
- *     across two grades and no timer_refund beat exists. (The JIT door alone is jit-loop.spec.ts's
- *     "drilling pumps odds and buys NO time"; the DISCRIMINATING observation here is the
- *     cross-surface one — the sheet sees the window door 1 already closed.)
- *
- * Persona: curriculumMid — prep/rec but stage:{} EMPTY, so questionFor finds an unproven card and
- * the Mount|Top landing asks (MC). j.land() engages, so the question's clock arms at its mount.
- *
- * Determinism (house rails): the landing MC block draws on the LAND-scoped RNG tags
- * ("land-mc-pick"/"land-mc-shuffle") — rigged with pre-sized queues BEFORE land(); the sidebar
- * "mc-*" queues are never touched. The answer is read from the truth rail __neural._mc
- * ({correct, surface:"land"}) and clicked by STRUCTURE ([data-land-mc-opt="<correct>"]) — never
- * by option text. The sheet is opened but never committed — no resolve/outcome draws exist.
- *
- * Red-proof: `_landAnswered` no longer disarming the window fails "the correct answer SPENDS the
- * window" (gen-triage mutant).
+/** One question window: a correct landing answer spends it, the video viewer finds
+ * nothing to decline, and subsequent sidebar grades buy odds but no time or combo.
+ * The owner's 2026-10-15 decision retires JIT; all surviving clock/credit assertions
+ * now use the video viewer plus the existing study pane. Its entry is fixture setup; grading
+ * uses real Reveal / Got it inputs. Historical filename retained for ledger identity.
+ * Land RNG tags are rigged before arrival; no move is committed.
+ * Existing red proof: removing _landAnswered's disarm fails the spent-window assertion.
  */
 
-test("a correct landing answer spends the one window; the sheet finds nothing to decline; JIT grades buy no time", async ({ page }) => {
+test("a correct landing answer spends the one window; the viewer finds nothing to decline; study grades buy no time", async ({ page }) => {
   const j = journey(page)
   await j.boot("/", { initialState: curriculumMid() })
 
@@ -48,6 +25,7 @@ test("a correct landing answer spends the one window; the sheet finds nothing to
   ])
   await j.rig("land-mc-shuffle", [0.2, 0.5, 0.8, 0.35, 0.65, 0.95])
   await j.land("Mount Top")
+  await j.openQuestion() // U47 d: the question's window arms when it is taken up
 
   // ── the mid-curriculum landing asks: blob ingested, question live, its window fresh ──
   const boot = await page.evaluate(() => {
@@ -78,7 +56,8 @@ test("a correct landing answer spends the one window; the sheet finds nothing to
   expect(mc?.surface, "the live MC block is the landing surface").toBe("land")
   const r0 = await remaining()
   expect(r0, "the window is running before the answer").toBeGreaterThan(0)
-  await page.locator(`[data-land-mc-opt="${mc!.correct}"]`).click()
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
+  await page.keyboard.press("abc"[mc!.correct])
   const r1 = await remaining()
   // v1.133.0: no +2.5s — answering is what the window was for, so a right answer spends it
   expect(r1, "the correct landing answer SPENDS the window — no refund, no time left").toBe(0)
@@ -88,20 +67,20 @@ test("a correct landing answer spends the one window; the sheet finds nothing to
   expect((answered[0] as any).correct, "and it was correct").toBe(true)
   expect(await page.evaluate(() => (window as any).__neural._combo || 0), "the right answer paid in momentum (combo ×1)").toBe(1)
 
-  // ── DOOR 2: the option sheet — it declines only an OPEN question, and door 1 closed it ──
+  // The video viewer declines only an OPEN question; the landing answer already closed it.
   const options = await j.optionTitles()
-  await page.locator(`[data-tech="${options[0]}"]`).first().locator("[data-choice-inspect]").click()
-  await expect(page.locator("[data-jit]"), "in-sheet JIT micro-drill visible").toBeVisible()
+  await j.watchChoice(options[0])
+  await j.studyChoice(options[0])
   expect(
     (await j.beats()).filter((b: any) => b.beat === "land_q_declined").length,
-    "the sheet found no open question — the ONE window was already spent by the answer",
+    "the viewer found no open question — the ONE window was already spent by the answer",
   ).toBe(0)
 
-  // ── JIT grades: odds, never time — the shared window stays disarmed ──
-  await j.jitGrade()
+  // ── Study grades: odds, never time — the shared window stays disarmed ──
+  await j.studyGrade()
   const r2 = await remaining()
-  expect(r2, "the first JIT grade buys no time").toBe(0)
-  await j.jitGrade()
+  expect(r2, "the first study grade buys no time").toBe(0)
+  await j.studyGrade()
   const r3 = await remaining()
   expect(r3, "nor does the second — there is no budget to draw on").toBe(0)
 
@@ -120,5 +99,5 @@ test("a correct landing answer spends the one window; the sheet finds nothing to
   expect(end.windowLeft, "the SAME window is still disarmed after both doors").toBeNull()
   expect(end.refunds, "zero timer_refund beats — neither door refunds (the beat is retired)").toBe(0)
   expect(end.declined, "still zero declines — an answered question is never re-declined").toBe(0)
-  expect(end.combo, "the answer's momentum survived the sheet and the drill").toBe(1)
+  expect(end.combo, "the answer's momentum survived study").toBe(1)
 })

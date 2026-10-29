@@ -36,39 +36,6 @@ description: "Master New York position control in 10th Planet's Rubber Guard sys
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "New York \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Rubber Guard Philosophy",
-      "description": "New York film study: Rubber Guard Philosophy, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tWAZbCiWQ9E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tWAZbCiWQ9E",
-      "url": "https://www.youtube.com/watch?v=tWAZbCiWQ9E",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Eddie Bravo explains Rubber Guard",
-      "description": "New York film study: Eddie Bravo explains Rubber Guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
-      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT111S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -114,32 +81,6 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch New York in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tWAZbCiWQ9E)
-
-<p class="clip-credit"><strong>Rubber Guard Philosophy</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=tWAZbCiWQ9E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
-
-<p class="clip-credit"><strong>Eddie Bravo explains Rubber Guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -212,27 +153,25 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 ### Available Transitions
 
 
-- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (15% of attempts)
+- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (17% of attempts)
 
-- **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** (12% of attempts)
+- **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (18% of attempts)
 
-- **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (16% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (16% of attempts)
 
-- **[[Transitions/Rotate to Carni/Attacker|Rotate to Carni]]** (6% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (7% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (9% of attempts)
+- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (8% of attempts)
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (6% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (7% of attempts)
 
-- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (7% of attempts)
-
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (6% of attempts)
-
-- **[[Transitions/Sweep from New York/Attacker|Sweep from New York]]** (6% of attempts)
+- **[[Transitions/Sweep from New York/Attacker|Sweep from New York]]** (7% of attempts)
 
 - **[[Submissions/Belly Down Armbar/from New York/Attacker|Belly Down Armbar from New York]]** (3% of attempts)
+
+- **[[Transitions/Rotate to Carni/Attacker|Rotate to Carni]]** (7% of attempts)
 
 
 ### Common Mistakes

@@ -152,35 +152,12 @@ description: "How to defend and counter the sit out from turtle in BJJ. Recognit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Following the turtle to side control",
-      "description": "Sit Out from Turtle (Defender) film study: Following the turtle to side control, taught by Rickson Gracie Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
-      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
-      "creator": { "@type": "Person", "name": "Rickson Gracie Academy" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back take from the turtle position",
-      "description": "Sit Out from Turtle (Defender) film study: Back take from the turtle position, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6ns9XP2BsjQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6ns9XP2BsjQ",
-      "url": "https://www.youtube.com/watch?v=6ns9XP2BsjQ",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Countering the turtle escape: circle the reguard",
-      "description": "Sit Out from Turtle (Defender) film study: Countering the turtle escape: circle the reguard, taught by JitzLive.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/A7d7qR0oH8k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/A7d7qR0oH8k",
-      "url": "https://www.youtube.com/watch?v=A7d7qR0oH8k",
-      "creator": { "@type": "Person", "name": "JitzLive" },
-      "duration": "PT147S"
+      "name": "Countering the Sit Out",
+      "description": "Sit Out from Turtle (Defender) film study: Countering the Sit Out.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S0pmTHUZJE8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S0pmTHUZJE8",
+      "url": "https://www.youtube.com/watch?v=S0pmTHUZJE8",
+      "duration": "PT177S"
     }
   ]
 }
@@ -208,25 +185,9 @@ Defending the sit out from turtle top requires early recognition and immediate i
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
+![](https://www.youtube.com/watch?v=S0pmTHUZJE8)
 
-<p class="clip-credit"><strong>Following the turtle to side control</strong> — taught by Rickson Gracie Academy · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6ns9XP2BsjQ)
-
-<p class="clip-credit"><strong>Back take from the turtle position</strong> — taught by Evolve MMA · 1:06 · <a href="https://www.youtube.com/watch?v=6ns9XP2BsjQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=A7d7qR0oH8k)
-
-<p class="clip-credit"><strong>Countering the turtle escape: circle the reguard</strong> — taught by JitzLive · 2:27 · <a href="https://www.youtube.com/watch?v=A7d7qR0oH8k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering the Sit Out</strong> · 2:57 · <a href="https://www.youtube.com/watch?v=S0pmTHUZJE8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

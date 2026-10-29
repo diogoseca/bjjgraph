@@ -415,7 +415,6 @@ Choose two familiar top positions. Move slowly between them and pause whenever a
 - [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Governs preservation of dominance and connection during transitional movements
 - [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Provides methods for deliberately creating transition windows by provoking predictable opponent reactions
 - [[Transitions/Pass to Side Control|Pass to Side Control]] (Transition) - Major category of transitions where management principles heavily influence success rates
-- [[Transitions/Back Take|Back Take]] (Transition) - High-value transition category requiring sophisticated management due to vulnerability if failed
 - [[Transitions/Hip Escape to Guard|Hip Escape to Guard]] (Transition) - Fundamental defensive transition requiring careful timing and structural maintenance
 - [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) - Classic transition demonstrating importance of timing recognition and momentum control
 

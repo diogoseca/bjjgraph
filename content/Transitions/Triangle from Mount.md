@@ -46,35 +46,12 @@ description: "Learn Triangle from Mount in BJJ. Step-by-step setup from 3-4 Moun
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mounted Triangle Extra Details",
-      "description": "Triangle from Mount film study: Mounted Triangle Extra Details, taught by FightClubJiuJitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_tzcSlkSRKY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_tzcSlkSRKY",
-      "url": "https://www.youtube.com/watch?v=_tzcSlkSRKY",
-      "creator": { "@type": "Person", "name": "FightClubJiuJitsu" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Mounted Triangle Demonstration",
-      "description": "Triangle from Mount film study: Mounted Triangle Demonstration, taught by Satori BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vLUua_voKzc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vLUua_voKzc",
-      "url": "https://www.youtube.com/watch?v=vLUua_voKzc",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Finishing the Mounted Triangle",
-      "description": "Triangle from Mount film study: Finishing the Mounted Triangle, taught by Brandon Mccaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1hjapzU7lQg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1hjapzU7lQg",
-      "url": "https://www.youtube.com/watch?v=1hjapzU7lQg",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
-      "duration": "PT177S"
+      "name": "Preventing the Mounted Triangle",
+      "description": "Triangle from Mount film study: Preventing the Mounted Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l-HhOV9UjJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l-HhOV9UjJU",
+      "url": "https://www.youtube.com/watch?v=l-HhOV9UjJU",
+      "duration": "PT104S"
     }
   ]
 }
@@ -128,25 +105,9 @@ At competition level, the mounted triangle is devastating because it combines po
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_tzcSlkSRKY)
+![](https://www.youtube.com/watch?v=l-HhOV9UjJU)
 
-<p class="clip-credit"><strong>Mounted Triangle Extra Details</strong> — taught by FightClubJiuJitsu · 0:57 · <a href="https://www.youtube.com/watch?v=_tzcSlkSRKY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vLUua_voKzc)
-
-<p class="clip-credit"><strong>Mounted Triangle Demonstration</strong> — taught by Satori BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=vLUua_voKzc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1hjapzU7lQg)
-
-<p class="clip-credit"><strong>Finishing the Mounted Triangle</strong> — taught by Brandon Mccaghren · 2:57 · <a href="https://www.youtube.com/watch?v=1hjapzU7lQg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Preventing the Mounted Triangle</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -334,8 +295,6 @@ Triangle from Mount occupies a central role in the mount attack system, function
 - [[Transitions/High Mount Transition]] - Alternative entry—advancing to high mount provides a different triangle entry angle
 
 - [[Transitions/S-Mount Transition]] - Variant entry—S-Mount provides shortened leg swing distance for triangle setup
-
-- [[Transitions/Back Take from Top]] - Chain attack—available when opponent turns away to defend the triangle
 
 - [[Positions/Triangle Control]] - Related position—shares triangle mechanics but from guard rather than mount
 

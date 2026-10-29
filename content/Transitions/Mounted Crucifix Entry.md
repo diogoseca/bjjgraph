@@ -46,35 +46,12 @@ description: "Master Mounted Crucifix Entry from S Mount in BJJ. Step-by-step ar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mount to side crucifix with arm attacks",
-      "description": "Mounted Crucifix Entry film study: Mount to side crucifix with arm attacks, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-Vmyjv8-WFw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-Vmyjv8-WFw",
-      "url": "https://www.youtube.com/watch?v=-Vmyjv8-WFw",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT76S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Arm drag entry to the crucifix",
-      "description": "Mounted Crucifix Entry film study: Arm drag entry to the crucifix, taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uQn6tbgVeGA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uQn6tbgVeGA",
-      "url": "https://www.youtube.com/watch?v=uQn6tbgVeGA",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Mounted crucifix basic instruction",
-      "description": "Mounted Crucifix Entry film study: Mounted crucifix basic instruction, taught by Matthew Elliott.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Q48AWgG50hw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Q48AWgG50hw",
-      "url": "https://www.youtube.com/watch?v=Q48AWgG50hw",
-      "creator": { "@type": "Person", "name": "Matthew Elliott" },
-      "duration": "PT283S"
+      "name": "Escaping the mounted crucifix",
+      "description": "Mounted Crucifix Entry film study: Escaping the mounted crucifix.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/41koUZWmeHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/41koUZWmeHE",
+      "url": "https://www.youtube.com/watch?v=41koUZWmeHE",
+      "duration": "PT146S"
     }
   ]
 }
@@ -128,25 +105,9 @@ The technical requirements for this entry demand precise timing and weight distr
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-Vmyjv8-WFw)
+![](https://www.youtube.com/watch?v=41koUZWmeHE)
 
-<p class="clip-credit"><strong>Mount to side crucifix with arm attacks</strong> — taught by Evolve MMA · 1:16 · <a href="https://www.youtube.com/watch?v=-Vmyjv8-WFw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uQn6tbgVeGA)
-
-<p class="clip-credit"><strong>Arm drag entry to the crucifix</strong> — taught by Revolution BJJ · 0:57 · <a href="https://www.youtube.com/watch?v=uQn6tbgVeGA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Q48AWgG50hw)
-
-<p class="clip-credit"><strong>Mounted crucifix basic instruction</strong> — taught by Matthew Elliott · 4:43 · <a href="https://www.youtube.com/watch?v=Q48AWgG50hw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping the mounted crucifix</strong> · 2:26 · <a href="https://www.youtube.com/watch?v=41koUZWmeHE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -332,8 +293,6 @@ The Mounted Crucifix Entry serves as a critical link between S Mount attacking s
 - [[Submissions/Armbar/from Crucifix]] - Follow-up attack - secondary submission option from crucifix
 
 - [[Positions/Mount/High Mount]] - Related position - high mount also offers crucifix entry opportunities
-
-- [[Transitions/Back Take from Top]] - Alternative advancement - back take available if crucifix fails but opponent turns
 
 - [[Transitions/Mount to Armbar]] - Primary chain - armbar setup from mount creates crucifix entry windows when failed armbar defense exposes the far arm
 

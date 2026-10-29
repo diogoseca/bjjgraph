@@ -182,24 +182,12 @@ description: "Learn to attack the Darce Choke from Twister Side Control with det
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twister Side to Darce (quick tip)",
-      "description": "Darce Choke from Twister Side Control (Attacker) film study: Twister Side to Darce (quick tip), taught by Underground Alliance.",
+      "name": "Twister Side to Darce (Quick Tip)",
+      "description": "Darce Choke from Twister Side Control (Attacker) film study: Twister Side to Darce (Quick Tip).",
       "thumbnailUrl": "https://i.ytimg.com/vi/EW9QdDZBmrU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EW9QdDZBmrU",
       "url": "https://www.youtube.com/watch?v=EW9QdDZBmrU",
-      "creator": { "@type": "Person", "name": "Underground Alliance" },
-      "duration": "PT64S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Twister Side Control setup",
-      "description": "Darce Choke from Twister Side Control (Attacker) film study: Twister Side Control setup, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
-      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT87S"
+      "duration": "PT63S"
     }
   ]
 }
@@ -230,15 +218,7 @@ Attacking the Darce Choke from Twister Side Control leverages existing positiona
 
 ![](https://www.youtube.com/watch?v=EW9QdDZBmrU)
 
-<p class="clip-credit"><strong>Twister Side to Darce (quick tip)</strong> — taught by Underground Alliance · 1:04 · <a href="https://www.youtube.com/watch?v=EW9QdDZBmrU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R55lmkc6Mus)
-
-<p class="clip-credit"><strong>Twister Side Control setup</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister Side to Darce (Quick Tip)</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=EW9QdDZBmrU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

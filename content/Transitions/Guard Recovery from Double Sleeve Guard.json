@@ -382,26 +382,7 @@
       }
     ],
     "safety_considerations": "Guard recovery from double sleeve guard is generally low risk, but practitioners should be aware of shoulder strain when maintaining sleeve grips under heavy forward pressure. Release grips cleanly rather than fighting grip strips with a fully locked wrist when the opponent's bodyweight drives through the connection. During training, communicate with partners about intensity of forward pressure to prevent rib compression from sudden weight drops when the bottom player's legs collapse from extended to retracted position. Avoid hyperextending the elbows by keeping a slight bend when framing against aggressive forward drives.",
-    "clips": [
-      {
-        "id": "fIFM4fzVqC0",
-        "title": "Guard retention: recovering through the legs",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 240,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ynoR-AtSYUc",
-        "title": "Guard retention: recovering around the legs",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 210,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Guard Recovery from Double Sleeve Guard Defender",
@@ -566,25 +547,6 @@
         "description": "Positional sparring starting in double sleeve guard with full resistance. Top player works to strip grips and advance while bottom player practices recovery mechanics. Track passing success rate and identify which recovery responses create the most difficulty for targeted counter-development."
       }
     ],
-    "clips": [
-      {
-        "id": "UoJul9UvRao",
-        "title": "Denying straight-arm guard retention while passing",
-        "by": "Cameron Florczak",
-        "vertical": false,
-        "channel": "Cameron Florczak",
-        "duration": 66,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering the full inversion recovery",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

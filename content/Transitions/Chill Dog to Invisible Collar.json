@@ -1,0 +1,374 @@
+{
+  "name": "Chill Dog to Invisible Collar",
+  "from_position": "Chill Dog/Bottom",
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
+  "outcomes": [
+    {
+      "to": "Invisible Collar/Bottom",
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
+      "result": "success"
+    },
+    {
+      "to": "Chill Dog/Bottom",
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "The bottom Chill Dog holder closes the second high leg after neck clearance and arm isolation, establishing Invisible Collar while keeping both raised knees supported.",
+  "description": "The bottom Chill Dog holder closes the second high leg after neck clearance and arm isolation, establishing Invisible Collar while keeping both raised knees supported.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The bottom Chill Dog holder closes the second high leg after neck clearance and arm isolation, establishing Invisible Collar while keeping both raised knees supported.\n\nBegin as the bottom Chill Dog holder after the neck-clearing step has been completed. Maintain the isolated-arm checkpoint before introducing the second high leg.\n\nKeep the first raised leg supported by the hip angle while preserving the cleared-neck connection. Bring the second high leg into the enclosure without pulling either foot against a fixed knee. Confirm the distinct two-leg Invisible Collar enclosure as the bottom holder. If the second leg cannot close, recognize the remaining Chill Dog configuration before choosing another action.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Chill Dog",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Invisible Collar",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Chill Dog to Invisible Collar Attacker",
+    "description": "The bottom Chill Dog holder closes the second high leg after neck clearance and arm isolation, establishing Invisible Collar while keeping both raised knees supported.",
+    "overview": "The bottom Chill Dog holder closes the second high leg after neck clearance and arm isolation, establishing Invisible Collar while keeping both raised knees supported.\n\nBegin as the bottom Chill Dog holder after the neck-clearing step has been completed. Maintain the isolated-arm checkpoint before introducing the second high leg.\n\nKeep the first raised leg supported by the hip angle while preserving the cleared-neck connection. Bring the second high leg into the enclosure without pulling either foot against a fixed knee. Confirm the distinct two-leg Invisible Collar enclosure as the bottom holder. If the second leg cannot close, recognize the remaining Chill Dog configuration before choosing another action.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Neck-cleared Chill Dog from bottom: Begin as the bottom Chill Dog holder after the neck-clearing step has been completed.",
+      "Arm isolated before leg closure: Maintain the isolated-arm checkpoint before introducing the second high leg.",
+      "Hip angle protects the raised knee: Keep the first raised leg supported by the hip angle while preserving the cleared-neck connection.",
+      "Second high leg reinforces the hold: Bring the second high leg into the enclosure without pulling either foot against a fixed knee.",
+      "Invisible Collar from underneath: Confirm the distinct two-leg Invisible Collar enclosure as the bottom holder.",
+      "Chill Dog if the second leg opens: If the second leg cannot close, recognize the remaining Chill Dog configuration before choosing another action."
+    ],
+    "setup_requirements": [
+      "Begin as the bottom Chill Dog holder after the neck-clearing step has been completed.",
+      "Maintain the isolated-arm checkpoint before introducing the second high leg.",
+      "Keep the first raised leg supported by the hip angle while preserving the cleared-neck connection.",
+      "Bring the second high leg into the enclosure without pulling either foot against a fixed knee."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm the starting guard",
+        "description": "Begin as the bottom Chill Dog holder after the neck-clearing step has been completed."
+      },
+      {
+        "step_number": 2,
+        "action": "Retain the arm connection",
+        "description": "Maintain the isolated-arm checkpoint before introducing the second high leg."
+      },
+      {
+        "step_number": 3,
+        "action": "Support the first leg",
+        "description": "Keep the first raised leg supported by the hip angle while preserving the cleared-neck connection."
+      },
+      {
+        "step_number": 4,
+        "action": "Close the second leg",
+        "description": "Bring the second high leg into the enclosure without pulling either foot against a fixed knee."
+      },
+      {
+        "step_number": 5,
+        "action": "Confirm the high clinch",
+        "description": "Confirm the distinct two-leg Invisible Collar enclosure as the bottom holder."
+      },
+      {
+        "step_number": 6,
+        "action": "Recognize a failed exchange",
+        "description": "If the second leg cannot close, recognize the remaining Chill Dog configuration before choosing another action."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Keep an inside frame before the second leg closes.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Chill Dog/Bottom"
+      },
+      {
+        "counter": "Keep the isolated arm connected to the torso while space remains.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Chill Dog/Bottom"
+      },
+      {
+        "counter": "Avoid rotating against a fixed head or shoulder.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping confirm the starting guard",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the bottom Chill Dog holder after the neck-clearing step has been completed."
+      },
+      {
+        "error": "Skipping retain the arm connection",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Maintain the isolated-arm checkpoint before introducing the second high leg."
+      },
+      {
+        "error": "Skipping support the first leg",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Keep the first raised leg supported by the hip angle while preserving the cleared-neck connection."
+      },
+      {
+        "error": "Skipping close the second leg",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Bring the second high leg into the enclosure without pulling either foot against a fixed knee."
+      },
+      {
+        "error": "Skipping confirm the high clinch",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Confirm the distinct two-leg Invisible Collar enclosure as the bottom holder."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Confirm the starting guard",
+        "description": "Begin as the bottom Chill Dog holder after the neck-clearing step has been completed. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Retain the arm connection",
+        "description": "Maintain the isolated-arm checkpoint before introducing the second high leg. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Support the first leg",
+        "description": "Keep the first raised leg supported by the hip angle while preserving the cleared-neck connection. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Close the second leg",
+        "description": "Bring the second high leg into the enclosure without pulling either foot against a fixed knee. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Chill Dog to Invisible Collar: what does confirm the starting guard require?",
+        "answer": "Begin as the bottom Chill Dog holder after the neck-clearing step has been completed.",
+        "answer_line": "Neck-cleared Chill Dog from bottom",
+        "distractors": {
+          "plausible": [
+            "Rear hooks behind the opponent",
+            "A jacket collar grip from top"
+          ],
+          "trap": [
+            "A finish before leg closure"
+          ]
+        }
+      },
+      {
+        "question": "Chill Dog to Invisible Collar: what does retain the arm connection require?",
+        "answer": "Maintain the isolated-arm checkpoint before introducing the second high leg.",
+        "answer_line": "Arm isolated before leg closure",
+        "distractors": {
+          "plausible": [
+            "A jacket collar grip from top",
+            "A finish before leg closure"
+          ],
+          "trap": [
+            "Pulling a foot against a fixed knee"
+          ]
+        }
+      },
+      {
+        "question": "Chill Dog to Invisible Collar: what does support the first leg require?",
+        "answer": "Keep the first raised leg supported by the hip angle while preserving the cleared-neck connection.",
+        "answer_line": "Hip angle protects the raised knee",
+        "distractors": {
+          "plausible": [
+            "A finish before leg closure",
+            "Pulling a foot against a fixed knee"
+          ],
+          "trap": [
+            "Rear hooks behind the opponent"
+          ]
+        }
+      },
+      {
+        "question": "Chill Dog to Invisible Collar: what does close the second leg require?",
+        "answer": "Bring the second high leg into the enclosure without pulling either foot against a fixed knee.",
+        "answer_line": "Second high leg reinforces the hold",
+        "distractors": {
+          "plausible": [
+            "Pulling a foot against a fixed knee",
+            "Rear hooks behind the opponent"
+          ],
+          "trap": [
+            "A jacket collar grip from top"
+          ]
+        }
+      },
+      {
+        "question": "Chill Dog to Invisible Collar: what does confirm the high clinch require?",
+        "answer": "Confirm the distinct two-leg Invisible Collar enclosure as the bottom holder.",
+        "answer_line": "Invisible Collar from underneath",
+        "distractors": {
+          "plausible": [
+            "Rear hooks behind the opponent",
+            "A jacket collar grip from top"
+          ],
+          "trap": [
+            "A finish before leg closure"
+          ]
+        }
+      },
+      {
+        "question": "Chill Dog to Invisible Collar: what does recognize a failed exchange require?",
+        "answer": "If the second leg cannot close, recognize the remaining Chill Dog configuration before choosing another action.",
+        "answer_line": "Chill Dog if the second leg opens",
+        "distractors": {
+          "plausible": [
+            "A jacket collar grip from top",
+            "A finish before leg closure"
+          ],
+          "trap": [
+            "Pulling a foot against a fixed knee"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Chill Dog to Invisible Collar Defender",
+    "description": "Recognize Chill Dog to Invisible Collar and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Keep an inside frame before the second leg closes. Keep the isolated arm connected to the torso while space remains. Avoid rotating against a fixed head or shoulder. Recognize Chill Dog if only the second high-leg connection is interrupted. Recover posture in ordinary guard if the high enclosure fully releases.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Keep an inside frame before the second leg closes.",
+      "Keep the isolated arm connected to the torso while space remains.",
+      "Avoid rotating against a fixed head or shoulder.",
+      "Recognize Chill Dog if only the second high-leg connection is interrupted.",
+      "Recover posture in ordinary guard if the high enclosure fully releases."
+    ],
+    "recognition_cues": [
+      "Begin as the bottom Chill Dog holder after the neck-clearing step has been completed.",
+      "Maintain the isolated-arm checkpoint before introducing the second high leg.",
+      "Keep the first raised leg supported by the hip angle while preserving the cleared-neck connection."
+    ],
+    "defensive_options": [
+      {
+        "action": "Keep an inside frame before the second leg closes.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Chill Dog/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Keep the isolated arm connected to the torso while space remains.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Chill Dog/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Avoid rotating against a fixed head or shoulder.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Recognize Chill Dog if only the second high-leg connection is interrupted.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Chill Dog/Bottom",
+        "how": "Keep an inside frame before the second leg closes."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Recover posture in ordinary guard if the high enclosure fully releases."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Recover posture in ordinary guard if the high enclosure fully releases."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Keep the isolated arm connected to the torso while space remains."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Chill Dog to Invisible Collar, what connection do you address first?",
+        "answer": "Keep an inside frame before the second leg closes."
+      },
+      {
+        "question": "Against Chill Dog to Invisible Collar, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Chill Dog to Invisible Collar, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Confirm the starting guard",
+        "description": "Begin as the bottom Chill Dog holder after the neck-clearing step has been completed. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Retain the arm connection",
+        "description": "Maintain the isolated-arm checkpoint before introducing the second high leg. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Support the first leg",
+        "description": "Keep the first raised leg supported by the hip angle while preserving the cleared-neck connection. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the bottom Chill Dog holder after the neck-clearing step has been completed.",
+    "Maintain the isolated-arm checkpoint before introducing the second high leg.",
+    "Keep the first raised leg supported by the hip angle while preserving the cleared-neck connection."
+  ],
+  "position_integration": "The bottom Chill Dog holder closes the second high leg after neck clearance and arm isolation, establishing Invisible Collar while keeping both raised knees supported. Begin as the bottom Chill Dog holder after the neck-clearing step has been completed. If the second leg cannot close, recognize the remaining Chill Dog configuration before choosing another action."
+}

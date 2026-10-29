@@ -36,50 +36,6 @@ description: "Master the Back Take from Bottom Hindulotine in BJJ. Capitalize on
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Back Take from Bottom \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Reverse armdrag from butterfly to back take",
-      "description": "Back Take from Bottom film study: Reverse armdrag from butterfly to back take, taught by Jerry Musquiz.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
-      "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
-      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Marcelo Garcia back attack study",
-      "description": "Back Take from Bottom film study: Marcelo Garcia back attack study, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kflXezQ9_8g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kflXezQ9_8g",
-      "url": "https://www.youtube.com/watch?v=kflXezQ9_8g",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT315S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Back take and guillotine options",
-      "description": "Back Take from Bottom film study: Back take and guillotine options, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3DrDbDeI8M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3DrDbDeI8M",
-      "url": "https://www.youtube.com/watch?v=z3DrDbDeI8M",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT157S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -114,44 +70,10 @@ This technique transforms a failed or stalled submission attempt into a dominant
 The back take from bottom Hindulotine is particularly effective because the opponent often commits fully to the turn, believing they are escaping danger. This commitment makes the back exposure more complete and the subsequent control establishment more secure. The position integrates seamlessly into front headlock and guillotine attack systems, providing a reliable secondary option when the primary choke stalls.
 
 **From Position**: [[Positions/Hindulotine]] (Bottom)
-**Success Rate**: 30%
+**Success Rate**: 35%
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Back Take from Bottom in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MFed9IE8afA)
-
-<p class="clip-credit"><strong>Reverse armdrag from butterfly to back take</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kflXezQ9_8g)
-
-<p class="clip-credit"><strong>Marcelo Garcia back attack study</strong> — taught by Marcelo Garcia · 5:15 · <a href="https://www.youtube.com/watch?v=kflXezQ9_8g" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=z3DrDbDeI8M)
-
-<p class="clip-credit"><strong>Back take and guillotine options</strong> — taught by Coach Brian · 2:37 · <a href="https://www.youtube.com/watch?v=z3DrDbDeI8M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -160,9 +82,9 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Back Control]] | 65% |
-| Failure | [[Positions/Hindulotine]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 35% |
+| Failure | [[Positions/Hindulotine]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -327,10 +249,6 @@ The Back Take from Bottom Hindulotine is a critical component of the front headl
 
 - [[Submissions/Rear Naked Choke]] - Primary follow-up submission from back control
 
-- [[Transitions/Back Take from Top]] - Similar transition executed from top Hindulotine
-
-- [[Transitions/Hindulotine to Darce Choke]] - Alternative attack when opponent creates frames instead of turning
-
 - [[Transitions/Hindulotine to Anaconda Choke]] - Alternative transition from same control position
 
 - [[Positions/Closed Guard]] - Common guard configuration during bottom Hindulotine
@@ -347,7 +265,7 @@ The Back Take from Bottom Hindulotine is a critical component of the front headl
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

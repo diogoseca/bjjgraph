@@ -390,21 +390,11 @@
     "clips": [
       {
         "id": "hXAs2HsP9Cg",
-        "title": "Knee shield half guard recovery",
-        "by": "United Martial Arts",
-        "vertical": false,
+        "title": "Half-Guard Knee Shield, Guard Recovery 1/19/21",
         "channel": "UnitedMartialArtsKY",
         "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dOdO6xJ-TcU",
-        "title": "Stopping the half guard underhook",
-        "by": "Malachy Friedman",
         "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -583,25 +573,6 @@
         "description": "Two-minute rounds starting in flattened half guard. Top player works to maintain control or complete the pass while bottom player attempts recovery. Full resistance from both players. Track pass completion rate versus recovery rate over multiple sessions to measure improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "L8_9QIvzZtA",
-        "title": "Stopping the knee shield half guard recovery",
-        "by": "Dirtball BJJ",
-        "vertical": false,
-        "channel": "Dirtball BJJ",
-        "duration": 39,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8WbQvytyCX0",
-        "title": "Passing the flattened half guard",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 63,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

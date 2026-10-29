@@ -393,26 +393,7 @@
       }
     ],
     "safety_considerations": "The gogoplata to armbar transition involves moving between two joint-threatening positions in rapid succession. During training, partners should apply the armbar finish slowly and incrementally after the transition is complete. The rapid change from throat compression to elbow hyperextension can catch defenders off guard, significantly increasing injury risk. Always establish clear tap protocols before drilling this chain, and release immediately upon any tap signal regardless of which phase the technique is in. Practitioners with limited hip flexibility should not force the gogoplata component, as hip and hamstring injuries can result from attempting positions beyond current mobility range. Drill at reduced speed until the full transition sequence is comfortable for both partners.",
-    "clips": [
-      {
-        "id": "BZUaoH8vf0U",
-        "title": "Armbar and gogoplata transition",
-        "by": "Carlson Gracie Melbourne coach",
-        "vertical": false,
-        "channel": "Carlson Gracie Jiu-Jitsu Team Melbourne FL",
-        "duration": 65,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ht6VYMYXHsI",
-        "title": "Armbar from rubber guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "JiuJitsuMania",
-        "duration": 260,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Gogoplata to Armbar Defender",
@@ -599,34 +580,6 @@
         "description": "After successfully defending the armbar transition, immediately work to improve position through guard passing, posture recovery, or positional advancement rather than settling back into gogoplata defense. Practice punishing the attacker for abandoning the gogoplata by escaping their entire guard system when the transition fails."
       }
     ],
-    "clips": [
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "Armbar escape when they are close to finishing",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ROgt8e30a3s",
-        "title": "The Gogoplata Defense",
-        "by": "RedBeltJiuJitsu",
-        "vertical": false,
-        "channel": "RedBeltJiuJitsu",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iwcfKUPNZNs",
-        "title": "Why Rubber Guard Doesn't Work (Counters)",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 792,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

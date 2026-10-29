@@ -4,7 +4,7 @@
 
 ---
 title: "New York to Invisible Collar Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute New York to Invisible Collar in BJJ. Attacking perspective with setup, execution steps, and counters."
+description: "New York to Invisible Collar (attacker): Keep the elbow separated from an inside frame before closing the second leg. Maintain the cleared hand position and knee hug as the free leg comes higher."
 ---
 
 
@@ -20,45 +20,39 @@ description: "How to execute New York to Invisible Collar in BJJ. Attacking pers
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Secure overhook",
-      "text": "Ensure your overhook is deep around the opponent's tricep with your shoulder tight against their armpit. This grip must remain locked throughout the entire transition and serves as your primary anchor.",
+      "name": "Retain the isolated arm",
+      "text": "Keep the elbow separated from an inside frame before closing the second leg.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Load opponent forward",
-      "text": "Use your shin grip and overhook to pull the opponent's weight forward and down toward your chest. Their head should be below shoulder level, and they should have minimal posting ability on their trapped arm side.",
+      "name": "Preserve neck clearance",
+      "text": "Maintain the cleared hand position and knee hug as the free leg comes higher.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Release shin grip",
-      "text": "Release your grip on your own shin while maintaining leg position through hip flexor engagement. Your leg should stay wrapped high across their back through active muscular control rather than the hand grip.",
+      "name": "Close without knee torque",
+      "text": "Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Swim hand to neck",
-      "text": "Immediately swim your free hand between the opponent's shoulder and your own thigh, threading it behind their head. The hand travels in a circular arc, palm facing inward toward their skull.",
+      "name": "Use connected leg pressure",
+      "text": "Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Establish collar grip",
-      "text": "Cup the back of the opponent's skull with your palm, fingers wrapping around toward the ear on the opposite side. Pull their head down toward your chest while your wrist applies pressure to the back of their neck.",
+      "name": "Read the free arm",
+      "text": "Monitor frames and posture so an arm extraction does not silently undo the control.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Consolidate Invisible Collar",
-      "text": "Adjust your hip angle toward the overhook side while pulling the head down with the collar grip. Both arms now control the opponent's posture - overhook on arm, collar grip on head. Your leg maintains position across their back.",
+      "name": "Open to recover guard",
+      "text": "Release the high clinch and rebuild ordinary frames if the position becomes a stack or causes knee discomfort.",
       "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Begin attack selection",
-      "text": "From Invisible Collar, assess opponent's reactions. If they drive forward, progress to gogoplata setup. If they try to posture, threaten arm attacks. If they remain passive, advance to Zombie or Chill Dog for finishing sequences.",
-      "position": 7
     }
   ],
   "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
@@ -74,50 +68,50 @@ description: "How to execute New York to Invisible Collar in BJJ. Attacking pers
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary goal of the New York to Invisible Collar transition?",
+      "name": "New York to Invisible Collar (bottom): What must remain isolated during the leg change?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to advance from the foundational New York control to the more dominant Invisible Collar position, which adds head control to your existing arm control. This dual control creates immediate choking threats and opens pathways to gogoplata, omoplata, and triangle attacks while preventing the opponent from restoring posture or escaping."
+        "text": "The overhook and knee hug keep one arm from returning inside while you add the reinforcing leg."
       }
     },
     {
       "@type": "Question",
-      "name": "What must your overhook arm do during the entire transition sequence?",
+      "name": "New York to Invisible Collar (bottom): Which support must you retain when freeing the other leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The overhook arm must maintain constant pressure throughout the transition, actually increasing grip tightness during the hand swim rather than relaxing. This arm serves as your primary anchor - if it loosens, the opponent can extract their arm and escape. The overhook should feel tighter during transition to compensate for releasing the shin grip."
+        "text": "Keep the raised knee supported over the isolated arm as the other leg begins to climb."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent blocks your hand swim with their free hand - what adjustment do you make?",
+      "name": "New York to Invisible Collar (bottom): Where does the reinforcing leg close?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If they block early, abort the Invisible Collar attempt and transition to triangle setup since their blocking hand is now positioned inside your guard. If they block late (hand is already past their shoulder), use your forearm to lever their blocking hand away while completing the collar grip. Never force through early blocks as this wastes energy and compromises position."
+        "text": "The second leg joins the high clinch behind the head rather than closing low around the waist or capturing a calf."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the correct path for your hand when swimming to the collar position?",
+      "name": "New York to Invisible Collar (bottom): How do you keep posture down without losing the arm trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The hand threads between the opponent's shoulder and your own thigh, traveling in a circular arc behind their ear and around to cup the back of their skull. The path is behind the head, not in front of the face. Palm faces inward toward their skull throughout the movement, with fingers eventually wrapping toward the opposite ear."
+        "text": "The whole high-leg and arm configuration retains posture; avoid substituting a separate wrench on the neck."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you maintain leg position across the opponent's back after releasing your shin grip?",
+      "name": "New York to Invisible Collar (bottom): What change warns that the arm trap is opening?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Active hip flexor engagement must replace the hand grip. Before releasing the shin grip, consciously engage the hip flexors and hamstring to hold the leg in position. The leg should stay wrapped high across their back through muscular control. This requires dedicated flexibility and strength training - practitioners with insufficient hip strength will lose the rubber guard structure."
+        "text": "Track the elbow as the legs move; a recovered inside frame can undo the isolation even if the ankles remain high."
       }
     },
     {
       "@type": "Question",
-      "name": "When should you NOT attempt the New York to Invisible Collar transition?",
+      "name": "New York to Invisible Collar (bottom): If the high knee loses support, what is the fallback?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not attempt when the opponent has strong posture and stable base, when your overhook is shallow and they're close to extracting their arm, when you're fatigued and cannot maintain hip flexor engagement, or when the opponent is actively and effectively hand fighting. The transition requires the opponent's posture to be broken and their weight loaded forward."
+        "text": "Recover ordinary guard with an inside knee and forearm when the supported high connection fails."
       }
     }
   ]
@@ -130,7 +124,7 @@ description: "How to execute New York to Invisible Collar in BJJ. Attacking pers
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "New York to Invisible Collar Attacker",
-  "description": "How to execute New York to Invisible Collar in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "description": "New York to Invisible Collar (attacker): Keep the elbow separated from an inside frame before closing the second leg. Maintain the cleared hand position and knee hug as the free leg comes higher.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -226,11 +220,15 @@ description: "How to execute New York to Invisible Collar in BJJ. Attacking pers
 
 <section id="overview" class="content-section">
 
-The New York to Invisible Collar transition represents a critical advancement within the 10th Planet Rubber Guard system, moving from the foundational New York control into one of the most dangerous attacking positions in no-gi grappling. This transition involves releasing the shin grip while maintaining the overhook, then swimming the free hand behind the opponent's head to establish deep collar-style control on the neck without requiring a gi collar.
+The bottom guard player begins in New York, facing a top player whose posture is controlled. Clear the neck through the Chill Dog checkpoint before adding the second leg. Neither a jacket collar nor rear hooks define this route.
 
-Strategically, this transition capitalizes on moments when the opponent focuses on defending the overhook or attempting to restore posture. The hand swim to the back of the head must be explosive yet controlled, threading between the opponent's shoulder and your own leg while maintaining constant pressure through the overhook. The resulting Invisible Collar position creates immediate choking threats and opens pathways to gogoplata, omoplata, and triangle attacks.
+Keep the elbow separated from an inside frame before closing the second leg. Maintain the cleared hand position and knee hug as the free leg comes higher. Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.
 
-The biomechanics of this transition exploit a fundamental weakness in the opponent's defensive structure. When trapped in New York, opponents typically focus their defensive attention on the overhook and the shin across their back. The hand controlling the shin appears to be a critical anchor, so when it releases and immediately attacks the neck, opponents often react too slowly to prevent the collar grip establishment. This misdirection is central to the technique's high success rate at advanced levels.
+Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck. Monitor frames and posture so an arm extraction does not silently undo the control. Release the high clinch and rebuild ordinary frames if the position becomes a stack or causes knee discomfort.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Preserve the overhook around the isolated arm while the neck is cleared and the second leg reinforces posture control. Guard retention requires the knee to stay connected to the torso; if that support disappears, release and recover inside frames.
 
 **From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
@@ -278,13 +276,12 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 
 <p class="section-subtitle">What are the key principles for executing New York to Invisible Collar?</p>
 
-- Maintain overhook pressure throughout the transition - never release the arm control
-- The hand swim must be explosive and direct - hesitation allows defensive hand fighting
-- Pull the head down immediately upon grip establishment to load their weight forward
-- Hip angle adjustment follows the hand swim to maximize control leverage
-- Timing the release of shin grip when opponent is focused elsewhere increases success by 40%
-- The collar grip should cup the back of the skull, not simply grab the neck
-- Core engagement must increase as the shin releases to prevent opponent driving forward
+- Retain the isolated arm: Keep the elbow separated from an inside frame before closing the second leg.
+- Preserve neck clearance: Maintain the cleared hand position and knee hug as the free leg comes higher.
+- Close without knee torque: Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.
+- Use connected leg pressure: Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck.
+- Read the free arm: Monitor frames and posture so an arm extraction does not silently undo the control.
+- Open to recover guard: Release the high clinch and rebuild ordinary frames if the position becomes a stack or causes knee discomfort.
 
 
 </section>
@@ -295,12 +292,10 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 
 <p class="section-subtitle">What do you need before attempting New York to Invisible Collar?</p>
 
-- Established New York position with deep overhook controlling opponent's tricep area
-- Opponent's posture fully broken with head and shoulders pulled down toward your chest
-- Shin positioned high across opponent's back with active grip near ankle
-- Hip flexibility sufficient to maintain leg position even after releasing shin grip
-- Free hand (non-overhook side) positioned to thread past opponent's shoulder
-- Core engaged to prevent opponent from driving forward during transition
+- The bottom guard player begins in New York, facing a top player whose posture is controlled.
+- Keep the elbow separated from an inside frame before closing the second leg.
+- Maintain the cleared hand position and knee hug as the free leg comes higher.
+- Clear the neck through the Chill Dog checkpoint before adding the second leg. Neither a jacket collar nor rear hooks define this route.
 
 
 </section>
@@ -311,13 +306,12 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 
 <p class="section-subtitle">How do you execute New York to Invisible Collar step by step?</p>
 
-1. **Secure overhook**: Ensure your overhook is deep around the opponent's tricep with your shoulder tight against their armpit. This grip must remain locked throughout the entire transition and serves as your primary anchor.
-2. **Load opponent forward**: Use your shin grip and overhook to pull the opponent's weight forward and down toward your chest. Their head should be below shoulder level, and they should have minimal posting ability on their trapped arm side.
-3. **Release shin grip**: Release your grip on your own shin while maintaining leg position through hip flexor engagement. Your leg should stay wrapped high across their back through active muscular control rather than the hand grip.
-4. **Swim hand to neck**: Immediately swim your free hand between the opponent's shoulder and your own thigh, threading it behind their head. The hand travels in a circular arc, palm facing inward toward their skull.
-5. **Establish collar grip**: Cup the back of the opponent's skull with your palm, fingers wrapping around toward the ear on the opposite side. Pull their head down toward your chest while your wrist applies pressure to the back of their neck.
-6. **Consolidate Invisible Collar**: Adjust your hip angle toward the overhook side while pulling the head down with the collar grip. Both arms now control the opponent's posture - overhook on arm, collar grip on head. Your leg maintains position across their back.
-7. **Begin attack selection**: From Invisible Collar, assess opponent's reactions. If they drive forward, progress to gogoplata setup. If they try to posture, threaten arm attacks. If they remain passive, advance to Zombie or Chill Dog for finishing sequences.
+1. **Retain the isolated arm**: Keep the elbow separated from an inside frame before closing the second leg.
+2. **Preserve neck clearance**: Maintain the cleared hand position and knee hug as the free leg comes higher.
+3. **Close without knee torque**: Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.
+4. **Use connected leg pressure**: Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck.
+5. **Read the free arm**: Monitor frames and posture so an arm extraction does not silently undo the control.
+6. **Open to recover guard**: Release the high clinch and rebuild ordinary frames if the position becomes a stack or causes knee discomfort.
 
 
 </section>
@@ -341,10 +335,10 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 
 <p class="section-subtitle">How might your opponent counter New York to Invisible Collar?</p>
 
-- **Hand fighting to prevent collar grip establishment by blocking the swimming hand** (Effectiveness: High) - Your Response: If they block early, abort to triangle setup as their hand is now inside your guard. If they block late, use your forearm to lever their blocking hand away while completing the grip. → Leads to [[Positions/Rubber Guard/New York]]
-- **Explosive posture recovery attempt as shin grip releases** (Effectiveness: Medium) - Your Response: Tighten overhook immediately and use their upward momentum to elevate your hips and threaten armbar. Their posture attempt opens the arm if you maintain overhook control. → Leads to [[Positions/Closed Guard]]
-- **Driving forward aggressively to flatten you before collar establishes** (Effectiveness: Medium) - Your Response: Accept the forward pressure and thread your leg for Chill Dog or gogoplata setup. Their drive actually assists these transitions by bringing their head closer. → Leads to [[Positions/Rubber Guard/New York]]
-- **Stripping the overhook by pulling elbow back toward hip during transition** (Effectiveness: Low) - Your Response: The extraction attempt during your hand swim creates perfect triangle timing. Shoot your leg over their extracting arm's shoulder for immediate triangle control. → Leads to [[Positions/Closed Guard]]
+- **The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Keep the elbow separated from an inside frame before closing the second leg. → Leads to [[Positions/Rubber Guard/New York]]
+- **Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Maintain the cleared hand position and knee hug as the free leg comes higher. → Leads to [[Positions/Closed Guard]]
+- **Avoid driving all weight onto the partner's shoulders while the legs are locked high.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance. → Leads to [[Positions/Rubber Guard/New York]]
+- **Create space at the hip and thigh before trying to raise the head or extract the arm.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck. → Leads to [[Positions/Closed Guard]]
 
 
 </section>
@@ -355,35 +349,30 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 
 <p class="section-subtitle">What mistakes should you avoid when executing New York to Invisible Collar?</p>
 
-### 1. Releasing overhook tension while swimming hand to collar position
+### 1. Skipping the checkpoint: retain the isolated arm
 
-- **Consequence**: Opponent immediately extracts arm and postures up, escaping both New York and preventing Invisible Collar establishment
-- **Correction**: Actively tighten overhook pressure during the hand swim. The overhook should feel tighter during transition, not looser.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep the elbow separated from an inside frame before closing the second leg.
+- **Correction**: Keep the elbow separated from an inside frame before closing the second leg.
 
-### 2. Swimming hand in front of opponent's face instead of behind their head
+### 2. Skipping the checkpoint: preserve neck clearance
 
-- **Consequence**: Hand gets trapped against opponent's shoulder or face, unable to reach collar position while creating space for opponent to posture
-- **Correction**: Thread hand between opponent's shoulder and your own thigh, keeping the path behind their ear and around the back of their skull
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Maintain the cleared hand position and knee hug as the free leg comes higher.
+- **Correction**: Maintain the cleared hand position and knee hug as the free leg comes higher.
 
-### 3. Losing leg position when shin grip releases due to insufficient hip flexibility
+### 3. Skipping the checkpoint: close without knee torque
 
-- **Consequence**: Leg slides down opponent's back, losing the rubber guard structure and returning to basic closed guard
-- **Correction**: Engage hip flexors actively before releasing shin grip. Practice holding leg position without hand assistance to develop necessary hip strength.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.
+- **Correction**: Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.
 
-### 4. Grabbing the neck instead of cupping the back of the skull
+### 4. Skipping the checkpoint: use connected leg pressure
 
-- **Consequence**: Grip is weaker and easier to strip, plus provides less control over opponent's posture
-- **Correction**: Palm cups the back of the skull with fingers wrapping toward the opposite ear. Wrist pressure on neck, palm controls skull.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck.
+- **Correction**: Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck.
 
-### 5. Attempting transition when opponent has strong posture and base
+### 5. Skipping the checkpoint: read the free arm
 
-- **Consequence**: Opponent strips grip attempt easily and may pass guard during your failed transition attempt
-- **Correction**: Only initiate when opponent's posture is fully broken and they're loaded forward. Never force the transition against strong structure.
-
-### 6. Hesitating between releasing shin grip and swimming hand to collar
-
-- **Consequence**: Opponent recognizes the transition and establishes defensive hand position before you can complete the grip
-- **Correction**: The release and swim must be one fluid motion with no pause. Practice until the sequence becomes automatic muscle memory.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Monitor frames and posture so an arm extraction does not silently undo the control.
+- **Correction**: Monitor frames and posture so an arm extraction does not silently undo the control.
 
 
 
@@ -395,17 +384,17 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 
 <p class="section-subtitle">How do you train New York to Invisible Collar (Attacker)?</p>
 
-**Week 1-2** - Hand swim mechanics
-Practice the hand swim motion from New York without resistance. Focus on the correct path - behind the shoulder, around the ear, cupping the skull. Partner remains still while you develop muscle memory for the threading motion. Complete 50 repetitions per session.
+**Phase 1** - Identify the configuration
+Work cooperatively on retain the isolated arm. Keep the elbow separated from an inside frame before closing the second leg. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Timing and coordination
-Add light resistance with partner attempting to block the hand swim. Focus on explosive timing - release shin grip and swim simultaneously. Partner gives 50% resistance, allowing successful completion while building reaction speed.
+**Phase 2** - Rehearse the connection
+Work cooperatively on preserve neck clearance. Maintain the cleared hand position and knee hug as the free leg comes higher. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Counter integration
-Partner randomly chooses between allowing the transition, hand fighting, or attempting posture recovery. Practice appropriate responses to each scenario. Begin chaining failed transitions into alternative attacks like triangle or armbar.
+**Phase 3** - Add an early response
+Work cooperatively on close without knee torque. Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 7+** - Live sparring application
-Implement transition in live rolling starting from New York position. Track success rate and identify patterns in failures. Adjust timing and setup based on training partner body types and defensive tendencies. Target 50%+ success rate before considering technique reliable.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on use connected leg pressure. Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -419,7 +408,7 @@ Implement transition in live rolling starting from New York position. Track succ
 
 <p class="section-subtitle">What are the safety concerns for New York to Invisible Collar?</p>
 
-The New York to Invisible Collar transition is generally low-risk for both practitioners when executed properly. The primary safety concern involves neck strain on the bottom player if they attempt the transition with insufficient hip flexibility, potentially hyperextending the lower back or straining hip flexors. Always warm up thoroughly before practicing rubber guard techniques. For the top player, the sudden head control can create neck compression - tap immediately if the collar grip creates breathing difficulty or neck pain. Training partners should communicate clearly about pressure levels and release grips immediately upon tap. Avoid explosive movements that could cause whiplash-type injuries to either person's neck.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

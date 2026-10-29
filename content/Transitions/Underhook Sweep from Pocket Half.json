@@ -376,35 +376,7 @@
       }
     ],
     "safety_considerations": "This sweep involves explosive hip and shoulder rotation under load, creating potential strain on the lower back and shoulders. Ensure controlled execution during drilling phases, gradually increasing speed and resistance. The come-up phase places significant stress on the posting wrist and elbow, so practitioners with wrist or elbow injuries should modify to use a forearm post. The half guard leg lock can create knee torque on the trapped leg during the drive-through, so communicate with training partners about pressure levels. Always warm up the hips, lower back, and shoulders before drilling this technique at intensity.",
-    "clips": [
-      {
-        "id": "BCnjULrSSPw",
-        "title": "3 underhook sweeps from knee shield half guard",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 38,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "fCqC2CvOKt0",
-        "title": "Back pocket sweep from half guard",
-        "by": "Animal",
-        "vertical": false,
-        "channel": "Animal",
-        "duration": 51,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "W80zSgyOIuQ",
-        "title": "No-gi half guard underhook sweep",
-        "by": "Precision Martial Arts",
-        "vertical": false,
-        "channel": "Precision Martial Arts ",
-        "duration": 46,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Underhook Sweep from Pocket Half Defender",
@@ -581,34 +553,6 @@
         "description": "Full positional sparring from pocket half guard top. Partner attacks with underhook sweep and all chain attacks. You defend and attempt to pass. Track success rates of both sweep defense and passing completion. 5-minute rounds at competition pace."
       }
     ],
-    "clips": [
-      {
-        "id": "TwBbrjRxRRU",
-        "title": "Pick pocket method to pass the half guard",
-        "by": "Patrick Donabedian",
-        "vertical": false,
-        "channel": "Patrick Donabedian BJJ",
-        "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "I9lB7whMVig",
-        "title": "Killing the underhook from half guard top",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 451,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MXzHindquwU",
-        "title": "Defending the underhook in deep half guard",
-        "by": "Jeff Glover",
-        "vertical": false,
-        "channel": "thejiujitsupedia",
-        "duration": 93,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

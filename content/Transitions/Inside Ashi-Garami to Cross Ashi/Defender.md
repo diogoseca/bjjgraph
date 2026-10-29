@@ -160,24 +160,12 @@ description: "How to defend against Inside Ashi-Garami to Cross Ashi in BJJ. Rec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Basic escape from the saddle (cross ashi)",
-      "description": "Inside Ashi-Garami to Cross Ashi (Defender) film study: Basic escape from the saddle (cross ashi), taught by Travis Anderson.",
+      "name": "basic escape from the saddle (cross ashi) - berimbolo skills",
+      "description": "Inside Ashi-Garami to Cross Ashi (Defender) film study: basic escape from the saddle (cross ashi) - berimbolo skills.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0T4T2so40C4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0T4T2so40C4",
       "url": "https://www.youtube.com/watch?v=0T4T2so40C4",
-      "creator": { "@type": "Person", "name": "Travis Anderson" },
       "duration": "PT171S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Cross ashi entry and wedge berimbolo counter to back",
-      "description": "Inside Ashi-Garami to Cross Ashi (Defender) film study: Cross ashi entry and wedge berimbolo counter to back, taught by BJJ Doug.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N2weatRR_V4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N2weatRR_V4",
-      "url": "https://www.youtube.com/watch?v=N2weatRR_V4",
-      "creator": { "@type": "Person", "name": "BJJ Doug" },
-      "duration": "PT28S"
     }
   ]
 }
@@ -211,15 +199,7 @@ Successful defense relies on three pillars: early recognition of the transition 
 
 ![](https://www.youtube.com/watch?v=0T4T2so40C4)
 
-<p class="clip-credit"><strong>Basic escape from the saddle (cross ashi)</strong> — taught by Travis Anderson · 2:51 · <a href="https://www.youtube.com/watch?v=0T4T2so40C4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=N2weatRR_V4)
-
-<p class="clip-credit"><strong>Cross ashi entry and wedge berimbolo counter to back</strong> — taught by BJJ Doug · 0:28 · <a href="https://www.youtube.com/watch?v=N2weatRR_V4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>basic escape from the saddle (cross ashi) - berimbolo skills</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=0T4T2so40C4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

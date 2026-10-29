@@ -21,37 +21,37 @@ description: "Establish New York control from bottom position with overhook and 
     {
       "@type": "HowToStep",
       "name": "Execute New York to Invisible Collar",
-      "text": "From this position, attempt New York to Invisible Collar. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt New York to Invisible Collar. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Progression to Zombie",
-      "text": "From this position, attempt Progression to Zombie. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Advance to Chill Dog",
+      "text": "From this position, attempt Advance to Chill Dog. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Advance to Chill Dog",
-      "text": "From this position, attempt Advance to Chill Dog. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Triangle Setup",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rotate to Carni",
-      "text": "From this position, attempt Rotate to Carni. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Omoplata Sweep",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Gogoplata",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Armbar from New York",
+      "text": "From this position, attempt Armbar from New York. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,24 +165,12 @@ description: "Establish New York control from bottom position with overhook and 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Dead Orchard Armbar from Rubber Guard",
-      "description": "New York (Bottom) film study: Dead Orchard Armbar from Rubber Guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jT4wPY2Dc_U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jT4wPY2Dc_U",
-      "url": "https://www.youtube.com/watch?v=jT4wPY2Dc_U",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT88S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rubber Guard Live Drills",
-      "description": "New York (Bottom) film study: Rubber Guard Live Drills, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Cllvkg2qg-w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Cllvkg2qg-w",
-      "url": "https://www.youtube.com/watch?v=Cllvkg2qg-w",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
+      "name": "Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw (omoplata)",
+      "description": "New York (Bottom) film study: Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw (omoplata).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wUDqbU2jwxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wUDqbU2jwxg",
+      "url": "https://www.youtube.com/watch?v=wUDqbU2jwxg",
+      "duration": "PT278S"
     }
   ]
 }
@@ -222,17 +210,9 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=jT4wPY2Dc_U)
+![](https://www.youtube.com/watch?v=wUDqbU2jwxg)
 
-<p class="clip-credit"><strong>Dead Orchard Armbar from Rubber Guard</strong> — taught by Eddie Bravo · 1:28 · <a href="https://www.youtube.com/watch?v=jT4wPY2Dc_U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Cllvkg2qg-w)
-
-<p class="clip-credit"><strong>Rubber Guard Live Drills</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=Cllvkg2qg-w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw (omoplata)</strong> · 4:38 · <a href="https://www.youtube.com/watch?v=wUDqbU2jwxg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

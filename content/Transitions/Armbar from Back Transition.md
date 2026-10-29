@@ -36,50 +36,6 @@ description: "Master the Armbar from Back Transition in BJJ. Step-by-step guide 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Armbar from Back Transition \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Rolling armbar from back mount",
-      "description": "Armbar from Back Transition film study: Rolling armbar from back mount, taught by Hammer Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nsLJ8AiGZ5A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nsLJ8AiGZ5A",
-      "url": "https://www.youtube.com/watch?v=nsLJ8AiGZ5A",
-      "creator": { "@type": "Person", "name": "Hammer Jiu-Jitsu" },
-      "duration": "PT40S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Armbar from the back variation",
-      "description": "Armbar from Back Transition film study: Armbar from the back variation, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jf1kPefTmm0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jf1kPefTmm0",
-      "url": "https://www.youtube.com/watch?v=jf1kPefTmm0",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT80S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Armbar from the back off the RNC threat",
-      "description": "Armbar from Back Transition film study: Armbar from the back off the RNC threat, taught by CholoMMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fPV5aCm4uIE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fPV5aCm4uIE",
-      "url": "https://www.youtube.com/watch?v=fPV5aCm4uIE",
-      "creator": { "@type": "Person", "name": "CholoMMA" },
-      "duration": "PT39S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -118,40 +74,6 @@ The key to success lies in recognizing the correct timing window: when the oppon
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Armbar from Back Transition in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nsLJ8AiGZ5A)
-
-<p class="clip-credit"><strong>Rolling armbar from back mount</strong> — taught by Hammer Jiu-Jitsu · 0:40 · <a href="https://www.youtube.com/watch?v=nsLJ8AiGZ5A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jf1kPefTmm0)
-
-<p class="clip-credit"><strong>Armbar from the back variation</strong> — taught by Malachy Friedman · 1:20 · <a href="https://www.youtube.com/watch?v=jf1kPefTmm0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fPV5aCm4uIE)
-
-<p class="clip-credit"><strong>Armbar from the back off the RNC threat</strong> — taught by CholoMMA · 0:39 · <a href="https://www.youtube.com/watch?v=fPV5aCm4uIE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -348,7 +270,7 @@ The Armbar from Back Transition integrates into the back attack system as a seco
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

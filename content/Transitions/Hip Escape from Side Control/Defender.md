@@ -152,35 +152,12 @@ description: "Defend against hip escape attempts from consolidated side control.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Maintaining side control against the hip escape",
-      "description": "Hip Escape from Side Control (Defender) film study: Maintaining side control against the hip escape, taught by Reding Martial Arts coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/T1LCZzkhG80/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/T1LCZzkhG80",
-      "url": "https://www.youtube.com/watch?v=T1LCZzkhG80",
-      "creator": { "@type": "Person", "name": "Reding Martial Arts coach" },
-      "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Side control elbow push to shrimp to guard escape",
-      "description": "Hip Escape from Side Control (Defender) film study: Side control elbow push to shrimp to guard escape, taught by Carlos Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0BJFebGfwh4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0BJFebGfwh4",
-      "url": "https://www.youtube.com/watch?v=0BJFebGfwh4",
-      "creator": { "@type": "Person", "name": "Carlos Machado" },
-      "duration": "PT149S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Elbow escape: shrimping to replace guard",
-      "description": "Hip Escape from Side Control (Defender) film study: Elbow escape: shrimping to replace guard, taught by Unknown coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/myIsFYohrNA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/myIsFYohrNA",
-      "url": "https://www.youtube.com/watch?v=myIsFYohrNA",
-      "creator": { "@type": "Person", "name": "Unknown coach" },
-      "duration": "PT32S"
+      "name": "Moving to sit out side control to counter the elbow escape",
+      "description": "Hip Escape from Side Control (Defender) film study: Moving to sit out side control to counter the elbow escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4MK2oNSJCs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4MK2oNSJCs",
+      "url": "https://www.youtube.com/watch?v=N4MK2oNSJCs",
+      "duration": "PT68S"
     }
   ]
 }
@@ -208,25 +185,9 @@ As the top player defending against hip escape attempts from consolidated side c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=T1LCZzkhG80)
+![](https://www.youtube.com/watch?v=N4MK2oNSJCs)
 
-<p class="clip-credit"><strong>Maintaining side control against the hip escape</strong> — taught by Reding Martial Arts coach · 2:42 · <a href="https://www.youtube.com/watch?v=T1LCZzkhG80" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0BJFebGfwh4)
-
-<p class="clip-credit"><strong>Side control elbow push to shrimp to guard escape</strong> — taught by Carlos Machado · 2:29 · <a href="https://www.youtube.com/watch?v=0BJFebGfwh4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=myIsFYohrNA)
-
-<p class="clip-credit"><strong>Elbow escape: shrimping to replace guard</strong> — taught by Unknown coach · 0:32 · <a href="https://www.youtube.com/watch?v=myIsFYohrNA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Moving to sit out side control to counter the elbow escape</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=N4MK2oNSJCs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

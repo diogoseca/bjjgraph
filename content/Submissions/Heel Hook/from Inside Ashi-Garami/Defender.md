@@ -170,23 +170,11 @@ description: "Defend the heel hook from Inside Ashi-Garami with early recognitio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Irimi ashi garami counter",
-      "description": "Heel Hook from Inside Ashi-Garami (Defender) film study: Irimi ashi garami counter, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
-      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT29S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending and countering the 50/50 heel hook",
-      "description": "Heel Hook from Inside Ashi-Garami (Defender) film study: Defending and countering the 50/50 heel hook, taught by Revolution BJJ.",
+      "name": "Defending and Countering 50/50 Heel Hook and Backsteps with Your Own Submissions",
+      "description": "Heel Hook from Inside Ashi-Garami (Defender) film study: Defending and Countering 50/50 Heel Hook and Backsteps with Your Own Submissions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gpg88DFH9D4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gpg88DFH9D4",
       "url": "https://www.youtube.com/watch?v=gpg88DFH9D4",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT81S"
     }
   ]
@@ -218,17 +206,9 @@ The critical defensive window exists between the attacker's initial heel capture
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
-
-<p class="clip-credit"><strong>Irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=gpg88DFH9D4)
 
-<p class="clip-credit"><strong>Defending and countering the 50/50 heel hook</strong> — taught by Revolution BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=gpg88DFH9D4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending and Countering 50/50 Heel Hook and Backsteps with Your Own Submissions</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=gpg88DFH9D4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

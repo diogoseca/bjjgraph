@@ -46,24 +46,12 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twisty wristy grip break from the back",
-      "description": "Grip Break film study: Twisty wristy grip break from the back, taught by 10th Planet Colorado Springs.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EV9gWyVYF2g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EV9gWyVYF2g",
-      "url": "https://www.youtube.com/watch?v=EV9gWyVYF2g",
-      "creator": { "@type": "Person", "name": "10th Planet Colorado Springs" },
-      "duration": "PT100S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crucifix grip break",
-      "description": "Grip Break film study: Crucifix grip break, taught by Gabe Tuttle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OnmLBMNZ44A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OnmLBMNZ44A",
-      "url": "https://www.youtube.com/watch?v=OnmLBMNZ44A",
-      "creator": { "@type": "Person", "name": "Gabe Tuttle" },
-      "duration": "PT86S"
+      "name": "Double Sleeve Guard Drill - Grip Break to Bicep Ride",
+      "description": "Grip Break film study: Double Sleeve Guard Drill - Grip Break to Bicep Ride.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EPAOODLwCj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EPAOODLwCj4",
+      "url": "https://www.youtube.com/watch?v=EPAOODLwCj4",
+      "duration": "PT168S"
     }
   ]
 }
@@ -117,17 +105,9 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=EV9gWyVYF2g)
+![](https://www.youtube.com/watch?v=EPAOODLwCj4)
 
-<p class="clip-credit"><strong>Twisty wristy grip break from the back</strong> — taught by 10th Planet Colorado Springs · 1:40 · <a href="https://www.youtube.com/watch?v=EV9gWyVYF2g" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OnmLBMNZ44A)
-
-<p class="clip-credit"><strong>Crucifix grip break</strong> — taught by Gabe Tuttle · 1:26 · <a href="https://www.youtube.com/watch?v=OnmLBMNZ44A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Sleeve Guard Drill - Grip Break to Bicep Ride</strong> · 2:48 · <a href="https://www.youtube.com/watch?v=EPAOODLwCj4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

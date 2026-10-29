@@ -46,35 +46,12 @@ description: "Master Cross Body to Back Control in BJJ. Step-by-step guide to ta
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross body ride back take vs turtle",
-      "description": "Cross Body to Back Control film study: Cross body ride back take vs turtle, taught by Paul McVeigh.",
+      "name": "Cross body ride back take vs turtle 1440p",
+      "description": "Cross Body to Back Control film study: Cross body ride back take vs turtle 1440p.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aX87dPPVcGU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aX87dPPVcGU",
       "url": "https://www.youtube.com/watch?v=aX87dPPVcGU",
-      "creator": { "@type": "Person", "name": "Paul McVeigh" },
-      "duration": "PT107S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Cross body ride entry from knee shield",
-      "description": "Cross Body to Back Control film study: Cross body ride entry from knee shield, taught by Bowerhouse MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h3C7rZzKHVY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h3C7rZzKHVY",
-      "url": "https://www.youtube.com/watch?v=h3C7rZzKHVY",
-      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
-      "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cross body ride entry vs seated opponent",
-      "description": "Cross Body to Back Control film study: Cross body ride entry vs seated opponent, taught by Bowerhouse MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4U7fN1DNk4A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4U7fN1DNk4A",
-      "url": "https://www.youtube.com/watch?v=4U7fN1DNk4A",
-      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
-      "duration": "PT38S"
+      "duration": "PT106S"
     }
   ]
 }
@@ -130,23 +107,7 @@ Successful execution demands maintaining constant chest-to-back connection throu
 
 ![](https://www.youtube.com/watch?v=aX87dPPVcGU)
 
-<p class="clip-credit"><strong>Cross body ride back take vs turtle</strong> — taught by Paul McVeigh · 1:47 · <a href="https://www.youtube.com/watch?v=aX87dPPVcGU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=h3C7rZzKHVY)
-
-<p class="clip-credit"><strong>Cross body ride entry from knee shield</strong> — taught by Bowerhouse MMA · 0:25 · <a href="https://www.youtube.com/watch?v=h3C7rZzKHVY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4U7fN1DNk4A)
-
-<p class="clip-credit"><strong>Cross body ride entry vs seated opponent</strong> — taught by Bowerhouse MMA · 0:38 · <a href="https://www.youtube.com/watch?v=4U7fN1DNk4A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross body ride back take vs turtle 1440p</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=aX87dPPVcGU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -340,8 +301,6 @@ Cross Body to Back Control functions as the primary advancement pathway within t
 - [[Positions/Harness]] - Related control system - seatbelt grip mechanics shared between both positions
 
 - [[Positions/Back Control/Body Triangle]] - Follow-up variation - leg control option after establishing back control
-
-- [[Transitions/Back Take]] - Related transition category - broader back take system this technique belongs to
 
 - [[Transitions/Crab Ride to Back]] - Alternative pathway - parallel transition through crab ride intermediate
 

@@ -21,13 +21,14 @@ const enterDefence = (page: any) =>
   page.evaluate(() => {
     const a: any = (window as any).__neural;
     const sub = a.adj[a.currentPos].find((k: number) => a.nodes[k].ty === "submissions");
-    a.enterDefense(sub != null ? sub : a.nodes.findIndex((n: any) => n.ty === "submissions"));
+    a._rollActed = true; // fixture: a prior committed move; navigation alone is calm (v1.227.0)
+    a.enterDefense(sub != null ? sub : a.nodes.findIndex((n: any) => n.ty === "submissions"), a._catchProvenance());
   });
 
 const geo = (page: any) =>
   page.evaluate(() => {
     const a: any = (window as any).__neural;
-    const p = document.querySelector("[data-panic]") as HTMLElement;
+    const p = document.querySelector("[data-landcard=defense]") as HTMLElement;
     if (!p) return null;
     const row = a.optionsRef.current as HTMLElement;
     const pb = p.getBoundingClientRect(), rb = row.getBoundingClientRect();
@@ -36,13 +37,19 @@ const geo = (page: any) =>
       isLandCard: p.classList.contains("ng-landcard"),
       isLandEl: a._landEl === p,
       mode: p.getAttribute("data-landcard"),
-      clearOfTray: Math.round(rb.top - pb.bottom),
+      // D-338: the article view reads Moves then Questions, so the drill sits below the escape tray;
+      // the map view keeps it above. D-352 N3: each view asserts its own direction.
+      view: a.get("readerBook", true) !== false ? "article" : "map",
+      belowTray: Math.round(pb.top - rb.bottom),
+      aboveTray: Math.round(rb.top - pb.bottom),
       width: Math.round(pb.width),
       escapeCards: row.querySelectorAll("[data-tech]").length,
     };
   });
 
-test("the panic drill is a landing card, above the escape hand @curated", async ({ page }) => {
+// STALE CONTRACT (D-338, CI 11e7f83ff): "above the escape hand" was the pre-D-338 order; the claim kept is
+// that the drill is a landing card clear of the escape hand, in whichever order the view stacks them.
+test("the panic drill is a landing card, clear of the escape hand @curated", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.hydrateAll();
@@ -57,7 +64,9 @@ test("the panic drill is a landing card, above the escape hand @curated", async 
   expect(g!.isLandEl, "...and occupies the landing-card slot, so all its machinery applies").toBe(true);
   expect(g!.mode).toBe("defense");
   // measured before the fix at 1440x900: card bottom 664 vs tray top 657, a 7px overlap
-  expect(g!.clearOfTray, "it clears the escape tray").toBeGreaterThanOrEqual(0);
+  if (g!.view === "article") expect(g!.belowTray, "in the article view it sits below the escape tray, clear of it (D-338: Moves, then Questions)").toBeGreaterThanOrEqual(0);
+  else expect(g!.aboveTray, "in the map view it sits above the escape tray, clear of it").toBeGreaterThanOrEqual(0);
+  expect(g!.view, "premise: this journey reads the article view").toBe("article");
   expect(g!.width, "card width, not a 236px tray item").toBeGreaterThan(300);
   expect(g!.escapeCards, "and every escape is still dealt").toBeGreaterThan(0);
 });
@@ -69,8 +78,13 @@ test("grading the drill in time pumps the escape odds and spends the window (v1.
   await j.land("Mount Top");
   await enterDefence(page);
   await page.waitForTimeout(400);
+  // STALE TIMING (D-351, H61): the drill now publishes once the submission's defender article has
+  // rendered, and its parked clock arms on the next frame; this pumped harness ticks only when asked.
+  await j.landSettled();
+  await j.advance(17);
   if (!(await geo(page))) test.skip();
 
+  await j.openQuestion();
   const before = await page.evaluate(() => {
     const a: any = (window as any).__neural;
     return { rem: a._decision.remaining, odds: a._optList.map((o: any) => a.escapeChance(o)) };
@@ -80,7 +94,7 @@ test("grading the drill in time pumps the escape odds and spends the window (v1.
   // v1.135.0: MC when warm (the landing idiom, danger skin); reveal/got is the cold fallback
   const mcIdx = await page.evaluate(() => {
     const a: any = (window as any).__neural;
-    const card = document.querySelector("[data-panic]");
+    const card = document.querySelector("[data-landcard=defense]");
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic"
       ? a._mc.correct
       : null;
@@ -117,9 +131,9 @@ test("it goes when the defence does", async ({ page }) => {
     a._optPick(a._optList[0]);           // take an escape
   });
   await page.waitForTimeout(300);
-  expect(await page.evaluate(() => !!document.querySelector("[data-panic]")),
+  expect(await page.evaluate(() => !!document.querySelector("[data-landcard=defense]")),
     "no panic card survives the escape").toBe(false);
   expect(await page.evaluate(() => (window as any).__neural._landEl === null ||
-    !(window as any).__neural._landEl.hasAttribute("data-panic")),
+    (window as any).__neural._landMode !== "defense"),
     "and the landing-card slot is free for the next landing").toBe(true);
 });

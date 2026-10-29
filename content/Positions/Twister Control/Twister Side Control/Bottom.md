@@ -21,37 +21,37 @@ description: "Defend twister side control with systematic escape strategies. Lea
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction to Turtle",
-      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Rolling to Guard",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Escape Twister Side Control",
+      "text": "From this position, attempt Escape Twister Side Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -155,50 +155,6 @@ description: "Defend twister side control with systematic escape strategies. Lea
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Twister Side Control (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Twister side control counter",
-      "description": "Twister Side Control (Bottom) film study: Twister side control counter, taught by 10th Planet Murrieta.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jg0Rdc0rJzg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jg0Rdc0rJzg",
-      "url": "https://www.youtube.com/watch?v=jg0Rdc0rJzg",
-      "creator": { "@type": "Person", "name": "10th Planet Murrieta" },
-      "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escape and counter the twister",
-      "description": "Twister Side Control (Bottom) film study: Escape and counter the twister, taught by Matrix Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
-      "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
-      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
-      "duration": "PT165S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Twister side control and escaping it",
-      "description": "Twister Side Control (Bottom) film study: Twister side control and escaping it, taught by Robot Dolphin Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AUyR1rmVzo4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AUyR1rmVzo4",
-      "url": "https://www.youtube.com/watch?v=AUyR1rmVzo4",
-      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
-      "duration": "PT205S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -219,40 +175,6 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Twister Side Control (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jg0Rdc0rJzg)
-
-<p class="clip-credit"><strong>Twister side control counter</strong> — taught by 10th Planet Murrieta · 0:16 · <a href="https://www.youtube.com/watch?v=jg0Rdc0rJzg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
-
-<p class="clip-credit"><strong>Escape and counter the twister</strong> — taught by Matrix Jiu Jitsu · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AUyR1rmVzo4)
-
-<p class="clip-credit"><strong>Twister side control and escaping it</strong> — taught by Robot Dolphin Jiu-Jitsu · 3:25 · <a href="https://www.youtube.com/watch?v=AUyR1rmVzo4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

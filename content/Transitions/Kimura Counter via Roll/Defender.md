@@ -160,24 +160,12 @@ description: "Defend against the Kimura Counter via Roll. Recognition cues, defe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rolling kimura counter",
-      "description": "Kimura Counter via Roll (Defender) film study: Rolling kimura counter, taught by Znass Jitsu coach.",
+      "name": "Rolling Kimura counter",
+      "description": "Kimura Counter via Roll (Defender) film study: Rolling Kimura counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jMbFs98ox60/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jMbFs98ox60",
       "url": "https://www.youtube.com/watch?v=jMbFs98ox60",
-      "creator": { "@type": "Person", "name": "Znass Jitsu coach" },
       "duration": "PT11S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kimura trap counter from bottom while passing",
-      "description": "Kimura Counter via Roll (Defender) film study: Kimura trap counter from bottom while passing, taught by BJJ Training Center Houston coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r1a6-MSgdls/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/r1a6-MSgdls",
-      "url": "https://www.youtube.com/watch?v=r1a6-MSgdls",
-      "creator": { "@type": "Person", "name": "BJJ Training Center Houston coach" },
-      "duration": "PT129S"
     }
   ]
 }
@@ -207,15 +195,7 @@ As the defender against the Kimura Counter via Roll, you are the top player in a
 
 ![](https://www.youtube.com/watch?v=jMbFs98ox60)
 
-<p class="clip-credit"><strong>Rolling kimura counter</strong> — taught by Znass Jitsu coach · 0:11 · <a href="https://www.youtube.com/watch?v=jMbFs98ox60" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=r1a6-MSgdls)
-
-<p class="clip-credit"><strong>Kimura trap counter from bottom while passing</strong> — taught by BJJ Training Center Houston coach · 2:09 · <a href="https://www.youtube.com/watch?v=r1a6-MSgdls" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rolling Kimura counter</strong> · 0:11 · <a href="https://www.youtube.com/watch?v=jMbFs98ox60" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

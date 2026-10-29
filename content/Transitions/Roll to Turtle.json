@@ -361,26 +361,7 @@
       }
     ],
     "safety_considerations": "Roll to Turtle is a relatively safe escape technique when executed with proper form. The primary safety concern is protecting your neck throughout the movement by maintaining a tucked chin and rounded back posture. Exposing the neck during rotation can lead to front headlock chokes. Additionally, be aware that failed attempts may result in the opponent establishing back control, which carries submission risk from rear naked chokes and back attacks. Train the technique progressively with increasing resistance levels, ensuring you develop the defensive structure habits before facing aggressive training partners. Communicate with training partners about their intended follow-up attacks so you can practice defensive reactions safely.",
-    "clips": [
-      {
-        "id": "iV-agsE5AD8",
-        "title": "Makikomi roll from turtle",
-        "by": "Modesto Judo Club",
-        "vertical": false,
-        "channel": "Modesto Judo Club",
-        "duration": 31,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8YvYkGr5FIU",
-        "title": "Turtle position to side control",
-        "by": "Rickson Gracie Jiu-Jitsu Academy",
-        "vertical": false,
-        "channel": "Rickson Gracie Jiu-Jitsu Academy",
-        "duration": 47,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Roll to Turtle Defender",
@@ -563,31 +544,11 @@
     ],
     "clips": [
       {
-        "id": "ekkQFHyTDwE",
-        "title": "Turning an opponent from turtle into a hold down",
-        "by": "Idris Boussetoua",
-        "vertical": false,
-        "channel": "Idris Boussetoua",
-        "duration": 72,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NlYTjPd6Uzo",
-        "title": "Turtle Escape (Easy Mode)",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 104,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "Ft6OyIZ6vPs",
-        "title": "Turtle Escape & Back-Exposure System",
-        "by": "Jozef Chen",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 149,
-        "verified": "2026-07-16"
+        "id": "O3VaYxTRXrs",
+        "title": "Transitioning from side control to the back when opponent turtles",
+        "channel": "MONARCH Brazilian Jiu-Jitsu Academy",
+        "duration": 55,
+        "front": true
       }
     ]
   },

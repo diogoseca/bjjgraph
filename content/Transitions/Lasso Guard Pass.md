@@ -46,35 +46,22 @@ description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniqu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing lasso guard to the back",
-      "description": "Lasso Guard Pass film study: Passing lasso guard to the back, taught by Gabriel Sousa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9sQAn2ESkMU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9sQAn2ESkMU",
-      "url": "https://www.youtube.com/watch?v=9sQAn2ESkMU",
-      "creator": { "@type": "Person", "name": "Gabriel Sousa" },
-      "duration": "PT113S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Pressure pass the Lasso Guard",
-      "description": "Lasso Guard Pass film study: Pressure pass the Lasso Guard, taught by Alberto Serrano.",
+      "description": "Lasso Guard Pass film study: Pressure pass the Lasso Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EdLPqtAm5yQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EdLPqtAm5yQ",
       "url": "https://www.youtube.com/watch?v=EdLPqtAm5yQ",
-      "creator": { "@type": "Person", "name": "Alberto Serrano" },
       "duration": "PT123S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Deep lasso guard pass to leg drag",
-      "description": "Lasso Guard Pass film study: Deep lasso guard pass to leg drag, taught by Carpio Jiu Jitsu.",
+      "position": 2,
+      "name": "Week 8: Deep Lasso Guard Pass to Leg Drag",
+      "description": "Lasso Guard Pass film study: Week 8: Deep Lasso Guard Pass to Leg Drag.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eXriz8Oz99I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eXriz8Oz99I",
       "url": "https://www.youtube.com/watch?v=eXriz8Oz99I",
-      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
-      "duration": "PT161S"
+      "duration": "PT160S"
     }
   ]
 }
@@ -128,17 +115,9 @@ This technique integrates principles of base maintenance, pressure passing, and 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9sQAn2ESkMU)
-
-<p class="clip-credit"><strong>Passing lasso guard to the back</strong> — taught by Gabriel Sousa · 1:53 · <a href="https://www.youtube.com/watch?v=9sQAn2ESkMU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=EdLPqtAm5yQ)
 
-<p class="clip-credit"><strong>Pressure pass the Lasso Guard</strong> — taught by Alberto Serrano · 2:03 · <a href="https://www.youtube.com/watch?v=EdLPqtAm5yQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pressure pass the Lasso Guard</strong> · 2:03 · <a href="https://www.youtube.com/watch?v=EdLPqtAm5yQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +125,7 @@ This technique integrates principles of base maintenance, pressure passing, and 
 
 ![](https://www.youtube.com/watch?v=eXriz8Oz99I)
 
-<p class="clip-credit"><strong>Deep lasso guard pass to leg drag</strong> — taught by Carpio Jiu Jitsu · 2:41 · <a href="https://www.youtube.com/watch?v=eXriz8Oz99I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Week 8: Deep Lasso Guard Pass to Leg Drag</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=eXriz8Oz99I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -348,7 +327,7 @@ The Lasso Guard Pass is a fundamental component of any comprehensive passing sys
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Lasso Guard Pass: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Lasso Guard Pass: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

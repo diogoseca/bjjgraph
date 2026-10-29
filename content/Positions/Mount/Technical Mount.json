@@ -239,7 +239,7 @@
         "condition": "If opponent defends armbar by turning away and exposing back",
         "actions": [
           {
-            "technique": "Back Take",
+            "technique": "Technical Mount to Back Control",
             "target": "Back Control",
             "probability": 75
           },
@@ -274,7 +274,7 @@
             "probability": 65
           },
           {
-            "technique": "Back Take",
+            "technique": "Technical Mount to Back Control",
             "target": "Back Control",
             "probability": 60
           }
@@ -387,78 +387,72 @@
       {
         "transition": "Armbar from Technical Mount",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
-        }
-      },
-      {
-        "transition": "Consolidate Mount",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Gift Wrap Control",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Technical Mount to Back Control",
-        "attempt_probability": {
           "gi": 17,
           "nogi": 17
         }
       },
       {
+        "transition": "Consolidate Mount",
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 16
+        }
+      },
+      {
+        "transition": "Gift Wrap Control",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "Technical Mount to Back Control",
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 21
+        }
+      },
+      {
         "transition": "Technical Mount to Mount",
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "Technical Mount to S Mount",
         "attempt_probability": {
           "gi": 11,
           "nogi": 11
         }
       },
       {
-        "transition": "Technical Mount to S Mount",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
         "transition": "Americana from Technical Mount",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 7
         }
       }
     ],
     "clips": [
       {
-        "id": "9bH-UvKJBf4",
-        "title": "Technical mount attack sequence & back take",
-        "by": "DS Team Jiu Jitsu",
-        "vertical": false,
-        "channel": "DS Team Jiu Jitsu School",
-        "duration": 175,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "plD6TW7pFv4",
-        "title": "Mount to technical mount transition",
+        "title": "Mount to Tech Mount transition",
         "by": "Dark Horse BJJ",
         "vertical": false,
         "channel": "Dark Horse Brazilian Jiu Jitsu",
         "duration": 20,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
+      },
+      {
+        "id": "pNp2-2-r2Ec",
+        "title": "Position Mount à Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ",
+        "by": "Danny Fung",
+        "vertical": false,
+        "channel": "Danny Fung",
+        "duration": 174,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -921,35 +915,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing up: escaping from bottom",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "9252EvCT0q4",
-        "title": "Can't escape the mount? Try this escape",
-        "by": "Gabriel Gonzaga",
-        "vertical": false,
-        "channel": "Gabriel Gonzaga",
-        "duration": 93,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "2uuP147GoBk",
-        "title": "Bridge & roll mount escape",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 62,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1053,22 +1019,14 @@
   ],
   "clips": [
     {
-      "id": "pa4Aj431Yds",
-      "title": "Technical mount attacks overview",
-      "by": "Soma Academy",
-      "vertical": false,
-      "channel": "Soma Academy",
-      "duration": 110,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "pNp2-2-r2Ec",
-      "title": "Getting to technical mount from mount",
+      "title": "Position Mount à Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ",
       "by": "Danny Fung",
       "vertical": false,
       "channel": "Danny Fung",
-      "duration": 175,
-      "verified": "2026-07-14"
+      "duration": 174,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

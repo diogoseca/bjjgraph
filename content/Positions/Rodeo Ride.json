@@ -539,31 +539,13 @@
     ],
     "clips": [
       {
-        "id": "XXnawMQEfKw",
-        "title": "Breaking the turtle with the spiral ride",
-        "by": "Big Guy BJJ",
+        "id": "uFByeiUdSm4",
         "vertical": false,
-        "channel": "Big Guy BJJ",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "yUEVUbXEHrs",
-        "title": "Knee-to-belly to rodeo back take",
-        "by": "Muny Munoz",
-        "vertical": false,
-        "channel": "Muny Munoz",
-        "duration": 34,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "6MhcPYISQDU",
-        "title": "Rodeo choke from turtle top",
-        "by": "Ethos Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Ethos Jiu-Jitsu Fullerton",
-        "duration": 85,
-        "verified": "2026-07-14"
+        "title": "Rodeo Ride Rolling Drill",
+        "channel": "welcomematstevescott",
+        "duration": 64,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1038,35 +1020,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing-up escape from turtle",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "bDZntPrcLpg",
-        "title": "Turtle back-control escape",
-        "by": "BJJ101",
-        "vertical": false,
-        "channel": "BJJ101",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "495HaYBg-mY",
-        "title": "Single-leg reversal from turtle",
-        "by": "Pathfinder Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 36,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1184,22 +1138,13 @@
   ],
   "clips": [
     {
-      "id": "XXnawMQEfKw",
-      "title": "The spiral ride: breaking the turtle",
-      "by": "Big Guy BJJ",
+      "id": "uFByeiUdSm4",
       "vertical": false,
-      "channel": "Big Guy BJJ",
-      "duration": 73,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "6MhcPYISQDU",
-      "title": "Rodeo choke from the ride",
-      "by": "Ethos Jiu-Jitsu",
-      "vertical": false,
-      "channel": "Ethos Jiu-Jitsu Fullerton",
-      "duration": 85,
-      "verified": "2026-07-14"
+      "title": "Rodeo Ride Rolling Drill",
+      "channel": "welcomematstevescott",
+      "duration": 64,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

@@ -166,35 +166,22 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lachlan\u0027s ADCC Heel Hook",
-      "description": "Inside Sankaku (Top) film study: Lachlan\u0027s ADCC Heel Hook, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5RyU5LDc3C4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5RyU5LDc3C4",
-      "url": "https://www.youtube.com/watch?v=5RyU5LDc3C4",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT86S"
+      "name": "Intro to Saddle | 411 | Honey Hole | Inside Sankaku",
+      "description": "Inside Sankaku (Top) film study: Intro to Saddle | 411 | Honey Hole | Inside Sankaku.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RbuQjr3-F2I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RbuQjr3-F2I",
+      "url": "https://www.youtube.com/watch?v=RbuQjr3-F2I",
+      "duration": "PT290S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Using Hips For The Inverted Heel Hook",
-      "description": "Inside Sankaku (Top) film study: Using Hips For The Inverted Heel Hook, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/S8ZH_9F18jw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/S8ZH_9F18jw",
-      "url": "https://www.youtube.com/watch?v=S8ZH_9F18jw",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT103S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Catch The Inside Heel Hook From The Saddle",
-      "description": "Inside Sankaku (Top) film study: Catch The Inside Heel Hook From The Saddle, taught by Hellfish MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QVHDJoP-LK0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QVHDJoP-LK0",
-      "url": "https://www.youtube.com/watch?v=QVHDJoP-LK0",
-      "creator": { "@type": "Person", "name": "Hellfish MMA" },
-      "duration": "PT138S"
+      "name": "INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg",
+      "description": "Inside Sankaku (Top) film study: INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jn_JST6ZJ3o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jn_JST6ZJ3o",
+      "url": "https://www.youtube.com/watch?v=Jn_JST6ZJ3o",
+      "duration": "PT137S"
     }
   ]
 }
@@ -223,25 +210,17 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5RyU5LDc3C4)
+![](https://www.youtube.com/watch?v=RbuQjr3-F2I)
 
-<p class="clip-credit"><strong>Lachlan&#39;s ADCC Heel Hook</strong> — taught by Lachlan Giles · 1:26 · <a href="https://www.youtube.com/watch?v=5RyU5LDc3C4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=S8ZH_9F18jw)
-
-<p class="clip-credit"><strong>Using Hips For The Inverted Heel Hook</strong> — taught by Lachlan Giles · 1:43 · <a href="https://www.youtube.com/watch?v=S8ZH_9F18jw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Intro to Saddle | 411 | Honey Hole | Inside Sankaku</strong> · 4:50 · <a href="https://www.youtube.com/watch?v=RbuQjr3-F2I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QVHDJoP-LK0)
+![](https://www.youtube.com/watch?v=Jn_JST6ZJ3o)
 
-<p class="clip-credit"><strong>Catch The Inside Heel Hook From The Saddle</strong> — taught by Hellfish MMA · 2:18 · <a href="https://www.youtube.com/watch?v=QVHDJoP-LK0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg</strong> · 2:17 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

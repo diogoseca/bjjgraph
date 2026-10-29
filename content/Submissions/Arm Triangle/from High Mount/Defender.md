@@ -162,34 +162,11 @@ description: "Defend the arm triangle from high mount. Recognize the setup, prev
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The best arm-triangle escape",
-      "description": "Arm Triangle from High Mount (Defender) film study: The best arm-triangle escape, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n_2zR6BaF8A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n_2zR6BaF8A",
-      "url": "https://www.youtube.com/watch?v=n_2zR6BaF8A",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT58S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Arm triangle escape using hawking",
-      "description": "Arm Triangle from High Mount (Defender) film study: Arm triangle escape using hawking, taught by Crucifix Mike.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Nspz2EAIQ_k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Nspz2EAIQ_k",
-      "url": "https://www.youtube.com/watch?v=Nspz2EAIQ_k",
-      "creator": { "@type": "Person", "name": "Crucifix Mike" },
-      "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Head and arm choke escape",
-      "description": "Arm Triangle from High Mount (Defender) film study: Head and arm choke escape, taught by Gracie Barra Jupiter.",
+      "name": "Gracie Barra Jupiter- Head and arm choke escape",
+      "description": "Arm Triangle from High Mount (Defender) film study: Gracie Barra Jupiter- Head and arm choke escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N7SC93aEOIA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/N7SC93aEOIA",
       "url": "https://www.youtube.com/watch?v=N7SC93aEOIA",
-      "creator": { "@type": "Person", "name": "Gracie Barra Jupiter" },
       "duration": "PT174S"
     }
   ]
@@ -219,25 +196,9 @@ Defending the arm triangle from high mount requires recognizing the setup before
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=n_2zR6BaF8A)
-
-<p class="clip-credit"><strong>The best arm-triangle escape</strong> — taught by ZombieProofBJJ · 0:58 · <a href="https://www.youtube.com/watch?v=n_2zR6BaF8A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Nspz2EAIQ_k)
-
-<p class="clip-credit"><strong>Arm triangle escape using hawking</strong> — taught by Crucifix Mike · 0:27 · <a href="https://www.youtube.com/watch?v=Nspz2EAIQ_k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=N7SC93aEOIA)
 
-<p class="clip-credit"><strong>Head and arm choke escape</strong> — taught by Gracie Barra Jupiter · 2:54 · <a href="https://www.youtube.com/watch?v=N7SC93aEOIA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gracie Barra Jupiter- Head and arm choke escape</strong> · 2:54 · <a href="https://www.youtube.com/watch?v=N7SC93aEOIA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

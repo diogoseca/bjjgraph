@@ -4,7 +4,7 @@
 
 ---
 title: "Rotate to Carni Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to defend against Rotate to Carni in BJJ. Recognition cues, defensive options, and escape strategies from the top position against Rubber Guard rotation."
+description: "Rotate to Carni (defender): A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control."
 ---
 
 
@@ -20,26 +20,26 @@ description: "How to defend against Rotate to Carni in BJJ. Recognition cues, de
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Drive forward and flatten - immediately drop chest weight forward and drive shoulder pressure into opponent's hips to collapse the rotation before the perpendicular angle is achieved",
-      "text": "At the earliest sign of rotation, within the first 30 degrees of hip movement when the bottom player has released their shin grip but hasn't completed the swing If successful: Bottom player is flattened and cannot complete rotation, position resets to New York where you continue working standard escapes",
+      "name": "A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Extract trapped arm by corkscrewing elbow down and back toward your hip while the overhook loosens during the rotational movement",
-      "text": "When you feel the overhook loosen even slightly during mid-rotation, typically as the bottom player's attention shifts to powering the hip swing with their core If successful: Arm extraction breaks the entire Rubber Guard structure and resets to closed guard where you have significantly better defensive options",
+      "name": "Avoid reaching away while the opponent sets the triceps control.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Posture up explosively and create distance by driving hips back and chest up before the rotation can establish the Carni angle",
-      "text": "When you recognize rotation setup cues before it initiates - the shin grip release and overhook deepening signal gives you a 1-2 second window to act If successful: Distance creation breaks the Rubber Guard entirely and resets to closed guard or potentially open guard where you can begin proper passing",
+      "name": "Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Keep base narrow and compact by squeezing knees together and keeping weight centered to deny the lateral space needed for rotation",
-      "text": "Preventive defense used continuously while trapped in New York - eliminates the trigger conditions for Carni rotation entirely If successful: Bottom player cannot find a rotation window and must select alternative attacks from New York, giving you time to work standard New York escape sequences",
+      "name": "Create slack around the shoulder and elbow before moving the hips past the legs.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 4
     }
   ],
@@ -56,42 +56,42 @@ description: "How to defend against Rotate to Carni in BJJ. Recognition cues, de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is preparing to Rotate to Carni?",
+      "name": "Rotate to Carni (top): Which combination signals the emerging shoulder trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest cue is when the bottom player releases their shin grip with their free hand while keeping the leg across your back. This hand release signals that they are freeing a posting hand to power the rotation. You may also feel the overhook tighten immediately before this release as they secure their primary control before initiating the transition. Recognizing this two-step signal gives you a 1-2 second window to act preventively."
+        "text": "Recognize the overhook and head-side leg as upper-body shoulder-control geometry."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is driving forward the highest percentage defensive response against early-stage rotation?",
+      "name": "Rotate to Carni (top): How do you avoid giving the triceps grip a long arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Driving forward is the highest percentage response because the Carni rotation requires lateral space to swing the hips perpendicular. Forward pressure directly collapses this space by pinning the bottom player's hips to the mat and preventing the arc of movement. Additionally, forward drive is mechanically simple and fast to execute compared to arm extraction or posture recovery, making it achievable within the small time window available before the rotation progresses past the point of no return."
+        "text": "Keep the elbow compact early rather than reaching away as the opponent establishes triceps control."
       }
     },
     {
       "@type": "Question",
-      "name": "You recognize the rotation to Carni too late to stop it; what should you prioritize?",
+      "name": "Rotate to Carni (top): What can oppose the angle before your shoulder is immobilized?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If Carni is already being established, prioritize protecting your shoulder by keeping your trapped arm's elbow tight to your body and turning your shoulder inward to reduce the omoplata angle. Begin working to extract your arm using a hitchhiker-style escape before the bottom player secures wrist control. Accept the positional loss and focus on preventing the submission rather than trying to reverse a position that is already established."
+        "text": "Use frames while space remains; once the shoulder is fixed, seek release rather than forcing the angle."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the primary risk of attempting arm extraction during mid-rotation?",
+      "name": "Rotate to Carni (top): What needs to open before you move around the legs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary risk is that partial arm extraction positions your arm inside the bottom player's guard in exactly the configuration needed for a triangle choke setup. As the arm begins coming free during rotation, it passes through the inside position between their legs, and if the rotation continues while your arm is partially extracted, the bottom player can redirect to triangle control instead of Carni. This is why arm extraction should only be attempted early when the overhook is genuinely loosened."
+        "text": "Release the upper-body clamp before turning the hips into a separate passing exchange."
       }
     },
     {
       "@type": "Question",
-      "name": "How should you modify your base positioning in New York to prevent the Carni rotation opportunity?",
+      "name": "Rotate to Carni (top): Why can rolling forward increase the lock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain a narrow, compact base with knees close together and weight centered rather than distributed laterally. Avoid widening your base or circling away from the overhook side, as both create the lateral space the rotation requires. Keep your weight slightly forward to pin the bottom player's hips, making it difficult for them to generate the hip elevation needed to initiate the rotational arc. This compact positioning eliminates the trigger conditions for the Carni entry entirely."
+        "text": "A forward roll is not a reliable release when wrist and triceps stay fixed. Obtain release or tap before moving through the lock."
       }
     }
   ]
@@ -104,7 +104,7 @@ description: "How to defend against Rotate to Carni in BJJ. Recognition cues, de
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rotate to Carni Defender",
-  "description": "How to defend against Rotate to Carni in BJJ. Recognition cues, defensive options, and escape strategies from the top position against Rubber Guard rotation.",
+  "description": "Rotate to Carni (defender): A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -200,9 +200,15 @@ description: "How to defend against Rotate to Carni in BJJ. Recognition cues, de
 
 <section id="overview" class="content-section">
 
-Defending the Rotate to Carni requires the top player to recognize the rotation attempt early and respond with immediate, decisive action before the bottom player establishes the perpendicular Carni angle. From New York Top, the defender is already in a compromised position with one arm trapped in a deep overhook and posture broken by the opponent's shin. The rotation threat compounds this danger by threatening to convert the already-difficult New York control into the submission-threatening Carni position where omoplata attacks become imminent.
+The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. Richie Martinez demonstrates the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
 
-The most effective defensive strategy is prevention rather than reaction. By maintaining a compact base and avoiding the lateral widening or circling that triggers the rotation, the defender eliminates the space needed for the bottom player's hip swing. When the rotation does initiate, the defender must act within the first 30-45 degrees of movement to have the highest probability of shutting it down, either by driving forward to flatten the bottom player, extracting the trapped arm during the moment of loosened control, or creating enough distance to disengage entirely and reset to closed guard.
+A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control. Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
+
+Create slack around the shoulder and elbow before moving the hips past the legs. Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged. Raise the head and chest only after the arm and head-side leg are clear.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+An early escape removes the triceps and leg connections before the shoulder is fixed. Keep the arm aligned until it is free; standing or rolling against the clamp adds rotation instead of releasing it.
 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
@@ -250,11 +256,9 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 
 <p class="section-subtitle">How do you know when someone is attempting Rotate to Carni?</p>
 
-- Bottom player releases shin grip with their free hand while maintaining leg across your back - this hand release signals imminent rotation
-- Bottom player's overhook tightens noticeably as they deepen the grip in preparation for the transition
-- Bottom player's hips begin shifting laterally toward the overhook side, initiating the rotational arc
-- Bottom player posts their newly freed hand on the mat to power the rotation movement
-- You feel the bottom player's leg beginning to slide from across your back toward your shoulder as rotation starts
+- The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled.
+- Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+- Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
 
 
 </section>
@@ -265,11 +269,12 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 
 <p class="section-subtitle">What are the key principles for defending Rotate to Carni?</p>
 
-- Maintain compact base and avoid widening laterally - lateral space is what enables the rotation
-- Drive forward rather than pulling back when rotation initiates to deny the perpendicular angle
-- Extract trapped arm during the rotation window when overhook may momentarily loosen
-- Recognize rotation initiation within the first 30 degrees and respond immediately before angle is established
-- Accept positional reset to closed guard rather than allowing Carni consolidation when defense is late
+- Identify the shoulder threat: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+- Keep the elbow close early: Avoid reaching away while the opponent sets the triceps control.
+- Deny the belly-down angle: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
+- Free the arm before passing: Create slack around the shoulder and elbow before moving the hips past the legs.
+- Avoid rolling against the lock: Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged.
+- Rebuild posture after release: Raise the head and chest only after the arm and head-side leg are clear.
 
 
 </section>
@@ -280,33 +285,33 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 
 <p class="section-subtitle">What can you do to defend against Rotate to Carni?</p>
 
-### 1. Drive forward and flatten - immediately drop chest weight forward and drive shoulder pressure into opponent's hips to collapse the rotation before the perpendicular angle is achieved
+### 1. A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
 
-- **When to use**: At the earliest sign of rotation, within the first 30 degrees of hip movement when the bottom player has released their shin grip but hasn't completed the swing
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/New York]]
-- **If successful**: Bottom player is flattened and cannot complete rotation, position resets to New York where you continue working standard escapes
-- **Risk**: If the bottom player reads the forward drive and redirects to Chill Dog or Invisible Collar, you may advance them to a different attacking position
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 2. Extract trapped arm by corkscrewing elbow down and back toward your hip while the overhook loosens during the rotational movement
+### 2. Avoid reaching away while the opponent sets the triceps control.
 
-- **When to use**: When you feel the overhook loosen even slightly during mid-rotation, typically as the bottom player's attention shifts to powering the hip swing with their core
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Closed Guard]]
-- **If successful**: Arm extraction breaks the entire Rubber Guard structure and resets to closed guard where you have significantly better defensive options
-- **Risk**: Partial extraction with rotation continuing creates triangle vulnerability as your arm ends up inside their guard in the position needed for triangle setup
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 3. Posture up explosively and create distance by driving hips back and chest up before the rotation can establish the Carni angle
+### 3. Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
 
-- **When to use**: When you recognize rotation setup cues before it initiates - the shin grip release and overhook deepening signal gives you a 1-2 second window to act
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Closed Guard]]
-- **If successful**: Distance creation breaks the Rubber Guard entirely and resets to closed guard or potentially open guard where you can begin proper passing
-- **Risk**: Explosive posturing can burn significant energy and if the overhook is very deep, your posture attempt may fail and leave you worse off than a controlled response
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 4. Keep base narrow and compact by squeezing knees together and keeping weight centered to deny the lateral space needed for rotation
+### 4. Create slack around the shoulder and elbow before moving the hips past the legs.
 
-- **When to use**: Preventive defense used continuously while trapped in New York - eliminates the trigger conditions for Carni rotation entirely
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/New York]]
-- **If successful**: Bottom player cannot find a rotation window and must select alternative attacks from New York, giving you time to work standard New York escape sequences
-- **Risk**: Compact base may be more vulnerable to forward-drive based attacks like hip bump sweeps if bottom player adapts strategy
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 
 
@@ -320,11 +325,11 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 
 ### → [[Positions/Rubber Guard/New York]]
 
-Drive forward immediately when rotation begins to flatten the bottom player's hips and deny the perpendicular angle. Your forward pressure collapses their rotation and resets you to standard New York top where you continue systematic escape work.
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
 
 ### → [[Positions/Closed Guard]]
 
-Extract the trapped arm during the rotation window when the overhook loosens, or posture up explosively before rotation completes to break the Rubber Guard structure entirely. Either method resets to closed guard which is a significantly safer defensive position.
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Avoid reaching away while the opponent sets the triceps control.
 
 
 
@@ -336,30 +341,20 @@ Extract the trapped arm during the rotation window when the overhook loosens, or
 
 <p class="section-subtitle">What mistakes should you avoid when defending Rotate to Carni?</p>
 
-### 1. Widening base laterally when feeling off-balance in New York, creating the exact space needed for Carni rotation
+### 1. Skipping the checkpoint: identify the shoulder threat
 
-- **Consequence**: Directly triggers the rotation opportunity, giving the bottom player optimal conditions for a high-percentage Carni entry
-- **Correction**: Keep base compact and centered. If you feel unstable, drive forward rather than widening - forward pressure denies rotation space and may create passing opportunities
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+- **Correction**: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
 
-### 2. Pulling backward to create distance while the overhook is still secured, without explosive commitment
+### 2. Skipping the checkpoint: keep the elbow close early
 
-- **Consequence**: Half-committed posture attempts fail against deep overhooks and waste energy while the bottom player adjusts and re-initiates the rotation
-- **Correction**: Either commit fully to explosive posture recovery with maximum effort or drive forward - avoid half-measures that accomplish nothing against established Rubber Guard control
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Avoid reaching away while the opponent sets the triceps control.
+- **Correction**: Avoid reaching away while the opponent sets the triceps control.
 
-### 3. Attempting arm extraction during a late-stage rotation (past 60 degrees) when the overhook has re-tightened
+### 3. Skipping the checkpoint: deny the belly-down angle
 
-- **Consequence**: Arm extraction fails and the partial movement positions your arm perfectly inside their legs for a triangle setup from the new Carni angle
-- **Correction**: Only attempt arm extraction during the early rotation window (first 30-45 degrees) when the overhook is genuinely loosened. If the rotation passes 60 degrees, focus on posture and distance instead
-
-### 4. Freezing and failing to react when the shin grip releases, allowing the full rotation to complete unopposed
-
-- **Consequence**: Bottom player establishes Carni with optimal control and immediate omoplata threat, requiring you to defend a much more dangerous position
-- **Correction**: Train recognition cues so that the shin grip release triggers immediate defensive response - either forward drive, arm extraction attempt, or explosive posture recovery
-
-### 5. Circling away from the overhook side to relieve shoulder pressure in New York
-
-- **Consequence**: Circling away is the exact lateral movement that creates optimal Carni rotation conditions for the bottom player
-- **Correction**: If you must move to relieve pressure, drive forward into the bottom player rather than circling laterally. Forward movement compresses their position and denies rotation space
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
+- **Correction**: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
 
 
 
@@ -371,17 +366,14 @@ Extract the trapped arm during the rotation window when the overhook loosens, or
 
 <p class="section-subtitle">How do you train defense against Rotate to Carni?</p>
 
-**Week 1-2** - Recognition drilling
-Partner establishes New York and slowly initiates Carni rotation. Practice identifying the recognition cues: shin grip release, overhook tightening, hip shift. Call out when you recognize each cue. No defensive action yet - focus purely on pattern recognition and early detection timing.
+**Phase 1** - Identify the configuration
+Work cooperatively on identify the shoulder threat. A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Defensive response drilling
-Partner initiates Carni rotation at moderate speed. Practice each defensive response individually: forward drive to flatten, arm extraction during loose overhook, explosive posture recovery. 15 repetitions of each response per session. Focus on matching the correct response to the rotation timing.
+**Phase 2** - Rehearse the connection
+Work cooperatively on keep the elbow close early. Avoid reaching away while the opponent sets the triceps control. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Prevention and base management
-Practice maintaining compact base positioning in New York that denies rotation opportunities entirely. Partner attempts to create rotation openings through various setups while you work to eliminate lateral space. Build the habit of forward pressure rather than lateral movement.
-
-**Week 7+** - Live positional defense
-Full resistance positional sparring from New York where partner can attempt Carni rotation or any other Rubber Guard attack. Defend all threats while working toward escape. Track how often Carni is successfully established versus defended to measure improvement.
+**Phase 3** - Add an early response
+Work cooperatively on deny the belly-down angle. Maintain a balanced base and a safe inside frame before the shoulder becomes clamped. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

@@ -160,24 +160,12 @@ description: "How to prevent Turtle to Guard recovery in BJJ. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arm drag back take vs turtle guard recovery",
-      "description": "Turtle to Guard (Defender) film study: Arm drag back take vs turtle guard recovery, taught by Irm\u00e3os Lisboa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0xhfjKDfwBY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0xhfjKDfwBY",
-      "url": "https://www.youtube.com/watch?v=0xhfjKDfwBY",
-      "creator": { "@type": "Person", "name": "Irm\u00e3os Lisboa" },
-      "duration": "PT104S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Turtle to side control before guard recovers",
-      "description": "Turtle to Guard (Defender) film study: Turtle to side control before guard recovers, taught by Rickson Gracie Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
-      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
-      "creator": { "@type": "Person", "name": "Rickson Gracie Academy" },
-      "duration": "PT47S"
+      "name": "Turtle Position in BJJ: Countering the Shoulder Roll",
+      "description": "Turtle to Guard (Defender) film study: Turtle Position in BJJ: Countering the Shoulder Roll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fbBUFqO6Pso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fbBUFqO6Pso",
+      "url": "https://www.youtube.com/watch?v=fbBUFqO6Pso",
+      "duration": "PT324S"
     }
   ]
 }
@@ -205,17 +193,9 @@ As the top player against the Turtle to Guard recovery, your objective is to pre
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0xhfjKDfwBY)
+![](https://www.youtube.com/watch?v=fbBUFqO6Pso)
 
-<p class="clip-credit"><strong>Arm drag back take vs turtle guard recovery</strong> — taught by Irmãos Lisboa · 1:44 · <a href="https://www.youtube.com/watch?v=0xhfjKDfwBY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
-
-<p class="clip-credit"><strong>Turtle to side control before guard recovers</strong> — taught by Rickson Gracie Academy · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle Position in BJJ: Countering the Shoulder Roll</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=fbBUFqO6Pso" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

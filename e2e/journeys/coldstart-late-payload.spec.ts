@@ -1,3 +1,4 @@
+// v1.230.0 reverses v1.218.1 / v1.220.0 Inspect: D-318 replaces the sheet with the video viewer; the card commits.
 import { test, expect } from "@playwright/test";
 import { journey } from "../dsl";
 
@@ -159,6 +160,9 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
     await page.locator("[data-land-q]").count(),
     "the card the visitor is STILL looking at gains its question",
   ).toBe(1);
+  // D-336: on screen, not only in the DOM. D-318's reader gate (af3aac311) hides a card it has not
+  // published; here the reader is not late, so the card must be visible once the question docks.
+  await expect(page.locator("[data-landcard]"), "the card the visitor is STILL looking at is visible").toBeVisible();
 
   // the timeline is the evidence: requested near sim-zero, served ~25 simulated seconds later
   const tl = j.payloadTimeline().filter((p) => /flashcards\/_index\.json/.test(p.url));
@@ -201,9 +205,8 @@ test("cold start: a spine step that arrives too EARLY is stamped out of order", 
   await j.rig("resolve", [0.01]);
   await j.rig("outcome", [0.01]);
   const target = await firstTransition(page);
-  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click();
-  await expect(page.locator("[data-go]").first()).toBeVisible();
-  await page.locator("[data-go]").first().click();
+  await j.watchChoice(target);
+  await j.pick(target);
   await j.advanceUntil("sweep_land", 20000);
   // ...and on into the NEXT hand, which is where the backfill can land: `_landBackfill` requires a
   // live decision (a card whose turn is over must never be rewritten under the next state), so the
@@ -467,9 +470,8 @@ test("cold start: a payload that never arrives leaves a playable app, not a brok
   await j.rig("resolve", [0.01]);
   await j.rig("outcome", [0.01]);
   const target = await firstTransition(page);
-  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click();
-  await expect(page.locator("[data-go]").first()).toBeVisible();
-  await page.locator("[data-go]").first().click();
+  await j.watchChoice(target);
+  await j.pick(target);
   await j.advanceUntil("sweep_land", 20000);
   await j.nextHand();
 
@@ -491,6 +493,8 @@ test("cold start: a payload that never arrives leaves a playable app, not a brok
     await page.locator("[data-landcard]").count(),
     "every landing still puts its card up",
   ).toBe(1);
+  // D-336: up means visible, not only mounted (D-318's reader gate hides an unpublished card).
+  await expect(page.locator("[data-landcard]"), "every landing still puts its card up, visible").toBeVisible();
   const skips = await page.evaluate(() =>
     (window as any).__neural.beats
       .filter((b: any) => b.beat === "land_q_skipped")

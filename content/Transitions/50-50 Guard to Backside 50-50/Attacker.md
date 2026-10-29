@@ -45,19 +45,19 @@ description: "Complete guide to executing the rotation from 50-50 Guard to Backs
     {
       "@type": "HowToStep",
       "name": "Complete the arc to back-facing position",
-      "text": "Continue the hip walk until your chest faces your opponent's back rather than their front. You should feel your sternum align with their spine or shoulder blades. The rotation is roughly ninety to one hundred eighty degrees depending on starting angle. Your hips should now be positioned behind theirs rather than across from them, fundamentally changing the pressure dynamic.",
+      "text": "Rotate onto your hip or shoulder behind the opponent's trapped leg as they turn away. Keep your inside foot in front of their stomach and the knee line contained. Follow the available angle without forcing a fixed degree of rotation through a trapped foot.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Establish chest-to-back pressure",
-      "text": "Immediately drive your chest forward and down onto opponent's upper back the moment you complete the rotation. This pressure pins their hips to the mat, prevents them from turning to re-face you, and establishes the dominant Backside 50-50 configuration. Let your body weight settle through your sternum into their back. Do not reach for submissions yet - first consolidate the positional advantage by making them carry your weight.",
+      "name": "Establish knee-line and hip control",
+      "text": "Settle the leg clamp and inside-foot frame as the rotation completes. Guide the trapped knee forward and toward the mat while capturing the heel as it appears. Confirm the knee line remains controlled before increasing submission pressure.",
       "position": 6
     },
     {
       "@type": "HowToStep",
       "name": "Secure controlling grips for attack",
-      "text": "With chest pressure established and leg entanglement maintained, transition your hands to attacking grips. Near hand cups opponent's heel for heel hook threat, far hand controls their knee line or posts for additional base. From this consolidated Backside 50-50 position you now have access to the full dual-threat system of leg submissions and back control transitions.",
+      "text": "With knee-line control established and leg entanglement maintained, transition your hands to attacking grips. Near hand cups opponent's heel for heel hook threat, far hand controls their knee line or posts for additional base. From this consolidated Backside 50-50 position you now have access to the full dual-threat system of leg submissions and back control transitions.",
       "position": 7
     }
   ],
@@ -93,7 +93,7 @@ description: "Complete guide to executing the rotation from 50-50 Guard to Backs
       "name": "What must happen simultaneously with the final step of the Backside 50-50 rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Chest-to-back pressure must be established simultaneously with the completion of the rotational arc. There cannot be a gap between arriving behind the opponent and establishing forward driving pressure. Even a one-second delay allows an experienced opponent to turn and re-face you, negating the transition. The final hip step and the chest pressure drive forward should be one continuous motion."
+        "text": "Complete the rotation with the inside foot across the stomach and the knee line contained. Coordinate the heel catch with that movement. A gap in the leg connection lets the opponent turn back in or withdraw the knee before Backside 50-50 is established."
       }
     },
     {
@@ -176,96 +176,18 @@ description: "Complete guide to executing the rotation from 50-50 Guard to Backs
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "50-50 Guard to Backside 50-50 (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Roll under to backside 50/50",
-      "description": "50-50 Guard to Backside 50-50 (Attacker) film study: Roll under to backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Backside 50/50 entry",
-      "description": "50-50 Guard to Backside 50-50 (Attacker) film study: Backside 50/50 entry, taught by Combat Principles MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1s9wTxwTqwM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1s9wTxwTqwM",
-      "url": "https://www.youtube.com/watch?v=1s9wTxwTqwM",
-      "creator": { "@type": "Person", "name": "Combat Principles MMA" },
-      "duration": "PT38S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse De La Riva to backside 50-50",
-      "description": "50-50 Guard to Backside 50-50 (Attacker) film study: Reverse De La Riva to backside 50-50, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h1kv3AHUKJk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h1kv3AHUKJk",
-      "url": "https://www.youtube.com/watch?v=h1kv3AHUKJk",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT41S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-As the attacker executing the Transition to Backside 50-50, your objective is to rotate from standard face-to-face 50-50 top position to a chest-against-back configuration while maintaining tight leg entanglement throughout. The rotation creates a decisive positional upgrade by giving you superior pressure, visual access to your opponent's legs, and the dual threat of heel hooks plus back control. Success depends on controlling the rotation timing relative to your opponent's defensive focus, maintaining inside leg position as your pivot point, and arriving behind them with your chest heavy on their back before they can turn to face you. The entire sequence should feel like a smooth arc rather than a jerky repositioning.
+As the attacker executing the Transition to Backside 50-50, your objective is to rotate from standard face-to-face 50-50 top position to a position behind the trapped leg with the opponent turned away while maintaining tight leg entanglement throughout. The rotation creates a decisive positional upgrade by giving you superior pressure, visual access to your opponent's legs, and the dual threat of heel hooks plus back control. Success depends on controlling the rotation timing relative to your opponent's defensive focus, maintaining inside leg position as your pivot point, and arriving behind the trapped leg with the inside foot across the stomach before they can turn to face you. The entire sequence should feel like a smooth arc rather than a jerky repositioning.
 
 **From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch 50-50 Guard to Backside 50-50 (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1s9wTxwTqwM)
-
-<p class="clip-credit"><strong>Backside 50/50 entry</strong> — taught by Combat Principles MMA · 0:38 · <a href="https://www.youtube.com/watch?v=1s9wTxwTqwM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=h1kv3AHUKJk)
-
-<p class="clip-credit"><strong>Reverse De La Riva to backside 50-50</strong> — taught by Thunderdome BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=h1kv3AHUKJk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -277,7 +199,7 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 - Inside leg position is the rotational pivot: your lead leg stays locked inside the entanglement as an anchor while your body circles around it
 - Maintain constant leg entanglement pressure throughout the rotation to prevent opponent from extracting during the transition
 - Time the rotation when opponent is focused on heel defense, grip fighting, or any distraction that limits their hip mobility
-- Arrive with chest pressure immediately on opponent's back - any gap between completing the rotation and establishing pressure allows them to turn and re-face you
+- Keep the inside foot in front of the stomach and contain the trapped knee as you move behind the leg; a loose frame lets the opponent turn back in
 - Control at least one grip on opponent's lower leg or ankle throughout the rotation to prevent them from spinning with you
 - Move your hips in an arc rather than trying to jump or leap behind them - smooth incremental movement is harder to detect and defend
 
@@ -309,9 +231,9 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 2. **Confirm inside leg position**: Verify your inside leg is locked tight against the inner surface of opponent's leg structure. This leg becomes the pivot point for your entire rotation. Press your shin firmly inward to create a fixed axis. If inside position has been compromised, re-establish it before attempting the rotation, as the transition fails without this anchor.
 3. **Initiate hip walk**: Begin walking your outside hip in a lateral arc toward opponent's back side. Move in small increments of two to three inches per step rather than one large movement. Each step should feel like you are tracing a semicircle around your inside leg pivot point. Maintain downward hip pressure throughout to prevent opponent from creating space or matching your rotation.
 4. **Maintain entanglement tension**: As your hips move behind your opponent, actively squeeze your legs tighter around their trapped leg. The rotation naturally creates a momentary loosening in the entanglement that opponents can exploit to extract. Counter this by consciously tightening your triangle leg configuration with each step. Your inside leg stays as the pivot while your outside leg maintains the closing pressure.
-5. **Complete the arc to back-facing position**: Continue the hip walk until your chest faces your opponent's back rather than their front. You should feel your sternum align with their spine or shoulder blades. The rotation is roughly ninety to one hundred eighty degrees depending on starting angle. Your hips should now be positioned behind theirs rather than across from them, fundamentally changing the pressure dynamic.
-6. **Establish chest-to-back pressure**: Immediately drive your chest forward and down onto opponent's upper back the moment you complete the rotation. This pressure pins their hips to the mat, prevents them from turning to re-face you, and establishes the dominant Backside 50-50 configuration. Let your body weight settle through your sternum into their back. Do not reach for submissions yet - first consolidate the positional advantage by making them carry your weight.
-7. **Secure controlling grips for attack**: With chest pressure established and leg entanglement maintained, transition your hands to attacking grips. Near hand cups opponent's heel for heel hook threat, far hand controls their knee line or posts for additional base. From this consolidated Backside 50-50 position you now have access to the full dual-threat system of leg submissions and back control transitions.
+5. **Complete the arc to back-facing position**: Rotate onto your hip or shoulder behind the opponent's trapped leg as they turn away. Keep your inside foot in front of their stomach and the knee line contained. Follow the available angle without forcing a fixed degree of rotation through a trapped foot.
+6. **Establish knee-line and hip control**: Settle the leg clamp and inside-foot frame as the rotation completes. Guide the trapped knee forward and toward the mat while capturing the heel as it appears. Confirm the knee line remains controlled before increasing submission pressure.
+7. **Secure controlling grips for attack**: With knee-line control established and leg entanglement maintained, transition your hands to attacking grips. Near hand cups opponent's heel for heel hook threat, far hand controls their knee line or posts for additional base. From this consolidated Backside 50-50 position you now have access to the full dual-threat system of leg submissions and back control transitions.
 
 
 </section>
@@ -335,7 +257,7 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 
 <p class="section-subtitle">How might your opponent counter 50-50 Guard to Backside 50-50?</p>
 
-- **Opponent hip escapes and turns to face you during the rotation, re-establishing standard 50-50 alignment** (Effectiveness: High) - Your Response: If they begin turning, immediately accelerate your rotation and drive chest pressure forward to beat their turn. Alternatively, abandon the rotation and attack the heel hook while their focus is on turning rather than heel defense. Their hip movement during the counter often exposes the heel. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent hip escapes and turns to face you during the rotation, re-establishing standard 50-50 alignment** (Effectiveness: High) - Your Response: Follow the opponent's turn with the leg clamp and keep the inside foot across the stomach. If the knee line escapes, reset the entanglement rather than forcing the rotation through their captured foot. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent breaks your anchor grip on their ankle and begins extracting their leg from the entanglement** (Effectiveness: Medium) - Your Response: Immediately re-grip their leg at a different control point such as above the knee or on the shin. If re-gripping fails, switch to Back Take from 50-50 since their leg extraction creates upper body exposure. Their focus on grip fighting their leg free leaves their back vulnerable. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent bridges explosively and attempts to sweep you during the rotation when your base is temporarily compromised** (Effectiveness: Medium) - Your Response: Post immediately with your free hand and drive your hips low to re-establish base. If the sweep succeeds partially, use the momentum to continue your rotation rather than fighting it, potentially arriving in Backside 50-50 from a different angle. Stay connected to the entanglement throughout. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent matches your rotation by spinning their body in the same direction, preventing you from getting behind them** (Effectiveness: High) - Your Response: Immediately reverse your rotation direction to catch them turning the wrong way, or pin their hips with increased downward pressure to prevent the matching spin. If they successfully match, you return to standard 50-50 with no loss - reset and attempt again when they are distracted by a submission threat. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
@@ -359,15 +281,15 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 - **Consequence**: Large sudden movements create gaps in the entanglement and telegraph your intention, giving opponent time to counter with hip escape or matching rotation. The momentary loss of control during a jump is often enough for a skilled opponent to extract.
 - **Correction**: Walk your hips in small two-to-three-inch increments, maintaining pressure and entanglement tension at each step. The rotation should take three to five seconds of steady movement rather than one explosive repositioning.
 
-### 3. Failing to establish chest pressure immediately upon completing the rotation
+### 3. Failing to establish knee-line control immediately upon completing the rotation
 
-- **Consequence**: Arriving behind opponent without immediate chest pressure gives them a window to turn and re-face you, negating the entire transition. Even a one-second delay is enough for an experienced opponent to spin back to standard 50-50.
-- **Correction**: Treat the chest pressure as part of the final rotation step, not a separate action. As your last hip walk step brings you behind them, simultaneously drive your chest forward and down. The arrival and the pressure establishment should be one continuous motion.
+- **Consequence**: Arriving behind opponent without immediate knee-line control gives them a window to turn and re-face you, negating the entire transition. Even a one-second delay is enough for an experienced opponent to spin back to standard 50-50.
+- **Correction**: Finish the rotation with the knee line contained and the inside foot in front of the stomach. Coordinate the heel catch with that movement so there is no gap in leg control.
 
 ### 4. Releasing the anchor grip on opponent's leg to reach for a post or different grip during the rotation
 
 - **Consequence**: Without the anchor grip, opponent can freely spin to match your rotation or extract their leg. The grip is what prevents them from simply turning with you and maintaining standard 50-50 orientation.
-- **Correction**: Maintain at least one controlling grip on opponent's lower leg throughout the entire rotation. If you need to post for balance, use your free hand. Only transition grips after you have established chest-to-back pressure and the position is consolidated.
+- **Correction**: Maintain at least one controlling grip on opponent's lower leg throughout the entire rotation. If you need to post for balance, use your free hand. Only transition grips after you have established knee-line and hip control and the position is consolidated.
 
 ### 5. Attempting the rotation when opponent has active hip movement or is currently bridging
 
@@ -385,10 +307,10 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 <p class="section-subtitle">How do you train 50-50 Guard to Backside 50-50 (Attacker)?</p>
 
 **Solo Movement Pattern** - Hip arc mechanics without resistance
-Practice the hip walking arc on a grappling dummy or with a compliant partner who holds still. Focus on tracing a smooth semicircle with your hips while maintaining leg entanglement tension. Perform 20 repetitions per side, emphasizing small incremental steps and the immediate chest pressure at completion.
+Practice the hip walking arc on a grappling dummy or with a compliant partner who holds still. Focus on tracing a smooth semicircle with your hips while maintaining leg entanglement tension. Perform 20 repetitions per side, emphasizing small incremental steps and the immediate knee-line control at completion.
 
 **Cooperative Partner Drilling** - Full sequence with light resistance
-Partner maintains standard 50-50 bottom with 20-30 percent resistance. Execute the full transition including anchor grip, inside leg confirmation, hip walk, entanglement maintenance, and chest pressure establishment. Partner provides feedback on where gaps or looseness occur. Drill 10 repetitions then switch roles.
+Partner maintains standard 50-50 bottom with 20-30 percent resistance. Execute the full transition including anchor grip, inside leg confirmation, hip walk, entanglement maintenance, and knee-line control establishment. Partner provides feedback on where gaps or looseness occur. Drill 10 repetitions then switch roles.
 
 **Timing and Entry Recognition** - Identifying transition windows against active defense
 Partner plays standard 50-50 bottom with 50-60 percent resistance, actively grip fighting and moving hips. You must identify the correct timing windows to initiate the rotation. Threaten heel hooks to create defensive reactions, then rotate when their hips become static. Focus on reading when to attempt versus when to wait.

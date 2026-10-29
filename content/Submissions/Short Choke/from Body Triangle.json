@@ -432,35 +432,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "EJaBa7Q3qVI",
-        "title": "Short Choke to Rear Naked Choke",
-        "by": "Mako BJJ",
-        "vertical": false,
-        "channel": "Mako Brazilian Jiu-Jitsu",
-        "duration": 188,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8tdVE2zgjXw",
-        "title": "Details on finishing the rear naked choke",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Wrecking Crew BJJ",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zzovZGhewQY",
-        "title": "Back attack system from the body triangle",
-        "by": "Jordan Preisinger",
-        "vertical": false,
-        "channel": "Jordan Teaches Jiujitsu",
-        "duration": 694,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Short Choke from Body Triangle Defender",
@@ -641,34 +613,6 @@
         "description": "Start in body triangle with the partner using full offensive pressure including choke attempts and attack chains. Survive for timed rounds, practicing all defensive tools in combination. Focus on composure, breathing management, and making correct decisions under genuine physical and psychological pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "3RbOD9fhi20",
-        "title": "Back Escape - Running Man",
-        "by": "JIU JITSU MODERN",
-        "vertical": false,
-        "channel": "JIU JITSU MODERN",
-        "duration": 210,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "RA8Qc6hE23s",
-        "title": "Body triangle escape",
-        "by": "Tom DeBlass",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 220,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RscLPT0F-DE",
-        "title": "Best way to escape the body triangle",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 595,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -160,24 +160,12 @@ description: "How to defend against Back Step in BJJ. Recognition cues, defensiv
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering outside ashi by rolling to 50/50",
-      "description": "Back Step (Defender) film study: Countering outside ashi by rolling to 50/50, taught by Robyn Sheehan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/up34T04wt_U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/up34T04wt_U",
-      "url": "https://www.youtube.com/watch?v=up34T04wt_U",
-      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
-      "duration": "PT107S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roll Under the Back Step to Backside 50/50",
-      "description": "Back Step (Defender) film study: Roll Under the Back Step to Backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
+      "name": "Backstep Retention from Single Leg X",
+      "description": "Back Step (Defender) film study: Backstep Retention from Single Leg X.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ipBdnq-j--g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ipBdnq-j--g",
+      "url": "https://www.youtube.com/watch?v=ipBdnq-j--g",
+      "duration": "PT302S"
     }
   ]
 }
@@ -205,17 +193,9 @@ Defending the back step requires the bottom player to recognize early that their
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=up34T04wt_U)
+![](https://www.youtube.com/watch?v=ipBdnq-j--g)
 
-<p class="clip-credit"><strong>Countering outside ashi by rolling to 50/50</strong> — taught by Robyn Sheehan · 1:47 · <a href="https://www.youtube.com/watch?v=up34T04wt_U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll Under the Back Step to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Backstep Retention from Single Leg X</strong> · 5:02 · <a href="https://www.youtube.com/watch?v=ipBdnq-j--g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

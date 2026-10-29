@@ -142,28 +142,6 @@ description: "Defend against the feet on hips to De La Riva guard transition. Re
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Feet on Hips to De La Riva (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Shutting down the De La Riva hook",
-      "description": "Feet on Hips to De La Riva (Defender) film study: Shutting down the De La Riva hook, taught by Stretch To Strength.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/b87q6MAFQXs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/b87q6MAFQXs",
-      "url": "https://www.youtube.com/watch?v=b87q6MAFQXs",
-      "creator": { "@type": "Person", "name": "Stretch To Strength" },
-      "duration": "PT144S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,24 +154,6 @@ As the top player facing an opponent in feet on hips guard, your primary concern
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Feet on Hips to De La Riva (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=b87q6MAFQXs)
-
-<p class="clip-credit"><strong>Shutting down the De La Riva hook</strong> — taught by Stretch To Strength · 2:24 · <a href="https://www.youtube.com/watch?v=b87q6MAFQXs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

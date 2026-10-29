@@ -2,9 +2,15 @@
 // gameplay laws, owner/auth control and general modal primitives remain eager.
 // Build identity is injected by build.mjs and verified before any instance is changed.
 export const NG_SETTINGS_PRESENTATION_BUILD = NG_SETTINGS_UI_BUILD;
-export function ngInstallSettingsPresentation(target, dependencies) {
+export async function ngInstallSettingsPresentation(target, dependencies) {
   if (dependencies.expectedBuild !== NG_SETTINGS_PRESENTATION_BUILD) throw new Error("Settings presentation version mismatch");
+  // Share the reader's registry instead of bundling a second copy. Importing the
+  // module installs nothing; Settings keeps its existing intent/owner checks.
+  const attempt = target._settingsPresentationAttempt;
+  const { SECTION_TYPES, sectionShown } = await import(target._appAsset("reader.js") + (attempt > 1 ? "&retry=" + attempt : ""));
+  if (target.__ngDestroyed || !target._progressCurrent()) throw new Error("Settings owner changed");
   const { NG_SETTINGS_TABS, NG_START_FROM } = dependencies;
+  const sectionStyle = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
   const methods = {
 _settingsTabRow(row, tab, refocus) {
     const go = (id) => { if (id !== this._settingsTab) { this._settingsTab = id; this.renderSettings(); } };
@@ -42,6 +48,10 @@ renderSettings() {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
     const tab = this._settingsTab || "flashcards";
+    // A bottom-row toggle must stay under the pointer after its full-card repaint.
+    // A different tab starts at its own top; only the same panel keeps its scroll.
+    const previous = card.querySelector('[role="tabpanel"]');
+    const panelY = previous && previous.getAttribute("aria-labelledby") === "ng-stab-" + tab ? previous.scrollTop || 0 : 0;
     // Every change re-renders the whole card, so a tab that HAS focus (an arrow key, or the click
     // that just chose it) is destroyed under the user. Remember that, before the wipe blurs it,
     // and hand focus to the new active tab below; otherwise the second arrow press lands on <body>.
@@ -123,6 +133,11 @@ renderSettings() {
       cb.style.cssText = "width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
       cb.addEventListener("click", () => { this.set("quizOnPages", !this.get("quizOnPages", true)); this.renderSettings(); });
       tg.appendChild(cb); body.appendChild(tg);
+      const gold = this.settingRow("Turn what you know gold", "The map turns gold as you master each side's flashcards. Full gold needs recall.",
+        [["On", true], ["Off", false]], "masteryGold", false);
+      gold.setAttribute("data-mastery-gold", "1");
+      gold.style.marginTop = "20px";
+      body.appendChild(gold);
     } else if (tab === "notifications") {
       // ONE ROW, AND THAT IS THE WHOLE TAB (owner, 2026-08-31: "a notifications tab would do
       // great"). The training-day email shipped inside FLASHCARDS in v1.105.7 — a tab about
@@ -172,7 +187,7 @@ renderSettings() {
       // spots" it also names the live spot — the crack and where the roll opens — read from the
       // SAME window the draw uses (`_weakStates`), never a second ranking (§6.5).
       const sf = document.createElement("div");
-      sf.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      sf.style.cssText = sectionStyle;
       sf.setAttribute("data-settings-start", "1");
       sf.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Where the roll starts</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Where you and your opponent are when a new roll begins. Which side you play \u2014 top or bottom \u2014 is still drawn each time.</div>';
       const sseg = document.createElement("div");
@@ -216,7 +231,7 @@ renderSettings() {
       // tabs each carried a duplicate pill). Placement only: setGiMode is unchanged and
       // still re-filters techniques, lessons, checkpoints and odds everywhere.
       const gv = document.createElement("div");
-      gv.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      gv.style.cssText = sectionStyle;
       gv.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Uniform</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Gi or no-gi. Filters which techniques, lessons and odds the whole app uses.</div>';
       const gseg = document.createElement("div");
       gseg.style.cssText = "display:flex;gap:9px;margin-top:12px;";
@@ -232,7 +247,7 @@ renderSettings() {
       // never read again and never deleted (CLAUDE.md §6.6); the wire ships the default block only.
       // decision time pace
       const dt = document.createElement("div");
-      dt.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      dt.style.cssText = sectionStyle;
       const dsecBase = this.get("decisionSec", 9);
       dt.innerHTML =
         '<div style="display:flex;align-items:baseline;justify-content:space-between;"><div style="font-size:14px;font-weight:600;color:#eef1f6;">Answer time</div><div style="font-size:13px;font-weight:700;color:#9ab0e0;font-family:\'Space Grotesk\',sans-serif;"><span class="paceVal">' + dsecBase + '</span>s</div></div>' +
@@ -247,6 +262,13 @@ renderSettings() {
       ticks.innerHTML = "<span>Brisk</span><span>Default</span><span>Relaxed</span>";
       dt.appendChild(ticks);
       body.appendChild(dt);
+      // Permanent boolean key (per-key LWW; never delete it). Only the catch's
+      // visual treatment changes; a live question keeps its timer and grading.
+      const danger = this.settingRow("Danger animation",
+        "Show pulsing red edges and card warnings when an opponent catches you. Turning this off keeps the drill and timer running.",
+        [["On", true], ["Off", false]], "dangerAnimation", true);
+      danger.setAttribute("data-danger-animation", "");
+      body.appendChild(danger);
       // landing questions — the in-roll quiz beat
       const lq = document.createElement("div");
       lq.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
@@ -260,15 +282,15 @@ renderSettings() {
       // ── THE THREE BOTTOM LAYERS (v1.171.0) ── the same rows the ghost ✕ and the dock write,
       // here so the state is discoverable when every handle is collapsed. Same ✓ box as above.
       const lay = document.createElement("div");
-      lay.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      lay.style.cssText = sectionStyle;
       lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each row has its own ✕ on the board; the small glyphs at the bottom bring one back. Your choice sticks across states and devices.</div>';
       const LAYER_ROWS = [
-        ["film", "Videos", "The film row above the card."],
+        ["film", "Videos during play", "The current node's videos while playing."],
         ["card", "Question card", "Off = no card and no question. (Turning questions off above keeps the card.)"],
         ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
       ];
       for (const [name, title, sub] of LAYER_ROWS) {
-        const on = this._layerOn(name);
+        const on = name === "film" ? this.get("landFilm", true) : this._layerOn(name);
         const r = document.createElement("div");
         r.setAttribute("data-layer-row", name);
         r.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-top:12px;";
@@ -278,10 +300,27 @@ renderSettings() {
         rb.setAttribute("aria-pressed", on ? "true" : "false");
         rb.innerHTML = on ? "✓" : "";
         rb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
-        rb.addEventListener("click", () => { this.setLayer(name, !this._layerOn(name), "settings"); this.renderSettings(); });
+        rb.addEventListener("click", () => {
+          if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
+          else this.setLayer(name, !this._layerOn(name), "settings");
+          this.renderSettings();
+        });
         r.appendChild(rb); lay.appendChild(r);
       }
       body.appendChild(lay);
+      const sections = document.createElement("section");
+      sections.setAttribute("data-section-settings", "");
+      sections.innerHTML = '<h3 style="font-size:15px;color:#eef1f6;margin:0 0 6px;">Article sections</h3><p style="font-size:12.5px;color:#b6c5df;">Shown where available. Your choices carry across pages and sync when signed in.</p>';
+      for (const [type, title] of SECTION_TYPES) {
+        const row = document.createElement("label"), input = document.createElement("input");
+        row.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px;color:#dfe5f1;font-size:13px;";
+        row.append(document.createTextNode(title)); input.type = "checkbox"; input.checked = sectionShown(this, type);
+        input.setAttribute("data-section-setting", type); input.setAttribute("aria-label", "Show " + title);
+        input.style.cssText = "width:20px;height:20px;cursor:pointer;";
+        input.addEventListener("change", () => { this.set("readerSection." + type, input.checked); this._reader?.sync(); });
+        row.append(input); sections.append(row);
+      }
+      body.appendChild(sections);
       body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
         [["On", "on"], ["Off", "off"]], "sound", "on"));
       body.appendChild(this.settingRow("Sound volume", "How loud the beats land",
@@ -300,8 +339,7 @@ renderSettings() {
       const rows = [
         ["Answer a multiple-choice question", ["A", "B", "C"]],
         ["Execute option", ["1\u20139"]],
-        ["Inspect option", ["Shift + 1\u20139"]],
-        ["Execute from detail", ["\u23ce", "X"]],
+        ["Choose the focused move or open its video", ["Tab", "\u23ce"]],
         // THE FLASHCARD ROWS COVER ALL FOUR DECK SURFACES (v1.175.0): the study takeover, the
         // roll history's inline decks, the inline session queue and — new here — the Challenges
         // corridor's lesson decks. One vocabulary, because there is one handler and one
@@ -330,6 +368,7 @@ renderSettings() {
       body.appendChild(wrap);
     }
     card.appendChild(body);
+    body.scrollTop = panelY;
     // legal links live HERE too (v1.93.0): the first Settings overlay carries Terms · Privacy,
     // so the account surface never needs a "Learn More" submenu (Shortcuts is already a tab).
     const legal = document.createElement("div");

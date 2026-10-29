@@ -165,35 +165,12 @@ description: "Control opponents with innovative lapel grips and configurations. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Worm Guard to Back Choke",
-      "description": "Lapel Guard (Bottom) film study: Worm Guard to Back Choke, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
-      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lapel Sweep from Bottom (North-South)",
-      "description": "Lapel Guard (Bottom) film study: Lapel Sweep from Bottom (North-South), taught by Edward Anthony.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JgVZpD0yZPk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JgVZpD0yZPk",
-      "url": "https://www.youtube.com/watch?v=JgVZpD0yZPk",
-      "creator": { "@type": "Person", "name": "Edward Anthony" },
-      "duration": "PT82S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lapel Guard Takedown Breakdown",
-      "description": "Lapel Guard (Bottom) film study: Lapel Guard Takedown Breakdown, taught by Legion AJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_iV0LtOiXNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_iV0LtOiXNY",
-      "url": "https://www.youtube.com/watch?v=_iV0LtOiXNY",
-      "creator": { "@type": "Person", "name": "Legion AJJ" },
-      "duration": "PT64S"
+      "name": "Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM",
+      "description": "Lapel Guard (Bottom) film study: Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rE7YuZTNmyE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rE7YuZTNmyE",
+      "url": "https://www.youtube.com/watch?v=rE7YuZTNmyE",
+      "duration": "PT1917S"
     }
   ]
 }
@@ -229,25 +206,9 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+![](https://www.youtube.com/watch?v=rE7YuZTNmyE)
 
-<p class="clip-credit"><strong>Worm Guard to Back Choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JgVZpD0yZPk)
-
-<p class="clip-credit"><strong>Lapel Sweep from Bottom (North-South)</strong> — taught by Edward Anthony · 1:22 · <a href="https://www.youtube.com/watch?v=JgVZpD0yZPk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_iV0LtOiXNY)
-
-<p class="clip-credit"><strong>Lapel Guard Takedown Breakdown</strong> — taught by Legion AJJ · 1:04 · <a href="https://www.youtube.com/watch?v=_iV0LtOiXNY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM</strong> · 31:57 · <a href="https://www.youtube.com/watch?v=rE7YuZTNmyE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -448,7 +409,7 @@ From established lapel guard, partner defends first submission attempt (triangle
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Lapel Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Lapel Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position: Lapel Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

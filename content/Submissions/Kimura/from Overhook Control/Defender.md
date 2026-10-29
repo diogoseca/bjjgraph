@@ -162,35 +162,12 @@ description: "Defend against the Kimura from overhook control. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura Defense Grip Breaks",
-      "description": "Kimura from Overhook Control (Defender) film study: Kimura Defense Grip Breaks, taught by Dirtball BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
-      "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
-      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
-      "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Late Kimura Defense from Bottom",
-      "description": "Kimura from Overhook Control (Defender) film study: Late Kimura Defense from Bottom, taught by Fox Den Martial Arts.",
+      "name": "Late Kimura Defense from Bottom Side Control",
+      "description": "Kimura from Overhook Control (Defender) film study: Late Kimura Defense from Bottom Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
       "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
       "duration": "PT100S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kimura Defense",
-      "description": "Kimura from Overhook Control (Defender) film study: Kimura Defense, taught by Jon Satava.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gvRGrvtKd1U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gvRGrvtKd1U",
-      "url": "https://www.youtube.com/watch?v=gvRGrvtKd1U",
-      "creator": { "@type": "Person", "name": "Jon Satava" },
-      "duration": "PT142S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Defending against the Kimura from Overhook Control demands early recognition of 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
-
-<p class="clip-credit"><strong>Kimura Defense Grip Breaks</strong> — taught by Dirtball BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=uRn3DRICpeY)
 
-<p class="clip-credit"><strong>Late Kimura Defense from Bottom</strong> — taught by Fox Den Martial Arts · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gvRGrvtKd1U)
-
-<p class="clip-credit"><strong>Kimura Defense</strong> — taught by Jon Satava · 2:22 · <a href="https://www.youtube.com/watch?v=gvRGrvtKd1U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

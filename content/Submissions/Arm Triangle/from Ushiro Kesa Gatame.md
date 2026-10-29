@@ -46,35 +46,22 @@ description: "Master the Arm Triangle from Ushiro Kesa Gatame in BJJ. Convert th
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ushiro Kesa Gatame Arm Attack Roll Over",
-      "description": "Arm Triangle from Ushiro Kesa Gatame film study: Ushiro Kesa Gatame Arm Attack Roll Over, taught by Carlos Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5POG6rDBVLM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5POG6rDBVLM",
-      "url": "https://www.youtube.com/watch?v=5POG6rDBVLM",
-      "creator": { "@type": "Person", "name": "Carlos Machado" },
-      "duration": "PT113S"
+      "name": "The Fastest Escape Out Of The Arm Triangle",
+      "description": "Arm Triangle from Ushiro Kesa Gatame film study: The Fastest Escape Out Of The Arm Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
+      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
+      "duration": "PT31S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side Guard to Te Gatame (Arm Triangle)",
-      "description": "Arm Triangle from Ushiro Kesa Gatame film study: Side Guard to Te Gatame (Arm Triangle), taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PSgn9TBgwfc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PSgn9TBgwfc",
-      "url": "https://www.youtube.com/watch?v=PSgn9TBgwfc",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle Attacks From Kuzure Kesa Gatame",
-      "description": "Arm Triangle from Ushiro Kesa Gatame film study: Triangle Attacks From Kuzure Kesa Gatame, taught by Chokes And More.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tfykooWW-xk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tfykooWW-xk",
-      "url": "https://www.youtube.com/watch?v=tfykooWW-xk",
-      "creator": { "@type": "Person", "name": "Chokes And More" },
-      "duration": "PT66S"
+      "name": "Two variations of arm triangle (kata gatame) escapes",
+      "description": "Arm Triangle from Ushiro Kesa Gatame film study: Two variations of arm triangle (kata gatame) escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
+      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
+      "duration": "PT89S"
     }
   ]
 }
@@ -137,25 +124,17 @@ Strategically, this submission punishes opponents who remain passive under the U
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5POG6rDBVLM)
+![](https://www.youtube.com/watch?v=D2vkZGTD78I)
 
-<p class="clip-credit"><strong>Ushiro Kesa Gatame Arm Attack Roll Over</strong> — taught by Carlos Machado · 1:53 · <a href="https://www.youtube.com/watch?v=5POG6rDBVLM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PSgn9TBgwfc)
-
-<p class="clip-credit"><strong>Side Guard to Te Gatame (Arm Triangle)</strong> — taught by Gordon Ryan · 1:17 · <a href="https://www.youtube.com/watch?v=PSgn9TBgwfc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Fastest Escape Out Of The Arm Triangle</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=tfykooWW-xk)
+![](https://www.youtube.com/watch?v=CmXniIPFMhU)
 
-<p class="clip-credit"><strong>Triangle Attacks From Kuzure Kesa Gatame</strong> — taught by Chokes And More · 1:06 · <a href="https://www.youtube.com/watch?v=tfykooWW-xk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two variations of arm triangle (kata gatame) escapes</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

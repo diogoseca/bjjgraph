@@ -85,11 +85,6 @@
       "name": "from Anaconda Control",
       "slug": "from-anaconda-control",
       "description": "Primary finish from established anaconda control position"
-    },
-    {
-      "name": "from Dead Orchard",
-      "slug": "from-dead-orchard",
-      "description": "Finishing sequence from Dead Orchard control (10th Planet front headlock system)"
     }
   ],
   "from_positions": [
@@ -125,10 +120,6 @@
     {
       "name": "Arm in Guillotine",
       "relationship": "Arm-in guillotine variation with shared front headlock entries and transitions"
-    },
-    {
-      "name": "Anaconda Choke from Dead Orchard",
-      "relationship": "Advanced finishing variation accessed through Dead Orchard control pathway"
     }
   ],
   "related_content": [
@@ -166,7 +157,7 @@
     },
     {
       "name": "North-South",
-      "relationship": "Alternative finishing position for Marce variation"
+      "relationship": "Alternative position reached after releasing or changing the head-and-arm connection"
     },
     {
       "name": "Darce Control",
@@ -194,11 +185,6 @@
       "when_to_use": "When opponent is defending near-side attacks effectively or when you have better angle to far side"
     },
     {
-      "variation_name": "Marce Choke (Modified Anaconda)",
-      "description": "Similar setup to Anaconda but instead of rolling to side with figure-four, you transition to North-South position and apply pressure from top. This variation works when opponent's base is too strong to roll them.",
-      "when_to_use": "When opponent has strong base and prevents your roll, or in gi when you can use lapel control"
-    },
-    {
       "variation_name": "Standing Anaconda",
       "description": "Apply Anaconda choke from standing position during takedown defense or front headlock clinch. Less common but effective when you have strong front headlock control and opponent cannot counter-wrestle effectively.",
       "when_to_use": "In standing grappling exchanges or when opponent is on knees but not flat on turtle"
@@ -212,11 +198,6 @@
       "variation_name": "High Elbow Anaconda",
       "description": "Instead of rolling or dropping elbow, maintain elevated elbow position near opponent's temple while driving shoulder into their neck. This creates darce-style shoulder pressure while maintaining anaconda arm configuration. Highly effective standing or when opponent sprawls. Requires less body movement, making it faster to finish in scrambles.",
       "when_to_use": "When opponent stands or sprawls making rolling difficult; when in scramble situation requiring quick finish; against flexible opponents who can defend standard roll; in transitions from takedown attempts"
-    },
-    {
-      "variation_name": "Marce Choke (Anaconda-Darce Hybrid)",
-      "description": "Combine anaconda arm positioning with darce-style shoulder driving mechanics. After securing anaconda grip, instead of rolling, walk your feet toward opponent's head while driving your shoulder into their neck. This creates intense pressure from unusual angle that defeats traditional anaconda defenses. Named for its hybrid nature combining arm triangle and anaconda mechanics.",
-      "when_to_use": "When standard anaconda angle is compromised; when opponent defends their neck exceptionally well; from certain turtle positions where rolling is impractical; when you want standing finish option"
     },
     {
       "variation_name": "Reverse Anaconda Roll",

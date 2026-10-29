@@ -46,35 +46,12 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Backside 50/50 heel hook finish",
-      "description": "Outside Heel Hook from Backside 50-50 film study: Backside 50/50 heel hook finish, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
-      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT18S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Backside 50/50 to outside heel hook",
-      "description": "Outside Heel Hook from Backside 50-50 film study: Backside 50/50 to outside heel hook, taught by Marshall Stamper.",
+      "name": "K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper",
+      "description": "Outside Heel Hook from Backside 50-50 film study: K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7I0Lj1aSon4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7I0Lj1aSon4",
       "url": "https://www.youtube.com/watch?v=7I0Lj1aSon4",
-      "creator": { "@type": "Person", "name": "Marshall Stamper" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "50/50 heel hook finishing details",
-      "description": "Outside Heel Hook from Backside 50-50 film study: 50/50 heel hook finishing details, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fB3FYb-Jx_0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fB3FYb-Jx_0",
-      "url": "https://www.youtube.com/watch?v=fB3FYb-Jx_0",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT27S"
+      "duration": "PT46S"
     }
   ]
 }
@@ -87,7 +64,7 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Outside Heel Hook from Backside 50-50",
-  "description": "The Outside Heel Hook from Backside 50-50 is a rotational knee submission that cups the opponent's heel and turns it laterally outward to torque the knee's lateral structures while chest-to-back pressure pins their hips and neutralizes defensive rotation.",
+  "description": "The Outside Heel Hook from Backside 50-50 is a rotational leg submission that controls the exposed heel while the leg clamp contains the knee line and the inside foot restricts the defender's turn.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -97,7 +74,7 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Outside Heel Hook from Backside 50-50 is a rotational knee submission that cups the opponent's heel and turns it laterally outward to torque the knee's lateral structures while chest-to-back pressure pins their hips and neutralizes defensive rotation.**
+**The Outside Heel Hook from Backside 50-50 is a rotational leg submission that controls the exposed heel while the leg clamp contains the knee line and the inside foot restricts the defender's turn.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
@@ -117,7 +94,7 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
 
 <section id="overview" class="content-section">
 
-The Outside Heel Hook from Backside 50-50 is one of the highest-percentage leg lock finishes in modern no-gi grappling. This submission exploits the unique advantages of the backside 50-50 configuration—chest-to-back pressure, superior visual access to the opponent's legs, and enhanced rotational control—to attack the lateral structures of the opponent's knee through controlled heel rotation. The backside angle is particularly effective because the top player's body weight pins the defender's hips, neutralizing the defensive hip rotation that normally defuses heel hook attacks from other leg entanglement positions.
+The Outside Heel Hook from Backside 50-50 is one of the highest-percentage leg lock finishes in modern no-gi grappling. This submission exploits the unique advantages of the backside 50-50 configuration—knee-line and hip control, superior visual access to the opponent's legs, and enhanced rotational control—to attack the lateral structures of the opponent's knee through controlled heel rotation. The backside angle is particularly effective because the top player's body weight pins the defender's hips, neutralizing the defensive hip rotation that normally defuses heel hook attacks from other leg entanglement positions.
 
 The finishing mechanics rely on isolating the opponent's heel while their knee line is immobilized by the leg entanglement. The attacker cups the heel and applies lateral rotation, turning the foot outward relative to the knee, generating devastating torque against the lateral collateral ligament, posterolateral corner structures, and potentially the anterior cruciate ligament. Unlike standard heel hooks from symmetric 50-50, the backside orientation provides a mechanical advantage because the attacker can combine rotational force with posterior hip extension, creating compound pressure that is extremely difficult to defend once the grip is established.
 
@@ -137,25 +114,9 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
-
-<p class="clip-credit"><strong>Backside 50/50 heel hook finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=7I0Lj1aSon4)
 
-<p class="clip-credit"><strong>Backside 50/50 to outside heel hook</strong> — taught by Marshall Stamper · 0:47 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fB3FYb-Jx_0)
-
-<p class="clip-credit"><strong>50/50 heel hook finishing details</strong> — taught by Thunderdome BJJ · 0:27 · <a href="https://www.youtube.com/watch?v=fB3FYb-Jx_0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -184,7 +145,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Chest pressure before heel hunting: Establish and maintain h... | Heel protection as absolute priority: Hide your heel immedia... |
+| **Key Principles** | Maintain the knee-line clamp and inside-foot frame while cap... | Heel protection as absolute priority: Hide your heel immedia... |
 | **Options** | 8 execution steps | 4 defensive options |
 
 </section>
@@ -198,7 +159,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 ### Key Principles
 
 
-- Chest pressure before heel hunting: Establish and maintain heavy chest-to-back pressure to immobilize opponent's hips before reaching for the heel, as defensive hip rotation is the primary counter to heel hooks
+- Maintain the knee-line clamp and inside-foot frame while capturing the exposed heel; follow the opponent's movement without forcing rotation through the knee
 
 - Two-stage grip establishment: Secure initial heel cup with near hand, then reinforce with figure-four or Gable grip before applying any rotation, as single-hand finishes have dramatically lower success rates
 
@@ -214,9 +175,9 @@ This submission demands absolute respect for its injury potential. Rotational fo
 ### Execution Steps
 
 
-- **Consolidate backside 50-50 control**: Drive chest pressure firmly into opponent's upper back while squeezing your leg entanglement tight. ...
+- **Consolidate backside 50-50 control**: Settle on your hip behind the trapped leg with the inside foot across the opponent's stomach. Keep t...
 
-- **Identify heel exposure and target leg**: While maintaining chest pressure, visually locate the opponent's heel on the trapped leg within your...
+- **Identify heel exposure and target leg**: While maintaining knee-line control, visually locate the opponent's heel on the trapped leg within y...
 
 - **Secure initial heel cup grip**: With your near-side hand, cup the opponent's heel by wrapping your fingers around the Achilles tendo...
 
@@ -234,9 +195,9 @@ This submission demands absolute respect for its injury potential. Rotational fo
 ### Common Mistakes
 
 
-- **Reaching for the heel before establishing heavy chest-to-back pressure**
+- **Reaching for the heel before establishing heavy knee-line and hip control**
   - Consequence: Opponent retains hip mobility and rotates defensively, hiding their heel and potentially reversing the position entirely. The heel hook attempt fails before it begins.
-  - Correction: Always consolidate chest pressure first. Spend 3-5 seconds driving your weight into their back before releasing hands for the heel. Your body weight must do the controlling work so your hands are free to attack.
+  - Correction: Always consolidate knee-line control first. Spend 3-5 seconds driving your weight into their back before releasing hands for the heel. Your body weight must do the controlling work so your hands are free to attack.
 
 - **Applying explosive rotational force rather than controlled progressive rotation**
   - Consequence: Dramatically increases injury risk to training partner's knee ligaments, which provide almost no pain signal before structural failure. Also reduces finish percentage as explosive movement often breaks grip structure.
@@ -280,7 +241,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 - Contact on your heel shifts from neutral entanglement pressure to a deliberate cupping grip wrapping around your Achilles and heel bone
 
-- Attacker's chest pressure increases momentarily as they stabilize their base before committing both hands to the heel hunt
+- Attacker's knee-line control increases momentarily as they stabilize their base before committing both hands to the heel hunt
 
 - You feel the attacker's second hand join the first on your heel area, indicating they are establishing the reinforced finishing grip
 
@@ -290,7 +251,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 - Rotate entire body toward the attacker during the grip establishment phase, converting the asymmetric backside 50-50 to standard 50-50 where defensive options are significantly better and the positional hierarchy is more neutral
 
-- Extract trapped leg through internal hip rotation combined with explosive bridging and framing against attacker's hips, recovering to open guard or standing when attacker's chest pressure is momentarily reduced
+- Extract trapped leg through internal hip rotation combined with explosive bridging and framing against attacker's hips, recovering to open guard or standing when attacker's knee-line control is momentarily reduced
 
 - Counter-attack the attacker's own heel when they overcommit both hands to your heel, creating a mutual threat that forces them to release your heel to defend their own knee
 
@@ -303,7 +264,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 ## Variations
 
 
-**Standard Backside 50-50 Entry**: Establish backside 50-50 from standard 50-50 rotation or direct entry from scramble, consolidate chest-to-back pressure, then attack the outside heel hook using figure-four or Gable grip configuration on the exposed heel. (When to use: When you have established dominant top position in backside 50-50 with clear heel exposure and the opponent has not yet hidden their heel defensively)
+**Standard Backside 50-50 Entry**: Establish backside 50-50 from standard 50-50 rotation or direct entry from scramble, consolidate knee-line and hip control, then attack the outside heel hook using figure-four or Gable grip configuration on the exposed heel. (When to use: When you have established dominant top position in backside 50-50 with clear heel exposure and the opponent has not yet hidden their heel defensively)
 
 
 **Kneebar-to-Heel-Hook Chain**: Threaten the kneebar first by controlling above the knee joint to force the opponent to straighten their leg defensively, which exposes the heel for the outside heel hook transition. The kneebar threat creates a dilemma that opens the heel hook. (When to use: When the opponent is actively hiding their heel with strong internal knee rotation and defending the direct heel hook attempt effectively)

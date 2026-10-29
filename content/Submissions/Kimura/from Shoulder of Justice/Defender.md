@@ -156,24 +156,22 @@ description: "Defend the Kimura from Shoulder of Justice in BJJ. Recognition cue
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Late Kimura defense from bottom side control",
-      "description": "Kimura from Shoulder of Justice (Defender) film study: Late Kimura defense from bottom side control, taught by Fox Den Martial Arts.",
+      "name": "Late Kimura Defense from Bottom Side Control",
+      "description": "Kimura from Shoulder of Justice (Defender) film study: Late Kimura Defense from Bottom Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
       "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
       "duration": "PT100S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kimura defense 101 from bottom side control",
-      "description": "Kimura from Shoulder of Justice (Defender) film study: Kimura defense 101 from bottom side control, taught by Gracie Westchase.",
+      "name": "KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense\u2026",
+      "description": "Kimura from Shoulder of Justice (Defender) film study: KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MM9rddEgJ58/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MM9rddEgJ58",
       "url": "https://www.youtube.com/watch?v=MM9rddEgJ58",
-      "creator": { "@type": "Person", "name": "Gracie Westchase" },
-      "duration": "PT156S"
+      "duration": "PT155S"
     }
   ]
 }
@@ -204,7 +202,7 @@ Defending the Kimura from Shoulder of Justice requires early recognition and dis
 
 ![](https://www.youtube.com/watch?v=uRn3DRICpeY)
 
-<p class="clip-credit"><strong>Late Kimura defense from bottom side control</strong> — taught by Fox Den Martial Arts · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -212,7 +210,7 @@ Defending the Kimura from Shoulder of Justice requires early recognition and dis
 
 ![](https://www.youtube.com/watch?v=MM9rddEgJ58)
 
-<p class="clip-credit"><strong>Kimura defense 101 from bottom side control</strong> — taught by Gracie Westchase · 2:36 · <a href="https://www.youtube.com/watch?v=MM9rddEgJ58" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense…</strong> · 2:35 · <a href="https://www.youtube.com/watch?v=MM9rddEgJ58" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

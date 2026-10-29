@@ -89,9 +89,9 @@
       "Control opponent's knee shield leg at ankle or pants to limit mobility and frame strength",
       "Maintain proper base with knees wide to prevent hip bump and underhook sweeps",
       "Use crossface and shoulder pressure to break bottom player's posture and upper body control",
-      "Apply strategic pressure in waves rather than constant grinding to create defensive reactions",
+      "Apply strategic pressure in waves rather than constant grinding to create defensive reactions. In the narrated example, the passer establishes head position and a tripod base before changing knee direction between a smash threat and a shin pummel. The defender resists the smash by opening the crossed feet, and the passer uses that opening to free the trapped foot with the shin pummel. Narration: [Less Impressed More Involved BJJ, 1:06–1:58.6](https://www.youtube.com/watch?v=AcxCqMwW_7o&t=66s).",
       "Control distance to prevent bottom player from creating additional frames or re-guarding",
-      "Switch between passing approaches based on opponent's defensive adjustments",
+      "Switch between passing approaches based on opponent's defensive adjustments. In another narrated knee-shield example, the passer keeps the arm weave after freeing the trapped foot and circles away from the defender's head until the hips are flat. Only then does the passer let go of the weave and change to a leg-drag angle. Narration: [Less Impressed More Involved BJJ, 2:09–2:34.5](https://www.youtube.com/watch?v=AcxCqMwW_7o&t=129s).",
       "Never allow opponent to establish strong underhook connection on near side"
     ],
     "flashcards": [
@@ -562,7 +562,7 @@
     "key_principles": [
       "Maintain constant pressure outward with knee shield to create maximum distance and prevent opponent from settling weight",
       "Keep hips mobile and ready to adjust angles—never allow hips to become completely flat or static against the mat",
-      "Control at least one of opponent's arms through grips to prevent them from establishing dominant passing grips",
+      "Control at least one of opponent's arms through grips to prevent them from establishing dominant passing grips. In the narrator's knee-shield examples, moving the shield toward the passer's far hip helps free the guard player's trapped leg. The wrist connection is either direct control of the passer's wrist or contact preserved while the passer holds the guard player's wrist. Narration: [Less Impressed More Involved BJJ, 1:59–2:33.4](https://www.youtube.com/watch?v=gtRIw-60Yzk&t=119s).",
       "Use bottom leg actively to control opponent's posture and prevent them from standing or creating advantageous passing angles",
       "Adjust knee shield height based on opponent's pressure—higher against standing passes, lower against knee slice attempts",
       "Combine frames with hip movement to create angles for sweeps and prevent opponent from consolidating position",
@@ -943,22 +943,14 @@
     ],
     "clips": [
       {
-        "id": "YEVojixbKs8",
-        "title": "Signature sweep from knee shield",
-        "by": "A. Sukandar",
+        "id": "q_ND-09HiWg",
+        "title": "Knee Shield Half Guard Basics",
+        "by": "MMA Leech",
         "vertical": false,
-        "channel": "A. Sukandar",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5abrviYxKU8",
-        "title": "Leg lock entry from knee shield half guard",
-        "by": "Hellfish MMA",
-        "vertical": false,
-        "channel": "Hellfish Mixed Martial Arts",
-        "duration": 147,
-        "verified": "2026-07-14"
+        "channel": "MMA Leech",
+        "duration": 263,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1078,22 +1070,14 @@
   ],
   "clips": [
     {
-      "id": "CLBRo3Jef54",
-      "title": "Knee shield to scissor/push sweep",
-      "by": "Strong Hold Jiu Jitsu",
+      "id": "q_ND-09HiWg",
+      "title": "Knee Shield Half Guard Basics",
+      "by": "MMA Leech",
       "vertical": false,
-      "channel": "Strong Hold Jiu Jitsu",
-      "duration": 52,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ZqsGp9fWi3Y",
-      "title": "Bottom half guard attacks basics",
-      "by": "Cobrinha",
-      "vertical": false,
-      "channel": "Cobrinha BJJ SB",
-      "duration": 205,
-      "verified": "2026-07-14"
+      "channel": "MMA Leech",
+      "duration": 263,
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

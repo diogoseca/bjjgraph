@@ -156,35 +156,32 @@ description: "Essential guide to defending and escaping the triangle choke from 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Escape a Triangle Choke",
-      "description": "Triangle Choke from Triangle Control (Defender) film study: How to Escape a Triangle Choke, taught by Rener \u0026 Ryron Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
-      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
-      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
-      "duration": "PT117S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Triangle Defense from Closed Guard",
-      "description": "Triangle Choke from Triangle Control (Defender) film study: Triangle Defense from Closed Guard, taught by Andy.",
+      "name": "TRIANGLE DEFENSE FROM CLOSED GUARD",
+      "description": "Triangle Choke from Triangle Control (Defender) film study: TRIANGLE DEFENSE FROM CLOSED GUARD.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YG1S8nMIdjY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YG1S8nMIdjY",
       "url": "https://www.youtube.com/watch?v=YG1S8nMIdjY",
-      "creator": { "@type": "Person", "name": "Andy" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle Defense",
-      "description": "Triangle Choke from Triangle Control (Defender) film study: Triangle Defense, taught by Renzo Gracie.",
+      "position": 2,
+      "name": "Defense triangle  by Renzo Gracie brazilian jiu jitsu",
+      "description": "Triangle Choke from Triangle Control (Defender) film study: Defense triangle  by Renzo Gracie brazilian jiu jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iFoVuZVus44/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iFoVuZVus44",
       "url": "https://www.youtube.com/watch?v=iFoVuZVus44",
-      "creator": { "@type": "Person", "name": "Renzo Gracie" },
-      "duration": "PT83S"
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How To Escape a Triangle Choke w/ Rener \u0026 Ryron Gracie",
+      "description": "Triangle Choke from Triangle Control (Defender) film study: How To Escape a Triangle Choke w/ Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "duration": "PT117S"
     }
   ]
 }
@@ -215,17 +212,9 @@ Systematic defense requires addressing multiple threats simultaneously rather th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
-
-<p class="clip-credit"><strong>How to Escape a Triangle Choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=YG1S8nMIdjY)
 
-<p class="clip-credit"><strong>Triangle Defense from Closed Guard</strong> — taught by Andy · 1:01 · <a href="https://www.youtube.com/watch?v=YG1S8nMIdjY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TRIANGLE DEFENSE FROM CLOSED GUARD</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=YG1S8nMIdjY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,7 +222,15 @@ Systematic defense requires addressing multiple threats simultaneously rather th
 
 ![](https://www.youtube.com/watch?v=iFoVuZVus44)
 
-<p class="clip-credit"><strong>Triangle Defense</strong> — taught by Renzo Gracie · 1:23 · <a href="https://www.youtube.com/watch?v=iFoVuZVus44" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defense triangle  by Renzo Gracie brazilian jiu jitsu</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=iFoVuZVus44" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How To Escape a Triangle Choke w/ Rener &amp; Ryron Gracie</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -365,35 +365,7 @@
       }
     ],
     "safety_considerations": "Standing up from ashi garami carries moderate injury risk during the leg extraction phase. Avoid explosive ripping motions that could torque your own knee during extraction. If the opponent maintains a heel hook grip during your standing attempt, stop immediately and address the submission threat rather than trying to stand through it—standing with a heel hook engaged dramatically increases rotational force on the knee joint. Always tap early if you feel any heel exposure or rotational pressure during the transition. In training, communicate with your partner about the speed and intensity of standing attempts to prevent accidental knee injuries during the disengagement sequence.",
-    "clips": [
-      {
-        "id": "MqtG9kuVt-Q",
-        "title": "Leg lock escape: roll through out of ashi",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AQbJMBiWYfU",
-        "title": "Escaping Ashi Garami - Leg Lock Defense",
-        "by": "Scott Elliott",
-        "vertical": false,
-        "channel": "Coach Scott Elliott",
-        "duration": 141,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XzILYmERAV8",
-        "title": "Passing Single Leg X",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 453,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Standing Up from Ashi Garami Defender",
@@ -556,25 +528,6 @@
         "description": "Extended sparring sessions starting from guard pulls or takedowns flowing into leg entanglements. Practice reading when opponent shifts from leg lock offense to disengagement and executing appropriate responses within the full context of a live grappling exchange."
       }
     ],
-    "clips": [
-      {
-        "id": "XRpZHD3KEog",
-        "title": "Pulling ashi off a two-on-one from standing",
-        "by": "Grapple Box",
-        "vertical": false,
-        "channel": "Grapple Box llc",
-        "duration": 17,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AQbJMBiWYfU",
-        "title": "Escaping Ashi Garami: leg lock defense",
-        "by": "Scott Elliott",
-        "vertical": false,
-        "channel": "Coach Scott Elliott",
-        "duration": 141,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

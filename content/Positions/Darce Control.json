@@ -233,50 +233,43 @@
       {
         "transition": "Darce Choke from Darce Control",
         "attempt_probability": {
-          "gi": 34,
-          "nogi": 34
+          "gi": 38,
+          "nogi": 39
         }
       },
       {
-        "transition": "Turtle to Back Take",
+        "transition": "Darce Control Maintenance",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 21,
+          "nogi": 21
         }
       },
       {
-        "transition": "Switch to Anaconda Configuration",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Side Control to North-South",
+        "transition": "Darce to Anaconda Switch",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
         }
       },
       {
-        "transition": "Darce Control Maintenance",
+        "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
-        "transition": "Darce to Anaconda Switch",
+        "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Turtle to Back Take",
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
         }
       }
     ],
@@ -396,31 +389,23 @@
     ],
     "clips": [
       {
-        "id": "pnLk6jW0qeI",
-        "title": "3 darce choke finishes",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 15,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "BMU1_wfjYTw",
-        "title": "Darce choke from the front headlock",
+        "title": "Procel BJJ | Darce Choke from the Front Headlock Position",
         "by": "Procel BJJ",
         "vertical": false,
         "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 101,
-        "verified": "2026-07-14"
+        "duration": 100,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "8Idnp8DpSHU",
-        "title": "Finishing the darce on big guys",
+        "title": "How To Finish The D’arce On Big Guys w/ Rener & Ryron Gracie",
         "by": "Rener & Ryron Gracie",
         "vertical": false,
         "channel": "Hayabusa",
-        "duration": 151,
-        "verified": "2026-07-14"
+        "duration": 150,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -796,30 +781,18 @@
     "clips": [
       {
         "id": "d1YBV8UTKds",
-        "title": "Darce choke defense",
-        "by": "Animal",
-        "vertical": false,
+        "title": "Darce Choke defense",
         "channel": "Animal",
-        "duration": 53,
-        "verified": "2026-07-14"
+        "duration": 52,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "iNZpCbutyrM",
-        "title": "Darce escape",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
+        "title": "Darce Escape",
         "channel": "Thunderdome BJJ",
-        "duration": 54,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "rgf9QUebMWE",
-        "title": "Darce killer: the defense you need",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 78,
-        "verified": "2026-07-14"
+        "duration": 53,
+        "vertical": false
       }
     ]
   },
@@ -940,30 +913,33 @@
   "clips": [
     {
       "id": "jeHPHHtBbAo",
-      "title": "Darce choke details",
+      "title": "Darce details",
       "by": "Chad Lyman",
       "vertical": false,
       "channel": "Code 4 Concepts Chad Lyman",
       "duration": 53,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     },
     {
       "id": "22EYQ2uhxQw",
-      "title": "Side control to north-south darce",
+      "title": "Side control to north south D’ARCE!!! #graciewestchase #jiujitsu #darce #bjj",
       "by": "Gracie Westchase",
       "vertical": false,
       "channel": "Gracie Westchase ",
       "duration": 75,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     },
     {
       "id": "Pc2yhqtRxJA",
-      "title": "How to do a darce from front headlock",
+      "title": "How to do a D'arce choke from front headlock",
       "by": "LI MMA",
       "vertical": false,
       "channel": "LI MMA",
       "duration": 150,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

@@ -383,30 +383,25 @@
     "clips": [
       {
         "id": "yXNfYoZszss",
-        "title": "Standing guard pass",
-        "by": "10th Planet Costa Mesa",
-        "vertical": false,
+        "title": "Standing Guard Pass",
         "channel": "10th Planet Costa Mesa",
         "duration": 11,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "SHZxXkY9p1s",
-        "title": "Standing guard pass with hip twist",
-        "by": "RKBJJ",
-        "vertical": false,
+        "title": "Standing guard pass w/hip twist",
         "channel": "RKBJJ Class Archive",
         "duration": 112,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "CgpkrPRotcg",
-        "title": "Standing pass series: leg hug detail",
-        "by": "Dedeco",
-        "vertical": false,
+        "title": "Standing Pass Series Part 2: Leg Hug Detail",
         "channel": "Dedeco BJJ",
         "duration": 153,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -572,34 +567,6 @@
         "description": "Positional sparring from standing guard with full resistance. Guard player scores for sweeps, submissions, and successful guard retention. Passer scores for completed passes. Five-minute rounds tracking defensive success rate and counter-attack conversion to identify areas for improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up and escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Bp0v7c_MrbY",
-        "title": "Getting feet on biceps against a standing passer",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 125,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Xj_MVwk2jq0",
-        "title": "Guard retention when they hold on",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 46,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

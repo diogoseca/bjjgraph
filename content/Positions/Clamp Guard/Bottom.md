@@ -165,35 +165,12 @@ description: "Master Clamp Guard in BJJ. Complete guide to trapping opponent's a
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shoulder crunch from closed guard",
-      "description": "Clamp Guard (Bottom) film study: Shoulder crunch from closed guard, taught by Francis F. Abramson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bH5ApVR2jRo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bH5ApVR2jRo",
-      "url": "https://www.youtube.com/watch?v=bH5ApVR2jRo",
-      "creator": { "@type": "Person", "name": "Francis F. Abramson" },
-      "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Clamp guard to kimura",
-      "description": "Clamp Guard (Bottom) film study: Clamp guard to kimura, taught by LBJJ TV.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bCuDep0mSEA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bCuDep0mSEA",
-      "url": "https://www.youtube.com/watch?v=bCuDep0mSEA",
-      "creator": { "@type": "Person", "name": "LBJJ TV" },
-      "duration": "PT170S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Clamp guard to triangle",
-      "description": "Clamp Guard (Bottom) film study: Clamp guard to triangle, taught by Nathan Kay.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zgSRXQFf97o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zgSRXQFf97o",
-      "url": "https://www.youtube.com/watch?v=zgSRXQFf97o",
-      "creator": { "@type": "Person", "name": "Nathan Kay" },
-      "duration": "PT224S"
+      "name": "The Clamp Guard | BJJ Techniques",
+      "description": "Clamp Guard (Bottom) film study: The Clamp Guard | BJJ Techniques.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A6OG_3e1srY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A6OG_3e1srY",
+      "url": "https://www.youtube.com/watch?v=A6OG_3e1srY",
+      "duration": "PT136S"
     }
   ]
 }
@@ -223,25 +200,9 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=bH5ApVR2jRo)
+![](https://www.youtube.com/watch?v=A6OG_3e1srY)
 
-<p class="clip-credit"><strong>Shoulder crunch from closed guard</strong> — taught by Francis F. Abramson · 1:24 · <a href="https://www.youtube.com/watch?v=bH5ApVR2jRo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bCuDep0mSEA)
-
-<p class="clip-credit"><strong>Clamp guard to kimura</strong> — taught by LBJJ TV · 2:50 · <a href="https://www.youtube.com/watch?v=bCuDep0mSEA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zgSRXQFf97o)
-
-<p class="clip-credit"><strong>Clamp guard to triangle</strong> — taught by Nathan Kay · 3:44 · <a href="https://www.youtube.com/watch?v=zgSRXQFf97o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Clamp Guard | BJJ Techniques</strong> · 2:16 · <a href="https://www.youtube.com/watch?v=A6OG_3e1srY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

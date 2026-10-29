@@ -436,26 +436,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Cx53Xl0SGC4",
-        "title": "Lasso Guard Knee Press Pass",
-        "by": "Roll 247",
-        "vertical": false,
-        "channel": "Roll 247",
-        "duration": 27,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "XSkn8eAmtJU",
-        "title": "Passing the Lasso with Longstep + Footwork",
-        "by": "Bryce Nie",
-        "vertical": false,
-        "channel": "Bryce Nie",
-        "duration": 150,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Russian Leg Lasso Bottom",
@@ -846,35 +827,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "ErsvmCAGxnA",
-        "title": "Lasso Guard vs Top Pressure",
-        "by": "Mikey Musumeci",
-        "vertical": false,
-        "channel": "Chase Namba",
-        "duration": 78,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "n4ddjzGemrw",
-        "title": "Lasso Guard Variations",
-        "by": "Felipe Costa",
-        "vertical": false,
-        "channel": "Felipe Costa",
-        "duration": 28,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "0Szhzt-o9Cs",
-        "title": "Lasso Tripod Sweep Finish to Armbar",
-        "by": "Marcos Tinoco",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 37,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -990,33 +943,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "n4ddjzGemrw",
-      "title": "Lasso Guard Variations Overview",
-      "by": "Felipe Costa",
-      "vertical": false,
-      "channel": "Felipe Costa",
-      "duration": 28,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ErsvmCAGxnA",
-      "title": "Lasso Guard vs Top Pressure",
-      "by": "Mikey Musumeci",
-      "vertical": false,
-      "channel": "Chase Namba",
-      "duration": 78,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "LwnoWDFJlN0",
-      "title": "Entering Lasso Guard from Open Guard",
-      "by": "Lucas Lepri",
-      "vertical": false,
-      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
-      "duration": 44,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

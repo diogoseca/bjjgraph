@@ -46,35 +46,22 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guillotine choke setup from turtle",
-      "description": "Guillotine Setup film study: Guillotine choke setup from turtle, taught by Cavalo Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Mw5qLLzjay4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Mw5qLLzjay4",
-      "url": "https://www.youtube.com/watch?v=Mw5qLLzjay4",
-      "creator": { "@type": "Person", "name": "Cavalo Jiu-Jitsu" },
-      "duration": "PT49S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "High elbow guillotine from front turtle",
-      "description": "Guillotine Setup film study: High elbow guillotine from front turtle, taught by Michael Hoffman.",
+      "name": "High elbow guillotine from front turtle.",
+      "description": "Guillotine Setup film study: High elbow guillotine from front turtle..",
       "thumbnailUrl": "https://i.ytimg.com/vi/6mHJ8Mh6fDs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6mHJ8Mh6fDs",
       "url": "https://www.youtube.com/watch?v=6mHJ8Mh6fDs",
-      "creator": { "@type": "Person", "name": "Michael Hoffman" },
       "duration": "PT22S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Snap down setup off the single leg",
-      "description": "Guillotine Setup film study: Snap down setup off the single leg, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QMKv_AlTie8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QMKv_AlTie8",
-      "url": "https://www.youtube.com/watch?v=QMKv_AlTie8",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT134S"
+      "position": 2,
+      "name": "Guillotine Choke from Turtle",
+      "description": "Guillotine Setup film study: Guillotine Choke from Turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mw5qLLzjay4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mw5qLLzjay4",
+      "url": "https://www.youtube.com/watch?v=Mw5qLLzjay4",
+      "duration": "PT49S"
     }
   ]
 }
@@ -126,25 +113,17 @@ What makes this setup particularly valuable is its versatility across multiple c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Mw5qLLzjay4)
-
-<p class="clip-credit"><strong>Guillotine choke setup from turtle</strong> — taught by Cavalo Jiu-Jitsu · 0:49 · <a href="https://www.youtube.com/watch?v=Mw5qLLzjay4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=6mHJ8Mh6fDs)
 
-<p class="clip-credit"><strong>High elbow guillotine from front turtle</strong> — taught by Michael Hoffman · 0:22 · <a href="https://www.youtube.com/watch?v=6mHJ8Mh6fDs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>High elbow guillotine from front turtle.</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=6mHJ8Mh6fDs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QMKv_AlTie8)
+![](https://www.youtube.com/watch?v=Mw5qLLzjay4)
 
-<p class="clip-credit"><strong>Snap down setup off the single leg</strong> — taught by Marcelo Garcia · 2:14 · <a href="https://www.youtube.com/watch?v=QMKv_AlTie8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Choke from Turtle</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=Mw5qLLzjay4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -360,8 +339,8 @@ The guillotine setup occupies a critical junction point in the BJJ positional hi
 <a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Guillotine Setup.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Power Ride: Craig Jones’s Pinning System</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition reference: Guillotine Setup.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Guillotine Setup: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Competition: IBJJF and ADCC</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Guillotine Setup.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Guillotine Setup: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

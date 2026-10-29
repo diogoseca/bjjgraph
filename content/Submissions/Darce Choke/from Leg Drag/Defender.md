@@ -154,23 +154,11 @@ description: "Defend and escape the Darce choke from leg drag position. Recognit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the Darce choke, stack escape",
-      "description": "Darce Choke from Leg Drag (Defender) film study: Defending the Darce choke, stack escape, taught by BJJ101.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FMAWiNfgp74/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FMAWiNfgp74",
-      "url": "https://www.youtube.com/watch?v=FMAWiNfgp74",
-      "creator": { "@type": "Person", "name": "BJJ101" },
-      "duration": "PT30S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "D\u0027arce defense, belly down",
-      "description": "Darce Choke from Leg Drag (Defender) film study: D\u0027arce defense, belly down, taught by JitzLive.",
+      "name": "Move of the Day: D\u0027arce Defense - Belly Down",
+      "description": "Darce Choke from Leg Drag (Defender) film study: Move of the Day: D\u0027arce Defense - Belly Down.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cmaIzjv3QG8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cmaIzjv3QG8",
       "url": "https://www.youtube.com/watch?v=cmaIzjv3QG8",
-      "creator": { "@type": "Person", "name": "JitzLive" },
       "duration": "PT38S"
     }
   ]
@@ -200,17 +188,9 @@ Defending the Darce choke from leg drag requires understanding that your defensi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=FMAWiNfgp74)
-
-<p class="clip-credit"><strong>Defending the Darce choke, stack escape</strong> — taught by BJJ101 · 0:30 · <a href="https://www.youtube.com/watch?v=FMAWiNfgp74" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=cmaIzjv3QG8)
 
-<p class="clip-credit"><strong>D&#39;arce defense, belly down</strong> — taught by JitzLive · 0:38 · <a href="https://www.youtube.com/watch?v=cmaIzjv3QG8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Move of the Day: D&#39;arce Defense - Belly Down</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=cmaIzjv3QG8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

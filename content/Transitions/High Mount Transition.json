@@ -63,10 +63,6 @@
       "relationship": "Alternative landing position if knees settle lower"
     },
     {
-      "name": "Back Take",
-      "relationship": "Alternative transition when opponent escapes laterally"
-    },
-    {
       "name": "Rubber Guard",
       "relationship": "System context providing entry pathways"
     },
@@ -365,17 +361,7 @@
       }
     ],
     "safety_considerations": "This transition involves rapid position changes that require body awareness and controlled execution. During training, ensure partners communicate clearly about gogoplata pressure levels before releasing to mount. The transition should be practiced at slow speeds initially to develop the movement pattern without risk of knee impacts to partner's ribs during the leg swing. Partners should tap immediately if any joint stress occurs during the position change. Avoid explosive movements until the technique is well-established, as uncontrolled momentum can cause accidental strikes or falls. Practice on mats with adequate padding and ensure sufficient space for the transition movement arc.",
-    "clips": [
-      {
-        "id": "Uq6Vs1HfkY8",
-        "title": "Detailed mount transition from side control",
-        "by": "Unknown coach",
-        "vertical": false,
-        "channel": "Grappling Mastery: BJJ & Muay Thai Academy",
-        "duration": 41,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "High Mount Transition Defender",
@@ -551,35 +537,7 @@
         "description": "Full resistance positional sparring starting from gogoplata control. Defender must defend both the submission and the mount transition in real time. Track success rates for preventing mount versus recovering half guard versus being mounted cleanly."
       }
     ],
-    "clips": [
-      {
-        "id": "_05Lwonu0mw",
-        "title": "Escaping a high full mount",
-        "by": "Tenzan Aikido",
-        "vertical": false,
-        "channel": "TENZAN AIKIDO",
-        "duration": 78,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MgF9kZdPnDE",
-        "title": "Upa mount escape beating shadow hooks",
-        "by": "SBG PDX",
-        "vertical": false,
-        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-        "duration": 104,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2uuP147GoBk",
-        "title": "Mount bottom bridge and roll escape",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 62,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

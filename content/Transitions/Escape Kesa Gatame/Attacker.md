@@ -186,35 +186,22 @@ description: "Execute the Escape from Kesa Gatame in BJJ. Step-by-step guide to 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kesa gatame escape",
-      "description": "Escape Kesa Gatame (Attacker) film study: Kesa gatame escape, taught by SBG Australia coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
-      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
-      "creator": { "@type": "Person", "name": "SBG Australia coach" },
-      "duration": "PT43S"
+      "name": "Scarf Hold Escape #5 Low Under Hook Ghost Escape",
+      "description": "Escape Kesa Gatame (Attacker) film study: Scarf Hold Escape #5 Low Under Hook Ghost Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/chpoSczCLTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/chpoSczCLTI",
+      "url": "https://www.youtube.com/watch?v=chpoSczCLTI",
+      "duration": "PT19S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Scarf hold escape with low underhook ghost escape",
-      "description": "Escape Kesa Gatame (Attacker) film study: Scarf hold escape with low underhook ghost escape, taught by Mat Life coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/chpoSczCLTI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/chpoSczCLTI",
-      "url": "https://www.youtube.com/watch?v=chpoSczCLTI",
-      "creator": { "@type": "Person", "name": "Mat Life coach" },
-      "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Modified kesa-gatame escape",
-      "description": "Escape Kesa Gatame (Attacker) film study: Modified kesa-gatame escape, taught by Shane Moore.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5eAmcE9UXNc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5eAmcE9UXNc",
-      "url": "https://www.youtube.com/watch?v=5eAmcE9UXNc",
-      "creator": { "@type": "Person", "name": "Shane Moore" },
-      "duration": "PT126S"
+      "name": "Kesa Gatame escape",
+      "description": "Escape Kesa Gatame (Attacker) film study: Kesa Gatame escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "duration": "PT42S"
     }
   ]
 }
@@ -242,25 +229,17 @@ As the attacker executing the Escape from Kesa Gatame, your objective is to syst
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2M_6VytUaus)
-
-<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by SBG Australia coach · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=chpoSczCLTI)
 
-<p class="clip-credit"><strong>Scarf hold escape with low underhook ghost escape</strong> — taught by Mat Life coach · 0:20 · <a href="https://www.youtube.com/watch?v=chpoSczCLTI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Scarf Hold Escape #5 Low Under Hook Ghost Escape</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=chpoSczCLTI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5eAmcE9UXNc)
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
 
-<p class="clip-credit"><strong>Modified kesa-gatame escape</strong> — taught by Shane Moore · 2:06 · <a href="https://www.youtube.com/watch?v=5eAmcE9UXNc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame escape</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

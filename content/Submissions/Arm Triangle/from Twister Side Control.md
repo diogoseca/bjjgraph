@@ -46,35 +46,12 @@ description: "Learn the Arm Triangle from Twister Side Control in BJJ. Complete 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Advanced Arm Triangle from Twister Side",
-      "description": "Arm Triangle from Twister Side Control film study: Advanced Arm Triangle from Twister Side, taught by Eddie Bravo.",
+      "name": "MTS 195 Advanced Arm Triangle",
+      "description": "Arm Triangle from Twister Side Control film study: MTS 195 Advanced Arm Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CuhFzPhwvQA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CuhFzPhwvQA",
       "url": "https://www.youtube.com/watch?v=CuhFzPhwvQA",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Twister Side Control Attacks",
-      "description": "Arm Triangle from Twister Side Control film study: Twister Side Control Attacks, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
-      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Twister Side Control",
-      "description": "Arm Triangle from Twister Side Control film study: Twister Side Control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
-      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT87S"
     }
   ]
 }
@@ -139,23 +116,7 @@ The position integrates naturally into the Twister Side Control attack chain alo
 
 ![](https://www.youtube.com/watch?v=CuhFzPhwvQA)
 
-<p class="clip-credit"><strong>Advanced Arm Triangle from Twister Side</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=CuhFzPhwvQA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=odT3-cVWXdc)
-
-<p class="clip-credit"><strong>Twister Side Control Attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R55lmkc6Mus)
-
-<p class="clip-credit"><strong>Twister Side Control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>MTS 195 Advanced Arm Triangle</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=CuhFzPhwvQA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

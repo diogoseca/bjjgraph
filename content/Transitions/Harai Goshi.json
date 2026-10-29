@@ -411,31 +411,19 @@
     "safety_considerations": "When practicing Harai Goshi, controlled application is essential to prevent injury on impact, particularly to the opponent's head, neck, and shoulders during landing. Both practitioners must be competent in breakfall techniques (ukemi) before live practice, as improper landing can result in serious injury. The thrower must maintain grip connection throughout the throw to control the opponent's descent velocity and prevent them from being dropped or spiking into the mat. Adequate mat space is critical - ensure at least 10 feet of clear space in the throwing direction to account for the rotational nature of the technique. Begin practice with cooperative drilling on crash pads or soft surfaces before progressing to standard mats. Never attempt this throw at full speed or power against beginners who lack proper falling skills. The sweeping leg action should be controlled to avoid hyperextension of the opponent's knee - sweep through the leg rather than into it. When following to the ground, avoid driving your weight into the opponent's ribcage or chest on landing. Progress speed and intensity gradually over weeks of practice, and immediately stop if either partner feels unsafe or lacks control during execution.",
     "clips": [
       {
-        "id": "J23ai6yIaIE",
-        "title": "No-gi harai goshi throw",
-        "by": "Shintaro Higashi",
-        "vertical": false,
+        "id": "aWPnGn9dthM",
+        "title": "3 types of harai-goshi",
         "channel": "Shintaro Higashi",
-        "duration": 91,
-        "verified": "2026-07-15"
+        "duration": 174,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "hj1wTW5poro",
-        "title": "Harai goshi for wrestlers",
-        "by": "Victoria Anthony",
-        "vertical": false,
+        "title": "Harai Goshi - Judo for Wrestling by Victoria Vortex Anthony",
         "channel": "CholoMMA",
         "duration": 23,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aWPnGn9dthM",
-        "title": "Three variations of harai goshi",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 174,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -634,30 +622,11 @@
     "clips": [
       {
         "id": "Lpx5dn3D9uI",
-        "title": "No-gi counter to harai goshi",
-        "by": "Andrew Smith",
-        "vertical": false,
+        "title": "Simple No-Gi Counter to Forward Throw (Harai Goshi)",
         "channel": "Revolution BJJ",
         "duration": 248,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "pyzYfHXivs4",
-        "title": "Utsuri-goshi counter against turn throws",
-        "by": "Shintaro Higashi",
         "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 233,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C7HnA1zd5Rs",
-        "title": "Judo throw counter-attacks",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 161,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

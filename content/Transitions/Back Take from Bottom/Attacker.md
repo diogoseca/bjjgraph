@@ -176,50 +176,6 @@ description: "How to execute Back Take from Bottom in BJJ. Attacking perspective
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Back Take from Bottom (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Reverse armdrag from butterfly to back take",
-      "description": "Back Take from Bottom (Attacker) film study: Reverse armdrag from butterfly to back take, taught by Jerry Musquiz.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
-      "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
-      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Marcelo Garcia back attack study",
-      "description": "Back Take from Bottom (Attacker) film study: Marcelo Garcia back attack study, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kflXezQ9_8g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kflXezQ9_8g",
-      "url": "https://www.youtube.com/watch?v=kflXezQ9_8g",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT315S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Back take and guillotine options",
-      "description": "Back Take from Bottom (Attacker) film study: Back take and guillotine options, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3DrDbDeI8M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3DrDbDeI8M",
-      "url": "https://www.youtube.com/watch?v=z3DrDbDeI8M",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT157S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -236,40 +192,6 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Back Take from Bottom (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MFed9IE8afA)
-
-<p class="clip-credit"><strong>Reverse armdrag from butterfly to back take</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kflXezQ9_8g)
-
-<p class="clip-credit"><strong>Marcelo Garcia back attack study</strong> — taught by Marcelo Garcia · 5:15 · <a href="https://www.youtube.com/watch?v=kflXezQ9_8g" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=z3DrDbDeI8M)
-
-<p class="clip-credit"><strong>Back take and guillotine options</strong> — taught by Coach Brian · 2:37 · <a href="https://www.youtube.com/watch?v=z3DrDbDeI8M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -327,9 +249,9 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Back Control]] | 65% |
-| Failure | [[Positions/Hindulotine]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 35% |
+| Failure | [[Positions/Hindulotine]] | 45% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -343,7 +265,7 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 - **Opponent stops mid-turn and re-faces to prevent back exposure** (Effectiveness: High) - Your Response: If they stop the turn, immediately re-establish guillotine grip and continue attacking the choke, or transition to darce if their arm position allows → Leads to [[Positions/Hindulotine]]
 - **Opponent turns fully through and faces you, preventing back control establishment** (Effectiveness: Medium) - Your Response: Accept the guard recovery and look for immediate sweep or submission from the new guard configuration, using your seatbelt attempt as an arm drag setup → Leads to [[Positions/Closed Guard]]
 - **Opponent posts hands on mat and creates distance during transition** (Effectiveness: Medium) - Your Response: Use butterfly hooks to elevate their hips and follow them as they create distance, or transition to technical stand-up and pursue from standing → Leads to [[Positions/Hindulotine]]
-- **Opponent turtles defensively before you can insert hooks** (Effectiveness: Low) - Your Response: Maintain seatbelt control on turtle and work standard back take entries from turtle, or transition to front headlock if they lower their hips → Leads to [[Positions/Back Control]]
+- **Opponent turtles defensively before you can insert hooks** (Effectiveness: Low) - Your Response: Maintain seatbelt control on turtle and work standard back take entries from turtle, or transition to front headlock if they lower their hips → Leads to [[Positions/Hindulotine]]
 
 
 </section>
@@ -422,7 +344,7 @@ This transition is generally low-risk when performed with proper technique, but 
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

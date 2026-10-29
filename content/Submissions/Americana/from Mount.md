@@ -46,34 +46,11 @@ description: "Master the Americana shoulder lock from mount with safety protocol
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How To Perform Americana From Top Mount",
-      "description": "Americana from Mount film study: How To Perform Americana From Top Mount, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uPazS4MJiDc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uPazS4MJiDc",
-      "url": "https://www.youtube.com/watch?v=uPazS4MJiDc",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Americana from Full Mount",
-      "description": "Americana from Mount film study: Americana from Full Mount, taught by Jo Chavez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6f9m9YmrzSQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6f9m9YmrzSQ",
-      "url": "https://www.youtube.com/watch?v=6f9m9YmrzSQ",
-      "creator": { "@type": "Person", "name": "Jo Chavez" },
-      "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Americana from Mount Explained",
-      "description": "Americana from Mount film study: Americana from Mount Explained, taught by Gabriel Gonzaga.",
+      "name": "\ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide",
+      "description": "Americana from Mount film study: \ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N-bZMbI2jSo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/N-bZMbI2jSo",
       "url": "https://www.youtube.com/watch?v=N-bZMbI2jSo",
-      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
       "duration": "PT110S"
     }
   ]
@@ -137,25 +114,9 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uPazS4MJiDc)
-
-<p class="clip-credit"><strong>How To Perform Americana From Top Mount</strong> — taught by Evolve MMA · 1:11 · <a href="https://www.youtube.com/watch?v=uPazS4MJiDc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6f9m9YmrzSQ)
-
-<p class="clip-credit"><strong>Americana from Full Mount</strong> — taught by Jo Chavez · 1:29 · <a href="https://www.youtube.com/watch?v=6f9m9YmrzSQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=N-bZMbI2jSo)
 
-<p class="clip-credit"><strong>Americana from Mount Explained</strong> — taught by Gabriel Gonzaga · 1:50 · <a href="https://www.youtube.com/watch?v=N-bZMbI2jSo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>🛡️ Americana from Mount Explained | BJJ Submission Guide</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=N-bZMbI2jSo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -428,31 +428,19 @@
     ],
     "clips": [
       {
-        "id": "JQMSXF2uVfA",
-        "title": "Armbar from Knee on Belly",
-        "by": "Mauricio Gomes",
-        "vertical": false,
-        "channel": "Mauricio Gomes BJJ",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "LrWL-ILB4ME",
-        "title": "Shotgun Armbar from Knee on Belly",
-        "by": "Raymond Tan",
-        "vertical": false,
-        "channel": "BJJ Cheat Codes by Raymond Tan",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "jxZaCP3bBuM",
         "title": "Armbar from Knee on Belly",
-        "by": "Team Daruma Dojo",
-        "vertical": false,
         "channel": "Team Daruma Dojo",
         "duration": 65,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "JQMSXF2uVfA",
+        "title": "Armbar from Knee on Belly",
+        "channel": "Mauricio Gomes BJJ",
+        "duration": 79,
+        "vertical": false
       }
     ]
   },
@@ -619,34 +607,6 @@
         "description": "Positional sparring starting from knee on belly with the top player actively hunting the armbar. Develop real-time recognition of the attack entry and execute appropriate defensive responses under full competitive pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "Wn01Ynw7O28",
-        "title": "How to escape the Knee on Belly position",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 40,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "I9_3u9AcwAg",
-        "title": "First principles escapes: Knee-on-Belly",
-        "by": "40 Plus BJJ",
-        "vertical": false,
-        "channel": "40 Plus BJJ",
-        "duration": 59,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "WIYwi1fKisU",
-        "title": "Sneaky knee on belly escape (gi and no gi)",
-        "by": "Zebulon Miller",
-        "vertical": false,
-        "channel": "Zebulon Miller",
-        "duration": 78,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

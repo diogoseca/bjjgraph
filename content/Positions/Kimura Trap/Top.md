@@ -155,50 +155,6 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Kimura Trap (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Rolling kimura trap guard pass",
-      "description": "Kimura Trap (Top) film study: Rolling kimura trap guard pass, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lcFphp1N9m0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lcFphp1N9m0",
-      "url": "https://www.youtube.com/watch?v=lcFphp1N9m0",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Getting the sub via Kimura Trap",
-      "description": "Kimura Trap (Top) film study: Getting the sub via Kimura Trap, taught by Luke Ruffo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PiaCdkFIxPk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PiaCdkFIxPk",
-      "url": "https://www.youtube.com/watch?v=PiaCdkFIxPk",
-      "creator": { "@type": "Person", "name": "Luke Ruffo" },
-      "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Top Half Guard Reverse Kimura Trap",
-      "description": "Kimura Trap (Top) film study: Top Half Guard Reverse Kimura Trap, taught by David Avellan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XhXGWFTFpy0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XhXGWFTFpy0",
-      "url": "https://www.youtube.com/watch?v=XhXGWFTFpy0",
-      "creator": { "@type": "Person", "name": "David Avellan" },
-      "duration": "PT197S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -215,40 +171,6 @@ Strategically, the position is valued for its control density—the top player c
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Kimura Trap (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lcFphp1N9m0)
-
-<p class="clip-credit"><strong>Rolling kimura trap guard pass</strong> — taught by BJJ4Breakfast · 0:56 · <a href="https://www.youtube.com/watch?v=lcFphp1N9m0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PiaCdkFIxPk)
-
-<p class="clip-credit"><strong>Getting the sub via Kimura Trap</strong> — taught by Luke Ruffo · 1:29 · <a href="https://www.youtube.com/watch?v=PiaCdkFIxPk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XhXGWFTFpy0)
-
-<p class="clip-credit"><strong>Top Half Guard Reverse Kimura Trap</strong> — taught by David Avellan · 3:17 · <a href="https://www.youtube.com/watch?v=XhXGWFTFpy0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -444,7 +366,7 @@ Start in Kimura Trap Top from side control. Partner cycles through defensive rea
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura — Enter The System</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Bottom Half in The Ultimate Rubber Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Kimura Trap: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-North-South-Choke-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-north-south-choke-system" data-system-name="Marcelo Garcia North South Choke System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The North-South Choke</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

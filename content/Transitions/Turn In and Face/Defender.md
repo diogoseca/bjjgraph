@@ -150,39 +150,6 @@ description: "How to defend against Turn In and Face in BJJ. Recognition cues, d
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Turn In and Face (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "No-gi buggy choke counter and defense",
-      "description": "Turn In and Face (Defender) film study: No-gi buggy choke counter and defense, taught by SD BJJ Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6na3oiDkWek/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6na3oiDkWek",
-      "url": "https://www.youtube.com/watch?v=6na3oiDkWek",
-      "creator": { "@type": "Person", "name": "SD BJJ Australia" },
-      "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to defend the buggy choke",
-      "description": "Turn In and Face (Defender) film study: How to defend the buggy choke, taught by Less Impressed More Involved.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CD1PBfMol-k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CD1PBfMol-k",
-      "url": "https://www.youtube.com/watch?v=CD1PBfMol-k",
-      "creator": { "@type": "Person", "name": "Less Impressed More Involved" },
-      "duration": "PT253S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,32 +166,6 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Turn In and Face (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6na3oiDkWek)
-
-<p class="clip-credit"><strong>No-gi buggy choke counter and defense</strong> — taught by SD BJJ Australia · 1:21 · <a href="https://www.youtube.com/watch?v=6na3oiDkWek" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=CD1PBfMol-k)
-
-<p class="clip-credit"><strong>How to defend the buggy choke</strong> — taught by Less Impressed More Involved · 4:13 · <a href="https://www.youtube.com/watch?v=CD1PBfMol-k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -272,7 +213,7 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 ### 2. Release the buggy choke grips as the rotation begins and immediately follow the turning motion by inserting hooks and establishing seat belt control for back take
 
 - **When to use**: When the rotation has progressed past the point where flattening pressure can stop it, but before the bottom player has fully squared their hips to face you
-- **Targets**: [[Positions/Back Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You convert the escape attempt into a back take with hooks and seat belt, achieving a superior position worth 4 points in competition with immediate rear naked choke access
 - **Risk**: If the bottom player completes the rotation too quickly, you may end up in a front-facing scramble without established grips or hooks, losing both the choke and the back take opportunity
 
@@ -304,7 +245,7 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 
 Prevent the rotation entirely by driving heavy perpendicular pressure onto the bottom player's near hip and back, flattening them before rotational momentum builds. Deepen the threading arm grip simultaneously so that any partial rotation tightens rather than loosens the choke. Maintain head pressure on their far shoulder to block the rotational pathway.
 
-### → [[Positions/Back Control]]
+### → [[Positions/Side Control]]
 
 When the rotation has progressed past the stoppable point, immediately release buggy choke grips and follow the turning motion with your hips. Insert your near hook first as their hip clears during the rotation, then establish seat belt grip with the arm that was threading. The bottom player's own rotational momentum carries you into back control if you follow rather than resist their movement.
 

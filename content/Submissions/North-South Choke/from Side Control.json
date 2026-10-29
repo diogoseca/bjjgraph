@@ -432,31 +432,12 @@
     ],
     "clips": [
       {
-        "id": "z3RNUfHfiSM",
-        "title": "Marcelo Garcia - North South Choke",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Kon Ying",
-        "duration": 20,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "TkdKbLp5Ugo",
-        "title": "North South choke attack from side control",
-        "by": "Fighting Techniques Collection",
-        "vertical": false,
+        "title": "Attack from side control 1. North South Choke. Techniques Jiu-jitsu, Grappling,…",
         "channel": "Fighting Techniques Collection",
         "duration": 78,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "HEocenfcpKg",
-        "title": "Side control to north south lapel choke",
-        "by": "JMA BKNY",
         "vertical": false,
-        "channel": "JMA BKNY",
-        "duration": 62,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -632,22 +613,11 @@
     ],
     "clips": [
       {
-        "id": "ZT4QcOFksxs",
-        "title": "Kimura escape from North South",
-        "by": "Street Jitsu",
-        "vertical": false,
-        "channel": "Street Jitsu",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "rmT52A--V3Q",
-        "title": "How to escape North South",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 203,
-        "verified": "2026-07-14"
+        "id": "CC8b5mR79OI",
+        "title": "NORTH SOUTH CHOKE DEFENSE - Simple and Effective",
+        "channel": "MMA Leech",
+        "duration": 159,
+        "front": true
       }
     ]
   }

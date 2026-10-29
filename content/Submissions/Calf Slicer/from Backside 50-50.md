@@ -46,34 +46,21 @@ description: "Master the calf slicer from backside 50-50 with expert finishing m
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "50/50 to Calf Slicer",
-      "description": "Calf Slicer from Backside 50-50 film study: 50/50 to Calf Slicer, taught by CaMiCho327.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UsEvrDzgbqE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UsEvrDzgbqE",
-      "url": "https://www.youtube.com/watch?v=UsEvrDzgbqE",
-      "creator": { "@type": "Person", "name": "CaMiCho327" },
-      "duration": "PT13S"
+      "name": "5050 Calf Slicer",
+      "description": "Calf Slicer from Backside 50-50 film study: 5050 Calf Slicer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d4KgnwWTkuk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d4KgnwWTkuk",
+      "url": "https://www.youtube.com/watch?v=d4KgnwWTkuk",
+      "duration": "PT34S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "5050 Calf Slicer",
-      "description": "Calf Slicer from Backside 50-50 film study: 5050 Calf Slicer, taught by The Jiu-Jitsu Foundry.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/d4KgnwWTkuk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/d4KgnwWTkuk",
-      "url": "https://www.youtube.com/watch?v=d4KgnwWTkuk",
-      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
-      "duration": "PT35S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Calf Slicer Positions: RDLR, 50/50, Z Guard",
-      "description": "Calf Slicer from Backside 50-50 film study: Calf Slicer Positions: RDLR, 50/50, Z Guard, taught by Grappling with Insanity.",
+      "description": "Calf Slicer from Backside 50-50 film study: Calf Slicer Positions: RDLR, 50/50, Z Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/buBg-yzLTrY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/buBg-yzLTrY",
       "url": "https://www.youtube.com/watch?v=buBg-yzLTrY",
-      "creator": { "@type": "Person", "name": "Grappling with Insanity" },
       "duration": "PT54S"
     }
   ]
@@ -117,9 +104,9 @@ description: "Master the calf slicer from backside 50-50 with expert finishing m
 
 <section id="overview" class="content-section">
 
-The calf slicer from backside 50-50 exploits the unique chest-to-back orientation of this leg entanglement to generate devastating compression on the opponent's calf muscle. Unlike standard 50-50 calf slicer attempts where both players face each other, the backside configuration provides the attacker with superior leverage through forward pressure, allowing them to drive their shin deeper behind the opponent's knee while using body weight to fold the leg.
+The calf slicer from backside 50-50 exploits the unique turned-away orientation of this leg entanglement to generate devastating compression on the opponent's calf muscle. Unlike standard 50-50 calf slicer attempts where both players face each other, the backside configuration provides the attacker with superior leverage through forward pressure, allowing them to drive their shin deeper behind the opponent's knee while using body weight to fold the leg.
 
-The attack typically develops when the opponent bends their knee defensively against heel hook attempts. The attacker threads their shin behind the bent knee, secures the opponent's foot, and uses chest pressure combined with hip extension to create a compression lock that crushes the calf against the shin bone. The backside angle makes this particularly effective because the opponent cannot easily straighten their leg or rotate to relieve pressure.
+The attack typically develops when the opponent bends their knee defensively against heel hook attempts. The attacker threads their shin behind the bent knee, secures the opponent's foot, and uses knee-line control combined with hip extension to create a compression lock that crushes the calf against the shin bone. The backside angle makes this particularly effective because the opponent cannot easily straighten their leg or rotate to relieve pressure.
 
 This submission serves as a critical secondary threat within the backside 50-50 system. When opponents become proficient at defending heel hooks by hiding their heels, the calf slicer punishes their bent-leg defensive posture. Competition practitioners at purple belt and above should develop this attack as part of their complete leg lock arsenal, recognizing that the threat of the calf slicer forces opponents into positions where heel hooks become more accessible.
 
@@ -137,17 +124,9 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=UsEvrDzgbqE)
-
-<p class="clip-credit"><strong>50/50 to Calf Slicer</strong> — taught by CaMiCho327 · 0:13 · <a href="https://www.youtube.com/watch?v=UsEvrDzgbqE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=d4KgnwWTkuk)
 
-<p class="clip-credit"><strong>5050 Calf Slicer</strong> — taught by The Jiu-Jitsu Foundry · 0:35 · <a href="https://www.youtube.com/watch?v=d4KgnwWTkuk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>5050 Calf Slicer</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=d4KgnwWTkuk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +134,7 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 ![](https://www.youtube.com/watch?v=buBg-yzLTrY)
 
-<p class="clip-credit"><strong>Calf Slicer Positions: RDLR, 50/50, Z Guard</strong> — taught by Grappling with Insanity · 0:54 · <a href="https://www.youtube.com/watch?v=buBg-yzLTrY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Calf Slicer Positions: RDLR, 50/50, Z Guard</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=buBg-yzLTrY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -199,7 +178,7 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 - Thread your shin as deep as possible behind the opponent's knee crease before committing to the compression - shallow placement reduces finishing power significantly
 
-- Maintain constant chest-to-back pressure throughout the attack to prevent the opponent from creating space or straightening their trapped leg
+- Maintain constant knee-line and hip control throughout the attack to prevent the opponent from creating space or straightening their trapped leg
 
 - Control the opponent's foot by gripping the toes or ankle to prevent them from rotating or extracting their leg from the compression
 
@@ -219,7 +198,7 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 - **Secure foot control**: Grip the opponent's foot on the trapped leg by cupping the toes or securing the ankle with both hand...
 
-- **Consolidate chest pressure**: Drive your chest weight forward onto the opponent's upper back to pin their hips and prevent them fr...
+- **Consolidate knee-line control**: Maintain control of the bent leg while placing the shin behind the knee and securing the foot. Keep ...
 
 - **Lock the figure-four reinforcement**: Hook your outside leg over the top of your attacking shin in a figure-four configuration to reinforc...
 
@@ -235,9 +214,9 @@ This submission serves as a critical secondary threat within the backside 50-50 
   - Consequence: Compression lacks finishing power and the opponent can extract their leg with moderate effort, wasting the setup
   - Correction: Thread your shin as deep as possible before committing to the figure-four, aiming for the thickest part of the calf muscle belly
 
-- **Releasing chest pressure to focus entirely on the leg attack**
+- **Releasing knee-line control to focus entirely on the leg attack**
   - Consequence: Opponent creates space, straightens their leg, or escapes the entanglement entirely by using hip movement you can no longer control
-  - Correction: Maintain heavy chest-to-back pressure throughout the attack sequence - your upper body controls position while your lower body and hands execute the submission
+  - Correction: Maintain control of the target leg while transferring from the backside clamp to the calf-slicer configuration. Keep the knee bend and foot controlled without assuming the opponent's torso is pinned.
 
 - **Attempting to finish with arm strength instead of hip extension**
   - Consequence: Arms fatigue rapidly against a resisting opponent and generate insufficient force to compress the calf against the shin bone
@@ -259,7 +238,7 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 - Recognize the transition from heel hook to calf slicer threat early - the moment the attacker shifts from your heel to threading behind your knee
 
-- Create hip movement and angles to prevent the attacker from settling their chest pressure and locking the figure-four
+- Create hip movement and angles to prevent the attacker from settling their knee-line control and locking the figure-four
 
 - Fight the foot grip immediately - once the attacker controls your foot, straightening your leg becomes nearly impossible
 
@@ -277,7 +256,7 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 - Opponent begins locking their outside leg over their attacking shin in a figure-four pattern
 
-- Increased forward chest pressure combined with the opponent pulling your foot toward them
+- Increased forward knee-line control combined with the opponent pulling your foot toward them
 
 
 ### Escape Paths

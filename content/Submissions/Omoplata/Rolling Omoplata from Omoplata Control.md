@@ -46,24 +46,32 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse Omoplata, Keenan style",
-      "description": "Rolling Omoplata from Omoplata Control film study: Reverse Omoplata, Keenan style, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TNvcL55uvrE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TNvcL55uvrE",
-      "url": "https://www.youtube.com/watch?v=TNvcL55uvrE",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT22S"
+      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+      "description": "Rolling Omoplata from Omoplata Control film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Teaching the reverse omoplata",
-      "description": "Rolling Omoplata from Omoplata Control film study: Teaching the reverse omoplata, taught by Bradley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zZv3V0b3tqg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zZv3V0b3tqg",
-      "url": "https://www.youtube.com/watch?v=zZv3V0b3tqg",
-      "creator": { "@type": "Person", "name": "Bradley" },
-      "duration": "PT106S"
+      "name": "How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026",
+      "description": "Rolling Omoplata from Omoplata Control film study: How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jKdERMTQqPY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jKdERMTQqPY",
+      "url": "https://www.youtube.com/watch?v=jKdERMTQqPY",
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Early Omoplata Escape - Opposite Shoulder Roll",
+      "description": "Rolling Omoplata from Omoplata Control film study: Early Omoplata Escape - Opposite Shoulder Roll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YsSrfDmrVjs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YsSrfDmrVjs",
+      "url": "https://www.youtube.com/watch?v=YsSrfDmrVjs",
+      "duration": "PT43S"
     }
   ]
 }
@@ -124,17 +132,25 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=TNvcL55uvrE)
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
 
-<p class="clip-credit"><strong>Reverse Omoplata, Keenan style</strong> — taught by Keenan Cornelius · 0:22 · <a href="https://www.youtube.com/watch?v=TNvcL55uvrE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zZv3V0b3tqg)
+![](https://www.youtube.com/watch?v=jKdERMTQqPY)
 
-<p class="clip-credit"><strong>Teaching the reverse omoplata</strong> — taught by Bradley · 1:46 · <a href="https://www.youtube.com/watch?v=zZv3V0b3tqg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape the omoplata when it’s already in and he’s ready to break your…</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=jKdERMTQqPY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YsSrfDmrVjs)
+
+<p class="clip-credit"><strong>Early Omoplata Escape - Opposite Shoulder Roll</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=YsSrfDmrVjs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

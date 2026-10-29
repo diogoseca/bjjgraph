@@ -85,10 +85,6 @@
       "relationship": "Primary follow-up technique from Technical Mount once arm isolation is complete"
     },
     {
-      "name": "Back Take",
-      "relationship": "Key follow-up transition when opponent turns away to defend armbar from Technical Mount"
-    },
-    {
       "name": "Armbar from Armbar Control",
       "relationship": "Primary submission finish available through Technical Mount to Armbar Control pathway"
     },
@@ -393,26 +389,7 @@
       }
     ],
     "safety_considerations": "This transition involves significant pressure on the opponent's ribcage and shoulder during leg repositioning. Apply weight shifts gradually during drilling to avoid rib compression injuries. When training the arm isolation component, release immediately if your partner signals discomfort in the shoulder or elbow. Avoid explosive knee slides toward the head during initial learning phases, as accidental contact with the face or jaw can occur. Partners should communicate clearly about pressure tolerance, and the top player should check in during early repetitions before applying full transition speed.",
-    "clips": [
-      {
-        "id": "plD6TW7pFv4",
-        "title": "Mount to technical mount transition",
-        "by": "Dark Horse BJJ coach",
-        "vertical": false,
-        "channel": "Dark Horse Brazilian Jiu Jitsu",
-        "duration": 20,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0wVHM6nJeew",
-        "title": "Technical mount transition from mount",
-        "by": "Steve Haydock",
-        "vertical": false,
-        "channel": "Steve Haydock Jiu Jitsu Academy",
-        "duration": 81,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "3-4 Mount to Technical Mount Defender",
@@ -616,34 +593,6 @@
         "description": "Positional sparring starting from 3-4 Mount at full intensity. Bottom player uses all defensive tools—prevention, bridging, and recovery—based on the situation. Score points for successful transition blocks (staying in 3-4 Mount) and half guard recoveries. Identify which attacker setups cause the most difficulty and develop specific responses."
       }
     ],
-    "clips": [
-      {
-        "id": "NHrpJdU8wCQ",
-        "title": "Technical mount escape: out the back",
-        "by": "smallmanbjj",
-        "vertical": false,
-        "channel": "smallmanbjj",
-        "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uTuPvxQUOo4",
-        "title": "Mount escape",
-        "by": "bjjtaro",
-        "vertical": false,
-        "channel": "bjjtaro",
-        "duration": 23,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "oQNYQGwwsYo",
-        "title": "Common mount escape mistakes",
-        "by": "John Kelly",
-        "vertical": false,
-        "channel": "John Kelly Brazilian Jiu Jitsu Ireland ",
-        "duration": 88,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

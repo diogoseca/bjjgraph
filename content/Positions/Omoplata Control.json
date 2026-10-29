@@ -414,31 +414,12 @@
     ],
     "clips": [
       {
-        "id": "k8b2GBVqcco",
-        "title": "Omoplata variation from open guard",
-        "by": "Clark Gracie",
+        "id": "WdGe841yhsU",
+        "title": "JJM3.0 Advanced Online Training : Troubleshooting The No Gi Omoplata",
+        "channel": "JeanJacquesMachado",
+        "duration": 101,
         "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 50,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "w3_FCkkNQxU",
-        "title": "Omoplata finish with far leg control",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 102,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "oQAP8nARiHU",
-        "title": "Omoplata technique breakdown",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Deep Dive JJ",
-        "duration": 100,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -789,31 +770,11 @@
     ],
     "clips": [
       {
-        "id": "pgIEqjw9ovs",
-        "title": "Mount escape into an omoplata",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 31,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "oQAP8nARiHU",
-        "title": "Omoplata technique breakdown",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Deep Dive JJ",
-        "duration": 100,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "HCuRfqaM0tM",
-        "title": "Spinning omoplata setup",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "CIENTISTAS DO JIU JITSU",
-        "duration": 96,
-        "verified": "2026-07-14"
+        "id": "_AkYtTIWWCU",
+        "title": "Cross-Sleeve Modified Omoplata Control",
+        "channel": "TELARI ",
+        "duration": 280,
+        "front": true
       }
     ]
   },
@@ -931,33 +892,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "dwwXQx6HBNw",
-      "title": "The omoplata explained",
-      "by": "Rafael Mendes",
-      "vertical": false,
-      "channel": "ART OF JIU JITSU",
-      "duration": 59,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "oQAP8nARiHU",
-      "title": "Omoplata technique breakdown",
-      "by": "Clark Gracie",
-      "vertical": false,
-      "channel": "Deep Dive JJ",
-      "duration": 100,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "WdGe841yhsU",
-      "title": "Troubleshooting the no-gi omoplata",
-      "by": "Jean Jacques Machado",
-      "vertical": false,
-      "channel": "JeanJacquesMachado",
-      "duration": 101,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

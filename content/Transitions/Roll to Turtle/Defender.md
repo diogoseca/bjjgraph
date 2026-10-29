@@ -160,35 +160,12 @@ description: "How to defend against Roll to Turtle in BJJ. Recognition cues, cou
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Turning an opponent from turtle into a hold down",
-      "description": "Roll to Turtle (Defender) film study: Turning an opponent from turtle into a hold down, taught by Idris Boussetoua.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ekkQFHyTDwE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ekkQFHyTDwE",
-      "url": "https://www.youtube.com/watch?v=ekkQFHyTDwE",
-      "creator": { "@type": "Person", "name": "Idris Boussetoua" },
-      "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Turtle Escape (Easy Mode)",
-      "description": "Roll to Turtle (Defender) film study: Turtle Escape (Easy Mode), taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NlYTjPd6Uzo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NlYTjPd6Uzo",
-      "url": "https://www.youtube.com/watch?v=NlYTjPd6Uzo",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT104S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Turtle Escape \u0026 Back-Exposure System",
-      "description": "Roll to Turtle (Defender) film study: Turtle Escape \u0026 Back-Exposure System, taught by Jozef Chen.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
-      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
-      "creator": { "@type": "Person", "name": "Jozef Chen" },
-      "duration": "PT149S"
+      "name": "Transitioning from side control to the back when opponent turtles",
+      "description": "Roll to Turtle (Defender) film study: Transitioning from side control to the back when opponent turtles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O3VaYxTRXrs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O3VaYxTRXrs",
+      "url": "https://www.youtube.com/watch?v=O3VaYxTRXrs",
+      "duration": "PT55S"
     }
   ]
 }
@@ -218,25 +195,9 @@ The critical defensive window occurs between the moment your opponent initiates 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ekkQFHyTDwE)
+![](https://www.youtube.com/watch?v=O3VaYxTRXrs)
 
-<p class="clip-credit"><strong>Turning an opponent from turtle into a hold down</strong> — taught by Idris Boussetoua · 1:12 · <a href="https://www.youtube.com/watch?v=ekkQFHyTDwE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NlYTjPd6Uzo)
-
-<p class="clip-credit"><strong>Turtle Escape (Easy Mode)</strong> — taught by Henry Akins · 1:44 · <a href="https://www.youtube.com/watch?v=NlYTjPd6Uzo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
-
-<p class="clip-credit"><strong>Turtle Escape &amp; Back-Exposure System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Transitioning from side control to the back when opponent turtles</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=O3VaYxTRXrs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

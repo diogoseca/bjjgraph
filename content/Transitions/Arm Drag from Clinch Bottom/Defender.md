@@ -152,35 +152,12 @@ description: "Complete guide to defending the arm drag from clinch. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arm Drag Counter with BJJ Application",
-      "description": "Arm Drag from Clinch Bottom (Defender) film study: Arm Drag Counter with BJJ Application, taught by Joe Scioli.",
+      "name": "Arm Drag Counter (With BJJ Application)",
+      "description": "Arm Drag from Clinch Bottom (Defender) film study: Arm Drag Counter (With BJJ Application).",
       "thumbnailUrl": "https://i.ytimg.com/vi/JAik-k-lKWY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JAik-k-lKWY",
       "url": "https://www.youtube.com/watch?v=JAik-k-lKWY",
-      "creator": { "@type": "Person", "name": "Joe Scioli" },
       "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Defend the Arm Drag",
-      "description": "Arm Drag from Clinch Bottom (Defender) film study: How to Defend the Arm Drag, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bmCjXADzgo4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bmCjXADzgo4",
-      "url": "https://www.youtube.com/watch?v=bmCjXADzgo4",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT103S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Arm Drag Defense to Knee Pick",
-      "description": "Arm Drag from Clinch Bottom (Defender) film study: Arm Drag Defense to Knee Pick, taught by David Avellan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gnsX4EjShMQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gnsX4EjShMQ",
-      "url": "https://www.youtube.com/watch?v=gnsX4EjShMQ",
-      "creator": { "@type": "Person", "name": "David Avellan" },
-      "duration": "PT137S"
     }
   ]
 }
@@ -210,23 +187,7 @@ As the defender against the arm drag from clinch bottom, your primary objective 
 
 ![](https://www.youtube.com/watch?v=JAik-k-lKWY)
 
-<p class="clip-credit"><strong>Arm Drag Counter with BJJ Application</strong> — taught by Joe Scioli · 0:31 · <a href="https://www.youtube.com/watch?v=JAik-k-lKWY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bmCjXADzgo4)
-
-<p class="clip-credit"><strong>How to Defend the Arm Drag</strong> — taught by Matt Arroyo · 1:43 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gnsX4EjShMQ)
-
-<p class="clip-credit"><strong>Arm Drag Defense to Knee Pick</strong> — taught by David Avellan · 2:17 · <a href="https://www.youtube.com/watch?v=gnsX4EjShMQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Drag Counter (With BJJ Application)</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=JAik-k-lKWY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

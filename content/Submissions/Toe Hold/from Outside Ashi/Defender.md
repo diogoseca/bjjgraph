@@ -170,24 +170,12 @@ description: "Defend the toe hold from Outside Ashi-Garami in BJJ. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Escape the Toe Hold",
-      "description": "Toe Hold from Outside Ashi (Defender) film study: How to Escape the Toe Hold, taught by Gordon Ryan.",
+      "name": "How to escape from toehold by Gordon Ryan",
+      "description": "Toe Hold from Outside Ashi (Defender) film study: How to escape from toehold by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
       "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT106S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Defend Against Toe Holds",
-      "description": "Toe Hold from Outside Ashi (Defender) film study: How to Defend Against Toe Holds, taught by The Grappling Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/f4OOg_35Xjk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/f4OOg_35Xjk",
-      "url": "https://www.youtube.com/watch?v=f4OOg_35Xjk",
-      "creator": { "@type": "Person", "name": "The Grappling Academy" },
-      "duration": "PT203S"
+      "duration": "PT105S"
     }
   ]
 }
@@ -218,15 +206,7 @@ Defending the toe hold from Outside Ashi-Garami requires immediate recognition o
 
 ![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
 
-<p class="clip-credit"><strong>How to Escape the Toe Hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=f4OOg_35Xjk)
-
-<p class="clip-credit"><strong>How to Defend Against Toe Holds</strong> — taught by The Grappling Academy · 3:23 · <a href="https://www.youtube.com/watch?v=f4OOg_35Xjk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape from toehold by Gordon Ryan</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

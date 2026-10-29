@@ -166,35 +166,13 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Seatbelt Grip Quick Fix",
-      "description": "Harness (Top) film study: Seatbelt Grip Quick Fix, taught by Ben Kool.",
+      "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
+      "description": "Harness (Top) film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip, taught by Ben Kool.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
       "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
       "creator": { "@type": "Person", "name": "Ben Kool" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Seatbelt Takedown to Back",
-      "description": "Harness (Top) film study: Seatbelt Takedown to Back, taught by Progressive FORCE Concepts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F6bTABR5b1U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/F6bTABR5b1U",
-      "url": "https://www.youtube.com/watch?v=F6bTABR5b1U",
-      "creator": { "@type": "Person", "name": "Progressive FORCE Concepts" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Entries Into Rear Triangle Back Position",
-      "description": "Harness (Top) film study: Entries Into Rear Triangle Back Position, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
-      "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT252S"
+      "duration": "PT61S"
     }
   ]
 }
@@ -229,23 +207,7 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 ![](https://www.youtube.com/watch?v=MwxnveKrlxU)
 
-<p class="clip-credit"><strong>Seatbelt Grip Quick Fix</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=F6bTABR5b1U)
-
-<p class="clip-credit"><strong>Seatbelt Takedown to Back</strong> — taught by Progressive FORCE Concepts · 1:54 · <a href="https://www.youtube.com/watch?v=F6bTABR5b1U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-lMabjvtaLk)
-
-<p class="clip-credit"><strong>Entries Into Rear Triangle Back Position</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> — taught by Ben Kool · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -468,7 +430,7 @@ Partner starts in turtle position. Practice back take entry establishing harness
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

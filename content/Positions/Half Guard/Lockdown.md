@@ -36,50 +36,6 @@ description: "Master Lockdown position in BJJ. 10th Planet's revolutionary half 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Lockdown \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Lockdown clinches (MTS 176)",
-      "description": "Lockdown film study: Lockdown clinches (MTS 176), taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
-      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Understanding the Lockdown",
-      "description": "Lockdown film study: Understanding the Lockdown, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y0D5lpXsf1U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Y0D5lpXsf1U",
-      "url": "https://www.youtube.com/watch?v=Y0D5lpXsf1U",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT503S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lockdown entries",
-      "description": "Lockdown film study: Lockdown entries, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2ajPv8XKfvY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2ajPv8XKfvY",
-      "url": "https://www.youtube.com/watch?v=2ajPv8XKfvY",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT115S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -111,40 +67,6 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Lockdown in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
-
-<p class="clip-credit"><strong>Lockdown clinches (MTS 176)</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Y0D5lpXsf1U)
-
-<p class="clip-credit"><strong>Understanding the Lockdown</strong> — taught by Brandon McCaghren · 8:23 · <a href="https://www.youtube.com/watch?v=Y0D5lpXsf1U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2ajPv8XKfvY)
-
-<p class="clip-credit"><strong>Lockdown entries</strong> — taught by Eddie Bravo · 1:55 · <a href="https://www.youtube.com/watch?v=2ajPv8XKfvY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -288,7 +210,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - Never allow opponent to secure underhook on trapped-leg side without immediate defensive response
 
-- Keep weight distributed to prevent whip-up and Old School sweep attempts
+- Keep weight distributed to prevent whip-up and Old School sweep attempts. In this example, the narrator describes Gordon keeping his head over Andre's or toward the near side while freeing his foot from lockdown, making it harder for Andre to off-balance him toward the underhook side. Only after freeing the foot does Gordon commit more weight over the far shoulder. Narration: [Less Impressed More Involved BJJ, 16:03.72–16:53.759](https://www.youtube.com/watch?v=XGBHXO-EMk0&t=963s).
 
 - Time leg extraction attempts when opponent is defensive or adjusting position
 

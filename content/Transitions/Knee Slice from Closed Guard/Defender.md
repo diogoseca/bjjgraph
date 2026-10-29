@@ -168,35 +168,22 @@ description: "Learn to defend and counter the knee slice pass from closed guard 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee-elbow connection response to the knee cut",
-      "description": "Knee Slice from Closed Guard (Defender) film study: Knee-elbow connection response to the knee cut, taught by Cal McDonald.",
+      "name": "101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response",
+      "description": "Knee Slice from Closed Guard (Defender) film study: 101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rP8SOouke1s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rP8SOouke1s",
       "url": "https://www.youtube.com/watch?v=rP8SOouke1s",
-      "creator": { "@type": "Person", "name": "Cal McDonald" },
       "duration": "PT57S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Countering the knee slice pass",
-      "description": "Knee Slice from Closed Guard (Defender) film study: Countering the knee slice pass, taught by Kohbukan Sisu.",
+      "name": "Knee Slice Pass Counter",
+      "description": "Knee Slice from Closed Guard (Defender) film study: Knee Slice Pass Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yiIHeo7NgsE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yiIHeo7NgsE",
       "url": "https://www.youtube.com/watch?v=yiIHeo7NgsE",
-      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
       "duration": "PT58S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guard retention: when to sit up escape",
-      "description": "Knee Slice from Closed Guard (Defender) film study: Guard retention: when to sit up escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
     }
   ]
 }
@@ -226,7 +213,7 @@ Defending the knee slice from closed guard requires recognizing the pass attempt
 
 ![](https://www.youtube.com/watch?v=rP8SOouke1s)
 
-<p class="clip-credit"><strong>Knee-elbow connection response to the knee cut</strong> — taught by Cal McDonald · 0:57 · <a href="https://www.youtube.com/watch?v=rP8SOouke1s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=rP8SOouke1s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,15 +221,7 @@ Defending the knee slice from closed guard requires recognizing the pass attempt
 
 ![](https://www.youtube.com/watch?v=yiIHeo7NgsE)
 
-<p class="clip-credit"><strong>Countering the knee slice pass</strong> — taught by Kohbukan Sisu · 0:58 · <a href="https://www.youtube.com/watch?v=yiIHeo7NgsE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
-
-<p class="clip-credit"><strong>Guard retention: when to sit up escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Slice Pass Counter</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=yiIHeo7NgsE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

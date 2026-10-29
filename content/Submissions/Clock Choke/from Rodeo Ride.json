@@ -418,29 +418,16 @@
       {
         "id": "grDZ5vo84bg",
         "title": "Turtle Control & Clock Choke",
-        "by": "CVL BJJ",
-        "vertical": false,
         "channel": "CVL BJJ",
         "duration": 135,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "VXP06YF8v10",
-        "title": "Chokes from Turtle",
-        "by": "Marcello Monteiro",
-        "vertical": false,
-        "channel": "Butch Hiles Brazilian Jiu Jitsu & MMA, LLC - Charleston, WV",
-        "duration": 48,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "vX8n_1YUZJs",
-        "title": "Clock Choke",
-        "by": "Wallid Ismail",
-        "vertical": false,
+        "title": "Wallid Ismail clock choke (week 14)",
         "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
         "duration": 171,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -616,31 +603,25 @@
     ],
     "clips": [
       {
+        "id": "bHIR07WZ8yI",
+        "title": "Clock Choke from Turtle Escape Jiu Jitsu",
+        "channel": "Andy Tong",
+        "duration": 16,
+        "vertical": false
+      },
+      {
         "id": "vckXustqtpQ",
-        "title": "Clock Choke Defense",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "BJJ Clock Choke Defense",
         "channel": "Revolution BJJ Ashland",
         "duration": 63,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "Ivs8Lt1oI0I",
         "title": "Clock Choke Escape #1",
-        "by": "Vilanova BJJ",
-        "vertical": false,
         "channel": "Vilanova Brazilian Jiu Jitsu",
         "duration": 103,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "bHIR07WZ8yI",
-        "title": "Clock Choke from Turtle Escape",
-        "by": "Andy Tong",
-        "vertical": false,
-        "channel": "Andy Tong",
-        "duration": 17,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

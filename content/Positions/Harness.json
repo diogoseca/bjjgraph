@@ -512,30 +512,13 @@
     "clips": [
       {
         "id": "MwxnveKrlxU",
-        "title": "Seatbelt Grip Quick Fix",
+        "title": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
         "by": "Ben Kool",
         "vertical": false,
         "channel": "Ben Kool Tech",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "F6bTABR5b1U",
-        "title": "Seatbelt Takedown to Back",
-        "by": "Progressive FORCE Concepts",
-        "vertical": false,
-        "channel": "Progressive FORCE Concepts",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-lMabjvtaLk",
-        "title": "Entries Into Rear Triangle Back Position",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 252,
-        "verified": "2026-07-14"
+        "duration": 61,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -740,11 +723,6 @@
       {
         "condition": "If opponent establishes one or both hooks while maintaining harness",
         "actions": [
-          {
-            "technique": "Elbow Escape to Remove Hooks",
-            "target": "Harness",
-            "probability": 55
-          },
           {
             "technique": "Granby Roll to Guard",
             "target": "Open Guard",
@@ -953,31 +931,12 @@
     ],
     "clips": [
       {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up From Turtle/Back Defense",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
+        "id": "Wga4PfuShEg",
+        "title": "Back Control (Defending) Seatbelt Grip",
+        "channel": "Academy Jiu Jitsu",
         "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "BL0RhUlKPQs",
-        "title": "Simple Standing Rear Naked Choke Escape",
-        "by": "Henry Akins",
         "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 205,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "3Jd2llamfl8",
-        "title": "Back Control Escape Explained Simply",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 189,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1083,22 +1042,14 @@
   ],
   "clips": [
     {
-      "id": "lpgcKpIgClw",
-      "title": "Why You Keep Losing The Back",
-      "by": "Brandon Mccaghren",
+      "id": "MwxnveKrlxU",
+      "title": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
+      "by": "Ben Kool",
       "vertical": false,
-      "channel": "Brandon Mccaghren",
-      "duration": 143,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "-lMabjvtaLk",
-      "title": "Entries Into Rear Triangle Back Position",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 252,
-      "verified": "2026-07-14"
+      "channel": "Ben Kool Tech",
+      "duration": 61,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

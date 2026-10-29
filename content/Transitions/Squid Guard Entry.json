@@ -85,10 +85,6 @@
       "relationship": "Submission option from squid guard when opponent postures"
     },
     {
-      "name": "Back Take",
-      "relationship": "Follow-up when opponent attempts backstep escape from squid guard"
-    },
-    {
       "name": "Lapel Sweep to Back",
       "relationship": "Primary sweep option using squid guard configuration"
     },
@@ -408,21 +404,11 @@
     "clips": [
       {
         "id": "mIUc5788gsw",
-        "title": "Squid guard entry against a standing opponent",
-        "by": "Adam Bradley",
-        "vertical": false,
+        "title": "Adam Bradley (Trab)~ Squid guard entry against standing then sweep",
         "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
         "duration": 56,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MrhKi486Wr4",
-        "title": "Squid guard to switch X guard sweep",
-        "by": "BJJ Online",
         "vertical": false,
-        "channel": "BJJ ONLINE",
-        "duration": 77,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -606,35 +592,7 @@
         "description": "Start with partner in established lapel guard with instruction to enter squid guard. Defend the entry and immediately pass or reset. Track prevention rate and identify which defensive response works best against your training partners' specific squid guard styles."
       }
     ],
-    "clips": [
-      {
-        "id": "aR0dbddbfQA",
-        "title": "Passing the worm rider lapel guard",
-        "by": "Daniel Maira",
-        "vertical": false,
-        "channel": "Movement Art",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "U6h4HKtwqU4",
-        "title": "Fio dental lapel guard pass",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "U-d9fLP9eAo",
-        "title": "Reverse de la worm smash pass defense",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 62,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

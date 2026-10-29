@@ -83,10 +83,6 @@
       "relationship": "Follow-up submission finish from armbar control to complete the submission"
     },
     {
-      "name": "Back Take",
-      "relationship": "Primary alternative transition from reverse mount creating dilemma system"
-    },
-    {
       "name": "Closed Guard",
       "relationship": "Counter outcome position when opponent successfully reguards"
     },
@@ -395,26 +391,7 @@
       }
     ],
     "safety_considerations": "The armbar hyperextends the elbow joint and can cause serious ligament and tendon damage if applied forcefully or without control. During training, apply pressure gradually and smoothly, giving your partner adequate time to recognize the submission and tap. Release immediately upon feeling any tap signal whether on your body, the mat, or verbal. Be especially careful during the pivot transition from reverse mount, as sudden weight shifts can apply unexpected torque on the elbow before either partner is prepared. Always communicate with your training partner about pre-existing elbow or shoulder injuries before drilling. In competition, controlled application allows the referee time to intervene if necessary.",
-    "clips": [
-      {
-        "id": "8UgR95y_q7I",
-        "title": "Reverse armbar from mount, no-gi",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 168,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "VhdQO_EjaUw",
-        "title": "Reverse armbar quick demo",
-        "by": "Sensei Pacer",
-        "vertical": false,
-        "channel": "Sensei Pacer",
-        "duration": 17,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Armbar from Reverse Mount Defender",
@@ -591,34 +568,6 @@
         "description": "Positional sparring starting in reverse mount with attacker specifically hunting armbars. Defender works to prevent armbar control, escape to closed guard, or force the attacker to abandon the attempt. 2-minute rounds with full resistance. Track defense success rate and identify which defensive techniques are most reliable under pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "KuhIFZMNIKs",
-        "title": "Fixing your armbar defense",
-        "by": "Michael Currier",
-        "vertical": false,
-        "channel": "Michael Currier BJJ",
-        "duration": 105,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "Armbar escape fundamentals",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C0OsN1gteBQ",
-        "title": "Escaping the armbar",
-        "by": "Booster Fightgear",
-        "vertical": false,
-        "channel": "Booster Fightgear",
-        "duration": 78,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

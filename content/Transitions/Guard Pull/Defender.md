@@ -152,35 +152,12 @@ description: "How to defend against Guard Pull in BJJ. Recognition cues, defensi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering the guard pull",
-      "description": "Guard Pull (Defender) film study: Countering the guard pull, taught by Seymour Yang.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aaE1IFqvknI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aaE1IFqvknI",
-      "url": "https://www.youtube.com/watch?v=aaE1IFqvknI",
-      "creator": { "@type": "Person", "name": "Seymour Yang" },
-      "duration": "PT93S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Intercepting the guard pull",
-      "description": "Guard Pull (Defender) film study: Intercepting the guard pull, taught by Riccardo Ammendolia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oaOB2XovGYE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oaOB2XovGYE",
-      "url": "https://www.youtube.com/watch?v=oaOB2XovGYE",
-      "creator": { "@type": "Person", "name": "Riccardo Ammendolia" },
-      "duration": "PT49S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Drill: countering the guard pull",
-      "description": "Guard Pull (Defender) film study: Drill: countering the guard pull, taught by Seymour Yang.",
+      "name": "Drill: Countering the Guard Pull",
+      "description": "Guard Pull (Defender) film study: Drill: Countering the Guard Pull.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3vrSYH0xbxg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3vrSYH0xbxg",
       "url": "https://www.youtube.com/watch?v=3vrSYH0xbxg",
-      "creator": { "@type": "Person", "name": "Seymour Yang" },
-      "duration": "PT184S"
+      "duration": "PT183S"
     }
   ]
 }
@@ -208,25 +185,9 @@ Defending the guard pull requires reading your opponent's grip intentions, recog
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aaE1IFqvknI)
-
-<p class="clip-credit"><strong>Countering the guard pull</strong> — taught by Seymour Yang · 1:33 · <a href="https://www.youtube.com/watch?v=aaE1IFqvknI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oaOB2XovGYE)
-
-<p class="clip-credit"><strong>Intercepting the guard pull</strong> — taught by Riccardo Ammendolia · 0:49 · <a href="https://www.youtube.com/watch?v=oaOB2XovGYE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=3vrSYH0xbxg)
 
-<p class="clip-credit"><strong>Drill: countering the guard pull</strong> — taught by Seymour Yang · 3:04 · <a href="https://www.youtube.com/watch?v=3vrSYH0xbxg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Drill: Countering the Guard Pull</strong> · 3:03 · <a href="https://www.youtube.com/watch?v=3vrSYH0xbxg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

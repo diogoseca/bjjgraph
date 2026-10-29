@@ -165,24 +165,12 @@ description: "Master defending and escaping gogoplata control from top position 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to do the gogoplata",
-      "description": "Gogoplata Control (Top) film study: How to do the gogoplata, taught by jamielovesmartialarts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VbLlhI0aZC8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VbLlhI0aZC8",
-      "url": "https://www.youtube.com/watch?v=VbLlhI0aZC8",
-      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Gogoplata variations from a high guard",
-      "description": "Gogoplata Control (Top) film study: Gogoplata variations from a high guard, taught by SpringHill BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PqAJraYllQI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PqAJraYllQI",
-      "url": "https://www.youtube.com/watch?v=PqAJraYllQI",
-      "creator": { "@type": "Person", "name": "SpringHill BJJ" },
-      "duration": "PT88S"
+      "name": "gogoplata defense",
+      "description": "Gogoplata Control (Top) film study: gogoplata defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7WcJK3B-Gwc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7WcJK3B-Gwc",
+      "url": "https://www.youtube.com/watch?v=7WcJK3B-Gwc",
+      "duration": "PT101S"
     }
   ]
 }
@@ -218,17 +206,9 @@ The position also provides important lessons about submission defense principles
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=VbLlhI0aZC8)
+![](https://www.youtube.com/watch?v=7WcJK3B-Gwc)
 
-<p class="clip-credit"><strong>How to do the gogoplata</strong> — taught by jamielovesmartialarts · 1:08 · <a href="https://www.youtube.com/watch?v=VbLlhI0aZC8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PqAJraYllQI)
-
-<p class="clip-credit"><strong>Gogoplata variations from a high guard</strong> — taught by SpringHill BJJ · 1:28 · <a href="https://www.youtube.com/watch?v=PqAJraYllQI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>gogoplata defense</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=7WcJK3B-Gwc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -166,35 +166,12 @@ description: "How to defend against Half Guard Pass in BJJ. Recognition cues, de
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard retention: when to sit up escape",
-      "description": "Half Guard Pass (Defender) film study: Guard retention: when to sit up escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard recovery when you get smashed",
-      "description": "Half Guard Pass (Defender) film study: Guard recovery when you get smashed, taught by Finesse Jiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
-      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
-      "creator": { "@type": "Person", "name": "Finesse Jiujitsu" },
-      "duration": "PT103S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Get a better underhook from bottom half guard",
-      "description": "Half Guard Pass (Defender) film study: Get a better underhook from bottom half guard, taught by Jiu-Jitsu Collective.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LI0MQp3oh7g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LI0MQp3oh7g",
-      "url": "https://www.youtube.com/watch?v=LI0MQp3oh7g",
-      "creator": { "@type": "Person", "name": "Jiu-Jitsu Collective" },
-      "duration": "PT188S"
+      "name": "Recovering The Underhook From Bottom Half-Guard",
+      "description": "Half Guard Pass (Defender) film study: Recovering The Underhook From Bottom Half-Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZP6eavAmATU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZP6eavAmATU",
+      "url": "https://www.youtube.com/watch?v=ZP6eavAmATU",
+      "duration": "PT230S"
     }
   ]
 }
@@ -226,25 +203,9 @@ At the advanced level, half guard defense becomes a series of interconnected off
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+![](https://www.youtube.com/watch?v=ZP6eavAmATU)
 
-<p class="clip-credit"><strong>Guard retention: when to sit up escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BhNZGloJ56c)
-
-<p class="clip-credit"><strong>Guard recovery when you get smashed</strong> — taught by Finesse Jiujitsu · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LI0MQp3oh7g)
-
-<p class="clip-credit"><strong>Get a better underhook from bottom half guard</strong> — taught by Jiu-Jitsu Collective · 3:08 · <a href="https://www.youtube.com/watch?v=LI0MQp3oh7g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Recovering The Underhook From Bottom Half-Guard</strong> · 3:50 · <a href="https://www.youtube.com/watch?v=ZP6eavAmATU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

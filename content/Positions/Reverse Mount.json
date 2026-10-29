@@ -398,26 +398,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a full inversion",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "GJJEZjzzGBw",
-        "title": "The Knee Drop Technique",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 271,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Reverse Mount Bottom",
@@ -787,35 +768,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "bNdt6jVatj4",
-        "title": "Inverted mount escape to ashi garami",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "0xYFYI9LkUQ",
-        "title": "Defending Roll to Far Side With Near Hook",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 144,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bYx7xldM7Ls",
-        "title": "Two Ideas for Escaping the Mount",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 775,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -931,33 +884,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "aQ2vFXXBn-o",
-      "title": "Countering a full inversion",
-      "by": "Gordon Ryan",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 61,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "kft2AkvKhWU",
-      "title": "Mount control fundamentals and pin retention",
-      "by": "Gordon Ryan",
-      "vertical": false,
-      "channel": "Bernardo Faria BJJ Fanatics",
-      "duration": 538,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "RTMJDbZnFO0",
-      "title": "Holding the middle mount pin",
-      "by": "SBG coach",
-      "vertical": false,
-      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-      "duration": 154,
-      "verified": "2026-07-15"
-    }
-  ]
+  "clips": []
 }

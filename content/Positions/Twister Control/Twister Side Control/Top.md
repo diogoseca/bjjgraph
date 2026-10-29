@@ -21,37 +21,37 @@ description: "Control twister side control from top position with systematic sub
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Shoulder of Justice",
-      "text": "From this position, attempt Side Control to Shoulder of Justice. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Shoulder of Justice. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Darce Choke from Twister Side Control",
+      "text": "From this position, attempt Darce Choke from Twister Side Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce Choke from Twister Side Control",
-      "text": "From this position, attempt Darce Choke from Twister Side Control. This technique is attempted in 10% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Kimura from Twister Side Control",
-      "text": "From this position, attempt Kimura from Twister Side Control. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
+      "text": "From this position, attempt Kimura from Twister Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
       "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke",
-      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 8% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Arm Triangle from Twister Side Control",
+      "text": "From this position, attempt Arm Triangle from Twister Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -155,50 +155,6 @@ description: "Control twister side control from top position with systematic sub
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Twister Side Control (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Twister side control",
-      "description": "Twister Side Control (Top) film study: Twister side control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
-      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Twister side attacks",
-      "description": "Twister Side Control (Top) film study: Twister side attacks, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
-      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Truck options from twister side control",
-      "description": "Twister Side Control (Top) film study: Truck options from twister side control, taught by Jeremiah Vance.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/im8KbQUyxLY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/im8KbQUyxLY",
-      "url": "https://www.youtube.com/watch?v=im8KbQUyxLY",
-      "creator": { "@type": "Person", "name": "Jeremiah Vance" },
-      "duration": "PT42S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -219,40 +175,6 @@ The learning progression for Twister Side Control top is significant, with begin
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Twister Side Control (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R55lmkc6Mus)
-
-<p class="clip-credit"><strong>Twister side control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=odT3-cVWXdc)
-
-<p class="clip-credit"><strong>Twister side attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=im8KbQUyxLY)
-
-<p class="clip-credit"><strong>Truck options from twister side control</strong> — taught by Jeremiah Vance · 0:42 · <a href="https://www.youtube.com/watch?v=im8KbQUyxLY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -315,7 +237,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 
 **If bottom player turns away exposing their back to escape shoulder pressure:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Twister SC to Back Take/Attacker|Twister SC to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
 - Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
 
 

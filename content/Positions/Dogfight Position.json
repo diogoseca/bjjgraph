@@ -165,11 +165,6 @@
         "condition": "If opponent loses whizzer control, exposes their back, or commits weight forward excessively",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
             "technique": "Underhook Sweep from Dogfight",
             "target": "Side Control",
             "probability": 65
@@ -194,11 +189,6 @@
       {
         "condition": "If opponent attempts to circle their trapped leg free while maintaining balance",
         "actions": [
-          {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 60
-          },
           {
             "technique": "Dogfight Sweep",
             "target": "Side Control",
@@ -459,31 +449,12 @@
     ],
     "clips": [
       {
-        "id": "InGMvIP5tqg",
-        "title": "3 Submissions from the Dog Fight",
-        "by": "Geo Martinez",
-        "vertical": true,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vMqDIi10z4k",
-        "title": "Dog Bar",
-        "by": "Craig Jones",
+        "id": "8mXBDHXrAu4",
+        "title": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
+        "channel": "Wrecking Crew BJJ",
+        "duration": 59,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "4rXi8YQ3o5k",
-        "title": "Pass the Dog Fight to Mount",
-        "by": "Christian Diaz",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 241,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -610,11 +581,6 @@
         "condition": "If opponent loses whizzer control, exposes their back, or commits weight forward excessively",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
             "technique": "Underhook Sweep from Dogfight",
             "target": "Side Control",
             "probability": 65
@@ -639,11 +605,6 @@
       {
         "condition": "If opponent attempts to circle their trapped leg free while maintaining balance",
         "actions": [
-          {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 60
-          },
           {
             "technique": "Dogfight Sweep",
             "target": "Side Control",
@@ -904,31 +865,23 @@
     ],
     "clips": [
       {
-        "id": "8mXBDHXrAu4",
-        "title": "Whizzer to Win the Dog Fight",
-        "by": "Wrecking Crew BJJ",
+        "id": "X4jR2wWOy2M",
+        "title": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
+        "by": "The Base Jiu Jitsu",
         "vertical": false,
-        "channel": "Wrecking Crew BJJ",
-        "duration": 60,
-        "verified": "2026-07-14"
+        "channel": "The Base Jiu Jitsu",
+        "duration": 79,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "OAlwVyNmNqE",
-        "title": "Bottom Half Guard to Dogfight Back Take",
+        "title": "The Bottom Half Guard to Dog Fight to Back Take",
         "by": "Broadway JiuJitsu",
         "vertical": false,
         "channel": "Broadway JiuJitsu",
         "duration": 148,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "OghklyfXB-Q",
-        "title": "Coyote Half Guard to Rollover Sweep",
-        "by": "Holy Grail BJJ",
-        "vertical": false,
-        "channel": "Holy Grail BJJ",
-        "duration": 103,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1034,31 +987,34 @@
   ],
   "clips": [
     {
+      "id": "8mXBDHXrAu4",
+      "title": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
+      "by": "Wrecking Crew BJJ",
+      "vertical": false,
+      "channel": "Wrecking Crew BJJ",
+      "duration": 59,
+      "verified": "2026-10-19",
+      "half": "top"
+    },
+    {
       "id": "X4jR2wWOy2M",
-      "title": "Half Guard to the Dogfight",
+      "title": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
       "by": "The Base Jiu Jitsu",
       "vertical": false,
       "channel": "The Base Jiu Jitsu",
       "duration": 79,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "bottom"
     },
     {
       "id": "fjDBmFzfhgI",
-      "title": "Dog Fight Basics: Plan B & Old School Sweep",
+      "title": "DOG FIGHT BASICS (Plan B & Oldschool Sweep)",
       "by": "Brandon Mccaghren",
       "vertical": false,
       "channel": "Brandon Mccaghren",
-      "duration": 145,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "0uz58YFhIv8",
-      "title": "Understanding the Timing of the Dog Fight",
-      "by": "Brandon Mccaghren",
-      "vertical": false,
-      "channel": "Brandon Mccaghren",
-      "duration": 187,
-      "verified": "2026-07-14"
+      "duration": 144,
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

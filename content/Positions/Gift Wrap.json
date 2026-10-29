@@ -504,31 +504,32 @@
     ],
     "clips": [
       {
-        "id": "eKTd-9SkrVk",
-        "title": "Taking the back from the gift wrap",
-        "by": "Henry Akins",
+        "id": "5bw7poxVJ1E",
+        "title": "The Gift Wrap in 2 Minutes - No GI BJJ",
+        "by": "Brian Glick",
         "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 81,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "X3yIMfhGHnk",
-        "title": "Mount to gift wrap to tap",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 92,
-        "verified": "2026-07-14"
+        "channel": "Brian Glick",
+        "duration": 111,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "-ypj83J2Ngk",
-        "title": "Side control sit back, gift wrap to back",
+        "title": "Side Control Sit Back Gift Wrap to Back",
         "by": "Watauga BJJ",
         "vertical": false,
         "channel": "Watauga BJJ",
-        "duration": 24,
-        "verified": "2026-07-14"
+        "duration": 23,
+        "verified": "2026-10-19"
+      },
+      {
+        "id": "eKTd-9SkrVk",
+        "title": "Taking The Back - GIFT WRAP",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 80,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -874,80 +875,54 @@
       {
         "transition": "Gift Wrap Arm Recovery",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 21
+          "gi": 20,
+          "nogi": 23
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 15
+          "gi": 18,
+          "nogi": 17
         }
       },
       {
         "transition": "Roll to Turtle",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Shrimp Escape",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 15
-        }
-      },
-      {
-        "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
+          "gi": 20,
+          "nogi": 17
         }
       },
       {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Counter Roll to Top",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 6
+          "gi": 6,
+          "nogi": 7
         }
       }
     ],
-    "clips": [
-      {
-        "id": "KyqooDo1w68",
-        "title": "Escaping back control / gift wrap",
-        "by": "BJJ101",
-        "vertical": false,
-        "channel": "BJJ101",
-        "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "jv_nitah_-s",
-        "title": "Back control escape basics",
-        "by": "Amazin BJJ",
-        "vertical": false,
-        "channel": "AMAZIN BJJ",
-        "duration": 41,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1066,30 +1041,33 @@
   "clips": [
     {
       "id": "5bw7poxVJ1E",
-      "title": "The gift wrap in 2 minutes",
+      "title": "The Gift Wrap in 2 Minutes - No GI BJJ",
       "by": "Brian Glick",
       "vertical": false,
       "channel": "Brian Glick",
-      "duration": 112,
-      "verified": "2026-07-14"
+      "duration": 111,
+      "verified": "2026-10-19",
+      "half": "top"
     },
     {
       "id": "EOv5GYpUYDw",
-      "title": "Gift wrap backtake (intro)",
+      "title": "1.3 Giftwrap Backtake (Intro Version)",
       "by": "BJJ Lab Zurich",
       "vertical": false,
       "channel": "BJJ Lab Zürich",
       "duration": 69,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     },
     {
       "id": "UIWX13Sx-zw",
-      "title": "3 back takes from mount using the gift wrap",
+      "title": "3 Back Takes From Mount Using The Gift Wrap Control",
       "by": "MMA Leech",
       "vertical": false,
       "channel": "MMA Leech",
       "duration": 224,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

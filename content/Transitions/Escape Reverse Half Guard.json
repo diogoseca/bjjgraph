@@ -383,21 +383,11 @@
     "clips": [
       {
         "id": "BkKzK5GQCZA",
-        "title": "Escaping bottom reverse half guard: 3 sweeps",
-        "by": "Kameron Ross",
-        "vertical": false,
+        "title": "How to ESCAPE from bottom Reverse Half Guard : 3 EASY Sweeps!",
         "channel": "Kameron Ross",
         "duration": 56,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "rja-2KKDGb0",
-        "title": "Dealing with the switch base from half guard",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 284,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -562,25 +552,6 @@
         "description": "Start in reverse half guard top with partner at full resistance attempting to escape. Top player scores by taking back or completing pass, bottom player scores by recovering standard half guard. Five-minute rounds developing real-time defensive decision-making under pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "G1gAIOZ3sbc",
-        "title": "Half guard escape",
-        "by": "Unknown coach",
-        "vertical": false,
-        "channel": "Mutual Combat sports and Fitness",
-        "duration": 31,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Freeing your foot while passing half guard",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

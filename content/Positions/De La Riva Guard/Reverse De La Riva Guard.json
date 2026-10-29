@@ -522,31 +522,23 @@
     ],
     "clips": [
       {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a Full Inversion",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "cOUEcFxDtL8",
-        "title": "Reverse De La Riva Guard Pass",
+        "title": "Reverse Dela Riva Guard Pass with Frankie Roberts, Silver Fox BJJ Black Belt.",
         "by": "Frankie Roberts",
         "vertical": false,
         "channel": "Frankie Roberts",
         "duration": 58,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "ynFpOlFWdLw",
-        "title": "Passing Reverse De La Riva",
+        "title": "RTC | Passing Reverse De La Riva",
         "by": "Ronin Training Center",
         "vertical": false,
         "channel": "Ronin Training Center",
-        "duration": 68,
-        "verified": "2026-07-14"
+        "duration": 67,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -604,7 +596,7 @@
         "condition": "If opponent stands up tall or attempts to disengage from hook engagement",
         "actions": [
           {
-            "technique": "Kiss of the Dragon",
+            "technique": "Kiss of the Dragon from RDLR",
             "target": "Back Control",
             "probability": 60
           },
@@ -1006,22 +998,14 @@
     ],
     "clips": [
       {
-        "id": "9cyNdPpL4-I",
-        "title": "Reverse De La Riva into a Knee Bar",
-        "by": "Pardee BJJ",
-        "vertical": false,
-        "channel": "Pardee BJJ",
-        "duration": 65,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "_beJGS2-yIE",
-        "title": "How to Use Reverse De La Riva",
+        "title": "How to Use Reverse De La Riva by Lachlan Giles",
         "by": "Lachlan Giles",
         "vertical": false,
         "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
-        "duration": 122,
-        "verified": "2026-07-14"
+        "duration": 121,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1139,33 +1123,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "DzNwu5_EBiA",
-      "title": "Reverse De La Riva to the Back (No-Gi)",
-      "by": "Revolution BJJ",
-      "vertical": false,
-      "channel": "Revolution BJJ",
-      "duration": 44,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "G0PyHbMyyR4",
-      "title": "Reverse De La Riva No-Gi Showcase",
-      "by": "Best Jiu Jitsu",
-      "vertical": false,
-      "channel": "Best Jiu Jitsu #shorts",
-      "duration": 37,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "gR54h1IXyGg",
-      "title": "Knee Shield Reverse DLR to Triangle",
-      "by": "Lucas Lepri",
-      "vertical": false,
-      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
-      "duration": 22,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

@@ -21,13 +21,13 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     {
       "@type": "HowToStep",
       "name": "Execute KOB to Mount",
-      "text": "From this position, attempt KOB to Mount. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt KOB to Mount. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Far Side Armbar from KOB",
-      "text": "From this position, attempt Far Side Armbar from KOB. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Far Side Armbar from KOB. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
@@ -45,13 +45,13 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     {
       "@type": "HowToStep",
       "name": "Execute KOB to Side Control",
-      "text": "From this position, attempt KOB to Side Control. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt KOB to Side Control. This technique is attempted in 19% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Knee on Belly",
-      "text": "From this position, attempt Kimura from Knee on Belly. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Knee on Belly. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -166,35 +166,12 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ryron Gracie\u0027s Favorite Knee-on-Belly Attack",
-      "description": "Knee on Belly (Top) film study: Ryron Gracie\u0027s Favorite Knee-on-Belly Attack, taught by Ryron Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pa6Z7mP9VKU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pa6Z7mP9VKU",
-      "url": "https://www.youtube.com/watch?v=pa6Z7mP9VKU",
-      "creator": { "@type": "Person", "name": "Ryron Gracie" },
-      "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "3 Knee-on-Belly Attacks for Beginners",
-      "description": "Knee on Belly (Top) film study: 3 Knee-on-Belly Attacks for Beginners, taught by Lucas Lepri.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XNhDD7N4JNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XNhDD7N4JNY",
-      "url": "https://www.youtube.com/watch?v=XNhDD7N4JNY",
-      "creator": { "@type": "Person", "name": "Lucas Lepri" },
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee on Belly to Brabo Choke",
-      "description": "Knee on Belly (Top) film study: Knee on Belly to Brabo Choke, taught by Edward Anthony.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/johFGyE29pY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/johFGyE29pY",
-      "url": "https://www.youtube.com/watch?v=johFGyE29pY",
-      "creator": { "@type": "Person", "name": "Edward Anthony" },
-      "duration": "PT51S"
+      "name": "Mauricio explains the knee on belly position",
+      "description": "Knee on Belly (Top) film study: Mauricio explains the knee on belly position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7vz2X2cGiOs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7vz2X2cGiOs",
+      "url": "https://www.youtube.com/watch?v=7vz2X2cGiOs",
+      "duration": "PT79S"
     }
   ]
 }
@@ -223,25 +200,9 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pa6Z7mP9VKU)
+![](https://www.youtube.com/watch?v=7vz2X2cGiOs)
 
-<p class="clip-credit"><strong>Ryron Gracie&#39;s Favorite Knee-on-Belly Attack</strong> — taught by Ryron Gracie · 0:52 · <a href="https://www.youtube.com/watch?v=pa6Z7mP9VKU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XNhDD7N4JNY)
-
-<p class="clip-credit"><strong>3 Knee-on-Belly Attacks for Beginners</strong> — taught by Lucas Lepri · 1:08 · <a href="https://www.youtube.com/watch?v=XNhDD7N4JNY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=johFGyE29pY)
-
-<p class="clip-credit"><strong>Knee on Belly to Brabo Choke</strong> — taught by Edward Anthony · 0:51 · <a href="https://www.youtube.com/watch?v=johFGyE29pY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mauricio explains the knee on belly position</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=7vz2X2cGiOs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -313,7 +274,6 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 
 **If opponent turns to side attempting to escape:**
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 50%)
 - Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 70%)
 
 
@@ -442,10 +402,10 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position: Knee on Belly.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Knee on Belly.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Knee on Belly.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: Knee on Belly.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: Knee on Belly.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Knee on Belly.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Knee on Belly.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie: Closed Guard</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Defensive Priorities Under IBJJF Rules</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position reference for defensive decision study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Sport Grappling and Self-Defense</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Related position: Knee on Belly.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

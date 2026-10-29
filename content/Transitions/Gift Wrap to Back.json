@@ -70,10 +70,6 @@
       "relationship": "Complementary attack whose threat creates the turning reaction needed for gift wrap"
     },
     {
-      "name": "Back Take",
-      "relationship": "General back take technique category this transition belongs to"
-    },
-    {
       "name": "Mounted Crucifix",
       "relationship": "Alternative destination when opponent's far arm is trapped during rotation"
     },
@@ -366,35 +362,7 @@
       }
     ],
     "safety_considerations": "The Gift Wrap to Back transition is generally low-risk for injury when performed correctly. The primary safety concern is shoulder strain on the trapped arm if excessive force is applied to the gift wrap grip. Always apply control progressively rather than jerking the arm into position. During training, communicate with your partner if the shoulder position feels compromised. Avoid cranking the arm beyond its natural range of motion—the technique works through positional control, not joint manipulation. When drilling, release immediately if your partner taps or indicates discomfort in the shoulder.",
-    "clips": [
-      {
-        "id": "eKTd-9SkrVk",
-        "title": "Taking the back from the gift wrap",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 81,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EOv5GYpUYDw",
-        "title": "Gift wrap back take",
-        "by": "BJJ Lab Zürich",
-        "vertical": false,
-        "channel": "BJJ Lab Zürich",
-        "duration": 69,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-ypj83J2Ngk",
-        "title": "Sit back gift wrap to the back",
-        "by": "Watauga BJJ",
-        "vertical": false,
-        "channel": "Watauga BJJ",
-        "duration": 24,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Gift Wrap to Back Defender",
@@ -575,26 +543,7 @@
         "description": "Positional sparring starting from S Mount bottom. Partner uses full arsenal of attacks including armbar threats to set up the gift wrap. Defend against the complete dilemma system with full resistance. Track how often the back take is completed vs. defended, identifying remaining defensive gaps."
       }
     ],
-    "clips": [
-      {
-        "id": "q20Bxge55hk",
-        "title": "Super Simple Way to Avoid the Gift Wrap",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 719,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MMuT666UdS4",
-        "title": "Back Escape: Stop the Progression to Mount",
-        "by": "Plus One Defense Systems",
-        "vertical": false,
-        "channel": "Plus One Defense Systems",
-        "duration": 180,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

@@ -87,7 +87,7 @@
       "Establish dominant upper body control (crossface or shoulder pressure) to flatten opponent and limit mobility",
       "Work systematically to extract trapped leg using proper angle changes and pressure application",
       "Never allow opponent to secure underhook on trapped-leg side without immediate defensive response",
-      "Keep weight distributed to prevent whip-up and Old School sweep attempts",
+      "Keep weight distributed to prevent whip-up and Old School sweep attempts. In this example, the narrator describes Gordon keeping his head over Andre's or toward the near side while freeing his foot from lockdown, making it harder for Andre to off-balance him toward the underhook side. Only after freeing the foot does Gordon commit more weight over the far shoulder. Narration: [Less Impressed More Involved BJJ, 16:03.72–16:53.759](https://www.youtube.com/watch?v=XGBHXO-EMk0&t=963s).",
       "Time leg extraction attempts when opponent is defensive or adjusting position",
       "Transition immediately to passing sequences once leg is freed from lockdown"
     ],
@@ -490,31 +490,19 @@
     ],
     "clips": [
       {
-        "id": "kTSMGYlVJKY",
-        "title": "Free your foot while passing half guard",
-        "by": "Kameron Ross",
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and…",
+        "channel": "Street Jitsu",
+        "duration": 285,
         "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "-49CypLW9aM",
-        "title": "Lockdown half guard break",
-        "by": "Superhero Jiu Jitsu Academy",
-        "vertical": false,
+        "title": "Lockdown half guard break #shorts",
         "channel": "Superhero Jiu Jitsu Academy ",
         "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ABSueJ6cwis",
-        "title": "Advanced lockdown pass with backstep",
-        "by": "Peter Mettler",
-        "vertical": false,
-        "channel": "Peter Mettler Martial Arts",
-        "duration": 98,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -698,11 +686,6 @@
             "technique": "Whip-up Sweep",
             "target": "Dogfight Position",
             "probability": 65
-          },
-          {
-            "technique": "Roll to Truck",
-            "target": "Truck",
-            "probability": 55
           }
         ]
       },
@@ -926,31 +909,11 @@
     ],
     "clips": [
       {
-        "id": "08cbHHs_NsM",
-        "title": "Corona lockdown sweep",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "OIr4wDxl-Ys",
-        "title": "Lockdown clinches (MTS 176)",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "AmOMN0S1v8Q",
-        "title": "Advanced lockdown details",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "id": "b6PvbfAz2N0",
+        "title": "BJJ LOCKDOWN || Entry and sweep options",
+        "channel": "The Grapple Lab",
+        "duration": 511,
+        "front": true
       }
     ]
   },
@@ -1068,33 +1031,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "OIr4wDxl-Ys",
-      "title": "Lockdown clinches (MTS 176)",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 60,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "Y0D5lpXsf1U",
-      "title": "Understanding the Lockdown",
-      "by": "Brandon McCaghren",
-      "vertical": false,
-      "channel": "Brandon Mccaghren",
-      "duration": 503,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "2ajPv8XKfvY",
-      "title": "Lockdown entries",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 115,
-      "verified": "2026-07-15"
-    }
-  ]
+  "clips": []
 }

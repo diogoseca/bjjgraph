@@ -433,17 +433,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "M82CDkEzxlQ",
-        "title": "Reverse X-Guard defense into rolling back take",
-        "by": "Effortless Jiu Jitsu",
-        "vertical": false,
-        "channel": "EffortlessJiuJitsu",
-        "duration": 121,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Reverse X-Guard Bottom",
@@ -825,31 +815,23 @@
     ],
     "clips": [
       {
-        "id": "lr7rlj7WV-E",
-        "title": "X-Guard to Heel Hook",
-        "by": "Craig Jones",
+        "id": "dISye8G6dpU",
+        "title": "Technique Talk: The Reverse X-Guard Entry",
+        "by": "Black Flag Submission Company",
         "vertical": false,
-        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-        "duration": 94,
-        "verified": "2026-07-14"
+        "channel": "Black Flag Submission Company",
+        "duration": 190,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "V81JTcD_fTU",
-        "title": "Half-guard to Reverse X saddle sweep",
+        "title": "Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep",
         "by": "Gracie Barra Jupiter",
         "vertical": false,
         "channel": "Gracie Barra Jupiter And Stuart",
         "duration": 141,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Kx8gZ3QdO8s",
-        "title": "Reverse X crossover to toe hold",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Bence Romanek",
-        "duration": 51,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -969,31 +951,14 @@
   ],
   "clips": [
     {
-      "id": "lr7rlj7WV-E",
-      "title": "Reverse/X-Guard to heel hook",
-      "by": "Craig Jones",
-      "vertical": false,
-      "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-      "duration": 94,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "dISye8G6dpU",
-      "title": "The Reverse X-Guard entry",
+      "title": "Technique Talk: The Reverse X-Guard Entry",
       "by": "Black Flag Submission Company",
       "vertical": false,
       "channel": "Black Flag Submission Company",
-      "duration": 191,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "yWF7dsUJOKs",
-      "title": "Single X to Reverse X to 411",
-      "by": "Factory Fresh Jiu Jitsu",
-      "vertical": false,
-      "channel": "Factory Fresh Jiu Jitsu",
-      "duration": 249,
-      "verified": "2026-07-14"
+      "duration": 190,
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

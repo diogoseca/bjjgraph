@@ -137,11 +137,6 @@ test("@curated singleton browsing fetches no dossiers and keeps its scroll and f
     a._ngc = function (key: string) { asked.push(key); return read.call(this, key); };
     try { a.openPane("explore"); } finally { a._ngc = read; }
     const solo = a.nodes.find((n: any) => n.rep && n.t === "Knee on Belly Top");
-    const open = a.openDossier;
-    a.openDossier = function (idx: number, skip: boolean) {
-      (window as any).__aliasOpened = idx;
-      return open.call(this, idx, skip);
-    };
     return { asked, id: solo.id, idx: solo.idx, size: a.buildExplorer().groups.positions["Knee on Belly"].length };
   });
   expect(browse.asked, "rendering the category never even asks the dossier cache").toEqual([]);
@@ -159,6 +154,10 @@ test("@curated singleton browsing fetches no dossiers and keeps its scroll and f
   expect(await page.evaluate(() => (window as any).__neural._exploreSectionOpen("Positions"))).toBe(true);
   await expect(page.locator(".ng-learning-list")).toContainText("aka Knee Mount");
   expect(requests, "listing singleton sites never probes either role's dossier").toEqual([]);
-  await page.locator(`.ng-learning-list [data-list-add="${browse.id}"]`).locator("..").locator("button").first().click();
-  expect(await page.evaluate(() => (window as any).__aliasOpened)).toBe(browse.idx);
+  const row = page.locator(`.ng-learning-list [data-list-add="${browse.id}"]`).locator("..").locator("button").first();
+  await row.scrollIntoViewIfNeeded();
+  await row.evaluate(el => el.setAttribute("data-alias-singleton", ""));
+  await j.clickByMouse("[data-alias-singleton]", "read the singleton position");
+  await expect(page.locator('[data-reader-ready="true"]')).toContainText("Knee on Belly");
+  expect(await page.evaluate(() => !!(window as any).__neural._readerIntent)).toBe(true);
 });

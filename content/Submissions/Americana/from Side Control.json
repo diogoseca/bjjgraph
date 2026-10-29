@@ -511,31 +511,18 @@
     ],
     "clips": [
       {
+        "id": "T7d6kN7GDA8",
+        "title": "Side control attacks - Americana",
+        "channel": "Gracie Jiu-Jitsu Singapore",
+        "duration": 127,
+        "front": true
+      },
+      {
         "id": "mk4jR6Anm8g",
         "title": "Finishing the Americana",
-        "by": "The Muscular Octopus",
-        "vertical": false,
         "channel": "The Muscular Octopus",
         "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "swst0VGRr44",
-        "title": "Americana from side control",
-        "by": "Absolute MMA",
-        "vertical": false,
-        "channel": "Absolute MMA",
-        "duration": 96,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "wckW_4r7vbk",
-        "title": "Americana from side control",
-        "by": "Roy Dean",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 194,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -730,22 +717,18 @@
     ],
     "clips": [
       {
-        "id": "NZjUCo8os8Q",
-        "title": "Simple Americana armlock escape",
-        "by": "Eddie Kone",
-        "vertical": false,
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "id": "sf-qacbOTZI",
+        "title": "Americana Escape From Side Control",
+        "channel": "Groundworx Freestyle Jiu-Jitsu",
+        "duration": 180,
+        "front": true
       },
       {
-        "id": "x5oNak2YANY",
-        "title": "Americana defense to armbar",
-        "by": "JiuJitsu.com",
-        "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 177,
-        "verified": "2026-07-14"
+        "id": "Unz1euhI2y8",
+        "title": "Escape americana/key lock from side to chest lock.",
+        "channel": "Chuck Jack21",
+        "duration": 71,
+        "vertical": false
       }
     ]
   },

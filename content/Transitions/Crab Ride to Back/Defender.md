@@ -150,39 +150,6 @@ description: "How to defend against Crab Ride to Back in BJJ. Recognition cues, 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Crab Ride to Back (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Getting out from the crab ride",
-      "description": "Crab Ride to Back (Defender) film study: Getting out from the crab ride, taught by Iron Faith Wrestling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cUpVFqRUXY4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cUpVFqRUXY4",
-      "url": "https://www.youtube.com/watch?v=cUpVFqRUXY4",
-      "creator": { "@type": "Person", "name": "Iron Faith Wrestling" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crab and half to fall breakdown",
-      "description": "Crab Ride to Back (Defender) film study: Crab and half to fall breakdown, taught by Josh Dziewa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6MvcCZw_lIk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6MvcCZw_lIk",
-      "url": "https://www.youtube.com/watch?v=6MvcCZw_lIk",
-      "creator": { "@type": "Person", "name": "Josh Dziewa" },
-      "duration": "PT54S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,32 +166,6 @@ Advanced defenders can create counter-attacking opportunities from this position
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Crab Ride to Back (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cUpVFqRUXY4)
-
-<p class="clip-credit"><strong>Getting out from the crab ride</strong> — taught by Iron Faith Wrestling · 1:32 · <a href="https://www.youtube.com/watch?v=cUpVFqRUXY4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6MvcCZw_lIk)
-
-<p class="clip-credit"><strong>Crab and half to fall breakdown</strong> — taught by Josh Dziewa · 0:54 · <a href="https://www.youtube.com/watch?v=6MvcCZw_lIk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

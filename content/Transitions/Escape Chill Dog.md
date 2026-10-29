@@ -4,7 +4,7 @@
 
 ---
 title: "Escape Chill Dog | BJJ Technique | BJJ Graph"
-description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hip mechanics, and leg insertion technique to recover guard from defensive turtle."
+description: "Leaving Chill Dog from bottom opens the neck-cleared rubber-guard connection and restores inside frames. Escaping that control from top is a separate task."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hi
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Escape Chill Dog",
-  "description": "Master the Chill Dog escape to half guard in BJJ. Learn timing, hip mechanics, and leg insertion technique to recover guard from defensive turtle.",
+  "description": "Leaving Chill Dog from bottom opens the neck-cleared rubber-guard connection and restores inside frames. Escaping that control from top is a separate task.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hi
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Escape Chill Dog",
-  "description": "Escape Chill Dog is a 10th Planet guard recovery that uses a timed lateral hip escape and inside-leg insertion to convert the compact Chill Dog turtle defense directly into an offensive half guard.",
+  "description": "Leaving Chill Dog from the bottom is a controlled guard reset: release the neck-cleared high-leg connection and restore inside frames.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,16 +94,18 @@ description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hi
 
 <section id="overview" class="content-section">
 
-**Escape Chill Dog is a 10th Planet guard recovery that uses a timed lateral hip escape and inside-leg insertion to convert the compact Chill Dog turtle defense directly into an offensive half guard.**
+**Leaving Chill Dog from the bottom is a controlled guard reset: release the neck-cleared high-leg connection and restore inside frames.**
 
-Within the 10th Planet defensive hierarchy, the Escape Chill Dog occupies the space between pure survival and offensive guard recovery. Unlike the Granby roll which targets open or closed guard through a rolling motion, this escape uses a lateral hip escape combined with leg insertion to thread the inside leg between the opponent's legs and establish the half guard entanglement. The technique capitalizes on the opponent's weight commitment during top control attempts, using their forward pressure as the trigger for a hip escape that simultaneously creates space and establishes the leg hook needed for half guard.
+The bottom player is already facing the opponent in Chill Dog, with a high rubber-guard leg connection. The bottom player owns Chill Dog rather than being trapped in a turtle ride. An escape from the high guard by the top player is a different action.
 
-The escape requires precise timing and explosive hip movement. The bottom player must maintain their defensive frame until the optimal moment, then execute a coordinated sequence of hip escape, leg insertion, and upper body turn that transitions them from the turtle orientation to facing their opponent in half guard. The window for execution is narrow - moving too early telegraphs the escape and allows the top player to adjust, while moving too late allows the opponent to establish dominant controls that prevent the hip movement entirely.
+The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
-Strategically, this escape is particularly valuable because half guard offers significantly more offensive options than Chill Dog. Once established in half guard, the escaper can immediately begin working for underhooks, sweeps, and back takes rather than simply surviving. The transition from a purely defensive turtle position to an offensive guard platform represents a major positional improvement that shifts the dynamic of the exchange.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).
 
 **From Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 65%
 
 </section>
 
@@ -141,9 +143,9 @@ Strategically, this escape is particularly valuable because half guard offers si
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 55% |
-| Failure | [[Positions/Rubber Guard/Chill Dog]] | 25% |
-| Counter | [[Positions/Back Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 65% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 20% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -155,8 +157,8 @@ Strategically, this escape is particularly valuable because half guard offers si
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Maintain defensive frame integrity until the exact moment of... | Maintain constant hip-to-hip connection to prevent the later... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Recognize the actual control: The bottom player is on the ba... | Track the trapped elbow: Keep the free hand available for fr... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -169,51 +171,49 @@ Strategically, this escape is particularly valuable because half guard offers si
 ### Key Principles
 
 
-- Maintain defensive frame integrity until the exact moment of escape execution - premature movement telegraphs intent
+- Recognize the actual control: The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside.
 
-- Use opponent's forward pressure as the catalyst for your hip escape, converting their energy into your lateral movement
+- Remove submission pressure: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- Thread the inside leg between opponent's legs before turning to face them - leg insertion is the anchor point for half guard
+- Open the high connection: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
-- Coordinate hip escape with upper body turn to face opponent simultaneously rather than in separate movements
+- Restore inside frames: Bring the forearms and knees between the bodies as space becomes available.
 
-- Explosive execution through the entire sequence is non-negotiable - hesitation at any point allows the opponent to shut down the escape
+- Face the opponent: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.
 
-- Immediately establish frames or underhook upon reaching half guard to prevent the opponent from re-flattening you
+- Stabilize before moving again: Check posture, knee comfort and inside space before resuming a sweep or submission attack.
 
 
 ### Execution Steps
 
 
-- **Read opponent's weight distribution**: From Chill Dog, use tactile awareness through your back and shoulders to identify where opponent's w...
+- **Recognize the actual control**: The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of t...
 
-- **Initiate hip escape laterally**: When the window opens, explosively drive your hips laterally away from the opponent's primary pressu...
+- **Remove submission pressure**: Release any wrist, neck or elbow loading before opening the high-leg enclosure....
 
-- **Thread inside leg for half guard hook**: As your hips clear laterally, immediately insert your inside leg between the opponent's legs, hookin...
+- **Open the high connection**: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the k...
 
-- **Turn to face opponent**: Simultaneously with the leg insertion, rotate your upper body from the turtle face-down orientation ...
+- **Restore inside frames**: Bring the forearms and knees between the bodies as space becomes available....
 
-- **Establish upper body frames**: Immediately create frames with your arms to prevent the opponent from driving forward into chest-to-...
+- **Face the opponent**: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing ...
 
-- **Consolidate half guard entanglement**: Lock your legs around the opponent's trapped leg using a triangle or figure-four configuration to se...
-
-- **Transition to offensive half guard variation**: Once the half guard is secured, immediately begin working toward your preferred half guard variation...
+- **Stabilize before moving again**: Check posture, knee comfort and inside space before resuming a sweep or submission attack....
 
 
 ### Common Mistakes
 
 
-- **Telegraphing the escape by lifting hips or shifting weight before committing to the movement**
-  - Consequence: Opponent reads the preparation and preemptively adjusts their weight to block the hip escape direction, shutting down the attempt before it begins
-  - Correction: Maintain identical body position and tension until the moment of execution - the escape should go from complete stillness to full explosion with no transitional movement that signals intent
+- **Skipping the checkpoint: recognize the actual control**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside.
+  - Correction: The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside.
 
-- **Hip escaping without threading the leg simultaneously**
-  - Consequence: Creates lateral space but no half guard entanglement, allowing opponent to simply follow the movement and re-establish turtle top control in the new position
-  - Correction: The hip escape and leg insertion must happen as one coordinated movement - as soon as your hips clear laterally, your inside leg should already be threading between their legs
+- **Skipping the checkpoint: remove submission pressure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
+  - Correction: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- **Turning to face opponent before securing the half guard leg hook**
-  - Consequence: Exposes your back without establishing any guard control, giving opponent easy access to hooks and back control during the rotation
-  - Correction: Always establish the leg entanglement before or simultaneously with the upper body turn - the leg hook is your anchor that makes the rotation safe
+- **Skipping the checkpoint: open the high connection**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
+  - Correction: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
 
 </section>
@@ -227,41 +227,37 @@ Strategically, this escape is particularly valuable because half guard offers si
 ### Key Principles
 
 
-- Maintain constant hip-to-hip connection to prevent the lateral space creation needed for the hip escape
+- Track the trapped elbow: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.
 
-- Follow opponent's hip movement immediately rather than trying to hold static position against their escape
+- Recognize neck clearing: The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 
-- Deny the inside leg thread by keeping your near-side knee tight to the mat and controlling their hip
+- Deny the second leg: Keep a safe base and prevent the free leg from closing high behind your head.
 
-- Capitalize on the escape attempt by inserting hooks during their rotation from turtle to guard
+- Undo the arm isolation: Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder.
 
-- Monitor for escape setup movements - small weight shifts and frame adjustments telegraph the attempt
+- Posture after release: Bring the head and chest upright in stages after clearing the upper-body control.
 
-- Use the escape attempt as an opportunity to advance rather than simply defending your current position
+- Avoid forced stacking: Do not drive the partner onto the neck or force the bent leg sideways to escape the control.
 
 
 ### Recognition Cues
 
 
-- Bottom player's hips begin shifting laterally underneath your chest pressure, creating a sliding sensation on your contact points
+- The bottom player is already facing the opponent in Chill Dog, with a high rubber-guard leg connection.
 
-- Bottom player's inside arm posts on the mat with increased tension, preparing to drive the hip escape
+- Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- Bottom player's breathing pattern changes from controlled to held breath, signaling preparation for explosive movement
-
-- Bottom player's weight shifts toward their hands and away from their knees, loading for the lateral drive
-
-- Small probing hip movements or fake Granby roll attempts that test your weight distribution and reaction
+- Bring the forearms and knees between the bodies as space becomes available.
 
 
 ### Defensive Options
 
 
-- **Drive hips forward and sink weight through chest to prevent hip escape initiation** - When: When you detect early escape preparation through weight shifting or arm posting
+- **Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Follow the hip escape laterally and insert near-side hook during the rotation** - When: When the hip escape has already initiated and lateral space is being created
+- **The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Sprawl and drive hips down to flatten bottom player before leg thread completes** - When: When you detect the inside leg beginning to thread between your legs during the escape
+- **Keep a safe base and prevent the free leg from closing high behind your head.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -272,13 +268,10 @@ Strategically, this escape is particularly valuable because half guard offers si
 ## Variations
 
 
-**Underhook Escape to Half Guard**: Instead of threading the leg first, the bottom player shoots an underhook while hip escaping, using the underhook to prevent the opponent from following the hip escape and then inserting the leg for half guard. This variant is more effective against opponents who maintain tight hip-to-hip pressure. (When to use: When opponent's upper body is accessible and their hips are driving forward, making underhook establishment possible before leg insertion)
+**Cooperative checkpoint drill**: The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure. (When to use: Learning the control without submission pressure)
 
 
-**Shin Frame Escape to Knee Shield Half**: The bottom player inserts their shin across the opponent's hip line during the hip escape, creating a knee shield frame before fully establishing half guard. This provides an intermediate defensive structure that makes it safer to complete the guard recovery even if the initial hip escape is partially defended. (When to use: When opponent reacts quickly to the hip escape and begins to follow, the shin frame creates a barrier that buys time to complete the half guard establishment)
-
-
-**Deep Half Entry from Chill Dog**: Rather than establishing standard half guard, the bottom player shoots deep underneath the opponent during the hip escape, threading their head and shoulders under the opponent's base to establish deep half guard. This bypasses the standard half guard top pressure entirely. (When to use: When opponent drives heavy forward pressure and their weight is committed over the bottom player, making the deep entry angle accessible)
+**Response and reset drill**: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -290,7 +283,7 @@ Strategically, this escape is particularly valuable because half guard offers si
 
 ## Position Integration
 
-Escape Chill Dog connects the defensive turtle system to the half guard offensive framework, serving as a critical bridge between survival and attack. Within the 10th Planet methodology, this escape feeds directly into the lockdown, electric chair, and deep half systems that form the core of their half guard game. The technique also integrates with the broader guard recovery hierarchy where practitioners choose between Granby roll (to open or closed guard), technical stand-up (to standing), and hip escape to half guard based on the opponent's pressure and positioning. Mastering this escape ensures that practitioners always have a path from defensive turtle to an offensive guard platform, making it essential for anyone who regularly finds themselves in turtle defense.
+The bottom player is already facing the opponent in Chill Dog, with a high rubber-guard leg connection. The bottom player owns Chill Dog rather than being trapped in a turtle ride. An escape from the high guard by the top player is a different action. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -300,25 +293,13 @@ Escape Chill Dog connects the defensive turtle system to the half guard offensiv
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Chill Dog]] - Source position - defensive turtle variant being escaped from
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Half Guard]] - Primary target position after successful escape
+- [[Positions/Rubber Guard/New York]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for New York.
 
-- [[Positions/Back Control]] - Opponent's objective if escape is countered during rotation
+- [[Positions/Rubber Guard/Invisible Collar]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Invisible Collar.
 
-- [[Positions/Turtle]] - Parent position category containing Chill Dog variant
-
-- [[Positions/Half Guard/Lockdown]] - 10th Planet half guard option immediately available after successful escape
-
-- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive half guard variation accessible after escape for distance management
-
-- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard target if escape goes deep underneath opponent
-
-- [[Transitions/Granby Roll to Guard]] - Alternative escape technique from Chill Dog targeting open or closed guard
-
-- [[Transitions/Back Door Escape from Half Guard]] - Related escape concept using similar hip movement mechanics
-
-- [[Transitions/Advance to Chill Dog]] - Entry transition that establishes the position this escape addresses
+- [[Positions/Rubber Guard/Mission Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control.
 
 
 </section>

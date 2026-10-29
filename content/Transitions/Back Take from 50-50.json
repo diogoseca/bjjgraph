@@ -371,21 +371,18 @@
     "clips": [
       {
         "id": "i5KlsZLgKGs",
-        "title": "50/50 to the back using a berimbolo",
-        "by": "Silva Jiujutieros",
-        "vertical": false,
+        "title": "50/50 to back using berimbolo.",
         "channel": "Silva_jiujutieros_",
-        "duration": 23,
-        "verified": "2026-07-15"
+        "duration": 22,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "gRTPtnZgdKA",
-        "title": "Passing 50-50 into a back take",
-        "by": "BJJ Recap",
-        "vertical": false,
+        "title": "50-50 pass to back take | BJJ passes",
         "channel": "BJJ Recap",
-        "duration": 38,
-        "verified": "2026-07-15"
+        "duration": 37,
+        "vertical": false
       }
     ]
   },
@@ -565,30 +562,11 @@
     "clips": [
       {
         "id": "3rTUggUmhBk",
-        "title": "Countering the back take from 50/50",
-        "by": "Revolution BJJ Ashland",
-        "vertical": false,
+        "title": "Counter back take from 50/50 position",
         "channel": "Revolution BJJ Ashland",
         "duration": 71,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "cc1xxX186lg",
-        "title": "Defending the back take: circling and backing away",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 171,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "R7lPdQWLOus",
-        "title": "50/50 defense: protecting your leg",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "The Grapplers Guide by Jason Scully",
-        "duration": 161,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

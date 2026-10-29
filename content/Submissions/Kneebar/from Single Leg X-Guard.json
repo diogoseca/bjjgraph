@@ -511,21 +511,24 @@
     "clips": [
       {
         "id": "fZRfKh1B53o",
-        "title": "Single Leg X to Kneebar",
-        "by": "Fernaldi Jonatan",
-        "vertical": false,
+        "title": "Single leg X to knee bar",
         "channel": "Fernaldi Jonatan",
         "duration": 76,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "8DI4o4LO7xM",
+        "title": "Attacking Single Leg X Guard: Pressure Pass to Knee Bar (BULLET POINT)",
+        "channel": "PFed BJJ",
+        "duration": 111
       },
       {
         "id": "V7ND4cpJ2_c",
-        "title": "Reverse X to Kneebar",
-        "by": "Combat by the Minute",
-        "vertical": false,
+        "title": "Single Leg X Series | 5 of 5 | Reverse X to Kneebar",
         "channel": "Combat by the Minute",
         "duration": 117,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -711,31 +714,12 @@
     ],
     "clips": [
       {
-        "id": "m0NLphEuFoc",
-        "title": "Leg Lock Defense (No-Gi)",
-        "by": "Kuwy Jitsu",
-        "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "HwU4-0-JBUM",
-        "title": "How to defend and escape the kneebar",
-        "by": "Stephan Kesting",
-        "vertical": false,
+        "title": "How to Defend and Escape the Kneebar",
         "channel": "Stephan Kesting",
         "duration": 533,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "eoFrZfJBlvw",
-        "title": "Kneebar escapes",
-        "by": "Dean Lister",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 158,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

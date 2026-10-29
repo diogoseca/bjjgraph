@@ -431,22 +431,11 @@
     ],
     "clips": [
       {
-        "id": "P0AuQRSfHfs",
-        "title": "Kimura trap from half guard",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 74,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "WS4OuwGvi9Y",
-        "title": "Kimura from reverse half guard",
-        "by": "Kameron Ross",
-        "vertical": false,
+        "title": "Very Effective Kimura from Reverse Half Guard!",
         "channel": "Kameron Ross",
         "duration": 41,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -632,31 +621,11 @@
     ],
     "clips": [
       {
-        "id": "GOLwVNTVcnY",
-        "title": "Kimura defense grip breaks",
-        "by": "Dirtball BJJ",
-        "vertical": false,
-        "channel": "Dirtball BJJ",
-        "duration": 81,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "gvRGrvtKd1U",
-        "title": "Kimura defense",
-        "by": "Jon Satava",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 142,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "uRn3DRICpeY",
-        "title": "Late kimura defense from bottom",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
+        "title": "Late Kimura Defense from Bottom Side Control",
         "channel": "Fox Den Martial Arts",
         "duration": 100,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

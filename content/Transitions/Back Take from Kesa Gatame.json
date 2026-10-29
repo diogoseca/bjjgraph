@@ -103,10 +103,6 @@
       "relationship": "Counter position opponent may achieve if back take attempt fails and they step over"
     },
     {
-      "name": "Back Take",
-      "relationship": "Generic back take transition sharing similar mechanical principles"
-    },
-    {
       "name": "Rear Naked Choke",
       "relationship": "Primary follow-up submission after achieving back control from this transition"
     }
@@ -372,26 +368,7 @@
       }
     ],
     "safety_considerations": "The Back Take from Kesa Gatame involves significant rotational forces on the spine and neck during the turning sequence. During drilling, ensure smooth controlled rotations rather than explosive jerking movements that could strain the cervical spine. Partners should communicate immediately if neck pressure becomes excessive when the bottom player is turning through the head-trapped position. When practicing at full speed, be mindful of knee and ankle positions during the hip rotation to prevent joint injuries from legs getting caught underneath. The bridge-and-turn variant in particular requires careful progressive resistance training to prevent the bottom player from over-rotating and landing awkwardly on their training partner.",
-    "clips": [
-      {
-        "id": "ORpUBUxK1QE",
-        "title": "Reverse kesa gatame escape to back take and choke",
-        "by": "Gymnanigains",
-        "vertical": false,
-        "channel": "Gymnanigains",
-        "duration": 26,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2M_6VytUaus",
-        "title": "Kesa gatame escape",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Back Take from Kesa Gatame Defender",
@@ -554,34 +531,6 @@
         "description": "Integrate back take defense into live rolling from Kesa Gatame. Top player must balance submission attacks and control maintenance with back take awareness. Bottom player uses full escape chains including back take, bridge-and-roll, and ghost escape. Develops the ability to maintain offensive pressure while monitoring defensive cues simultaneously."
       }
     ],
-    "clips": [
-      {
-        "id": "xzqs0S2n3BI",
-        "title": "Preventing the back take from a top pin",
-        "by": "Fargo BJJ Academy",
-        "vertical": false,
-        "channel": "Fargo BJJ Academy",
-        "duration": 133,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kmDlIvorWRc",
-        "title": "Kesa gatame troubleshoot: stop the back take",
-        "by": "Roy Marsh",
-        "vertical": false,
-        "channel": "roymarsh jiujitsu",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aSF633klG8k",
-        "title": "Number one escape from kesa gatame",
-        "by": "Chad Hardy",
-        "vertical": false,
-        "channel": "Chad The Beast Hardy",
-        "duration": 127,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

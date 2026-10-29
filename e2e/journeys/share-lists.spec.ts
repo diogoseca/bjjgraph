@@ -282,30 +282,20 @@ test("a coach collects today's class into a list from the surfaces they are alre
  *
  * So the whole capture FLOW runs on `page.mouse.click(x, y)` at measured coordinates, never
  * locator.click(), with `document.elementFromPoint` asserted separately so a failure names the
- * thief — on a card at its FULL height (content injected, `More` unfolded).
+ * thief — with both the live question and its independent article on screen.
  */
-test("the in-roll capture flow survives REAL mouse clicks on a full-height landing card @curated", async ({
+test("the in-roll capture flow survives REAL mouse clicks on a landing card and article @curated", async ({
   page,
 }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
 
-  // make the card as tall as it gets: inject dossier content, re-render, unfold `More`
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
   const nodeId = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const node = a.nodes[a.currentPos];
-    const key = a.deckKeyFor(node).key;
-    (window as any).NG_CONTENT = (window as any).NG_CONTENT || { decks: {} };
-    (window as any).NG_CONTENT.decks[key] = {
-      def: "A dominant top position where the hips ride above the opponent's belt line, both knees pinched to the ribs, chest low and elbows tight to the head.",
-    };
-    a._landQ = null;
-    a.renderLandCard(node, "land", null);
-    a.expandLandCard();
-    return node.id;
+    return a.nodes[a.currentPos].id;
   });
-  await page.waitForTimeout(300);
 
   const card = page.locator(".ng-landcard");
   await expect(card, "the landing card is up").toBeVisible();

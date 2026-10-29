@@ -57,6 +57,7 @@ test("opponent-caused arrival asks its landing question and a right answer climb
         : null
     })
     expect(mc, "a live landing question on the land surface").toBeTruthy()
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.keyboard.press("abcd"[mc!.correct])
     const pending = await page.evaluate(() => !!(window as any).__neural._landPending)
     expect(pending, "answer registered — nothing left for the pick to ignore").toBe(false)

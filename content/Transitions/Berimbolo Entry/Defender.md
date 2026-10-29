@@ -166,24 +166,12 @@ description: "How to defend against Berimbolo Entry in BJJ. Recognition cues, de
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Berimbolo escape to top position",
-      "description": "Berimbolo Entry (Defender) film study: Berimbolo escape to top position, taught by Lucas Lepri.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L-cT37wN1-8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L-cT37wN1-8",
-      "url": "https://www.youtube.com/watch?v=L-cT37wN1-8",
-      "creator": { "@type": "Person", "name": "Lucas Lepri" },
-      "duration": "PT35S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Toe hold counter to the berimbolo wedge",
-      "description": "Berimbolo Entry (Defender) film study: Toe hold counter to the berimbolo wedge, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XkJI1fJGGbo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XkJI1fJGGbo",
-      "url": "https://www.youtube.com/watch?v=XkJI1fJGGbo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT289S"
+      "name": "De La Riva Guard Pass:  Berimbolo Prevention and Duckunder Pass to Leg Drag\u2026",
+      "description": "Berimbolo Entry (Defender) film study: De La Riva Guard Pass:  Berimbolo Prevention and Duckunder Pass to Leg Drag\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1W6LzmLl5xk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1W6LzmLl5xk",
+      "url": "https://www.youtube.com/watch?v=1W6LzmLl5xk",
+      "duration": "PT201S"
     }
   ]
 }
@@ -211,17 +199,9 @@ Defending the berimbolo entry requires the top player to recognize the attack ea
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=L-cT37wN1-8)
+![](https://www.youtube.com/watch?v=1W6LzmLl5xk)
 
-<p class="clip-credit"><strong>Berimbolo escape to top position</strong> — taught by Lucas Lepri · 0:35 · <a href="https://www.youtube.com/watch?v=L-cT37wN1-8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XkJI1fJGGbo)
-
-<p class="clip-credit"><strong>Toe hold counter to the berimbolo wedge</strong> — taught by Lachlan Giles · 4:49 · <a href="https://www.youtube.com/watch?v=XkJI1fJGGbo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva Guard Pass:  Berimbolo Prevention and Duckunder Pass to Leg Drag…</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=1W6LzmLl5xk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

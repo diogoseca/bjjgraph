@@ -147,6 +147,8 @@ test("@curated a Decide countdown does not survive staging another node", async 
   await j.advance(6000);
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
 
+  await j.openQuestion(); // U47 d: Answer for Points starts this card's clock; engagement alone is free.
+
   // burn the live window down into the <=3s warning band, where the countdown is written
   for (let i = 0; i < 40; i++) {
     await j.advance(500);
@@ -158,6 +160,20 @@ test("@curated a Decide countdown does not survive staging another node", async 
     () => (window as any).__neural.evRef.current.style.opacity,
   );
   expect(shown, "and visible").toBe("1");
+
+  // The larger article flow can cover the only other position at roll zoom.
+  // Reveal more of the graph through the real wheel before choosing the target;
+  // the live countdown below must survive this map gesture until the node click.
+  const canvasPoint = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    for (let y = 180; y < a.H - 30; y += 80) for (let x = 30; x < a.W - 30; x += 80)
+      if (document.elementFromPoint(x, y) === a.canvas) return { x, y };
+    return null;
+  });
+  expect(canvasPoint, "the map has an exposed wheel target").not.toBeNull();
+  await page.mouse.move(canvasPoint!.x, canvasPoint!.y);
+  await page.mouse.wheel(0, 700);
+  await j.advance(150);
 
   // Select a real, exposed alternative POSITION, not merely a projected point.
   // The live pointerup hit test uses all ruleset-visible node types, so reject
@@ -172,7 +188,9 @@ test("@curated a Decide countdown does not survive staging another node", async 
         || !visible[n.idx] || !a.rsAllowsIdx(n.idx)) continue;
       const x = (n.x - a.cam.cx) * scale + a.W / 2;
       const y = (a._LY(n) - a.cam.cy) * scale + a.H / 2;
-      if (!(x > 120 && x < a.W - 320 && y > 90 && y < a.H - 340)) continue;
+      // Sections move the card/hand into a native scrollport. Its real hit boxes
+      // replace the old fixed 320px/340px exclusion, which hid exposed nodes.
+      if (!(x > 24 && x < a.W - 24 && y > 68 && y < a.H - 24)) continue;
       const sx = rect.left + x, sy = rect.top + y;
       if (document.elementFromPoint(sx, sy) !== a.canvas) continue;
       // Avoid float-rounded ties and the pointermove-only seat-star affordance.
@@ -264,6 +282,7 @@ test("the sentences after an expiry survive the hand being torn down", async ({ 
   await j.boot("/");
   await j.advance(6000);
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
+  await j.openQuestion(); // U47 d: the question expires only after Answer for Points
 
   const seen: string[] = [];
   let named = false;
@@ -325,6 +344,7 @@ test("@curated the clock running out reveals the answer, says so, and steals not
   await j.boot("/");
   await j.advance(10200); // intro 3.2s + the staged arrival 6.2s (v1.168.0) + the deal
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
+  await j.openQuestion(); // U47 d: Answer for Points before testing expiry; asking time is free.
 
   const handBefore = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length);
   // walk the announcer at 100ms so the ORDER of the sentences is observed, not inferred
@@ -371,6 +391,7 @@ test("a timed-out question costs the answer, not the exchange", async ({ page })
   await j.boot("/");
   await j.advance(6000);
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
+  await j.openQuestion(); // U47 d: the question expires only after Answer for Points
   for (let i = 0; i < 240; i++) {
     await j.advance(100);
     const b = (await j.beats()).map((x) => x.beat);
@@ -488,7 +509,12 @@ test("@curated an expiry never pins — off the announcer, and gone in ~1.6 s ev
   page,
 }) => {
   const j = journey(page);
-  await j.boot("/Positions/Side-Control/Bottom");
+  // This is the game's expiry contract. OWNERQ1 content arrivals stay dormant.
+  await j.boot("/");
+  await j.advance(12000); // let the root intro relinquish its delayed start
+  await j.landQuestion();
+  await page.evaluate(() => { const a = (window as any).__neural; a.rollFromPosition(a.nodes.findIndex((n: any) => n.id === "Positions/Side-Control"), true, "bottom"); });
+  await j.landQuestion();
   await j.advance(7000);
   for (let i = 0; i < 3; i++) {
     await page.evaluate(() => document.body.getBoundingClientRect().top);
@@ -497,6 +523,7 @@ test("@curated an expiry never pins — off the announcer, and gone in ~1.6 s ev
   await page.mouse.move(4, 4);
   await page.mouse.move(6, 6);
   await j.advance(300);
+  await j.openQuestion() // U47 d: expiry begins only after Answer for Points.
   const armed = await page.evaluate(() => {
     const a: any = (window as any).__neural;
     return !!(a._decision && a._decision.remaining != null);

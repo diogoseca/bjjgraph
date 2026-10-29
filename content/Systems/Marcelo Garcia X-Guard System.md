@@ -17,7 +17,7 @@ description: "An X-guard course with butterfly and shin-to-shin entries, stand-u
 <h1>Marcelo Garcia: X-Guard Entries and Sweeps</h1>
 <div class="system-tags"><span>Guard System</span><span>Advanced</span></div>
 
-<p class="system-reference-count">16 related references (techniques and positions)</p>
+<p class="system-reference-count">15 related references (techniques and positions)</p>
 </header>
 
 
@@ -127,9 +127,6 @@ These related references are not a claim about what the course teaches or eviden
 
 
 - [[Transitions/De La Riva to X-Guard Transition|De La Riva to X-Guard Transition]] (Transition)
-
-
-- [[Transitions/Back Take|Back Take]] (Transition)
 
 
 - [[Transitions/Arm Drag to Back|Arm Drag to Back]] (Transition)

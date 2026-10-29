@@ -362,35 +362,7 @@
       }
     ],
     "safety_considerations": "Bridge escapes involve explosive spinal extension and rotation under load. Warm up the lower back, hip flexors, and cervical spine before drilling. Practice controlled bridges before explosive versions to establish proper movement patterns. Training partners should maintain reasonable pressure during drilling to prevent excessive cervical spine compression. Stop immediately if you feel sharp pain in the neck, lower back, or shoulders during bridging motions. Practitioners with pre-existing spinal conditions should consult their instructor before drilling explosive bridges.",
-    "clips": [
-      {
-        "id": "NBBNLMCFvWM",
-        "title": "Bridge and roll escape from scarf hold",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 43,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2M_6VytUaus",
-        "title": "Kesa gatame bridge escape demo",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_HjmunOXVtY",
-        "title": "Kuzure kesa gatame escape variations",
-        "by": "Utah Shudokan",
-        "vertical": false,
-        "channel": "Utah Shudokan USA",
-        "duration": 70,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Bridge from Kuzure Kesa Gatame Defender",
@@ -546,25 +518,6 @@
         "description": "Start in Kuzure Kesa Gatame during live rolling with full resistance. Partner uses bridge as part of a complete escape game including chains to hip escape, turtle, and guard recovery. Defend the bridge while maintaining offensive threat and positional awareness."
       }
     ],
-    "clips": [
-      {
-        "id": "M7RJFVturi4",
-        "title": "Holding kesa gatame against the bridge escape",
-        "by": "Harry Grech",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 244,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RLpcMvQ8GTI",
-        "title": "Mune gatame chest hold pin control",
-        "by": "Grappler Station",
-        "vertical": false,
-        "channel": "Grappler Station",
-        "duration": 66,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

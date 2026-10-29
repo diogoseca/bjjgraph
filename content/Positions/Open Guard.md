@@ -46,35 +46,33 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Open Guard film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
+      "name": "Guard Retention: The Complete Guide",
+      "description": "Open Guard film study: Guard Retention: The Complete Guide.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ToKDHylpgDY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ToKDHylpgDY",
+      "url": "https://www.youtube.com/watch?v=ToKDHylpgDY",
+      "duration": "PT650S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Open guard warm-up fundamentals",
-      "description": "Open Guard film study: Open guard warm-up fundamentals, taught by Jiu Jitsu Vintage.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aYknDsVN5aM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aYknDsVN5aM",
-      "url": "https://www.youtube.com/watch?v=aYknDsVN5aM",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Vintage" },
-      "duration": "PT107S"
+      "name": "How to Pass The Open Guard: Complete Guide 2022",
+      "description": "Open Guard film study: How to Pass The Open Guard: Complete Guide 2022.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pn59xw1z9nE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pn59xw1z9nE",
+      "url": "https://www.youtube.com/watch?v=pn59xw1z9nE",
+      "duration": "PT728S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "The Y-guard: an open guard secret weapon",
-      "description": "Open Guard film study: The Y-guard: an open guard secret weapon, taught by Felipe Costa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZzAtxR7p_YE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZzAtxR7p_YE",
-      "url": "https://www.youtube.com/watch?v=ZzAtxR7p_YE",
-      "creator": { "@type": "Person", "name": "Felipe Costa" },
-      "duration": "PT61S"
+      "name": "Effortless Jiu Jitsu Explained - Open Guard Warm Up",
+      "description": "Open Guard film study: Effortless Jiu Jitsu Explained - Open Guard Warm Up, taught by Jiu Jitsu Vintage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aYknDsVN5aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aYknDsVN5aM",
+      "url": "https://www.youtube.com/watch?v=aYknDsVN5aM",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Vintage" },
+      "duration": "PT106S"
     }
   ]
 }
@@ -127,9 +125,17 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+![](https://www.youtube.com/watch?v=ToKDHylpgDY)
 
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Retention: The Complete Guide</strong> · 10:50 · <a href="https://www.youtube.com/watch?v=ToKDHylpgDY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pn59xw1z9nE)
+
+<p class="clip-credit"><strong>How to Pass The Open Guard: Complete Guide 2022</strong> · 12:08 · <a href="https://www.youtube.com/watch?v=pn59xw1z9nE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -137,15 +143,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 ![](https://www.youtube.com/watch?v=aYknDsVN5aM)
 
-<p class="clip-credit"><strong>Open guard warm-up fundamentals</strong> — taught by Jiu Jitsu Vintage · 1:47 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZzAtxR7p_YE)
-
-<p class="clip-credit"><strong>The Y-guard: an open guard secret weapon</strong> — taught by Felipe Costa · 1:01 · <a href="https://www.youtube.com/watch?v=ZzAtxR7p_YE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Effortless Jiu Jitsu Explained - Open Guard Warm Up</strong> — taught by Jiu Jitsu Vintage · 1:46 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -424,7 +422,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Guard-Passing Courses</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem: Ankle Picks</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak: Outside Passing and Finishing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

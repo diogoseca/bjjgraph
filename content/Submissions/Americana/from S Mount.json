@@ -397,30 +397,18 @@
     "clips": [
       {
         "id": "Z44VF9pmJBg",
-        "title": "Americana from Mount",
-        "by": "Chelsea Ozer",
-        "vertical": false,
+        "title": "BJJ technique with Chelsea Ozer: Americana from mount",
         "channel": "Alain Pozo",
         "duration": 52,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "uPazS4MJiDc",
-        "title": "How To Perform Americana From Top Mount",
-        "by": "Evolve MMA",
         "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 71,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "9XZSamucGkg",
-        "title": "How to Finish the Americana",
-        "by": "BatuhanBjj",
-        "vertical": false,
+        "title": "how to finish the Americana",
         "channel": "BatuhanBjj",
         "duration": 131,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -610,31 +598,11 @@
     ],
     "clips": [
       {
-        "id": "NZjUCo8os8Q",
-        "title": "Simple Americana Armlock Escape",
-        "by": "Eddie Kone",
-        "vertical": false,
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "Ny_l7GHApo0",
-        "title": "Mounted Americana Defenses - Early Escapes",
-        "by": "Força Martial Arts",
-        "vertical": false,
+        "title": "Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes",
         "channel": "Força Martial Arts & Fitness",
-        "duration": 200,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "x5oNak2YANY",
-        "title": "Americana Defense to Armbar Finish",
-        "by": "JiuJitsu.com",
-        "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 177,
-        "verified": "2026-07-14"
+        "duration": 199,
+        "vertical": false
       }
     ]
   }

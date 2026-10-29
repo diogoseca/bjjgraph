@@ -127,11 +127,6 @@
         "condition": "If opponent extends leg and pushes away with straight leg",
         "actions": [
           {
-            "technique": "Kneebar Finish",
-            "target": "Kneebar Control",
-            "probability": 65
-          },
-          {
             "technique": "Ankle Lock Finish",
             "target": "Ashi Garami",
             "probability": 60
@@ -433,26 +428,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Kx8gZ3QdO8s",
-        "title": "Crossover Toe Hold from control",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Bence Romanek",
-        "duration": 51,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "B_StkmaI3Nc",
-        "title": "Toe Hold from 50/50 finish",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 17,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "overview": "Toe Hold Control Bottom represents a defensive position within the leg entanglement hierarchy where the practitioner is caught in their opponent's toe hold attack configuration. This is a high-risk submission control position requiring immediate defensive awareness and systematic escape protocols. The bottom player faces direct threat to the ankle joint through rotational forces while managing limited mobility due to leg entanglement. Understanding proper defensive posture, grip fighting priorities, and escape mechanics is essential to prevent serious ankle injury. This position demands calm decision-making under pressure, as panicked movements can accelerate the submission or create worse entanglement scenarios. The defensive player must simultaneously address the immediate submission threat while working toward positional improvement, making this one of the more technically demanding defensive scenarios in modern leg lock systems. Success in this position relies on understanding both the mechanical vulnerabilities of the toe hold attack and the systematic pathways to extract the endangered leg while maintaining guard recovery options.",
@@ -857,30 +833,11 @@
     "clips": [
       {
         "id": "3a9k8-ZcYrk",
-        "title": "How to escape the toe hold",
-        "by": "Gordon Ryan",
-        "vertical": false,
+        "title": "How to escape from toehold by Gordon Ryan",
         "channel": "The King Life",
-        "duration": 106,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "m0NLphEuFoc",
-        "title": "Leg lock / toe hold defense",
-        "by": "Kuwy Jitsu",
+        "duration": 105,
         "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "QMgsMSTRSBI",
-        "title": "Leglock counters from ashi garami",
-        "by": "BJJBlackBeltDad",
-        "vertical": false,
-        "channel": "BJJBlackBeltDad",
-        "duration": 93,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -998,24 +955,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "Kx8gZ3QdO8s",
-      "title": "Toe Hold control and finish",
-      "by": "Craig Jones",
-      "vertical": false,
-      "channel": "Bence Romanek",
-      "duration": 51,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "B_StkmaI3Nc",
-      "title": "Toe Hold entry from 50/50",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "Dohn Janaher ",
-      "duration": 17,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

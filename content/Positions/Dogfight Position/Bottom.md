@@ -159,35 +159,24 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Whizzer to Win the Dog Fight",
-      "description": "Dogfight Position (Bottom) film study: Whizzer to Win the Dog Fight, taught by Wrecking Crew BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
-      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
-      "duration": "PT60S"
+      "name": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
+      "description": "Dogfight Position (Bottom) film study: The Base BJJ Technique of the Week: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
+      "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT79S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Bottom Half Guard to Dogfight Back Take",
-      "description": "Dogfight Position (Bottom) film study: Bottom Half Guard to Dogfight Back Take, taught by Broadway JiuJitsu.",
+      "name": "The Bottom Half Guard to Dog Fight to Back Take",
+      "description": "Dogfight Position (Bottom) film study: The Bottom Half Guard to Dog Fight to Back Take, taught by Broadway JiuJitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OAlwVyNmNqE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OAlwVyNmNqE",
       "url": "https://www.youtube.com/watch?v=OAlwVyNmNqE",
       "creator": { "@type": "Person", "name": "Broadway JiuJitsu" },
       "duration": "PT148S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Coyote Half Guard to Rollover Sweep",
-      "description": "Dogfight Position (Bottom) film study: Coyote Half Guard to Rollover Sweep, taught by Holy Grail BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OghklyfXB-Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OghklyfXB-Q",
-      "url": "https://www.youtube.com/watch?v=OghklyfXB-Q",
-      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
-      "duration": "PT103S"
     }
   ]
 }
@@ -217,9 +206,9 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
 
-<p class="clip-credit"><strong>Whizzer to Win the Dog Fight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Base BJJ Technique of the Week: Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -227,15 +216,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ![](https://www.youtube.com/watch?v=OAlwVyNmNqE)
 
-<p class="clip-credit"><strong>Bottom Half Guard to Dogfight Back Take</strong> — taught by Broadway JiuJitsu · 2:28 · <a href="https://www.youtube.com/watch?v=OAlwVyNmNqE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OghklyfXB-Q)
-
-<p class="clip-credit"><strong>Coyote Half Guard to Rollover Sweep</strong> — taught by Holy Grail BJJ · 1:43 · <a href="https://www.youtube.com/watch?v=OghklyfXB-Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Bottom Half Guard to Dog Fight to Back Take</strong> — taught by Broadway JiuJitsu · 2:28 · <a href="https://www.youtube.com/watch?v=OAlwVyNmNqE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -309,7 +290,6 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 
 **If opponent loses whizzer control, exposes their back, or commits weight forward excessively:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
 - Execute **[[Transitions/Underhook Sweep from Dogfight/Attacker|Underhook Sweep from Dogfight]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
@@ -319,7 +299,6 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 
 **If opponent attempts to circle their trapped leg free while maintaining balance:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 - Execute **[[Transitions/Dogfight Sweep/Attacker|Dogfight Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
 
 

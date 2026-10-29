@@ -21,7 +21,7 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook Defense Escape",
-      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Counter heel hook",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Leg Extraction",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,24 +165,12 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping and Countering Cross Ashi Garami",
-      "description": "Cross Ashi-Garami (Bottom) film study: Escaping and Countering Cross Ashi Garami, taught by Lux\u0027s Jiu Jitsu.",
+      "name": "Escaping and countering cross ashi garami",
+      "description": "Cross Ashi-Garami (Bottom) film study: Escaping and countering cross ashi garami.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FUjlpGRjU44/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FUjlpGRjU44",
       "url": "https://www.youtube.com/watch?v=FUjlpGRjU44",
-      "creator": { "@type": "Person", "name": "Lux\u0027s Jiu Jitsu" },
       "duration": "PT45S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Irimi Ashi Garami Counter",
-      "description": "Cross Ashi-Garami (Bottom) film study: Irimi Ashi Garami Counter, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
-      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT29S"
     }
   ]
 }
@@ -214,15 +202,7 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 
 ![](https://www.youtube.com/watch?v=FUjlpGRjU44)
 
-<p class="clip-credit"><strong>Escaping and Countering Cross Ashi Garami</strong> — taught by Lux&#39;s Jiu Jitsu · 0:45 · <a href="https://www.youtube.com/watch?v=FUjlpGRjU44" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
-
-<p class="clip-credit"><strong>Irimi Ashi Garami Counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping and countering cross ashi garami</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=FUjlpGRjU44" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

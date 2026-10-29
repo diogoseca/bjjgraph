@@ -171,50 +171,6 @@ description: "How to set the Buggy Choke from under side control. Attacking pers
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Buggy Choke from Bottom Side Control (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "The Buggy Choke from bottom side control",
-      "description": "Buggy Choke from Bottom Side Control (Attacker) film study: The Buggy Choke from bottom side control, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
-      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Fix Your Buggy Choke - common setup errors",
-      "description": "Buggy Choke from Bottom Side Control (Attacker) film study: Fix Your Buggy Choke - common setup errors, taught by Yoga for BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
-      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
-      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "North South Buggy Choke breakdown",
-      "description": "Buggy Choke from Bottom Side Control (Attacker) film study: North South Buggy Choke breakdown, taught by Blaise Malabre.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cMid9XHfnKg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cMid9XHfnKg",
-      "url": "https://www.youtube.com/watch?v=cMid9XHfnKg",
-      "creator": { "@type": "Person", "name": "Blaise Malabre" },
-      "duration": "PT54S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -234,40 +190,6 @@ Technically, the buggy entry teaches the principle that defense and offense are 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Buggy Choke from Bottom Side Control (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
-
-<p class="clip-credit"><strong>The Buggy Choke from bottom side control</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
-
-<p class="clip-credit"><strong>Fix Your Buggy Choke - common setup errors</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cMid9XHfnKg)
-
-<p class="clip-credit"><strong>North South Buggy Choke breakdown</strong> — taught by Blaise Malabre · 0:54 · <a href="https://www.youtube.com/watch?v=cMid9XHfnKg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -340,7 +262,7 @@ Technically, the buggy entry teaches the principle that defense and offense are 
 - **Top player postures up hard and pulls their head straight back before the leg clamps** (Effectiveness: High) - Your Response: Commit to throwing the leg over the shoulder the instant their head dips; if they beat you to posture, abandon the choke and re-frame to recover bottom side control or shrimp to half guard rather than chasing a lost head. → Leads to [[Positions/Side Control]]
 - **Top player strips your framing arm down and clears it across their chest** (Effectiveness: Medium) - Your Response: Fight to keep the elbow high and the wrist connected; if the arm is stripped before the figure locks, release and use the created space to elbow-escape or sit to half guard instead of leaving the arm exposed for an arm attack. → Leads to [[Positions/Side Control]]
 - **Top player frees the head, drives the knee across, and advances to mount** (Effectiveness: Medium) - Your Response: If they read the entry early and start a knee-cross to mount, retract your leg, reframe with both arms, and concede to mount bottom under control rather than getting flattened with your arm trapped underneath. → Leads to [[Positions/Mount]]
-- **Top player extends the far arm to base wide and refuses to be turned into** (Effectiveness: Low) - Your Response: Use the extended far arm to switch to a crucifix entry by trapping that arm with your legs, or keep the figure and patiently turn your hips harder to re-thread the strangle line into their carotid. → Leads to [[Positions/Buggy Choke]]
+- **Top player extends the far arm to base wide and refuses to be turned into** (Effectiveness: Low) - Your Response: Use the extended far arm to switch to a crucifix entry by trapping that arm with your legs, or keep the figure and patiently turn your hips harder to re-thread the strangle line into their carotid. → Leads to [[Positions/Side Control]]
 
 
 </section>

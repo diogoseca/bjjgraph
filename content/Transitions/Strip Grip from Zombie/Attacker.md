@@ -4,7 +4,7 @@
 
 ---
 title: "Strip Grip from Zombie Attacker | BJJ Technique Guide | BJJ Graph"
-description: "Learn to systematically strip grips from the Zombie lockdown position. Step-by-step grip breaking sequence to neutralize lockdown, underhook, and frames for clean guard passing."
+description: "Strip Grip from Zombie (attacker): Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
 ---
 
 
@@ -20,45 +20,39 @@ description: "Learn to systematically strip grips from the Zombie lockdown posit
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish heavy chest pressure",
-      "text": "Drive your chest and shoulder weight directly into the opponent's upper body, pinning their shoulder to the mat and limiting their ability to create angles or maintain active frames. Your forehead presses against the side of their face or neck, using gravity rather than muscular effort to maintain constant downward force.",
+      "name": "Recognize the upper-body trap",
+      "text": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Neutralize the underhook",
-      "text": "Thread your arm over their underhook arm to establish a deep whizzer grip. Squeeze your elbow tight against your ribs while driving your shoulder forward to collapse their underhook's structural integrity. The whizzer must be tight enough to prevent them from re-pumping the underhook during subsequent steps.",
+      "name": "Protect the captured limb",
+      "text": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Strip the near-side frame",
-      "text": "With the underhook neutralized, use your free hand to pin their framing arm to the mat or push it past your head. Control their wrist and drive it toward their hip, removing the frame that creates space between your bodies. Maintain chest pressure throughout to prevent them from replacing the frame.",
+      "name": "Work before pressure engages",
+      "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Address the lockdown",
-      "text": "With upper body control secured, begin working your trapped leg free from the lockdown. Drive your hip forward and down while straightening your trapped leg, using steady progressive pressure to break the figure-four configuration of their lockdown grip. Do not yank explosively — use gradual force that preserves your base.",
+      "name": "Open the high enclosure",
+      "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Extract the trapped leg",
-      "text": "As the lockdown tension breaks, immediately slide your knee toward the mat on the outside of their hip. Use your free leg to backstep and create an angle that makes re-locking impossible. Keep your weight forward throughout the extraction to prevent them from using the movement to initiate a sweep.",
+      "name": "Recover the elbow and posture",
+      "text": "Withdraw the shoulder and elbow only after the high leg connection has opened.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Establish open guard top position",
-      "text": "Once your leg clears the lockdown, immediately establish passing grips on their knees or ankles. Push their legs to one side to prevent them from inserting butterfly hooks or establishing a new guard variation. Your posture should transition to standard open guard top engagement immediately.",
+      "name": "Confirm the next position",
+      "text": "Establish inside arm position with safe posture only when the upper-body enclosure and relevant leg hooks have cleared.",
       "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Prevent re-guard establishment",
-      "text": "Maintain forward pressure and grip control as you transition to open guard engagement. Control their far knee to prevent butterfly guard recovery or de la riva hook insertion. Stay connected and begin your passing chain immediately — the window before they establish a new guard structure is only two to three seconds.",
-      "position": 7
     }
   ],
   "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
@@ -74,50 +68,50 @@ description: "Learn to systematically strip grips from the Zombie lockdown posit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the correct priority order for stripping grips from the Zombie position?",
+      "name": "Strip Grip from Zombie (top): What is the early grip-defense objective?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The correct order is: first neutralize the underhook using a deep whizzer and shoulder pressure, then clear near-side frames by pinning or redirecting the framing arm, and finally address the lockdown through steady hip pressure and leg extraction. This order works because the underhook is the keystone grip — without it, the opponent cannot effectively use their frames or lockdown for sweeps. Attacking the lockdown first while the underhook is active invites Old School Sweeps and Electric Chair attempts."
+        "text": "Zombie seeks to clear the hand outside and close the knee hug; deny that arm relationship before the trap forms."
       }
     },
     {
       "@type": "Question",
-      "name": "Why should you avoid using explosive force to break the lockdown?",
+      "name": "Strip Grip from Zombie (top): What should move as the wrist comes inward?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Explosive pulling against the lockdown creates backward momentum that the bottom player can redirect into sweeps, particularly the Old School Sweep. It also compromises your base and chest pressure, creating space for the opponent to re-frame and re-establish their defensive structure. Instead, use steady progressive hip pressure combined with leg straightening to gradually break the figure-four configuration. This method preserves your base, maintains top pressure, and prevents the opponent from using your own movement against you."
+        "text": "Recover the entire arm through available space rather than pulling the wrist while leaving the elbow fixed outside."
       }
     },
     {
       "@type": "Question",
-      "name": "From zombie top, they keep re-pumping the underhook as you work the lockdown: how do you adjust?",
+      "name": "Strip Grip from Zombie (top): Which frame helps before the knee hug closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This indicates your whizzer control is insufficient. Before moving to the lockdown, establish a deeper whizzer by threading your arm further over their underhook arm and squeezing your elbow tightly against your ribs. Simultaneously drive your shoulder forward to collapse their arm against their body. Only proceed to lockdown work when their underhook arm is pinned and immobile. If they continue to re-pump, switch to a crossface grip which removes their underhook entirely by controlling their head position and preventing chest-to-chest connection."
+        "text": "The early inside forearm occupies the space the pummeling hand needs and limits outside arm isolation."
       }
     },
     {
       "@type": "Question",
-      "name": "Stripping grips from zombie top, what tells you an Old School sweep is coming?",
+      "name": "Strip Grip from Zombie (top): Where must the high leg loosen for later posture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Watch for the bottom player posting their far foot on the mat, driving their hips upward toward you, and pulling with their underhook to create an angle. You will feel a distinct shift in their energy from defensive holding to active driving. Their lockdown tension will increase as they prepare to use it as a fulcrum for the sweep. The moment you feel upward hip pressure combined with pulling force on your upper body, immediately drop your weight forward and drive heavy crossface pressure to flatten them before the sweep develops."
+        "text": "Opening the high-leg attachment creates slack for aligned head and shoulder recovery after the hand defense."
       }
     },
     {
       "@type": "Question",
-      "name": "From zombie top, how do you keep chest pressure while your hands strip grips?",
+      "name": "Strip Grip from Zombie (top): When should you extract an already captured shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The key is using your forehead, shoulder, and chest as your primary pressure tools rather than your hands. Position your forehead against the side of their face, drive your shoulder directly into their jaw or chest, and let gravity do the work through your upper body. Your hands then work to strip grips while your skeletal structure maintains the pressure. Never lift your shoulder or chest to gain hand mobility — instead, work your hands underneath your pressure points so the opponent feels constant weight even as your hands are active."
+        "text": "An arm caught under a closed knee hug needs slack before elbow withdrawal; stop if joint pressure has already developed."
       }
     },
     {
       "@type": "Question",
-      "name": "After stripping all grips from zombie, what mistake lets them rebuild guard?",
+      "name": "Strip Grip from Zombie (top): What completes the useful arm-recovery checkpoint?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most common mistake is pausing to reassess after clearing the lockdown instead of immediately transitioning to a passing sequence. The window between clearing the Zombie structure and the opponent establishing a new guard variation such as butterfly hooks, knee shield, or de la riva is extremely short — typically two to three seconds. You must have your passing sequence pre-planned and transition into it without hesitation. Immediately control their knees, establish passing grips, and begin your preferred passing chain the moment your leg clears the lockdown."
+        "text": "Restore inside arm position and safe posture after the high attachment opens; this prepares the next guard exchange."
       }
     }
   ]
@@ -130,7 +124,7 @@ description: "Learn to systematically strip grips from the Zombie lockdown posit
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Strip Grip from Zombie Attacker",
-  "description": "Learn to systematically strip grips from the Zombie lockdown position. Step-by-step grip breaking sequence to neutralize lockdown, underhook, and frames for clean guard passing.",
+  "description": "Strip Grip from Zombie (attacker): Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -215,7 +209,15 @@ description: "Learn to systematically strip grips from the Zombie lockdown posit
 
 <section id="overview" class="content-section">
 
-As the attacker executing the Strip Grip from Zombie, your objective is to methodically dismantle the bottom player's Zombie defensive structure by breaking their grip connections in priority order. The Zombie position relies on multiple interconnected grips — lockdown, underhook, and frames — that work together to create a resilient defensive system. Your approach must address each grip systematically rather than attempting to force past the structure. Success requires patience, proper weight distribution, and understanding which grip to attack first based on the opponent's current configuration. The key insight is that removing even one critical connection point causes the entire Zombie structure to collapse, opening standard passing opportunities.
+The top player faces a bottom guard player using Zombie; the head, shoulder or arm may still be enclosed. The relevant grips connect the hand, high leg and arm isolation. This is not a lockdown leg-release sequence.
+
+Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+
+Create slack at the hip and thigh while keeping the head and captured arm aligned. Withdraw the shoulder and elbow only after the high leg connection has opened. Establish inside arm position with safe posture only when the upper-body enclosure and relevant leg hooks have cleared.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+The first escape task is keeping the hand and elbow inside the developing overhook, before the knee hug fixes the arm outside. Recover posture for the next passing exchange only after the high leg has lost its upper-body connection.
 
 **From Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 
@@ -255,12 +257,12 @@ As the attacker executing the Strip Grip from Zombie, your objective is to metho
 
 <p class="section-subtitle">What are the key principles for executing Strip Grip from Zombie?</p>
 
-- Attack grips in priority order: underhook first, then frames, then lockdown — the underhook is the keystone that supports the entire structure
-- Maintain constant chest pressure during grip stripping to prevent the opponent from re-establishing broken connections
-- Use skeletal structure and body positioning rather than hand strength to break grips — leverage defeats grip strength
-- Control the opponent's head position throughout to limit their ability to re-angle and rebuild defensive structure
-- Transition immediately to passing once grips are stripped — hesitation allows re-establishment of the Zombie structure
-- Read which grip is weakest and attack that first when the standard priority order is not clearly available
+- Recognize the upper-body trap: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
+- Protect the captured limb: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
+- Work before pressure engages: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+- Open the high enclosure: Create slack at the hip and thigh while keeping the head and captured arm aligned.
+- Recover the elbow and posture: Withdraw the shoulder and elbow only after the high leg connection has opened.
+- Confirm the next position: Establish inside arm position with safe posture only when the upper-body enclosure and relevant leg hooks have cleared.
 
 
 </section>
@@ -271,11 +273,10 @@ As the attacker executing the Strip Grip from Zombie, your objective is to metho
 
 <p class="section-subtitle">What do you need before attempting Strip Grip from Zombie?</p>
 
-- Established top position with chest pressure against opponent's upper body
-- Opponent has active Zombie structure with lockdown, underhook, and frames engaged
-- Base secured through posted free leg to prevent sweeps during grip fighting
-- Head control or crossface position established to limit opponent's mobility
-- Awareness of opponent's sweep threats (Old School, Electric Chair) before initiating grip strip
+- The top player faces a bottom guard player using Zombie; the head, shoulder or arm may still be enclosed.
+- Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
+- Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
+- The relevant grips connect the hand, high leg and arm isolation. This is not a lockdown leg-release sequence.
 
 
 </section>
@@ -286,13 +287,12 @@ As the attacker executing the Strip Grip from Zombie, your objective is to metho
 
 <p class="section-subtitle">How do you execute Strip Grip from Zombie step by step?</p>
 
-1. **Establish heavy chest pressure**: Drive your chest and shoulder weight directly into the opponent's upper body, pinning their shoulder to the mat and limiting their ability to create angles or maintain active frames. Your forehead presses against the side of their face or neck, using gravity rather than muscular effort to maintain constant downward force.
-2. **Neutralize the underhook**: Thread your arm over their underhook arm to establish a deep whizzer grip. Squeeze your elbow tight against your ribs while driving your shoulder forward to collapse their underhook's structural integrity. The whizzer must be tight enough to prevent them from re-pumping the underhook during subsequent steps.
-3. **Strip the near-side frame**: With the underhook neutralized, use your free hand to pin their framing arm to the mat or push it past your head. Control their wrist and drive it toward their hip, removing the frame that creates space between your bodies. Maintain chest pressure throughout to prevent them from replacing the frame.
-4. **Address the lockdown**: With upper body control secured, begin working your trapped leg free from the lockdown. Drive your hip forward and down while straightening your trapped leg, using steady progressive pressure to break the figure-four configuration of their lockdown grip. Do not yank explosively — use gradual force that preserves your base.
-5. **Extract the trapped leg**: As the lockdown tension breaks, immediately slide your knee toward the mat on the outside of their hip. Use your free leg to backstep and create an angle that makes re-locking impossible. Keep your weight forward throughout the extraction to prevent them from using the movement to initiate a sweep.
-6. **Establish open guard top position**: Once your leg clears the lockdown, immediately establish passing grips on their knees or ankles. Push their legs to one side to prevent them from inserting butterfly hooks or establishing a new guard variation. Your posture should transition to standard open guard top engagement immediately.
-7. **Prevent re-guard establishment**: Maintain forward pressure and grip control as you transition to open guard engagement. Control their far knee to prevent butterfly guard recovery or de la riva hook insertion. Stay connected and begin your passing chain immediately — the window before they establish a new guard structure is only two to three seconds.
+1. **Recognize the upper-body trap**: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
+2. **Protect the captured limb**: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
+3. **Work before pressure engages**: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+4. **Open the high enclosure**: Create slack at the hip and thigh while keeping the head and captured arm aligned.
+5. **Recover the elbow and posture**: Withdraw the shoulder and elbow only after the high leg connection has opened.
+6. **Confirm the next position**: Establish inside arm position with safe posture only when the upper-body enclosure and relevant leg hooks have cleared.
 
 
 </section>
@@ -303,9 +303,9 @@ As the attacker executing the Strip Grip from Zombie, your objective is to metho
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 55% |
-| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Mission Control]] | 45% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 35% |
+| Counter | [[Positions/Rubber Guard/New York]] | 20% |
 
 
 </section>
@@ -316,10 +316,10 @@ As the attacker executing the Strip Grip from Zombie, your objective is to metho
 
 <p class="section-subtitle">How might your opponent counter Strip Grip from Zombie?</p>
 
-- **Opponent re-pumps underhook during lockdown break attempt** (Effectiveness: High) - Your Response: Re-establish whizzer immediately and return to underhook neutralization — never advance to lockdown stripping without underhook control secured → Leads to [[Positions/Rubber Guard/Zombie]]
-- **Opponent attempts Old School Sweep during grip transition** (Effectiveness: Medium) - Your Response: Drop weight forward and drive crossface pressure to flatten them, preventing the posting motion required for the sweep completion → Leads to [[Positions/Half Guard]]
-- **Opponent releases lockdown voluntarily to recover full half guard or butterfly guard** (Effectiveness: Medium) - Your Response: Accept the improved position and transition directly to passing — this is a partial success as they have abandoned their strongest defensive tool → Leads to [[Positions/Open Guard]]
-- **Opponent switches to deep half guard entry during grip exchange** (Effectiveness: High) - Your Response: Sprawl hips back immediately and re-establish chest pressure to prevent them from getting underneath you — maintain hip distance and crossface control → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Maintain posture control while freeing the other arm for the pummel.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. → Leads to [[Positions/Rubber Guard/New York]]
+- **Guide the wrist and forearm through the available space without bending individual fingers.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Cover the cleared arm and close the knee hug as the hand reaches the mat.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Create slack at the hip and thigh while keeping the head and captured arm aligned. → Leads to [[Positions/Rubber Guard/Zombie]]
 
 
 </section>
@@ -330,35 +330,30 @@ As the attacker executing the Strip Grip from Zombie, your objective is to metho
 
 <p class="section-subtitle">What mistakes should you avoid when executing Strip Grip from Zombie?</p>
 
-### 1. Attempting to strip all grips simultaneously rather than following a sequential priority order
+### 1. Skipping the checkpoint: recognize the upper-body trap
 
-- **Consequence**: Creates openings in your own structure that the opponent exploits for sweeps or guard recovery, and none of the grips are fully broken
-- **Correction**: Follow the priority sequence: underhook first, then frames, then lockdown — each broken grip makes the next easier to address
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
+- **Correction**: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
 
-### 2. Using explosive pulling force to break the lockdown before neutralizing upper body grips
+### 2. Skipping the checkpoint: protect the captured limb
 
-- **Consequence**: Opponent uses your backward momentum against you for Old School Sweep, and the explosive motion compromises your base and chest pressure
-- **Correction**: Address upper body grips first, then use steady progressive hip pressure to break lockdown — never yank against entangled legs
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
+- **Correction**: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
 
-### 3. Lifting weight off opponent during grip stripping to gain hand mobility
+### 3. Skipping the checkpoint: work before pressure engages
 
-- **Consequence**: Bottom player immediately re-frames, creates space, and re-establishes the Zombie structure or initiates sweeps
-- **Correction**: Maintain constant chest and shoulder pressure throughout — use body positioning rather than hand mobility to break grips
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+- **Correction**: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-### 4. Pausing after breaking one grip before attacking the next connection point
+### 4. Skipping the checkpoint: open the high enclosure
 
-- **Consequence**: Opponent re-establishes the broken grip during the pause, returning to full Zombie structure and wasting your effort
-- **Correction**: Flow immediately from one grip break to the next — the window between breaking a grip and opponent re-gripping is one to two seconds maximum
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Create slack at the hip and thigh while keeping the head and captured arm aligned.
+- **Correction**: Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
-### 5. Neglecting sweep defense during the grip stripping sequence
+### 5. Skipping the checkpoint: recover the elbow and posture
 
-- **Consequence**: Bottom player capitalizes on your focused attention to execute Old School Sweep or Electric Chair entry
-- **Correction**: Maintain base awareness throughout — keep free leg posted wide, weight forward, and monitor opponent's hip movement for sweep indicators
-
-### 6. Failing to transition to passing immediately after clearing all grips
-
-- **Consequence**: Opponent recovers a new guard structure such as butterfly hooks, knee shield, or de la riva that may be equally difficult to pass
-- **Correction**: Have your passing sequence pre-planned before initiating the grip strip — transition to passing without hesitation once legs are free
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Withdraw the shoulder and elbow only after the high leg connection has opened.
+- **Correction**: Withdraw the shoulder and elbow only after the high leg connection has opened.
 
 
 
@@ -370,20 +365,17 @@ As the attacker executing the Strip Grip from Zombie, your objective is to metho
 
 <p class="section-subtitle">How do you train Strip Grip from Zombie (Attacker)?</p>
 
-**Foundation** - Individual grip break mechanics
-Practice each grip break in isolation: whizzer against underhook, frame clearing, and lockdown breaking. Partner provides static resistance while you develop proper mechanics and body positioning for each technique.
+**Phase 1** - Identify the configuration
+Work cooperatively on recognize the upper-body trap. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Integration** - Sequential grip stripping flow
-Connect the grip breaks into a smooth sequence against light resistance. Partner maintains Zombie structure while you work through the full sequence from underhook neutralization through lockdown extraction. Focus on smooth transitions between steps.
+**Phase 2** - Rehearse the connection
+Work cooperatively on protect the captured limb. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Timing and Pressure** - Maintaining pressure during transitions
-Partner increases resistance and begins threatening sweeps during your grip stripping attempts. Practice maintaining constant chest pressure while working through the sequence. Develop sensitivity to sweep timing and learn to pause grip work to defend sweeps.
+**Phase 3** - Add an early response
+Work cooperatively on work before pressure engages. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Live Application** - Full resistance implementation
-Positional sparring starting from Zombie position. Top player works to strip grips and pass while bottom player uses full defensive toolbox including sweeps, guard recovery, and re-gripping. Track success rate and identify weak points.
-
-**Competition Integration** - Chain attacks from grip strip
-Practice flowing from successful grip strip directly into passing sequences against fully resisting opponents. Develop pre-planned passing chains that begin the moment the lockdown breaks. Work on reading opponent's reactions to select optimal passing direction.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on open the high enclosure. Create slack at the hip and thigh while keeping the head and captured arm aligned. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -397,7 +389,7 @@ Practice flowing from successful grip strip directly into passing sequences agai
 
 <p class="section-subtitle">What are the safety concerns for Strip Grip from Zombie?</p>
 
-Avoid explosive yanking movements when breaking the lockdown as this can cause knee or ankle injuries to both players. Use steady progressive pressure for leg extraction. Be aware that the lockdown configuration places stress on the trapped leg's knee joint — if you feel sharp pain, communicate and reset rather than forcing through. During grip stripping, avoid cranking the opponent's wrist or fingers when clearing frames. Both training partners should agree on intensity levels before drilling this sequence.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

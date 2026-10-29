@@ -437,31 +437,19 @@
     ],
     "clips": [
       {
-        "id": "UsEvrDzgbqE",
-        "title": "50/50 to Calf Slicer",
-        "by": "CaMiCho327",
-        "vertical": false,
-        "channel": "CaMiCho327",
-        "duration": 13,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "d4KgnwWTkuk",
         "title": "5050 Calf Slicer",
-        "by": "The Jiu-Jitsu Foundry",
-        "vertical": false,
         "channel": "The Jiu-Jitsu Foundry",
-        "duration": 35,
-        "verified": "2026-07-14"
+        "duration": 34,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "buBg-yzLTrY",
         "title": "Calf Slicer Positions: RDLR, 50/50, Z Guard",
-        "by": "Grappling with Insanity",
-        "vertical": false,
         "channel": "Grappling with Insanity",
         "duration": 54,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -636,34 +624,6 @@
         "description": "Start in 50-50 bottom with partner attacking freely using heel hook to calf slicer chains. Defend with all available techniques under full resistance. Emphasize tapping early when escapes fail rather than absorbing damage. Reset after tap, successful escape, or 60-second time limit."
       }
     ],
-    "clips": [
-      {
-        "id": "KOz3WqQJ3Tk",
-        "title": "Heel Hook Roll Out Counter to Calf Slicer",
-        "by": "Charlie Cosens",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 55,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "4zYNEvdgI2s",
-        "title": "Calf slicer defense into the lockdown",
-        "by": "James Clingerman",
-        "vertical": false,
-        "channel": "James Clingerman",
-        "duration": 270,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9l-XOzg5DCA",
-        "title": "Calf slicer late defense options",
-        "by": "Ryan Hall student instructor",
-        "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 346,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -46,35 +46,32 @@ description: "Master the Clock Choke in BJJ. Step-by-step gi choke from Turtle t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bulldog choke from top turtle (no-gi clock choke)",
-      "description": "Clock Choke film study: Bulldog choke from top turtle (no-gi clock choke), taught by Brad Hodges.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gKzOk8XthEQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gKzOk8XthEQ",
-      "url": "https://www.youtube.com/watch?v=gKzOk8XthEQ",
-      "creator": { "@type": "Person", "name": "Brad Hodges" },
-      "duration": "PT67S"
+      "name": "Clock choke escape",
+      "description": "Clock Choke film study: Clock choke escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5DnhNOvP66I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5DnhNOvP66I",
+      "url": "https://www.youtube.com/watch?v=5DnhNOvP66I",
+      "duration": "PT11S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The most important choke from top turtle",
-      "description": "Clock Choke film study: The most important choke from top turtle, taught by Brazilian Top Team Happy Valley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5E4oms5Yx6Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5E4oms5Yx6Q",
-      "url": "https://www.youtube.com/watch?v=5E4oms5Yx6Q",
-      "creator": { "@type": "Person", "name": "Brazilian Top Team Happy Valley" },
-      "duration": "PT70S"
+      "name": "Clock Choke from Turtle Escape Jiu Jitsu",
+      "description": "Clock Choke film study: Clock Choke from Turtle Escape Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bHIR07WZ8yI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bHIR07WZ8yI",
+      "url": "https://www.youtube.com/watch?v=bHIR07WZ8yI",
+      "duration": "PT16S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Clock choke breakdown",
-      "description": "Clock Choke film study: Clock choke breakdown, taught by Energia Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7-0YrhCpDUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7-0YrhCpDUo",
-      "url": "https://www.youtube.com/watch?v=7-0YrhCpDUo",
-      "creator": { "@type": "Person", "name": "Energia Martial Arts" },
-      "duration": "PT179S"
+      "name": "Clock choke counter",
+      "description": "Clock Choke film study: Clock choke counter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RiBLBO9zinA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RiBLBO9zinA",
+      "url": "https://www.youtube.com/watch?v=RiBLBO9zinA",
+      "duration": "PT79S"
     }
   ]
 }
@@ -128,25 +125,25 @@ The rotational finishing mechanic distinguishes the Clock Choke from static coll
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gKzOk8XthEQ)
+![](https://www.youtube.com/watch?v=5DnhNOvP66I)
 
-<p class="clip-credit"><strong>Bulldog choke from top turtle (no-gi clock choke)</strong> — taught by Brad Hodges · 1:07 · <a href="https://www.youtube.com/watch?v=gKzOk8XthEQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5E4oms5Yx6Q)
-
-<p class="clip-credit"><strong>The most important choke from top turtle</strong> — taught by Brazilian Top Team Happy Valley · 1:10 · <a href="https://www.youtube.com/watch?v=5E4oms5Yx6Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Clock choke escape</strong> · 0:11 · <a href="https://www.youtube.com/watch?v=5DnhNOvP66I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7-0YrhCpDUo)
+![](https://www.youtube.com/watch?v=bHIR07WZ8yI)
 
-<p class="clip-credit"><strong>Clock choke breakdown</strong> — taught by Energia Martial Arts · 2:59 · <a href="https://www.youtube.com/watch?v=7-0YrhCpDUo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Clock Choke from Turtle Escape Jiu Jitsu</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=bHIR07WZ8yI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RiBLBO9zinA)
+
+<p class="clip-credit"><strong>Clock choke counter</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=RiBLBO9zinA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

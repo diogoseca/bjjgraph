@@ -162,24 +162,22 @@ description: "Defend the North-South Choke from North-South position. Recognitio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "North South inverted spin escape",
-      "description": "North-South Choke from North-South (Defender) film study: North South inverted spin escape, taught by SBG Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
-      "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT37S"
+      "name": "Defending the north south choke.",
+      "description": "North-South Choke from North-South (Defender) film study: Defending the north south choke..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AyL9eW7ytq4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AyL9eW7ytq4",
+      "url": "https://www.youtube.com/watch?v=AyL9eW7ytq4",
+      "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to escape North South",
-      "description": "North-South Choke from North-South (Defender) film study: How to escape North South, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rmT52A--V3Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rmT52A--V3Q",
-      "url": "https://www.youtube.com/watch?v=rmT52A--V3Q",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT203S"
+      "name": "\u201cHook-Plata\u201d  (North-South Choke Escape)",
+      "description": "North-South Choke from North-South (Defender) film study: \u201cHook-Plata\u201d  (North-South Choke Escape).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
+      "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
+      "duration": "PT59S"
     }
   ]
 }
@@ -208,17 +206,17 @@ Defending against the North-South Choke requires early recognition and immediate
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XaLBmGnHm78)
+![](https://www.youtube.com/watch?v=AyL9eW7ytq4)
 
-<p class="clip-credit"><strong>North South inverted spin escape</strong> — taught by SBG Australia · 0:37 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the north south choke.</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=AyL9eW7ytq4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rmT52A--V3Q)
+![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
 
-<p class="clip-credit"><strong>How to escape North South</strong> — taught by Jon Thomas · 3:23 · <a href="https://www.youtube.com/watch?v=rmT52A--V3Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>“Hook-Plata”  (North-South Choke Escape)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,35 +186,12 @@ description: "How to execute Saddle Entry from Top in BJJ. Attacking perspective
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Saddle transition from top half guard",
-      "description": "Saddle Entry from Top (Attacker) film study: Saddle transition from top half guard, taught by Thunderdome BJJ coach.",
+      "name": "Saddle Transition from Top Half Guard",
+      "description": "Saddle Entry from Top (Attacker) film study: Saddle Transition from Top Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/P-rkPE4bjdE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/P-rkPE4bjdE",
       "url": "https://www.youtube.com/watch?v=P-rkPE4bjdE",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ coach" },
       "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Easy entry to the saddle from top",
-      "description": "Saddle Entry from Top (Attacker) film study: Easy entry to the saddle from top, taught by Ilya.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HniaoFWTsmI",
-      "url": "https://www.youtube.com/watch?v=HniaoFWTsmI",
-      "creator": { "@type": "Person", "name": "Ilya" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Gordon Ryan saddle entry breakdown",
-      "description": "Saddle Entry from Top (Attacker) film study: Gordon Ryan saddle entry breakdown, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IOyoyijtaBY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IOyoyijtaBY",
-      "url": "https://www.youtube.com/watch?v=IOyoyijtaBY",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT85S"
     }
   ]
 }
@@ -248,23 +225,7 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 ![](https://www.youtube.com/watch?v=P-rkPE4bjdE)
 
-<p class="clip-credit"><strong>Saddle transition from top half guard</strong> — taught by Thunderdome BJJ coach · 0:31 · <a href="https://www.youtube.com/watch?v=P-rkPE4bjdE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=HniaoFWTsmI)
-
-<p class="clip-credit"><strong>Easy entry to the saddle from top</strong> — taught by Ilya · 0:53 · <a href="https://www.youtube.com/watch?v=HniaoFWTsmI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=IOyoyijtaBY)
-
-<p class="clip-credit"><strong>Gordon Ryan saddle entry breakdown</strong> — taught by Gordon Ryan · 1:25 · <a href="https://www.youtube.com/watch?v=IOyoyijtaBY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Saddle Transition from Top Half Guard</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=P-rkPE4bjdE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -442,8 +403,8 @@ When practicing saddle entries, ensure controlled execution with clear communica
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Leglocks — Enter The System</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Ankle Locks and Kneebars</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Down Under Leg Attacks</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Competition: IBJJF and ADCC</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Saddle Entry from Top.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

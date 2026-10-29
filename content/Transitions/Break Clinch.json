@@ -385,21 +385,11 @@
     "clips": [
       {
         "id": "yEGyEjjgkKU",
-        "title": "Clearing the neck tie to break the clinch",
-        "by": "CSW Association",
-        "vertical": false,
+        "title": "CSW - Neck Clearing",
         "channel": "CSW Association",
-        "duration": 83,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jTk5AaZd1Rc",
-        "title": "Breaking a collar grip with technique, not strength",
-        "by": "Travis Stevens",
+        "duration": 82,
         "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 113,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -565,25 +555,6 @@
         "description": "Full-speed positional sparring where the opponent's sole objective is to break the clinch and your objective is to maintain control or advance to a dominant position. Track success rates and identify which break variants give you the most trouble for targeted improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "BhFDcDU7oX0",
-        "title": "Maintaining the body lock clinch",
-        "by": "Nicky Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 123,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jTk5AaZd1Rc",
-        "title": "Break Any Collar Grip with Technique Not Strength",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 113,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

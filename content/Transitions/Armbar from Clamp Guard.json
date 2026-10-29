@@ -402,22 +402,11 @@
     "safety_considerations": "The armbar from clamp guard applies significant hyperextension force to the elbow joint. Always apply finishing pressure gradually in training, allowing your partner adequate time to recognize the danger and tap. Release immediately upon receiving any tap signal — verbal, physical, or foot tap. Be especially cautious during the transition phase, as the momentum of swinging the leg over can accelerate arm extension unexpectedly. Never apply explosive or jerking force to the elbow. When drilling, communicate with your partner about pressure levels and establish clear tap protocols before beginning.",
     "clips": [
       {
-        "id": "F4Ns40AnI3Q",
-        "title": "Closed guard pull straight to armbar",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 41,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "e995R56aRTU",
-        "title": "Rolling armbar from closed guard",
-        "by": "Pure Art BJJ",
-        "vertical": false,
-        "channel": "Pure Art BJJ Portsmouth - Brazilian Jiu-Jitsu",
-        "duration": 19,
-        "verified": "2026-07-15"
+        "id": "CerSOcBWsKM",
+        "title": "Clamp Guard Armbar",
+        "channel": "Robert Hugus BJJ Videos",
+        "duration": 87,
+        "front": true
       }
     ]
   },
@@ -596,25 +585,6 @@
         "description": "Positional sparring starting from clamp guard with the attacker using full armbar, triangle, and omoplata chains. Defender must read which attack is coming and apply the appropriate defense in real time. Score prevention of armbar entry, successful escapes from partial control, and position recovery after defense. Train against various body types and attack styles."
       }
     ],
-    "clips": [
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "Armbar escape when they are close to finishing",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "g46PNylAst0",
-        "title": "Armbar and guillotine escapes from guard",
-        "by": "Tyler Brueckner",
-        "vertical": false,
-        "channel": "Tyler Brueckner",
-        "duration": 121,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

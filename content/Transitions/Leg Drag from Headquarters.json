@@ -367,22 +367,11 @@
     "safety_considerations": "The leg drag involves lateral pressure on the opponent's knee and hip joints. Apply controlled force during the drag motion to avoid hyperextending the knee or straining the MCL through excessive lateral torque. Be particularly mindful of your training partner's hip flexibility when pinning the dragged leg, as forcing the leg past its natural range of motion can cause groin or hip flexor injuries. During drilling, allow partners to tap or verbally signal if they experience discomfort in the knee, hip, or groin during the drag motion, and release pressure immediately upon any signal.",
     "clips": [
       {
-        "id": "T50gLtUUtqs",
-        "title": "Leg drag to set up the toreando pass",
-        "by": "PFed BJJ",
-        "vertical": false,
-        "channel": "PFed BJJ",
-        "duration": 76,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_e82XgM98go",
-        "title": "Leg pin headquarters to over-under to back take",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 32,
-        "verified": "2026-07-15"
+        "id": "RZ9cDa-7s1o",
+        "title": "Headquarters Position - Leg Drag",
+        "channel": "Iowa Park Jiu Jitsu Club",
+        "duration": 550,
+        "front": true
       }
     ]
   },
@@ -568,31 +557,12 @@
     ],
     "clips": [
       {
-        "id": "fFqoFDE2yyw",
-        "title": "Guard retention against the leg drag",
-        "by": "Brandon Quick",
+        "id": "fO9mvIlh4Yw",
+        "title": "LEANDRO Lo -  Leg drag defense with technical stand up",
+        "channel": "BJJ Black",
+        "duration": 200,
         "vertical": false,
-        "channel": "Brandon Quick",
-        "duration": 90,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up and escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "BhNZGloJ56c",
-        "title": "Guard recovery when getting smashed",
-        "by": "Finesse Jiujitsu HTX",
-        "vertical": false,
-        "channel": "FINESSE JIUJITSU HTX",
-        "duration": 103,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

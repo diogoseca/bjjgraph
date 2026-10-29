@@ -188,35 +188,22 @@ description: "How to execute Omoplata from Guard in BJJ. Attacking perspective w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Short and Sweet Closed Guard Omoplata",
-      "description": "Omoplata from Guard (Attacker) film study: Short and Sweet Closed Guard Omoplata, taught by 2nd Gear Jiu Jitsu.",
+      "name": "Short and Sweet Closed Guard Omoplata Lesson",
+      "description": "Omoplata from Guard (Attacker) film study: Short and Sweet Closed Guard Omoplata Lesson.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zM4_rXU-riA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zM4_rXU-riA",
       "url": "https://www.youtube.com/watch?v=zM4_rXU-riA",
-      "creator": { "@type": "Person", "name": "2nd Gear Jiu Jitsu" },
-      "duration": "PT71S"
+      "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Closed Guard Omoplata to Triangle Choke",
-      "description": "Omoplata from Guard (Attacker) film study: Closed Guard Omoplata to Triangle Choke, taught by Ritchie Yip.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z49W3g4M6vM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z49W3g4M6vM",
-      "url": "https://www.youtube.com/watch?v=z49W3g4M6vM",
-      "creator": { "@type": "Person", "name": "Ritchie Yip" },
-      "duration": "PT34S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Omoplata Setup",
-      "description": "Omoplata from Guard (Attacker) film study: Omoplata Setup, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U87WJbHqdQU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U87WJbHqdQU",
-      "url": "https://www.youtube.com/watch?v=U87WJbHqdQU",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT141S"
+      "name": "Overhook Omoplata Entry and Three Finishes",
+      "description": "Omoplata from Guard (Attacker) film study: Overhook Omoplata Entry and Three Finishes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KHXE9dSqa4M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KHXE9dSqa4M",
+      "url": "https://www.youtube.com/watch?v=KHXE9dSqa4M",
+      "duration": "PT149S"
     }
   ]
 }
@@ -247,23 +234,15 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 ![](https://www.youtube.com/watch?v=zM4_rXU-riA)
 
-<p class="clip-credit"><strong>Short and Sweet Closed Guard Omoplata</strong> — taught by 2nd Gear Jiu Jitsu · 1:11 · <a href="https://www.youtube.com/watch?v=zM4_rXU-riA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Short and Sweet Closed Guard Omoplata Lesson</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=zM4_rXU-riA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=z49W3g4M6vM)
+![](https://www.youtube.com/watch?v=KHXE9dSqa4M)
 
-<p class="clip-credit"><strong>Closed Guard Omoplata to Triangle Choke</strong> — taught by Ritchie Yip · 0:34 · <a href="https://www.youtube.com/watch?v=z49W3g4M6vM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U87WJbHqdQU)
-
-<p class="clip-credit"><strong>Omoplata Setup</strong> — taught by Mikey Musumeci · 2:21 · <a href="https://www.youtube.com/watch?v=U87WJbHqdQU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Overhook Omoplata Entry and Three Finishes</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=KHXE9dSqa4M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

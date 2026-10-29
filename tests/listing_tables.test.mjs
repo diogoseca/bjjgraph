@@ -7,7 +7,7 @@
 //   1. Byte-identity at the dealer: on today's corpus no hand deals an overlay, so every dealt card
 //      IS the node at its index (the claim that lets B1 ship without moving a number).
 //   2. With panel tables injected exactly as regenerate_neural_data emits them, a listing's card is
-//      dealt, priced, landed and drawn from THAT listing's table, and the option sheet shows it.
+//      dealt, priced, landed and drawn from THAT listing's table, without a canonical-table fallback. Inspect was retired in v1.230.0.
 //   3. The full app-vs-Python mechanics differential (tests/mdp_data_corpus.test.mjs) passes on that
 //      injected wire, so the adapter capture and _mdp_mechanics agree on every hand, destination
 //      and node, the listing tables included.
@@ -31,7 +31,12 @@ const SRC = read("neural/src/app.src.jsx");
 const Component = new Function("DCLogic", "React", knowledgeSource + "\n" + SRC + "\nreturn Component;")(class {}, { createRef: () => ({ current: null }) });
 const DATA = "source/quartz/static/neural";
 const WIRE = JSON.parse(read(DATA + "/graph-data.json"));
-const TABLES = JSON.parse(read("calibration/listing_tables.json")).tables;
+// Approved premise migration, with exact plan citations and stale-row checks,
+// is shared with the Python path in _listing_table_expectations.py.
+const approved = spawnSync("python3", ["-B", resolve(ROOT, "tests/_listing_table_expectations.py")], { cwd: ROOT, encoding: "utf8" });
+assert.equal(approved.status, 0, approved.stdout + approved.stderr);
+const EXPECTED = JSON.parse(approved.stdout);
+const TABLES = EXPECTED.tables;
 const CODE = { success: "s", failure: "f", counter: "c" };
 
 function app(wire) {
@@ -73,21 +78,22 @@ for (const t of TABLES) {
   if (PICKS.length === 6) break;
 }
 
-test("every dealt card is the node at its index, or exactly its listing's overlay (B2: all 95 tables dealt in gi)", () => {
-  // v1.216.0 (PR B2): the applied tables, counted from the provenance, never a literal
-  const prov = JSON.parse(read("calibration/listing_tables.json"));
-  const dropped = new Set((prov.dropped || []).map((d) => d.key));
-  const applied = prov.tables.filter((t) => !dropped.has(t.key));
+test("every dealt card is the node at its index, or exactly its listing's overlay", () => {
+  // B2's claim on the approved phase-2 premise: every surviving reviewed table,
+  // plus both approved coalesced listings; every removed listing is absent.
+  const applied = TABLES;
   const a = app(WIRE);
   a._giMode = "gi";
   let cards = 0, plain = 0;
   const overlays = new Set();
+  const dealt = new Set();
   for (const n of a.nodes) {
     if (n.ty !== "positions" || n.cal?.stateAlias) continue;
     for (const role of ["top", "bottom"]) {
       a.currentPos = n.idx; a.playerRole = role; a.aiSkill = 0.13;
       for (const o of a.optionsFor(n.idx, role)) {
         cards++;
+        dealt.add(n.posId + "/" + role + "|" + o.node.t);
         if (o.node === a.nodes[o.idx]) { plain++; continue; }
         assert.equal(o.node.here, n.posId, o.node.t + ": an overlay belongs to the state that dealt it");
         assert.ok(o.node.cal.outcomes === a.nodes[o.idx].cal.at[n.posId].outcomes, o.node.t + ": exactly the wire's table");
@@ -98,11 +104,24 @@ test("every dealt card is the node at its index, or exactly its listing's overla
   assert.ok(cards > 2000, `${cards} cards dealt over the corpus`);
   const want = new Set(applied.map((t) => t.listing.split("/")[0] + "/" + t.listing.split("/")[1] + "|" + t.move));
   assert.deepEqual([...overlays].sort(), [...want].sort(), "every applied table is dealt as an overlay at its listing, and nothing else is");
+  for (const t of EXPECTED.retired) {
+    assert.ok(!dealt.has(t.listing + "|" + t.move), t.key + ": approved removed listing is never dealt");
+    const node = WIRE.nodes.find((n) => n.t === t.move && n.ty === "transitions");
+    if (t.canonical_retired) {
+      assert.ok(!node, t.key + ": the approved duplicate retirement has no wire node");
+    } else {
+      assert.ok(node, t.key + ": the generic technique still exists");
+      assert.ok(!node.cal?.at?.[t.listing.split("/")[0]], t.key + ": no stale wire table");
+    }
+  }
+  assert.equal(EXPECTED.surviving, 88, "positive coverage: all surviving reviewed tables");
+  assert.ok(EXPECTED.surviving > 0, "the reviewed table sweep cannot be empty");
+  console.log(`listing tables JS: ${EXPECTED.surviving} surviving reviewed, ${EXPECTED.added} added, ${EXPECTED.retired.length} absent; ${overlays.size} gi overlays`);
   // each state is drawn as TWO pair members, and both deal the site's hand, so each overlay is dealt twice
   assert.equal(cards - plain, overlays.size * 2, "one overlay per (listing, technique), on each pair member");
 });
 
-test("a listing's table is dealt, priced, landed and drawn from that listing, and the sheet shows it", () => {
+test("a listing's table is dealt, priced, landed and drawn from that listing", () => {
   const { wire, placed } = inject(WIRE, PICKS);
   const a = app(wire);
   // resolve()'s own consumers move the roll (travel, landing): they are stubbed to RECORD the drawn
@@ -140,9 +159,8 @@ test("a listing's table is dealt, priced, landed and drawn from that listing, an
     }
     // a miss can land back on the listing: every panel table sends one there
     assert.ok(opt.node.cal.outcomes.some((o) => o.result !== "success" && o.to === t.listing), t.key + ": a miss stays here");
-    // the option sheet's "Where it leads" is this table (D4)
-    const info = a._sheetInfo(opt.node, { outcomes: [{ result: "Success", position: "canonical", prob: 1, tone: "good" }] });
-    assert.deepEqual(info.outcomes.map((o) => o.position), opt.node.cal.outcomes.map((o) => o.to.split("/")[0]), t.key + ": the sheet");
+    // v1.230.0 retires the v1.218.1/v1.220.0 Inspect table. The listing's actual
+    // draw/landing assertions above remain; Read opens the canonical role article.
     checked++;
   }
   assert.equal(checked, PICKS.length, `${checked} listings checked`);

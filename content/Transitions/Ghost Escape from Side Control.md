@@ -46,35 +46,22 @@ description: "Learn the Ghost Escape from Side Control in BJJ. Expert guide cove
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ghost Escape Drill from Side Control",
-      "description": "Ghost Escape from Side Control film study: Ghost Escape Drill from Side Control, taught by The Martial Arts Monk.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_4Ahdd-O8FM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_4Ahdd-O8FM",
-      "url": "https://www.youtube.com/watch?v=_4Ahdd-O8FM",
-      "creator": { "@type": "Person", "name": "The Martial Arts Monk" },
-      "duration": "PT56S"
+      "name": "Spinning Back Door Escape from side control",
+      "description": "Ghost Escape from Side Control film study: Spinning Back Door Escape from side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gawKiLxmZbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gawKiLxmZbc",
+      "url": "https://www.youtube.com/watch?v=gawKiLxmZbc",
+      "duration": "PT47S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "No-Gi Side Control Escape to Ghost",
-      "description": "Ghost Escape from Side Control film study: No-Gi Side Control Escape to Ghost, taught by Pantera Jiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rjvvLBRxa8s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rjvvLBRxa8s",
-      "url": "https://www.youtube.com/watch?v=rjvvLBRxa8s",
-      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Spinning Back Door Escape from Side Control",
-      "description": "Ghost Escape from Side Control film study: Spinning Back Door Escape from Side Control, taught by Science Of JiuJitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gawKiLxmZbc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gawKiLxmZbc",
-      "url": "https://www.youtube.com/watch?v=gawKiLxmZbc",
-      "creator": { "@type": "Person", "name": "Science Of JiuJitsu" },
-      "duration": "PT48S"
+      "name": "Perpetual Ghost Escape Drill (Escape, Half Nelson, Pull Into Side Control,\u2026",
+      "description": "Ghost Escape from Side Control film study: Perpetual Ghost Escape Drill (Escape, Half Nelson, Pull Into Side Control,\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_4Ahdd-O8FM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_4Ahdd-O8FM",
+      "url": "https://www.youtube.com/watch?v=_4Ahdd-O8FM",
+      "duration": "PT55S"
     }
   ]
 }
@@ -128,25 +115,17 @@ The primary difficulty is the precision required during the knee threading phase
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_4Ahdd-O8FM)
-
-<p class="clip-credit"><strong>Ghost Escape Drill from Side Control</strong> — taught by The Martial Arts Monk · 0:56 · <a href="https://www.youtube.com/watch?v=_4Ahdd-O8FM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rjvvLBRxa8s)
-
-<p class="clip-credit"><strong>No-Gi Side Control Escape to Ghost</strong> — taught by Pantera Jiujitsu · 1:02 · <a href="https://www.youtube.com/watch?v=rjvvLBRxa8s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=gawKiLxmZbc)
 
-<p class="clip-credit"><strong>Spinning Back Door Escape from Side Control</strong> — taught by Science Of JiuJitsu · 0:48 · <a href="https://www.youtube.com/watch?v=gawKiLxmZbc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spinning Back Door Escape from side control</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=gawKiLxmZbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_4Ahdd-O8FM)
+
+<p class="clip-credit"><strong>Perpetual Ghost Escape Drill (Escape, Half Nelson, Pull Into Side Control,…</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=_4Ahdd-O8FM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

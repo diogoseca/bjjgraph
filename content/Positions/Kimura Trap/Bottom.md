@@ -165,35 +165,12 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura Trap Rolling Sweep from Bottom",
-      "description": "Kimura Trap (Bottom) film study: Kimura Trap Rolling Sweep from Bottom, taught by Mat Life Training Center.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YvTmqi750wQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YvTmqi750wQ",
-      "url": "https://www.youtube.com/watch?v=YvTmqi750wQ",
-      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Half Guard Kimura Sweep 2 ways",
-      "description": "Kimura Trap (Bottom) film study: Half Guard Kimura Sweep 2 ways, taught by OMJJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Px0XWVtlHAM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Px0XWVtlHAM",
-      "url": "https://www.youtube.com/watch?v=Px0XWVtlHAM",
-      "creator": { "@type": "Person", "name": "OMJJJ" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Bottom Half Guard Kimura Elevator Sweep",
-      "description": "Kimura Trap (Bottom) film study: Bottom Half Guard Kimura Elevator Sweep, taught by David Avellan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3DrVJNkQqFo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3DrVJNkQqFo",
-      "url": "https://www.youtube.com/watch?v=3DrVJNkQqFo",
-      "creator": { "@type": "Person", "name": "David Avellan" },
-      "duration": "PT201S"
+      "name": "Kimura Trap - An In Depth Study",
+      "description": "Kimura Trap (Bottom) film study: Kimura Trap - An In Depth Study.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eIGogiDi0XI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eIGogiDi0XI",
+      "url": "https://www.youtube.com/watch?v=eIGogiDi0XI",
+      "duration": "PT293S"
     }
   ]
 }
@@ -225,25 +202,9 @@ Strategically, the position forces top players into impossible choices—they mu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YvTmqi750wQ)
+![](https://www.youtube.com/watch?v=eIGogiDi0XI)
 
-<p class="clip-credit"><strong>Kimura Trap Rolling Sweep from Bottom</strong> — taught by Mat Life Training Center · 0:31 · <a href="https://www.youtube.com/watch?v=YvTmqi750wQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Px0XWVtlHAM)
-
-<p class="clip-credit"><strong>Half Guard Kimura Sweep 2 ways</strong> — taught by OMJJJ · 1:10 · <a href="https://www.youtube.com/watch?v=Px0XWVtlHAM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3DrVJNkQqFo)
-
-<p class="clip-credit"><strong>Bottom Half Guard Kimura Elevator Sweep</strong> — taught by David Avellan · 3:21 · <a href="https://www.youtube.com/watch?v=3DrVJNkQqFo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Trap - An In Depth Study</strong> · 4:53 · <a href="https://www.youtube.com/watch?v=eIGogiDi0XI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -444,7 +405,7 @@ Start in Kimura Trap Bottom. Partner cycles through four defensive reactions: (1
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura — Enter The System</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Bottom Half in The Ultimate Rubber Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Kimura Trap: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-North-South-Choke-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-north-south-choke-system" data-system-name="Marcelo Garcia North South Choke System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The North-South Choke</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

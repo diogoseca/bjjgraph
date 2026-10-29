@@ -441,26 +441,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "vTE4XQpRiqY",
-        "title": "The Vaporizer (Calf Slicer)",
-        "by": "Bobby Lee",
-        "vertical": false,
-        "channel": "Bobby Lee",
-        "duration": 17,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "1JUGqwxsDKg",
-        "title": "Painful Calf Slicer from The Truck",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 62,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Russian Cowboy Defender",
@@ -631,34 +612,6 @@
         "description": "Start in Russian Cowboy bottom with full resistance. Defend all attacks including the calf slicer while working systematic escapes. Focus on maintaining split awareness between neck and leg threats. Rounds of 2-3 minutes with emphasis on recognizing the earliest possible intervention points."
       }
     ],
-    "clips": [
-      {
-        "id": "VFM9JGQrLYk",
-        "title": "Ankle Lock Counter to Calf Cutter",
-        "by": "Pathfinder Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 97,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5bACGsC8nVo",
-        "title": "Calf slicer and kneebar defense",
-        "by": "Jesse Gough",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 110,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "Bhzai-ipuRo",
-        "title": "Calf slicer counter from butterfly guard",
-        "by": "No Limit Jiu Jitsu",
-        "vertical": false,
-        "channel": "No Limit Jiu Jitsu",
-        "duration": 17,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

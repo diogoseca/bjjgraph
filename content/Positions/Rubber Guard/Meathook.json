@@ -407,26 +407,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "KN7ww-OyaxQ",
-        "title": "Meathook options from Rubber Guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0w0642zFqWo",
-        "title": "Troubleshooting the Meathook",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Meathook Bottom",
@@ -621,11 +602,6 @@
             "technique": "Closed Guard to Omoplata",
             "target": "Omoplata Control",
             "probability": 75
-          },
-          {
-            "technique": "Crackhead Control to Carni",
-            "target": "Carni",
-            "probability": 70
           }
         ]
       },
@@ -651,11 +627,6 @@
             "technique": "Omoplata to Back",
             "target": "Back Control",
             "probability": 60
-          },
-          {
-            "technique": "Crackhead Control to Carni",
-            "target": "Carni",
-            "probability": 65
           }
         ]
       }
@@ -780,43 +751,36 @@
       {
         "transition": "Meathook to Gogoplata Control",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 22
+          "gi": 20,
+          "nogi": 24
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 15
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Crackhead Control to Carni",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Armbar from New York",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Crackhead Control to Mission Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 15
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
@@ -836,40 +800,12 @@
       {
         "transition": "Sweep from Meathook",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       }
     ],
-    "clips": [
-      {
-        "id": "KN7ww-OyaxQ",
-        "title": "Meathook Options (MTS 202)",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "0w0642zFqWo",
-        "title": "Rubber Guard: Troubleshooting the Meathook",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "pJ4G8hW6dIE",
-        "title": "Near-side Meathook Sweep",
-        "by": "10th Planet Colorado Springs",
-        "vertical": false,
-        "channel": "10th Planet Colorado Springs",
-        "duration": 93,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -985,33 +921,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "KN7ww-OyaxQ",
-      "title": "Meathook Options (MTS 202)",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 60,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "h6o7-9u4NHo",
-      "title": "Polishing the meathook",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 61,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "0w0642zFqWo",
-      "title": "Troubleshooting the meathook",
-      "by": "Brandon McCaghren",
-      "vertical": false,
-      "channel": "Brandon Mccaghren",
-      "duration": 61,
-      "verified": "2026-07-15"
-    }
-  ]
+  "clips": []
 }

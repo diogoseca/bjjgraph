@@ -46,23 +46,21 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Monoplata from Triangle Choke",
-      "description": "Monoplata from Guard film study: Monoplata from Triangle Choke, taught by Waza Brazilian Jiu Jitsu.",
+      "name": "WazaTube: Monoplata from Triangle Choke",
+      "description": "Monoplata from Guard film study: WazaTube: Monoplata from Triangle Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/u9fF8OCRDks/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/u9fF8OCRDks",
       "url": "https://www.youtube.com/watch?v=u9fF8OCRDks",
-      "creator": { "@type": "Person", "name": "Waza Brazilian Jiu Jitsu" },
       "duration": "PT110S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Monoplata Trap System from Guard",
-      "description": "Monoplata from Guard film study: Monoplata Trap System from Guard, taught by Johnny Jitsu.",
+      "name": "MONOPLATA \"TRAP SYSTEM\" for BJJ",
+      "description": "Monoplata from Guard film study: MONOPLATA \"TRAP SYSTEM\" for BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5J6Gtv1hAMo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5J6Gtv1hAMo",
       "url": "https://www.youtube.com/watch?v=5J6Gtv1hAMo",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
       "duration": "PT160S"
     }
   ]
@@ -124,7 +122,7 @@ Emerging from the rubber guard and omoplata systems of modern no-gi grappling, t
 
 ![](https://www.youtube.com/watch?v=u9fF8OCRDks)
 
-<p class="clip-credit"><strong>Monoplata from Triangle Choke</strong> — taught by Waza Brazilian Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=u9fF8OCRDks" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>WazaTube: Monoplata from Triangle Choke</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=u9fF8OCRDks" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -132,7 +130,7 @@ Emerging from the rubber guard and omoplata systems of modern no-gi grappling, t
 
 ![](https://www.youtube.com/watch?v=5J6Gtv1hAMo)
 
-<p class="clip-credit"><strong>Monoplata Trap System from Guard</strong> — taught by Johnny Jitsu · 2:40 · <a href="https://www.youtube.com/watch?v=5J6Gtv1hAMo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>MONOPLATA &#34;TRAP SYSTEM&#34; for BJJ</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=5J6Gtv1hAMo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -4,7 +4,7 @@
 
 ---
 title: "Straight Ankle Lock Entry | BJJ Technique | BJJ Graph"
-description: "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Step-by-step leg capture to ankle lock control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "Learn Straight Ankle Lock Entry from Inverted Guard in BJJ. Step-by-step leg capture to ankle lock control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Ste
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Straight Ankle Lock Entry",
-  "description": "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Step-by-step leg capture to ankle lock control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Learn Straight Ankle Lock Entry from Inverted Guard in BJJ. Step-by-step leg capture to ankle lock control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,50 +36,6 @@ description: "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Ste
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Straight Ankle Lock Entry \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Basic leg lock entries from standing",
-      "description": "Straight Ankle Lock Entry film study: Basic leg lock entries from standing, taught by Jaime Sanchez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mM7UEXLsmMw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mM7UEXLsmMw",
-      "url": "https://www.youtube.com/watch?v=mM7UEXLsmMw",
-      "creator": { "@type": "Person", "name": "Jaime Sanchez" },
-      "duration": "PT39S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard pull into straight ankle lock",
-      "description": "Straight Ankle Lock Entry film study: Guard pull into straight ankle lock, taught by Adriano.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bAExryUlXsA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bAExryUlXsA",
-      "url": "https://www.youtube.com/watch?v=bAExryUlXsA",
-      "creator": { "@type": "Person", "name": "Adriano" },
-      "duration": "PT34S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Straight ankle lock quick demo",
-      "description": "Straight Ankle Lock Entry film study: Straight ankle lock quick demo, taught by bjjtaro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
-      "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
-      "duration": "PT16S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -87,7 +43,7 @@ description: "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Ste
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Straight Ankle Lock Entry",
-  "description": "The Straight Ankle Lock Entry is a leg-lock transition from Grasshopper Guard bottom where the inverted player threads their legs around a standing opponent's lead leg, isolates the ankle, and establishes straight ankle lock control for an Achilles-tendon finish.",
+  "description": "The Straight Ankle Lock Entry is a leg-lock transition from Inverted Guard bottom where the inverted player threads their legs around a standing opponent's lead leg, isolates the ankle, and establishes straight ankle lock control for an Achilles-tendon finish.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,53 +61,19 @@ description: "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Ste
 
 <section id="overview" class="content-section">
 
-**The Straight Ankle Lock Entry is a leg-lock transition from Grasshopper Guard bottom where the inverted player threads their legs around a standing opponent's lead leg, isolates the ankle, and establishes straight ankle lock control for an Achilles-tendon finish.**
+**The Straight Ankle Lock Entry is a leg-lock transition from Inverted Guard bottom where the inverted player threads their legs around a standing opponent's lead leg, isolates the ankle, and establishes straight ankle lock control for an Achilles-tendon finish.**
 
-The Straight Ankle Lock Entry from Grasshopper Guard exploits the inverted positioning to capture the opponent's ankle before they can clear your legs or establish a passing sequence. From the grasshopper configuration, your elevated hips and active leg engagement create natural pathways to thread under the opponent's lead leg and isolate the ankle joint for a straight footlock attack.
+The Straight Ankle Lock Entry from Inverted Guard exploits the inverted positioning to capture the opponent's ankle before they can clear your legs or establish a passing sequence. From the inverted configuration, your elevated hips and active leg engagement create natural pathways to thread under the opponent's lead leg and isolate the ankle joint for a straight footlock attack.
 
-This entry capitalizes on the opponent's standing posture above your inverted guard. When they commit weight forward or step into your leg range, you shoot your outside leg across their hip line while the inside leg hooks behind their far knee, creating the figure-four clamp necessary for ankle lock control. The transition leverages the same hip elevation mechanics that make grasshopper guard dangerous for sweeps, redirecting that energy into limb isolation rather than positional reversal.
+This entry capitalizes on the opponent's standing posture above your inverted guard. When they commit weight forward or step into your leg range, you shoot your outside leg across their hip line while the inside leg hooks behind their far knee, creating the figure-four clamp necessary for ankle lock control. The transition leverages the same hip elevation mechanics that make inverted guard dangerous for sweeps, redirecting that energy into limb isolation rather than positional reversal.
 
-Strategically, the Straight Ankle Lock Entry serves as the primary submission-oriented exit from grasshopper guard when sweep opportunities stall. It pairs naturally with kneebar attacks from the same position, forcing the opponent to defend both the knee and ankle simultaneously. Against opponents who stand tall and wide to neutralize your sweeping game, the ankle lock entry punishes their conservative posture by attacking the most exposed target - the lead foot planted closest to your inverted body.
+Strategically, the Straight Ankle Lock Entry serves as the primary submission-oriented exit from inverted guard when sweep opportunities stall. It pairs naturally with kneebar attacks from the same position, forcing the opponent to defend both the knee and ankle simultaneously. Against opponents who stand tall and wide to neutralize your sweeping game, the ankle lock entry punishes their conservative posture by attacking the most exposed target - the lead foot planted closest to your inverted body.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 **Success Rate**: 54%
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Straight Ankle Lock Entry in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mM7UEXLsmMw)
-
-<p class="clip-credit"><strong>Basic leg lock entries from standing</strong> — taught by Jaime Sanchez · 0:39 · <a href="https://www.youtube.com/watch?v=mM7UEXLsmMw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bAExryUlXsA)
-
-<p class="clip-credit"><strong>Guard pull into straight ankle lock</strong> — taught by Adriano · 0:34 · <a href="https://www.youtube.com/watch?v=bAExryUlXsA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
-
-<p class="clip-credit"><strong>Straight ankle lock quick demo</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -162,7 +84,7 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 |--------|----------|-------------|
 | Success | [[Positions/Straight Ankle Lock Control]] | 55% |
 | Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 10% |
-| Failure | [[Positions/Grasshopper Guard]] | 20% |
+| Failure | [[Positions/Inverted Guard]] | 20% |
 | Counter | [[Positions/Open Guard]] | 15% |
 
 
@@ -175,7 +97,7 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Use hip elevation from grasshopper to generate the lateral m... | Deny the entry early by managing distance and base width - s... |
+| **Key Principles** | Use hip elevation from inverted to generate the lateral move... | Deny the entry early by managing distance and base width - s... |
 | **Options** | 7 execution steps | 4 defensive options |
 
 </section>
@@ -189,7 +111,7 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 ### Key Principles
 
 
-- Use hip elevation from grasshopper to generate the lateral movement needed to capture the ankle
+- Use hip elevation from inverted to generate the lateral movement needed to capture the ankle
 
 - The outside leg crosses the opponent's hip line first to block their retreat before the inside leg secures the hook
 
@@ -207,7 +129,7 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 ### Execution Steps
 
 
-- **Identify the target ankle**: From grasshopper guard with hips elevated, identify which of the opponent's feet is closest to your ...
+- **Identify the target ankle**: From inverted guard with hips elevated, identify which of the opponent's feet is closest to your bod...
 
 - **Shoot outside leg across hip line**: Drive your outside leg (the leg furthest from the target ankle) across the opponent's hip line, plac...
 
@@ -255,7 +177,7 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 
 - Grip fighting on your own ankle is the highest-priority defensive action once the attacker's hands reach your foot - strip the grip before the figure-four closes
 
-- Never allow your lead foot to remain stationary and weighted when the opponent's hips are elevated in grasshopper - shift your weight to the rear foot and retract the lead foot preemptively
+- Never allow your lead foot to remain stationary and weighted when the opponent's hips are elevated in inverted - shift your weight to the rear foot and retract the lead foot preemptively
 
 - Forward pressure through a stack pass is the strongest counter when the attacker commits to the entry, collapsing their hip elevation and folding their inverted base
 
@@ -265,7 +187,7 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 ### Recognition Cues
 
 
-- The attacker's hips suddenly elevate higher than normal from their grasshopper position and their legs begin moving laterally rather than vertically, indicating they are switching from sweep mechanics to leg capture mechanics
+- The attacker's hips suddenly elevate higher than normal from their inverted position and their legs begin moving laterally rather than vertically, indicating they are switching from sweep mechanics to leg capture mechanics
 
 - The attacker's outside leg shoots across your hip line toward your far hip, creating a barrier that blocks your ability to step backward - this is the first physical contact of the entry sequence and the earliest intervention point
 
@@ -292,13 +214,13 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 ## Variations
 
 
-**Rolling Ankle Lock Entry**: Instead of capturing the ankle from a stationary grasshopper position, initiate a forward roll toward the opponent's lead leg. The rolling momentum carries your body underneath and around their leg, establishing the figure-four and grip simultaneously as you complete the rotation. This variant is harder to defend because the speed of the roll compresses the entire entry into a single explosive motion. (When to use: When the opponent maintains a wide, stable base that makes the standard entry difficult, or when they begin retreating before you can frame their hips with your legs)
+**Rolling Ankle Lock Entry**: Instead of capturing the ankle from a stationary inverted position, initiate a forward roll toward the opponent's lead leg. The rolling momentum carries your body underneath and around their leg, establishing the figure-four and grip simultaneously as you complete the rotation. This variant is harder to defend because the speed of the roll compresses the entire entry into a single explosive motion. (When to use: When the opponent maintains a wide, stable base that makes the standard entry difficult, or when they begin retreating before you can frame their hips with your legs)
 
 
 **Ankle Lock to Kneebar Transition**: Begin the standard ankle lock entry but instead of closing the figure-four on the ankle, continue threading your legs higher up the opponent's leg to attack the knee. Your inside leg hooks deeper behind the knee while your outside leg crosses over their thigh rather than their shin. This converts the entry into a kneebar attack using the same initial leg framing mechanics. (When to use: When the opponent defends the ankle grip by curling their toes or flexing their foot, making the ankle lock finish unlikely. The upward leg migration catches them mid-defense when they are focused on protecting the ankle rather than the knee)
 
 
-**Gi Lapel Assisted Entry**: In gi competition, feed the opponent's lapel around their lead leg before initiating the grasshopper ankle lock entry. The lapel wrap restricts their ability to retract the foot and adds a secondary control point that survives even if your initial ankle grip is stripped. The lapel thread replaces the need for the inside leg hook, freeing that leg for additional attacks. (When to use: Gi-specific competition when the opponent has a strong grip-fighting game that consistently strips your two-handed ankle control. The lapel wrap provides persistent control that cannot be easily stripped)
+**Gi Lapel Assisted Entry**: In gi competition, feed the opponent's lapel around their lead leg before initiating the inverted ankle lock entry. The lapel wrap restricts their ability to retract the foot and adds a secondary control point that survives even if your initial ankle grip is stripped. The lapel thread replaces the need for the inside leg hook, freeing that leg for additional attacks. (When to use: Gi-specific competition when the opponent has a strong grip-fighting game that consistently strips your two-handed ankle control. The lapel wrap provides persistent control that cannot be easily stripped)
 
 
 
@@ -310,7 +232,7 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 
 ## Position Integration
 
-The Straight Ankle Lock Entry is the primary submission-oriented exit from Grasshopper Guard, complementing the position's sweep-based attacks like the Grasshopper Sweep and elevation sweeps to X-Guard. Within the broader leg lock system, this entry feeds directly into Straight Ankle Lock Control, where the finish or further advancement to Inside Ashi-Garami or Outside Ashi-Garami becomes available. It pairs naturally with the Kneebar from Grasshopper as a high-low chain attack, forcing the opponent to simultaneously defend both the ankle and the knee. For practitioners who use grasshopper guard as a transitional hunting position, this entry represents one of two primary attack vectors (ankle lock and kneebar), making it essential for any grasshopper-based offensive game plan.
+The Straight Ankle Lock Entry is the primary submission-oriented exit from Inverted Guard, complementing the position's sweep-based attacks like the Inverted Guard Elevation Sweep and elevation sweeps to X-Guard. Within the broader leg lock system, this entry feeds directly into Straight Ankle Lock Control, where the finish or further advancement to Inside Ashi-Garami or Outside Ashi-Garami becomes available. It pairs naturally with the Kneebar Entry from Inverted Guard as a high-low chain attack, forcing the opponent to simultaneously defend both the ankle and the knee. For practitioners who use inverted guard as a transitional hunting position, this entry represents one of two primary attack vectors (ankle lock and kneebar), making it essential for any inverted-based offensive game plan.
 
 </section>
 
@@ -320,7 +242,7 @@ The Straight Ankle Lock Entry is the primary submission-oriented exit from Grass
 ## Related Techniques
 
 
-- [[Positions/Grasshopper Guard]] - Starting position for this entry
+- [[Positions/Inverted Guard]] - Starting position for this entry
 
 - [[Positions/Straight Ankle Lock Control]] - Primary destination on successful entry
 
@@ -328,13 +250,13 @@ The Straight Ankle Lock Entry is the primary submission-oriented exit from Grass
 
 - [[Transitions/Ankle Lock Finish]] - Follow-up submission finish from Straight Ankle Lock Control
 
-- [[Transitions/Kneebar from Grasshopper]] - Chain attack partner - same initial leg framing with different target
+- [[Transitions/Kneebar Entry from Inverted Guard]] - Chain attack partner - same initial leg framing with different target
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Advanced leg entanglement accessible when opponent level changes
 
-- [[Transitions/Single Leg X Transition]] - Alternative grasshopper exit that shares similar leg positioning
+- [[Transitions/Single Leg X Transition]] - Alternative inverted exit that shares similar leg positioning
 
-- [[Transitions/Grasshopper Sweep]] - Complementary sweep attack from same starting position
+- [[Transitions/Inverted Guard Elevation Sweep]] - Complementary sweep attack from same starting position
 
 - [[Transitions/Rolling Kneebar]] - Rolling variant that shares momentum-based entry mechanics
 

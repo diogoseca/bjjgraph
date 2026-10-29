@@ -180,35 +180,22 @@ description: "How to execute Butterfly Sweep in BJJ. Attacking perspective with 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia hits the butterfly push sweep at ADCC",
-      "description": "Butterfly Sweep (Attacker) film study: Marcelo Garcia hits the butterfly push sweep at ADCC, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ml2YppHVvj0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ml2YppHVvj0",
-      "url": "https://www.youtube.com/watch?v=Ml2YppHVvj0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT11S"
+      "name": "Butterfly sweep (on hip \u0026 one hook)",
+      "description": "Butterfly Sweep (Attacker) film study: Butterfly sweep (on hip \u0026 one hook).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ywB6TEyjyRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ywB6TEyjyRM",
+      "url": "https://www.youtube.com/watch?v=ywB6TEyjyRM",
+      "duration": "PT57S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Butterfly sweep with hip and one hook",
-      "description": "Butterfly Sweep (Attacker) film study: Butterfly sweep with hip and one hook, taught by Nine Nine Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ywB6TEyjyRM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ywB6TEyjyRM",
-      "url": "https://www.youtube.com/watch?v=ywB6TEyjyRM",
-      "creator": { "@type": "Person", "name": "Nine Nine Jiu Jitsu" },
-      "duration": "PT58S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Marcelo Garcia breaks down the butterfly sweep",
-      "description": "Butterfly Sweep (Attacker) film study: Marcelo Garcia breaks down the butterfly sweep, taught by Marcelo Garcia.",
+      "name": "Marcelo Garcia - Butterfly Sweep V.2 - BJJ Weekly #070",
+      "description": "Butterfly Sweep (Attacker) film study: Marcelo Garcia - Butterfly Sweep V.2 - BJJ Weekly #070.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Mo2vJ0_xb1U/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Mo2vJ0_xb1U",
       "url": "https://www.youtube.com/watch?v=Mo2vJ0_xb1U",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT239S"
+      "duration": "PT238S"
     }
   ]
 }
@@ -236,17 +223,9 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Ml2YppHVvj0)
-
-<p class="clip-credit"><strong>Marcelo Garcia hits the butterfly push sweep at ADCC</strong> — taught by Marcelo Garcia · 0:11 · <a href="https://www.youtube.com/watch?v=Ml2YppHVvj0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=ywB6TEyjyRM)
 
-<p class="clip-credit"><strong>Butterfly sweep with hip and one hook</strong> — taught by Nine Nine Jiu Jitsu · 0:58 · <a href="https://www.youtube.com/watch?v=ywB6TEyjyRM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Butterfly sweep (on hip &amp; one hook)</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=ywB6TEyjyRM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -254,7 +233,7 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 
 ![](https://www.youtube.com/watch?v=Mo2vJ0_xb1U)
 
-<p class="clip-credit"><strong>Marcelo Garcia breaks down the butterfly sweep</strong> — taught by Marcelo Garcia · 3:59 · <a href="https://www.youtube.com/watch?v=Mo2vJ0_xb1U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marcelo Garcia - Butterfly Sweep V.2 - BJJ Weekly #070</strong> · 3:58 · <a href="https://www.youtube.com/watch?v=Mo2vJ0_xb1U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -429,9 +408,9 @@ The butterfly sweep is generally safe when practiced with proper progression and
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition reference: Butterfly Sweep.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Butterfly Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Butterfly Sweep.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Teaching BJJ: Explanation, Recall and Application</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Butterfly Sweep.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Butterfly Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Butterfly Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

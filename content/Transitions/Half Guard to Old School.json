@@ -381,35 +381,7 @@
       }
     ],
     "safety_considerations": "The Transition to Old School is generally low-risk as it involves positional control establishment rather than joint manipulation or choking mechanics. However, the lockdown figure-four can create uncomfortable pressure on training partners' knees and ankles if applied with excessive force. Always establish the lockdown with controlled extension rather than explosive jerking motions. During drilling, communicate with your partner about lockdown tightness and pump intensity. Practitioners with knee injuries should be cautious about having the lockdown applied to their trapped leg. Tap if you feel sharp knee or ankle pain when caught in a lockdown during training.",
-    "clips": [
-      {
-        "id": "c5aHZxvr2bk",
-        "title": "Lockdown old school sweep",
-        "by": "The Jiu-Jitsu Foundry",
-        "vertical": false,
-        "channel": "The Jiu-Jitsu Foundry",
-        "duration": 33,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Jnc2siD9cak",
-        "title": "Old school sweep from half guard",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 12,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "tTroLgpLJ1k",
-        "title": "Godfather sweep from lockdown half guard",
-        "by": "Coach Paul",
-        "vertical": false,
-        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
-        "duration": 11,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Half Guard to Old School Defender",
@@ -586,25 +558,6 @@
         "description": "Start in standard half guard with both players at full resistance. Bottom player's objective is establishing full Old School position. Top player's objective is preventing all three controls from being simultaneously established and advancing to a pass. 3-minute rounds tracking how often Old School is fully achieved versus prevented."
       }
     ],
-    "clips": [
-      {
-        "id": "-49CypLW9aM",
-        "title": "Breaking the lockdown half guard",
-        "by": "Superhero Jiu Jitsu Academy",
-        "vertical": false,
-        "channel": "Superhero Jiu Jitsu Academy ",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KX4aiS5DVPU",
-        "title": "Counter when they defend the old school sweep",
-        "by": "Wimbledon BJJ",
-        "vertical": false,
-        "channel": "Wimbledon Brazilian Jiu Jitsu & Self Defence",
-        "duration": 120,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

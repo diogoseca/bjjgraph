@@ -101,10 +101,6 @@
       "relationship": "Submission threat the top player may attempt that this escape must account for during execution"
     },
     {
-      "name": "Back Take",
-      "relationship": "Primary threat during escape — opponent capitalizes on turning movement to insert hooks"
-    },
-    {
       "name": "Turtle",
       "relationship": "Intermediate position that may occur during escape scramble before guard is fully recovered"
     },
@@ -387,21 +383,11 @@
     "clips": [
       {
         "id": "bNdt6jVatj4",
-        "title": "Inverted mount escape to ashi garami",
-        "by": "Thunderdome BJJ coach",
-        "vertical": false,
+        "title": "Inverted Mount Escape to Ashi Garami",
         "channel": "Thunderdome BJJ",
         "duration": 43,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XQ4fwGrXV2Q",
-        "title": "Reverse mount scrambles and escapes",
-        "by": "Unknown coach",
         "vertical": false,
-        "channel": "jamielovesmartialarts",
-        "duration": 23,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -561,25 +547,6 @@
         "description": "Positional sparring from reverse mount with full resistance. Top player practices both maintaining and converting to back control based on bottom player's escape choices. Track success rates for position maintenance versus back take conversion. 2-minute rounds with role switching to build bilateral understanding."
       }
     ],
-    "clips": [
-      {
-        "id": "d-4IYhVS7sc",
-        "title": "Three ways to maintain mount",
-        "by": "Exodus Jiu Jitsu coach",
-        "vertical": false,
-        "channel": "Exodus Jiu Jitsu",
-        "duration": 106,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RTMJDbZnFO0",
-        "title": "Holding the middle mount",
-        "by": "SBG coach",
-        "vertical": false,
-        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-        "duration": 154,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

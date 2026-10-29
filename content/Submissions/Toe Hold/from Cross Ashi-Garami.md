@@ -46,24 +46,12 @@ description: "Master the toe hold from cross ashi-garami with grip mechanics, ro
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Craig Jones Toe Hold Crossover",
-      "description": "Toe Hold from Cross Ashi-Garami film study: Craig Jones Toe Hold Crossover, taught by Craig Jones.",
+      "name": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
+      "description": "Toe Hold from Cross Ashi-Garami film study: Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
       "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Trick to Fix Your Cross Ashi Leg Lock",
-      "description": "Toe Hold from Cross Ashi-Garami film study: Trick to Fix Your Cross Ashi Leg Lock, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nVfqMfVpTVk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nVfqMfVpTVk",
-      "url": "https://www.youtube.com/watch?v=nVfqMfVpTVk",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT55S"
     }
   ]
 }
@@ -128,15 +116,7 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 
 ![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
 
-<p class="clip-credit"><strong>Craig Jones Toe Hold Crossover</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nVfqMfVpTVk)
-
-<p class="clip-credit"><strong>Trick to Fix Your Cross Ashi Leg Lock</strong> — taught by Factory Fresh Jiu Jitsu · 0:55 · <a href="https://www.youtube.com/watch?v=nVfqMfVpTVk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

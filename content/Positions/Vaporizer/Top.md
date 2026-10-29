@@ -155,50 +155,6 @@ description: "Master Vaporizer top defense in BJJ. Complete guide to escaping lo
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Vaporizer (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Lockdown Escape",
-      "description": "Vaporizer (Top) film study: Lockdown Escape, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PptkZQh_MFA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PptkZQh_MFA",
-      "url": "https://www.youtube.com/watch?v=PptkZQh_MFA",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lockdown half guard break",
-      "description": "Vaporizer (Top) film study: Lockdown half guard break, taught by Superhero Jiu Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
-      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
-      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Advanced Half Guard Lockdown Pass w/ Backstep",
-      "description": "Vaporizer (Top) film study: Advanced Half Guard Lockdown Pass w/ Backstep, taught by Peter Mettler.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ABSueJ6cwis/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ABSueJ6cwis",
-      "url": "https://www.youtube.com/watch?v=ABSueJ6cwis",
-      "creator": { "@type": "Person", "name": "Peter Mettler" },
-      "duration": "PT98S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -213,40 +169,6 @@ Successful navigation of this position requires understanding the systematic nat
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Vaporizer (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PptkZQh_MFA)
-
-<p class="clip-credit"><strong>Lockdown Escape</strong> — taught by Thunderdome BJJ · 0:31 · <a href="https://www.youtube.com/watch?v=PptkZQh_MFA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-49CypLW9aM)
-
-<p class="clip-credit"><strong>Lockdown half guard break</strong> — taught by Superhero Jiu Jitsu Academy · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ABSueJ6cwis)
-
-<p class="clip-credit"><strong>Advanced Half Guard Lockdown Pass w/ Backstep</strong> — taught by Peter Mettler · 1:38 · <a href="https://www.youtube.com/watch?v=ABSueJ6cwis" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

@@ -165,35 +165,12 @@ description: "Navigate and pass lapel guard configurations with technical precis
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Counter the Lapel Guard with a Pass",
-      "description": "Lapel Guard (Top) film study: Counter the Lapel Guard with a Pass, taught by Tarik.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rvbYLboVzZM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rvbYLboVzZM",
-      "url": "https://www.youtube.com/watch?v=rvbYLboVzZM",
-      "creator": { "@type": "Person", "name": "Tarik" },
-      "duration": "PT289S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Single grip to slice through lapel guards",
-      "description": "Lapel Guard (Top) film study: Single grip to slice through lapel guards, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kMybfbRxsPg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kMybfbRxsPg",
-      "url": "https://www.youtube.com/watch?v=kMybfbRxsPg",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT512S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing the lapel guard",
-      "description": "Lapel Guard (Top) film study: Passing the lapel guard, taught by Ninja Pinto.",
+      "name": "Passing the lapel Guard",
+      "description": "Lapel Guard (Top) film study: Passing the lapel Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WLKn8xyf8Ro/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WLKn8xyf8Ro",
       "url": "https://www.youtube.com/watch?v=WLKn8xyf8Ro",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
-      "duration": "PT60S"
+      "duration": "PT59S"
     }
   ]
 }
@@ -229,25 +206,9 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rvbYLboVzZM)
-
-<p class="clip-credit"><strong>Counter the Lapel Guard with a Pass</strong> — taught by Tarik · 4:49 · <a href="https://www.youtube.com/watch?v=rvbYLboVzZM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kMybfbRxsPg)
-
-<p class="clip-credit"><strong>Single grip to slice through lapel guards</strong> — taught by Keenan Cornelius · 8:32 · <a href="https://www.youtube.com/watch?v=kMybfbRxsPg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=WLKn8xyf8Ro)
 
-<p class="clip-credit"><strong>Passing the lapel guard</strong> — taught by Ninja Pinto · 1:00 · <a href="https://www.youtube.com/watch?v=WLKn8xyf8Ro" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing the lapel Guard</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=WLKn8xyf8Ro" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -448,7 +409,7 @@ Partner establishes lapel configuration of choice. Clear it using appropriate te
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Lapel Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Lapel Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position: Lapel Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

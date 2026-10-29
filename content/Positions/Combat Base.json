@@ -502,22 +502,12 @@
     ],
     "clips": [
       {
-        "id": "mQK4ZCqJ1OA",
-        "title": "Knee cut staple-switch pass",
-        "by": "Combat Room BJJ",
+        "id": "vp3roMWi0dc",
+        "title": "How to get to combat base",
+        "channel": "Myopinionin5",
+        "duration": 120,
         "vertical": false,
-        "channel": "Combat Room Brazilian Jiu Jitsu",
-        "duration": 69,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "yPxcNpuyr0w",
-        "title": "Knee slice pass from combat base",
-        "by": "5th Element BJJ",
-        "vertical": false,
-        "channel": "5th Element BJJ/MMA",
-        "duration": 143,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -898,31 +888,11 @@
     ],
     "clips": [
       {
-        "id": "rja-2KKDGb0",
-        "title": "Dealing with the switch/combat base",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 284,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "l8veEF9hGW8",
-        "title": "Half Guard Sweep and Back Take Against Switch Base",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 461,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ZXt2yzy0BL0",
-        "title": "Defeating the Weave Pass with the Underhook",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 249,
-        "verified": "2026-07-15"
+        "id": "iR4_EYOBjJ0",
+        "title": "Guard retention from combat base Jiu Jitsu",
+        "channel": "Andy Tong",
+        "duration": 31,
+        "front": true
       }
     ]
   },
@@ -1044,20 +1014,10 @@
     {
       "id": "vp3roMWi0dc",
       "title": "How to get to combat base",
-      "by": "Myopinionin5",
-      "vertical": false,
       "channel": "Myopinionin5",
       "duration": 120,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "zCL3UKL1vvU",
-      "title": "Combat base breakdown",
-      "by": "Chosen Few BJJ",
       "vertical": false,
-      "channel": "Chosen Few BJJ",
-      "duration": 78,
-      "verified": "2026-07-14"
+      "half": "top"
     }
   ]
 }

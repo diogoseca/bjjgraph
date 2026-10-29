@@ -443,31 +443,25 @@
     ],
     "clips": [
       {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross Collar Chokes breakdown",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "X93MdMlmrUg",
-        "title": "The one thing that makes the cross collar choke easy",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 77,
-        "verified": "2026-07-14"
+        "id": "OKXBAzR_Y98",
+        "title": "Closed guard bottom - Cross collar choke",
+        "channel": "Gracie Jiu-Jitsu Singapore",
+        "duration": 91,
+        "front": true
       },
       {
         "id": "TDBe1SHzHKo",
-        "title": "Finishing when you can't pull them in",
-        "by": "Henry Akins",
-        "vertical": false,
+        "title": "Finishing Cross Collar Choke If You Can't Pull Them In",
         "channel": "Henry Akins' Hidden Jiu-Jitsu",
         "duration": 51,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "X93MdMlmrUg",
+        "title": "The ONE THING that makes your cross collar choke EASY",
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 77,
+        "vertical": false
       }
     ]
   },
@@ -658,21 +652,18 @@
     "clips": [
       {
         "id": "QIRF2B9riAA",
-        "title": "Cross choke defense from guard: two tips",
-        "by": "Wayne Sniffen",
-        "vertical": false,
+        "title": "Cross Choke Defense from Guard - Two Quick Tips",
         "channel": "Wayne Sniffen",
         "duration": 105,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "be-iHHhJGng",
-        "title": "Juji Jime escape: cross collar choke defense",
-        "by": "Peter Mettler",
-        "vertical": false,
+        "title": "Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ",
         "channel": "Peter Mettler Martial Arts",
         "duration": 130,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

@@ -165,35 +165,22 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the crab ride",
-      "description": "Crab Ride (Bottom) film study: Escaping the crab ride, taught by Brian Hawkins.",
+      "name": "Escape Crab Ride",
+      "description": "Crab Ride (Bottom) film study: Escape Crab Ride.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-S6bU0mQp1Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-S6bU0mQp1Y",
       "url": "https://www.youtube.com/watch?v=-S6bU0mQp1Y",
-      "creator": { "@type": "Person", "name": "Brian Hawkins" },
-      "duration": "PT78S"
+      "duration": "PT77S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Crab Ride Defense",
-      "description": "Crab Ride (Bottom) film study: Crab Ride Defense, taught by Foley Dowd.",
+      "name": "Foley Dowd- Crab Ride Defense",
+      "description": "Crab Ride (Bottom) film study: Foley Dowd- Crab Ride Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Abo6iBdWEIY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Abo6iBdWEIY",
       "url": "https://www.youtube.com/watch?v=Abo6iBdWEIY",
-      "creator": { "@type": "Person", "name": "Foley Dowd" },
-      "duration": "PT123S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Leg and Crab Ride Defense",
-      "description": "Crab Ride (Bottom) film study: Leg and Crab Ride Defense, taught by Nick Mitchell.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NpFL7u6D7Bk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NpFL7u6D7Bk",
-      "url": "https://www.youtube.com/watch?v=NpFL7u6D7Bk",
-      "creator": { "@type": "Person", "name": "Nick Mitchell" },
-      "duration": "PT127S"
+      "duration": "PT122S"
     }
   ]
 }
@@ -225,7 +212,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 ![](https://www.youtube.com/watch?v=-S6bU0mQp1Y)
 
-<p class="clip-credit"><strong>Escaping the crab ride</strong> — taught by Brian Hawkins · 1:18 · <a href="https://www.youtube.com/watch?v=-S6bU0mQp1Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape Crab Ride</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=-S6bU0mQp1Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,15 +220,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 ![](https://www.youtube.com/watch?v=Abo6iBdWEIY)
 
-<p class="clip-credit"><strong>Crab Ride Defense</strong> — taught by Foley Dowd · 2:03 · <a href="https://www.youtube.com/watch?v=Abo6iBdWEIY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NpFL7u6D7Bk)
-
-<p class="clip-credit"><strong>Leg and Crab Ride Defense</strong> — taught by Nick Mitchell · 2:07 · <a href="https://www.youtube.com/watch?v=NpFL7u6D7Bk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Foley Dowd- Crab Ride Defense</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=Abo6iBdWEIY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -306,7 +285,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 **If opponent has strong upper body control and is breaking you down:**
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
-- Execute **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Crab Ride Escape to Guard/Attacker|Crab Ride Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
 
 
 **If opponent is high on your back with loose hook control:**
@@ -439,7 +418,7 @@ Bottom player flows through all escape options (hip escape, granby, stand up, si
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Craig-Jones-Kneebar-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Kneebars</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

@@ -180,24 +180,12 @@ description: "How to execute Consolidate Mount in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gordon Ryan\u0027s mount system and control",
-      "description": "Consolidate Mount (Attacker) film study: Gordon Ryan\u0027s mount system and control, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/J2xs_-sAJMc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/J2xs_-sAJMc",
-      "url": "https://www.youtube.com/watch?v=J2xs_-sAJMc",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT239S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Best way to control and hold the mount",
-      "description": "Consolidate Mount (Attacker) film study: Best way to control and hold the mount, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kft2AkvKhWU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kft2AkvKhWU",
-      "url": "https://www.youtube.com/watch?v=kft2AkvKhWU",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT538S"
+      "name": "Fabricio Amaral BJJ - Controlling the mount",
+      "description": "Consolidate Mount (Attacker) film study: Fabricio Amaral BJJ - Controlling the mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9BDCNSAnw7I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9BDCNSAnw7I",
+      "url": "https://www.youtube.com/watch?v=9BDCNSAnw7I",
+      "duration": "PT102S"
     }
   ]
 }
@@ -225,17 +213,9 @@ Consolidate Mount is the critical transition between achieving mount position an
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=J2xs_-sAJMc)
+![](https://www.youtube.com/watch?v=9BDCNSAnw7I)
 
-<p class="clip-credit"><strong>Gordon Ryan&#39;s mount system and control</strong> — taught by Gordon Ryan · 3:59 · <a href="https://www.youtube.com/watch?v=J2xs_-sAJMc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kft2AkvKhWU)
-
-<p class="clip-credit"><strong>Best way to control and hold the mount</strong> — taught by Gordon Ryan · 8:58 · <a href="https://www.youtube.com/watch?v=kft2AkvKhWU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fabricio Amaral BJJ - Controlling the mount</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=9BDCNSAnw7I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

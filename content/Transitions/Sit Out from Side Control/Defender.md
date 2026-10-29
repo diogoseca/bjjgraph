@@ -144,13 +144,12 @@ description: "Defend against the sit-out escape from side control in BJJ. Recogn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side control escape vs a bigger stronger opponent",
-      "description": "Sit Out from Side Control (Defender) film study: Side control escape vs a bigger stronger opponent, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_JPZaIcr90c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_JPZaIcr90c",
-      "url": "https://www.youtube.com/watch?v=_JPZaIcr90c",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT69S"
+      "name": "Counter to the Sit Out right into the Crucifix position!",
+      "description": "Sit Out from Side Control (Defender) film study: Counter to the Sit Out right into the Crucifix position!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xft_S7G_yeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xft_S7G_yeo",
+      "url": "https://www.youtube.com/watch?v=Xft_S7G_yeo",
+      "duration": "PT60S"
     }
   ]
 }
@@ -178,9 +177,9 @@ As the top player in side control, defending against the sit-out requires recogn
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_JPZaIcr90c)
+![](https://www.youtube.com/watch?v=Xft_S7G_yeo)
 
-<p class="clip-credit"><strong>Side control escape vs a bigger stronger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter to the Sit Out right into the Crucifix position!</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=Xft_S7G_yeo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

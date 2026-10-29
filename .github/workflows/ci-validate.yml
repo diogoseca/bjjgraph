@@ -41,6 +41,11 @@ on:
       # must run the job. `tests/*.test.mjs` alone left the helpers outside the filter.
       - "tests/*.mjs"
       - "tests/*.py"
+      # The console collector's unit suite imports this shared browser-harness input.
+      - "e2e/harness-console.mjs"
+      # Published-source preservation reads the retirement archive and frozen URL inventory.
+      - "calibration/node_identity_retirements.json"
+      - "tests/artifacts/identity_redirect_sources.json"
       # tests/payload_policy.test.mjs reads BOTH of these and nothing else does. Same rule as the
       # lines below: a gate behind a filter that excludes its own subject never runs on the PR
       # that breaks it. Edit a band, or gut the case table, and this is the job that must fire.
@@ -144,6 +149,13 @@ jobs:
 
       - name: Postprocessor contract mutation specs
         run: python3 -B tests/postprocessor_contract_test.py
+
+      # The source half of check_redirect_limits.py (v1.237.2, RDR546): emit _redirects and the
+      # fallback table from content/ into a temp dir, run them through the exact port of
+      # Cloudflare's parser, and diff every rule's destination across the two layers. No build;
+      # ~2 s. The built-tree half runs in the build chain, both deploys and e2e-full.yml.
+      - name: Redirects fit Cloudflare's parser (source emit, no build)
+        run: npm run validate:redirect-limits:source
 
       # build_fingerprint.json's APP ROWS (format 4). neural.js is hashed with its one baked
       # NG_APP_VERSION literal normalised, so a version bump moves no row; these fixtures are the

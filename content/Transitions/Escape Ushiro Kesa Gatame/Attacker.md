@@ -192,24 +192,12 @@ description: "Execute the hip escape from Ushiro Kesa Gatame. Step-by-step guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Modified kesa escape",
-      "description": "Escape Ushiro Kesa Gatame (Attacker) film study: Modified kesa escape, taught by Inverted Gear coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/M5rDeLflY5w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/M5rDeLflY5w",
-      "url": "https://www.youtube.com/watch?v=M5rDeLflY5w",
-      "creator": { "@type": "Person", "name": "Inverted Gear coach" },
-      "duration": "PT123S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Reverse kesa gatame escape",
-      "description": "Escape Ushiro Kesa Gatame (Attacker) film study: Reverse kesa gatame escape, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JM9nDge0arQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JM9nDge0arQ",
-      "url": "https://www.youtube.com/watch?v=JM9nDge0arQ",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT238S"
+      "name": "\u5f8c\u8888\u88df\u56fa\u306e\u9003\u308c\u65b9 /  Ushiro-kesa-gatame Escapes",
+      "description": "Escape Ushiro Kesa Gatame (Attacker) film study: \u5f8c\u8888\u88df\u56fa\u306e\u9003\u308c\u65b9 /  Ushiro-kesa-gatame Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4QuzAAucQsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4QuzAAucQsA",
+      "url": "https://www.youtube.com/watch?v=4QuzAAucQsA",
+      "duration": "PT60S"
     }
   ]
 }
@@ -237,17 +225,9 @@ Executing the hip escape from Ushiro Kesa Gatame requires disciplined sequencing
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=M5rDeLflY5w)
+![](https://www.youtube.com/watch?v=4QuzAAucQsA)
 
-<p class="clip-credit"><strong>Modified kesa escape</strong> — taught by Inverted Gear coach · 2:03 · <a href="https://www.youtube.com/watch?v=M5rDeLflY5w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JM9nDge0arQ)
-
-<p class="clip-credit"><strong>Reverse kesa gatame escape</strong> — taught by Priit Mihkelson · 3:58 · <a href="https://www.youtube.com/watch?v=JM9nDge0arQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>後袈裟固の逃れ方 /  Ushiro-kesa-gatame Escapes</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=4QuzAAucQsA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

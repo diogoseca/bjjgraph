@@ -36,50 +36,6 @@ description: "Master Ushiro Ashi-Garami (reverse leg entanglement). Complete tec
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Ushiro Ashi-Garami \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "4 foot positions for leg locks",
-      "description": "Ushiro Ashi-Garami film study: 4 foot positions for leg locks, taught by Evo BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eiI_4VBA-qA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eiI_4VBA-qA",
-      "url": "https://www.youtube.com/watch?v=eiI_4VBA-qA",
-      "creator": { "@type": "Person", "name": "Evo BJJ" },
-      "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Reverse Ashi Garami to Toe Hold and Knee Bar",
-      "description": "Ushiro Ashi-Garami film study: Reverse Ashi Garami to Toe Hold and Knee Bar, taught by Crosstrain Fight Club coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/E5Q5kQTNJuk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/E5Q5kQTNJuk",
-      "url": "https://www.youtube.com/watch?v=E5Q5kQTNJuk",
-      "creator": { "@type": "Person", "name": "Crosstrain Fight Club coach" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse X to Ashi Garami Concept",
-      "description": "Ushiro Ashi-Garami film study: Reverse X to Ashi Garami Concept, taught by The Sanctuary BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bf5cJNYCMcA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bf5cJNYCMcA",
-      "url": "https://www.youtube.com/watch?v=Bf5cJNYCMcA",
-      "creator": { "@type": "Person", "name": "The Sanctuary BJJ coach" },
-      "duration": "PT105S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -123,40 +79,6 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Ushiro Ashi-Garami in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=eiI_4VBA-qA)
-
-<p class="clip-credit"><strong>4 foot positions for leg locks</strong> — taught by Evo BJJ · 2:42 · <a href="https://www.youtube.com/watch?v=eiI_4VBA-qA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=E5Q5kQTNJuk)
-
-<p class="clip-credit"><strong>Reverse Ashi Garami to Toe Hold and Knee Bar</strong> — taught by Crosstrain Fight Club coach · 1:17 · <a href="https://www.youtube.com/watch?v=E5Q5kQTNJuk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Bf5cJNYCMcA)
-
-<p class="clip-credit"><strong>Reverse X to Ashi Garami Concept</strong> — taught by The Sanctuary BJJ coach · 1:45 · <a href="https://www.youtube.com/watch?v=Bf5cJNYCMcA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

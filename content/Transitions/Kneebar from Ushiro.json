@@ -69,10 +69,6 @@
       "relationship": "Related leg entanglement position with different kneebar angles"
     },
     {
-      "name": "Kneebar Finish",
-      "relationship": "Finishing mechanics from established kneebar control"
-    },
-    {
       "name": "Cross Ashi-Garami",
       "relationship": "Alternative entanglement offering kneebar attack opportunities"
     },
@@ -386,21 +382,11 @@
     "clips": [
       {
         "id": "g3j7TZYoW14",
-        "title": "Top ushiro to kneebar",
-        "by": "Modesto Judo Club coach",
-        "vertical": false,
+        "title": "Top Ushiro To Knee Bar #877",
         "channel": "Modesto Judo Club",
         "duration": 115,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0wHq6PZVGfI",
-        "title": "Two ways to attack a kneebar from cross ashi",
-        "by": "King Kneebar",
         "vertical": false,
-        "channel": "King Kneebar",
-        "duration": 140,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -579,26 +565,7 @@
         "description": "Specific sparring from ushiro ashi-garami where the attacker freely chooses between heel hook and kneebar. Develop the dual awareness needed to defend both threats simultaneously. Full resistance with emphasis on reading the attacker's intentions and selecting the correct defensive response in real time."
       }
     ],
-    "clips": [
-      {
-        "id": "m0NLphEuFoc",
-        "title": "Leg lock defense fundamentals",
-        "by": "Kuwy Jitsu coach",
-        "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sq9jW4ZZrU8",
-        "title": "Leg lock defense from a knee",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 99,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

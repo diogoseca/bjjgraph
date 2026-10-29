@@ -135,9 +135,6 @@
   <div ref="{{ optionsRef }}" class="ng-optionrow" style="position:absolute;bottom:84px;left:0;right:0;z-index:4;pointer-events:none;display:flex;gap:12px;align-items:flex-end;justify-content:safe center;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding:8px 24px 8px;-webkit-overflow-scrolling:touch;"></div>
   <!-- (the "see more →" hint that docked above the tray, v1.123.0, was DELETED in v1.171.1 — owner) -->
 
-  <!-- option detail: a bottom sheet that expands in place (no dimming overlay) -->
-  <div ref="{{ optDetailRef }}" style="position:absolute;left:0;right:0;bottom:0;margin:0 auto;width:min(660px,94vw);height:340px;z-index:6;opacity:0;pointer-events:none;transition:opacity .26s cubic-bezier(.2,.7,.2,1),transform .34s cubic-bezier(.2,.7,.2,1),height .34s cubic-bezier(.2,.7,.2,1);display:flex;flex-direction:column;background:linear-gradient(180deg,rgba(27,31,53,.995),rgba(17,20,36,.995));border:1px solid rgba(130,150,190,.22);border-bottom:none;border-top-left-radius:20px;border-top-right-radius:20px;box-shadow:0 -16px 60px rgba(0,0,0,.55);overflow:hidden;"></div>
-
   <!-- SHARE CUE (v1.99.0) — a standalone conditional control in the thumb band. The
        .ng-drilltab pill that used to host it is DELETED (owner: it must not appear on any
        form factor); the pane opener is the LOGO alone, and the account chip holds the
@@ -203,9 +200,11 @@
 
   <!-- round-end verdict (center) -->
   <div ref="{{ evCenterRef }}" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;pointer-events:none;opacity:0;transition:opacity .55s ease;text-align:center;padding:0 24px;">
+    <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0;">
     <div ref="{{ evcKickerRef }}" style="font-size:13px;letter-spacing:.42em;text-transform:uppercase;font-weight:700;color:#8ba0c0;margin-bottom:14px;">&nbsp;</div>
     <div ref="{{ evcTextRef }}" style="font-size:clamp(40px,6vw,68px);font-weight:700;color:#eef1f6;letter-spacing:-.02em;line-height:1;text-shadow:0 4px 30px rgba(0,0,0,.6);">&nbsp;</div>
     <div ref="{{ evcSubRef }}" style="font-size:16px;font-weight:500;color:#aab4ca;margin-top:16px;letter-spacing:.01em;">&nbsp;</div>
+    </div>
   </div>
 
   <!-- legend (bottom left) -->

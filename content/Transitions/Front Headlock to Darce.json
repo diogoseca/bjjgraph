@@ -398,31 +398,12 @@
     "safety_considerations": "When practicing the Front Headlock to Darce transition, controlled application is paramount as blood chokes can cause unconsciousness rapidly if the training partner does not tap. Always apply choking pressure gradually over 3-5 seconds minimum to allow your partner adequate time to recognize the choke and tap. Monitor your partner's breathing and color during drilling - any signs of distress should result in immediate release. Be especially mindful during the circling phase as this is when maximum pressure is often applied unintentionally. Ensure adequate mat space for the circling movement to avoid rolling your opponent into walls or other obstacles. During competition-level drilling with full resistance, establish clear tap protocols including verbal taps for situations where hand movement is restricted. Never apply sudden or explosive pressure to the neck. Build proficiency through slow, controlled drilling before attempting full-speed application. Both practitioners should understand proper release protocol before training this technique.",
     "clips": [
       {
-        "id": "pnLk6jW0qeI",
-        "title": "Three Darce Choke Finishes",
-        "by": "Bowerhouse MMA",
+        "id": "BMU1_wfjYTw",
+        "title": "Procel BJJ | Darce Choke from the Front Headlock Position",
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 100,
         "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 15,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6d6Wkgh9imU",
-        "title": "Darce vs Anaconda: Grip and Finish Difference",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 67,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XpFxqgrhEgA",
-        "title": "Short Arm Darce from Front Headlock",
-        "by": "Travis Moore",
-        "vertical": false,
-        "channel": "Travis Moore",
-        "duration": 120,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -610,30 +591,25 @@
     "clips": [
       {
         "id": "cmaIzjv3QG8",
-        "title": "Darce Defense: Belly Down Escape",
-        "by": "JitzLive",
-        "vertical": false,
+        "title": "Move of the Day: D'arce Defense - Belly Down",
         "channel": "JitzLive",
         "duration": 38,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iNZpCbutyrM",
-        "title": "Escaping the Darce Choke",
-        "by": "Thunderdome BJJ",
         "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 54,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "d1YBV8UTKds",
-        "title": "Darce Choke Defense",
-        "by": "Animal",
-        "vertical": false,
+        "title": "Darce Choke defense",
         "channel": "Animal",
+        "duration": 52,
+        "vertical": false
+      },
+      {
+        "id": "iNZpCbutyrM",
+        "title": "Darce Escape",
+        "channel": "Thunderdome BJJ",
         "duration": 53,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

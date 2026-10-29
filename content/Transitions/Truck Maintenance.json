@@ -402,22 +402,12 @@
     "safety_considerations": "The truck position creates significant torque on the opponent's spine and knee joints. When practicing maintenance, avoid sudden explosive adjustments that could hyperextend the trapped leg or compress the knee. Partners should establish clear tap signals before drilling. Be especially cautious with boot pressure angles that drive the opponent's hip into extreme rotation. Never crank leg entanglement against a tapping opponent and release immediately upon any tap signal. Spinal submission threats from this position can cause permanent injury if not respected during training.",
     "clips": [
       {
-        "id": "aeD1fb1X6Oc",
-        "title": "Basic Truck entry and control demo",
-        "by": "Georges St-Pierre & Firas Zahabi",
-        "vertical": false,
-        "channel": "Tristar Gym",
-        "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "YqlKl-La88s",
-        "title": "Mastering the Truck position",
-        "by": "10th Planet Newport",
-        "vertical": false,
+        "title": "Mastering the Truck",
         "channel": "10th Planet Newport",
         "duration": 216,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -598,31 +588,19 @@
     ],
     "clips": [
       {
-        "id": "Y-asW9hrB3o",
-        "title": "Truck defense with knee-elbow escape",
-        "by": "Matrix Jiu Jitsu",
-        "vertical": false,
-        "channel": "Matrix Jiu Jitsu",
-        "duration": 129,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "TSUbl6HmLiw",
-        "title": "Truck escape",
-        "by": "Elevate MMA Academy",
-        "vertical": false,
+        "title": "Truck Escape",
         "channel": "Elevate MMA Academy",
-        "duration": 182,
-        "verified": "2026-07-15"
+        "duration": 181,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "dWAZQ2VQcjw",
-        "title": "Reversing the Truck",
-        "by": "Coach Brian",
-        "vertical": false,
+        "title": "TMG Clips #166 - Reverse The Truck!!",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 229,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

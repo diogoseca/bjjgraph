@@ -164,11 +164,6 @@
             "technique": "Bow and Arrow Choke",
             "target": "Game Over",
             "probability": 55
-          },
-          {
-            "technique": "Roll to Truck",
-            "target": "Truck",
-            "probability": 50
           }
         ]
       }
@@ -298,8 +293,8 @@
       {
         "transition": "Rear Naked Choke from Seat Belt Control Back",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 30
+          "gi": 22,
+          "nogi": 32
         }
       },
       {
@@ -333,8 +328,8 @@
       {
         "transition": "Back Control Maintenance",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 18,
+          "nogi": 18
         },
         "deal_here": true
       },
@@ -342,7 +337,7 @@
         "transition": "Body Triangle Lock",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 11
+          "nogi": 12
         }
       },
       {
@@ -357,13 +352,6 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
-        }
-      },
-      {
-        "transition": "Roll to Truck",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 5
         }
       },
       {
@@ -408,7 +396,7 @@
         "transition": "Seat Belt to Body Triangle",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 7
         }
       },
       {
@@ -536,30 +524,22 @@
     "clips": [
       {
         "id": "MwxnveKrlxU",
-        "title": "Seatbelt Grip Quick Fix",
+        "title": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
         "by": "Ben Kool",
         "vertical": false,
         "channel": "Ben Kool Tech",
-        "duration": 62,
-        "verified": "2026-07-14"
+        "duration": 61,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "rvh8MFq_tb0",
-        "title": "Deep Seatbelt Control",
+        "title": "Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin",
         "by": "Tom Halpin",
         "vertical": false,
         "channel": "Tom Halpin",
         "duration": 111,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Es7T1KjTUpI",
-        "title": "Application Against a Seated Opponent",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 157,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -632,7 +612,7 @@
             "probability": 60
           },
           {
-            "technique": "Elbow Escape to Remove Hooks",
+            "technique": "Escape Seat Belt Control",
             "target": "Turtle",
             "probability": 40
           }
@@ -662,7 +642,7 @@
             "probability": 45
           },
           {
-            "technique": "Elbow Escape to Remove Hooks",
+            "technique": "Escape Seat Belt Control",
             "target": "Half Guard",
             "probability": 40
           }
@@ -745,10 +725,6 @@
         "relationship": "Essential defensive transition for grip management from bottom back control"
       },
       {
-        "name": "Elbow Escape to Remove Hooks",
-        "relationship": "Critical escape technique for removing hooks and beginning escape sequence"
-      },
-      {
         "name": "Closed Guard",
         "relationship": "Alternative escape target position when rolling through to face opponent"
       },
@@ -776,71 +752,64 @@
       {
         "transition": "Hand Fighting from Back",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 19,
+          "nogi": 19
         }
       },
       {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Hip Escape to Turtle",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Standing up in Base",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Turn In and Face",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Escape Seat Belt Control",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Hand Fight from Seat Belt Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Seat Belt Peel Escape",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Turn In and Face",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
         }
       }
     ],
@@ -960,22 +929,12 @@
     ],
     "clips": [
       {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up from Back Control",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
+        "id": "Wga4PfuShEg",
+        "title": "Back Control (Defending) Seatbelt Grip",
+        "channel": "Academy Jiu Jitsu",
         "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_1jEnlqZgS0",
-        "title": "Makikomi Roll vs Seat Belt/Harness",
-        "by": "Corey McWilliams",
         "vertical": false,
-        "channel": "Corey McWilliams",
-        "duration": 264,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1096,21 +1055,13 @@
   "clips": [
     {
       "id": "MwxnveKrlxU",
-      "title": "Seatbelt Grip Quick Fix",
+      "title": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
       "by": "Ben Kool",
       "vertical": false,
       "channel": "Ben Kool Tech",
-      "duration": 62,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "baSqWCtLysU",
-      "title": "Back Mount Seatbelt Control Fundamentals",
-      "by": "Teach Me NoGi",
-      "vertical": false,
-      "channel": "Teach Me NoGi",
-      "duration": 212,
-      "verified": "2026-07-14"
+      "duration": 61,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

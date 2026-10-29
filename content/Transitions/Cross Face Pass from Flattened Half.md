@@ -46,24 +46,12 @@ description: "Master the cross face pass from flattened half guard. Complete gui
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shallow cross face detail",
-      "description": "Cross Face Pass from Flattened Half film study: Shallow cross face detail, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PTe4-NhLXf8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PTe4-NhLXf8",
-      "url": "https://www.youtube.com/watch?v=PTe4-NhLXf8",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT24S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to create an insanely tight cross face",
-      "description": "Cross Face Pass from Flattened Half film study: How to create an insanely tight cross face, taught by Escapology BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gHD03vpWGSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gHD03vpWGSM",
-      "url": "https://www.youtube.com/watch?v=gHD03vpWGSM",
-      "creator": { "@type": "Person", "name": "Escapology BJJ" },
-      "duration": "PT119S"
+      "name": "Escaping a Flat Half Guard Situation",
+      "description": "Cross Face Pass from Flattened Half film study: Escaping a Flat Half Guard Situation.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HNbYkUtICYI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HNbYkUtICYI",
+      "url": "https://www.youtube.com/watch?v=HNbYkUtICYI",
+      "duration": "PT171S"
     }
   ]
 }
@@ -117,17 +105,9 @@ Strategically, the cross face pass represents the natural completion of a pressu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=PTe4-NhLXf8)
+![](https://www.youtube.com/watch?v=HNbYkUtICYI)
 
-<p class="clip-credit"><strong>Shallow cross face detail</strong> — taught by Craig Jones · 0:24 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gHD03vpWGSM)
-
-<p class="clip-credit"><strong>How to create an insanely tight cross face</strong> — taught by Escapology BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=gHD03vpWGSM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping a Flat Half Guard Situation</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=HNbYkUtICYI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -311,8 +291,6 @@ The cross face pass from flattened half guard occupies a critical position in th
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Position the defender attempts to recover to when crossface pressure is insufficient
 
 - [[Positions/Half Guard/Deep Half Guard]] - Defensive transition available to the bottom player if they dive under during the pass
-
-- [[Transitions/Back Take]] - Alternative transition if the defender turns away during the crossface pass attempt
 
 - [[Transitions/Arm Triangle Setup]] - Submission threat available when defender crosses their arm across their neck during defense
 

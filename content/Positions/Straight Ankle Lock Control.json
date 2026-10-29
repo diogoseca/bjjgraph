@@ -444,31 +444,12 @@
     ],
     "clips": [
       {
-        "id": "akB_o9gaNuc",
-        "title": "Finish the Ankle Lock vs the Roll Out",
-        "by": "James O'Connor",
+        "id": "l7u1ce88jqM",
+        "title": "How to defend the butterfly ashi footlock / Mikey Musumeci ankle lock — ft.…",
+        "channel": "Josh Beam BJJ",
+        "duration": 211,
         "vertical": false,
-        "channel": "James O’Connor",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "pspIS0i2G2U",
-        "title": "The Ankle Lock Roll Control Drill",
-        "by": "Escapology BJJ",
-        "vertical": false,
-        "channel": "Escapology BJJ",
-        "duration": 95,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "z3ILKAQN_i8",
-        "title": "Always Finish the Ankle Lock",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 143,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -668,7 +649,7 @@
             "probability": 70
           },
           {
-            "technique": "Kneebar Finish",
+            "technique": "Kneebar from Straight Ankle Lock Control",
             "target": "Game Over",
             "probability": 55
           }
@@ -812,87 +793,60 @@
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 18
+          "gi": 15,
+          "nogi": 20
         }
       },
       {
         "transition": "X-Guard to Ashi Garami",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Kneebar Finish",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Ankle Pick Sweep",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Straight Footlock",
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 19
+        }
+      },
+      {
+        "transition": "Ankle Lock Escape to Standing",
         "attempt_probability": {
           "gi": 11,
           "nogi": 10
         }
       },
       {
-        "transition": "Straight Footlock",
-        "attempt_probability": {
-          "gi": 21,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Ankle Lock Escape to Standing",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
-        }
-      },
-      {
         "transition": "Kneebar from Straight Ankle Lock Control",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
+          "gi": 12,
+          "nogi": 13
         }
       }
     ],
     "clips": [
       {
-        "id": "GCcYYBHUi3c",
-        "title": "Beat the Boot: Straight Ankle Lock Escape",
-        "by": "Patrick Donabedian",
-        "vertical": false,
-        "channel": "Patrick Donabedian BJJ",
-        "duration": 56,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "l7u1ce88jqM",
-        "title": "Defending the butterfly ashi straight ankle lock",
-        "by": "Patrick Louys",
-        "vertical": false,
-        "channel": "Josh Beam BJJ",
-        "duration": 211,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mycu_0dRZg8",
-        "title": "How to stop getting leg locked",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 331,
-        "verified": "2026-07-15"
+        "id": "9jaSEuYbq_4",
+        "title": "Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles…",
+        "channel": "Brian Glick",
+        "duration": 420,
+        "front": true
       }
     ]
   },
@@ -1010,33 +964,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "PsyAVXfRhyY",
-      "title": "Straight Ankle Lock",
-      "by": "bjjtaro",
-      "vertical": false,
-      "channel": "bjjtaro",
-      "duration": 16,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "-VpByetjzqs",
-      "title": "Backside Foot Finish Mechanics",
-      "by": "Mikey Musumeci",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 84,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "9SuTfbCNcFs",
-      "title": "Straight Foot Lock Sitting Up",
-      "by": "Ninja Pinto BJJ",
-      "vertical": false,
-      "channel": "Ninja Pinto BJJ",
-      "duration": 70,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

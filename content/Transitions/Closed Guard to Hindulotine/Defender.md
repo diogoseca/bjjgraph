@@ -4,7 +4,7 @@
 
 ---
 title: "Closed Guard to Hindulotine Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to defend the Hindulotine entry from closed guard. Recognize the high-elbow guillotine catch, deny the off-line angle, and counter with the Von Flue or stack pass."
+description: "Recognize Closed Guard to Hindulotine and interrupt its required connections before the final control is established."
 ---
 
 
@@ -20,20 +20,20 @@ description: "How to defend the Hindulotine entry from closed guard. Recognize t
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Posture up early and pull your head out before the grip locks, keeping your spine stacked and chin up",
-      "text": "Preventive defense, the moment you feel your posture being broken and the bottom player reaching for your chin If successful: The grip never locks, the entry is denied at the source, and you stay in closed guard top with strong posture",
+      "name": "Keep the head and shoulders aligned as the enclosure begins.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Drive forward to stack and square your hips back over the bottom player as they try to clear their hips off-line",
-      "text": "When the grip is already caught and you feel the bottom player opening the guard and shrimping to one side If successful: You deny the off-line angle, flatten the attacker square, relieve the choke, and can begin passing the now-open guard toward side control",
+      "name": "Maintain a useful inside frame before the high leg enters.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute the Von Flue choke by dropping your near shoulder into the side of their neck and driving toward their head",
-      "text": "While the bottom player holds the guillotine and has not yet locked the off-line angle and leg hooks If successful: The shoulder pressure relieves the choke on you and threatens to finish the attacker, letting you pass to side control or finish",
+      "name": "Avoid twisting against a fixed neck or raised knee.",
+      "text": "Before the next connection or pressure is established. If successful: The continuation is interrupted; confirm the remaining controls before continuing.",
       "position": 3
     }
   ],
@@ -50,26 +50,26 @@ description: "How to defend the Hindulotine entry from closed guard. Recognize t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What signals a Hindulotine rather than a plain guillotine from closed guard?",
+      "name": "Against Closed Guard to Hindulotine, what connection do you address first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The hip clearance. When the bottom player opens their closed guard and shrimps their hips out to one side so their spine is no longer square beneath you, they are creating the off-line angle that turns a survivable straight guillotine into the rotational Hindulotine. Recognizing that shrimp, not the choke pressure, is what lets you stack and square before the angle locks in."
+        "text": "Keep the head and shoulders aligned as the enclosure begins."
       }
     },
     {
       "@type": "Question",
-      "name": "Why should you drive forward to stack rather than pull your head straight back against this entry?",
+      "name": "Against Closed Guard to Hindulotine, when must you stop moving?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pulling your head straight back plays into both the linear choke and, once the attacker is off-line, the rotational torque, which can tighten the finish. Driving your weight forward to stack and square your hips over the attacker denies the off-line angle, flattens them, relieves the choke, and opens a path to pass the now-open guard toward side control."
+        "text": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
       }
     },
     {
       "@type": "Question",
-      "name": "When is the Von Flue choke an effective counter to this entry, and when does it fail?",
+      "name": "Against Closed Guard to Hindulotine, does interrupting one grip guarantee a new position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Von Flue works while the bottom player still holds the guillotine but has not yet cleared their hips off-line: you drop your near shoulder into the side of their neck and drive toward their head, relieving the choke and threatening a finish. It fails once the attacker has already angled off-line, because your shoulder can no longer line up on their neck and you risk being swept instead, so timing it before the angle sets is essential."
+        "text": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
       }
     }
   ]
@@ -82,7 +82,7 @@ description: "How to defend the Hindulotine entry from closed guard. Recognize t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Closed Guard to Hindulotine Defender",
-  "description": "How to defend the Hindulotine entry from closed guard. Recognize the high-elbow guillotine catch, deny the off-line angle, and counter with the Von Flue or stack pass.",
+  "description": "Recognize Closed Guard to Hindulotine and interrupt its required connections before the final control is established.",
   "alternateName": ["High Elbow Guillotine to Hindulotine", "Closed Guard Guillotine to Hindulotine"],
   "isPartOf": {
     "@type": "WebSite",
@@ -129,50 +129,6 @@ description: "How to defend the Hindulotine entry from closed guard. Recognize t
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Closed Guard to Hindulotine (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Guillotine escape from closed guard to side control",
-      "description": "Closed Guard to Hindulotine (Defender) film study: Guillotine escape from closed guard to side control, taught by Street Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lvjRNWzKMPc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lvjRNWzKMPc",
-      "url": "https://www.youtube.com/watch?v=lvjRNWzKMPc",
-      "creator": { "@type": "Person", "name": "Street Jitsu" },
-      "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Gordon Ryan breaks down the guillotine escape",
-      "description": "Closed Guard to Hindulotine (Defender) film study: Gordon Ryan breaks down the guillotine escape, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aHRDKmcZCEE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aHRDKmcZCEE",
-      "url": "https://www.youtube.com/watch?v=aHRDKmcZCEE",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Worst case guillotine scenario defense",
-      "description": "Closed Guard to Hindulotine (Defender) film study: Worst case guillotine scenario defense, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PYiD6UjqMTw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PYiD6UjqMTw",
-      "url": "https://www.youtube.com/watch?v=PYiD6UjqMTw",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT108S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,50 +138,14 @@ description: "How to defend the Hindulotine entry from closed guard. Recognize t
 </aside>
 <section id="overview" class="content-section">
 
-As the defender you are the top player in closed guard facing a bottom player who is trying to upgrade a guillotine catch into the Hindulotine. Your defense has two distinct phases. The first is prevention: deny the broken-posture, head-low moment that lets the attacker catch your chin in the first place. If you keep your head up, your spine stacked, and your hands fighting the choking grip, the entry never starts. The second phase is reaction: once the grip is caught, you must stop the attacker from clearing their hips off-line, because the off-line angle is what transforms a survivable straight guillotine into the much tighter rotational Hindulotine.
+You oppose the performer of this action. Keep the head and shoulders aligned as the enclosure begins. Maintain a useful inside frame before the high leg enters. Avoid twisting against a fixed neck or raised knee. Recognize ordinary closed guard if the entry fails without opening the ankles. Face open guard if the high entry and ordinary closed guard both release.
 
-Recognition is everything here. The danger signal is not the choke itself but the attacker opening their guard and shrimping their hips out to one side. That hip clearance is the doorway to the Hindulotine, and if you feel it beginning you must immediately drive your weight forward to stack, square your hips back over them, and pressure their off-line shrimp before the angle and the leg hooks lock in. The Von Flue choke is your most aggressive counter: as they hold the guillotine, drop your near shoulder into the side of their neck and drive forward toward their head, which both relieves the choke on you and threatens to finish them.
-
-The most important strategic point is timing. Defending before the hips clear is a high-percentage stack or pass. Defending after the Hindulotine is fully set, with hooks in and the angle established, is far harder because you now face rotational pressure and active leg control. Commit early, stay heavy, and keep your own neck protected throughout.
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Closed Guard to Hindulotine (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lvjRNWzKMPc)
-
-<p class="clip-credit"><strong>Guillotine escape from closed guard to side control</strong> — taught by Street Jitsu · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aHRDKmcZCEE)
-
-<p class="clip-credit"><strong>Gordon Ryan breaks down the guillotine escape</strong> — taught by Gordon Ryan · 1:38 · <a href="https://www.youtube.com/watch?v=aHRDKmcZCEE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PYiD6UjqMTw)
-
-<p class="clip-credit"><strong>Worst case guillotine scenario defense</strong> — taught by Malachy Friedman · 1:48 · <a href="https://www.youtube.com/watch?v=PYiD6UjqMTw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -234,10 +154,9 @@ The most important strategic point is timing. Defending before the hips clear is
 
 <p class="section-subtitle">How do you know when someone is attempting Closed Guard to Hindulotine?</p>
 
-- The bottom player breaks your posture and your head drops below their chest line as they reach for your chin
-- You feel a forearm blade slide high under your chin onto the carotid line with the choking elbow lifting high
-- The bottom player unlocks their ankles and opens the closed guard while keeping the grip glued tight to your neck
-- The bottom player shrimps their hips out to one side so their spine is no longer square beneath you and a butterfly hook or knee shield appears
+- Begin as the bottom closed-guard player with both players facing one another.
+- Establish comfortable head control while avoiding forced neck rotation.
+- Adjust the hips to create space for the taught leg-in arrangement while keeping the raised knee supported.
 
 
 </section>
@@ -248,12 +167,11 @@ The most important strategic point is timing. Defending before the hips clear is
 
 <p class="section-subtitle">What are the key principles for defending Closed Guard to Hindulotine?</p>
 
-- Prevent the entry by keeping your head up and spine stacked so your chin never drops below the attacker's chest line
-- Fight the choking grip with both hands before it locks high under your chin
-- Recognize the hip clearance, the attacker opening the guard and shrimping off-line, as the true Hindulotine danger signal
-- Drive your weight forward to stack and square your hips back over the attacker the instant you feel them angle away
-- Use the Von Flue shoulder pressure into the neck as an aggressive counter while the guillotine is being held
-- Protect your own neck and keep your chin tucked so the rotational pressure cannot wrap cleanly around the carotids
+- Keep the head and shoulders aligned as the enclosure begins.
+- Maintain a useful inside frame before the high leg enters.
+- Avoid twisting against a fixed neck or raised knee.
+- Recognize ordinary closed guard if the entry fails without opening the ankles.
+- Face open guard if the high entry and ordinary closed guard both release.
 
 
 </section>
@@ -264,26 +182,26 @@ The most important strategic point is timing. Defending before the hips clear is
 
 <p class="section-subtitle">What can you do to defend against Closed Guard to Hindulotine?</p>
 
-### 1. Posture up early and pull your head out before the grip locks, keeping your spine stacked and chin up
+### 1. Keep the head and shoulders aligned as the enclosure begins.
 
-- **When to use**: Preventive defense, the moment you feel your posture being broken and the bottom player reaching for your chin
+- **When to use**: Before the next connection or pressure is established.
 - **Targets**: [[Positions/Closed Guard]]
-- **If successful**: The grip never locks, the entry is denied at the source, and you stay in closed guard top with strong posture
-- **Risk**: Posturing hard can briefly expose you to other closed-guard attacks such as the hip bump sweep or armbar if you overcommit upright
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-### 2. Drive forward to stack and square your hips back over the bottom player as they try to clear their hips off-line
+### 2. Maintain a useful inside frame before the high leg enters.
 
-- **When to use**: When the grip is already caught and you feel the bottom player opening the guard and shrimping to one side
-- **Targets**: [[Positions/Side Control]]
-- **If successful**: You deny the off-line angle, flatten the attacker square, relieve the choke, and can begin passing the now-open guard toward side control
-- **Risk**: Driving forward into a held guillotine can momentarily tighten the choke if your head is not positioned correctly, so keep your chin tucked
+- **When to use**: Before the next connection or pressure is established.
+- **Targets**: [[Positions/Closed Guard]]
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
-### 3. Execute the Von Flue choke by dropping your near shoulder into the side of their neck and driving toward their head
+### 3. Avoid twisting against a fixed neck or raised knee.
 
-- **When to use**: While the bottom player holds the guillotine and has not yet locked the off-line angle and leg hooks
-- **Targets**: [[Positions/Side Control]]
-- **If successful**: The shoulder pressure relieves the choke on you and threatens to finish the attacker, letting you pass to side control or finish
-- **Risk**: If the attacker has already cleared their hips off-line, your shoulder cannot line up on their neck and you may be swept or rolled instead
+- **When to use**: Before the next connection or pressure is established.
+- **Targets**: [[Positions/Open Guard]]
+- **If successful**: The continuation is interrupted; confirm the remaining controls before continuing.
+- **Risk**: Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 
 
@@ -297,11 +215,11 @@ The most important strategic point is timing. Defending before the hips clear is
 
 ### → [[Positions/Closed Guard]]
 
-Win the fight before it starts by keeping your head up and spine stacked, fighting the choking grip with both hands, and pulling your head free before the forearm locks under your chin. Denying the grip returns the exchange to a neutral closed guard with you on top and strong posture restored.
+Keep the head and shoulders aligned as the enclosure begins.
 
-### → [[Positions/Side Control]]
+### → [[Positions/Open Guard]]
 
-Once the grip is caught, drive forward to stack and square your hips before the attacker clears their hips off-line, or commit to a Von Flue by dropping your shoulder into their neck. Both deny the rotational angle and open a path to pass the guard and consolidate side control.
+Face open guard if the high entry and ordinary closed guard both release.
 
 
 
@@ -313,20 +231,20 @@ Once the grip is caught, drive forward to stack and square your hips before the 
 
 <p class="section-subtitle">What mistakes should you avoid when defending Closed Guard to Hindulotine?</p>
 
-### 1. Allowing your posture to stay broken with your head low after the grip is caught
+### 1. Acting after the joint or neck is already loaded
 
-- **Consequence**: A low head and broken spine are exactly what the attacker needs to clear their hips off-line and lock the Hindulotine, giving you rotational pressure that is far harder to survive.
-- **Correction**: The instant the grip is on, fight to stack forward and square your hips back over the attacker before they can angle away, and keep your chin tucked to protect the carotids.
+- **Consequence**: The attempted movement may increase pressure.
+- **Correction**: Tap and release before moving.
 
-### 2. Pulling your head straight back against a held guillotine instead of stacking and squaring
+### 2. Assuming a cleared grip completes the escape
 
-- **Consequence**: Pulling straight back plays into the choke and, once the attacker is off-line, into the rotational torque, often tightening the finish rather than escaping it.
-- **Correction**: Drive your weight forward to stack the attacker and deny the off-line angle, or commit to the Von Flue shoulder pressure rather than retreating your head.
+- **Consequence**: The remaining control can still prevent the intended landing.
+- **Correction**: Face open guard if the high entry and ordinary closed guard both release.
 
-### 3. Reacting only to the choke and ignoring the hip clearance
+### 3. Losing a stable base during the response
 
-- **Consequence**: By the time the choke feels tight, the attacker has already opened the guard, shrimped off-line, and set their hooks, so you are defending a fully established Hindulotine instead of a catch.
-- **Correction**: Treat the guard opening and the off-line hip shrimp as the real alarm. Stack and square the moment you feel the attacker angle away, well before the rotational pressure builds.
+- **Consequence**: You may concede the next connection.
+- **Correction**: Maintain a useful inside frame before the high leg enters.
 
 
 
@@ -338,14 +256,14 @@ Once the grip is caught, drive forward to stack and square your hips before the 
 
 <p class="section-subtitle">How do you train defense against Closed Guard to Hindulotine?</p>
 
-**Week 1-2: Posture and grip prevention** - Denying the catch by keeping posture and fighting the grip
-From closed guard top with a partner attempting the catch at 30 percent, drill keeping your head up, spine stacked, and both hands fighting the choking grip before it locks under your chin. Reset every repetition and focus on never letting your head drop below their chest line.
+**Phase 1** - Start from closed guard
+Begin as the bottom closed-guard player with both players facing one another. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Week 3-4: Recognizing the hip clearance** - Reacting to the off-line shrimp before the angle locks
-Partner catches the grip and then opens the guard to shrimp off-line at 50 percent. Practice feeling the guard opening and the hip shrimp and immediately driving forward to stack and square your hips. Partner gives feedback on whether you reacted to the choke or to the earlier hip clearance cue.
+**Phase 2** - Control the head safely
+Establish comfortable head control while avoiding forced neck rotation. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Week 5-8: Stack passing and the Von Flue counter** - Converting the defense into a pass or finish
-With the grip held at 60 to 70 percent, drill both counters: stacking forward to square the hips and pass toward side control, and dropping the near shoulder into the neck for the Von Flue. Work the timing so you commit before the attacker locks their hooks and off-line angle, while keeping your own neck protected throughout.
+**Phase 3** - Make space for the leg
+Adjust the hips to create space for the taught leg-in arrangement while keeping the raised knee supported. Pause at this checkpoint with a cooperative partner before linking the next step.
 
 
 

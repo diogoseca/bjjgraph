@@ -192,35 +192,12 @@ description: "How to execute the Elevator Sweep from butterfly guard in BJJ. Att
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Elevator Sweep Variations from Butterfly Guard",
-      "description": "Elevator Sweep (Attacker) film study: Elevator Sweep Variations from Butterfly Guard, taught by Antonio Suazo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mjy1CpE6N2M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mjy1CpE6N2M",
-      "url": "https://www.youtube.com/watch?v=mjy1CpE6N2M",
-      "creator": { "@type": "Person", "name": "Antonio Suazo" },
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "BJJ Elevator Sweep",
-      "description": "Elevator Sweep (Attacker) film study: BJJ Elevator Sweep, taught by Clinch Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LgDGnavTYAs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LgDGnavTYAs",
-      "url": "https://www.youtube.com/watch?v=LgDGnavTYAs",
-      "creator": { "@type": "Person", "name": "Clinch Academy" },
-      "duration": "PT116S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Overhook Elevator Sweep from Butterfly Guard",
-      "description": "Elevator Sweep (Attacker) film study: Overhook Elevator Sweep from Butterfly Guard, taught by Satori BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2hc9sl1hEkE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2hc9sl1hEkE",
-      "url": "https://www.youtube.com/watch?v=2hc9sl1hEkE",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT36S"
+      "name": "Butterfly Guard Elevation Sweeps | Jiu Jitsu technique",
+      "description": "Elevator Sweep (Attacker) film study: Butterfly Guard Elevation Sweeps | Jiu Jitsu technique.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lcQySA01Azw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lcQySA01Azw",
+      "url": "https://www.youtube.com/watch?v=lcQySA01Azw",
+      "duration": "PT257S"
     }
   ]
 }
@@ -252,25 +229,9 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mjy1CpE6N2M)
+![](https://www.youtube.com/watch?v=lcQySA01Azw)
 
-<p class="clip-credit"><strong>Elevator Sweep Variations from Butterfly Guard</strong> — taught by Antonio Suazo · 1:19 · <a href="https://www.youtube.com/watch?v=mjy1CpE6N2M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LgDGnavTYAs)
-
-<p class="clip-credit"><strong>BJJ Elevator Sweep</strong> — taught by Clinch Academy · 1:56 · <a href="https://www.youtube.com/watch?v=LgDGnavTYAs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2hc9sl1hEkE)
-
-<p class="clip-credit"><strong>Overhook Elevator Sweep from Butterfly Guard</strong> — taught by Satori BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=2hc9sl1hEkE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Butterfly Guard Elevation Sweeps | Jiu Jitsu technique</strong> · 4:17 · <a href="https://www.youtube.com/watch?v=lcQySA01Azw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

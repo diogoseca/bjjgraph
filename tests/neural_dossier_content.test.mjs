@@ -171,6 +171,55 @@ function python(script) {
   assert.equal(result.status, 0, result.stderr || result.stdout || String(result.error));
 }
 
+test("curated clips preserve order and metadata; hub clips reach only their assigned half", () => {
+  python(String.raw`
+import sys
+sys.path.insert(0, 'scripts')
+import _neural_content as nc
+own = {'id': 'aaaaaaaaaaa', 'title': 'Own role', 'front': True, 'duration': 125, 'verified': 'private provenance'}
+hub = [{'id': own['id'], 'title': 'Hub duplicate', 'half': 'both', 'start': 30, 'duration': 50},
+       {'id': 'bbbbbbbbbbb', 'half': 'top', 'duration': 32},
+       {'id': 'ccccccccccc', 'half': 'bottom'}, {'id': 'ddddddddddd', 'half': 'both'},
+       {'id': 'eeeeeeeeeee'}]
+top = nc._position_dossier({'clips': [own]}, 'Top', hub_clips=hub)['clips']
+bottom = nc._position_dossier({'clips': [own]}, 'Bottom', hub_clips=hub)['clips']
+assert [c['id'] for c in top] == ['aaaaaaaaaaa', 'bbbbbbbbbbb', 'ddddddddddd']
+assert [c['id'] for c in bottom] == ['aaaaaaaaaaa', 'ccccccccccc', 'ddddddddddd']
+assert top[0] == {'id': 'aaaaaaaaaaa', 'title': 'Own role', 'duration': 125, 'front': True}
+assert bottom[0] == top[0] # local front/order/metadata win over a differently trimmed hub duplicate
+assert top[1]['half'] == 'top' and bottom[1]['half'] == 'bottom'
+assert all(c['id'] != 'eeeeeeeeeee' for c in top + bottom)
+assert nc._clips([{'id': 'zzzzzzzzzzz', 'duration': 600}, own])[0]['id'] == 'zzzzzzzzzzz'
+print('asserted clip order, provenance exclusion, duration/front, both halves and untagged suppression')
+`);
+});
+
+test("every emitted clip belongs to its own role or an explicitly assigned position hub", () => {
+  let halves = 0, clips = 0, expectedClips = 0;
+  eachDossier((dossier, data, section, role, family, key) => {
+    for (const side of role ? [role] : ["attacker", "defender"]) {
+      const emitted = role ? dossier.clips || [] : dossier.perspectives?.[side]?.clips || [];
+      assert.equal(new Set(emitted.map(c => c.id)).size, emitted.length, `${key}/${side}: one display occurrence per video ID`);
+      const authored = [...(data[side]?.clips || []), ...(role ? (data.clips || []).filter(c => [role, "both"].includes(c.half)) : [])];
+      // Compare the renderer's output to the eligible SOURCE, including order and its four-clip
+      // display cap. Curation can remove mismatches without weakening this completeness check.
+      const expectedIds = [...new Set(authored.filter(c => typeof c.id === "string" && /^[A-Za-z0-9_-]{11}$/.test(c.id)).map(c => c.id))].slice(0, 4);
+      assert.deepEqual(emitted.map(c => c.id), expectedIds, `${key}/${side}: local array first, then routed hubs, one occurrence per ID`);
+      expectedClips += expectedIds.length;
+      halves++;
+      for (const clip of emitted) {
+        const source = authored.find(c => c.id === clip.id);
+        assert.ok(source, `${key}/${side}: ${clip.id} must have role provenance`);
+        for (const field of ["front", "half", "duration"]) assert.equal(clip[field], source[field], `${key}/${side}/${field}`);
+        clips++;
+      }
+    }
+  });
+  assert.ok(halves > 2500 && expectedClips > 0, `positive coverage: ${halves} halves, ${expectedClips} eligible source clips`);
+  assert.equal(clips, expectedClips, "every eligible displayed source clip is emitted");
+  console.log(`clip provenance: ${halves} halves; ${clips} emitted / ${expectedClips} expected clips`);
+});
+
 test("synthetic aliases retain order, provenance, and entries beyond six; target probability keeps zero", () => {
   python(String.raw`
 import sys

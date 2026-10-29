@@ -160,24 +160,12 @@ description: "Complete guide to preventing the Cartwheel Escape from Omoplata in
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering the cartwheel escape",
-      "description": "Cartwheel Escape from Omoplata (Defender) film study: Countering the cartwheel escape, taught by Sam Wilkinson.",
+      "name": "Williams guard part 2: cartwheel escape counter",
+      "description": "Cartwheel Escape from Omoplata (Defender) film study: Williams guard part 2: cartwheel escape counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NZEf9jXzCYA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NZEf9jXzCYA",
       "url": "https://www.youtube.com/watch?v=NZEf9jXzCYA",
-      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
       "duration": "PT80S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Finishing the omoplata against the common defense",
-      "description": "Cartwheel Escape from Omoplata (Defender) film study: Finishing the omoplata against the common defense, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AHCYSGbEGHM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AHCYSGbEGHM",
-      "url": "https://www.youtube.com/watch?v=AHCYSGbEGHM",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT425S"
     }
   ]
 }
@@ -207,15 +195,7 @@ As the defender holding the omoplata, your primary objective is to prevent the c
 
 ![](https://www.youtube.com/watch?v=NZEf9jXzCYA)
 
-<p class="clip-credit"><strong>Countering the cartwheel escape</strong> — taught by Sam Wilkinson · 1:20 · <a href="https://www.youtube.com/watch?v=NZEf9jXzCYA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AHCYSGbEGHM)
-
-<p class="clip-credit"><strong>Finishing the omoplata against the common defense</strong> — taught by Jon Thomas · 7:05 · <a href="https://www.youtube.com/watch?v=AHCYSGbEGHM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Williams guard part 2: cartwheel escape counter</strong> · 1:20 · <a href="https://www.youtube.com/watch?v=NZEf9jXzCYA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

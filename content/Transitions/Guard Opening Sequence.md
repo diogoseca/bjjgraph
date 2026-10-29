@@ -46,24 +46,12 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Breaking and opening the closed guard",
-      "description": "Guard Opening Sequence film study: Breaking and opening the closed guard, taught by Gracie Barra Online.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6mxOyJDMgdM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6mxOyJDMgdM",
-      "url": "https://www.youtube.com/watch?v=6mxOyJDMgdM",
-      "creator": { "@type": "Person", "name": "Gracie Barra Online" },
-      "duration": "PT108S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee in the middle guard opener",
-      "description": "Guard Opening Sequence film study: Knee in the middle guard opener, taught by Fabiano Scherner.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/j5cx0q6BYiM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/j5cx0q6BYiM",
-      "url": "https://www.youtube.com/watch?v=j5cx0q6BYiM",
-      "creator": { "@type": "Person", "name": "Fabiano Scherner" },
-      "duration": "PT186S"
+      "name": "If You Struggle Breaking Closed Guard as White Belt, Then Watch This Video",
+      "description": "Guard Opening Sequence film study: If You Struggle Breaking Closed Guard as White Belt, Then Watch This Video.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XrTTVy4-s0k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XrTTVy4-s0k",
+      "url": "https://www.youtube.com/watch?v=XrTTVy4-s0k",
+      "duration": "PT324S"
     }
   ]
 }
@@ -117,17 +105,9 @@ At the competitive level, guard opening efficiency separates effective passers f
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=6mxOyJDMgdM)
+![](https://www.youtube.com/watch?v=XrTTVy4-s0k)
 
-<p class="clip-credit"><strong>Breaking and opening the closed guard</strong> — taught by Gracie Barra Online · 1:48 · <a href="https://www.youtube.com/watch?v=6mxOyJDMgdM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=j5cx0q6BYiM)
-
-<p class="clip-credit"><strong>Knee in the middle guard opener</strong> — taught by Fabiano Scherner · 3:06 · <a href="https://www.youtube.com/watch?v=j5cx0q6BYiM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>If You Struggle Breaking Closed Guard as White Belt, Then Watch This Video</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=XrTTVy4-s0k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,34 +46,21 @@ description: "Master the escape from twister side control in BJJ. Complete guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twister side control and how to escape it",
-      "description": "Escape Twister Side Control film study: Twister side control and how to escape it, taught by Robot Dolphin Jiu-Jitsu.",
+      "name": "Twister Side Control \u0026 Escaping It",
+      "description": "Escape Twister Side Control film study: Twister Side Control \u0026 Escaping It.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AUyR1rmVzo4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AUyR1rmVzo4",
       "url": "https://www.youtube.com/watch?v=AUyR1rmVzo4",
-      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
-      "duration": "PT205S"
+      "duration": "PT204S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side control escape to the Hazlet",
-      "description": "Escape Twister Side Control film study: Side control escape to the Hazlet, taught by 10th Planet Orange Park.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ldL974KL5sg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ldL974KL5sg",
-      "url": "https://www.youtube.com/watch?v=ldL974KL5sg",
-      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
-      "duration": "PT22S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse scarf hold escape from twister side control",
-      "description": "Escape Twister Side Control film study: Reverse scarf hold escape from twister side control, taught by Black Dragon BJJ.",
+      "name": "reverse scarfhold escape ( twister side control) (week 12)",
+      "description": "Escape Twister Side Control film study: reverse scarfhold escape ( twister side control) (week 12).",
       "thumbnailUrl": "https://i.ytimg.com/vi/hXp34AtDjac/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hXp34AtDjac",
       "url": "https://www.youtube.com/watch?v=hXp34AtDjac",
-      "creator": { "@type": "Person", "name": "Black Dragon BJJ" },
       "duration": "PT291S"
     }
   ]
@@ -130,15 +117,7 @@ What distinguishes this escape from standard side control escapes is the necessi
 
 ![](https://www.youtube.com/watch?v=AUyR1rmVzo4)
 
-<p class="clip-credit"><strong>Twister side control and how to escape it</strong> — taught by Robot Dolphin Jiu-Jitsu · 3:25 · <a href="https://www.youtube.com/watch?v=AUyR1rmVzo4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ldL974KL5sg)
-
-<p class="clip-credit"><strong>Side control escape to the Hazlet</strong> — taught by 10th Planet Orange Park · 0:22 · <a href="https://www.youtube.com/watch?v=ldL974KL5sg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister Side Control &amp; Escaping It</strong> · 3:24 · <a href="https://www.youtube.com/watch?v=AUyR1rmVzo4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +125,7 @@ What distinguishes this escape from standard side control escapes is the necessi
 
 ![](https://www.youtube.com/watch?v=hXp34AtDjac)
 
-<p class="clip-credit"><strong>Reverse scarf hold escape from twister side control</strong> — taught by Black Dragon BJJ · 4:51 · <a href="https://www.youtube.com/watch?v=hXp34AtDjac" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>reverse scarfhold escape ( twister side control) (week 12)</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=hXp34AtDjac" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -331,8 +310,6 @@ The Escape from Twister Side Control connects the 10th Planet defensive ecosyste
 - [[Positions/Back Control]] - Counter outcome when escape exposes the back to opponent
 
 - [[Positions/Twister Control/Truck]] - Related position in the twister system sharing leg entanglement mechanics
-
-- [[Transitions/Arm Extraction to Turtle]] - Related escape technique targeting the same turtle destination
 
 - [[Transitions/Granby Roll to Guard]] - Follow-up technique available after reaching turtle position
 

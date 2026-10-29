@@ -402,22 +402,19 @@
     ],
     "clips": [
       {
-        "id": "tUKGafnOlJo",
-        "title": "Slide into Ashi to Straight Toe Hold",
-        "by": "Josh Star-Lord Leduc",
-        "vertical": false,
-        "channel": "Josh Star-Lord Leduc",
-        "duration": 58,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "TkSFu08UXec",
-        "title": "Toe Hold / Kneebar from Reverse Ashi",
-        "by": "Mads H.",
-        "vertical": false,
+        "title": "The strongest leglock combo in BJJ?- Toehold/kneebar dillemma from reverse ashi",
         "channel": "Mads H. BJJ",
         "duration": 296,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "tUKGafnOlJo",
+        "title": "Slide into Ashi to Straight Toe Hold",
+        "channel": "Josh Star-Lord Leduc",
+        "duration": 58,
+        "vertical": false
       }
     ]
   },
@@ -602,25 +599,6 @@
         "description": "Positional sparring starting from ushiro ashi-garami with partner attacking the toe hold at increasing intensity. Practice the full defensive hierarchy: grip prevention, dorsiflexion, counter-entanglement, and safe tapping. Partner increases speed and intensity over sessions from 50% to 80%."
       }
     ],
-    "clips": [
-      {
-        "id": "cRXsNPAgVLU",
-        "title": "Irimi Ashi Garami Counter",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 29,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "m4UEhHwbGfQ",
-        "title": "Ashi Garami Escape to Mount",
-        "by": "Troy Manning",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 76,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

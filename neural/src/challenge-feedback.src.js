@@ -42,7 +42,16 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
     if (!this._challengeRewardActive) this.showNextChallengeReward();
   },
 
+  // D-326: a notice yields while a move executes. A full-width phone notice left the
+  // execution camera nowhere to frame the move. One already showing goes back to the
+  // queue's front; clearExecution shows it again, with its full time, once the move lands.
+  holdChallengeReward() {
+    const reward = this._challengeRewardEl && this._challengeRewardActive;
+    if (reward) this._challengeRewardQueue.unshift(reward), this._challengeRewardDismiss();
+  },
+
   showNextChallengeReward() {
+    if (this._execution || this.__ngDestroyed) return;
     const reward = (this._challengeRewardQueue || []).shift();
     if (!reward) {
       this._challengeRewardActive = null;
@@ -76,13 +85,16 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
       '</b><button type="button" data-reward-collection>View Collection</button></div><button type="button" data-reward-close aria-label="Dismiss reward">&times;</button>';
     (this.__ngRoot || document.body).appendChild(el);
     this._challengeRewardEl = el;
-    const dismiss = () => {
+    // The notice is ambient. Only its deliberate controls take input; its prose
+    // must not swallow a graph pan or an arrow in the nearby videos row.
+    for (const b of el.querySelectorAll("button")) b.style.pointerEvents = "auto";
+    const dismiss = (this._challengeRewardDismiss = () => {
       clearTimeout(this._challengeRewardTimer);
       if (this._challengeRewardEl) this._challengeRewardEl.remove();
       this._challengeRewardEl = null;
       this._challengeRewardActive = null;
       this.showNextChallengeReward();
-    };
+    });
     el
       .querySelector("[data-reward-collection]")
       .addEventListener("click", () => {

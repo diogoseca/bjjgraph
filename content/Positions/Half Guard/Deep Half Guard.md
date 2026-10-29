@@ -46,34 +46,21 @@ description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, ba
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Deep Half Guard Low Grip vs High Grip",
-      "description": "Deep Half Guard film study: Deep Half Guard Low Grip vs High Grip, taught by Jeff Glover.",
+      "name": "Jeff Glover explains low grip and high grip for deep half guard",
+      "description": "Deep Half Guard film study: Jeff Glover explains low grip and high grip for deep half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_IGB9jEvXfo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_IGB9jEvXfo",
       "url": "https://www.youtube.com/watch?v=_IGB9jEvXfo",
-      "creator": { "@type": "Person", "name": "Jeff Glover" },
-      "duration": "PT42S"
+      "duration": "PT41S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Deep Half Guard Sweep",
-      "description": "Deep Half Guard film study: Deep Half Guard Sweep, taught by Kyle Dimmitt.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
-      "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
-      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Deep Half Guard Basics Summary",
-      "description": "Deep Half Guard film study: Deep Half Guard Basics Summary, taught by Kaizen Academy.",
+      "name": "Deep Half Guard - Basics Summary",
+      "description": "Deep Half Guard film study: Deep Half Guard - Basics Summary.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rYMsh27-f7g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rYMsh27-f7g",
       "url": "https://www.youtube.com/watch?v=rYMsh27-f7g",
-      "creator": { "@type": "Person", "name": "Kaizen Academy" },
       "duration": "PT263S"
     }
   ]
@@ -127,15 +114,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 ![](https://www.youtube.com/watch?v=_IGB9jEvXfo)
 
-<p class="clip-credit"><strong>Deep Half Guard Low Grip vs High Grip</strong> — taught by Jeff Glover · 0:42 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
-
-<p class="clip-credit"><strong>Deep Half Guard Sweep</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jeff Glover explains low grip and high grip for deep half guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -143,7 +122,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 ![](https://www.youtube.com/watch?v=rYMsh27-f7g)
 
-<p class="clip-credit"><strong>Deep Half Guard Basics Summary</strong> — taught by Kaizen Academy · 4:23 · <a href="https://www.youtube.com/watch?v=rYMsh27-f7g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Half Guard - Basics Summary</strong> · 4:23 · <a href="https://www.youtube.com/watch?v=rYMsh27-f7g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -288,7 +267,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 - Posture Maintenance: Keep good posture and avoid being flattened or broken down
 
-- Base Widening: Use free leg to establish wide base that makes you difficult to off-balance
+- Base Widening: Use free leg to establish wide base that makes you difficult to off-balance. In this example, the narrator describes Gordon Ryan first trying to flatten the deep-half player with a crossface; if that fails, he points his trailing leg toward their far hip to make it harder for them to rise or use the old school sweep. Narration: [Less Impressed More Involved BJJ, 13:51.959–14:11.579](https://www.youtube.com/watch?v=XGBHXO-EMk0&t=831s).
 
 - Grips: Prevent opponent from establishing sweep grips on belt or pants
 
@@ -381,7 +360,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 <a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Power Ride: Craig Jones’s Pinning System</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position: Deep Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovering Closed Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Deep Half Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Tom DeBlass: The Lockdown Blueprint</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Deep Half Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Deep Half Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Bottom Half in The Ultimate Rubber Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Deep Half Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Deep Half Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Lucas-Lepri-Half-Guard-Passing-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri: Gi Half-Guard Passing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

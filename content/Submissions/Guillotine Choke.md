@@ -201,7 +201,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 |---|---|---|---|---|
 | [[Submissions/Guillotine Choke/from Butterfly Guard|Butterfly Guard]] | Bottom | 62% | [[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Butterfly Guard/Defender|Defend →]] |
 | [[Submissions/Guillotine Choke/from Guillotine Control|Guillotine Control]] | Top | 62% | [[Submissions/Guillotine Choke/from Guillotine Control/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Guillotine Control/Defender|Defend →]] |
-| [[Submissions/Guillotine Choke/from Hindulotine|Hindulotine]] | Top | 62% | [[Submissions/Guillotine Choke/from Hindulotine/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Hindulotine/Defender|Defend →]] |
+| [[Submissions/Guillotine Choke/from Hindulotine|Hindulotine]] | Bottom | 62% | [[Submissions/Guillotine Choke/from Hindulotine/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Hindulotine/Defender|Defend →]] |
 | [[Submissions/Guillotine Choke/from Twister Control|Twister Control]] | Top | 62% | [[Submissions/Guillotine Choke/from Twister Control/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Twister Control/Defender|Defend →]] |
 | [[Submissions/Guillotine Choke/from Clinch|Clinch]] | Top | 40% | [[Submissions/Guillotine Choke/from Clinch/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Clinch/Defender|Defend →]] |
 
@@ -218,7 +218,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 - **Mounted Guillotine**: Finish the choke after coming up to mounted position while maintaining the grip. Opponent is trapped on bottom unable to create space (When to use: When opponent attempts to pass guard while you have guillotine established. Jump to mount while maintaining choke for high-percentage finish)
 - **Ten Finger Guillotine**: Gable grip (palm-to-palm with fingers interlaced) around opponent's neck, maximizing squeezing pressure through forearm compression. Excellent variation for practitioners with shorter arms or when maximum squeeze is needed (When to use: When in no-gi situation and need maximum grip strength. Also useful when opponent is very slippery with sweat or your arms are too short for traditional grip)
 - **Chin Strap Guillotine from Front Headlock**: Advanced variation where choking arm goes under opponent's chin rather than around neck, forcing head back while choking (When to use: When opponent successfully defends standard guillotine by tucking chin extremely tight. Creates different mechanical pressure)
-- **Marce Choke**: Variation where the choking arm threads under opponent's neck from front headlock, with the grip established on your own bicep or lat muscle, creating a modified guillotine finish highly effective from front headlock positions and turtle attacks (When to use: From front headlock when opponent is in turtle or defensive posture; excellent when transitioning from failed takedown attempts to submission)
+- **Transition to D'Arce**: If the guillotine opening closes and an arm is available beside the neck, release and rethread to the D'Arce configuration. Marce names a rolling finish within that D'Arce family; it is not a guillotine grip variation. (When to use: The exchange exposes an armpit-to-neck path while the original guillotine connection is no longer effective)
 
 
 </details>

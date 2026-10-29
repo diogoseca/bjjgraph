@@ -459,31 +459,18 @@
     ],
     "clips": [
       {
-        "id": "h_SRARh0B6U",
-        "title": "Cross Ashi Belly-Down Heel Hook",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 68,
-        "verified": "2026-07-14"
+        "id": "RbuQjr3-F2I",
+        "title": "Intro to Saddle | 411 | Honey Hole | Inside Sankaku",
+        "channel": "Fat Snake Jiu Jitsu",
+        "duration": 290,
+        "front": true
       },
       {
-        "id": "EzS4k5JXLRY",
-        "title": "Cross Ashi Garami vs the Counter",
-        "by": "Raymond Tan",
-        "vertical": false,
-        "channel": "BJJ Cheat Codes by Raymond Tan",
-        "duration": 116,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "pRqoNs4K7cI",
-        "title": "Ashi Garami and Heel Hook",
-        "by": "The Coop BJJ",
-        "vertical": false,
-        "channel": "The Coop BJJ",
-        "duration": 83,
-        "verified": "2026-07-14"
+        "id": "HVc2CKdAfN0",
+        "title": "How to go from X-Guard to Saddle (cross ashi)",
+        "channel": "Johnny Jitsu",
+        "duration": 120,
+        "vertical": false
       }
     ]
   },
@@ -811,92 +798,75 @@
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 9
         }
       },
       {
         "transition": "X-Guard to Ashi Garami",
         "attempt_probability": {
-          "gi": 3,
+          "gi": 4,
           "nogi": 2
         }
       },
       {
         "transition": "Heel Hook Defense Escape",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 19
-        }
-      },
-      {
-        "transition": "Standing Escape",
-        "attempt_probability": {
-          "gi": 19,
-          "nogi": 14
+          "gi": 7,
+          "nogi": 22
         }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Counter heel hook",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 9
+          "nogi": 11
         }
       },
       {
         "transition": "Leg Extraction",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 15
+          "gi": 27,
+          "nogi": 17
         }
       },
       {
         "transition": "Counter Entangle from Cross Ashi",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Leg Extraction from Cross Ashi",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 10
+          "gi": 21,
+          "nogi": 12
         }
       },
       {
         "transition": "Sweep from Cross Ashi-Garami",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 6
+          "gi": 11,
+          "nogi": 7
         }
       }
     ],
     "clips": [
       {
         "id": "FUjlpGRjU44",
-        "title": "Escaping and Countering Cross Ashi Garami",
-        "by": "Lux's Jiu Jitsu",
-        "vertical": false,
+        "title": "Escaping and countering cross ashi garami",
         "channel": "Lux’s jiu jitsu channel",
         "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "cRXsNPAgVLU",
-        "title": "Irimi Ashi Garami Counter",
-        "by": "John Danaher",
         "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 29,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1017,30 +987,11 @@
   "clips": [
     {
       "id": "HVc2CKdAfN0",
-      "title": "X-Guard to Saddle (Cross Ashi)",
-      "by": "Johnny Jitsu",
-      "vertical": false,
+      "title": "How to go from X-Guard to Saddle (cross ashi)",
       "channel": "Johnny Jitsu",
       "duration": 120,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "nVfqMfVpTVk",
-      "title": "Simple Trick to Fix Your Cross Ashi",
-      "by": "Factory Fresh Jiu Jitsu",
       "vertical": false,
-      "channel": "Factory Fresh Jiu Jitsu",
-      "duration": 55,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "f0DAtrYy41s",
-      "title": "K Guard to Cross Ashi",
-      "by": "Phage Jiu-Jitsu",
-      "vertical": false,
-      "channel": "Phage Jiu-Jitsu",
-      "duration": 20,
-      "verified": "2026-07-14"
+      "half": "top"
     }
   ]
 }

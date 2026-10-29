@@ -590,31 +590,19 @@
     ],
     "clips": [
       {
-        "id": "h4izOHcQh2Y",
-        "title": "Head & Arm Choke from Turtle Position",
-        "by": "Pathfinder Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 50,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "nD3qXP4o7GM",
-        "title": "Turtle Attacks: Arm Triangle",
-        "by": "SlothGuard",
-        "vertical": false,
+        "title": "Turtle - Attacks - Arm triangle",
         "channel": "SlothGuard",
-        "duration": 37,
-        "verified": "2026-07-14"
+        "duration": 36,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "KHEJ0DygJvc",
         "title": "Arm Triangle from Turtle",
-        "by": "BTT Evergreen",
-        "vertical": false,
         "channel": "BTT Evergreen",
         "duration": 58,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -890,31 +878,12 @@
     ],
     "clips": [
       {
-        "id": "LTGHO-aRBxw",
-        "title": "Head and Arm Escape from Turtle",
-        "by": "Chosen Few BJJ",
-        "vertical": false,
-        "channel": "Chosen Few BJJ",
-        "duration": 78,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "n_2zR6BaF8A",
-        "title": "The Best Arm-Triangle Escape",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 58,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "Fx6qjR6a_xE",
-        "title": "3 Arm Triangle Choke Defenses",
-        "by": "MMA Leech",
-        "vertical": false,
+        "title": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
         "channel": "MMA Leech",
-        "duration": 274,
-        "verified": "2026-07-14"
+        "duration": 273,
+        "vertical": false,
+        "front": true
       }
     ]
   }

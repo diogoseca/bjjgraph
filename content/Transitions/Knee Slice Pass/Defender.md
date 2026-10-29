@@ -181,24 +181,12 @@ description: "How to defend and counter the Knee Slice Pass in BJJ. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Basic knee slide pass recovery",
-      "description": "Knee Slice Pass (Defender) film study: Basic knee slide pass recovery, taught by Vision Brazilian Jiu Jitsu.",
+      "name": "Basic Knee Slide Recovery",
+      "description": "Knee Slice Pass (Defender) film study: Basic Knee Slide Recovery.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RvIIpXaPyJM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RvIIpXaPyJM",
       "url": "https://www.youtube.com/watch?v=RvIIpXaPyJM",
-      "creator": { "@type": "Person", "name": "Vision Brazilian Jiu Jitsu" },
       "duration": "PT96S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard retention: when to sit up escape",
-      "description": "Knee Slice Pass (Defender) film study: Guard retention: when to sit up escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
     }
   ]
 }
@@ -233,15 +221,7 @@ The most critical defensive window occurs before the passer's knee crosses the t
 
 ![](https://www.youtube.com/watch?v=RvIIpXaPyJM)
 
-<p class="clip-credit"><strong>Basic knee slide pass recovery</strong> — taught by Vision Brazilian Jiu Jitsu · 1:36 · <a href="https://www.youtube.com/watch?v=RvIIpXaPyJM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
-
-<p class="clip-credit"><strong>Guard retention: when to sit up escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic Knee Slide Recovery</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=RvIIpXaPyJM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

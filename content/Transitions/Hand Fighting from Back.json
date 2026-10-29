@@ -77,10 +77,6 @@
       "relationship": "Gi choke threat requiring modified hand fighting approach"
     },
     {
-      "name": "Elbow Escape to Remove Hooks",
-      "relationship": "Follow-up technique after establishing hand control"
-    },
-    {
       "name": "Granby Roll to Guard",
       "relationship": "Alternative escape that can follow successful hand fighting"
     },
@@ -403,22 +399,12 @@
     "safety_considerations": "Hand fighting from back control is generally safe during training but requires awareness of neck positioning. Avoid explosive head movements while under choke threat as this can strain neck muscles. Partners should apply submission attempts gradually, allowing time for defensive response. When practicing, tap early if a choke locks in despite your hand fighting to prevent unconsciousness. If you experience tingling in extremities or vision changes, tap immediately. Practitioners with prior neck injuries should inform partners and may need modified training protocols. During intense drilling, monitor grip fatigue that can lead to forearm cramping.",
     "clips": [
       {
-        "id": "GQXI1OG2874",
-        "title": "Defensive Position 2 hand fighting off the back",
-        "by": "John Danaher",
+        "id": "Wga4PfuShEg",
+        "title": "Back Control (Defending) Seatbelt Grip",
+        "channel": "Academy Jiu Jitsu",
+        "duration": 114,
         "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 23,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "21BYfWzw6HI",
-        "title": "Wrists as the first layer of back defense",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 220,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -592,22 +578,11 @@
     ],
     "clips": [
       {
-        "id": "Q9Deu0fqLH0",
-        "title": "Key concepts for finishing the rear naked choke",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Faq",
-        "duration": 24,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "70jECxFfCSA",
-        "title": "Rear naked choke grip fighting to the finish",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Control Jiu JItsu",
-        "duration": 73,
-        "verified": "2026-07-15"
+        "id": "51cmLSANvsw",
+        "title": "Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki",
+        "channel": "Joe Solecki",
+        "duration": 153,
+        "front": true
       }
     ]
   },

@@ -46,35 +46,12 @@ description: "Master the Guard Pass from Leg Entanglement in BJJ. Complete guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg pommeling to pass the leg entanglement",
-      "description": "Guard Pass from Leg Entanglement film study: Leg pommeling to pass the leg entanglement, taught by Michael Wong.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kQrTYXOO1To/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kQrTYXOO1To",
-      "url": "https://www.youtube.com/watch?v=kQrTYXOO1To",
-      "creator": { "@type": "Person", "name": "Michael Wong" },
-      "duration": "PT22S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roll through escape from leg entanglement",
-      "description": "Guard Pass from Leg Entanglement film study: Roll through escape from leg entanglement, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
-      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT103S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing single leg X guard",
-      "description": "Guard Pass from Leg Entanglement film study: Passing single leg X guard, taught by Profectus Jiu-Jitsu.",
+      "name": "Passing SLX Guard (Single Leg X) - Profectus Jiu Jitsu WilCo.",
+      "description": "Guard Pass from Leg Entanglement film study: Passing SLX Guard (Single Leg X) - Profectus Jiu Jitsu WilCo..",
       "thumbnailUrl": "https://i.ytimg.com/vi/UpNhZl5nkcM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UpNhZl5nkcM",
       "url": "https://www.youtube.com/watch?v=UpNhZl5nkcM",
-      "creator": { "@type": "Person", "name": "Profectus Jiu-Jitsu" },
-      "duration": "PT187S"
+      "duration": "PT186S"
     }
   ]
 }
@@ -128,25 +105,9 @@ Successfully completing this pass requires integrating leg lock defense knowledg
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kQrTYXOO1To)
-
-<p class="clip-credit"><strong>Leg pommeling to pass the leg entanglement</strong> — taught by Michael Wong · 0:22 · <a href="https://www.youtube.com/watch?v=kQrTYXOO1To" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
-
-<p class="clip-credit"><strong>Roll through escape from leg entanglement</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=UpNhZl5nkcM)
 
-<p class="clip-credit"><strong>Passing single leg X guard</strong> — taught by Profectus Jiu-Jitsu · 3:07 · <a href="https://www.youtube.com/watch?v=UpNhZl5nkcM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing SLX Guard (Single Leg X) - Profectus Jiu Jitsu WilCo.</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=UpNhZl5nkcM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

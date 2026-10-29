@@ -434,30 +434,11 @@
     "clips": [
       {
         "id": "RbkOnRb2lvA",
-        "title": "Anaconda Choke from Front Headlock",
-        "by": "Ninja Pinto",
+        "title": "Anaconda Choke BJJ",
+        "channel": "Ninja Pinto",
+        "duration": 48,
         "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 49,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1e2GPOUYR-o",
-        "title": "Fixing Common Anaconda Choke Mistakes",
-        "by": "Lycan",
-        "vertical": false,
-        "channel": "Lycan",
-        "duration": 41,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6d6Wkgh9imU",
-        "title": "Anaconda vs Darce: Grip and Finish Difference",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 67,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -644,30 +625,25 @@
     "clips": [
       {
         "id": "At1_GDu4hSc",
-        "title": "Escaping the Anaconda Choke",
-        "by": "ArtOfSayingGoodbye",
-        "vertical": false,
+        "title": "How to escape from an anaconda",
         "channel": "ArtOfSayingGoodbye",
-        "duration": 23,
-        "verified": "2026-07-15"
+        "duration": 22,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "s94GexEkoQ0",
-        "title": "Anaconda Choke Defense Plus Counter",
-        "by": "Cyril Robert",
-        "vertical": false,
+        "title": "BJJ defense anaconda plus counter",
         "channel": "Cyril Robert MMA",
         "duration": 43,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "SXm9wA1HcvM",
-        "title": "Anaconda Choke Defense",
-        "by": "SFS MMA",
-        "vertical": false,
+        "title": "Anaconda choke defense (BJJ) - SFS MMA",
         "channel": "Fierce Pierce15",
         "duration": 64,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

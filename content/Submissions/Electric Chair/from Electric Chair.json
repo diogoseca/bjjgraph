@@ -544,40 +544,11 @@
     ],
     "clips": [
       {
-        "id": "sMbaY4vG2mM",
-        "title": "Electric Chair from Lockdown Half Guard",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 42,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "I8HLek9eCbg",
-        "title": "Electric Chair",
-        "by": "bjjtaro",
-        "vertical": false,
-        "channel": "bjjtaro",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "X7JA72d-3vw",
-        "title": "Electric Chair Submission",
-        "by": "Dan M.",
-        "vertical": false,
-        "channel": "Dan M.",
-        "duration": 55,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "pIoiYLBb_Vg",
-        "title": "Electric Chair Submission",
-        "by": "Panacea BJJ",
-        "vertical": false,
-        "channel": "PanaceaBJJ",
-        "duration": 76,
-        "verified": "2026-07-15"
+        "id": "Mpy_9vGEbeE",
+        "title": "Eddie Bravo Technique: How to do the Electric Chair submission",
+        "channel": "Trillo Jiujitsu Academy",
+        "duration": 117,
+        "vertical": false
       }
     ]
   },
@@ -835,39 +806,11 @@
     "clips": [
       {
         "id": "3A6oRsDf3oU",
-        "title": "Lockdown & Electric Chair Counters and Escapes",
-        "by": "Street Jitsu",
-        "vertical": false,
+        "title": "Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and…",
         "channel": "Street Jitsu",
-        "duration": 286,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "gtsKv_sDRnw",
-        "title": "Passing the lockdown",
-        "by": "Lachlan Giles",
+        "duration": 285,
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 359,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "O6HinOc-zvA",
-        "title": "The best lockdown counter",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 538,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "pzpqHP-xx0I",
-        "title": "Electric Chair: the 3 micro battles to win",
-        "by": "Patrick Donabedian",
-        "vertical": false,
-        "channel": "Patrick Donabedian BJJ",
-        "duration": 630,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

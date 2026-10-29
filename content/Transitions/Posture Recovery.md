@@ -46,24 +46,12 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Posture up and pass the closed guard",
-      "description": "Posture Recovery film study: Posture up and pass the closed guard, taught by Rickson Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RrD643OqTao/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RrD643OqTao",
-      "url": "https://www.youtube.com/watch?v=RrD643OqTao",
-      "creator": { "@type": "Person", "name": "Rickson Gracie" },
-      "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Common guard mistake that gives up posture",
-      "description": "Posture Recovery film study: Common guard mistake that gives up posture, taught by Rickson Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jx120fTdOfA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jx120fTdOfA",
-      "url": "https://www.youtube.com/watch?v=jx120fTdOfA",
-      "creator": { "@type": "Person", "name": "Rickson Gracie" },
-      "duration": "PT58S"
+      "name": "Regaining posture in closed guard",
+      "description": "Posture Recovery film study: Regaining posture in closed guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Snz7V8YgV_M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Snz7V8YgV_M",
+      "url": "https://www.youtube.com/watch?v=Snz7V8YgV_M",
+      "duration": "PT108S"
     }
   ]
 }
@@ -117,17 +105,9 @@ When executed properly, posture recovery neutralizes the guard player's attacks 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=RrD643OqTao)
+![](https://www.youtube.com/watch?v=Snz7V8YgV_M)
 
-<p class="clip-credit"><strong>Posture up and pass the closed guard</strong> — taught by Rickson Gracie · 1:06 · <a href="https://www.youtube.com/watch?v=RrD643OqTao" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jx120fTdOfA)
-
-<p class="clip-credit"><strong>Common guard mistake that gives up posture</strong> — taught by Rickson Gracie · 0:58 · <a href="https://www.youtube.com/watch?v=jx120fTdOfA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Regaining posture in closed guard</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=Snz7V8YgV_M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

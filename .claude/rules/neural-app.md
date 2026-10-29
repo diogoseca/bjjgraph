@@ -25,9 +25,8 @@ the game stops; close = it resumes, but only if the pane is what stopped it** (l
 Challenges · Last rolls.
 
 **Reference law** (owner). A **Principle, a Learning entry and a System are pages, not places.**
-Opening one — its row, or its own URL — lights the techniques it references and shows its body,
-and that is *all* it does: no seat, no hand, no stage, no roll. **A roll starts only when the
-player clicks a position, transition or submission.** `_refPage`, set from the path alone in
+Opening one — its row, or its own URL — shows its complete article and lights the techniques it references while Map is shown,
+and that is *all* it does: no seat, no hand, no stage, no roll. **A roll starts only through an explicit move or landing-card answer; Browse and article links read.** `_refPage`, set from the path alone in
 `_seedPageFromUrl`, is what holds the intro handoff off `startRoll()`; deciding it from the path
 rather than from the payload is deliberate, because the payload is deferred and used to lose the
 race. Pinned by `e2e/journeys/concepts-surface.spec.ts` (both halves — an arrival that starts
@@ -36,7 +35,7 @@ nothing, and a member row that starts a roll).
 **The hand.** `optionsFor` deals every legal move (uncapped) ranked by **EDGE**, sorted ONCE by
 **Win chance** (Neural.md §4) if untouched, else **frozen**: a grade moves
 the numbers but must never re-sort a tray the player is reaching into. The clock times the QUESTION, never the hand (v1.133.0):
-`decisionSec` arms when a question mounts and expiry reveals the answer as a miss
+`decisionSec` arms when the player takes the landing's question up with Answer for Points (`_landReveal`, U47 d) — or on arrival, once engaged, for a card shown directly after one take-up in this tab (U52 b); never while the pane is open — and expiry reveals the answer as a miss
 (`_expireLandQ`) while the hand stays live, untimed;
 deck warm-up is capped at `NG_PREFETCH_CAP`.
 
@@ -68,7 +67,7 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 |---|---|
 | overlays, hit-testing | `attachInput` · `_suppressLand` · `_landHidden` · `_tapBackground` |
 | docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` |
-| the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden; More is a separate scroll surface subordinate to the card layer |
+| the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden; the complete article is independent of the card; `neural/src/reader.src.js` owns reading intent and the labeled shelf |
 | node coordinates, camera | `pairMid` · `_LY` · `headPos` · `rollCamTarget` · `holdCamera` · `frameNodes` |
 | starting/staging a roll | `rollFromPosition` · `techniqueOrigin` · `confirmPlayFrom` · `seatRole` · `_seatMember` · `stageRollAt` |
 | the hand and its numbers | `optionsFor` · `edgeMark` · `orderScore` · `moveChance` · `movePotential` (escape tray only) |

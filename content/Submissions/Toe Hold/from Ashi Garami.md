@@ -46,34 +46,31 @@ description: "Master the toe hold from Ashi Garami leg entanglement. Complete gu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Crossover Toe Hold",
-      "description": "Toe Hold from Ashi Garami film study: Crossover Toe Hold, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
-      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Slide into Ashi to Straight Toe Hold",
-      "description": "Toe Hold from Ashi Garami film study: Slide into Ashi to Straight Toe Hold, taught by Josh Leduc.",
+      "description": "Toe Hold from Ashi Garami film study: Slide into Ashi to Straight Toe Hold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tUKGafnOlJo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tUKGafnOlJo",
       "url": "https://www.youtube.com/watch?v=tUKGafnOlJo",
-      "creator": { "@type": "Person", "name": "Josh Leduc" },
       "duration": "PT58S"
     },
     {
       "@type": "VideoObject",
+      "position": 2,
+      "name": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
+      "description": "Toe Hold from Ashi Garami film study: Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
       "position": 3,
-      "name": "Brutal toe hold from single leg X",
-      "description": "Toe Hold from Ashi Garami film study: Brutal toe hold from single leg X, taught by Jeff Messina.",
+      "name": "How to do a brutal toe hold from single leg x! \ud83d\udc80",
+      "description": "Toe Hold from Ashi Garami film study: How to do a brutal toe hold from single leg x! \ud83d\udc80.",
       "thumbnailUrl": "https://i.ytimg.com/vi/o-xpj81VZzE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/o-xpj81VZzE",
       "url": "https://www.youtube.com/watch?v=o-xpj81VZzE",
-      "creator": { "@type": "Person", "name": "Jeff Messina" },
       "duration": "PT93S"
     }
   ]
@@ -137,17 +134,17 @@ Competition-level application demands patience and precise timing. The toe hold 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+![](https://www.youtube.com/watch?v=tUKGafnOlJo)
 
-<p class="clip-credit"><strong>Crossover Toe Hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Slide into Ashi to Straight Toe Hold</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=tUKGafnOlJo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=tUKGafnOlJo)
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
 
-<p class="clip-credit"><strong>Slide into Ashi to Straight Toe Hold</strong> — taught by Josh Leduc · 0:58 · <a href="https://www.youtube.com/watch?v=tUKGafnOlJo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +152,7 @@ Competition-level application demands patience and precise timing. The toe hold 
 
 ![](https://www.youtube.com/watch?v=o-xpj81VZzE)
 
-<p class="clip-credit"><strong>Brutal toe hold from single leg X</strong> — taught by Jeff Messina · 1:33 · <a href="https://www.youtube.com/watch?v=o-xpj81VZzE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to do a brutal toe hold from single leg x! 💀</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=o-xpj81VZzE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

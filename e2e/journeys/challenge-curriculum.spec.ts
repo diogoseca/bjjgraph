@@ -176,12 +176,19 @@ test.describe("Challenge curriculum @curated", () => {
       await expect(page.locator(`[data-mini-deck="${pick.key}"]`)).toBeVisible();
       previous = selected.index;
     }
-    await page.goBack();
-    await j.advance(1500);
-    expect(await page.evaluate(() => {
+    // #108: Back re-creates the app in place. Measured locally: +10 ms no window.__neural, +20 ms a
+    // new instance with focusIdx -1, +40 ms the first pick focused. A one-shot read after a fixed
+    // sim advance landed inside that window on a slow deploy runner (run 40717372089: nodes[-1].id,
+    // a TypeError). So wait on the state Back settles in. The premise keeps the claim non-vacuous:
+    // the second pick holds the selection until Back moves it.
+    const focusedId = () => page.evaluate(() => {
       const a = (window as any).__neural;
-      return a.nodes[a.focusIdx].id;
-    })).toBe(picks[0].id);
+      return a?.nodes?.[a.focusIdx]?.id ?? null;
+    });
+    expect(await focusedId(), "premise: the second pick holds the selection before Back").toBe(picks[1].id);
+    await page.goBack();
+    await expect(page).toHaveURL(new RegExp("/" + picks[0].id + "(?:\\?|$)"));
+    await expect.poll(focusedId, { message: "Back returns the selection to the first pick" }).toBe(picks[0].id);
   });
 
   test("finishing a lesson records Challenge evidence without locking other lessons", async ({

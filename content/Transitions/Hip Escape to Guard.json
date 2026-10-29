@@ -415,26 +415,7 @@
       }
     ],
     "safety_considerations": "The Hip Escape to Guard is a relatively low-risk defensive technique, but certain precautions apply. The primary danger comes from abandoning neck defense prematurely, which can result in being choked unconscious. Always maintain free hand on neck until guard is fully established. During drilling, partners should apply controlled pressure rather than cranking submissions when the defender makes defensive errors. Avoid explosive bridging movements that could cause neck strain if improperly executed. When training at higher resistance levels, establish clear tap protocols since the Gift Wrap position can transition to chokes quickly. Practitioners with shoulder injuries should be cautious as the trapped arm position places stress on the shoulder joint, particularly if resistance is applied incorrectly.",
-    "clips": [
-      {
-        "id": "mUhDnsgjCtc",
-        "title": "Replace the guard from mount escape",
-        "by": "roninbjjmma",
-        "vertical": false,
-        "channel": "roninbjjmma",
-        "duration": 74,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3AMEkhiCU1A",
-        "title": "Modified mount escape to guard recovery",
-        "by": "Pathfinder Jiu-Jitsu Team",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 20,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Hip Escape to Guard Defender",
@@ -617,25 +598,6 @@
         "description": "Full resistance positional rounds starting from Gift Wrap. Top player works to submit or advance; bottom player works to escape to guard. Develop ability to retain position against skilled escape artists who chain multiple escape variants."
       }
     ],
-    "clips": [
-      {
-        "id": "_JPZaIcr90c",
-        "title": "Escaping side control against a bigger opponent",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 69,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "B3L865Q8P1U",
-        "title": "Mount escape: the knee elbow hip escape",
-        "by": "Unknown coach",
-        "vertical": false,
-        "channel": "Fox Den Martial Arts",
-        "duration": 82,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

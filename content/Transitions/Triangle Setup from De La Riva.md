@@ -46,24 +46,12 @@ description: "Master the Triangle Setup from De La Riva Guard in BJJ. Complete g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle from De La Riva guard",
-      "description": "Triangle Setup from De La Riva film study: Triangle from De La Riva guard, taught by Nartay Kazhekov.",
+      "name": "=Triangle from De La Riva Guard=",
+      "description": "Triangle Setup from De La Riva film study: =Triangle from De La Riva Guard=.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UOFZwIbz9zM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UOFZwIbz9zM",
       "url": "https://www.youtube.com/watch?v=UOFZwIbz9zM",
-      "creator": { "@type": "Person", "name": "Nartay Kazhekov" },
       "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rafael Mendes triangle choke setup",
-      "description": "Triangle Setup from De La Riva film study: Rafael Mendes triangle choke setup, taught by Rafael Mendes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DnEJZf_t8PU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DnEJZf_t8PU",
-      "url": "https://www.youtube.com/watch?v=DnEJZf_t8PU",
-      "creator": { "@type": "Person", "name": "Rafael Mendes" },
-      "duration": "PT62S"
     }
   ]
 }
@@ -119,15 +107,7 @@ The strategic value of the triangle threat from DLR extends beyond the submissio
 
 ![](https://www.youtube.com/watch?v=UOFZwIbz9zM)
 
-<p class="clip-credit"><strong>Triangle from De La Riva guard</strong> — taught by Nartay Kazhekov · 0:25 · <a href="https://www.youtube.com/watch?v=UOFZwIbz9zM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DnEJZf_t8PU)
-
-<p class="clip-credit"><strong>Rafael Mendes triangle choke setup</strong> — taught by Rafael Mendes · 1:02 · <a href="https://www.youtube.com/watch?v=DnEJZf_t8PU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>=Triangle from De La Riva Guard=</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=UOFZwIbz9zM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -312,7 +292,7 @@ The Triangle Setup from De La Riva integrates into the broader DLR attack system
 
 - [[Submissions/Triangle Choke]] - Primary submission follow-up from the triangle control position this setup creates
 
-- [[Transitions/Kiss of the Dragon]] - Related inversion-based back take from the DLR guard family sharing similar angular mechanics
+- [[Transitions/Kiss of the Dragon from RDLR]] - Related inversion-based back take from the DLR guard family sharing similar angular mechanics
 
 - [[Transitions/De La Riva Sweep]] - Primary DLR sweep that chains with the triangle threat, creating the dilemma structure where sweep defense opens triangle entries
 

@@ -461,21 +461,11 @@
     "clips": [
       {
         "id": "3lVaIp79rIo",
-        "title": "Kimura Roll to Americana",
-        "by": "The Art of Fighting",
-        "vertical": false,
+        "title": "Single leg defensive kimura roll to Americana",
         "channel": "The Art of Fighting",
         "duration": 79,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "D9eBGVemI7A",
-        "title": "Americana Trap",
-        "by": "Thomas Lisboa",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 243,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -656,34 +646,6 @@
         "description": "Full resistance positional sparring starting from Kimura Trap Top vs Bottom. Defender must survive both Kimura and Americana threats while working to escape or recover guard. 3-minute rounds with role switching. Track which submission catches you and adjust defensive priorities accordingly."
       }
     ],
-    "clips": [
-      {
-        "id": "9CJx9mZimwQ",
-        "title": "Kimura Trap Counter",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Marcelo Garcia Jiu-Jitsu",
-        "duration": 300,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5EEDT4A_Kbk",
-        "title": "Easy kimura trap escapes",
-        "by": "Jeff Glover",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 398,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ZmxCd-zmc_w",
-        "title": "How to escape the kimura trap",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 132,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

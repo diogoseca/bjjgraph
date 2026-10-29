@@ -165,35 +165,12 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelotine guillotine from front headlock",
-      "description": "Front Headlock (Top) film study: Marcelotine guillotine from front headlock, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HPAWgC8qxFY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HPAWgC8qxFY",
-      "url": "https://www.youtube.com/watch?v=HPAWgC8qxFY",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Front headlock snap down to spin behind",
-      "description": "Front Headlock (Top) film study: Front headlock snap down to spin behind, taught by Procel BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9QCJFDsDQmk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9QCJFDsDQmk",
-      "url": "https://www.youtube.com/watch?v=9QCJFDsDQmk",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
-      "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Front headlock to the back",
-      "description": "Front Headlock (Top) film study: Front headlock to the back, taught by Coach Casey.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/87l6l0dmPWM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/87l6l0dmPWM",
-      "url": "https://www.youtube.com/watch?v=87l6l0dmPWM",
-      "creator": { "@type": "Person", "name": "Coach Casey" },
-      "duration": "PT52S"
+      "name": "Front Headlock Series: Essential Snapdown Setups \u0026 Hand Fighting",
+      "description": "Front Headlock (Top) film study: Front Headlock Series: Essential Snapdown Setups \u0026 Hand Fighting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R-D4swX69mE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R-D4swX69mE",
+      "url": "https://www.youtube.com/watch?v=R-D4swX69mE",
+      "duration": "PT189S"
     }
   ]
 }
@@ -229,25 +206,9 @@ Mastering front headlock top requires understanding both the technical details o
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=HPAWgC8qxFY)
+![](https://www.youtube.com/watch?v=R-D4swX69mE)
 
-<p class="clip-credit"><strong>Marcelotine guillotine from front headlock</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=HPAWgC8qxFY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9QCJFDsDQmk)
-
-<p class="clip-credit"><strong>Front headlock snap down to spin behind</strong> — taught by Procel BJJ · 1:06 · <a href="https://www.youtube.com/watch?v=9QCJFDsDQmk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=87l6l0dmPWM)
-
-<p class="clip-credit"><strong>Front headlock to the back</strong> — taught by Coach Casey · 0:52 · <a href="https://www.youtube.com/watch?v=87l6l0dmPWM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front Headlock Series: Essential Snapdown Setups &amp; Hand Fighting</strong> · 3:09 · <a href="https://www.youtube.com/watch?v=R-D4swX69mE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -465,8 +426,8 @@ Establish front headlock, partner attempts to circle away to escape. You practic
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Front Headlock.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Power Ride: Craig Jones’s Pinning System</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position: Front Headlock.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Triangle and Leg-Lock Combinations</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

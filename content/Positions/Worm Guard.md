@@ -46,35 +46,23 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Worm Guard breakdown",
-      "description": "Worm Guard film study: Worm Guard breakdown, taught by Erich Munis.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QzwnLW735U8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QzwnLW735U8",
-      "url": "https://www.youtube.com/watch?v=QzwnLW735U8",
-      "creator": { "@type": "Person", "name": "Erich Munis" },
-      "duration": "PT53S"
+      "name": "Passing Worm Guard Tarikoplata",
+      "description": "Worm Guard film study: Passing Worm Guard Tarikoplata, taught by luciana MARCOS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LrcdkHwbHK8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LrcdkHwbHK8",
+      "url": "https://www.youtube.com/watch?v=LrcdkHwbHK8",
+      "creator": { "@type": "Person", "name": "luciana MARCOS" },
+      "duration": "PT66S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Worm Guard to back choke",
-      "description": "Worm Guard film study: Worm Guard to back choke, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
-      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lapel guard overview",
-      "description": "Worm Guard film study: Lapel guard overview, taught by bjjhighlights.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OO2IqO3M8f8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OO2IqO3M8f8",
-      "url": "https://www.youtube.com/watch?v=OO2IqO3M8f8",
-      "creator": { "@type": "Person", "name": "bjjhighlights" },
-      "duration": "PT52S"
+      "name": "Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM",
+      "description": "Worm Guard film study: Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rE7YuZTNmyE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rE7YuZTNmyE",
+      "url": "https://www.youtube.com/watch?v=rE7YuZTNmyE",
+      "duration": "PT1917S"
     }
   ]
 }
@@ -125,25 +113,17 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QzwnLW735U8)
+![](https://www.youtube.com/watch?v=LrcdkHwbHK8)
 
-<p class="clip-credit"><strong>Worm Guard breakdown</strong> — taught by Erich Munis · 0:53 · <a href="https://www.youtube.com/watch?v=QzwnLW735U8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ARmiJRANTpg)
-
-<p class="clip-credit"><strong>Worm Guard to back choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Worm Guard Tarikoplata</strong> — taught by luciana MARCOS · 1:06 · <a href="https://www.youtube.com/watch?v=LrcdkHwbHK8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=OO2IqO3M8f8)
+![](https://www.youtube.com/watch?v=rE7YuZTNmyE)
 
-<p class="clip-credit"><strong>Lapel guard overview</strong> — taught by bjjhighlights · 0:52 · <a href="https://www.youtube.com/watch?v=OO2IqO3M8f8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM</strong> · 31:57 · <a href="https://www.youtube.com/watch?v=rE7YuZTNmyE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -377,7 +357,7 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Worm Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Worm Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

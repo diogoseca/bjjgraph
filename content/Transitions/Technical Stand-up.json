@@ -42,7 +42,7 @@
     "gi": 85,
     "nogi": 85
   },
-  "overview": "In modern guard-based grappling, the ability to return to the feet on your own terms is what keeps the bottom player from being trapped under sustained passing pressure — and the technical stand-up is the primary tool for that reset. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition.\n\nThe technique is particularly valuable in self-defense scenarios, scrambles, and situations where re-establishing guard is not immediately possible. The tripod base structure — posting hand, lead foot, and trail foot — creates a mechanically sound platform that distributes force across three contact points, giving you stability even under forward pressure. The lead leg barrier principle is borrowed from wrestling, where the knee-up position simultaneously blocks opponent advancement and provides a launching platform for the hip elevation phase.\n\nMastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.",
+  "overview": "In modern guard-based grappling, the ability to return to the feet on your own terms is what keeps the bottom player from being trapped under sustained passing pressure — and the technical stand-up is the primary tool for that reset. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition.\n\nThe technique is particularly valuable in self-defense scenarios, scrambles, and situations where re-establishing guard is not immediately possible. The tripod base structure — posting hand, lead foot, and trail foot — creates a mechanically sound platform that distributes force across three contact points, giving you stability even under forward pressure. The lead leg barrier principle is borrowed from wrestling, where the knee-up position simultaneously blocks opponent advancement and provides a launching platform for the hip elevation phase.\n\nMastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.\n\nInversion disengagement: Release the inverted hooks, uncurl through the hips into a seated base, and post a hand and the opposite foot. Lift the hips, withdraw the free leg, and stand while maintaining distance. The completed finish is Standing Position/Top; a failed uncurling stays in Inverted Guard/Bottom.",
   "related_content": [
     {
       "name": "Scramble to Guard",
@@ -92,7 +92,7 @@
   "attacker": {
     "name": "Technical Stand-up Attacker",
     "description": "How to execute Technical Stand-up in BJJ. Attacking perspective with setup, execution steps, and counters.",
-    "overview": "The Technical Stand-up is a fundamental defensive movement in Brazilian Jiu-Jitsu that allows a practitioner to safely transition from a seated or grounded position to standing. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition.\n\nThe technique is particularly valuable in self-defense scenarios, scrambles, and situations where re-establishing guard is not immediately possible. The tripod base structure — posting hand, lead foot, and trail foot — creates a mechanically sound platform that distributes force across three contact points, giving you stability even under forward pressure. The lead leg barrier principle is borrowed from wrestling, where the knee-up position simultaneously blocks opponent advancement and provides a launching platform for the hip elevation phase.\n\nMastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.",
+    "overview": "The Technical Stand-up is a fundamental defensive movement in Brazilian Jiu-Jitsu that allows a practitioner to safely transition from a seated or grounded position to standing. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition.\n\nThe technique is particularly valuable in self-defense scenarios, scrambles, and situations where re-establishing guard is not immediately possible. The tripod base structure — posting hand, lead foot, and trail foot — creates a mechanically sound platform that distributes force across three contact points, giving you stability even under forward pressure. The lead leg barrier principle is borrowed from wrestling, where the knee-up position simultaneously blocks opponent advancement and provides a launching platform for the hip elevation phase.\n\nMastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.\n\nRelease the inverted hooks, uncurl through the hips into a seated base, and post a hand and the opposite foot. Lift the hips, withdraw the free leg, and stand while maintaining distance. The completed finish is Standing Position/Top; a failed uncurling stays in Inverted Guard/Bottom.",
     "key_principles": [
       "Maintain stable base with posting hand and grounded leg forming tripod structure",
       "Keep eyes on opponent throughout entire movement to track threats and time the stand-up",
@@ -119,7 +119,7 @@
       {
         "step_number": 2,
         "action": "Post hand behind hip",
-        "description": "Place your posting hand (same side as trail leg) flat on the mat approximately 12-18 inches behind and slightly to the side of your hip. Fingers should point away from your body at roughly 45 degrees. This hand becomes one point of your tripod base. Keep elbow locked and shoulder engaged to support your weight."
+        "description": "Post one hand behind the hip and the opposite foot on the mat. Keep the supporting shoulder active and the elbow supported without forcing it into hyperextension. Retain the other leg as a barrier until you can withdraw it to stand."
       },
       {
         "step_number": 3,
@@ -405,31 +405,12 @@
     "safety_considerations": "The technical stand-up is a relatively safe movement with low injury risk when executed properly. Primary safety concerns include posting hand placement to avoid wrist injury — ensure the wrist is not bent at extreme angles and the hand is placed on firm, flat surface rather than uneven mats. Avoid posting with fingers pointed toward your body as this can hyperextend the wrist under load. For practitioners with shoulder issues, the posting position may cause discomfort; modify by using the forearm to post instead of the flat hand. During hip elevation, be aware of your surroundings to avoid kicking training partners or equipment with the swinging leg. When training with resistance, do not persist with the technique if your base is compromised as this can result in awkward falls. In self-defense contexts, be aware that the posting hand is temporarily weight-bearing and cannot defend strikes, so timing and distance management are critical. Practitioners with knee injuries should be cautious with the lead leg position and ensure the knee is not placed at uncomfortable angles during the barrier phase.",
     "clips": [
       {
-        "id": "LXTH9mOWCww",
-        "title": "Technical stand up from half guard bottom",
-        "by": "Steve Haydock",
-        "vertical": false,
-        "channel": "Steve Haydock Jiu Jitsu Academy",
-        "duration": 162,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "quMmk9Xs2HE",
-        "title": "The four types of technical stand-up and when to use them",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 444,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "mr9HJep7zA0",
-        "title": "How to do the technical stand up",
-        "by": "Bam Bam Martial Arts",
-        "vertical": false,
+        "title": "How To Do The Technical Stand Up In Jiu Jitsu",
         "channel": "Bam Bam Martial Arts Houston",
         "duration": 145,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -564,7 +545,7 @@
       },
       {
         "question": "How do you tell a committed technical stand-up from a feint set up to bait a sweep?",
-        "answer": "A genuine stand-up shows full commitment: posting hand firmly planted with locked elbow, hip elevation beginning immediately after posting, and trail leg actively preparing to swing. A feint typically shows posting hand placement without weight commitment, partial hip elevation that stalls, and the opponent's eyes tracking your reaction rather than focused on completing the movement. The key tell is weight transfer — in a real stand-up, the opponent shifts significant weight onto the posting hand and lead foot, which you can feel through your grips. In a feint, weight stays centered on the hips. If you rush forward against a feint, you overcommit and walk into the sweep they actually intended.",
+        "answer": "A genuine stand-up shows full commitment: posting hand firmly planted with a supported elbow and active shoulder, hip elevation beginning immediately after posting, and trail leg actively preparing to swing. A feint typically shows posting hand placement without weight commitment, partial hip elevation that stalls, and the opponent's eyes tracking your reaction rather than focused on completing the movement. The key tell is weight transfer — in a real stand-up, the opponent shifts significant weight onto the posting hand and lead foot, which you can feel through your grips. In a feint, weight stays centered on the hips. If you rush forward against a feint, you overcommit and walk into the sweep they actually intended.",
         "answer_line": "Feel real weight transfer",
         "distractors": {
           "plausible": [
@@ -613,26 +594,7 @@
         "description": "Positional sparring starting from seated guard top position. Partner's primary goal is completing the technical stand-up. Your goal is preventing the stand-up and advancing to a passing position. Full resistance with the constraint that partner must attempt at least one technical stand-up per round. Develop the awareness to integrate stand-up prevention into your overall passing strategy without it consuming all your attention."
       }
     ],
-    "clips": [
-      {
-        "id": "G1PKGe_q9P0",
-        "title": "Countering the sit-up guard as the standing player",
-        "by": "Avant-Garde BJJ coach",
-        "vertical": false,
-        "channel": "Avant-Garde BJJ",
-        "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "q4e8HHp7avk",
-        "title": "Stopping the stand-up and re-guard",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 147,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {
@@ -654,6 +616,11 @@
       "variant_name": "Single Leg Integration Stand-up",
       "description": "Technical stand-up initiated while controlling opponent's leg in Single Leg X-Guard or other leg entanglement. Use the controlled leg as reference point while executing standard technical stand-up mechanics. Creates opportunity for Single Leg Takedown or forces opponent to disengage their passing attempt. Requires coordination of leg control while standing.",
       "when_to_use": "When transitioning from leg entanglement positions and wanting to stand while maintaining offensive connection to opponent"
+    },
+    {
+      "variant_name": "Inversion disengagement",
+      "description": "Release the inverted hooks, uncurl through the hips into a seated base, and post a hand and the opposite foot. Lift the hips, withdraw the free leg, and stand while maintaining distance. The completed finish is Standing Position/Top; a failed uncurling stays in Inverted Guard/Bottom.",
+      "when_to_use": "Against the shoulder-supported inversion described in Inverted Guard."
     }
   ],
   "conditions": [

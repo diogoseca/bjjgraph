@@ -369,21 +369,18 @@
     "clips": [
       {
         "id": "HLWwfq8FNMI",
-        "title": "Triangle escape: hips down, posture up",
-        "by": "Mat Life Training Center",
-        "vertical": false,
+        "title": "Triangle Choke Escape #3 Hips Down, Posture Up",
         "channel": "Mat Life Training Center",
-        "duration": 19,
-        "verified": "2026-07-15"
+        "duration": 18,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "dJOw0ZEyXXc",
-        "title": "Posture up escape from the triangle choke",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Triangle choke from Guard \"Posture Up Escape",
         "channel": "Cosens MMA LLC",
         "duration": 73,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -551,21 +548,18 @@
     "clips": [
       {
         "id": "wuu5WWcNfY0",
-        "title": "What to do when they posture up in your triangle",
-        "by": "Simple JiuJitsu",
-        "vertical": false,
+        "title": "What to do when someone posture up in a Triangle for GI Jiu Jitsu... 🤔🤔",
         "channel": "Simple JiuJitsu",
         "duration": 88,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "M3_VDLm6PoE",
-        "title": "Finishing a triangle against good posture",
-        "by": "Inverted Gear",
-        "vertical": false,
+        "title": "How To Finish a Triangle When Someone Has Good Posture",
         "channel": "Inverted Gear",
         "duration": 142,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

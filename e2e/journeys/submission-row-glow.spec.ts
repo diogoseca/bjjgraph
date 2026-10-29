@@ -18,7 +18,7 @@ import { journey } from "../dsl"
  *    beacon's keyframes through, so under it the green band stood out more. Measured on the owner
  *    screen with Dark Reader's own engine (darkreader 4.9.133), outside this suite.
  *
- * THE ESCAPES' "Odds" (the owner's second suspicion: all four read 40%). Not a code constant: an
+ * THE ESCAPES' "Odds" (the owner's second suspicion: all four read 40%, the pre-N4 rate). Not a code constant: an
  * opponent escape card prints `1 - the submission's authored rate`, because no defensive option
  * carries a rate of its own (0 of 290 submissions' options do). Four escapes of one submission are
  * therefore equal by construction; another submission prints its own complement. Pinned below with
@@ -103,10 +103,10 @@ test("an opponent escape's Odds is its submission's own complement, not a consta
     await attack(page, url)
     const r = await read()
     expect(r.odds.length, url + ": the opponent's escapes are dealt as threats").toBeGreaterThanOrEqual(2)
-    for (const o of r.odds) expect(o, url).toEqual({ label: "Odds", odds: `${100 - r.rate}%` })
+    for (const o of r.odds) expect(o, url).toEqual({ label: "Escape", odds: `${100 - r.rate}` })
     seen[url] = 100 - r.rate
   }
   // two authored rates, two printed numbers: a constant would print one
-  expect(seen[URL_SULOEV], "Suloev Stretch from Half Guard is authored at 60%").toBe(40)
+  expect(seen[URL_SULOEV], "Suloev Stretch from Half Guard (shown as from Rear Tripod) is authored at 35% (plan:122)").toBe(65)
   expect(seen[URL_TRIANGLE], "and the triangle at its own rate: " + JSON.stringify(seen)).not.toBe(seen[URL_SULOEV])
 })

@@ -46,23 +46,21 @@ description: "Master the Darce choke from leg drag control in BJJ. Complete guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double stack pass to a Darce choke",
-      "description": "Darce Choke from Leg Drag film study: Double stack pass to a Darce choke, taught by All Day MMA and Jiu Jitsu.",
+      "name": "Double stack pass to a darce choke #bjj #brazilianjiujitsu #blackwatergrappling",
+      "description": "Darce Choke from Leg Drag film study: Double stack pass to a darce choke #bjj #brazilianjiujitsu #blackwatergrappling.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eEDKC2F3U2k/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eEDKC2F3U2k",
       "url": "https://www.youtube.com/watch?v=eEDKC2F3U2k",
-      "creator": { "@type": "Person", "name": "All Day MMA and Jiu Jitsu" },
       "duration": "PT85S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Darce choke to guard pass",
-      "description": "Darce Choke from Leg Drag film study: Darce choke to guard pass, taught by Josh Presley.",
+      "name": "Darce Choke to Guard Pass Technique - Presley BJJ",
+      "description": "Darce Choke from Leg Drag film study: Darce Choke to Guard Pass Technique - Presley BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Rosmg5rjo_s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Rosmg5rjo_s",
       "url": "https://www.youtube.com/watch?v=Rosmg5rjo_s",
-      "creator": { "@type": "Person", "name": "Josh Presley" },
       "duration": "PT121S"
     }
   ]
@@ -128,7 +126,7 @@ This submission represents a high-percentage finishing option within the leg dra
 
 ![](https://www.youtube.com/watch?v=eEDKC2F3U2k)
 
-<p class="clip-credit"><strong>Double stack pass to a Darce choke</strong> — taught by All Day MMA and Jiu Jitsu · 1:25 · <a href="https://www.youtube.com/watch?v=eEDKC2F3U2k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double stack pass to a darce choke #bjj #brazilianjiujitsu #blackwatergrappling</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=eEDKC2F3U2k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,7 +134,7 @@ This submission represents a high-percentage finishing option within the leg dra
 
 ![](https://www.youtube.com/watch?v=Rosmg5rjo_s)
 
-<p class="clip-credit"><strong>Darce choke to guard pass</strong> — taught by Josh Presley · 2:01 · <a href="https://www.youtube.com/watch?v=Rosmg5rjo_s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce Choke to Guard Pass Technique - Presley BJJ</strong> · 2:01 · <a href="https://www.youtube.com/watch?v=Rosmg5rjo_s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

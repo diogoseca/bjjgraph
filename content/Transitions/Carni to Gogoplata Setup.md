@@ -4,7 +4,7 @@
 
 ---
 title: "Carni to Gogoplata Setup | BJJ Technique | BJJ Graph"
-description: "Master the Carni to Gogoplata Setup transition in BJJ. Chain from leg entanglement to shin-across-throat control by exploiting opponent's stack defense."
+description: "A Carni-to-Gogoplata setup changes a shoulder-lock configuration into a shin-under-chin choke setup, requiring a new leg angle and safe release of the captured arm."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Carni to Gogoplata Setup transition in BJJ. Chain from 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Carni to Gogoplata Setup",
-  "description": "Master the Carni to Gogoplata Setup transition in BJJ. Chain from leg entanglement to shin-across-throat control by exploiting opponent\u0027s stack defense.",
+  "description": "A Carni-to-Gogoplata setup changes a shoulder-lock configuration into a shin-under-chin choke setup, requiring a new leg angle and safe release of the captured arm.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the Carni to Gogoplata Setup transition in BJJ. Chain from 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Carni to Gogoplata Setup",
-  "description": "The Carni to Gogoplata Setup is a no-gi transition where the bottom player releases their top leg from the Carni entanglement and threads the shin across the opponent's throat to establish gogoplata control, exploiting forward stack pressure.",
+  "description": "A Carni-to-Gogoplata setup changes a shoulder-lock configuration into a shin-under-chin choke setup, requiring a new leg angle and safe release of the captured arm.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,17 @@ description: "Master the Carni to Gogoplata Setup transition in BJJ. Chain from 
 
 <section id="overview" class="content-section">
 
-**The Carni to Gogoplata Setup is a no-gi transition where the bottom player releases their top leg from the Carni entanglement and threads the shin across the opponent's throat to establish gogoplata control, exploiting forward stack pressure.**
+**A Carni-to-Gogoplata setup changes a shoulder-lock configuration into a shin-under-chin choke setup, requiring a new leg angle and safe release of the captured arm.**
 
-The Carni to Gogoplata Setup represents one of modern grappling's most creative and unorthodox transitions, bridging the gap between leg lock systems and upper body submission attacks. This technique exploits a fundamental vulnerability in common leg entanglement defense: when opponents drive forward aggressively to stack and neutralize the Carni position, they inadvertently bring their neck within range of the bottom player's legs. By recognizing this forward pressure as an opportunity rather than a threat, the attacker releases one leg from the entanglement and threads it across the opponent's throat, establishing the foundation for gogoplata control.
+The bottom player has a Carni shoulder connection and must reorganize the high leg while keeping posture close. The shin must actually pass under the chin. Carni shoulder pressure alone is not a Gogoplata, and a blocked chin is a reason to reset rather than grind the face.
 
-The transition demands exceptional hip flexibility and precise timing. The attacker must maintain enough Carni control with one leg to prevent the opponent from simply backing away while simultaneously threading the free leg to the neck. This dual requirement makes the technique heavily dependent on physical attributes, particularly hamstring flexibility and hip external rotation capability that allows sustained leg-behind-head positioning. Practitioners without this flexibility should develop it through dedicated mobility work before attempting the transition in live training.
+Remove wrist and triceps finishing pressure before changing the leg angle. Keep a comfortable knee hug and hip connection as the opponent's arm is released. Use a forearm frame and hip turn to make room for the high leg.
 
-Strategically, this transition adds an unexpected dimension to Carni attacks that opponents rarely anticipate. Most defenders focus exclusively on protecting their heel and preventing saddle or back transitions, creating a blind spot for upper body attacks. When the Carni to Gogoplata Setup is part of your arsenal, opponents must defend not only the leg lock chain but also the possibility of upper body submissions, dramatically expanding the dilemma created by the Carni position and making the entire Carni system significantly more dangerous.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](https://www.youtube.com/watch?v=iClQ2Np-n30); [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs).
+
+The new shin-under-chin enclosure prepares the Gogoplata's throat compression. In this setup drill, stop at placement and release before adding choke pressure.
 
 **From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 **Success Rate**: 40%
@@ -162,7 +166,7 @@ Strategically, this transition adds an unexpected dimension to Carni attacks tha
 |--------|----------|-------------|
 | Success | [[Positions/Gogoplata Control]] | 40% |
 | Failure | [[Positions/Rubber Guard/Carni]] | 40% |
-| Counter | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -174,8 +178,8 @@ Strategically, this transition adds an unexpected dimension to Carni attacks tha
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Recognize opponent's forward stack pressure as the primary t... | Recognize the top leg release from your hip as the primary c... |
-| **Options** | 8 execution steps | 4 defensive options |
+| **Key Principles** | Ease the shoulder lock: Remove wrist and triceps finishing p... | Protect the chin line early: Use an inside forearm frame bef... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -188,53 +192,49 @@ Strategically, this transition adds an unexpected dimension to Carni attacks tha
 ### Key Principles
 
 
-- Recognize opponent's forward stack pressure as the primary trigger that creates the transition opportunity
+- Ease the shoulder lock: Remove wrist and triceps finishing pressure before changing the leg angle.
 
-- Maintain bottom leg entanglement as an anchor throughout the transition to prevent opponent disengagement
+- Retain posture control: Keep a comfortable knee hug and hip connection as the opponent's arm is released.
 
-- Thread the shin with hip rotation and flexibility rather than muscling the leg into position
+- Rebuild the neck-cleared angle: Use a forearm frame and hip turn to make room for the high leg.
 
-- Secure the foot behind the opponent's head immediately after shin contact to create a closed-loop system
+- Move the foot under the chin: Use the available path without hauling the foot against a fixed knee.
 
-- Elevate hips to establish perpendicular shin angle across the trachea for maximum compression
+- Confirm shin placement: Stop at a controlled shin-under-chin enclosure; do not substitute jaw pressure.
 
-- Shift grip priorities sequentially from heel control to head control to foot-behind-head management
+- Reset when blocked: Return to guard if the opponent recovers posture or the shin cannot enter comfortably.
 
 
 ### Execution Steps
 
 
-- **Establish Carni Control**: Secure inside leg positioning with your top leg hooking over the opponent's hip while both hands con...
+- **Ease the shoulder lock**: Remove wrist and triceps finishing pressure before changing the leg angle....
 
-- **Read Forward Pressure Trigger**: Monitor your opponent's defensive response to the Carni position. The transition becomes viable when...
+- **Retain posture control**: Keep a comfortable knee hug and hip connection as the opponent's arm is released....
 
-- **Release Top Leg from Hip Hook**: Unhook your top leg from over the opponent's hip while maintaining bottom leg engagement with their ...
+- **Rebuild the neck-cleared angle**: Use a forearm frame and hip turn to make room for the high leg....
 
-- **Thread Shin Across Throat**: Use hip rotation and flexibility to drive the freed shin across the opponent's throat, positioning t...
+- **Move the foot under the chin**: Use the available path without hauling the foot against a fixed knee....
 
-- **Secure Foot Behind Head**: Immediately use both hands to pull your own foot behind the opponent's head, creating the closed-loo...
+- **Confirm shin placement**: Stop at a controlled shin-under-chin enclosure; do not substitute jaw pressure....
 
-- **Transition Bottom Leg Control**: Release your bottom leg from the remaining Carni entanglement and reposition it against the opponent...
-
-- **Elevate Hips for Compression Angle**: Drive your pelvis upward using core engagement and posting on your upper back, creating the angle ne...
-
-- **Consolidate Gogoplata Control**: Adjust final hand positioning so one hand maintains your foot securely behind the opponent's head wh...
+- **Reset when blocked**: Return to guard if the opponent recovers posture or the shin cannot enter comfortably....
 
 
 ### Common Mistakes
 
 
-- **Attempting the transition without sufficient hip flexibility for leg-behind-head positioning**
-  - Consequence: Cannot get foot behind opponent's head creating an open system that is easily escaped, and risk self-injury to hip labrum or hamstring from forcing range of motion
-  - Correction: Develop flexibility through dedicated stretching targeting hip external rotation and hamstrings before attempting in live training; use Mission Control as a flexibility benchmark
+- **Skipping the checkpoint: ease the shoulder lock**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Remove wrist and triceps finishing pressure before changing the leg angle.
+  - Correction: Remove wrist and triceps finishing pressure before changing the leg angle.
 
-- **Releasing both legs from Carni entanglement simultaneously before establishing shin contact**
-  - Consequence: Complete loss of positional control allowing opponent to posture freely, disengage entirely, or pass guard during the uncontrolled transition window
-  - Correction: Always maintain bottom leg engagement with opponent's lower body throughout the transition; release only the top leg while bottom leg anchors the opponent in place
+- **Skipping the checkpoint: retain posture control**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep a comfortable knee hug and hip connection as the opponent's arm is released.
+  - Correction: Keep a comfortable knee hug and hip connection as the opponent's arm is released.
 
-- **Attempting the transition when opponent is not driving forward with stack pressure**
-  - Consequence: Opponent's neck is too far from your legs to thread the shin effectively, resulting in a telegraphed and easily defended attempt that wastes energy and position
-  - Correction: Wait for genuine forward stack pressure before initiating; if opponent maintains distance, continue standard Carni attacks and let the gogoplata opportunity come naturally
+- **Skipping the checkpoint: rebuild the neck-cleared angle**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use a forearm frame and hip turn to make room for the high leg.
+  - Correction: Use a forearm frame and hip turn to make room for the high leg.
 
 
 </section>
@@ -248,39 +248,37 @@ Strategically, this transition adds an unexpected dimension to Carni attacks tha
 ### Key Principles
 
 
-- Recognize the top leg release from your hip as the primary cue for gogoplata transition, not standard Carni repositioning
+- Protect the chin line early: Use an inside forearm frame before the shin enters under the chin.
 
-- Maintain posture awareness during Carni defense rather than driving forward blindly with maximum stack pressure
+- Avoid a forced posture pull: Do not jerk the head upward while the high leg remains fixed.
 
-- React within one to two seconds of feeling the leg release to prevent shin from reaching your throat
+- Track the arm release: Recover the elbow as the shoulder lock opens, without yanking against remaining control.
 
-- Address the foot-behind-head configuration as the structural foundation rather than fighting the shin directly
+- Keep a safe base: Avoid driving the partner into a neck stack during the leg change.
 
-- Accept positional loss over submission risk when the gogoplata begins to lock in fully
+- Tap to an enclosed choke: Stop if the shin and head control already close the neck space.
 
-- Modulate forward pressure intensity when facing opponents with demonstrated flexibility and rubber guard skills
+- Recover after the leg clears: Rebuild upright posture once the head-side leg and arm connection have opened.
 
 
 ### Recognition Cues
 
 
-- Top leg suddenly releases from the inside hip hook position rather than transitioning deeper into the entanglement
+- The bottom player has a Carni shoulder connection and must reorganize the high leg while keeping posture close.
 
-- Opponent's freed leg moves upward toward your head and neck area rather than repositioning for saddle or back take
+- Keep a comfortable knee hug and hip connection as the opponent's arm is released.
 
-- Opponent's hand shifts from controlling your heel or ankle to reaching toward your head or their own foot
-
-- Sudden change in the opponent's hip angle and rotation as they redirect from lower body to upper body attack trajectory
+- Use the available path without hauling the foot against a fixed knee.
 
 
 ### Defensive Options
 
 
-- **Immediate posture recovery by extending arms and driving hips backward to create distance from threading leg** - When: In the first one to two seconds when you feel the inside leg release from your hip before shin contacts throat
+- **Use an inside forearm frame before the shin enters under the chin.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Tuck chin to chest and turn head away from the threading shin to prevent perpendicular throat contact** - When: When the shin is approaching your throat and full posture recovery is not achievable in time
+- **Do not jerk the head upward while the high leg remains fixed.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Hand fight the foot to prevent opponent from pulling it deep behind your head after shin contacts throat** - When: When shin is already across throat but foot has not yet been secured behind your head
+- **Recover the elbow as the shoulder lock opens, without yanking against remaining control.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -291,13 +289,10 @@ Strategically, this transition adds an unexpected dimension to Carni attacks tha
 ## Variations
 
 
-**Stack Response Gogoplata**: When the opponent commits to heavy forward pressure, use their stacking momentum to accelerate shin placement rather than fighting the weight. Let their drive carry their throat directly onto the threading shin, requiring minimal active leg movement. This variant requires less flexibility because the opponent does much of the work bringing their neck to your leg. (When to use: When opponent commits to aggressive forward stack defense with significant body weight driving toward you)
+**Cooperative checkpoint drill**: Remove wrist and triceps finishing pressure before changing the leg angle. Keep a comfortable knee hug and hip connection as the opponent's arm is released. (When to use: Learning the control without submission pressure)
 
 
-**Inversion Entry Gogoplata**: Instead of threading the leg straight upward to the throat, invert your body to bring the shin around and behind the opponent's head from a lateral angle. This requires greater hip mobility and spatial awareness but works when the direct upward path is blocked by the opponent's arm frames or head position. The inversion creates a different approach angle that bypasses standard defensive hand positions. (When to use: When opponent blocks the direct upward threading path with arm frames or tucks their chin to prevent frontal shin contact)
-
-
-**Gi Lapel-Assisted Setup**: In gi competition, grab your own lapel with the threading hand and pass the tail behind the opponent's head before threading the shin. The lapel acts as an anchor that holds the foot position behind the head, reducing the flexibility requirement and creating a more mechanically secure configuration. This allows practitioners with moderate flexibility to access the technique who might struggle with the pure no-gi version. (When to use: In gi training or competition when additional control aids can compensate for flexibility limitations)
+**Response and reset drill**: Use an inside forearm frame before the shin enters under the chin. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -309,7 +304,7 @@ Strategically, this transition adds an unexpected dimension to Carni attacks tha
 
 ## Position Integration
 
-The Carni to Gogoplata Setup connects two traditionally separate submission systems: the modern leg lock game and the rubber guard/gogoplata chain. By linking these systems, practitioners create a comprehensive attack framework where defending one threat opens an entirely different category of danger. This transition is particularly valuable in no-gi competition where both leg attacks and flexible guard systems thrive without gi-based gripping limitations. It also serves as a pressure valve when standard Carni attacks (heel hook, saddle entry, back take) are well-defended, providing an unexpected alternative that catches even experienced defenders off guard. The technique represents the evolution of BJJ toward integrated systems rather than isolated positional chains, rewarding practitioners who develop diverse physical attributes alongside technical knowledge.
+The bottom player has a Carni shoulder connection and must reorganize the high leg while keeping posture close. The shin must actually pass under the chin. Carni shoulder pressure alone is not a Gogoplata, and a blocked chin is a reason to reset rather than grind the face. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -319,25 +314,11 @@ The Carni to Gogoplata Setup connects two traditionally separate submission syst
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Carni]] - Source position - leg entanglement from which this transition begins
+- [[Positions/Rubber Guard/Carni]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Carni.
 
-- [[Positions/Gogoplata Control]] - Target position - shin-across-throat control established on successful transition
+- [[Positions/Gogoplata Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Gogoplata Control.
 
-- [[Positions/Open Guard]] - Counter outcome position - where attacker ends up if opponent escapes during transition
-
-- [[Positions/Rubber Guard]] - Related system - traditional pathway to gogoplata that shares flexibility requirements
-
-- [[Positions/Rubber Guard/Mission Control]] - Related control - rubber guard variation that parallels gogoplata setup mechanics
-
-- [[Transitions/Gogoplata]] - Follow-up submission - finishing technique executed from gogoplata control position
-
-- [[Positions/Ashi Garami/Saddle]] - Alternative advancement - primary transition target from Carni when gogoplata is unavailable
-
-- [[Positions/Ashi Garami]] - Parent system - foundational leg entanglement from which Carni and its transitions derive
-
-- [[Positions/Back Control]] - Alternative path - common transition from Carni when opponent rolls to escape leg attacks
-
-- [[Positions/Closed Guard]] - Foundational guard - base position connecting rubber guard entries and leg lock entry systems
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
 
 </section>

@@ -285,9 +285,9 @@ From top position, the primary goal is to neutralize the knee shield's effective
 - Control opponent's knee shield leg at ankle or pants to limit mobility and frame strength
 - Maintain proper base with knees wide to prevent hip bump and underhook sweeps
 - Use crossface and shoulder pressure to break bottom player's posture and upper body control
-- Apply strategic pressure in waves rather than constant grinding to create defensive reactions
+- Apply strategic pressure in waves rather than constant grinding to create defensive reactions. In the narrated example, the passer establishes head position and a tripod base before changing knee direction between a smash threat and a shin pummel. The defender resists the smash by opening the crossed feet, and the passer uses that opening to free the trapped foot with the shin pummel. Narration: [Less Impressed More Involved BJJ, 1:06–1:58.6](https://www.youtube.com/watch?v=AcxCqMwW_7o&t=66s).
 - Control distance to prevent bottom player from creating additional frames or re-guarding
-- Switch between passing approaches based on opponent's defensive adjustments
+- Switch between passing approaches based on opponent's defensive adjustments. In another narrated knee-shield example, the passer keeps the arm weave after freeing the trapped foot and circles away from the defender's head until the hips are flat. Only then does the passer let go of the weave and change to a leg-drag angle. Narration: [Less Impressed More Involved BJJ, 2:09–2:34.5](https://www.youtube.com/watch?v=AcxCqMwW_7o&t=129s).
 - Never allow opponent to establish strong underhook connection on near side
 
 

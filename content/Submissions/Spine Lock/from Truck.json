@@ -485,26 +485,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "sCBGkcJCQYY",
-        "title": "The Truck in Transition",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Y693ZHlCd2Q",
-        "title": "Two Entries Into the Truck",
-        "by": "Geo Martinez",
-        "vertical": false,
-        "channel": "FloGrappling",
-        "duration": 100,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Spine Lock Defender",
@@ -686,26 +667,7 @@
         "description": "Practice full defensive sequences: recognize compression, frame and displace, then chain into standard Truck escapes (leg extraction, granby roll, hip escape). Partner provides 20-30% resistance and varies between spine lock attempts and standard Truck attacks. Develop the decision tree for which escape path to pursue based on attacker's response to initial defensive frame."
       }
     ],
-    "clips": [
-      {
-        "id": "_0TeNLuarPU",
-        "title": "Hip Lock: Countering the Truck",
-        "by": "Christopher Hendrick",
-        "vertical": false,
-        "channel": "Christopher Hendrick",
-        "duration": 35,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "WEpVDP7MRpo",
-        "title": "Defending the Rolling Back Take (Truck Roll)",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 209,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

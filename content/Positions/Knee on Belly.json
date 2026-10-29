@@ -134,11 +134,6 @@
         "condition": "If opponent turns to side attempting to escape",
         "actions": [
           {
-            "technique": "Back Take from Top",
-            "target": "Back Control",
-            "probability": 50
-          },
-          {
             "technique": "S-Mount Transition",
             "target": "S Mount",
             "probability": 70
@@ -268,64 +263,57 @@
       {
         "transition": "KOB to Mount",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 22
+          "gi": 19,
+          "nogi": 24
         }
       },
       {
         "transition": "Far Side Armbar from KOB",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 16
+          "gi": 14,
+          "nogi": 18
         }
       },
       {
         "transition": "Baseball Bat Choke from Knee on Belly",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 11,
           "nogi": null
         }
       },
       {
         "transition": "Cross Collar Choke from Knee on Belly",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 10,
           "nogi": null
         }
       },
       {
         "transition": "KOB to Side Control",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 17
+          "gi": 16,
+          "nogi": 19
         }
       },
       {
         "transition": "Kimura from Knee on Belly",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 9
+          "nogi": 13
         }
       },
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Armbar from Knee on Belly",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 11
         }
       },
       {
@@ -452,31 +440,11 @@
     ],
     "clips": [
       {
-        "id": "pa6Z7mP9VKU",
-        "title": "Ryron Gracie's Favorite Knee-on-Belly Attack",
-        "by": "Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 52,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "XNhDD7N4JNY",
-        "title": "3 Knee-on-Belly Attacks for Beginners",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "Lucas Lepri Philippines",
-        "duration": 68,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "johFGyE29pY",
-        "title": "Knee on Belly to Brabo Choke",
-        "by": "Edward Anthony",
-        "vertical": false,
-        "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
-        "duration": 51,
-        "verified": "2026-07-14"
+        "id": "7vz2X2cGiOs",
+        "title": "Mauricio explains the knee on belly position",
+        "channel": "Mauricio Gomes BJJ",
+        "duration": 79,
+        "front": true
       }
     ]
   },
@@ -935,12 +903,13 @@
     "clips": [
       {
         "id": "Wn01Ynw7O28",
-        "title": "How to Escape the Knee on Belly Position",
+        "title": "BJJ | How To Escape The Knee On Belly Position",
         "by": "Evolve MMA",
         "vertical": false,
         "channel": "Evolve Mixed Martial Arts",
         "duration": 40,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "LvhfomaVNqw",
@@ -949,16 +918,16 @@
         "vertical": false,
         "channel": "Thunderdome BJJ",
         "duration": 30,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       },
       {
         "id": "DagXZb2hses",
-        "title": "Escape as They Transition to Knee on Belly",
+        "title": "Side Control Escape from Bottom as they transition to knee on belly and mount",
         "by": "John Kelly",
         "vertical": false,
         "channel": "John Kelly Brazilian Jiu Jitsu Ireland ",
         "duration": 58,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1078,31 +1047,14 @@
   ],
   "clips": [
     {
-      "id": "pa6Z7mP9VKU",
-      "title": "Ryron Gracie's Favorite Knee-on-Belly Attack",
-      "by": "Ryron Gracie",
+      "id": "Wn01Ynw7O28",
+      "title": "BJJ | How To Escape The Knee On Belly Position",
+      "by": "Evolve MMA",
       "vertical": false,
-      "channel": "Hayabusa",
-      "duration": 52,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "XNhDD7N4JNY",
-      "title": "3 Knee-on-Belly Attacks for Beginners",
-      "by": "Lucas Lepri",
-      "vertical": false,
-      "channel": "Lucas Lepri Philippines",
-      "duration": 68,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "I9_3u9AcwAg",
-      "title": "First Principles: Mount & Knee-on-Belly Escapes",
-      "by": "40 Plus BJJ",
-      "vertical": false,
-      "channel": "40 Plus BJJ",
-      "duration": 59,
-      "verified": "2026-07-14"
+      "channel": "Evolve Mixed Martial Arts",
+      "duration": 40,
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

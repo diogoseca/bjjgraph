@@ -340,22 +340,14 @@
     },
     "clips": [
       {
-        "id": "v2thEjJ0ES0",
-        "title": "Five passes vs Single Leg X-Guard",
-        "by": "Oneonta Jiu Jitsu",
-        "vertical": false,
-        "channel": "OneontaJiuJitsu Academy",
-        "duration": 121,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "noPXosvgzA0",
-        "title": "Counter X-Guard: knee pull to heel hook",
+        "title": "Counter x guard with a knee pull thru heel hook to back exposure",
         "by": "ZeGrapplez",
         "vertical": false,
         "channel": "ZeGrapplez",
         "duration": 83,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -680,31 +672,17 @@
     },
     "clips": [
       {
-        "id": "zbYb6sOYC8w",
-        "title": "X-Guard sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "CHOKE LABORATORY",
-        "duration": 53,
-        "verified": "2026-07-14"
+        "id": "usWlT7CW4HU",
+        "title": "Bjj X Guard Entry from Half Guard",
+        "channel": "Chewjitsu",
+        "duration": 247,
+        "front": true
       },
       {
-        "id": "AhsXraebbdg",
-        "title": "One-leg X-Guard sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "jen jitsu",
-        "duration": 47,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "7OnjPU1WjH4",
-        "title": "X-Guard sweep and pass",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Gentle Art Media",
-        "duration": 35,
-        "verified": "2026-07-14"
+        "id": "MVpjF7Pd8IA",
+        "title": "X-Guard Entry from Half Guard",
+        "channel": "Vital Jiu Jitsu",
+        "duration": 341
       }
     ]
   },
@@ -924,31 +902,14 @@
   ],
   "clips": [
     {
-      "id": "7OnjPU1WjH4",
-      "title": "X-Guard sweep and pass overview",
-      "by": "Marcelo Garcia",
+      "id": "noPXosvgzA0",
+      "title": "Counter x guard with a knee pull thru heel hook to back exposure",
+      "by": "ZeGrapplez",
       "vertical": false,
-      "channel": "Gentle Art Media",
-      "duration": 35,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "zbYb6sOYC8w",
-      "title": "X-Guard sweep",
-      "by": "Marcelo Garcia",
-      "vertical": false,
-      "channel": "CHOKE LABORATORY",
-      "duration": 53,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "m-ueyJXiShY",
-      "title": "No-Gi X-Guard sweep",
-      "by": "Marcelo Garcia",
-      "vertical": false,
-      "channel": "GRACIEMAG - The original BJJ magazine. ",
-      "duration": 126,
-      "verified": "2026-07-14"
+      "channel": "ZeGrapplez",
+      "duration": 83,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

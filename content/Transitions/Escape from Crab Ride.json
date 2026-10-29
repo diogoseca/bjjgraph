@@ -406,22 +406,12 @@
     "safety_considerations": "The Escape from Crab Ride involves explosive hip movement and directional changes that can strain the lower back and hip flexors if performed without proper warm-up. When drilling, start at low intensity and build progressively to avoid impact injuries from the hip escape and rolling motions. Partners maintaining crab ride should not crank the hook aggressively, as excessive torque on the hooking leg can injure the bottom player's hip or knee. During Granby roll variants, be cautious of neck positioning to avoid cervical spine compression. Always tap immediately if any choke is applied during escape attempts rather than fighting through a locked submission.",
     "clips": [
       {
-        "id": "F6reAeYmhoU",
-        "title": "Escaping the leg ride",
-        "by": "Steve Weismann",
+        "id": "-S6bU0mQp1Y",
+        "title": "Escape Crab Ride",
+        "channel": "Brian Hawkins",
+        "duration": 77,
         "vertical": false,
-        "channel": "steve weismann",
-        "duration": 14,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "DDyJiMgWfnI",
-        "title": "Single hook defense: stopping the second hook",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 116,
-        "verified": "2026-07-16"
+        "front": true
       }
     ]
   },
@@ -584,21 +574,11 @@
     "clips": [
       {
         "id": "qp--XOaaFjk",
-        "title": "Crab ride turn when they try to trap you on your back",
-        "by": "CMPTV",
-        "vertical": false,
+        "title": "Crab Ride turn when your opponent tries to trap you on your back",
         "channel": "CMPTV",
         "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gFqoFaD87So",
-        "title": "Crab ride progression: beating the hips to spiderweb",
-        "by": "MCM Wrestling",
         "vertical": false,
-        "channel": "MCM Wrestling Vids",
-        "duration": 55,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

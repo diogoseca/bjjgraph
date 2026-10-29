@@ -98,7 +98,7 @@
       "Control opponent's leg by driving knee firmly toward mat, eliminating their ability to create frames or recover guard structure through sustained pressure",
       "Establish strong posting base with opposite leg positioned wide and perpendicular to opponent's body line, creating triangular structure resistant to sweeps",
       "Maintain upright posture with strong spine alignment and vertical orientation, preventing forward weight shift that creates rolling opportunities or compromises balance",
-      "Create and manipulate passing angles by adjusting hip position and weight distribution while maintaining connection with trapped leg throughout transitions",
+      "Create and manipulate passing angles by adjusting hip position and weight distribution while maintaining connection with trapped leg throughout transitions. The narrator advises securing the guard player's arm while keeping inside leg position at headquarters, then changing the leg configuration for longer-range butterfly-half passing. His butterfly-half examples use a wrist pin to support the leg work. Narration: [Less Impressed More Involved BJJ, 4:24–5:21.1; headquarters sequence around 5:04](https://www.youtube.com/watch?v=AcxCqMwW_7o&t=264s).",
       "Control opponent's hip mobility through strategic placement of trapped leg and systematic pressure application that limits their movement options",
       "Neutralize opponent's frames and hooks by maintaining distance with posting hand while controlling with gripping hand, preventing them from creating space",
       "Systematically eliminate defensive options by reading reactions and selecting appropriate passing variations, using headquarters as central decision hub"
@@ -477,31 +477,11 @@
     ],
     "clips": [
       {
-        "id": "EFEgiEekLNY",
-        "title": "Knee Cut Pass With Underhook",
-        "by": "Jiu Jitsu Curriculum",
-        "vertical": false,
-        "channel": "Jiu Jitsu Curriculum",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "IUvwQc_Y6RA",
-        "title": "Headquarters to Knee-Cut When Long Step Fails",
-        "by": "Tony Casarez",
-        "vertical": false,
-        "channel": "Tony Casarez",
-        "duration": 109,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "k4pZYVOwmbI",
-        "title": "Knee Shield Pass From Headquarters",
-        "by": "Jiu Jitsu Curriculum",
-        "vertical": false,
-        "channel": "Jiu Jitsu Curriculum",
-        "duration": 117,
-        "verified": "2026-07-14"
+        "id": "aWgHbWcaEpQ",
+        "title": "The \"Headquarters\" Position in BJJ: Everything You Need to Know",
+        "channel": "Gold BJJ",
+        "duration": 325,
+        "front": true
       }
     ]
   },
@@ -856,35 +836,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard Retention: When To Sit Up Escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Bp0v7c_MrbY",
-        "title": "Getting Feet On Biceps Position",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 125,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ynoR-AtSYUc",
-        "title": "Around The Legs Guard Retention",
-        "by": "Absolute MMA St Kilda",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 210,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1000,24 +952,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "zT3JjOR838w",
-      "title": "Passing a Seated Guard With Underhooks",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 143,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ACWzSbjbo2g",
-      "title": "Gordon Ryan Style Guard Pass",
-      "by": "Danny Brown",
-      "vertical": false,
-      "channel": "UNC_CynX",
-      "duration": 209,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

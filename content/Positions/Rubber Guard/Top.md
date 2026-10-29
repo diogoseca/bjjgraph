@@ -159,24 +159,13 @@ description: "Defend Rubber Guard from top with systematic escape protocols. Lea
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping and passing the rubber guard",
-      "description": "Rubber Guard (Top) film study: Escaping and passing the rubber guard, taught by BJJ4Breakfast.",
+      "name": "Simple (but risky) rubber guard escape",
+      "description": "Rubber Guard (Top) film study: Simple (but risky) rubber guard escape, taught by BJJ4Breakfast.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
       "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
       "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT131S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard passing from the top: posture and pressure",
-      "description": "Rubber Guard (Top) film study: Guard passing from the top: posture and pressure, taught by Mario Sperry.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7qHsahtxnDo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7qHsahtxnDo",
-      "url": "https://www.youtube.com/watch?v=7qHsahtxnDo",
-      "creator": { "@type": "Person", "name": "Mario Sperry" },
-      "duration": "PT165S"
     }
   ]
 }
@@ -204,15 +193,7 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 ![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Escaping and passing the rubber guard</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7qHsahtxnDo)
-
-<p class="clip-credit"><strong>Guard passing from the top: posture and pressure</strong> — taught by Mario Sperry · 2:45 · <a href="https://www.youtube.com/watch?v=7qHsahtxnDo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple (but risky) rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

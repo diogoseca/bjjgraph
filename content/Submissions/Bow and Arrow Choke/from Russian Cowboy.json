@@ -405,31 +405,12 @@
     ],
     "clips": [
       {
-        "id": "xqNhZVNhxnE",
-        "title": "Bow and arrow choke from back control",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "U16fxDEJS6s",
-        "title": "Armlock to loop choke / bow and arrow combo",
-        "by": "South Jersey BJJ",
-        "vertical": false,
+        "title": "Armlock to Loop Choke/Bow and Arrow Choke Combo",
         "channel": "South Jersey Brazilian Jiu Jitsu",
         "duration": 63,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "eMbkVDRreIQ",
-        "title": "3 favorite chokes from the back",
-        "by": "Matt Arroyo",
         "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 87,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -600,29 +581,10 @@
       {
         "id": "fEWUEDI_ng4",
         "title": "Bow and arrow choke escape",
-        "by": "Revolution BJJ Ashland",
-        "vertical": false,
         "channel": "Revolution BJJ Ashland",
         "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "485wvqwlBYA",
-        "title": "Defending back control — face down sprawled",
-        "by": "Academy Jiu Jitsu",
         "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Back escape — standing up",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

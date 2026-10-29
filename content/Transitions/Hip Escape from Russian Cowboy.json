@@ -90,10 +90,6 @@
       "relationship": "Related dominant position sharing similar escape mechanics"
     },
     {
-      "name": "Arm Extraction to Turtle",
-      "relationship": "Primary alternative escape from Russian Cowboy targeting turtle recovery"
-    },
-    {
       "name": "Turtle",
       "relationship": "Alternative escape target position when half guard recovery is blocked"
     },
@@ -368,26 +364,7 @@
       }
     ],
     "safety_considerations": "Hip escape movements from Russian Cowboy involve significant spinal rotation and hip mobility demands. Avoid explosive twisting when the opponent has deep hook engagement, as this can strain knee ligaments or lower back musculature. During training, communicate clearly with your partner if the hook creates uncomfortable pressure on your inner thigh or groin area. Tap immediately to any neck attack that materializes during the escape attempt rather than fighting through potential cervical spine compression. When drilling at high intensity, ensure adequate warm-up of hip flexors and lower back before practicing escape sequences.",
-    "clips": [
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing up from turtle bottom",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zxSKKUroV6Q",
-        "title": "Multiple escapes from the turtle position",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 214,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Hip Escape from Russian Cowboy Defender",
@@ -536,25 +513,6 @@
         "description": "Live positional sparring from Russian Cowboy with full resistance. Practice the complete defensive toolkit: frame collapse, hip following, submission threats to reset escape timelines, and truck advancement when opportunities arise. Three-minute rounds with score tracking for position maintenance, advancement, and submissions."
       }
     ],
-    "clips": [
-      {
-        "id": "0xYFYI9LkUQ",
-        "title": "Keeping the ride when opponent rolls to far side",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 144,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "o9a6Dmge5Gg",
-        "title": "Russian cowboy ride to double kneebar",
-        "by": "DanTheWolfman",
-        "vertical": false,
-        "channel": "DanTheWolfman",
-        "duration": 308,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

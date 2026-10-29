@@ -154,24 +154,22 @@ description: "Defend the kneebar from straight ankle lock control. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kneebar Escape",
-      "description": "Kneebar from Straight Ankle Lock Control (Defender) film study: Kneebar Escape, taught by Darren Branch.",
+      "name": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026",
+      "description": "Kneebar from Straight Ankle Lock Control (Defender) film study: Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3zJthP57wXw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3zJthP57wXw",
       "url": "https://www.youtube.com/watch?v=3zJthP57wXw",
-      "creator": { "@type": "Person", "name": "Darren Branch" },
-      "duration": "PT74S"
+      "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kneebar Defense + Take the Back",
-      "description": "Kneebar from Straight Ankle Lock Control (Defender) film study: Kneebar Defense + Take the Back, taught by Bicudo BJJ.",
+      "name": "Knee Bar defense + take the back",
+      "description": "Kneebar from Straight Ankle Lock Control (Defender) film study: Knee Bar defense + take the back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
       "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
-      "creator": { "@type": "Person", "name": "Bicudo BJJ" },
-      "duration": "PT22S"
+      "duration": "PT21S"
     }
   ]
 }
@@ -202,7 +200,7 @@ Defending the kneebar from straight ankle lock control requires recognizing the 
 
 ![](https://www.youtube.com/watch?v=3zJthP57wXw)
 
-<p class="clip-credit"><strong>Kneebar Escape</strong> — taught by Darren Branch · 1:14 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -210,7 +208,7 @@ Defending the kneebar from straight ankle lock control requires recognizing the 
 
 ![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
 
-<p class="clip-credit"><strong>Kneebar Defense + Take the Back</strong> — taught by Bicudo BJJ · 0:22 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Bar defense + take the back</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

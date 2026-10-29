@@ -46,35 +46,12 @@ description: "Master the Arm Drag to Back technique in BJJ. Complete guide cover
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse Arm Drag from Butterfly to Back Take",
-      "description": "Arm Drag to Back film study: Reverse Arm Drag from Butterfly to Back Take, taught by Jerry Musquiz.",
+      "name": "Reverse Armdrag (Marcelo Garcia style) from Butterfly to Back Take Gi",
+      "description": "Arm Drag to Back film study: Reverse Armdrag (Marcelo Garcia style) from Butterfly to Back Take Gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
       "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
-      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Arm Drag from Butterfly Guard",
-      "description": "Arm Drag to Back film study: Arm Drag from Butterfly Guard, taught by Procel BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PCPrbetHf4U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PCPrbetHf4U",
-      "url": "https://www.youtube.com/watch?v=PCPrbetHf4U",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Three Back Takes from Guard: Arm Drag, Wrist Drag, Swim Under",
-      "description": "Arm Drag to Back film study: Three Back Takes from Guard: Arm Drag, Wrist Drag, Swim Under, taught by AMAZIN BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OgyVXBXFpdA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OgyVXBXFpdA",
-      "url": "https://www.youtube.com/watch?v=OgyVXBXFpdA",
-      "creator": { "@type": "Person", "name": "AMAZIN BJJ" },
-      "duration": "PT53S"
+      "duration": "PT41S"
     }
   ]
 }
@@ -130,23 +107,7 @@ From the butterfly guard specifically, the arm drag pairs naturally with the hoo
 
 ![](https://www.youtube.com/watch?v=MFed9IE8afA)
 
-<p class="clip-credit"><strong>Reverse Arm Drag from Butterfly to Back Take</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PCPrbetHf4U)
-
-<p class="clip-credit"><strong>Arm Drag from Butterfly Guard</strong> — taught by Procel BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=PCPrbetHf4U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OgyVXBXFpdA)
-
-<p class="clip-credit"><strong>Three Back Takes from Guard: Arm Drag, Wrist Drag, Swim Under</strong> — taught by AMAZIN BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=OgyVXBXFpdA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Armdrag (Marcelo Garcia style) from Butterfly to Back Take Gi</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -339,8 +300,6 @@ The arm drag to back is a fundamental transitional technique that bridges multip
 
 - [[Transitions/Butterfly Sweep]] - Alternative attack - option from same starting position
 
-- [[Transitions/Back Take]] - Category - general back taking principles
-
 - [[Transitions/Chair Sit to Back]] - Related technique - alternative back take from similar angle
 
 - [[Transitions/Butterfly Guard to X-Guard]] - Chain transition - alternative when opponent defends drag by standing
@@ -357,7 +316,7 @@ The arm drag to back is a fundamental transitional technique that bridges multip
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Arm Drag to Back: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Arm Drag to Back: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Arm Drag to Back: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

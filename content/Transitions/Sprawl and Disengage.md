@@ -36,39 +36,6 @@ description: "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely b
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Sprawl and Disengage \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Basic sprawl drill",
-      "description": "Sprawl and Disengage film study: Basic sprawl drill, taught by Gaelforce BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Adz0whT8wBc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Adz0whT8wBc",
-      "url": "https://www.youtube.com/watch?v=Adz0whT8wBc",
-      "creator": { "@type": "Person", "name": "Gaelforce BJJ" },
-      "duration": "PT35S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sit out to disengage from the inversion",
-      "description": "Sprawl and Disengage film study: Sit out to disengage from the inversion, taught by Spear Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DvoaiDQaLDA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DvoaiDQaLDA",
-      "url": "https://www.youtube.com/watch?v=DvoaiDQaLDA",
-      "creator": { "@type": "Person", "name": "Spear Jiu Jitsu" },
-      "duration": "PT74S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -76,7 +43,7 @@ description: "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely b
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Sprawl and Disengage",
-  "description": "Sprawl and Disengage is a defensive guard-passing reaction where the top player drives their hips back and down to strip their legs out of an inverting opponent's grasshopper guard, resetting to a standing base rather than risking leg entanglements.",
+  "description": "Sprawl and Disengage is a defensive guard-passing reaction where the top player drives their hips back and down to strip their legs out of an inverting opponent's inverted guard, resetting to a standing base rather than risking leg entanglements.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,45 +61,19 @@ description: "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely b
 
 <section id="overview" class="content-section">
 
-**Sprawl and Disengage is a defensive guard-passing reaction where the top player drives their hips back and down to strip their legs out of an inverting opponent's grasshopper guard, resetting to a standing base rather than risking leg entanglements.**
+**Sprawl and Disengage is a defensive guard-passing reaction where the top player drives their hips back and down to strip their legs out of an inverting opponent's inverted guard, resetting to a standing base rather than risking leg entanglements.**
 
 Within the inverted-guard passing game, the Sprawl and Disengage functions as the high-percentage "eject button" against leg-hunting bottom players. When an opponent inverts and threatens leg entanglements, the sprawl creates immediate distance by driving your hips backward and down toward the mat, removing your legs from their attacking range before they can establish hooks or grips.
 
 This technique prioritizes safety and position reset over direct passing. Rather than fighting through the inverted guard and risking leg entanglements, you recognize when engagement is unfavorable and strategically disengage to reset from standing. The sprawl mechanic—borrowed from wrestling defense—is adapted here specifically to counter the elevation and leg control attempts inherent to inverted guards.
 
-From a systematic perspective, the Sprawl and Disengage represents intelligent risk management. When facing a skilled grasshopper guard player, attempting to pass through their legs often results in rolling kneebars, ankle locks, or 50-50 entanglements. By disengaging cleanly, you deny them the leg contact they need while maintaining top position and the ability to re-engage on your terms. The technique is particularly valuable in competition where conceding points for a sweep is far worse than resetting to neutral standing.
+From a systematic perspective, the Sprawl and Disengage represents intelligent risk management. When facing a skilled inverted guard player, attempting to pass through their legs often results in rolling kneebars, ankle locks, or 50-50 entanglements. By disengaging cleanly, you deny them the leg contact they need while maintaining top position and the ability to re-engage on your terms. The technique is particularly valuable in competition where conceding points for a sweep is far worse than resetting to neutral standing.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 **Success Rate**: 42%
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Sprawl and Disengage in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Adz0whT8wBc)
-
-<p class="clip-credit"><strong>Basic sprawl drill</strong> — taught by Gaelforce BJJ · 0:35 · <a href="https://www.youtube.com/watch?v=Adz0whT8wBc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DvoaiDQaLDA)
-
-<p class="clip-credit"><strong>Sit out to disengage from the inversion</strong> — taught by Spear Jiu Jitsu · 1:14 · <a href="https://www.youtube.com/watch?v=DvoaiDQaLDA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -142,7 +83,7 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Standing Position]] | 65% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 10% |
 
 
@@ -286,7 +227,7 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 
 ## Position Integration
 
-The Sprawl and Disengage functions as a critical safety valve within the inverted guard passing system. When facing grasshopper guard, K-guard, or other leg-hunting inverted positions, it provides the option to reset rather than risk leg entanglements. This technique connects to the broader guard passing system by giving practitioners an exit strategy that preserves top position without conceding sweep points. After successful disengagement, common follow-ups include re-engaging with toreando pass from distance, waiting for opponent to abandon inversion and come up to seated guard, or circling to find angles where their inversion is less effective. The technique is particularly valuable when integrated with a systematic approach that recognizes when engagement is favorable versus when strategic retreat is the higher-percentage play.
+The Sprawl and Disengage functions as a critical safety valve within the inverted guard passing system. When facing inverted guard, K-guard, or other leg-hunting inverted positions, it provides the option to reset rather than risk leg entanglements. This technique connects to the broader guard passing system by giving practitioners an exit strategy that preserves top position without conceding sweep points. After successful disengagement, common follow-ups include re-engaging with toreando pass from distance, waiting for opponent to abandon inversion and come up to seated guard, or circling to find angles where their inversion is less effective. The technique is particularly valuable when integrated with a systematic approach that recognizes when engagement is favorable versus when strategic retreat is the higher-percentage play.
 
 </section>
 
@@ -296,7 +237,7 @@ The Sprawl and Disengage functions as a critical safety valve within the inverte
 ## Related Techniques
 
 
-- [[Positions/Grasshopper Guard]] - Starting position - opponent's guard you are countering
+- [[Positions/Inverted Guard]] - Starting position - opponent's guard you are countering
 
 - [[Transitions/Back Step Pass]] - Alternative technique - used when partial entanglement exists
 

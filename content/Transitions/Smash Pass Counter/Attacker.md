@@ -170,39 +170,6 @@ description: "How to execute Smash Pass Counter in BJJ. Attacking perspective wi
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Smash Pass Counter (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Reverse De La Worm smash pass defense",
-      "description": "Smash Pass Counter (Attacker) film study: Reverse De La Worm smash pass defense, taught by Satori BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U-d9fLP9eAo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U-d9fLP9eAo",
-      "url": "https://www.youtube.com/watch?v=U-d9fLP9eAo",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to pass the worm guard without getting stuck",
-      "description": "Smash Pass Counter (Attacker) film study: How to pass the worm guard without getting stuck, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Apdhlgpalgc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Apdhlgpalgc",
-      "url": "https://www.youtube.com/watch?v=Apdhlgpalgc",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT202S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -219,32 +186,6 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Smash Pass Counter (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U-d9fLP9eAo)
-
-<p class="clip-credit"><strong>Reverse De La Worm smash pass defense</strong> — taught by Satori BJJ · 1:02 · <a href="https://www.youtube.com/watch?v=U-d9fLP9eAo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Apdhlgpalgc)
-
-<p class="clip-credit"><strong>How to pass the worm guard without getting stuck</strong> — taught by Jon Thomas · 3:22 · <a href="https://www.youtube.com/watch?v=Apdhlgpalgc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

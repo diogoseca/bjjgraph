@@ -46,35 +46,12 @@ description: "Master the Collar Drag in BJJ. Essential standing technique for cr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arm drag takedown demonstration",
-      "description": "Collar Drag film study: Arm drag takedown demonstration, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Kp3ABmsn1I0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Kp3ABmsn1I0",
-      "url": "https://www.youtube.com/watch?v=Kp3ABmsn1I0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Collar drag / lapel drag from guard",
-      "description": "Collar Drag film study: Collar drag / lapel drag from guard, taught by Louis Armezzani.",
+      "name": "Collar drag/lapel drag",
+      "description": "Collar Drag film study: Collar drag/lapel drag.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mzMJN2lwBbk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mzMJN2lwBbk",
       "url": "https://www.youtube.com/watch?v=mzMJN2lwBbk",
-      "creator": { "@type": "Person", "name": "Louis Armezzani" },
       "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Arm drag into single leg takedown",
-      "description": "Collar Drag film study: Arm drag into single leg takedown, taught by Grapple Hub.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TkCWCSvk7I4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TkCWCSvk7I4",
-      "url": "https://www.youtube.com/watch?v=TkCWCSvk7I4",
-      "creator": { "@type": "Person", "name": "Grapple Hub" },
-      "duration": "PT60S"
     }
   ]
 }
@@ -128,25 +105,9 @@ Strategically, the Collar Drag occupies a central role in standing exchanges bec
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Kp3ABmsn1I0)
-
-<p class="clip-credit"><strong>Arm drag takedown demonstration</strong> — taught by Marcelo Garcia · 0:55 · <a href="https://www.youtube.com/watch?v=Kp3ABmsn1I0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=mzMJN2lwBbk)
 
-<p class="clip-credit"><strong>Collar drag / lapel drag from guard</strong> — taught by Louis Armezzani · 1:05 · <a href="https://www.youtube.com/watch?v=mzMJN2lwBbk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TkCWCSvk7I4)
-
-<p class="clip-credit"><strong>Arm drag into single leg takedown</strong> — taught by Grapple Hub · 1:00 · <a href="https://www.youtube.com/watch?v=TkCWCSvk7I4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Collar drag/lapel drag</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=mzMJN2lwBbk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -331,8 +292,6 @@ The Collar Drag functions as a critical bridge technique between standing engage
 
 - [[Transitions/Single Leg Entry]] - Follow-up option - transition when back take not available after drag
 
-- [[Transitions/Back Take]] - Follow-up sequence - finishing position after successful drag
-
 - [[Transitions/Front Headlock to Back]] - Connected sequence - alternative back take from front headlock if collar drag transitions there
 
 - [[Transitions/Guard Pull]] - Alternative finish - when opponent defends standing back take
@@ -351,7 +310,7 @@ The Collar Drag functions as a critical bridge technique between standing engage
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Collar Drag: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Collar Drag: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem: Ankle Picks</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

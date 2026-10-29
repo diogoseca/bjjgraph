@@ -412,30 +412,18 @@
     "clips": [
       {
         "id": "IGpcox5vWkw",
-        "title": "Butterfly guard pass into knee on belly",
-        "by": "Dark Arts Jiu-Jitsu coach",
-        "vertical": false,
+        "title": "Butterfly Guard pass into Knee on belly",
         "channel": "Dark Arts Jiu-Jitsu",
-        "duration": 89,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ll3fkZ2oQD0",
-        "title": "Half butterfly guard pass, no-gi",
-        "by": "Kieran Davern",
+        "duration": 88,
         "vertical": false,
-        "channel": "KD Grappling | Kieran Davern",
-        "duration": 170,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "231FhaqR008",
-        "title": "Folding pass against butterfly guard",
-        "by": "Unknown coach",
-        "vertical": false,
+        "title": "Folding Pass vs Butterfly Guard",
         "channel": "Gorillatag694",
-        "duration": 137,
-        "verified": "2026-07-15"
+        "duration": 136,
+        "vertical": false
       }
     ]
   },
@@ -609,30 +597,11 @@
     "clips": [
       {
         "id": "ADwKEjvhX-U",
-        "title": "Butterfly guard framing and retention concepts",
-        "by": "ZeGrapplez coach",
-        "vertical": false,
+        "title": "Fundamental butterfly guard framing/retention concepts",
         "channel": "ZeGrapplez",
-        "duration": 62,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "86KseinKoSY",
-        "title": "Knee slide pass recovery back to butterfly",
-        "by": "Italiano BJJ coach",
+        "duration": 61,
         "vertical": false,
-        "channel": "Italiano BJJ",
-        "duration": 37,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ynoR-AtSYUc",
-        "title": "Around the legs guard retention",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 210,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

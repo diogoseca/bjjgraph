@@ -36,50 +36,6 @@ description: "Master Vaporizer position in BJJ. 10th Planet innovation for lockd
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Vaporizer \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "The Vaporizer (calf slicer)",
-      "description": "Vaporizer film study: The Vaporizer (calf slicer), taught by Bobby Lee.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vTE4XQpRiqY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vTE4XQpRiqY",
-      "url": "https://www.youtube.com/watch?v=vTE4XQpRiqY",
-      "creator": { "@type": "Person", "name": "Bobby Lee" },
-      "duration": "PT17S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The Vaporizer breakdown",
-      "description": "Vaporizer film study: The Vaporizer breakdown, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ITZ4ZPcsY2c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ITZ4ZPcsY2c",
-      "url": "https://www.youtube.com/watch?v=ITZ4ZPcsY2c",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT140S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Advanced Lockdown Details",
-      "description": "Vaporizer film study: Advanced Lockdown Details, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AmOMN0S1v8Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AmOMN0S1v8Q",
-      "url": "https://www.youtube.com/watch?v=AmOMN0S1v8Q",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -115,40 +71,6 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Vaporizer in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vTE4XQpRiqY)
-
-<p class="clip-credit"><strong>The Vaporizer (calf slicer)</strong> — taught by Bobby Lee · 0:17 · <a href="https://www.youtube.com/watch?v=vTE4XQpRiqY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ITZ4ZPcsY2c)
-
-<p class="clip-credit"><strong>The Vaporizer breakdown</strong> — taught by Coach Brian · 2:20 · <a href="https://www.youtube.com/watch?v=ITZ4ZPcsY2c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AmOMN0S1v8Q)
-
-<p class="clip-credit"><strong>Advanced Lockdown Details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=AmOMN0S1v8Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

@@ -152,24 +152,12 @@ description: "How to defend against the Crossface Pass in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard recovery against the cross face",
-      "description": "Crossface Pass (Defender) film study: Guard recovery against the cross face, taught by Academy Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QH9-1I5XqO4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QH9-1I5XqO4",
-      "url": "https://www.youtube.com/watch?v=QH9-1I5XqO4",
-      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
-      "duration": "PT105S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lovato half guard sweep breakdown",
-      "description": "Crossface Pass (Defender) film study: Lovato half guard sweep breakdown, taught by Rafael Lovato Jr.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-fnzNp6TWQo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-fnzNp6TWQo",
-      "url": "https://www.youtube.com/watch?v=-fnzNp6TWQo",
-      "creator": { "@type": "Person", "name": "Rafael Lovato Jr" },
-      "duration": "PT88S"
+      "name": "2 Half Guard Cross Face \u0026 Underhook Counters",
+      "description": "Crossface Pass (Defender) film study: 2 Half Guard Cross Face \u0026 Underhook Counters.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ur34e6zRGd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ur34e6zRGd4",
+      "url": "https://www.youtube.com/watch?v=ur34e6zRGd4",
+      "duration": "PT460S"
     }
   ]
 }
@@ -199,17 +187,9 @@ The defender's primary objective is to prevent the passer from achieving the fla
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QH9-1I5XqO4)
+![](https://www.youtube.com/watch?v=ur34e6zRGd4)
 
-<p class="clip-credit"><strong>Guard recovery against the cross face</strong> — taught by Academy Jiu Jitsu · 1:45 · <a href="https://www.youtube.com/watch?v=QH9-1I5XqO4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-fnzNp6TWQo)
-
-<p class="clip-credit"><strong>Lovato half guard sweep breakdown</strong> — taught by Rafael Lovato Jr · 1:28 · <a href="https://www.youtube.com/watch?v=-fnzNp6TWQo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>2 Half Guard Cross Face &amp; Underhook Counters</strong> · 7:40 · <a href="https://www.youtube.com/watch?v=ur34e6zRGd4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

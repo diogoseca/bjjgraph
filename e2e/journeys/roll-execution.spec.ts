@@ -1,23 +1,82 @@
+// v1.230.0 feedback_owner_rules_reverse_shipped_contracts: v1.218.1 Inspect and v1.220.0 sheet entry retired; execution checks retained.
 import { expect, test, type Page } from "@playwright/test"
 import { journey } from "../dsl"
+
+// D-331 B1 diagnostics: a failing journey here keeps its trace for the CI artifact.
+test.use({ trace: "retain-on-failure" })
 
 // Real mouse/keyboard paths and rendered geometry. Probability/timer/cancellation units are
 // in tests/roll_execution.test.mjs. These journeys do not accept the later turn/model changes.
 const commits = (page: Page) => page.evaluate(() =>
   ((window as any).__neural.beats || []).filter((b: any) => b.beat === "commit").length)
 
-async function ready(page: Page) {
-  const j = journey(page)
-  await j.boot("/")
+async function rigQuiet(j: ReturnType<typeof journey>) {
   for (const [tag, value] of Object.entries({
     "opp-finish": .99, "opp-pick": 0, "opp-sub-pick": 0, escape: 0,
     "start-pos": .5, role: 0, "ai-skill": .5, "max-moves": .5,
     "land-mc-pick": 0, "land-mc-shuffle": .5, "mc-pick": 0, "mc-shuffle": .5,
     "panic-mc-pick": 0, "panic-mc-shuffle": .5, "checkpoint-pick": 0,
   })) await j.rig(tag, Array(32).fill(value))
+}
+
+async function ready(page: Page) {
+  const j = journey(page)
+  await j.boot("/")
+  await rigQuiet(j)
   await j.land("Mount Top")
   return j
 }
+
+// The frame's own paint while a move executes: every fillText, reset at each full-canvas clear.
+function paintProbe() {
+  const w = window as any, proto = CanvasRenderingContext2D.prototype, text = proto.fillText, fill = proto.fillRect;
+  proto.fillRect = function (x, y, width, height) {
+    if (this === w.__neural?.ctx && x === 0 && y === 0 && width === w.__neural.W && height === w.__neural.H) w.__executionPaint = [];
+    return fill.call(this, x, y, width, height);
+  };
+  proto.fillText = function (value, x, y, ...args) {
+    if (this === w.__neural?.ctx && w.__neural._execution) {
+      const m = this.measureText(value), t = this.getTransform(), d = devicePixelRatio || 1;
+      const lo = t.transformPoint({ x: x - m.actualBoundingBoxLeft, y: y - m.actualBoundingBoxAscent });
+      const hi = t.transformPoint({ x: x + m.actualBoundingBoxRight, y: y + m.actualBoundingBoxDescent });
+      (w.__executionPaint ||= []).push({ text: value, left: lo.x / d, right: hi.x / d, top: lo.y / d, bottom: hi.y / d });
+    }
+    return text.call(this, value, x, y, ...args);
+  };
+  // D-331 diagnostics: every layout shift with its sources, from the first paint.
+  w.__shifts = [];
+  try {
+    new PerformanceObserver(list => { for (const e of list.getEntries() as any[]) w.__shifts.push({ t: Math.round(e.startTime), v: e.value,
+      sources: (e.sources || []).map((s: any) => ({ node: s.node ? s.node.nodeName + "." + String(s.node.className || "").slice(0, 30) : null, from: s.previousRect?.toJSON?.(), to: s.currentRect?.toJSON?.() })) }) })
+      .observe({ type: "layout-shift", buffered: true });
+  } catch {}
+}
+
+// The painted pair and its label against every occupied surface, read from the frame (traps §6.3).
+const paintedClearance = (page: Page, idx: number) => page.evaluate(idx => {
+  const w = window as any, a = w.__neural, n = a.nodes[idx], scale = a.W / a.cam.vw;
+  const words = [a.graphName(n), a.splitName(n.t).from, a.activeMove?.verb?.toUpperCase(), a.seatWord(n.ty, n.z > 0)].filter(Boolean);
+  const labels = (w.__executionPaint || []).filter((r: any) => words.includes(r.text));
+  const k = Math.max(.4, Math.min(1, a.cam.vw / (a.graphW * .5)));
+  const orbs = [n, n.pi >= 0 ? a.nodes[n.pi] : null].filter(Boolean).map(q => {
+    const x = a.W / 2 + (q.x - a.cam.cx) * scale, y = a.H / 2 + (a._LY(q) - a.cam.cy) * scale;
+    const r = a._nodeHalfW(q, scale, k, a._lodK ?? 1);
+    return { left: x - r, right: x + r, top: y - r, bottom: y + r };
+  });
+  const selectors = '[data-executing-tech],.ng-evtoast,.ng-reader-article,[data-reader-body],.ng-reader-toc,.ng-reader-head,.ng-reader-tools,.ng-reader-closed-part,.ng-reader-game>.ng-section-card,.ng-landcard,.ng-land-film,[data-layer-dock],.ng-logo,.ng-winbar,.ng-challenge-reward';
+  const surfaces = [...document.querySelectorAll(selectors), a.accountRef.current, a.shareCueRef.current, a._handCloseEl].filter(Boolean);
+  const occupied = surfaces.flatMap((el: any) => {
+    const r = el.getBoundingClientRect(), cs = getComputedStyle(el);
+    if (!r.width || !r.height || cs.display === 'none' || cs.visibility === 'hidden' || cs.opacity === '0') return [];
+    const clip = a._reader.root.contains(el) ? a._reader.root.getBoundingClientRect() : { top: 0, bottom: a.H };
+    const box = { left: r.left, right: r.right, top: Math.max(0, r.top, clip.top), bottom: Math.min(a.H, r.bottom, clip.bottom) };
+    // A surface with no class is named by its tag and data attributes, so a failure says WHICH surface.
+    const name = (typeof el.className === 'string' && el.className) || el.tagName + [...el.attributes].filter((x: any) => x.name.startsWith('data-')).map((x: any) => '[' + x.name + ']').join('')
+    return box.bottom > box.top ? [{ surface: name, ...box }] : [];
+  });
+  const intersections = occupied.flatMap((r: any) => [...labels, ...orbs].filter((p: any) => p.left < r.right && p.right > r.left && p.top < r.bottom && p.bottom > r.top).map((paint: any) => ({ surface: r, paint })));
+  return { name: a.graphName(n), labels, orbs, occupied, intersections };
+}, idx)
 
 async function transition(page: Page) {
   const opt = await page.evaluate(() => {
@@ -31,8 +90,13 @@ async function transition(page: Page) {
   return opt!
 }
 
+// STALE SPEC (v1.230.0, feat/video-cards merged): this journey also claimed an empty media area is inert.
+// video-cards:216 ("its empty media still commits the card"), video-cards:228 ("clicking the poster outside
+// Play commits exactly once") and choice-value:429 (touch) pin the opposite U8 rule, and no build can pass
+// both. Choose stays a real mouse action, with the hand groups kept apart, and the empty-media click is kept
+// with the approved U8 expectation: on the next hand it commits its card, exactly once.
 for (const [width, height] of [[1440, 900], [390, 844]]) {
-  test(`@curated Inspect and execute are distinct real mouse actions at ${width}px`, async ({ page }) => {
+  test(`@curated Choose is a real mouse action and the hand groups stay apart at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await ready(page), opt = await transition(page)
     const sel = `[data-tech="${opt.name}"]`
@@ -40,22 +104,14 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     const printed = await page.locator(`${sel} .ngodds`).textContent()
     const title = await page.locator(`${sel} .ngchoice-title`).textContent()
     const before = await commits(page)
-    await j.clickByMouse(`${sel} [data-choice-inspect]`, "Inspect")
-    await expect(page.locator("[data-go]")).toBeVisible()
-    expect(await commits(page)).toBe(before)
-    await page.keyboard.press("Escape")
-    await expect.poll(() => page.evaluate(() => {
-      const a = (window as any).__neural
-      return !a._detailCtx && a.optionsRef.current.style.transform === "none"
-    })).toBe(true)
-    await page.locator(sel).scrollIntoViewIfNeeded()
+    await expect(page.locator("[data-choice-inspect]")).toHaveCount(0)
     const groups = await page.evaluate(() => {
       const root = (window as any).__neural.optionsRef.current
       const own = root.querySelector('[data-choice-group="you"]').getBoundingClientRect()
       const other = root.querySelector('[data-choice-group="opponent"]').getBoundingClientRect()
       return { ownRight: own.right, opponentLeft: other.left }
     })
-    expect(groups.ownRight, "Inspect must not collapse whole hand groups into a card slot")
+    expect(groups.ownRight, "own and opponent hand groups remain separate")
       .toBeLessThanOrEqual(groups.opponentLeft)
     await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0))
     const click = await page.locator(`${sel} .ngchoice-title`).boundingBox()
@@ -82,13 +138,20 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     await expect(page.locator(".ng-evtoast")).toContainText("Transition lands")
     await j.nextHand()
     await expect(status).toHaveCount(0)
+    const next = await page.evaluate(() => (window as any).__neural._optionCards.find((c: any) => c.card.querySelector("[data-choice-media]"))?.opt.node.t)
+    expect(next, "premise: the next hand has a card with a media area").toBeTruthy()
+    const media = `[data-tech="${next}"] [data-choice-media]`
+    await page.locator(media).scrollIntoViewIfNeeded()
+    const atMedia = await commits(page)
+    await j.clickByMouse(media, "the empty media area commits its card (U8)")
+    expect(await commits(page), "the empty media area commits its card, once").toBe(atMedia + 1)
   })
 }
 
-test("@curated shifted digits inspect, plain digits commit, and hidden hands ignore both", async ({ page }) => {
+test("@curated shifted digits are inert, plain digits commit, and hidden hands ignore both", async ({ page }) => {
   const j = await ready(page), before = await commits(page)
   await page.keyboard.press("Shift+Digit1")
-  await expect(page.locator("[data-go]")).toBeVisible()
+  await expect(page.locator("[data-go]")).toHaveCount(0)
   expect(await commits(page)).toBe(before)
   await page.keyboard.press("Escape")
   await page.evaluate(() => (window as any).__neural.setLayer("hand", false, "test"))
@@ -176,16 +239,105 @@ test("@curated submission entry retains its printed odds and reaches Finish with
   expect(await page.evaluate(() => (window as any).__neural._phase1Draws.filter((t: string) => t === "resolve" || t === "outcome"))).toEqual([])
 })
 
-for (const [width, height, pane] of [[390, 844, false], [1440, 900, false], [1440, 900, true]] as const) {
+// D-322: native scrolling can leave the clicked card at y68 while the announcer
+// ends at70.59. Exact e26 and D-318 paint intersected the announcer in both motion
+// modes (ci-e26/execution-camera-geometry-ruling.md). Keep the <=2px card handoff,
+// fit the painted pair/name in free 2-D space, and retain the above-card bound
+// wherever its vertical band exists. This is an APP fix, not a readiness repair.
+// D-326 (claude-verify/step2-report.md): on a phone the clicked card can sit at y78
+// under an announcer ending at y67. That 11px band counted as existing, rejected
+// every candidate and returned the unfitted target onto the card. A band now
+// exists only if it holds the reserved pair box; the 390px scrolled case pins it.
+// D-331 B1: the 390px reduced-motion scrolled case moved its card 4px, then 7px, on CI only (0 of 18
+// locally at 1x, 4x CDP, a 50% CPU quota; nor with the win chance held pending across the click).
+// Diagnostics only: the handoff record below is attached BEFORE the 2px assertion, and a failing
+// run keeps its trace (file-level: Playwright allows `trace` only there). No bound, step or fixture changed.
+for (const [width, height, pane, scrolled] of [[390, 844, false, false], [390, 844, false, true], [1440, 900, false, false], [1440, 900, true, false], [1440, 900, false, true]] as const) {
 for (const reduced of [false, true]) {
-  test(`@curated execution camera frames the technique at ${width}px; pane ${pane}; reduced motion ${reduced}`, async ({ page }) => {
+  test(`@curated execution camera frames the technique at ${width}px; pane ${pane}; reduced motion ${reduced}${scrolled ? (width > 640 ? " after native wheel" : " scrolled to the top") : ""}`, async ({ page }) => {
+    await page.addInitScript(paintProbe)
     await page.setViewportSize({ width, height })
     const j = await ready(page), opt = await transition(page)
     await page.emulateMedia({ reducedMotion: reduced ? "reduce" : "no-preference" })
     await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0))
-    await j.pick(opt.name)
+    if (scrolled && width < 640) {
+      // A phone has no floating index, and a wheel over its deck or hand pages or
+      // glides them. Bring the card to the reader's top as the pick path's own
+      // scrollIntoView does when the hand starts below the fold, and to the hand's
+      // start, under the unfitted pair: the thin-band premise is asserted below.
+      await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible();
+      await page.evaluate(name => (window as any).__neural._optionCards.find((c: any) => c.opt.node.t === name)
+        .card.scrollIntoView({ block: "start", inline: "start" }), opt.name);
+      await j.readerLayoutSettled();
+    } else if (scrolled) {
+      await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible();
+      await j.clickByMouse('[data-toc-type="overview"] a');
+      await j.readerLayoutSettled();
+      const scroll = await page.evaluate(name => {
+        const a = (window as any).__neural, root = a._reader.root;
+        const card = a._optionCards.find((c: any) => c.opt.node.t === name).card;
+        const delta = card.getBoundingClientRect().top - root.getBoundingClientRect().top;
+        return { delta, target: root.scrollTop + delta };
+      }, opt.name);
+      await page.mouse.move(width / 2, height * .7);
+      await page.mouse.wheel(0, scroll.delta);
+      await page.waitForFunction(target => Math.abs((window as any).__neural._reader.root.scrollTop - target) < 1, scroll.target);
+      // STALE SPEC (D-338, D-347): beside the index the Moves tray is a scroller (968px at 1440), so
+      // the chosen card can sit past its clip; a reader scrolls the tray to it first, as here.
+      await page.evaluate(name => (window as any).__neural._optionCards.find((c: any) => c.opt.node.t === name)
+        .card.scrollIntoView({ block: "nearest", inline: "nearest" }), opt.name);
+      await j.readerLayoutSettled();
+    }
+    // Capture the rectangle at the delivered pointerdown, after the original
+    // pick path's native auto-scroll, never from an earlier fixture position.
+    await page.evaluate(name => {
+      const w = window as any, a = w.__neural, rec = (at: string) => {
+        const card = a._optionCards.find((c: any) => c.opt.node.t === name)?.card, stand = document.querySelector('[data-executing-tech]')
+        return { at, t: Math.round(performance.now()), card: card?.isConnected ? card.getBoundingClientRect().toJSON() : null, stand: stand ? stand.getBoundingClientRect().toJSON() : null,
+          scrollTop: a._reader?.root?.scrollTop, layoutFrame: !!a._reader?.layoutFrame, press: !!a._readerPress,
+          win: document.querySelector('[data-choice-value-status]')?.textContent || null, fonts: document.fonts.status,
+          reward: !!document.querySelector('.ng-challenge-reward') }
+      }
+      w.__handoff = []
+      document.addEventListener('pointerdown', () => {
+        w.__clickedExecutionRect = a._optionCards.find((c: any) => c.opt.node.t === name).card.getBoundingClientRect().toJSON();
+        w.__handoff.push(rec('pointerdown'))
+      }, { capture: true, once: true });
+      document.addEventListener('click', () => w.__handoff.push(rec('click')), { capture: true, once: true });
+      new MutationObserver((_, obs) => { if (document.querySelector('[data-executing-tech]')) { w.__handoff.push(rec('stand-in mount')); obs.disconnect() } })
+        .observe(document.body, { childList: true, subtree: true });
+    }, opt.name);
+    // STALE SPEC/TIMING (D-354 B2): CI's shard 4 picked the 390px arrival card while the reader still
+    // laid it out ("element is not stable" twice), and the click's retry force-scrolled the reader to
+    // 146. That put the Videos card across the node band, which left no slot: noFit 1, a premise this
+    // variant never chose. The arrival position IS its premise, so the phone waits for the layout, brings
+    // the card in along its horizontal tray as a swipe does (the only scroll the native pick needed), and
+    // presses with a mouse that cannot scroll; the premise is asserted again at the delivered pointerdown.
+    const mouse = scrolled || width < 640;
+    if (!scrolled && width < 640) {
+      await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible();
+      await j.readerLayoutSettled();
+      const arrival = await page.evaluate(() => (window as any).__neural._reader.root.scrollTop);
+      await page.evaluate(name => (window as any).__neural._optionCards.find((c: any) => c.opt.node.t === name)
+        .card.scrollIntoView({ block: "nearest", inline: "center", behavior: "instant" }), opt.name);
+      await j.readerLayoutSettled();
+      expect(await page.evaluate(() => (window as any).__neural._reader.root.scrollTop), 'premise: the tray brought the card in, the reader stayed where it arrived').toBe(arrival);
+    }
+    const pickTop = await page.evaluate(() => (window as any).__neural._reader?.root?.scrollTop);
+    if (mouse) await j.clickByMouse(`[data-tech="${opt.name}"] .ngchoice-title`);
+    else await j.pick(opt.name);
     await j.advanceUntil("sweep_start", 20000, 40)
     await j.advance(350)
+    const handoff = await page.evaluate(() => ({ before: (window as any).__clickedExecutionRect,
+      after: document.querySelector('[data-executing-tech]')!.getBoundingClientRect().toJSON() }));
+    const diagnostics = await page.evaluate(() => {
+      const w = window as any, a = w.__neural
+      return { records: w.__handoff, shifts: w.__shifts, fonts: document.fonts.status, scrollTop: a._reader?.root?.scrollTop, execFrame: a._execFrame || null }
+    });
+    await test.info().attach('execution-handoff-diagnostics', { contentType: 'application/json', body: JSON.stringify(diagnostics, null, 2) });
+    if (mouse) expect(diagnostics.records.find((r: any) => r.at === 'pointerdown')?.scrollTop, 'the pick is pressed where the variant put the reader').toBe(pickTop);
+    for (const key of ['x', 'y', 'width', 'height'] as const) expect(Math.abs(handoff.before[key] - handoff.after[key]), 'clicked-card ' + key).toBeLessThanOrEqual(2);
+    if (scrolled && width > 640) expect(handoff.before.y).toBeCloseTo(68, 0);
     if (pane) {
       await j.clickByMouse(".ng-logo", "open the learning pane during execution")
       await j.advance(1500); await j.advance(1500)
@@ -197,19 +349,37 @@ for (const reduced of [false, true]) {
       const card = document.querySelector("[data-executing-tech]")!.getBoundingClientRect()
       const pane = a.deckShown && !a.isMobile() ? a.drillRef.current.getBoundingClientRect().right : 0
       return { x: a.W / 2 + (n.x - a.cam.cx) * s, y: a.H / 2 + (a._LY(n) - a.cam.cy) * s,
-        left: pane, width: a.W, top: toast.bottom, bottom: card.top }
+        mid: a.H / 2 + (a.pairMid(n).y - a.cam.cy) * s, left: pane, width: a.W, top: toast.bottom, bottom: card.top }
     }, opt.idx)
+    const paint = await paintedClearance(page, opt.idx);
+    await test.info().attach('execution-painted-clearance', { body: JSON.stringify({ point, handoff, ...paint }, null, 2), contentType: 'application/json' });
+    // D-331 S1: frameExecution's no-fit fallback counts; a slot exists in every case here.
+    const execFrame = await page.evaluate(() => (window as any).__neural._execFrame || { noFrame: 0, noFit: 0 });
+    expect(execFrame.noFit, 'no execution frame fell back to the unfitted target').toBe(0);
+    expect(paint.labels.some((p: any) => p.text === paint.name), 'the actual frame paints the executing name').toBe(true);
+    expect(paint.orbs).toHaveLength(2);
+    expect(paint.intersections, 'the full painted pair and label clear every occupied rectangle').toEqual([]);
     expect(point.x).toBeGreaterThan(point.left); expect(point.x).toBeLessThan(point.width)
-    expect(point.y).toBeGreaterThan(point.top); expect(point.y).toBeLessThan(point.bottom)
-    // Pan the actual graph; a newly earned patch can cover a fixed screen point.
-    const drag = await page.evaluate(({ left, width, top, bottom }) => {
-      const canvas = (window as any).__neural.canvasRef.current
-      for (const fy of [.5, .65, .35]) {
-        const x = left + (width - left) * .8, y = top + (bottom - top) * fy
+    // The above-card bound holds where the band can hold the reserved pair box:
+    // the orbs plus role and qualifier rows at either naming anchor, with 12px
+    // clearances (the premise frameExecution states; the clearance above is the claim).
+    const reserve = Math.max(...paint.orbs.map((o: any) => o.bottom), point.y + 40, point.mid + 40)
+      - Math.min(...paint.orbs.map((o: any) => o.top), point.y - 36, point.mid - 36)
+    const holds = point.bottom - point.top >= reserve + 24
+    if (scrolled && width < 640) expect(point.bottom > point.top && !holds, 'the scrolled phone leaves a positive band too thin for the pair').toBe(true)
+    if (holds) {
+      expect(point.y).toBeGreaterThan(point.top); expect(point.y).toBeLessThan(point.bottom)
+    }
+    // Keep the real graph-pan/lease claim even when the old vertical band is
+    // empty. Both ends must hit canvas in the remaining two-dimensional space.
+    const drag = await page.evaluate(({ left, width }) => {
+      const canvas = (window as any).__neural.canvasRef.current;
+      for (const fy of [.5, .65, .35, .2, .8]) for (const fx of [.8, .5, .2]) {
+        const x = left + (width - left) * fx, y = innerHeight * fy;
         if (document.elementFromPoint(x, y) === canvas
-          && document.elementFromPoint(x - 60, y + 25) === canvas) return { x, y }
+          && document.elementFromPoint(x - 60, y + 25) === canvas) return { x, y };
       }
-      return null
+      return null;
     }, point)
     expect(drag, "a real graph pan starts and ends on unobstructed canvas").toBeTruthy()
     await page.mouse.move(drag!.x, drag!.y); await page.mouse.down()
@@ -218,3 +388,123 @@ for (const reduced of [false, true]) {
   })
 }
 }
+
+// D-370 (orchestrator, D9-N3): a phone pick with the reader scrolled. On layout C the node band had no
+// slot at about 170-290px (the Moves row and the stage scroll into it), and at 230-290px the unfitted
+// target painted the pair over 3 occupied surfaces. frameExecution now searches the band, then free space
+// beside the column (D-329), then any free space (D-329's reservation yields in that case only), and
+// falls back to the band, counted. The invariant: the painted pair and its label never intersect an
+// occupied rectangle, at every reader scroll from 0 to 290px in 10px steps, at 390x844 and at 390x631
+// (90% of real phones, D-370). Every step must also paint the executing pair on screen (a positive frame
+// count), so a pair framed off screen cannot pass. The same pick is restaged at each step.
+for (const height of [844, 631]) {
+  test(`execution camera: at 390x${height} a pick with the reader scrolled 0-290px never paints the pair under a surface`, async ({ page }) => {
+    test.setTimeout(600_000)
+    await page.addInitScript(paintProbe)
+    await page.setViewportSize({ width: 390, height })
+    const j = await ready(page), seat = await page.evaluate(() => {
+      const a = (window as any).__neural
+      return { pos: a.currentPos, role: a.playerRole }
+    })
+    // The beat log is capped (4,000), so the sweep is read from its own state, which the landing clears.
+    const sweeping = () => page.evaluate(() => !!(window as any).__neural._sweep)
+    const steps: { y: number, frames: number, noFit: number, hits: string[] }[] = []
+    try { for (let y = 0; y <= 290; y += 10) {
+      if (y) {
+        await rigQuiet(j)
+        // Unstaged, so the clock runs. The restage deals its hand synchronously (H126), before any
+        // nextHand() could read its baseline, so the dealt hand itself is the wait.
+        await page.evaluate(({ pos, role }) => (window as any).__neural.rollFromPosition(pos, false, role), seat)
+        await expect.poll(() => page.evaluate(() => { const a = (window as any).__neural
+          return !a._execution && (a.optionIdxs || []).length > 0 }), 'the restaged hand is dealt').toBe(true)
+      }
+      const opt = await transition(page)
+      await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible()
+      await j.readerLayoutSettled()
+      await page.evaluate(name => (window as any).__neural._optionCards.find((c: any) => c.opt.node.t === name)
+        .card.scrollIntoView({ block: "nearest", inline: "center", behavior: "instant" }), opt.name)
+      await page.evaluate(y => { (window as any).__neural._reader.root.scrollTop = y }, y)
+      await j.readerLayoutSettled()
+      expect(await page.evaluate(() => (window as any).__neural._reader.root.scrollTop), `premise: the reader is scrolled ${y}px`).toBe(y)
+      const noFit = await page.evaluate(() => (window as any).__neural._execFrame?.noFit || 0)
+      expect(await sweeping(), "premise: no sweep is running before the pick").toBe(false)
+      await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0))
+      // Past about 260px the title is under the reader's top edge (y78); a player presses what is still visible
+      // of the card, which commits it (U8), never its play circle. A real mouse at measured coordinates (§6.3).
+      const press = await page.evaluate(name => {
+        const a = (window as any).__neural, card = a._optionCards.find((c: any) => c.opt.node.t === name).card
+        const c = card.getBoundingClientRect(), v = a._reader.root.getBoundingClientRect()
+        const top = Math.max(c.top, v.top), bottom = Math.min(c.bottom, v.bottom), seen: string[] = []
+        for (const fy of [.5, .25, .75]) for (const fx of [.1, .9, .5]) {
+          const x = c.left + (c.right - c.left) * fx, y = top + (bottom - top) * fy, hit = document.elementFromPoint(x, y) as HTMLElement | null
+          if (hit && card.contains(hit) && !hit.closest('[data-choice-watch]')) return { x, y, visible: bottom - top, ok: true, seen }
+          seen.push(hit ? hit.tagName + '.' + String(hit.className).slice(0, 24) : 'none')
+        }
+        return { x: 0, y: 0, visible: bottom - top, ok: false, seen }
+      }, opt.name)
+      expect(press.visible, `premise: the card is visible at ${y}px`).toBeGreaterThanOrEqual(12)
+      expect(press, `premise: a press at ${y}px lands on the card, not its play circle`).toMatchObject({ ok: true })
+      await page.mouse.click(press.x, press.y)
+      for (let spent = 0; !(await sweeping()); spent += 40) {
+        expect(spent, "the pick reaches its sweep").toBeLessThan(20000)
+        await j.advance(40)
+      }
+      const step = { y, frames: 0, noFit: 0, hits: [] as string[] }
+      for (const ms of [350, 150, 150, 150]) {
+        await j.advance(ms)
+        const paint = await paintedClearance(page, opt.idx)
+        const shown = paint.orbs.length === 2 && paint.labels.some((p: any) => p.text === paint.name)
+          && paint.orbs.every((o: any) => o.bottom > 0 && o.top < height && o.right > 0 && o.left < 390)
+        if (shown) step.frames++
+        step.hits.push(...paint.intersections.map((h: any) => `${ms}ms ${h.surface.surface}`))
+      }
+      step.noFit = await page.evaluate(() => (window as any).__neural._execFrame?.noFit || 0) - noFit
+      steps.push(step)
+      expect(step.frames, `at ${y}px the pick paints the executing pair on screen`).toBeGreaterThan(0)
+      expect(step.hits, `at ${y}px the painted pair never intersects an occupied rectangle`).toEqual([])
+      await j.advance(1000)
+    } } finally {
+      await test.info().attach('execution-scroll-sweep', { body: JSON.stringify(steps, null, 2), contentType: 'application/json' })
+    }
+    expect(steps.length, "30 scroll steps").toBe(30)
+  })
+}
+
+// D-326: a reward notice yields while a move executes and shows once it lands,
+// never dropped. A full-width phone notice (x12-378, y82-184) left the execution
+// camera nowhere to frame the move. Both real earn paths run: a notice already
+// showing at the click, and a coin minted mid-execution, as a move lands.
+test("@curated 390px a reward notice yields while a move executes and shows once it lands", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  const j = await ready(page), opt = await transition(page)
+  await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0))
+  const reward = page.locator(".ng-challenge-reward")
+  const held = () => page.evaluate(() => {
+    const a = (window as any).__neural
+    return [a._challengeRewardActive, ...(a._challengeRewardQueue || [])].filter(Boolean).map((r: any) => r.id)
+  })
+  // The harness's own patch runs a real 4.8s timer; dismiss it the way a player
+  // would, so the held notice is the fresh one the three real escapes mint.
+  for (let i = 0; i < 4 && await reward.count(); i++) await j.clickByMouse("[data-reward-close]", "dismiss an earlier notice")
+  await page.evaluate(() => { const a = (window as any).__neural; for (let i = 0; i < 3; i++) a.fx("escape", { via: "Elbow Escape" }) })
+  await expect(reward, "a reward notice shows before the move").toContainText("Houdini")
+  const before = await held()
+  expect(before).toEqual(["houdini"])
+  await j.pick(opt.name)
+  await j.advanceUntil("sweep_start", 20000, 40)
+  await expect(page.locator("[data-executing-tech]")).toHaveCount(1)
+  // Read once, never retried: a retrying wait outlives the notice's own 4.8s
+  // timer and would pass on a build that never held it.
+  expect(await reward.count(), "the showing notice yields to the executing move").toBe(0)
+  await page.evaluate(() => (window as any).__neural.fx("escape_odds_pumped", {}))
+  expect(await reward.count(), "a coin minted mid-execution waits").toBe(0)
+  expect(await held(), "every notice is held in order, none dropped").toEqual([...before, "frame-job"])
+  for (let spent = 0; spent < 20000 && await page.locator("[data-executing-tech]").count(); spent += 100) await j.advance(100)
+  await expect(page.locator("[data-executing-tech]"), "the move landed").toHaveCount(0)
+  await expect(reward, "the first held notice shows once the move lands").toHaveCount(1)
+  await expect(reward, "the notice that yielded shows again").toContainText("Houdini")
+  // A landing may mint its own reward; it queues behind the held ones.
+  expect((await held()).slice(0, 2), "the landed queue starts with the held queue").toEqual([...before, "frame-job"])
+  await j.clickByMouse("[data-reward-close]", "dismiss the first held notice")
+  await expect(reward, "the coin minted mid-execution shows next").toContainText("Frame Job")
+})

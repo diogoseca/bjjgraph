@@ -382,31 +382,26 @@
     "safety_considerations": "The Half Butterfly Sweep is a low-risk technique with minimal joint stress when executed with proper mechanics. Primary safety concerns involve controlling the sweep direction so training partners do not land awkwardly on outstretched arms or twist their knees during the fall. During drilling, allow complete sweep execution rather than resisting at extreme angles that could torque the trapped knee. The underhook should not be used to crank the opponent's shoulder aggressively. Partners should communicate immediately if they feel unusual pressure on their trapped knee or ankle during the sweep rotation. Tap immediately if caught in any compromising position during scrambles following a defended attempt.",
     "clips": [
       {
-        "id": "_PJ9H2B8us8",
-        "title": "Half butterfly guard sweep from head wrap",
-        "by": "Six Blades JJ Yorktown",
+        "id": "oyBedW2q0Qo",
+        "title": "half butterfly sweep (Half Guard)",
+        "channel": "StadiumMMA",
+        "duration": 29,
         "vertical": false,
-        "channel": "Six Blades JJ Yorktown ",
-        "duration": 43,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "hTQ29eG4cqY",
-        "title": "Half guard sit-up to butterfly sweep",
-        "by": "Bjj Picanha",
-        "vertical": false,
+        "title": "Half guard   Sit up to butterfly sweep",
         "channel": "Bjj Picanha",
         "duration": 38,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
-        "id": "oyBedW2q0Qo",
-        "title": "Half butterfly sweep from half guard",
-        "by": "StadiumMMA",
-        "vertical": false,
-        "channel": "StadiumMMA",
-        "duration": 30,
-        "verified": "2026-07-15"
+        "id": "_PJ9H2B8us8",
+        "title": "Technique Tuesday: half butterfly guard sweep from head wrap",
+        "channel": "Six Blades JJ Yorktown ",
+        "duration": 43,
+        "vertical": false
       }
     ]
   },
@@ -574,21 +569,11 @@
     "clips": [
       {
         "id": "Wgnw31_o3kk",
-        "title": "Defending butterfly hooks",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
+        "title": "Defending Butterfly Hooks",
         "channel": "Kohbukan Sisu",
         "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9miuP4-v0EE",
-        "title": "Why half butterfly guard is a different passing problem",
-        "by": "John Danaher",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 192,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

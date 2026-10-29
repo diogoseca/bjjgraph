@@ -4,7 +4,7 @@
 
 ---
 title: "Dogfight Position | BJJ Technique | BJJ Graph"
-description: "Master the Dogfight Position transition in BJJ. Escape leg weave bottom by rising to kneeling scramble with underhook fighting and wrestling chains."
+description: "The bottom player counters a leg-weave pass by establishing an underhook and far-leg connection, then rising into dogfight without assuming a completed sweep."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Dogfight Position transition in BJJ. Escape leg weave b
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Dogfight Position",
-  "description": "Master the Dogfight Position transition in BJJ. Escape leg weave bottom by rising to kneeling scramble with underhook fighting and wrestling chains.",
+  "description": "The bottom player counters a leg-weave pass by establishing an underhook and far-leg connection, then rising into dogfight without assuming a completed sweep.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,50 +36,6 @@ description: "Master the Dogfight Position transition in BJJ. Escape leg weave b
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Dogfight Position \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Three submissions from the dogfight",
-      "description": "Dogfight Position film study: Three submissions from the dogfight, taught by Geo Martinez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/InGMvIP5tqg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/InGMvIP5tqg",
-      "url": "https://www.youtube.com/watch?v=InGMvIP5tqg",
-      "creator": { "@type": "Person", "name": "Geo Martinez" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Cat-dog position breakdown",
-      "description": "Dogfight Position film study: Cat-dog position breakdown, taught by Absolute MMA St Kilda.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1i6UncmMfOs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1i6UncmMfOs",
-      "url": "https://www.youtube.com/watch?v=1i6UncmMfOs",
-      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee shield to underhook to dogfight knee tap",
-      "description": "Dogfight Position film study: Knee shield to underhook to dogfight knee tap, taught by Kaboom Brazilian Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K7U2uBUfq-c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K7U2uBUfq-c",
-      "url": "https://www.youtube.com/watch?v=K7U2uBUfq-c",
-      "creator": { "@type": "Person", "name": "Kaboom Brazilian Jiu-Jitsu" },
-      "duration": "PT129S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -87,7 +43,7 @@ description: "Master the Dogfight Position transition in BJJ. Escape leg weave b
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Dogfight Position",
-  "description": "The Dogfight Position transition is a scramble-based escape from leg-weave bottom in which the trapped player frames, hip-escapes, and rises onto an elbow into a chest-to-chest kneeling underhook battle.",
+  "description": "The bottom player counters a leg-weave pass by establishing an underhook and far-leg connection, then rising into dogfight without assuming a completed sweep.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,53 +61,21 @@ description: "Master the Dogfight Position transition in BJJ. Escape leg weave b
 
 <section id="overview" class="content-section">
 
-**The Dogfight Position transition is a scramble-based escape from leg-weave bottom in which the trapped player frames, hip-escapes, and rises onto an elbow into a chest-to-chest kneeling underhook battle.**
+**The bottom player counters a leg-weave pass by establishing an underhook and far-leg connection, then rising into dogfight without assuming a completed sweep.**
 
-The Dogfight Position transition is a critical escape pathway from disadvantageous bottom positions in half guard, particularly when trapped under leg weave pressure. This scramble-initiating movement occurs when the bottom player generates enough hip movement and frame pressure to rise onto their elbow and eventually their posting hand, creating a kneeling position where both players compete for underhook dominance.
+The bottom player counters a leg-weave pass by establishing an underhook and far-leg connection, then rising into dogfight without assuming a completed sweep.
 
-The technique represents a fundamental bridge between defensive guard recovery and offensive wrestling-based attacks. Rather than remaining flat and attempting to recover guard structures from bottom, the dogfight entry accepts the scramble and shifts the battle to a more neutral position where wrestling skills, underhook battles, and takedown chains become the primary weapons. The position is named for its resemblance to two dogs competing for dominance—both players on their knees, chest to chest, fighting for control.
+Begin underneath the arm-weaving passer, with a frame protecting the space around your upper body. Use the frame to make room for the underhook without reaching an unsupported arm away from the body.
 
-Strategically, the dogfight is particularly valuable against heavy passers who rely on grinding pressure. By coming up rather than staying flat, you deny their preferred passing mechanics and force them into a scramble they may be less comfortable with. Success requires excellent timing, strong underhook fighting skills, and the ability to chain multiple wrestling-based attacks from the kneeling position.
+Connect the underhook before trying to lift the shoulders and rise underneath the passer. Add the far-leg connection described by the counter while keeping your head and shoulder supported. Come up through the available elbow and knee base while retaining the underhook and leg connection. The success is Dogfight Position/Bottom. A later reversal or pass requires its own completed action.
+
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 **From Position**: [[Positions/Leg Weave]] (Bottom)
-**Success Rate**: 37%
+**Success Rate**: 35%
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Dogfight Position in action — curated instructionals</p>
-
-
-<div class="film-clip film-clip--vertical">
-
-![](https://www.youtube.com/watch?v=InGMvIP5tqg)
-
-<p class="clip-credit"><strong>Three submissions from the dogfight</strong> — taught by Geo Martinez · 1:01 · <a href="https://www.youtube.com/watch?v=InGMvIP5tqg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1i6UncmMfOs)
-
-<p class="clip-credit"><strong>Cat-dog position breakdown</strong> — taught by Absolute MMA St Kilda · 1:18 · <a href="https://www.youtube.com/watch?v=1i6UncmMfOs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K7U2uBUfq-c)
-
-<p class="clip-credit"><strong>Knee shield to underhook to dogfight knee tap</strong> — taught by Kaboom Brazilian Jiu-Jitsu · 2:09 · <a href="https://www.youtube.com/watch?v=K7U2uBUfq-c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -160,8 +84,8 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Dogfight Position]] | 55% |
-| Failure | [[Positions/Leg Weave]] | 25% |
+| Success | [[Positions/Dogfight Position]] | 35% |
+| Failure | [[Positions/Leg Weave]] | 45% |
 | Counter | [[Positions/Side Control]] | 20% |
 
 
@@ -174,7 +98,7 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Timing the rise is critical—come up when opponent's weight s... | Maintain heavy chest-to-chest pressure with low hips to deny... |
+| **Key Principles** | Woven-arm pressure on the legs: Begin underneath the arm-wea... | Keep an upper-body frame between the rising player and your ... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -188,49 +112,49 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 ### Key Principles
 
 
-- Timing the rise is critical—come up when opponent's weight shifts backward or they post their hands forward
+- Woven-arm pressure on the legs: Begin underneath the arm-weaving passer, with a frame protecting the space around your upper body.
 
-- The underhook battle determines who controls the dogfight, so fight aggressively for inside position
+- An upper-body frame before rising: Use the frame to make room for the underhook without reaching an unsupported arm away from the body.
 
-- Maintain chest-to-chest connection throughout to prevent back exposure during the transition
+- Underhook connected to the torso: Connect the underhook before trying to lift the shoulders and rise underneath the passer.
 
-- Use your bottom leg hook as an anchor point while rising, releasing only when you have alternative control
+- Far-leg control beneath the base: Add the far-leg connection described by the counter while keeping your head and shoulder supported.
 
-- Keep your head position tight against their shoulder to prevent crossface and guillotine attacks
+- Elbow-to-knee rise under control: Come up through the available elbow and knee base while retaining the underhook and leg connection.
 
-- Generate upward momentum from your hips and core, not just arm strength pushing off the mat
+- Dogfight before any separate sweep: The success is Dogfight Position/Bottom. A later reversal or pass requires its own completed action.
 
 
 ### Execution Steps
 
 
-- **Establish frame**: From leg weave bottom, drive your near-side forearm into opponent's neck or shoulder to create separ...
+- **Recognize the pressure**: Begin underneath the arm-weaving passer, with a frame protecting the space around your upper body....
 
-- **Create hip angle**: Execute a strong hip escape away from opponent, turning your hips at approximately 45 degrees toward...
+- **Keep inside space**: Use the frame to make room for the underhook without reaching an unsupported arm away from the body....
 
-- **Post elbow**: Drive your near-side elbow into the mat, keeping it tight to your body. Your elbow should post direc...
+- **Establish the underhook**: Connect the underhook before trying to lift the shoulders and rise underneath the passer....
 
-- **Fight for underhook**: As you rise onto your elbow, your near-side arm transitions from framing to aggressively swimming fo...
+- **Connect to the far leg**: Add the far-leg connection described by the counter while keeping your head and shoulder supported....
 
-- **Rise to posting hand**: Continue the upward momentum by transitioning from elbow to posting hand. Keep your chest connected ...
+- **Rise with the connection**: Come up through the available elbow and knee base while retaining the underhook and leg connection....
 
-- **Establish kneeling base**: Complete the transition to kneeling dogfight position with both knees on the mat, chest-to-chest wit...
+- **Stop at dogfight**: The success is Dogfight Position/Bottom. A later reversal or pass requires its own completed action....
 
 
 ### Common Mistakes
 
 
-- **Coming up with shoulders turned away from opponent, exposing the back**
-  - Consequence: Opponent takes back control immediately or establishes crucifix position. What began as an escape attempt becomes a much worse defensive situation.
-  - Correction: Keep your chest facing toward opponent throughout the entire transition. Your shoulder should never rotate past 45 degrees away from them. Come up with your chest seeking their chest, not your back turning toward them.
+- **Skipping recognize the pressure**
+  - Consequence: The next action lacks its required control.
+  - Correction: Begin underneath the arm-weaving passer, with a frame protecting the space around your upper body.
 
-- **Releasing half guard hook too early before establishing kneeling base**
-  - Consequence: Opponent passes guard immediately to side control or mount. You lose the only anchor point preventing the pass without establishing an alternative control structure.
-  - Correction: Maintain the far leg hook throughout the rise until you have both knees on the mat in stable dogfight position. The hook is your insurance policy—only release it when you have secured alternative control.
+- **Skipping keep inside space**
+  - Consequence: The next action lacks its required control.
+  - Correction: Use the frame to make room for the underhook without reaching an unsupported arm away from the body.
 
-- **Posting elbow too far from body, creating weak structural support**
-  - Consequence: Opponent easily collapses the post and flattens you back down. Your elbow buckles under pressure because it lacks proper alignment with your shoulder.
-  - Correction: Post your elbow directly under your shoulder with your forearm vertical. Keep your elbow tight to your ribs during the transition. The posting arm should form a straight line from shoulder through elbow to mat.
+- **Skipping establish the underhook**
+  - Consequence: The next action lacks its required control.
+  - Correction: Connect the underhook before trying to lift the shoulders and rise underneath the passer.
 
 
 </section>
@@ -244,58 +168,39 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 ### Key Principles
 
 
-- Maintain heavy chest-to-chest pressure with low hips to deny the space needed for frame establishment and hip escape angles
+- Keep an upper-body frame between the rising player and your torso.
 
-- Fight the underhook battle proactively—when you feel their arm swimming inside, immediately counter with whizzer or crossface to kill the underhook before it deepens
+- Deny a deep underhook before the bottom player connects to the far leg.
 
-- Recognize the elbow post attempt early and drive your weight into their shoulder before they can establish structural support underneath
+- Keep a stable base while following the player's rise.
 
-- Use the whizzer as both a defensive tool against the underhook and an offensive weapon to threaten darce chokes and flatten the bottom player
+- If the underhook counter stalls, rebuild the leg-weave pressure without twisting the knees.
 
-- If they begin rising despite your pressure, immediately decide whether to drive them back down or capitalize by taking back or completing the pass during their transition
+- If the legs clear, consolidate side control before counting the pass.
 
 
 ### Recognition Cues
 
 
-- Bottom player creates a strong frame on your neck or shoulder and begins hip escaping to create an angle—this is the preparatory phase before the rise attempt
+- Begin underneath the arm-weaving passer, with a frame protecting the space around your upper body.
 
-- You feel their near-side arm swimming aggressively for the underhook beneath your armpit, indicating they are about to commit to the dogfight entry
+- Use the frame to make room for the underhook without reaching an unsupported arm away from the body.
 
-- Bottom player's elbow drives into the mat as they begin shifting weight from their back onto their posting arm, creating the structural support for the rise
-
-- Their head tightens against your shoulder or chest and their chest begins turning toward you rather than staying flat—this signals commitment to coming up rather than shrimping away
+- Connect the underhook before trying to lift the shoulders and rise underneath the passer.
 
 
 ### Defensive Options
 
 
-- **Drive crossface and drop chest pressure immediately when you feel the frame or hip escape beginning** - When: Early phase—when you recognize the frame establishment and hip escape angle before they post their elbow
+- **Keep an upper-body frame between the rising player and your torso.** - When: Before the next connection or pressure is established.
 
-- **Secure deep whizzer on their underhook arm and use it to drive their shoulder to the mat while circling toward their back** - When: Mid-phase—when they have posted their elbow and are fighting for the underhook but have not yet established full kneeling base
+- **Deny a deep underhook before the bottom player connects to the far leg.** - When: Before the next connection or pressure is established.
 
-- **Step over their hook leg as they commit to rising, transitioning to side control or back control** - When: Late phase—when they have committed fully to the rise and their hook becomes loose as they transition to kneeling
-
-
-</section>
-
-
-<section id="variants" class="content-section hide-minimal">
-
-## Variations
-
-
-**Sit-out dogfight entry**: Rather than posting elbow and rising directly, execute a hip heist motion sitting through and turning toward opponent. This variation is useful when opponent has strong crossface but has committed weight forward. (When to use: When opponent drives heavy forward pressure and traditional elbow post is being smothered)
-
-
-**Deep half to dogfight chain**: Enter deep half guard first, then use the sweep momentum to come up directly into dogfight position. This creates a two-stage transition that can be more effective against opponents who counter the direct rise. (When to use: Against opponents who consistently sprawl on your dogfight attempts—the deep half entry forces them to address a different threat first)
-
-
-**No-gi collar tie variation**: In no-gi, establish a collar tie or head control grip before rising rather than underhook. This provides head position control that can set up front headlock attacks if opponent drives into you during the transition. (When to use: No-gi grappling when underhook is heavily contested and you have good snap-down or front headlock skills)
-
+- **Keep a stable base while following the player's rise.** - When: Before the next connection or pressure is established.
 
 
 </section>
+
 
 
 
@@ -303,7 +208,7 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 
 ## Position Integration
 
-The Dogfight Position transition occupies a critical junction in the half guard and leg weave defensive system. It represents the primary escape pathway when guard recovery techniques fail and the passer has established significant control. The position chains directly into wrestling-based attacks including single legs, double legs, and back takes when successful, or can transition to deep half guard as an alternative when the direct rise is countered. From the offensive perspective, understanding the dogfight entry allows passers to anticipate and counter this escape pathway. The position is particularly important in no-gi grappling where traditional guard retention grips are unavailable, making wrestling-based scrambles a more prominent part of the game. Mastery of the dogfight transition fundamentally changes how you can play bottom half guard, adding an offensive dimension to what is otherwise a defensive position.
+The bottom player counters a leg-weave pass by establishing an underhook and far-leg connection, then rising into dogfight without assuming a completed sweep. Begin underneath the arm-weaving passer, with a frame protecting the space around your upper body. The success is Dogfight Position/Bottom. A later reversal or pass requires its own completed action.
 
 </section>
 
@@ -313,23 +218,11 @@ The Dogfight Position transition occupies a critical junction in the half guard 
 ## Related Techniques
 
 
-- [[Positions/Leg Weave]] - Starting position from which this transition is most commonly executed
+- [[Positions/Leg Weave]] - Starting configuration; establish these controls before attempting the action.
 
-- [[Positions/Dogfight Position]] - Target position achieved upon successful completion of this transition
+- [[Positions/Dogfight Position]] - An approved landing or reset; confirm its controls before treating the action as complete.
 
-- [[Positions/Half Guard]] - Parent guard system where dogfight opportunities frequently arise
-
-- [[Positions/Half Guard/Deep Half Guard]] - Alternative escape route when dogfight is countered by opponent's sprawl
-
-- [[Transitions/Back Take]] - Follow-up option from dogfight when opponent's back becomes exposed
-
-- [[Transitions/Old School Sweep]] - Primary follow-up sweep attack from achieved dogfight position with underhook
-
-- [[Transitions/Frame and Shrimp to Guard]] - Prerequisite framing skills needed to create space for the dogfight entry
-
-- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative defensive recovery target if dogfight is not achievable
-
-- [[Positions/Side Control]] - Counter outcome position when opponent successfully prevents the rise and completes pass
+- [[Positions/Side Control]] - An approved landing or reset; confirm its controls before treating the action as complete.
 
 
 </section>

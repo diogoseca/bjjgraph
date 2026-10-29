@@ -524,20 +524,10 @@
       {
         "id": "IuBrliVbU24",
         "title": "3 Steps to a Flying Kneebar",
-        "by": "Bermuda Martial Arts",
-        "vertical": false,
         "channel": "Bermuda Martial Arts",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "l9qAHPNbCfM",
-        "title": "Flying Kneebar Attack",
-        "by": "High Rollerz",
+        "duration": 24,
         "vertical": false,
-        "channel": "High Rollerz Jiu Jitsu 💨🥋",
-        "duration": 16,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -722,22 +712,19 @@
     ],
     "clips": [
       {
-        "id": "wBRG0fY94fs",
-        "title": "How to Defend a Kneebar",
-        "by": "Revolution BJJ",
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar defense + take the back",
+        "channel": "Bicudo BJJ",
+        "duration": 21,
         "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 59,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "NuWBh3LN-SY",
-        "title": "Kneebar Defense to Back Take",
-        "by": "Bicudo BJJ",
-        "vertical": false,
-        "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-14"
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "vertical": false
       }
     ]
   },

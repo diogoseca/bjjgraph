@@ -46,24 +46,12 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg drag pass from closed guard",
-      "description": "Leg Drag Pass film study: Leg drag pass from closed guard, taught by ROJ Europe coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3C4KXdIb3C0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3C4KXdIb3C0",
-      "url": "https://www.youtube.com/watch?v=3C4KXdIb3C0",
-      "creator": { "@type": "Person", "name": "ROJ Europe coach" },
-      "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg drag pass to back take",
-      "description": "Leg Drag Pass film study: Leg drag pass to back take, taught by Ben, Combat Room BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4xplJQ-FFvI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4xplJQ-FFvI",
-      "url": "https://www.youtube.com/watch?v=4xplJQ-FFvI",
-      "creator": { "@type": "Person", "name": "Ben, Combat Room BJJ" },
-      "duration": "PT75S"
+      "name": "Headquarters Position - Leg Drag",
+      "description": "Leg Drag Pass film study: Headquarters Position - Leg Drag.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RZ9cDa-7s1o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RZ9cDa-7s1o",
+      "url": "https://www.youtube.com/watch?v=RZ9cDa-7s1o",
+      "duration": "PT550S"
     }
   ]
 }
@@ -113,17 +101,9 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3C4KXdIb3C0)
+![](https://www.youtube.com/watch?v=RZ9cDa-7s1o)
 
-<p class="clip-credit"><strong>Leg drag pass from closed guard</strong> — taught by ROJ Europe coach · 1:12 · <a href="https://www.youtube.com/watch?v=3C4KXdIb3C0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4xplJQ-FFvI)
-
-<p class="clip-credit"><strong>Leg drag pass to back take</strong> — taught by Ben, Combat Room BJJ · 1:15 · <a href="https://www.youtube.com/watch?v=4xplJQ-FFvI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Headquarters Position - Leg Drag</strong> · 9:10 · <a href="https://www.youtube.com/watch?v=RZ9cDa-7s1o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -303,8 +283,6 @@ The leg drag pass is a central technique in modern Brazilian Jiu-Jitsu passing s
 - [[Transitions/Knee Slice Pass]] - Complementary technique using similar angle creation principles
 
 - [[Transitions/Toreando Pass]] - Follow-up when opponent stands legs to defend drag
-
-- [[Transitions/Back Take]] - Direct transition when opponent turns away defensively
 
 - [[Positions/Side Control]] - Primary ending position for successful leg drag completion
 

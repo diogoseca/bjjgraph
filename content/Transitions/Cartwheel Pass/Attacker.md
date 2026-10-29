@@ -16,7 +16,7 @@ description: "How to execute Cartwheel Pass in BJJ. Attacking perspective with s
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Cartwheel Pass in BJJ",
-  "description": "Step-by-step guide for executing Cartwheel Pass from Grasshopper Guard/Top.",
+  "description": "Step-by-step guide for executing Cartwheel Pass from Inverted Guard/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,7 +79,7 @@ description: "How to execute Cartwheel Pass in BJJ. Attacking perspective with s
       "name": "What position do you start the Cartwheel Pass from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Grasshopper Guard Top, specifically when facing an opponent who has established an inverted guard position with elevated hips and legs threatening leg entanglements or sweeps."
+        "text": "This technique starts from Inverted Guard Top, specifically when facing an opponent who has established an inverted guard position with elevated hips and legs threatening leg entanglements or sweeps."
       }
     },
     {
@@ -92,7 +92,7 @@ description: "How to execute Cartwheel Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Passing grasshopper guard, they rotate their inversion to track your cartwheel: response?",
+      "name": "Passing inverted guard, they rotate their inversion to track your cartwheel: response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the cartwheel attempt and immediately circle back to your original side. Use their rotation against them by attacking the now-exposed opposite angle, as their commitment to following you has created an opening elsewhere."
@@ -170,100 +170,22 @@ description: "How to execute Cartwheel Pass in BJJ. Attacking perspective with s
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Cartwheel Pass (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Cartwheel guard pass",
-      "description": "Cartwheel Pass (Attacker) film study: Cartwheel guard pass, taught by Ground Fighter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZoKpJSqnNXQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZoKpJSqnNXQ",
-      "url": "https://www.youtube.com/watch?v=ZoKpJSqnNXQ",
-      "creator": { "@type": "Person", "name": "Ground Fighter" },
-      "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee cut to cartwheel passing",
-      "description": "Cartwheel Pass (Attacker) film study: Knee cut to cartwheel passing, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_QgRae3Hxvs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_QgRae3Hxvs",
-      "url": "https://www.youtube.com/watch?v=_QgRae3Hxvs",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cartwheel pass mechanics",
-      "description": "Cartwheel Pass (Attacker) film study: Cartwheel pass mechanics, taught by Kenny Florian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VMpIKmeRsTg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VMpIKmeRsTg",
-      "url": "https://www.youtube.com/watch?v=VMpIKmeRsTg",
-      "creator": { "@type": "Person", "name": "Kenny Florian" },
-      "duration": "PT27S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The Cartwheel Pass is an athletic and dynamic technique used to bypass inverted guards, particularly the Grasshopper Guard. When facing an opponent who has inverted with their legs elevated and threatening leg entanglements, the cartwheel motion allows you to vault over their defensive structure entirely, landing directly into side control. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.
+The Cartwheel Pass is an athletic and dynamic technique used to bypass inverted guards, particularly the Inverted Guard. When facing an opponent who has inverted with their legs elevated and threatening leg entanglements, the cartwheel motion allows you to vault over their defensive structure entirely, landing directly into side control. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.
 
 The technique requires committing to the cartwheel motion with conviction, as hesitation mid-pass creates vulnerability to being pulled into the guard player's entanglement system. Your hands plant on the mat beside the opponent's hips, and you rotate your body laterally through the air, allowing your legs to clear their elevated guard completely. The landing must be controlled, transitioning immediately into heavy side control pressure before the opponent can reorganize their defensive structure.
 
 Strategically, the Cartwheel Pass functions best as a surprise element within your passing game. Its athletic nature means it cannot be spammed repeatedly without significant energy expenditure. The optimal timing occurs when the guard player has committed deeply to their inversion, creating space beside their body for your hand placement. Attempting the pass when they are actively adjusting or have legs extended toward you significantly reduces success probability and increases counter risk.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Cartwheel Pass (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZoKpJSqnNXQ)
-
-<p class="clip-credit"><strong>Cartwheel guard pass</strong> — taught by Ground Fighter · 0:16 · <a href="https://www.youtube.com/watch?v=ZoKpJSqnNXQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_QgRae3Hxvs)
-
-<p class="clip-credit"><strong>Knee cut to cartwheel passing</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=_QgRae3Hxvs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=VMpIKmeRsTg)
-
-<p class="clip-credit"><strong>Cartwheel pass mechanics</strong> — taught by Kenny Florian · 0:27 · <a href="https://www.youtube.com/watch?v=VMpIKmeRsTg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -320,7 +242,7 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Counter | [[Positions/Closed Guard]] | 10% |
 
 
@@ -332,9 +254,9 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 
 <p class="section-subtitle">How might your opponent counter Cartwheel Pass?</p>
 
-- **Opponent tracks your movement and rotates their inversion to follow, maintaining leg threat** (Effectiveness: High) - Your Response: Abort the cartwheel and circle back to original side, using their rotation against them by attacking the now-exposed opposite angle → Leads to [[Positions/Grasshopper Guard]]
-- **Opponent extends legs directly at you during cartwheel initiation, catching your hips or legs** (Effectiveness: Medium) - Your Response: Increase cartwheel height and speed to clear the extended legs, or convert to a back step pass if legs catch early → Leads to [[Positions/Grasshopper Guard]]
-- **Opponent posts on hip and technical stands during your aerial transition** (Effectiveness: Medium) - Your Response: Land and immediately transition to front headlock or snap down rather than forcing side control on a recovering opponent → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent tracks your movement and rotates their inversion to follow, maintaining leg threat** (Effectiveness: High) - Your Response: Abort the cartwheel and circle back to original side, using their rotation against them by attacking the now-exposed opposite angle → Leads to [[Positions/Inverted Guard]]
+- **Opponent extends legs directly at you during cartwheel initiation, catching your hips or legs** (Effectiveness: Medium) - Your Response: Increase cartwheel height and speed to clear the extended legs, or convert to a back step pass if legs catch early → Leads to [[Positions/Inverted Guard]]
+- **Opponent posts on hip and technical stands during your aerial transition** (Effectiveness: Medium) - Your Response: Land and immediately transition to front headlock or snap down rather than forcing side control on a recovering opponent → Leads to [[Positions/Inverted Guard]]
 - **Opponent Granby rolls under your landing trajectory, recovering guard as you land** (Effectiveness: Low) - Your Response: Follow their roll and reestablish top position, using their momentum to settle into north-south or repeat passing sequence → Leads to [[Positions/Closed Guard]]
 
 

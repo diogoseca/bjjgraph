@@ -155,28 +155,6 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Piranha Guard (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Lapel guard basics for beginners",
-      "description": "Piranha Guard (Bottom) film study: Lapel guard basics for beginners, taught by Daniel Maira.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xwERZYBqP9Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xwERZYBqP9Q",
-      "url": "https://www.youtube.com/watch?v=xwERZYBqP9Q",
-      "creator": { "@type": "Person", "name": "Daniel Maira" },
-      "duration": "PT250S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,24 +169,6 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Piranha Guard (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xwERZYBqP9Q)
-
-<p class="clip-credit"><strong>Lapel guard basics for beginners</strong> — taught by Daniel Maira · 4:10 · <a href="https://www.youtube.com/watch?v=xwERZYBqP9Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

@@ -46,34 +46,11 @@ description: "Master the knee slice pass from butterfly half guard in BJJ. Learn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Half butterfly guard pass for no-gi",
-      "description": "Knee Slice from Butterfly Half film study: Half butterfly guard pass for no-gi, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
-      "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing butterfly guard with the knee slide",
-      "description": "Knee Slice from Butterfly Half film study: Passing butterfly guard with the knee slide, taught by Coach William.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yo6xI2LammA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yo6xI2LammA",
-      "url": "https://www.youtube.com/watch?v=yo6xI2LammA",
-      "creator": { "@type": "Person", "name": "Coach William" },
-      "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Half butterfly guard pass to knee slice",
-      "description": "Knee Slice from Butterfly Half film study: Half butterfly guard pass to knee slice, taught by Factory Fresh Jiu Jitsu.",
+      "name": "Half Butterfly Guard Pass to Knee Slice.",
+      "description": "Knee Slice from Butterfly Half film study: Half Butterfly Guard Pass to Knee Slice..",
       "thumbnailUrl": "https://i.ytimg.com/vi/jsy9oRpq998/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jsy9oRpq998",
       "url": "https://www.youtube.com/watch?v=jsy9oRpq998",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
       "duration": "PT183S"
     }
   ]
@@ -128,25 +105,9 @@ Strategically, the knee slice from butterfly half guard fills a critical gap in 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
-
-<p class="clip-credit"><strong>Half butterfly guard pass for no-gi</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yo6xI2LammA)
-
-<p class="clip-credit"><strong>Passing butterfly guard with the knee slide</strong> — taught by Coach William · 1:38 · <a href="https://www.youtube.com/watch?v=yo6xI2LammA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=jsy9oRpq998)
 
-<p class="clip-credit"><strong>Half butterfly guard pass to knee slice</strong> — taught by Factory Fresh Jiu Jitsu · 3:03 · <a href="https://www.youtube.com/watch?v=jsy9oRpq998" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Butterfly Guard Pass to Knee Slice.</strong> · 3:03 · <a href="https://www.youtube.com/watch?v=jsy9oRpq998" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

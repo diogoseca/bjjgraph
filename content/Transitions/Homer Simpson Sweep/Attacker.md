@@ -186,35 +186,32 @@ description: "Execute the Homer Simpson Sweep from deep half guard. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Homer Simpson sweep from deep half guard",
-      "description": "Homer Simpson Sweep (Attacker) film study: Homer Simpson sweep from deep half guard, taught by MYALO Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AcLqJoBDBk8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AcLqJoBDBk8",
-      "url": "https://www.youtube.com/watch?v=AcLqJoBDBk8",
-      "creator": { "@type": "Person", "name": "MYALO Martial Arts" },
-      "duration": "PT40S"
+      "name": "Jeff Glover Seminar - deep half guard homer simpson",
+      "description": "Homer Simpson Sweep (Attacker) film study: Jeff Glover Seminar - deep half guard homer simpson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eIbwE6fV0no/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eIbwE6fV0no",
+      "url": "https://www.youtube.com/watch?v=eIbwE6fV0no",
+      "duration": "PT39S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Homer Simpson deep half sweep, seminar clip",
-      "description": "Homer Simpson Sweep (Attacker) film study: Homer Simpson deep half sweep, seminar clip, taught by Jeff Glover.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eIbwE6fV0no/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eIbwE6fV0no",
-      "url": "https://www.youtube.com/watch?v=eIbwE6fV0no",
-      "creator": { "@type": "Person", "name": "Jeff Glover" },
+      "name": "Move of the Month Jan 2023 - Homer Simpson Sweep",
+      "description": "Homer Simpson Sweep (Attacker) film study: Move of the Month Jan 2023 - Homer Simpson Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AcLqJoBDBk8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AcLqJoBDBk8",
+      "url": "https://www.youtube.com/watch?v=AcLqJoBDBk8",
       "duration": "PT39S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Homer Simpson sweep in the gi",
-      "description": "Homer Simpson Sweep (Attacker) film study: Homer Simpson sweep in the gi, taught by The Jiu Jitsu Institute.",
+      "name": "Gi - Homer Simpson Sweep",
+      "description": "Homer Simpson Sweep (Attacker) film study: Gi - Homer Simpson Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hZfvtPFNzaQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hZfvtPFNzaQ",
       "url": "https://www.youtube.com/watch?v=hZfvtPFNzaQ",
-      "creator": { "@type": "Person", "name": "The Jiu Jitsu Institute" },
-      "duration": "PT124S"
+      "duration": "PT123S"
     }
   ]
 }
@@ -242,17 +239,17 @@ The Homer Simpson Sweep attacker operates from deep half guard bottom, using the
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AcLqJoBDBk8)
+![](https://www.youtube.com/watch?v=eIbwE6fV0no)
 
-<p class="clip-credit"><strong>Homer Simpson sweep from deep half guard</strong> — taught by MYALO Martial Arts · 0:40 · <a href="https://www.youtube.com/watch?v=AcLqJoBDBk8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jeff Glover Seminar - deep half guard homer simpson</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=eIbwE6fV0no" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eIbwE6fV0no)
+![](https://www.youtube.com/watch?v=AcLqJoBDBk8)
 
-<p class="clip-credit"><strong>Homer Simpson deep half sweep, seminar clip</strong> — taught by Jeff Glover · 0:39 · <a href="https://www.youtube.com/watch?v=eIbwE6fV0no" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Move of the Month Jan 2023 - Homer Simpson Sweep</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=AcLqJoBDBk8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +257,7 @@ The Homer Simpson Sweep attacker operates from deep half guard bottom, using the
 
 ![](https://www.youtube.com/watch?v=hZfvtPFNzaQ)
 
-<p class="clip-credit"><strong>Homer Simpson sweep in the gi</strong> — taught by The Jiu Jitsu Institute · 2:04 · <a href="https://www.youtube.com/watch?v=hZfvtPFNzaQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gi - Homer Simpson Sweep</strong> · 2:03 · <a href="https://www.youtube.com/watch?v=hZfvtPFNzaQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

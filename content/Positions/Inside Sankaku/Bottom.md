@@ -167,34 +167,11 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
       "@type": "VideoObject",
       "position": 1,
       "name": "Escaping Honey Hole (Inside Sankaku)",
-      "description": "Inside Sankaku (Bottom) film study: Escaping Honey Hole (Inside Sankaku), taught by Oneonta Jiu Jitsu.",
+      "description": "Inside Sankaku (Bottom) film study: Escaping Honey Hole (Inside Sankaku).",
       "thumbnailUrl": "https://i.ytimg.com/vi/PhS9Xj-4KbA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PhS9Xj-4KbA",
       "url": "https://www.youtube.com/watch?v=PhS9Xj-4KbA",
-      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
       "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escape the Inside Ashi Garami Heel Hook",
-      "description": "Inside Sankaku (Bottom) film study: Escape the Inside Ashi Garami Heel Hook, taught by Eddie Cummings.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3xEmPci_szw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3xEmPci_szw",
-      "url": "https://www.youtube.com/watch?v=3xEmPci_szw",
-      "creator": { "@type": "Person", "name": "Eddie Cummings" },
-      "duration": "PT164S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Rolling Out Of Heel Hooks",
-      "description": "Inside Sankaku (Bottom) film study: Rolling Out Of Heel Hooks, taught by Craig Jones \u0026 Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DrjbaXt-nTo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DrjbaXt-nTo",
-      "url": "https://www.youtube.com/watch?v=DrjbaXt-nTo",
-      "creator": { "@type": "Person", "name": "Craig Jones \u0026 Lachlan Giles" },
-      "duration": "PT243S"
     }
   ]
 }
@@ -225,23 +202,7 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 ![](https://www.youtube.com/watch?v=PhS9Xj-4KbA)
 
-<p class="clip-credit"><strong>Escaping Honey Hole (Inside Sankaku)</strong> — taught by Oneonta Jiu Jitsu · 0:56 · <a href="https://www.youtube.com/watch?v=PhS9Xj-4KbA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3xEmPci_szw)
-
-<p class="clip-credit"><strong>Escape the Inside Ashi Garami Heel Hook</strong> — taught by Eddie Cummings · 2:44 · <a href="https://www.youtube.com/watch?v=3xEmPci_szw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DrjbaXt-nTo)
-
-<p class="clip-credit"><strong>Rolling Out Of Heel Hooks</strong> — taught by Craig Jones &amp; Lachlan Giles · 4:03 · <a href="https://www.youtube.com/watch?v=DrjbaXt-nTo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Honey Hole (Inside Sankaku)</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=PhS9Xj-4KbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

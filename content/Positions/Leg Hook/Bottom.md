@@ -155,50 +155,6 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Leg Hook (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Roger windmill half guard sweep",
-      "description": "Leg Hook (Bottom) film study: Roger windmill half guard sweep, taught by SBG Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/X3M6JUqr1Bo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/X3M6JUqr1Bo",
-      "url": "https://www.youtube.com/watch?v=X3M6JUqr1Bo",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Old school half guard sweep",
-      "description": "Leg Hook (Bottom) film study: Old school half guard sweep, taught by Ritchie Yip.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
-      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
-      "creator": { "@type": "Person", "name": "Ritchie Yip" },
-      "duration": "PT12S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lockdown half guard Godfather sweep",
-      "description": "Leg Hook (Bottom) film study: Lockdown half guard Godfather sweep, taught by Coach Paul.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tTroLgpLJ1k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tTroLgpLJ1k",
-      "url": "https://www.youtube.com/watch?v=tTroLgpLJ1k",
-      "creator": { "@type": "Person", "name": "Coach Paul" },
-      "duration": "PT11S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -209,40 +165,6 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Leg Hook (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=X3M6JUqr1Bo)
-
-<p class="clip-credit"><strong>Roger windmill half guard sweep</strong> — taught by SBG Australia · 0:16 · <a href="https://www.youtube.com/watch?v=X3M6JUqr1Bo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Jnc2siD9cak)
-
-<p class="clip-credit"><strong>Old school half guard sweep</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tTroLgpLJ1k)
-
-<p class="clip-credit"><strong>Lockdown half guard Godfather sweep</strong> — taught by Coach Paul · 0:11 · <a href="https://www.youtube.com/watch?v=tTroLgpLJ1k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

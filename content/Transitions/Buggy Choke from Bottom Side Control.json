@@ -17,7 +17,7 @@
   "from_position": "Side Control/Bottom",
   "outcomes": [
     {
-      "to": "Buggy Choke/Top",
+      "to": "Buggy Choke/Bottom",
       "probability": {
         "gi": 45,
         "nogi": 45
@@ -63,7 +63,7 @@
       "relationship": "Target position achieved on successful entry - the locked figure that strangles with the trapped arm"
     },
     {
-      "name": "Finish Buggy Choke",
+      "name": "Buggy Choke from Buggy Choke",
       "relationship": "Follow-up transition that completes the strangle once the buggy figure is locked"
     },
     {
@@ -81,10 +81,6 @@
     {
       "name": "Crucifix",
       "relationship": "Branching attack available from the buggy figure when the top player extends the far arm to base"
-    },
-    {
-      "name": "Hook Leg and Take Back",
-      "relationship": "Branching transition when the top player turns away from the locked buggy figure"
     }
   ],
   "attacker": {
@@ -162,7 +158,7 @@
         "counter": "Top player extends the far arm to base wide and refuses to be turned into",
         "effectiveness": "Low",
         "your_response": "Use the extended far arm to switch to a crucifix entry by trapping that arm with your legs, or keep the figure and patiently turn your hips harder to re-thread the strangle line into their carotid.",
-        "targets_outcome": "Buggy Choke/Top"
+        "targets_outcome": "Side Control/Bottom"
       }
     ],
     "common_errors": [
@@ -320,35 +316,7 @@
       }
     ],
     "safety_considerations": "The buggy choke is a true blood choke that compresses the carotid arteries and can render an opponent unconscious quickly, so finish progressively and release the instant the partner taps verbally or physically. Because the choke is sealed by a leg over the shoulder and a figure-four lock, the opponent's shoulder and neck can be torqued if you crank the hip turn explosively; apply pressure smoothly rather than violently. During drilling, communicate clearly, never spike the entry, and have the bottom partner practice tapping early since this strangle arrives faster than most people expect from a pinned position.",
-    "clips": [
-      {
-        "id": "-b7Avb1x7g8",
-        "title": "The Buggy Choke from bottom side control",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0VDUwuyT6N4",
-        "title": "Fix Your Buggy Choke - common setup errors",
-        "by": "Yoga for BJJ",
-        "vertical": false,
-        "channel": "Yoga for BJJ",
-        "duration": 71,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "cMid9XHfnKg",
-        "title": "North South Buggy Choke breakdown",
-        "by": "Blaise Malabre",
-        "vertical": false,
-        "channel": "Jiu-Jitsu Motivation",
-        "duration": 54,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Buggy Choke from Bottom Side Control Defender",
@@ -482,30 +450,18 @@
     "clips": [
       {
         "id": "q61vmur0g1E",
-        "title": "Buggy choke defense",
-        "by": "Maike Ferreira",
-        "vertical": false,
+        "title": "buggy choke defense",
         "channel": "Maike ferreira team",
-        "duration": 80,
-        "verified": "2026-07-15"
+        "duration": 79,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "U_gLL4x7pLU",
-        "title": "Buggy Choke Defense",
-        "by": "Robby Malof",
-        "vertical": false,
+        "title": "Buggy Choke Defense!!",
         "channel": "Robby Malof",
         "duration": 89,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jMIn4CQ3khE",
-        "title": "Buggy Choke Recovery",
-        "by": "Zach Maslany",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 153,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

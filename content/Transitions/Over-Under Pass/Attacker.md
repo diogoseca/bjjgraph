@@ -186,35 +186,12 @@ description: "How to execute the Over-Under Pass in BJJ. Attacking perspective w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Over Under Pass to Kneebar",
-      "description": "Over-Under Pass (Attacker) film study: Over Under Pass to Kneebar, taught by Owen Livesey.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mk4c5t8Eqd0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mk4c5t8Eqd0",
-      "url": "https://www.youtube.com/watch?v=mk4c5t8Eqd0",
-      "creator": { "@type": "Person", "name": "Owen Livesey" },
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Passing Knee Shield from Over Under Position",
-      "description": "Over-Under Pass (Attacker) film study: Passing Knee Shield from Over Under Position, taught by Paragon Jiu-Jitsu Austin.",
+      "description": "Over-Under Pass (Attacker) film study: Passing Knee Shield from Over Under Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MvsgiCFdQPA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MvsgiCFdQPA",
       "url": "https://www.youtube.com/watch?v=MvsgiCFdQPA",
-      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu Austin" },
-      "duration": "PT116S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Over Under Pass from opponent pulling guard",
-      "description": "Over-Under Pass (Attacker) film study: Over Under Pass from opponent pulling guard, taught by Bernardo Faria.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ehau6wbheEU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ehau6wbheEU",
-      "url": "https://www.youtube.com/watch?v=ehau6wbheEU",
-      "creator": { "@type": "Person", "name": "Bernardo Faria" },
-      "duration": "PT193S"
+      "duration": "PT115S"
     }
   ]
 }
@@ -242,25 +219,9 @@ The Over-Under Pass is a fundamental pressure-based guard passing technique that
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mk4c5t8Eqd0)
-
-<p class="clip-credit"><strong>Over Under Pass to Kneebar</strong> — taught by Owen Livesey · 1:19 · <a href="https://www.youtube.com/watch?v=mk4c5t8Eqd0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=MvsgiCFdQPA)
 
-<p class="clip-credit"><strong>Passing Knee Shield from Over Under Position</strong> — taught by Paragon Jiu-Jitsu Austin · 1:56 · <a href="https://www.youtube.com/watch?v=MvsgiCFdQPA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ehau6wbheEU)
-
-<p class="clip-credit"><strong>Over Under Pass from opponent pulling guard</strong> — taught by Bernardo Faria · 3:13 · <a href="https://www.youtube.com/watch?v=ehau6wbheEU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Knee Shield from Over Under Position</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=MvsgiCFdQPA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

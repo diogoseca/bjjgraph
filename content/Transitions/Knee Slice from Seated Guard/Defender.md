@@ -152,35 +152,22 @@ description: "Defend the knee slice pass from seated guard in BJJ. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Basic knee slide recovery",
-      "description": "Knee Slice from Seated Guard (Defender) film study: Basic knee slide recovery, taught by Vision Brazilian Jiu Jitsu.",
+      "name": "Basic Knee Slide Recovery",
+      "description": "Knee Slice from Seated Guard (Defender) film study: Basic Knee Slide Recovery.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RvIIpXaPyJM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RvIIpXaPyJM",
       "url": "https://www.youtube.com/watch?v=RvIIpXaPyJM",
-      "creator": { "@type": "Person", "name": "Vision Brazilian Jiu Jitsu" },
       "duration": "PT96S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Guard retention against the knee cut pass",
-      "description": "Knee Slice from Seated Guard (Defender) film study: Guard retention against the knee cut pass, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/P4JGqlSKGek/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/P4JGqlSKGek",
-      "url": "https://www.youtube.com/watch?v=P4JGqlSKGek",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT348S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defending the knee cut before it starts",
-      "description": "Knee Slice from Seated Guard (Defender) film study: Defending the knee cut before it starts, taught by Brian Glick.",
+      "name": "Defending The \"Knee Cut\" Guard in BJJ",
+      "description": "Knee Slice from Seated Guard (Defender) film study: Defending The \"Knee Cut\" Guard in BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1kikzEqPZPQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1kikzEqPZPQ",
       "url": "https://www.youtube.com/watch?v=1kikzEqPZPQ",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT179S"
+      "duration": "PT178S"
     }
   ]
 }
@@ -210,15 +197,7 @@ Defending the knee slice from seated guard requires early recognition and proact
 
 ![](https://www.youtube.com/watch?v=RvIIpXaPyJM)
 
-<p class="clip-credit"><strong>Basic knee slide recovery</strong> — taught by Vision Brazilian Jiu Jitsu · 1:36 · <a href="https://www.youtube.com/watch?v=RvIIpXaPyJM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=P4JGqlSKGek)
-
-<p class="clip-credit"><strong>Guard retention against the knee cut pass</strong> — taught by Lachlan Giles · 5:48 · <a href="https://www.youtube.com/watch?v=P4JGqlSKGek" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic Knee Slide Recovery</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=RvIIpXaPyJM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +205,7 @@ Defending the knee slice from seated guard requires early recognition and proact
 
 ![](https://www.youtube.com/watch?v=1kikzEqPZPQ)
 
-<p class="clip-credit"><strong>Defending the knee cut before it starts</strong> — taught by Brian Glick · 2:59 · <a href="https://www.youtube.com/watch?v=1kikzEqPZPQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending The &#34;Knee Cut&#34; Guard in BJJ</strong> · 2:58 · <a href="https://www.youtube.com/watch?v=1kikzEqPZPQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

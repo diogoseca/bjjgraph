@@ -36,39 +36,6 @@ description: "Master New York Control in BJJ. Strategic rubber guard position co
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "New York Control \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Rubber Guard Philosophy",
-      "description": "New York Control film study: Rubber Guard Philosophy, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tWAZbCiWQ9E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tWAZbCiWQ9E",
-      "url": "https://www.youtube.com/watch?v=tWAZbCiWQ9E",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Eddie Bravo explains Rubber Guard",
-      "description": "New York Control film study: Eddie Bravo explains Rubber Guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
-      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT111S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -110,32 +77,6 @@ Competition application demonstrates New York Control's effectiveness in both gi
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch New York Control in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tWAZbCiWQ9E)
-
-<p class="clip-credit"><strong>Rubber Guard Philosophy</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=tWAZbCiWQ9E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
-
-<p class="clip-credit"><strong>Eddie Bravo explains Rubber Guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -208,25 +149,23 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (8% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (9% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (9% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
 
-- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (10% of attempts)
+- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (11% of attempts)
 
-- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (9% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (10% of attempts)
 
-- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (10% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (11% of attempts)
 
-- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (8% of attempts)
-
-- **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** (8% of attempts)
+- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (9% of attempts)
 
 - **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (6% of attempts)
 
-- **[[Submissions/Kimura/from New York Control/Attacker|Kimura from New York Control]]** (8% of attempts)
+- **[[Submissions/Kimura/from New York Control/Attacker|Kimura from New York Control]]** (9% of attempts)
 
 - **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (5% of attempts)
 

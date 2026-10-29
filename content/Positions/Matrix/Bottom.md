@@ -165,35 +165,12 @@ description: "Execute the Matrix back take from bottom position. Technical guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "De La Riva wrist control matrix back take",
-      "description": "Matrix (Bottom) film study: De La Riva wrist control matrix back take, taught by Luciana Marcos.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DvD3VVl1kDk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DvD3VVl1kDk",
-      "url": "https://www.youtube.com/watch?v=DvD3VVl1kDk",
-      "creator": { "@type": "Person", "name": "Luciana Marcos" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The no-gi matrix back take",
-      "description": "Matrix (Bottom) film study: The no-gi matrix back take, taught by LangakerBjj.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BWDsJPV7iPA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BWDsJPV7iPA",
-      "url": "https://www.youtube.com/watch?v=BWDsJPV7iPA",
-      "creator": { "@type": "Person", "name": "LangakerBjj" },
-      "duration": "PT96S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Set up and finish the matrix",
-      "description": "Matrix (Bottom) film study: Set up and finish the matrix, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/H0SUb0Eo168/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/H0SUb0Eo168",
-      "url": "https://www.youtube.com/watch?v=H0SUb0Eo168",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT132S"
+      "name": "The Complete Matrix Guide",
+      "description": "Matrix (Bottom) film study: The Complete Matrix Guide.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NjF4195IuW0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NjF4195IuW0",
+      "url": "https://www.youtube.com/watch?v=NjF4195IuW0",
+      "duration": "PT1131S"
     }
   ]
 }
@@ -231,25 +208,9 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DvD3VVl1kDk)
+![](https://www.youtube.com/watch?v=NjF4195IuW0)
 
-<p class="clip-credit"><strong>De La Riva wrist control matrix back take</strong> — taught by Luciana Marcos · 0:59 · <a href="https://www.youtube.com/watch?v=DvD3VVl1kDk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BWDsJPV7iPA)
-
-<p class="clip-credit"><strong>The no-gi matrix back take</strong> — taught by LangakerBjj · 1:36 · <a href="https://www.youtube.com/watch?v=BWDsJPV7iPA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=H0SUb0Eo168)
-
-<p class="clip-credit"><strong>Set up and finish the matrix</strong> — taught by Jon Thomas · 2:12 · <a href="https://www.youtube.com/watch?v=H0SUb0Eo168" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Complete Matrix Guide</strong> · 18:51 · <a href="https://www.youtube.com/watch?v=NjF4195IuW0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

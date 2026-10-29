@@ -186,35 +186,12 @@ description: "How to execute the transition from side control to Kesa Gatame in 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kesa gatame attacks",
-      "description": "Side Control to Kesa Gatame (Attacker) film study: Kesa gatame attacks, taught by Johnny Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
-      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
-      "duration": "PT88S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Side control to kesa gatame series",
-      "description": "Side Control to Kesa Gatame (Attacker) film study: Side control to kesa gatame series, taught by Edward Anthony.",
+      "name": "Side Control - Kesa-gatame Series",
+      "description": "Side Control to Kesa Gatame (Attacker) film study: Side Control - Kesa-gatame Series.",
       "thumbnailUrl": "https://i.ytimg.com/vi/k5V2_rdKXW8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/k5V2_rdKXW8",
       "url": "https://www.youtube.com/watch?v=k5V2_rdKXW8",
-      "creator": { "@type": "Person", "name": "Edward Anthony" },
       "duration": "PT172S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Basic judo hold downs including kesa gatame",
-      "description": "Side Control to Kesa Gatame (Attacker) film study: Basic judo hold downs including kesa gatame, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jwArJKRlJ8o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jwArJKRlJ8o",
-      "url": "https://www.youtube.com/watch?v=jwArJKRlJ8o",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT211S"
     }
   ]
 }
@@ -242,25 +219,9 @@ Executing the transition to Kesa Gatame from side control requires a coordinated
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
-
-<p class="clip-credit"><strong>Kesa gatame attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=k5V2_rdKXW8)
 
-<p class="clip-credit"><strong>Side control to kesa gatame series</strong> — taught by Edward Anthony · 2:52 · <a href="https://www.youtube.com/watch?v=k5V2_rdKXW8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jwArJKRlJ8o)
-
-<p class="clip-credit"><strong>Basic judo hold downs including kesa gatame</strong> — taught by Shintaro Higashi · 3:31 · <a href="https://www.youtube.com/watch?v=jwArJKRlJ8o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control - Kesa-gatame Series</strong> · 2:52 · <a href="https://www.youtube.com/watch?v=k5V2_rdKXW8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

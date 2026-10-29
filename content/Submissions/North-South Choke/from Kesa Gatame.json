@@ -434,26 +434,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "z3RNUfHfiSM",
-        "title": "Marcelo Garcia - North South Choke",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Kon Ying",
-        "duration": 20,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "SPXanCnoBYA",
-        "title": "North South Choke as a Pinning Tool",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 135,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Kesa Gatame Defender",
@@ -640,34 +621,6 @@
         "description": "Positional rounds starting from Kesa Gatame with the top player using the North-South Choke among other attacks at full resistance. Defender works all available defenses and escapes. Two-minute rounds with roles switching. Track success rate and identify which defensive phase needs the most work."
       }
     ],
-    "clips": [
-      {
-        "id": "XaLBmGnHm78",
-        "title": "North South inverted spin escape",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "JgVZpD0yZPk",
-        "title": "North South lapel sweep from bottom",
-        "by": "Edward Anthony",
-        "vertical": false,
-        "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
-        "duration": 82,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "rmT52A--V3Q",
-        "title": "How to escape North South",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 203,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

@@ -176,39 +176,6 @@ description: "How to execute Sit to Half Guard in BJJ. Attacking perspective wit
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Sit to Half Guard (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Turtle to Half Guard",
-      "description": "Sit to Half Guard (Attacker) film study: Turtle to Half Guard, taught by Bernardo Faria.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pTLNsCv1aCw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pTLNsCv1aCw",
-      "url": "https://www.youtube.com/watch?v=pTLNsCv1aCw",
-      "creator": { "@type": "Person", "name": "Bernardo Faria" },
-      "duration": "PT216S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Turtle Guard Sweeps and Reversals",
-      "description": "Sit to Half Guard (Attacker) film study: Turtle Guard Sweeps and Reversals, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jNC34nzjpOg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jNC34nzjpOg",
-      "url": "https://www.youtube.com/watch?v=jNC34nzjpOg",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT249S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -225,32 +192,6 @@ Strategically, this technique is most valuable when grip prevention has failed a
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Sit to Half Guard (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pTLNsCv1aCw)
-
-<p class="clip-credit"><strong>Turtle to Half Guard</strong> — taught by Bernardo Faria · 3:36 · <a href="https://www.youtube.com/watch?v=pTLNsCv1aCw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jNC34nzjpOg)
-
-<p class="clip-credit"><strong>Turtle Guard Sweeps and Reversals</strong> — taught by Stephan Kesting · 4:09 · <a href="https://www.youtube.com/watch?v=jNC34nzjpOg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -308,9 +249,9 @@ Strategically, this technique is most valuable when grip prevention has failed a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 55% |
-| Failure | [[Positions/Buggy Choke]] | 25% |
-| Counter | [[Positions/Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Buggy Choke]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -321,7 +262,7 @@ Strategically, this technique is most valuable when grip prevention has failed a
 
 <p class="section-subtitle">How might your opponent counter Sit to Half Guard?</p>
 
-- **Opponent follows your sit and immediately takes the back with hooks** (Effectiveness: High) - Your Response: Accelerate the sitting motion and immediately hip escape away while inserting knee shield. Prioritize facing opponent over protecting your back during the transition window. → Leads to [[Positions/Back Control]]
+- **Opponent follows your sit and immediately takes the back with hooks** (Effectiveness: High) - Your Response: Accelerate the sitting motion and immediately hip escape away while inserting knee shield. Prioritize facing opponent over protecting your back during the transition window. → Leads to [[Positions/Side Control]]
 - **Opponent maintains collar grip and transitions to side control collar choke** (Effectiveness: Medium) - Your Response: Strip the collar grip aggressively during the sitting motion using two-on-one grip breaking. The structural change during sitting is your best opportunity to break grips. → Leads to [[Positions/Buggy Choke]]
 - **Opponent sprawls weight heavily to prevent hip movement and flatten you** (Effectiveness: Medium) - Your Response: If sprawl prevents sitting, switch to granby roll escape in the opposite direction. The sprawl commits their weight forward, creating space behind you for the roll. → Leads to [[Positions/Buggy Choke]]
 - **Opponent switches to darce or anaconda as you turn into them** (Effectiveness: Medium) - Your Response: Keep chin tucked and shoulder elevated during the turn. If head gets trapped, continue sitting motion to reduce choking leverage and immediately fight for underhook. → Leads to [[Positions/Buggy Choke]]

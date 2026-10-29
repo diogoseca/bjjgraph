@@ -186,34 +186,21 @@ description: "Execute the Sweep from Matrix in BJJ. Technical guide to hip eleva
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "De La Riva sweep into the matrix",
-      "description": "Sweep from Matrix (Attacker) film study: De La Riva sweep into the matrix, taught by Unknown coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pcOF-B4y09Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pcOF-B4y09Q",
-      "url": "https://www.youtube.com/watch?v=pcOF-B4y09Q",
-      "creator": { "@type": "Person", "name": "Unknown coach" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-gi matrix back take off the leg drag",
-      "description": "Sweep from Matrix (Attacker) film study: No-gi matrix back take off the leg drag, taught by Langaker BJJ coach.",
+      "name": "The NoGi matrix backtake",
+      "description": "Sweep from Matrix (Attacker) film study: The NoGi matrix backtake.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BWDsJPV7iPA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BWDsJPV7iPA",
       "url": "https://www.youtube.com/watch?v=BWDsJPV7iPA",
-      "creator": { "@type": "Person", "name": "Langaker BJJ coach" },
       "duration": "PT96S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Setting up and finishing the matrix",
-      "description": "Sweep from Matrix (Attacker) film study: Setting up and finishing the matrix, taught by Jon Thomas.",
+      "position": 2,
+      "name": "How to Set up \u0026 Finish the Matrix (EVERY TIME!)",
+      "description": "Sweep from Matrix (Attacker) film study: How to Set up \u0026 Finish the Matrix (EVERY TIME!).",
       "thumbnailUrl": "https://i.ytimg.com/vi/H0SUb0Eo168/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/H0SUb0Eo168",
       "url": "https://www.youtube.com/watch?v=H0SUb0Eo168",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
       "duration": "PT132S"
     }
   ]
@@ -242,17 +229,9 @@ From the attacker perspective, the Sweep from Matrix transforms the bottom posit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pcOF-B4y09Q)
-
-<p class="clip-credit"><strong>De La Riva sweep into the matrix</strong> — taught by Unknown coach · 0:36 · <a href="https://www.youtube.com/watch?v=pcOF-B4y09Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=BWDsJPV7iPA)
 
-<p class="clip-credit"><strong>No-gi matrix back take off the leg drag</strong> — taught by Langaker BJJ coach · 1:36 · <a href="https://www.youtube.com/watch?v=BWDsJPV7iPA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The NoGi matrix backtake</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=BWDsJPV7iPA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +239,7 @@ From the attacker perspective, the Sweep from Matrix transforms the bottom posit
 
 ![](https://www.youtube.com/watch?v=H0SUb0Eo168)
 
-<p class="clip-credit"><strong>Setting up and finishing the matrix</strong> — taught by Jon Thomas · 2:12 · <a href="https://www.youtube.com/watch?v=H0SUb0Eo168" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Set up &amp; Finish the Matrix (EVERY TIME!)</strong> · 2:12 · <a href="https://www.youtube.com/watch?v=H0SUb0Eo168" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

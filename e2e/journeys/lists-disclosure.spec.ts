@@ -258,15 +258,15 @@ test("clicking a listed technique opens its dossier — the same move as a share
     await page.evaluate(() => {
       const a = (window as any).__neural;
       const el = a._landEl;
-      const body = a._landMoreEl ? a._landMoreEl.querySelector("[data-land-more-body]") : null;
       return {
         card: !!el,
         idx: a._landIdx,
-        unfolded: body ? body.style.display : null,
       };
     }),
     "the item opens the node it names, in the game's own card",
   ).toMatchObject({ card: true, idx: want });
+  // D-336: opened means visible, not only built (D-318's reader gate hides an unpublished card).
+  await expect(page.locator("[data-landcard]"), "the item opens the node it names, in a visible game card").toBeVisible();
 });
 
 // ─────────────────────────────────────────────── 4. removing one

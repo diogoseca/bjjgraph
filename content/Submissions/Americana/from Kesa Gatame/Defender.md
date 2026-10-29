@@ -162,35 +162,12 @@ description: "Complete defensive guide for surviving and escaping the Americana 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Scarf Hold Headlock Escape",
-      "description": "Americana from Kesa Gatame (Defender) film study: Scarf Hold Headlock Escape, taught by Clinch BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c5GUAlY1YwE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c5GUAlY1YwE",
-      "url": "https://www.youtube.com/watch?v=c5GUAlY1YwE",
-      "creator": { "@type": "Person", "name": "Clinch BJJ" },
-      "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to escape kesa gatame",
-      "description": "Americana from Kesa Gatame (Defender) film study: How to escape kesa gatame, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sEmKk3m8nwE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sEmKk3m8nwE",
-      "url": "https://www.youtube.com/watch?v=sEmKk3m8nwE",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT368S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Quick kesa gatame escape",
-      "description": "Americana from Kesa Gatame (Defender) film study: Quick kesa gatame escape, taught by SBG Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
-      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT43S"
+      "name": "BJJ Techniques: Escape Kesa Gatame Leg Americana",
+      "description": "Americana from Kesa Gatame (Defender) film study: BJJ Techniques: Escape Kesa Gatame Leg Americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R9pryxCaovU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R9pryxCaovU",
+      "url": "https://www.youtube.com/watch?v=R9pryxCaovU",
+      "duration": "PT317S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Defending the Americana from Kesa Gatame requires recognizing the submission thr
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=c5GUAlY1YwE)
+![](https://www.youtube.com/watch?v=R9pryxCaovU)
 
-<p class="clip-credit"><strong>Scarf Hold Headlock Escape</strong> — taught by Clinch BJJ · 2:21 · <a href="https://www.youtube.com/watch?v=c5GUAlY1YwE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sEmKk3m8nwE)
-
-<p class="clip-credit"><strong>How to escape kesa gatame</strong> — taught by Travis Stevens · 6:08 · <a href="https://www.youtube.com/watch?v=sEmKk3m8nwE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2M_6VytUaus)
-
-<p class="clip-credit"><strong>Quick kesa gatame escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Techniques: Escape Kesa Gatame Leg Americana</strong> · 5:17 · <a href="https://www.youtube.com/watch?v=R9pryxCaovU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -48,24 +48,13 @@ description: "Master North-South position in BJJ. Complete guide covering top co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "North-South choke",
-      "description": "North-South film study: North-South choke, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
-      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Taking the back from North-South",
-      "description": "North-South film study: Taking the back from North-South, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aAitcEHUcRE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aAitcEHUcRE",
-      "url": "https://www.youtube.com/watch?v=aAitcEHUcRE",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT53S"
+      "name": "4th stripe - North South inverted spin escape",
+      "description": "North-South film study: 4th stripe - North South inverted spin escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
+      "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT36S"
     }
   ]
 }
@@ -124,17 +113,9 @@ The position demands different strategic approaches based on whether you're esta
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+![](https://www.youtube.com/watch?v=XaLBmGnHm78)
 
-<p class="clip-credit"><strong>North-South choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aAitcEHUcRE)
-
-<p class="clip-credit"><strong>Taking the back from North-South</strong> — taught by Stephan Kesting · 0:53 · <a href="https://www.youtube.com/watch?v=aAitcEHUcRE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4th stripe - North South inverted spin escape</strong> — taught by SBG Australia · 0:36 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -293,25 +274,23 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[Submissions/North-South Choke/from North-South/Attacker|North-South Choke from North-South]]** (18% of attempts)
+- **[[Submissions/North-South Choke/from North-South/Attacker|North-South Choke from North-South]]** (20% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (13% of attempts)
 
-- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (19% of attempts)
+- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (21% of attempts)
 
-- **[[Transitions/Armbar from North-South/Attacker|Armbar from North-South]]** (6% of attempts)
+- **[[Transitions/Armbar from North-South/Attacker|Armbar from North-South]]** (7% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
 
 - **[[Submissions/Americana/from North-South/Attacker|Americana from North-South]]** (4% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (8% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (9% of attempts)
 
-- **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (9% of attempts)
 
-- **[[Transitions/Reverse Mount Transition/Attacker|Reverse Mount Transition]]** (5% of attempts)
-
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (10% of attempts)
+- **[[Transitions/Reverse Mount Transition/Attacker|Reverse Mount Transition]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -381,7 +360,7 @@ The position demands different strategic approaches based on whether you're esta
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: North-South.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: North-South.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie: Closed Guard</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura — Enter The System</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak: Outside Passing and Finishing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

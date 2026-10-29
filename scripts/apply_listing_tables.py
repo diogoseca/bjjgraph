@@ -342,6 +342,8 @@ def _drop_listing(data, role, move):
 
 
 def apply(prov, write, check):
+    from _restructure_supersession import RestructureSupersession
+    supersession = RestructureSupersession(ROOT)
     pos = _positions()
     techs = _techniques()
     edits, problems = {}, []
@@ -354,6 +356,8 @@ def apply(prov, write, check):
     for d in prov["deal_here"]:
         if not d["restore"]:
             continue
+        if supersession.hand(d["file"], d["role"]):
+            continue
         data = load(d["file"])
         t = _listing(data, d["role"], d["move"])
         if t is None:
@@ -362,6 +366,8 @@ def apply(prov, write, check):
             problems.append(f"deal_here: {d['listing']} {d['move']} not flagged")
             t["deal_here"] = True
     for r in prov["rehome"]:
+        if supersession.technique(r["move"]):
+            continue
         rel = techs[r["move"]]
         t = load(rel)
         want_from = _display(r["listing"], pos)
@@ -391,6 +397,8 @@ def apply(prov, write, check):
     over = json.loads(over_p.read_text(encoding="utf-8"))
     vdirty = odirty = False
     for r in prov["rehome"]:
+        if supersession.technique(r["move"], votes["votes"]):
+            continue
         sr = r["result"]["success_rate"]
         want_o = {"gi": sr["gi"], "nogi": sr["nogi"], "verdict": "rehome",
                   "reason": (f"Re-homed from {r['old_origin']} to {r['listing']} (origin coherence, phase 2): "
@@ -413,6 +421,8 @@ def apply(prov, write, check):
             e["prior"] = want_p
             vdirty = True
     for h in prov.get("hands", []):
+        if supersession.hand(h["file"], h["role"]):
+            continue
         data = load(h["file"])
         trans = data[h["role"]]["transitions"]
         now = [{"move": t["transition"], **{f: t["attempt_probability"][f] for f in FRAMES}} for t in trans]
@@ -427,6 +437,7 @@ def apply(prov, write, check):
         for r in h["after"]:
             for f in FRAMES:
                 by[r["move"]]["attempt_probability"][f] = r[f]
+    supersession.report()
     if check:
         print(f"[listing_tables] check: {sum(1 for d in prov['deal_here'] if d['restore'])} deal_here, "
               f"{len(prov['rehome'])} rehome(s), {len(prov.get('hands', []))} hand(s); "
@@ -524,6 +535,8 @@ def apply_listings(prov, write, check):
     - A gi-only table (its no-gi rate null) gets a null no-gi ATTEMPT on that listing, with the rest
       of the hand renormalised (D3); the wire then names it in `absentAt` (v1.215.0).
     Idempotent: a second run changes nothing. `check` reports differences and exits 1 on any."""
+    from _restructure_supersession import RestructureSupersession
+    supersession = RestructureSupersession(ROOT)
     pos = _positions()
     rekeys, drops = _alias_decisions(prov)
     if rekeys:
@@ -546,6 +559,8 @@ def apply_listings(prov, write, check):
             continue
         slug, role = t["listing"].rsplit("/", 1)
         rel = pos[slug][0]
+        if supersession.hand(rel, role):
+            continue
         data = load(rel)
         e = _listing(data, role, t["move"])
         if e is None:
@@ -569,6 +584,7 @@ def apply_listings(prov, write, check):
                 problems.append(f"{t['key']}: {f} attempt nulled, hand renormalised")
                 renormalised += 1
         applied += 1
+    supersession.report()
     print(f"[listing_tables] listing tables: {applied} applied ({applied - gi_only} in both frames, {gi_only} gi-only; "
           f"{renormalised} no-gi attempt(s) nulled and renormalised now), {len(dropped)} dropped, "
           f"{len(prov['tables'])} held")

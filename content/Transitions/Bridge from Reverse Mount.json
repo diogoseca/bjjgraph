@@ -90,10 +90,6 @@
       "relationship": "Submission threat - primary danger motivating urgency of bridge escape from reverse mount bottom"
     },
     {
-      "name": "Back Take",
-      "relationship": "Opponent counter option - primary threat the top player uses during bridge transition to advance position"
-    },
-    {
       "name": "Mount",
       "relationship": "Position family - reverse mount is a variant with different escape dynamics requiring adapted bridging angles"
     },
@@ -368,35 +364,7 @@
       }
     ],
     "safety_considerations": "The Bridge from Reverse Mount involves explosive spinal extension under load from the opponent's body weight. Warm up the lower back, glutes, and hip flexors thoroughly before drilling this technique. Avoid hyperextension of the cervical spine during the bridge—keep the chin tucked firmly to protect neck vertebrae throughout the movement. When drilling with partners, communicate clearly about intensity levels and ensure the top player is prepared for the bridge to avoid being displaced unexpectedly onto the mat. Practitioners with pre-existing lower back conditions should modify bridge amplitude and consult their instructor for safe alternatives. Always drill on adequately padded surfaces.",
-    "clips": [
-      {
-        "id": "XQ4fwGrXV2Q",
-        "title": "Reverse mount scrambles and reversals",
-        "by": "Jamie",
-        "vertical": false,
-        "channel": "jamielovesmartialarts",
-        "duration": 23,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0xYFYI9LkUQ",
-        "title": "Rolling the opponent to the far side with a near hook",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 144,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3RbOD9fhi20",
-        "title": "Running man escape from the back and reverse mount",
-        "by": "Jiu Jitsu Modern",
-        "vertical": false,
-        "channel": "JIU JITSU MODERN",
-        "duration": 210,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Bridge from Reverse Mount Defender",
@@ -560,25 +528,6 @@
         "description": "Start in reverse mount with full resistance. Top player must either maintain position for 30 seconds, advance to back control, or convert to standard mount. Bottom player uses all available escapes including bridges, hip escapes, and frames. Track success rates for maintaining position versus advancing to superior positions."
       }
     ],
-    "clips": [
-      {
-        "id": "kft2AkvKhWU",
-        "title": "Best way to control and retain the mount",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 538,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "DSJJyA-2HKU",
-        "title": "Basic ways to flatten an opponent out on top",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 813,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

@@ -570,30 +570,25 @@
     "clips": [
       {
         "id": "uFWM0vLzkgI",
-        "title": "Duck under entries from the tie-up",
-        "by": "Artur",
-        "vertical": false,
+        "title": "Unstoppable duck unders",
         "channel": "Artur",
-        "duration": 40,
-        "verified": "2026-07-15"
+        "duration": 39,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "gzkAdcW9oms",
-        "title": "Duck under to shuck takedown combo",
-        "by": "Finesse Jiu-Jitsu",
-        "vertical": false,
+        "title": "Slick Moves: Master the Duck Under to Shuck Takedown Combo for Wrestling & BJJ…",
         "channel": "FINESSE JIUJITSU HTX",
         "duration": 67,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "UVtw4quZa0E",
-        "title": "Duck under to back take",
-        "by": "Carpio Jiu Jitsu",
-        "vertical": false,
+        "title": "Week 13b: Duck Under to Back Take",
         "channel": "Carpio Jiu Jitsu",
         "duration": 89,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -842,34 +837,6 @@
         "description": "Full-speed positional sparring from clinch where partner may or may not attempt the duck under alongside other clinch attacks. Develop the ability to defend the duck under while maintaining your own offensive clinch strategy, avoiding the trap of becoming overly defensive and passive against the threat."
       }
     ],
-    "clips": [
-      {
-        "id": "WibJetQ_YeM",
-        "title": "Stopping the opponent's first move (duck under defense)",
-        "by": "Wrestling coach",
-        "vertical": false,
-        "channel": "WrestlingTournaments․com",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lDucv2EJ1gM",
-        "title": "Defense and Counter Offense from the Tie-Up",
-        "by": "Jordan Burroughs",
-        "vertical": false,
-        "channel": "RUDIS",
-        "duration": 260,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uIQJxBOoBoo",
-        "title": "Breaking Away from the Over-Under Clinch",
-        "by": "Danny Mitchell",
-        "vertical": false,
-        "channel": "Danny Mitchell MMA",
-        "duration": 237,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

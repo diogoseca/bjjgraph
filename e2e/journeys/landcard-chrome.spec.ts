@@ -42,65 +42,21 @@ const seedFilm = (page: any) =>
     a.renderLandCard(a.nodes[a.currentPos], "land", null);
   });
 
-test("the film strip spans exactly the card it sits on, outer AND content box @curated", async ({ page }) => {
+// The former film/card alignment assertion is superseded by the approved A layout.
+// reading-media-placement.spec.ts pins both measured normal-home geometries.
+
+// RETIRED in part (D-338, no View menu): the article view has no Book minimize. Book off survives
+// only as a saved state, whose shelf keeps the restore control; that half keeps its claim.
+test("Book restore keeps a readable, reachable control @curated", async ({ page }) => {
   const j = journey(page);
-  await j.boot("/");
+  await j.boot("/", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } });
   await j.land("Mount Top");
-  await seedFilm(page);
-  await page.waitForTimeout(400);
-
-  const geo = await page.evaluate(() => {
-    const f = document.querySelector("[data-land-film]") as HTMLElement;
-    const c = document.querySelector(".ng-landcard") as HTMLElement;
-    const inner = (el: HTMLElement) => {
-      const b = el.getBoundingClientRect(), cs = getComputedStyle(el);
-      return [Math.round(b.left + parseFloat(cs.paddingLeft)), Math.round(b.right - parseFloat(cs.paddingRight))];
-    };
-    const outer = (el: HTMLElement) => {
-      const b = el.getBoundingClientRect();
-      return [Math.round(b.left), Math.round(b.right)];
-    };
-    return { filmOuter: outer(f), cardOuter: outer(c), filmInner: inner(f), cardInner: inner(c) };
-  });
-  // measured before the fix at 390x844: film [16,374] vs card [10,380]
-  expect(geo.filmOuter, "same box as the card").toEqual(geo.cardOuter);
-  expect(geo.filmInner, "and the thumbnails line up with the text above them").toEqual(geo.cardInner);
-});
-
-test("More -> Less leaves the toggle readable, not black @curated", async ({ page }) => {
-  const j = journey(page);
-  await j.boot("/");
-  await j.land("Mount Top");
-  await seedFilm(page);
-  await page.waitForTimeout(300);
-
-  const read = () =>
-    page.evaluate(() => {
-      const el = document.querySelector("[data-land-more]") as HTMLElement;
-      // BOTH: the computed colour is what the user sees, the inline one is what the code wrote.
-      // `color` carries a .16s transition, so a computed read taken in the same tick as the write
-      // still returns the OLD value — measure after settling, and keep the inline value as the
-      // statement of intent.
-      return el ? { computed: getComputedStyle(el).color, inline: el.style.color } : null;
-    });
-
-  const before = await read();
-  expect(before, "the fold must exist (content is authored above)").toBeTruthy();
-
-  await page.evaluate(() => (window as any).__neural.expandLandCard(true));
-  await page.waitForTimeout(260);
-  const open = await read();
-
-  await page.evaluate(() => (window as any).__neural.expandLandCard(false));
-  await page.waitForTimeout(260);
-  const after = await read();
-
-  // THE BUG: `style.color = ""` deleted the inline declaration instead of restoring it, so the
-  // collapsed button inherited and computed to black.
-  expect(after!.inline, "collapsing RESTORES a colour, it does not clear one").not.toBe("");
-  expect(after!.computed, "and it is the resting colour again").toBe(before!.computed);
-  expect(after!.computed, "certainly not black on a #131625 card").not.toBe("rgb(0, 0, 0)");
-  expect(open!.computed, "open is brighter, so the toggle still reads as active").not.toBe(before!.computed);
+  await expect(page.locator('.ng-reader-article')).toBeHidden();
+  const color = await page.locator('[data-layer-show="book"]').evaluate(el => getComputedStyle(el).color);
+  expect(color, "the restore control is never the UA default black").not.toBe("rgb(0, 0, 0)");
+  await j.clickByMouse('[data-layer-show="book"]');
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+  await expect(page.locator('.ng-reader-article')).toBeVisible();
 });
 
 test("the question corner keeps its close button and count; capture belongs to the seat", async ({ page }) => {
@@ -109,6 +65,10 @@ test("the question corner keeps its close button and count; capture belongs to t
   await j.land("Mount Top");
   await seedFilm(page);
   await page.waitForTimeout(300);
+  await j.openQuestion(); // U47 d: the deck count shows on the card, once the question is taken up
+  // D-338: Questions follows Videos and Moves and can start below the fold; scroll to it first.
+  await page.locator(".ng-landcard").evaluate(e => e.scrollIntoView({ block: "nearest" }));
+  await j.readerLayoutSettled();
   const m = await page.evaluate(() => {
     const card = document.querySelector(".ng-landcard") as HTMLElement;
     const x = card.querySelector("[data-land-close]") as HTMLElement;
@@ -127,7 +87,8 @@ test("the question corner keeps its close button and count; capture belongs to t
   expect(m.countBelow).toBe(true);
   expect(m.hit).toBe(true);
   expect(m.stars).toBe(0);
-  await expect(page.locator("[data-seat-star]")).toBeVisible();
+  await expect(page.locator('[data-seat-star][data-list-add="Positions/Mount"]')).toHaveCount(1);
+  await expect(page.locator('[data-seat-star][data-list-add="Positions/Mount"]')).toBeVisible();
 });
 
 test("the clip hover is a hint, not a flash", async ({ page }) => {

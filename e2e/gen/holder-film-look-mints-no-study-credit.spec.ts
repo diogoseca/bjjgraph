@@ -1,40 +1,13 @@
-/* @hyperspace {"theme":"unlock-economy","L":"white-belt-holder","F":"film-study","B":"economy-math"} @invariant "Film study pumps odds but never the study ledger: a watchShort that fires film_first_look leaves the prep map deep-equal, cardsToday unchanged, no lesson_done beat, and the Challenges-view lesson census untouched — the +4 lives entirely in moveChance, the film and study economies are disjoint." */
+// v1.230.0 reverses v1.218.1/v1.220.0 Inspect and watch-on-open. Real Watch and player clicks retain the film economy assertions.
+/* @hyperspace {"theme":"unlock-economy","L":"white-belt-holder","F":"film-study","B":"economy-math"} @invariant "Film study pumps odds but never the study ledger: explicit playback that fires film_first_look leaves the prep map deep-equal, cardsToday unchanged, no lesson_done beat, and the Challenges-view lesson census untouched — the +4 lives entirely in moveChance, the film and study economies are disjoint." */
 import { test, expect, type Page } from "@playwright/test"
 import { journey, type Journey } from "../dsl"
+import { openChoiceVideo, playChoiceVideo } from "../fixtures/video-cards"
 import { whiteBeltHolder, CURRICULUM } from "./personas"
 
-/**
- * FILM ECONOMY ⊥ STUDY ECONOMY — a white-belt holder watches a film-study Short.
- *
- * The film first-look mints +4 displayed odds, but it must mint ZERO study credit: the prep
- * map stays deep-equal, cardsToday stays 0, _days stays empty, no lesson_done fires, no
- * bonus_pumped fires, and the Challenges view's rendered done-census is byte-identical to
- * the pre-watch predicate census. whiteBeltHolder is the sharpest lens for this: every white
- * lesson is seeded prep=3 (the prep map is NON-empty, so deep-equal can't pass vacuously)
- * and every white unit summary renders "N of N lessons" — a single stray credit would flip
- * a count somewhere.
- *
- * Source seams (verified against neural/src/app.src.jsx):
- *   - watchShort (:4095-4117) → expandClip fires short_watched {id} (:711); the first-look
- *     mint (:4109-4114) touches ONLY _filmLook + fx("film_first_look") + _pumpOdds
- *     (:816-834 — pure DOM odometer + refreshOptionOdds). No study write is reachable.
- *   - ALL study writes live in noteCardDone (:840-874): bumpSharp, _maybeLessonDone (the
- *     only lesson_done emitter, :2442), _days/cardsToday (:849-853) and the bonus_pumped
- *     beat — whose ONLY emission site is noteCardDone (:853), making it a second
- *     study-credit sentinel alongside lesson_done.
- *   - v1.74 Challenges view: each unit's <details> summary renders "D of L lessons" with
- *     D = live.filter(lessonDone).length — the SAME prep-driven predicate, per unit of the
- *     SELECTED track (white by default for this persona). Summing D across the white
- *     track's unit summaries is the rendered census; per-lesson done attributes are gone.
- *
- * Determinism (probe 3/3 green, ~2.5s each): land()'s built-in rigs (ai-skill/role/max-moves)
- * cover ALL ambient draws; optionsFor/sheet/watchShort/path render draw no RNG, and sim time
- * is never advanced after the deal so sharpness stays frozen. Red-proof: injecting
- * j.drill(1) after the watch trips the prep deep-equal — the no-credit assertions have teeth.
- *
- * Distinctness: core-066/w3-13 (+4 idempotence) and w1-04 (clamp) pin the ODDS side of the
- * film look; this spec pins the NO-CREDIT side (prep/_days/cardsToday/lesson_done/
- * bonus_pumped/path-census). Odds are asserted only far enough to prove the watch landed.
+/** Explicit playback earns film first-look once per technique. Opening Watch earns nothing.
+ * The IFrame API is hermetic; Watch and the player's Play control are real mouse inputs.
+ * v1.230.0 preserves the profile's odds, clamp and study-accounting laws.
  */
 
 /** Lesson ENTRIES in the white belt (rows are per-entry): the census floor for this persona. */
@@ -42,23 +15,6 @@ const WHITE_LESSON_ENTRIES: number = CURRICULUM.belts[0].units.reduce(
   (n: number, u: any) => n + u.lessons.length,
   0,
 )
-
-/** Stub the YouTube iframe API (journeys are hermetic — the real script is route-aborted),
- *  then open the technique's expand sheet like a user: tray card click → Execute visible.
- *  Stub goes in BEFORE the click; shorts auto-open is !isTest()-gated, so no race. Never
- *  click [data-go] — the sheet stays open for watchShort. */
-async function openSheet(page: Page, technique: string) {
-  await page.evaluate(() => {
-    function StubPlayer(this: any) {
-      this.destroy = () => {}
-    }
-    ;(window as any).YT = { Player: StubPlayer, PlayerState: { ENDED: 0 } }
-  })
-  const card = page.locator(`[data-tech="${technique}"]`).first()
-  await expect(card, `option card for "${technique}" visible`).toBeVisible()
-  await card.locator("[data-choice-inspect]").click()
-  await expect(page.locator("[data-go]").first(), "expand-sheet Execute button visible").toBeVisible()
-}
 
 /** The complete study ledger, deep-cloned: prep map, daily counter, per-day history. */
 const ledgerSnap = (page: Page) =>
@@ -121,13 +77,10 @@ test("holder's film watch pumps odds but leaves prep, cardsToday, _days, both st
     titles.find((t) => oddsBefore[t] > 5 && oddsBefore[t] <= 91) ??
     titles.reduce((a, b) => (oddsBefore[a] <= oddsBefore[b] ? a : b))
 
-  await openSheet(page, target)
+  await openChoiceVideo(page, target)
 
   // ── THE WATCH: the film economy's only lever ──
-  expect(
-    await page.evaluate(() => (window as any).__neural.watchShort(0)),
-    "watchShort(0) engages the stubbed player (test mode synthesizes the clip + card)",
-  ).toBe(true)
+  await playChoiceVideo(page)
 
   // Odds side registered — the watch demonstrably paid out somewhere (the film ledger)…
   const delta = (await j.displayedOdds(target)) - oddsBefore[target]
@@ -159,7 +112,7 @@ test("holder's film watch pumps odds but leaves prep, cardsToday, _days, both st
 
   // ── the Challenges view agrees: the rendered white-track census (sum of each unit
   //    summary's "D of L lessons") equals the same predicate computed over white's live
-  //    lessons. toggleExplorer over the still-open expand sheet is fine. ──
+  //    lessons. Watch is closed before opening Challenges. ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await j.expectBeat("challenges_opened")
   const census = await page.evaluate(() => {

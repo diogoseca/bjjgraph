@@ -598,31 +598,11 @@
     ],
     "clips": [
       {
-        "id": "-VpByetjzqs",
-        "title": "Backside Foot Finish Mechanics",
-        "by": "Mikey Musumeci",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 84,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PsyAVXfRhyY",
-        "title": "Straight Ankle Lock",
-        "by": "bjjtaro",
-        "vertical": false,
-        "channel": "bjjtaro",
-        "duration": 16,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "GVwnRuiKk-Y",
-        "title": "Fast Straight Ankle Lock (No-Gi)",
-        "by": "Everythingbjj",
-        "vertical": false,
-        "channel": "Everythingbjj",
-        "duration": 64,
-        "verified": "2026-07-14"
+        "id": "2tEym-VSeMQ",
+        "title": "Gordon Achilles Lock/Straight Ankle Lock Finishing Mechanics",
+        "channel": "Sancho",
+        "duration": 52,
+        "front": true
       }
     ]
   },
@@ -871,21 +851,11 @@
     "clips": [
       {
         "id": "CUnX7TOpb-A",
-        "title": "Ankle Lock Escape: Put On the Boot",
-        "by": "Ritchie Yip",
-        "vertical": false,
+        "title": "Ankle lock escape  put on the boot",
         "channel": "Ritchie Yip",
         "duration": 16,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vg-Luhls7yE",
-        "title": "Straight Ankle Lock: Defence & Escapes",
-        "by": "Jiu Jitsu Brotherhood",
         "vertical": false,
-        "channel": "Jiu Jitsu Brotherhood",
-        "duration": 164,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

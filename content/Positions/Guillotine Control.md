@@ -36,50 +36,6 @@ description: "Master Guillotine Control position in BJJ. Complete strategic guid
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Guillotine Control \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Marcelo Garcia\u0027s Marcelotine Choke",
-      "description": "Guillotine Control film study: Marcelo Garcia\u0027s Marcelotine Choke, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
-      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "J-Hook Guillotine Grip Explained",
-      "description": "Guillotine Control film study: J-Hook Guillotine Grip Explained, taught by Elevate MMA Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SP960PaJkoc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SP960PaJkoc",
-      "url": "https://www.youtube.com/watch?v=SP960PaJkoc",
-      "creator": { "@type": "Person", "name": "Elevate MMA Academy" },
-      "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guillotine Choke Fundamentals",
-      "description": "Guillotine Control film study: Guillotine Choke Fundamentals, taught by Todd Hendrickson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z4tNXffuHXM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z4tNXffuHXM",
-      "url": "https://www.youtube.com/watch?v=z4tNXffuHXM",
-      "creator": { "@type": "Person", "name": "Todd Hendrickson" },
-      "duration": "PT60S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -115,40 +71,6 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Guillotine Control in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
-
-<p class="clip-credit"><strong>Marcelo Garcia&#39;s Marcelotine Choke</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SP960PaJkoc)
-
-<p class="clip-credit"><strong>J-Hook Guillotine Grip Explained</strong> — taught by Elevate MMA Academy · 1:05 · <a href="https://www.youtube.com/watch?v=SP960PaJkoc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=z4tNXffuHXM)
-
-<p class="clip-credit"><strong>Guillotine Choke Fundamentals</strong> — taught by Todd Hendrickson · 1:00 · <a href="https://www.youtube.com/watch?v=z4tNXffuHXM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -221,21 +143,17 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (21% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (12% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (16% of attempts)
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (25% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (7% of attempts)
+- **[[Transitions/Guard Recovery from Guillotine Control/Attacker|Guard Recovery from Guillotine Control]]** (30% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (14% of attempts)
+- **[[Transitions/Guillotine Escape to Von Flue/Attacker|Guillotine Escape to Von Flue]]** (2% of attempts)
 
-- **[[Transitions/Guard Recovery from Guillotine Control/Attacker|Guard Recovery from Guillotine Control]]** (17% of attempts)
+- **[[Transitions/Guillotine Escape via Posture/Attacker|Guillotine Escape via Posture]]** (2% of attempts)
 
-- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (23% of attempts)
-
-- **[[Transitions/Guillotine Escape to Von Flue/Attacker|Guillotine Escape to Von Flue]]** (1% of attempts)
-
-- **[[Transitions/Guillotine Escape via Posture/Attacker|Guillotine Escape via Posture]]** (1% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (29% of attempts)
 
 
 ### Common Mistakes

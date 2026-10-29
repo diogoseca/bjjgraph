@@ -182,39 +182,6 @@ description: "Step-by-step guide to executing the frame escape from Ushiro Kesa 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Frame from Ushiro Kesa Gatame (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Reverse kesa gatame escape breakdown",
-      "description": "Frame from Ushiro Kesa Gatame (Attacker) film study: Reverse kesa gatame escape breakdown, taught by MMA Leech.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JM9nDge0arQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JM9nDge0arQ",
-      "url": "https://www.youtube.com/watch?v=JM9nDge0arQ",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
-      "duration": "PT238S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "My #1 Escape from Kesa Gatame",
-      "description": "Frame from Ushiro Kesa Gatame (Attacker) film study: My #1 Escape from Kesa Gatame, taught by Chad Hardy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aSF633klG8k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aSF633klG8k",
-      "url": "https://www.youtube.com/watch?v=aSF633klG8k",
-      "creator": { "@type": "Person", "name": "Chad Hardy" },
-      "duration": "PT127S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -227,32 +194,6 @@ Executing the frame escape from Ushiro Kesa Gatame requires understanding the pr
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Frame from Ushiro Kesa Gatame (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JM9nDge0arQ)
-
-<p class="clip-credit"><strong>Reverse kesa gatame escape breakdown</strong> — taught by MMA Leech · 3:58 · <a href="https://www.youtube.com/watch?v=JM9nDge0arQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aSF633klG8k)
-
-<p class="clip-credit"><strong>My #1 Escape from Kesa Gatame</strong> — taught by Chad Hardy · 2:07 · <a href="https://www.youtube.com/watch?v=aSF633klG8k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

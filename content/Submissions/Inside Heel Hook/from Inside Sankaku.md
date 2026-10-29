@@ -46,35 +46,12 @@ description: "Master the Inside Sankaku heel hook finish with detailed grip mech
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside Heel Hook Finish",
-      "description": "Inside Heel Hook from Inside Sankaku film study: Inside Heel Hook Finish, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
-      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT18S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Heel Hook Breaking Mechanics",
-      "description": "Inside Heel Hook from Inside Sankaku film study: Heel Hook Breaking Mechanics, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
-      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Inside Sankaku Heel Hook Finish",
-      "description": "Inside Heel Hook from Inside Sankaku film study: Inside Sankaku Heel Hook Finish, taught by Professor Buck.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lyF2GxQrLoQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lyF2GxQrLoQ",
-      "url": "https://www.youtube.com/watch?v=lyF2GxQrLoQ",
-      "creator": { "@type": "Person", "name": "Professor Buck" },
-      "duration": "PT106S"
+      "name": "4 Variations Of Heel Hook Finish From Saddle",
+      "description": "Inside Heel Hook from Inside Sankaku film study: 4 Variations Of Heel Hook Finish From Saddle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n6EoUkDwUVc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n6EoUkDwUVc",
+      "url": "https://www.youtube.com/watch?v=n6EoUkDwUVc",
+      "duration": "PT101S"
     }
   ]
 }
@@ -137,25 +114,9 @@ Success depends on patience and systematic control breakdown rather than explosi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+![](https://www.youtube.com/watch?v=n6EoUkDwUVc)
 
-<p class="clip-credit"><strong>Inside Heel Hook Finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
-
-<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lyF2GxQrLoQ)
-
-<p class="clip-credit"><strong>Inside Sankaku Heel Hook Finish</strong> — taught by Professor Buck · 1:46 · <a href="https://www.youtube.com/watch?v=lyF2GxQrLoQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4 Variations Of Heel Hook Finish From Saddle</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=n6EoUkDwUVc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,35 +46,32 @@ description: "Master the Choke from Crucifix in BJJ. Complete guide covering blo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Crucifix to Rear Naked Choke",
-      "description": "Choke from Crucifix film study: Crucifix to Rear Naked Choke, taught by Greg Ferguson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3t6j9HT6Mr8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3t6j9HT6Mr8",
-      "url": "https://www.youtube.com/watch?v=3t6j9HT6Mr8",
-      "creator": { "@type": "Person", "name": "Greg Ferguson" },
-      "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crucifix to Assassin Choke",
-      "description": "Choke from Crucifix film study: Crucifix to Assassin Choke, taught by Malachy Friedman.",
+      "name": "Turn the crucifix into a BRUTAL assassin choke with this technique!",
+      "description": "Choke from Crucifix film study: Turn the crucifix into a BRUTAL assassin choke with this technique!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/A6H5KUCB_0E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/A6H5KUCB_0E",
       "url": "https://www.youtube.com/watch?v=A6H5KUCB_0E",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
       "duration": "PT84S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Assassin Choke from Back Crucifix",
-      "description": "Choke from Crucifix film study: Assassin Choke from Back Crucifix, taught by Hellfish MMA.",
+      "position": 2,
+      "name": "Assassin choke from the back crucifix position",
+      "description": "Choke from Crucifix film study: Assassin choke from the back crucifix position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vCCarCZUPpM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vCCarCZUPpM",
       "url": "https://www.youtube.com/watch?v=vCCarCZUPpM",
-      "creator": { "@type": "Person", "name": "Hellfish MMA" },
-      "duration": "PT175S"
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix to rear naked choke",
+      "description": "Choke from Crucifix film study: Crucifix to rear naked choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3t6j9HT6Mr8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3t6j9HT6Mr8",
+      "url": "https://www.youtube.com/watch?v=3t6j9HT6Mr8",
+      "duration": "PT42S"
     }
   ]
 }
@@ -137,17 +134,9 @@ This technique is commonly seen in high-level competition and represents excelle
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3t6j9HT6Mr8)
-
-<p class="clip-credit"><strong>Crucifix to Rear Naked Choke</strong> — taught by Greg Ferguson · 0:43 · <a href="https://www.youtube.com/watch?v=3t6j9HT6Mr8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=A6H5KUCB_0E)
 
-<p class="clip-credit"><strong>Crucifix to Assassin Choke</strong> — taught by Malachy Friedman · 1:24 · <a href="https://www.youtube.com/watch?v=A6H5KUCB_0E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turn the crucifix into a BRUTAL assassin choke with this technique!</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=A6H5KUCB_0E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +144,15 @@ This technique is commonly seen in high-level competition and represents excelle
 
 ![](https://www.youtube.com/watch?v=vCCarCZUPpM)
 
-<p class="clip-credit"><strong>Assassin Choke from Back Crucifix</strong> — taught by Hellfish MMA · 2:55 · <a href="https://www.youtube.com/watch?v=vCCarCZUPpM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Assassin choke from the back crucifix position</strong> · 2:54 · <a href="https://www.youtube.com/watch?v=vCCarCZUPpM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3t6j9HT6Mr8)
+
+<p class="clip-credit"><strong>Crucifix to rear naked choke</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=3t6j9HT6Mr8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

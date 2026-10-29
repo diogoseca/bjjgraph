@@ -46,24 +46,24 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shin to Shin Guard Overview",
-      "description": "Shin-to-Shin Guard film study: Shin to Shin Guard Overview, taught by RGA South Herts.",
+      "name": "Shin to Shin Guard",
+      "description": "Shin-to-Shin Guard film study: Shin to Shin Guard, taught by RGA South Herts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sUJIGs8Othc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sUJIGs8Othc",
       "url": "https://www.youtube.com/watch?v=sUJIGs8Othc",
       "creator": { "@type": "Person", "name": "RGA South Herts" },
-      "duration": "PT76S"
+      "duration": "PT75S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "De La Riva Shin on Shin to the Back",
-      "description": "Shin-to-Shin Guard film study: De La Riva Shin on Shin to the Back, taught by Carpio Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/a1lWupzNhkg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/a1lWupzNhkg",
-      "url": "https://www.youtube.com/watch?v=a1lWupzNhkg",
-      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
-      "duration": "PT81S"
+      "name": "1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard",
+      "description": "Shin-to-Shin Guard film study: 1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard, taught by Dynasty Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YV26zZARJdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YV26zZARJdA",
+      "url": "https://www.youtube.com/watch?v=YV26zZARJdA",
+      "creator": { "@type": "Person", "name": "Dynasty Jiu Jitsu" },
+      "duration": "PT163S"
     }
   ]
 }
@@ -108,19 +108,19 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 <p class="section-subtitle">Watch Shin-to-Shin Guard in action — curated instructionals</p>
 
 
-<div class="film-clip">
+<div class="film-clip film-clip--vertical">
 
 ![](https://www.youtube.com/watch?v=sUJIGs8Othc)
 
-<p class="clip-credit"><strong>Shin to Shin Guard Overview</strong> — taught by RGA South Herts · 1:16 · <a href="https://www.youtube.com/watch?v=sUJIGs8Othc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shin to Shin Guard</strong> — taught by RGA South Herts · 1:15 · <a href="https://www.youtube.com/watch?v=sUJIGs8Othc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=a1lWupzNhkg)
+![](https://www.youtube.com/watch?v=YV26zZARJdA)
 
-<p class="clip-credit"><strong>De La Riva Shin on Shin to the Back</strong> — taught by Carpio Jiu Jitsu · 1:21 · <a href="https://www.youtube.com/watch?v=a1lWupzNhkg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard</strong> — taught by Dynasty Jiu Jitsu · 2:43 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

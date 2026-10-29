@@ -4,7 +4,7 @@
 
 ---
 title: "Back Step Pass Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Back Step Pass in BJJ. Attacking perspective with setup, execution steps, and counters for passing Grasshopper Guard."
+description: "How to execute Back Step Pass in BJJ. Attacking perspective with setup, execution steps, and counters for passing Inverted Guard."
 ---
 
 
@@ -16,7 +16,7 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Back Step Pass in BJJ",
-  "description": "Step-by-step guide for executing Back Step Pass from Grasshopper Guard/Top.",
+  "description": "Step-by-step guide for executing Back Step Pass from Inverted Guard/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -85,7 +85,7 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
       "name": "What position do you start Back Step Pass from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Back Step Pass starts from Grasshopper Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs."
+        "text": "The Back Step Pass starts from Inverted Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs."
       }
     },
     {
@@ -130,7 +130,7 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Back Step Pass Attacker",
-  "description": "How to execute Back Step Pass in BJJ. Attacking perspective with setup, execution steps, and counters for passing Grasshopper Guard.",
+  "description": "How to execute Back Step Pass in BJJ. Attacking perspective with setup, execution steps, and counters for passing Inverted Guard.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -176,81 +176,22 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Back Step Pass (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Back step from primary leg extraction",
-      "description": "Back Step Pass (Attacker) film study: Back step from primary leg extraction, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KcA6VYd8J2c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KcA6VYd8J2c",
-      "url": "https://www.youtube.com/watch?v=KcA6VYd8J2c",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT115S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back step into a heel hook",
-      "description": "Back Step Pass (Attacker) film study: Back step into a heel hook, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/288kWE480Zo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/288kWE480Zo",
-      "url": "https://www.youtube.com/watch?v=288kWE480Zo",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT23S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The Back Step Pass is a critical guard passing technique used to escape leg entanglement danger when facing inverted guards like Grasshopper Guard. Unlike forward-pressure passes that feed into the bottom player's sweeping and leg attack mechanics, the back step uses retrograde movement to extract your leg from entanglement while simultaneously creating a passing angle toward side control.
+The Back Step Pass is a critical guard passing technique used to escape leg entanglement danger when facing inverted guards like Inverted Guard. Unlike forward-pressure passes that feed into the bottom player's sweeping and leg attack mechanics, the back step uses retrograde movement to extract your leg from entanglement while simultaneously creating a passing angle toward side control.
 
 This technique operates on a fundamental principle: when your leg becomes endangered by hooks, threads, or rotational attacks, stepping backward removes the lever the opponent needs to complete their technique. The back step is not merely a defensive retreat—it's a positional repositioning that converts defensive necessity into passing opportunity. As your stepping leg clears the entanglement zone, your weight shifts forward over the opponent's torso, flattening their inverted posture and establishing the perpendicular alignment characteristic of side control.
 
-The back step is particularly valuable against modern leg lock systems where practitioners use inversions to access heel hooks and kneebars. Against a skilled grasshopper guard player, the window for executing this pass is narrow—you must recognize the entanglement attempt early and initiate the back step before they can fully establish control. Timing the back step to coincide with their inversion transition maximizes success probability, as their legs are temporarily in flux between configurations.
+The back step is particularly valuable against modern leg lock systems where practitioners use inversions to access heel hooks and kneebars. Against a skilled inverted guard player, the window for executing this pass is narrow—you must recognize the entanglement attempt early and initiate the back step before they can fully establish control. Timing the back step to coincide with their inversion transition maximizes success probability, as their legs are temporarily in flux between configurations.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Top)
-
-</section>
-
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Back Step Pass (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KcA6VYd8J2c)
-
-<p class="clip-credit"><strong>Back step from primary leg extraction</strong> — taught by Gordon Ryan · 1:55 · <a href="https://www.youtube.com/watch?v=KcA6VYd8J2c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=288kWE480Zo)
-
-<p class="clip-credit"><strong>Back step into a heel hook</strong> — taught by ZombieProofBJJ · 0:23 · <a href="https://www.youtube.com/watch?v=288kWE480Zo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
+**From Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
+
 
 
 <section id="key-principles" class="content-section">
@@ -276,7 +217,7 @@ The back step is particularly valuable against modern leg lock systems where pra
 
 <p class="section-subtitle">What do you need before attempting Back Step Pass?</p>
 
-- Standing or low combat base position facing opponent's grasshopper guard
+- Standing or low combat base position facing opponent's inverted guard
 - Recognition that one leg is becoming endangered by hook or threading attempt
 - Sufficient space behind the endangered leg to step backward without obstruction
 - Weight distributed to allow quick transfer between legs during movement
@@ -309,7 +250,7 @@ The back step is particularly valuable against modern leg lock systems where pra
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Counter | [[Positions/Ashi Garami]] | 10% |
 
 
@@ -321,10 +262,10 @@ The back step is particularly valuable against modern leg lock systems where pra
 
 <p class="section-subtitle">How might your opponent counter Back Step Pass?</p>
 
-- **Following with inversion - opponent rolls and reinverts to chase your retreating leg** (Effectiveness: High) - Your Response: Accelerate your forward drive as they begin rolling, using their momentum to flatten them. Establish crossface before they can complete the reinversion. → Leads to [[Positions/Grasshopper Guard]]
+- **Following with inversion - opponent rolls and reinverts to chase your retreating leg** (Effectiveness: High) - Your Response: Accelerate your forward drive as they begin rolling, using their momentum to flatten them. Establish crossface before they can complete the reinversion. → Leads to [[Positions/Inverted Guard]]
 - **Shooting legs through - opponent threads their legs underneath as you back step** (Effectiveness: Medium) - Your Response: Pin their legs to the mat with your hands as you extract, preventing them from following. Sprawl your hips if they manage to get underneath. → Leads to [[Positions/Ashi Garami]]
-- **Technical standup - opponent abandons guard and comes up to standing as you disengage** (Effectiveness: Medium) - Your Response: Recognize their standup attempt early and either complete the pass before they can rise or reset to wrestling engagement at standing. → Leads to [[Positions/Grasshopper Guard]]
-- **Reverse De La Riva recovery - opponent switches to RDLR hook as you circle** (Effectiveness: Low) - Your Response: Continue circling in the same direction and use knee slice mechanics to cut through the RDLR hook before it's fully established. → Leads to [[Positions/Grasshopper Guard]]
+- **Technical standup - opponent abandons guard and comes up to standing as you disengage** (Effectiveness: Medium) - Your Response: Recognize their standup attempt early and either complete the pass before they can rise or reset to wrestling engagement at standing. → Leads to [[Positions/Inverted Guard]]
+- **Reverse De La Riva recovery - opponent switches to RDLR hook as you circle** (Effectiveness: Low) - Your Response: Continue circling in the same direction and use knee slice mechanics to cut through the RDLR hook before it's fully established. → Leads to [[Positions/Inverted Guard]]
 
 
 </section>
@@ -376,7 +317,7 @@ The back step is particularly valuable against modern leg lock systems where pra
 <p class="section-subtitle">How do you train Back Step Pass (Attacker)?</p>
 
 **Week 1-2** - Mechanics isolation
-Practice the back step motion without resistance. Partner holds static grasshopper guard while you drill the stepping pattern, weight transfer, and direction of movement. Focus on building muscle memory for the 45-degree angle extraction.
+Practice the back step motion without resistance. Partner holds static inverted guard while you drill the stepping pattern, weight transfer, and direction of movement. Focus on building muscle memory for the 45-degree angle extraction.
 
 **Week 3-4** - Timing recognition
 Partner actively attempts leg entanglements at 30-50% speed. Practice recognizing the optimal moment to initiate back step based on their leg positioning and movement patterns. Develop anticipation skills.
@@ -388,7 +329,7 @@ Partner attempts to counter your back step with following inversions, technical 
 Integrate back step with leg drag and knee slice follow-ups. When initial back step clears entanglement but opponent recovers partial guard, flow into secondary passing techniques. Develop a complete passing sequence.
 
 **Week 9+** - Live application
-Incorporate back step into live rolling and specific training. Start from grasshopper guard scenarios and attempt to successfully pass using the back step against fully resisting partners. Refine timing under pressure.
+Incorporate back step into live rolling and specific training. Start from inverted guard scenarios and attempt to successfully pass using the back step against fully resisting partners. Refine timing under pressure.
 
 
 
@@ -411,7 +352,7 @@ The Back Step Pass is generally a low-risk technique when executed with proper t
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition reference: Back Step Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Back Step Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition reference: Back Step Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

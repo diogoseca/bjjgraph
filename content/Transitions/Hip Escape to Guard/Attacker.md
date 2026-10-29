@@ -176,39 +176,6 @@ description: "How to execute Hip Escape to Guard in BJJ. Attacking perspective w
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Hip Escape to Guard (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Replace the guard from mount escape",
-      "description": "Hip Escape to Guard (Attacker) film study: Replace the guard from mount escape, taught by roninbjjmma.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mUhDnsgjCtc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mUhDnsgjCtc",
-      "url": "https://www.youtube.com/watch?v=mUhDnsgjCtc",
-      "creator": { "@type": "Person", "name": "roninbjjmma" },
-      "duration": "PT74S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Modified mount escape to guard recovery",
-      "description": "Hip Escape to Guard (Attacker) film study: Modified mount escape to guard recovery, taught by Pathfinder Jiu-Jitsu Team.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3AMEkhiCU1A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3AMEkhiCU1A",
-      "url": "https://www.youtube.com/watch?v=3AMEkhiCU1A",
-      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu Team" },
-      "duration": "PT20S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -225,32 +192,6 @@ Strategically, this escape represents your primary pathway out of a position tha
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Hip Escape to Guard (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mUhDnsgjCtc)
-
-<p class="clip-credit"><strong>Replace the guard from mount escape</strong> — taught by roninbjjmma · 1:14 · <a href="https://www.youtube.com/watch?v=mUhDnsgjCtc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3AMEkhiCU1A)
-
-<p class="clip-credit"><strong>Modified mount escape to guard recovery</strong> — taught by Pathfinder Jiu-Jitsu Team · 0:20 · <a href="https://www.youtube.com/watch?v=3AMEkhiCU1A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -411,7 +352,7 @@ The Hip Escape to Guard is a relatively low-risk defensive technique, but certai
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference: Hip Escape to Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Hip Escape to Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>

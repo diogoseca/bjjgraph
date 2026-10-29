@@ -505,30 +505,25 @@
     "clips": [
       {
         "id": "B01WDrVESIo",
-        "title": "Armbar from back control",
-        "by": "Cesar Lima",
-        "vertical": false,
+        "title": "Cesar Lima BJJ - Arm Bar from Back Control",
         "channel": "The Grapple Club",
         "duration": 86,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "I4PhmMcJn_Y",
-        "title": "Armbar from back mount (Danaher system)",
-        "by": "Aaron Milam",
-        "vertical": false,
+        "title": "Jiu Jitsu Armbar from Backmount by John Danaher Blackbelt Aaron Milam",
         "channel": "Matrix Jiu Jitsu",
         "duration": 170,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "jf1kPefTmm0",
-        "title": "Armbar from the back variation",
-        "by": "Malachy Friedman",
-        "vertical": false,
+        "title": "If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!",
         "channel": "Malachy Friedman",
-        "duration": 80,
-        "verified": "2026-07-14"
+        "duration": 79,
+        "vertical": false
       }
     ]
   },
@@ -726,22 +721,19 @@
     ],
     "clips": [
       {
-        "id": "kNdKfUdgO4I",
-        "title": "My favorite armbar escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "s_X84S_o8_A",
-        "title": "Armbar from the back and how to stop it",
-        "by": "Stephan Kesting",
-        "vertical": false,
+        "title": "The Armbar From the Back and How to Stop It",
         "channel": "Stephan Kesting",
         "duration": 246,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "vertical": false
       }
     ]
   },

@@ -160,35 +160,12 @@ description: "Complete defender guide for the Knee Slice from Z-Guard. Learn rec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Z-guard counter to the knee slide attempt",
-      "description": "Knee Slice from Z-Guard (Defender) film study: Z-guard counter to the knee slide attempt, taught by Danny Brown.",
+      "name": "Z Guard//counter to knee slide attempt//dannybrownbjj",
+      "description": "Knee Slice from Z-Guard (Defender) film study: Z Guard//counter to knee slide attempt//dannybrownbjj.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wZ-QdL6wPPI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wZ-QdL6wPPI",
       "url": "https://www.youtube.com/watch?v=wZ-QdL6wPPI",
-      "creator": { "@type": "Person", "name": "Danny Brown" },
       "duration": "PT142S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Z-guard: avoid getting squashed by the pass",
-      "description": "Knee Slice from Z-Guard (Defender) film study: Z-guard: avoid getting squashed by the pass, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/COMTE898ja8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/COMTE898ja8",
-      "url": "https://www.youtube.com/watch?v=COMTE898ja8",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT156S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Back take off the knee shield z-guard",
-      "description": "Knee Slice from Z-Guard (Defender) film study: Back take off the knee shield z-guard, taught by OffYourBackBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aWnmRlWZ8zY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aWnmRlWZ8zY",
-      "url": "https://www.youtube.com/watch?v=aWnmRlWZ8zY",
-      "creator": { "@type": "Person", "name": "OffYourBackBJJ" },
-      "duration": "PT126S"
     }
   ]
 }
@@ -218,23 +195,7 @@ Defending the Knee Slice from Z-Guard requires early recognition of the passing 
 
 ![](https://www.youtube.com/watch?v=wZ-QdL6wPPI)
 
-<p class="clip-credit"><strong>Z-guard counter to the knee slide attempt</strong> — taught by Danny Brown · 2:22 · <a href="https://www.youtube.com/watch?v=wZ-QdL6wPPI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=COMTE898ja8)
-
-<p class="clip-credit"><strong>Z-guard: avoid getting squashed by the pass</strong> — taught by Craig Jones · 2:36 · <a href="https://www.youtube.com/watch?v=COMTE898ja8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aWnmRlWZ8zY)
-
-<p class="clip-credit"><strong>Back take off the knee shield z-guard</strong> — taught by OffYourBackBJJ · 2:06 · <a href="https://www.youtube.com/watch?v=aWnmRlWZ8zY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Z Guard//counter to knee slide attempt//dannybrownbjj</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=wZ-QdL6wPPI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

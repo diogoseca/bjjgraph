@@ -21,37 +21,37 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
     {
       "@type": "HowToStep",
       "name": "Execute Inversion Escape",
-      "text": "From this position, attempt Inversion Escape. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Inversion Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse the entanglement to Outside Ashi",
-      "text": "From this position, attempt Reverse the entanglement to Outside Ashi. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Reverse the entanglement to Outside Ashi. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break",
-      "text": "From this position, attempt Grip Break. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Grip Break. This technique is attempted in 28% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,24 +165,12 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the Honey Hole (Inside Sankaku)",
-      "description": "Honey Hole (Bottom) film study: Escaping the Honey Hole (Inside Sankaku), taught by Oneonta Jiu Jitsu.",
+      "name": "Escaping Honey Hole (Inside Sankaku)",
+      "description": "Honey Hole (Bottom) film study: Escaping Honey Hole (Inside Sankaku).",
       "thumbnailUrl": "https://i.ytimg.com/vi/PhS9Xj-4KbA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PhS9Xj-4KbA",
       "url": "https://www.youtube.com/watch?v=PhS9Xj-4KbA",
-      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
       "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rolling Out of Heel Hooks",
-      "description": "Honey Hole (Bottom) film study: Rolling Out of Heel Hooks, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DrjbaXt-nTo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DrjbaXt-nTo",
-      "url": "https://www.youtube.com/watch?v=DrjbaXt-nTo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT243S"
     }
   ]
 }
@@ -214,15 +202,7 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 
 ![](https://www.youtube.com/watch?v=PhS9Xj-4KbA)
 
-<p class="clip-credit"><strong>Escaping the Honey Hole (Inside Sankaku)</strong> — taught by Oneonta Jiu Jitsu · 0:56 · <a href="https://www.youtube.com/watch?v=PhS9Xj-4KbA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DrjbaXt-nTo)
-
-<p class="clip-credit"><strong>Rolling Out of Heel Hooks</strong> — taught by Lachlan Giles · 4:03 · <a href="https://www.youtube.com/watch?v=DrjbaXt-nTo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Honey Hole (Inside Sankaku)</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=PhS9Xj-4KbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

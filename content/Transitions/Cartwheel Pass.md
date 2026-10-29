@@ -4,7 +4,7 @@
 
 ---
 title: "Cartwheel Pass | BJJ Technique | BJJ Graph"
-description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grasshopper Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Inverted Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Cartwheel Pass",
-  "description": "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grasshopper Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Learn Cartwheel Pass in BJJ. Athletic passing technique from Inverted Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,50 +36,6 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Cartwheel Pass \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Cartwheel guard pass",
-      "description": "Cartwheel Pass film study: Cartwheel guard pass, taught by Ground Fighter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZoKpJSqnNXQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZoKpJSqnNXQ",
-      "url": "https://www.youtube.com/watch?v=ZoKpJSqnNXQ",
-      "creator": { "@type": "Person", "name": "Ground Fighter" },
-      "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee cut to cartwheel passing",
-      "description": "Cartwheel Pass film study: Knee cut to cartwheel passing, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_QgRae3Hxvs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_QgRae3Hxvs",
-      "url": "https://www.youtube.com/watch?v=_QgRae3Hxvs",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cartwheel pass mechanics",
-      "description": "Cartwheel Pass film study: Cartwheel pass mechanics, taught by Kenny Florian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VMpIKmeRsTg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VMpIKmeRsTg",
-      "url": "https://www.youtube.com/watch?v=VMpIKmeRsTg",
-      "creator": { "@type": "Person", "name": "Kenny Florian" },
-      "duration": "PT27S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -87,7 +43,7 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Cartwheel Pass",
-  "description": "The Cartwheel Pass is an athletic guard pass against inverted guards like Grasshopper Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.",
+  "description": "The Cartwheel Pass is an athletic guard pass against inverted guards like Inverted Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,7 +61,7 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
 
 <section id="overview" class="content-section">
 
-**The Cartwheel Pass is an athletic guard pass against inverted guards like Grasshopper Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.**
+**The Cartwheel Pass is an athletic guard pass against inverted guards like Inverted Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.**
 
 Against the modern inverted-guard game, the Cartwheel Pass answers a problem that pressure and methodical passing struggle to solve: an opponent whose elevated legs turn every grounded passing lane into a potential leg-lock trap. Rather than engaging that structure on its own terms, you vault over it entirely, landing directly into side control before the guard player can reorganize. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.
 
@@ -113,45 +69,11 @@ The technique requires committing to the cartwheel motion with conviction, as he
 
 Strategically, the Cartwheel Pass functions best as a surprise element within your passing game. Its athletic nature means it cannot be spammed repeatedly without significant energy expenditure. The optimal timing occurs when the guard player has committed deeply to their inversion, creating space beside their body for your hand placement. Attempting the pass when they are actively adjusting or have legs extended toward you significantly reduces success probability and increases counter risk.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Cartwheel Pass in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZoKpJSqnNXQ)
-
-<p class="clip-credit"><strong>Cartwheel guard pass</strong> — taught by Ground Fighter · 0:16 · <a href="https://www.youtube.com/watch?v=ZoKpJSqnNXQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_QgRae3Hxvs)
-
-<p class="clip-credit"><strong>Knee cut to cartwheel passing</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=_QgRae3Hxvs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=VMpIKmeRsTg)
-
-<p class="clip-credit"><strong>Cartwheel pass mechanics</strong> — taught by Kenny Florian · 0:27 · <a href="https://www.youtube.com/watch?v=VMpIKmeRsTg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -161,7 +83,7 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Counter | [[Positions/Closed Guard]] | 10% |
 
 
@@ -313,7 +235,7 @@ The Cartwheel Pass occupies a specialized niche in the guard passing hierarchy, 
 ## Related Techniques
 
 
-- [[Positions/Grasshopper Guard]] - Starting position - the inverted guard this pass is designed to defeat
+- [[Positions/Inverted Guard]] - Starting position - the inverted guard this pass is designed to defeat
 
 - [[Positions/Side Control]] - Primary destination after successful pass completion
 

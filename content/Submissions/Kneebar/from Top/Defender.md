@@ -156,24 +156,32 @@ description: "How to defend against Kneebar from Top in BJJ. Recognition, escape
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kneebar Defense + Take the Back",
-      "description": "Kneebar from Top (Defender) film study: Kneebar Defense + Take the Back, taught by Bicudo BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
-      "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
-      "creator": { "@type": "Person", "name": "Bicudo BJJ" },
-      "duration": "PT22S"
+      "name": "Daily BJJ: Kneebar Escape",
+      "description": "Kneebar from Top (Defender) film study: Daily BJJ: Kneebar Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SG-B04vtGwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SG-B04vtGwo",
+      "url": "https://www.youtube.com/watch?v=SG-B04vtGwo",
+      "duration": "PT120S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Knee Bar Defense",
-      "description": "Kneebar from Top (Defender) film study: Knee Bar Defense, taught by Clark Gracie.",
+      "description": "Kneebar from Top (Defender) film study: Knee Bar Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NHyBpBC4apY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NHyBpBC4apY",
       "url": "https://www.youtube.com/watch?v=NHyBpBC4apY",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
       "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee Bar defense + take the back",
+      "description": "Kneebar from Top (Defender) film study: Knee Bar defense + take the back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
+      "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
+      "duration": "PT21S"
     }
   ]
 }
@@ -202,9 +210,9 @@ Defending the kneebar from top position requires a fundamentally different minds
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
+![](https://www.youtube.com/watch?v=SG-B04vtGwo)
 
-<p class="clip-credit"><strong>Kneebar Defense + Take the Back</strong> — taught by Bicudo BJJ · 0:22 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Daily BJJ: Kneebar Escape</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=SG-B04vtGwo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -212,7 +220,15 @@ Defending the kneebar from top position requires a fundamentally different minds
 
 ![](https://www.youtube.com/watch?v=NHyBpBC4apY)
 
-<p class="clip-credit"><strong>Knee Bar Defense</strong> — taught by Clark Gracie · 2:18 · <a href="https://www.youtube.com/watch?v=NHyBpBC4apY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Bar Defense</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=NHyBpBC4apY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
+
+<p class="clip-credit"><strong>Knee Bar defense + take the back</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

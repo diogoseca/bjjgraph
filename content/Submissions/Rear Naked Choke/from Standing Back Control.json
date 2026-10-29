@@ -466,31 +466,12 @@
     ],
     "clips": [
       {
-        "id": "eMbkVDRreIQ",
-        "title": "3 favorite chokes from the back",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 87,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "JVw1AvVRWQs",
-        "title": "Rear naked choke from standing",
-        "by": "Teach Me NoGi",
-        "vertical": false,
-        "channel": "Teach Me NoGi",
-        "duration": 150,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "Sb-atqD_TqQ",
-        "title": "Short choke from back position",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Short Choke from Back Position (Jiu Jitsu)",
         "channel": "Cosens MMA LLC",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "duration": 54,
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -722,30 +703,11 @@
     "clips": [
       {
         "id": "rlJlNeccbEw",
-        "title": "Standing rear naked choke defense",
-        "by": "SAMA Self Defense",
-        "vertical": false,
+        "title": "Standing Rear Naked Choke Defense",
         "channel": "SAMA Self Defense",
         "duration": 20,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "UQO3V3Uo3t4",
-        "title": "Three rear choke defenses everyone should know",
-        "by": "Gracie Breakdown",
         "vertical": false,
-        "channel": "GracieBreakdown",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "I43ALzc733w",
-        "title": "Escape the back control",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 71,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

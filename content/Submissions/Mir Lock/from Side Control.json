@@ -498,26 +498,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "6IVQPq5BJZ0",
-        "title": "Top Side Mir Lock (Shoulder Submission) No-Gi",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 83,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8dFph1erRNE",
-        "title": "Knee Shield Series - Mir Lock",
-        "by": "TAPS BJJ",
-        "vertical": false,
-        "channel": "TAPS BJJ",
-        "duration": 168,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Mir Lock Defender",
@@ -710,26 +691,7 @@
         "description": "Begin from bottom side control against a partner who actively hunts for the Mir Lock alongside other submissions. Practice integrating Mir Lock defense into your broader side control escape system, recognizing when the Mir Lock threat is developing versus Americana or Kimura setups, and selecting the correct defensive response for each. Evaluate how often you escape versus tap and identify which defensive stage needs the most improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "FNyL93v5fGs",
-        "title": "Defending The Americana Shoulder Lock",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "MM9rddEgJ58",
-        "title": "Kimura Defense from Bottom Side Control",
-        "by": "Gracie Westchase Coach",
-        "vertical": false,
-        "channel": "Gracie Westchase ",
-        "duration": 156,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

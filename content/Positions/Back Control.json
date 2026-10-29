@@ -98,21 +98,21 @@
       {
         "transition": "Rear Naked Choke from Back Control",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 27
+          "gi": 20,
+          "nogi": 26
         }
       },
       {
         "transition": "Back Control Maintenance",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Bow and Arrow Choke from Back Control",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 12,
           "nogi": null
         }
       },
@@ -134,7 +134,7 @@
         "transition": "Body Triangle Lock",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 8
+          "nogi": 7
         }
       },
       {
@@ -254,6 +254,13 @@
         "attempt_probability": {
           "gi": 1,
           "nogi": 2
+        }
+      },
+      {
+        "transition": "Suloev Stretch from Half Guard",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],
@@ -447,31 +454,14 @@
     },
     "clips": [
       {
-        "id": "f3PJ06A_bWQ",
-        "title": "Hip Switch to Back Take",
-        "by": "Gordon Ryan",
+        "id": "ypTfNWlR5ls",
+        "title": "No Gi BJJ: Basic details of back control and rear strangle",
+        "by": "Robyn Sheehan",
         "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 19,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "70jECxFfCSA",
-        "title": "Rear Naked Choke from the Back",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Control Jiu JItsu",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a Full Inversion",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "channel": "Robyn Sheehan",
+        "duration": 168,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -515,87 +505,17 @@
     ],
     "transitions": [
       {
-        "transition": "Hand Fighting from Back",
-        "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
-        }
-      },
-      {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Hip Escape to Turtle",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Turn In and Face",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Hip Escape from Back Control",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Turtle from Back Control",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Shoulder Walk Escape from Back",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Scoot Hips to Guard from Back",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Turn into Opponent from Back",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Elbow Escape from Back",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Hand Fight to Turtle from Back",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -606,10 +526,66 @@
         }
       },
       {
-        "transition": "Rolling Escape to Guard",
+        "transition": "Hand Fight to Turtle from Back",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Hand Fighting from Back",
+        "attempt_probability": {
+          "gi": 25,
+          "nogi": 25
+        }
+      },
+      {
+        "transition": "Hip Escape from Back Control",
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
+      },
+      {
+        "transition": "Hip Escape to Turtle",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Scoot Hips to Guard from Back",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Shoulder Walk Escape from Back",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Turn In and Face",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Turn into Opponent from Back",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Turtle from Back Control",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
         }
       }
     ],
@@ -791,22 +767,12 @@
     },
     "clips": [
       {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up from Back Control",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "3RbOD9fhi20",
-        "title": "Running Man Back Escape",
-        "by": "Jiu Jitsu Modern",
-        "vertical": false,
+        "title": "Back Escape- Running Man- BJJ",
         "channel": "JIU JITSU MODERN",
         "duration": 210,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -1040,31 +1006,14 @@
   ],
   "clips": [
     {
-      "id": "ovyq_pmaB88",
-      "title": "Back Attacks System Overview",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 56,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "ypTfNWlR5ls",
-      "title": "Basics of Back Control & Rear Strangle",
+      "title": "No Gi BJJ: Basic details of back control and rear strangle",
       "by": "Robyn Sheehan",
       "vertical": false,
       "channel": "Robyn Sheehan",
       "duration": 168,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "-lMabjvtaLk",
-      "title": "Entries Into Rear Triangle Back Position",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 252,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

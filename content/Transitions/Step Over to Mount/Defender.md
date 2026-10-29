@@ -27,7 +27,7 @@ description: "How to defend against Step Over to Mount in BJJ. Recognition cues,
     {
       "@type": "HowToStep",
       "name": "Re-invert and elevate hips explosively to knock the top player off balance during the stepping phase. Drive your hips upward using your shoulders as a base while hooking whatever remains of their near leg, converting their forward momentum into an elevation that disrupts their balance.",
-      "text": "When the top player has begun stepping but has not yet dropped their weight onto your torso. Their base is most vulnerable during the single-leg phase of the step over. Requires sufficient core energy to generate the hip elevation. If successful: The top player loses balance and must post their hands to recover, aborting the step-over attempt and resetting to neutral grasshopper guard engagement where you can re-establish your leg configuration.",
+      "text": "When the top player has begun stepping but has not yet dropped their weight onto your torso. Their base is most vulnerable during the single-leg phase of the step over. Requires sufficient core energy to generate the hip elevation. If successful: The top player loses balance and must post their hands to recover, aborting the step-over attempt and resetting to neutral inverted guard engagement where you can re-establish your leg configuration.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "How to defend against Step Over to Mount in BJJ. Recognition cues,
     {
       "@type": "HowToStep",
       "name": "Frame on the top player's hips with both hands and shrimp away to re-establish distance and open guard structure. As they begin stepping, extend your arms into their hip crease to stall their forward drive while hip escaping laterally to pull your legs free and reset to seated or butterfly guard.",
-      "text": "When your legs have been cleared or controlled and leg entanglement is no longer available. This is a reset defense that abandons grasshopper guard entirely in favor of re-establishing a more sustainable guard position at distance. If successful: You create enough distance to pull your legs free from the passer's control and re-establish an open guard position, resetting the passing engagement to neutral where you can choose to re-enter grasshopper or play a different guard.",
+      "text": "When your legs have been cleared or controlled and leg entanglement is no longer available. This is a reset defense that abandons inverted guard entirely in favor of re-establishing a more sustainable guard position at distance. If successful: You create enough distance to pull your legs free from the passer's control and re-establish an open guard position, resetting the passing engagement to neutral where you can choose to re-enter inverted or play a different guard.",
       "position": 4
     }
   ],
@@ -150,100 +150,22 @@ description: "How to defend against Step Over to Mount in BJJ. Recognition cues,
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Step Over to Mount (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Two mount escape options to half guard",
-      "description": "Step Over to Mount (Defender) film study: Two mount escape options to half guard, taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
-      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roger Gracie\u0027s Best Advice on Escaping Mount",
-      "description": "Step Over to Mount (Defender) film study: Roger Gracie\u0027s Best Advice on Escaping Mount, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r3ryggpYhb0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/r3ryggpYhb0",
-      "url": "https://www.youtube.com/watch?v=r3ryggpYhb0",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT233S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Folding Technical Mount Escape",
-      "description": "Step Over to Mount (Defender) film study: Folding Technical Mount Escape, taught by Inverted Gear.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UUfzOO0JouI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UUfzOO0JouI",
-      "url": "https://www.youtube.com/watch?v=UUfzOO0JouI",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT50S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-Defending the Step Over to Mount from grasshopper guard bottom requires understanding the specific moments when the top player can exploit your inverted positioning. The step over typically occurs when you have committed one leg to an attack or transition, leaving your remaining hook insufficient to block the pass. Your defensive strategy centers on maintaining bilateral leg engagement, recognizing the step-over initiation early, and converting the top player's committed forward motion into leg entanglement opportunities.
+Defending the Step Over to Mount from inverted guard bottom requires understanding the specific moments when the top player can exploit your inverted positioning. The step over typically occurs when you have committed one leg to an attack or transition, leaving your remaining hook insufficient to block the pass. Your defensive strategy centers on maintaining bilateral leg engagement, recognizing the step-over initiation early, and converting the top player's committed forward motion into leg entanglement opportunities.
 
 The critical defensive window is narrow. Once the top player's lead foot clears your hips and lands on the far side, your ability to prevent mount drops dramatically. Effective defense therefore prioritizes early recognition and pre-emptive action over reactive escapes. Your inverted position actually provides a mechanical advantage for catching the stepping leg if you read the attempt early enough - the top player must lift their leg high to clear your hips, and during that lifting phase their base is compromised and your legs are positioned to intercept.
 
-From a systems perspective, your defense against the step over should integrate with your overall grasshopper guard offense. The threat of catching the stepping leg into ashi garami forces the top player to be cautious with the step over, which in turn gives you more time to work your preferred leg attacks and sweeps. When you can make the step over costly for the top player, they are forced into the slower back step and leg drag options, which play more into your preferred engagement range.
+From a systems perspective, your defense against the step over should integrate with your overall inverted guard offense. The threat of catching the stepping leg into ashi garami forces the top player to be cautious with the step over, which in turn gives you more time to work your preferred leg attacks and sweeps. When you can make the step over costly for the top player, they are forced into the slower back step and leg drag options, which play more into your preferred engagement range.
 
-**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
-
-</section>
-
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Step Over to Mount (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cyegyon5hVg)
-
-<p class="clip-credit"><strong>Two mount escape options to half guard</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=r3ryggpYhb0)
-
-<p class="clip-credit"><strong>Roger Gracie&#39;s Best Advice on Escaping Mount</strong> — taught by Roger Gracie · 3:53 · <a href="https://www.youtube.com/watch?v=r3ryggpYhb0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=UUfzOO0JouI)
-
-<p class="clip-credit"><strong>Folding Technical Mount Escape</strong> — taught by Inverted Gear · 0:50 · <a href="https://www.youtube.com/watch?v=UUfzOO0JouI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
+
 
 
 <section id="recognition-cues" class="content-section">
@@ -269,7 +191,7 @@ From a systems perspective, your defense against the step over should integrate 
 
 - Maintain bilateral leg engagement at all times - never leave one leg idle while the other attacks, as this creates the asymmetric window the passer needs
 - Read the step-over initiation by watching the top player's hip height and weight shift to their posting leg, which precedes the stepping motion
-- Keep hips elevated and active throughout grasshopper guard to deny the top player the settled base they need to initiate the step over
+- Keep hips elevated and active throughout inverted guard to deny the top player the settled base they need to initiate the step over
 - Treat the stepping leg as an opportunity rather than a threat - a committed stepping leg is vulnerable to entanglement if intercepted before it clears your hips
 - If the step over succeeds partially, immediately insert a knee or hook to recover half guard rather than accepting full mount
 - Maintain continuous core engagement to sustain hip elevation, because the step over becomes trivial once your hips drop to the mat
@@ -294,8 +216,8 @@ From a systems perspective, your defense against the step over should integrate 
 ### 2. Re-invert and elevate hips explosively to knock the top player off balance during the stepping phase. Drive your hips upward using your shoulders as a base while hooking whatever remains of their near leg, converting their forward momentum into an elevation that disrupts their balance.
 
 - **When to use**: When the top player has begun stepping but has not yet dropped their weight onto your torso. Their base is most vulnerable during the single-leg phase of the step over. Requires sufficient core energy to generate the hip elevation.
-- **Targets**: [[Positions/Grasshopper Guard]]
-- **If successful**: The top player loses balance and must post their hands to recover, aborting the step-over attempt and resetting to neutral grasshopper guard engagement where you can re-establish your leg configuration.
+- **Targets**: [[Positions/Inverted Guard]]
+- **If successful**: The top player loses balance and must post their hands to recover, aborting the step-over attempt and resetting to neutral inverted guard engagement where you can re-establish your leg configuration.
 - **Risk**: If your hip elevation is insufficient or mistimed, the top player drives through the elevation attempt and lands in mount with even more forward momentum than a standard step over, making consolidation easier for them.
 
 ### 3. Insert knee shield or half guard hook as the stepping leg crosses your body. Rather than trying to prevent the step over entirely, accept partial passage and immediately wedge your top knee across their hip or hook their trailing leg to establish half guard before they can consolidate mount.
@@ -307,9 +229,9 @@ From a systems perspective, your defense against the step over should integrate 
 
 ### 4. Frame on the top player's hips with both hands and shrimp away to re-establish distance and open guard structure. As they begin stepping, extend your arms into their hip crease to stall their forward drive while hip escaping laterally to pull your legs free and reset to seated or butterfly guard.
 
-- **When to use**: When your legs have been cleared or controlled and leg entanglement is no longer available. This is a reset defense that abandons grasshopper guard entirely in favor of re-establishing a more sustainable guard position at distance.
-- **Targets**: [[Positions/Grasshopper Guard]]
-- **If successful**: You create enough distance to pull your legs free from the passer's control and re-establish an open guard position, resetting the passing engagement to neutral where you can choose to re-enter grasshopper or play a different guard.
+- **When to use**: When your legs have been cleared or controlled and leg entanglement is no longer available. This is a reset defense that abandons inverted guard entirely in favor of re-establishing a more sustainable guard position at distance.
+- **Targets**: [[Positions/Inverted Guard]]
+- **If successful**: You create enough distance to pull your legs free from the passer's control and re-establish an open guard position, resetting the passing engagement to neutral where you can choose to re-enter inverted or play a different guard.
 - **Risk**: The top player may follow your shrimp with forward pressure, collapsing your arm frames and landing in mount or side control despite your attempt to create distance. Hip frames against a committed forward drive require significant arm strength to maintain.
 
 
@@ -322,7 +244,7 @@ From a systems perspective, your defense against the step over should integrate 
 
 <p class="section-subtitle">What is the best outcome when defending Step Over to Mount?</p>
 
-### → [[Positions/Grasshopper Guard]]
+### → [[Positions/Inverted Guard]]
 
 Prevent the step over entirely by maintaining bilateral leg engagement and elevating hips to deny the passer a stable base. When you detect the step-over initiation, re-invert and elevate to knock them off balance, forcing them to post hands and reset. Alternatively, use hip frames and shrimp to create distance and re-establish your guard configuration before the pass completes.
 
@@ -349,10 +271,10 @@ Read the step-over initiation early and thread your legs around the stepping leg
 - **Consequence**: The top player steps over the idle leg unopposed while your attacking leg is extended and out of position to defend, resulting in an easy mount with no defensive options
 - **Correction**: Always maintain some defensive function in both legs simultaneously. When one leg extends for an attack, the other must actively hook, frame, or threaten the top player's base. Train the habit of cycling leg configurations rather than committing one leg fully while the other rests.
 
-### 2. Dropping hips to the mat from fatigue or after a failed attack attempt while still in grasshopper guard
+### 2. Dropping hips to the mat from fatigue or after a failed attack attempt while still in inverted guard
 
 - **Consequence**: Flat hips eliminate all sweeping leverage and leg mobility, making the step over trivially easy because you cannot elevate to block or intercept the stepping leg
-- **Correction**: If your hips begin dropping, immediately transition out of grasshopper guard to a more sustainable position such as closed guard via Granby roll or seated guard. Grasshopper with flat hips is worse than no guard at all because you are inverted with no defensive tools.
+- **Correction**: If your hips begin dropping, immediately transition out of inverted guard to a more sustainable position such as closed guard via Granby roll or seated guard. Inverted with flat hips is worse than no guard at all because you are inverted with no defensive tools.
 
 ### 3. Attempting to catch the stepping leg after it has already cleared your hips and the passer's weight is settling
 
@@ -385,16 +307,16 @@ Read the step-over initiation early and thread your legs around the stepping leg
 <p class="section-subtitle">How do you train defense against Step Over to Mount?</p>
 
 **Week 1-2** - Recognition and reaction drilling
-Partner initiates step-over attempts from standing against your grasshopper guard at slow speed with clear telegraphing. Practice identifying the weight shift and leg lift cues. Drill the three primary defensive responses in isolation: leg entanglement threading, hip elevation, and knee shield insertion. Partner pauses at each phase of the step over so you can practice the correct response for each timing window. 15 repetitions per defensive option per side.
+Partner initiates step-over attempts from standing against your inverted guard at slow speed with clear telegraphing. Practice identifying the weight shift and leg lift cues. Drill the three primary defensive responses in isolation: leg entanglement threading, hip elevation, and knee shield insertion. Partner pauses at each phase of the step over so you can practice the correct response for each timing window. 15 repetitions per defensive option per side.
 
 **Week 3-4** - Timing and leg entanglement entries
 Partner increases step-over speed to moderate pace with less telegraphing. Focus specifically on the ashi garami entry by threading legs around the stepping leg before it clears your hips. Practice the precise moment to initiate the thread based on the passer's weight shift. Add the half guard insertion defense for when the entanglement window closes. Partner varies their step-over timing to force you to select the correct defense based on available window.
 
-**Week 5-6** - Integration with grasshopper guard offense
-Practice maintaining bilateral leg engagement while executing grasshopper guard attacks. Partner threatens step over whenever they detect an asymmetric window, forcing you to maintain defensive awareness during your own offensive sequences. Develop the habit of keeping one leg in defensive position while the other attacks. Chain from failed step-over defense directly into counter-attacks and sweeps.
+**Week 5-6** - Integration with inverted guard offense
+Practice maintaining bilateral leg engagement while executing inverted guard attacks. Partner threatens step over whenever they detect an asymmetric window, forcing you to maintain defensive awareness during your own offensive sequences. Develop the habit of keeping one leg in defensive position while the other attacks. Chain from failed step-over defense directly into counter-attacks and sweeps.
 
 **Week 7-8** - Live positional sparring with full passing system
-Partner uses the full three-option passing system of step over, back step, and leg drag against your grasshopper guard at full resistance. You must read which pass is being attempted and select the appropriate defense in real time. Track success rates for each defensive option and identify which pass consistently beats your guard. Extend rounds to include mount escape sequences when the step over succeeds to build the complete defensive chain.
+Partner uses the full three-option passing system of step over, back step, and leg drag against your inverted guard at full resistance. You must read which pass is being attempted and select the appropriate defense in real time. Track success rates for each defensive option and identify which pass consistently beats your guard. Extend rounds to include mount escape sequences when the step over succeeds to build the complete defensive chain.
 
 
 

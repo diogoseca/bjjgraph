@@ -186,34 +186,21 @@ description: "Master executing the Lasso Sweep from bottom position. Learn grip 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lasso sweep from open guard into ankle lock",
-      "description": "Lasso Sweep (Attacker) film study: Lasso sweep from open guard into ankle lock, taught by Lucas Lepri.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LwnoWDFJlN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LwnoWDFJlN0",
-      "url": "https://www.youtube.com/watch?v=LwnoWDFJlN0",
-      "creator": { "@type": "Person", "name": "Lucas Lepri" },
-      "duration": "PT44S"
+      "name": "Lasso Sweep for Standing Opponent",
+      "description": "Lasso Sweep (Attacker) film study: Lasso Sweep for Standing Opponent.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yBMlXlVefPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yBMlXlVefPA",
+      "url": "https://www.youtube.com/watch?v=yBMlXlVefPA",
+      "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Lasso sweep against a standing opponent",
-      "description": "Lasso Sweep (Attacker) film study: Lasso sweep against a standing opponent, taught by Revolution Fitness Center coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yBMlXlVefPA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yBMlXlVefPA",
-      "url": "https://www.youtube.com/watch?v=yBMlXlVefPA",
-      "creator": { "@type": "Person", "name": "Revolution Fitness Center coach" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Sweep from leg lasso guard",
-      "description": "Lasso Sweep (Attacker) film study: Sweep from leg lasso guard, taught by Leslie Gardineer.",
+      "name": "Sweep from Leg Lasso with One Jiu Jitsu Black Belt Leslie Gardineer at De Boa\u2026",
+      "description": "Lasso Sweep (Attacker) film study: Sweep from Leg Lasso with One Jiu Jitsu Black Belt Leslie Gardineer at De Boa\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/42uccYQUAgE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/42uccYQUAgE",
       "url": "https://www.youtube.com/watch?v=42uccYQUAgE",
-      "creator": { "@type": "Person", "name": "Leslie Gardineer" },
       "duration": "PT84S"
     }
   ]
@@ -242,17 +229,9 @@ Executing the Lasso Sweep requires understanding the precise mechanical interact
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=LwnoWDFJlN0)
-
-<p class="clip-credit"><strong>Lasso sweep from open guard into ankle lock</strong> — taught by Lucas Lepri · 0:44 · <a href="https://www.youtube.com/watch?v=LwnoWDFJlN0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=yBMlXlVefPA)
 
-<p class="clip-credit"><strong>Lasso sweep against a standing opponent</strong> — taught by Revolution Fitness Center coach · 0:55 · <a href="https://www.youtube.com/watch?v=yBMlXlVefPA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lasso Sweep for Standing Opponent</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=yBMlXlVefPA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +239,7 @@ Executing the Lasso Sweep requires understanding the precise mechanical interact
 
 ![](https://www.youtube.com/watch?v=42uccYQUAgE)
 
-<p class="clip-credit"><strong>Sweep from leg lasso guard</strong> — taught by Leslie Gardineer · 1:24 · <a href="https://www.youtube.com/watch?v=42uccYQUAgE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sweep from Leg Lasso with One Jiu Jitsu Black Belt Leslie Gardineer at De Boa…</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=42uccYQUAgE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

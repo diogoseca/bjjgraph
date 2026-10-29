@@ -47,7 +47,7 @@
   "overview": "The Berimbolo Entry is a revolutionary back-taking technique that emerged from the modern sport jiu-jitsu evolution, fundamentally changing how practitioners approach De La Riva guard. This dynamic movement combines inversion mechanics with precise grip control to spin underneath the opponent, emerging directly onto their back. The technique exploits the opponent's base by creating a rotational momentum that makes defending against the back take extremely difficult once the movement is initiated.\n\nThe berimbolo represents a paradigm shift in guard play, prioritizing movement and angles over traditional sweeping mechanics. By inverting underneath the opponent, the practitioner creates a unique angle of attack that bypasses conventional passing defenses. The technique requires excellent hip mobility, timing, and spatial awareness, but when executed properly, it offers one of the highest percentage paths to back control in modern jiu-jitsu. The entry phase is crucial - proper De La Riva hook placement and grip control determine whether the inversion will be successful or if the opponent can counter-rotate to prevent the back take.",
   "related_content": [
     {
-      "name": "Kiss of the Dragon",
+      "name": "Kiss of the Dragon from RDLR",
       "relationship": "Alternative finish when De La Riva hook is compromised"
     },
     {
@@ -406,31 +406,12 @@
     "safety_considerations": "When training the berimbolo entry, proper neck and spine positioning is critical to prevent injury during the inversion. Always keep your chin tucked and roll over your shoulders rather than the top of your head. Practitioners with limited neck mobility or previous neck injuries should consult with instructors before attempting this technique. Begin practice on soft mats with slow, controlled repetitions to develop proper body mechanics before increasing speed. Partners should avoid posting or driving weight onto the inverting practitioner's neck or upper back during drilling. If you feel any sharp pain in your neck, shoulders, or spine during execution, stop immediately and reassess your technique with an instructor. Build up hip and shoulder flexibility gradually through dedicated mobility work before attempting high-speed berimbolo entries.",
     "clips": [
       {
-        "id": "Ecd48BZmReA",
-        "title": "Berimbolo entry from double guard pull",
-        "by": "Johnny Tama",
-        "vertical": false,
-        "channel": "Johnny Tama",
-        "duration": 77,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XIdGS3OyXlE",
-        "title": "Quick guide to the no-gi berimbolo",
-        "by": "Margot Ciccarelli",
-        "vertical": false,
-        "channel": "Margot Ciccarelli | Nomadic Mars",
-        "duration": 125,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "kk5yC5phq5s",
-        "title": "Berimbolo from De La Riva guard",
-        "by": "Mikey Musumeci",
-        "vertical": false,
+        "title": "Como fazer Berimbolo da De La Riva com Mikey Musumeci - LEGENDADO",
         "channel": "Jiu Jitsu Legendado",
-        "duration": 223,
-        "verified": "2026-07-15"
+        "duration": 222,
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -621,28 +602,17 @@
     ],
     "clips": [
       {
-        "id": "L-cT37wN1-8",
-        "title": "Berimbolo escape to top position",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
-        "duration": 35,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XkJI1fJGGbo",
-        "title": "Toe hold counter to the berimbolo wedge",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 289,
-        "verified": "2026-07-15"
+        "id": "1W6LzmLl5xk",
+        "title": "De La Riva Guard Pass:  Berimbolo Prevention and Duckunder Pass to Leg Drag…",
+        "channel": "Revolution BJJ",
+        "duration": 201,
+        "front": true
       }
     ]
   },
   "variants_and_adaptations": [
     {
-      "variant_name": "Kiss of the Dragon",
+      "variant_name": "Kiss of the Dragon from RDLR",
       "description": "When opponent sprawls legs away and prevents De La Riva hook from controlling base, release the hook entirely and use rotational momentum to spin directly behind them. Pull on their far hip while doing a forward roll under your own body, emerging directly onto their back without the traditional hook-based rotation.",
       "when_to_use": "When opponent sits back heavily or when De La Riva hook is compromised but hip control remains strong"
     },

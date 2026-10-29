@@ -244,7 +244,17 @@
         "answer_line": "Back to half guard; repeatable"
       }
     ],
-    "safety_considerations": "This is a control entry, not a submission, and no joint should be loaded during it. Closing the figure four captures the shoulder but must not rotate it: the finish is a separate, deliberate decision made from the established trap. Threading fast into a partner's committed arm can hyperextend an elbow that is already straight, so build the grip progressively and never snap it closed."
+    "safety_considerations": "This is a control entry, not a submission, and no joint should be loaded during it. Closing the figure four captures the shoulder but must not rotate it: the finish is a separate, deliberate decision made from the established trap. Threading fast into a partner's committed arm can hyperextend an elbow that is already straight, so build the grip progressively and never snap it closed.",
+    "clips": [
+      {
+        "id": "5F3ZM01oPVo",
+        "title": "BJJ | How To Kimura From Bottom Half Guard",
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 41,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Kimura Trap — Defender",
@@ -356,6 +366,16 @@
         "phase": "Resistance",
         "focus": "Conceding correctly",
         "description": "Start with the grip already closed. Your only objective is to pass the entangled leg to side control without fighting the shoulder."
+      }
+    ],
+    "clips": [
+      {
+        "id": "7dU6lsfyowU",
+        "title": "Escaping & Preventing the Kimura from Half Guard | BJJ Submission Defence",
+        "channel": "KD Grappling | Kieran Davern",
+        "duration": 258,
+        "vertical": false,
+        "front": true
       }
     ]
   }

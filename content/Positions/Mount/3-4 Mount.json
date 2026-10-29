@@ -258,11 +258,6 @@
         "condition": "Else if opponent turns away from posted leg or exposes their back during escape attempt",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 75
-          },
-          {
             "technique": "Side Control to North-South",
             "target": "North-South",
             "probability": 70
@@ -408,8 +403,8 @@
       {
         "transition": "Mount to Armbar",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
+          "gi": 12,
+          "nogi": 14
         }
       },
       {
@@ -422,13 +417,6 @@
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": {
           "gi": 11,
           "nogi": 13
         }
@@ -436,66 +424,47 @@
       {
         "transition": "Consolidate Mount",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 26
+          "gi": 23,
+          "nogi": 30
         }
       },
       {
         "transition": "Cross Collar Choke from 3-4 Mount",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 15,
           "nogi": null
         }
       },
       {
         "transition": "3-4 Mount to S Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "3-4 Mount to Technical Mount",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 15
+          "gi": 15,
+          "nogi": 17
         }
       },
       {
         "transition": "Americana from 3-4 Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Triangle from Mount",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       }
     ],
-    "clips": [
-      {
-        "id": "2Xm_mLp8xwk",
-        "title": "S-Mount top troubleshooting",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 67,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5UtNLw7usQk",
-        "title": "Switch-side armbar from S-Mount",
-        "by": "Darrin Lillian",
-        "vertical": false,
-        "channel": "Darrin Lillian",
-        "duration": 50,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "3-4 Mount Bottom",
@@ -916,35 +885,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "2uuP147GoBk",
-        "title": "Mount bottom bridge & roll escape",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "TutAtWW-HWQ",
-        "title": "Upa shrimp mount escape",
-        "by": "Mat Life Training Center",
-        "vertical": false,
-        "channel": "Mat Life Training Center",
-        "duration": 27,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "9252EvCT0q4",
-        "title": "Escaping the mount",
-        "by": "Gabriel Gonzaga",
-        "vertical": false,
-        "channel": "Gabriel Gonzaga",
-        "duration": 93,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1060,33 +1001,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "FSbR22OOSaE",
-      "title": "S-Mount basics",
-      "by": "ZombieProofBJJ",
-      "vertical": false,
-      "channel": "ZombieProofBJJ",
-      "duration": 72,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "aVDYz6OeOnc",
-      "title": "Take the back from S-Mount",
-      "by": "Andrew Chappelle",
-      "vertical": false,
-      "channel": "Andrew Chappelle BJJ",
-      "duration": 83,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "KTTMiT_YEoA",
-      "title": "S-Mount scissor collar choke",
-      "by": "Jiu Jitsu Kid",
-      "vertical": false,
-      "channel": "Jiu Jitsu Kid",
-      "duration": 99,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

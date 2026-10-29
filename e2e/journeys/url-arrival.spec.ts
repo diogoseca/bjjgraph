@@ -77,15 +77,20 @@ type Any = any
  * Rails: __neural._urlSeeded, ._urlSeedIdx, ._urlSeedRole, ._played, ._pastRolls, .paused
  */
 
-const arrival = (page: Page) =>
-  page.evaluate(() => {
+const arrival = async (page: Page) => {
+  // Content arrivals seat after the deferred reader loads. Pumping the game clock
+  // does not settle HTTP; observe the actual board before measuring its camera.
+  await page.waitForFunction(() => { const a = (window as Any).__neural; return !!a?.nodes[a.currentPos] })
+  return page.evaluate(() => {
     const a = (window as Any).__neural
     const n = a.nodes[a.currentPos]
     const scale = a.W / a.cam.vw
     const nodeK = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)))
     const card = document.querySelector("[data-landcard]") as HTMLElement | null
     const cr = card ? card.getBoundingClientRect() : null
-    const sy = (n.y - a.cam.cy) * scale + a.H / 2
+    // Use the frame's published pair lift: n.y is the stored ground point,
+    // not the orb the visitor sees (CLAUDE.md §6.2).
+    const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
     return {
       pos: n.t as string,
       role: a.roleLabel() as string,
@@ -99,6 +104,7 @@ const arrival = (page: Page) =>
       seeded: !!a._urlSeeded,
     }
   })
+}
 
 test("@curated a role page sets the board on THAT side, paused, and starts no roll", async ({
   page,
@@ -127,19 +133,39 @@ test("@curated a role page sets the board on THAT side, paused, and starts no ro
   expect(said, "no 'Restarting the roll' on an address-bar arrival").not.toContain("Restarting")
 })
 
+// STALE CONTRACT (D-318 U4a, CI 48be3a910): with the article shown, the arrival fits the pair into
+// the reader's reserved node band (rollCamTarget widens to 0.107 of the graph here) and centres it
+// above the first section, which article-sections.spec.ts asserts at eight widths. This framing
+// claim is the MAP view's (Book off, persisted as a returning reader left it).
 test("the node it navigates to is framed clear of the landing card", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom")
+  await j.boot("/Positions/Side-Control/Bottom", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
+  // boot() waits for graph ingest, not the deferred reader's seat or styled article.
+  // Advancing first can spend all six seconds before the arrival flight even starts.
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
+  await j.landSettled()
   await j.advance(6000)
-  // LET THE CARD SETTLE, AND READ BETWEEN THE PUMPS. The landing card animates in: measured, its
-  // top was still at 588 on the frame the camera last aimed against and reached 376 on the next,
-  // so a camera read taken mid-settle describes nothing. A second `advance` alone is NOT enough —
-  // the intervening `arrival()` is what forces layout and lets a frame actually render between
-  // pumps (with two bare advances the reading stayed at the mid-settle value).
-  for (let i = 0; i < 3; i++) {
-    await arrival(page)
-    await j.advance(400)
-  }
+  // CSS uses wall time while the camera uses the stopped simulation clock. Poll
+  // their own completion signals, pumping between samples. Do NOT wait for the
+  // desired zoom/clearance: a settled but wrong framing must reach the assertions.
+  await expect.poll(async () => {
+    await j.advance(200)
+    return page.evaluate(() => {
+      const a = (window as Any).__neural, m = a._cm
+      const card = document.querySelector("[data-landcard]")
+      card?.getBoundingClientRect() // flush layout before observing its transitions
+      const animating = card?.getAnimations({ subtree: true }).some(animation =>
+        animation.playState !== "finished" && animation.playState !== "idle" &&
+        animation.effect?.getComputedTiming().iterations !== Infinity)
+      return {
+        flightEnded: !!m && !m.flight,
+        cameraAtRest: !!m && Math.hypot(m.v.x, m.v.y) * a.W / a.cam.vw < 0.1 &&
+          Math.abs(m.v.l) < 0.0001 && Math.abs(m.lift.v) < 0.1,
+        chromeAtRest: !!card && !animating && (!m?.edge || m.edge.t === 1),
+      }
+    })
+  }, { timeout: 15000, intervals: [50], message: "the arrival flight and landing layout finish before framing is measured" })
+    .toEqual({ flightEnded: true, cameraAtRest: true, chromeAtRest: true })
 
   const a = await arrival(page)
   expect(a.zoomFrac, "zoomed in to reading distance, not the overview").toBeLessThan(0.1)
@@ -174,7 +200,7 @@ test("the node it navigates to is framed clear of the landing card", async ({ pa
   expect(Math.abs(aim.vw - aim.wantVw), "at the same zoom").toBeLessThan(2)
 })
 
-test("pressing play is what starts the roll, and only then does it reach history", async ({
+test("answering the landing card starts play, and only then can the roll reach history", async ({
   page,
 }) => {
   const j = journey(page)
@@ -198,7 +224,17 @@ test("pressing play is what starts the roll, and only then does it reach history
   await j.boot("/Positions/Side-Control/Bottom")
   await j.advance(6000)
   expect((await arrival(page)).played, "staged again, still not played").toBe(false)
-  await page.evaluate(() => (window as Any).__neural.setPaused(false)) // the transport's play
+  const q = await j.landQuestion()
+  expect(q).not.toBeNull()
+  // U47 d: the arrival's question asks first; Answer for Points, where it sits, shows the card — and,
+  // "as it already works", starts nothing: the arrival stays dormant until the answer.
+  await j.clickByMouse("[data-land-ask-go]", "Answer for Points on the selected node’s landing card")
+  await j.advance(900)
+  const shown = await arrival(page)
+  expect(shown.played, "Answer for Points alone leaves the arrival dormant: not played").toBe(false)
+  expect(shown.paused, "…and paused").toBe(true)
+  await j.tapGuardSettled()
+  await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, "answer the selected node’s landing card")
   await j.advance(900)
   const live = await arrival(page)
   expect(live.paused, "the clock is running").toBe(false)
@@ -300,20 +336,35 @@ test("the camera frames the space the card WILL occupy, not the gap while it reb
  * aim drift **13.06 world units → 0.28**. The camera now makes ONE approach to a target that was
  * right from the first frame, instead of chasing one that moves under it.
  */
-test("@curated the opening flight is piecewise-fixed: one wide aim, one landing aim, no drift in either", async ({
+// REAL BREAK: a late Side Control deck moved the measured card band during the
+// landing flight (exact e26: 10.9501 world units; exact dev 8aa: 10.9405). D-318's
+// shared node reservation keeps the cold and adopted reader aims identical.
+// Evidence: scratch/article-sections/ci-e26/{opening-named-deck-order-cpu1,
+// base8aa-opening-verified,d318-cpu4-proof}. The original ungated case and its
+// <3 bound remain; the second case pins the real delivery that exposes the bug.
+for (const lateDeck of [false, true]) {
+test(`@curated the opening flight aims once, at the landing, and the aim never drifts under it${lateDeck ? ' with the landing deck held' : ''}`, async ({
   page,
 }) => {
   const j = journey(page)
-  await j.boot("/")
+  await j.boot("/", lateDeck ? { payloads: { "flashcards/e08ec988.json": { afterSim: 7 } } } : {})
+  if (lateDeck) {
+    await j.rig("role", [0])
+    await page.evaluate(() => {
+      const a = (window as any).__neural
+      a.rigStart(a.nodes.findIndex((n: any) => n.t === "Side Control Top"))
+    })
+  }
   await j.advance(3300) // the intro hands the camera over at 3.2s
 
-  // v1.168.0 CHANGED THE CLAIM, NOT THE BUG THIS SPEC PINS. The staged arrival aims WIDE for
-  // its first beat (NG_ARRIVE_KICKER = 2.0s) and then re-aims ONCE at the landing framing — a
-  // designed retarget at a designed moment. What must still never happen is the original
-  // defect: the aim moving UNDER the flight because the card mounted or the band's cold prior
-  // gave way. So each phase is sampled separately and pinned to zero drift, and phase B's
-  // window deliberately spans enterLand (~9.4s) and the card's mount — the exact event whose
-  // aim-shift this spec exists to forbid.
+  // v1.168.0 CHANGED THE CLAIM, NOT THE BUG THIS SPEC PINS: the staged arrival aimed WIDE for its first
+  // beat and re-aimed ONCE at the landing framing. v1.237.0 changed it again: the opening is the directed
+  // arrival (`_openingPose`, owner U50 d), which aims ONCE, at the landing framing, from the pick, and flies
+  // its own closed-form path there; there is no wide beat left to aim at (its centre-column and zoom
+  // checks went with it; the arrival's own claims are pinned in opening-camera.spec.ts). What must still
+  // never happen is the original defect: the aim moving UNDER the flight because the card mounted or the
+  // band's cold prior gave way. So ONE window now spans the hold, the reveal (pick + 2.0s), the rise, the
+  // card's mount and the landing — longer than either of the old two — pinned to zero drift.
   const sample = async (n: number) => {
     const out: number[] = []
     for (let i = 0; i < n; i++) {
@@ -325,24 +376,13 @@ test("@curated the opening flight is piecewise-fixed: one wide aim, one landing 
     }
     return out
   }
-  const wide = await sample(4) // 3.3s → 4.9s: the kicker beat, camera on the whole graph
-  const g = await page.evaluate(() => {
-    const a = (window as any).__neural
-    return { gcx: a.gcx, gW: a.graphW, cx: a.camTarget.cx, vw: a.camTarget.vw }
-  })
-  expect(wide.length, "the wide beat was sampled").toBeGreaterThan(2)
-  // v1.219.0 MOVED THE WIDE AIM VERTICALLY, deliberately: beat 1 frames the whole graph shifted the
-  // least distance that clears the start node of the rows its landing mounts at the reveal
-  // (`_liftForLanding`; camera-continuity.spec.ts asserts zero overlap from there). So the claim
-  // is now: the whole graph (its centre column, its zoom), and an aim that does not drift.
-  expect(Math.abs(g.cx - g.gcx), "beat 1 aims at the graph's centre column").toBeLessThan(3)
-  expect(Math.abs(g.vw / g.gW - 1), "at the whole graph's zoom").toBeLessThan(0.01)
-  const wideDrift = Math.max(...wide) - Math.min(...wide)
-  expect(wideDrift, `beat 1's aim does not drift (${wideDrift.toFixed(2)} world units)`).toBeLessThan(3)
-
-  await j.advance(700) // cross the beat boundary at 5.2s
-  const aims = await sample(14) // 5.6s → 11.2s: the approach, the landing AND the card's mount
-  expect(aims.length, "the flight was sampled").toBeGreaterThan(10)
+  const aims = await sample(20) // 3.7s → 11.7s: the hold, the reveal, the rise, the landing AND the card's mount
+  if (lateDeck) {
+    const delivery = j.payloadTimeline().filter(e => e.pattern === "flashcards/e08ec988.json")
+    expect(delivery.length, "the real landing deck was held").toBeGreaterThan(0)
+    expect(delivery[0].releasedAtSim).toBeGreaterThanOrEqual(7000)
+  }
+  expect(aims.length, "the flight was sampled").toBeGreaterThan(15)
   const drift = Math.max(...aims) - Math.min(...aims)
   expect(
     drift,
@@ -371,3 +411,4 @@ test("@curated the opening flight is piecewise-fixed: one wide aim, one landing 
     `and well above the middle of the screen (y ${Math.round(end.sy!)} of ${end.H})`,
   ).toBeLessThan(end.H * 0.42)
 })
+}

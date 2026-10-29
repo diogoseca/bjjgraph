@@ -140,7 +140,7 @@ const reach = (page: Page, selector: string) =>
 const canvasPoint = (page: Page) =>
   page.evaluate(() => {
     for (const y of [150, 190, 230, 270, 310, 120, 100]) {
-      for (const x of [195, 120, 270, 60, 330]) {
+      for (const x of [370, 350, 195, 120, 270, 60, 330]) {
         const at = document.elementFromPoint(x, y);
         if (at && at.tagName === "CANVAS") return { x, y };
       }
@@ -306,12 +306,16 @@ test("a drag hands the camera straight back to the user — the app never fights
   const { j } = await arrive(page);
   await j.advance(3500);
   await j.advance(2000); // the class is framed and the lease is live
+  await expect(page.locator('[data-reader-ready="true"]')).toHaveCount(1);
+  await page.waitForTimeout(350); // the deferred preview's measured layout is settled
 
   // a REAL pan: pointerdown, several moves, pointerup — the gesture that means "I'll look
   // where I like". The lease must be released by it, not merely overridden for one frame.
   const from = await canvasPoint(page);
   expect(from, "a point where the graph itself is hit-testable").not.toBeNull();
   await page.mouse.move(from!.x, from!.y);
+  expect(await page.evaluate(p => document.elementFromPoint(p.x, p.y)?.tagName, from!),
+    "the measured canvas point still owns pointerdown after hover").toBe("CANVAS");
   await page.mouse.down();
   for (let i = 1; i <= 6; i++) await page.mouse.move(from!.x - i * 18, from!.y + i * 8);
   await page.mouse.up();

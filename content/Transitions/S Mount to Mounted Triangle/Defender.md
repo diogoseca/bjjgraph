@@ -160,35 +160,12 @@ description: "Defend the S Mount to Mounted Triangle transition. Recognition cue
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Preventing the mounted triangle",
-      "description": "S Mount to Mounted Triangle (Defender) film study: Preventing the mounted triangle, taught by Justen Hamilton.",
+      "name": "Preventing the Mounted Triangle",
+      "description": "S Mount to Mounted Triangle (Defender) film study: Preventing the Mounted Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l-HhOV9UjJU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l-HhOV9UjJU",
       "url": "https://www.youtube.com/watch?v=l-HhOV9UjJU",
-      "creator": { "@type": "Person", "name": "Justen Hamilton" },
       "duration": "PT104S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Triangle defense and escape",
-      "description": "S Mount to Mounted Triangle (Defender) film study: Triangle defense and escape, taught by Daniel Frank.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
-      "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
-      "creator": { "@type": "Person", "name": "Daniel Frank" },
-      "duration": "PT24S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Escaping a fully locked triangle",
-      "description": "S Mount to Mounted Triangle (Defender) film study: Escaping a fully locked triangle, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q2ttnL90Js8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/q2ttnL90Js8",
-      "url": "https://www.youtube.com/watch?v=q2ttnL90Js8",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT207S"
     }
   ]
 }
@@ -218,23 +195,7 @@ Defending the S Mount to Mounted Triangle transition requires recognizing the se
 
 ![](https://www.youtube.com/watch?v=l-HhOV9UjJU)
 
-<p class="clip-credit"><strong>Preventing the mounted triangle</strong> — taught by Justen Hamilton · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
-
-<p class="clip-credit"><strong>Triangle defense and escape</strong> — taught by Daniel Frank · 0:24 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=q2ttnL90Js8)
-
-<p class="clip-credit"><strong>Escaping a fully locked triangle</strong> — taught by Coach Brian · 3:27 · <a href="https://www.youtube.com/watch?v=q2ttnL90Js8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Preventing the Mounted Triangle</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

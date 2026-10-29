@@ -46,34 +46,11 @@ description: "Learn Stand and Circle Away escape from Front Headlock. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Clearing the front headlock",
-      "description": "Stand and Circle Away film study: Clearing the front headlock, taught by Coach Slay.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rVnKhZ2aX7k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rVnKhZ2aX7k",
-      "url": "https://www.youtube.com/watch?v=rVnKhZ2aX7k",
-      "creator": { "@type": "Person", "name": "Coach Slay" },
-      "duration": "PT94S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Basic front headlock defense",
-      "description": "Stand and Circle Away film study: Basic front headlock defense, taught by Askren Wrestling Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ry5lH-N7O-0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ry5lH-N7O-0",
-      "url": "https://www.youtube.com/watch?v=ry5lH-N7O-0",
-      "creator": { "@type": "Person", "name": "Askren Wrestling Academy" },
-      "duration": "PT108S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Circling 2-on-1 front headlock escape",
-      "description": "Stand and Circle Away film study: Circling 2-on-1 front headlock escape, taught by LJJF Seals.",
+      "name": "circle 2 on 1 front headlock escape #3",
+      "description": "Stand and Circle Away film study: circle 2 on 1 front headlock escape #3.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ccoivM_CJw8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ccoivM_CJw8",
       "url": "https://www.youtube.com/watch?v=ccoivM_CJw8",
-      "creator": { "@type": "Person", "name": "LJJF Seals" },
       "duration": "PT173S"
     }
   ]
@@ -128,25 +105,9 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rVnKhZ2aX7k)
-
-<p class="clip-credit"><strong>Clearing the front headlock</strong> — taught by Coach Slay · 1:34 · <a href="https://www.youtube.com/watch?v=rVnKhZ2aX7k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ry5lH-N7O-0)
-
-<p class="clip-credit"><strong>Basic front headlock defense</strong> — taught by Askren Wrestling Academy · 1:48 · <a href="https://www.youtube.com/watch?v=ry5lH-N7O-0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=ccoivM_CJw8)
 
-<p class="clip-credit"><strong>Circling 2-on-1 front headlock escape</strong> — taught by LJJF Seals · 2:53 · <a href="https://www.youtube.com/watch?v=ccoivM_CJw8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>circle 2 on 1 front headlock escape #3</strong> · 2:53 · <a href="https://www.youtube.com/watch?v=ccoivM_CJw8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

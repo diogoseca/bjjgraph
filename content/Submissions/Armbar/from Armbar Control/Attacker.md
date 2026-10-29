@@ -188,24 +188,22 @@ description: "How to execute the Armbar Finish in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roger Gracie armbars",
-      "description": "Armbar from Armbar Control (Attacker) film study: Roger Gracie armbars, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT102S"
+      "name": "Stop Racking Yourself with Armbars in BJJ",
+      "description": "Armbar from Armbar Control (Attacker) film study: Stop Racking Yourself with Armbars in BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kZsCLF6O-Cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kZsCLF6O-Cg",
+      "url": "https://www.youtube.com/watch?v=kZsCLF6O-Cg",
+      "duration": "PT146S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Armbar from mount when they bump you off",
-      "description": "Armbar from Armbar Control (Attacker) film study: Armbar from mount when they bump you off, taught by Kyle Dimmitt.",
+      "description": "Armbar from Armbar Control (Attacker) film study: Armbar from mount when they bump you off.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gDn6uThIABM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gDn6uThIABM",
       "url": "https://www.youtube.com/watch?v=gDn6uThIABM",
-      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
-      "duration": "PT76S"
+      "duration": "PT75S"
     }
   ]
 }
@@ -238,9 +236,9 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+![](https://www.youtube.com/watch?v=kZsCLF6O-Cg)
 
-<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stop Racking Yourself with Armbars in BJJ</strong> · 2:26 · <a href="https://www.youtube.com/watch?v=kZsCLF6O-Cg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -248,7 +246,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 ![](https://www.youtube.com/watch?v=gDn6uThIABM)
 
-<p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> — taught by Kyle Dimmitt · 1:16 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

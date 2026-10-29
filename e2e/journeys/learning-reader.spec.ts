@@ -220,7 +220,9 @@ for (const slug of ["BJJ-For-Beginners-Roadmap", "BJJ-Guard-Types-Explained", "B
   test(`existing ${slug} URL opens its Learning entry`, async ({ page }) => {
     const j = journey(page);
     await j.boot("/Learning/" + slug);
-    await expect(page.locator(`[data-concept-detail="Learning/${slug}"]`)).toBeVisible();
+    await expect(page.locator(`[data-reader-ready="true"][data-reader-path="/Learning/${slug}"]`)).toBeVisible();
+    await expect(page.locator("[data-reader-body]")).not.toBeEmpty();
+    await expect.poll(() => page.evaluate(() => (window as any).__neural._focusIdxSet?.size || 0)).toBeGreaterThan(0);
     await j.advance(4000);
     expect(await page.evaluate(() => (window as any).__neural.currentPos)).toBe(null);
   });

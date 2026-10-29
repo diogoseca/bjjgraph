@@ -155,39 +155,6 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Toe Hold Control (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Crossover Toe Hold from control",
-      "description": "Toe Hold Control (Top) film study: Crossover Toe Hold from control, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
-      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Toe Hold from 50/50 finish",
-      "description": "Toe Hold Control (Top) film study: Toe Hold from 50/50 finish, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/B_StkmaI3Nc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/B_StkmaI3Nc",
-      "url": "https://www.youtube.com/watch?v=B_StkmaI3Nc",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT17S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -198,32 +165,6 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Toe Hold Control (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
-
-<p class="clip-credit"><strong>Crossover Toe Hold from control</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=B_StkmaI3Nc)
-
-<p class="clip-credit"><strong>Toe Hold from 50/50 finish</strong> — taught by John Danaher · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -290,7 +231,6 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 
 **If opponent extends leg and pushes away with straight leg:**
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
 - Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[Positions/Ashi Garami]] (Probability: 60%)
 
 

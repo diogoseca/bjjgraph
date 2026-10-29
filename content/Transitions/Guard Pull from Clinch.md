@@ -46,35 +46,32 @@ description: "Master the guard pull from clinch in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard pull from the standing clinch",
-      "description": "Guard Pull from Clinch film study: Guard pull from the standing clinch, taught by Mat Life Training Center.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q_PpBsX4lCc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/q_PpBsX4lCc",
-      "url": "https://www.youtube.com/watch?v=q_PpBsX4lCc",
-      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
-      "duration": "PT77S"
+      "name": "Pulling guard No-Gi",
+      "description": "Guard Pull from Clinch film study: Pulling guard No-Gi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2RxcGbEFS_s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2RxcGbEFS_s",
+      "url": "https://www.youtube.com/watch?v=2RxcGbEFS_s",
+      "duration": "PT26S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Pulling closed guard",
-      "description": "Guard Pull from Clinch film study: Pulling closed guard, taught by The Paradigm Academy.",
+      "name": "Pulling Closed Guard",
+      "description": "Guard Pull from Clinch film study: Pulling Closed Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/c9zYACjPEWo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/c9zYACjPEWo",
       "url": "https://www.youtube.com/watch?v=c9zYACjPEWo",
-      "creator": { "@type": "Person", "name": "The Paradigm Academy" },
       "duration": "PT53S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Pulling guard in no-gi",
-      "description": "Guard Pull from Clinch film study: Pulling guard in no-gi, taught by Backstreet Dojo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2RxcGbEFS_s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2RxcGbEFS_s",
-      "url": "https://www.youtube.com/watch?v=2RxcGbEFS_s",
-      "creator": { "@type": "Person", "name": "Backstreet Dojo" },
-      "duration": "PT26S"
+      "name": "Guard Pull from Standing Clinch",
+      "description": "Guard Pull from Clinch film study: Guard Pull from Standing Clinch.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q_PpBsX4lCc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q_PpBsX4lCc",
+      "url": "https://www.youtube.com/watch?v=q_PpBsX4lCc",
+      "duration": "PT76S"
     }
   ]
 }
@@ -128,9 +125,9 @@ Strategic context plays a significant role in the decision to pull guard. Practi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=q_PpBsX4lCc)
+![](https://www.youtube.com/watch?v=2RxcGbEFS_s)
 
-<p class="clip-credit"><strong>Guard pull from the standing clinch</strong> — taught by Mat Life Training Center · 1:17 · <a href="https://www.youtube.com/watch?v=q_PpBsX4lCc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pulling guard No-Gi</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=2RxcGbEFS_s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +135,15 @@ Strategic context plays a significant role in the decision to pull guard. Practi
 
 ![](https://www.youtube.com/watch?v=c9zYACjPEWo)
 
-<p class="clip-credit"><strong>Pulling closed guard</strong> — taught by The Paradigm Academy · 0:53 · <a href="https://www.youtube.com/watch?v=c9zYACjPEWo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pulling Closed Guard</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=c9zYACjPEWo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2RxcGbEFS_s)
+![](https://www.youtube.com/watch?v=q_PpBsX4lCc)
 
-<p class="clip-credit"><strong>Pulling guard in no-gi</strong> — taught by Backstreet Dojo · 0:26 · <a href="https://www.youtube.com/watch?v=2RxcGbEFS_s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Pull from Standing Clinch</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=q_PpBsX4lCc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

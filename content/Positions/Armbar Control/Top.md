@@ -165,13 +165,13 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Straight armbar from guard",
-      "description": "Armbar Control (Top) film study: Straight armbar from guard, taught by Gracie Charlottesville.",
+      "name": "Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville",
+      "description": "Armbar Control (Top) film study: Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville, taught by Gracie Charlottesville.",
       "thumbnailUrl": "https://i.ytimg.com/vi/I8f9wkX7n4Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/I8f9wkX7n4Y",
       "url": "https://www.youtube.com/watch?v=I8f9wkX7n4Y",
       "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
-      "duration": "PT30S"
+      "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
@@ -183,17 +183,6 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
       "url": "https://www.youtube.com/watch?v=BFmncj84lNE",
       "creator": { "@type": "Person", "name": "Way of BJJ" },
       "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Roger Gracie armbars",
-      "description": "Armbar Control (Top) film study: Roger Gracie armbars, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT102S"
     }
   ]
 }
@@ -211,6 +200,8 @@ This position is characterized by maximum control over the isolated limb while m
 
 Armbar Control Top is accessible from multiple positions including mount, guard, side control, and back control, making it one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu. The position's effectiveness stems from its ability to isolate a single limb while using the entire body's leverage, creating a mechanical advantage that is difficult to overcome even when the opponent recognizes the danger.
 
+Jiu-Jitsu Breakdowns describes an armbar grip-break phase in which the attacker's leg figure-four separates the defender's joined hands while the attacker keeps the arm grips. This is an observation of grip separation; the later finishing configuration is a separate phase whose mechanics the narration does not fully explain. Narration: [Jiu-Jitsu Breakdowns, 12:08.2–12:29.6](https://www.youtube.com/watch?v=9i2nf6N0O-k&t=728s).
+
 </section>
 
 
@@ -225,7 +216,7 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 ![](https://www.youtube.com/watch?v=I8f9wkX7n4Y)
 
-<p class="clip-credit"><strong>Straight armbar from guard</strong> — taught by Gracie Charlottesville · 0:30 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville</strong> — taught by Gracie Charlottesville · 0:29 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,14 +225,6 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 ![](https://www.youtube.com/watch?v=BFmncj84lNE)
 
 <p class="clip-credit"><strong>Top side armbar finish</strong> — taught by Way of BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=BFmncj84lNE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
-
-<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -182,24 +182,12 @@ description: "Learn to attack with the Kimura from Gift Wrap. Step-by-step guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gift Wrap T-Bag Kimura",
-      "description": "Kimura from Gift Wrap (Attacker) film study: Gift Wrap T-Bag Kimura, taught by JitzLive.",
+      "name": "Gift Wrapping - 10 - T Bag Kimura",
+      "description": "Kimura from Gift Wrap (Attacker) film study: Gift Wrapping - 10 - T Bag Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8sdF_KhIVik/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8sdF_KhIVik",
       "url": "https://www.youtube.com/watch?v=8sdF_KhIVik",
-      "creator": { "@type": "Person", "name": "JitzLive" },
-      "duration": "PT64S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Split Gift Wrap to Kimura",
-      "description": "Kimura from Gift Wrap (Attacker) film study: Split Gift Wrap to Kimura, taught by Watauga BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c23mDOOXANw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c23mDOOXANw",
-      "url": "https://www.youtube.com/watch?v=c23mDOOXANw",
-      "creator": { "@type": "Person", "name": "Watauga BJJ" },
-      "duration": "PT33S"
+      "duration": "PT63S"
     }
   ]
 }
@@ -230,15 +218,7 @@ Attacking the Kimura from Gift Wrap leverages the inherent arm isolation that th
 
 ![](https://www.youtube.com/watch?v=8sdF_KhIVik)
 
-<p class="clip-credit"><strong>Gift Wrap T-Bag Kimura</strong> — taught by JitzLive · 1:04 · <a href="https://www.youtube.com/watch?v=8sdF_KhIVik" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=c23mDOOXANw)
-
-<p class="clip-credit"><strong>Split Gift Wrap to Kimura</strong> — taught by Watauga BJJ · 0:33 · <a href="https://www.youtube.com/watch?v=c23mDOOXANw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gift Wrapping - 10 - T Bag Kimura</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=8sdF_KhIVik" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

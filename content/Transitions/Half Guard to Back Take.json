@@ -428,22 +428,12 @@
     "safety_considerations": "Ensure controlled execution to avoid injury during the transition. Maintain awareness of opponent's spine and neck position, particularly when establishing back control and inserting hooks. Apply pressure gradually rather than explosively when first learning to prevent knee and hip injuries to your training partner. When inserting hooks, be careful not to drive knees forcefully into opponent's thighs, which can cause painful contusions. During drilling, communicate clearly if crossface pressure becomes excessive, as this can strain neck muscles. Partners should tap early if they feel trapped in poor positions during the transition to prevent panic responses that lead to injury.",
     "clips": [
       {
-        "id": "WoSyrVZ1VvY",
-        "title": "Back take from half guard using a butterfly hook",
-        "by": "Procel",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "XqH1Bt0-AgY",
-        "title": "Back take from half guard bottom",
-        "by": "BJJ Recap coach",
-        "vertical": false,
+        "title": "Joe Rogan inspired backtake from half guard | BJJ passes",
         "channel": "BJJ Recap",
         "duration": 39,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -630,30 +620,11 @@
     "clips": [
       {
         "id": "hHbb7ywVTwU",
-        "title": "Countering the back take from top deep half guard",
-        "by": "JiuJitsu.com coach",
-        "vertical": false,
+        "title": "Top Deep Half Guard Counter to Back Take",
         "channel": "JiuJitsu.com",
         "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "rk9ZxNBphTk",
-        "title": "Detail to shut down the bottom half guard",
-        "by": "Mason Fowler",
         "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 376,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Y113xweZTWo",
-        "title": "Three ways to defend your back in no-gi",
-        "by": "Matheus Diniz",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 430,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

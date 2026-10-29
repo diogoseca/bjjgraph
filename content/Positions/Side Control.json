@@ -237,7 +237,7 @@
         }
       },
       {
-        "transition": "Marce Choke from Side Control",
+        "transition": "Darce Choke from Side Control",
         "attempt_probability": {
           "gi": 1,
           "nogi": 1
@@ -466,31 +466,12 @@
     },
     "clips": [
       {
-        "id": "WuSBXB22-1Q",
-        "title": "Side Control Top Danger Control",
-        "by": "Craig Jones",
+        "id": "e8OUw05ZBwo",
+        "title": "Side Control - Dealing with Frames and Establishing a Chest to Chest Pin",
+        "channel": "Fox Den Martial Arts",
+        "duration": 245,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 156,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "mt7SMNzP4Ak",
-        "title": "Buggy Choke From Top Side Control",
-        "by": "azigarami",
-        "vertical": false,
-        "channel": "azigarami",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "onIP1GC3Daw",
-        "title": "Top 3 Submissions From Side Control",
-        "by": "Marcus Buchecha Almeida",
-        "vertical": false,
-        "channel": "Marcus ‘Buchecha’ Almeida",
-        "duration": 296,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -817,31 +798,32 @@
     },
     "clips": [
       {
-        "id": "Zw_QEoWDvcw",
-        "title": "Bump 'n Roll Side Control Escape",
-        "by": "PIOT",
-        "vertical": false,
-        "channel": "PIOT",
-        "duration": 82,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "mBFVriM0ojQ",
         "title": "Turkish Get-Up Side Control Escape",
         "by": "Dirtball BJJ",
         "vertical": false,
         "channel": "Dirtball BJJ",
         "duration": 64,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
+      },
+      {
+        "id": "Zw_QEoWDvcw",
+        "title": "Sneaky Bump ‘n Roll Sweep | Escape Side Control",
+        "by": "PIOT",
+        "vertical": false,
+        "channel": "PIOT",
+        "duration": 82,
+        "verified": "2026-10-19"
       },
       {
         "id": "TPkmg7qRcSc",
-        "title": "Side Control Underhook Escape",
+        "title": "Side Control Under Hook Escape",
         "by": "Clayton Phillips",
         "vertical": false,
         "channel": "Clayton Phillips",
-        "duration": 128,
-        "verified": "2026-07-14"
+        "duration": 127,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1059,24 +1041,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "IoHZR1It8hs",
-      "title": "Double Underhooks Side Control Method",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 177,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "mWimgVQrsMU",
-      "title": "Far Side Underhook Pin",
-      "by": "Craig Jones",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 137,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

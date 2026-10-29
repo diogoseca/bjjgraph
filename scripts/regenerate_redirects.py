@@ -7,8 +7,14 @@ walks the canonical content tree and writes a Cloudflare _redirects file
 that 301s lowercase paths to their canonical mixed-case form.
 
 Hub pages only — role pages (Top/Bottom/Attacker/Defender) were never produced
-as lowercase URLs, so skipping them keeps us well under Cloudflare's 2,000
+as lowercase URLs, so skipping them keeps us under Cloudflare's 2,000
 static-rule limit.
+
+TWO OUTPUTS (v1.237.2, RDR546). Cloudflare loaded only the first 100 of 1,954 rules
+for months: see split_rules() and scripts/check_redirect_limits.py. `_redirects` now
+lists every static rule first, and every category rule also goes to
+static/redirect-fallback.json, which functions/_middleware.js bundles and answers from
+before any page lookup.
 
 Runs automatically after `npm run build` via the `postbuild` hook.
 
@@ -36,10 +42,17 @@ AUTHORED_REDIRECTS = PROJECT_ROOT / "source" / "quartz" / "static" / "_redirects
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import quartz_page_path, slugify  # page paths (targets) · alias 301 source slugs
+import check_redirect_limits  # the exact port of Cloudflare's _redirects parser
 
 CATEGORIES = ("Positions", "Transitions", "Submissions")
 ROLE_PAGES = {"Top", "Bottom", "Attacker", "Defender"}
-CLOUDFLARE_STATIC_RULE_LIMIT = 2000
+# The category table the Pages middleware bundles and answers from first (see split_rules). Its
+# prefixes are a subset of regenerate_agent_discovery.py's routed CATEGORIES and equal
+# site/redirect-fallback.mjs's CATEGORY_PREFIXES; check_redirect_limits.py fails if a rule ever
+# falls outside the built _routes.json.
+FALLBACK_REL = Path("static") / "redirect-fallback.json"
+FALLBACK_PREFIXES = tuple(f"/{category}/" for category in CATEGORIES)
+FALLBACK_STATUSES = {301, 302, 303, 307, 308}
 
 
 def canonical_url_for(json_file: Path) -> str:
@@ -127,21 +140,16 @@ def collect_authored_rules(seen: set[str]) -> list[str]:
     return rules
 
 
-def main() -> None:
+def collect_rules() -> tuple[list[str], list[str], list[str]]:
+    """(authored, alias, case) rules in first-match order: the file as one unlimited list."""
     seen: set[str] = set()
 
     # Hand-authored rules FIRST — they are the ones a human decided mattered, and
     # first-match wins in Cloudflare's static rule evaluation.
     authored_rules = collect_authored_rules(seen)
-    if authored_rules:
-        print(f"[regenerate_redirects] {len(authored_rules)} authored rule(s) carried over")
 
-    # Alias 301s next (H5): if the file is ever truncated at Cloudflare's 2000-rule
-    # limit, the high-value synonym redirects survive; only low-value case-correction
-    # rules at the tail would be dropped. `seen` is shared so the classes never collide.
+    # Alias 301s next (H5). `seen` is shared so the classes never collide.
     alias_rules = collect_alias_rules(seen)
-    if alias_rules:
-        print(f"[regenerate_redirects] {len(alias_rules)} alias 301 rule(s)")
 
     case_rules: list[str] = []
     for cat in CATEGORIES:
@@ -158,23 +166,82 @@ def main() -> None:
                 continue
             seen.add(lower)
             case_rules.append(f"{lower} {canonical} 301")
+    return authored_rules, alias_rules, case_rules
 
+
+def split_rules(rules: list[str]) -> tuple[list[str], list[list]]:
+    """(_redirects lines, category table) for one first-match-ordered list (v1.237.2, RDR546).
+
+    Cloudflare files a rule as STATIC only while no dynamic rule (a `*` or a `:placeholder`
+    in the source) has been seen, and stops reading at the 101st dynamic one. Rule #1 used to
+    be `/Training/*`, so only the first 100 of 1,954 rules ever worked. So:
+      - `_redirects` lists every exact rule first, in its original order (Cloudflare consults
+        the exact map before any wildcard), then the wildcards that must stay at the edge:
+        `/l/*`, the 200 rewrite the share links need with NO Function deployed, and
+        `/Training/*`, `/Tree/*`, outside the Function's routes;
+      - every redirect under /Positions, /Transitions and /Submissions, exact rules first and
+        then the wildcards, each in its original order, goes to the category table. The Pages
+        middleware bundles it and answers from it BEFORE any page lookup, the order Cloudflare's
+        own redirects had (site/redirect-fallback.mjs). Its exact rules stay in `_redirects`
+        too, for a deploy whose Function is absent.
+    Statics-first keeps first-match only while no wildcard shadows an exact rule that follows
+    it; check_redirect_limits.py diffs every source's destination to prove it, and fails if any
+    rule in the table matches a built page.
+    """
+    static, edge_dynamic, table_exact, table_wild = [], [], [], []
+    for rule in rules:
+        source, to, *rest = rule.split()
+        status = int(rest[0]) if rest else 302
+        dynamic = bool(check_redirect_limits.SPLAT_REGEX.search(source)
+                       or check_redirect_limits.PLACEHOLDER_REGEX.search(source))
+        category = source.startswith(FALLBACK_PREFIXES) and status in FALLBACK_STATUSES
+        if not dynamic:
+            static.append(rule)
+            if category:
+                table_exact.append([source, to, status])
+        elif category:
+            table_wild.append([source, to, status])
+        else:
+            edge_dynamic.append(rule)
+    return static + edge_dynamic, table_exact + table_wild
+
+
+def fallback_json(fallback: list[list]) -> str:
+    rows = ",\n".join(json.dumps(row, ensure_ascii=False) for row in fallback)
+    return ('{"version": 1, "note": "Generated by scripts/regenerate_redirects.py; consulted by '
+            'functions/_middleware.js (bundled) BEFORE any page lookup, in this order, with Cloudflare\'s '
+            'own semantics: exact rules first, then wildcards. Never edit.",\n"rules": [\n' + rows + "\n]}\n")
+
+
+def main() -> None:
+    authored_rules, alias_rules, case_rules = collect_rules()
+    if authored_rules:
+        print(f"[regenerate_redirects] {len(authored_rules)} authored rule(s) carried over")
+    if alias_rules:
+        print(f"[regenerate_redirects] {len(alias_rules)} alias 301 rule(s)")
     rules = authored_rules + alias_rules + case_rules
+    edge, fallback = split_rules(rules)
+    text = "\n".join(edge) + "\n"
 
-    if len(rules) > CLOUDFLARE_STATIC_RULE_LIMIT:
-        # Hard failure (H5): a silently-truncated _redirects must not ship.
-        print(
-            f"[regenerate_redirects] ERROR: {len(rules)} rules exceeds Cloudflare's "
-            f"{CLOUDFLARE_STATIC_RULE_LIMIT}-static-rule limit — Cloudflare would silently "
-            f"ignore the overflow. Reduce rules (e.g. fold case-correction into a Cloudflare "
-            f"redirect rule) before shipping.",
-            file=sys.stderr,
-        )
+    # Hard failure (H5): a silently-truncated _redirects must not ship. The check is the exact
+    # port of Cloudflare's parser, so it also refuses a static rule demoted behind a wildcard.
+    failures, parsed, redirects = check_redirect_limits.audit(text, str(OUTPUT))
+    if failures:
+        for failure in failures:
+            print(f"[regenerate_redirects] ERROR: {failure}", file=sys.stderr)
+        print(f"[regenerate_redirects] ERROR: Cloudflare would not load this _redirects as written "
+              f"({check_redirect_limits.summary(parsed, redirects)}); nothing was written.", file=sys.stderr)
         sys.exit(1)
 
-    PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text("\n".join(rules) + "\n")
-    print(f"[regenerate_redirects] Wrote {len(rules)} 301 rules to {OUTPUT}")
+    fallback_output = PUBLIC_DIR / FALLBACK_REL
+    fallback_output.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(text)
+    fallback_output.write_text(fallback_json(fallback))
+    wild = sum(1 for source, _, _ in fallback if "*" in source or ":" in source)
+    print(f"[regenerate_redirects] Wrote {len(edge)} rules to {OUTPUT} "
+          f"({check_redirect_limits.summary(parsed, redirects)}) and {len(fallback)} category "
+          f"rule(s) ({len(fallback) - wild} exact, {wild} wildcard) to {fallback_output}")
 
 
 if __name__ == "__main__":

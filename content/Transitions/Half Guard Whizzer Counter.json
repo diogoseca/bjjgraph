@@ -308,30 +308,11 @@
     "clips": [
       {
         "id": "8mXBDHXrAu4",
-        "title": "Whizzer from half guard: winning the dogfight",
-        "by": "Wrecking Crew BJJ",
-        "vertical": false,
+        "title": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
         "channel": "Wrecking Crew BJJ",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "D1Hhvv4pXQA",
-        "title": "Half guard bridge to underhook countering the whizzer",
-        "by": "Andrew Smith",
+        "duration": 59,
         "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 78,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "0K3j7bbw6tI",
-        "title": "Countering the whizzer with a belly down armbar",
-        "by": "Andrew Smith",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 126,
-        "verified": "2026-07-16"
+        "front": true
       }
     ]
   },
@@ -468,21 +449,11 @@
     "clips": [
       {
         "id": "QpiSPUtLtpE",
-        "title": "Defeat the whizzer in the dogfight position",
-        "by": "Grapplezilla",
-        "vertical": false,
+        "title": "Defeat the Whizzer in the Dog Fight Position",
         "channel": "Grapplezilla",
         "duration": 141,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "P4XzQEyx55c",
-        "title": "Underhook fundamentals vs whizzer counter",
-        "by": "Bury BJJ",
         "vertical": false,
-        "channel": "SBG Rossendale 3rd Degree Black Belt BJJ",
-        "duration": 168,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

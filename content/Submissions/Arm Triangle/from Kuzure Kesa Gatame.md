@@ -46,24 +46,12 @@ description: "Master the arm triangle from Kuzure Kesa Gatame with setup mechani
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle Attacks From Kuzure Kesa Gatame",
-      "description": "Arm Triangle from Kuzure Kesa Gatame film study: Triangle Attacks From Kuzure Kesa Gatame, taught by Chokes And More.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tfykooWW-xk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tfykooWW-xk",
-      "url": "https://www.youtube.com/watch?v=tfykooWW-xk",
-      "creator": { "@type": "Person", "name": "Chokes And More" },
-      "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "12 Kesa Gatame Attacks",
-      "description": "Arm Triangle from Kuzure Kesa Gatame film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
-      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
-      "duration": "PT88S"
+      "name": "Two variations of arm triangle (kata gatame) escapes",
+      "description": "Arm Triangle from Kuzure Kesa Gatame film study: Two variations of arm triangle (kata gatame) escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
+      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
+      "duration": "PT89S"
     }
   ]
 }
@@ -126,17 +114,9 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=tfykooWW-xk)
+![](https://www.youtube.com/watch?v=CmXniIPFMhU)
 
-<p class="clip-credit"><strong>Triangle Attacks From Kuzure Kesa Gatame</strong> — taught by Chokes And More · 1:06 · <a href="https://www.youtube.com/watch?v=tfykooWW-xk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
-
-<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two variations of arm triangle (kata gatame) escapes</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

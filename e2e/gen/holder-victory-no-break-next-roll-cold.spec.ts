@@ -65,6 +65,7 @@ test("submission win at ×2: victory spine clean of combo_break, next auto-roll 
         : null
     })
     if (!mc) return false // a landing that asks nothing carries the streak
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
     await page.keyboard.press("abcd"[mc.correct])
     const pending = await page.evaluate(() => !!(window as any).__neural._landPending)
     expect(pending, "answer registered — nothing left for the next commit to ignore").toBe(false)

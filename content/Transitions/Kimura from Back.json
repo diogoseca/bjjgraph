@@ -76,10 +76,6 @@
       "relationship": "Related technique using same figure-four grip mechanics"
     },
     {
-      "name": "Kimura Switch",
-      "relationship": "Transition option when position changes during kimura attempt"
-    },
-    {
       "name": "Gift Wrap",
       "relationship": "Alternative arm control from back position"
     },
@@ -366,35 +362,7 @@
       }
     ],
     "safety_considerations": "The kimura creates extreme rotational stress on the shoulder joint, specifically the rotator cuff muscles and glenohumeral capsule. Apply pressure slowly and continuously—never jerk or crank the submission. Give your training partner time to tap; shoulder injuries can occur within 1-2 seconds of proper pressure application. In training, release immediately upon any tap, verbal submission, or expression of discomfort. Be especially cautious with training partners who have previous shoulder injuries, as their range of motion and pain thresholds may be reduced. When drilling, establish clear communication about pressure levels before beginning. The combination of back control (which is disorienting) and shoulder lock can cause panicked reactions—be prepared to release if your partner tenses unexpectedly.",
-    "clips": [
-      {
-        "id": "gA0eqO9KtUg",
-        "title": "Short figure-four kimura from back control",
-        "by": "Effortless Jiu Jitsu",
-        "vertical": false,
-        "channel": "EffortlessJiuJitsu",
-        "duration": 268,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "CHSAJDqdQIs",
-        "title": "Back leg shin pin into kimura",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 249,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NoQ5bt7yw48",
-        "title": "Danaher kimura from the back",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "scottelkin",
-        "duration": 108,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Kimura from Back Defender",
@@ -570,26 +538,7 @@
         "description": "Positional sparring starting in rear triangle with partner attacking kimura, choke, and armbar. Defend all three threats with full resistance. Score escapes to back control or better positions. Focus on composure under sustained multi-threat pressure and efficient energy use."
       }
     ],
-    "clips": [
-      {
-        "id": "qKj5Y-jDEeM",
-        "title": "Countering the kimura back take",
-        "by": "Placido Santos",
-        "vertical": false,
-        "channel": "Placido Santos ",
-        "duration": 32,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "TuaopPUakM8",
-        "title": "Defending the kimura",
-        "by": "Eddie Kone Academy",
-        "vertical": false,
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

@@ -176,50 +176,6 @@ description: "Complete guide to executing the backstep from De La Riva Guard. Ma
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Backstep from De La Riva (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Long step pass against De La Riva guard",
-      "description": "Backstep from De La Riva (Attacker) film study: Long step pass against De La Riva guard, taught by Greg Hernandez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZaIgVPdXIFE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZaIgVPdXIFE",
-      "url": "https://www.youtube.com/watch?v=ZaIgVPdXIFE",
-      "creator": { "@type": "Person", "name": "Greg Hernandez" },
-      "duration": "PT130S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back Step De La Riva Pass",
-      "description": "Backstep from De La Riva (Attacker) film study: Back Step De La Riva Pass, taught by Vicente Junior.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7mSfDFetnoU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7mSfDFetnoU",
-      "url": "https://www.youtube.com/watch?v=7mSfDFetnoU",
-      "creator": { "@type": "Person", "name": "Vicente Junior" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "De La Riva Guard Pass Breakdown",
-      "description": "Backstep from De La Riva (Attacker) film study: De La Riva Guard Pass Breakdown, taught by Taku Ishii.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yUF7QVyC0ag/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yUF7QVyC0ag",
-      "url": "https://www.youtube.com/watch?v=yUF7QVyC0ag",
-      "creator": { "@type": "Person", "name": "Taku Ishii" },
-      "duration": "PT141S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -232,40 +188,6 @@ The attacker in the backstep from De La Riva is the top player attempting to pas
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Backstep from De La Riva (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZaIgVPdXIFE)
-
-<p class="clip-credit"><strong>Long step pass against De La Riva guard</strong> — taught by Greg Hernandez · 2:10 · <a href="https://www.youtube.com/watch?v=ZaIgVPdXIFE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7mSfDFetnoU)
-
-<p class="clip-credit"><strong>Back Step De La Riva Pass</strong> — taught by Vicente Junior · 1:54 · <a href="https://www.youtube.com/watch?v=7mSfDFetnoU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yUF7QVyC0ag)
-
-<p class="clip-credit"><strong>De La Riva Guard Pass Breakdown</strong> — taught by Taku Ishii · 2:21 · <a href="https://www.youtube.com/watch?v=yUF7QVyC0ag" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -426,8 +348,8 @@ The backstep from De La Riva involves rotational forces on both players' knees t
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Backstep from De La Riva: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

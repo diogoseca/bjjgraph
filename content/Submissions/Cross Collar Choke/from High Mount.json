@@ -451,31 +451,12 @@
     ],
     "clips": [
       {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross Collar Chokes breakdown",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "7QjuXzCgfro",
-        "title": "Mounted Helio Gracie cross choke",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
-        "channel": "Gracie Charlottesville",
-        "duration": 38,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "pXcCvjwjPHw",
-        "title": "Cross collar choke from mount",
-        "by": "Chad Lyman",
-        "vertical": false,
+        "title": "Cross Collar Choke from Mount with Chad Lyman",
         "channel": "Rich Castro",
-        "duration": 56,
-        "verified": "2026-07-14"
+        "duration": 55,
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -671,22 +652,11 @@
     ],
     "clips": [
       {
-        "id": "keDSMGdKu8Q",
-        "title": "Defending the choke while mounted",
-        "by": "Fit To Fight",
-        "vertical": false,
-        "channel": "Fit To Fight Republic",
-        "duration": 82,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "F1qoGHKy_uE",
-        "title": "Defend the cross choke into armbar",
-        "by": "Edgar Kruyning",
-        "vertical": false,
+        "title": "Defend cross choke - armbar",
         "channel": "Edgar Kruyning Official",
         "duration": 22,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

@@ -46,34 +46,21 @@ description: "Master the Triangle Choke from Open Guard in BJJ. Expert guide cov
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle Choke from Collar Sleeve Open Guard",
-      "description": "Triangle Choke from Open Guard film study: Triangle Choke from Collar Sleeve Open Guard, taught by Josh Presley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4TSu2ySVQk4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4TSu2ySVQk4",
-      "url": "https://www.youtube.com/watch?v=4TSu2ySVQk4",
-      "creator": { "@type": "Person", "name": "Josh Presley" },
-      "duration": "PT150S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Triangle setup from Z guard",
-      "description": "Triangle Choke from Open Guard film study: Triangle setup from Z guard, taught by Danny Brown.",
+      "name": "Z guard//Craig Jones triangle set up// dannybrownbjj",
+      "description": "Triangle Choke from Open Guard film study: Z guard//Craig Jones triangle set up// dannybrownbjj.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yQVALraYswM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yQVALraYswM",
       "url": "https://www.youtube.com/watch?v=yQVALraYswM",
-      "creator": { "@type": "Person", "name": "Danny Brown" },
       "duration": "PT331S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle choke complete guide and key details",
-      "description": "Triangle Choke from Open Guard film study: Triangle choke complete guide and key details, taught by Jon Thomas.",
+      "position": 2,
+      "name": "Triangle Choke: The Detail That Changes Everything ( Complete Guide )",
+      "description": "Triangle Choke from Open Guard film study: Triangle Choke: The Detail That Changes Everything ( Complete Guide ).",
       "thumbnailUrl": "https://i.ytimg.com/vi/UGp6VzbkReA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UGp6VzbkReA",
       "url": "https://www.youtube.com/watch?v=UGp6VzbkReA",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
       "duration": "PT735S"
     }
   ]
@@ -137,17 +124,9 @@ The critical finishing mechanics rely on three elements working in concert: perp
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4TSu2ySVQk4)
-
-<p class="clip-credit"><strong>Triangle Choke from Collar Sleeve Open Guard</strong> — taught by Josh Presley · 2:30 · <a href="https://www.youtube.com/watch?v=4TSu2ySVQk4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=yQVALraYswM)
 
-<p class="clip-credit"><strong>Triangle setup from Z guard</strong> — taught by Danny Brown · 5:31 · <a href="https://www.youtube.com/watch?v=yQVALraYswM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Z guard//Craig Jones triangle set up// dannybrownbjj</strong> · 5:31 · <a href="https://www.youtube.com/watch?v=yQVALraYswM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +134,7 @@ The critical finishing mechanics rely on three elements working in concert: perp
 
 ![](https://www.youtube.com/watch?v=UGp6VzbkReA)
 
-<p class="clip-credit"><strong>Triangle choke complete guide and key details</strong> — taught by Jon Thomas · 12:15 · <a href="https://www.youtube.com/watch?v=UGp6VzbkReA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Choke: The Detail That Changes Everything ( Complete Guide )</strong> · 12:15 · <a href="https://www.youtube.com/watch?v=UGp6VzbkReA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

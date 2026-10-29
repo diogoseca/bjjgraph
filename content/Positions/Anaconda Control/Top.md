@@ -21,32 +21,20 @@ description: "Master offensive control from Anaconda Control Top position. Learn
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke from Anaconda Control",
-      "text": "From this position, attempt Anaconda Choke from Anaconda Control. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Choke from Anaconda Control. This technique is attempted in 53% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Switch to Darce Configuration",
-      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Anaconda to Side Control",
+      "text": "From this position, attempt Anaconda to Side Control. This technique is attempted in 26% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda to Side Control",
-      "text": "From this position, attempt Anaconda to Side Control. This technique is attempted in 20% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Anaconda Control to Dead Orchard Control",
-      "text": "From this position, attempt Anaconda Control to Dead Orchard Control. This technique is attempted in 10% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Back Take from Anaconda",
-      "text": "From this position, attempt Back Take from Anaconda. This technique is attempted in 16% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Back Take from Anaconda. This technique is attempted in 21% of exchanges from this position.",
+      "position": 3
     }
   ],
   "totalTime": "PT2M"
@@ -159,35 +147,35 @@ description: "Master offensive control from Anaconda Control Top position. Learn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Anaconda choke finish",
-      "description": "Anaconda Control (Top) film study: Anaconda choke finish, taught by Ninja Pinto.",
+      "name": "Anaconda Choke BJJ",
+      "description": "Anaconda Control (Top) film study: Anaconda Choke BJJ, taught by Ninja Pinto.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RbkOnRb2lvA",
       "url": "https://www.youtube.com/watch?v=RbkOnRb2lvA",
       "creator": { "@type": "Person", "name": "Ninja Pinto" },
-      "duration": "PT49S"
+      "duration": "PT48S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Anaconda vs D\u0027Arce choke difference",
-      "description": "Anaconda Control (Top) film study: Anaconda vs D\u0027Arce choke difference, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
-      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to do an anaconda choke",
-      "description": "Anaconda Control (Top) film study: How to do an anaconda choke, taught by Brandon McCaghren.",
+      "name": "How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur",
+      "description": "Anaconda Control (Top) film study: How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur, taught by Brandon McCaghren.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EbhWFWp-B6s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EbhWFWp-B6s",
       "url": "https://www.youtube.com/watch?v=EbhWFWp-B6s",
       "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Difference Between The ANACONDA CHOKE and D\u2019ARCE CHOKE in Jiu Jitsu!",
+      "description": "Anaconda Control (Top) film study: Difference Between The ANACONDA CHOKE and D\u2019ARCE CHOKE in Jiu Jitsu!, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
+      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT66S"
     }
   ]
 }
@@ -219,15 +207,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ![](https://www.youtube.com/watch?v=RbkOnRb2lvA)
 
-<p class="clip-credit"><strong>Anaconda choke finish</strong> — taught by Ninja Pinto · 0:49 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
-
-<p class="clip-credit"><strong>Anaconda vs D&#39;Arce choke difference</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda Choke BJJ</strong> — taught by Ninja Pinto · 0:48 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -235,7 +215,15 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ![](https://www.youtube.com/watch?v=EbhWFWp-B6s)
 
-<p class="clip-credit"><strong>How to do an anaconda choke</strong> — taught by Brandon McCaghren · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur</strong> — taught by Brandon McCaghren · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
+
+<p class="clip-credit"><strong>Difference Between The ANACONDA CHOKE and D’ARCE CHOKE in Jiu Jitsu!</strong> — taught by Matt Arroyo · 1:06 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -413,7 +401,6 @@ Start with anaconda grip established, bottom player works to escape while top pl
 - **[[Positions/Turtle]]** - Common entry position - opponent's turtle creates ideal circumstances for anaconda grip
 - **[[Transitions/Anaconda Choke]]** - Primary submission - main finishing technique from this control position
 - **[[Transitions/Switch to Darce Configuration]]** - Key transition - primary arm-in switch when the trapped arm straightens and the darce angle opens
-- **[[Transitions/Anaconda Control to Dead Orchard Control]]** - Secondary transition - situational sequence for advancing to dead orchard control
 - **[[Positions/Side Control]]** - Advancement target - position gained after successful roll-through from anaconda
 - **[[Transitions/Back Take from Anaconda]]** - Alternative advancement when opponent turns away from anaconda pressure
 

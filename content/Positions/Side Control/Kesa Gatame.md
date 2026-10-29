@@ -47,35 +47,35 @@ description: "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "12 Kesa Gatame Attacks",
-      "description": "Kesa Gatame film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
-      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
-      "duration": "PT88S"
+      "name": "Kesa Gatame escape",
+      "description": "Kesa Gatame film study: Kesa Gatame escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Five basic judo hold downs and pins including kesa gatame",
-      "description": "Kesa Gatame film study: Five basic judo hold downs and pins including kesa gatame, taught by Shintaro Higashi.",
+      "name": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
+      "description": "Kesa Gatame film study: Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "5 basic judo hold downs and pins (osaekomi)",
+      "description": "Kesa Gatame film study: 5 basic judo hold downs and pins (osaekomi), taught by Shintaro Higashi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jwArJKRlJ8o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jwArJKRlJ8o",
       "url": "https://www.youtube.com/watch?v=jwArJKRlJ8o",
       "creator": { "@type": "Person", "name": "Shintaro Higashi" },
       "duration": "PT211S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "The kesa gatame control and attack system",
-      "description": "Kesa Gatame film study: The kesa gatame control and attack system, taught by The Grappling Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/G0Xf_CJzE6M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/G0Xf_CJzE6M",
-      "url": "https://www.youtube.com/watch?v=G0Xf_CJzE6M",
-      "creator": { "@type": "Person", "name": "The Grappling Academy" },
-      "duration": "PT649S"
     }
   ]
 }
@@ -131,9 +131,17 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
 
-<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame escape</strong> — taught by SBG Australia · 0:42 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing</strong> — taught by Kohbukan Sisu · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -141,15 +149,7 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 
 ![](https://www.youtube.com/watch?v=jwArJKRlJ8o)
 
-<p class="clip-credit"><strong>Five basic judo hold downs and pins including kesa gatame</strong> — taught by Shintaro Higashi · 3:31 · <a href="https://www.youtube.com/watch?v=jwArJKRlJ8o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=G0Xf_CJzE6M)
-
-<p class="clip-credit"><strong>The kesa gatame control and attack system</strong> — taught by The Grappling Academy · 10:49 · <a href="https://www.youtube.com/watch?v=G0Xf_CJzE6M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>5 basic judo hold downs and pins (osaekomi)</strong> — taught by Shintaro Higashi · 3:31 · <a href="https://www.youtube.com/watch?v=jwArJKRlJ8o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

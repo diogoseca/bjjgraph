@@ -144,39 +144,6 @@ description: "How to defend against Roll to Deep Half Guard in BJJ. Recognition 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Roll to Deep Half Guard (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Top counter to the deep half back take",
-      "description": "Roll to Deep Half Guard (Defender) film study: Top counter to the deep half back take, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hHbb7ywVTwU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hHbb7ywVTwU",
-      "url": "https://www.youtube.com/watch?v=hHbb7ywVTwU",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Three options to defend the deep half guard",
-      "description": "Roll to Deep Half Guard (Defender) film study: Three options to defend the deep half guard, taught by Six Blades Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JEDoJOZWQHY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JEDoJOZWQHY",
-      "url": "https://www.youtube.com/watch?v=JEDoJOZWQHY",
-      "creator": { "@type": "Person", "name": "Six Blades Jiu-Jitsu" },
-      "duration": "PT207S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,32 +158,6 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Roll to Deep Half Guard (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=hHbb7ywVTwU)
-
-<p class="clip-credit"><strong>Top counter to the deep half back take</strong> — taught by JiuJitsu.com · 1:03 · <a href="https://www.youtube.com/watch?v=hHbb7ywVTwU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JEDoJOZWQHY)
-
-<p class="clip-credit"><strong>Three options to defend the deep half guard</strong> — taught by Six Blades Jiu-Jitsu · 3:27 · <a href="https://www.youtube.com/watch?v=JEDoJOZWQHY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -266,7 +207,7 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 ### 2. Release choke grips and transition to back control during the roll
 
 - **When to use**: When the roll has already initiated and cannot be stopped by sprawling. Abandon the choke attempt and prioritize positional advancement by following the rotation to establish hooks on the back.
-- **Targets**: [[Positions/Back Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You give up the choke but establish back control with hooks, transitioning from a losing defensive exchange into the most dominant position in BJJ
 - **Risk**: If the bottom player anticipates the back take, they may establish defensive hand positioning during the roll that makes hook insertion difficult
 
@@ -291,7 +232,7 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 
 Detect the escape attempt early through recognition cues (hip loading, frame creation, arm reaching for your leg) and sprawl decisively before the roll initiates. Drive your chest weight down onto their back and shoulders to eliminate the rotational mobility needed for the escape. Maintain your choking grips and continue finishing pressure.
 
-### → [[Positions/Back Control]]
+### → [[Positions/Side Control]]
 
 When the roll has already initiated and cannot be stopped, immediately release your choking grips and follow the bottom player's rotation. As they roll, insert your hooks into their hips and establish seatbelt control on their upper body. Convert their escape attempt into a transition to the most dominant position. This requires accepting the choke is lost but capitalizing on the positional exposure the roll creates.
 

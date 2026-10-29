@@ -372,35 +372,7 @@
       }
     ],
     "safety_considerations": "The ankle joint and Achilles tendon are vulnerable structures that can sustain serious injury from straight ankle lock pressure. During escape practice, both partners must communicate clearly about pressure levels and respect immediate tap signals. The escaping partner should never explosively yank their foot free when meaningful submission pressure exists, as this can cause ligament damage or Achilles tendon injury. Begin all escape drilling at low intensity with compliant partners and gradually increase resistance only after both practitioners demonstrate technical proficiency and reliable communication. If the ankle lock is fully secured with high submission pressure, tapping and resetting is always the safest choice over forcing an escape.",
-    "clips": [
-      {
-        "id": "CUnX7TOpb-A",
-        "title": "Ankle lock escape: put on the boot",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 16,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "akB_o9gaNuc",
-        "title": "Finishing the ankle lock when opponent rolls out",
-        "by": "James O'Connor",
-        "vertical": false,
-        "channel": "James O’Connor",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MqtG9kuVt-Q",
-        "title": "Leg lock escape: the roll through",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Ankle Lock Escape to Standing Defender",
@@ -558,25 +530,6 @@
         "description": "Partner commits to full standing escape attempts. Defender practices reading the specific escape pattern and choosing between control retention and counter-advancement to inside ashi garami or top position. Full resistance with emphasis on timing the counter-transition at the moment the escape creates positional opportunities."
       }
     ],
-    "clips": [
-      {
-        "id": "zErch4qHfB0",
-        "title": "Counter footlock against the straight ankle lock",
-        "by": "James Clingerman",
-        "vertical": false,
-        "channel": "James Clingerman",
-        "duration": 12,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OODhY1jlH3Q",
-        "title": "Straight Ankle Lock Finish Against the Escape",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 116,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

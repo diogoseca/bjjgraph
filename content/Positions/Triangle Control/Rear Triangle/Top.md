@@ -21,7 +21,7 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Triangle Choke Finish",
-      "text": "From this position, attempt Rear Triangle Choke Finish. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Rear Triangle Choke Finish. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Rear Triangle",
-      "text": "From this position, attempt Rear Naked Choke from Rear Triangle. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Rear Triangle. This technique is attempted in 21% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Aoki Lock to Crucifix",
-      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 4% of exchanges from this position.",
-      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Rear Triangle",
       "text": "From this position, attempt Bow and Arrow Choke from Rear Triangle. This technique exists in the gi ruleset only; it does not occur in no-gi.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Back",
       "text": "From this position, attempt Kimura from Back. This technique is attempted in 11% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rear Triangle to Armbar",
+      "text": "From this position, attempt Rear Triangle to Armbar. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,24 +165,22 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rear triangle from the back",
-      "description": "Rear Triangle (Top) film study: Rear triangle from the back, taught by Gracie Charlottesville.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l5ayCZh3W78/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/l5ayCZh3W78",
-      "url": "https://www.youtube.com/watch?v=l5ayCZh3W78",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
-      "duration": "PT32S"
+      "name": "Arizona Camp Nov 2022: The Rear Triangle - A Triangle for everyone with Rob Cole",
+      "description": "Rear Triangle (Top) film study: Arizona Camp Nov 2022: The Rear Triangle - A Triangle for everyone with Rob Cole.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EchKKSAYMqM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EchKKSAYMqM",
+      "url": "https://www.youtube.com/watch?v=EchKKSAYMqM",
+      "duration": "PT1559S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Rear triangle from side control",
-      "description": "Rear Triangle (Top) film study: Rear triangle from side control, taught by Onyx Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oyXaGXU3mFU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oyXaGXU3mFU",
-      "url": "https://www.youtube.com/watch?v=oyXaGXU3mFU",
-      "creator": { "@type": "Person", "name": "Onyx Martial Arts" },
-      "duration": "PT77S"
+      "name": "Rear Triangle from Back by Gracie Charlottesville",
+      "description": "Rear Triangle (Top) film study: Rear Triangle from Back by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l5ayCZh3W78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l5ayCZh3W78",
+      "url": "https://www.youtube.com/watch?v=l5ayCZh3W78",
+      "duration": "PT32S"
     }
   ]
 }
@@ -208,17 +206,17 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=l5ayCZh3W78)
+![](https://www.youtube.com/watch?v=EchKKSAYMqM)
 
-<p class="clip-credit"><strong>Rear triangle from the back</strong> — taught by Gracie Charlottesville · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arizona Camp Nov 2022: The Rear Triangle - A Triangle for everyone with Rob Cole</strong> · 25:59 · <a href="https://www.youtube.com/watch?v=EchKKSAYMqM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=oyXaGXU3mFU)
+![](https://www.youtube.com/watch?v=l5ayCZh3W78)
 
-<p class="clip-credit"><strong>Rear triangle from side control</strong> — taught by Onyx Martial Arts · 1:17 · <a href="https://www.youtube.com/watch?v=oyXaGXU3mFU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Triangle from Back by Gracie Charlottesville</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -292,7 +290,6 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 **Else if opponent turns into triangle attempting escape:**
 - Execute **[[Extend Hips and Finish Triangle/Attacker|Extend Hips and Finish Triangle]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
 
 
 **Else if opponent creates space by posting free arm:**

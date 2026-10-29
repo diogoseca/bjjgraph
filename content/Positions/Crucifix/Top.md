@@ -165,35 +165,13 @@ description: "Master Crucifix Top in BJJ. Dominant arm-trapping control with sys
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side crucifix arm attacks from mount",
-      "description": "Crucifix (Top) film study: Side crucifix arm attacks from mount, taught by Evolve MMA.",
+      "name": "BJJ | Mount To Side Crucifix Arm Attacks",
+      "description": "Crucifix (Top) film study: BJJ | Mount To Side Crucifix Arm Attacks, taught by Evolve MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-Vmyjv8-WFw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-Vmyjv8-WFw",
       "url": "https://www.youtube.com/watch?v=-Vmyjv8-WFw",
       "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT76S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crucifix murder choke",
-      "description": "Crucifix (Top) film study: Crucifix murder choke, taught by Innovative BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1hMh6YiR0Po/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1hMh6YiR0Po",
-      "url": "https://www.youtube.com/watch?v=1hMh6YiR0Po",
-      "creator": { "@type": "Person", "name": "Innovative BJJ" },
-      "duration": "PT18S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Crucifix to inverted triangle",
-      "description": "Crucifix (Top) film study: Crucifix to inverted triangle, taught by Zen Spot.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QPpQnCDw65k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QPpQnCDw65k",
-      "url": "https://www.youtube.com/watch?v=QPpQnCDw65k",
-      "creator": { "@type": "Person", "name": "Zen Spot" },
-      "duration": "PT25S"
+      "duration": "PT75S"
     }
   ]
 }
@@ -225,23 +203,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 ![](https://www.youtube.com/watch?v=-Vmyjv8-WFw)
 
-<p class="clip-credit"><strong>Side crucifix arm attacks from mount</strong> — taught by Evolve MMA · 1:16 · <a href="https://www.youtube.com/watch?v=-Vmyjv8-WFw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1hMh6YiR0Po)
-
-<p class="clip-credit"><strong>Crucifix murder choke</strong> — taught by Innovative BJJ · 0:18 · <a href="https://www.youtube.com/watch?v=1hMh6YiR0Po" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QPpQnCDw65k)
-
-<p class="clip-credit"><strong>Crucifix to inverted triangle</strong> — taught by Zen Spot · 0:25 · <a href="https://www.youtube.com/watch?v=QPpQnCDw65k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ | Mount To Side Crucifix Arm Attacks</strong> — taught by Evolve MMA · 1:15 · <a href="https://www.youtube.com/watch?v=-Vmyjv8-WFw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -446,7 +408,7 @@ Bottom player knows specific escape they will attempt (arm extraction, rolling e
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Danaher-Side-Crucifix-System" data-cta="related-system-card" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Side Crucifix and Arm Isolation</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

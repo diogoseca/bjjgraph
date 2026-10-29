@@ -1,0 +1,374 @@
+{
+  "name": "Aoki Grip and Hip Release",
+  "from_position": "Aoki Lock Control/Top",
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
+  "outcomes": [
+    {
+      "to": "Ashi Garami/Top",
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
+      "result": "success"
+    },
+    {
+      "to": "Aoki Lock Control/Top",
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
+      "result": "failure"
+    }
+  ],
+  "summary": "The caught player releases the Aoki foot grip early, frees the hip connection, and confirms top Ashi Garami or facing open guard before attempting another action.",
+  "description": "The caught player releases the Aoki foot grip early, frees the hip connection, and confirms top Ashi Garami or facing open guard before attempting another action.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The caught player releases the Aoki foot grip early, frees the hip connection, and confirms top Ashi Garami or facing open guard before attempting another action.\n\nBegin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath. Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure.\n\nAddress the foot grip before trying to rotate the hips through the retained leg connection. Move the hip only after the foot is free to follow without twisting against the grip. If the leg entanglement remains, recognize Ashi Garami/Top rather than claiming complete disengagement. If the entanglement also clears, remain facing the opponent in Open Guard/Top. A failed release remains Aoki Lock Control.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Aoki Lock Control",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Aoki Grip and Hip Release Attacker",
+    "description": "The caught player releases the Aoki foot grip early, frees the hip connection, and confirms top Ashi Garami or facing open guard before attempting another action.",
+    "overview": "The caught player releases the Aoki foot grip early, frees the hip connection, and confirms top Ashi Garami or facing open guard before attempting another action.\n\nBegin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath. Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure.\n\nAddress the foot grip before trying to rotate the hips through the retained leg connection. Move the hip only after the foot is free to follow without twisting against the grip. If the leg entanglement remains, recognize Ashi Garami/Top rather than claiming complete disengagement. If the entanglement also clears, remain facing the opponent in Open Guard/Top. A failed release remains Aoki Lock Control.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Foot held in the rotated grip: Begin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath.",
+      "An unloaded foot and knee: Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure.",
+      "The foot grip opens first: Address the foot grip before trying to rotate the hips through the retained leg connection.",
+      "Hip movement after grip release: Move the hip only after the foot is free to follow without twisting against the grip.",
+      "Ashi leg connection still present: If the leg entanglement remains, recognize Ashi Garami/Top rather than claiming complete disengagement.",
+      "Facing open guard after release: If the entanglement also clears, remain facing the opponent in Open Guard/Top. A failed release remains Aoki Lock Control."
+    ],
+    "setup_requirements": [
+      "Begin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath.",
+      "Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure.",
+      "Address the foot grip before trying to rotate the hips through the retained leg connection.",
+      "Move the hip only after the foot is free to follow without twisting against the grip."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the capture",
+        "description": "Begin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath."
+      },
+      {
+        "step_number": 2,
+        "action": "Respond before pressure",
+        "description": "Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure."
+      },
+      {
+        "step_number": 3,
+        "action": "Open the foot grip",
+        "description": "Address the foot grip before trying to rotate the hips through the retained leg connection."
+      },
+      {
+        "step_number": 4,
+        "action": "Free the hip connection",
+        "description": "Move the hip only after the foot is free to follow without twisting against the grip."
+      },
+      {
+        "step_number": 5,
+        "action": "Check retained legs",
+        "description": "If the leg entanglement remains, recognize Ashi Garami/Top rather than claiming complete disengagement."
+      },
+      {
+        "step_number": 6,
+        "action": "Confirm disengagement",
+        "description": "If the entanglement also clears, remain facing the opponent in Open Guard/Top. A failed release remains Aoki Lock Control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Retain the foot connection without forcing rotation.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Aoki Lock Control/Top"
+      },
+      {
+        "counter": "Follow the early hip movement with a supported leg connection.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Aoki Lock Control/Top"
+      },
+      {
+        "counter": "Release immediately if the partner taps or signals discomfort.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Aoki Lock Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the capture",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath."
+      },
+      {
+        "error": "Skipping respond before pressure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure."
+      },
+      {
+        "error": "Skipping open the foot grip",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Address the foot grip before trying to rotate the hips through the retained leg connection."
+      },
+      {
+        "error": "Skipping free the hip connection",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Move the hip only after the foot is free to follow without twisting against the grip."
+      },
+      {
+        "error": "Skipping check retained legs",
+        "consequence": "The next action lacks its required control.",
+        "correction": "If the leg entanglement remains, recognize Ashi Garami/Top rather than claiming complete disengagement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the capture",
+        "description": "Begin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Respond before pressure",
+        "description": "Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the foot grip",
+        "description": "Address the foot grip before trying to rotate the hips through the retained leg connection. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Free the hip connection",
+        "description": "Move the hip only after the foot is free to follow without twisting against the grip. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Aoki Grip and Hip Release: what does identify the capture require?",
+        "answer": "Begin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath.",
+        "answer_line": "Foot held in the rotated grip",
+        "distractors": {
+          "plausible": [
+            "Back hooks behind the opponent",
+            "A sleeve-and-collar choke"
+          ],
+          "trap": [
+            "A guard pass before leg clearance"
+          ]
+        }
+      },
+      {
+        "question": "Aoki Grip and Hip Release: what does respond before pressure require?",
+        "answer": "Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure.",
+        "answer_line": "An unloaded foot and knee",
+        "distractors": {
+          "plausible": [
+            "A sleeve-and-collar choke",
+            "A guard pass before leg clearance"
+          ],
+          "trap": [
+            "Hip rotation against a fixed foot"
+          ]
+        }
+      },
+      {
+        "question": "Aoki Grip and Hip Release: what does open the foot grip require?",
+        "answer": "Address the foot grip before trying to rotate the hips through the retained leg connection.",
+        "answer_line": "The foot grip opens first",
+        "distractors": {
+          "plausible": [
+            "A guard pass before leg clearance",
+            "Hip rotation against a fixed foot"
+          ],
+          "trap": [
+            "Back hooks behind the opponent"
+          ]
+        }
+      },
+      {
+        "question": "Aoki Grip and Hip Release: what does free the hip connection require?",
+        "answer": "Move the hip only after the foot is free to follow without twisting against the grip.",
+        "answer_line": "Hip movement after grip release",
+        "distractors": {
+          "plausible": [
+            "Hip rotation against a fixed foot",
+            "Back hooks behind the opponent"
+          ],
+          "trap": [
+            "A sleeve-and-collar choke"
+          ]
+        }
+      },
+      {
+        "question": "Aoki Grip and Hip Release: what does check retained legs require?",
+        "answer": "If the leg entanglement remains, recognize Ashi Garami/Top rather than claiming complete disengagement.",
+        "answer_line": "Ashi leg connection still present",
+        "distractors": {
+          "plausible": [
+            "Back hooks behind the opponent",
+            "A sleeve-and-collar choke"
+          ],
+          "trap": [
+            "A guard pass before leg clearance"
+          ]
+        }
+      },
+      {
+        "question": "Aoki Grip and Hip Release: what does confirm disengagement require?",
+        "answer": "If the entanglement also clears, remain facing the opponent in Open Guard/Top. A failed release remains Aoki Lock Control.",
+        "answer_line": "Facing open guard after release",
+        "distractors": {
+          "plausible": [
+            "A sleeve-and-collar choke",
+            "A guard pass before leg clearance"
+          ],
+          "trap": [
+            "Hip rotation against a fixed foot"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Aoki Grip and Hip Release Defender",
+    "description": "Recognize Aoki Grip and Hip Release and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Retain the foot connection without forcing rotation. Follow the early hip movement with a supported leg connection. Release immediately if the partner taps or signals discomfort. Recognize Ashi Garami if the foot grip opens but the legs remain connected. Recognize facing open guard if both connections clear.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Retain the foot connection without forcing rotation.",
+      "Follow the early hip movement with a supported leg connection.",
+      "Release immediately if the partner taps or signals discomfort.",
+      "Recognize Ashi Garami if the foot grip opens but the legs remain connected.",
+      "Recognize facing open guard if both connections clear."
+    ],
+    "recognition_cues": [
+      "Begin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath.",
+      "Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure.",
+      "Address the foot grip before trying to rotate the hips through the retained leg connection."
+    ],
+    "defensive_options": [
+      {
+        "action": "Retain the foot connection without forcing rotation.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Aoki Lock Control/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Follow the early hip movement with a supported leg connection.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Aoki Lock Control/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Release immediately if the partner taps or signals discomfort.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Aoki Lock Control/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Recognize Ashi Garami if the foot grip opens but the legs remain connected.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Aoki Lock Control/Top",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Aoki Lock Control/Top",
+        "how": "Retain the foot connection without forcing rotation."
+      },
+      {
+        "outcome": "Aoki Lock Control/Top",
+        "how": "Recognize facing open guard if both connections clear."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Recognize facing open guard if both connections clear."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Follow the early hip movement with a supported leg connection."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Aoki Grip and Hip Release, what connection do you address first?",
+        "answer": "Retain the foot connection without forcing rotation."
+      },
+      {
+        "question": "Against Aoki Grip and Hip Release, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Aoki Grip and Hip Release, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the capture",
+        "description": "Begin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Respond before pressure",
+        "description": "Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the foot grip",
+        "description": "Address the foot grip before trying to rotate the hips through the retained leg connection. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath.",
+    "Work only while the foot and knee remain unloaded. Tap instead of turning against established joint pressure.",
+    "Address the foot grip before trying to rotate the hips through the retained leg connection."
+  ],
+  "position_integration": "The caught player releases the Aoki foot grip early, frees the hip connection, and confirms top Ashi Garami or facing open guard before attempting another action. Begin as the caught player in Aoki Lock Control/Top; the opposing player controls your foot from underneath. If the entanglement also clears, remain facing the opponent in Open Guard/Top. A failed release remains Aoki Lock Control."
+}

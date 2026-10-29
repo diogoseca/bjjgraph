@@ -46,34 +46,21 @@ description: "Master the Americana shoulder lock from S Mount. Step-by-step guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Americana from Mount",
-      "description": "Americana from S Mount film study: Americana from Mount, taught by Chelsea Ozer.",
+      "name": "BJJ technique with Chelsea Ozer: Americana from mount",
+      "description": "Americana from S Mount film study: BJJ technique with Chelsea Ozer: Americana from mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z44VF9pmJBg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z44VF9pmJBg",
       "url": "https://www.youtube.com/watch?v=Z44VF9pmJBg",
-      "creator": { "@type": "Person", "name": "Chelsea Ozer" },
       "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How To Perform Americana From Top Mount",
-      "description": "Americana from S Mount film study: How To Perform Americana From Top Mount, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uPazS4MJiDc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uPazS4MJiDc",
-      "url": "https://www.youtube.com/watch?v=uPazS4MJiDc",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to Finish the Americana",
-      "description": "Americana from S Mount film study: How to Finish the Americana, taught by BatuhanBjj.",
+      "name": "how to finish the Americana",
+      "description": "Americana from S Mount film study: how to finish the Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9XZSamucGkg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9XZSamucGkg",
       "url": "https://www.youtube.com/watch?v=9XZSamucGkg",
-      "creator": { "@type": "Person", "name": "BatuhanBjj" },
       "duration": "PT131S"
     }
   ]
@@ -139,15 +126,7 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 
 ![](https://www.youtube.com/watch?v=Z44VF9pmJBg)
 
-<p class="clip-credit"><strong>Americana from Mount</strong> — taught by Chelsea Ozer · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uPazS4MJiDc)
-
-<p class="clip-credit"><strong>How To Perform Americana From Top Mount</strong> — taught by Evolve MMA · 1:11 · <a href="https://www.youtube.com/watch?v=uPazS4MJiDc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ technique with Chelsea Ozer: Americana from mount</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +134,7 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 
 ![](https://www.youtube.com/watch?v=9XZSamucGkg)
 
-<p class="clip-credit"><strong>How to Finish the Americana</strong> — taught by BatuhanBjj · 2:11 · <a href="https://www.youtube.com/watch?v=9XZSamucGkg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>how to finish the Americana</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=9XZSamucGkg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

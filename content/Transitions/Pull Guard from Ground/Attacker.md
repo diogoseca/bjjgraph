@@ -192,35 +192,12 @@ description: "Master executing guard pulls from ground position in BJJ. Step-by-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Pulling closed guard",
-      "description": "Pull Guard from Ground (Attacker) film study: Pulling closed guard, taught by The Paradigm Academy.",
+      "name": "Pulling Closed Guard",
+      "description": "Pull Guard from Ground (Attacker) film study: Pulling Closed Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/c9zYACjPEWo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/c9zYACjPEWo",
       "url": "https://www.youtube.com/watch?v=c9zYACjPEWo",
-      "creator": { "@type": "Person", "name": "The Paradigm Academy" },
       "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Pulling guard no-gi",
-      "description": "Pull Guard from Ground (Attacker) film study: Pulling guard no-gi, taught by Backstreet Dojo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2RxcGbEFS_s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2RxcGbEFS_s",
-      "url": "https://www.youtube.com/watch?v=2RxcGbEFS_s",
-      "creator": { "@type": "Person", "name": "Backstreet Dojo" },
-      "duration": "PT26S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Closed guard pull fundamentals",
-      "description": "Pull Guard from Ground (Attacker) film study: Closed guard pull fundamentals, taught by Absolute MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/E9R-iRPMNeI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/E9R-iRPMNeI",
-      "url": "https://www.youtube.com/watch?v=E9R-iRPMNeI",
-      "creator": { "@type": "Person", "name": "Absolute MMA" },
-      "duration": "PT110S"
     }
   ]
 }
@@ -250,23 +227,7 @@ As the attacker executing Pull Guard from Ground, your objective is to transitio
 
 ![](https://www.youtube.com/watch?v=c9zYACjPEWo)
 
-<p class="clip-credit"><strong>Pulling closed guard</strong> — taught by The Paradigm Academy · 0:53 · <a href="https://www.youtube.com/watch?v=c9zYACjPEWo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2RxcGbEFS_s)
-
-<p class="clip-credit"><strong>Pulling guard no-gi</strong> — taught by Backstreet Dojo · 0:26 · <a href="https://www.youtube.com/watch?v=2RxcGbEFS_s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=E9R-iRPMNeI)
-
-<p class="clip-credit"><strong>Closed guard pull fundamentals</strong> — taught by Absolute MMA · 1:50 · <a href="https://www.youtube.com/watch?v=E9R-iRPMNeI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pulling Closed Guard</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=c9zYACjPEWo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -365,30 +365,10 @@
     "clips": [
       {
         "id": "kTSMGYlVJKY",
-        "title": "Freeing your trapped foot to finish the pass",
-        "by": "Kameron Ross",
-        "vertical": false,
+        "title": "EASY Way to Free Your Foot While Passing Half Guard",
         "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8lAqEhHz8ao",
-        "title": "Quarter guard escape and pass with slow motion",
-        "by": "Marcus Almeida",
-        "vertical": false,
-        "channel": "grpplng",
-        "duration": 37,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "S8qzvGaBp74",
-        "title": "Quarter guard passing mechanics",
-        "by": "RGA South Herts",
-        "vertical": false,
-        "channel": "RGA South Herts",
-        "duration": 66,
-        "verified": "2026-07-15"
+        "duration": 54,
+        "vertical": false
       }
     ]
   },
@@ -561,34 +541,6 @@
         "description": "Partner provides full resistance passing attempts from quarter guard. Practice timing underhook sweeps, deep half entries, and back takes specifically to the moment when the passer begins leg extraction. Develop ability to distinguish between genuine commitment and feinted extraction within one second. Track successful counter-offense rate across twenty attempts per round."
       }
     ],
-    "clips": [
-      {
-        "id": "plsCCqn8-jQ",
-        "title": "Half guard retention concepts",
-        "by": "Five Lions Jiu Jitsu",
-        "vertical": false,
-        "channel": "Five Lions Jiu Jitsu",
-        "duration": 155,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3d2gH5Z6ETA",
-        "title": "Quarter guard recovery to deep half guard",
-        "by": "Honu BJJ Reno",
-        "vertical": false,
-        "channel": "Honu BJJ Reno",
-        "duration": 281,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "xDZucxFVK48",
-        "title": "Defending the knee slice from quarter guard",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 275,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

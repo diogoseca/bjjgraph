@@ -46,35 +46,22 @@ description: "Master the complete triangle escape in BJJ. Step-by-step guide to 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Posture up escape from the triangle choke",
-      "description": "Complete Triangle Escape film study: Posture up escape from the triangle choke, taught by Cosens MMA.",
+      "name": "Triangle choke from Guard \"Posture Up Escape",
+      "description": "Complete Triangle Escape film study: Triangle choke from Guard \"Posture Up Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
       "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
-      "creator": { "@type": "Person", "name": "Cosens MMA" },
-      "duration": "PT73S"
+      "duration": "PT72S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to escape a triangle choke",
-      "description": "Complete Triangle Escape film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
-      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
-      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
-      "duration": "PT117S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle defense through posture",
-      "description": "Complete Triangle Escape film study: Triangle defense through posture, taught by P3 Martial Arts.",
+      "name": "Triangle Defense - Posture",
+      "description": "Complete Triangle Escape film study: Triangle Defense - Posture.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_bfIvH9wB8Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_bfIvH9wB8Y",
       "url": "https://www.youtube.com/watch?v=_bfIvH9wB8Y",
-      "creator": { "@type": "Person", "name": "P3 Martial Arts" },
-      "duration": "PT112S"
+      "duration": "PT111S"
     }
   ]
 }
@@ -130,15 +117,7 @@ Strategic context positions this technique as the culmination of triangle defens
 
 ![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
 
-<p class="clip-credit"><strong>Posture up escape from the triangle choke</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
-
-<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle choke from Guard &#34;Posture Up Escape</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +125,7 @@ Strategic context positions this technique as the culmination of triangle defens
 
 ![](https://www.youtube.com/watch?v=_bfIvH9wB8Y)
 
-<p class="clip-credit"><strong>Triangle defense through posture</strong> — taught by P3 Martial Arts · 1:52 · <a href="https://www.youtube.com/watch?v=_bfIvH9wB8Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Defense - Posture</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=_bfIvH9wB8Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

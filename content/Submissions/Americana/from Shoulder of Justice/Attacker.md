@@ -188,35 +188,22 @@ description: "Learn to attack with the Americana from Shoulder of Justice. Setup
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Slick Americana setup",
-      "description": "Americana from Shoulder of Justice (Attacker) film study: Slick Americana setup, taught by Joel Bouhey.",
+      "name": "The slickest way to setup an Americana.",
+      "description": "Americana from Shoulder of Justice (Attacker) film study: The slickest way to setup an Americana..",
       "thumbnailUrl": "https://i.ytimg.com/vi/NFbf-Yi9BOU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NFbf-Yi9BOU",
       "url": "https://www.youtube.com/watch?v=NFbf-Yi9BOU",
-      "creator": { "@type": "Person", "name": "Joel Bouhey" },
       "duration": "PT37S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side control Americana armlock",
-      "description": "Americana from Shoulder of Justice (Attacker) film study: Side control Americana armlock, taught by JitzLive.",
+      "name": "Side Control Armlocks - 1 - Americana",
+      "description": "Americana from Shoulder of Justice (Attacker) film study: Side Control Armlocks - 1 - Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wpZfDVXOeJw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wpZfDVXOeJw",
       "url": "https://www.youtube.com/watch?v=wpZfDVXOeJw",
-      "creator": { "@type": "Person", "name": "JitzLive" },
       "duration": "PT122S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Americana from side control",
-      "description": "Americana from Shoulder of Justice (Attacker) film study: Americana from side control, taught by Roy Dean.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wckW_4r7vbk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wckW_4r7vbk",
-      "url": "https://www.youtube.com/watch?v=wckW_4r7vbk",
-      "creator": { "@type": "Person", "name": "Roy Dean" },
-      "duration": "PT194S"
     }
   ]
 }
@@ -247,7 +234,7 @@ Attacking the Americana from Shoulder of Justice leverages the immense positiona
 
 ![](https://www.youtube.com/watch?v=NFbf-Yi9BOU)
 
-<p class="clip-credit"><strong>Slick Americana setup</strong> — taught by Joel Bouhey · 0:37 · <a href="https://www.youtube.com/watch?v=NFbf-Yi9BOU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The slickest way to setup an Americana.</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=NFbf-Yi9BOU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -255,15 +242,7 @@ Attacking the Americana from Shoulder of Justice leverages the immense positiona
 
 ![](https://www.youtube.com/watch?v=wpZfDVXOeJw)
 
-<p class="clip-credit"><strong>Side control Americana armlock</strong> — taught by JitzLive · 2:02 · <a href="https://www.youtube.com/watch?v=wpZfDVXOeJw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=wckW_4r7vbk)
-
-<p class="clip-credit"><strong>Americana from side control</strong> — taught by Roy Dean · 3:14 · <a href="https://www.youtube.com/watch?v=wckW_4r7vbk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control Armlocks - 1 - Americana</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=wpZfDVXOeJw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

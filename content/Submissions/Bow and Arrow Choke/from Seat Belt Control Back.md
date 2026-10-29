@@ -46,35 +46,32 @@ description: "Master the Bow and Arrow Choke from Seat Belt back control. Learn 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bow and arrow choke from back control",
-      "description": "Bow and Arrow Choke from Seat Belt Control Back film study: Bow and arrow choke from back control, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xqNhZVNhxnE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xqNhZVNhxnE",
-      "url": "https://www.youtube.com/watch?v=xqNhZVNhxnE",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT45S"
+      "name": "Kyle fogel - bow and arrow - seatbelt",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back film study: Kyle fogel - bow and arrow - seatbelt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rsrA1GOcywM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rsrA1GOcywM",
+      "url": "https://www.youtube.com/watch?v=rsrA1GOcywM",
+      "duration": "PT154S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Finishing the bow \u0026 arrow choke \u2014 key detail",
-      "description": "Bow and Arrow Choke from Seat Belt Control Back film study: Finishing the bow \u0026 arrow choke \u2014 key detail, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6yx5No7AKU0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6yx5No7AKU0",
-      "url": "https://www.youtube.com/watch?v=6yx5No7AKU0",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT42S"
+      "name": "Turtle back take Bow and Arrow choke",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back film study: Turtle back take Bow and Arrow choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ejXJPx128qs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ejXJPx128qs",
+      "url": "https://www.youtube.com/watch?v=ejXJPx128qs",
+      "duration": "PT28S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Turtle back take to bow and arrow choke",
-      "description": "Bow and Arrow Choke from Seat Belt Control Back film study: Turtle back take to bow and arrow choke, taught by BQuick Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ejXJPx128qs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ejXJPx128qs",
-      "url": "https://www.youtube.com/watch?v=ejXJPx128qs",
-      "creator": { "@type": "Person", "name": "BQuick Jiu Jitsu" },
-      "duration": "PT28S"
+      "name": "How To FINISH Your Bow \u0026 Arrow Chokes (KEY Detail)",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back film study: How To FINISH Your Bow \u0026 Arrow Chokes (KEY Detail).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6yx5No7AKU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6yx5No7AKU0",
+      "url": "https://www.youtube.com/watch?v=6yx5No7AKU0",
+      "duration": "PT42S"
     }
   ]
 }
@@ -137,17 +134,9 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=xqNhZVNhxnE)
+![](https://www.youtube.com/watch?v=rsrA1GOcywM)
 
-<p class="clip-credit"><strong>Bow and arrow choke from back control</strong> — taught by Evolve MMA · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6yx5No7AKU0)
-
-<p class="clip-credit"><strong>Finishing the bow &amp; arrow choke — key detail</strong> — taught by Henry Akins · 0:42 · <a href="https://www.youtube.com/watch?v=6yx5No7AKU0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kyle fogel - bow and arrow - seatbelt</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=rsrA1GOcywM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +144,15 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 
 ![](https://www.youtube.com/watch?v=ejXJPx128qs)
 
-<p class="clip-credit"><strong>Turtle back take to bow and arrow choke</strong> — taught by BQuick Jiu Jitsu · 0:28 · <a href="https://www.youtube.com/watch?v=ejXJPx128qs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle back take Bow and Arrow choke</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=ejXJPx128qs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6yx5No7AKU0)
+
+<p class="clip-credit"><strong>How To FINISH Your Bow &amp; Arrow Chokes (KEY Detail)</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=6yx5No7AKU0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

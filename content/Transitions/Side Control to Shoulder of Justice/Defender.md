@@ -152,24 +152,12 @@ description: "How to prevent and defend the Transition to Shoulder of Justice fr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Elbow escape and shrimp to replace guard",
-      "description": "Side Control to Shoulder of Justice (Defender) film study: Elbow escape and shrimp to replace guard, taught by Champions Jiu Jitsu coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/myIsFYohrNA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/myIsFYohrNA",
-      "url": "https://www.youtube.com/watch?v=myIsFYohrNA",
-      "creator": { "@type": "Person", "name": "Champions Jiu Jitsu coach" },
-      "duration": "PT32S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Side control bottom escape fundamentals",
-      "description": "Side Control to Shoulder of Justice (Defender) film study: Side control bottom escape fundamentals, taught by Cane Prevost.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sdV37h_k8Wg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sdV37h_k8Wg",
-      "url": "https://www.youtube.com/watch?v=sdV37h_k8Wg",
-      "creator": { "@type": "Person", "name": "Cane Prevost" },
-      "duration": "PT268S"
+      "name": "How To Easily Escape From Side Control Even Under Crushing Shoulder Pressure",
+      "description": "Side Control to Shoulder of Justice (Defender) film study: How To Easily Escape From Side Control Even Under Crushing Shoulder Pressure.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nP9qNUwpRO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nP9qNUwpRO0",
+      "url": "https://www.youtube.com/watch?v=nP9qNUwpRO0",
+      "duration": "PT125S"
     }
   ]
 }
@@ -197,17 +185,9 @@ Defending the Transition to Shoulder of Justice requires recognizing the attack 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=myIsFYohrNA)
+![](https://www.youtube.com/watch?v=nP9qNUwpRO0)
 
-<p class="clip-credit"><strong>Elbow escape and shrimp to replace guard</strong> — taught by Champions Jiu Jitsu coach · 0:32 · <a href="https://www.youtube.com/watch?v=myIsFYohrNA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sdV37h_k8Wg)
-
-<p class="clip-credit"><strong>Side control bottom escape fundamentals</strong> — taught by Cane Prevost · 4:28 · <a href="https://www.youtube.com/watch?v=sdV37h_k8Wg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Easily Escape From Side Control Even Under Crushing Shoulder Pressure</strong> · 2:05 · <a href="https://www.youtube.com/watch?v=nP9qNUwpRO0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

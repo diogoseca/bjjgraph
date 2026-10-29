@@ -186,24 +186,12 @@ description: "Execute the collar sleeve to De La Riva guard transition. Step-by-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Collar sleeve to deep De La Riva crab ride",
-      "description": "Collar Sleeve to De La Riva (Attacker) film study: Collar sleeve to deep De La Riva crab ride, taught by Luciana Marcos.",
+      "name": "COLLAR SLEEVE DEEP DELARIVA CRAB RIDE",
+      "description": "Collar Sleeve to De La Riva (Attacker) film study: COLLAR SLEEVE DEEP DELARIVA CRAB RIDE.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uyW7SqD63SQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/uyW7SqD63SQ",
       "url": "https://www.youtube.com/watch?v=uyW7SqD63SQ",
-      "creator": { "@type": "Person", "name": "Luciana Marcos" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Collar sleeve into reverse De La Riva hook",
-      "description": "Collar Sleeve to De La Riva (Attacker) film study: Collar sleeve into reverse De La Riva hook, taught by Elite Team Monterey.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bGhNA5ZuTnQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bGhNA5ZuTnQ",
-      "url": "https://www.youtube.com/watch?v=bGhNA5ZuTnQ",
-      "creator": { "@type": "Person", "name": "Elite Team Monterey" },
-      "duration": "PT64S"
+      "duration": "PT59S"
     }
   ]
 }
@@ -233,15 +221,7 @@ As the attacker executing this transition, your objective is to smoothly convert
 
 ![](https://www.youtube.com/watch?v=uyW7SqD63SQ)
 
-<p class="clip-credit"><strong>Collar sleeve to deep De La Riva crab ride</strong> — taught by Luciana Marcos · 1:00 · <a href="https://www.youtube.com/watch?v=uyW7SqD63SQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bGhNA5ZuTnQ)
-
-<p class="clip-credit"><strong>Collar sleeve into reverse De La Riva hook</strong> — taught by Elite Team Monterey · 1:04 · <a href="https://www.youtube.com/watch?v=bGhNA5ZuTnQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>COLLAR SLEEVE DEEP DELARIVA CRAB RIDE</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=uyW7SqD63SQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

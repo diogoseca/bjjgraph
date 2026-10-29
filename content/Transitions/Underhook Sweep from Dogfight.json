@@ -99,10 +99,6 @@
       "relationship": "Related forward-pressure sweep that chains with underhook sweep in the dogfight attack system"
     },
     {
-      "name": "Back Take",
-      "relationship": "Alternative attack from dogfight when opponent overdefends the sweep by posting wide"
-    },
-    {
       "name": "Flattened Half Guard",
       "relationship": "Counter outcome when opponent successfully drives you back down from dogfight"
     },
@@ -388,21 +384,18 @@
     "clips": [
       {
         "id": "K7U2uBUfq-c",
-        "title": "Knee shield to underhook to dogfight knee tap",
-        "by": "Kaboom BJJ coach",
-        "vertical": false,
+        "title": "Half Guard - Primary Attack - Kneeshield to Underhook to Dogfight to Knee Tap",
         "channel": "Kaboom Brazilian Jiu-Jitsu",
-        "duration": 129,
-        "verified": "2026-07-15"
+        "duration": 128,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "fjDBmFzfhgI",
-        "title": "Dogfight basics and the old school sweep",
-        "by": "Brandon McCaghren",
-        "vertical": false,
+        "title": "DOG FIGHT BASICS (Plan B & Oldschool Sweep)",
         "channel": "Brandon Mccaghren",
-        "duration": 145,
-        "verified": "2026-07-15"
+        "duration": 144,
+        "vertical": false
       }
     ]
   },
@@ -581,22 +574,19 @@
     ],
     "clips": [
       {
-        "id": "GE3rFdjxA-M",
-        "title": "Countering the dogfight sweep",
-        "by": "Cauliflower Ear Family coach",
-        "vertical": false,
-        "channel": "Cauliflower Ear Family",
-        "duration": 194,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "lEx-a7y8zo8",
-        "title": "Whizzer options against the dogfight",
-        "by": "John Laboranti",
-        "vertical": false,
+        "title": "3 options from dogfight with the over hook",
         "channel": "John Laboranti Wrestling",
         "duration": 149,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "GE3rFdjxA-M",
+        "title": "Dog Fight Counter",
+        "channel": "Cauliflower Ear Family",
+        "duration": 194,
+        "vertical": false
       }
     ]
   }

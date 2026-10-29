@@ -386,22 +386,12 @@
     "safety_considerations": "Guard passing involves forward pressure and body weight compression that require controlled application. Avoid driving excessively into the guard player's face or neck with your shoulder during crossface establishment. When breaking leg frames, redirect feet laterally rather than hyperextending the guard player's knees by forcing legs backward. Communicate with training partners about pressure intensity and always respect tap signals during positional drilling. Be mindful of your training partner's knees and ankles when pinning cleared legs.",
     "clips": [
       {
-        "id": "YLPNsyHtREs",
-        "title": "Monitoring the Feet While Passing Guard",
-        "by": "Gordon Ryan",
+        "id": "fqC0g2NEbq0",
+        "title": "Passing the guard when feet on the hips.",
+        "channel": "URBANA ACADEMY",
+        "duration": 52,
         "vertical": false,
-        "channel": "Michael Wong",
-        "duration": 50,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7lBIkzah1gg",
-        "title": "Footwork Passing vs the Supine Guard: 3 Zones",
-        "by": "Doederlein JJ",
-        "vertical": false,
-        "channel": "Doederlein JJ",
-        "duration": 129,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -592,34 +582,6 @@
         "description": "Positional sparring starting from feet on hips against a passer using full technique. Practice the complete defensive hierarchy: grip fighting, frame maintenance, guard transition, half guard insertion, and guard recovery. Track success rates at each defensive layer to identify where your defense breaks down most frequently."
       }
     ],
-    "clips": [
-      {
-        "id": "Bp0v7c_MrbY",
-        "title": "Getting Feet on Biceps Position Correctly",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 125,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "T9ckJr1MV7Q",
-        "title": "Three tricks to improve guard retention",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ",
-        "duration": 253,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "It-74eVqIC0",
-        "title": "Xande's guard retention drill",
-        "by": "Xande Ribeiro",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 408,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

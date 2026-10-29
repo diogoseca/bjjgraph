@@ -402,35 +402,7 @@
       }
     ],
     "safety_considerations": "The Vaporizer escape involves significant force on the trapped knee and ankle through the lockdown configuration. Never explosively yank the leg free, as uncontrolled extraction can cause MCL or LCL damage to the trapped knee or the opponent's legs. The lockdown figure-four creates rotational stress on the ankle joint that intensifies with forceful pulling. When drilling, communicate with your partner about lockdown tightness and tap immediately if you feel sharp pain in the knee or ankle. The whip-up motion can also strain the lower back of the top player, so warm up thoroughly before practicing extended escape sequences. Begin all drilling at low resistance and increase gradually.",
-    "clips": [
-      {
-        "id": "-49CypLW9aM",
-        "title": "Breaking the lockdown half guard",
-        "by": "Superhero Jiu Jitsu Academy",
-        "vertical": false,
-        "channel": "Superhero Jiu Jitsu Academy ",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Freeing your trapped foot in half guard",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lwwIfCAA7Zc",
-        "title": "Top lockdown Turk counter",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 207,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Escape from Vaporizer Defender",
@@ -593,34 +565,6 @@
         "description": "Live three-minute rounds starting in Vaporizer. Bottom player must maintain position, attack, defend against escape attempts, and transition when necessary. Score based on sweeps completed, submissions threatened, and time in control. Role switch after each round to develop both perspectives of the exchange."
       }
     ],
-    "clips": [
-      {
-        "id": "OIr4wDxl-Ys",
-        "title": "Lockdown clinches to keep the leg trapped",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AmOMN0S1v8Q",
-        "title": "Advanced lockdown retention details",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ITZ4ZPcsY2c",
-        "title": "The Vaporizer from lockdown",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 140,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

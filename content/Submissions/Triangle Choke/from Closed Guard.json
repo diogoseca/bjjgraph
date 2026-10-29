@@ -506,41 +506,12 @@
     ],
     "clips": [
       {
-        "id": "rM8HMq3o9yY",
-        "title": "Triangle from closed guard",
-        "by": "Nicholas Meregali",
-        "start": 0,
-        "end": 26,
-        "vertical": true,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "MbdpOmzThpQ",
-        "title": "Surprising triangle from guard",
-        "by": "Giancarlo Bodoni",
-        "start": 0,
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "verified": "2026-07-14"
-      },
-      {
         "id": "9pjdpFCr4UI",
-        "title": "No-gi triangle from guard",
-        "by": "Chewjitsu",
-        "start": 0,
-        "vertical": false,
+        "title": "No Gi Triangle Choke From Closed Guard",
         "channel": "Chewjitsu",
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "aR7JafPJ1lw",
-        "title": "Triangle off the overhook",
-        "by": "Jon Thomas · Grapplearts",
-        "start": 0,
+        "duration": 294,
         "vertical": false,
-        "channel": "Stephan Kesting",
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -739,30 +710,25 @@
     "clips": [
       {
         "id": "YG1S8nMIdjY",
-        "title": "Triangle Defense from Closed Guard",
-        "by": "Andy",
-        "vertical": false,
+        "title": "TRIANGLE DEFENSE FROM CLOSED GUARD",
         "channel": "Jiu Jitsu With Andy ",
         "duration": 61,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "dJOw0ZEyXXc",
-        "title": "Triangle Choke Posture Up Escape",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Triangle choke from Guard \"Posture Up Escape",
         "channel": "Cosens MMA LLC",
-        "duration": 73,
-        "verified": "2026-07-14"
+        "duration": 72,
+        "vertical": false
       },
       {
         "id": "Z-CsRn4K0vg",
-        "title": "Escaping Triangles vs Big Opponents",
-        "by": "John Danaher",
-        "vertical": false,
+        "title": "John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)",
         "channel": "Dohn Janaher ",
         "duration": 48,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },

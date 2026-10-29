@@ -375,26 +375,7 @@
       }
     ],
     "safety_considerations": "The back take from anaconda involves releasing neck pressure and transitioning control points. During training, execute the grip transition smoothly rather than explosively to avoid accidental cranking of the opponent's neck during the release phase. Be mindful that the anaconda grip can maintain choking pressure even during the transition, so release deliberately and check with your training partner about comfort level. When inserting hooks, avoid slamming heels into the opponent's inner thighs, which causes unnecessary discomfort. Both partners should communicate clearly about when the anaconda grip transitions to seatbelt to prevent unexpected choking pressure during positional drilling.",
-    "clips": [
-      {
-        "id": "fysm_zUV3BU",
-        "title": "Sneaky anaconda from back control",
-        "by": "Corey Guitard",
-        "vertical": false,
-        "channel": "Jiu Jitsu X Factor",
-        "duration": 125,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "TkDYDgUzQXs",
-        "title": "Two main variations of the anaconda strangle",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 147,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Back Take from Anaconda Defender",
@@ -567,34 +548,6 @@
         "description": "Positional sparring starting from anaconda control. Partner attempts either choke finish or back take based on defensive reactions. Defender must read the situation and apply appropriate defense in real-time. Score system: defender earns points for preventing back control and recovering to guard. Five-minute rounds at 75-100% intensity."
       }
     ],
-    "clips": [
-      {
-        "id": "czQckiDogRc",
-        "title": "How to escape the anaconda choke (no-gi)",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "SXm9wA1HcvM",
-        "title": "Anaconda choke defense",
-        "by": "SFS MMA",
-        "vertical": false,
-        "channel": "Fierce Pierce15",
-        "duration": 64,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "s94GexEkoQ0",
-        "title": "Anaconda defense plus counter",
-        "by": "Cyril Robert",
-        "vertical": false,
-        "channel": "Cyril Robert MMA",
-        "duration": 43,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

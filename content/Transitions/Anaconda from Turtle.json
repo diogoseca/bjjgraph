@@ -69,10 +69,6 @@
       "relationship": "Parent position family from which anaconda attacks are launched"
     },
     {
-      "name": "Back Take from Top",
-      "relationship": "Alternative turtle top attack focusing on positional advancement rather than submission"
-    },
-    {
       "name": "Anaconda Control",
       "relationship": "Target position where successful execution leads for finishing sequence"
     },
@@ -425,22 +421,11 @@
     "safety_considerations": "When practicing the anaconda from turtle, execute the rolling motion smoothly and controlled to prevent partner from landing awkwardly on their neck or being thrown with excessive force. Apply choking pressure gradually in training, never explosively or with full force, as bilateral chokes can cause unconsciousness within seconds once properly locked. Monitor partner's response carefully and release immediately upon tap signal - never hold chokes after submission. Ensure partner is prepared for the rolling motion before initiating and communicate during initial drilling phases. Be particularly mindful of neck safety during the roll transition, supporting partner's head and neck during the movement. In drilling, use progressive resistance to build coordination before attempting at full speed. Partners should communicate clearly about comfort level with rolling techniques and inversion. Never practice this technique on untrained partners who do not understand tap protocols. Be aware that bilateral blood chokes produce rapid unconsciousness - maintain constant awareness of partner's consciousness state and look for signs of distress beyond verbal tapping such as body going limp.",
     "clips": [
       {
-        "id": "faFx9xOawS8",
-        "title": "Anaconda choke from top turtle",
-        "by": "Jiu Jitsu Kid",
-        "vertical": false,
-        "channel": "Jiu Jitsu Kid",
-        "duration": 108,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "SSWodDzj4-4",
-        "title": "Anaconda choke demonstration",
-        "by": "Grappler Station",
-        "vertical": false,
-        "channel": "Grappler Station",
-        "duration": 91,
-        "verified": "2026-07-15"
+        "id": "Euk9ztoKs-k",
+        "title": "Anaconda choke from turtle",
+        "channel": "Training Grounds",
+        "duration": 56,
+        "front": true
       }
     ]
   },
@@ -627,31 +612,26 @@
     ],
     "clips": [
       {
-        "id": "N9MbEtAv_Lw",
-        "title": "Anaconda choke defense",
-        "by": "Mamba BJJ",
+        "id": "Yqz0JQuZGes",
+        "title": "Anaconda defense to americana",
+        "channel": "Gracie Barra Newcastle City",
+        "duration": 40,
         "vertical": false,
-        "channel": "Mamba BJJ",
-        "duration": 62,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "s94GexEkoQ0",
-        "title": "Anaconda choke defense and counter",
-        "by": "Cyril Robert",
-        "vertical": false,
+        "title": "BJJ defense anaconda plus counter",
         "channel": "Cyril Robert MMA",
         "duration": 43,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
-        "id": "Yqz0JQuZGes",
-        "title": "Anaconda defense into americana counter",
-        "by": "Gracie Barra Newcastle City",
-        "vertical": false,
-        "channel": "Gracie Barra Newcastle City",
-        "duration": 40,
-        "verified": "2026-07-15"
+        "id": "N9MbEtAv_Lw",
+        "title": "Anaconda Choke Defense",
+        "channel": "Mamba BJJ",
+        "duration": 61,
+        "vertical": false
       }
     ]
   },

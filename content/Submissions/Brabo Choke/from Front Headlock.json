@@ -502,31 +502,31 @@
     ],
     "clips": [
       {
-        "id": "BMU1_wfjYTw",
-        "title": "Darce Choke from the Front Headlock",
-        "by": "Procel BJJ",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 101,
-        "verified": "2026-07-14"
+        "id": "HUiCQHRTsPk",
+        "title": "RUSTAM KHABILOV. BRABO CHOKE FROM FRONT HEADLOCK - STAR TECHNIQUES # 4",
+        "channel": "BattleBeetle",
+        "duration": 58,
+        "front": true
       },
       {
-        "id": "dS5HQNSyuXs",
-        "title": "Half Nelson to D'Arce/Brabo Choke",
-        "by": "Joshua Clements",
-        "vertical": false,
-        "channel": "Joshua Clements",
-        "duration": 94,
-        "verified": "2026-07-14"
+        "id": "BMU1_wfjYTw",
+        "title": "Procel BJJ | Darce Choke from the Front Headlock Position",
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 100,
+        "vertical": false
+      },
+      {
+        "id": "xl14mmXhFCo",
+        "title": "Front Headlock to Brabo Choke",
+        "channel": "Troy Lives The Dream",
+        "duration": 283
       },
       {
         "id": "pad9c-Ldljg",
-        "title": "Brabo Choke from Turtle",
-        "by": "Thiago Stefanutti",
-        "vertical": false,
+        "title": "Submission from the turtle brabo choke",
         "channel": "thiago stefanutti",
         "duration": 46,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -724,21 +724,11 @@
     "clips": [
       {
         "id": "d1YBV8UTKds",
-        "title": "Darce Choke Defense",
-        "by": "Animal",
-        "vertical": false,
+        "title": "Darce Choke defense",
         "channel": "Animal",
-        "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "i_BKN6v-iAI",
-        "title": "Escape the D'Arce Choke",
-        "by": "Energia Martial Arts",
+        "duration": 52,
         "vertical": false,
-        "channel": "Energia Martial Arts",
-        "duration": 248,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },

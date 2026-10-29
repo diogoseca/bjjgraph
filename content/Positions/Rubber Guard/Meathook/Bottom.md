@@ -21,37 +21,37 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
     {
       "@type": "HowToStep",
       "name": "Execute Meathook to Gogoplata Control",
-      "text": "From this position, attempt Meathook to Gogoplata Control. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Meathook to Gogoplata Control. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crackhead Control to Carni",
-      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Armbar from New York",
+      "text": "From this position, attempt Armbar from New York. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from New York",
-      "text": "From this position, attempt Armbar from New York. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Crackhead Control to Mission Control",
+      "text": "From this position, attempt Crackhead Control to Mission Control. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crackhead Control to Mission Control",
-      "text": "From this position, attempt Crackhead Control to Mission Control. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Baratoplata Setup",
+      "text": "From this position, attempt Baratoplata Setup. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -155,50 +155,6 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Meathook (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Meathook Options (MTS 202)",
-      "description": "Meathook (Bottom) film study: Meathook Options (MTS 202), taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KN7ww-OyaxQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KN7ww-OyaxQ",
-      "url": "https://www.youtube.com/watch?v=KN7ww-OyaxQ",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rubber Guard: Troubleshooting the Meathook",
-      "description": "Meathook (Bottom) film study: Rubber Guard: Troubleshooting the Meathook, taught by Brandon Mccaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0w0642zFqWo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0w0642zFqWo",
-      "url": "https://www.youtube.com/watch?v=0w0642zFqWo",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Near-side Meathook Sweep",
-      "description": "Meathook (Bottom) film study: Near-side Meathook Sweep, taught by 10th Planet Colorado Springs.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pJ4G8hW6dIE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pJ4G8hW6dIE",
-      "url": "https://www.youtube.com/watch?v=pJ4G8hW6dIE",
-      "creator": { "@type": "Person", "name": "10th Planet Colorado Springs" },
-      "duration": "PT93S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -221,40 +177,6 @@ Competition application requires understanding rule sets and opponent body types
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Meathook (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KN7ww-OyaxQ)
-
-<p class="clip-credit"><strong>Meathook Options (MTS 202)</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=KN7ww-OyaxQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0w0642zFqWo)
-
-<p class="clip-credit"><strong>Rubber Guard: Troubleshooting the Meathook</strong> — taught by Brandon Mccaghren · 1:01 · <a href="https://www.youtube.com/watch?v=0w0642zFqWo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pJ4G8hW6dIE)
-
-<p class="clip-credit"><strong>Near-side Meathook Sweep</strong> — taught by 10th Planet Colorado Springs · 1:33 · <a href="https://www.youtube.com/watch?v=pJ4G8hW6dIE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -320,7 +242,6 @@ Competition application requires understanding rule sets and opponent body types
 
 **If opponent attempts to spin or rotate trapped arm to escape hook:**
 - Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 75%)
-- Execute **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 70%)
 
 
 **If opponent establishes strong base and pauses defensive movement:**
@@ -330,7 +251,6 @@ Competition application requires understanding rule sets and opponent body types
 
 **If opponent attempts to pressure pass by driving shoulder into chest:**
 - Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 65%)
 
 
 

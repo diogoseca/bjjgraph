@@ -152,35 +152,22 @@ description: "Complete guide to defending the Knee Slide from Combat Base. Early
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee slice pass counter",
-      "description": "Knee Slide from Combat Base (Defender) film study: Knee slice pass counter, taught by Kohbukan Sisu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yiIHeo7NgsE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yiIHeo7NgsE",
-      "url": "https://www.youtube.com/watch?v=yiIHeo7NgsE",
-      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
-      "duration": "PT58S"
+      "name": "101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response",
+      "description": "Knee Slide from Combat Base (Defender) film study: 101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rP8SOouke1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rP8SOouke1s",
+      "url": "https://www.youtube.com/watch?v=rP8SOouke1s",
+      "duration": "PT57S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Knee slice defense counter",
-      "description": "Knee Slide from Combat Base (Defender) film study: Knee slice defense counter, taught by A DAY IN A LIFE.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Da5PAZooedU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Da5PAZooedU",
-      "url": "https://www.youtube.com/watch?v=Da5PAZooedU",
-      "creator": { "@type": "Person", "name": "A DAY IN A LIFE" },
-      "duration": "PT86S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guard retention: knee cut response",
-      "description": "Knee Slide from Combat Base (Defender) film study: Guard retention: knee cut response, taught by Cal McDonald.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rP8SOouke1s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rP8SOouke1s",
-      "url": "https://www.youtube.com/watch?v=rP8SOouke1s",
-      "creator": { "@type": "Person", "name": "Cal McDonald" },
-      "duration": "PT57S"
+      "name": "Knee Slice Pass Counter",
+      "description": "Knee Slide from Combat Base (Defender) film study: Knee Slice Pass Counter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yiIHeo7NgsE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yiIHeo7NgsE",
+      "url": "https://www.youtube.com/watch?v=yiIHeo7NgsE",
+      "duration": "PT58S"
     }
   ]
 }
@@ -208,25 +195,17 @@ Defending the Knee Slide from Combat Base requires early recognition of the pass
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=yiIHeo7NgsE)
-
-<p class="clip-credit"><strong>Knee slice pass counter</strong> — taught by Kohbukan Sisu · 0:58 · <a href="https://www.youtube.com/watch?v=yiIHeo7NgsE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Da5PAZooedU)
-
-<p class="clip-credit"><strong>Knee slice defense counter</strong> — taught by A DAY IN A LIFE · 1:26 · <a href="https://www.youtube.com/watch?v=Da5PAZooedU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=rP8SOouke1s)
 
-<p class="clip-credit"><strong>Guard retention: knee cut response</strong> — taught by Cal McDonald · 0:57 · <a href="https://www.youtube.com/watch?v=rP8SOouke1s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=rP8SOouke1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yiIHeo7NgsE)
+
+<p class="clip-credit"><strong>Knee Slice Pass Counter</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=yiIHeo7NgsE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

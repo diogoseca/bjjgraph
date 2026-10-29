@@ -101,10 +101,6 @@
       "relationship": "Parent position of technical mount from which the overall escape sequence begins"
     },
     {
-      "name": "Back Take",
-      "relationship": "Opponent's transition used to follow the turn and establish back control with hooks"
-    },
-    {
       "name": "Half Guard",
       "relationship": "Alternative escape target from technical mount bottom when back turn is not necessary"
     },
@@ -411,26 +407,7 @@
       }
     ],
     "safety_considerations": "Practice at controlled speed initially as the rotation under an armbar threat carries real injury risk to the elbow and shoulder joints. Partners should release armbar pressure immediately if the arm begins to extend during the turn. Never force the rotation against a fully locked armbar—tap and restart rather than risking joint damage. Communication with training partners about resistance levels is essential during progressive drilling phases. Build speed incrementally only after the arm protection mechanics are fully ingrained.",
-    "clips": [
-      {
-        "id": "Za5f-J8FcBg",
-        "title": "Technical mount escape turning in to darce",
-        "by": "Ari",
-        "vertical": false,
-        "channel": "Submissions101",
-        "duration": 72,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "SYel-mVSMAI",
-        "title": "First three mount escapes you need to know",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 285,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Back Turn from Technical Mount Defender",
@@ -599,34 +576,6 @@
         "description": "Positional sparring starting from technical mount. Bottom player attempts full repertoire of escapes including back turns. Practice recognizing and responding to turns among other escape attempts in live conditions with full resistance and unpredictable timing."
       }
     ],
-    "clips": [
-      {
-        "id": "Za5f-J8FcBg",
-        "title": "Technical mount escape to darce",
-        "by": "Ari",
-        "vertical": false,
-        "channel": "Submissions101",
-        "duration": 72,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "4zVQ4maQdB0",
-        "title": "Punishing the turn: armbar from technical mount",
-        "by": "Mauricio Gomes",
-        "vertical": false,
-        "channel": "Mauricio Gomes BJJ",
-        "duration": 43,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "0vy0zPYLMaM",
-        "title": "Taking the back when they turn in",
-        "by": "Knight Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Knight Jiu-Jitsu",
-        "duration": 851,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

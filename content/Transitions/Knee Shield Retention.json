@@ -406,31 +406,12 @@
     "safety_considerations": "Knee Shield Retention is a relatively safe technique with minimal injury risk when practiced properly. The primary safety concern is avoiding knee hyperextension when opponent smashes down on your shield leg - always keep some bend in your knee and be ready to retract if heavy pressure comes down on top of your shin. For training partners working as the passer, avoid driving excessive weight onto the shield leg's knee joint, especially when the bottom player is new and may not have developed the muscular stability to support that pressure. When transitioning between positions, both partners should maintain control to avoid sudden weight shifts that could cause knee or ankle injuries. Practitioners with previous knee injuries should be especially cautious about maintaining proper angle on their shield leg and avoiding positions where the knee is exposed to lateral stress.",
     "clips": [
       {
-        "id": "R0P8BvcJLAs",
-        "title": "Getting the underhook from knee shield half guard",
-        "by": "Bowerhouse MMA",
+        "id": "q_ND-09HiWg",
+        "title": "Knee Shield Half Guard Basics",
+        "channel": "MMA Leech",
+        "duration": 263,
         "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 131,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mPDafcPeF7s",
-        "title": "How to build and hold a perfect knee shield",
-        "by": "Bernardo Faria",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 247,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "rja-2KKDGb0",
-        "title": "Holding half guard against the switch base",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 284,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -623,30 +604,25 @@
     "clips": [
       {
         "id": "Y815hmtzGZA",
-        "title": "Knee shield half guard pass",
-        "by": "Adam Metcalf",
-        "vertical": false,
+        "title": "Half Guard / Knee Shield Pass #4",
         "channel": "ADAM METCALF",
-        "duration": 30,
-        "verified": "2026-07-15"
+        "duration": 29,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "yj_6xcl2emA",
-        "title": "Passing the knee shield with an inside knee cut",
-        "by": "War Room Jiu Jitsu",
-        "vertical": false,
+        "title": "How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class…",
         "channel": "War Room Jiu Jitsu",
         "duration": 70,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "MvsgiCFdQPA",
-        "title": "Passing the knee shield from over-under",
-        "by": "Paragon Jiu-Jitsu Austin",
-        "vertical": false,
+        "title": "Passing Knee Shield from Over Under Position",
         "channel": "Paragon Jiu-Jitsu Academy Austin",
-        "duration": 116,
-        "verified": "2026-07-15"
+        "duration": 115,
+        "vertical": false
       }
     ]
   },

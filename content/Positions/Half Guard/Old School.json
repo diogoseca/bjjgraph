@@ -472,35 +472,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "dOdO6xJ-TcU",
-        "title": "Stop the half guard underhook",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lwwIfCAA7Zc",
-        "title": "Top lockdown turk",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 207,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "xIkXPK5h-4A",
-        "title": "Safely escaping the lockdown from top",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 438,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Old School Bottom",
@@ -891,26 +863,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Jnc2siD9cak",
-        "title": "Old school half guard sweep",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 12,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "tTroLgpLJ1k",
-        "title": "Godfather sweep from lockdown half guard",
-        "by": "Coach Paul",
-        "vertical": false,
-        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
-        "duration": 11,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1026,24 +979,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "Jnc2siD9cak",
-      "title": "Old school half guard sweep",
-      "by": "Ritchie Yip",
-      "vertical": false,
-      "channel": "Ritchie Yip",
-      "duration": 12,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "_1o_3IT7Yj8",
-      "title": "Old school sweep from half guard",
-      "by": "Dave Peters",
-      "vertical": false,
-      "channel": "Alliance Richmond Hill",
-      "duration": 108,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

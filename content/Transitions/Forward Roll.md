@@ -46,35 +46,32 @@ description: "Master the Forward Roll escape from Turtle in BJJ. Complete guide 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Turtle concepts: the front roll",
-      "description": "Forward Roll film study: Turtle concepts: the front roll, taught by Brazilian Top Team Happy Valley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ILvdMiqeJaY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ILvdMiqeJaY",
-      "url": "https://www.youtube.com/watch?v=ILvdMiqeJaY",
-      "creator": { "@type": "Person", "name": "Brazilian Top Team Happy Valley" },
-      "duration": "PT73S"
+      "name": "BJJ Turtle Escapes Part 2 - Shoulder Roll",
+      "description": "Forward Roll film study: BJJ Turtle Escapes Part 2 - Shoulder Roll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
+      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
+      "duration": "PT21S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Turtle shoulder roll escape (maki komi)",
-      "description": "Forward Roll film study: Turtle shoulder roll escape (maki komi), taught by Team Daruma Dojo.",
+      "name": "Turtle Shoulder Roll Escape (maki komi)",
+      "description": "Forward Roll film study: Turtle Shoulder Roll Escape (maki komi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ba9EahLaXkg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ba9EahLaXkg",
       "url": "https://www.youtube.com/watch?v=Ba9EahLaXkg",
-      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
-      "duration": "PT36S"
+      "duration": "PT35S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Turtle escape via shoulder roll",
-      "description": "Forward Roll film study: Turtle escape via shoulder roll, taught by BJJake.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
-      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
-      "creator": { "@type": "Person", "name": "BJJake" },
-      "duration": "PT21S"
+      "name": "Turtle concepts - the front roll",
+      "description": "Forward Roll film study: Turtle concepts - the front roll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ILvdMiqeJaY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ILvdMiqeJaY",
+      "url": "https://www.youtube.com/watch?v=ILvdMiqeJaY",
+      "duration": "PT72S"
     }
   ]
 }
@@ -128,9 +125,9 @@ The forward roll also builds body awareness and coordination that translates to 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ILvdMiqeJaY)
+![](https://www.youtube.com/watch?v=W0TCGKRcniA)
 
-<p class="clip-credit"><strong>Turtle concepts: the front roll</strong> — taught by Brazilian Top Team Happy Valley · 1:13 · <a href="https://www.youtube.com/watch?v=ILvdMiqeJaY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Turtle Escapes Part 2 - Shoulder Roll</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +135,15 @@ The forward roll also builds body awareness and coordination that translates to 
 
 ![](https://www.youtube.com/watch?v=Ba9EahLaXkg)
 
-<p class="clip-credit"><strong>Turtle shoulder roll escape (maki komi)</strong> — taught by Team Daruma Dojo · 0:36 · <a href="https://www.youtube.com/watch?v=Ba9EahLaXkg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle Shoulder Roll Escape (maki komi)</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=Ba9EahLaXkg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=W0TCGKRcniA)
+![](https://www.youtube.com/watch?v=ILvdMiqeJaY)
 
-<p class="clip-credit"><strong>Turtle escape via shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle concepts - the front roll</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=ILvdMiqeJaY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -326,7 +323,7 @@ The Forward Roll is a fundamental component of the turtle escape system in BJJ, 
 
 - [[Transitions/Granby Roll to Guard]] - Alternative rolling escape that moves laterally rather than forward
 
-- [[Transitions/Granby to Closed Guard]] - Similar guard recovery technique with different rolling direction
+- [[Transitions/Granby Roll to Guard]] - Similar guard recovery technique with different rolling direction
 
 - [[Transitions/Hip Escape to Guard]] - Complementary escape movement used in similar defensive situations
 

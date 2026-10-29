@@ -1,15 +1,11 @@
 {
   "name": "Leg Weave Pass",
-  "summary": "The Leg Weave Pass is a half guard top pass where the top player threads their inside leg through and over the opponent's legs, pinning both flat to immobilize the hips and free the trapped leg into side control.",
-  "description": "Master the Leg Weave Pass in BJJ. Step-by-step pressure passing technique from half guard top to side control with systematic leg threading mechanics.",
+  "summary": "The leg-weave pass uses an arm threaded between the legs to bring the knees together, then clears the remaining foot or half-guard hook before settling into side control.",
+  "description": "Leg Weave Pass from half guard threads an arm between the legs to fold the knee shield. Clear the remaining hook before settling chest-to-chest in side control.",
   "tags": [
     "bjj",
     "transition",
-    "guard_pass",
-    "pressure",
-    "half_guard",
-    "leg_weave",
-    "side_control"
+    "position-change"
   ],
   "from_position": "Half Guard/Top",
   "outcomes": [
@@ -42,368 +38,313 @@
     "gi": 60,
     "nogi": 60
   },
-  "overview": "The Leg Weave Pass is a highly effective pressure passing technique used to control and pass the half guard from the top position. This technique involves threading your leg between the opponent's legs while maintaining heavy top pressure, creating a configuration that severely limits the bottom player's mobility and defensive options. The leg weave creates a unique control position that combines elements of smash passing with positional control, making it particularly effective against modern half guard retention strategies.\n\nThe technique is characterized by inserting your inside leg (the leg on the same side as the opponent's lockdown or half guard) through and over the opponent's bottom leg, creating a weaving pattern that traps their legs and prevents hip movement. This passing method has become increasingly popular in modern competition BJJ due to its effectiveness against knee shield and deep half guard variations.\n\nThe leg weave pass represents a systematic approach to passing that prioritizes control and pressure over speed, making it an essential technique for practitioners who favor a methodical, pressure-based passing game. The pass chains naturally with knee slice and smash pass options, creating a multi-threat system from half guard top that forces the bottom player into increasingly compromised defensive positions.",
+  "overview": "The top passer begins in Half Guard, facing a knee shield or linked leg frame. The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared.\n\nThread the arm through the available leg gap and connect to the lower thigh or knee. Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint. Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Lachlan Giles — leg weave pass, no gi](https://www.youtube.com/watch?v=9rDzchSk4fw); [Lachlan Giles — leg-weave counter demonstration](https://bjjfanatics.com/blogs/news/interesting-leg-weave-counter-with-lachlan-giles).",
   "related_content": [
     {
-      "name": "Half Guard Pass",
-      "relationship": "Parent technique category - leg weave is a specific approach to passing half guard"
-    },
-    {
-      "name": "Knee Slice Pass",
-      "relationship": "Alternative passing option that chains with leg weave when opponent defends"
-    },
-    {
-      "name": "Smash Pass",
-      "relationship": "Related pressure passing technique with similar weight distribution principles"
-    },
-    {
-      "name": "Underhook Pass",
-      "relationship": "Alternative approach when underhook is available instead of crossface"
-    },
-    {
-      "name": "Lockdown",
-      "relationship": "Position that the leg weave effectively counters and neutralizes"
-    },
-    {
       "name": "Knee Shield Half Guard",
-      "relationship": "Common defensive position requiring the knee shield variation of leg weave"
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Knee Shield Half Guard."
     },
     {
-      "name": "Deep Half Guard",
-      "relationship": "Position opponent may threaten if leg weave pressure is insufficient"
+      "name": "Half Guard",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Half Guard."
     },
     {
       "name": "Side Control",
-      "relationship": "Ending position and goal of the leg weave pass sequence"
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Side Control."
     },
     {
-      "name": "Kimura from Half Guard",
-      "relationship": "Submission opportunity arising from heavy pressure positions during the weave"
-    },
-    {
-      "name": "Darce Choke",
-      "relationship": "Submission threat that develops if opponent turns into you during the pass"
-    },
-    {
-      "name": "Crossface Pass",
-      "relationship": "Related passing technique using similar crossface pressure mechanics"
-    },
-    {
-      "name": "Leg Weave",
-      "relationship": "Intermediate control position achieved during the passing sequence"
+      "name": "Dogfight Position",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Dogfight Position."
     }
   ],
   "attacker": {
     "name": "Leg Weave Pass Attacker",
-    "description": "How to execute the Leg Weave Pass in BJJ. Complete attacking guide with setup, seven-step execution sequence, and counter responses from half guard top.",
-    "overview": "The Leg Weave Pass is executed from half guard top by threading your inside leg between and over the opponent's legs while maintaining crushing upper body pressure. The technique creates a configuration where your shin pins both of the opponent's legs flat to the mat, eliminating their hip mobility and guard retention ability. The pass proceeds through three distinct phases: establishing upper body control with crossface and hip grip, completing the leg weave to immobilize the opponent's lower body, and extracting the trapped leg to finish in side control. Each phase must be completed methodically before advancing to the next. The key mechanical insight is that the weave transfers leg control responsibility from your trapped leg to your free leg, allowing you to extract the trapped leg without the opponent being able to re-engage their guard.",
+    "description": "Leg Weave Pass (attacker): Thread the arm through the available leg gap and connect to the lower thigh or knee. Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.",
+    "overview": "The top passer begins in Half Guard, facing a knee shield or linked leg frame. The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared.\n\nThread the arm through the available leg gap and connect to the lower thigh or knee. Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint. Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.\n\nMove the hips and feet without collapsing all weight over the woven arm. Remove the remaining foot or half-guard hook before establishing side control. If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nMaintain hip control through the joined knees as the feet circle. Once the knee line and remaining hook are clear, transfer to the head-and-hip controls of side control; a crossface should secure the completed pin rather than replace the arm weave prematurely.",
     "key_principles": [
-      "Maintain constant downward pressure through chest and shoulder throughout the entire pass sequence to prevent shrimping",
-      "Thread the inside leg completely through the opponent's guard to create the weave configuration that pins both legs",
-      "Control the opponent's far hip with your free hand to prevent them from turning or creating angular movement",
-      "Keep your weight distributed primarily on your chest and shoulder contact points rather than on your knees or hands",
-      "Progress systematically through each stage of the pass without rushing - patience prevents common reversal opportunities",
-      "Use shoulder pressure to flatten the opponent and prevent them from achieving a side-facing position",
-      "Extract the trapped leg only after the opponent's legs are completely controlled and immobilized by the weave"
+      "Weave the arm: Thread the arm through the available leg gap and connect to the lower thigh or knee.",
+      "Manage the knee shield: Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.",
+      "Keep the elbow protected: Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.",
+      "Maintain an outside base: Move the hips and feet without collapsing all weight over the woven arm.",
+      "Clear the legs before settling: Remove the remaining foot or half-guard hook before establishing side control.",
+      "Follow the hips: If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle."
     ],
     "setup_requirements": [
-      "Established top position in half guard with opponent on their back or partially flattened",
-      "Crossface control or underhook position secured to manage upper body and prevent opponent from turning",
-      "Inside leg positioned close to the opponent's bottom leg with knee ready to begin threading through",
-      "Far hand controlling opponent's far hip to prevent angular movement and bridging",
-      "Opponent's knee shield cleared or controlled so it does not obstruct the threading path",
-      "Hips positioned low and forward to prevent the opponent from recovering full guard or creating distance"
+      "The top passer begins in Half Guard, facing a knee shield or linked leg frame.",
+      "Thread the arm through the available leg gap and connect to the lower thigh or knee.",
+      "Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.",
+      "The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared."
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Establish heavy crossface pressure",
-        "description": "From top half guard, drive your shoulder across the opponent's face while securing a strong crossface with your near arm. Your weight should be distributed primarily through your chest and shoulder, creating downward pressure that makes it difficult for the opponent to turn into you or create effective frames. Keep your head positioned on the far side of the opponent's head to maximize the crossface angle."
+        "action": "Weave the arm",
+        "description": "Thread the arm through the available leg gap and connect to the lower thigh or knee."
       },
       {
         "step_number": 2,
-        "action": "Control the far hip",
-        "description": "With your far hand, reach across and grip the opponent's far hip or pants at the hip level. This grip is crucial as it prevents the opponent from turning into you or bridging effectively. Your elbow should be positioned tight to your body to maintain connection and prevent the opponent from creating space between your bodies. This grip acts as a tether throughout the entire passing sequence."
+        "action": "Manage the knee shield",
+        "description": "Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint."
       },
       {
         "step_number": 3,
-        "action": "Thread the inside leg through",
-        "description": "Begin threading your inside leg (the leg trapped between the opponent's legs) by lifting your knee and driving it forward and over the opponent's bottom leg. Your shin should slide across the opponent's bottom thigh as you weave your leg through. This creates the characteristic weaving pattern that gives the technique its name. Maintain heavy chest and shoulder pressure throughout this movement to prevent the opponent from shrimping away or inserting a knee shield."
+        "action": "Keep the elbow protected",
+        "description": "Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura."
       },
       {
         "step_number": 4,
-        "action": "Complete the leg weave configuration",
-        "description": "Continue threading your leg until your foot emerges on the far side of the opponent's legs, with your shin positioned across both of their thighs. Your leg should now be weaved through so that both of the opponent's legs are trapped beneath your shin. Keep your hips low and forward pressure constant. The opponent's ability to use their legs for framing, shrimping, or guard recovery should now be severely compromised by the weight of your weaved leg."
+        "action": "Maintain an outside base",
+        "description": "Move the hips and feet without collapsing all weight over the woven arm."
       },
       {
         "step_number": 5,
-        "action": "Drive the opponent's knees to the mat",
-        "description": "Using the pressure from your weaved leg combined with forward hip pressure, drive the opponent's knees flat to the mat. This completely removes their ability to create frames with their legs or recover guard. Your chest should be heavy on their upper body while your weaved leg controls their lower body. Maintain the crossface and hip control throughout this phase. You should feel no resistance from their legs before proceeding."
+        "action": "Clear the legs before settling",
+        "description": "Remove the remaining foot or half-guard hook before establishing side control."
       },
       {
         "step_number": 6,
-        "action": "Extract your trapped leg",
-        "description": "With the opponent's legs controlled and flattened, begin extracting your previously trapped leg (the original half guard leg). Since their legs are now pinned by your weave, they cannot re-grip your leg. Pull your knee through smoothly while maintaining all other pressure and control points. Keep your hip low throughout extraction to prevent them from inserting a knee shield into the gap as your leg comes free."
-      },
-      {
-        "step_number": 7,
-        "action": "Transition to side control",
-        "description": "Once your leg is free, swing it behind you and establish full side control. Your chest should drop onto the opponent's chest with perpendicular alignment, your hips should be low and heavy, and you should maintain the crossface control. Transition your hip grip to an underhook or establish your near knee tight against their hip. Unweave your other leg and settle into a proper side control configuration before considering the pass complete."
+        "action": "Follow the hips",
+        "description": "If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle."
       }
     ],
     "common_counters": [
       {
-        "counter": "Opponent bridges explosively as you begin the weave",
+        "counter": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.",
         "effectiveness": "Medium",
-        "your_response": "Anticipate the bridge by keeping your base wide and your hips low. When they bridge, use their momentum to complete the weave more quickly as their legs momentarily lighten. If they create excessive space, transition to a knee slice pass instead of forcing the weave.",
+        "your_response": "Re-check the prerequisite before continuing. Thread the arm through the available leg gap and connect to the lower thigh or knee.",
         "targets_outcome": "Half Guard/Top"
       },
       {
-        "counter": "Opponent secures a deep underhook on the near side",
+        "counter": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
         "effectiveness": "High",
-        "your_response": "If they get the underhook before you establish the weave, abandon this pass and address the underhook first. Use a whizzer to control their arm, switch your passing direction to the opposite side, or transition to a different passing approach. Never force the weave against a deep underhook as it exposes you to sweeps and back takes.",
+        "your_response": "Re-check the prerequisite before continuing. Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.",
         "targets_outcome": "Half Guard/Bottom"
       },
       {
-        "counter": "Opponent shrimps away repeatedly as you thread the leg",
+        "counter": "Move the hips and pummel the knee back between the bodies while the weave is still loose.",
         "effectiveness": "Medium",
-        "your_response": "Follow their hip movement while maintaining pressure with your entire body, not just your legs. Each time they shrimp, advance your position slightly and reset your crossface and hip control. The key is moving your whole body forward as a unit rather than chasing with just your legs.",
+        "your_response": "Re-check the prerequisite before continuing. Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.",
         "targets_outcome": "Half Guard/Top"
       },
       {
-        "counter": "Opponent inserts knee shield before weave is completed",
+        "counter": "Prevent the passer from flattening your shoulders while controlling the legs.",
         "effectiveness": "High",
-        "your_response": "If the knee shield is inserted early, switch to the knee shield leg weave variation. Use your crossface-side hand to push their knee down toward their bottom leg, then re-initiate the threading sequence. Alternatively, abandon the weave and chain to a smash pass or long step pass that addresses the knee shield directly.",
+        "your_response": "Re-check the prerequisite before continuing. Move the hips and feet without collapsing all weight over the woven arm.",
         "targets_outcome": "Half Guard/Top"
       },
       {
-        "counter": "Opponent rolls for a leg lock as you establish the weave",
+        "counter": "An underhook can help you face the passer and rebuild half guard when the shoulder line is not already pinned.",
         "effectiveness": "Low",
-        "your_response": "Your weaved leg position provides excellent defense against most leg attack attempts from bottom half guard because the weave creates a natural entanglement that protects your knee line. Maintain heavy top pressure and keep your leg woven. If they commit to rolling, follow their rotation and establish a more dominant position or take the back.",
+        "your_response": "Re-check the prerequisite before continuing. Remove the remaining foot or half-guard hook before establishing side control.",
         "targets_outcome": "Side Control/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "Threading the leg too high or at the wrong angle",
-        "consequence": "The opponent can easily escape their legs from underneath your weave, or they can insert a knee shield and recover their guard retention structure",
-        "correction": "Thread your leg with the shin moving across their thigh, not their knee. The weave should trap both their legs beneath your shin, creating maximum control. Practice the angle of entry slowly until the correct trajectory becomes natural."
+        "error": "Skipping the checkpoint: weave the arm",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Thread the arm through the available leg gap and connect to the lower thigh or knee.",
+        "correction": "Thread the arm through the available leg gap and connect to the lower thigh or knee."
       },
       {
-        "error": "Insufficient upper body pressure while establishing the weave",
-        "consequence": "The opponent creates frames and shrimps away before you can complete the weave configuration, returning to neutral half guard",
-        "correction": "Your chest and shoulder pressure must remain constant throughout the entire sequence. Think of making yourself as heavy as possible, with all your weight distributed through your upper body onto their chest and face. Your hands should be light - weight goes through your torso."
+        "error": "Skipping the checkpoint: manage the knee shield",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.",
+        "correction": "Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint."
       },
       {
-        "error": "Attempting to extract the trapped leg too early",
-        "consequence": "The opponent re-grips the leg and returns to half guard, negating all your passing progress",
-        "correction": "Be patient. Only extract your trapped leg after the opponent's legs are completely flattened and controlled by your weave. If you can still feel any resistance from their legs, the weave is not yet complete and you should continue driving their knees to the mat."
+        "error": "Skipping the checkpoint: keep the elbow protected",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.",
+        "correction": "Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura."
       },
       {
-        "error": "Losing far hip control during the weave",
-        "consequence": "The opponent turns into you, recovers guard, or creates angles that lead to sweeps and back take entries",
-        "correction": "Maintain constant connection to the far hip throughout the entire pass. This grip should feel like a tether that prevents them from creating any angular movement away from you. If the grip slips, re-establish it immediately before continuing."
+        "error": "Skipping the checkpoint: maintain an outside base",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Move the hips and feet without collapsing all weight over the woven arm.",
+        "correction": "Move the hips and feet without collapsing all weight over the woven arm."
       },
       {
-        "error": "Raising the hips too high during execution",
-        "consequence": "The opponent inserts a knee shield or creates enough space to escape the weave configuration entirely",
-        "correction": "Keep your hips low and driving forward throughout the pass. Your hip height should never rise above the level of their hips. Low hips equal good pressure and control - if you need to adjust, do so by sliding rather than lifting."
-      },
-      {
-        "error": "Using only the legs to chase the opponent instead of moving the whole body",
-        "consequence": "Creates a disconnect between upper and lower body pressure, giving the opponent windows to escape or re-guard as your weight shifts backward",
-        "correction": "Move your entire body as a unit when following the opponent's hip movement. Your chest, hips, and legs should advance together so that you maintain the same pressure relationship throughout the passing sequence."
-      },
-      {
-        "error": "Failing to clear the knee shield before attempting the weave",
-        "consequence": "The shin blocks your leg from threading through, stalling the pass and allowing the opponent to solidify their defensive structure",
-        "correction": "Address the knee shield first by pushing it down with your free hand or transitioning to the knee shield leg weave variation. Never attempt to thread your leg over an active knee shield - it must be neutralized before the weave can begin."
+        "error": "Skipping the checkpoint: clear the legs before settling",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Remove the remaining foot or half-guard hook before establishing side control.",
+        "correction": "Remove the remaining foot or half-guard hook before establishing side control."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2: Fundamental Mechanics",
-        "focus": "Learning the leg threading motion and weave configuration",
-        "description": "Practice the basic leg weaving motion with a cooperative partner who maintains static half guard. Focus exclusively on the threading motion without worrying about pressure or completing the pass. The goal is to develop muscle memory for the weaving pattern and understand the correct angle of entry. Perform 20-30 repetitions per training session, alternating sides."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on weave the arm. Thread the arm through the available leg gap and connect to the lower thigh or knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 3-4: Pressure Integration",
-        "focus": "Adding crossface pressure and hip control while maintaining the weave",
-        "description": "Continue practicing the weave motion, but now add the crossface control and far hip grip. Partner should remain mostly cooperative but can provide light resistance by attempting to frame or shrimp. Focus on maintaining constant pressure throughout the weaving process. Practice transitioning from the established weave to leg extraction. Perform 15-20 repetitions with emphasis on pressure consistency."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on manage the knee shield. Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 5-8: Dynamic Application",
-        "focus": "Executing the pass against moderate resistance and defensive reactions",
-        "description": "Partner should now actively defend using common half guard retention strategies such as underhooks, frames, and shrimping. Practice recognizing when the pass is available versus when you need to address defensive frames first. Begin chaining the leg weave with other half guard passes based on opponent reactions. Include 10-15 live repetitions where partner provides 50-70% resistance."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on keep the elbow protected. Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 9-12: Pass Chaining",
-        "focus": "Integrating the leg weave into multi-pass sequences and recognizing bail-out points",
-        "description": "Develop automatic responses to common defensive reactions. When the opponent blocks the weave with a knee shield, transition to smash pass. When they underhook, switch to the opposite side. When they shrimp to deep half, backstep. Build a decision tree through repetition so that the leg weave becomes one option in a flowing passing chain rather than an isolated technique."
-      },
-      {
-        "phase": "Week 13+: Competition Integration",
-        "focus": "Applying the technique in live rolling and competition scenarios",
-        "description": "Incorporate the leg weave pass into your regular passing game during live training. Practice recognizing the optimal moments to initiate the weave based on opponent positioning and reactions. Develop sensitivity for when to abandon the pass and transition to alternatives. Track success rates and identify patterns in failures to refine technique. Test against different body types and half guard styles."
+        "phase": "Phase 4",
+        "focus": "Link only verified checkpoints",
+        "description": "Work cooperatively on maintain an outside base. Move the hips and feet without collapsing all weight over the woven arm. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "flashcards": [
       {
-        "question": "In the leg weave pass, why thread your leg through your opponent's guard?",
-        "answer": "The primary purpose is to create a configuration that traps and immobilizes the opponent's legs beneath your shin, preventing them from using their legs to create frames, shrimp away, or recover guard. This transfers leg control responsibility from your trapped leg to your weaved leg, allowing you to extract the trapped leg without the opponent being able to re-engage their half guard.",
-        "answer_line": "Trap their legs under your shin",
+        "question": "Leg Weave Pass (top): What is the defining weaving connection?",
+        "answer": "Thread the arm through the available leg gap and connect to the lower thigh or knee.",
+        "answer_line": "Arm through legs to lower thigh/knee",
         "distractors": {
           "plausible": [
-            "Free your trapped leg first",
-            "Set up an ankle lock"
+            "Arm outside knees without threading",
+            "Both arms under thighs, knees apart"
           ],
           "trap": [
-            "Let go of hip control to weave"
+            "Palm on shin, lower knee unconnected"
           ]
         }
       },
       {
-        "question": "Why is maintaining constant pressure on the far hip critical throughout the leg weave pass?",
-        "answer": "Controlling the far hip prevents the opponent from turning into you or creating angular movement that would allow them to escape. Without this grip, they can bridge away from the weave or turn to face you, accessing better defensive positions like deep half guard or recovering full guard. The hip control acts as a tether that keeps them flat and unable to generate effective angles for escape.",
-        "answer_line": "Stops them turning or bridging away",
+        "question": "Leg Weave Pass (top): How should you fold a supported knee shield?",
+        "answer": "Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.",
+        "answer_line": "Fold knees with chest/shoulder load",
         "distractors": {
           "plausible": [
-            "Keeps crossface tight",
-            "Controls their far arm"
+            "Press shin, lower knee drifts away",
+            "Pull upper knee away from lower leg"
           ],
           "trap": [
-            "Free hip grip to switch angle"
+            "Chest past top knee, lower leg free"
           ]
         }
       },
       {
-        "question": "When should you extract your trapped leg during the leg weave pass sequence?",
-        "answer": "You should only extract your trapped leg after the opponent's legs are completely flattened to the mat and controlled by your weaved leg. The key indicator is that you feel no resistance from their legs - they should be pinned and immobile. Attempting to extract too early allows the opponent to re-grip your leg and return to half guard. Patience in this phase is the single most important factor for pass completion.",
-        "answer_line": "Only once their legs go limp",
+        "question": "Leg Weave Pass (top): What makes the weaving arm vulnerable to a kimura?",
+        "answer": "Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.",
+        "answer_line": "Long reach exposing wrist and elbow",
         "distractors": {
           "plausible": [
-            "As soon as weave starts",
-            "Right after crossface lands"
+            "Elbow connected, feet support motion",
+            "Release blocked weave to reset"
           ],
           "trap": [
-            "Extract immediately to save time"
+            "Elbow bent at ribs, wrist protected"
           ]
         }
       },
       {
-        "question": "They set a strong knee shield as you start the leg weave: how do you adjust?",
-        "answer": "Switch to the knee shield leg weave variation. Use your crossface-side hand to control their knee shield knee and push it downward toward their bottom leg, collapsing their defensive frame. Once the knee shield is neutralized and their legs are stacked, thread your leg through in the standard manner. Alternatively, if the knee shield is too strong to collapse, transition to a smash pass or long step pass that addresses the frame differently.",
-        "answer_line": "Collapse knee shield, then weave",
+        "question": "Leg Weave Pass (top): How do you retain balance while circling the leg frame?",
+        "answer": "Move the hips and feet without collapsing all weight over the woven arm.",
+        "answer_line": "Move hips/feet on an outside base",
         "distractors": {
           "plausible": [
-            "Force the weave through shield",
-            "Switch sides and re-crossface"
+            "Lean all weight over threaded wrist",
+            "Feet together, reach farther"
           ],
           "trap": [
-            "Drop crossface to reach knee"
+            "Knees stay back, shoulders circle"
           ]
         }
       },
       {
-        "question": "What is the most critical upper body grip for the leg weave pass and why?",
-        "answer": "The crossface is the most critical upper body grip because it controls the opponent's head position and prevents them from turning into you, which is the primary defensive movement that defeats the pass. The crossface also creates uncomfortable shoulder pressure that flattens the opponent and limits their ability to create defensive frames. Without an effective crossface, the opponent can turn to their side, establish an underhook, and sweep or take the back.",
-        "answer_line": "Crossface controls head, stops turn",
+        "question": "Leg Weave Pass (top): Which remaining leg connection blocks completion?",
+        "answer": "Remove the remaining foot or half-guard hook before establishing side control.",
+        "answer_line": "Foot or half-guard hook holds leg",
         "distractors": {
           "plausible": [
-            "Underhook stops their frames",
-            "Collar grip flattens hips"
+            "Loose shin beside thigh, no hook",
+            "Foot on mat after ankle clearance"
           ],
           "trap": [
-            "Release crossface, grab far wrist"
+            "Knees folded away, lower leg free"
           ]
         }
       },
       {
-        "question": "What direction of force should your weaved leg apply when driving the opponent's knees to the mat?",
-        "answer": "The force should be directed downward and slightly away from you, using your shin as a lever across both of the opponent's thighs. The direction combines your hip weight driving forward with the mechanical advantage of your shin pressing their legs flat. The key is that the force is not just downward but also forward, pinning their legs in a direction that prevents them from bending their knees or creating any space between their thighs and the mat.",
-        "answer_line": "Down and forward, pin with shin",
+        "question": "Leg Weave Pass (top): The bottom player turns and inserts a frame. What is useful?",
+        "answer": "If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle.",
+        "answer_line": "Track hips; reset angle and distance",
         "distractors": {
           "plausible": [
-            "Straight down only",
-            "Backward toward your own hips"
+            "Drive unchanged into blocking knee",
+            "Keep hip angle, extend weave elbow"
           ],
           "trap": [
-            "Sideways to sweep their legs out"
+            "Reach neck, release all hip control"
           ]
         }
       },
       {
-        "question": "How should you respond if the opponent secures a deep underhook before you complete the weave?",
-        "answer": "Abandon the leg weave pass and address the underhook first. A deep underhook gives the opponent too much control and leverage to effectively fight the weave - they can generate sweeps, take the back, or transition to dogfight position. Apply a whizzer to control their underhook, switch your passing direction to the opposite side, or transition to a completely different approach such as a kimura trap from the whizzer position.",
-        "answer_line": "Whizzer the underhook first",
+        "question": "Leg Weave Pass (top): Which starting guard presents the relevant leg frame?",
+        "answer": "The top passer begins in Half Guard, facing a knee shield or linked leg frame.",
+        "answer_line": "Top half guard facing a knee shield",
         "distractors": {
           "plausible": [
-            "Speed up the leg weave",
-            "Switch to a different pass"
+            "Top in closed guard, ankles crossed",
+            "Seated shield, opponent standing"
           ],
           "trap": [
-            "Push through and finish weave"
+            "Bottom half guard, knee framing them"
           ]
         }
       },
       {
-        "question": "They shrimp hard as you thread your leg for the weave: what's the common mistake?",
-        "answer": "The common mistake is chasing the opponent's hips with only your legs while your upper body stays behind, creating a disconnect between upper and lower body pressure. This gives the opponent windows to create frames and recover guard. The correct response is to follow their hip movement with your entire body as a unit - chest, hips, and legs advance together so that the pressure relationship remains constant. Each time they shrimp, you advance your whole body slightly forward.",
-        "answer_line": "Chasing hips with legs only",
+        "question": "Leg Weave Pass (top): Why is a crossface alone not this pass?",
+        "answer": "The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared.",
+        "answer_line": "No arm weave or leg-hook clearance",
         "distractors": {
           "plausible": [
-            "Following with crossface only",
-            "Loosening the weave grip"
+            "Shoulder turn threads arm by itself",
+            "Head rotation frees trapped ankle"
           ],
           "trap": [
-            "Stop advancing and reset base"
+            "Pinned shoulders replace knee fold"
           ]
         }
       },
       {
-        "question": "What chain attacks are available if the opponent defends the leg weave by turning into you?",
-        "answer": "When the opponent turns into you during the leg weave, they expose their neck and far arm, creating opportunities for darce choke entries if their arm is inside, or arm triangle setups if you can capture their head and arm together. The turning motion also opens back take opportunities if you can follow their rotation and establish hooks. Additionally, if they turn aggressively enough to get to their knees, you can transition to a front headlock position for guillotine or anaconda choke threats.",
-        "answer_line": "Darce, arm triangle, back take",
+        "question": "Leg Weave Pass (top): Your foot is fixed in the last hook. What precedes circling harder?",
+        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+        "answer_line": "Free restraint before turning leg",
         "distractors": {
           "plausible": [
-            "Kimura from the crossface side",
-            "Straight armbar from the top"
+            "Turn knee with ankle still trapped",
+            "Hips past hook, ankle left behind"
           ],
           "trap": [
-            "Release crossface to chase neck"
+            "Drop weave, turn caught leg outward"
           ]
         }
       },
       {
-        "question": "What are the conditions that must exist before you can initiate the leg weave from half guard top?",
-        "answer": "Four conditions must exist: first, you need established upper body control through either a crossface or underhook to prevent the opponent from turning; second, your inside leg must be positioned close to the opponent's bottom leg with a clear threading path; third, the opponent's knee shield must be cleared or controlled so it does not obstruct the weave; and fourth, your hips must be low enough that the opponent cannot recover full guard during the threading motion. Missing any of these prerequisites will result in a stalled or failed pass attempt.",
-        "answer_line": "Crossface, low hips, clear shield",
+        "question": "Leg Weave Pass (top): What should an entry drill verify before circling?",
+        "answer": "Pause with the arm correctly threaded and the feet supporting balance before beginning the pass movement.",
+        "answer_line": "Arm joins knees with supported base",
         "distractors": {
           "plausible": [
-            "Underhook and high hips",
-            "Far hip grip and knee on belly"
+            "Their shoulders already fully pinned",
+            "Weaving elbow bears all your weight"
           ],
           "trap": [
-            "Start weave before clearing shield"
+            "Chest pressure, weaving arm outside"
           ]
         }
       },
       {
-        "question": "What are the key differences between the standard leg weave and the lockdown counter variation?",
-        "answer": "The lockdown counter variation uses the same leg threading mechanics but serves a dual purpose: it both breaks the opponent's lockdown structure and establishes the passing position simultaneously. In the standard version, you thread through an open half guard configuration where the legs offer moderate resistance. In the lockdown counter, you thread through the opponent's locked ankles, requiring more deliberate force and slightly different positioning to break through their ankle connection. The lockdown version begins as a defensive counter but transitions to the same offensive passing configuration.",
-        "answer_line": "Breaks lockdown, same finish",
+        "question": "Leg Weave Pass (top): After clearing the legs, what replaces the folded-knee control?",
+        "answer": "Once the knee line and last hook clear, transfer to supported shoulder and hip control for side control.",
+        "answer_line": "Head-and-hip control in the side pin",
         "distractors": {
           "plausible": [
-            "Uses more speed, less pressure",
-            "Starts from mount, not half guard"
+            "Old knee grip, shoulders remain free",
+            "Crossface without a new hip barrier"
           ],
           "trap": [
-            "Ignore the lockdown and force pass"
+            "Hip block, chest off shoulder line"
           ]
         }
       }
     ],
-    "safety_considerations": "When practicing the leg weave pass, maintain control of your weight distribution to avoid placing excessive pressure on the opponent's neck or spine. The crossface should create control without cranking the neck laterally. When your partner is defending, be aware that attempting to forcefully extract your trapped leg before proper control is established can lead to knee strain for both practitioners. Communication is essential during drilling - the bottom person should tap if they feel uncomfortable pressure on their neck or if they cannot breathe properly. When threading the leg through, move deliberately rather than explosively to avoid accidentally kicking or kneeing your partner. In competition or advanced training, be aware that aggressive bridging attempts from bottom can create injury risk if you're not properly based, so maintain wide base and low hips throughout.",
+    "safety_considerations": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
     "clips": [
       {
         "id": "kQrTYXOO1To",
@@ -427,227 +368,194 @@
   },
   "defender": {
     "name": "Leg Weave Pass Defender",
-    "description": "How to defend the Leg Weave Pass in BJJ. Recognition cues, defensive options, and escape strategies from bottom half guard.",
-    "overview": "Defending the leg weave pass requires early recognition and proactive prevention, because once the weave is fully established with your legs pinned flat, escape becomes extremely difficult. The defender's primary objective is to identify the threading attempt before it is completed and use hip movement, frames, and underhook control to disrupt the passing sequence at its earliest stages. Understanding the three critical windows of opportunity - before the thread begins, during the threading motion, and after the weave is established - allows the bottom player to apply the correct defensive response at each stage rather than wasting energy on low-percentage escapes.\n\nThe most effective defensive strategy against the leg weave is prevention through active half guard play. Maintaining a strong knee shield prevents the passer from establishing the threading angle, while fighting for the underhook creates enough offensive pressure that the passer cannot commit to the weave without risking a sweep. If the weave does begin, explosive hip movement during the threading phase offers the best chance to disrupt the configuration before the legs are pinned. Once the weave is complete and the legs are flat, the defender must shift to survival mode, protecting the neck and arms while working for incremental space creation through bridging and framing to eventually re-establish a half guard position.",
+    "description": "Leg Weave Pass (defender): The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip. Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
+    "overview": "The top passer begins in Half Guard, facing a knee shield or linked leg frame. The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared.\n\nThe passer's arm connecting your legs is the relevant control, not a leg threaded across your hip. Maintain a useful knee angle and upper-body frame before the passer folds the legs together. Move the hips and pummel the knee back between the bodies while the weave is still loose.\n\nPrevent the passer from flattening your shoulders while controlling the legs. An underhook can help you face the passer and rebuild half guard when the shoulder line is not already pinned. Do not wrench a knee out of a fixed weave; create room with the hips and frames first.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nUse the upper-body frame and a small hip escape before the shield is fully folded. If the available underhook lets you rise toward dogfight, keep your elbow and hips connected against the passer's overhook; that response is a new upper-body exchange after loosening the weave.",
     "key_principles": [
-      "Prevent the weave from starting by maintaining an active knee shield that blocks the threading angle and forces the passer to deal with the frame first",
-      "Fight aggressively for the underhook on the trapped-leg side to create offensive threats that make the passer unable to commit to the weave",
-      "Stay on your side rather than flat on your back - being flat allows the passer to establish the crossface and begin threading with minimal resistance",
-      "React immediately to the threading motion with explosive hip escape in the opposite direction to create space before the weave locks in",
-      "If the weave is established, do not waste energy trying to power out of the pin - work incrementally through bridging and framing to create small spaces",
-      "Protect your neck and far arm throughout the defense, as the heavy pressure of the weave pass creates significant submission vulnerability",
-      "Use the transition moment when the passer extracts their trapped leg as a final window to re-engage half guard or recover knee shield"
+      "Recognize the arm weave: The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.",
+      "Keep the shield supported: Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
+      "Recover inside space: Move the hips and pummel the knee back between the bodies while the weave is still loose.",
+      "Deny upper-body collapse: Prevent the passer from flattening your shoulders while controlling the legs.",
+      "Use an available underhook: An underhook can help you face the passer and rebuild half guard when the shoulder line is not already pinned.",
+      "Move the whole leg: Do not wrench a knee out of a fixed weave; create room with the hips and frames first."
     ],
     "recognition_cues": [
-      "Opponent shifts their inside knee upward and begins angling it over your bottom thigh while maintaining heavy crossface pressure - this is the initial threading motion",
-      "Opponent's far hand grips your far hip tightly while their upper body weight increases dramatically through the crossface, indicating they are anchoring for the weave",
-      "You feel your legs being driven together and downward as the opponent's shin slides across your thighs, progressively reducing your ability to create space with your hips",
-      "Opponent's inside leg lifts off the mat and begins moving laterally across your legs rather than staying between them - this distinguishes the weave from a standard half guard passing attempt"
+      "The top passer begins in Half Guard, facing a knee shield or linked leg frame.",
+      "Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.",
+      "Move the hips and feet without collapsing all weight over the woven arm."
     ],
     "defensive_options": [
       {
-        "action": "Establish and maintain knee shield before the weave begins",
-        "when_to_use": "Proactively when you feel the opponent beginning to settle heavy crossface pressure in half guard top - this is the preventive measure before any threading attempt",
+        "action": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Half Guard/Top",
-        "if_successful": "The knee shield blocks the threading angle entirely, forcing the passer to address the frame first and abandoning the leg weave in favor of a different pass",
-        "risk": "If the passer collapses the knee shield with their free hand before you can solidify it, you may end up flattened with less defensive structure than before"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Explosive hip escape during the threading phase",
-        "when_to_use": "The moment you feel the opponent's knee lifting and beginning to cross over your bottom leg - this narrow timing window is your highest-percentage escape opportunity",
+        "action": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Half Guard/Top",
-        "if_successful": "Your hip movement creates enough distance that the opponent's leg cannot complete the weave, allowing you to re-establish frames and return to active half guard",
-        "risk": "If timed too late, the hip escape is ineffective because the weave is already controlling your legs, and the energy expenditure weakens your subsequent escape attempts"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Fight for underhook and initiate sweep threat",
-        "when_to_use": "When you have inside position with your near arm and the opponent has not yet established the crossface - use this as an offensive defense that makes the weave too risky for the passer",
+        "action": "Move the hips and pummel the knee back between the bodies while the weave is still loose.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "The underhook and sweep threat force the passer to abandon the weave to defend the sweep, allowing you to dictate the positional exchange",
-        "risk": "If the opponent counters with a whizzer and maintains top pressure, you may end up in a worse position with your arm trapped"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Bridge and frame during leg extraction phase",
-        "when_to_use": "After the weave is established but when the passer begins extracting their trapped leg - this is the final defensive window before they complete the pass to side control",
+        "action": "Prevent the passer from flattening your shoulders while controlling the legs.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Half Guard/Top",
-        "if_successful": "Your bridge creates enough space to re-engage your legs around the passer's extracting leg, re-establishing half guard and resetting the passing sequence",
-        "risk": "If the bridge is insufficient, the passer completes the extraction and establishes side control with you already bridged and potentially off-balance"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
         "outcome": "Half Guard/Top",
-        "how": "Disrupt the weave during the threading phase with an explosive hip escape, then re-establish your knee shield or underhook position to return to an active half guard where you can threaten sweeps. Alternatively, bridge during the leg extraction phase to re-engage your legs around the passer's leg before they complete the pass."
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip."
       },
       {
         "outcome": "Half Guard/Bottom",
-        "how": "Win the underhook battle before the weave begins and use it to generate sweep threats that force the passer to abandon the weave. From the underhook position, execute a standard half guard sweep such as the old school sweep or underhook sweep to reverse the position entirely."
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Maintain a useful knee angle and upper-body frame before the passer folds the legs together."
       }
     ],
     "common_errors": [
       {
-        "error": "Remaining flat on the back without creating any frames or knee shield when the passer begins to settle",
-        "consequence": "The passer establishes the crossface and far hip grip unopposed, then threads the weave with minimal resistance, making escape nearly impossible once the legs are pinned",
-        "correction": "Immediately turn to your side and establish a knee shield or forearm frames the moment the passer begins settling in half guard top. Being proactive with your defensive structure is far more effective than reactive escaping."
+        "error": "Skipping the checkpoint: recognize the arm weave",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.",
+        "correction": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip."
       },
       {
-        "error": "Attempting to power out of a fully established weave by pushing against the passer's chest",
-        "consequence": "Wastes energy rapidly because the weave creates enormous leverage advantage for the passer, and extended arms become vulnerable to kimura and americana attacks",
-        "correction": "Once the weave is locked in with your legs flat, shift to incremental escape. Bridge to create small spaces, insert frames against their hips rather than chest, and work to create enough room to re-insert a knee between your bodies. Conservation of energy is critical in this phase."
+        "error": "Skipping the checkpoint: keep the shield supported",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
+        "correction": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together."
       },
       {
-        "error": "Neglecting the underhook battle and focusing only on leg defense",
-        "consequence": "Without the underhook, you have no offensive threats to discourage the passer from committing to the weave, and you lose the primary tool for generating sweeps from half guard bottom",
-        "correction": "Prioritize winning the underhook battle on the trapped-leg side. The underhook is both your best defense (it prevents the passer from establishing the crossface) and your best offense (it enables sweeps that punish weave attempts). Fight for it as aggressively as you would fight a submission grip."
-      },
-      {
-        "error": "Waiting too long to react to the threading motion and missing the critical escape window",
-        "consequence": "The weave locks in fully with your legs pinned flat, and from this position the success rate for escaping drops dramatically compared to disrupting the weave during its setup",
-        "correction": "React to the first sign of threading - the opponent's inside knee lifting upward and angling over your bottom thigh. This is the moment for your explosive hip escape. Training recognition drills specifically for this cue will sharpen your reaction time."
-      },
-      {
-        "error": "Turning away from the passer during escape attempts",
-        "consequence": "Exposes your back and gives the passer easy access to back control transitions, turning a bad position into a critical one",
-        "correction": "Always face the passer during defensive movement. If you need to create distance, shrimp your hips away while maintaining your chest and head facing toward the opponent. Turning away should only be a deliberate choice to recover turtle position as a last resort."
+        "error": "Skipping the checkpoint: recover inside space",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Move the hips and pummel the knee back between the bodies while the weave is still loose.",
+        "correction": "Move the hips and pummel the knee back between the bodies while the weave is still loose."
       }
     ],
     "flashcards": [
       {
-        "question": "What is the most critical timing window for defending the leg weave pass?",
-        "answer": "The most critical timing window is during the threading phase, when the opponent's inside knee begins lifting and crossing over your bottom thigh. This is before the weave is fully locked in, and an explosive hip escape at this moment can create enough distance to prevent the weave from completing. Once the opponent's shin is fully across both of your thighs and your legs are pinned flat, escape becomes significantly more difficult and energy-intensive.",
-        "answer_line": "Hip escape as knee starts crossing",
+        "question": "Leg Weave Pass (bottom): What is the control you must recognize between your legs?",
+        "answer": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.",
+        "answer_line": "Passer's woven arm links your knees",
         "distractors": {
           "plausible": [
-            "Once shin is fully across thighs",
-            "Right when crossface lands"
+            "Palm on upper shin, lower leg apart",
+            "Two forearms scooping under thighs"
           ],
           "trap": [
-            "Wait for the weave to lock in fully"
+            "Arm outside knees, not between them"
           ]
         }
       },
       {
-        "question": "Why is the knee shield the most effective preventive defense against the leg weave?",
-        "answer": "The knee shield blocks the threading angle entirely by placing your shin across the opponent's torso, creating a frame that prevents them from driving their inside knee over your bottom thigh. Without a clear threading path, the passer cannot initiate the weave and must first address the knee shield, which requires a different passing approach. This makes the knee shield a complete shutdown of the leg weave rather than merely a response to it.",
-        "answer_line": "Blocks the threading angle entirely",
+        "question": "Leg Weave Pass (bottom): What helps the knee shield resist folding?",
+        "answer": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
+        "answer_line": "Knee angle with an upper-body frame",
         "distractors": {
           "plausible": [
-            "Slows the crossface grip",
-            "Creates space to bridge out"
+            "Isolated knee, both shoulders flat",
+            "Knee upright, hands at far ankle"
           ],
           "trap": [
-            "Push knee into chest, then bridge"
+            "Shoulder frame after knees fold"
           ]
         }
       },
       {
-        "question": "What defensive options remain once the leg weave is fully established with your legs pinned flat?",
-        "answer": "Once the weave is fully established, your options narrow significantly. The primary remaining opportunity is during the leg extraction phase - when the passer attempts to free their trapped leg, bridge into them and try to re-engage your legs around their extracting leg to re-establish half guard. You can also work incremental frames against their hips while bridging to create small amounts of space. The key is patience and energy conservation rather than explosive escape attempts, which will fail against the mechanical advantage of the completed weave.",
-        "answer_line": "Re-engage legs during extraction",
+        "question": "Leg Weave Pass (bottom): When the connection is still loose, how do you recover guard space?",
+        "answer": "Move the hips and pummel the knee back between the bodies while the weave is still loose.",
+        "answer_line": "Frame, shrimp and bring knee inside",
         "distractors": {
           "plausible": [
-            "Explosive bridge to escape now",
-            "Fight the crossface immediately"
+            "Stay flat, pull only their wrist",
+            "Reach over back, knees point away"
           ],
           "trap": [
-            "Force an explosive escape attempt"
+            "Lift shield with hips still pinned"
           ]
         }
       },
       {
-        "question": "How does winning the underhook battle serve as a defense against the leg weave?",
-        "answer": "The underhook serves dual defensive functions. First, it physically prevents the passer from establishing the crossface, which is a prerequisite for the leg weave because without the crossface they cannot generate sufficient top pressure to execute the threading motion safely. Second, the underhook creates offensive sweep threats that punish the passer for attempting the weave, since the weave requires committing their inside leg which temporarily compromises their base. The passer must choose between addressing your underhook and initiating their weave, and they cannot safely do both.",
-        "answer_line": "Blocks crossface, threatens sweep",
+        "question": "Leg Weave Pass (bottom): What upper-body change makes the leg control harder to escape?",
+        "answer": "Prevent the passer from flattening your shoulders while controlling the legs.",
+        "answer_line": "Shoulders flattened under the passer",
         "distractors": {
           "plausible": [
-            "Stops the leg threading directly",
-            "Protects your neck from chokes"
+            "Shoulder frame preserves turn space",
+            "Near elbow meets returning knee"
           ],
           "trap": [
-            "Release underhook to frame hips"
+            "Hips shift as frame holds distance"
           ]
         }
       },
       {
-        "question": "What submission threats should you be aware of while defending the leg weave pass?",
-        "answer": "The heavy pressure of the leg weave pass creates vulnerability to several submissions. The crossface pressure can set up arm triangle chokes if your far arm crosses your own neck while defending. Extended arms pushing against the passer's chest are vulnerable to kimura and americana attacks. If you turn away from the passer, you expose your back to choke threats. Throughout your defense, keep your elbows tight to your body, protect your neck by keeping your chin tucked, and never extend your arms without a specific purpose.",
-        "answer_line": "Arm triangle, kimura, back exposure",
+        "question": "Leg Weave Pass (bottom): If an underhook opens a sit-up, what must stay connected?",
+        "answer": "Use the available underhook while the shoulder is free, keeping a stable facing base against an overhook response.",
+        "answer_line": "Underhook arm and hip face passer",
         "distractors": {
           "plausible": [
-            "Guillotine and ankle lock only",
-            "Only worry about the crossface choke"
+            "Wrist behind you, elbow pulled away",
+            "Shoulders turn away, knee pinned"
           ],
           "trap": [
-            "Extend arms to frame and push away"
+            "Elbow above shoulder, hips move away"
           ]
         }
       }
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2: Recognition and Prevention",
-        "focus": "Learning to identify the leg weave setup and establishing preventive frames",
-        "description": "Partner initiates leg weave pass at 30% speed and intensity. Focus on recognizing the threading motion and immediately establishing knee shield or frames. Do not attempt escapes yet - concentrate solely on identifying the setup cues and preventing the weave from beginning. 20-30 repetitions per session with partner announcing each phase."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on recognize the arm weave. The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 3-4: Timing the Hip Escape",
-        "focus": "Developing the explosive hip escape response during the threading window",
-        "description": "Partner begins the weave at moderate speed while you practice timing the hip escape to the moment the inside knee begins crossing over your thigh. Partner provides 40-50% pressure. Focus on the feeling of the correct timing window and the direction of your hip movement. Track success rate and aim for 70% disruption rate before advancing."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on keep the shield supported. Maintain a useful knee angle and upper-body frame before the passer folds the legs together. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 5-8: Full Defensive Sequences",
-        "focus": "Chaining defensive options from prevention through late-stage escape",
-        "description": "Partner executes the full leg weave pass at 60-80% intensity. Practice the complete defensive sequence: attempt knee shield prevention first, if that fails use hip escape during threading, if that fails attempt to bridge during leg extraction. Develop the ability to flow between defensive options based on the passer's progress through each phase of the weave."
-      },
-      {
-        "phase": "Week 9+: Live Application and Counter-Offense",
-        "focus": "Integrating leg weave defense into live rolling with offensive counter-attacks",
-        "description": "Apply defensive skills during live positional sparring from half guard bottom against partners who actively hunt for the leg weave. Focus on using the underhook as an offensive defense that prevents the weave while simultaneously threatening sweeps. Begin developing automatic defensive responses so that recognition and reaction happen without conscious deliberation."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on recover inside space. Move the hips and pummel the knee back between the bodies while the weave is still loose. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "clips": [
       {
         "id": "9i-U4ivd108",
-        "title": "Three step counter to the weave pass",
-        "by": "Pendergrass Academy coach",
-        "vertical": false,
+        "title": "3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC",
         "channel": "Pendergrass Academy of Martial Arts",
         "duration": 116,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up and escape",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
   "variants_and_adaptations": [
     {
-      "variant_name": "Knee Shield Leg Weave",
-      "description": "When the opponent establishes a knee shield, adapt the leg weave by first controlling the knee shield knee with your crossface-side hand, pushing it down toward their bottom leg to collapse the frame. Then thread your leg through in the standard manner. This variation requires more initial control work but is highly effective against modern knee shield retention.",
-      "when_to_use": "When opponent maintains a strong knee shield frame and you cannot immediately establish the standard weave position"
+      "variant_name": "Cooperative checkpoint drill",
+      "description": "Thread the arm through the available leg gap and connect to the lower thigh or knee. Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.",
+      "when_to_use": "Learning the control without submission pressure"
     },
     {
-      "variant_name": "Underhook Leg Weave",
-      "description": "Instead of using a crossface, establish a strong underhook on the near side while controlling the far hip. The leg weave mechanics remain the same, but the underhook provides different control dynamics and can lead to back-take opportunities if the opponent turns into you while you are establishing the weave. The underhook also provides a different pressure angle that some opponents find harder to counter.",
-      "when_to_use": "When the crossface is not available or when you want to threaten back-takes in addition to the pass"
-    },
-    {
-      "variant_name": "Lockdown Leg Weave Counter",
-      "description": "When caught in an opponent's lockdown, the leg weave can be used as a defensive counter. Thread your free leg through their lockdown configuration while maintaining heavy chest pressure. This not only neutralizes the lockdown structure by separating their ankle connection but also establishes the passing position. The weave breaks their lockdown and prevents them from executing lockdown-based sweeps.",
-      "when_to_use": "Specifically when opponent has established a lockdown on your leg in half guard"
+      "variant_name": "Response and reset drill",
+      "description": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+      "when_to_use": "Adding one early response after both partners recognize the configuration"
     }
   ],
   "conditions": [
-    "Top player has established top position in half guard with at least one upper body control point (crossface or underhook)",
-    "Opponent's knee shield has been cleared or is manageable enough to thread past",
-    "Opponent does not have a deep underhook that would make the weave unsafe",
-    "Top player's inside leg has a clear threading path between the opponent's legs"
+    "The top passer begins in Half Guard, facing a knee shield or linked leg frame.",
+    "Thread the arm through the available leg gap and connect to the lower thigh or knee.",
+    "The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared."
   ],
-  "position_integration": "The leg weave pass represents a crucial component of modern pressure passing systems, particularly effective against contemporary half guard retention strategies. This technique fits into the broader guard passing hierarchy as a specialized tool for dealing with opponents who rely heavily on leg-based defensive structures and frames. The leg weave integrates seamlessly with other half guard passing approaches, creating a cohesive passing system where you can transition between the weave, knee slice, and smash pass based on opponent reactions. When the opponent blocks the weave with a knee shield, you chain to smash pass; when they underhook, you switch sides or address with whizzer; when they shrimp to deep half, you backstep. The technique also connects to submission opportunities, as the heavy pressure and control positions during the weave can lead to kimura attacks, arm triangles, or darce chokes depending on the opponent's defensive reactions. Understanding the leg weave pass enhances your overall passing game by adding a high-percentage option specifically designed to neutralize the leg-based defensive structures prevalent in modern BJJ competition."
+  "position_integration": "The top passer begins in Half Guard, facing a knee shield or linked leg frame. The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route."
 }

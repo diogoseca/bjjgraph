@@ -432,30 +432,31 @@
     "clips": [
       {
         "id": "cUTZ4bpZVUU",
-        "title": "1-minute butterfly guard pass",
+        "title": "(1 Minute move) How to pass the butterfly guard with Phil Migliarese",
         "by": "Phil Migliarese",
         "vertical": false,
         "channel": "Balance Studios: Gracie Jiu-Jitsu & Muay Thai",
         "duration": 72,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "khanfPFPpIc",
-        "title": "Butterfly guard cartwheel pass",
+        "title": "Jiu Jitsu Fundamentals - Butterfly Guard Passing - Cartwheel Pass",
         "by": "The Base Jiu Jitsu",
         "vertical": false,
         "channel": "The Base Jiu Jitsu",
-        "duration": 88,
-        "verified": "2026-07-14"
+        "duration": 87,
+        "verified": "2026-10-19"
       },
       {
         "id": "yo6xI2LammA",
-        "title": "Passing butterfly from standing (knee slide)",
+        "title": "BJJ | Passing Butterfly Guard from Standing (knee slide pass)",
         "by": "Coach William",
         "vertical": false,
         "channel": "Coach William",
         "duration": 98,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -779,31 +780,13 @@
     ],
     "clips": [
       {
-        "id": "sJfkAL95S9k",
-        "title": "2-on-1 lift to back from butterfly",
-        "by": "Lorenz Sadychow",
-        "vertical": true,
-        "channel": "Systematic Jiu-Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_wEmnFzwFl0",
-        "title": "Butterfly sweep to crucifix",
-        "by": "Jean Jacques Machado",
+        "id": "SIyEqd4PrvI",
         "vertical": false,
+        "title": "White Belt Basics - Butterfly Guard",
         "channel": "JeanJacquesMachado",
-        "duration": 56,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Ml2YppHVvj0",
-        "title": "Marcelo Garcia push sweep at ADCC",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "ac c",
-        "duration": 11,
-        "verified": "2026-07-14"
+        "duration": 291,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1021,24 +1004,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "OQCEokRYP4c",
-      "title": "Butterfly guard highlights",
-      "by": "Forge Forward",
-      "vertical": false,
-      "channel": "Forge Forward",
-      "duration": 78,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "c8JBXJMc0Oc",
-      "title": "Marcelo Garcia butterfly sweep",
-      "by": "Marcelo Garcia",
-      "vertical": false,
-      "channel": "Butterfly The World",
-      "duration": 81,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

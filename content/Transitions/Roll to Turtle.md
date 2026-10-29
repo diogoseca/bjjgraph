@@ -46,24 +46,12 @@ description: "Learn Roll to Turtle escape in BJJ. Defensive technique from Side 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Makikomi roll from turtle",
-      "description": "Roll to Turtle film study: Makikomi roll from turtle, taught by Modesto Judo Club.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iV-agsE5AD8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iV-agsE5AD8",
-      "url": "https://www.youtube.com/watch?v=iV-agsE5AD8",
-      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Turtle position to side control",
-      "description": "Roll to Turtle film study: Turtle position to side control, taught by Rickson Gracie Jiu-Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
-      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
-      "creator": { "@type": "Person", "name": "Rickson Gracie Jiu-Jitsu Academy" },
-      "duration": "PT47S"
+      "name": "Transitioning from side control to the back when opponent turtles",
+      "description": "Roll to Turtle film study: Transitioning from side control to the back when opponent turtles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O3VaYxTRXrs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O3VaYxTRXrs",
+      "url": "https://www.youtube.com/watch?v=O3VaYxTRXrs",
+      "duration": "PT55S"
     }
   ]
 }
@@ -117,17 +105,9 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=iV-agsE5AD8)
+![](https://www.youtube.com/watch?v=O3VaYxTRXrs)
 
-<p class="clip-credit"><strong>Makikomi roll from turtle</strong> — taught by Modesto Judo Club · 0:31 · <a href="https://www.youtube.com/watch?v=iV-agsE5AD8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
-
-<p class="clip-credit"><strong>Turtle position to side control</strong> — taught by Rickson Gracie Jiu-Jitsu Academy · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Transitioning from side control to the back when opponent turtles</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=O3VaYxTRXrs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

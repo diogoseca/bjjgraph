@@ -160,24 +160,12 @@ description: "Defend against the Mount to Technical Mount transition in BJJ. Lea
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Technical mount escape out the back",
-      "description": "Mount to Technical Mount (Defender) film study: Technical mount escape out the back, taught by smallmanbjj.",
+      "name": "Technical mount escape #1 Out the back",
+      "description": "Mount to Technical Mount (Defender) film study: Technical mount escape #1 Out the back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NHrpJdU8wCQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NHrpJdU8wCQ",
       "url": "https://www.youtube.com/watch?v=NHrpJdU8wCQ",
-      "creator": { "@type": "Person", "name": "smallmanbjj" },
-      "duration": "PT58S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Mount escape when you are stuck",
-      "description": "Mount to Technical Mount (Defender) film study: Mount escape when you are stuck, taught by Gabriel Gonzaga.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
-      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
-      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
-      "duration": "PT93S"
+      "duration": "PT57S"
     }
   ]
 }
@@ -207,15 +195,7 @@ Defending the Mount to Technical Mount transition requires recognizing the attac
 
 ![](https://www.youtube.com/watch?v=NHrpJdU8wCQ)
 
-<p class="clip-credit"><strong>Technical mount escape out the back</strong> — taught by smallmanbjj · 0:58 · <a href="https://www.youtube.com/watch?v=NHrpJdU8wCQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9252EvCT0q4)
-
-<p class="clip-credit"><strong>Mount escape when you are stuck</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technical mount escape #1 Out the back</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=NHrpJdU8wCQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

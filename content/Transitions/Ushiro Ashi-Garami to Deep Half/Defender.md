@@ -150,39 +150,6 @@ description: "How to defend against Ushiro Ashi-Garami to Deep Half in BJJ. Reco
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Ushiro Ashi-Garami to Deep Half (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Countering the underhook from deep half guard",
-      "description": "Ushiro Ashi-Garami to Deep Half (Defender) film study: Countering the underhook from deep half guard, taught by Jason Juatco.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L-tgJFSzbDE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L-tgJFSzbDE",
-      "url": "https://www.youtube.com/watch?v=L-tgJFSzbDE",
-      "creator": { "@type": "Person", "name": "Jason Juatco" },
-      "duration": "PT111S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Three options to defend the deep half guard",
-      "description": "Ushiro Ashi-Garami to Deep Half (Defender) film study: Three options to defend the deep half guard, taught by Six Blades Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JEDoJOZWQHY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JEDoJOZWQHY",
-      "url": "https://www.youtube.com/watch?v=JEDoJOZWQHY",
-      "creator": { "@type": "Person", "name": "Six Blades Jiu-Jitsu" },
-      "duration": "PT207S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,32 +166,6 @@ The key defensive principle is recognizing that the deep half entry happens duri
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Ushiro Ashi-Garami to Deep Half (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=L-tgJFSzbDE)
-
-<p class="clip-credit"><strong>Countering the underhook from deep half guard</strong> — taught by Jason Juatco · 1:51 · <a href="https://www.youtube.com/watch?v=L-tgJFSzbDE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JEDoJOZWQHY)
-
-<p class="clip-credit"><strong>Three options to defend the deep half guard</strong> — taught by Six Blades Jiu-Jitsu · 3:27 · <a href="https://www.youtube.com/watch?v=JEDoJOZWQHY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

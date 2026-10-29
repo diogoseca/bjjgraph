@@ -165,35 +165,12 @@ description: "Master Butterfly Hook Control Top in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending and removing butterfly hooks",
-      "description": "Butterfly Hook Control (Top) film study: Defending and removing butterfly hooks, taught by Kohbukan Sisu.",
+      "name": "Defending Butterfly Hooks",
+      "description": "Butterfly Hook Control (Top) film study: Defending Butterfly Hooks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Wgnw31_o3kk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Wgnw31_o3kk",
       "url": "https://www.youtube.com/watch?v=Wgnw31_o3kk",
-      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
       "duration": "PT58S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Removing butterfly hooks",
-      "description": "Butterfly Hook Control (Top) film study: Removing butterfly hooks, taught by SBG PDX.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xqkFPzJTspk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xqkFPzJTspk",
-      "url": "https://www.youtube.com/watch?v=xqkFPzJTspk",
-      "creator": { "@type": "Person", "name": "SBG PDX" },
-      "duration": "PT122S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing half butterfly guard",
-      "description": "Butterfly Hook Control (Top) film study: Passing half butterfly guard, taught by Morto BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LIITsrlsAaI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LIITsrlsAaI",
-      "url": "https://www.youtube.com/watch?v=LIITsrlsAaI",
-      "creator": { "@type": "Person", "name": "Morto BJJ" },
-      "duration": "PT70S"
     }
   ]
 }
@@ -225,23 +202,7 @@ Effective top play requires understanding how to distribute weight to minimize s
 
 ![](https://www.youtube.com/watch?v=Wgnw31_o3kk)
 
-<p class="clip-credit"><strong>Defending and removing butterfly hooks</strong> — taught by Kohbukan Sisu · 0:58 · <a href="https://www.youtube.com/watch?v=Wgnw31_o3kk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xqkFPzJTspk)
-
-<p class="clip-credit"><strong>Removing butterfly hooks</strong> — taught by SBG PDX · 2:02 · <a href="https://www.youtube.com/watch?v=xqkFPzJTspk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LIITsrlsAaI)
-
-<p class="clip-credit"><strong>Passing half butterfly guard</strong> — taught by Morto BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending Butterfly Hooks</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=Wgnw31_o3kk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -442,7 +403,7 @@ Start with opponent in butterfly guard with hooks established. Work to pass usin
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

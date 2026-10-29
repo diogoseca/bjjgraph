@@ -160,35 +160,22 @@ description: "How to defend against the Darce from Turtle in BJJ. Recognition cu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Darce choke defense from turtle",
-      "description": "Darce from Turtle (Defender) film study: Darce choke defense from turtle, taught by Animal BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
-      "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
-      "creator": { "@type": "Person", "name": "Animal BJJ coach" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Belly-down darce defense",
-      "description": "Darce from Turtle (Defender) film study: Belly-down darce defense, taught by JitzLive coach.",
+      "name": "Move of the Day: D\u0027arce Defense - Belly Down",
+      "description": "Darce from Turtle (Defender) film study: Move of the Day: D\u0027arce Defense - Belly Down.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cmaIzjv3QG8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cmaIzjv3QG8",
       "url": "https://www.youtube.com/watch?v=cmaIzjv3QG8",
-      "creator": { "@type": "Person", "name": "JitzLive coach" },
       "duration": "PT38S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Darce killer: shutting down the choke early",
-      "description": "Darce from Turtle (Defender) film study: Darce killer: shutting down the choke early, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rgf9QUebMWE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rgf9QUebMWE",
-      "url": "https://www.youtube.com/watch?v=rgf9QUebMWE",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT78S"
+      "position": 2,
+      "name": "Darce Choke defense",
+      "description": "Darce from Turtle (Defender) film study: Darce Choke defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
+      "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
+      "duration": "PT52S"
     }
   ]
 }
@@ -218,25 +205,17 @@ The defender must understand that the Darce works by trapping their own far-side
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=d1YBV8UTKds)
-
-<p class="clip-credit"><strong>Darce choke defense from turtle</strong> — taught by Animal BJJ coach · 0:53 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=cmaIzjv3QG8)
 
-<p class="clip-credit"><strong>Belly-down darce defense</strong> — taught by JitzLive coach · 0:38 · <a href="https://www.youtube.com/watch?v=cmaIzjv3QG8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Move of the Day: D&#39;arce Defense - Belly Down</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=cmaIzjv3QG8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rgf9QUebMWE)
+![](https://www.youtube.com/watch?v=d1YBV8UTKds)
 
-<p class="clip-credit"><strong>Darce killer: shutting down the choke early</strong> — taught by Malachy Friedman · 1:18 · <a href="https://www.youtube.com/watch?v=rgf9QUebMWE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce Choke defense</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

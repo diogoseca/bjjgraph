@@ -94,10 +94,6 @@
       "relationship": "Defensive transition available to the bottom player if they dive under during the pass"
     },
     {
-      "name": "Back Take",
-      "relationship": "Alternative transition if the defender turns away during the crossface pass attempt"
-    },
-    {
       "name": "Arm Triangle Setup",
       "relationship": "Submission threat available when defender crosses their arm across their neck during defense"
     },
@@ -366,26 +362,7 @@
       }
     ],
     "safety_considerations": "The crossface applies significant pressure to the opponent's face, jaw, and cervical spine. Position your forearm across the jawline rather than the throat to avoid tracheal compression. In training, apply pressure gradually and release immediately upon tap signals. Be aware that extreme crossface pressure combined with full body weight can create cervical spine strain, particularly for smaller training partners. Never crank the head violently - use steady, controlled pressure that turns rather than torques the neck. Monitor your partner's breathing and reduce pressure if they show signs of respiratory distress.",
-    "clips": [
-      {
-        "id": "PTe4-NhLXf8",
-        "title": "Shallow cross face detail",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 24,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gHD03vpWGSM",
-        "title": "How to create an insanely tight cross face",
-        "by": "Escapology BJJ",
-        "vertical": false,
-        "channel": "Escapology BJJ",
-        "duration": 119,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Cross Face Pass from Flattened Half Defender",
@@ -563,31 +540,12 @@
     ],
     "clips": [
       {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up and escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "I05XdrbakZQ",
-        "title": "How to Not Get Flattened, Cross-faced and Smashed in Half Guard",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 339,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "HNbYkUtICYI",
         "title": "Escaping a Flat Half Guard Situation",
-        "by": "Carpio Jiu Jitsu",
-        "vertical": false,
         "channel": "Carpio Jiu Jitsu",
         "duration": 171,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   }

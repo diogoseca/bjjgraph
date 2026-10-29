@@ -46,35 +46,22 @@ description: "Master the Gogoplata submission from Rubber Guard in BJJ. Shin-acr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to do the gogoplata from knee shield half guard",
-      "description": "Gogoplata film study: How to do the gogoplata from knee shield half guard, taught by Jamie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VbLlhI0aZC8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VbLlhI0aZC8",
-      "url": "https://www.youtube.com/watch?v=VbLlhI0aZC8",
-      "creator": { "@type": "Person", "name": "Jamie" },
-      "duration": "PT68S"
+      "name": "Gogoplata Nogi",
+      "description": "Gogoplata film study: Gogoplata Nogi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XWSofigu-zk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XWSofigu-zk",
+      "url": "https://www.youtube.com/watch?v=XWSofigu-zk",
+      "duration": "PT16S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Gogoplata from guard",
-      "description": "Gogoplata film study: Gogoplata from guard, taught by Unknown coach.",
+      "description": "Gogoplata film study: Gogoplata from guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4Opp0j7UmlU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4Opp0j7UmlU",
       "url": "https://www.youtube.com/watch?v=4Opp0j7UmlU",
-      "creator": { "@type": "Person", "name": "Unknown coach" },
       "duration": "PT21S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Gogoplata no-gi",
-      "description": "Gogoplata film study: Gogoplata no-gi, taught by Thiago Angelon.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XWSofigu-zk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XWSofigu-zk",
-      "url": "https://www.youtube.com/watch?v=XWSofigu-zk",
-      "creator": { "@type": "Person", "name": "Thiago Angelon" },
-      "duration": "PT16S"
     }
   ]
 }
@@ -130,9 +117,9 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=VbLlhI0aZC8)
+![](https://www.youtube.com/watch?v=XWSofigu-zk)
 
-<p class="clip-credit"><strong>How to do the gogoplata from knee shield half guard</strong> — taught by Jamie · 1:08 · <a href="https://www.youtube.com/watch?v=VbLlhI0aZC8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gogoplata Nogi</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=XWSofigu-zk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -140,15 +127,7 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 
 ![](https://www.youtube.com/watch?v=4Opp0j7UmlU)
 
-<p class="clip-credit"><strong>Gogoplata from guard</strong> — taught by Unknown coach · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XWSofigu-zk)
-
-<p class="clip-credit"><strong>Gogoplata no-gi</strong> — taught by Thiago Angelon · 0:16 · <a href="https://www.youtube.com/watch?v=XWSofigu-zk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gogoplata from guard</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

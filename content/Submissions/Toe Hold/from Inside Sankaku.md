@@ -46,24 +46,22 @@ description: "Master the toe hold from Inside Sankaku. Learn grip mechanics, rot
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside Sankaku Toe Hold and Heel Hook Finishes",
-      "description": "Toe Hold from Inside Sankaku film study: Inside Sankaku Toe Hold and Heel Hook Finishes, taught by Professor Buck.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lyF2GxQrLoQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lyF2GxQrLoQ",
-      "url": "https://www.youtube.com/watch?v=lyF2GxQrLoQ",
-      "creator": { "@type": "Person", "name": "Professor Buck" },
-      "duration": "PT106S"
+      "name": "411 to toe hold",
+      "description": "Toe Hold from Inside Sankaku film study: 411 to toe hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/srg8HLCGzHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/srg8HLCGzHU",
+      "url": "https://www.youtube.com/watch?v=srg8HLCGzHU",
+      "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Inside Sankaku Entries",
-      "description": "Toe Hold from Inside Sankaku film study: Inside Sankaku Entries, taught by Dynamic Martial Arts Roseburg.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Jn_JST6ZJ3o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Jn_JST6ZJ3o",
-      "url": "https://www.youtube.com/watch?v=Jn_JST6ZJ3o",
-      "creator": { "@type": "Person", "name": "Dynamic Martial Arts Roseburg" },
-      "duration": "PT138S"
+      "name": "Imanari roll to inside sankaku and ashi garami, toe hold and heel hook finishes",
+      "description": "Toe Hold from Inside Sankaku film study: Imanari roll to inside sankaku and ashi garami, toe hold and heel hook finishes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lyF2GxQrLoQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lyF2GxQrLoQ",
+      "url": "https://www.youtube.com/watch?v=lyF2GxQrLoQ",
+      "duration": "PT106S"
     }
   ]
 }
@@ -126,17 +124,17 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lyF2GxQrLoQ)
+![](https://www.youtube.com/watch?v=srg8HLCGzHU)
 
-<p class="clip-credit"><strong>Inside Sankaku Toe Hold and Heel Hook Finishes</strong> — taught by Professor Buck · 1:46 · <a href="https://www.youtube.com/watch?v=lyF2GxQrLoQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>411 to toe hold</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=srg8HLCGzHU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Jn_JST6ZJ3o)
+![](https://www.youtube.com/watch?v=lyF2GxQrLoQ)
 
-<p class="clip-credit"><strong>Inside Sankaku Entries</strong> — taught by Dynamic Martial Arts Roseburg · 2:18 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Imanari roll to inside sankaku and ashi garami, toe hold and heel hook finishes</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=lyF2GxQrLoQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

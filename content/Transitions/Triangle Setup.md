@@ -46,35 +46,12 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg triangle setup from closed guard",
-      "description": "Triangle Setup film study: Leg triangle setup from closed guard, taught by Penny Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6eK-y5_KWIk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6eK-y5_KWIk",
-      "url": "https://www.youtube.com/watch?v=6eK-y5_KWIk",
-      "creator": { "@type": "Person", "name": "Penny Thomas" },
-      "duration": "PT69S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Triangle choke setup and finish details",
-      "description": "Triangle Setup film study: Triangle choke setup and finish details, taught by Ryan Hall.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QvQ79IB4ySw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QvQ79IB4ySw",
-      "url": "https://www.youtube.com/watch?v=QvQ79IB4ySw",
-      "creator": { "@type": "Person", "name": "Ryan Hall" },
-      "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Quick closed guard triangle entry",
-      "description": "Triangle Setup film study: Quick closed guard triangle entry, taught by Ritchie Yip.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2k02hOOclCc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2k02hOOclCc",
-      "url": "https://www.youtube.com/watch?v=2k02hOOclCc",
-      "creator": { "@type": "Person", "name": "Ritchie Yip" },
-      "duration": "PT7S"
+      "name": "Basic Triangle Choke Set Up From Closed Guard",
+      "description": "Triangle Setup film study: Basic Triangle Choke Set Up From Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CEPp45IenVw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CEPp45IenVw",
+      "url": "https://www.youtube.com/watch?v=CEPp45IenVw",
+      "duration": "PT202S"
     }
   ]
 }
@@ -128,25 +105,9 @@ This technique serves as a gateway to multiple attacking options including the t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=6eK-y5_KWIk)
+![](https://www.youtube.com/watch?v=CEPp45IenVw)
 
-<p class="clip-credit"><strong>Leg triangle setup from closed guard</strong> — taught by Penny Thomas · 1:09 · <a href="https://www.youtube.com/watch?v=6eK-y5_KWIk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QvQ79IB4ySw)
-
-<p class="clip-credit"><strong>Triangle choke setup and finish details</strong> — taught by Ryan Hall · 2:42 · <a href="https://www.youtube.com/watch?v=QvQ79IB4ySw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2k02hOOclCc)
-
-<p class="clip-credit"><strong>Quick closed guard triangle entry</strong> — taught by Ritchie Yip · 0:07 · <a href="https://www.youtube.com/watch?v=2k02hOOclCc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic Triangle Choke Set Up From Closed Guard</strong> · 3:22 · <a href="https://www.youtube.com/watch?v=CEPp45IenVw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -363,12 +324,12 @@ The Triangle Setup serves as a critical attacking hub within the closed guard sy
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Triangle Setup: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ryan Hall: The Modern Triangle</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Triangle Setup: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: The Ultimate Rubber Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Triangle Setup: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Rubber Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Triangle Setup: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition reference: Triangle Setup.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Rubber Guard to Omoplata</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Triangle Setup.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard and Triangle Attacks</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

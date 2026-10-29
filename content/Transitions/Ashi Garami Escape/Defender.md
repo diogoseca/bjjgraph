@@ -152,24 +152,12 @@ description: "How to prevent and counter the Ashi Garami Escape in BJJ. Retentio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Five leglock counters to ashi garami",
-      "description": "Ashi Garami Escape (Defender) film study: Five leglock counters to ashi garami, taught by BJJBlackBeltDad.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
-      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
-      "creator": { "@type": "Person", "name": "BJJBlackBeltDad" },
-      "duration": "PT93S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escaping ashi garami \u2014 leg lock defense",
-      "description": "Ashi Garami Escape (Defender) film study: Escaping ashi garami \u2014 leg lock defense, taught by Scott Elliott.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
-      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
-      "creator": { "@type": "Person", "name": "Scott Elliott" },
-      "duration": "PT141S"
+      "name": "Understanding The Leglock Ashi Garami Control",
+      "description": "Ashi Garami Escape (Defender) film study: Understanding The Leglock Ashi Garami Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TfphXCUTdIk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TfphXCUTdIk",
+      "url": "https://www.youtube.com/watch?v=TfphXCUTdIk",
+      "duration": "PT426S"
     }
   ]
 }
@@ -199,17 +187,9 @@ Effective ashi garami retention demands active grip management, constant hip fol
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
+![](https://www.youtube.com/watch?v=TfphXCUTdIk)
 
-<p class="clip-credit"><strong>Five leglock counters to ashi garami</strong> — taught by BJJBlackBeltDad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
-
-<p class="clip-credit"><strong>Escaping ashi garami — leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understanding The Leglock Ashi Garami Control</strong> · 7:06 · <a href="https://www.youtube.com/watch?v=TfphXCUTdIk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

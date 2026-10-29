@@ -788,30 +788,18 @@
     "clips": [
       {
         "id": "JRaAEvCjz0A",
-        "title": "Crucifix armbar vs turtled opponent",
-        "by": "Prodigy MMA",
-        "vertical": false,
+        "title": "opponent turtled – crucifix arm bar",
         "channel": "Prodigy MMA Australia",
         "duration": 129,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "nkAYVo9sMGE",
-        "title": "Crucifix setup and armbar (no-gi)",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "Crucifix Setup and Armbar Submission Nogi",
         "channel": "Revolution BJJ",
-        "duration": 190,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "qq1LScm50Ow",
-        "title": "Arm drag to crucifix armlock",
-        "by": "John Gutta",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 151,
-        "verified": "2026-07-15"
+        "duration": 189,
+        "vertical": false
       }
     ]
   },
@@ -1148,40 +1136,12 @@
     ],
     "clips": [
       {
-        "id": "Wt2NW_hfTd0",
-        "title": "Crucifix escape",
-        "by": "Mick Hall",
-        "vertical": false,
-        "channel": "Mick Hall",
-        "duration": 228,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "EcXue-cD12Q",
-        "title": "How to escape the crucifix",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 339,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Wrg5Tx-88yM",
-        "title": "Simple crucifix escape",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 149,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "oLccpWCMh70",
-        "title": "Underused Armbar Escape Direction",
-        "by": "Priit Mihkelson",
-        "vertical": false,
+        "title": "Underused armbar escape direction",
         "channel": "Defensive BJJ",
         "duration": 585,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },

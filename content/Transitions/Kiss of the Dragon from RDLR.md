@@ -46,35 +46,32 @@ description: "Master the Kiss of the Dragon from Reverse De La Riva Guard. Compl
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kiss of the dragon back take from RDLR",
-      "description": "Kiss of the Dragon from RDLR film study: Kiss of the dragon back take from RDLR, taught by Louis Armezzani.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Nj002G_Btm4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Nj002G_Btm4",
-      "url": "https://www.youtube.com/watch?v=Nj002G_Btm4",
-      "creator": { "@type": "Person", "name": "Louis Armezzani" },
-      "duration": "PT65S"
+      "name": "Kiss of the Dragon Drill - BJJ for Beginners",
+      "description": "Kiss of the Dragon from RDLR film study: Kiss of the Dragon Drill - BJJ for Beginners.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mLz3HoS2XLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mLz3HoS2XLw",
+      "url": "https://www.youtube.com/watch?v=mLz3HoS2XLw",
+      "duration": "PT26S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kiss of the dragon sweep",
-      "description": "Kiss of the Dragon from RDLR film study: Kiss of the dragon sweep, taught by Q.",
+      "name": "Q teaches bjj kiss of the dragon sweep",
+      "description": "Kiss of the Dragon from RDLR film study: Q teaches bjj kiss of the dragon sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yMPxcUHeK38/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yMPxcUHeK38",
       "url": "https://www.youtube.com/watch?v=yMPxcUHeK38",
-      "creator": { "@type": "Person", "name": "Q" },
-      "duration": "PT54S"
+      "duration": "PT53S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Kiss of the dragon drill",
-      "description": "Kiss of the Dragon from RDLR film study: Kiss of the dragon drill, taught by OpenRollBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mLz3HoS2XLw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mLz3HoS2XLw",
-      "url": "https://www.youtube.com/watch?v=mLz3HoS2XLw",
-      "creator": { "@type": "Person", "name": "OpenRollBJJ" },
-      "duration": "PT27S"
+      "name": "Kiss the dragon back take. RDL",
+      "description": "Kiss of the Dragon from RDLR film study: Kiss the dragon back take. RDL.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nj002G_Btm4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nj002G_Btm4",
+      "url": "https://www.youtube.com/watch?v=Nj002G_Btm4",
+      "duration": "PT65S"
     }
   ]
 }
@@ -128,9 +125,9 @@ Strategically, this technique creates a powerful dilemma for the top player: dri
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Nj002G_Btm4)
+![](https://www.youtube.com/watch?v=mLz3HoS2XLw)
 
-<p class="clip-credit"><strong>Kiss of the dragon back take from RDLR</strong> — taught by Louis Armezzani · 1:05 · <a href="https://www.youtube.com/watch?v=Nj002G_Btm4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kiss of the Dragon Drill - BJJ for Beginners</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=mLz3HoS2XLw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +135,15 @@ Strategically, this technique creates a powerful dilemma for the top player: dri
 
 ![](https://www.youtube.com/watch?v=yMPxcUHeK38)
 
-<p class="clip-credit"><strong>Kiss of the dragon sweep</strong> — taught by Q · 0:54 · <a href="https://www.youtube.com/watch?v=yMPxcUHeK38" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Q teaches bjj kiss of the dragon sweep</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=yMPxcUHeK38" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mLz3HoS2XLw)
+![](https://www.youtube.com/watch?v=Nj002G_Btm4)
 
-<p class="clip-credit"><strong>Kiss of the dragon drill</strong> — taught by OpenRollBJJ · 0:27 · <a href="https://www.youtube.com/watch?v=mLz3HoS2XLw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kiss the dragon back take. RDL</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=Nj002G_Btm4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -342,6 +339,15 @@ Kiss of the Dragon occupies a central role in the Reverse De La Riva attack syst
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Related study guides
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Foundations with Mikey Musumeci</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

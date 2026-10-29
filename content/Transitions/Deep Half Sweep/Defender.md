@@ -152,35 +152,12 @@ description: "Defend the Deep Half Sweep in BJJ. Recognition cues, defensive cou
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Top counter to the deep half sweep into a back take",
-      "description": "Deep Half Sweep (Defender) film study: Top counter to the deep half sweep into a back take, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hHbb7ywVTwU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hHbb7ywVTwU",
-      "url": "https://www.youtube.com/watch?v=hHbb7ywVTwU",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee slide pass counter against deep half",
-      "description": "Deep Half Sweep (Defender) film study: Knee slide pass counter against deep half, taught by Scott Ryan Chiriboga.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
-      "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
-      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
-      "duration": "PT133S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Three options to defend the deep half guard",
-      "description": "Deep Half Sweep (Defender) film study: Three options to defend the deep half guard, taught by Six Blades Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JEDoJOZWQHY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JEDoJOZWQHY",
-      "url": "https://www.youtube.com/watch?v=JEDoJOZWQHY",
-      "creator": { "@type": "Person", "name": "Six Blades Jiu-Jitsu" },
-      "duration": "PT207S"
+      "name": "How to PASS and submit from the deep half guard every time!",
+      "description": "Deep Half Sweep (Defender) film study: How to PASS and submit from the deep half guard every time!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wZRvy4-ula4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wZRvy4-ula4",
+      "url": "https://www.youtube.com/watch?v=wZRvy4-ula4",
+      "duration": "PT277S"
     }
   ]
 }
@@ -208,25 +185,9 @@ As the defender against the Deep Half Sweep, you are the top player in deep half
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=hHbb7ywVTwU)
+![](https://www.youtube.com/watch?v=wZRvy4-ula4)
 
-<p class="clip-credit"><strong>Top counter to the deep half sweep into a back take</strong> — taught by JiuJitsu.com · 1:03 · <a href="https://www.youtube.com/watch?v=hHbb7ywVTwU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
-
-<p class="clip-credit"><strong>Knee slide pass counter against deep half</strong> — taught by Scott Ryan Chiriboga · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JEDoJOZWQHY)
-
-<p class="clip-credit"><strong>Three options to defend the deep half guard</strong> — taught by Six Blades Jiu-Jitsu · 3:27 · <a href="https://www.youtube.com/watch?v=JEDoJOZWQHY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to PASS and submit from the deep half guard every time!</strong> · 4:37 · <a href="https://www.youtube.com/watch?v=wZRvy4-ula4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

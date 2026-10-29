@@ -113,10 +113,6 @@
     {
       "name": "Snap Down to Front Headlock",
       "relationship": "Chain attack when back take is denied from clinch"
-    },
-    {
-      "name": "Back Take",
-      "relationship": "Generic back take transition sharing core principles"
     }
   ],
   "attacker": {
@@ -441,31 +437,19 @@
     "safety_considerations": "The two-on-one to back take is generally a low-risk technique when practiced properly, but several safety considerations apply. When drilling with partners, maintain controlled intensity during the grip-fighting phase to prevent wrist or elbow hyperextension from forceful arm pulling. Beginners should avoid explosive duck-under attempts that might result in neck strain or head collision with partner's hip. When the technique is completed and back control is established, the receiving partner should not attempt violent spinning escapes that could result in knee or ankle injuries from hook entanglement. During live training, both practitioners should be aware of mat boundaries when executing standing back takes to prevent out-of-bounds falls. Communication about intensity level is essential during initial learning phases.",
     "clips": [
       {
-        "id": "RjAfCtXl7B4",
-        "title": "Two-on-one Russian tie to arm drag back take",
-        "by": "EDH Jiu Jitsu",
-        "vertical": false,
-        "channel": "El Dorado Hills Jiu Jitsu & Self Defense - EDHBJJ",
-        "duration": 118,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "NFRtUW5ZIvo",
-        "title": "Russian tie back take",
-        "by": "Cody Floyd",
-        "vertical": false,
+        "title": "Cody Floyd teaches Russian Tie Back Take 👀",
         "channel": "TupeloJiuJitsuAcademy",
         "duration": 55,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "pTbiUDyFDQE",
-        "title": "Russian tie offense for BJJ and MMA",
-        "by": "Stuart Tomlinson",
-        "vertical": false,
-        "channel": "Stuart Tomlinson",
-        "duration": 572,
-        "verified": "2026-07-15"
+        "id": "RjAfCtXl7B4",
+        "title": "Takedown Wrestling at EDH Jiu Jitsu: 2 on 1 Russian Tie to an Arm Drag from…",
+        "channel": "El Dorado Hills Jiu Jitsu & Self Defense - EDHBJJ",
+        "duration": 118,
+        "vertical": false
       }
     ]
   },
@@ -652,31 +636,12 @@
     ],
     "clips": [
       {
-        "id": "w6_9x5bBmBw",
-        "title": "2-on-1 counter offense",
-        "by": "JO Wrestling",
-        "vertical": false,
-        "channel": "JO Wrestling",
-        "duration": 31,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "r5oJK-OE8rU",
-        "title": "Russian tie counters",
-        "by": "Barry Mraz",
-        "vertical": false,
+        "title": "Russian Tie Counters",
         "channel": "Barry Mraz",
         "duration": 116,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uVsLdcUuxJg",
-        "title": "2-on-1 defense",
-        "by": "Youssif Hemida",
         "vertical": false,
-        "channel": "FANATIC WRESTLING",
-        "duration": 158,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

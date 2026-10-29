@@ -160,24 +160,12 @@ description: "How to defend against Knee Slice from Half in BJJ. Recognition cue
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stopping the pass when stuck under top half guard",
-      "description": "Knee Slice from Half (Defender) film study: Stopping the pass when stuck under top half guard, taught by Trapp Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WMcD-_R-To0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WMcD-_R-To0",
-      "url": "https://www.youtube.com/watch?v=WMcD-_R-To0",
-      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
-      "duration": "PT35S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Stopping the half guard underhook",
-      "description": "Knee Slice from Half (Defender) film study: Stopping the half guard underhook, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
-      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT98S"
+      "name": "Defending the cross knee pass and underhook from half guard",
+      "description": "Knee Slice from Half (Defender) film study: Defending the cross knee pass and underhook from half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XhZs3IX_p2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XhZs3IX_p2s",
+      "url": "https://www.youtube.com/watch?v=XhZs3IX_p2s",
+      "duration": "PT163S"
     }
   ]
 }
@@ -209,17 +197,9 @@ Advanced defenders treat the knee slice attempt as an offensive opportunity rath
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=WMcD-_R-To0)
+![](https://www.youtube.com/watch?v=XhZs3IX_p2s)
 
-<p class="clip-credit"><strong>Stopping the pass when stuck under top half guard</strong> — taught by Trapp Martial Arts · 0:35 · <a href="https://www.youtube.com/watch?v=WMcD-_R-To0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
-
-<p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the cross knee pass and underhook from half guard</strong> · 2:43 · <a href="https://www.youtube.com/watch?v=XhZs3IX_p2s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -1,0 +1,286 @@
+// Historical NON-KILL, not coverage (H147): the desktop late-film control's former 400ms target
+// passed with its film already present at first publication. H145 killed it; H147 did not, on
+// the same app/spec bytes. Target the existing 2.6s past-ceiling journey (as on the phone), keeping
+// the published-answer assertion. The original 400ms positive journey and its claims stay intact.
+// D-326 / CI 48be3a910 / D-332 controls on the served neural.js. Run after the positive journeys, under the
+// shared FIFO lock. NEURAL_MUTANT_APP must be the neural.js served by NEURAL_MUTANT_CONFIG's private
+// server; NEURAL_MUTANT_ONLY optionally selects controls by name. No rebuild, capture, source or
+// baseline change is made, and the original bytes are restored after every control.
+// NON-KILLS, not coverage (H139 / ORCH-377): noahead-exchange-1440 and -390 both pass on green
+// unmutated baselines. Reading-view exchanges use frameExecution; these journeys do not exercise
+// the map-view `ahead` prediction. Keep their receipts and report both limits in the counts.
+// NON-KILL, not coverage (PR #320's review, CAM2540), A/B'd against dev ae3c8c347's own bundle served in place of
+// the branch's: d355-flight-lift-ungated survives on dev as well. It predates v1.237.0, and dual-pair:565 no longer
+// sees it (recorded in that spec; a follow-up). reading-band-lift-restored, the one the directed arrival caused, is
+// retired below with its source-level pin.
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
+import { resolve } from 'node:path'
+import { createHash } from 'node:crypto'
+import { spawnSync } from 'node:child_process'
+import { Script } from 'node:vm'
+
+const root = resolve(import.meta.dirname, '../..')
+const app = process.env.NEURAL_MUTANT_APP, config = process.env.NEURAL_MUTANT_CONFIG, out = process.env.NEURAL_MUTANT_OUT
+if (!app || !config || !out) throw Error('Name the served app, private config and evidence directory')
+const original = readFileSync(app), source = original.toString()
+// D-370: optional NEURAL_MUTANT_CSS, the served neural.css, for controls whose claim is an eager stylesheet rule.
+const cssPath = process.env.NEURAL_MUTANT_CSS, cssOriginal = cssPath ? readFileSync(cssPath) : null
+// [name, spec, grep, [[minified target, replacement]...], claim: message text or the asserting line, css edits?]
+const controls = [
+  // D10-N1: a genuinely held deck manifest lands while Watch is open. Suppress only that backfill;
+  // the new question-presence claim must fail, rather than passing on an already-mounted card.
+  ['watch-backfill-lost', 'coldstart-backfill.spec.ts', 'a payload arriving behind Watch',
+    [['this.refreshOptionOdds(),this._landBackfill(),this._refreshChallengeEvidence()',
+      'this.refreshOptionOdds(),this._choiceWatch||this._landBackfill(),this._refreshChallengeEvidence()']],
+    'the newly backfilled question exists behind Watch'],
+  // D-326: the notice keeps showing while the move executes.
+  ['reward-hold-lost', 'roll-execution.spec.ts', 'reward notice yields',
+    [['this.holdChallengeReward&&this.holdChallengeReward(),', ''], ['if(this._execution||this.__ngDestroyed)return;', 'if(this.__ngDestroyed)return;']],
+    'the showing notice yields to the executing move'],
+  // A calm reading catch's lease window: an escape picked inside it re-zooms again.
+  ['calm-catch-window-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*an escape: the catch keeps its own framing',
+    [['this._execution.camera===!1&&this._execution.calmHeld&&', 'this._execution.camera===!1&&!1&&']], 'the catch keeps its framing through the escape'],
+  // D-332 D2-B1: the window re-read every frame (the 105c5f110 code) instead of the pick's latch.
+  ['calm-catch-latch-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*an escape picked just inside',
+    [['this._execution.camera===!1&&this._execution.calmHeld&&', 'this._execution.camera===!1&&this._calmCatchHeld()&&']],
+    'an escape picked inside the window keeps the catch framing to the landing'],
+  // The intro's handover starts a fresh roll over a board staged during it (a shared-list read).
+  ['intro-overrides-stage', 'defending-arrivals.spec.ts', 'a shared list link opens its defending item',
+    [['this._refPage||this._staged!=null||this.startRoll(t)', 'this._refPage||this.startRoll(t)']], 'the other read role must be a reachable drawn canvas half'],
+  // D-338: a saved Focus is read again by the layer seam (its reading* overrides hide the card).
+  ['d338-saved-focus-layer-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$',
+    [['let t=yt[e];return!t||this.get(t,!0)!==!1', 'let t=yt[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
+    'a saved Focus no longer hides the question'],
+  // RETIRED (v1.237.0, PR #320's review): reading-band-lift-restored (the follow-cam lifts the node against the
+  // reading band's edge again: two rest framings). pane-layout:131 stopped seeing it when that journey's first landing
+  // became the directed arrival, which never flies. Classified a REAL GAP, not an equivalent: the active lift's soft
+  // clamp is not exactly zero at rest. The same mutation, made in the source, is killed by tests/camera_motion.test.mjs
+  // "in the reading view the follow-cam engages no lift at rest", which drives updateCamera on the reader's band.
+  // H46 (2026-10-21): landcard-modes:349 now waits for the defender's question before its press; the arrows must
+  // still be what pages it (the defense mode dropped from the landing card's arrow branch).
+  ['defense-arrows-lost', 'landcard-modes.spec.ts', 'the generic defending card pages its own deck with the same arrows',
+    [['["land","attempt","defense"].includes(this._landMode)&&this._landPage!=null&&(r.key==="ArrowLeft"', '["land","attempt"].includes(this._landMode)&&this._landPage!=null&&(r.key==="ArrowLeft"']], 'arrows page the defender deck'],
+  // D-352 (Delta 6): S1, a landing laid out with the article put away is live, so showing the article
+  // mid-load publishes it pinned instead of holding it; and N1, the hand's half of D-351's hold.
+  ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
+    [['else if(!t)n.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
+  ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
+    [['u==null||u.toggleAttribute("data-reader-pending",a>0);return d&&a<=0', 'u==null||u.toggleAttribute("data-reader-pending",!1);return d&&a<=0']], 'the new hand is shown once, at its final place'],
+  // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
+  ['d354-pane-follow-lag', 'pane-keyboard.spec.ts', 'D-354: the landing deck and its arrows follow the pane',
+    [[',this.uiShift!==s&&((o=this._reader)==null||o.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
+  // D-354 (H95, H97): REAL BREAK from D-351. A hand the reader held starts its Win chance when it publishes.
+  ['d354-held-hand-no-value', 'article-sections.spec.ts', 'D-354: a hand the reader held starts its Win chance',
+    [['return d&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
+  // RETIRED (D-368, layout C): d354-play-film-left-home; the game film never enters the Videos slot.
+  // D-354 N3: the film's only remover ends the reader's media-home observation.
+  ['d354-removed-film-observed', 'defending-landing.spec.ts', 'D-354 N3: a removed film',
+    [['._ngRO.disconnect(),(e=this._reader)==null||e.resize.unobserve(this._landFilmEl);try{', '._ngRO.disconnect();try{']], 'the removed film is no longer observed by the reader'],
+  // D-350b: the header's ZERO-overlap mutants (v1.219.0's noprelift / noahead), scripted so the frame filter is
+  // shown not to carry their kills. noprelift: the arrival and the URL intro make no room for the rows.
+  // RETIRED (v1.237.0): noprelift-roll-start. The roll start is the directed arrival now (`_openingPose`), which
+  // never asks `_liftForLanding`; its own mutants are in opening-camera.spec.ts's header. Its ZERO-overlap
+  // claim is scripted again by noride-roll-start (PR #320's review): the board does not ride, so the rows
+  // stand at their settled place under the node the arrival is still holding.
+  ['noride-roll-start', 'camera-continuity.spec.ts', '390px camera continuity.*roll start: the intro and the staged arrival',
+    [['this._openStamp(String(Math.round(r*1e4)/1e4),o.toFixed(2)+"px")', 'this._openStamp(String(Math.round(r*1e4)/1e4),"0px")']], 'ZERO overlap roll start @'],
+  ['noprelift-url-arrival', 'camera-continuity.spec.ts', 'camera continuity.*URL arrival: from the intro',
+    [['_liftForLanding(e,t){let s=this.nodes&&this.nodes[t];', '_liftForLanding(e,t){return e;let s=this.nodes&&this.nodes[t];']], 'ZERO overlap URL arrival @'],
+  // noahead: `_viewRect` ignores `ahead`, so a landing's band is not predicted before its rows mount.
+  ['noahead-exchange-1440', 'camera-continuity.spec.ts', '1440px camera continuity.*an exchange lands on a new current node',
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),f=!0)', '!1&&(a=this._predictBottom(e.ahead),f=!0)']], 'ZERO overlap exchange @'],
+  ['noahead-exchange-390', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node',
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),f=!0)', '!1&&(a=this._predictBottom(e.ahead),f=!0)']], 'ZERO overlap exchange @'],
+  // D-433 (2026-10-26): migrate only the phone ordering/short-band premises.
+  // U16's account, card spacing, scrolled input, handoff and restoration controls remain.
+  // Run at 1cf59ba38 (answerpts round 2): all six killed at the claims named here.
+  ['d370-band-186-in-catch', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band',
+    [['this.W<=640?this._phoneCatch()?this.H<700?80:144:186:144', 'this.W<=640?186:144']], 'D-433 short live catch uses the smaller band'],
+  ['u16-account-hidden', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band', [],
+    'D-433 short live catch uses the smaller band', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
+      '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-acctwrap{visibility:hidden!important}']]],
+  ['u16-card-compacted', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band', [],
+    'D-433 short live catch uses the smaller band', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
+      '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-landcard.ng-land-deck{padding-top:8px!important}']]],
+  ['u16-scrolled-answer-inert', 'defending-landing.spec.ts', 'D-433: in a catch at 390x631',
+    [["_mcAnswer(e,t,s,i,n,r,o){", "_mcAnswer(e,t,s,i,n,r,o){if(this._reader?.root.scrollTop>0&&this._mc?.surface===\"panic\")return;"]], 'the scrolled escape answer receives its real mouse click'],
+  ['u16-band-restoration-lost', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band',
+    [['this.W<=640?this._phoneCatch()?this.H<700?80:144:186:144', 'this.W<=640?80:144']], 'the result transition restores the usual 186px band'],
+  ['u16-band-ends-at-pick', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band',
+    [['this.isMobile()&&!!this._defensePressure&&this._layerOn("card")', 'this.isMobile()&&!!this._defensePressure&&this._landMode==="defense"&&this._layerOn("card")']],
+    'at the pick the small band holds'],
+  ['d370-calm-landing-concedes', 'defending-landing.spec.ts', 'U16 b: a calm phone defender',
+    [['this.isMobile()&&!!this._defensePressure&&this._layerOn("card")', 'this.isMobile()&&this._landMode==="defense"&&this._layerOn("card")']],
+    'a calm phone defender keeps the usual band'],
+  // D-370 (2), D-325: a published question never moves for its film; the hold waits for the node's content chunk.
+  ['d370-late-film-unheld-390', 'reading-media-placement.spec.ts', '390px a film chunk landing after 2.6s',
+    [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
+  ['d370-late-film-unheld-1440', 'reading-media-placement.spec.ts', '1440px a film chunk landing after 2.6s',
+    [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
+  // D-355: the band's soft hold engages only for a flight that reaches its lower edge (a URL arrival), never for one
+  // inside the band (a hover's re-aim), and it is what keeps the arrival clear of the Moves row.
+  // CLEAR_SEC (v1.219.0's hand mutant `slowclear`, scripted at APTS-CI2): the lift's edge takes 1 s and every flight
+  // at least 1.5 s, so a row turned back on stays over the node past CLEAR_SEC.
+  ['slowclear', 'camera-continuity.spec.ts', '1440px camera continuity.*CLEAR_SEC: a card the player turns back on',
+    [['b.t=Math.min(1,b.t+e/_n)', 'b.t=Math.min(1,b.t+e/1)'],
+     ['A=Math.max(t.dur?t.dur(L):Math.max(.6,Math.min(1.4,.5+.25*L))', 'A=Math.max(1.5,t.dur?t.dur(L):Math.max(.6,Math.min(1.4,.5+.25*L))']], 'CLEAR_SEC a row turned on'],
+  ['d355-flight-lift-ungated', 'dual-pair.spec.ts', 'hovering any pair names it once',
+    [['active:!m.band||!!(y!=null&&y.band)', 'active:!0']], 'and the role moved below it'],
+  ['d355-flight-lift-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
+    [['(!m.band||y)&&(c.lift=', '!m.band&&(c.lift=']], 'URL arrival @'],
+  // ORCH-382 / H140-H144: the old 30px gate engages after contact; activating the subject only
+  // when its gate opens starts the spring too late. Both fail the unchanged ZERO-overlap pin.
+  ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
+    [['y.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+x+xt>m.bottom', 'y.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
+  ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
+    [['(!m.band||y)&&(c.lift=', '(!m.band||y!=null&&y.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
+  // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
+  // its transition-end reveal reproduces the card extending below the Learning pane at 1440px.
+  ['concept-fit-reveal-lost', 'concepts-surface.spec.ts', 'principle film study.*1440px',
+    [['e.addEventListener("transitionend",_)', 'void 0']], 'the expanded portrait and its close button fit inside the reading pane'],
+  // U47 d (owner, 2026-10-27): a landing asks with its question alone; "Answer for Points", or a tap on the
+  // question, shows today's card for the rest of the landing. Each control dies at one covered-card claim.
+  ['u47-arrives-shown', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
+    [['i||(this._landAsk=!this.deckShown&&!this._landOptedIn(),this._landPage=null', 'i||(this._landAsk=!1,this._landPage=null']], 'the arriving question offers Answer for Points'],   // APTS-R4: the first assertion an arriving shown card fails; the claim used to match only through the code frame
+  ['u47-asking-clock-runs', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
+    [['_clockGate(){return!this._landAsk&&', '_clockGate(){return ']], 'an arriving question has no running clock'],
+  ['u47-asking-pages', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
+    [['_landPageTo(e){let t=this._landEl;if(!t||this._landAsk||', '_landPageTo(e){let t=this._landEl;if(!t||']], 'an asking question cannot grade, page or charge time'],
+  ['u47-reveal-keeps-answers-inert', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
+    [['i.inert=!1,this.fx("land_q_taken_up"', 'this.fx("land_q_taken_up"']], "Answer for Points shows today's card, with no reveal control inside it"],
+  // U34 a's per-card cover, reintroduced at paging: the shown card must stay shown.
+  ['u47-paging-asks-again', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
+    [['this._landPage=n,this._armPagedLandClock(),this._readStop()', 'this._landPage=n,this._landAsk=!0,this._armPagedLandClock(),this._readStop()']], 'the shown card stays shown across paging, with its own window'],
+  ['u47-question-tap-dead', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
+    [['h.append(x," ",w),h.addEventListener("click",()=>this._landReveal());', 'h.append(x," ",w);']], 'a tap on the question shows the card'],
+  // U52 b: the phone's two-line cut is _fitAskLine's (the CSS clamp is gone). Its desktop twin, trimming on a
+  // desktop too, is a recorded NON-KILL (covered-card.spec.ts's header): no real question needs a third line there.
+  ['u47-phone-trim-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844',
+    [['if(t.textContent=s,!this.isMobile())return;', 'if(t.textContent=s,!0)return;']], 'U47 d: a long question is cut to two lines on a phone'],
+  ['u47-desktop-offer-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900',
+    [['h.append(x," ",w),h.addEventListener("click",()=>this._landReveal())', 'h.append(x," ",...this.isMobile()?[w]:[]),h.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
+  ['u47-reveal-keeps-asking-face', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
+    [['this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none",e.removeAttribute("data-land-ask");', 'this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none";']], "Answer for Points shows today's card, with no reveal control inside it"],
+  // U52 b: the take-up lays the reader out at once (the card leaves the quiet line's width); deferred, the first
+  // queued layout moves the answers that already painted.
+  ['u52b-take-up-layout-deferred', 'reading-navigation.spec.ts', 'the first queued reader layout cannot move a published answer',
+    [['this._updateLandDeck(),(r=this._reader)==null||r.layoutNow(),this._dockLandCard(e)', 'this._updateLandDeck(),this._dockLandCard(e)']], 'the first queued layout moves no published answer'],
+  // APTS-R4 (1): a short phone trims the asking line to ONE line, so the link is on screen at arrival at 390x631.
+  ['u52b-short-phone-two-lines', 'covered-card.spec.ts', 'U52 b at 390x631 Answer for Points is on screen at arrival \\(short question\\)',
+    [['let i=(innerHeight<700?1:2)*parseFloat(', 'let i=2*parseFloat(']], 'U52 b at 390x631 Answer for Points is on screen and hit-testable at arrival'],
+  // U52 b (a) and (b): after one take-up in this tab, and with the pane open, a landing shows its card directly.
+  ['u52b-opt-in-forgotten', 'covered-card.spec.ts', 'U52 b after one take-up, later landings show the full card',
+    [['i||(this._landAsk=!this.deckShown&&!this._landOptedIn(),', 'i||(this._landAsk=!this.deckShown,']], 'U52 b after one take-up, later landings show the full card'],
+  ['u52b-pane-asks', 'covered-card.spec.ts', 'U52 b a landing rendered with the pane open shows the full card',
+    [['i||(this._landAsk=!this.deckShown&&!this._landOptedIn(),', 'i||(this._landAsk=!this._landOptedIn(),']], 'U52 b a landing rendered with the pane open shows the full card'],
+  // APTS-R4 (5): polish — no entry fade replayed at take-up; focus kept on the next asking landing; the arrow is
+  // not part of the link's accessible name.
+  ['u52b-take-up-replays-entry', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
+    [['this._landOptIn(),e.style.animation="none",e.removeAttribute("data-land-ask")', 'this._landOptIn(),e.removeAttribute("data-land-ask")']], "the take-up does not replay the card's entry on the question just tapped"],
+  ['u52b-focus-dropped', 'covered-card.spec.ts', 'U52 b a landing rendered with the pane open shows the full card; focus survives',
+    [['M(120)}c&&this._landQ&&!this._defenseDrillOpened', '}c&&this._landQ&&!this._defenseDrillOpened']], 'keyboard focus moves to Answer for Points, not the page'],
+  ['u52b-arrow-in-name', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)', [],
+    'the accessible name is "Answer for Points", without the arrow', [['content:" \\2192"/""', 'content:" \\2192"']]],
+  ['u47-asking-answers-laid-out', 'covered-card.spec.ts', 'U35 D-433.*1440x900', [],
+    'U47 d the asking card collapses its answer block', [['[data-land-ask] [data-land-count],[data-land-ask] [data-land-q]>[inert]{display:none!important}', '[data-land-ask] [data-land-count]{display:none!important}']]],
+  ['u47-reveal-scroll-writer', 'covered-card.spec.ts', 'U35 D-433.*390x844',
+    [['i.inert=!1,this.fx("land_q_taken_up"', 'i.inert=!1,e.scrollIntoView(),this.fx("land_q_taken_up"']], 'D-433 no automatic scroll writer through Answer for Points'],
+  // U47 d: a reading gesture (a phone scrolls the reader to reach it) must not decline an asking question.
+  ['u47-reading-declines-asking', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
+    [['(t&&this._landAsk||(s.answered=!0', '((s.answered=!0']], 'U47 d: scrolling to an asking question does not decline it'],
+  // The covered-card branch's "a covered invitation is free to pass" silenced the cold-start funnel's
+  // question_ignored mark; restoring dev's pending question is what coldstart-funnel pins.
+  ['u47-asking-ignore-silent', 'coldstart-funnel.spec.ts', 'ignoring the landing question is measured',
+    [['if(!n.paged&&!r){this._landPending=!0;let', 'if(!n.paged&&!r){this._landPending=!this._landAsk;let']], 'beat "land_q_ignored" emitted'],
+  // U47 d review (2026-10-28): the fix list's controls, each killed at the claim its fix added.
+  ['u47-double-tap-answers', 'covered-card.spec.ts', 'U47 d a double tap on Answer for Points grades nothing \\(touch, 180 ms\\)',
+    [['_landTapGuard(e){var t;return(e==="land"||e==="panic")&&', '_landTapGuard(e){var t;return!1&&(e==="land"||e==="panic")&&']], 'a double tap on Answer for Points grades nothing'],
+  ['u47-double-click-answers', 'covered-card.spec.ts', 'U47 d a double click on Answer for Points grades nothing \\(390 landing\\)',
+    [['_landTapGuard(e){var t;return(e==="land"||e==="panic")&&', '_landTapGuard(e){var t;return!1&&(e==="land"||e==="panic")&&']], 'a double click on Answer for Points grades nothing'],
+  ['u47-catch-double-click-answers', 'covered-card.spec.ts', "U47 d a double click on the catch's Answer for Points",
+    [['_landTapGuard(e){var t;return(e==="land"||e==="panic")&&', '_landTapGuard(e){var t;return!1&&(e==="land"||e==="panic")&&']], "a double click on the catch's Answer for Points grades nothing"],
+  // The review's repro: every "reading" decline exempted while asking, so a link spared the question.
+  ['u47-link-spares-asking', 'covered-card.spec.ts', 'U47 d following an article link declines an asking question',
+    [['(t&&this._landAsk||(s.answered=!0', '(e==="reading"&&this._landAsk||(s.answered=!0']], 'following an article link declines the asking question (reason reading), as on dev'],
+  // The branch's reveal that played a reading arrival ("as it already works" says it must not).
+  ['u47-arrival-plays-on-take-up', 'reading-contract.spec.ts', '1366px a real landing-card answer starts the dormant game once',
+    [['this._readerIntent?this._reader&&(this._reader.interacting=!1):(', '!1?this._reader&&(this._reader.interacting=!1):(']], 'Answer for Points leaves a reading arrival dormant, with no clock'],
+  ['u47-take-up-unmeasured', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
+    [['this.fx("land_q_taken_up",{deckKey:t.key||null,mode:this._landMode||"land"}),', '']], 'land_q_taken_up fires once per take-up'],
+  ['u47-asking-letters-answer', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
+    [['f=m=>{if(!(a.inert||["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(h||o.spent)', 'f=m=>{if(!(["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(h||o.spent)']], 'an asking question cannot grade, page or charge time'],
+  ['u47-hover-latch-lost', 'landing-card.spec.ts', 'no clock before Answer for Points',
+    [['["pointerdown","pointermove","keydown"]', '["pointerdown","keydown"]']], 'one hover engages'],
+  ['u36-motion-listener-lost', 'defending-landing.spec.ts', 'reduced motion keeps a static cue',
+    [['(e=this._motionQuery)==null||e.addEventListener("change",this._motionChanged)', '(e=this._motionQuery)==null||0']], 'the media-change listener acted, with no frame pumped'],
+  ['u35-watch-in-question', 'covered-card.spec.ts', 'U35 every question builder segregates technique media',
+    [['if(c.appendChild(m),this._landQ=d', 'if(c.appendChild(m),c.insertAdjacentHTML("beforeend","<button data-choice-watch>Watch technique</button>"),this._landQ=d']], 'U35 question surfaces contain no media/watch controls'],
+  // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
+  // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
+  ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
+    [['if(h&&!((c=this._reader)!=null&&c.interacting))', 'if(h&&!this._reader?.intent&&!((c=this._reader)!=null&&c.interacting))']],
+    '...and the chosen escape stays on the table'],
+]
+const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
+const hash = bytes => createHash('sha256').update(bytes).digest('hex')
+mkdirSync(out, { recursive: true })
+const receipt = { original: hash(original), results: [] }
+// D5-B2: a kill counts only against a GREEN unmutated baseline of the same spec and grep (once per pair).
+const baselines = new Map()
+const baseline = (spec, grep) => {
+  const key = spec + '\n' + grep
+  if (!baselines.has(key)) {
+    writeFileSync(app, original)
+    // H139: discarded baseline stdout left two URL-arrival reds without their assertion evidence.
+    // Preserve the same unmutated run's log and JSON; a red baseline still cannot count as a kill.
+    const report = resolve(out, 'baseline-' + baselines.size + '.json')
+    const log = resolve(out, 'baseline-' + baselines.size + '.log')
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--output', resolve(out, 'baseline-' + baselines.size + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report } })
+    writeFileSync(log, (run.stdout || '') + (run.stderr || ''))
+    baselines.set(key, { green: run.status === 0 && / passed /.test(run.stdout || ''), exit: run.status, report, log })
+  }
+  return baselines.get(key)
+}
+try {
+  for (const [name, spec, grep, edits, claim, cssEdits] of controls.filter(([n]) => !only || only.test(n))) {
+    const base = baseline(spec, grep)
+    const once = (text, list) => list.reduce((out, [from, to]) => {
+      if (out.split(from).length !== 2) throw Error(name + ': the target moved: ' + from)
+      return out.replace(from, to)
+    }, text)
+    const mutant = once(source, edits)
+    if (cssEdits && !cssOriginal) throw Error(name + ': a stylesheet control needs NEURAL_MUTANT_CSS')
+    if (cssEdits) writeFileSync(cssPath, once(cssOriginal.toString(), cssEdits))
+    // D-354: a mutant that does not parse never boots; its run waited out the 240s timeout, orphaned
+    // the private server, and every later baseline read red on the busy port. Refuse it here instead.
+    try { new Script(mutant) } catch (e) { throw Error(name + ': the mutant does not parse: ' + e.message) }
+    writeFileSync(app, mutant)
+    const report = resolve(out, name + '.json')
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--max-failures=1', '--output', resolve(out, name + '-results'), '--reporter=list,json'], {
+      cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report },
+    })
+    writeFileSync(app, original)
+    if (cssOriginal) writeFileSync(cssPath, cssOriginal)
+    writeFileSync(resolve(out, name + '.log'), (run.stdout || '') + (run.stderr || ''))
+    const failures = []
+    const visit = suite => {
+      for (const s of suite.specs || []) for (const t of s.tests) for (const r of t.results) if (r.status !== 'passed') failures.push(r)
+      for (const child of suite.suites || []) visit(child)
+    }
+    try { visit(JSON.parse(readFileSync(report, 'utf8'))) } catch {}
+    const errors = failures.flatMap(r => r.errors || [])
+    const text = e => (e.message || '').replace(/\u001b\[[0-9;]*m/g, '')
+    // A wait timeout is infrastructure/fixture failure, never a mutation kill.
+    const killed = base.green && run.status === 1 && failures.length === 1 && failures[0].status === 'failed' && errors.length > 0 &&
+      errors.every(e => /expect\(/.test(text(e)) && !/Test timeout|TimeoutError|page\.waitFor\w+:|locator\.\w+: Timeout/.test(text(e))) &&
+      errors.some(e => typeof claim === 'number' ? e.location?.line === claim : text(e).includes(claim))
+    receipt.results.push({ name, spec, baseline: base, mutant: hash(mutant), exit: run.status, killed, errors: errors.map(e => text(e).split('\n')[0]) })
+    console.log(name + ': ' + (!base.green ? 'BASELINE RED, not counted' : killed ? 'killed at its claim' : 'NOT KILLED'))
+  }
+} finally {
+  writeFileSync(app, original)
+  if (cssOriginal) writeFileSync(cssPath, cssOriginal)
+  receipt.restored = hash(readFileSync(app)) === receipt.original && (!cssOriginal || hash(readFileSync(cssPath)) === hash(cssOriginal))
+  writeFileSync(resolve(out, 'receipt.json'), JSON.stringify(receipt, null, 2) + '\n')
+}
+if (!receipt.restored || receipt.results.some(r => !r.killed)) process.exitCode = 1

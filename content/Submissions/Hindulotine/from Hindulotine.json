@@ -1,64 +1,50 @@
 {
   "name": "Hindulotine from Hindulotine",
-  "description": "Master the Hindulotine choke finish from Hindulotine control. Complete guide to chin strap grip mechanics, rotational torque, and finishing details.",
-  "summary": "The Hindulotine finish is a front-headlock blood choke that locks a figure-four chin strap grip and adds perpendicular hip rotation, compressing both carotid arteries through rotational torque rather than the linear pull of a standard guillotine.",
+  "description": "Hindulotine from Hindu Control joins the hands after the arm loops over the raised foot. The bottom guard player closes a leg-in guillotine and releases on a tap.",
+  "summary": "The Hindulotine is Ben Eddy's leg-in guillotine from Hindu Control, using an arm loop over the raised rubber-guard foot and around the shoulder to close a neck enclosure.",
   "tags": [
     "bjj",
     "submission",
-    "choke",
-    "hindulotine",
-    "guillotine-variation",
-    "front-headlock",
-    "advanced",
-    "no-gi",
-    "gi",
-    "blood-choke"
+    "choke"
   ],
   "submission_category": "Choke",
-  "submission_type": "Blood Choke",
-  "target_area": "Carotid arteries and trachea",
-  "starting_position": "Hindulotine",
-  "from_position": "Hindulotine/Top",
+  "submission_type": "Leg-in guillotine",
+  "target_area": "Neck, enclosed by the arm and raised rubber-guard leg",
+  "starting_position": "Hindulotine/Bottom",
+  "from_position": "Hindulotine/Bottom",
   "success_rate": {
-    "gi": 40,
-    "nogi": 40
+    "gi": 30,
+    "nogi": 30
   },
-  "overview": "The Hindulotine finish from Hindulotine control leverages rotational torque mechanics that distinguish this guillotine variation from standard front headlock submissions. Once the chin strap grip is established with the figure-four configuration, the attacker generates finishing pressure through hip rotation perpendicular to the opponent's spine rather than the linear pulling motion used in traditional guillotines. The forearm blade must sit high under the chin, targeting bilateral carotid compression for a clean blood choke rather than a tracheal crush.\n\nThe finishing sequence demands precise coordination between grip tightening, hip angle adjustment, and leg control. As the hips rotate away from the choking arm side, the figure-four grip structure amplifies rotational torque, creating compression that becomes exceptionally difficult to defend once fully locked. Opponents face simultaneous blood choke pressure and cervical torque, often producing a tap within seconds of complete application.\n\nStrategically, this finish serves as the terminal threat within the Hindulotine control system. Opponents who defend the choke must compromise their defensive posture, opening transitions to back control, darce, or anaconda variations. This positions the finish as the centerpiece of a broader submission network where every defensive reaction feeds additional attacking opportunities, embodying the modern grappling principle that submission threats and positional control are inseparable.",
+  "overview": "The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.\n\nTurn onto the hip and keep the knee close so the foot is reached through body position. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space. Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.\n\nDrill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal.\n\nInstructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc); [Ben Eddy — later Hindulotine S-grip clarification](https://www.10thplanetjj.com/forum/printthread.php?page=2&pp=10&t=22650).",
   "safety_considerations": {
     "injury_risks": [
       {
-        "injury": "Loss of consciousness from bilateral carotid compression",
-        "severity": "CRITICAL",
-        "recovery_time": "Seconds to minutes if released promptly; prolonged compression can cause brain damage"
-      },
-      {
-        "injury": "Tracheal damage from incorrect pressure angle crushing the windpipe",
+        "injury": "Neck injury from twisting or misaligned pressure",
         "severity": "High",
-        "recovery_time": "2-6 weeks depending on severity; may require medical intervention"
+        "recovery_time": "Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms."
       },
       {
-        "injury": "Cervical spine strain from forced neck flexion under rotational load",
-        "severity": "Medium",
-        "recovery_time": "1-3 weeks with rest and physical therapy"
+        "injury": "Loss of consciousness or serious harm from continued neck compression",
+        "severity": "CRITICAL",
+        "recovery_time": "Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms."
       }
     ],
-    "application_speed": "Blood chokes can cause unconsciousness in 4-10 seconds once fully locked. Apply gradually in training and never crank suddenly. The chin strap grip tightens faster than standard guillotine grips due to the figure-four leverage.",
+    "application_speed": "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal. No fixed number of seconds makes a locked submission safe.",
     "tap_signals": [
-      "Verbal tap saying 'tap' clearly",
-      "Physical tap on partner's body, arm, or leg with hand or foot",
-      "Tapping the mat repeatedly if unable to reach partner",
-      "Any verbal distress signal or going limp (treat as immediate tap)"
+      "Repeated hand taps anywhere the partner can feel them",
+      "A clear verbal tap or stop, including when the hands are trapped",
+      "Foot taps or any agreed stop signal; release immediately if normal responsiveness changes"
     ],
     "release_protocol": [
-      "Release all grip pressure immediately upon any tap signal",
-      "Monitor partner for 30 seconds after release for delayed signs of unconsciousness",
-      "If partner goes unconscious, release immediately, place in recovery position, elevate legs, and seek medical attention",
-      "Never reapply the choke in the same round after a near-unconsciousness event"
+      "Open the finishing grip immediately at the first signal; do not wait for repeated confirmation",
+      "Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement",
+      "Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom"
     ],
     "training_restrictions": [
-      "Apply pressure gradually and incrementally during drilling, never explosively",
-      "Beginners should drill grip mechanics and positioning without applying finishing pressure until comfortable with the release protocol",
-      "Do not hold the fully locked choke for extended periods even if the partner has not tapped"
+      "Start with supervised, cooperative control-and-release drilling rather than a loaded finish",
+      "Check the event's current rules for the specific age, experience and clothing division before live use",
+      "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal."
     ]
   },
   "from_positions": [
@@ -66,357 +52,321 @@
     "Guillotine Control"
   ],
   "related_submissions": [
-    "Hindulotine",
     "Guillotine Choke",
     "High Elbow Guillotine",
-    "Chin Strap Guillotine from Front Headlock",
-    "Darce Choke",
-    "Anaconda Choke"
+    "Gogoplata"
   ],
   "related_content": [
     {
       "name": "Hindulotine",
-      "relationship": "Control position where this finish is applied"
+      "relationship": "Related prerequisite or contrasting submission: compare the configuration and required controls for Hindulotine."
     },
     {
-      "name": "Guillotine Control",
-      "relationship": "Parent position with standard guillotine mechanics"
+      "name": "Rubber Guard",
+      "relationship": "Related prerequisite or contrasting submission: compare the configuration and required controls for Rubber Guard."
     },
     {
-      "name": "Front Headlock",
-      "relationship": "Primary entry position leading to Hindulotine control"
-    },
-    {
-      "name": "Darce Control",
-      "relationship": "Transition target when opponent frames during defense"
-    },
-    {
-      "name": "Back Control",
-      "relationship": "Common transition when opponent turns to escape choke"
+      "name": "Guillotine Choke",
+      "relationship": "Related prerequisite or contrasting submission: compare the configuration and required controls for Guillotine Choke."
     }
   ],
   "outcomes": [
     {
       "to": "game-over",
       "probability": {
-        "gi": 40,
-        "nogi": 40
+        "gi": 30,
+        "nogi": 30
       },
       "result": "success"
     },
     {
-      "to": "Hindulotine/Top",
+      "to": "Hindulotine/Bottom",
       "probability": {
-        "gi": 39,
-        "nogi": 39
+        "gi": 45,
+        "nogi": 45
       },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 21,
-        "nogi": 21
+        "gi": 25,
+        "nogi": 25
       },
       "result": "counter"
     }
   ],
   "attacker": {
     "name": "from Hindulotine Attacker",
-    "description": "Learn to finish the Hindulotine choke from Hindulotine control. Step-by-step chin strap grip finishing mechanics, counter responses, and progressive drilling.",
-    "overview": "Finishing the Hindulotine from Hindulotine control requires understanding the rotational torque that separates this technique from standard guillotine finishes. The chin strap grip with figure-four lock creates a mechanical system where your entire body contributes to the choking pressure, not just your arms. Your hips generate the primary finishing force by rotating perpendicular to the opponent's spine, while your legs prevent the defensive circling and posture recovery that would relieve pressure. The key insight is that small hip angle adjustments produce dramatic changes in choking pressure, making this a technique where precision outweighs strength.",
+    "description": "Hindulotine from Hindulotine (attacker): Turn onto the hip and keep the knee close so the foot is reached through body position. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space.",
+    "overview": "The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.\n\nTurn onto the hip and keep the knee close so the foot is reached through body position. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space. Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand.\n\nUse the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee. Lift the connected elbows only enough to close space; stop immediately if the pressure becomes a neck twist. Release the whole enclosure at the first tap or change in responsiveness, including if the opponent has passed the lower leg.\n\nDrill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal.\n\nThis neck enclosure can load the sides of the neck as a vascular choke, and misplaced forearm pressure can also compress the windpipe. Neither pressure type is a training target: rehearse the grip without squeezing, and release before the partner needs to tolerate throat or neck pressure.",
     "key_principles": [
-      "Generate finishing pressure through hip rotation perpendicular to opponent's spine rather than pulling with arm strength",
-      "Position the forearm blade high under the chin targeting carotid arteries bilaterally for a clean blood choke",
-      "Maintain constant grip pressure through all body adjustments to prevent any relief in choking force",
-      "Use leg control to eliminate opponent's ability to circle, posture, or change angle relative to your body",
-      "Coordinate grip tightening with core rotation so both forces compound simultaneously at the finish",
-      "Read defensive reactions as transition triggers rather than obstacles to force through"
+      "Support the high knee: Turn onto the hip and keep the knee close so the foot is reached through body position.",
+      "Loop over the foot: Bring the elbow above the raised foot and the hand around the shoulder into the head-control space.",
+      "Establish Hindu Control: Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand.",
+      "Connect the finishing grip: Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.",
+      "Remove slack gradually: Lift the connected elbows only enough to close space; stop immediately if the pressure becomes a neck twist.",
+      "Open hands and leg: Release the whole enclosure at the first tap or change in responsiveness, including if the opponent has passed the lower leg."
     ],
     "setup_requirements": [
-      "Chin strap grip secured with figure-four configuration and forearm blade positioned high under opponent's chin",
-      "Opponent's posture broken forward with head trapped below your center of gravity",
-      "Hips positioned at 45-90 degree angle to opponent's spine creating rotational leverage",
-      "Leg control established through closed guard, butterfly hooks, or strategic foot posts preventing circling escapes"
+      "The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder.",
+      "Turn onto the hip and keep the knee close so the foot is reached through body position.",
+      "Bring the elbow above the raised foot and the hand around the shoulder into the head-control space.",
+      "Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap."
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Confirm chin strap grip position",
-        "description": "Verify your choking arm's forearm blade sits directly under the opponent's chin, not on the throat or jaw. Lock the figure-four by grabbing your own bicep with the choking hand while the support arm wraps behind the head. The grip should feel like a vise with no slack between your wrist and their neck.",
-        "timing": "0-2 seconds"
+        "action": "Support the high knee",
+        "description": "Turn onto the hip and keep the knee close so the foot is reached through body position."
       },
       {
         "step_number": 2,
-        "action": "Break opponent's posture completely",
-        "description": "Pull the opponent's head down toward your chest using the grip while simultaneously curling your torso forward. Their forehead should be pressed against your sternum or below. If they maintain any vertical alignment in their spine, the finish will be compromised. Use your legs to pull their hips forward to collapse their base.",
-        "timing": "1-3 seconds"
+        "action": "Loop over the foot",
+        "description": "Bring the elbow above the raised foot and the hand around the shoulder into the head-control space."
       },
       {
         "step_number": 3,
-        "action": "Angle hips perpendicular to opponent's spine",
-        "description": "Rotate your hips toward the choking arm side so your body creates a 45-90 degree angle relative to the opponent's spine. This angle is the foundation of the rotational torque that distinguishes the Hindulotine from linear guillotine pulls. Your hip bone should be driving into the side of their ribcage or shoulder.",
-        "timing": "2-4 seconds"
+        "action": "Establish Hindu Control",
+        "description": "Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand."
       },
       {
         "step_number": 4,
-        "action": "Establish leg control for the finish",
-        "description": "Lock your legs in a configuration that prevents the opponent from circling toward the choking arm side or achieving any posture recovery. Close your guard if available, or use a high butterfly hook on the choking side hip combined with a posted foot on the opposite side. Your legs are the anchor that makes the rotational finish possible.",
-        "timing": "Simultaneous with step 3"
+        "action": "Connect the finishing grip",
+        "description": "Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee."
       },
       {
         "step_number": 5,
-        "action": "Generate rotational torque through core",
-        "description": "Drive your choking elbow toward your opposite hip while rotating your entire core away from the opponent. This motion creates the rotational torque that compresses both carotid arteries simultaneously. The force comes from your obliques and hip flexors, not from squeezing your biceps. Think of wringing a towel around the neck.",
-        "timing": "4-7 seconds"
+        "action": "Remove slack gradually",
+        "description": "Lift the connected elbows only enough to close space; stop immediately if the pressure becomes a neck twist."
       },
       {
         "step_number": 6,
-        "action": "Apply finishing pressure and arch",
-        "description": "Tighten the grip to maximum while maintaining the rotational angle. Slightly extend your hips to create a subtle arch that increases the distance between your grip and their neck, adding a stretching component to the rotational compression. The choke should feel like it is tightening from all directions at once.",
-        "timing": "7-10 seconds"
-      },
-      {
-        "step_number": 7,
-        "action": "Monitor for tap and control finish",
-        "description": "Maintain steady pressure while monitoring for any tap signal: verbal, physical, or the opponent going limp. Do not pulse or crank the pressure. Sustained steady compression is more effective and safer than explosive squeezing. If you feel the opponent weakening, maintain current pressure rather than increasing aggressively.",
-        "timing": "Continuous until tap"
+        "action": "Open hands and leg",
+        "description": "Release the whole enclosure at the first tap or change in responsiveness, including if the opponent has passed the lower leg."
       }
     ],
     "common_counters": [
       {
-        "counter": "Opponent postures up forcefully to create space and relieve neck pressure",
+        "counter": "An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup.",
         "effectiveness": "High",
-        "your_response": "Follow their rise while tightening the grip. If they achieve significant posture, snap them back down by pulling with the grip while sprawling hips. If posture is fully recovered, transition to front headlock control and re-establish.",
-        "targets_outcome": "Hindulotine/Top"
+        "your_response": "Re-check the prerequisite before continuing. Turn onto the hip and keep the knee close so the foot is reached through body position.",
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
-        "counter": "Opponent drives forward to stack and flatten you, using weight to neutralize the choke angle",
+        "counter": "Use an early inside frame before both hands close around the neck enclosure.",
         "effectiveness": "Medium",
-        "your_response": "Use butterfly hooks to load their weight and sweep to mount while maintaining the grip. Their forward pressure becomes the energy source for the sweep, and you finish from top position.",
-        "targets_outcome": "Hindulotine/Top"
+        "your_response": "Re-check the prerequisite before continuing. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space.",
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
-        "counter": "Opponent circles toward the choking arm to reduce rotational torque angle",
+        "counter": "Avoid turning the head sharply against the fixed leg and forearm.",
         "effectiveness": "Medium",
-        "your_response": "Use the leg on the choking arm side as a block, hooking their hip to prevent rotation. Simultaneously adjust your own hip angle to maintain perpendicular alignment. If they create significant angle change, switch to a darce grip.",
-        "targets_outcome": "Hindulotine/Top"
+        "your_response": "Re-check the prerequisite before continuing. Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand.",
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
-        "counter": "Opponent peels grip by fighting hands and wedging fingers under the figure-four lock",
+        "counter": "Address the head-and-leg connection instead of assuming a lower-body guard pass solves the choke.",
         "effectiveness": "Medium",
-        "your_response": "Re-lock the figure-four deeper by walking the choking arm higher on the neck. Tuck your elbows tight to your body so there is no gap for fingers. If the grip is significantly compromised, release and transition to front headlock control to reset.",
-        "targets_outcome": "Hindulotine/Top"
+        "your_response": "Re-check the prerequisite before continuing. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.",
+        "targets_outcome": "Hindulotine/Bottom"
       },
       {
-        "counter": "Opponent turns away exposing back to relieve direct choke pressure",
+        "counter": "Stop before neck pain, dizziness, or reduced awareness; positional progress does not cancel the choke.",
         "effectiveness": "Low",
-        "your_response": "Release the guillotine grip and immediately establish seat belt control as they turn. Their escape from the choke delivers them directly into a back take. Hook legs for back control.",
+        "your_response": "Re-check the prerequisite before continuing. Lift the connected elbows only enough to close space; stop immediately if the pressure becomes a neck twist.",
         "targets_outcome": "Closed Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "Relying on arm strength to squeeze the finish rather than using hip rotation and core torque",
-        "consequence": "Grip fatigues rapidly within 15-20 seconds, opponent outlasts the attempt and escapes when you can no longer maintain pressure",
-        "correction": "Position hips perpendicular to opponent's spine and generate pressure through core rotation. Arms maintain the grip structure while the body generates the force."
+        "error": "Skipping the checkpoint: support the high knee",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Turn onto the hip and keep the knee close so the foot is reached through body position.",
+        "correction": "Turn onto the hip and keep the knee close so the foot is reached through body position."
       },
       {
-        "error": "Gripping too low on the neck near the shoulders instead of high under the chin",
-        "consequence": "Pressure lands on muscular neck tissue rather than carotid arteries, allowing opponent to endure indefinitely and work methodical escape",
-        "correction": "Before committing to the finish, walk the forearm blade incrementally higher until it sits directly under the jawline. The grip should feel like it is wedged into the soft tissue beneath the chin."
+        "error": "Skipping the checkpoint: loop over the foot",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Bring the elbow above the raised foot and the hand around the shoulder into the head-control space.",
+        "correction": "Bring the elbow above the raised foot and the hand around the shoulder into the head-control space."
       },
       {
-        "error": "Keeping hips directly underneath opponent instead of angling perpendicular to their spine",
-        "consequence": "No rotational torque is generated and the finish becomes a standard guillotine pull, removing the mechanical advantage that defines the Hindulotine",
-        "correction": "Actively rotate your hips to create a 45-90 degree angle to their spine before attempting the finish. Your hip bone should be contacting their ribcage on the choking arm side."
+        "error": "Skipping the checkpoint: establish hindu control",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand.",
+        "correction": "Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand."
       },
       {
-        "error": "Loosening grip pressure during body position adjustments",
-        "consequence": "Any momentary pressure relief allows opponent to tuck their chin, breathe, and begin extracting their head from the grip entirely",
-        "correction": "Treat grip pressure as a constant that never decreases. Make all body adjustments incrementally while maintaining or increasing grip tightness throughout."
+        "error": "Skipping the checkpoint: connect the finishing grip",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.",
+        "correction": "Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee."
       },
       {
-        "error": "Failing to control opponent's hips with legs, leaving them free to circle and change angles",
-        "consequence": "Opponent rotates their body to an angle that neutralizes the rotational torque, eventually freeing their head and escaping to a guard passing position",
-        "correction": "Use closed guard, butterfly hooks, or strategic foot posts to restrict hip movement before attempting the finish. The legs are the foundation that makes the rotational finish mechanically sound."
-      },
-      {
-        "error": "Cranking the neck explosively rather than applying steady progressive pressure",
-        "consequence": "Risk of cervical spine injury to training partner and potential tracheal damage from uncontrolled force application",
-        "correction": "Apply pressure gradually with steady core rotation. Sustained compression is both safer and more effective than explosive cranking. Monitor for tap signals throughout."
+        "error": "Skipping the checkpoint: remove slack gradually",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Lift the connected elbows only enough to close space; stop immediately if the pressure becomes a neck twist.",
+        "correction": "Lift the connected elbows only enough to close space; stop immediately if the pressure becomes a neck twist."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Grip Mechanics",
-        "focus": "Chin strap figure-four grip establishment and placement",
-        "description": "Drill the grip configuration in isolation. Practice securing the figure-four lock with the forearm blade positioned high under the chin. Partner provides no resistance. Focus on grip speed, correct wrist placement, and comfortable locking mechanics. 5-minute rounds alternating sides."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on support the high knee. Turn onto the hip and keep the knee close so the foot is reached through body position. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 2: Hip Angle and Torque",
-        "focus": "Rotational mechanics and body positioning",
-        "description": "With grip established on a cooperative partner, practice angling hips perpendicular and generating rotational torque through core rotation. Partner gives feedback on pressure location and intensity. No finishing pressure, focus on understanding which angles produce the strongest mechanical advantage."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on loop over the foot. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 3: Finishing Under Resistance",
-        "focus": "Completing the choke against progressive resistance",
-        "description": "Partner defends at 50-70% resistance using posture recovery, circling, and hand fighting. Practice maintaining grip through defensive reactions while finding the finish. Emphasize patience and incremental adjustments rather than explosive cranking. 3-minute rounds."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on establish hindu control. Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 4: Transition Integration",
-        "focus": "Flowing between finish and alternative attacks",
-        "description": "Partner defends with varied reactions at full resistance. When the finish is unavailable, practice transitioning to darce, anaconda, back take, or front headlock reset. Develop the complete attack system where defensive reactions create new opportunities. Live positional sparring from Hindulotine control."
+        "phase": "Phase 4",
+        "focus": "Link only verified checkpoints",
+        "description": "Work cooperatively on connect the finishing grip. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "flashcards": [
       {
-        "question": "What does the Hindulotine target, and how does the rotation change the pressure vector?",
-        "answer": "The Hindulotine primarily targets both carotid arteries through bilateral compression. The rotational torque from hip angling creates a spiraling pressure vector around the neck rather than a direct front-to-back squeeze, which closes both arteries simultaneously from different angles. This is more effective than linear pulling because the carotids are positioned laterally and respond to circumferential compression.",
-        "safety_critical": false,
-        "answer_line": "Bilateral carotid compression",
+        "question": "Hindulotine attack: what hip orientation helps bring the raised foot within reach?",
+        "answer": "Rolled onto one side rather than flat on the back. Use the hip angle to bring the supported leg within reach. Keep the knee close and avoid hauling the foot against a fixed knee.",
+        "answer_line": "Rolled onto one side",
         "distractors": {
           "plausible": [
-            "Direct front-to-back squeeze",
-            "Trachea compression primarily"
+            "Flat while pulling ankle to face",
+            "Turned away with high knee pinned"
           ],
           "trap": [
-            "Crank neck for spinal pressure"
+            "Lifted onto the neck in a stack"
           ]
         }
       },
       {
-        "question": "They posture up hard with your Hindulotine locked: what adjustment stops the escape?",
-        "answer": "Follow their rise by maintaining the grip while pulling your elbows tight to your body and curling your torso forward. Simultaneously use your legs to pull their hips toward you, removing the base they need to posture. If they achieve significant posture, snap them back down with a sharp pull combined with a hip sprawl. If posture is fully recovered, abandon the finish and transition to front headlock control to reset rather than chasing a deteriorating position.",
-        "safety_critical": false,
-        "answer_line": "Curl chest, drag hips, snap down",
+        "question": "Hindulotine attack: after your elbow passes the raised foot, where does that hand travel?",
+        "answer": "Around the opponent's shoulder toward the head. Route the hand around the shoulder into the head-control space after the elbow clears the foot. Keep the knee supported rather than pulling the foot against a fixed knee.",
+        "answer_line": "Around their shoulder toward head",
         "distractors": {
           "plausible": [
-            "Chase the head as they rise",
-            "Let go and re-shoot the choke"
+            "Under your thigh toward near hip",
+            "Down their back toward the waist"
           ],
           "trap": [
-            "Unhook legs to muscle the head"
+            "Across wrist, shoulder left outside"
           ]
         }
       },
       {
-        "question": "What indicates the Hindulotine is locked and your opponent can no longer escape?",
-        "answer": "The point of no escape occurs when your forearm blade is seated high under the chin with no gap, your hips are angled perpendicular creating full rotational torque, and the opponent's posture is completely broken with their head below your chest. At this stage, their face will change color, their defensive movements become weaker and less coordinated, and they cannot generate the posture or angle needed to relieve pressure regardless of strength.",
-        "safety_critical": false,
-        "answer_line": "High blade, broken posture",
+        "question": "Hindulotine attack: where must the controlling elbow pass relative to your raised foot?",
+        "answer": "Above the supported foot. The controlling elbow passes over the raised foot, then the hand travels around the shoulder. Preserve an unloaded leg-and-arm connection while finding the second hand.",
+        "answer_line": "Above the supported foot",
         "distractors": {
           "plausible": [
-            "Opponent still posts a hand",
-            "Blade seated low on throat"
+            "Below arch with the knee wide",
+            "Outside shin toward the hip"
           ],
           "trap": [
-            "Ease pressure once locked"
+            "Behind thigh, hand above the head"
           ]
         }
       },
       {
-        "question": "What controls must be set before finishing the Hindulotine, and why does the order matter?",
-        "answer": "Before finishing, you must have the chin strap grip locked high under the chin, hips angled perpendicular to the spine, and leg control preventing circling. Attempting the finish without leg control allows the opponent to circle out. Attempting without proper hip angle reduces the technique to a standard guillotine pull. Attempting with a low grip wastes energy on muscular neck tissue. Each element removes one defensive option, and only the combination creates an inescapable position.",
-        "safety_critical": false,
-        "answer_line": "Chin strap, hip angle, legs",
+        "question": "Hindulotine attack: which two connections appear in Ben Eddy's early and later teaching?",
+        "answer": "Reverse-gable in the early lesson; S-grip later. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.",
+        "answer_line": "Early reverse-gable, later S-grip",
         "distractors": {
           "plausible": [
-            "Hip angle before grip locked",
-            "Leg control, skip hip angle"
+            "S-grip, then choke figure-four",
+            "Collar, then no-gi reverse-gable"
           ],
           "trap": [
-            "Finish without leg control"
+            "Palm-to-wrist grip in both lessons"
           ]
         }
       },
       {
-        "question": "They tuck the chin against your blade: what grip fix works without releasing pressure?",
-        "answer": "Walk the choking arm incrementally higher by making micro-adjustments while maintaining constant pressure. Angle your hips more sharply perpendicular and pull your elbow toward your opposite hip to create rotational torque that works around the chin tuck. The rotation generates pressure on the carotids even through a tucked chin because it compresses laterally rather than requiring the blade to be directly under the jaw.",
-        "safety_critical": false,
-        "answer_line": "Walk grip up, angle hips more",
+        "question": "Hindulotine attack: how should connected elbow movement remove the last slack?",
+        "answer": "Lift to close space while keeping the neck aligned. Lift the connected elbows only enough to close space; stop immediately if the pressure becomes a neck twist.",
+        "answer_line": "Lift to close space, neck aligned",
         "distractors": {
           "plausible": [
-            "Yank arm hard for chin gap",
-            "Switch to rear naked choke"
+            "Lift sharply into a backward bend",
+            "Twist hands with the high knee fixed"
           ],
           "trap": [
-            "Release grip, re-shoot higher"
+            "Pull head sideways against the leg"
           ]
         }
       },
       {
-        "question": "What are the most dangerous finishing errors that create injury risk when applying the Hindulotine?",
-        "answer": "The most dangerous errors are cranking the neck explosively rather than applying steady pressure, which risks cervical spine injury, and applying pressure straight down on the trachea instead of targeting the carotids bilaterally, which can crush the windpipe. Additionally, holding the fully locked choke after an opponent goes limp without recognizing unconsciousness is critically dangerous. Always apply gradually, target lateral carotid compression, and release immediately upon any tap or loss of consciousness.",
-        "safety_critical": true,
-        "answer_line": "Explosive crank, windpipe crush",
+        "question": "Hindulotine attack: what must release on a tap even if the opponent passed your lower leg?",
+        "answer": "Both hands and the raised-leg enclosure. Release the whole enclosure at the first tap or change in responsiveness, including if the opponent has passed the lower leg.",
+        "answer_line": "Both hands and the raised-leg loop",
         "distractors": {
           "plausible": [
-            "Grip too loose, choke slips",
-            "Head on the wrong shoulder"
+            "Only the lower foot they passed",
+            "Only fingers; first arm still pulls"
           ],
           "trap": [
-            "Crank hard until they go limp"
+            "Only hips; head stays enclosed"
+          ]
+        },
+        "safety_critical": true
+      },
+      {
+        "question": "Hindulotine attack: why can hauling the foot from flat hips load your own knee?",
+        "answer": "A fixed knee takes motion that should come from the hip. Turn onto the hip and support the close knee rather than pulling a distant foot across the joint. Eddy's entry keeps the raised knee supported as the hip supplies the angle.",
+        "answer_line": "Fixed knee takes the hip's motion",
+        "distractors": {
+          "plausible": [
+            "A fixed knee makes ankle pulls safe",
+            "Hard ankle pull frees the hip first"
+          ],
+          "trap": [
+            "Only ankle mobility sets foot reach"
           ]
         }
       },
       {
-        "question": "How should you immediately respond if your training partner goes limp during a Hindulotine attempt?",
-        "answer": "Release all grip pressure immediately without any hesitation. Place the partner in the recovery position on their side, elevate their legs, and monitor their breathing and consciousness. Do not shake them or attempt to wake them aggressively. If they do not regain consciousness within 20-30 seconds, call for medical assistance immediately. Never reapply the choke in the same training session after a loss of consciousness event.",
-        "safety_critical": true,
-        "answer_line": "Release the grip instantly",
+        "question": "Hindulotine attack: what distinguishes Hindu Control from the named submission attempt?",
+        "answer": "Loading the connected enclosure changes hold to choke. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.",
+        "answer_line": "Loaded enclosure adds neck pressure",
         "distractors": {
           "plausible": [
-            "Sit them straight upright",
-            "Shake them hard to wake them"
+            "The hold finishes with hands apart",
+            "A jacket grip adds the compression"
           ],
           "trap": [
-            "Hold until they finally tap"
+            "Both legs must leave the opponent"
           ]
         }
       },
       {
-        "question": "They grip your choking wrist two-on-one in the Hindulotine: how do you finish?",
-        "answer": "Their two-on-one grip on your wrist means both their arms are occupied defensively and not building frames or creating posture. Increase rotational torque through greater hip angle while using your legs to pull their body closer, removing the leverage their arm grip provides. Alternatively, use the opening created by their arm commitment to switch to a darce by threading deeper, since their near arm is now trapped between their own hands and their neck.",
-        "safety_critical": false,
-        "answer_line": "More hip torque, pull closer",
+        "question": "Hindulotine practice: how far should the raised knee move from your ribs when reaching the foot?",
+        "answer": "Close to the torso with support. Maintain the knee hug/support and use hip rotation to shorten the distance. The first repetitions should also include a complete release without choke pressure.",
+        "answer_line": "Close to the torso with support",
         "distractors": {
           "plausible": [
-            "Pull wrist free with strength",
-            "Switch to armbar immediately"
+            "Flared out as hand pulls foot in",
+            "Fixed on mat, ankle across face"
           ],
           "trap": [
-            "Release grip to break their hold"
+            "Straightened away to extend reach"
           ]
-        }
+        },
+        "safety_critical": true
       },
       {
-        "question": "How does grip choice affect Hindulotine finishing speed, and how do you train it safely?",
-        "answer": "The figure-four chin strap grip tightens faster than standard gable or S-grip guillotines because the lever arm amplifies small rotational inputs into significant pressure changes. This means the window between partial pressure and full compression is shorter. In training, apply pressure incrementally over 3-5 seconds rather than snapping the rotation, and maintain verbal communication with your partner throughout the finishing sequence to ensure they can tap before reaching unconsciousness.",
-        "safety_critical": true,
-        "answer_line": "Figure-four bites fast; go slow",
+        "question": "Hindulotine practice: which connection may remain around the neck after your lower leg is passed?",
+        "answer": "The high leg joined to the controlling arm. Passing the lower leg does not necessarily open the high leg-and-arm connection. Release the whole enclosure on a tap even if the opponent has gained lower-body position.",
+        "answer_line": "High leg joined to the arm",
         "distractors": {
           "plausible": [
-            "Gable grip bites fastest",
-            "All grips tighten at one rate"
+            "Only the low hook around the hips",
+            "Low crossed ankles around the waist"
           ],
           "trap": [
-            "Snap the rotation to finish"
-          ]
-        }
-      },
-      {
-        "question": "What is your best early defense as the Hindulotine grip starts to lock?",
-        "answer": "Load their forward drive onto butterfly hooks positioned inside their thighs, then execute a butterfly sweep while maintaining the chin strap grip. Their forward momentum becomes the energy for the sweep, landing you in top mount with the Hindulotine still locked. From mount, gravity now assists the choke and their stack defense has delivered them into a worse position. This sweep-to-finish combination is high percentage because their own defensive energy powers the transition.",
-        "safety_critical": false,
-        "answer_line": "Butterfly sweep off stack",
-        "distractors": {
-          "plausible": [
-            "Frame and wait out the stack",
-            "Bridge and roll to escape"
-          ],
-          "trap": [
-            "Release grip to relieve stack"
+            "Knee shield with high leg released"
           ]
         }
       }
@@ -453,182 +403,169 @@
   },
   "defender": {
     "name": "from Hindulotine Defender",
-    "description": "Defend and escape the Hindulotine choke from Hindulotine control. Recognition cues, escape timing, posture recovery techniques, and safe defensive responses.",
-    "overview": "Defending the Hindulotine finish requires early recognition and immediate posture recovery before the rotational torque becomes fully established. The chin strap figure-four grip tightens rapidly once hip rotation begins, making the window for effective defense narrow. The defender must prioritize preventing the attacker's hips from angling perpendicular to the spine while simultaneously working to recover posture and extract the head from the grip. Defensive success depends on disrupting the mechanical chain of grip, angle, and rotation before all three components align. Once all three are in place, the choke closes within seconds and defensive options are functionally eliminated.",
+    "description": "Hindulotine from Hindulotine (defender): An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup. Use an early inside frame before both hands close around the neck enclosure.",
+    "overview": "The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.\n\nAn elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup. Use an early inside frame before both hands close around the neck enclosure. Avoid turning the head sharply against the fixed leg and forearm.\n\nAddress the head-and-leg connection instead of assuming a lower-body guard pass solves the choke. Stop before neck pain, dizziness, or reduced awareness; positional progress does not cancel the choke. Rebuild posture and guard-passing frames only after the head has been freed.\n\nDrill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal.\n\nThe early escape denies the finishing hand connection and clears the head-and-leg enclosure. Passing the lower leg does not free the neck; tap if the upper enclosure is already closed.\n\nProtect the neck while denying the finishing hand: keep the head aligned and an inside arm between your neck and the closing enclosure. A chin position alone cannot undo the raised-leg and arm connection.",
     "key_principles": [
-      "Posture recovery is the single highest priority - fight to achieve vertical spine alignment before the grip locks fully",
-      "Prevent the attacker's hips from angling perpendicular to your spine by driving into them and controlling hip movement",
-      "Keep your chin tucked and shoulders raised to deny the forearm blade access to the space under your jaw",
-      "Address the grip early by hand fighting the figure-four before it locks rather than trying to break it once set",
-      "Circle toward the choking arm side to reduce rotational torque angle rather than pulling straight backward",
-      "Tap early when the choke is fully locked - the Hindulotine compresses carotids rapidly and has a short window before unconsciousness"
+      "Notice the arm path: An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup.",
+      "Block hand connection: Use an early inside frame before both hands close around the neck enclosure.",
+      "Keep the neck aligned: Avoid turning the head sharply against the fixed leg and forearm.",
+      "Clear the upper enclosure: Address the head-and-leg connection instead of assuming a lower-body guard pass solves the choke.",
+      "Tap early: Stop before neck pain, dizziness, or reduced awareness; positional progress does not cancel the choke.",
+      "Recover after release: Rebuild posture and guard-passing frames only after the head has been freed."
     ],
     "recognition_cues": [
-      "Feeling a forearm blade wedging under your chin combined with a figure-four lock tightening behind your head",
-      "Opponent's hips beginning to rotate perpendicular to your spine rather than staying directly in front of you",
-      "Increasing rotational pressure around your neck that feels like a twisting compression rather than a straight pull",
-      "Opponent's legs actively controlling your hips and preventing you from circling or achieving posture",
-      "Sensation of blood flow restriction to the head combined with cervical torque that distinguishes this from standard guillotines"
+      "The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder.",
+      "The attacker brings the elbow above their raised foot and the hand around your shoulder into the head-control space.",
+      "The attacker uses the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee."
     ],
     "defensive_options": [
       {
-        "action": "Posture up forcefully by stacking weight onto opponent and driving head upward through the grip",
-        "when_to_use": "Early stage when grip is established but hips are not yet fully angled and rotational torque has not started",
-        "targets_outcome": "Hindulotine/Top",
-        "if_successful": "Return to Hindulotine control position with submission threat neutralized, ready to begin passing or extracting head",
-        "risk": "If posture recovery is too slow, the attacker tightens the grip during your attempt and you expend energy without relief"
+        "action": "An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Hindulotine/Bottom",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal."
       },
       {
-        "action": "Circle toward the choking arm side to reduce the rotational torque angle and create space for head extraction",
-        "when_to_use": "When the attacker has begun hip rotation but the choke is not yet fully locked, and your posture is partially compromised",
-        "targets_outcome": "Hindulotine/Top",
-        "if_successful": "Neutralize the rotational component and reduce the choke to a manageable standard guillotine grip that can be defended conventionally",
-        "risk": "If the attacker's legs block your circling path, you waste energy and remain in the same position with increasing fatigue"
+        "action": "Use an early inside frame before both hands close around the neck enclosure.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Hindulotine/Bottom",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal."
       },
       {
-        "action": "Hand fight the figure-four lock by wedging fingers between the grip components to prevent full locking",
-        "when_to_use": "During initial grip establishment before the figure-four is fully locked and the attacker commits to the finish",
-        "targets_outcome": "Hindulotine/Top",
-        "if_successful": "Prevent the grip from reaching full mechanical advantage, creating enough slack to begin posture recovery",
-        "risk": "Using both hands on grip fighting removes your ability to frame or base, making you vulnerable to sweeps if the attacker adjusts"
+        "action": "Avoid turning the head sharply against the fixed leg and forearm.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Hindulotine/Bottom",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal."
       },
       {
-        "action": "Drive forward aggressively to flatten the attacker and stack your weight to neutralize the hip angle",
-        "when_to_use": "When the attacker is playing bottom Hindulotine and using guard to generate the rotational angle",
+        "action": "Address the head-and-leg connection instead of assuming a lower-body guard pass solves the choke.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Closed Guard/Bottom",
-        "if_successful": "Flatten the attacker's hip angle to zero, eliminating rotational torque and allowing gradual head extraction under your stacking pressure",
-        "risk": "If the attacker has butterfly hooks, your forward drive may be redirected into a sweep landing you in bottom mount with the choke intact"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal."
       }
     ],
     "escape_paths": [
-      "Posture recovery to standing or combat base followed by controlled head extraction from the loosened grip",
-      "Circle toward choking arm side while hand fighting the figure-four to reduce torque and eventually free the head",
-      "Von Flue counter by driving shoulder pressure into attacker's neck when their guard is open and hips are flat"
+      "Use an early inside frame before both hands close around the neck enclosure.",
+      "Avoid turning the head sharply against the fixed leg and forearm."
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Hindulotine/Top",
-        "how": "Recover posture early before rotational torque is established, then maintain postural control while methodically working to extract your head from the grip. Once posture is fully recovered, the Hindulotine grip loses its mechanical advantage."
+        "outcome": "Hindulotine/Bottom",
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup."
       },
       {
         "outcome": "Closed Guard/Bottom",
-        "how": "Stack the attacker flat by driving forward with heavy shoulder pressure, neutralizing their hip angle and rotational mechanics. Once flattened, work a Von Flue counter or controlled head extraction to transition to a guard passing position."
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Use an early inside frame before both hands close around the neck enclosure."
       }
     ],
     "common_errors": [
       {
-        "error": "Pulling straight backward to escape rather than circling toward the choking arm to reduce rotational angle",
-        "consequence": "Pulling backward actually increases the distance between your neck and their grip, which tightens the choke rather than loosening it. This is the opposite of the intended effect.",
-        "correction": "Always circle toward the choking arm side. This reduces the rotational torque angle and creates slack in the grip by moving in the direction that collapses the lever arm rather than extending it."
+        "error": "Skipping the checkpoint: notice the arm path",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup.",
+        "correction": "An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup."
       },
       {
-        "error": "Waiting too long to defend, hoping the choke is not tight enough to finish",
-        "consequence": "The figure-four chin strap grip produces rapid carotid compression once fully set. The window between partial pressure and unconsciousness can be as short as 4-6 seconds.",
-        "correction": "Begin defensive action immediately when you feel the forearm blade wedge under your chin. Do not wait to assess if the choke is tight. Early defense when the grip is still developing is far more effective than late defense against a fully locked submission."
+        "error": "Skipping the checkpoint: block hand connection",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Use an early inside frame before both hands close around the neck enclosure.",
+        "correction": "Use an early inside frame before both hands close around the neck enclosure."
       },
       {
-        "error": "Using only arm strength to fight the grip while neglecting posture recovery and body positioning",
-        "consequence": "Arms fatigue rapidly against a figure-four lock that leverages the attacker's entire body. Pure grip fighting without posture recovery delays the escape without solving the fundamental mechanical problem.",
-        "correction": "Combine hand fighting with simultaneous posture recovery. Use your legs and back to drive upward while your hands address the grip. The posture recovery removes the mechanical advantage that makes the grip dangerous."
-      },
-      {
-        "error": "Failing to tap when the choke is fully locked, attempting to endure through the pressure",
-        "consequence": "Loss of consciousness can occur in 4-10 seconds from full bilateral carotid compression. Attempting to wait out a fully locked Hindulotine risks unconsciousness with no defensive benefit.",
-        "correction": "Recognize when the choke is fully locked with no viable escape remaining and tap immediately. In training, preserving your health always takes priority over avoiding a submission. The learning happens in the defense, not in enduring a locked choke."
+        "error": "Skipping the checkpoint: keep the neck aligned",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Avoid turning the head sharply against the fixed leg and forearm.",
+        "correction": "Avoid turning the head sharply against the fixed leg and forearm."
       }
     ],
     "flashcards": [
       {
-        "question": "How do you recognize that the Hindulotine finish is being set up before it reaches full lock?",
-        "answer": "The key early recognition cues are feeling a forearm blade wedging under your chin rather than against your throat, sensing the opponent's hips beginning to rotate perpendicular to your spine rather than sitting square, and feeling their legs actively preventing you from circling. The combination of chin strap grip, hip rotation, and leg control indicates an imminent Hindulotine finish attempt and demands immediate defensive action.",
-        "safety_critical": false,
-        "answer_line": "Blade under chin, hips rotate",
+        "question": "Hindulotine defense: which approach of the opponent's arm signals the leg-in guillotine?",
+        "answer": "Elbow over their raised foot toward your shoulder. An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup.",
+        "answer_line": "Elbow over foot toward your shoulder",
         "distractors": {
           "plausible": [
-            "Feel forearm across throat",
-            "Opponent grips your collar"
+            "Elbow under thigh toward far knee",
+            "Hand behind hip, high leg lowered"
           ],
           "trap": [
-            "Wait for full lock to react"
+            "Forearms outside head, below ribs"
           ]
         }
       },
       {
-        "question": "When should you tap to the Hindulotine and what are the safest ways to signal?",
-        "answer": "Tap immediately when you feel bilateral carotid compression fully established with no viable escape path remaining. Do not attempt to endure a fully locked Hindulotine. Signal by physically tapping your partner's body, arm, or leg. If your arms are trapped, tap the mat repeatedly or say 'tap' verbally. Any sign of lightheadedness, vision narrowing, or tingling means the choke is taking effect and you should tap instantly.",
-        "safety_critical": true,
-        "answer_line": "Tap once carotids fully lock",
+        "question": "Hindulotine defense: which action completes the choke's upper-body connection?",
+        "answer": "The two hands joining around the neck enclosure. Use an early inside frame before both hands close around the neck enclosure.",
+        "answer_line": "Hands joining around the neck",
         "distractors": {
           "plausible": [
-            "Raise a hand instead of tapping",
-            "Wait for the coach to call it"
+            "A hand resting on your chest",
+            "One arm keeping only the shin grip"
           ],
           "trap": [
-            "Endure the lock and ride it out"
+            "Both hands staying on your near arm"
           ]
         }
       },
       {
-        "question": "Why beat the Hindulotine by circling toward the choking arm instead of pulling straight back?",
-        "answer": "The highest priority defensive response is immediate posture recovery before the rotational torque component is established. Drive your head upward while stacking weight onto the attacker and simultaneously hand fighting the figure-four lock to prevent it from fully setting. Early posture recovery removes the mechanical advantage that makes the Hindulotine finish possible and reduces it to a loose grip that can be managed through standard head extraction techniques.",
-        "safety_critical": false,
-        "answer_line": "Recover posture immediately",
+        "question": "Hindulotine defense: why should you avoid a sharp head turn against the secured grip?",
+        "answer": "The fixed leg and forearm restrain the neck during a turn. Avoid turning the head sharply against the fixed leg and forearm.",
+        "answer_line": "Leg and forearm fix the turning neck",
         "distractors": {
           "plausible": [
-            "Pull head down and turtle",
-            "Bridge into their hips"
+            "Head turning slides high foot away",
+            "Hand grip holds only your upper arm"
           ],
           "trap": [
-            "Pull straight back hard"
+            "Raised knee prevents neck pressure"
           ]
         }
       },
       {
-        "question": "Why circle toward the choking arm rather than pull straight back against the Hindulotine?",
-        "answer": "The Hindulotine's power comes from rotational torque generated by the attacker's hip angle. Circling toward the choking arm collapses the angle between your body and the attacker's rotational axis, reducing the torque mechanically. Pulling straight back actually extends the lever arm and increases tension in the grip, tightening the choke. Moving toward the threat is counterintuitive but mechanically correct because it neutralizes the specific rotational force that makes this variation dangerous.",
-        "safety_critical": false,
-        "answer_line": "Circle toward the choke side",
+        "question": "Hindulotine defense: does clearing the lower leg alone establish that the choke has opened?",
+        "answer": "No; the upper enclosure can remain closed. The hands and raised leg may retain the head even after a lower-body pass. Continue to recognize that enclosure and tap if it is secured.",
+        "answer_line": "No; the upper loop can stay closed",
         "distractors": {
           "plausible": [
-            "Circle away from the choke arm",
-            "Explode upward to rip free"
+            "Yes; passing hips removes neck grip",
+            "Yes; high foot must follow low leg"
           ],
           "trap": [
-            "Roll away from the choking arm"
+            "Yes; side position stops neck load"
           ]
         }
       },
       {
-        "question": "Your arms are trapped in a Hindulotine and you cannot tap physically: what do you do?",
-        "answer": "Immediately use verbal tapping by clearly saying 'tap' or 'stop.' If you cannot speak due to tracheal pressure, tap the mat repeatedly with your feet or any body part that can reach it. Your training partner and instructor should recognize any repeated tapping motion or verbal distress signal as a legitimate tap. If you feel consciousness fading, go limp deliberately as this should trigger an immediate release from any responsible training partner.",
-        "safety_critical": true,
-        "answer_line": "Say 'tap' or tap mat with feet",
+        "question": "Hindulotine defense: what must the partner do after your tap before you move away?",
+        "answer": "Open both hands and lower the raised leg. The whole enclosure must open before the bodies turn or separate. A positional pass is not itself evidence that the neck has been released.",
+        "answer_line": "Open both hands; lower the high leg",
         "distractors": {
           "plausible": [
-            "Shake your head side to side",
-            "Wait for the ref to notice"
+            "Fix high foot, loosen one finger",
+            "Keep loop until you turn toward them"
           ],
           "trap": [
-            "Hold your breath and fight it"
+            "Release low hook, retain head grip"
           ]
         }
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition and Early Defense",
-        "focus": "Identifying Hindulotine setup cues and immediate posture recovery",
-        "description": "Partner establishes the Hindulotine grip at 30% resistance. Practice recognizing the grip configuration, hip angle, and leg control cues. Focus on immediate posture recovery response. No finishing pressure applied. Build the defensive reflex of reacting to grip establishment within 1-2 seconds."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on notice the arm path. An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 2: Circling and Hand Fighting",
-        "focus": "Defensive movement patterns and grip disruption",
-        "description": "Partner applies moderate resistance with the Hindulotine. Practice circling toward the choking arm while simultaneously hand fighting the figure-four lock. Develop the coordination of multiple defensive actions happening together. 3-minute rounds at 50% resistance with partner providing feedback."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on block hand connection. Use an early inside frame before both hands close around the neck enclosure. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 3: Escape Under Pressure",
-        "focus": "Completing escapes against progressive finishing attempts",
-        "description": "Partner applies the Hindulotine finish at 70-100% resistance. Practice executing the full defensive sequence under realistic pressure: recognition, posture recovery, circling, and head extraction. Emphasize tap awareness - practice tapping early when the choke is fully locked rather than enduring. Live positional sparring from the Hindulotine position."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on keep the neck aligned. Avoid turning the head sharply against the fixed leg and forearm. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "clips": [

@@ -36,50 +36,6 @@ description: "Master Butterfly Hook Control in BJJ. Strategic guide covering hoo
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Butterfly Hook Control \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Butterfly guard highlights",
-      "description": "Butterfly Hook Control film study: Butterfly guard highlights, taught by Forge Forward.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OQCEokRYP4c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OQCEokRYP4c",
-      "url": "https://www.youtube.com/watch?v=OQCEokRYP4c",
-      "creator": { "@type": "Person", "name": "Forge Forward" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Butterfly sweep on hip, one hook",
-      "description": "Butterfly Hook Control film study: Butterfly sweep on hip, one hook, taught by Nine Nine Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ywB6TEyjyRM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ywB6TEyjyRM",
-      "url": "https://www.youtube.com/watch?v=ywB6TEyjyRM",
-      "creator": { "@type": "Person", "name": "Nine Nine Jiu Jitsu" },
-      "duration": "PT58S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Marcelo Garcia butterfly sweep",
-      "description": "Butterfly Hook Control film study: Marcelo Garcia butterfly sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
-      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT81S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -119,40 +75,6 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Butterfly Hook Control in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OQCEokRYP4c)
-
-<p class="clip-credit"><strong>Butterfly guard highlights</strong> — taught by Forge Forward · 1:18 · <a href="https://www.youtube.com/watch?v=OQCEokRYP4c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ywB6TEyjyRM)
-
-<p class="clip-credit"><strong>Butterfly sweep on hip, one hook</strong> — taught by Nine Nine Jiu Jitsu · 0:58 · <a href="https://www.youtube.com/watch?v=ywB6TEyjyRM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
-
-<p class="clip-credit"><strong>Marcelo Garcia butterfly sweep</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -221,37 +143,33 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (16% of attempts)
+- **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (4% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (12% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (13% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (8% of attempts)
-
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (9% of attempts)
-
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (7% of attempts)
-
-- **[[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (5% of attempts)
-
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
-
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (11% of attempts)
-
-- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (4% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (9% of attempts)
 
 - **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (5% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
+- **[[Transitions/Butterfly Hook Sweep/Attacker|Butterfly Hook Sweep]]** (4% of attempts)
+
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (17% of attempts)
 
 - **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (gi only)
 
-- **[[Transitions/John Wayne Sweep/Attacker|John Wayne Sweep]]** (2% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
-- **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (4% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (8% of attempts)
 
-- **[[Transitions/Butterfly Hook Sweep/Attacker|Butterfly Hook Sweep]]** (4% of attempts)
+- **[[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (5% of attempts)
+
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (10% of attempts)
+
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
 
 - **[[Transitions/Reguard to Butterfly Guard/Attacker|Reguard to Butterfly Guard]]** (4% of attempts)
+
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -401,7 +319,7 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Butterfly Hook Control: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

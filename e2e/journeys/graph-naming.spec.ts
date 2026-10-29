@@ -472,6 +472,7 @@ test("the option bars never drain, and the question bar cannot disagree with its
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.openQuestion() // U47 d: the question bar runs once the question is taken up
   await j.advance(1500)
 
   const read = () =>
@@ -547,7 +548,7 @@ test("@curated no position label the graph draws carries its role", async ({ pag
     }
     return { titled, roled, bad }
   })
-  expect(corpus.titled, "every position hub really is titled with a role — that is the hazard").toBe(133) // census:positions
+  expect(corpus.titled, "every position hub really is titled with a role — that is the hazard").toBe(132) // census:positions
   expect(corpus.roled, `and the graph prints none of them (${JSON.stringify(corpus.bad)})`).toBe(0)
 
   // ...AND ON THE GLASS, which is what stops this journey from being a re-implementation of the
@@ -660,6 +661,7 @@ test("@curated a qualified technique name is drawn as two lines, not one long on
   // clears by 1874px — the most room of any frame, so a future re-layout is least likely to
   // take it away. Side-Control/Top, Closed-Guard/Bottom and Turtle/Bottom also have none.
   await j.boot("/Positions/Mount/Bottom")
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await j.advance(6000)
 
   // Pixel differences need the same camera for both frames. The arrival flight can
@@ -906,13 +908,14 @@ test("@curated a qualified focus keeps a compact subtitle stack when zooming out
 }) => {
   const j = journey(page)
   await j.boot("/Transitions/Trap-and-Roll-from-Mount/Defender")
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
 
   // One real canvas frame at each LOD is the subject. Base links do not participate in labels;
   // suppressing that pass keeps this focused render deterministic on software-rasterized runners
   // while the positive count proves the full shipped graph was ingested before isolation.
   const { edgeCount, focus, role, split, merged } = await page.evaluate(() => {
     const a = (window as Any).__neural
-    const idx = a._urlSeedIdx
+    const idx = a.focusIdx
     const n = a.nodes[idx]
     if (!n || n.t !== "Trap and Roll from Mount" || n.role !== "defender")
       throw new Error(`reported URL resolved to ${n ? `${n.t}/${n.role}` : "nothing"}`)
@@ -930,7 +933,7 @@ test("@curated a qualified focus keeps a compact subtitle stack when zooming out
     a.introDone = true
     a.focusIdx = idx
     a.currentPos = idx
-    a.playerRole = a._urlSeedRole || "top"
+    // The selected reader seat is the production arrival's role.
     a.paused = true
     a.pulse = null
     a.activeMove = null

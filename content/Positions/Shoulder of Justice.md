@@ -47,35 +47,13 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shoulder Pressure Concept",
-      "description": "Shoulder of Justice film study: Shoulder Pressure Concept, taught by Roy Dean.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BjeDX3WupdA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BjeDX3WupdA",
-      "url": "https://www.youtube.com/watch?v=BjeDX3WupdA",
-      "creator": { "@type": "Person", "name": "Roy Dean" },
-      "duration": "PT39S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Heavy shoulder of justice in side control",
-      "description": "Shoulder of Justice film study: Heavy shoulder of justice in side control, taught by Coach Cane.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ajC_jfdoMCE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ajC_jfdoMCE",
-      "url": "https://www.youtube.com/watch?v=ajC_jfdoMCE",
-      "creator": { "@type": "Person", "name": "Coach Cane" },
-      "duration": "PT192S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cross sides shoulder of justice pressure",
-      "description": "Shoulder of Justice film study: Cross sides shoulder of justice pressure, taught by SBG PDX.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zMVWIvd6MQU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zMVWIvd6MQU",
-      "url": "https://www.youtube.com/watch?v=zMVWIvd6MQU",
-      "creator": { "@type": "Person", "name": "SBG PDX" },
-      "duration": "PT256S"
+      "name": "Cross Sides Shoulder of Justice 1",
+      "description": "Shoulder of Justice film study: Cross Sides Shoulder of Justice 1, taught by SBG New Braunfels.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HO877lE69nM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HO877lE69nM",
+      "url": "https://www.youtube.com/watch?v=HO877lE69nM",
+      "creator": { "@type": "Person", "name": "SBG New Braunfels" },
+      "duration": "PT144S"
     }
   ]
 }
@@ -127,25 +105,9 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=BjeDX3WupdA)
+![](https://www.youtube.com/watch?v=HO877lE69nM)
 
-<p class="clip-credit"><strong>Shoulder Pressure Concept</strong> — taught by Roy Dean · 0:39 · <a href="https://www.youtube.com/watch?v=BjeDX3WupdA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ajC_jfdoMCE)
-
-<p class="clip-credit"><strong>Heavy shoulder of justice in side control</strong> — taught by Coach Cane · 3:12 · <a href="https://www.youtube.com/watch?v=ajC_jfdoMCE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zMVWIvd6MQU)
-
-<p class="clip-credit"><strong>Cross sides shoulder of justice pressure</strong> — taught by SBG PDX · 4:16 · <a href="https://www.youtube.com/watch?v=zMVWIvd6MQU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Sides Shoulder of Justice 1</strong> — taught by SBG New Braunfels · 2:24 · <a href="https://www.youtube.com/watch?v=HO877lE69nM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

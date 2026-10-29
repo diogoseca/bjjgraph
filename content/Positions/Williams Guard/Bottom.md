@@ -165,35 +165,22 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Williams Guard sweep variations",
-      "description": "Williams Guard (Bottom) film study: Williams Guard sweep variations, taught by UFAI Grappling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vcO2z_awL5k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vcO2z_awL5k",
-      "url": "https://www.youtube.com/watch?v=vcO2z_awL5k",
-      "creator": { "@type": "Person", "name": "UFAI Grappling" },
-      "duration": "PT36S"
+      "name": "Williams Guard BJJ",
+      "description": "Williams Guard (Bottom) film study: Williams Guard BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1Ceb4MC3foM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1Ceb4MC3foM",
+      "url": "https://www.youtube.com/watch?v=1Ceb4MC3foM",
+      "duration": "PT89S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Williams Guard shoulder pin options",
-      "description": "Williams Guard (Bottom) film study: Williams Guard shoulder pin options, taught by Cross Fight.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Mfw8-mXM_JY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Mfw8-mXM_JY",
-      "url": "https://www.youtube.com/watch?v=Mfw8-mXM_JY",
-      "creator": { "@type": "Person", "name": "Cross Fight" },
-      "duration": "PT38S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Williams Guard attacks breakdown",
-      "description": "Williams Guard (Bottom) film study: Williams Guard attacks breakdown, taught by Chad Lyman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1Ceb4MC3foM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1Ceb4MC3foM",
-      "url": "https://www.youtube.com/watch?v=1Ceb4MC3foM",
-      "creator": { "@type": "Person", "name": "Chad Lyman" },
-      "duration": "PT89S"
+      "name": "Guarda Williams, detalhes",
+      "description": "Williams Guard (Bottom) film study: Guarda Williams, detalhes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9H9AoNHN8mU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9H9AoNHN8mU",
+      "url": "https://www.youtube.com/watch?v=9H9AoNHN8mU",
+      "duration": "PT100S"
     }
   ]
 }
@@ -219,25 +206,17 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vcO2z_awL5k)
-
-<p class="clip-credit"><strong>Williams Guard sweep variations</strong> — taught by UFAI Grappling · 0:36 · <a href="https://www.youtube.com/watch?v=vcO2z_awL5k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Mfw8-mXM_JY)
-
-<p class="clip-credit"><strong>Williams Guard shoulder pin options</strong> — taught by Cross Fight · 0:38 · <a href="https://www.youtube.com/watch?v=Mfw8-mXM_JY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=1Ceb4MC3foM)
 
-<p class="clip-credit"><strong>Williams Guard attacks breakdown</strong> — taught by Chad Lyman · 1:29 · <a href="https://www.youtube.com/watch?v=1Ceb4MC3foM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Williams Guard BJJ</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=1Ceb4MC3foM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9H9AoNHN8mU)
+
+<p class="clip-credit"><strong>Guarda Williams, detalhes</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=9H9AoNHN8mU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

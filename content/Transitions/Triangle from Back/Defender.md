@@ -161,23 +161,11 @@ description: "How to defend against Triangle from Back in BJJ. Recognition cues,
       "@type": "VideoObject",
       "position": 1,
       "name": "Back triangle escapes",
-      "description": "Triangle from Back (Defender) film study: Back triangle escapes, taught by Michael Hoffman.",
+      "description": "Triangle from Back (Defender) film study: Back triangle escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qZ5ahQCqrTE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qZ5ahQCqrTE",
       "url": "https://www.youtube.com/watch?v=qZ5ahQCqrTE",
-      "creator": { "@type": "Person", "name": "Michael Hoffman" },
       "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back mount triangle escape",
-      "description": "Triangle from Back (Defender) film study: Back mount triangle escape, taught by Eli Knight.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jOL9pqG7lwo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jOL9pqG7lwo",
-      "url": "https://www.youtube.com/watch?v=jOL9pqG7lwo",
-      "creator": { "@type": "Person", "name": "Eli Knight" },
-      "duration": "PT244S"
     }
   ]
 }
@@ -211,15 +199,7 @@ Successful defense against this technique demands a balance between defending th
 
 ![](https://www.youtube.com/watch?v=qZ5ahQCqrTE)
 
-<p class="clip-credit"><strong>Back triangle escapes</strong> — taught by Michael Hoffman · 1:50 · <a href="https://www.youtube.com/watch?v=qZ5ahQCqrTE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jOL9pqG7lwo)
-
-<p class="clip-credit"><strong>Back mount triangle escape</strong> — taught by Eli Knight · 4:04 · <a href="https://www.youtube.com/watch?v=jOL9pqG7lwo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back triangle escapes</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=qZ5ahQCqrTE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

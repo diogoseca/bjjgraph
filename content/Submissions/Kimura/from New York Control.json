@@ -430,21 +430,10 @@
     "clips": [
       {
         "id": "Q2aYW-20B44",
-        "title": "Meathook to Kimura / Ultimate Kimura",
-        "by": "Marshall Stamper",
-        "vertical": false,
+        "title": "Marshall Stamper ~ Meathook→Chilldog→Carnie/Kimura/Ultimate Kimura",
         "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
         "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "p6M-9BVuWqs",
-        "title": "Dead Orchard finish: clearing the elbow",
-        "by": "Ben Eddy",
-        "vertical": false,
-        "channel": "Ben Eddy Bravo",
-        "duration": 79,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -619,30 +608,11 @@
     "clips": [
       {
         "id": "FoAYceaEPLc",
-        "title": "Counter Kimuras",
-        "by": "Chewjitsu",
-        "vertical": false,
+        "title": "3 Sneaky Ways to Counter Kimuras from Half Guard Top (Using 1 Grip)",
         "channel": "Chewjitsu",
         "duration": 277,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "bUZmy2Gu7jo",
-        "title": "10th Planet kimura grip break",
-        "by": "10th Planet West LA",
         "vertical": false,
-        "channel": "10th Planet Jiu Jitsu - West LA",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mQc4mxtDGUo",
-        "title": "Kimura escape and counters",
-        "by": "BJJ After Forty",
-        "vertical": false,
-        "channel": "BJJ After Forty",
-        "duration": 201,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

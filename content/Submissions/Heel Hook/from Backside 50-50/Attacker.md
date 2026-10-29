@@ -23,7 +23,7 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
     {
       "@type": "HowToStep",
       "name": "Recognize the Timing Window",
-      "text": "Monitor the top player's weight distribution and hand positioning constantly while maintaining your defensive frames. The opening appears when they shift focus to their own offense, initiating a back control attempt, committing to a leg attack, or adjusting their pressure angle. You feel their chest pressure lighten or their hands release from controlling your legs. This momentary window is your signal to transition from defense to attack. Do not force this window or anticipate it prematurely.",
+      "text": "Monitor the top player's weight distribution and hand positioning constantly while maintaining your defensive frames. The opening appears when they shift focus to their own offense, initiating a back control attempt, committing to a leg attack, or adjusting their pressure angle. You feel their knee-line control lighten or their hands release from controlling your legs. This momentary window is your signal to transition from defense to attack. Do not force this window or anticipate it prematurely.",
       "position": 1
     },
     {
@@ -59,7 +59,7 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
     {
       "@type": "HowToStep",
       "name": "Manage Post-Attempt Recovery",
-      "text": "If the submission attempt fails, the opponent defends successfully, or you choose to abandon the attack, immediately return your hands to defensive frames against the opponent's chest and hips. Re-establish your hip angle to prevent flattening. The transition from attacking back to defending must be seamless with zero delay. Any hesitation in re-establishing frames creates dangerous openings for the top player to advance to back control or improve their entanglement position. Treat the recovery as part of the technique itself, not an afterthought.",
+      "text": "If the counterattack fails or you abandon it, immediately protect your own heel and address the controlling inside foot and leg clamp. Work to recover the knee line or a facing angle before attempting another counterattack.",
       "position": 7
     }
   ],
@@ -79,15 +79,15 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
       "name": "What is the optimal timing window for initiating the heel hook from Backside 50-50 bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal window opens when the top player shifts their offensive focus and redistributes their weight. This occurs when they initiate a back control attempt, commit hands to their own leg attack, or adjust their pressure angle. During these transitions, their chest pressure lightens and their defensive awareness of their own heel drops. You feel the pressure reduction through your frames and see or feel their hands leave your legs. This window is typically one to three seconds long before they settle into their new offensive posture."
+        "text": "A counterattack may become available while the controlling player changes grips or adjusts the leg clamp and exposes their own heel. First protect your trapped leg and confirm the grip is accessible. Do not abandon heel defense to reach for a foot you cannot securely control."
       }
     },
     {
       "@type": "Question",
-      "name": "Under heavy chest pressure with no heel hook opening from backside 50-50, what is the priority?",
+      "name": "Under heavy knee-line control with no heel hook opening from backside 50-50, what is the priority?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Prioritize defensive frame maintenance and positional survival over forcing the heel hook. A settled top player with full chest pressure has both awareness and mechanical advantage to defend any heel hook attempt from bottom. Forcing the attack against a stable opponent only opens you to back control counter without meaningful submission threat. Maintain your frames, stay on your side to preserve hip mobility, and wait for the opponent to create the opening through their own movement. The heel hook from bottom is fundamentally a reactive counter-attack, not a proactive strategy."
+        "text": "Prioritize defensive frame maintenance and positional survival over forcing the heel hook. A settled top player with full knee-line control has both awareness and mechanical advantage to defend any heel hook attempt from bottom. Forcing the attack against a stable opponent only opens you to back control counter without meaningful submission threat. Maintain your frames, stay on your side to preserve hip mobility, and wait for the opponent to create the opening through their own movement. The heel hook from bottom is fundamentally a reactive counter-attack, not a proactive strategy."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
       "name": "You have the heel but they walk their hips up toward back control—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release the heel immediately and address the back control threat. Back control is a significantly worse position than backside 50-50 bottom, and no heel hook attempt is worth conceding four points and a dominant submission position. Return your hands to frames against their hips and chest, tuck your chin, keep elbows tight, and work to re-establish your defensive posture. The heel hook opportunity is gone once they have committed to the back take. You will find another opportunity only if you maintain a viable bottom position."
+        "text": "Return to protecting your heel and managing the controlling foot and leg. Recover space around the trapped knee line before trying another counterattack. Keep the leg connection in view or monitor its pressure when you cannot see the grip."
       }
     },
     {
@@ -188,35 +188,12 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Backside 50/50 inside heel hook finish",
-      "description": "Heel Hook from Backside 50-50 (Attacker) film study: Backside 50/50 inside heel hook finish, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
-      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT18S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "50/50 heel hook finishing details",
-      "description": "Heel Hook from Backside 50-50 (Attacker) film study: 50/50 heel hook finishing details, taught by Thunderdome BJJ.",
+      "name": "50/50 Heelhook Finishing Details",
+      "description": "Heel Hook from Backside 50-50 (Attacker) film study: 50/50 Heelhook Finishing Details.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fB3FYb-Jx_0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fB3FYb-Jx_0",
       "url": "https://www.youtube.com/watch?v=fB3FYb-Jx_0",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
       "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "True 50/50 heel hook",
-      "description": "Heel Hook from Backside 50-50 (Attacker) film study: True 50/50 heel hook, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U1vlUbJN3sc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U1vlUbJN3sc",
-      "url": "https://www.youtube.com/watch?v=U1vlUbJN3sc",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT34S"
     }
   ]
 }
@@ -228,7 +205,7 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
 
 <section id="overview" class="content-section">
 
-Attacking the heel hook from Backside 50-50 bottom demands a fundamentally different mindset than attacking from dominant leg entanglement positions. You are operating from a positional deficit where your back is exposed to your opponent's chest, your frames are your primary survival tool, and committing to the heel hook means temporarily abandoning those frames. The attack succeeds through precise timing and rapid execution rather than sustained pressure. Your goal is to recognize the narrow window when the opponent's heel becomes accessible, commit decisively to the grip, apply finishing mechanics with urgency, and either finish or disengage before the top player can capitalize on your frame abandonment. This is a sniper's attack, not a grinding positional tool.
+Attacking the heel hook from Backside 50-50 bottom demands a fundamentally different mindset than attacking from dominant leg entanglement positions. You are operating from a positional deficit where you are turned away from the opponent behind your trapped leg, your frames are your primary survival tool, and committing to the heel hook means temporarily abandoning those frames. The attack succeeds through precise timing and rapid execution rather than sustained pressure. Your goal is to recognize the narrow window when the opponent's heel becomes accessible, commit decisively to the grip, apply finishing mechanics with urgency, and either finish or disengage before the top player can capitalize on your frame abandonment. This is a sniper's attack, not a grinding positional tool.
 
 **From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
 
@@ -245,25 +222,9 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
-
-<p class="clip-credit"><strong>Backside 50/50 inside heel hook finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=fB3FYb-Jx_0)
 
-<p class="clip-credit"><strong>50/50 heel hook finishing details</strong> — taught by Thunderdome BJJ · 0:27 · <a href="https://www.youtube.com/watch?v=fB3FYb-Jx_0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U1vlUbJN3sc)
-
-<p class="clip-credit"><strong>True 50/50 heel hook</strong> — taught by John Danaher · 0:34 · <a href="https://www.youtube.com/watch?v=U1vlUbJN3sc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>50/50 Heelhook Finishing Details</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=fB3FYb-Jx_0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -308,13 +269,13 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 
 <p class="section-subtitle">How do you execute Heel Hook from Backside 50-50 step by step?</p>
 
-1. **Recognize the Timing Window**: Monitor the top player's weight distribution and hand positioning constantly while maintaining your defensive frames. The opening appears when they shift focus to their own offense, initiating a back control attempt, committing to a leg attack, or adjusting their pressure angle. You feel their chest pressure lighten or their hands release from controlling your legs. This momentary window is your signal to transition from defense to attack. Do not force this window or anticipate it prematurely. (Timing: Continuous monitoring with 1-3 second attack window)
+1. **Recognize the Timing Window**: Monitor the top player's weight distribution and hand positioning constantly while maintaining your defensive frames. The opening appears when they shift focus to their own offense, initiating a back control attempt, committing to a leg attack, or adjusting their pressure angle. You feel their knee-line control lighten or their hands release from controlling your legs. This momentary window is your signal to transition from defense to attack. Do not force this window or anticipate it prematurely. (Timing: Continuous monitoring with 1-3 second attack window)
 2. **Secure Initial Heel Access**: As the opening presents itself, redirect your bottom hand from its framing position toward the opponent's exposed heel on the entangled leg. Your fingers should curl around the Achilles tendon area, establishing initial contact that becomes your primary control point. Speed is critical here because every second without frames increases your vulnerability to positional advancement. If initial heel contact fails or heel is booted, abort immediately and return to frames rather than chasing the grip. (Timing: Under 1 second from window recognition to initial contact)
 3. **Establish the Figure-Four Grip**: Once initial heel contact is secured, bring your second hand to complete a figure-four grip configuration around the heel. Your wrist-to-wrist or palm-to-back-of-hand connection should trap the heel tightly against your chest or inner forearm. The figure-four provides the mechanical leverage necessary for rotational finishing force. Ensure the heel is captured deep in the crook of your elbow for maximum control and minimum slippage during the finishing sequence. (Timing: 1-2 seconds after initial heel contact)
 4. **Configure Hip and Body Angle**: Rotate your hips to align your body as perpendicular as possible to the opponent's trapped leg. Your hips create the fulcrum point that amplifies the rotational force transmitted to the knee joint. Squeeze your knees together firmly to clamp the opponent's entangled leg and prevent extraction. Your body angle determines whether you can generate sufficient finishing force from this bottom position. Being too parallel to the trapped leg significantly reduces your mechanical advantage and allows defensive rotation. (Timing: Simultaneous with grip establishment)
 5. **Apply Controlled Rotational Force**: With grips secured and body properly aligned, begin applying rotational force to the heel by arching your back slightly and rotating the heel toward the outside of the opponent's knee for an inside heel hook. The force must come from your entire posterior chain and core, not isolated arm strength. Apply pressure progressively rather than explosively to give the opponent time to recognize danger and tap. The progressive application also allows you to feel the resistance and adjust your angle for maximum mechanical advantage on the knee ligaments. (Timing: Progressive application over 2-3 seconds in training)
 6. **Control the Finish and Monitor for Tap**: Maintain constant progressive pressure while monitoring for verbal or physical tap signals. If the opponent attempts to roll with the heel hook to relieve rotational pressure on the knee, follow their rotation while maintaining your grip configuration and adjusting your body angle to preserve the breaking mechanism. Keep your legs actively squeezing their entangled leg to prevent extraction. Be sensitive to your partner's resistance threshold and release immediately upon any tap signal. (Timing: 1-3 seconds of controlled finishing pressure)
-7. **Manage Post-Attempt Recovery**: If the submission attempt fails, the opponent defends successfully, or you choose to abandon the attack, immediately return your hands to defensive frames against the opponent's chest and hips. Re-establish your hip angle to prevent flattening. The transition from attacking back to defending must be seamless with zero delay. Any hesitation in re-establishing frames creates dangerous openings for the top player to advance to back control or improve their entanglement position. Treat the recovery as part of the technique itself, not an afterthought. (Timing: Immediate transition within 1 second of abort decision)
+7. **Manage Post-Attempt Recovery**: If the counterattack fails or you abandon it, immediately protect your own heel and address the controlling inside foot and leg clamp. Work to recover the knee line or a facing angle before attempting another counterattack. (Timing: Immediate transition within 1 second of abort decision)
 
 
 </section>
@@ -339,7 +300,7 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 <p class="section-subtitle">How might your opponent defend against Heel Hook from Backside 50-50?</p>
 
 - **Opponent boots the heel by dorsiflexing aggressively and pulling toes toward shin to deny grip access** (Effectiveness: High) - Your Response: Switch to toe hold on the exposed forefoot, or abandon and return to frames if the heel is fully hidden. Do not chase a properly booted heel as this wastes time and energy. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
-- **Opponent strips your initial grip with both hands before figure-four is established and drives chest pressure forward** (Effectiveness: Medium) - Your Response: If grip is stripped early, return to frames immediately rather than fighting for re-grip. Wait for the next timing window when opponent re-engages their offense. Forcing a second attempt against an alert opponent dramatically increases counter risk. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Opponent strips the initial grip before the figure-four is established and recovers the knee-line clamp and inside-foot frame** (Effectiveness: Medium) - Your Response: If grip is stripped early, return to frames immediately rather than fighting for re-grip. Wait for the next timing window when opponent re-engages their offense. Forcing a second attempt against an alert opponent dramatically increases counter risk. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
 - **Opponent abandons leg entanglement entirely and advances to full back control while both your hands are committed to heel grip** (Effectiveness: High) - Your Response: This is the highest-risk counter. Prevention requires keeping your attack window short. If you feel their hips walking up your body toward back control, release the heel immediately and address the back take. Finishing the heel hook is secondary to preventing back control. → Leads to [[Positions/Back Control]]
 - **Opponent counter-rotates their body in the direction of the heel hook to relieve pressure on knee ligaments and neutralize the breaking mechanism** (Effectiveness: Medium) - Your Response: Follow their rotation and adjust your hip angle to maintain the breaking mechanism. If they rotate far enough, the position may transition and you may need to reconfigure. Alternatively, use their rotation to improve your own position within the entanglement. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
 
@@ -372,10 +333,10 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 - **Consequence**: Extended time with hands off frames allows top player to methodically improve position. What started as an opportunistic attack becomes a positional disaster as you slowly lose every defensive advantage while clinging to a defended submission.
 - **Correction**: Set a mental time limit of three to four seconds. If you cannot establish a clean finishing configuration within that window, release and re-frame. The opportunity is gone once the opponent is aware and defending. Wait for the next window rather than forcing a stale attack.
 
-### 5. Attacking when the top player's weight is fully settled and stable in dominant chest-to-back pressure
+### 5. Attacking when the top player's weight is fully settled and stable in dominant knee-line and hip control
 
 - **Consequence**: No realistic chance of finishing because opponent has full awareness and defensive positioning. Your commitment to the attack only serves to open back control and worsen your position without meaningful submission threat.
-- **Correction**: Only attack during transitions and weight shifts. The opening exists when the top player moves, adjusts, or initiates their own offense. A fully settled top player with stable chest pressure has both awareness and mechanical advantage to defend any heel hook attempt from bottom.
+- **Correction**: Only attack during transitions and weight shifts. The opening exists when the top player moves, adjusts, or initiates their own offense. A fully settled top player with stable knee-line control has both awareness and mechanical advantage to defend any heel hook attempt from bottom.
 
 ### 6. Failing to squeeze knees together to clamp the entangled leg during the finishing sequence
 

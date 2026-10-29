@@ -54,6 +54,15 @@ Record the evidence and scope of any actual review rather than inferring approva
 Do not edit a generated `.md` that has a JSON source. Edit its JSON for data or its Jinja template
 for layout. Some standalone Markdown pages, such as `content/Game Over.md`, are not JSON-generated.
 
+### Browse in Obsidian
+
+Open `content/` as an existing vault to browse the generated pages. Its shared settings open new
+tabs in Reading view, use vault-root Wikilinks such as `[[Positions/Mount]]`, and disable automatic
+link rewrites. The Git plugin is removed; Canvas, daily notes, templates, note composition, file
+recovery and other authoring plugins are off. Desktop and mobile workspace files stay local and
+ignored; an existing workspace can retain its previous tab modes. Reading view is a default,
+not filesystem write protection: make content changes through the JSON workflow above.
+
 ### Checks and Generation Are Different
 
 ```bash
@@ -84,6 +93,20 @@ migration, graph validation, Markdown and category hubs, votes, graph generation
 Neural output. `regenerate:json` can call Claude; `npm run regenerate:json -- --interval 0` removes its inter-file
 wait and is **not** an AI-free validation shortcut. `regenerate:build` runs that chain and then
 builds the site. `npm run dev` builds and serves but does not run the content regeneration chain.
+
+### Retired Identities
+
+`calibration/node_identity_retirements.json` preserves each retired source record and its
+replacement path. The originals leave the active content tree; their ordinal assignments remain
+in `node_ordinals.json` and are marked retired by the normal graph pipeline. Never reuse them.
+After changing the archive mappings, run `python3 scripts/regenerate_identity_redirects.py`.
+It regenerates the marked section of `source/quartz/static/_redirects`, with entry-specific
+rules before family wildcards: the Title-Case hub and its wildcard, and the lowercase hub as an
+exact rule only (nothing was ever published under a lowercase hub). The normal build then emits
+two files from it: `_redirects`, every exact rule first, and `static/redirect-fallback.json`, every
+rule under the three categories, which the Pages middleware bundles and answers before any page
+lookup, because Cloudflare loads at most 100 wildcard rules. `npm run validate:redirect-limits`
+checks both against Cloudflare's own parser, and that no rule hides a live page.
 
 ## Probabilities and Published Rates
 
@@ -477,9 +500,17 @@ family pages can carry root clips. Availability in a schema does not mean every 
 automated sourcing slot.
 
 Only `id` and `title` are schema-required. Optional fields are `by`, `start`, `end`, `vertical`,
-`channel`, `duration`, `verified`, and `upload_date`. IDs must match the 11-character YouTube shape;
+`channel`, `duration`, `front`, `verified`, and `upload_date`; position hub clips also allow `half`.
+IDs must match the 11-character YouTube shape;
 that regex does not establish that a video exists. Start/end are seconds. Provenance dates and
 uploader metadata are not practitioner endorsements.
+
+The array order is the curated order. Mark at most one clip per half with `front: true`, and put
+it first. The front must teach the named position or technique (or an authored alias) in that
+half's role, without being a teaser or sales pitch. Leave the front absent when no clip qualifies;
+shorter runtime alone never establishes relevance. Curated clips carry `duration` in seconds.
+On position hub clips, `half: "top"`, `"bottom"`, or `"both"` records the approved role mapping.
+Omit `half` when the role is unknown; do not tag clips already inside a role block.
 
 ```bash
 # AI-assisted planning/curation of real search results, verification, and application
@@ -523,13 +554,22 @@ or official Shorts-tab URLs with portrait thumbnail dimensions. Read-only availa
 preserve all existing metadata and do not probe portrait thumbnails; sourcing still checks format
 when choosing new clips.
 
-`validate:json` rejects inverted loop bounds but only warns about duplicate IDs and end times past
+`validate:json` rejects inverted loop bounds, multiple fronts in an array, a front after the first
+clip, and `half` tags outside position hubs. It only warns about duplicate IDs and end times past
 the recorded duration. Network availability checks belong to `verify_clips.py`; neither tool checks
 whether the clip teaches the right mechanic safely. Watch the selected segment and confirm its
 role, attribution, and safety before relying on it.
 
-The app's dossier payload keeps player fields (`id`, `start`, `end`, `vertical`, `title`, `by`), not
-provenance metadata. Position root clips supplement both role dossiers. Generated Markdown also
+The app's dossier payload keeps player fields (`id`, `start`, `end`, `vertical`, `title`, `by`,
+`duration`, `front`, `half`), not provenance metadata. Position hub clips supplement a role dossier
+only when `half` names that role or `both`; an untagged hub clip reaches neither role. A clip authored
+in the role itself stays there even when an untagged hub duplicates its ID. After half routing,
+the effective list deduplicates by video ID, with the half-local front, array order and metadata
+taking priority over a hub duplicate (including a differently trimmed copy). The build reports the
+number of unassigned hub clips and suppressed choice fronts. Choice cards consume only the first
+clip with `front: true` in their own perspective; they never promote a later clip, sort by duration,
+borrow the opposite role, or use a destination position's video for an escape. Missing approval
+produces a quiet inert media area. The current node reel preserves curated array order. Generated Markdown also
 renders film-study embeds and video structured data. Prefer focused technique demonstrations;
 longer concept instruction can be appropriate for Principles. Duration preferences are editorial
 sourcing choices, not a universal schema-enforced policy.

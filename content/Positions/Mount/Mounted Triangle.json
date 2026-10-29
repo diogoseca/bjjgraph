@@ -120,11 +120,6 @@
         "condition": "If opponent turns to side to escape triangle pressure",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 65
-          },
-          {
             "technique": "Triangle to Back",
             "target": "Back Control",
             "probability": 60
@@ -287,36 +282,29 @@
       {
         "transition": "Triangle Choke from Mounted Triangle",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
+          "gi": 23,
+          "nogi": 23
         }
       },
       {
         "transition": "Armbar on Free Arm",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Consolidate Mount",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Gift Wrap",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
@@ -329,29 +317,29 @@
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Mounted Triangle Squeeze",
-        "attempt_probability": {
           "gi": 11,
           "nogi": 11
         }
       },
       {
+        "transition": "Mounted Triangle Squeeze",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
+      },
+      {
         "transition": "Mounted Triangle to S Mount",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Belly Down Armbar from Mounted Triangle",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       }
     ],
@@ -471,31 +459,12 @@
     ],
     "clips": [
       {
-        "id": "zwb5LTgOm1o",
-        "title": "Finish the mounted triangle without losing top",
-        "by": "Lux's Jiu Jitsu",
+        "id": "1qxxbBWo9kw",
+        "title": "Triangle to mounted triangle",
+        "channel": "Ground X Jiu Jitsu ",
+        "duration": 154,
         "vertical": false,
-        "channel": "Lux’s jiu jitsu channel",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vLUua_voKzc",
-        "title": "Mounted Triangle demonstration",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8ys-uZnBgYM",
-        "title": "Mounted Triangle Armbar variation",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 26,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -929,35 +898,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How to escape a triangle choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "djm7BIQksOQ",
-        "title": "How To Defend The Mounted Triangle",
-        "by": "RVV BJJ",
-        "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 194,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ss49jnCob0w",
-        "title": "Avoiding and Defending the Triangle Choke",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 775,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1076,21 +1017,23 @@
   "clips": [
     {
       "id": "vLUua_voKzc",
-      "title": "Mounted Triangle overview",
+      "title": "Mounted Triangle",
       "by": "Satori BJJ",
       "vertical": false,
       "channel": "Satori BJJ",
-      "duration": 53,
-      "verified": "2026-07-14"
+      "duration": 52,
+      "verified": "2026-10-19",
+      "half": "top"
     },
     {
       "id": "1qxxbBWo9kw",
-      "title": "Triangle to mounted triangle entry",
+      "title": "Triangle to mounted triangle",
       "by": "Ground X Jiu Jitsu",
       "vertical": false,
       "channel": "Ground X Jiu Jitsu ",
-      "duration": 155,
-      "verified": "2026-07-14"
+      "duration": 154,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

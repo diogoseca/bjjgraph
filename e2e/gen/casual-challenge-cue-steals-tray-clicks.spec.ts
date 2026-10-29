@@ -1,5 +1,6 @@
+// v1.230.0 reverses v1.218.1/v1.220.0 Inspect: the card commits except for its play circle.
 /* @hyperspace {"theme":"challenge-progression","L":"casual-week1","F":"options-tray","B":"surface-integrity"}
-   @invariant "With the tutorial challenge cue on screen, every on-viewport option card of a live hand stays mouse-clickable — no fixed overlay captures a tray card's center point, and clicking the leftmost card opens its move sheet instead of teleporting to the Challenges view." */
+   @invariant "With the tutorial challenge cue on screen, every on-viewport option card of a live hand stays mouse-clickable — no fixed overlay captures a tray card's center point, and clicking the leftmost title commits its move instead of teleporting to the Challenges view." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { casualWeek1 } from "../gen/personas"
@@ -47,11 +48,14 @@ test("tutorial challenge cue never captures clicks aimed at live option cards", 
     const cueBox = cue ? cue.getBoundingClientRect() : null
     const offenders: Array<{ tech: string | null; hit: string }> = []
     let tested = 0
+    // STALE SPEC (D-338, D-347): beside the article's index the tray is a horizontal scroller that ends
+    // short of the viewport, so "on-viewport" is the row's own visible rectangle, not the window's.
+    const row = (document.querySelector(".ng-optionrow") as HTMLElement).getBoundingClientRect()
     for (const card of Array.from(document.querySelectorAll("[data-tech]")) as HTMLElement[]) {
       const b = card.getBoundingClientRect()
       const cx = b.x + b.width / 2
       const cy = b.y + b.height / 2
-      if (cx < 1 || cx > innerWidth - 1 || cy < 1 || cy > innerHeight - 1) continue // tray scrolls; off-screen cards are reachable by scroll, not by click
+      if (cx < Math.max(1, row.left) || cx > Math.min(innerWidth - 1, row.right) || cy < Math.max(1, row.top) || cy > Math.min(innerHeight - 1, row.bottom)) continue // tray scrolls; cards outside its clip are reachable by scroll, not by click
       tested += 1
       const at = document.elementFromPoint(cx, cy)
       if (!at || !at.closest("[data-tech]")) {
@@ -69,7 +73,9 @@ test("tutorial challenge cue never captures clicks aimed at live option cards", 
     }
   })
   console.log("CUE-AUDIT", JSON.stringify(audit))
-  expect(audit.tested, "on-viewport cards were actually audited").toBeGreaterThanOrEqual(6)
+  // STALE SPEC (D-355, U9 b): beside the left index the tray starts 12px past it, so five cards fit its visible row at
+  // 1440 (six before); the audit's positive floor follows the row it audits.
+  expect(audit.tested, "on-viewport cards were actually audited").toBeGreaterThanOrEqual(5)
 
   // THE INVARIANT (red today): no overlay owns the center of any on-viewport option card
   expect(
@@ -77,13 +83,15 @@ test("tutorial challenge cue never captures clicks aimed at live option cards", 
     "every on-viewport option card's center must hit the card itself — a fixed overlay capturing it makes the move mouse-unclickable and misdirects the click",
   ).toEqual([])
 
-  // and the leftmost card behaves like a card: click → its move sheet, not the Challenges view.
+  // and the leftmost card behaves like a card: a title click → its move, not the Challenges view.
   // BY MOUSE, at measured coordinates: this is a mouse-clickability invariant, and `locator.click()`
   // cannot support it — it scrolls the element into view first and retries through interception, the
   // two behaviours a real mouse does not have. `clickByMouse` refuses to scroll, refuses an
   // off-screen centre, and fails naming whatever `document.elementFromPoint` really has under the
   // cursor (an intercepting ANCESTOR included), which is exactly this bug's shape.
-  await j.clickByMouse(`[data-tech="${titles[0]}"] [data-choice-inspect]`, "Inspect on the leftmost option card")
-  await expect(page.locator("[data-go]").first(), "expand sheet opened for the clicked move").toBeVisible()
+  const label = await page.locator(`[data-tech="${titles[0]}"] .ngchoice-title`).innerText()
+  await j.clickByMouse(`[data-tech="${titles[0]}"] .ngchoice-title`, "the leftmost option card")
+  expect((await j.beats()).filter(b => b.beat === "commit")).toHaveLength(1)
+  await expect(page.locator("[data-executing-tech]")).toHaveAttribute("data-executing-tech", label)
   await expect(page.locator(".ng-explorer"), "no teleport into the Challenges explorer").not.toBeVisible()
 })

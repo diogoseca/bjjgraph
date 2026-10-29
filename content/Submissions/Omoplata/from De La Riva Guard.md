@@ -46,24 +46,42 @@ description: "Master the omoplata from De La Riva Guard. Leverage DLR hooks and 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rafa Mendes\u0027 omoplata",
-      "description": "Omoplata from De La Riva Guard film study: Rafa Mendes\u0027 omoplata, taught by Rafael Mendes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cQEVTjYCq0M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cQEVTjYCq0M",
-      "url": "https://www.youtube.com/watch?v=cQEVTjYCq0M",
-      "creator": { "@type": "Person", "name": "Rafael Mendes" },
-      "duration": "PT61S"
+      "name": "Omoplata | De La Riva Fundamentals | Roseburg BJJ",
+      "description": "Omoplata from De La Riva Guard film study: Omoplata | De La Riva Fundamentals | Roseburg BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-8A6PGIp-P4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-8A6PGIp-P4",
+      "url": "https://www.youtube.com/watch?v=-8A6PGIp-P4",
+      "duration": "PT116S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Finishing the omoplata from De La Riva",
-      "description": "Omoplata from De La Riva Guard film study: Finishing the omoplata from De La Riva, taught by Filipe.",
+      "name": "De la riva finalizando com omoplata",
+      "description": "Omoplata from De La Riva Guard film study: De la riva finalizando com omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CK-STgse6C0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CK-STgse6C0",
       "url": "https://www.youtube.com/watch?v=CK-STgse6C0",
-      "creator": { "@type": "Person", "name": "Filipe" },
-      "duration": "PT125S"
+      "duration": "PT124S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata from De La Riva Guard | Lee Livingstone Pt. 1 | Jits Magazine | BJJ\u2026",
+      "description": "Omoplata from De La Riva Guard film study: Omoplata from De La Riva Guard | Lee Livingstone Pt. 1 | Jits Magazine | BJJ\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/akGJ-RfjkAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/akGJ-RfjkAg",
+      "url": "https://www.youtube.com/watch?v=akGJ-RfjkAg",
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Rafa Mendes\u0027 Omoplata.",
+      "description": "Omoplata from De La Riva Guard film study: Rafa Mendes\u0027 Omoplata..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cQEVTjYCq0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cQEVTjYCq0M",
+      "url": "https://www.youtube.com/watch?v=cQEVTjYCq0M",
+      "duration": "PT61S"
     }
   ]
 }
@@ -126,9 +144,9 @@ The finishing sequence follows standard omoplata mechanics once the leg clears t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cQEVTjYCq0M)
+![](https://www.youtube.com/watch?v=-8A6PGIp-P4)
 
-<p class="clip-credit"><strong>Rafa Mendes&#39; omoplata</strong> — taught by Rafael Mendes · 1:01 · <a href="https://www.youtube.com/watch?v=cQEVTjYCq0M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata | De La Riva Fundamentals | Roseburg BJJ</strong> · 1:56 · <a href="https://www.youtube.com/watch?v=-8A6PGIp-P4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,7 +154,23 @@ The finishing sequence follows standard omoplata mechanics once the leg clears t
 
 ![](https://www.youtube.com/watch?v=CK-STgse6C0)
 
-<p class="clip-credit"><strong>Finishing the omoplata from De La Riva</strong> — taught by Filipe · 2:05 · <a href="https://www.youtube.com/watch?v=CK-STgse6C0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De la riva finalizando com omoplata</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=CK-STgse6C0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=akGJ-RfjkAg)
+
+<p class="clip-credit"><strong>Omoplata from De La Riva Guard | Lee Livingstone Pt. 1 | Jits Magazine | BJJ…</strong> · 2:44 · <a href="https://www.youtube.com/watch?v=akGJ-RfjkAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cQEVTjYCq0M)
+
+<p class="clip-credit"><strong>Rafa Mendes&#39; Omoplata.</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=cQEVTjYCq0M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

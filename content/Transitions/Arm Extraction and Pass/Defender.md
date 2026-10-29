@@ -4,7 +4,7 @@
 
 ---
 title: "Arm Extraction and Pass Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to defend against Arm Extraction and Pass in BJJ. Recognition cues, defensive options, and escape strategies."
+description: "Arm Extraction and Pass (defender): Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
 ---
 
 
@@ -20,26 +20,26 @@ description: "How to defend against Arm Extraction and Pass in BJJ. Recognition 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Explosive sit-through to guard recovery during the hip shift phase",
-      "text": "When attacker shifts their hips toward your legs to create extraction space, momentarily reducing their inside leg hook pressure If successful: You recover to half guard with your legs re-engaged, converting the passing attempt into a guard position where you have sweep and submission options",
+      "name": "Establish the first high leg and its hand support before adding the second leg.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Granby roll away from the extraction direction as attacker commits weight forward for the shoulder pin",
-      "text": "Early in the sequence when attacker drives their chest weight forward onto your shoulder, before the arm grip is established If successful: You escape the shoulder pin and either recover to a neutral turtle position where standard Crackhead Control dynamics resume, or create enough chaos to recover guard",
+      "name": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Retract and clamp trapped arm while simultaneously circling hips away from extraction direction",
-      "text": "When attacker grips your wrist and begins guiding the arm across their body - the earliest moment of the actual extraction attempt If successful: The extraction fails and attacker must reset to standard Crackhead Control, burning energy and creating opportunities for your standard turtle escapes",
+      "name": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Insert knee for half guard as attacker's hips transition from chair-sit to side control sprawl",
-      "text": "Late-stage defense when extraction has succeeded but attacker has not yet established full side control with hip block If successful: You prevent full side control establishment and recover to half guard where you have legitimate offensive options including sweeps and back takes",
+      "name": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 4
     }
   ],
@@ -56,42 +56,42 @@ description: "How to defend against Arm Extraction and Pass in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest and most effective moment to defend against the Arm Extraction and Pass?",
+      "name": "Arm Extraction and Pass (bottom): What supports the clinch before adding your second leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest and most effective defensive window is before the shoulder pin is established. When you feel the attacker's chest weight shifting forward onto your shoulder blade, immediately widen your base, circle your hips away from the pressure, and clamp your elbow tighter to your ribs. Defending at this stage prevents the entire extraction chain from developing."
+        "text": "Build the first high-leg and hand connection before adding the second leg behind the opponent's head."
       }
     },
     {
       "@type": "Question",
-      "name": "They have the shoulder pin and your wrist. What is your best defensive response?",
+      "name": "Arm Extraction and Pass (bottom): How can the second high leg reinforce the clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "At this stage, pure arm resistance is unlikely to succeed since the shoulder pin has broken your arm's structural support. Switch to timing-based defense: wait for the attacker to shift their hips toward your legs to create extraction space, then explosively sit through to half guard during that moment when their inside leg hook pressure decreases. The hip shift is their most vulnerable moment."
+        "text": "The reinforcing leg should follow a comfortable hip angle; do not force the foot against a fixed knee to retain the top player."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you tell an arm extraction from a back take out of Crackhead Control?",
+      "name": "Arm Extraction and Pass (bottom): What must you check before treating the clinch as Dead Orchard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The key recognition cue is the direction of the attacker's weight shift. For back takes, they shift their weight laterally to establish hooks and seat belt control. For arm extraction, they drive weight forward onto your shoulder blade while their near hand reaches for your wrist or forearm. The forward chest commitment to the shoulder pin is the definitive signal that differentiates extraction from back take attempts."
+        "text": "Track both opposing elbows and the actual leg closure. Crackhead's reinforced clinch does not automatically become Dead Orchard."
       }
     },
     {
       "@type": "Question",
-      "name": "The extraction worked and they are moving to side control. What is your emergency defense?",
+      "name": "Arm Extraction and Pass (bottom): How do you retain space when the passer frees the arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately attempt to insert your near knee between your bodies as the attacker's hips transition from chair-sit to side control sprawl. This is the last window before full side control is established. Your knee must beat their near hand to your far hip. If the knee insertion succeeds, you recover half guard with offensive options. If it fails, focus on immediate framing and side control escape sequences rather than trying to return to turtle."
+        "text": "As the clinch opens, frame the shoulder, make a short hip escape and reconnect elbow and knee before the passer fills the gap."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is the granby roll defense risky against the Arm Extraction and Pass specifically?",
+      "name": "Arm Extraction and Pass (bottom): How do you return to Mission Control during the extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The granby roll requires you to invert and expose your back momentarily during the rolling motion. Against the arm extraction setup, the attacker already has forward chest pressure committed to your shoulder and is positioned to follow your roll. If they maintain chest contact during the granby, they can transition directly to back control with hooks as your back rotates through their control. The granby works best if timed before the chest pressure is fully established, when the attacker is still settling their weight."
+        "text": "Return to one-leg control by lowering the reinforcing leg while keeping the original high shin and hand connected."
       }
     }
   ]
@@ -104,7 +104,7 @@ description: "How to defend against Arm Extraction and Pass in BJJ. Recognition 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Arm Extraction and Pass Defender",
-  "description": "How to defend against Arm Extraction and Pass in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "description": "Arm Extraction and Pass (defender): Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -189,11 +189,15 @@ description: "How to defend against Arm Extraction and Pass in BJJ. Recognition 
 
 <section id="overview" class="content-section">
 
-Defending the Arm Extraction and Pass requires understanding the mechanical sequence your opponent must execute and disrupting it at the earliest possible stage. From the bottom of Crackhead Control, you are in a defensive turtle position with your near arm wedged between your body and the attacker's hip. The attacker's goal is to pin your shoulder, loosen your arm structure, extract the arm past their body, and transition to side control. Your defensive strategy centers on preventing the shoulder pin from collapsing your structure, maintaining your arm's defensive connection to your torso, and timing explosive counters during the transitions when your opponent's base is most compromised.
+The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. The arm must come free before passing. The two-leg clinch does not guarantee either a shoulder lock or an immediate side-control opening.
 
-The most effective defensive window occurs before the shoulder pin is fully established. Once the attacker drives their chest weight onto your shoulder blade and your arm structure breaks down, the extraction becomes significantly harder to prevent. Proactive defense means recognizing the setup - the forward weight shift and grip on your wrist - and immediately countering with hip movement, grip fighting, or positional changes that deny the pin. If the pin does establish, your secondary defenses focus on disrupting the extraction itself through arm retraction, granby rolls, or explosive sit-throughs timed to the moment when your opponent shifts their hips to create extraction space.
+Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
-The defender's ultimate strategic goal is either to prevent the extraction entirely and force the attacker to return to standard Crackhead Control attacks (which you can then defend through your normal turtle defense protocols), or to time a counter that recovers half guard or better during the transition phase when the attacker's weight is shifting between positions. Understanding that the attacker is most vulnerable during the hip transition from chair-sit to side control sprawl gives you a specific timing window to exploit.
+Use hip position and connected leg pressure rather than pulling the feet against fixed knees. Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again. Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+If the high clinch opens, use a short hip escape while a forearm holds the shoulder away. Reconnect elbow and knee before the passer fills that gap; chasing the freed arm would abandon the guard recovery space.
 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
@@ -233,10 +237,9 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 
 <p class="section-subtitle">How do you know when someone is attempting Arm Extraction and Pass?</p>
 
-- Attacker shifts chest weight forward and drives into your near shoulder blade rather than maintaining standard chair-sit hip pressure - this forward commitment signals the shoulder pin setup
-- Attacker's near hand reaches for your trapped wrist or forearm, establishing a control grip in preparation for guiding the extraction
-- Attacker's hips begin shifting toward your legs while chest pressure increases on your shoulder - this combined movement creates the extraction space and signals the technique is in progress
-- The crossface arm drives harder into your far shoulder or head, preventing you from turning away during the extraction sequence
+- The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.
+- A second leg climbing behind your head increases the posture-control problem.
+- Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
 
 </section>
@@ -247,11 +250,12 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 
 <p class="section-subtitle">What are the key principles for defending Arm Extraction and Pass?</p>
 
-- Maintain tight arm connection to your torso by keeping elbows clamped to your ribs - a structurally connected arm is nearly impossible to extract without the shoulder pin
-- Defend the shoulder pin first by keeping your base wide and actively resisting the forward weight drive before it collapses your structure
-- Time explosive counters during the attacker's hip shift phase when their weight transfers from chair-sit to side control sprawl and their base is temporarily compromised
-- Use your free arm to actively strip grips on your trapped wrist before the attacker can begin guiding the extraction
-- Keep hips mobile and circle away from the extraction direction to deny the space the attacker needs to clear the arm past their body
+- Start with broken posture: Establish the first high leg and its hand support before adding the second leg.
+- Bring the second leg high: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
+- Track both elbows: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
+- Keep knees close: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
+- Return to one-leg control: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.
+- Open against a stack: Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.
 
 
 </section>
@@ -262,33 +266,33 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 
 <p class="section-subtitle">What can you do to defend against Arm Extraction and Pass?</p>
 
-### 1. Explosive sit-through to guard recovery during the hip shift phase
+### 1. Establish the first high leg and its hand support before adding the second leg.
 
-- **When to use**: When attacker shifts their hips toward your legs to create extraction space, momentarily reducing their inside leg hook pressure
-- **Targets**: [[Positions/Half Guard]]
-- **If successful**: You recover to half guard with your legs re-engaged, converting the passing attempt into a guard position where you have sweep and submission options
-- **Risk**: If timed poorly and the inside leg hook is still engaged, you expose your back during the rotation and give up a cleaner back take opportunity
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
+- **Targets**: [[Positions/Closed Guard]]
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 2. Granby roll away from the extraction direction as attacker commits weight forward for the shoulder pin
+### 2. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
-- **When to use**: Early in the sequence when attacker drives their chest weight forward onto your shoulder, before the arm grip is established
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
-- **If successful**: You escape the shoulder pin and either recover to a neutral turtle position where standard Crackhead Control dynamics resume, or create enough chaos to recover guard
-- **Risk**: If attacker follows the roll maintaining chest contact, they may transition directly to back control with hooks as your back is exposed during the rolling motion
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 3. Retract and clamp trapped arm while simultaneously circling hips away from extraction direction
+### 3. Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
-- **When to use**: When attacker grips your wrist and begins guiding the arm across their body - the earliest moment of the actual extraction attempt
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
-- **If successful**: The extraction fails and attacker must reset to standard Crackhead Control, burning energy and creating opportunities for your standard turtle escapes
-- **Risk**: If attacker has already established the shoulder pin, your arm retraction may lack the structural support to resist the extraction, wasting energy without preventing the pass
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 4. Insert knee for half guard as attacker's hips transition from chair-sit to side control sprawl
+### 4. Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
 
-- **When to use**: Late-stage defense when extraction has succeeded but attacker has not yet established full side control with hip block
-- **Targets**: [[Positions/Half Guard]]
-- **If successful**: You prevent full side control establishment and recover to half guard where you have legitimate offensive options including sweeps and back takes
-- **Risk**: If attacker immediately blocks your far hip upon transitioning, the knee insertion window closes and you end up in full side control
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
+- **Targets**: [[Positions/Closed Guard]]
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 
 
@@ -302,11 +306,11 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 
 ### → [[Positions/Rubber Guard/Crackhead Control]]
 
-Prevent the extraction by defending the shoulder pin early through base maintenance and arm retraction, or execute a granby roll that disrupts the attacker's weight placement and forces them to reset to standard Crackhead Control dynamics
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Establish the first high leg and its hand support before adding the second leg.
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Closed Guard]]
 
-Time an explosive sit-through during the attacker's hip shift phase when their inside leg hook loosens, or insert your knee between your bodies during the transition from chair-sit to side control sprawl before the attacker establishes far hip control
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
 
 
@@ -318,25 +322,20 @@ Time an explosive sit-through during the attacker's hip shift phase when their i
 
 <p class="section-subtitle">What mistakes should you avoid when defending Arm Extraction and Pass?</p>
 
-### 1. Allowing elbows to flare away from ribs, creating space between arm and torso that makes extraction trivially easy
+### 1. Skipping the checkpoint: start with broken posture
 
-- **Consequence**: Attacker can extract the arm without needing the shoulder pin at all, bypassing the entire defensive sequence and transitioning directly to side control
-- **Correction**: Maintain constant elbow-to-rib connection as your baseline defensive posture in turtle. The arm should feel glued to your body through muscular tension and structural alignment.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Establish the first high leg and its hand support before adding the second leg.
+- **Correction**: Establish the first high leg and its hand support before adding the second leg.
 
-### 2. Attempting to resist the extraction with arm strength alone after the shoulder pin is established
+### 2. Skipping the checkpoint: bring the second leg high
 
-- **Consequence**: Energy wasted fighting a losing battle since the pin has already broken your arm's structural support. You fatigue quickly while the attacker methodically completes the extraction
-- **Correction**: Once the shoulder pin is established, switch defensive strategy to timing-based counters like the sit-through or knee insertion rather than trying to muscle the arm back into position.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
+- **Correction**: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
-### 3. Remaining flat and static in turtle without hip movement during the extraction attempt
+### 3. Skipping the checkpoint: track both elbows
 
-- **Consequence**: Attacker can methodically execute each step of the extraction without time pressure or positional disruption, resulting in clean side control establishment
-- **Correction**: Keep hips in constant circular motion throughout the defense. Even if you cannot fully prevent the extraction, hip movement forces the attacker to chase a moving target and creates scramble opportunities.
-
-### 4. Focusing entirely on defending the arm extraction while ignoring the transition to side control
-
-- **Consequence**: Even if the extraction partially fails, the attacker achieves enough clearance to sprawl perpendicular and establish side control because you stopped defending after the arm cleared
-- **Correction**: Defense is a continuous sequence - if the arm extraction succeeds, immediately shift priority to knee insertion and half guard recovery rather than accepting side control as inevitable.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
+- **Correction**: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
 
 
@@ -348,17 +347,14 @@ Time an explosive sit-through during the attacker's hip shift phase when their i
 
 <p class="section-subtitle">How do you train defense against Arm Extraction and Pass?</p>
 
-**Week 1-2** - Recognition and prevention
-Partner slowly executes the Arm Extraction and Pass sequence while you practice identifying each recognition cue. Focus on maintaining tight elbow-to-rib connection and defending the shoulder pin through base widening. No resistance from attacker beyond following the technique steps. Build pattern recognition for the setup.
+**Phase 1** - Identify the configuration
+Work cooperatively on start with broken posture. Establish the first high leg and its hand support before adding the second leg. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Timing-based counters
-Partner executes the extraction at moderate speed. Practice the sit-through counter during the hip shift phase and the knee insertion defense during the side control transition. Develop timing sensitivity for the attacker's weight transfer moments. Begin chaining defenses: if sit-through fails, immediately attempt knee insertion.
+**Phase 2** - Rehearse the connection
+Work cooperatively on bring the second leg high. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Live defensive sparring
-Positional sparring starting from Crackhead Control with the attacker free to attempt arm extraction, back takes, or other attacks. Defender practices reading which attack is coming and applying the appropriate defensive response. Track success rate of preventing side control establishment.
-
-**Week 7+** - Full integration and scramble recovery
-Incorporate arm extraction defense into full rolling sessions. Focus on transitioning between turtle defense, arm extraction prevention, and guard recovery as a seamless defensive system. Practice recovering from partial failures where the extraction succeeds but side control is not yet consolidated.
+**Phase 3** - Add an early response
+Work cooperatively on track both elbows. Do not assume that high legs alone have isolated an arm or completed Dead Orchard. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

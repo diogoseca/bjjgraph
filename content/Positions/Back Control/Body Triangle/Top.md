@@ -21,7 +21,7 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Body Triangle",
-      "text": "From this position, attempt Rear Naked Choke from Body Triangle. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Body Triangle. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,7 +39,7 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Short Choke from Body Triangle",
-      "text": "From this position, attempt Short Choke from Body Triangle. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Short Choke from Body Triangle. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 22% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,34 +165,11 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Attack the Back with a Body Triangle",
-      "description": "Body Triangle (Top) film study: Attack the Back with a Body Triangle, taught by Grapple Box.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3OkCuU0B0UE",
-      "url": "https://www.youtube.com/watch?v=3OkCuU0B0UE",
-      "creator": { "@type": "Person", "name": "Grapple Box" },
-      "duration": "PT28S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Properly Use a Body Triangle",
-      "description": "Body Triangle (Top) film study: How to Properly Use a Body Triangle, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8JwxpgWGsFU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8JwxpgWGsFU",
-      "url": "https://www.youtube.com/watch?v=8JwxpgWGsFU",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT294S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Body Triangle Troubleshooting",
-      "description": "Body Triangle (Top) film study: Body Triangle Troubleshooting, taught by Tom Halpin.",
+      "name": "Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin",
+      "description": "Body Triangle (Top) film study: Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TFKAmteeVIA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TFKAmteeVIA",
       "url": "https://www.youtube.com/watch?v=TFKAmteeVIA",
-      "creator": { "@type": "Person", "name": "Tom Halpin" },
       "duration": "PT186S"
     }
   ]
@@ -223,25 +200,9 @@ From this top position, you maintain constant chest-to-back pressure while your 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3OkCuU0B0UE)
-
-<p class="clip-credit"><strong>Attack the Back with a Body Triangle</strong> — taught by Grapple Box · 0:28 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8JwxpgWGsFU)
-
-<p class="clip-credit"><strong>How to Properly Use a Body Triangle</strong> — taught by Gordon Ryan · 4:54 · <a href="https://www.youtube.com/watch?v=8JwxpgWGsFU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=TFKAmteeVIA)
 
-<p class="clip-credit"><strong>Body Triangle Troubleshooting</strong> — taught by Tom Halpin · 3:06 · <a href="https://www.youtube.com/watch?v=TFKAmteeVIA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=TFKAmteeVIA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -312,7 +273,6 @@ From this top position, you maintain constant chest-to-back pressure while your 
 
 **If opponent attempts to turn into you to escape:**
 - Execute **[[Submissions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
 
 
 **If opponent turtles or rolls forward trying to clear position:**
@@ -441,7 +401,7 @@ In body triangle position, practice applying different levels of squeeze pressur
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni: Turtle Breakdowns and Back Attacks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

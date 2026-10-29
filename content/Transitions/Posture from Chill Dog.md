@@ -4,7 +4,7 @@
 
 ---
 title: "Posture from Chill Dog | BJJ Technique | BJJ Graph"
-description: "Master posture recovery from Chill Dog turtle in BJJ. Break compact defensive shell with systematic pressure, hip control, and strategic positioning techniques."
+description: "Posture recovery from Chill Dog frees the isolated arm and high-leg connection before raising the chest. Keep a balanced base and protect the captured shoulder."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master posture recovery from Chill Dog turtle in BJJ. Break compac
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Posture from Chill Dog",
-  "description": "Master posture recovery from Chill Dog turtle in BJJ. Break compact defensive shell with systematic pressure, hip control, and strategic positioning techniques.",
+  "description": "Posture recovery from Chill Dog frees the isolated arm and high-leg connection before raising the chest. Keep a balanced base and protect the captured shoulder.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Master posture recovery from Chill Dog turtle in BJJ. Break compac
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Posture from Chill Dog",
-  "description": "Posture from Chill Dog is a top-player positional transition that breaks the bottom player's compact turtle shell with underhook leverage, a knee post, and hip control, forcing them out into closed or half guard where the passer's game applies.",
+  "description": "Posture recovery from Chill Dog frees the isolated arm and high-leg connection before the top player raises the chest.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,16 +94,18 @@ description: "Master posture recovery from Chill Dog turtle in BJJ. Break compac
 
 <section id="overview" class="content-section">
 
-**Posture from Chill Dog is a top-player positional transition that breaks the bottom player's compact turtle shell with underhook leverage, a knee post, and hip control, forcing them out into closed or half guard where the passer's game applies.**
+**Posture recovery from Chill Dog frees the isolated arm and high-leg connection before the top player raises the chest.**
 
-This transition belongs to the top player's turtle-attacking arsenal and is deployed specifically when the bottom player has buried themselves in the compact Chill Dog shell — elbows pressed to knees, rounded back, tucked head — and traditional back-take or front-headlock attacks have stalled. Rather than continuing to grind against an airtight defensive frame, the top player systematically breaks it and postures the defender upward, using underhook leverage, a knee post, and strategic weight distribution to peel them out of their compact ball into a seated or supine position where their legs naturally recover to guard.
+The top player faces a bottom guard player using Chill Dog; the head, shoulder or arm may still be enclosed. This is defense inside facing rubber guard. Closed or half guard depends on which lower-body connections remain; neither is guaranteed by raising the head.
 
-The strategic rationale for this transition is situational. When the bottom player's Chill Dog defense is particularly effective at shutting down back take attempts and the clock is a factor, forcing them into closed guard or half guard creates a position where the top player has established guard-passing systems available. Rather than burning energy against an impenetrable defensive shell, the top player redirects to a more familiar positional battle. This is especially relevant for practitioners whose guard passing is stronger than their turtle attacking game.
+Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-This is a lower-priority technique in the Chill Dog top arsenal because the primary objective from turtle top should always be back control or submission. However, when traditional attacks stall against an exceptionally tight defensive shell, the posture transition provides a systematic alternative that keeps the match progressing and prevents stalling penalties. The critical moment comes after forcing the guard recovery — the top player must immediately establish posture in the resulting guard position to avoid getting broken down during the transition and ending up in a worse situation than where they started.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).
 
 **From Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 35%
 
 </section>
 
@@ -141,10 +143,9 @@ This is a lower-priority technique in the Chill Dog top arsenal because the prim
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 40% |
-| Failure | [[Positions/Rubber Guard/Chill Dog]] | 35% |
-| Success | [[Positions/Half Guard]] | 15% |
-| Counter | [[Positions/Back Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 65% |
 
 
 </section>
@@ -156,8 +157,8 @@ This is a lower-priority technique in the Chill Dog top arsenal because the prim
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Control the near hip first — hip control prevents the bottom... | Maintain elbow-to-knee connection as the primary defensive b... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Recognize the upper-body trap: Keep the free hand available ... | Secure New York first: Keep the opposing hand on the mat and... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -170,51 +171,49 @@ This is a lower-priority technique in the Chill Dog top arsenal because the prim
 ### Key Principles
 
 
-- Control the near hip first — hip control prevents the bottom player from re-turtling or executing rolling escapes during the lift
+- Recognize the upper-body trap: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.
 
-- Use structural leverage from underhooks rather than muscular lifting force to conserve energy and maintain control throughout
+- Protect the captured limb: The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 
-- Maintain chest-to-back pressure continuously — any gap during the transition creates space for the bottom player to recover turtle or take the back
+- Work before pressure engages: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-- Commit fully once you initiate the lift — hesitation mid-transition creates scramble opportunities the defender can exploit
+- Open the high enclosure: Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
-- Establish posture in the resulting guard immediately — the first two seconds after guard recovery determine whether you have passing initiative or get broken down
+- Recover the elbow and posture: Withdraw the shoulder and elbow only after the high leg connection has opened.
 
-- Read the defensive frame for weakness before initiating — the lift is far easier when one side of the elbow-knee connection has loosened
+- Confirm the next position: Establish a stable posture inside the guard that actually remains only when the upper-body enclosure and relevant leg hooks have cleared.
 
 
 ### Execution Steps
 
 
-- **Establish heavy chest pressure**: Drive your chest into the bottom player's upper back between the shoulder blades, distributing your ...
+- **Recognize the upper-body trap**: Keep the free hand available for framing while preventing the isolated elbow from being pulled furth...
 
-- **Secure near-side hip underhook**: Thread your near-side arm under the bottom player's hip, reaching across to control their far hip or...
+- **Protect the captured limb**: The opponent changing the hand around your head signals the move beyond New York, not a turtle escap...
 
-- **Establish far-side body control**: Insert your far-side arm under the bottom player's far armpit or over their far shoulder, creating a...
+- **Work before pressure engages**: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joi...
 
-- **Post knee against near hip**: Drive your near-side knee firmly against the bottom player's near hip, creating a structural block t...
+- **Open the high enclosure**: Create slack at the hip and thigh while keeping the head and captured arm aligned....
 
-- **Initiate lift and rotation**: Using both control points simultaneously, begin lifting the bottom player's torso upward while rotat...
+- **Recover the elbow and posture**: Withdraw the shoulder and elbow only after the high leg connection has opened....
 
-- **Drive to seated or supine position**: Continue the forward drive until the bottom player is forced into a seated or supine position. Their...
-
-- **Establish immediate posture in guard**: The instant you feel their legs close around your waist, drive your hips back, straighten your spine...
+- **Confirm the next position**: Establish a stable posture inside the guard that actually remains only when the upper-body enclosure...
 
 
 ### Common Mistakes
 
 
-- **Attempting to lift the bottom player using upper body strength without establishing proper underhook leverage**
-  - Consequence: Rapid fatigue without breaking the defensive frame, and the muscular effort creates gaps in your own control that the bottom player exploits to escape or take the back
-  - Correction: Establish at least one deep underhook before initiating any lifting force. Use the mechanical advantage of the underhook to create rotation rather than pulling straight upward with arm strength.
+- **Skipping the checkpoint: recognize the upper-body trap**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.
+  - Correction: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.
 
-- **Releasing chest pressure during the underhook fight to create space for your arms**
-  - Consequence: Bottom player uses the momentary pressure relief to execute their primary escape — Granby roll, sit-through, or technical stand-up — before you establish the control needed for the posture transition
-  - Correction: Maintain chest contact throughout the grip fighting phase. Work your arms into position by threading through gaps while keeping your weight heavy on their back.
+- **Skipping the checkpoint: protect the captured limb**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
+  - Correction: The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 
-- **Failing to post knee against the near hip before initiating the lift**
-  - Consequence: Bottom player simply re-turtles the moment you shift weight for the lift, returning to Chill Dog with no positional change and wasted energy on your part
-  - Correction: Always establish the knee post as a structural block before committing to the lift. The knee prevents re-turtling and gives you a stable base to drive from.
+- **Skipping the checkpoint: work before pressure engages**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+  - Correction: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
 
 </section>
@@ -228,37 +227,37 @@ This is a lower-priority technique in the Chill Dog top arsenal because the prim
 ### Key Principles
 
 
-- Maintain elbow-to-knee connection as the primary defensive barrier — this frame must hold against underhook threading attempts
+- Secure New York first: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
 
-- Use the top player's lifting energy against them by converting upward momentum into rotational movement for back takes
+- Turn onto the hip: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
 
-- If forced out of Chill Dog, prioritize closed guard recovery over scrambling — closed guard bottom is an offensive position
+- Clear the neck: Move the controlling arm around the head while keeping the leg and trapped arm connected.
 
-- Recognize the posture attempt early through grip and pressure changes to prepare your defensive or counter response
+- Place the inside frame: Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.
 
-- Keep weight forward and heavy on your hands to resist being lifted onto your back or rolled to your side
+- Maintain the arm trap: Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup.
+
+- Recover when control opens: Return the legs to a comfortable guard if the opponent withdraws the elbow or stacks your upper back.
 
 
 ### Recognition Cues
 
 
-- Top player's grip focus shifts from your neck and upper back to your hips and armpits — they are seeking underhook leverage rather than seatbelt or harness control
+- The top player faces a bottom guard player using Chill Dog; the head, shoulder or arm may still be enclosed.
 
-- Pressure changes from sustained downward compression to intermittent upward lifting force, especially under your near hip or far armpit
+- The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 
-- Top player's knee begins posting against your near hip, creating a block that signals they intend to prevent you from re-turtling after the lift
-
-- You feel the top player's arms threading between your elbows and knees rather than attacking over the top of your defensive frame
+- Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
 
 ### Defensive Options
 
 
-- **Squeeze elbows tighter to knees and compress into tighter ball to deny underhook access** - When: Immediately upon recognizing underhook attempts — before the top player establishes deep grip control
+- **Keep the opposing hand on the mat and hug the knee before changing the head-side grip.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Use the lifting momentum to barrel roll underneath the top player and take their back** - When: When the top player commits to the upward lift with both arms engaged and their base is compromised — the moment you feel your weight leaving the mat
+- **Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Thread near leg across the top player's thigh to catch half guard during the transition** - When: When the lift has progressed past the point of re-turtling but before full guard recovery — use the transition phase to establish a more favorable guard position
+- **Move the controlling arm around the head while keeping the leg and trapped arm connected.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -269,13 +268,10 @@ This is a lower-priority technique in the Chill Dog top arsenal because the prim
 ## Variations
 
 
-**Double Underhook Lift**: Thread both arms under the bottom player — one controlling the near hip, the other under the far armpit. Use simultaneous lifting and rotating pressure to peel the defender out of their compact ball. Provides the most mechanical control but requires clearing both arms past the elbow-knee frame. (When to use: When the bottom player's elbow-knee frame has loosened on one side, allowing you to establish the second underhook.)
+**Cooperative checkpoint drill**: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape. (When to use: Learning the control without submission pressure)
 
 
-**Single Arm Roll-Through**: Secure a deep overhook on the near arm and use body rotation to roll the bottom player onto their near hip. Drive your chest into their exposed side while posting your far hand to prevent them from re-turtling. Less control than double underhooks but faster to initiate. (When to use: When the bottom player is actively defending one side and you can quickly isolate the near arm for the roll.)
-
-
-**Gi Collar Posture Break**: In gi, grip the back of the collar or belt and use it as a handle to pull the bottom player's upper body upward and backward. The gi material provides a secure anchor point that compensates for the difficulty of establishing underhooks against a tight frame. Combine with knee pressure against the near hip to prevent re-turtling. (When to use: Gi-only training or competition where the collar grip provides superior leverage compared to no-gi underhook attempts.)
+**Response and reset drill**: Keep the opposing hand on the mat and hug the knee before changing the head-side grip. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -287,7 +283,7 @@ This is a lower-priority technique in the Chill Dog top arsenal because the prim
 
 ## Position Integration
 
-Posture from Chill Dog sits at the intersection of turtle attacking systems and guard passing frameworks, serving as a bridge technique when traditional turtle attacks are stalled by exceptional Chill Dog defense. The transition feeds directly into the closed guard or half guard passing game, making it valuable for practitioners with stronger guard passing than turtle attacking skills. Within the 10th Planet system, this technique carries low priority because the system emphasizes persistent turtle attacks and back-taking sequences. However, in competition contexts where time is limited and the opponent's Chill Dog defense is exceptionally tight, this transition provides a pragmatic alternative that keeps the match progressing toward a resolution.
+The top player faces a bottom guard player using Chill Dog; the head, shoulder or arm may still be enclosed. This is defense inside facing rubber guard. Closed or half guard depends on which lower-body connections remain; neither is guaranteed by raising the head. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -297,21 +293,13 @@ Posture from Chill Dog sits at the intersection of turtle attacking systems and 
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Chill Dog]] - Source position — attacker begins in Chill Dog top
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Closed Guard]] - Primary target position after successful posture transition
+- [[Positions/Rubber Guard/New York]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for New York.
 
-- [[Positions/Half Guard]] - Alternative target when bottom player catches half guard during transition
+- [[Positions/Rubber Guard/Invisible Collar]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Invisible Collar.
 
-- [[Positions/Turtle]] - Parent position family — Chill Dog is a turtle variant
-
-- [[Positions/Back Control]] - Counter risk if bottom player exploits the lifting movement to take the back
-
-- [[Transitions/Escape Chill Dog]] - Bottom player's primary escape technique from Chill Dog defense
-
-- [[Transitions/Posture Recovery]] - Related posture mechanics applicable after transitioning to closed guard top
-
-- [[Transitions/Advance to Chill Dog]] - Entry transition that establishes the starting position for this technique
+- [[Positions/Rubber Guard/Mission Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control.
 
 
 </section>

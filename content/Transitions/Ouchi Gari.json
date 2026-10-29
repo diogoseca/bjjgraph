@@ -404,30 +404,11 @@
     "clips": [
       {
         "id": "XdOuXj1H0ok",
-        "title": "Misdirection Ouchi Gari setup",
-        "by": "Shintaro Higashi",
-        "vertical": false,
+        "title": "Misdirection Ouchi-Gari",
         "channel": "Shintaro Higashi",
         "duration": 99,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7GwpZmQOJqU",
-        "title": "Circular Ouchi Gari breakdown",
-        "by": "Matt D'Aquino",
         "vertical": false,
-        "channel": "JudoFanatics",
-        "duration": 90,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "cd7Qv244XEA",
-        "title": "Parlati's drop Ouchi Gari",
-        "by": "JudoCrazy",
-        "vertical": false,
-        "channel": "JudoCrazy",
-        "duration": 32,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -609,30 +590,18 @@
     "clips": [
       {
         "id": "hVv4saQm5Do",
-        "title": "Ouchi Gari counter with Uki Waza / Yoko Otoshi",
-        "by": "emultia",
-        "vertical": false,
+        "title": "Ouchi Gari counter with Uki Waza/Yoko Otoshi",
         "channel": "emultia",
         "duration": 21,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lyGzPirYRxM",
-        "title": "Countering Ouchi Gari with Tai Otoshi",
-        "by": "Judo PSG Club Australia",
         "vertical": false,
-        "channel": " Judo PSG Club Australia ",
-        "duration": 13,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "qEV8CKGqwWE",
-        "title": "Counter to Ouchi Gari",
-        "by": "Grappling University",
-        "vertical": false,
+        "title": "Counter To Ouchi Gari | Grappling University",
         "channel": "Grappling University",
         "duration": 186,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

@@ -1,0 +1,374 @@
+{
+  "name": "Buggy Release to Guard",
+  "from_position": "Buggy Choke/Bottom",
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
+      "result": "success"
+    },
+    {
+      "to": "Buggy Choke/Bottom",
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "The Buggy loop holder releases the choke, restores inside frames, and inserts a knee to recover bottom half guard while keeping the neck and raised knee unloaded.",
+  "description": "The Buggy loop holder releases the choke, restores inside frames, and inserts a knee to recover bottom half guard while keeping the neck and raised knee unloaded.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The Buggy loop holder releases the choke, restores inside frames, and inserts a knee to recover bottom half guard while keeping the neck and raised knee unloaded.\n\nBegin underneath the opponent with your arm-and-leg Buggy enclosure still present. Remove the choke pressure before opening the enclosure or asking the partner to change direction.\n\nRelease the loop through a comfortable hip angle without pulling the raised knee against resistance. Place inside frames as the enclosure opens to preserve space between the bodies. Use the framed space to bring a knee inside and establish the required half-guard leg connection. The recovery is Half Guard/Bottom only once the leg connection exists; losing the loop without it leaves Side Control/Bottom.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Buggy Choke",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Side Control",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Buggy Release to Guard Attacker",
+    "description": "The Buggy loop holder releases the choke, restores inside frames, and inserts a knee to recover bottom half guard while keeping the neck and raised knee unloaded.",
+    "overview": "The Buggy loop holder releases the choke, restores inside frames, and inserts a knee to recover bottom half guard while keeping the neck and raised knee unloaded.\n\nBegin underneath the opponent with your arm-and-leg Buggy enclosure still present. Remove the choke pressure before opening the enclosure or asking the partner to change direction.\n\nRelease the loop through a comfortable hip angle without pulling the raised knee against resistance. Place inside frames as the enclosure opens to preserve space between the bodies. Use the framed space to bring a knee inside and establish the required half-guard leg connection. The recovery is Half Guard/Bottom only once the leg connection exists; losing the loop without it leaves Side Control/Bottom.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom player controls the loop: Begin underneath the opponent with your arm-and-leg Buggy enclosure still present.",
+      "Head-and-arm pressure released: Remove the choke pressure before opening the enclosure or asking the partner to change direction.",
+      "Arm and leg connection opens: Release the loop through a comfortable hip angle without pulling the raised knee against resistance.",
+      "Frames protect knee-entry space: Place inside frames as the enclosure opens to preserve space between the bodies.",
+      "Knee enters before leg capture: Use the framed space to bring a knee inside and establish the required half-guard leg connection.",
+      "One opposing leg safely retained: The recovery is Half Guard/Bottom only once the leg connection exists; losing the loop without it leaves Side Control/Bottom."
+    ],
+    "setup_requirements": [
+      "Begin underneath the opponent with your arm-and-leg Buggy enclosure still present.",
+      "Remove the choke pressure before opening the enclosure or asking the partner to change direction.",
+      "Release the loop through a comfortable hip angle without pulling the raised knee against resistance.",
+      "Place inside frames as the enclosure opens to preserve space between the bodies."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the holder",
+        "description": "Begin underneath the opponent with your arm-and-leg Buggy enclosure still present."
+      },
+      {
+        "step_number": 2,
+        "action": "Unload the choke",
+        "description": "Remove the choke pressure before opening the enclosure or asking the partner to change direction."
+      },
+      {
+        "step_number": 3,
+        "action": "Open the loop",
+        "description": "Release the loop through a comfortable hip angle without pulling the raised knee against resistance."
+      },
+      {
+        "step_number": 4,
+        "action": "Restore inside frames",
+        "description": "Place inside frames as the enclosure opens to preserve space between the bodies."
+      },
+      {
+        "step_number": 5,
+        "action": "Insert the knee",
+        "description": "Use the framed space to bring a knee inside and establish the required half-guard leg connection."
+      },
+      {
+        "step_number": 6,
+        "action": "Confirm half guard",
+        "description": "The recovery is Half Guard/Bottom only once the leg connection exists; losing the loop without it leaves Side Control/Bottom."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Wait for the choke pressure to release before changing angle.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Buggy Choke/Bottom"
+      },
+      {
+        "counter": "Maintain a balanced base as the loop opens.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Buggy Choke/Bottom"
+      },
+      {
+        "counter": "Address the incoming knee before half guard is established.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping recognize the holder",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin underneath the opponent with your arm-and-leg Buggy enclosure still present."
+      },
+      {
+        "error": "Skipping unload the choke",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Remove the choke pressure before opening the enclosure or asking the partner to change direction."
+      },
+      {
+        "error": "Skipping open the loop",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Release the loop through a comfortable hip angle without pulling the raised knee against resistance."
+      },
+      {
+        "error": "Skipping restore inside frames",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Place inside frames as the enclosure opens to preserve space between the bodies."
+      },
+      {
+        "error": "Skipping insert the knee",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Use the framed space to bring a knee inside and establish the required half-guard leg connection."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Recognize the holder",
+        "description": "Begin underneath the opponent with your arm-and-leg Buggy enclosure still present. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Unload the choke",
+        "description": "Remove the choke pressure before opening the enclosure or asking the partner to change direction. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the loop",
+        "description": "Release the loop through a comfortable hip angle without pulling the raised knee against resistance. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Restore inside frames",
+        "description": "Place inside frames as the enclosure opens to preserve space between the bodies. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Buggy Release to Guard: what does recognize the holder require?",
+        "answer": "Begin underneath the opponent with your arm-and-leg Buggy enclosure still present.",
+        "answer_line": "Bottom player controls the loop",
+        "distractors": {
+          "plausible": [
+            "A Granby from a turtle base",
+            "A back escape through rear hooks"
+          ],
+          "trap": [
+            "Half guard without catching a leg"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Release to Guard: what does unload the choke require?",
+        "answer": "Remove the choke pressure before opening the enclosure or asking the partner to change direction.",
+        "answer_line": "Head-and-arm pressure released",
+        "distractors": {
+          "plausible": [
+            "A back escape through rear hooks",
+            "Half guard without catching a leg"
+          ],
+          "trap": [
+            "A finish held during the release"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Release to Guard: what does open the loop require?",
+        "answer": "Release the loop through a comfortable hip angle without pulling the raised knee against resistance.",
+        "answer_line": "Arm and leg connection opens",
+        "distractors": {
+          "plausible": [
+            "Half guard without catching a leg",
+            "A finish held during the release"
+          ],
+          "trap": [
+            "A Granby from a turtle base"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Release to Guard: what does restore inside frames require?",
+        "answer": "Place inside frames as the enclosure opens to preserve space between the bodies.",
+        "answer_line": "Frames protect knee-entry space",
+        "distractors": {
+          "plausible": [
+            "A finish held during the release",
+            "A Granby from a turtle base"
+          ],
+          "trap": [
+            "A back escape through rear hooks"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Release to Guard: what does insert the knee require?",
+        "answer": "Use the framed space to bring a knee inside and establish the required half-guard leg connection.",
+        "answer_line": "Knee enters before leg capture",
+        "distractors": {
+          "plausible": [
+            "A Granby from a turtle base",
+            "A back escape through rear hooks"
+          ],
+          "trap": [
+            "Half guard without catching a leg"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Release to Guard: what does confirm half guard require?",
+        "answer": "The recovery is Half Guard/Bottom only once the leg connection exists; losing the loop without it leaves Side Control/Bottom.",
+        "answer_line": "One opposing leg safely retained",
+        "distractors": {
+          "plausible": [
+            "A back escape through rear hooks",
+            "Half guard without catching a leg"
+          ],
+          "trap": [
+            "A finish held during the release"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Buggy Release to Guard Defender",
+    "description": "Recognize Buggy Release to Guard and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Wait for the choke pressure to release before changing angle. Maintain a balanced base as the loop opens. Address the incoming knee before half guard is established. Retain side-control contact without loading the opponent's neck. Recognize the actual half-guard connection if a leg is captured.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Wait for the choke pressure to release before changing angle.",
+      "Maintain a balanced base as the loop opens.",
+      "Address the incoming knee before half guard is established.",
+      "Retain side-control contact without loading the opponent's neck.",
+      "Recognize the actual half-guard connection if a leg is captured."
+    ],
+    "recognition_cues": [
+      "Begin underneath the opponent with your arm-and-leg Buggy enclosure still present.",
+      "Remove the choke pressure before opening the enclosure or asking the partner to change direction.",
+      "Release the loop through a comfortable hip angle without pulling the raised knee against resistance."
+    ],
+    "defensive_options": [
+      {
+        "action": "Wait for the choke pressure to release before changing angle.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Buggy Choke/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Maintain a balanced base as the loop opens.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Buggy Choke/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Address the incoming knee before half guard is established.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Retain side-control contact without loading the opponent's neck.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Buggy Choke/Bottom",
+        "how": "Wait for the choke pressure to release before changing angle."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Recognize the actual half-guard connection if a leg is captured."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Recognize the actual half-guard connection if a leg is captured."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Maintain a balanced base as the loop opens."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Buggy Release to Guard, what connection do you address first?",
+        "answer": "Wait for the choke pressure to release before changing angle."
+      },
+      {
+        "question": "Against Buggy Release to Guard, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Buggy Release to Guard, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Recognize the holder",
+        "description": "Begin underneath the opponent with your arm-and-leg Buggy enclosure still present. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Unload the choke",
+        "description": "Remove the choke pressure before opening the enclosure or asking the partner to change direction. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the loop",
+        "description": "Release the loop through a comfortable hip angle without pulling the raised knee against resistance. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin underneath the opponent with your arm-and-leg Buggy enclosure still present.",
+    "Remove the choke pressure before opening the enclosure or asking the partner to change direction.",
+    "Release the loop through a comfortable hip angle without pulling the raised knee against resistance."
+  ],
+  "position_integration": "The Buggy loop holder releases the choke, restores inside frames, and inserts a knee to recover bottom half guard while keeping the neck and raised knee unloaded. Begin underneath the opponent with your arm-and-leg Buggy enclosure still present. The recovery is Half Guard/Bottom only once the leg connection exists; losing the loop without it leaves Side Control/Bottom."
+}

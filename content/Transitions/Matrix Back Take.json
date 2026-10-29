@@ -84,10 +84,6 @@
       "relationship": "Alternative back take path that can be chained when matrix entry is defended"
     },
     {
-      "name": "Back Take from Top",
-      "relationship": "Traditional seat belt back take that serves as primary alternative from same position"
-    },
-    {
       "name": "Matrix",
       "relationship": "Parent position representing the dynamic rolling back take system"
     }
@@ -378,35 +374,7 @@
       }
     ],
     "safety_considerations": "The matrix back take is generally safe when practiced with proper control and awareness. The primary safety concern is during the hip slide phase, where both practitioners are in transitional positions and coordination matters. Always ensure your partner is comfortable with the movement before adding speed or resistance. When drilling, communicate clearly if you feel off-balance or unstable during the transition. Avoid slamming or dropping your weight suddenly during the slide, as this can cause neck or shoulder injuries to the person in turtle. For the person in turtle, be aware that the matrix entry can feel disorienting initially, so tap early if pressure on your neck becomes uncomfortable. When back control is established, both practitioners should be mindful of proper hook placement to avoid knee or ankle injuries. Progress slowly through the resistance levels in training progressions to allow both practitioners to develop the necessary body awareness and control.",
-    "clips": [
-      {
-        "id": "BWDsJPV7iPA",
-        "title": "The no-gi matrix back take",
-        "by": "Eivind Langaker",
-        "vertical": false,
-        "channel": "LangakerBjj",
-        "duration": 96,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Z6BV6a5tnkA",
-        "title": "No-Gi Matrix Back Take Tutorial",
-        "by": "Learn Jiujitsu coach",
-        "vertical": false,
-        "channel": "Learn Jiujitsu",
-        "duration": 202,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uo8-ZJyba08",
-        "title": "Craig Jones Matrix Back Take Compilation",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "FreeChannelOpen",
-        "duration": 63,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Matrix Back Take Defender",
@@ -588,17 +556,7 @@
         "description": "Partner attacks from turtle top using the matrix back take along with traditional back takes, front headlocks, and other turtle attacks. You must defend all entries while working your own turtle escape system. This builds the ability to distinguish matrix entries from other attacks and choose the correct defensive response in the context of a full positional exchange."
       }
     ],
-    "clips": [
-      {
-        "id": "waVFl1Ip6VU",
-        "title": "Turtle back escape by shrugging the hook off",
-        "by": "Andy Tong",
-        "vertical": false,
-        "channel": "Andy Tong",
-        "duration": 33,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

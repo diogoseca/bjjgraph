@@ -160,24 +160,12 @@ description: "How to defend against Side Control to Mount in BJJ. Recognition cu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Turkish get-up escape from bottom side control",
-      "description": "Side Control to Mount (Defender) film study: Turkish get-up escape from bottom side control, taught by Dirtball BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mBFVriM0ojQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mBFVriM0ojQ",
-      "url": "https://www.youtube.com/watch?v=mBFVriM0ojQ",
-      "creator": { "@type": "Person", "name": "Dirtball BJJ coach" },
-      "duration": "PT64S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Side control underhook escape",
-      "description": "Side Control to Mount (Defender) film study: Side control underhook escape, taught by Clayton Phillips.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TPkmg7qRcSc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TPkmg7qRcSc",
-      "url": "https://www.youtube.com/watch?v=TPkmg7qRcSc",
-      "creator": { "@type": "Person", "name": "Clayton Phillips" },
-      "duration": "PT128S"
+      "name": "Keith Owen on: Preventing the Mount from Side Control.",
+      "description": "Side Control to Mount (Defender) film study: Keith Owen on: Preventing the Mount from Side Control..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zPaf6wCX1OE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zPaf6wCX1OE",
+      "url": "https://www.youtube.com/watch?v=zPaf6wCX1OE",
+      "duration": "PT230S"
     }
   ]
 }
@@ -205,17 +193,9 @@ Defending the side control to mount transition is one of the most critical defen
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mBFVriM0ojQ)
+![](https://www.youtube.com/watch?v=zPaf6wCX1OE)
 
-<p class="clip-credit"><strong>Turkish get-up escape from bottom side control</strong> — taught by Dirtball BJJ coach · 1:04 · <a href="https://www.youtube.com/watch?v=mBFVriM0ojQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TPkmg7qRcSc)
-
-<p class="clip-credit"><strong>Side control underhook escape</strong> — taught by Clayton Phillips · 2:08 · <a href="https://www.youtube.com/watch?v=TPkmg7qRcSc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Keith Owen on: Preventing the Mount from Side Control.</strong> · 3:50 · <a href="https://www.youtube.com/watch?v=zPaf6wCX1OE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

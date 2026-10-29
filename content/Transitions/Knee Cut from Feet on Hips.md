@@ -46,24 +46,12 @@ description: "Master the knee cut pass from feet on hips guard in BJJ. Setup, ex
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Monitoring the feet when passing guard",
-      "description": "Knee Cut from Feet on Hips film study: Monitoring the feet when passing guard, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YLPNsyHtREs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YLPNsyHtREs",
-      "url": "https://www.youtube.com/watch?v=YLPNsyHtREs",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT50S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee cut mechanics and live example",
-      "description": "Knee Cut from Feet on Hips film study: Knee cut mechanics and live example, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r6mfCS7MuOY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/r6mfCS7MuOY",
-      "url": "https://www.youtube.com/watch?v=r6mfCS7MuOY",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT141S"
+      "name": "101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response",
+      "description": "Knee Cut from Feet on Hips film study: 101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rP8SOouke1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rP8SOouke1s",
+      "url": "https://www.youtube.com/watch?v=rP8SOouke1s",
+      "duration": "PT57S"
     }
   ]
 }
@@ -117,17 +105,9 @@ This pass is particularly effective against opponents who rely heavily on feet-o
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YLPNsyHtREs)
+![](https://www.youtube.com/watch?v=rP8SOouke1s)
 
-<p class="clip-credit"><strong>Monitoring the feet when passing guard</strong> — taught by Gordon Ryan · 0:50 · <a href="https://www.youtube.com/watch?v=YLPNsyHtREs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=r6mfCS7MuOY)
-
-<p class="clip-credit"><strong>Knee cut mechanics and live example</strong> — taught by Gordon Ryan · 2:21 · <a href="https://www.youtube.com/watch?v=r6mfCS7MuOY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=rP8SOouke1s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

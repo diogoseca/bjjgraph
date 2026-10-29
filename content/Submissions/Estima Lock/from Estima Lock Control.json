@@ -413,35 +413,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "_6BC8d5B5Hs",
-        "title": "Estima Lock",
-        "by": "bjjtaro",
-        "vertical": false,
-        "channel": "bjjtaro",
-        "duration": 31,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Ao0IatSHEi0",
-        "title": "Estima Lock",
-        "by": "Leandro Dos Santos Flores",
-        "vertical": false,
-        "channel": "Sensei Leandro Dos Santos Flores",
-        "duration": 27,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-RKlONkjanA",
-        "title": "Estima Lock Finish",
-        "by": "Yao Nkromah",
-        "vertical": false,
-        "channel": "Yao TheTruth",
-        "duration": 50,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Estima Lock Defender",
@@ -626,34 +598,6 @@
         "description": "Integrate Estima Lock defense into broader leg entanglement sparring. Start from 50-50 or open guard and work through the full positional chain including Estima Lock attempts and defenses. Develop the ability to recognize and defend the lock within the flow of dynamic grappling rather than only from static starting positions."
       }
     ],
-    "clips": [
-      {
-        "id": "zErch4qHfB0",
-        "title": "Counter Footlock from Straight Ankle Lock",
-        "by": "James Clingerman",
-        "vertical": false,
-        "channel": "James Clingerman",
-        "duration": 12,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "e2cpItCWRdQ",
-        "title": "Estima lock and estima lock escape",
-        "by": "Budo Jake",
-        "vertical": false,
-        "channel": "BudoVideos.com",
-        "duration": 295,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-L_WChy0fP8",
-        "title": "Escaping the straight foot lock",
-        "by": "Boa Jiu-Jitsu Club",
-        "vertical": false,
-        "channel": "Boa Jiu-Jitsu Club",
-        "duration": 221,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

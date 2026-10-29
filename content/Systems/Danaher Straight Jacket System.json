@@ -72,11 +72,6 @@
       "relationship": "Related position for orientation."
     },
     {
-      "name": "Back Take",
-      "content_type": "Transition",
-      "relationship": "Related transition on the graph."
-    },
-    {
       "name": "Turtle to Back Take",
       "content_type": "Transition",
       "relationship": "Related transition on the graph."

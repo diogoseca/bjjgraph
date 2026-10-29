@@ -147,35 +147,12 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 Submissions from the Dog Fight",
-      "description": "Dogfight Position (Top) film study: 3 Submissions from the Dog Fight, taught by Geo Martinez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/InGMvIP5tqg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/InGMvIP5tqg",
-      "url": "https://www.youtube.com/watch?v=InGMvIP5tqg",
-      "creator": { "@type": "Person", "name": "Geo Martinez" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Dog Bar",
-      "description": "Dogfight Position (Top) film study: Dog Bar, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
-      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Pass the Dog Fight to Mount",
-      "description": "Dogfight Position (Top) film study: Pass the Dog Fight to Mount, taught by Christian Diaz.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4rXi8YQ3o5k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4rXi8YQ3o5k",
-      "url": "https://www.youtube.com/watch?v=4rXi8YQ3o5k",
-      "creator": { "@type": "Person", "name": "Christian Diaz" },
-      "duration": "PT241S"
+      "name": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
+      "description": "Dogfight Position (Top) film study: Whizzer from Half Guard.  How to win \"Dog Fight\".",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "duration": "PT59S"
     }
   ]
 }
@@ -203,27 +180,11 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 <p class="section-subtitle">Watch Dogfight Position (Top) in action — curated instructionals</p>
 
 
-<div class="film-clip film-clip--vertical">
-
-![](https://www.youtube.com/watch?v=InGMvIP5tqg)
-
-<p class="clip-credit"><strong>3 Submissions from the Dog Fight</strong> — taught by Geo Martinez · 1:01 · <a href="https://www.youtube.com/watch?v=InGMvIP5tqg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
 
-<p class="clip-credit"><strong>Dog Bar</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4rXi8YQ3o5k)
-
-<p class="clip-credit"><strong>Pass the Dog Fight to Mount</strong> — taught by Christian Diaz · 4:01 · <a href="https://www.youtube.com/watch?v=4rXi8YQ3o5k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Whizzer from Half Guard.  How to win &#34;Dog Fight&#34;</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -297,7 +258,6 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 
 **If opponent loses whizzer control, exposes their back, or commits weight forward excessively:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
 - Execute **[[Transitions/Underhook Sweep from Dogfight/Attacker|Underhook Sweep from Dogfight]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
@@ -307,7 +267,6 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 
 **If opponent attempts to circle their trapped leg free while maintaining balance:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 - Execute **[[Transitions/Dogfight Sweep/Attacker|Dogfight Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
 
 

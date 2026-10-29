@@ -36,50 +36,6 @@ description: "Master the Matrix Back Take from turtle. Step-by-step execution wi
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Matrix Back Take \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "The no-gi matrix back take",
-      "description": "Matrix Back Take film study: The no-gi matrix back take, taught by Eivind Langaker.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BWDsJPV7iPA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BWDsJPV7iPA",
-      "url": "https://www.youtube.com/watch?v=BWDsJPV7iPA",
-      "creator": { "@type": "Person", "name": "Eivind Langaker" },
-      "duration": "PT96S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-Gi Matrix Back Take Tutorial",
-      "description": "Matrix Back Take film study: No-Gi Matrix Back Take Tutorial, taught by Learn Jiujitsu coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Z6BV6a5tnkA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Z6BV6a5tnkA",
-      "url": "https://www.youtube.com/watch?v=Z6BV6a5tnkA",
-      "creator": { "@type": "Person", "name": "Learn Jiujitsu coach" },
-      "duration": "PT202S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Craig Jones Matrix Back Take Compilation",
-      "description": "Matrix Back Take film study: Craig Jones Matrix Back Take Compilation, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uo8-ZJyba08/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uo8-ZJyba08",
-      "url": "https://www.youtube.com/watch?v=uo8-ZJyba08",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT63S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -118,40 +74,6 @@ The Matrix Back Take has become a staple in modern no-gi back attack systems, wh
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Matrix Back Take in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BWDsJPV7iPA)
-
-<p class="clip-credit"><strong>The no-gi matrix back take</strong> — taught by Eivind Langaker · 1:36 · <a href="https://www.youtube.com/watch?v=BWDsJPV7iPA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Z6BV6a5tnkA)
-
-<p class="clip-credit"><strong>No-Gi Matrix Back Take Tutorial</strong> — taught by Learn Jiujitsu coach · 3:22 · <a href="https://www.youtube.com/watch?v=Z6BV6a5tnkA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uo8-ZJyba08)
-
-<p class="clip-credit"><strong>Craig Jones Matrix Back Take Compilation</strong> — taught by Craig Jones · 1:03 · <a href="https://www.youtube.com/watch?v=uo8-ZJyba08" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -340,8 +262,6 @@ The matrix back take is an advanced component of a comprehensive turtle top atta
 
 - [[Transitions/Front Headlock to Back]] - Alternative back take path that can be chained when matrix entry is defended
 
-- [[Transitions/Back Take from Top]] - Traditional seat belt back take that serves as primary alternative from same position
-
 - [[Positions/Matrix]] - Parent position representing the dynamic rolling back take system
 
 
@@ -352,7 +272,7 @@ The matrix back take is an advanced component of a comprehensive turtle top atta
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

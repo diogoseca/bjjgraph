@@ -110,10 +110,6 @@
     {
       "name": "Closed Guard to Triangle",
       "relationship": "Setup relationship where failed triangle creates ideal Balloon Sweep loading"
-    },
-    {
-      "name": "Back Take",
-      "relationship": "Alternative transition when opponent defends sweep by turning and exposing back"
     }
   ],
   "attacker": {
@@ -407,29 +403,17 @@
       {
         "id": "OLGUxB9k7B0",
         "title": "Balloon Sweep",
-        "by": "bjjtaro",
-        "vertical": false,
         "channel": "bjjtaro",
         "duration": 16,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "x9wqr8IP_zM",
-        "title": "Butterfly Balloon Sweep",
-        "by": "AlphaBroadcast",
         "vertical": false,
-        "channel": "AlphaBroadcast",
-        "duration": 87,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "7jlI3VexQyw",
-        "title": "Balloon Sweep from Closed Guard",
-        "by": "Christian Uflacker",
-        "vertical": false,
+        "title": "Balloon Sweep | Christian \" Xaropinho \" Uflacker",
         "channel": "Uflacker Academy",
         "duration": 101,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -613,26 +597,7 @@
         "description": "Begin rounds in closed guard top with partner free to attack any sweep or submission. Develop ability to recognize and defend the Balloon Sweep while simultaneously managing other threats. Identify moments where your posture is vulnerable and practice automatic recovery responses under realistic pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense from inside guard",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "atuyy9enuR0",
-        "title": "Standing in closed guard: posture, grips and counters",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "TrumpetDanBJJ",
-        "duration": 597,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

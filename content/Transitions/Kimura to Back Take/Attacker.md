@@ -180,35 +180,32 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura trap back take from half guard",
-      "description": "Kimura to Back Take (Attacker) film study: Kimura trap back take from half guard, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xpEueRuYcnM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xpEueRuYcnM",
-      "url": "https://www.youtube.com/watch?v=xpEueRuYcnM",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT69S"
+      "name": "Kimura Trap Flow \u2014 Control, Invert, and Take the Back",
+      "description": "Kimura to Back Take (Attacker) film study: Kimura Trap Flow \u2014 Control, Invert, and Take the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MGotqppgD0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MGotqppgD0w",
+      "url": "https://www.youtube.com/watch?v=MGotqppgD0w",
+      "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kimura trap to back take to RNC",
-      "description": "Kimura to Back Take (Attacker) film study: Kimura trap to back take to RNC, taught by Focused Fight Team.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OoCf7ukKR54/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OoCf7ukKR54",
-      "url": "https://www.youtube.com/watch?v=OoCf7ukKR54",
-      "creator": { "@type": "Person", "name": "Focused Fight Team" },
-      "duration": "PT89S"
+      "name": "Escape the half guard with a kimura trap back take.",
+      "description": "Kimura to Back Take (Attacker) film study: Escape the half guard with a kimura trap back take..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xpEueRuYcnM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xpEueRuYcnM",
+      "url": "https://www.youtube.com/watch?v=xpEueRuYcnM",
+      "duration": "PT69S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Kimura trap flow: control, invert, take the back",
-      "description": "Kimura to Back Take (Attacker) film study: Kimura trap flow: control, invert, take the back, taught by Mr. NogiJiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MGotqppgD0w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MGotqppgD0w",
-      "url": "https://www.youtube.com/watch?v=MGotqppgD0w",
-      "creator": { "@type": "Person", "name": "Mr. NogiJiujitsu" },
-      "duration": "PT59S"
+      "name": "Kimura Trap - Backtake - RNC",
+      "description": "Kimura to Back Take (Attacker) film study: Kimura Trap - Backtake - RNC.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OoCf7ukKR54/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OoCf7ukKR54",
+      "url": "https://www.youtube.com/watch?v=OoCf7ukKR54",
+      "duration": "PT89S"
     }
   ]
 }
@@ -236,9 +233,17 @@ The Kimura to Back Take from the attacker's perspective is about converting an e
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=MGotqppgD0w)
+
+<p class="clip-credit"><strong>Kimura Trap Flow — Control, Invert, and Take the Back</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=MGotqppgD0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=xpEueRuYcnM)
 
-<p class="clip-credit"><strong>Kimura trap back take from half guard</strong> — taught by BJJ4Breakfast · 1:09 · <a href="https://www.youtube.com/watch?v=xpEueRuYcnM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape the half guard with a kimura trap back take.</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=xpEueRuYcnM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -246,15 +251,7 @@ The Kimura to Back Take from the attacker's perspective is about converting an e
 
 ![](https://www.youtube.com/watch?v=OoCf7ukKR54)
 
-<p class="clip-credit"><strong>Kimura trap to back take to RNC</strong> — taught by Focused Fight Team · 1:29 · <a href="https://www.youtube.com/watch?v=OoCf7ukKR54" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MGotqppgD0w)
-
-<p class="clip-credit"><strong>Kimura trap flow: control, invert, take the back</strong> — taught by Mr. NogiJiujitsu · 0:59 · <a href="https://www.youtube.com/watch?v=MGotqppgD0w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Trap - Backtake - RNC</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=OoCf7ukKR54" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -423,7 +420,7 @@ The Kimura to Back Take transition is relatively safe compared to submission fin
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura — Enter The System</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>

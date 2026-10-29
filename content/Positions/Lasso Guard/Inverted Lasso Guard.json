@@ -449,26 +449,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "XSkn8eAmtJU",
-        "title": "Passing the Lasso with Longstep + Footwork",
-        "by": "Bryce Nie",
-        "vertical": false,
-        "channel": "Bryce Nie",
-        "duration": 150,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "3Q3S5alr1j4",
-        "title": "Passing the Lasso-Half Guard",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "JiuJitsuMag",
-        "duration": 162,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Inverted Lasso Guard Bottom",
@@ -650,11 +631,6 @@
             "technique": "Berimbolo Entry",
             "target": "Back Control",
             "probability": 70
-          },
-          {
-            "technique": "Kiss of the Dragon",
-            "target": "Back Control",
-            "probability": 60
           }
         ]
       },
@@ -866,35 +842,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "ErsvmCAGxnA",
-        "title": "Handling Top Pressure from Lasso Guard",
-        "by": "Mikey Musumeci",
-        "vertical": false,
-        "channel": "Chase Namba",
-        "duration": 78,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "jlhHLWjrvAU",
-        "title": "Lasso to Reverse DLR Sweep & Back Take",
-        "by": "Omran",
-        "vertical": false,
-        "channel": "brazillian jiujitsu with omran",
-        "duration": 16,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "n4ddjzGemrw",
-        "title": "Lasso Guard Variations",
-        "by": "Felipe Costa",
-        "vertical": false,
-        "channel": "Felipe Costa",
-        "duration": 28,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1010,33 +958,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "n4ddjzGemrw",
-      "title": "Lasso Guard Variations Overview",
-      "by": "Felipe Costa",
-      "vertical": false,
-      "channel": "Felipe Costa",
-      "duration": 28,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ErsvmCAGxnA",
-      "title": "Lasso Guard vs Top Pressure",
-      "by": "Mikey Musumeci",
-      "vertical": false,
-      "channel": "Chase Namba",
-      "duration": 78,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "LwnoWDFJlN0",
-      "title": "Entering Lasso Guard from Open Guard",
-      "by": "Lucas Lepri",
-      "vertical": false,
-      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
-      "duration": 44,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

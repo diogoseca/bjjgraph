@@ -46,24 +46,22 @@ description: "Master the Underhook Sweep from Dogfight in BJJ. Use deep underhoo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee shield to underhook to dogfight knee tap",
-      "description": "Underhook Sweep from Dogfight film study: Knee shield to underhook to dogfight knee tap, taught by Kaboom BJJ coach.",
+      "name": "Half Guard - Primary Attack - Kneeshield to Underhook to Dogfight to Knee Tap",
+      "description": "Underhook Sweep from Dogfight film study: Half Guard - Primary Attack - Kneeshield to Underhook to Dogfight to Knee Tap.",
       "thumbnailUrl": "https://i.ytimg.com/vi/K7U2uBUfq-c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/K7U2uBUfq-c",
       "url": "https://www.youtube.com/watch?v=K7U2uBUfq-c",
-      "creator": { "@type": "Person", "name": "Kaboom BJJ coach" },
-      "duration": "PT129S"
+      "duration": "PT128S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Dogfight basics and the old school sweep",
-      "description": "Underhook Sweep from Dogfight film study: Dogfight basics and the old school sweep, taught by Brandon McCaghren.",
+      "name": "DOG FIGHT BASICS (Plan B \u0026 Oldschool Sweep)",
+      "description": "Underhook Sweep from Dogfight film study: DOG FIGHT BASICS (Plan B \u0026 Oldschool Sweep).",
       "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
       "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT145S"
+      "duration": "PT144S"
     }
   ]
 }
@@ -119,7 +117,7 @@ At higher levels, the Underhook Sweep chains seamlessly with other dogfight opti
 
 ![](https://www.youtube.com/watch?v=K7U2uBUfq-c)
 
-<p class="clip-credit"><strong>Knee shield to underhook to dogfight knee tap</strong> — taught by Kaboom BJJ coach · 2:09 · <a href="https://www.youtube.com/watch?v=K7U2uBUfq-c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Guard - Primary Attack - Kneeshield to Underhook to Dogfight to Knee Tap</strong> · 2:08 · <a href="https://www.youtube.com/watch?v=K7U2uBUfq-c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -127,7 +125,7 @@ At higher levels, the Underhook Sweep chains seamlessly with other dogfight opti
 
 ![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
 
-<p class="clip-credit"><strong>Dogfight basics and the old school sweep</strong> — taught by Brandon McCaghren · 2:25 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>DOG FIGHT BASICS (Plan B &amp; Oldschool Sweep)</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -308,8 +306,6 @@ The Underhook Sweep from Dogfight sits at a critical junction in the half guard 
 - [[Transitions/Dogfight Sweep]] - Complementary sweep from same position using different mechanics and timing
 
 - [[Transitions/Forward Drive Sweep from Dogfight]] - Related forward-pressure sweep that chains with underhook sweep in the dogfight attack system
-
-- [[Transitions/Back Take]] - Alternative attack from dogfight when opponent overdefends the sweep by posting wide
 
 - [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome when opponent successfully drives you back down from dogfight
 

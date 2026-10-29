@@ -1,0 +1,386 @@
+{
+  "name": "Buggy Choke to Triangle Control",
+  "from_position": "Buggy Choke/Bottom",
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
+  "outcomes": [
+    {
+      "result": "success",
+      "to": "Triangle Control/Bottom",
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      }
+    },
+    {
+      "result": "failure",
+      "to": "Buggy Choke/Bottom",
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      }
+    },
+    {
+      "result": "failure",
+      "to": "Open Guard/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      }
+    },
+    {
+      "result": "counter",
+      "to": "Side Control/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      }
+    }
+  ],
+  "summary": "The bottom Buggy holder exchanges the arm-and-leg loop for a leg triangle around the neck and one arm, preserving the bottom actor through a continuous control transition.",
+  "description": "The bottom Buggy holder exchanges the arm-and-leg loop for a leg triangle around the neck and one arm, preserving the bottom actor through a continuous control transition.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The bottom Buggy holder exchanges the arm-and-leg loop for a leg triangle around the neck and one arm, preserving the bottom actor through a continuous control transition.\n\nBegin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control. Unload the choke before changing the leg and arm connections.\n\nRecover the legs in front through the available space while keeping the knee movement comfortable. Exchange the Buggy loop for a leg triangle containing the opponent's neck and one arm. Count the transition only once Triangle Control/Bottom is secured; the actor remains the bottom holder. If ordinary guard settles before the triangle exists, use a separate valid guard entry. Losing the loop can also leave Side Control/Bottom.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Buggy Choke",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Side Control",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Buggy Choke to Triangle Control Attacker",
+    "description": "The bottom Buggy holder exchanges the arm-and-leg loop for a leg triangle around the neck and one arm, preserving the bottom actor through a continuous control transition.",
+    "overview": "The bottom Buggy holder exchanges the arm-and-leg loop for a leg triangle around the neck and one arm, preserving the bottom actor through a continuous control transition.\n\nBegin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control. Unload the choke before changing the leg and arm connections.\n\nRecover the legs in front through the available space while keeping the knee movement comfortable. Exchange the Buggy loop for a leg triangle containing the opponent's neck and one arm. Count the transition only once Triangle Control/Bottom is secured; the actor remains the bottom holder. If ordinary guard settles before the triangle exists, use a separate valid guard entry. Losing the loop can also leave Side Control/Bottom.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom owns the Buggy enclosure: Begin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control.",
+      "Neck pressure released for exchange: Unload the choke before changing the leg and arm connections.",
+      "Legs return during the exchange: Recover the legs in front through the available space while keeping the knee movement comfortable.",
+      "Neck and one arm enter the legs: Exchange the Buggy loop for a leg triangle containing the opponent's neck and one arm.",
+      "Triangle Control/Bottom is secured: Count the transition only once Triangle Control/Bottom is secured; the actor remains the bottom holder.",
+      "Open guard can interrupt the entry: If ordinary guard settles before the triangle exists, use a separate valid guard entry. Losing the loop can also leave Side Control/Bottom."
+    ],
+    "setup_requirements": [
+      "Begin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control.",
+      "Unload the choke before changing the leg and arm connections.",
+      "Recover the legs in front through the available space while keeping the knee movement comfortable.",
+      "Exchange the Buggy loop for a leg triangle containing the opponent's neck and one arm."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the holder",
+        "description": "Begin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control."
+      },
+      {
+        "step_number": 2,
+        "action": "Remove finishing pressure",
+        "description": "Unload the choke before changing the leg and arm connections."
+      },
+      {
+        "step_number": 3,
+        "action": "Recover the legs in front",
+        "description": "Recover the legs in front through the available space while keeping the knee movement comfortable."
+      },
+      {
+        "step_number": 4,
+        "action": "Exchange the enclosure",
+        "description": "Exchange the Buggy loop for a leg triangle containing the opponent's neck and one arm."
+      },
+      {
+        "step_number": 5,
+        "action": "Confirm bottom triangle control",
+        "description": "Count the transition only once Triangle Control/Bottom is secured; the actor remains the bottom holder."
+      },
+      {
+        "step_number": 6,
+        "action": "Recognize an interrupted route",
+        "description": "If ordinary guard settles before the triangle exists, use a separate valid guard entry. Losing the loop can also leave Side Control/Bottom."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Maintain head and shoulder alignment while the loop opens.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Buggy Choke/Bottom"
+      },
+      {
+        "counter": "Keep the arm connected to the torso before the leg triangle forms.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Buggy Choke/Bottom"
+      },
+      {
+        "counter": "Use inside frames during the leg exchange.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the holder",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control."
+      },
+      {
+        "error": "Skipping remove finishing pressure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Unload the choke before changing the leg and arm connections."
+      },
+      {
+        "error": "Skipping recover the legs in front",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Recover the legs in front through the available space while keeping the knee movement comfortable."
+      },
+      {
+        "error": "Skipping exchange the enclosure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Exchange the Buggy loop for a leg triangle containing the opponent's neck and one arm."
+      },
+      {
+        "error": "Skipping confirm bottom triangle control",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Count the transition only once Triangle Control/Bottom is secured; the actor remains the bottom holder."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the holder",
+        "description": "Begin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Remove finishing pressure",
+        "description": "Unload the choke before changing the leg and arm connections. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Recover the legs in front",
+        "description": "Recover the legs in front through the available space while keeping the knee movement comfortable. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Exchange the enclosure",
+        "description": "Exchange the Buggy loop for a leg triangle containing the opponent's neck and one arm. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Buggy Choke to Triangle Control: what does identify the holder require?",
+        "answer": "Begin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control.",
+        "answer_line": "Bottom owns the Buggy enclosure",
+        "distractors": {
+          "plausible": [
+            "A mounted triangle from a sweep",
+            "A finish as soon as legs recover"
+          ],
+          "trap": [
+            "A settled guard counted as triangle"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Choke to Triangle Control: what does remove finishing pressure require?",
+        "answer": "Unload the choke before changing the leg and arm connections.",
+        "answer_line": "Neck pressure released for exchange",
+        "distractors": {
+          "plausible": [
+            "A finish as soon as legs recover",
+            "A settled guard counted as triangle"
+          ],
+          "trap": [
+            "A role reversal without a turnover"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Choke to Triangle Control: what does recover the legs in front require?",
+        "answer": "Recover the legs in front through the available space while keeping the knee movement comfortable.",
+        "answer_line": "Legs return during the exchange",
+        "distractors": {
+          "plausible": [
+            "A settled guard counted as triangle",
+            "A role reversal without a turnover"
+          ],
+          "trap": [
+            "A mounted triangle from a sweep"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Choke to Triangle Control: what does exchange the enclosure require?",
+        "answer": "Exchange the Buggy loop for a leg triangle containing the opponent's neck and one arm.",
+        "answer_line": "Neck and one arm enter the legs",
+        "distractors": {
+          "plausible": [
+            "A role reversal without a turnover",
+            "A mounted triangle from a sweep"
+          ],
+          "trap": [
+            "A finish as soon as legs recover"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Choke to Triangle Control: what does confirm bottom triangle control require?",
+        "answer": "Count the transition only once Triangle Control/Bottom is secured; the actor remains the bottom holder.",
+        "answer_line": "Triangle Control/Bottom is secured",
+        "distractors": {
+          "plausible": [
+            "A mounted triangle from a sweep",
+            "A finish as soon as legs recover"
+          ],
+          "trap": [
+            "A settled guard counted as triangle"
+          ]
+        }
+      },
+      {
+        "question": "Buggy Choke to Triangle Control: what does recognize an interrupted route require?",
+        "answer": "If ordinary guard settles before the triangle exists, use a separate valid guard entry. Losing the loop can also leave Side Control/Bottom.",
+        "answer_line": "Open guard can interrupt the entry",
+        "distractors": {
+          "plausible": [
+            "A finish as soon as legs recover",
+            "A settled guard counted as triangle"
+          ],
+          "trap": [
+            "A role reversal without a turnover"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Buggy Choke to Triangle Control Defender",
+    "description": "Recognize Buggy Choke to Triangle Control and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Maintain head and shoulder alignment while the loop opens. Keep the arm connected to the torso before the leg triangle forms. Use inside frames during the leg exchange. Recognize open guard if it settles before a triangle enclosure forms. Confirm side control only after the holder loses both the loop and the incoming leg control.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Maintain head and shoulder alignment while the loop opens.",
+      "Keep the arm connected to the torso before the leg triangle forms.",
+      "Use inside frames during the leg exchange.",
+      "Recognize open guard if it settles before a triangle enclosure forms.",
+      "Confirm side control only after the holder loses both the loop and the incoming leg control."
+    ],
+    "recognition_cues": [
+      "Begin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control.",
+      "Unload the choke before changing the leg and arm connections.",
+      "Recover the legs in front through the available space while keeping the knee movement comfortable."
+    ],
+    "defensive_options": [
+      {
+        "action": "Maintain head and shoulder alignment while the loop opens.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Buggy Choke/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Keep the arm connected to the torso before the leg triangle forms.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Buggy Choke/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Use inside frames during the leg exchange.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Recognize open guard if it settles before a triangle enclosure forms.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Buggy Choke/Bottom",
+        "how": "Maintain head and shoulder alignment while the loop opens."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Confirm side control only after the holder loses both the loop and the incoming leg control."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Confirm side control only after the holder loses both the loop and the incoming leg control."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Keep the arm connected to the torso before the leg triangle forms."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Buggy Choke to Triangle Control, what connection do you address first?",
+        "answer": "Maintain head and shoulder alignment while the loop opens."
+      },
+      {
+        "question": "Against Buggy Choke to Triangle Control, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Buggy Choke to Triangle Control, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the holder",
+        "description": "Begin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Remove finishing pressure",
+        "description": "Unload the choke before changing the leg and arm connections. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Recover the legs in front",
+        "description": "Recover the legs in front through the available space while keeping the knee movement comfortable. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control.",
+    "Unload the choke before changing the leg and arm connections.",
+    "Recover the legs in front through the available space while keeping the knee movement comfortable."
+  ],
+  "position_integration": "The bottom Buggy holder exchanges the arm-and-leg loop for a leg triangle around the neck and one arm, preserving the bottom actor through a continuous control transition. Begin as the bottom player holding the same-side arm-and-leg Buggy loop beneath side control. If ordinary guard settles before the triangle exists, use a separate valid guard entry. Losing the loop can also leave Side Control/Bottom."
+}

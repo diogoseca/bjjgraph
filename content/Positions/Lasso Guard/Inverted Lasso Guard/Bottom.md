@@ -155,50 +155,6 @@ description: "Master bottom inverted lasso guard mechanics. Complete guide to in
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Inverted Lasso Guard (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Handling Top Pressure from Lasso Guard",
-      "description": "Inverted Lasso Guard (Bottom) film study: Handling Top Pressure from Lasso Guard, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ErsvmCAGxnA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ErsvmCAGxnA",
-      "url": "https://www.youtube.com/watch?v=ErsvmCAGxnA",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lasso to Reverse DLR Sweep \u0026 Back Take",
-      "description": "Inverted Lasso Guard (Bottom) film study: Lasso to Reverse DLR Sweep \u0026 Back Take, taught by Omran.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jlhHLWjrvAU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jlhHLWjrvAU",
-      "url": "https://www.youtube.com/watch?v=jlhHLWjrvAU",
-      "creator": { "@type": "Person", "name": "Omran" },
-      "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lasso Guard Variations",
-      "description": "Inverted Lasso Guard (Bottom) film study: Lasso Guard Variations, taught by Felipe Costa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n4ddjzGemrw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n4ddjzGemrw",
-      "url": "https://www.youtube.com/watch?v=n4ddjzGemrw",
-      "creator": { "@type": "Person", "name": "Felipe Costa" },
-      "duration": "PT28S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -217,40 +173,6 @@ Successful inverted lasso guard bottom requires understanding that inversion is 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Inverted Lasso Guard (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ErsvmCAGxnA)
-
-<p class="clip-credit"><strong>Handling Top Pressure from Lasso Guard</strong> — taught by Mikey Musumeci · 1:18 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jlhHLWjrvAU)
-
-<p class="clip-credit"><strong>Lasso to Reverse DLR Sweep &amp; Back Take</strong> — taught by Omran · 0:16 · <a href="https://www.youtube.com/watch?v=jlhHLWjrvAU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=n4ddjzGemrw)
-
-<p class="clip-credit"><strong>Lasso Guard Variations</strong> — taught by Felipe Costa · 0:28 · <a href="https://www.youtube.com/watch?v=n4ddjzGemrw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -311,7 +233,6 @@ Successful inverted lasso guard bottom requires understanding that inversion is 
 
 **If opponent posts hand near hip or drives forward to prevent sweep:**
 - Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent attempts to extract lassoed arm by pulling back:**

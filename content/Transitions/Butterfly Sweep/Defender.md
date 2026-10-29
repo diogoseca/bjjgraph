@@ -160,35 +160,12 @@ description: "How to defend against Butterfly Sweep in BJJ. Recognition cues, de
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Counters to a failed butterfly sweep",
-      "description": "Butterfly Sweep (Defender) film study: Counters to a failed butterfly sweep, taught by Oneonta Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZAOF5qNApJ0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZAOF5qNApJ0",
-      "url": "https://www.youtube.com/watch?v=ZAOF5qNApJ0",
-      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
-      "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing butterfly guard via cross butterfly hook",
-      "description": "Butterfly Sweep (Defender) film study: Passing butterfly guard via cross butterfly hook, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IKs6ZDfahHE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IKs6ZDfahHE",
-      "url": "https://www.youtube.com/watch?v=IKs6ZDfahHE",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "One minute butterfly guard pass",
-      "description": "Butterfly Sweep (Defender) film study: One minute butterfly guard pass, taught by Phil Migliarese.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cUTZ4bpZVUU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cUTZ4bpZVUU",
-      "url": "https://www.youtube.com/watch?v=cUTZ4bpZVUU",
-      "creator": { "@type": "Person", "name": "Phil Migliarese" },
-      "duration": "PT72S"
+      "name": "Defending Butterfly Hooks",
+      "description": "Butterfly Sweep (Defender) film study: Defending Butterfly Hooks.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wgnw31_o3kk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wgnw31_o3kk",
+      "url": "https://www.youtube.com/watch?v=Wgnw31_o3kk",
+      "duration": "PT58S"
     }
   ]
 }
@@ -218,25 +195,9 @@ The defender's strategic framework centers on disrupting the sweep's prerequisit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ZAOF5qNApJ0)
+![](https://www.youtube.com/watch?v=Wgnw31_o3kk)
 
-<p class="clip-credit"><strong>Counters to a failed butterfly sweep</strong> — taught by Oneonta Jiu Jitsu · 1:38 · <a href="https://www.youtube.com/watch?v=ZAOF5qNApJ0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=IKs6ZDfahHE)
-
-<p class="clip-credit"><strong>Passing butterfly guard via cross butterfly hook</strong> — taught by Thunderdome BJJ · 0:44 · <a href="https://www.youtube.com/watch?v=IKs6ZDfahHE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cUTZ4bpZVUU)
-
-<p class="clip-credit"><strong>One minute butterfly guard pass</strong> — taught by Phil Migliarese · 1:12 · <a href="https://www.youtube.com/watch?v=cUTZ4bpZVUU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending Butterfly Hooks</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=Wgnw31_o3kk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -187,23 +187,11 @@ description: "Learn to execute the knee slice pass from seated guard in BJJ. Ste
       "@type": "VideoObject",
       "position": 1,
       "name": "Knee cut pass from seated guard",
-      "description": "Knee Slice from Seated Guard (Attacker) film study: Knee cut pass from seated guard, taught by BJJ4Breakfast.",
+      "description": "Knee Slice from Seated Guard (Attacker) film study: Knee cut pass from seated guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Op44Sijyotw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Op44Sijyotw",
       "url": "https://www.youtube.com/watch?v=Op44Sijyotw",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee cut pass from open guard",
-      "description": "Knee Slice from Seated Guard (Attacker) film study: Knee cut pass from open guard, taught by Affinity Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Q_kqgSU9ZAs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Q_kqgSU9ZAs",
-      "url": "https://www.youtube.com/watch?v=Q_kqgSU9ZAs",
-      "creator": { "@type": "Person", "name": "Affinity Academy" },
-      "duration": "PT129S"
+      "duration": "PT140S"
     }
   ]
 }
@@ -233,15 +221,7 @@ The knee slice from seated guard is executed by the passer standing or kneeling 
 
 ![](https://www.youtube.com/watch?v=Op44Sijyotw)
 
-<p class="clip-credit"><strong>Knee cut pass from seated guard</strong> — taught by BJJ4Breakfast · 2:21 · <a href="https://www.youtube.com/watch?v=Op44Sijyotw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Q_kqgSU9ZAs)
-
-<p class="clip-credit"><strong>Knee cut pass from open guard</strong> — taught by Affinity Academy · 2:09 · <a href="https://www.youtube.com/watch?v=Q_kqgSU9ZAs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee cut pass from seated guard</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=Op44Sijyotw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -165,24 +165,24 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Two ways to pass the collar \u0026 sleeve",
-      "description": "Collar Sleeve Guard (Top) film study: Two ways to pass the collar \u0026 sleeve, taught by Carpio Jiu Jitsu.",
+      "name": "Two Ways to Pass the Collar and Sleeve",
+      "description": "Collar Sleeve Guard (Top) film study: Two Ways to Pass the Collar and Sleeve, taught by Carpio Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N4M0VWhDkMA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/N4M0VWhDkMA",
       "url": "https://www.youtube.com/watch?v=N4M0VWhDkMA",
       "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
-      "duration": "PT103S"
+      "duration": "PT102S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Passing the collar sleeve guard",
-      "description": "Collar Sleeve Guard (Top) film study: Passing the collar sleeve guard, taught by Ultra Jiu Jitsu Academy.",
+      "name": "Passing Collar Sleeve Guard - BJJ OPEN GUARD",
+      "description": "Collar Sleeve Guard (Top) film study: Passing Collar Sleeve Guard - BJJ OPEN GUARD, taught by Ultra Jiu Jitsu Academy.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WJ25wu9Ioks/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WJ25wu9Ioks",
       "url": "https://www.youtube.com/watch?v=WJ25wu9Ioks",
       "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
-      "duration": "PT105S"
+      "duration": "PT104S"
     }
   ]
 }
@@ -224,7 +224,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 ![](https://www.youtube.com/watch?v=N4M0VWhDkMA)
 
-<p class="clip-credit"><strong>Two ways to pass the collar &amp; sleeve</strong> — taught by Carpio Jiu Jitsu · 1:43 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two Ways to Pass the Collar and Sleeve</strong> — taught by Carpio Jiu Jitsu · 1:42 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -232,7 +232,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 ![](https://www.youtube.com/watch?v=WJ25wu9Ioks)
 
-<p class="clip-credit"><strong>Passing the collar sleeve guard</strong> — taught by Ultra Jiu Jitsu Academy · 1:45 · <a href="https://www.youtube.com/watch?v=WJ25wu9Ioks" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Collar Sleeve Guard - BJJ OPEN GUARD</strong> — taught by Ultra Jiu Jitsu Academy · 1:44 · <a href="https://www.youtube.com/watch?v=WJ25wu9Ioks" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -436,7 +436,7 @@ Partner plays collar sleeve guard with graded resistance: Round 1 (30% resistanc
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Collar Sleeve Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Collar Sleeve Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Collar Sleeve Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position: Collar Sleeve Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>

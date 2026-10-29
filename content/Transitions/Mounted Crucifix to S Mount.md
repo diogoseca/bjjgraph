@@ -36,39 +36,6 @@ description: "Learn the Mounted Crucifix to S Mount transition in BJJ. Step-by-s
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Mounted Crucifix to S Mount \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Switch side armbar from S-mount",
-      "description": "Mounted Crucifix to S Mount film study: Switch side armbar from S-mount, taught by Darrin Lillian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5UtNLw7usQk",
-      "url": "https://www.youtube.com/watch?v=5UtNLw7usQk",
-      "creator": { "@type": "Person", "name": "Darrin Lillian" },
-      "duration": "PT50S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "S-mount armbar setup",
-      "description": "Mounted Crucifix to S Mount film study: S-mount armbar setup, taught by Team Daruma Dojo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NSQos3RARTk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NSQos3RARTk",
-      "url": "https://www.youtube.com/watch?v=NSQos3RARTk",
-      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
-      "duration": "PT61S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -107,32 +74,6 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Mounted Crucifix to S Mount in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5UtNLw7usQk)
-
-<p class="clip-credit"><strong>Switch side armbar from S-mount</strong> — taught by Darrin Lillian · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NSQos3RARTk)
-
-<p class="clip-credit"><strong>S-mount armbar setup</strong> — taught by Team Daruma Dojo · 1:01 · <a href="https://www.youtube.com/watch?v=NSQos3RARTk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -311,8 +252,6 @@ The Mounted Crucifix to S Mount transition fits within the mount attack hierarch
 - [[Submissions/Choke from Crucifix]] - Alternative attack from starting position
 
 - [[Submissions/Armbar/from Crucifix]] - Alternative attack from starting position
-
-- [[Transitions/Back Take from Top]] - Alternative transition if opponent turns during movement
 
 - [[Transitions/Mount Control]] - Foundation skill for maintaining base during transition
 

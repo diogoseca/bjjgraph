@@ -166,24 +166,12 @@ description: "How to defend against Underhook Pass in BJJ. Recognition cues, def
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stop the half guard underhook",
-      "description": "Underhook Pass (Defender) film study: Stop the half guard underhook, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
-      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Countering the underhook from deep half guard",
-      "description": "Underhook Pass (Defender) film study: Countering the underhook from deep half guard, taught by Jason Juatco.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L-tgJFSzbDE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L-tgJFSzbDE",
-      "url": "https://www.youtube.com/watch?v=L-tgJFSzbDE",
-      "creator": { "@type": "Person", "name": "Jason Juatco" },
-      "duration": "PT111S"
+      "name": "Recovering The Underhook From Bottom Half-Guard",
+      "description": "Underhook Pass (Defender) film study: Recovering The Underhook From Bottom Half-Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZP6eavAmATU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZP6eavAmATU",
+      "url": "https://www.youtube.com/watch?v=ZP6eavAmATU",
+      "duration": "PT230S"
     }
   ]
 }
@@ -211,17 +199,9 @@ Defending the Underhook Pass from half guard bottom requires understanding the p
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+![](https://www.youtube.com/watch?v=ZP6eavAmATU)
 
-<p class="clip-credit"><strong>Stop the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=L-tgJFSzbDE)
-
-<p class="clip-credit"><strong>Countering the underhook from deep half guard</strong> — taught by Jason Juatco · 1:51 · <a href="https://www.youtube.com/watch?v=L-tgJFSzbDE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Recovering The Underhook From Bottom Half-Guard</strong> · 3:50 · <a href="https://www.youtube.com/watch?v=ZP6eavAmATU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

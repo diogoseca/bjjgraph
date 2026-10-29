@@ -162,35 +162,32 @@ description: "Defend the Arm Triangle from Side Control. Recognize crossface set
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Fastest Escape Out of the Arm Triangle",
-      "description": "Arm Triangle from Side Control (Defender) film study: The Fastest Escape Out of the Arm Triangle, taught by Adam Bradley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
-      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
-      "creator": { "@type": "Person", "name": "Adam Bradley" },
-      "duration": "PT31S"
+      "name": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
+      "description": "Arm Triangle from Side Control (Defender) film study: 3 Arm Triangle Choke Defenses - From Prevention To Late Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fx6qjR6a_xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fx6qjR6a_xE",
+      "url": "https://www.youtube.com/watch?v=Fx6qjR6a_xE",
+      "duration": "PT273S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The Best Arm-Triangle Escape",
-      "description": "Arm Triangle from Side Control (Defender) film study: The Best Arm-Triangle Escape, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n_2zR6BaF8A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n_2zR6BaF8A",
-      "url": "https://www.youtube.com/watch?v=n_2zR6BaF8A",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT58S"
+      "name": "How to Escape the Head \u0026 Arm Triangle in Jiu Jitsu for all you Whiners",
+      "description": "Arm Triangle from Side Control (Defender) film study: How to Escape the Head \u0026 Arm Triangle in Jiu Jitsu for all you Whiners.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jxd9UkmU5Co/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jxd9UkmU5Co",
+      "url": "https://www.youtube.com/watch?v=Jxd9UkmU5Co",
+      "duration": "PT82S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "How to Escape the Head \u0026 Arm Triangle",
-      "description": "Arm Triangle from Side Control (Defender) film study: How to Escape the Head \u0026 Arm Triangle, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Jxd9UkmU5Co/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Jxd9UkmU5Co",
-      "url": "https://www.youtube.com/watch?v=Jxd9UkmU5Co",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT83S"
+      "name": "The Fastest Escape Out Of The Arm Triangle",
+      "description": "Arm Triangle from Side Control (Defender) film study: The Fastest Escape Out Of The Arm Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
+      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
+      "duration": "PT31S"
     }
   ]
 }
@@ -219,17 +216,9 @@ Defending the arm triangle from side control requires awareness of your near arm
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=D2vkZGTD78I)
+![](https://www.youtube.com/watch?v=Fx6qjR6a_xE)
 
-<p class="clip-credit"><strong>The Fastest Escape Out of the Arm Triangle</strong> — taught by Adam Bradley · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=n_2zR6BaF8A)
-
-<p class="clip-credit"><strong>The Best Arm-Triangle Escape</strong> — taught by ZombieProofBJJ · 0:58 · <a href="https://www.youtube.com/watch?v=n_2zR6BaF8A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Arm Triangle Choke Defenses - From Prevention To Late Defense</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=Fx6qjR6a_xE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +226,15 @@ Defending the arm triangle from side control requires awareness of your near arm
 
 ![](https://www.youtube.com/watch?v=Jxd9UkmU5Co)
 
-<p class="clip-credit"><strong>How to Escape the Head &amp; Arm Triangle</strong> — taught by Malachy Friedman · 1:23 · <a href="https://www.youtube.com/watch?v=Jxd9UkmU5Co" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Escape the Head &amp; Arm Triangle in Jiu Jitsu for all you Whiners</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=Jxd9UkmU5Co" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D2vkZGTD78I)
+
+<p class="clip-credit"><strong>The Fastest Escape Out Of The Arm Triangle</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

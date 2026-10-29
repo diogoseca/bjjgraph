@@ -152,24 +152,12 @@ description: "Defend against Escape from Kesa Gatame in BJJ. Learn to maintain k
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arm attack options from scarf hold",
-      "description": "Escape Kesa Gatame (Defender) film study: Arm attack options from scarf hold, taught by Alexey Olynick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/17m6bnarNdE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/17m6bnarNdE",
-      "url": "https://www.youtube.com/watch?v=17m6bnarNdE",
-      "creator": { "@type": "Person", "name": "Alexey Olynick" },
-      "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kesa gatame: pinning the opponent",
-      "description": "Escape Kesa Gatame (Defender) film study: Kesa gatame: pinning the opponent, taught by Brent Yamamoto.",
+      "name": "Kesa Gatame: Pinning the Opponent",
+      "description": "Escape Kesa Gatame (Defender) film study: Kesa Gatame: Pinning the Opponent.",
       "thumbnailUrl": "https://i.ytimg.com/vi/g2DJyaBI2pk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/g2DJyaBI2pk",
       "url": "https://www.youtube.com/watch?v=g2DJyaBI2pk",
-      "creator": { "@type": "Person", "name": "Brent Yamamoto" },
-      "duration": "PT96S"
+      "duration": "PT95S"
     }
   ]
 }
@@ -197,17 +185,9 @@ As the defender maintaining scarf hold against escape attempts, your primary obj
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=17m6bnarNdE)
-
-<p class="clip-credit"><strong>Arm attack options from scarf hold</strong> — taught by Alexey Olynick · 1:29 · <a href="https://www.youtube.com/watch?v=17m6bnarNdE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=g2DJyaBI2pk)
 
-<p class="clip-credit"><strong>Kesa gatame: pinning the opponent</strong> — taught by Brent Yamamoto · 1:36 · <a href="https://www.youtube.com/watch?v=g2DJyaBI2pk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame: Pinning the Opponent</strong> · 1:35 · <a href="https://www.youtube.com/watch?v=g2DJyaBI2pk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

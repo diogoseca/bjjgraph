@@ -165,35 +165,22 @@ description: "Master Darce Control from bottom position in BJJ. Learn defensive 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Darce choke defense",
-      "description": "Darce Control (Bottom) film study: Darce choke defense, taught by Animal.",
+      "name": "Darce Choke defense",
+      "description": "Darce Control (Bottom) film study: Darce Choke defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
       "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
-      "creator": { "@type": "Person", "name": "Animal" },
-      "duration": "PT53S"
+      "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Darce escape",
-      "description": "Darce Control (Bottom) film study: Darce escape, taught by Thunderdome BJJ.",
+      "name": "Darce Escape",
+      "description": "Darce Control (Bottom) film study: Darce Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iNZpCbutyrM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iNZpCbutyrM",
       "url": "https://www.youtube.com/watch?v=iNZpCbutyrM",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Darce killer: the defense you need",
-      "description": "Darce Control (Bottom) film study: Darce killer: the defense you need, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rgf9QUebMWE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rgf9QUebMWE",
-      "url": "https://www.youtube.com/watch?v=rgf9QUebMWE",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT78S"
+      "duration": "PT53S"
     }
   ]
 }
@@ -225,7 +212,7 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 ![](https://www.youtube.com/watch?v=d1YBV8UTKds)
 
-<p class="clip-credit"><strong>Darce choke defense</strong> — taught by Animal · 0:53 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce Choke defense</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,15 +220,7 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 ![](https://www.youtube.com/watch?v=iNZpCbutyrM)
 
-<p class="clip-credit"><strong>Darce escape</strong> — taught by Thunderdome BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=iNZpCbutyrM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rgf9QUebMWE)
-
-<p class="clip-credit"><strong>Darce killer: the defense you need</strong> — taught by Malachy Friedman · 1:18 · <a href="https://www.youtube.com/watch?v=rgf9QUebMWE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce Escape</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=iNZpCbutyrM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

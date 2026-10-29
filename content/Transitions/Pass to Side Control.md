@@ -46,35 +46,12 @@ description: "Master Pass to Side Control from 50-50 Guard in BJJ. Extract legs 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing out of 50/50 to side control",
-      "description": "Pass to Side Control film study: Passing out of 50/50 to side control, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/g-_fhSdPli8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/g-_fhSdPli8",
-      "url": "https://www.youtube.com/watch?v=g-_fhSdPli8",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT115S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Standing pass from 50/50",
-      "description": "Pass to Side Control film study: Standing pass from 50/50, taught by BJJ4Breakfast coach.",
+      "name": "Standing pass for 50/50",
+      "description": "Pass to Side Control film study: Standing pass for 50/50.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Q-ZBPkqGOgE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Q-ZBPkqGOgE",
       "url": "https://www.youtube.com/watch?v=Q-ZBPkqGOgE",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
-      "duration": "PT135S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "50/50 rodeo pass to top side",
-      "description": "Pass to Side Control film study: 50/50 rodeo pass to top side, taught by Still Rolling coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/V_VQZzdporc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/V_VQZzdporc",
-      "url": "https://www.youtube.com/watch?v=V_VQZzdporc",
-      "creator": { "@type": "Person", "name": "Still Rolling coach" },
-      "duration": "PT125S"
+      "duration": "PT134S"
     }
   ]
 }
@@ -128,25 +105,9 @@ This transition exemplifies the principle that positional dominance sometimes ou
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=g-_fhSdPli8)
-
-<p class="clip-credit"><strong>Passing out of 50/50 to side control</strong> — taught by Jon Thomas · 1:55 · <a href="https://www.youtube.com/watch?v=g-_fhSdPli8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Q-ZBPkqGOgE)
 
-<p class="clip-credit"><strong>Standing pass from 50/50</strong> — taught by BJJ4Breakfast coach · 2:15 · <a href="https://www.youtube.com/watch?v=Q-ZBPkqGOgE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=V_VQZzdporc)
-
-<p class="clip-credit"><strong>50/50 rodeo pass to top side</strong> — taught by Still Rolling coach · 2:05 · <a href="https://www.youtube.com/watch?v=V_VQZzdporc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing pass for 50/50</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=Q-ZBPkqGOgE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -339,7 +300,7 @@ Pass to Side Control represents the escape valve from 50-50 Guard when leg attac
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference: Pass to Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Pass to Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

@@ -568,22 +568,26 @@
     ],
     "clips": [
       {
-        "id": "yT3euuWRWXw",
-        "title": "3 Paths to Backside 50/50 from Single Leg-X",
-        "by": "Gustavo Gomes Firmino",
+        "id": "pYnp2_gJIoM",
+        "title": "Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)",
+        "channel": "Brian Glick",
+        "duration": 330,
         "vertical": false,
-        "channel": "Gustavo Gomes Firmino",
-        "duration": 56,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "lwwIfCAA7Zc",
-        "title": "Top Lockdown Turk Entry",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 207,
-        "verified": "2026-07-14"
+        "id": "yT3euuWRWXw",
+        "title": "3 paths to the backside 50/50 from  Single Leg-X (Ashi Garami)",
+        "channel": "Gustavo Gomes Firmino",
+        "duration": 55,
+        "vertical": false
+      },
+      {
+        "id": "hhOOwMNfV-0",
+        "title": "Ashi Garami Explained: The Control System Behind Modern No-Gi",
+        "channel": "Grappling Theory",
+        "duration": 606,
+        "vertical": false
       }
     ]
   },
@@ -1018,31 +1022,12 @@
     ],
     "clips": [
       {
-        "id": "c-LUX8aDBUE",
-        "title": "Leg Entanglement Escapes Fundamentals",
-        "by": "Jeremy Skinner",
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond",
+        "channel": "Coach Scott Elliott",
+        "duration": 140,
         "vertical": false,
-        "channel": "Techniqly Online",
-        "duration": 35,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "cYEzCp2l4rQ",
-        "title": "50/50 Leg Lock Escape",
-        "by": "Elite Team Monterey",
-        "vertical": false,
-        "channel": "ELITE TEAM MONTEREY",
-        "duration": 46,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "m0NLphEuFoc",
-        "title": "Leg Lock Defense Basics",
-        "by": "Kuwy Jitsu",
-        "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1160,33 +1145,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "R4K-UU_bUZQ",
-      "title": "Leg Entanglements Breakdown: Jackie Chan & 411",
-      "by": "10th Planet Orange Park",
-      "vertical": false,
-      "channel": "10th Planet Orange Park",
-      "duration": 75,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "F5rdV0PUuDc",
-      "title": "Leg Locks: Enter the System",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 176,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "iByvUzTk4Ko",
-      "title": "Leg Lock Instructional Overview",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "Dynamix MMA",
-      "duration": 225,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

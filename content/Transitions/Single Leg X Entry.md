@@ -46,35 +46,12 @@ description: "Master Single Leg X Entry in BJJ. Step-by-step execution from seat
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Single leg X entry to honey hole and sweep",
-      "description": "Single Leg X Entry film study: Single leg X entry to honey hole and sweep, taught by Ilya Bodnya.",
+      "name": "Single Leg X Entry + Honey Hole + Sweep + Heel Hook",
+      "description": "Single Leg X Entry film study: Single Leg X Entry + Honey Hole + Sweep + Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
       "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
-      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
       "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Seated guard hand fight drill into single leg X",
-      "description": "Single Leg X Entry film study: Seated guard hand fight drill into single leg X, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/H3HHTStUtVs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/H3HHTStUtVs",
-      "url": "https://www.youtube.com/watch?v=H3HHTStUtVs",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Single leg X guard entries and options",
-      "description": "Single Leg X Entry film study: Single leg X guard entries and options, taught by Steven Kaloustian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
-      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
-      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
-      "duration": "PT97S"
     }
   ]
 }
@@ -130,23 +107,7 @@ The Single Leg X position reached through this entry offers multiple offensive p
 
 ![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
 
-<p class="clip-credit"><strong>Single leg X entry to honey hole and sweep</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=H3HHTStUtVs)
-
-<p class="clip-credit"><strong>Seated guard hand fight drill into single leg X</strong> — taught by Factory Fresh Jiu Jitsu · 0:43 · <a href="https://www.youtube.com/watch?v=H3HHTStUtVs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EcxCadpBePk)
-
-<p class="clip-credit"><strong>Single leg X guard entries and options</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single Leg X Entry + Honey Hole + Sweep + Heel Hook</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -349,7 +310,7 @@ Single Leg X Entry serves as a crucial hub transition in modern guard systems, p
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovering Closed Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Single Leg X Entry: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Single Leg X Entry: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Single Leg X Entry: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Single Leg X Entry: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

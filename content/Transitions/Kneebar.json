@@ -43,9 +43,9 @@
     "gi": 55,
     "nogi": 55
   },
-  "overview": "The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your chest pressure and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.\n\nThis submission capitalizes on the inherent vulnerability of the knee joint when isolated and controlled. The attacking practitioner secures the opponent's leg across their hip line, creates a fulcrum point at or just above the knee cap, and applies controlled extension force by arching their hips forward while pulling the ankle toward their chest. The mechanical advantage is substantial when executed correctly, requiring minimal strength to generate significant breaking pressure.\n\nThe kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.",
+  "overview": "The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your knee-line control and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.\n\nThis submission capitalizes on the inherent vulnerability of the knee joint when isolated and controlled. The attacking practitioner secures the opponent's leg across their hip line, creates a fulcrum point at or just above the knee cap, and applies controlled extension force by arching their hips forward while pulling the ankle toward their chest. The mechanical advantage is substantial when executed correctly, requiring minimal strength to generate significant breaking pressure.\n\nThe kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.",
   "conditions": [
-    "Established Backside 50-50 Top position with chest-to-back pressure",
+    "Established Backside 50-50 Top position with knee-line and hip control",
     "Opponent's target leg is extended or straightening, not deeply bent",
     "Hip control over opponent's target-side hip to prevent rotation",
     "Opponent defending heel hooks by rotating knee outward or straightening leg"
@@ -117,18 +117,18 @@
   "attacker": {
     "name": "Kneebar Attacker",
     "description": "How to execute the Kneebar from Backside 50-50 in BJJ. Attacking perspective with setup requirements, step-by-step execution, and counter responses.",
-    "overview": "The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your chest pressure and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.\n\nThis submission capitalizes on the inherent vulnerability of the knee joint when isolated and controlled. The attacking practitioner secures the opponent's leg across their hip line, creates a fulcrum point at or just above the knee cap, and applies controlled extension force by arching their hips forward while pulling the ankle toward their chest. The mechanical advantage is substantial when executed correctly, requiring minimal strength to generate significant breaking pressure.\n\nThe kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.",
+    "overview": "The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your knee-line control and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.\n\nThis submission capitalizes on the inherent vulnerability of the knee joint when isolated and controlled. The attacking practitioner secures the opponent's leg across their hip line, creates a fulcrum point at or just above the knee cap, and applies controlled extension force by arching their hips forward while pulling the ankle toward their chest. The mechanical advantage is substantial when executed correctly, requiring minimal strength to generate significant breaking pressure.\n\nThe kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.",
     "key_principles": [
       "Control the hip before attacking the knee - pinning opponent's hip prevents rotation and escape while isolating the leg for attack",
       "Create the fulcrum at or slightly above the kneecap using your hip bone or lower abdomen for maximum mechanical leverage",
       "Squeeze your knees together to secure the leg and prevent opponent from pulling their leg free during the finishing sequence",
       "Extend by driving hips forward rather than pulling with arms - hip extension provides greater force with less energy expenditure",
-      "Maintain chest pressure throughout entry to prevent opponent from creating angles or initiating escape sequences",
+      "Maintain knee-line control throughout entry to prevent opponent from creating angles or initiating escape sequences",
       "Triangle your legs around opponent's thigh when possible to enhance control and prevent leg extraction",
       "Attack the extended or straightening leg - forcing the kneebar on a bent leg significantly reduces effectiveness"
     ],
     "setup_requirements": [
-      "Established Backside 50-50 Top position with chest-to-back pressure and leg entanglement control",
+      "Established Backside 50-50 Top position with knee-line and hip control and leg entanglement control",
       "Opponent's target leg must be extended or straightening, not deeply bent at the knee",
       "Hip control over opponent's target-side hip to prevent rotation and defensive movement",
       "Clear path to transition your body perpendicular to opponent's leg for proper finishing position",
@@ -255,7 +255,7 @@
         "distractors": {
           "plausible": [
             "Right after securing 50-50",
-            "Once you get chest pressure"
+            "Once you get knee-line control"
           ],
           "trap": [
             "Wait for them to bend the knee"
@@ -264,12 +264,12 @@
       },
       {
         "question": "What conditions must exist before you commit to the kneebar entry?",
-        "answer": "Four conditions are required: established Backside 50-50 Top with chest pressure, the target leg extending or straightened, hip control on the target side preventing rotation, and a clear path to rotate perpendicular to their leg. If any condition is missing, the kneebar will likely fail - particularly if the leg is still bent or you lack hip control. Use heel hook threats to create the extension if it does not exist naturally.",
+        "answer": "Four conditions are required: established Backside 50-50 Top with knee-line control, the target leg extending or straightened, hip control on the target side preventing rotation, and a clear path to rotate perpendicular to their leg. If any condition is missing, the kneebar will likely fail - particularly if the leg is still bent or you lack hip control. Use heel hook threats to create the extension if it does not exist naturally.",
         "answer_line": "Leg straight + hip control locked",
         "distractors": {
           "plausible": [
             "Backside 50-50 grip established",
-            "Chest pressure + clear rotation path"
+            "Straight leg without hip control"
           ],
           "trap": [
             "Crank on the bent leg to force it"
@@ -376,7 +376,7 @@
       },
       {
         "question": "When should you abandon a kneebar attempt and what are your chain attack options?",
-        "answer": "Abandon when the opponent successfully bends their knee past 90 degrees and maintains hip rotation despite your control efforts, or when they establish strong grip fighting that prevents proper ankle control. Chain attack options include: inside heel hook when the bent knee exposes the heel, toe hold when the foot becomes accessible during their defense, returning to Backside 50-50 chest pressure to reset and wait for a better opportunity, or transitioning to back control if they over-rotate during their escape.",
+        "answer": "Abandon when the opponent successfully bends their knee past 90 degrees and maintains hip rotation despite your control efforts, or when they establish strong grip fighting that prevents proper ankle control. Chain attack options include: inside heel hook when the bent knee exposes the heel, toe hold when the foot becomes accessible during their defense, returning to Backside 50-50 knee-line control to reset and wait for a better opportunity, or transitioning to back control if they over-rotate during their escape.",
         "answer_line": "Bail when knee bends past 90°",
         "distractors": {
           "plausible": [
@@ -390,40 +390,12 @@
       }
     ],
     "safety_considerations": "The kneebar attacks the knee joint's structural integrity and can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied without control. Always apply pressure gradually, never explosively. Training partners must tap early when they feel the hyperextension beginning - there is no fighting through a properly applied kneebar. Practitioners with existing knee injuries should communicate limitations before drilling. When finishing, maintain control even after your partner taps - releasing suddenly while they are resisting can cause injury. In training, prioritize your partner's safety over finishing the submission. Stop immediately if your partner says stop rather than tapping, as verbal submission is equally valid. Avoid training kneebars with brand new partners until you understand their pain tolerance and tapping habits.",
-    "clips": [
-      {
-        "id": "vMqDIi10z4k",
-        "title": "Dog bar kneebar variation",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "nlqXyzajRUg",
-        "title": "Omoplata to kneebar",
-        "by": "Todd Hendrickson",
-        "vertical": false,
-        "channel": "Old School Jiu Jitsu",
-        "duration": 88,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "v4lhLkKgVvU",
-        "title": "Go behind kneebar",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 129,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Kneebar Defender",
     "description": "How to defend and escape the Kneebar from Backside 50-50 in BJJ. Recognition cues, defensive options, and escape strategies for leg lock defense.",
-    "overview": "Defending the kneebar from Backside 50-50 requires immediate recognition and disciplined defensive responses before the attacker establishes full control. The defender's primary weapon is maintaining a bent knee - a fully extended leg under the attacker's hip control is extremely difficult to save. Early recognition of the attacker's transition from chest pressure to perpendicular body alignment gives you the critical window to implement defensive measures before the fulcrum is established.\n\nThe defender must understand that kneebar defense operates on a timeline: the earlier you react, the higher your success rate. During the attacker's rotation phase, before they establish their leg triangle and fulcrum position, simple knee bending and hip rotation can nullify the attack entirely. Once the attacker has secured your leg across their hips with a proper triangle and fulcrum, your defensive options narrow dramatically and the risk of injury increases. Training yourself to recognize the earliest possible cues and respond with automatic defensive patterns is the foundation of surviving leg lock exchanges in modern grappling.",
+    "overview": "Defending the kneebar from Backside 50-50 requires immediate recognition and disciplined defensive responses before the attacker establishes full control. The defender's primary weapon is maintaining a bent knee - a fully extended leg under the attacker's hip control is extremely difficult to save. Early recognition of the attacker's transition from knee-line control to perpendicular body alignment gives you the critical window to implement defensive measures before the fulcrum is established.\n\nThe defender must understand that kneebar defense operates on a timeline: the earlier you react, the higher your success rate. During the attacker's rotation phase, before they establish their leg triangle and fulcrum position, simple knee bending and hip rotation can nullify the attack entirely. Once the attacker has secured your leg across their hips with a proper triangle and fulcrum, your defensive options narrow dramatically and the risk of injury increases. Training yourself to recognize the earliest possible cues and respond with automatic defensive patterns is the foundation of surviving leg lock exchanges in modern grappling.",
     "key_principles": [
       "Bend the knee immediately - a bent knee cannot be hyperextended, making knee flexion your most powerful and universal defensive response against kneebar attacks",
       "Rotate your hip toward the attacker to align your leg with their extension force, neutralizing the lever mechanics that create hyperextension pressure on the joint",
@@ -433,7 +405,7 @@
       "Use your free leg actively as a weapon - boot against their hip, hook their leg, or post on the mat to create the leverage needed for escape"
     ],
     "recognition_cues": [
-      "Attacker releases chest-to-back pressure and begins swinging their body perpendicular to your leg, shifting from positional control to submission attack posture",
+      "Attacker releases knee-line and hip control and begins swinging their body perpendicular to your leg, shifting from positional control to submission attack posture",
       "You feel a forearm or hand pinning your hip on one side while the attacker's weight shifts laterally, indicating they are establishing hip control before the kneebar entry",
       "Attacker's legs begin wrapping around your upper thigh in a triangling motion, crossing ankles to establish the secondary control point that prevents leg extraction",
       "Your ankle is being pulled toward the attacker's chest while their hip bone contacts your kneecap area, signaling they are positioning the fulcrum for the finish"
@@ -471,7 +443,7 @@
     "favorable_outcomes": [
       {
         "outcome": "Backside 50-50/Top",
-        "how": "Bend your knee immediately when you feel the attacker rotating perpendicular. Rotate your hip toward them to close the extension angle. Strip their ankle grip with your hands while using your free leg to push their hip away. Once your knee is bent past 90 degrees and the attacker cannot straighten it, you have returned to Backside 50-50 where you can re-establish chest pressure and restart your own offensive sequences."
+        "how": "Bend your knee immediately when you feel the attacker rotating perpendicular. Rotate your hip toward them to close the extension angle. Strip their ankle grip with your hands while using your free leg to push their hip away. Once your knee is bent past 90 degrees and the attacker cannot straighten it, you have returned to Backside 50-50 where you can re-establish knee-line control and restart your own offensive sequences."
       },
       {
         "outcome": "50-50 Guard/Bottom",
@@ -487,7 +459,7 @@
       {
         "error": "Waiting too long to begin defensive action, allowing the attacker to fully establish leg triangle and fulcrum",
         "consequence": "Once the attacker has legs triangled around your thigh and hips positioned at your knee, your escape options narrow dramatically. The window for high-percentage defense closes rapidly during their setup",
-        "correction": "React at the earliest recognition cue - when you feel chest pressure release and lateral weight shift. Do not wait to confirm the kneebar is coming. Defensive knee bend costs nothing if you are wrong, but waiting costs everything if you are right"
+        "correction": "React at the earliest recognition cue - when you feel knee-line control loosen and lateral weight shift. Do not wait to confirm the kneebar is coming. Defensive knee bend costs nothing if you are wrong, but waiting costs everything if you are right"
       },
       {
         "error": "Over-rotating the hip and exposing the heel during kneebar defense",
@@ -550,8 +522,8 @@
       },
       {
         "question": "What cues should trigger your defense before the kneebar is fully established?",
-        "answer": "The earliest cues are the release of chest-to-back pressure combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition.",
-        "answer_line": "Chest pressure releases, hip pinned",
+        "answer": "The earliest cues are the release of knee-line and hip control combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition.",
+        "answer_line": "Leg clamp changes; heel controlled",
         "distractors": {
           "plausible": [
             "They grip your foot tightly",
@@ -581,7 +553,7 @@
       {
         "phase": "Week 1-2",
         "focus": "Recognition and automatic knee bend",
-        "description": "Partner slowly transitions from Backside 50-50 to kneebar entry at 30% speed. Practice recognizing the earliest cues (chest pressure release, lateral shift, hip pin) and responding with immediate knee bend. Repeat until the bend-response is automatic and does not require conscious thought. No resistance from attacker."
+        "description": "Partner slowly transitions from Backside 50-50 to kneebar entry at 30% speed. Practice recognizing the earliest cues (knee-line control loosen, lateral shift, hip pin) and responding with immediate knee bend. Repeat until the bend-response is automatic and does not require conscious thought. No resistance from attacker."
       },
       {
         "phase": "Week 3-4",
@@ -599,34 +571,6 @@
         "description": "Full resistance positional sparring starting from Backside 50-50. Attacker attempts kneebar and chain attacks while defender works defensive sequences. Track success rate and identify which recognition cues you miss most frequently. Integrate kneebar defense into broader leg lock defense system including heel hook and toe hold awareness."
       }
     ],
-    "clips": [
-      {
-        "id": "wBRG0fY94fs",
-        "title": "How to defend a kneebar",
-        "by": "Andrew Smith",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 59,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NuWBh3LN-SY",
-        "title": "Kneebar defense to taking the back",
-        "by": "Bicudo",
-        "vertical": false,
-        "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kUuJ03CcIUQ",
-        "title": "Kneebar defense vs Garry Tonon",
-        "by": "AJ Agazarm",
-        "vertical": false,
-        "channel": "FloGrappling",
-        "duration": 23,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

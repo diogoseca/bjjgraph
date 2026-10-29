@@ -180,35 +180,12 @@ description: "How to execute the Arm Drag in BJJ. Attacking perspective with gri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia arm drag takedown",
-      "description": "Arm Drag (Attacker) film study: Marcelo Garcia arm drag takedown, taught by Marcelo Garcia.",
+      "name": "Marcelo Garcia - Armdrag Takedown",
+      "description": "Arm Drag (Attacker) film study: Marcelo Garcia - Armdrag Takedown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Kp3ABmsn1I0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Kp3ABmsn1I0",
       "url": "https://www.youtube.com/watch?v=Kp3ABmsn1I0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Reverse arm drag from butterfly to back take",
-      "description": "Arm Drag (Attacker) film study: Reverse arm drag from butterfly to back take, taught by Jerry Musquiz.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
-      "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
-      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Breakdown of Marcelo Garcia\u0027s arm drag",
-      "description": "Arm Drag (Attacker) film study: Breakdown of Marcelo Garcia\u0027s arm drag, taught by Riccardo Ammendolia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xnjQbv6y1yo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xnjQbv6y1yo",
-      "url": "https://www.youtube.com/watch?v=xnjQbv6y1yo",
-      "creator": { "@type": "Person", "name": "Riccardo Ammendolia" },
-      "duration": "PT60S"
     }
   ]
 }
@@ -242,23 +219,7 @@ Advanced arm drag attacking integrates setups, feints, and chain reactions into 
 
 ![](https://www.youtube.com/watch?v=Kp3ABmsn1I0)
 
-<p class="clip-credit"><strong>Marcelo Garcia arm drag takedown</strong> — taught by Marcelo Garcia · 0:55 · <a href="https://www.youtube.com/watch?v=Kp3ABmsn1I0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MFed9IE8afA)
-
-<p class="clip-credit"><strong>Reverse arm drag from butterfly to back take</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xnjQbv6y1yo)
-
-<p class="clip-credit"><strong>Breakdown of Marcelo Garcia&#39;s arm drag</strong> — taught by Riccardo Ammendolia · 1:00 · <a href="https://www.youtube.com/watch?v=xnjQbv6y1yo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marcelo Garcia - Armdrag Takedown</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=Kp3ABmsn1I0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -427,7 +388,7 @@ The arm drag is generally a safe technique with low injury risk when executed pr
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition reference: Arm Drag.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Arm Drag.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Preparation with Matt D’Aquino</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition reference: Arm Drag.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Arm Drag: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition reference: Arm Drag.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

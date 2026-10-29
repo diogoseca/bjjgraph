@@ -186,35 +186,12 @@ description: "Execute the S Mount to Mounted Triangle transition with precision.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mounted triangle entry and finish",
-      "description": "S Mount to Mounted Triangle (Attacker) film study: Mounted triangle entry and finish, taught by Satori BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vLUua_voKzc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vLUua_voKzc",
-      "url": "https://www.youtube.com/watch?v=vLUua_voKzc",
-      "creator": { "@type": "Person", "name": "Satori BJJ coach" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Finishing the mounted triangle",
-      "description": "S Mount to Mounted Triangle (Attacker) film study: Finishing the mounted triangle, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1hjapzU7lQg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1hjapzU7lQg",
-      "url": "https://www.youtube.com/watch?v=1hjapzU7lQg",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT177S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle choke entry from top mount",
-      "description": "S Mount to Mounted Triangle (Attacker) film study: Triangle choke entry from top mount, taught by Stay Safe Martial Arts coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MZ8j0IPVS9o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MZ8j0IPVS9o",
-      "url": "https://www.youtube.com/watch?v=MZ8j0IPVS9o",
-      "creator": { "@type": "Person", "name": "Stay Safe Martial Arts coach" },
-      "duration": "PT182S"
+      "name": "How to do a Triangle choke for people with short legs (S mount)",
+      "description": "S Mount to Mounted Triangle (Attacker) film study: How to do a Triangle choke for people with short legs (S mount).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8-hYlvwOqgU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8-hYlvwOqgU",
+      "url": "https://www.youtube.com/watch?v=8-hYlvwOqgU",
+      "duration": "PT105S"
     }
   ]
 }
@@ -242,25 +219,9 @@ Attacking the mounted triangle from S Mount requires recognizing the specific de
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vLUua_voKzc)
+![](https://www.youtube.com/watch?v=8-hYlvwOqgU)
 
-<p class="clip-credit"><strong>Mounted triangle entry and finish</strong> — taught by Satori BJJ coach · 0:53 · <a href="https://www.youtube.com/watch?v=vLUua_voKzc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1hjapzU7lQg)
-
-<p class="clip-credit"><strong>Finishing the mounted triangle</strong> — taught by Brandon McCaghren · 2:57 · <a href="https://www.youtube.com/watch?v=1hjapzU7lQg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MZ8j0IPVS9o)
-
-<p class="clip-credit"><strong>Triangle choke entry from top mount</strong> — taught by Stay Safe Martial Arts coach · 3:02 · <a href="https://www.youtube.com/watch?v=MZ8j0IPVS9o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to do a Triangle choke for people with short legs (S mount)</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=8-hYlvwOqgU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

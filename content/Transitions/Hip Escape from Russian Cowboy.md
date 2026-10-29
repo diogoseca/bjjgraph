@@ -36,39 +36,6 @@ description: "Master the hip escape from Russian Cowboy in BJJ. Learn systematic
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Hip Escape from Russian Cowboy \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Standing up from turtle bottom",
-      "description": "Hip Escape from Russian Cowboy film study: Standing up from turtle bottom, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Multiple escapes from the turtle position",
-      "description": "Hip Escape from Russian Cowboy film study: Multiple escapes from the turtle position, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zxSKKUroV6Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zxSKKUroV6Q",
-      "url": "https://www.youtube.com/watch?v=zxSKKUroV6Q",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT214S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -107,32 +74,6 @@ Successful execution demands a structured priority hierarchy: protect the neck f
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Hip Escape from Russian Cowboy in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
-
-<p class="clip-credit"><strong>Standing up from turtle bottom</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zxSKKUroV6Q)
-
-<p class="clip-credit"><strong>Multiple escapes from the turtle position</strong> — taught by Jean Jacques Machado · 3:34 · <a href="https://www.youtube.com/watch?v=zxSKKUroV6Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -313,8 +254,6 @@ The Hip Escape from Russian Cowboy occupies a critical role in the defensive hie
 - [[Transitions/Escape from Russian Cowboy]] - Related escape technique with alternative recovery targets
 
 - [[Positions/Back Control]] - Related dominant position sharing similar escape mechanics
-
-- [[Transitions/Arm Extraction to Turtle]] - Primary alternative escape from Russian Cowboy targeting turtle recovery
 
 - [[Positions/Turtle]] - Alternative escape target position when half guard recovery is blocked
 

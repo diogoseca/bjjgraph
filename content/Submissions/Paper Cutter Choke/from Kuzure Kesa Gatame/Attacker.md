@@ -188,35 +188,32 @@ description: "Step-by-step guide to finishing the paper cutter choke from kuzure
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kesa Gatame to Paper Cutter Choke",
-      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) film study: Kesa Gatame to Paper Cutter Choke, taught by AMAGFightTeam.",
+      "name": "kasa Gatame Paper Cuter Choke",
+      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) film study: kasa Gatame Paper Cuter Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AKfEIInO9Tk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AKfEIInO9Tk",
       "url": "https://www.youtube.com/watch?v=AKfEIInO9Tk",
-      "creator": { "@type": "Person", "name": "AMAGFightTeam" },
       "duration": "PT38S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kesa to Paper Cutter Choke",
-      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) film study: Kesa to Paper Cutter Choke, taught by Global MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5z7hF2YJxeo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5z7hF2YJxeo",
-      "url": "https://www.youtube.com/watch?v=5z7hF2YJxeo",
-      "creator": { "@type": "Person", "name": "Global MMA" },
-      "duration": "PT112S"
+      "name": "Paper Cutter Choke with Lapel from Side Control",
+      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) film study: Paper Cutter Choke with Lapel from Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vhFpxC1vCag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vhFpxC1vCag",
+      "url": "https://www.youtube.com/watch?v=vhFpxC1vCag",
+      "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Paper Cutter Choke with Lapel",
-      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) film study: Paper Cutter Choke with Lapel, taught by Robert Hugus.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vhFpxC1vCag/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vhFpxC1vCag",
-      "url": "https://www.youtube.com/watch?v=vhFpxC1vCag",
-      "creator": { "@type": "Person", "name": "Robert Hugus" },
-      "duration": "PT42S"
+      "name": "Kesa to paper cutter choke",
+      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) film study: Kesa to paper cutter choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5z7hF2YJxeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5z7hF2YJxeo",
+      "url": "https://www.youtube.com/watch?v=5z7hF2YJxeo",
+      "duration": "PT112S"
     }
   ]
 }
@@ -247,15 +244,7 @@ Attacking with the paper cutter choke from kuzure kesa-gatame requires precise s
 
 ![](https://www.youtube.com/watch?v=AKfEIInO9Tk)
 
-<p class="clip-credit"><strong>Kesa Gatame to Paper Cutter Choke</strong> — taught by AMAGFightTeam · 0:38 · <a href="https://www.youtube.com/watch?v=AKfEIInO9Tk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5z7hF2YJxeo)
-
-<p class="clip-credit"><strong>Kesa to Paper Cutter Choke</strong> — taught by Global MMA · 1:52 · <a href="https://www.youtube.com/watch?v=5z7hF2YJxeo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>kasa Gatame Paper Cuter Choke</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=AKfEIInO9Tk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +252,15 @@ Attacking with the paper cutter choke from kuzure kesa-gatame requires precise s
 
 ![](https://www.youtube.com/watch?v=vhFpxC1vCag)
 
-<p class="clip-credit"><strong>Paper Cutter Choke with Lapel</strong> — taught by Robert Hugus · 0:42 · <a href="https://www.youtube.com/watch?v=vhFpxC1vCag" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Paper Cutter Choke with Lapel from Side Control</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=vhFpxC1vCag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5z7hF2YJxeo)
+
+<p class="clip-credit"><strong>Kesa to paper cutter choke</strong> · 1:52 · <a href="https://www.youtube.com/watch?v=5z7hF2YJxeo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,35 +46,12 @@ description: "Master the Baratoplata Setup from Meathook. Step-by-step shoulder 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Baratoplata Entry",
-      "description": "Baratoplata Setup film study: Baratoplata Entry, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/16hTPPDyl5E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/16hTPPDyl5E",
-      "url": "https://www.youtube.com/watch?v=16hTPPDyl5E",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT158S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Baratoplata from spider guard",
-      "description": "Baratoplata Setup film study: Baratoplata from spider guard, taught by Joao Miyao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7PzrTuuHzZ4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7PzrTuuHzZ4",
-      "url": "https://www.youtube.com/watch?v=7PzrTuuHzZ4",
-      "creator": { "@type": "Person", "name": "Joao Miyao" },
-      "duration": "PT362S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Baratoplata from top half guard",
-      "description": "Baratoplata Setup film study: Baratoplata from top half guard, taught by Juan Lopezcorrea.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TUDgZTMr3_o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TUDgZTMr3_o",
-      "url": "https://www.youtube.com/watch?v=TUDgZTMr3_o",
-      "creator": { "@type": "Person", "name": "Juan Lopezcorrea" },
-      "duration": "PT28S"
+      "name": "Baratoplata Defense!!!                                            #jiujitsu\u2026",
+      "description": "Baratoplata Setup film study: Baratoplata Defense!!!                                            #jiujitsu\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rx4XoCFWeq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rx4XoCFWeq8",
+      "url": "https://www.youtube.com/watch?v=rx4XoCFWeq8",
+      "duration": "PT74S"
     }
   ]
 }
@@ -128,25 +105,9 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=16hTPPDyl5E)
+![](https://www.youtube.com/watch?v=rx4XoCFWeq8)
 
-<p class="clip-credit"><strong>Baratoplata Entry</strong> — taught by Coach Brian · 2:38 · <a href="https://www.youtube.com/watch?v=16hTPPDyl5E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7PzrTuuHzZ4)
-
-<p class="clip-credit"><strong>Baratoplata from spider guard</strong> — taught by Joao Miyao · 6:02 · <a href="https://www.youtube.com/watch?v=7PzrTuuHzZ4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TUDgZTMr3_o)
-
-<p class="clip-credit"><strong>Baratoplata from top half guard</strong> — taught by Juan Lopezcorrea · 0:28 · <a href="https://www.youtube.com/watch?v=TUDgZTMr3_o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Baratoplata Defense!!!                                            #jiujitsu…</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=rx4XoCFWeq8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

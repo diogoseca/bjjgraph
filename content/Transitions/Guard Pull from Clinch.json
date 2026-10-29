@@ -383,31 +383,26 @@
     "safety_considerations": "Guard pulling carries risk of knee injury if performed with poor landing mechanics, particularly when sitting with a twisted knee or when your opponent drives forward during the transition. Never jump to closed guard on a standing opponent unless competition rules explicitly permit it and both practitioners are prepared, as this can cause severe knee ligament damage to the standing player. Practice controlled sit-down mechanics extensively before attempting full-speed guard pulls. During drilling, communicate with your training partner about your intent before initiating the pull so they can react safely rather than being caught off-balance.",
     "clips": [
       {
-        "id": "q_PpBsX4lCc",
-        "title": "Guard pull from the standing clinch",
-        "by": "Mat Life Training Center",
+        "id": "2RxcGbEFS_s",
+        "title": "Pulling guard No-Gi",
+        "channel": "Backstreet Dojo ",
+        "duration": 26,
         "vertical": false,
-        "channel": "Mat Life Training Center",
-        "duration": 77,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "c9zYACjPEWo",
-        "title": "Pulling closed guard",
-        "by": "The Paradigm Academy",
-        "vertical": false,
+        "title": "Pulling Closed Guard",
         "channel": "The Paradigm Academy",
         "duration": 53,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
-        "id": "2RxcGbEFS_s",
-        "title": "Pulling guard in no-gi",
-        "by": "Backstreet Dojo",
-        "vertical": false,
-        "channel": "Backstreet Dojo ",
-        "duration": 26,
-        "verified": "2026-07-15"
+        "id": "q_PpBsX4lCc",
+        "title": "Guard Pull from Standing Clinch",
+        "channel": "Mat Life Training Center",
+        "duration": 76,
+        "vertical": false
       }
     ]
   },
@@ -589,30 +584,11 @@
     "clips": [
       {
         "id": "HC0O_1S2r9g",
-        "title": "Countering the no-gi 2-on-1 guard pull",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
+        "title": "Countering the no-gi 2 on 1 guard pull",
         "channel": "BJJ4Breakfast",
         "duration": 169,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Yn8x62U6QHs",
-        "title": "2 Techniques to Shut Down Guard Pullers",
-        "by": "Chad Hardy",
         "vertical": false,
-        "channel": "Chad The Beast Hardy",
-        "duration": 167,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "BSmG5ty4tHQ",
-        "title": "How to Block the Guard Jump and Protect Your Knees",
-        "by": "Chewjitsu",
-        "vertical": false,
-        "channel": "Chewjitsu",
-        "duration": 268,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

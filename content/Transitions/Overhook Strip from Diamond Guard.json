@@ -366,26 +366,7 @@
       }
     ],
     "safety_considerations": "The overhook strip involves significant loading on both practitioners' shoulders during the extraction phase. The circular rotation applies torque to the overhooking arm's shoulder joint, and explosive stripping motions can cause rotator cuff strain or shoulder impingement in the guard player. Always use progressive controlled force during the extraction rather than sudden jerking. The head circle component also loads the cervical spine when head control is deep — avoid explosive head movements against loaded grips. Communicate with your training partner about grip depth and resistance levels, and release any grip immediately if either practitioner reports pain in the shoulder or neck during drilling.",
-    "clips": [
-      {
-        "id": "x_EFpu23jXw",
-        "title": "Creating angles in closed guard with the overhook",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 243,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ox8roQ1Jkm4",
-        "title": "Overhook attacks from closed guard",
-        "by": "Jiu Jitsu Evolution Series",
-        "vertical": false,
-        "channel": "JiuJitsuEvolutionSeries",
-        "duration": 59,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Overhook Strip from Diamond Guard Defender",
@@ -561,16 +542,6 @@
         "description": "Positional sparring starting in diamond guard with full resistance. Bottom player wins by maintaining diamond for 90 seconds, sweeping, or submitting. Top player wins by stripping the overhook and establishing neutral posture. Track outcomes across multiple rounds and identify the most common failure points for targeted drilling."
       }
     ],
-    "clips": [
-      {
-        "id": "ovecwiNyE3k",
-        "title": "Clearing the overhook and removing the angle",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 386,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

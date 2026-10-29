@@ -165,35 +165,24 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X-Guard to Heel Hook",
-      "description": "Reverse X-Guard (Bottom) film study: X-Guard to Heel Hook, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
-      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT94S"
+      "name": "Technique Talk: The Reverse X-Guard Entry",
+      "description": "Reverse X-Guard (Bottom) film study: Technique Talk: The Reverse X-Guard Entry, taught by Black Flag Submission Company.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dISye8G6dpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dISye8G6dpU",
+      "url": "https://www.youtube.com/watch?v=dISye8G6dpU",
+      "creator": { "@type": "Person", "name": "Black Flag Submission Company" },
+      "duration": "PT190S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Half-guard to Reverse X saddle sweep",
-      "description": "Reverse X-Guard (Bottom) film study: Half-guard to Reverse X saddle sweep, taught by Gracie Barra Jupiter.",
+      "name": "Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep",
+      "description": "Reverse X-Guard (Bottom) film study: Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep, taught by Gracie Barra Jupiter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/V81JTcD_fTU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/V81JTcD_fTU",
       "url": "https://www.youtube.com/watch?v=V81JTcD_fTU",
       "creator": { "@type": "Person", "name": "Gracie Barra Jupiter" },
       "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse X crossover to toe hold",
-      "description": "Reverse X-Guard (Bottom) film study: Reverse X crossover to toe hold, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
-      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT51S"
     }
   ]
 }
@@ -223,9 +212,9 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
+![](https://www.youtube.com/watch?v=dISye8G6dpU)
 
-<p class="clip-credit"><strong>X-Guard to Heel Hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Talk: The Reverse X-Guard Entry</strong> — taught by Black Flag Submission Company · 3:10 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,15 +222,7 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ![](https://www.youtube.com/watch?v=V81JTcD_fTU)
 
-<p class="clip-credit"><strong>Half-guard to Reverse X saddle sweep</strong> — taught by Gracie Barra Jupiter · 2:21 · <a href="https://www.youtube.com/watch?v=V81JTcD_fTU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
-
-<p class="clip-credit"><strong>Reverse X crossover to toe hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep</strong> — taught by Gracie Barra Jupiter · 2:21 · <a href="https://www.youtube.com/watch?v=V81JTcD_fTU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -443,8 +424,8 @@ Practice flowing from Reverse X-Guard Bottom to related positions: Standard X-Gu
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: Reverse X-Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Reverse X-Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

@@ -46,35 +46,12 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jiu Jitsu Inversion Mechanics",
-      "description": "Inverted Guard film study: Jiu Jitsu Inversion Mechanics, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KNz5AkZ4jrg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KNz5AkZ4jrg",
-      "url": "https://www.youtube.com/watch?v=KNz5AkZ4jrg",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Basic inversion guard maintenance drill",
-      "description": "Inverted Guard film study: Basic inversion guard maintenance drill, taught by Revolution BJJ.",
+      "name": "BJJ guard maintenance drill #3:  basic inversion",
+      "description": "Inverted Guard film study: BJJ guard maintenance drill #3:  basic inversion.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ez4LvZ2PtRk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ez4LvZ2PtRk",
       "url": "https://www.youtube.com/watch?v=Ez4LvZ2PtRk",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT17S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Standing Alternative to Circle Hand",
-      "description": "Inverted Guard film study: Standing Alternative to Circle Hand, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SCfmkmD4PYA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SCfmkmD4PYA",
-      "url": "https://www.youtube.com/watch?v=SCfmkmD4PYA",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT119S"
     }
   ]
 }
@@ -121,25 +98,9 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=KNz5AkZ4jrg)
-
-<p class="clip-credit"><strong>Jiu Jitsu Inversion Mechanics</strong> — taught by Mikey Musumeci · 1:12 · <a href="https://www.youtube.com/watch?v=KNz5AkZ4jrg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Ez4LvZ2PtRk)
 
-<p class="clip-credit"><strong>Basic inversion guard maintenance drill</strong> — taught by Revolution BJJ · 0:17 · <a href="https://www.youtube.com/watch?v=Ez4LvZ2PtRk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SCfmkmD4PYA)
-
-<p class="clip-credit"><strong>Standing Alternative to Circle Hand</strong> — taught by Mikey Musumeci · 1:59 · <a href="https://www.youtube.com/watch?v=SCfmkmD4PYA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ guard maintenance drill #3:  basic inversion</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=Ez4LvZ2PtRk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,27 +178,43 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 ### Available Transitions
 
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (13% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (17% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (8% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (11% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (5% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (16% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Submissions/Omoplata/from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (3% of attempts)
+- **[[Submissions/Omoplata/from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (2% of attempts)
 
-- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (7% of attempts)
+- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (3% of attempts)
 
 - **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (5% of attempts)
 
-- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (5% of attempts)
+- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (3% of attempts)
 
-- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (9% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (7% of attempts)
 
-- **[[Transitions/Sweep from Inverted Guard/Attacker|Sweep from Inverted Guard]]** (5% of attempts)
+- **[[Transitions/Sweep from Inverted Guard/Attacker|Sweep from Inverted Guard]]** (2% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (9% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (8% of attempts)
+
+- **[[Transitions/Kneebar Entry from Inverted Guard/Attacker|Kneebar Entry from Inverted Guard]]** (5% of attempts)
+
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (4% of attempts)
+
+- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (6% of attempts)
+
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (7% of attempts)
+
+- **[[Transitions/Rolling Kneebar/Attacker|Rolling Kneebar]]** (2% of attempts)
+
+- **[[Transitions/Inverted Guard Elevation Sweep/Attacker|Inverted Guard Elevation Sweep]]** (5% of attempts)
+
+- **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (4% of attempts)
+
+- **[[Submissions/Heel Hook/from Inverted Guard/Attacker|Heel Hook from Inverted Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -302,29 +279,37 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 ### Available Transitions
 
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (6% of attempts)
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (10% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (5% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (4% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (14% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (15% of attempts)
 
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (17% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (4% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (8% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (5% of attempts)
+- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (10% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (6% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (3% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (2% of attempts)
 
-- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (4% of attempts)
+- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (2% of attempts)
 
-- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (4% of attempts)
+- **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (2% of attempts)
+
+- **[[Transitions/Sprawl and Disengage/Attacker|Sprawl and Disengage]]** (4% of attempts)
+
+- **[[Transitions/Cartwheel Pass/Attacker|Cartwheel Pass]]** (2% of attempts)
+
+- **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** (4% of attempts)
+
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (3% of attempts)
 
 
 ### Common Mistakes

@@ -46,24 +46,12 @@ description: "Master the Mount to Armbar transition in BJJ. Complete guide to ex
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roger Gracie armbar details",
-      "description": "Mount to Armbar film study: Roger Gracie armbar details, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT102S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Armbar against a stacking opponent",
-      "description": "Mount to Armbar film study: Armbar against a stacking opponent, taught by Rolles Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4COgR6PfQW0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4COgR6PfQW0",
-      "url": "https://www.youtube.com/watch?v=4COgR6PfQW0",
-      "creator": { "@type": "Person", "name": "Rolles Gracie" },
-      "duration": "PT91S"
+      "name": "armbar from Mount",
+      "description": "Mount to Armbar film study: armbar from Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oKBZV3ckG3w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oKBZV3ckG3w",
+      "url": "https://www.youtube.com/watch?v=oKBZV3ckG3w",
+      "duration": "PT55S"
     }
   ]
 }
@@ -117,17 +105,9 @@ The Mount to Armbar serves as a gateway technique that opens pathways to complem
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+![](https://www.youtube.com/watch?v=oKBZV3ckG3w)
 
-<p class="clip-credit"><strong>Roger Gracie armbar details</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4COgR6PfQW0)
-
-<p class="clip-credit"><strong>Armbar against a stacking opponent</strong> — taught by Rolles Gracie · 1:31 · <a href="https://www.youtube.com/watch?v=4COgR6PfQW0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>armbar from Mount</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=oKBZV3ckG3w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -325,8 +305,6 @@ The Mount to Armbar serves as the cornerstone of the mount attack system, functi
 - [[Transitions/High Mount Transition]] - Positional advancement that improves armbar entry angle
 
 - [[Transitions/S-Mount Transition]] - Advanced mount variation optimizing armbar setup leverage
-
-- [[Transitions/Back Take from Top]] - Alternative transition when opponent turns to defend armbar
 
 
 </section>

@@ -387,22 +387,12 @@
     "safety_considerations": "The Heel Drag Escape is one of the lowest-risk mount escapes as it involves no explosive joint manipulation or significant neck-loading movements. However, practitioners should be mindful of knee and ankle stress during the dragging motion, particularly when training with larger partners whose weight may resist the hooking motion and create lateral torque on the knee. Partners maintaining mount should avoid driving weight through grapevines during initial drill work to prevent knee hyperextension on the bottom player. If any sharp knee pain occurs during the hooking motion, stop immediately and assess whether the angle of the drag is placing lateral stress on the knee joint. Training partners should communicate resistance levels clearly during progressive drilling phases.",
     "clips": [
       {
-        "id": "to2pdxtUpVU",
-        "title": "Mount escape to ankle lock",
-        "by": "Andy Tong",
+        "id": "KirbkTs_Bk4",
+        "title": "BJJ / Nogi Mount escape - heel drag elbow knee",
+        "channel": "Liam H Wandi",
+        "duration": 29,
         "vertical": false,
-        "channel": "Andy Tong",
-        "duration": 50,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "fK3On64P2cg",
-        "title": "Mount escape with the foot lift",
-        "by": "P5 Academy",
-        "vertical": false,
-        "channel": "P5 Academy",
-        "duration": 93,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -567,16 +557,6 @@
         "description": "Positional sparring from mount top against opponents who use the heel drag as part of their escape chain. Must maintain mount or advance position for 90 seconds. Track which escape in the chain most frequently succeeds and develop specific defensive responses to the heel drag within combination escape sequences."
       }
     ],
-    "clips": [
-      {
-        "id": "KirbkTs_Bk4",
-        "title": "No-gi mount escape: heel drag elbow knee",
-        "by": "Liam H Wandi",
-        "vertical": false,
-        "channel": "Liam H Wandi",
-        "duration": 30,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

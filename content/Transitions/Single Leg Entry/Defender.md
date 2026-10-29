@@ -160,35 +160,12 @@ description: "How to defend against Single Leg Entry in BJJ. Recognition cues, d
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sprawl and spin defense to the leg attack",
-      "description": "Single Leg Entry (Defender) film study: Sprawl and spin defense to the leg attack, taught by USA Wrestling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pfNtYzw97Ew/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pfNtYzw97Ew",
-      "url": "https://www.youtube.com/watch?v=pfNtYzw97Ew",
-      "creator": { "@type": "Person", "name": "USA Wrestling" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Harai goshi counter to the single leg",
-      "description": "Single Leg Entry (Defender) film study: Harai goshi counter to the single leg, taught by Gracie Barra Colorado Springs.",
+      "name": "Harai Goshi Counter to Single Leg",
+      "description": "Single Leg Entry (Defender) film study: Harai Goshi Counter to Single Leg.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OYZfgkzjFEg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OYZfgkzjFEg",
       "url": "https://www.youtube.com/watch?v=OYZfgkzjFEg",
-      "creator": { "@type": "Person", "name": "Gracie Barra Colorado Springs" },
       "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Leg curl sprawl against the leg attack",
-      "description": "Single Leg Entry (Defender) film study: Leg curl sprawl against the leg attack, taught by Jason Nolf.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qE9U8UnuQcE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qE9U8UnuQcE",
-      "url": "https://www.youtube.com/watch?v=qE9U8UnuQcE",
-      "creator": { "@type": "Person", "name": "Jason Nolf" },
-      "duration": "PT29S"
     }
   ]
 }
@@ -220,25 +197,9 @@ From a strategic perspective, consistent single leg defense relies on making the
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pfNtYzw97Ew)
-
-<p class="clip-credit"><strong>Sprawl and spin defense to the leg attack</strong> — taught by USA Wrestling · 0:55 · <a href="https://www.youtube.com/watch?v=pfNtYzw97Ew" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=OYZfgkzjFEg)
 
-<p class="clip-credit"><strong>Harai goshi counter to the single leg</strong> — taught by Gracie Barra Colorado Springs · 1:10 · <a href="https://www.youtube.com/watch?v=OYZfgkzjFEg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=qE9U8UnuQcE)
-
-<p class="clip-credit"><strong>Leg curl sprawl against the leg attack</strong> — taught by Jason Nolf · 0:29 · <a href="https://www.youtube.com/watch?v=qE9U8UnuQcE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Harai Goshi Counter to Single Leg</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=OYZfgkzjFEg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

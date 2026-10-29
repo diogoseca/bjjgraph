@@ -374,22 +374,12 @@
     "safety_considerations": "The knee through from quarter guard involves significant pressure application through crossface and body weight that requires training awareness. Practitioners should communicate with partners about pressure intensity during drilling and avoid driving the knee directly into sensitive areas including the groin, inner thigh, or knee joint. Aggressive crossface pressure can strain the cervical spine if applied with excessive force rather than structural weight. In training, use progressive resistance to allow the bottom player to develop defensive reactions safely before applying full competition-level pressure. Be particularly mindful during the knee drive phase that your shin does not catch the opponent's knee at an awkward angle during extraction.",
     "clips": [
       {
-        "id": "Tr-K1pNOb_E",
-        "title": "Knee slide to mount",
-        "by": "Jake Shields",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 89,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "MHkLdz5_qsw",
-        "title": "Knee slide pass to mount",
-        "by": "Matt McCormick",
-        "vertical": false,
+        "title": "Knee slide to mount with Coach Matt",
         "channel": "Matt McCormick",
         "duration": 79,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -567,34 +557,6 @@
         "description": "Positional sparring from quarter guard bottom with full resistance. Bottom player scores for successful guard recovery or sweep; top player scores for mount achievement. Track success rates over multiple rounds and identify which defensive patterns need refinement. Integrate counter-offensive opportunities from the defensive positions when they present naturally."
       }
     ],
-    "clips": [
-      {
-        "id": "xDZucxFVK48",
-        "title": "Defending the knee slice from quarter guard",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 275,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iq5Ng9kFD2A",
-        "title": "Defend and counter the knee slide pass",
-        "by": "Jordan Preisinger",
-        "vertical": false,
-        "channel": "Jordan Teaches Jiujitsu",
-        "duration": 678,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "WMHAX4ATRnM",
-        "title": "Countering the knee through to mount",
-        "by": "SBG coach",
-        "vertical": false,
-        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-        "duration": 127,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

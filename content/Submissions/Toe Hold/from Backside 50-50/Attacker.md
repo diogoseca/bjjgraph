@@ -22,8 +22,8 @@ description: "Attack the toe hold from Backside 50-50 with precision. Step-by-st
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Consolidate chest pressure",
-      "text": "Drive your chest heavy onto opponent's upper back, pinning their hips to the mat. Your weight should flow through your sternum into their spine. This eliminates their ability to create angles or generate the hip movement needed to defend the incoming foot attack.",
+      "name": "Consolidate knee-line control",
+      "text": "Settle on your hip behind the trapped leg. Keep the inside foot across the stomach and clamp the knee line to limit the opponent's turn while you reach for the foot. Maintain that leg connection throughout grip acquisition.",
       "position": 1
     },
     {
@@ -59,7 +59,7 @@ description: "Attack the toe hold from Backside 50-50 with precision. Step-by-st
     {
       "@type": "HowToStep",
       "name": "Drive finishing pressure with controlled hip extension",
-      "text": "Once rotational torque is established, add finishing pressure by extending your hips slightly backward while maintaining chest contact. This creates a compound force that combines rotation with linear extension, dramatically increasing pressure on the ankle complex. The hip extension must be gradual and controlled - explosive hip drives risk injury and reduce your ability to feel the tap.",
+      "text": "Maintain the knee-line clamp and inside-foot frame while applying the controlled finishing movement described by your instructor. Increase pressure gradually, follow the partner's response, and release immediately on a tap.",
       "position": 7
     }
   ],
@@ -188,35 +188,22 @@ description: "Attack the toe hold from Backside 50-50 with precision. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Toe Hold from 50/50",
-      "description": "Toe Hold from Backside 50-50 (Attacker) film study: Toe Hold from 50/50, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/B_StkmaI3Nc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/B_StkmaI3Nc",
-      "url": "https://www.youtube.com/watch?v=B_StkmaI3Nc",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT17S"
+      "name": "Paper Cutter Toehold From 50/50",
+      "description": "Toe Hold from Backside 50-50 (Attacker) film study: Paper Cutter Toehold From 50/50.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xwaJm1Ft5lc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xwaJm1Ft5lc",
+      "url": "https://www.youtube.com/watch?v=xwaJm1Ft5lc",
+      "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Paper Cutter Toehold from 50/50",
-      "description": "Toe Hold from Backside 50-50 (Attacker) film study: Paper Cutter Toehold from 50/50, taught by Garden State BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xwaJm1Ft5lc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xwaJm1Ft5lc",
-      "url": "https://www.youtube.com/watch?v=xwaJm1Ft5lc",
-      "creator": { "@type": "Person", "name": "Garden State BJJ" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Fifty-fifty toe hold",
-      "description": "Toe Hold from Backside 50-50 (Attacker) film study: Fifty-fifty toe hold, taught by Ninja Pinto.",
+      "name": "Fifty fifty toe hold",
+      "description": "Toe Hold from Backside 50-50 (Attacker) film study: Fifty fifty toe hold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BbPdLSszYt8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BbPdLSszYt8",
       "url": "https://www.youtube.com/watch?v=BbPdLSszYt8",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
-      "duration": "PT70S"
+      "duration": "PT69S"
     }
   ]
 }
@@ -228,7 +215,7 @@ description: "Attack the toe hold from Backside 50-50 with precision. Step-by-st
 
 <section id="overview" class="content-section">
 
-Attacking the toe hold from Backside 50-50 leverages your dominant chest-to-back pressure and clear visual access to the opponent's foot. The position's inherent asymmetry means your opponent cannot easily see or defend your grip placement, giving you significant mechanical advantage over standard 50-50 toe hold attempts. Success depends on maintaining heavy top pressure while precisely isolating the foot, then applying controlled rotational torque through a figure-four grip configuration that attacks the ankle ligaments and midfoot joints simultaneously. The toe hold pairs naturally with heel hook threats from this position, creating a layered offensive system where defending one attack exposes the other.
+Attacking the toe hold from Backside 50-50 leverages your dominant knee-line and hip control and clear visual access to the opponent's foot. The position's inherent asymmetry means your opponent cannot easily see or defend your grip placement, giving you significant mechanical advantage over standard 50-50 toe hold attempts. Success depends on maintaining heavy top pressure while precisely isolating the foot, then applying controlled rotational torque through a figure-four grip configuration that attacks the ankle ligaments and midfoot joints simultaneously. The toe hold pairs naturally with heel hook threats from this position, creating a layered offensive system where defending one attack exposes the other.
 
 **From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
@@ -245,17 +232,9 @@ Attacking the toe hold from Backside 50-50 leverages your dominant chest-to-back
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=B_StkmaI3Nc)
-
-<p class="clip-credit"><strong>Toe Hold from 50/50</strong> — taught by John Danaher · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=xwaJm1Ft5lc)
 
-<p class="clip-credit"><strong>Paper Cutter Toehold from 50/50</strong> — taught by Garden State BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Paper Cutter Toehold From 50/50</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +242,7 @@ Attacking the toe hold from Backside 50-50 leverages your dominant chest-to-back
 
 ![](https://www.youtube.com/watch?v=BbPdLSszYt8)
 
-<p class="clip-credit"><strong>Fifty-fifty toe hold</strong> — taught by Ninja Pinto · 1:10 · <a href="https://www.youtube.com/watch?v=BbPdLSszYt8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fifty fifty toe hold</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=BbPdLSszYt8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -277,7 +256,7 @@ Attacking the toe hold from Backside 50-50 leverages your dominant chest-to-back
 
 <p class="section-subtitle">What are the key principles for executing Toe Hold from Backside 50-50?</p>
 
-- Maintain constant chest-to-back pressure throughout grip acquisition and finishing to limit opponent hip mobility and escape options
+- Maintain constant knee-line and hip control throughout grip acquisition and finishing to limit opponent hip mobility and escape options
 - Secure a deep figure-four grip around the ball of the foot and toes before initiating any rotational pressure - premature twisting without proper grip leads to slippage and loss of position
 - Apply rotational torque gradually through wrist and forearm mechanics rather than explosive body movement to maintain control and training safety
 - Use the visual advantage of the backside angle to precisely position your grip and monitor the opponent's defensive reactions in real time
@@ -293,7 +272,7 @@ Attacking the toe hold from Backside 50-50 leverages your dominant chest-to-back
 
 <p class="section-subtitle">What do you need before attempting Toe Hold from Backside 50-50?</p>
 
-- Established dominant Backside 50-50 top position with chest heavy on opponent's upper back restricting hip mobility
+- Established Backside 50-50 with the knee line contained and the inside foot across the opponent's stomach
 - Legs properly entangled with opponent's leg trapped between your thighs maintaining the 50-50 configuration
 - Target foot accessible with ball of foot and toes exposed - typically after opponent defends heel hook by hiding heel
 - Stable base confirmed so opponent cannot sweep during grip acquisition phase
@@ -308,13 +287,13 @@ Attacking the toe hold from Backside 50-50 leverages your dominant chest-to-back
 
 <p class="section-subtitle">How do you execute Toe Hold from Backside 50-50 step by step?</p>
 
-1. **Consolidate chest pressure**: Drive your chest heavy onto opponent's upper back, pinning their hips to the mat. Your weight should flow through your sternum into their spine. This eliminates their ability to create angles or generate the hip movement needed to defend the incoming foot attack. (Timing: 2-3 seconds to settle weight)
+1. **Consolidate knee-line control**: Settle on your hip behind the trapped leg. Keep the inside foot across the stomach and clamp the knee line to limit the opponent's turn while you reach for the foot. Maintain that leg connection throughout grip acquisition. (Timing: 2-3 seconds to settle weight)
 2. **Identify and isolate target foot**: Use your visual advantage to locate the opponent's trapped foot. The target is the foot on the entangled leg closest to your hands. If opponent is hiding their heel from heel hook threats, the ball of the foot and toes will be naturally exposed and accessible for grip placement. (Timing: 1-2 seconds for identification)
 3. **Establish initial grip on ball of foot**: Cup your primary hand over the opponent's toes and ball of the foot, wrapping your fingers around the outside edge of the foot. Your grip should encompass multiple toes and the metatarsal heads - never isolate individual toes. Thumb placement runs along the arch of the foot for maximum control surface area. (Timing: 1-2 seconds for initial grip)
 4. **Thread figure-four grip configuration**: Bring your secondary hand underneath the opponent's ankle and grip your own wrist, creating a tight figure-four lock. Your primary forearm runs along the sole of the foot with the blade of your wrist pressed against the ball of the foot. The figure-four prevents grip stripping and creates the mechanical structure for rotational torque application. (Timing: 1-2 seconds to lock figure-four)
 5. **Clamp elbows and align wrists**: Squeeze your elbows tight to your body and align your wrist angle perpendicular to the opponent's shin line. This alignment ensures that rotational force transfers efficiently into the ankle joint rather than dissipating through angular misalignment. Pin your elbows against your ribs to create a rigid mechanical frame. (Timing: 1 second for alignment check)
 6. **Apply gradual rotational torque**: Slowly rotate the foot inward (toward the opponent's midline) using your wrists and forearms while keeping elbows clamped. The rotation attacks the lateral ankle ligaments, midfoot joints, and toe structures simultaneously. Apply pressure incrementally over several seconds - never jerk or snap the rotation. Monitor opponent's reaction continuously for tap signals. (Timing: 3-5 seconds of slow, controlled rotation)
-7. **Drive finishing pressure with controlled hip extension**: Once rotational torque is established, add finishing pressure by extending your hips slightly backward while maintaining chest contact. This creates a compound force that combines rotation with linear extension, dramatically increasing pressure on the ankle complex. The hip extension must be gradual and controlled - explosive hip drives risk injury and reduce your ability to feel the tap. (Timing: 2-3 seconds of gradual extension to finish)
+7. **Drive finishing pressure with controlled hip extension**: Maintain the knee-line clamp and inside-foot frame while applying the controlled finishing movement described by your instructor. Increase pressure gradually, follow the partner's response, and release immediately on a tap. (Timing: 2-3 seconds of gradual extension to finish)
 
 
 </section>
@@ -338,10 +317,10 @@ Attacking the toe hold from Backside 50-50 leverages your dominant chest-to-back
 
 <p class="section-subtitle">How might your opponent defend against Toe Hold from Backside 50-50?</p>
 
-- **Boot defense - opponent curls toes toward shin and hides foot by pulling knee to chest** (Effectiveness: High) - Your Response: Maintain chest pressure to limit their hip mobility. If they successfully hide the foot, immediately transition to heel hook since hiding the toes often exposes the heel. Alternatively, use your free hand to peel their defensive grip and re-expose the foot. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Boot defense - opponent curls toes toward shin and hides foot by pulling knee to chest** (Effectiveness: High) - Your Response: Maintain knee-line control to limit their hip mobility. If they successfully hide the foot, immediately transition to heel hook since hiding the toes often exposes the heel. Alternatively, use your free hand to peel their defensive grip and re-expose the foot. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
 - **Leg straightening - opponent extends trapped leg to deny rotational leverage** (Effectiveness: Medium) - Your Response: Use your entangled legs to re-bend their knee by squeezing your thighs together. If leg stays straight, switch to a straight ankle lock or kneebar on the extended leg. The straightened position actually improves ankle lock and kneebar angles while removing toe hold viability. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
 - **Counter heel hook - opponent releases foot defense to attack your heel while you grip their toes** (Effectiveness: Low) - Your Response: Your top position gives you superior rotational leverage. Finish your toe hold before their counter develops - your mechanical advantage from the backside angle means your submission is ahead in the race. If concerned, hide your own heel by curling your foot while maintaining toe hold grip. → Leads to [[Positions/Closed Guard]]
-- **Hip escape to face attacker - opponent bridges and turns to neutralize backside angle** (Effectiveness: Medium) - Your Response: Drive chest pressure forward to prevent the turn. If they partially succeed, maintain your toe hold grip through the transition - the submission can still finish even as they rotate. Use your leg entanglement to prevent full rotation and re-establish the backside angle. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Hip escape to face attacker - opponent bridges and turns to neutralize backside angle** (Effectiveness: Medium) - Your Response: Follow the hip movement with your leg clamp and retain the inside-foot frame. If the opponent clears the knee line or turns back in, recover the entanglement before continuing the foot attack. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
 
 
 </section>
@@ -357,10 +336,10 @@ Attacking the toe hold from Backside 50-50 leverages your dominant chest-to-back
 - **Consequence**: Individual toe grip creates dangerous isolated pressure on small joints, risks breaking single toes, and provides insufficient leverage for the rotational finish. Partner may not feel the submission building until sudden damage occurs.
 - **Correction**: Always cup your hand over multiple toes and the ball of the foot. Your fingers should wrap around the outside edge of the foot encompassing at least three toes and the metatarsal heads. This distributes force and creates a stronger mechanical grip.
 
-### 2. Releasing chest pressure to focus both hands on the foot grip
+### 2. Releasing knee-line control to focus both hands on the foot grip
 
-- **Consequence**: Without chest pressure, opponent regains hip mobility and can bridge, turn to face you, or create enough movement to strip your grip. The positional advantage that makes this toe hold high-percentage disappears entirely.
-- **Correction**: Maintain chest-to-back pressure throughout the entire grip acquisition and finishing sequence. Your body weight pins their hips while your hands work the foot. If you cannot reach the foot while maintaining pressure, reposition your hips before attempting the grip.
+- **Consequence**: Without knee-line control, opponent regains hip mobility and can bridge, turn to face you, or create enough movement to strip your grip. The positional advantage that makes this toe hold high-percentage disappears entirely.
+- **Correction**: Keep the trapped knee line contained and the inside foot across the stomach throughout the grip change. Those leg controls restrict the opponent's turn while your hands work on the foot.
 
 ### 3. Applying explosive rotational force to finish quickly
 

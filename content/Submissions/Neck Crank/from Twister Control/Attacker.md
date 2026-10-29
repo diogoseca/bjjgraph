@@ -188,34 +188,31 @@ description: "Learn to attack with the neck crank from Twister Control. Step-by-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twister Neck Crank",
-      "description": "Neck Crank from Twister Control (Attacker) film study: Twister Neck Crank, taught by All American Karate.",
+      "name": "Twister neck crank",
+      "description": "Neck Crank from Twister Control (Attacker) film study: Twister neck crank.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mUrSkN4Zegs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mUrSkN4Zegs",
       "url": "https://www.youtube.com/watch?v=mUrSkN4Zegs",
-      "creator": { "@type": "Person", "name": "All American Karate" },
-      "duration": "PT50S"
+      "duration": "PT49S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Neck Crank from Twister",
-      "description": "Neck Crank from Twister Control (Attacker) film study: Neck Crank from Twister, taught by Brazil Toronto Coach.",
+      "name": "Neck crank from Twister",
+      "description": "Neck Crank from Twister Control (Attacker) film study: Neck crank from Twister.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vHEYftsqG9Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vHEYftsqG9Y",
       "url": "https://www.youtube.com/watch?v=vHEYftsqG9Y",
-      "creator": { "@type": "Person", "name": "Brazil Toronto Coach" },
-      "duration": "PT59S"
+      "duration": "PT58S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "The Twister from Twister Side Control",
-      "description": "Neck Crank from Twister Control (Attacker) film study: The Twister from Twister Side Control, taught by Submissions101 Coach.",
+      "name": "The Twister: From Twister Side Control (v2.0 redux)",
+      "description": "Neck Crank from Twister Control (Attacker) film study: The Twister: From Twister Side Control (v2.0 redux).",
       "thumbnailUrl": "https://i.ytimg.com/vi/MxE2Jmkm-g4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MxE2Jmkm-g4",
       "url": "https://www.youtube.com/watch?v=MxE2Jmkm-g4",
-      "creator": { "@type": "Person", "name": "Submissions101 Coach" },
       "duration": "PT263S"
     }
   ]
@@ -247,7 +244,7 @@ Attacking with the neck crank from Twister Control requires understanding that t
 
 ![](https://www.youtube.com/watch?v=mUrSkN4Zegs)
 
-<p class="clip-credit"><strong>Twister Neck Crank</strong> — taught by All American Karate · 0:50 · <a href="https://www.youtube.com/watch?v=mUrSkN4Zegs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister neck crank</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=mUrSkN4Zegs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -255,7 +252,7 @@ Attacking with the neck crank from Twister Control requires understanding that t
 
 ![](https://www.youtube.com/watch?v=vHEYftsqG9Y)
 
-<p class="clip-credit"><strong>Neck Crank from Twister</strong> — taught by Brazil Toronto Coach · 0:59 · <a href="https://www.youtube.com/watch?v=vHEYftsqG9Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Neck crank from Twister</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=vHEYftsqG9Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +260,7 @@ Attacking with the neck crank from Twister Control requires understanding that t
 
 ![](https://www.youtube.com/watch?v=MxE2Jmkm-g4)
 
-<p class="clip-credit"><strong>The Twister from Twister Side Control</strong> — taught by Submissions101 Coach · 4:23 · <a href="https://www.youtube.com/watch?v=MxE2Jmkm-g4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Twister: From Twister Side Control (v2.0 redux)</strong> · 4:23 · <a href="https://www.youtube.com/watch?v=MxE2Jmkm-g4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

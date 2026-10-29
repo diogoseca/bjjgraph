@@ -359,30 +359,11 @@
     "clips": [
       {
         "id": "Rlk4mGg7vW4",
-        "title": "Maintaining back control with hooks",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
+        "title": "Maintain Back Control with Hooks by Gracie Charlottesville",
         "channel": "Gracie Charlottesville",
         "duration": 84,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NdOA8wrM9BA",
-        "title": "Two hacks to keep back control",
-        "by": "The Grappling Academy",
         "vertical": false,
-        "channel": "The Grappling Academy",
-        "duration": 205,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "clM9dN8bBH4",
-        "title": "Turning good back control into great back control",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 204,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -543,26 +524,7 @@
         "description": "Start from partially compromised back control with partner attempting full restoration. 3-minute rounds with the goal of completing escape or maintaining position. Track which escape patterns succeed most consistently."
       }
     ],
-    "clips": [
-      {
-        "id": "bDZntPrcLpg",
-        "title": "Escaping back control via turtle escape",
-        "by": "BJJ101",
-        "vertical": false,
-        "channel": "BJJ101",
-        "duration": 37,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3Jd2llamfl8",
-        "title": "Back control escape explained simply",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 189,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

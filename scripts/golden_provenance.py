@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Assert content provenance when a golden is USED, not just when it is captured.
 
-The fast contract is the committed content/ tree plus a clean worktree at both
-capture boundaries and at use. It checks the cumulative capture..current tree,
-tracked modifications, ALL untracked content (including ignored files), and Git
+The fast contract is the committed content/ tree EXCEPT its .obsidian/ vault
+configuration, plus a clean scoped worktree at capture boundaries and at use.
+It checks the cumulative capture..current tree, tracked modifications, ALL
+untracked content (including ignored files outside .obsidian/), and Git
 assume-unchanged/skip-worktree flags. An unrelated commit does not stale content.
 Dirty paths outside content are named and hashed; they are not claimed clean.
 
@@ -20,6 +21,8 @@ content verdict and never claims source parity. Pure record loaders stay pure.
 Pinned by golden_provenance_selftest.py: unrelated changes pass; cumulative,
 dirty, added and ignored content changes fail; unknown receipts and hidden Git
 inputs cannot become clean; actual CLI legacy green is rejected.
+tests/golden_provenance_test.py pins the vault-only exclusion, JSON/Markdown drift,
+ignored real inputs, staged/committed edits, and validated v1 receipt compatibility.
 """
 from __future__ import annotations
 
@@ -33,6 +36,12 @@ import re
 import subprocess
 
 SCHEMA = 'quartz-content-provenance-v1'
+# Preserve the capture envelope consumed by Quartz's parse/emit observers. The
+# explicit scope distinguishes filtered tree hashes from older full-tree proof;
+# old verifiers reject the new tree/counts rather than silently broadening them.
+FULL_SCOPE = 'content-v1'
+CONTENT_SCOPE = 'content-excluding-obsidian-v1'
+SCOPE = 'content/** excluding content/.obsidian/**'
 DEFAULT_REPO = Path(__file__).resolve().parent.parent
 
 
@@ -43,8 +52,9 @@ class ProvenanceError(ValueError):
         self.state = state
 
 
-def git(repo, *args):
-    p = subprocess.run(['git', '-C', str(repo), *args], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+def git(repo, *args, input=None):
+    p = subprocess.run(['git', '-C', str(repo), *args], input=input,
+                       stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if p.returncode:
         raise ProvenanceError(f'git {args[0]} could not inspect inputs: {p.stderr.decode(errors="replace").strip()}')
     return p.stdout
@@ -54,10 +64,33 @@ def names(raw):
     return [os.fsdecode(x) for x in raw.split(b'\0') if x]
 
 
+def is_content_input(path):
+    # Match the root .obsidian entry in source/quartz.config.ts's ignorePatterns.
+    # Do NOT copy its JSON or generic ignore rules: authored JSON is an input to
+    # regeneration, and ignored new content must still invalidate a receipt.
+    return path != 'content/.obsidian' and not path.startswith('content/.obsidian/')
+
+
 @lru_cache(maxsize=32)
-def committed_content(repo, head):
+def committed_content(repo, head, scope=CONTENT_SCOPE):
     tree = git(repo, 'rev-parse', '--verify', f'{head}:content').decode().strip()
     entries = names(git(repo, 'ls-tree', '-r', '-z', tree))
+    if scope == CONTENT_SCOPE:
+        entries = [row for row in entries if is_content_input('content/' + row.split('\t', 1)[1])]
+        # Hash the Git tree with ONLY the root .obsidian entry removed. Subtree
+        # object IDs preserve every other byte, path and mode. No -w: inspecting
+        # provenance never writes objects or changes the index/worktree.
+        rows = git(repo, 'ls-tree', '-z', tree).split(b'\0')
+        scoped_tree = bytearray()
+        for row in filter(None, rows):
+            metadata, path = row.split(b'\t', 1)
+            if path == b'.obsidian':
+                continue
+            mode, _, oid = metadata.split(b' ')
+            scoped_tree.extend(mode.lstrip(b'0') + b' ' + path + b'\0' + bytes.fromhex(oid.decode()))
+        tree = git(repo, 'hash-object', '-t', 'tree', '--stdin', input=scoped_tree).decode().strip()
+    elif scope != FULL_SCOPE:
+        raise ProvenanceError('unknown content scope')
     if any(not row.startswith(('100644 blob ', '100755 blob ')) for row in entries):
         raise ProvenanceError('content contains symlinks/submodules; a Git tree does not attest their external target bytes')
     paths = [row.split('\t', 1)[1] for row in entries]
@@ -72,13 +105,14 @@ def current_content(repo):
     head = git(repo, 'rev-parse', '--verify', 'HEAD').decode().strip()
     # A marked-valid index entry can conceal working-tree modifications from diff.
     flags = names(git(repo, 'ls-files', '-v', '-z', '--', 'content'))
-    hidden = [line[2:] for line in flags if not line.startswith('H ')]
+    hidden = [line[2:] for line in flags if not line.startswith('H ') and is_content_input(line[2:])]
     if hidden:
         raise ProvenanceError('content index has trust/skip flags: ' + repr(hidden[:8]))
     dirty = names(git(repo, 'diff', '--name-only', '--no-ext-diff', '--no-textconv', '--no-renames', '-z', 'HEAD', '--', 'content'))
     # Deliberately omit --exclude-standard: an ignored new input is still an input.
     added = names(git(repo, 'ls-files', '--others', '-z', '--', 'content'))
-    return {'git_head': head, **committed_content(repo, head), 'changed_paths': sorted(set(dirty + added))}
+    changed = sorted({path for path in dirty + added if is_content_input(path)})
+    return {'git_head': head, **committed_content(repo, head), 'changed_paths': changed}
 
 
 def dirty_paths(repo):
@@ -116,7 +150,7 @@ def begin_capture(repo, capture_id):
     state = current_content(repo)
     if state['changed_paths']:
         raise ProvenanceError(f'capture requires clean, fully tracked content: {state["changed_paths"][:8]!r}')
-    return {'schema': SCHEMA, 'state': 'capturing', 'capture_id': capture_id,
+    return {'schema': SCHEMA, 'content_scope': CONTENT_SCOPE, 'state': 'capturing', 'capture_id': capture_id,
             'capture_git_head': state['git_head'],
             **{k: state[k] for k in ('content_tree', 'content_files', 'content_md')},
             'content_clean_at_start': True, 'content_clean_at_end': False,
@@ -132,14 +166,16 @@ def finish_capture(start, repo):
 
 
 def inspect_content(receipt, repo):
-    result = {'state': 'UNVERIFIED', 'capture_git_head': None, 'scope': 'content/**'}
+    result = {'state': 'UNVERIFIED', 'capture_git_head': None, 'scope': SCOPE}
     if not isinstance(receipt, dict):
         return {**result, 'reason': 'no capture-time content attestation; a commit alone cannot prove what the build read'}
     result['capture_git_head'] = receipt.get('capture_git_head')
     if receipt.get('schema') == 'legacy-input-unverified':
         return {**result, 'reason': receipt['reason']}
     required = ('content_files', 'content_md')
-    if (receipt.get('schema') != SCHEMA or receipt.get('state') != 'complete'
+    scope = receipt.get('content_scope', FULL_SCOPE)
+    if (receipt.get('schema') != SCHEMA or scope not in (CONTENT_SCOPE, FULL_SCOPE)
+            or receipt.get('state') != 'complete'
             or receipt.get('content_clean_at_start') is not True or receipt.get('content_clean_at_end') is not True
             or not receipt.get('capture_id')
             or any(type(receipt.get(k)) is not int or receipt[k] <= 0 for k in required)
@@ -148,19 +184,24 @@ def inspect_content(receipt, repo):
             or not re.fullmatch(r'[0-9a-f]{40,64}', str(receipt.get('content_tree')))):
         return {**result, 'reason': 'incomplete or invalid capture-time content attestation'}
     try:
-        expected = committed_content(str(Path(repo).resolve()), receipt['capture_git_head'])
+        repo = str(Path(repo).resolve())
+        expected = committed_content(repo, receipt['capture_git_head'], scope)
         if any(receipt[k] != v for k, v in expected.items()):
             return {**result, 'reason': 'receipt disagrees with its named capture content tree/counts'}
+        # A completed receipt without a scope attested the entire tree, a superset
+        # of today's inputs. Validate that evidence above before narrowing it. A
+        # commit alone or an incomplete receipt still cannot become a proof.
+        captured = committed_content(repo, receipt['capture_git_head'])
         actual = current_content(repo)
     except (ProvenanceError, OSError) as e:
         # Narrowly unavailable Git/filesystem data. Coding errors must propagate.
         return {**result, 'reason': str(e)}
-    same = actual['content_tree'] == receipt['content_tree'] and not actual['changed_paths']
+    same = actual['content_tree'] == captured['content_tree'] and not actual['changed_paths']
     return {**result, 'state': 'MATCH' if same else 'DRIFTED', 'current_git_head': actual['git_head'],
-            'capture_content_tree': receipt['content_tree'], 'current_content_tree': actual['content_tree'],
-            'covered_files': receipt['content_files'], 'markdown_files': receipt['content_md'],
+            'capture_content_tree': captured['content_tree'], 'current_content_tree': actual['content_tree'],
+            'covered_files': captured['content_files'], 'markdown_files': captured['content_md'],
             'changed_paths': actual['changed_paths'],
-            'reason': 'capture content tree equals current tree; working content clean' if same else 'cumulative content tree or working inputs changed since capture'}
+            'reason': 'scoped capture content tree equals current tree; working content clean' if same else 'cumulative content tree or working inputs changed since capture'}
 
 
 def read_receipt(path):

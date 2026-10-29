@@ -160,24 +160,12 @@ description: "How to defend against Rear Naked Choke Setup in BJJ. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Three rear choke defenses everyone should know",
-      "description": "Rear Naked Choke Setup (Defender) film study: Three rear choke defenses everyone should know, taught by Ryron and Rener Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UQO3V3Uo3t4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UQO3V3Uo3t4",
-      "url": "https://www.youtube.com/watch?v=UQO3V3Uo3t4",
-      "creator": { "@type": "Person", "name": "Ryron and Rener Gracie" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rear naked choke escape by attacking the shin",
-      "description": "Rear Naked Choke Setup (Defender) film study: Rear naked choke escape by attacking the shin, taught by SAMA Self Defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-Hu-8hJJ3lc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-Hu-8hJJ3lc",
-      "url": "https://www.youtube.com/watch?v=-Hu-8hJJ3lc",
-      "creator": { "@type": "Person", "name": "SAMA Self Defense" },
-      "duration": "PT17S"
+      "name": "Defending The Rear Naked Choke... What to do with your face",
+      "description": "Rear Naked Choke Setup (Defender) film study: Defending The Rear Naked Choke... What to do with your face.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zQfqWkK5tZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zQfqWkK5tZ0",
+      "url": "https://www.youtube.com/watch?v=zQfqWkK5tZ0",
+      "duration": "PT132S"
     }
   ]
 }
@@ -209,17 +197,9 @@ Strategically, your defensive priorities follow a strict hierarchy: protect the 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=UQO3V3Uo3t4)
+![](https://www.youtube.com/watch?v=zQfqWkK5tZ0)
 
-<p class="clip-credit"><strong>Three rear choke defenses everyone should know</strong> — taught by Ryron and Rener Gracie · 1:10 · <a href="https://www.youtube.com/watch?v=UQO3V3Uo3t4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-Hu-8hJJ3lc)
-
-<p class="clip-credit"><strong>Rear naked choke escape by attacking the shin</strong> — taught by SAMA Self Defense · 0:17 · <a href="https://www.youtube.com/watch?v=-Hu-8hJJ3lc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending The Rear Naked Choke... What to do with your face</strong> · 2:12 · <a href="https://www.youtube.com/watch?v=zQfqWkK5tZ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

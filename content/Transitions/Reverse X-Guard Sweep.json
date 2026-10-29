@@ -76,10 +76,6 @@
       "relationship": "Defensive transition when opponent drives forward with smash pressure"
     },
     {
-      "name": "Back Take",
-      "relationship": "Alternative outcome when opponent backsteps during sweep defense"
-    },
-    {
       "name": "De La Riva Guard",
       "relationship": "Common entry position for establishing Reverse X-Guard"
     },
@@ -372,35 +368,7 @@
       }
     ],
     "safety_considerations": "The Reverse X-Guard Sweep is generally a low-risk technique from an injury standpoint, but practitioners should be aware of several safety factors. The person being swept should practice proper falling technique, tucking the chin and distributing impact across the shoulder and back rather than posting with straight arms. Arm posting during falls can lead to wrist, elbow, or shoulder injuries. The sweeping practitioner should avoid hyperextending their knees when elevating, particularly if they have a history of knee issues. During training, sweep with control rather than maximum explosive force, allowing your partner to fall safely. When drilling at full speed, ensure adequate mat space and clear any obstacles. Practitioners with lower back issues should approach the hip elevation mechanics gradually, as the inverted position places load on the lumbar spine. Begin with drilling at low intensity and progress resistance incrementally as both partners become comfortable with the movement patterns.",
-    "clips": [
-      {
-        "id": "V81JTcD_fTU",
-        "title": "Half guard to reverse X guard saddle sweep",
-        "by": "Gracie Barra Jupiter",
-        "vertical": false,
-        "channel": "Gracie Barra Jupiter And Stuart",
-        "duration": 141,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "xHNrf_HkKZQ",
-        "title": "Low reverse X-guard series",
-        "by": "Kevin Hughes",
-        "vertical": false,
-        "channel": "Kevin Hughes",
-        "duration": 304,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EcxCadpBePk",
-        "title": "Single leg X, X guard and reverse X options",
-        "by": "Steven Kaloustian",
-        "vertical": false,
-        "channel": "Steven Kaloustian",
-        "duration": 97,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Reverse X-Guard Sweep Defender",
@@ -585,21 +553,11 @@
     "clips": [
       {
         "id": "hGAJrQP3QDs",
-        "title": "Berimbolo counter to reverse X guard",
-        "by": "Pantheon Promotions",
-        "vertical": false,
+        "title": "Berimbolo Counter to Reverse X",
         "channel": "Pantheon Promotions",
         "duration": 95,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C1lYVhDXwvw",
-        "title": "How to pass X guard",
-        "by": "Kaynan Duarte",
         "vertical": false,
-        "channel": "The Grapple Club",
-        "duration": 116,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

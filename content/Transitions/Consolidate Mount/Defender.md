@@ -160,35 +160,32 @@ description: "How to defend against Consolidate Mount in BJJ. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "A mount escape that actually works",
-      "description": "Consolidate Mount (Defender) film study: A mount escape that actually works, taught by Gabriel Gonzaga.",
+      "name": "Can\u0027t Escape the Mount? Try this Escape Next Time!",
+      "description": "Consolidate Mount (Defender) film study: Can\u0027t Escape the Mount? Try this Escape Next Time!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
       "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
-      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
       "duration": "PT93S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The Dagestani mount escape",
-      "description": "Consolidate Mount (Defender) film study: The Dagestani mount escape, taught by Danny Mitchell.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/boWprABmeaU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/boWprABmeaU",
-      "url": "https://www.youtube.com/watch?v=boWprABmeaU",
-      "creator": { "@type": "Person", "name": "Danny Mitchell" },
-      "duration": "PT145S"
+      "name": "BJJ Fundamentals- Mount escapes- Dealing with crossface 2",
+      "description": "Consolidate Mount (Defender) film study: BJJ Fundamentals- Mount escapes- Dealing with crossface 2.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QHuh7h0VDOM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QHuh7h0VDOM",
+      "url": "https://www.youtube.com/watch?v=QHuh7h0VDOM",
+      "duration": "PT134S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Mount escape against the crossface",
-      "description": "Consolidate Mount (Defender) film study: Mount escape against the crossface, taught by Fenix Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QHuh7h0VDOM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QHuh7h0VDOM",
-      "url": "https://www.youtube.com/watch?v=QHuh7h0VDOM",
-      "creator": { "@type": "Person", "name": "Fenix Jiu Jitsu" },
-      "duration": "PT135S"
+      "name": "The Dagestani Mount Escape | Jiu Jitsu for MMA",
+      "description": "Consolidate Mount (Defender) film study: The Dagestani Mount Escape | Jiu Jitsu for MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/boWprABmeaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/boWprABmeaU",
+      "url": "https://www.youtube.com/watch?v=boWprABmeaU",
+      "duration": "PT145S"
     }
   ]
 }
@@ -218,15 +215,7 @@ Defending against mount consolidation is one of the most urgent defensive tasks 
 
 ![](https://www.youtube.com/watch?v=9252EvCT0q4)
 
-<p class="clip-credit"><strong>A mount escape that actually works</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=boWprABmeaU)
-
-<p class="clip-credit"><strong>The Dagestani mount escape</strong> — taught by Danny Mitchell · 2:25 · <a href="https://www.youtube.com/watch?v=boWprABmeaU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Can&#39;t Escape the Mount? Try this Escape Next Time!</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +223,15 @@ Defending against mount consolidation is one of the most urgent defensive tasks 
 
 ![](https://www.youtube.com/watch?v=QHuh7h0VDOM)
 
-<p class="clip-credit"><strong>Mount escape against the crossface</strong> — taught by Fenix Jiu Jitsu · 2:15 · <a href="https://www.youtube.com/watch?v=QHuh7h0VDOM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Fundamentals- Mount escapes- Dealing with crossface 2</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=QHuh7h0VDOM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=boWprABmeaU)
+
+<p class="clip-credit"><strong>The Dagestani Mount Escape | Jiu Jitsu for MMA</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=boWprABmeaU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

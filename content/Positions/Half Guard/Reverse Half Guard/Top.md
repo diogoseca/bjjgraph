@@ -21,37 +21,37 @@ description: "Master Reverse Half Guard Top in BJJ. Complete guide covering cont
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,35 +165,24 @@ description: "Master Reverse Half Guard Top in BJJ. Complete guide covering cont
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering a full inversion",
-      "description": "Reverse Half Guard (Top) film study: Countering a full inversion, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
+      "name": "3 Options from Top Reverse Half-Guard",
+      "description": "Reverse Half Guard (Top) film study: 3 Options from Top Reverse Half-Guard, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ykTaOFB2fTc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ykTaOFB2fTc",
+      "url": "https://www.youtube.com/watch?v=ykTaOFB2fTc",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT632S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Reverse half guard passing: shotgun pass",
-      "description": "Reverse Half Guard (Top) film study: Reverse half guard passing: shotgun pass, taught by The Base Jiu Jitsu.",
+      "name": "Jiu Jitsu Fundamentals - Reverse Half Guard Passing - Shotgun Pass",
+      "description": "Reverse Half Guard (Top) film study: Jiu Jitsu Fundamentals - Reverse Half Guard Passing - Shotgun Pass, taught by The Base Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4mHVpST5lLw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4mHVpST5lLw",
       "url": "https://www.youtube.com/watch?v=4mHVpST5lLw",
       "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
       "duration": "PT86S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "3 options from top reverse half guard",
-      "description": "Reverse Half Guard (Top) film study: 3 options from top reverse half guard, taught by MMA Leech.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ykTaOFB2fTc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ykTaOFB2fTc",
-      "url": "https://www.youtube.com/watch?v=ykTaOFB2fTc",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
-      "duration": "PT633S"
     }
   ]
 }
@@ -221,9 +210,9 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+![](https://www.youtube.com/watch?v=ykTaOFB2fTc)
 
-<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Options from Top Reverse Half-Guard</strong> — taught by MMA Leech · 10:32 · <a href="https://www.youtube.com/watch?v=ykTaOFB2fTc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -231,15 +220,7 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 ![](https://www.youtube.com/watch?v=4mHVpST5lLw)
 
-<p class="clip-credit"><strong>Reverse half guard passing: shotgun pass</strong> — taught by The Base Jiu Jitsu · 1:26 · <a href="https://www.youtube.com/watch?v=4mHVpST5lLw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ykTaOFB2fTc)
-
-<p class="clip-credit"><strong>3 options from top reverse half guard</strong> — taught by MMA Leech · 10:33 · <a href="https://www.youtube.com/watch?v=ykTaOFB2fTc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Fundamentals - Reverse Half Guard Passing - Shotgun Pass</strong> — taught by The Base Jiu Jitsu · 1:26 · <a href="https://www.youtube.com/watch?v=4mHVpST5lLw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -299,7 +280,7 @@ The reverse half guard top position represents a critical moment in passing sequ
 <p class="section-subtitle">What should you do from Reverse Half Guard (Top)?</p>
 
 **If opponent attempts to turn and face you by rotating their chest toward you:**
-- Execute **[[Transitions/Aoki Lock to Back Control/Attacker|Aoki Lock to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Backstep from Reverse Half/Attacker|Backstep from Reverse Half]]** → [[Positions/Back Control]] (Probability: 70%)
 - Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 60%)
 
 

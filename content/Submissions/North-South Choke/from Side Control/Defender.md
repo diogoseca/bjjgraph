@@ -154,24 +154,12 @@ description: "Complete defensive guide against the North-South Choke from Side C
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura escape from North South",
-      "description": "North-South Choke from Side Control (Defender) film study: Kimura escape from North South, taught by Street Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZT4QcOFksxs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZT4QcOFksxs",
-      "url": "https://www.youtube.com/watch?v=ZT4QcOFksxs",
-      "creator": { "@type": "Person", "name": "Street Jitsu" },
-      "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to escape North South",
-      "description": "North-South Choke from Side Control (Defender) film study: How to escape North South, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rmT52A--V3Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rmT52A--V3Q",
-      "url": "https://www.youtube.com/watch?v=rmT52A--V3Q",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT203S"
+      "name": "NORTH SOUTH CHOKE DEFENSE - Simple and Effective",
+      "description": "North-South Choke from Side Control (Defender) film study: NORTH SOUTH CHOKE DEFENSE - Simple and Effective.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CC8b5mR79OI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CC8b5mR79OI",
+      "url": "https://www.youtube.com/watch?v=CC8b5mR79OI",
+      "duration": "PT159S"
     }
   ]
 }
@@ -200,17 +188,9 @@ Defending against the North-South Choke from Side Control requires early recogni
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ZT4QcOFksxs)
+![](https://www.youtube.com/watch?v=CC8b5mR79OI)
 
-<p class="clip-credit"><strong>Kimura escape from North South</strong> — taught by Street Jitsu · 0:25 · <a href="https://www.youtube.com/watch?v=ZT4QcOFksxs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rmT52A--V3Q)
-
-<p class="clip-credit"><strong>How to escape North South</strong> — taught by Jon Thomas · 3:23 · <a href="https://www.youtube.com/watch?v=rmT52A--V3Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>NORTH SOUTH CHOKE DEFENSE - Simple and Effective</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=CC8b5mR79OI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

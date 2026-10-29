@@ -186,35 +186,12 @@ description: "How to execute the transition to feet on hips guard in BJJ. Step-b
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Foot on the hip guard control",
-      "description": "Open Guard to Feet on Hips Guard (Attacker) film study: Foot on the hip guard control, taught by BJJ House Okinawa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MUZyUFn6RC4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MUZyUFn6RC4",
-      "url": "https://www.youtube.com/watch?v=MUZyUFn6RC4",
-      "creator": { "@type": "Person", "name": "BJJ House Okinawa" },
-      "duration": "PT151S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Getting the feet on biceps and hips position",
-      "description": "Open Guard to Feet on Hips Guard (Attacker) film study: Getting the feet on biceps and hips position, taught by Ariel Tabak.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
-      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
-      "creator": { "@type": "Person", "name": "Ariel Tabak" },
-      "duration": "PT125S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Seated guard vs standing: distance control",
-      "description": "Open Guard to Feet on Hips Guard (Attacker) film study: Seated guard vs standing: distance control, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aomPFOrnW9g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aomPFOrnW9g",
-      "url": "https://www.youtube.com/watch?v=aomPFOrnW9g",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT393S"
+      "name": "[Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |\u2026",
+      "description": "Open Guard to Feet on Hips Guard (Attacker) film study: [Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yrU-DdcJBgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yrU-DdcJBgY",
+      "url": "https://www.youtube.com/watch?v=yrU-DdcJBgY",
+      "duration": "PT377S"
     }
   ]
 }
@@ -242,25 +219,9 @@ Executing the transition to feet on hips guard requires precise coordination of 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=MUZyUFn6RC4)
+![](https://www.youtube.com/watch?v=yrU-DdcJBgY)
 
-<p class="clip-credit"><strong>Foot on the hip guard control</strong> — taught by BJJ House Okinawa · 2:31 · <a href="https://www.youtube.com/watch?v=MUZyUFn6RC4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
-
-<p class="clip-credit"><strong>Getting the feet on biceps and hips position</strong> — taught by Ariel Tabak · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aomPFOrnW9g)
-
-<p class="clip-credit"><strong>Seated guard vs standing: distance control</strong> — taught by Brian Glick · 6:33 · <a href="https://www.youtube.com/watch?v=aomPFOrnW9g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>[Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |…</strong> · 6:17 · <a href="https://www.youtube.com/watch?v=yrU-DdcJBgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

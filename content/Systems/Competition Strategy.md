@@ -17,7 +17,7 @@ description: "The distinction between a developing repertoire and an event-speci
 <h1>Competition Game Plans</h1>
 <div class="system-tags"><span>Competition Strategy</span><span>Advanced</span></div>
 
-<p class="system-reference-count">17 related references (techniques and positions)</p>
+<p class="system-reference-count">16 related references (techniques and positions)</p>
 </header>
 
 
@@ -82,9 +82,6 @@ These related references are not a claim about what the course teaches or eviden
 
 
 - [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition)
-
-
-- [[Transitions/Back Take|Back Take]] (Transition)
 
 
 - [[Positions/Closed Guard|Closed Guard]] (Position)

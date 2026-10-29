@@ -4,7 +4,7 @@
 
 ---
 title: "Crackhead Control | BJJ Position Guide | BJJ Graph"
-description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-reward position combining deep overhook with extreme back exposure. Complete breakdown with safety protocols and entry mechanics."
+description: "Crackhead Control is a high rubber-guard clinch that reinforces Mission Control by bringing the second leg high behind the opponent's head, helping retain posture control while the arms remain inside."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-re
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control",
-  "description": "Master Crackhead Control in BJJ - 10th Planet\u0027s high-risk, high-reward position combining deep overhook with extreme back exposure. Complete breakdown with safety protocols and entry mechanics.",
+  "description": "Crackhead Control is a high rubber-guard clinch that reinforces Mission Control by bringing the second leg high behind the opponent\u0027s head, helping retain posture control while the arms remain inside.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,50 +36,6 @@ description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-re
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Crackhead Control \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Eddie Bravo Explains Rubber Guard",
-      "description": "Crackhead Control film study: Eddie Bravo Explains Rubber Guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
-      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT111S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Gag reflex from crackhead control",
-      "description": "Crackhead Control film study: Gag reflex from crackhead control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6grBGUO0fpM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6grBGUO0fpM",
-      "url": "https://www.youtube.com/watch?v=6grBGUO0fpM",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT159S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Crackhead control position demonstrated",
-      "description": "Crackhead Control film study: Crackhead control position demonstrated, taught by Joe Rogan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nIKiLl3mF0c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nIKiLl3mF0c",
-      "url": "https://www.youtube.com/watch?v=nIKiLl3mF0c",
-      "creator": { "@type": "Person", "name": "Joe Rogan" },
-      "duration": "PT36S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -87,7 +43,7 @@ description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-re
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Crackhead Control",
-  "description": "Crackhead Control is a high-risk 10th Planet rubber guard position where a deep overhook combined with a leg across the opponent's back breaks their posture, trading significant back exposure for dense gogoplata, omoplata, and triangle submission threats.",
+  "description": "Crackhead Control is a high rubber-guard clinch that reinforces Mission Control by bringing the second leg high behind the opponent's head, helping retain posture control while the arms remain inside.",
   "inDefinedTermSet": "https://bjjgraph.org/Positions/"
 }
 </script>
@@ -105,56 +61,20 @@ description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-re
 
 <section id="overview" class="content-section">
 
-**Crackhead Control is a high-risk 10th Planet rubber guard position where a deep overhook combined with a leg across the opponent's back breaks their posture, trading significant back exposure for dense gogoplata, omoplata, and triangle submission threats.**
+**Crackhead Control is a high rubber-guard clinch that reinforces Mission Control by bringing the second leg high behind the opponent's head, helping retain posture control while the arms remain inside.**
 
-Crackhead Control represents one of 10th Planet's most innovative and controversial positions within the 10th Planet guard system. This high-risk, high-reward configuration emerges from the Rubber Guard family when the practitioner achieves an exceptionally deep overhook on the opponent's arm while simultaneously controlling their posture with the leg. The position gets its distinctive name from the seemingly reckless commitment required - the bottom player exposes their back significantly while hunting for submissions, creating what appears to be a desperate or "cracked out" positioning strategy.
+The bottom player keeps the opponent close with a Mission Control leg and hand connection. The second leg rises high to reinforce the upper-body clinch behind the head. The opponent's arms remain inside and must still be managed before an arm-isolation attack. The bottom player adjusts from the hips while the top player works to recover posture and inside frames.
 
-The mechanical foundation of Crackhead Control centers on creating an asymmetric control structure where the bottom player's leg and deep overhook work synergistically to break the opponent's base and posture. Unlike traditional closed guard positions that prioritize safety and gradual advancement, Crackhead Control immediately puts both practitioners in a state of tactical tension. The bottom player gains exceptional access to submissions like the gogoplata, omoplata, and triangle variations, while simultaneously accepting considerable back exposure if the position fails.
+This is a facing guard configuration. Unlike the basic Invisible Collar path, it does not require first clearing an arm to the mat and clearing the neck; unlike Dead Orchard, it does not define a completed both-arm leg triangle. Terminology: Crackhead rubber-guard control.
 
-From a biomechanical perspective, Crackhead Control exploits the opponent's instinctive response to the deep overhook by forcing them to either commit weight forward (opening submission opportunities) or pull back (creating sweep opportunities). The position functions as a forcing mechanism - it doesn't allow the top player to remain neutral or conservative. This dilemma-creation principle, central to the 10th Planet systematic approach, makes Crackhead Control particularly effective against conservative players who prefer to wait for mistakes rather than engage offensively.
+Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
-The strategic value of Crackhead Control lies in its ability to rapidly transition between multiple submission threats without requiring the bottom player to release control and restart their offense. The deep overhook acts as an anchor point that remains constant even as the legs transition between different configurations - from triangle setups to omoplata entries to gogoplata attempts. This submission chain connectivity makes Crackhead Control particularly dangerous for opponents who successfully defend one attack, as they often transition directly into another threat without ever establishing safety.
+The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank.
 
-Energy economics in Crackhead Control favor the bottom player despite the seemingly precarious positioning. The top player must constantly address immediate submission threats while managing their trapped arm, creating a high cognitive and physical load. Meanwhile, the bottom player can cycle through submission attempts with relatively low energy expenditure, as the deep overhook maintains control without requiring constant grip fighting. This makes Crackhead Control sustainable for longer periods than its appearance might suggest, particularly for flexible practitioners who can maintain the position without excessive strain.
-
-The position's integration within the broader 10th Planet system provides multiple entry pathways and exit strategies. Practitioners can enter Crackhead Control from Mission Control, New York, or directly from closed guard when the opponent's posture breaks forward. Exit options include transitioning to Carni for gogoplata setups, moving to standard omoplata control, or releasing to standing positions if back attacks become imminent. This systematic connectivity ensures Crackhead Control functions not as an isolated technique but as a node within a comprehensive guard framework.
+Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplanetjj.com/techniques/mts-169-rubber-guard-the-pump/); [10th Planet Costa Mesa — basic path with double bagger](https://www.youtube.com/watch?v=W2OFKidf9lE).
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Crackhead Control in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
-
-<p class="clip-credit"><strong>Eddie Bravo Explains Rubber Guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6grBGUO0fpM)
-
-<p class="clip-credit"><strong>Gag reflex from crackhead control</strong> — taught by Eddie Bravo · 2:39 · <a href="https://www.youtube.com/watch?v=6grBGUO0fpM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nIKiLl3mF0c)
-
-<p class="clip-credit"><strong>Crackhead control position demonstrated</strong> — taught by Joe Rogan · 0:36 · <a href="https://www.youtube.com/watch?v=nIKiLl3mF0c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -162,19 +82,17 @@ The position's integration within the broader 10th Planet system provides multip
 ## Key Principles
 
 
-- Deep overhook must penetrate past opponent's shoulder blade to prevent arm extraction
+- Start with broken posture: Establish the first high leg and its hand support before adding the second leg.
 
-- Leg control across opponent's back maintains constant submission threat pressure
+- Bring the second leg high: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
-- Accept back exposure risk in exchange for immediate submission access
+- Track both elbows: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
-- Create forcing situations where opponent's defensive choices open different attacks
+- Keep knees close: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
 
-- Maintain hip mobility to transition between submission angles without releasing control
+- Return to one-leg control: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.
 
-- Use opponent's weight distribution to determine optimal submission selection
-
-- Never allow opponent to establish double underhooks - immediately transition or abandon position
+- Open against a stack: Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.
 
 
 </section>
@@ -188,12 +106,12 @@ The position's integration within the broader 10th Planet system provides multip
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive | Defensive with offensive options |
-| **Risk Level** | High | Medium to High |
-| **Energy Cost** | Medium | High |
-| **Time** | Medium | Short |
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | Medium to High | Medium to High |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Short to Medium |
 
-**Key Difference:** Deep overhook trades safety for submissions
+**Key Difference:** Two-leg reinforcement of Mission Control
 
 
 
@@ -209,67 +127,57 @@ The position's integration within the broader 10th Planet system provides multip
 ### Key Principles
 
 
-- Overhook depth determines position sustainability - shallow overhooks collapse under pressure
+- Start with broken posture: Establish the first high leg and its hand support before adding the second leg.
 
-- Leg across back must maintain constant downward pressure to prevent opponent posturing
+- Bring the second leg high: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
-- Monitor opponent's free arm position constantly - double underhooks signal immediate danger
+- Track both elbows: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
-- Hip angle adjustments create different submission entry opportunities without releasing control
+- Keep knees close: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
 
-- Transition aggressively between submissions when opponent defends - never return to neutral
+- Return to one-leg control: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.
 
-- Accept back exposure risk only when deep overhook remains secured and leg pressure maintained
-
-- Use opponent's weight shifts to determine which submission chain to pursue
+- Open against a stack: Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.
 
 
 ### Available Transitions
 
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (11% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (40% of attempts)
 
-- **[[Submissions/Omoplata/from Crackhead Control/Attacker|Omoplata from Crackhead Control]]** (12% of attempts)
+- **[[Transitions/Crackhead Control to Dead Orchard/Attacker|Crackhead Control to Dead Orchard]]** (25% of attempts)
 
-- **[[Submissions/Triangle Choke/from Crackhead Control/Attacker|Triangle Choke from Crackhead Control]]** (17% of attempts)
+- **[[Submissions/Baratoplata/from Crackhead Control/Attacker|Baratoplata from Crackhead Control]]** (5% of attempts)
 
-- **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (11% of attempts)
+- **[[Transitions/Crackhead Control to New York/Attacker|Crackhead Control to New York]]** (10% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (14% of attempts)
+- **[[Submissions/Omoplata/from Crackhead Control/Attacker|Omoplata from Crackhead Control]]** (10% of attempts)
 
-- **[[Submissions/Baratoplata/from Crackhead Control/Attacker|Baratoplata from Crackhead Control]]** (8% of attempts)
-
-- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (15% of attempts)
-
-- **[[Transitions/Crackhead Control to New York/Attacker|Crackhead Control to New York]]** (12% of attempts)
+- **[[Submissions/Triangle Choke/from Crackhead Control/Attacker|Triangle Choke from Crackhead Control]]** (10% of attempts)
 
 
 ### Common Mistakes
 
 
-- ❌ **Overhook too shallow - hand gripping at elbow rather than behind shoulder blade**
-  - Consequence: Opponent easily extracts arm by straightening it and posturing up, causing immediate position collapse and potential pass to side control
-  - ✅ Correction: Drive overhooking arm deeper until hand reaches behind opponent's shoulder blade or lat muscle. Elbow should point toward ceiling with forearm across opponent's back creating maximum control depth.
+- ❌ **Skipping the checkpoint: start with broken posture**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Establish the first high leg and its hand support before adding the second leg.
+  - ✅ Correction: Establish the first high leg and its hand support before adding the second leg.
 
-- ❌ **Leg across back applies insufficient downward pressure on opponent's neck/shoulders**
-  - Consequence: Opponent regains posture easily, negating submission threats and creating passing opportunities as bottom player remains extended
-  - ✅ Correction: Actively pull knee toward chest while maintaining shin pressure across opponent's upper back. The leg should feel like it's constantly dragging opponent's posture down rather than passively resting across their back.
+- ❌ **Skipping the checkpoint: bring the second leg high**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
+  - ✅ Correction: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
-- ❌ **Neglecting free leg positioning, allowing it to float or lose hip connection**
-  - Consequence: Opponent immediately begins passing toward back control as the bottom player has no mechanism to prevent hip rotation
-  - ✅ Correction: Free leg must maintain active connection through butterfly hook, posting on hip, or hooking behind opponent's leg. This leg is the primary back exposure prevention mechanism and must remain engaged constantly.
+- ❌ **Skipping the checkpoint: track both elbows**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
+  - ✅ Correction: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
-- ❌ **Remaining static in Crackhead Control rather than flowing between submission attempts**
-  - Consequence: Opponent escapes single submission threat and establishes defensive positioning, often leading to successful pass or back take
-  - ✅ Correction: Chain submissions continuously - when opponent defends omoplata, immediately transition to triangle or gogoplata. Never allow opponent to establish a defensive rest position.
+- ❌ **Skipping the checkpoint: keep knees close**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
+  - ✅ Correction: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
 
-- ❌ **Failing to recognize opponent achieving double underhooks and continuing to hunt submissions**
-  - Consequence: Opponent completes stack pass or back take with high probability as bottom player has no frames to prevent advancement
-  - ✅ Correction: Double underhooks by opponent signal critical danger - immediately abandon submission hunting and transition to closed guard or technical standup. This is a red-line defensive trigger that overrides offensive intentions.
-
-- ❌ **Insufficient hip flexibility causes excessive strain to maintain leg position across back**
-  - Consequence: Position becomes unsustainable due to physical discomfort, forcing early abandonment and loss of offensive momentum
-  - ✅ Correction: Develop specific hip flexor and external rotation flexibility through dedicated stretching. If flexibility insufficient, use Mission Control or New York instead until mobility improves.
+- ❌ **Skipping the checkpoint: return to one-leg control**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.
+  - ✅ Correction: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.
 
 
 </section>
@@ -284,63 +192,49 @@ The position's integration within the broader 10th Planet system provides multip
 ### Key Principles
 
 
-- Arm extraction must precede passing attempts - trapped arm severely limits passing mechanics
+- Keep the elbows compact: Avoid extending an arm between the high legs where it can be isolated.
 
-- Posture recovery requires systematic approach rather than explosive pulling against leg pressure
+- Recognize the reinforcement: A second leg climbing behind your head increases the posture-control problem.
 
-- Monitor bottom player's hip angle changes - these signal specific submission entries
+- Control the hip line early: Build a balanced base and an early hip frame before the high clinch closes.
 
-- Accept that defensive success against one submission often leads to different submission threat
+- Clear the upper enclosure: Undo the high-leg connection before attempting to stand tall or extract an arm.
 
-- Look for back exposure opportunities when bottom player commits aggressively to submissions
+- Keep a safe spine: Do not answer the clinch by driving the partner onto the neck.
 
-- Avoid driving excessive forward pressure - this triggers gogoplata and Carni transitions
-
-- Double underhooks provide strongest passing pathway but require patient establishment
+- Pass after release: Begin ordinary guard passing once the shoulders and arms are free of the high enclosure.
 
 
 ### Available Transitions
 
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (21% of attempts)
+- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (85% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (18% of attempts)
-
-- **[[Transitions/Double Underhook Pass/Attacker|Double Underhook Pass]]** (19% of attempts)
-
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
-
-- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (14% of attempts)
-
-- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (17% of attempts)
+- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (15% of attempts)
 
 
 ### Common Mistakes
 
 
-- ❌ **Explosively attempting to pull trapped arm out by straightening it against overhook pressure**
-  - Consequence: Arm extraction fails while creating perfect angle for omoplata entry, often leading to immediate submission threat or successful sweep
-  - ✅ Correction: Extract arm systematically by first establishing posture, then circling the trapped arm in small rotations while maintaining base. Combine arm circles with hip pressure to reduce overhook depth before attempting extraction.
+- ❌ **Skipping the checkpoint: keep the elbows compact**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Avoid extending an arm between the high legs where it can be isolated.
+  - ✅ Correction: Avoid extending an arm between the high legs where it can be isolated.
 
-- ❌ **Driving excessive forward pressure attempting to smash through position**
-  - Consequence: Bottom player transitions immediately to Carni or gogoplata setup, using the forward pressure to facilitate submission entries rather than defending against it
-  - ✅ Correction: Maintain moderate forward pressure sufficient to prevent bottom player from freely adjusting but insufficient to trigger gogoplata setups. Focus pressure through hips and chest rather than diving head forward.
+- ❌ **Skipping the checkpoint: recognize the reinforcement**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: A second leg climbing behind your head increases the posture-control problem.
+  - ✅ Correction: A second leg climbing behind your head increases the posture-control problem.
 
-- ❌ **Neglecting to monitor bottom player's free leg positioning and hip mobility**
-  - Consequence: Sweeps occur unexpectedly as top player focuses exclusively on trapped arm and submission defense while ignoring sweep mechanics
-  - ✅ Correction: Constantly assess bottom player's free leg location - butterfly hooks, posting on hip, or hooking behind leg all signal different sweep threats. Adjust base width and weight distribution based on sweep indicators.
+- ❌ **Skipping the checkpoint: control the hip line early**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Build a balanced base and an early hip frame before the high clinch closes.
+  - ✅ Correction: Build a balanced base and an early hip frame before the high clinch closes.
 
-- ❌ **Remaining static in defensive posture waiting for bottom player to make mistakes**
-  - Consequence: Bottom player freely cycles through submission attempts without pressure, eventually finding successful entry as top player provides no forcing mechanisms
-  - ✅ Correction: Continuously work toward either arm extraction, posture recovery, or back exposure opportunities. Passive defense allows bottom player to optimize their offense without time pressure or positional degradation.
+- ❌ **Skipping the checkpoint: clear the upper enclosure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Undo the high-leg connection before attempting to stand tall or extract an arm.
+  - ✅ Correction: Undo the high-leg connection before attempting to stand tall or extract an arm.
 
-- ❌ **Attempting to pass while arm remains deeply trapped in overhook**
-  - Consequence: Passing attempts fail completely as trapped arm cannot establish necessary grips or frames, while bottom player easily transitions between submission threats during failed passing attempts
-  - ✅ Correction: Prioritize arm extraction before serious passing attempts. Only exception is opportunistic back-take when bottom player overcommits to submissions creating immediate exposure.
-
-- ❌ **Panicking when submission threats appear and making large explosive movements**
-  - Consequence: Large movements create additional space and angles that bottom player exploits for submission entries or sweeps that wouldn't exist with controlled defensive movement
-  - ✅ Correction: Defend submissions with small, controlled adjustments rather than explosive escapes. Keep movements minimal and base wide to prevent creating the chaos that benefits bottom player's offense.
+- ❌ **Skipping the checkpoint: keep a safe spine**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Do not answer the clinch by driving the partner onto the neck.
+  - ✅ Correction: Do not answer the clinch by driving the partner onto the neck.
 
 
 </section>
@@ -351,21 +245,13 @@ The position's integration within the broader 10th Planet system provides multip
 ## Related Positions
 
 
-- **[[Positions/Rubber Guard/Mission Control]]** - Primary entry position - establishes initial rubber guard control before deepening overhook
+- **[[Positions/Rubber Guard/Mission Control]]** - Related position, not an automatic outcome: compare the configuration and required controls for Mission Control.
 
-- **[[Positions/Rubber Guard/New York]]** - Alternative entry point with slightly different angle and overhook depth
+- **[[Positions/Rubber Guard]]** - Related position, not an automatic outcome: compare the configuration and required controls for Rubber Guard.
 
-- **[[Positions/Rubber Guard/Carni]]** - Common transition target for gogoplata setups when opponent's posture breaks forward
+- **[[Positions/Rubber Guard/Invisible Collar]]** - Related position, not an automatic outcome: compare the configuration and required controls for Invisible Collar.
 
-- **[[Positions/Omoplata Control]]** - Natural progression when opponent attempts to extract trapped arm
-
-- **[[Positions/Triangle Control]]** - Alternative submission path when opponent defends omoplata by pulling arm back
-
-- **[[Positions/Rubber Guard]]** - Parent position family - shares fundamental principles of asymmetric control
-
-- **[[Positions/Back Control]]** - Critical defensive awareness - opponent's primary counter-attack target
-
-- **[[Positions/Closed Guard]]** - Fallback position if Crackhead Control fails or becomes untenable
+- **[[Positions/Dead Orchard Control]]** - Related position, not an automatic outcome: compare the configuration and required controls for Dead Orchard Control.
 
 
 </section>

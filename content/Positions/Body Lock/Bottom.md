@@ -165,35 +165,12 @@ description: "Defensive strategies and escape techniques when opponent has estab
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Body lock defense",
-      "description": "Body Lock (Bottom) film study: Body lock defense, taught by Peerless Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Di-fJ06DSq8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Di-fJ06DSq8",
-      "url": "https://www.youtube.com/watch?v=Di-fJ06DSq8",
-      "creator": { "@type": "Person", "name": "Peerless Jiu Jitsu" },
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Body lock counter and submission",
-      "description": "Body Lock (Bottom) film study: Body lock counter and submission, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZGgfRpUJvHU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZGgfRpUJvHU",
-      "url": "https://www.youtube.com/watch?v=ZGgfRpUJvHU",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Don\u0027t get squashed: body lock defense",
-      "description": "Body Lock (Bottom) film study: Don\u0027t get squashed: body lock defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/COMTE898ja8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/COMTE898ja8",
-      "url": "https://www.youtube.com/watch?v=COMTE898ja8",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT156S"
+      "name": "Standing Rear Body Lock: Counters, Attacks and Defense (No Gi\u2026",
+      "description": "Body Lock (Bottom) film study: Standing Rear Body Lock: Counters, Attacks and Defense (No Gi\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
+      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
+      "duration": "PT318S"
     }
   ]
 }
@@ -223,25 +200,9 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Di-fJ06DSq8)
+![](https://www.youtube.com/watch?v=DFXdqByRxNg)
 
-<p class="clip-credit"><strong>Body lock defense</strong> — taught by Peerless Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=Di-fJ06DSq8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZGgfRpUJvHU)
-
-<p class="clip-credit"><strong>Body lock counter and submission</strong> — taught by Craig Jones · 1:54 · <a href="https://www.youtube.com/watch?v=ZGgfRpUJvHU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=COMTE898ja8)
-
-<p class="clip-credit"><strong>Don&#39;t get squashed: body lock defense</strong> — taught by Craig Jones · 2:36 · <a href="https://www.youtube.com/watch?v=COMTE898ja8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing Rear Body Lock: Counters, Attacks and Defense (No Gi…</strong> · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -437,7 +398,7 @@ Partner maintains body lock while you chain together multiple escape attempts: g
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria: No-Gi Pressure Passing</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Body Lock.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Power Ride: Craig Jones’s Pinning System</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position: Body Lock.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

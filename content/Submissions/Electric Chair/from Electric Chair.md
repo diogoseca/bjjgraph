@@ -46,46 +46,12 @@ description: "Master the Electric Chair in BJJ. Complete lockdown submission gui
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Electric Chair from Lockdown Half Guard",
-      "description": "Electric Chair from Electric Chair film study: Electric Chair from Lockdown Half Guard, taught by Brandon Mccaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
-      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Electric Chair",
-      "description": "Electric Chair from Electric Chair film study: Electric Chair, taught by bjjtaro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/I8HLek9eCbg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/I8HLek9eCbg",
-      "url": "https://www.youtube.com/watch?v=I8HLek9eCbg",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
-      "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Electric Chair Submission",
-      "description": "Electric Chair from Electric Chair film study: Electric Chair Submission, taught by Dan M..",
-      "thumbnailUrl": "https://i.ytimg.com/vi/X7JA72d-3vw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/X7JA72d-3vw",
-      "url": "https://www.youtube.com/watch?v=X7JA72d-3vw",
-      "creator": { "@type": "Person", "name": "Dan M." },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Electric Chair Submission",
-      "description": "Electric Chair from Electric Chair film study: Electric Chair Submission, taught by Panacea BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pIoiYLBb_Vg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pIoiYLBb_Vg",
-      "url": "https://www.youtube.com/watch?v=pIoiYLBb_Vg",
-      "creator": { "@type": "Person", "name": "Panacea BJJ" },
-      "duration": "PT76S"
+      "name": "Eddie Bravo Technique: How to do the Electric Chair submission",
+      "description": "Electric Chair from Electric Chair film study: Eddie Bravo Technique: How to do the Electric Chair submission.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mpy_9vGEbeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mpy_9vGEbeE",
+      "url": "https://www.youtube.com/watch?v=Mpy_9vGEbeE",
+      "duration": "PT117S"
     }
   ]
 }
@@ -148,33 +114,9 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
+![](https://www.youtube.com/watch?v=Mpy_9vGEbeE)
 
-<p class="clip-credit"><strong>Electric Chair from Lockdown Half Guard</strong> — taught by Brandon Mccaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=I8HLek9eCbg)
-
-<p class="clip-credit"><strong>Electric Chair</strong> — taught by bjjtaro · 0:25 · <a href="https://www.youtube.com/watch?v=I8HLek9eCbg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=X7JA72d-3vw)
-
-<p class="clip-credit"><strong>Electric Chair Submission</strong> — taught by Dan M. · 0:55 · <a href="https://www.youtube.com/watch?v=X7JA72d-3vw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pIoiYLBb_Vg)
-
-<p class="clip-credit"><strong>Electric Chair Submission</strong> — taught by Panacea BJJ · 1:16 · <a href="https://www.youtube.com/watch?v=pIoiYLBb_Vg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Eddie Bravo Technique: How to do the Electric Chair submission</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=Mpy_9vGEbeE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,35 +46,24 @@ description: "Master armbar control in BJJ from both offensive and defensive per
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roger Gracie armbars",
-      "description": "Armbar Control film study: Roger Gracie armbars, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT102S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Straight armbar from guard",
-      "description": "Armbar Control film study: Straight armbar from guard, taught by Gracie Charlottesville.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/I8f9wkX7n4Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/I8f9wkX7n4Y",
-      "url": "https://www.youtube.com/watch?v=I8f9wkX7n4Y",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
-      "duration": "PT30S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Relson Gracie teaches the armbar",
-      "description": "Armbar Control film study: Relson Gracie teaches the armbar, taught by Relson Gracie.",
+      "name": "Relson Gracie teaches armbar at Balance Studios in Philadelphia",
+      "description": "Armbar Control film study: Relson Gracie teaches armbar at Balance Studios in Philadelphia, taught by Relson Gracie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R2-h9yOwRdU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R2-h9yOwRdU",
       "url": "https://www.youtube.com/watch?v=R2-h9yOwRdU",
       "creator": { "@type": "Person", "name": "Relson Gracie" },
-      "duration": "PT72S"
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville",
+      "description": "Armbar Control film study: Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8f9wkX7n4Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I8f9wkX7n4Y",
+      "url": "https://www.youtube.com/watch?v=I8f9wkX7n4Y",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT29S"
     }
   ]
 }
@@ -129,9 +118,9 @@ From the bottom, survival depends on understanding the same five-point control s
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+![](https://www.youtube.com/watch?v=R2-h9yOwRdU)
 
-<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Relson Gracie teaches armbar at Balance Studios in Philadelphia</strong> — taught by Relson Gracie · 1:11 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -139,15 +128,7 @@ From the bottom, survival depends on understanding the same five-point control s
 
 ![](https://www.youtube.com/watch?v=I8f9wkX7n4Y)
 
-<p class="clip-credit"><strong>Straight armbar from guard</strong> — taught by Gracie Charlottesville · 0:30 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R2-h9yOwRdU)
-
-<p class="clip-credit"><strong>Relson Gracie teaches the armbar</strong> — taught by Relson Gracie · 1:12 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville</strong> — taught by Gracie Charlottesville · 0:29 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,21 +206,19 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (18% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (20% of attempts)
+- **[[Transitions/Armbar Defense/Attacker|Armbar Defense]]** (14% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (17% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
 
-- **[[Transitions/Hitchhiker Escape from Armbar/Attacker|Hitchhiker Escape from Armbar]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (9% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (8% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (8% of attempts)
+- **[[Transitions/Hitchhiker Escape from Armbar/Attacker|Hitchhiker Escape from Armbar]]** (14% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (7% of attempts)
-
-- **[[Transitions/Armbar Defense/Attacker|Armbar Defense]]** (13% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (22% of attempts)
 
 
 ### Common Mistakes

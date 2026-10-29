@@ -188,23 +188,11 @@ description: "Step-by-step guide to executing the calf slicer from twister side 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twister Side Attacks",
-      "description": "Calf Slicer from Twister Side Control (Attacker) film study: Twister Side Attacks, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
-      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Twister Side Control to Calf Crank",
-      "description": "Calf Slicer from Twister Side Control (Attacker) film study: Twister Side Control to Calf Crank, taught by Fenrir Thorvaldsen.",
+      "description": "Calf Slicer from Twister Side Control (Attacker) film study: Twister Side Control to Calf Crank.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9awAompYTpM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9awAompYTpM",
       "url": "https://www.youtube.com/watch?v=9awAompYTpM",
-      "creator": { "@type": "Person", "name": "Fenrir Thorvaldsen" },
       "duration": "PT109S"
     }
   ]
@@ -234,17 +222,9 @@ Executing the calf slicer from twister side control leverages the position's inh
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=odT3-cVWXdc)
-
-<p class="clip-credit"><strong>Twister Side Attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=9awAompYTpM)
 
-<p class="clip-credit"><strong>Twister Side Control to Calf Crank</strong> — taught by Fenrir Thorvaldsen · 1:49 · <a href="https://www.youtube.com/watch?v=9awAompYTpM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister Side Control to Calf Crank</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=9awAompYTpM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

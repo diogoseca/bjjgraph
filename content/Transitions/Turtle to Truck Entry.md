@@ -46,34 +46,11 @@ description: "Learn the Turtle to Truck Entry in BJJ. Step-by-step hook insertio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The truck in transition from turtle",
-      "description": "Turtle to Truck Entry film study: The truck in transition from turtle, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
-      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Truck back take against a stubborn turtle",
-      "description": "Turtle to Truck Entry film study: Truck back take against a stubborn turtle, taught by Patrick Donabedian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XLvbK52hzqM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XLvbK52hzqM",
-      "url": "https://www.youtube.com/watch?v=XLvbK52hzqM",
-      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Turtle series: truck entry breakdown",
-      "description": "Turtle to Truck Entry film study: Turtle series: truck entry breakdown, taught by Courage Training Centre.",
+      "name": "TURTLE SERIES - TRUCK ENTRY",
+      "description": "Turtle to Truck Entry film study: TURTLE SERIES - TRUCK ENTRY.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yGkKdnPksik/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yGkKdnPksik",
       "url": "https://www.youtube.com/watch?v=yGkKdnPksik",
-      "creator": { "@type": "Person", "name": "Courage Training Centre" },
       "duration": "PT109S"
     }
   ]
@@ -128,25 +105,9 @@ The Turtle to Truck Entry is a gateway to the entire Twister submission system. 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
-
-<p class="clip-credit"><strong>The truck in transition from turtle</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XLvbK52hzqM)
-
-<p class="clip-credit"><strong>Truck back take against a stubborn turtle</strong> — taught by Patrick Donabedian · 1:03 · <a href="https://www.youtube.com/watch?v=XLvbK52hzqM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=yGkKdnPksik)
 
-<p class="clip-credit"><strong>Turtle series: truck entry breakdown</strong> — taught by Courage Training Centre · 1:49 · <a href="https://www.youtube.com/watch?v=yGkKdnPksik" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TURTLE SERIES - TRUCK ENTRY</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=yGkKdnPksik" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -328,8 +289,6 @@ The Turtle to Truck Entry serves as the critical gateway between conventional tu
 - [[Submissions/Calf Slicer]] - Follow-up submission available after successful entry
 
 - [[Submissions/Banana Split]] - Follow-up submission accessible from consolidated Truck
-
-- [[Transitions/Roll to Truck]] - Alternative entry - dynamic rolling variation to same position
 
 - [[Positions/Crab Ride]] - Related position - alternative leg-based control from turtle top
 

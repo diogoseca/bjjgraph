@@ -517,30 +517,11 @@
     "clips": [
       {
         "id": "Wgnw31_o3kk",
-        "title": "Defending and removing butterfly hooks",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
+        "title": "Defending Butterfly Hooks",
         "channel": "Kohbukan Sisu",
         "duration": 58,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "xqkFPzJTspk",
-        "title": "Removing butterfly hooks",
-        "by": "SBG PDX",
         "vertical": false,
-        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-        "duration": 122,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "LIITsrlsAaI",
-        "title": "Passing half butterfly guard",
-        "by": "Morto BJJ",
-        "vertical": false,
-        "channel": "Morto BJJ",
-        "duration": 70,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -767,66 +748,24 @@
     },
     "transitions": [
       {
-        "transition": "Butterfly Sweep",
+        "transition": "Arm Drag Sweep",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 16
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 13
         }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Hook Sweep",
-        "attempt_probability": {
-          "gi": 10,
+          "gi": 9,
           "nogi": 9
-        }
-      },
-      {
-        "transition": "Elevator Sweep",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Guillotine Choke from Butterfly Guard",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Deep Half Entry",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Single Leg X Entry",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Butterfly Sweep with Guillotine",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 4
         }
       },
       {
@@ -837,10 +776,17 @@
         }
       },
       {
-        "transition": "Kimura Sweep",
+        "transition": "Butterfly Hook Sweep",
         "attempt_probability": {
           "gi": 4,
           "nogi": 4
+        }
+      },
+      {
+        "transition": "Butterfly Sweep",
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 17
         }
       },
       {
@@ -851,21 +797,35 @@
         }
       },
       {
-        "transition": "John Wayne Sweep",
+        "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
-        "transition": "Arm Drag Sweep",
+        "transition": "Elevator Sweep",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
-        "transition": "Butterfly Hook Sweep",
+        "transition": "Guillotine Choke from Butterfly Guard",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Hook Sweep",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Kimura Sweep",
         "attempt_probability": {
           "gi": 4,
           "nogi": 4
@@ -876,6 +836,13 @@
         "attempt_probability": {
           "gi": 4,
           "nogi": 4
+        }
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 12
         }
       }
     ],
@@ -995,31 +962,11 @@
     ],
     "clips": [
       {
-        "id": "sJfkAL95S9k",
-        "title": "2-on-1 lift to back from butterfly",
-        "by": "Lorenz Sadychow",
-        "vertical": true,
-        "channel": "Systematic Jiu-Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "mJyjWNGm_XE",
-        "title": "The hook sweep in 5 steps",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 31,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "4CW6mPgx4C0",
-        "title": "Reverse hook sweep to Hart roll",
-        "by": "Hart Jiu Jitsu",
-        "vertical": false,
-        "channel": "Hart Jiu Jitsu",
-        "duration": 48,
-        "verified": "2026-07-14"
+        "id": "SIyEqd4PrvI",
+        "title": "White Belt Basics - Butterfly Guard",
+        "channel": "JeanJacquesMachado",
+        "duration": 291,
+        "front": true
       }
     ]
   },
@@ -1123,33 +1070,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "OQCEokRYP4c",
-      "title": "Butterfly guard highlights",
-      "by": "Forge Forward",
-      "vertical": false,
-      "channel": "Forge Forward",
-      "duration": 78,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ywB6TEyjyRM",
-      "title": "Butterfly sweep on hip, one hook",
-      "by": "Nine Nine Jiu Jitsu",
-      "vertical": false,
-      "channel": "Nine Nine Jiu Jitsu",
-      "duration": 58,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "c8JBXJMc0Oc",
-      "title": "Marcelo Garcia butterfly sweep",
-      "by": "Marcelo Garcia",
-      "vertical": false,
-      "channel": "Butterfly The World",
-      "duration": 81,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

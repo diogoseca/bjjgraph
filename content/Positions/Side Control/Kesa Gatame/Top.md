@@ -166,24 +166,12 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "12 Kesa Gatame Attacks",
-      "description": "Kesa Gatame (Top) film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
-      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
-      "duration": "PT88S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Armbar from Kesa Gatame (Scarf Hold)",
-      "description": "Kesa Gatame (Top) film study: Armbar from Kesa Gatame (Scarf Hold), taught by Jiu-jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wxD6LV1GARg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wxD6LV1GARg",
-      "url": "https://www.youtube.com/watch?v=wxD6LV1GARg",
-      "creator": { "@type": "Person", "name": "Jiu-jitsu" },
-      "duration": "PT68S"
+      "name": "Kesa Gatame - Basic Scarf Hold",
+      "description": "Kesa Gatame (Top) film study: Kesa Gatame - Basic Scarf Hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
+      "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
+      "duration": "PT120S"
     }
   ]
 }
@@ -218,17 +206,9 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+![](https://www.youtube.com/watch?v=TfNpVcekHGg)
 
-<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=wxD6LV1GARg)
-
-<p class="clip-credit"><strong>Armbar from Kesa Gatame (Scarf Hold)</strong> — taught by Jiu-jitsu · 1:08 · <a href="https://www.youtube.com/watch?v=wxD6LV1GARg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame - Basic Scarf Hold</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

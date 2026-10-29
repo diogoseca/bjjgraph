@@ -166,24 +166,12 @@ description: "How to defend and counter the Bridge and Roll escape from mount in
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Why your upa mount escape fails",
-      "description": "Bridge and Roll (Defender) film study: Why your upa mount escape fails, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IgYot9fcBh0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IgYot9fcBh0",
-      "url": "https://www.youtube.com/watch?v=IgYot9fcBh0",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT310S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Why the bridge and roll escape fails",
-      "description": "Bridge and Roll (Defender) film study: Why the bridge and roll escape fails, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ly8voPPzYaU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ly8voPPzYaU",
-      "url": "https://www.youtube.com/watch?v=Ly8voPPzYaU",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT85S"
+      "name": "maintaining mount - preventing the bridge escape",
+      "description": "Bridge and Roll (Defender) film study: maintaining mount - preventing the bridge escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0dzzXGjWKWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0dzzXGjWKWI",
+      "url": "https://www.youtube.com/watch?v=0dzzXGjWKWI",
+      "duration": "PT337S"
     }
   ]
 }
@@ -211,17 +199,9 @@ Defending the Bridge and Roll from the top mount position requires understanding
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=IgYot9fcBh0)
+![](https://www.youtube.com/watch?v=0dzzXGjWKWI)
 
-<p class="clip-credit"><strong>Why your upa mount escape fails</strong> — taught by Jean Jacques Machado · 5:10 · <a href="https://www.youtube.com/watch?v=IgYot9fcBh0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ly8voPPzYaU)
-
-<p class="clip-credit"><strong>Why the bridge and roll escape fails</strong> — taught by Henry Akins · 1:25 · <a href="https://www.youtube.com/watch?v=Ly8voPPzYaU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>maintaining mount - preventing the bridge escape</strong> · 5:37 · <a href="https://www.youtube.com/watch?v=0dzzXGjWKWI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -192,24 +192,12 @@ description: "Learn to execute the Knee on Belly to Mount transition. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee on belly to mount transition",
-      "description": "KOB to Mount (Attacker) film study: Knee on belly to mount transition, taught by Tom Dinklage.",
+      "name": "knee on belly to mount",
+      "description": "KOB to Mount (Attacker) film study: knee on belly to mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HNo-y8SJlgY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HNo-y8SJlgY",
       "url": "https://www.youtube.com/watch?v=HNo-y8SJlgY",
-      "creator": { "@type": "Person", "name": "Tom Dinklage" },
-      "duration": "PT133S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee on belly transition drill",
-      "description": "KOB to Mount (Attacker) film study: Knee on belly transition drill, taught by 301 MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yhqs-dPzjN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yhqs-dPzjN0",
-      "url": "https://www.youtube.com/watch?v=yhqs-dPzjN0",
-      "creator": { "@type": "Person", "name": "301 MMA" },
-      "duration": "PT55S"
+      "duration": "PT132S"
     }
   ]
 }
@@ -239,15 +227,7 @@ The KOB to Mount transition from the attacker's perspective requires coordinatin
 
 ![](https://www.youtube.com/watch?v=HNo-y8SJlgY)
 
-<p class="clip-credit"><strong>Knee on belly to mount transition</strong> — taught by Tom Dinklage · 2:13 · <a href="https://www.youtube.com/watch?v=HNo-y8SJlgY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yhqs-dPzjN0)
-
-<p class="clip-credit"><strong>Knee on belly transition drill</strong> — taught by 301 MMA · 0:55 · <a href="https://www.youtube.com/watch?v=yhqs-dPzjN0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>knee on belly to mount</strong> · 2:12 · <a href="https://www.youtube.com/watch?v=HNo-y8SJlgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,24 +46,12 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Modified darce choke from turtle (no-gi)",
-      "description": "Darce from Turtle film study: Modified darce choke from turtle (no-gi), taught by Simple JiuJitsu coach.",
+      "name": "Modified Darce Choke from Turtle in No Gi Jiu Jitsu!  \ud83d\udc4c\ud83d\udc4c\ud83d\udc4c",
+      "description": "Darce from Turtle film study: Modified Darce Choke from Turtle in No Gi Jiu Jitsu!  \ud83d\udc4c\ud83d\udc4c\ud83d\udc4c.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7F4Torh--7E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7F4Torh--7E",
       "url": "https://www.youtube.com/watch?v=7F4Torh--7E",
-      "creator": { "@type": "Person", "name": "Simple JiuJitsu coach" },
       "duration": "PT127S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Gator roll into the darce choke",
-      "description": "Darce from Turtle film study: Gator roll into the darce choke, taught by Applied Pressure MMA coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_9WioKiPqDY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_9WioKiPqDY",
-      "url": "https://www.youtube.com/watch?v=_9WioKiPqDY",
-      "creator": { "@type": "Person", "name": "Applied Pressure MMA coach" },
-      "duration": "PT83S"
     }
   ]
 }
@@ -119,15 +107,7 @@ This submission setup has become a staple in the arsenals of high-level competit
 
 ![](https://www.youtube.com/watch?v=7F4Torh--7E)
 
-<p class="clip-credit"><strong>Modified darce choke from turtle (no-gi)</strong> — taught by Simple JiuJitsu coach · 2:07 · <a href="https://www.youtube.com/watch?v=7F4Torh--7E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_9WioKiPqDY)
-
-<p class="clip-credit"><strong>Gator roll into the darce choke</strong> — taught by Applied Pressure MMA coach · 1:23 · <a href="https://www.youtube.com/watch?v=_9WioKiPqDY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Modified Darce Choke from Turtle in No Gi Jiu Jitsu!  👌👌👌</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=7F4Torh--7E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -320,8 +300,6 @@ The Darce from turtle is a cornerstone technique in the modern front headlock su
 - [[Transitions/Front Headlock to Darce]] - Systematic entry method from front headlock
 
 - [[Transitions/Anaconda Choke]] - Sister technique with mirror-image arm threading mechanics
-
-- [[Transitions/Back Take from Top]] - Positional alternative when submission attacks are defended
 
 
 </section>

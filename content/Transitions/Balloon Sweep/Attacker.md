@@ -187,33 +187,20 @@ description: "How to execute the Balloon Sweep from Closed Guard in BJJ. Attacki
       "@type": "VideoObject",
       "position": 1,
       "name": "Balloon Sweep",
-      "description": "Balloon Sweep (Attacker) film study: Balloon Sweep, taught by bjjtaro.",
+      "description": "Balloon Sweep (Attacker) film study: Balloon Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OLGUxB9k7B0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OLGUxB9k7B0",
       "url": "https://www.youtube.com/watch?v=OLGUxB9k7B0",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
       "duration": "PT16S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Butterfly Balloon Sweep",
-      "description": "Balloon Sweep (Attacker) film study: Butterfly Balloon Sweep, taught by AlphaBroadcast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/x9wqr8IP_zM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/x9wqr8IP_zM",
-      "url": "https://www.youtube.com/watch?v=x9wqr8IP_zM",
-      "creator": { "@type": "Person", "name": "AlphaBroadcast" },
-      "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Balloon Sweep from Closed Guard",
-      "description": "Balloon Sweep (Attacker) film study: Balloon Sweep from Closed Guard, taught by Christian Uflacker.",
+      "name": "Balloon Sweep | Christian \" Xaropinho \" Uflacker",
+      "description": "Balloon Sweep (Attacker) film study: Balloon Sweep | Christian \" Xaropinho \" Uflacker.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7jlI3VexQyw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7jlI3VexQyw",
       "url": "https://www.youtube.com/watch?v=7jlI3VexQyw",
-      "creator": { "@type": "Person", "name": "Christian Uflacker" },
       "duration": "PT101S"
     }
   ]
@@ -244,15 +231,7 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 
 ![](https://www.youtube.com/watch?v=OLGUxB9k7B0)
 
-<p class="clip-credit"><strong>Balloon Sweep</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=OLGUxB9k7B0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=x9wqr8IP_zM)
-
-<p class="clip-credit"><strong>Butterfly Balloon Sweep</strong> — taught by AlphaBroadcast · 1:27 · <a href="https://www.youtube.com/watch?v=x9wqr8IP_zM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Balloon Sweep</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=OLGUxB9k7B0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +239,7 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 
 ![](https://www.youtube.com/watch?v=7jlI3VexQyw)
 
-<p class="clip-credit"><strong>Balloon Sweep from Closed Guard</strong> — taught by Christian Uflacker · 1:41 · <a href="https://www.youtube.com/watch?v=7jlI3VexQyw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Balloon Sweep | Christian &#34; Xaropinho &#34; Uflacker</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=7jlI3VexQyw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -430,7 +409,7 @@ When practicing the Balloon Sweep, ensure controlled execution during the explos
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

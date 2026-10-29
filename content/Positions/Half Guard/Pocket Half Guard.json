@@ -448,26 +448,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Xf8_An46qiw",
-        "title": "Passing low half guard to near-side underhook",
-        "by": "Michael Hoffman",
-        "vertical": false,
-        "channel": "Michael Hoffman",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "YLPNsyHtREs",
-        "title": "Monitoring the feet while passing guard",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Michael Wong",
-        "duration": 50,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Pocket Half Guard Bottom",
@@ -679,11 +660,6 @@
             "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 60
-          },
-          {
-            "technique": "Roll to Truck",
-            "target": "Truck",
-            "probability": 55
           }
         ]
       }
@@ -855,35 +831,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "X3M6JUqr1Bo",
-        "title": "Roger windmill half guard sweep",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 16,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "kw8cs6soC8M",
-        "title": "Forcing Half Guard: Clearing the Line of Feet",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 88,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "9Z9TSmFppbM",
-        "title": "Half Guard Entries to Switch Base",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 70,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -985,24 +933,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "q_ND-09HiWg",
-      "title": "Knee shield half guard basics",
-      "by": "MMA Leech",
-      "vertical": false,
-      "channel": "MMA Leech",
-      "duration": 264,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "UPMEXkyqHGc",
-      "title": "Knee shield pocket sweep",
-      "by": "Great Grappling",
-      "vertical": false,
-      "channel": "Great Grappling",
-      "duration": 322,
-      "verified": "2026-07-15"
-    }
-  ]
+  "clips": []
 }

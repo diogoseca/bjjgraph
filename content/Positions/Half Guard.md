@@ -46,35 +46,13 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Half Guard to the Dogfight",
-      "description": "Half Guard film study: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
+      "name": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
+      "description": "Half Guard film study: The Base BJJ Technique of the Week: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
       "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
       "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
       "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Black X Sweep from Half Guard",
-      "description": "Half Guard film study: Black X Sweep from Half Guard, taught by Bruno Bastos.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N_NGkZs9I-M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N_NGkZs9I-M",
-      "url": "https://www.youtube.com/watch?v=N_NGkZs9I-M",
-      "creator": { "@type": "Person", "name": "Bruno Bastos" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Octopus Half Guard Sweep",
-      "description": "Half Guard film study: Octopus Half Guard Sweep, taught by Khabib Nurmagomedov.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/llsV9Gn_usg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/llsV9Gn_usg",
-      "url": "https://www.youtube.com/watch?v=llsV9Gn_usg",
-      "creator": { "@type": "Person", "name": "Khabib Nurmagomedov" },
-      "duration": "PT61S"
     }
   ]
 }
@@ -129,23 +107,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 ![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
 
-<p class="clip-credit"><strong>Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=N_NGkZs9I-M)
-
-<p class="clip-credit"><strong>Black X Sweep from Half Guard</strong> — taught by Bruno Bastos · 1:01 · <a href="https://www.youtube.com/watch?v=N_NGkZs9I-M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=llsV9Gn_usg)
-
-<p class="clip-credit"><strong>Octopus Half Guard Sweep</strong> — taught by Khabib Nurmagomedov · 1:01 · <a href="https://www.youtube.com/watch?v=llsV9Gn_usg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Base BJJ Technique of the Week: Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -210,7 +172,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - Maintain constant frames to prevent opponent's chest from connecting to your chest - create and preserve distance through knee shield, underhook, or forearm frames
 
-- Battle aggressively for the underhook on the trapped leg side as it provides primary offensive pathway to sweeps and back takes
+- Battle aggressively for the underhook on the trapped leg side as it provides primary offensive pathway to sweeps and back takes. In this example, the narrator describes Roosevelt in half guard preventing his opponent from controlling his head and spine, then threading his top elbow through to a deep reverse underhook that keeps the octopus guard entry available. Narration: [FloGrappling, 3:52.4–4:33.44](https://www.youtube.com/watch?v=idoCRB1ewqw&t=232s).
 
 - Keep hips mobile and angled rather than flat on back - being on your side allows hip escape, angle creation, and sweep entries
 
@@ -220,25 +182,25 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - Protect against the cross-face and underhook from top player which lead to flattening and eventual pass to side control or mount
 
-- Transition between half guard variations based on opponent's pressure and positioning to maintain offensive options
+- Transition between half guard variations based on opponent's pressure and positioning to maintain offensive options. In this example, the narrator describes Tommy taking pressure in half guard, entering octopus guard, posting on his hand, and using his left foot to bridge into his opponent; as the opponent struggles to keep balance, Tommy starts entering the legs. Narration: [FloGrappling, 8:33.2–8:58.08](https://www.youtube.com/watch?v=idoCRB1ewqw&t=513s).
 
 
 ### Available Transitions
 
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (12% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (11% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (8% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (7% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (12% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (11% of attempts)
 
 - **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (7% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
 - **[[Transitions/Knee Torque Sweep/Attacker|Knee Torque Sweep]]** (1% of attempts)
 
@@ -265,6 +227,8 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Submissions/Kimura/from Half Guard/Attacker|Kimura from Half Guard]]** (5% of attempts)
 
 - **[[Transitions/Half Guard to Kimura Trap/Attacker|Half Guard to Kimura Trap]]** (5% of attempts)
+
+- **[[Transitions/John Wayne Sweep/Attacker|John Wayne Sweep]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -309,9 +273,9 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - Establish and maintain effective upper body control through crossface, underhook, or head control to limit opponent's mobility and offensive capabilities
 
-- Distribute weight strategically to control opponent's hips while maintaining base against sweep attempts and back take entries
+- Distribute weight strategically to control opponent's hips while maintaining base against sweep attempts and back take entries. In this example, the narrator favors lower hips when passing a smaller opponent with a crafty guard, but more distance from a much heavier opponent. He frames both choices as ways to keep the bottom player flat, while cautioning that close contact can invite a bridge and too much distance can allow guard recovery. Narration: [Less Impressed More Involved BJJ, 2:34.86–3:21.12](https://www.youtube.com/watch?v=XGBHXO-EMk0&t=154s).
 
-- Control opponent's bottom knee to prevent them from creating angles or inserting additional frames that enable guard recovery
+- Control opponent's bottom knee to prevent them from creating angles or inserting additional frames that enable guard recovery. In the narrated half-guard example, the guard player's knee recovers beneath the passer's forearm frame at the hip. As that hip frame loses its effect, the passer redirects the arm frame the guard player has just established. Narration: [Less Impressed More Involved BJJ, 0:38–1:00.4](https://www.youtube.com/watch?v=gtRIw-60Yzk&t=38s). In this example, the narrator offers the top player an option from smashed half guard: square back up to the opponent and keep the elbow in the inside space while moving to the other side, so the opponent cannot reinsert a knee shield. Narration: [Less Impressed More Involved BJJ, 6:03.24–6:18.38](https://www.youtube.com/watch?v=eKVzL5kmijk&t=363s).
 
 - Progress methodically through passing stages: stabilization, isolation, extraction, completion rather than rushing to free trapped leg
 
@@ -329,7 +293,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (13% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (14% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (7% of attempts)
 
@@ -357,13 +321,11 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Submissions/Loop Choke/from Half Guard/Attacker|Loop Choke from Half Guard]]** (gi only)
 
-- **[[Submissions/Suloev Stretch/from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (2% of attempts)
-
 - **[[Transitions/Half Guard to Leg Weave/Attacker|Half Guard to Leg Weave]]** (2% of attempts)
 
 - **[[Transitions/Half Guard Whizzer Counter/Attacker|Half Guard Whizzer Counter]]** (4% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (11% of attempts)
 
 - **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (3% of attempts)
 
@@ -432,15 +394,15 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position: Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Twister and Truck Entries</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Rubber Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Half Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position: Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Tom DeBlass: The Lockdown Blueprint</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Preparation with Matt D’Aquino</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position: Half Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura — Enter The System</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

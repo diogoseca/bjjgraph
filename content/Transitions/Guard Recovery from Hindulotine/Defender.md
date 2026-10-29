@@ -150,39 +150,6 @@ description: "Prevent guard recovery from Hindulotine as the top player in BJJ. 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Guard Recovery from Hindulotine (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Denying straight-arm guard retention while passing",
-      "description": "Guard Recovery from Hindulotine (Defender) film study: Denying straight-arm guard retention while passing, taught by Cameron Florczak.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UoJul9UvRao/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UoJul9UvRao",
-      "url": "https://www.youtube.com/watch?v=UoJul9UvRao",
-      "creator": { "@type": "Person", "name": "Cameron Florczak" },
-      "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Countering the full inversion recovery",
-      "description": "Guard Recovery from Hindulotine (Defender) film study: Countering the full inversion recovery, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,32 +162,6 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Guard Recovery from Hindulotine (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=UoJul9UvRao)
-
-<p class="clip-credit"><strong>Denying straight-arm guard retention while passing</strong> — taught by Cameron Florczak · 1:06 · <a href="https://www.youtube.com/watch?v=UoJul9UvRao" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
-
-<p class="clip-credit"><strong>Countering the full inversion recovery</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -262,7 +203,7 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 ### 1. Circle rapidly toward the bottom player's exposed back side before hip realignment completes, advancing past their guard structure to side control or back control
 
 - **When to use**: Immediately when the Hindulotine grip releases and before the bottom player establishes a knee shield on the exposed flank
-- **Targets**: [[Positions/Side Control]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You advance to side control on the exposed flank with the bottom player's guard completely bypassed, consolidating with crossface and underhook
 - **Risk**: If the bottom player reads the circling movement early and establishes the knee shield, you may end up stuck against their strongest guard angle
 
@@ -276,7 +217,7 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 ### 3. Drive heavy crossface pressure toward the exposed side to flatten the bottom player and collapse their frame structure during the grip transition
 
 - **When to use**: When the bottom player has released the Hindulotine but has not yet established leg barriers or completed grip conversion
-- **Targets**: [[Positions/Side Control]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You flatten the bottom player and consolidate side control before they can establish any guard structure
 - **Risk**: If the bottom player still has partial Hindulotine grip control, driving into them may allow them to re-lock the choke
 
@@ -297,7 +238,7 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 
 <p class="section-subtitle">What is the best outcome when defending Guard Recovery from Hindulotine?</p>
 
-### → [[Positions/Side Control]]
+### → [[Positions/Open Guard]]
 
 Circle to the exposed back side during the grip transition window before the bottom player completes hip realignment, driving crossface pressure to flatten their structure and consolidating side control with underhook and crossface
 

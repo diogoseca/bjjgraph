@@ -46,24 +46,13 @@ description: "Master Technical Mount in BJJ. Advanced mount variation with stepp
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Technical mount attacks overview",
-      "description": "Technical Mount film study: Technical mount attacks overview, taught by Soma Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pa4Aj431Yds/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pa4Aj431Yds",
-      "url": "https://www.youtube.com/watch?v=pa4Aj431Yds",
-      "creator": { "@type": "Person", "name": "Soma Academy" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Getting to technical mount from mount",
-      "description": "Technical Mount film study: Getting to technical mount from mount, taught by Danny Fung.",
+      "name": "Position Mount a\u0300 Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ",
+      "description": "Technical Mount film study: Position Mount a\u0300 Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ, taught by Danny Fung.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pNp2-2-r2Ec/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pNp2-2-r2Ec",
       "url": "https://www.youtube.com/watch?v=pNp2-2-r2Ec",
       "creator": { "@type": "Person", "name": "Danny Fung" },
-      "duration": "PT175S"
+      "duration": "PT174S"
     }
   ]
 }
@@ -114,17 +103,9 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pa4Aj431Yds)
-
-<p class="clip-credit"><strong>Technical mount attacks overview</strong> — taught by Soma Academy · 1:50 · <a href="https://www.youtube.com/watch?v=pa4Aj431Yds" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=pNp2-2-r2Ec)
 
-<p class="clip-credit"><strong>Getting to technical mount from mount</strong> — taught by Danny Fung · 2:55 · <a href="https://www.youtube.com/watch?v=pNp2-2-r2Ec" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Position Mount à Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ</strong> — taught by Danny Fung · 2:54 · <a href="https://www.youtube.com/watch?v=pNp2-2-r2Ec" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -273,21 +254,19 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Submissions/Armbar/from Technical Mount/Attacker|Armbar from Technical Mount]]** (14% of attempts)
+- **[[Submissions/Armbar/from Technical Mount/Attacker|Armbar from Technical Mount]]** (17% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (19% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (16% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (13% of attempts)
+- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (14% of attempts)
 
-- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (11% of attempts)
+- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (21% of attempts)
 
-- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (17% of attempts)
+- **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (14% of attempts)
 
-- **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (11% of attempts)
+- **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (11% of attempts)
 
-- **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (9% of attempts)
-
-- **[[Submissions/Americana/from Technical Mount/Attacker|Americana from Technical Mount]]** (6% of attempts)
+- **[[Submissions/Americana/from Technical Mount/Attacker|Americana from Technical Mount]]** (7% of attempts)
 
 
 ### Common Mistakes

@@ -447,31 +447,12 @@
     ],
     "clips": [
       {
-        "id": "PSgn9TBgwfc",
-        "title": "Side Guard to Te Gatame Arm Triangle",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 77,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8An-33URyYk",
-        "title": "How to Arm Triangle from Side Control",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 57,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "eid4RdAQ4gI",
-        "title": "Arm Triangle from Side Control No-Gi",
-        "by": "Ludus Dome",
-        "vertical": false,
+        "title": "Arm triangle from side control - NO GI",
         "channel": "Ludus Dome",
         "duration": 36,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -662,31 +643,26 @@
     ],
     "clips": [
       {
-        "id": "D2vkZGTD78I",
-        "title": "The Fastest Escape Out of the Arm Triangle",
-        "by": "Adam Bradley",
+        "id": "Fx6qjR6a_xE",
+        "title": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
+        "channel": "MMA Leech",
+        "duration": 273,
         "vertical": false,
-        "channel": "Adam Bradley",
-        "duration": 31,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "n_2zR6BaF8A",
-        "title": "The Best Arm-Triangle Escape",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 58,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "Jxd9UkmU5Co",
-        "title": "How to Escape the Head & Arm Triangle",
-        "by": "Malachy Friedman",
-        "vertical": false,
+        "title": "How to Escape the Head & Arm Triangle in Jiu Jitsu for all you Whiners",
         "channel": "Malachy Friedman",
-        "duration": 83,
-        "verified": "2026-07-14"
+        "duration": 82,
+        "vertical": false
+      },
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out Of The Arm Triangle",
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "vertical": false
       }
     ]
   }

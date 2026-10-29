@@ -162,24 +162,12 @@ description: "Defend against the omoplata from Russian Leg Lasso. Recognition cu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Best Way to Escape the Omoplata Shoulder Lock",
-      "description": "Omoplata from Russian Leg Lasso (Defender) film study: Best Way to Escape the Omoplata Shoulder Lock, taught by John Connors.",
+      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+      "description": "Omoplata from Russian Leg Lasso (Defender) film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
       "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
-      "creator": { "@type": "Person", "name": "John Connors" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending the Omoplata Sweep",
-      "description": "Omoplata from Russian Leg Lasso (Defender) film study: Defending the Omoplata Sweep, taught by Ninja Pinto.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y4TxL4mDSKg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Y4TxL4mDSKg",
-      "url": "https://www.youtube.com/watch?v=Y4TxL4mDSKg",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
-      "duration": "PT47S"
+      "duration": "PT61S"
     }
   ]
 }
@@ -210,15 +198,7 @@ Defending the omoplata from Russian Leg Lasso requires recognizing the attack ea
 
 ![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
 
-<p class="clip-credit"><strong>Best Way to Escape the Omoplata Shoulder Lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Y4TxL4mDSKg)
-
-<p class="clip-credit"><strong>Defending the Omoplata Sweep</strong> — taught by Ninja Pinto · 0:47 · <a href="https://www.youtube.com/watch?v=Y4TxL4mDSKg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -1,3 +1,4 @@
+// v1.230.0 integration: the live-catch face is renderLandCard; panic remains its surface ID.
 /* @hyperspace {"theme":"unlock-economy","L":"white-belt-holder","F":"defense-panic","B":"cross-feature"} @invariant "Panic-drill grading and lesson drilling share one prep ledger: grading the panic card during a caught defense increments prep[escape deckKey] by exactly 1 and cardsToday by exactly 1 alongside escape_odds_pumped — defense reps are real study credit, not a parallel currency." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
@@ -5,7 +6,7 @@ import { whiteBeltHolder } from "./personas"
 
 /**
  * PANIC GRADE = STUDY CREDIT — defense drilling is not a parallel currency. Grading the drill
- * (`buildPanicCard`, neural/src/app.src.jsx — cited by symbol; the ~line numbers this header
+ * (`renderLandCard (defense)`, neural/src/app.src.jsx — cited by symbol; the ~line numbers this header
  * carried had drifted ~11,000 lines) routes through the SAME ledger lesson drilling uses:
  * prep[panicKey] += 1, then noteCardDone(card, panicKey), then fx("escape_odds_pumped").
  * Since v1.135.0 (0c4fbc53d) the drill is MULTIPLE CHOICE when its pool is warm, and the
@@ -61,13 +62,21 @@ test("caught → panic grade credits the shared study ledger (prep +1, cardsToda
   }
   await j.advanceUntil("caught", 20000)
 
-  // panic surface up; the opened beat names the SAME deck the ledger is about to credit
-  await expect(page.locator("[data-panic]"), "inline panic drill visible when caught").toBeVisible()
-  const pk: string = await page.evaluate(() => (window as any).__neural._panicKey)
+  // Shared defense face up; the live question names the deck the ledger will credit.
+  await expect(page.locator("[data-landcard=defense]"), "inline panic drill visible when caught").toBeVisible()
+  await j.decksSettled()
+  await expect(page.locator("[data-landcard=defense] [data-land-q]")).toBeVisible()
+  const pk: string = await page.evaluate(() => (window as any).__neural._landQ.key)
   expect(pk, "panic drill resolved a real deck key").toBeTruthy()
   const opened = (await j.beats()).filter((b: any) => b.beat === "panic_drill_opened") as any[]
   expect(opened.length, "one defense → one panic_drill_opened").toBe(1)
-  expect(opened[0].deck_key, "opened beat names the credited deck").toBe(pk)
+  // _panicKey freezes odds residency at entry and may be null while the Defender
+  // chunk is cold. The mounted question, not that frozen field, owns grade identity.
+  expect(await page.evaluate(() => (window as any).__neural._landMode)).toBe("defense")
+  expect(pk, "the live catch grades its authored Defender deck").toBe(await page.evaluate(() => {
+    const a = (window as any).__neural
+    return a.defendKeyFor(a.nodes[a._defendSub])
+  }))
 
   // ── ledger snapshot BEFORE the grade (pk pinned: both reads use the same key) ──
   const before = await page.evaluate((k: string) => {
@@ -89,19 +98,20 @@ test("caught → panic grade credits the shared study ledger (prep +1, cardsToda
   //    guidance-defense / panic-card adopted in that commit. ──
   const mcCorrect = await page.evaluate(() => {
     const a = (window as any).__neural
-    const card = document.querySelector("[data-panic]")
+    const card = document.querySelector("[data-landcard=defense]")
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic"
       ? a._mc.correct
       : null
   })
   if (mcCorrect != null) {
-    await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
+    await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
+    await j.clickByMouse(`[data-panic-mc-opt="${mcCorrect}"]`, "Grade the defender question")
   } else {
-    await page.locator("[data-panic-reveal]").click()
-    await page.locator("[data-panic-got]").click()
+    await j.clickByMouse("[data-panic-reveal]", "Reveal the defender answer")
+    await j.clickByMouse("[data-panic-got]", "Grade the defender answer")
   }
 
-  // AFTER-snapshot NOW — _panicKey survives grading but dies on pick/finish, and
+  // AFTER-snapshot NOW, against the exact mounted question key captured before grading.
   // escapeOddsSnapshot needs the live defense (_defendSub/_optList) to read at all
   const after = await page.evaluate((k: string) => {
     const a = (window as any).__neural

@@ -21,7 +21,7 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "HowToStep",
       "name": "Execute S-Mount Transition",
-      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 13% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 26% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 30% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from 3-4 Mount",
       "text": "From this position, attempt Cross Collar Choke from 3-4 Mount. This technique exists in the gi ruleset only; it does not occur in no-gi.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute 3-4 Mount to S Mount",
+      "text": "From this position, attempt 3-4 Mount to S Mount. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -155,39 +155,6 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "3-4 Mount (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "S-Mount top troubleshooting",
-      "description": "3-4 Mount (Top) film study: S-Mount top troubleshooting, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2Xm_mLp8xwk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2Xm_mLp8xwk",
-      "url": "https://www.youtube.com/watch?v=2Xm_mLp8xwk",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Switch-side armbar from S-Mount",
-      "description": "3-4 Mount (Top) film study: Switch-side armbar from S-Mount, taught by Darrin Lillian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5UtNLw7usQk",
-      "url": "https://www.youtube.com/watch?v=5UtNLw7usQk",
-      "creator": { "@type": "Person", "name": "Darrin Lillian" },
-      "duration": "PT50S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -202,32 +169,6 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch 3-4 Mount (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
-
-<p class="clip-credit"><strong>S-Mount top troubleshooting</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5UtNLw7usQk)
-
-<p class="clip-credit"><strong>Switch-side armbar from S-Mount</strong> — taught by Darrin Lillian · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -296,7 +237,6 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 
 **Else if opponent turns away from posted leg or exposes their back during escape attempt:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
 - Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
 

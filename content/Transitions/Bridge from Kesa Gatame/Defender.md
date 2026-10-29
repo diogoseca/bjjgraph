@@ -142,28 +142,6 @@ description: "Defend against the bridge-and-roll reversal from scarf hold top in
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Bridge from Kesa Gatame (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Keeping the pin when they bridge",
-      "description": "Bridge from Kesa Gatame (Defender) film study: Keeping the pin when they bridge, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GBBqXE3VKFA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GBBqXE3VKFA",
-      "url": "https://www.youtube.com/watch?v=GBBqXE3VKFA",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT257S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,24 +154,6 @@ Defending against the bridge-and-roll reversal from scarf hold requires the top 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Bridge from Kesa Gatame (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GBBqXE3VKFA)
-
-<p class="clip-credit"><strong>Keeping the pin when they bridge</strong> — taught by Shintaro Higashi · 4:17 · <a href="https://www.youtube.com/watch?v=GBBqXE3VKFA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -46,19 +46,8 @@ description: "Master standing back control in BJJ. Strategic guide covering when
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Back Control",
-      "description": "Standing Back Control film study: Standing Back Control, taught by JFLOJUDO.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K2Q1qg-cjTc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K2Q1qg-cjTc",
-      "url": "https://www.youtube.com/watch?v=K2Q1qg-cjTc",
-      "creator": { "@type": "Person", "name": "JFLOJUDO" },
-      "duration": "PT58S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Mat Return from Standing Back Control",
-      "description": "Standing Back Control film study: Mat Return from Standing Back Control, taught by William Abreu.",
+      "name": "Mat Return: BJJ takedowns from standing Back Control.",
+      "description": "Standing Back Control film study: Mat Return: BJJ takedowns from standing Back Control., taught by William Abreu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HWrsepCcaUk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HWrsepCcaUk",
       "url": "https://www.youtube.com/watch?v=HWrsepCcaUk",
@@ -116,17 +105,9 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=K2Q1qg-cjTc)
-
-<p class="clip-credit"><strong>Standing Back Control</strong> — taught by JFLOJUDO · 0:58 · <a href="https://www.youtube.com/watch?v=K2Q1qg-cjTc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=HWrsepCcaUk)
 
-<p class="clip-credit"><strong>Mat Return from Standing Back Control</strong> — taught by William Abreu · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mat Return: BJJ takedowns from standing Back Control.</strong> — taught by William Abreu · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

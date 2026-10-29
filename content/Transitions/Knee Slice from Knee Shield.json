@@ -391,21 +391,11 @@
     "clips": [
       {
         "id": "yj_6xcl2emA",
-        "title": "Inside knee cut through the knee shield",
-        "by": "War Room Jiu Jitsu",
-        "vertical": false,
+        "title": "How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class…",
         "channel": "War Room Jiu Jitsu",
         "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "j9DDQ_bkLVA",
-        "title": "Knee slice pass fundamentals",
-        "by": "Marra Senki Jiujitsu",
         "vertical": false,
-        "channel": "Marra Senki Jiujitsu",
-        "duration": 60,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -589,34 +579,6 @@
         "description": "Full resistance positional sparring starting in knee shield half guard. Passer attempts any pass, defender must retain guard or sweep within 90 seconds. Track success rates across multiple rounds. Identify which defensive reactions still fail under pressure and refine them. Aim for 60%+ successful defense rate before considering the skill developed."
       }
     ],
-    "clips": [
-      {
-        "id": "Da5PAZooedU",
-        "title": "Knee slice defense and counter",
-        "by": "A Day In A Life",
-        "vertical": false,
-        "channel": "A DAY IN A LIFE",
-        "duration": 86,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lrhHIF4AwVc",
-        "title": "Knee cut pass defense to one leg X sweep",
-        "by": "Edson Oliveira",
-        "vertical": false,
-        "channel": "Edson Oliveira",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "QGNL-sCrxnE",
-        "title": "Retaining the knee shield against the knee cut",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 112,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

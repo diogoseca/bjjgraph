@@ -36,39 +36,6 @@ description: "Master Leg Knot position in BJJ. Advanced leg entanglement creatin
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Leg Knot \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Leg entanglement transitions overview",
-      "description": "Leg Knot film study: Leg entanglement transitions overview, taught by Clever Combat.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FVVBFlEjhVc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FVVBFlEjhVc",
-      "url": "https://www.youtube.com/watch?v=FVVBFlEjhVc",
-      "creator": { "@type": "Person", "name": "Clever Combat" },
-      "duration": "PT133S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg entanglement control drill",
-      "description": "Leg Knot film study: Leg entanglement control drill, taught by Training Grounds.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2QDZMqBV2kQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2QDZMqBV2kQ",
-      "url": "https://www.youtube.com/watch?v=2QDZMqBV2kQ",
-      "creator": { "@type": "Person", "name": "Training Grounds" },
-      "duration": "PT33S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -104,32 +71,6 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Leg Knot in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FVVBFlEjhVc)
-
-<p class="clip-credit"><strong>Leg entanglement transitions overview</strong> — taught by Clever Combat · 2:13 · <a href="https://www.youtube.com/watch?v=FVVBFlEjhVc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2QDZMqBV2kQ)
-
-<p class="clip-credit"><strong>Leg entanglement control drill</strong> — taught by Training Grounds · 0:33 · <a href="https://www.youtube.com/watch?v=2QDZMqBV2kQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

@@ -4,7 +4,7 @@
 
 ---
 title: "Posture Recovery from Carni Attacker | BJJ Technique Guide | BJJ Graph"
-description: "Complete guide to executing posture recovery from Carni in BJJ. Step-by-step stacking technique with grip control, forward pressure, and systematic escape to closed guard."
+description: "Posture Recovery from Carni (attacker): A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control."
 ---
 
 
@@ -20,45 +20,39 @@ description: "Complete guide to executing posture recovery from Carni in BJJ. St
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Secure ankle position",
-      "text": "Before any movement, confirm your trapped leg's ankle is flexed with toes pointed away from the attacker. Use your same-side hand to control your own ankle if necessary, creating a physical barrier against heel hook attempts during the recovery sequence.",
+      "name": "Recognize the upper-body trap",
+      "text": "A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Establish hip frame",
-      "text": "Place your free hand against the opponent's far hip or ribcage, creating a frame that will serve as the anchor point for your forward driving pressure. This frame prevents the opponent from pulling you into their guard while giving you a stable structure to push against during the stacking motion.",
+      "name": "Protect the captured limb",
+      "text": "Avoid reaching away while the opponent sets the triceps control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Begin forward pressure",
-      "text": "Drive your hips forward and begin walking your knees toward the opponent's head, generating steady pressure that collapses the space between your bodies. The forward drive should come primarily from hip extension rather than arm pushing, creating structural pressure that the opponent cannot easily redirect or use against you.",
+      "name": "Work before pressure engages",
+      "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Strip heel grip",
-      "text": "As forward pressure increases, use your free hand to systematically strip the opponent's grip on your heel and ankle. Peel their controlling hand off your foot by attacking the weakest part of their grip, typically the fingers or the gap between thumb and fingers. Timing this grip break with your forward pressure makes it significantly more effective.",
+      "name": "Open the high enclosure",
+      "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Stack through guard",
-      "text": "Continue driving forward until your chest makes contact with the opponent's torso, folding them onto their shoulders. This stacking position eliminates all effective heel hook angles and collapses the leg entanglement structure. Keep your weight distributed through your chest and hips rather than your arms to maintain maximum pressure.",
+      "name": "Recover the elbow and posture",
+      "text": "Withdraw the shoulder and elbow only after the high leg connection has opened.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Extract trapped leg",
-      "text": "With the opponent compressed under your stack, begin extracting your trapped leg by straightening it backward and pumping it free from the loosened entanglement. Use small, controlled movements rather than explosive pulls, as jerky extraction can re-expose your heel to attack if the opponent maintains partial grip.",
+      "name": "Confirm the next position",
+      "text": "Establish upright posture with the shoulder free only when the upper-body enclosure and relevant leg hooks have cleared.",
       "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish closed guard top",
-      "text": "As your leg clears the entanglement, immediately establish proper closed guard top posture with hands on the opponent's hips, spine straight, and head elevated. The opponent will typically close their guard around your waist to retain control. Accept this position and begin working standard closed guard top escape sequences from relative safety.",
-      "position": 7
     }
   ],
   "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
@@ -74,50 +68,50 @@ description: "Complete guide to executing posture recovery from Carni in BJJ. St
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "From Carni top, what must you do before applying forward pressure in posture recovery?",
+      "name": "Posture Recovery from Carni (top): Which structure must be freed before you lift the chest?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You must first secure your ankle position by flexing the ankle with toes pointed away from the attacker and ensuring the opponent's heel grip is at least partially disrupted. Initiating forward pressure before protecting the heel creates a perfect finishing angle for the heel hook as the forward movement extends the trapped leg, dramatically increasing submission risk during what should be an escape sequence."
+        "text": "Carni threatens the shoulder; free the triceps and head-side leg connection before raising posture."
       }
     },
     {
       "@type": "Question",
-      "name": "Why should forward pressure come from hip extension rather than arm pushing?",
+      "name": "Posture Recovery from Carni (top): Where should the elbow stay before triceps control closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hip extension generates structural pressure that is difficult to redirect, whereas arm-based pushing extends the arms into vulnerable positions where they can be isolated for attacks. Additionally, hip-driven pressure maintains your chest close to the opponent's body which eliminates heel hook angles, while pushing with arms creates space between torsos that the opponent can exploit for re-establishing offensive positioning."
+        "text": "Keep the elbow compact early rather than reaching into the developing shoulder clamp."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins inverting as you drive forward with stacking pressure - how do you respond?",
+      "name": "Posture Recovery from Carni (top): What forms an inside barrier before the shoulder clamp closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Accelerate your forward drive and pin the opponent's hips to the mat with heavy chest-to-chest pressure to prevent the inversion from completing. If you can keep their hips pinned, they cannot rotate underneath to re-establish their leg entanglement. The key is recognizing the inversion attempt early and immediately increasing downward pressure rather than pausing, which gives them the space to complete the rotation."
+        "text": "Use early inside frames while the shoulder can still move; a completed shoulder lock requires release."
       }
     },
     {
       "@type": "Question",
-      "name": "When is the optimal timing window to initiate posture recovery from Carni?",
+      "name": "Posture Recovery from Carni (top): How do you move while creating slack around the clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal window is during the brief transition moments when the bottom player is switching between attack sequences, for example when they release heel grip pressure to reposition for a saddle entry or when they are adjusting their inside leg hook. These transitions create momentary looseness in the entanglement that makes forward pressure significantly more effective. Attempting posture recovery when the opponent has fully established tight control with active heel grip is much lower percentage."
+        "text": "Keep the head and captured arm aligned while opening space at the hip and thigh, rather than twisting through the clamp."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between posture recovery and explosive leg extraction from Carni?",
+      "name": "Posture Recovery from Carni (top): When should the elbow withdraw from the high leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Posture recovery uses controlled, steady forward pressure to systematically collapse the entanglement structure before extracting the leg, while explosive extraction attempts to rip the leg free through speed and power. Explosive extraction creates angular changes that the bottom player can exploit for saddle transitions and back takes, and risks self-injury if the knee torques against remaining hooks. Posture recovery is slower but significantly safer and more reliable."
+        "text": "Free the upper-body connection before withdrawing the shoulder and elbow together."
       }
     },
     {
       "@type": "Question",
-      "name": "Recovering posture from Carni, they thread the inside leg deeper for the saddle — what adjustment?",
+      "name": "Posture Recovery from Carni (top): What confirms successful posture recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately halt forward pressure and retract your hip away from the opponent's inside leg to prevent them from completing the saddle hook. Establish crossface pressure with your upper body to control their head and shoulders, then use your free leg to block or clear their threading hook. Only resume forward pressure once the saddle entry has been successfully defended and the original Carni configuration is restored."
+        "text": "Posture recovery requires actual shoulder release, not merely getting the head higher."
       }
     }
   ]
@@ -130,7 +124,7 @@ description: "Complete guide to executing posture recovery from Carni in BJJ. St
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Posture Recovery from Carni Attacker",
-  "description": "Complete guide to executing posture recovery from Carni in BJJ. Step-by-step stacking technique with grip control, forward pressure, and systematic escape to closed guard.",
+  "description": "Posture Recovery from Carni (attacker): A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -215,7 +209,15 @@ description: "Complete guide to executing posture recovery from Carni in BJJ. St
 
 <section id="overview" class="content-section">
 
-As the top player caught in Carni, executing posture recovery requires a disciplined, sequential approach that prioritizes safety while generating the forward pressure needed to collapse the bottom player's leg entanglement structure. The technique begins with securing your heel from immediate attack, then transitions to establishing upper body frames that allow you to drive forward into the bottom player's guard. Unlike explosive escape attempts that create the angular changes your opponent needs for saddle entries or back takes, posture recovery uses steady, controlled pressure that systematically eliminates the bottom player's offensive options until they are forced to abandon the leg attack and re-establish closed guard. This methodical approach makes it one of the safest escape paths from Carni, particularly valuable when other higher-percentage escapes have been shut down.
+The top player faces a bottom guard player using Carni; the head, shoulder or arm may still be enclosed. Carni attacks the shoulder. A Saddle counter or lower-leg extraction is not implied by the configuration.
+
+A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+
+Create slack at the hip and thigh while keeping the head and captured arm aligned. Withdraw the shoulder and elbow only after the high leg connection has opened. Establish upright posture with the shoulder free only when the upper-body enclosure and relevant leg hooks have cleared.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+The early escape is from a rotational lock at the shoulder. Open the triceps and head-side-leg clamp before raising posture or moving the hips; lifting against the trapped arm can increase the very rotation you need to remove.
 
 **From Position**: [[Positions/Rubber Guard/Carni]] (Top)
 
@@ -255,12 +257,12 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 <p class="section-subtitle">What are the key principles for executing Posture Recovery from Carni?</p>
 
-- Protect the heel first before initiating any forward pressure to prevent submission during transition
-- Generate forward drive through hip extension rather than pushing with arms to maintain structural integrity
-- Collapse the space between your chest and opponent's torso to eliminate heel hook angles
-- Break opponent's ankle and heel grips systematically before committing to the stack
-- Maintain constant forward pressure once initiated to prevent opponent from re-establishing offensive angles
-- Use controlled breathing and patience rather than explosive movement to conserve energy during recovery
+- Recognize the upper-body trap: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+- Protect the captured limb: Avoid reaching away while the opponent sets the triceps control.
+- Work before pressure engages: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+- Open the high enclosure: Create slack at the hip and thigh while keeping the head and captured arm aligned.
+- Recover the elbow and posture: Withdraw the shoulder and elbow only after the high leg connection has opened.
+- Confirm the next position: Establish upright posture with the shoulder free only when the upper-body enclosure and relevant leg hooks have cleared.
 
 
 </section>
@@ -271,11 +273,10 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 <p class="section-subtitle">What do you need before attempting Posture Recovery from Carni?</p>
 
-- Heel must be protected with ankle flexed and toes pointed away from attacker before initiating forward pressure
-- At least one hand must be free to establish frames against opponent's hips or torso
-- Sufficient base through free leg to generate forward driving pressure without losing balance
-- Opponent's heel grip must be loosened or partially broken to reduce submission risk during stacking motion
-- Recognition that opponent is between attack transitions creating a brief window for forward pressure
+- The top player faces a bottom guard player using Carni; the head, shoulder or arm may still be enclosed.
+- A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+- Avoid reaching away while the opponent sets the triceps control.
+- Carni attacks the shoulder. A Saddle counter or lower-leg extraction is not implied by the configuration.
 
 
 </section>
@@ -286,13 +287,12 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 <p class="section-subtitle">How do you execute Posture Recovery from Carni step by step?</p>
 
-1. **Secure ankle position**: Before any movement, confirm your trapped leg's ankle is flexed with toes pointed away from the attacker. Use your same-side hand to control your own ankle if necessary, creating a physical barrier against heel hook attempts during the recovery sequence.
-2. **Establish hip frame**: Place your free hand against the opponent's far hip or ribcage, creating a frame that will serve as the anchor point for your forward driving pressure. This frame prevents the opponent from pulling you into their guard while giving you a stable structure to push against during the stacking motion.
-3. **Begin forward pressure**: Drive your hips forward and begin walking your knees toward the opponent's head, generating steady pressure that collapses the space between your bodies. The forward drive should come primarily from hip extension rather than arm pushing, creating structural pressure that the opponent cannot easily redirect or use against you.
-4. **Strip heel grip**: As forward pressure increases, use your free hand to systematically strip the opponent's grip on your heel and ankle. Peel their controlling hand off your foot by attacking the weakest part of their grip, typically the fingers or the gap between thumb and fingers. Timing this grip break with your forward pressure makes it significantly more effective.
-5. **Stack through guard**: Continue driving forward until your chest makes contact with the opponent's torso, folding them onto their shoulders. This stacking position eliminates all effective heel hook angles and collapses the leg entanglement structure. Keep your weight distributed through your chest and hips rather than your arms to maintain maximum pressure.
-6. **Extract trapped leg**: With the opponent compressed under your stack, begin extracting your trapped leg by straightening it backward and pumping it free from the loosened entanglement. Use small, controlled movements rather than explosive pulls, as jerky extraction can re-expose your heel to attack if the opponent maintains partial grip.
-7. **Establish closed guard top**: As your leg clears the entanglement, immediately establish proper closed guard top posture with hands on the opponent's hips, spine straight, and head elevated. The opponent will typically close their guard around your waist to retain control. Accept this position and begin working standard closed guard top escape sequences from relative safety.
+1. **Recognize the upper-body trap**: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+2. **Protect the captured limb**: Avoid reaching away while the opponent sets the triceps control.
+3. **Work before pressure engages**: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+4. **Open the high enclosure**: Create slack at the hip and thigh while keeping the head and captured arm aligned.
+5. **Recover the elbow and posture**: Withdraw the shoulder and elbow only after the high leg connection has opened.
+6. **Confirm the next position**: Establish upright posture with the shoulder free only when the upper-body enclosure and relevant leg hooks have cleared.
 
 
 </section>
@@ -303,9 +303,9 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 50% |
-| Failure | [[Positions/Rubber Guard/Carni]] | 30% |
-| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Rubber Guard/Carni]] | 65% |
 
 
 </section>
@@ -316,10 +316,10 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 <p class="section-subtitle">How might your opponent counter Posture Recovery from Carni?</p>
 
-- **Opponent inverts and re-establishes leg entanglement during forward pressure** (Effectiveness: High) - Your Response: Maintain heavy chest-to-chest pressure and pin opponent's hips to prevent inversion. If they begin inverting, accelerate your forward drive to compress them before they can re-establish hooks. → Leads to [[Positions/Rubber Guard/Carni]]
-- **Opponent transitions to saddle as you drive forward by threading their inside leg deeper** (Effectiveness: High) - Your Response: Immediately stop forward pressure and retract hip away from opponent's inside leg. Establish crossface pressure and use your free leg to block their saddle entry hook before resuming extraction. → Leads to [[Positions/Ashi Garami/Saddle]]
-- **Opponent releases entanglement but immediately pulls you into tight closed guard with collar control** (Effectiveness: Medium) - Your Response: Accept the closed guard position as a significant improvement over Carni. Immediately establish strong posture and begin standard closed guard opening sequences. → Leads to [[Positions/Closed Guard]]
-- **Opponent uses your forward pressure to create angle for back take by rolling underneath** (Effectiveness: Medium) - Your Response: Keep hips heavy and maintain chest contact to prevent opponent from creating the space needed to rotate underneath. If they begin rolling, follow their hips with your body weight to prevent back exposure. → Leads to [[Positions/Rubber Guard/Carni]]
+- **Use the guard and shoulder connection to bring the opponent close before moving the high leg.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. → Leads to [[Positions/Rubber Guard/Carni]]
+- **Manage the shoulder and neck line with a forearm frame as the leg clears the head.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Avoid reaching away while the opponent sets the triceps control. → Leads to [[Positions/Rubber Guard/Carni]]
+- **Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Rubber Guard/Carni]]
+- **Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Create slack at the hip and thigh while keeping the head and captured arm aligned. → Leads to [[Positions/Rubber Guard/Carni]]
 
 
 </section>
@@ -330,35 +330,30 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 <p class="section-subtitle">What mistakes should you avoid when executing Posture Recovery from Carni?</p>
 
-### 1. Initiating forward pressure before securing ankle position and protecting the heel
+### 1. Skipping the checkpoint: recognize the upper-body trap
 
-- **Consequence**: Creates perfect finishing angle for heel hook as forward movement extends the trapped leg and exposes the heel to immediate attack
-- **Correction**: Always confirm ankle is flexed with toes pointed away from attacker and heel grip is at least partially broken before committing to any forward driving pressure
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+- **Correction**: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
 
-### 2. Using arms to push forward instead of generating pressure through hip extension
+### 2. Skipping the checkpoint: protect the captured limb
 
-- **Consequence**: Arms become extended and vulnerable to being isolated, and the pressure generated is easily redirected by the bottom player
-- **Correction**: Drive forward from the hips with chest leading, keeping arms tucked close to the body for framing rather than pushing
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Avoid reaching away while the opponent sets the triceps control.
+- **Correction**: Avoid reaching away while the opponent sets the triceps control.
 
-### 3. Attempting explosive forward surge rather than controlled steady pressure
+### 3. Skipping the checkpoint: work before pressure engages
 
-- **Consequence**: Explosive movement creates angular changes that the bottom player can exploit for saddle transitions or back takes
-- **Correction**: Use steady, progressive forward pressure that maintains control throughout the movement, giving the opponent no sudden angular changes to exploit
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+- **Correction**: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-### 4. Failing to strip opponent's heel grip before fully committing to the stack
+### 4. Skipping the checkpoint: open the high enclosure
 
-- **Consequence**: Opponent maintains finishing grip throughout the stacking motion and can apply heel hook even from compressed position
-- **Correction**: Actively work to strip heel and ankle grips during the stacking sequence, timing grip breaks with moments of maximum forward pressure
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Create slack at the hip and thigh while keeping the head and captured arm aligned.
+- **Correction**: Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
-### 5. Stopping forward pressure once opponent begins releasing the entanglement
+### 5. Skipping the checkpoint: recover the elbow and posture
 
-- **Consequence**: Creates space for opponent to re-establish leg entanglement or transition to alternative attacking position
-- **Correction**: Continue forward pressure until fully through the guard and in established closed guard top position, maintaining chest contact throughout the transition
-
-### 6. Pulling trapped leg out explosively before entanglement is fully neutralized
-
-- **Consequence**: Jerky extraction re-exposes heel to attack and can cause self-injury if knee torques against remaining hooks
-- **Correction**: Extract leg with controlled, steady movements only after the stacking pressure has sufficiently loosened the entanglement structure
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Withdraw the shoulder and elbow only after the high leg connection has opened.
+- **Correction**: Withdraw the shoulder and elbow only after the high leg connection has opened.
 
 
 
@@ -370,17 +365,17 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 <p class="section-subtitle">How do you train Posture Recovery from Carni (Attacker)?</p>
 
-**Phase 1: Mechanics** - Forward pressure generation and heel protection
-Practice generating forward stacking pressure from Carni position with zero resistance. Focus on hip extension mechanics, frame placement, and maintaining ankle protection throughout the movement. 50 repetitions each side.
+**Phase 1** - Identify the configuration
+Work cooperatively on recognize the upper-body trap. A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 2: Grip Breaking** - Systematic heel grip stripping under pressure
-Partner holds moderate heel grip while you practice timing grip breaks with forward pressure. Develop feel for when forward drive loosens opponent's grip enough for effective stripping. 30 repetitions with increasing grip strength.
+**Phase 2** - Rehearse the connection
+Work cooperatively on protect the captured limb. Avoid reaching away while the opponent sets the triceps control. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 3: Timing Recognition** - Identifying windows between opponent's attack transitions
-Partner flows between Carni attacks including heel hook threats, saddle entries, and back takes. Practice recognizing the brief windows between transitions when forward pressure is most effective. Gradually increase partner's transition speed.
+**Phase 3** - Add an early response
+Work cooperatively on work before pressure engages. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 4: Live Integration** - Full resistance application from Carni
-Positional sparring starting from Carni top. Partner attacks freely while you work to implement posture recovery at appropriate moments. Focus on selecting correct escape based on opponent's current attack rather than forcing posture recovery when other escapes are higher percentage.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on open the high enclosure. Create slack at the hip and thigh while keeping the head and captured arm aligned. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -394,7 +389,7 @@ Positional sparring starting from Carni top. Partner attacks freely while you wo
 
 <p class="section-subtitle">What are the safety concerns for Posture Recovery from Carni?</p>
 
-Posture recovery from Carni carries significant knee and ankle injury risk if executed improperly. Never initiate forward pressure before confirming your ankle is protected with toes pointed away from the attacker. Avoid explosive movements that can torque the knee against remaining hooks in the entanglement. If you feel any sharp pain or clicking in the knee during recovery, stop immediately and tap rather than continuing through potential ligament damage. Train this technique progressively with cooperative partners before attempting under full resistance, and always communicate with training partners about heel hook threat levels during positional drilling.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

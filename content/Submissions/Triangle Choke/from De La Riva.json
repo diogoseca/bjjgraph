@@ -458,31 +458,19 @@
     ],
     "clips": [
       {
-        "id": "UOFZwIbz9zM",
-        "title": "Triangle from De La Riva Guard",
-        "by": "Nartay Kazhekov",
+        "id": "0EmXVus5m8o",
+        "title": "Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle…",
+        "channel": "Alex Lane",
+        "duration": 89,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "UOFZwIbz9zM",
+        "title": "=Triangle from De La Riva Guard=",
         "channel": "Nartay Kazhekov",
         "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "gR54h1IXyGg",
-        "title": "Reverse De La Riva to Triangle",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
-        "duration": 22,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "0EmXVus5m8o",
-        "title": "Easy De La Riva Triangle Choke",
-        "by": "Alex Lane",
-        "vertical": false,
-        "channel": "Alex Lane",
-        "duration": 90,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -680,21 +668,10 @@
     "clips": [
       {
         "id": "DLmrzSs1hWI",
-        "title": "Triangle defense and escape",
-        "by": "Daniel Frank",
-        "vertical": false,
+        "title": "Triangle defense/escape",
         "channel": "Daniel Frank",
-        "duration": 24,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-XU_JoO9Hhg",
-        "title": "Shutting down a strong De La Riva guard",
-        "by": "Mikey Musumeci",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 138,
-        "verified": "2026-07-15"
+        "duration": 23,
+        "vertical": false
       }
     ]
   },

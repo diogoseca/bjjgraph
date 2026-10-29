@@ -108,10 +108,6 @@
       "relationship": "Alternative escape technique using inside control to break body lock"
     },
     {
-      "name": "Back Take",
-      "relationship": "Opponent's highest-value transition that this escape aims to prevent"
-    },
-    {
       "name": "Standing Position",
       "relationship": "Possible intermediate position during escape"
     },
@@ -378,31 +374,19 @@
     "safety_considerations": "Explosive hip switching during the escape carries risk of lower back and oblique muscle strains, particularly when executed under load against a resisting opponent. When your opponent attempts throws during the escape, protect your neck by tucking your chin and controlling your fall trajectory. Tap immediately if a choking grip is secured during the scramble rather than fighting through a compromised position. During training, build intensity progressively and communicate with partners about resistance levels to prevent injury from unexpected explosive movements.",
     "clips": [
       {
-        "id": "_QDpqIbTa1k",
-        "title": "Escape Rear Body Lock with a Granby Roll",
-        "by": "Nakapan MMA",
+        "id": "Fxpu62evbwk",
+        "title": "Body lock break - Kimura",
+        "channel": "SBG Australia",
+        "duration": 44,
         "vertical": false,
-        "channel": "Nakapan MMA",
-        "duration": 65,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "2VCyaassiRI",
-        "title": "Leg Switch Cutback from Rear Body Lock",
-        "by": "Procel BJJ",
-        "vertical": false,
+        "title": "Leg Switch Cutback From Rear Bodylock",
         "channel": "Procel Brazilian Jiu-Jitsu",
         "duration": 52,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Fxpu62evbwk",
-        "title": "Body Lock Break to Kimura",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 44,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -567,25 +551,6 @@
         "description": "Partner mixes genuine escape attempts with feints and positional adjustments. Practice distinguishing real escape attempts from positional adjustments and initiating counters at the earliest possible moment. Develop pattern recognition that allows you to counter before escapes develop full momentum."
       }
     ],
-    "clips": [
-      {
-        "id": "8e8aOjenAKs",
-        "title": "Turtle and Rear Body Lock Escape Counter",
-        "by": "Jamie Clubb",
-        "vertical": false,
-        "channel": "jamielovesmartialarts",
-        "duration": 158,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_QDpqIbTa1k",
-        "title": "Escape rear body lock with a Granby roll",
-        "by": "Nakapan MMA",
-        "vertical": false,
-        "channel": "Nakapan MMA",
-        "duration": 65,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

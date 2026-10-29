@@ -484,22 +484,11 @@
     ],
     "clips": [
       {
-        "id": "EPAOODLwCj4",
-        "title": "Double Sleeve Guard: Grip Break to Bicep Ride",
-        "by": "Nomad Fitness & Jiu Jitsu",
-        "vertical": false,
-        "channel": "Nomad Fitness & Jiu Jitsu",
-        "duration": 168,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "oThN2Qq64rk",
-        "title": "How to Pass the Double Sleeve Guard",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ",
-        "duration": 549,
-        "verified": "2026-07-15"
+        "id": "_vUNYRbf-fo",
+        "title": "Passing feet on hips double sleeve guard",
+        "channel": "brent littell",
+        "duration": 190,
+        "front": true
       }
     ]
   },
@@ -979,26 +968,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Cl5tutvZ2NA",
-        "title": "Break Posture to Triangle, Omoplata & Sweep",
-        "by": "Pathfinder Jiu-Jitsu Team",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 50,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "HwB1hGa09OM",
-        "title": "Sleeve Guard Arm Drag",
-        "by": "Angel Halo Lopez",
-        "vertical": false,
-        "channel": "Angel Halo Lopez",
-        "duration": 82,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1114,33 +1084,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "KvJtOUDN-wY",
-      "title": "How Black Belts Grip Intelligently",
-      "by": "Jiu-Jitsu Channel",
-      "vertical": false,
-      "channel": "Jiu-Jitsu Channel",
-      "duration": 102,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "sCvako3SaRs",
-      "title": "Intro to the Double Sleeve Guard concepts and entries",
-      "by": "Ariel Tabak",
-      "vertical": false,
-      "channel": "Ariel Tabak",
-      "duration": 673,
-      "verified": "2026-07-16"
-    },
-    {
-      "id": "npuOznVZoXA",
-      "title": "Most important guard principles for grip-based guards",
-      "by": "Jon Thomas",
-      "vertical": false,
-      "channel": "JonThomasBJJ",
-      "duration": 419,
-      "verified": "2026-07-16"
-    }
-  ]
+  "clips": []
 }

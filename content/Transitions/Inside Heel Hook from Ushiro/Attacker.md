@@ -170,39 +170,6 @@ description: "How to execute Inside Heel Hook from Ushiro in BJJ. Attacking pers
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Inside Heel Hook from Ushiro (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Arm saddle to inside heel hook flow drill",
-      "description": "Inside Heel Hook from Ushiro (Attacker) film study: Arm saddle to inside heel hook flow drill, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
-      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT21S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "V grip from top ushiro transition",
-      "description": "Inside Heel Hook from Ushiro (Attacker) film study: V grip from top ushiro transition, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
-      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT140S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -219,32 +186,6 @@ Strategically, this submission capitalizes on opponents who have partially escap
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Inside Heel Hook from Ushiro (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
-
-<p class="clip-credit"><strong>Arm saddle to inside heel hook flow drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lTsK9C_a6po)
-
-<p class="clip-credit"><strong>V grip from top ushiro transition</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

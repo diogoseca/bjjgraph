@@ -46,24 +46,22 @@ description: "Master the back take from armbar control in BJJ. Learn to convert 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar to back take transition",
-      "description": "Back Take from Armbar film study: Armbar to back take transition, taught by For\u00e7a Martial Arts.",
+      "name": "Armbar to Back Take Transition",
+      "description": "Back Take from Armbar film study: Armbar to Back Take Transition.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XYBC7viDFnU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XYBC7viDFnU",
       "url": "https://www.youtube.com/watch?v=XYBC7viDFnU",
-      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
       "duration": "PT98S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Belly-down armbar to back take from closed guard",
-      "description": "Back Take from Armbar film study: Belly-down armbar to back take from closed guard, taught by Revolution BJJ.",
+      "name": "Belly-Down Armbar to Back Take (Closed Guard)",
+      "description": "Back Take from Armbar film study: Belly-Down Armbar to Back Take (Closed Guard).",
       "thumbnailUrl": "https://i.ytimg.com/vi/9upGcbIutvs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9upGcbIutvs",
       "url": "https://www.youtube.com/watch?v=9upGcbIutvs",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT138S"
+      "duration": "PT137S"
     }
   ]
 }
@@ -119,7 +117,7 @@ This transition is particularly effective at the purple belt level and above, wh
 
 ![](https://www.youtube.com/watch?v=XYBC7viDFnU)
 
-<p class="clip-credit"><strong>Armbar to back take transition</strong> — taught by Força Martial Arts · 1:38 · <a href="https://www.youtube.com/watch?v=XYBC7viDFnU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar to Back Take Transition</strong> · 1:38 · <a href="https://www.youtube.com/watch?v=XYBC7viDFnU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -127,7 +125,7 @@ This transition is particularly effective at the purple belt level and above, wh
 
 ![](https://www.youtube.com/watch?v=9upGcbIutvs)
 
-<p class="clip-credit"><strong>Belly-down armbar to back take from closed guard</strong> — taught by Revolution BJJ · 2:18 · <a href="https://www.youtube.com/watch?v=9upGcbIutvs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Belly-Down Armbar to Back Take (Closed Guard)</strong> · 2:17 · <a href="https://www.youtube.com/watch?v=9upGcbIutvs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -303,8 +301,6 @@ The Back Take from Armbar occupies a critical junction in the submission chain h
 - [[Positions/Half Guard]] - Counter outcome position when opponent escapes during the transition window
 
 - [[Submissions/Armbar/from Armbar Control]] - Alternative high-percentage finish from armbar control when opponent stops defending
-
-- [[Transitions/Back Take]] - Related back take concept applied from various other positions
 
 - [[Transitions/Triangle Setup]] - Alternative chain attack from armbar when opponent defends by stacking rather than turning
 

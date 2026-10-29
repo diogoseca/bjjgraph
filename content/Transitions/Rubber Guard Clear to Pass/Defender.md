@@ -166,24 +166,12 @@ description: "How to defend against Rubber Guard Clear to Pass in BJJ. Recogniti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rubber guard quick fix to stop it collapsing",
-      "description": "Rubber Guard Clear to Pass (Defender) film study: Rubber guard quick fix to stop it collapsing, taught by Brandon Mccaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/huzjQNiJu7Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/huzjQNiJu7Y",
-      "url": "https://www.youtube.com/watch?v=huzjQNiJu7Y",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
-      "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Why your rubber guard keeps getting passed",
-      "description": "Rubber Guard Clear to Pass (Defender) film study: Why your rubber guard keeps getting passed, taught by Brandon Mccaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OXNu_vW7onc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OXNu_vW7onc",
-      "url": "https://www.youtube.com/watch?v=OXNu_vW7onc",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
-      "duration": "PT282S"
+      "name": "Rubber Guard - Preventing the Pass",
+      "description": "Rubber Guard Clear to Pass (Defender) film study: Rubber Guard - Preventing the Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E3sCfrFKJDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E3sCfrFKJDE",
+      "url": "https://www.youtube.com/watch?v=E3sCfrFKJDE",
+      "duration": "PT158S"
     }
   ]
 }
@@ -211,17 +199,9 @@ Defending against the Rubber Guard Clear to Pass means you are the bottom player
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=huzjQNiJu7Y)
+![](https://www.youtube.com/watch?v=E3sCfrFKJDE)
 
-<p class="clip-credit"><strong>Rubber guard quick fix to stop it collapsing</strong> — taught by Brandon Mccaghren · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OXNu_vW7onc)
-
-<p class="clip-credit"><strong>Why your rubber guard keeps getting passed</strong> — taught by Brandon Mccaghren · 4:42 · <a href="https://www.youtube.com/watch?v=OXNu_vW7onc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber Guard - Preventing the Pass</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=E3sCfrFKJDE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -21,37 +21,37 @@ description: "Master mounted triangle attacks from top position. High-percentage
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke from Mounted Triangle",
-      "text": "From this position, attempt Triangle Choke from Mounted Triangle. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Choke from Mounted Triangle. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Consolidate Mount",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 11% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Gift Wrap",
-      "text": "From this position, attempt Gift Wrap. This technique is attempted in 5% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Gift Wrap. This technique is attempted in 6% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
       "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 5% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute S-Mount Transition",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,35 +165,12 @@ description: "Master mounted triangle attacks from top position. High-percentage
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Finish the mounted triangle without losing top",
-      "description": "Mounted Triangle (Top) film study: Finish the mounted triangle without losing top, taught by Lux\u0027s Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zwb5LTgOm1o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zwb5LTgOm1o",
-      "url": "https://www.youtube.com/watch?v=zwb5LTgOm1o",
-      "creator": { "@type": "Person", "name": "Lux\u0027s Jiu Jitsu" },
-      "duration": "PT45S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Mounted Triangle demonstration",
-      "description": "Mounted Triangle (Top) film study: Mounted Triangle demonstration, taught by Satori BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vLUua_voKzc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vLUua_voKzc",
-      "url": "https://www.youtube.com/watch?v=vLUua_voKzc",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Mounted Triangle Armbar variation",
-      "description": "Mounted Triangle (Top) film study: Mounted Triangle Armbar variation, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8ys-uZnBgYM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8ys-uZnBgYM",
-      "url": "https://www.youtube.com/watch?v=8ys-uZnBgYM",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT26S"
+      "name": "Triangle to mounted triangle",
+      "description": "Mounted Triangle (Top) film study: Triangle to mounted triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1qxxbBWo9kw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1qxxbBWo9kw",
+      "url": "https://www.youtube.com/watch?v=1qxxbBWo9kw",
+      "duration": "PT154S"
     }
   ]
 }
@@ -227,25 +204,9 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zwb5LTgOm1o)
+![](https://www.youtube.com/watch?v=1qxxbBWo9kw)
 
-<p class="clip-credit"><strong>Finish the mounted triangle without losing top</strong> — taught by Lux&#39;s Jiu Jitsu · 0:45 · <a href="https://www.youtube.com/watch?v=zwb5LTgOm1o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vLUua_voKzc)
-
-<p class="clip-credit"><strong>Mounted Triangle demonstration</strong> — taught by Satori BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=vLUua_voKzc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8ys-uZnBgYM)
-
-<p class="clip-credit"><strong>Mounted Triangle Armbar variation</strong> — taught by Thunderdome BJJ · 0:26 · <a href="https://www.youtube.com/watch?v=8ys-uZnBgYM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle to mounted triangle</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=1qxxbBWo9kw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -313,7 +274,6 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 
 **If opponent turns to side to escape triangle pressure:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
 - Execute **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
 
 

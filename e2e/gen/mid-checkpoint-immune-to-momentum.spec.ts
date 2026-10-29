@@ -64,6 +64,7 @@ test("right AND wrong checkpoint answers leave the combo meter at ×1 — zero c
     return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null
   })
   expect(landMc, "the live MC block is the landing surface").toBeTruthy()
+  await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
   await page.keyboard.press("abcd"[landMc!.correct])
 
   const hot = await meter(page)

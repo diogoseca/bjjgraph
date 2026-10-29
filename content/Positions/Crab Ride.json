@@ -500,22 +500,12 @@
     ],
     "clips": [
       {
-        "id": "Y6fBPjHzfv4",
-        "title": "DLR to crab ride back take",
-        "by": "Moncaio Brothers",
+        "id": "tsxvdEE_qCY",
+        "title": "Crab Ride-  Claw Ride Set Up",
+        "channel": "myrmidonwrestling",
+        "duration": 86,
         "vertical": false,
-        "channel": "Moncaio Brothers Jiujitsu",
-        "duration": 28,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "oxkUTA1yf-o",
-        "title": "Leg drag to crab ride back attack",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 24,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -699,7 +689,7 @@
             "probability": 40
           },
           {
-            "technique": "Rolling Escape to Guard",
+            "technique": "Crab Ride Escape to Guard",
             "target": "Closed Guard",
             "probability": 30
           }
@@ -890,30 +880,18 @@
     "clips": [
       {
         "id": "-S6bU0mQp1Y",
-        "title": "Escaping the crab ride",
-        "by": "Brian Hawkins",
-        "vertical": false,
+        "title": "Escape Crab Ride",
         "channel": "Brian Hawkins",
-        "duration": 78,
-        "verified": "2026-07-14"
+        "duration": 77,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "Abo6iBdWEIY",
-        "title": "Crab Ride Defense",
-        "by": "Foley Dowd",
-        "vertical": false,
+        "title": "Foley Dowd- Crab Ride Defense",
         "channel": "Apex Wrestling School LLC",
-        "duration": 123,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NpFL7u6D7Bk",
-        "title": "Leg and Crab Ride Defense",
-        "by": "Nick Mitchell",
-        "vertical": false,
-        "channel": "Championship Productions",
-        "duration": 127,
-        "verified": "2026-07-15"
+        "duration": 122,
+        "vertical": false
       }
     ]
   },
@@ -1034,21 +1012,11 @@
   "clips": [
     {
       "id": "tsxvdEE_qCY",
-      "title": "Crab ride / claw ride setup",
-      "by": "myrmidonwrestling",
-      "vertical": false,
+      "title": "Crab Ride-  Claw Ride Set Up",
       "channel": "myrmidonwrestling",
       "duration": 86,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "aSrT9fosH-s",
-      "title": "Crab ride to the back",
-      "by": "Samuel Braga",
       "vertical": false,
-      "channel": "Samuel Braga",
-      "duration": 65,
-      "verified": "2026-07-14"
+      "half": "top"
     }
   ]
 }

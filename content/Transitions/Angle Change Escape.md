@@ -36,39 +36,6 @@ description: "Angle Change Escape from Gogoplata Control. Lateral movement defen
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Angle Change Escape \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Angle change to omoplata from collar sleeve guard",
-      "description": "Angle Change Escape film study: Angle change to omoplata from collar sleeve guard, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l3RDx45pfm0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/l3RDx45pfm0",
-      "url": "https://www.youtube.com/watch?v=l3RDx45pfm0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT599S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Push Up Mount Escape with Angle Change",
-      "description": "Angle Change Escape film study: Push Up Mount Escape with Angle Change, taught by Denny Prokopos.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U8J2xsr8o6c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U8J2xsr8o6c",
-      "url": "https://www.youtube.com/watch?v=U8J2xsr8o6c",
-      "creator": { "@type": "Person", "name": "Denny Prokopos" },
-      "duration": "PT138S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -107,32 +74,6 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Angle Change Escape in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=l3RDx45pfm0)
-
-<p class="clip-credit"><strong>Angle change to omoplata from collar sleeve guard</strong> — taught by Lachlan Giles · 9:59 · <a href="https://www.youtube.com/watch?v=l3RDx45pfm0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U8J2xsr8o6c)
-
-<p class="clip-credit"><strong>Push Up Mount Escape with Angle Change</strong> — taught by Denny Prokopos · 2:18 · <a href="https://www.youtube.com/watch?v=U8J2xsr8o6c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

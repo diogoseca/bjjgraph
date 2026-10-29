@@ -242,11 +242,6 @@
             "technique": "Bow and Arrow Choke",
             "target": "Game Over",
             "probability": 70
-          },
-          {
-            "technique": "Roll to Truck",
-            "target": "Truck",
-            "probability": 50
           }
         ]
       },
@@ -373,8 +368,8 @@
       {
         "transition": "Rear Naked Choke from Body Triangle",
         "attempt_probability": {
-          "gi": 28,
-          "nogi": 38
+          "gi": 29,
+          "nogi": 40
         }
       },
       {
@@ -395,7 +390,7 @@
         "transition": "Short Choke from Body Triangle",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 12
+          "nogi": 13
         }
       },
       {
@@ -408,8 +403,8 @@
       {
         "transition": "Back Control Maintenance",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 21
+          "gi": 21,
+          "nogi": 22
         },
         "deal_here": true
       },
@@ -417,13 +412,6 @@
         "transition": "Kimura from Back",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Roll to Truck",
-        "attempt_probability": {
-          "gi": 2,
           "nogi": 5
         }
       },
@@ -438,37 +426,18 @@
         "transition": "Body Triangle Squeeze",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 13
+          "nogi": 14
         }
       }
     ],
     "clips": [
       {
-        "id": "3OkCuU0B0UE",
-        "title": "Attack the Back with a Body Triangle",
-        "by": "Grapple Box",
-        "vertical": false,
-        "channel": "Grapple Box llc",
-        "duration": 28,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8JwxpgWGsFU",
-        "title": "How to Properly Use a Body Triangle",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Less Impressed More Involved BJJ",
-        "duration": 294,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "TFKAmteeVIA",
-        "title": "Body Triangle Troubleshooting",
-        "by": "Tom Halpin",
-        "vertical": false,
+        "title": "Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin",
         "channel": "Tom Halpin",
         "duration": 186,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -800,57 +769,50 @@
       {
         "transition": "Triangle Clear to Side",
         "attempt_probability": {
-          "gi": 27,
-          "nogi": 28
+          "gi": 30,
+          "nogi": 31
         }
       },
       {
         "transition": "Hip Escape to Turtle",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Body Triangle Escape to Side Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Body Triangle Escape to Half Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 15,
+          "nogi": 13
         }
       },
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 9
         }
       },
       {
         "transition": "Standing up in Base",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
@@ -864,21 +826,18 @@
     "clips": [
       {
         "id": "hgaULMND3ag",
-        "title": "Escaping the Body Triangle",
-        "by": "Coach Brian",
-        "vertical": false,
+        "title": "TMG Clips #78 - Escaping The Body Triangle",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 129,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "XXnVvrZXGOs",
-        "title": "Body Triangle Escape",
-        "by": "Art of War MMA",
-        "vertical": false,
+        "title": "Body Triangle Escape (BJJ Instructional)",
         "channel": "Art of War - MMA",
         "duration": 173,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -996,24 +955,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "8JwxpgWGsFU",
-      "title": "How to Properly Use a Body Triangle",
-      "by": "Gordon Ryan",
-      "vertical": false,
-      "channel": "Less Impressed More Involved BJJ",
-      "duration": 294,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "t85-T9z_evY",
-      "title": "Body Triangle with Shoulder Lock",
-      "by": "Demian Maia",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 195,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

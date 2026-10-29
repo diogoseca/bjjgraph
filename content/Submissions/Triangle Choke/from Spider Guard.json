@@ -493,31 +493,19 @@
     ],
     "clips": [
       {
-        "id": "t03kY6knAkU",
-        "title": "Triangle from the Spider Lasso Guard",
-        "by": "Nartay Kazhekov",
-        "vertical": false,
-        "channel": "Nartay Kazhekov",
-        "duration": 11,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "7ItTf1BFDZA",
-        "title": "Spider Guard Foot on Bicep Triangle Choke",
-        "by": "Ritchie Yip",
-        "vertical": false,
+        "title": "Spider Guard Foot On Bicep Triangle Choke",
         "channel": "Ritchie Yip",
         "duration": 31,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "aR907qucSvk",
         "title": "Spider Guard: Triangle Choke Option",
-        "by": "Hurricane Jiu Jitsu",
-        "vertical": false,
         "channel": "Hurricane Jiu Jitsu",
-        "duration": 60,
-        "verified": "2026-07-14"
+        "duration": 59,
+        "vertical": false
       }
     ]
   },
@@ -714,21 +702,18 @@
     "clips": [
       {
         "id": "dJOw0ZEyXXc",
-        "title": "Triangle Choke Posture Up Escape",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Triangle choke from Guard \"Posture Up Escape",
         "channel": "Cosens MMA LLC",
-        "duration": 73,
-        "verified": "2026-07-14"
+        "duration": 72,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "sR2rS2dwpNY",
-        "title": "How To Escape a Triangle Choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
+        "title": "How To Escape a Triangle Choke w/ Rener & Ryron Gracie",
         "channel": "Hayabusa",
         "duration": 117,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },

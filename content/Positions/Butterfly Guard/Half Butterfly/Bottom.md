@@ -165,35 +165,12 @@ description: "Master Half Butterfly Bottom position in BJJ. Hybrid guard combini
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Half butterfly sweep",
-      "description": "Half Butterfly (Bottom) film study: Half butterfly sweep, taught by StadiumMMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oyBedW2q0Qo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oyBedW2q0Qo",
-      "url": "https://www.youtube.com/watch?v=oyBedW2q0Qo",
-      "creator": { "@type": "Person", "name": "StadiumMMA" },
-      "duration": "PT30S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Half butterfly sweep from head wrap",
-      "description": "Half Butterfly (Bottom) film study: Half butterfly sweep from head wrap, taught by Six Blades JJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_PJ9H2B8us8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_PJ9H2B8us8",
-      "url": "https://www.youtube.com/watch?v=_PJ9H2B8us8",
-      "creator": { "@type": "Person", "name": "Six Blades JJ" },
-      "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Windmill half guard sweep",
-      "description": "Half Butterfly (Bottom) film study: Windmill half guard sweep, taught by SBG Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/X3M6JUqr1Bo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/X3M6JUqr1Bo",
-      "url": "https://www.youtube.com/watch?v=X3M6JUqr1Bo",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT16S"
+      "name": "Half Butterfly Guard For Oldies",
+      "description": "Half Butterfly (Bottom) film study: Half Butterfly Guard For Oldies.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IPe_nWt17bg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IPe_nWt17bg",
+      "url": "https://www.youtube.com/watch?v=IPe_nWt17bg",
+      "duration": "PT628S"
     }
   ]
 }
@@ -223,25 +200,9 @@ This position represents an evolution in half guard theory, popularized by pract
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=oyBedW2q0Qo)
+![](https://www.youtube.com/watch?v=IPe_nWt17bg)
 
-<p class="clip-credit"><strong>Half butterfly sweep</strong> — taught by StadiumMMA · 0:30 · <a href="https://www.youtube.com/watch?v=oyBedW2q0Qo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_PJ9H2B8us8)
-
-<p class="clip-credit"><strong>Half butterfly sweep from head wrap</strong> — taught by Six Blades JJ · 0:43 · <a href="https://www.youtube.com/watch?v=_PJ9H2B8us8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=X3M6JUqr1Bo)
-
-<p class="clip-credit"><strong>Windmill half guard sweep</strong> — taught by SBG Australia · 0:16 · <a href="https://www.youtube.com/watch?v=X3M6JUqr1Bo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Butterfly Guard For Oldies</strong> · 10:28 · <a href="https://www.youtube.com/watch?v=IPe_nWt17bg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -308,7 +269,7 @@ This position represents an evolution in half guard theory, popularized by pract
 
 **Else if opponent drives forward with heavy chest pressure attempting to flatten you:**
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **Else if opponent attempts to extract trapped leg and establish passing pressure:**

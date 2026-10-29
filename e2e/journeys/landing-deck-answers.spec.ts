@@ -59,7 +59,7 @@ const cards = (page: Page) =>
     })),
   ) as Promise<Card[]>;
 const pct = (s: string) => {
-  const m = /^(\d+)%$/.exec(s);
+  const m = /^(\d+)$/.exec(s);
   return m ? Number(m[1]) : null;
 };
 const causes = (page: Page) => page.evaluate(() => Array.from(document.querySelectorAll(".ng-cause")).map((e: any) => (e.textContent || "").trim()));
@@ -86,8 +86,13 @@ async function setup(page: Page, width: number, height: number) {
   const j = journey(page);
   await j.boot("/", { seedRolls: questionRolls() });
   await j.land("Mount Top");
+  await j.openQuestion() // U47 d: this journey deliberately answers/times the question.
   expect(await j.landQuestion(), "the landing asks a question").not.toBeNull();
   await j.advance(200); // let the hand settle under the card
+  // D-338: in the article view Questions follows Videos and Moves and can start below the fold;
+  // bring the deck into view as a reader scrolls to it (programmatic, not a reading gesture).
+  await page.locator("[data-landcard]").evaluate((e) => e.scrollIntoView({ block: "nearest" }));
+  await j.readerLayoutSettled();
   return j;
 }
 // a NEXT chevron click by MOUSE, then wait for the next card's block to mount (a cold distractor pool
@@ -97,6 +102,7 @@ async function next(page: Page, j: ReturnType<typeof journey>) {
   await j.clickByMouse("[data-land-next]", "the next-flashcard chevron");
   await expect.poll(async () => { await j.advance(16); const s = await st(page); return s.page; }, { timeout: 20_000 }).toBe(p0 + 1);
   await j.advance(50);
+  await j.openQuestion();
 }
 // answer the mounted card through its own MC buttons; which option is right/trap comes from the MC
 // truth itself. False when this card cannot be answered that way (recall-only, or no such tier).
@@ -108,7 +114,13 @@ async function answer(page: Page, which: "wrong" | "trap" | "correct") {
     return m.tiers.findIndex((t: string, i: number) => i !== m.correct && (w === "trap" ? t === "trap" : t !== "trap"));
   }, which);
   if (pick < 0) return false;
-  await page.locator("[data-land-q] [data-land-mc-opt]").nth(pick).click();
+  // A real mouse at the measured centre (D-338): with the deck now low in the article view,
+  // locator.click()'s own scroll-into-view retry moved the reader 672px and took the hand (the
+  // cause's anchor) off screen, which no visitor's click does. Reachability is asserted instead.
+  const b = page.locator("[data-land-q] [data-land-mc-opt]").nth(pick), r = (await b.boundingBox())!;
+  const at = { x: r.x + r.width / 2, y: r.y + r.height / 2 };
+  expect(await b.evaluate((el, p) => el.contains(document.elementFromPoint(p.x, p.y)), at), "the answer is reachable by mouse where it sits").toBe(true);
+  await page.mouse.click(at.x, at.y);
   return true;
 }
 // the next card that CAN be answered this way, skipping (free) any that cannot
@@ -355,6 +367,7 @@ test(`a new landing starts the table over: its first card is the landing questio
   await page.waitForTimeout(1700);
   expect((await named(page, "roll_end")).length, "the roll did not end").toBe(0);
   expect((await st(page)).qMod, "the old exchange's steps are forgiven on arrival").toBe(0);
+  await j.openQuestion(); // U47 d: the new landing asks first; Answer for Points shows its card
   const before = await cards(page);
   expect(await answer(page, "wrong"), "the new landing's first card").toBe(true);
   await j.advance(100);
@@ -409,7 +422,8 @@ const enterDefence = (page: Page) =>
     const a: any = (window as any).__neural;
     a._combo = 3;
     const sub = a.adj[a.currentPos].find((k: number) => a.nodes[k].ty === "submissions");
-    a.enterDefense(sub != null ? sub : a.nodes.findIndex((n: any) => n.ty === "submissions"));
+    a._rollActed = true; // fixture: a prior committed move; navigation alone is calm (v1.227.0)
+    a.enterDefense(sub != null ? sub : a.nodes.findIndex((n: any) => n.ty === "submissions"), a._catchProvenance());
   });
 const panicSetup = async (page: Page) => {
   await page.setViewportSize({ width: 1440, height: 900 });
@@ -417,14 +431,16 @@ const panicSetup = async (page: Page) => {
   await j.boot("/", { seedRolls: questionRolls() });
   await j.hydrateAll();
   await j.land("Mount Top");
+  await j.openQuestion() // U47 d: this journey deliberately answers/times the question.
   await enterDefence(page);
   await page.waitForTimeout(400);
   const mc = await page.evaluate(() => {
     const a: any = (window as any).__neural;
-    const card = document.querySelector("[data-panic]");
+    const card = document.querySelector("[data-landcard=defense]");
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? { correct: a._mc.correct, n: a._mc.n } : null;
   });
   expect(mc, "the drill asks multiple choice (its pool is warm)").not.toBeNull();
+  await j.openQuestion(); // U47 d: the catch's question asks first; these journeys answer it or time it out
   return { j, mc: mc! };
 };
 const panicState = (page: Page) =>

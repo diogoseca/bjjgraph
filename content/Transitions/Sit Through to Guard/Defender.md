@@ -160,24 +160,12 @@ description: "How to defend against Sit Through to Guard in BJJ. Recognition cue
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Riding the turtle and preventing guard recovery",
-      "description": "Sit Through to Guard (Defender) film study: Riding the turtle and preventing guard recovery, taught by Rituals Jiu Jitsu coach.",
+      "name": "Turtle Position Technique | Preventing Guard Recovery | BJJ Techniques",
+      "description": "Sit Through to Guard (Defender) film study: Turtle Position Technique | Preventing Guard Recovery | BJJ Techniques.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cs87MxpXdB4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cs87MxpXdB4",
       "url": "https://www.youtube.com/watch?v=cs87MxpXdB4",
-      "creator": { "@type": "Person", "name": "Rituals Jiu Jitsu coach" },
       "duration": "PT127S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Turtle to side control: cutting off the sit through",
-      "description": "Sit Through to Guard (Defender) film study: Turtle to side control: cutting off the sit through, taught by Rickson Gracie academy coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
-      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
-      "creator": { "@type": "Person", "name": "Rickson Gracie academy coach" },
-      "duration": "PT47S"
     }
   ]
 }
@@ -207,15 +195,7 @@ Defending the Sit Through to Guard requires the turtle top player to recognize e
 
 ![](https://www.youtube.com/watch?v=cs87MxpXdB4)
 
-<p class="clip-credit"><strong>Riding the turtle and preventing guard recovery</strong> — taught by Rituals Jiu Jitsu coach · 2:07 · <a href="https://www.youtube.com/watch?v=cs87MxpXdB4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
-
-<p class="clip-credit"><strong>Turtle to side control: cutting off the sit through</strong> — taught by Rickson Gracie academy coach · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle Position Technique | Preventing Guard Recovery | BJJ Techniques</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=cs87MxpXdB4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

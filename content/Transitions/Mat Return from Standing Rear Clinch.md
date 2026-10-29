@@ -46,34 +46,31 @@ description: "Master the mat return from standing rear clinch in BJJ. Complete g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Five mat return options from the rear clinch",
-      "description": "Mat Return from Standing Rear Clinch film study: Five mat return options from the rear clinch, taught by Elevate MMA Academy.",
+      "name": "5 Mat Returns Options for MMA",
+      "description": "Mat Return from Standing Rear Clinch film study: 5 Mat Returns Options for MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HMLEV7fMA-M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HMLEV7fMA-M",
       "url": "https://www.youtube.com/watch?v=HMLEV7fMA-M",
-      "creator": { "@type": "Person", "name": "Elevate MMA Academy" },
       "duration": "PT35S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Easy takedowns from the rear clinch",
-      "description": "Mat Return from Standing Rear Clinch film study: Easy takedowns from the rear clinch, taught by Oneonta Jiu Jitsu.",
+      "name": "Easy Takedowns from the Rear Clinch!",
+      "description": "Mat Return from Standing Rear Clinch film study: Easy Takedowns from the Rear Clinch!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ovl7eZIzBaU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ovl7eZIzBaU",
       "url": "https://www.youtube.com/watch?v=ovl7eZIzBaU",
-      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
-      "duration": "PT57S"
+      "duration": "PT56S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Foot sweep mat return",
-      "description": "Mat Return from Standing Rear Clinch film study: Foot sweep mat return, taught by Kennelly Wrestling.",
+      "description": "Mat Return from Standing Rear Clinch film study: Foot sweep mat return.",
       "thumbnailUrl": "https://i.ytimg.com/vi/suN-j2avPtQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/suN-j2avPtQ",
       "url": "https://www.youtube.com/watch?v=suN-j2avPtQ",
-      "creator": { "@type": "Person", "name": "Kennelly Wrestling" },
       "duration": "PT65S"
     }
   ]
@@ -130,7 +127,7 @@ The mat return also serves as a crucial decision point within the standing rear 
 
 ![](https://www.youtube.com/watch?v=HMLEV7fMA-M)
 
-<p class="clip-credit"><strong>Five mat return options from the rear clinch</strong> — taught by Elevate MMA Academy · 0:35 · <a href="https://www.youtube.com/watch?v=HMLEV7fMA-M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>5 Mat Returns Options for MMA</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=HMLEV7fMA-M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,7 +135,7 @@ The mat return also serves as a crucial decision point within the standing rear 
 
 ![](https://www.youtube.com/watch?v=ovl7eZIzBaU)
 
-<p class="clip-credit"><strong>Easy takedowns from the rear clinch</strong> — taught by Oneonta Jiu Jitsu · 0:57 · <a href="https://www.youtube.com/watch?v=ovl7eZIzBaU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Easy Takedowns from the Rear Clinch!</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=ovl7eZIzBaU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +143,7 @@ The mat return also serves as a crucial decision point within the standing rear 
 
 ![](https://www.youtube.com/watch?v=suN-j2avPtQ)
 
-<p class="clip-credit"><strong>Foot sweep mat return</strong> — taught by Kennelly Wrestling · 1:05 · <a href="https://www.youtube.com/watch?v=suN-j2avPtQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Foot sweep mat return</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=suN-j2avPtQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -345,8 +342,6 @@ The mat return from standing rear clinch functions as the critical link between 
 - [[Transitions/Counter Throw from Standing Rear Clinch]] - Counter technique the opponent may attempt during the mat return descent
 
 - [[Transitions/Double Leg Finish]] - Alternative takedown option from standing rear clinch when mat return is defended
-
-- [[Transitions/Back Take]] - Related back control entry transition from similar standing clinch positions
 
 
 </section>

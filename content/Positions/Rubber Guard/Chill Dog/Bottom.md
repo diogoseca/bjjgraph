@@ -4,7 +4,7 @@
 
 ---
 title: "Chill Dog Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master defensive Chill Dog position from bottom. Learn compact turtle defense, escape timing, and recovery to guard with 10th Planet methodology."
+description: "Chill Dog bottom perspective: Keep the opposing hand on the mat and hug the knee before changing the head-side grip. Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee."
 ---
 
 
@@ -20,39 +20,27 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Chill Dog to Gogoplata Control",
+      "text": "From this position, attempt Chill Dog to Gogoplata Control. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby to Closed Guard",
-      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Chill Dog to Invisible Collar",
+      "text": "From this position, attempt Chill Dog to Invisible Collar. This technique is attempted in 35% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Escape Chill Dog",
+      "text": "From this position, attempt Escape Chill Dog. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Sweep from Chill Dog",
+      "text": "From this position, attempt Sweep from Chill Dog. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 14% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -67,42 +55,42 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you keeping hips too high and weight back on heels?",
+      "name": "What happens if you skipping the checkpoint: secure new york first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent can easily insert hooks and establish back control or roll defender to their back The correct approach is: Keep weight forward on hands with hips low and heavy, distributing weight across all four points of contact equally"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Keep the opposing hand on the mat and hug the knee before changing the head-side grip. The correct approach is: Keep the opposing hand on the mat and hug the knee before changing the head-side grip."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you allowing elbows to separate from knees?",
+      "name": "What happens if you skipping the checkpoint: turn onto the hip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates space for opponent to insert hooks, establish harness control, or attack with arm isolation techniques like crucifix The correct approach is: Maintain constant connection between elbows and inside of knees, keeping compact defensive frame at all times"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee. The correct approach is: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you lifting head up to look around or track opponent?",
+      "name": "What happens if you skipping the checkpoint: clear the neck?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Exposes neck to front headlock controls, guillotines, and allows opponent to drive weight forward to flatten turtle The correct approach is: Keep head tucked between shoulders with chin to chest, using peripheral awareness and feel rather than visual tracking"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Move the controlling arm around the head while keeping the leg and trapped arm connected. The correct approach is: Move the controlling arm around the head while keeping the leg and trapped arm connected."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you staying static and not recognizing escape windows?",
+      "name": "What happens if you skipping the checkpoint: place the inside frame?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent consolidates position and eventually establishes dominant control like back mount or submission controls The correct approach is: Stay patient but alert for opponent overcommitment or weight shifts, then explosively execute escape technique when window opens"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist. The correct approach is: Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you attempting to stand up before clearing opponent's grips?",
+      "name": "What happens if you skipping the checkpoint: maintain the arm trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent uses standing attempt to secure back control with both hooks or establish standing back control The correct approach is: Clear opponent's primary grips first, create separation with hip movement, then stand with proper base and posture"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup. The correct approach is: Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup."
       }
     }
   ]
@@ -115,7 +103,7 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Chill Dog Bottom",
-  "description": "Master defensive Chill Dog position from bottom. Learn compact turtle defense, escape timing, and recovery to guard with 10th Planet methodology.",
+  "description": "Chill Dog bottom perspective: Keep the opposing hand on the mat and hug the knee before changing the head-side grip. Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -194,15 +182,15 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
 
 <section id="overview" class="content-section">
 
-Chill Dog Bottom represents the defensive practitioner's perspective in this specialized turtle variant. From this position, you are on hands and knees with opponent behind or beside you, maintaining a compact defensive shell to prevent back control, crucifix, and submission attacks. Your primary objective is survival and escape - using the defensive frame to weather the storm while waiting for the right moment to execute your guard recovery or stand-up.
+The bottom player is responsible for maintaining the control. The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside. The bottom player hugs the raised knee and has cleared the controlling arm around the head. A forearm frame and hip angle help preserve space without pulling the foot against the knee.
 
-The bottom practitioner's success in Chill Dog depends on maintaining three critical elements simultaneously: tight elbow-to-knee connection, rounded back with tucked head, and forward weight distribution. These elements work together to create a protective shell that denies the opponent the fundamental controls they need for their attacks. When any of these elements breaks down, you become vulnerable to back takes, arm isolation, or front headlock controls.
+Keep the opposing hand on the mat and hug the knee before changing the head-side grip. Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee. Move the controlling arm around the head while keeping the leg and trapped arm connected.
 
-Timing is everything from the bottom position. You must be patient enough to maintain your defensive frame under pressure, but alert enough to recognize when the opponent overcommits their weight or loosens their grips. These momentary windows are when you execute your escape - typically either a Granby roll to guard, technical stand-up to feet, or sit-through to butterfly guard. The key is explosive execution once you commit to the escape, as hesitation allows the opponent to readjust and shut down your movement.
+Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist. Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup. Return the legs to a comfortable guard if the opponent withdraws the elbow or stacks your upper back.
 
-Breathing and mental composure are critical skills for bottom Chill Dog. Newer practitioners often panic when opponent pressure increases, leading to premature escape attempts or defensive frame breakdown. Advanced practitioners stay calm, maintain controlled breathing, and use their sense of feel to track opponent weight distribution and grip positions. This allows them to make intelligent decisions about which escape to attempt and when to initiate the movement.
+New York supplies the arm isolation; clearing the neck changes the controlling hand and forearm position without abandoning the knee hug. This is a guard exchange with the players facing each other. Keep the knee close to the torso and move from the hip. Release to guard if posture control demands knee torque or if the partner is stacked on the neck.
 
-In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensive positions. Once you successfully escape to guard, you immediately work to establish your preferred attacking position - whether that's rubber guard, lockdown half guard, or one of the specialized 10th Planet guard variations. The position teaches practitioners that defense is not passive survival, but an active process of controlling the situation while setting up your return to offense.
+The knee-hugging arm maintains an overhook around the isolated upper arm as the neck is cleared. Keep the inside forearm between the bodies to manage incoming chest pressure; if that barrier fails, release the high leg before rebuilding an elbow-to-knee shield.
 
 </section>
 
@@ -240,11 +228,10 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 <p class="section-subtitle">What is Chill Dog (Bottom)?</p>
 
-- Bottom practitioner maintains hands and knees contact with mat, weight distributed evenly across four points creating stable base that resists rolling and flattening attempts
-- Elbows remain pressed tight against inside of knees throughout position, creating closed defensive frame that prevents opponent hook insertion and harness grip establishment
-- Back stays rounded with head tucked between shoulders, chin to chest, removing opponent's ability to use spine as lever for control or drive weight forward to flatten
-- Hips turned slightly away from opponent's primary attacking direction, creating defensive angle while maintaining ability to explosively rotate for escapes
-- Minimal space exists between thighs and torso with knees pulled toward chest in ball-like configuration, preventing opponent from driving wedges or establishing cross-body controls
+- The bottom player is on the back or hip with a high rubber-guard leg across the upper back.
+- One of the top player's arms is isolated beside the bottom player rather than framing inside.
+- The bottom player hugs the raised knee and has cleared the controlling arm around the head.
+- A forearm frame and hip angle help preserve space without pulling the foot against the knee.
 
 
 </section>
@@ -255,12 +242,9 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 <p class="section-subtitle">What do you need before playing Chill Dog (Bottom)?</p>
 
-- Guard has been passed or bottom player has been swept to top position
-- Bottom player has turned to turtle to prevent being flattened to back or side control
-- Opponent is positioned behind or beside attempting to establish back control or submission
-- Bottom player maintains sufficient base on hands and knees to support weight
-- Initial back take attempts have been defended by maintaining compact posture
-- Bottom player has identified need for defensive shell before attempting escapes
+- Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
+- Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
+- Move the controlling arm around the head while keeping the leg and trapped arm connected.
 
 
 </section>
@@ -271,13 +255,12 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 <p class="section-subtitle">What are the key principles for defending Chill Dog?</p>
 
-- Elbow-to-knee connection is non-negotiable - this closed frame prevents all primary turtle attacks
-- Rounded back with tucked head removes opponent's leverage points and protects neck from chokes
-- Forward weight distribution on hands prevents opponent from rolling or flipping you over
-- Hip positioning away from primary attack creates defensive angles while maintaining escape options
-- Controlled breathing and patience enable you to wait for opponent overcommitment before escaping
-- Position is always transitional - you must escape to guard or standing within 20-45 seconds
-- Explosive execution of chosen escape is critical - hesitation allows opponent to shut down movement
+- Secure New York first: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
+- Turn onto the hip: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
+- Clear the neck: Move the controlling arm around the head while keeping the leg and trapped arm connected.
+- Place the inside frame: Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.
+- Maintain the arm trap: Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup.
+- Recover when control opens: Return the legs to a comfortable guard if the opponent withdraws the elbow or stacks your upper back.
 
 
 </section>
@@ -288,30 +271,16 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 <p class="section-subtitle">What should you do from Chill Dog (Bottom)?</p>
 
-**If opponent establishes strong chest pressure and attempts to flatten turtle:**
-- Execute **[[Granby Roll/Attacker|Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 45%)
-- Execute **[[Principles/Hip Escape Mechanics/Attacker|Hip Escape]]** → [[Positions/Half Guard]] (Probability: 40%)
+**When the arm remains isolated and neck clearance permits the second leg to close high:**
+- Execute **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 58%)
 
 
-**If opponent circles to attack back or attempts to establish hooks:**
-- Execute **[[Turn into opponent/Attacker|Turn into opponent]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
-- Execute **[[Granby Roll/Attacker|Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
-- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 50%)
+**When the high-leg connection opens and you can safely restore facing guard:**
+- Execute **[[Transitions/Escape Chill Dog/Attacker|Escape Chill Dog]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
-**If opponent attempts front headlock control or guillotine setup:**
-- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 55%)
-- Execute **[[Pull head free and sit to guard/Attacker|Pull head free and sit to guard]]** → [[Positions/Open Guard]] (Probability: 40%)
-
-
-**If opponent attempts to isolate arm for crucifix or kimura:**
-- Execute **[[Pull arm back and roll/Attacker|Pull arm back and roll]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Post on isolated arm and stand/Attacker|Post on isolated arm and stand]]** → [[Positions/Clinch]] (Probability: 40%)
-
-
-**If opponent attempts to establish truck or cross-body ride control:**
-- Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
-- Execute **[[Straighten bottom leg and turn in/Attacker|Straighten bottom leg and turn in]]** → [[Positions/Half Guard]] (Probability: 45%)
+**Only after obtaining the shoulder angle, triceps control and head-side leg clearance required for Carni:**
+- Execute **[[Transitions/Rotate to Carni/Attacker|Rotate to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 55%)
 
 
 
@@ -324,40 +293,30 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 <p class="section-subtitle">What mistakes should you avoid when defending Chill Dog?</p>
 
-### 1. Keeping hips too high and weight back on heels
+### 1. Skipping the checkpoint: secure new york first
 
-- ❌ **Consequence**: Opponent can easily insert hooks and establish back control or roll defender to their back
-- ✅ **Correction**: Keep weight forward on hands with hips low and heavy, distributing weight across all four points of contact equally
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
+- ✅ **Correction**: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
 
-### 2. Allowing elbows to separate from knees
+### 2. Skipping the checkpoint: turn onto the hip
 
-- ❌ **Consequence**: Creates space for opponent to insert hooks, establish harness control, or attack with arm isolation techniques like crucifix
-- ✅ **Correction**: Maintain constant connection between elbows and inside of knees, keeping compact defensive frame at all times
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
+- ✅ **Correction**: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
 
-### 3. Lifting head up to look around or track opponent
+### 3. Skipping the checkpoint: clear the neck
 
-- ❌ **Consequence**: Exposes neck to front headlock controls, guillotines, and allows opponent to drive weight forward to flatten turtle
-- ✅ **Correction**: Keep head tucked between shoulders with chin to chest, using peripheral awareness and feel rather than visual tracking
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Move the controlling arm around the head while keeping the leg and trapped arm connected.
+- ✅ **Correction**: Move the controlling arm around the head while keeping the leg and trapped arm connected.
 
-### 4. Staying static and not recognizing escape windows
+### 4. Skipping the checkpoint: place the inside frame
 
-- ❌ **Consequence**: Opponent consolidates position and eventually establishes dominant control like back mount or submission controls
-- ✅ **Correction**: Stay patient but alert for opponent overcommitment or weight shifts, then explosively execute escape technique when window opens
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.
+- ✅ **Correction**: Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.
 
-### 5. Attempting to stand up before clearing opponent's grips
+### 5. Skipping the checkpoint: maintain the arm trap
 
-- ❌ **Consequence**: Opponent uses standing attempt to secure back control with both hooks or establish standing back control
-- ✅ **Correction**: Clear opponent's primary grips first, create separation with hip movement, then stand with proper base and posture
-
-### 6. Turning into opponent's attacks instead of away
-
-- ❌ **Consequence**: Makes it easier for opponent to establish cross-body controls, mount, or side control positions
-- ✅ **Correction**: Identify opponent's primary attacking direction and keep hips turned away from that side while maintaining defensive frame
-
-### 7. Holding breath or tensing entire body
-
-- ❌ **Consequence**: Rapid fatigue, inability to feel opponent's movements, and delayed reaction time for escapes
-- ✅ **Correction**: Maintain controlled breathing and selective tension - tight in defensive frames but relaxed in non-critical areas to conserve energy
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup.
+- ✅ **Correction**: Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup.
 
 
 
@@ -369,39 +328,25 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 <p class="section-subtitle">How do you train Chill Dog defense?</p>
 
-### Chill Dog Position Hold
+### Identify the configuration
 
-Partner applies varying levels of pressure and attack attempts while defender maintains proper Chill Dog posture. Focus on keeping elbows to knees, head tucked, and base solid for 2-minute rounds. Partner progresses from light pressure to aggressive back take attempts.
+Work cooperatively on secure new york first. Keep the opposing hand on the mat and hug the knee before changing the head-side grip. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 5 rounds x 2 minutes
-
-
-### Granby Roll Chains from Chill Dog
-
-Start in Chill Dog with partner attempting to flatten or take back. Defender executes Granby roll to guard when partner commits forward. Reset and repeat, working both directions. Focus on timing the roll when opponent's weight is committed and maintaining momentum through completion.
-
-**Duration**: 10 minutes alternating
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Technical Stand-up Progression
+### Rehearse the connection
 
-From Chill Dog, practice clearing grips and executing technical stand-up while partner provides progressive resistance. Start with cooperative drilling, then add timing requirements as partner attempts various turtle attacks. Emphasize proper grip breaks, base creation, and standing posture.
+Work cooperatively on turn onto the hip. Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 15 minutes
-
-
-### Turtle Escape Flow Drill
-
-Partner attacks turtle with various controls (harness, front headlock, truck setup, crucifix attempt). Defender must identify attack and execute appropriate escape: Granby for flattening, stand-up for front headlock, sit-through for hook attempts, etc. Continuous flow for time.
-
-**Duration**: 5 rounds x 3 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Chill Dog Positional Sparring
+### Add an early response
 
-Start every round in Chill Dog with partner behind attempting any legal attack. Defender scores points for successful escapes to guard or standing. Attacker scores for back control, mount, or submissions. Reset after each score. Emphasizes realistic timing and decision-making under pressure.
+Work cooperatively on clear the neck. Move the controlling arm around the head while keeping the leg and trapped arm connected. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 6 rounds x 4 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
 
@@ -416,11 +361,11 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 62% |
-| Advancement Probability | 52% |
-| Submission Probability | 12% |
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 42% |
 
-**Average Time in Position**: 20-45 seconds before escape or position change
+**Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 
 
 </section>
@@ -429,16 +374,10 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 
 ## Related Positions and Techniques
 
-- **[[Positions/Turtle]]** - Parent position - Chill Dog is a specific variant of turtle
-- **[[Transitions/Granby Roll to Guard]]** - Primary rolling escape technique from Chill Dog
-- **[[Transitions/Granby to Closed Guard]]** - Specific Granby escape targeting closed guard recovery
-- **[[Transitions/Technical Stand-up]]** - Alternative escape method when space is available
-- **[[Positions/Back Control]]** - Primary opponent objective from this position
-- **[[Positions/Crucifix]]** - Common opponent attack if arm is isolated
-- **[[Positions/Closed Guard]]** - Target position after successful Granby escape
-- **[[Positions/Half Guard]]** - Common intermediate position during escape sequences
-- **[[Positions/Half Guard/Lockdown]]** - 10th Planet half guard option after escape
-- **[[Transitions/Advance to Chill Dog]]** - Entry transition into this defensive position
+- **[[Positions/Rubber Guard]]** - Related configuration to study separately: compare the configuration and required controls for Rubber Guard.
+- **[[Positions/Rubber Guard/New York]]** - Related configuration to study separately: compare the configuration and required controls for New York.
+- **[[Positions/Rubber Guard/Invisible Collar]]** - Related configuration to study separately: compare the configuration and required controls for Invisible Collar.
+- **[[Positions/Rubber Guard/Mission Control]]** - Related configuration to study separately: compare the configuration and required controls for Mission Control.
 
 
 </section>

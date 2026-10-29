@@ -414,30 +414,18 @@
     "clips": [
       {
         "id": "_CR9bNLYuEk",
-        "title": "Collar and sleeve guard pull",
-        "by": "The Fang Den",
-        "vertical": false,
+        "title": "Collar & Sleeve Guard Pull",
         "channel": "The Fang Den",
         "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XS1e697it5c",
-        "title": "Standing closed guard pull to sweep",
-        "by": "Doug",
         "vertical": false,
-        "channel": "bjj doug",
-        "duration": 27,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "s1l1pyN6DsE",
-        "title": "One-grip guard pull to collar sleeve",
-        "by": "Carpio Jiu Jitsu",
-        "vertical": false,
+        "title": "One Grip Guard Pull to Collar Sleeve",
         "channel": "Carpio Jiu Jitsu",
         "duration": 139,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -618,22 +606,12 @@
     ],
     "clips": [
       {
-        "id": "oaOB2XovGYE",
-        "title": "Intercepting the guard pull",
-        "by": "Riccardo Ammendolia",
-        "vertical": false,
-        "channel": "Riccardo Ammendolia",
-        "duration": 49,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "Cnht4EL_Ato",
-        "title": "Guard pull counter for competition",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
+        "title": "The guard pull counter the editor wish he'd watched before his competition...…",
         "channel": "JeanJacquesMachado",
         "duration": 162,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   }

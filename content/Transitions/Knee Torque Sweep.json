@@ -364,20 +364,17 @@
       {
         "id": "LEwtCvRTxl0",
         "title": "Half Guard Knee Torque Sweep",
-        "by": "The Jiu-Jitsu Foundry",
-        "vertical": false,
         "channel": "The Jiu-Jitsu Foundry",
-        "duration": 21,
-        "verified": "2026-07-15"
+        "duration": 20,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "OWZlH8G8-0g",
-        "title": "Knee Twist Half Guard Sweep (No-Gi)",
-        "by": "Rituals Jiu Jitsu",
-        "vertical": false,
+        "title": "Knee Twist Half Guard Sweep | NO GI Technique",
         "channel": "Rituals Jiu Jitsu",
         "duration": 153,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -537,16 +534,6 @@
         "description": "Positional sparring starting from half guard top where the bottom player actively attempts the knee torque sweep among other attacks. Practice recognizing the sweep setup within the flow of live grappling and implementing the appropriate defensive response while maintaining passing pressure. Progress from lighter to heavier training partners."
       }
     ],
-    "clips": [
-      {
-        "id": "dOdO6xJ-TcU",
-        "title": "Stopping the half guard underhook",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

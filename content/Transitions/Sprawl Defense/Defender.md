@@ -168,35 +168,22 @@ description: "How to counter the sprawl in BJJ. Strategies for completing takedo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double leg finish when they sprawl",
-      "description": "Sprawl Defense (Defender) film study: Double leg finish when they sprawl, taught by Infliction Derby.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/suLByvCIBN4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/suLByvCIBN4",
-      "url": "https://www.youtube.com/watch?v=suLByvCIBN4",
-      "creator": { "@type": "Person", "name": "Infliction Derby" },
-      "duration": "PT146S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Beating the sprawl: double leg to back attacks",
-      "description": "Sprawl Defense (Defender) film study: Beating the sprawl: double leg to back attacks, taught by Modern Combat Arts.",
+      "name": "Double Leg Take Down to Back Attacks! Never Get Sprawled on Again!",
+      "description": "Sprawl Defense (Defender) film study: Double Leg Take Down to Back Attacks! Never Get Sprawled on Again!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CZ-TUSCkvSs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CZ-TUSCkvSs",
       "url": "https://www.youtube.com/watch?v=CZ-TUSCkvSs",
-      "creator": { "@type": "Person", "name": "Modern Combat Arts" },
       "duration": "PT127S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Chain wrestling: shot recovery after the sprawl",
-      "description": "Sprawl Defense (Defender) film study: Chain wrestling: shot recovery after the sprawl, taught by Jordan Burroughs.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U3T0fy6-iNE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U3T0fy6-iNE",
-      "url": "https://www.youtube.com/watch?v=U3T0fy6-iNE",
-      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
-      "duration": "PT244S"
+      "position": 2,
+      "name": "Move of the week - Double leg when they sprawl",
+      "description": "Sprawl Defense (Defender) film study: Move of the week - Double leg when they sprawl.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/suLByvCIBN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/suLByvCIBN4",
+      "url": "https://www.youtube.com/watch?v=suLByvCIBN4",
+      "duration": "PT145S"
     }
   ]
 }
@@ -224,25 +211,17 @@ As the person shooting the takedown, having your attack met with a sprawl is one
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=suLByvCIBN4)
-
-<p class="clip-credit"><strong>Double leg finish when they sprawl</strong> — taught by Infliction Derby · 2:26 · <a href="https://www.youtube.com/watch?v=suLByvCIBN4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=CZ-TUSCkvSs)
 
-<p class="clip-credit"><strong>Beating the sprawl: double leg to back attacks</strong> — taught by Modern Combat Arts · 2:07 · <a href="https://www.youtube.com/watch?v=CZ-TUSCkvSs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Leg Take Down to Back Attacks! Never Get Sprawled on Again!</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=CZ-TUSCkvSs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=U3T0fy6-iNE)
+![](https://www.youtube.com/watch?v=suLByvCIBN4)
 
-<p class="clip-credit"><strong>Chain wrestling: shot recovery after the sprawl</strong> — taught by Jordan Burroughs · 4:04 · <a href="https://www.youtube.com/watch?v=U3T0fy6-iNE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Move of the week - Double leg when they sprawl</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=suLByvCIBN4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -494,22 +494,19 @@
     ],
     "clips": [
       {
-        "id": "2mleTh3ZoBk",
-        "title": "Kneebar from Top Turtle",
-        "by": "Charlie Cosens",
+        "id": "5GOWKe9WTs8",
+        "title": "Knee Bar from Side control",
+        "channel": "NYFIGHTSOURCE Steven Corley",
+        "duration": 94,
         "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 88,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "5GOWKe9WTs8",
-        "title": "Kneebar from Side Control",
-        "by": "Steven Corley",
-        "vertical": false,
-        "channel": "NYFIGHTSOURCE Steven Corley",
-        "duration": 95,
-        "verified": "2026-07-14"
+        "id": "2mleTh3ZoBk",
+        "title": "Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA",
+        "channel": "Cosens MMA LLC",
+        "duration": 88,
+        "vertical": false
       }
     ]
   },
@@ -692,22 +689,25 @@
     ],
     "clips": [
       {
-        "id": "NuWBh3LN-SY",
-        "title": "Kneebar Defense + Take the Back",
-        "by": "Bicudo BJJ",
-        "vertical": false,
-        "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-14"
+        "id": "SG-B04vtGwo",
+        "title": "Daily BJJ: Kneebar Escape",
+        "channel": "Carnage BJJ",
+        "duration": 120,
+        "front": true
       },
       {
         "id": "NHyBpBC4apY",
         "title": "Knee Bar Defense",
-        "by": "Clark Gracie",
-        "vertical": false,
         "channel": "Clark Gracie Allegiance Jiu Jitsu",
         "duration": 138,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar defense + take the back",
+        "channel": "Bicudo BJJ",
+        "duration": 21,
+        "vertical": false
       }
     ]
   },

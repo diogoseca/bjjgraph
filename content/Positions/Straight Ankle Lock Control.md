@@ -36,50 +36,6 @@ description: "Master straight ankle lock control in BJJ. Complete strategic guid
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Straight Ankle Lock Control \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Straight Ankle Lock",
-      "description": "Straight Ankle Lock Control film study: Straight Ankle Lock, taught by bjjtaro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
-      "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
-      "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Backside Foot Finish Mechanics",
-      "description": "Straight Ankle Lock Control film study: Backside Foot Finish Mechanics, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-VpByetjzqs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-VpByetjzqs",
-      "url": "https://www.youtube.com/watch?v=-VpByetjzqs",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Straight Foot Lock Sitting Up",
-      "description": "Straight Ankle Lock Control film study: Straight Foot Lock Sitting Up, taught by Ninja Pinto BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9SuTfbCNcFs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9SuTfbCNcFs",
-      "url": "https://www.youtube.com/watch?v=9SuTfbCNcFs",
-      "creator": { "@type": "Person", "name": "Ninja Pinto BJJ" },
-      "duration": "PT70S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -123,40 +79,6 @@ The position also serves an important pedagogical function in teaching fundament
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Straight Ankle Lock Control in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
-
-<p class="clip-credit"><strong>Straight Ankle Lock</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-VpByetjzqs)
-
-<p class="clip-credit"><strong>Backside Foot Finish Mechanics</strong> — taught by Mikey Musumeci · 1:24 · <a href="https://www.youtube.com/watch?v=-VpByetjzqs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9SuTfbCNcFs)
-
-<p class="clip-credit"><strong>Straight Foot Lock Sitting Up</strong> — taught by Ninja Pinto BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=9SuTfbCNcFs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -229,21 +151,19 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (18% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (20% of attempts)
 
-- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (12% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (13% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (13% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (14% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (9% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (11% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (10% of attempts)
+- **[[Transitions/Straight Footlock/Attacker|Straight Footlock]]** (19% of attempts)
 
-- **[[Transitions/Straight Footlock/Attacker|Straight Footlock]]** (17% of attempts)
+- **[[Transitions/Ankle Lock Escape to Standing/Attacker|Ankle Lock Escape to Standing]]** (10% of attempts)
 
-- **[[Transitions/Ankle Lock Escape to Standing/Attacker|Ankle Lock Escape to Standing]]** (9% of attempts)
-
-- **[[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (12% of attempts)
+- **[[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (13% of attempts)
 
 
 ### Common Mistakes

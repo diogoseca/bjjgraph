@@ -1,0 +1,374 @@
+{
+  "name": "Hindu Control to Triangle",
+  "from_position": "Hindulotine/Bottom",
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
+  "outcomes": [
+    {
+      "to": "Triangle Control/Bottom",
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
+      "result": "success"
+    },
+    {
+      "to": "Hindulotine/Bottom",
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "The bottom Hindu Control holder uses the taught kick-through response to establish a leg triangle around the neck and one arm, stopping at control before a separate finish.",
+  "description": "The bottom Hindu Control holder uses the taught kick-through response to establish a leg triangle around the neck and one arm, stopping at control before a separate finish.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The bottom Hindu Control holder uses the taught kick-through response to establish a leg triangle around the neck and one arm, stopping at control before a separate finish.\n\nBegin as the bottom Hindu Control holder with the leg-in head enclosure established. Remove finishing pressure before changing the head-and-leg arrangement.\n\nSupport the raised knee through the hip angle as the enclosure changes. Use the taught kick-through response to bring the leg into the triangle-control arrangement. Establish the leg triangle around the neck and one arm as Triangle Control/Bottom. Stop at the control checkpoint; a submission finish requires its own separate action.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Hindulotine",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Hindu Control to Triangle Attacker",
+    "description": "The bottom Hindu Control holder uses the taught kick-through response to establish a leg triangle around the neck and one arm, stopping at control before a separate finish.",
+    "overview": "The bottom Hindu Control holder uses the taught kick-through response to establish a leg triangle around the neck and one arm, stopping at control before a separate finish.\n\nBegin as the bottom Hindu Control holder with the leg-in head enclosure established. Remove finishing pressure before changing the head-and-leg arrangement.\n\nSupport the raised knee through the hip angle as the enclosure changes. Use the taught kick-through response to bring the leg into the triangle-control arrangement. Establish the leg triangle around the neck and one arm as Triangle Control/Bottom. Stop at the control checkpoint; a submission finish requires its own separate action.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom holds the leg-in enclosure: Begin as the bottom Hindu Control holder with the leg-in head enclosure established.",
+      "Pressure released before exchange: Remove finishing pressure before changing the head-and-leg arrangement.",
+      "Hip angle supports the raised knee: Support the raised knee through the hip angle as the enclosure changes.",
+      "Leg moves through the opening: Use the taught kick-through response to bring the leg into the triangle-control arrangement.",
+      "Neck and one arm within the legs: Establish the leg triangle around the neck and one arm as Triangle Control/Bottom.",
+      "Triangle control before finishing: Stop at the control checkpoint; a submission finish requires its own separate action."
+    ],
+    "setup_requirements": [
+      "Begin as the bottom Hindu Control holder with the leg-in head enclosure established.",
+      "Remove finishing pressure before changing the head-and-leg arrangement.",
+      "Support the raised knee through the hip angle as the enclosure changes.",
+      "Use the taught kick-through response to bring the leg into the triangle-control arrangement."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm Hindu Control",
+        "description": "Begin as the bottom Hindu Control holder with the leg-in head enclosure established."
+      },
+      {
+        "step_number": 2,
+        "action": "Unload the neck",
+        "description": "Remove finishing pressure before changing the head-and-leg arrangement."
+      },
+      {
+        "step_number": 3,
+        "action": "Keep the exchange controlled",
+        "description": "Support the raised knee through the hip angle as the enclosure changes."
+      },
+      {
+        "step_number": 4,
+        "action": "Use the kick-through response",
+        "description": "Use the taught kick-through response to bring the leg into the triangle-control arrangement."
+      },
+      {
+        "step_number": 5,
+        "action": "Confirm the triangle",
+        "description": "Establish the leg triangle around the neck and one arm as Triangle Control/Bottom."
+      },
+      {
+        "step_number": 6,
+        "action": "Pause at control",
+        "description": "Stop at the control checkpoint; a submission finish requires its own separate action."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Recognize the leg exchange before the triangle closes.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Hindulotine/Bottom"
+      },
+      {
+        "counter": "Maintain head and shoulder alignment while space remains.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Hindulotine/Bottom"
+      },
+      {
+        "counter": "Keep the arm near the torso before the enclosure isolates it.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping confirm hindu control",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the bottom Hindu Control holder with the leg-in head enclosure established."
+      },
+      {
+        "error": "Skipping unload the neck",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Remove finishing pressure before changing the head-and-leg arrangement."
+      },
+      {
+        "error": "Skipping keep the exchange controlled",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Support the raised knee through the hip angle as the enclosure changes."
+      },
+      {
+        "error": "Skipping use the kick-through response",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Use the taught kick-through response to bring the leg into the triangle-control arrangement."
+      },
+      {
+        "error": "Skipping confirm the triangle",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Establish the leg triangle around the neck and one arm as Triangle Control/Bottom."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Confirm Hindu Control",
+        "description": "Begin as the bottom Hindu Control holder with the leg-in head enclosure established. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Unload the neck",
+        "description": "Remove finishing pressure before changing the head-and-leg arrangement. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Keep the exchange controlled",
+        "description": "Support the raised knee through the hip angle as the enclosure changes. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Use the kick-through response",
+        "description": "Use the taught kick-through response to bring the leg into the triangle-control arrangement. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Hindu Control to Triangle: what does confirm hindu control require?",
+        "answer": "Begin as the bottom Hindu Control holder with the leg-in head enclosure established.",
+        "answer_line": "Bottom holds the leg-in enclosure",
+        "distractors": {
+          "plausible": [
+            "A finished choke on leg entry",
+            "A top sweep without a reversal"
+          ],
+          "trap": [
+            "A rear seatbelt with both hooks"
+          ]
+        }
+      },
+      {
+        "question": "Hindu Control to Triangle: what does unload the neck require?",
+        "answer": "Remove finishing pressure before changing the head-and-leg arrangement.",
+        "answer_line": "Pressure released before exchange",
+        "distractors": {
+          "plausible": [
+            "A top sweep without a reversal",
+            "A rear seatbelt with both hooks"
+          ],
+          "trap": [
+            "A neck twist through resistance"
+          ]
+        }
+      },
+      {
+        "question": "Hindu Control to Triangle: what does keep the exchange controlled require?",
+        "answer": "Support the raised knee through the hip angle as the enclosure changes.",
+        "answer_line": "Hip angle supports the raised knee",
+        "distractors": {
+          "plausible": [
+            "A rear seatbelt with both hooks",
+            "A neck twist through resistance"
+          ],
+          "trap": [
+            "A finished choke on leg entry"
+          ]
+        }
+      },
+      {
+        "question": "Hindu Control to Triangle: what does use the kick-through response require?",
+        "answer": "Use the taught kick-through response to bring the leg into the triangle-control arrangement.",
+        "answer_line": "Leg moves through the opening",
+        "distractors": {
+          "plausible": [
+            "A neck twist through resistance",
+            "A finished choke on leg entry"
+          ],
+          "trap": [
+            "A top sweep without a reversal"
+          ]
+        }
+      },
+      {
+        "question": "Hindu Control to Triangle: what does confirm the triangle require?",
+        "answer": "Establish the leg triangle around the neck and one arm as Triangle Control/Bottom.",
+        "answer_line": "Neck and one arm within the legs",
+        "distractors": {
+          "plausible": [
+            "A finished choke on leg entry",
+            "A top sweep without a reversal"
+          ],
+          "trap": [
+            "A rear seatbelt with both hooks"
+          ]
+        }
+      },
+      {
+        "question": "Hindu Control to Triangle: what does pause at control require?",
+        "answer": "Stop at the control checkpoint; a submission finish requires its own separate action.",
+        "answer_line": "Triangle control before finishing",
+        "distractors": {
+          "plausible": [
+            "A top sweep without a reversal",
+            "A rear seatbelt with both hooks"
+          ],
+          "trap": [
+            "A neck twist through resistance"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Hindu Control to Triangle Defender",
+    "description": "Recognize Hindu Control to Triangle and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Recognize the leg exchange before the triangle closes. Maintain head and shoulder alignment while space remains. Keep the arm near the torso before the enclosure isolates it. Tap if the neck is loaded instead of forcing the exchange. Recognize ordinary closed guard if the high-leg control fully releases.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Recognize the leg exchange before the triangle closes.",
+      "Maintain head and shoulder alignment while space remains.",
+      "Keep the arm near the torso before the enclosure isolates it.",
+      "Tap if the neck is loaded instead of forcing the exchange.",
+      "Recognize ordinary closed guard if the high-leg control fully releases."
+    ],
+    "recognition_cues": [
+      "Begin as the bottom Hindu Control holder with the leg-in head enclosure established.",
+      "Remove finishing pressure before changing the head-and-leg arrangement.",
+      "Support the raised knee through the hip angle as the enclosure changes."
+    ],
+    "defensive_options": [
+      {
+        "action": "Recognize the leg exchange before the triangle closes.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Hindulotine/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Maintain head and shoulder alignment while space remains.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Hindulotine/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Keep the arm near the torso before the enclosure isolates it.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Tap if the neck is loaded instead of forcing the exchange.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Hindulotine/Bottom",
+        "how": "Recognize the leg exchange before the triangle closes."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Recognize ordinary closed guard if the high-leg control fully releases."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Recognize ordinary closed guard if the high-leg control fully releases."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Maintain head and shoulder alignment while space remains."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Hindu Control to Triangle, what connection do you address first?",
+        "answer": "Recognize the leg exchange before the triangle closes."
+      },
+      {
+        "question": "Against Hindu Control to Triangle, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Hindu Control to Triangle, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Confirm Hindu Control",
+        "description": "Begin as the bottom Hindu Control holder with the leg-in head enclosure established. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Unload the neck",
+        "description": "Remove finishing pressure before changing the head-and-leg arrangement. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Keep the exchange controlled",
+        "description": "Support the raised knee through the hip angle as the enclosure changes. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the bottom Hindu Control holder with the leg-in head enclosure established.",
+    "Remove finishing pressure before changing the head-and-leg arrangement.",
+    "Support the raised knee through the hip angle as the enclosure changes."
+  ],
+  "position_integration": "The bottom Hindu Control holder uses the taught kick-through response to establish a leg triangle around the neck and one arm, stopping at control before a separate finish. Begin as the bottom Hindu Control holder with the leg-in head enclosure established. Stop at the control checkpoint; a submission finish requires its own separate action."
+}

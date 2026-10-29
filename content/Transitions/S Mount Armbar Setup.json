@@ -402,22 +402,19 @@
     "safety_considerations": "The S Mount Armbar Setup transitions directly into armbar control where hyperextension of the elbow joint is the submission mechanism. Apply pressure gradually and progressively during drilling, never jerking or cranking the arm. Partners should establish clear tap signals before drilling. When the arm reaches full extension against resistance, the submission is complete - release immediately upon tap. During live training, be cautious during the fall-back phase where momentum can accelerate arm extension beyond the partner's ability to tap in time. Always prioritize training partner safety over submission completion.",
     "clips": [
       {
-        "id": "5UtNLw7usQk",
-        "title": "Switch-side armbar from S-mount",
-        "by": "Darrin Lillian",
-        "vertical": false,
-        "channel": "Darrin Lillian",
-        "duration": 50,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "nH4ly3vk7WI",
-        "title": "S-mount armbar, kimura and far-side armbar",
-        "by": "GB Costa Mesa coach",
-        "vertical": false,
+        "title": "S-Mount Armbar, Kimura, + Far side Armbar",
         "channel": "GBCostaMesa",
         "duration": 24,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "5UtNLw7usQk",
+        "title": "Technique of the week - switch side armbar from S mount",
+        "channel": "Darrin Lillian",
+        "duration": 50,
+        "vertical": false
       }
     ]
   },
@@ -611,34 +608,6 @@
         "description": "Incorporate S Mount Armbar Setup defense into regular positional sparring from mount. Practice recognizing setup initiation during dynamic exchanges and executing defensive responses at full speed against fully committed attacks."
       }
     ],
-    "clips": [
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "Favorite armbar escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AfDEN3uK3W0",
-        "title": "Low-effort armbar escape via foot capture",
-        "by": "Patrick Donabedian",
-        "vertical": false,
-        "channel": "Patrick Donabedian BJJ",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zKieMBkGXxU",
-        "title": "Armbar defense and stack escape",
-        "by": "Daniel Frank",
-        "vertical": false,
-        "channel": "Daniel Frank",
-        "duration": 32,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

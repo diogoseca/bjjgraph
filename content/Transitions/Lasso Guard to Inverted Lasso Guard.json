@@ -91,7 +91,7 @@
       "relationship": "Related movement pattern - shares inversion mechanics and shoulder-based weight distribution principles"
     },
     {
-      "name": "Kiss of the Dragon",
+      "name": "Kiss of the Dragon from RDLR",
       "relationship": "Chain technique - inverted lasso naturally flows into kiss of the dragon back take when opponent defends berimbolo"
     },
     {
@@ -358,30 +358,11 @@
     "clips": [
       {
         "id": "9WuupXzZt3E",
-        "title": "Lasso to inverted omoplata",
-        "by": "Emil Takeuchi",
-        "vertical": false,
+        "title": "Lasso Guard Series Part 5: Lasso to Inverted Omoplata",
         "channel": "Six Blades NOVA Emil Takeuchi",
-        "duration": 139,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "vo3_QO3eFMc",
-        "title": "Lasso roll under sweep",
-        "by": "Chen Moraes",
+        "duration": 138,
         "vertical": false,
-        "channel": "Chen Moraes",
-        "duration": 17,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "n4ddjzGemrw",
-        "title": "Lasso guard variations",
-        "by": "Felipe Costa",
-        "vertical": false,
-        "channel": "Felipe Costa",
-        "duration": 28,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -559,25 +540,6 @@
         "description": "Start every round in established lasso guard. Bottom player attempts inversions, sweeps, and submissions at full intensity. Top player applies all defensive tools while also pursuing passing opportunities. Full resistance with round reset after pass or sweep. Track inversion prevention rate to measure defensive improvement over sessions."
       }
     ],
-    "clips": [
-      {
-        "id": "Z78HFDQNtFw",
-        "title": "Countering the inversion (cross grip series)",
-        "by": "BJJ Lab Zürich",
-        "vertical": false,
-        "channel": "BJJ Lab Zürich",
-        "duration": 56,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3e82Y_MRj_o",
-        "title": "Counter an inversion from top north-south",
-        "by": "Frankie Roberts",
-        "vertical": false,
-        "channel": "Frankie Roberts",
-        "duration": 42,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

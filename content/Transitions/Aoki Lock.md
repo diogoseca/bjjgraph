@@ -4,7 +4,7 @@
 
 ---
 title: "Aoki Lock | BJJ Technique | BJJ Graph"
-description: "Master the Aoki Lock in BJJ. Advanced shoulder lock from Aoki Lock Control using leg entanglement and hip-driven pressure. Setup, finish, and counters explained."
+description: "Entering Aoki Lock Control from Ashi Garami captures an available outward-turned foot while retaining the hip connection. Rehearse the transition without finishing rotation."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Aoki Lock in BJJ. Advanced shoulder lock from Aoki Lock
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Aoki Lock",
-  "description": "Master the Aoki Lock in BJJ. Advanced shoulder lock from Aoki Lock Control using leg entanglement and hip-driven pressure. Setup, finish, and counters explained.",
+  "description": "Entering Aoki Lock Control from Ashi Garami captures an available outward-turned foot while retaining the hip connection. Rehearse the transition without finishing rotation.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Master the Aoki Lock in BJJ. Advanced shoulder lock from Aoki Lock
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Aoki Lock",
-  "description": "The Aoki Lock is a no-gi shoulder-lock submission finished from Aoki Lock Control, where the top player traps the opponent's isolated arm between their legs and drives the hips forward to force external rotation on the shoulder until the tap.",
+  "description": "The Aoki Lock is a rotational foot lock that captures a turned-out foot against the upper body while controlling the leg and hip, potentially stressing both the ankle and knee.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,16 +94,18 @@ description: "Master the Aoki Lock in BJJ. Advanced shoulder lock from Aoki Lock
 
 <section id="overview" class="content-section">
 
-**The Aoki Lock is a no-gi shoulder-lock submission finished from Aoki Lock Control, where the top player traps the opponent's isolated arm between their legs and drives the hips forward to force external rotation on the shoulder until the tap.**
+**The Aoki Lock is a rotational foot lock that captures a turned-out foot against the upper body while controlling the leg and hip, potentially stressing both the ankle and knee.**
 
-The Aoki Lock is an advanced shoulder lock submission executed from a leg-entangled shoulder control position, named after Japanese MMA fighter Shinya Aoki. This technique combines omoplata-style shoulder manipulation with leg-based trapping, creating rotational pressure on the shoulder joint through hip drive and proper angle maintenance. The finish requires precise mechanical understanding of shoulder anatomy and progressive pressure application to force the tap while minimizing injury risk.
+The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.
 
-From a strategic perspective, the Aoki Lock serves as the terminal option when you have established dominant leg entanglement control over the opponent's shoulder. The technique is particularly effective in no-gi competition and submission-only formats where the absence of gi grips makes traditional shoulder lock escapes more difficult. Success depends on maintaining tight leg control throughout the finish sequence while applying gradual, progressive pressure that gives your opponent time to recognize the submission threat and tap safely.
+Identify the turned-out foot without forcing it to rotate against resistance. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. Secure the upper-body enclosure while leaving the foot unloaded during practice.
 
-The finishing mechanics involve driving your hips forward and down into the opponent's shoulder while keeping their arm extended and isolated between your legs. Unlike traditional shoulder locks that rely primarily on arm manipulation, the Aoki Lock uses your entire lower body as a unified control mechanism, making it extremely difficult to escape once properly secured. The position carries significant injury risk, requiring strict adherence to safety protocols including progressive pressure application and immediate release upon tap signals.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-**From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 50%
+Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).
+
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
+**Success Rate**: 40%
 
 </section>
 
@@ -141,9 +143,9 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Aoki Lock/from Aoki Lock Control]] | 65% |
-| Failure | [[Positions/Aoki Lock Control]] | 25% |
-| Counter | [[Positions/Open Guard]] | 10% |
+| Success | [[Positions/Aoki Lock Control]] | 40% |
+| Failure | [[Positions/Ashi Garami]] | 40% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -155,7 +157,7 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Maintain tight leg entanglement throughout the finish to pre... | Recognize the finish attempt early by feeling the leg tighte... |
+| **Key Principles** | Confirm the foot orientation: Identify the turned-out foot w... | Recognize rotation: Treat an outward-turned foot caught by t... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -169,51 +171,49 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 ### Key Principles
 
 
-- Maintain tight leg entanglement throughout the finish to prevent arm extraction and escape
+- Confirm the foot orientation: Identify the turned-out foot without forcing it to rotate against resistance.
 
-- Apply progressive hip pressure over 3-5 seconds minimum to allow safe tap recognition
+- Enclose the foot: Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
 
-- Keep opponent's elbow pointed away from their body to maximize shoulder joint torque
+- Connect the hands: Secure the upper-body enclosure while leaving the foot unloaded during practice.
 
-- Post free leg close to opponent's body to maintain stable base during finish
+- Manage the hip: Use the legs and hip connection to limit free movement without twisting a planted knee.
 
-- Control opponent's hips with hands to prevent rotation into the pressure
+- Stop at controlled capture: Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement.
 
-- Monitor opponent's tap signals constantly including verbal, hand taps, and body language
-
-- Release immediately upon any tap signal to prevent shoulder injury
+- Release before movement: Open the arms and leg connection on a tap, sudden turn, or loss of communication.
 
 
 ### Execution Steps
 
 
-- **Verify position**: Confirm leg entanglement is tight around opponent's shoulder and upper arm with your thigh over thei...
+- **Confirm the foot orientation**: Identify the turned-out foot without forcing it to rotate against resistance....
 
-- **Secure hip control**: Place your hands on opponent's far hip and near hip to prevent any rotation or escape angles. This c...
+- **Enclose the foot**: Bring the instep under the upper arm and support the heel/Achilles region with the forearm....
 
-- **Tighten leg triangle**: Squeeze your legs together firmly around opponent's shoulder complex, driving your top leg down whil...
+- **Connect the hands**: Secure the upper-body enclosure while leaving the foot unloaded during practice....
 
-- **Initiate hip drive**: Begin driving your hips forward and down into opponent's shoulder joint at a gradual, controlled pac...
+- **Manage the hip**: Use the legs and hip connection to limit free movement without twisting a planted knee....
 
-- **Maintain pressure angle**: Adjust your hip angle to maximize external rotation pressure on opponent's shoulder. The pressure ve...
+- **Stop at controlled capture**: Recognize that a small body extension can create rotational ankle and knee pressure; do not search f...
 
-- **Complete finish or release**: Continue progressive pressure until opponent taps or verbally submits. Release immediately upon any ...
+- **Release before movement**: Open the arms and leg connection on a tap, sudden turn, or loss of communication....
 
 
 ### Common Mistakes
 
 
-- **Applying pressure too quickly or explosively without gradual buildup**
-  - Consequence: Risk of serious shoulder injury including rotator cuff tears, labrum damage, or dislocation. Opponent cannot tap safely when pressure is explosive.
-  - Correction: Apply pressure progressively over 3-5 seconds minimum. Build gradually and watch for tap signals constantly. The finish should feel controlled, not explosive.
+- **Skipping the checkpoint: confirm the foot orientation**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Identify the turned-out foot without forcing it to rotate against resistance.
+  - Correction: Identify the turned-out foot without forcing it to rotate against resistance.
 
-- **Loose leg entanglement allowing opponent's arm to partially extract during finish**
-  - Consequence: Submission fails as opponent extracts arm or adjusts shoulder angle to defend. Position may be lost entirely.
-  - Correction: Maintain tight squeeze with legs throughout finish. Drive top leg down and bottom leg up continuously. Re-tighten immediately if any slack develops.
+- **Skipping the checkpoint: enclose the foot**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
+  - Correction: Bring the instep under the upper arm and support the heel/Achilles region with the forearm.
 
-- **Posted leg positioned too far from opponent's body**
-  - Consequence: Unstable base allows opponent to roll through or create escape angles. Hip pressure becomes inconsistent.
-  - Correction: Keep posted leg close to opponent's body throughout finish. Base should feel stable and connected, not extended or reaching.
+- **Skipping the checkpoint: connect the hands**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Secure the upper-body enclosure while leaving the foot unloaded during practice.
+  - Correction: Secure the upper-body enclosure while leaving the foot unloaded during practice.
 
 
 </section>
@@ -227,39 +227,37 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 ### Key Principles
 
 
-- Recognize the finish attempt early by feeling the leg tightening and hip pressure shift before full commitment
+- Recognize rotation: Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.
 
-- Internally rotate your shoulder to resist external rotation pressure and reduce torque on the joint
+- Deny the enclosure: Hand fight and recover foot position before the attacker connects around the foot.
 
-- Address the leg entanglement first before attempting arm extraction - legs are the primary control mechanism
+- Keep the leg aligned: Do not rotate the torso independently of a captured foot and knee.
 
-- Use your free hand to attack the attacker's posted leg base rather than trying to pull your trapped arm free
+- Free the connection early: Create slack in the hand and hip controls before withdrawing the leg.
 
-- Roll toward the trapped arm to follow the path of least resistance rather than fighting against the pressure direction
+- Tap before pain: Stop at a secure rotational capture rather than testing whether the joint still tolerates movement.
 
-- Tap immediately when shoulder pressure reaches uncomfortable levels - this submission causes serious injury quickly
+- Reset after release: Wait for the entire enclosure to open before standing, turning, or restarting the exchange.
 
 
 ### Recognition Cues
 
 
-- Attacker squeezes legs tighter around your shoulder complex, compressing the entanglement with increased intensity
+- The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection.
 
-- Attacker's hips begin shifting forward and down, signaling the transition from control to active finishing pressure
+- The attacker brings your instep under the upper arm and supports the heel/Achilles region with the forearm.
 
-- Attacker's hands reposition from general control to specifically anchoring your hips, preventing rotation and escape angles
-
-- You feel increasing external rotation stress on your trapped shoulder as the pressure angle changes from neutral to submission-threatening
+- The attacker uses the legs and hip connection to limit your free movement without twisting a planted knee.
 
 
 ### Defensive Options
 
 
-- **Roll toward trapped arm following the pressure direction to relieve shoulder torque and create a scramble** - When: Immediately when you feel initial hip pressure shift before full commitment - the earlier the better
+- **Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Attack attacker's posted leg base with your free hand to destabilize their hip pressure platform** - When: When attacker's posted leg is accessible and not too close to their body, creating a target for disruption
+- **Hand fight and recover foot position before the attacker connects around the foot.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Bend trapped elbow and internally rotate shoulder while hip escaping to reduce pressure angle** - When: When leg entanglement has slight slack and you can still manipulate your trapped arm position before full lock
+- **Do not rotate the torso independently of a captured foot and knee.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -270,13 +268,10 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 ## Variations
 
 
-**Rolling Aoki Lock**: When opponent attempts to roll through your Aoki Lock control, follow their momentum while maintaining leg entanglement. Complete the finish from the new angle after the roll, often ending in a more dominant position with their shoulder fully isolated. (When to use: When opponent initiates roll escape and you can follow their momentum rather than fighting it)
+**Cooperative checkpoint drill**: Identify the turned-out foot without forcing it to rotate against resistance. Bring the instep under the upper arm and support the heel/Achilles region with the forearm. (When to use: Learning the control without submission pressure)
 
 
-**Aoki Lock to Back Take Finish**: When opponent's shoulder defense is strong, release the shoulder lock pressure slightly while maintaining leg entanglement. Use the control to transition to back control, then reattack with rear naked choke or re-establish Aoki Lock from the new angle. (When to use: When direct finish is defended but positional control remains strong)
-
-
-**Extended Arm Variation**: Variation where opponent's arm is fully straightened and extended away from their body. Apply wrist control with hands while maintaining leg entanglement on shoulder. Creates dual threat to shoulder and elbow joints. (When to use: When opponent's arm is fully extended and you can secure wrist control)
+**Response and reset drill**: Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -288,7 +283,7 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 
 ## Position Integration
 
-The Aoki Lock represents the terminal offensive option from Aoki Lock top control, completing the shoulder lock attack sequence that begins with position entry from turtle attacks, front headlock, or guard passing. This finish integrates into the broader leg entanglement and shoulder lock systems, sharing mechanical principles with omoplata and kimura attacks while using lower body control rather than upper body grips. When the finish is defended, natural transitions flow to back control, truck position, or crucifix capture, making the Aoki Lock system a versatile attacking hub. The finish also connects to the broader no-gi submission hierarchy as one of several advanced shoulder locks available when traditional attacks are defended.
+The attacker is seated or on a hip in Ashi Garami, facing an available outward-turned foot while retaining the leg and hip connection. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -298,25 +293,11 @@ The Aoki Lock represents the terminal offensive option from Aoki Lock top contro
 ## Related Techniques
 
 
-- [[Positions/Aoki Lock Control]] - Starting position - must establish this control before attempting finish
+- [[Positions/Aoki Lock Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Aoki Lock Control.
 
-- [[Positions/Omoplata Control]] - Related position with similar shoulder lock mechanics using leg-based control
+- [[Positions/Ashi Garami]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Ashi Garami.
 
-- [[Positions/Kimura Trap]] - Related system - alternative shoulder lock control using figure-four grip
-
-- [[Positions/Back Control]] - Primary transition target when finish is defended and opponent rolls
-
-- [[Positions/Twister Control/Truck]] - Alternative transition when opponent turns away during defense
-
-- [[Positions/Crucifix]] - Transition target when opponent exposes far arm while defending
-
-- [[Transitions/Aoki Lock to Back Control]] - Follow-up transition when direct finish fails but leg control remains
-
-- [[Transitions/Aoki Lock to Crucifix]] - Alternative attack chain when opponent's defense creates arm exposure
-
-- [[Positions/Open Guard]] - Counter outcome position when defender fully escapes leg entanglement
-
-- [[Submissions/Omoplata]] - Related submission sharing similar shoulder rotation mechanics
+- [[Positions/Straight Ankle Lock Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Straight Ankle Lock Control.
 
 
 </section>

@@ -436,30 +436,11 @@
     "clips": [
       {
         "id": "wl48JJRddV8",
-        "title": "Spider guard to triangle or omoplata",
-        "by": "Clark Gracie",
-        "vertical": false,
+        "title": "Spider Guard to Triangle or Omoplata",
         "channel": "Clark Gracie Allegiance Jiu Jitsu",
         "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Cl5tutvZ2NA",
-        "title": "Spider guard: break posture to omoplata and sweep",
-        "by": "Pathfinder JJ coach",
         "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 50,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "p3RN_8y_l_Y",
-        "title": "How to omoplata from spider guard",
-        "by": "Evolve MMA coach",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 66,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -639,25 +620,6 @@
         "description": "Start in spider guard top versus bottom. Bottom player actively attacks with omoplata and alternative attacks. Top player practices the full defensive sequence from recognition through escape, including transitions back to passing when defense is successful. Track which defensive responses work most consistently and refine timing under pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "_2dhd21ffbc",
-        "title": "Omoplata escape by jumping over",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 8,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "obRNRNrjaxs",
-        "title": "A new way to defend the omoplata",
-        "by": "Ricardo Cavalcanti",
-        "vertical": false,
-        "channel": "Ricardo Cavalcanti BJJ",
-        "duration": 209,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

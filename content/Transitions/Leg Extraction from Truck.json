@@ -399,26 +399,7 @@
       }
     ],
     "safety_considerations": "The truck position threatens the twister (cervical spine lock) and calf slicer (knee joint compression), both of which can cause serious injury with minimal warning before damage occurs. During extraction practice, always tap immediately if you feel rotational pressure on your cervical spine or significant compression on the knee joint. The calf slicer risk actually increases during extraction attempts as the changing leg angles can accelerate compression. Partners should apply submissions slowly during extraction drilling and communicate clearly about pressure levels. Begin all training with static drilling before progressing to resistance. Never sacrifice neck protection for leg work.",
-    "clips": [
-      {
-        "id": "NhxDerwXxSU",
-        "title": "Countering the Truck by Flipping It",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 640,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "c1nV0kji8Uc",
-        "title": "Twister side control from the truck",
-        "by": "JitsHappens",
-        "vertical": false,
-        "channel": "JitsHappens",
-        "duration": 35,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Leg Extraction from Truck Defender",
@@ -580,16 +561,6 @@
         "description": "Start in truck with both players at full resistance. Top player works to maintain position and finish submissions while bottom player works all available escapes including leg extraction. Track retention rate and identify which extraction configurations are hardest to counter for targeted improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "IY0CbahJG2A",
-        "title": "Truck Entries and Submissions",
-        "by": "Energia Martial Arts",
-        "vertical": false,
-        "channel": "Energia Martial Arts",
-        "duration": 667,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

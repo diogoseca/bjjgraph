@@ -141,24 +141,12 @@ description: "Escape Clamp Guard in BJJ. Complete guide for the trapped passer t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defense and counter to the clamp guard",
-      "description": "Clamp Guard (Top) film study: Defense and counter to the clamp guard, taught by The Grappling Bloke.",
+      "name": "Closed Guard Defense and Counter to the Clamp (Over Hook Position)",
+      "description": "Clamp Guard (Top) film study: Closed Guard Defense and Counter to the Clamp (Over Hook Position).",
       "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
       "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
-      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
-      "duration": "PT109S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Clamp Guard Basics",
-      "description": "Clamp Guard (Top) film study: Clamp Guard Basics, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y3CJAMifi7E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Y3CJAMifi7E",
-      "url": "https://www.youtube.com/watch?v=Y3CJAMifi7E",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT268S"
+      "duration": "PT108S"
     }
   ]
 }
@@ -190,15 +178,7 @@ The two primary tools from the top are arm extraction and the stack pass. Arm ex
 
 ![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
 
-<p class="clip-credit"><strong>Defense and counter to the clamp guard</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Y3CJAMifi7E)
-
-<p class="clip-credit"><strong>Clamp Guard Basics</strong> — taught by Brian Glick · 4:28 · <a href="https://www.youtube.com/watch?v=Y3CJAMifi7E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed Guard Defense and Counter to the Clamp (Over Hook Position)</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

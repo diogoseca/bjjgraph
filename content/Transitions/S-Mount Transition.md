@@ -46,35 +46,12 @@ description: "Master S-Mount Transition in BJJ. Step-by-step execution from Modi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Transitioning from mount to S-mount",
-      "description": "S-Mount Transition film study: Transitioning from mount to S-mount, taught by Procel BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RsNdjwonGkw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RsNdjwonGkw",
-      "url": "https://www.youtube.com/watch?v=RsNdjwonGkw",
-      "creator": { "@type": "Person", "name": "Procel BJJ coach" },
-      "duration": "PT132S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "S-mount basics, no-gi",
-      "description": "S-Mount Transition film study: S-mount basics, no-gi, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FSbR22OOSaE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FSbR22OOSaE",
-      "url": "https://www.youtube.com/watch?v=FSbR22OOSaE",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "name": "Goathook escape from mount: dealing with the switch to S-mount",
+      "description": "S-Mount Transition film study: Goathook escape from mount: dealing with the switch to S-mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WKqvJLpq7nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WKqvJLpq7nc",
+      "url": "https://www.youtube.com/watch?v=WKqvJLpq7nc",
       "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "S-mount troubleshooting, no-gi",
-      "description": "S-Mount Transition film study: S-mount troubleshooting, no-gi, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2Xm_mLp8xwk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2Xm_mLp8xwk",
-      "url": "https://www.youtube.com/watch?v=2Xm_mLp8xwk",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT67S"
     }
   ]
 }
@@ -126,25 +103,9 @@ Strategic timing involves transitioning to S-Mount when the opponent's near-side
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=RsNdjwonGkw)
+![](https://www.youtube.com/watch?v=WKqvJLpq7nc)
 
-<p class="clip-credit"><strong>Transitioning from mount to S-mount</strong> — taught by Procel BJJ coach · 2:12 · <a href="https://www.youtube.com/watch?v=RsNdjwonGkw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FSbR22OOSaE)
-
-<p class="clip-credit"><strong>S-mount basics, no-gi</strong> — taught by ZombieProofBJJ · 1:12 · <a href="https://www.youtube.com/watch?v=FSbR22OOSaE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
-
-<p class="clip-credit"><strong>S-mount troubleshooting, no-gi</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Goathook escape from mount: dealing with the switch to S-mount</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -166,35 +166,12 @@ description: "How to defend against Leg Drag Pass in BJJ. Recognition cues, defe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Matrix defense against the leg drag",
-      "description": "Leg Drag Pass (Defender) film study: Matrix defense against the leg drag, taught by BJJ Lab Zurich coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QCEdvqfWZMI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QCEdvqfWZMI",
-      "url": "https://www.youtube.com/watch?v=QCEdvqfWZMI",
-      "creator": { "@type": "Person", "name": "BJJ Lab Zurich coach" },
-      "duration": "PT96S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard retention against the leg drag",
-      "description": "Leg Drag Pass (Defender) film study: Guard retention against the leg drag, taught by Brandon Quick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fFqoFDE2yyw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fFqoFDE2yyw",
-      "url": "https://www.youtube.com/watch?v=fFqoFDE2yyw",
-      "creator": { "@type": "Person", "name": "Brandon Quick" },
-      "duration": "PT90S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Sit-up escape for guard retention",
-      "description": "Leg Drag Pass (Defender) film study: Sit-up escape for guard retention, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
+      "name": "LEANDRO Lo -  Leg drag defense with technical stand up",
+      "description": "Leg Drag Pass (Defender) film study: LEANDRO Lo -  Leg drag defense with technical stand up.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fO9mvIlh4Yw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fO9mvIlh4Yw",
+      "url": "https://www.youtube.com/watch?v=fO9mvIlh4Yw",
+      "duration": "PT200S"
     }
   ]
 }
@@ -222,25 +199,9 @@ Defending the leg drag pass requires early recognition and immediate action beca
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QCEdvqfWZMI)
+![](https://www.youtube.com/watch?v=fO9mvIlh4Yw)
 
-<p class="clip-credit"><strong>Matrix defense against the leg drag</strong> — taught by BJJ Lab Zurich coach · 1:36 · <a href="https://www.youtube.com/watch?v=QCEdvqfWZMI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fFqoFDE2yyw)
-
-<p class="clip-credit"><strong>Guard retention against the leg drag</strong> — taught by Brandon Quick · 1:30 · <a href="https://www.youtube.com/watch?v=fFqoFDE2yyw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
-
-<p class="clip-credit"><strong>Sit-up escape for guard retention</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>LEANDRO Lo -  Leg drag defense with technical stand up</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=fO9mvIlh4Yw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

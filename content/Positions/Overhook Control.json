@@ -508,31 +508,19 @@
     ],
     "clips": [
       {
-        "id": "DfUHvTQpzCg",
-        "title": "Using an overhook",
-        "by": "Patrick Spano",
+        "id": "IQJ2k2Nbst8",
+        "title": "Powerful Overhook to counter Underhook Control",
+        "channel": "Wrecking Crew BJJ",
+        "duration": 54,
         "vertical": false,
-        "channel": "FANATIC WRESTLING",
-        "duration": 40,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "8mXBDHXrAu4",
-        "title": "Whizzer from half guard: win the dogfight",
-        "by": "Wrecking Crew BJJ",
-        "vertical": false,
+        "title": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
         "channel": "Wrecking Crew BJJ",
-        "duration": 60,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "GgWOa1nEeu8",
-        "title": "Russian tie whizzer kick",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Merge Grappling",
-        "duration": 147,
-        "verified": "2026-07-14"
+        "duration": 59,
+        "vertical": false
       }
     ]
   },
@@ -918,31 +906,12 @@
     ],
     "clips": [
       {
-        "id": "QPL5y0hIVV4",
-        "title": "Closed guard overhook sweep",
-        "by": "David Morris",
+        "id": "5J92PJO-dEo",
+        "title": "Overhook from Closed Guard",
+        "channel": "6am jiu jitsu, try it, it’s fun they said 🥋",
+        "duration": 114,
         "vertical": false,
-        "channel": "David Morris Jiu Jitsu ",
-        "duration": 17,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ljmJ9xP6N7U",
-        "title": "Overhook guard to reverse triangle + kimura",
-        "by": "ZeGrapplez",
-        "vertical": false,
-        "channel": "ZeGrapplez",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "SONTST7yTT8",
-        "title": "Closed guard overhook scissor sweep",
-        "by": "Fight Sports Charlotte",
-        "vertical": false,
-        "channel": "Fight Sports Charlotte",
-        "duration": 89,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1048,31 +1017,20 @@
   ],
   "clips": [
     {
-      "id": "DfUHvTQpzCg",
-      "title": "Using an overhook",
-      "by": "Patrick Spano",
+      "id": "IQJ2k2Nbst8",
+      "title": "Powerful Overhook to counter Underhook Control",
+      "channel": "Wrecking Crew BJJ",
+      "duration": 54,
       "vertical": false,
-      "channel": "FANATIC WRESTLING",
-      "duration": 40,
-      "verified": "2026-07-14"
+      "half": "top"
     },
     {
       "id": "8mXBDHXrAu4",
-      "title": "Whizzer from half guard: win the dogfight",
-      "by": "Wrecking Crew BJJ",
-      "vertical": false,
+      "title": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
       "channel": "Wrecking Crew BJJ",
-      "duration": 60,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "IQJ2k2Nbst8",
-      "title": "Overhook to counter underhook control",
-      "by": "Wrecking Crew BJJ",
+      "duration": 59,
       "vertical": false,
-      "channel": "Wrecking Crew BJJ",
-      "duration": 54,
-      "verified": "2026-07-14"
+      "half": "top"
     }
   ]
 }

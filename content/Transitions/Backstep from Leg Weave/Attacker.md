@@ -4,7 +4,7 @@
 
 ---
 title: "Backstep from Leg Weave Attacker | BJJ Technique Guide | BJJ Graph"
-description: "Master executing the backstep from leg weave. Step-by-step passing guide with hip rotation mechanics, grip management, and chain passing sequences."
+description: "Backstep from Leg Weave uses the passer's woven arm and upper-body control to change the passing angle, clear the legs, and consolidate side control from above."
 ---
 
 
@@ -20,45 +20,39 @@ description: "Master executing the backstep from leg weave. Step-by-step passing
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Confirm leg weave depth and upper body control",
-      "text": "Before initiating the backstep, verify that your lead leg is threaded deep past the opponent's hip line and that your upper body control is secure. Your crossface hand should have a firm grip on the collar, the mat behind their head, or an underhook. The weaved leg must be deep enough to serve as a stable pivot point during rotation.",
+      "name": "Locate the controlling limb",
+      "text": "You are the top passer. The arm connecting the opponent's legs defines the weave, not a leg threaded through a trap.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Shift weight onto the weaved leg",
-      "text": "Transfer your center of gravity onto the weaved leg side. This loads the pivot point and frees your far leg for the backstep motion. Keep your chest connected to the opponent's upper body during this weight shift to prevent them from sensing the directional change and adjusting their defensive frames.",
+      "name": "Keep the upper body supported",
+      "text": "Control the upper body while keeping your weight supported; do not hang on the opponent's neck.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Initiate hip rotation away from opponent",
-      "text": "Begin turning your hips by rotating away from the bottom player, pivoting on the weaved leg. Your hips should turn from facing the opponent to facing perpendicular or slightly away. This rotation is the core mechanical action that redirects the passing angle from forward to lateral.",
+      "name": "Check the stepping leg",
+      "text": "Before backstepping, make sure the moving leg and knee can turn without a retained hook fixing the lower leg.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Swing the free leg behind and around",
-      "text": "As your hips rotate, swing your free leg in a wide arc behind you, clearing it past the bottom player's legs and hooks. The arc should be wide enough to avoid catching on their remaining hooks. Keep this leg bent and active, ready to establish posting position on the far side of their body.",
+      "name": "Change the passing angle",
+      "text": "Move the free leg behind to change the angle while maintaining contact and watching the opponent's knees.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Clear remaining hooks with hip drive",
-      "text": "As the free leg completes its arc, drive your hips through to break any remaining half guard hooks or leg connections. The combination of rotational momentum and hip pressure should extract your weaved leg from between their legs as you complete the pass. If the hook persists, use a secondary hip pop to clear it.",
+      "name": "Clear the remaining hook",
+      "text": "Remove the remaining hook or knee barrier before bringing the hips past the guard.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Establish side control grips and settle weight",
-      "text": "Immediately upon clearing the legs, drop your weight into side control position. Reestablish crossface with your near arm driving across their face. Position your hips low and heavy against their hips. Your far arm controls their far hip or underhooks to prevent immediate guard recovery attempts.",
+      "name": "Consolidate top control",
+      "text": "Settle Side Control/Top only after leg clearance. If a leg remains caught after losing the weave, you are still the top player in half guard.",
       "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Consolidate and prevent re-guard",
-      "text": "In the first two seconds after arriving in side control, focus entirely on preventing the bottom player from reinserting their knee or recovering any guard structure. Sprawl your legs back, drive crossface pressure, and lock your hips against theirs. Only begin offensive work after the position is fully consolidated and the opponent has accepted the pass.",
-      "position": 7
     }
   ],
   "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
@@ -74,50 +68,50 @@ description: "Master executing the backstep from leg weave. Step-by-step passing
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the backstep from leg weave?",
+      "name": "Backstep from Leg Weave: what does locate the controlling limb require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing is when the bottom player commits their defensive frames against forward-driving pressure. When they are pushing directly against your chest or shoulder, their frames are oriented frontally and cannot easily redirect to block lateral movement. The backstep exploits this commitment by rotating around their frames rather than through them. Attempting the backstep when they are already tracking lateral movement defeats the purpose of the angular change."
+        "text": "You are the top passer. The arm connecting the opponent's legs defines the weave, not a leg threaded through a trap."
       }
     },
     {
       "@type": "Question",
-      "name": "What grip must be maintained throughout the entire backstep rotation and why?",
+      "name": "Backstep from Leg Weave: what does keep the upper body supported require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The upper body grip, whether crossface collar grip, underhook, or head control, must be maintained throughout the rotation without interruption. This grip serves as the fixed anchor point around which the hips rotate. Without it, the bottom player can follow the rotation, create separation, or dive to deep half guard during the weight transfer. The grip transforms the backstep from a disconnected movement into a controlled pivoting pass."
+        "text": "Control the upper body while keeping your weight supported; do not hang on the opponent's neck."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent catches your stepping leg with a hook mid-rotation - how do you respond?",
+      "name": "Backstep from Leg Weave: what does check the stepping leg require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If caught early in the rotation, abort the backstep and return to forward leg weave pressure rather than fighting the hook from a compromised angle. If caught late when the rotation is nearly complete, use a full-body hip pop rather than just a leg kick to strip the hook, keeping your chest connected to their upper body throughout. Never try to fight the hook with just your leg in isolation, as the bottom player's hook strength will exceed your extraction strength without hip involvement."
+        "text": "Before backstepping, make sure the moving leg and knee can turn without a retained hook fixing the lower leg."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the critical hip height principle during the backstep rotation?",
+      "name": "Backstep from Leg Weave: what does change the passing angle require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The hips must stay low throughout the rotation, sliding laterally rather than lifting vertically. Elevated hips create space between your chest and the opponent's body, giving them a window to dive to deep half guard, insert a knee for half guard recovery, or create frames that block the pass completion. Think of the belt line maintaining a constant height throughout the rotation arc. The low hip path also generates more rotational force than a high arc."
+        "text": "Move the free leg behind to change the angle while maintaining contact and watching the opponent's knees."
       }
     },
     {
       "@type": "Question",
-      "name": "How wide should the free leg arc during the backstep, and what happens if it is too narrow?",
+      "name": "Backstep from Leg Weave: what does clear the remaining hook require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free leg should swing in a deliberately wide arc that clears well past the bottom player's hooks and legs before settling on the far side. A narrow arc is the most common mechanical failure because the stepping leg catches on the opponent's remaining guard hooks mid-rotation, stalling the pass in a half-turned position. This compromised position is worse than the starting leg weave because you have lost your forward pressure angle without completing the lateral pass. Over-rotating is always preferable to under-rotating."
+        "text": "Remove the remaining hook or knee barrier before bringing the hips past the guard."
       }
     },
     {
       "@type": "Question",
-      "name": "What chain attack sequence sets up the backstep most effectively?",
+      "name": "Backstep from Leg Weave: what does consolidate top control require?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most effective setup is a genuine forward-driving pass threat, either knee slice or smash pass, that forces the bottom player to establish frontal defensive frames. When you feel their arms and legs pushing against your forward pressure, that commitment creates the timing window for the backstep. The key is that the forward threat must be genuine enough to force a real defensive response. Feinting forward pressure without commitment does not create the same frontal frame commitment that makes the backstep effective."
+        "text": "Settle Side Control/Top only after leg clearance. If a leg remains caught after losing the weave, you are still the top player in half guard."
       }
     }
   ]
@@ -130,7 +124,7 @@ description: "Master executing the backstep from leg weave. Step-by-step passing
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Backstep from Leg Weave Attacker",
-  "description": "Master executing the backstep from leg weave. Step-by-step passing guide with hip rotation mechanics, grip management, and chain passing sequences.",
+  "description": "Backstep from Leg Weave uses the passer's woven arm and upper-body control to change the passing angle, clear the legs, and consolidate side control from above.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -176,77 +170,24 @@ description: "Master executing the backstep from leg weave. Step-by-step passing
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Backstep from Leg Weave (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Back stepping from knee cut to side saddle",
-      "description": "Backstep from Leg Weave (Attacker) film study: Back stepping from knee cut to side saddle, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MGlM7DXPKZg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MGlM7DXPKZg",
-      "url": "https://www.youtube.com/watch?v=MGlM7DXPKZg",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg drag pass with back step options",
-      "description": "Backstep from Leg Weave (Attacker) film study: Leg drag pass with back step options, taught by Mr. NogiJiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/39LiloK29bM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/39LiloK29bM",
-      "url": "https://www.youtube.com/watch?v=39LiloK29bM",
-      "creator": { "@type": "Person", "name": "Mr. NogiJiujitsu" },
-      "duration": "PT41S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-Executing the Backstep from Leg Weave requires precise coordination between upper body control maintenance and hip rotation mechanics. The attacker must shift from forward-driving pressure to a rotational passing angle while keeping the weaved leg connected as a pivot point. The critical challenge is maintaining enough upper body connection to prevent the bottom player from following the rotation or diving to deep half guard, while generating sufficient rotational momentum to clear the remaining guard hooks. Success depends on reading the bottom player's defensive orientation and choosing the backstep when their frames are committed against forward pressure, creating a timing window where the angular change bypasses their defensive structure entirely.
+Backstep from Leg Weave uses the passer's woven arm and upper-body control to change the passing angle, clear the legs, and consolidate side control from above.
+
+You are the top passer. The arm connecting the opponent's legs defines the weave, not a leg threaded through a trap. Control the upper body while keeping your weight supported; do not hang on the opponent's neck.
+
+Before backstepping, make sure the moving leg and knee can turn without a retained hook fixing the lower leg. Move the free leg behind to change the angle while maintaining contact and watching the opponent's knees. Remove the remaining hook or knee barrier before bringing the hips past the guard. Settle Side Control/Top only after leg clearance. If a leg remains caught after losing the weave, you are still the top player in half guard.
+
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 **From Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Backstep from Leg Weave (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MGlM7DXPKZg)
-
-<p class="clip-credit"><strong>Back stepping from knee cut to side saddle</strong> — taught by BJJ4Breakfast · 1:10 · <a href="https://www.youtube.com/watch?v=MGlM7DXPKZg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=39LiloK29bM)
-
-<p class="clip-credit"><strong>Leg drag pass with back step options</strong> — taught by Mr. NogiJiujitsu · 0:41 · <a href="https://www.youtube.com/watch?v=39LiloK29bM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -255,12 +196,12 @@ Executing the Backstep from Leg Weave requires precise coordination between uppe
 
 <p class="section-subtitle">What are the key principles for executing Backstep from Leg Weave?</p>
 
-- Maintain upper body connection throughout the rotation to prevent the bottom player from creating separation or following the hip movement
-- Use the weaved leg as a pivot anchor point rather than extracting it during the rotation, keeping structural control through the passing sequence
-- Initiate the backstep when the bottom player's frames are committed against forward pressure, exploiting their defensive orientation
-- Control the rotation speed to match the situation - faster against reactive opponents, more controlled against opponents who chase the hips
-- Settle weight immediately upon clearing the legs to prevent guard recovery during the transition to side control
-- Keep the free leg active during the backstep, using it to clear hooks and establish side control positioning simultaneously
+- Your arm woven through the legs: You are the top passer. The arm connecting the opponent's legs defines the weave, not a leg threaded through a trap.
+- Upper-body contact and stable base: Control the upper body while keeping your weight supported; do not hang on the opponent's neck.
+- A free leg with an untrapped knee: Before backstepping, make sure the moving leg and knee can turn without a retained hook fixing the lower leg.
+- A controlled step around the hips: Move the free leg behind to change the angle while maintaining contact and watching the opponent's knees.
+- Both knees cleared from the pass: Remove the remaining hook or knee barrier before bringing the hips past the guard.
+- Chest beside torso in side control: Settle Side Control/Top only after leg clearance. If a leg remains caught after losing the weave, you are still the top player in half guard.
 
 
 </section>
@@ -271,10 +212,10 @@ Executing the Backstep from Leg Weave requires precise coordination between uppe
 
 <p class="section-subtitle">What do you need before attempting Backstep from Leg Weave?</p>
 
-- Established leg weave with lead leg threaded deep between the bottom player's legs, past their hip line
-- Upper body control through crossface, collar grip, or underhook that can be maintained through hip rotation
-- Bottom player's defensive frames oriented frontally, pushing against forward pressure rather than lateral movement
-- Stable base on the weaved leg side that can serve as a rotation pivot without collapsing
+- You are the top passer. The arm connecting the opponent's legs defines the weave, not a leg threaded through a trap.
+- Control the upper body while keeping your weight supported; do not hang on the opponent's neck.
+- Before backstepping, make sure the moving leg and knee can turn without a retained hook fixing the lower leg.
+- Move the free leg behind to change the angle while maintaining contact and watching the opponent's knees.
 
 
 </section>
@@ -285,13 +226,12 @@ Executing the Backstep from Leg Weave requires precise coordination between uppe
 
 <p class="section-subtitle">How do you execute Backstep from Leg Weave step by step?</p>
 
-1. **Confirm leg weave depth and upper body control**: Before initiating the backstep, verify that your lead leg is threaded deep past the opponent's hip line and that your upper body control is secure. Your crossface hand should have a firm grip on the collar, the mat behind their head, or an underhook. The weaved leg must be deep enough to serve as a stable pivot point during rotation.
-2. **Shift weight onto the weaved leg**: Transfer your center of gravity onto the weaved leg side. This loads the pivot point and frees your far leg for the backstep motion. Keep your chest connected to the opponent's upper body during this weight shift to prevent them from sensing the directional change and adjusting their defensive frames.
-3. **Initiate hip rotation away from opponent**: Begin turning your hips by rotating away from the bottom player, pivoting on the weaved leg. Your hips should turn from facing the opponent to facing perpendicular or slightly away. This rotation is the core mechanical action that redirects the passing angle from forward to lateral.
-4. **Swing the free leg behind and around**: As your hips rotate, swing your free leg in a wide arc behind you, clearing it past the bottom player's legs and hooks. The arc should be wide enough to avoid catching on their remaining hooks. Keep this leg bent and active, ready to establish posting position on the far side of their body.
-5. **Clear remaining hooks with hip drive**: As the free leg completes its arc, drive your hips through to break any remaining half guard hooks or leg connections. The combination of rotational momentum and hip pressure should extract your weaved leg from between their legs as you complete the pass. If the hook persists, use a secondary hip pop to clear it.
-6. **Establish side control grips and settle weight**: Immediately upon clearing the legs, drop your weight into side control position. Reestablish crossface with your near arm driving across their face. Position your hips low and heavy against their hips. Your far arm controls their far hip or underhooks to prevent immediate guard recovery attempts.
-7. **Consolidate and prevent re-guard**: In the first two seconds after arriving in side control, focus entirely on preventing the bottom player from reinserting their knee or recovering any guard structure. Sprawl your legs back, drive crossface pressure, and lock your hips against theirs. Only begin offensive work after the position is fully consolidated and the opponent has accepted the pass.
+1. **Locate the controlling limb**: You are the top passer. The arm connecting the opponent's legs defines the weave, not a leg threaded through a trap.
+2. **Keep the upper body supported**: Control the upper body while keeping your weight supported; do not hang on the opponent's neck.
+3. **Check the stepping leg**: Before backstepping, make sure the moving leg and knee can turn without a retained hook fixing the lower leg.
+4. **Change the passing angle**: Move the free leg behind to change the angle while maintaining contact and watching the opponent's knees.
+5. **Clear the remaining hook**: Remove the remaining hook or knee barrier before bringing the hips past the guard.
+6. **Consolidate top control**: Settle Side Control/Top only after leg clearance. If a leg remains caught after losing the weave, you are still the top player in half guard.
 
 
 </section>
@@ -302,9 +242,9 @@ Executing the Backstep from Leg Weave requires precise coordination between uppe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 55% |
-| Failure | [[Positions/Leg Weave]] | 30% |
-| Counter | [[Positions/Half Guard/Deep Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Leg Weave]] | 40% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -315,10 +255,9 @@ Executing the Backstep from Leg Weave requires precise coordination between uppe
 
 <p class="section-subtitle">How might your opponent counter Backstep from Leg Weave?</p>
 
-- **Bottom player hooks the stepping leg during rotation, preventing the arc from clearing** (Effectiveness: High) - Your Response: If the hook catches early, abort the backstep and return to forward leg weave pressure. If it catches late, use a secondary hip pop to strip the hook while maintaining upper body control. Do not fight the hook with just your leg - use your whole body rotation to generate the clearing force. → Leads to [[Positions/Leg Weave]]
-- **Bottom player dives under to deep half guard during the weight transfer phase** (Effectiveness: High) - Your Response: The deep half entry exploits the moment your weight lifts off their hips. Counter by keeping chest pressure heavy throughout the rotation and using your crossface grip to prevent them from turning under you. If they achieve deep half, immediately sprawl hips back and begin deep half passing sequences rather than continuing the backstep. → Leads to [[Positions/Half Guard/Deep Half Guard]]
-- **Bottom player frames against your hip and shrimps away during the rotation, creating enough space to re-guard** (Effectiveness: Medium) - Your Response: This counter exploits the brief window when your hips are elevated during rotation. Minimize this window by keeping your rotation low and fast. If they create space, immediately switch to a direct leg drag or knee slice rather than completing the backstep, using their shrimp direction against them. → Leads to [[Positions/Leg Weave]]
-- **Bottom player turns into you aggressively during the backstep, attempting to come to knees or turtle** (Effectiveness: Medium) - Your Response: Their turn actually assists your pass if you maintain connection. Follow their rotation with your chest, converting the backstep into a direct back take opportunity. Keep your arms controlling their upper body and transition from the pass to back control rather than fighting to complete side control. → Leads to [[Positions/Side Control]]
+- **Keep an upper-body frame while the passer changes the angle.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Leg Weave]]
+- **Track the passer's hips with your knees without holding a twisting leg entanglement.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Leg Weave]]
+- **Recover inside knee space before the passer clears the last hook.** (Effectiveness: Medium) - Your Response: Keep the required control or use the stated reset; do not force the next movement. → Leads to [[Positions/Half Guard]]
 
 
 </section>
@@ -329,35 +268,30 @@ Executing the Backstep from Leg Weave requires precise coordination between uppe
 
 <p class="section-subtitle">What mistakes should you avoid when executing Backstep from Leg Weave?</p>
 
-### 1. Releasing upper body control before initiating the backstep rotation
+### 1. Skipping locate the controlling limb
 
-- **Consequence**: Bottom player immediately creates space, sits up, or recovers guard structure as there is no upper body anchor preventing their movement during the directional change
-- **Correction**: Confirm upper body grip security before beginning the rotation. The crossface or collar grip must be maintained throughout the entire backstep sequence. Think of the upper body grip as the fixed point around which your hips rotate.
+- **Consequence**: The next action lacks its required control.
+- **Correction**: You are the top passer. The arm connecting the opponent's legs defines the weave, not a leg threaded through a trap.
 
-### 2. Lifting hips too high during the rotation, creating space under the chest
+### 2. Skipping keep the upper body supported
 
-- **Consequence**: Bottom player dives to deep half guard or inserts knee for half guard recovery during the elevated moment, countering the pass before it completes
-- **Correction**: Keep the rotation arc low and tight. Your hips should slide laterally rather than lifting vertically. Imagine your belt line staying at the same height throughout the rotation rather than arcing upward.
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Control the upper body while keeping your weight supported; do not hang on the opponent's neck.
 
-### 3. Backstep arc too narrow, catching the free leg on opponent's hooks
+### 3. Skipping check the stepping leg
 
-- **Consequence**: The backstep stalls mid-rotation with your leg tangled in their guard, leaving you in a compromised half-turned position that is worse than the original leg weave
-- **Correction**: Swing the free leg in a wide arc that clears well past their legs before settling. Better to over-rotate and adjust than to catch on their hooks mid-pass. Practice the arc width in drilling until the clearance path is automatic.
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Before backstepping, make sure the moving leg and knee can turn without a retained hook fixing the lower leg.
 
-### 4. Attempting the backstep when the bottom player's frames are oriented laterally rather than frontally
+### 4. Skipping change the passing angle
 
-- **Consequence**: The backstep directly into their lateral frames, which are now well-positioned to block the angular pass. The technique loses its primary advantage of bypassing defensive structure
-- **Correction**: Only initiate the backstep when you feel the bottom player pushing against forward pressure. If their frames are already tracking your lateral movement, return to forward-driving passes like knee slice or smash pass instead.
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Move the free leg behind to change the angle while maintaining contact and watching the opponent's knees.
 
-### 5. Failing to consolidate side control immediately after clearing the legs
+### 5. Skipping clear the remaining hook
 
-- **Consequence**: Bottom player recovers half guard or reinserts knee during the transition window between pass completion and position establishment
-- **Correction**: The moment your legs clear, drop your weight immediately into side control. Crossface, hip-to-hip connection, and sprawled legs should happen in the same motion as the final clearing step, not as a separate action.
-
-### 6. Using the backstep as a primary technique rather than a chain option
-
-- **Consequence**: Opponents learn to anticipate the rotation and preposition their hooks and frames laterally, reducing the technique's effectiveness significantly
-- **Correction**: Establish the backstep as a secondary option that follows failed forward-driving passes. The bottom player must be defending forward pressure for the backstep to function. Set it up by threatening knee slice or smash pass first, then backstep when they overcommit frontally.
+- **Consequence**: The next action lacks its required control.
+- **Correction**: Remove the remaining hook or knee barrier before bringing the hips past the guard.
 
 
 
@@ -369,20 +303,17 @@ Executing the Backstep from Leg Weave requires precise coordination between uppe
 
 <p class="section-subtitle">How do you train Backstep from Leg Weave (Attacker)?</p>
 
-**Phase 1: Solo Hip Rotation Drill** - Developing the rotational hip mechanics without resistance
-Practice the backstep pivot motion from a kneeling position without a partner. Focus on loading the pivot leg, rotating the hips, and swinging the free leg in a wide arc. Perform 20 repetitions each side, emphasizing smooth rotation and low hip height throughout the arc. Build muscle memory for the rotational pattern.
+**Phase 1** - Locate the controlling limb
+You are the top passer. The arm connecting the opponent's legs defines the weave, not a leg threaded through a trap. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 2: Cooperative Partner Drilling** - Executing the complete technique against a stationary partner
-With a partner in leg weave bottom holding static defensive frames, practice the full backstep sequence from grip confirmation through side control consolidation. Partner does not resist but holds realistic positioning. Perform 10 repetitions each side, focusing on maintaining upper body connection throughout rotation.
+**Phase 2** - Keep the upper body supported
+Control the upper body while keeping your weight supported; do not hang on the opponent's neck. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 3: Progressive Resistance with Specific Counters** - Handling individual defensive responses during the backstep
-Partner provides specific pre-agreed counters during each repetition: hook the stepping leg (round 1), dive to deep half (round 2), frame and shrimp (round 3). Practice the appropriate response to each counter at increasing resistance levels from 30% to 80%. Build automatic counter-recognition and response patterns.
+**Phase 3** - Check the stepping leg
+Before backstepping, make sure the moving leg and knee can turn without a retained hook fixing the lower leg. Pause at this checkpoint with a cooperative partner before linking the next step.
 
-**Phase 4: Chain Passing Integration** - Combining the backstep with forward-driving passes in live sequences
-Begin in leg weave and attempt knee slice or smash pass first. When the partner defends the forward pass, transition to the backstep. Then reverse: begin with backstep threat and switch to forward pass when partner adjusts laterally. Practice the two-direction passing chain against increasing resistance until the combination flows naturally.
-
-**Phase 5: Live Positional Sparring** - Applying the backstep under full competitive resistance
-Start in leg weave position with full resistance. Top player works to complete any pass with the backstep as one available option. Bottom player uses all defensive tools. Track backstep success rate across rounds, aiming for consistent application when the timing window presents itself. Three-minute rounds, reset after pass or guard recovery.
+**Phase 4** - Change the passing angle
+Move the free leg behind to change the angle while maintaining contact and watching the opponent's knees. Pause at this checkpoint with a cooperative partner before linking the next step.
 
 
 
@@ -396,7 +327,7 @@ Start in leg weave position with full resistance. Top player works to complete a
 
 <p class="section-subtitle">What are the safety concerns for Backstep from Leg Weave?</p>
 
-The backstep involves significant hip rotation while maintaining leg entanglement with your partner. Avoid rapid, uncontrolled twisting motions that could strain the medial collateral ligament of the weaved leg. Partners should communicate immediately if they feel knee torsion during the rotation phase. During drilling, practice the hip pivot at slow speed before adding speed or resistance. Be particularly careful when the bottom player's hooks catch the stepping leg mid-rotation, as forcing through a caught hook can create dangerous torque on both players' knees.
+Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.
 
 </section>
 

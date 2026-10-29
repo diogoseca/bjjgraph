@@ -186,24 +186,12 @@ description: "Learn to execute the Rubber Guard Sweep with precise hip mechanics
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rubber guard sweep demonstration",
-      "description": "Rubber Guard Sweep (Attacker) film study: Rubber guard sweep demonstration, taught by CholoMMA.",
+      "name": "Rubberguard Sweep - To sweep a cholo",
+      "description": "Rubber Guard Sweep (Attacker) film study: Rubberguard Sweep - To sweep a cholo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mg-kER88CBw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mg-kER88CBw",
       "url": "https://www.youtube.com/watch?v=mg-kER88CBw",
-      "creator": { "@type": "Person", "name": "CholoMMA" },
       "duration": "PT50S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Jersey sweep from rubber guard",
-      "description": "Rubber Guard Sweep (Attacker) film study: Jersey sweep from rubber guard, taught by Richie Martinez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CmuBRahwA7c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CmuBRahwA7c",
-      "url": "https://www.youtube.com/watch?v=CmuBRahwA7c",
-      "creator": { "@type": "Person", "name": "Richie Martinez" },
-      "duration": "PT125S"
     }
   ]
 }
@@ -233,15 +221,7 @@ Executing the Rubber Guard Sweep requires precise timing and coordination betwee
 
 ![](https://www.youtube.com/watch?v=mg-kER88CBw)
 
-<p class="clip-credit"><strong>Rubber guard sweep demonstration</strong> — taught by CholoMMA · 0:50 · <a href="https://www.youtube.com/watch?v=mg-kER88CBw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=CmuBRahwA7c)
-
-<p class="clip-credit"><strong>Jersey sweep from rubber guard</strong> — taught by Richie Martinez · 2:05 · <a href="https://www.youtube.com/watch?v=CmuBRahwA7c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubberguard Sweep - To sweep a cholo</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=mg-kER88CBw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

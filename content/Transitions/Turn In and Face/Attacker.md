@@ -176,50 +176,6 @@ description: "How to execute Turn In and Face in BJJ. Attacking perspective with
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Turn In and Face (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "The Buggy Choke demonstrated step by step",
-      "description": "Turn In and Face (Attacker) film study: The Buggy Choke demonstrated step by step, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
-      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Fixing the details of your Buggy Choke",
-      "description": "Turn In and Face (Attacker) film study: Fixing the details of your Buggy Choke, taught by Yoga for BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
-      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
-      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Buggy choke entry with Kade Ruotolo",
-      "description": "Turn In and Face (Attacker) film study: Buggy choke entry with Kade Ruotolo, taught by Kade Ruotolo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U-eR63GzcIo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U-eR63GzcIo",
-      "url": "https://www.youtube.com/watch?v=U-eR63GzcIo",
-      "creator": { "@type": "Person", "name": "Kade Ruotolo" },
-      "duration": "PT67S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -236,40 +192,6 @@ Strategically, Turn In and Face is the preferred escape when the defender still 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Turn In and Face (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
-
-<p class="clip-credit"><strong>The Buggy Choke demonstrated step by step</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
-
-<p class="clip-credit"><strong>Fixing the details of your Buggy Choke</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U-eR63GzcIo)
-
-<p class="clip-credit"><strong>Buggy choke entry with Kade Ruotolo</strong> — taught by Kade Ruotolo · 1:07 · <a href="https://www.youtube.com/watch?v=U-eR63GzcIo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">
@@ -326,10 +248,10 @@ Strategically, Turn In and Face is the preferred escape when the defender still 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 50% |
-| Success | [[Positions/Closed Guard]] | 15% |
-| Failure | [[Positions/Buggy Choke]] | 20% |
-| Counter | [[Positions/Back Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 30% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Buggy Choke]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -341,7 +263,7 @@ Strategically, Turn In and Face is the preferred escape when the defender still 
 <p class="section-subtitle">How might your opponent counter Turn In and Face?</p>
 
 - **Opponent follows the rotation and immediately attacks with a front headlock or guillotine as the defender turns to face them** (Effectiveness: High) - Your Response: Keep chin tucked and hands fighting inside during the turn. Establish inside collar tie or underhook immediately upon facing to prevent head control. If guillotine is locked, use standard guillotine defense by posturing up and circling to the choke side → Leads to [[Positions/Buggy Choke]]
-- **Opponent releases the buggy choke grips during the turn and immediately transitions to back control by inserting hooks as the defender rotates** (Effectiveness: High) - Your Response: Commit fully to the rotation speed so the turn completes before hooks can be inserted. If hooks begin entering, continue the turn past facing into a seated guard position and immediately begin back escape protocols by fighting the bottom hook first → Leads to [[Positions/Back Control]]
+- **Opponent releases the buggy choke grips during the turn and immediately transitions to back control by inserting hooks as the defender rotates** (Effectiveness: High) - Your Response: Commit fully to the rotation speed so the turn completes before hooks can be inserted. If hooks begin entering, continue the turn past facing into a seated guard position and immediately begin back escape protocols by fighting the bottom hook first → Leads to [[Positions/Side Control]]
 - **Opponent drives heavy chest pressure during the rotation to flatten the defender before the turn completes, maintaining side control** (Effectiveness: Medium) - Your Response: Use the posted far arm as a strong frame during rotation. If flattened mid-turn, switch to a hip escape toward the opponent to continue creating the facing angle from a flattened position rather than abandoning the turn attempt → Leads to [[Positions/Buggy Choke]]
 - **Opponent anticipates the turn and switches to an arm-in guillotine grip as the defender's head comes around to face them** (Effectiveness: Medium) - Your Response: Swim the near arm to an underhook position during the turn to block guillotine access. If the guillotine is partially established, immediately pass to the choke side and apply shoulder pressure to strip the grip before it locks → Leads to [[Positions/Buggy Choke]]
 

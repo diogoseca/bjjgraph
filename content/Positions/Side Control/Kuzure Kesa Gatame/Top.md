@@ -166,24 +166,24 @@ description: "Offensive guide for controlling and attacking from modified scarf 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle Attacks from Kuzure Kesa Gatame",
-      "description": "Kuzure Kesa Gatame (Top) film study: Triangle Attacks from Kuzure Kesa Gatame, taught by Chokes And More.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tfykooWW-xk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tfykooWW-xk",
-      "url": "https://www.youtube.com/watch?v=tfykooWW-xk",
-      "creator": { "@type": "Person", "name": "Chokes And More" },
-      "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kuzure Kesa Gatame (Broken Scarf Hold)",
-      "description": "Kuzure Kesa Gatame (Top) film study: Kuzure Kesa Gatame (Broken Scarf Hold), taught by Sampson Judo.",
+      "name": "No Gi Judo | \u5d29\u8888\u88df\u56fa | Kuzure Kesa Gatame (Broken scarf hold)",
+      "description": "Kuzure Kesa Gatame (Top) film study: No Gi Judo | \u5d29\u8888\u88df\u56fa | Kuzure Kesa Gatame (Broken scarf hold), taught by Sampson Judo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oXzrusNRq70/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oXzrusNRq70",
       "url": "https://www.youtube.com/watch?v=oXzrusNRq70",
       "creator": { "@type": "Person", "name": "Sampson Judo" },
       "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame - Basic Scarf Hold",
+      "description": "Kuzure Kesa Gatame (Top) film study: Kesa Gatame - Basic Scarf Hold, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
+      "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT120S"
     }
   ]
 }
@@ -218,17 +218,17 @@ The position also serves a critical strategic role in competition and training s
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=tfykooWW-xk)
+![](https://www.youtube.com/watch?v=oXzrusNRq70)
 
-<p class="clip-credit"><strong>Triangle Attacks from Kuzure Kesa Gatame</strong> — taught by Chokes And More · 1:06 · <a href="https://www.youtube.com/watch?v=tfykooWW-xk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No Gi Judo | 崩袈裟固 | Kuzure Kesa Gatame (Broken scarf hold)</strong> — taught by Sampson Judo · 0:19 · <a href="https://www.youtube.com/watch?v=oXzrusNRq70" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=oXzrusNRq70)
+![](https://www.youtube.com/watch?v=TfNpVcekHGg)
 
-<p class="clip-credit"><strong>Kuzure Kesa Gatame (Broken Scarf Hold)</strong> — taught by Sampson Judo · 0:19 · <a href="https://www.youtube.com/watch?v=oXzrusNRq70" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame - Basic Scarf Hold</strong> — taught by Grappler Station · 2:00 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -302,7 +302,6 @@ The position also serves a critical strategic role in competition and training s
 
 **Else if opponent turns away exposing their back to escape pressure:**
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 72%)
 
 
 

@@ -390,31 +390,12 @@
     "safety_considerations": "The Old School Position Sweep is relatively low-risk for joint injuries compared to submissions, but practitioners should be mindful of knee strain from aggressive lockdown extension, particularly on the opponent's trapped knee and ankle. Avoid cranking the lockdown with maximum force during drilling, as this can hyperextend the opponent's knee joint. During the sweep rotation, control the descent to prevent the opponent from landing awkwardly on their neck or shoulder. Train progressively from slow cooperative repetitions before adding speed and resistance. Partners should communicate immediately if they feel joint pressure from the lockdown extension.",
     "clips": [
       {
-        "id": "08cbHHs_NsM",
-        "title": "Corona lockdown sweep from half guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 53,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "c5aHZxvr2bk",
-        "title": "Lockdown old school sweep demonstration",
-        "by": "The Jiu-Jitsu Foundry",
-        "vertical": false,
+        "title": "Lockdown Old School Sweep",
         "channel": "The Jiu-Jitsu Foundry",
         "duration": 33,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Jnc2siD9cak",
-        "title": "Old school sweep from half guard",
-        "by": "Ritchie Yip",
         "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 12,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -587,22 +568,17 @@
     ],
     "clips": [
       {
-        "id": "-49CypLW9aM",
-        "title": "Breaking the lockdown half guard",
-        "by": "Superhero Jiu Jitsu Academy",
-        "vertical": false,
-        "channel": "Superhero Jiu Jitsu Academy ",
-        "duration": 61,
-        "verified": "2026-07-15"
+        "id": "bTt-zpZCWos",
+        "title": "Old school sweep counter",
+        "channel": "Gmanbjj",
+        "duration": 16,
+        "front": true
       },
       {
-        "id": "Xb4-phb4BhE",
-        "title": "Breaking the lockdown half guard from the top",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 251,
-        "verified": "2026-07-15"
+        "id": "3CM7prP1kzc",
+        "title": "BJJ Basics: Counter Old School Sweep",
+        "channel": "Ayrshire Grappler",
+        "duration": 60
       }
     ]
   }

@@ -46,24 +46,12 @@ description: "Master the transition from Side Control to Shoulder of Justice in 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shoulder pressure from side control",
-      "description": "Side Control to Shoulder of Justice film study: Shoulder pressure from side control, taught by Roy Dean.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BjeDX3WupdA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BjeDX3WupdA",
-      "url": "https://www.youtube.com/watch?v=BjeDX3WupdA",
-      "creator": { "@type": "Person", "name": "Roy Dean" },
-      "duration": "PT39S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crossface shoulder crunch fundamentals",
-      "description": "Side Control to Shoulder of Justice film study: Crossface shoulder crunch fundamentals, taught by CORE MMA coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pyfc2SjiXVM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pyfc2SjiXVM",
-      "url": "https://www.youtube.com/watch?v=pyfc2SjiXVM",
-      "creator": { "@type": "Person", "name": "CORE MMA coach" },
-      "duration": "PT143S"
+      "name": "James Quigg Shoulder of Justice",
+      "description": "Side Control to Shoulder of Justice film study: James Quigg Shoulder of Justice.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PjFg8gFVPpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PjFg8gFVPpQ",
+      "url": "https://www.youtube.com/watch?v=PjFg8gFVPpQ",
+      "duration": "PT59S"
     }
   ]
 }
@@ -117,17 +105,9 @@ Strategically, this transition serves as a force multiplier for your entire top-
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=BjeDX3WupdA)
+![](https://www.youtube.com/watch?v=PjFg8gFVPpQ)
 
-<p class="clip-credit"><strong>Shoulder pressure from side control</strong> — taught by Roy Dean · 0:39 · <a href="https://www.youtube.com/watch?v=BjeDX3WupdA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pyfc2SjiXVM)
-
-<p class="clip-credit"><strong>Crossface shoulder crunch fundamentals</strong> — taught by CORE MMA coach · 2:23 · <a href="https://www.youtube.com/watch?v=pyfc2SjiXVM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>James Quigg Shoulder of Justice</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=PjFg8gFVPpQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,35 +46,22 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "V Grip from Top Ushiro leg entanglement",
-      "description": "Heel Hook from Ushiro Ashi film study: V Grip from Top Ushiro leg entanglement, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
-      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT140S"
+      "name": "Double outside ashi heel hook escape / running man escape",
+      "description": "Heel Hook from Ushiro Ashi film study: Double outside ashi heel hook escape / running man escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
+      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
+      "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Arm Saddle to inside heel hook flow drill",
-      "description": "Heel Hook from Ushiro Ashi film study: Arm Saddle to inside heel hook flow drill, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
-      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT21S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse X ashi garami leg control",
-      "description": "Heel Hook from Ushiro Ashi film study: Reverse X ashi garami leg control, taught by The Sanctuary BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bf5cJNYCMcA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bf5cJNYCMcA",
-      "url": "https://www.youtube.com/watch?v=Bf5cJNYCMcA",
-      "creator": { "@type": "Person", "name": "The Sanctuary BJJ" },
-      "duration": "PT105S"
+      "name": "Outside heel hook defense to Inside Heel Hook",
+      "description": "Heel Hook from Ushiro Ashi film study: Outside heel hook defense to Inside Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
+      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
+      "duration": "PT104S"
     }
   ]
 }
@@ -137,25 +124,17 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lTsK9C_a6po)
+![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
 
-<p class="clip-credit"><strong>V Grip from Top Ushiro leg entanglement</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
-
-<p class="clip-credit"><strong>Arm Saddle to inside heel hook flow drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double outside ashi heel hook escape / running man escape</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Bf5cJNYCMcA)
+![](https://www.youtube.com/watch?v=clVAHxgRadE)
 
-<p class="clip-credit"><strong>Reverse X ashi garami leg control</strong> — taught by The Sanctuary BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=Bf5cJNYCMcA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Outside heel hook defense to Inside Heel Hook</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

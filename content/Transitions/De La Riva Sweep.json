@@ -64,7 +64,7 @@
       "relationship": "Alternative attack - complementary technique from De La Riva Guard exploiting forward pressure"
     },
     {
-      "name": "Kiss of the Dragon",
+      "name": "Kiss of the Dragon from RDLR",
       "relationship": "Counter transition - back take option when opponent defends sweep by retreating"
     },
     {
@@ -389,21 +389,11 @@
     "clips": [
       {
         "id": "pcOF-B4y09Q",
-        "title": "De La Riva sweep matrix",
-        "by": "Unknown coach",
-        "vertical": false,
+        "title": "Jiu Jitsu De La Riva Sweep Matrix 🥋",
         "channel": "FreeChannelOpen",
-        "duration": 36,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "H_q0fvsywO0",
-        "title": "De la X sweep from De La Riva",
-        "by": "IronHide Academy coach",
+        "duration": 35,
         "vertical": false,
-        "channel": "IronHide Academy",
-        "duration": 69,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -567,26 +557,7 @@
         "description": "Full resistance positional sparring starting in opponent's DLR guard. Partner chains sweep attempts with berimbolo, Kiss of the Dragon, and X-Guard transitions when initial sweep is defended. Develop automatic responses to each chain and build personal defensive sequences. Include competition-pace rounds with score tracking."
       }
     ],
-    "clips": [
-      {
-        "id": "KvdgeJjclTA",
-        "title": "Over-under pass to shut down De La Riva",
-        "by": "Carpio Jiu Jitsu coach",
-        "vertical": false,
-        "channel": "Carpio Jiu Jitsu",
-        "duration": 128,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "krtNPm3OXtc",
-        "title": "Over-under stack pass against De La Riva",
-        "by": "Balance BJJ coach",
-        "vertical": false,
-        "channel": "geministeven",
-        "duration": 163,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

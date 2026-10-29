@@ -4,7 +4,7 @@
 
 ---
 title: "Zombie Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Zombie Bottom position in BJJ. Defensive half guard variant using lockdown mechanics to frustrate passes while threatening sweeps. Learn guard recovery, Old School Sweeps, and Electric Chair submissions with 40-75% success rates."
+description: "Zombie bottom perspective: Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward."
 ---
 
 
@@ -20,39 +20,21 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Zombie to New York",
+      "text": "From this position, attempt Zombie to New York. This technique is attempted in 65% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Zombie",
+      "text": "From this position, attempt Guard Recovery from Zombie. This technique is attempted in 30% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Sweep from Zombie Guard",
+      "text": "From this position, attempt Sweep from Zombie Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Guard Recovery from Zombie",
-      "text": "From this position, attempt Guard Recovery from Zombie. This technique is attempted in 14% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 7% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -67,42 +49,42 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you allowing yourself to be flattened onto your back without maintaining side positioning?",
+      "name": "What happens if you skipping the checkpoint: keep mission control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Loses all mobility and offensive options, allowing opponent to complete the pass easily to side control or mount The correct approach is: Maintain constant hip pressure and shoulder frames to stay on your side - use lockdown tension to prevent flattening and keep shrimping motion active"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Maintain posture control while freeing the other arm for the pummel. The correct approach is: Maintain posture control while freeing the other arm for the pummel."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you releasing or loosening the lockdown grip prematurely before establishing better position?",
+      "name": "What happens if you skipping the checkpoint: find inside space?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent immediately frees their leg and completes the pass with superior base and mobility The correct approach is: Maintain lockdown tension throughout transitions - only release when you've secured guard recovery or committed to a sweep with proper grips established"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. The correct approach is: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you failing to protect the head and neck from crossface attempts?",
+      "name": "What happens if you skipping the checkpoint: move the hand to the mat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent drives crossface across your face, flattens your shoulders, and achieves dominant chest-to-chest control making escapes nearly impossible The correct approach is: Keep active head positioning away from crossface pressure, use near-side frame to block opponent's shoulder, and maintain far-side grip fighting to prevent crossface establishment"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Guide the wrist and forearm through the available space without bending individual fingers. The correct approach is: Guide the wrist and forearm through the available space without bending individual fingers."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you being static and defensive without attempting sweeps or guard recovery?",
+      "name": "What happens if you skipping the checkpoint: prevent the return pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent methodically works to improve position, eventually achieving the pass or back take through sustained pressure and patience The correct approach is: Constantly threaten sweeps and guard recovery to keep opponent defensive - use lockdown stretches, hip bumps, and granby movements to create dynamic threats"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Cover the cleared arm and close the knee hug as the hand reaches the mat. The correct approach is: Cover the cleared arm and close the knee hug as the hand reaches the mat."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you over-committing to sweep attempts without proper setup or timing?",
+      "name": "What happens if you skipping the checkpoint: recognize new york?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent counters the sweep attempt by using your momentum against you, achieving superior position or transitioning to back control The correct approach is: Set up sweeps with proper off-balancing through lockdown manipulation - wait for opponent's weight shifts and base adjustments before committing to sweep execution"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement. The correct approach is: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement."
       }
     }
   ]
@@ -115,7 +97,7 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Zombie Bottom",
-  "description": "Master Zombie Bottom position in BJJ. Defensive half guard variant using lockdown mechanics to frustrate passes while threatening sweeps. Learn guard recovery, Old School Sweeps, and Electric Chair submissions with 40-75% success rates.",
+  "description": "Zombie bottom perspective: Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -205,11 +187,15 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
 
 <section id="overview" class="content-section">
 
-Zombie Bottom is a highly specialized defensive posture within the 10th Planet Jiu-Jitsu system, representing a unique variation of half guard combined with lockdown mechanics. Named for its distinctive appearance where the bottom practitioner appears to be rising from the ground while maintaining protective frames, the Zombie serves as both an escape mechanism and a transition hub to more advantageous positions.
+The bottom player is responsible for maintaining the control. The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. The bottom player's free arm pummels inside to guide that hand toward the mat. Once the hand is cleared and the knee hugged, the configuration has progressed to New York.
 
-The Zombie is characterized by the bottom practitioner being on their side with one leg locked around the opponent's leg (similar to lockdown mechanics), while using frames and grips to prevent the opponent from establishing dominant control. The top player is typically attempting to pass to side control or take the back, while the bottom player works to recover guard or sweep.
+Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Guide the wrist and forearm through the available space without bending individual fingers.
 
-Unlike traditional turtle positions where the practitioner curls into a ball, the Zombie position involves active movement, constant reframing, and strategic use of the lockdown to off-balance the opponent. The position's effectiveness lies in its ability to frustrate passing attempts while creating opportunities for guard recovery, sweeps, or even back takes. Understanding the Zombie position is essential for modern no-gi practitioners, particularly those training in the 10th Planet system or facing opponents who utilize deep half guard and lockdown-based games.
+Cover the cleared arm and close the knee hug as the hand reaches the mat. Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement. Keep a safe guard and look for another opening when the opponent maintains inside frames.
+
+Zombie describes an action and its arm-clearing checkpoint. The high leg controls posture while the free arm works; a half-guard lockdown on an opposing leg is a different mechanism. Pummel slowly without finger manipulation or abrupt shoulder rotation. Support the high knee, and return to ordinary guard when the required angle is uncomfortable.
+
+Once the pummel puts the hand outside, wrap over the cleared upper arm and hug the knee to secure the New York overhook. Keep the inside barrier as the hand travels so the top player cannot replace the lost hand post with chest pressure.
 
 </section>
 
@@ -255,10 +241,10 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 <p class="section-subtitle">What is Zombie (Bottom)?</p>
 
-- Bottom practitioner positioned on their side with hip facing opponent, creating a defensive shell while maintaining mobility through shoulder and hip positioning that allows constant micro-adjustments
-- One leg (typically the bottom leg) entangled with opponent's leg using lockdown-style grip with foot hooking behind opponent's calf and thigh squeeze active, creating fulcrum point for sweeps
-- Near-side arm creating a defensive frame against opponent's chest or shoulder, preventing forward pressure and maintaining space for hip movement and guard recovery attempts
-- Head and shoulders protected from opponent's crossface attempts through active head positioning and far-side arm control, maintaining ability to see and react to passing attempts
+- The bottom player has broken posture and supports a high Mission Control leg.
+- The top player's hand or forearm is still obstructing the intended arm isolation.
+- The bottom player's free arm pummels inside to guide that hand toward the mat.
+- Once the hand is cleared and the knee hugged, the configuration has progressed to New York.
 
 
 </section>
@@ -269,11 +255,9 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 <p class="section-subtitle">What do you need before playing Zombie (Bottom)?</p>
 
-- Guard has been partially compromised but full pass not yet achieved
-- Bottom practitioner able to establish lockdown on one of opponent's legs
-- Opponent attempting to consolidate passing position or establish side control
-- Bottom practitioner has maintained frames preventing complete flattening
-- Sufficient space exists for hip movement and guard recovery attempts
+- Maintain posture control while freeing the other arm for the pummel.
+- Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+- Guide the wrist and forearm through the available space without bending individual fingers.
 
 
 </section>
@@ -284,12 +268,12 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 <p class="section-subtitle">What are the key principles for defending Zombie?</p>
 
-- Maintain active lockdown tension to restrict opponent's base and prevent them from completing the pass
-- Use near-side frame to create distance and prevent opponent from driving chest pressure into your upper body
-- Keep constant hip movement to prevent being flattened - staying on your side is crucial for escape options
-- Protect your back and neck from opponent's crossface attempts through active head positioning and grip fighting
-- Create off-balancing opportunities through lockdown stretching and hip pressure to set up sweeps or guard recovery
-- Time your escape attempts with opponent's weight shifts and base adjustments for maximum effectiveness
+- Keep Mission Control: Maintain posture control while freeing the other arm for the pummel.
+- Find inside space: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+- Move the hand to the mat: Guide the wrist and forearm through the available space without bending individual fingers.
+- Prevent the return pummel: Cover the cleared arm and close the knee hug as the hand reaches the mat.
+- Recognize New York: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.
+- Reset a blocked attempt: Keep a safe guard and look for another opening when the opponent maintains inside frames.
 
 
 </section>
@@ -300,24 +284,16 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 <p class="section-subtitle">What should you do from Zombie (Bottom)?</p>
 
-**If opponent is heavy on your upper body with strong crossface pressure:**
-- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 45%)
+**When the pummel is blocked and the high-leg connection must be released to recover frames:**
+- Execute **[[Transitions/Guard Recovery from Zombie/Attacker|Guard Recovery from Zombie]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
-**If opponent is attempting to free their leg from lockdown by posting or pulling:**
-- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Half Guard]] (Probability: 60%)
-- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
+**After the Zombie pummel establishes New York, when neck clearance can be achieved safely:**
+- Execute **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** → [[Positions/Rubber Guard/Chill Dog]] (Probability: 55%)
 
 
-**If opponent establishes strong chest-to-chest pressure attempting to flatten you:**
-- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 45%)
-- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 40%)
-
-
-**If opponent creates distance trying to clear lockdown and establish passing grips:**
-- Execute **[[Transitions/Guard Recovery from Zombie/Attacker|Guard Recovery from Zombie]]** → [[Positions/Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 55%)
+**After New York and neck clearance are established, when the second leg can close without knee torque:**
+- Execute **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 58%)
 
 
 
@@ -330,40 +306,30 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 <p class="section-subtitle">What mistakes should you avoid when defending Zombie?</p>
 
-### 1. Allowing yourself to be flattened onto your back without maintaining side positioning
+### 1. Skipping the checkpoint: keep mission control
 
-- ❌ **Consequence**: Loses all mobility and offensive options, allowing opponent to complete the pass easily to side control or mount
-- ✅ **Correction**: Maintain constant hip pressure and shoulder frames to stay on your side - use lockdown tension to prevent flattening and keep shrimping motion active
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Maintain posture control while freeing the other arm for the pummel.
+- ✅ **Correction**: Maintain posture control while freeing the other arm for the pummel.
 
-### 2. Releasing or loosening the lockdown grip prematurely before establishing better position
+### 2. Skipping the checkpoint: find inside space
 
-- ❌ **Consequence**: Opponent immediately frees their leg and completes the pass with superior base and mobility
-- ✅ **Correction**: Maintain lockdown tension throughout transitions - only release when you've secured guard recovery or committed to a sweep with proper grips established
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+- ✅ **Correction**: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-### 3. Failing to protect the head and neck from crossface attempts
+### 3. Skipping the checkpoint: move the hand to the mat
 
-- ❌ **Consequence**: Opponent drives crossface across your face, flattens your shoulders, and achieves dominant chest-to-chest control making escapes nearly impossible
-- ✅ **Correction**: Keep active head positioning away from crossface pressure, use near-side frame to block opponent's shoulder, and maintain far-side grip fighting to prevent crossface establishment
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Guide the wrist and forearm through the available space without bending individual fingers.
+- ✅ **Correction**: Guide the wrist and forearm through the available space without bending individual fingers.
 
-### 4. Being static and defensive without attempting sweeps or guard recovery
+### 4. Skipping the checkpoint: prevent the return pummel
 
-- ❌ **Consequence**: Opponent methodically works to improve position, eventually achieving the pass or back take through sustained pressure and patience
-- ✅ **Correction**: Constantly threaten sweeps and guard recovery to keep opponent defensive - use lockdown stretches, hip bumps, and granby movements to create dynamic threats
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Cover the cleared arm and close the knee hug as the hand reaches the mat.
+- ✅ **Correction**: Cover the cleared arm and close the knee hug as the hand reaches the mat.
 
-### 5. Over-committing to sweep attempts without proper setup or timing
+### 5. Skipping the checkpoint: recognize new york
 
-- ❌ **Consequence**: Opponent counters the sweep attempt by using your momentum against you, achieving superior position or transitioning to back control
-- ✅ **Correction**: Set up sweeps with proper off-balancing through lockdown manipulation - wait for opponent's weight shifts and base adjustments before committing to sweep execution
-
-### 6. Allowing opponent to establish double underhooks or bodylock control
-
-- ❌ **Consequence**: Opponent gains complete control of your torso, can easily lift and manipulate your position, leading to inevitable pass or back take
-- ✅ **Correction**: Fight aggressively for underhook control, maintain active frames to prevent opponent from connecting their hands, and use lockdown to disrupt their base before they consolidate grips
-
-### 7. Neglecting to create angles and space for hip movement
-
-- ❌ **Consequence**: Position becomes completely static, allowing opponent to methodically break down your defensive structure with sustained pressure
-- ✅ **Correction**: Use near-side frame to create space, shrimp your hips to create angles, and time these movements with lockdown stretches to maximize effectiveness and create escape opportunities
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.
+- ✅ **Correction**: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.
 
 
 
@@ -375,32 +341,25 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 <p class="section-subtitle">How do you train Zombie defense?</p>
 
-### Zombie Position Retention Drill
+### Identify the configuration
 
-Partner starts in passing position with you in Zombie with lockdown established. Partner attempts to flatten you and complete the pass while you maintain side positioning and frames. Focus on constant hip movement, lockdown pressure, and defensive frames. Reset after each successful defense or pass completion.
+Work cooperatively on keep mission control. Maintain posture control while freeing the other arm for the pummel. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 5 minutes per round
-
-
-### Lockdown Sweep Flow Drill
-
-From Zombie position, practice flowing between Old School Sweep, Electric Chair threat, and Deep Half entries based on partner's reactions. Partner provides progressive resistance, gradually increasing pressure as your timing improves. Emphasize reading partner's weight distribution and base positioning.
-
-**Duration**: 6 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Zombie to Guard Recovery Sequence
+### Rehearse the connection
 
-Start in Zombie position with partner attempting various passing attacks. Your goal is to successfully recover full guard (half guard, lockdown, or closed guard) within 30 seconds. Partner uses different passing strategies each round (knee slice, crossface, leg weave, etc.). Track success rate for each passing style encountered.
+Work cooperatively on find inside space. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 3 minutes per round
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Granby Roll Integration Drill
+### Add an early response
 
-Practice Granby Roll specifically from Zombie position when opponent applies heavy shoulder pressure. Partner varies between maintaining pressure and following your roll. Focus on smooth technical execution, protecting your back during the roll, and immediately establishing guard upon completion.
+Work cooperatively on move the hand to the mat. Guide the wrist and forearm through the available space without bending individual fingers. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 4 minutes per round
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
 
@@ -415,11 +374,11 @@ Practice Granby Roll specifically from Zombie position when opponent applies hea
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 62% |
+| Retention Rate | 77% |
 | Advancement Probability | 58% |
-| Submission Probability | 16% |
+| Submission Probability | 32% |
 
-**Average Time in Position**: 30-90 seconds
+**Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 
 
 </section>
@@ -428,16 +387,10 @@ Practice Granby Roll specifically from Zombie position when opponent applies hea
 
 ## Related Positions and Techniques
 
-- **[[Positions/Half Guard/Lockdown]]** - Core component - Zombie position utilizes lockdown mechanics as primary control mechanism
-- **[[Positions/Half Guard/Electric Chair]]** - Common transition - Natural progression from Zombie when opponent's leg is trapped
-- **[[Positions/Twister Control/Truck]]** - Advanced variation - Similar defensive structure with different leg entanglement
-- **[[Positions/Half Guard/Deep Half Guard]]** - Transition target - Frequently accessed when opponent pressures forward
-- **[[Positions/Half Guard]]** - Guard recovery destination - Primary goal for re-establishing guard structure
-- **[[Positions/Turtle]]** - Similar position - Traditional turtle alternative without lockdown mechanics
-- **[[Positions/Half Guard/Old School]]** - Primary offensive technique - Highest percentage sweep from Zombie position
-- **[[Positions/Twister Control]]** - Parent system - Zombie is integral component of 10th Planet Twister system
-- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Systematic framework - Related half guard defensive structure
-- **[[Positions/Rubber Guard]]** - Related 10th Planet position - shares systematic philosophy
+- **[[Positions/Rubber Guard/Mission Control]]** - Related configuration to study separately: compare the configuration and required controls for Mission Control.
+- **[[Positions/Rubber Guard/New York]]** - Related configuration to study separately: compare the configuration and required controls for New York.
+- **[[Positions/Rubber Guard]]** - Related configuration to study separately: compare the configuration and required controls for Rubber Guard.
+- **[[Positions/Dead Orchard Control]]** - Related configuration to study separately: compare the configuration and required controls for Dead Orchard Control.
 
 
 </section>

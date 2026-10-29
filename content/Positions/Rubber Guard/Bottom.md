@@ -165,35 +165,12 @@ description: "Master Rubber Guard bottom using the 10th Planet system. Learn Mis
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Prison guard breakdown from rubber guard",
-      "description": "Rubber Guard (Bottom) film study: Prison guard breakdown from rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
-      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Meathook options from rubber guard",
-      "description": "Rubber Guard (Bottom) film study: Meathook options from rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KN7ww-OyaxQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KN7ww-OyaxQ",
-      "url": "https://www.youtube.com/watch?v=KN7ww-OyaxQ",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Invisible collar from rubber guard",
-      "description": "Rubber Guard (Bottom) film study: Invisible collar from rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
-      "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
+      "name": "Rubber Guard TIPS all BEGINNERS should know..",
+      "description": "Rubber Guard (Bottom) film study: Rubber Guard TIPS all BEGINNERS should know...",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WwcWSfurE2A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WwcWSfurE2A",
+      "url": "https://www.youtube.com/watch?v=WwcWSfurE2A",
+      "duration": "PT273S"
     }
   ]
 }
@@ -219,25 +196,9 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+![](https://www.youtube.com/watch?v=WwcWSfurE2A)
 
-<p class="clip-credit"><strong>Prison guard breakdown from rubber guard</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KN7ww-OyaxQ)
-
-<p class="clip-credit"><strong>Meathook options from rubber guard</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=KN7ww-OyaxQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KCyIwacRKu8)
-
-<p class="clip-credit"><strong>Invisible collar from rubber guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber Guard TIPS all BEGINNERS should know..</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=WwcWSfurE2A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,35 +46,13 @@ description: "Master Anaconda Control in BJJ. Complete guide covering offensive 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Anaconda vs D\u0027Arce choke difference",
-      "description": "Anaconda Control film study: Anaconda vs D\u0027Arce choke difference, taught by Matt Arroyo.",
+      "name": "Difference Between The ANACONDA CHOKE and D\u2019ARCE CHOKE in Jiu Jitsu!",
+      "description": "Anaconda Control film study: Difference Between The ANACONDA CHOKE and D\u2019ARCE CHOKE in Jiu Jitsu!, taught by Matt Arroyo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
       "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
       "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Basic anaconda choke, step by step",
-      "description": "Anaconda Control film study: Basic anaconda choke, step by step, taught by Caleb McAllister.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oUib2H2bOMQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oUib2H2bOMQ",
-      "url": "https://www.youtube.com/watch?v=oUib2H2bOMQ",
-      "creator": { "@type": "Person", "name": "Caleb McAllister" },
-      "duration": "PT102S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Marcelo Garcia anaconda choke finish",
-      "description": "Anaconda Control film study: Marcelo Garcia anaconda choke finish, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DHYmDsncdS8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DHYmDsncdS8",
-      "url": "https://www.youtube.com/watch?v=DHYmDsncdS8",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT126S"
+      "duration": "PT66S"
     }
   ]
 }
@@ -123,27 +101,11 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 <p class="section-subtitle">Watch Anaconda Control in action — curated instructionals</p>
 
 
-<div class="film-clip">
+<div class="film-clip film-clip--vertical">
 
 ![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
 
-<p class="clip-credit"><strong>Anaconda vs D&#39;Arce choke difference</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oUib2H2bOMQ)
-
-<p class="clip-credit"><strong>Basic anaconda choke, step by step</strong> — taught by Caleb McAllister · 1:42 · <a href="https://www.youtube.com/watch?v=oUib2H2bOMQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DHYmDsncdS8)
-
-<p class="clip-credit"><strong>Marcelo Garcia anaconda choke finish</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=DHYmDsncdS8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Difference Between The ANACONDA CHOKE and D’ARCE CHOKE in Jiu Jitsu!</strong> — taught by Matt Arroyo · 1:06 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -292,15 +254,11 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ### Available Transitions
 
 
-- **[[Submissions/Anaconda Choke/from Anaconda Control/Attacker|Anaconda Choke from Anaconda Control]]** (41% of attempts)
+- **[[Submissions/Anaconda Choke/from Anaconda Control/Attacker|Anaconda Choke from Anaconda Control]]** (53% of attempts)
 
-- **[[Transitions/Switch to Darce Configuration/Attacker|Switch to Darce Configuration]]** (13% of attempts)
+- **[[Transitions/Anaconda to Side Control/Attacker|Anaconda to Side Control]]** (26% of attempts)
 
-- **[[Transitions/Anaconda to Side Control/Attacker|Anaconda to Side Control]]** (20% of attempts)
-
-- **[[Transitions/Anaconda Control to Dead Orchard Control/Attacker|Anaconda Control to Dead Orchard Control]]** (10% of attempts)
-
-- **[[Transitions/Back Take from Anaconda/Attacker|Back Take from Anaconda]]** (16% of attempts)
+- **[[Transitions/Back Take from Anaconda/Attacker|Back Take from Anaconda]]** (21% of attempts)
 
 
 ### Common Mistakes

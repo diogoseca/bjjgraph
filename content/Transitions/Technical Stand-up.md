@@ -46,34 +46,11 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Technical stand up from half guard bottom",
-      "description": "Technical Stand-up film study: Technical stand up from half guard bottom, taught by Steve Haydock.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LXTH9mOWCww/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LXTH9mOWCww",
-      "url": "https://www.youtube.com/watch?v=LXTH9mOWCww",
-      "creator": { "@type": "Person", "name": "Steve Haydock" },
-      "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The four types of technical stand-up and when to use them",
-      "description": "Technical Stand-up film study: The four types of technical stand-up and when to use them, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/quMmk9Xs2HE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/quMmk9Xs2HE",
-      "url": "https://www.youtube.com/watch?v=quMmk9Xs2HE",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT444S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to do the technical stand up",
-      "description": "Technical Stand-up film study: How to do the technical stand up, taught by Bam Bam Martial Arts.",
+      "name": "How To Do The Technical Stand Up In Jiu Jitsu",
+      "description": "Technical Stand-up film study: How To Do The Technical Stand Up In Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mr9HJep7zA0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mr9HJep7zA0",
       "url": "https://www.youtube.com/watch?v=mr9HJep7zA0",
-      "creator": { "@type": "Person", "name": "Bam Bam Martial Arts" },
       "duration": "PT145S"
     }
   ]
@@ -113,6 +90,8 @@ The technique is particularly valuable in self-defense scenarios, scrambles, and
 
 Mastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.
 
+Inversion disengagement: Release the inverted hooks, uncurl through the hips into a seated base, and post a hand and the opposite foot. Lift the hips, withdraw the free leg, and stand while maintaining distance. The completed finish is Standing Position/Top; a failed uncurling stays in Inverted Guard/Bottom.
+
 **From Position**: [[Positions/Seated Guard]] (Bottom)
 **Success Rate**: 41%
 
@@ -128,25 +107,9 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=LXTH9mOWCww)
-
-<p class="clip-credit"><strong>Technical stand up from half guard bottom</strong> — taught by Steve Haydock · 2:42 · <a href="https://www.youtube.com/watch?v=LXTH9mOWCww" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=quMmk9Xs2HE)
-
-<p class="clip-credit"><strong>The four types of technical stand-up and when to use them</strong> — taught by Stephan Kesting · 7:24 · <a href="https://www.youtube.com/watch?v=quMmk9Xs2HE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=mr9HJep7zA0)
 
-<p class="clip-credit"><strong>How to do the technical stand up</strong> — taught by Bam Bam Martial Arts · 2:25 · <a href="https://www.youtube.com/watch?v=mr9HJep7zA0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Do The Technical Stand Up In Jiu Jitsu</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=mr9HJep7zA0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -208,7 +171,7 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 
 - **Establish seated base**: From seated guard or bottom position, sit up with back straight and hands ready. Your lead leg (typi...
 
-- **Post hand behind hip**: Place your posting hand (same side as trail leg) flat on the mat approximately 12-18 inches behind a...
+- **Post hand behind hip**: Post one hand behind the hip and the opposite foot on the mat. Keep the supporting shoulder active a...
 
 - **Elevate hips off mat**: Drive through your posting hand and lead leg simultaneously to lift your hips completely off the mat...
 
@@ -301,6 +264,9 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 
 
 **Single Leg Integration Stand-up**: Technical stand-up initiated while controlling opponent's leg in Single Leg X-Guard or other leg entanglement. Use the controlled leg as reference point while executing standard technical stand-up mechanics. Creates opportunity for Single Leg Takedown or forces opponent to disengage their passing attempt. Requires coordination of leg control while standing. (When to use: When transitioning from leg entanglement positions and wanting to stand while maintaining offensive connection to opponent)
+
+
+**Inversion disengagement**: Release the inverted hooks, uncurl through the hips into a seated base, and post a hand and the opposite foot. Lift the hips, withdraw the free leg, and stand while maintaining distance. The completed finish is Standing Position/Top; a failed uncurling stays in Inverted Guard/Bottom. (When to use: Against the shoulder-supported inversion described in Inverted Guard.)
 
 
 

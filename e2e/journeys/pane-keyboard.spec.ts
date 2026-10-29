@@ -14,7 +14,7 @@ async function addMore(page: Page) {
       principles: ["Maintain your base while your partner changes direction."] }
     a.onContentReady(key)
   })
-  await expect(page.locator("[data-land-more]")).toBeVisible()
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
 }
 
 async function settle(page: Page, j: Journey) {
@@ -43,25 +43,34 @@ async function study(page: Page, j: Journey) {
   await settle(page, j)
 }
 
-test("@curated Esc closes the pane before the expanded reading column", async ({ page }) => {
+// STALE CONTRACT (D-338): Focus on reading and Browse are gone. Reading starts with a real reading
+// interaction (focusing the prose), and the logo opens the pane above the article, as Browse did.
+const read = async (page: Page) => {
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await page.locator("[data-reader-body]").focus()
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.interacting)).toBe(true)
+}
+test("@curated Esc closes the pane and leaves the independent article reading", async ({ page }) => {
   const j = await setup(page)
   await addMore(page)
-  await settle(page, j)
-  await j.clickByMouse("[data-land-more]", "open More")
-  await j.clickByMouse(".ng-logo", "open the pane above More")
+  await read(page)
+  await page.locator('[data-reader]').evaluate(e => { e.scrollTop = 0 })
+  await j.clickByMouse(".ng-logo", "open the pane above the article")
   await page.keyboard.press("Escape")
   await expect(page.locator(".ng-drill")).toBeHidden()
-  await expect(page.locator("[data-land-more]")).toHaveAttribute("aria-expanded", "true")
-  expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
-
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await page.keyboard.press("Escape")
-  await expect(page.locator("[data-land-more]")).toHaveAttribute("aria-expanded", "false")
-  expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(false)
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  expect(await page.evaluate(() => {
+    const a = (window as any).__neural
+    return { reading: a._reader.interacting, clock: a._decision?.remaining ?? null, paused: a.paused }
+  })).toEqual({ reading: true, clock: null, paused: true })
 })
 
 test("@curated fresh, cached and backfilled landing pages preserve the pane's answer keys", async ({ page }) => {
   const j = await setup(page)
   await study(page, j)
+  await j.openQuestion() // U47 d: the landing deck pages once its card is shown; the pane keeps its keys.
   const pane = await page.evaluate(() => {
     const m = (window as any).__neural._mc
     return { qhash: m.qhash, correct: m.correct }
@@ -101,6 +110,7 @@ test("@curated a recall page mounted under the pane receives Space when the pane
     a.stage[key] ||= {}; a.stage[key][a.qhash(card.q)] = 2
   })
   await study(page, j)
+  await j.openQuestion() // U47 d: the landing deck pages once its card is shown.
   for (const dir of ["next", "prev", "next"]) {
     await j.clickByMouse(`[data-land-${dir}]`, `page the exposed landing deck ${dir}`)
     await j.landSettled()
@@ -118,26 +128,44 @@ test("@curated a recall page mounted under the pane receives Space when the pane
   await expect(page.locator("[data-land-answer]")).toBeVisible()
 })
 
-test("@curated ending replay preserves an expanded More pause after the pane closes", async ({ page }) => {
+// D-354 (review-claude Delta 8, B1): this PR's app race. Since D-318 the landing card and its deck
+// arrows are the reader's parts, and the reader laid them out a frame after the pane's slide had moved
+// the column, so a click measured just after the pane opened landed on the moved card: the next arrow's
+// point became an MC answer (the test above, isolated: head 10 of 75 red, dev 0 of 100). They now follow
+// the pane in the same frame. Read inside one evaluate, with no frame between, the arrows already sit
+// where the reader's own layout puts them. THIS journey is the gate (D9-N4): its control d354-pane-follow-lag
+// is killed at its claim. Later isolated greens of the test above are not evidence of the fix.
+test("D-354: the landing deck and its arrows follow the pane in the same frame", async ({ page }) => {
+  await setup(page)
+  const r = await page.evaluate(() => {
+    const a = (window as any).__neural, at = (el: any) => { const b = el.getBoundingClientRect(); return [Math.round(b.left), Math.round(b.top)] }
+    const next = () => document.querySelector("[data-land-next]") as HTMLElement
+    const premise = { adopted: !!a._landEl?.hasAttribute("data-reader-game-part"), arrow: !!next(), shift: a.uiShift }
+    a.openPane("explore")
+    a.advance(4000)   // the pane's slide (1 - e^(-t/0.4), snapping within 0.001), pumped: no real frame between
+    const slid = { card: at(a._landEl), next: at(next()), shift: a.uiShift }
+    a._reader.layoutNow()
+    return { premise, slid, laidOut: { card: at(a._landEl), next: at(next()) } }
+  })
+  expect(r.premise, "premise: the reader owns the landing card and its arrows, the pane shut").toEqual({ adopted: true, arrow: true, shift: 0 })
+  expect(r.slid.shift, "premise: the pane slid open").toBe(1)
+  expect({ card: r.slid.card, next: r.slid.next }, "the card and its arrows follow the pane in the same frame").toEqual(r.laidOut)
+})
+
+// STALE CONTRACT (D-338): "leaving Focus" has no control left; the claim that stopped reading
+// waits for a move is kept, entered by the reading interaction itself.
+test("@curated stopped reading waits for a move", async ({ page }) => {
   const j = await setup(page)
   await addMore(page)
-  await settle(page, j)
-  await j.clickByMouse(".ng-logo", "the pane takes the pause")
-  await settle(page, j)
-  await j.clickByMouse("[data-land-more]", "open the exposed More control")
-  // A one-state history fixture is enough to exercise replay ownership; replay itself
-  // uses the production entry point, and its close control gets a real mouse below.
+  await read(page)
+  await j.advance(12000)
   expect(await page.evaluate(() => {
     const a = (window as any).__neural
-    return a.startReplay({ ts: 123, log: a.rollLog.slice(0, 1), outcome: "scramble" })
-  })).toBe(true)
-  await j.clickByMouse(".ng-explorer-close", "close the pane while replay runs")
-  expect(await page.evaluate(() => !!(window as any).__neural._replay)).toBe(true)
-  await page.waitForTimeout(350)
-  await j.clickByMouse("[data-replay-stop]", "stop replay")
-  await expect(page.locator("[data-land-more]")).toHaveAttribute("aria-expanded", "true")
-  expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
-  await page.waitForTimeout(350)
-  await j.clickByMouse("[data-land-more]", "close the final pause holder")
-  expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(false)
+    return { reading: a._reader.interacting, paused: a.paused, clock: a._decision?.remaining ?? null }
+  })).toEqual({ reading: true, paused: true, clock: null })
+  await page.evaluate(() => (window as any).__neural._optionCards.find((c: any) => !c.opt.threat).card.setAttribute("data-reading-choice", ""))
+  await page.locator("[data-reading-choice]").scrollIntoViewIfNeeded()
+  await j.clickByMouse("[data-reading-choice]", "choose a move directly")
+  await j.advance(1500)
+  expect(await page.evaluate(() => { const a = (window as any).__neural; return { intent: a._readerIntent, reading: a._reader.interacting } })).toEqual({ intent: false, reading: false })
 })
