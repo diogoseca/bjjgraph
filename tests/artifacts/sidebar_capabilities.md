@@ -25,8 +25,8 @@ UNGUARDED rows were unguarded before this build and are untouched by it.
 | 13 | "Save your progress" caption at the pane foot, hidden during study [G] | moved | the guest's Save pill in the badge (round 4's calmer save offer, after G7 e) | sidebar.spec.ts "a guest's badge offers to save…" |
 | 14 | "Create account": opens the sign-up modal [G] | moved | the badge's Save pill and the menu's "Create account" | account-menu.spec.ts "rows open the real surfaces"; sidebar.spec.ts (badge Save) |
 | 15 | "Already have one? Log in": opens the login modal [G] | moved | the badge menu's "Log in" | account-menu.spec.ts "rows open the real surfaces" |
-| 16 | "Request a technique": feedback modal (textarea, "about: <state>" checkbox, "Send"), sent to PostHog | moved | the badge menu's small line "Request a technique" (a real button now) | feedback-modal.spec.ts; footer-feedback.spec.ts; account-menu.spec.ts |
-| 17 | "Help improve it": "Help improve the graph" feedback modal | moved | the badge menu's "Feedback" (a real button now) | account-menu.spec.ts "rows open the real surfaces"; feedback-modal.spec.ts |
+| 16 | "Request a technique": feedback modal (textarea, "about: <state>" checkbox, "Send"), sent to PostHog | moved | U67 a: badge menu → Feedback → optional Technique request in the one-text-box form; context retained | feedback-modal.spec.ts; footer-feedback.spec.ts; account-menu.spec.ts |
+| 17 | "Help improve it": "Help improve the graph" feedback modal | moved | U67 a: badge menu → the same Feedback form, general feedback by default; context retained | account-menu.spec.ts "rows open the real surfaces"; feedback-modal.spec.ts |
 | 18 | "GitHub" chip, which becomes "★ N" once star count loads (fetched on first pane open, cached a day); opens github.com… | moved | the badge menu's small line "GitHub" / "★ N" (count fetched on first menu open, cached a day) | footer-feedback.spec.ts "the GitHub chip paints a day-cached star count…" |
 | 19 | Gear icon (title "Settings", no text): opens Settings on the Flashcards tab | moved | the badge menu's "Settings" (Flashcards tab) | account-menu.spec.ts "rows open the real surfaces" (Flashcards tab) |
 | 20 | "Terms": "Terms of Use" modal | moved | the badge menu's small line "Terms" (a real button now: the keyboard defect is fixed) | account-menu.spec.ts; sidebar.spec.ts "keyboard: … small links work by key" |
@@ -168,7 +168,7 @@ UNGUARDED rows were unguarded before this build and are untouched by it.
 
 Totals: kept 75, moved 69, retired 1. Unguarded, pre-existing and untouched: rows 28, 88, 90, 114, 115, 117 (and the legend labels 141–143, whose box sidebar.spec.ts measures).
 
-## Owner answers, 29 October (U60 b, U66 a)
+## Owner answers, 29 October (U60 b, U61 c, U66 a, U67 a)
 
 The original 145 capabilities remain accounted for above. These rows track the newer sidebar capabilities
 explicitly, including the Account preferences destination folded into Settings (U60 b).
@@ -179,5 +179,6 @@ explicitly, including the Account preferences destination folded into Settings (
 | A2 | Notifications deep link | moved | Settings → Notifications tab (U60 b); the badge has one Settings entry | account-menu.spec.ts "signed in with legacy progress…" |
 | A3 | Train section heading | retired | U60 b: heading removed; Practice then Path retain their order | sidebar.spec.ts "the drawer lists Search, Explore, Practice, Path…" |
 | A4 | Account and Settings access during a catch | moved | U16 b + U66 a: reachable drawer icon opens and pauses the catch, then badge → Settings | defending-landing.spec.ts "U16 b / U66 a: the drawer icon stays reachable…" |
-| A5 | Feedback | kept | U62: retain the used feedback capability | account-menu.spec.ts "rows open the real surfaces" |
+| A5 | Feedback | kept | U62 + U67 a: one Feedback row and one text box; optional technique-request kind retains both PostHog events and current-page context | feedback-modal.spec.ts "U67 a: the merged form submits both feedback kinds…"; footer-feedback.spec.ts |
 | A6 | Training-day email preference and guest explanation | kept | Settings → Notifications, `emailDigest` unchanged; original row 128 | notifications-tab.spec.ts |
+| A7 | About | retired | never existed; retired by U61 c | account-menu.spec.ts "signed out: a short menu and one small line" |

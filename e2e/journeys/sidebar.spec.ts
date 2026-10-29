@@ -319,7 +319,7 @@ test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it
     return el && el.closest(".ng-account-menu") ? [...el.attributes].map((x) => x.name).find((n) => n.startsWith("data-menu-") || n === "data-gh-chip") || el.tagName : "outside"
   })
   expect(await focused(), "focus moved into the menu, on its first item").toBe("data-menu-mastered")
-  for (const sel of ["[data-menu-settings]", "[data-menu-feedback]", "[data-menu-request]", "[data-menu-terms]", "[data-menu-privacy]", "[data-gh-chip]"]) {
+  for (const sel of ["[data-menu-settings]", "[data-menu-feedback]", "[data-menu-terms]", "[data-menu-privacy]", "[data-gh-chip]"]) {
     const tag = await page.locator(".ng-account-menu " + sel).evaluate((el) => el.tagName)
     expect(["BUTTON", "A"], sel + " is a real control").toContain(tag)
   }
@@ -328,7 +328,7 @@ test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it
   await page.keyboard.press("Home")
   const walked: string[] = []
   for (let i = 0; i < 12 && (await focused()) !== "data-menu-terms"; i++) { await page.keyboard.press("ArrowDown"); walked.push(String(await focused())) }
-  expect(walked, "ArrowDown walks the items in order").toEqual(["data-menu-settings", "data-menu-feedback", "data-menu-create", "data-menu-login", "data-menu-request", "data-menu-terms"])
+  expect(walked, "ArrowDown walks the items in order").toEqual(["data-menu-settings", "data-menu-feedback", "data-menu-create", "data-menu-login", "data-menu-terms"])
   // Esc closes the menu and hands focus back to the badge
   await page.keyboard.press("Escape")
   await expect(page.locator(".ng-account-menu")).not.toHaveAttribute("data-open", "1")

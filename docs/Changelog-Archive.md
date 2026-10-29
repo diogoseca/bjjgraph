@@ -13183,3 +13183,39 @@ mixes known + new cards… The goal today is to do 20 flashcards."
   Practice-only visit would save is not worth that churn in this PR; the drawer asks for both on opening,
   as dev's Explore tab did.
 
+### v1.242.0 — SIDECX1 review completion and SIDECX2 owner addendum
+
+Held-index probes reproduced the missed first Practice press: concepts arrival moved the row
+60px at both 390×844 and 1440×900 (both indexes: 61px). Stable loading headers and matching
+Systems line height reduce all six cases to 0px, with every aimed press opening Practice. The
+index waits that hid the race are gone. Closing the phone drawer preserves replay, a deferred
+planner preserves a revealed/open study card, and only keyboard opening focuses the badge menu.
+The quota property now covers 303 points (due 0…100 at left 20, 7, 60).
+
+U60 b removes Train and folds Account preferences into the one Settings row; Notifications and
+its email preference remain reachable. U16 b / U66 a keep the drawer icon reachable during a
+catch, using the existing pane pause ownership. U61 c: About never existed and is retired. U67 a
+merges Request a technique and Help improve the graph into one Feedback row, one textarea, the
+existing about/current-page checkbox and an optional Technique request checkbox. General
+feedback still emits `neural_issue_reported`; marked requests still emit
+`neural_technique_requested`, with unchanged payload properties. This preserves telemetry
+history and consumers. The small line is Terms · Privacy · GitHub.
+
+The takeover's 16 controls and four addendum controls were killed at their named assertions.
+The N7 geometry kills use 1440×720 (74..218px reading band) and 1440×700, preserving the
+original overlap/fit assertions. Six affected minified controls were rerun after rebinding
+minifier locals: all killed against green baselines. Exact patches and outcomes are recorded
+in `tests/artifacts/sidebar_r3_mutants.json` and `sidebar_mutants.md`. The addendum's 15
+focused browser checks passed, including both submit kinds, context opt-out, session/guest
+telemetry and keyboard/touch navigation; the owner preview has 27 current captures.
+
+Correction to SIDE-R2's CI classification above: **14 STALE / 2 REAL**, because dual-pair's
+harness-visible fog ease was also an app defect. The later cancelled e9b09f6ea run exposed nine
+more stale Path-entry assumptions (dev and corrected head both 9/9) and a fog observation that
+sampled after the fade. Sampling each pumped draw still kills snap and no-ease controls. N9
+remains measurement only: 36 reliable integer-x samples at width 390, 33 at width 360, with
+ten non-closing exposed samples beside the drawer at each width.
+
+Final addendum payload: deferred **506,562 / 506,817 B**; eager raw **1,366,605 / 1,600,000 B**;
+eager gzip **342,366 B**, **+2,781 B** against baseline 339,585 (5,000 B delta cap). No ceiling
+changed. Relative to SIDECX1, Feedback adds 49 raw eager bytes and removes 31 gzip bytes.

@@ -4808,7 +4808,8 @@ class Component extends DCLogic {
   openModal() { this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
   /**
    * FEEDBACK GOES TO POSTHOG (v1.105.5, owner: "using post hoc. It should not be done using
-   * GitHub"). One small modal for both kinds; submit is a plain `track()` capture with the text
+   * GitHub"). U67 a: one Feedback row and form for both kinds. An optional technique-request
+   * checkbox keeps the two existing events alive; submit is a plain `track()` capture with the text
    * as a property — PostHog-native collection, no new backend. The auth form is the styling
    * prior art.
    *
@@ -4820,24 +4821,28 @@ class Component extends DCLogic {
    * The signed_in boolean records only whether this.user exists at Send, never its id or email.
    * `e2e/journeys/feedback-modal.spec.ts` pins the copy, the column and every control by mouse.
    */
-  openFeedback(kind) {
+  openFeedback() {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
     card.innerHTML = "";
-    const isTech = kind === "technique";
     const head = document.createElement("div");
     head.style.cssText = "display:flex;align-items:center;justify-content:space-between;padding:16px 20px 0;";
-    head.innerHTML = '<div data-feedback-title="1" style="font-size:16px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;">' + (isTech ? "Request a technique" : "Help improve the graph") + '</div><span class="x" data-feedback-close="1" style="cursor:pointer;color:#8b97b0;font-size:21px;line-height:1;">\u00d7</span>';
+    head.innerHTML = '<div data-feedback-title="1" style="font-size:16px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;">Feedback</div><span class="x" data-feedback-close="1" style="cursor:pointer;color:#8b97b0;font-size:21px;line-height:1;">\u00d7</span>';
     head.querySelector(".x").addEventListener("click", () => this.closeModal());
     card.appendChild(head);
     const body = document.createElement("div");
     body.style.cssText = "padding:12px 20px 20px;display:flex;flex-direction:column;gap:10px;";
     const ta = document.createElement("textarea");
     ta.setAttribute("data-feedback-text", "1");
+    ta.setAttribute("aria-label", "Feedback");
     ta.maxLength = 500;
-    ta.placeholder = isTech ? "Which technique is missing? A name is enough \u2014 a position it starts from helps." : "What’s wrong, missing or confusing? Where were you when you noticed?";
+    ta.placeholder = "What’s wrong, missing or confusing? Where were you when you noticed?";
     ta.style.cssText = "width:100%;min-height:110px;resize:vertical;font-family:inherit;font-size:14px;line-height:1.5;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:11px;padding:12px 14px;box-sizing:border-box;outline:none;";
     body.appendChild(ta);
+    const tech = document.createElement("label");
+    tech.style.cssText = "display:flex;align-items:center;gap:7px;min-height:24px;font-size:11px;color:#8b97b0;cursor:pointer;";
+    tech.innerHTML = '<input type="checkbox" data-feedback-technique="1" style="accent-color:#4a6cff;margin:0;flex:none;"> Technique request';
+    body.appendChild(tech);
     // context rides along unless removed — names the state the report is about
     const node = this.nodes && this.nodes[this.currentPos];
     let ctxOn = !!node;
@@ -4861,6 +4866,7 @@ class Component extends DCLogic {
     btn.addEventListener("click", () => {
       const text = (ta.value || "").trim();
       if (!text) { ta.focus(); return; }
+      const isTech = tech.querySelector("input").checked;
       this.track(isTech ? "neural_technique_requested" : "neural_issue_reported", {
         text: text.slice(0, 500),
         node: ctxOn && node ? node.id : null,
@@ -6820,20 +6826,19 @@ class Component extends DCLogic {
     sep.setAttribute("data-menu-sep", "1");
     sep.style.cssText = "flex:none;height:1px;margin:5px 4px;background:rgba(150,170,210,.14);";
     m.appendChild(sep);
-    // THE BADGE'S MENU IS SHORT (owner U46 b, U60 b): Settings, Feedback, sign in/out;
+    // THE BADGE'S MENU IS SHORT (owner U46 b, U60 b, U67 a): Settings, Feedback, sign in/out;
     // Terms · Privacy small. What the pane's foot carried moved here (v1.242.0): the gear became
-    // Settings, the two feedback links became Feedback and a small "Request a technique", and the
+    // Settings, the two feedback links became one Feedback form, and the
     // GitHub chip and the legal pair became the small line. Keyboard shortcuts are Settings' own tab.
     // After opening, more detail is fine (U46 b): the Mastered figure the stat row printed leads it.
     const gs = this.gameScore(), mastered = row("data-menu-mastered", "Mastered " + this.masteredCount() + " \u00b7 " + Math.round((gs && gs.score ? gs.score : 0) * 100) + "%", () => this.openFlashBrowser("mastered", "Mastered"));
     m.insertBefore(mastered, sep);
     m.appendChild(row("data-menu-settings", "Settings", () => this.openSettings()));
-    const fb = row("data-menu-feedback", "Feedback", () => this.openFeedback("issue")); fb.setAttribute("data-feedback", "issue"); m.appendChild(fb);
+    m.appendChild(row("data-menu-feedback", "Feedback", () => this.openFeedback()));
     m.append(...auth);
     const small = document.createElement("div"); small.className = "ng-menu-small";
     const sb = (attr, label, fn) => { const b = row(attr, label, fn); b.style.cssText = ""; return b; };
-    const req = sb("data-menu-request", "Request a technique", () => this.openFeedback("technique")); req.setAttribute("data-feedback", "technique");
-    small.append(req, sb("data-menu-terms", "Terms", () => this.openLegal("terms")),
+    small.append(sb("data-menu-terms", "Terms", () => this.openLegal("terms")),
       sb("data-menu-privacy", "Privacy", () => this.openLegal("privacy")));
     const gh = document.createElement("a"); gh.href = "https://github.com/diogoseca/bjjgraph"; gh.target = "_blank"; gh.rel = "noopener";
     gh.setAttribute("data-gh-chip", "1"); gh.setAttribute("role", "menuitem"); gh.innerHTML = '<span data-gh-label="1">GitHub</span>';

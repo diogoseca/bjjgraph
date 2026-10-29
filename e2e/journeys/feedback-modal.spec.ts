@@ -3,7 +3,7 @@ import { journey } from "../dsl";
 import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } from "../fixtures/neural-auth-sdk";
 
 /**
- * THE FEEDBACK MODAL'S COPY AND COLUMN, FROM BOTH ENTRY POINTS, BY MOUSE, AT 390 AND 1440.
+ * THE FEEDBACK MODAL'S COPY AND COLUMN, FROM ONE ENTRY FOR BOTH KINDS, BY MOUSE, AT 390 AND 1440.
  *
  * Owner, 2026-09-24: remove "Please don't include personal information." The hint was the fourth
  * child of the modal's flex column (textarea · "about:" checkbox · hint · Send). Deleting the
@@ -11,21 +11,27 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  * and Send floats a hole's height below the control it belongs to. So the claim is the column's
  * RHYTHM, measured as a differential against a control gap the change never touched: Send sits
  * exactly one column gap below whatever control is above it (the "about:" row when a state is
- * current, the textarea otherwise), which is the same distance as textarea -> "about:".
+ * current, the technique selector otherwise), which is the same distance as the technique selector -> "about:" (U67 a).
  *
- * Both entry points live in the badge's menu since v1.242.0 (`[data-feedback="technique" | "issue"]`, footer-feedback
- * pins that the row exists on every tab); `openFeedback(kind)` is their only caller. Every control
+ * U67 a merges both entry points into the badge menu's single `[data-menu-feedback]` row.
+ * `openFeedback()` has one textarea and an optional technique-request checkbox; footer-feedback
+ * pins reachability from every tab. Every control
  * here is reached with `j.clickByMouse` — never `locator.click()`, which dispatches ON the element
  * and cannot see an overlay eating the click (CLAUDE.md 6.1/6.3). The modal portals to the app
  * root (outside the wrap `attachInput` captures on), so it does not need an early-return entry;
  * the mouse journey below is what proves that stays true.
  *
- * v1.196.2: the issue entry invites improvements. Pin its one-line fit at 390 using
+ * v1.196.2 invited improvements; U67 a names the one form Feedback. Pin its one-line fit at 390 using
  * the rendered text's line boxes, the exact title/placeholder and the announcer after Send.
  * Both event names stay fixed and carry a boolean signed_in, with no account/email properties.
  * Signed-in coverage emits a synthetic SDK SIGNED_IN event through the real SSG facade and
  * owner transition; it does not replace the facade or project user directly. UNCOVERED: real
  * Supabase/OAuth and PostHog delivery (the harness aborts remote requests and stubs capture).
+ *
+ * U67 a red-proof (SIDECX2): suppress the merged submit's track call → KILLED, zero events;
+ * force the kind to general feedback → KILLED, request sent as neural_issue_reported.
+ * Each control ran the new submit test once against a green baseline; source/bundle restored.
+ * No new surviving controls. Exact patches: tests/artifacts/sidebar_r3_mutants.json.
  *
  * Red-proof, v1.196.2 (each mutant rebuilt and served; 2 guest viewports + 1 applied session):
  *   - issue title reverted ..................................... killed 2/3 (issue: title)
@@ -54,21 +60,21 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *   - a hint re-added with display:none SURVIVES (2/2 green): invisible AND out of the flex flow,
  *     and `innerText` skips it, so it changes nothing a user can see. Not a defect, not covered.
  *   - the WORDING of the titles and placeholders is pinned verbatim in ENTRIES, so a deliberate
- *     rename of either entry point must update ENTRIES in the same change.
+ *     rename of the form must update ENTRIES in the same change.
  */
 
 const ENTRIES = [
   {
     kind: "technique",
-    title: "Request a technique",
-    placeholder: "Which technique is missing? A name is enough — a position it starts from helps.",
+    title: "Feedback",
+    placeholder: "What’s wrong, missing or confusing? Where were you when you noticed?",
     event: "neural_technique_requested",
     thanks: "We read every request",
     untick: true, // exercises the checkbox by mouse: the context node must NOT ride along
   },
   {
     kind: "issue",
-    title: "Help improve the graph",
+    title: "Feedback",
     placeholder: "What’s wrong, missing or confusing? Where were you when you noticed?",
     event: "neural_issue_reported",
     thanks: "Reports like this decide what gets fixed next",
@@ -83,11 +89,55 @@ async function modalOpen(page: Page) {
   });
 }
 
+// U67 a: one form, one text box, current-page context, both existing telemetry streams.
+// The capture stub observes the real submit path; it does not replace openFeedback or track.
+test("U67 a: the merged form submits both feedback kinds with the current page @curated", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 631 });
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  const node = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    (window as any).__phEvents = [];
+    (window as any).posthog = { capture: (e: string, p: any) => (window as any).__phEvents.push({ e, p }) };
+    return { id: a.nodes[a.currentPos].id, name: a.graphName(a.nodes[a.currentPos]) };
+  });
+  const feedbackEvents = () => page.evaluate(() => (window as any).__phEvents.filter(
+    (x: any) => ["neural_issue_reported", "neural_technique_requested"].includes(x.e),
+  ));
+  for (const [index, technique] of [false, true, false].entries()) {
+    await j.openAccountMenu();
+    await j.clickByMouse("[data-menu-feedback]", "the single Feedback row");
+    await expect(page.locator("[data-feedback-title]")).toHaveText("Feedback");
+    await expect(page.locator(".ng-modal textarea"), "U67 a: one text box for both kinds").toHaveCount(1);
+    const ctx = page.locator("[data-feedback-ctx]");
+    await expect(ctx, "current-page context is on by default").toBeChecked();
+    await expect(ctx.locator("..")).toHaveText("about: " + node.name);
+    await expect(page.locator("[data-feedback-technique]"), "a new form resets the optional kind").not.toBeChecked();
+    await j.clickByMouse("[data-feedback-send]", "empty Send");
+    expect(await modalOpen(page), "empty Send keeps the form open").toBe(true);
+    expect(await feedbackEvents(), "empty Send captures nothing").toHaveLength(index);
+    const said = technique ? "Add the missing technique from this position" : "This page needs a clearer explanation";
+    await j.clickByMouse("[data-feedback-text]", "the Feedback text box");
+    await page.keyboard.type("  " + said + "  ");
+    if (technique) await j.clickByMouse("[data-feedback-technique]", "Technique request");
+    await j.clickByMouse("[data-feedback-send]", "submit Feedback");
+    expect(await modalOpen(page), "Send closes the merged form").toBe(false);
+    const sent = await feedbackEvents();
+    expect(sent, "U67 a: merged submit emits exactly one feedback event").toHaveLength(index + 1);
+    expect(sent[index].e, "U67 a: the selected kind retains its event").toBe(
+      technique ? "neural_technique_requested" : "neural_issue_reported",
+    );
+    expect(sent[index].p.text, "submitted text is trimmed").toBe(said);
+    expect(sent[index].p.node, "the current page rides along").toBe(node.id);
+  }
+});
+
 for (const vp of [
   { width: 1440, height: 900 },
   { width: 390, height: 844 },
 ]) {
-  test(`feedback modal at ${vp.width}: both entry points, no privacy hint, an even column, every control by mouse @curated`, async ({
+  test(`feedback modal at ${vp.width}: one form for both kinds, no privacy hint, an even column, every control by mouse @curated`, async ({
     page,
   }) => {
     await page.setViewportSize(vp);
@@ -101,9 +151,9 @@ for (const vp of [
     });
 
     for (const entry of ENTRIES) {
-      await page.evaluate(() => (window as any).__neural.openPane("explore")); await j.openAccountMenu(); // v1.242.0: the entries live in the badge's menu
+      await page.evaluate(() => (window as any).__neural.openPane("explore")); await j.openAccountMenu(); // U67 a: both kinds use the same badge-menu entry
       await page.waitForTimeout(300);
-      const entryLink = page.locator(`[data-feedback="${entry.kind}"]`);
+      const entryLink = page.locator("[data-menu-feedback]");
       await expect(entryLink, `${entry.kind}: exactly one entry`).toHaveCount(1);
       if (entry.kind === "issue" && vp.width === 390) {
         const lines = await entryLink.evaluate(async (el) => {
@@ -115,9 +165,9 @@ for (const vp of [
         expect.soft(lines, "issue: the entry renders on ONE line at 390").toBe(1);
       }
       await expect.soft(entryLink, `${entry.kind}: entry copy`).toHaveText(
-        entry.kind === "issue" ? "Feedback" : "Request a technique",
+        "Feedback",
       );
-      await j.clickByMouse(`[data-feedback="${entry.kind}"]`, `the "${entry.title}" entry in the pane foot`);
+      await j.clickByMouse("[data-menu-feedback]", `the "${entry.title}" entry in the badge menu`);
       await page.waitForTimeout(300);
       expect(await modalOpen(page), `${entry.kind}: the entry opens the modal`).toBe(true);
 
@@ -126,10 +176,11 @@ for (const vp of [
         const card = ta.closest(".ng-modal")!.firstElementChild as HTMLElement;
         const body = ta.parentElement as HTMLElement;
         const send = document.querySelector("[data-feedback-send]") as HTMLElement;
+        const tech = document.querySelector("[data-feedback-technique]")!.closest("label") as HTMLElement;
         const ctxBox = document.querySelector("[data-feedback-ctx]") as HTMLElement | null;
         const ctx = ctxBox ? (ctxBox.closest("label") as HTMLElement) : null;
         const r = (e: HTMLElement) => e.getBoundingClientRect();
-        const above = ctx || ta; // the control Send belongs under
+        const above = ctx || tech; // the control Send belongs under
         return {
           title: (document.querySelector("[data-feedback-title]") as HTMLElement | null)?.innerText ?? null,
           closeCount: document.querySelectorAll("[data-feedback-close]").length,
@@ -137,7 +188,8 @@ for (const vp of [
           text: card.innerText,
           hasCtx: !!ctx,
           declaredGap: parseFloat(getComputedStyle(body).rowGap),
-          controlGap: ctx ? r(ctx).top - r(ta).bottom : null,
+          controlGap: ctx ? r(ctx).top - r(tech).bottom : null,
+          selectorGap: r(tech).top - r(ta).bottom,
           sendGap: r(send).top - r(above).bottom,
           card: { left: r(card).left, right: r(card).right, top: r(card).top, bottom: r(card).bottom },
         };
@@ -151,9 +203,10 @@ for (const vp of [
       expect(m.text, `${entry.kind}: no privacy hint in the modal`).not.toMatch(/personal information/i);
 
       // THE COLUMN CLOSES OVER THE HOLE. Differential: Send's gap equals the gap the change never
-      // touched (textarea -> "about:"), and both equal the column's declared gap. An emptied spacer
+      // touched (selector -> "about:"), and both equal the column's declared gap. An emptied spacer
       // reads 2x, the old hint ~3x.
       expect(m.hasCtx, `${entry.kind}: a landed state puts the "about:" row in the column`).toBe(true);
+      expect(m.selectorGap, `${entry.kind}: the selector also sits one gap below the textarea`).toBeCloseTo(m.declaredGap, 0);
       expect(m.controlGap!, `${entry.kind}: control gap is the declared column gap`).toBeCloseTo(m.declaredGap, 0);
       expect(
         Math.abs(m.sendGap - m.controlGap!),
@@ -175,6 +228,8 @@ for (const vp of [
       ).toBe(true);
       const said = `${entry.kind} typed at ${vp.width}`;
       await page.keyboard.type(said);
+      await expect(page.locator("[data-feedback-technique]"), "each new form defaults to general feedback").not.toBeChecked();
+      if (entry.kind === "technique") await j.clickByMouse("[data-feedback-technique]", "mark this as a technique request");
       if (entry.untick) {
         await j.clickByMouse("[data-feedback-ctx]", `${entry.kind}: the "about:" checkbox`);
         expect(
@@ -204,9 +259,9 @@ for (const vp of [
       });
 
       // and the close control by mouse: reopen, close, nothing captured
-      await page.evaluate(() => (window as any).__neural.openPane("explore")); await j.openAccountMenu(); // v1.242.0: the entries live in the badge's menu
+      await page.evaluate(() => (window as any).__neural.openPane("explore")); await j.openAccountMenu(); // U67 a: both kinds use the same badge-menu entry
       await page.waitForTimeout(300);
-      await j.clickByMouse(`[data-feedback="${entry.kind}"]`, `${entry.kind}: the entry, again`);
+      await j.clickByMouse("[data-menu-feedback]", `${entry.kind}: the entry, again`);
       await page.waitForTimeout(300);
       await j.clickByMouse("[data-feedback-close]", `${entry.kind}: the close control`);
       await page.waitForTimeout(150);
@@ -232,13 +287,14 @@ test("both feedback events carry signed_in true after the session user is applie
   await expect(page.locator(".ngAcctChip")).toContainText("Feedback Tester");
 
   for (const entry of ENTRIES) {
-    await page.evaluate(() => (window as any).__neural.openPane("explore")); await j.openAccountMenu(); // v1.242.0: the entries live in the badge's menu
+    await page.evaluate(() => (window as any).__neural.openPane("explore")); await j.openAccountMenu(); // U67 a: both kinds use the same badge-menu entry
     await page.waitForTimeout(300);
-    await j.clickByMouse(`[data-feedback="${entry.kind}"]`, `${entry.kind}: signed-in entry`);
+    await j.clickByMouse("[data-menu-feedback]", `${entry.kind}: signed-in entry`);
     await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur());
     await j.clickByMouse("[data-feedback-text]", `${entry.kind}: signed-in textarea`);
     const said = `Signed-in ${entry.kind} feedback`;
     await page.keyboard.type(said);
+    if (entry.kind === "technique") await j.clickByMouse("[data-feedback-technique]", "mark this as a technique request");
     await j.clickByMouse("[data-feedback-send]", `${entry.kind}: signed-in Send`);
     expect(await modalOpen(page), `${entry.kind}: signed-in Send closes the modal`).toBe(false);
     const mine = (await page.evaluate(() => (window as any).__phEvents)).filter((x: any) => x.e === entry.event);

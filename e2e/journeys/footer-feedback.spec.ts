@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 import { journey } from "../dsl";
 
 /**
- * THE EXPLORE FOOT'S FEEDBACK ROW (v1.105.5, owner): "Requesting a missing technique or
+ * THE BADGE MENU'S MERGED FEEDBACK ROW (U67 a, v1.242.0; originally v1.105.5, owner): "Requesting a missing technique or
  * reporting an issue should be done using post hoc [PostHog]. It should not be done using
  * GitHub. But there could be a GitHub icon in there... how many stars that project has."
  *
@@ -16,7 +16,7 @@ import { journey } from "../dsl";
  * chip must stay a plain link and NEVER throw — the .catch is load-bearing).
  */
 
-test("the feedback row rides the pane foot on every tab, and a request reaches PostHog @curated", async ({
+test("one Feedback row is reachable on every tab, and both kinds reach PostHog @curated", async ({
   page,
 }) => {
   const j = journey(page);
@@ -35,14 +35,14 @@ test("the feedback row rides the pane foot on every tab, and a request reaches P
   for (const tab of ["explore", "challenges", "history"]) {
     await page.evaluate((t) => (window as any).__neural.openPane(t), tab);
     await j.openAccountMenu();
-    await expect(page.locator('[data-feedback="technique"]'), `row from ${tab}`).toBeVisible();
+    await expect(page.locator('[data-menu-feedback]'), `row from ${tab}`).toBeVisible();
     await expect(page.locator("[data-gh-chip]"), `chip from ${tab}`).toBeVisible();
     await page.keyboard.press("Escape");
   }
   await j.openAccountMenu();
 
   // request a technique: modal, typed text, send → ONE capture with the text + context node
-  await j.clickByMouse('[data-feedback="technique"]', "the technique entry");
+  await j.clickByMouse('[data-menu-feedback]', "the Feedback entry");
   await page.waitForTimeout(300);
   const ta = page.locator("[data-feedback-text]");
   await expect(ta).toBeVisible();
@@ -94,6 +94,7 @@ test("the feedback row rides the pane foot on every tab, and a request reaches P
   expect(strayMargin, "Quartz's task-list gutter pull does not reach a checkbox outside .page article").toBeGreaterThanOrEqual(0);
   await j.clickByMouse("[data-feedback-text]", "the technique textarea");
   await page.keyboard.type("Imanari roll entry to saddle from combat base");
+  await j.clickByMouse("[data-feedback-technique]", "mark this as a technique request");
   await j.clickByMouse("[data-feedback-send]", "send the technique request");
   await page.waitForTimeout(200);
 
@@ -106,7 +107,7 @@ test("the feedback row rides the pane foot on every tab, and a request reaches P
 
   // report an issue: the OTHER event name, and an empty send goes nowhere
   await j.openAccountMenu();
-  await j.clickByMouse('[data-feedback="issue"]', "the issue entry");
+  await j.clickByMouse('[data-menu-feedback]', "the same Feedback entry");
   await page.waitForTimeout(300);
   await j.clickByMouse("[data-feedback-send]", "empty Send must not capture");
   await j.clickByMouse("[data-feedback-text]", "the issue textarea");

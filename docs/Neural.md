@@ -660,11 +660,20 @@ order: Search, **Explore** (an expandable list: Positions, Transitions, Submissi
 Principles, Learning — the category folds below), **Practice**, then **Path** (U60 b: no Train
 header), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
 of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings, including Notifications,
-Feedback, sign in/out; Request a technique · Terms · Privacy · GitHub small). Practice opens the mixed
+Feedback, sign in/out; Terms · Privacy · GitHub small). Practice opens the mixed
 session (§8), Path the Challenges corridor and Last rolls the roll history; the brand ("‹ Path")
 leads back. The view ids stay `explore` · `challenges` · `history`. A lit page fades the rest of the
 map to 20%, easing on the wall clock. The icon stays reachable during a catch (U16 b, U66 a);
 opening the drawer pauses the roll through the same pane law.
+
+U61 c leaves About out. U67 a merges the two feedback doors into one **Feedback** form: one
+text box, optional **Technique request**, and the existing checked **about: <current page>**
+context. Send keeps `neural_issue_reported` for general feedback and
+`neural_technique_requested` when the player marks a request. Both retain `text` (≤500), `node`
+(or null when unchecked), `signed_in` and `app_version`; the existing `track()` variant is unchanged.
+Keeping the event names and payloads preserves their telemetry consumers and history. Empty Send
+keeps the form open without a capture. `feedback-modal.spec.ts` covers both kinds through the
+same row, context opt-out, guest/session properties and the submit controls.
 
 The card, videos, article and camera shift beside the pane with the choices. The article fits
 the free width; game-control overlap paints beneath the pane. Phones retain the overlay drawer, and short landscape

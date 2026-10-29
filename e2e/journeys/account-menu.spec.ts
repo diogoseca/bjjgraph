@@ -10,15 +10,18 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *   1. The badge is inside the drawer; a mouse click opens `.ng-account-menu` above it, and a second
  *      click shuts it. The drawer already holds the game paused (pane law); the menu changes nothing.
  *   2. The menu is short. Signed out: Mastered (the detail, after opening) │ Settings · Feedback ·
- *      Create account · Log in, and one small line: Request a technique · Terms · Privacy · GitHub.
+ *      Create account · Log in, and one small line: Terms · Privacy · GitHub (U67 a).
  *   3. Signed in: the email (not a control) · Mastered │ Settings · Feedback ·
  *      Sign out (+ Review guest progress when an owned guest cache exists). Sign out flips the badge.
- *   4. Rows open the real surfaces: the auth modal, Settings (including its Notifications tab, U60 b), the two feedback modals, the legal modals, the Mastered list.
+ *   4. Rows open the real surfaces: the auth modal, Settings (including its Notifications tab, U60 b), the merged Feedback form (U67 a), the legal modals, the Mastered list.
  *   5. Esc closes the menu FIRST, then the drawer; an outside tap closes the menu too.
  *   6. On a 390x844 phone the badge and its menu sit in thumb reach and on screen; the main rows are
  *      44px targets, the small line's at least 24px.
  *   7. Under prefers-reduced-motion the menu appears static.
  * Keyboard reach (Tab to the badge, Enter, the small links by key) is sidebar.spec.ts's claim 7.
+ * U61 c / U67 a red-proof (SIDECX2): restoring About or the separate Request a technique row
+ * each fails its named absence assertion in the signed-out claim (1 test ran per control).
+ * Both killed; no new non-kills. Exact patches: tests/artifacts/sidebar_r3_mutants.json.
  */
 
 const menuOpen = (page: Page) =>
@@ -58,13 +61,16 @@ test("signed out: a short menu and one small line", async ({ page }) => {
   await expect(menu.locator("[data-menu-sep]"), "ONE separator").toHaveCount(1)
   await expect(menu.locator("[data-menu-settings]")).toHaveText("Settings")
   await expect(menu.locator("[data-menu-feedback]")).toHaveText("Feedback")
+  await expect(menu.locator("[data-menu-feedback]"), "U67 a: one Feedback row").toHaveCount(1)
+  await expect(menu.locator("[data-menu-request]"), "U67 a: no separate technique row").toHaveCount(0)
+  await expect(menu.getByRole("menuitem", { name: "About", exact: true }), "U61 c: About stays absent").toHaveCount(0)
   await expect(menu.locator("[data-menu-create]")).toHaveText("Create account")
   await expect(menu.locator("[data-menu-login]")).toHaveText("Log in")
   await expect(menu.locator("[data-menu-account]"), "U60 b: preferences live in Settings").toHaveCount(0)
   await expect(menu.locator("[data-menu-shortcuts]"), "Keyboard shortcuts are Settings' own tab").toHaveCount(0)
   const small = menu.locator(".ng-menu-small > *")
-  await expect(small).toHaveText(["Request a technique", "Terms", "Privacy", /GitHub|★/])
-  await expect(menu.locator("button")).toHaveCount(8)
+  await expect(small).toHaveText(["Terms", "Privacy", /GitHub|★/])
+  await expect(menu.locator("button")).toHaveCount(7)
   await expect(menu.locator("[data-menu-email]")).toHaveCount(0)
   await expect(menu.locator("[data-menu-logout]")).toHaveCount(0)
   // a storage failure says so in the menu, and only then (inventory row 105)
@@ -104,7 +110,7 @@ test("signed in with legacy progress: email, Settings, Sign out; sign out flips 
   await expect(menu.locator("[data-menu-login]"), "no login row when signed in").toHaveCount(0)
   await expect(menu.locator("[data-menu-sep]"), "still ONE separator").toHaveCount(1)
   await expect(menu.locator("[data-menu-import-guest]")).toHaveText("Review guest progress")
-  await expect(menu.locator("button")).toHaveCount(8)
+  await expect(menu.locator("button")).toHaveCount(7)
   // U60 b: Account preferences is folded into Settings; Notifications is still reachable there.
   await j.clickByMouse("[data-menu-settings]", "Settings")
   await expect(page.locator("#ng-stab-notifications")).toBeVisible()
@@ -138,14 +144,13 @@ test("rows open the real surfaces", async ({ page }) => {
   await via("[data-menu-login]", "Log in"); await expect(page.locator("body")).toContainText("Welcome back"); await close()
   await via("[data-menu-settings]", "Settings")
   expect(await page.evaluate(() => (window as any).__neural._settingsTab), "plain Settings opens its first tab").toBe("flashcards"); await close()
-  await via("[data-menu-feedback]", "Feedback"); await expect(page.locator("[data-feedback-title]")).toHaveText("Help improve the graph"); await close()
-  await via("[data-menu-request]", "Request a technique"); await expect(page.locator("[data-feedback-title]")).toHaveText("Request a technique"); await close()
+  await via("[data-menu-feedback]", "Feedback"); await expect(page.locator("[data-feedback-title]")).toHaveText("Feedback"); await close()
   await via("[data-menu-terms]", "Terms"); await expect(page.locator("body")).toContainText("Terms of Use"); await close()
   await via("[data-menu-privacy]", "Privacy"); await expect(page.locator("body")).toContainText("Privacy Policy"); await close()
   await via("[data-menu-mastered]", "Mastered"); await expect(page.locator(".ng-modal")).toContainText("Mastered"); await close()
   await j.openAccountMenu()
   await expect(page.locator("[data-gh-chip]")).toHaveAttribute("href", "https://github.com/diogoseca/bjjgraph")
-  expect(gh, "nine menu renders, one star request").toBe(1)
+  expect(gh, "repeated menu renders, one star request").toBe(1)
 })
 
 test("Esc closes the menu first, then the drawer; an outside tap closes the menu", async ({ page }) => {

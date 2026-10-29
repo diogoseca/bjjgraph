@@ -97,5 +97,41 @@
     "spec": "journeys/sidebar\\.spec",
     "grep": "a principle lights its places",
     "claim": "it passes through the values between"
+  },
+  {
+    "name": "u67-submit-silent",
+    "file": "neural/src/app.src.jsx",
+    "a": "this.track(isTech ? \"neural_technique_requested\" : \"neural_issue_reported\", {",
+    "b": "if (false) this.track(isTech ? \"neural_technique_requested\" : \"neural_issue_reported\", {",
+    "spec": "journeys/feedback-modal\\.spec",
+    "grep": "U67 a: the merged form submits",
+    "claim": "U67 a: merged submit emits exactly one feedback event"
+  },
+  {
+    "name": "u67-technique-kind-lost",
+    "file": "neural/src/app.src.jsx",
+    "a": "const isTech = tech.querySelector(\"input\").checked;",
+    "b": "const isTech = false;",
+    "spec": "journeys/feedback-modal\\.spec",
+    "grep": "U67 a: the merged form submits",
+    "claim": "U67 a: the selected kind retains its event"
+  },
+  {
+    "name": "u67-request-row-restored",
+    "file": "neural/src/app.src.jsx",
+    "a": "small.append(sb(\"data-menu-terms\", \"Terms\", () => this.openLegal(\"terms\")),",
+    "b": "small.append(sb(\"data-menu-request\", \"Request a technique\", () => this.openFeedback()), sb(\"data-menu-terms\", \"Terms\", () => this.openLegal(\"terms\")),",
+    "spec": "journeys/account-menu\\.spec",
+    "grep": "signed out: a short menu",
+    "claim": "U67 a: no separate technique row"
+  },
+  {
+    "name": "u61-about-restored",
+    "file": "neural/src/app.src.jsx",
+    "a": "m.appendChild(row(\"data-menu-settings\", \"Settings\", () => this.openSettings()));",
+    "b": "m.appendChild(row(\"data-menu-settings\", \"Settings\", () => this.openSettings())); m.appendChild(row(\"data-menu-about\", \"About\", () => {}));",
+    "spec": "journeys/account-menu\\.spec",
+    "grep": "signed out: a short menu",
+    "claim": "U61 c: About stays absent"
   }
 ]

@@ -114,7 +114,7 @@ App (one named spec per mutant, rebuilt each time, the named test only; ran-coun
 
 All controls below were measured against passing unmutated claims on the final source. Each app
 control ran one selected test; expected assertion failures count as kills, not setup or test timeouts.
-`sidebar_r3_mutants.json` records the eleven exact source patches and anchored spec/claim selectors.
+`sidebar_r3_mutants.json` records these eleven exact source patches (plus the four SIDECX2 patches below) and anchored spec/claim selectors.
 The source and served bundle were restored after every control (bundle SHA-256
 `26fb8ee2e2e01e819f5a25880caaa785cf604bd5d65644ebff983fc21d77ca40`).
 
@@ -145,3 +145,32 @@ The revised fog observation reads each pumped draw synchronously. The cancelled 
 0.20 on its first wall-timer observation, after the fade had already finished; both snapping and
 never easing still fail the revised claim. This is separate from SIDE-R2's REAL app defect where
 fog did not ease under pumped time (corrected classification N6).
+
+## SIDECX2 / U61 c and U67 a
+
+All 15 addendum positives passed (13 Feedback/account + 2 keyboard/touch). Each control below
+ran one test and failed its named assertion, with no setup or test timeout. The shared build lock
+protected each mutation build; each browser run had advisory GO, one worker on private port 8641.
+Source and served bundle were restored; final bundle SHA-256 `c99136619a70f3f28fbc05b49d06a55ac85384fbfa5772a6b1e20c0528112b0d`.
+Exact patches are in `sidebar_r3_mutants.json`; receipts and logs are in
+`/home/user/bjj-orchestrator/scratch/sidebar/sidecx2/`.
+
+| Control | Result | Named failing claim |
+|---|---|---|
+| u67-submit-silent | KILLED (1 ran) | merged submit emits exactly one feedback event: 0 received |
+| u67-technique-kind-lost | KILLED (1 ran) | selected kind retains its event: expected neural_technique_requested, received neural_issue_reported |
+| u67-request-row-restored | KILLED (1 ran) | no separate technique row: 1 received |
+| u61-about-restored | KILLED (1 ran) | About stays absent: 1 received |
+
+No new non-kills. The merged form retains both existing event names and their property schema;
+no telemetry consumer migration is required. The new submit claim covers empty sends, trimmed
+text, exact current-page context and both kinds from the same row on a 390×631 phone. Existing
+mouse/column checks cover 390×844 and 1440×900, context opt-out and signed-in/guest properties.
+
+The Feedback rebuild swapped minifier locals in six existing table entries. Re-aimed those exact
+targets without changing the controls. All 63 edits across 61 controls match exactly once and
+all resulting bundles parse. Six affected/N7 controls were executed again against five green
+baseline tests: `d355-flight-lift-lost`, `flight-lift-fixed-margin`, `flight-lift-tracking-lost`,
+`concept-fit-reveal-lost`, `u47-question-tap-dead`, `u47-desktop-offer-lost` — **6/6 killed**,
+bundle restored (`sidecx2/reaim-mutants/receipt.json`). The historical
+`d355-flight-lift-ungated` non-kill remains documented; it was re-aimed, not counted as a kill.

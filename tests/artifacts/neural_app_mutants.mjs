@@ -126,18 +126,18 @@ const controls = [
     [['x.t=Math.min(1,x.t+e/Cn)', 'x.t=Math.min(1,x.t+e/1)'],
      ['A=Math.max(t.dur?t.dur(L):Math.max(.6,Math.min(1.4,.5+.25*L))', 'A=Math.max(1.5,t.dur?t.dur(L):Math.max(.6,Math.min(1.4,.5+.25*L))']], 'CLEAR_SEC a row turned on'],
   ['d355-flight-lift-ungated', 'dual-pair.spec.ts', 'hovering any pair names it once',
-    [['active:!m.band||!!(y!=null&&y.band)', 'active:!0']], 'and the role moved below it'],
+    [['active:!m.band||!!(b!=null&&b.band)', 'active:!0']], 'and the role moved below it'],
   ['d355-flight-lift-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['(!m.band||y)&&(c.lift=', '!m.band&&(c.lift=']], 'URL arrival @'],
+    [['(!m.band||b)&&(c.lift=', '!m.band&&(c.lift=']], 'URL arrival @'],
   // ORCH-382 / H140-H144: the old 30px gate engages after contact; activating the subject only
   // when its gate opens starts the spring too late. Both fail the unchanged ZERO-overlap pin.
   // Historical NON-KILL at 1440x900 on v1.242.0 (110bbb1f4). SIDE-R3 N7 restores the kill at
   // 1440x720, with the drawer's actual 74px inset and band 74..218: the fixed gate puts the label's
   // bottom at 235.82 against rows at 234 (required <232). The same ZERO-overlap assertion stays.
   ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['y.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+b+Ct>m.bottom', 'y.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
+    [['b.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+y+Ct>m.bottom', 'b.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
   ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['(!m.band||y)&&(c.lift=', '(!m.band||y!=null&&y.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
+    [['(!m.band||b)&&(c.lift=', '(!m.band||b!=null&&b.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
   // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
   // its transition-end reveal reproduces the card extending below the Learning pane at 1440px.
   // Historical NON-KILL at 1440x900 on v1.242.0 (110bbb1f4): its taller drawer let the first portrait
@@ -159,13 +159,13 @@ const controls = [
   ['u47-paging-asks-again', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['this._landPage=n,this._armPagedLandClock(),this._readStop()', 'this._landPage=n,this._landAsk=!0,this._armPagedLandClock(),this._readStop()']], 'the shown card stays shown across paging, with its own window'],
   ['u47-question-tap-dead', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
-    [['u.append(b," ",v),u.addEventListener("click",()=>this._landReveal());', 'u.append(b," ",v);']], 'a tap on the question shows the card'],
+    [['u.append(y," ",v),u.addEventListener("click",()=>this._landReveal());', 'u.append(y," ",v);']], 'a tap on the question shows the card'],
   // U52 b: the phone's two-line cut is _fitAskLine's (the CSS clamp is gone). Its desktop twin, trimming on a
   // desktop too, is a recorded NON-KILL (covered-card.spec.ts's header): no real question needs a third line there.
   ['u47-phone-trim-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844',
     [['if(t.textContent=s,!this.isMobile())return;', 'if(t.textContent=s,!0)return;']], 'U47 d: a long question is cut to two lines on a phone'],
   ['u47-desktop-offer-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900',
-    [['u.append(b," ",v),u.addEventListener("click",()=>this._landReveal())', 'u.append(b," ",...this.isMobile()?[v]:[]),u.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
+    [['u.append(y," ",v),u.addEventListener("click",()=>this._landReveal())', 'u.append(y," ",...this.isMobile()?[v]:[]),u.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
   ['u47-reveal-keeps-asking-face', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
     [['this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none",e.removeAttribute("data-land-ask");', 'this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none";']], "Answer for Points shows today's card, with no reveal control inside it"],
   // U52 b: the take-up lays the reader out at once (the card leaves the quiet line's width); deferred, the first
