@@ -17,6 +17,7 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
   "@type": "WebPage",
   "name": "Half Guard",
   "description": "Master Half Guard in BJJ with comprehensive bottom and top strategies. Learn sweeps, passes, and transitions with expert techniques for all skill levels.",
+  "disambiguatingDescription": "Often confused with Demi Guard \u2014 Half Guard traps one leg between both legs; Demi Guard is a distinct gi lapel configuration with a foot on the lapel tail..",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -74,6 +75,9 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Demi Guard|Demi Guard]]</strong> — Half Guard traps one leg between both legs; Demi Guard is a distinct gi lapel configuration with a foot on the lapel tail.</p>
+</aside>
 <div class="role-links">
 
 [[Half Guard/Bottom|Play as Bottom]]
@@ -230,6 +234,8 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/John Wayne Sweep/Attacker|John Wayne Sweep]]** (5% of attempts)
 
+- **[[Transitions/Half Guard to Demi Guard/Attacker|Half Guard to Demi Guard]]** (gi only)
+
 
 ### Common Mistakes
 
@@ -385,6 +391,8 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Positions/Back Control]]** - Advanced position accessible through Half Guard back take sequences from bottom underhook
 
 - **[[Positions/Quarter Guard]]** - Transitional position between Half Guard and full pass where only the ankle remains trapped
+
+- **[[Positions/Demi Guard]]** - Gi lapel-guard connection using a collar grip, lapel behind the knee and foot on the tail
 
 
 </section>

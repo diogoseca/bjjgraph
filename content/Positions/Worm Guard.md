@@ -219,6 +219,8 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 - **[[Transitions/Worm to Squid Guard/Attacker|Worm to Squid Guard]]** (0% of attempts)
 
+- **[[Transitions/Worm Guard to Demi Guard/Attacker|Worm Guard to Demi Guard]]** (gi only)
+
 
 ### Common Mistakes
 
@@ -294,6 +296,8 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 - **[[Transitions/Lapel Strip from Worm Guard/Attacker|Lapel Strip from Worm Guard]]** (gi only)
 
+- **[[Transitions/Worm Wrestling Pressure Counter/Attacker|Worm Wrestling Pressure Counter]]** (gi only)
+
 
 ### Common Mistakes
 
@@ -348,6 +352,8 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 - **[[Positions/K-Guard]]** - Related modern guard system with similar control concepts
 
 - **[[Positions/Collar Sleeve Guard]]** - Foundation guard that shares grip fighting principles
+
+- **[[Positions/Demi Guard]]** - Gi lapel-guard connection using a collar grip, lapel behind the knee and foot on the tail
 
 
 </section>

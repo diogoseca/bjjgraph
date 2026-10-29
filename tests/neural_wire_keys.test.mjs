@@ -107,7 +107,7 @@ test("decks: the ordinal wire ingests to EXACTLY what the old name-keyed wire di
 
   // floor FIRST: two empty maps are deep-equal. The census literal is the whole deck corpus.
   const keys = Object.keys(neu.flashcards.decks);
-  assert.ok(keys.length >= 2842, `decoded ${keys.length} decks`); // census:members
+  assert.ok(keys.length >= 2862, `decoded ${keys.length} decks`); // census:members
   assert.ok(files > 1000, `the truth came from ${files} chunk files`);
   const cats = new Set(keys.map((k) => neu.flashcards.decks[k].cat));
   assert.deepEqual([...cats].sort(), ["Position", "Submission", "Transition"]);
@@ -198,7 +198,7 @@ test("the module's name rule IS deckKeyFor, on every member of every pair", () =
       checked++;
     }
   }
-  assert.equal(checked, 2842, "positive coverage: every member was named"); // census:members
+  assert.equal(checked, 2862, "positive coverage: every member was named"); // census:members
 });
 
 test("an ordinal that names no node is COUNTED and announced, never guessed", () => {

@@ -1,0 +1,299 @@
+{
+  "name": "Worm Wrestling Pressure Counter",
+  "summary": "The worm-wrestling pressure counter closes distance as the bottom player leaves the worm wrap to come up, keeping the passer on top while the opponent may establish Demi Guard.",
+  "description": "Counter a worm-wrestling attempt with controlled forward engagement in gi BJJ. Recognize the resulting Demi Guard, its lapel barrier and the remaining sweep threat.",
+  "tags": [
+    "Gi",
+    "Lapel Guard",
+    "Guard Passing"
+  ],
+  "from_position": "Worm Guard/Top",
+  "success_rate": {
+    "gi": 45,
+    "nogi": null
+  },
+  "outcomes": [
+    {
+      "to": "Demi Guard/Top",
+      "probability": {
+        "gi": 45,
+        "nogi": null
+      },
+      "result": "success"
+    },
+    {
+      "to": "Worm Guard/Top",
+      "probability": {
+        "gi": 35,
+        "nogi": null
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": null
+      },
+      "result": "counter"
+    }
+  ],
+  "overview": "[Keenan's Demi introduction](https://jiujitsux.com/courses/keenans-lapel-encyclopedia/lesson/16-1-introduction-to-the-demi-guard/) describes the passer switching from retreat to forward pressure to stop a worm-wrestling stand-up. The guard player has removed the foot from the original worm configuration and can answer with Demi.\n\nHere the top player's immediate goal is to contain the attempt to come up, not to complete a pass. Landing in [[Positions/Demi Guard]] top means that goal has been met while a new guard remains. The opponent can still elevate through the foot-on-lapel connection, so continued pressure requires renewed attention to base and fabric control.",
+  "related_content": [
+    {
+      "name": "Worm Guard",
+      "relationship": "Starting position as the bottom player begins leaving the original wrap"
+    },
+    {
+      "name": "Demi Guard",
+      "relationship": "Guard the opponent can establish after the forward-pressure response"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Possible bottom landing if the opponent reverses the pressure"
+    }
+  ],
+  "attacker": {
+    "name": "Worm Wrestling Pressure Counter Attacker",
+    "description": "Recognize a worm-wrestling get-up, close distance with balance, and identify the Demi Guard that may replace the original lapel wrap.",
+    "overview": "You begin on top while the worm-guard player starts removing the foot from the wrap to come up. Close the distance that their stand-up needs while maintaining base. If they settle into Demi underneath, the get-up has been contained but the foot-on-lapel elevation threat must now be addressed.",
+    "key_principles": [
+      "Recognize the foot leaving the original worm wrap.",
+      "Respond to the attempt to come up rather than pressuring a static wrap.",
+      "Close distance with a stable base.",
+      "Recognize the replacement Demi connection immediately.",
+      "Separate containing a stand-up from passing the guard."
+    ],
+    "setup_requirements": [
+      "You are in Worm Guard top.",
+      "The bottom player is beginning to leave the original wrap for a worm-wrestling get-up.",
+      "You can close distance without forcing a lapel-bound knee.",
+      "You retain enough base to respond to a change of guard."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the get-up",
+        "description": "Watch for the foot leaving the worm configuration as the bottom player begins coming toward their knees or feet."
+      },
+      {
+        "step_number": 2,
+        "action": "Keep the knee free to move",
+        "description": "Check that the changing wrap permits movement before stepping in; stop if the lapel still binds your knee."
+      },
+      {
+        "step_number": 3,
+        "action": "Close the available distance",
+        "description": "Move forward with your base beneath you to occupy the space the guard player needs for the attempted stand-up."
+      },
+      {
+        "step_number": 4,
+        "action": "Contain the rise",
+        "description": "Maintain a facing top position as the bottom player returns their legs in front instead of completing the get-up."
+      },
+      {
+        "step_number": 5,
+        "action": "Recognize Demi Guard",
+        "description": "Identify the collar grip, lapel behind your knee and foot on the tail if the opponent assembles that replacement guard."
+      },
+      {
+        "step_number": 6,
+        "action": "Reset the passing priority",
+        "description": "Stay balanced and address the new lapel barrier before further pressure; containing the rise has not cleared their legs."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "The bottom player retains the original worm wrap",
+        "effectiveness": "Medium",
+        "targets_outcome": "Worm Guard/Top",
+        "your_response": "Do not force the forward step through an intact wrap; reassess the original guard controls."
+      },
+      {
+        "counter": "The bottom player denies the distance change",
+        "effectiveness": "Medium",
+        "targets_outcome": "Worm Guard/Top",
+        "your_response": "Keep your base and remain engaged rather than reaching beyond your balance."
+      },
+      {
+        "counter": "The bottom player redirects the committed pressure into a reversal",
+        "effectiveness": "Medium",
+        "targets_outcome": "Half Guard/Bottom",
+        "your_response": "Release binding fabric and recover guard as you land underneath."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Applying this response before the foot leaves the wrap",
+        "consequence": "The original worm connection still restricts the moving leg.",
+        "correction": "Wait for the actual get-up transition and confirm that the knee can move."
+      },
+      {
+        "error": "Reaching forward without moving the base",
+        "consequence": "The bottom player can load your unsupported weight.",
+        "correction": "Keep the base beneath the torso while closing distance."
+      },
+      {
+        "error": "Ignoring the newly established Demi foot",
+        "consequence": "The replacement guard can elevate you through the lapel.",
+        "correction": "Recognize the foot-on-tail connection and stop driving blindly."
+      },
+      {
+        "error": "Treating containment as a completed guard pass",
+        "consequence": "The opponent still has legs and lapel controls between the bodies.",
+        "correction": "Address the resulting guard before attempting to settle a pin."
+      },
+      {
+        "error": "Turning through a lapel-bound knee",
+        "consequence": "The joint cannot follow the body freely.",
+        "correction": "Release the binding tension and reset the movement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Identify the get-up transition",
+        "description": "Start in cooperative Worm Guard. The bottom player begins removing the foot from the wrap; name that cue and reset."
+      },
+      {
+        "phase": "Controlled engagement",
+        "focus": "Close distance with base",
+        "description": "Let the bottom player begin a slow get-up. Practice closing the available space without pressing through a bound knee; stop and reset."
+      },
+      {
+        "phase": "Guard recognition",
+        "focus": "Identify the replacement structure",
+        "description": "Allow the bottom player to settle into Demi after the pressure response. Name the collar, knee-line lapel and foot before releasing."
+      },
+      {
+        "phase": "Bounded exchange",
+        "focus": "Contain or recover",
+        "description": "Use light resistance from the get-up attempt. Stop at a stable guard, a completed rise or a reversal; release immediately on discomfort."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What movement triggers the worm-wrestling pressure counter?",
+        "answer": "The bottom player begins leaving the worm foot configuration to come up, creating the distance-closing opportunity."
+      },
+      {
+        "question": "What is the immediate goal of this pressure counter?",
+        "answer": "Contain the opponent's attempt to come up while remaining on top; a new guard can still remain between the players."
+      },
+      {
+        "question": "Which guard can replace Worm Guard after this pressure response?",
+        "answer": "The bottom player can establish Demi Guard with collar control and a foot-supported lapel connection behind your knee."
+      },
+      {
+        "question": "Why must you reassess after landing in Demi Guard top?",
+        "answer": "The stand-up may be stopped, but Demi's foot-on-lapel barrier can use further forward pressure to create elevation."
+      },
+      {
+        "question": "What should stop a forward step during the changing lapel wrap?",
+        "answer": "Stop if the lapel still binds the knee; free the tension instead of forcing a step or rotation through the trapped joint."
+      }
+    ],
+    "safety_considerations": "Use controlled forward movement during cooperative practice. Do not step or turn through a knee that is still bound by the lapel. Release immediately on a tap, verbal stop or discomfort, and reset once the resulting guard is established.",
+    "clips": []
+  },
+  "defender": {
+    "name": "Worm Wrestling Pressure Counter Defender",
+    "description": "Recognize the passer closing distance during worm wrestling, recover a working guard and use a remaining lapel connection without forcing a trapped knee.",
+    "overview": "You are the bottom player attempting to come up from Worm Guard. The passer's forward movement can remove the space your get-up needs. Recover a working guard instead of insisting on the rise; Demi is the source-described response after the original foot configuration has been left.",
+    "key_principles": [
+      "Feel the shift from retreat to forward pressure.",
+      "Keep a guard barrier available while beginning the rise.",
+      "Retain useful lapel control without binding your own movement.",
+      "Use a visible loss of base rather than forcing elevation.",
+      "Recover and identify the actual guard before attacking again."
+    ],
+    "recognition_cues": [
+      "The passer stops retreating as your foot leaves the wrap.",
+      "Their torso and base move forward together.",
+      "The space needed to come up becomes smaller."
+    ],
+    "defensive_options": [
+      {
+        "action": "Retain the original wrap when the get-up has not committed",
+        "when_to_use": "Before the foot has fully left Worm Guard",
+        "targets_outcome": "Worm Guard/Top",
+        "if_successful": "You stay underneath in the original guard rather than allowing the pressure transition.",
+        "risk": "Forcing the old wrap after it is lost can obstruct recovery."
+      },
+      {
+        "action": "Keep a leg barrier while denying the forward engagement",
+        "when_to_use": "While the passer is trying to close the remaining space",
+        "targets_outcome": "Worm Guard/Top",
+        "if_successful": "The pressure counter stalls at the original guard.",
+        "risk": "A late barrier can leave you needing a different guard."
+      },
+      {
+        "action": "Redirect the forward weight into elevation",
+        "when_to_use": "When the passer loses base against your working lapel connection",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You reverse the players and land on top while the former passer retains half guard.",
+        "risk": "The passer can stabilize if their base remains intact."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Worm Guard/Top",
+        "how": "Retain the original wrap and leg barrier early enough to stop the pressure transition."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Use a genuine loss of base to reverse the passer, then release binding fabric and stabilize on top."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Insisting on standing after the space has closed",
+        "consequence": "The passer follows the rise without a remaining leg barrier.",
+        "correction": "Recover a usable guard as the pressure returns."
+      },
+      {
+        "error": "Trying to rebuild the original wrap under all forward pressure",
+        "consequence": "The old foot configuration may no longer be accessible.",
+        "correction": "Recognize when the Demi connection better fits the available position."
+      },
+      {
+        "error": "Forcing elevation against a balanced passer",
+        "consequence": "The lapel tension increases without a useful reversal.",
+        "correction": "Keep guard and wait for a real change of base."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Feel the pressure change",
+        "description": "Begin a cooperative worm-wrestling get-up while the partner moves forward slowly. Name the change of space and reset."
+      },
+      {
+        "phase": "Recovery",
+        "focus": "Replace the lost wrap",
+        "description": "When the partner closes distance, recover a working guard. Stop and identify the resulting leg and lapel configuration."
+      },
+      {
+        "phase": "Bounded response",
+        "focus": "Choose retention or reversal",
+        "description": "With light resistance, retain guard or use a clear loss of base. Reset at a stable outcome, without forcing knee rotation."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What should change when forward pressure removes your worm-wrestling space?",
+        "answer": "Stop insisting on the get-up and recover a useful guard barrier while retaining any lapel control that still works."
+      },
+      {
+        "question": "Why might Demi be available when the original worm wrap is difficult to restore?",
+        "answer": "The foot has already left the worm configuration, and Demi uses a different foot-on-lapel connection against the renewed pressure."
+      },
+      {
+        "question": "When does forward pressure offer you a reversal rather than only guard recovery?",
+        "answer": "It offers a reversal when the passer's base actually shifts onto your working connection; pressure alone does not guarantee a sweep."
+      }
+    ],
+    "clips": []
+  },
+  "clips": []
+}
