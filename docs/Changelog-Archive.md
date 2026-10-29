@@ -13219,3 +13219,29 @@ ten non-closing exposed samples beside the drawer at each width.
 Final addendum payload: deferred **506,562 / 506,817 B**; eager raw **1,366,605 / 1,600,000 B**;
 eager gzip **342,366 B**, **+2,781 B** against baseline 339,585 (5,000 B delta cap). No ceiling
 changed. Relative to SIDECX1, Feedback adds 49 raw eager bytes and removes 31 gzip bytes.
+
+### v1.242.0 — SIDECX3: explicit Path entry and visible-visit telemetry
+
+PR 327's generated CI on 4829453c9 failed seven cases, all from the retired assumption that
+opening the pane selects Challenges. The two `beat challenges_opened emitted` failures meant
+an expected beat was absent, not that a phantom beat was observed. All seven original cases
+passed on dev f63049013; explicit Path selection and Path-body visibility selectors made all
+seven pass against the unchanged PR app. Catch survival, checkpoint denominators/refusals,
+durable evidence, capstone gates and graph focus assertions are unchanged. No known-red added.
+
+A separate probe found a REAL pre-existing telemetry defect on both builds: `setGiMode`
+renders the remembered Path even while its parent is closed. That emitted `challenges_opened`
+and `neural_challenges_viewed` and consumed the next visit's dedupe flag. A saved Path emitted
+0→1 of each without a visit; after closing a real Path, another ruleset change emitted 1→2.
+`noteLearningViewOpen` now refuses hidden, unselected or study-owned Path renders BEFORE the
+flag is consumed. A visible Path visit still emits both existing events once per open pane.
+
+Two fresh/saved-preference regression cases fail on the old app and pass with the fix, alongside
+14 existing Challenges UI cases. Six exact source mutations are killed at named assertions:
+hidden render, drawer-open inflation, either event silenced, repeat render counted and next
+visit silenced. The patches and receipts are indexed in `tests/artifacts/sidebar_mutants.md`.
+
+SIDECX3 validation: 25/25 CI-equivalent steps, 1,370/1,370 units (zero skips), final nine
+focused regressions green. Payload remains within the existing caps: deferred 506,562 B;
+eager raw 1,366,689 B; eager gzip 342,395 B (+2,810 against the 339,585 B baseline, cap +5,000).
+The visible-visit guard adds 84 raw eager bytes and 29 gzip bytes to the owner addendum build.

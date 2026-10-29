@@ -666,6 +666,12 @@ leads back. The view ids stay `explore` · `challenges` · `history`. A lit page
 map to 20%, easing on the wall clock. The icon stays reachable during a catch (U16 b, U66 a);
 opening the drawer pauses the roll through the same pane law.
 
+Path emits `challenges_opened` and `neural_challenges_viewed` on its first visible visit in
+each open drawer. The list, saved view preference and hidden ruleset re-renders emit neither
+and cannot consume that visit. Returning to Path or re-rendering it within the same open
+drawer does not count again; closing the drawer permits the next deliberate Path visit.
+`path-visit-telemetry.spec.ts` pins both event streams with fresh and saved preferences.
+
 U61 c leaves About out. U67 a merges the two feedback doors into one **Feedback** form: one
 text box, optional **Technique request**, and the existing checked **about: <current page>**
 context. Send keeps `neural_issue_reported` for general feedback and

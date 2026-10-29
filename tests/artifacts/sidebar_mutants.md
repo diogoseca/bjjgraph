@@ -174,3 +174,31 @@ baseline tests: `d355-flight-lift-lost`, `flight-lift-fixed-margin`, `flight-lif
 `concept-fit-reveal-lost`, `u47-question-tap-dead`, `u47-desktop-offer-lost` — **6/6 killed**,
 bundle restored (`sidecx2/reaim-mutants/receipt.json`). The historical
 `d355-flight-lift-ungated` non-kill remains documented; it was re-aimed, not counted as a kill.
+
+## SIDECX3 / Path visits and generated-suite triage
+
+All seven unchanged generated tests passed on dev f63049013. CI job 123481122732 failed
+their stale default-Path entry on 4829453c9; explicit Path selection and body selectors made
+all seven pass against that same app, without changing their gameplay/evidence assertions.
+
+The separate telemetry probe found a REAL, pre-existing defect on both builds: changing gi
+mode with Path closed emitted both events and consumed the visit flag. The two new
+`path-visit-telemetry.spec.ts` cases failed the closed-render assertions before the fix;
+after guarding the emitter, both and all 14 existing Challenges UI cases passed.
+
+Each control below ran the green fresh-preference case once and failed its named assertion,
+with no setup or test timeout. Source and served bundle were restored after the controls.
+Exact source edits: `sidebar_path_mutants.json`. Logs and JSON receipts:
+`/home/user/bjj-orchestrator/scratch/sidebar/sidecx3/`.
+
+| Control | Result | Named failing claim |
+|---|---|---|
+| path-hidden-render-counted | KILLED (1 ran) | a closed Path re-render cannot mint a second visit |
+| path-drawer-counted | KILLED (1 ran) | opening and rendering the drawer list emits neither event |
+| path-beat-silent | KILLED (1 ran) | the first real Path visit emits one of each event (beat absent) |
+| path-analytics-silent | KILLED (1 ran) | the first real Path visit emits one of each event (capture absent) |
+| path-repeat-render-counted | KILLED (1 ran) | re-rendering and revisiting within one open drawer never double-counts |
+| path-next-visit-silent | KILLED (1 ran) | the next real Path visit emits a second pair |
+
+No new non-kills. The harness observes the app's beat stream and the PostHog capture boundary;
+it does not prove remote analytics delivery. No known-red ledger row was added.

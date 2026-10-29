@@ -1,4 +1,6 @@
 /* @hyperspace {"theme":"lifetime-journeys","L":"srs-veteran","F":"challenges","B":"guard-limit"} @invariant "Lesson evidence does not silently clear checkpoints: a veteran's studied lessons remain available in Challenges, while every unearned checkpoint and the selected track's content capstone remain unavailable." */
+// SIDECX3 / v1.242.0: the drawer opens on its list; select Path explicitly.
+// The dev-passing gameplay/evidence claims below are unchanged.
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { srsVeteran, CURRICULUM } from "./personas"
@@ -12,8 +14,9 @@ test("veteran lesson evidence leaves checkpoints and content capstones unearned"
   await j.boot("/", { initialState: srsVeteran(N_DECKS) })
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await page.locator('[data-view="challenges"]').click()
 
-  await expect(page.locator('[data-view="challenges"]')).toBeVisible()
+  await expect(page.locator(".ng-track-card").first()).toBeVisible()
   await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click()
   // v1.76.0 ladder renders every track's curriculum — scope the census to white's section
   const whiteCur = `[data-track-curriculum="${WHITE.id}"]`

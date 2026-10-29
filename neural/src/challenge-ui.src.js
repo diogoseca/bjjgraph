@@ -87,6 +87,10 @@ const NG_CHALLENGE_UI_METHODS = {
 
 
   noteLearningViewOpen(view) {
+    // A render is not a visit: setGiMode can repaint the remembered Path behind a closed
+    // drawer or a study surface. Reject it BEFORE consuming the per-open dedupe flag, so
+    // both the objective beat and analytics belong to the next visible Path visit (SIDECX3).
+    if (view === "challenges" && (!this.deckShown || this._viewMode !== view || this._paneStudyActive())) return;
     this._learningViewsTracked = this._learningViewsTracked || {};
     if (this._learningViewsTracked[view]) return;
     this._learningViewsTracked[view] = true;
