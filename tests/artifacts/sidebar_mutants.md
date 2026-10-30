@@ -275,3 +275,47 @@ a real pausable timer that remains held, then fires when the drawer closes. Repl
 checks use one continuous native gesture and keep the initial closing-press exemption.
 Wheel checks use native mouse wheel at both widths; they do not claim phone scrolling.
 The icon leaves the camera untouched; the same wheel on exposed canvas zooms it.
+
+### SIDECX5 / integration with PR #323
+
+Merged dev `e3d407825` into the feature via `9fcc4e2a8`; version stays 1.242.0.
+The first focused integration run executed 245 cases: 239 passed, six failed, no skips.
+Current dev passed all six corresponding cases; all 14 dev app assets matched its
+committed fingerprint. The four account-pill assertions are STALE after U46 b moves
+the badge into the drawer. They now positively create the real corner share cue and
+retain the reader-obstruction claim. The tile-input fixture is STALE timing: the
+pre-completed White track's reward intercepts the title, as its screenshot and native
+hit test show. Its existing wait for reward expiry now precedes all tile inputs.
+
+The 1152px / 30% reading-position failure is REAL: the first visible line moves
+129.546875 → 150.109375 (20.5625px, unchanged allowance 8px). The chosen anchor is
+a partly clipped preceding block at 68.359375, above the reader's 74px top; its
+late wrap pushes the line down. Anchoring a block that starts within the reader
+fixes all four existing place checks. The response-only repair passed 4/4 before
+the source change. Rounding, arrival gating and reopen behavior remain pinned.
+
+Final combined-source checks: **71/71** drawer/dashboard/Path/pane cases plus
+**4/4** native catch cases, zero skips. These are the affected final checks, not
+a claim that the whole 245-case batch was repeated. The original 239 other passes
+and six failures remain in `sidecx5-merged-initial.log`. No tolerance changed.
+
+| Control | Result | Named failing claim |
+|---|---|---|
+| reader-clipped-block-anchor (`sidebar_delta_mutants.json`) | KILLED (1 ran) | the first visible line keeps its place |
+| u59-pill-covers (historical name; real corner share cue) | KILLED (1 ran) | the reader ends above the corner share cue |
+| u59-place-lost | KILLED (1 ran) | the first visible line keeps its place |
+| u55r-link-swallowed | KILLED (1 ran) | a tile link opens its page |
+| u55-tile-click-toggles | KILLED (1 ran) | a title click changes nothing |
+
+The four existing reader controls first ran six distinct green baseline cases
+(the tile controls share one). All five kills are assertion failures, never timeout
+or setup failures. The eight new source controls and four rerun reader controls
+were restored after execution. `sidecx5/reader-mutants/receipt.json` and
+`sidecx5/mutants-results.json` hold the exact receipts. All 63 edits in the existing
+61 minified/CSS controls match once and all 61 JS variants parse; all 38 sidebar
+source-control targets match once. Structural checks are not 61 new kills.
+
+Setup-only failures retained outside these counts: the first read-only Playwright
+list call could not write its transform cache; the first asset-verification script
+lacked its scripts import path; and the initial scratch response-control file had
+a syntax error. Each was corrected; none counts as a red proof or mutation kill.

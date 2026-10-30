@@ -13461,3 +13461,24 @@ The shared destination/focus costs 46 B; an equivalent explicit focus guard save
 Reader JS is 42,484 B, CSS remains 10,889 B, and deferred payload is **506,815 / 506,817 B**: 2 B spare,
 zero shortfall, no ceiling increase. The earlier shard-1 Moves-label failure remains unproven; this fix
 changes only media-control navigation and does not alter the Moves input path.
+
+
+## v1.242.0 — SIDECX5: catch input ownership and the article-dashboard merge
+
+The delta review's three defects are fixed. Settings backdrop dismissal no longer
+resumes a catch behind an open drawer. A closing tap still preserves replay, while
+a continuous pan or pinch stops it. Wheel input on the catch drawer icon stays
+on that control. Seven native-input cases fail on the original 1a1fd494d bundle
+and pass after repair; seven source controls each fail their named assertion.
+
+PR #323 landed on dev e3d407825 and was merged into feat/sidebar via 9fcc4e2a8,
+without rebasing. Both archive additions and version 1.242.0 were retained. Of
+245 integration cases, six failed: four obsolete account-pill premises, one
+reward-toast fixture race, and one real 1152px reading-position shift. All six
+pass on current dev. The corner-obstruction cases now create a real share cue;
+the tile fixture waits for its existing reward before measuring title input.
+The reader anchors the first block starting within its viewport, preventing a
+partly clipped preceding block's wrap from moving the visible line by 20.5625px.
+The existing 8px allowance stays unchanged. Final affected checks pass 75/75;
+the anchor control and four existing reader controls also fail named assertions.
+See `tests/artifacts/sidebar_mutants.md` for exact controls, scope and receipts.

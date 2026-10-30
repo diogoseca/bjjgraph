@@ -96,9 +96,10 @@ show in the space below a shorter tile, where the reader grid owns input and the
 is capped, faded or reordered, so Tab follows the eye. Each tile's
 text is a centred 46ch column (a 65-68 character median line at 1440-1920), except an article holding a wide table;
 tables use the section's spacing instead of an additional outer margin.
-The media slot is outside the prose measure. The reader ends above the account pill. When the grid's width changes (Explore
-opening, a resize) and the article has scrolled above the reader's top, `layoutNow` keeps the first text block
-there in place; at the arrival the stage holds still. A tile click does nothing; the node band, Moves and question
+The media slot is outside the prose measure. The reader ends above the conditional share cue in the corner;
+the account badge lives in the drawer. When the grid's width changes (Explore
+opening, a resize) and the article has scrolled above the reader's top, `layoutNow` keeps the first text block starting
+within the reader in place; at the arrival the stage holds still. A tile click does nothing; the node band, Moves and question
 keep their places; ≤640px keeps its stacked geometry. **U65 note:** game pages omit the duplicate Videos credits
 tile; the film remains in the stage above, with its own close button. Videos keeps its index entry and closed
 disclosure control; either brings the film into view and focuses its close button when reopened.

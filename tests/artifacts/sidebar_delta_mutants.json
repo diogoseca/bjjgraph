@@ -61,5 +61,14 @@
     "a": "      logoEl.addEventListener(\"wheel\", (e) => e.stopPropagation(), { passive: false });",
     "b": "",
     "claim": "D3: wheel on the catch icon leaves the camera alone"
+  },
+  {
+    "name": "reader-clipped-block-anchor",
+    "file": "neural/src/reader.src.js",
+    "spec": "journeys/article-dashboard\\.spec",
+    "grep": "1152x900 opening Explore keeps.*30%",
+    "a": "[...art.querySelectorAll(\"p,li\")].find(e => (was = e.getBoundingClientRect().top) >= top);",
+    "b": "[...art.querySelectorAll(\"p,li\")].find(e => (was = e.getBoundingClientRect().top) >= top - 20);",
+    "claim": "keeps its place"
   }
 ]
