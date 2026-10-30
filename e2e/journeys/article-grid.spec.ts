@@ -71,15 +71,18 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
   await expect(page.locator(READY)).toBeVisible(); await j.readerLayoutSettled()
   const original = await page.locator('[data-reader-body]').textContent()
   // U65 note (owner, 2026-10-29): Videos keeps only its closed control; no open credits tile on game pages.
-  const geometry = await page.locator('[data-reader-body]').evaluate(body => [...body.children].filter(card => card.getClientRects().length).map(card => {
+  const geometry = await page.locator('[data-reader-body]').evaluate(body => [...body.children]
+    .filter(card => !card.hasAttribute('data-media-control') && card.getAttribute('data-collapsed') !== 'true').map(card => {
     const b = card.getBoundingClientRect(), s = getComputedStyle(card)
-    return { type: (card as HTMLElement).dataset.sectionType, left: b.left, top: b.top, right: b.right, bottom: b.bottom,
+    return { type: (card as HTMLElement).dataset.sectionType, rendered: card.getClientRects().length > 0,
+      left: b.left, top: b.top, right: b.right, bottom: b.bottom,
       fill: s.backgroundColor, border: s.borderWidth, shadow: s.boxShadow, filter: s.filter, backdrop: s.backdropFilter,
       webkit: s.getPropertyValue('-webkit-backdrop-filter'), webkitSupported: CSS.supports('-webkit-backdrop-filter', 'none'),
       overflow: card.scrollWidth - card.clientWidth }
   }))
   expect(geometry.length).toBeGreaterThan(4)
   for (const [i, card] of geometry.entries()) {
+    expect(card.rendered, card.type + ': every open content section is rendered').toBe(true)
     expect(card.fill).toBe('rgb(20, 27, 43)'); expect(card.border).toBe('0px')
     // The owner's A/B/C choice changes ONE CSS line, never the regression expectation.
     expect(card.shadow).toMatch(/^rgba\(155, 174, 255, 0\.(2|12|06)\) 0px 0px 16px 2px$/)

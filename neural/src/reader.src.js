@@ -657,7 +657,7 @@ class Reader {
       // An open game part is its own landmark; a closed one is its label. A section's
       // top edge leads, and focus goes to its one control.
       if (section?.part) this.scrollTo(this.on(section.part) && this.partEl(section.part) || section.toggle);
-      else if (section) this.scrollTo(section.control ? this.mediaHome : section.card, section.control ? null : section.toggle);
+      else if (section) this.scrollTo(section.card, section.toggle);
       return;
     }
     if (CONTENT.test(url.pathname) || !/\.[a-z0-9]+$/i.test(url.pathname)) {
@@ -681,8 +681,14 @@ class Reader {
     history.replaceState({ ...history.state, ngReading: !!this.intent }, "", this.path + hash);
   }
   scrollTo(node, focus = node) {
+    // U65 leaves no painted game Videos card. Both its disclosure and index navigate to
+    // the surviving film, whose close control can retain focus after the old label disappears.
+    if ("mediaControl" in node.dataset) {
+      node = this.mediaHome;
+      focus = node.querySelector("[data-film-close]");
+    }
     this.root.scrollTop += node.getBoundingClientRect().top - this.root.getBoundingClientRect().top - 6;
-    focus?.focus({ preventScroll: true });
+    if (focus) focus.focus({ preventScroll: true });
   }
   readingInteraction(type, event) {
     // U47 d / APTS-R4: a scroll does not decline a question still asking. Chromium sends a touch or pen press's

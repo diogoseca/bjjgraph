@@ -327,7 +327,16 @@ const mutants = [
   // U65 b and note (owner, 2026-10-29): each tile ends at its own content; game pages have no credits tile.
   ['u65-tiles-stretched', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => replace(css, 'align-items:start', 'align-items:stretch')],
   ['u65-watch-tile-restored', 'article-dashboard.spec.ts', 'game pages have one film', s => replace(s, 'const control = group.type === "videos" && !REFERENCE.test(path);', 'const control = false;')],
-  ['u65-film-index-throws', 'article-dashboard.spec.ts', 'game pages have one film', s => replace(s, 'focus?.focus({ preventScroll: true });\n  }\n  readingInteraction', 'focus.focus({ preventScroll: true });\n  }\n  readingInteraction')],
+  // Restore the old null film target AND its unsafe dereference; the corrected target itself is focusable.
+  ['u65-film-index-throws', 'article-dashboard.spec.ts', 'game pages have one film', s => replace(replace(s,
+    'focus = node.querySelector("[data-film-close]");', 'focus = null;'),
+    'if (focus) focus.focus({ preventScroll: true });\n  }\n  readingInteraction', 'focus.focus({ preventScroll: true });\n  }\n  readingInteraction')],
+  ['u65-disclosure-destination-lost', 'article-dashboard.spec.ts', 'native Videos disclosure', s => replace(s,
+    'if ("mediaControl" in node.dataset) {', 'if (false) {')],
+  ['u65-disclosure-focus-lost', 'article-dashboard.spec.ts', 'native Videos disclosure', s => replace(s,
+    'focus = node.querySelector("[data-film-close]");', 'focus = null;')],
+  ['u65-grid-overview-hidden', 'article-grid.spec.ts', '1440px preserves content', s => s,
+    css => css + '\n[data-reader-body]>[data-section-type=overview]{display:none!important}\n'],
   ['u65-gap-passes-map', 'article-dashboard.spec.ts', 'space below a short tile', s => s, css => css + '\n.ng-reader-article,[data-reader-body]{pointer-events:none!important}\n'],
   ['u59r4-phone-measure', 'article-dashboard.spec.ts', 'at 390x844 the phone keeps', s => s, css => css + '\n@media(max-width:640px){.ng-section-body article{max-width:120px}}\n'],
   ['u59r4-drag-on-reader', 'opening-camera.spec.ts', 'a drag mid-rise', s => s, css => css + '\nbody:after{content:"";position:fixed;left:1290px;top:150px;width:40px;height:40px;z-index:99}\n'],

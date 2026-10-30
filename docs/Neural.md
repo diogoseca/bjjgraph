@@ -101,7 +101,8 @@ opening, a resize) and the article has scrolled above the reader's top, `layoutN
 there in place; at the arrival the stage holds still. A tile click does nothing; the node band, Moves and question
 keep their places; ≤640px keeps its stacked geometry. **U65 note:** game pages omit the duplicate Videos credits
 tile; the film remains in the stage above, with its own close button. Videos keeps its index entry and closed
-disclosure control. Reference pages keep their Videos tile and player. `article-dashboard.spec.ts` pins this on
+disclosure control; either brings the film into view and focuses its close button when reopened.
+Reference pages keep their Videos tile and player. `article-dashboard.spec.ts` pins this on
 real content.
 
 One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. A closed

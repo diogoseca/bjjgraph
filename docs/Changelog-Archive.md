@@ -13306,3 +13306,17 @@ eager payload is unchanged. The dashboard tests now select the Explore line by g
 depths, assert phone measure and full content, and exercise the surviving film controls. Opening-camera checks
 that a drag starts on the canvas. Related reader tests use the surviving controls, exclude only the explicitly
 retired source credits, and wait for the replacement article before choosing its index or closed label.
+
+**DASHCX3 (2026-10-30): reopening Videos returns to its surviving film.** U65 removed the game Videos tile,
+but its native disclosure still scrolled to that hidden card and focused its hidden label. At 1024×900 and
+390×844, reopening left the film thousands of pixels above the scrollport and focus on BODY. The shared
+`scrollTo` path now resolves that control to the media home and the film's close button, for both disclosure
+and index navigation. The new native-input cases fail on 76c29222e without any helper scroll after reopening;
+separate controls remove the destination or focus. The grid preservation test again asserts every open
+content section has a box, exempting only the media preference control and intentional collapsed state;
+the review's hidden-Overview CSS is retained as a negative control.
+
+The shared destination/focus costs 46 B; an equivalent explicit focus guard saves 6 B under the ES2019 build.
+Reader JS is 42,484 B, CSS remains 10,889 B, and deferred payload is **506,815 / 506,817 B**: 2 B spare,
+zero shortfall, no ceiling increase. The earlier shard-1 Moves-label failure remains unproven; this fix
+changes only media-control navigation and does not alter the Moves input path.

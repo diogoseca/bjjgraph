@@ -58,6 +58,9 @@ import { journey } from '../dsl'
 //   u65-tiles-stretched    each tile ends at its content (stretch restored)
 //   u65-watch-tile-restored game articles omit the duplicate Videos credits tile (its contents restored)
 //   u65-film-index-throws  the surviving film's index control works without an exception (null focus dereferenced)
+//   u65-disclosure-destination-lost reopening Videos without the index brings the film into view (hidden card used)
+//   u65-disclosure-focus-lost reopening Videos focuses its surviving film control (focus target dropped)
+// article-grid's u65-grid-overview-hidden rejects an unrelated open section hidden by CSS.
 //   u65-gap-passes-map     space below a short tile remains reader input (the grid passes pointer events through)
 //   u59r4-phone-measure    the phone keeps a readable line (prose restricted to 120px)
 // Opening-camera's u59r4-drag-on-reader separately rejects a drag whose starting target is not the canvas.
@@ -455,6 +458,38 @@ test('U65: game pages have one film in the stage and no duplicate Videos credits
   await expect(page.locator('[data-land-media-slot] [data-land-film]')).toBeVisible()
   expect((await dashboard(page)).dom).not.toContain('videos')
   expect(errors, 'the surviving film and its index control do not throw').toEqual([])
+  await expect(close).toBeFocused()
+})
+
+for (const [width, height] of [[1024, 900], [390, 844]]) test(`U65: native Videos disclosure at ${width}x${height} returns to the film and its control`, async ({ page }) => {
+  const errors: string[] = []
+  page.on('pageerror', e => errors.push(e.message))
+  const j = await boot(page, width, height)
+  await expect(page.locator(READY)).not.toHaveAttribute('data-indexed', '')
+  const film = page.locator('[data-land-media-slot] [data-land-film]')
+  await expect(film).toBeVisible()
+  await page.locator('[data-film-close]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+  await j.clickByMouse('[data-film-close]', 'close the stage film')
+  await expect(film).toBeHidden()
+  await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+  await j.clickByMouse('.ng-reader-hidden>summary', 'open the native Hidden sections disclosure')
+  await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
+  await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+  await j.clickByMouse('[data-section-toggle=videos]', 'reopen Videos from its surviving closed control')
+  // No helper scroll after reopening: visibility alone also passes with the film 14,000px above the reader.
+  await j.readerLayoutSettled()
+  const arrival = await film.evaluate(el => {
+    const f = el.getBoundingClientRect(), r = el.closest('[data-reader]')!.getBoundingClientRect()
+    return { film: { top: f.top, bottom: f.bottom }, root: { top: r.top, bottom: r.bottom },
+      intersects: f.bottom > r.top && f.top < r.bottom && f.right > r.left && f.left < r.right,
+      focused: document.activeElement === el.querySelector('[data-film-close]') }
+  })
+  expect(arrival.intersects, 'reopening Videos brings the film into the reader scrollport: ' + JSON.stringify(arrival)).toBe(true)
+  expect(arrival.focused, 'reopening Videos focuses the surviving film close control').toBe(true)
+  await expect(page.locator('[data-land-film]')).toHaveCount(1)
+  await expect(page.locator('[data-reader-body]')).not.toContainText('Watch on YouTube')
+  expect(errors, 'native disclosure reopening does not throw').toEqual([])
+  await test.info().attach('reopened-film', { body: await page.screenshot(), contentType: 'image/png' })
 })
 
 test('U65 b: the space below a short tile remains reader input', async ({ page }) => {
