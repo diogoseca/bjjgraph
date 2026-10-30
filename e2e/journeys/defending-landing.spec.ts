@@ -45,6 +45,8 @@ import { legacyDefenseRenderer } from '../fixtures/legacy-defense-renderer'
 // U16 b + U66 a (owner, 2026-10-29): the drawer icon remains reachable during a catch, and
 // opening it pauses the roll. The measured mouse/touch claim below reaches Settings through the
 // badge. Mutants: hide the icon in showVignette; bypass the pane's pause while in defense.
+// SIDECX5: native modal-backdrop dismissal keeps that pause; native wheel over the icon
+// cannot zoom the map. Source controls are in sidebar_delta_mutants.json.
 const LOOP = '/Submissions/Loop-Choke/from-Half-Guard'
 const KEY = 'Loop Choke from Half Guard|Defender'
 // D-307: one exact escape; the Whittier course/coupon promotion remains withheld.
@@ -446,11 +448,59 @@ for (const width of [390, 1440]) test.describe(`catch drawer ${width}`, () => {
     await j.openAccountMenu('the catch badge')
     await j.clickByMouse('[data-menu-settings]', 'Settings during the catch')
     await expect(page.locator('#ng-stab-rolling')).toBeVisible()
-    await page.evaluate(() => (window as any).__neural.closeModal())
+    const backdrop = { x: width - 4, y: 4 }
+    expect(await page.evaluate(p => document.elementFromPoint(p.x, p.y) === (window as any).__neural.modalRef.current, backdrop),
+      'premise: the native press reaches the modal backdrop').toBe(true)
+    if (width === 390) await page.touchscreen.tap(backdrop.x, backdrop.y)
+    else await page.mouse.click(backdrop.x, backdrop.y)
+    await expect(page.locator('#ng-stab-rolling')).toBeHidden()
+    expect(await page.evaluate(() => { const a = (window as any).__neural; return { drawer: a.deckShown, paused: a.paused, owned: a._paneAutoPaused, pressure: a._defensePressure } }),
+      'D1: the backdrop leaves the catch paused behind the open drawer').toEqual({ drawer: true, paused: true, owned: true, pressure: true })
+    await j.advance(1100)
+    expect(await page.evaluate(() => (window as any).__neural.__catchTimerFired), 'D1: the backdrop cannot release the held roll timer').toBe(false)
     await j.clickByMouse('.ng-explorer-close', 'close the catch drawer')
     expect(await page.evaluate(() => (window as any).__neural.paused), 'closing returns the pause the drawer took').toBe(false)
     await j.advance(1100)
     expect(await page.evaluate(() => (window as any).__neural.__catchTimerFired), 'the held roll timer resumes after closing').toBe(true)
+  })
+
+  test('D3: wheel over the catch drawer icon cannot zoom the map @curated', async ({ page }) => {
+    const j = await catchLoop(page)
+    await page.emulateMedia({ reducedMotion: 'no-preference' })
+    await settled(page)
+    if (!await page.evaluate(() => (window as any).__neural._graphInputOn())) {
+      await j.clickByMouse('[data-reader-part="map"]', 'enable map for the wheel control')
+      await j.readerLayoutSettled()
+    }
+    expect(await page.evaluate(() => (window as any).__neural._graphInputOn()), 'premise: map input is enabled').toBe(true)
+    await page.evaluate(() => {
+      const a = (window as any).__neural
+      a.__wheelSeen = 0; a.__wheelReleases = 0
+      document.addEventListener('wheel', () => { a.__wheelSeen++ }, true)
+      const release = a.releaseCamera
+      a.releaseCamera = function (...args: any[]) { a.__wheelReleases++; return release.apply(this, args) }
+    })
+    expect(await state(page)).toMatchObject({ pressure: true, vignette: true })
+    const icon = await j.boxOf('.ng-logo', 'the catch drawer icon under the wheel')
+    expect(await page.locator('.ng-logo').evaluate((el, p) => el.contains(document.elementFromPoint(p.x, p.y)),
+      { x: icon.x + icon.width / 2, y: icon.y + icon.height / 2 }), 'premise: the wheel targets the visible icon').toBe(true)
+    const snapshot = () => page.evaluate(() => { const a = (window as any).__neural; return { width: a.cam.vw, releases: a.__wheelReleases } })
+    const before = await snapshot()
+    await page.mouse.move(icon.x + icon.width / 2, icon.y + icon.height / 2)
+    await page.mouse.wheel(0, 240)
+    await page.waitForFunction(() => (window as any).__neural.__wheelSeen === 1)
+    expect(await snapshot(), 'D3: wheel on the catch icon leaves the camera alone').toEqual(before)
+    // Positive control: the same native wheel still zooms exposed canvas. The narrow viewport
+    // case is mouse-wheel input too; it makes no claim about phone touch scrolling.
+    const graph = { x: width - 5, y: 180 }
+    expect(await page.evaluate(p => document.elementFromPoint(p.x, p.y) === (window as any).__neural.canvas, graph),
+      'premise: exposed canvas for the wheel control').toBe(true)
+    await page.mouse.move(graph.x, graph.y)
+    await page.mouse.wheel(0, 240)
+    await page.waitForFunction(() => (window as any).__neural.__wheelSeen === 2)
+    const after = await snapshot()
+    expect(after.releases, 'the canvas receives the wheel').toBeGreaterThan(before.releases)
+    expect(after.width, 'the canvas wheel zooms out').toBeGreaterThan(before.width)
   })
 })
 

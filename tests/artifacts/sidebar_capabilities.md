@@ -10,7 +10,7 @@ UNGUARDED rows were unguarded before this build and are untouched by it.
 | # | capability (inventory text, abridged) | status | where now / why | proven by |
 |---|---|---|---|---|
 | | **1. Side pane: shell and foot (all tabs)** | | | |
-| 1 | Opening the pane pauses the roll; closing it resumes only if the pane caused the pause | kept | pane law unchanged: the drawer pauses on open, resumes only its own pause (applyDeckVisibility) | pane-law.spec.ts "opening the pane stops the game; closing it resumes" |
+| 1 | Opening the pane pauses the roll; closing it resumes only if the pane caused the pause | kept | pane law unchanged: the drawer pauses on open, resumes only its own pause (applyDeckVisibility) | pane-law.spec.ts "opening the pane stops the game; closing it resumes"; defending-landing.spec.ts (native Settings backdrop keeps the drawer-owned catch pause at 390 and 1440) |
 | 2 | "×" (title and aria "Close panel"): closes the pane | moved | to the drawer head's drawer icon (same aria/title "Close panel") | pane-law.spec.ts (✕ closes, game resumes); sidebar.spec.ts "one drawer icon opens the drawer…"; challenges-ui.spec.ts (Tab/Enter Close and return focus) |
 | 3 | Esc closes the pane (after modal, list picker, account menu, replay) | kept | Esc ladder unchanged; the badge menu closes before the drawer | account-menu.spec.ts "Esc closes the menu first, then the drawer"; pane-chrome.spec.ts "Esc closes the modal first…" |
 | 4 | Phone: tapping the exposed strip of graph closes the 88vw drawer | kept | phone 88vw drawer, exposed strip still closes it, and the closing tap now does only that (SIDE-R2 P1: it staged a roll on a node, dismissed the card on the background) | sidebar.spec.ts "on a phone, a left swipe closes the drawer" (the exposed-strip tap, added); "the tap on the exposed strip that closes the drawer does only that" |
@@ -178,7 +178,12 @@ explicitly, including the Account preferences destination folded into Settings (
 | A1 | Account preferences entry | moved | One Settings row in the badge menu (U60 b); duplicate label removed | account-menu.spec.ts "signed in with legacy progress: email, Settings…" |
 | A2 | Notifications deep link | moved | Settings → Notifications tab (U60 b); the badge has one Settings entry | account-menu.spec.ts "signed in with legacy progress…" |
 | A3 | Train section heading | retired | U60 b: heading removed; Practice then Path retain their order | sidebar.spec.ts "the drawer lists Search, Explore, Practice, Path…" |
-| A4 | Account and Settings access during a catch | moved | U16 b + U66 a: reachable drawer icon opens and pauses the catch, then badge → Settings | defending-landing.spec.ts "U16 b / U66 a: the drawer icon stays reachable…" |
+| A4 | Account and Settings access during a catch | moved | U16 b + U66 a: reachable drawer icon opens and pauses the catch, then badge → Settings; native backdrop dismissal keeps the pause and wheel input stays on the icon | defending-landing.spec.ts "U16 b / U66 a: the drawer icon stays reachable…" and "D3: wheel over the catch drawer icon…" |
 | A5 | Feedback | kept | U62 + U67 a: one Feedback row and one text box; optional technique-request kind retains both PostHog events and current-page context | feedback-modal.spec.ts "U67 a: the merged form submits both feedback kinds…"; footer-feedback.spec.ts |
 | A6 | Training-day email preference and guest explanation | kept | Settings → Notifications, `emailDigest` unchanged; original row 128 | notifications-tab.spec.ts |
 | A7 | About | retired | never existed; retired by U61 c | account-menu.spec.ts "signed out: a short menu and one small line" |
+
+SIDECX5 additionally pins a continuous closing graph gesture: mouse pan, native touch pan and
+two-finger pinch end a replay, while the existing exposed-strip closing-tap case keeps it.
+The seven controls in `sidebar_delta_mutants.json` cover the native catch backdrop, closing
+gestures and catch-icon wheel isolation.

@@ -923,14 +923,17 @@ class Component extends DCLogic {
     }
     // modal: card blocks pan + wheel; backdrop click closes
     if (this.modalCardRef.current) { this.modalCardRef.current.addEventListener("pointerdown", (e) => e.stopPropagation()); this.modalCardRef.current.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
-    if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); this.setPaused(false); this.closeModal(); });
+    if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); if (!this.deckShown) this.setPaused(false); this.closeModal(); });
     // Z LADDER (v1.95.1, see helmet.html): the modal is a DELIBERATE screen — portal it out
     // of the wrap (whose stacking context traps any z it wears) onto the root overlay plane,
     // where its 95 outranks every ambient overlay (landcard 5, combo pop 72).
     // Listeners above survive the move; the account menu portals the same way when opened.
     if (this.modalRef.current && this.__ngRoot && this.modalRef.current.parentElement !== this.__ngRoot) this.__ngRoot.appendChild(this.modalRef.current);
     const logoEl = this.wrapRef.current.querySelector(".ng-logo");
-    if (logoEl) logoEl.addEventListener("pointerdown", (e) => e.stopPropagation());
+    if (logoEl) {
+      logoEl.addEventListener("pointerdown", (e) => e.stopPropagation());
+      logoEl.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false });
+    }
     // keyboard: "/" or Cmd/Ctrl+K focuses search in the explorer
     this._onKey = (e) => {
       const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
@@ -19768,6 +19771,7 @@ class Component extends DCLogic {
       // the overlays that own controls have already returned above, and the replay bar is a
       // root-plane sibling of this wrap, so its own ✕ never reaches here. NOT the tap that closes the
       // drawer (SIDE-R3 N2): on a phone that is how you WATCH the replay you just started.
+      // A closing gesture that becomes a pan or pinch ends it in pointermove below (SIDECX5 D2).
       if (this._replay && !closing) this.stopReplay("input");
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
@@ -19783,6 +19787,7 @@ class Component extends DCLogic {
       if (!this._graphInputOn()) { this._cancelGraphInput(); return; }
       if (ptrs.has(e.pointerId)) ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       if (pinch && ptrs.size >= 2 && this.cam) {
+        if (this._replay) this.stopReplay("input"); // a closing pinch takes the camera too
         const rect = this.canvas.getBoundingClientRect();
         const m = mid(); const sx = m.x - rect.left, sy = m.y - rect.top;
         const sb = this.W / this.cam.vw;
@@ -19808,6 +19813,7 @@ class Component extends DCLogic {
       }
       if (!dragging || !this.cam) { this._updateHover(e); return; }
       moved += Math.abs(e.clientX - lx) + Math.abs(e.clientY - ly);
+      if (moved > 6 && this._replay) this.stopReplay("input"); // only the closing TAP keeps the film
       const scale = this.W / this.cam.vw;
       this.cam.cx -= (e.clientX - lx) / scale; this.cam.cy -= (e.clientY - ly) / scale;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy;

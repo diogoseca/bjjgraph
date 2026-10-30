@@ -1,0 +1,65 @@
+[
+  {
+    "name": "d1-backdrop-resumes-390",
+    "file": "neural/src/app.src.jsx",
+    "spec": "journeys/defending-landing\\.spec",
+    "grep": "catch drawer 390.*U16 b / U66 a",
+    "a": "e.stopPropagation(); if (!this.deckShown) this.setPaused(false); this.closeModal();",
+    "b": "e.stopPropagation(); this.setPaused(false); this.closeModal();",
+    "claim": "D1: the backdrop leaves the catch paused behind the open drawer"
+  },
+  {
+    "name": "d1-backdrop-resumes-1440",
+    "file": "neural/src/app.src.jsx",
+    "spec": "journeys/defending-landing\\.spec",
+    "grep": "catch drawer 1440.*U16 b / U66 a",
+    "a": "e.stopPropagation(); if (!this.deckShown) this.setPaused(false); this.closeModal();",
+    "b": "e.stopPropagation(); this.setPaused(false); this.closeModal();",
+    "claim": "D1: the backdrop leaves the catch paused behind the open drawer"
+  },
+  {
+    "name": "d2-replay-kept-mouse-pan",
+    "file": "neural/src/app.src.jsx",
+    "spec": "journeys/sidebar\\.spec",
+    "grep": "D2: a continuous closing mouse pan",
+    "a": "      if (moved > 6 && this._replay) this.stopReplay(\"input\"); // only the closing TAP keeps the film",
+    "b": "",
+    "claim": "D2: a continuous closing gesture stops replay on movement"
+  },
+  {
+    "name": "d2-replay-kept-touch-pan",
+    "file": "neural/src/app.src.jsx",
+    "spec": "journeys/sidebar\\.spec",
+    "grep": "D2: a continuous closing touch pan",
+    "a": "      if (moved > 6 && this._replay) this.stopReplay(\"input\"); // only the closing TAP keeps the film",
+    "b": "",
+    "claim": "D2: a continuous closing gesture stops replay on movement"
+  },
+  {
+    "name": "d2-replay-kept-touch-pinch",
+    "file": "neural/src/app.src.jsx",
+    "spec": "journeys/sidebar\\.spec",
+    "grep": "D2: a continuous closing touch pinch",
+    "a": "        if (this._replay) this.stopReplay(\"input\"); // a closing pinch takes the camera too",
+    "b": "",
+    "claim": "D2: a continuous closing gesture stops replay on movement"
+  },
+  {
+    "name": "d3-icon-wheel-leaks-390",
+    "file": "neural/src/app.src.jsx",
+    "spec": "journeys/defending-landing\\.spec",
+    "grep": "catch drawer 390.*D3: wheel",
+    "a": "      logoEl.addEventListener(\"wheel\", (e) => e.stopPropagation(), { passive: false });",
+    "b": "",
+    "claim": "D3: wheel on the catch icon leaves the camera alone"
+  },
+  {
+    "name": "d3-icon-wheel-leaks-1440",
+    "file": "neural/src/app.src.jsx",
+    "spec": "journeys/defending-landing\\.spec",
+    "grep": "catch drawer 1440.*D3: wheel",
+    "a": "      logoEl.addEventListener(\"wheel\", (e) => e.stopPropagation(), { passive: false });",
+    "b": "",
+    "claim": "D3: wheel on the catch icon leaves the camera alone"
+  }
+]

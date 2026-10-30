@@ -694,6 +694,8 @@ retains its two columns. Closing restores the layout without resetting the card 
 game stops. Close = the game resumes, but only if the pane is what stopped it** — one latch
 (`_paneAutoPaused`) for the whole pane, taken in `applyDeckVisibility` rather than `setDeckOpen`,
 because several study entry points assign `deckOpen` directly. A hand-paused roll stays paused.
+Closing Settings through its backdrop keeps the pause while the drawer is open, including during a catch.
+The catch-time drawer icon also owns its wheel input, so scrolling over it cannot zoom the map.
 
 Every pauser owns its own latch — `_paneAutoPaused`, `_replayAutoPaused`,
 `_dossierAutoPaused` — so releasing gives back only the pause you took, transferring it to any
@@ -800,7 +802,9 @@ files nothing. The archive records the earlier missing-history and stale-tab def
 
 **A replay is a film of a roll you already rolled.** It credits nothing — `_replayBeat()` pushes to
 the beat stream and stops, deliberately not through `fx()`, which is the challenge-evidence seam.
-Any real input ends it. It holds the clock on its own latch and never touches the pane.
+Graph input ends it, except the tap that closes the phone drawer so the film can be seen.
+If that same closing gesture becomes a pan or pinch, it ends the film. A replay holds the clock
+on its own latch and never touches the pane.
 
 ---
 

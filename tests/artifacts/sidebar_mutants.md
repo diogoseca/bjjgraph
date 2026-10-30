@@ -244,3 +244,34 @@ those names preserves the original control. Its baseline passed and its mutation
 `sidecx4/reaim-mutants/receipt.json`). All 63 edits across the existing 61 controls match
 once and all resulting JS bundles parse. This structural check is not 61 newly run kills;
 the table's historical non-kills remain recorded.
+
+## SIDECX5 / catch pause, closing replay gestures and icon wheel
+
+The unchanged 1a1fd494d bundle fails all seven native-input regressions at their named
+assertions: two Settings backdrop cases, mouse pan, touch pan, two-finger pinch, and
+two catch-icon wheel cases. These are REAL input defects. The modal handler and icon
+wheel propagation predate the drawer; U66 a exposed their catch path. The closing
+gesture regression was introduced by the N2 tap exemption.
+
+The repaired bundle passes 8/8 focused cases, including the existing closing tap that
+keeps a replay. Each control below fails one named assertion, with no timeout or setup
+failure. Exact source substitutions: `sidebar_delta_mutants.json`. Evidence:
+`/home/user/bjj-orchestrator/scratch/sidebar/sidecx5/`; positive and original-head logs
+are `scratch/sidebar/runs/sidecx5-{green,red}.log`.
+
+| Control | Result | Named failing claim |
+|---|---|---|
+| d1-backdrop-resumes-390 | KILLED (1 ran) | D1: the backdrop leaves the catch paused behind the open drawer |
+| d1-backdrop-resumes-1440 | KILLED (1 ran) | D1: the backdrop leaves the catch paused behind the open drawer |
+| d2-replay-kept-mouse-pan | KILLED (1 ran) | D2: a continuous closing gesture stops replay on movement |
+| d2-replay-kept-touch-pan | KILLED (1 ran) | D2: a continuous closing gesture stops replay on movement |
+| d2-replay-kept-touch-pinch | KILLED (1 ran) | D2: a continuous closing gesture stops replay on movement |
+| d3-icon-wheel-leaks-390 | KILLED (1 ran) | D3: wheel on the catch icon leaves the camera alone |
+| d3-icon-wheel-leaks-1440 | KILLED (1 ran) | D3: wheel on the catch icon leaves the camera alone |
+
+Source and served assets were restored after all seven controls. No new non-kills.
+Backdrop input is touch at 390×844 and mouse at 1440×900, with positive hit tests and
+a real pausable timer that remains held, then fires when the drawer closes. Replay
+checks use one continuous native gesture and keep the initial closing-press exemption.
+Wheel checks use native mouse wheel at both widths; they do not claim phone scrolling.
+The icon leaves the camera untouched; the same wheel on exposed canvas zooms it.

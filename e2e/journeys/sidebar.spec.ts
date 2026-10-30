@@ -567,6 +567,55 @@ test.describe("phone 390x844", () => {
     expect(await page.evaluate(() => !!(window as W).__neural._replay), "a subsequent graph input still stops the replay").toBe(false)
   })
 
+  for (const gesture of ["mouse pan", "touch pan", "touch pinch"]) test(`D2: a continuous closing ${gesture} stops replay @curated`, async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    await openDrawer(j, page)
+    expect(await page.evaluate(() => {
+      const a = (window as W).__neural
+      const log = ["Mount", "Side Control", "Closed Guard"].map(name => {
+        const n = a.nodes.find((n: any) => n.ty === "positions" && n.rep !== false && a.graphName(n) === name)
+        return { idx: n.idx, name, role: "Top" }
+      })
+      return a.startReplay({ ts: 1, log })
+    }), "premise: a three-position replay started").toBe(true)
+    const right = await page.locator(".ng-drill").evaluate(el => el.getBoundingClientRect().right)
+    const p = { x: Math.ceil(right + (390 - right) * .9), y: 180, id: 1 }
+    const snapshot = () => page.evaluate(() => {
+      const a = (window as W).__neural
+      return { replay: !!a._replay, drawer: a.deckShown, cy: a.cam.cy, width: a.cam.vw }
+    })
+    expect(await page.evaluate(p => document.elementFromPoint(p.x, p.y) === (window as W).__neural.canvas, p),
+      "premise: the gesture starts on exposed canvas").toBe(true)
+    const before = await snapshot()
+    const cdp = gesture.startsWith("touch") ? await page.context().newCDPSession(page) : null
+    try {
+      if (cdp) await cdp.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [p] })
+      else { await page.mouse.move(p.x, p.y); await page.mouse.down() }
+      expect(await snapshot(), "D2: the initial closing press preserves replay").toMatchObject({ replay: true, drawer: false })
+      if (gesture === "touch pinch") {
+        const second = { x: p.x - 50, y: p.y, id: 2 }
+        expect(await page.evaluate(p => document.elementFromPoint(p.x, p.y) === (window as W).__neural.canvas, second),
+          "premise: the second finger also reaches canvas").toBe(true)
+        await cdp!.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [p, second] })
+        await cdp!.send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: [{ ...p, y: p.y + 100 }, { ...second, y: second.y - 100 }] })
+      } else if (cdp) await cdp.send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: [{ ...p, y: p.y + 100 }] })
+      else await page.mouse.move(p.x, p.y + 100, { steps: 8 })
+      const dragged = await snapshot()
+      expect(gesture === "touch pinch" ? dragged.width : dragged.cy, "the continuous gesture moves the camera").not.toBe(gesture === "touch pinch" ? before.width : before.cy)
+      expect(dragged.replay, "D2: a continuous closing gesture stops replay on movement").toBe(false)
+    } finally {
+      if (cdp) { await cdp.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] }); await cdp.detach() }
+      else await page.mouse.up()
+    }
+    const beats = await j.beats()
+    expect(beats.filter((b: any) => b.beat === "roll_replay_end").map((b: any) => b.reason), "the gesture ends the film as player input").toEqual(["input"])
+    await j.advance(1700)
+    expect((await snapshot()).replay, "the film stays stopped after its next step was due").toBe(false)
+    expect((await j.beats()).filter((b: any) => b.beat === "roll_replay_end")).toHaveLength(1)
+  })
+
   test("the closed drawer's icon wears an amber dot while reviews are owed, and none when nothing is", async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
