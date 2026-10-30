@@ -18,7 +18,8 @@ import { multiBeltEndgame } from "../gen/personas"
  *   the colour promoting on lessons again (`_beltCleared` reading lessons only) → test 2.
  */
 
-const tabBelt = (page: Page) => page.locator('.ng-learning-nav [data-view="challenges"] .ng-tab-belt')
+// v1.242.0: the Challenges tab is Train's Path row, and its belt is drawn under the row
+const tabBelt = (page: Page) => page.locator('[data-path-belt] .ng-tab-belt')
 
 /** curriculum and deck manifest resident, and the one-time grandfather has run */
 async function migrated(page: Page) {
@@ -26,15 +27,16 @@ async function migrated(page: Page) {
     .poll(() => page.evaluate(() => { const a = (window as any).__neural; return !!(a.curriculum && a.flashcards && a.belts && a.belts.gf) }))
     .toBe(true)
 }
+// v1.242.0: the worn belt is drawn under the drawer's Path row, on the home list (the Challenges tab is gone)
 async function openChallenges(page: Page) {
   await page.evaluate(() => {
     const a = (window as any).__neural
-    a.setViewMode("challenges")
+    a.setViewMode("explore")
     a.openExplorer()
     a.showExplorerList()
     a.renderTabSubtitles()
   })
-  await expect(page.locator(".ng-learning-nav")).toBeVisible()
+  await expect(page.locator(".ng-drawer-head")).toBeVisible()
 }
 /** raw evidence for whole belts (every lesson live in `frame`, or all), then the seam every grade calls */
 async function prove(page: Page, belts: string[], opts: { frame?: string; checkpoints?: boolean } = {}) {

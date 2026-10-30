@@ -36,7 +36,7 @@ test.beforeAll(async ({ request }) => {
   }
 });
 async function openSettings(page: Page, j: ReturnType<typeof journey>) {
-  await j.clickByMouse(".ngAcctChip", "account");
+  await j.openAccountMenu();
   await j.clickByMouse("[data-menu-settings]", "Settings");
   await expect(page.locator("[data-mastery-gold]")).toHaveCount(1);
   await expect(page.locator("[data-mastery-gold]")).toContainText("Turn what you know gold");
@@ -115,7 +115,7 @@ test("@curated rendered Off focus and resting glow preserve the player perspecti
   const j=journey(page); await j.boot("/"); await j.land("Mount Top"); await ready(page);
   await renderedOff(page,info,"default-off");
   await openSettings(page,j); await choose(j,true); await choose(j,false);
-  await j.clickByMouse(".ng-modal .x","close Settings");
+  await j.clickByMouse(".ng-modal .x","close Settings"); await j.clickByMouse(".ng-explorer-close","close the drawer"); // v1.242.0: Settings opens from the drawer's badge
   await renderedOff(page,info,"on-then-off");
 });
 
@@ -199,7 +199,7 @@ for (const width of [1440, 390]) {
     expect(await page.evaluate(() => (window as any).__neural.get("masteryGold",false))).toBe(false);
     await openSettings(page,j); await choose(j,true); await ready(page);
     expect(requests.length).toBe(1);
-    await j.clickByMouse(".ng-modal .x", "close Settings");
+    await j.clickByMouse(".ng-modal .x", "close Settings"); await j.clickByMouse(".ng-explorer-close","close the drawer"); // v1.242.0: Settings opens from the drawer's badge
     const result = await page.evaluate(async () => {
       const a=(window as any).__neural, n=a.nodes[a.currentPos], p=a.nodes[n.pi];
       const key=a._mapPaint[n.idx].key;
@@ -255,7 +255,7 @@ test("@curated a real landing-card grade updates map paint without reload", asyn
   expect(await page.evaluate(()=>(window as any).__neural._mapPaint)).toBeNull();
   await page.evaluate(()=>(window as any).__releaseGoldIdle());
   await ready(page); // Must converge while Settings stays open, before closing it.
-  await j.clickByMouse(".ng-modal .x", "close Settings");
+  await j.clickByMouse(".ng-modal .x", "close Settings"); await j.clickByMouse(".ng-explorer-close","close the drawer"); // v1.242.0: Settings opens from the drawer's badge
   const before=await page.evaluate(async () => {
     const a=(window as any).__neural,n=a.nodes[a.currentPos],key=a._mapPaint[n.idx].key;
     await a.hydrateDeck(key); a.set("recallInPlay",true);
@@ -294,7 +294,7 @@ test("a delayed gold import after Off paints only the base site mix", async ({ p
       const a=(window as any).__neural;
       return a.nodes.every((n:any)=>a._mapPaint[n.idx].halfPaint===n.col&&a._mapPaint[n.idx].lowerPaint===(n.colU||n.col));
     })).toBe(true);
-    await j.clickByMouse(".ng-modal .x","close Settings");
+    await j.clickByMouse(".ng-modal .x","close Settings"); await j.clickByMouse(".ng-explorer-close","close the drawer"); // v1.242.0: Settings opens from the drawer's badge
     await renderedOff(page,info,"late-import-off");
   } finally {release();}
 });

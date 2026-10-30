@@ -64,6 +64,10 @@ import { journey } from "../dsl";
  * There is no action retry; an element handle models the locate-before-repaint race
  * in the diagnostic probe, not a claimed failure of the 20 unchanged repetitions.
  *
+ * SIDE-R3 N7: concept-fit-reveal-lost historically survived at 1440x900 because the taller drawer
+ * already fit its first portrait frame. At 1440x700 the same portrait-and-close-button fit assertion
+ * kills it; both desktop and phone controls pass. No fit bound is relaxed.
+ *
  * NON-KILLS, recorded so nobody reads this spec as covering them (CLAUDE.md section 6.3):
  *  · Learning's complete 26-page inventory, native disclosures and three migrated guide routes
  *    are covered by learning-reader.spec.ts and tests/learning_content.py.
@@ -754,8 +758,10 @@ test("arriving on a System's own page opens it and starts NOTHING", async ({
   expect(errors, "no page error across the journey").toEqual([]);
 });
 
+// SIDE-R3 N7: 700px restores the short reading pane needed to observe the portrait
+// transition-end reveal (concept-fit-reveal-lost); 900px already fits its first frame.
 for (const viewport of [
-  { width: 1440, height: 900 },
+  { width: 1440, height: 700 },
   { width: 390, height: 844 },
 ]) {
   test(`principle film study hydrates, plays on request, and stops on leaving at ${viewport.width}px @curated`, async ({ page }) => {
@@ -1051,10 +1057,13 @@ for (const viewport of [
     // responses detach the summary on BOTH heads. Progress hydration and motion sync
     // do not replace it. Wait for publication, not a delay or an action retry.
     // The DSL supplies {} for bodies: wait for its bounded missing-body retry too.
+    // v1.242.0 (SIDE-R2 M8): an open that names no view lands on the drawer's list, not on Path, and this
+    // flow's list is the principle's own page, so nothing asks for the Systems index here (it did through
+    // Path); the late repaint it guarded cannot happen. It is waited out only if something asked for it.
     await page.waitForFunction(() => {
       const w = window as any, a = w.__neural;
       const c = a._conceptsById?.[a._conceptId], p = a._conceptPaint;
-      return c && !a._systemsLoading && a.systems?.length > 0 &&
+      return c && !a._systemsLoading && (!a._systemsWait || a.systems?.length > 0) &&
         a._docRetried?.[c.key] && w.NG_CONTENT?.decks?.[c.key] === null &&
         p?.id === c.id && p.body === null && p.retry;
     });
@@ -1123,10 +1132,13 @@ for (const viewport of [
     expect(
       await page.evaluate(() => (window as any).__neural._focusIdxSet.size),
     ).toBe(result.lit);
+    // SIDE-R2 M6: the drawer's head is on screen whenever the drawer is, so it proved nothing here. What
+    // Back must restore is the home list the principle had taken over (dev: the tab nav it had hidden).
+    await expect(page.locator("[data-drawer-explore]"), "premise: the principle owns the list").toHaveCount(0);
     await page.locator("[data-concept-back]").scrollIntoViewIfNeeded();
     await j.clickByMouse("[data-concept-back]");
     await expect(page.locator("[data-principle-view]")).toHaveCount(0);
-    await expect(page.locator(".ng-learning-nav")).toBeVisible();
+    await expect(page.locator("[data-drawer-explore]"), "Back returns to the drawer's list").toBeVisible();
   });
 }
 
@@ -1270,8 +1282,10 @@ test("clicking the pressed Explore tab returns a drilled Principle, then a Syste
   await readerStudyTools(page, j);
   await expect(page.locator(`[data-concept-detail="${first.id}"]`), "premise: the principle owns the pane").toBeVisible();
   await expect(searchRow, "premise: and the root's search row is gone with it").toBeHidden();
-  await expect(page.locator(tab), "premise: Explore is the pressed tab").toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator(tab), "premise: the drawer's brand, its way home (v1.242.0: the Explore tab's job), is on screen").toBeVisible();
   const before = await principleStudyState(page);
+  // v1.242.0: the helper above reaches the list through the brand too, so count this click's beat alone
+  await page.evaluate(() => { (window as any).__homeBeats0 = ((window as any).__neural.beats || []).filter((b: any) => b.beat === "pane_tab_home").length; });
 
   await j.clickByMouse(tab, "the pressed Explore tab");
   await expect(page.locator("[data-concept-detail]"), "the drilled body is gone").toHaveCount(0);
@@ -1282,7 +1296,7 @@ test("clicking the pressed Explore tab returns a drilled Principle, then a Syste
   expect(s.input, "and none in the box").toBe("");
   expect(await page.evaluate(() => {
     const a = (window as any).__neural;
-    return { concept: a._conceptId, system: a._systemId, view: a._viewMode, pane: !!a.deckShown, beat: (a.beats || []).filter((b: any) => b.beat === "pane_tab_home").length };
+    return { concept: a._conceptId, system: a._systemId, view: a._viewMode, pane: !!a.deckShown, beat: (a.beats || []).filter((b: any) => b.beat === "pane_tab_home").length - (window as any).__homeBeats0 };
   }), "no page owns the list, the tab and the pane are as they were, and the way home left its beat").toEqual({ concept: null, system: null, view: "explore", pane: true, beat: 1 });
   expect(await principleStudyState(page), "going home starts nothing: the roll state is untouched").toEqual(before);
 
@@ -1297,18 +1311,11 @@ test("clicking the pressed Explore tab returns a drilled Principle, then a Syste
   await expect(rows, "the root list is back").toHaveCount(principles.length);
   expect(await page.evaluate(() => (window as any).__neural._systemId), "no System owns the list").toBeNull();
 
-  // ── the other tabs did not change: the pressed Challenges tab is still a no-op ──
-  await j.clickByMouse("[data-view='challenges']", "the Challenges tab");
-  await expect(page.locator("[data-view='challenges']")).toHaveAttribute("aria-pressed", "true");
-  await page.evaluate(() => {
-    const a = (window as any).__neural;
-    (window as any).__paneRenders = 0;
-    const orig = a._renderPaneBody.bind(a);
-    a._renderPaneBody = () => { (window as any).__paneRenders++; return orig(); };
-  });
-  await j.clickByMouse("[data-view='challenges']", "the pressed Challenges tab");
-  await j.advance(200);
-  expect(await page.evaluate(() => ({ renders: (window as any).__paneRenders, view: (window as any).__neural._viewMode })),
-    "a pressed tab other than Explore is the no-op it always was").toEqual({ renders: 0, view: "challenges" });
+  // ── v1.242.0: Path is a row of the list (no pressed tab to re-press); its brand leads home again ──
+  await page.locator("[data-view='challenges']").scrollIntoViewIfNeeded();   // below the expanded Principles
+  await j.clickByMouse("[data-view='challenges']", "the Path row");
+  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Path");
+  await j.clickByMouse(tab, "the brand, from Path");
+  await expect(rows, "the root list is back").toHaveCount(principles.length);
   expect(errors, "no page errors along the way").toEqual([]);
 });

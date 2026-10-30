@@ -39,12 +39,12 @@ export function ngProgressValidateBlob(value) {
     active.delete(v);
   };
   walk(value);
-  for (const key of ["prep", "rec", "stage", "srs", "units", "belts", "tut", "challenges", "badges", "coins", "lists", "flow", "days", "dayLog", "settings", "settingsAt"]) {
+  for (const key of ["prep", "rec", "stage", "srs", "units", "belts", "tut", "challenges", "badges", "coins", "lists", "flow", "days", "rollDays", "dayLog", "settings", "settingsAt"]) {
     if (key in value && !ngProgressObject(value[key])) throw new Error("Invalid saved progress field: " + key);
   }
   const map = v => ngProgressObject(v) && Object.getPrototypeOf(v) === Object.prototype;
   const number = v => typeof v === "number" && Number.isFinite(v) && v >= 0;
-  for (const key of ["prep", "rec", "days", "settingsAt"]) {
+  for (const key of ["prep", "rec", "days", "rollDays", "settingsAt"]) {
     if (value[key] && Object.values(value[key]).some(v => !number(v))) throw new Error("Invalid progress counter: " + key);
   }
   for (const row of Object.values(value.stage || {})) {

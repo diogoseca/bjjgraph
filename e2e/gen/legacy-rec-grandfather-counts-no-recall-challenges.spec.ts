@@ -87,6 +87,7 @@ test("grandfathered v1 rec boots blue.recall-five at 0/5; five live card-proofs 
   // ── open the lesson drill through the real UI: explorer → white track → L0 row ──
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
   const row = page.locator(`[data-lesson="${L0}"]`).first()
   await expect(row, "the first white lesson row renders in the challenges view").toBeVisible()
   await page.evaluate((dk) => {

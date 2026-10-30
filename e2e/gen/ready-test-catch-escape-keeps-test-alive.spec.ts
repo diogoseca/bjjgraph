@@ -1,4 +1,6 @@
 /* @hyperspace {"theme":"unlock-economy","L":"belt-ready","F":"defense-panic","B":"cross-feature"} @invariant "Getting caught during a belt test is survivable: a rigged catch opens the panic drill inside the live test and a rigged escape returns to the test with _beltTest intact (same beltId), zero belt_test_lost beats, and zero attempts burned — only a finished tap loses the test, not the catch itself." */
+// SIDECX3 / v1.242.0: the drawer opens on its list; select Path explicitly.
+// The dev-passing gameplay/evidence claims below are unchanged.
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { beltReady, CURRICULUM } from "./personas"
@@ -83,6 +85,7 @@ test("belt-ready: caught mid-test opens the panic drill, escape resumes the SAME
   //    first). The roll seeder re-draws ai-skill/role/max-moves inside rollFromPosition, so
   //    re-rig them BEFORE the click (land() only covered the intro roll's draws). ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await page.locator('[data-view="challenges"]').click()
   // v1.99.2 (ba6aba811, "the frontier belt retires pinning"): the corridor opens only the
   // FRONTIER belt by default. beltReady proves every White lesson, so the frontier is Blue and
   // White's body — capstone button included — sits at display:none; the 240s click timeout was

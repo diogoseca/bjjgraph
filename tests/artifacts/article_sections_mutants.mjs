@@ -290,7 +290,8 @@ const mutants = [
   ['u59-tab-rtl', 'article-dashboard.spec.ts', 'Tab walks the tiles', s => s, css => css + '\n.ng-reader [data-reader-body]{direction:rtl}\n'],
   // "Prose at a readable ~65-70ch": the column's measure removed, so a two-thirds tile runs ~86 characters.
   ['u59-measure-unset', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => replace(css, 'overflow-wrap:break-word;max-width:46ch;margin:auto}', 'overflow-wrap:break-word}')],
-  // "The Guest pill must never cover text or links": its reserve measured over the old 680px column only.
+  // U46 b moved the Guest badge into the drawer. The conditional share cue now occupies the corner;
+  // retain the obstruction control (historical name) with its reserve measured over the old 680px column only.
   ['u59-pill-covers', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, 'a._readerShelfBottom({ left: free.center - width / 2, right: W })', 'a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 })')],
   // "Keep the reader's place when the lane count changes": the anchor found but never put back.
   ['u59-place-lost', 'article-dashboard.spec.ts', 'opening Explore keeps', s => replace(s, '      if (keep) this.placeTop = root.scrollTop += Math.round(keep.getBoundingClientRect().top - was);\n', '')],

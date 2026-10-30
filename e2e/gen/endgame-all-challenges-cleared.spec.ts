@@ -13,6 +13,7 @@ test("content-capstone endgame: every open track renders cleared checkpoints and
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
 
   await expect(page.locator('[data-view="challenges"]')).toBeVisible()
+  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
   expect(await page.locator(".ng-track-card").count()).toBe(TRACKS.length)
 
   for (const track of TRACKS) {

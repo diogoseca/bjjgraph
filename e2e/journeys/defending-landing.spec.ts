@@ -42,6 +42,11 @@ import { legacyDefenseRenderer } from '../fixtures/legacy-defense-renderer'
 // NON-KILL (review N1): deleting only _defenseAnswered's refreshEscapeOdds survives;
 // _mcAnswer -> refreshOptionOdds already refreshes. No redundant call-count assertion.
 // Playback on YouTube is outside this contract; mounted reel identity is in it.
+// U16 b + U66 a (owner, 2026-10-29): the drawer icon remains reachable during a catch, and
+// opening it pauses the roll. The measured mouse/touch claim below reaches Settings through the
+// badge. Mutants: hide the icon in showVignette; bypass the pane's pause while in defense.
+// SIDECX5: native modal-backdrop dismissal keeps that pause; native wheel over the icon
+// cannot zoom the map. Source controls are in sidebar_delta_mutants.json.
 const LOOP = '/Submissions/Loop-Choke/from-Half-Guard'
 const KEY = 'Loop Choke from Half Guard|Defender'
 // D-307: one exact escape; the Whittier course/coupon promotion remains withheld.
@@ -124,7 +129,11 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
     // move by the app's stable data-tech identity below; a replaced card remains the same choice.
   }, { old: legacyDefenseRenderer, legacy, cold })
   if (before) await before()
-  await page.locator('[data-tech="Half Guard to Back Take"] .ng-choice-title-button').scrollIntoViewIfNeeded()
+  // Native tray positioning followed by the reader's settled layout. Playwright's stability
+  // wait can stall on this animated title before any catch has begun; the measured mouse below
+  // still proves that the actual chosen control is visible and receives the press.
+  await page.locator('[data-tech="Half Guard to Back Take"]').evaluate(el => el.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'instant' }))
+  await j.readerLayoutSettled()
   await j.clickByMouse('[data-tech="Half Guard to Back Take"] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
   if (!legacy) await j.openQuestion() // U47 d: this mechanics fixture studies a shown catch card.
@@ -395,8 +404,9 @@ test('@curated a real catch keeps its generic stack and own films while danger i
 
 async function dangerSettings(page: Page) {
   const j = journey(page)
-  await j.clickByMouse('.ngAcctChip', 'open the account menu')
-  await j.clickByMouse('[data-menu-settings]', 'open Settings')
+  // U66 a's player path is pinned separately below. This differential keeps the catch running so it
+  // can compare the live clock before/after a visual setting (opening the drawer pauses it).
+  await page.evaluate(() => (window as any).__neural.openSettings())
   await expect(page.locator('#ng-stab-rolling')).toBeVisible()
   await j.clickByMouse('#ng-stab-rolling', 'open Rolling settings')
   // Scroll the real panel; clickByMouse never scrolls an off-screen control for us.
@@ -409,6 +419,90 @@ async function dangerSettings(page: Page) {
     await page.waitForTimeout(80)
   }
 }
+
+for (const width of [390, 1440]) test.describe(`catch drawer ${width}`, () => {
+  test.use({ viewport: { width, height: width === 390 ? 844 : 900 }, hasTouch: width === 390 })
+  test("U16 b / U66 a: the drawer icon stays reachable in a catch and opening it pauses the roll @curated", async ({ page }) => {
+    const j = await catchLoop(page)
+    await page.emulateMedia({ reducedMotion: 'no-preference' })
+    await settled(page)
+    expect(await state(page)).toMatchObject({ pressure: true, vignette: true })
+    expect(await page.evaluate(() => (window as any).__neural.paused), 'premise: the catch is running').toBe(false)
+    // A pausable roll timer exercises the same clock used by live transitions. `now` is the
+    // display clock, and the question's independent deadline deliberately keeps running.
+    await page.evaluate(() => { const a = (window as any).__neural; a.__catchTimerFired = false; a.after(1, () => { a.__catchTimerFired = true }) })
+    const icon = await j.boxOf('.ng-logo', 'the reachable catch drawer icon')
+    const opacity = await page.locator('.ng-logo').evaluate(el => {
+      let value = 1
+      for (let n: Element | null = el; n; n = n.parentElement) value *= Number(getComputedStyle(n).opacity)
+      return value
+    })
+    expect(opacity, 'the icon stays visible during danger').toBeGreaterThan(.9)
+    if (width === 390) await page.touchscreen.tap(icon.x + icon.width / 2, icon.y + icon.height / 2)
+    else await j.clickByMouse('.ng-logo', 'the drawer during a catch')
+    await expect(page.locator('.ng-drawer-head')).toBeVisible()
+    expect(await page.evaluate(() => ({ paused: (window as any).__neural.paused, owned: (window as any).__neural._paneAutoPaused })),
+      'the drawer owns the catch pause').toEqual({ paused: true, owned: true })
+    await j.advance(2000)
+    expect(await page.evaluate(() => (window as any).__neural.__catchTimerFired), 'the roll timer is held while the drawer is open').toBe(false)
+    await j.openAccountMenu('the catch badge')
+    await j.clickByMouse('[data-menu-settings]', 'Settings during the catch')
+    await expect(page.locator('#ng-stab-rolling')).toBeVisible()
+    const backdrop = { x: width - 4, y: 4 }
+    expect(await page.evaluate(p => document.elementFromPoint(p.x, p.y) === (window as any).__neural.modalRef.current, backdrop),
+      'premise: the native press reaches the modal backdrop').toBe(true)
+    if (width === 390) await page.touchscreen.tap(backdrop.x, backdrop.y)
+    else await page.mouse.click(backdrop.x, backdrop.y)
+    await expect(page.locator('#ng-stab-rolling')).toBeHidden()
+    expect(await page.evaluate(() => { const a = (window as any).__neural; return { drawer: a.deckShown, paused: a.paused, owned: a._paneAutoPaused, pressure: a._defensePressure } }),
+      'D1: the backdrop leaves the catch paused behind the open drawer').toEqual({ drawer: true, paused: true, owned: true, pressure: true })
+    await j.advance(1100)
+    expect(await page.evaluate(() => (window as any).__neural.__catchTimerFired), 'D1: the backdrop cannot release the held roll timer').toBe(false)
+    await j.clickByMouse('.ng-explorer-close', 'close the catch drawer')
+    expect(await page.evaluate(() => (window as any).__neural.paused), 'closing returns the pause the drawer took').toBe(false)
+    await j.advance(1100)
+    expect(await page.evaluate(() => (window as any).__neural.__catchTimerFired), 'the held roll timer resumes after closing').toBe(true)
+  })
+
+  test('D3: wheel over the catch drawer icon cannot zoom the map @curated', async ({ page }) => {
+    const j = await catchLoop(page)
+    await page.emulateMedia({ reducedMotion: 'no-preference' })
+    await settled(page)
+    if (!await page.evaluate(() => (window as any).__neural._graphInputOn())) {
+      await j.clickByMouse('[data-reader-part="map"]', 'enable map for the wheel control')
+      await j.readerLayoutSettled()
+    }
+    expect(await page.evaluate(() => (window as any).__neural._graphInputOn()), 'premise: map input is enabled').toBe(true)
+    await page.evaluate(() => {
+      const a = (window as any).__neural
+      a.__wheelSeen = 0; a.__wheelReleases = 0
+      document.addEventListener('wheel', () => { a.__wheelSeen++ }, true)
+      const release = a.releaseCamera
+      a.releaseCamera = function (...args: any[]) { a.__wheelReleases++; return release.apply(this, args) }
+    })
+    expect(await state(page)).toMatchObject({ pressure: true, vignette: true })
+    const icon = await j.boxOf('.ng-logo', 'the catch drawer icon under the wheel')
+    expect(await page.locator('.ng-logo').evaluate((el, p) => el.contains(document.elementFromPoint(p.x, p.y)),
+      { x: icon.x + icon.width / 2, y: icon.y + icon.height / 2 }), 'premise: the wheel targets the visible icon').toBe(true)
+    const snapshot = () => page.evaluate(() => { const a = (window as any).__neural; return { width: a.cam.vw, releases: a.__wheelReleases } })
+    const before = await snapshot()
+    await page.mouse.move(icon.x + icon.width / 2, icon.y + icon.height / 2)
+    await page.mouse.wheel(0, 240)
+    await page.waitForFunction(() => (window as any).__neural.__wheelSeen === 1)
+    expect(await snapshot(), 'D3: wheel on the catch icon leaves the camera alone').toEqual(before)
+    // Positive control: the same native wheel still zooms exposed canvas. The narrow viewport
+    // case is mouse-wheel input too; it makes no claim about phone touch scrolling.
+    const graph = { x: width - 5, y: 180 }
+    expect(await page.evaluate(p => document.elementFromPoint(p.x, p.y) === (window as any).__neural.canvas, graph),
+      'premise: exposed canvas for the wheel control').toBe(true)
+    await page.mouse.move(graph.x, graph.y)
+    await page.mouse.wheel(0, 240)
+    await page.waitForFunction(() => (window as any).__neural.__wheelSeen === 2)
+    const after = await snapshot()
+    expect(after.releases, 'the canvas receives the wheel').toBeGreaterThan(before.releases)
+    expect(after.width, 'the canvas wheel zooms out').toBeGreaterThan(before.width)
+  })
+})
 
 // STALE SPEC (PR 305, owner D-307): Danger animation toggles live visuals only and survives a reload.
 // Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
@@ -766,19 +860,23 @@ test('D-368: at 1440x900 the question card\'s top is above the fold', async ({ p
 // D-433 (2026-10-26): the short live catch uses an 80px band and question-first order.
 // Retain U16 b's visible account and normal card spacing. The clicked escape keeps
 // its measured rectangle through the pick/result; D-325's handoff claim is unchanged.
+// SIDE-R2 M6 (v1.242.0): the account button this reserve was for is the drawer's badge now (owner U46 b),
+// and its corner holds the share cue, which `_readerShelfBottom` reserves for in exactly the same way, so
+// the reserve is claimed against a raised cue (a stale link, the kind that needs no list).
 test('D-433: at 390x631 the smaller live band reverts without moving the native pick', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 631 })
   const j = await catchLoop(page)
+  await page.evaluate(() => (window as any).__neural._setShareCue({ kind: 'stale' }))
   await j.readerLayoutSettled()
   const look = () => page.evaluate(() => {
-    const a = (window as any).__neural, acct = a.accountRef.current
-    return { band: a._reader.nodeBand?.height, account: getComputedStyle(acct).visibility, conceded: a.wrapRef.current.hasAttribute('data-phone-catch'),
+    const a = (window as any).__neural, cue = a.shareCueRef.current
+    return { band: a._reader.nodeBand?.height, cue: getComputedStyle(cue).display !== 'none' ? getComputedStyle(cue).visibility : 'none', conceded: a.wrapRef.current.hasAttribute('data-phone-catch'),
       padding: a._landEl ? getComputedStyle(a._landEl).paddingTop : null,
-      end: Math.round(a._reader.root.getBoundingClientRect().bottom), acctTop: Math.round(acct.getBoundingClientRect().top), pressure: !!a._defensePressure }
+      end: Math.round(a._reader.root.getBoundingClientRect().bottom), cueTop: Math.round(cue.getBoundingClientRect().top), pressure: !!a._defensePressure }
   })
   const caught = await look()
-  expect(caught, 'D-433 short live catch uses the smaller band').toMatchObject({ pressure: true, band: 80, account: 'visible', conceded: true, padding: '11px' })
-  expect(caught.end, 'the account keeps its scrollport reserve during the catch').toBeLessThanOrEqual(caught.acctTop - 8)
+  expect(caught, 'D-433 short live catch uses the smaller band').toMatchObject({ pressure: true, band: 80, cue: 'visible', conceded: true, padding: '11px' })
+  expect(caught.end, 'the share cue keeps its scrollport reserve during the catch').toBeLessThanOrEqual(caught.cueTop - 8)
   const title = '[data-tech] .ngchoice-title'
   await page.evaluate((sel) => (window as any).__neural.optionsRef.current.querySelector(sel).scrollIntoView({ block: 'nearest', behavior: 'instant' }), title)
   await j.readerLayoutSettled()
@@ -787,7 +885,7 @@ test('D-433: at 390x631 the smaller live band reverts without moving the native 
   const chosen = await rect(`[data-tech="${name}"]`)
   await j.clickByMouse(`[data-tech="${name}"] .ngchoice-title`, 'pick an escape')
   await j.advance(40)
-  expect(await look(), 'at the pick the small band holds and the account stays visible').toMatchObject({ band: 80, account: 'visible', conceded: true })
+  expect(await look(), 'at the pick the small band holds and the share cue stays visible').toMatchObject({ band: 80, cue: 'visible', conceded: true })
   // D-433 changes phone ordering, not the native handoff: the picked escape
   // stays in place, including when the result restores the taller band.
   const stand = await rect('[data-executing-tech]')
@@ -795,8 +893,8 @@ test('D-433: at 390x631 the smaller live band reverts without moving the native 
   await expect.poll(async () => { await j.advance(200); return (await look()).pressure }, 'the escape resolves').toBe(false)
   await expect.poll(async () => (await look()).conceded, 'the reader lays out the result').toBe(false)
   const after = await look()
-  expect(after, 'the result transition restores the usual 186px band').toMatchObject({ band: 186, account: 'visible', conceded: false })
-  expect(after.end, 'the scrollport still ends above the account button').toBeLessThanOrEqual(after.acctTop - 8)
+  expect(after, 'the result transition restores the usual 186px band').toMatchObject({ band: 186, cue: 'visible', conceded: false })
+  expect(after.end, 'the scrollport still ends above the share cue').toBeLessThanOrEqual(after.cueTop - 8)
   const result = await rect('[data-executing-tech]')
   expect(result.map((v, i) => Math.abs(v - chosen[i])).every((d) => d <= 2), 'the result-time band revert preserves the picked escape rectangle').toBe(true)
 })

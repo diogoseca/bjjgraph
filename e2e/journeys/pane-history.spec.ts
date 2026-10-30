@@ -22,7 +22,7 @@ import { journey } from "../dsl"
 // The logo is the pane opener; Last rolls owns the history surface.
 const openPane = async (page: Page) => {
   await page.locator(".ng-logo").click()
-  await page.locator('.ng-learning-nav [data-view="history"]').click()
+  await page.locator('[data-view="history"]').click()
 }
 // …and a row opens its own deck on click. (v1.175.0 retired the landing chip that used to land
 // here with the current row already open — "it should not open the last rolls", owner.)

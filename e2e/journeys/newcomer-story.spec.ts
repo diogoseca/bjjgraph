@@ -93,7 +93,7 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   // "Study this state" is the pane's Last rolls tab (v1.175.0 — the corner count opens nothing);
   // the same rail pane-history.spec.ts drives.
   await page.locator(".ng-logo").click();
-  await page.locator('.ng-learning-nav [data-view="history"]').click();
+  await page.locator('[data-view="history"]').click();
   expect(
     await page.evaluate(() => !!(window as any).__neural.paused),
     "the pane stopped it",
@@ -165,7 +165,7 @@ test("newcomer's first session: question → execute → pane → roam → Chall
     a.openExplorer();
     a.showExplorerList();
   });
-  await expect(page.locator(".ng-learning-nav")).toBeVisible(); // the knowledge belt lives in Explore since v1.96.0
+  await expect(page.locator(".ng-drawer-head")).toBeVisible(); // the knowledge belt lives in Explore since v1.96.0
   await expect(page.locator(".ng-track-card")).toHaveCount(5);
   const challengeDone = await page.evaluate(
     () => (window as any).__neural.challengeTrackProgress("white").done,

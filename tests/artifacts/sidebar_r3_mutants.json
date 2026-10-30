@@ -1,0 +1,137 @@
+[
+  {
+    "name": "n1-placeholders-lost",
+    "file": "neural/src/app.src.jsx",
+    "a": "if (!this._conceptsMissing) {",
+    "b": "if (false) {",
+    "spec": "journeys/sidebar\\.spec",
+    "grep": "index landing 390.*Practice stays",
+    "claim": "Practice did not move"
+  },
+  {
+    "name": "n2-close-stops-replay",
+    "file": "neural/src/app.src.jsx",
+    "a": "if (this._replay && !closing) this.stopReplay(\"input\");",
+    "b": "if (this._replay) this.stopReplay(\"input\");",
+    "spec": "journeys/sidebar\\.spec",
+    "grep": "the tap on the exposed strip",
+    "claim": "N2: closing the drawer keeps the replay"
+  },
+  {
+    "name": "n3-touch-focus-ring",
+    "file": "neural/src/app.src.jsx",
+    "a": "if (first && this._kbNav) first.focus",
+    "b": "if (first) first.focus",
+    "spec": "journeys/sidebar\\.spec",
+    "grep": "a finger opens the badge",
+    "claim": "a touch never moves focus"
+  },
+  {
+    "name": "n4-revealed-queue-replaced",
+    "file": "neural/src/app.src.jsx",
+    "a": " && !this._deckState?.[waiting.keys[waiting.idx]]?.revealed",
+    "b": "",
+    "spec": "journeys/practice-mix\\.spec",
+    "grep": "Practice \\(2c\\)",
+    "claim": "the revealed queue is not replaced"
+  },
+  {
+    "name": "u60-train-restored",
+    "file": "neural/src/app.src.jsx",
+    "a": "box = this._trainBox = document.createElement(\"div\"); box.setAttribute(\"data-explore-stats\", \"1\");",
+    "b": "box = this._trainBox = document.createElement(\"div\"); box.setAttribute(\"data-explore-stats\", \"1\"); box.innerHTML = '<div class=\"ng-dr-label\">Train</div>';",
+    "spec": "journeys/sidebar\\.spec",
+    "grep": "the drawer lists Search",
+    "claim": "U60 b: no Train header"
+  },
+  {
+    "name": "u60-duplicate-account",
+    "file": "neural/src/app.src.jsx",
+    "a": "m.appendChild(row(\"data-menu-settings\", \"Settings\", () => this.openSettings()));",
+    "b": "m.appendChild(row(\"data-menu-settings\", \"Settings\", () => this.openSettings())); if (this.user) m.appendChild(row(\"data-menu-account\", \"Account preferences\", () => this.openSettings(\"notifications\")));",
+    "spec": "journeys/account-menu\\.spec",
+    "grep": "signed in with legacy progress",
+    "claim": "U60 b: only Settings remains"
+  },
+  {
+    "name": "u60-notifications-lost",
+    "file": "neural/src/app.src.jsx",
+    "a": "[\"notifications\", \"Notifications\"], ",
+    "b": "",
+    "spec": "journeys/account-menu\\.spec",
+    "grep": "signed in with legacy progress",
+    "claim": "ng-stab-notifications"
+  },
+  {
+    "name": "u66-icon-hidden",
+    "file": "neural/src/app.src.jsx",
+    "a": "this._vignetteEl = v;",
+    "b": "this._vignetteEl = v; const logo = this.wrapRef.current.querySelector(\".ng-logo\"); logo.style.opacity = \"0\"; logo.style.pointerEvents = \"none\";",
+    "spec": "journeys/defending-landing\\.spec",
+    "grep": "catch drawer 390.*U16 b / U66 a",
+    "claim": "the icon stays visible during danger"
+  },
+  {
+    "name": "u66-catch-unpaused",
+    "file": "neural/src/app.src.jsx",
+    "a": "if (!this.paused) { this.setPaused(true); this._paneAutoPaused = true;",
+    "b": "if (!this.paused && !this._defensePressure) { this.setPaused(true); this._paneAutoPaused = true;",
+    "spec": "journeys/defending-landing\\.spec",
+    "grep": "catch drawer 390.*U16 b / U66 a",
+    "claim": "the drawer owns the catch pause"
+  },
+  {
+    "name": "fog-snaps",
+    "file": "neural/src/app.src.jsx",
+    "a": "this._fogMix = Math.max(0, Math.min(1, (this._fogMix || 0) + ((lit ? 1 : 0) - (this._fogMix || 0)) * Math.min(1, fogDt / 160)));",
+    "b": "this._fogMix = lit ? 1 : 0;",
+    "spec": "journeys/sidebar\\.spec",
+    "grep": "a principle lights its places",
+    "claim": "not at once: the first frame"
+  },
+  {
+    "name": "fog-never-eases",
+    "file": "neural/src/app.src.jsx",
+    "a": "this._fogMix = Math.max(0, Math.min(1, (this._fogMix || 0) + ((lit ? 1 : 0) - (this._fogMix || 0)) * Math.min(1, fogDt / 160)));",
+    "b": "this._fogMix = 0;",
+    "spec": "journeys/sidebar\\.spec",
+    "grep": "a principle lights its places",
+    "claim": "it passes through the values between"
+  },
+  {
+    "name": "u67-submit-silent",
+    "file": "neural/src/app.src.jsx",
+    "a": "this.track(isTech ? \"neural_technique_requested\" : \"neural_issue_reported\", {",
+    "b": "if (false) this.track(isTech ? \"neural_technique_requested\" : \"neural_issue_reported\", {",
+    "spec": "journeys/feedback-modal\\.spec",
+    "grep": "U67 a: the merged form submits",
+    "claim": "U67 a: merged submit emits exactly one feedback event"
+  },
+  {
+    "name": "u67-technique-kind-lost",
+    "file": "neural/src/app.src.jsx",
+    "a": "const isTech = tech.querySelector(\"input\").checked;",
+    "b": "const isTech = false;",
+    "spec": "journeys/feedback-modal\\.spec",
+    "grep": "U67 a: the merged form submits",
+    "claim": "U67 a: the selected kind retains its event"
+  },
+  {
+    "name": "u67-request-row-restored",
+    "file": "neural/src/app.src.jsx",
+    "a": "small.append(sb(\"data-menu-terms\", \"Terms\", () => this.openLegal(\"terms\")),",
+    "b": "small.append(sb(\"data-menu-request\", \"Request a technique\", () => this.openFeedback()), sb(\"data-menu-terms\", \"Terms\", () => this.openLegal(\"terms\")),",
+    "spec": "journeys/account-menu\\.spec",
+    "grep": "signed out: a short menu",
+    "claim": "U67 a: no separate technique row"
+  },
+  {
+    "name": "u61-about-restored",
+    "file": "neural/src/app.src.jsx",
+    "a": "m.appendChild(row(\"data-menu-settings\", \"Settings\", () => this.openSettings()));",
+    "b": "m.appendChild(row(\"data-menu-settings\", \"Settings\", () => this.openSettings())); m.appendChild(row(\"data-menu-about\", \"About\", () => {}));",
+    "spec": "journeys/account-menu\\.spec",
+    "grep": "signed out: a short menu",
+    "claim": "U61 c: About stays absent"
+  }
+]

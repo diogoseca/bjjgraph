@@ -74,8 +74,10 @@ test("curriculum-mid: unselected blue lesson's node sits INSIDE the fog set; mem
 
   // open the explorer — curriculum loaded → CHALLENGES is the default face;
   // challenges_opened fires synchronously inside renderChallenges
+  // v1.242.0: the drawer opens on its list; its Path row is the Challenges corridor
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
+  await page.locator('[data-view="challenges"]').click()
   await j.expectBeat("challenges_opened")
 
   // ── preconditions: fog is ARMED (this is the state in which membership decides dimming) ──
