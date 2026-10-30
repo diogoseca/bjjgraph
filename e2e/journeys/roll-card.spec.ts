@@ -227,11 +227,12 @@ test("the complete article renders automatically and survives the question lifet
   // stage, below the fold here, and the whole game flow (its head included) is game input (gameInput). So the text is
   // brought into view first, by a programmatic scroll, which is not a reading input; the second wheel must still
   // continue the gesture in the native scrollport.
-  const subtitle = page.locator(".ng-reader-article [data-section-type=videos] .section-subtitle").first()
+  // U65 note (owner, 2026-10-29): the duplicate credits tile is retired; wheel over Overview instead.
+  const subtitle = page.locator('[data-reader-body] [data-section-type=overview] p').first()
   await subtitle.evaluate(e => e.scrollIntoView({ block: "center" }))
   await j.readerLayoutSettled()
   const r = await subtitle.boundingBox()
-  expect(r && r.y + r.height / 2 < (page.viewportSize()?.height ?? 900), "premise: the Videos section's text is on screen").toBe(true)
+  expect(r && r.y + r.height / 2 < (page.viewportSize()?.height ?? 900), "premise: Overview text is on screen").toBe(true)
   await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height / 2)
   await page.mouse.wheel(0, 300)
   await expect(page.locator("[data-reader]")).toHaveAttribute("data-reading-expanded", "")

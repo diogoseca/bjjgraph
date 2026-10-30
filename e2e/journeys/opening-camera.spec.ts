@@ -353,8 +353,16 @@ test.describe("the directed arrival on desktop", () => {
     await bootTo(page, "Mount Top");
     const S = await record(page, 345);   // ~5.75s: 0.5s into the rise
     expect(S.at(-1)!.open, "premise: the board is mid-rise").toBe("board");
-    await page.mouse.move(1300, 760); await page.mouse.down(); await page.mouse.move(1302, 760);
-    await page.mouse.move(1330, 770, { steps: 5 }); await page.mouse.up();
+    // POINT MOVED, CLAIM UNCHANGED (U55 b, 2026-10-28). Old: the drag started at (1300,760), which was map
+    // beside the centred 902px article. The desktop dashboard now runs the sections to the right edge, so that
+    // point is an article tile and the press was reading, not a drag. New: the right side of the node band,
+    // which the reader keeps clear by design (article-dashboard.spec.ts pins that).
+    const at = { x: 1300, y: 160 };
+    // DASH-R4 (review finding 9e): the premise names what the point IS, the map's canvas, not only what it is not.
+    expect(await page.evaluate(({ x, y }) => document.elementFromPoint(x, y)?.tagName, at),
+      "premise: the drag starts on the map (its canvas), not on an article tile or a game part").toBe("CANVAS");
+    await page.mouse.move(at.x, at.y); await page.mouse.down(); await page.mouse.move(at.x + 2, at.y);
+    await page.mouse.move(at.x + 30, at.y + 10, { steps: 5 }); await page.mouse.up();
     await page.waitForTimeout(700);   // the release is a CSS transition: wall clock
     const left = await page.evaluate(() => {
       const a = (window as any).__neural, wrap = a.wrapRef.current, sec = a._readerEl || a._reader?.root;

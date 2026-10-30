@@ -481,7 +481,7 @@ class Reader {
     this.syncSections();
   }
   splitSections(body) {
-    const parts = [];
+    const path = this.path, parts = [];
     for (const article of [...body.children]) {
       if (!article.matches("article")) continue;
       const flat = [];
@@ -499,13 +499,13 @@ class Reader {
         else { range = null; parts.push({ node, source: article }); }
       }
     }
-    const buckets = new Map(), position = /^\/Positions\//.test(this.path), transition = /^\/Transitions\//.test(this.path);
-    const defender = /\/Defender$/.test(this.path), bottom = /\/Bottom$/.test(this.path), reference = /^\/(Learning|Systems)\//.test(this.path);
+    const buckets = new Map(), position = /^\/Positions\//.test(path), transition = /^\/Transitions\//.test(path);
+    const defender = /\/Defender$/.test(path), bottom = /\/Bottom$/.test(path), reference = /^\/(Learning|Systems)\//.test(path);
     const labels = Object.fromEntries(SECTION_TYPES);
     labels.recognition = transition ? "Recognize the transition" : "Recognize the attack";
     labels.setup = transition ? "Set up the transition" : "Set up the attack";
-    if (/^\/Systems\//.test(this.path)) labels.prerequisites = "Is this for you?";
-    labels.options = /^\/Systems\//.test(this.path) ? "Coverage and limits" : position ? "Decisions from " + (bottom ? "bottom" : "top") : defender ? "Defensive options" : transition ? "Execution and counters" : /^\/Submissions\//.test(this.path) ? "Attacking options" : /^\/Learning\//.test(this.path) ? "In practice" : "Applications";
+    if (/^\/Systems\//.test(path)) labels.prerequisites = "Is this for you?";
+    labels.options = /^\/Systems\//.test(path) ? "Coverage and limits" : position ? "Decisions from " + (bottom ? "bottom" : "top") : defender ? "Defensive options" : transition ? "Execution and counters" : /^\/Submissions\//.test(path) ? "Attacking options" : /^\/Learning\//.test(path) ? "In practice" : "Applications";
     let ordinal = 0;
     for (const part of parts) {
       const n = part.node, heading = n.nodeType === 1 && n.querySelector("h2,h3,summary"), id = n.dataset?.sourceId || "";
@@ -522,7 +522,7 @@ class Reader {
       }
       if (!type && n.nodeType === 1 && n.matches("[data-course-container]")) type = n.dataset.coursePlacement === "top" ? "overview" : "course";
       if (!type) type = heading ? "additional" : "overview";
-      if (type === "prerequisites" && !position && /^\/(Submissions|Transitions)\//.test(this.path)) type = "setup";
+      if (type === "prerequisites" && !position && /^\/(Submissions|Transitions)\//.test(path)) type = "setup";
       const key = type === "additional" ? type + "-" + ordinal++ : type;
       title = type === "additional" ? heading.textContent.trim() : labels[type];
       if (!buckets.has(key)) buckets.set(key, { type, title, parts: [] });
@@ -536,8 +536,13 @@ class Reader {
     this.sections = []; this.mediaSlot = null;
     body.replaceChildren();
     ordered.forEach((group, index) => {
+      // U65 note (owner, 2026-10-29): game pages already show the film in the stage. Retire their
+      // duplicate credits tile; retain only its closed-section control and index preference. Reference
+      // pages keep the full Videos tile because it is their player's home.
+      const control = group.type === "videos" && !REFERENCE.test(path);
       const id = "reader-section-" + this.serial + "-" + index;
       const card = element("section", { class: "ng-section-card", "data-section-type": group.type, id });
+      card.toggleAttribute("data-media-control", control);
       const heading = element("h2", { id: id + "-title" });
       const toggle = button("", () => {
         const opening = !sectionShown(this.app, group.type);
@@ -547,9 +552,9 @@ class Reader {
       toggle.append(...faces(group.type, group.title)); heading.append(element("span", { class: "ng-section-title" }, group.title), toggle);
       const content = element("div", { class: "ng-section-body", id: id + "-body" });
       if (group.type === "videos") { this.mediaSlot = element("div", { "data-reader-media-slot": "" }); content.append(this.mediaSlot); }
-      for (const part of group.parts) {
+      for (const part of control ? [] : group.parts) {
         const fragment = element("article", { "data-reader-article": part.source.dataset.readerArticle, "data-source-path": part.source.dataset.sourcePath });
-        if (!ROLES.test(this.path) && group.parts.some(p => p.source.dataset.readerArticle !== part.source.dataset.readerArticle)) {
+        if (!ROLES.test(path) && group.parts.some(p => p.source.dataset.readerArticle !== part.source.dataset.readerArticle)) {
           fragment.append(element("p", { class: "ng-section-provenance" }, part.source.dataset.readerArticle === "hub" ? "Shared overview" : pathRole(part.source.dataset.sourcePath)));
         }
         // Keep authored headings, anchors and complete safety text in the source
@@ -559,7 +564,12 @@ class Reader {
         fragment.append(part.node); content.append(fragment);
       }
       card.setAttribute("aria-labelledby", heading.id); card.append(heading, content); body.append(card);
-      this.sections.push({ ...group, id, card, body: content, toggle });
+      // U59 c: a section's text length decides its share of a desktop row (layoutNow). DASH-R4: a reference
+      // page's Videos holds its player, and a table with a fourth column (the hubs' Top/Bottom comparison,
+      // 523-534px; a family's variations) overflows a third: both count as long, so they take two thirds
+      // and never a third (a 2-3 column table fits a third: statistics, outcomes, safety).
+      this.sections.push({ ...group, id, card, body: content, toggle, control,
+        len: group.type == "videos" && REFERENCE.test(path) || content.querySelector("tr>:nth-child(4)") ? 1e9 : content.textContent.length });
     });
   }
   // D-338 (owner): Video, Moves, Questions, then the article in its own order.
@@ -619,16 +629,8 @@ class Reader {
       });
     }
     focus?.focus({ preventScroll: true });
-    // Adjacent pairs only: never dense-fill or change the reading order. Wide prose stays full.
-    const full = /^(videos|overview|options|outcomes|favorable-outcomes|role-comparison|sources)$/;
-    let remaining = 0;
-    for (let i = 0; i < open.length; i++) {
-      const s = open[i], next = open[i + 1]?.type;
-      const span = remaining || (next && (/^(options|recognition)$/.test(s.type) && /^(recognition|setup|prerequisites|safety|statistics|progress)$/.test(next) ? 8
-        : s.type === "statistics" && next === "related" ? 4 : !full.test(s.type) && !full.test(next) ? 6 : 12) || 12);
-      remaining = remaining ? 0 : 12 - span;
-      s.card.style.setProperty("--span", span);
-    }
+    // U59 c: the open cards' spans are layoutNow's (they follow the grid's width); every sync()
+    // ends in a layout through shelf() -> publishCard().
   }
 
   link(event) {
@@ -679,8 +681,14 @@ class Reader {
     history.replaceState({ ...history.state, ngReading: !!this.intent }, "", this.path + hash);
   }
   scrollTo(node, focus = node) {
+    // U65 leaves no painted game Videos card. Both its disclosure and index navigate to
+    // the surviving film, whose close control can retain focus after the old label disappears.
+    if ("mediaControl" in node.dataset) {
+      node = this.mediaHome;
+      focus = node.querySelector("[data-film-close]");
+    }
     this.root.scrollTop += node.getBoundingClientRect().top - this.root.getBoundingClientRect().top - 6;
-    focus.focus({ preventScroll: true });
+    if (focus) focus.focus({ preventScroll: true });
   }
   readingInteraction(type, event) {
     // U47 d / APTS-R4: a scroll does not decline a question still asking. Chromium sends a touch or pen press's
@@ -998,6 +1006,10 @@ class Reader {
   layoutNow() {
     if (!this.dock || this.app.__ngDestroyed || this.app._readerPress || this.laying) return;
     this.laying = true;
+    // DASH-R4: locals for repeated element reads pay for the review fixes because the bundle shortens
+    // locals but keeps property names whole. These elements are set once, in the constructor.
+    const root = this.root, art = this.articleEl, game = this.game, home = this.mediaHome, toc = this.contents, tools = this.tools;
+    let keep, was;
     const style = (el, key, value, priority = "") => {
       // One numeric-to-px boundary keeps all geometry writes and their equality
       // guard identical, without repeating the unit conversion at every call.
@@ -1023,11 +1035,11 @@ class Reader {
       // and the 8px flow gap; do not subtract any of those a second time.
       let chrome = typeof a.readerChromeFrame === "function" ? a.readerChromeFrame(head) : null;
       if (head) {
-        const flow = reference ? this.articleEl : this.game;
-        const parent = chrome ? this.root : flow, toolsParent = chrome && W <= 640 ? flow : head;
+        const flow = reference ? art : game;
+        const parent = chrome ? root : flow, toolsParent = chrome && W <= 640 ? flow : head;
         let moved = false;
         if (head.parentElement !== parent) { if (!chrome) head.removeAttribute("style"); parent.prepend(head); moved = true; }
-        if (this.tools.parentElement !== toolsParent) { this.tools.removeAttribute("style"); toolsParent.prepend(this.tools); moved = true; }
+        if (tools.parentElement !== toolsParent) { tools.removeAttribute("style"); toolsParent.prepend(tools); moved = true; }
         // Re-measure once after changing homes, not on every observer callback.
         if (chrome && moved) chrome = a.readerChromeFrame(head);
         if (!chrome) {
@@ -1041,32 +1053,64 @@ class Reader {
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
+      // U59 c: the article's tiles run to the right edge, so the account pill in the corner reserves
+      // the bottom too: the reader ends above it and the pill never covers text or a link.
       const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
-        ? H - a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 }) - 8
+        ? H - a._readerShelfBottom({ left: free.center - width / 2, right: W }) - 8
         : this.dock.getBoundingClientRect().top - 8;
-      for (const [key, value] of Object.entries({ left: 0, top, width: W, height: Math.max(80, end - top) })) style(this.root, key, value);
-      this.articleEl.hidden = !available;
+      for (const [key, value] of Object.entries({ left: 0, top, width: W, height: Math.max(80, end - top) })) style(root, key, value);
+      art.hidden = !available;
       // Contents never participates in the column's width or centre calculation.
-      style(this.articleEl, "width", Math.min(680, free.width - 24));
-      style(this.articleEl, "margin-left", Math.max(12, free.center - parseFloat(this.articleEl.style.width) / 2));
+      style(art, "width", Math.min(680, free.width - 24));
+      style(art, "margin-left", Math.max(12, free.center - parseFloat(art.style.width) / 2));
       // U9 b (owner, 2026-10-21): the index sits on the LEFT, 24px inside the free area (the inset it had on the right).
       const lead = free.left + 24;
-      const tocWidth = this.contents ? parseFloat(getComputedStyle(this.contents).width) : 200;
-      const fits = W > 640 && H > 500 && this.articleEl.getBoundingClientRect().left - lead >= tocWidth + 12;
+      const tocWidth = toc ? parseFloat(getComputedStyle(toc).width) : 200;
+      const column = art.getBoundingClientRect().left, fits = W > 640 && H > 500 && column - lead >= tocWidth + 12;
       // Where the index fits, the Moves tray (which sits beside its rows, D-338) starts 12px past it
       // and stays centred on the column. Decided by the fit, not by readiness, so a loading article
       // never re-centres the hand.
       const indexEdge = available && fits ? lead + tocWidth + 12 : null;
       // Grow only the article's inner grid, leaving the native column, hand and index homes alone.
       // The left index still has its 12px clearance; phone gutters leave the glow visible.
-      style(this.articleEl, "--article-width", Math.max(240, Math.min(902, free.width - 64, fits ? 2 * (free.center - lead - tocWidth - 12) : Infinity)) + "px");
-      if (this.contents) {
-        this.contents.hidden = !available || this.root.dataset.readerReady !== "true" || !fits;
-        this.root.toggleAttribute("data-indexed", !this.contents.hidden);
-        for (const [key, value] of Object.entries({ left: lead, right: "auto", top, "max-height": Math.max(44, end - top) })) style(this.contents, key, value);
+      // U55 b (owner): where the index fits, the grid starts at its 12px clearance (the Moves row's
+      // left edge) and ends 24px from the right, the index's own inset mirrored; the node band, the
+      // Moves row and the question above it keep their places. Elsewhere it stays centred, as before.
+      // Three lanes from a 1,150px grid (1440 and wider: thirds of 377px or more), else two. DASH-R4: at
+      // 1,100 (1366) a third was 353px, ~36 characters a line, and a 3-column table overflowed it by 7px.
+      const grid = indexEdge ? W - 24 - indexEdge : Math.max(240, Math.min(902, free.width - 64)), wide = grid >= 1150;
+      // U59 c: when the grid's width changes (the pane opening, a resize), the first text block at
+      // the reader's top keeps its place on screen; the finally puts it back after every other write.
+      // DASH-R4: only once the article itself has scrolled above the reader's top. At the arrival the
+      // stage (node band, Moves, question) owns the top and holds still, as on dev, when the pane opens,
+      // the window narrows or a phone turns. A hidden article resets the width to NaN, so reopening
+      // restores bookScroll without anchoring against a layout that was never shown.
+      keep = this.gridW - (this.gridW = available ? grid : NaN) && art.getBoundingClientRect().top < top && [...art.querySelectorAll("p,li")].find(e => (was = e.getBoundingClientRect().top) >= top - 20);
+      style(art, "--article-width", grid);
+      if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");
+      // U59 c (owner): every desktop row holds two open sections side by side, in source order, so
+      // Tab and the eye agree and nothing is lifted: of three lanes the longer text takes two and the
+      // shorter one; of two lanes (a grid of 661-1,149px: 641-1151 without the index), a half each.
+      // DASH-R4: thirds only on three lanes and only where the sizes justify them: an odd count makes
+      // ONE row of three thirds, the run of three (starting on a row) whose longest section is shortest
+      // and under 1,500 characters (a third holds ~40 characters a line at 1440). Otherwise, and on two
+      // lanes, the odd section ends the article beside an empty lane: two thirds, or a half. U65 b:
+      // tiles end at their content; rows still follow the taller card plus the token gap. A grid of 660px or less is
+      // one column (reading.css's container query), as before.
+      const open = this.sections.filter(s => !s.body.hidden && !s.control), n = open.length;
+      let t, best = 1500;
+      if (wide && n % 2) for (let i = 0; i < n - 2; i += 2) { const m = Math.max(...open.slice(i, i + 3).map(s => s.len)); if (m < best) best = m, t = i; }
+      for (let i = 0, k; i < n; i += k) {
+        const row = open.slice(i, i + (k = i == t ? 3 : 2)), [x, y] = row;
+        for (const s of row) style(s.card, "--span", "" + (k > 2 ? 4 : !wide ? 6 : (s == x) == (x.len < (y || x).len) ? 4 : 8));
       }
-      this.root.toggleAttribute("data-reference", reference);
-      this.root.hidden = !available && reference;
+      if (toc) {
+        toc.hidden = !available || root.dataset.readerReady !== "true" || !fits;
+        root.toggleAttribute("data-indexed", !toc.hidden);
+        for (const [key, value] of Object.entries({ left: lead, right: "auto", top, "max-height": Math.max(44, end - top) })) style(toc, key, value);
+      }
+      root.toggleAttribute("data-reference", reference);
+      root.hidden = !available && reference;
       for (const s of this.gameSections) s.card.hidden = !available || reference || this.on(s.part);
       this.nodeBand = available && !reference ? a._readerBand(top) : null;
       const band = this.nodeBand?.height || 0;
@@ -1091,11 +1135,11 @@ class Reader {
           // Translate its fixed rectangle once into the native flow.
           const dock = el === row && a._executionDock();
           if (dock) {
-            const box = el.getBoundingClientRect(), top = this.game.getBoundingClientRect().top;
+            const box = el.getBoundingClientRect(), top = game.getBoundingClientRect().top;
             dock.reader = { rowTop: box.top - top, height: box.bottom - top, rowHeight: box.height };
           }
           // The hand goes before the closed Questions label: Tab order follows Moves, then Questions.
-          if (key === "hand") this.gameSections[1].card.before(el); else this.game.append(el);
+          if (key === "hand") this.gameSections[1].card.before(el); else game.append(el);
           el.setAttribute("data-reader-game-part", key);
           // A late question can replace its body after syncSections. Publish
           // the named eye's target with the actual adopted surface, once.
@@ -1114,7 +1158,7 @@ class Reader {
       // D-352 S2: a pinned landing keeps the media home it was pinned with, its film and its height:
       // any other film (a late chunk's, measuring 0 before its thumbnails load) waits hidden until
       // the parts settle, so nothing opens above or over the pinned rows.
-      let homeMedia = this.media?.parentElement === this.mediaHome && !this.media.hidden;
+      let homeMedia = this.media?.parentElement === home && !this.media.hidden;
       const filmHeight = () => a.currentFilmHeight?.() ?? this.media.getBoundingClientRect().height;
       if (pin) {
         const h = homeMedia ? filmHeight() : 0;
@@ -1138,20 +1182,20 @@ class Reader {
       // Book keeps a stable, scrollable node reservation. Tall questions grow
       // downward instead of squeezing that reservation or moving live answers.
       // Chrome may own the desktop head; phone tools always remain in this flow.
-      const inlineHead = this.tools?.parentElement === this.game ? this.tools : head?.parentElement === this.game ? head : null;
+      const inlineHead = tools?.parentElement === game ? tools : head?.parentElement === game ? head : null;
       if (inlineHead) position(inlineHead, free.center - width / 2, band + (chrome?.offset || 0), width);
       const headHeight = available && inlineHead ? inlineHead.getBoundingClientRect().height + 6 : 0;
-      if (this.mediaHome.hidden !== !homeMedia) this.mediaHome.hidden = !homeMedia;
-      // D-368 (layout C): the Videos section is no longer lifted above the hand. Its current card sits in the
-      // game's stage (above), and its credits read with the article; its toggle still governs the card.
+      if (home.hidden !== !homeMedia) home.hidden = !homeMedia;
+      // D-368 (layout C): the current film sits in the game's stage. U65 removes the duplicate article
+      // credits; the retained Videos control still governs the film.
       // Keep the deck's 44px outside arrows plus 8px clearance. The left arrow
       // lives in the 60px media gap; the right arrow also fits inside the pane.
       const beside = homeMedia && showCard && free.width >= 400 + 60 + 390 + 52 && H > 500;
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
-      if (this.game.dataset.mediaLayout !== mediaLayout) this.game.dataset.mediaLayout = mediaLayout;
+      if (game.dataset.mediaLayout !== mediaLayout) game.dataset.mediaLayout = mediaLayout;
       if (card) style(card, "width", Math.min(beside ? 390 : arrows ? 560 : 520, free.width - (arrows && !beside ? 104 : 32)), "important");
       const mediaWidth = Math.min(400, free.width - 32), cardWidth = card?.getBoundingClientRect().width || 0;
-      style(this.mediaHome, "width", mediaWidth, "important");
+      style(home, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
       // phone). Measuring the shared host keeps its future renderer independent.
       // D-353: a film in the media home is observed like the Videos card, so its growth (a played
@@ -1196,23 +1240,23 @@ class Reader {
         // following the your move row", so stacked, the current card follows the question in every
         // landing (it already did in a catch, so the answers stay on screen).
         const follows = homeMedia && !beside && showCard;
-        if (homeMedia && !beside && !follows) { position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }
+        if (homeMedia && !beside && !follows) { position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }
         if (pin) y = pin.cardY || (pin.cardY = y);
         cardY = y;
-        if (beside) { const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2; position(this.mediaHome, groupLeft, cardY, mediaWidth); cardX = groupLeft + mediaWidth + 60; }
+        if (beside) { const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2; position(home, groupLeft, cardY, mediaWidth); cardX = groupLeft + mediaWidth + 60; }
         if (card) position(card, cardX, cardY);
         // The deck's backs peek 3px per remaining card below the face; the article clears them.
         if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);
         else if (!label("card").hidden) { position(label("card"), left, y, width); y += label("card").getBoundingClientRect().height; }
         if (questionFirst) { y += step; placeHand(); y -= step; }
-        if (follows) { y += step; position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
-        else if (homeMedia && !showCard) { position(this.mediaHome, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
+        if (follows) { y += step; position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
+        else if (homeMedia && !showCard) { position(home, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
         gameHeight = Math.max((handoff?.height ?? 0) + (handoff?.slot || 0), y);
       } else {
         const stageHeight = beside ? Math.max(cardHeight, mediaHeight) : cardHeight + mediaHeight + (homeMedia && showCard ? 12 : 0);
         start = Math.max(6, Math.min(start, end - top - stageHeight - gap - handHeight));
         const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2;
-        if (homeMedia) position(this.mediaHome, beside ? groupLeft : free.center - mediaWidth / 2, start + (beside ? (stageHeight - mediaHeight) / 2 : 0), mediaWidth);
+        if (homeMedia) position(home, beside ? groupLeft : free.center - mediaWidth / 2, start + (beside ? (stageHeight - mediaHeight) / 2 : 0), mediaWidth);
         if (beside) cardX = groupLeft + mediaWidth + 60;
         cardY = start + (beside ? stageHeight - cardHeight : homeMedia ? mediaHeight + 12 : 0);
         if (card) position(card, cardX, cardY);
@@ -1225,12 +1269,12 @@ class Reader {
       }
       if (a._landNavEl && showCard) {
         // Long answers keep their outside arrows beside the visible face.
-        const cardTop = top + cardY - this.root.scrollTop;
+        const cardTop = top + cardY - root.scrollTop;
         const middle = (Math.max(top, cardTop) + Math.min(end, cardTop + cardHeight)) / 2 - cardTop;
         style(a._landNavEl, "--guide-y", Math.max(22, Math.min(cardHeight - 22, middle)));
       }
-      style(this.game, "height", gameHeight);
-      style(this.articleEl, "margin-top", 6);
+      style(game, "height", gameHeight);
+      style(art, "margin-top", 6);
       this.trayBottom = H - end + 12 + Math.min(128, H * .15);
       this.cardBottom = this.trayBottom;
       // Publication is the last write, after the actual controls and their
@@ -1239,7 +1283,13 @@ class Reader {
       for (const [el] of this.gameHomes) if (!el.isConnected) { this.resize.unobserve(el); this.gameHomes.delete(el); }
       this.syncIndex();
     } finally {
-      if (this.placeTop > this.root.scrollTop) this.root.scrollTop = this.placeTop;
+      if (this.placeTop > root.scrollTop) root.scrollTop = this.placeTop;
+      // After the clamp's restore, and it is the new place at once: the pane slides open over many
+      // passes, and the next pass's clamp must not put back a place its scroll event has not recorded.
+      // Rounded: the pane slides open over ~40 passes, and an unrounded correction is rounded by the browser the same
+      // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px). The 20px of
+      // slack above the reader's top keeps the same block through any rounding left.
+      if (keep) this.placeTop = root.scrollTop += Math.round(keep.getBoundingClientRect().top - was);
       this.laying = false;
     }
   }
