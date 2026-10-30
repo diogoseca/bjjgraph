@@ -13320,3 +13320,26 @@ The shared destination/focus costs 46 B; an equivalent explicit focus guard save
 Reader JS is 42,484 B, CSS remains 10,889 B, and deferred payload is **506,815 / 506,817 B**: 2 B spare,
 zero shortfall, no ceiling increase. The earlier shard-1 Moves-label failure remains unproven; this fix
 changes only media-control navigation and does not alter the Moves input path.
+
+## v1.241.1 — Position orb URLs name their role (VIDEO1, 2026-10-30)
+
+The Top member of a dual pair keeps its hub id and share ordinal. `_nodeUrlPath` also used that
+id as the page URL, so a native Bottom → Top click during map play opened `/Positions/Half-Guard`
+instead of `/Positions/Half-Guard/Top`; keyboard activation of its Explore search result did the
+same. Half Guard, Side Control, Mount and Closed Guard all reproduced both entry paths on dev
+e3d407825. Fresh role-page arrivals already worked in both directions on that dev build and
+production v1.240.1: the deferred reader had its own suffix workaround.
+
+The shared URL boundary now adds `/Top` for a Top position member. Node ids, pair ids, share
+ordinals, list identity, adjacency and technique paths are unchanged. The new journey asserts
+both URL and focused member through 16 native orb clicks and four keyboard activations across
+those four positions. Together with the existing URL-arrival journeys, 20/20 tests pass. The
+`position-top-url-is-hub` source mutant is killed by both named Half Guard map-click and keyboard
+URL assertions; reader arrivals alone do not kill it. URL units additionally cover all 264
+position members and the existing 2,842-node round-trip sweep.
+
+The real dev Half Guard hub shows a visible Top video card with two authored clips at 1440×900;
+no hub/content behavior was changed. Payload: eager raw 1,370,180 → 1,370,207 B, eager gzip
+342,629 → 342,643 B (+14), deferred unchanged at 506,815 / 506,817 B. The eager policy delta is
+3,058 / 5,000 B above its accepted checkpoint; no budget was raised. Browser runs used private
+port 18174 after heavy-advisory GO, outside the build lock.

@@ -11118,7 +11118,10 @@ class Component extends DCLogic {
   // the address follows the roll without making Back walk every automatic move.
   _nodeUrlPath(idx) {
     const n = this.nodes && this.nodes[idx];
-    return n && n.id ? "/" + this._pageSlug(n.id) : null;
+    // The Top member keeps its hub id/ordinal for graph and list joins. Its
+    // navigable page is nevertheless /Top, just as the partner's is /Bottom.
+    // Reader-only suffixing missed map play and keyboard Explore activation.
+    return n && n.id ? "/" + this._pageSlug(n.id + (n.role === "top" ? "/Top" : "")) : null;
   }
   /** The PATH Quartz builds a node's page at: its id through Quartz's own `sluggify`
    *  (source/quartz/util/path.ts), segment by segment. Identity on 1,447 of 1,448 ids today; the
