@@ -4,10 +4,14 @@
 // the existing calm phone late-film journey, where a late film can move already-published answers.
 // H139 phone-catch-question-first-lost-844 stopped before its claim on a detached temporary marker;
 // -631 had a red 30s baseline. Neither counts as a kill; H140's 3/3 per timeout arm did not establish cause.
-// Run only after a green built suite, under the shared heavy-job lock. Private
+// DASHCX1 reran all controls against green, nonempty baselines: those three still survive, as do
+// d338-page-scrolls-flow-top and d338-clamped-place-lost. Record these five as coverage gaps, not kills.
+// Run only after a green built suite and a heavy-advisory GO, outside the build lock. Private
 // Playwright config and scratch output are required; no source or baseline edits.
 // SECTIONS_MUTANT_CONFIG=/.../playwright.config.ts SECTIONS_MUTANT_OUT=/... node tests/artifacts/article_sections_mutants.mjs
 // Optional SECTIONS_MUTANT_ONLY selects named controls after their focused journeys pass.
+// SECTIONS_MUTANT_TIMEOUT_MS can use the private runner's 240000ms bound for measured long camera journeys;
+// the default 30000ms is deliberately short. An expired baseline never counts as a mutation kill.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { createHash } from 'node:crypto'
@@ -18,9 +22,14 @@ const require = createRequire(resolve(root, 'source/package.json'))
 const { build } = require('esbuild')
 const config = process.env.SECTIONS_MUTANT_CONFIG, out = process.env.SECTIONS_MUTANT_OUT
 if (!config || !out) throw Error('An isolated config and scratch output are required')
+const testTimeout = Number(process.env.SECTIONS_MUTANT_TIMEOUT_MS || 30000)
+if (!Number.isInteger(testTimeout) || testTimeout < 1 || testTimeout > 240000) throw Error('Invalid mutation test timeout')
 mkdirSync(out, { recursive: true })
-const readerPath = resolve(root, 'source/public/static/neural/app/reader.js')
-const cssPath = resolve(root, 'source/public/static/neural/app/reading.css')
+// An isolated served tree lets the reader controls run without changing another suite's bundle.
+// Its private config MUST serve this exact directory; the source inputs still come from this worktree.
+const served = resolve(process.env.SECTIONS_MUTANT_PUBLIC || resolve(root, 'source/public'))
+const readerPath = resolve(served, 'static/neural/app/reader.js')
+const cssPath = resolve(served, 'static/neural/app/reading.css')
 const source = readFileSync(resolve(root, 'neural/src/reader.src.js'), 'utf8')
 const originals = new Map([readerPath, cssPath].map(p => [p, readFileSync(p)]))
 const replace = (text, from, to) => {
@@ -91,11 +100,11 @@ const mutants = [
   ['aria-control-broken', sections, 'contents and header targets at 390x844', s => replace(s, '"data-section-toggle": group.type, "aria-controls": id + "-body"', '"data-section-toggle": group.type, "aria-controls": id + "-missing"')],
   ['game-label-control-broken', sections, 'D-338 1440px', s => replace(s, '"data-game-open": part, "aria-controls": id + "-body"', '"data-game-open": part, "aria-controls": id + "-missing"')],
   ['late-game-control-target', sections, 'late question backfill', s => replace(replace(s,
-    'else { body.hidden = !shown; body.inert = !shown; }',
-    'else { body.hidden = !shown; body.inert = !shown; } if (s.part && body) body.id = s.id + "-body";'),
+    'else { body.hidden = !shown; body.inert = !shown; (shown ? open : closed).push(s); }',
+    'else { body.hidden = !shown; body.inert = !shown; (shown ? open : closed).push(s); } if (s.part && body) body.id = s.id + "-body";'),
     'if (key === "card" || key === "hand") el.id = "reader-" + key + "-body";', '/* mutant: only the old sync binds the body */')],
   ['phone-contents', sections, 'contents and header targets at 390x844', s => replace(s, '|| !fits;', '|| false;')],
-  ['label-toggles', sections, 'contents and header targets at 1366x768', s => replace(s, 'else if (section) this.scrollTo(section.card, section.toggle);', 'else if (section) { this.toggleSection(section.type); this.scrollTo(section.card, section.toggle); }')],
+  ['label-toggles', sections, 'contents and header targets at 1366x768', s => replace(s, 'else if (section) this.scrollTo(section.control ? this.mediaHome : section.card, section.control ? null : section.toggle);', 'else if (section) { this.toggleSection(section.type); this.scrollTo(section.card, section.toggle); }')],
   // RETIRED (D-338): 'eye-scrolls' guarded "an index eye changes visibility without navigation";
   // the index has no eyes, so the claim and its control go together.
   ['toc-input-guard-lost', sections, 'floating contents owns.*dark', s => replace(s, 'contents.style.pointerEvents = "auto";', 'contents.style.pointerEvents = "auto"; this.app._readerTocEl = null;')],
@@ -128,7 +137,7 @@ const mutants = [
   ['question-label-does-nothing', sections, 'D-338 1024px', s => replace(s, '() => this.toggle(part), { "data-game-open": part', '() => {}, { "data-game-open": part')],
   ['index-role-after-name', sections, 'D-338 1440px', s => replace(s, 'indexTitle.textContent = role + " " + this.app.graphName(node);', 'indexTitle.textContent = this.app.graphName(node) + " · " + role;')],
   ['section-x-repaint', sections, 'floating contents owns.*dark', s => replace(s, '      if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {', '      if (!s.part) s.toggle.replaceChildren(...faces(s.type, s.title));\n      if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {')],
-  ['toc-shifts-column', sections, 'contents and header targets at 1440x900', s => replace(s, 'free.center - parseFloat(this.articleEl.style.width) / 2', 'free.center - parseFloat(this.articleEl.style.width) / 2 - 100')],
+  ['toc-shifts-column', sections, 'contents and header targets at 1440x900', s => replace(s, 'free.center - parseFloat(art.style.width) / 2', 'free.center - parseFloat(art.style.width) / 2 - 100')],
   ['toc-overlaps-tablet', sections, 'contents and header targets at 1024x768', s => replace(s, '>= tocWidth + 12', '>= 0')],
   ['toc-not-fixed', sections, 'floating contents owns.*dark', s => s, css => replace(css, '.ng-reader-toc{position:fixed', '.ng-reader-toc{position:absolute')],
   ['toc-container', sections, 'floating contents owns.*light', s => s, css => css + '\n.ng-reader-toc{background:#1b2034;border:1px solid #414c68;box-shadow:0 0 4px #000}\n'],
@@ -155,12 +164,13 @@ const mutants = [
   ['chrome-hook-ignored', sections, 'optional chrome frame', s => replace(s, 'typeof a.readerChromeFrame === "function"', 'false')],
   ['chrome-node-band-lost', sections, 'optional chrome frame', s => replace(s, 'let y = band + Math.max(headHeight, step) + (chrome?.offset || 0);', 'let y = Math.max(headHeight, step) + (chrome?.offset || 0);')],
   ['chrome-bottom-reserve-ignored', sections, 'optional chrome frame', s => replace(s, 'chrome?.bottomReserve != null', 'false')],
-  ['head-over-map', sections, '1366px chrome keeps', s => replace(s, 'const parent = chrome ? this.root : flow,', 'const parent = this.root,'), css => css + '\n.ng-reader>.ng-reader-head{left:calc(50% - 455px);top:0}\n'],
+  ['head-over-map', sections, '1366px chrome keeps', s => replace(s, 'const parent = chrome ? root : flow,', 'const parent = root,'), css => css + '\n.ng-reader>.ng-reader-head{left:calc(50% - 455px);top:0}\n'],
   ['phone-tools-in-header', sections, '390px chrome keeps', s => replace(s, 'chrome && W <= 640 ? flow : head', 'false ? flow : head')],
   ['execution-label-clearance-lost', 'card-presentation.spec.ts', '1440px.*chosen card rises', s => replace(s, 'card.style.marginTop = shown.getBoundingClientRect().top - box.top - parseFloat(getComputedStyle(row).paddingTop) + "px";', 'card.style.marginTop = "0px";')],
   // D-368: under C Moves lead, so on a desktop a fresh layout gives the chosen row its old top and the handoff is
   // unexercised; U16 b (owner, 2026-10-24) now pins it through the result-time band restore.
-  ['execution-row-anchor-lost', 'defending-landing.spec.ts', 'U16 b: at 390x631 only the live catch band', s => replace(s, 'card._ngDock.reader = { rowTop: box.top - game.top, height: game.height, rowHeight: box.height };', '/* mutant: forget the selected row */')],
+  // D-433 renamed the short live-band journey; its native pick/result rectangle claim remains.
+  ['execution-row-anchor-lost', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band', s => replace(s, 'card._ngDock.reader = { rowTop: box.top - game.top, height: game.height, rowHeight: box.height };', '/* mutant: forget the selected row */')],
   ['hand-close-behind-reader', 'land-layers.spec.ts', 'hand X owns its centre', s => s, css => css + '\n[data-hand-close]{z-index:4!important}\n'],
   ['native-game-focus-lost', 'pane-keyboard.spec.ts', 'recall page mounted under the pane', s => replace(s, '{ class: "ng-reader-game", tabindex: "-1" }', '{ class: "ng-reader-game" }')],
   ['reduced-motion-flash-lost', 'outcome-on-cards.spec.ts', 'reduced motion.*1440', s => s, css => replace(css, '.ng-reader,.ng-reader-article *', '.ng-reader,.ng-reader *')],
@@ -170,14 +180,14 @@ const mutants = [
   // RETIRED (v1.230.0, feat/video-cards): media-inset-lost removed the film strip's side padding, which the current
   // card no longer has (padding 0, no fades: choice-value.css .ng-current-card); film-row-arrows retires those ratios.
   ['film-only-node-band-lost', 'camera-continuity.spec.ts', '1440px.*CLEAR_SEC: a film', s => replace(s, 'showCard || showHand || homeMedia ?', 'showCard || showHand ?')],
-  ['game-wheel-detached-target', 'landcard-deck.spec.ts', 'wheel momentum advances once', s => replace(s, 'const path = event.composedPath(); return path.includes(this.game) && !(this.videoCard && path.includes(this.videoCard));', 'return this.game.contains(event.target) && !(this.videoCard && this.videoCard.contains(event.target));')],
+  ['game-wheel-detached-target', 'landcard-deck.spec.ts', 'wheel momentum advances once', s => replace(s, 'return event.composedPath().includes(this.game);', 'return this.game.contains(event.target);')],
   ['native-game-touch-blocked', 'landcard-deck.spec.ts', 'long mobile choices', s => s, css => replace(css, '[data-reader-game-part=card]{touch-action:pan-y}', '[data-reader-game-part=card]{touch-action:none}')],
   ['native-game-keys-lost', 'landcard-deck.spec.ts', 'long recall answers', s => replace(s, 'return reader.gameKey(event) || readKey.call(this, event);', 'return readKey.call(this, event);')],
   ['native-page-scroll-lost', 'landcard-deck.spec.ts', 'long recall answers', s => replace(s, 'root.scrollTop = Math.min(root.scrollTop, Math.max(0, top));', '/* mutant: keep the scroll */')],
   // D-338 (owner: U7 round 2), one control per new claim, each killed at its own assertion.
   // RETIRED (D-368, layout C): d338-video-not-lifted claimed the Videos section is lifted above Moves. Nothing is
   // lifted under C; the opposite is pinned by a-column-wide-videos-question and -catch.
-  ['d338-questions-above-moves', sections, '1366px choices precede', s => replace(s, '          cardY = y;\n          if (beside) {', '          cardY = (row ? parseFloat(row.style.top) : y) - cardHeight - step;\n          if (beside) {')],
+  ['d338-questions-above-moves', sections, '1366px choices precede', s => replace(s, '        cardY = y;\n        if (beside) {', '        cardY = (row ? parseFloat(row.style.top) : y) - cardHeight - step;\n        if (beside) {')],
   ['d338-open-part-keeps-header', sections, 'D-338 1024px', s => replace(replace(s, 'if (s.part) s.card.hidden = shown || !labels;', 'if (s.part) s.card.hidden = !labels;'), 's.card.hidden = !available || reference || this.on(s.part);', 's.card.hidden = !available || reference;')],
   ['d338-focus-browse-retained', 'reading-mode.spec.ts', '1366px complete article, every close', s => replace(s, 'this.head.append(this.heading, this.tools); this.game.append(this.head);', 'this.tools.append(button("Focus on reading", () => {}, { "data-reading-focus": "" }), button("Browse", () => app.openPane("explore"), { "data-reader-browse": "" })); this.head.append(this.heading, this.tools); this.game.append(this.head);')],
   ['d338-saved-focus-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$', s => replace(s, 'return this.app.get(GAME_KEYS[part], true) !== false;', 'return this.app.get((this.app.get("readingFocus", false) ? { card: "readingCard", hand: "readingHand", map: "readingMap", feedback: "readingFeedback" } : GAME_KEYS)[part], true) !== false;')],
@@ -186,7 +196,10 @@ const mutants = [
   ['d338-tray-under-index', sections, 'D-338 1152px', s => replace(s, 'if (row) position(row, rowLeft, rowTop, indexEdge ? W + 2 * free.left - 2 * indexEdge : W);', 'if (row) position(row, 0, rowTop, W);')],
   ['d338-closed-label-boxed', sections, 'contents and header targets at 390x844', s => s, css => css + '\n.ng-section-card[data-collapsed=true]{background:#1b2034!important;border-color:#414c68!important}\n'],
   ['d338-page-scrolls-flow-top', 'landcard-deck.spec.ts', '390px MC: deck pages', s => replace(s, 'root.scrollTop = Math.min(root.scrollTop, Math.max(0, top));', 'root.scrollTop = 0;')],
-  ['d338-clamped-place-lost', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '      if (this.placeTop > this.root.scrollTop) this.root.scrollTop = this.placeTop;\n', '')],
+  // NOT KILLED SINCE U59 c (DASH-R4 measured; dev's reader kills it): the reader's bottom reserve now spans the full
+  // width (the account pill), so opening the pane at 1024 no longer moves it, the scrollport never grows and the
+  // browser never clamps in this journey. The restore is still code; this control no longer exercises it.
+  ['d338-clamped-place-lost', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '      if (this.placeTop > root.scrollTop) root.scrollTop = this.placeTop;\n', '')],
   ['d338-running-reader-not-paused', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '    if (this.interacting && this.app.paused) { if', '    if (this.interacting) { if')],
   // D5-N1: the deck backs' clearance and the tray's symmetry, each with its own claim.
   // D-368: at 1440 the current card's film beside the question is taller and absorbs the backs' reserve; the
@@ -205,7 +218,7 @@ const mutants = [
   ['d352-film-over-pin', 'reading-media-placement.spec.ts', '390px a film chunk landing after 2.6s', s => replace(s, 'homeMedia = homeMedia && !pin.hid && this.media === pin.film && h <= pin.mh;', 'homeMedia = homeMedia;')],
   ['d352-ready-before-layout', 'systems-surface.spec.ts', 'D-352: a reference page says ready only once', s => replace(s, '      // out of the game\'s header row; a frame later, a click aimed at "ready" hit the map instead.\n      this.layoutNow();\n', '      // out of the game\'s header row; a frame later, a click aimed at "ready" hit the map instead.\n')],
   ['d352-home-clamp-lost', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'this.root.scrollTop = /Home|Up/.test(event.key) ? Math.min(top, to) : to;', 'this.root.scrollTop = to;')],
-  ['d352-hand-after-questions', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'if (key === "hand") this.gameSections[1].card.before(el); else this.game.append(el);', 'this.game.append(el);')],
+  ['d352-hand-after-questions', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'if (key === "hand") this.gameSections[1].card.before(el); else game.append(el);', 'game.append(el);')],
   // D-353 (Delta 7 B1): a play settles the pin, as grading does.
   ['d353-play-keeps-pin', 'defending-landing.spec.ts', 'D-353: playing the pinned film', s => replace(s, '      if (name === "expandClip") this._readerPin = null;\n', '')],
   // D-368 (layout C) invariants. A: the video card column-wide in the Videos section, lifted above Moves (the
@@ -254,6 +267,83 @@ const mutants = [
       'return nodeBand ? { ...target, cy: target.cy - Math.min(Math.max(0, nodeBand.top - box.top), nodeBand.bottom - box.bottom) / scale } : target;', 'return target;')],
   // D-354 N2 (Delta 8): reopening Videos is the player's own input and settles the pin.
   ['d354-reopen-keeps-pin', 'defending-landing.spec.ts', 'D-354 N2: reopening Videos while pinned', s => replace(s, '    if (shown && type === "videos") this.app._readerGraded();\n', '')],
+  // U55 b (owner, 2026-10-28) and U59 c (owner, 2026-10-28): the desktop dashboard. Each control breaks one claim of
+  // article-dashboard.spec.ts, which serves real content. "No tile is capped": the owner-rejected mock's cap and fade.
+  ['u55-tile-capped', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s,
+    css => css + '\n[data-reader-body]>*{max-height:520px;overflow:hidden;mask-image:linear-gradient(#000 82%,transparent)}\n'],
+  // DASH-R2 (the independent review of #323): mutants of "every tile shows its whole content" that survived its
+  // first spec. The rows mutants of U55 b's 8px rows retired with them (U59 c rows are the grid's own auto rows);
+  // their claim, a row no taller than its tallest content, is u59-rows-padded's.
+  ['u59-rows-padded', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => css + '\n[data-reader-body]>*{padding-bottom:100px}\n'],
+  ['u55r-body-capped', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => css + '\n.ng-section-body{max-height:240px;overflow:hidden}\n'],
+  ['u55r-para-clamp', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s,
+    css => css + '\n.ng-section-body p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}\n'],
+  // U59 c, "two sections side by side always ... never only show one section full width": a long section alone.
+  ['u59-row-alone', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, '"" + (k > 2 ? 4 :', '"" + (s.len > 3e3 ? 12 : k > 2 ? 4 :')],
+  // "Some sections can take two columns while the other one takes one": the shorter text takes the two.
+  ['u59-pair-flipped', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, '(s == x) == (x.len < (y || x).len) ? 4 : 8', '(s == x) == (x.len < (y || x).len) ? 8 : 4')],
+  // An odd count's row of three is the shortest run, not wherever the count runs out (Mount's last three hold Related).
+  ['u59-trio-last', 'article-dashboard.spec.ts', 'an odd article at 1440', s => replace(s, '(k = i == t ? 3 : 2)', '(k = n % 2 && i == n - 3 ? 3 : 2)')],
+  // Rows in source order: a late section moved first by the grid (what dense packing did).
+  ['u59-order-moved', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => css + '\n[data-reader-body]>[data-section-type=related]{order:-1}\n'],
+  // "Tab and visual order agree": the rows laid right to left, so focus (source order) runs against the eye.
+  ['u59-tab-rtl', 'article-dashboard.spec.ts', 'Tab walks the tiles', s => s, css => css + '\n.ng-reader [data-reader-body]{direction:rtl}\n'],
+  // "Prose at a readable ~65-70ch": the column's measure removed, so a two-thirds tile runs ~86 characters.
+  ['u59-measure-unset', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => replace(css, 'overflow-wrap:break-word;max-width:46ch;margin:auto}', 'overflow-wrap:break-word}')],
+  // "The Guest pill must never cover text or links": its reserve measured over the old 680px column only.
+  ['u59-pill-covers', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, 'a._readerShelfBottom({ left: free.center - width / 2, right: W })', 'a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 })')],
+  // "Keep the reader's place when the lane count changes": the anchor found but never put back.
+  ['u59-place-lost', 'article-dashboard.spec.ts', 'opening Explore keeps', s => replace(s, '      if (keep) this.placeTop = root.scrollTop += Math.round(keep.getBoundingClientRect().top - was);\n', '')],
+  // "A link inside a tile still opens its page": the tile swallows its links' clicks.
+  ['u55r-link-swallowed', 'article-dashboard.spec.ts', 'a click on a section tile does nothing', s => replace(s, 'card.append(heading, content); body.append(card);',
+    'card.append(heading, content); body.append(card); card.addEventListener("click", e => { if (e.target.closest("a")) { e.preventDefault(); e.stopPropagation(); } });')],
+  // "A section tile click does nothing": a click on the tile (not on its links or controls) toggles it.
+  ['u55-tile-click-toggles', 'article-dashboard.spec.ts', 'a click on a section tile does nothing', s => replace(s, 'card.append(heading, content); body.append(card);',
+    'card.append(heading, content); body.append(card); card.addEventListener("click", e => e.target.closest("button,a") || toggle.click());')],
+  // "The node band stays clear": the article pulled up over the game stage to use the space above it.
+  ['u55-band-covered', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, 'style(art, "margin-top", 6);', 'style(art, "margin-top", 6 - gameHeight);')],
+  // "Uses the width": the grid keeps today's centred column instead of starting at the index's clearance.
+  ['u55-width-unused', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, 'if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");', '')],
+  // DASH-R4 (the independent review of R3): one control per claim added for its findings.
+  // Finding 1, "the stage holds still at the arrival": the anchor without its gate (the article above the reader's top).
+  ['u59r4-anchor-arrival', 'article-dashboard.spec.ts', 'opening Explore at the arrival', s => replace(s, ' && art.getBoundingClientRect().top < top', '')],
+  ['u59r4-anchor-resize', 'article-dashboard.spec.ts', 'window narrowed at the arrival', s => replace(s, ' && art.getBoundingClientRect().top < top', '')],
+  ['u59r4-anchor-rotation', 'article-dashboard.spec.ts', 'phone turned to landscape', s => replace(s, ' && art.getBoundingClientRect().top < top', '')],
+  // Finding 2, "putting the article away and back returns the same line": restore R3's ungated anchor and
+  // remembered hidden width together. The reset alone is redundant with the gate in this journey.
+  ['u59r4-reopen-ungated', 'article-dashboard.spec.ts', 'putting the article away and back', s => replace(replace(s, ' && art.getBoundingClientRect().top < top', ''), '(this.gridW = available ? grid : NaN)', '(this.gridW = grid)')],
+  // Finding 3, "a wide table takes two thirds and shows every column": counted as short text; kept in the 46ch column.
+  ['u59r4-table-third', 'article-dashboard.spec.ts', 'wide Top/Bottom table', s => replace(s, ' || content.querySelector("tr>:nth-child(4)")', '')],
+  ['u59r4-table-measured', 'article-dashboard.spec.ts', 'wide Top/Bottom table', s => s, css => replace(css, '.ng-section-body article:has(tr>:nth-child(4)){max-width:none}', '')],
+  ['u59r4-table-margin', 'article-dashboard.spec.ts', 'at 768x1024', s => s, css => replace(css, 'table{display:block;overflow-x:auto;font-size:14px;margin:0}', 'table{display:block;overflow-x:auto;font-size:14px}')],
+  // Finding 4, "a reference page's player takes two thirds and the tile's width": counted as its caption text.
+  ['u59r4-player-third', 'article-dashboard.spec.ts', 'Principles page', s => replace(s, 'group.type == "videos" && REFERENCE.test(path) || ', '')],
+  // Finding 5, thirds "only when the sizes justify them": no size threshold, and thirds by parity below three lanes.
+  ['u59r4-trio-unsized', 'article-dashboard.spec.ts', 'Principles page', s => replace(s, 'let t, best = 1500;', 'let t, best = 1e9;')],
+  ['u59r4-thirds-below', 'article-dashboard.spec.ts', 'at 768x1024', s => replace(s, 'if (wide && n % 2)', 'if (n % 2)')],
+  ['u59r4-lanes-1366', 'article-dashboard.spec.ts', 'at 1366x768 the dashboard pairs', s => replace(s, 'wide = grid >= 1150', 'wide = grid >= 1100')],
+  // Finding 6, "an article arriving under a held press still pairs": the default span back to the full width.
+  ['u59r4-press-full', 'article-dashboard.spec.ts', 'arrives under a held press', s => s, css => replace(css, 'span var(--span,6)', 'span var(--span,12)')],
+  // U65 b and note (owner, 2026-10-29): each tile ends at its own content; game pages have no credits tile.
+  ['u65-tiles-stretched', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => replace(css, 'align-items:start', 'align-items:stretch')],
+  ['u65-watch-tile-restored', 'article-dashboard.spec.ts', 'game pages have one film', s => replace(s, 'const control = group.type === "videos" && !REFERENCE.test(path);', 'const control = false;')],
+  // Restore the old null film target AND its unsafe dereference; the corrected target itself is focusable.
+  ['u65-film-index-throws', 'article-dashboard.spec.ts', 'game pages have one film', s => replace(replace(s,
+    'focus = node.querySelector("[data-film-close]");', 'focus = null;'),
+    'if (focus) focus.focus({ preventScroll: true });\n  }\n  readingInteraction', 'focus.focus({ preventScroll: true });\n  }\n  readingInteraction')],
+  ['u65-disclosure-destination-lost', 'article-dashboard.spec.ts', 'native Videos disclosure', s => replace(s,
+    'if ("mediaControl" in node.dataset) {', 'if (false) {')],
+  ['u65-disclosure-focus-lost', 'article-dashboard.spec.ts', 'native Videos disclosure', s => replace(s,
+    'focus = node.querySelector("[data-film-close]");', 'focus = null;')],
+  ['u65-grid-overview-hidden', 'article-grid.spec.ts', '1440px preserves content', s => s,
+    css => css + '\n[data-reader-body]>[data-section-type=overview]{display:none!important}\n'],
+  ['u65-gap-passes-map', 'article-dashboard.spec.ts', 'space below a short tile', s => s, css => css + '\n.ng-reader-article,[data-reader-body]{pointer-events:none!important}\n'],
+  ['u59r4-phone-measure', 'article-dashboard.spec.ts', 'at 390x844 the phone keeps', s => s, css => css + '\n@media(max-width:640px){.ng-section-body article{max-width:120px}}\n'],
+  ['u59r4-drag-on-reader', 'opening-camera.spec.ts', 'a drag mid-rise', s => s, css => css + '\nbody:after{content:"";position:fixed;left:1290px;top:150px;width:40px;height:40px;z-index:99}\n'],
+  // "The phone keeps its stacked flow": its one-column rules removed, so the desktop spans pair the cards at 390px.
+  ['u59-phone-pairs', 'article-dashboard.spec.ts', 'at 390x844 the phone keeps', s => s, css => replace(replace(css,
+    '@container (max-width:660px){.ng-section-card{grid-column:1/-1}}', ''),
+    '{grid-template-columns:minmax(0,1fr);gap:calc(var(--section-gap)*3)}.ng-section-card{grid-column:1/-1;border-radius:16px}', '{gap:calc(var(--section-gap)*3)}.ng-section-card{border-radius:16px}')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
 const STALL_CLAIMS = new Set([])
@@ -271,7 +361,7 @@ const baseline = (spec, grep) => {
   if (!baselines.has(key)) {
     for (const [path, bytes] of originals) writeFileSync(path, bytes)
     const reportPath = resolve(out, 'baseline-' + baselines.size + '.json')
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--timeout=30000', '--output', resolve(out, 'baseline-' + baselines.size + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 300000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: reportPath } })
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, 'journeys/' + spec.replaceAll('.', '\\.'), '--grep', grep, '--timeout=' + testTimeout, '--output', resolve(out, 'baseline-' + baselines.size + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 300000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: reportPath } })
     const logPath = resolve(out, 'baseline-' + baselines.size + '.log')
     writeFileSync(logPath, (run.stdout || '') + (run.stderr || ''))
     let passed = 0
@@ -287,7 +377,7 @@ try {
     await build({ stdin: { contents: mutate(source), sourcefile: 'reader.src.js', resolveDir: resolve(root, 'neural/src'), loader: 'js' }, bundle: true, format: 'esm', target: 'es2019', minify: true, legalComments: 'none', outfile: readerPath, logLevel: 'silent' })
     if (css) writeFileSync(cssPath, css(originals.get(cssPath).toString()))
     const reportPath = resolve(out, name + '.json')
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--max-failures=1', '--timeout=30000', '--output', resolve(out, name + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: reportPath } })
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, 'journeys/' + spec.replaceAll('.', '\\.'), '--grep', grep, '--max-failures=1', '--timeout=' + testTimeout, '--output', resolve(out, name + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: reportPath } })
     const log = (run.stdout || '') + (run.stderr || '')
     writeFileSync(resolve(out, name + '.log'), log)
     let failures = []

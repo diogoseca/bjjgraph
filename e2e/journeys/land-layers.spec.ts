@@ -98,6 +98,10 @@ const indexed = (page: any) => page.locator(".ng-reader-toc").isVisible()
 const restore = async (page: any, j: any, view: View, part: "card" | "hand") => {
   if (view === "map") return j.clickByMouse(`[data-layer-show="${part}"]`, `the dock's ${part} glyph`)
   await expect(page.locator(".ng-reader-shelf"), "the reading view has no shelf").toBeHidden()
+  // A catch can replace the article asynchronously. Choose its index/label only once that
+  // article is published; the old hidden index is not evidence that the new page has no index.
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await j.readerLayoutSettled()
   if (await indexed(page)) return j.clickByMouse(`[data-toc-type="${part}"] a`, `the closed ${part === "card" ? "Questions" : "Moves"} index row`)
   await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded()
   await j.clickByMouse(`[data-game-open="${part}"]`, `the closed ${part === "card" ? "Questions" : "Moves"} label`)
@@ -255,8 +259,8 @@ test(`the layers are independent: the film's ✕ keeps the card; the hand's ✕ 
   expect((await read(page)).film, "film authored and up").toBe(true)
   expect((await read(page)).more, "the card's More sibling is authored too").toBe(true)
 
-  // D-338: with the article shown the film's ✕ is its Videos section's (the strip's own ✕ is hidden there).
-  await j.clickByMouse(view === "map" ? "[data-film-close]" : '[data-section-toggle="videos"]', "the film's ✕")
+  // U65 note (owner, 2026-10-29): the duplicate credits tile is retired; the stage film owns its ✕.
+  await j.clickByMouse('[data-film-close]', "the film's ✕")
   await j.advance(300)
   const f1 = await read(page)
   expect(f1.film, "the strip is gone").toBe(false)
@@ -310,9 +314,9 @@ test("@curated the article survives minimizing the question, videos and moves", 
   await j.boot("/"); await j.land("Mount Top"); await read(page)
   await seedFilm(page); await j.advance(400)
   await page.evaluate(() => { (window as any).__articleBefore = document.querySelector("[data-reader-body]") })
-  // D-338: the film's home with the article shown is its Videos section, closed by that ✕.
-  await page.locator('[data-section-toggle="videos"]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-section-toggle="videos"]', "the videos' ✕")
+  // U65 note: the stage film's own ✕ replaces the removed credits tile's control.
+  await page.locator('[data-film-close]').scrollIntoViewIfNeeded()
+  await j.clickByMouse('[data-film-close]', "the videos' ✕")
   for (const sel of ["[data-land-close]", "[data-hand-close]"]) {
     await page.locator(sel).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     await j.clickByMouse(sel, sel === "[data-land-close]" ? "the card's ✕" : "the hand's ✕")

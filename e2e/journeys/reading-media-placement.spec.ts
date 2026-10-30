@@ -250,8 +250,9 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
     }
     await page.evaluate(() => { const a = (window as any).__neural; a._reader.place(a._reader.mediaHome); a._reader.place(a._reader.mediaHome); a._dockLandFilm() })
     expect(await snapshot(page)).toMatchObject({ same: true, frame: true, player: native, hosts: 1, frames: 1, total: 1, slot: false })
-    await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded()
-    await j.clickByMouse('[data-section-toggle=videos]', 'collapse pauses without deleting the owner')
+    // U65 note: game pages close the surviving stage film, not a duplicate credits tile.
+    await page.locator('[data-film-close]').scrollIntoViewIfNeeded()
+    await j.clickByMouse('[data-film-close]', 'collapse pauses without deleting the owner')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeHidden()
     expect(await snapshot(page)).toMatchObject({ same: true, frame: true, player: native, hosts: 1, frames: 1, total: 1, paused: true })
     // STALE SPEC (D10-B1): syncSections hides Videos before the requested layout writes the game's
@@ -270,7 +271,7 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
       await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     }
     await j.clickByMouse(indexed ? '[data-toc-type=videos] a' : '[data-section-toggle=videos]', 'reopen Videos')
-    await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeVisible()
+    await expect(page.locator('[data-land-media-slot] [data-land-film]')).toBeVisible()
     expect(await snapshot(page)).toMatchObject({ same: true, frame: true, player: native, hosts: 1, frames: 1, total: 1, paused: true })
     if (native) expect((await snapshot(page)).document).toBe(true)
     expect(await page.evaluate(() => (window as any).__pauseCalls)).toBeGreaterThan(0)

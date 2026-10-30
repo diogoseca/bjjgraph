@@ -105,12 +105,12 @@
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 42451,
-    "sha256": "2f6404226e1436df33fce7f4c0f61082e3fd8036990fadbc70af762433fbc452"
+    "bytes": 42484,
+    "sha256": "9496ace7829c58511ff7b58a67ae125f3b3c847536b8bc4da8891528d774d797"
    },
    "static/neural/app/reading.css": {
-    "bytes": 10697,
-    "sha256": "47218de6c06f85e6005009f7c29bfd133f469613dbb9b548ce639eaf71bc0c85"
+    "bytes": 10889,
+    "sha256": "dff0a59ebcf21c1dd6ec4d7c68bba22fc067accc6c84b4d645b2241e345c36c8"
    },
    "static/neural/app/reference.css": {
     "bytes": 15146,
