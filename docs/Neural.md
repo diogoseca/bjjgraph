@@ -690,25 +690,19 @@ leads back. The view ids stay `explore` · `challenges` · `history`. A lit page
 map to 20%, easing on the wall clock. The icon stays reachable during a catch (U16 b, U66 a);
 opening the drawer pauses the roll through the same pane law.
 
-Desktop opening and the search shortcut focus Search immediately, before the next keyboard
-input. Cold index arrivals preserve the focused Practice/Path row. The curated keyboard cases
-in `challenges-ui.spec.ts` hold both indexes, advance pending timers while Path is focused,
-then use Tab/Enter to select Black belt and Close; focus returns to the opener.
+Desktop opening and the search shortcut focus Search before the next key. Cold index arrivals
+preserve Practice/Path focus; closing returns focus to the opener (`challenges-ui.spec.ts`).
 
-Path emits `challenges_opened` and `neural_challenges_viewed` on its first visible visit in
-each open drawer. The list, saved view preference and hidden ruleset re-renders emit neither
-and cannot consume that visit. Returning to Path or re-rendering it within the same open
-drawer does not count again; closing the drawer permits the next deliberate Path visit.
-`path-visit-telemetry.spec.ts` pins both event streams with fresh and saved preferences.
+Path emits `challenges_opened` and `neural_challenges_viewed` once per open drawer, on its first
+visible visit. The list, saved preference and hidden ruleset renders neither emit nor consume that visit.
+Revisiting within the same open drawer stays silent; closing permits the next deliberate visit
+(`path-visit-telemetry.spec.ts`, fresh and saved preferences).
 
-U61 c leaves About out. U67 a merges the two feedback doors into one **Feedback** form: one
-text box, optional **Technique request**, and the existing checked **about: <current page>**
-context. Send keeps `neural_issue_reported` for general feedback and
-`neural_technique_requested` when the player marks a request. Both retain `text` (≤500), `node`
-(or null when unchecked), `signed_in` and `app_version`; the existing `track()` variant is unchanged.
-Keeping the event names and payloads preserves their telemetry consumers and history. Empty Send
-keeps the form open without a capture. `feedback-modal.spec.ts` covers both kinds through the
-same row, context opt-out, guest/session properties and the submit controls.
+U61 c leaves About out. U67 a provides one **Feedback** form: one text box, optional
+**Technique request**, and checked **about: <current page>** context. General feedback emits
+`neural_issue_reported`; requests emit `neural_technique_requested`. Both retain `text` (≤500),
+`node` (null when unchecked), `signed_in`, `app_version` and the existing `track()` variant.
+Empty Send leaves the form open and captures nothing (`feedback-modal.spec.ts`).
 
 The card, videos, article and camera shift beside the pane with the choices. The article fits
 the free width; game-control overlap paints beneath the pane. Phones retain the overlay drawer, and short landscape
@@ -737,17 +731,14 @@ it, and an inline deck, a Practice session or a cold study ignores it, so a swip
 drawer on a session it would throw away (`_paneStudyActive`). A swipe is never a tap: a capture-phase
 suppressor eats the click the browser synthesises at the end of one.
 
-**Explore** — the Explore fold itself starts open; its six category sections start collapsed; every
-fold persists. Search ranks results before sections; filter to `rep` to avoid duplicates. Your lists sit
-after Path, in their own section, and use the shared three-rung indent. The drawer's opening is the
-Explore entry, so it asks for the Systems and Concepts indexes (deferred, never at boot), as dev's Explore
-tab did. Your lists folds like the other six (v1.196.1, key `Your lists` in
-`exploreOpenSections`; an absent key is closed, so existing users need no migration). The one
-difference is `_revealLists`: making, adding to or restoring a list, or a saved class lit by a
-share arrival or the cue, opens the section for the session without writing the map — the older
-rule that you SEE a technique land after adding it. Systems have counted topic branches and indented leaves, like position
-families. Topic folds start collapsed, stay independent, and survive detail/back navigation and
-section folds for the session.
+**Explore** starts open; its six category sections start collapsed. Every fold persists in
+`exploreOpenSections`, including `Your lists` (absent means closed). Search precedes sections and
+filters to `rep`. Your lists follows Path with the shared three-rung indent. Opening the drawer
+requests Systems and Concepts indexes, deferred until Explore. `_revealLists` opens Your lists
+for the session, without persisting its fold, when making, adding, restoring or lighting a shared
+class through arrival or its cue. Systems have counted topic branches and indented leaves.
+Topic folds start collapsed, remain independent, and survive detail/back and section folds for
+the session.
 
 **A page-shaped entry (Principle · Learning · System) opens as a READ.** The deferred index
 (`concepts.json`, `systems-index.json`) carries the card and the ids it lights; the body rides the
@@ -787,18 +778,12 @@ describe material difficulty, never rank or access. The frontier belt (first bel
 left) drives navigation — the open section, the arrival scroll, the cue; the tab belt is the belt
 you **wear** (§8), never the frontier, which painted a finished player white. Nothing re-locks.
 
-**Every inline deck answers the same four keys** (v1.175.0). The roll history's rows, the session
-queue and the corridor's lesson decks all register the same `_miniReg` handles, so `←/→` page
-cards, `↑/↓` walk techniques (in the corridor: the ladder's lesson rows, in ladder order, skipping
-folded belts), `Space` flips and `⏎` grades *Got it* and walks on. The corridor was
-the one surface with none of it: `openMini` never claimed `_focusRow`, so there was nothing for the
-keys to resolve — and because the ladder is built entirely out of buttons, `Space` after a click on
-▸ went to the ▸ and shut the deck. **Opening an inline lesson deck therefore moves focus onto the
-deck BOX** (`tabindex="-1"`), which owns neither activation key, leaving Tab-then-Space on a lesson
-row exactly as it was. A corridor repaint — any evidence beat, and a grade fires one — rebuilds the
-registry with the rows it indexes and re-opens the deck that was open, on the card it was on;
-`_miniDeck` grades AFTER walking the deck on, so the rebuild paints the card the player is owed
-rather than a dead one.
+**Inline deck keys.** History, session queues and corridor lessons share `_miniReg`: `←/→`
+pages, `↑/↓` walks techniques (corridor lesson order, skipping folded belts), `Space` flips,
+and `⏎` grades *Got it* and advances. Opening a lesson focuses its deck box (`tabindex="-1"`),
+which owns neither activation key; Tab-then-Space on a lesson row still works. Evidence repaints
+rebuild the registry and reopen the same deck/card. `_miniDeck` advances before grading, so a
+grade-triggered repaint shows the next card.
 
 **Every ▶ asks, and the seat is the player's** (v1.197.0, owner: "it says we start on top, but what
 if i wanted to start on bottom?"). `confirmPlayFrom` — behind an Explore or list row's ▶, the option
@@ -852,10 +837,7 @@ those visits mirrored to the defending seat — each summing to 1; the score is 
 tuning knob: attempt probabilities sum to 100 on **272 of 272** role-nodes, so `sum(pi)` and
 `sum(visits)` are both exactly 1 — three readings of one unit step.
 
-Until v1.145.13 only the attacking third was weighted: 1,326 Defender and 272 position decks —
-**9,071 cards, 41.4%** — scored zero. **Studying a position now counts, and counts heavily**: 272 decks share a third of the mass, so one is worth
-~4.7× an average technique deck and 14 of the 20 heaviest decks are positions (`Side
-Control|Top` leads).
+Positions share one third of score mass, like attacking and defending technique knowledge.
 
 **Nothing about the score decays.** `deckMastery` moves only on answers — the score cannot drop
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
@@ -874,14 +856,11 @@ it lands, with nothing graded, becomes the mix when it does. Practice does not a
 comparison (measured cost on a throttled phone, no benefit in the first session); "Open study plan"
 and "Refresh plan" do.
 
-**Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}` — each seat
-once by node **ordinal** (v1.204.3), one int array **per ruleset**, each `t` entry carrying **both
-seats**. `ngWireScoreWeights` (`wire-keys.src.js`) is the one expander; the emitter
-round-trips it per frame and refuses if the mirror stops holding. Per ruleset (v1.146.0): 52
-techniques are attemptable only in gi — the default — and 16 only in no-gi, so a folded no-gi solve
-scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **zero means "not
-attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
-pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
+**Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}`: each seat
+once by node ordinal, per ruleset, with both technique seats in each `t` entry. `ngWireScoreWeights`
+(`wire-keys.src.js`) expands it; the emitter round-trips every frame and refuses a broken mirror.
+`o` is the union; zero means "not attemptable here". `frame` is required. `gameScore` memoises on
+`(_stageVer, frame)` and expansion is cached per frame. Gate: `validate:score-coverage -- --gate`.
 
 **Game Knowledge is a percentage and decides no belt** (v1.211.0, owner). Its bands (white .20 ·
 blue .40 · purple .60 · brown .70 · black .80; MC caps a card at 2/3, so recognition tops out at

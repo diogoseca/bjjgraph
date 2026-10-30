@@ -13482,3 +13482,84 @@ partly clipped preceding block's wrap from moving the visible line by 20.5625px.
 The existing 8px allowance stays unchanged. Final affected checks pass 75/75;
 the anchor control and four existing reader controls also fail named assertions.
 See `tests/artifacts/sidebar_mutants.md` for exact controls, scope and receipts.
+
+
+## v1.242.0 — Documentation budget after the article-dashboard merge
+
+The combined reader and sidebar documentation reached 73,927 characters against the
+unchanged 72,000-character ceiling. The current rules remain in Neural.md in shorter
+form. The former wording below preserves implementation history, test narratives and
+historical coverage measurements; those counts are not a new corpus audit.
+
+### Keyboard evidence narrative
+
+Desktop opening and the search shortcut focus Search immediately, before the next keyboard
+input. Cold index arrivals preserve the focused Practice/Path row. The curated keyboard cases
+in `challenges-ui.spec.ts` hold both indexes, advance pending timers while Path is focused,
+then use Tab/Enter to select Black belt and Close; focus returns to the opener.
+
+### Path telemetry explanation
+
+Path emits `challenges_opened` and `neural_challenges_viewed` on its first visible visit in
+each open drawer. The list, saved view preference and hidden ruleset re-renders emit neither
+and cannot consume that visit. Returning to Path or re-rendering it within the same open
+drawer does not count again; closing the drawer permits the next deliberate Path visit.
+`path-visit-telemetry.spec.ts` pins both event streams with fresh and saved preferences.
+
+### Feedback rationale and test inventory
+
+U61 c leaves About out. U67 a merges the two feedback doors into one **Feedback** form: one
+text box, optional **Technique request**, and the existing checked **about: <current page>**
+context. Send keeps `neural_issue_reported` for general feedback and
+`neural_technique_requested` when the player marks a request. Both retain `text` (≤500), `node`
+(or null when unchecked), `signed_in` and `app_version`; the existing `track()` variant is unchanged.
+Keeping the event names and payloads preserves their telemetry consumers and history. Empty Send
+keeps the form open without a capture. `feedback-modal.spec.ts` covers both kinds through the
+same row, context opt-out, guest/session properties and the submit controls.
+
+### Explore migration rationale
+
+**Explore** — the Explore fold itself starts open; its six category sections start collapsed; every
+fold persists. Search ranks results before sections; filter to `rep` to avoid duplicates. Your lists sit
+after Path, in their own section, and use the shared three-rung indent. The drawer's opening is the
+Explore entry, so it asks for the Systems and Concepts indexes (deferred, never at boot), as dev's Explore
+tab did. Your lists folds like the other six (v1.196.1, key `Your lists` in
+`exploreOpenSections`; an absent key is closed, so existing users need no migration). The one
+difference is `_revealLists`: making, adding to or restoring a list, or a saved class lit by a
+share arrival or the cue, opens the section for the session without writing the map — the older
+rule that you SEE a technique land after adding it. Systems have counted topic branches and indented leaves, like position
+families. Topic folds start collapsed, stay independent, and survive detail/back navigation and
+section folds for the session.
+
+### Inline deck keyboard defect history
+
+**Every inline deck answers the same four keys** (v1.175.0). The roll history's rows, the session
+queue and the corridor's lesson decks all register the same `_miniReg` handles, so `←/→` page
+cards, `↑/↓` walk techniques (in the corridor: the ladder's lesson rows, in ladder order, skipping
+folded belts), `Space` flips and `⏎` grades *Got it* and walks on. The corridor was
+the one surface with none of it: `openMini` never claimed `_focusRow`, so there was nothing for the
+keys to resolve — and because the ladder is built entirely out of buttons, `Space` after a click on
+▸ went to the ▸ and shut the deck. **Opening an inline lesson deck therefore moves focus onto the
+deck BOX** (`tabindex="-1"`), which owns neither activation key, leaving Tab-then-Space on a lesson
+row exactly as it was. A corridor repaint — any evidence beat, and a grade fires one — rebuilds the
+registry with the rows it indexes and re-opens the deck that was open, on the card it was on;
+`_miniDeck` grades AFTER walking the deck on, so the rebuild paints the card the player is owed
+rather than a dead one.
+
+### Historical score-coverage counts
+
+Until v1.145.13 only the attacking third was weighted: 1,326 Defender and 272 position decks —
+**9,071 cards, 41.4%** — scored zero. **Studying a position now counts, and counts heavily**: 272 decks share a third of the mass, so one is worth
+~4.7× an average technique deck and 14 of the 20 heaviest decks are positions (`Side
+Control|Top` leads).
+
+### Historical ruleset score omission and coverage snapshot
+
+**Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}` — each seat
+once by node **ordinal** (v1.204.3), one int array **per ruleset**, each `t` entry carrying **both
+seats**. `ngWireScoreWeights` (`wire-keys.src.js`) is the one expander; the emitter
+round-trips it per frame and refuses if the mirror stops holding. Per ruleset (v1.146.0): 52
+techniques are attemptable only in gi — the default — and 16 only in no-gi, so a folded no-gi solve
+scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **zero means "not
+attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
+pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
