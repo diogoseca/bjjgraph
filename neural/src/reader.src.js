@@ -1190,11 +1190,11 @@ class Reader {
       // credits; the retained Videos control still governs the film.
       // Keep the deck's 44px outside arrows plus 8px clearance. The left arrow
       // lives in the 60px media gap; the right arrow also fits inside the pane.
-      const beside = homeMedia && showCard && free.width >= 400 + 60 + 390 + 52 && H > 500;
+      const [beside, mediaWidth, askStep] = a.filmLayout(free.width, H, homeMedia && showCard, card, row);
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (game.dataset.mediaLayout !== mediaLayout) game.dataset.mediaLayout = mediaLayout;
       if (card) style(card, "width", Math.min(beside ? 390 : arrows ? 560 : 520, free.width - (arrows && !beside ? 104 : 32)), "important");
-      const mediaWidth = Math.min(400, free.width - 32), cardWidth = card?.getBoundingClientRect().width || 0;
+      const cardWidth = card?.getBoundingClientRect().width || 0;
       style(home, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
       // phone). Measuring the shared host keeps its future renderer independent.
@@ -1225,7 +1225,7 @@ class Reader {
           const rowTop = handoff?.rowTop ?? y;
           if (row) position(row, rowLeft, rowTop, indexEdge ? W + 2 * free.left - 2 * indexEdge : W);
           if (!label("hand").hidden) { position(label("hand"), left, y, width); y += label("hand").getBoundingClientRect().height + step; }
-          else y = rowTop + (handoff?.rowHeight ?? handHeight) + step;
+          else y = rowTop + (handoff?.rowHeight ?? handHeight) + (askStep ?? step);
         };
         // D-433 (2026-10-26), D-370 adapted to U35: Answer for Points (U47 d) and all shown answers
         // must be reachable on arrival, with no scroll writer. The SAME untimed

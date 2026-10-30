@@ -102,21 +102,23 @@ for (const width of [1440, 1024]) {
     // STALE CONTRACT (D-368's stacked order): U52 b puts the question straight after Moves, so a stacked
     // reflow keeps the question under Moves and the current card follows the question's backs.
     const shift = open.card.x - before.card.x, reflow = open.layout !== before.layout
-    expect(before.layout, 'the closed pane leaves room for the card beside the question').toBe('side-by-side')
+    expect(before.layout, 'VIDEO1 the available width selects the desktop or stacked stage').toBe(width >= 1152 ? 'side-by-side' : 'stacked')
     if (!reflow) expect(shift).toBeGreaterThan(80)
     for (const surface of ["card", "film"] as const) {
       expect(open[surface].visible, `${surface} remains visible`).toBe(true)
       expect(open[surface].x).toBeGreaterThanOrEqual(open.pane.right)
       expect(open[surface].right).toBeLessThanOrEqual(width)
       if (!reflow) {
-        expect(open[surface].width, `${surface} keeps its readable width`).toBeCloseTo(before[surface].width, 0)
-        expect(open[surface].x - before[surface].x, `${surface} moves with the card`).toBeCloseTo(shift, 0)
+        if (surface === "card") expect(open[surface].width, `${surface} keeps its readable width`).toBeCloseTo(before[surface].width, 0)
+        // VIDEO1's full-column film can narrow with the available pane. Its centre
+        // still follows the card; its new width is asserted independently below.
+        expect(open[surface].center - before[surface].center, `${surface} moves with the card`).toBeCloseTo(shift, 0)
         expect(open[surface].y, `${surface} keeps its vertical dock`).toBeCloseTo(before[surface].y, 0)
       }
     }
-    if (reflow) {
+    if (open.layout === 'stacked') {
       expect(open.layout).toBe('stacked')
-      expect(open.film.width).toBe(400)
+      expect(open.film.width).toBe(Math.min(680, width - open.pane.width - 32))
       expect(open.card.width).toBe(Math.min(560, width - open.pane.width - 104))
       expect(open.card.y - open.hand.bottom, 'the question follows Moves at the deck gap').toBeCloseTo(16, 0)
       expect(open.film.y - (open.card.bottom + 3 * open.backs), "the current card follows the question's backs at the deck gap").toBeCloseTo(16, 0)
@@ -208,19 +210,14 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   await page.locator('[data-land-film] .ng-clip[data-i="0"]').evaluate(e => e.scrollIntoView({ block: "nearest" }))
   await settle(page, j)
   await j.clickByMouse('[data-land-film] .ng-clip[data-i="0"]', "an exposed video thumbnail")
-  await expect(page.locator("[data-land-film] .ngPlayerHost")).toBeVisible()
-  await page.waitForTimeout(450)
-  // Playing the first film can mint the harness visitor's White Foundations patch.
-  if (await page.locator("[data-reward-close]").isVisible()) {
-    await j.clickByMouse("[data-reward-close]", "dismiss the earned patch")
-    // A click outside the player legitimately collapses it; reopen now that the reward is gone.
-    await expect(page.locator("[data-land-film] .ngPlayerHost")).toHaveCount(0)
-    await settle(page, j)
-    await j.clickByMouse('[data-land-film] .ng-clip[data-i="0"]', "the video after dismissing its reward")
-    await page.waitForTimeout(450)
-  }
-  await j.clickByMouse("[data-land-film] .ngClipX", "the exposed video close button")
-  await expect(page.locator("[data-land-film] .ngPlayerHost")).toHaveCount(0)
+  // VIDEO1: the exposed card launches its own top-layer player; closing it
+  // returns to the still-open pane without consuming the pane's pause latch.
+  await expect(page.locator(".ng-video-theater .ngPlayerHost")).toBeVisible()
+  await expect(page.locator("[data-land-film] iframe")).toHaveCount(0)
+  await page.locator(".ng-video-theater").evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
+  await j.clickByMouse(".ng-video-theater .ngClipX", "the visible theater close button")
+  await expect(page.locator(".ng-video-theater")).toHaveCount(0)
+  await expect(page.locator('[data-land-film] [data-film-play]').first()).toBeFocused()
   await settle(page, j)
 
   // STALE SPEC (D-368, layout C): the current card is a game part, so playing it is no longer reading (a Videos

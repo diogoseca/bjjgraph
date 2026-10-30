@@ -41,6 +41,9 @@
 .ng-choice-card button:focus-visible { outline:2px solid #c5d6ff; outline-offset:-3px; }
 .ng-choice-viewer { width:min(620px,calc(100vw - 24px)); padding:12px; box-sizing:border-box; border:1px solid #637392; border-radius:14px; background:#151a2b; color:#eef1f6; }
 .ng-choice-viewer::backdrop { background:rgba(3,6,14,.75); }
+/* The top-layer player keeps the card's header, footer and layout at home. */
+.ng-video-theater { position:fixed; inset:0; margin:auto; padding:0; border:0; max-width:none; max-height:none; width:min(95vw,calc(95vh * var(--film-ratio))); height:min(calc(95vw / var(--film-ratio)),95vh); background:#000; color:#eef1f6; z-index:96; overflow:hidden; }
+.ng-video-theater::backdrop { background:rgba(0,0,0,.6); }
 .ng-choice-viewer header { display:flex; align-items:center; justify-content:space-between; gap:12px; font-size:14px; }
 .ng-choice-viewer header button { width:44px; height:44px; flex:none; border:0; background:none; color:inherit; cursor:pointer; }
 .ng-choice-viewer .ng-clip { width:100%!important; height:auto!important; aspect-ratio:16/9; }

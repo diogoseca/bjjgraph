@@ -13320,3 +13320,27 @@ The shared destination/focus costs 46 B; an equivalent explicit focus guard save
 Reader JS is 42,484 B, CSS remains 10,889 B, and deferred payload is **506,815 / 506,817 B**: 2 B spare,
 zero shortfall, no ceiling increase. The earlier shard-1 Moves-label failure remains unproven; this fix
 changes only media-control navigation and does not alter the Moves input path.
+
+## v1.244.0 — Current video theater and the ask line (VIDEO1)
+
+The ask text follows the visible Moves cards at the existing 6px section-spacing token on
+mobile and tablet, with its `0 0 0 3px !important` padding retained. The media owner supplies
+the reading stage's geometry: below 1152px of available pane width, its own video fills the
+reading column (680px maximum with 16px phone gutters); desktop keeps a 400px film beside
+the question. Technique media remains outside question, flashcard and multiple-choice cards.
+
+Play loads the YouTube API on demand and requests autoplay. Only the video rectangle moves
+into a root-portaled native dialog: a 360ms zoom to 95% viewport width, capped by 95% viewport
+height at the clip's aspect ratio, with a 60% black backdrop. The card, title and score stay
+in their measured place. Reduced motion skips the animation. Escape, backdrop and the
+visible Close destroy the player and restore Play focus; modal focus, graph input guards,
+pointer-capture cancellation and keyboard priority isolate playback from the underlying map.
+The iframe is constructed in its final home, so resize never reparents its live document.
+While focus is inside the cross-origin YouTube controls, Escape stays with the provider;
+Shift+Tab back to Close restores the Escape exit. Close and the dim remain pointer exits.
+
+VIDEO1's source controls cover gap, tablet/desktop widths, both fit limits, rectangle-only
+zoom, dim, autoplay, every exit, entry/return focus, graph/keyboard guards and reduced motion.
+The shared reader's layout call replaces its local media-width decision without deferred
+growth. Existing reference-film continuity and choice-video behavior remain independently
+exercised; current-film and pane journeys now assert the requested theater lifecycle.

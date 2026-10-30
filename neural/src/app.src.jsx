@@ -928,6 +928,7 @@ class Component extends DCLogic {
     // keyboard: "/" or Cmd/Ctrl+K focuses search in the explorer
     this._onKey = (e) => {
       const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
+      if (this._filmTheater) { if (e.key === "Escape") { e.preventDefault(); this.collapseClip(this._filmTheater.card); } return; }
       if (this._choiceWatch) { if (e.key === "Escape") { e.preventDefault(); this._closeChoiceWatch(); } return; }
       if (e.key !== "Escape" && this.modalRef.current?.style.display === "flex") return;
       if (e.key !== "Escape" && this._readKey(e)) return;
@@ -2408,6 +2409,8 @@ class Component extends DCLogic {
     close.style.cssText = "position:absolute;top:0;right:0;z-index:7;width:44px;height:44px;background:rgba(8,10,16,.85);border:0;border-radius:8px;color:#eef1f6;cursor:pointer;";
     close.onclick = e => { e.stopPropagation(); this.collapseClip(card); launch?.focus({ preventScroll: true }); };
     card.appendChild(close);
+    const theater = card.closest("[data-land-film]:not([data-reference-film])");
+    if (theater) this._openFilmTheater(card, clip, ph, close, launch);
     // An outside activation of a section control is a pause/move, never a close.
     // This listener only closes a non-current reference clip; current media keeps
     // its identity until its own Close or a real node/role teardown.
@@ -2428,17 +2431,17 @@ class Component extends DCLogic {
       if (!YT?.Player) { fail(); return; }
       const player = new YT.Player(vhost, {
         width: "100%", height: "100%", videoId: clip.id,
-        playerVars: { autoplay: 0, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
+        playerVars: { autoplay: theater ? 1 : 0, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
         events: {
           onReady: e => {
             if (!live()) return;
             card._playerReady = true;
             const iframe = e.target.getIframe?.();
-            if (iframe) { iframe.title = clip.title || "Technique video"; iframe.setAttribute("allow", "encrypted-media; picture-in-picture; fullscreen"); }
+            if (iframe) { iframe.title = clip.title || "Technique video"; iframe.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture; fullscreen"); }
             if (card._mediaPaused || card.closest("[hidden],[inert]")) e.target.pauseVideo();
             // A fallback move discards the old handle. Only an explicit Resume
             // may start its replacement, after this fresh player's ready event.
-            else if (resume) e.target.playVideo();
+            else if (resume || theater) e.target.playVideo();
           },
           onStateChange: e => {
             if (!live()) return;
@@ -2457,11 +2460,37 @@ class Component extends DCLogic {
     });
     this._dockLandFilm();
   }
+  // Portal only the player rectangle. Its card stays in the reader's measured flow;
+  // the iframe is created in its final home, so opening never reloads a live player.
+  _openFilmTheater(card, clip, host, close, source) {
+    const from = card.getBoundingClientRect(), dialog = document.createElement("dialog");
+    dialog.className = "ng-video-theater";
+    dialog.setAttribute("aria-label", clip.title || "Technique video");
+    dialog.style.setProperty("--film-ratio", clip.vertical ? 9 / 16 : 16 / 9);
+    host.style.background = "#000 url(\"" + source.querySelector("img").src + "\") center/cover";
+    dialog.append(close, host);
+    (this.__ngRoot || document.body).appendChild(dialog);
+    this._filmTheater = { dialog, card, source };
+    this._cancelGraphInput?.(); this._readStop();
+    dialog.oncancel = e => { e.preventDefault(); this.collapseClip(card); };
+    dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };
+    dialog.showModal(); close.focus({ preventScroll: true });
+    const to = dialog.getBoundingClientRect();
+    if (!this._reducedMotion()) dialog.animate([
+      { transform: `translate(${from.x + from.width / 2 - to.x - to.width / 2}px,${from.y + from.height / 2 - to.y - to.height / 2}px) scale(${from.width / to.width},${from.height / to.height})` },
+      { transform: "none" },
+    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" });
+  }
   collapseClip(card) {
     if (!card) return;
     card._mediaGeneration = (card._mediaGeneration || 0) + 1; card._playerReady = false;
     card.querySelector("[data-film-resume]")?.remove();
     const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = false;
+    if (this._filmTheater?.card === card) {
+      const { dialog, source } = this._filmTheater; this._filmTheater = null;
+      dialog.getAnimations().forEach(a => a.cancel()); dialog.close(); dialog.remove();
+      if (source.isConnected) source.focus({ preventScroll: true });
+    }
     if (card._loop) { clearInterval(card._loop); card._loop = null; }
     if (card._player) { try { card._player.destroy(); } catch (e) {} card._player = null; }
     const ph = card.querySelector(".ngPlayerHost"); if (ph) ph.remove();
@@ -15263,6 +15292,7 @@ class Component extends DCLogic {
    *  taken the wheel that was meant to scroll back); its horizontal deltas still reach it.
    */
   _readOwnScroll(t) {
+    if (this._filmTheater) return true;
     // Pane headers and empty areas own their gestures too, even without a scrollable ancestor.
     if (t && this.deckShown && this.drillRef.current && this.drillRef.current.contains(t)) return true;
     for (let n = t; n && n !== document.body && n !== document.documentElement; n = n.parentElement) {
@@ -15525,10 +15555,16 @@ class Component extends DCLogic {
     if (perspSide === "defender") return perspBlk && perspBlk.authored && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null;
     return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null);
   }
-  // Sections sets the one host's width before reading its natural height: 400px
-  // beside a 390px deck (60px gap + 52px Next reserve), or 358px above a 286px
-  // deck at a 390px viewport (12px gap). The 902px pair stacks when it cannot fit.
-  // Height is measured, never inferred from the practice face or arrow reserve.
+  // The media owner supplies width and spacing; Sections measures its natural height.
+  // Below 1152px of free pane, the film fills the 680px reading column (16px phone
+  // gutters). Above it, 400px leaves room for the deck, arrows and Contents lane.
+  filmLayout(width, height, paired, card, row) {
+    const wide = width >= 1152, ask = !wide && row && card?.hasAttribute("data-land-ask");
+    const css = ask && getComputedStyle(card);
+    return [paired && wide && height > 500, Math.min(wide ? 400 : 680, width - 32),
+      ask ? parseFloat(css.getPropertyValue("--section-gap")) - parseFloat(getComputedStyle(row).paddingBottom)
+        - (card.querySelector("[data-land-ask-text]").getBoundingClientRect().top - card.getBoundingClientRect().top) : null];
+  }
   currentFilmHeight() { return this._landFilmEl?.getBoundingClientRect().height || 0; }
   _paintCurrentFilmWin() {
     const footer = this._landFilmEl?.querySelector("[data-current-film-win]"); if (!footer) return;
@@ -19695,7 +19731,7 @@ class Component extends DCLogic {
     this.setPaused(true);            // freeze with a fresh decision timer; Play resumes
     this.enterLand(false);           // build options for the new state (no restart toast)
   }
-  _graphInputOn() { return !this._reader || this._reader.on("map"); }
+  _graphInputOn() { return !this._filmTheater && (!this._reader || this._reader.on("map")); }
   _updateHover(e) {
     if (!this._graphInputOn()) { this._hover = null; return; }
     if (!this.cam || !this.nodes) return;
@@ -19778,7 +19814,7 @@ class Component extends DCLogic {
       // dead to a real mouse. The option sheet, minimized-layer dock and hand ✕ complete the
       // current fixed-control set.
       for (const ov of [...this._landSurfaces(),
-        this._layerDockEl, this._handCloseEl, this._readerEl, this._readerTocEl]) {
+        this._layerDockEl, this._handCloseEl, this._readerEl, this._readerTocEl, this._filmTheater?.dialog]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }
       this.closeDeckIfStudying();

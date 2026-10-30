@@ -592,7 +592,7 @@ test('D-352: past the ceiling, a film arriving while the answers are pinned neve
 // does. Pinned, the opened player grew the film in place over the escape tray (y218-440 over the row
 // at y332; the titles' clicks went to the film), and the next relayout hid the playing video under
 // S2's rule. Released, the rows move down beside the player.
-test('D-353: playing the pinned film opens it beside the hand, never over it, and it stays visible', async ({ page }) => {
+test('D-353 / VIDEO1: playing the pinned film opens theater and restores the exposed hand on exit', async ({ page }) => {
   const late = lateArticle(page, 6000)
   const j = await catchLoop(page, false, false, async () => { await late.route(); await traceAnswer(page) })
   await expect.poll(() => page.evaluate(() => {
@@ -606,6 +606,13 @@ test('D-353: playing the pinned film opens it beside the hand, never over it, an
   expect(Math.max(...tops) - Math.min(...tops), 'the answers never move before the play').toBeLessThan(0.5)
   await j.clickByMouse('.ng-landfilm .ng-clip', 'play the pinned film')
   await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip), { message: 'premise: the clip opened its player' }).toBe(true)
+  await expect(page.locator('.ng-video-theater .ngPlayerHost')).toBeVisible()
+  await page.evaluate(() => (window as any).__neural._reader.layoutNow())
+  await expect(page.locator('.ng-video-theater .ngPlayerHost')).toBeVisible()
+  // The player now owns a modal plane. Close it before testing the underlying
+  // titles: while it is open, those titles must be inert, not exposed controls.
+  await page.keyboard.press('Escape')
+  await expect(page.locator('.ng-video-theater')).toHaveCount(0)
   await j.readerLayoutSettled()
   const hits = await page.evaluate(() => {
     const a = (window as any).__neural, film = a._landFilmEl, out: any[] = []
@@ -624,7 +631,7 @@ test('D-353: playing the pinned film opens it beside the hand, never over it, an
     const a = (window as any).__neural, f = a._landFilmEl, r = f.getBoundingClientRect()
     return { playing: !!a._expandedClip, visible: f.getClientRects().length > 0 && getComputedStyle(f).visibility !== 'hidden' && r.height > 0 }
   })
-  expect(film, 'the playing player stays visible through a relayout').toEqual({ playing: true, visible: true })
+  expect(film, 'the current card stays visible after closing theater and relayout').toEqual({ playing: false, visible: true })
 })
 
 // RETIRED (D-368, layout C): D-354 N1 pinned a play after the article rendered into the lifted Videos card.
