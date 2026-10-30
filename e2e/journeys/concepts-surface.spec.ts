@@ -529,7 +529,7 @@ test("Explore lists every authored principle, and opening one opens content — 
   await expect(
     page,
     "a technique row pushes the technique's own path",
-  ).toHaveURL(pathRe(clickedId!));
+  ).toHaveURL(pathRe(clickedId!.startsWith('Positions/') && !/\/(Top|Bottom)$/.test(clickedId!) ? clickedId! + '/Top' : clickedId!));
   // Back is Quartz's: the SPA router soft-navigates on every popstate and the app reboots on the
   // previous address — so the URL unwinds to the page, and the page re-opens from its path the
   // way an arrival does (the arrival journeys below own what that boot shows).

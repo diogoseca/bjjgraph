@@ -1,0 +1,12 @@
+{
+  "name": "position-top-url-is-hub",
+  "file": "neural/src/app.src.jsx",
+  "from": "(n.role === \"top\" ? \"/Top\" : \"\")",
+  "to": "\"\"",
+  "spec": "e2e/journeys/dual-node-role-url.spec.ts",
+  "tests": [
+    "Half-Guard: native pair clicks during map play keep both role URLs",
+    "Half-Guard: keyboard search activation selects the Top role URL"
+  ],
+  "claim": "Selecting the Top position member opens its /Top page while its graph and list identity remains the hub. The mutant must fail the URL assertion, not readiness or input reachability."
+}

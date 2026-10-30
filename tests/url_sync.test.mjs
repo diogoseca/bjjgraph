@@ -115,3 +115,21 @@ test("_pageSlug applies exactly Quartz's sluggify replacements (source/quartz/ut
   assert.ok(quartz.length >= 5, `read ${quartz.length} replacements from path.ts`);
   assert.deepEqual(app_, quartz, "a drift between the two is an address that 404s on reload");
 });
+
+test("VIDEO1: every position member navigates to its role page without changing site identity", () => {
+  const a = app(), b = browser();
+  const positions = a.nodes.filter(n => n.ty === "positions" && n.role);
+  assert.ok(positions.length > 200, "a real corpus of both position halves was inspected");
+  for (const n of positions) {
+    const identity = { id: n.id, ordinal: n.o, site: a.siteIdOf(n.id) };
+    a._syncUrl(n.idx);
+    const side = n.role === "top" ? "Top" : "Bottom";
+    assert.equal(b.location.pathname, "/" + a._pageSlug(identity.site) + "/" + side, `${n.id}: URL names the selected role`);
+    const back = a._nodeAndRoleForPath(b.location.pathname);
+    assert.equal(back.idx, a.canonicalState(n.idx, n.role), `${n.id}: URL focuses the same role member`);
+    assert.equal(back.role, n.role);
+    assert.deepEqual({ id: n.id, ordinal: n.o, site: a.siteIdOf(n.id) }, identity, "navigation preserves list/share identity");
+  }
+  assert.equal(faults(a).length, 0);
+  console.log(`# VIDEO1 position role URLs asserted: ${positions.length}`);
+});
