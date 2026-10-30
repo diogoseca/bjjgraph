@@ -3,9 +3,9 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "2591cade2707f8b3d9d4e2fcee2ef5e8201ba4c2",
+   "git_head": "d1b726a30f5081ae6313e2d0c96f39e682428dd6",
    "inputs": {
-    "tree": "d2db6a2f570582ff9492c9ea23d234a4d0073f05"
+    "tree": "52d80160ff436cbcdaede403b7a8afc0b551deb0"
    },
    "package_version": "1.241.0",
    "rows_from": "neural/dist",
@@ -105,8 +105,8 @@
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 42444,
-    "sha256": "a187940d7ad64f236729742af88288b08f480cdaa9d54d98eb42d3b6cdd973a9"
+    "bytes": 42484,
+    "sha256": "9496ace7829c58511ff7b58a67ae125f3b3c847536b8bc4da8891528d774d797"
    },
    "static/neural/app/reading.css": {
     "bytes": 10889,
