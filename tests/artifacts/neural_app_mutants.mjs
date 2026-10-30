@@ -225,7 +225,7 @@ const controls = [
   // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
   // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
   ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
-    [['if(u&&!((c=this._reader)!=null&&c.interacting))', 'if(u&&!this._reader?.intent&&!((c=this._reader)!=null&&c.interacting))']],
+    [['if(p&&!((u=this._reader)!=null&&u.interacting))', 'if(p&&!this._reader?.intent&&!((u=this._reader)!=null&&u.interacting))']],
     '...and the chosen escape stays on the table'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null

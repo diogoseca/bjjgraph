@@ -940,7 +940,7 @@ class Component extends DCLogic {
       if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
         e.preventDefault();
         this.openPane("explore");
-        setTimeout(() => { try { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); } catch (err) {} }, 80);
+        this.explorerSearchRef.current?.focus();
       } else if (e.key === "Escape") {
         // Esc walks the Z LADDER top-down: deliberate screens first (modal 95, menu 90),
         // then temporary gameplay screens, then the pane above the landing reading column.
@@ -7045,7 +7045,7 @@ class Component extends DCLogic {
    * row's due cell, grown up; "N new" and "Mastered" moved (into Practice, and onto the badge).
    */
   // ONE BLOCK FOR THE SESSION (FGD13): every list render re-appends the SAME element and repaints it in
-  // place, so a payload that rebuilds the list never detaches the Practice row under a press or a locator.
+  // place. _afterPress protects pointer presses; renderExplorer restores its focus across reattachment.
   _renderTrain(list) {
     let box = this._trainBox;
     if (!box) {
@@ -7561,7 +7561,9 @@ class Component extends DCLogic {
       // keys on a desktop, never on a phone, where the keyboard would cover the list it just opened
       this.openPane("explore");
       if (!this.isMobile()) {
-        setTimeout(() => { try { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); } catch (e) {} }, 80);
+        // openPane makes the input visible synchronously. A delayed focus steals the next Tab/Enter
+        // from Path (SIDECX4), so hand over the keys before the opening gesture returns.
+        this.explorerSearchRef.current?.focus();
       }
     }
     this.lastInteract = this.now;
@@ -7729,6 +7731,9 @@ class Component extends DCLogic {
       return;
     }
     const list = this.explorerListRef.current; if (!list) return;
+    // A cold index rebuild detaches even the cached Practice/Path block. Retain a keyboard user's
+    // chosen row across that synchronous rebuild; the next Enter must still activate that row.
+    const trainFocus = this._trainBox?.contains(document.activeElement) ? document.activeElement : null;
     // corridor re-renders (evidence beats, pin/select/fold clicks) must not yank the
     // scroll while the user reads (the History-body gate precedent) — keep it unless an
     // arrival reposition is pending (v1.98.1)
@@ -8043,6 +8048,7 @@ class Component extends DCLogic {
       ex = list;
     }
     this._renderTrain(list);
+    if (trainFocus && document.activeElement === document.body) trainFocus.focus({ preventScroll: true });
     this.renderLists(list);
     this._renderRollsHome(list);
     // AN ADD IS SEEN WHERE IT LANDS (the older rule, v1.196.1): Your lists sits below Explore now (owner

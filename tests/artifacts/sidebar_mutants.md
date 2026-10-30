@@ -202,3 +202,45 @@ Exact source edits: `sidebar_path_mutants.json`. Logs and JSON receipts:
 
 No new non-kills. The harness observes the app's beat stream and the PostHog capture boundary;
 it does not prove remote analytics delivery. No known-red ledger row was added.
+
+## SIDECX4 / keyboard Path, advanced tracks and focus return
+
+The curated CI red on 572dbb627 is REAL. Dev f63049013 passes both controlled Tab-to-Path
+probes. The unchanged PR head fails both: its 80ms Search callback steals Path's focus, and
+a held `systems-index.json` landing detaches Path and leaves focus on body. The final app
+focuses Search synchronously and restores the cached Practice/Path control after a list
+rebuild. Neither advanced-track selection nor close-focus restoration was removed.
+
+The two curated cases now use native Tab/Enter after placing focus on the opener. They
+hold and positively count both real index requests, advance the browser clock while Path
+has focus, then land Systems and concepts separately. Both continue through Black belt
+selection and the Close button to restored opener focus. One starts with the drawer icon,
+the other with `/`. The Tab traversal bound counts rendered control candidates, allowing
+the expanded curriculum's hundreds of stops; it does not emulate their order.
+
+Exact source edits: `sidebar_keyboard_mutants.json`. Each control ran one green-baseline
+case and failed its named assertion, with no setup or test timeout. Source and served
+bundle were restored. Receipts: `/home/user/bjj-orchestrator/scratch/sidebar/sidecx4/`.
+
+| Control | Result | Named failing claim |
+|---|---|---|
+| keyboard-drawer-delayed-search | KILLED (1 ran) | opening search cannot steal the next Path key |
+| keyboard-shortcut-delayed-search | KILLED (1 ran) | opening search cannot steal the next Path key |
+| keyboard-systems-focus-lost | KILLED (1 ran) | systems landing preserves the keyboard-selected Path |
+| keyboard-concepts-focus-lost | KILLED (1 ran) | concepts landing preserves the keyboard-selected Path |
+| keyboard-path-tab-skipped | KILLED (1 ran) | Path is reachable with Tab |
+| keyboard-black-tab-skipped | KILLED (1 ran) | Black belt is reachable with Tab |
+| keyboard-black-enter-dead | KILLED (1 ran) | Enter selects the advanced track |
+| keyboard-close-tab-skipped | KILLED (1 ran) | Close is reachable with Tab |
+| keyboard-close-restore-lost | KILLED (1 ran) | closing the pane returns focus to its keyboard opener |
+
+No new non-kills. These cases cover the drawer-to-advanced-track route, not every lesson
+or reference control. The dossier stubs do not satisfy any claim here; real curriculum
+and index responses supply the controls. No known-red ledger row was added.
+
+One minifier rebinding also moved `reading-intent-blocks-digit`'s local names. Re-aiming
+those names preserves the original control. Its baseline passed and its mutation failed
+`...and the chosen escape stays on the table`; the bundle was restored (receipt in
+`sidecx4/reaim-mutants/receipt.json`). All 63 edits across the existing 61 controls match
+once and all resulting JS bundles parse. This structural check is not 61 newly run kills;
+the table's historical non-kills remain recorded.

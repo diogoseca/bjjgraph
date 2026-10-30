@@ -306,28 +306,64 @@ test.describe("Challenges UI @curated", () => {
     ).toHaveCount(1);
   });
 
-  test("keyboard navigation reaches advanced tracks and restores focus on close", async ({
+  // SIDECX4: real Tab/Enter from the opener through Path, Black belt and Close. Hold both cold
+  // indexes, then land each while Path has focus; fire the old 80ms search timer in that gap too.
+  // The DSL's empty dossier bodies are irrelevant: this reads real index and curriculum controls.
+  // Source controls and kill receipts: sidebar_keyboard_mutants.json / sidebar_mutants.md.
+  // No new non-kills; this does not claim keyboard reachability of every lesson or reference page.
+  for (const entry of ["drawer", "search shortcut"]) test(`keyboard navigation reaches advanced tracks and restores focus on close${entry === "drawer" ? "" : " via search shortcut"}`, async ({
     page,
   }) => {
+    await page.clock.install();
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
-    const opener = page.locator(".ng-logo");
-    await opener.focus();
-    await page.keyboard.press("Enter");
-    await expect(page.locator(".ng-explorer")).toBeVisible();
-    // v1.242.0: the drawer opens on its list; Path is one keyboard step from it
-    const path = page.locator("[data-view='challenges']");
-    await path.focus();
-    await page.keyboard.press("Enter");
-
-    const black = page.locator("[data-track='black']");
-    await black.focus();
-    await page.keyboard.press("Enter");
-    await expect(black).toHaveAttribute("aria-pressed", "true");
-    await page.locator(".ng-explorer-close").focus();
-    await page.keyboard.press("Enter");
-    await expect(page.locator(".ng-explorer")).toBeHidden();
-    await expect(opener).toBeFocused();
+    await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+    const releases: (() => void)[] = [], held: string[] = [];
+    for (const name of ["systems-index", "concepts"]) {
+      const gate = new Promise<void>(resolve => { releases.push(resolve); });
+      await page.route(`**/${name}.json`, async route => { held.push(name); await gate; await route.continue(); });
+    }
+    const tabTo = async (selector: string, label: string) => {
+      const target = page.locator(selector);
+      // Black's expanded curriculum adds hundreds of stops. Bound one whole traversal by the
+      // rendered candidate count, not an assumed lesson count; native Tab decides the order.
+      const limit = await page.locator("button, a[href], input, select, textarea, summary, [tabindex]").count() + 2;
+      for (let n = 0; n < limit; n++) {
+        if (await target.evaluate(el => el === document.activeElement)) break;
+        await page.keyboard.press("Tab");
+      }
+      await expect(target, `${label} is reachable with Tab`).toBeFocused();
+      return target;
+    };
+    try {
+      const opener = page.locator(".ng-logo");
+      await opener.focus(); // only the starting point is placed programmatically
+      await page.keyboard.press(entry === "drawer" ? "Enter" : "/");
+      await expect(page.locator(".ng-explorer")).toBeVisible();
+      await expect.poll(() => [...held].sort(), { message: "both real cold index requests are held" }).toEqual(["concepts", "systems-index"]);
+      const path = await tabTo("[data-view='challenges']", "Path");
+      await page.clock.runFor(100);
+      await expect(path, "opening search cannot steal the next Path key").toBeFocused();
+      for (const [i, field] of ["systems", "concepts"].entries()) {
+        releases[i]();
+        await expect.poll(() => page.evaluate(key => (window as any).__neural[key]?.length || 0, field), { message: `${field} landed` }).toBeGreaterThan(0);
+        await expect(path, `${field} landing preserves the keyboard-selected Path`).toBeFocused();
+      }
+      await page.keyboard.press("Enter");
+      await expect(page.locator(".ng-track-card"), "Enter on Path opens all five tracks").toHaveCount(5);
+      const black = await tabTo("[data-track='black']", "Black belt");
+      await expect(black).toHaveAttribute("aria-pressed", "false");
+      await page.keyboard.press("Enter");
+      await expect(black, "Enter selects the advanced track").toHaveAttribute("aria-pressed", "true");
+      await tabTo(".ng-explorer-close", "Close");
+      await page.keyboard.press("Enter");
+      await expect(page.locator(".ng-explorer")).toBeHidden();
+      await page.clock.runFor(1);
+      await expect(opener, "closing the pane returns focus to its keyboard opener").toBeFocused();
+    } finally {
+      for (const release of releases) release();
+      await page.clock.resume();
+    }
   });
 
   test("reward feedback stays polite, focus-safe, and softly deduplicated", async ({
