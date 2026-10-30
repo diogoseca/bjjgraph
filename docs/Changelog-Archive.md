@@ -13343,3 +13343,9 @@ no hub/content behavior was changed. Payload: eager raw 1,370,180 → 1,370,207 
 342,629 → 342,643 B (+14), deferred unchanged at 506,815 / 506,817 B. The eager policy delta is
 3,058 / 5,000 B above its accepted checkpoint; no budget was raised. Browser runs used private
 port 18174 after heavy-advisory GO, outside the build lock.
+
+**VIDEO1 CI follow-up:** the automatic reader resolves the player seat before asking the role-URL
+helper: a Bottom roll can still carry the Top representative as its landing node. This preserves
+the existing Bottom-article contract. Eleven existing arrival, Explore, late-reader and map-input
+assertions now expect the requested explicit Top path while retaining their node identity,
+camera, history, race and hit-testing checks. A second source control restores the reader regression.

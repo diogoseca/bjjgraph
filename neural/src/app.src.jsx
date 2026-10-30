@@ -15043,7 +15043,9 @@ class Component extends DCLogic {
   // request it after the real hand mounts; content arrivals prepare dormant controls.
   _queueReader(node, side) {
     if (this._readerIntent || this._reader?.interacting || !node) return;
-    let path = this._nodeUrlPath(node.idx);
+    // A live landing may retain the representative node while the player is Bottom.
+    // Resolve that seat before asking the shared role-URL helper for its article.
+    let path = this._nodeUrlPath(this._seatMember(node.idx, this.playerRole));
     if (path && !/\/(Top|Bottom|Attacker|Defender)$/i.test(path))
       path += "/" + (node.ty === "positions" ? (this.playerRole === "bottom" ? "Bottom" : "Top") : (side === "defender" ? "Defender" : "Attacker"));
     // D-351: the request names its landing, and the reader holds that landing's card and hand

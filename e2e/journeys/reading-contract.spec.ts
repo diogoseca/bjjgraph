@@ -289,7 +289,7 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   await page.locator('.ng-explorer-search input').fill('Mount')
   await page.waitForTimeout(450) // the pane's CSS slide must settle before a coordinate click
   await j.clickByMouse('div:has(> [data-list-surface="explore"][data-list-add="Positions/Mount"]) > button:first-child')
-  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/Positions/Mount')
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/Positions/Mount/Top')
   release()
   await expect.poll(() => settled).toBe(true)
   await page.waitForTimeout(100)
@@ -307,10 +307,11 @@ test('@curated a late response cannot repaint the opposite seat in the same read
       current: !!card && !!document.querySelector('[data-reader]')?.contains(card) && e.getAttribute('href') === '#' + card.id,
       heading: card?.querySelector('.ng-section-title')?.textContent }
   }))
+  // The explicit Top article omits the hub's comparison and opposite-role summaries.
+  // Keep the exact current-role TOC and every link's semantic target, after the held Bottom response.
   const expected = [
     ['videos', 'Videos'], ['hand', 'Moves'], ['card', 'Questions'], ['overview', 'Overview'], ['principles', 'Essential principles'],
     ['prerequisites', 'Prerequisites'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
-    ['role-comparison', 'Role comparison'], ['bottom-summary', 'Bottom overview'], ['top-summary', 'Top overview'],
     ['training', 'Training'], ['statistics', 'Statistics'], ['related', 'Related'],
   ]
   expect(toc, 'every current Top label points to its own nonempty semantic section').toEqual(
