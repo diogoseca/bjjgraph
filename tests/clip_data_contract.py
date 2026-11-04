@@ -239,6 +239,38 @@ class EscapeClipContract(unittest.TestCase):
             target.write_text(text)
             self.assertEqual(guard.guard("x.json", text), (0, False))
 
+    def test_removing_one_row_of_several_is_put_back_and_still_validates_before_it(self):
+        """R334FIX: the quiet failure. One row goes, the others remain, and validate_json still says Valid."""
+        import restore_curated_clips as guard
+        from _clips import escape_labels
+        first, second = escape_labels(self.record())[:2]
+        original = self.record({"escape": first, "clips": [clip(front=True)]},
+                               {"escape": second, "clips": [clip("bbbbbbbbbbb", front=True)]})
+        edited = copy.deepcopy(original)
+        del edited["defender"]["escape_clips"][1]
+        self.assertEqual(validate_escape_clip_rows(edited), [], "this is why validation alone cannot catch it")
+        with tempfile.TemporaryDirectory() as tmp, patch.object(guard, "ROOT", Path(tmp)):
+            target = Path(tmp) / "x.json"
+            target.write_text(json.dumps(edited))
+            self.assertEqual(guard.guard("x.json", json.dumps(original)), (1, False))
+            self.assertEqual(json.loads(target.read_text())["defender"]["escape_clips"],
+                             original["defender"]["escape_clips"])
+
+    def test_rewording_only_the_action_behind_one_row_reverts_the_file(self):
+        """R334FIX: rows intact, one option's action reworded, so its card label moves and the row is orphaned."""
+        import restore_curated_clips as guard
+        data = self.record()
+        action = data["defender"]["defensive_options"][0]["action"]
+        label = self.label()
+        self.assertTrue(action.startswith(label), "the fixture's first card comes from its first option")
+        original = self.record({"escape": label, "clips": [clip(front=True)]})
+        edited = copy.deepcopy(original)
+        edited["defender"]["defensive_options"][0]["action"] = "Reworded " + action
+        self.assertTrue(validate_escape_clip_rows(edited), "validation names the orphan once the guard has looked")
+        with tempfile.TemporaryDirectory() as tmp, patch.object(guard, "ROOT", Path(tmp)):
+            (Path(tmp) / "x.json").write_text(json.dumps(edited))
+            self.assertTrue(guard.guard("x.json", json.dumps(original))[1])
+
     def test_every_direct_edit_bot_runs_the_guard_before_it_validates(self):
         for name in ("content-improvement-bot", "analytics-content-improvement", "proofread-bot"):
             flow = (ROOT / ".github/workflows" / (name + ".yml")).read_text(encoding="utf-8")
