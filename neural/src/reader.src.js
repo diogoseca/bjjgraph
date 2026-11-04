@@ -249,6 +249,7 @@ class Reader {
     if (!article) throw new Error("This page has no article.");
     return {
       title: doc.querySelector("h1.article-title, .article-title, h1")?.textContent?.trim() || doc.title.split(" | ")[0],
+      tab: doc.title,
       html: article.innerHTML,
     };
   }
@@ -297,7 +298,7 @@ class Reader {
       if (this.app.explorerSearchRef.current) this.app.explorerSearchRef.current.value = "";
       this.highlightReference(path, serial);
     }
-    if (push) history.pushState({ ...history.state, ngReading: true }, "", url.pathname + url.search + url.hash);
+    push = push && !this.app._writeUrl(url, { ngReading: true });
     this.root.dataset.readerPath = path;
     this.root.dataset.readerReady = "false";
     if (this.contents) this.contents.hidden = true;
@@ -319,6 +320,7 @@ class Reader {
         if (roleLink) { context = record; guidePath = roleLink.pathname; guide = await this.page(guidePath, controller.signal); }
       }
       if (serial !== this.serial || this.app.__ngDestroyed) return;
+      this.app._writeUrl(push ? url : undefined, push && { ngReading: true });
       this.render(record.title, guide, guidePath, context, hub);
       this.root.dataset.readerReady = "true";
       this.sync();
@@ -330,7 +332,7 @@ class Reader {
     } catch (error) {
       if (serial !== this.serial || error.name === "AbortError" || this.app.__ngDestroyed) return;
       this.articleEl.replaceChildren(element("p", { role: "alert" }, error.message),
-        button("Retry article", () => this.open({ path, intent, push: false }), { "data-reader-retry": "" }),
+        button("Retry article", () => this.open({ path, intent, push }), { "data-reader-retry": "" }),
         element("a", { href: path, target: "_blank", rel: "noopener" }, "Open the original page in a new tab"));
     }
   }
@@ -678,7 +680,7 @@ class Reader {
       this.toggleSection(section.dataset.sectionType, true); this.layoutNow();
     }
     this.scrollTo(node.classList.contains("ng-section-source-title") ? section.querySelector("[data-section-toggle]") : node);
-    history.replaceState({ ...history.state, ngReading: !!this.intent }, "", this.path + hash);
+    this.app._writeUrl(this.path + hash, { ngReading: !!this.intent }, true);
   }
   scrollTo(node, focus = node) {
     // U65 leaves no painted game Videos card. Both its disclosure and index navigate to

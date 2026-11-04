@@ -167,6 +167,9 @@ jobs:
       - name: Payload budget (gate)
         run: npm run validate:payload
 
+      - name: App titles match every built node and reference page
+        run: npm run validate:page-titles
+
       # Every displayed placeholder fails, with or without a configured ref.
       - name: Systems payload gate (dead highlights + dead affiliate links)
         env:

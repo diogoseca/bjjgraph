@@ -1317,9 +1317,16 @@ class Component extends DCLogic {
     try {
       this._onNeuralPopstate = () => {
         if (!this._progressCurrent()) return;
+        this._writeUrl();
         if (history.state?.ngReading || this._readerIntent) { this._readArticle(location.pathname + location.hash, true, false); return; }
         const hit = this._nodeAndRoleForPath(location.pathname);
-        if (hit.idx >= 0) this.rollFromPosition(hit.idx, true, hit.role);
+        if (hit.idx >= 0) {
+          // Restore the entry, including a hub URL, without pushing a role URL
+          // over it. Quartz is concurrently fetching this same history entry.
+          this._urlRestoring = true;
+          try { this.rollFromPosition(hit.idx, true, hit.role); }
+          finally { this._urlRestoring = false; }
+        }
         // ...and Back onto a concept or system page re-opens that page, the same way arriving on
         // it does. Without this the address bar said "Principles/Frames" and the pane showed
         // whatever it was showing before.
@@ -11151,7 +11158,7 @@ class Component extends DCLogic {
     this.fx("url_fault", { kind: kind, path: String(path || "").slice(0, 200), error: (e && e.name) || String(e), n: this._urlFaults });
   }
   _syncUrl(idx, replace = false) {
-    if (this._readerIntent) return; // the reader owns one canonical history entry, including its seat/hash
+    if (this._readerIntent || this._urlRestoring) return; // reader/popstate own their canonical entry
     const path = this._nodeUrlPath(idx); if (!path) return;
     this._pushUrl(path, { ngNode: this.nodes[idx].id }, replace);
   }
@@ -11160,10 +11167,47 @@ class Component extends DCLogic {
       if (/^\/l\//.test(location.pathname)) return;
       // compare DECODED spellings through the non-throwing decoder: a stray "%" in the current
       // address used to throw right here, on every push, for the rest of the session
-      if (this._decodePath(location.pathname) === this._decodePath(path)) return;
-      history[replace ? "replaceState" : "pushState"](
-        { ...history.state, ...state }, "", encodeURI(path) + location.search);
+      if (this._decodePath(location.pathname) === this._decodePath(path)) { this._writeUrl(); return; }
+      this._writeUrl(encodeURI(path) + location.search, state, replace);
     } catch (e) { this._urlFault("push", path, e); }
+  }
+  // The title names the URL, not the current game seat or the reader's contextual
+  // article. These are the existing template titles, including Systems' own suffix.
+  // The built-site gate compares every wire hub/role and reference index entry.
+  _pageTitle(path) {
+    const id = this._decodePath(new URL(path, location.href).pathname).replace(/\.html$/, "");
+    const role = /\/(Top|Bottom|Attacker|Defender)$/.exec(id)?.[1] || "";
+    const base = role ? id.slice(0, -role.length - 1) : id;
+    const n = this.nodes?.[this._idIndex?.get(base)];
+    if (n) {
+      const position = n.ty === "positions", name = position ? n.t.replace(/ Top$/, "") : n.t;
+      const kind = position ? "Position Guide" : role === "Defender" ? "Defense Guide" :
+        (n.ty === "transitions" ? "Technique" : "Submission") + (role === "Attacker" ? " Guide" : "");
+      return name + (role ? " " + role : "") + " | BJJ " + kind + " | BJJ Graph";
+    }
+    const concept = this._conceptsById?.[id], system = this._systemsById?.[id];
+    if (concept) return (concept.title || concept.name) + " | BJJ " + concept.cat + " | BJJ Graph";
+    if (system) return (system.display_title || system.name) + " | BJJGraph";
+    // Non-wire pages (for example submission families) already arrive as complete
+    // reader HTML. Reuse its exact head title; never invent one from a slug.
+    return this._reader?.cache.get("/" + id)?.tab || null;
+  }
+  // One URL/title writer for map navigation, reader push/replace and popstate.
+  // No state means refresh the current title without touching history. A late
+  // reader response therefore cannot rename a newer route. Publish the title
+  // before History's synchronous observers run. /l/ graph navigation returns in
+  // _pushUrl above, preserving the share preview's address AND title.
+  _writeUrl(path = location.href, state, replace = false) {
+    const before = document.title;
+    try {
+      const title = this._pageTitle(path);
+      // The reader retries a non-indexed page after its already-requested HTML
+      // supplies the title, keeping the history entry and tab text atomic.
+      if (!title && state) return false;
+      if (title) document.title = title;
+      if (state) history[replace ? "replaceState" : "pushState"]({ ...history.state, ...state }, "", path);
+      return true;
+    } catch (e) { document.title = before; this._urlFault("push", path, e); }
   }
   /** the node a path names, or -1. Used by boot-seeding and by Back/Forward. */
   _nodeForPath(path) {
