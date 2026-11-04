@@ -13587,8 +13587,9 @@ source restoration checks.
 
 Local gates on 4 November: the seven new journeys and 58 affected journeys passed (video cards,
 submission choices, roll execution, card click contracts and the first-hand payload gate), one
-worker on a private port under the shared build lock. The rebuilt `neural.js` grew 226 raw bytes
-against base `1308bf0dd`'s committed app fingerprint. `tests/artifacts/first_hand_payload.json`
+worker on a private port under the shared build lock. The version-normalised `neural.js` fingerprint
+grew 316 bytes (675,399 → 675,715) against base `1308bf0dd`; its actual emitted size is 675,625 bytes.
+The earlier 226-byte figure mixed raw and normalised sizes. `tests/artifacts/first_hand_payload.json`
 records 361,961 core gzip bytes, 3,335 below the accepted 365,296-byte baseline; the 6,000-byte delta
 cap and all payload thresholds stayed unchanged. The full site build, app refresh and payload
 validator passed.
