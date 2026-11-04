@@ -160,6 +160,27 @@ description: "Defend the Rear Naked Choke from Body Triangle with chin protectio
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Body Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "TMG Clips #67 - Escape The RNC",
+      "description": "Rear Naked Choke from Body Triangle (Defender) film study: TMG Clips #67 - Escape The RNC.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R6W9P4_SMzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R6W9P4_SMzY",
+      "url": "https://www.youtube.com/watch?v=R6W9P4_SMzY",
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -173,6 +194,24 @@ Defending against the Rear Naked Choke from Body Triangle is among the most dema
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Body Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R6W9P4_SMzY)
+
+<p class="clip-credit"><strong>TMG Clips #67 - Escape The RNC</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=R6W9P4_SMzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -375,7 +375,17 @@
       }
     ],
     "safety_considerations": "This transition carries minimal injury risk as it involves guard reconfiguration rather than joint manipulation or submission attempts. The primary safety concern is protecting your own knees during the leg threading motion, particularly if the opponent drives forward pressure while your leg is in a compromised position between guard configurations. Avoid forcing the leg thread against strong resistance, as lateral pressure on the knee during threading can strain the medial collateral ligament. If you feel joint stress during the threading motion, abort the transition and return to worm guard. Communicate with training partners about appropriate resistance levels when drilling this transition.",
-    "clips": []
+    "clips": [
+      {
+        "id": "fQTBObybYOI",
+        "title": "'Worm Guard' Set up and Entry into 'Squid Guard'",
+        "channel": "Neale Hoerle Brazilian Jiu Jitsu",
+        "duration": 73,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Worm to Squid Guard Defender",

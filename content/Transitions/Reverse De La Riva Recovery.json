@@ -384,7 +384,17 @@
       }
     ],
     "safety_considerations": "RDLR recovery techniques are generally low-risk but practitioners should be aware of potential knee and ankle stress. During hip escape movements, avoid explosive rotations that could strain the RDLR hook knee, especially if the opponent has significant weight on your leg. When reinserting the hook, ensure your ankle has sufficient flexibility to curve around opponent's leg without forcing the position—tight ankles attempting deep hooks can result in sprains. During training, communicate with partners about pressure levels, particularly when they are driving forward during recovery attempts. Partners should recognize taps or verbal cues if pressure becomes uncomfortable on the bottom player's joints. As the bottom player, do not sacrifice joint health to retain position—accepting a pass and resetting is always preferable to forcing movements that risk injury. Beginners should focus on slow, controlled technique rather than speed and power during initial learning phases.",
-    "clips": []
+    "clips": [
+      {
+        "id": "yI9J3Bem0Co",
+        "title": "reverse Dela riva retention drill",
+        "channel": "James Fisher",
+        "duration": 250,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse De La Riva Recovery Defender",
@@ -548,7 +558,17 @@
         "description": "Extended rolling rounds where passing RDLR is the primary focus. Develop the ability to transition from initial hook clearance through recovery denial to completed pass as one continuous sequence rather than separate phases. Add scoring consequences to simulate competition urgency."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "K3qRyXTPixY",
+        "title": "Reverse De La Riva Guard Recovery Counter Pass",
+        "channel": "Kameron Ross",
+        "duration": 68,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

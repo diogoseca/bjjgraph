@@ -424,6 +424,15 @@
     ],
     "clips": [
       {
+        "id": "6LP7Ssy2nOk",
+        "title": "Outside-In Calf Slicer from 50/50",
+        "channel": "JiuJitsu.com",
+        "duration": 300,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "d4KgnwWTkuk",
         "title": "5050 Calf Slicer",
         "channel": "The Jiu-Jitsu Foundry",
@@ -616,6 +625,16 @@
         "description": "Full resistance positional sparring from backside 50-50 bottom. Balance heel hook defense with calf slicer awareness. Practice transitioning between defensive postures without becoming predictable against the complete top attack system."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "UIaZYXwrDJM",
+        "title": "Calf Slicer defense",
+        "channel": "Warrior Combat Academy",
+        "duration": 21,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

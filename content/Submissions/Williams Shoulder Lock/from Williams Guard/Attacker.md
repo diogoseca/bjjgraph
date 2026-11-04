@@ -178,6 +178,27 @@ description: "Learn to attack with the Williams Shoulder Lock from Williams Guar
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Williams Shoulder Lock from Williams Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Learn Nasty Shoulder Lock In Under 60 seconds -Williams Guard - Usher BJJ",
+      "description": "Williams Shoulder Lock from Williams Guard (Attacker) film study: How to Learn Nasty Shoulder Lock In Under 60 seconds -Williams Guard - Usher BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nDDWcu1JALo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nDDWcu1JALo",
+      "url": "https://www.youtube.com/watch?v=nDDWcu1JALo",
+      "duration": "PT49S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Williams Shoulder Lock from Williams Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nDDWcu1JALo)
+
+<p class="clip-credit"><strong>How to Learn Nasty Shoulder Lock In Under 60 seconds -Williams Guard - Usher BJJ</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=nDDWcu1JALo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

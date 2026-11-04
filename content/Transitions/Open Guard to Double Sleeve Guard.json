@@ -362,7 +362,18 @@
       }
     ],
     "safety_considerations": "This transition involves sustained grip fighting which can cause finger and forearm injuries over time. Use proper pistol grip technique to distribute load across all fingers rather than relying on fingertip grips. Release grips immediately if you feel sharp pain in finger joints or tendons. Avoid forcing grip acquisition against explosive resistance that could hyperextend your fingers. Tape fingers prophylactically if you train this position frequently. Communicate with training partners about grip intensity during drilling to prevent accidental joint injuries.",
-    "clips": []
+    "clips": [
+      {
+        "id": "gYtjQ70nhjA",
+        "title": "Double Sleeve Guard System - Setting up Double Sleeve Guard from Single Sleeve…",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 224,
+        "vertical": false,
+        "start": 115,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Open Guard to Double Sleeve Guard Defender",
@@ -519,6 +530,17 @@
         "description": "Positional sparring from open guard where top player must prevent double sleeve establishment and convert directly to passing. Partner attempts full double sleeve transition with 80-100% resistance. Top player chains grip prevention and breaks into toreando, knee slice, or pressure passing."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "eTYDVOtBAYg",
+        "title": "Passing Open Guard: dealing with double sleeve grips and space management",
+        "channel": "Meerkatsu's BJJ Videos",
+        "duration": 830,
+        "vertical": false,
+        "start": 54,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

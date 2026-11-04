@@ -13464,6 +13464,63 @@ Reader JS is 42,484 B, CSS remains 10,889 B, and deferred payload is **506,815 /
 zero shortfall, no ceiling increase. The earlier shard-1 Moves-label failure remains unproven; this fix
 changes only media-control navigation and does not alter the Moves input path.
 
+## v1.241.1 — Position orb URLs name their role (VIDEO1, 2026-10-30)
+
+The Top member of a dual pair keeps its hub id and share ordinal. `_nodeUrlPath` also used that
+id as the page URL, so a native Bottom → Top click during map play opened `/Positions/Half-Guard`
+instead of `/Positions/Half-Guard/Top`; keyboard activation of its Explore search result did the
+same. Half Guard, Side Control, Mount and Closed Guard all reproduced both entry paths on dev
+e3d407825. Fresh role-page arrivals already worked in both directions on that dev build and
+production v1.240.1: the deferred reader had its own suffix workaround.
+
+The shared URL boundary now adds `/Top` for a Top position member. Node ids, pair ids, share
+ordinals, list identity, adjacency and technique paths are unchanged. The new journey asserts
+both URL and focused member through 16 native orb clicks and four keyboard activations across
+those four positions. Together with the existing URL-arrival journeys, 20/20 tests pass. The
+`position-top-url-is-hub` source mutant is killed by both named Half Guard map-click and keyboard
+URL assertions; reader arrivals alone do not kill it. URL units additionally cover all 264
+position members and the existing 2,842-node round-trip sweep.
+
+The real dev Half Guard hub shows a visible Top video card with two authored clips at 1440×900;
+no hub/content behavior was changed. Payload: eager raw 1,370,180 → 1,370,207 B, eager gzip
+342,629 → 342,643 B (+14), deferred unchanged at 506,815 / 506,817 B. The eager policy delta is
+3,058 / 5,000 B above its accepted checkpoint; no budget was raised. Browser runs used private
+port 18174 after heavy-advisory GO, outside the build lock.
+
+**VIDEO1 CI follow-up:** the automatic reader resolves the player seat before asking the role-URL
+helper: a Bottom roll can still carry the Top representative as its landing node. This preserves
+the existing Bottom-article contract. Eleven existing arrival, Explore, late-reader and map-input
+assertions now expect the requested explicit Top path while retaining their node identity,
+camera, history, race and hit-testing checks. A second source control restores the reader regression.
+
+## v1.241.1 — Title-fix CI contracts (VIDEO2 CI, 2026-11-04)
+
+All three failures in #331's run 41829898270 were stale test contracts. At both 1440px and
+390px, the unknown-section fixture supplied only a body, unlike all 6,102 built HTML pages,
+which have nonempty head titles. Its missing title correctly withheld the new atomic URL/title
+publication. The fixture now supplies a complete page and asserts its pathname and title as well
+as the original anchor hash, section reopening, focus, content preservation and paused state.
+The original anchor cases failed 10/10 on 862bee788 and passed 10/10 on dev e3d407825.
+
+The map-arrival camera assertion sampled two clocks: the simulation had settled against a
+586px boundary before native reader layout moved that boundary to 532.90625px. The original
+spec reproduced the exact CI discrepancy of 2.7017383711347023 on both heads: twice in 30
+fixed-head repetitions and once in 20 dev diagnostics. Waiting for the reader's actual layout
+publication before pumping the camera fixes the observation order. It does not poll the desired
+framing, add a delay or change any zoom, clearance or two-unit target bound. All three repaired
+cases pass ten repetitions each (30/30, zero skips). No application source, payload ceiling,
+version or app fingerprint changes in this follow-up.
+
+`tests/artifacts/title_ci_mutants.json` records two compiled source controls:
+`drop-reader-anchor-url` fails the original `#legacy-notes` assertion at both widths, with the
+camera control green; `suppress-staged-camera-retarget` fails the original re-aim assertion,
+with both anchor controls green. Healthy and restored controls pass 3/3 each. Source hashes and
+all 42 asset hashes (14 files across dist, Quartz static and public) match the accepted title
+receipt after restoration.
+
+The complete affected `article-sections` and `url-arrival` files pass **53/53** cases, with zero
+skips or retries, on the restored bytes. Browser runs use one worker, anchored file filters and
+private port 18274 after heavy-advisory GO; every app and mutant build holds the shared lock.
 
 ## v1.242.0 — SIDECX5: catch input ownership and the article-dashboard merge
 
@@ -13600,3 +13657,64 @@ passing browser control: `escape_target`, `escape_queue`, `escape_label`, `escap
 `threat_escape_excluded`. Results and source hashes are committed in
 `tests/artifacts/escape_clips_mutants.json`. The runner restored the source byte-for-byte and
 rebuilt the healthy bundle; there were no surviving mutants.
+
+## v1.242.1 — Merge the drawer release into the URL/title fix (V331DEV1)
+
+PR #331 merges dev 1308bf0dd (the v1.242.0 drawer release) without rebasing.
+The role URL, exact tab-title writer and repaired CI contracts remain alongside
+the drawer and reader-position changes. Both package manifests now use 1.242.1;
+the following app-only fingerprint commit regenerates its rows from this clean
+merged source. The guarded site census is unchanged; no capture is required.
+
+## v1.246.0 — per-escape clips: `defender.escape_clips` (owner ESC1)
+
+Every submission escape card showed "Video unavailable" by design: 1,049 choices across 287 submissions, because
+v1.230.0 forbids a destination's video or the submission's general defender reel for a named escape. The owner chose a
+clip of THAT escape or nothing. This change is the content side; the card itself is a separate app PR.
+
+**Shape.** `defender.escape_clips: [{escape, clips[]}]`, joined on the exact card label `compile_defenses` prints.
+- Not on an outcome: Americana from Side Control has 4 cards on 2 outcomes.
+- Not inside `defensive_options[i]`: that row is `details[i]`, which `response_identity` hashes into each defense's MDP id.
+- Emitted as `perspectives.defender.escapes` in the dossier chunk, which `_drainChoiceMedia` already hydrates, and NOT in
+  submission-details, whose bytes feed `detailsHash`. `scripts/submission_choices.py` and `regenerate_neural_data.py` are
+  untouched for the same reason: both are hashed into MDP provenance.
+
+**Failure modes, each with a test in `tests/clip_data_contract.py`.** A row naming no card fails validation and names
+itself. The AI schema never sees the key, `restore_clips` puts it back, and a reworded action that would orphan a row
+fails preservation. `_clips.iter_clips_arrays` yields each row, or clips-verify would report full coverage while skipping
+them. The emit prints a positive join count and fails under `ESCAPE_CLIP_JOIN_FLOOR`.
+
+**Mutants.** 9 of 9 killed by their named tests: rot check skips rows, AI schema keeps the key, restore skips the key,
+reword not caught, orphan passes, duplicate row passes, front rules skip rows, dossier drops escapes, override join broken.
+
+**Bytes.** One clip row is 131 B mean and 170 B max on the wire, measured on the 268 real defender rows of submissions.
+Dossiers count against `chunk_max_bytes` (40,000; largest submission chunk 25,499), not `deferred_raw_bytes`.
+
+**First data.** Escape labels are micro-actions ("Grip your own belt") that no title carries, so title search cannot find
+them. Each defence video's captions were indexed with timestamps, cards were matched to indexed moments, and a second
+independent judge read the excerpt. Each clip starts at the second that shows the escape. Transcripts stayed private.
+
+**Review (R1, R2).** The review found two gaps. Three bots edit source JSON directly, and a file that loses every clip
+still validates, because `clips` is optional: `scripts/restore_curated_clips.py` now runs after each direct edit and
+before validation, with HEAD as the snapshot, and reverts a file a reword left orphaned. `restore_clips` moved to
+`_clips.py` so that script and the paid pass share one implementation. The corpus validator now prints the join and fails
+under `ESCAPE_CLIP_JOIN_FLOOR`, since per file a record with no rows is fine and only a corpus walk can tell "all joined"
+from "nothing to join". Mutants now 13 of 13.
+
+**Technique clips, folded in (CAPORDER1, one capture for both).** The gap was 1,623 of 2,578 halves: 1,478 empty, and 145
+with clips but no approved front, which `_choiceFront` refuses. Dead clips were not a cause: the November rot check passed
+1,659 of 1,659. This batch gives 325 of those halves a front with 423 clips, and 67 escape cards a clip.
+
+Method, for every pick: search with queries written per technique (two routes, 20 per half at most), a first judge on
+title, channel and description, an embed check, the full description and captions fetched fresh, then a second independent
+judge reading them. October's ban list was rebuilt first, 443 ids everywhere plus a per-half ban, so nothing that curation
+refused comes back. A clip ships only with an accept and read evidence. 16 accepts that rested on a title alone are held
+for a visual check: that is the evidence class October's QC failed on. Of the 100 most-dealt halves 41 have a clip; most
+of the rest are defender halves of transitions, which instructors rarely film, and "no video beats a wrong one" stands.
+
+**Spec (SPEC334).** `defending-landing.spec.ts` named five pages as "the authored clip gap", and this PR gave one of them a clip, so
+the reel correctly appeared and the spec went red: a stale fixture, not a break. The claim now picks its pages from the wire
+(`defenderReels()` in `e2e/decks.ts`): any authored defender half with zero clips, first, middle and last, failing on zero. A new
+control proves a filled half does mount its reel in wire order, which the gap tests alone would not notice. Mutants, measured:
+`_landFilmClips` returning [] and `_renderLandFilm` dropping its length check turns all three gap tests red with the control green.
+Either guard alone leaves all three green, because each covers the other. The spec file is 33 of 33 clean.

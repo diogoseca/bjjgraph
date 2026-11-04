@@ -360,7 +360,26 @@
       }
     ],
     "safety_considerations": "The Short Choke Attack is a blood choke that compresses the carotid arteries and can produce unconsciousness within seconds when properly applied. Training partners must tap immediately when they feel the choke tighten. Attackers must release pressure instantly upon feeling a tap or verbal submission. Never hold a choke after the tap, and never apply the choke explosively or with cranking neck pressure. In drilling, apply the choke slowly to allow partners time to recognize and tap to the submission. Be especially careful with newer training partners who may not recognize the sensation of a blood choke versus an air choke. If a training partner loses consciousness, release immediately and position them in recovery position. The Short Choke should only be practiced under qualified instruction with attentive training partners.",
-    "clips": []
+    "clips": [
+      {
+        "id": "_NZYsO5P6SA",
+        "title": "No-Gi - Side - Attacks - Gift wrap choke",
+        "channel": "SlothGuard",
+        "duration": 16,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "ADtdKI0M5hk",
+        "title": "Giftwrap Choke",
+        "channel": "Daniele Bolelli",
+        "duration": 145,
+        "vertical": false,
+        "start": 22,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Short Choke Attack Defender",

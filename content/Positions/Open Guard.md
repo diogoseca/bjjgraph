@@ -265,6 +265,8 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (9% of attempts)
 
+- **[[Transitions/Open Guard to Demi Guard/Attacker|Open Guard to Demi Guard]]** (gi only)
+
 
 ### Common Mistakes
 
@@ -412,6 +414,8 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 - **[[Positions/Seated Guard]]** - Upright open guard variation with different angle dynamics
 
 - **[[Positions/Headquarters Position]]** - Transitional passing position during open guard top sequences
+
+- **[[Positions/Demi Guard]]** - Gi lapel-guard connection using a collar grip, lapel behind the knee and foot on the tail
 
 
 </section>

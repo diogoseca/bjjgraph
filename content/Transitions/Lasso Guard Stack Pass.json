@@ -394,7 +394,25 @@
       }
     ],
     "safety_considerations": "The stack pass places significant pressure on the bottom player's cervical spine and neck as their hips are driven over their shoulders. Apply stacking pressure gradually and progressively rather than explosively dropping weight. Be especially cautious with less flexible training partners who may experience dangerous spinal compression before showing obvious discomfort. If your partner signals any pain in their neck or upper back during drilling, immediately reduce pressure and adjust your angle. Never force a deep stack against a partner who cannot tolerate the spinal flexion. During competition, be aware that aggressive stacking combined with the lasso control can create cervical compression that may lead to injury if the bottom player does not tap or verbally communicate distress.",
-    "clips": []
+    "clips": [
+      {
+        "id": "87KLJO21PvE",
+        "title": "Lasso guard stack pass [Both side right & left]",
+        "channel": "BJJ Anatomy",
+        "duration": 44,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "cx7xVS3xuvs",
+        "title": "Thiago Ortiz | Passing the Spider Lasso Guard Using the Stack",
+        "channel": "Ortiz Martial Arts Academy",
+        "duration": 176,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Lasso Guard Stack Pass Defender",

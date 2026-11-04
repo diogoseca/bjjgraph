@@ -46,12 +46,22 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Late Kimura Defense from Bottom Side Control",
-      "description": "Kimura from Overhook Control film study: Late Kimura Defense from Bottom Side Control.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
-      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
-      "duration": "PT100S"
+      "name": "New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin",
+      "description": "Kimura from Overhook Control film study: New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/67Meai2C0LQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/67Meai2C0LQ",
+      "url": "https://www.youtube.com/watch?v=67Meai2C0LQ",
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy",
+      "description": "Kimura from Overhook Control film study: Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3f_RYd1W4s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3f_RYd1W4s?start=44",
+      "url": "https://www.youtube.com/watch?v=v3f_RYd1W4s",
+      "duration": "PT291S"
     }
   ]
 }
@@ -114,9 +124,17 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uRn3DRICpeY)
+![](https://www.youtube.com/watch?v=67Meai2C0LQ)
 
-<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=67Meai2C0LQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3f_RYd1W4s&start=44)
+
+<p class="clip-credit"><strong>Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=v3f_RYd1W4s&t=44s" rel="noopener">Watch on YouTube from 0:44</a></p>
 
 </div>
 

@@ -610,6 +610,24 @@
         "description": "Partner alternates between twister, calf slicer, and bow and arrow from truck. Defender must read which attack is coming and adjust defensive priorities accordingly. Develops the split-attention awareness needed to survive the truck's multi-threat system."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Iz0aesx6cKk",
+        "title": "Bow and arrow choke escape",
+        "channel": "Revolution BJJ",
+        "duration": 35,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "qmO8Jo22YDY",
+        "title": "bjj escape bow and arrow choke",
+        "channel": "kenprimo",
+        "duration": 66,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

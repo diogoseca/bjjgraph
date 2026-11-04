@@ -639,6 +639,24 @@
         "description": "Two-minute rounds starting in Kuzure Kesa Gatame bottom against 80-100% resistance. Goal is to defend all submission attempts and escape to guard or standing within the time limit. Track success rate across rounds to measure defensive improvement. Builds the composure, timing, and technical precision needed for real training and competition scenarios."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "qfoEZtys84k",
+        "title": "Bjj defense against the americana",
+        "channel": "Kevin Conan Bankens",
+        "duration": 42,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "DydAyqTlBWU",
+        "title": "How to Escape the Americana and Kimura Armlocks",
+        "channel": "Stephan Kesting",
+        "duration": 129,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

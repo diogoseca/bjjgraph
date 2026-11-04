@@ -36,6 +36,37 @@ description: "Master the Inverted Triangle in BJJ. Reverse-angle triangle choke 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted Triangle from Open Guard www.BJJAfter40.com",
+      "description": "Inverted Triangle film study: Inverted Triangle from Open Guard www.BJJAfter40.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pjh_GRD7XDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pjh_GRD7XDA",
+      "url": "https://www.youtube.com/watch?v=Pjh_GRD7XDA",
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inverted Triangle From Guard (BJJ/Jiu-Jitsu)",
+      "description": "Inverted Triangle film study: Inverted Triangle From Guard (BJJ/Jiu-Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sGEBKhs8_yo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sGEBKhs8_yo",
+      "url": "https://www.youtube.com/watch?v=sGEBKhs8_yo",
+      "duration": "PT227S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +105,32 @@ The biomechanics of the inverted triangle differ significantly from the standard
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pjh_GRD7XDA)
+
+<p class="clip-credit"><strong>Inverted Triangle from Open Guard www.BJJAfter40.com</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=Pjh_GRD7XDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sGEBKhs8_yo)
+
+<p class="clip-credit"><strong>Inverted Triangle From Guard (BJJ/Jiu-Jitsu)</strong> · 3:47 · <a href="https://www.youtube.com/watch?v=sGEBKhs8_yo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

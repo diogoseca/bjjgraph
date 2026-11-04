@@ -373,7 +373,18 @@
       }
     ],
     "safety_considerations": "The Sweep from Leg Hook is generally low-risk but practitioners should be mindful of knee stress on the hooking leg during aggressive sweeping motions, particularly when the hook gets caught at an awkward angle during the roll. Ensure the leg hook maintains natural knee alignment throughout the sweep by keeping your heel engaged rather than locking your ankle rigidly. Communicate with training partners about knee sensitivity before drilling. During initial practice, use cooperative repetitions at slow speed to develop proper movement patterns before adding resistance or speed. The follow-through phase carries risk of landing heavily on the opponent, so control your descent into mount rather than dropping full weight suddenly.",
-    "clips": []
+    "clips": [
+      {
+        "id": "MBBwCFkk3aQ",
+        "title": "Half Butterfly Guard - Retaining Butterfly and Butterfly Sweep",
+        "channel": "Aaron Benzrihem bjj",
+        "duration": 494,
+        "vertical": false,
+        "start": 89,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Leg Hook Defender",
@@ -550,6 +561,16 @@
         "description": "After successfully defending the sweep, immediately transition to a guard pass using the space and angle the bottom player created during their sweep setup. Practice chaining the defense into knee slice, leg drag, and pressure pass completions to develop the reflex of converting defense into offense."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Cr_5TyQu_k8",
+        "title": "Brazilian Jiu-Jitsu: Pedro Sauer Half Guard Butterfly Hook Counter",
+        "channel": "Pedro Sauer Jiu-Jitsu Association (PSBJJA)",
+        "duration": 87,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

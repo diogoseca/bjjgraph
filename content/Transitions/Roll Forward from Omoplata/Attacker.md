@@ -176,6 +176,27 @@ description: "Complete guide to executing the Roll Forward from Omoplata. Step-b
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Forward from Omoplata (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Travis Lutter Omoplata Sweep to Side Control",
+      "description": "Roll Forward from Omoplata (Attacker) film study: Travis Lutter Omoplata Sweep to Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ujD1jcDyF7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ujD1jcDyF7Y",
+      "url": "https://www.youtube.com/watch?v=ujD1jcDyF7Y",
+      "duration": "PT124S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing the Roll Forward from Omoplata, you are converting you
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Forward from Omoplata (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ujD1jcDyF7Y)
+
+<p class="clip-credit"><strong>Travis Lutter Omoplata Sweep to Side Control</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=ujD1jcDyF7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

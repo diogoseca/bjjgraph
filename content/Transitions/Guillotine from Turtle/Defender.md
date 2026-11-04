@@ -150,6 +150,37 @@ description: "How to defend against Guillotine from Turtle in BJJ. Recognition c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mark Mullen Brazilian Jiu-jitsu - Countering the guillotine from turtle",
+      "description": "Guillotine from Turtle (Defender) film study: Mark Mullen Brazilian Jiu-jitsu - Countering the guillotine from turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1VUjQZwegPc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1VUjQZwegPc",
+      "url": "https://www.youtube.com/watch?v=1VUjQZwegPc",
+      "duration": "PT257S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mastering Turtle bottom - Countering Guillotine chokes",
+      "description": "Guillotine from Turtle (Defender) film study: Mastering Turtle bottom - Countering Guillotine chokes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8nLD-zGG_5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8nLD-zGG_5w",
+      "url": "https://www.youtube.com/watch?v=8nLD-zGG_5w",
+      "duration": "PT829S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +195,32 @@ The defensive framework operates on a timeline: early recognition allows posture
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1VUjQZwegPc)
+
+<p class="clip-credit"><strong>Mark Mullen Brazilian Jiu-jitsu - Countering the guillotine from turtle</strong> · 4:17 · <a href="https://www.youtube.com/watch?v=1VUjQZwegPc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8nLD-zGG_5w)
+
+<p class="clip-credit"><strong>Mastering Turtle bottom - Countering Guillotine chokes</strong> · 13:49 · <a href="https://www.youtube.com/watch?v=8nLD-zGG_5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

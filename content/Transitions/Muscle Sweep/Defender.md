@@ -136,6 +136,27 @@ description: "How to defend against Muscle Sweep in BJJ. Recognition cues, defen
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Muscle Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed Guard \"Muscle Sweep\" Counter",
+      "description": "Muscle Sweep (Defender) film study: Closed Guard \"Muscle Sweep\" Counter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HRvNci4EU2c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HRvNci4EU2c",
+      "url": "https://www.youtube.com/watch?v=HRvNci4EU2c",
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -148,6 +169,24 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Muscle Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HRvNci4EU2c)
+
+<p class="clip-credit"><strong>Closed Guard &#34;Muscle Sweep&#34; Counter</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=HRvNci4EU2c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

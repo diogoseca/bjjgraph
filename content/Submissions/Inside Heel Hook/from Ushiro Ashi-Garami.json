@@ -444,7 +444,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "CE-249MNn5A",
+        "title": "Inside Heel Hook from Saddle Finishing Mechanics Explained",
+        "channel": "Mads H. BJJ",
+        "duration": 279,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Heel Hook from Ushiro Ashi-Garami Defender",

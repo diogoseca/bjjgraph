@@ -362,7 +362,17 @@
       }
     ],
     "safety_considerations": "The crossface applies significant pressure to the opponent's face, jaw, and cervical spine. Position your forearm across the jawline rather than the throat to avoid tracheal compression. In training, apply pressure gradually and release immediately upon tap signals. Be aware that extreme crossface pressure combined with full body weight can create cervical spine strain, particularly for smaller training partners. Never crank the head violently - use steady, controlled pressure that turns rather than torques the neck. Monitor your partner's breathing and reduce pressure if they show signs of respiratory distress.",
-    "clips": []
+    "clips": [
+      {
+        "id": "_7k06N-1p38",
+        "title": "Cross Face pass from Half Guard",
+        "channel": "Luiz Rosa TX",
+        "duration": 182,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Cross Face Pass from Flattened Half Defender",

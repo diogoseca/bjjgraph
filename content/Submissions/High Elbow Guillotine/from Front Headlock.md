@@ -46,6 +46,16 @@ description: "Master the High Elbow Guillotine from Front Headlock with elevated
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "High Elbow Guillotine from the Front Headlock",
+      "description": "High Elbow Guillotine from Front Headlock film study: High Elbow Guillotine from the Front Headlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l4FWC_kYKas/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l4FWC_kYKas",
+      "url": "https://www.youtube.com/watch?v=l4FWC_kYKas",
+      "duration": "PT248S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "High Elbow Guillotine aka Marcelotine",
       "description": "High Elbow Guillotine from Front Headlock film study: High Elbow Guillotine aka Marcelotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9U5nyBImGj4/hqdefault.jpg",
@@ -111,6 +121,14 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 
 <p class="section-subtitle">Watch High Elbow Guillotine from Front Headlock in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l4FWC_kYKas)
+
+<p class="clip-credit"><strong>High Elbow Guillotine from the Front Headlock</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=l4FWC_kYKas" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

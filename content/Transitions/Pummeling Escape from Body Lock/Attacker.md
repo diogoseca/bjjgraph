@@ -182,6 +182,27 @@ description: "Complete guide to executing the pummeling escape from body lock. L
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pummeling Escape from Body Lock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "MMA made EASY: Body Clinch Pummel Escape",
+      "description": "Pummeling Escape from Body Lock (Attacker) film study: MMA made EASY: Body Clinch Pummel Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g3SleYi4WW0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g3SleYi4WW0",
+      "url": "https://www.youtube.com/watch?v=g3SleYi4WW0",
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the attacker executing the pummeling escape, your objective is to systematica
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pummeling Escape from Body Lock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g3SleYi4WW0)
+
+<p class="clip-credit"><strong>MMA made EASY: Body Clinch Pummel Escape</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=g3SleYi4WW0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

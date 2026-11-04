@@ -36,6 +36,27 @@ description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep at
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "NEVER get Tripod swept again! The ultimate tripod sweep defense.",
+      "description": "Counter Sweep film study: NEVER get Tripod swept again! The ultimate tripod sweep defense..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HbJrdjEZk-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HbJrdjEZk-8?start=46",
+      "url": "https://www.youtube.com/watch?v=HbJrdjEZk-8",
+      "duration": "PT310S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -72,6 +93,24 @@ Against any sweep, the top player must recognize the early indicators: grip chan
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HbJrdjEZk-8&start=46)
+
+<p class="clip-credit"><strong>NEVER get Tripod swept again! The ultimate tripod sweep defense.</strong> · 5:10 · <a href="https://www.youtube.com/watch?v=HbJrdjEZk-8&t=46s" rel="noopener">Watch on YouTube from 0:46</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

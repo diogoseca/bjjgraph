@@ -176,6 +176,27 @@ description: "Master executing the level change takedown. Step-by-step guide cov
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Level Change Takedown (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Developing your wrestling shot from scratch: The basics of the penetration step",
+      "description": "Level Change Takedown (Attacker) film study: Developing your wrestling shot from scratch: The basics of the penetration step.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/--QDcfjIEAc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/--QDcfjIEAc?start=50",
+      "url": "https://www.youtube.com/watch?v=--QDcfjIEAc",
+      "duration": "PT416S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Executing the level change takedown requires coordinating multiple technical ele
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Level Change Takedown (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=--QDcfjIEAc&start=50)
+
+<p class="clip-credit"><strong>Developing your wrestling shot from scratch: The basics of the penetration step</strong> · 6:56 · <a href="https://www.youtube.com/watch?v=--QDcfjIEAc&t=50s" rel="noopener">Watch on YouTube from 0:50</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

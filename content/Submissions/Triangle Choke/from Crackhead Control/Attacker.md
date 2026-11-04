@@ -172,6 +172,27 @@ description: "A triangle from Crackhead Control requires changing the two-leg hi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Crackhead Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Choke from Rubber Guard",
+      "description": "Triangle Choke from Crackhead Control (Attacker) film study: Triangle Choke from Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/03s0m1_Jkxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/03s0m1_Jkxg",
+      "url": "https://www.youtube.com/watch?v=03s0m1_Jkxg",
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Crackhead Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=03s0m1_Jkxg)
+
+<p class="clip-credit"><strong>Triangle Choke from Rubber Guard</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=03s0m1_Jkxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

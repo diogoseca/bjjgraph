@@ -142,6 +142,27 @@ description: "How to defend against the Hook Sweep from Butterfly Guard in BJJ. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hook Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stop the Butterfly Hook Sweep!",
+      "description": "Hook Sweep (Defender) film study: Stop the Butterfly Hook Sweep!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QOcFJHA8Pcw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QOcFJHA8Pcw?start=31",
+      "url": "https://www.youtube.com/watch?v=QOcFJHA8Pcw",
+      "duration": "PT179S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -158,6 +179,24 @@ At the highest level, hook sweep defense transitions from pure survival into off
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hook Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QOcFJHA8Pcw&start=31)
+
+<p class="clip-credit"><strong>Stop the Butterfly Hook Sweep!</strong> · 2:59 · <a href="https://www.youtube.com/watch?v=QOcFJHA8Pcw&t=31s" rel="noopener">Watch on YouTube from 0:31</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

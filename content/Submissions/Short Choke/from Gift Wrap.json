@@ -441,7 +441,18 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "VnDcLU0GUWY",
+        "title": "Short Choke Setup",
+        "channel": "Jeremy Horn's Elite Performance",
+        "duration": 146,
+        "vertical": false,
+        "start": 65,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Short Choke from Gift Wrap Defender",

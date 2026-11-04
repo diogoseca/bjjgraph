@@ -182,6 +182,27 @@ description: "Learn to execute the Sweep from Leg Hook in BJJ. Step-by-step mech
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Leg Hook (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Butterfly Guard - Retaining Butterfly and Butterfly Sweep",
+      "description": "Sweep from Leg Hook (Attacker) film study: Half Butterfly Guard - Retaining Butterfly and Butterfly Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MBBwCFkk3aQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MBBwCFkk3aQ?start=89",
+      "url": "https://www.youtube.com/watch?v=MBBwCFkk3aQ",
+      "duration": "PT494S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ Executing the Sweep from Leg Hook requires coordinated upper and lower body mech
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Leg Hook (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MBBwCFkk3aQ&start=89)
+
+<p class="clip-credit"><strong>Half Butterfly Guard - Retaining Butterfly and Butterfly Sweep</strong> · 8:14 · <a href="https://www.youtube.com/watch?v=MBBwCFkk3aQ&t=89s" rel="noopener">Watch on YouTube from 1:29</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

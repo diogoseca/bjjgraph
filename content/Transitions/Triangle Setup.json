@@ -643,7 +643,26 @@
         "description": "Full positional rounds starting from closed guard top with partner free to attack with any closed guard technique including triangle setup. Defender focuses on proactive posture maintenance, grip fighting, and early disruption of triangle setups while also defending sweeps and other submissions. Track how often triangles are locked compared to early disruptions. Develop ability to flow between triangle defense and guard passing attempts without becoming fixated on either."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "sB5dfTqqG6o",
+        "title": "Avoiding triangle and armbars in closed guard",
+        "channel": "Inverted Gear",
+        "duration": 121,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "IlDU0EwL9o8",
+        "title": "How to Escape Triangle Chokes Early and Keep Passing The Guard",
+        "channel": "Chewjitsu",
+        "duration": 329,
+        "vertical": false,
+        "start": 32,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

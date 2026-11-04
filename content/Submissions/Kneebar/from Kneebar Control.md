@@ -46,22 +46,12 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026",
-      "description": "Kneebar from Kneebar Control film study: Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3zJthP57wXw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3zJthP57wXw",
-      "url": "https://www.youtube.com/watch?v=3zJthP57wXw",
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending Kneebar To Toe Hold",
-      "description": "Kneebar from Kneebar Control film study: Defending Kneebar To Toe Hold.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hze1WyTvkzA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hze1WyTvkzA",
-      "url": "https://www.youtube.com/watch?v=hze1WyTvkzA",
-      "duration": "PT24S"
+      "name": "Finishing Knee Bar. Control And Breaking Mechanics.",
+      "description": "Kneebar from Kneebar Control film study: Finishing Knee Bar. Control And Breaking Mechanics..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZs0vLcyvAo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mZs0vLcyvAo",
+      "url": "https://www.youtube.com/watch?v=mZs0vLcyvAo",
+      "duration": "PT282S"
     }
   ]
 }
@@ -124,17 +114,9 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3zJthP57wXw)
+![](https://www.youtube.com/watch?v=mZs0vLcyvAo)
 
-<p class="clip-credit"><strong>Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=hze1WyTvkzA)
-
-<p class="clip-credit"><strong>Defending Kneebar To Toe Hold</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=hze1WyTvkzA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finishing Knee Bar. Control And Breaking Mechanics.</strong> · 4:42 · <a href="https://www.youtube.com/watch?v=mZs0vLcyvAo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

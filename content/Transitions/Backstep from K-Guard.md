@@ -36,6 +36,27 @@ description: "Master the Backstep from K-Guard in BJJ. Extract your trapped leg 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from K-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Advanced K Guard Options! Countering the backstep \ud83d\udd25 Backside 50/50 and more",
+      "description": "Backstep from K-Guard film study: Advanced K Guard Options! Countering the backstep \ud83d\udd25 Backside 50/50 and more.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kyHs1S3t64Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kyHs1S3t64Y?start=53",
+      "url": "https://www.youtube.com/watch?v=kyHs1S3t64Y",
+      "duration": "PT237S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, the backstep serves as a pressure-release valve within the K-Guar
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from K-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kyHs1S3t64Y&start=53)
+
+<p class="clip-credit"><strong>Advanced K Guard Options! Countering the backstep 🔥 Backside 50/50 and more</strong> · 3:57 · <a href="https://www.youtube.com/watch?v=kyHs1S3t64Y&t=53s" rel="noopener">Watch on YouTube from 0:53</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

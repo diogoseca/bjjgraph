@@ -46,12 +46,12 @@ description: "Master the Baratoplata Setup from Meathook. Step-by-step shoulder 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Baratoplata Defense!!!                                            #jiujitsu\u2026",
-      "description": "Baratoplata Setup film study: Baratoplata Defense!!!                                            #jiujitsu\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rx4XoCFWeq8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rx4XoCFWeq8",
-      "url": "https://www.youtube.com/watch?v=rx4XoCFWeq8",
-      "duration": "PT74S"
+      "name": "Rafael \"Barata\" Freitas: learn the baratoplata",
+      "description": "Baratoplata Setup film study: Rafael \"Barata\" Freitas: learn the baratoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vLjB3BJ9O5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vLjB3BJ9O5w",
+      "url": "https://www.youtube.com/watch?v=vLjB3BJ9O5w",
+      "duration": "PT154S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rx4XoCFWeq8)
+![](https://www.youtube.com/watch?v=vLjB3BJ9O5w)
 
-<p class="clip-credit"><strong>Baratoplata Defense!!!                                            #jiujitsu…</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=rx4XoCFWeq8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rafael &#34;Barata&#34; Freitas: learn the baratoplata</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=vLjB3BJ9O5w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -170,6 +170,37 @@ description: "How to execute Knee Slice Despite Lapel in BJJ. Attacking perspect
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice Despite Lapel (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee Slice Pass When Opponents has Lapel",
+      "description": "Knee Slice Despite Lapel (Attacker) film study: Knee Slice Pass When Opponents has Lapel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Z6t0ckTIbU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4Z6t0ckTIbU",
+      "url": "https://www.youtube.com/watch?v=4Z6t0ckTIbU",
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Pass: Knee Cut from the Worm Guard",
+      "description": "Knee Slice Despite Lapel (Attacker) film study: Guard Pass: Knee Cut from the Worm Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aaopZZGh0DE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aaopZZGh0DE",
+      "url": "https://www.youtube.com/watch?v=aaopZZGh0DE",
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +217,32 @@ Strategically, this pass is most effective when combined with systematic lapel c
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice Despite Lapel (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4Z6t0ckTIbU)
+
+<p class="clip-credit"><strong>Knee Slice Pass When Opponents has Lapel</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=4Z6t0ckTIbU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aaopZZGh0DE)
+
+<p class="clip-credit"><strong>Guard Pass: Knee Cut from the Worm Guard</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=aaopZZGh0DE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -170,6 +170,27 @@ description: "How to execute Kimura on Trapped Arm in BJJ. Attacking perspective
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura on Trapped Arm (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly Down Kimura from Gift Wrap. BJJ Jiujitsuuncle",
+      "description": "Kimura on Trapped Arm (Attacker) film study: Belly Down Kimura from Gift Wrap. BJJ Jiujitsuuncle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZM7c3zMtPrQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZM7c3zMtPrQ?start=240",
+      "url": "https://www.youtube.com/watch?v=ZM7c3zMtPrQ",
+      "duration": "PT320S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +207,24 @@ The Kimura on Trapped Arm serves as both a direct submission threat and a contro
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura on Trapped Arm (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZM7c3zMtPrQ&start=240)
+
+<p class="clip-credit"><strong>Belly Down Kimura from Gift Wrap. BJJ Jiujitsuuncle</strong> · 5:20 · <a href="https://www.youtube.com/watch?v=ZM7c3zMtPrQ&t=240s" rel="noopener">Watch on YouTube from 4:00</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

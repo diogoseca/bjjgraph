@@ -36,6 +36,37 @@ description: "Master passing Squid Guard in BJJ. Complete guide to clearing lape
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Squid Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Week 24: 2 Ways to Pass the Squid Guard",
+      "description": "Pass Squid Guard film study: Week 24: 2 Ways to Pass the Squid Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JsjYzJuL1_Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JsjYzJuL1_Y?start=27",
+      "url": "https://www.youtube.com/watch?v=JsjYzJuL1_Y",
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Week 24: Squid Guard Pass",
+      "description": "Pass Squid Guard film study: Week 24: Squid Guard Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jgVMq5C4NXA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jgVMq5C4NXA",
+      "url": "https://www.youtube.com/watch?v=jgVMq5C4NXA",
+      "duration": "PT251S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +105,32 @@ This pass integrates into the broader guard passing system as a specialized resp
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Squid Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JsjYzJuL1_Y&start=27)
+
+<p class="clip-credit"><strong>Week 24: 2 Ways to Pass the Squid Guard</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=JsjYzJuL1_Y&t=27s" rel="noopener">Watch on YouTube from 0:27</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jgVMq5C4NXA)
+
+<p class="clip-credit"><strong>Week 24: Squid Guard Pass</strong> · 4:11 · <a href="https://www.youtube.com/watch?v=jgVMq5C4NXA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

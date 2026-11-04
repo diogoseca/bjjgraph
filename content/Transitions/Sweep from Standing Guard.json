@@ -372,7 +372,17 @@
       }
     ],
     "safety_considerations": "When drilling sweeps against standing opponents, ensure adequate mat space behind the standing player to prevent landing on hard surfaces or other practitioners. The falling player should practice breakfalls and tuck their chin on impact to prevent head and neck injury. Standing players face risk of knee hyperextension if their feet catch on the mat surface during an unexpected fall, so always communicate resistance levels with training partners. Progress resistance gradually from cooperative to full resistance over multiple sessions. In competition contexts, be aware that aggressive follow-throughs into top position can result in slamming penalties if the opponent is elevated during the sweep.",
-    "clips": []
+    "clips": [
+      {
+        "id": "sb1qqB60GHU",
+        "title": "How to Do the Tripod Sweep | Jiu Jitsu",
+        "channel": "Howcast",
+        "duration": 88,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Standing Guard Defender",
@@ -549,6 +559,17 @@
         "description": "Full positional sparring from standing guard with emphasis on passing while maintaining sweep awareness. Track both passing success rate and sweep prevention rate to identify whether your passing approach creates excessive sweep vulnerability. Adjust passing style based on the opponent's sweep tendencies, developing the ability to pass aggressively while maintaining sufficient base integrity."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "HbJrdjEZk-8",
+        "title": "NEVER get Tripod swept again! The ultimate tripod sweep defense.",
+        "channel": "Sticks and Stones BJJ",
+        "duration": 310,
+        "vertical": false,
+        "start": 46,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

@@ -178,6 +178,27 @@ description: "How to execute Calf Slicer from Truck in BJJ. Attacking perspectiv
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Truck (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf Slicer from Truck",
+      "description": "Calf Slicer from Truck (Attacker) film study: Calf Slicer from Truck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DvPs-12-APM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DvPs-12-APM",
+      "url": "https://www.youtube.com/watch?v=DvPs-12-APM",
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Truck (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DvPs-12-APM)
+
+<p class="clip-credit"><strong>Calf Slicer from Truck</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=DvPs-12-APM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

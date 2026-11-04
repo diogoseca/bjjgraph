@@ -367,7 +367,18 @@
       }
     ],
     "safety_considerations": "Apply pressure progressively and avoid slamming body weight through the shin connection, which can cause tibial stress injuries to both players. Be aware of knee strain on the guard player when collapsing the shin angle—if they signal discomfort, release pressure immediately. During training, communicate with your partner about pressure intensity and adjust based on their comfort level. Avoid hyperextending the guard player's ankle by monitoring foot position during the collapse phase.",
-    "clips": []
+    "clips": [
+      {
+        "id": "zYIRjM3Yjj0",
+        "title": "Shin to Shin - Passing 1 // Knee Cut Pass",
+        "channel": "Draig",
+        "duration": 114,
+        "vertical": false,
+        "start": 22,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Pressure from Shin-to-Shin Defender",

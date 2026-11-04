@@ -176,6 +176,27 @@ description: "How to execute the Transition to Double Sleeve Guard in BJJ. Step-
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Double Sleeve Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double Sleeve Guard System - Setting up Double Sleeve Guard from Single Sleeve\u2026",
+      "description": "Open Guard to Double Sleeve Guard (Attacker) film study: Double Sleeve Guard System - Setting up Double Sleeve Guard from Single Sleeve\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gYtjQ70nhjA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gYtjQ70nhjA?start=115",
+      "url": "https://www.youtube.com/watch?v=gYtjQ70nhjA",
+      "duration": "PT224S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing this transition, your objective is to convert a neutra
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Double Sleeve Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gYtjQ70nhjA&start=115)
+
+<p class="clip-credit"><strong>Double Sleeve Guard System - Setting up Double Sleeve Guard from Single Sleeve…</strong> · 3:44 · <a href="https://www.youtube.com/watch?v=gYtjQ70nhjA&t=115s" rel="noopener">Watch on YouTube from 1:55</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

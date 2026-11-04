@@ -824,6 +824,32 @@
           "items": {
             "$ref": "#/$defs/clip"
           }
+        },
+        "escape_clips": {
+          "type": "array",
+          "description": "Curated clips of one named escape, one row per escape card. A row's `escape` is the exact card label scripts/submission_choices.py compiles from defensive_options (or a defense_overrides row), so an escape card can show THAT escape and never the general defender reel. Same clip rules as `clips`, and the same ban on the content bot: it must never add, remove or modify this field, and rewording an action that has a row here fails preservation.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "escape",
+              "clips"
+            ],
+            "properties": {
+              "escape": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The exact card label, as compile_defenses emits it"
+              },
+              "clips": {
+                "type": "array",
+                "maxItems": 4,
+                "items": {
+                  "$ref": "#/$defs/clip"
+                }
+              }
+            }
+          }
         }
       }
     },

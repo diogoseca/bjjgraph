@@ -655,6 +655,23 @@
         "duration": 117,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Posture up",
+        "clips": [
+          {
+            "id": "1-CwlXlu2bE",
+            "title": "Triangle Choke Defense and Escape",
+            "channel": "Chewjitsu",
+            "duration": 392,
+            "vertical": false,
+            "start": 140,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

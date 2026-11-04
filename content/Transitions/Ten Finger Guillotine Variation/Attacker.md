@@ -176,6 +176,27 @@ description: "Master the attacking mechanics of the Ten Finger Guillotine Variat
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine Variation (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "10 Finger Guillotine / Gogo Choke",
+      "description": "Ten Finger Guillotine Variation (Attacker) film study: 10 Finger Guillotine / Gogo Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bl3qgsV-l04/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bl3qgsV-l04",
+      "url": "https://www.youtube.com/watch?v=bl3qgsV-l04",
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine Variation (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bl3qgsV-l04)
+
+<p class="clip-credit"><strong>10 Finger Guillotine / Gogo Choke</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=bl3qgsV-l04" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

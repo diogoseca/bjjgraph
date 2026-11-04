@@ -46,12 +46,12 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Late Kimura Defense from Bottom Side Control",
-      "description": "Kimura from Kimura Trap film study: Late Kimura Defense from Bottom Side Control.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
-      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
-      "duration": "PT100S"
+      "name": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
+      "description": "Kimura from Kimura Trap film study: Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dgYwflmcxKk",
+      "url": "https://www.youtube.com/watch?v=dgYwflmcxKk",
+      "duration": "PT72S"
     }
   ]
 }
@@ -114,9 +114,9 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uRn3DRICpeY)
+![](https://www.youtube.com/watch?v=dgYwflmcxKk)
 
-<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -566,6 +566,17 @@
         "description": "Full resistance positional sparring from locked triangle position. Opponent attempts complete escape while you apply all available counters and transitions. Track finish rate via triangle or secondary attack versus escape rate across multiple rounds to identify weaknesses in retention and transition game."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "MiR4MDk68IE",
+        "title": "BJJ Breakdown: How to Do Rolling Arm Bar to Counter a Triangle Choke Escape",
+        "channel": "Ritchie Yip",
+        "duration": 275,
+        "vertical": false,
+        "start": 44,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

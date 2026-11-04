@@ -66,7 +66,7 @@ test("all source names and own summaries reach dossiers with family provenance",
 });
 
 test("both position seats preserve their properties and decision targets", () => {
-  let roles = 0, actions = 0;
+  let roles = 0, actions = 0, framedActions = 0, roleTargets = 0;
   eachDossier((dossier, data, section, role, family, key) => {
     if (!role) return;
     roles++;
@@ -81,14 +81,21 @@ test("both position seats preserve their properties and decision targets", () =>
         const raw = authored.actions[a], [technique, probability, target] = emitted.acts[a];
         actions++;
         assert.equal(technique, raw.technique);
-        assert.equal(probability, raw.probability);
-        assert.equal(target, raw.target === "game-over" ? "Game Over" : raw.target);
+        // Dossiers publish the no-gi scalar and a position display name. Demi is
+        // the first position whose decision actions exercise maps and role targets.
+        const framed = raw.probability !== null && typeof raw.probability === "object";
+        framedActions += Number(framed);
+        roleTargets += Number(raw.target.includes("/"));
+        assert.equal(probability, framed ? raw.probability.nogi : raw.probability);
+        assert.equal(target, raw.target === "game-over" ? "Game Over" : raw.target.split("/")[0]);
         assert.ok(target, `${key}: destination cannot be empty`);
       }
     }
   });
   assert.equal(roles, source.Positions.length * 2);
   assert.ok(actions > 2000);
+  assert.ok(framedActions >= 6, "Demi's six absent no-gi decision cells were checked");
+  assert.ok(roleTargets >= 6, "role-qualified source targets were checked");
   assert.equal(dossiers["Mount|Top"].props.pts, 4);
   assert.equal(dossiers["Mount|Bottom"].props.pts, -4);
   assert.equal(dossiers["Knee on Belly|Bottom"].props.pts, 0);

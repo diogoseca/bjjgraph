@@ -638,6 +638,42 @@
         "description": "Partner attacks the cross collar choke from KOB at full speed. Practice the complete defensive chain: recognize the setup, strip or prevent grips, create angle, and recover guard. Include the last-resort sit-up escape for scenarios where both grips are established. Build up to full-resistance positional sparring from bottom of KOB."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "fN_mU3YAf5c",
+        "title": "RLVT Counter to Knee-On-Belly Cross-Collar Choke",
+        "channel": "Adam Song MMA",
+        "duration": 160,
+        "vertical": false,
+        "start": 52,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "6rMCDkWRlgg",
+        "title": "Cross Collar Choke Defense Part 1: “Down and Over”",
+        "channel": "Six Blades NOVA Emil Takeuchi",
+        "duration": 93,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Collar grip prevention",
+        "clips": [
+          {
+            "id": "QIRF2B9riAA",
+            "title": "Cross Choke Defense from Guard - Two Quick Tips",
+            "channel": "Wayne Sniffen",
+            "duration": 105,
+            "vertical": false,
+            "start": 49,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -36,6 +36,27 @@ description: "Master the outside heel hook from ushiro ashi-garami. Expert guide
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from Ushiro Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To: Defend an outside heel hook",
+      "description": "Outside Heel Hook from Ushiro Ashi-Garami film study: How To: Defend an outside heel hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CN_k8AXvOyk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CN_k8AXvOyk",
+      "url": "https://www.youtube.com/watch?v=CN_k8AXvOyk",
+      "duration": "PT202S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ The strategic value lies in converting escape attempts into finishing opportunit
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from Ushiro Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CN_k8AXvOyk)
+
+<p class="clip-credit"><strong>How To: Defend an outside heel hook</strong> · 3:22 · <a href="https://www.youtube.com/watch?v=CN_k8AXvOyk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

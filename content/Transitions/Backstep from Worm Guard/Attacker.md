@@ -176,6 +176,27 @@ description: "Complete guide to executing the Backstep from Worm Guard pass. Lea
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Worm Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapelapalooza Lapel Guard System - Back Step Pass / Back Take from Worm Guard\u2026",
+      "description": "Backstep from Worm Guard (Attacker) film study: Lapelapalooza Lapel Guard System - Back Step Pass / Back Take from Worm Guard\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AAESEsenTuM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AAESEsenTuM?start=139",
+      "url": "https://www.youtube.com/watch?v=AAESEsenTuM",
+      "duration": "PT643S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the top player executing the backstep from worm guard, your primary objective
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Worm Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AAESEsenTuM&start=139)
+
+<p class="clip-credit"><strong>Lapelapalooza Lapel Guard System - Back Step Pass / Back Take from Worm Guard…</strong> · 10:43 · <a href="https://www.youtube.com/watch?v=AAESEsenTuM&t=139s" rel="noopener">Watch on YouTube from 2:19</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

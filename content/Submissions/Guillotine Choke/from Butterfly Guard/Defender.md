@@ -162,6 +162,26 @@ description: "Defend the Guillotine Choke from Butterfly Guard. Recognition cues
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "GUILLOTINE CHOKE ESCAPE FROM BUTTERFLY GUARD !",
+      "description": "Guillotine Choke from Butterfly Guard (Defender) film study: GUILLOTINE CHOKE ESCAPE FROM BUTTERFLY GUARD !.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qf9_OqGL8gk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qf9_OqGL8gk",
+      "url": "https://www.youtube.com/watch?v=qf9_OqGL8gk",
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Escapes from Butterfly",
+      "description": "Guillotine Choke from Butterfly Guard (Defender) film study: Guillotine Escapes from Butterfly.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wakSJsSmjbk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wakSJsSmjbk?start=105",
+      "url": "https://www.youtube.com/watch?v=wakSJsSmjbk",
+      "duration": "PT607S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Guillotine Defense: The Vaulting Method (BJJ No Gi)",
       "description": "Guillotine Choke from Butterfly Guard (Defender) film study: Guillotine Defense: The Vaulting Method (BJJ No Gi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/VUaJgz4FzY0/hqdefault.jpg",
@@ -193,6 +213,22 @@ Defending the Guillotine Choke from Butterfly Guard requires early recognition o
 
 <p class="section-subtitle">Watch Guillotine Choke from Butterfly Guard (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qf9_OqGL8gk)
+
+<p class="clip-credit"><strong>GUILLOTINE CHOKE ESCAPE FROM BUTTERFLY GUARD !</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=qf9_OqGL8gk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wakSJsSmjbk&start=105)
+
+<p class="clip-credit"><strong>Guillotine Escapes from Butterfly</strong> · 10:07 · <a href="https://www.youtube.com/watch?v=wakSJsSmjbk&t=105s" rel="noopener">Watch on YouTube from 1:45</a></p>
+
+</div>
 
 <div class="film-clip">
 

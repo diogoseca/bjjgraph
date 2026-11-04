@@ -188,6 +188,16 @@ description: "Learn to execute the Inverted Triangle from Triangle Control. Step
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Inverted Triangle From Guard (BJJ/Jiu-Jitsu)",
+      "description": "Inverted Triangle from Triangle Control (Attacker) film study: Inverted Triangle From Guard (BJJ/Jiu-Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sGEBKhs8_yo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sGEBKhs8_yo?start=40",
+      "url": "https://www.youtube.com/watch?v=sGEBKhs8_yo",
+      "duration": "PT227S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle",
       "description": "Inverted Triangle from Triangle Control (Attacker) film study: Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/i2l9Gx72DU0/hqdefault.jpg",
@@ -197,7 +207,7 @@ description: "Learn to execute the Inverted Triangle from Triangle Control. Step
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Inverted Triangle",
       "description": "Inverted Triangle from Triangle Control (Attacker) film study: Inverted Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xAW3spYg9vE/hqdefault.jpg",
@@ -229,6 +239,14 @@ Executing the inverted triangle from triangle control requires precise hip rotat
 
 <p class="section-subtitle">Watch Inverted Triangle from Triangle Control (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sGEBKhs8_yo&start=40)
+
+<p class="clip-credit"><strong>Inverted Triangle From Guard (BJJ/Jiu-Jitsu)</strong> · 3:47 · <a href="https://www.youtube.com/watch?v=sGEBKhs8_yo&t=40s" rel="noopener">Watch on YouTube from 0:40</a></p>
+
+</div>
 
 <div class="film-clip">
 

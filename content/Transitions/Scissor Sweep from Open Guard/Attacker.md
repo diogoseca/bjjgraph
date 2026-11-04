@@ -176,6 +176,27 @@ description: "Master the offensive execution of the Scissor Sweep from Open Guar
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scissor Sweep from Open Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar and sleeve guard: triangle choke and scissor sweep",
+      "description": "Scissor Sweep from Open Guard (Attacker) film study: Collar and sleeve guard: triangle choke and scissor sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ii5WNzuZlW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ii5WNzuZlW8?start=221",
+      "url": "https://www.youtube.com/watch?v=ii5WNzuZlW8",
+      "duration": "PT357S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scissor Sweep from Open Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ii5WNzuZlW8&start=221)
+
+<p class="clip-credit"><strong>Collar and sleeve guard: triangle choke and scissor sweep</strong> · 5:57 · <a href="https://www.youtube.com/watch?v=ii5WNzuZlW8&t=221s" rel="noopener">Watch on YouTube from 3:41</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

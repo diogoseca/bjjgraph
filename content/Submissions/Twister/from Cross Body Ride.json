@@ -678,6 +678,23 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Work systematic leg extraction",
+        "clips": [
+          {
+            "id": "oNCcwLYDM_g",
+            "title": "Breakdown DEFENSE ESCAPE TWISTER Korean Zombie first HISTORY of UFC (uploaded…",
+            "channel": "m mill",
+            "duration": 201,
+            "vertical": false,
+            "start": 119,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

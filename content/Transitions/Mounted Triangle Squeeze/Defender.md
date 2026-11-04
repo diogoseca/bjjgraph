@@ -142,6 +142,37 @@ description: "Defend and escape the mounted triangle squeeze in BJJ. Recognition
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Triangle Squeeze (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "mount triangle escape for Mark",
+      "description": "Mounted Triangle Squeeze (Defender) film study: mount triangle escape for Mark.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDxn4Ah_0qM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDxn4Ah_0qM",
+      "url": "https://www.youtube.com/watch?v=wDxn4Ah_0qM",
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mounted Triangle Choke Escape",
+      "description": "Mounted Triangle Squeeze (Defender) film study: Mounted Triangle Choke Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mUCi_COJlTg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mUCi_COJlTg?start=44",
+      "url": "https://www.youtube.com/watch?v=mUCi_COJlTg",
+      "duration": "PT590S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +185,32 @@ Defending the mounted triangle squeeze requires understanding that the attacker 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Triangle Squeeze (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wDxn4Ah_0qM)
+
+<p class="clip-credit"><strong>mount triangle escape for Mark</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=wDxn4Ah_0qM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mUCi_COJlTg&start=44)
+
+<p class="clip-credit"><strong>Mounted Triangle Choke Escape</strong> · 9:50 · <a href="https://www.youtube.com/watch?v=mUCi_COJlTg&t=44s" rel="noopener">Watch on YouTube from 0:44</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

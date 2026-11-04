@@ -395,7 +395,18 @@
       }
     ],
     "safety_considerations": "Guard pull from combat base carries low injury risk compared to most BJJ transitions, but practitioners should observe several safety considerations. Avoid explosive jerking movements when breaking posture, as sudden neck loading can cause cervical strain in your training partner. When closing guard, ensure ankle crossing is at the lower back rather than directly on the spine to prevent uncomfortable vertebral pressure. If the opponent resists guard closure by driving forward aggressively, do not fight the pass with straight locked-out arms as this risks elbow hyperextension. During drilling, communicate with your partner about pressure levels and release immediately if either person experiences sharp pain in the neck, lower back, or knees. Beginners should practice at slow speeds to develop proper mechanics before adding resistance.",
-    "clips": []
+    "clips": [
+      {
+        "id": "6V7p9Mt2zqY",
+        "title": "The Closed Guard System - Closed Guard Entry when Opponent is in Combat Base…",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 273,
+        "vertical": false,
+        "start": 41,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Pull Guard from Combat Base Defender",

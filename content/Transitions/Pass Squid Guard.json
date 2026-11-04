@@ -406,7 +406,26 @@
       }
     ],
     "safety_considerations": "Squid Guard passing involves significant tension on both practitioners' joints, particularly the passer's knee when entangled by the lapel wrap. Avoid explosive yanking motions to free the lapel, as sudden force can stress the knee joint in unexpected directions. If the lapel wrap creates uncomfortable torque on your knee, stop and communicate with your training partner to adjust rather than forcing through the position. During stacking variations, be mindful of the bottom player's neck and spine compression. In training, use controlled progressive resistance rather than explosive movements.",
-    "clips": []
+    "clips": [
+      {
+        "id": "JsjYzJuL1_Y",
+        "title": "Week 24: 2 Ways to Pass the Squid Guard",
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 145,
+        "vertical": false,
+        "start": 27,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "jgVMq5C4NXA",
+        "title": "Week 24: Squid Guard Pass",
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 251,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Squid Guard Defender",
@@ -570,6 +589,17 @@
         "description": "Timed rounds where the partner attempts to pass your Squid Guard at full competitive intensity. Apply the complete defensive system including grip retention, counter-attacks, and guard transitions. Track which phase of the passing sequence you most frequently lose position and target that phase for improvement."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "m-Xm38PGwN0",
+        "title": "Squid Guard Triangle, with Adjustments to Prevent a Smash Pass",
+        "channel": "Revolution BJJ",
+        "duration": 189,
+        "vertical": false,
+        "start": 26,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

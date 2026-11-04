@@ -36,6 +36,27 @@ description: "Master guard recovery from leg entanglement in BJJ. Complete guide
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Leg Entanglement \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "ASHI GARAMI ESCAPE - BJJ",
+      "description": "Guard Recovery from Leg Entanglement film study: ASHI GARAMI ESCAPE - BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0g_ALDkfU2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0g_ALDkfU2Q",
+      "url": "https://www.youtube.com/watch?v=0g_ALDkfU2Q",
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategic mastery of guard recovery from leg entanglements connects directly to 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Leg Entanglement in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0g_ALDkfU2Q)
+
+<p class="clip-credit"><strong>ASHI GARAMI ESCAPE - BJJ</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=0g_ALDkfU2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

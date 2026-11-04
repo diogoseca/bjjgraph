@@ -182,6 +182,27 @@ description: "Complete guide to executing the elbow escape from back control. Le
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Beginners Tutorial - Back Escape / Elbow Escape Method",
+      "description": "Elbow Escape from Back (Attacker) film study: BJJ Beginners Tutorial - Back Escape / Elbow Escape Method.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uyIV0ez9bUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uyIV0ez9bUo",
+      "url": "https://www.youtube.com/watch?v=uyIV0ez9bUo",
+      "duration": "PT264S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ Executing the elbow escape from back control requires systematic dismantling of 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uyIV0ez9bUo)
+
+<p class="clip-credit"><strong>BJJ Beginners Tutorial - Back Escape / Elbow Escape Method</strong> · 4:24 · <a href="https://www.youtube.com/watch?v=uyIV0ez9bUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

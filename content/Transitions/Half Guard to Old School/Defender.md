@@ -150,6 +150,37 @@ description: "How to defend and prevent the Transition to Old School in BJJ half
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Old School (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Basics: Counter Old School Sweep",
+      "description": "Half Guard to Old School (Defender) film study: BJJ Basics: Counter Old School Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3CM7prP1kzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3CM7prP1kzc",
+      "url": "https://www.youtube.com/watch?v=3CM7prP1kzc",
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic old school Sweep defense",
+      "description": "Half Guard to Old School (Defender) film study: Basic old school Sweep defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4M_9jlXDCtE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4M_9jlXDCtE",
+      "url": "https://www.youtube.com/watch?v=4M_9jlXDCtE",
+      "duration": "PT231S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +193,32 @@ Defending against the Transition to Old School requires the top player to recogn
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Old School (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3CM7prP1kzc)
+
+<p class="clip-credit"><strong>BJJ Basics: Counter Old School Sweep</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=3CM7prP1kzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4M_9jlXDCtE)
+
+<p class="clip-credit"><strong>Basic old school Sweep defense</strong> · 3:51 · <a href="https://www.youtube.com/watch?v=4M_9jlXDCtE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

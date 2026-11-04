@@ -46,12 +46,12 @@ description: "Master takedown techniques from disadvantaged standing positions i
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jordan Burroughs: Sprawl Technique",
-      "description": "Takedown from Bottom film study: Jordan Burroughs: Sprawl Technique.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LiRrlPGboK8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LiRrlPGboK8",
-      "url": "https://www.youtube.com/watch?v=LiRrlPGboK8",
-      "duration": "PT122S"
+      "name": "Double Leg Takedown to Mount or Side Control Positional Advancements",
+      "description": "Takedown from Bottom film study: Double Leg Takedown to Mount or Side Control Positional Advancements.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dJasvoIiKiU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dJasvoIiKiU",
+      "url": "https://www.youtube.com/watch?v=dJasvoIiKiU",
+      "duration": "PT105S"
     }
   ]
 }
@@ -105,9 +105,9 @@ Strategically, this transition serves as the cornerstone of a standing game plan
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=LiRrlPGboK8)
+![](https://www.youtube.com/watch?v=dJasvoIiKiU)
 
-<p class="clip-credit"><strong>Jordan Burroughs: Sprawl Technique</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=LiRrlPGboK8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Leg Takedown to Mount or Side Control Positional Advancements</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=dJasvoIiKiU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

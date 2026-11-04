@@ -142,6 +142,27 @@ description: "Learn to counter the Frame Escape from Darce in BJJ. Techniques fo
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame Escape from Darce (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce choke, finishing with details to block the frame defense.",
+      "description": "Frame Escape from Darce (Defender) film study: Darce choke, finishing with details to block the frame defense..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dtdUpUmx4GA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dtdUpUmx4GA?start=28",
+      "url": "https://www.youtube.com/watch?v=dtdUpUmx4GA",
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ As the defender against the Frame Escape from Darce, you are the practitioner ho
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame Escape from Darce (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dtdUpUmx4GA&start=28)
+
+<p class="clip-credit"><strong>Darce choke, finishing with details to block the frame defense.</strong> · 2:15 · <a href="https://www.youtube.com/watch?v=dtdUpUmx4GA&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

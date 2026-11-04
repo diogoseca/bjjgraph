@@ -46,12 +46,12 @@ description: "Master the Smash Pass from Knee Shield in BJJ. Step-by-step guide 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Counter the Double Over Smash Pass for Jiujitsu",
-      "description": "Smash Pass from Knee Shield film study: How to Counter the Double Over Smash Pass for Jiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8YxAYfWINeQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8YxAYfWINeQ",
-      "url": "https://www.youtube.com/watch?v=8YxAYfWINeQ",
-      "duration": "PT164S"
+      "name": "Knee Shield To Smash Pass",
+      "description": "Smash Pass from Knee Shield film study: Knee Shield To Smash Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K5fo_WDquJ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K5fo_WDquJ0",
+      "url": "https://www.youtube.com/watch?v=K5fo_WDquJ0",
+      "duration": "PT203S"
     }
   ]
 }
@@ -105,9 +105,9 @@ Within the broader guard passing hierarchy, the smash pass from knee shield pair
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=8YxAYfWINeQ)
+![](https://www.youtube.com/watch?v=K5fo_WDquJ0)
 
-<p class="clip-credit"><strong>How to Counter the Double Over Smash Pass for Jiujitsu</strong> · 2:44 · <a href="https://www.youtube.com/watch?v=8YxAYfWINeQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield To Smash Pass</strong> · 3:23 · <a href="https://www.youtube.com/watch?v=K5fo_WDquJ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -162,6 +162,26 @@ description: "Defend the Darce Choke from Twister Side Control with recognition 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Move of the Day: D\u0027arce Defense - Belly Down",
+      "description": "Darce Choke from Twister Side Control (Defender) film study: Move of the Day: D\u0027arce Defense - Belly Down.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cmaIzjv3QG8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cmaIzjv3QG8",
+      "url": "https://www.youtube.com/watch?v=cmaIzjv3QG8",
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce Choke Defense : Counter Sweep From Half Guard And Bottom Of Side",
+      "description": "Darce Choke from Twister Side Control (Defender) film study: Darce Choke Defense : Counter Sweep From Half Guard And Bottom Of Side.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MpBR8-9F28s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MpBR8-9F28s?start=42",
+      "url": "https://www.youtube.com/watch?v=MpBR8-9F28s",
+      "duration": "PT195S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "D\u0027arce Defense",
       "description": "Darce Choke from Twister Side Control (Defender) film study: D\u0027arce Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ug2Kxs54GuU/hqdefault.jpg",
@@ -193,6 +213,22 @@ Defending the Darce Choke from Twister Side Control requires early recognition o
 
 <p class="section-subtitle">Watch Darce Choke from Twister Side Control (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cmaIzjv3QG8)
+
+<p class="clip-credit"><strong>Move of the Day: D&#39;arce Defense - Belly Down</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=cmaIzjv3QG8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MpBR8-9F28s&start=42)
+
+<p class="clip-credit"><strong>Darce Choke Defense : Counter Sweep From Half Guard And Bottom Of Side</strong> · 3:15 · <a href="https://www.youtube.com/watch?v=MpBR8-9F28s&t=42s" rel="noopener">Watch on YouTube from 0:42</a></p>
+
+</div>
 
 <div class="film-clip">
 

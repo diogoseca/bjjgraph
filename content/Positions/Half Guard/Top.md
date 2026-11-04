@@ -116,6 +116,7 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
   "@type": "WebPage",
   "name": "Half Guard Top",
   "description": "Master Half Guard Top with systematic passing strategies. Advanced practitioners achieve 70% pass completion through control, pressure, and technique chains.",
+  "disambiguatingDescription": "Often confused with Demi Guard \u2014 Half Guard traps one leg between both legs; Demi Guard is a distinct gi lapel configuration with a foot on the lapel tail..",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -191,6 +192,9 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Demi Guard|Demi Guard]]</strong> — Half Guard traps one leg between both legs; Demi Guard is a distinct gi lapel configuration with a foot on the lapel tail.</p>
+</aside>
 <section id="overview" class="content-section">
 
 Half Guard Top represents the dominant counterpart in the Half Guard exchange, where the top player has one leg trapped between the bottom player's legs while maintaining superior positioning with weight and pressure. This position serves as a critical transitional battleground between guard retention and side control, requiring methodical work to advance position while defending against sweeps, submissions, and back takes. The position demands a systematic approach to passing that begins with upper body control establishment and progresses through leg isolation, extraction, and pass completion.

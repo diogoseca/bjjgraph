@@ -548,7 +548,16 @@
         "title": "Eddie Bravo Technique: How to do the Electric Chair submission",
         "channel": "Trillo Jiujitsu Academy",
         "duration": 117,
-        "vertical": false
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "9ruPuY0XBOI",
+        "title": "Lockdown Electric Chair Sweep and Submission",
+        "channel": "Valhalla Academy of Martial Arts",
+        "duration": 181,
+        "vertical": false,
+        "verified": "2026-11-04"
       }
     ]
   },

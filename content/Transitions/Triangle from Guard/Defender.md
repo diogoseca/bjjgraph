@@ -150,6 +150,27 @@ description: "How to defend against Triangle from Guard in BJJ. Recognition cues
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape the Triangle Choke from Guard",
+      "description": "Triangle from Guard (Defender) film study: How to Escape the Triangle Choke from Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/szAvJFvIzx4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/szAvJFvIzx4?start=22",
+      "url": "https://www.youtube.com/watch?v=szAvJFvIzx4",
+      "duration": "PT590S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ The defender must operate on multiple defensive timelines simultaneously. The im
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=szAvJFvIzx4&start=22)
+
+<p class="clip-credit"><strong>How to Escape the Triangle Choke from Guard</strong> · 9:50 · <a href="https://www.youtube.com/watch?v=szAvJFvIzx4&t=22s" rel="noopener">Watch on YouTube from 0:22</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -495,6 +495,15 @@
     ],
     "clips": [
       {
+        "id": "GX1fk0p0lwc",
+        "title": "Basic AMERICANA SHOULDER SUBMISSION from MOUNT (A.K.A Paint Brush, Figure Four…",
+        "channel": "UnitedMartialArtsKY",
+        "duration": 211,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "N-bZMbI2jSo",
         "title": "🛡️ Americana from Mount Explained | BJJ Submission Guide",
         "channel": "Gabriel Gonzaga",
@@ -702,6 +711,23 @@
         "duration": 199,
         "vertical": false,
         "front": true
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Straighten the trapped arm completely",
+        "clips": [
+          {
+            "id": "qVINUjefot8",
+            "title": "Bent Armlock Escape from Mount",
+            "channel": "Soma Academy",
+            "duration": 71,
+            "vertical": false,
+            "start": 25,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   },

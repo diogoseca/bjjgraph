@@ -1,12 +1,12 @@
 {
   "summary": {
-    "transition_files": 1002,
+    "transition_files": 1011,
     "submission_files": 349,
-    "position_files": 132,
-    "total_issues": 457,
+    "position_files": 133,
+    "total_issues": 469,
     "errors": 0,
     "warnings": 57,
-    "info": 400,
+    "info": 412,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -16,26 +16,26 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 23,
-    "attempt_outliers": 350,
+    "attempt_outliers": 351,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
     "votes_schema_violations": 0,
-    "ruleset_frames_checked": 3103,
-    "ruleset_frames_absent": 3,
-    "attempt_frames_checked": 527,
-    "attempt_frames_absent": 1,
-    "outcome_frames_checked": 2576,
-    "outcome_frames_absent": 2,
+    "ruleset_frames_checked": 3114,
+    "ruleset_frames_absent": 14,
+    "attempt_frames_checked": 529,
+    "attempt_frames_absent": 3,
+    "outcome_frames_checked": 2585,
+    "outcome_frames_absent": 11,
     "values_in_no_ruleset": 0,
     "bare_null_rows": 0,
     "successrate_nodes_compared": 2574,
-    "successrate_nodes_total": 2578,
-    "successrate_skipped_null_rate": 4,
+    "successrate_nodes_total": 2596,
+    "successrate_skipped_null_rate": 22,
     "successrate_skipped_null_probability": 0,
     "complement_pairs_compared": 1287,
-    "complement_skipped_null_rate": 2,
-    "votes_community_frames_checked": 3158,
+    "complement_skipped_null_rate": 11,
+    "votes_community_frames_checked": 3176,
     "votes_prior_frames_checked": 742,
     "votes_prior_frames_absent": 2
   },
@@ -55,6 +55,24 @@
       "file": "content/Submissions/Kneebar/from Backside 50-50.json",
       "from_position": "Backside 50-50/Top",
       "message": "Orphaned submission: 'Kneebar from Backside 50-50' (from: Backside 50-50/Top)"
+    },
+    {
+      "file": "content/Positions/Demi Guard.json",
+      "name": "Demi Guard",
+      "role": "top",
+      "ruleset": "nogi",
+      "type": "attempt_probability_frame_absent",
+      "message": "Demi Guard [top]: attempt_probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
+    },
+    {
+      "file": "content/Positions/Demi Guard.json",
+      "name": "Demi Guard",
+      "role": "bottom",
+      "ruleset": "nogi",
+      "type": "attempt_probability_frame_absent",
+      "message": "Demi Guard [bottom]: attempt_probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
     },
     {
       "file": "content/Positions/Lapel Guard.json",
@@ -448,6 +466,33 @@
       }
     },
     {
+      "file": "content/Transitions/Demi Guard Elevation Sweep.json",
+      "name": "Demi Guard Elevation Sweep",
+      "role": "transition",
+      "ruleset": "nogi",
+      "type": "probability_frame_absent",
+      "message": "Demi Guard Elevation Sweep [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
+    },
+    {
+      "file": "content/Transitions/Demi Guard to Half Guard.json",
+      "name": "Demi Guard to Half Guard",
+      "role": "transition",
+      "ruleset": "nogi",
+      "type": "probability_frame_absent",
+      "message": "Demi Guard to Half Guard [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
+    },
+    {
+      "file": "content/Transitions/Demi Guard to Lapel Guard.json",
+      "name": "Demi Guard to Lapel Guard",
+      "role": "transition",
+      "ruleset": "nogi",
+      "type": "probability_frame_absent",
+      "message": "Demi Guard to Lapel Guard [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
+    },
+    {
       "file": "content/Transitions/Grip Strip from Buggy Choke.json",
       "name": "Grip Strip from Buggy Choke",
       "type": "technique_range_low",
@@ -478,6 +523,24 @@
       "message": "Success[nogi] 10% below expected min 30% for submission",
       "severity": "warning",
       "current": 10
+    },
+    {
+      "file": "content/Transitions/Half Guard to Demi Guard.json",
+      "name": "Half Guard to Demi Guard",
+      "role": "transition",
+      "ruleset": "nogi",
+      "type": "probability_frame_absent",
+      "message": "Half Guard to Demi Guard [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
+    },
+    {
+      "file": "content/Transitions/Lapel Clear from Demi Guard.json",
+      "name": "Lapel Clear from Demi Guard",
+      "role": "transition",
+      "ruleset": "nogi",
+      "type": "probability_frame_absent",
+      "message": "Lapel Clear from Demi Guard [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
     },
     {
       "file": "content/Transitions/Lapel Sweep to Back.json",
@@ -512,6 +575,24 @@
       "current": 14
     },
     {
+      "file": "content/Transitions/Open Guard to Demi Guard.json",
+      "name": "Open Guard to Demi Guard",
+      "role": "transition",
+      "ruleset": "nogi",
+      "type": "probability_frame_absent",
+      "message": "Open Guard to Demi Guard [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
+    },
+    {
+      "file": "content/Transitions/Pass from Demi Guard.json",
+      "name": "Pass from Demi Guard",
+      "role": "transition",
+      "ruleset": "nogi",
+      "type": "probability_frame_absent",
+      "message": "Pass from Demi Guard [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
+    },
+    {
       "file": "content/Transitions/Sweep from Leg Weave.json",
       "name": "Sweep from Leg Weave",
       "role": "transition",
@@ -535,6 +616,24 @@
       "message": "Success[nogi] 20% below expected min 25% for takedown",
       "severity": "warning",
       "current": 20
+    },
+    {
+      "file": "content/Transitions/Worm Guard to Demi Guard.json",
+      "name": "Worm Guard to Demi Guard",
+      "role": "transition",
+      "ruleset": "nogi",
+      "type": "probability_frame_absent",
+      "message": "Worm Guard to Demi Guard [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
+    },
+    {
+      "file": "content/Transitions/Worm Wrestling Pressure Counter.json",
+      "name": "Worm Wrestling Pressure Counter",
+      "role": "transition",
+      "ruleset": "nogi",
+      "type": "probability_frame_absent",
+      "message": "Worm Wrestling Pressure Counter [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
     },
     {
       "file": "content/Transitions/X Pass.json",
@@ -1780,6 +1879,16 @@
       "severity": "info",
       "transition": "Armbar from Dead Orchard Control",
       "current": 70
+    },
+    {
+      "file": "content/Positions/Demi Guard.json",
+      "position": "Demi Guard",
+      "role": "top[gi]",
+      "type": "attempt_dominant",
+      "message": "top[gi]: 'Lapel Clear from Demi Guard' dominates with 65% attempt probability",
+      "severity": "info",
+      "transition": "Lapel Clear from Demi Guard",
+      "current": 65
     },
     {
       "file": "content/Positions/Double Sleeve Guard.json",

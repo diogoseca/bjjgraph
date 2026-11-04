@@ -36,6 +36,37 @@ description: "Master the Double Sleeve to De La Riva Guard transition in BJJ. Le
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve to De La Riva \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard to double sleeve to de la Riva lasso",
+      "description": "Double Sleeve to De La Riva film study: Closed guard to double sleeve to de la Riva lasso.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EazteTlQcl4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EazteTlQcl4?start=180",
+      "url": "https://www.youtube.com/watch?v=EazteTlQcl4",
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Closed Guard System - Double Sleeve Series - Transitioning to De La Riva\u2026",
+      "description": "Double Sleeve to De La Riva film study: The Closed Guard System - Double Sleeve Series - Transitioning to De La Riva\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mtSvjofjvuM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mtSvjofjvuM?start=21",
+      "url": "https://www.youtube.com/watch?v=mtSvjofjvuM",
+      "duration": "PT393S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +105,32 @@ The timing window for this transition is created by the opponent's passing attem
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve to De La Riva in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EazteTlQcl4&start=180)
+
+<p class="clip-credit"><strong>Closed guard to double sleeve to de la Riva lasso</strong> · 3:25 · <a href="https://www.youtube.com/watch?v=EazteTlQcl4&t=180s" rel="noopener">Watch on YouTube from 3:00</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mtSvjofjvuM&start=21)
+
+<p class="clip-credit"><strong>The Closed Guard System - Double Sleeve Series - Transitioning to De La Riva…</strong> · 6:33 · <a href="https://www.youtube.com/watch?v=mtSvjofjvuM&t=21s" rel="noopener">Watch on YouTube from 0:21</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

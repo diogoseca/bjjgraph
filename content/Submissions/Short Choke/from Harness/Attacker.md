@@ -172,6 +172,37 @@ description: "Master attacking the Short Choke from Harness in BJJ. Step-by-step
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Harness (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ezekiel Choke from the Back",
+      "description": "Short Choke from Harness (Attacker) film study: Ezekiel Choke from the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7txa2emuwfI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7txa2emuwfI",
+      "url": "https://www.youtube.com/watch?v=7txa2emuwfI",
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Ezekiel Chokes From The Back.",
+      "description": "Short Choke from Harness (Attacker) film study: 3 Ezekiel Chokes From The Back..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sOCBEA5IX7M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sOCBEA5IX7M",
+      "url": "https://www.youtube.com/watch?v=sOCBEA5IX7M",
+      "duration": "PT213S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +216,32 @@ Attacking with the Short Choke from Harness requires precise grip threading and 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Harness (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7txa2emuwfI)
+
+<p class="clip-credit"><strong>Ezekiel Choke from the Back</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=7txa2emuwfI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sOCBEA5IX7M)
+
+<p class="clip-credit"><strong>3 Ezekiel Chokes From The Back.</strong> · 3:33 · <a href="https://www.youtube.com/watch?v=sOCBEA5IX7M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

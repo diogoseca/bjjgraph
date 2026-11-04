@@ -36,6 +36,37 @@ description: "Master Gift Wrap Control in BJJ. Complete guide to arm trapping fr
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple BJJ HACK to ESCAPE the side control GIFT WRAP",
+      "description": "Gift Wrap Control film study: Simple BJJ HACK to ESCAPE the side control GIFT WRAP.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s7yFeloJ-ew/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s7yFeloJ-ew",
+      "url": "https://www.youtube.com/watch?v=s7yFeloJ-ew",
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift Wrap Escape \u0026 Reversal",
+      "description": "Gift Wrap Control film study: Gift Wrap Escape \u0026 Reversal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M6VnWnR9nx8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M6VnWnR9nx8",
+      "url": "https://www.youtube.com/watch?v=M6VnWnR9nx8",
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +105,32 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s7yFeloJ-ew)
+
+<p class="clip-credit"><strong>Simple BJJ HACK to ESCAPE the side control GIFT WRAP</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=s7yFeloJ-ew" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M6VnWnR9nx8)
+
+<p class="clip-credit"><strong>Gift Wrap Escape &amp; Reversal</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=M6VnWnR9nx8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

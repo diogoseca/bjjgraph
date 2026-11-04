@@ -36,6 +36,27 @@ description: "Master the Kneebar from Backside 50-50 in BJJ. Complete technique 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee bar defense fundamental #bjj #jiujitsu #brazilianjiujitsu #kneebar",
+      "description": "Kneebar film study: Knee bar defense fundamental #bjj #jiujitsu #brazilianjiujitsu #kneebar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dnvVsPGHGtY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dnvVsPGHGtY",
+      "url": "https://www.youtube.com/watch?v=dnvVsPGHGtY",
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dnvVsPGHGtY)
+
+<p class="clip-credit"><strong>Knee bar defense fundamental #bjj #jiujitsu #brazilianjiujitsu #kneebar</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=dnvVsPGHGtY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -170,6 +170,27 @@ description: "How to execute Japanese Necktie Setup in BJJ. Attacking perspectiv
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Japanese Necktie Setup (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "\"Japanese Necktie from Sprawl and Half-Guard\" by Chris Herzog, 10th Planet Jiu\u2026",
+      "description": "Japanese Necktie Setup (Attacker) film study: \"Japanese Necktie from Sprawl and Half-Guard\" by Chris Herzog, 10th Planet Jiu\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZDv7G8DYrx0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZDv7G8DYrx0",
+      "url": "https://www.youtube.com/watch?v=ZDv7G8DYrx0",
+      "duration": "PT109S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,6 +203,24 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Japanese Necktie Setup (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZDv7G8DYrx0)
+
+<p class="clip-credit"><strong>&#34;Japanese Necktie from Sprawl and Half-Guard&#34; by Chris Herzog, 10th Planet Jiu…</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=ZDv7G8DYrx0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -46,12 +46,22 @@ description: "Master the Inside Ashi-Garami to Cross Ashi transition in BJJ. Ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "basic escape from the saddle (cross ashi) - berimbolo skills",
-      "description": "Inside Ashi-Garami to Cross Ashi film study: basic escape from the saddle (cross ashi) - berimbolo skills.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0T4T2so40C4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0T4T2so40C4",
-      "url": "https://www.youtube.com/watch?v=0T4T2so40C4",
-      "duration": "PT171S"
+      "name": "Ashi garami to 411",
+      "description": "Inside Ashi-Garami to Cross Ashi film study: Ashi garami to 411.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVYMMNbJjRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVYMMNbJjRk",
+      "url": "https://www.youtube.com/watch?v=lVYMMNbJjRk",
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The only move you need. Ashi Garami to Honeyhole Sankaku saddle 411 kasa.\u2026",
+      "description": "Inside Ashi-Garami to Cross Ashi film study: The only move you need. Ashi Garami to Honeyhole Sankaku saddle 411 kasa.\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pxncCa02Bzo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pxncCa02Bzo",
+      "url": "https://www.youtube.com/watch?v=pxncCa02Bzo",
+      "duration": "PT178S"
     }
   ]
 }
@@ -105,9 +115,17 @@ Strategically, this transition serves as an essential response when opponents su
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0T4T2so40C4)
+![](https://www.youtube.com/watch?v=lVYMMNbJjRk)
 
-<p class="clip-credit"><strong>basic escape from the saddle (cross ashi) - berimbolo skills</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=0T4T2so40C4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi garami to 411</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=lVYMMNbJjRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pxncCa02Bzo)
+
+<p class="clip-credit"><strong>The only move you need. Ashi Garami to Honeyhole Sankaku saddle 411 kasa.…</strong> · 2:58 · <a href="https://www.youtube.com/watch?v=pxncCa02Bzo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

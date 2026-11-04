@@ -146,6 +146,27 @@ description: "Defend against the calf slicer from twister control. Recognition c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Twister Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf Slicer defense",
+      "description": "Calf Slicer from Twister Control (Defender) film study: Calf Slicer defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UIaZYXwrDJM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UIaZYXwrDJM",
+      "url": "https://www.youtube.com/watch?v=UIaZYXwrDJM",
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +180,24 @@ Defending against the calf slicer from twister control is exceptionally challeng
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Twister Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UIaZYXwrDJM)
+
+<p class="clip-credit"><strong>Calf Slicer defense</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=UIaZYXwrDJM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

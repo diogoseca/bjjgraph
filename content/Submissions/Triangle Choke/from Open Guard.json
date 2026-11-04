@@ -645,6 +645,38 @@
         "duration": 48,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Posture up immediately",
+        "clips": [
+          {
+            "id": "szAvJFvIzx4",
+            "title": "How to Escape the Triangle Choke from Guard",
+            "channel": "Stephan Kesting",
+            "duration": 590,
+            "vertical": false,
+            "start": 116,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "escape": "Stack the opponent",
+        "clips": [
+          {
+            "id": "1-CwlXlu2bE",
+            "title": "Triangle Choke Defense and Escape",
+            "channel": "Chewjitsu",
+            "duration": 392,
+            "vertical": false,
+            "start": 202,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

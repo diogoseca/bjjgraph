@@ -448,7 +448,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "lKPIFyJVEAE",
+        "title": "BJJ Techniques: Basic Omoplata from Armbar Attempt",
+        "channel": "Mark Massey",
+        "duration": 77,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Omoplata from Armbar Control Defender",
