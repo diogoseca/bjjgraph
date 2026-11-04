@@ -1,9 +1,10 @@
 {
   "note": "VIDEO1 source controls. Build each edit under the shared lock; run the named browser assertion plus an unaffected control outside it after heavy-advisory GO. The runner rejects zero tests, setup errors, skips and timeouts as kills, restores exact source bytes and rebuilds. Native modal focus is redundant with explicit focus: the focus-entry control disables both, rather than claiming removal of focus() alone is a kill.",
-  "spec": "journeys/video-theater\\.spec",
+  "spec": "journeys/(video-theater|article-dashboard|article-sections)\\.spec",
   "control": "gap and card width 1440x900",
   "mutants": [
     { "name": "ask-gap-doubled", "file": "neural/src/app.src.jsx", "old": "parseFloat(css.getPropertyValue(\"--section-gap\"))", "new": "2 * parseFloat(css.getPropertyValue(\"--section-gap\"))", "test": "gap and card width 390x631", "assertion": "VIDEO1 ask gap is 5–6px" },
+    { "name": "responsive-ask-gap-doubled", "file": "neural/src/app.src.jsx", "old": "parseFloat(css.getPropertyValue(\"--section-gap\"))", "new": "2 * parseFloat(css.getPropertyValue(\"--section-gap\"))", "test": "opening Explore at the arrival|a desktop window narrowed at the arrival|390px choices precede", "assertion": "VIDEO1 painted ask gap" },
     { "name": "tablet-film-stays-400", "file": "neural/src/app.src.jsx", "old": "wide ? 400 : 680", "new": "wide ? 400 : 400", "test": "gap and card width 768x1024", "assertion": "VIDEO1 mobile/tablet film fills the column" },
     { "name": "desktop-film-fills-column", "file": "neural/src/app.src.jsx", "old": "wide ? 400 : 680", "new": "wide ? 680 : 680", "test": "gap and card width 1440x900", "control": "gap and card width 390x631", "assertion": "VIDEO1 desktop film is a portion of the column" },
     { "name": "width-fit-is-85-percent", "file": "neural/src/choice-value.css", "old": "95vw", "new": "85vw", "count": 2, "test": "95% fit and rectangle zoom 390x631", "assertion": "VIDEO1 95% fit uses width first" },

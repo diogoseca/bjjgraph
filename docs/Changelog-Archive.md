@@ -13344,3 +13344,12 @@ zoom, dim, autoplay, every exit, entry/return focus, graph/keyboard guards and r
 The shared reader's layout call replaces its local media-width decision without deferred
 growth. Existing reference-film continuity and choice-video behavior remain independently
 exercised; current-film and pane journeys now assert the requested theater lifecycle.
+
+The three shard-1 failures on the original theater head were stale spacing assertions.
+Opening Explore at 1152px or narrowing 1440px to 900px preserves the reader's scroll and
+Moves position while the question moves to the requested six-pixel visible gap. The 390px
+section journey now measures painted card/text edges instead of wrapper padding. Both
+journeys retain their scroll, section, DOM-identity and overflow checks. The compiled
+`responsive-ask-gap-doubled` control targets all three replacement assertions, with an
+unaffected desktop film-width case. The package lock now agrees with the reserved 1.244.0
+release already named by the package manifest; no budget or baseline changes.

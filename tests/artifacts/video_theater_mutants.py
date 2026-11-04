@@ -50,7 +50,7 @@ def main():
 
     def build(label):
         with (output / (label + "-build.log")).open("w") as log:
-            subprocess.run(["bash", "-c", 'source "$1" video "$2" && npm run dev:neural:app',
+            subprocess.run(["bash", "-c", 'source "$1" video "$2" && { free -m; npm run dev:neural:app; }',
                 "video-build", str(PROGRAMME / "quartz/acquire-build-lock.sh"), label],
                 cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, check=True)
 
