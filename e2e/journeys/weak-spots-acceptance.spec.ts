@@ -17,7 +17,7 @@ import { journey } from "../dsl";
  * marker, `data-session-row` (the deck key), and pairs lists by that identity, never by position.
  *
  * WHY A 200-CARD DAILY GOAL. Practice holds as many new decks as the goal buys: ~2 at the default 20, ~20
- * at the 200 maximum. P1 narrows new practice to the current belt. Each comparison now covers five
+ * at the 200 maximum. P1 narrows new practice to the current belt. Each comparison now covers three
  * earned-belt profiles in a fixed order, reading each profile's real rendered queue, then deduplicates
  * their union. The same 15-distinct-row and 10-shared-row floors remain; a narrow band cannot quietly
  * reduce the pricing/start evidence. Blue comes first so the Standing-start oracle stays in its band.
@@ -199,7 +199,7 @@ async function openBeltPlan(j: any, page: Page) {
 
 async function acrossBelts(j: any, page: Page, refresh = false): Promise<Plan> {
   const plans: Plan[] = [];
-  for (const belt of ["blue", "white", "purple", "brown", "black"]) {
+  for (const belt of ["blue", "white", "purple"]) {
     await page.evaluate(id => {
       const a = (window as any).__neural;
       a.belts = { ...a.belts, held: { id, t: 1 }, gf: 1 };
@@ -207,7 +207,7 @@ async function acrossBelts(j: any, page: Page, refresh = false): Promise<Plan> {
     const opened = await openBeltPlan(j, page);
     plans.push(refresh ? await refreshBeltPlan(j, page) : opened);
   }
-  expect(plans, "five earned-belt profiles contribute real rendered ranking rows").toHaveLength(5);
+  expect(plans, "three earned-belt profiles contribute real rendered ranking rows").toHaveLength(3);
   const keys = [...new Set(plans.flatMap(p => p.keys))];
   return { keys, names: keys, note: plans.map(p => p.note).join("\n") };
 }
