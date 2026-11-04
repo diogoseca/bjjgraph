@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""VIDEO1: exact-source controls, locked builds and focused journeys.
+"""VIDEO1: exact-source controls under one lock through healthy restoration.
 
 Set TMPDIR and PW_PORT; --output must be programme scratch.
 Light jobs reserve 2048 MiB by default and do not use BUILD_WAIT.
@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 import re
 import subprocess
+import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 PROGRAMME = Path("/home/user/bjj-orchestrator")
@@ -30,6 +31,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--only", default="")
+    parser.add_argument("--lock-held", action="store_true", help=argparse.SUPPRESS)
     args = parser.parse_args()
     output = args.output.resolve()
     if not output.is_relative_to(PROGRAMME / "scratch"):
@@ -37,15 +39,27 @@ def main():
     if not os.environ.get("PW_PORT") or not os.environ.get("TMPDIR"):
         parser.error("Set TMPDIR and a verified-free private PW_PORT")
     output.mkdir(parents=True, exist_ok=True)
+    job_env = os.environ.copy()
+    job_env.pop("BUILD_WAIT", None)
+    job_env.setdefault("BUILD_PEAK_MIB", "2048")
+    if not args.lock_held:
+        # One experiment: the source edits, builds, browser controls and final
+        # healthy rebuild all share the same peak, with no concurrent heavy job.
+        with (output / "lock.log").open("w") as log:
+            result = subprocess.run(["bash", "-c", 'source "$1" video "$2" >&2 && shift 2 && "$@"',
+                "video-controls", str(PROGRAMME / "quartz/acquire-build-lock.sh"), "video source controls and restoration",
+                sys.executable, str(Path(__file__).resolve()), *sys.argv[1:], "--lock-held"],
+                cwd=ROOT, env=job_env, stderr=log)
+        sys.exit(result.returncode)
+    owner = dict(line.split("=", 1) for line in (PROGRAMME / "build.lock/owner").read_text().splitlines())
+    assert owner.get("agent") == "video" and owner.get("pid") == str(os.getppid()), "Parent must hold the video build lock"
+    assert owner.get("peak") == job_env["BUILD_PEAK_MIB"], "Lock must record this job's declared peak"
     manifest = json.loads(Path(__file__).with_suffix(".json").read_text())
     mutants = [m for m in manifest["mutants"] if not args.only or re.search(args.only, m["name"])]
     assert mutants, "No mutants selected"
     originals = {m["file"]: (ROOT / m["file"]).read_bytes() for m in mutants}
     hashes = {name: hashlib.sha256(data).hexdigest() for name, data in originals.items()}
     (output / "source-hashes.json").write_text(json.dumps(hashes, indent=2) + "\n")
-    job_env = os.environ.copy()
-    job_env.pop("BUILD_WAIT", None)
-    job_env.setdefault("BUILD_PEAK_MIB", "2048")
 
     def restore():
         for name, data in originals.items():
@@ -54,15 +68,12 @@ def main():
 
     def build(label):
         with (output / (label + "-build.log")).open("w") as log:
-            subprocess.run(["bash", "-c", 'source "$1" video "$2" && { free -m; npm run dev:neural:app; }',
-                "video-build", str(PROGRAMME / "quartz/acquire-build-lock.sh"), label],
+            subprocess.run(["bash", "-c", "free -m && npm run dev:neural:app"],
                 cwd=ROOT, env=job_env, stdout=log, stderr=subprocess.STDOUT, check=True)
 
     def run(label, pattern):
         with (output / (label + ".json")).open("w") as out, (output / (label + "-stderr.log")).open("w") as err:
-            result = subprocess.run(["bash", "-c", 'source "$1" video "$2" >&2 && shift 2 && "$@"',
-                "video-browser", str(PROGRAMME / "quartz/acquire-build-lock.sh"), label + " browsers",
-                "node", "node_modules/@playwright/test/cli.js", "test", "-c", "e2e/playwright.private.config.ts",
+            result = subprocess.run(["node", "node_modules/@playwright/test/cli.js", "test", "-c", "e2e/playwright.private.config.ts",
                 manifest["spec"], "--workers=1", "--timeout=30000", "--reporter=json", "--grep", pattern],
                 cwd=ROOT, env=job_env, stdout=out, stderr=err)
         data = json.loads((output / (label + ".json")).read_text())
@@ -99,7 +110,9 @@ def main():
         restore()
         build("restored")
         (output / "results.json").write_text(json.dumps(results, indent=2) + "\n")
-    print(str(len(results)) + " mutants killed; exact source and healthy bundle restored", flush=True)
+    code, restored = run("restored", pattern)
+    assert code == 0 and len(restored) == len(baseline) and all(r["status"] == "passed" for _, r in restored), restored
+    print(f"{len(results)} mutants killed; exact source and healthy bundle restored; {len(restored)} restored cases passed", flush=True)
 
 
 if __name__ == "__main__":
