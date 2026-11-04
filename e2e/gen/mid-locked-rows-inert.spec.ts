@@ -71,7 +71,8 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
 
   // open the explorer's CHALLENGES view (curriculum loaded → challenges is the default mode);
   // openExplorer auto-pauses the game — the freeze that makes beat-count strictness safe
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
+  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
   // THE PANE'S SLIDE MOVES camTarget ON ITS OWN (v1.189.0 4f41a4ccc "Keep gameplay beside the

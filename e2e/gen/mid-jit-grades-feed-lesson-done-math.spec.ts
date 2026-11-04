@@ -121,7 +121,8 @@ test("three study grades complete a not-yet-studied unit's lesson — unit stays
   // Close study, then inspect the same lesson in Challenges.
   await page.keyboard.press("Escape")
   expect(await page.evaluate(() => !!(window as any).__neural.deckShown), "study pane closed").toBe(false)
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
+  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
 

@@ -73,6 +73,19 @@ async function boot(page: Page) {
   return { requested, errors, workers };
 }
 
+/** THE EXPLICIT STUDY DOOR (SIDE-R2 M9, v1.242.0): Practice opens the plan WITHOUT asking for the study
+ *  comparison (measured: 78,719 B and one or two long tasks on a throttled phone, for a comparison that had
+ *  not started 8 s later), as dev's due door did. The plan's own "Refresh plan" asks for it, the way dev's
+ *  "N new" door used to; the planner is loaded first, so the press lands on the plan view every time. */
+async function openStudy(page: Page, touch: boolean) {
+  await hit(page, page.locator('[data-explore-stats] [data-b="due"]').first(), touch);
+  // the plan view repaints as its decks land: a button replaced before the press is located afresh
+  for (let i = 0; ; i++) {
+    try { await hit(page, page.locator('[data-gameplan-refresh]').first(), touch); return; }
+    catch (e) { if (i >= 3 || !/not attached/.test(String(e))) throw e; }
+  }
+}
+
 async function openPlan(page: Page, touch: boolean, withDebt = false) {
   await page.evaluate(async (withDebt) => {
     const a = (window as any).__neural; a.setPaused(true);
@@ -86,9 +99,10 @@ async function openPlan(page: Page, touch: boolean, withDebt = false) {
         a.srs[key] = { ...(a.srs[key] || {}), [a.qhash(card.q)]: [day - 1, 3, day - 4] };
       }
     }
-    a.setViewMode('explore'); a.openExplorer(); a.renderPaneAnchor();
+    a.setViewMode('explore'); a.openExplorer(); a.renderExplorer();
+    if (!await a._ensureGameplanRuntime()) throw Error('the planner did not load');
   }, withDebt);
-  await hit(page, page.locator('[data-explore-stats] [data-b="new"]').first(), touch);
+  await openStudy(page, touch);
   // polled WITH the study state, so a plan that never mounts says why (FGGPLAN1: one CI red ended in
   // the abandoned-load state, and its generic status text did not name the signal that caused it)
   await expect.poll(async () => (await page.locator(form).count()) ? 'mounted' : page.evaluate(() => {
@@ -121,12 +135,15 @@ test('explicit plan loads controls without a study worker; paging, touch and sta
     (window as any).__studyFormRef = document.querySelector('[data-game-study-controls]');
     (window as any).__studyQueueRef = a._session;
     input.focus(); input.setSelectionRange(1, 3);
-    return { keys: a._session.keys.slice(), idx: a._session.idx, srs: JSON.stringify(a.srs), revision: a._knowledgeRevision };
+    return { keys: a._session.keys.slice(), due: (a._session.plan?.due || []).map((r: any) => r.key), idx: a._session.idx, srs: JSON.stringify(a.srs), revision: a._knowledgeRevision };
   });
   // The first Mount question is shared across both roles. The real planner
   // freezes one qhash review rather than charging the same question twice.
-  expect(before.keys).toHaveLength(1);
-  expect(['Mount|Top', 'Mount|Bottom']).toContain(before.keys[0]);
+  // v1.242.0: Practice mixes new decks into the plan (owner U56 e), so the claim reads the plan's REVIEW
+  // rows; the session's keys carry the new decks and the ranked rest beside them.
+  expect(before.due).toHaveLength(1);
+  expect(['Mount|Top', 'Mount|Bottom']).toContain(before.due[0]);
+  expect(before.keys[0], 'and the review leads the queue').toBe(before.due[0]);
   await page.evaluate(() => {
     const a = (window as any).__neural;
     // Exercise the actual host status repaint path without fabricated results.
@@ -141,7 +158,7 @@ test('explicit plan loads controls without a study worker; paging, touch and sta
       srs: JSON.stringify(a.srs), revision: a._knowledgeRevision, search: input.value, selection: [input.selectionStart, input.selectionEnd] };
   });
   expect(after.sameForm).toBe(true); expect(after.sameQueue).toBe(true);
-  expect({ keys: after.keys, idx: after.idx, srs: after.srs, revision: after.revision }).toEqual(before);
+  expect({ keys: after.keys, idx: after.idx, srs: after.srs, revision: after.revision }).toEqual({ keys: before.keys, idx: before.idx, srs: before.srs, revision: before.revision });
   expect(after.search).toBe('Mount'); expect(after.selection).toEqual([1, 3]);
   await expect(page.locator(`${form} [data-study-action="remove"][data-study-key="Mount|Top"]`)).toBeVisible();
   const geometry = await page.locator(form).evaluate(element => {
@@ -176,8 +193,11 @@ async function holdStudyLoad(page: Page) {
 }
 async function tapPlanWithHeldLoad(page: Page, touch: boolean) {
   const hold = await holdStudyLoad(page);
-  await page.evaluate(() => { const a = (window as any).__neural; a.setPaused(true); a.setViewMode('explore'); a.openExplorer(); a.renderPaneAnchor(); });
-  await hit(page, page.locator('[data-explore-stats] [data-b="new"]').first(), touch);
+  await page.evaluate(async () => {
+    const a = (window as any).__neural; a.setPaused(true); a.setViewMode('explore'); a.openExplorer(); a.renderExplorer();
+    if (!await a._ensureGameplanRuntime()) throw Error('the planner did not load');
+  });
+  await openStudy(page, touch);
   await expect.poll(() => hold.held(), { message: 'the study bundle request is held' }).toBeGreaterThan(0);
   expect(await page.evaluate(() => !!(window as any).__neural._gameStudyLoading), 'the plan load is in flight').toBe(true);
   return hold;

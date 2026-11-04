@@ -207,7 +207,8 @@ for (const path of [KNEE, RNC]) {
         safety: safety ? norm(safety.textContent) : null,
         shownSafety: norm(document.querySelector('[data-reader-article="hub"] [data-source-id="safety-considerations"]')?.textContent || ''),
         rows: safety?.querySelectorAll('li,td').length || 0,
-        sourceGuide: [...defender.querySelectorAll('article p,article li')].map(n => norm(n.textContent)).filter(s => s.length > 40), reader }
+        // U65 note (owner, 2026-10-29): only duplicate game video credits are retired; safety and guide prose stay.
+        sourceGuide: [...defender.querySelectorAll('article p,article li')].filter(n => !n.closest('#film-study,#official-preview')).map(n => norm(n.textContent)).filter(s => s.length > 40), reader }
     }, path)
     expect(proof.attackerOnly.length, 'the built hub has actual attacker-only rules to exclude').toBeGreaterThan(2)
     expect(proof.leaked, 'no attacker steps, principles or counters in defender reading').toEqual([])

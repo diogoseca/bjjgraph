@@ -2,6 +2,11 @@ import { expect, test, type Page } from '@playwright/test'
 import { journey } from '../dsl'
 
 // Sections are a view of the served article, not a second content pipeline.
+// U65 b (owner, 2026-10-29) changes the occlusion claim: the current node stays stationary while
+// the article crosses it; cards, gutters and space below shorter tiles may cover its hit target.
+// The node visible through that space is NOT clickable: the reader grid owns the mouse there.
+// U65 note retires game-page Film Study credits (their film already appears in the stage).
+// Source preservation below excludes only those credits; reference-page Videos remain complete.
 // Source equality is checked independently of the semantic order. Integrated
 // section/media/game controls on the pre-D-318 head (2026-10-16): 46 retained assertion kills plus
 // the corrected wheel and two review controls, 49 total. The original wheel
@@ -63,6 +68,7 @@ for (const path of [
         const source = doc.querySelector('article')!
         const selected = guide || !/\/(Top|Bottom|Attacker|Defender)$/.test(root.getAttribute('data-reader-path')!) ? [source] : [...source.querySelectorAll('#safety-considerations,blockquote.callout.danger')]
         for (const container of selected) for (const leaf of container.querySelectorAll('p,li,th,td')) {
+          if (!/^\/(Principles|Learning|Systems)\//.test(root.getAttribute('data-reader-path')!) && leaf.closest('#film-study,#official-preview')) continue
           const text = norm(leaf.textContent); if (text && !shown.includes(text)) missing.push(text)
         }
       }
@@ -166,7 +172,8 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
     // in flow order and the article follows the lower part.
     r.gameTop = 180
     const measure = () => {
-      const c = a._landEl.getBoundingClientRect(), h = a.optionsRef.current.getBoundingClientRect(), cards = [...r.root.querySelectorAll('.ng-section-card')] as HTMLElement[]
+      // U65 retains an unpainted Videos preference control; only painted tiles have flow gaps.
+      const c = a._landEl.getBoundingClientRect(), h = a.optionsRef.current.getBoundingClientRect(), cards = ([...r.root.querySelectorAll('.ng-section-card')] as HTMLElement[]).filter(e => e.getClientRects().length)
       const first = r.videoCard && !r.videoCard.hidden ? r.videoCard : a.optionsRef.current
       return { top: r.root.getBoundingClientRect().top, start: parseFloat(first.style.top), cardTop: c.top,
         cardGap: Math.max(h.top - c.bottom, c.top - h.bottom), articleGap: r.articleEl.getBoundingClientRect().top - Math.max(c.bottom, h.bottom),
@@ -307,6 +314,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
       await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
       await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the closed labels')
       await expect(header).toBeVisible()
+      await expect(body, 'revealing a closed label does not reveal its article body').toBeHidden()
       // D-338 / D-475: a closed section is a light label with no box. A zero-width border
       // draws nothing even when its computed color is currentColor; the open-card glow must vanish too.
       const closed = await page.locator('[data-section-type=principles]').evaluate(e => {
@@ -388,7 +396,7 @@ const tocCanvasGeometry = (page: Page) => page.evaluate(() => {
 
 // STALE CONTRACT: D-318 U4a replaces the free-gutter correction with centred
 // arrival and native occlusion. Restoring that correction must fail this claim.
-test('@curated current node stays centred as the native sections cover it at every width', async ({ page }) => {
+test('@curated current node stays centred while the native article crosses it at every width', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   await page.emulateMedia({ reducedMotion: 'reduce' })
   const j = journey(page)
@@ -420,7 +428,16 @@ test('@curated current node stays centred as the native sections cover it at eve
     expect(reading).toMatchObject({ map: true, reading: true })
     expect(Math.abs(reading.center - board.center)).toBeLessThan(1)
     expect(Math.abs(reading.point.y - board.point.y)).toBeLessThan(1)
-    expect(await page.evaluate(({ x, y }) => !!document.elementFromPoint(x, y)?.closest('.ng-section-card'), reading.point), 'native prose covers the stationary node').toBe(true)
+    // NOT CLICKABLE THERE (DASH-R4, review finding 9d): the node seen through a row's gutter is dead to the mouse. The
+    // gutter is the reader's grid, so a press there is reading: it pauses the game and, with a mouse, declines an
+    // asking question. The orchestrator tells the owner; nothing here asserts the node can be picked in a gutter.
+    // CLAIM CHANGED: U65 b (owner, 2026-10-29). Old: a card or a gutter inside a row covers the node.
+    // New: the article grid crosses the stationary node; the map may show below a shorter tile.
+    // Input there still belongs to reading. A real canvas hit must fail, as must moving the camera.
+    expect(await page.evaluate(({ x, y }) => {
+      const hit = document.elementFromPoint(x, y)
+      return !!hit?.closest('[data-reader-body]')
+    }, reading.point), 'the article grid owns the stationary node hit target, including space below a short tile').toBe(true)
     expect(reading.intersections, width + 'px reading: ' + JSON.stringify(reading)).toEqual([])
     const column = await page.locator('.ng-reader-article').boundingBox()
     expect(column!.x).toBe(Math.max(12, (width - 680) / 2))

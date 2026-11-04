@@ -46,12 +46,104 @@ test("an eight-card first deck with five spaces explicitly exceeds the soft targ
   assert.match(summary(p), /runs 3 cards over the goal/);
 });
 
-test("reviewed unique questions and uncapped due debt consume the target before new work", () => {
+// PRACTICE (owner U56 e, v1.242.0) reverses the v1.138.0 rule this test used to pin ("due debt consumes
+// the target before new work", which dealt a heavy day no new card at all). Reviews still count toward
+// the goal and are never capped; new cards keep one in five of what is left of the goal while it is unmet.
+test("Practice: reviewed questions count toward the goal, due stays uncapped, and new cards keep their share", () => {
   const decks = { "A|Top": deck(["x", "y", "z"]), "B|Bottom": deck(["b"]) };
   const srs = { "A|Top": { x: due(), y: due(), z: [101, 1, 100] }, copy: { z: [101, 1, 100] } };
   const p = build(input({ target: 2, decks, srs, provider: provider([row("B|Bottom")]) }));
   assert.equal(p.reviewed.length, 1); assert.equal(p.dueCards, 2);
-  assert.equal(p.fresh.length, 0); assert.equal(p.overrun, 1); assert.equal(p.more.length, 1);
+  assert.deepEqual(p.fresh.map((r) => r.key), ["B|Bottom"], "a fifth of the one card left of the goal, rounded up = one new card");
+  assert.equal(p.overrun, 2); assert.equal(p.more.length, 0);
+});
+
+// The three Practice claims, at the planner. Mutants recorded in tests/artifacts/sidebar_mutants.md.
+const ten = (prefix) => Array.from({ length: 10 }, (_, i) => prefix + i);
+const practiceDecks = () => ({ ...Object.fromEntries(Array.from({ length: 12 }, (_, i) => ["D" + i + "|Top", deck(["d" + i])])),
+  "N1|Top": deck(["n1a", "n1b"]), "N2|Bottom": deck(["n2a", "n2b"]), "N3|Attacker": deck(["n3a"]), "N4|Defender": deck(ten("n4")) });
+const ranked = () => provider(["N1|Top", "N2|Bottom", "N3|Attacker", "N4|Defender"].map((k, i) => row(k, 9 - i)));
+
+test("Practice: a fresh player's session is the gaps, up to the 20-card default goal", () => {
+  const p = build({ day, revision: 1, stamp: "r1", ruleset: "gi", decks: practiceDecks(), provider: ranked() });
+  assert.equal(p.target, 20, "the default goal is 20 cards");
+  assert.equal(p.dueCards, 0);
+  assert.deepEqual(p.queue, ["N1|Top", "N2|Bottom", "N3|Attacker", "N4|Defender"], "new gap decks fill the goal, in rank order");
+  assert.equal(p.newCards, 15);
+});
+
+test("Practice: due reviews come first by urgency, and new decks are slipped in at one card per four reviews", () => {
+  const decks = practiceDecks();
+  // twelve one-card reviews, the oldest first (D0 is twelve days overdue, D11 one)
+  const srs = Object.fromEntries(Array.from({ length: 12 }, (_, i) => ["D" + i + "|Top", { ["d" + i]: due(12 - i) }]));
+  const p = build(input({ target: 20, decks, srs, provider: ranked() }));
+  assert.equal(p.dueCards, 12); assert.equal(p.newCards, 5, "8 left of the goal buys N1 + N2 + N3; N4's ten cards wait");
+  assert.deepEqual(p.queue, ["D0|Top", "D1|Top", "D2|Top", "D3|Top", "N1|Top", "D4|Top", "D5|Top", "D6|Top", "D7|Top", "D8|Top", "D9|Top", "D10|Top", "D11|Top", "N2|Bottom", "N3|Attacker"],
+    "four reviews before the first new card; N1's two cards cost eight more before N2; the rest follow the reviews");
+  assert.deepEqual(p.queue.filter((k) => k[0] === "D"), p.due.map((r) => r.key), "reviews keep the debt's urgency order");
+});
+
+test("Practice: a heavy day keeps the mix without capping reviews; the goal stops new cards, never reviews", () => {
+  const decks = practiceDecks();
+  const srs = Object.fromEntries(Array.from({ length: 12 }, (_, i) => ["D" + i + "|Top", { ["d" + i]: due(1) }]));
+  const heavy = build(input({ target: 10, decks, srs, provider: ranked() }));
+  assert.equal(heavy.due.length, 12, "all twelve reviews, past a ten-card goal");
+  assert.deepEqual(heavy.fresh.map((r) => r.key), ["N1|Top"], "a fifth of the ten-card goal = 2 new cards: N1's two fill it; N2 waits");
+  assert.deepEqual(heavy.queue.slice(0, 5), heavy.due.slice(0, 4).map((r) => r.key).concat("N1|Top"), "and the new deck is mixed in, not appended");
+  // the goal already met today: nothing new is dealt, every review still is
+  const answered = Object.fromEntries(ten("t").map((q) => [q, [day + 1, 1, day]]));
+  const met = build(input({ target: 10, decks, srs: { ...srs, done: answered }, provider: ranked() }));
+  assert.equal(met.reviewed.length, 10); assert.equal(met.fresh.length, 0); assert.equal(met.due.length, 12);
+  assert.deepEqual(met.queue, met.due.map((r) => r.key));
+});
+
+// THE QUOTA NEVER CLIMBS BACK UP (SIDE-R2 M2). The first curve gave 16 owed reviews 4 new cards and 77 owed
+// the whole goal again; the floor is now one in five of what is left of the goal. The curve is the owner's
+// number (U63): this pins its SHAPE, and the heavy-day floor it has today.
+// SIDE-R3 N5: all 303 points, including the seven cards left after 13 real answers. Mutations that
+// dip only at due=21 for left=20 or left=7 both die at due=22; the old 13 samples missed that gap.
+test("Practice: the new-card quota is non-increasing over due 0..100 with 20, 7 and 60 left", () => {
+  let points = 0;
+  for (const [target, answered] of [[20, 0], [20, 13], [60, 0]]) {
+    const left = target - answered, rooms = [];
+    for (let owed = 0; owed <= 100; owed++) {
+      const keys = Array.from({ length: owed }, (_, i) => "D" + i + "|Top");
+      const decks = Object.fromEntries(keys.map((k, i) => [k, deck(["d" + i])]));
+      const srs = Object.fromEntries(keys.map((k, i) => [k, { ["d" + i]: due(1) }]));
+      srs.done = Object.fromEntries(Array.from({ length: answered }, (_, i) => ["answered" + i, [day + 1, 1, day]]));
+      const p = build(input({ target, decks, srs, provider: provider([]) }));
+      assert.equal(p.dueCards, owed);
+      assert.equal(p.reviewed.length, answered);
+      rooms.push(p.room); points++;
+    }
+    for (let i = 1; i < rooms.length; i++) assert.ok(rooms[i] <= rooms[i - 1], `left=${left} due=${i}: ${rooms[i - 1]} -> ${rooms[i]}`);
+    const floor = Math.ceil(left / 5);
+    assert.deepEqual([rooms[0], rooms[left - floor], rooms.at(-1)], [left, floor, floor], "U63 a: one in five of the remaining goal on a heavy day");
+  }
+  console.log("Practice quota: " + points + " planner points asserted");
+});
+
+// THE MIX IS DECK-GRANULAR (SIDE-R2 M1). Real decks run a median of 8 cards (p90 10), so a whole deck is
+// dealt at its turn and the copy says "a new technique after every few reviews". What the queue keeps at
+// that granularity: each new deck is placed only once the reviews before it pay four cards for every new
+// card before it, plus one; reviews keep their urgency order; no two new decks meet while reviews remain.
+test("Practice: with real 8-card decks a new technique comes after every few reviews, never two in a row while reviews remain", () => {
+  const owed = Array.from({ length: 40 }, (_, i) => "D" + i + "|Top"), fresh = ["N0|Top", "N1|Top", "N2|Top", "N3|Top"];
+  const decks = { ...Object.fromEntries(owed.map((k, i) => [k, deck(["d" + i])])),
+    ...Object.fromEntries(fresh.map((k, i) => [k, deck(Array.from({ length: 8 }, (_, j) => "n" + i + "-" + j))])) };
+  const srs = Object.fromEntries(owed.map((k, i) => [k, { ["d" + i]: due(40 - i) }]));
+  const p = build(input({ target: 60, decks, srs, provider: provider(fresh.map((k, i) => row(k, 9 - i))) }));
+  assert.equal(p.room, 20); assert.deepEqual(p.fresh.map((r) => r.key), ["N0|Top", "N1|Top"], "two whole 8-card decks fit 20; the third waits");
+  assert.equal(p.queue.indexOf("N0|Top"), 4, "the first new technique follows four reviews");
+  assert.equal(p.queue.indexOf("N1|Top"), 37, "the next waits until 36 reviews have paid for N0's eight cards");
+  let reviews = 0, learned = 0;
+  p.queue.forEach((k, i) => {
+    if (k[0] === "D") { reviews++; return; }
+    assert.ok(reviews >= 4 * (learned + 1), k + " placed after only " + reviews + " reviews for " + learned + " new cards");
+    assert.ok(i + 1 === p.queue.length || p.queue[i + 1][0] === "D" || !p.queue.slice(i).some((x) => x[0] === "D"), "two new decks meet while reviews remain");
+    learned += 8;
+  });
+  assert.deepEqual(p.queue.filter((k) => k[0] === "D"), p.due.map((r) => r.key));
 });
 
 test("all four roles are independent opportunities; illegal new decks are excluded in each frame", () => {

@@ -253,6 +253,9 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   // D-338: the Videos section now sizes with the article column, which narrows beside the pane, so
   // the document can change length. The pane never scrolls the reader: scrollTop is unchanged
   // unless the browser clamps it to a shorter document, and a wheel over the pane moves nothing.
+  // NON-KILL (U59 c, measured in DASH-R4): d338-clamped-place-lost survives here. The reader's bottom
+  // reserve now spans the full width (the account pill), so at 1024 the pane no longer moves it, the
+  // document never clamps, and reader.src.js's clamp restore is not exercised by this journey.
   const after = await page.locator("[data-reader]").evaluate(e => ({ top: e.scrollTop, max: e.scrollHeight - e.clientHeight }))
   expect(after.top, `the pane leaves the native scroll position alone (${JSON.stringify({ before, ...after })})`).toBe(Math.min(before, after.max))
   await closePane(page, j)

@@ -29,10 +29,21 @@
 .ng-reader-article button,.ng-reader-tools button { pointer-events:auto;min-height:44px;font:inherit;color:#d6def0;background:#29334d;border:1px solid #596782;border-radius:8px;cursor:pointer;padding:8px 10px; }
 .ng-reader-tools button { font:12px "Plus Jakarta Sans",sans-serif; }
 .ng-reader-game>.ng-reader-tools { pointer-events:auto; }
+/* U55 b (owner): where the index shows, layoutNow runs the grid from its 12px clearance to a 24px right
+   margin with an inline margin-left. Without the index (phones, below 1152px) it stays centred here. */
 .ng-reader :is([data-reader-body],.ng-reader-hidden) { width:var(--article-width,100%);margin-left:calc((100% - var(--article-width,100%))/2); }
-.ng-reader [data-reader-body] { box-sizing:border-box;container-type:inline-size;min-width:0;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:calc(var(--section-gap)*4) min(calc(var(--section-gap)*4),3%); }
-.ng-section-card { box-sizing:border-box;grid-column:span var(--span,12);background:#141b2b;border:0;border-radius:20px;min-width:0;overflow:clip;box-shadow:var(--section-shadow); }
+.ng-reader [data-reader-body] { box-sizing:border-box;container-type:inline-size;min-width:0;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:calc(var(--section-gap)*4) min(calc(var(--section-gap)*4),3%);align-items:start; }
+.ng-section-card { box-sizing:border-box;grid-column:span var(--span,6);background:#141b2b;border:0;border-radius:20px;min-width:0;overflow:clip;box-shadow:var(--section-shadow); }
+/* DASH-R4: until layoutNow writes the spans (a press held while an article arrives defers it) a tile
+   takes a half, so two still sit side by side; a grid of 660px or less stays one column. */
 @container(max-width:660px) { .ng-section-card { grid-column:1/-1; } }
+/* U59 c (owner): the desktop dashboard is rows of two open sections side by side (layoutNow writes
+   the spans: 2/3 + 1/3 either way, halves on two lanes, one short trio on three lanes for an odd count).
+   U65 b (owner, 2026-10-29): tiles end at their content. Rows take their taller tile's height plus
+   the token gap; the map shows below the shorter tile. Nothing is dense-packed, capped or faded. */
+/* U65 note: on game pages Videos retains its index and closed disclosure control, without a credits
+   tile in the article grid. Its film and close button remain in the stage above. */
+.ng-section-card[data-media-control]:not([data-collapsed=true]) { display:none; }
 /* D-338 (owner): one close icon on every width, the ghost ✕ the question card and the hand
    already wear (NG_GHOST_BTN_CSS: a 24px #8b97b0 glyph), on a 44px target. A closed section
    is a light label instead, its glyph above its name: no box, no outline, centred. */
@@ -70,7 +81,13 @@
 .ng-reader [data-reader-close] { margin:0 0 0 auto; }
 .ng-reader [data-reader-close]:hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
 .ng-section-body { padding:0 var(--reader-unit) var(--reader-unit); }
-.ng-section-body article { all:revert;display:block;font:inherit;color:inherit;overflow-wrap:break-word; }
+/* U59 c (owner): a readable measure in every tile, centred inside the token padding like the tile's title:
+   46ch of the body font is a 66-68 character median line on real pages (prose glyphs are narrower than
+   the 0 the ch unit measures). The media slot is outside the article, so a video keeps the tile's width. */
+.ng-section-body article { all:revert;display:block;font:inherit;color:inherit;overflow-wrap:break-word;max-width:46ch;margin:auto; }
+/* DASH-R4: a table with a fourth column needs ~520-566px (the hubs' Top/Bottom comparison), more than the column;
+   its article takes the tile's width (the section takes two thirds, layoutNow). */
+.ng-section-body article:has(tr>:nth-child(4)) { max-width:none; }
 .ng-section-body article+article { margin-top:var(--reader-unit); }
 .ng-section-body :is(.content-section,.learning-section,.system-section) { margin:0; }
 .ng-section-body .ng-section-source-title { display:none; }
@@ -83,7 +100,8 @@
 .ng-section-body li { margin:0; }
 .ng-section-body a,.ng-section-body .system-card__cta { color:#adc9ff; }
 .ng-section-body a { text-decoration:underline;text-underline-offset:3px; }
-.ng-section-body table { display:block;overflow-x:auto;font-size:14px; }
+/* The section supplies spacing; Quartz's table margin otherwise clips a three-column table at 768px. */
+.ng-section-body table { display:block;overflow-x:auto;font-size:14px;margin:0; }
 .ng-section-body :is(td,th) { padding:8px;border-bottom:1px solid #414c68; }
 .ng-section-body img { max-width:100%; }
 /* D-489/HATGO489b: hatnotes and Related badges share muted prose; CTA text keeps the reader link color above. */

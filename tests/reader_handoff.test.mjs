@@ -91,6 +91,8 @@ function node(values = {}) {
     setAttribute: key => attrs.add(key), hasAttribute: key => attrs.has(key),
     removeAttribute: key => attrs.delete(key),
     toggleAttribute(key, on) { if (on) attrs.add(key); else attrs.delete(key); },
+    // U59 c: a grid-width change looks for the first text block at the reader's top; these fixtures hold none.
+    querySelectorAll: () => [],
     append(el) { el.parentElement = this; }, appendChild(el) { this.append(el); },
     before(el) { el.parentElement = this.parentElement; },
     remove() { this.isConnected = false; },

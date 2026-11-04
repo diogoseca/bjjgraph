@@ -75,13 +75,17 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     await page.setViewportSize(viewport)
     await page.emulateMedia({ reducedMotion: "reduce" })
     const j = journey(page)
-    await j.boot(KNEE)
+    // U65 retires the credits tile. Closing Videos now needs the real film, which the default DSL omits.
+    await j.boot(KNEE, { beforeNavigate: async () => {
+      await page.route('**/static/neural/content/*.json', r => r.continue())
+    } })
     await j.advance(5000)
     await expect(page.locator(READY)).toBeVisible({ timeout: 20000 })
     await expect(page.locator("[data-land-more]")).toHaveCount(0)
     await expect(page.locator("[data-reader-body]")).toContainText("Training Progressions")
     expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
-    await expect(page.locator('.ng-section-card').first()).toHaveAttribute('data-section-type', 'videos')
+    // U65 note (owner, 2026-10-29): the game film lives above; the article begins with Overview.
+    await expect(page.locator('[data-reader-body]>.ng-section-card:visible').first()).toHaveAttribute('data-section-type', 'overview')
     await expect(page.locator('[data-section-type=overview]')).toContainText('Knee Slice')
     // RETIRED (D-338, owner: no View menu; Focus on reading and Browse removed). The Focus preset,
     // its saved reload and the article view's Map, Feedback and Book toggles have no control left
@@ -92,7 +96,7 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     }
     // D-338: each part has its own ✕. U25 a moves the closed Videos label into Hidden sections;
     // Questions/Moves retain their own labels. Neither closing nor reopening starts play.
-    const close = { film: '[data-section-toggle="videos"]', card: '[data-land-close]', hand: '[data-hand-close]' } as Record<string, string>
+    const close = { film: '[data-film-close]', card: '[data-land-close]', hand: '[data-hand-close]' } as Record<string, string>
     const open = { film: '[data-section-toggle="videos"]', card: '[data-game-open="card"]', hand: '[data-game-open="hand"]' } as Record<string, string>
     // STALE SPEC (D-368, layout C): Moves lead the flow, so reopening a part can scroll the tray out of view, and the
     // hand's ✕ docks only beside a visible tray (_dockHandClose); its own last rectangle is stale while hidden. The
@@ -227,7 +231,8 @@ for (const forced of [false, true]) test("@curated reading perspectives and Back
     const doc = new DOMParser().parseFromString(await (await fetch(path)).text(), "text/html")
     const norm = (s: string) => s.replace(/\s+/g, " ").trim()
     const text = norm([...document.querySelectorAll('[data-reader-article="guide"]')].map(e => e.textContent).join(" "))
-    return [...doc.querySelectorAll("article p,article li")].map(e => norm(e.textContent || "")).filter(s => s.length > 40 && !text.includes(s))
+    // U65 note (owner, 2026-10-29) retires only the duplicate game video credits.
+    return [...doc.querySelectorAll("article p,article li")].filter(e => !e.closest('#film-study,#official-preview')).map(e => norm(e.textContent || "")).filter(s => s.length > 40 && !text.includes(s))
   }, KNEE + "/Defender")
   expect(missing, "navigation cannot reuse the previous page's HTML under a new path").toEqual([])
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
@@ -304,13 +309,14 @@ for (const action of ["wheel", "selection"] as const) {
     expect((await state(page)).clock).toBeGreaterThan(0)
     const before = await state(page)
     if (action === "wheel") {
-      // D-338: the reader's bottom edge is now the question (game input), so the wheel goes over
-      // reading that is on screen at arrival: the Videos section's own text, first in the flow.
-      // STALE CONTRACT (D-368, layout C): nothing is lifted into the game; the Videos section opens the article,
-      // after the stage, and its text must be on screen at arrival for this wheel.
-      const r = await page.locator(".ng-reader-article [data-section-type=videos] .section-subtitle").first().boundingBox()
-      expect(r && r.y + r.height / 2 < 900, "premise: the Videos section's text is on screen at arrival").toBe(true)
-      await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height / 2)
+      // U65 note retires the credits text. Overview's header is visible at arrival; its first
+      // paragraph can lie below the reader's clipped bottom despite being inside the viewport.
+      const point = await page.locator('[data-reader-body] [data-section-type=overview]').evaluate(e => {
+        const r = e.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + 12
+        return { x, y, owns: e.contains(document.elementFromPoint(x, y)) }
+      })
+      expect(point.owns, 'premise: the wheel hits Overview inside the reader scrollport').toBe(true)
+      await page.mouse.move(point.x, point.y)
       await page.mouse.wheel(0, 300)
       await expect(page.locator("[data-reader]")).toHaveAttribute("data-reading-expanded", "")
       // The first wheel expands the compact prose into authored document order.

@@ -114,6 +114,10 @@ test("holder's film watch pumps odds but leaves prep, cardsToday, _days, both st
   //    summary's "D of L lessons") equals the same predicate computed over white's live
   //    lessons. Watch is closed before opening Challenges. ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away. Taken by the app's
+  // own view switch, not a click: the watch's <dialog open> is still up over the drawer here and would take
+  // a real click (dev's toggle opened Challenges with no click at all, and this census is read from the DOM).
+  await page.evaluate(() => (window as any).__neural.setViewMode("challenges"))
   await j.expectBeat("challenges_opened")
   const census = await page.evaluate(() => {
     const a = (window as any).__neural

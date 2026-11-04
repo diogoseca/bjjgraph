@@ -440,7 +440,7 @@ test.describe("in the 390px drawer", () => {
 
   await page.locator(".ng-logo").click(); // the phone pane opener (the pill is gone, v1.99.0)
   await expect(page.locator(".ng-drill")).toBeVisible();
-  await page.locator('.ng-learning-nav [data-view="explore"]').click();
+  await page.locator('[data-view="explore"]').click();
   await settleSystems(page);
 
   await expect(page.locator(`[data-list-items="${id}"] [data-list-item]`)).toHaveCount(3);
