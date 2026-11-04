@@ -13629,3 +13629,31 @@ The role URL, exact tab-title writer and repaired CI contracts remain alongside
 the drawer and reader-position changes. Both package manifests now use 1.242.1;
 the following app-only fingerprint commit regenerates its rows from this clean
 merged source. The guarded site census is unchanged; no capture is required.
+
+## v1.246.0 — per-escape clips: `defender.escape_clips` (owner ESC1)
+
+Every submission escape card showed "Video unavailable" by design: 1,049 choices across 287 submissions, because
+v1.230.0 forbids a destination's video or the submission's general defender reel for a named escape. The owner chose a
+clip of THAT escape or nothing. This change is the content side; the card itself is a separate app PR.
+
+**Shape.** `defender.escape_clips: [{escape, clips[]}]`, joined on the exact card label `compile_defenses` prints.
+- Not on an outcome: Americana from Side Control has 4 cards on 2 outcomes.
+- Not inside `defensive_options[i]`: that row is `details[i]`, which `response_identity` hashes into each defense's MDP id.
+- Emitted as `perspectives.defender.escapes` in the dossier chunk, which `_drainChoiceMedia` already hydrates, and NOT in
+  submission-details, whose bytes feed `detailsHash`. `scripts/submission_choices.py` and `regenerate_neural_data.py` are
+  untouched for the same reason: both are hashed into MDP provenance.
+
+**Failure modes, each with a test in `tests/clip_data_contract.py`.** A row naming no card fails validation and names
+itself. The AI schema never sees the key, `restore_clips` puts it back, and a reworded action that would orphan a row
+fails preservation. `_clips.iter_clips_arrays` yields each row, or clips-verify would report full coverage while skipping
+them. The emit prints a positive join count and fails under `ESCAPE_CLIP_JOIN_FLOOR`.
+
+**Mutants.** 9 of 9 killed by their named tests: rot check skips rows, AI schema keeps the key, restore skips the key,
+reword not caught, orphan passes, duplicate row passes, front rules skip rows, dossier drops escapes, override join broken.
+
+**Bytes.** One clip row is 131 B mean and 170 B max on the wire, measured on the 268 real defender rows of submissions.
+Dossiers count against `chunk_max_bytes` (40,000; largest submission chunk 25,499), not `deferred_raw_bytes`.
+
+**First data.** Escape labels are micro-actions ("Grip your own belt") that no title carries, so title search cannot find
+them. Each defence video's captions were indexed with timestamps, cards were matched to indexed moments, and a second
+independent judge read the excerpt. Each clip starts at the second that shows the escape. Transcripts stayed private.
