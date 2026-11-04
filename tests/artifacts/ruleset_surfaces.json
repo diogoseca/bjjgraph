@@ -133,6 +133,12 @@
    "file": "neural/src/app.src.jsx",
    "snippet": "this._idIndex.get(",
    "reason": "SEARCH METADATA, not a displayed or dealt node. This one-time deferred load attaches aliases to both role nodes across rulesets. Filtering during hydration would permanently omit aliases when the player later switches rulesets because _aliasesWait is reused. The consumers apply the mask: renderExplorer filters with rsAllows before nodeMatches, and renderSearch filters representative nodes with rsAllows before matching aliases."
+  },
+  "neural/src/app.src.jsx::_pageTitle::this._idIndex?.get(": {
+   "fn": "_pageTitle",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex?.get(",
+   "reason": "PAGE METADATA for the current URL, not a dealt or displayed game node. A published page keeps its exact built title even when the selected ruleset excludes its technique. Filtering here would leave the previous page title on valid links or history entries. scripts/check_page_titles.py compares every wire hub and both roles with the built HTML, including nodes excluded by either ruleset; gameplay seating remains guarded by the existing ruleset checks."
   }
  }
 }

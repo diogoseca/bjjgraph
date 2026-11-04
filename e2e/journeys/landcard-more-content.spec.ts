@@ -213,7 +213,7 @@ test("@curated a slower article never replaces a later Browse selection in the s
   }), { message: "Browse hydration finishes before measuring the Mount row" }).toBe(true)
   await expect(page.locator("[data-alias-status], [data-systems-status]")).toHaveCount(0)
   await j.clickByMouse('div:has(> [data-list-surface="explore"][data-list-add="Positions/Mount"]) > button:first-child')
-  await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount")
+  await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount/Top")
   expect(await page.evaluate(() => (window as any).__racingReader === (window as any).__neural._reader), "both navigations use the same live reader").toBe(true)
   release()
   await expect.poll(() => settled).toBe(true)
@@ -222,7 +222,7 @@ test("@curated a slower article never replaces a later Browse selection in the s
     if (!done) throw new Error("The held Defender article must have a real reader operation")
     await done
   })
-  await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount")
+  await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount/Top")
   expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(["/Positions/Mount/Top"])
 })
 

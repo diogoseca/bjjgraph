@@ -1,0 +1,9 @@
+{
+  "name": "automatic-article-uses-representative-role",
+  "file": "neural/src/app.src.jsx",
+  "from": "this._nodeUrlPath(this._seatMember(node.idx, this.playerRole))",
+  "to": "this._nodeUrlPath(node.idx)",
+  "spec": "journeys/reading-mode\\.spec",
+  "test": "an automatic game article follows the bottom player",
+  "claim": "The game reader resolves the actual player seat even when the landing retains the Top representative id. The source control must receive Mount/Top where the unchanged assertion requires Mount/Bottom."
+}

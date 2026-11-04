@@ -137,6 +137,8 @@ test("@curated a role page sets the board on THAT side, paused, and starts no ro
 // the reader's reserved node band (rollCamTarget widens to 0.107 of the graph here) and centres it
 // above the first section, which article-sections.spec.ts asserts at eight widths. This framing
 // claim is the MAP view's (Book off, persisted as a returning reader left it).
+// VIDEO2 CI control `suppress-staged-camera-retarget` in title_ci_mutants.json
+// still fails the re-aim assertion after the native-layout wait; both anchor controls pass.
 test("the node it navigates to is framed clear of the landing card", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Side-Control/Bottom", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
@@ -149,6 +151,11 @@ test("the node it navigates to is framed clear of the landing card", async ({ pa
   // their own completion signals, pumping between samples. Do NOT wait for the
   // desired zoom/clearance: a settled but wrong framing must reach the assertions.
   await expect.poll(async () => {
+    // VIDEO2 CI: a coalesced native reader layout can adopt the card AFTER the
+    // simulated camera has stopped (also reproduced on dev: band 586 -> 532.906px).
+    // Observe that layout before pumping its camera; card animations alone do not
+    // observe ResizeObserver/rAF publication. Keep every framing bound below.
+    await j.readerLayoutSettled()
     await j.advance(200)
     return page.evaluate(() => {
       const a = (window as Any).__neural, m = a._cm
