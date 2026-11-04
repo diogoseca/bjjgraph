@@ -1,0 +1,56 @@
+[
+  {
+    "name": "path-hidden-render-counted",
+    "file": "neural/src/challenge-ui.src.js",
+    "a": "    if (view === \"challenges\" && (!this.deckShown || this._viewMode !== view || this._paneStudyActive())) return;\n",
+    "b": "",
+    "claim": "a closed Path re-render cannot mint a second visit",
+    "spec": "journeys/path-visit-telemetry\\.spec",
+    "grep": "Path telemetry: fresh"
+  },
+  {
+    "name": "path-drawer-counted",
+    "file": "neural/src/app.src.jsx",
+    "a": "      this.openPane(\"explore\");\n      if (!this.isMobile())",
+    "b": "      this.openPane(\"explore\"); this.fx(\"challenges_opened\", {}); this.track(\"neural_challenges_viewed\", {});\n      if (!this.isMobile())",
+    "claim": "opening and rendering the drawer list emits neither event",
+    "spec": "journeys/path-visit-telemetry\\.spec",
+    "grep": "Path telemetry: fresh"
+  },
+  {
+    "name": "path-beat-silent",
+    "file": "neural/src/challenge-ui.src.js",
+    "a": "      this.fx(\"challenges_opened\", {",
+    "b": "      if (false) this.fx(\"challenges_opened\", {",
+    "claim": "the first real Path visit emits one of each event",
+    "spec": "journeys/path-visit-telemetry\\.spec",
+    "grep": "Path telemetry: fresh"
+  },
+  {
+    "name": "path-analytics-silent",
+    "file": "neural/src/challenge-ui.src.js",
+    "a": "      this.track(\"neural_challenges_viewed\", {});",
+    "b": "      if (false) this.track(\"neural_challenges_viewed\", {});",
+    "claim": "the first real Path visit emits one of each event",
+    "spec": "journeys/path-visit-telemetry\\.spec",
+    "grep": "Path telemetry: fresh"
+  },
+  {
+    "name": "path-repeat-render-counted",
+    "file": "neural/src/challenge-ui.src.js",
+    "a": "    if (this._learningViewsTracked[view]) return;",
+    "b": "",
+    "claim": "re-rendering and revisiting within one open drawer never double-counts",
+    "spec": "journeys/path-visit-telemetry\\.spec",
+    "grep": "Path telemetry: fresh"
+  },
+  {
+    "name": "path-next-visit-silent",
+    "file": "neural/src/app.src.jsx",
+    "a": "      this._learningViewsTracked = {};",
+    "b": "",
+    "claim": "the next real Path visit emits a second pair",
+    "spec": "journeys/path-visit-telemetry\\.spec",
+    "grep": "Path telemetry: fresh"
+  }
+]

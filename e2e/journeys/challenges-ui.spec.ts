@@ -29,17 +29,12 @@ test.describe("Challenges UI @curated", () => {
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
 
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
     // the knowledge header is gone (v1.96.0 — the belt lives at the top of Explore)
-    await expect(page.locator(".ng-learning-nav")).toBeVisible();
+    await expect(page.locator(".ng-drawer-head")).toBeVisible();
     await expect(page.locator(".ng-knowledge-header")).toHaveCount(0);
-    // tab titles live in each button's <b>; the second line is a subtitle (v1.95.0 —
-    // History is displayed as "Last rolls"; the internal view id stays `history`)
-    await expect(page.locator(".ng-learning-nav button b")).toHaveText([
-      "Explore",
-      "Challenges",
-      "Last rolls",
-    ]);
+    // v1.242.0: the tabs became the drawer's rows; Path (this corridor) says where you are in the brand
+    await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Path");
 
     const tracks = page.locator(".ng-track-card");
     await expect(tracks).toHaveCount(5);
@@ -106,7 +101,7 @@ test.describe("Challenges UI @curated", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
 
     // v1.99.2 (owner: "what's that pinning about?") — no pin affordance anywhere; the
     // corridor derives its one target from progress instead
@@ -144,7 +139,7 @@ test.describe("Challenges UI @curated", () => {
     // the cue follows the frontier belt too
     // v1.133.0: the cue card is retired — the corridor's frontier shows in the pane, not a cue
     await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
     await expect(white).toHaveAttribute("data-collapsed", "true");
     await expect(blue).toHaveAttribute("data-collapsed", "false");
     await expect(
@@ -170,7 +165,7 @@ test.describe("Challenges UI @curated", () => {
     // v1.99.1 (owner: "I don't see the point" of the zero-state): a fresh player sees NO
     // shelf — no "0 patches · 0 mat coins", no placeholder grid spoiling the joke coins
     await j.boot("/", { keepTutorial: true });
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
     await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
     await expect(page.locator("[data-rewards-shelf]")).toHaveCount(0);
     await expect(page.locator(".ng-drill")).not.toContainText("Available to earn");
@@ -183,7 +178,7 @@ test.describe("Challenges UI @curated", () => {
         coins: { houdini: { t: 100 } },
       }),
     });
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
     const shelf = page.locator("[data-rewards-shelf]");
     await expect(shelf.locator("summary")).toContainText("1 patch · 1 mat coin");
     await expect(shelf.locator("summary")).toContainText(
@@ -214,7 +209,7 @@ test.describe("Challenges UI @curated", () => {
       initialState: progressBlob({ tut: { done } }),
     });
 
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
     // v1.162.0 (owner): the one-off "Tutorial is now White Challenges" line is retired
     // along with the rest of the tab's head prose — the migration is silent, and the
     // ledger below is the only thing that has to be true.
@@ -266,30 +261,24 @@ test.describe("Challenges UI @curated", () => {
 
     await setLegacyView("path");
     await j.boot("/", { keepTutorial: true, preserveStorage: true });
-    await page.locator(".ng-logo").click();
-    await expect(page.locator("[data-view='challenges']")).toHaveAttribute(
-      "aria-pressed",
-      "true",
-    );
+    // v1.242.0: the drawer opens on its list; the restored view id is what a deep open lands on
+    expect(await page.evaluate(() => (window as any).__neural._viewMode)).toBe("challenges");
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
 
     await page.locator(".ng-explorer-close").click();
     await setLegacyView("tree");
     await j.boot("/", { keepTutorial: true, preserveStorage: true });
-    await page.locator(".ng-logo").click();
-    await expect(page.locator("[data-view='explore']")).toHaveAttribute(
-      "aria-pressed",
-      "true",
-    );
+    // v1.242.0: the drawer opens on its list; the restored view id is what a deep open lands on
+    expect(await page.evaluate(() => (window as any).__neural._viewMode)).toBe("explore");
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
 
     // the retired Collection tab lands on Challenges (its content lives on the rewards shelf)
     await page.locator(".ng-explorer-close").click();
     await setLegacyView("collection");
     await j.boot("/", { keepTutorial: true, preserveStorage: true });
-    await page.locator(".ng-logo").click();
-    await expect(page.locator("[data-view='challenges']")).toHaveAttribute(
-      "aria-pressed",
-      "true",
-    );
+    // v1.242.0: the drawer opens on its list; the restored view id is what a deep open lands on
+    expect(await page.evaluate(() => (window as any).__neural._viewMode)).toBe("challenges");
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
   });
 
   test("a Mat Coin acknowledgement links to its permanent rewards-shelf entry", async ({
@@ -308,10 +297,7 @@ test.describe("Challenges UI @curated", () => {
     await expect(reward).toContainText("MAT COIN MINTED");
     await expect(reward).toContainText("Houdini");
     await reward.locator("[data-reward-collection]").click();
-    await expect(page.locator("[data-view='challenges']")).toHaveAttribute(
-      "aria-pressed",
-      "true",
-    );
+    await expect(page.locator(".ng-drawer-brand"), "View Collection opens Path").toHaveText("\u2039 Path");
     await expect(page.locator("[data-rewards-shelf]")).toHaveAttribute("open", "");
     await expect(
       page
@@ -320,24 +306,64 @@ test.describe("Challenges UI @curated", () => {
     ).toHaveCount(1);
   });
 
-  test("keyboard navigation reaches advanced tracks and restores focus on close", async ({
+  // SIDECX4: real Tab/Enter from the opener through Path, Black belt and Close. Hold both cold
+  // indexes, then land each while Path has focus; fire the old 80ms search timer in that gap too.
+  // The DSL's empty dossier bodies are irrelevant: this reads real index and curriculum controls.
+  // Source controls and kill receipts: sidebar_keyboard_mutants.json / sidebar_mutants.md.
+  // No new non-kills; this does not claim keyboard reachability of every lesson or reference page.
+  for (const entry of ["drawer", "search shortcut"]) test(`keyboard navigation reaches advanced tracks and restores focus on close${entry === "drawer" ? "" : " via search shortcut"}`, async ({
     page,
   }) => {
+    await page.clock.install();
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
-    const opener = page.locator(".ng-logo");
-    await opener.focus();
-    await page.keyboard.press("Enter");
-    await expect(page.locator(".ng-explorer")).toBeVisible();
-
-    const black = page.locator("[data-track='black']");
-    await black.focus();
-    await page.keyboard.press("Enter");
-    await expect(black).toHaveAttribute("aria-pressed", "true");
-    await page.locator(".ng-explorer-close").focus();
-    await page.keyboard.press("Enter");
-    await expect(page.locator(".ng-explorer")).toBeHidden();
-    await expect(opener).toBeFocused();
+    await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+    const releases: (() => void)[] = [], held: string[] = [];
+    for (const name of ["systems-index", "concepts"]) {
+      const gate = new Promise<void>(resolve => { releases.push(resolve); });
+      await page.route(`**/${name}.json`, async route => { held.push(name); await gate; await route.continue(); });
+    }
+    const tabTo = async (selector: string, label: string) => {
+      const target = page.locator(selector);
+      // Black's expanded curriculum adds hundreds of stops. Bound one whole traversal by the
+      // rendered candidate count, not an assumed lesson count; native Tab decides the order.
+      const limit = await page.locator("button, a[href], input, select, textarea, summary, [tabindex]").count() + 2;
+      for (let n = 0; n < limit; n++) {
+        if (await target.evaluate(el => el === document.activeElement)) break;
+        await page.keyboard.press("Tab");
+      }
+      await expect(target, `${label} is reachable with Tab`).toBeFocused();
+      return target;
+    };
+    try {
+      const opener = page.locator(".ng-logo");
+      await opener.focus(); // only the starting point is placed programmatically
+      await page.keyboard.press(entry === "drawer" ? "Enter" : "/");
+      await expect(page.locator(".ng-explorer")).toBeVisible();
+      await expect.poll(() => [...held].sort(), { message: "both real cold index requests are held" }).toEqual(["concepts", "systems-index"]);
+      const path = await tabTo("[data-view='challenges']", "Path");
+      await page.clock.runFor(100);
+      await expect(path, "opening search cannot steal the next Path key").toBeFocused();
+      for (const [i, field] of ["systems", "concepts"].entries()) {
+        releases[i]();
+        await expect.poll(() => page.evaluate(key => (window as any).__neural[key]?.length || 0, field), { message: `${field} landed` }).toBeGreaterThan(0);
+        await expect(path, `${field} landing preserves the keyboard-selected Path`).toBeFocused();
+      }
+      await page.keyboard.press("Enter");
+      await expect(page.locator(".ng-track-card"), "Enter on Path opens all five tracks").toHaveCount(5);
+      const black = await tabTo("[data-track='black']", "Black belt");
+      await expect(black).toHaveAttribute("aria-pressed", "false");
+      await page.keyboard.press("Enter");
+      await expect(black, "Enter selects the advanced track").toHaveAttribute("aria-pressed", "true");
+      await tabTo(".ng-explorer-close", "Close");
+      await page.keyboard.press("Enter");
+      await expect(page.locator(".ng-explorer")).toBeHidden();
+      await page.clock.runFor(1);
+      await expect(opener, "closing the pane returns focus to its keyboard opener").toBeFocused();
+    } finally {
+      for (const release of releases) release();
+      await page.clock.resume();
+    }
   });
 
   test("reward feedback stays polite, focus-safe, and softly deduplicated", async ({
@@ -395,7 +421,7 @@ test.describe("Challenges UI @curated", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
 
     // the verbose "White Foundations · WHITE CONTENT TRACK" phrasing is display-retired:
     // ladder headers are the belts themselves (track ids and data names unchanged)
@@ -429,7 +455,7 @@ test.describe("Challenges UI @curated", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
     await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
 
     // v1.137.0, owner: "we should remove the whole tutorial section". Renderer, card, head,
@@ -476,7 +502,7 @@ test.describe("Challenges UI @curated", () => {
           for (const lesson of unit.lessons) a.prep[lesson.deckKey] = 99;
       }
     });
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
     await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
 
     // the button is dead (v1.98.1) — arrival positioning replaced it
@@ -536,7 +562,7 @@ test.describe("Challenges UI @curated", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
 
     // defaults: the frontier belt (white, topmost incomplete) rides open, the rest fold
     const white = page.locator(".ng-belt-section[data-belt='white']");
@@ -563,7 +589,7 @@ test.describe("Challenges UI @curated", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
     await expect(
       page.locator(".ng-belt-section[data-belt='white']"),
     ).toHaveAttribute("data-collapsed", "true");
@@ -579,13 +605,14 @@ test.describe("Challenges UI @curated", () => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
 
-    const opener = page.getByRole("button", { name: "Menu — open learning panel" });
+    // v1.242.0 (owner A5/U46): one drawer icon, no "Menu" label, still a 44px target
+    const opener = page.getByRole("button", { name: "Open the sidebar" });
     await expect(opener).toBeVisible();
-    await expect(opener.getByText("Menu", { exact: true })).toBeVisible();
+    await expect(opener.getByText("Menu")).toHaveCount(0);
     const openerBox = await opener.boundingBox();
     expect(openerBox?.width).toBeGreaterThanOrEqual(44);
     expect(openerBox?.height).toBeGreaterThanOrEqual(44);
-    await j.clickByMouse(".ng-logo", "the mobile Menu button");
+    await j.clickByMouse(".ng-logo", "the mobile drawer icon");
     await expect(page.locator(".ng-explorer")).toBeVisible();
     await j.clickByMouse(".ng-explorer-close", "the panel close button");
     await expect(page.locator(".ng-explorer")).toBeHidden();

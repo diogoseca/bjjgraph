@@ -1,4 +1,6 @@
 /* @hyperspace {"theme":"lifetime-journeys","L":"srs-veteran","F":"challenges","B":"cross-feature"} @invariant "Cross-track lesson evidence is visible in open Challenges but never substitutes for checkpoints: a veteran can browse White and Blue from day one, while each selected track's capstone stays unavailable until every unit checkpoint is earned." */
+// SIDECX3 / v1.242.0: the drawer opens on its list; select Path explicitly.
+// The dev-passing gameplay/evidence claims below are unchanged.
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { srsVeteran, CURRICULUM } from "./personas"
@@ -16,8 +18,9 @@ test("veteran: open cross-track Challenges retain checkpoint-only capstone gates
   await j.boot("/", { initialState: srsVeteran(N_DECKS) })
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await page.locator('[data-view="challenges"]').click()
 
-  await expect(page.locator('[data-view="challenges"]')).toBeVisible()
+  await expect(page.locator(".ng-track-card").first()).toBeVisible()
   expect(await page.locator(".ng-track-card").count()).toBe(CURRICULUM.belts.length)
 
   for (const track of [WHITE, BLUE]) {

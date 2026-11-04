@@ -34,7 +34,8 @@ test("lesson_done fires exactly once, at exactly prep===goal", async ({ page }) 
   await j.land("Mount Top")
 
   // open the explorer's CHALLENGES view (curriculum loaded → challenges is the default mode)
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
+  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await j.expectBeat("challenges_opened") // once per life — asserted here and never again
 

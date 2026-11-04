@@ -337,7 +337,9 @@ for (const reduced of [false, true]) {
     await test.info().attach('execution-handoff-diagnostics', { contentType: 'application/json', body: JSON.stringify(diagnostics, null, 2) });
     if (mouse) expect(diagnostics.records.find((r: any) => r.at === 'pointerdown')?.scrollTop, 'the pick is pressed where the variant put the reader').toBe(pickTop);
     for (const key of ['x', 'y', 'width', 'height'] as const) expect(Math.abs(handoff.before[key] - handoff.after[key]), 'clicked-card ' + key).toBeLessThanOrEqual(2);
-    if (scrolled && width > 640) expect(handoff.before.y).toBeCloseTo(68, 0);
+    // 74, was 68: the reader's top inset clears the opener (`.ng-logo`), and v1.242.0's 44px drawer icon
+    // (top 18, bottom 62) sits 6px deeper than the wordmark it replaced (owner A5: one icon, no label)
+    if (scrolled && width > 640) expect(handoff.before.y).toBeCloseTo(74, 0);
     if (pane) {
       await j.clickByMouse(".ng-logo", "open the learning pane during execution")
       await j.advance(1500); await j.advance(1500)

@@ -124,16 +124,18 @@ function stageDecks(a, n, st) {
   }
   a._publishKnowledge("test-stage");
 }
-/** what renderTabSubtitles() WROTE — read back from a stub node, never recomputed */
+/** what renderTabSubtitles() WROTE on the drawer's Path row (v1.242.0: the Challenges tab became Train's
+ *  Path row, its belt drawn under the row) — read back from stub nodes, never recomputed */
 function tab(a) {
-  const ex = { textContent: "" }, btn = { attrs: {}, setAttribute(k, v) { this.attrs[k] = v; } };
-  const ch = { innerHTML: "", closest: () => btn };
-  a.viewToggleRef = { current: { querySelector: (s) => (s.includes("explore") ? ex : s.includes("challenges") ? ch : null) } };
+  const btn = { attrs: {}, setAttribute(k, v) { this.attrs[k] = v; } };
+  const ch = { textContent: "", closest: () => btn }, belt = { innerHTML: "" };
+  a.drillRef = { current: { querySelector: (s) => (s.includes("challenges") ? ch : s.includes("data-path-belt") ? belt : null) } };
   a.renderTabSubtitles();
-  a.viewToggleRef = { current: null };
-  const attr = (n) => (new RegExp(n + '="([^"]*)"').exec(ch.innerHTML) || [])[1];
-  const out = { belt: attr("data-tab-belt"), stripes: attr("data-tab-stripes"), dye: (/--tb:([^;]+);/.exec(ch.innerHTML) || [])[1], aria: btn.attrs["aria-label"] };
-  assert.ok(out.belt && out.stripes != null && out.dye, "the tab wrote a belt, stripes and a dye: " + ch.innerHTML);
+  a.drillRef = { current: null };
+  const attr = (n) => (new RegExp(n + '="([^"]*)"').exec(belt.innerHTML) || [])[1];
+  const out = { belt: attr("data-tab-belt"), stripes: attr("data-tab-stripes"), dye: (/--tb:([^;]+);/.exec(belt.innerHTML) || [])[1], aria: btn.attrs["aria-label"] };
+  assert.ok(out.belt && out.stripes != null && out.dye, "the Path row wrote a belt, stripes and a dye: " + belt.innerHTML);
+  assert.equal(ch.textContent, out.stripes + (out.stripes === "1" ? " stripe" : " stripes"), "the row's tail names the stripes");
   return out;
 }
 

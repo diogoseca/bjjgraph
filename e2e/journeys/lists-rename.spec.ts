@@ -332,7 +332,7 @@ test("rename works at 390px inside the drawer — tap the name, type, Enter", as
   const { id } = await seedList(page, "Rename me");
   await page.locator(".ng-logo").click(); // the phone pane opener (the pill is gone, v1.99.0)
   await expect(page.locator(".ng-drill")).toBeVisible();
-  await page.locator('.ng-learning-nav [data-view="explore"]').click();
+  await page.locator('[data-view="explore"]').click();
   await settleSystems(page);
 
   await j.clickByMouse(`[data-list-name="${id}"]`, "the list's name in the drawer");

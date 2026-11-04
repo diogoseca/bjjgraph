@@ -101,7 +101,7 @@ test("joint coverage text preserves roles uncertainty and full-group conditions 
 test("new plan and explicit refresh request study; due-only entry and internal runtime reopening do not", async () => {
   const { app, calls } = fixture(); app._requestGameplanStudy = i => { calls.requests.push(i); return Promise.resolve(); };
   app._ensureGameplanClock = () => {}; app._gameplanRuntime = { ngGameplanSummary: () => "plan", ngGameplanBind: x => x };
-  app.planSummary = () => ({ due: [], fresh: [], more: [], dueCards: 0, newCards: 0 });
+  app.planSummary = () => ({ due: [], fresh: [], more: [], queue: [], dueCards: 0, newCards: 0 });
   app.hydrateDecks = () => Promise.resolve(); app._sessionInline = () => false; app.nodeForKey = () => -1;
   for (const name of ["closeModal", "frameNodes", "renderSession", "applyDeckVisibility"]) app[name] = () => {};
   app.openPlanSession("due"); assert.deepEqual(calls.requests, []);
@@ -109,13 +109,33 @@ test("new plan and explicit refresh request study; due-only entry and internal r
   assert.deepEqual(calls.requests, ["open-plan", "refresh-plan"]);
 });
 
-test("active due queue survives deferred planner arrival and study notifications", async () => {
-  const { app, calls } = fixture(), ready = deferred();
-  app._requestGameplanStudy = i => { calls.requests.push(i); return Promise.resolve(); };
-  app._ensureGameplanClock = () => {}; app.openSession = () => { app._session = { keys: ["real-due"], idx: 0, review: { count: 1 } }; };
-  app._ensureGameplanRuntime = () => ready.promise; app._sessionInline = () => true; app.dueCount = () => 1;
-  app.openPlanSession("new"); const due = app._session; ready.resolve(true); await flush();
-  assert.equal(app._session, due); assert.deepEqual(due.keys, ["real-due"]); assert.deepEqual(calls.requests, ["open-plan"]);
+// SIDE-R2 B1 (v1.242.0): a queue GRADED before the planner lands is the one under the player's hand and
+// survives its arrival, as it always did; an UNTOUCHED one is reopened as the plan (Practice's mix),
+// asking for no study of its own.
+// SIDE-R3 N4: use the real _sessionInline guard. Removing it dies at open-deck; removing the
+// revealed guard is also covered by practice-mix's held-planner, real-Reveal browser mutation.
+test("active due queue survives deferred planner arrival and study notifications once graded, revealed or in an open deck; an untouched one becomes the plan", async () => {
+  for (const interaction of ["untouched", "graded", "revealed", "open-deck", "reveal-during-press"]) {
+    const { app, calls } = fixture(), ready = deferred();
+    let done = 0; app.practiceToday = () => ({ done, goal: 20 });
+    app._requestGameplanStudy = i => { calls.requests.push(i); return Promise.resolve(); };
+    app._ensureGameplanClock = () => {}; app.openSession = () => { app._session = { keys: ["real-due"], idx: 0, review: { count: 1 } }; };
+    app._ensureGameplanRuntime = () => ready.promise; app.deckShown = true; app.dueCount = () => 1;
+    app.openPlanSession("new"); const due = app._session;
+    if (interaction === "graded") done = 1;
+    if (interaction === "revealed") app._deckState = { "real-due": { idx: 0, revealed: true } };
+    if (interaction === "open-deck") app.deck = [{ q: "An open study card", a: "Its answer" }];
+    if (interaction === "reveal-during-press") app._panePress = true;
+    const reopened = []; app.openPlanSession = (...args) => { reopened.push(args); };
+    ready.resolve(true); await flush();
+    if (interaction === "reveal-during-press") {
+      assert.equal(app._paneOwed.length, 1, "the landing waits for the press");
+      app._deckState = { "real-due": { idx: 0, revealed: true } };
+      app._panePress = false; app._paneOwed.splice(0).forEach(fn => fn());
+    }
+    assert.equal(app._session, due); assert.deepEqual(due.keys, ["real-due"]); assert.deepEqual(calls.requests, ["open-plan"]);
+    assert.deepEqual(reopened, interaction === "untouched" ? [["new", false]] : [], interaction);
+  }
 });
 
 test("live queue notification occurs before deferred card evaluation and render notification sees pending state", async () => {

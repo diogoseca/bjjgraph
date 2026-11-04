@@ -848,6 +848,15 @@ export class Journey {
     return box;
   }
 
+  /**
+   * THE BADGE LIVES IN THE DRAWER (v1.242.0, owner U46 b): the account menu opens from the badge at
+   * the drawer's foot, so a shut drawer is opened first, by its icon, the way a player does it.
+   */
+  async openAccountMenu(what = "the badge") {
+    if (!(await this.page.locator(".ngAcctChip").isVisible())) await this.clickByMouse(".ng-logo", "the drawer icon");
+    await this.clickByMouse(".ngAcctChip", what);
+  }
+
   async clickByMouse(selector: string, what?: string) {
     const label = what || selector;
     const hit = await this.page.evaluate((sel) => {

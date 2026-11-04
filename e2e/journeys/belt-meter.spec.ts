@@ -27,7 +27,7 @@ const openTab = async (page: Page, view: string) => {
     app.setViewMode(v);
     app.openExplorer();
   }, view);
-  await expect(page.locator(".ng-learning-nav")).toBeVisible();
+  await expect(page.locator(".ng-drawer-head")).toBeVisible();
 };
 
 test.describe("Score belt retired @curated", () => {
@@ -46,14 +46,18 @@ test.describe("Score belt retired @curated", () => {
     }
 
     // the one remaining exposure of the score, and it is live
-    const sub = await page.locator('[data-tab-sub="explore"]').innerText();
+    // v1.242.0: the Explore tab's "Mastered N%" moved to the badge's menu, its one exposure
+    await openTab(page, "explore");
+    await j.openAccountMenu();
+    const sub = await page.locator("[data-menu-mastered]").innerText();
     const score = await page.evaluate(
       () => (window as any).__neural.gameScore().score,
     );
-    expect(sub).toBe("Mastered " + Math.round(score * 100) + "%");
+    expect(sub).toMatch(new RegExp("^Mastered \\d+ · " + Math.round(score * 100) + "%$"));
+    await page.keyboard.press("Escape");
 
     // the one remaining belt visual: the Challenges tab's ladder belt
-    await expect(page.locator(".ng-learning-nav .ng-tab-belt")).toHaveCount(1);
+    await expect(page.locator("[data-path-belt] .ng-tab-belt")).toHaveCount(1);
   });
 
   test("a seeded score moves the subtitle — and conjures no meter back", async ({
@@ -74,11 +78,9 @@ test.describe("Score belt retired @curated", () => {
         f: a._giMode === "nogi" ? "nogi" : "gi",
         out: { score: 0.5, belt: "blue", next: "purple", stripes: 2 },
       };
-      a.renderTabSubtitles();
     });
-    await expect(page.locator('[data-tab-sub="explore"]')).toHaveText(
-      "Mastered 50%",
-    );
+    await j.openAccountMenu();
+    await expect(page.locator("[data-menu-mastered]")).toHaveText(/ · 50%$/);
     await expect(page.locator(".ng-knowledge-meter")).toHaveCount(0);
   });
 });

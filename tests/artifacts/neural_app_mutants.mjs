@@ -49,7 +49,7 @@ const controls = [
     [['this._refPage||this._staged!=null||this.startRoll(t)', 'this._refPage||this.startRoll(t)']], 'the other read role must be a reachable drawn canvas half'],
   // D-338: a saved Focus is read again by the layer seam (its reading* overrides hide the card).
   ['d338-saved-focus-layer-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$',
-    [['let t=yt[e];return!t||this.get(t,!0)!==!1', 'let t=yt[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
+    [['let t=vt[e];return!t||this.get(t,!0)!==!1', 'let t=vt[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
     'a saved Focus no longer hides the question'],
   // RETIRED (v1.237.0, PR #320's review): reading-band-lift-restored (the follow-cam lifts the node against the
   // reading band's edge again: two rest framings). pane-layout:131 stopped seeing it when that journey's first landing
@@ -65,10 +65,10 @@ const controls = [
   ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
     [['else if(!t)n.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
   ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
-    [['u==null||u.toggleAttribute("data-reader-pending",a>0);return d&&a<=0', 'u==null||u.toggleAttribute("data-reader-pending",!1);return d&&a<=0']], 'the new hand is shown once, at its final place'],
+    [['p==null||p.toggleAttribute("data-reader-pending",a>0);return d&&a<=0', 'p==null||p.toggleAttribute("data-reader-pending",!1);return d&&a<=0']], 'the new hand is shown once, at its final place'],
   // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
   ['d354-pane-follow-lag', 'pane-keyboard.spec.ts', 'D-354: the landing deck and its arrows follow the pane',
-    [[',this.uiShift!==s&&((o=this._reader)==null||o.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
+    [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
   // D-354 (H95, H97): REAL BREAK from D-351. A hand the reader held starts its Win chance when it publishes.
   ['d354-held-hand-no-value', 'article-sections.spec.ts', 'D-354: a hand the reader held starts its Win chance',
     [['return d&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
@@ -96,9 +96,10 @@ const controls = [
   // Run at 1cf59ba38 (answerpts round 2): all six killed at the claims named here.
   ['d370-band-186-in-catch', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band',
     [['this.W<=640?this._phoneCatch()?this.H<700?80:144:186:144', 'this.W<=640?186:144']], 'D-433 short live catch uses the smaller band'],
-  ['u16-account-hidden', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band', [],
-    'D-433 short live catch uses the smaller band', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
-      '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-acctwrap{visibility:hidden!important}']]],
+  // RETIRED (v1.242.0): u16-account-hidden. Its claim, U16 b's account kept visible on the map during a
+  // phone catch, went with the corner chip: owner U46 b put the account in the drawer as the badge, so no
+  // account sits on the map to hide; D-433 now claims the same reserve against a raised share cue (SIDE-R2 M6).
+  // Run 2 of the table at 110bbb1f4 left it NOT KILLED for exactly that reason.
   ['u16-card-compacted', 'defending-landing.spec.ts', 'D-433: at 390x631 the smaller live band', [],
     'D-433 short live catch uses the smaller band', [['.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}',
       '.ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important}[data-phone-catch] .ng-landcard.ng-land-deck{padding-top:8px!important}']]],
@@ -122,20 +123,26 @@ const controls = [
   // CLEAR_SEC (v1.219.0's hand mutant `slowclear`, scripted at APTS-CI2): the lift's edge takes 1 s and every flight
   // at least 1.5 s, so a row turned back on stays over the node past CLEAR_SEC.
   ['slowclear', 'camera-continuity.spec.ts', '1440px camera continuity.*CLEAR_SEC: a card the player turns back on',
-    [['b.t=Math.min(1,b.t+e/_n)', 'b.t=Math.min(1,b.t+e/1)'],
+    [['x.t=Math.min(1,x.t+e/Cn)', 'x.t=Math.min(1,x.t+e/1)'],
      ['A=Math.max(t.dur?t.dur(L):Math.max(.6,Math.min(1.4,.5+.25*L))', 'A=Math.max(1.5,t.dur?t.dur(L):Math.max(.6,Math.min(1.4,.5+.25*L))']], 'CLEAR_SEC a row turned on'],
   ['d355-flight-lift-ungated', 'dual-pair.spec.ts', 'hovering any pair names it once',
-    [['active:!m.band||!!(y!=null&&y.band)', 'active:!0']], 'and the role moved below it'],
+    [['active:!m.band||!!(b!=null&&b.band)', 'active:!0']], 'and the role moved below it'],
   ['d355-flight-lift-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['(!m.band||y)&&(c.lift=', '!m.band&&(c.lift=']], 'URL arrival @'],
+    [['(!m.band||b)&&(c.lift=', '!m.band&&(c.lift=']], 'URL arrival @'],
   // ORCH-382 / H140-H144: the old 30px gate engages after contact; activating the subject only
   // when its gate opens starts the spring too late. Both fail the unchanged ZERO-overlap pin.
+  // Historical NON-KILL at 1440x900 on v1.242.0 (110bbb1f4). SIDE-R3 N7 restores the kill at
+  // 1440x720, with the drawer's actual 74px inset and band 74..218: the fixed gate puts the label's
+  // bottom at 235.82 against rows at 234 (required <232). The same ZERO-overlap assertion stays.
   ['flight-lift-fixed-margin', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['y.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+x+xt>m.bottom', 'y.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
+    [['b.band=(this.H||800)/2+(this.camFocus.y-this.cam.cy)*(this.W||1200)/this.cam.vw+y+Ct>m.bottom', 'b.band=(this.H||800)/2+(this.pairMid(_).y-this.cam.cy)*(this.W||1200)/this.cam.vw+30>m.bottom']], 'ZERO overlap URL arrival @'],
   ['flight-lift-tracking-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*URL arrival: from the intro',
-    [['(!m.band||y)&&(c.lift=', '(!m.band||y!=null&&y.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
+    [['(!m.band||b)&&(c.lift=', '(!m.band||b!=null&&b.band)&&(c.lift=']], 'ZERO overlap URL arrival @'],
   // D-371 / H136-H138: the initial animation frame can precede the portrait's final height. Removing only
   // its transition-end reveal reproduces the card extending below the Learning pane at 1440px.
+  // Historical NON-KILL at 1440x900 on v1.242.0 (110bbb1f4): its taller drawer let the first portrait
+  // frame fit. SIDE-R3 N7 restores the kill at 1440x700: without the transition-end reveal, the
+  // unchanged portrait-and-close-button fit assertion fails. Both controls have green baselines.
   ['concept-fit-reveal-lost', 'concepts-surface.spec.ts', 'principle film study.*1440px',
     [['e.addEventListener("transitionend",_)', 'void 0']], 'the expanded portrait and its close button fit inside the reading pane'],
   // U47 d (owner, 2026-10-27): a landing asks with its question alone; "Answer for Points", or a tap on the
@@ -152,13 +159,13 @@ const controls = [
   ['u47-paging-asks-again', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['this._landPage=n,this._armPagedLandClock(),this._readStop()', 'this._landPage=n,this._landAsk=!0,this._armPagedLandClock(),this._readStop()']], 'the shown card stays shown across paging, with its own window'],
   ['u47-question-tap-dead', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
-    [['h.append(x," ",w),h.addEventListener("click",()=>this._landReveal());', 'h.append(x," ",w);']], 'a tap on the question shows the card'],
+    [['u.append(y," ",v),u.addEventListener("click",()=>this._landReveal());', 'u.append(y," ",v);']], 'a tap on the question shows the card'],
   // U52 b: the phone's two-line cut is _fitAskLine's (the CSS clamp is gone). Its desktop twin, trimming on a
   // desktop too, is a recorded NON-KILL (covered-card.spec.ts's header): no real question needs a third line there.
   ['u47-phone-trim-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844',
     [['if(t.textContent=s,!this.isMobile())return;', 'if(t.textContent=s,!0)return;']], 'U47 d: a long question is cut to two lines on a phone'],
   ['u47-desktop-offer-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900',
-    [['h.append(x," ",w),h.addEventListener("click",()=>this._landReveal())', 'h.append(x," ",...this.isMobile()?[w]:[]),h.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
+    [['u.append(y," ",v),u.addEventListener("click",()=>this._landReveal())', 'u.append(y," ",...this.isMobile()?[v]:[]),u.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
   ['u47-reveal-keeps-asking-face', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
     [['this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none",e.removeAttribute("data-land-ask");', 'this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none";']], "Answer for Points shows today's card, with no reveal control inside it"],
   // U52 b: the take-up lays the reader out at once (the card leaves the quiet line's width); deferred, the first
@@ -178,7 +185,7 @@ const controls = [
   ['u52b-take-up-replays-entry', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
     [['this._landOptIn(),e.style.animation="none",e.removeAttribute("data-land-ask")', 'this._landOptIn(),e.removeAttribute("data-land-ask")']], "the take-up does not replay the card's entry on the question just tapped"],
   ['u52b-focus-dropped', 'covered-card.spec.ts', 'U52 b a landing rendered with the pane open shows the full card; focus survives',
-    [['M(120)}c&&this._landQ&&!this._defenseDrillOpened', '}c&&this._landQ&&!this._defenseDrillOpened']], 'keyboard focus moves to Answer for Points, not the page'],
+    [['E(120)}c&&this._landQ&&!this._defenseDrillOpened', '}c&&this._landQ&&!this._defenseDrillOpened']], 'keyboard focus moves to Answer for Points, not the page'],
   ['u52b-arrow-in-name', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)', [],
     'the accessible name is "Answer for Points", without the arrow', [['content:" \\2192"/""', 'content:" \\2192"']]],
   ['u47-asking-answers-laid-out', 'covered-card.spec.ts', 'U35 D-433.*1440x900', [],
@@ -208,7 +215,7 @@ const controls = [
   ['u47-take-up-unmeasured', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['this.fx("land_q_taken_up",{deckKey:t.key||null,mode:this._landMode||"land"}),', '']], 'land_q_taken_up fires once per take-up'],
   ['u47-asking-letters-answer', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
-    [['f=m=>{if(!(a.inert||["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(h||o.spent)', 'f=m=>{if(!(["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(h||o.spent)']], 'an asking question cannot grade, page or charge time'],
+    [['f=m=>{if(!(a.inert||["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(u||o.spent)', 'f=m=>{if(!(["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(u||o.spent)']], 'an asking question cannot grade, page or charge time'],
   ['u47-hover-latch-lost', 'landing-card.spec.ts', 'no clock before Answer for Points',
     [['["pointerdown","pointermove","keydown"]', '["pointerdown","keydown"]']], 'one hover engages'],
   ['u36-motion-listener-lost', 'defending-landing.spec.ts', 'reduced motion keeps a static cue',
@@ -218,7 +225,7 @@ const controls = [
   // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
   // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
   ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
-    [['if(h&&!((c=this._reader)!=null&&c.interacting))', 'if(h&&!this._reader?.intent&&!((c=this._reader)!=null&&c.interacting))']],
+    [['if(p&&!((u=this._reader)!=null&&u.interacting))', 'if(p&&!this._reader?.intent&&!((u=this._reader)!=null&&u.interacting))']],
     '...and the chosen escape stays on the table'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
@@ -235,7 +242,7 @@ const baseline = (spec, grep) => {
     // Preserve the same unmutated run's log and JSON; a red baseline still cannot count as a kill.
     const report = resolve(out, 'baseline-' + baselines.size + '.json')
     const log = resolve(out, 'baseline-' + baselines.size + '.log')
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--output', resolve(out, 'baseline-' + baselines.size + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report } })
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, 'journeys/' + spec.replaceAll('.', '\\.'), '--grep', grep, '--output', resolve(out, 'baseline-' + baselines.size + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report } })
     writeFileSync(log, (run.stdout || '') + (run.stderr || ''))
     baselines.set(key, { green: run.status === 0 && / passed /.test(run.stdout || ''), exit: run.status, report, log })
   }
@@ -256,7 +263,7 @@ try {
     try { new Script(mutant) } catch (e) { throw Error(name + ': the mutant does not parse: ' + e.message) }
     writeFileSync(app, mutant)
     const report = resolve(out, name + '.json')
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--max-failures=1', '--output', resolve(out, name + '-results'), '--reporter=list,json'], {
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, 'journeys/' + spec.replaceAll('.', '\\.'), '--grep', grep, '--max-failures=1', '--output', resolve(out, name + '-results'), '--reporter=list,json'], {
       cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report },
     })
     writeFileSync(app, original)

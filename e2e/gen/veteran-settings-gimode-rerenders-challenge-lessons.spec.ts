@@ -1,4 +1,6 @@
 /* @hyperspace {"theme":"lifetime-journeys","L":"srs-veteran","F":"settings","B":"cross-feature"} @invariant "Changing giMode to nogi re-renders the open Challenge curriculum live: a gi-only lesson disappears from the selectable lesson surface, a nogi-viable sibling remains, and retained lesson evidence is never erased." */
+// SIDECX3 / v1.242.0: the drawer opens on its list; select Path explicitly.
+// The dev-passing gameplay/evidence claims below are unchanged.
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { srsVeteran, CURRICULUM } from "./personas"
@@ -31,7 +33,8 @@ test("giMode flip removes gi-only Challenge lessons without deleting evidence", 
   await j.boot("/", { initialState: srsVeteran(gi.index + 1) })
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await expect(page.locator('[data-view="challenges"]')).toBeVisible()
+  await page.locator('[data-view="challenges"]').click()
+  await expect(page.locator(".ng-track-card").first()).toBeVisible()
   await page.locator(`.ng-track-card[data-track="${gi.track.id}"]`).click()
 
   const giLesson = page.locator(`.ng-challenge-lesson[data-lesson="${gi.lesson.deckKey}"]`)

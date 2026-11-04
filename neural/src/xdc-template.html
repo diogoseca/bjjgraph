@@ -22,10 +22,12 @@
   @keyframes ngCardIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
   @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
   @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
-  .ngAcctChip{background:rgba(26,30,52,.66);backdrop-filter:blur(8px);border:1px solid rgba(150,170,210,.2);border-radius:999px;transition:background .2s ease,border-color .2s ease,backdrop-filter .2s ease;}
-  .ng-account-menu{position:absolute;right:0;bottom:calc(100% + 10px);width:224px;flex-direction:column;background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.22);border-radius:14px;box-shadow:0 14px 44px rgba(0,0,0,.55);padding:5px;animation:ngCardIn .18s ease both;}
-  .ngSignupCta{cursor:pointer;font-size:11.5px;font-weight:700;color:#fff;background:linear-gradient(135deg,#4a6cff,#6a5cff);border-radius:999px;padding:8px 14px;box-shadow:0 3px 14px rgba(74,108,255,.42);white-space:nowrap;letter-spacing:.01em;transition:filter .15s ease,transform .15s ease,box-shadow .15s ease;}
-  .ngSignupCta:hover{filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 5px 18px rgba(74,108,255,.5);}
+  .ng-acctwrap{flex:none;display:flex;align-items:center;gap:8px;padding:8px 10px 12px;border-top:1px solid rgba(150,170,210,.1);background:rgba(15,17,30,.35);}
+  .ngAcctChip{flex:1;min-width:0;min-height:54px;display:flex;align-items:center;gap:12px;padding:0 8px;border:0;border-radius:12px;background:transparent;color:inherit;font-family:"Plus Jakarta Sans",sans-serif;text-align:left;cursor:pointer;}
+  .ngAcctChip:hover{background:rgba(255,255,255,.05);}
+  .ng-account-menu{position:absolute;right:0;bottom:calc(100% + 10px);width:236px;flex-direction:column;background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.22);border-radius:14px;box-shadow:0 14px 44px rgba(0,0,0,.55);padding:5px;animation:ngCardIn .18s ease both;}
+  .ngSignupCta{flex:none;min-height:34px;padding:0 14px;cursor:pointer;font:700 12px/1 "Plus Jakarta Sans",sans-serif;color:#dce4ff;background:rgba(110,140,255,.12);border:1px solid rgba(140,165,255,.36);border-radius:999px;}
+  .ngSignupCta:hover{background:rgba(110,140,255,.22);}
   *{scrollbar-width:thin;scrollbar-color:rgba(120,150,210,.32) transparent;}
   ::-webkit-scrollbar{width:9px;height:9px;}
   ::-webkit-scrollbar-track{background:transparent;}
@@ -38,12 +40,8 @@
   }
   @media (max-width:640px){
     .ng-logo{top:22px!important;left:18px!important;gap:0!important;}
-    .ng-acctwrap{top:auto!important;bottom:28px!important;right:14px!important;} /* the pill's old band seat (v1.99.0) */
-    .ngAcctChip{padding:7px!important;} /* avatar-only chip still makes a 44px touch target */
     .ng-logo .ng-word,.ng-logo .ng-kbd{display:none!important;}
     .ng-drill{width:88vw!important;}
-    .ngAcctChip>span:first-child{display:none!important;}
-    .ngSignupCta{display:none!important;}
     .ng-evtoast{width:86vw!important;}
     .ng-optionrow{padding:10px 12px 6px!important;gap:9px!important;}
     .ng-legendkey{display:none!important;}
@@ -72,16 +70,6 @@
   <!-- dominance flash overlay -->
   <div ref="{{ fxRef }}" style="position:absolute;inset:0;pointer-events:none;opacity:0;"></div>
 
-  <!-- account chip (bottom-right) + its compact menu (v1.94.0). The chip opens the MENU, not
-       the pane — the pane opener is the top-left logo. pointer-events:auto INLINE on both: the
-       wrap and the menu are fixed overlays over the canvas hit-test. -->
-  <div ref="{{ accountRef }}" class="ng-acctwrap" style="position:absolute;bottom:24px;right:24px;pointer-events:auto;z-index:6;transition:opacity .25s ease;">
-    <div ref="{{ acctMenuRef }}" class="ng-account-menu" role="menu" aria-label="Account" style="display:none;pointer-events:auto;"></div>
-    <div ref="{{ acctChipRef }}" class="ngAcctChip" role="button" tabindex="0" aria-haspopup="menu" aria-expanded="false" aria-label="Account menu" onClick="{{ toggleAccountMenu }}" style="cursor:pointer;display:flex;align-items:center;gap:10px;padding:5px 7px 5px 14px;">
-      <span style="font-size:12px;font-weight:600;color:#cbd4e6;letter-spacing:.01em;">Guest</span>
-      <span style="width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#4a6cff,#9a5cff);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#fff;box-shadow:0 2px 10px rgba(74,108,255,.4);">G</span>
-    </div>
-  </div>
 
   <!-- modal overlay (settings / legal / auth / search). Z LADDER (see helmet.html): a
        DELIBERATE screen at 95, top of the root overlay plane. Rendered here for the refs but
@@ -93,15 +81,13 @@
     <div ref="{{ modalCardRef }}" style="width:min(440px,90vw);background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.2);border-radius:18px;box-shadow:0 24px 70px rgba(0,0,0,.65);overflow:hidden;animation:ngCardIn .28s ease both;"></div>
   </div>
 
-  <!-- Panel opener: a labeled menu on mobile, the wordmark and open hint on desktop. -->
-  <button type="button" aria-label="Menu — open learning panel" class="ng-logo" onClick="{{ toggleExplorer }}" style="position:absolute;top:24px;left:34px;pointer-events:auto;cursor:pointer;display:flex;align-items:center;gap:10px;z-index:9;border:0;background:transparent;padding:0;text-align:left;font-family:inherit;">
-    <span class="ng-menu-label"><svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg><span>Menu</span></span>
-    <div style="display:flex;flex-direction:column;gap:3px;">
-      <span ref="{{ brandFontRef }}" class="ng-word" style="font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:500;letter-spacing:-.005em;color:#cbd4e6;line-height:1;transition:opacity .9s ease,color .2s;">bjjgraph<span style="color:#6b7691;">.org</span></span>
-      <span class="ng-kbd" style="display:flex;align-items:center;gap:5px;font-size:9.5px;font-weight:600;color:#6b7691;background:transparent;border-radius:6px;padding:1px 0 0;letter-spacing:.03em;width:max-content;opacity:.6;transition:opacity .2s,color .2s;">
-        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>Open panel <span style="opacity:.65;font-weight:700;">/</span>
-      </span>
-    </div>
+
+  <!-- THE DRAWER OPENER (owner A5 / U46, v1.242.0): one drawer icon, no "Menu" label, no wordmark —
+       the brand lives in the open drawer's head. The dot is today's owed reviews (`_paintDrawerDot`).
+       Hidden while the drawer is open: the drawer's own head carries the close icon there. -->
+  <button type="button" aria-label="Open the sidebar" title="Open the sidebar (/)" class="ng-logo" onClick="{{ toggleExplorer }}" style="position:absolute;top:18px;left:22px;pointer-events:auto;cursor:pointer;z-index:9;border:0;background:transparent;padding:0;width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#cbd4e6;">
+    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="3"></rect><path d="M9.5 4.5v15"></path></svg>
+    <span data-drawer-dot="1" style="display:none;position:absolute;top:9px;right:8px;width:8px;height:8px;border-radius:50%;background:#e9bd70;box-shadow:0 0 0 2px #10131f;"></span>
   </button>
 
   <!-- transport controls (bottom center) -->
@@ -142,26 +128,22 @@
        (_renderShareCue): the ◉ re-light + "Class ▸" pair, or the stale/broken opener.
        Sits ABOVE the chip so neither covers the other; pointer-events:auto inline (fixed
        overlay canon); hidden while the pane is open (the drawer owns that corner). -->
-  <div ref="{{ shareCueRef }}" class="ng-sharecue" style="display:none;position:absolute;bottom:76px;right:24px;z-index:6;pointer-events:auto;align-items:center;">
+  <!-- v1.242.0: the account chip moved into the drawer (the badge), so the cue takes the chip's old seat. -->
+  <div ref="{{ shareCueRef }}" class="ng-sharecue" style="display:none;position:absolute;bottom:24px;right:24px;z-index:6;pointer-events:auto;align-items:center;">
   </div>
 
   <!-- learning pane (LEFT, v1.94.0 — it opens from the top-left logo, so it lives on the
        logo's side): Explore | Challenges | History — the single side pane.
        Carries BOTH classes: .ng-drill (pane rails + drilltab specs) and .ng-explorer
        (learning-panel visibility specs). Visibility is display-based (flex/none). -->
-  <div ref="{{ drillRef }}" class="ng-drill ng-explorer" role="complementary" aria-label="Explore, Challenges, and Last rolls" style="display:none;position:absolute;top:0;left:0;bottom:0;width:360px;z-index:8;background:linear-gradient(180deg,rgba(18,21,38,.985),rgba(13,15,28,.985));border-right:1px solid rgba(130,150,190,.16);box-shadow:14px 0 44px rgba(0,0,0,.5);flex-direction:column;pointer-events:auto;">
-    <button onClick="{{ closeDeck }}" class="ng-explorer-close" type="button" title="Close panel" aria-label="Close panel">&times;</button>
-    <!-- the knowledge header is GONE (v1.96.0): the woven belt + road + "N% to blue" live at
-         the top of Explore's body (_knowledgeBlock), merged with the stats row — the tab
-         subtitles made a header above the tabs a triple statement of the same fact. -->
-    <!-- two-line tabs (v1.95.0): title <b> + subtitle <small> (filled by renderTabSubtitles;
-         the history line is static). "Last rolls" is DISPLAY only — the view id, settings
-         keys and every internal seam stay `history` (migration cost not worth it). -->
-    <nav ref="{{ viewToggleRef }}" class="ng-learning-nav" aria-label="Learning views">
-      <button type="button" data-view="explore" aria-pressed="false"><b>Explore</b><small data-tab-sub="explore"></small></button>
-      <button type="button" data-view="challenges" aria-pressed="true"><b>Challenges</b><small data-tab-sub="challenges"></small></button>
-      <button type="button" data-view="history" aria-pressed="false"><b>Last rolls</b><small data-tab-sub="history">Your last rolls</small></button>
-    </nav>
+  <div ref="{{ drillRef }}" class="ng-drill ng-explorer" role="complementary" aria-label="Sidebar" style="display:none;position:absolute;top:0;left:0;bottom:0;width:360px;z-index:8;background:linear-gradient(180deg,rgba(18,21,38,.985),rgba(13,15,28,.985));border-right:1px solid rgba(130,150,190,.16);box-shadow:14px 0 44px rgba(0,0,0,.5);flex-direction:column;pointer-events:auto;">
+    <!-- THE DRAWER HEAD (owner A5/E1, v1.242.0). The tab nav is gone: Explore, Train (Practice ·
+         Path), your lists and Last rolls are ONE list (renderExplorer). The brand is the way home
+         from Path or Last rolls ("‹ Path"), so it carries `data-view="explore"` (_paintDrawerHead). -->
+    <div class="ng-drawer-head">
+      <button ref="{{ viewToggleRef }}" type="button" data-view="explore" class="ng-drawer-brand" onClick="{{ drawerHome }}"></button>
+      <button onClick="{{ closeDeck }}" class="ng-explorer-close" type="button" title="Close panel" aria-label="Close panel"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="3"></rect><path d="M9.5 4.5v15"></path></svg></button>
+    </div>
     <!-- the GI/NO-GI pill moved to Settings -> Rolling (v1.95.3, owner: one home only) -->
     <div ref="{{ explorerToolsRef }}" class="ng-explorer-tools">
       <div ref="{{ explorerSearchWrapRef }}" class="ng-explorer-search">
@@ -171,30 +153,18 @@
     </div>
     <div ref="{{ explorerListRef }}" class="ng-learning-list" style="flex:1;overflow-y:auto;padding:4px 12px 24px;"></div>
     <div ref="{{ dossierRef }}" style="display:none;flex:1;min-height:0;overflow-y:auto;position:relative;"></div>
-    <div ref="{{ drillHeadRef }}" class="ng-pane-drillhead" style="display:none;padding:64px 64px 16px 24px;border-bottom:1px solid rgba(150,170,210,.1);flex:none;"></div>
+    <div ref="{{ drillHeadRef }}" class="ng-pane-drillhead" style="display:none;padding:4px 24px 16px;border-bottom:1px solid rgba(150,170,210,.1);flex:none;"></div>
     <div ref="{{ drillListRef }}" style="display:none;flex:1;overflow-y:auto;padding:14px 24px 14px;flex-direction:column;gap:10px;"></div>
     <div ref="{{ drillFootRef }}" style="display:none;flex:none;padding:12px 24px 16px;border-top:1px solid rgba(150,170,210,.1);background:rgba(15,17,30,.55);flex-direction:column;gap:9px;"></div>
-    <!-- pane anchor (v1.93.0): stats row + guest save nudge, ONE block at the pane's bottom,
-         visible on all three tabs (hidden only while a study surface owns the pane). -->
-    <!-- v1.104.5: the stat band lives at the pane FOOT (owner), as its OWN element ABOVE the
-         save nudge — the anchor collapses entirely when signed in, and the stats must not. -->
-    <div ref="{{ paneStatsRef }}" class="ng-pane-stats" style="flex:none;display:none;border-top:1px solid rgba(150,170,210,.1);"></div>
-    <div ref="{{ paneAnchorRef }}" class="ng-pane-anchor" style="flex:none;display:flex;flex-direction:column;gap:2px;padding:12px 24px 0;border-top:1px solid rgba(150,170,210,.1);background:rgba(15,17,30,.35);"></div>
-    <!-- v1.105.5 (owner): feedback goes to POSTHOG, not GitHub issues — plus a GitHub chip with
-         the repo's stars (fetched lazily, cached a day; plain link when the count is unknown). -->
-    <div class="ng-pane-feedback" style="flex:none;display:flex;justify-content:center;align-items:center;gap:14px;padding:10px 24px 0;background:rgba(15,17,30,.35);">
-      <span onClick="{{ openFeedbackTechnique }}" data-feedback="technique" style="cursor:pointer;font-size:10.5px;color:#5d6883;letter-spacing:.02em;" style-hover="color:#9aa6bd;">Request a technique</span>
-      <span style="width:3px;height:3px;border-radius:50%;background:#3c4358;"></span>
-      <span onClick="{{ openFeedbackIssue }}" data-feedback="issue" style="cursor:pointer;font-size:10.5px;color:#5d6883;letter-spacing:.02em;" style-hover="color:#9aa6bd;">Help improve it</span>
-      <span style="width:3px;height:3px;border-radius:50%;background:#3c4358;"></span>
-      <a ref="{{ ghChipRef }}" data-gh-chip="1" href="https://github.com/diogoseca/bjjgraph" target="_blank" rel="noopener" style="pointer-events:auto;cursor:pointer;display:inline-flex;align-items:center;gap:5px;font-size:10.5px;color:#5d6883;text-decoration:none;letter-spacing:.02em;" style-hover="color:#9aa6bd;"><svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"></path></svg><span data-gh-label="1">GitHub</span></a>
-    </div>
-    <div style="flex:none;display:flex;justify-content:center;align-items:center;gap:14px;padding:12px 24px 14px;background:rgba(15,17,30,.35);">
-      <span onClick="{{ openSettings }}" title="Settings" style="cursor:pointer;color:#5d6883;display:flex;align-items:center;" style-hover="color:#9aa6bd;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"></path></svg></span>
-      <span style="width:3px;height:3px;border-radius:50%;background:#3c4358;"></span>
-      <span onClick="{{ openTerms }}" style="cursor:pointer;font-size:10.5px;color:#5d6883;letter-spacing:.02em;" style-hover="color:#9aa6bd;">Terms</span>
-      <span style="width:3px;height:3px;border-radius:50%;background:#3c4358;"></span>
-      <span onClick="{{ openPrivacy }}" style="cursor:pointer;font-size:10.5px;color:#5d6883;letter-spacing:.02em;" style-hover="color:#9aa6bd;">Privacy</span>
+    <!-- THE BADGE (owner U46 b, v1.242.0): inside the drawer, and it shows today before it is opened
+         ("today: 12 of 20 cards · 2 rolls"). Its menu is short (renderAccountMenu); the stat row, the
+         guest save block and the feedback/legal foot that lived here moved into it. -->
+    <div ref="{{ accountRef }}" class="ng-acctwrap">
+      <div ref="{{ acctMenuRef }}" class="ng-account-menu" role="menu" aria-label="Account" style="display:none;pointer-events:auto;"></div>
+      <button ref="{{ acctChipRef }}" type="button" class="ngAcctChip" aria-haspopup="menu" aria-expanded="false" onClick="{{ toggleAccountMenu }}">
+        <span class="ng-badge-av" aria-hidden="true">G</span><span class="ng-badge-who"><b>Guest</b><small data-badge-today="1"></small></span>
+      </button>
+      <button ref="{{ acctCtaRef }}" type="button" class="ngSignupCta" data-badge-save="1" onClick="{{ openSignup }}" style="display:none;">Save</button>
     </div>
   </div>
 

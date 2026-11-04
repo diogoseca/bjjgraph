@@ -1,4 +1,6 @@
 /* @hyperspace {"theme":"unlock-economy","L":"lapsed-returner","F":"settings","B":"economy-math"} @invariant "Frame exclusion shrinks the unit-done denominator: in nogi, a unit containing a gi-only lesson reaches unit_done with that lesson at prep=0 (it is unrendered and out of the done-math); in gi the SAME career is refused — the checkpoint button disables and a direct startCheckpoint call emits nothing, because the untouched lesson re-enters the denominator." */
+// SIDECX3 / v1.242.0: the drawer opens on its list; select Path explicitly.
+// The dev-passing gameplay/evidence claims below are unchanged.
 import { test, expect, type Page } from "@playwright/test"
 import { journey, Journey } from "../dsl"
 import { lapsedReturner, CURRICULUM } from "./personas"
@@ -20,7 +22,7 @@ import { lapsedReturner, CURRICULUM } from "./personas"
  *     stays null) — the counterfactual's teeth. In the v1.74 UI the gi-frame button is
  *     ALSO disabled (done < live.length), so the deep gate is probed by a direct
  *     startCheckpoint call. On success it CLOSES the explorer, so the post-pass
- *     assertions re-toggleExplorer first.
+ *     assertions re-open the drawer and select Path first.
  *   - _checkpointAnswer pass branch: firstTry >= pass → units[uk].checkpoint=true,
  *     checkpoint_passed + unit_done beats, _flushSave().
  *   - v1.74 Challenges UI: only the SELECTED track renders (select the hit belt's track
@@ -152,7 +154,8 @@ test("nogi: unit_done lands with the gi-only lesson untouched at prep=0 — it i
   await rigSitting(j, H.cp.cards)
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await expect(page.locator("[data-view]").first()).toBeVisible()
+  await page.locator('[data-view="challenges"]').click()
+  await expect(page.locator(".ng-track-card").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
   // only the SELECTED track renders its curriculum (v1.74) — select the hit belt's track
   await page.locator(`.ng-track-card[data-track="${H.belt.id}"]`).click()
@@ -232,7 +235,8 @@ test("nogi: unit_done lands with the gi-only lesson untouched at prep=0 — it i
   // ── The challenges view shows it (startCheckpoint closed the explorer — reopen; the
   //    selected track persisted) ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await expect(page.locator("[data-view]").first()).toBeVisible()
+  await page.locator('[data-view="challenges"]').click()
+  await expect(page.locator(".ng-track-card").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${H.uk}"]`).first().textContent(),
     "checkpoint reads cleared",
@@ -253,7 +257,8 @@ test("gi counterfactual: the SAME career is refused at the checkpoint — the gi
   await rigSitting(j, H.cp.cards) // were the gate broken, the wrongly-dealt quiz would still be rigged
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await expect(page.locator("[data-view]").first()).toBeVisible()
+  await page.locator('[data-view="challenges"]').click()
+  await expect(page.locator(".ng-track-card").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
   await page.locator(`.ng-track-card[data-track="${H.belt.id}"]`).click()
 
@@ -282,7 +287,7 @@ test("gi counterfactual: the SAME career is refused at the checkpoint — the gi
   expect(names, "no unit_done — the denominator now includes the untouched lesson").not.toContain("unit_done")
   expect(await page.evaluate(() => !!(window as any).__neural._checkpoint), "_checkpoint stays null").toBe(false)
   await expect(
-    page.locator("[data-view]").first(),
+    page.locator(".ng-track-card").first(),
     "explorer never closed — the refusal returns before startCheckpoint's toggle",
   ).toBeVisible()
 

@@ -19,7 +19,7 @@ import { journey } from '../dsl'
 // especially when it's viewed on desktop, to never only show one section full width." And the measure is kept
 // readable "through some use of padding". So: every desktop row is two open sections in source order (2/3 + 1/3
 // either way on three lanes, halves on two), an odd count can make ONE short trio on three lanes, the text sits in a
-// centred ~46ch column inside each tile, the reader ends above the account pill, and opening Explore keeps the
+// centred ~46ch column inside each tile, the reader ends above corner controls, and opening Explore keeps the
 // reader's place.
 // U65 b (owner, 2026-10-29): every tile ends at its own content; the next row still follows the
 // tallest tile plus the token gap. The map may show in the unused space, which remains reader input.
@@ -37,7 +37,10 @@ import { journey } from '../dsl'
 //   u59-order-moved        the eye reads the tiles in source order (a late section moved first)
 //   u59-tab-rtl            Tab walks the tiles in the order the eye does (the rows laid right to left)
 //   u59-measure-unset      prose lines keep a readable measure (the 46ch column removed)
-//   u59-pill-covers        the reader ends above the account pill (its reserve measured over the old column only)
+//   u59-pill-covers        the reader ends above the corner cue (its reserve measured over the old column only)
+// SIDECX5 integration: U46 b moved the account badge into the drawer. The four desktop cases
+// now create a real conditional share cue in its old corner and retain the obstruction claim.
+// A reward minted by the DSL's pre-completed White track must clear before the tile-input fixture.
 //   u59-place-lost         opening Explore keeps the reader's place (the anchor's restore removed)
 //   u55-tile-click-toggles a section tile click does nothing (a click on the tile toggles it)
 //   u55r-link-swallowed    a link inside a tile still opens its page (the tile swallows the click)
@@ -83,7 +86,7 @@ const dashboard = (page: Page) => page.evaluate(() => {
   const cards = ([...r.body.children] as HTMLElement[]).filter(c => c.getClientRects().length)
   return {
     W: innerWidth, band: r.nodeBand, scrollTop: r.root.scrollTop, path: location.pathname, root: box(r.root),
-    pill: box(a.acctChipRef.current), open: cards.length,
+    cue: box(a.shareCueRef.current), open: cards.length,
     toc: r.contents.hidden ? null : box(r.contents), body: box(r.body), gap: 4 * parseFloat(getComputedStyle(r.root).getPropertyValue('--section-gap')),
     dom: cards.map(c => c.dataset.sectionType!),
     question: a._landEl ? box(a._landEl) : null, hand: a.optionsRef.current ? box(a.optionsRef.current) : null,
@@ -237,7 +240,14 @@ function measure(d: Dash, lanes: number) {
 
 for (const [width, height, lanes] of [[1440, 900, 3], [1920, 1080, 3], [1366, 768, 2], [1152, 900, 2]] as const) {
   test(`${width === 1440 ? '@curated ' : ''}U59 c: at ${width}x${height} the dashboard pairs its sections in ${lanes} lanes, shows every tile whole and keeps the node band clear`, async ({ page }) => {
-    await boot(page, width, height)
+    const j = await boot(page, width, height)
+    await page.evaluate(() => {
+      const a = (window as any).__neural, id = a.newList()
+      a.addToList(a.nodes[a.currentPos].id, id)
+      a._setShareCue({ kind: 'class', target: id, n: 1 })
+    })
+    await expect(page.locator('.ng-sharecue')).toBeVisible()
+    await j.readerLayoutSettled()
     const d = await dashboard(page)
     // The node band: at arrival no tile is over it, and the dashboard starts below the question and the Moves row.
     expect(d.scrollTop).toBe(0)
@@ -251,9 +261,11 @@ for (const [width, height, lanes] of [[1440, 900, 3], [1920, 1080, 3], [1366, 76
     expect(d.body.left).toBeCloseTo(d.toc!.right + 12, 0)
     expect(d.body.right).toBeCloseTo(width - 24, 0)
     expect(Math.max(...d.tiles.map(t => t.box.right))).toBeCloseTo(width - 24, 0)
-    // The account pill sits in the corner over the grid's last lane; the reader ends above it, so nothing scrolls under it.
-    expect(d.pill.left, 'premise: the pill is over the grid').toBeLessThan(d.body.right)
-    expect(d.root.bottom, 'the reader ends above the account pill').toBeLessThanOrEqual(d.pill.top)
+    // The account badge moved into the drawer. The conditional share cue now owns the corner;
+    // the reader must still reserve that whole last lane so text cannot scroll beneath a control.
+    expect(d.cue.height, 'premise: the share cue is a live corner control').toBeGreaterThan(0)
+    expect(d.cue.left, 'premise: the cue is over the grid').toBeLessThan(d.body.right)
+    expect(d.root.bottom, 'the reader ends above the corner share cue').toBeLessThanOrEqual(d.cue.top)
     pairs(d, lanes)
     wholeContent(d)
     measure(d, lanes)
@@ -546,6 +558,9 @@ test('U59 c: at 1440x900 an article that arrives under a held press still pairs 
 
 test('@curated U55 b: at 1440x900 a click on a section tile does nothing; its links and its close still work', async ({ page }) => {
   const j = await boot(page, 1440, 900)
+  // This fixture's pre-completed track can mint a temporary reward over the right lane's title
+  // as well as its close. Wait for its ordinary lifetime before measuring either mouse target.
+  await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
   const tile = '[data-reader-body]>[data-section-type=principles]'
   await page.locator(tile).evaluate(e => { const root = e.closest('[data-reader]')!; root.scrollTop += e.getBoundingClientRect().top - root.getBoundingClientRect().top - 24 })
   await j.readerLayoutSettled()
@@ -567,9 +582,7 @@ test('@curated U55 b: at 1440x900 a click on a section tile does nothing; its li
   expect(await page.evaluate(({ x, y }) => document.elementFromPoint(x, y)?.closest('[data-section-type]')?.getAttribute('data-section-type'), point)).toBe('principles')
   await page.mouse.click(point.x, point.y); await j.readerLayoutSettled()
   expect(await tiles(), 'a click on the tile itself changes nothing').toEqual(before)
-  // Its own close still closes it, and the index brings it back. The ambient reward can overlap the
-  // right lane's close; let its ordinary lifetime end before testing that close's mouse target.
-  await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
+  // Its own close still closes it, and the index brings it back.
   await j.clickByMouse('[data-section-toggle=principles]')
   await expect(page.locator('[data-section-toggle=principles]')).toHaveAttribute('aria-expanded', 'false')
   await j.clickByMouse('[data-toc-type=principles] a')
