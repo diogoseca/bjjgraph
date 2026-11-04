@@ -111,7 +111,8 @@ test("every authored destination resolves to a state the game can enter", () => 
   // v1.235.1 (owner N5 a): 3,751 -> 3,748. The withdrawn Kimura Switch takes its three node
   // landings with it (kimura-trap/top, aoki-lock-control/bottom, ashi-garami/bottom); the Switch to
   // Darce Configuration re-point swaps darce-control/top for front-headlock/top, net zero.
-  assert.equal(node, 3748, `node landings after the approved N4 restructuring and N5 a`);
+  // v1.243.0 adds nine Demi Guard transitions with 29 nonterminal outcome rows.
+  assert.equal(node, 3777, `node landings after N4, N5 a and the Demi Guard additions`);
   assert.ok(terminal >= 250, `only ${terminal} destinations are game-over — submissions lost their finish`);
 });
 

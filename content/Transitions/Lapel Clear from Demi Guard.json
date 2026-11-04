@@ -1,0 +1,303 @@
+{
+  "name": "Lapel Clear from Demi Guard",
+  "summary": "A lapel clear from Demi Guard removes the foot-supported fabric connection while preserving top balance, returning the exchange to ordinary open guard without claiming a completed pass.",
+  "description": "Lapel Clear from Demi Guard in gi BJJ: learn the starting controls, movement sequence, defensive reactions and recovery options for a connected lapel-guard exchange.",
+  "tags": [
+    "Gi",
+    "Lapel Guard",
+    "Guard Passing"
+  ],
+  "from_position": "Demi Guard/Top",
+  "success_rate": {
+    "gi": 60,
+    "nogi": null
+  },
+  "outcomes": [
+    {
+      "to": "Open Guard/Top",
+      "probability": {
+        "gi": 60,
+        "nogi": null
+      },
+      "result": "success"
+    },
+    {
+      "to": "Demi Guard/Top",
+      "probability": {
+        "gi": 25,
+        "nogi": null
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": {
+        "gi": 15,
+        "nogi": null
+      },
+      "result": "counter"
+    }
+  ],
+  "overview": "Demi uses a collar grip and foot-on-lapel support at the knee to manage forward pressure, as described by [Legion](https://legionsandiego.com/the-jiu-jitsu-dictionary/#demi-guard) and [Keenan's introduction](https://jiujitsux.com/courses/keenans-lapel-encyclopedia/lesson/16-1-introduction-to-the-demi-guard/). The top player therefore needs to address that connection while keeping base. These are conservative passing priorities inferred from the documented guard structure, not a claim to reproduce a named Demi passing lesson.\n\nThe objective here is to remove the special lapel connection and face open guard. If the bottom player recaptures one leg, recognize [[Positions/Half Guard]]; if they reverse the players, protect yourself and recover guard on landing. Driving harder into an intact connection is not equivalent to clearing it.",
+  "related_content": [
+    {
+      "name": "Demi Guard",
+      "relationship": "Starting guard and contested connection"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Successful destination"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Retained leg trap or guard after a counter-sweep"
+    }
+  ],
+  "attacker": {
+    "name": "Lapel Clear from Demi Guard Attacker",
+    "description": "Execute Lapel Clear from Demi Guard with the right starting controls, a stable destination and a clear recovery when the attempt is blocked.",
+    "overview": "You begin on top against established Demi Guard. Keep balance while removing the foot-supported lapel connection, then remove the special lapel connection and face open guard. Work only through space that is actually available; stop and release tension whenever fabric binds a knee during the change.",
+    "key_principles": [
+      "Base comes before reaching to clear fabric.",
+      "Reduce the foot-supported lapel connection before driving forward.",
+      "Free the knee without twisting against the remaining wrap.",
+      "Check the leg barrier separately from the fabric grip.",
+      "Recognize the actual landing before continuing."
+    ],
+    "setup_requirements": [
+      "You are in Demi Guard top, facing the bottom player.",
+      "You can identify the collar grip and foot-on-lapel connection.",
+      "Your base allows a controlled grip-clearing attempt.",
+      "You can move the knee without forcing it against tightly bound fabric."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Restore a stable base",
+        "description": "Center your weight over a usable base before reaching for the fabric, so the reach itself does not load the opponent's elevation."
+      },
+      {
+        "step_number": 2,
+        "action": "Address the upper-body connection",
+        "description": "Contest the collar control without abandoning balance, reducing the pull that brings your torso over the controlled knee."
+      },
+      {
+        "step_number": 3,
+        "action": "Reduce the foot-on-lapel connection",
+        "description": "Control the accessible fabric and remove the foot's effective support, using a controlled adjustment rather than a sudden knee rotation."
+      },
+      {
+        "step_number": 4,
+        "action": "Free the knee line",
+        "description": "Confirm that the lapel no longer binds the controlled knee before moving the leg through or away from the guard barrier."
+      },
+      {
+        "step_number": 5,
+        "action": "Reset against the legs",
+        "description": "Face the bottom player with their legs still in front, recognizing that removing the lapel has returned you to an ordinary open guard."
+      },
+      {
+        "step_number": 6,
+        "action": "Confirm the reset",
+        "description": "Check that you are balanced above open guard and the special lapel connection is gone before choosing a separate passing attack."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Restore the collar and foot connection",
+        "effectiveness": "Medium",
+        "targets_outcome": "Demi Guard/Top",
+        "your_response": "Keep the remaining guard or base and reassess the controls before repeating the attempt; do not force a knee against the lapel."
+      },
+      {
+        "counter": "Keep your knees between the torsos",
+        "effectiveness": "Medium",
+        "targets_outcome": "Demi Guard/Top",
+        "your_response": "Keep the remaining guard or base and reassess the controls before repeating the attempt; do not force a knee against the lapel."
+      },
+      {
+        "counter": "Use forward loading to reverse",
+        "effectiveness": "Medium",
+        "targets_outcome": "Half Guard/Bottom",
+        "your_response": "Keep the remaining guard or base and reassess the controls before repeating the attempt; do not force a knee against the lapel."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching down before securing base",
+        "consequence": "Your weight moves onto the opponent's elevation structure.",
+        "correction": "Stabilize your base before the fabric-clearing reach."
+      },
+      {
+        "error": "Driving forward while the foot remains supported",
+        "consequence": "The same pressure can increase the bottom player's sweep opportunity.",
+        "correction": "Reduce the foot-on-lapel connection before applying passing pressure."
+      },
+      {
+        "error": "Rotating the knee against taut fabric",
+        "consequence": "The lapel restricts the leg during the rotation.",
+        "correction": "Release the binding tension before moving the knee."
+      },
+      {
+        "error": "Ignoring a surviving half-guard trap",
+        "consequence": "Your passing movement stalls while one leg remains captured.",
+        "correction": "Recognize half guard and address its controls before progressing."
+      },
+      {
+        "error": "Treating grip clearance as full positional control",
+        "consequence": "The bottom player can keep or recover ordinary guard frames.",
+        "correction": "Check fabric, legs and upper-body control as separate tasks."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Identify the starting configuration",
+        "description": "You are in Demi Guard top, facing the bottom player. With a cooperative partner, identify the required grips and leg contacts, then reset without applying pressure."
+      },
+      {
+        "phase": "Cooperative sequence",
+        "focus": "Practice the control change",
+        "description": "Perform the listed sequence slowly with a cooperative partner. Pause at the change of lapel or foot control and reset on any joint discomfort."
+      },
+      {
+        "phase": "One response",
+        "focus": "Recognize the first defense",
+        "description": "Let the partner use this response: Restore the collar and foot connection. Practice keeping a safe base or guard when it blocks the attempt, then reset."
+      },
+      {
+        "phase": "Bounded exchange",
+        "focus": "Confirm the landing",
+        "description": "Start at the stated origin with light resistance. Stop and reset at a stable destination, a counter, or a request to release; do not continue through a bound knee."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What should you establish before clearing the Demi lapel?",
+        "answer": "Establish a stable base so the act of reaching for fabric does not load the guard player's elevation structure."
+      },
+      {
+        "question": "Why reduce the foot-on-lapel connection before driving forward?",
+        "answer": "Forward pressure into a working connection can help the bottom player elevate you instead of allowing a controlled pass."
+      },
+      {
+        "question": "When is it safe to move the lapel-controlled knee?",
+        "answer": "Move it only after the fabric no longer binds the joint, using controlled movement and stopping on discomfort."
+      },
+      {
+        "question": "What remains if you clear the lapel but one leg is still trapped?",
+        "answer": "The exchange has become top half guard; the remaining leg trap must be addressed before you can complete a pass."
+      },
+      {
+        "question": "What distinguishes a lapel clear from a completed Demi pass?",
+        "answer": "A lapel clear removes the special fabric control, while a completed pass also clears both legs and establishes upper-body control from the side."
+      }
+    ],
+    "safety_considerations": "Use controlled pressure with a cooperative partner when learning the lapel path. Release fabric immediately on a tap, verbal stop or discomfort. Do not rotate against a knee held by the lapel, and stop the drill when a stable landing is reached.",
+    "clips": []
+  },
+  "defender": {
+    "name": "Lapel Clear from Demi Guard Defender",
+    "description": "Recognize and respond to Lapel Clear from Demi Guard while protecting balance, remaining frames and a safe recovery route.",
+    "overview": "You begin underneath and are defending your Demi Guard against the passer's grip and leg clearing. Preserve the collar connection and a useful leg barrier while you still can. If the passer overcommits forward weight, the remaining structure may permit a reversal; if the lapel is lost, recover an ordinary guard promptly.",
+    "key_principles": [
+      "Recognize the change of collar, lapel and foot controls early.",
+      "Keep a usable base or leg barrier while contesting the movement.",
+      "Choose a response that fits the current controls rather than a lost grip.",
+      "Release any connection that binds a knee during movement.",
+      "Identify the resulting position before continuing the exchange."
+    ],
+    "recognition_cues": [
+      "The passer stabilizes their base before reaching to the fabric.",
+      "The collar grip or foot-on-tail contact is being contested.",
+      "The passer moves the knee only after reducing the fabric connection."
+    ],
+    "defensive_options": [
+      {
+        "action": "Restore the collar and foot connection",
+        "when_to_use": "Before the passer has cleared the lapel from the knee",
+        "targets_outcome": "Demi Guard/Top",
+        "if_successful": "You retain Demi underneath while the passer's attempt stalls.",
+        "risk": "Reaching for lost fabric can sacrifice the leg barrier."
+      },
+      {
+        "action": "Keep your knees between the torsos",
+        "when_to_use": "As the passer begins moving past the foot-on-lapel barrier",
+        "targets_outcome": "Demi Guard/Top",
+        "if_successful": "You retain the starting guard by preventing the leg clearance.",
+        "risk": "A late frame may not recover space after the passer has cleared the knees."
+      },
+      {
+        "action": "Use forward loading to reverse",
+        "when_to_use": "When the passer loses balance while the lapel connection is still working",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You come on top and the former passer retains half guard.",
+        "risk": "Forcing elevation against stable base can let the passer clear the legs."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Demi Guard/Top",
+        "how": "Restore the collar and foot connection. You retain Demi underneath while the passer's attempt stalls."
+      },
+      {
+        "outcome": "Demi Guard/Top",
+        "how": "Keep your knees between the torsos. You retain the starting guard by preventing the leg clearance."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Use forward loading to reverse. You come on top and the former passer retains half guard."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Responding after the new controls are established",
+        "consequence": "The attacker completes the movement before the response affects it.",
+        "correction": "Recognize the listed cues during the control change."
+      },
+      {
+        "error": "Turning against a knee still bound by the lapel",
+        "consequence": "The joint cannot follow the body movement freely.",
+        "correction": "Release binding tension and reset rather than forcing the turn."
+      },
+      {
+        "error": "Ignoring the position left after the attempt",
+        "consequence": "You continue with a response intended for a guard that has already changed.",
+        "correction": "Check the actual leg and upper-body controls before the next action."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What should you preserve first as the passer clears your Demi connection?",
+        "answer": "Preserve a working leg barrier and the useful collar or lapel connection, without reaching after cloth that has already been lost."
+      },
+      {
+        "question": "Which passer mistake can supply a sweep during the lapel clear?",
+        "answer": "A forward reach that loses base can load your remaining foot-and-lapel structure and create an elevation opportunity."
+      },
+      {
+        "question": "What should replace your lost lapel control if a leg remains reachable?",
+        "answer": "Recover an ordinary guard such as half guard around the reachable leg instead of holding ineffective fabric while being passed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Name the cue",
+        "description": "From the stated origin, have the partner begin slowly. Call out a listed recognition cue, then release and reset."
+      },
+      {
+        "phase": "Cooperative response",
+        "focus": "Practice the first defense",
+        "description": "Restore the collar and foot connection. Use light resistance and stop when the response succeeds or the connection becomes uncomfortable."
+      },
+      {
+        "phase": "Bounded defense",
+        "focus": "Recognize the outcome",
+        "description": "Let the partner choose whether to continue or recover. Respond using the available controls; stop at the resulting stable position and name both players' roles."
+      }
+    ],
+    "clips": []
+  },
+  "clips": []
+}

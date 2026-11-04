@@ -1,0 +1,303 @@
+{
+  "name": "Worm Guard to Demi Guard",
+  "summary": "Worm Guard to Demi Guard establishes a gi lapel guard by arranging collar control, the lapel behind the passer's knee, and a foot on its tail while keeping the legs in front.",
+  "description": "Worm Guard to Demi Guard in gi BJJ: learn the starting controls, movement sequence, defensive reactions and recovery options for a connected lapel-guard exchange.",
+  "tags": [
+    "Gi",
+    "Lapel Guard",
+    "Guard Transitions"
+  ],
+  "from_position": "Worm Guard/Bottom",
+  "success_rate": {
+    "gi": 55,
+    "nogi": null
+  },
+  "outcomes": [
+    {
+      "to": "Demi Guard/Bottom",
+      "probability": {
+        "gi": 55,
+        "nogi": null
+      },
+      "result": "success"
+    },
+    {
+      "to": "Worm Guard/Bottom",
+      "probability": {
+        "gi": 30,
+        "nogi": null
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": {
+        "gi": 15,
+        "nogi": null
+      },
+      "result": "counter"
+    }
+  ],
+  "overview": "Keenan's introduction places Demi in the response to forward pressure after a worm-wrestling attempt. Once the foot has left the original worm configuration, the guard player may need a different barrier instead of trying to recreate the old wrap under pressure. Start from [[Positions/Worm Guard]] bottom and recognize the passer coming forward as you leave the original leg wrap.\n\nThe destination is established only when the collar, knee-line lapel and foot work together. If the feed fails, retain a usable guard instead of holding loose fabric while the opponent clears your legs. The configuration is described in [Legion's dictionary](https://legionsandiego.com/the-jiu-jitsu-dictionary/#demi-guard); [Keenan's introduction](https://jiujitsux.com/courses/keenans-lapel-encyclopedia/lesson/16-1-introduction-to-the-demi-guard/) explains its response to forward pressure.",
+  "related_content": [
+    {
+      "name": "Worm Guard",
+      "relationship": "Canonical starting guard"
+    },
+    {
+      "name": "Demi Guard",
+      "relationship": "Destination configuration"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Counter destination after the legs are cleared"
+    }
+  ],
+  "attacker": {
+    "name": "Worm Guard to Demi Guard Attacker",
+    "description": "Execute Worm Guard to Demi Guard with the right starting controls, a stable destination and a clear recovery when the attempt is blocked.",
+    "overview": "Start from [[Positions/Worm Guard]] bottom and recognize the passer coming forward as you leave the original leg wrap. Your task is to replace the starting controls without losing the leg barrier. Work through the feed while facing the passer, and stop chasing it when the opponent has already cleared your knees.",
+    "key_principles": [
+      "Keep the legs in front during the grip change.",
+      "Arrange the collar control before relying on the lapel barrier.",
+      "Route the lapel behind the knee without twisting the joint.",
+      "Confirm foot contact on the tail before calling the entry complete.",
+      "Retain the starting guard when the feed cannot be completed."
+    ],
+    "setup_requirements": [
+      "You are in Worm Guard bottom, facing the passer.",
+      "The passer wears a gi with accessible lapel material.",
+      "Your legs can still prevent direct chest-to-chest control.",
+      "The knee line is accessible without forcing a bound joint."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the pressure change",
+        "description": "Notice the passer closing distance as you begin to leave the worm configuration, before their torso clears your leg barrier."
+      },
+      {
+        "step_number": 2,
+        "action": "Keep a useful lapel connection",
+        "description": "Retain control of the available lapel while withdrawing the foot from the old wrap without binding either player's knee."
+      },
+      {
+        "step_number": 3,
+        "action": "Connect to the collar",
+        "description": "Establish collar control as you return your knees in front, so the upper body remains connected during the reconfiguration."
+      },
+      {
+        "step_number": 4,
+        "action": "Arrange the knee-line feed",
+        "description": "Bring the lapel behind the accessible knee instead of insisting on restoring the full worm wrap during forward pressure."
+      },
+      {
+        "step_number": 5,
+        "action": "Engage the foot with the tail",
+        "description": "Press a foot onto the lapel tail with your knees still between the players, creating the characteristic Demi barrier."
+      },
+      {
+        "step_number": 6,
+        "action": "Reassess before attacking",
+        "description": "Check that the collar and foot-on-lapel connection work, then choose elevation or guard recovery based on the passer's balance."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Contest the feed while preserving base",
+        "effectiveness": "Medium",
+        "targets_outcome": "Worm Guard/Bottom",
+        "your_response": "Keep the remaining guard or base and reassess the controls before repeating the attempt; do not force a knee against the lapel."
+      },
+      {
+        "counter": "Prevent the foot from settling on the tail",
+        "effectiveness": "Medium",
+        "targets_outcome": "Worm Guard/Bottom",
+        "your_response": "Keep the remaining guard or base and reassess the controls before repeating the attempt; do not force a knee against the lapel."
+      },
+      {
+        "counter": "Clear the legs during an abandoned feed",
+        "effectiveness": "Medium",
+        "targets_outcome": "Side Control/Bottom",
+        "your_response": "Keep the remaining guard or base and reassess the controls before repeating the attempt; do not force a knee against the lapel."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing every starting control at once",
+        "consequence": "The passer can advance through the unprotected space.",
+        "correction": "Transfer one connection at a time while keeping the leg barrier."
+      },
+      {
+        "error": "Feeding cloth while your knees are already passed",
+        "consequence": "The collar and lapel cannot replace missing guard frames.",
+        "correction": "Recover your legs before attempting this entry."
+      },
+      {
+        "error": "Placing the foot on slack fabric",
+        "consequence": "The foot has no useful connection to the opponent's knee.",
+        "correction": "Recheck the lapel path and remove only enough slack to make contact work."
+      },
+      {
+        "error": "Forcing a feed around a bound knee",
+        "consequence": "Turning against the trapped leg can create discomfort.",
+        "correction": "Release and reset whenever the joint cannot move comfortably."
+      },
+      {
+        "error": "Mistaking a lapel grip for the completed guard",
+        "consequence": "You attempt elevation before the control structure exists.",
+        "correction": "Confirm collar, knee-line lapel and foot contact together."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Identify the starting configuration",
+        "description": "You are in Worm Guard bottom, facing the passer. With a cooperative partner, identify the required grips and leg contacts, then reset without applying pressure."
+      },
+      {
+        "phase": "Cooperative sequence",
+        "focus": "Practice the control change",
+        "description": "Perform the listed sequence slowly with a cooperative partner. Pause at the change of lapel or foot control and reset on any joint discomfort."
+      },
+      {
+        "phase": "One response",
+        "focus": "Recognize the first defense",
+        "description": "Let the partner use this response: Contest the feed while preserving base. Practice keeping a safe base or guard when it blocks the attempt, then reset."
+      },
+      {
+        "phase": "Bounded exchange",
+        "focus": "Confirm the landing",
+        "description": "Start at the stated origin with light resistance. Stop and reset at a stable destination, a counter, or a request to release; do not continue through a bound knee."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What must stay between you and the passer during the Demi entry?",
+        "answer": "Keep your bent legs between your torso and the passer while changing grips; fabric alone does not replace the guard barrier."
+      },
+      {
+        "question": "Where must the lapel pass when entering Demi Guard?",
+        "answer": "Guide the opponent's lapel behind their knee so its tail can support the foot-on-lapel connection."
+      },
+      {
+        "question": "What confirms that the Demi Guard entry is complete?",
+        "answer": "The collar grip, lapel behind the knee and foot on the tail work together while your legs still face the passer."
+      },
+      {
+        "question": "When should you abandon a blocked Demi Guard feed?",
+        "answer": "Abandon the feed when keeping it would cost your leg barrier; retain or recover a usable guard before trying again."
+      },
+      {
+        "question": "How should you respond to discomfort during the lapel feed?",
+        "answer": "Release the tension and reset the position immediately instead of pulling or twisting against a bound knee."
+      }
+    ],
+    "safety_considerations": "Use controlled pressure with a cooperative partner when learning the lapel path. Release fabric immediately on a tap, verbal stop or discomfort. Do not rotate against a knee held by the lapel, and stop the drill when a stable landing is reached.",
+    "clips": []
+  },
+  "defender": {
+    "name": "Worm Guard to Demi Guard Defender",
+    "description": "Recognize and respond to Worm Guard to Demi Guard while protecting balance, remaining frames and a safe recovery route.",
+    "overview": "You are the top player facing a bottom player who is changing guards. Recognize the collar grip, lapel feed behind your knee and approaching foot as one entry. Keep a stable base and contest the connection before pressing into it; if their legs remain in front, you still face a guard.",
+    "key_principles": [
+      "Recognize the change of collar, lapel and foot controls early.",
+      "Keep a usable base or leg barrier while contesting the movement.",
+      "Choose a response that fits the current controls rather than a lost grip.",
+      "Release any connection that binds a knee during movement.",
+      "Identify the resulting position before continuing the exchange."
+    ],
+    "recognition_cues": [
+      "The guard player takes or adjusts a collar grip.",
+      "The lapel is being guided behind your knee.",
+      "A foot approaches the lapel tail as the knees remain between you."
+    ],
+    "defensive_options": [
+      {
+        "action": "Contest the feed while preserving base",
+        "when_to_use": "Before the lapel reaches a useful position behind your knee",
+        "targets_outcome": "Worm Guard/Bottom",
+        "if_successful": "The bottom player retains or restores Worm Guard when the Demi change is denied.",
+        "risk": "A late forward drive can load the completed Demi connection."
+      },
+      {
+        "action": "Prevent the foot from settling on the tail",
+        "when_to_use": "During the change of leg position",
+        "targets_outcome": "Worm Guard/Bottom",
+        "if_successful": "The guard player must retain the original guard or restart the entry.",
+        "risk": "Reaching down without balance exposes a sweep opportunity."
+      },
+      {
+        "action": "Clear the legs during an abandoned feed",
+        "when_to_use": "Only when the guard player has lost both the lapel connection and the leg barrier",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You settle side control after completing leg clearance.",
+        "risk": "A partial clear can leave you caught in a guard again."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Worm Guard/Bottom",
+        "how": "Contest the feed while preserving base. The bottom player retains or restores Worm Guard when the Demi change is denied."
+      },
+      {
+        "outcome": "Worm Guard/Bottom",
+        "how": "Prevent the foot from settling on the tail. The guard player must retain the original guard or restart the entry."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Clear the legs during an abandoned feed. You settle side control after completing leg clearance."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Responding after the new controls are established",
+        "consequence": "The attacker completes the movement before the response affects it.",
+        "correction": "Recognize the listed cues during the control change."
+      },
+      {
+        "error": "Turning against a knee still bound by the lapel",
+        "consequence": "The joint cannot follow the body movement freely.",
+        "correction": "Release binding tension and reset rather than forcing the turn."
+      },
+      {
+        "error": "Ignoring the position left after the attempt",
+        "consequence": "You continue with a response intended for a guard that has already changed.",
+        "correction": "Check the actual leg and upper-body controls before the next action."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Which foot movement warns of an incoming Demi Guard entry?",
+        "answer": "The guard player brings a foot onto the lapel tail while maintaining the collar and knee-line connection."
+      },
+      {
+        "question": "Why preserve your base while contesting the Demi entry?",
+        "answer": "A grip-fighting reach can shift your weight over the bottom player and create the elevation the new guard is designed to use."
+      },
+      {
+        "question": "When does stopping the Demi entry become a completed pass?",
+        "answer": "Only after you also clear the bottom player's legs and control their upper body; blocking the feed alone leaves a guard."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Name the cue",
+        "description": "From the stated origin, have the partner begin slowly. Call out a listed recognition cue, then release and reset."
+      },
+      {
+        "phase": "Cooperative response",
+        "focus": "Practice the first defense",
+        "description": "Contest the feed while preserving base. Use light resistance and stop when the response succeeds or the connection becomes uncomfortable."
+      },
+      {
+        "phase": "Bounded defense",
+        "focus": "Recognize the outcome",
+        "description": "Let the partner choose whether to continue or recover. Respond using the available controls; stop at the resulting stable position and name both players' roles."
+      }
+    ],
+    "clips": []
+  },
+  "clips": []
+}
