@@ -271,6 +271,35 @@ class EscapeClipContract(unittest.TestCase):
             (Path(tmp) / "x.json").write_text(json.dumps(edited))
             self.assertTrue(guard.guard("x.json", json.dumps(original))[1])
 
+    def test_removing_the_whole_defender_block_is_reverted_by_the_cli_before_the_retry_reads_it(self):
+        """R1B334: restore_clips has no holder to restore into, so the check is a comparison with HEAD."""
+        import subprocess
+        import restore_curated_clips as guard
+        sys.path.insert(0, str(ROOT))
+        import scripts.regenerate_content_json as regen
+        original = self.record({"escape": self.label(), "clips": [clip(front=True)]})
+        for damage in (lambda d: d.pop("defender"), lambda d: d.update(defender="gone")):
+            with tempfile.TemporaryDirectory() as tmp:
+                home = Path(tmp) / "content/Submissions"
+                home.mkdir(parents=True)
+                target = home / "x.json"
+                target.write_text(json.dumps(original))
+                git = ["git", "-C", tmp, "-c", "user.name=t", "-c", "user.email=t@t"]
+                subprocess.run(["git", "init", "-q", tmp], check=True)
+                subprocess.run(git + ["add", "."], check=True)
+                subprocess.run(git + ["commit", "-qm", "base"], check=True)
+                edited = copy.deepcopy(original)
+                damage(edited)
+                target.write_text(json.dumps(edited))
+                with patch.object(guard, "ROOT", Path(tmp)):
+                    guard.main()
+                after = json.loads(target.read_text())
+                self.assertEqual(after, original, "the CLI left a damaged file for the retry")
+                bot = copy.deepcopy(after)
+                del bot["defender"]["escape_clips"]
+                regen.restore_clips(after, bot)  # the retry's original is what is on disk
+                self.assertEqual(bot["defender"]["escape_clips"], original["defender"]["escape_clips"])
+
     def test_every_direct_edit_bot_runs_the_guard_before_it_validates(self):
         for name in ("content-improvement-bot", "analytics-content-improvement", "proofread-bot"):
             flow = (ROOT / ".github/workflows" / (name + ".yml")).read_text(encoding="utf-8")
