@@ -158,6 +158,37 @@ description: "Defend the S Mount Armbar Setup in BJJ. Recognition cues, escape t
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S Mount Armbar Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "1g Armbar Defense from S Mount",
+      "description": "S Mount Armbar Setup (Defender) film study: 1g Armbar Defense from S Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/meDYJ0EYSgw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/meDYJ0EYSgw",
+      "url": "https://www.youtube.com/watch?v=meDYJ0EYSgw",
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Super Effective S Mount Arm Bar Defense",
+      "description": "S Mount Armbar Setup (Defender) film study: Super Effective S Mount Arm Bar Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OST6zx03rik/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OST6zx03rik?start=98",
+      "url": "https://www.youtube.com/watch?v=OST6zx03rik",
+      "duration": "PT268S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,6 +201,32 @@ Defending the S Mount Armbar Setup requires recognizing the transition from posi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S Mount Armbar Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=meDYJ0EYSgw)
+
+<p class="clip-credit"><strong>1g Armbar Defense from S Mount</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=meDYJ0EYSgw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OST6zx03rik&start=98)
+
+<p class="clip-credit"><strong>Super Effective S Mount Arm Bar Defense</strong> · 4:28 · <a href="https://www.youtube.com/watch?v=OST6zx03rik&t=98s" rel="noopener">Watch on YouTube from 1:38</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

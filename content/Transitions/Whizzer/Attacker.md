@@ -176,6 +176,27 @@ description: "How to execute the Whizzer overhook in BJJ. Complete attacking gui
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Whizzer (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Whizzer from Half Guard. How to win \"Dog Fight\"",
+      "description": "Whizzer (Attacker) film study: Whizzer from Half Guard. How to win \"Dog Fight\".",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Whizzer (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+
+<p class="clip-credit"><strong>Whizzer from Half Guard. How to win &#34;Dog Fight&#34;</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -142,6 +142,27 @@ description: "Complete defensive guide for preventing the standing guard pass in
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Standing Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "defending the standing guard pass (bjj).MP4",
+      "description": "Guard Pass from Standing Guard (Defender) film study: defending the standing guard pass (bjj).MP4.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GzzXGzrPE2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GzzXGzrPE2Q",
+      "url": "https://www.youtube.com/watch?v=GzzXGzrPE2Q",
+      "duration": "PT306S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ Defending against the standing guard pass requires early recognition of the pass
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Standing Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GzzXGzrPE2Q)
+
+<p class="clip-credit"><strong>defending the standing guard pass (bjj).MP4</strong> · 5:06 · <a href="https://www.youtube.com/watch?v=GzzXGzrPE2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

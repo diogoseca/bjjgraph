@@ -46,12 +46,12 @@ description: "Master the inside heel hook from ushiro ashi-garami with detailed 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Basic Inside/Inverted Heel Hook Escape",
-      "description": "Inside Heel Hook from Ushiro Ashi-Garami film study: Basic Inside/Inverted Heel Hook Escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5jD4ByQUrDA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5jD4ByQUrDA",
-      "url": "https://www.youtube.com/watch?v=5jD4ByQUrDA",
-      "duration": "PT108S"
+      "name": "Inside Heel Hook from Saddle Finishing Mechanics Explained",
+      "description": "Inside Heel Hook from Ushiro Ashi-Garami film study: Inside Heel Hook from Saddle Finishing Mechanics Explained.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CE-249MNn5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CE-249MNn5A",
+      "url": "https://www.youtube.com/watch?v=CE-249MNn5A",
+      "duration": "PT279S"
     }
   ]
 }
@@ -114,9 +114,9 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5jD4ByQUrDA)
+![](https://www.youtube.com/watch?v=CE-249MNn5A)
 
-<p class="clip-credit"><strong>Basic Inside/Inverted Heel Hook Escape</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=5jD4ByQUrDA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside Heel Hook from Saddle Finishing Mechanics Explained</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=CE-249MNn5A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

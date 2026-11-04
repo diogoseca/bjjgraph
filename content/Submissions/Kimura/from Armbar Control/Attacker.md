@@ -188,6 +188,16 @@ description: "Learn to attack with the Kimura from Armbar Control. Step-by-step 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Set up Kimura from Side control",
+      "description": "Kimura from Armbar Control (Attacker) film study: Set up Kimura from Side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g-e2ZrNsoNQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g-e2ZrNsoNQ",
+      "url": "https://www.youtube.com/watch?v=g-e2ZrNsoNQ",
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Kimura/Armbar from side control | BJJ submissions",
       "description": "Kimura from Armbar Control (Attacker) film study: Kimura/Armbar from side control | BJJ submissions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/M-xjYAPgKVU/hqdefault.jpg",
@@ -219,6 +229,14 @@ Attacking with the Kimura from Armbar Control requires recognizing the precise m
 
 <p class="section-subtitle">Watch Kimura from Armbar Control (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g-e2ZrNsoNQ)
+
+<p class="clip-credit"><strong>Set up Kimura from Side control</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=g-e2ZrNsoNQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

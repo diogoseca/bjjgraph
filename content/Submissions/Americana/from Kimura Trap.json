@@ -646,6 +646,24 @@
         "description": "Full resistance positional sparring starting from Kimura Trap Top vs Bottom. Defender must survive both Kimura and Americana threats while working to escape or recover guard. 3-minute rounds with role switching. Track which submission catches you and adjust defensive priorities accordingly."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "qfoEZtys84k",
+        "title": "Bjj defense against the americana",
+        "channel": "Kevin Conan Bankens",
+        "duration": 42,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "_j0LjApmSMc",
+        "title": "Defending and escaping the americana",
+        "channel": "Inverted Gear",
+        "duration": 79,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

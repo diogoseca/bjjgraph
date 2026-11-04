@@ -172,6 +172,27 @@ description: "An omoplata from Crackhead Control requires releasing the reinforc
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Crackhead Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mission Control to Omo Plata",
+      "description": "Omoplata from Crackhead Control (Attacker) film study: Mission Control to Omo Plata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mxp2kAwshzE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mxp2kAwshzE",
+      "url": "https://www.youtube.com/watch?v=mxp2kAwshzE",
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Crackhead Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mxp2kAwshzE)
+
+<p class="clip-credit"><strong>Mission Control to Omo Plata</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=mxp2kAwshzE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

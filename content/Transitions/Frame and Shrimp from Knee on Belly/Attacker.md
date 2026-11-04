@@ -176,6 +176,27 @@ description: "Learn how to execute the Frame and Shrimp escape from Knee on Bell
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Shrimp from Knee on Belly (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fundamentals Class 23 Technique 3: Half Guard Recovery vs Knee on Belly",
+      "description": "Frame and Shrimp from Knee on Belly (Attacker) film study: Fundamentals Class 23 Technique 3: Half Guard Recovery vs Knee on Belly.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ajZRQCb7y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_ajZRQCb7y8",
+      "url": "https://www.youtube.com/watch?v=_ajZRQCb7y8",
+      "duration": "PT237S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the bottom player executing the Frame and Shrimp escape, your objective is to
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Shrimp from Knee on Belly (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_ajZRQCb7y8)
+
+<p class="clip-credit"><strong>Fundamentals Class 23 Technique 3: Half Guard Recovery vs Knee on Belly</strong> · 3:57 · <a href="https://www.youtube.com/watch?v=_ajZRQCb7y8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

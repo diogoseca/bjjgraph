@@ -142,6 +142,37 @@ description: "How to maintain your guillotine choke against defensive escape att
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Defense (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stop Letting People Escape Your Guillotine",
+      "description": "Guillotine Defense (Defender) film study: Stop Letting People Escape Your Guillotine.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TSHvgheCXpw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TSHvgheCXpw?start=29",
+      "url": "https://www.youtube.com/watch?v=TSHvgheCXpw",
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Series - Common Escape and Ways to Counter",
+      "description": "Guillotine Defense (Defender) film study: Guillotine Series - Common Escape and Ways to Counter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvPtHdY_NRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvPtHdY_NRk",
+      "url": "https://www.youtube.com/watch?v=fvPtHdY_NRk",
+      "duration": "PT146S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +185,32 @@ As the guillotine attacker facing a knowledgeable defender, your challenge is to
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Defense (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TSHvgheCXpw&start=29)
+
+<p class="clip-credit"><strong>Stop Letting People Escape Your Guillotine</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=TSHvgheCXpw&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvPtHdY_NRk)
+
+<p class="clip-credit"><strong>Guillotine Series - Common Escape and Ways to Counter</strong> · 2:26 · <a href="https://www.youtube.com/watch?v=fvPtHdY_NRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

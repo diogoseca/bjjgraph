@@ -170,6 +170,27 @@ description: "How to execute Meathook to Gogoplata Control in BJJ. Attacking per
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Meathook to Gogoplata Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No Gi BJJ - Rubberguard Near-side Meathook Gogoplata",
+      "description": "Meathook to Gogoplata Control (Attacker) film study: No Gi BJJ - Rubberguard Near-side Meathook Gogoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aBfXnTglIrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aBfXnTglIrk",
+      "url": "https://www.youtube.com/watch?v=aBfXnTglIrk",
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +207,24 @@ This attack does not exist in isolation—it is one branch of the Meathook dilem
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Meathook to Gogoplata Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aBfXnTglIrk)
+
+<p class="clip-credit"><strong>No Gi BJJ - Rubberguard Near-side Meathook Gogoplata</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=aBfXnTglIrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

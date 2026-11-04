@@ -432,7 +432,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "2Ioe4B7HF38",
+        "title": "Special: guillotine choke from clinch",
+        "channel": "Michael James",
+        "duration": 42,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Guillotine Choke from Twister Control Defender",

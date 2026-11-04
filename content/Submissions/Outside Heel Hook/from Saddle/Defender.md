@@ -152,6 +152,37 @@ description: "Defend against the outside heel hook from saddle with recognition 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standard Ashi outside heel hook escape",
+      "description": "Outside Heel Hook from Saddle (Defender) film study: Standard Ashi outside heel hook escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XQd0-5hk1Lo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XQd0-5hk1Lo",
+      "url": "https://www.youtube.com/watch?v=XQd0-5hk1Lo",
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To: Defend an outside heel hook",
+      "description": "Outside Heel Hook from Saddle (Defender) film study: How To: Defend an outside heel hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CN_k8AXvOyk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CN_k8AXvOyk",
+      "url": "https://www.youtube.com/watch?v=CN_k8AXvOyk",
+      "duration": "PT202S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending against the outside heel hook from the Saddle is one of the most deman
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XQd0-5hk1Lo)
+
+<p class="clip-credit"><strong>Standard Ashi outside heel hook escape</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=XQd0-5hk1Lo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CN_k8AXvOyk)
+
+<p class="clip-credit"><strong>How To: Defend an outside heel hook</strong> · 3:22 · <a href="https://www.youtube.com/watch?v=CN_k8AXvOyk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

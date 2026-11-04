@@ -182,6 +182,27 @@ description: "Master the cross face pass from flattened half guard as the top pl
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Face Pass from Flattened Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Face pass from Half Guard",
+      "description": "Cross Face Pass from Flattened Half (Attacker) film study: Cross Face pass from Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_7k06N-1p38/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_7k06N-1p38",
+      "url": "https://www.youtube.com/watch?v=_7k06N-1p38",
+      "duration": "PT182S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ Executing the cross face pass from flattened half guard requires systematic prog
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Face Pass from Flattened Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_7k06N-1p38)
+
+<p class="clip-credit"><strong>Cross Face pass from Half Guard</strong> · 3:02 · <a href="https://www.youtube.com/watch?v=_7k06N-1p38" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

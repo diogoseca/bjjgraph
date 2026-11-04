@@ -36,6 +36,27 @@ description: "Master the belly down armbar from Williams Guard. Learn prone rota
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Williams Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly Down Armbar from Guard",
+      "description": "Belly Down Armbar from Williams Guard film study: Belly Down Armbar from Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdYFELAO6B0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdYFELAO6B0",
+      "url": "https://www.youtube.com/watch?v=EdYFELAO6B0",
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ From a strategic perspective, this submission addresses the primary weakness of 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Williams Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdYFELAO6B0)
+
+<p class="clip-credit"><strong>Belly Down Armbar from Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=EdYFELAO6B0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

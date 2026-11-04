@@ -36,6 +36,27 @@ description: "Master Frame and Shrimp to Guard escape from Leg Drag Control in B
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Shrimp to Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "SPECTRUM JIU JITSU | FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING\u2026",
+      "description": "Frame and Shrimp to Guard film study: SPECTRUM JIU JITSU | FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0LzaRsziUW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0LzaRsziUW4",
+      "url": "https://www.youtube.com/watch?v=0LzaRsziUW4",
+      "duration": "PT1330S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ From a strategic perspective, Frame and Shrimp to Guard serves as your first lin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Shrimp to Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0LzaRsziUW4)
+
+<p class="clip-credit"><strong>SPECTRUM JIU JITSU | FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING…</strong> · 22:10 · <a href="https://www.youtube.com/watch?v=0LzaRsziUW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

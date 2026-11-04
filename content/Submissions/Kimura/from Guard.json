@@ -709,6 +709,23 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Stack",
+        "clips": [
+          {
+            "id": "2gJ7XDPyOLQ",
+            "title": "How To Defend Kimura Lock On Closed and Half Guard",
+            "channel": "Francisco Lima",
+            "duration": 113,
+            "vertical": false,
+            "start": 1,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   },
   "variations_and_setups": [

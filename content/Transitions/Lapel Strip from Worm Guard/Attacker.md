@@ -176,6 +176,27 @@ description: "Master the attacker perspective for the Lapel Strip from Worm Guar
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Strip from Worm Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm Guard Defense",
+      "description": "Lapel Strip from Worm Guard (Attacker) film study: Worm Guard Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q2cf-qMDo2w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q2cf-qMDo2w",
+      "url": "https://www.youtube.com/watch?v=Q2cf-qMDo2w",
+      "duration": "PT107S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The Lapel Strip from Worm Guard Attacker is the top player executing the systema
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Strip from Worm Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q2cf-qMDo2w)
+
+<p class="clip-credit"><strong>Worm Guard Defense</strong> · 1:47 · <a href="https://www.youtube.com/watch?v=Q2cf-qMDo2w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

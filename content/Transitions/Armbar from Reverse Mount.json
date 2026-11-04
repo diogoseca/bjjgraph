@@ -391,7 +391,17 @@
       }
     ],
     "safety_considerations": "The armbar hyperextends the elbow joint and can cause serious ligament and tendon damage if applied forcefully or without control. During training, apply pressure gradually and smoothly, giving your partner adequate time to recognize the submission and tap. Release immediately upon feeling any tap signal whether on your body, the mat, or verbal. Be especially careful during the pivot transition from reverse mount, as sudden weight shifts can apply unexpected torque on the elbow before either partner is prepared. Always communicate with your training partner about pre-existing elbow or shoulder injuries before drilling. In competition, controlled application allows the referee time to intervene if necessary.",
-    "clips": []
+    "clips": [
+      {
+        "id": "GI0lv-MA2h4",
+        "title": "BJJ | How To Do A Basic Armbar From The Top Mount",
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 65,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Armbar from Reverse Mount Defender",
@@ -568,6 +578,16 @@
         "description": "Positional sparring starting in reverse mount with attacker specifically hunting armbars. Defender works to prevent armbar control, escape to closed guard, or force the attacker to abandon the attempt. 2-minute rounds with full resistance. Track defense success rate and identify which defensive techniques are most reliable under pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "wX1BvykRReQ",
+        "title": "Synergy Tech24 - The \"Backdoor\" Armbar Escape",
+        "channel": "Niko Han",
+        "duration": 56,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

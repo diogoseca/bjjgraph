@@ -399,7 +399,25 @@
       }
     ],
     "safety_considerations": "The Triangle from Guard involves significant pressure on the cervical spine and carotid arteries. During training, always apply the choke gradually and release immediately upon tap. Partners should tap early when they feel arterial compression beginning rather than waiting for full consciousness restriction. The neck crank component from poor angle alignment can cause cervical strain, so prioritize proper perpendicular angle to ensure a clean blood choke rather than a crank. Practitioners with neck injuries or cervical disc issues should approach this technique cautiously from both the attacking and defending sides. When drilling, avoid explosive leg transitions that could strike the partner's face or jaw with the shin. The stacking defense can compress the attacker's spine, so practitioners with lower back issues should avoid holding stacked triangle positions for extended periods and transition to omoplata instead.",
-    "clips": []
+    "clips": [
+      {
+        "id": "Ekg3PrW62Ts",
+        "title": "Ferro Academy BJJ No Gi Triangle from Rubber Guard",
+        "channel": "Sickness Ferro",
+        "duration": 85,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "8osperxGvxU",
+        "title": "Triangle from the Rubber Guard",
+        "channel": "Valhalla Academy of Martial Arts",
+        "duration": 113,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle from Guard Defender",
@@ -579,7 +597,18 @@
         "description": "Full resistance positional sparring starting from Mission Control. Partner uses complete offensive system including triangle, omoplata, and armbar chains. Practice reading the attack selection, choosing the correct defensive response from the multi-option system, and executing escapes under competitive pressure. Develop the ability to survive the full rubber guard attack chain and reach safe positions against trained opponents."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "szAvJFvIzx4",
+        "title": "How to Escape the Triangle Choke from Guard",
+        "channel": "Stephan Kesting",
+        "duration": 590,
+        "vertical": false,
+        "start": 22,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

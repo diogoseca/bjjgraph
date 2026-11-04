@@ -162,6 +162,16 @@ description: "Defend and escape the omoplata from double sleeve guard. Recogniti
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+      "description": "Omoplata from Double Sleeve Guard (Defender) film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Omoplata Step Over Escape Drill 2",
       "description": "Omoplata from Double Sleeve Guard (Defender) film study: Omoplata Step Over Escape Drill 2.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tOnP_QiviyU/hqdefault.jpg",
@@ -171,7 +181,7 @@ description: "Defend and escape the omoplata from double sleeve guard. Recogniti
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Professor Queixinho Teaches a Highly Effective Omoplata Escape!",
       "description": "Omoplata from Double Sleeve Guard (Defender) film study: Professor Queixinho Teaches a Highly Effective Omoplata Escape!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UaZdeo4ro3E/hqdefault.jpg",
@@ -203,6 +213,14 @@ Defending the omoplata from double sleeve guard requires recognizing the attack 
 
 <p class="section-subtitle">Watch Omoplata from Double Sleeve Guard (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+
+<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

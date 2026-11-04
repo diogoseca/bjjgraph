@@ -176,6 +176,27 @@ description: "Complete guide to executing the Suplex from Rear Clinch. Covers gr
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Suplex from Rear Clinch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly to Back Suplex",
+      "description": "Suplex from Rear Clinch (Attacker) film study: Belly to Back Suplex.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NojPtq5V7FI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NojPtq5V7FI?start=56",
+      "url": "https://www.youtube.com/watch?v=NojPtq5V7FI",
+      "duration": "PT321S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing the Suplex from Rear Clinch, your objective is to conv
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Suplex from Rear Clinch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NojPtq5V7FI&start=56)
+
+<p class="clip-credit"><strong>Belly to Back Suplex</strong> · 5:21 · <a href="https://www.youtube.com/watch?v=NojPtq5V7FI&t=56s" rel="noopener">Watch on YouTube from 0:56</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

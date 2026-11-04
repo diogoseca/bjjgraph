@@ -549,7 +549,18 @@
         "description": "Full-resistance positional sparring where you must maintain grip control against opponents specifically targeting your grips. Include scenarios starting from established guard passing grips, competition scenarios with time pressure, and extended exchanges where grip fatigue becomes a factor. Focus on energy management, grip hierarchy decisions, and combining grip retention with positional advancement seamlessly."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "EQPsSm8W4as",
+        "title": "Bjj grip break counter",
+        "channel": "Shintaro Higashi",
+        "duration": 108,
+        "vertical": false,
+        "start": 26,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "conditions": [
     "Opponent has at least one established grip on your gi or body",

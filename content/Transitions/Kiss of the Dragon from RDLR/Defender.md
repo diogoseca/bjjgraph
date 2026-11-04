@@ -150,6 +150,27 @@ description: "Learn to defend and counter the Kiss of the Dragon from Reverse De
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kiss of the Dragon from RDLR (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kiss of the Dragon Counters",
+      "description": "Kiss of the Dragon from RDLR (Defender) film study: Kiss of the Dragon Counters.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0QNdTgoDIm8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0QNdTgoDIm8",
+      "url": "https://www.youtube.com/watch?v=0QNdTgoDIm8",
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ As the defender against Kiss of the Dragon from RDLR, you are the top player fac
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kiss of the Dragon from RDLR (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0QNdTgoDIm8)
+
+<p class="clip-credit"><strong>Kiss of the Dragon Counters</strong> · 1:35 · <a href="https://www.youtube.com/watch?v=0QNdTgoDIm8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

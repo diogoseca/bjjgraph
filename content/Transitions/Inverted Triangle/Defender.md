@@ -150,6 +150,37 @@ description: "How to defend against the Inverted Triangle in BJJ. Recognition cu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape",
+      "description": "Inverted Triangle (Defender) film study: Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AptNwQLD_EQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AptNwQLD_EQ?start=28",
+      "url": "https://www.youtube.com/watch?v=AptNwQLD_EQ",
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter to the Inverted Triangle",
+      "description": "Inverted Triangle (Defender) film study: Counter to the Inverted Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EaZA0UUXIq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EaZA0UUXIq8?start=56",
+      "url": "https://www.youtube.com/watch?v=EaZA0UUXIq8",
+      "duration": "PT186S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +195,32 @@ The defensive hierarchy mirrors standard triangle defense principles but with cr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AptNwQLD_EQ&start=28)
+
+<p class="clip-credit"><strong>Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=AptNwQLD_EQ&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EaZA0UUXIq8&start=56)
+
+<p class="clip-credit"><strong>Counter to the Inverted Triangle</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=EaZA0UUXIq8&t=56s" rel="noopener">Watch on YouTube from 0:56</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

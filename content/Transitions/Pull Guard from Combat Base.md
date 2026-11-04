@@ -36,6 +36,27 @@ description: "Learn to pull closed guard from combat base bottom in BJJ. Complet
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pull Guard from Combat Base \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Closed Guard System - Closed Guard Entry when Opponent is in Combat Base\u2026",
+      "description": "Pull Guard from Combat Base film study: The Closed Guard System - Closed Guard Entry when Opponent is in Combat Base\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6V7p9Mt2zqY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6V7p9Mt2zqY?start=41",
+      "url": "https://www.youtube.com/watch?v=6V7p9Mt2zqY",
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Success requires a systematic approach: establishing controlling grips to compro
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pull Guard from Combat Base in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6V7p9Mt2zqY&start=41)
+
+<p class="clip-credit"><strong>The Closed Guard System - Closed Guard Entry when Opponent is in Combat Base…</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=6V7p9Mt2zqY&t=41s" rel="noopener">Watch on YouTube from 0:41</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

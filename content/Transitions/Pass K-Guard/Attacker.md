@@ -176,6 +176,27 @@ description: "Learn to execute the K-Guard pass from the attacker perspective. S
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass K-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing K-guard (Lachlan Giles)",
+      "description": "Pass K-Guard (Attacker) film study: Passing K-guard (Lachlan Giles).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WV3PwrFShU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WV3PwrFShU0",
+      "url": "https://www.youtube.com/watch?v=WV3PwrFShU0",
+      "duration": "PT430S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The K-Guard pass from the attacker's perspective demands a systematic, pressure-
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass K-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WV3PwrFShU0)
+
+<p class="clip-credit"><strong>Passing K-guard (Lachlan Giles)</strong> · 7:10 · <a href="https://www.youtube.com/watch?v=WV3PwrFShU0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

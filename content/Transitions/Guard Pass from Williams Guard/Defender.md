@@ -150,6 +150,27 @@ description: "Defend against guard passes from Williams Guard bottom position. L
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Williams Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Williams Guard counters to when opponent tries to pass",
+      "description": "Guard Pass from Williams Guard (Defender) film study: Williams Guard counters to when opponent tries to pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iyTRevvOlMo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iyTRevvOlMo?start=35",
+      "url": "https://www.youtube.com/watch?v=iyTRevvOlMo",
+      "duration": "PT581S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the guard pass from Williams Guard means you are the bottom player wor
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Williams Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iyTRevvOlMo&start=35)
+
+<p class="clip-credit"><strong>Williams Guard counters to when opponent tries to pass</strong> · 9:41 · <a href="https://www.youtube.com/watch?v=iyTRevvOlMo&t=35s" rel="noopener">Watch on YouTube from 0:35</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

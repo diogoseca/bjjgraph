@@ -46,6 +46,16 @@ description: "Master the Achilles Lock from Inside Ashi-Garami in BJJ. Blade pla
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Ankle Lock: Straight Ashi Garami",
+      "description": "Achilles Lock from Inside Ashi-Garami film study: Ankle Lock: Straight Ashi Garami.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MlQrVhlY_vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MlQrVhlY_vg",
+      "url": "https://www.youtube.com/watch?v=MlQrVhlY_vg",
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles\u2026",
       "description": "Achilles Lock from Inside Ashi-Garami film study: Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9jaSEuYbq_4/hqdefault.jpg",
@@ -114,6 +124,14 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 
 <p class="section-subtitle">Watch Achilles Lock from Inside Ashi-Garami in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MlQrVhlY_vg)
+
+<p class="clip-credit"><strong>Ankle Lock: Straight Ashi Garami</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=MlQrVhlY_vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

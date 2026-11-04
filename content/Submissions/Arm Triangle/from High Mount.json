@@ -655,11 +655,46 @@
     ],
     "clips": [
       {
+        "id": "CmXniIPFMhU",
+        "title": "Two variations of arm triangle (kata gatame) escapes",
+        "channel": "Adam Urbanski MMA",
+        "duration": 88,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "Fx6qjR6a_xE",
+        "title": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
+        "channel": "MMA Leech",
+        "duration": 273,
+        "vertical": false,
+        "start": 26,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "N7SC93aEOIA",
         "title": "Gracie Barra Jupiter- Head and arm choke escape",
         "channel": "Gracie Barra Jupiter And Stuart",
         "duration": 174,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Retract the near arm",
+        "clips": [
+          {
+            "id": "Fx6qjR6a_xE",
+            "title": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
+            "channel": "MMA Leech",
+            "duration": 273,
+            "vertical": false,
+            "start": 45,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   }

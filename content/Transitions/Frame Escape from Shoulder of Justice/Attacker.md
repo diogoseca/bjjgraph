@@ -182,6 +182,27 @@ description: "Execute the Frame Escape from Shoulder of Justice with systematic 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame Escape from Shoulder of Justice (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side Control Escape - Frames",
+      "description": "Frame Escape from Shoulder of Justice (Attacker) film study: Side Control Escape - Frames.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yUHv2mR8WM0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yUHv2mR8WM0?start=93",
+      "url": "https://www.youtube.com/watch?v=yUHv2mR8WM0",
+      "duration": "PT325S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the attacker executing this escape, you are the bottom player trapped under S
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame Escape from Shoulder of Justice (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yUHv2mR8WM0&start=93)
+
+<p class="clip-credit"><strong>Side Control Escape - Frames</strong> · 5:25 · <a href="https://www.youtube.com/watch?v=yUHv2mR8WM0&t=93s" rel="noopener">Watch on YouTube from 1:33</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

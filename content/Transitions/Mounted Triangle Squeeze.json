@@ -382,7 +382,18 @@
       }
     ],
     "safety_considerations": "The mounted triangle squeeze involves significant cervical compression and carotid artery pressure. Apply squeeze progressively and never explosively jerk or spike the compression. In training, squeeze incrementally and give your partner time to tap. Be aware that the combination of mount weight and triangle squeeze can create tracheal pressure in addition to carotid compression. Release immediately upon tap, verbal submission, or any sign of loss of consciousness. Avoid cranking the neck laterally during angle adjustments. Partners should tap early when they feel the squeeze take effect rather than fighting through significant pressure.",
-    "clips": []
+    "clips": [
+      {
+        "id": "XmfEXgOyog4",
+        "title": "Mounted Triangle Finishing Details",
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 170,
+        "vertical": false,
+        "start": 53,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Mounted Triangle Squeeze Defender",
@@ -546,6 +557,25 @@
         "description": "Start in mounted triangle with attacker working full squeeze-to-finish sequence. Defender practices survival and escape against unrestricted technique. Track time survived and escapes achieved. Build the confidence and technical resilience needed to defend the squeeze in live rolling."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "wDxn4Ah_0qM",
+        "title": "mount triangle escape for Mark",
+        "channel": "kenprimo",
+        "duration": 73,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "mUCi_COJlTg",
+        "title": "Mounted Triangle Choke Escape",
+        "channel": "Clinch Academy",
+        "duration": 590,
+        "vertical": false,
+        "start": 44,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

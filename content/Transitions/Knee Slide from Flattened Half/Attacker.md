@@ -176,6 +176,27 @@ description: "Complete attacker guide for the knee slide pass from flattened hal
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slide from Flattened Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard pass knee slide",
+      "description": "Knee Slide from Flattened Half (Attacker) film study: Half guard pass knee slide.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FyDzVn-OCWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FyDzVn-OCWI",
+      "url": "https://www.youtube.com/watch?v=FyDzVn-OCWI",
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing the Knee Slide from Flattened Half Guard, you are oper
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slide from Flattened Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FyDzVn-OCWI)
+
+<p class="clip-credit"><strong>Half guard pass knee slide</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=FyDzVn-OCWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

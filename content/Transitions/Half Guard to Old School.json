@@ -381,7 +381,17 @@
       }
     ],
     "safety_considerations": "The Transition to Old School is generally low-risk as it involves positional control establishment rather than joint manipulation or choking mechanics. However, the lockdown figure-four can create uncomfortable pressure on training partners' knees and ankles if applied with excessive force. Always establish the lockdown with controlled extension rather than explosive jerking motions. During drilling, communicate with your partner about lockdown tightness and pump intensity. Practitioners with knee injuries should be cautious about having the lockdown applied to their trapped leg. Tap if you feel sharp knee or ankle pain when caught in a lockdown during training.",
-    "clips": []
+    "clips": [
+      {
+        "id": "l79h-oYC96k",
+        "title": "Geo teaches the lockdown into the old school sweep training for mixed martial…",
+        "channel": "Spartan Elite MMA & Ultimate Fitness",
+        "duration": 181,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Old School Defender",
@@ -558,6 +568,24 @@
         "description": "Start in standard half guard with both players at full resistance. Bottom player's objective is establishing full Old School position. Top player's objective is preventing all three controls from being simultaneously established and advancing to a pass. 3-minute rounds tracking how often Old School is fully achieved versus prevented."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3CM7prP1kzc",
+        "title": "BJJ Basics: Counter Old School Sweep",
+        "channel": "Ayrshire Grappler",
+        "duration": 60,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "4M_9jlXDCtE",
+        "title": "Basic old school Sweep defense",
+        "channel": "Ricardo Cavalcanti BJJ",
+        "duration": 231,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

@@ -142,6 +142,27 @@ description: "Complete guide to defending the Backstep from Single Leg X-Guard. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Single Leg X (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stopping the Backstep and Mount from Single Leg X Guard",
+      "description": "Backstep from Single Leg X (Defender) film study: Stopping the Backstep and Mount from Single Leg X Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZXnPR5zNNXQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZXnPR5zNNXQ?start=228",
+      "url": "https://www.youtube.com/watch?v=ZXnPR5zNNXQ",
+      "duration": "PT550S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ The defender in the Backstep from Single Leg X is the bottom player maintaining 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Single Leg X (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZXnPR5zNNXQ&start=228)
+
+<p class="clip-credit"><strong>Stopping the Backstep and Mount from Single Leg X Guard</strong> · 9:10 · <a href="https://www.youtube.com/watch?v=ZXnPR5zNNXQ&t=228s" rel="noopener">Watch on YouTube from 3:48</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

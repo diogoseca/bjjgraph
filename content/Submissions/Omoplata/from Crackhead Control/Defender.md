@@ -130,6 +130,37 @@ description: "Recognize Omoplata from Crackhead Control and interrupt its requir
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Crackhead Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata escape, jump over",
+      "description": "Omoplata from Crackhead Control (Defender) film study: Omoplata escape, jump over.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_2dhd21ffbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_2dhd21ffbc",
+      "url": "https://www.youtube.com/watch?v=_2dhd21ffbc",
+      "duration": "PT7S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+      "description": "Omoplata from Crackhead Control (Defender) film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -145,6 +176,32 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Crackhead Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_2dhd21ffbc)
+
+<p class="clip-credit"><strong>Omoplata escape, jump over</strong> · 0:07 · <a href="https://www.youtube.com/watch?v=_2dhd21ffbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+
+<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

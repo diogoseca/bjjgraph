@@ -1,15 +1,15 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/demi-guard/capture/demicap1-327238c44/pr-demi-guard-327238c44",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/clips-backfill/capture/cap334-40a8eb869/pr-escape-clips-40a8eb869",
   "content_provenance": {
-   "capture_git_head": "327238c44353c704e93221d4c1bce93259171d72",
-   "capture_id": "d590ab85e5ac4d59b7e5c491e1b9636f",
+   "capture_git_head": "40a8eb869843897d076f850a1637a624e9a25818",
+   "capture_id": "e20a529cafae4b26a5b916ec9b0d3e75",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "25ede134fd31a0f6275e0d6977c08c43dbdf7d6b",
+   "content_tree": "981027251389a1396019e9ace78fb5aa68cb8532",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -34,11 +34,11 @@
    },
    "output_identity": {
     "files": 15827,
-    "sha256": "5ee87f4b3ce9b73c32b8a5016b88cf9af43815a88968760a8008e307b137f57e"
+    "sha256": "829bdb5bc353de8ce3ac1047746054bf7a8a186836f2fc3f31cb6433be35ba9e"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/demi-guard/capture/demicap1-327238c44/pr-demi-guard-327238c44"
+    "/home/user/bjj-orchestrator/scratch/clips-backfill/capture/cap334-40a8eb869/pr-escape-clips-40a8eb869"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -159,15 +159,15 @@
   "tags": 73
  },
  "census": {
-  "article_headings": 90073,
-  "article_links": 195625,
+  "article_headings": 90586,
+  "article_links": 196905,
   "files": 15827,
   "gzip_files": 1,
   "head_links": 49199,
   "html_pages": 6142,
-  "jsonld_blocks": 30291,
+  "jsonld_blocks": 30804,
   "meta_tags": 128627,
-  "outside_links": 145020,
+  "outside_links": 145533,
   "pages_with_article": 6131,
   "pages_with_canonical": 6134,
   "pages_with_description": 6137,
@@ -190,7 +190,7 @@
   "DefinedTerm": 3075,
   "FAQPage": 3085,
   "HowTo": 2935,
-  "ItemList": 3058,
+  "ItemList": 3571,
   "Organization": 6131,
   "WebApplication": 2,
   "WebPage": 5894,

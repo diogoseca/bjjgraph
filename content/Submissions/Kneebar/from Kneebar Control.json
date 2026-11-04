@@ -406,7 +406,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "mZs0vLcyvAo",
+        "title": "Finishing Knee Bar. Control And Breaking Mechanics.",
+        "channel": "Sambo Fusion",
+        "duration": 282,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Kneebar Control Defender",
@@ -590,6 +600,23 @@
         "channel": "Garden State Brazilian Jiu-Jitsu Academy",
         "duration": 24,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Maintain bent-knee defense",
+        "clips": [
+          {
+            "id": "HwU4-0-JBUM",
+            "title": "How to Defend and Escape the Kneebar",
+            "channel": "Stephan Kesting",
+            "duration": 533,
+            "vertical": false,
+            "start": 364,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   }

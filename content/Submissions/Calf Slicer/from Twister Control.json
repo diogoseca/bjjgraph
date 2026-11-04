@@ -398,6 +398,24 @@
     ],
     "clips": [
       {
+        "id": "FhaUPcjiQpI",
+        "title": "Adults Technique 4/1/20 Twister to Calf Slicer and Armbar",
+        "channel": "Marco Nascimento Brazilian Jiu Jitsu",
+        "duration": 401,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "PeTL7X19Imo",
+        "title": "No Gi BJJ: Truck to Calf Slicer or Back Control",
+        "channel": "Robyn Sheehan",
+        "duration": 143,
+        "vertical": false,
+        "start": 32,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "4gzXKLfRlYY",
         "title": "X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER",
         "channel": "Asaf Mich",
@@ -574,6 +592,16 @@
         "description": "Defend against the calf slicer from twister control with the partner applying full resistance and finishing intent. Practice the complete defensive sequence from recognition through prevention to escape or tap decision-making under realistic competition-intensity conditions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "UIaZYXwrDJM",
+        "title": "Calf Slicer defense",
+        "channel": "Warrior Combat Academy",
+        "duration": 21,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

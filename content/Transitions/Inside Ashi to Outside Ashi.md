@@ -36,6 +36,27 @@ description: "Master the Inside Ashi to Outside Ashi transition in BJJ. Learn sy
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi to Outside Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside Heel Hook: Ashi Garami Transition from Irimi to Outside Position (No\u2026",
+      "description": "Inside Ashi to Outside Ashi film study: Outside Heel Hook: Ashi Garami Transition from Irimi to Outside Position (No\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1gNAjcKwug4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1gNAjcKwug4?start=152",
+      "url": "https://www.youtube.com/watch?v=1gNAjcKwug4",
+      "duration": "PT385S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Successful execution requires maintaining continuous heel control throughout the
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi to Outside Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1gNAjcKwug4&start=152)
+
+<p class="clip-credit"><strong>Outside Heel Hook: Ashi Garami Transition from Irimi to Outside Position (No…</strong> · 6:25 · <a href="https://www.youtube.com/watch?v=1gNAjcKwug4&t=152s" rel="noopener">Watch on YouTube from 2:32</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

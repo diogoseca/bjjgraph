@@ -36,6 +36,27 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Kimura Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Berimbolo Counter to Half Guard Kimura Front Roll Escape",
+      "description": "Rolling Kimura Escape film study: Berimbolo Counter to Half Guard Kimura Front Roll Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cOLgB0evgoo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cOLgB0evgoo",
+      "url": "https://www.youtube.com/watch?v=cOLgB0evgoo",
+      "duration": "PT532S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Success depends heavily on recognizing the exact moment when your opponent is co
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Kimura Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cOLgB0evgoo)
+
+<p class="clip-credit"><strong>Berimbolo Counter to Half Guard Kimura Front Roll Escape</strong> · 8:52 · <a href="https://www.youtube.com/watch?v=cOLgB0evgoo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

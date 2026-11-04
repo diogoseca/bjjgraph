@@ -176,6 +176,27 @@ description: "Master the attacker perspective for countering the Estima Lock in 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter from Estima Lock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fernando Reis Counter to Estima Foot Lock Gi",
+      "description": "Counter from Estima Lock (Attacker) film study: Fernando Reis Counter to Estima Foot Lock Gi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ESNrUEVZOL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ESNrUEVZOL8",
+      "url": "https://www.youtube.com/watch?v=ESNrUEVZOL8",
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Executing the Counter from Estima Lock requires a systematic approach to escapin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter from Estima Lock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ESNrUEVZOL8)
+
+<p class="clip-credit"><strong>Fernando Reis Counter to Estima Foot Lock Gi</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ESNrUEVZOL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

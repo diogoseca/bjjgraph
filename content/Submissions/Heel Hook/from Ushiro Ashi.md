@@ -46,22 +46,12 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double outside ashi heel hook escape / running man escape",
-      "description": "Heel Hook from Ushiro Ashi film study: Double outside ashi heel hook escape / running man escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
-      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Outside heel hook defense to Inside Heel Hook",
-      "description": "Heel Hook from Ushiro Ashi film study: Outside heel hook defense to Inside Heel Hook.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
-      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
-      "duration": "PT104S"
+      "name": "Cross Ashi belly down heel hook",
+      "description": "Heel Hook from Ushiro Ashi film study: Cross Ashi belly down heel hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h_SRARh0B6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h_SRARh0B6U",
+      "url": "https://www.youtube.com/watch?v=h_SRARh0B6U",
+      "duration": "PT67S"
     }
   ]
 }
@@ -124,17 +114,9 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
+![](https://www.youtube.com/watch?v=h_SRARh0B6U)
 
-<p class="clip-credit"><strong>Double outside ashi heel hook escape / running man escape</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=clVAHxgRadE)
-
-<p class="clip-credit"><strong>Outside heel hook defense to Inside Heel Hook</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Ashi belly down heel hook</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=h_SRARh0B6U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

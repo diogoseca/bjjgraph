@@ -170,6 +170,37 @@ description: "How to execute Position reversal sweep to top in BJJ. Attacking pe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Position reversal sweep to top (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basics for 50/50 Guard How to Sweep",
+      "description": "Position reversal sweep to top (Attacker) film study: Basics for 50/50 Guard How to Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ApUlhig3oH4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ApUlhig3oH4?start=22",
+      "url": "https://www.youtube.com/watch?v=ApUlhig3oH4",
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic sweep drill from 50/50",
+      "description": "Position reversal sweep to top (Attacker) film study: Basic sweep drill from 50/50.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1VozlOhclEo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1VozlOhclEo",
+      "url": "https://www.youtube.com/watch?v=1VozlOhclEo",
+      "duration": "PT237S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +217,32 @@ This sweep integrates into the modern leg lock game as an essential defensive to
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Position reversal sweep to top (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ApUlhig3oH4&start=22)
+
+<p class="clip-credit"><strong>Basics for 50/50 Guard How to Sweep</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=ApUlhig3oH4&t=22s" rel="noopener">Watch on YouTube from 0:22</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1VozlOhclEo)
+
+<p class="clip-credit"><strong>Basic sweep drill from 50/50</strong> · 3:57 · <a href="https://www.youtube.com/watch?v=1VozlOhclEo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

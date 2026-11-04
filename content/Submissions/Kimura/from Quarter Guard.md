@@ -36,6 +36,37 @@ description: "Master the Kimura shoulder lock from Quarter Guard top. Expert gui
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Quarter Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "kimura from top half guard",
+      "description": "Kimura from Quarter Guard film study: kimura from top half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E2eGqpQOmd8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E2eGqpQOmd8",
+      "url": "https://www.youtube.com/watch?v=E2eGqpQOmd8",
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation\u2026",
+      "description": "Kimura from Quarter Guard film study: Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9DGzMd9VjqE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9DGzMd9VjqE",
+      "url": "https://www.youtube.com/watch?v=9DGzMd9VjqE",
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Quarter Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E2eGqpQOmd8)
+
+<p class="clip-credit"><strong>kimura from top half guard</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=E2eGqpQOmd8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9DGzMd9VjqE)
+
+<p class="clip-credit"><strong>Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation…</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=9DGzMd9VjqE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

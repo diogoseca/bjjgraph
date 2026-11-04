@@ -162,6 +162,26 @@ description: "Defend the Rear Naked Choke from Seat Belt Control Back. Recogniti
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Rear Naked Choke to Escape",
+      "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: Rear Naked Choke to Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kXvNLzTMVPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kXvNLzTMVPk",
+      "url": "https://www.youtube.com/watch?v=kXvNLzTMVPk",
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "TMG Clips #67 - Escape The RNC",
+      "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: TMG Clips #67 - Escape The RNC.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R6W9P4_SMzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R6W9P4_SMzY",
+      "url": "https://www.youtube.com/watch?v=R6W9P4_SMzY",
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Rear naked choke escape",
       "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: Rear naked choke escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ylLO80PM4zg/hqdefault.jpg",
@@ -171,7 +191,7 @@ description: "Defend the Rear Naked Choke from Seat Belt Control Back. Recogniti
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 4,
       "name": "Back Escape + RNC Defence | Arete BJJ Malta",
       "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: Back Escape + RNC Defence | Arete BJJ Malta.",
       "thumbnailUrl": "https://i.ytimg.com/vi/L1KeviYu1FQ/hqdefault.jpg",
@@ -203,6 +223,22 @@ Defending the Rear Naked Choke from Seat Belt Control Back requires immediate re
 
 <p class="section-subtitle">Watch Rear Naked Choke from Seat Belt Control Back (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kXvNLzTMVPk)
+
+<p class="clip-credit"><strong>Rear Naked Choke to Escape</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=kXvNLzTMVPk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R6W9P4_SMzY)
+
+<p class="clip-credit"><strong>TMG Clips #67 - Escape The RNC</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=R6W9P4_SMzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

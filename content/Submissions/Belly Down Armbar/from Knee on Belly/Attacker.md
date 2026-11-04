@@ -178,6 +178,37 @@ description: "Learn to execute the belly down armbar finish from knee on belly. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Knee on Belly (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly Down Arm bar from turtle",
+      "description": "Belly Down Armbar from Knee on Belly (Attacker) film study: Belly Down Arm bar from turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UXPfzHTSCDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UXPfzHTSCDE",
+      "url": "https://www.youtube.com/watch?v=UXPfzHTSCDE",
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly Down Armbar from Guard",
+      "description": "Belly Down Armbar from Knee on Belly (Attacker) film study: Belly Down Armbar from Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdYFELAO6B0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdYFELAO6B0",
+      "url": "https://www.youtube.com/watch?v=EdYFELAO6B0",
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Attacking with the belly down armbar finish from knee on belly leverages the imm
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Knee on Belly (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UXPfzHTSCDE)
+
+<p class="clip-credit"><strong>Belly Down Arm bar from turtle</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=UXPfzHTSCDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdYFELAO6B0)
+
+<p class="clip-credit"><strong>Belly Down Armbar from Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=EdYFELAO6B0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

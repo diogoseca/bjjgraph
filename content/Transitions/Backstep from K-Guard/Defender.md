@@ -142,6 +142,27 @@ description: "Learn to defend the Backstep from K-Guard as the bottom player. Re
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from K-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Advanced K Guard Options! Countering the backstep \ud83d\udd25 Backside 50/50 and more",
+      "description": "Backstep from K-Guard (Defender) film study: Advanced K Guard Options! Countering the backstep \ud83d\udd25 Backside 50/50 and more.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kyHs1S3t64Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kyHs1S3t64Y?start=53",
+      "url": "https://www.youtube.com/watch?v=kyHs1S3t64Y",
+      "duration": "PT237S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ The Backstep from K-Guard Defender perspective addresses the bottom player's res
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from K-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kyHs1S3t64Y&start=53)
+
+<p class="clip-credit"><strong>Advanced K Guard Options! Countering the backstep 🔥 Backside 50/50 and more</strong> · 3:57 · <a href="https://www.youtube.com/watch?v=kyHs1S3t64Y&t=53s" rel="noopener">Watch on YouTube from 0:53</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

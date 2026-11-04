@@ -678,6 +678,38 @@
         "duration": 210,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Two-on-one wrist control on the choking arm",
+        "clips": [
+          {
+            "id": "3RbOD9fhi20",
+            "title": "Back Escape- Running Man- BJJ",
+            "channel": "JIU JITSU MODERN",
+            "duration": 210,
+            "vertical": false,
+            "start": 40,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "escape": "Strip the bottom hook",
+        "clips": [
+          {
+            "id": "3RbOD9fhi20",
+            "title": "Back Escape- Running Man- BJJ",
+            "channel": "JIU JITSU MODERN",
+            "duration": 210,
+            "vertical": false,
+            "start": 76,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

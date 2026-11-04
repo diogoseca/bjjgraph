@@ -188,6 +188,16 @@ description: "Step-by-step guide to finishing the paper cutter choke from kuzure
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Kesa Gatame With Arm Control to Paper Cutter Choke",
+      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) film study: Kesa Gatame With Arm Control to Paper Cutter Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p3TtDrZMsv0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p3TtDrZMsv0",
+      "url": "https://www.youtube.com/watch?v=p3TtDrZMsv0",
+      "duration": "PT284S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "kasa Gatame Paper Cuter Choke",
       "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) film study: kasa Gatame Paper Cuter Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AKfEIInO9Tk/hqdefault.jpg",
@@ -197,7 +207,7 @@ description: "Step-by-step guide to finishing the paper cutter choke from kuzure
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Paper Cutter Choke with Lapel from Side Control",
       "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) film study: Paper Cutter Choke with Lapel from Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vhFpxC1vCag/hqdefault.jpg",
@@ -207,7 +217,7 @@ description: "Step-by-step guide to finishing the paper cutter choke from kuzure
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Kesa to paper cutter choke",
       "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) film study: Kesa to paper cutter choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5z7hF2YJxeo/hqdefault.jpg",
@@ -239,6 +249,14 @@ Attacking with the paper cutter choke from kuzure kesa-gatame requires precise s
 
 <p class="section-subtitle">Watch Paper Cutter Choke from Kuzure Kesa Gatame (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p3TtDrZMsv0)
+
+<p class="clip-credit"><strong>Kesa Gatame With Arm Control to Paper Cutter Choke</strong> · 4:44 · <a href="https://www.youtube.com/watch?v=p3TtDrZMsv0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

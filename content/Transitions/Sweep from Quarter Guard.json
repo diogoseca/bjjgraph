@@ -379,7 +379,17 @@
       }
     ],
     "safety_considerations": "The Sweep from Quarter Guard is a relatively low-risk reversal technique with no direct joint manipulation or choking pressure. Primary safety concern is neck strain during aggressive crossface pressure from the top player—communicate with training partners about pressure levels. During the sweep itself, ensure controlled landing when achieving top position to avoid knee-on-knee collisions. Partners should practice cooperative drilling before adding resistance to prevent injury from unexpected weight shifts during the reversal.",
-    "clips": []
+    "clips": [
+      {
+        "id": "vVWnq7P9GPs",
+        "title": "Quarter Guard Sweep from Bottom",
+        "channel": "Tiger Martial Arts & Fitness",
+        "duration": 16,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Quarter Guard Defender",

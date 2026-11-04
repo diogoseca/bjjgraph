@@ -505,7 +505,17 @@
         "answer_line": "Calf crushed between shin and femur"
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "DvPs-12-APM",
+        "title": "Calf Slicer from Truck",
+        "channel": "Escondido Combat Academy",
+        "duration": 42,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Calf Slicer from Truck Defender",

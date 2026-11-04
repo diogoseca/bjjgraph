@@ -356,7 +356,18 @@
       }
     ],
     "safety_considerations": "The Smash Pass from X-Guard involves significant forward weight commitment that can strain the bottom player's knee joints if excessive rotational force is applied while their legs are entangled. Apply pressure progressively rather than explosively to allow the bottom player time to release hooks safely. Be particularly careful when driving through the inside hook, as the bottom player's knee is vulnerable to lateral stress in this configuration. In training, communicate with your partner about pressure levels and immediately reduce force if they indicate any joint discomfort.",
-    "clips": []
+    "clips": [
+      {
+        "id": "A8bgvt7zi10",
+        "title": "X GUARD PRESSURE PASS",
+        "channel": "Alpha BJJ",
+        "duration": 271,
+        "vertical": false,
+        "start": 95,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Smash Pass from X-Guard Defender",

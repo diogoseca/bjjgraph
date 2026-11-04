@@ -372,7 +372,26 @@
       }
     ],
     "safety_considerations": "This sweep involves dynamic hip elevation and rotation with entangled legs, creating potential for knee stress if executed incorrectly. Always ensure your knee tracks in natural alignment during elevation—avoid twisting motions that could stress the MCL or meniscus. If opponent has deep heel hook control, prioritize defending the heel over completing the sweep, as finishing the rotation under heel hook tension can cause catastrophic knee injury. Practice initially at slow speed to develop proper mechanics before adding explosiveness. Tap early if you feel any heel hook tension during the sweep attempt.",
-    "clips": []
+    "clips": [
+      {
+        "id": "ApUlhig3oH4",
+        "title": "Basics for 50/50 Guard How to Sweep",
+        "channel": "Rituals Jiu Jitsu",
+        "duration": 141,
+        "vertical": false,
+        "start": 22,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "1VozlOhclEo",
+        "title": "Basic sweep drill from 50/50",
+        "channel": "BJJ4Breakfast",
+        "duration": 237,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Position reversal sweep to top Defender",

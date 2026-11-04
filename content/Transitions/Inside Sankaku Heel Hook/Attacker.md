@@ -182,6 +182,27 @@ description: "Complete attacker guide for the Inside Sankaku Heel Hook. Step-by-
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Sankaku Heel Hook (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside Heel Hook from Saddle Finishing Mechanics Explained",
+      "description": "Inside Sankaku Heel Hook (Attacker) film study: Inside Heel Hook from Saddle Finishing Mechanics Explained.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CE-249MNn5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CE-249MNn5A",
+      "url": "https://www.youtube.com/watch?v=CE-249MNn5A",
+      "duration": "PT279S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Sankaku Heel Hook (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CE-249MNn5A)
+
+<p class="clip-credit"><strong>Inside Heel Hook from Saddle Finishing Mechanics Explained</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=CE-249MNn5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

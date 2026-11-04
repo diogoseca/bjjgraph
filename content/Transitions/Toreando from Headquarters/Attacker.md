@@ -176,6 +176,27 @@ description: "Complete guide to executing the Toreando pass from Headquarters Po
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando from Headquarters (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "headquarters position/ bullfighter pass/ head and arm choke(week 6)",
+      "description": "Toreando from Headquarters (Attacker) film study: headquarters position/ bullfighter pass/ head and arm choke(week 6).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nGAhAmeQHYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nGAhAmeQHYk",
+      "url": "https://www.youtube.com/watch?v=nGAhAmeQHYk",
+      "duration": "PT401S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The Toreando from Headquarters rewards the passer who can read distance-creation
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando from Headquarters (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nGAhAmeQHYk)
+
+<p class="clip-credit"><strong>headquarters position/ bullfighter pass/ head and arm choke(week 6)</strong> · 6:41 · <a href="https://www.youtube.com/watch?v=nGAhAmeQHYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

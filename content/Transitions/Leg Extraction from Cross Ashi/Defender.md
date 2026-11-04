@@ -142,6 +142,27 @@ description: "Defend against Leg Extraction from your Cross Ashi-Garami control.
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction from Cross Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "COUNTER the cross ashi escape with OUTSIDE HEELHOOK",
+      "description": "Leg Extraction from Cross Ashi (Defender) film study: COUNTER the cross ashi escape with OUTSIDE HEELHOOK.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_8F3paq-8O4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_8F3paq-8O4?start=29",
+      "url": "https://www.youtube.com/watch?v=_8F3paq-8O4",
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ As the defender (the person maintaining cross ashi-garami control while the oppo
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction from Cross Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_8F3paq-8O4&start=29)
+
+<p class="clip-credit"><strong>COUNTER the cross ashi escape with OUTSIDE HEELHOOK</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=_8F3paq-8O4&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

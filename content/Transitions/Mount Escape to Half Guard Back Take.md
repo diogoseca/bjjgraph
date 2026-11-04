@@ -36,6 +36,27 @@ description: "Master Mount Escape to Half Guard Back Take in BJJ. Multi-step esc
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount Escape to Half Guard Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount Escape to Half-Guard Back Take - Richmond BJJ Academy - April 2012\u2026",
+      "description": "Mount Escape to Half Guard Back Take film study: Mount Escape to Half-Guard Back Take - Richmond BJJ Academy - April 2012\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bwg_jawS8-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bwg_jawS8-0?start=21",
+      "url": "https://www.youtube.com/watch?v=bwg_jawS8-0",
+      "duration": "PT276S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This chain technique is particularly effective against opponents who aggressivel
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount Escape to Half Guard Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bwg_jawS8-0&start=21)
+
+<p class="clip-credit"><strong>Mount Escape to Half-Guard Back Take - Richmond BJJ Academy - April 2012…</strong> · 4:36 · <a href="https://www.youtube.com/watch?v=bwg_jawS8-0&t=21s" rel="noopener">Watch on YouTube from 0:21</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

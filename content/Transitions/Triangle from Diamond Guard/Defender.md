@@ -150,6 +150,27 @@ description: "Defend the triangle setup from Diamond Guard. Recognition cues, de
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Diamond Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Six Triangle Choke Escapes | From Early to Very Late",
+      "description": "Triangle from Diamond Guard (Defender) film study: Six Triangle Choke Escapes | From Early to Very Late.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XvsneDpJ18Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XvsneDpJ18Y?start=36",
+      "url": "https://www.youtube.com/watch?v=XvsneDpJ18Y",
+      "duration": "PT417S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the triangle from Diamond Guard requires understanding that your defen
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Diamond Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XvsneDpJ18Y&start=36)
+
+<p class="clip-credit"><strong>Six Triangle Choke Escapes | From Early to Very Late</strong> · 6:57 · <a href="https://www.youtube.com/watch?v=XvsneDpJ18Y&t=36s" rel="noopener">Watch on YouTube from 0:36</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -182,6 +182,27 @@ description: "Master the Stack Pass from Spider Guard as the passer. Learn timin
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Spider (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubens Cobrinha: stack spider guard pass",
+      "description": "Stack Pass from Spider (Attacker) film study: Rubens Cobrinha: stack spider guard pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Flp_LvZE1YE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Flp_LvZE1YE",
+      "url": "https://www.youtube.com/watch?v=Flp_LvZE1YE",
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the attacker executing the Stack Pass from Spider Guard, your role is to reco
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Spider (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Flp_LvZE1YE)
+
+<p class="clip-credit"><strong>Rubens Cobrinha: stack spider guard pass</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=Flp_LvZE1YE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

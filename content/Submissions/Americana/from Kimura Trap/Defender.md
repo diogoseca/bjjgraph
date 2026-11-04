@@ -146,6 +146,37 @@ description: "Complete defense guide against the Americana from Kimura Trap. Lea
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Kimura Trap (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bjj defense against the americana",
+      "description": "Americana from Kimura Trap (Defender) film study: Bjj defense against the americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qfoEZtys84k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qfoEZtys84k",
+      "url": "https://www.youtube.com/watch?v=qfoEZtys84k",
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending and escaping the americana",
+      "description": "Americana from Kimura Trap (Defender) film study: Defending and escaping the americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_j0LjApmSMc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_j0LjApmSMc",
+      "url": "https://www.youtube.com/watch?v=_j0LjApmSMc",
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +190,32 @@ Defending the Americana from Kimura Trap requires recognizing the moment your op
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Kimura Trap (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qfoEZtys84k)
+
+<p class="clip-credit"><strong>Bjj defense against the americana</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=qfoEZtys84k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_j0LjApmSMc)
+
+<p class="clip-credit"><strong>Defending and escaping the americana</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=_j0LjApmSMc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

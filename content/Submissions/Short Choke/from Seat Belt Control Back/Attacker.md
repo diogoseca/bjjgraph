@@ -178,6 +178,27 @@ description: "Learn to attack with the Short Choke from Seat Belt Control Back. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Seat Belt Control Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Collar Choke from the Back",
+      "description": "Short Choke from Seat Belt Control Back (Attacker) film study: Cross Collar Choke from the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/poQVy53KJ_A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/poQVy53KJ_A?start=33",
+      "url": "https://www.youtube.com/watch?v=poQVy53KJ_A",
+      "duration": "PT249S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ The Short Choke from Seat Belt Control Back attacks the carotid arteries using t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Seat Belt Control Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=poQVy53KJ_A&start=33)
+
+<p class="clip-credit"><strong>Cross Collar Choke from the Back</strong> · 4:09 · <a href="https://www.youtube.com/watch?v=poQVy53KJ_A&t=33s" rel="noopener">Watch on YouTube from 0:33</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

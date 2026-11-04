@@ -36,6 +36,27 @@ description: "Master the armbar from reverse mount in BJJ. Complete guide coveri
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Reverse Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ | How To Do A Basic Armbar From The Top Mount",
+      "description": "Armbar from Reverse Mount film study: BJJ | How To Do A Basic Armbar From The Top Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GI0lv-MA2h4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GI0lv-MA2h4",
+      "url": "https://www.youtube.com/watch?v=GI0lv-MA2h4",
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The armbar from reverse mount integrates naturally into the reverse mount offens
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Reverse Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GI0lv-MA2h4)
+
+<p class="clip-credit"><strong>BJJ | How To Do A Basic Armbar From The Top Mount</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=GI0lv-MA2h4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

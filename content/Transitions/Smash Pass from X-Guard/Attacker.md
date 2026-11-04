@@ -176,6 +176,27 @@ description: "Complete guide to executing the Smash Pass from X-Guard. Learn pre
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pass from X-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X GUARD PRESSURE PASS",
+      "description": "Smash Pass from X-Guard (Attacker) film study: X GUARD PRESSURE PASS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A8bgvt7zi10/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A8bgvt7zi10?start=95",
+      "url": "https://www.youtube.com/watch?v=A8bgvt7zi10",
+      "duration": "PT271S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The attacker in the Smash Pass from X-Guard is the top player who commits their 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pass from X-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=A8bgvt7zi10&start=95)
+
+<p class="clip-credit"><strong>X GUARD PRESSURE PASS</strong> · 4:31 · <a href="https://www.youtube.com/watch?v=A8bgvt7zi10&t=95s" rel="noopener">Watch on YouTube from 1:35</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

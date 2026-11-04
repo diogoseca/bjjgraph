@@ -644,6 +644,23 @@
         "channel": "Ante Dzolic",
         "duration": 225
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Upa bridge",
+        "clips": [
+          {
+            "id": "AaZPuF7ppY8",
+            "title": "Defense to the Ezekiel Choke",
+            "channel": "Gracie Ohio Jiu-Jitsu Academy",
+            "duration": 176,
+            "vertical": false,
+            "start": 87,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

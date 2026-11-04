@@ -13629,3 +13629,56 @@ The role URL, exact tab-title writer and repaired CI contracts remain alongside
 the drawer and reader-position changes. Both package manifests now use 1.242.1;
 the following app-only fingerprint commit regenerates its rows from this clean
 merged source. The guarded site census is unchanged; no capture is required.
+
+## v1.246.0 — per-escape clips: `defender.escape_clips` (owner ESC1)
+
+Every submission escape card showed "Video unavailable" by design: 1,049 choices across 287 submissions, because
+v1.230.0 forbids a destination's video or the submission's general defender reel for a named escape. The owner chose a
+clip of THAT escape or nothing. This change is the content side; the card itself is a separate app PR.
+
+**Shape.** `defender.escape_clips: [{escape, clips[]}]`, joined on the exact card label `compile_defenses` prints.
+- Not on an outcome: Americana from Side Control has 4 cards on 2 outcomes.
+- Not inside `defensive_options[i]`: that row is `details[i]`, which `response_identity` hashes into each defense's MDP id.
+- Emitted as `perspectives.defender.escapes` in the dossier chunk, which `_drainChoiceMedia` already hydrates, and NOT in
+  submission-details, whose bytes feed `detailsHash`. `scripts/submission_choices.py` and `regenerate_neural_data.py` are
+  untouched for the same reason: both are hashed into MDP provenance.
+
+**Failure modes, each with a test in `tests/clip_data_contract.py`.** A row naming no card fails validation and names
+itself. The AI schema never sees the key, `restore_clips` puts it back, and a reworded action that would orphan a row
+fails preservation. `_clips.iter_clips_arrays` yields each row, or clips-verify would report full coverage while skipping
+them. The emit prints a positive join count and fails under `ESCAPE_CLIP_JOIN_FLOOR`.
+
+**Mutants.** 9 of 9 killed by their named tests: rot check skips rows, AI schema keeps the key, restore skips the key,
+reword not caught, orphan passes, duplicate row passes, front rules skip rows, dossier drops escapes, override join broken.
+
+**Bytes.** One clip row is 131 B mean and 170 B max on the wire, measured on the 268 real defender rows of submissions.
+Dossiers count against `chunk_max_bytes` (40,000; largest submission chunk 25,499), not `deferred_raw_bytes`.
+
+**First data.** Escape labels are micro-actions ("Grip your own belt") that no title carries, so title search cannot find
+them. Each defence video's captions were indexed with timestamps, cards were matched to indexed moments, and a second
+independent judge read the excerpt. Each clip starts at the second that shows the escape. Transcripts stayed private.
+
+**Review (R1, R2).** The review found two gaps. Three bots edit source JSON directly, and a file that loses every clip
+still validates, because `clips` is optional: `scripts/restore_curated_clips.py` now runs after each direct edit and
+before validation, with HEAD as the snapshot, and reverts a file a reword left orphaned. `restore_clips` moved to
+`_clips.py` so that script and the paid pass share one implementation. The corpus validator now prints the join and fails
+under `ESCAPE_CLIP_JOIN_FLOOR`, since per file a record with no rows is fine and only a corpus walk can tell "all joined"
+from "nothing to join". Mutants now 13 of 13.
+
+**Technique clips, folded in (CAPORDER1, one capture for both).** The gap was 1,623 of 2,578 halves: 1,478 empty, and 145
+with clips but no approved front, which `_choiceFront` refuses. Dead clips were not a cause: the November rot check passed
+1,659 of 1,659. This batch gives 325 of those halves a front with 423 clips, and 67 escape cards a clip.
+
+Method, for every pick: search with queries written per technique (two routes, 20 per half at most), a first judge on
+title, channel and description, an embed check, the full description and captions fetched fresh, then a second independent
+judge reading them. October's ban list was rebuilt first, 443 ids everywhere plus a per-half ban, so nothing that curation
+refused comes back. A clip ships only with an accept and read evidence. 16 accepts that rested on a title alone are held
+for a visual check: that is the evidence class October's QC failed on. Of the 100 most-dealt halves 41 have a clip; most
+of the rest are defender halves of transitions, which instructors rarely film, and "no video beats a wrong one" stands.
+
+**Spec (SPEC334).** `defending-landing.spec.ts` named five pages as "the authored clip gap", and this PR gave one of them a clip, so
+the reel correctly appeared and the spec went red: a stale fixture, not a break. The claim now picks its pages from the wire
+(`defenderReels()` in `e2e/decks.ts`): any authored defender half with zero clips, first, middle and last, failing on zero. A new
+control proves a filled half does mount its reel in wire order, which the gap tests alone would not notice. Mutants, measured:
+`_landFilmClips` returning [] and `_renderLandFilm` dropping its length check turns all three gap tests red with the control green.
+Either guard alone leaves all three green, because each covers the other. The spec file is 33 of 33 clean.

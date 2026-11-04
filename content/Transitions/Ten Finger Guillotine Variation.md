@@ -36,6 +36,27 @@ description: "Master the Ten Finger Guillotine Variation from top control in BJJ
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine Variation \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "10 Finger Guillotine / Gogo Choke",
+      "description": "Ten Finger Guillotine Variation film study: 10 Finger Guillotine / Gogo Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bl3qgsV-l04/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bl3qgsV-l04",
+      "url": "https://www.youtube.com/watch?v=bl3qgsV-l04",
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The finishing mechanics rely on structural compression rather than muscular stre
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine Variation in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bl3qgsV-l04)
+
+<p class="clip-credit"><strong>10 Finger Guillotine / Gogo Choke</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=bl3qgsV-l04" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

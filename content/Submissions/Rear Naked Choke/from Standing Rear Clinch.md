@@ -46,22 +46,22 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Rear Naked Choke Defense",
-      "description": "Rear Naked Choke from Standing Rear Clinch film study: Standing Rear Naked Choke Defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rlJlNeccbEw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rlJlNeccbEw",
-      "url": "https://www.youtube.com/watch?v=rlJlNeccbEw",
-      "duration": "PT20S"
+      "name": "Rear naked choke from standing. (Grappling)",
+      "description": "Rear Naked Choke from Standing Rear Clinch film study: Rear naked choke from standing. (Grappling).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aHcEZPbczO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aHcEZPbczO0",
+      "url": "https://www.youtube.com/watch?v=aHcEZPbczO0",
+      "duration": "PT87S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie\u2026",
-      "description": "Rear Naked Choke from Standing Rear Clinch film study: Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dTIDRA-0YY0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dTIDRA-0YY0",
-      "url": "https://www.youtube.com/watch?v=dTIDRA-0YY0",
-      "duration": "PT38S"
+      "name": "Technique of the Week Liz Carmouche Standing Rear Naked Choke",
+      "description": "Rear Naked Choke from Standing Rear Clinch film study: Technique of the Week Liz Carmouche Standing Rear Naked Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VMMxUYLSKT8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VMMxUYLSKT8?start=29",
+      "url": "https://www.youtube.com/watch?v=VMMxUYLSKT8",
+      "duration": "PT91S"
     }
   ]
 }
@@ -124,17 +124,17 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rlJlNeccbEw)
+![](https://www.youtube.com/watch?v=aHcEZPbczO0)
 
-<p class="clip-credit"><strong>Standing Rear Naked Choke Defense</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=rlJlNeccbEw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear naked choke from standing. (Grappling)</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=aHcEZPbczO0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dTIDRA-0YY0)
+![](https://www.youtube.com/watch?v=VMMxUYLSKT8&start=29)
 
-<p class="clip-credit"><strong>Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie…</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=dTIDRA-0YY0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique of the Week Liz Carmouche Standing Rear Naked Choke</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=VMMxUYLSKT8&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
 
 </div>
 

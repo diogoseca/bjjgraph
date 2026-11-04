@@ -46,6 +46,16 @@ description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based bloo
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Secrets of Turtle Clock Choke",
+      "description": "Clock Choke from Rodeo Ride film study: Secrets of Turtle Clock Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_qmq81d5X0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_qmq81d5X0M",
+      "url": "https://www.youtube.com/watch?v=_qmq81d5X0M",
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Turtle Control \u0026 Clock Choke",
       "description": "Clock Choke from Rodeo Ride film study: Turtle Control \u0026 Clock Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/grDZ5vo84bg/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based bloo
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Wallid Ismail clock choke (week 14)",
       "description": "Clock Choke from Rodeo Ride film study: Wallid Ismail clock choke (week 14).",
       "thumbnailUrl": "https://i.ytimg.com/vi/vX8n_1YUZJs/hqdefault.jpg",
@@ -121,6 +131,14 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 
 <p class="section-subtitle">Watch Clock Choke from Rodeo Ride in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_qmq81d5X0M)
+
+<p class="clip-credit"><strong>Secrets of Turtle Clock Choke</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=_qmq81d5X0M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

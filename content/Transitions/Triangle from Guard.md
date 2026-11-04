@@ -36,6 +36,37 @@ description: "Learn the Triangle from Guard in BJJ. Step-by-step entry from Miss
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ferro Academy BJJ No Gi Triangle from Rubber Guard",
+      "description": "Triangle from Guard film study: Ferro Academy BJJ No Gi Triangle from Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ekg3PrW62Ts/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ekg3PrW62Ts",
+      "url": "https://www.youtube.com/watch?v=Ekg3PrW62Ts",
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle from the Rubber Guard",
+      "description": "Triangle from Guard film study: Triangle from the Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8osperxGvxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8osperxGvxU",
+      "url": "https://www.youtube.com/watch?v=8osperxGvxU",
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +105,32 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ekg3PrW62Ts)
+
+<p class="clip-credit"><strong>Ferro Academy BJJ No Gi Triangle from Rubber Guard</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=Ekg3PrW62Ts" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8osperxGvxU)
+
+<p class="clip-credit"><strong>Triangle from the Rubber Guard</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=8osperxGvxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -36,6 +36,27 @@ description: "Master the Rolling Kneebar Entry from Inverted Guard Guard. Dynami
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Kneebar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee Bar Defense",
+      "description": "Rolling Kneebar film study: Knee Bar Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NHyBpBC4apY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NHyBpBC4apY",
+      "url": "https://www.youtube.com/watch?v=NHyBpBC4apY",
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -76,6 +97,24 @@ This submission requires significant timing and body coordination, as the roll m
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Kneebar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NHyBpBC4apY)
+
+<p class="clip-credit"><strong>Knee Bar Defense</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=NHyBpBC4apY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

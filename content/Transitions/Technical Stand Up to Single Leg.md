@@ -36,6 +36,27 @@ description: "Master the Technical Stand Up to Single Leg in BJJ. Chain defensiv
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Stand Up to Single Leg \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg From Sit-Up Guard(No-Gi) ~ Cobrinha BJJ \u0026 Fitness Alliance Los\u2026",
+      "description": "Technical Stand Up to Single Leg film study: Single Leg From Sit-Up Guard(No-Gi) ~ Cobrinha BJJ \u0026 Fitness Alliance Los\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BZbYrEONUxA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BZbYrEONUxA",
+      "url": "https://www.youtube.com/watch?v=BZbYrEONUxA",
+      "duration": "PT118S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The chain from standup to single leg is effective because it exploits a timing w
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Stand Up to Single Leg in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BZbYrEONUxA)
+
+<p class="clip-credit"><strong>Single Leg From Sit-Up Guard(No-Gi) ~ Cobrinha BJJ &amp; Fitness Alliance Los…</strong> · 1:58 · <a href="https://www.youtube.com/watch?v=BZbYrEONUxA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -170,6 +170,37 @@ description: "How to execute Double Leg Entry in BJJ. Attacking perspective with
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Leg Entry (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double Leg Takedown: Basic Shot",
+      "description": "Double Leg Entry (Attacker) film study: Double Leg Takedown: Basic Shot.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/maSM-KwV4AM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/maSM-KwV4AM",
+      "url": "https://www.youtube.com/watch?v=maSM-KwV4AM",
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double Leg Takedown: Basic Neutral Wrestling and BJJ Moves and Technique For\u2026",
+      "description": "Double Leg Entry (Attacker) film study: Double Leg Takedown: Basic Neutral Wrestling and BJJ Moves and Technique For\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wxNAEByjOoA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wxNAEByjOoA",
+      "url": "https://www.youtube.com/watch?v=wxNAEByjOoA",
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -184,6 +215,32 @@ Successful attackers develop an acute sense of timing that allows them to recogn
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Leg Entry (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=maSM-KwV4AM)
+
+<p class="clip-credit"><strong>Double Leg Takedown: Basic Shot</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=maSM-KwV4AM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wxNAEByjOoA)
+
+<p class="clip-credit"><strong>Double Leg Takedown: Basic Neutral Wrestling and BJJ Moves and Technique For…</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=wxNAEByjOoA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

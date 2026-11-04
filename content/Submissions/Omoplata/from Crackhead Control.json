@@ -298,6 +298,17 @@
           ]
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "mxp2kAwshzE",
+        "title": "Mission Control to Omo Plata",
+        "channel": "JitsHappens",
+        "duration": 48,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
     ]
   },
   "defender": {
@@ -400,6 +411,25 @@
     "escape_paths": [
       "Keep the elbow close before the leg crosses into shoulder isolation.",
       "If the high legs open, maintain a stable base inside the remaining closed guard."
+    ],
+    "clips": [
+      {
+        "id": "_2dhd21ffbc",
+        "title": "Omoplata escape, jump over",
+        "channel": "Ritchie Yip",
+        "duration": 7,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 61,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
     ]
   }
 }

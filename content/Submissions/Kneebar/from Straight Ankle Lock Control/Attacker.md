@@ -188,6 +188,16 @@ description: "Learn to execute the kneebar from straight ankle lock control. Ste
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Straight Ankle Lock Not Working? Switch to a Kneebar **\u00bfNo Funciona el\u2026",
+      "description": "Kneebar from Straight Ankle Lock Control (Attacker) film study: Straight Ankle Lock Not Working? Switch to a Kneebar **\u00bfNo Funciona el\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5dVYECoSbZY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5dVYECoSbZY?start=77",
+      "url": "https://www.youtube.com/watch?v=5dVYECoSbZY",
+      "duration": "PT280S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Ankle Lock to Knee Bar to Heel Hook transitions",
       "description": "Kneebar from Straight Ankle Lock Control (Attacker) film study: Ankle Lock to Knee Bar to Heel Hook transitions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/B8q8wZx0b74/hqdefault.jpg",
@@ -219,6 +229,14 @@ Attacking with the kneebar from straight ankle lock control requires reading def
 
 <p class="section-subtitle">Watch Kneebar from Straight Ankle Lock Control (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5dVYECoSbZY&start=77)
+
+<p class="clip-credit"><strong>Straight Ankle Lock Not Working? Switch to a Kneebar **¿No Funciona el…</strong> · 4:40 · <a href="https://www.youtube.com/watch?v=5dVYECoSbZY&t=77s" rel="noopener">Watch on YouTube from 1:17</a></p>
+
+</div>
 
 <div class="film-clip">
 

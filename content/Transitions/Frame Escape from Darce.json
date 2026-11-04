@@ -540,6 +540,17 @@
         "description": "Full resistance positional sparring starting from established Darce Control. Alternate between finishing the choke and countering escape attempts with appropriate responses. Develop real-time reading of opponent's escape intentions and automatic application of the correct counter-measure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "dtdUpUmx4GA",
+        "title": "Darce choke, finishing with details to block the frame defense.",
+        "channel": "Professor Buck",
+        "duration": 135,
+        "vertical": false,
+        "start": 28,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

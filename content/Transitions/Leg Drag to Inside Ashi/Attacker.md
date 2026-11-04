@@ -170,6 +170,37 @@ description: "How to execute Leg Drag to Inside Ashi in BJJ. Attacking perspecti
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Inside Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "leg drag to inside sankaku part of the daily lesson today",
+      "description": "Leg Drag to Inside Ashi (Attacker) film study: leg drag to inside sankaku part of the daily lesson today.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xUd-Wl2m90o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xUd-Wl2m90o",
+      "url": "https://www.youtube.com/watch?v=xUd-Wl2m90o",
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No Gi Leg Drag to Cross Ashi Leg Lock",
+      "description": "Leg Drag to Inside Ashi (Attacker) film study: No Gi Leg Drag to Cross Ashi Leg Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6aU1TgtnAN8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6aU1TgtnAN8?start=80",
+      "url": "https://www.youtube.com/watch?v=6aU1TgtnAN8",
+      "duration": "PT200S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +217,32 @@ Strategically, this option expands your threat matrix significantly. Opponents w
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Inside Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xUd-Wl2m90o)
+
+<p class="clip-credit"><strong>leg drag to inside sankaku part of the daily lesson today</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=xUd-Wl2m90o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6aU1TgtnAN8&start=80)
+
+<p class="clip-credit"><strong>No Gi Leg Drag to Cross Ashi Leg Lock</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=6aU1TgtnAN8&t=80s" rel="noopener">Watch on YouTube from 1:20</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

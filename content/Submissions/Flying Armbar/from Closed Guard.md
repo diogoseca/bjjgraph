@@ -46,6 +46,26 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Flying Armbar (Flying Juji-Gatame)",
+      "description": "Flying Armbar from Closed Guard film study: Flying Armbar (Flying Juji-Gatame).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/chFHrPFWQ6Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/chFHrPFWQ6Q",
+      "url": "https://www.youtube.com/watch?v=chFHrPFWQ6Q",
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ - How to Safely Practice the Flying Armbar - Firas Zahabi",
+      "description": "Flying Armbar from Closed Guard film study: BJJ - How to Safely Practice the Flying Armbar - Firas Zahabi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RgZdYVZqbwA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RgZdYVZqbwA?start=48",
+      "url": "https://www.youtube.com/watch?v=RgZdYVZqbwA",
+      "duration": "PT248S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Flying Armbar - Using an Ese",
       "description": "Flying Armbar from Closed Guard film study: Flying Armbar - Using an Ese.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9BHfe_ar48Q/hqdefault.jpg",
@@ -111,6 +131,22 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <p class="section-subtitle">Watch Flying Armbar from Closed Guard in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=chFHrPFWQ6Q)
+
+<p class="clip-credit"><strong>Flying Armbar (Flying Juji-Gatame)</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=chFHrPFWQ6Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RgZdYVZqbwA&start=48)
+
+<p class="clip-credit"><strong>BJJ - How to Safely Practice the Flying Armbar - Firas Zahabi</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=RgZdYVZqbwA&t=48s" rel="noopener">Watch on YouTube from 0:48</a></p>
+
+</div>
 
 <div class="film-clip">
 

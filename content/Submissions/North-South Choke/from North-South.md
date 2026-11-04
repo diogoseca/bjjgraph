@@ -46,22 +46,12 @@ description: "Master the North-South Choke from North-South in BJJ. Expert guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the north south choke.",
-      "description": "North-South Choke from North-South film study: Defending the north south choke..",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AyL9eW7ytq4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AyL9eW7ytq4",
-      "url": "https://www.youtube.com/watch?v=AyL9eW7ytq4",
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "\u201cHook-Plata\u201d  (North-South Choke Escape)",
-      "description": "North-South Choke from North-South film study: \u201cHook-Plata\u201d  (North-South Choke Escape).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
-      "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
-      "duration": "PT59S"
+      "name": "North South Choke \ud83e\udded\ud83e\udded\ud83e\udded",
+      "description": "North-South Choke from North-South film study: North South Choke \ud83e\udded\ud83e\udded\ud83e\udded.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u0sMEQrZemE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u0sMEQrZemE",
+      "url": "https://www.youtube.com/watch?v=u0sMEQrZemE",
+      "duration": "PT75S"
     }
   ]
 }
@@ -124,17 +114,9 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AyL9eW7ytq4)
+![](https://www.youtube.com/watch?v=u0sMEQrZemE)
 
-<p class="clip-credit"><strong>Defending the north south choke.</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=AyL9eW7ytq4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
-
-<p class="clip-credit"><strong>“Hook-Plata”  (North-South Choke Escape)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North South Choke 🧭🧭🧭</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=u0sMEQrZemE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

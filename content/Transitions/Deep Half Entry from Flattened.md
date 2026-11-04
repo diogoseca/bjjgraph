@@ -46,12 +46,12 @@ description: "Master the Deep Half Entry from Flattened Half Guard. Complete gui
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee Slide Pass Counter to Deep Half Guard Entry",
-      "description": "Deep Half Entry from Flattened film study: Knee Slide Pass Counter to Deep Half Guard Entry.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
-      "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
-      "duration": "PT133S"
+      "name": "Deep Half Guard From Being Flattened",
+      "description": "Deep Half Entry from Flattened film study: Deep Half Guard From Being Flattened.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/shyc7vVYosI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/shyc7vVYosI",
+      "url": "https://www.youtube.com/watch?v=shyc7vVYosI",
+      "duration": "PT132S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The transition carries inherent risk because the entry movement temporarily remo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
+![](https://www.youtube.com/watch?v=shyc7vVYosI)
 
-<p class="clip-credit"><strong>Knee Slide Pass Counter to Deep Half Guard Entry</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Half Guard From Being Flattened</strong> · 2:12 · <a href="https://www.youtube.com/watch?v=shyc7vVYosI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

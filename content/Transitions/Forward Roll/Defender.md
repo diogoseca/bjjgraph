@@ -150,6 +150,27 @@ description: "How to counter the Forward Roll escape from turtle in BJJ. Recogni
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Forward Roll (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle Position in BJJ: Countering the Shoulder Roll",
+      "description": "Forward Roll (Defender) film study: Turtle Position in BJJ: Countering the Shoulder Roll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fbBUFqO6Pso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fbBUFqO6Pso?start=38",
+      "url": "https://www.youtube.com/watch?v=fbBUFqO6Pso",
+      "duration": "PT324S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ As the defender (turtle top player), your goal when the bottom player attempts a
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Forward Roll (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fbBUFqO6Pso&start=38)
+
+<p class="clip-credit"><strong>Turtle Position in BJJ: Countering the Shoulder Roll</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=fbBUFqO6Pso&t=38s" rel="noopener">Watch on YouTube from 0:38</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

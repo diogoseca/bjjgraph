@@ -176,6 +176,27 @@ description: "How to execute Counter Sweep in BJJ. Attacking perspective with se
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "NEVER get Tripod swept again! The ultimate tripod sweep defense.",
+      "description": "Counter Sweep (Attacker) film study: NEVER get Tripod swept again! The ultimate tripod sweep defense..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HbJrdjEZk-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HbJrdjEZk-8?start=46",
+      "url": "https://www.youtube.com/watch?v=HbJrdjEZk-8",
+      "duration": "PT310S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Counter sweeping from the attacker's perspective means you are the top player ne
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HbJrdjEZk-8&start=46)
+
+<p class="clip-credit"><strong>NEVER get Tripod swept again! The ultimate tripod sweep defense.</strong> · 5:10 · <a href="https://www.youtube.com/watch?v=HbJrdjEZk-8&t=46s" rel="noopener">Watch on YouTube from 0:46</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

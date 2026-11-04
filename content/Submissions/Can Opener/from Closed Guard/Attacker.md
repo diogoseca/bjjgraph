@@ -182,6 +182,16 @@ description: "How to execute Can Opener in BJJ. Attacking perspective with setup
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Can Opener To Break The Closed Guard With GI",
+      "description": "Can Opener from Closed Guard (Attacker) film study: Can Opener To Break The Closed Guard With GI.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TuVqCxWxI0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TuVqCxWxI0w?start=39",
+      "url": "https://www.youtube.com/watch?v=TuVqCxWxI0w",
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Cervical Choke\"Can Opener\" \u0026 defense",
       "description": "Can Opener from Closed Guard (Attacker) film study: Cervical Choke\"Can Opener\" \u0026 defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FGPGkKnY_Mg/hqdefault.jpg",
@@ -191,7 +201,7 @@ description: "How to execute Can Opener in BJJ. Attacking perspective with setup
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "How to Do a Can Opener   MMA Submissions",
       "description": "Can Opener from Closed Guard (Attacker) film study: How to Do a Can Opener   MMA Submissions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_-NGlUCnHy0/hqdefault.jpg",
@@ -223,6 +233,14 @@ The Can Opener attack is documented here strictly for educational and defensive 
 
 <p class="section-subtitle">Watch Can Opener from Closed Guard (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TuVqCxWxI0w&start=39)
+
+<p class="clip-credit"><strong>Can Opener To Break The Closed Guard With GI</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=TuVqCxWxI0w&t=39s" rel="noopener">Watch on YouTube from 0:39</a></p>
+
+</div>
 
 <div class="film-clip">
 
