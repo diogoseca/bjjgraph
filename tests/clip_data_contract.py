@@ -200,6 +200,55 @@ class EscapeClipContract(unittest.TestCase):
         self.assertNotIn("verified", out["escapes"]["Roll"][0])
         self.assertNotIn("escapes", _perspective_defender({}))
 
+    def test_the_corpus_validator_prints_the_join_and_refuses_zero(self):
+        import contextlib, io
+        from validate_json import report_escape_clip_join
+        home = ROOT / "content/Submissions"
+        files = sorted(home.rglob("*.json"))
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(report_escape_clip_join(files), 0)
+        self.assertRegex(out.getvalue(), r"escape clips: [1-9]\d* rows joined to a card, 0 orphaned")
+        bare = [f for f in files if '"escape_clips"' not in f.read_text(encoding="utf-8")]
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(report_escape_clip_join(bare), 1)
+        self.assertIn("escape clips: 0 rows joined", out.getvalue())
+        self.assertIn("never ran", out.getvalue())
+
+    def test_a_direct_bot_edit_cannot_delete_or_orphan_a_row(self):
+        import restore_curated_clips as guard
+        label = self.label()
+        original = self.record({"escape": label, "clips": [clip(front=True)]})
+        text = json.dumps(original)
+        with tempfile.TemporaryDirectory() as tmp, patch.object(guard, "ROOT", Path(tmp)):
+            target = Path(tmp) / "x.json"
+            deleted = copy.deepcopy(original)
+            del deleted["defender"]["escape_clips"]
+            target.write_text(json.dumps(deleted))
+            self.assertEqual(guard.guard("x.json", text), (1, False))
+            self.assertEqual(json.loads(target.read_text())["defender"]["escape_clips"],
+                             original["defender"]["escape_clips"])
+            reworded = copy.deepcopy(original)
+            for option in reworded["defender"]["defensive_options"]:
+                option["action"] = "Reworded " + option["action"]
+            target.write_text(json.dumps(reworded))
+            self.assertTrue(guard.guard("x.json", text)[1], "a reword that orphans a row must revert")
+            target.write_text("{ broken")
+            self.assertTrue(guard.guard("x.json", text)[1], "an unparsable edit must revert")
+            target.write_text(text)
+            self.assertEqual(guard.guard("x.json", text), (0, False))
+
+    def test_every_direct_edit_bot_runs_the_guard_before_it_validates(self):
+        for name in ("content-improvement-bot", "analytics-content-improvement", "proofread-bot"):
+            flow = (ROOT / ".github/workflows" / (name + ".yml")).read_text(encoding="utf-8")
+            with self.subTest(workflow=name):
+                self.assertIn("python3 scripts/restore_curated_clips.py", flow)
+                guard = flow.index("restore_curated_clips.py")
+                self.assertLess(guard, flow.rindex("validate_json.py --file \"$"))
+                if "id: improve_content" in flow:
+                    self.assertLess(flow.index("id: improve_content"), guard)
+
     def test_the_real_corpus_joins_at_least_one_row_and_orphans_none(self):
         from _clips import escape_clip_join, escape_rows
         joined, orphans = 0, []

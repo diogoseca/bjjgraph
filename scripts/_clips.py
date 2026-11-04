@@ -34,6 +34,10 @@ CLIP_ID_PATTERN = r"^[A-Za-z0-9_-]{11}$"
 # Front-end fields; channel/duration/verified are content-JSON provenance only.
 CLIP_FIELDS = ("id", "title", "by", "start", "end", "vertical", "channel", "duration", "verified")
 
+# The whole corpus must join at least this many escape rows. Raise it as escape clips ship,
+# never lower it to make a build pass. A join that finds nothing is a check that never ran.
+ESCAPE_CLIP_JOIN_FLOOR = 1
+
 _UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"}
 
 
@@ -168,6 +172,36 @@ def escape_clip_join(data):
     labels = set(escape_labels(data))
     return ([r for r in rows if r.get("escape") in labels],
             [r for r in rows if r.get("escape") not in labels])
+
+
+def restore_clips(original, fixed):
+    """Curation-safety: `clips` is machine-verified YouTube film-study data excluded
+    from the AI response contract (like Systems `products`). Restore the original
+    verbatim — root and every role block — so enrichment can never drop, reorder,
+    or invent video IDs. Returns the number of clips arrays restored/removed."""
+    if not isinstance(original, dict) or not isinstance(fixed, dict):
+        return 0
+
+    def sync(orig_holder, fixed_holder, key="clips"):
+        if not isinstance(orig_holder, dict) or not isinstance(fixed_holder, dict):
+            return 0
+        orig_clips = orig_holder.get(key)
+        if orig_clips is not None:
+            if fixed_holder.get(key) != orig_clips:
+                fixed_holder[key] = orig_clips
+                return 1
+        elif key in fixed_holder:
+            fixed_holder.pop(key)
+            return 1
+        return 0
+
+    restored = sync(original, fixed)
+    for role in ("top", "bottom", "attacker", "defender"):
+        restored += sync(original.get(role), fixed.get(role))
+    # Per-escape clips: same contract, one level over. A sibling of `clips`, not a key inside
+    # defensive_options, because that row is hashed into each defense's MDP identity.
+    restored += sync(original.get("defender"), fixed.get("defender"), "escape_clips")
+    return restored
 
 
 def iter_clips_arrays(category=None, file_filter=None):

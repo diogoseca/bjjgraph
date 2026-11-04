@@ -294,8 +294,6 @@ def _counters(xs):
 
 
 _CLIP_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
-# v1.246.0: raise this as escape clips ship, never lower it to make a build pass.
-ESCAPE_CLIP_JOIN_FLOOR = 1
 # v1.230.0: curation owns relevance, role and order. `front` certifies the first clip
 # for choice cards; `half` assigns position-hub clips; duration describes it, never
 # authorizes a runtime shortest-first reorder. Provenance stays in source JSON.
@@ -711,7 +709,7 @@ def _report_escape_clips(sources):
     validate_json.py catches an orphan per file, but this is the one place that sees the whole
     corpus, so it is the one place that can tell "no problems" from "never looked".
     """
-    from _clips import escape_clip_join, escape_rows
+    from _clips import ESCAPE_CLIP_JOIN_FLOOR, escape_clip_join, escape_rows
     joined, orphans = 0, []
     for d, role, _family in sources.values():
         if role or not escape_rows(d):

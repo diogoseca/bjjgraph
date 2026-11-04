@@ -479,6 +479,40 @@ def validate_escape_clip_rows(data):
     return errors
 
 
+def report_escape_clip_join(json_files):
+    """Print the corpus-wide escape clip join and return how many errors it adds.
+
+    Per file, a record with no rows is fine, so only this walk can tell "every row joined" from
+    "there were no rows to join". It runs for the whole Submissions category and for --all.
+    """
+    try:
+        import _clips
+    except ImportError:
+        from scripts import _clips
+    joined = orphaned = holders = 0
+    for path in json_files:
+        try:
+            data = json.loads(Path(path).read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue  # the file's own validation reports this
+        if not _clips.escape_rows(data):
+            continue
+        holders += 1
+        try:
+            good, bad = _clips.escape_clip_join(data)
+        except ValueError:
+            good, bad = [], _clips.escape_rows(data)
+        joined += len(good)
+        orphaned += len(bad)
+    print(f"escape clips: {joined} rows joined to a card, {orphaned} orphaned, in {holders} submissions "
+          f"of {len(json_files)} files (floor {_clips.ESCAPE_CLIP_JOIN_FLOOR})")
+    if joined < _clips.ESCAPE_CLIP_JOIN_FLOOR:
+        print(f"✗ escape clips: {joined} rows joined, under the floor of {_clips.ESCAPE_CLIP_JOIN_FLOOR}: "
+              "a join that finds nothing is a check that never ran")
+        return 1
+    return 0
+
+
 def validate_clips(data, category):
     """Semantic checks on curated YouTube clips that the schema can't express.
     Returns (errors, warnings): inverted loop bounds, conflicting front
@@ -1624,6 +1658,8 @@ def validate_category(category, strict=False):
             print(f"✓ {relative_path}")
 
     print(f"\n{'='*60}")
+    if category == "Submissions":
+        total_errors += report_escape_clip_join(json_files)
     if total_errors == 0:
         if total_warnings > 0:
             print(f"✓ {category}: All {len(json_files)} files valid ({total_warnings} warnings)")

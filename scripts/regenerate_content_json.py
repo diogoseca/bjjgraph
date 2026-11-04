@@ -45,6 +45,7 @@ from scripts.claude_infer import (
 )
 from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
 from scripts._atomic_io import atomic_write_json
+from scripts._clips import restore_clips
 from scripts._prob_norm import largest_remainder_round as _largest_remainder_round
 from scripts._ruleset import (  # {gi,nogi} contract; loads are RAW since Q3 (real divergence)
     is_ruleset_map, iter_cells, present_rulesets, RULESETS,
@@ -1729,36 +1730,6 @@ def restore_mc(original: dict, fixed: dict) -> int:
 
     apply(fixed)
     return n
-
-
-def restore_clips(original: dict, fixed: dict) -> int:
-    """Curation-safety: `clips` is machine-verified YouTube film-study data excluded
-    from the AI response contract (like Systems `products`). Restore the original
-    verbatim — root and every role block — so enrichment can never drop, reorder,
-    or invent video IDs. Returns the number of clips arrays restored/removed."""
-    if not isinstance(original, dict) or not isinstance(fixed, dict):
-        return 0
-
-    def sync(orig_holder, fixed_holder, key="clips"):
-        if not isinstance(orig_holder, dict) or not isinstance(fixed_holder, dict):
-            return 0
-        orig_clips = orig_holder.get(key)
-        if orig_clips is not None:
-            if fixed_holder.get(key) != orig_clips:
-                fixed_holder[key] = orig_clips
-                return 1
-        elif key in fixed_holder:
-            fixed_holder.pop(key)
-            return 1
-        return 0
-
-    restored = sync(original, fixed)
-    for role in ("top", "bottom", "attacker", "defender"):
-        restored += sync(original.get(role), fixed.get(role))
-    # Per-escape clips: same contract, one level over. A sibling of `clips`, not a key inside
-    # defensive_options, because that row is hashed into each defense's MDP identity.
-    restored += sync(original.get("defender"), fixed.get("defender"), "escape_clips")
-    return restored
 
 
 def normalize_probabilities(data: dict, category: str) -> bool:

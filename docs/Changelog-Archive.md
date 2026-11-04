@@ -13657,3 +13657,10 @@ Dossiers count against `chunk_max_bytes` (40,000; largest submission chunk 25,49
 **First data.** Escape labels are micro-actions ("Grip your own belt") that no title carries, so title search cannot find
 them. Each defence video's captions were indexed with timestamps, cards were matched to indexed moments, and a second
 independent judge read the excerpt. Each clip starts at the second that shows the escape. Transcripts stayed private.
+
+**Review (R1, R2).** The review found two gaps. Three bots edit source JSON directly, and a file that loses every clip
+still validates, because `clips` is optional: `scripts/restore_curated_clips.py` now runs after each direct edit and
+before validation, with HEAD as the snapshot, and reverts a file a reword left orphaned. `restore_clips` moved to
+`_clips.py` so that script and the paid pass share one implementation. The corpus validator now prints the join and fails
+under `ESCAPE_CLIP_JOIN_FLOOR`, since per file a record with no rows is fine and only a corpus walk can tell "all joined"
+from "nothing to join". Mutants now 13 of 13.

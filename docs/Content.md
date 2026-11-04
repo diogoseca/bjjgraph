@@ -517,8 +517,9 @@ A submission's defender block may also carry `escape_clips`: one row per escape 
 `scripts/submission_choices.py` compiles from `defensive_options[].action`, or a
 `defense_overrides` row, so copy it from the card. The clip must show that named escape, not
 general defence of the submission; set `start` to the second it begins. An escape with no row
-keeps the empty media area. A row that names no card fails validation, and the content bot may
-neither touch these rows nor reword an action that has one. Rows sit beside `clips`, not inside
+keeps the empty media area. A row that names no card fails validation, and the content bots may
+neither touch these rows nor reword an action that has one: `restore_curated_clips.py` runs after
+every direct bot edit, before validation. Rows sit beside `clips`, not inside
 `defensive_options`, because that row is hashed into each defense's MDP identity.
 
 ```bash
