@@ -17,8 +17,9 @@ import { journey } from "../dsl";
  * marker, `data-session-row` (the deck key), and pairs lists by that identity, never by position.
  *
  * WHY A 200-CARD DAILY GOAL. Practice holds as many new decks as the goal buys: ~2 at the default 20, ~20
- * at the 200 maximum. The player sets it in Settings → Flashcards, here by mouse, so every list compared
- * holds at least ROWS_FLOOR rows (§6.6: three rows can agree by accident).
+ * at the 200 maximum. P1 narrows new practice to the current belt, whose decks can be larger. The
+ * player sets the goal in Settings → Flashcards and explicitly adds more practice when needed, so
+ * every list compared still holds at least ROWS_FLOOR rows (§6.6: three rows can agree by accident).
  *
  * WHY CLAIM 1 BOOTS TWICE. A gi player's plan differs from a no-gi player's even on no-gi numbers,
  * because the two rulesets reach different states: comparing the two plans cannot tell the gi numbers
@@ -163,7 +164,7 @@ async function setStart(j: any, page: Page, v: "standing" | "random" | "weak") {
  * matches the rows on screen. A fresh player owes no reviews, so no row is a review (v1.242.0: one
  * interleaved Practice queue, each row tagged `data-practice-kind`, replaced the two section heads).
  */
-async function readPlan(page: Page): Promise<Plan> {
+async function readPlan(j: any, page: Page, expanded = false): Promise<Plan> {
   let plan: Plan & { sections: number; maint: number; across: number } = { keys: [], names: [], note: "", sections: 0, maint: 0, across: -1 };
   await expect.poll(async () => {
     plan = await page.evaluate(() => {
@@ -178,6 +179,13 @@ async function readPlan(page: Page): Promise<Plan> {
   }, { timeout: 30_000, message: "the plan mounts with its new rows" }).toBe(true);
   expect(plan.maint, "a fresh player owes no reviews").toBe(0);
   expect(plan.note, "the rows are the weak-spots ranking, and the plan says so").toContain("weakest first");
+  if (plan.keys.length < ROWS_FLOOR && !expanded) {
+    const more = page.locator("[data-plan-more]");
+    await expect(more, "the current belt offers enough additional ranking evidence").toBeEnabled();
+    await more.scrollIntoViewIfNeeded();
+    await j.clickByMouse("[data-plan-more]", "include more current-belt weak spots");
+    return readPlan(j, page, true);
+  }
   return { keys: plan.keys, names: plan.names, note: plan.note };
 }
 
@@ -192,7 +200,7 @@ async function openPlan(j: any, page: Page) {
   else if (at.back) await j.clickByMouse("[data-pane-back]", "‹ Back leaves the open plan");
   await j.clickByMouse("[data-view='explore']", "the Explore tab");
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', 'Practice (v1.242.0: the "N new" door is Practice now)');
-  return readPlan(page);
+  return readPlan(j, page);
 }
 
 /**
@@ -233,7 +241,7 @@ async function refreshPlan(j: any, page: Page) {
     }
   }, { timeout: 10_000, message: "Refresh plan comes to rest on screen" }).toBe(true);
   await j.clickByMouse(sel, "Refresh plan");
-  return readPlan(page);
+  return readPlan(j, page);
 }
 
 const shared = (a: string[], b: string[]) => a.filter((k) => b.includes(k));

@@ -401,11 +401,13 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade 
     await a._ensureGameplanRuntime();
     return chosen.a.length;
   });
-  expect(length, "P1-A: a long authored answer was selected").toBeGreaterThan(250);
-  await page.addStyleTag({ content: '[data-mini-q], [data-mini-a] { font-size: 30px !important; }' });
+  // Authored short answers top out at 160 characters in this corpus.
+  expect(length, "P1-A: a long authored answer was selected").toBeGreaterThanOrEqual(150);
+  await page.addStyleTag({ content: '[data-practice-page] [data-mini-q], [data-practice-page] [data-mini-a] { font-size: 30px !important; }' });
   await door(page, j);
   await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
   await j.clickByMouse('[data-mini-reveal]:visible', "reveal with enlarged text");
+  await expect(page.locator('[data-mini-a]:visible')).toHaveCSS("font-size", "30px");
   await page.locator('[data-mini-again]:visible').scrollIntoViewIfNeeded();
   const geometry = await page.locator('[data-mini-again]:visible').evaluate((el: HTMLElement) => {
     const r = el.getBoundingClientRect(), hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
@@ -417,4 +419,17 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade 
   expect(geometry.hit, "P1-A: no pinned chrome covers the long-answer grade").toBe(true);
   await j.clickByMouse('[data-mini-again]:visible', "grade after reading a long answer");
   expect(await page.evaluate(() => (window as any).__neural.practiceToday().done)).toBe(1);
+});
+
+test("P1-E: Back restores keyboard focus to Path's maintenance opener @curated", async ({ page }) => {
+  const j = journey(page); await j.boot("/");
+  await page.waitForFunction(() => !!(window as any).__neural.curriculum);
+  await seed(page, 1);
+  await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
+  await j.clickByMouse('.ng-logo', "open the drawer");
+  await j.clickByMouse('[data-view="challenges"]', "open Path");
+  await j.clickByMouse('[data-maintenance]', "start Practice from Path");
+  await expect(page.locator('[data-practice-page]')).toHaveCount(1);
+  await j.clickByMouse('[data-pane-back]', "return to Path");
+  await expect(page.locator('[data-maintenance]'), "P1-E: the rebuilt maintenance opener regains focus").toBeFocused();
 });

@@ -3127,7 +3127,7 @@ class Component extends DCLogic {
       this.focusIdx = origin.node;
       this._writeUrl(origin.path, {}, true, origin.title);
       this.explorerListRef.current.scrollTop = origin.scroll;
-      const focus = origin.focus?.isConnected ? origin.focus : this.explorerListRef.current?.querySelector('[data-b="due"], [data-track]');
+      const focus = origin.focus?.isConnected ? origin.focus : this.explorerListRef.current?.querySelector('[data-maintenance], [data-b="due"], [data-track]');
       focus?.focus({ preventScroll: true });
     }
   }
@@ -4422,34 +4422,10 @@ class Component extends DCLogic {
 
     list.innerHTML = "";
     this._miniReg = {};
-    const sec = (label) => { const d = document.createElement("div"); d.style.cssText = "font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6b7691;font-weight:700;padding:6px 8px 4px;margin:0 -8px;"; d.textContent = label; return d; };
-    const row = (label, count, strong, bucket) => {
-      const r = document.createElement("div");
-      r.style.cssText = "display:flex;align-items:center;gap:10px;padding:11px 8px;margin:0 -8px;cursor:pointer;border-radius:8px;transition:background .12s;";
-      r.innerHTML =
-        '<span style="flex:1;font-size:13.5px;font-weight:' + (strong ? 600 : 500) + ';color:' + (strong ? "#eef1f6" : "#9aa6bd") + ';">' + label + '</span>' +
-        '<span style="font-size:13px;font-weight:600;color:' + (strong ? "#cbd4e6" : "#7e8aa3") + ';">' + count + '</span>' +
-        '<span style="color:#5d6883;font-size:15px;">\u203a</span>';
-      r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
-      r.addEventListener("mouseleave", () => r.style.background = "transparent");
-      r.addEventListener("click", () => { if (count <= 0) return; if (bucket === "suggested" || bucket === "explored") { this.openSession(bucket, label); } else this.openFlashBrowser(bucket, label); });
-      if (count === 0) { r.style.cursor = "default"; r.style.opacity = ".5"; }
-      return r;
-    };
-
     // grouped roll history — the current roll's CURRENT row expands to an inline flashcard deck
     this.renderRollHistory(list);
   }
 
-  _timeBucket(ts) {
-    const d = new Date(ts), now = new Date();
-    const day0 = (x) => new Date(x.getFullYear(), x.getMonth(), x.getDate()).getTime();
-    const diff = Math.round((day0(now) - day0(d)) / 86400000);
-    if (diff <= 0) return "Today";
-    if (diff === 1) return "Yesterday";
-    if (diff < 7) return d.toLocaleDateString(undefined, { weekday: "long" });
-    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
-  }
   _agoLabel(ts) {
     const s = Math.max(0, (Date.now() - ts) / 1000);
     if (s < 60) return "just now";
@@ -6389,7 +6365,6 @@ class Component extends DCLogic {
       host.appendChild(add);
     }
   }
-  modifierCount() { const p = this.prep || {}; return Object.keys(p).filter((k) => p[k] > 0).length; }
   openAuth(mode) { this._authMode = mode || "create"; this.openModal(); this.renderAuth(); }
   // ---------- real auth via the page's Supabase facade (window.__bjjAuth, see supabase.ts) ----------
   _auth() { const A = window.__bjjAuth; return (A && typeof A.isAuthenticated === "function") ? A : null; }
