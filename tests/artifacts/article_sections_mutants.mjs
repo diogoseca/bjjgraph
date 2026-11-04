@@ -104,7 +104,7 @@ const mutants = [
     'else { body.hidden = !shown; body.inert = !shown; (shown ? open : closed).push(s); } if (s.part && body) body.id = s.id + "-body";'),
     'if (key === "card" || key === "hand") el.id = "reader-" + key + "-body";', '/* mutant: only the old sync binds the body */')],
   ['phone-contents', sections, 'contents and header targets at 390x844', s => replace(s, '|| !fits;', '|| false;')],
-  ['label-toggles', sections, 'contents and header targets at 1366x768', s => replace(s, 'else if (section) this.scrollTo(section.control ? this.mediaHome : section.card, section.control ? null : section.toggle);', 'else if (section) { this.toggleSection(section.type); this.scrollTo(section.card, section.toggle); }')],
+  ['label-toggles', sections, 'contents and header targets at 1366x768', s => replace(s, 'else if (section) this.scrollTo(section.card, section.toggle);', 'else if (section) { this.toggleSection(section.type); this.scrollTo(section.card, section.toggle); }')],
   // RETIRED (D-338): 'eye-scrolls' guarded "an index eye changes visibility without navigation";
   // the index has no eyes, so the claim and its control go together.
   ['toc-input-guard-lost', sections, 'floating contents owns.*dark', s => replace(s, 'contents.style.pointerEvents = "auto";', 'contents.style.pointerEvents = "auto"; this.app._readerTocEl = null;')],
