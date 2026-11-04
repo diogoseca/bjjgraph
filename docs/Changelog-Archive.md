@@ -13675,3 +13675,10 @@ judge reading them. October's ban list was rebuilt first, 443 ids everywhere plu
 refused comes back. A clip ships only with an accept and read evidence. 16 accepts that rested on a title alone are held
 for a visual check: that is the evidence class October's QC failed on. Of the 100 most-dealt halves 41 have a clip; most
 of the rest are defender halves of transitions, which instructors rarely film, and "no video beats a wrong one" stands.
+
+**Spec (SPEC334).** `defending-landing.spec.ts` named five pages as "the authored clip gap", and this PR gave one of them a clip, so
+the reel correctly appeared and the spec went red: a stale fixture, not a break. The claim now picks its pages from the wire
+(`defenderReels()` in `e2e/decks.ts`): any authored defender half with zero clips, first, middle and last, failing on zero. A new
+control proves a filled half does mount its reel in wire order, which the gap tests alone would not notice. Mutants, measured:
+`_landFilmClips` returning [] and `_renderLandFilm` dropping its length check turns all three gap tests red with the control green.
+Either guard alone leaves all three green, because each covers the other. The spec file is 33 of 33 clean.
