@@ -67,7 +67,8 @@ test("capstone-ready loss burns exactly one durable attempt: retry offer + attem
 
   // ── The capstone button reads READY (enabled + "Start capstone"), then start the test
   //    (starting it closes the explorer) ──
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
+  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
   const capBtn = () => page.locator(`[data-capstone="${WHITE.id}"] button`).first()
   // THE FRONTIER BELT (v1.99.2, ba6aba811 "the frontier belt retires pinning"): the corridor
   // opens ONLY the topmost belt still left to complete, and folds the rest (display:none —
@@ -171,7 +172,7 @@ test("capstone-ready loss burns exactly one durable attempt: retry offer + attem
 
   // ── Same life: the capstone stays OFFERED (the retry affordance — a loss disables nothing;
   //    starting the test closed the panel — re-open) ──
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
   await openWhite()
   await expect(capBtn(), "capstone button rendered after the loss").toBeVisible()
   expect(await capBtn().isDisabled(), "capstone still offered in the same life — the retry").toBe(false)
@@ -180,7 +181,7 @@ test("capstone-ready loss burns exactly one durable attempt: retry offer + attem
   // ── Boot 2 (preserveStorage): the burned attempt is DURABLE economy ──
   await j.boot("/", { preserveStorage: true })
   await j.land("Mount Top")
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
   await openWhite()
   await expect(capBtn(), "capstone button rendered after reload").toBeVisible()
   expect(await capBtn().isDisabled(), "capstone still offered after reload").toBe(false)

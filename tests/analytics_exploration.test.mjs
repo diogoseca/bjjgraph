@@ -91,7 +91,7 @@ test("rendered search, singleton and family rows wire real clicks; repainting se
     appendChild(el) { this.children.push(el); }, addEventListener(name, fn) { this.handlers[name] = fn; } });
   globalThis.document = { createElement: element };
   const list = element(); a.explorerListRef = { current: list }; a._viewMode = "explore";
-  for (const name of ["_stopConceptFilm", "_stopSystemPreview", "renderTabSubtitles", "_syncExploreTools", "clearFocus", "_ensureSystems", "_renderSystemsStatus", "_ensureConcepts", "renderLists"]) a[name] = noop;
+  for (const name of ["_stopConceptFilm", "_stopSystemPreview", "renderTabSubtitles", "_syncExploreTools", "clearFocus", "_ensureSystems", "_renderSystemsStatus", "_ensureConcepts", "renderLists", "_renderTrain", "_renderRollsHome"]) a[name] = noop;
   a.buildExplorer = () => ({ groups: { positions: { Guard: [a.nodes[4]] }, transitions: { Moves: [a.nodes[2], a.nodes[5]] } }, order: [["Positions", "positions"], ["Transitions", "transitions"]] });
   a._exploreSectionOpen = () => true; a._exp = { f: new Set(["transitions|Moves"]) };
   a.nodeMatches = n => n.idx === 2; a.nodeQual = () => ""; a.hex = () => "#fff";
@@ -103,7 +103,9 @@ test("rendered search, singleton and family rows wire real clicks; repainting se
   assert.equal(events[0][1].surface, "search");
   a._exQ = ""; a.renderExplorer(); a.renderExplorer();
   assert.equal(events.length, 1);
-  for (const idx of [4, 2]) await list.children.find(el => el.chosen === idx).handlers.click();
+  // v1.242.0: browse rows sit in the drawer's Explore fold, one level under the list
+  const rows = list.children.flatMap(el => [el, ...(el.children || [])]);
+  for (const idx of [4, 2]) await rows.find(el => el.chosen === idx).handlers.click();
   assert.deepEqual(events.map(([name, p]) => [name, p.surface]), [
     ["neural_node_opened", "search"], ["neural_node_opened", "browse"], ["neural_node_opened", "browse"],
   ]);

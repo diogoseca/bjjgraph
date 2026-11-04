@@ -13104,6 +13104,147 @@ serve 200 `noindex` for up to ~7 days, where the old edge rules ran before any p
   Cloudflare parses `_redirects` server-side. Added: a test for an empty file in `--file` mode, and probe mutants on the
   real YAML.
 
+## v1.242.0 — the drawer (owner A5 · E1 · T-b) and Practice as one mixed session (owner U56 e, 2026-10-28)
+
+The owner's rounds 3–6 (U45–U56) on the design canvas settled a Claude-style drawer and one daily habit:
+"Practice is flashcards reviewing which included past + new (new = gaps) okay? Similar to how Anki
+mixes known + new cards… The goal today is to do 20 flashcards."
+
+- **Practice engine** (its own commit). The planner's `queue` deals every owed review, most overdue
+  first, and slips the next new gap deck in once the reviews placed before it pay for its cards at
+  `NG_PRACTICE_REVIEWS_PER_NEW = 4`, counted in cards (80/20, the deck-seasoning blend the owner chose).
+  The goal `NG_PRACTICE_GOAL = 20` (was 30) is also the day's new-card quota:
+  `room = min(left, max(left − due, ⌈left / 5⌉))`, `left` = the goal less today's answers (SIDE-R2 M2;
+  the first cut's `⌈due / 4⌉` floor climbed back to the whole goal at 77 owed). This reverses v1.138.0's
+  "due debt consumes the target before new work", which dealt a heavy review day no new card at all.
+  Mutants: 7 planner (tests/gameplan.test.mjs) and 5 app (e2e/journeys/practice-mix.spec.ts), all killed.
+- **The drawer.** The three tabs became one list: Search, Explore (an expandable list, the six
+  categories on a guide line), Train (Practice then Path; nothing under them), Your lists, Last rolls,
+  and the badge, which shows "Today: N of 20 cards · M rolls" before it is opened. One drawer icon opens
+  it, with no "Menu" label; the brand ("‹ Path") leads home from Path and Last rolls; a left swipe closes
+  it. The stat row, the guest save block and the pane foot's links moved into the Practice row and the
+  badge's short menu (Settings, Account preferences, Feedback, sign in/out; Request a technique · Terms ·
+  Privacy · GitHub small). The 145-row capability inventory (U49, D-523) maps every row: kept, moved, or
+  retired by an owner decision (tests/artifacts/sidebar_capabilities.md).
+- **Defects the inventory found, fixed:** the account chip and the pane-foot links were not keyboard
+  controls (now buttons); the save-progress toast reached signed-in players (now guests only); the
+  guest sign-up pill was coded and never placed (now the badge's Save).
+- **The dim (U45).** A lit page fades the rest of the map to 20% (was an instant 30%), easing on the
+  WALL clock because the drawer pauses the game clock (§6.2); the frame publishes `_fogLow`.
+- **The word gap (orchestrator SIDE-R1).** Plus Jakarta Sans draws its space at 0.143 em (2.00 px at
+  14 px; Arial 3.89 px), identical on dev, so "Your lists" read as one word in the owner's screens. The
+  drawer adds `word-spacing: .1em`, naming its buttons too because the UA stylesheet resets `word-spacing`
+  on every button (the first cut reached no row). sidebar.spec.ts measures the label's gap against a
+  control with normal spacing: the harness never loads the Google face, so an absolute gap passed
+  without the fix (mutant D5 survived it).
+- **Retired:** the tab pager and the trackpad flick (pane-tab-swipe.spec.ts deleted; the tabs it paged
+  are gone), the stat row's `_mountStatsRow`/`_exploreStatsRow` (their FGD13 repaint-in-place rule moved
+  to `_paintTrain`, still pinned by tests/gameplan_stats_repaint.test.mjs), `renderPaneAnchor`.
+
+### v1.242.0, SIDE-R2: the independent review's HOLD, and PR 327's first CI
+
+- **B1, Practice was reviews-only on a visit's first press.** The planner chunk was fetched only by
+  the cold Practice press, and its arrival never replaced the waiting review queue, so a returning player's
+  first session ended on "come back tomorrow" with no new card. Now the drawer's opening asks for
+  `gameplan.js` (8.7 KB, deferred, never at boot), and a waiting queue nothing in which was graded is
+  reopened as the mix when it lands; a graded one is still never replaced. practice-mix.spec.ts claim 2b
+  presses cold with the chunk held.
+- **S1, a left swipe mid-Practice closed the drawer** and the next open threw the session away. The
+  retired pager's study guard (`_paneStudyActive`) is back on the gesture, and the pager's other guards
+  (horizontal scroller, vertical drag, pinch, swipe-is-not-a-tap at 16 px) are re-pinned in sidebar.spec.ts.
+- **P1, the phone's closing tap leaked into the map.** Probed at 390x844: a click on a node in the exposed
+  strip closed the drawer AND staged a roll there (the live roll discarded: `roll_discarded`,
+  `roll_staged`); on open ground it dismissed the landing card. `attachInput` now consumes the tap whose
+  pointerdown closed the drawer; a drag begun with it still pans. A headless finger tap at the drawer's
+  edge snaps to a drawer button (touch adjustment); not changed.
+- **M1/M2, the quota and its copy.** Decks are dealt whole (median 8 cards), so the copy says "a new
+  technique after every few reviews"; the quota's floor is a fifth of what is left of the goal, so it never
+  climbs back up on a heavy day (one line, `ngPracticeRoom`, beside the ratio; the owner's question U63).
+- **M9, measured:** asking for the study comparison on the first Practice press (390x844, 4x CPU throttle)
+  fetched `game-study.js` (78,719 B) and added one or two long tasks (~160 ms), and the comparison had not
+  started 8 s later. Practice opens without it, as dev's due door did; "Open study plan" still asks.
+- **Smaller:** one goal source (`practiceGoal`, clamped like the Settings field); the day's rolls persist
+  (`rollDays` beside `days`, the badge's "Today"); the star count is asked for once per page; the Practice
+  tail is written only when it changed; the study head's ‹ Back is a button; the badge menu takes focus on
+  open and walks by arrow keys; Account preferences, the amber dot and the Explore fold across a reload
+  are pinned; the share cue keeps dev's phone seat (bottom 84 px); a no-view open lands
+  on the list; the reviews' technique count is rendered again in the Practice note.
+- **CI on 70ebae7a5, 16 reds classified dev vs head**: 15 STALE SPEC (9 gen specs expected the pane to
+  open on Challenges; the 44 px drawer icon puts the reader's top inset 6 px deeper, 68 → 74, which moved
+  dual-pair's widest pair and roll-execution's two pins; a share-lists read whose selector no build ever
+  emitted, so it had always read the whole body; a scroll premise the taller list no longer met;
+  systems-demand-live's "the menu alone must not warm Systems", where the drawer IS the Explore entry now)
+  and 1 REAL BREAK, fixed in the app: the cue's first frame could show its pill over the phone's layer dock
+  (`_setShareCue` now lays the dock out in the same task; 4 of 8 red before, 4 of 4 after).
+- **Tried and reverted: payload-free category headers** (Systems/Principles/Learning fetched on expanding
+  the fold instead of on the drawer's opening). It needed a landing render that bypassed D-325's hover hold,
+  its first cut re-rendered without end on an index that landed empty (a settled promise re-armed on every
+  render), and five more journeys assumed the drawer's opening hydrates both indexes. The ~20 KB gzip a
+  Practice-only visit would save is not worth that churn in this PR; the drawer asks for both on opening,
+  as dev's Explore tab did.
+
+### v1.242.0 — SIDECX1 review completion and SIDECX2 owner addendum
+
+Held-index probes reproduced the missed first Practice press: concepts arrival moved the row
+60px at both 390×844 and 1440×900 (both indexes: 61px). Stable loading headers and matching
+Systems line height reduce all six cases to 0px, with every aimed press opening Practice. The
+index waits that hid the race are gone. Closing the phone drawer preserves replay, a deferred
+planner preserves a revealed/open study card, and only keyboard opening focuses the badge menu.
+The quota property now covers 303 points (due 0…100 at left 20, 7, 60).
+
+U60 b removes Train and folds Account preferences into the one Settings row; Notifications and
+its email preference remain reachable. U16 b / U66 a keep the drawer icon reachable during a
+catch, using the existing pane pause ownership. U61 c: About never existed and is retired. U67 a
+merges Request a technique and Help improve the graph into one Feedback row, one textarea, the
+existing about/current-page checkbox and an optional Technique request checkbox. General
+feedback still emits `neural_issue_reported`; marked requests still emit
+`neural_technique_requested`, with unchanged payload properties. This preserves telemetry
+history and consumers. The small line is Terms · Privacy · GitHub.
+
+The takeover's 16 controls and four addendum controls were killed at their named assertions.
+The N7 geometry kills use 1440×720 (74..218px reading band) and 1440×700, preserving the
+original overlap/fit assertions. Six affected minified controls were rerun after rebinding
+minifier locals: all killed against green baselines. Exact patches and outcomes are recorded
+in `tests/artifacts/sidebar_r3_mutants.json` and `sidebar_mutants.md`. The addendum's 15
+focused browser checks passed, including both submit kinds, context opt-out, session/guest
+telemetry and keyboard/touch navigation; the owner preview has 27 current captures.
+
+Correction to SIDE-R2's CI classification above: **14 STALE / 2 REAL**, because dual-pair's
+harness-visible fog ease was also an app defect. The later cancelled e9b09f6ea run exposed nine
+more stale Path-entry assumptions (dev and corrected head both 9/9) and a fog observation that
+sampled after the fade. Sampling each pumped draw still kills snap and no-ease controls. N9
+remains measurement only: 36 reliable integer-x samples at width 390, 33 at width 360, with
+ten non-closing exposed samples beside the drawer at each width.
+
+Final addendum payload: deferred **506,562 / 506,817 B**; eager raw **1,366,605 / 1,600,000 B**;
+eager gzip **342,366 B**, **+2,781 B** against baseline 339,585 (5,000 B delta cap). No ceiling
+changed. Relative to SIDECX1, Feedback adds 49 raw eager bytes and removes 31 gzip bytes.
+
+### v1.242.0 — SIDECX3: explicit Path entry and visible-visit telemetry
+
+PR 327's generated CI on 4829453c9 failed seven cases, all from the retired assumption that
+opening the pane selects Challenges. The two `beat challenges_opened emitted` failures meant
+an expected beat was absent, not that a phantom beat was observed. All seven original cases
+passed on dev f63049013; explicit Path selection and Path-body visibility selectors made all
+seven pass against the unchanged PR app. Catch survival, checkpoint denominators/refusals,
+durable evidence, capstone gates and graph focus assertions are unchanged. No known-red added.
+
+A separate probe found a REAL pre-existing telemetry defect on both builds: `setGiMode`
+renders the remembered Path even while its parent is closed. That emitted `challenges_opened`
+and `neural_challenges_viewed` and consumed the next visit's dedupe flag. A saved Path emitted
+0→1 of each without a visit; after closing a real Path, another ruleset change emitted 1→2.
+`noteLearningViewOpen` now refuses hidden, unselected or study-owned Path renders BEFORE the
+flag is consumed. A visible Path visit still emits both existing events once per open pane.
+
+Two fresh/saved-preference regression cases fail on the old app and pass with the fix, alongside
+14 existing Challenges UI cases. Six exact source mutations are killed at named assertions:
+hidden render, drawer-open inflation, either event silenced, repeat render counted and next
+visit silenced. The patches and receipts are indexed in `tests/artifacts/sidebar_mutants.md`.
+
+SIDECX3 validation: 25/25 CI-equivalent steps, 1,370/1,370 units (zero skips), final nine
+focused regressions green. Payload remains within the existing caps: deferred 506,562 B;
+eager raw 1,366,689 B; eager gzip 342,395 B (+2,810 against the 339,585 B baseline, cap +5,000).
+The visible-visit guard adds 84 raw eager bytes and 29 gzip bytes to the owner addendum build.
 ## v1.239.0 — the article as a bento dashboard on desktop (owner U55 b)
 
 U55 asked: keep today's article grid, go wider, or a dashboard of tiles? The owner answered b, Dashboard, with a
@@ -13320,3 +13461,105 @@ The shared destination/focus costs 46 B; an equivalent explicit focus guard save
 Reader JS is 42,484 B, CSS remains 10,889 B, and deferred payload is **506,815 / 506,817 B**: 2 B spare,
 zero shortfall, no ceiling increase. The earlier shard-1 Moves-label failure remains unproven; this fix
 changes only media-control navigation and does not alter the Moves input path.
+
+
+## v1.242.0 — SIDECX5: catch input ownership and the article-dashboard merge
+
+The delta review's three defects are fixed. Settings backdrop dismissal no longer
+resumes a catch behind an open drawer. A closing tap still preserves replay, while
+a continuous pan or pinch stops it. Wheel input on the catch drawer icon stays
+on that control. Seven native-input cases fail on the original 1a1fd494d bundle
+and pass after repair; seven source controls each fail their named assertion.
+
+PR #323 landed on dev e3d407825 and was merged into feat/sidebar via 9fcc4e2a8,
+without rebasing. Both archive additions and version 1.242.0 were retained. Of
+245 integration cases, six failed: four obsolete account-pill premises, one
+reward-toast fixture race, and one real 1152px reading-position shift. All six
+pass on current dev. The corner-obstruction cases now create a real share cue;
+the tile fixture waits for its existing reward before measuring title input.
+The reader anchors the first block starting within its viewport, preventing a
+partly clipped preceding block's wrap from moving the visible line by 20.5625px.
+The existing 8px allowance stays unchanged. Final affected checks pass 75/75;
+the anchor control and four existing reader controls also fail named assertions.
+See `tests/artifacts/sidebar_mutants.md` for exact controls, scope and receipts.
+
+
+## v1.242.0 — Documentation budget after the article-dashboard merge
+
+The combined reader and sidebar documentation reached 73,927 characters against the
+unchanged 72,000-character ceiling. The current rules remain in Neural.md in shorter
+form. The former wording below preserves implementation history, test narratives and
+historical coverage measurements; those counts are not a new corpus audit.
+
+### Keyboard evidence narrative
+
+Desktop opening and the search shortcut focus Search immediately, before the next keyboard
+input. Cold index arrivals preserve the focused Practice/Path row. The curated keyboard cases
+in `challenges-ui.spec.ts` hold both indexes, advance pending timers while Path is focused,
+then use Tab/Enter to select Black belt and Close; focus returns to the opener.
+
+### Path telemetry explanation
+
+Path emits `challenges_opened` and `neural_challenges_viewed` on its first visible visit in
+each open drawer. The list, saved view preference and hidden ruleset re-renders emit neither
+and cannot consume that visit. Returning to Path or re-rendering it within the same open
+drawer does not count again; closing the drawer permits the next deliberate Path visit.
+`path-visit-telemetry.spec.ts` pins both event streams with fresh and saved preferences.
+
+### Feedback rationale and test inventory
+
+U61 c leaves About out. U67 a merges the two feedback doors into one **Feedback** form: one
+text box, optional **Technique request**, and the existing checked **about: <current page>**
+context. Send keeps `neural_issue_reported` for general feedback and
+`neural_technique_requested` when the player marks a request. Both retain `text` (≤500), `node`
+(or null when unchecked), `signed_in` and `app_version`; the existing `track()` variant is unchanged.
+Keeping the event names and payloads preserves their telemetry consumers and history. Empty Send
+keeps the form open without a capture. `feedback-modal.spec.ts` covers both kinds through the
+same row, context opt-out, guest/session properties and the submit controls.
+
+### Explore migration rationale
+
+**Explore** — the Explore fold itself starts open; its six category sections start collapsed; every
+fold persists. Search ranks results before sections; filter to `rep` to avoid duplicates. Your lists sit
+after Path, in their own section, and use the shared three-rung indent. The drawer's opening is the
+Explore entry, so it asks for the Systems and Concepts indexes (deferred, never at boot), as dev's Explore
+tab did. Your lists folds like the other six (v1.196.1, key `Your lists` in
+`exploreOpenSections`; an absent key is closed, so existing users need no migration). The one
+difference is `_revealLists`: making, adding to or restoring a list, or a saved class lit by a
+share arrival or the cue, opens the section for the session without writing the map — the older
+rule that you SEE a technique land after adding it. Systems have counted topic branches and indented leaves, like position
+families. Topic folds start collapsed, stay independent, and survive detail/back navigation and
+section folds for the session.
+
+### Inline deck keyboard defect history
+
+**Every inline deck answers the same four keys** (v1.175.0). The roll history's rows, the session
+queue and the corridor's lesson decks all register the same `_miniReg` handles, so `←/→` page
+cards, `↑/↓` walk techniques (in the corridor: the ladder's lesson rows, in ladder order, skipping
+folded belts), `Space` flips and `⏎` grades *Got it* and walks on. The corridor was
+the one surface with none of it: `openMini` never claimed `_focusRow`, so there was nothing for the
+keys to resolve — and because the ladder is built entirely out of buttons, `Space` after a click on
+▸ went to the ▸ and shut the deck. **Opening an inline lesson deck therefore moves focus onto the
+deck BOX** (`tabindex="-1"`), which owns neither activation key, leaving Tab-then-Space on a lesson
+row exactly as it was. A corridor repaint — any evidence beat, and a grade fires one — rebuilds the
+registry with the rows it indexes and re-opens the deck that was open, on the card it was on;
+`_miniDeck` grades AFTER walking the deck on, so the rebuild paints the card the player is owed
+rather than a dead one.
+
+### Historical score-coverage counts
+
+Until v1.145.13 only the attacking third was weighted: 1,326 Defender and 272 position decks —
+**9,071 cards, 41.4%** — scored zero. **Studying a position now counts, and counts heavily**: 272 decks share a third of the mass, so one is worth
+~4.7× an average technique deck and 14 of the 20 heaviest decks are positions (`Side
+Control|Top` leads).
+
+### Historical ruleset score omission and coverage snapshot
+
+**Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}` — each seat
+once by node **ordinal** (v1.204.3), one int array **per ruleset**, each `t` entry carrying **both
+seats**. `ngWireScoreWeights` (`wire-keys.src.js`) is the one expander; the emitter
+round-trips it per frame and refuses if the mirror stops holding. Per ruleset (v1.146.0): 52
+techniques are attemptable only in gi — the default — and 16 only in no-gi, so a folded no-gi solve
+scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **zero means "not
+attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
+pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.

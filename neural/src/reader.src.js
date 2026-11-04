@@ -1053,8 +1053,8 @@ class Reader {
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
-      // U59 c: the article's tiles run to the right edge, so the account pill in the corner reserves
-      // the bottom too: the reader ends above it and the pill never covers text or a link.
+      // U59 c: the article's tiles run to the right edge, so the share cue in the corner reserves
+      // the bottom too: the reader ends above it and the cue never covers text or a link.
       const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
         ? H - a._readerShelfBottom({ left: free.center - width / 2, right: W }) - 8
         : this.dock.getBoundingClientRect().top - 8;
@@ -1079,13 +1079,13 @@ class Reader {
       // Three lanes from a 1,150px grid (1440 and wider: thirds of 377px or more), else two. DASH-R4: at
       // 1,100 (1366) a third was 353px, ~36 characters a line, and a 3-column table overflowed it by 7px.
       const grid = indexEdge ? W - 24 - indexEdge : Math.max(240, Math.min(902, free.width - 64)), wide = grid >= 1150;
-      // U59 c: when the grid's width changes (the pane opening, a resize), the first text block at
-      // the reader's top keeps its place on screen; the finally puts it back after every other write.
+      // U59 c: when the grid's width changes (the pane opening, a resize), the first text block starting
+      // within the reader keeps its place on screen; the finally puts it back after every other write.
       // DASH-R4: only once the article itself has scrolled above the reader's top. At the arrival the
       // stage (node band, Moves, question) owns the top and holds still, as on dev, when the pane opens,
       // the window narrows or a phone turns. A hidden article resets the width to NaN, so reopening
       // restores bookScroll without anchoring against a layout that was never shown.
-      keep = this.gridW - (this.gridW = available ? grid : NaN) && art.getBoundingClientRect().top < top && [...art.querySelectorAll("p,li")].find(e => (was = e.getBoundingClientRect().top) >= top - 20);
+      keep = this.gridW - (this.gridW = available ? grid : NaN) && art.getBoundingClientRect().top < top && [...art.querySelectorAll("p,li")].find(e => (was = e.getBoundingClientRect().top) >= top);
       style(art, "--article-width", grid);
       if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");
       // U59 c (owner): every desktop row holds two open sections side by side, in source order, so
@@ -1287,8 +1287,9 @@ class Reader {
       // After the clamp's restore, and it is the new place at once: the pane slides open over many
       // passes, and the next pass's clamp must not put back a place its scroll event has not recorded.
       // Rounded: the pane slides open over ~40 passes, and an unrounded correction is rounded by the browser the same
-      // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px). The 20px of
-      // slack above the reader's top keeps the same block through any rounding left.
+      // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px).
+      // SIDECX5: a partially clipped block above the top can wrap and move the first visible line;
+      // anchor a block starting within the reader instead, retaining the rounded correction.
       if (keep) this.placeTop = root.scrollTop += Math.round(keep.getBoundingClientRect().top - was);
       this.laying = false;
     }

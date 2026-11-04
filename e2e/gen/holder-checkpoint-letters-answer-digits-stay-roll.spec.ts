@@ -106,6 +106,7 @@ test("digits during an open checkpoint quiz never open a sheet or commit the rol
   // open the challenges view, select BLUE, start the quiz from the real checkpoint button
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
+  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
   await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
   await page.locator(`[data-checkpoint="${U1_KEY}"]`).first().click()
   await j.advance(400)

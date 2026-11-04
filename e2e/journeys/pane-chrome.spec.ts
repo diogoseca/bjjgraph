@@ -2,48 +2,30 @@ import { test, expect, type Page } from "@playwright/test"
 import { journey, type Journey } from "../dsl"
 
 /**
- * PANE & CHROME POLISH (v1.93.0, re-pinned for the v1.94.0 chrome):
+ * PANE & CHROME (v1.93.0, re-pinned for the v1.242.0 drawer, owner A5 / E1 / T-b):
  *
- *   1. The top-left logo is the one pane opener, and every tab remains live after it opens.
- *      Static pane wiring lives at the `applyDeckVisibility` choke point because direct
- *      study/session entry points also bypass `openPane()`.
- *   2. The guest save nudge is ONE block at the pane's BOTTOM, visible on all three tabs,
- *      next to Settings/Terms/Privacy. The stat row (mastered/due/new — the third cell is the
- *      "Study plan" door since v1.207.0) moved to the TOP of Explore in v1.95.0, then to the
- *      pane FOOT as its own band in v1.104.5.
- *   3. The score belt is RETIRED as a visual (v1.98.1 — header died v1.96.0, the Explore
- *      mount died on the owner's word): no .ng-knowledge-header, no [data-knowledge], no
- *      meter anywhere. The score's one exposure is the Explore tab subtitle
- *      ("Mastered N%"); belt-meter.spec.ts pins the absence.
- *   3b. Tabs are two-line (v1.95.0): Explore over "Mastered N%" (word first, integer
- *      percent — owner, v1.95.2), Challenges over a mini belt striped by LADDER progress
- *      (not the score), and History is labeled "Last rolls" (internal ids unchanged).
- *   4. v1.94.0 RETIRES the "no account menu" canon: the chip now opens `.ng-account-menu`
- *      (account-menu.spec.ts owns that contract) and the PANE opener is the top-left logo.
- *   5. Settings carries Terms · Privacy links (the "Learn More" submenu that never was).
- *   6. The drill pill is DELETED (v1.99.0, owner): no pill on any form factor. The share
- *      cue is a standalone conditional band control (.ng-sharecue, above the chip); the
- *      chip holds the phone's bottom-right band seat; the logo is the one pane opener.
- *   7. The pane anchors the LEFT edge (v1.94.0 — it opens from the top-left logo, so it
- *      lives on the logo's side). The account chip stays bottom-right and, on desktop, no
- *      longer fades under a pane that no longer covers it; the phone drawer still does.
- *   8. THE Z LADDER (v1.95.1): DELIBERATE temporary screens (the settings/legal/auth modal,
- *      the account menu) always render above AMBIENT gameplay overlays (landing card,
- *      coach, combo pop, toasts). The modal portals to the app root at z:95 — the fixed
- *      wrap is its own stacking context, so anything left inside it loses to every
- *      root-level overlay regardless of z. Its scrim takes the input; Esc closes the
- *      topmost deliberate screen first.
- *
- * Mouse claims go through clickByMouse (no scroll-into-view, no interception amnesty).
+ *   1. One drawer icon (top-left) opens the drawer, and its rows are live: Path opens the corridor,
+ *      the brand ("‹ Path") leads back to the list and its search. The tabs are gone.
+ *   2. The score belt is RETIRED as a visual: no .ng-knowledge-header, no [data-knowledge], no
+ *      meter anywhere; the score's one exposure is the badge menu's "Mastered" line.
+ *   3. A study takeover owns the drawer body; its ‹ Back hands the list back.
+ *   4. Settings (from the badge's menu) carries Terms · Privacy, and is the GI/NO-GI choice's one home.
+ *   5. The drill pill stays DELETED; the share cue is a standalone conditional control.
+ *   6. The drawer anchors the LEFT edge, and no account chip sits on the map: the badge is in the drawer.
+ *   7. THE Z LADDER: deliberate temporary screens (the modal, the account menu) render above ambient
+ *      gameplay overlays; Esc closes the topmost deliberate screen first.
+ *   8. The open drawer leaves a readable game card beside it at desktop widths.
+ * The drawer's order, badge, Practice and swipe claims are sidebar.spec.ts's; the badge's menu is
+ * account-menu.spec.ts's. Mouse claims go through clickByMouse (no scroll-into-view, no amnesty).
  */
 
-// The logo is the one user-facing pane opener.
+// The drawer icon is the one user-facing opener.
 const openViaLogo = async (page: Page, j: Journey) => {
-  await j.clickByMouse(".ng-logo", "the logo (the pane opener)")
+  await j.clickByMouse(".ng-logo", "the drawer icon")
   await expect(page.locator(".ng-drill")).toBeVisible()
 }
 
-test("the logo opens a pane with LIVE tabs", async ({
+test("the drawer icon opens a drawer whose rows are live", async ({
   page,
 }) => {
   const j = journey(page)
@@ -51,258 +33,16 @@ test("the logo opens a pane with LIVE tabs", async ({
   await j.land("Mount Top")
   await openViaLogo(page, j)
 
-  await expect(page.locator(".ng-learning-nav"), "the logo exposes the live tab bar").toBeVisible()
-  await j.clickByMouse('.ng-learning-nav [data-view="challenges"]', "the Challenges tab")
-  await expect(page.locator(".ng-challenge-ladder"), "Challenges renders").toBeVisible()
-  await expect(
-    page.locator('.ng-learning-nav [data-view="challenges"]'),
-  ).toHaveAttribute("aria-pressed", "true")
+  await expect(page.locator(".ng-learning-nav"), "the tab bar is gone").toHaveCount(0)
+  await j.clickByMouse('[data-view="challenges"]', "the Path row")
+  await expect(page.locator(".ng-challenge-ladder"), "Path renders the corridor").toBeVisible()
+  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Path")
 
-  await j.clickByMouse('.ng-learning-nav [data-view="explore"]', "the Explore tab")
+  await j.clickByMouse('[data-view="explore"]', "the brand, home")
   await expect(
     page.locator(".ng-explorer-search input"),
-    "Explore renders its search",
+    "the list renders its search",
   ).toBeVisible()
-})
-
-test("the anchor keeps the guest save nudge; the stat row lives at the top of Explore", async ({
-  page,
-}) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
-  await openViaLogo(page, j)
-
-  const anchor = page.locator(".ng-pane-anchor")
-  await expect(anchor).toBeVisible()
-  // v1.98.1 (owner's final design): a three-level stack that reads as ONE unit —
-  // caption (the why) over a full-width primary button over a quiet escape line
-  const caption = anchor.locator("[data-anchor-caption]")
-  await expect(caption).toHaveText("Save your progress")
-  await expect(anchor.locator("[data-anchor-auth]"), "the one visual anchor").toHaveText(
-    "Create account",
-  )
-  const escapeLine = anchor.locator("[data-anchor-alt]")
-  await expect(escapeLine).toContainText("Already have one?")
-  await expect(anchor.locator("[data-anchor-login]")).toHaveText("Log in")
-  const stack = await page.evaluate(() => {
-    const anchorEl = document.querySelector(".ng-pane-anchor")!.getBoundingClientRect()
-    const c = document.querySelector("[data-anchor-caption]")!.getBoundingClientRect()
-    const b = document.querySelector("[data-anchor-auth]")!.getBoundingClientRect()
-    const l = document.querySelector("[data-anchor-login]")!.getBoundingClientRect()
-    const alt = document.querySelector("[data-anchor-alt]")!.getBoundingClientRect()
-    return {
-      order: c.bottom <= b.top + 1 && b.bottom <= alt.top + 1,
-      buttonFull: b.width >= anchorEl.width - 52,
-      buttonH: b.height,
-      loginH: l.height,
-      centered: Math.abs(alt.left + alt.width / 2 - (anchorEl.left + anchorEl.width / 2)) < 30,
-      tight: alt.bottom - c.top < 150,
-    }
-  })
-  expect(stack.order, "caption above button above escape line").toBe(true)
-  expect(stack.buttonFull, "the button spans the block").toBe(true)
-  expect(stack.buttonH, "44px primary").toBeGreaterThanOrEqual(44)
-  expect(stack.loginH, "44px hit area on the link").toBeGreaterThanOrEqual(40)
-  expect(stack.centered, "escape line centered").toBe(true)
-  expect(stack.tight, "reads as one unit, not three strays").toBe(true)
-  // v1.104.5: the stat band sits at the pane FOOT (owner), but as its OWN element ABOVE the
-  // anchor — never INSIDE it, because the anchor collapses entirely for a signed-in user and
-  // three progress numbers must not disappear along with a save nudge.
-  await expect(anchor.locator(".ngStat"), "not inside the anchor").toHaveCount(0)
-  await expect(
-    page.locator(".ng-pane-drillhead .ngStat"),
-    "and History's head still carries none",
-  ).toHaveCount(0)
-
-  // geometry: the nudge still hugs the pane's BOTTOM, above the Settings/Terms/Privacy row
-  const g = await page.evaluate(() => {
-    const a = document.querySelector(".ng-pane-anchor")!.getBoundingClientRect()
-    const nav = document.querySelector(".ng-learning-nav")!.getBoundingClientRect()
-    return { anchorTop: a.top, anchorBottom: a.bottom, navBottom: nav.bottom, vh: innerHeight }
-  })
-  expect(g.anchorTop, "below the tab bar, not mid-content").toBeGreaterThan(g.navBottom + 100)
-  expect(g.vh - g.anchorBottom, "hugging the pane's foot").toBeLessThan(90)
-
-  // the nudge survives tab switches: same block on Challenges and Explore
-  await j.clickByMouse('.ng-learning-nav [data-view="challenges"]', "the Challenges tab")
-  await expect(anchor, "anchor on Challenges").toBeVisible()
-  await expect(anchor.locator("[data-anchor-auth]")).toBeVisible()
-  // THE BAND IS FOOT CHROME NOW: it rides EVERY tab, Challenges included.
-  await expect(page.locator("[data-explore-stats]"), "the band rides Challenges too").toBeVisible()
-
-  await j.clickByMouse('.ng-learning-nav [data-view="explore"]', "the Explore tab")
-  await expect(anchor, "anchor on Explore").toBeVisible()
-  const stats = page.locator("[data-explore-stats]")
-  await expect(stats).toBeVisible()
-  await expect(stats.locator(".ngStat")).toHaveCount(3)
-  // MASTERED / DUE / STUDY PLAN (v1.207.0). The third cell (`data-b="new"`, id unchanged) used
-  // to print "N new" off the FLOW ranking (v1.138.0). The full game made it the door to the LAZY
-  // Gameplan: until `app/gameplan.js` loads it names the door and prints NO count (a number
-  // before the planner exists would be a fabricated one, CLAUDE.md §6.6), and once the planner
-  // is loaded it carries the plan's `fresh` count in `data-new` — an integer, legitimately 0 for
-  // a guest with no study comparison yet (`_gameStudyStatText` then keeps the door's name).
-  const planCell = page.locator('.ngStat[data-b="new"]')
-  await expect(planCell).toBeVisible()
-  await expect(planCell, "before the planner loads the cell names the door").toHaveText("Study plan")
-  expect(await planCell.getAttribute("data-new"), "and prints no count it cannot know yet").toBeNull()
-  await expect(stats).toHaveAttribute("data-gameplan-status", "not-loaded")
-  // load the planner through the app's own seam; `_refreshGameplanUI` REPLACES the row, so the
-  // geometry below measures the repainted row, not the one first mounted
-  expect(await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime())).toBe(true)
-  await expect(planCell, "the loaded plan's count is an integer").toHaveAttribute("data-new", /^\d+$/)
-  await expect(stats).not.toHaveAttribute("data-gameplan-status", "not-loaded")
-  await expect(stats.locator(".ngStat")).toHaveCount(3)
-  // EVENLY SPACED, NOT PINNED TO THE EDGES (v1.138.0, owner: "the space between these items is
-  // so large that they seem overglued to their edges in a weird way").
-  //
-  // This assertion REPLACES the v1.104.5 one, which pinned `display: grid` and `spread/width >
-  // 0.85`. That contract WAS the edge-hugging: three `1fr` columns with justify-self
-  // start/centre/end distribute the BOXES evenly and then park the outer two on the padding
-  // edge, so the ink ends hard against both walls with a hole in the middle (measured: 12px
-  // gaps at the edges, 56px between). `space-evenly` distributes the GAPS instead, so the
-  // differential to assert is that all four gaps are equal — which is the opposite of a high
-  // spread ratio, and is why the old numeric floor could not simply be relaxed.
-  const s = await page.evaluate(() => {
-    const r = document.querySelector("[data-explore-stats]") as HTMLElement
-    const rb = r.getBoundingClientRect()
-    const nav = document.querySelector(".ng-learning-nav")!.getBoundingClientRect()
-    const anc = document.querySelector(".ng-pane-anchor")!.getBoundingClientRect()
-    const cells = [...r.querySelectorAll(".ngStat")].map((c) => c.getBoundingClientRect())
-    const oneLine = cells.every((c) => Math.abs(c.top - cells[0].top) < 2)
-    return {
-      top: rb.top, navBottom: nav.bottom, anchorTop: anc.top, bottom: rb.bottom,
-      display: getComputedStyle(r).display,
-      justify: getComputedStyle(r).justifyContent,
-      oneLine,
-      gaps: [
-        cells[0].left - rb.left,
-        cells[1].left - cells[0].right,
-        cells[2].left - cells[1].right,
-        rb.right - cells[2].right,
-      ].map((g) => Math.round(g)),
-      width: Math.round(rb.width),
-      inFoot: !!r.closest(".ng-pane-stats"),
-    }
-  })
-  expect(s.inFoot, "it lives in the foot band").toBe(true)
-  expect(s.top, "at the FOOT, far below the tab bar").toBeGreaterThan(s.navBottom + 200)
-  expect(Math.round(s.bottom), "directly above the save nudge").toBeLessThanOrEqual(Math.round(s.anchorTop) + 2)
-  expect(s.display, "a flex band, not a three-column grid").toBe("flex")
-  expect(s.justify, "the GAPS are what is distributed").toBe("space-evenly")
-  // the differential: every gap equal, and the outer ones no longer the small ones
-  expect(s.oneLine, "one line at desktop width — the wrap valve is for the drawer").toBe(true)
-  const [l, a, b, rgt] = s.gaps
-  expect(Math.max(l, a, b, rgt) - Math.min(l, a, b, rgt),
-    `all four gaps equal, got ${s.gaps.join("/")}`).toBeLessThanOrEqual(4)
-  expect(l, "and the outer gap is real breathing room, not a 12px padding edge").toBeGreaterThan(14)
-
-  // the quiet line is a real login path
-  await j.clickByMouse("[data-anchor-login]", "the quiet Log in link")
-  await expect(page.locator("body"), "log-in mode, not sign-up").toContainText("Welcome back")
-})
-
-test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last rolls", async ({
-  page,
-}) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
-  await openViaLogo(page, j)
-
-  const nav = page.locator(".ng-learning-nav")
-  await expect(nav.locator('[data-view="explore"] > b')).toHaveText("Explore")
-  await expect(
-    nav.locator('[data-view="explore"] [data-tab-sub]'),
-    "Explore's second line is the game knowledge, plainly",
-  ).toContainText(/Mastered \d+%/)
-  await expect(nav.locator('[data-view="challenges"] > b')).toHaveText("Challenges")
-  const tabBelt = nav.locator('[data-view="challenges"] .ng-tab-belt')
-  await expect(tabBelt, "Challenges' second line is a belt").toBeVisible()
-  // v1.95.3: stripes are the pinned track's PROVEN UNITS (lessons + checkpoint), not
-  // objectives — the boot's auto-completed white objectives (tutorial skip; the same
-  // auto-ticks a real guest accrues) earn NO stripes. A guest wears 0.
-  await expect(tabBelt, "objectives alone earn no stripes").toHaveAttribute(
-    "data-tab-stripes",
-    "0",
-  )
-  // "History can be confused with the history of BJJ" — the label is Last rolls now
-  // (internal ids and settings keys stay `history`)
-  await expect(nav.locator('[data-view="history"] > b')).toHaveText("Last rolls")
-  await expect(nav.locator('[data-view="history"] [data-tab-sub]')).toHaveText(
-    "Your last rolls",
-  )
-  expect(await nav.innerText(), "the old tab label is gone").not.toContain("History")
-
-  // THE TWO METERS ARE DIFFERENT: the Explore subtitle is the SCORE, the tab belt is
-  // LADDER progress (proven units of the pinned track) — NOT gameScore().stripes. Seed a
-  // purple score: the subtitle follows it, the tab belt does not move. (The woven meter
-  // itself is gone since v1.98.1 — the subtitle is the score's one visual.)
-  // THE GRANDFATHER READS THE SCORE ONCE (v1.211.0): seed it only after the migration has run
-  // (`belts.gf`), or the seeded band would become this profile's belt — the migration doing
-  // exactly its job, on a fake score.
-  await expect
-    .poll(() => page.evaluate(() => { const a = (window as any).__neural; return !!(a.curriculum && a.belts && a.belts.gf) }))
-    .toBe(true)
-  await page.evaluate(() => {
-    const a = (window as any).__neural
-    // `f` is REQUIRED since v1.146.0 — see belt-meter.spec.ts. gameScore memoises on
-    // (_stageVer, frame) because the weights table is per ruleset; a seed without it misses.
-    a._scoreCache = {
-      v: a._stageVer || 0,
-      f: a._giMode === "nogi" ? "nogi" : "gi",
-      out: { score: 0.65, belt: "purple", next: "brown", stripes: 2 },
-    }
-    a.renderTabSubtitles()
-  })
-  await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("Mastered 65%")
-  await expect(tabBelt, "score moved, ladder did not").toHaveAttribute("data-tab-stripes", "0")
-
-  // and the converse: prove white units (lessons + checkpoints) SHORT of the whole belt —
-  // stripes fill while white stays the corridor's frontier; the seeded score is untouched
-  await expect
-    .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
-    .toBe(true)
-  const seeded = await page.evaluate(() => {
-    const a = (window as any).__neural
-    const belt = a.curriculum.belts.find((b: any) => b.id === "white")
-    a.units = a.units || {}
-    a.prep = a.prep || {}
-    const provable = belt.units.slice(0, belt.units.length - 1) // the last unit stays open
-    for (const u of provable) {
-      for (const l of u.lessons) a.prep[l.deckKey] = 3
-      a.units["white/" + u.id] = { checkpoint: true, t: Date.now() }
-    }
-    a.renderTabSubtitles()
-    return {
-      expected: Math.max(
-        0,
-        Math.min(4, Math.floor((provable.length / belt.units.length) * 4)),
-      ),
-    }
-  })
-  await expect(tabBelt, "proven units = stripes").toHaveAttribute(
-    "data-tab-stripes",
-    String(seeded.expected),
-  )
-  // proving EVERY White unit promotes (v1.211.0: the tab belt is the WORN belt — the belt after
-  // the last one whose units are all proven): a fresh blue belt, zero stripes, blue dye
-  await page.evaluate(() => {
-    const a = (window as any).__neural
-    const belt = a.curriculum.belts.find((b: any) => b.id === "white")
-    for (const u of belt.units) {
-      for (const l of u.lessons) a.prep[l.deckKey] = 3
-      a.units["white/" + u.id] = { checkpoint: true, t: Date.now() }
-    }
-    a.renderTabSubtitles()
-  })
-  await expect(tabBelt, "new belt, no stripes yet").toHaveAttribute("data-tab-stripes", "0")
-  expect(
-    await tabBelt.evaluate((el) => (el as HTMLElement).style.getPropertyValue("--tb")),
-    "the tab belt wears blue now",
-  ).toBe("#78a2f5")
-  // and the score (and the subtitle reading it) never moved through any of it
-  await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("Mastered 65%")
 })
 
 test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async ({ page }) => {
@@ -314,12 +54,13 @@ test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async
   // v1.95.3, owner: the pill rendered on BOTH Explore and Challenges (`.ng-explorer-tools`,
   // hidden only on History) — one fact, one home. The pane carries no pill on any tab.
   await expect(page.locator(".ng-gi-toggle"), "no pill on History").toHaveCount(0)
-  await j.clickByMouse('.ng-learning-nav [data-view="challenges"]', "the Challenges tab")
+  await j.clickByMouse('[data-view="challenges"]', "the Challenges tab")
   await expect(page.locator(".ng-gi-toggle"), "no pill on Challenges").toHaveCount(0)
-  await j.clickByMouse('.ng-learning-nav [data-view="explore"]', "the Explore tab")
+  await j.clickByMouse('[data-view="explore"]', "the Explore tab")
   await expect(page.locator(".ng-gi-toggle"), "no pill on Explore").toHaveCount(0)
 
-  await j.clickByMouse('.ng-drill [title="Settings"]', "the pane footer gear")
+  await j.openAccountMenu()
+  await j.clickByMouse("[data-menu-settings]", "Settings, from the badge")
   // Settings is a DEFERRED bundle since v1.207.0 (`app/settings-ui.js`, imported on first open;
   // settings-lazy.spec.ts owns the loading/late-completion contract). The gear first paints
   // "Loading settings…", so the tab exists only once the presentation installs. Wait for it —
@@ -334,26 +75,26 @@ test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async
   expect(await page.evaluate(() => (window as any).__neural._giMode)).toBe("nogi")
 })
 
-test("a study takeover hides the anchor; leaving the study restores it", async ({ page }) => {
+test("a study takeover owns the drawer body; its ‹ Back hands the list back", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
   await openViaLogo(page, j)
-  await expect(page.locator(".ng-pane-anchor")).toBeVisible()
+  await expect(page.locator("[data-drawer-explore]")).toBeVisible()
 
-  // a direct-assign study entry (openStudy) — the same family of paths the wiring fix covers
   await page.evaluate(() => {
     const a = (window as any).__neural
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key
     a.openStudy(key)
   })
-  await expect(page.locator(".ng-pane-anchor"), "study owns the pane").toBeHidden()
+  await expect(page.locator("[data-drawer-explore]"), "study owns the body").toBeHidden()
+  await expect(page.locator(".ng-drawer-head"), "the drawer head stays").toBeVisible()
 
   await j.clickByMouse("[data-pane-back]", "the study's ‹ Back")
-  await expect(page.locator(".ng-pane-anchor"), "tabs mode returns the anchor").toBeVisible()
+  await expect(page.locator("[data-drawer-explore]"), "the list returns").toBeVisible()
 })
 
-test("no score belt anywhere: Explore is subtitle + stats + lists, nothing else on top", async ({
+test("no score belt anywhere: the drawer opens on its list, nothing else on top", async ({
   page,
 }) => {
   const j = journey(page)
@@ -361,28 +102,20 @@ test("no score belt anywhere: Explore is subtitle + stats + lists, nothing else 
   await j.land("Mount Top")
   await openViaLogo(page, j)
 
-  // v1.98.1 (owner): the woven belt + band road left Explore too — the header died in
-  // v1.96.0, the Explore mount dies now. The score's ONLY visuals are the Explore tab
-  // subtitle ("Mastered N%"); the only belt visual is the Challenges tab's ladder belt.
   await expect(page.locator(".ng-knowledge-header"), "the header stays gone").toHaveCount(0)
-  await j.clickByMouse('.ng-learning-nav [data-view="explore"]', "the Explore tab")
   await expect(page.locator("[data-knowledge]"), "the Explore block is gone").toHaveCount(0)
   await expect(page.locator(".ng-knowledge-meter"), "no woven meter anywhere").toHaveCount(0)
   await expect(page.locator(".ng-belt-road"), "no band road anywhere").toHaveCount(0)
-  // Explore's body now opens with Lists; the stat band is foot chrome below everything (v1.104.5)
   const g = await page.evaluate(() => {
-    const s = document.querySelector("[data-explore-stats]")!.getBoundingClientRect()
-    const l = document.querySelector("[data-lists-section]")!.getBoundingClientRect()
-    const nav = document.querySelector(".ng-learning-nav")!.getBoundingClientRect()
-    return { stats: s.top, lists: l.top, navBottom: nav.bottom }
+    const head = document.querySelector(".ng-drawer-head")!.getBoundingClientRect()
+    const ex = document.querySelector("[data-drawer-explore]")!.getBoundingClientRect()
+    return { head: head.bottom, explore: ex.top }
   })
-  expect(g.lists, "Lists leads the body, right under the tab bar / search").toBeLessThan(g.navBottom + 190)
-  expect(g.stats, "and the stat band is below it, at the foot").toBeGreaterThan(g.lists)
-
-  // the score stays exposed, in one place: the tab subtitle
-  const sub = await page.locator('[data-tab-sub="explore"]').innerText()
+  expect(g.explore, "Explore leads the list, right under the head and search").toBeLessThan(g.head + 90)
+  await j.openAccountMenu()
+  const sub = await page.locator("[data-menu-mastered]").innerText()
   const score = await page.evaluate(() => (window as any).__neural.gameScore().score)
-  expect(sub).toBe("Mastered " + Math.round(score * 100) + "%")
+  expect(sub, "the score's one exposure").toMatch(new RegExp(" · " + Math.round(score * 100) + "%$"))
 })
 
 test("settings carries Terms · Privacy — the Learn More submenu that never was", async ({
@@ -393,7 +126,8 @@ test("settings carries Terms · Privacy — the Learn More submenu that never wa
   await j.land("Mount Top")
   await openViaLogo(page, j)
 
-  await j.clickByMouse('.ng-drill [title="Settings"]', "the pane footer gear")
+  await j.openAccountMenu()
+  await j.clickByMouse("[data-menu-settings]", "Settings, from the badge")
   await expect(page.locator("[data-settings-legal]"), "legal links in the first overlay").toBeVisible()
   await j.clickByMouse('[data-settings-legal] [data-legal="terms"]', "the Terms link")
   await expect(page.locator("body")).toContainText("Terms of Use")
@@ -443,92 +177,20 @@ test("the drill pill is GONE on every form factor; the share cue renders only wi
   await expect(page.locator("[data-share-open]")).toHaveCount(0)
 })
 
-test("the pane anchors LEFT; the chip stays bottom-right and no longer fades on desktop", async ({
+test("the drawer anchors LEFT, and no account chip sits on the map", async ({
   page,
 }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-
-  const box = (await page.locator(".ng-acctwrap").boundingBox())!
-  const vp = page.viewportSize()!
-  expect(box.y + box.height / 2, "chip in the bottom half of the screen").toBeGreaterThan(
-    vp.height * 0.8,
-  )
-  expect(vp.width - (box.x + box.width), "chip hugging the right edge").toBeLessThan(60)
-
-  await j.clickByMouse(".ng-logo", "the logo — the pane opener")
-  const pane = (await page.locator(".ng-drill").boundingBox())!
-  expect(pane.x, "the pane anchors the LEFT edge").toBeLessThan(2)
-  expect(pane.width, "desktop rail").toBeGreaterThanOrEqual(340)
-  expect(pane.width).toBeLessThanOrEqual(380)
-
-  // the option tray yields LEFTWARD now — cards keep clear of the pane's side
-  let padLeft = 0
-  for (let i = 0; i < 30; i++) {
-    await j.advance(1000)
-    padLeft = await page.evaluate(() =>
-      parseFloat((document.querySelector(".ng-optionrow") as HTMLElement).style.paddingLeft || "0"),
-    )
-    if (padLeft > 300) break
-  }
-  expect(padLeft, "options padding shifted left of the pane").toBeGreaterThan(300)
-
-  // and the chip does NOT fade: the pane no longer covers its corner on desktop
-  const chip = await page.evaluate(() => {
-    const el = document.querySelector(".ng-acctwrap") as HTMLElement
-    return { o: parseFloat(el.style.opacity || "1"), pe: el.style.pointerEvents }
-  })
-  expect(chip.o, "chip stays visible beside the left pane").toBeGreaterThan(0.9)
-  expect(chip.pe, "and keeps taking clicks").not.toBe("none")
+  await expect(page.locator(".ngAcctChip"), "the badge is in the drawer, not on the map").toBeHidden()
+  await openViaLogo(page, j)
+  const pane = await j.boxOf(".ng-drill", "the drawer")
+  expect(pane.x, "the drawer anchors the LEFT edge").toBeLessThan(2)
+  expect(pane.width, "desktop rail width").toBeGreaterThanOrEqual(340)
+  const badge = await j.boxOf(".ngAcctChip", "the badge")
+  expect(badge.x + badge.width, "the badge sits inside the drawer").toBeLessThanOrEqual(pane.x + pane.width)
 })
-
-test("phone: the chip holds the pill's old band seat; drawer via the logo fades it", async ({
-  page,
-}) => {
-  await page.setViewportSize({ width: 390, height: 844 })
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
-
-  // v1.99.0: the pill is gone on the phone too — the account chip takes its seat in the
-  // thumb band (bottom-right, exactly like desktop's corner ownership)
-  await expect(page.locator(".ng-drilltab")).toHaveCount(0)
-  const chip = (await page.locator(".ng-acctwrap").boundingBox())!
-  expect(Math.round(844 - (chip.y + chip.height)), "chip bottom gap = the pill's old 28").toBe(28)
-  expect(Math.round(390 - (chip.x + chip.width)), "chip right gap").toBe(14)
-
-  // the LOGO opens the drawer (the one pane opener), from the LEFT
-  await j.clickByMouse(".ng-logo", "the logo")
-  await expect(page.locator(".ng-drill")).toBeVisible()
-  const drawer = (await page.locator(".ng-drill").boundingBox())!
-  expect(drawer.x, "drawer slides from the LEFT edge").toBeLessThan(2)
-  expect(drawer.width, "88vw drawer").toBeGreaterThan(390 * 0.8)
-  expect(drawer.width).toBeLessThan(390)
-  await expect(page.locator(".ng-pane-anchor [data-anchor-auth]")).toBeVisible()
-
-  // the drawer owns the screen — the chip fades so the dismiss strip stays tappable
-  let faded = { o: 1, pe: "auto" }
-  for (let i = 0; i < 30; i++) {
-    await j.advance(1000)
-    faded = await page.evaluate(() => {
-      const el = document.querySelector(".ng-acctwrap") as HTMLElement
-      return { o: parseFloat(el.style.opacity || "1"), pe: el.style.pointerEvents }
-    })
-    if (faded.o <= 0.05 && faded.pe === "none") break
-  }
-  expect(faded.o, "chip fades under the phone drawer").toBeLessThanOrEqual(0.05)
-  expect(faded.pe, "and stops taking clicks").toBe("none")
-})
-
-// ─────────────────────────────────────────────────────────────────────────────────────
-// THE Z LADDER (v1.95.1). Deliberate temporary screens (settings/legal/auth modal,
-// account menu) always render above ambient gameplay overlays (landing card, coach,
-// combo pop, toasts). Third stacking bug of this family: the modal lived INSIDE the
-// fixed wrap — its own stacking context — so the landing card (a root-level overlay at
-// z:5) painted over the modal's z:9 and ate its clicks. The fix is structural, not a
-// number bump: the modal portals to the app root and takes the deliberate band (95).
-// ─────────────────────────────────────────────────────────────────────────────────────
 
 test.describe("deliberate screens outrank ambient overlays", () => {
   const hitReport = (page: Page) =>
@@ -555,7 +217,7 @@ test.describe("deliberate screens outrank ambient overlays", () => {
     await expect(page.locator(".ng-landcard"), "an ambient overlay is up").toBeVisible()
 
     // the user's own path: account chip → menu → Settings
-    await j.clickByMouse(".ngAcctChip", "the account chip")
+    await j.openAccountMenu()
     await j.clickByMouse("[data-menu-settings]", "the Settings row")
     await expect(page.locator(".ng-modal"), "the modal is up").toBeVisible()
 
@@ -590,7 +252,8 @@ test.describe("deliberate screens outrank ambient overlays", () => {
       "pane law: open = the game stops",
     ).toBe(true)
 
-    await j.clickByMouse('.ng-drill [title="Settings"]', "the pane footer gear")
+    await j.openAccountMenu()
+  await j.clickByMouse("[data-menu-settings]", "Settings, from the badge")
     await expect(page.locator(".ng-modal")).toBeVisible()
 
     await page.keyboard.press("Escape")

@@ -8,7 +8,7 @@ async function openChallenges(page: any) {
     app.openExplorer();
     app.showExplorerList();
   });
-  await expect(page.locator(".ng-learning-nav")).toBeVisible();
+  await expect(page.locator(".ng-drawer-head")).toBeVisible();
 }
 
 // This file's subject is the SCORE, not deck residency, so it takes full residency explicitly:
@@ -145,8 +145,10 @@ test.describe("Game Knowledge @curated", () => {
     // the score belt visual is retired (v1.98.1) — the score's one exposure is the
     // Explore tab subtitle, and it reads the SAME gameScore()
     await expect(page.locator(".ng-knowledge-meter")).toHaveCount(0);
-    await expect(page.locator('[data-tab-sub="explore"]')).toHaveText(
-      "Mastered " + Math.round(game.score * 100) + "%",
+    // v1.242.0: the Explore subtitle moved to the badge's menu, the score's one exposure
+    await j.openAccountMenu();
+    await expect(page.locator("[data-menu-mastered]")).toHaveText(
+      new RegExp(" · " + Math.round(game.score * 100) + "%$"),
     );
   });
 
@@ -170,8 +172,9 @@ test.describe("Game Knowledge @curated", () => {
     await openChallenges(page);
     await expect(page.locator(".ng-track-card")).toHaveCount(5);
     // no meter visual anymore (v1.98.1) — the subtitle reads the lowered score
-    await expect(page.locator('[data-tab-sub="explore"]')).toHaveText(
-      "Mastered " + Math.round(lower.score * 100) + "%",
+    await j.openAccountMenu();
+    await expect(page.locator("[data-menu-mastered]")).toHaveText(
+      new RegExp(" · " + Math.round(lower.score * 100) + "%$"),
     );
   });
 

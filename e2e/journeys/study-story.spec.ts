@@ -34,11 +34,8 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
   await page.evaluate(() => (window as any).__neural.set("mcMode", "auto"));
 
   // ── the front door: Challenges is the default learning view ──
-  await page.evaluate(() => (window as any).__neural.toggleExplorer());
-  await expect(page.locator("[data-view='challenges']")).toHaveAttribute(
-    "aria-pressed",
-    "true",
-  );
+  await page.evaluate(() => (window as any).__neural.openPane("challenges")) // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away;
+  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Path");
   const firstLesson = UNIT1.lessons[0];
 
   // ── open lesson 1: camera flies, the unit becomes the study session ──

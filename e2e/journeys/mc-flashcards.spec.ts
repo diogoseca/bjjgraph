@@ -48,7 +48,7 @@ async function openLessonDrill(
       (m) => (window as any).__neural.set("mcMode", m),
       mcMode,
     );
-  await page.evaluate(() => (window as any).__neural.toggleExplorer());
+  await page.evaluate(() => (window as any).__neural.openPane("challenges")) // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away;
   // v1.105.2: the row click reads INLINE now — the full study surface (this spec's subject)
   // opens through openLessonStudy, the seam sessions/checkpoints use.
   await page.evaluate((dk) => {
@@ -548,7 +548,7 @@ test("checkpoint is now a real MC quiz: pass marks the unit", async ({
   });
   await j2.land("Mount Top");
   await j2.rig("checkpoint-pick", [0.1, 0.3, 0.5, 0.7, 0.9, 0.2]);
-  await page.evaluate(() => (window as any).__neural.toggleExplorer());
+  await page.evaluate(() => (window as any).__neural.openPane("challenges")) // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away;
   await page
     .locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`)
     .first()
@@ -567,7 +567,7 @@ test("checkpoint is now a real MC quiz: pass marks the unit", async ({
   }
   await j2.expectBeat("checkpoint_passed");
   await j2.expectBeat("unit_done");
-  await page.evaluate(() => (window as any).__neural.toggleExplorer());
+  await page.evaluate(() => (window as any).__neural.openPane("challenges")) // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away;
   await expect(
     page.locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`),
   ).toHaveText("Checkpoint cleared");
@@ -592,7 +592,7 @@ test("checkpoint fail links the weakest lesson", async ({ page }) => {
   });
   await j.land("Mount Top");
   await j.rig("checkpoint-pick", [0.1, 0.3, 0.5, 0.7, 0.9, 0.2]);
-  await page.evaluate(() => (window as any).__neural.toggleExplorer());
+  await page.evaluate(() => (window as any).__neural.openPane("challenges")) // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away;
   await page
     .locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`)
     .first()

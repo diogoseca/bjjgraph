@@ -32,7 +32,7 @@ function lessonsDoneBlob() {
 }
 
 async function startCheckpoint(j: any, page: any) {
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await page.evaluate(() => (window as any).__neural.openPane("challenges")) // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
   await page.locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`).first().click()
   await j.advance(400)
   await expect(page.locator("[data-mc-opt]").first()).toBeVisible()
@@ -55,7 +55,7 @@ test("abandoned checkpoint does not contaminate the next deck or auto-pass the u
 
   // open a normal lesson deck and answer its MC cards — the abandoned unit must NOT complete
   const beatsBefore = (await j.beats()).length
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await page.evaluate(() => (window as any).__neural.openPane("challenges")) // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
   await page.evaluate((dk) => {
     const a = (window as any).__neural;
     const e = a._lessonIndex[dk];
@@ -129,7 +129,7 @@ test("mastered is not inflatable: rec counts DISTINCT cards proven by recall", a
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await page.evaluate(() => (window as any).__neural.openPane("challenges")) // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
   await page.evaluate((dk) => {
     const a = (window as any).__neural;
     const e = a._lessonIndex[dk];

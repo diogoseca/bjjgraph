@@ -1,0 +1,83 @@
+[
+  {
+    "spec": "journeys/challenges-ui\\.spec",
+    "grep": "keyboard navigation reaches advanced tracks and restores focus on close$",
+    "name": "keyboard-drawer-delayed-search",
+    "file": "neural/src/app.src.jsx",
+    "a": "        this.explorerSearchRef.current?.focus();\n      }\n    }\n    this.lastInteract",
+    "b": "        setTimeout(() => this.explorerSearchRef.current?.focus(), 80);\n      }\n    }\n    this.lastInteract",
+    "claim": "opening search cannot steal the next Path key"
+  },
+  {
+    "spec": "journeys/challenges-ui\\.spec",
+    "grep": "keyboard navigation reaches advanced tracks and restores focus on close via search shortcut$",
+    "name": "keyboard-shortcut-delayed-search",
+    "file": "neural/src/app.src.jsx",
+    "a": "        this.explorerSearchRef.current?.focus();\n      } else if (e.key === \"Escape\")",
+    "b": "        setTimeout(() => this.explorerSearchRef.current?.focus(), 80);\n      } else if (e.key === \"Escape\")",
+    "claim": "opening search cannot steal the next Path key"
+  },
+  {
+    "spec": "journeys/challenges-ui\\.spec",
+    "grep": "keyboard navigation reaches advanced tracks and restores focus on close$",
+    "name": "keyboard-systems-focus-lost",
+    "file": "neural/src/app.src.jsx",
+    "a": "    if (trainFocus && document.activeElement === document.body) trainFocus.focus({ preventScroll: true });",
+    "b": "",
+    "claim": "systems landing preserves the keyboard-selected Path"
+  },
+  {
+    "spec": "journeys/challenges-ui\\.spec",
+    "grep": "keyboard navigation reaches advanced tracks and restores focus on close$",
+    "name": "keyboard-concepts-focus-lost",
+    "file": "neural/src/app.src.jsx",
+    "a": "    if (trainFocus && document.activeElement === document.body) trainFocus.focus({ preventScroll: true });",
+    "b": "    if (trainFocus && !this.concepts?.length && document.activeElement === document.body) trainFocus.focus({ preventScroll: true });",
+    "claim": "concepts landing preserves the keyboard-selected Path"
+  },
+  {
+    "spec": "journeys/challenges-ui\\.spec",
+    "grep": "keyboard navigation reaches advanced tracks and restores focus on close$",
+    "name": "keyboard-path-tab-skipped",
+    "file": "neural/src/app.src.jsx",
+    "a": "      path.setAttribute(\"data-view\", \"challenges\");",
+    "b": "      path.setAttribute(\"data-view\", \"challenges\"); path.tabIndex = -1;",
+    "claim": "Path is reachable with Tab"
+  },
+  {
+    "spec": "journeys/challenges-ui\\.spec",
+    "grep": "keyboard navigation reaches advanced tracks and restores focus on close$",
+    "name": "keyboard-black-tab-skipped",
+    "file": "neural/src/challenge-ui.src.js",
+    "a": "        button.setAttribute(\"data-track\", track.id);",
+    "b": "        button.setAttribute(\"data-track\", track.id); if (track.id === \"black\") button.tabIndex = -1;",
+    "claim": "Black belt is reachable with Tab"
+  },
+  {
+    "spec": "journeys/challenges-ui\\.spec",
+    "grep": "keyboard navigation reaches advanced tracks and restores focus on close$",
+    "name": "keyboard-black-enter-dead",
+    "file": "neural/src/challenge-ui.src.js",
+    "a": "          this.selectChallengeTrack(track.id),",
+    "b": "          track.id !== \"black\" && this.selectChallengeTrack(track.id),",
+    "claim": "Enter selects the advanced track"
+  },
+  {
+    "spec": "journeys/challenges-ui\\.spec",
+    "grep": "keyboard navigation reaches advanced tracks and restores focus on close$",
+    "name": "keyboard-close-tab-skipped",
+    "file": "neural/src/xdc-template.html",
+    "a": "class=\"ng-explorer-close\" type=\"button\"",
+    "b": "class=\"ng-explorer-close\" type=\"button\" tabindex=\"-1\"",
+    "claim": "Close is reachable with Tab"
+  },
+  {
+    "spec": "journeys/challenges-ui\\.spec",
+    "grep": "keyboard navigation reaches advanced tracks and restores focus on close$",
+    "name": "keyboard-close-restore-lost",
+    "file": "neural/src/app.src.jsx",
+    "a": "      if (this._kbNav) setTimeout(() => { try { if (restore && restore.focus) restore.focus(); } catch (e) {} }, 0);",
+    "b": "",
+    "claim": "closing the pane returns focus to its keyboard opener"
+  }
+]
