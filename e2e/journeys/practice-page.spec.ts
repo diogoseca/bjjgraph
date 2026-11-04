@@ -406,7 +406,7 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade 
   await page.addStyleTag({ content: '[data-practice-page] [data-mini-q], [data-practice-page] [data-mini-a] { font-size: 30px !important; }' });
   await door(page, j);
   await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
-  await j.clickByMouse('[data-mini-reveal]:visible', "reveal with enlarged text");
+  await j.clickByMouse('[data-session] [data-mini-reveal]', "reveal with enlarged text");
   await expect(page.locator('[data-mini-a]:visible')).toHaveCSS("font-size", "30px");
   await page.locator('[data-mini-again]:visible').scrollIntoViewIfNeeded();
   const geometry = await page.locator('[data-mini-again]:visible').evaluate((el: HTMLElement) => {
@@ -417,7 +417,7 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade 
   expect(geometry.top).toBeGreaterThanOrEqual(0);
   expect(geometry.bottom).toBeLessThanOrEqual(631);
   expect(geometry.hit, "P1-A: no pinned chrome covers the long-answer grade").toBe(true);
-  await j.clickByMouse('[data-mini-again]:visible', "grade after reading a long answer");
+  await j.clickByMouse('[data-session] [data-mini-again]', "grade after reading a long answer");
   expect(await page.evaluate(() => (window as any).__neural.practiceToday().done)).toBe(1);
 });
 

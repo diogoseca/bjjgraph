@@ -17,9 +17,10 @@ import { journey } from "../dsl";
  * marker, `data-session-row` (the deck key), and pairs lists by that identity, never by position.
  *
  * WHY A 200-CARD DAILY GOAL. Practice holds as many new decks as the goal buys: ~2 at the default 20, ~20
- * at the 200 maximum. P1 narrows new practice to the current belt, whose decks can be larger. The
- * player sets the goal in Settings → Flashcards and explicitly adds more practice when needed, so
- * every list compared still holds at least ROWS_FLOOR rows (§6.6: three rows can agree by accident).
+ * at the 200 maximum. P1 narrows new practice to the current belt. Each comparison now covers five
+ * earned-belt profiles in a fixed order, reading each profile's real rendered queue, then deduplicates
+ * their union. The same 15-distinct-row and 10-shared-row floors remain; a narrow band cannot quietly
+ * reduce the pricing/start evidence. Blue comes first so the Standing-start oracle stays in its band.
  *
  * WHY CLAIM 1 BOOTS TWICE. A gi player's plan differs from a no-gi player's even on no-gi numbers,
  * because the two rulesets reach different states: comparing the two plans cannot tell the gi numbers
@@ -164,7 +165,7 @@ async function setStart(j: any, page: Page, v: "standing" | "random" | "weak") {
  * matches the rows on screen. A fresh player owes no reviews, so no row is a review (v1.242.0: one
  * interleaved Practice queue, each row tagged `data-practice-kind`, replaced the two section heads).
  */
-async function readPlan(j: any, page: Page, expanded = false): Promise<Plan> {
+async function readPlan(page: Page): Promise<Plan> {
   let plan: Plan & { sections: number; maint: number; across: number } = { keys: [], names: [], note: "", sections: 0, maint: 0, across: -1 };
   await expect.poll(async () => {
     plan = await page.evaluate(() => {
@@ -179,18 +180,11 @@ async function readPlan(j: any, page: Page, expanded = false): Promise<Plan> {
   }, { timeout: 30_000, message: "the plan mounts with its new rows" }).toBe(true);
   expect(plan.maint, "a fresh player owes no reviews").toBe(0);
   expect(plan.note, "the rows are the weak-spots ranking, and the plan says so").toContain("weakest first");
-  if (plan.keys.length < ROWS_FLOOR && !expanded) {
-    const more = page.locator("[data-plan-more]");
-    await expect(more, "the current belt offers enough additional ranking evidence").toBeEnabled();
-    await more.scrollIntoViewIfNeeded();
-    await j.clickByMouse("[data-plan-more]", "include more current-belt weak spots");
-    return readPlan(j, page, true);
-  }
   return { keys: plan.keys, names: plan.names, note: plan.note };
 }
 
 /** ‹ Back out of an open plan (or the logo, if the pane is shut), Explore, then "N new". */
-async function openPlan(j: any, page: Page) {
+async function openBeltPlan(j: any, page: Page) {
   const at = await page.evaluate(() => {
     const back = document.querySelectorAll("[data-pane-back]");
     const r = back.length === 1 ? back[0].getBoundingClientRect() : null;
@@ -200,8 +194,26 @@ async function openPlan(j: any, page: Page) {
   else if (at.back) await j.clickByMouse("[data-pane-back]", "‹ Back leaves the open plan");
   await j.clickByMouse("[data-view='explore']", "the Explore tab");
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', 'Practice (v1.242.0: the "N new" door is Practice now)');
-  return readPlan(j, page);
+  return readPlan(page);
 }
+
+async function acrossBelts(j: any, page: Page, refresh = false): Promise<Plan> {
+  const plans: Plan[] = [];
+  for (const belt of ["blue", "white", "purple", "brown", "black"]) {
+    await page.evaluate(id => {
+      const a = (window as any).__neural;
+      a.belts = { ...a.belts, held: { id, t: 1 }, gf: 1 };
+    }, belt);
+    const opened = await openBeltPlan(j, page);
+    plans.push(refresh ? await refreshBeltPlan(j, page) : opened);
+  }
+  expect(plans, "five earned-belt profiles contribute real rendered ranking rows").toHaveLength(5);
+  const keys = [...new Set(plans.flatMap(p => p.keys))];
+  return { keys, names: keys, note: plans.map(p => p.note).join("\n") };
+}
+
+const openPlan = (j: any, page: Page) => acrossBelts(j, page);
+const refreshPlan = (j: any, page: Page) => acrossBelts(j, page, true);
 
 /**
  * The open plan's own "Refresh plan" — the player's way to re-plan without leaving it. It lives in the
@@ -211,8 +223,8 @@ async function openPlan(j: any, page: Page) {
  * still; so does this, and the click itself is still a measured mouse click. A re-render can replace
  * the button while Playwright waits for stability; only that transient readiness failure is retried.
  */
-async function refreshPlan(j: any, page: Page) {
-  if (!await page.locator("[data-practice-page]").count()) await openPlan(j, page);
+async function refreshBeltPlan(j: any, page: Page) {
+  if (!await page.locator("[data-practice-page]").count()) await openBeltPlan(j, page);
   const details = page.locator("[data-practice-details]");
   if (await details.getAttribute("open") === null) {
     await details.locator("summary").first().scrollIntoViewIfNeeded();
@@ -241,7 +253,7 @@ async function refreshPlan(j: any, page: Page) {
     }
   }, { timeout: 10_000, message: "Refresh plan comes to rest on screen" }).toBe(true);
   await j.clickByMouse(sel, "Refresh plan");
-  return readPlan(j, page);
+  return readPlan(page);
 }
 
 const shared = (a: string[], b: string[]) => a.filter((k) => b.includes(k));
