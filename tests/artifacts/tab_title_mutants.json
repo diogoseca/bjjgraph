@@ -1,0 +1,16 @@
+[
+  {
+    "name": "dropped-title-write",
+    "file": "neural/src/app.src.jsx",
+    "from": "if (title) document.title = title;",
+    "to": "if (title) void title;",
+    "killedBy": "VIDEO2 native map click, Back/Forward and reader open/close keep exact titles"
+  },
+  {
+    "name": "hub-title-for-role",
+    "file": "neural/src/app.src.jsx",
+    "from": "const role = /\\/(Top|Bottom|Attacker|Defender)$/.exec(id)?.[1] || \"\";",
+    "to": "const role = \"\";",
+    "killedBy": "VIDEO2 dual pair titles name the selected role, never the hub"
+  }
+]

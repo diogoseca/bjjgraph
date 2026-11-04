@@ -104,7 +104,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
         return { path: location.pathname, focus: a.nodes[a.focusIdx].id, land: a.nodes[a._landIdx].id, history: history.length };
       });
       expect(reveal.focus).toBe('Positions/Half-Guard');
-      expect(reveal.path).toBe('/' + reveal.focus);
+      expect(reveal.path).toBe('/Positions/Half-Guard/Top');
       expect(reveal.land).toBe(reveal.focus);
       expect(reveal.history).toBe(before.history);
       await j.landSettled();
@@ -174,7 +174,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
           const band = a.get('readerBook', true) ? a._reader?.nodeBand : null;
           return { y: a.H / 2 + (mid.y - a.cam.cy) * a.W / a.cam.vw, want: band ? (band.top + band.bottom) / 2 : (top + bottom) / 2, band: !!band, path: location.pathname, id: n.id };
         });
-        expect(m.path).toBe('/' + m.id);
+        expect(m.path).toBe('/Positions/Half-Guard/Top');
         expect(m.band, 'the reading view frames inside its published node band').toBe(view === 'reading');
         expect(Math.abs(m.y - m.want), JSON.stringify({ layers, ...m })).toBeLessThan(5);
       }
@@ -199,10 +199,10 @@ test('a played transition replaces the URL with its revealed landing', async ({ 
   await j.nextHand();
   const end = await page.evaluate(() => {
     const a = (window as any).__neural;
-    return { path: location.pathname, id: a.nodes[a.focusIdx].id, land: a.nodes[a._landIdx].id, history: history.length };
+    return { path: location.pathname, id: a.nodes[a.focusIdx].id, role: a.nodes[a.focusIdx].role, land: a.nodes[a._landIdx].id, history: history.length };
   });
   expect(end.path).not.toBe(pick.path);
-  expect(end.path).toBe('/' + end.id);
+  expect(end.path).toBe('/' + end.id + (end.role === 'top' ? '/Top' : ''));
   expect(end.land).toBe(end.id);
   expect(end.history).toBe(pick.history);
 });

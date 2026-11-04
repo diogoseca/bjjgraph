@@ -48,6 +48,7 @@ jobs:
       - name: Regenerate Neural app and data
         run: npm run regenerate:neural
 
+      # npm run build also gates every app title against the built page head.
       - name: Build production site and Forward libraries
         id: site-build
         run: npm run build

@@ -13462,6 +13462,63 @@ Reader JS is 42,484 B, CSS remains 10,889 B, and deferred payload is **506,815 /
 zero shortfall, no ceiling increase. The earlier shard-1 Moves-label failure remains unproven; this fix
 changes only media-control navigation and does not alter the Moves input path.
 
+## v1.241.1 — Position orb URLs name their role (VIDEO1, 2026-10-30)
+
+The Top member of a dual pair keeps its hub id and share ordinal. `_nodeUrlPath` also used that
+id as the page URL, so a native Bottom → Top click during map play opened `/Positions/Half-Guard`
+instead of `/Positions/Half-Guard/Top`; keyboard activation of its Explore search result did the
+same. Half Guard, Side Control, Mount and Closed Guard all reproduced both entry paths on dev
+e3d407825. Fresh role-page arrivals already worked in both directions on that dev build and
+production v1.240.1: the deferred reader had its own suffix workaround.
+
+The shared URL boundary now adds `/Top` for a Top position member. Node ids, pair ids, share
+ordinals, list identity, adjacency and technique paths are unchanged. The new journey asserts
+both URL and focused member through 16 native orb clicks and four keyboard activations across
+those four positions. Together with the existing URL-arrival journeys, 20/20 tests pass. The
+`position-top-url-is-hub` source mutant is killed by both named Half Guard map-click and keyboard
+URL assertions; reader arrivals alone do not kill it. URL units additionally cover all 264
+position members and the existing 2,842-node round-trip sweep.
+
+The real dev Half Guard hub shows a visible Top video card with two authored clips at 1440×900;
+no hub/content behavior was changed. Payload: eager raw 1,370,180 → 1,370,207 B, eager gzip
+342,629 → 342,643 B (+14), deferred unchanged at 506,815 / 506,817 B. The eager policy delta is
+3,058 / 5,000 B above its accepted checkpoint; no budget was raised. Browser runs used private
+port 18174 after heavy-advisory GO, outside the build lock.
+
+**VIDEO1 CI follow-up:** the automatic reader resolves the player seat before asking the role-URL
+helper: a Bottom roll can still carry the Top representative as its landing node. This preserves
+the existing Bottom-article contract. Eleven existing arrival, Explore, late-reader and map-input
+assertions now expect the requested explicit Top path while retaining their node identity,
+camera, history, race and hit-testing checks. A second source control restores the reader regression.
+
+## v1.241.1 — Title-fix CI contracts (VIDEO2 CI, 2026-11-04)
+
+All three failures in #331's run 41829898270 were stale test contracts. At both 1440px and
+390px, the unknown-section fixture supplied only a body, unlike all 6,102 built HTML pages,
+which have nonempty head titles. Its missing title correctly withheld the new atomic URL/title
+publication. The fixture now supplies a complete page and asserts its pathname and title as well
+as the original anchor hash, section reopening, focus, content preservation and paused state.
+The original anchor cases failed 10/10 on 862bee788 and passed 10/10 on dev e3d407825.
+
+The map-arrival camera assertion sampled two clocks: the simulation had settled against a
+586px boundary before native reader layout moved that boundary to 532.90625px. The original
+spec reproduced the exact CI discrepancy of 2.7017383711347023 on both heads: twice in 30
+fixed-head repetitions and once in 20 dev diagnostics. Waiting for the reader's actual layout
+publication before pumping the camera fixes the observation order. It does not poll the desired
+framing, add a delay or change any zoom, clearance or two-unit target bound. All three repaired
+cases pass ten repetitions each (30/30, zero skips). No application source, payload ceiling,
+version or app fingerprint changes in this follow-up.
+
+`tests/artifacts/title_ci_mutants.json` records two compiled source controls:
+`drop-reader-anchor-url` fails the original `#legacy-notes` assertion at both widths, with the
+camera control green; `suppress-staged-camera-retarget` fails the original re-aim assertion,
+with both anchor controls green. Healthy and restored controls pass 3/3 each. Source hashes and
+all 42 asset hashes (14 files across dist, Quartz static and public) match the accepted title
+receipt after restoration.
+
+The complete affected `article-sections` and `url-arrival` files pass **53/53** cases, with zero
+skips or retries, on the restored bytes. Browser runs use one worker, anchored file filters and
+private port 18274 after heavy-advisory GO; every app and mutant build holds the shared lock.
 
 ## v1.242.0 — SIDECX5: catch input ownership and the article-dashboard merge
 
@@ -13563,3 +13620,12 @@ techniques are attemptable only in gi — the default — and 16 only in no-gi, 
 scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **zero means "not
 attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
 pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
+
+
+## v1.242.1 — Merge the drawer release into the URL/title fix (V331DEV1)
+
+PR #331 merges dev 1308bf0dd (the v1.242.0 drawer release) without rebasing.
+The role URL, exact tab-title writer and repaired CI contracts remain alongside
+the drawer and reader-position changes. Both package manifests now use 1.242.1;
+the following app-only fingerprint commit regenerates its rows from this clean
+merged source. The guarded site census is unchanged; no capture is required.
