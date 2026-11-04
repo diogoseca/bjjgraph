@@ -451,6 +451,8 @@ await buildGameBundles({ root: resolve(HERE, "../.."), build });
 await build({
   stdin: { contents: settingsUI, sourcefile: "settings-ui.src.js", resolveDir: R("src"), loader: "js" },
   bundle: true, format: "esm", target: "es2019", minify: true, legalComments: "none",
+  // Emit settings strings as UTF-8 to keep their deferred payload compact.
+  charset: "utf8",
   define: { NG_SETTINGS_UI_BUILD: JSON.stringify(SETTINGS_UI_BUILD) },
   outfile: R("dist/settings-ui.js"), logLevel: "info",
 });
