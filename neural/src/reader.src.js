@@ -1085,7 +1085,9 @@ class Reader {
       // stage (node band, Moves, question) owns the top and holds still, as on dev, when the pane opens,
       // the window narrows or a phone turns. A hidden article resets the width to NaN, so reopening
       // restores bookScroll without anchoring against a layout that was never shown.
-      keep = this.gridW - (this.gridW = available ? grid : NaN) && art.getBoundingClientRect().top < top && [...art.querySelectorAll("p,li")].find(e => (was = e.getBoundingClientRect().top) >= top - 20);
+      // Anchor a fully visible block: a clipped predecessor can gain a wrapped
+      // line while its own top holds still, pushing the reader's visible place down.
+      keep = this.gridW - (this.gridW = available ? grid : NaN) && art.getBoundingClientRect().top < top && [...art.querySelectorAll("p,li")].find(e => (was = e.getBoundingClientRect().top) >= top);
       style(art, "--article-width", grid);
       if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");
       // U59 c (owner): every desktop row holds two open sections side by side, in source order, so
@@ -1287,8 +1289,7 @@ class Reader {
       // After the clamp's restore, and it is the new place at once: the pane slides open over many
       // passes, and the next pass's clamp must not put back a place its scroll event has not recorded.
       // Rounded: the pane slides open over ~40 passes, and an unrounded correction is rounded by the browser the same
-      // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px). The 20px of
-      // slack above the reader's top keeps the same block through any rounding left.
+      // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px).
       if (keep) this.placeTop = root.scrollTop += Math.round(keep.getBoundingClientRect().top - was);
       this.laying = false;
     }

@@ -79,7 +79,7 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768],
       expect(g.layout).toBe("stacked")
     } else {
       expect(g.film.width, "VIDEO1 desktop film is a portion of the column").toBe(400)
-      expect(g.layout).toBe("side-by-side")
+      expect(g.layout, "VIDEO3 the film follows the hint attached to the choices row").toBe("stacked")
     }
     expect(g.padding).toBe("0px 0px 0px 3px")
     expect(g.nested, "VIDEO1 own film never enters a question card").toBe(false)

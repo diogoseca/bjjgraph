@@ -328,17 +328,16 @@ for (const width of [1366, 390]) {
         backs: 3 * (a._landStackEl?.childElementCount || 0), position: getComputedStyle(a._landFilmEl).position }
     })
     const g = await geometry()
-    expect(g).toMatchObject({ same: true, hosts: 1, home: true, lifted: false, together: true, overlap: false, layout: width > 640 ? 'side-by-side' : 'stacked', position: 'relative' })
+    // VIDEO3: the collapsed hint belongs inside the desktop choices band; the
+    // film follows it. The expanded question retains the original paired layout.
+    expect(g).toMatchObject({ same: true, hosts: 1, home: true, lifted: false, together: true, overlap: false, ask: true, layout: 'stacked', position: 'relative' })
     expect(g.media.h).toBeGreaterThanOrEqual(width > 640 ? 241.42 : 219.93)
     if (width > 640) {
-      expect(g.card.y - g.hand.bottom, 'Questions follows Moves at one gap, never another').toBeCloseTo(g.gap, 1)
-      expect(g.media.top, 'the current card is top-aligned with the question').toBeCloseTo(g.card.y, 1)
-      expect(g.card.x - g.media.x - g.media.w, 'beside it at the 60px gap').toBeCloseTo(60, 1)
-    } else {
-      if (g.ask) expect(g.askGap, 'VIDEO1 the ask follows the visible Moves cards at the 6px section token').toBeCloseTo(6, 1)
-      else expect(g.card.y - g.hand.bottom, 'the question follows Moves at one gap').toBeCloseTo(g.gap, 1)
-      expect(g.media.top - g.card.bottom - g.backs, 'the current card follows the question (and its backs) at one gap').toBeCloseTo(g.gap, 1)
+      expect(g.card.y, 'VIDEO3 the hint lies inside the choices band').toBeGreaterThanOrEqual(g.hand.top)
+      expect(g.card.bottom, 'VIDEO3 the hint lies inside the choices band').toBeLessThanOrEqual(g.hand.bottom)
     }
+    expect(g.askGap, 'VIDEO1 the ask follows the visible Moves cards at the 6px section token').toBeCloseTo(6, 1)
+    expect(g.media.top - g.card.bottom - g.backs, 'the current card follows the question (and its backs) at one gap').toBeCloseTo(g.gap, 1)
     await page.evaluate(async () => { await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame) })
     const churn = await page.evaluate(async () => {
       const a = (window as any).__neural, reader = a._reader, now = reader.layoutNow
@@ -368,6 +367,17 @@ for (const width of [1366, 390]) {
       }
     })
     expect(churn).toEqual({ calls: 1, writes: 0, sets: 0 })
+    await j.clickByMouse('[data-land-ask-go]')
+    await j.readerLayoutSettled()
+    const expanded = await geometry()
+    expect(expanded).toMatchObject({ same: true, hosts: 1, home: true, lifted: false, together: true, overlap: false, ask: false, layout: width > 640 ? 'side-by-side' : 'stacked', position: 'relative' })
+    expect(expanded.card.y - expanded.hand.bottom, 'the expanded question follows Moves at one gap').toBeCloseTo(expanded.gap, 1)
+    if (width > 640) {
+      expect(expanded.media.top, 'the current card is top-aligned with the expanded question').toBeCloseTo(expanded.card.y, 1)
+      expect(expanded.card.x - expanded.media.x - expanded.media.w, 'beside it at the 60px gap').toBeCloseTo(60, 1)
+    } else {
+      expect(expanded.media.top - expanded.card.bottom - expanded.backs, 'the current card follows the expanded question and its backs at one gap').toBeCloseTo(expanded.gap, 1)
+    }
     for (const size of [{ width: 768, height: 1024 }, { width, height: width === 390 ? 844 : 768 }]) {
       await page.setViewportSize(size); await j.advance(100)
     }

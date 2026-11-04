@@ -14457,7 +14457,8 @@ class Component extends DCLogic {
     block.querySelector("button")?.focus({ preventScroll: true });
   }
   /** U52 b: on a phone the asking line is at most two lines, with "Answer for Points" at its end:
-   *  trim the question (never the link) with an ellipsis until it fits. Desktop shows it whole.
+   *  trim the question (never the link) with an ellipsis until it fits. VIDEO3 keeps desktop to
+   *  one line too: the collapsed question is a hint belonging to the choices, not another tile.
    *  APTS-R4: a short phone (under 700px tall; the real p10 is 631) gets ONE line, so the link shares the
    *  question's first line and is on screen at arrival with the deck's 16px gap after Moves (D-351). */
   _fitAskLine(qt) {
@@ -14465,8 +14466,7 @@ class Component extends DCLogic {
     if (!tx) return;
     const full = tx.dataset.full || (tx.dataset.full = tx.textContent);
     tx.textContent = full;
-    if (!this.isMobile()) return;
-    const max = (innerHeight < 700 ? 1 : 2) * parseFloat(getComputedStyle(qt).lineHeight) + 1;
+    const max = (this.isMobile() && innerHeight >= 700 ? 2 : 1) * parseFloat(getComputedStyle(qt).lineHeight) + 1;
     if (qt.getBoundingClientRect().height <= max) return;
     let lo = 0, hi = full.length;
     while (lo < hi) {
@@ -15559,10 +15559,20 @@ class Component extends DCLogic {
   // Below 1152px of free pane, the film fills the 680px reading column (16px phone
   // gutters). Above it, 400px leaves room for the deck, arrows and Contents lane.
   filmLayout(width, height, paired, card, row) {
-    const wide = width >= 1152, ask = !wide && row && card?.hasAttribute("data-land-ask");
+    const wide = width >= 1152, ask = row && card?.hasAttribute("data-land-ask");
     const css = ask && getComputedStyle(card);
-    return [paired && wide && height > 500, Math.min(wide ? 400 : 680, width - 32),
-      ask ? parseFloat(css.getPropertyValue("--section-gap")) - parseFloat(getComputedStyle(row).paddingBottom)
+    const gap = ask && parseFloat(css.getPropertyValue("--section-gap"));
+    const hint = ask && width >= 1024 && this._handShown() && this._reader?.on("book");
+    // VIDEO3: the hint occupies the choices row's bottom band. The existing askStep
+    // then places its text one token below the cards, inside that band, without a
+    // separate stage row. Restore the original inline padding on reveal/hide/resize;
+    // deleting the declaration would lose the template's eight-pixel baseline.
+    if (row) {
+      row._askPadding ??= row.style.paddingBottom;
+      row.style.paddingBottom = hint ? card.getBoundingClientRect().height + gap + "px" : row._askPadding;
+    }
+    return [paired && wide && !hint && height > 500, Math.min(wide ? 400 : 680, width - 32),
+      ask && (!wide || hint) ? gap - parseFloat(getComputedStyle(row).paddingBottom)
         - (card.querySelector("[data-land-ask-text]").getBoundingClientRect().top - card.getBoundingClientRect().top) : null];
   }
   currentFilmHeight() { return this._landFilmEl?.getBoundingClientRect().height || 0; }

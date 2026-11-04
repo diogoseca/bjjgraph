@@ -153,10 +153,10 @@ const controls = [
     [['this._landPage=n,this._armPagedLandClock(),this._readStop()', 'this._landPage=n,this._landAsk=!0,this._armPagedLandClock(),this._readStop()']], 'the shown card stays shown across paging, with its own window'],
   ['u47-question-tap-dead', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
     [['h.append(x," ",w),h.addEventListener("click",()=>this._landReveal());', 'h.append(x," ",w);']], 'a tap on the question shows the card'],
-  // U52 b: the phone's two-line cut is _fitAskLine's (the CSS clamp is gone). Its desktop twin, trimming on a
-  // desktop too, is a recorded NON-KILL (covered-card.spec.ts's header): no real question needs a third line there.
+  // U52 b: the phone's two-line cut is _fitAskLine's (the CSS clamp is gone).
+  // VIDEO3's desktop one-line control lives in video_theater_mutants.json.
   ['u47-phone-trim-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844',
-    [['if(t.textContent=s,!this.isMobile())return;', 'if(t.textContent=s,!0)return;']], 'U47 d: a long question is cut to two lines on a phone'],
+    [['t.textContent=s;let i=(this.isMobile()&&innerHeight>=700?2:1)', 't.textContent=s;return;let i=(this.isMobile()&&innerHeight>=700?2:1)']], 'U47 d: a long question is cut to two lines on a phone'],
   ['u47-desktop-offer-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900',
     [['h.append(x," ",w),h.addEventListener("click",()=>this._landReveal())', 'h.append(x," ",...this.isMobile()?[w]:[]),h.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
   ['u47-reveal-keeps-asking-face', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
@@ -167,7 +167,7 @@ const controls = [
     [['this._updateLandDeck(),(r=this._reader)==null||r.layoutNow(),this._dockLandCard(e)', 'this._updateLandDeck(),this._dockLandCard(e)']], 'the first queued layout moves no published answer'],
   // APTS-R4 (1): a short phone trims the asking line to ONE line, so the link is on screen at arrival at 390x631.
   ['u52b-short-phone-two-lines', 'covered-card.spec.ts', 'U52 b at 390x631 Answer for Points is on screen at arrival \\(short question\\)',
-    [['let i=(innerHeight<700?1:2)*parseFloat(', 'let i=2*parseFloat(']], 'U52 b at 390x631 Answer for Points is on screen and hit-testable at arrival'],
+    [['let i=(this.isMobile()&&innerHeight>=700?2:1)*parseFloat(', 'let i=2*parseFloat(']], 'U52 b at 390x631 Answer for Points is on screen and hit-testable at arrival'],
   // U52 b (a) and (b): after one take-up in this tab, and with the pane open, a landing shows its card directly.
   ['u52b-opt-in-forgotten', 'covered-card.spec.ts', 'U52 b after one take-up, later landings show the full card',
     [['i||(this._landAsk=!this.deckShown&&!this._landOptedIn(),', 'i||(this._landAsk=!this.deckShown,']], 'U52 b after one take-up, later landings show the full card'],
@@ -227,6 +227,7 @@ mkdirSync(out, { recursive: true })
 const receipt = { original: hash(original), results: [] }
 // D5-B2: a kill counts only against a GREEN unmutated baseline of the same spec and grep (once per pair).
 const baselines = new Map()
+const journeyFilter = spec => 'journeys/' + spec.replace(/\./g, '\\.') + '$'
 const baseline = (spec, grep) => {
   const key = spec + '\n' + grep
   if (!baselines.has(key)) {
@@ -235,7 +236,7 @@ const baseline = (spec, grep) => {
     // Preserve the same unmutated run's log and JSON; a red baseline still cannot count as a kill.
     const report = resolve(out, 'baseline-' + baselines.size + '.json')
     const log = resolve(out, 'baseline-' + baselines.size + '.log')
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--output', resolve(out, 'baseline-' + baselines.size + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report } })
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, journeyFilter(spec), '--grep', grep, '--output', resolve(out, 'baseline-' + baselines.size + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report } })
     writeFileSync(log, (run.stdout || '') + (run.stderr || ''))
     baselines.set(key, { green: run.status === 0 && / passed /.test(run.stdout || ''), exit: run.status, report, log })
   }
@@ -256,7 +257,7 @@ try {
     try { new Script(mutant) } catch (e) { throw Error(name + ': the mutant does not parse: ' + e.message) }
     writeFileSync(app, mutant)
     const report = resolve(out, name + '.json')
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--max-failures=1', '--output', resolve(out, name + '-results'), '--reporter=list,json'], {
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, journeyFilter(spec), '--grep', grep, '--max-failures=1', '--output', resolve(out, name + '-results'), '--reporter=list,json'], {
       cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: report },
     })
     writeFileSync(app, original)

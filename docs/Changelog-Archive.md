@@ -13326,8 +13326,9 @@ changes only media-control navigation and does not alter the Moves input path.
 The ask text follows the visible Moves cards at the existing 6px section-spacing token on
 mobile and tablet, with its `0 0 0 3px !important` padding retained. The media owner supplies
 the reading stage's geometry: below 1152px of available pane width, its own video fills the
-reading column (680px maximum with 16px phone gutters); desktop keeps a 400px film beside
-the question. Technique media remains outside question, flashcard and multiple-choice cards.
+reading column (680px maximum with 16px phone gutters); desktop keeps a 400px film below
+the collapsed hint and beside the expanded question. Technique media remains outside
+question, flashcard and multiple-choice cards.
 
 Play loads the YouTube API on demand and requests autoplay. Only the video rectangle moves
 into a root-portaled native dialog: a 360ms zoom to 95% viewport width, capped by 95% viewport
@@ -13353,3 +13354,16 @@ journeys retain their scroll, section, DOM-identity and overflow checks. The com
 `responsive-ask-gap-doubled` control targets all three replacement assertions, with an
 unaffected desktop film-width case. The package lock now agrees with the reserved 1.244.0
 release already named by the package manifest; no budget or baseline changes.
+
+VIDEO3 makes the collapsed desktop question one hint line inside the choices row's bottom
+band, using the same six-pixel token as mobile and tablet. Only the question is trimmed;
+Answer for Points stays whole. Reveal restores the full question and the row's original
+padding without moving its choices. The real Side Control question is checked at 1024,
+1440 and 1920px, with separate controls for fitting, attachment and padding restoration.
+The long Twister Control question keeps its two-line tall-phone allowance and now uses one
+line on desktop; the expanded card still shows the complete authored question.
+
+The new stage height exposed a reader-place bug at 1152px: its anchor could start above the
+viewport, then grow by a wrapped line and move the next visible paragraph by 20.64px. The
+reader now anchors a fully visible block. The existing eight-pixel bound, arrival gate and
+reopen gate remain; a source control restores the clipped-block selection.
