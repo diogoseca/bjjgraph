@@ -26,7 +26,7 @@ import time
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _atomic_io import atomic_write_json, atomic_write_text
-from _clips import CONTENT, iter_clips_arrays, verify_video
+from _clips import CONTENT, drop_empty_escape_rows, iter_clips_arrays, verify_video
 
 
 def bounded_number(kind, low, high=None):
@@ -220,6 +220,7 @@ def main(argv=None):
                     holder.pop('clips')
                 changed[path] = data
         for path, data in changed.items():
+            drop_empty_escape_rows(data)
             atomic_write_json(path, data)
         print(f'pruned {len(dead)} unavailable IDs from {len(changed)} file(s)', flush=True)
     c = summary['coverage']

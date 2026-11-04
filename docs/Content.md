@@ -512,6 +512,15 @@ shorter runtime alone never establishes relevance. Curated clips carry `duration
 On position hub clips, `half: "top"`, `"bottom"`, or `"both"` records the approved role mapping.
 Omit `half` when the role is unknown; do not tag clips already inside a role block.
 
+A submission's defender block may also carry `escape_clips`: one row per escape card,
+`{ "escape": "<exact card label>", "clips": [...] }`. The label is what
+`scripts/submission_choices.py` compiles from `defensive_options[].action`, or a
+`defense_overrides` row, so copy it from the card. The clip must show that named escape, not
+general defence of the submission; set `start` to the second it begins. An escape with no row
+keeps the empty media area. A row that names no card fails validation, and the content bot may
+neither touch these rows nor reword an action that has one. Rows sit beside `clips`, not inside
+`defensive_options`, because that row is hashed into each defense's MDP identity.
+
 ```bash
 # AI-assisted planning/curation of real search results, verification, and application
 npm run clips:source
@@ -568,7 +577,8 @@ the effective list deduplicates by video ID, with the half-local front, array or
 taking priority over a hub duplicate (including a differently trimmed copy). The build reports the
 number of unassigned hub clips and suppressed choice fronts. Choice cards consume only the first
 clip with `front: true` in their own perspective; they never promote a later clip, sort by duration,
-borrow the opposite role, or use a destination position's video for an escape. Missing approval
+borrow the opposite role, or use a destination position's video for an escape. An escape card uses
+only its own `escape_clips` row, never the submission's general defender reel. Missing approval
 produces a quiet inert media area. The current node reel preserves curated array order. Generated Markdown also
 renders film-study embeds and video structured data. Prefer focused technique demonstrations;
 longer concept instruction can be appropriate for Principles. Duration preferences are editorial

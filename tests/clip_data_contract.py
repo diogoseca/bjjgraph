@@ -3,13 +3,15 @@ import copy
 import json
 from pathlib import Path
 import sys
+import tempfile
 import unittest
+from unittest.mock import patch
 
 import jsonschema
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from validate_json import validate_clips
+from validate_json import validate_clips, validate_escape_clip_rows
 
 
 def clip(video_id="aaaaaaaaaaa", **fields):
@@ -81,6 +83,134 @@ class ClipDataContract(unittest.TestCase):
         errors, warnings = validate_clips({"clips": [clip(half="both", end=50, duration=40)]}, "Positions")
         self.assertEqual(errors, [])
         self.assertTrue(any("exceeds video duration" in warning for warning in warnings), warnings)
+
+
+class EscapeClipContract(unittest.TestCase):
+    """v1.246.0: an escape card shows a clip of THAT escape or nothing (owner, ESC1).
+
+    `defender.escape_clips` joins on the printed card label. Every test here guards a way that
+    join could fail quietly: an orphan row, a paid rewrite, a rot check that skips the rows, or
+    a corpus walk that finds nothing and calls it clean.
+    """
+    SOURCE = ROOT / "content/Submissions/Americana/from Side Control.json"
+
+    def record(self, *rows):
+        data = json.loads(self.SOURCE.read_text(encoding="utf-8"))
+        if rows:
+            data["defender"]["escape_clips"] = list(rows)
+        return data
+
+    def label(self):
+        from _clips import escape_labels
+        return escape_labels(self.record())[0]
+
+    def test_a_row_fits_the_defender_schema_of_a_submission_only(self):
+        schema = json.loads((ROOT / "templates/Submissions/TEMPLATE-DUAL.json").read_text())
+        rows = dict(schema["properties"]["defender"]["properties"]["escape_clips"], **{"$defs": schema["$defs"]})
+        jsonschema.validate([{"escape": "Roll", "clips": [clip(front=True, start=30)]}], rows)
+        for invalid in ([{"clips": [clip()]}], [{"escape": "", "clips": [clip()]}],
+                        [{"escape": "Roll"}], [{"escape": "Roll", "clips": [], "note": "x"}]):
+            with self.assertRaises(jsonschema.ValidationError):
+                jsonschema.validate(invalid, rows)
+        transitions = json.loads((ROOT / "templates/Transitions/TEMPLATE-DUAL.json").read_text())
+        self.assertNotIn("escape_clips", transitions["properties"]["defender"]["properties"])
+        self.assertIs(transitions["properties"]["defender"]["additionalProperties"], False)
+
+    def test_a_real_label_joins_and_an_orphan_names_itself(self):
+        self.assertEqual(validate_escape_clip_rows(self.record({"escape": self.label(), "clips": [clip(front=True)]})), [])
+        errors = validate_escape_clip_rows(self.record({"escape": "No such card", "clips": [clip(front=True)]}))
+        self.assertEqual(len(errors), 1, errors)
+        self.assertIn("No such card", errors[0])
+        self.assertEqual(validate_escape_clip_rows(self.record()), [])
+
+    def test_two_rows_for_one_card_fail(self):
+        row = {"escape": self.label(), "clips": [clip(front=True)]}
+        self.assertTrue(any("two rows" in e for e in validate_escape_clip_rows(self.record(row, dict(row)))))
+
+    def test_the_front_rules_reach_a_row(self):
+        bad = [clip(front=True), clip("bbbbbbbbbbb", front=True)]
+        errors, _ = validate_clips(self.record({"escape": self.label(), "clips": bad}), "Submissions")
+        self.assertTrue(any("escape_clips" in e and "at most one" in e for e in errors), errors)
+
+    def test_the_two_override_submissions_join_with_no_defensive_option(self):
+        from _clips import escape_labels
+        labels = escape_labels({"name": "Triangle Choke from Triangle Control"})
+        self.assertIn("Posture up", labels)
+        data = {"name": "Triangle Choke from Triangle Control",
+                "defender": {"escape_clips": [{"escape": "Posture up", "clips": [clip(front=True)]}]}}
+        self.assertEqual(validate_escape_clip_rows(data), [])
+
+    def test_the_paid_pass_never_sees_it_and_cannot_lose_it(self):
+        sys.path.insert(0, str(ROOT))
+        import scripts.regenerate_content_json as regen
+        schema = regen.build_response_schema("Submissions", "DUAL")["properties"]["fixed_content"]
+        defender = schema["properties"]["defender"]["properties"]
+        self.assertNotIn("escape_clips", defender)
+        self.assertIn("recognition_cues", defender)  # the walk reached the real block
+        original = self.record({"escape": self.label(), "clips": [clip(front=True)]})
+        for lost in (lambda d: d["defender"].pop("escape_clips"),
+                     lambda d: d["defender"]["escape_clips"][0]["clips"].clear()):
+            fixed = copy.deepcopy(original)
+            lost(fixed)
+            self.assertTrue(any("escape_clips" in e for e in regen.check_structural_preservation(original, fixed, "Submissions")))
+            self.assertGreaterEqual(regen.restore_clips(original, fixed), 1)
+            self.assertEqual(fixed["defender"]["escape_clips"], original["defender"]["escape_clips"])
+        invented = self.record()
+        fixed = copy.deepcopy(invented)
+        fixed["defender"]["escape_clips"] = [{"escape": "x", "clips": [clip()]}]
+        regen.restore_clips(invented, fixed)
+        self.assertNotIn("escape_clips", fixed["defender"])
+
+    def test_a_reworded_action_fails_preservation_by_name(self):
+        sys.path.insert(0, str(ROOT))
+        import scripts.regenerate_content_json as regen
+        label = self.label()
+        original = self.record({"escape": label, "clips": [clip(front=True)]})
+        self.assertEqual([e for e in regen.check_structural_preservation(original, copy.deepcopy(original), "Submissions")
+                          if "card" in e], [])
+        fixed = copy.deepcopy(original)
+        for option in fixed["defender"]["defensive_options"]:
+            option["action"] = "Reworded " + option["action"]
+        errors = regen.check_structural_preservation(original, fixed, "Submissions")
+        self.assertTrue(any(label in e and "reworded" in e for e in errors), errors)
+
+    def test_the_rot_check_sees_every_row_and_a_pruned_row_goes(self):
+        import _clips
+        with tempfile.TemporaryDirectory() as tmp:
+            home = Path(tmp) / "Submissions"
+            home.mkdir()
+            data = self.record({"escape": self.label(), "clips": [clip("ccccccccccc", front=True)]})
+            data["defender"]["clips"] = [clip("ddddddddddd", front=True)]
+            (home / "x.json").write_text(json.dumps(data))
+            with patch.object(_clips, "CONTENT", Path(tmp)):
+                found = [c["id"] for _, _, _, h in _clips.iter_clips_arrays("Submissions") for c in h["clips"]]
+        self.assertIn("ccccccccccc", found)
+        self.assertIn("ddddddddddd", found)
+        data["defender"]["escape_clips"][0].pop("clips")
+        _clips.drop_empty_escape_rows(data)
+        self.assertNotIn("escape_clips", data["defender"])
+
+    def test_the_dossier_carries_player_fields_only(self):
+        from _neural_content import _perspective_defender
+        row = clip(front=True, start=30, channel="Someone", verified="2026-11-04", duration=90)
+        out = _perspective_defender({"escape_clips": [{"escape": "Roll", "clips": [row]}, {"escape": "Empty", "clips": []}]})
+        self.assertEqual(list(out["escapes"]), ["Roll"])
+        self.assertEqual(out["escapes"]["Roll"][0]["start"], 30)
+        self.assertNotIn("channel", out["escapes"]["Roll"][0])
+        self.assertNotIn("verified", out["escapes"]["Roll"][0])
+        self.assertNotIn("escapes", _perspective_defender({}))
+
+    def test_the_real_corpus_joins_at_least_one_row_and_orphans_none(self):
+        from _clips import escape_clip_join, escape_rows
+        joined, orphans = 0, []
+        for path in (ROOT / "content/Submissions").rglob("*.json"):
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if escape_rows(data):
+                good, bad = escape_clip_join(data)
+                joined += len(good)
+                orphans += [(path.name, row["escape"]) for row in bad]
+        self.assertEqual(orphans, [])
+        self.assertGreater(joined, 0, "a walk that joins nothing is a check that never ran")
 
 
 if __name__ == "__main__":

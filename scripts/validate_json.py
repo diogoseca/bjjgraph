@@ -446,6 +446,37 @@ def iter_clips_arrays(data):
         block = data.get(role)
         if isinstance(block, dict) and isinstance(block.get("clips"), list):
             yield f"{role}.clips", block["clips"]
+    block = data.get("defender")
+    rows = block.get("escape_clips") if isinstance(block, dict) else None
+    for row in rows if isinstance(rows, list) else []:
+        if isinstance(row, dict) and isinstance(row.get("clips"), list):
+            yield f"defender.escape_clips[{row.get('escape')!r}].clips", row["clips"]
+
+
+def validate_escape_clip_rows(data):
+    """Every `defender.escape_clips` row must name a card the game really deals.
+
+    The join is the printed card label, so a reworded `action` moves it. An orphan fails here
+    and names itself, because the alternative is a clip that silently stops showing.
+    """
+    block = data.get("defender") if isinstance(data, dict) else None
+    rows = block.get("escape_clips") if isinstance(block, dict) else None
+    if not rows:
+        return []
+    try:
+        import _clips
+    except ImportError:
+        from scripts import _clips
+    try:
+        _, orphans = _clips.escape_clip_join(data)
+    except ValueError as exc:
+        return [f"defender.escape_clips: the record compiles no cards: {exc}"]
+    errors = [f"defender.escape_clips: {row.get('escape')!r} is not a card of this submission; "
+              f"the cards are {_clips.escape_labels(data)}" for row in orphans]
+    names = [row.get("escape") for row in rows if isinstance(row, dict)]
+    errors += [f"defender.escape_clips: {name!r} has two rows"
+               for name in sorted({n for n in names if names.count(n) > 1}, key=str)]
+    return errors
 
 
 def validate_clips(data, category):
@@ -1415,6 +1446,7 @@ def validate_json_file(json_path, schema, category, strict=False):
 
     # Curated YouTube clips → loop/front/role contract blocking, provenance warnings
     clip_errors, clip_warnings = validate_clips(data, category)
+    clip_errors = clip_errors + validate_escape_clip_rows(data)
     errors.extend(clip_errors)
     categories["blocking"].extend(clip_errors)
     warnings.extend(clip_warnings)
