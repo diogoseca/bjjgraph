@@ -176,6 +176,27 @@ description: "Complete attacker guide to the Smash Pass from Knee Shield. Learn 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pass from Knee Shield (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee Shield To Smash Pass",
+      "description": "Smash Pass from Knee Shield (Attacker) film study: Knee Shield To Smash Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K5fo_WDquJ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K5fo_WDquJ0",
+      "url": "https://www.youtube.com/watch?v=K5fo_WDquJ0",
+      "duration": "PT203S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing the Smash Pass from Knee Shield, your objective is to 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pass from Knee Shield (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K5fo_WDquJ0)
+
+<p class="clip-credit"><strong>Knee Shield To Smash Pass</strong> · 3:23 · <a href="https://www.youtube.com/watch?v=K5fo_WDquJ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

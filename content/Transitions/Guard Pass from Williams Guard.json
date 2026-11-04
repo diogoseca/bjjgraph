@@ -587,6 +587,17 @@
         "description": "Positional sparring starting in Williams Guard. Partner works extraction and pass at full resistance while you work retention, counters, and guard recovery. Score system: maintain Williams Guard for 30 seconds (win), complete pass to side control (loss), transition to omoplata or sweep (win), recover closed guard (draw). 3-minute rounds."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "iyTRevvOlMo",
+        "title": "Williams Guard counters to when opponent tries to pass",
+        "channel": "Meerkatsu's BJJ Videos",
+        "duration": 581,
+        "vertical": false,
+        "start": 35,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

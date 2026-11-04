@@ -152,6 +152,27 @@ description: "Defend the heel hook from Cross Ashi-Garami with recognition cues,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Cross Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defend \u0026 Escape Inside Heel Hook from 411",
+      "description": "Heel Hook from Cross Ashi-Garami (Defender) film study: Defend \u0026 Escape Inside Heel Hook from 411.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6SlL8AqBvC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6SlL8AqBvC8",
+      "url": "https://www.youtube.com/watch?v=6SlL8AqBvC8",
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the heel hook from Cross Ashi-Garami demands immediate recognition of 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Cross Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6SlL8AqBvC8)
+
+<p class="clip-credit"><strong>Defend &amp; Escape Inside Heel Hook from 411</strong> · 3:25 · <a href="https://www.youtube.com/watch?v=6SlL8AqBvC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

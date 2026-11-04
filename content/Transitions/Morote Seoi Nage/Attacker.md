@@ -176,6 +176,37 @@ description: "How to execute Morote Seoi Nage in BJJ. Attacking perspective with
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Morote Seoi Nage (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Morote Seoi Nage - Two Handed Shoulder Throw",
+      "description": "Morote Seoi Nage (Attacker) film study: Morote Seoi Nage - Two Handed Shoulder Throw.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0LGcSjOnmCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0LGcSjOnmCQ",
+      "url": "https://www.youtube.com/watch?v=0LGcSjOnmCQ",
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Learning Morote Seionage - the Double Handed Shoulder Throw",
+      "description": "Morote Seoi Nage (Attacker) film study: Learning Morote Seionage - the Double Handed Shoulder Throw.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MF8VrpsIL1c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MF8VrpsIL1c",
+      "url": "https://www.youtube.com/watch?v=MF8VrpsIL1c",
+      "duration": "PT124S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +219,32 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Morote Seoi Nage (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0LGcSjOnmCQ)
+
+<p class="clip-credit"><strong>Morote Seoi Nage - Two Handed Shoulder Throw</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=0LGcSjOnmCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MF8VrpsIL1c)
+
+<p class="clip-credit"><strong>Learning Morote Seionage - the Double Handed Shoulder Throw</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=MF8VrpsIL1c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

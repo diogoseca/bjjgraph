@@ -46,12 +46,12 @@ description: "Master the cross face pass from flattened half guard. Complete gui
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping a Flat Half Guard Situation",
-      "description": "Cross Face Pass from Flattened Half film study: Escaping a Flat Half Guard Situation.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HNbYkUtICYI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HNbYkUtICYI",
-      "url": "https://www.youtube.com/watch?v=HNbYkUtICYI",
-      "duration": "PT171S"
+      "name": "Cross Face pass from Half Guard",
+      "description": "Cross Face Pass from Flattened Half film study: Cross Face pass from Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_7k06N-1p38/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_7k06N-1p38",
+      "url": "https://www.youtube.com/watch?v=_7k06N-1p38",
+      "duration": "PT182S"
     }
   ]
 }
@@ -105,9 +105,9 @@ Strategically, the cross face pass represents the natural completion of a pressu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=HNbYkUtICYI)
+![](https://www.youtube.com/watch?v=_7k06N-1p38)
 
-<p class="clip-credit"><strong>Escaping a Flat Half Guard Situation</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=HNbYkUtICYI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Face pass from Half Guard</strong> · 3:02 · <a href="https://www.youtube.com/watch?v=_7k06N-1p38" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

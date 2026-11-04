@@ -170,6 +170,27 @@ description: "How to execute Reverse De La Riva Recovery in BJJ. Step-by-step gu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse De La Riva Recovery (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "reverse Dela riva retention drill",
+      "description": "Reverse De La Riva Recovery (Attacker) film study: reverse Dela riva retention drill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yI9J3Bem0Co/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yI9J3Bem0Co",
+      "url": "https://www.youtube.com/watch?v=yI9J3Bem0Co",
+      "duration": "PT250S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +207,24 @@ Advanced practitioners turn recovery into offense by using the hip escape moment
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse De La Riva Recovery (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yI9J3Bem0Co)
+
+<p class="clip-credit"><strong>reverse Dela riva retention drill</strong> · 4:10 · <a href="https://www.youtube.com/watch?v=yI9J3Bem0Co" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

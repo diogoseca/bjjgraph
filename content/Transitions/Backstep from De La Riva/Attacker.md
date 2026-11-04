@@ -176,6 +176,37 @@ description: "Complete guide to executing the backstep from De La Riva Guard. Ma
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from De La Riva (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho",
+      "description": "Backstep from De La Riva (Attacker) film study: De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-QhNJY5UQ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-QhNJY5UQ0",
+      "url": "https://www.youtube.com/watch?v=0-QhNJY5UQ0",
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva BackStep",
+      "description": "Backstep from De La Riva (Attacker) film study: De La Riva BackStep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ezbP_xmIs6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ezbP_xmIs6U?start=33",
+      "url": "https://www.youtube.com/watch?v=ezbP_xmIs6U",
+      "duration": "PT72S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +219,32 @@ The attacker in the backstep from De La Riva is the top player attempting to pas
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from De La Riva (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0-QhNJY5UQ0)
+
+<p class="clip-credit"><strong>De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=0-QhNJY5UQ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ezbP_xmIs6U&start=33)
+
+<p class="clip-credit"><strong>De La Riva BackStep</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=ezbP_xmIs6U&t=33s" rel="noopener">Watch on YouTube from 0:33</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -46,12 +46,12 @@ description: "Master the Seat Belt to Full Back Control transition in BJJ. Secur
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping Back Control Seatbelt with no Hooks (Dinu Bucalet)",
-      "description": "Seat Belt to Full Back Control film study: Escaping Back Control Seatbelt with no Hooks (Dinu Bucalet).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hGzykDrlskc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hGzykDrlskc",
-      "url": "https://www.youtube.com/watch?v=hGzykDrlskc",
-      "duration": "PT139S"
+      "name": "Getting the Second Hook with an Over/Under Seatbelt Grip on the Back",
+      "description": "Seat Belt to Full Back Control film study: Getting the Second Hook with an Over/Under Seatbelt Grip on the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/twk68LOuCWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/twk68LOuCWY",
+      "url": "https://www.youtube.com/watch?v=twk68LOuCWY",
+      "duration": "PT142S"
     }
   ]
 }
@@ -105,9 +105,9 @@ Strategically, this transition distinguishes practitioners who simply arrive at 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=hGzykDrlskc)
+![](https://www.youtube.com/watch?v=twk68LOuCWY)
 
-<p class="clip-credit"><strong>Escaping Back Control Seatbelt with no Hooks (Dinu Bucalet)</strong> · 2:19 · <a href="https://www.youtube.com/watch?v=hGzykDrlskc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Getting the Second Hook with an Over/Under Seatbelt Grip on the Back</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=twk68LOuCWY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -188,6 +188,26 @@ description: "Complete guide to executing the heel hook from saddle position. St
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Inside Saddle Heel Hook Leg Control and Finish",
+      "description": "Heel Hook from Saddle (Attacker) film study: Inside Saddle Heel Hook Leg Control and Finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hmmXU6w5QGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hmmXU6w5QGc",
+      "url": "https://www.youtube.com/watch?v=hmmXU6w5QGc",
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside Heel Hook from Saddle Finishing Mechanics Explained",
+      "description": "Heel Hook from Saddle (Attacker) film study: Inside Heel Hook from Saddle Finishing Mechanics Explained.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CE-249MNn5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CE-249MNn5A",
+      "url": "https://www.youtube.com/watch?v=CE-249MNn5A",
+      "duration": "PT279S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Craig Jones  - Heel Hook Breaking Mechanics",
       "description": "Heel Hook from Saddle (Attacker) film study: Craig Jones  - Heel Hook Breaking Mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
@@ -197,7 +217,7 @@ description: "Complete guide to executing the heel hook from saddle position. St
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 4,
       "name": "4 Variations Of Heel Hook Finish From Saddle",
       "description": "Heel Hook from Saddle (Attacker) film study: 4 Variations Of Heel Hook Finish From Saddle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n6EoUkDwUVc/hqdefault.jpg",
@@ -229,6 +249,22 @@ Executing the heel hook from saddle demands a systematic approach that prioritiz
 
 <p class="section-subtitle">Watch Heel Hook from Saddle (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hmmXU6w5QGc)
+
+<p class="clip-credit"><strong>Inside Saddle Heel Hook Leg Control and Finish</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=hmmXU6w5QGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CE-249MNn5A)
+
+<p class="clip-credit"><strong>Inside Heel Hook from Saddle Finishing Mechanics Explained</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=CE-249MNn5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

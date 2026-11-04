@@ -151,6 +151,37 @@ description: "How to defend against Uchi Mata in BJJ. Recognition cues, defensiv
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Uchi Mata (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Uchi-mata-sukashi - Demo",
+      "description": "Uchi Mata (Defender) film study: Uchi-mata-sukashi - Demo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0Fpw60A1_pw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0Fpw60A1_pw",
+      "url": "https://www.youtube.com/watch?v=0Fpw60A1_pw",
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "2 Counters to Uchi-mata",
+      "description": "Uchi Mata (Defender) film study: 2 Counters to Uchi-mata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lctx64XV6gE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lctx64XV6gE",
+      "url": "https://www.youtube.com/watch?v=lctx64XV6gE",
+      "duration": "PT316S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +197,32 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Uchi Mata (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0Fpw60A1_pw)
+
+<p class="clip-credit"><strong>Uchi-mata-sukashi - Demo</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=0Fpw60A1_pw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lctx64XV6gE)
+
+<p class="clip-credit"><strong>2 Counters to Uchi-mata</strong> · 5:16 · <a href="https://www.youtube.com/watch?v=lctx64XV6gE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

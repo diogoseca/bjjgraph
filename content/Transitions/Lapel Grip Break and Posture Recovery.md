@@ -36,6 +36,27 @@ description: "Master Lapel Grip Break and Posture Recovery from Ringworm Guard. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Grip Break and Posture Recovery \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Using The Lapel to break grip and Pass Ringworm Guard",
+      "description": "Lapel Grip Break and Posture Recovery film study: Using The Lapel to break grip and Pass Ringworm Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BbON-7b8iM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BbON-7b8iM4?start=56",
+      "url": "https://www.youtube.com/watch?v=BbON-7b8iM4",
+      "duration": "PT289S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this technique serves as the gateway to all other passing options
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Grip Break and Posture Recovery in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BbON-7b8iM4&start=56)
+
+<p class="clip-credit"><strong>Using The Lapel to break grip and Pass Ringworm Guard</strong> · 4:49 · <a href="https://www.youtube.com/watch?v=BbON-7b8iM4&t=56s" rel="noopener">Watch on YouTube from 0:56</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

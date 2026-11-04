@@ -36,6 +36,27 @@ description: "Master the Short Choke from Gift Wrap in BJJ. Complete guide to fi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Gift Wrap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short Choke Setup",
+      "description": "Short Choke from Gift Wrap film study: Short Choke Setup.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VnDcLU0GUWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VnDcLU0GUWY?start=65",
+      "url": "https://www.youtube.com/watch?v=VnDcLU0GUWY",
+      "duration": "PT146S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Gift Wrap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VnDcLU0GUWY&start=65)
+
+<p class="clip-credit"><strong>Short Choke Setup</strong> · 2:26 · <a href="https://www.youtube.com/watch?v=VnDcLU0GUWY&t=65s" rel="noopener">Watch on YouTube from 1:05</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

@@ -46,6 +46,26 @@ description: "Master the North-South Choke from Shoulder of Justice with detaile
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "BJJ | How To Execute A North South Choke From Side Control",
+      "description": "North-South Choke from Shoulder of Justice film study: BJJ | How To Execute A North South Choke From Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z_l2Hq4u0LU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z_l2Hq4u0LU",
+      "url": "https://www.youtube.com/watch?v=z_l2Hq4u0LU",
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attack from side control 1. North South Choke. Techniques Jiu-jitsu\u2026",
+      "description": "North-South Choke from Shoulder of Justice film study: Attack from side control 1. North South Choke. Techniques Jiu-jitsu\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkdKbLp5Ugo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TkdKbLp5Ugo",
+      "url": "https://www.youtube.com/watch?v=TkdKbLp5Ugo",
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "NORTH SOUTH PRESSURE CHOKE",
       "description": "North-South Choke from Shoulder of Justice film study: NORTH SOUTH PRESSURE CHOKE.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Fdq-j0AUVtc/hqdefault.jpg",
@@ -111,6 +131,22 @@ This submission chain is particularly effective because the Shoulder of Justice 
 
 <p class="section-subtitle">Watch North-South Choke from Shoulder of Justice in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z_l2Hq4u0LU)
+
+<p class="clip-credit"><strong>BJJ | How To Execute A North South Choke From Side Control</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=z_l2Hq4u0LU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TkdKbLp5Ugo)
+
+<p class="clip-credit"><strong>Attack from side control 1. North South Choke. Techniques Jiu-jitsu…</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=TkdKbLp5Ugo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

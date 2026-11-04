@@ -164,6 +164,37 @@ description: "How to defend against Triangle Setup in BJJ. Recognition cues, def
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Avoiding triangle and armbars in closed guard",
+      "description": "Triangle Setup (Defender) film study: Avoiding triangle and armbars in closed guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sB5dfTqqG6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sB5dfTqqG6o",
+      "url": "https://www.youtube.com/watch?v=sB5dfTqqG6o",
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape Triangle Chokes Early and Keep Passing The Guard",
+      "description": "Triangle Setup (Defender) film study: How to Escape Triangle Chokes Early and Keep Passing The Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IlDU0EwL9o8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IlDU0EwL9o8?start=32",
+      "url": "https://www.youtube.com/watch?v=IlDU0EwL9o8",
+      "duration": "PT329S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -180,6 +211,32 @@ Experienced defenders recognize that the triangle setup creates a decision tree 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sB5dfTqqG6o)
+
+<p class="clip-credit"><strong>Avoiding triangle and armbars in closed guard</strong> · 2:01 · <a href="https://www.youtube.com/watch?v=sB5dfTqqG6o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IlDU0EwL9o8&start=32)
+
+<p class="clip-credit"><strong>How to Escape Triangle Chokes Early and Keep Passing The Guard</strong> · 5:29 · <a href="https://www.youtube.com/watch?v=IlDU0EwL9o8&t=32s" rel="noopener">Watch on YouTube from 0:32</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

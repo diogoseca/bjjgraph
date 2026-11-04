@@ -46,12 +46,12 @@ description: "Master the kneebar from leg entanglement in BJJ. Learn setup from 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
-      "description": "Kneebar from Leg Entanglement film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
-      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
-      "duration": "PT59S"
+      "name": "Ashi Garami Followup: Kneebar Transition from Irimi (BJJ / No Gi Jiu-Jitsu /\u2026",
+      "description": "Kneebar from Leg Entanglement film study: Ashi Garami Followup: Kneebar Transition from Irimi (BJJ / No Gi Jiu-Jitsu /\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/reb8ennYps8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/reb8ennYps8",
+      "url": "https://www.youtube.com/watch?v=reb8ennYps8",
+      "duration": "PT280S"
     }
   ]
 }
@@ -114,9 +114,9 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wBRG0fY94fs)
+![](https://www.youtube.com/watch?v=reb8ennYps8)
 
-<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami Followup: Kneebar Transition from Irimi (BJJ / No Gi Jiu-Jitsu /…</strong> · 4:40 · <a href="https://www.youtube.com/watch?v=reb8ennYps8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -374,7 +374,26 @@
       }
     ],
     "safety_considerations": "The backstep from De La Riva involves rotational forces on both players' knees that must be managed carefully during training. Execute the backstep with controlled hip rotation rather than violent twisting to avoid knee ligament strain on your partner's hooked leg, particularly when their foot is wrapped behind your knee. During drilling, use moderate speed until mechanics are smooth, and communicate with your partner if the hook is deeply set and resisting rotation. Be mindful of collision risk during the rotation in crowded training spaces, and always check your surroundings before performing the backstep arc.",
-    "clips": []
+    "clips": [
+      {
+        "id": "0-QhNJY5UQ0",
+        "title": "De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho",
+        "channel": "Gameness Sports",
+        "duration": 36,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "ezbP_xmIs6U",
+        "title": "De La Riva BackStep",
+        "channel": "Midtown Grappling Academy",
+        "duration": 72,
+        "vertical": false,
+        "start": 33,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from De La Riva Defender",

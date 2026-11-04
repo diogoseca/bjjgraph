@@ -603,6 +603,23 @@
         "duration": 27,
         "verified": "2026-07-14"
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Recover the arm",
+        "clips": [
+          {
+            "id": "3nbeNMmvF-c",
+            "title": "How to Defend: Head-Arm Triangle Choke",
+            "channel": "fightTIPS",
+            "duration": 405,
+            "vertical": false,
+            "start": 89,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

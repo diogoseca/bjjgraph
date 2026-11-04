@@ -178,6 +178,37 @@ description: "Master the offensive Standing RNC from Rear Clinch. Learn seatbelt
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Standing Rear Clinch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear naked choke from standing. (Grappling)",
+      "description": "Rear Naked Choke from Standing Rear Clinch (Attacker) film study: Rear naked choke from standing. (Grappling).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aHcEZPbczO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aHcEZPbczO0",
+      "url": "https://www.youtube.com/watch?v=aHcEZPbczO0",
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Technique of the Week Liz Carmouche Standing Rear Naked Choke",
+      "description": "Rear Naked Choke from Standing Rear Clinch (Attacker) film study: Technique of the Week Liz Carmouche Standing Rear Naked Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VMMxUYLSKT8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VMMxUYLSKT8?start=29",
+      "url": "https://www.youtube.com/watch?v=VMMxUYLSKT8",
+      "duration": "PT91S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Executing the Standing RNC from Rear Clinch requires seamless transition from se
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Standing Rear Clinch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aHcEZPbczO0)
+
+<p class="clip-credit"><strong>Rear naked choke from standing. (Grappling)</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=aHcEZPbczO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VMMxUYLSKT8&start=29)
+
+<p class="clip-credit"><strong>Technique of the Week Liz Carmouche Standing Rear Naked Choke</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=VMMxUYLSKT8&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

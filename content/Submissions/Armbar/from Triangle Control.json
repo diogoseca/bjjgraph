@@ -351,6 +351,23 @@
         "description": "Practice responding to connected hands and posture recovery."
       }
     ],
-    "clips": []
+    "clips": [],
+    "escape_clips": [
+      {
+        "escape": "Connect the hands to protect the arm",
+        "clips": [
+          {
+            "id": "mJyZ9UVVa0E",
+            "title": "Powerful Armbar Escape for White Belts with Mahamed Aly",
+            "channel": "Chewjitsu",
+            "duration": 492,
+            "vertical": false,
+            "start": 96,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   }
 }

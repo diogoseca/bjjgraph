@@ -36,6 +36,27 @@ description: "Master the guard pass from Williams Guard in BJJ. Complete guide t
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Williams Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Williams Guard counters to when opponent tries to pass",
+      "description": "Guard Pass from Williams Guard film study: Williams Guard counters to when opponent tries to pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iyTRevvOlMo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iyTRevvOlMo?start=35",
+      "url": "https://www.youtube.com/watch?v=iyTRevvOlMo",
+      "duration": "PT581S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this pass rewards patience and technical precision over athletici
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Williams Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iyTRevvOlMo&start=35)
+
+<p class="clip-credit"><strong>Williams Guard counters to when opponent tries to pass</strong> · 9:41 · <a href="https://www.youtube.com/watch?v=iyTRevvOlMo&t=35s" rel="noopener">Watch on YouTube from 0:35</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

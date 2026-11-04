@@ -357,7 +357,18 @@
       }
     ],
     "safety_considerations": "Stack defense from omoplata involves managing significant compressive forces on your spine and neck. Never fight the stack with your neck—always redirect with hip movement. If you feel excessive pressure on your cervical spine, release the omoplata and recover guard rather than risking neck injury. During training, the stacking partner should apply gradual pressure rather than explosive drives to allow the defending partner time to execute proper defensive mechanics. Both partners should communicate clearly about pressure levels and tap immediately if discomfort occurs in the shoulder, neck, or spine.",
-    "clips": []
+    "clips": [
+      {
+        "id": "FtRBzcl9UMA",
+        "title": "Defending The Omoplata Stack - Backwards Roll Sweep - Omoplata (week 2)",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 355,
+        "vertical": false,
+        "start": 65,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Defense from Omoplata Defender",
@@ -543,6 +554,16 @@
         "description": "Positional sparring starting in omoplata control with you as the person being controlled. Attempt various escapes including the stack while partner uses full defensive options. Develop the ability to read defensive reactions in real time and adapt your escape strategy accordingly. Focus on energy efficiency and decisive escape attempts."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Sv1KP-8IQvI",
+        "title": "Omoplata Defense: Stacking and Takroll",
+        "channel": "Six Blades NOVA Emil Takeuchi",
+        "duration": 157,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

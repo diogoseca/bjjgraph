@@ -46,12 +46,12 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Dip Under Sweep - Whizzer Counter!",
-      "description": "Whizzer film study: Dip Under Sweep - Whizzer Counter!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pYljJ1yRXO4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pYljJ1yRXO4",
-      "url": "https://www.youtube.com/watch?v=pYljJ1yRXO4",
-      "duration": "PT169S"
+      "name": "Whizzer from Half Guard. How to win \"Dog Fight\"",
+      "description": "Whizzer film study: Whizzer from Half Guard. How to win \"Dog Fight\".",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "duration": "PT59S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The Whizzer is inherently transitional. Holding it statically wastes energy and 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pYljJ1yRXO4)
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
 
-<p class="clip-credit"><strong>Dip Under Sweep - Whizzer Counter!</strong> · 2:49 · <a href="https://www.youtube.com/watch?v=pYljJ1yRXO4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Whizzer from Half Guard. How to win &#34;Dog Fight&#34;</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

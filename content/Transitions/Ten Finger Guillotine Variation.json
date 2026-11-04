@@ -343,7 +343,17 @@
       }
     ],
     "safety_considerations": "The ten finger guillotine applies intense compression to the trachea and carotid arteries. Training partners must tap immediately when choking pressure is felt on the neck. The interlaced grip creates rapid, powerful compression that can escalate quickly, making controlled application and immediate release upon tap essential. Never apply rotational or lateral force to the cervical spine—pressure should follow a straight compression axis along the throat. Allow adequate recovery time between repetitions during drilling to prevent cumulative neck strain.",
-    "clips": []
+    "clips": [
+      {
+        "id": "bl3qgsV-l04",
+        "title": "10 Finger Guillotine / Gogo Choke",
+        "channel": "Elevate MMA Academy",
+        "duration": 62,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Ten Finger Guillotine Variation Defender",
@@ -519,6 +529,24 @@
         "description": "Positional sparring starting from guillotine control with opponent free to use any guillotine variation including ten finger. Develop real-time decision-making about when to escape during transition versus when to survive and work incremental defense against the locked grip."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "P5GX0W1FTH0",
+        "title": "defense from 10 finger guillotine with arm in",
+        "channel": "jacek rozwadowski",
+        "duration": 104,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "sU2rveYEfcA",
+        "title": "No Arm In Choke Escapes, 7 different chokes",
+        "channel": "Curt Howard",
+        "duration": 214,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

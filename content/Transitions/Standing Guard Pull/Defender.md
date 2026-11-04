@@ -150,6 +150,37 @@ description: "Defend against the Standing Guard Pull in BJJ. Recognition cues, c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Guard Pull (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The guard pull counter the editor wish he\u0027d watched before his competition...\u2026",
+      "description": "Standing Guard Pull (Defender) film study: The guard pull counter the editor wish he\u0027d watched before his competition...\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cnht4EL_Ato/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cnht4EL_Ato",
+      "url": "https://www.youtube.com/watch?v=Cnht4EL_Ato",
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Pull Counter",
+      "description": "Standing Guard Pull (Defender) film study: Guard Pull Counter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gstQuj57i_Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gstQuj57i_Y",
+      "url": "https://www.youtube.com/watch?v=gstQuj57i_Y",
+      "duration": "PT180S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +193,32 @@ As the defender facing a Standing Guard Pull, your primary objective is to preve
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Guard Pull (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cnht4EL_Ato)
+
+<p class="clip-credit"><strong>The guard pull counter the editor wish he&#39;d watched before his competition...…</strong> · 2:41 · <a href="https://www.youtube.com/watch?v=Cnht4EL_Ato" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gstQuj57i_Y)
+
+<p class="clip-credit"><strong>Guard Pull Counter</strong> · 3:00 · <a href="https://www.youtube.com/watch?v=gstQuj57i_Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

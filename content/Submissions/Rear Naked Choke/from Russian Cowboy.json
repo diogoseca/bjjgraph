@@ -427,7 +427,18 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "8tdVE2zgjXw",
+        "title": "Craig Jones: details on finishing the rear naked choke",
+        "channel": "Wrecking Crew BJJ",
+        "duration": 56,
+        "vertical": false,
+        "start": 36,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Rear Naked Choke from Russian Cowboy Defender",
@@ -602,6 +613,16 @@
         "description": "Positional sparring starting from Russian Cowboy with the attacker cycling between RNC, truck entries, and other attacks. Defend all threats while seeking escape opportunities. Develop the ability to read whether the attacker is committing to the choke or transitioning, and choose defensive responses accordingly."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "0ubZ65hvM2M",
+        "title": "Rear Naked Choke Defense",
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 153,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

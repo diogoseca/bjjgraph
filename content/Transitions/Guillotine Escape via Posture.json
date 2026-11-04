@@ -518,6 +518,17 @@
         "description": "Positional sparring starting in guillotine control bottom with the opponent attempting to escape using any method. Work to finish the guillotine, sweep to mount, or retain guard if the choke is escaped. Track success rate across rounds and identify which defensive adjustments are most effective."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "SaRY5r6N1wc",
+        "title": "How to Make the Guillotine Choke Tighter (and Harder to Escape)",
+        "channel": "Stephan Kesting",
+        "duration": 362,
+        "vertical": false,
+        "start": 65,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

@@ -178,6 +178,27 @@ description: "Learn to attack with the Rear Naked Choke from Russian Cowboy. Set
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Russian Cowboy (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Craig Jones: details on finishing the rear naked choke",
+      "description": "Rear Naked Choke from Russian Cowboy (Attacker) film study: Craig Jones: details on finishing the rear naked choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw?start=36",
+      "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ The Rear Naked Choke from Russian Cowboy demands precise grip management during 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Russian Cowboy (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tdVE2zgjXw&start=36)
+
+<p class="clip-credit"><strong>Craig Jones: details on finishing the rear naked choke</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw&t=36s" rel="noopener">Watch on YouTube from 0:36</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

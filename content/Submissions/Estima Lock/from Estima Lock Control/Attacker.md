@@ -178,6 +178,27 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock from Estima Lock Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Finish the Estima Lock (Get the EASY Tap!)",
+      "description": "Estima Lock from Estima Lock Control (Attacker) film study: How to Finish the Estima Lock (Get the EASY Tap!).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2njD9FdoLtg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2njD9FdoLtg?start=25",
+      "url": "https://www.youtube.com/watch?v=2njD9FdoLtg",
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Finishing the Estima Lock from an already-established control position provides 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock from Estima Lock Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2njD9FdoLtg&start=25)
+
+<p class="clip-credit"><strong>How to Finish the Estima Lock (Get the EASY Tap!)</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=2njD9FdoLtg&t=25s" rel="noopener">Watch on YouTube from 0:25</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

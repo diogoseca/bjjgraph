@@ -36,6 +36,27 @@ description: "Learn the Takedown to Grounded Back Control in BJJ. Step-by-step m
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Takedown to Grounded Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Duck Under to Mat Return to Back",
+      "description": "Takedown to Grounded Back Control film study: Duck Under to Mat Return to Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P4zQ1Si6nOs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P4zQ1Si6nOs",
+      "url": "https://www.youtube.com/watch?v=P4zQ1Si6nOs",
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this transition should be attempted when the opponent demonstrate
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Takedown to Grounded Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P4zQ1Si6nOs)
+
+<p class="clip-credit"><strong>Duck Under to Mat Return to Back</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=P4zQ1Si6nOs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

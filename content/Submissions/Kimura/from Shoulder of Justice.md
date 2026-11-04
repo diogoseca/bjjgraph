@@ -46,6 +46,16 @@ description: "Master the Kimura from Shoulder of Justice in BJJ. Complete guide 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Set up Kimura from Side control",
+      "description": "Kimura from Shoulder of Justice film study: Set up Kimura from Side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g-e2ZrNsoNQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g-e2ZrNsoNQ",
+      "url": "https://www.youtube.com/watch?v=g-e2ZrNsoNQ",
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Kimura from side control",
       "description": "Kimura from Shoulder of Justice film study: Kimura from side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/awNPX8E6bf4/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Master the Kimura from Shoulder of Justice in BJJ. Complete guide 
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura",
       "description": "Kimura from Shoulder of Justice film study: 1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qbKtgYa_wzk/hqdefault.jpg",
@@ -121,6 +131,14 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 <p class="section-subtitle">Watch Kimura from Shoulder of Justice in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g-e2ZrNsoNQ)
+
+<p class="clip-credit"><strong>Set up Kimura from Side control</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=g-e2ZrNsoNQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

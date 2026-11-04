@@ -176,6 +176,27 @@ description: "Master the mounted triangle squeeze mechanics from the attacker pe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Triangle Squeeze (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mounted Triangle Finishing Details",
+      "description": "Mounted Triangle Squeeze (Attacker) film study: Mounted Triangle Finishing Details.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XmfEXgOyog4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XmfEXgOyog4?start=53",
+      "url": "https://www.youtube.com/watch?v=XmfEXgOyog4",
+      "duration": "PT170S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Executing the Mounted Triangle Squeeze requires coordinated action across three 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Triangle Squeeze (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XmfEXgOyog4&start=53)
+
+<p class="clip-credit"><strong>Mounted Triangle Finishing Details</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=XmfEXgOyog4&t=53s" rel="noopener">Watch on YouTube from 0:53</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

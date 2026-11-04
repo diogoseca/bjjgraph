@@ -406,7 +406,25 @@
       }
     ],
     "safety_considerations": "When practicing Morote Seoi Nage, safety is paramount due to the potential for impact injuries. Both practitioners must understand proper breakfall techniques before live drilling. The person executing the throw must maintain control of both sleeves throughout the technique to prevent the opponent from landing directly on their head or neck. Practice on appropriate mats with sufficient padding. Begin with slow, controlled repetitions and gradually increase speed only after both partners are comfortable. The throwing partner should guide the landing by maintaining grip pressure and not releasing too early. Training partners should communicate clearly about their comfort level with resistance and speed. Avoid attempting this technique against significantly larger opponents until technical proficiency is established, as improper execution can result in back or shoulder injuries for the thrower.",
-    "clips": []
+    "clips": [
+      {
+        "id": "0LGcSjOnmCQ",
+        "title": "Morote Seoi Nage - Two Handed Shoulder Throw",
+        "channel": "Grappler Station",
+        "duration": 74,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "MF8VrpsIL1c",
+        "title": "Learning Morote Seionage - the Double Handed Shoulder Throw",
+        "channel": "Grenland Ju Jitsu",
+        "duration": 124,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Morote Seoi Nage Defender",

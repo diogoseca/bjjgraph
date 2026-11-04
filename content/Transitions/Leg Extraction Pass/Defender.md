@@ -142,6 +142,27 @@ description: "Complete defensive guide against the Leg Extraction Pass. Learn to
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter to the Ashi Garami Defense, PAMA, Raleigh NC",
+      "description": "Leg Extraction Pass (Defender) film study: Counter to the Ashi Garami Defense, PAMA, Raleigh NC.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p0dFynBvQZw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p0dFynBvQZw?start=25",
+      "url": "https://www.youtube.com/watch?v=p0dFynBvQZw",
+      "duration": "PT144S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ As the defender against the Leg Extraction Pass, your objective is to maintain t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p0dFynBvQZw&start=25)
+
+<p class="clip-credit"><strong>Counter to the Ashi Garami Defense, PAMA, Raleigh NC</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=p0dFynBvQZw&t=25s" rel="noopener">Watch on YouTube from 0:25</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

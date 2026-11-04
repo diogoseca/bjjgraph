@@ -36,6 +36,27 @@ description: "Master the Sweep from Quarter Guard in BJJ. Learn underhook-driven
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Quarter Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter Guard Sweep from Bottom",
+      "description": "Sweep from Quarter Guard film study: Quarter Guard Sweep from Bottom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vVWnq7P9GPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vVWnq7P9GPs",
+      "url": "https://www.youtube.com/watch?v=vVWnq7P9GPs",
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Quarter guard sweeps occupy a unique strategic position in the half guard system
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Quarter Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vVWnq7P9GPs)
+
+<p class="clip-credit"><strong>Quarter Guard Sweep from Bottom</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=vVWnq7P9GPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

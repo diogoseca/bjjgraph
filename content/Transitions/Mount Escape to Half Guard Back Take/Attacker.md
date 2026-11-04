@@ -176,6 +176,27 @@ description: "How to execute Mount Escape to Half Guard Back Take in BJJ. Comple
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount Escape to Half Guard Back Take (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount Escape to Half-Guard Back Take - Richmond BJJ Academy - April 2012\u2026",
+      "description": "Mount Escape to Half Guard Back Take (Attacker) film study: Mount Escape to Half-Guard Back Take - Richmond BJJ Academy - April 2012\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bwg_jawS8-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bwg_jawS8-0?start=21",
+      "url": "https://www.youtube.com/watch?v=bwg_jawS8-0",
+      "duration": "PT276S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -190,6 +211,24 @@ The technique requires reading the opponent's response at the half guard checkpo
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount Escape to Half Guard Back Take (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bwg_jawS8-0&start=21)
+
+<p class="clip-credit"><strong>Mount Escape to Half-Guard Back Take - Richmond BJJ Academy - April 2012…</strong> · 4:36 · <a href="https://www.youtube.com/watch?v=bwg_jawS8-0&t=21s" rel="noopener">Watch on YouTube from 0:21</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

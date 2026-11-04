@@ -445,7 +445,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "E2eGqpQOmd8",
+        "title": "kimura from top half guard",
+        "channel": "jacek rozwadowski",
+        "duration": 111,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "9DGzMd9VjqE",
+        "title": "Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation…",
+        "channel": "Hayabusa",
+        "duration": 134,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura from Quarter Guard Defender",
@@ -627,7 +645,17 @@
         "description": "Defend kimura attempts during live rolling from quarter guard bottom, integrating recognition, prevention, grip fighting, and escape into fluid defensive responses at realistic intensity"
       }
     ],
-    "clips": [],
+    "clips": [
+      {
+        "id": "u-sTrjJEQrk",
+        "title": "Kimura defense from the bottom half guard, with taking opponents back",
+        "channel": "Verne World Wide BJJ",
+        "duration": 79,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ],
     "escape_clips": [
       {
         "escape": "Turn body aggressively into the attacker",

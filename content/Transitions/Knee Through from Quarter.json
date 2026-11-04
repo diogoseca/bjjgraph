@@ -557,6 +557,17 @@
         "description": "Positional sparring from quarter guard bottom with full resistance. Bottom player scores for successful guard recovery or sweep; top player scores for mount achievement. Track success rates over multiple rounds and identify which defensive patterns need refinement. Integrate counter-offensive opportunities from the defensive positions when they present naturally."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3d2gH5Z6ETA",
+        "title": "Mount Escapes - Quarter guard to Deep Half Guard",
+        "channel": "Honu BJJ Reno",
+        "duration": 281,
+        "vertical": false,
+        "start": 42,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

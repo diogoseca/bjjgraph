@@ -182,6 +182,27 @@ description: "Learn to execute the Deep Half Entry from Flattened Half Guard. St
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deep Half Entry from Flattened (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep Half Guard From Being Flattened",
+      "description": "Deep Half Entry from Flattened (Attacker) film study: Deep Half Guard From Being Flattened.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/shyc7vVYosI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/shyc7vVYosI",
+      "url": "https://www.youtube.com/watch?v=shyc7vVYosI",
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the attacker executing the Deep Half Entry, you are the bottom player trapped
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deep Half Entry from Flattened (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=shyc7vVYosI)
+
+<p class="clip-credit"><strong>Deep Half Guard From Being Flattened</strong> · 2:12 · <a href="https://www.youtube.com/watch?v=shyc7vVYosI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

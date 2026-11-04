@@ -46,22 +46,12 @@ description: "Master the Takedown from Standing Guard in BJJ. Learn level change
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Best Wrestling Defense Sprawl Technique",
-      "description": "Takedown from Standing Guard film study: Best Wrestling Defense Sprawl Technique.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8AaRLOSM61U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8AaRLOSM61U",
-      "url": "https://www.youtube.com/watch?v=8AaRLOSM61U",
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Sprawl against a Double Leg!",
-      "description": "Takedown from Standing Guard film study: How to Sprawl against a Double Leg!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Io79xaXZx_c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Io79xaXZx_c",
-      "url": "https://www.youtube.com/watch?v=Io79xaXZx_c",
-      "duration": "PT56S"
+      "name": "A Powerful Takedown for Gi BJJ \u0026 Basics on How to Grip Fight",
+      "description": "Takedown from Standing Guard film study: A Powerful Takedown for Gi BJJ \u0026 Basics on How to Grip Fight.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4FIPSW38vCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4FIPSW38vCA?start=49",
+      "url": "https://www.youtube.com/watch?v=4FIPSW38vCA",
+      "duration": "PT422S"
     }
   ]
 }
@@ -115,17 +105,9 @@ Success requires integrating wrestling fundamentals with BJJ-specific tactical a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=8AaRLOSM61U)
+![](https://www.youtube.com/watch?v=4FIPSW38vCA&start=49)
 
-<p class="clip-credit"><strong>Best Wrestling Defense Sprawl Technique</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=8AaRLOSM61U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Io79xaXZx_c)
-
-<p class="clip-credit"><strong>How to Sprawl against a Double Leg!</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=Io79xaXZx_c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>A Powerful Takedown for Gi BJJ &amp; Basics on How to Grip Fight</strong> · 7:02 · <a href="https://www.youtube.com/watch?v=4FIPSW38vCA&t=49s" rel="noopener">Watch on YouTube from 0:49</a></p>
 
 </div>
 

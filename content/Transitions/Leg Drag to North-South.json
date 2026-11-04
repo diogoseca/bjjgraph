@@ -381,7 +381,26 @@
       }
     ],
     "safety_considerations": "This transition is relatively low-risk from an injury standpoint as it involves controlled movement rather than dynamic techniques or joint manipulation. The primary safety consideration is maintaining smooth, continuous pressure during the transition rather than sudden jerking movements that could cause the opponent's neck or shoulder to twist unexpectedly. When drilling, ensure the bottom partner communicates if pressure becomes uncomfortable, particularly around the head and neck area as you circle. In competition, be aware that rapid transitions can catch opponents off-guard—give them a moment to recognize the new position before attacking submissions.",
-    "clips": []
+    "clips": [
+      {
+        "id": "AwwJ1HI7D20",
+        "title": "BJJ: Leg Drag Pass To North-South | Evolve MMA",
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 75,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "yCIUXFyowFs",
+        "title": "Leg Drag to North South",
+        "channel": "N M",
+        "duration": 159,
+        "vertical": false,
+        "start": 40,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to North-South Defender",

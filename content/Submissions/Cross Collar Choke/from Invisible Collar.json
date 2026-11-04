@@ -622,6 +622,53 @@
         "duration": 142,
         "verified": "2026-07-14"
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Fight collar access",
+        "clips": [
+          {
+            "id": "rJM7Ou84ZA4",
+            "title": "4 Counters to the Cross Collar Grip from Closed Guard in BJJ",
+            "channel": "Stephan Kesting",
+            "duration": 635,
+            "vertical": false,
+            "start": 53,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "escape": "Keep an inside frame",
+        "clips": [
+          {
+            "id": "QIRF2B9riAA",
+            "title": "Cross Choke Defense from Guard - Two Quick Tips",
+            "channel": "Wayne Sniffen",
+            "duration": 105,
+            "vertical": false,
+            "start": 49,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "escape": "Work on a grip and neck space",
+        "clips": [
+          {
+            "id": "6rMCDkWRlgg",
+            "title": "Cross Collar Choke Defense Part 1: “Down and Over”",
+            "channel": "Six Blades NOVA Emil Takeuchi",
+            "duration": 93,
+            "vertical": false,
+            "start": 2,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

@@ -188,6 +188,16 @@ description: "How to finish the Ten Finger Guillotine from Guillotine Control. G
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "10 Finger Guillotine / Gogo Choke",
+      "description": "Ten Finger Guillotine from Guillotine Control (Attacker) film study: 10 Finger Guillotine / Gogo Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bl3qgsV-l04/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bl3qgsV-l04",
+      "url": "https://www.youtube.com/watch?v=bl3qgsV-l04",
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "How to Do a 10-Finger Guillotine | MMA Submissions",
       "description": "Ten Finger Guillotine from Guillotine Control (Attacker) film study: How to Do a 10-Finger Guillotine | MMA Submissions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tsofKYcYqaA/hqdefault.jpg",
@@ -219,6 +229,14 @@ Attacking with the Ten Finger Guillotine from Guillotine Control requires a syst
 
 <p class="section-subtitle">Watch Ten Finger Guillotine from Guillotine Control (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bl3qgsV-l04)
+
+<p class="clip-credit"><strong>10 Finger Guillotine / Gogo Choke</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=bl3qgsV-l04" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

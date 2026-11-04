@@ -628,7 +628,17 @@
         "description": "Start from KOB bottom with partner attacking kimura at full competition pace. Develop automatic defensive reactions and escape timing under pressure. Focus on survival composure and technical execution under respiratory distress."
       }
     ],
-    "clips": [],
+    "clips": [
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura Defense from Bottom Side Control",
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ],
     "escape_clips": [
       {
         "escape": "Grip anchor defense",

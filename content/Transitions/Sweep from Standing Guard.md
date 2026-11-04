@@ -36,6 +36,27 @@ description: "Master the Sweep from Standing Guard in BJJ. Complete guide to off
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Standing Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Do the Tripod Sweep | Jiu Jitsu",
+      "description": "Sweep from Standing Guard film study: How to Do the Tripod Sweep | Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sb1qqB60GHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sb1qqB60GHU",
+      "url": "https://www.youtube.com/watch?v=sb1qqB60GHU",
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategic timing separates successful sweep attempts from wasted energy. The opt
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Standing Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sb1qqB60GHU)
+
+<p class="clip-credit"><strong>How to Do the Tripod Sweep | Jiu Jitsu</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=sb1qqB60GHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

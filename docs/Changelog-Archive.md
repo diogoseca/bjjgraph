@@ -13664,3 +13664,14 @@ before validation, with HEAD as the snapshot, and reverts a file a reword left o
 `_clips.py` so that script and the paid pass share one implementation. The corpus validator now prints the join and fails
 under `ESCAPE_CLIP_JOIN_FLOOR`, since per file a record with no rows is fine and only a corpus walk can tell "all joined"
 from "nothing to join". Mutants now 13 of 13.
+
+**Technique clips, folded in (CAPORDER1, one capture for both).** The gap was 1,623 of 2,578 halves: 1,478 empty, and 145
+with clips but no approved front, which `_choiceFront` refuses. Dead clips were not a cause: the November rot check passed
+1,659 of 1,659. This batch gives 325 of those halves a front with 423 clips, and 67 escape cards a clip.
+
+Method, for every pick: search with queries written per technique (two routes, 20 per half at most), a first judge on
+title, channel and description, an embed check, the full description and captions fetched fresh, then a second independent
+judge reading them. October's ban list was rebuilt first, 443 ids everywhere plus a per-half ban, so nothing that curation
+refused comes back. A clip ships only with an accept and read evidence. 16 accepts that rested on a title alone are held
+for a visual check: that is the evidence class October's QC failed on. Of the 100 most-dealt halves 41 have a clip; most
+of the rest are defender halves of transitions, which instructors rarely film, and "no video beats a wrong one" stands.

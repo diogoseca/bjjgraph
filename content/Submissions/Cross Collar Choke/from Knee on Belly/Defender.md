@@ -152,6 +152,37 @@ description: "Defend against the cross collar choke from knee on belly. Complete
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "RLVT Counter to Knee-On-Belly Cross-Collar Choke",
+      "description": "Cross Collar Choke from Knee on Belly (Defender) film study: RLVT Counter to Knee-On-Belly Cross-Collar Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fN_mU3YAf5c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fN_mU3YAf5c?start=52",
+      "url": "https://www.youtube.com/watch?v=fN_mU3YAf5c",
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross Collar Choke Defense Part 1: \u201cDown and Over\u201d",
+      "description": "Cross Collar Choke from Knee on Belly (Defender) film study: Cross Collar Choke Defense Part 1: \u201cDown and Over\u201d.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6rMCDkWRlgg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6rMCDkWRlgg",
+      "url": "https://www.youtube.com/watch?v=6rMCDkWRlgg",
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending the cross collar choke from knee on belly requires managing two simult
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fN_mU3YAf5c&start=52)
+
+<p class="clip-credit"><strong>RLVT Counter to Knee-On-Belly Cross-Collar Choke</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=fN_mU3YAf5c&t=52s" rel="noopener">Watch on YouTube from 0:52</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6rMCDkWRlgg)
+
+<p class="clip-credit"><strong>Cross Collar Choke Defense Part 1: “Down and Over”</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=6rMCDkWRlgg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

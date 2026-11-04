@@ -46,6 +46,16 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "How to: TARIKOPLATA",
+      "description": "Tarikoplata from Closed Guard film study: How to: TARIKOPLATA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7QIKCY_R_3A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7QIKCY_R_3A",
+      "url": "https://www.youtube.com/watch?v=7QIKCY_R_3A",
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Tarikoplata finishes + switch to Baratoplata",
       "description": "Tarikoplata from Closed Guard film study: Tarikoplata finishes + switch to Baratoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZbFNUmyWQkM/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Do you know about the power of the TARIKOPLATA?",
       "description": "Tarikoplata from Closed Guard film study: Do you know about the power of the TARIKOPLATA?.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jpNqecvfuFg/hqdefault.jpg",
@@ -117,6 +127,14 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 <p class="section-subtitle">Watch Tarikoplata from Closed Guard in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7QIKCY_R_3A)
+
+<p class="clip-credit"><strong>How to: TARIKOPLATA</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=7QIKCY_R_3A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

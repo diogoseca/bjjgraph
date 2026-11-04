@@ -182,6 +182,27 @@ description: "Master the attacking mechanics of Cross Ashi to 50-50. Complete gu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Ashi to 50-50 (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle to 50/50: A Transition",
+      "description": "Cross Ashi to 50-50 (Attacker) film study: Saddle to 50/50: A Transition.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h3VbOwfR7-k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h3VbOwfR7-k",
+      "url": "https://www.youtube.com/watch?v=h3VbOwfR7-k",
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the attacker executing the Cross Ashi to 50-50 transition, your primary objec
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Ashi to 50-50 (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h3VbOwfR7-k)
+
+<p class="clip-credit"><strong>Saddle to 50/50: A Transition</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=h3VbOwfR7-k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

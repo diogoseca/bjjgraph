@@ -620,7 +620,18 @@
         "description": "Positional sparring where the attacker works Kimura attacks from butterfly guard and the defender practices the full defensive sequence: recognition, prevention, grip defense, and escape. Full resistance with emphasis on safe tapping when caught and controlled release protocol."
       }
     ],
-    "clips": [],
+    "clips": [
+      {
+        "id": "urKU1BKZNXA",
+        "title": "Kimura Counter From Top Half Guard To Armlock",
+        "channel": "Revolution BJJ Ashland",
+        "duration": 52,
+        "vertical": false,
+        "start": 21,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ],
     "escape_clips": [
       {
         "escape": "Grab your own belt, shorts, or opposite hand",

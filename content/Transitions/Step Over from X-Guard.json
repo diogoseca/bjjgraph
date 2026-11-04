@@ -358,7 +358,17 @@
       }
     ],
     "safety_considerations": "The Step Over from X-Guard is a relatively low-risk technique with no direct joint lock or choking mechanism. The primary safety concern involves the top player losing balance during the single-leg phase and falling onto the bottom player with uncontrolled weight. Both practitioners should be aware of knee and ankle stress on the bottom player's hooked legs during compression phases. In training, start with controlled speed and cooperative partners before progressing to resistance. Avoid slamming or dropping weight aggressively during the landing phase.",
-    "clips": []
+    "clips": [
+      {
+        "id": "5EGR9NJXeDk",
+        "title": "Smash the X Guard - Step Over Pass to Tight Underhook Side Control",
+        "channel": "Lapel Lab ",
+        "duration": 108,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Step Over from X-Guard Defender",

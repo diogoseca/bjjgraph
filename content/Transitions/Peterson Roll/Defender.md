@@ -150,6 +150,37 @@ description: "How to defend against Peterson Roll in BJJ. Recognition cues, defe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peterson Roll (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mike Baldi (TRN \u0026 CBA) Defending Peterson Roll",
+      "description": "Peterson Roll (Defender) film study: Mike Baldi (TRN \u0026 CBA) Defending Peterson Roll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Va6feldqmRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Va6feldqmRk",
+      "url": "https://www.youtube.com/watch?v=Va6feldqmRk",
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The McGuire Cradle: The Best Counter to my Peterson Roll series....",
+      "description": "Peterson Roll (Defender) film study: The McGuire Cradle: The Best Counter to my Peterson Roll series.....",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6soZwuIvrrY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6soZwuIvrrY",
+      "url": "https://www.youtube.com/watch?v=6soZwuIvrrY",
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +193,32 @@ Defending the Peterson Roll requires the turtle top player to recognize the earl
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peterson Roll (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Va6feldqmRk)
+
+<p class="clip-credit"><strong>Mike Baldi (TRN &amp; CBA) Defending Peterson Roll</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=Va6feldqmRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6soZwuIvrrY)
+
+<p class="clip-credit"><strong>The McGuire Cradle: The Best Counter to my Peterson Roll series....</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=6soZwuIvrrY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

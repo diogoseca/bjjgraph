@@ -624,6 +624,24 @@
         "description": "Start in 50-50 bottom with partner attacking freely using heel hook to calf slicer chains. Defend with all available techniques under full resistance. Emphasize tapping early when escapes fail rather than absorbing damage. Reset after tap, successful escape, or 60-second time limit."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "34MH31xRL-w",
+        "title": "Counter to Calf Crusher",
+        "channel": "wncbjj",
+        "duration": 13,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "UIaZYXwrDJM",
+        "title": "Calf Slicer defense",
+        "channel": "Warrior Combat Academy",
+        "duration": 21,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

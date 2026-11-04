@@ -559,6 +559,24 @@
         "description": "Start from progressively later defensive positions: leg already crossing over, arm already trapped, and rotation in progress. Practice stacking forward, bridging into the attacker, and grip defense. Critically, practice recognizing when the belly-down position is fully locked and tapping immediately rather than fighting a losing position."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "AApmPQUUmYI",
+        "title": "Belly down arm bar escape breakdown",
+        "channel": "Anchorlinefitness",
+        "duration": 61,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "FlFGsSpqYdE",
+        "title": "Belly Down Arm Bar Escape:Basic",
+        "channel": "Submissions101",
+        "duration": 84,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

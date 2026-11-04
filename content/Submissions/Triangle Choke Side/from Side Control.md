@@ -36,6 +36,27 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke Side from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Finish the Yoko Sankaku (Side Triangle)",
+      "description": "Triangle Choke Side from Side Control film study: How to Finish the Yoko Sankaku (Side Triangle).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OZ0v1pu8gJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OZ0v1pu8gJU",
+      "url": "https://www.youtube.com/watch?v=OZ0v1pu8gJU",
+      "duration": "PT222S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke Side from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OZ0v1pu8gJU)
+
+<p class="clip-credit"><strong>How to Finish the Yoko Sankaku (Side Triangle)</strong> · 3:42 · <a href="https://www.youtube.com/watch?v=OZ0v1pu8gJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

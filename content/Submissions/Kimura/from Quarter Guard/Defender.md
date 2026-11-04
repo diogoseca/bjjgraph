@@ -152,6 +152,27 @@ description: "Defend against the Kimura from Quarter Guard. Learn recognition cu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Quarter Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura defense from the bottom half guard, with taking opponents back",
+      "description": "Kimura from Quarter Guard (Defender) film study: Kimura defense from the bottom half guard, with taking opponents back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u-sTrjJEQrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u-sTrjJEQrk",
+      "url": "https://www.youtube.com/watch?v=u-sTrjJEQrk",
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the Kimura from Quarter Guard demands early recognition and immediate 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Quarter Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u-sTrjJEQrk)
+
+<p class="clip-credit"><strong>Kimura defense from the bottom half guard, with taking opponents back</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=u-sTrjJEQrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

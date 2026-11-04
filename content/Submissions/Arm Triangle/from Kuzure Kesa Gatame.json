@@ -449,7 +449,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "xz9-FEBFFIo",
+        "title": "Arm Triangle from Scarf Hold Position",
+        "channel": "Mat Life Training Center",
+        "duration": 32,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Kuzure Kesa Gatame Defender",

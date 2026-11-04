@@ -451,7 +451,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "nDDWcu1JALo",
+        "title": "How to Learn Nasty Shoulder Lock In Under 60 seconds -Williams Guard - Usher BJJ",
+        "channel": "USHER BJJ",
+        "duration": 49,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Williams Shoulder Lock from Williams Guard Defender",

@@ -46,12 +46,12 @@ description: "Master underhook pummeling from the clinch in BJJ. Complete guide 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "mauthai muppets, how to escape underhooks in the clinch option 2",
-      "description": "Underhook Pummeling from Clinch film study: mauthai muppets, how to escape underhooks in the clinch option 2.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/i5pNuC1_uyA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/i5pNuC1_uyA",
-      "url": "https://www.youtube.com/watch?v=i5pNuC1_uyA",
-      "duration": "PT74S"
+      "name": "WrestleSmart\uf022 Under Hook \u0026 Pummeling Drill",
+      "description": "Underhook Pummeling from Clinch film study: WrestleSmart\uf022 Under Hook \u0026 Pummeling Drill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FKDWdeQzL9A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FKDWdeQzL9A",
+      "url": "https://www.youtube.com/watch?v=FKDWdeQzL9A",
+      "duration": "PT88S"
     }
   ]
 }
@@ -105,9 +105,9 @@ At the highest levels, pummeling transcends simple arm swimming and becomes an i
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=i5pNuC1_uyA)
+![](https://www.youtube.com/watch?v=FKDWdeQzL9A)
 
-<p class="clip-credit"><strong>mauthai muppets, how to escape underhooks in the clinch option 2</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=i5pNuC1_uyA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>WrestleSmart Under Hook &amp; Pummeling Drill</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=FKDWdeQzL9A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

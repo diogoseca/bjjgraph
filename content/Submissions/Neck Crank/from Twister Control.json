@@ -821,6 +821,23 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Aggressive hand fighting",
+        "clips": [
+          {
+            "id": "PPUxvzfx_E8",
+            "title": "Neck Cranks and How to Defend Them",
+            "channel": "Gracie Ohio Jiu-Jitsu Academy",
+            "duration": 506,
+            "vertical": false,
+            "start": 230,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

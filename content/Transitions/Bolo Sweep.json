@@ -361,7 +361,25 @@
       }
     ],
     "safety_considerations": "The Bolo requires significant spinal flexibility and inversion ability, making progressive warm-up of the neck, shoulders, and thoracic spine essential before training. Practitioners should develop neck strength and inversion comfort through solo forward and backward rolling drills before attempting the technique with a partner. Ensure adequate mat space since the rotation can carry both practitioners several feet from the starting position. Partners should never post hands directly on the inverting practitioner's head or neck during drilling, as this can cause cervical spine compression. Beginners must practice the inversion mechanics slowly with fully cooperative partners before adding any resistance. Those with pre-existing neck, back, or shoulder injuries should consult a medical professional before training this technique. In competition, be aware of IBJJF rules regarding slamming from inversions.",
-    "clips": []
+    "clips": [
+      {
+        "id": "n61ObZSjBW8",
+        "title": "HOW-TO: DLR/Berimbolo to the back with Rafael Mendes",
+        "channel": "GRACIEMAG - The original BJJ magazine. ",
+        "duration": 70,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "fuQZmEoMui8",
+        "title": "Berimbolo from De La Riva",
+        "channel": "Six Blades Jiu-Jitsu Fort Worth",
+        "duration": 126,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Bolo Sweep Defender",
@@ -537,7 +555,18 @@
         "description": "Open positional sparring from De La Riva guard with full resistance. Partner uses complete DLR attack system including Bolo, Berimbolo Entry, Kiss of the Dragon, and standard sweeps. Focus on recognizing Bolo versus other DLR attacks and selecting appropriate defense. After successful Bolo defense, immediately transition to guard passing rather than resetting. Include rounds against multiple training partners with different DLR styles to develop universal pattern recognition."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Aab_52dRa4w",
+        "title": "Juliano Prado - De La Riva/Berimbolo counter",
+        "channel": "TotalMMAStudios",
+        "duration": 93,
+        "vertical": false,
+        "start": 23,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

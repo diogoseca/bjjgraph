@@ -46,12 +46,12 @@ description: "Master the Inside Sankaku Heel Hook in BJJ. Comprehensive guide to
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Escape the HONEY HOLE - Variation with BJJ Black Belt",
-      "description": "Inside Sankaku Heel Hook film study: How to Escape the HONEY HOLE - Variation with BJJ Black Belt.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gEEHqiSznS4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gEEHqiSznS4",
-      "url": "https://www.youtube.com/watch?v=gEEHqiSznS4",
-      "duration": "PT60S"
+      "name": "Inside Heel Hook from Saddle Finishing Mechanics Explained",
+      "description": "Inside Sankaku Heel Hook film study: Inside Heel Hook from Saddle Finishing Mechanics Explained.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CE-249MNn5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CE-249MNn5A",
+      "url": "https://www.youtube.com/watch?v=CE-249MNn5A",
+      "duration": "PT279S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The heel hook attacks the knee's ligaments through rotational force transmitted 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gEEHqiSznS4)
+![](https://www.youtube.com/watch?v=CE-249MNn5A)
 
-<p class="clip-credit"><strong>How to Escape the HONEY HOLE - Variation with BJJ Black Belt</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=gEEHqiSznS4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside Heel Hook from Saddle Finishing Mechanics Explained</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=CE-249MNn5A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

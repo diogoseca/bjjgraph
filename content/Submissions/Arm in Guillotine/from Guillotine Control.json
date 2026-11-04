@@ -637,6 +637,16 @@
         "description": "Begin rounds with partner establishing arm-in guillotine from guillotine control at full competition intensity. Defender must escape to a neutral or favorable position. Track success rate and identify which escape paths work best against different attacker styles. 2-minute rounds, reset after each resolution."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "tUU62NEPzVU",
+        "title": "Arm in Guillotine escape",
+        "channel": "Enso Jiu Jitsu Oregon City ",
+        "duration": 60,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

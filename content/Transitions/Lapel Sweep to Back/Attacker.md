@@ -170,6 +170,27 @@ description: "How to execute Lapel Sweep to Back in BJJ. Attacking perspective w
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Sweep to Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rafa Mendes showing worm guard / lapel sweep to back take",
+      "description": "Lapel Sweep to Back (Attacker) film study: Rafa Mendes showing worm guard / lapel sweep to back take.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LmKuASuN_Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LmKuASuN_Hs",
+      "url": "https://www.youtube.com/watch?v=LmKuASuN_Hs",
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +207,24 @@ The technique requires timing recognition and commitment to the back take pathwa
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Sweep to Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LmKuASuN_Hs)
+
+<p class="clip-credit"><strong>Rafa Mendes showing worm guard / lapel sweep to back take</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=LmKuASuN_Hs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

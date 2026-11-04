@@ -158,6 +158,27 @@ description: "Learn to counter the stack defense from omoplata. Recognition cues
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Defense from Omoplata (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata Defense: Stacking and Takroll",
+      "description": "Stack Defense from Omoplata (Defender) film study: Omoplata Defense: Stacking and Takroll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sv1KP-8IQvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sv1KP-8IQvI",
+      "url": "https://www.youtube.com/watch?v=Sv1KP-8IQvI",
+      "duration": "PT157S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,6 +191,24 @@ The defender in this scenario is the practitioner whose shoulder is trapped in t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Defense from Omoplata (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sv1KP-8IQvI)
+
+<p class="clip-credit"><strong>Omoplata Defense: Stacking and Takroll</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=Sv1KP-8IQvI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

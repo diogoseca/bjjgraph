@@ -36,6 +36,27 @@ description: "Master the Meathook Entry from Rubber Guard. Complete 10th Planet 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Meathook Entry from Rubber Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ben Eddy NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to\u2026",
+      "description": "Meathook Entry from Rubber Guard film study: Ben Eddy NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4HRzdivWEyU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4HRzdivWEyU",
+      "url": "https://www.youtube.com/watch?v=4HRzdivWEyU",
+      "duration": "PT364S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically this is one of the most important advancement decisions in the Rub
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Meathook Entry from Rubber Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4HRzdivWEyU)
+
+<p class="clip-credit"><strong>Ben Eddy NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to…</strong> · 6:04 · <a href="https://www.youtube.com/watch?v=4HRzdivWEyU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

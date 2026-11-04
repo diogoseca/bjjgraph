@@ -36,6 +36,27 @@ description: "Master the Frame Escape from Shoulder of Justice in BJJ. Learn sys
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame Escape from Shoulder of Justice \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side Control Escape - Frames",
+      "description": "Frame Escape from Shoulder of Justice film study: Side Control Escape - Frames.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yUHv2mR8WM0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yUHv2mR8WM0?start=93",
+      "url": "https://www.youtube.com/watch?v=yUHv2mR8WM0",
+      "duration": "PT325S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this escape requires exceptional composure under pressure. The ja
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame Escape from Shoulder of Justice in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yUHv2mR8WM0&start=93)
+
+<p class="clip-credit"><strong>Side Control Escape - Frames</strong> · 5:25 · <a href="https://www.youtube.com/watch?v=yUHv2mR8WM0&t=93s" rel="noopener">Watch on YouTube from 1:33</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

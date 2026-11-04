@@ -415,7 +415,27 @@
       }
     ],
     "safety_considerations": "This transition involves threading your leg around the opponent's leg, which can create momentary knee vulnerability if the opponent sprawls or drives forward unexpectedly during hook insertion. Avoid forcing the DLR hook if the angle is not correct, as this can hyperextend your hooking knee. Communicate with training partners about the intensity of their passing pressure during transition drills to prevent accidental knee torque. The transition itself carries low injury risk compared to submissions, but practitioners with existing knee issues should develop the hook insertion gradually and avoid snapping the hook in aggressively.",
-    "clips": []
+    "clips": [
+      {
+        "id": "EazteTlQcl4",
+        "title": "Closed guard to double sleeve to de la Riva lasso",
+        "channel": "RG BJJ - Pembroke Pines",
+        "duration": 205,
+        "vertical": false,
+        "start": 180,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "mtSvjofjvuM",
+        "title": "The Closed Guard System - Double Sleeve Series - Transitioning to De La Riva…",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 393,
+        "vertical": false,
+        "start": 21,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Double Sleeve to De La Riva Defender",
