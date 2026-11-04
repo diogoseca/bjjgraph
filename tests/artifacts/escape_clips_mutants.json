@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "version": "1.247.0",
+    "source_head": "0370724d02cd9e2a0713115e51ad5fa89301d440",
+    "command": "TMPDIR=/home/user/tmp-pw PW_PORT=18747 PW_TESTDIR=./journeys nice -n 10 python3 -B tests/artifacts/escape_clips_mutants.py --output tmp/escape-clips/mutants",
+    "execution": "Shared build lock; heavy-advisory GO; one browser worker; each source mutant rebuilt before its named failure and passing control; exact source bytes and healthy bundle restored.",
+    "source_sha256": {
+      "neural/src/app.src.jsx": "d0d06a05506289880f591a2385012cd35bff21c9d7ab538f6b9fa460c24c5e95",
+      "neural/src/choice-value.css": "0ee897f125ededa8359183afca300f982464fa3a936d2ef18c96327c1f582267"
+    },
+    "killed": 10,
+    "survived": 0
+  },
+  "results": [
+    {
+      "mutant": "escape_target",
+      "failed": [
+        [
+          "@curated escape clips: own cards show the exact first clip and watch its start",
+          "failed"
+        ]
+      ],
+      "passed": [
+        [
+          "@curated escape clips: no escapes keeps the placeholder, never the defender reel",
+          "passed"
+        ]
+      ]
+    },
+    {
+      "mutant": "escape_queue",
+      "failed": [
+        [
+          "@curated escape clips: own cards show the exact first clip and watch its start",
+          "failed"
+        ]
+      ],
+      "passed": [
+        [
+          "@curated escape clips: no escapes keeps the placeholder, never the defender reel",
+          "passed"
+        ]
+      ]
+    },
+    {
+      "mutant": "escape_label",
+      "failed": [
+        [
+          "@curated escape clips: own cards show the exact first clip and watch its start",
+          "failed"
+        ]
+      ],
+      "passed": [
+        [
+          "@curated escape clips: no escapes keeps the placeholder, never the defender reel",
+          "passed"
+        ]
+      ]
+    },
+    {
+      "mutant": "escape_first",
+      "failed": [
+        [
+          "@curated escape clips: own cards show the exact first clip and watch its start",
+          "failed"
+        ]
+      ],
+      "passed": [
+        [
+          "@curated escape clips: no escapes keeps the placeholder, never the defender reel",
+          "passed"
+        ]
+      ]
+    },
+    {
+      "mutant": "escape_start",
+      "failed": [
+        [
+          "@curated escape clips: own cards show the exact first clip and watch its start",
+          "failed"
+        ]
+      ],
+      "passed": [
+        [
+          "@curated escape clips: no escapes keeps the placeholder, never the defender reel",
+          "passed"
+        ]
+      ]
+    },
+    {
+      "mutant": "defender_reel_fallback",
+      "failed": [
+        [
+          "@curated escape clips: no label entry keeps the placeholder, never the defender reel",
+          "failed"
+        ]
+      ],
+      "passed": [
+        [
+          "@curated escape clips: own cards show the exact first clip and watch its start",
+          "passed"
+        ]
+      ]
+    },
+    {
+      "mutant": "escape_front",
+      "failed": [
+        [
+          "@curated escape clips: unapproved first keeps the placeholder, never the defender reel",
+          "failed"
+        ]
+      ],
+      "passed": [
+        [
+          "@curated escape clips: own cards show the exact first clip and watch its start",
+          "passed"
+        ]
+      ]
+    },
+    {
+      "mutant": "escape_later",
+      "failed": [
+        [
+          "@curated escape clips: approved later keeps the placeholder, never the defender reel",
+          "failed"
+        ]
+      ],
+      "passed": [
+        [
+          "@curated escape clips: own cards show the exact first clip and watch its start",
+          "passed"
+        ]
+      ]
+    },
+    {
+      "mutant": "escape_truthy",
+      "failed": [
+        [
+          "@curated escape clips: truthy front keeps the placeholder, never the defender reel",
+          "failed"
+        ]
+      ],
+      "passed": [
+        [
+          "@curated escape clips: own cards show the exact first clip and watch its start",
+          "passed"
+        ]
+      ]
+    },
+    {
+      "mutant": "threat_escape_excluded",
+      "failed": [
+        [
+          "@curated escape clips: opponent threats show the exact first clip and watch its start",
+          "failed"
+        ]
+      ],
+      "passed": [
+        [
+          "@curated escape clips: own cards show the exact first clip and watch its start",
+          "passed"
+        ]
+      ]
+    }
+  ]
+}

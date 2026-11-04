@@ -18,6 +18,8 @@ import { installPlayerStub } from "../fixtures/video-cards"
  * escape_later -> "escape clips: approved later ...";
  * escape_truthy -> "escape clips: truthy front ...";
  * threat_escape_excluded -> "escape clips: opponent threats ...".
+ * Measured 2026-11-04: all ten killed with their passing controls; no survivors.
+ * Results and source hashes: tests/artifacts/escape_clips_mutants.json.
  */
 const NAME = "Triangle Choke from Triangle Control"
 const POSTURE = "Posture up", STACK = "Stack escape"

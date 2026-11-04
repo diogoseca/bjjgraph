@@ -13592,3 +13592,10 @@ against base `1308bf0dd`'s committed app fingerprint. `tests/artifacts/first_han
 records 361,961 core gzip bytes, 3,335 below the accepted 365,296-byte baseline; the 6,000-byte delta
 cap and all payload thresholds stayed unchanged. The full site build, app refresh and payload
 validator passed.
+
+All ten named source mutants were killed by their specified journeys, each with an unaffected
+passing browser control: `escape_target`, `escape_queue`, `escape_label`, `escape_first`,
+`escape_start`, `defender_reel_fallback`, `escape_front`, `escape_later`, `escape_truthy` and
+`threat_escape_excluded`. Results and source hashes are committed in
+`tests/artifacts/escape_clips_mutants.json`. The runner restored the source byte-for-byte and
+rebuilt the healthy bundle; there were no surviving mutants.
