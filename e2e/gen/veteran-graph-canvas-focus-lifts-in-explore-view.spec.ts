@@ -25,7 +25,7 @@ test("veteran: Challenge graph focus clears in Explore and restores on return", 
   expect(challenges).toMatchObject({ view: "challenges", focused: true })
   expect(challenges.setSize).toBeGreaterThan(50)
   expect(challenges.outside).toBeGreaterThan(0)
-  expect(await page.locator(".ng-track-card").count()).toBe(5)
+  expect(await page.locator(".ng-belt-section").count()).toBe(5)
 
   await page.locator('[data-view="explore"]').click()
   const explore = await page.evaluate(readFocus)
@@ -36,6 +36,6 @@ test("veteran: Challenge graph focus clears in Explore and restores on return", 
   await page.locator('[data-view="challenges"]').click()
   const back = await page.evaluate(readFocus)
   expect(back).toMatchObject({ view: "challenges", focused: true })
-  expect(await page.locator(".ng-track-card").count()).toBe(5)
+  expect(await page.locator(".ng-belt-section").count()).toBe(5)
   expect(await page.locator(".ng-challenge-group").count()).toBeGreaterThan(0)
 })

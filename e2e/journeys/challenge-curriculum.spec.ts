@@ -53,11 +53,12 @@ test.describe("Challenge curriculum @curated", () => {
     await expect(page.locator(".ngStat[data-b='due']"), "Practice sits on the list").toBeVisible();
   });
 
-  test("all content tracks and lessons are open while proof gates checkpoints and capstones", async ({
+  test("earned tracks keep lessons open while proof gates checkpoints and capstones", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/");
+    await page.evaluate(() => { const a = (window as any).__neural; a.belts = { ...a.belts, held: { id: "black", t: 1 }, gf: 1 }; });
     await openChallenges(page);
 
     const tracks = page.locator(".ng-track-card");
@@ -255,6 +256,7 @@ test.describe("Challenge curriculum @curated", () => {
     await j.boot("/");
     await j.land("Mount Top");
     await page.evaluate(() => (window as any).__neural.setGiMode("nogi"));
+    await page.evaluate((id) => { const a = (window as any).__neural; a.belts = { ...a.belts, held: { id, t: 1 }, gf: 1 }; }, owner.track.id);
     await openChallenges(page);
     await page
       .locator(`.ng-track-card[data-track="${owner.track.id}"]`)
@@ -477,6 +479,7 @@ test.describe("Challenge curriculum @curated", () => {
     await expect(page.locator(".ng-challenge-curriculum").first()).toContainText(
       "Curriculum is unavailable right now",
     );
-    await expect(page.locator(".ng-track-card")).toHaveCount(5);
+    await expect(page.locator(".ng-belt-section")).toHaveCount(5);
+    await expect(page.locator("[data-belt-locked]")).toHaveCount(4);
   });
 });

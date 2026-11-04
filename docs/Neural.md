@@ -773,10 +773,16 @@ through the same persisted `exploreOpenSections` map a header click uses (neighb
 folds), and starts nothing. The deferred sections render expanded when their payload lands,
 because the map is written before their first render asks.
 
-**Challenges** — the belt corridor. Five content tracks, all open from day one; track colours
-describe material difficulty, never rank or access. The frontier belt (first belt with lessons
-left) drives navigation — the open section, the arrival scroll, the cue; the tab belt is the belt
-you **wear** (§8), never the frontier, which painted a finished player white. Nothing re-locks.
+**Path and Practice belt sections** (v1.248.0, owner U76/U87). The existing kept belt and
+its grandfathered entitlement determine which sections open. Current and earned earlier belts
+are clickable; future sections are inert. In Practice, earlier belts sit behind “Show earlier
+belts” at the end. Saved folds and selection cannot grant access. The worn belt drives default
+opening and Path arrival; lesson progress still drives the next-lesson highlight. All material
+remains available through reference, lists and gameplay, and all due reviews remain eligible.
+Path keeps its original corridor temporarily as the owner's UI reference (U86).
+
+The [P1 capability checklist](../tests/artifacts/ladder_p1_capabilities.md) extends the sidebar's
+145-row inventory; its [mutation ledger](../tests/artifacts/ladder_p1_mutants.md) records verification.
 
 **Inline deck keys.** History, session queues and corridor lessons share `_miniReg`: `←/→`
 pages, `↑/↓` walks techniques (corridor lesson order, skipping folded belts), `Space` flips,
@@ -843,18 +849,21 @@ Positions share one third of score mass, like attacking and defending technique 
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
 are shown*), never in what a deck is *worth*.
 
-**Practice is one mixed session** (v1.242.0, owner U56 e). The planner (`gameplan.src.js`) deals every
-owed review, most overdue first, and slips the next new gap deck (the weak-spots or study-comparison
-ranking) in once the reviews placed before it pay for its cards at `NG_PRACTICE_REVIEWS_PER_NEW` = 4,
-counted in cards; decks are dealt whole, so the copy says "a new technique after every few reviews". The
-daily goal, `NG_PRACTICE_GOAL` = 20 (`dailyGoal` overrides, read through `practiceGoal()`), counts both
-kinds and is also the day's new-card quota (`ngPracticeRoom`, the owner's number): new cards fill what
-reviews leave of it, are never fewer than a fifth of it, and stop once the day's answers reach it.
-Reviews are never capped. Each row says Review or New; the head reads "Practice · N reviews, M new" and
-"Daily goal: N of 20 today". The drawer's opening asks for the planner chunk, and a queue pressed before
-it lands, with nothing graded, becomes the mix when it does. Practice does not ask for the study
-comparison (measured cost on a throttled phone, no benefit in the first session); "Open study plan"
-and "Refresh plan" do.
+**Practice is one mixed session** (v1.248.0, owner U56 e). Its active flashcard comes first,
+with due reviews ahead of new work and the belt corridor below. The planner (`gameplan.src.js`)
+interleaves new decks from the current belt after every few reviews, using the existing weak-spots
+or study-comparison order. All due reviews remain eligible, including higher-belt material.
+The default goal is 20 (`dailyGoal` overrides, read through `practiceGoal()`); it counts distinct
+graded questions, including mistakes, once per day. Reveal earns nothing. Automatic new allocation
+uses `ngPracticeRoom`; explicit “Keep practising” appends more eligible work to the same session,
+including after the goal and while reviews remain. Shared questions reserve one obligation.
+
+The compact head shows the worn belt, stripes, format and daily progress. “Practice details &
+session queue” retains reviewed counts, blocked debt, day notices, reasons, comparison controls
+and loading/retry states. Planner arrival appends even after a reveal or grade; it never replaces
+an engaged card or an in-flight press. The drawer asks for the planner on opening. Comparison
+remains deliberate through Open study plan or Refresh plan. Back restores the originating view;
+Close/Esc retain the shared pane's pause ownership. Account controls remain in the drawer.
 
 **Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}`: each seat
 once by node ordinal, per ruleset, with both technique seats in each `t` entry. `ngWireScoreWeights`

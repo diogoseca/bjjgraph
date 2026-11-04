@@ -170,6 +170,18 @@ test("VIDEO2: an unknown reader page waits for its head title; a late cache reco
   assert.equal(document.title, "Half Guard Top | BJJ Position Guide | BJJ Graph");
 });
 
+test("P1-E: Back can restore an already observed root URL and title through the shared writer", () => {
+  const b = browser("/?origin=practice"), a = app();
+  const origin = { path: location.href, title: "BJJ Graph — home" };
+  a._pushUrl("/Positions/Mount/Top", {});
+  assert.equal(a._writeUrl(origin.path, {}, true, origin.title), true);
+  assert.equal(location.pathname, "/");
+  assert.equal(location.search, "?origin=practice");
+  assert.equal(document.title, origin.title);
+  a._writeUrl("/Positions/Mount/Bottom", {}, true, origin.title);
+  assert.equal(document.title, "Mount Bottom | BJJ Position Guide | BJJ Graph", "a known page keeps its canonical title");
+});
+
 test("VIDEO2: failed history writes roll back the title and count the fault; /l/ keeps its preview title", () => {
   const b = browser("/Positions/Mount"), a = app();
   a._writeUrl();

@@ -79,6 +79,7 @@ async function boot(page: Page) {
  *  "N new" door used to; the planner is loaded first, so the press lands on the plan view every time. */
 async function openStudy(page: Page, touch: boolean) {
   await hit(page, page.locator('[data-explore-stats] [data-b="due"]').first(), touch);
+  await hit(page, page.locator("[data-practice-details] > summary"), touch);
   // the plan view repaints as its decks land: a button replaced before the press is located afresh
   for (let i = 0; ; i++) {
     try { await hit(page, page.locator('[data-gameplan-refresh]').first(), touch); return; }

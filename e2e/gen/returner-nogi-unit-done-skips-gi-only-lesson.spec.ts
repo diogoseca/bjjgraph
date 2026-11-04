@@ -83,6 +83,7 @@ const seq = (seed: number, n: number): number[] => {
 function returnerAtUnit(): any {
   const H = HIT!
   const seed: any = lapsedReturner() // full white career + white belt won
+  seed.belts.held = { id: H.belt.id, t: 1 }; seed.belts.gf = 1 // P1: retained entitlement to this unit
   for (const id of H.priorBeltIds) seed.belts.won[id] = { moves: 14, dominance: 4, byPoints: false }
   for (const u of H.prevUnits) {
     seed.units[`${H.belt.id}/${u.id}`] = { checkpoint: true, t: 1 }

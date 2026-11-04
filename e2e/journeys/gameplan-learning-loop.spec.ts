@@ -44,24 +44,25 @@ async function noNewMaterial(page: any) {
   });
 }
 
-// D2 (owner, 2026-09-30): the live due count is the pane HEADER ("N cards due today"); the polite
-// `[data-gameplan-current]` line now carries only what the player must act on (a new day, new
-// reviews, missing content). Read the header the app rendered, never a recomputed count.
+// P1 moves the live review count to the queue details; the title stays compact.
 async function dueHeader(page: any, text: string) {
-  await expect.poll(() => page.evaluate(() => (window as any).__neural.drillHeadRef.current.innerText as string),
-    { message: "the header reads " + text }).toContain(text);
+  const count = text.match(/(\d+) reviews?/)![1];
+  await expect(page.locator('[data-session-section="Practice"]'), "P1-F: live page debt matches the drawer")
+    .toContainText(count + " cards to review");
 }
-
-// v1.242.0 (SIDE-R1): the header is "Practice · N reviews, M new"; with nothing owed it names no reviews
 async function noDueHeader(page: any) {
-  await expect.poll(() => page.evaluate(() => (window as any).__neural.drillHeadRef.current.innerText as string),
-    { message: "the header owes no reviews" }).toMatch(/Practice(?! \u00b7 \d+ reviews?)/);
+  await expect(page.locator('[data-session-section="Practice"]')).toContainText("0 cards to review");
 }
 
 async function hit(page: any, selector: string, touch: boolean) {
   // Scroll is deliberate here because the reader chose a section. The actual
   // hit still checks the measured centre, opacity and intercepting ancestors.
   const target = page.locator(selector).first();
+  const hiddenByDetails = await target.evaluate((el: Element) => {
+    const d = el.closest("[data-practice-details]") as HTMLDetailsElement | null;
+    return d && !d.open && d.firstElementChild !== el;
+  });
+  if (hiddenByDetails) await hit(page, "[data-practice-details] > summary", touch);
   await expect(target).toBeVisible({ timeout: 10_000 });
   await target.scrollIntoViewIfNeeded();
   const point = await target.evaluate((el: HTMLElement) => {
@@ -95,6 +96,7 @@ test("dashboard and opened plan share counts, target overrun and keyboard-access
   const reasons = page.locator('[data-gameplan-summary] details', { has: page.locator("summary", { hasText: /^Why these decks\?$/ }) });
   await expect(reasons, "exactly one reasons fold").toHaveCount(1);
   await expect(reasons).not.toHaveAttribute("open", "");
+  await hit(page, "[data-practice-details] > summary", isMobile);
   const summary = reasons.locator("summary");
   await summary.focus(); await page.keyboard.press("Enter");
   await expect(reasons).toHaveAttribute("open", "");
@@ -189,7 +191,7 @@ test("no-gi defender recommendations retain their actual role and reason @curate
     const a = (window as any).__neural;
     a._giMode = "nogi"; a.srs = {}; a.prep = {};
     const key = Object.keys(a.flashcards.decks).find((k) => k.endsWith("|Defender") &&
-      a._deckCardCount(a.flashcards.decks[k]) > 0 && a.rsAllowsIdx(a.nodeForKey(k)));
+      a._deckCardCount(a.flashcards.decks[k]) > 0 && a.rsAllowsIdx(a.nodeForKey(k)) && a.curriculum.belts.find((b: any) => b.id === a.wornBelt().id).units.some((u: any) => u.lessons.some((l: any) => l.deckKey.split("|")[0] === k.split("|")[0])));
     if (!key) throw new Error("No legal defender fixture");
     await a.hydrateDeck(key);
     a._gameplanProvider = { status: "ready", kind: "learning-opportunity", stamp: a._gameplanStamp(),
@@ -227,9 +229,8 @@ test("planner loads only on intent while eager reviews finish without queue repl
   await hit(page, '[data-mini-reveal]', isMobile); await hit(page, '[data-mini-got]', isMobile);
   await expect(page.locator('[data-session-complete]')).toBeVisible();
   expect(requests).toBe(1); release();
-  await expect(page.locator('[data-gameplan-loading]')).toContainText("suggestions are ready");
+  await expect.poll(() => page.locator('[data-session-row][data-practice-kind="new"]').count(), { message: "P1-D: graded cold queue receives new work" }).toBeGreaterThan(0);
   expect(await page.evaluate(() => (window as any).__dueQueue === (window as any).__neural._session)).toBe(true);
-  await hit(page, '[data-gameplan-load]', isMobile);
   await expect(page.locator('[data-gameplan-summary]')).toContainText("weakest spots first");
   } finally { release(); }
 });
@@ -262,19 +263,27 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
 // and turns this red at its first assertion.
 test("D1: a new player with no comparison still gets a plan, dealt from the weak-spots ranking @curated", async ({ page, isMobile }) => {
   await setup(page, false);
-  await page.evaluate(() => { const a = (window as any).__neural; a.srs = {}; a.prep = {}; a.settings.dailyGoal = 30; a.renderExplorer(); });
+  await page.evaluate(() => {
+    const a = (window as any).__neural; a.srs = {}; a.prep = {}; a.settings.dailyGoal = 30;
+    const rank = a._gameplanWeakFallback.bind(a);
+    (window as any).__rankInputs = [];
+    a._gameplanWeakFallback = () => { const r = rank(); (window as any).__rankInputs.push(r.rows.map((x: any) => x.key)); return r; };
+    a.renderExplorer();
+  });
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
   await expect(page.locator('[data-session-section="Practice"]')).toContainText("weakest first");
   await expect(page.locator('[data-gameplan-summary]')).toContainText("weakest spots first");
   const got = await page.evaluate(() => {
     const a = (window as any).__neural, s = a._session;
     return { status: s.plan.status, comparison: s.plan.comparison, fresh: s.plan.fresh.map((r: any) => r.key),
-      ranking: a.weakSpots().keys as string[], cell: document.querySelector('[data-explore-stats] [data-b="due"]')?.getAttribute("data-new") };
+      rankings: (window as any).__rankInputs as string[][], cell: document.querySelector('[data-explore-stats] [data-b="due"]')?.getAttribute("data-new") };
   });
   expect(got.status).toBe("weak-spots");
   expect(got.fresh.length, "a new player is dealt new techniques").toBeGreaterThan(0);
   // the plan's order IS the ranking's order: each dealt key appears later in the ranking than the last
-  const at = got.fresh.map((k) => got.ranking.indexOf(k));
+  const ranking = got.rankings.find((keys) => got.fresh.every((k: string) => keys.includes(k)));
+  expect(ranking, "P1-D: frozen queue uses an actual ranking received at deal time").toBeTruthy();
+  const at = got.fresh.map((k: string) => ranking!.indexOf(k));
   expect(at.every((i) => i >= 0), "every dealt key comes from the weak-spots ranking").toBe(true);
   expect(at.every((i, n) => !n || i > at[n - 1]), "in the ranking's order").toBe(true);
   expect(got.cell, "the Explore cell counts the same plan").toBe(String(got.fresh.length));
@@ -282,85 +291,50 @@ test("D1: a new player with no comparison still gets a plan, dealt from the weak
     .toHaveText(/^(One of the biggest leaks in your game right now\.|A loose spot in your game, worth tightening\.|Worth polishing once the bigger leaks are closed\.|You.+\.)$/);
 });
 
-// D2 (owner, 2026-09-30; copy FGD13): the session list (due reviews plus the new-card budget) is
-// headed "Finish these to unlock more" with "Reviewed x/y"; the extra practice below it is LOCKED.
-// Finishing ends the session with "All done, come back tomorrow" and, AFTER it, the Continue action
-// "Find more weaknesses", which opens the extra list and lands on its first deck. The gate is the
-// plan's extra list only: the same deck still opens as a study elsewhere. Every figure is read off
-// the app's own session, never recomputed here.
-// Mutants, recorded 2026-10-01 on the built bundle, each red at a different point:
-// - extra rows dealt while locked (limit = s.shown): red at "locked rows are not dealt" (12 vs 2);
-// - the list opened at completion without the action: red at "Find more weaknesses" (no action);
-// - a Find-more action that does not set `s.unlocked`: red after the click (no "More weaknesses");
-// - no completion re-render in _paintGameplanProgress: red at the lock (still shown once done).
-test("D2: finishing the session ends on All done, and Find more weaknesses opens the next practice @curated", async ({ page, isMobile }) => {
+// P1 deliberately replaces the old completion gate: more work belongs to the same visit.
+test("P1-C: completion celebrates the real ledger and continuation appends to the same session @curated", async ({ page, isMobile }) => {
   await setup(page, false);
   await page.evaluate(() => { const a = (window as any).__neural; a.settings.dailyGoal = 5; a.renderExplorer(); });
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
-  const s0 = await page.evaluate(() => {
-    const s = (window as any).__neural._session;
-    return { required: s.required, keys: s.keys.length, total: s.plan.total, first: s.keys[s.required] };
+  const before = await page.evaluate(() => {
+    const a = (window as any).__neural, s = a._session;
+    (window as any).__originalSession = s;
+    return { keys: s.keys.length, total: s.plan.total, more: s.plan.more.length };
   });
-  const extra = s0.keys - s0.required;
-  expect(s0.required, "the session holds the due deck and new work").toBeGreaterThan(1);
-  expect(extra, "and there is extra practice to lock").toBeGreaterThan(0);
-  const more = (n: number) => n.toLocaleString("en-US") + " more " + (n === 1 ? "technique" : "techniques");
-  await expect(page.locator('[data-plan-goal-title]')).toHaveText("Today's practice");
-  await expect(page.locator('[data-plan-goal-progress]')).toHaveText("Reviewed 0/" + s0.total);
-  await expect(page.locator('[data-plan-locked]')).toHaveText(more(extra) + " after this session");
-  await expect(page.locator('[data-session-row]'), "locked rows are not dealt").toHaveCount(s0.required);
-  await expect(page.locator('[data-plan-more]')).toHaveCount(0);
-  await expect(page.locator('[data-session-more]'), "no paging while locked").toHaveCount(0);
-  await dueHeader(page, "Practice \u00b7 2 reviews");
-  // Finish the session through the shared grade path (every planned question, once).
+  expect(before.more, "P1-C: continuation fixture has eligible work").toBeGreaterThan(0);
+  await expect(page.locator('[data-plan-more]'), "P1-C: no completion gate").toBeEnabled();
+  await expect(page.locator('[data-plan-goal-progress]')).toHaveText("Reviewed 0/" + before.total);
   await page.evaluate(async () => {
     const a = (window as any).__neural, s = a._session;
-    await a.hydrateDecks(s.keys.slice(0, s.required));
-    a._gameplanProgress(s);
+    await a.hydrateDecks(s.keys); a._gameplanProgress(s);
     for (const row of s.plan.due.concat(s.plan.fresh)) {
       const want = new Set(row.questions);
-      for (const card of a._cardsOf(a.flashcards.decks[row.key]).filter((c: any) => want.has(a.qhash(c.q)))) a.gradeRecall(row.key, card, true);
+      for (const c of a._cardsOf(a.flashcards.decks[row.key]).filter((c: any) => want.has(a.qhash(c.q)))) a.gradeRecall(row.key, c, true);
     }
     a._onGameplanKnowledgeChanged({ reason: "grade", revision: a._knowledgeRevision });
   });
-  const end = page.locator('[data-session-complete]');
-  await expect(end.locator('[data-session-done-title]')).toHaveText("All done, come back tomorrow");
-  await expect(end).toContainText("You reviewed " + s0.total + " of " + s0.total + " cards today.");
-  await expect(page.locator('[data-plan-locked]')).toHaveCount(0);
-  await expect(page.locator('[data-plan-goal-title]')).toHaveText("Today's session");
-  await expect(page.locator('[data-plan-goal-progress]')).toHaveText("Reviewed " + s0.total + "/" + s0.total);
-  await expect(page.locator('[data-session-row]'), "the extra list is not dealt until the action").toHaveCount(s0.required);
+  await expect(page.locator('[data-session-done-title]')).toHaveText("Session complete");
+  await expect(page.locator('[data-plan-goal-progress]')).toHaveText("Reviewed " + before.total + "/" + before.total);
   await noDueHeader(page);
-  // the Continue action comes AFTER the celebration, answers the real mouse (or finger), and opens
-  // the next practice on its first deck
-  const action = end.locator('[data-plan-more]');
-  await expect(action).toContainText("Find more weaknesses");
-  await expect(action).toContainText(more(extra) + ", weakest first");
-  expect(await end.evaluate((el) => {
-    const title = el.querySelector('[data-session-done-title]')!, go = el.querySelector('[data-plan-more]')!;
-    return !!(title.compareDocumentPosition(go) & Node.DOCUMENT_POSITION_FOLLOWING);
-  }), "the action follows the All done line").toBe(true);
   await hit(page, '[data-plan-more]', isMobile);
-  await expect(page.locator('[data-session-section="More weaknesses"]')).toContainText(more(extra) + ", weakest first");
-  await expect(page.locator('[data-session-row]'), "the first page of the next practice is dealt").toHaveCount(Math.min(s0.keys, s0.required + 10));
-  await expect(page.locator(`[data-mini-deck="${s0.first}"]`), "and it lands on its first deck").toBeVisible();
-  await expect(page.locator('[data-plan-more]'), "the action is spent").toHaveCount(0);
-  // opened once, kept: a new day does not re-lock this plan's extra list
-  await page.evaluate((day: number) => { (window as any).__NG_EPOCH_DAY__ = day + 1; (window as any).__neural._refreshGameplanUI(); }, await page.evaluate(() => (window as any).__neural._epochDay()));
-  await expect(page.locator('[data-gameplan-current]')).toContainText("A new day");
-  await expect(page.locator('[data-session-section="More weaknesses"]')).toBeVisible();
-  await expect(page.locator('[data-plan-locked]')).toHaveCount(0);
+  expect(await page.evaluate(() => (window as any).__originalSession === (window as any).__neural._session), "P1-C: same session after continuation").toBe(true);
+  await expect.poll(() => page.locator('[data-session-row]').count()).toBeGreaterThan(before.keys);
+  await expect(page.locator('[data-mini-q]:visible')).toHaveCount(1);
+  await expect(page.locator('[data-session-complete]')).toHaveCount(0);
 });
 
-test("D2: the lock is the plan's extra list only; a locked deck still opens as a study @curated", async ({ page, isMobile }) => {
-  await setup(page, false);
-  await page.evaluate(() => { const a = (window as any).__neural; a.settings.dailyGoal = 5; a.renderExplorer(); });
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
-  await expect(page.locator('[data-plan-locked]')).toBeVisible();
-  const key = await page.evaluate(() => { const s = (window as any).__neural._session; return s.keys[s.required] as string; });
-  await page.evaluate((k: string) => (window as any).__neural.studyFromSession(k), key);
+test("P1-B: White can study an advanced deck outside its locked progression section @curated", async ({ page }) => {
+  const { j } = await setup(page, false);
+  const key = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    a.belts = { held: { id: "white", t: 1 }, gf: 1, won: {} };
+    const lesson = a.curriculum.belts.find((b: any) => b.id === "black").units.flatMap((u: any) => u.lessons).find((l: any) => a._lessonLive(l));
+    a.setDeckOpen(false); return lesson.deckKey;
+  });
+  await j.land(key.replace("|", " "));
+  await page.evaluate((k: string) => (window as any).__neural.openStudy(k), key);
   await expect.poll(() => page.evaluate((k: string) => {
     const a = (window as any).__neural, e = a.drillEntries && a.drillEntries[0];
     return !!(a.isDrillOpen() && e && e.info.key === k && e.cards && e.cards.length);
-  }, key), { timeout: 15_000 }).toBe(true);
+  }, key), { message: "P1-B: advanced gameplay study is open", timeout: 15_000 }).toBe(true);
 });

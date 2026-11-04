@@ -109,30 +109,43 @@ const NG_CHALLENGE_UI_METHODS = {
   selectedChallengeTrack() {
     const requested = this.get(
       "challengeSelectedTrack",
-      this._frontierBeltId(),
+      this.wornBelt().id,
     );
-    return NG_CHALLENGE_TRACKS.some((track) => track.id === requested)
+    return this.beltUnlocked(requested)
       ? requested
-      : "white";
+      : this.wornBelt().id;
+  },
+
+  // Progression entry only (U87). Due reviews, Explore, games and saved work never
+  // consult this guard. wornBelt includes the retained/grandfathered entitlement;
+  // a selected track, completed lesson or frontier is not an earned belt.
+  beltUnlocked(id) {
+    const rank = ngBeltRank(id);
+    return rank >= 0 && rank <= this.wornBelt().rank;
+  },
+
+  _repaintBeltCorridor() {
+    if (this._session?.practice && this._sessionInline()) this._practiceCorridor();
+    else this.renderExplorer();
   },
 
   selectChallengeTrack(trackId) {
-    if (!NG_CHALLENGE_TRACKS.some((track) => track.id === trackId)) return;
+    if (!this.beltUnlocked(trackId)) return;
     // selecting a folded belt opens it — collapse is presentation only, never a lock
     if (!this._beltSectionOpen(trackId)) this._setBeltSectionOpen(trackId, true);
     if (this.selectedChallengeTrack() !== trackId) {
       this.set("challengeSelectedTrack", trackId);
       this.track("neural_challenge_track_viewed", { track_id: trackId });
     }
-    this.renderExplorer();
+    this._repaintBeltCorridor();
   },
 
-  // ── corridor sections (v1.96.0): collapse is presentation ONLY (nothing re-locks; every
-  // row stays in the DOM). Open/closed is remembered per section in ONE settings map.
-  // Default: the frontier belt rides open, the rest fold. The map may still carry a
+  // Eligible corridor sections keep independent presentation folds in ONE settings map.
+  // Future sections are gated separately by beltUnlocked. The worn belt opens by default. The map may still carry a
   // "tutorial" key from before v1.137.0 — nothing reads it, and a settings key can never
   // be deleted (CLAUDE.md §6.6), so it simply sits there.
   _beltSectionOpen(id) {
+    if (!this.beltUnlocked(id)) return false;
     const map = this.get("challengeOpenSections", null);
     if (
       map &&
@@ -141,7 +154,7 @@ const NG_CHALLENGE_UI_METHODS = {
     ) {
       return !!map[id];
     }
-    return id === this._frontierBeltId();
+    return id === this.wornBelt().id;
   },
 
   // THE FRONTIER BELT (v1.99.2, owner: "what's that pinning about? show the belt open on
@@ -162,6 +175,7 @@ const NG_CHALLENGE_UI_METHODS = {
   },
 
   _setBeltSectionOpen(id, open) {
+    if (!this.beltUnlocked(id)) return;
     const current = this.get("challengeOpenSections", null);
     const map = Object.assign(
       {},
@@ -221,7 +235,7 @@ const NG_CHALLENGE_UI_METHODS = {
 
 
   openLearningView(view, trackId) {
-    if (trackId) {
+    if (trackId && this.beltUnlocked(trackId)) {
       this.settings = this.settings || {};
       this.settings.challengeSelectedTrack = trackId;
       (this._settingsAt = this._settingsAt || {}).challengeSelectedTrack =
@@ -232,6 +246,7 @@ const NG_CHALLENGE_UI_METHODS = {
   },
 
   challengeAction(definition, trackId) {
+    if (!this.beltUnlocked(trackId)) return;
     const action = String((definition && definition.action) || "").toLowerCase();
     const belt =
       this.curriculum &&
@@ -452,6 +467,7 @@ const NG_CHALLENGE_UI_METHODS = {
           openMini(true); // never closes — clicking an open lesson's name focuses it, v1.105.2
           const ni = this._lessonNodeIdx(lesson.deckKey);
           if (ni >= 0) {
+            if (this._session?.practice) { this.focusIdx = ni; this.locateNode(ni); this._syncUrl(ni); return; }
             this.stageRollAt(ni);
             // Keep the pane-aware flight instead of letting the staged roll reframe it.
             this._stagedCamFree = false;
@@ -530,6 +546,8 @@ const NG_CHALLENGE_UI_METHODS = {
         // A corridor repaint re-opens with focus FALSE (see the foot of this loop): evidence
         // beats repaint this tab, and stealing focus on a background repaint is its own bug.
         const openMini = (focus) => {
+          if (!this.beltUnlocked(trackId)) return;
+          if (this._session?.practice) { this._practiceLesson(lesson.deckKey); return; }
           if (this._openLessonMini && this._openLessonMini.rid !== rid) {
             this._openLessonMini.close(); // accordion — one inline deck at a time
           }
@@ -606,7 +624,7 @@ const NG_CHALLENGE_UI_METHODS = {
         // DOM at `display:none`, so the deck stays open and registered, just invisible — and
         // `_focusedMini` refuses an invisible row, which is what gives the keyboard back while
         // folded and hands it straight back on unfold. Nothing is thrown away to achieve it.
-        if (this._openLessonRid === rid) openMini(false);
+        if (!this._session?.practice && this._openLessonRid === rid) openMini(false);
       }
       const checkpoint = document.createElement("button");
       checkpoint.type = "button";
@@ -678,10 +696,10 @@ const NG_CHALLENGE_UI_METHODS = {
     return section;
   },
 
-  renderChallenges(list) {
+  renderChallenges(list, practice = false) {
     this._renderingChallengeView = true;
     try {
-      this.noteLearningViewOpen("challenges");
+      if (!practice) this.noteLearningViewOpen("challenges");
       // THE ROW REGISTRY IS REBUILT WITH THE ROWS IT INDEXES (v1.175.0) — exactly as
       // renderDrillHome and renderSession rebuild `_miniReg`. It is what ↑/↓ walks AND what
       // `_focusedMini` scopes the keyboard by, so a row that no longer renders (a gi switch
@@ -712,7 +730,7 @@ const NG_CHALLENGE_UI_METHODS = {
       // `maintBand` is read again by the arrival positioning at the foot of this function:
       // a sticky header must be subtracted from the scroll target or it eats the belt head.
       let maintBand = null;
-      if (typeof this.dueCount === "function" && this.dueCount() > 0) {
+      if (!practice && typeof this.dueCount === "function" && this.dueCount() > 0) {
         const maint = document.createElement("button");
         maint.type = "button";
         maint.className = "ng-maint-band";
@@ -742,17 +760,21 @@ const NG_CHALLENGE_UI_METHODS = {
       // The CONTINUE button is dead (v1.98.1, owner) — arrival positioning replaced it:
       // opening the tab scrolls the corridor to the frontier belt (the topmost belt still
       // left to complete; below, after the ladder mounts). The glow marks "do this next".
-      const pinnedId = this._frontierBeltId();
+      const pinnedId = this.wornBelt().id;
 
       // THE BELT CORRIDOR (v1.96.0) — one continuous woven belt runs down the left, white
       // through black, a knot tied at every boundary; lesson rows hang off it. Belt headers
-      // carry selection (still .ng-track-card / data-track / aria-pressed); each section
-      // folds via its chevron — display only, nothing re-locks, every row stays in the DOM.
+      // carry selection (still .ng-track-card / data-track / aria-pressed). Eligible
+      // sections fold independently; locked sections contain no progression controls.
       const ladder = document.createElement("section");
       ladder.className = "ng-track-list ng-challenge-ladder ng-corridor";
       ladder.setAttribute("aria-label", "Belt corridor");
+      const earlier = document.createElement("div");
+      const rank = this.wornBelt().rank;
       for (let index = 0; index < NG_CHALLENGE_TRACKS.length; index += 1) {
         const track = NG_CHALLENGE_TRACKS[index];
+        if (practice && index < rank && !this._session.earlier) continue;
+        const unlocked = this.beltUnlocked(track.id);
         const color = NG_CHALLENGE_TRACK_COLORS[track.id];
         const summary = this.challengeTrackProgress(track.id);
         const lessons = this._beltLessonSummary(track.id);
@@ -781,6 +803,15 @@ const NG_CHALLENGE_UI_METHODS = {
         rail.className = "ng-corridor-rail";
         rail.setAttribute("aria-hidden", "true");
         beltSection.appendChild(rail);
+        if (!unlocked) {
+          beltSection.setAttribute("data-belt-locked", "1");
+          const locked = document.createElement("div");
+          locked.className = "ng-belt-locked";
+          locked.innerHTML = "<b>" + ngBeltDisplayName(track.id) + "</b><small>Locked · progress through the earlier belts</small>";
+          beltSection.appendChild(locked);
+          ladder.appendChild(beltSection);
+          continue; // no button, chevron, lesson or keyboard registration
+        }
         if (index > 0) {
           // the knot: a simple tie marking where one belt ends and the next begins
           const knot = document.createElement("i");
@@ -845,7 +876,7 @@ const NG_CHALLENGE_UI_METHODS = {
           '<span aria-hidden="true">' + (open ? "▾" : "▸") + "</span>";
         fold.addEventListener("click", () => {
           this._setBeltSectionOpen(track.id, !this._beltSectionOpen(track.id));
-          this.renderExplorer();
+          this._repaintBeltCorridor();
         });
         head.appendChild(fold);
         beltSection.appendChild(head);
@@ -880,11 +911,21 @@ const NG_CHALLENGE_UI_METHODS = {
         curriculum.style.setProperty("--ng-track", color);
         body.appendChild(curriculum);
         beltSection.appendChild(body);
-        ladder.appendChild(beltSection);
+        (practice && index < rank ? earlier : ladder).appendChild(beltSection);
       }
       list.appendChild(ladder);
       const shelf = this.renderRewardsShelf();
       if (shelf) list.appendChild(shelf); // null until something is earned (v1.99.1)
+      if (practice) list.appendChild(this._session.support);
+      if (practice && rank > 0) {
+        const reveal = document.createElement("button");
+        reveal.type = "button"; reveal.className = "ng-earlier-belts";
+        reveal.setAttribute("data-earlier-belts", "1");
+        reveal.setAttribute("aria-expanded", String(!!this._session.earlier));
+        reveal.textContent = this._session.earlier ? "Hide earlier belts" : "Show earlier belts";
+        reveal.onclick = () => { this._session.earlier = !this._session.earlier; this._practiceCorridor(); };
+        list.append(earlier, reveal);
+      }
       // ── ARRIVAL POSITIONING (v1.98.1, replaces the Continue button) ── opening the tab
       // lands the corridor where the person is: the frontier belt's header at the top of
       // the view, its frontier row (already glow-marked) in sight. INSTANT, on OPEN only —
@@ -892,7 +933,7 @@ const NG_CHALLENGE_UI_METHODS = {
       // preserves it, the History-body gate precedent). No frontier (everything proven) =
       // that belt's top. Since v1.162.0 there is nothing above the corridor at all except
       // the sticky maintenance band, so a white-belt frontier lands at scrollTop 0.
-      if (this._challengeScrollPending) {
+      if (!practice && this._challengeScrollPending) {
         this._challengeScrollPending = false;
         const sec = ladder.querySelector(
           '.ng-belt-section[data-belt="' + pinnedId + '"]',

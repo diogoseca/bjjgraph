@@ -315,18 +315,19 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
     const a = (window as any).__neural;
     const s = a._session;
     return {
-      session: !!s, label: s && s.label, anchor: s && s.anchor, keys: s && s.keys,
+      session: !!s, practice: !!s.practice, anchor: s && s.anchor, keys: s && s.keys,
       review: s && s.review && { count: s.review.count, rows: s.review.rows.map((x: any) => [x.key, x.count]) },
       header: a.drillHeadRef.current.innerText as string,
     };
   });
   expect(queue, "the queue is the review debt, and its rows are the cover").toEqual({
-    session: true, label: "Practice \u00b7 2 reviews", anchor: "due", keys: [r.other],
+    session: true, practice: true, anchor: "due", keys: [r.other],
     review: { count: 2, rows: [[r.other, 2]] },
   });
   // the RENDERED header repeats the cell's number in the cell's unit, and the foot counts progress
-  expect(header, "the header is the cell's card count").toContain("Practice \u00b7 2 reviews");
-  await expect(page.locator("[data-session-foot]"), "the foot counts the same cards").toContainText("0 of 2 cards");
+  expect(header).toContain("Practice");
+  await expect(page.locator("[data-practice-section]"), "P1-F: first review section repeats the drawer debt").toHaveText("Due reviews · 2 cards");
+  await expect(page.locator("[data-plan-goal-progress]"), "the compact goal counts the same cards").toHaveText("Reviewed 0/2");
   // ...and the one row is narrowed to what is OWED — both cards, not its whole deck. Read off
   // what the row EMITTED: its progress figure, its reason, and one progress tick per card dealt.
   const rows = page.locator("[data-session-row]");
@@ -344,13 +345,14 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   // the queue's own "Open / retry study plan" button): the review rows are still the cover, and the
   // Practice head repeats the card count and the technique count (each row says its kind).
   release();
+  await page.locator("[data-practice-details] > summary").click();
   await expect(page.locator('[data-session-section="Practice"]')).toBeVisible();
   await expect(page.locator('[data-session-section="Practice"]')).toContainText("2 cards to review across 1 technique");
   expect(await page.evaluate(() => {
     const s = (window as any).__neural._session;
-    return { plan: !!s.plan, label: s.label.replace(/, \d+ new$/, ""), anchor: s.anchor, dueRows: s.plan && s.plan.due.length, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };
+    return { plan: !!s.plan, practice: !!s.practice, anchor: s.anchor, dueRows: s.plan && s.plan.due.length, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };
   }), "the plan's review rows are the same cover and the same card count").toEqual({
-    plan: true, label: "Practice \u00b7 2 reviews", anchor: "due", dueRows: 1, first: r.other, dueCards: 2,
+    plan: true, practice: true, anchor: "due", dueRows: 1, first: r.other, dueCards: 2,
   });
   await expect(page.locator(`[data-session-row="${r.other}"]`)).toHaveAttribute("data-practice-kind", "due");
   await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText("Reviewed 0/");

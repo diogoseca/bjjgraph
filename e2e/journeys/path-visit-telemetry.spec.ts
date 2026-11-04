@@ -53,7 +53,7 @@ for (const stored of [false, true]) test(`Path telemetry: ${stored ? "saved" : "
   expect(await counts(page), "opening and rendering the drawer list emits neither event").toEqual({ beats: 0, events: 0 })
 
   await j.clickByMouse('[data-view="challenges"]', "deliberately visit Path")
-  await expect(page.locator(".ng-track-card")).toHaveCount(5)
+  await expect(page.locator(".ng-belt-section")).toHaveCount(5)
   expect(await counts(page), "the first real Path visit emits one of each event").toEqual({ beats: 1, events: 1 })
   await page.evaluate(() => (window as any).__neural.setGiMode("gi"))
   await j.clickByMouse('[data-view="explore"]', "back to the drawer list")

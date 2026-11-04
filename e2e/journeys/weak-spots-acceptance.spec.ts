@@ -115,6 +115,7 @@ async function bootPlayer(page: Page, opts: { withoutGiHands?: boolean } = {}) {
   });
   await page.evaluate(() => {
     const a = (window as any).__neural, draw = a.rng.bind(a), unrigged: string[] = [];
+    a.belts = { ...a.belts, held: { id: "blue", t: 1 }, gf: 1 }; // P1: keep the ranking controls inside an earned current belt
     (window as any).__weakUnrigged = unrigged;
     a.rng = (tag: string) => { const q = a._rig && a._rig[tag]; if (!q || !q.length) unrigged.push(tag); return draw(tag); };
   });
@@ -123,6 +124,7 @@ async function bootPlayer(page: Page, opts: { withoutGiHands?: boolean } = {}) {
 
 /** Settings, by mouse: the account chip → Settings → a tab; act; Esc closes the modal (and only it). */
 async function inSettings(j: any, page: Page, tab: string | null, act: () => Promise<void>) {
+  if (await page.locator("[data-practice-page]").count()) await j.clickByMouse("[data-pane-back]", "Back to drawer account controls");
   await j.openAccountMenu();
   await j.clickByMouse("[data-menu-settings]", "Settings in the account menu");
   if (tab) await j.clickByMouse(`[data-settings-tab="${tab}"]`, `the ${tab} tab`);
@@ -166,10 +168,10 @@ async function readPlan(page: Page): Promise<Plan> {
   await expect.poll(async () => {
     plan = await page.evaluate(() => {
       const sec = document.querySelectorAll('[data-session-section="Practice"]');
-      const note = sec.length === 1 ? (sec[0] as HTMLElement).innerText.replace(/\s+/g, " ") : "";
-      const m = note.match(/across (\d+) techniques?/);
+      const note = sec.length === 1 ? sec[0].textContent!.replace(/\s+/g, " ") : "";
+      const m = note.match(/new across (\d+) techniques?/);
       const rows = [...document.querySelectorAll("[data-session] [data-session-row]")] as HTMLElement[];
-      return { keys: rows.map((r) => r.getAttribute("data-session-row") as string), names: rows.map((r) => r.innerText.split("\n")[0]),
+      return { keys: rows.map((r) => r.getAttribute("data-session-row") as string), names: rows.map((r) => r.textContent!.split("\n")[0]),
         note, sections: sec.length, maint: document.querySelectorAll('[data-session] [data-practice-kind="due"]').length, across: m ? +m[1] : -1 };
     });
     return plan.sections === 1 && plan.across === plan.keys.length && plan.keys.length > 0;
@@ -202,6 +204,12 @@ async function openPlan(j: any, page: Page) {
  * the button while Playwright waits for stability; only that transient readiness failure is retried.
  */
 async function refreshPlan(j: any, page: Page) {
+  if (!await page.locator("[data-practice-page]").count()) await openPlan(j, page);
+  const details = page.locator("[data-practice-details]");
+  if (await details.getAttribute("open") === null) {
+    await details.locator("summary").first().scrollIntoViewIfNeeded();
+    await j.clickByMouse("[data-practice-details] > summary", "open comparison details");
+  }
   const sel = "[data-gameplan-refresh]", button = page.locator(sel);
   await expect(button, "one Refresh plan button").toHaveCount(1);
   const height = page.viewportSize()?.height ?? 900;

@@ -21,7 +21,7 @@ test("veteran: open cross-track Challenges retain checkpoint-only capstone gates
   await page.locator('[data-view="challenges"]').click()
 
   await expect(page.locator(".ng-track-card").first()).toBeVisible()
-  expect(await page.locator(".ng-track-card").count()).toBe(CURRICULUM.belts.length)
+  expect(await page.locator(".ng-belt-section").count()).toBe(CURRICULUM.belts.length)
 
   for (const track of [WHITE, BLUE]) {
     await page.locator(`.ng-track-card[data-track="${track.id}"]`).click()
