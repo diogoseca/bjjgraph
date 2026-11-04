@@ -97,6 +97,10 @@
     {
       "name": "Quarter Guard",
       "relationship": "Transitional position between Half Guard and full pass where only the ankle remains trapped"
+    },
+    {
+      "name": "Demi Guard",
+      "relationship": "Gi lapel-guard connection using a collar grip, lapel behind the knee and foot on the tail"
     }
   ],
   "top": {
@@ -543,28 +547,28 @@
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": 11
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 8,
           "nogi": 8
         }
       },
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 8,
           "nogi": 6
         }
       },
       {
         "transition": "Knee Shield Retention",
         "attempt_probability": {
-          "gi": 14,
+          "gi": 13,
           "nogi": 11
         },
         "deal_here": true
@@ -614,7 +618,7 @@
       {
         "transition": "Half Guard Recovery",
         "attempt_probability": {
-          "gi": 7,
+          "gi": 6,
           "nogi": 6
         }
       },
@@ -686,6 +690,13 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
+        }
+      },
+      {
+        "transition": "Half Guard to Demi Guard",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": null
         }
       }
     ],
@@ -1139,6 +1150,12 @@
       "duration": 79,
       "verified": "2026-10-19",
       "half": "bottom"
+    }
+  ],
+  "disambiguations": [
+    {
+      "name": "Demi Guard",
+      "reason": "Half Guard traps one leg between both legs; Demi Guard is a distinct gi lapel configuration with a foot on the lapel tail."
     }
   ]
 }

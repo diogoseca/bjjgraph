@@ -736,11 +736,12 @@ def selfcheck(graph):
     P = graph["positions"]
     checks = []
     roles = sorted(k for k in P if is_role(k))
-    # A TRIPWIRE, not a derivation: 132 positions x 2 seats. 272 until v1.171.0, when the three
+    # A TRIPWIRE, not a derivation: 133 positions x 2 seats. 272 until v1.171.0, when the three
     # Kesa Gatame positions that existed twice (judo name + English name) collapsed to one each.
     # v1.229.0 folds Grasshopper Guard into Inverted Guard: 266 -> 264 role-nodes.
+    # v1.243.0 adds Demi Guard with Top and Bottom seats: 264 -> 266 role-nodes.
     # Moving this number is a statement about the corpus; say why in the commit that moves it.
-    checks.append(("264 position role-nodes", len(roles) == 264, "%d" % len(roles)))
+    checks.append(("266 position role-nodes", len(roles) == 266, "%d" % len(roles)))
     checks.append(("non-role position entries carry no transitions",
                    all(not P[k].get("transitions") for k in P if not is_role(k)),
                    "%d entries" % (len(P) - len(roles))))

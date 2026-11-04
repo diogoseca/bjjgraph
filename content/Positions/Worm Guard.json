@@ -50,6 +50,10 @@
     {
       "name": "Collar Sleeve Guard",
       "relationship": "Foundation guard that shares grip fighting principles"
+    },
+    {
+      "name": "Demi Guard",
+      "relationship": "Gi lapel-guard connection using a collar grip, lapel behind the knee and foot on the tail"
     }
   ],
   "top": {
@@ -392,14 +396,14 @@
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 12,
           "nogi": 13
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 10,
           "nogi": 20
         }
       },
@@ -413,21 +417,28 @@
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 8,
           "nogi": 8
         }
       },
       {
         "transition": "Backstep from Worm Guard",
         "attempt_probability": {
-          "gi": 18,
+          "gi": 17,
           "nogi": 12
         }
       },
       {
         "transition": "Lapel Strip from Worm Guard",
         "attempt_probability": {
-          "gi": 27,
+          "gi": 26,
+          "nogi": null
+        }
+      },
+      {
+        "transition": "Worm Wrestling Pressure Counter",
+        "attempt_probability": {
+          "gi": 5,
           "nogi": null
         }
       }
@@ -782,7 +793,7 @@
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": 23
         }
       },
@@ -796,28 +807,28 @@
       {
         "transition": "Lapel Elevator Sweep",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": 0
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 7,
+          "gi": 6,
           "nogi": 35
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 5,
           "nogi": 22
         }
       },
       {
         "transition": "Bolo Sweep",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 12,
           "nogi": null
         },
         "deal_here": true,
@@ -863,22 +874,29 @@
       {
         "transition": "Collar Drag from Worm Guard",
         "attempt_probability": {
-          "gi": 7,
+          "gi": 6,
           "nogi": 0
         }
       },
       {
         "transition": "Worm Guard Sweep",
         "attempt_probability": {
-          "gi": 30,
+          "gi": 27,
           "nogi": 0
         }
       },
       {
         "transition": "Worm to Squid Guard",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": 0
+        }
+      },
+      {
+        "transition": "Worm Guard to Demi Guard",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": null
         }
       }
     ],
