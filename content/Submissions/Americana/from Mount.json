@@ -703,6 +703,23 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Straighten the trapped arm completely",
+        "clips": [
+          {
+            "id": "qVINUjefot8",
+            "title": "Bent Armlock Escape from Mount",
+            "channel": "Soma Academy",
+            "duration": 71,
+            "vertical": false,
+            "start": 25,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   },
   "variations_and_setups": [

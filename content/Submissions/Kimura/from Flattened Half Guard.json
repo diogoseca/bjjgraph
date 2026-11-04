@@ -627,6 +627,23 @@
         "duration": 100,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Clasp hands together or grip your own belt",
+        "clips": [
+          {
+            "id": "Il__jkzGDJg",
+            "title": "Move of the Day: Escaping the Turtle - 3 - What if they Kimura me",
+            "channel": "JitzLive",
+            "duration": 371,
+            "vertical": false,
+            "start": 170,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

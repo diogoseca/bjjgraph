@@ -620,6 +620,23 @@
         "description": "Positional sparring where the attacker works Kimura attacks from butterfly guard and the defender practices the full defensive sequence: recognition, prevention, grip defense, and escape. Full resistance with emphasis on safe tapping when caught and controlled release protocol."
       }
     ],
-    "clips": []
+    "clips": [],
+    "escape_clips": [
+      {
+        "escape": "Grab your own belt, shorts, or opposite hand",
+        "clips": [
+          {
+            "id": "Il__jkzGDJg",
+            "title": "Move of the Day: Escaping the Turtle - 3 - What if they Kimura me",
+            "channel": "JitzLive",
+            "duration": 371,
+            "vertical": false,
+            "start": 170,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   }
 }

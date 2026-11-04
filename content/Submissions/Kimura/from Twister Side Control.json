@@ -616,6 +616,23 @@
         "description": "Positional rounds from Twister Side Control bottom at full resistance. Attacker pursues full submission chains including Kimura. Defender practices the complete defensive hierarchy: recognition, grip prevention, escape timing, emergency defense, and appropriate tapping. Track escape rate versus submission rate across training sessions."
       }
     ],
-    "clips": []
+    "clips": [],
+    "escape_clips": [
+      {
+        "escape": "Grip own leg or shorts with the trapped hand",
+        "clips": [
+          {
+            "id": "uRn3DRICpeY",
+            "title": "Late Kimura Defense from Bottom Side Control",
+            "channel": "Fox Den Martial Arts",
+            "duration": 100,
+            "vertical": false,
+            "start": 13,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   }
 }
