@@ -14,7 +14,7 @@ import { curriculumMid, CURRICULUM } from "./personas"
  * Mechanism under test (source-verified at authoring; probe green 2/2, ~28s/run, deleted):
  *   - startCheckpoint gates the button on EVERY live lesson lessonDone — drilling the
  *     complement is what flips the v1.74 checkpoint button from disabled to enabled; the
- *     click fires checkpoint_start {unit, cards} synchronously and auto-closes the explorer.
+ *     click fires checkpoint_start {unit, cards} synchronously and replaces Path with the quiz.
  *     (v1.74 Challenges UI: no data-unit/data-locked/data-done attrs — the button's
  *     disabled state + its "Checkpoint cleared" label are the rendered ledger. Only the
  *     first unit's <details> group is open by default, so the spec opens unit-2's group
@@ -111,7 +111,8 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
       .locator(`.ng-challenge-group:has([data-checkpoint="${uk}"])`)
       .first()
       .evaluate((el) => ((el as HTMLDetailsElement).open = true))
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
+  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK1}"]`).first().textContent(),
@@ -142,7 +143,9 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
     await page.evaluate(() => (window as any).__neural._checkpoint?.picks.length ?? 0),
     "live quiz holds the full pick set",
   ).toBe(CP.cards)
-  await expect(page.locator("[data-view]").first(), "starting the quiz auto-closes the explorer").not.toBeVisible()
+  // The brand is now permanent drawer chrome (U51 e); the Path body still yields to study.
+  await expect(page.locator(".ng-challenge-group").first(), "starting the quiz hides the Path list").not.toBeVisible()
+  await expect(page.locator("[data-mc-opt]").first(), "the checkpoint owns the drawer body").toBeVisible()
 
   // ── BOMB every card via the _mc truth rail (wrong answers resolve synchronously) ──
   for (let i = 0; i < CP.cards; i++) {
@@ -225,7 +228,7 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
       .locator(`.ng-challenge-group:has([data-checkpoint="${uk}"])`)
       .first()
       .evaluate((el) => ((el as HTMLDetailsElement).open = true))
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK2}"]`).first().textContent(),

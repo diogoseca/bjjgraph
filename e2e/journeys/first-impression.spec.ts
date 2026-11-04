@@ -39,7 +39,7 @@ const NAMEABLE = [
   "Open Guard Top",
   "Mount Top",
 ];
-const PLAYABLE_POSITIONS = 120; // census:playablePositions
+const PLAYABLE_POSITIONS = 121; // census:playablePositions
 const UNIFORM = NAMEABLE.length / PLAYABLE_POSITIONS; // the nameable share of a uniform draw
 
 /** Evidence, written ONLY on request. `tests/artifacts/coldstart/` is tracked and cited, so a plain
@@ -464,7 +464,7 @@ test("WIN 2 as a property: on every first-roll state, both sides, the graph and 
       1,
     );
 
-  expect(audit.length, "every playable position, both sides").toBe(240); // census:positionChoiceSeats
+  expect(audit.length, "every playable position, both sides").toBe(242); // census:positionChoiceSeats
 
   const contradicts = audit.filter((r) => r.namesOther);
   expect(

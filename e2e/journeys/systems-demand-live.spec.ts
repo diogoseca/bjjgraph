@@ -65,14 +65,18 @@ test('real library waits for Explore intent, fetches only the selected record an
     await expect(locator).toBeVisible(); await locator.scrollIntoViewIfNeeded();
     if (isMobile) await locator.tap(); else await locator.click();
   };
+  // THE DRAWER'S OPENING IS THE EXPLORE ENTRY (v1.242.0, owner A5 / E1). The drawer opens on its list with
+  // Explore open, so dev's two presses (the menu, then its Explore tab) are one press now; there is no
+  // "ordinary menu" that is not Explore. Boot alone warmed nothing (asserted above); the entry asks for the
+  // index once and never for a record, and the brand (dev's Explore tab) asks for nothing more.
   await activate(page.locator('.ng-logo'));
-  // Opening the ordinary menu alone must not warm Systems.
-  expect(requests.filter(url => indexRequest(url) || recordRequest(url))).toEqual([]);
-  await activate(page.locator('[data-view="explore"]'));
   const header = page.locator('[data-explore-section="Systems"]');
   await expect(header).toBeVisible();
   expect(requests.filter(indexRequest)).toHaveLength(1);
   expect(requests.filter(recordRequest)).toEqual([]);
+  await activate(page.locator('[data-view="explore"]'));
+  await expect(header).toBeVisible();
+  expect(requests.filter(indexRequest), 'the brand asks again for nothing').toHaveLength(1);
   if (await header.getAttribute('aria-expanded') !== 'true') await activate(header);
   const category = page.locator(`[data-system-category=${JSON.stringify(chosen.type || 'Uncategorized')}]`);
   await expect(category).toBeVisible();

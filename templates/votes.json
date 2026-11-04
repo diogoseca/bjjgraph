@@ -25373,6 +25373,114 @@
           "pseudo_count": 3
         }
       }
+    },
+    "Demi Guard Elevation Sweep": {
+      "community": {
+        "gi": {
+          "success_rate": 50.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": null,
+          "vote_count": 30
+        }
+      }
+    },
+    "Demi Guard to Half Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 70.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": null,
+          "vote_count": 30
+        }
+      }
+    },
+    "Demi Guard to Lapel Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 65.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": null,
+          "vote_count": 30
+        }
+      }
+    },
+    "Half Guard to Demi Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": null,
+          "vote_count": 30
+        }
+      }
+    },
+    "Lapel Clear from Demi Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 60.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": null,
+          "vote_count": 30
+        }
+      }
+    },
+    "Open Guard to Demi Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": null,
+          "vote_count": 30
+        }
+      }
+    },
+    "Pass from Demi Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 45.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": null,
+          "vote_count": 30
+        }
+      }
+    },
+    "Worm Guard to Demi Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": null,
+          "vote_count": 30
+        }
+      }
+    },
+    "Worm Wrestling Pressure Counter": {
+      "community": {
+        "gi": {
+          "success_rate": 45.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": null,
+          "vote_count": 30
+        }
+      }
     }
   }
 }

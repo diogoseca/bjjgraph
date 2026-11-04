@@ -249,6 +249,7 @@ class Reader {
     if (!article) throw new Error("This page has no article.");
     return {
       title: doc.querySelector("h1.article-title, .article-title, h1")?.textContent?.trim() || doc.title.split(" | ")[0],
+      tab: doc.title,
       html: article.innerHTML,
     };
   }
@@ -297,7 +298,7 @@ class Reader {
       if (this.app.explorerSearchRef.current) this.app.explorerSearchRef.current.value = "";
       this.highlightReference(path, serial);
     }
-    if (push) history.pushState({ ...history.state, ngReading: true }, "", url.pathname + url.search + url.hash);
+    push = push && !this.app._writeUrl(url, { ngReading: true });
     this.root.dataset.readerPath = path;
     this.root.dataset.readerReady = "false";
     if (this.contents) this.contents.hidden = true;
@@ -319,6 +320,7 @@ class Reader {
         if (roleLink) { context = record; guidePath = roleLink.pathname; guide = await this.page(guidePath, controller.signal); }
       }
       if (serial !== this.serial || this.app.__ngDestroyed) return;
+      this.app._writeUrl(push ? url : undefined, push && { ngReading: true });
       this.render(record.title, guide, guidePath, context, hub);
       this.root.dataset.readerReady = "true";
       this.sync();
@@ -330,7 +332,7 @@ class Reader {
     } catch (error) {
       if (serial !== this.serial || error.name === "AbortError" || this.app.__ngDestroyed) return;
       this.articleEl.replaceChildren(element("p", { role: "alert" }, error.message),
-        button("Retry article", () => this.open({ path, intent, push: false }), { "data-reader-retry": "" }),
+        button("Retry article", () => this.open({ path, intent, push }), { "data-reader-retry": "" }),
         element("a", { href: path, target: "_blank", rel: "noopener" }, "Open the original page in a new tab"));
     }
   }
@@ -678,7 +680,7 @@ class Reader {
       this.toggleSection(section.dataset.sectionType, true); this.layoutNow();
     }
     this.scrollTo(node.classList.contains("ng-section-source-title") ? section.querySelector("[data-section-toggle]") : node);
-    history.replaceState({ ...history.state, ngReading: !!this.intent }, "", this.path + hash);
+    this.app._writeUrl(this.path + hash, { ngReading: !!this.intent }, true);
   }
   scrollTo(node, focus = node) {
     // U65 leaves no painted game Videos card. Both its disclosure and index navigate to
@@ -1053,8 +1055,8 @@ class Reader {
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
-      // U59 c: the article's tiles run to the right edge, so the account pill in the corner reserves
-      // the bottom too: the reader ends above it and the pill never covers text or a link.
+      // U59 c: the article's tiles run to the right edge, so the share cue in the corner reserves
+      // the bottom too: the reader ends above it and the cue never covers text or a link.
       const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
         ? H - a._readerShelfBottom({ left: free.center - width / 2, right: W }) - 8
         : this.dock.getBoundingClientRect().top - 8;
@@ -1079,14 +1081,12 @@ class Reader {
       // Three lanes from a 1,150px grid (1440 and wider: thirds of 377px or more), else two. DASH-R4: at
       // 1,100 (1366) a third was 353px, ~36 characters a line, and a 3-column table overflowed it by 7px.
       const grid = indexEdge ? W - 24 - indexEdge : Math.max(240, Math.min(902, free.width - 64)), wide = grid >= 1150;
-      // U59 c: when the grid's width changes (the pane opening, a resize), the first text block at
-      // the reader's top keeps its place on screen; the finally puts it back after every other write.
+      // U59 c: when the grid's width changes (the pane opening, a resize), the first text block starting
+      // within the reader keeps its place on screen; the finally puts it back after every other write.
       // DASH-R4: only once the article itself has scrolled above the reader's top. At the arrival the
       // stage (node band, Moves, question) owns the top and holds still, as on dev, when the pane opens,
       // the window narrows or a phone turns. A hidden article resets the width to NaN, so reopening
       // restores bookScroll without anchoring against a layout that was never shown.
-      // Anchor a fully visible block: a clipped predecessor can gain a wrapped
-      // line while its own top holds still, pushing the reader's visible place down.
       keep = this.gridW - (this.gridW = available ? grid : NaN) && art.getBoundingClientRect().top < top && [...art.querySelectorAll("p,li")].find(e => (was = e.getBoundingClientRect().top) >= top);
       style(art, "--article-width", grid);
       if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");
@@ -1290,6 +1290,8 @@ class Reader {
       // passes, and the next pass's clamp must not put back a place its scroll event has not recorded.
       // Rounded: the pane slides open over ~40 passes, and an unrounded correction is rounded by the browser the same
       // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px).
+      // SIDECX5: a partially clipped block above the top can wrap and move the first visible line;
+      // anchor a block starting within the reader instead, retaining the rounded correction.
       if (keep) this.placeTop = root.scrollTop += Math.round(keep.getBoundingClientRect().top - was);
       this.laying = false;
     }

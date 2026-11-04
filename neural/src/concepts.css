@@ -500,15 +500,8 @@
     border-top: 1px solid rgba(130, 150, 190, 0.3);
     border-radius: 16px 16px 0 0;
   }
-  .ng-drill[data-principle-view] .ng-learning-nav,
-  .ng-drill[data-principle-view] .ng-pane-stats,
-  .ng-drill[data-principle-view] .ng-pane-anchor,
-  .ng-drill[data-principle-view] .ng-pane-feedback {
+  .ng-drill[data-principle-view] .ng-acctwrap {
     display: none !important;
-  }
-  .ng-drill[data-principle-view] .ng-explorer-close {
-    top: 4px;
-    right: 8px;
   }
   .ng-drill[data-principle-view] .ng-learning-list {
     min-height: 0;

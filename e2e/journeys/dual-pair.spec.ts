@@ -538,7 +538,7 @@ const otherPair = (page: Page) =>
     // deterministic: separation, then idx — a tie decided by array order picks a different pair
     // from run to run, and every threshold below is a function of which pair got picked.
     out.sort((x, y) => y.sep - x.sep || x.upper.idx - y.upper.idx)
-    return { lodK: a._lodK as number, best: out[0] || null, count: out.length }
+    return { lodK: a._lodK as number, best: out[0] || null, all: out, count: out.length }
   })
 
 /**
@@ -587,12 +587,27 @@ test("@curated hovering any pair names it once, on the midline, with the role on
   const o = await otherPair(page)
   expect(o.lodK, "the graph is at split scale, where a pair has two orbs").toBeGreaterThan(0.5)
   expect(o.best, "there is a pair on screen that is not the one we stand in").not.toBeNull()
-  const c = o.best!
-  const x = Math.max(c.upper.sx, c.lower.sx) + Math.max(c.upper.r, c.lower.r) + 16
-
-  // NOTHING IS THERE UNTIL YOU POINT AT IT — an unhovered pair is not labelled, so every bright
-  // pixel below is attributable to the hover and not to some other node's resting label.
-  const cold = await strips(page, c.mid, x)
+  // NOTHING IS THERE UNTIL YOU POINT AT IT, counted on the DRAWS for EVERY pair on screen (v1.242.0;
+  // this test's own D-318 precedent): before any hover, no half of any candidate pair has its name drawn.
+  const coldNames = await page.evaluate((ids: number[]) => {
+    const w = window as any, a = w.__neural, names = new Set(ids.map((i) => a.graphName(a.nodes[i])))
+    return (w.__pairPaint || []).filter((p: any) => names.has(p.text)).map((p: any) => p.text)
+  }, (o as Any).all.flatMap((p: Any) => [p.upper.idx, p.lower.idx]))
+  expect(coldNames, `no unpointed pair draws its name (${(o as Any).all.length} pairs on screen)`).toEqual([])
+  // THE PIXEL SUBJECT: the widest pair whose strip is clear of OTHER ORBS (v1.242.0). The 44px drawer icon
+  // put the reader's top inset at 74, not 68 (`_readerBand`: logo bottom + 12), so the camera sits 0.77
+  // world units higher (cy 14.904 vs dev's 15.672) and the widest pair became Knee-on-Belly, whose strip
+  // holds five neighbouring orbs and NO text draw (measured {above:0,name:65,below:261}: orb ink). The
+  // bright-pixel bands below need a pair with clear air, so candidates are walked widest-first; the
+  // label claim itself is the draw count above, over every pair.
+  let c = o.best!, x = 0, cold: Any = null, firstCold: Any = null
+  for (const cand of (o as Any).all.slice(0, 12)) {
+    const cx = Math.max(cand.upper.sx, cand.lower.sx) + Math.max(cand.upper.r, cand.lower.r) + 16
+    const s = await strips(page, cand.mid, cx)
+    firstCold = firstCold || s
+    if (s.name + s.above + s.below < 20) { c = cand; x = cx; cold = s; break }
+  }
+  expect(cold, `some pair has clear air beside it (the widest read ${JSON.stringify(firstCold)})`).not.toBeNull()
   expect(cold.name + cold.above + cold.below, `an unpointed pair draws no label (${JSON.stringify(cold)})`).toBeLessThan(20)
 
   // POINT AT THE UPPER HALF: the name lands on the pair's midline, the role above it.

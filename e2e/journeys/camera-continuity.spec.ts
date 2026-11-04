@@ -84,7 +84,10 @@ import { journey } from "../dsl";
  *                                                       no journey here runs. H139 / ORCH-377 again
  *                                                       measured both as NON-KILLS on green baselines;
  *                                                       neither is prediction coverage.
- *   fixed 30px band-flight gate                     → "ZERO overlap URL arrival" (ORCH-382)
+ *   fixed 30px band-flight gate                     → "ZERO overlap URL arrival" (ORCH-382; SIDE-R3 N7)
+ *     Historical NON-KILL at 1440x900 on the drawer bundle. The added 1440x720 viewport restores
+ *     flight-lift-fixed-margin's kill with band 74..218: label bottom 235.82 vs required <232.
+ *     Both heights pass unmutated; the ZERO-overlap assertion and 74px inset remain unchanged.
  *   track the hold only after that gate opens         → "ZERO overlap URL arrival" (ORCH-382)
  *     H140 before the fix: final 0/10, CI-green 3c3a4f949 10/10, video-cards 76891e049 10/10.
  *     The actual silhouette and zero-offset tracking preserve the existing frame bounds and hover.
@@ -343,10 +346,14 @@ for (const viewport of VIEWPORTS) {
       test.info().annotations.push({ type: "motion", description: JSON.stringify(m) });
     });
 
-    test("URL arrival: from the intro to the staged board, every frame within the bounds", async ({ page }) => {
+    for (const height of (W === 1440 ? [720, 900] : [viewport.height])) test(`URL arrival: from the intro to the staged board at ${height}px, every frame within the bounds`, async ({ page }) => {
+      await page.setViewportSize({ width: W, height });
       const j = journey(page);
       await j.boot("/Positions/Mount");
       const S = await record(page, 60 * 7);
+      const band = await page.evaluate(() => (window as any).__neural._reader?.nodeBand);
+      console.log(`[D-355] ${W}x${height} band=${JSON.stringify(band)}`);
+      if (W === 1440) expect(band.top, "the 44px drawer icon sets the reader inset to 74px").toBe(74);
       expectContinuous(S, W, "URL arrival");
       expectClearOfRows(S, W, "URL arrival");
     });

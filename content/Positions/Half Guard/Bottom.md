@@ -116,6 +116,7 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
   "@type": "WebPage",
   "name": "Half Guard Bottom",
   "description": "Master Half Guard Bottom with comprehensive sweeps, submissions, and back takes. Advanced practitioners achieve 65% sweep rate through systematic offense.",
+  "disambiguatingDescription": "Often confused with Demi Guard \u2014 Half Guard traps one leg between both legs; Demi Guard is a distinct gi lapel configuration with a foot on the lapel tail..",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -180,6 +181,9 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Demi Guard|Demi Guard]]</strong> — Half Guard traps one leg between both legs; Demi Guard is a distinct gi lapel configuration with a foot on the lapel tail.</p>
+</aside>
 <section id="overview" class="content-section">
 
 Half Guard Bottom represents a sophisticated defensive position that has evolved into one of the most dynamic offensive platforms in modern Brazilian Jiu-Jitsu. From this position, the bottom practitioner controls one of the top player's legs between their own legs while lying on their side or back, creating an asymmetric control structure that enables sweeps, submissions, and back takes despite the apparently inferior positioning. The position serves as a critical last line of defense before being passed while simultaneously offering numerous high-percentage offensive opportunities that reward technical precision over raw athleticism.

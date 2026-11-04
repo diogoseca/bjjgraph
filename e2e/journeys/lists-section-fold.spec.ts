@@ -291,7 +291,7 @@ test("the header is on the same focus ladder as its neighbours: Enter and Space 
   const focused = () =>
     page.evaluate(() => {
       const e = document.activeElement as HTMLElement | null;
-      return e ? e.getAttribute("data-explore-section") || (e.hasAttribute("data-lists-new") ? "+" : e.tagName) : null;
+      return e ? e.getAttribute("data-explore-section") || (e.hasAttribute("data-lists-new") ? "+" : e.getAttribute("data-view") || e.tagName) : null;
     });
 
   await page.locator(LISTS).focus();
@@ -308,7 +308,8 @@ test("the header is on the same focus ladder as its neighbours: Enter and Space 
   await page.keyboard.press("Tab");
   expect(await focused(), "the + is the header's own control, next on the ladder").toBe("+");
   await page.keyboard.press("Tab");
-  expect(await focused(), "then straight to the next section — the fold holds no tab stops").toBe("Systems");
+  // v1.242.0: the drawer's order puts Last rolls after Your lists (owner U51 e)
+  expect(await focused(), "then straight to the next section — the fold holds no tab stops").toBe("history");
 
   // THE SAME LADDER, literally: a neighbour's header keeps focus through its own toggle too
   await page.locator('[data-explore-section="Positions"]').focus();
@@ -420,7 +421,7 @@ test("a saved class arriving by link opens Your lists on its lit row — the lis
   const foldAndClose = async () => {
     await j.clickByMouse(LISTS, "the Your lists header");
     await expect(page.locator(LISTS)).toHaveAttribute("aria-expanded", "false");
-    await page.locator(".ng-logo").click();
+    await page.locator(".ng-explorer-close").click(); // v1.242.0: the drawer closes from its own head
     await expect.poll(() => page.evaluate(() => !!(window as any).__neural.deckShown)).toBe(false);
   };
   // "Class ▸" — read the class: opens the pane on it

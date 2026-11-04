@@ -92,7 +92,10 @@ test("load failure has real Retry; explicit retry uses fresh attempt and real co
   assert.match(card.textContent,/could not load/); assert.equal(card.querySelector('[role="tabpanel"]'),null);
   card.querySelector("[data-settings-retry]").click(); await app._settingsIntent.pending;
   assert.deepEqual(calls.loads,[1,2]); assert.ok(card.querySelector('[role="tabpanel"]'));
-  const goal = card.querySelectorAll("input").find(e=>e.type === "number"); goal.value="999"; goal.fire("change");
+  const goal = card.querySelectorAll("input").find(e=>e.type === "number");
+  // SIDE-R2 M3: the field's default IS the app's NG_PRACTICE_GOAL (one source), not a second literal
+  assert.equal(goal.value, Number(source.match(/const NG_PRACTICE_GOAL = (\d+);/)[1])); assert.equal(goal.value, 20);
+  goal.value="999"; goal.fire("change");
   assert.equal(app.get("dailyGoal",30),200); assert.equal(goal.value,200); assert.equal(calls.saved,1);
   clickText(card,"Multiple choice"); assert.equal(app.get("mcMode"),"mc"); assert.equal(calls.saved,2);
   assert.equal(app.renderSettings(),true,"installed callbacks stay synchronous");
