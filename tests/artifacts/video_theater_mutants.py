@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""VIDEO1: exact-source controls, locked builds and unlocked focused journeys.
+"""VIDEO1: exact-source controls, locked builds and focused journeys.
 
-Set TMPDIR, PW_PORT and BUILD_WAIT=1; --output must be programme scratch.
+Set TMPDIR and PW_PORT; --output must be programme scratch.
+Light jobs reserve 2048 MiB by default and do not use BUILD_WAIT.
 Every selected mutant needs a passing baseline and an unaffected passing case.
 Only its named assertion counts as a kill, never a setup error or timeout.
 """
@@ -42,6 +43,9 @@ def main():
     originals = {m["file"]: (ROOT / m["file"]).read_bytes() for m in mutants}
     hashes = {name: hashlib.sha256(data).hexdigest() for name, data in originals.items()}
     (output / "source-hashes.json").write_text(json.dumps(hashes, indent=2) + "\n")
+    job_env = os.environ.copy()
+    job_env.pop("BUILD_WAIT", None)
+    job_env.setdefault("BUILD_PEAK_MIB", "2048")
 
     def restore():
         for name, data in originals.items():
@@ -52,14 +56,15 @@ def main():
         with (output / (label + "-build.log")).open("w") as log:
             subprocess.run(["bash", "-c", 'source "$1" video "$2" && { free -m; npm run dev:neural:app; }',
                 "video-build", str(PROGRAMME / "quartz/acquire-build-lock.sh"), label],
-                cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, check=True)
+                cwd=ROOT, env=job_env, stdout=log, stderr=subprocess.STDOUT, check=True)
 
     def run(label, pattern):
-        subprocess.run(["bash", str(PROGRAMME / "quartz/heavy-advisory.sh"), "1200", label], cwd=ROOT, check=True)
         with (output / (label + ".json")).open("w") as out, (output / (label + "-stderr.log")).open("w") as err:
-            result = subprocess.run(["node", "node_modules/@playwright/test/cli.js", "test", "-c", "e2e/playwright.private.config.ts",
+            result = subprocess.run(["bash", "-c", 'source "$1" video "$2" >&2 && shift 2 && "$@"',
+                "video-browser", str(PROGRAMME / "quartz/acquire-build-lock.sh"), label + " browsers",
+                "node", "node_modules/@playwright/test/cli.js", "test", "-c", "e2e/playwright.private.config.ts",
                 manifest["spec"], "--workers=1", "--timeout=30000", "--reporter=json", "--grep", pattern],
-                cwd=ROOT, stdout=out, stderr=err)
+                cwd=ROOT, env=job_env, stdout=out, stderr=err)
         data = json.loads((output / (label + ".json")).read_text())
         assert not data.get("errors"), data.get("errors")
         observed = list(rows(data["suites"]))
