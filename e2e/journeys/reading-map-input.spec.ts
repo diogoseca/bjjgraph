@@ -75,7 +75,7 @@ for (const width of [1440, 390]) {
     expect(restored).toEqual(before)
     await page.mouse.click(point.x, point.y)
     expect(await page.evaluate(() => (window as any).__neural.currentPos)).toBe(target)
-    expect(new URL(page.url()).pathname).toBe("/Positions/Half-Guard")
+    expect(new URL(page.url()).pathname).toBe("/Positions/Half-Guard/Top")
     expect(await snapshot()).toMatchObject({ intent: false })
   })
 }
