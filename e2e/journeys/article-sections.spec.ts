@@ -670,16 +670,23 @@ test('@curated independent section preferences merge per key and preserve stale 
   expect(await page.evaluate(() => (window as any).__neural.get('readerSection.future-type'))).toBe(false)
 })
 
+// VIDEO2 CI control `drop-reader-anchor-url` in title_ci_mutants.json is killed
+// at #legacy-notes at BOTH widths; the camera control remains green.
 for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sections and cross-section anchors survive regrouping`, async ({ page }) => {
   await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   const j = journey(page)
   await j.boot(KNEE + '/Attacker', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
   const path = '/Learning/Section-Shape-Fixture'
-  await page.route('**' + path, route => route.fulfill({ contentType: 'text/html', body: '<h1>Section shape fixture</h1><article><h2 id="key-principles">Principles</h2><p>First complete authored statement. <a href="#legacy-notes">Read the original notes</a></p><h2 id="legacy-notes">Legacy notes</h2><p>Unmapped content survives in full.</p><h3 id="deep-note">An authored subheading</h3><p>Its detail also survives.</p><h2 id="related">Related</h2><p>A related source.</p><h2 id="sources">Sources</h2><p>A final citation.</p></article>' }))
+  // VIDEO2 CI: this synthetic page must carry the same head-title contract as
+  // every built page. A body-only fixture cannot publish an exact URL/title pair.
+  const title = 'Section shape fixture | BJJ Learning | BJJ Graph'
+  await page.route('**' + path, route => route.fulfill({ contentType: 'text/html', body: '<!doctype html><html><head><title>' + title + '</title></head><body><h1>Section shape fixture</h1><article><h2 id="key-principles">Principles</h2><p>First complete authored statement. <a href="#legacy-notes">Read the original notes</a></p><h2 id="legacy-notes">Legacy notes</h2><p>Unmapped content survives in full.</p><h3 id="deep-note">An authored subheading</h3><p>Its detail also survives.</p><h2 id="related">Related</h2><p>A related source.</p><h2 id="sources">Sources</h2><p>A final citation.</p></article></body></html>' }))
   await page.evaluate(path => (window as any).__neural._readArticle(path), path)
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', path)
   await expect(page.locator(READY)).toHaveAttribute('data-reader-ready', 'true')
+  expect(new URL(page.url()).pathname, 'the fixture has its own published URL').toBe(path)
+  await expect(page).toHaveTitle(title)
   expect(await page.locator('.ng-section-card').evaluateAll(es => es.map(e => e.getAttribute('data-section-type')))).toEqual(['principles', 'additional', 'related', 'sources'])
   await expect(page.locator('[data-section-type=additional]')).toContainText('Unmapped content survives in full.')
   await expect(page.locator('[data-section-type=additional]')).toContainText('Its detail also survives.')
@@ -727,6 +734,7 @@ for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sect
     return card.contains(el) && box.width > 0 && box.height > 0 && box.top >= root.top && box.top < root.bottom
   }), 'the anchor destination is inside the reader').toBe(true)
   expect(new URL(page.url()).hash).toBe('#legacy-notes')
+  await expect(page).toHaveTitle(title)
   expect(await page.locator('[data-reader-body]').textContent(), 'every authored character returns in source order').toBe(original)
   expect(await state(page)).toMatchObject({ paused: true, played: false, deals: 0, misses: 0 })
 })

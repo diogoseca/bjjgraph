@@ -13349,3 +13349,32 @@ helper: a Bottom roll can still carry the Top representative as its landing node
 the existing Bottom-article contract. Eleven existing arrival, Explore, late-reader and map-input
 assertions now expect the requested explicit Top path while retaining their node identity,
 camera, history, race and hit-testing checks. A second source control restores the reader regression.
+
+## v1.241.1 — Title-fix CI contracts (VIDEO2 CI, 2026-11-04)
+
+All three failures in #331's run 41829898270 were stale test contracts. At both 1440px and
+390px, the unknown-section fixture supplied only a body, unlike all 6,102 built HTML pages,
+which have nonempty head titles. Its missing title correctly withheld the new atomic URL/title
+publication. The fixture now supplies a complete page and asserts its pathname and title as well
+as the original anchor hash, section reopening, focus, content preservation and paused state.
+The original anchor cases failed 10/10 on 862bee788 and passed 10/10 on dev e3d407825.
+
+The map-arrival camera assertion sampled two clocks: the simulation had settled against a
+586px boundary before native reader layout moved that boundary to 532.90625px. The original
+spec reproduced the exact CI discrepancy of 2.7017383711347023 on both heads: twice in 30
+fixed-head repetitions and once in 20 dev diagnostics. Waiting for the reader's actual layout
+publication before pumping the camera fixes the observation order. It does not poll the desired
+framing, add a delay or change any zoom, clearance or two-unit target bound. All three repaired
+cases pass ten repetitions each (30/30, zero skips). No application source, payload ceiling,
+version or app fingerprint changes in this follow-up.
+
+`tests/artifacts/title_ci_mutants.json` records two compiled source controls:
+`drop-reader-anchor-url` fails the original `#legacy-notes` assertion at both widths, with the
+camera control green; `suppress-staged-camera-retarget` fails the original re-aim assertion,
+with both anchor controls green. Healthy and restored controls pass 3/3 each. Source hashes and
+all 42 asset hashes (14 files across dist, Quartz static and public) match the accepted title
+receipt after restoration.
+
+The complete affected `article-sections` and `url-arrival` files pass **53/53** cases, with zero
+skips or retries, on the restored bytes. Browser runs use one worker, anchored file filters and
+private port 18274 after heavy-advisory GO; every app and mutant build holds the shared lock.
