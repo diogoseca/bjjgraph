@@ -146,6 +146,31 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 900], [1024, 900], 
   })
 }
 
+// With the film closed the next thing under the link is the article's ✕. Their boxes overlap in a corner neither one
+// paints; the ✕ takes it. On dev the link took 91px² of it, and the hang above grew that to 142px².
+test("VIDEO3 at 390x631 with the film closed the article's close keeps its presses", async ({ page }) => {
+  const j = await boot(page, 390, 631)
+  await j.clickByMouse("[data-film-close]")
+  for (let i = 0; i < 6; i++) await j.advance(100)
+  await j.readerLayoutSettled()
+  const g = await page.evaluate(() => {
+    const go = document.querySelector("[data-land-ask-go]") as HTMLElement
+    const close = [...document.querySelectorAll("[data-reader-close]")].find(e => e.getClientRects().length) as HTMLElement
+    const c = close.getBoundingClientRect(), b = go.getBoundingClientRect()
+    let inBoth = 0, stolen = 0
+    for (let x = c.left + .5; x < c.right; x++) for (let y = c.top + .5; y < c.bottom; y++) {
+      if (x >= b.left && x <= b.right && y >= b.top && y <= b.bottom) inBoth++
+      // Only where the ✕ would have taken the press: its rounded corner is outside its own hit shape.
+      const stack = document.elementsFromPoint(x, y)
+      if (stack.includes(close) && go.contains(stack[0])) stolen++
+    }
+    return { inBoth, stolen, height: b.height }
+  })
+  expect(g.inBoth, "premise: the link's box reaches the close").toBeGreaterThan(0)
+  expect(g.stolen, "VIDEO3 Answer for Points takes no press from the article's close").toBe(0)
+  expect(g.height, "VIDEO3 the link keeps its 44px target").toBeGreaterThanOrEqual(44)
+})
+
 test("@curated VIDEO3 resize and reveal restore the choices row's original padding", async ({ page }) => {
   const j = await boot(page, 900)
   const padding = () => page.evaluate(() => getComputedStyle((window as any).__neural.optionsRef.current).paddingBottom)

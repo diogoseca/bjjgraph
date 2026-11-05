@@ -396,10 +396,15 @@
      (5px, not 6: VIDEO3's gap is 5.98px, and the rounded top would keep one pixel row of the card), and the card's
      transparent border, which the row band and the film both measure, gives the film one section gap more so the
      target clears it too. Padding is pinned, so it is the border. The label does not move. The ring moves to ::before
-     because an outline offset is symmetric and this box no longer is. The query is _fitAskLine's one-line case: only a
-     tall phone keeps the rules above, its two-line question standing apart from the cards. Pinned by ask-line.spec.ts and panic-card.spec.ts. */
+     because an outline offset is symmetric and this box no longer is. The query is _fitAskLine's one-line case. A tall
+     narrow screen keeps the rules above, because its two-line question stands apart from the cards. A question short
+     enough to share one line with its link does not, and there the old box still lies 8px over the choice above: no
+     question at 430px, about 1% at 540px and 600px (of 21,269, measured 2026-11-05). With the film closed the hang
+     meets the article's ✕, so the ✕ takes that corner: the link keeps its 44px and the press goes to the nearer control.
+     Pinned by ask-line.spec.ts and panic-card.spec.ts. */
   @media(min-width:641px),(max-height:699px){
-    .ng-landcard[data-land-ask]{border-bottom-width:7px!important;}
+    .ng-landcard[data-land-ask]{border-bottom-width:calc(1px + var(--section-gap,6px))!important;}
+    .ng-reader [data-reader-close]{position:relative;z-index:6;}
     [data-land-ask-go]{position:relative;margin:-5px -6px -23px;padding:5px 6px 23px;}
     [data-land-ask-go]:focus-visible{outline:0;}
     [data-land-ask-go]:focus-visible::before{content:"";position:absolute;inset:1px 10px 19px;outline:2px solid #9cbcff;}

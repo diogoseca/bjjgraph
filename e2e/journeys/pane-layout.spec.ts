@@ -117,7 +117,6 @@ for (const width of [1440, 1024]) {
       }
     }
     if (open.layout === 'stacked') {
-      expect(open.layout).toBe('stacked')
       expect(open.film.width).toBe(Math.min(680, width - open.pane.width - 32))
       expect(open.card.width).toBe(Math.min(560, width - open.pane.width - 104))
       expect(open.card.y - open.hand.bottom, 'the question follows Moves at the deck gap').toBeCloseTo(16, 0)
