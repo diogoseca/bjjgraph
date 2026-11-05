@@ -1,26 +1,15 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "npm run regenerate:neural",
-   "esbuild": "0.27.0",
-   "git_head": "c0cf9563c2c28e2c582eefed568deafa805b4a76",
-   "inputs": {
-    "tree": "9f9c4f139b28bfa48fe1ce3533e006b25cb29a9a"
-   },
-   "package_version": "1.249.0",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v2"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/fixes-b1/capture/capb1-1378551be/pr-graph-fixes-1378551be",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/article-order/capture/capu89-48417c315/pr-cut-study-guides-48417c315",
   "content_provenance": {
-   "capture_git_head": "1378551bea8eb7b15bf263d49275e23e1e7e1f59",
-   "capture_id": "dce6dcc5a12441cfa6e356057bf3bf20",
+   "capture_git_head": "48417c3158194cf02e6a19103a778f3b4e0f14d9",
+   "capture_id": "702e96b73b5641aea5c00039086b2506",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "e270d5f8177fa6d96d609889384591d030238bdf",
+   "content_tree": "2d9b0945f5cee609badcddf588f50a36be4aab86",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -45,11 +34,11 @@
    },
    "output_identity": {
     "files": 15827,
-    "sha256": "1c5b5ea56848e4c687b7989f1f4a0b8bfecf63a449c9c2a41ab9d4aa83a2e042"
+    "sha256": "90c211ebea6df9e3197203c0f55982d0c09c832f800dff2b6d0ef84a189cd9a1"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/fixes-b1/capture/capb1-1378551be/pr-graph-fixes-1378551be"
+    "/home/user/bjj-orchestrator/scratch/article-order/capture/capu89-48417c315/pr-cut-study-guides-48417c315"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -170,15 +159,15 @@
   "tags": 73
  },
  "census": {
-  "article_headings": 90587,
-  "article_links": 196910,
+  "article_headings": 89743,
+  "article_links": 192205,
   "files": 15827,
   "gzip_files": 1,
   "head_links": 49199,
   "html_pages": 6142,
   "jsonld_blocks": 30804,
   "meta_tags": 128627,
-  "outside_links": 145534,
+  "outside_links": 144690,
   "pages_with_article": 6131,
   "pages_with_canonical": 6134,
   "pages_with_description": 6137,
