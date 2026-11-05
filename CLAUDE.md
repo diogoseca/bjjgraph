@@ -348,11 +348,12 @@ carries its traps' trigger tokens.
 - …write — or trust — a Playwright assertion → **§6.3** in `.claude/rules/traps-playwright.md`:
   `locator.click()` · a render re-implemented in a spec · a probe is not a gate · an unrigged
   `rng()` tag · a green gate's blind spot · an assertion stricter than its claim · `nth()` ·
-  `all()[i]` · `data-tech`
+  `all()[i]` · `data-tech` · `clickByMouse` before a layout settles
 - …rely on the harness: the DSL, a port, a payload, which build is under test → **§6.4**, same
   file: a payload pattern is a URL SUBSTRING · what the harness does NOT serve · `testDir` · a
   result from a shared port · a WebGL context left on the old page · `ERR_INSUFFICIENT_RESOURCES`
-  · `Target crashed` · `df -h /`
+  · `Target crashed` · `df -h /` ·
+  `addInitScript` + `window.posthog`
 - …write app runtime logic → **§6.5** in `.claude/rules/traps-neural.md`: a single-slot resource
   with many writers · a suppression flag's LIFTERS · one question answered in two places · if the
   data states it, READ it
