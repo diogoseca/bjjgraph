@@ -13969,3 +13969,51 @@ retirement notes the current rule no longer needs.
 seeds follow relabelled rows. F17 was held: a review note called Guillotine Control/Bottom's moves the trapped
 player's, every gate passed with it applied, and two rulings on file said otherwise, so a green gate proved nothing there.
 The four moved FLOW ratchet rows carry their causes in `tests/artifacts/flow_validation_baseline.json`.
+
+## v1.249.0 — The theater's review round (REV332)
+
+An independent review of #332 found no blocker, four should-fix items and nine nits. The seat that reviewed it fixed them.
+
+**A reward notice under the theater was used up unseen (S1).** The notice is ambient, at z 14, and the dialog is in the
+top layer. With three escapes minting a coin while the theater was open, the notice was covered at all three sample
+points, timed out at 5.3s with the theater still open, and never came back. The control showed it normally. D-326 had
+already solved this for a move, so the theater reuses that hold and release. The coin or patch was never lost, only the
+notice. The trigger is narrow: a notice showing at Play, or `white.film` being the last open white challenge. The first
+spec draft polled for the notice to go, which passes without the hold because the notice times itself out at 4.8s inside
+a 5s poll; the assertion now reads once. The choice-watch dialog has the same gap and is out of this round's scope.
+
+**A blocked provider script left the theater on its poster (S2).** Nothing settled `ytApiReady`, so `fail()` could never
+run: 1 theater, 0 iframes, 0 links after 6s. The review's proposed fix was incomplete. Clearing `_ytPromise` alone would
+have made a retry wait forever, because the id check would find the old tag and skip the request, so `onerror` removes the
+tag too. `fail()` now fires `video_load_failed`.
+
+**The rewrite had dropped three film proofs (S3).** `reading-media-placement` went from 82 to 68 assertions and its comment
+said the reference cases kept them. They did not: no reference case moved a playing film without `moveBefore`, and none
+pressed Resume. Resume is now pressed by mouse, and the fixture cases with no `moveBefore` move a live player again.
+
+**`docs/Neural.md` never mentioned the theater (S4).** It stood at 71,996 of 72,000. Fifteen passages moved to this archive
+verbatim (the entry above), the ceiling stayed, and the file is at 71,929.
+
+**The link and the article's close (N6).** The overlap was 91 px² on dev and this PR had grown it to 142 px² of a 1,936 px²
+target. The close now takes that corner by stacking, in the eager CSS because `reading.css` has 13 B of room. 3 px² remain
+at its rounded corner, outside its own hit shape, so they were never its presses; the spec counts only points where the
+close would have received the press.
+
+**A recorded non-kill.** `_readOwnScroll`'s theater guard has no control and cannot have one here: `_readMax` is 0 in the
+book view and in the map view, measured with a revealed card at 390x631, because the reader has adopted the card.
+
+**Controls.** All 40 rows of `tests/artifacts/video_theater_mutants.json` killed at their named assertions on the final
+source, with exact restoration: 13 and 27, in two locked runs. That includes the 13 theater rows the combined run had not
+repeated, which needed proving again because this round changed the code they guard.
+
+**Merging dev v1.248.2 moved the four MDP rows, and the cause was this PR, not content.** `opponentPolicyHash` and
+`manifestHash` differ from dev's capture because `regenerate_mdp_data.py` hashes the bytes of `app.src.jsx` as
+`gameplayHash`. `graphHash`, `modelHash`, the five law hashes, the wire and the content all equal dev's, and the sizes are
+equal. D-282 names this move as expected. The review had called the same difference a minifier swap, which was wrong.
+
+**A flake, not ours.** `test_request_start_pacing_is_global_and_concurrency_is_bounded` in `tests/verify_clips_test.py`
+failed once in `ci:validate`, then 3 of 8 alone on the same tree. It asserts a 19ms gap between stamps taken after threads
+wake, so scheduler jitter breaks it. Test and script are identical to dev. The full replay then passed.
+
+**On the merged head:** `ci:validate` 25 of 25, 1,380 units, 0 skipped; 197 focused journeys of 197; eager gzip 346,897 B,
++3,109 B on the unchanged baseline, of which this round is +256 B; deferred 506,804 of 506,817 B.
