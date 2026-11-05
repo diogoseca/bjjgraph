@@ -267,7 +267,7 @@ with the `<snapshot />` receiver).
 (**the one you want after editing `neural/src/*`**) · `dev:neural` also regenerates the payload ·
 `regenerate:neural` the full payload emit.
 
-**Test** — `test` full core suite · `test:curated` the `@curated` deployment gate (30-min ceiling) ·
+**Test** — `test` full core suite · `test:curated` the `@curated` deployment gate (45-min ceiling) ·
 `test:units` pure node --test · `e2e:gen` generated suite · `npm run e2e -- --headed` for a visible
 browser (ports: §8). `pree2e` and both `test*` scripts run
 `scripts/check_no_raw_random.sh` first.
