@@ -254,7 +254,7 @@ jobs:
         # (run 36813354975, dev 55c238ade) timed out at test 401 of 427 with all 401 green, after
         # 20m05s; the suite was 381 tests in 18m15s before. The 26 remaining run ~1 min more.
         # Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
-        timeout-minutes: 30
+        timeout-minutes: 45
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
