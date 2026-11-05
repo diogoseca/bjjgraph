@@ -136,7 +136,7 @@ test("content capstone story: evidence → roll → tap → acknowledgement → 
   await expect(page.locator(`[data-capstone="${WHITE.id}"] button`)).toHaveText(
     "Capstone cleared",
   );
-  await expect(page.locator(".ng-track-card")).toHaveCount(5);
+  await expect(page.locator(".ng-belt-section")).toHaveCount(5);
 
   // ── Blue was never a reward; it remains genuinely playable on its own ──
   await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click();

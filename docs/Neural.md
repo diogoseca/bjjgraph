@@ -199,11 +199,9 @@ content. Position clips use the half-local array followed by explicitly tagged h
 deduplicated by video ID. At v1.227.0, 285/290 concrete submissions have defender clips. Gaps:
 Americana, Armbar and Kimura from Triangle Control; Achilles Lock from Inside Ashi-Garami; Suloev
 Stretch from Half Guard. All five have authored defender blocks; no clips were added.
-**Recognition comes first, everywhere** (v1.132.2, owner: "It should have shown me multiple
-choice … then I finally start to show actual Anki flashcards"): the emitter's `_hard_clip` bridge
+**Recognition comes first, everywhere** (v1.132.2): the emitter's `_hard_clip` bridge
 makes every display answer one-line-comparable (word-boundary ≤150 + ellipsis, full text in `d`),
-so every deck in the corpus builds a real MC — `validate:mc` 96.3% → **100.0% viable, worklist
-110 → 0**. The recall block survives only as a last-resort safety net (a deliberately-opened card
+so every deck in the corpus builds a real MC. The recall block survives only as a last-resort safety net (a deliberately-opened card
 is never chrome-only) with no live trigger in this corpus; authored `answer_line` (Phase B)
 remains the quality upgrade over truncation. The option-node label pass yields to the
 focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
@@ -407,7 +405,7 @@ DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum unt
 penalty exists only for letting it expire while it faces you. **The question clock never
 pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
 staged boards and internal pauses included — **but it never STARTS before the player does**
-(v1.137.0, owner: "a first-time Guest can land on TOO SLOW · −4% before ever interacting"): no
+(v1.137.0): no
 window arms until the player presses Answer for Points (or taps the question; a card shown on arrival
 after an opt-in needs only engagement) and the card is visible; engagement alone (click, keypress or graph hover) cannot take the question up. An early arm parks in
 `_cwArm` (a FLAG — the bar element resolves at arm time, because the card can re-render
@@ -765,18 +763,20 @@ route, dossier key and analytics identity remain unchanged. Self-assessment does
 Arriving on `/Principles/<slug>` (or `/Learning/`, `/Systems/`) opens that entry and lights its
 techniques, and starts **nothing** — no seat, no hand, no roll (`_refPage`, set from the path in
 `_seedPageFromUrl`). A roll begins only when the player clicks a position, transition or
-submission. v1.155.3 seated the board on a member instead; that seat was itself a roll nobody
-asked for, and the owner's reference law replaced it. A bare CATEGORY HUB — `/Positions`,
+submission. A bare CATEGORY HUB — `/Positions`,
 `/Transitions`, `/Submissions`, `/Systems`, `/Principles`, `/Learning` — is the same law one level
 up (v1.169.0): the arrival opens the pane on Explore with that ONE section expanded, written
 through the same persisted `exploreOpenSections` map a header click uses (neighbours keep their
 folds), and starts nothing. The deferred sections render expanded when their payload lands,
 because the map is written before their first render asks.
 
-**Challenges** — the belt corridor. Five content tracks, all open from day one; track colours
-describe material difficulty, never rank or access. The frontier belt (first belt with lessons
-left) drives navigation — the open section, the arrival scroll, the cue; the tab belt is the belt
-you **wear** (§8), never the frontier, which painted a finished player white. Nothing re-locks.
+**Path and Practice belt sections** (v1.248.0, owner U76/U87). The existing kept belt and
+its grandfathered entitlement determine which sections open. Current and earned earlier belts
+are clickable; future sections are inert. In Practice, earlier belts sit behind “Show earlier
+belts” at the end. Saved folds and selection cannot grant access. The worn belt drives default
+opening and Path arrival; lesson progress still drives the next-lesson highlight. All material
+remains available through reference, lists and gameplay, and all due reviews remain eligible.
+Path keeps its original corridor temporarily as the owner's UI reference (U86).
 
 **Inline deck keys.** History, session queues and corridor lessons share `_miniReg`: `←/→`
 pages, `↑/↓` walks techniques (corridor lesson order, skipping folded belts), `Space` flips,
@@ -843,18 +843,21 @@ Positions share one third of score mass, like attacking and defending technique 
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
 are shown*), never in what a deck is *worth*.
 
-**Practice is one mixed session** (v1.242.0, owner U56 e). The planner (`gameplan.src.js`) deals every
-owed review, most overdue first, and slips the next new gap deck (the weak-spots or study-comparison
-ranking) in once the reviews placed before it pay for its cards at `NG_PRACTICE_REVIEWS_PER_NEW` = 4,
-counted in cards; decks are dealt whole, so the copy says "a new technique after every few reviews". The
-daily goal, `NG_PRACTICE_GOAL` = 20 (`dailyGoal` overrides, read through `practiceGoal()`), counts both
-kinds and is also the day's new-card quota (`ngPracticeRoom`, the owner's number): new cards fill what
-reviews leave of it, are never fewer than a fifth of it, and stop once the day's answers reach it.
-Reviews are never capped. Each row says Review or New; the head reads "Practice · N reviews, M new" and
-"Daily goal: N of 20 today". The drawer's opening asks for the planner chunk, and a queue pressed before
-it lands, with nothing graded, becomes the mix when it does. Practice does not ask for the study
-comparison (measured cost on a throttled phone, no benefit in the first session); "Open study plan"
-and "Refresh plan" do.
+**Practice is one mixed session** (v1.248.0, owner U56 e). Its active flashcard comes first,
+with due reviews ahead of new work and the belt corridor below. The planner (`gameplan.src.js`)
+interleaves new decks from the current belt after every few reviews, using the existing weak-spots
+or study-comparison order. All due reviews remain eligible, including higher-belt material.
+The default goal is 20 (`dailyGoal` overrides, read through `practiceGoal()`); it counts distinct
+graded questions, including mistakes, once per day. Reveal earns nothing. Automatic new allocation
+uses `ngPracticeRoom`: new cards stay at least a fifth of the goal; reviews are never capped. Explicit “Keep practising” appends more eligible work to the same session,
+including after the goal and while reviews remain. Shared questions reserve one obligation.
+
+The compact head shows the worn belt, stripes, format and daily progress. “Practice details &
+session queue” retains reviewed counts, blocked debt, day notices, reasons, comparison controls
+and loading/retry states. Planner arrival appends even after a reveal or grade; it never replaces
+an engaged card or an in-flight press. The drawer asks for the planner on opening. Comparison
+remains deliberate through Open study plan or Refresh plan. Back restores the originating view;
+Close/Esc retain the shared pane's pause ownership. Account controls remain in the drawer.
 
 **Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}`: each seat
 once by node ordinal, per ruleset, with both technique seats in each `t` entry. `ngWireScoreWeights`

@@ -18,7 +18,7 @@ test("white-capstone holder: Blue checkpoint evidence progresses its unit withou
   await expect(page.locator('[data-view="challenges"]')).toBeVisible()
   await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
   await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
-  expect(await page.locator(".ng-track-card").count()).toBe(CURRICULUM.belts.length)
+  expect(await page.locator(".ng-belt-section").count()).toBe(CURRICULUM.belts.length)
   await expect(page.locator(`[data-checkpoint="${U1_KEY}"]`)).toBeVisible()
   await expect(page.locator(`[data-checkpoint="${U2_KEY}"]`)).toHaveCount(1)
   expect(await page.locator(`[data-checkpoint="${U1_KEY}"]`).isDisabled()).toBe(true)
@@ -47,5 +47,5 @@ test("white-capstone holder: Blue checkpoint evidence progresses its unit withou
   expect(await page.locator(`[data-checkpoint="${U1_KEY}"]`).isDisabled()).toBe(false)
   expect(await page.locator(`[data-checkpoint="${U2_KEY}"]`).isDisabled()).toBe(true)
   expect(await page.locator(`[data-capstone="${BLUE.id}"] button`).isDisabled()).toBe(true)
-  expect(await page.locator(".ng-track-card").count()).toBe(CURRICULUM.belts.length)
+  expect(await page.locator(".ng-belt-section").count()).toBe(CURRICULUM.belts.length)
 })

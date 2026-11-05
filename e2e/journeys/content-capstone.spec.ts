@@ -25,7 +25,7 @@ function capstoneReadyBlob(track = WHITE) {
     rec: { ...prep },
     stage: {},
     units,
-    belts: { won: {} },
+    belts: { won: {}, held: { id: track.id, t: 1 }, gf: 1 },
     tut: { done: {} },
     challenges: {},
     badges: {},
@@ -286,7 +286,7 @@ test.describe("Content capstones @curated", () => {
     await j.boot("/", { initialState: capstoneReadyBlob() });
     await j.land("Mount Top");
     await openTrack(page);
-    await expect(page.locator(".ng-track-card")).toHaveCount(5);
+    await expect(page.locator(".ng-belt-section")).toHaveCount(5);
     await page.locator(`[data-capstone="${WHITE.id}"] button`).click();
     await j.advanceUntil("belt_test_start", 20000);
     await awaitCapstoneHand(j);
@@ -308,7 +308,7 @@ test.describe("Content capstones @curated", () => {
     await expect(
       page.locator(`[data-capstone="${WHITE.id}"] button`),
     ).toHaveText("Capstone cleared");
-    await expect(page.locator(".ng-track-card")).toHaveCount(5);
+    await expect(page.locator(".ng-belt-section")).toHaveCount(5);
     await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click();
     await expect(page.locator(".ng-challenge-lesson").first()).toBeEnabled();
   });

@@ -68,6 +68,111 @@
   padding: 4px 24px 16px !important;
 }
 
+/* P1: deliberate study uses the screen; the drawer remains its navigation.
+   All answer content is in one scroller. No pinned account/goal/footer can
+   cover a long question or an enlarged response control. */
+.ng-drill[data-practice-page] {
+  width: min(760px, 100vw) !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+  background: #111522 !important;
+}
+.ng-drill[data-practice-page] .ng-drawer-head {
+  padding: 0 10px;
+}
+.ng-drill[data-practice-page] .ng-pane-drillhead {
+  display: grid !important;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 5px 12px;
+  padding: 4px 16px 10px !important;
+}
+[data-practice-page] .ng-pane-drillhead small {
+  grid-column: 2;
+  color: #a6b3ca;
+  font-size: 11px;
+}
+[data-practice-page] .ng-pane-drillhead .ngBack {
+  grid-row: span 2;
+  color: #cbd5e8;
+}
+[data-practice-page] .ng-pane-drillhead + div {
+  padding: 10px 16px 24px !important;
+  min-height: 0;
+}
+[data-practice-page] .ng-acctwrap {
+  display: none !important;
+}
+.ng-practice-cards {
+  border-left: 3px solid var(--practice-belt, #d8dde8);
+  padding-left: 9px;
+}
+[data-practice-section] {
+  color: #c4cfe2;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+[data-practice-page] [data-mini-deck] {
+  padding: 0 8px 8px !important;
+}
+[data-practice-page] [data-mini-q] {
+  font-size: 15px !important;
+}
+[data-practice-page] button,
+[data-practice-page] summary {
+  min-height: 44px;
+}
+.ng-practice-nav {
+  display: flex;
+  gap: 8px;
+}
+[data-practice-keys] {
+  margin: 8px 0;
+}
+[data-practice-details] {
+  color: #a9b6cf;
+  font-size: 12px;
+}
+[data-practice-queue] {
+  display: flex;
+  flex-direction: column;
+}
+[data-practice-queue] button,
+.ng-earlier-belts,
+[data-practice-page] .ngBack {
+  font: inherit;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+[data-practice-queue] button {
+  text-align: left;
+  color: #cbd5e8;
+}
+.ng-belt-locked {
+  padding: 14px 12px;
+  color: var(--ng-track);
+  opacity: .7;
+}
+.ng-belt-locked small {
+  display: block;
+  color: #a2abc0;
+  font-size: 11px;
+  margin-top: 5px;
+}
+.ng-earlier-belts {
+  display: block;
+  margin: 8px auto 0;
+  color: #98a4bc;
+  font-size: 12px;
+}
+.ng-earlier-belts:focus-visible,
+[data-practice-page] button:focus-visible {
+  outline: 2px solid #9fb8ff;
+  outline-offset: 3px;
+}
+
 .ng-collection-section > div:first-child {
   display: flex;
   align-items: baseline;

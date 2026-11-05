@@ -91,6 +91,7 @@ test("nogi checkpoint pool draws only from nogi-viable decks — the gi-only dec
   // prior belt won — beltUnlocked(bi) needs the previous belt's victory, and a locked row gets
   // NO click handler (renderBeltPath:2511); prior units stay checkpoint:true so uLocked=false.
   const seed: any = beltReady(H.belt)
+  seed.belts.held = { id: H.belt.id, t: 1 }; seed.belts.gf = 1 // P1: earned entry, unchanged checkpoint evidence
   delete seed.units[H.uk]
   for (const id of H.priorBeltIds) seed.belts.won[id] = { moves: 14, dominance: 4, byPoints: false }
   await j.boot("/", { initialState: seed })

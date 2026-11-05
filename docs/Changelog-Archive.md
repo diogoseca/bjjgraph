@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.248.0** — [Practice in the Challenges look](#v12480--practice-in-the-challenges-look)
 - **v1.247.1** — [The deploy's curated gate: a keyed loader and an unpainted label](#v12471--the-deploys-curated-gate-a-keyed-loader-and-an-unpainted-label)
 - **v1.247.0** — [Exact clips for submission escapes](#v12470--exact-clips-for-submission-escapes)
 
@@ -13827,6 +13828,84 @@ already waits (`reading-mode`, `reading-contract`, `land-layers`).
 after merge. Nothing here closes that. Hardening `clickByMouse` to re-measure at press time would
 close the other class for every spec, but it costs frames on every press across a 30-minute gate.
 Neither was done here.
+
+## v1.248.0 — Practice in the Challenges look
+
+LADDERP1 and LADDERC, 2026-11-04 and 05. Step 1 of the belt ladder, under the owner's U76, U86 and U87.
+Practice takes the Challenges corridor: the first flashcard is usable at once, due reviews come first,
+current and earned belts open, earlier belts sit behind a faint disclosure at the end, and a future
+belt is inert only inside Path and Practice. Reviews and deliberate new work share one uncapped session
+and one distinct-question ledger. Path keeps its original UI until Practice is tight (U86). No P2 to P4
+work, no ceiling raised, no setting deleted.
+
+The receipts are `tests/artifacts/ladder_p1_capabilities.md` (22 P1 dispositions extending the
+sidebar's 145-row inventory), and `tests/artifacts/ladder_p1_mutants.md` with its `.json` (26 of 26
+named kills).
+
+**The session contract changed, and one unit test still described the old one.** `openPlanSession` used
+to open a due-only queue and re-enter itself as `("new", false)` when the planner landed. It now frames
+one Practice session from the eager debt and `_practiceAppend` extends it. `gameplan_study_host_app`
+was never in that job's focused-unit list, so it stayed red until the full `ci:validate` replay: two cases
+on `ngGameplanDebt is not defined`, its `new Function` scope having no such binding. The harness now
+passes the real modules in. The `reopened` receipt has no successor call to count, so the case reads the
+effect it stood for. It is stricter than before: the plan orders its new deck FIRST, so an untouched
+queue taking the plan and an engaged one appending behind the open card cannot agree.
+
+| mutant in `neural/src/app.src.jsx`, via `BJJ_STUDY_APP_SOURCE` | result |
+|---|---|
+| adopt drops the `_sessionInline()` guard | KILLED: `open-deck` |
+| `engaged` drops the reveal | KILLED: `revealed` |
+| `engaged` drops the grade | KILLED: `graded` |
+| `engaged` always | KILLED: `untouched` |
+| `engaged` never | KILLED: `graded` |
+| the cold landing skips `_afterPress` | KILLED: "the landing waits for the press" |
+| the landing requests study | KILLED: `untouched`, its `calls.requests` |
+| `studyIntent !== false` dropped | KILLED: the request list |
+| a due entry requests study | KILLED: the request list |
+| a second entry replaces the session | KILLED: "one visit owns one session" |
+
+The first pass of that table had one crash-kill (a `TypeError` on an absent `_paneOwed`) and one survivor.
+Both were closed in the same change: `?.length` makes it the named assertion, and the last row is new.
+
+**`docs/Neural.md` crossed its 72,000 ceiling by 508**, on this version's own text. The ceiling stayed.
+Moved out as narrative, verbatim: recognition-first's owner quote, "It should have shown me multiple
+choice … then I finally start to show actual Anki flashcards"; `validate:mc` 96.3% → 100.0% viable,
+worklist 110 → 0; the clock's "a first-time Guest can land on TOO SLOW · −4% before ever interacting";
+and "v1.155.3 seated the board on a member instead; that seat was itself a roll nobody asked for, and
+the owner's reference law replaced it."
+
+**A compaction cut the owner's copy, and the run that would have caught it had already finished.**
+The implementation commit shortened "Why these decks?" to "Overdue reviews mix with current-belt
+practice. Shared questions count once." to fit the eager cap, at 20:04, after the 19:20 curated run. That
+removed item 9's plain copy (owner, 2026-09-30) and its caveat, "that is not a measure of real grappling".
+The plan's ledger says the fold is retained, and nothing declared the rewrite. `gameplan-learning-loop`
+went red on the first curated replay after the merge. The spec was right, so dev's exact words came back
+and the caveat gained its own assertion, because the first sentence had been the only pin.
+
+A scan of every string that left the app against dev (126 literals on removed lines, 11 user-facing)
+sorts the rest. "All done, come back tomorrow" and "Find more weaknesses" are the plan's declared
+replacement of a dead end with "Keep practising". Still reworded and declared here: the three eager
+`planSummary` fallback lines, whose meaning and caveat survive and whose originals remain in
+`gameplan.src.js`, and three empty states merged into "Nothing to practise here right now."
+The scan's first version reported 0 because a multi-line backtick pattern ate the file; the known
+string as a required positive control is what exposed that.
+
+**Three reds outside the affected list, on the PR's first CI run.** `recall-badge` was a second silent
+loss: a locked section `continue`d past the Black reward row, hiding the owner's "see yourself walking
+toward" advert from everyone below Black, and the ledger cited that very spec as proof it was kept. One
+builder now serves both paths, and the row is text only, so the section stays inert. `sidebar` was stale:
+the compact head is the plan's, so its title claim moved to the card section's exact heading.
+`session-scroll` had lost its surface, because Practice hides every row but the open one. The row walk
+stayed on a real inline door, `openSession("reviewing")`, and the owner's sentence gained Practice's
+own picker: a queue button far below the card must bring its deck back into view. Mutants, one build:
+a button in the locked section, a reworded heading, and the jump without `_scrollFocusedDeck`, each
+KILLED on its named assertion. The lesson: an affected list is a guess at the blast radius, and only the
+whole suite measures it.
+
+**REV336's fix round.** An independent review drove the page with a mouse and found what every text pin missed: a corridor stale after a lesson, a card its own title row blanked, an end card 3,500 px down. All fixed; the mutants are in `tests/artifacts/ladder_p1_mutants.md`. A pin that reads text says nothing about where it stands.
+
+**Eager gzip checkpoint (LADDERPAY1).** Dev's own 343,788 B, +4,203 from 339,585; this version's
+merged tree stood at +5,755, over the 5,000 B cap. See the commit for the method.
 
 ## v1.249.0 — The reader's place: the rounding's remainder (combined #332 validation)
 
