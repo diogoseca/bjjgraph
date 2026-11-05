@@ -50,8 +50,11 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
     if (reward) this._challengeRewardQueue.unshift(reward), this._challengeRewardDismiss();
   },
 
+  // The theater yields the same way (REV332 S1). Its dialog is in the top layer, so a notice shown
+  // under it runs out its 4.8 seconds unseen and never comes back. _openFilmTheater holds, and
+  // collapseClip releases, exactly as startExecution and clearExecution do.
   showNextChallengeReward() {
-    if (this._execution || this.__ngDestroyed) return;
+    if (this._execution || this._filmTheater || this.__ngDestroyed) return;
     const reward = (this._challengeRewardQueue || []).shift();
     if (!reward) {
       this._challengeRewardActive = null;

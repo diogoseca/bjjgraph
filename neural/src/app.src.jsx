@@ -2411,8 +2411,10 @@ class Component extends DCLogic {
       card._outside = e => { if (live() && !card.contains(e.target)) this.collapseClip(card); };
       document.addEventListener("pointerdown", card._outside, true);
     }
-    const fail = () => {
+    // §6.6: the fallback says it fired. `e` is the player's onError; no `e` means the script itself failed.
+    const fail = e => {
       if (!live()) return;
+      this.fx("video_load_failed", { id: clip.id, code: e?.data ?? "script" });
       const link = document.createElement("a"); link.textContent = "Open video on YouTube ↗";
       link.href = "https://www.youtube.com/watch?v=" + clip.id + (clip.start ? "&t=" + clip.start + "s" : "");
       link.target = "_blank"; link.rel = "noopener noreferrer";
@@ -2464,6 +2466,7 @@ class Component extends DCLogic {
     dialog.append(close, host);
     (this.__ngRoot || document.body).appendChild(dialog);
     this._filmTheater = { dialog, card, source };
+    this.holdChallengeReward?.(); // after the line above: the hold's own dismiss must not re-show it
     this._cancelGraphInput?.(); this._readStop();
     dialog.oncancel = e => { e.preventDefault(); this.collapseClip(card); };
     dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };
@@ -2483,6 +2486,8 @@ class Component extends DCLogic {
       const { dialog, source } = this._filmTheater; this._filmTheater = null;
       dialog.getAnimations().forEach(a => a.cancel()); dialog.close(); dialog.remove();
       if (source.isConnected) source.focus({ preventScroll: true });
+      // D-326's release, the same microtask as clearExecution's: the held notice gets its full time now.
+      if (this.showNextChallengeReward) queueMicrotask(() => this._challengeRewardActive || this.showNextChallengeReward());
     }
     if (card._loop) { clearInterval(card._loop); card._loop = null; }
     if (card._player) { try { card._player.destroy(); } catch (e) {} card._player = null; }
@@ -2506,7 +2511,12 @@ class Component extends DCLogic {
       const prev = window.onYouTubeIframeAPIReady;
       window.onYouTubeIframeAPIReady = () => { if (prev) { try { prev(); } catch (e) {} } resolve(window.YT); };
       if (!document.getElementById("yt-iframe-api")) {
-        const s = document.createElement("script"); s.id = "yt-iframe-api"; s.src = "https://www.youtube.com/iframe_api"; document.head.appendChild(s);
+        const s = document.createElement("script"); s.id = "yt-iframe-api"; s.src = "https://www.youtube.com/iframe_api";
+        // A blocked script never calls the ready hook, so nothing settled and fail() could not run
+        // (REV332 S2). Forget this attempt so a later Play retries: the promise here, and the tag,
+        // because the id check above would otherwise skip the new request and wait forever.
+        s.onerror = () => { s.remove(); this._ytPromise = null; resolve(null); };
+        document.head.appendChild(s);
       }
     });
     return this._ytPromise;
@@ -19899,7 +19909,7 @@ class Component extends DCLogic {
       // dead to a real mouse. The option sheet, minimized-layer dock and hand ✕ complete the
       // current fixed-control set.
       for (const ov of [...this._landSurfaces(),
-        this._layerDockEl, this._handCloseEl, this._readerEl, this._readerTocEl, this._filmTheater?.dialog]) {
+        this._layerDockEl, this._handCloseEl, this._readerEl, this._readerTocEl]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }
       // THE TAP THAT CLOSES THE DRAWER IS CONSUMED (SIDE-R2 P1). On a phone the exposed strip's tap is the

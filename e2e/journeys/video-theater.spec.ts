@@ -11,6 +11,10 @@ import { journey } from "../dsl"
 // Browser boundary, measured with the cross-origin fixture: Escape pressed inside
 // the provider does not reach the parent dialog. The native Shift+Tab -> Close ->
 // Escape path below is covered; direct provider-key dismissal is not claimed.
+// Recorded non-kill: _readOwnScroll's theater guard. Its wheel path needs _readMax, which is
+// 0 in the book view and in the map view (measured with a revealed card at 390x631), because
+// the reader has adopted the card. It can only matter before the deferred reader adopts it,
+// a window no journey here holds open, so no spec can turn a mutant of that line red.
 const PATH = "/Transitions/Knee-Slice-Pass/Attacker"
 const FILM = "[data-land-film]:not([data-reference-film])"
 const PLAY = FILM + " [data-film-play]"
@@ -23,9 +27,9 @@ const api = `window.__players=[]; window.YT={Player:function(host,opts){
   host.replaceWith(f);
 }}; window.onYouTubeIframeAPIReady();`
 
-async function boot(page: Page, vertical = false, enforceCsp = false) {
+async function boot(page: Page, vertical = false, enforceCsp = false, opts: { keepTutorial?: boolean, blockApi?: () => boolean } = {}) {
   const j = journey(page)
-  await j.boot(PATH, { beforeNavigate: async p => {
+  await j.boot(PATH, { keepTutorial: !!opts.keepTutorial, beforeNavigate: async p => {
     if (enforceCsp) {
       const policy = readFileSync(resolve(__dirname, "../../source/public/_headers"), "utf8").match(/^\s*Content-Security-Policy-Report-Only:\s*(.+)$/m)![1]
       await p.route(url => url.pathname === PATH, async route => {
@@ -48,7 +52,7 @@ async function boot(page: Page, vertical = false, enforceCsp = false) {
       }
       await route.fulfill({ response, json: data })
     })
-    await p.route("https://www.youtube.com/iframe_api", route => route.fulfill({ contentType: "text/javascript", body: api }))
+    await p.route("https://www.youtube.com/iframe_api", route => opts.blockApi?.() ? route.abort() : route.fulfill({ contentType: "text/javascript", body: api }))
     await p.route("https://www.youtube.com/embed/**", route => route.fulfill({ contentType: "text/html", body: '<!doctype html><title>Provider transport fixture</title><button>Player control</button>' }))
   } })
   await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible()
@@ -182,14 +186,67 @@ test("@curated VIDEO1 map gets no pointer wheel or keyboard input during playbac
   const before = await state()
   expect(await page.evaluate(() => (window as any).__neural._graphInputOn()), "VIDEO1 map input gate closes during theater").toBe(false)
   await page.mouse.move(2, 2); await page.mouse.wheel(0, 180)
-  await page.mouse.move(700, 400); await page.mouse.down(); await page.mouse.move(760, 440, { steps: 8 }); await page.mouse.up()
   await page.locator(THEATER + " .ngClipX").focus()
   for (const key of ["1", "Shift+Digit1", "a", "ArrowRight", "/"]) await page.keyboard.press(key)
   expect(await state(), "VIDEO1 native gestures cannot reach the map or Moves").toEqual(before)
-  await page.keyboard.press("Escape")
+  // A drag has to start on the dim to mean anything: over the video it belongs to the cross-origin
+  // iframe and the app never hears it. Releasing on the dim is a click on the dialog, so this drag
+  // also ends the theater. It pans nothing because the modal and _graphInputOn each stop it, so
+  // removing either one alone leaves this green; each has its own control above.
+  await page.mouse.move(5, 5); await page.mouse.down(); await page.mouse.move(60, 40, { steps: 8 }); await page.mouse.up()
+  await expect(page.locator(THEATER)).toHaveCount(0)
+  expect(await state(), "VIDEO1 a drag on the dim cannot reach the map").toEqual(before)
   expect(await page.evaluate(() => (window as any).__neural._graphInputOn())).toBe(true)
   await j.readingOtherHalf()
   await expect(page).toHaveURL(/\/Knee-Slice-Pass\/Defender$/)
+})
+
+// REV332 S1, D-326's rule for the theater. A notice shown under the top layer is covered by the video
+// and runs out its 4.8 seconds unseen, so it waits. Both ways in: one already showing at Play, one
+// raised during playback. Three escapes mint Houdini through the real path.
+test("VIDEO1 a reward waits for the theater to close", async ({ page }) => {
+  const j = await boot(page, false, false, { keepTutorial: true })
+  const reward = page.locator(".ng-challenge-reward")
+  await expect(reward, "premise: arrival's own notice has finished").toHaveCount(0, { timeout: 12_000 })
+  await page.evaluate(() => { const a = (window as any).__neural; for (let i = 0; i < 3; i++) a.fx("escape", { via: "Elbow Escape" }) })
+  await expect(reward, "premise: a notice is showing at Play").toBeVisible()
+  const minted = await page.evaluate(() => (window as any).__neural._challengeRewardActive)
+  expect(minted, "premise: the notice is a real queued reward").toMatchObject({ kind: "coin" })
+  await j.clickByMouse(PLAY)
+  await expect(page.locator(THEATER + " iframe")).toBeVisible()
+  // Read once, never polled: the notice times itself out at 4.8s, so a 5s retry passes without the hold.
+  expect(await reward.count(), "VIDEO1 an open theater holds the notice already showing").toBe(0)
+  await page.keyboard.press("Escape")
+  await expect(reward, "VIDEO1 a held notice shows once the theater closes").toBeVisible()
+  await j.clickByMouse("[data-reward-close]", "dismiss the released notice")
+  await expect(reward).toHaveCount(0)
+  await j.clickByMouse(PLAY)
+  await expect(page.locator(THEATER + " iframe")).toBeVisible()
+  await page.evaluate(r => { (window as any).__neural.queueChallengeReward(r.kind, r.id) }, minted)
+  await page.waitForTimeout(150)
+  expect(await reward.count(), "VIDEO1 no notice opens behind the theater").toBe(0)
+  await page.keyboard.press("Escape")
+  await expect(reward, "VIDEO1 a notice raised during playback shows once the theater closes").toBeVisible()
+  expect(await reward.evaluate(el => { const b = el.querySelector("[data-reward-close]")!.getBoundingClientRect()
+    return el.contains(document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2)) }), "VIDEO1 the released notice is on top").toBe(true)
+})
+
+// REV332 S2: a blocked provider script fired nothing, so the theater sat on its poster for good.
+// The route aborts the way a content blocker does; the second Play is the same page after it lifts.
+test("VIDEO1 a blocked provider says so, and a later Play retries it", async ({ page }) => {
+  let blocked = true
+  const j = await boot(page, false, false, { blockApi: () => blocked })
+  await j.clickByMouse(PLAY)
+  const link = page.locator(THEATER + " .ngPlayerHost a")
+  await expect(link, "VIDEO1 a blocked provider offers the video on YouTube").toBeVisible()
+  await expect(link).toHaveAttribute("href", /youtube\.com\/watch\?v=/)
+  expect(await page.evaluate(() => (window as any).__neural.beats.filter((b: any) => b.beat === "video_load_failed").map((b: any) => b.code)), "VIDEO1 a blocked provider says it fired").toEqual(["script"])
+  await page.keyboard.press("Escape")
+  await expect(page.locator(THEATER)).toHaveCount(0)
+  blocked = false
+  await j.clickByMouse(PLAY)
+  await expect(page.locator(THEATER + " iframe"), "VIDEO1 a later Play retries the provider").toBeVisible()
+  await expect.poll(() => page.evaluate(() => (window as any).__players?.[0]?.play), { message: "VIDEO1 the retried player plays" }).toBe(1)
 })
 
 test("@curated VIDEO1 reduced motion opens instantly without a zoom", async ({ page }) => {
