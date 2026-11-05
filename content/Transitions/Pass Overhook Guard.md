@@ -36,6 +36,27 @@ description: "Master passing Overhook Guard in BJJ. Complete technical guide cov
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Overhook Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard Retention Details with Over Hook",
+      "description": "Pass Overhook Guard film study: Guard Retention Details with Over Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bVDyi54074A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bVDyi54074A?start=30",
+      "url": "https://www.youtube.com/watch?v=bVDyi54074A",
+      "duration": "PT299S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This pass integrates with broader guard passing systems as a specialized solutio
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Overhook Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bVDyi54074A&start=30)
+
+<p class="clip-credit"><strong>Guard Retention Details with Over Hook</strong> · 4:59 · <a href="https://www.youtube.com/watch?v=bVDyi54074A&t=30s" rel="noopener">Watch on YouTube from 0:30</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

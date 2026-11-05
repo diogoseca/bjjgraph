@@ -150,6 +150,27 @@ description: "Complete defensive guide against Shin-to-Shin Guard passing attemp
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Shin-to-Shin Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin On Shin Position - Countering The Backstep Pass (pt. 2)",
+      "description": "Pass Shin-to-Shin Guard (Defender) film study: Shin On Shin Position - Countering The Backstep Pass (pt. 2).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tTQlgZzGHsY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tTQlgZzGHsY",
+      "url": "https://www.youtube.com/watch?v=tTQlgZzGHsY",
+      "duration": "PT96S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending against shin-to-shin guard passes requires understanding the passer's 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Shin-to-Shin Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tTQlgZzGHsY)
+
+<p class="clip-credit"><strong>Shin On Shin Position - Countering The Backstep Pass (pt. 2)</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=tTQlgZzGHsY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

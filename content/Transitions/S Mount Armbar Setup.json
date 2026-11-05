@@ -608,6 +608,25 @@
         "description": "Incorporate S Mount Armbar Setup defense into regular positional sparring from mount. Practice recognizing setup initiation during dynamic exchanges and executing defensive responses at full speed against fully committed attacks."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "meDYJ0EYSgw",
+        "title": "1g Armbar Defense from S Mount",
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 19,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "OST6zx03rik",
+        "title": "Super Effective S Mount Arm Bar Defense",
+        "channel": "MMA Leech",
+        "duration": 268,
+        "vertical": false,
+        "start": 98,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

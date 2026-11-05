@@ -35,7 +35,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _atomic_io import atomic_write_json, atomic_write_text
-from _clips import CONTENT, iter_clips_arrays
+from _clips import CONTENT, drop_empty_escape_rows, escape_rows, iter_clips_arrays
 from claude_infer import call_claude
 from peak_throttle import throttle_if_peak
 from _model import model as _model_tier  # single source of truth: models.env
@@ -88,12 +88,13 @@ def gather(args):
     """Every applied clip with its slot context. Returns list of dicts."""
     items = []
     for f, _data, role, holder in iter_clips_arrays(args.category, args.file):
-        where = f"{os.path.relpath(f, CONTENT)}#{role or 'root'}"
+        escape = holder.get("escape")  # a per-escape row is its own slot
+        where = f"{os.path.relpath(f, CONTENT)}#{role or 'root'}" + (f"/{escape}" if escape else "")
         name = _data.get("name", Path(f).stem)
         for clip in holder["clips"]:
             items.append({
                 "key": clip_key(where, clip), "where": where, "file": f, "role": role,
-                "name": name, "clip": clip,
+                "name": name, "clip": clip, "escape": escape,
             })
     return items
 
@@ -185,6 +186,8 @@ def prune_high(items, cache, args):
             data = json.load(fh)
         for it in its:
             holder = data if it["role"] is None else data.get(it["role"])
+            if it.get("escape"):
+                holder = next((r for r in escape_rows(data) if r.get("escape") == it["escape"]), None)
             if not isinstance(holder, dict):
                 continue
             before = len(holder.get("clips", []))
@@ -193,6 +196,7 @@ def prune_high(items, cache, args):
             if not holder["clips"]:
                 holder.pop("clips")
             pruned += before - len(holder.get("clips", []))
+        drop_empty_escape_rows(data)
         atomic_write_json(f, data)
     print(f"[prune] removed {pruned} clip(s); --top-up will re-source affected slots")
     return pruned

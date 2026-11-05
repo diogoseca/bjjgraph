@@ -176,6 +176,27 @@ description: "Master crucifix maintenance from the attacker perspective. Systema
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix Maintenance (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Use the Crucifix in No-Gi BJJ | Control and Finish",
+      "description": "Crucifix Maintenance (Attacker) film study: How to Use the Crucifix in No-Gi BJJ | Control and Finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FEeFnztwpUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FEeFnztwpUQ",
+      "url": "https://www.youtube.com/watch?v=FEeFnztwpUQ",
+      "duration": "PT251S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Crucifix Maintenance from the attacker's perspective involves the continuous adj
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix Maintenance (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FEeFnztwpUQ)
+
+<p class="clip-credit"><strong>How to Use the Crucifix in No-Gi BJJ | Control and Finish</strong> · 4:11 · <a href="https://www.youtube.com/watch?v=FEeFnztwpUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

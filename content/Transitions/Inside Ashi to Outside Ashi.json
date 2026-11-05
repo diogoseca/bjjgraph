@@ -377,7 +377,18 @@
       }
     ],
     "safety_considerations": "This transition involves reconfiguring a leg entanglement that can lead directly to heel hook submissions. During training, execute the transition at controlled speed and communicate clearly with your training partner about the angle change. The outside ashi configuration provides direct access to outside heel hooks, which apply rotational force to the knee ligaments. Always apply submissions slowly and progressively, giving your partner time to tap. If your partner's leg position changes unexpectedly during the transition, pause and verify their comfort before continuing. Never combine explosive transition movement with immediate submission application.",
-    "clips": []
+    "clips": [
+      {
+        "id": "1gNAjcKwug4",
+        "title": "Outside Heel Hook: Ashi Garami Transition from Irimi to Outside Position (No…",
+        "channel": "Brian Glick",
+        "duration": 385,
+        "vertical": false,
+        "start": 152,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Ashi to Outside Ashi Defender",

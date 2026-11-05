@@ -188,6 +188,16 @@ description: "Learn to execute the calf slicer from backside 50-50 with precise 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Outside-In Calf Slicer from 50/50",
+      "description": "Calf Slicer from Backside 50-50 (Attacker) film study: Outside-In Calf Slicer from 50/50.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6LP7Ssy2nOk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6LP7Ssy2nOk",
+      "url": "https://www.youtube.com/watch?v=6LP7Ssy2nOk",
+      "duration": "PT300S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "5050 Calf Slicer",
       "description": "Calf Slicer from Backside 50-50 (Attacker) film study: 5050 Calf Slicer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/d4KgnwWTkuk/hqdefault.jpg",
@@ -197,7 +207,7 @@ description: "Learn to execute the calf slicer from backside 50-50 with precise 
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Calf Slicer Positions: RDLR, 50/50, Z Guard",
       "description": "Calf Slicer from Backside 50-50 (Attacker) film study: Calf Slicer Positions: RDLR, 50/50, Z Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/buBg-yzLTrY/hqdefault.jpg",
@@ -229,6 +239,14 @@ Attacking the calf slicer from backside 50-50 requires threading your shin behin
 
 <p class="section-subtitle">Watch Calf Slicer from Backside 50-50 (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6LP7Ssy2nOk)
+
+<p class="clip-credit"><strong>Outside-In Calf Slicer from 50/50</strong> · 5:00 · <a href="https://www.youtube.com/watch?v=6LP7Ssy2nOk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

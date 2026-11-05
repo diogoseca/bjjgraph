@@ -367,7 +367,18 @@
       }
     ],
     "safety_considerations": "This transition involves entering bilateral leg entanglement where both practitioners have access to dangerous lower body submissions including heel hooks and kneebars. Always maintain awareness of your own heel exposure throughout the threading sequence and resulting exchange. Tap immediately if your heel becomes trapped in a finishing configuration rather than fighting through it, as knee ligament injuries from heel hooks develop rapidly and with minimal warning. During training, perform the threading sequence at controlled speed and communicate with your partner about resistance levels. Never force counter-entanglement entries against fully resisting training partners until the mechanical pattern is thoroughly drilled at lower intensities.",
-    "clips": []
+    "clips": [
+      {
+        "id": "zXeMxV_3a50",
+        "title": "Ashi Garami Counter into Saddle.",
+        "channel": "Mr. Heel Hook",
+        "duration": 85,
+        "vertical": false,
+        "start": 27,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Ashi Garami to Leg Entanglement Defender",

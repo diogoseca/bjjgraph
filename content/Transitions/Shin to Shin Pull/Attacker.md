@@ -170,6 +170,37 @@ description: "How to execute Shin to Shin Pull in BJJ. Attacking perspective wit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin to Shin Pull (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pull guard to shin 2 shin, Koala guard sweep 2",
+      "description": "Shin to Shin Pull (Attacker) film study: Pull guard to shin 2 shin, Koala guard sweep 2.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iOvdtlVxGJs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iOvdtlVxGJs?start=28",
+      "url": "https://www.youtube.com/watch?v=iOvdtlVxGJs",
+      "duration": "PT167S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pull guard to shin 2 shin, Koala guard sweep",
+      "description": "Shin to Shin Pull (Attacker) film study: Pull guard to shin 2 shin, Koala guard sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JgrGLejkh7o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JgrGLejkh7o",
+      "url": "https://www.youtube.com/watch?v=JgrGLejkh7o",
+      "duration": "PT248S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +217,32 @@ The shin-to-shin pull has become increasingly popular in modern competition BJJ 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin to Shin Pull (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iOvdtlVxGJs&start=28)
+
+<p class="clip-credit"><strong>Pull guard to shin 2 shin, Koala guard sweep 2</strong> · 2:47 · <a href="https://www.youtube.com/watch?v=iOvdtlVxGJs&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JgrGLejkh7o)
+
+<p class="clip-credit"><strong>Pull guard to shin 2 shin, Koala guard sweep</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=JgrGLejkh7o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

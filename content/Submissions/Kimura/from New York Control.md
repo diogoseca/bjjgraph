@@ -46,6 +46,26 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Manny Rocha - Kimura From Dead Orchard via Rubber Guard",
+      "description": "Kimura from New York Control film study: Manny Rocha - Kimura From Dead Orchard via Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4P9qQNRt_T0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4P9qQNRt_T0",
+      "url": "https://www.youtube.com/watch?v=4P9qQNRt_T0",
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Setting up a kimura lock from Nino Schembri/Shawn Williams guard",
+      "description": "Kimura from New York Control film study: Setting up a kimura lock from Nino Schembri/Shawn Williams guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4jYauSUDEYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4jYauSUDEYA",
+      "url": "https://www.youtube.com/watch?v=4jYauSUDEYA",
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Marshall Stamper ~ Meathook\u2192Chilldog\u2192Carnie/Kimura/Ultimate Kimura",
       "description": "Kimura from New York Control film study: Marshall Stamper ~ Meathook\u2192Chilldog\u2192Carnie/Kimura/Ultimate Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Q2aYW-20B44/hqdefault.jpg",
@@ -111,6 +131,22 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 <p class="section-subtitle">Watch Kimura from New York Control in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4P9qQNRt_T0)
+
+<p class="clip-credit"><strong>Manny Rocha - Kimura From Dead Orchard via Rubber Guard</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=4P9qQNRt_T0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4jYauSUDEYA)
+
+<p class="clip-credit"><strong>Setting up a kimura lock from Nino Schembri/Shawn Williams guard</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=4jYauSUDEYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

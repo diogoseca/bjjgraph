@@ -170,6 +170,27 @@ description: "How to execute Baratoplata Setup in BJJ. Attacking perspective wit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baratoplata Setup (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rafael \"Barata\" Freitas: learn the baratoplata",
+      "description": "Baratoplata Setup (Attacker) film study: Rafael \"Barata\" Freitas: learn the baratoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vLjB3BJ9O5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vLjB3BJ9O5w",
+      "url": "https://www.youtube.com/watch?v=vLjB3BJ9O5w",
+      "duration": "PT154S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +207,24 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baratoplata Setup (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vLjB3BJ9O5w)
+
+<p class="clip-credit"><strong>Rafael &#34;Barata&#34; Freitas: learn the baratoplata</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=vLjB3BJ9O5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

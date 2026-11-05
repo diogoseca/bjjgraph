@@ -182,6 +182,27 @@ description: "Complete attacker guide for executing sweeps from Standing Guard i
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Standing Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Do the Tripod Sweep | Jiu Jitsu",
+      "description": "Sweep from Standing Guard (Attacker) film study: How to Do the Tripod Sweep | Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sb1qqB60GHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sb1qqB60GHU",
+      "url": "https://www.youtube.com/watch?v=sb1qqB60GHU",
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ Executing sweeps from Standing Guard requires understanding the biomechanical vu
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Standing Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sb1qqB60GHU)
+
+<p class="clip-credit"><strong>How to Do the Tripod Sweep | Jiu Jitsu</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=sb1qqB60GHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

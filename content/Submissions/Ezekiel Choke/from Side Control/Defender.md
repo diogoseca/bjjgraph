@@ -146,6 +146,27 @@ description: "Defend the Ezekiel Choke from side control bottom. Recognize cross
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ezekiel Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ezekiel Choke Defense - Wrist Lock",
+      "description": "Ezekiel Choke from Side Control (Defender) film study: Ezekiel Choke Defense - Wrist Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9J9JTB17-Sk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9J9JTB17-Sk?start=39",
+      "url": "https://www.youtube.com/watch?v=9J9JTB17-Sk",
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +180,24 @@ Defending the Ezekiel Choke from side control bottom requires recognizing that t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ezekiel Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9J9JTB17-Sk&start=39)
+
+<p class="clip-credit"><strong>Ezekiel Choke Defense - Wrist Lock</strong> · 2:15 · <a href="https://www.youtube.com/watch?v=9J9JTB17-Sk&t=39s" rel="noopener">Watch on YouTube from 0:39</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

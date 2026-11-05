@@ -36,6 +36,27 @@ description: "Learn the Guillotine Escape via Posture in BJJ. Master posture mec
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Escape via Posture \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Make the Guillotine Choke Tighter (and Harder to Escape)",
+      "description": "Guillotine Escape via Posture film study: How to Make the Guillotine Choke Tighter (and Harder to Escape).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SaRY5r6N1wc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SaRY5r6N1wc?start=65",
+      "url": "https://www.youtube.com/watch?v=SaRY5r6N1wc",
+      "duration": "PT362S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Timing is critical. The escape becomes exponentially harder the longer you remai
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Escape via Posture in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SaRY5r6N1wc&start=65)
+
+<p class="clip-credit"><strong>How to Make the Guillotine Choke Tighter (and Harder to Escape)</strong> · 6:02 · <a href="https://www.youtube.com/watch?v=SaRY5r6N1wc&t=65s" rel="noopener">Watch on YouTube from 1:05</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

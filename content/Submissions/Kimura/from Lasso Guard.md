@@ -36,6 +36,27 @@ description: "Master the Kimura shoulder lock from Lasso Guard top position. Lea
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Lasso Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "S2 E55 Kimura from Leg Lasso - Coach Natalie\u0027s Brazilian Jiu Jitsu for Dummies",
+      "description": "Kimura from Lasso Guard film study: S2 E55 Kimura from Leg Lasso - Coach Natalie\u0027s Brazilian Jiu Jitsu for Dummies.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1UccW2-_G00/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1UccW2-_G00?start=94",
+      "url": "https://www.youtube.com/watch?v=1UccW2-_G00",
+      "duration": "PT395S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Lasso Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1UccW2-_G00&start=94)
+
+<p class="clip-credit"><strong>S2 E55 Kimura from Leg Lasso - Coach Natalie&#39;s Brazilian Jiu Jitsu for Dummies</strong> · 6:35 · <a href="https://www.youtube.com/watch?v=1UccW2-_G00&t=94s" rel="noopener">Watch on YouTube from 1:34</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

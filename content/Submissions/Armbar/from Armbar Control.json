@@ -696,6 +696,23 @@
         "duration": 92,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Stack escape",
+        "clips": [
+          {
+            "id": "sDdqvh_1kbA",
+            "title": "Armbar Escape: RNC",
+            "channel": "ZombieProofBJJ",
+            "duration": 62,
+            "vertical": false,
+            "start": 52,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

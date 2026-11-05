@@ -182,6 +182,37 @@ description: "Execute the Back Take from Kesa Gatame. Step-by-step guide for bot
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Kesa Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jiu-Jitsu Back Take from Scarf Hold \u0026 Easy Sweep",
+      "description": "Back Take from Kesa Gatame (Attacker) film study: Jiu-Jitsu Back Take from Scarf Hold \u0026 Easy Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQlh8Pa7G3c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQlh8Pa7G3c",
+      "url": "https://www.youtube.com/watch?v=AQlh8Pa7G3c",
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "take back in kesa gatame",
+      "description": "Back Take from Kesa Gatame (Attacker) film study: take back in kesa gatame.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V_L7POoXVv0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V_L7POoXVv0",
+      "url": "https://www.youtube.com/watch?v=V_L7POoXVv0",
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +225,32 @@ As the bottom player in Kesa Gatame, you hold a counterintuitive advantage: your
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Kesa Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQlh8Pa7G3c)
+
+<p class="clip-credit"><strong>Jiu-Jitsu Back Take from Scarf Hold &amp; Easy Sweep</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=AQlh8Pa7G3c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V_L7POoXVv0)
+
+<p class="clip-credit"><strong>take back in kesa gatame</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=V_L7POoXVv0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

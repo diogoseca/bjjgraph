@@ -522,6 +522,16 @@
         "description": "Partner applies full darce maintenance with intent to finish or advance. Defender works to escape within 30-second rounds. Track escape success rate and identify which escapes work most consistently under full pressure. Debrief after each round to refine timing and mechanics based on partner feedback."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "k58PT-1jyq0",
+        "title": "Darce / Brabo choke escape Moncaio Brothers Jiujitsu move of the day",
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 52,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

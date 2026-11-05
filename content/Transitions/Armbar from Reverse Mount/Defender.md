@@ -150,6 +150,27 @@ description: "Master defensive strategies against the armbar from reverse mount.
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Reverse Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Synergy Tech24 - The \"Backdoor\" Armbar Escape",
+      "description": "Armbar from Reverse Mount (Defender) film study: Synergy Tech24 - The \"Backdoor\" Armbar Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wX1BvykRReQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wX1BvykRReQ",
+      "url": "https://www.youtube.com/watch?v=wX1BvykRReQ",
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the armbar from reverse mount demands rapid recognition and immediate 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Reverse Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wX1BvykRReQ)
+
+<p class="clip-credit"><strong>Synergy Tech24 - The &#34;Backdoor&#34; Armbar Escape</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=wX1BvykRReQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

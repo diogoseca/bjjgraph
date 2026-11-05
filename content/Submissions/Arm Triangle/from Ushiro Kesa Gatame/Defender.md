@@ -162,6 +162,16 @@ description: "Learn to defend the Arm Triangle from Ushiro Kesa Gatame. Recogniz
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "How to Escape the Head \u0026 Arm Triangle in Jiu Jitsu for all you Whiners",
+      "description": "Arm Triangle from Ushiro Kesa Gatame (Defender) film study: How to Escape the Head \u0026 Arm Triangle in Jiu Jitsu for all you Whiners.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jxd9UkmU5Co/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jxd9UkmU5Co?start=35",
+      "url": "https://www.youtube.com/watch?v=Jxd9UkmU5Co",
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "The Fastest Escape Out Of The Arm Triangle",
       "description": "Arm Triangle from Ushiro Kesa Gatame (Defender) film study: The Fastest Escape Out Of The Arm Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
@@ -171,7 +181,7 @@ description: "Learn to defend the Arm Triangle from Ushiro Kesa Gatame. Recogniz
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Two variations of arm triangle (kata gatame) escapes",
       "description": "Arm Triangle from Ushiro Kesa Gatame (Defender) film study: Two variations of arm triangle (kata gatame) escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
@@ -203,6 +213,14 @@ Defending the Arm Triangle from Ushiro Kesa Gatame requires proactive management
 
 <p class="section-subtitle">Watch Arm Triangle from Ushiro Kesa Gatame (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jxd9UkmU5Co&start=35)
+
+<p class="clip-credit"><strong>How to Escape the Head &amp; Arm Triangle in Jiu Jitsu for all you Whiners</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=Jxd9UkmU5Co&t=35s" rel="noopener">Watch on YouTube from 0:35</a></p>
+
+</div>
 
 <div class="film-clip">
 

@@ -36,6 +36,27 @@ description: "Master the Chair Sit to Back Take in BJJ. Control opponent from tu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chair Sit to Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle attack - Chair Sit",
+      "description": "Chair Sit to Back film study: Turtle attack - Chair Sit.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xyrDkdfSLCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xyrDkdfSLCk?start=52",
+      "url": "https://www.youtube.com/watch?v=xyrDkdfSLCk",
+      "duration": "PT359S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Success requires precise hip positioning, weight distribution, and grip sequenci
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chair Sit to Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xyrDkdfSLCk&start=52)
+
+<p class="clip-credit"><strong>Turtle attack - Chair Sit</strong> · 5:59 · <a href="https://www.youtube.com/watch?v=xyrDkdfSLCk&t=52s" rel="noopener">Watch on YouTube from 0:52</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

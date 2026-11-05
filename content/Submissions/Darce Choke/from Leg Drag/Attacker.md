@@ -188,6 +188,26 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Leg drag + Darce choke from BJJ 4\u2019s degree black belt ! Russian Budo-Center",
+      "description": "Darce Choke from Leg Drag (Attacker) film study: Leg drag + Darce choke from BJJ 4\u2019s degree black belt ! Russian Budo-Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tVrhlQyClpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tVrhlQyClpQ",
+      "url": "https://www.youtube.com/watch?v=tVrhlQyClpQ",
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to do the D\u0027Arce Choke, Step by Step",
+      "description": "Darce Choke from Leg Drag (Attacker) film study: How to do the D\u0027Arce Choke, Step by Step.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VOliFfkp5Ik/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VOliFfkp5Ik",
+      "url": "https://www.youtube.com/watch?v=VOliFfkp5Ik",
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Double stack pass to a darce choke #bjj #brazilianjiujitsu #blackwatergrappling",
       "description": "Darce Choke from Leg Drag (Attacker) film study: Double stack pass to a darce choke #bjj #brazilianjiujitsu #blackwatergrappling.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eEDKC2F3U2k/hqdefault.jpg",
@@ -197,7 +217,7 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 4,
       "name": "Darce Choke to Guard Pass Technique - Presley BJJ",
       "description": "Darce Choke from Leg Drag (Attacker) film study: Darce Choke to Guard Pass Technique - Presley BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Rosmg5rjo_s/hqdefault.jpg",
@@ -229,6 +249,22 @@ Attacking the Darce choke from leg drag control requires precise timing and unde
 
 <p class="section-subtitle">Watch Darce Choke from Leg Drag (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tVrhlQyClpQ)
+
+<p class="clip-credit"><strong>Leg drag + Darce choke from BJJ 4’s degree black belt ! Russian Budo-Center</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=tVrhlQyClpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VOliFfkp5Ik)
+
+<p class="clip-credit"><strong>How to do the D&#39;Arce Choke, Step by Step</strong> · 2:15 · <a href="https://www.youtube.com/watch?v=VOliFfkp5Ik" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

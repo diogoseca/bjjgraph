@@ -685,6 +685,23 @@
         "duration": 62,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Clasp hands in gable grip or grip own collar",
+        "clips": [
+          {
+            "id": "MnJ00En9COI",
+            "title": "Rodrigo Comprido shows the BEST Armbar Escape on the Mount",
+            "channel": "Rodrigo Comprido",
+            "duration": 119,
+            "vertical": false,
+            "start": 23,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

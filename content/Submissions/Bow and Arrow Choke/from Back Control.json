@@ -642,6 +642,23 @@
         "duration": 114,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Scoot hips away",
+        "clips": [
+          {
+            "id": "QVUP7U8W-0c",
+            "title": "Bow and Arrow Choke Defense",
+            "channel": "Stephan Kesting",
+            "duration": 246,
+            "vertical": false,
+            "start": 46,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

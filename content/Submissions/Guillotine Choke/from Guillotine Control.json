@@ -479,7 +479,18 @@
         "answer_line": "Shoulder pressure = release grip"
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "l4FWC_kYKas",
+        "title": "High Elbow Guillotine from the Front Headlock",
+        "channel": "Rich Castro",
+        "duration": 248,
+        "vertical": false,
+        "start": 171,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Guillotine Control Defender",
@@ -675,11 +686,37 @@
     ],
     "clips": [
       {
+        "id": "bkTJD6RIyKY",
+        "title": "Gordon Ryan's Guillotine Escape Secrets - 4 Pointing From Bottom Side Head…",
+        "channel": "BJJ Fanatics",
+        "duration": 117,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "OQYU2BXdEEw",
         "title": "Guillotine Choke Defense",
         "channel": "Hendrickson Combatives",
         "duration": 51,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Hand fight the grip",
+        "clips": [
+          {
+            "id": "v-CRBRea_KY",
+            "title": "BJJ Guillotine Choke Escape and Defense from Full Guard & with Takedowns",
+            "channel": "Chewjitsu",
+            "duration": 318,
+            "vertical": false,
+            "start": 35,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   }

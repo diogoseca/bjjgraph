@@ -48,7 +48,7 @@ export async function bootVideoCards(page: Page, front: Front = "approved", {
 }
 
 
-function installPlayerStub(crossOrigin = false) {
+export function installPlayerStub(crossOrigin = false) {
   const w = window as any
   w.__players = []
   w.YT = { PlayerState: { ENDED: 0 }, Player: function (host: HTMLElement, opts: any) {

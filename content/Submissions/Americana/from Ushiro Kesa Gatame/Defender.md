@@ -144,6 +144,27 @@ description: "Complete defensive guide against the Americana from Ushiro Kesa Ga
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Ushiro Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bjj defense against the americana",
+      "description": "Americana from Ushiro Kesa Gatame (Defender) film study: Bjj defense against the americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qfoEZtys84k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qfoEZtys84k",
+      "url": "https://www.youtube.com/watch?v=qfoEZtys84k",
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +178,24 @@ Defending the Americana from Ushiro Kesa Gatame demands immediate recognition of
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Ushiro Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qfoEZtys84k)
+
+<p class="clip-credit"><strong>Bjj defense against the americana</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=qfoEZtys84k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

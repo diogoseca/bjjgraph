@@ -46,22 +46,12 @@ description: "Master the Arm Triangle from Ushiro Kesa Gatame in BJJ. Convert th
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Fastest Escape Out Of The Arm Triangle",
-      "description": "Arm Triangle from Ushiro Kesa Gatame film study: The Fastest Escape Out Of The Arm Triangle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
-      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Two variations of arm triangle (kata gatame) escapes",
-      "description": "Arm Triangle from Ushiro Kesa Gatame film study: Two variations of arm triangle (kata gatame) escapes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
-      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
-      "duration": "PT89S"
+      "name": "Arm Triangle from Scarf Hold Position",
+      "description": "Arm Triangle from Ushiro Kesa Gatame film study: Arm Triangle from Scarf Hold Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xz9-FEBFFIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xz9-FEBFFIo",
+      "url": "https://www.youtube.com/watch?v=xz9-FEBFFIo",
+      "duration": "PT32S"
     }
   ]
 }
@@ -124,17 +114,9 @@ Strategically, this submission punishes opponents who remain passive under the U
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=D2vkZGTD78I)
+![](https://www.youtube.com/watch?v=xz9-FEBFFIo)
 
-<p class="clip-credit"><strong>The Fastest Escape Out Of The Arm Triangle</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=CmXniIPFMhU)
-
-<p class="clip-credit"><strong>Two variations of arm triangle (kata gatame) escapes</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Triangle from Scarf Hold Position</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

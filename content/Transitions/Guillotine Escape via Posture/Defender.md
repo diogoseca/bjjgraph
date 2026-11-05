@@ -136,6 +136,27 @@ description: "Master defending against the Guillotine Escape via Posture. Learn 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Escape via Posture (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Make the Guillotine Choke Tighter (and Harder to Escape)",
+      "description": "Guillotine Escape via Posture (Defender) film study: How to Make the Guillotine Choke Tighter (and Harder to Escape).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SaRY5r6N1wc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SaRY5r6N1wc?start=65",
+      "url": "https://www.youtube.com/watch?v=SaRY5r6N1wc",
+      "duration": "PT362S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -148,6 +169,24 @@ As the guillotine holder defending against a posture escape attempt, your object
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Escape via Posture (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SaRY5r6N1wc&start=65)
+
+<p class="clip-credit"><strong>How to Make the Guillotine Choke Tighter (and Harder to Escape)</strong> · 6:02 · <a href="https://www.youtube.com/watch?v=SaRY5r6N1wc&t=65s" rel="noopener">Watch on YouTube from 1:05</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

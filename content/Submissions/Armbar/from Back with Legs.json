@@ -735,6 +735,23 @@
         "duration": 92,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Clasp hands together in a defensive grip",
+        "clips": [
+          {
+            "id": "mJyZ9UVVa0E",
+            "title": "Powerful Armbar Escape for White Belts with Mahamed Aly",
+            "channel": "Chewjitsu",
+            "duration": 492,
+            "vertical": false,
+            "start": 96,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   },
   "variations_and_setups": [

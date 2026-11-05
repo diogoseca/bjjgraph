@@ -36,6 +36,27 @@ description: "Learn Meathook to Gogoplata Control in BJJ. Transition from Rubber
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Meathook to Gogoplata Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No Gi BJJ - Rubberguard Near-side Meathook Gogoplata",
+      "description": "Meathook to Gogoplata Control film study: No Gi BJJ - Rubberguard Near-side Meathook Gogoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aBfXnTglIrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aBfXnTglIrk",
+      "url": "https://www.youtube.com/watch?v=aBfXnTglIrk",
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -76,6 +97,24 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Meathook to Gogoplata Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aBfXnTglIrk)
+
+<p class="clip-credit"><strong>No Gi BJJ - Rubberguard Near-side Meathook Gogoplata</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=aBfXnTglIrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

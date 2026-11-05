@@ -495,6 +495,14 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
         expect(Math.abs(tray.off), 'the Moves tray is centred on the article column').toBeLessThan(1)
       }
       await j.clickByMouse(close, `the ${part}'s own ✕`)
+      // Settle BEFORE measuring the label (v1.247.1, DEPLOYFIX). The ✕ unhides it at the top of the game column,
+      // over the map, and reader.layout() moves it on the next frame. That first spot is never painted, so no
+      // player can press it, but clickByMouse can measure it: its press then lands on the map and stages the orb
+      // there (768px: Diamond Guard Top), and the label reads as dead. Only runners fast enough to beat one frame.
+      // Kill: with reader.layout() held until the press's own pointermove, this line is green at all five widths and
+      // its removal is red at the label's toBeHidden at the three it reaches. A plain delay cannot force this: the
+      // press then lands before the layout too, and hits the label (150ms: 3 of 3 green without this line).
+      await j.readerLayoutSettled()
       await expect(label).toHaveAttribute('aria-expanded', 'false')
       if (hasToc) {
         await expect(page.locator(`[data-toc-type="${part}"]`)).toHaveAttribute('data-collapsed', 'true')

@@ -36,6 +36,27 @@ description: "Master the Pocket Half Pass in BJJ. Complete guide to passing from
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pocket Half Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Ways to Recover from Smashed Half Guard when Your Opponent Has the Crossface\u2026",
+      "description": "Pocket Half Pass film study: 3 Ways to Recover from Smashed Half Guard when Your Opponent Has the Crossface\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-S230cttiTk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-S230cttiTk",
+      "url": "https://www.youtube.com/watch?v=-S230cttiTk",
+      "duration": "PT690S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The technique draws from fundamental pressure-passing principles while requiring
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pocket Half Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-S230cttiTk)
+
+<p class="clip-credit"><strong>3 Ways to Recover from Smashed Half Guard when Your Opponent Has the Crossface…</strong> · 11:30 · <a href="https://www.youtube.com/watch?v=-S230cttiTk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

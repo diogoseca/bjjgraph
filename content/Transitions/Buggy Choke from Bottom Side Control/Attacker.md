@@ -171,6 +171,27 @@ description: "How to set the Buggy Choke from under side control. Attacking pers
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke from Bottom Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ - Side Control Bottom - Buggy Choke",
+      "description": "Buggy Choke from Bottom Side Control (Attacker) film study: BJJ - Side Control Bottom - Buggy Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5r1WjjuO5xM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5r1WjjuO5xM",
+      "url": "https://www.youtube.com/watch?v=5r1WjjuO5xM",
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -190,6 +211,24 @@ Technically, the buggy entry teaches the principle that defense and offense are 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke from Bottom Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5r1WjjuO5xM)
+
+<p class="clip-credit"><strong>BJJ - Side Control Bottom - Buggy Choke</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=5r1WjjuO5xM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

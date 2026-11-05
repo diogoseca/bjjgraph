@@ -382,7 +382,26 @@
       }
     ],
     "safety_considerations": "The shin-to-shin pull is generally a low-risk technique when executed properly, but several safety considerations should be observed. When dropping to seated position, ensure the training surface is appropriate and free of obstacles that could cause injury during the descent. Control your falling motion rather than dropping uncontrollably, which could cause tailbone or lower back impact injuries. Be mindful of your opponent's knee and ankle joints when applying shin pressure—the pressure should be firm but not aggressive enough to hyperextend or torque their joints. If you feel your opponent's leg twisting or their knee bending unnaturally, release pressure immediately. During drilling, communicate with your partner about appropriate pressure levels. When transitioning from shin-to-shin to leg entanglement positions, maintain awareness of your partner's knee ligaments and apply transitions smoothly rather than explosively. In competition scenarios, be prepared for opponents to drive forward aggressively, and have escape routes planned to avoid being flattened in a dangerous position. Practice breakfalls and defensive positioning to safely handle failed attempts.",
-    "clips": []
+    "clips": [
+      {
+        "id": "iOvdtlVxGJs",
+        "title": "Pull guard to shin 2 shin, Koala guard sweep 2",
+        "channel": "RG BJJ - Pembroke Pines",
+        "duration": 167,
+        "vertical": false,
+        "start": 28,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "JgrGLejkh7o",
+        "title": "Pull guard to shin 2 shin, Koala guard sweep",
+        "channel": "RG BJJ - Pembroke Pines",
+        "duration": 248,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Shin to Shin Pull Defender",

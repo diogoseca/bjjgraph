@@ -387,7 +387,25 @@
       }
     ],
     "safety_considerations": "This technique is generally low-risk for both practitioners when executed correctly. The primary safety concern is maintaining control during the transition to prevent scrambles where limbs can get caught in awkward positions. Avoid placing excessive neck pressure with the crossface—the goal is positional control, not cranking the neck. When drilling, communicate with your partner about crossface pressure intensity. Be aware of your training partner's flexibility when controlling the dragged leg, as some practitioners have limited hip mobility. If practicing repeatedly, switch sides to avoid overuse strain on the crossface arm and shoulder.",
-    "clips": []
+    "clips": [
+      {
+        "id": "dN_9aLZLzzY",
+        "title": "Hannette Staack: Leg-drag to side control",
+        "channel": "Brazil-021 Toronto",
+        "duration": 22,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "1V9lM5UQn7s",
+        "title": "BJJ Basic Leg Drag To Side Control",
+        "channel": "Revolution BJJ Ashland",
+        "duration": 56,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag Pass to Side Control Defender",

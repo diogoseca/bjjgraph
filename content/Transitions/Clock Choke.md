@@ -46,32 +46,22 @@ description: "Master the Clock Choke in BJJ. Step-by-step gi choke from Turtle t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Clock choke escape",
-      "description": "Clock Choke film study: Clock choke escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5DnhNOvP66I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5DnhNOvP66I",
-      "url": "https://www.youtube.com/watch?v=5DnhNOvP66I",
-      "duration": "PT11S"
+      "name": "Secrets of Turtle Clock Choke",
+      "description": "Clock Choke film study: Secrets of Turtle Clock Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_qmq81d5X0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_qmq81d5X0M",
+      "url": "https://www.youtube.com/watch?v=_qmq81d5X0M",
+      "duration": "PT119S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Clock Choke from Turtle Escape Jiu Jitsu",
-      "description": "Clock Choke film study: Clock Choke from Turtle Escape Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bHIR07WZ8yI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bHIR07WZ8yI",
-      "url": "https://www.youtube.com/watch?v=bHIR07WZ8yI",
-      "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Clock choke counter",
-      "description": "Clock Choke film study: Clock choke counter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RiBLBO9zinA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RiBLBO9zinA",
-      "url": "https://www.youtube.com/watch?v=RiBLBO9zinA",
-      "duration": "PT79S"
+      "name": "BJJ Basics How to do a Clock Choke from Turtle Position",
+      "description": "Clock Choke film study: BJJ Basics How to do a Clock Choke from Turtle Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1qVlaITDNGI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1qVlaITDNGI?start=29",
+      "url": "https://www.youtube.com/watch?v=1qVlaITDNGI",
+      "duration": "PT151S"
     }
   ]
 }
@@ -125,25 +115,17 @@ The rotational finishing mechanic distinguishes the Clock Choke from static coll
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5DnhNOvP66I)
+![](https://www.youtube.com/watch?v=_qmq81d5X0M)
 
-<p class="clip-credit"><strong>Clock choke escape</strong> · 0:11 · <a href="https://www.youtube.com/watch?v=5DnhNOvP66I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bHIR07WZ8yI)
-
-<p class="clip-credit"><strong>Clock Choke from Turtle Escape Jiu Jitsu</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=bHIR07WZ8yI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Secrets of Turtle Clock Choke</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=_qmq81d5X0M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=RiBLBO9zinA)
+![](https://www.youtube.com/watch?v=1qVlaITDNGI&start=29)
 
-<p class="clip-credit"><strong>Clock choke counter</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=RiBLBO9zinA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Basics How to do a Clock Choke from Turtle Position</strong> · 2:31 · <a href="https://www.youtube.com/watch?v=1qVlaITDNGI&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
 
 </div>
 

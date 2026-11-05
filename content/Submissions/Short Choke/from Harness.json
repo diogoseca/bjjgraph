@@ -413,7 +413,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "7txa2emuwfI",
+        "title": "Ezekiel Choke from the Back",
+        "channel": "Eduardo Fraga BJJ",
+        "duration": 160,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "sOCBEA5IX7M",
+        "title": "3 Ezekiel Chokes From The Back.",
+        "channel": "Chokes And More",
+        "duration": 213,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Short Choke from Harness Defender",

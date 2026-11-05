@@ -29,6 +29,9 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.247.1** — [The deploy's curated gate: a keyed loader and an unpainted label](#v12471--the-deploys-curated-gate-a-keyed-loader-and-an-unpainted-label)
+- **v1.247.0** — [Exact clips for submission escapes](#v12470--exact-clips-for-submission-escapes)
+
 - **v1.230.0** — [Article sections and floating contents](#v12300--article-sections-and-floating-contents)
 
 - **v1.231.0** — [Videos lead the cards, with separate actions](#v12310--videos-lead-the-cards-with-separate-actions)
@@ -13621,6 +13624,40 @@ scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **ze
 attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
 pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
 
+## v1.247.0 — Exact clips for submission escapes
+
+The owner chose a demonstration for each named escape on 4 November 2026 while retaining the
+v1.230.0 prohibition on substituting the submission's general defender reel. `_choiceMediaTarget`
+now identifies an escape by its submission and exact card label, for both the player's choices and
+the opponent's threats. `_choiceFront` reads only
+`info.perspectives.defender.escapes[label][0]`, requires `front === true`, and returns null for a
+missing or unapproved entry. The existing card media and Watch player consume that row, including
+its `start`; the placeholder remains when there is no eligible clip. Other choice fronts retain
+their existing role and exactness rules. Content plumbing and curated clip data ship separately.
+
+`e2e/journeys/escape-clips.spec.ts` supplies explicit dossier fixtures because the ordinary harness
+serves empty dossiers. It counts the fixture request and pins the two distinct labels, first-row
+selection, timestamped Watch, opponent threats, absent maps, unmatched labels, unapproved first
+rows, later fronts and non-boolean approval. It does not claim coverage of real video availability
+or editorial accuracy. `tests/artifacts/escape_clips_mutants.py` names the source changes and the
+journey each must fail, using an unaffected passing browser control and the shared runner's exact
+source restoration checks.
+
+Local gates on 4 November: the seven new journeys and 58 affected journeys passed (video cards,
+submission choices, roll execution, card click contracts and the first-hand payload gate), one
+worker on a private port under the shared build lock. The version-normalised `neural.js` fingerprint
+grew 316 bytes (675,399 → 675,715) against base `1308bf0dd`; its actual emitted size is 675,625 bytes.
+The earlier 226-byte figure mixed raw and normalised sizes. `tests/artifacts/first_hand_payload.json`
+records 361,961 core gzip bytes, 3,335 below the accepted 365,296-byte baseline; the 6,000-byte delta
+cap and all payload thresholds stayed unchanged. The full site build, app refresh and payload
+validator passed.
+
+All ten named source mutants were killed by their specified journeys, each with an unaffected
+passing browser control: `escape_target`, `escape_queue`, `escape_label`, `escape_first`,
+`escape_start`, `defender_reel_fallback`, `escape_front`, `escape_later`, `escape_truthy` and
+`threat_escape_excluded`. Results and source hashes are committed in
+`tests/artifacts/escape_clips_mutants.json`. The runner restored the source byte-for-byte and
+rebuilt the healthy bundle; there were no surviving mutants.
 
 ## v1.242.1 — Merge the drawer release into the URL/title fix (V331DEV1)
 
@@ -13676,3 +13713,117 @@ The new stage height exposed a reader-place bug at 1152px: its anchor could star
 viewport, then grow by a wrapped line and move the next visible paragraph by 20.64px. The
 reader now anchors a fully visible block. The existing eight-pixel bound, arrival gate and
 reopen gate remain; a source control restores the clipped-block selection.
+
+## v1.246.0 — per-escape clips: `defender.escape_clips` (owner ESC1)
+
+Every submission escape card showed "Video unavailable" by design: 1,049 choices across 287 submissions, because
+v1.230.0 forbids a destination's video or the submission's general defender reel for a named escape. The owner chose a
+clip of THAT escape or nothing. This change is the content side; the card itself is a separate app PR.
+
+**Shape.** `defender.escape_clips: [{escape, clips[]}]`, joined on the exact card label `compile_defenses` prints.
+- Not on an outcome: Americana from Side Control has 4 cards on 2 outcomes.
+- Not inside `defensive_options[i]`: that row is `details[i]`, which `response_identity` hashes into each defense's MDP id.
+- Emitted as `perspectives.defender.escapes` in the dossier chunk, which `_drainChoiceMedia` already hydrates, and NOT in
+  submission-details, whose bytes feed `detailsHash`. `scripts/submission_choices.py` and `regenerate_neural_data.py` are
+  untouched for the same reason: both are hashed into MDP provenance.
+
+**Failure modes, each with a test in `tests/clip_data_contract.py`.** A row naming no card fails validation and names
+itself. The AI schema never sees the key, `restore_clips` puts it back, and a reworded action that would orphan a row
+fails preservation. `_clips.iter_clips_arrays` yields each row, or clips-verify would report full coverage while skipping
+them. The emit prints a positive join count and fails under `ESCAPE_CLIP_JOIN_FLOOR`.
+
+**Mutants.** 9 of 9 killed by their named tests: rot check skips rows, AI schema keeps the key, restore skips the key,
+reword not caught, orphan passes, duplicate row passes, front rules skip rows, dossier drops escapes, override join broken.
+
+**Bytes.** One clip row is 131 B mean and 170 B max on the wire, measured on the 268 real defender rows of submissions.
+Dossiers count against `chunk_max_bytes` (40,000; largest submission chunk 25,499), not `deferred_raw_bytes`.
+
+**First data.** Escape labels are micro-actions ("Grip your own belt") that no title carries, so title search cannot find
+them. Each defence video's captions were indexed with timestamps, cards were matched to indexed moments, and a second
+independent judge read the excerpt. Each clip starts at the second that shows the escape. Transcripts stayed private.
+
+**Review (R1, R2).** The review found two gaps. Three bots edit source JSON directly, and a file that loses every clip
+still validates, because `clips` is optional: `scripts/restore_curated_clips.py` now runs after each direct edit and
+before validation, with HEAD as the snapshot, and reverts a file a reword left orphaned. `restore_clips` moved to
+`_clips.py` so that script and the paid pass share one implementation. The corpus validator now prints the join and fails
+under `ESCAPE_CLIP_JOIN_FLOOR`, since per file a record with no rows is fine and only a corpus walk can tell "all joined"
+from "nothing to join". Mutants now 13 of 13.
+
+**Technique clips, folded in (CAPORDER1, one capture for both).** The gap was 1,623 of 2,578 halves: 1,478 empty, and 145
+with clips but no approved front, which `_choiceFront` refuses. Dead clips were not a cause: the November rot check passed
+1,659 of 1,659. This batch gives 325 of those halves a front with 423 clips, and 67 escape cards a clip.
+
+Method, for every pick: search with queries written per technique (two routes, 20 per half at most), a first judge on
+title, channel and description, an embed check, the full description and captions fetched fresh, then a second independent
+judge reading them. October's ban list was rebuilt first, 443 ids everywhere plus a per-half ban, so nothing that curation
+refused comes back. A clip ships only with an accept and read evidence. 16 accepts that rested on a title alone are held
+for a visual check: that is the evidence class October's QC failed on. Of the 100 most-dealt halves 41 have a clip; most
+of the rest are defender halves of transitions, which instructors rarely film, and "no video beats a wrong one" stands.
+
+**Spec (SPEC334).** `defending-landing.spec.ts` named five pages as "the authored clip gap", and this PR gave one of them a clip, so
+the reel correctly appeared and the spec went red: a stale fixture, not a break. The claim now picks its pages from the wire
+(`defenderReels()` in `e2e/decks.ts`): any authored defender half with zero clips, first, middle and last, failing on zero. A new
+control proves a filled half does mount its reel in wire order, which the gap tests alone would not notice. Mutants, measured:
+`_landFilmClips` returning [] and `_renderLandFilm` dropping its length check turns all three gap tests red with the control green.
+Either guard alone leaves all three green, because each covers the other. The spec file is 33 of 33 clean.
+
+## v1.247.1 — The deploy's curated gate: a keyed loader and an unpainted label
+
+DEPLOYFIX, 2026-11-05. Every `deploy-dev.yaml` run from #327 on failed its curated gate, so the dev
+preview stayed on v1.241.0. Both reds were specs. No app code changed, and neither is a production
+loss. Both had passed their PR shards, for two different reasons.
+
+**`path-visit-telemetry.spec.ts`: stale spec, red on every deploy since #327 (5 of 5 logs read, line 57).** PR shards
+build keyless and deploys build keyed, and the key changes exactly one output: a one-file fixture
+built both ways differs only in `postscript.js`, and the keyless fixture's copy is byte-identical to
+the full build's. The fixture took the key through `quartz.config.ts`'s own `dotenv/config`, pointed
+at the root `.env` with `DOTENV_CONFIG_PATH`, so it reached no command line and no output. That gave
+a clean A/B on one bundle: keyless 2 of 2 green, keyed 2 of 2 red at CI's line with CI's
+`beats: 1, events: 0`. On a keyed build `posthog.init()` overwrote the spec's pre-boot `{ capture }`
+spy with the loader's queue shim, which threw `t.push is not a function` on the plain object, and
+`track()`'s try/catch swallowed that. With no stub, a visitor's `window.posthog` queue held
+`["capture","neural_challenges_viewed",{"variant":"neural"}]` exactly once, beside one
+`challenges_opened` beat. **Where that proof stops:** at the SDK's queue. The harness aborts remote
+requests and posthog-js is not installed here, so delivery from the queue to PostHog was not run.
+
+The spy is now that queue: an array, which is the loader's own `window.posthog||[]` fallback. A keyed
+build runs the real loader and shim over it; a keyless build runs a stand-in pushing the same
+`["capture", ...]` shape. It stays an init script, because the post-boot `page.evaluate` spies in
+`feedback-modal`, `footer-feedback` and `systems-surface` would not see the boot, and "boot is not a
+Path visit" is a claim about the boot. Those three were never affected, for the same reason.
+
+**`article-sections.spec.ts` D-338 768px: spec race, red on 2 of those 5 (line 514).** Both red runs
+were the fast ones: its neighbours took ~700ms there against ~1.0-1.3s in the three green runs and
+in the three earlier deploys sampled.
+Throttling (6x, 6 of 6 green) goes the wrong way, because the race needs the client to be faster.
+Both failure frames show Diamond Guard Top, not Loop Choke, with no `advance()` in between. `rng()`
+is unrigged there, so a fixed destination meant fixed geometry, not a restart.
+
+The ✕ unhides the label at the top of the game column (y=74, over the map) and `reader.layout()`
+moves it (y=466) on the next frame. `clickByMouse` measured (384,96), `elementFromPoint` agreed, and
+the press then landed on CANVAS and went through `attachInput`'s tap router into `stageRollAt` of the
+orb under it. y=74 is never painted: a MessageChannel task posted from a rAF reads each rendering
+update as it finished, and in 24 of 24 runs across three widths `layoutNow` moved the label inside
+the first update, which painted its final place. So a script can reach that spot and no player can.
+`layout-shift` still reported 74 to 466; that is probably hit-testing forcing pre-paint, which is
+not verified. The direct sampler is the evidence. Pressing at once, without the asserts between:
+missed 4 of 10 at 768px, 1 of 10 at 1024px and 1 of 10 at 390px, each on its own fixed node (768px:
+Diamond Guard Top, as CI). After `j.readerLayoutSettled()`: 30 of 30 reopened. Why CI only ever lost
+at 768px is not established; it has the highest local rate. Every other `[data-game-open]` click
+already waits (`reading-mode`, `reading-contract`, `land-layers`).
+
+| mutant | arm | result |
+|---|---|---|
+| the six `sidebar_path_mutants.json` Path mutants | keyed and keyless | each KILLED at its named assertion |
+| `path-keyed-queue-dropped` (`track()` bails on `__SV`) | keyed | KILLED: "the first real Path visit emits one of each event" |
+| same | keyless | SURVIVED by construction; only the loader's queue has `__SV`. **A PR cannot see this; the deploy can** |
+| neutral string | keyed and keyless | green |
+| `label-reopen-dead` (the label's toggle a no-op) | keyed, 768px | KILLED: the label's `toBeHidden` |
+| `reader.layout()` held until the press's own `pointermove`, spec as fixed | keyed, 5 widths | green, 5 of 5 |
+| same, the settle line removed (the only difference) | keyed, 3 widths | KILLED, 3 of 3: line 514, CI's locator; 768px on Diamond Guard Top |
+| `reader.layout()` delayed 150ms, the settle line removed | keyed, 3 widths | NON-KILL, 3 of 3 green: the press lands before the layout too, and hits the label |
+
+**The class that remains:** PR gates are keyless and deploys keyed, so a keyed-only red first shows
+after merge. Nothing here closes that. Hardening `clickByMouse` to re-measure at press time would
+close the other class for every spec, but it costs frames on every press across a 30-minute gate.
+Neither was done here.

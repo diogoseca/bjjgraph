@@ -182,6 +182,27 @@ description: "Complete guide to executing the Harness Escape to Half Guard. Lear
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harness Escape to Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ageless Jiu Jitsu - Back Escape - To the Underhook Side - Elbow/ Knee - Half\u2026",
+      "description": "Harness Escape to Half Guard (Attacker) film study: Ageless Jiu Jitsu - Back Escape - To the Underhook Side - Elbow/ Knee - Half\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YEP39kvH66M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YEP39kvH66M",
+      "url": "https://www.youtube.com/watch?v=YEP39kvH66M",
+      "duration": "PT288S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ Executing the Harness Escape to Half Guard requires a disciplined sequence that 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harness Escape to Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YEP39kvH66M)
+
+<p class="clip-credit"><strong>Ageless Jiu Jitsu - Back Escape - To the Underhook Side - Elbow/ Knee - Half…</strong> · 4:48 · <a href="https://www.youtube.com/watch?v=YEP39kvH66M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

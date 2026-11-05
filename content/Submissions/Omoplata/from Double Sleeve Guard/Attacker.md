@@ -178,6 +178,27 @@ description: "Learn to attack the omoplata from double sleeve guard. Step-by-ste
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Double Sleeve Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double Sleeve Guard System - Kneeling Opponent - Omoplata (week 16)",
+      "description": "Omoplata from Double Sleeve Guard (Attacker) film study: Double Sleeve Guard System - Kneeling Opponent - Omoplata (week 16).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zwQypvk5OUs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zwQypvk5OUs",
+      "url": "https://www.youtube.com/watch?v=zwQypvk5OUs",
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking the omoplata from double sleeve guard leverages your existing bilatera
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Double Sleeve Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zwQypvk5OUs)
+
+<p class="clip-credit"><strong>Double Sleeve Guard System - Kneeling Opponent - Omoplata (week 16)</strong> · 2:57 · <a href="https://www.youtube.com/watch?v=zwQypvk5OUs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

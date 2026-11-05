@@ -46,12 +46,22 @@ description: "Master passing Double Sleeve Guard in BJJ. Complete guide to break
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard Retention W/ Double Sleeve Control ( Spider Guard, Lasso, Open Guard )",
-      "description": "Pass Double Sleeve Guard film study: Guard Retention W/ Double Sleeve Control ( Spider Guard, Lasso, Open Guard ).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7oc84ycyXM8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7oc84ycyXM8",
-      "url": "https://www.youtube.com/watch?v=7oc84ycyXM8",
-      "duration": "PT88S"
+      "name": "Passing feet on hips double sleeve guard",
+      "description": "Pass Double Sleeve Guard film study: Passing feet on hips double sleeve guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_vUNYRbf-fo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_vUNYRbf-fo?start=30",
+      "url": "https://www.youtube.com/watch?v=_vUNYRbf-fo",
+      "duration": "PT190S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Open Guard: dealing with double sleeve grips and space management",
+      "description": "Pass Double Sleeve Guard film study: Passing Open Guard: dealing with double sleeve grips and space management.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eTYDVOtBAYg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eTYDVOtBAYg?start=24",
+      "url": "https://www.youtube.com/watch?v=eTYDVOtBAYg",
+      "duration": "PT830S"
     }
   ]
 }
@@ -105,9 +115,17 @@ At the competition level, double sleeve guard is one of the most frequently enco
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7oc84ycyXM8)
+![](https://www.youtube.com/watch?v=_vUNYRbf-fo&start=30)
 
-<p class="clip-credit"><strong>Guard Retention W/ Double Sleeve Control ( Spider Guard, Lasso, Open Guard )</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=7oc84ycyXM8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing feet on hips double sleeve guard</strong> · 3:10 · <a href="https://www.youtube.com/watch?v=_vUNYRbf-fo&t=30s" rel="noopener">Watch on YouTube from 0:30</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eTYDVOtBAYg&start=24)
+
+<p class="clip-credit"><strong>Passing Open Guard: dealing with double sleeve grips and space management</strong> · 13:50 · <a href="https://www.youtube.com/watch?v=eTYDVOtBAYg&t=24s" rel="noopener">Watch on YouTube from 0:24</a></p>
 
 </div>
 

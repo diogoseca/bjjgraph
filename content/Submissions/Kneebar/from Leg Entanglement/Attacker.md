@@ -178,6 +178,27 @@ description: "How to execute the kneebar from leg entanglement in BJJ. Complete 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Leg Entanglement (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ashi Garami Followup: Kneebar Transition from Irimi (BJJ / No Gi Jiu-Jitsu /\u2026",
+      "description": "Kneebar from Leg Entanglement (Attacker) film study: Ashi Garami Followup: Kneebar Transition from Irimi (BJJ / No Gi Jiu-Jitsu /\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/reb8ennYps8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/reb8ennYps8",
+      "url": "https://www.youtube.com/watch?v=reb8ennYps8",
+      "duration": "PT280S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking the kneebar from leg entanglement leverages pre-existing lower body co
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Leg Entanglement (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=reb8ennYps8)
+
+<p class="clip-credit"><strong>Ashi Garami Followup: Kneebar Transition from Irimi (BJJ / No Gi Jiu-Jitsu /…</strong> · 4:40 · <a href="https://www.youtube.com/watch?v=reb8ennYps8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

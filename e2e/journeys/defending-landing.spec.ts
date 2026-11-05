@@ -1,5 +1,6 @@
 import { test, expect, type Page } from '@playwright/test'
 import { journey } from '../dsl'
+import { defenderReels } from '../decks'
 import { legacyDefenseRenderer } from '../fixtures/legacy-defense-renderer'
 
 // v1.227.0 — owner's 2026-10-15 rule supersedes v1.134.0: navigation starts a new,
@@ -250,15 +251,38 @@ test('@curated each Knee Slice Pass half mounts its own clips, including the rea
   expect((await state(page)).pressure).toBe(false)
 })
 
-for (const path of ['Americana/from-Triangle-Control', 'Armbar/from-Triangle-Control', 'Kimura/from-Triangle-Control', 'Achilles-Lock/from-Inside-Ashi-Garami', 'Suloev-Stretch/from-Half-Guard']) {
-  test(`no empty reel for the authored clip gap: ${path}`, async ({ page }) => {
+// STALE SPEC (PR 334, SPEC334): this named five pages as "the authored clip gap", and the clip backfill
+// gave one of them a clip. The claim was never about those pages, so the pages now come from the wire:
+// any authored defender half with zero clips. Filling clips cannot stale it, and a wire with no gap
+// left fails loudly here rather than passing on nothing. Three picks spread across the sorted list.
+// Mutant (v1.246.0): _landFilmClips returning [] for an empty half AND _renderLandFilm dropping its
+// length check, so an empty reel mounts: all three gap tests go red. Either guard alone survives.
+const gapPicks = { first: (n: number) => 0, middle: (n: number) => n >> 1, last: (n: number) => n - 1 }
+for (const [pick, at] of Object.entries(gapPicks)) {
+  test(`no empty reel for an authored clip gap chosen from the wire: ${pick}`, async ({ page }) => {
+    const gaps = defenderReels().filter(reel => !reel.clips.length)
+    expect(gaps.length, 'no gap left: this claim needs rewriting, not skipping').toBeGreaterThan(0)
     const j = journey(page)
-    await j.boot('/Submissions/' + path + '/Defender', { beforeNavigate: realContent })
+    await j.boot(gaps[at(gaps.length)].route, { beforeNavigate: realContent })
     await expect(page.locator(READY)).toBeVisible()
     await expect(page.locator('[data-land-q]')).toBeVisible()
     await expect(page.locator('.ng-landfilm')).toHaveCount(0)
   })
 }
+
+// The control the gap tests need: without it, a reel that never mounts anywhere would pass them. The first
+// page is the one PR 334 moved from gap to filled; if it ever loses its clip, the next filled page serves.
+test('a defender half with clips does mount its reel, in wire order', async ({ page }) => {
+  const filled = defenderReels().filter(reel => reel.clips.length)
+  expect(filled.length).toBeGreaterThan(0)
+  const reel = filled.find(r => r.route.includes('Achilles-Lock/from-Inside-Ashi-Garami')) ?? filled[0]
+  const j = journey(page)
+  await j.boot(reel.route, { beforeNavigate: realContent })
+  await expect(page.locator(READY)).toBeVisible()
+  await expect(page.locator('[data-land-q]')).toBeVisible()
+  await expect(page.locator('.ng-landfilm')).toHaveCount(1)
+  await expect.poll(async () => (await state(page)).clips).toEqual(reel.clips)
+})
 
 const mechanics = (page: Page) => page.evaluate(() => {
   const a = (window as any).__neural, key = a._panicKey

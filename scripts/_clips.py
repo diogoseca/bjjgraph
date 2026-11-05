@@ -22,6 +22,7 @@ import glob
 import json
 import os
 import subprocess
+import sys
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -32,6 +33,10 @@ CONTENT = ROOT / "content"
 CLIP_ID_PATTERN = r"^[A-Za-z0-9_-]{11}$"
 # Front-end fields; channel/duration/verified are content-JSON provenance only.
 CLIP_FIELDS = ("id", "title", "by", "start", "end", "vertical", "channel", "duration", "verified")
+
+# The whole corpus must join at least this many escape rows. Raise it as escape clips ship,
+# never lower it to make a build pass. A join that finds nothing is a check that never ran.
+ESCAPE_CLIP_JOIN_FLOOR = 1
 
 _UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"}
 
@@ -124,6 +129,81 @@ def clips_holder(data, role):
     return block if isinstance(block, dict) else None
 
 
+def escape_rows(data):
+    """The `defender.escape_clips` rows of one record: per-escape clips, keyed by card label."""
+    block = data.get("defender") if isinstance(data, dict) else None
+    rows = block.get("escape_clips") if isinstance(block, dict) else None
+    return [row for row in rows if isinstance(row, dict)] if isinstance(rows, list) else []
+
+
+def drop_empty_escape_rows(data):
+    """After a prune: a row with no clips left means nothing and fails the schema, so it goes."""
+    block = data.get("defender") if isinstance(data, dict) else None
+    if not isinstance(block, dict) or "escape_clips" not in block:
+        return
+    kept = [row for row in escape_rows(data) if row.get("clips")]
+    if kept:
+        block["escape_clips"] = kept
+    else:
+        block.pop("escape_clips")
+
+
+def escape_labels(data):
+    """The card labels this submission deals, exactly as the game prints them.
+
+    `escape_clips` joins on this string. It comes from submission_choices.compile_defenses
+    rather than a copy of its rules, so a label can only ever be one the game really emits,
+    including the two defense_overrides submissions with no defensive_options row. That
+    module is an MDP emitter input (regenerate_mdp_data.py hashes it), so it stays untouched.
+    """
+    scripts = str(ROOT / "scripts")
+    if scripts not in sys.path:
+        sys.path.insert(0, scripts)
+    from submission_choices import compile_defenses
+    catalog = json.loads((ROOT / "neural/submission-states.json").read_text(encoding="utf-8"))
+    return [choice["label"] for choice in compile_defenses(data, None, catalog)]
+
+
+def escape_clip_join(data):
+    """(joined, orphans) for one record: rows whose `escape` is a card, and rows that are not."""
+    rows = escape_rows(data)
+    if not rows:
+        return [], []
+    labels = set(escape_labels(data))
+    return ([r for r in rows if r.get("escape") in labels],
+            [r for r in rows if r.get("escape") not in labels])
+
+
+def restore_clips(original, fixed):
+    """Curation-safety: `clips` is machine-verified YouTube film-study data excluded
+    from the AI response contract (like Systems `products`). Restore the original
+    verbatim — root and every role block — so enrichment can never drop, reorder,
+    or invent video IDs. Returns the number of clips arrays restored/removed."""
+    if not isinstance(original, dict) or not isinstance(fixed, dict):
+        return 0
+
+    def sync(orig_holder, fixed_holder, key="clips"):
+        if not isinstance(orig_holder, dict) or not isinstance(fixed_holder, dict):
+            return 0
+        orig_clips = orig_holder.get(key)
+        if orig_clips is not None:
+            if fixed_holder.get(key) != orig_clips:
+                fixed_holder[key] = orig_clips
+                return 1
+        elif key in fixed_holder:
+            fixed_holder.pop(key)
+            return 1
+        return 0
+
+    restored = sync(original, fixed)
+    for role in ("top", "bottom", "attacker", "defender"):
+        restored += sync(original.get(role), fixed.get(role))
+    # Per-escape clips: same contract, one level over. A sibling of `clips`, not a key inside
+    # defensive_options, because that row is hashed into each defense's MDP identity.
+    restored += sync(original.get("defender"), fixed.get("defender"), "escape_clips")
+    return restored
+
+
 def iter_clips_arrays(category=None, file_filter=None):
     """Yield (file, data, role_or_None, holder) for EVERY existing clips array in
     content/, including holders the slot model never searches (e.g. root clips on a
@@ -145,6 +225,13 @@ def iter_clips_arrays(category=None, file_filter=None):
                 block = d.get(role)
                 if isinstance(block, dict) and isinstance(block.get("clips"), list):
                     yield f, d, role, block
+            # An escape row is a holder too: without this line the monthly rot check, the
+            # audit and --prune would never see these clips, and clips-verify would still
+            # report full coverage of "the corpus". The row has its own `clips`, so callers
+            # that mutate holder["clips"] work unchanged; drop_empty_escape_rows tidies after.
+            for row in escape_rows(d):
+                if isinstance(row.get("clips"), list):
+                    yield f, d, "defender", row
 
 
 # --------------------------------------------------------------------------- #

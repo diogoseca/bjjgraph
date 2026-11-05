@@ -150,6 +150,37 @@ description: "Complete guide to defending against butterfly hook control passes 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Butterfly Hook Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing butterfly guard pass",
+      "description": "Pass Butterfly Hook Control (Defender) film study: Preventing butterfly guard pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VZV0Qh5oYNE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VZV0Qh5oYNE",
+      "url": "https://www.youtube.com/watch?v=VZV0Qh5oYNE",
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly Guard Fundamentals: Blocking Basic Guard passes",
+      "description": "Pass Butterfly Hook Control (Defender) film study: Butterfly Guard Fundamentals: Blocking Basic Guard passes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gHhxIZk1bf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gHhxIZk1bf8",
+      "url": "https://www.youtube.com/watch?v=gHhxIZk1bf8",
+      "duration": "PT115S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +193,32 @@ As the butterfly guard player, defending against passes requires proactive hook 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Butterfly Hook Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VZV0Qh5oYNE)
+
+<p class="clip-credit"><strong>Preventing butterfly guard pass</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=VZV0Qh5oYNE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gHhxIZk1bf8)
+
+<p class="clip-credit"><strong>Butterfly Guard Fundamentals: Blocking Basic Guard passes</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=gHhxIZk1bf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

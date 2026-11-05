@@ -46,6 +46,16 @@ description: "Master the Americana shoulder lock from mount with safety protocol
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Basic AMERICANA SHOULDER SUBMISSION from MOUNT (A.K.A Paint Brush, Figure Four\u2026",
+      "description": "Americana from Mount film study: Basic AMERICANA SHOULDER SUBMISSION from MOUNT (A.K.A Paint Brush, Figure Four\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GX1fk0p0lwc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GX1fk0p0lwc",
+      "url": "https://www.youtube.com/watch?v=GX1fk0p0lwc",
+      "duration": "PT211S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "\ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide",
       "description": "Americana from Mount film study: \ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N-bZMbI2jSo/hqdefault.jpg",
@@ -111,6 +121,14 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 <p class="section-subtitle">Watch Americana from Mount in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GX1fk0p0lwc)
+
+<p class="clip-credit"><strong>Basic AMERICANA SHOULDER SUBMISSION from MOUNT (A.K.A Paint Brush, Figure Four…</strong> · 3:31 · <a href="https://www.youtube.com/watch?v=GX1fk0p0lwc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

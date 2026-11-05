@@ -150,6 +150,27 @@ description: "How to counter the Rolling Kimura Escape in BJJ. Recognition cues,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Kimura Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Berimbolo Counter to Half Guard Kimura Front Roll Escape",
+      "description": "Rolling Kimura Escape (Defender) film study: Berimbolo Counter to Half Guard Kimura Front Roll Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cOLgB0evgoo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cOLgB0evgoo",
+      "url": "https://www.youtube.com/watch?v=cOLgB0evgoo",
+      "duration": "PT532S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ As the Kimura attacker (defender against the rolling escape), your primary conce
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Kimura Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cOLgB0evgoo)
+
+<p class="clip-credit"><strong>Berimbolo Counter to Half Guard Kimura Front Roll Escape</strong> · 8:52 · <a href="https://www.youtube.com/watch?v=cOLgB0evgoo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

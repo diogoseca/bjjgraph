@@ -13634,17 +13634,24 @@ class Component extends DCLogic {
       + stat("Win", view.value, 'data-choice-win', view.stale);
   }
   _choiceMediaTarget(opt) {
-    // A destination is not a demonstration of the escape. Its source submission
-    // has a defending reel, but that is not a front for the named escape.
+    // Escape fronts belong to the submission and the exact card label, including
+    // opponent threats. A destination or the submission's general reel is not
+    // a demonstration of that escape (escape-clips.spec.ts).
     const defense = opt.action === "escape" || !!opt.defense;
     const node = defense ? this.nodes[opt.submission] || this.submissionNode(opt.node) : opt.node;
     if (!node) return null;
+    if (opt.action === "escape") return { node, role: "defender", key: node.t, escape: opt.label };
     const role = node.ty === "positions" ? this.playedRole(node) : defense ? (opt.threat ? "attacker" : "defender") : opt.threat ? "defender" : "attacker";
     const key = node.ty === "positions" ? this.deckKeyFor(node).key : node.t;
     return { node, role, key, exact: !defense };
   }
   _choiceFront(target, info) {
-    if (!target?.exact || !info) return null;
+    if (!info) return null;
+    if (target?.escape) {
+      const escapeClip = info.perspectives?.defender?.escapes?.[target.escape]?.[0];
+      return escapeClip?.front === true ? escapeClip : null;
+    }
+    if (!target?.exact) return null;
     const block = target.node.ty === "positions" ? info : info.perspectives?.[target.role];
     if (target.role === "defender" && !block?.authored) return null;
     const clip = block?.clips?.[0];
@@ -13656,7 +13663,7 @@ class Component extends DCLogic {
     this.setPaused(true);
   }
   _queueChoiceMedia(card, target, hand) {
-    if (!target?.exact) return;
+    if (!target?.exact && !target?.escape) return;
     this._choiceMediaQueue = this._choiceMediaQueue || [];
     this._choiceMediaQueue.push({ card, target, hand });
     this._drainChoiceMedia();

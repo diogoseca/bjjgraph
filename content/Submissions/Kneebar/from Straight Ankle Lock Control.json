@@ -433,6 +433,16 @@
     ],
     "clips": [
       {
+        "id": "5dVYECoSbZY",
+        "title": "Straight Ankle Lock Not Working? Switch to a Kneebar **¿No Funciona el…",
+        "channel": "SFS JiuJitsu",
+        "duration": 280,
+        "vertical": false,
+        "start": 77,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "B8q8wZx0b74",
         "title": "Ankle Lock to Knee Bar to Heel Hook transitions",
         "channel": "Elevate MMA Academy",
@@ -620,6 +630,23 @@
         "channel": "Bicudo BJJ",
         "duration": 21,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Aggressive knee flexion",
+        "clips": [
+          {
+            "id": "HwU4-0-JBUM",
+            "title": "How to Defend and Escape the Kneebar",
+            "channel": "Stephan Kesting",
+            "duration": 533,
+            "vertical": false,
+            "start": 364,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   }

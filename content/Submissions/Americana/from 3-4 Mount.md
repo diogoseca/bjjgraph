@@ -46,12 +46,12 @@ description: "Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu)",
-      "description": "Americana from 3-4 Mount film study: Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ht5OdSQG3BY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ht5OdSQG3BY",
-      "url": "https://www.youtube.com/watch?v=Ht5OdSQG3BY",
-      "duration": "PT330S"
+      "name": "KeyLock from Mount",
+      "description": "Americana from 3-4 Mount film study: KeyLock from Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3iXOWMoZYRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3iXOWMoZYRA",
+      "url": "https://www.youtube.com/watch?v=3iXOWMoZYRA",
+      "duration": "PT33S"
     }
   ]
 }
@@ -114,9 +114,9 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Ht5OdSQG3BY)
+![](https://www.youtube.com/watch?v=3iXOWMoZYRA)
 
-<p class="clip-credit"><strong>Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu)</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=Ht5OdSQG3BY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>KeyLock from Mount</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=3iXOWMoZYRA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

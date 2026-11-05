@@ -447,7 +447,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "xz9-FEBFFIo",
+        "title": "Arm Triangle from Scarf Hold Position",
+        "channel": "Mat Life Training Center",
+        "duration": 32,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Ushiro Kesa Gatame Defender",
@@ -635,6 +645,16 @@
       }
     ],
     "clips": [
+      {
+        "id": "Jxd9UkmU5Co",
+        "title": "How to Escape the Head & Arm Triangle in Jiu Jitsu for all you Whiners",
+        "channel": "Malachy Friedman",
+        "duration": 82,
+        "vertical": false,
+        "start": 35,
+        "front": true,
+        "verified": "2026-11-04"
+      },
       {
         "id": "D2vkZGTD78I",
         "title": "The Fastest Escape Out Of The Arm Triangle",

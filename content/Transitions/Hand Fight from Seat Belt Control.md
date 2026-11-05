@@ -46,22 +46,12 @@ description: "Master hand fighting defense from seat belt back control in BJJ. S
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Holding Seatbelt Position",
-      "description": "Hand Fight from Seat Belt Control film study: Holding Seatbelt Position.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/y_GjhMb6Qf8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/y_GjhMb6Qf8",
-      "url": "https://www.youtube.com/watch?v=y_GjhMb6Qf8",
-      "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
-      "description": "Hand Fight from Seat Belt Control film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
-      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
-      "duration": "PT61S"
+      "name": "How to dismantle \"the seatbelt\" when someone takes your back",
+      "description": "Hand Fight from Seat Belt Control film study: How to dismantle \"the seatbelt\" when someone takes your back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUHtK1Apo3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUHtK1Apo3Q",
+      "url": "https://www.youtube.com/watch?v=pUHtK1Apo3Q",
+      "duration": "PT149S"
     }
   ]
 }
@@ -115,17 +105,9 @@ Successful hand fighting creates cascading defensive advantages that compound th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=y_GjhMb6Qf8)
+![](https://www.youtube.com/watch?v=pUHtK1Apo3Q)
 
-<p class="clip-credit"><strong>Holding Seatbelt Position</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=y_GjhMb6Qf8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MwxnveKrlxU)
-
-<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to dismantle &#34;the seatbelt&#34; when someone takes your back</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=pUHtK1Apo3Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

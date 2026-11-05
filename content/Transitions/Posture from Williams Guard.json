@@ -520,6 +520,25 @@
         "description": "Start in Williams Guard Bottom with shoulder lock established. Partner uses any escape method at full intensity. Work to maintain Williams Guard, counter escape attempts, and score sweeps or submissions. Three-minute rounds with position resets. Track retention rate and offensive conversion rate."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "JiBpEOPBkGs",
+        "title": "BJJ No Gi - Williams Guard - posture break, guard entry and postion, finish…",
+        "channel": "Work Harder AND Smarter BJJ",
+        "duration": 372,
+        "vertical": false,
+        "start": 175,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "P4MZrC6752A",
+        "title": "Setting up an omoplata from the Nino Schembri/Shawn Williams guard",
+        "channel": "Professor Buck",
+        "duration": 69,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

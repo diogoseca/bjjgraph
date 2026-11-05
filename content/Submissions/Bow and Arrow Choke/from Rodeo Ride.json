@@ -614,6 +614,25 @@
         "description": "Start from Rodeo Ride bottom with partner attacking freely—Clock Choke, Bow and Arrow, back takes. Defend all attacks with full resistance, prioritizing position recovery to guard. Evaluate which defensive responses work against the full attack chain, not just the isolated Bow and Arrow. Develop the ability to read which attack is coming and choose the appropriate defense."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Iz0aesx6cKk",
+        "title": "Bow and arrow choke escape",
+        "channel": "Revolution BJJ",
+        "duration": 35,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "fEWUEDI_ng4",
+        "title": "Bow and arrow choke escape",
+        "channel": "Revolution BJJ Ashland",
+        "duration": 73,
+        "vertical": false,
+        "start": 23,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

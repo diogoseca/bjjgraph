@@ -176,6 +176,37 @@ description: "How to execute Butterfly Smash in BJJ. Attacking perspective with 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Smash (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Smash Pass vs Butterfly Guard | How to BJJ techniques",
+      "description": "Butterfly Smash (Attacker) film study: Smash Pass vs Butterfly Guard | How to BJJ techniques.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QdBw7GodM3A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QdBw7GodM3A",
+      "url": "https://www.youtube.com/watch?v=QdBw7GodM3A",
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Smash Pass the Butterfly Guard",
+      "description": "Butterfly Smash (Attacker) film study: How to Smash Pass the Butterfly Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CC1Nor7kuS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CC1Nor7kuS4",
+      "url": "https://www.youtube.com/watch?v=CC1Nor7kuS4",
+      "duration": "PT127S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +219,32 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Smash (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QdBw7GodM3A)
+
+<p class="clip-credit"><strong>Smash Pass vs Butterfly Guard | How to BJJ techniques</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=QdBw7GodM3A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CC1Nor7kuS4)
+
+<p class="clip-credit"><strong>How to Smash Pass the Butterfly Guard</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=CC1Nor7kuS4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

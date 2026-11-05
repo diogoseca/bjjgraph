@@ -170,6 +170,27 @@ description: "How to execute the Transition to Old School from half guard bottom
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Old School (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Geo teaches the lockdown into the old school sweep training for mixed martial\u2026",
+      "description": "Half Guard to Old School (Attacker) film study: Geo teaches the lockdown into the old school sweep training for mixed martial\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l79h-oYC96k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l79h-oYC96k",
+      "url": "https://www.youtube.com/watch?v=l79h-oYC96k",
+      "duration": "PT181S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,6 +203,24 @@ Executing the Transition to Old School requires methodical establishment of thre
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Old School (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l79h-oYC96k)
+
+<p class="clip-credit"><strong>Geo teaches the lockdown into the old school sweep training for mixed martial…</strong> · 3:01 · <a href="https://www.youtube.com/watch?v=l79h-oYC96k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -46,12 +46,12 @@ description: "Master the Knee Slice from Z-Guard in BJJ. Complete guide covering
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Z Guard//counter to knee slide attempt//dannybrownbjj",
-      "description": "Knee Slice from Z-Guard film study: Z Guard//counter to knee slide attempt//dannybrownbjj.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wZ-QdL6wPPI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wZ-QdL6wPPI",
-      "url": "https://www.youtube.com/watch?v=wZ-QdL6wPPI",
-      "duration": "PT142S"
+      "name": "How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026",
+      "description": "Knee Slice from Z-Guard film study: How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
+      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
+      "duration": "PT70S"
     }
   ]
 }
@@ -105,9 +105,9 @@ Strategically, this technique occupies a central role in the top player's half g
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wZ-QdL6wPPI)
+![](https://www.youtube.com/watch?v=yj_6xcl2emA)
 
-<p class="clip-credit"><strong>Z Guard//counter to knee slide attempt//dannybrownbjj</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=wZ-QdL6wPPI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class…</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

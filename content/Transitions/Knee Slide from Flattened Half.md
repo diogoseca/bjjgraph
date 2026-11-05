@@ -36,6 +36,27 @@ description: "Master the knee slide from flattened half guard in BJJ. Step-by-st
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slide from Flattened Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard pass knee slide",
+      "description": "Knee Slide from Flattened Half film study: Half guard pass knee slide.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FyDzVn-OCWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FyDzVn-OCWI",
+      "url": "https://www.youtube.com/watch?v=FyDzVn-OCWI",
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This technique occupies a strategic position in the pressure passing hierarchy. 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slide from Flattened Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FyDzVn-OCWI)
+
+<p class="clip-credit"><strong>Half guard pass knee slide</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=FyDzVn-OCWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

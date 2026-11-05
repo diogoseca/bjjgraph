@@ -150,6 +150,27 @@ description: "How to defend and escape the Kneebar from Backside 50-50 in BJJ. R
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee bar defense fundamental #bjj #jiujitsu #brazilianjiujitsu #kneebar",
+      "description": "Kneebar (Defender) film study: Knee bar defense fundamental #bjj #jiujitsu #brazilianjiujitsu #kneebar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dnvVsPGHGtY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dnvVsPGHGtY",
+      "url": "https://www.youtube.com/watch?v=dnvVsPGHGtY",
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +185,24 @@ The defender must understand that kneebar defense operates on a timeline: the ea
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dnvVsPGHGtY)
+
+<p class="clip-credit"><strong>Knee bar defense fundamental #bjj #jiujitsu #brazilianjiujitsu #kneebar</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=dnvVsPGHGtY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

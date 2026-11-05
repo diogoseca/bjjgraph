@@ -46,12 +46,22 @@ description: "Master the Leg Drag Pass to Side Control in BJJ. Step-by-step cons
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "LEANDRO Lo -  Leg drag defense with technical stand up",
-      "description": "Leg Drag Pass to Side Control film study: LEANDRO Lo -  Leg drag defense with technical stand up.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fO9mvIlh4Yw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fO9mvIlh4Yw",
-      "url": "https://www.youtube.com/watch?v=fO9mvIlh4Yw",
-      "duration": "PT200S"
+      "name": "Hannette Staack: Leg-drag to side control",
+      "description": "Leg Drag Pass to Side Control film study: Hannette Staack: Leg-drag to side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dN_9aLZLzzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dN_9aLZLzzY",
+      "url": "https://www.youtube.com/watch?v=dN_9aLZLzzY",
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ Basic Leg Drag To Side Control",
+      "description": "Leg Drag Pass to Side Control film study: BJJ Basic Leg Drag To Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1V9lM5UQn7s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1V9lM5UQn7s",
+      "url": "https://www.youtube.com/watch?v=1V9lM5UQn7s",
+      "duration": "PT56S"
     }
   ]
 }
@@ -105,9 +115,17 @@ Strategically, this pass should be executed when the opponent flattens out rathe
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=fO9mvIlh4Yw)
+![](https://www.youtube.com/watch?v=dN_9aLZLzzY)
 
-<p class="clip-credit"><strong>LEANDRO Lo -  Leg drag defense with technical stand up</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=fO9mvIlh4Yw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hannette Staack: Leg-drag to side control</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=dN_9aLZLzzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1V9lM5UQn7s)
+
+<p class="clip-credit"><strong>BJJ Basic Leg Drag To Side Control</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=1V9lM5UQn7s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

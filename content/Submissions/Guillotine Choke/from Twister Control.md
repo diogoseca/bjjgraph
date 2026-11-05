@@ -46,22 +46,12 @@ description: "Master the guillotine choke from Twister Control. Learn setup mech
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "BJJ Guillotine Choke Escape and Defense from Full Guard \u0026 with Takedowns",
-      "description": "Guillotine Choke from Twister Control film study: BJJ Guillotine Choke Escape and Defense from Full Guard \u0026 with Takedowns.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v-CRBRea_KY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v-CRBRea_KY",
-      "url": "https://www.youtube.com/watch?v=v-CRBRea_KY",
-      "duration": "PT319S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guillotine Defence",
-      "description": "Guillotine Choke from Twister Control film study: Guillotine Defence.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/46LaXNe6rJo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/46LaXNe6rJo",
-      "url": "https://www.youtube.com/watch?v=46LaXNe6rJo",
-      "duration": "PT594S"
+      "name": "Special: guillotine choke from clinch",
+      "description": "Guillotine Choke from Twister Control film study: Special: guillotine choke from clinch.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Ioe4B7HF38/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Ioe4B7HF38",
+      "url": "https://www.youtube.com/watch?v=2Ioe4B7HF38",
+      "duration": "PT42S"
     }
   ]
 }
@@ -124,17 +114,9 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v-CRBRea_KY)
+![](https://www.youtube.com/watch?v=2Ioe4B7HF38)
 
-<p class="clip-credit"><strong>BJJ Guillotine Choke Escape and Defense from Full Guard &amp; with Takedowns</strong> · 5:19 · <a href="https://www.youtube.com/watch?v=v-CRBRea_KY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=46LaXNe6rJo)
-
-<p class="clip-credit"><strong>Guillotine Defence</strong> · 9:54 · <a href="https://www.youtube.com/watch?v=46LaXNe6rJo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Special: guillotine choke from clinch</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=2Ioe4B7HF38" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

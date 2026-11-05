@@ -36,6 +36,27 @@ description: "Master the Williams Shoulder Lock from Williams Guard. Learn finis
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Williams Shoulder Lock from Williams Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Learn Nasty Shoulder Lock In Under 60 seconds -Williams Guard - Usher BJJ",
+      "description": "Williams Shoulder Lock from Williams Guard film study: How to Learn Nasty Shoulder Lock In Under 60 seconds -Williams Guard - Usher BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nDDWcu1JALo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nDDWcu1JALo",
+      "url": "https://www.youtube.com/watch?v=nDDWcu1JALo",
+      "duration": "PT49S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Williams Shoulder Lock from Williams Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nDDWcu1JALo)
+
+<p class="clip-credit"><strong>How to Learn Nasty Shoulder Lock In Under 60 seconds -Williams Guard - Usher BJJ</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=nDDWcu1JALo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

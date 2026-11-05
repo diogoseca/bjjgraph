@@ -640,6 +640,23 @@
         "description": "Partner applies controlled Kimura from crucifix at various depths. Practice recognizing the point of no return and tapping appropriately. Develop body awareness for when the shoulder reaches its rotational limit. Emphasize early tapping habits and clear verbal communication with training partners."
       }
     ],
-    "clips": []
+    "clips": [],
+    "escape_clips": [
+      {
+        "escape": "Grip own clothing or shorts",
+        "clips": [
+          {
+            "id": "Il__jkzGDJg",
+            "title": "Move of the Day: Escaping the Turtle - 3 - What if they Kimura me",
+            "channel": "JitzLive",
+            "duration": 371,
+            "vertical": false,
+            "start": 168,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   }
 }

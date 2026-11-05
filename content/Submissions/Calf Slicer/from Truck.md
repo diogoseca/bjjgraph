@@ -36,6 +36,27 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Truck \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf Slicer from Truck",
+      "description": "Calf Slicer from Truck film study: Calf Slicer from Truck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DvPs-12-APM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DvPs-12-APM",
+      "url": "https://www.youtube.com/watch?v=DvPs-12-APM",
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -79,6 +100,24 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Truck in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DvPs-12-APM)
+
+<p class="clip-credit"><strong>Calf Slicer from Truck</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=DvPs-12-APM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

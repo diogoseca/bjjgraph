@@ -424,7 +424,26 @@
       }
     ],
     "safety_considerations": "When practicing Tai Otoshi, both the person executing the throw and the person being thrown must observe critical safety protocols. The individual being thrown should know proper breakfall technique (slapping the mat with their arm to dissipate impact force) before practicing this throw at full speed. Begin all training with crash pads or soft mats until proper falling mechanics are mastered. The thrower must maintain control throughout the technique and never release their partner suddenly or throw them with excessive force beyond their breakfalling ability. When first learning, execute the throw in slow motion with the partner stepping over your leg voluntarily to understand the mechanics. Progress gradually from static drilling to dynamic application over several weeks. Be particularly cautious about the blocking leg placement - if placed too far across opponent's body or with excessive force, it can cause knee injuries to either practitioner. Practice on appropriate training surfaces with adequate space, avoiding hard floors, walls, or obstacles. Partners should communicate throughout training, especially when fatigue sets in as this increases injury risk. Never practice throws on untrained individuals who do not know how to fall properly.",
-    "clips": []
+    "clips": [
+      {
+        "id": "DUiZ8JZkGx8",
+        "title": "Tai-otoshi - Demo",
+        "channel": "Efficient Judo",
+        "duration": 39,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "bPPigY8SxRc",
+        "title": "Judo for Jiu Jitsu - Jimmy Pedro - Tai Otoshi - BJJ Weekly #048",
+        "channel": "bjjweekly",
+        "duration": 173,
+        "vertical": false,
+        "start": 29,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Tai Otoshi Defender",
@@ -599,7 +618,17 @@
         "description": "Standing sparring rounds where partner is specifically working Tai Otoshi as their primary throw. Defend at full speed while also maintaining your own offensive capabilities. Practice recognizing Tai Otoshi versus other forward throws and selecting appropriate defense. Focus on transitioning from successful defense immediately into your own attacks."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "l4WmQJgbMY4",
+        "title": "Tai-otoshi countered by Ko-soto-gake",
+        "channel": "Akitas Judo Clubs",
+        "duration": 11,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

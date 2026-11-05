@@ -46,12 +46,12 @@ description: "Master the guillotine choke finish from guillotine control. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guillotine Choke Defense",
-      "description": "Guillotine Choke from Guillotine Control film study: Guillotine Choke Defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OQYU2BXdEEw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OQYU2BXdEEw",
-      "url": "https://www.youtube.com/watch?v=OQYU2BXdEEw",
-      "duration": "PT51S"
+      "name": "High Elbow Guillotine from the Front Headlock",
+      "description": "Guillotine Choke from Guillotine Control film study: High Elbow Guillotine from the Front Headlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l4FWC_kYKas/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l4FWC_kYKas?start=171",
+      "url": "https://www.youtube.com/watch?v=l4FWC_kYKas",
+      "duration": "PT248S"
     }
   ]
 }
@@ -114,9 +114,9 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=OQYU2BXdEEw)
+![](https://www.youtube.com/watch?v=l4FWC_kYKas&start=171)
 
-<p class="clip-credit"><strong>Guillotine Choke Defense</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=OQYU2BXdEEw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>High Elbow Guillotine from the Front Headlock</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=l4FWC_kYKas&t=171s" rel="noopener">Watch on YouTube from 2:51</a></p>
 
 </div>
 

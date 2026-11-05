@@ -36,6 +36,27 @@ description: "Master Leg Extraction from Lapel Wrap in BJJ. Systematic method to
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction from Lapel Wrap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Using The Lapel to break grip and Pass Ringworm Guard",
+      "description": "Leg Extraction from Lapel Wrap film study: Using The Lapel to break grip and Pass Ringworm Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BbON-7b8iM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BbON-7b8iM4?start=56",
+      "url": "https://www.youtube.com/watch?v=BbON-7b8iM4",
+      "duration": "PT289S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this extraction must be completed before any passing sequence. Lo
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction from Lapel Wrap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BbON-7b8iM4&start=56)
+
+<p class="clip-credit"><strong>Using The Lapel to break grip and Pass Ringworm Guard</strong> · 4:49 · <a href="https://www.youtube.com/watch?v=BbON-7b8iM4&t=56s" rel="noopener">Watch on YouTube from 0:56</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

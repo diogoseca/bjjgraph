@@ -587,6 +587,24 @@
         "description": "Positional sparring where successful pass defense must immediately convert to a sweep or back take attempt. Develops the habit of transitioning from defensive posture to offensive action without pause, exploiting the passer's vulnerability after their pass attempt fails."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "VZV0Qh5oYNE",
+        "title": "Preventing butterfly guard pass",
+        "channel": "Universal Jiu Jitsu",
+        "duration": 115,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "gHhxIZk1bf8",
+        "title": "Butterfly Guard Fundamentals: Blocking Basic Guard passes",
+        "channel": "Gracie Barra Dana Point Martial Arts",
+        "duration": 115,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

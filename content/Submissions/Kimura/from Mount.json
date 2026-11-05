@@ -711,11 +711,38 @@
     ],
     "clips": [
       {
+        "id": "HbYLa6ZmCxg",
+        "title": "Defending the Kimura from Side Mount",
+        "channel": "Stephan Kesting",
+        "duration": 559,
+        "vertical": false,
+        "start": 23,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "qQZI-_SRLM4",
         "title": "How To Escape The Kimura When On Top",
         "channel": "Inverted Gear",
         "duration": 219,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Grip your own belt, pants, or opposite wrist",
+        "clips": [
+          {
+            "id": "Il__jkzGDJg",
+            "title": "Move of the Day: Escaping the Turtle - 3 - What if they Kimura me",
+            "channel": "JitzLive",
+            "duration": 371,
+            "vertical": false,
+            "start": 170,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   },

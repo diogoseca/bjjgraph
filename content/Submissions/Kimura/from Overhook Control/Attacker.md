@@ -178,6 +178,37 @@ description: "Learn to attack with the Kimura from overhook control. Step-by-ste
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Overhook Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin",
+      "description": "Kimura from Overhook Control (Attacker) film study: New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/67Meai2C0LQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/67Meai2C0LQ",
+      "url": "https://www.youtube.com/watch?v=67Meai2C0LQ",
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy",
+      "description": "Kimura from Overhook Control (Attacker) film study: Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3f_RYd1W4s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3f_RYd1W4s?start=44",
+      "url": "https://www.youtube.com/watch?v=v3f_RYd1W4s",
+      "duration": "PT291S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Attacking with the Kimura from Overhook Control requires converting your existin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Overhook Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=67Meai2C0LQ)
+
+<p class="clip-credit"><strong>New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=67Meai2C0LQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3f_RYd1W4s&start=44)
+
+<p class="clip-credit"><strong>Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=v3f_RYd1W4s&t=44s" rel="noopener">Watch on YouTube from 0:44</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

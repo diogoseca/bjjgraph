@@ -36,6 +36,37 @@ description: "Learn the Short Choke from Harness in BJJ. Master gi lapel choke m
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Harness \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ezekiel Choke from the Back",
+      "description": "Short Choke from Harness film study: Ezekiel Choke from the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7txa2emuwfI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7txa2emuwfI",
+      "url": "https://www.youtube.com/watch?v=7txa2emuwfI",
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Ezekiel Chokes From The Back.",
+      "description": "Short Choke from Harness film study: 3 Ezekiel Chokes From The Back..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sOCBEA5IX7M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sOCBEA5IX7M",
+      "url": "https://www.youtube.com/watch?v=sOCBEA5IX7M",
+      "duration": "PT213S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Harness in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7txa2emuwfI)
+
+<p class="clip-credit"><strong>Ezekiel Choke from the Back</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=7txa2emuwfI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sOCBEA5IX7M)
+
+<p class="clip-credit"><strong>3 Ezekiel Chokes From The Back.</strong> · 3:33 · <a href="https://www.youtube.com/watch?v=sOCBEA5IX7M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

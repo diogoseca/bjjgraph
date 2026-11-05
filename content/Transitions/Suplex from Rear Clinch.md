@@ -46,22 +46,12 @@ description: "Master the Suplex from Rear Clinch in BJJ. High-impact takedown co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Foundations Rear Body Lock Defense 4: Suplex defense",
-      "description": "Suplex from Rear Clinch film study: Foundations Rear Body Lock Defense 4: Suplex defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LXn4w_Gq8a4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LXn4w_Gq8a4",
-      "url": "https://www.youtube.com/watch?v=LXn4w_Gq8a4",
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "5 Ways to Defend the Suplex",
-      "description": "Suplex from Rear Clinch film study: 5 Ways to Defend the Suplex.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gbTSgq2M4ns/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gbTSgq2M4ns",
-      "url": "https://www.youtube.com/watch?v=gbTSgq2M4ns",
-      "duration": "PT279S"
+      "name": "Belly to Back Suplex",
+      "description": "Suplex from Rear Clinch film study: Belly to Back Suplex.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NojPtq5V7FI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NojPtq5V7FI?start=56",
+      "url": "https://www.youtube.com/watch?v=NojPtq5V7FI",
+      "duration": "PT321S"
     }
   ]
 }
@@ -115,17 +105,9 @@ The suplex demands significant attention to safety protocols in training, as the
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=LXn4w_Gq8a4)
+![](https://www.youtube.com/watch?v=NojPtq5V7FI&start=56)
 
-<p class="clip-credit"><strong>Foundations Rear Body Lock Defense 4: Suplex defense</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=LXn4w_Gq8a4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gbTSgq2M4ns)
-
-<p class="clip-credit"><strong>5 Ways to Defend the Suplex</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=gbTSgq2M4ns" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Belly to Back Suplex</strong> · 5:21 · <a href="https://www.youtube.com/watch?v=NojPtq5V7FI&t=56s" rel="noopener">Watch on YouTube from 0:56</a></p>
 
 </div>
 

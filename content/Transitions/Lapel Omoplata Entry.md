@@ -36,6 +36,27 @@ description: "Master Lapel Omoplata Entry from Lapel Guard bottom. Complete guid
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Omoplata Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pace Gracie Jiu Jitsu Academy: Lapel guard transition to omoplata",
+      "description": "Lapel Omoplata Entry film study: Pace Gracie Jiu Jitsu Academy: Lapel guard transition to omoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G6uKQITUg2w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G6uKQITUg2w",
+      "url": "https://www.youtube.com/watch?v=G6uKQITUg2w",
+      "duration": "PT214S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Omoplata Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G6uKQITUg2w)
+
+<p class="clip-credit"><strong>Pace Gracie Jiu Jitsu Academy: Lapel guard transition to omoplata</strong> · 3:34 · <a href="https://www.youtube.com/watch?v=G6uKQITUg2w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

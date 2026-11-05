@@ -372,7 +372,17 @@
       }
     ],
     "safety_considerations": "When passing K-Guard, be mindful of knee torque on both your trapped leg and your partner's legs during hook neutralization. Avoid sudden explosive movements that could twist the knee joint while it is entangled in the hook system. If your partner's foot catches during the pass and they signal discomfort, stop immediately and carefully extract before continuing. During drilling, establish clear communication protocols for knee discomfort, especially when working with the inverted hook configuration where unexpected angles can stress the joint.",
-    "clips": []
+    "clips": [
+      {
+        "id": "WV3PwrFShU0",
+        "title": "Passing K-guard (Lachlan Giles)",
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 430,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Pass K-Guard Defender",

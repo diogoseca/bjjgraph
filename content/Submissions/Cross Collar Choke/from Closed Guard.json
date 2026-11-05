@@ -665,6 +665,23 @@
         "duration": 130,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Two-handed grip strip on first collar grip",
+        "clips": [
+          {
+            "id": "rJM7Ou84ZA4",
+            "title": "4 Counters to the Cross Collar Grip from Closed Guard in BJJ",
+            "channel": "Stephan Kesting",
+            "duration": 635,
+            "vertical": false,
+            "start": 53,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

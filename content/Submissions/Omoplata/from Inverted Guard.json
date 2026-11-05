@@ -426,7 +426,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "r3gy1JDPeyU",
+        "title": "BJJ Omaplata from Inverted Guard by Roleta Magalhaes",
+        "channel": "Asads YT",
+        "duration": 104,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "lFrzogJkHBw",
+        "title": "INVERTED GUARD OMOPLATA",
+        "channel": "Joaocrusbjjatx",
+        "duration": 181,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Omoplata from Inverted Guard Defender",
@@ -602,6 +620,16 @@
         "description": "Positional sparring rounds starting with opponent in inverted guard. Defend all attacks including omoplata, berimbolo, and triangles. Develop real-time decision making about which threats to prioritize and which defensive responses match the current attack."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 61,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

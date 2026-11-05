@@ -172,6 +172,27 @@ description: "Learn to execute the kneebar finish from established kneebar contr
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Kneebar Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing Knee Bar. Control And Breaking Mechanics.",
+      "description": "Kneebar from Kneebar Control (Attacker) film study: Finishing Knee Bar. Control And Breaking Mechanics..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZs0vLcyvAo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mZs0vLcyvAo",
+      "url": "https://www.youtube.com/watch?v=mZs0vLcyvAo",
+      "duration": "PT282S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +206,24 @@ Attacking with the kneebar from kneebar control requires methodical execution th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Kneebar Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mZs0vLcyvAo)
+
+<p class="clip-credit"><strong>Finishing Knee Bar. Control And Breaking Mechanics.</strong> · 4:42 · <a href="https://www.youtube.com/watch?v=mZs0vLcyvAo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

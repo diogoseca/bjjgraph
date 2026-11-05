@@ -567,6 +567,16 @@
         "description": "Positional sparring from standing guard with full resistance. Guard player scores for sweeps, submissions, and successful guard retention. Passer scores for completed passes. Five-minute rounds tracking defensive success rate and counter-attack conversion to identify areas for improvement."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "GzzXGzrPE2Q",
+        "title": "defending the standing guard pass (bjj).MP4",
+        "channel": "Training Jiu Jitsu",
+        "duration": 306,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

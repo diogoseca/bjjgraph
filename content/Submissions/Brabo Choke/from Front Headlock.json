@@ -730,6 +730,23 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Hand fight",
+        "clips": [
+          {
+            "id": "Mak-wBTe3W4",
+            "title": "Darce - Brabo Choke Sweep Counter",
+            "channel": "TakingItToTheMMAT",
+            "duration": 213,
+            "vertical": false,
+            "start": 33,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   },
   "variations_and_setups": [

@@ -349,7 +349,17 @@
       }
     ],
     "safety_considerations": "The Lapel Strip from Worm Guard is a grip fighting technique with minimal injury risk when performed correctly. Avoid explosive yanking motions that can hyperextend fingers or strain wrist joints during grip breaks. Use controlled finger peeling technique rather than sudden violent force. Be mindful of your training partner's finger safety when stripping grips and communicate clearly during drilling to prevent unnecessary strain on small joints.",
-    "clips": []
+    "clips": [
+      {
+        "id": "Q2cf-qMDo2w",
+        "title": "Worm Guard Defense",
+        "channel": "AllianceSaratoga",
+        "duration": 107,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Lapel Strip from Worm Guard Defender",

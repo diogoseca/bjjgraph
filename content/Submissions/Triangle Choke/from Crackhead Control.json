@@ -298,6 +298,17 @@
           ]
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "03s0m1_Jkxg",
+        "title": "Triangle Choke from Rubber Guard",
+        "channel": "TeamSubmissionInc",
+        "duration": 108,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
     ]
   },
   "defender": {
@@ -400,6 +411,17 @@
     "escape_paths": [
       "Keep an inside arm frame before the holder creates the one-arm-out enclosure.",
       "When the legs release, recover posture inside the ordinary closed guard."
+    ],
+    "clips": [
+      {
+        "id": "YG1S8nMIdjY",
+        "title": "TRIANGLE DEFENSE FROM CLOSED GUARD",
+        "channel": "Jiu Jitsu With Andy ",
+        "duration": 61,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
     ]
   }
 }

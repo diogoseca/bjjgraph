@@ -468,7 +468,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "h_SRARh0B6U",
+        "title": "Cross Ashi belly down heel hook",
+        "channel": "BOWERHOUSE MMA",
+        "duration": 67,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Ushiro Ashi Defender",

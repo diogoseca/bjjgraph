@@ -13,16 +13,28 @@ import { journey } from "../dsl"
  * branch is reached; opening the drawer pauses play. Both a fresh and a saved Path preference
  * must stay silent until the measured mouse press opens Path. Existing once-per-pane-visit
  * dedupe remains: re-render / list / Path emits no extra pair, closing permits the next visit.
- * Six source mutants were killed at named assertions: hidden render / drawer inflation,
- * either event suppressed, repeat render counted, and next visit suppressed. No non-kills.
+ * Seven source mutants were killed at named assertions: hidden render / drawer inflation,
+ * either event suppressed, repeat render counted, next visit suppressed, and (keyed only) the
+ * loader's queue dropped. No non-kills.
  * Exact patches and results: tests/artifacts/sidebar_path_mutants.json / sidebar_mutants.md.
+ *
+ * KEYED AND KEYLESS BUILDS BOTH RUN THIS (v1.247.1, DEPLOYFIX). PR shards build keyless; both
+ * deploys build keyed, and the key changes exactly one output, postscript.js. There the PostHog
+ * loader takes `window.posthog||[]` and `posthog.init()` writes a queue shim over every method,
+ * `capture` included, that pushes `[method, ...args]`. A plain `{ capture }` spy (#327) was
+ * overwritten, the shim threw `t.push is not a function` on the object, track() swallowed it and
+ * this read events: 0, so every deploy failed while a visitor's real queue held the event once.
+ * So the spy is that queue: an array, which a keyed build runs through the REAL loader and shim,
+ * while a keyless build, which has no loader, runs the stand-in below and pushes the same shape.
+ * Keep it an init script: the post-boot `page.evaluate` spies elsewhere never see the boot, and
+ * "boot is not a Path visit" is a claim about the boot.
  */
 
 const counts = (page: Page) => page.evaluate(() => {
   const w = window as any
   return {
     beats: (w.__neural.beats || []).filter((b: any) => b.beat === "challenges_opened").length,
-    events: w.__pathEvents.filter((e: any) => e.event === "neural_challenges_viewed").length,
+    events: [...w.posthog].filter((call: any) => call[0] === "capture" && call[1] === "neural_challenges_viewed").length,
   }
 })
 
@@ -36,9 +48,8 @@ for (const stored of [false, true]) test(`Path telemetry: ${stored ? "saved" : "
     },
     beforeNavigate: async page => {
       await page.addInitScript(() => {
-        const w = window as any
-        w.__pathEvents = []
-        w.posthog = { capture: (event: string, props: any) => w.__pathEvents.push({ event, props }) }
+        const queue: any = (window as any).posthog = []
+        queue.capture = (...args: any[]) => queue.push(["capture", ...args])
       })
     },
   })

@@ -160,6 +160,27 @@ description: "Defend against the outside heel hook from leg entanglement. Recogn
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from Leg Entanglement (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standard Ashi outside heel hook escape",
+      "description": "Outside Heel Hook from Leg Entanglement (Defender) film study: Standard Ashi outside heel hook escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XQd0-5hk1Lo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XQd0-5hk1Lo",
+      "url": "https://www.youtube.com/watch?v=XQd0-5hk1Lo",
+      "duration": "PT94S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -173,6 +194,24 @@ Defending against the outside heel hook from leg entanglement demands early reco
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from Leg Entanglement (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XQd0-5hk1Lo)
+
+<p class="clip-credit"><strong>Standard Ashi outside heel hook escape</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=XQd0-5hk1Lo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

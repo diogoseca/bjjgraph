@@ -158,6 +158,37 @@ description: "How to defend against Double Leg Setup in BJJ. Recognition cues, d
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Leg Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double leg sprawl defense",
+      "description": "Double Leg Setup (Defender) film study: Double leg sprawl defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0sIifRbIGMc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0sIifRbIGMc",
+      "url": "https://www.youtube.com/watch?v=0sIifRbIGMc",
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Sprawl | Defend against Takedowns | Double Leg Takedown Defense | NoGi\u2026",
+      "description": "Double Leg Setup (Defender) film study: How to Sprawl | Defend against Takedowns | Double Leg Takedown Defense | NoGi\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hyZLgN2v_qs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hyZLgN2v_qs",
+      "url": "https://www.youtube.com/watch?v=hyZLgN2v_qs",
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,6 +201,32 @@ Defending the double leg setup requires recognizing pre-attack indicators and re
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Leg Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0sIifRbIGMc)
+
+<p class="clip-credit"><strong>Double leg sprawl defense</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=0sIifRbIGMc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hyZLgN2v_qs)
+
+<p class="clip-credit"><strong>How to Sprawl | Defend against Takedowns | Double Leg Takedown Defense | NoGi…</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=hyZLgN2v_qs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

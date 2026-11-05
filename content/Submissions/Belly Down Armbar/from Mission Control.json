@@ -574,6 +574,16 @@
         "description": "Start in Mission Control with full resistance. Defender uses all available tools to prevent the belly down armbar while attacker uses full technique. 3-minute rounds with reset after each submission or escape. Track which defensive window is most effective and which phase the defender is getting caught in most frequently."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "FlFGsSpqYdE",
+        "title": "Belly Down Arm Bar Escape:Basic",
+        "channel": "Submissions101",
+        "duration": 84,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

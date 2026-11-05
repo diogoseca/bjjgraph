@@ -36,6 +36,27 @@ description: "Master the transition to Butterfly Hook Control in BJJ. Learn to c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to Butterfly Hook Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Brazilian Jiu-Jitsu Technique - Killing the Butterfly Hooks - Firas Zahabi",
+      "description": "Butterfly Guard to Butterfly Hook Control film study: Brazilian Jiu-Jitsu Technique - Killing the Butterfly Hooks - Firas Zahabi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/taS1_hoQh7A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/taS1_hoQh7A?start=25",
+      "url": "https://www.youtube.com/watch?v=taS1_hoQh7A",
+      "duration": "PT220S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this transition is most critical after initial guard recovery or 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to Butterfly Hook Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=taS1_hoQh7A&start=25)
+
+<p class="clip-credit"><strong>Brazilian Jiu-Jitsu Technique - Killing the Butterfly Hooks - Firas Zahabi</strong> · 3:40 · <a href="https://www.youtube.com/watch?v=taS1_hoQh7A&t=25s" rel="noopener">Watch on YouTube from 0:25</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

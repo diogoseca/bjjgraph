@@ -176,6 +176,27 @@ description: "Complete attacker guide for the knee slice pass from deep half gua
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Deep Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Week 12: Knee Cut from Deep Half Guard",
+      "description": "Knee Slice from Deep Half (Attacker) film study: Week 12: Knee Cut from Deep Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yr0gVhjfu58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yr0gVhjfu58",
+      "url": "https://www.youtube.com/watch?v=yr0gVhjfu58",
+      "duration": "PT206S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the top player in deep half guard, the knee slice pass is your most direct ro
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Deep Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yr0gVhjfu58)
+
+<p class="clip-credit"><strong>Week 12: Knee Cut from Deep Half Guard</strong> · 3:26 · <a href="https://www.youtube.com/watch?v=yr0gVhjfu58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
