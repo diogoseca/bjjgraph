@@ -116,6 +116,24 @@ const NG_CHALLENGE_UI_METHODS = {
       : this.wornBelt().id;
   },
 
+  // THE BLACK BELT ADVERTISES ITS REWARD UP FRONT (v1.105.1, owner: "we can see it in the
+  // challenges"). Same idiom as the capstone's "Earns a patch": a visible row on the Black
+  // section so the elite format is something you can see yourself walking toward. It reads
+  // "earned" once the badge exists — the mint (and the auto-flip) happen in the reward loop.
+  _recallRewardRow() {
+    const earned = !!(this.badges && this.badges["recall-in-play"]);
+    const rw = document.createElement("div");
+    rw.className = "ng-challenge-capstone";
+    rw.setAttribute("data-recall-reward", earned ? "earned" : "locked");
+    rw.innerHTML =
+      "<small>BLACK-BELT REWARD</small><b>Recall Mode</b><p>" +
+      (earned
+        ? "Earned. In play, proven cards are pure recall \u2014 flip it in Settings \u2192 Flashcards."
+        : "Reach black belt and proven cards stop being multiple choice in play \u2014 no options, just the question and your memory.") +
+      "</p>";
+    return rw;
+  },
+
   // Progression entry only (U87). Due reviews, Explore, games and saved work never
   // consult this guard. wornBelt includes the retained/grandfathered entitlement;
   // a selected track, completed lesson or frontier is not an earned belt.
@@ -660,25 +678,9 @@ const NG_CHALLENGE_UI_METHODS = {
       "<small>OPTIONAL CONTENT CAPSTONE</small><b>" +
       ngChallengeHTML(ngTrackName(challengeTrack) + " capstone") +
       "</b><p>Earns a patch. It never opens or closes another track.</p>";
-    // THE BLACK BELT ADVERTISES ITS REWARD UP FRONT (v1.105.1, owner: "we can see it in the
-    // challenges"). Same idiom as the capstone's "Earns a patch": a visible row on the Black
-    // section so the elite format is something you can see yourself walking toward. It reads
-    // "earned" once the badge exists — the mint (and the auto-flip) happen in the reward loop.
-    if (belt.id === "black") {
-      const earned = !!(this.badges && this.badges["recall-in-play"]);
-      const rw = document.createElement("div");
-      rw.className = "ng-challenge-capstone";
-      rw.setAttribute("data-recall-reward", earned ? "earned" : "locked");
-      rw.innerHTML =
-        "<small>BLACK-BELT REWARD</small><b>Recall Mode</b><p>" +
-        (earned
-          ? "Earned. In play, proven cards are pure recall \u2014 flip it in Settings \u2192 Flashcards."
-          : "Reach black belt and proven cards stop being multiple choice in play \u2014 no options, just the question and your memory.") +
-        "</p>";
-      // capstone is not yet in the DOM here — the builder appends it below, and the append
-      // site places this row immediately before it.
-      this._pendingRecallReward = rw;
-    }
+    // capstone is not yet in the DOM here — the builder appends it below, and the append
+    // site places this row immediately before it.
+    if (belt.id === "black") this._pendingRecallReward = this._recallRewardRow();
     if (belt.test) {
       const button = document.createElement("button");
       button.type = "button";
@@ -809,6 +811,8 @@ const NG_CHALLENGE_UI_METHODS = {
           locked.className = "ng-belt-locked";
           locked.innerHTML = "<b>" + ngBeltDisplayName(track.id) + "</b><small>Locked · progress through the earlier belts</small>";
           beltSection.appendChild(locked);
+          // Text only, so the section stays inert. A locked Black is the whole audience of this row.
+          if (track.id === "black") beltSection.appendChild(this._recallRewardRow());
           ladder.appendChild(beltSection);
           continue; // no button, chevron, lesson or keyboard registration
         }
