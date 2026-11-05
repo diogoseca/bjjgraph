@@ -159,13 +159,13 @@ const controls = [
   ['u47-paging-asks-again', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['this._landPage=n,this._armPagedLandClock(),this._readStop()', 'this._landPage=n,this._landAsk=!0,this._armPagedLandClock(),this._readStop()']], 'the shown card stays shown across paging, with its own window'],
   ['u47-question-tap-dead', 'covered-card.spec.ts', 'U47 d tapping the question itself shows the card.*\\(390\\)',
-    [['u.append(b," ",w),u.addEventListener("click",()=>this._landReveal());', 'u.append(b," ",w);']], 'a tap on the question shows the card'],
+    [['u.append(b," ",x),u.addEventListener("click",()=>this._landReveal());', 'u.append(b," ",x);']], 'a tap on the question shows the card'],
   // U52 b: the phone's two-line cut is _fitAskLine's (the CSS clamp is gone).
   // VIDEO3's desktop one-line control lives in video_theater_mutants.json.
   ['u47-phone-trim-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*390x844',
     [['t.textContent=s;let i=(this.isMobile()&&innerHeight>=700?2:1)', 't.textContent=s;return;let i=(this.isMobile()&&innerHeight>=700?2:1)']], 'U47 d: a long question is cut to two lines on a phone'],
   ['u47-desktop-offer-lost', 'covered-card.spec.ts', 'U47 d a long question is cut.*1440x900',
-    [['u.append(b," ",w),u.addEventListener("click",()=>this._landReveal())', 'u.append(b," ",...this.isMobile()?[w]:[]),u.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
+    [['u.append(b," ",x),u.addEventListener("click",()=>this._landReveal())', 'u.append(b," ",...this.isMobile()?[x]:[]),u.addEventListener("click",()=>this._landReveal())']], "Answer for Points ends the question's line"],
   ['u47-reveal-keeps-asking-face', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
     [['this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none",e.removeAttribute("data-land-ask");', 'this._landTakenAt=performance.now(),this._landOptIn(),e.style.animation="none";']], "Answer for Points shows today's card, with no reveal control inside it"],
   // U52 b: the take-up lays the reader out at once (the card leaves the quiet line's width); deferred, the first
@@ -215,13 +215,13 @@ const controls = [
   ['u47-take-up-unmeasured', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(1440\\)',
     [['this.fx("land_q_taken_up",{deckKey:t.key||null,mode:this._landMode||"land"}),', '']], 'land_q_taken_up fires once per take-up'],
   ['u47-asking-letters-answer', 'covered-card.spec.ts', 'U47 d a landing asks with its question alone.*\\(390\\)',
-    [['p=m=>{if(!(a.inert||["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(u||o.spent)', 'p=m=>{if(!(["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(u||o.spent)']], 'an asking question cannot grade, page or charge time'],
+    [['&&!(a.inert||["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(u||o.spent)', '&&!(["land","panic"].includes(o.surface)&&this._landHidden(!0))){if(u||o.spent)']], 'an asking question cannot grade, page or charge time'],
   ['u47-hover-latch-lost', 'landing-card.spec.ts', 'no clock before Answer for Points',
     [['["pointerdown","pointermove","keydown"]', '["pointerdown","keydown"]']], 'one hover engages'],
   ['u36-motion-listener-lost', 'defending-landing.spec.ts', 'reduced motion keeps a static cue',
     [['(e=this._motionQuery)==null||e.addEventListener("change",this._motionChanged)', '(e=this._motionQuery)==null||0']], 'the media-change listener acted, with no frame pumped'],
   ['u35-watch-in-question', 'covered-card.spec.ts', 'U35 every question builder segregates technique media',
-    [['if(c.appendChild(m),this._landQ=d', 'if(c.appendChild(m),c.insertAdjacentHTML("beforeend","<button data-choice-watch>Watch technique</button>"),this._landQ=d']], 'U35 question surfaces contain no media/watch controls'],
+    [['if(c.appendChild(f),this._landQ=d', 'if(c.appendChild(f),c.insertAdjacentHTML("beforeend","<button data-choice-watch>Watch technique</button>"),this._landQ=d']], 'U35 question surfaces contain no media/watch controls'],
   // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
   // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
   ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
