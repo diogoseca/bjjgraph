@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.247.0** — [Exact clips for submission escapes](#v12470--exact-clips-for-submission-escapes)
+
 - **v1.230.0** — [Article sections and floating contents](#v12300--article-sections-and-floating-contents)
 
 - **v1.231.0** — [Videos lead the cards, with separate actions](#v12310--videos-lead-the-cards-with-separate-actions)
@@ -13621,6 +13623,40 @@ scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **ze
 attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
 pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
 
+## v1.247.0 — Exact clips for submission escapes
+
+The owner chose a demonstration for each named escape on 4 November 2026 while retaining the
+v1.230.0 prohibition on substituting the submission's general defender reel. `_choiceMediaTarget`
+now identifies an escape by its submission and exact card label, for both the player's choices and
+the opponent's threats. `_choiceFront` reads only
+`info.perspectives.defender.escapes[label][0]`, requires `front === true`, and returns null for a
+missing or unapproved entry. The existing card media and Watch player consume that row, including
+its `start`; the placeholder remains when there is no eligible clip. Other choice fronts retain
+their existing role and exactness rules. Content plumbing and curated clip data ship separately.
+
+`e2e/journeys/escape-clips.spec.ts` supplies explicit dossier fixtures because the ordinary harness
+serves empty dossiers. It counts the fixture request and pins the two distinct labels, first-row
+selection, timestamped Watch, opponent threats, absent maps, unmatched labels, unapproved first
+rows, later fronts and non-boolean approval. It does not claim coverage of real video availability
+or editorial accuracy. `tests/artifacts/escape_clips_mutants.py` names the source changes and the
+journey each must fail, using an unaffected passing browser control and the shared runner's exact
+source restoration checks.
+
+Local gates on 4 November: the seven new journeys and 58 affected journeys passed (video cards,
+submission choices, roll execution, card click contracts and the first-hand payload gate), one
+worker on a private port under the shared build lock. The version-normalised `neural.js` fingerprint
+grew 316 bytes (675,399 → 675,715) against base `1308bf0dd`; its actual emitted size is 675,625 bytes.
+The earlier 226-byte figure mixed raw and normalised sizes. `tests/artifacts/first_hand_payload.json`
+records 361,961 core gzip bytes, 3,335 below the accepted 365,296-byte baseline; the 6,000-byte delta
+cap and all payload thresholds stayed unchanged. The full site build, app refresh and payload
+validator passed.
+
+All ten named source mutants were killed by their specified journeys, each with an unaffected
+passing browser control: `escape_target`, `escape_queue`, `escape_label`, `escape_first`,
+`escape_start`, `defender_reel_fallback`, `escape_front`, `escape_later`, `escape_truthy` and
+`threat_escape_excluded`. Results and source hashes are committed in
+`tests/artifacts/escape_clips_mutants.json`. The runner restored the source byte-for-byte and
+rebuilt the healthy bundle; there were no surviving mutants.
 
 ## v1.242.1 — Merge the drawer release into the URL/title fix (V331DEV1)
 
