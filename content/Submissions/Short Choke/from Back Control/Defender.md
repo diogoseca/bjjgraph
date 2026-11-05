@@ -146,6 +146,37 @@ description: "Learn to defend and escape the Short Choke from Back Control in BJ
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar Choke Defense From Back Mount",
+      "description": "Short Choke from Back Control (Defender) film study: Collar Choke Defense From Back Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NsS4fkMHv6w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NsS4fkMHv6w?start=28",
+      "url": "https://www.youtube.com/watch?v=NsS4fkMHv6w",
+      "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel Choke Defense From Back Mount (Simple Way Of Breaking The Grip)",
+      "description": "Short Choke from Back Control (Defender) film study: Lapel Choke Defense From Back Mount (Simple Way Of Breaking The Grip).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FJ2-33jFckg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FJ2-33jFckg",
+      "url": "https://www.youtube.com/watch?v=FJ2-33jFckg",
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +190,32 @@ Defending the Short Choke from Back Control demands early recognition and immedi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NsS4fkMHv6w&start=28)
+
+<p class="clip-credit"><strong>Collar Choke Defense From Back Mount</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=NsS4fkMHv6w&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FJ2-33jFckg)
+
+<p class="clip-credit"><strong>Lapel Choke Defense From Back Mount (Simple Way Of Breaking The Grip)</strong> · 3:27 · <a href="https://www.youtube.com/watch?v=FJ2-33jFckg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

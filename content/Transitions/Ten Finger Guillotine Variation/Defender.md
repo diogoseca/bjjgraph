@@ -150,6 +150,37 @@ description: "Complete defensive guide against the Ten Finger Guillotine Variati
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine Variation (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "defense from 10 finger guillotine with arm in",
+      "description": "Ten Finger Guillotine Variation (Defender) film study: defense from 10 finger guillotine with arm in.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P5GX0W1FTH0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P5GX0W1FTH0",
+      "url": "https://www.youtube.com/watch?v=P5GX0W1FTH0",
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No Arm In Choke Escapes, 7 different chokes",
+      "description": "Ten Finger Guillotine Variation (Defender) film study: No Arm In Choke Escapes, 7 different chokes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sU2rveYEfcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sU2rveYEfcA",
+      "url": "https://www.youtube.com/watch?v=sU2rveYEfcA",
+      "duration": "PT214S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +193,32 @@ Defending the Ten Finger Guillotine Variation requires early recognition and pre
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine Variation (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P5GX0W1FTH0)
+
+<p class="clip-credit"><strong>defense from 10 finger guillotine with arm in</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=P5GX0W1FTH0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sU2rveYEfcA)
+
+<p class="clip-credit"><strong>No Arm In Choke Escapes, 7 different chokes</strong> · 3:34 · <a href="https://www.youtube.com/watch?v=sU2rveYEfcA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

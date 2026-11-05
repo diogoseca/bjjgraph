@@ -427,7 +427,25 @@
       }
     ],
     "safety_considerations": "The inverted triangle involves significant rotation of your body while maintaining leg pressure on your opponent's neck, creating unique safety concerns. During training, communicate with your partner throughout the rotation phase—the transition can disorient them and they may not realize the submission is tightening from the new angle. Always allow adequate time for your partner to tap before unconsciousness, as blood chokes can cause loss of consciousness within seconds. Practitioners with neck injuries or cervical spine issues should approach this technique cautiously, as the rotation places unusual forces on the spine. The inverted position can also strain your lower back if you lack the hip mobility to complete the rotation smoothly—build flexibility before attempting under resistance. In competition, be prepared for opponents who don't recognize the danger of the inverted angle and may resist beyond their limits. Release immediately upon feeling the tap or observing signs of unconsciousness such as body going limp or cessation of defensive movement.",
-    "clips": []
+    "clips": [
+      {
+        "id": "Pjh_GRD7XDA",
+        "title": "Inverted Triangle from Open Guard www.BJJAfter40.com",
+        "channel": "BJJ After Forty",
+        "duration": 129,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "sGEBKhs8_yo",
+        "title": "Inverted Triangle From Guard (BJJ/Jiu-Jitsu)",
+        "channel": "Brian Glick",
+        "duration": 227,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Inverted Triangle Defender",
@@ -604,6 +622,26 @@
         "description": "Positional sparring from triangle control where the attacker can choose standard finish, armbar, omoplata, or inverted triangle. Develop the ability to read which attack is coming based on the opponent's grip changes and body movement, and select appropriate defensive response in real time."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "AptNwQLD_EQ",
+        "title": "Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape",
+        "channel": "Relson Gracie Jiu-Jitsu Team HK",
+        "duration": 117,
+        "vertical": false,
+        "start": 28,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "EaZA0UUXIq8",
+        "title": "Counter to the Inverted Triangle",
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 186,
+        "vertical": false,
+        "start": 56,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

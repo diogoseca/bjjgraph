@@ -146,6 +146,37 @@ description: "Defend against the calf slicer from 50-50 Guard with recognition c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from 50-50 Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter to Calf Crusher",
+      "description": "Calf Slicer from 50-50 Guard (Defender) film study: Counter to Calf Crusher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/34MH31xRL-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/34MH31xRL-w",
+      "url": "https://www.youtube.com/watch?v=34MH31xRL-w",
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Calf Slicer defense",
+      "description": "Calf Slicer from 50-50 Guard (Defender) film study: Calf Slicer defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UIaZYXwrDJM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UIaZYXwrDJM",
+      "url": "https://www.youtube.com/watch?v=UIaZYXwrDJM",
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +190,32 @@ Defending the calf slicer from 50-50 Guard requires recognizing the transition f
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from 50-50 Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=34MH31xRL-w)
+
+<p class="clip-credit"><strong>Counter to Calf Crusher</strong> · 0:13 · <a href="https://www.youtube.com/watch?v=34MH31xRL-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UIaZYXwrDJM)
+
+<p class="clip-credit"><strong>Calf Slicer defense</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=UIaZYXwrDJM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

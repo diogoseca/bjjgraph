@@ -188,6 +188,26 @@ description: "Attack with the Kimura from flattened half guard top. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "kimura from top half guard",
+      "description": "Kimura from Flattened Half Guard (Attacker) film study: kimura from top half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E2eGqpQOmd8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E2eGqpQOmd8",
+      "url": "https://www.youtube.com/watch?v=E2eGqpQOmd8",
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura from top half guard",
+      "description": "Kimura from Flattened Half Guard (Attacker) film study: Kimura from top half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0bDeYhoETD4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0bDeYhoETD4?start=52",
+      "url": "https://www.youtube.com/watch?v=0bDeYhoETD4",
+      "duration": "PT223S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Very Effective Kimura from Reverse Half Guard!",
       "description": "Kimura from Flattened Half Guard (Attacker) film study: Very Effective Kimura from Reverse Half Guard!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WS4OuwGvi9Y/hqdefault.jpg",
@@ -219,6 +239,22 @@ Attacking with the Kimura from flattened half guard top capitalizes on the signi
 
 <p class="section-subtitle">Watch Kimura from Flattened Half Guard (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E2eGqpQOmd8)
+
+<p class="clip-credit"><strong>kimura from top half guard</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=E2eGqpQOmd8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0bDeYhoETD4&start=52)
+
+<p class="clip-credit"><strong>Kimura from top half guard</strong> · 3:43 · <a href="https://www.youtube.com/watch?v=0bDeYhoETD4&t=52s" rel="noopener">Watch on YouTube from 0:52</a></p>
+
+</div>
 
 <div class="film-clip">
 

@@ -602,7 +602,25 @@
         "title": "Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes",
         "channel": "Força Martial Arts & Fitness",
         "duration": 199,
-        "vertical": false
+        "vertical": false,
+        "front": true
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Bridge",
+        "clips": [
+          {
+            "id": "CixH-SzPI5w",
+            "title": "Americana Counters",
+            "channel": "Gracie Jiu-jitsu Academy",
+            "duration": 546,
+            "vertical": false,
+            "start": 410,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   }

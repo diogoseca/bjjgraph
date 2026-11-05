@@ -661,11 +661,52 @@
     ],
     "clips": [
       {
+        "id": "ebksWcvRTFA",
+        "title": "Kimura Defense & Escape",
+        "channel": "Brandon Quick",
+        "duration": 63,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "qQZI-_SRLM4",
         "title": "How To Escape The Kimura When On Top",
         "channel": "Inverted Gear",
         "duration": 219,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Grip your own belt",
+        "clips": [
+          {
+            "id": "Il__jkzGDJg",
+            "title": "Move of the Day: Escaping the Turtle - 3 - What if they Kimura me",
+            "channel": "JitzLive",
+            "duration": 371,
+            "vertical": false,
+            "start": 168,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "escape": "Turn into the attacker",
+        "clips": [
+          {
+            "id": "uRn3DRICpeY",
+            "title": "Late Kimura Defense from Bottom Side Control",
+            "channel": "Fox Den Martial Arts",
+            "duration": 100,
+            "vertical": false,
+            "start": 50,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   }

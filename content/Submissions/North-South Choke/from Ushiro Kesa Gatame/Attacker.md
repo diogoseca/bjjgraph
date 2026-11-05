@@ -194,6 +194,16 @@ description: "Execute the North-South Choke from Ushiro Kesa Gatame Hold. Comple
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Attack from side control 1. North South Choke. Techniques Jiu-jitsu\u2026",
+      "description": "North-South Choke from Ushiro Kesa Gatame (Attacker) film study: Attack from side control 1. North South Choke. Techniques Jiu-jitsu\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkdKbLp5Ugo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TkdKbLp5Ugo",
+      "url": "https://www.youtube.com/watch?v=TkdKbLp5Ugo",
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "North South Choke for BJJ \u0026 MMA",
       "description": "North-South Choke from Ushiro Kesa Gatame (Attacker) film study: North South Choke for BJJ \u0026 MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SfUhu8rbz68/hqdefault.jpg",
@@ -225,6 +235,14 @@ Attacking the North-South Choke from Ushiro Kesa Gatame Hold requires understand
 
 <p class="section-subtitle">Watch North-South Choke from Ushiro Kesa Gatame (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TkdKbLp5Ugo)
+
+<p class="clip-credit"><strong>Attack from side control 1. North South Choke. Techniques Jiu-jitsu…</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=TkdKbLp5Ugo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

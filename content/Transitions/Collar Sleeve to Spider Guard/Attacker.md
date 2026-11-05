@@ -176,6 +176,27 @@ description: "Execute the collar sleeve to spider guard transition. Master grip 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Sleeve to Spider Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Modern Collar \u0026 Sleeve System - Far Side Collar Sleeve - Transition to\u2026",
+      "description": "Collar Sleeve to Spider Guard (Attacker) film study: The Modern Collar \u0026 Sleeve System - Far Side Collar Sleeve - Transition to\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gmZKStViqNo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gmZKStViqNo?start=39",
+      "url": "https://www.youtube.com/watch?v=gmZKStViqNo",
+      "duration": "PT325S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing the collar sleeve to spider guard transition, your obj
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Sleeve to Spider Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gmZKStViqNo&start=39)
+
+<p class="clip-credit"><strong>The Modern Collar &amp; Sleeve System - Far Side Collar Sleeve - Transition to…</strong> · 5:25 · <a href="https://www.youtube.com/watch?v=gmZKStViqNo&t=39s" rel="noopener">Watch on YouTube from 0:39</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

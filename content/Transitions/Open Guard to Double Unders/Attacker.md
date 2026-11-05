@@ -163,6 +163,27 @@ description: "How to enter Double Unders from Open Guard top in BJJ. Scoop both 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Double Unders (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard passing, open guard, double under",
+      "description": "Open Guard to Double Unders (Attacker) film study: Guard passing, open guard, double under.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DVeabSxZcJY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DVeabSxZcJY",
+      "url": "https://www.youtube.com/watch?v=DVeabSxZcJY",
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,6 +203,24 @@ Because committing both arms under the legs removes your ability to post, your h
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Double Unders (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DVeabSxZcJY)
+
+<p class="clip-credit"><strong>Guard passing, open guard, double under</strong> · 0:11 · <a href="https://www.youtube.com/watch?v=DVeabSxZcJY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -144,6 +144,27 @@ description: "How to defend against Counter Sweep in BJJ. Recognition cues, defe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee Clear after a Failed Butterfly Sweep",
+      "description": "Counter Sweep (Defender) film study: Knee Clear after a Failed Butterfly Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0qZebp-6aGA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0qZebp-6aGA?start=25",
+      "url": "https://www.youtube.com/watch?v=0qZebp-6aGA",
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -156,6 +177,24 @@ The Counter Sweep Defender is the bottom guard player whose sweep attempt has be
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0qZebp-6aGA&start=25)
+
+<p class="clip-credit"><strong>Knee Clear after a Failed Butterfly Sweep</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=0qZebp-6aGA&t=25s" rel="noopener">Watch on YouTube from 0:25</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

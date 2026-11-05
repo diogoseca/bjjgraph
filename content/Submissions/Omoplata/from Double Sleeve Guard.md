@@ -46,22 +46,12 @@ description: "Master the omoplata shoulder lock from double sleeve guard. Learn 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Omoplata Step Over Escape Drill 2",
-      "description": "Omoplata from Double Sleeve Guard film study: Omoplata Step Over Escape Drill 2.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tOnP_QiviyU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tOnP_QiviyU",
-      "url": "https://www.youtube.com/watch?v=tOnP_QiviyU",
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Professor Queixinho Teaches a Highly Effective Omoplata Escape!",
-      "description": "Omoplata from Double Sleeve Guard film study: Professor Queixinho Teaches a Highly Effective Omoplata Escape!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UaZdeo4ro3E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UaZdeo4ro3E",
-      "url": "https://www.youtube.com/watch?v=UaZdeo4ro3E",
-      "duration": "PT141S"
+      "name": "Double Sleeve Guard System - Kneeling Opponent - Omoplata (week 16)",
+      "description": "Omoplata from Double Sleeve Guard film study: Double Sleeve Guard System - Kneeling Opponent - Omoplata (week 16).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zwQypvk5OUs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zwQypvk5OUs",
+      "url": "https://www.youtube.com/watch?v=zwQypvk5OUs",
+      "duration": "PT177S"
     }
   ]
 }
@@ -122,17 +112,9 @@ Strategically, this submission sits at the intersection of the triangle and armb
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=tOnP_QiviyU)
+![](https://www.youtube.com/watch?v=zwQypvk5OUs)
 
-<p class="clip-credit"><strong>Omoplata Step Over Escape Drill 2</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=tOnP_QiviyU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=UaZdeo4ro3E)
-
-<p class="clip-credit"><strong>Professor Queixinho Teaches a Highly Effective Omoplata Escape!</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=UaZdeo4ro3E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Sleeve Guard System - Kneeling Opponent - Omoplata (week 16)</strong> · 2:57 · <a href="https://www.youtube.com/watch?v=zwQypvk5OUs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

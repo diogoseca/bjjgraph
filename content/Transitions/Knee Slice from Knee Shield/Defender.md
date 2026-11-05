@@ -150,6 +150,27 @@ description: "Complete defensive guide for stopping the knee slice pass from kne
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Knee Shield (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter to the Knee Cut Pass",
+      "description": "Knee Slice from Knee Shield (Defender) film study: Counter to the Knee Cut Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0v_uN9FlWQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0v_uN9FlWQw",
+      "url": "https://www.youtube.com/watch?v=0v_uN9FlWQw",
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the knee slice from knee shield requires early recognition and proacti
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Knee Shield (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0v_uN9FlWQw)
+
+<p class="clip-credit"><strong>Counter to the Knee Cut Pass</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=0v_uN9FlWQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

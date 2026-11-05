@@ -142,6 +142,27 @@ description: "Prevent the complete triangle escape as the attacking triangle hol
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Complete Triangle Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Breakdown: How to Do Rolling Arm Bar to Counter a Triangle Choke Escape",
+      "description": "Complete Triangle Escape (Defender) film study: BJJ Breakdown: How to Do Rolling Arm Bar to Counter a Triangle Choke Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MiR4MDk68IE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MiR4MDk68IE?start=44",
+      "url": "https://www.youtube.com/watch?v=MiR4MDk68IE",
+      "duration": "PT275S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ As the person defending against the Complete Triangle Escape, you are the practi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Complete Triangle Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MiR4MDk68IE&start=44)
+
+<p class="clip-credit"><strong>BJJ Breakdown: How to Do Rolling Arm Bar to Counter a Triangle Choke Escape</strong> · 4:35 · <a href="https://www.youtube.com/watch?v=MiR4MDk68IE&t=44s" rel="noopener">Watch on YouTube from 0:44</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

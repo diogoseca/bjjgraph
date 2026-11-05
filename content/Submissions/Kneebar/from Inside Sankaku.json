@@ -607,6 +607,23 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Active knee bend defense",
+        "clips": [
+          {
+            "id": "HwU4-0-JBUM",
+            "title": "How to Defend and Escape the Kneebar",
+            "channel": "Stephan Kesting",
+            "duration": 533,
+            "vertical": false,
+            "start": 364,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

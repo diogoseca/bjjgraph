@@ -654,6 +654,33 @@
         "description": "Three-minute rounds starting from body triangle with partner attacking at progressive intensity. Practice complete defensive sequences from initial chin protection through choke defense to triangle clearing and guard recovery. Track survival time and escape success rate across sessions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "R6W9P4_SMzY",
+        "title": "TMG Clips #67 - Escape The RNC",
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 103,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Two-on-one wrist control on the choking arm",
+        "clips": [
+          {
+            "id": "3RbOD9fhi20",
+            "title": "Back Escape- Running Man- BJJ",
+            "channel": "JIU JITSU MODERN",
+            "duration": 210,
+            "vertical": false,
+            "start": 40,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   }
 }

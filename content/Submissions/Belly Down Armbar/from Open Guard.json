@@ -571,6 +571,24 @@
         "description": "Positional sparring from open guard top where the bottom player specifically hunts the belly down armbar. Practice maintaining safe arm positioning during passing while recognizing and defending the attack chain in live conditions with full resistance."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "AApmPQUUmYI",
+        "title": "Belly down arm bar escape breakdown",
+        "channel": "Anchorlinefitness",
+        "duration": 61,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "FlFGsSpqYdE",
+        "title": "Belly Down Arm Bar Escape:Basic",
+        "channel": "Submissions101",
+        "duration": 84,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

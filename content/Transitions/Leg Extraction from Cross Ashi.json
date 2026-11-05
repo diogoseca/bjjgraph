@@ -552,6 +552,17 @@
         "description": "During live rolling, focus specifically on retaining cross ashi when partners attempt extraction. Develop automatic re-crossing, hip following, and saddle advancement responses. Review which extraction methods succeed against you most often and develop specific counters for those patterns."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "_8F3paq-8O4",
+        "title": "COUNTER the cross ashi escape with OUTSIDE HEELHOOK",
+        "channel": "Toro Bravo Submission Grappling",
+        "duration": 160,
+        "vertical": false,
+        "start": 29,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

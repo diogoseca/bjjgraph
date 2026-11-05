@@ -378,7 +378,18 @@
       }
     ],
     "safety_considerations": "Guard passing against Russian Leg Lasso involves significant rotational forces on the trapped arm and shoulder joint. Avoid explosive yanking motions to extract the arm from the lasso, as this can cause shoulder or elbow injuries to either practitioner. If the lasso creates sharp pain in the trapped arm's shoulder, stop and reset position rather than fighting through potential injury. When drilling at high intensity, both partners should communicate about shoulder comfort levels, particularly regarding the binding effect of the lasso on the arm and the rotational stress generated during sweep attempts.",
-    "clips": []
+    "clips": [
+      {
+        "id": "kNpws9uAY8o",
+        "title": "PART 1 ESCAPING + PASSING THE LASSO",
+        "channel": "Bryce Nie",
+        "duration": 383,
+        "vertical": false,
+        "start": 27,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Russian Leg Lasso Defender",

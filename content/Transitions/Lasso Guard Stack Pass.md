@@ -46,12 +46,22 @@ description: "Master the Lasso Guard Stack Pass in BJJ. Complete guide to neutra
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard Retention Against Stack Passing",
-      "description": "Lasso Guard Stack Pass film study: Guard Retention Against Stack Passing.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DMUuThQPX4M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DMUuThQPX4M",
-      "url": "https://www.youtube.com/watch?v=DMUuThQPX4M",
-      "duration": "PT302S"
+      "name": "Lasso guard stack pass [Both side right \u0026 left]",
+      "description": "Lasso Guard Stack Pass film study: Lasso guard stack pass [Both side right \u0026 left].",
+      "thumbnailUrl": "https://i.ytimg.com/vi/87KLJO21PvE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/87KLJO21PvE",
+      "url": "https://www.youtube.com/watch?v=87KLJO21PvE",
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Thiago Ortiz | Passing the Spider Lasso Guard Using the Stack",
+      "description": "Lasso Guard Stack Pass film study: Thiago Ortiz | Passing the Spider Lasso Guard Using the Stack.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cx7xVS3xuvs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cx7xVS3xuvs",
+      "url": "https://www.youtube.com/watch?v=cx7xVS3xuvs",
+      "duration": "PT176S"
     }
   ]
 }
@@ -105,9 +115,17 @@ Strategically, the stack pass serves as a high-pressure complement to more techn
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DMUuThQPX4M)
+![](https://www.youtube.com/watch?v=87KLJO21PvE)
 
-<p class="clip-credit"><strong>Guard Retention Against Stack Passing</strong> · 5:02 · <a href="https://www.youtube.com/watch?v=DMUuThQPX4M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lasso guard stack pass [Both side right &amp; left]</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=87KLJO21PvE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cx7xVS3xuvs)
+
+<p class="clip-credit"><strong>Thiago Ortiz | Passing the Spider Lasso Guard Using the Stack</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=cx7xVS3xuvs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

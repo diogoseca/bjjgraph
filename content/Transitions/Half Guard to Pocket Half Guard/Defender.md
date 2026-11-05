@@ -142,6 +142,27 @@ description: "How to defend the Transition to Pocket Half Guard from Half Guard 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Pocket Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2 Half Guard Cross Face \u0026 Underhook Counters",
+      "description": "Half Guard to Pocket Half Guard (Defender) film study: 2 Half Guard Cross Face \u0026 Underhook Counters.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ur34e6zRGd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ur34e6zRGd4?start=51",
+      "url": "https://www.youtube.com/watch?v=ur34e6zRGd4",
+      "duration": "PT460S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ As the defender against the Transition to Pocket Half Guard, your primary object
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Pocket Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ur34e6zRGd4&start=51)
+
+<p class="clip-credit"><strong>2 Half Guard Cross Face &amp; Underhook Counters</strong> · 7:40 · <a href="https://www.youtube.com/watch?v=ur34e6zRGd4&t=51s" rel="noopener">Watch on YouTube from 0:51</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

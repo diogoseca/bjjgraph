@@ -36,6 +36,27 @@ description: "Master Crucifix Maintenance in BJJ. Learn systematic control adjus
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix Maintenance \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Use the Crucifix in No-Gi BJJ | Control and Finish",
+      "description": "Crucifix Maintenance film study: How to Use the Crucifix in No-Gi BJJ | Control and Finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FEeFnztwpUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FEeFnztwpUQ",
+      "url": "https://www.youtube.com/watch?v=FEeFnztwpUQ",
+      "duration": "PT251S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategic crucifix maintenance serves dual purposes—it preserves the dominant 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix Maintenance in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FEeFnztwpUQ)
+
+<p class="clip-credit"><strong>How to Use the Crucifix in No-Gi BJJ | Control and Finish</strong> · 4:11 · <a href="https://www.youtube.com/watch?v=FEeFnztwpUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

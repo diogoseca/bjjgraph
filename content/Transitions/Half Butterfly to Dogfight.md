@@ -46,22 +46,12 @@ description: "Master the Half Butterfly to Dogfight transition. Learn underhook 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stop the half guard underhook with this simple Jiu Jitsu tip!",
-      "description": "Half Butterfly to Dogfight film study: Stop the half guard underhook with this simple Jiu Jitsu tip!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
-      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
-      "duration": "PT97S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to shut down the under hook player",
-      "description": "Half Butterfly to Dogfight film study: How to shut down the under hook player.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sL-NXPZE4zE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sL-NXPZE4zE",
-      "url": "https://www.youtube.com/watch?v=sL-NXPZE4zE",
-      "duration": "PT102S"
+      "name": "Adam Wardzinski`s Butterfly Guard System - Half Butterfly - Half Guard - Dog\u2026",
+      "description": "Half Butterfly to Dogfight film study: Adam Wardzinski`s Butterfly Guard System - Half Butterfly - Half Guard - Dog\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xl67taBKp3g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xl67taBKp3g?start=24",
+      "url": "https://www.youtube.com/watch?v=xl67taBKp3g",
+      "duration": "PT362S"
     }
   ]
 }
@@ -115,17 +105,9 @@ From a systems perspective, this transition connects the half butterfly guard sy
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+![](https://www.youtube.com/watch?v=xl67taBKp3g&start=24)
 
-<p class="clip-credit"><strong>Stop the half guard underhook with this simple Jiu Jitsu tip!</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sL-NXPZE4zE)
-
-<p class="clip-credit"><strong>How to shut down the under hook player</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=sL-NXPZE4zE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Adam Wardzinski`s Butterfly Guard System - Half Butterfly - Half Guard - Dog…</strong> · 6:02 · <a href="https://www.youtube.com/watch?v=xl67taBKp3g&t=24s" rel="noopener">Watch on YouTube from 0:24</a></p>
 
 </div>
 

@@ -610,6 +610,16 @@
         "description": "Partner begins in front headlock with intent to finish via ten finger guillotine at full speed and resistance. Defender must escape or survive for 30 seconds. Track escape success rate across multiple rounds and identify which defensive option produces the best results. Develop personalized defensive strategy based on body type and grappling style."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "P5GX0W1FTH0",
+        "title": "defense from 10 finger guillotine with arm in",
+        "channel": "jacek rozwadowski",
+        "duration": 104,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

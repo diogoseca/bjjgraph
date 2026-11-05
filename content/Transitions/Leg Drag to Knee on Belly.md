@@ -36,6 +36,37 @@ description: "Master Leg Drag to Knee on Belly transition in BJJ. Execute from L
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Knee on Belly \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee on Belly Attacks - 1 - Start with the Leg Drag",
+      "description": "Leg Drag to Knee on Belly film study: Knee on Belly Attacks - 1 - Start with the Leg Drag.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_VrNzCcIKcg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_VrNzCcIKcg",
+      "url": "https://www.youtube.com/watch?v=_VrNzCcIKcg",
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Week 6 - Leg Drag to Knee on Belly",
+      "description": "Leg Drag to Knee on Belly film study: Week 6 - Leg Drag to Knee on Belly.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rirhJ9ybjc8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rirhJ9ybjc8",
+      "url": "https://www.youtube.com/watch?v=rirhJ9ybjc8",
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +105,32 @@ The biomechanical advantage of this transition lies in the leg drag's control ov
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Knee on Belly in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_VrNzCcIKcg)
+
+<p class="clip-credit"><strong>Knee on Belly Attacks - 1 - Start with the Leg Drag</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=_VrNzCcIKcg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rirhJ9ybjc8)
+
+<p class="clip-credit"><strong>Week 6 - Leg Drag to Knee on Belly</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=rirhJ9ybjc8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

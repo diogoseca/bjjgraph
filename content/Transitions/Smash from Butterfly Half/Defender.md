@@ -150,6 +150,27 @@ description: "Master defending the smash pass from butterfly half guard. Learn t
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash from Butterfly Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly Half Guard: Maintenance and Defending the Side Smash Pass",
+      "description": "Smash from Butterfly Half (Defender) film study: Butterfly Half Guard: Maintenance and Defending the Side Smash Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rMk7qakFD6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rMk7qakFD6o",
+      "url": "https://www.youtube.com/watch?v=rMk7qakFD6o",
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ The defender in the Smash from Butterfly Half is the bottom player in butterfly 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash from Butterfly Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rMk7qakFD6o)
+
+<p class="clip-credit"><strong>Butterfly Half Guard: Maintenance and Defending the Side Smash Pass</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=rMk7qakFD6o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

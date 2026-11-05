@@ -390,7 +390,25 @@
       }
     ],
     "safety_considerations": "The Knee Slice Despite Lapel is generally low-risk when executed with proper technique. Primary injury concerns involve knee stress on the slicing leg if it gets tangled in lapel fabric while torquing. Never force the slice if your knee is wrapped—stop and clear the obstruction first. Training partners should communicate immediately if they feel knee pressure from awkward fabric entanglement. Neck strain can occur from aggressive cross-face pressure, so drilling partners should tap to excessive pressure rather than fighting through it. In competition, be aware that combined lapel and knee entanglement can create positions requiring careful extraction rather than explosive movement.",
-    "clips": []
+    "clips": [
+      {
+        "id": "4Z6t0ckTIbU",
+        "title": "Knee Slice Pass When Opponents has Lapel",
+        "channel": "Grappling Education",
+        "duration": 149,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "aaopZZGh0DE",
+        "title": "Guard Pass: Knee Cut from the Worm Guard",
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 83,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice Despite Lapel Defender",
@@ -572,7 +590,25 @@
         "description": "Full resistance sparring from lapel guard. Practice the complete defensive hierarchy: maintain tension, reconfigure if cleared, sit up for back take if slice initiates, insert knee shield as last resort. Develop fluid transitions between defensive layers based on what the passer gives you."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "HrWUpisdg80",
+        "title": "Lapel Wrap Counter to Knee Cut Pass",
+        "channel": "Vital Jiu Jitsu",
+        "duration": 244,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "fpHh5-DyeAk",
+        "title": "Lapel Half Guard to Combat Knee Slice",
+        "channel": "Team Daruma Dojo",
+        "duration": 74,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

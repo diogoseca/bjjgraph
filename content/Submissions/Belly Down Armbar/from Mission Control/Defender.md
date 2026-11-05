@@ -146,6 +146,27 @@ description: "Defend the belly down armbar finish from Mission Control. Recognit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Mission Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly Down Arm Bar Escape:Basic",
+      "description": "Belly Down Armbar from Mission Control (Defender) film study: Belly Down Arm Bar Escape:Basic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FlFGsSpqYdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FlFGsSpqYdE",
+      "url": "https://www.youtube.com/watch?v=FlFGsSpqYdE",
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +180,24 @@ Defending the belly down armbar from Mission Control requires recognizing the tr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Mission Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FlFGsSpqYdE)
+
+<p class="clip-credit"><strong>Belly Down Arm Bar Escape:Basic</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=FlFGsSpqYdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -142,6 +142,27 @@ description: "Learn to defend against Darce Control maintenance in BJJ. Systemat
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Control Maintenance (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce / Brabo choke escape Moncaio Brothers Jiujitsu move of the day",
+      "description": "Darce Control Maintenance (Defender) film study: Darce / Brabo choke escape Moncaio Brothers Jiujitsu move of the day.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k58PT-1jyq0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k58PT-1jyq0",
+      "url": "https://www.youtube.com/watch?v=k58PT-1jyq0",
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ Defending against Darce Control Maintenance requires immediate recognition that 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Control Maintenance (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k58PT-1jyq0)
+
+<p class="clip-credit"><strong>Darce / Brabo choke escape Moncaio Brothers Jiujitsu move of the day</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=k58PT-1jyq0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

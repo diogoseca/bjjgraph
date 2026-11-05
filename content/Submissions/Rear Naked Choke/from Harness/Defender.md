@@ -162,6 +162,16 @@ description: "Defend against the Rear Naked Choke from Harness. Learn recognitio
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Rear Naked Choke Defense",
+      "description": "Rear Naked Choke from Harness (Defender) film study: Rear Naked Choke Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0ubZ65hvM2M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0ubZ65hvM2M?start=29",
+      "url": "https://www.youtube.com/watch?v=0ubZ65hvM2M",
+      "duration": "PT153S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Rear naked choke escape",
       "description": "Rear Naked Choke from Harness (Defender) film study: Rear naked choke escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ylLO80PM4zg/hqdefault.jpg",
@@ -193,6 +203,14 @@ Defending the Rear Naked Choke from Harness demands constant vigilance and disci
 
 <p class="section-subtitle">Watch Rear Naked Choke from Harness (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0ubZ65hvM2M&start=29)
+
+<p class="clip-credit"><strong>Rear Naked Choke Defense</strong> · 2:33 · <a href="https://www.youtube.com/watch?v=0ubZ65hvM2M&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+
+</div>
 
 <div class="film-clip">
 

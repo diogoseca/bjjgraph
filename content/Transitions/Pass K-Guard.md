@@ -36,6 +36,27 @@ description: "Master the K-Guard pass in BJJ. Systematic approach to neutralizin
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass K-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing K-guard (Lachlan Giles)",
+      "description": "Pass K-Guard film study: Passing K-guard (Lachlan Giles).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WV3PwrFShU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WV3PwrFShU0",
+      "url": "https://www.youtube.com/watch?v=WV3PwrFShU0",
+      "duration": "PT430S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This pass holds particular significance in modern competition where K-Guard has 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass K-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WV3PwrFShU0)
+
+<p class="clip-credit"><strong>Passing K-guard (Lachlan Giles)</strong> · 7:10 · <a href="https://www.youtube.com/watch?v=WV3PwrFShU0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

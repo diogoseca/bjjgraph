@@ -146,6 +146,37 @@ description: "How to defend against Choke from Crucifix in BJJ. Recognition, esc
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Choke from Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix escape",
+      "description": "Choke from Crucifix (Defender) film study: Crucifix escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FPmsUVe2FHw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FPmsUVe2FHw",
+      "url": "https://www.youtube.com/watch?v=FPmsUVe2FHw",
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Advanced #9 Crucifix Choke \u0026 Crusifix Escape",
+      "description": "Choke from Crucifix (Defender) film study: Advanced #9 Crucifix Choke \u0026 Crusifix Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EAeA1bYN3t8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EAeA1bYN3t8?start=380",
+      "url": "https://www.youtube.com/watch?v=EAeA1bYN3t8",
+      "duration": "PT666S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -163,6 +194,32 @@ Energy management is paramount because the crucifix is inherently exhausting for
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Choke from Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FPmsUVe2FHw)
+
+<p class="clip-credit"><strong>Crucifix escape</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=FPmsUVe2FHw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EAeA1bYN3t8&start=380)
+
+<p class="clip-credit"><strong>Advanced #9 Crucifix Choke &amp; Crusifix Escape</strong> · 11:06 · <a href="https://www.youtube.com/watch?v=EAeA1bYN3t8&t=380s" rel="noopener">Watch on YouTube from 6:20</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

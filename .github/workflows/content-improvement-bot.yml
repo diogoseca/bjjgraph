@@ -504,6 +504,10 @@ jobs:
           EXECUTION_FILE: ${{ steps.improve_content.outputs.execution_file }}
         run: python3 scripts/bot_run.py check-execution "$EXECUTION_FILE"
 
+      - name: Put curated clips back after the direct edit
+        if: steps.queue.outputs.proceed == 'true' && steps.select_files.outputs.selected_files != ''
+        run: python3 scripts/restore_curated_clips.py
+
       - name: Validate and retry .json files
         if: steps.queue.outputs.proceed == 'true' && steps.select_files.outputs.selected_files != ''
         id: validate_retry

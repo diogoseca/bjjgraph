@@ -36,6 +36,27 @@ description: "Master the Rear Triangle Choke Finish in BJJ. Learn squeeze mechan
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle Choke Finish \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Chokes from Back EXPLAINED (Plus Advanced Finishes)",
+      "description": "Rear Triangle Choke Finish film study: Triangle Chokes from Back EXPLAINED (Plus Advanced Finishes).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/krzVywNd1lM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/krzVywNd1lM",
+      "url": "https://www.youtube.com/watch?v=krzVywNd1lM",
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The finish integrates seamlessly with alternative submissions from the rear tria
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle Choke Finish in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=krzVywNd1lM)
+
+<p class="clip-credit"><strong>Triangle Chokes from Back EXPLAINED (Plus Advanced Finishes)</strong> · 3:25 · <a href="https://www.youtube.com/watch?v=krzVywNd1lM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

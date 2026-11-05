@@ -170,6 +170,37 @@ description: "How to execute Short Choke Attack in BJJ. Attacking perspective wi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke Attack (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-Gi - Side - Attacks - Gift wrap choke",
+      "description": "Short Choke Attack (Attacker) film study: No-Gi - Side - Attacks - Gift wrap choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_NZYsO5P6SA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_NZYsO5P6SA",
+      "url": "https://www.youtube.com/watch?v=_NZYsO5P6SA",
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Giftwrap Choke",
+      "description": "Short Choke Attack (Attacker) film study: Giftwrap Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ADtdKI0M5hk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ADtdKI0M5hk?start=22",
+      "url": "https://www.youtube.com/watch?v=ADtdKI0M5hk",
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +217,32 @@ Strategically, the Short Choke represents the most direct submission threat from
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke Attack (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_NZYsO5P6SA)
+
+<p class="clip-credit"><strong>No-Gi - Side - Attacks - Gift wrap choke</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=_NZYsO5P6SA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ADtdKI0M5hk&start=22)
+
+<p class="clip-credit"><strong>Giftwrap Choke</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=ADtdKI0M5hk&t=22s" rel="noopener">Watch on YouTube from 0:22</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -631,7 +631,25 @@
         "description": "Engage in live standing rounds where partner uses full setup sequences at high intensity. Practice the complete defensive sequence: recognition, grip denial, sprawl if needed, immediate transition to offense. Focus on converting successful sprawls to front headlock attacks, snap downs, or back take attempts. Include scenarios where initial defense fails and you must scramble to secondary options. Develop the competitive mindset that defense is not complete until you've established your own attacking position."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "0sIifRbIGMc",
+        "title": "Double leg sprawl defense",
+        "channel": "Carlson Gracie Team CT - CPBJJ",
+        "duration": 60,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "hyZLgN2v_qs",
+        "title": "How to Sprawl | Defend against Takedowns | Double Leg Takedown Defense | NoGi…",
+        "channel": "Danny Fung",
+        "duration": 159,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

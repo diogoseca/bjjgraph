@@ -621,6 +621,33 @@
         "description": "Positional sparring starting from Gift Wrap. Attacker pursues Kimura and chains to alternative submissions. Defender works complete defensive hierarchy from recognition through escape. Develops decision-making under realistic pressure and threat management."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura Defense from Bottom Side Control",
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Grip anchor defense",
+        "clips": [
+          {
+            "id": "Il__jkzGDJg",
+            "title": "Move of the Day: Escaping the Turtle - 3 - What if they Kimura me",
+            "channel": "JitzLive",
+            "duration": 371,
+            "vertical": false,
+            "start": 168,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   }
 }

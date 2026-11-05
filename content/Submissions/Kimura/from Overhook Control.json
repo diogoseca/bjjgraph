@@ -437,7 +437,26 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "67Meai2C0LQ",
+        "title": "New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin",
+        "channel": "New Concept BJJ ",
+        "duration": 191,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "v3f_RYd1W4s",
+        "title": "Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy",
+        "channel": "GuerrillaJJ",
+        "duration": 291,
+        "vertical": false,
+        "start": 44,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Overhook Control Defender",
@@ -625,11 +644,37 @@
     ],
     "clips": [
       {
+        "id": "MM9rddEgJ58",
+        "title": "KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense…",
+        "channel": "Gracie Westchase ",
+        "duration": 155,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "uRn3DRICpeY",
         "title": "Late Kimura Defense from Bottom Side Control",
         "channel": "Fox Den Martial Arts",
         "duration": 100,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Turn your entire body toward the attacker",
+        "clips": [
+          {
+            "id": "uRn3DRICpeY",
+            "title": "Late Kimura Defense from Bottom Side Control",
+            "channel": "Fox Den Martial Arts",
+            "duration": 100,
+            "vertical": false,
+            "start": 52,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   }

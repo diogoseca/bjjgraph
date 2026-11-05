@@ -36,6 +36,27 @@ description: "Master the Toreando from Headquarters in BJJ. Systematic bullfight
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando from Headquarters \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "headquarters position/ bullfighter pass/ head and arm choke(week 6)",
+      "description": "Toreando from Headquarters film study: headquarters position/ bullfighter pass/ head and arm choke(week 6).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nGAhAmeQHYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nGAhAmeQHYk",
+      "url": "https://www.youtube.com/watch?v=nGAhAmeQHYk",
+      "duration": "PT401S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Execution requires precise coordination between grip acquisition on both legs an
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando from Headquarters in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nGAhAmeQHYk)
+
+<p class="clip-credit"><strong>headquarters position/ bullfighter pass/ head and arm choke(week 6)</strong> · 6:41 · <a href="https://www.youtube.com/watch?v=nGAhAmeQHYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -158,6 +158,37 @@ description: "Learn to defend the Kimura from Crab Ride in BJJ. Recognition cues
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Crab Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Escape From The Kimura Trap - BJJ Escapes",
+      "description": "Kimura from Crab Ride (Defender) film study: How To Escape From The Kimura Trap - BJJ Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZmxCd-zmc_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZmxCd-zmc_w?start=32",
+      "url": "https://www.youtube.com/watch?v=ZmxCd-zmc_w",
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura trap defense with Tarsis Humphreys",
+      "description": "Kimura from Crab Ride (Defender) film study: Kimura trap defense with Tarsis Humphreys.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OvuDKG0XUao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OvuDKG0XUao?start=21",
+      "url": "https://www.youtube.com/watch?v=OvuDKG0XUao",
+      "duration": "PT154S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,6 +201,32 @@ Defending the Kimura from Crab Ride requires immediate recognition and decisive 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Crab Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZmxCd-zmc_w&start=32)
+
+<p class="clip-credit"><strong>How To Escape From The Kimura Trap - BJJ Escapes</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=ZmxCd-zmc_w&t=32s" rel="noopener">Watch on YouTube from 0:32</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OvuDKG0XUao&start=21)
+
+<p class="clip-credit"><strong>Kimura trap defense with Tarsis Humphreys</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=OvuDKG0XUao&t=21s" rel="noopener">Watch on YouTube from 0:21</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

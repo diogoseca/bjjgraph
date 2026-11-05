@@ -673,6 +673,38 @@
         "duration": 23,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Stack",
+        "clips": [
+          {
+            "id": "1-CwlXlu2bE",
+            "title": "Triangle Choke Defense and Escape",
+            "channel": "Chewjitsu",
+            "duration": 392,
+            "vertical": false,
+            "start": 202,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "escape": "Extract trapped arm",
+        "clips": [
+          {
+            "id": "1-CwlXlu2bE",
+            "title": "Triangle Choke Defense and Escape",
+            "channel": "Chewjitsu",
+            "duration": 392,
+            "vertical": false,
+            "start": 115,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   },
   "variations_and_setups": [

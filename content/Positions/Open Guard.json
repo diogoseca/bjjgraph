@@ -54,6 +54,10 @@
     {
       "name": "Headquarters Position",
       "relationship": "Transitional passing position during open guard top sequences"
+    },
+    {
+      "name": "Demi Guard",
+      "relationship": "Gi lapel-guard connection using a collar grip, lapel behind the knee and foot on the tail"
     }
   ],
   "top": {
@@ -796,14 +800,14 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 5,
           "nogi": 15
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": 4
         }
       },
@@ -817,7 +821,7 @@
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 5,
           "nogi": null
         },
         "deal_here": true,
@@ -905,14 +909,14 @@
       {
         "transition": "Open Guard to Collar Sleeve Guard",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 10,
           "nogi": null
         }
       },
       {
         "transition": "Open Guard to De La Riva",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 8,
           "nogi": 5
         }
       },
@@ -984,6 +988,13 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 9
+        }
+      },
+      {
+        "transition": "Open Guard to Demi Guard",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": null
         }
       }
     ],

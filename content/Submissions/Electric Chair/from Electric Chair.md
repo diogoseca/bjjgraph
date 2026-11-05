@@ -52,6 +52,16 @@ description: "Master the Electric Chair in BJJ. Complete lockdown submission gui
       "embedUrl": "https://www.youtube.com/embed/Mpy_9vGEbeE",
       "url": "https://www.youtube.com/watch?v=Mpy_9vGEbeE",
       "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown Electric Chair Sweep and Submission",
+      "description": "Electric Chair from Electric Chair film study: Lockdown Electric Chair Sweep and Submission.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9ruPuY0XBOI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9ruPuY0XBOI",
+      "url": "https://www.youtube.com/watch?v=9ruPuY0XBOI",
+      "duration": "PT181S"
     }
   ]
 }
@@ -117,6 +127,14 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 ![](https://www.youtube.com/watch?v=Mpy_9vGEbeE)
 
 <p class="clip-credit"><strong>Eddie Bravo Technique: How to do the Electric Chair submission</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=Mpy_9vGEbeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9ruPuY0XBOI)
+
+<p class="clip-credit"><strong>Lockdown Electric Chair Sweep and Submission</strong> · 3:01 · <a href="https://www.youtube.com/watch?v=9ruPuY0XBOI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

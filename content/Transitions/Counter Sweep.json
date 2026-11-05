@@ -386,7 +386,18 @@
       }
     ],
     "safety_considerations": "Counter-sweep training is generally low risk for injury as it emphasizes defensive positioning and base maintenance rather than explosive movements. However, practitioners should be aware that rapid base adjustments and posting can strain ankles, knees, and wrists if done with poor technique. When practicing counter-sweeps at speed, ensure proper mat space to avoid collisions with walls or other training partners during dynamic movements. Partners should communicate clearly about resistance levels, especially when drilling chain defenses where multiple directional changes occur rapidly. Beginners should master static defensive positions before progressing to full-speed sweep defense to avoid developing compensatory movement patterns that rely on strength rather than proper mechanics.",
-    "clips": []
+    "clips": [
+      {
+        "id": "HbJrdjEZk-8",
+        "title": "NEVER get Tripod swept again! The ultimate tripod sweep defense.",
+        "channel": "Sticks and Stones BJJ",
+        "duration": 310,
+        "vertical": false,
+        "start": 46,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Sweep Defender",
@@ -556,7 +567,18 @@
         "description": "Positional sparring starting from open guard where you must attempt sweeps against a partner who actively counters. When sweeps fail, practice the complete decision tree: reguard, chain sweep, or create scramble. Track which recovery method you default to and develop the others to become unpredictable."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "0qZebp-6aGA",
+        "title": "Knee Clear after a Failed Butterfly Sweep",
+        "channel": "Couch2Cage",
+        "duration": 63,
+        "vertical": false,
+        "start": 25,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

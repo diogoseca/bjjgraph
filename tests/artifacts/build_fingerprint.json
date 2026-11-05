@@ -3,24 +3,24 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "b95458bacd61a66210a7e54cc2f59f2acc67778c",
+   "git_head": "760a28db8895c16a93754956d1b22aa8a273be1c",
    "inputs": {
-    "tree": "d93184a5f68f2ee80bd44cb348bfb76c195924f8"
+    "tree": "d4c62eb06f0bdc4a3442f3ff06e6b8a2ac4045cb"
    },
-   "package_version": "1.242.1",
+   "package_version": "1.247.0",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/redirects-capture/capture/pr-redirects-cf-limits-0454f665b",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/clips-backfill/capture/cap334-40a8eb869/pr-escape-clips-40a8eb869",
   "content_provenance": {
-   "capture_git_head": "0454f665b3279744b5283cfc31fb5dcc236fa0dd",
-   "capture_id": "58829c26eefd4939b31c04f955f70d1c",
+   "capture_git_head": "40a8eb869843897d076f850a1637a624e9a25818",
+   "capture_id": "e20a529cafae4b26a5b916ec9b0d3e75",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
-   "content_files": 6291,
-   "content_md": 4519,
+   "content_files": 6331,
+   "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "75ed91385879513fc75f42e0560371c8fa5e8925",
+   "content_tree": "981027251389a1396019e9ace78fb5aa68cb8532",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -44,12 +44,12 @@
     }
    },
    "output_identity": {
-    "files": 15726,
-    "sha256": "1589ba3e4a5af1436ed735caa93c3c9df9537bf3b3ccdd18bf0284a1e5326137"
+    "files": 15827,
+    "sha256": "829bdb5bc353de8ce3ac1047746054bf7a8a186836f2fc3f31cb6433be35ba9e"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/redirects-capture/capture/pr-redirects-cf-limits-0454f665b"
+    "/home/user/bjj-orchestrator/scratch/clips-backfill/capture/cap334-40a8eb869/pr-escape-clips-40a8eb869"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -66,21 +66,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "45346ef3cfe5dabe8855919d6dc1afc678c80f44cc9ba8d1d00260f5c4c2dde7"
+    "sha256": "2d057ae65408d4f2332555073cea082cfaf86a735402e008e14d7073c5f5df8a"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "249a3c1a8cc3d84067fb72a7a4de873ffa77990bd90cc3aa05e33cf7c680f04b",
+    "sha256": "f22cd342badda43eed3b49f43e04aaa4535578fff2ec0ea817db4da2665b8440",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "08d7c0159940489755b735135a763d5d211d21b3464f5b3db16afb2faa79631a",
+    "sha256": "54ad7fa2431a5b957a72716563707f03e47ec0217eac454b1f86de3e1d459418",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "04de54ebaba36f11a312ae0f953105c0920e964dd7f0060a2d82f457c59b52b9",
+    "sha256": "e3c561dab7e918ed1b16f562a5a0fe9582068def9d221f02b728cc8fd0fc1d6e",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
@@ -100,8 +100,8 @@
     "sha256": "41a558b31f20e0f92a3fe37a9a67999e5535dd7e4568fae11d8747aef815c271"
    },
    "static/neural/app/neural.js": {
-    "bytes": 676593,
-    "sha256": "09a961b158c2958964c12af84d72509df52a62483d9ae97a9647d3c03f7dc558",
+    "bytes": 676909,
+    "sha256": "7200f52d7172a1d924137cec8e6c7d2c82d0c005471cc8f0474eb9b55bc2d1e1",
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
@@ -117,8 +117,8 @@
     "sha256": "fdf760b6a9a136ef78ab78a8133e1b77e0a1d0376046c88c1b75502b45fad374"
    },
    "static/neural/app/settings-ui.js": {
-    "bytes": 21205,
-    "sha256": "404fe7529d0f305576aabb89bcf2adf3f64649ff61e7353f8c3bbfac030b82da",
+    "bytes": 21097,
+    "sha256": "04cd83ea258e085c8af85fba1a22eafb526f9ca9a54a64c757f8a8517979572c",
     "version_token": "normalised"
    }
   }
@@ -147,11 +147,11 @@
   "binary": 16,
   "css": 17,
   "gzip": 1,
-  "html": 6102,
+  "html": 6142,
   "js": 41,
-  "json_opaque": 4953,
+  "json_opaque": 4984,
   "json_semantic": 5,
-  "text_opaque": 4582,
+  "text_opaque": 4612,
   "text_semantic": 7,
   "xml": 2
  },
@@ -159,96 +159,96 @@
   ".well-known": 2,
   "<root>": 30,
   "Learning": 27,
-  "Positions": 537,
+  "Positions": 541,
   "Principles": 64,
   "Submissions": 1284,
   "Systems": 84,
-  "Transitions": 4009,
+  "Transitions": 4045,
   "dev": 59,
-  "markdown": 4517,
-  "static": 5040,
+  "markdown": 4547,
+  "static": 5071,
   "tags": 73
  },
  "census": {
-  "article_headings": 89550,
-  "article_links": 194612,
-  "files": 15726,
+  "article_headings": 90586,
+  "article_links": 196905,
+  "files": 15827,
   "gzip_files": 1,
-  "head_links": 48879,
-  "html_pages": 6102,
-  "jsonld_blocks": 30111,
-  "meta_tags": 127787,
-  "outside_links": 144137,
-  "pages_with_article": 6091,
-  "pages_with_canonical": 6094,
-  "pages_with_description": 6097,
-  "pages_with_og_title": 6091,
-  "pages_with_outside_links": 6098,
-  "pages_with_title": 6102,
+  "head_links": 49199,
+  "html_pages": 6142,
+  "jsonld_blocks": 30804,
+  "meta_tags": 128627,
+  "outside_links": 145533,
+  "pages_with_article": 6131,
+  "pages_with_canonical": 6134,
+  "pages_with_description": 6137,
+  "pages_with_og_title": 6131,
+  "pages_with_outside_links": 6138,
+  "pages_with_title": 6142,
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 5040
+  "static_files": 5071
  },
  "distinct_values": {
-  "name=description": 4454,
-  "property=og:title": 4593
+  "name=description": 4484,
+  "property=og:title": 4623
  },
  "jsonld_types": {
   "Article": 26,
-  "BreadcrumbList": 5919,
+  "BreadcrumbList": 5959,
   "CollectionPage": 124,
-  "DefinedTerm": 3055,
-  "FAQPage": 3065,
-  "HowTo": 2915,
-  "ItemList": 3058,
-  "Organization": 6091,
+  "DefinedTerm": 3075,
+  "FAQPage": 3085,
+  "HowTo": 2935,
+  "ItemList": 3571,
+  "Organization": 6131,
   "WebApplication": 2,
-  "WebPage": 5854,
+  "WebPage": 5894,
   "WebSite": 2
  },
  "markers": {
-  "body:data-current-role": 6091,
-  "body:data-slug": 6091,
-  "class:category-nav": 6091,
-  "class:popover-hint": 6091,
-  "class:search": 6091,
-  "id:page-graph-data": 4463,
-  "id:quartz-body": 6091,
-  "id:quartz-root": 6091,
-  "id:sidebar-overlay": 6091,
-  "js:__rollPositions": 6091,
+  "body:data-current-role": 6131,
+  "body:data-slug": 6131,
+  "class:category-nav": 6131,
+  "class:popover-hint": 6131,
+  "class:search": 6131,
+  "id:page-graph-data": 4493,
+  "id:quartz-body": 6131,
+  "id:quartz-root": 6131,
+  "id:sidebar-overlay": 6131,
+  "js:__rollPositions": 6131,
   "meta:robots": 12,
-  "tag:article": 6091,
-  "tag:footer": 6091,
-  "tag:main": 5969,
-  "tag:nav": 6092
+  "tag:article": 6131,
+  "tag:footer": 6131,
+  "tag:main": 6009,
+  "tag:nav": 6132
  },
  "meta_keys": {
   "charset=UTF-8": 6,
-  "charset=utf-8": 6096,
+  "charset=utf-8": 6136,
   "http-equiv=refresh": 3,
-  "name=description": 6097,
-  "name=generator": 6091,
+  "name=description": 6137,
+  "name=generator": 6131,
   "name=robots": 12,
-  "name=theme-color": 6091,
-  "name=twitter:card": 6091,
-  "name=twitter:description": 6091,
-  "name=twitter:image": 6091,
-  "name=twitter:image:alt": 6091,
-  "name=twitter:title": 6091,
-  "name=viewport": 6099,
-  "property=article:modified_time": 6009,
-  "property=article:published_time": 6009,
-  "property=og:description": 6091,
-  "property=og:height": 6091,
-  "property=og:image": 6091,
-  "property=og:locale": 6091,
-  "property=og:site_name": 6091,
-  "property=og:title": 6091,
-  "property=og:type": 6091,
-  "property=og:url": 6091,
-  "property=og:width": 6091
+  "name=theme-color": 6131,
+  "name=twitter:card": 6131,
+  "name=twitter:description": 6131,
+  "name=twitter:image": 6131,
+  "name=twitter:image:alt": 6131,
+  "name=twitter:title": 6131,
+  "name=viewport": 6139,
+  "property=article:modified_time": 6049,
+  "property=article:published_time": 6049,
+  "property=og:description": 6131,
+  "property=og:height": 6131,
+  "property=og:image": 6131,
+  "property=og:locale": 6131,
+  "property=og:site_name": 6131,
+  "property=og:title": 6131,
+  "property=og:type": 6131,
+  "property=og:url": 6131,
+  "property=og:width": 6131
  },
  "zeros": {
   "gzip_decompress_errors": 0,

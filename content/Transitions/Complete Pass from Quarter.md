@@ -46,6 +46,16 @@ description: "Master the Complete Pass from Quarter Guard in BJJ. Expert guide t
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "AUTHOR TECHNIQUE - JAMES SARGISON - ESCAPING (PASSING) QUARTER GUARD ON THE\u2026",
+      "description": "Complete Pass from Quarter film study: AUTHOR TECHNIQUE - JAMES SARGISON - ESCAPING (PASSING) QUARTER GUARD ON THE\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/foE-SZ3npu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/foE-SZ3npu8",
+      "url": "https://www.youtube.com/watch?v=foE-SZ3npu8",
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "EASY Way to Free Your Foot While Passing Half Guard",
       "description": "Complete Pass from Quarter film study: EASY Way to Free Your Foot While Passing Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
@@ -102,6 +112,14 @@ Understanding this transition is essential for any practitioner who regularly em
 
 <p class="section-subtitle">Watch Complete Pass from Quarter in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=foE-SZ3npu8)
+
+<p class="clip-credit"><strong>AUTHOR TECHNIQUE - JAMES SARGISON - ESCAPING (PASSING) QUARTER GUARD ON THE…</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=foE-SZ3npu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

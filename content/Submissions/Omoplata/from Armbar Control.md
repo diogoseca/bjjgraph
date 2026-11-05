@@ -46,32 +46,12 @@ description: "Master the omoplata from armbar control in BJJ. Complete guide cov
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
-      "description": "Omoplata from Armbar Control film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
-      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Submission escape - omoplata",
-      "description": "Omoplata from Armbar Control film study: Submission escape - omoplata.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xqBK1Y2BdSg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xqBK1Y2BdSg",
-      "url": "https://www.youtube.com/watch?v=xqBK1Y2BdSg",
-      "duration": "PT17S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026",
-      "description": "Omoplata from Armbar Control film study: How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jKdERMTQqPY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jKdERMTQqPY",
-      "url": "https://www.youtube.com/watch?v=jKdERMTQqPY",
-      "duration": "PT71S"
+      "name": "BJJ Techniques: Basic Omoplata from Armbar Attempt",
+      "description": "Omoplata from Armbar Control film study: BJJ Techniques: Basic Omoplata from Armbar Attempt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lKPIFyJVEAE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lKPIFyJVEAE",
+      "url": "https://www.youtube.com/watch?v=lKPIFyJVEAE",
+      "duration": "PT77S"
     }
   ]
 }
@@ -134,25 +114,9 @@ What makes this chain particularly dangerous in competition is the binary dilemm
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+![](https://www.youtube.com/watch?v=lKPIFyJVEAE)
 
-<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xqBK1Y2BdSg)
-
-<p class="clip-credit"><strong>Submission escape - omoplata</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=xqBK1Y2BdSg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jKdERMTQqPY)
-
-<p class="clip-credit"><strong>How to escape the omoplata when it’s already in and he’s ready to break your…</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=jKdERMTQqPY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Techniques: Basic Omoplata from Armbar Attempt</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=lKPIFyJVEAE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

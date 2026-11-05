@@ -36,6 +36,37 @@ description: "Master leg drag to north-south transition in BJJ. Consolidate cont
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to North-South \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ: Leg Drag Pass To North-South | Evolve MMA",
+      "description": "Leg Drag to North-South film study: BJJ: Leg Drag Pass To North-South | Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AwwJ1HI7D20/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AwwJ1HI7D20",
+      "url": "https://www.youtube.com/watch?v=AwwJ1HI7D20",
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Drag to North South",
+      "description": "Leg Drag to North-South film study: Leg Drag to North South.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yCIUXFyowFs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yCIUXFyowFs?start=40",
+      "url": "https://www.youtube.com/watch?v=yCIUXFyowFs",
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +105,32 @@ From a systematic perspective, the leg drag to north-south fills an essential ga
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to North-South in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AwwJ1HI7D20)
+
+<p class="clip-credit"><strong>BJJ: Leg Drag Pass To North-South | Evolve MMA</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=AwwJ1HI7D20" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yCIUXFyowFs&start=40)
+
+<p class="clip-credit"><strong>Leg Drag to North South</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=yCIUXFyowFs&t=40s" rel="noopener">Watch on YouTube from 0:40</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -170,6 +170,16 @@ description: "Defend the Kimura from Modified Mount effectively. Recognize grip 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Kimura Defense \u0026 Escape",
+      "description": "Kimura from Modified Mount (Defender) film study: Kimura Defense \u0026 Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ebksWcvRTFA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ebksWcvRTFA",
+      "url": "https://www.youtube.com/watch?v=ebksWcvRTFA",
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "How To Escape The Kimura When On Top",
       "description": "Kimura from Modified Mount (Defender) film study: How To Escape The Kimura When On Top.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qQZI-_SRLM4/hqdefault.jpg",
@@ -201,6 +211,14 @@ Defending the Kimura from Modified Mount requires understanding that the opponen
 
 <p class="section-subtitle">Watch Kimura from Modified Mount (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ebksWcvRTFA)
+
+<p class="clip-credit"><strong>Kimura Defense &amp; Escape</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=ebksWcvRTFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

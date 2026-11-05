@@ -150,6 +150,27 @@ description: "How to defend against Tai Otoshi in BJJ. Recognition cues, defensi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tai Otoshi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tai-otoshi countered by Ko-soto-gake",
+      "description": "Tai Otoshi (Defender) film study: Tai-otoshi countered by Ko-soto-gake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l4WmQJgbMY4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l4WmQJgbMY4",
+      "url": "https://www.youtube.com/watch?v=l4WmQJgbMY4",
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending Tai Otoshi requires understanding the throw's mechanical dependencies 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tai Otoshi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l4WmQJgbMY4)
+
+<p class="clip-credit"><strong>Tai-otoshi countered by Ko-soto-gake</strong> · 0:11 · <a href="https://www.youtube.com/watch?v=l4WmQJgbMY4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

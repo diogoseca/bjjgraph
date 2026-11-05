@@ -36,6 +36,27 @@ description: "Master the Worm to Squid Guard transition in BJJ. Complete guide t
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Worm to Squid Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "\u0027Worm Guard\u0027 Set up and Entry into \u0027Squid Guard\u0027",
+      "description": "Worm to Squid Guard film study: \u0027Worm Guard\u0027 Set up and Entry into \u0027Squid Guard\u0027.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fQTBObybYOI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fQTBObybYOI",
+      "url": "https://www.youtube.com/watch?v=fQTBObybYOI",
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This transition is strategically valuable when your worm guard attacks have stal
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Worm to Squid Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fQTBObybYOI)
+
+<p class="clip-credit"><strong>&#39;Worm Guard&#39; Set up and Entry into &#39;Squid Guard&#39;</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=fQTBObybYOI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

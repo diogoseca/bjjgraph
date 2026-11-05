@@ -46,6 +46,16 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Coach Brandon teaches the guillotine from front headlock",
+      "description": "Front Headlock to Guillotine film study: Coach Brandon teaches the guillotine from front headlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1WxshgULs-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1WxshgULs-s",
+      "url": "https://www.youtube.com/watch?v=1WxshgULs-s",
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Guillotine From Front Headlock - Technique Of The Month #7",
       "description": "Front Headlock to Guillotine film study: Guillotine From Front Headlock - Technique Of The Month #7.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GgXRLKAm9pY/hqdefault.jpg",
@@ -102,6 +112,14 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 <p class="section-subtitle">Watch Front Headlock to Guillotine in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1WxshgULs-s)
+
+<p class="clip-credit"><strong>Coach Brandon teaches the guillotine from front headlock</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=1WxshgULs-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

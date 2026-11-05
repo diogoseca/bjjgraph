@@ -150,6 +150,27 @@ description: "Defend and counter the Smash Half Butterfly pass in BJJ. Learn rec
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Half Butterfly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly Half Guard: Maintenance and Defending the Side Smash Pass",
+      "description": "Smash Half Butterfly (Defender) film study: Butterfly Half Guard: Maintenance and Defending the Side Smash Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rMk7qakFD6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rMk7qakFD6o",
+      "url": "https://www.youtube.com/watch?v=rMk7qakFD6o",
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending against the Smash Half Butterfly requires recognizing when the top pla
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Half Butterfly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rMk7qakFD6o)
+
+<p class="clip-credit"><strong>Butterfly Half Guard: Maintenance and Defending the Side Smash Pass</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=rMk7qakFD6o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -170,6 +170,37 @@ description: "How to execute Leg Drag Pass to Side Control in BJJ. Attacking per
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag Pass to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hannette Staack: Leg-drag to side control",
+      "description": "Leg Drag Pass to Side Control (Attacker) film study: Hannette Staack: Leg-drag to side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dN_9aLZLzzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dN_9aLZLzzY",
+      "url": "https://www.youtube.com/watch?v=dN_9aLZLzzY",
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ Basic Leg Drag To Side Control",
+      "description": "Leg Drag Pass to Side Control (Attacker) film study: BJJ Basic Leg Drag To Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1V9lM5UQn7s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1V9lM5UQn7s",
+      "url": "https://www.youtube.com/watch?v=1V9lM5UQn7s",
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +217,32 @@ Strategically, this pass should be executed when the opponent flattens out rathe
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag Pass to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dN_9aLZLzzY)
+
+<p class="clip-credit"><strong>Hannette Staack: Leg-drag to side control</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=dN_9aLZLzzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1V9lM5UQn7s)
+
+<p class="clip-credit"><strong>BJJ Basic Leg Drag To Side Control</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=1V9lM5UQn7s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

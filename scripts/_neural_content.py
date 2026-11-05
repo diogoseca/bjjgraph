@@ -15,7 +15,7 @@ Two dossier shapes the app renders (see neural/src/technique-content.js exemplar
        perspectives:{attacker:{summary,recognition[],prerequisites[],steps[],principles[],
                                counters[],mistakes[{err,fix}]},
                      defender:{authored,summary,recognition[],principles[],options[{move,when,leadsTo}],
-                               bestOutcomes[],mistakes[{err,fix}]}}}
+                               bestOutcomes[],mistakes[{err,fix}],clips[]?,escapes{label:clips[]}?}}}
 Both shapes also carry lead (the node's own summary), aka[] / confuse[{n,why}] for its
 own names, and optional family{name,aka[],confuse[]} for inherited naming metadata.
 Family names are not synonyms of a particular variant. The deferred search index uses
@@ -417,6 +417,13 @@ def _perspective_defender(dfn):
     clips = _clips(dfn.get("clips"))
     if clips:
         p["clips"] = clips
+    # Per-escape clips, by exact card label. In the dossier and NOT in submission-details:
+    # that file's rows are hashed into each defense's MDP identity and into detailsHash, so
+    # a byte there re-keys the model. The choice card already hydrates this dossier.
+    escapes = {row["escape"]: _clips(row.get("clips")) for row in dfn.get("escape_clips") or []}
+    escapes = {label: rows for label, rows in escapes.items() if rows}
+    if escapes:
+        p["escapes"] = escapes
     return p
 
 
@@ -692,7 +699,30 @@ def build_ng_content(graph) -> dict:
             unassigned += sum(1 for c in d.get("clips", []) if not c.get("half"))
     print(f"  clip curation: {fronts} approved fronts; {suppressed} unapproved fronts suppressed; "
           f"{empty} empty halves; {unassigned} unassigned hub clips suppressed")
+    _report_escape_clips(sources)
     return decks
+
+
+def _report_escape_clips(sources):
+    """Count the escape clip join, and refuse an orphan or a join that found nothing.
+
+    validate_json.py catches an orphan per file, but this is the one place that sees the whole
+    corpus, so it is the one place that can tell "no problems" from "never looked".
+    """
+    from _clips import ESCAPE_CLIP_JOIN_FLOOR, escape_clip_join, escape_rows
+    joined, orphans = 0, []
+    for d, role, _family in sources.values():
+        if role or not escape_rows(d):
+            continue
+        good, bad = escape_clip_join(d)
+        joined += len(good)
+        orphans += [(d.get("name"), row.get("escape")) for row in bad]
+    print(f"  escape clips: {joined} rows joined to a card; {len(orphans)} orphaned")
+    if orphans:
+        raise ValueError(f"escape_clips rows name no card of their submission: {orphans[:6]}")
+    if joined < ESCAPE_CLIP_JOIN_FLOOR:
+        raise ValueError(f"escape_clips joined {joined} rows, under the floor of {ESCAPE_CLIP_JOIN_FLOOR}: "
+                         "a join that finds nothing is a check that never ran")
 
 
 def fnv1a32(s: str) -> str:

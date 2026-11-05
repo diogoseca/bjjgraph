@@ -36,6 +36,37 @@ description: "Master posture recovery from Williams Guard in BJJ. Complete guide
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture from Williams Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ No Gi - Williams Guard - posture break, guard entry and postion, finish\u2026",
+      "description": "Posture from Williams Guard film study: BJJ No Gi - Williams Guard - posture break, guard entry and postion, finish\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JiBpEOPBkGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JiBpEOPBkGs?start=175",
+      "url": "https://www.youtube.com/watch?v=JiBpEOPBkGs",
+      "duration": "PT372S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Setting up an omoplata from the Nino Schembri/Shawn Williams guard",
+      "description": "Posture from Williams Guard film study: Setting up an omoplata from the Nino Schembri/Shawn Williams guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P4MZrC6752A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P4MZrC6752A",
+      "url": "https://www.youtube.com/watch?v=P4MZrC6752A",
+      "duration": "PT69S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +105,32 @@ Success depends on recognizing that the shoulder lock and guard structure are me
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture from Williams Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JiBpEOPBkGs&start=175)
+
+<p class="clip-credit"><strong>BJJ No Gi - Williams Guard - posture break, guard entry and postion, finish…</strong> · 6:12 · <a href="https://www.youtube.com/watch?v=JiBpEOPBkGs&t=175s" rel="noopener">Watch on YouTube from 2:55</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P4MZrC6752A)
+
+<p class="clip-credit"><strong>Setting up an omoplata from the Nino Schembri/Shawn Williams guard</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=P4MZrC6752A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

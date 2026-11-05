@@ -36,6 +36,27 @@ description: "Learn Counter Heel Hook from 50-50 Guard Bottom. Defensive leg att
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter heel hook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "heel hook escape from 50/50",
+      "description": "Counter heel hook film study: heel hook escape from 50/50.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FiWCEkRgA0o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FiWCEkRgA0o",
+      "url": "https://www.youtube.com/watch?v=FiWCEkRgA0o",
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, the Counter Heel Hook represents the highest-level defensive opti
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter heel hook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FiWCEkRgA0o)
+
+<p class="clip-credit"><strong>heel hook escape from 50/50</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=FiWCEkRgA0o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

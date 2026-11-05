@@ -176,6 +176,27 @@ description: "Master executing the Sweep from Reverse Half Guard. Step-by-step m
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Reverse Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sweep to Mount From Reverse Half - Double Gold BJJ",
+      "description": "Sweep from Reverse Half Guard (Attacker) film study: Sweep to Mount From Reverse Half - Double Gold BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/15Rs3dVs2uY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/15Rs3dVs2uY",
+      "url": "https://www.youtube.com/watch?v=15Rs3dVs2uY",
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Executing the Sweep from Reverse Half Guard requires precise timing and body coo
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Reverse Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=15Rs3dVs2uY)
+
+<p class="clip-credit"><strong>Sweep to Mount From Reverse Half - Double Gold BJJ</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=15Rs3dVs2uY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

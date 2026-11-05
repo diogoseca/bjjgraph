@@ -46,12 +46,12 @@ description: "Master the arm triangle from Kuzure Kesa Gatame with setup mechani
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Two variations of arm triangle (kata gatame) escapes",
-      "description": "Arm Triangle from Kuzure Kesa Gatame film study: Two variations of arm triangle (kata gatame) escapes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
-      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
-      "duration": "PT89S"
+      "name": "Arm Triangle from Scarf Hold Position",
+      "description": "Arm Triangle from Kuzure Kesa Gatame film study: Arm Triangle from Scarf Hold Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xz9-FEBFFIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xz9-FEBFFIo",
+      "url": "https://www.youtube.com/watch?v=xz9-FEBFFIo",
+      "duration": "PT32S"
     }
   ]
 }
@@ -114,9 +114,9 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CmXniIPFMhU)
+![](https://www.youtube.com/watch?v=xz9-FEBFFIo)
 
-<p class="clip-credit"><strong>Two variations of arm triangle (kata gatame) escapes</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Triangle from Scarf Hold Position</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

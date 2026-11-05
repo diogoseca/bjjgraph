@@ -46,12 +46,22 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Learn how to counter seoi-nage with a quick foot sweep",
-      "description": "Morote Seoi Nage film study: Learn how to counter seoi-nage with a quick foot sweep.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qEE09xFbu8I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qEE09xFbu8I",
-      "url": "https://www.youtube.com/watch?v=qEE09xFbu8I",
-      "duration": "PT28S"
+      "name": "Morote Seoi Nage - Two Handed Shoulder Throw",
+      "description": "Morote Seoi Nage film study: Morote Seoi Nage - Two Handed Shoulder Throw.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0LGcSjOnmCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0LGcSjOnmCQ",
+      "url": "https://www.youtube.com/watch?v=0LGcSjOnmCQ",
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Learning Morote Seionage - the Double Handed Shoulder Throw",
+      "description": "Morote Seoi Nage film study: Learning Morote Seionage - the Double Handed Shoulder Throw.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MF8VrpsIL1c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MF8VrpsIL1c",
+      "url": "https://www.youtube.com/watch?v=MF8VrpsIL1c",
+      "duration": "PT124S"
     }
   ]
 }
@@ -101,9 +111,17 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=qEE09xFbu8I)
+![](https://www.youtube.com/watch?v=0LGcSjOnmCQ)
 
-<p class="clip-credit"><strong>Learn how to counter seoi-nage with a quick foot sweep</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=qEE09xFbu8I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Morote Seoi Nage - Two Handed Shoulder Throw</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=0LGcSjOnmCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MF8VrpsIL1c)
+
+<p class="clip-credit"><strong>Learning Morote Seionage - the Double Handed Shoulder Throw</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=MF8VrpsIL1c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

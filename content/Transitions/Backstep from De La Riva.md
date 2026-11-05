@@ -46,22 +46,22 @@ description: "Master the backstep from De La Riva Guard. Learn to clear the DLR 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "DLR to Back | They Back Step | We go to Waiter Position | Then to Modified\u2026",
-      "description": "Backstep from De La Riva film study: DLR to Back | They Back Step | We go to Waiter Position | Then to Modified\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CT0Q1hDPeWQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CT0Q1hDPeWQ",
-      "url": "https://www.youtube.com/watch?v=CT0Q1hDPeWQ",
-      "duration": "PT23S"
+      "name": "De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho",
+      "description": "Backstep from De La Riva film study: De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-QhNJY5UQ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-QhNJY5UQ0",
+      "url": "https://www.youtube.com/watch?v=0-QhNJY5UQ0",
+      "duration": "PT36S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending against backstep pass to De la Riva",
-      "description": "Backstep from De La Riva film study: Defending against backstep pass to De la Riva.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/a3ModDEKY6s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/a3ModDEKY6s",
-      "url": "https://www.youtube.com/watch?v=a3ModDEKY6s",
-      "duration": "PT145S"
+      "name": "De La Riva BackStep",
+      "description": "Backstep from De La Riva film study: De La Riva BackStep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ezbP_xmIs6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ezbP_xmIs6U?start=33",
+      "url": "https://www.youtube.com/watch?v=ezbP_xmIs6U",
+      "duration": "PT72S"
     }
   ]
 }
@@ -115,17 +115,17 @@ However, the backstep carries inherent risk that distinguishes it from safer pas
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CT0Q1hDPeWQ)
+![](https://www.youtube.com/watch?v=0-QhNJY5UQ0)
 
-<p class="clip-credit"><strong>DLR to Back | They Back Step | We go to Waiter Position | Then to Modified…</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=CT0Q1hDPeWQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=0-QhNJY5UQ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=a3ModDEKY6s)
+![](https://www.youtube.com/watch?v=ezbP_xmIs6U&start=33)
 
-<p class="clip-credit"><strong>Defending against backstep pass to De la Riva</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva BackStep</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=ezbP_xmIs6U&t=33s" rel="noopener">Watch on YouTube from 0:33</a></p>
 
 </div>
 

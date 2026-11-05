@@ -182,6 +182,27 @@ description: "Execute the Takedown from Standing Guard in BJJ. Level changes, pe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Takedown from Standing Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "A Powerful Takedown for Gi BJJ \u0026 Basics on How to Grip Fight",
+      "description": "Takedown from Standing Guard (Attacker) film study: A Powerful Takedown for Gi BJJ \u0026 Basics on How to Grip Fight.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4FIPSW38vCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4FIPSW38vCA?start=49",
+      "url": "https://www.youtube.com/watch?v=4FIPSW38vCA",
+      "duration": "PT422S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the attacker executing the Takedown from Standing Guard, your primary objecti
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Takedown from Standing Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4FIPSW38vCA&start=49)
+
+<p class="clip-credit"><strong>A Powerful Takedown for Gi BJJ &amp; Basics on How to Grip Fight</strong> · 7:02 · <a href="https://www.youtube.com/watch?v=4FIPSW38vCA&t=49s" rel="noopener">Watch on YouTube from 0:49</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

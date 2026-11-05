@@ -366,7 +366,18 @@
       }
     ],
     "safety_considerations": "The Leg Hook to Side Control transition carries low injury risk compared to submissions but requires attention to knee safety during the leg extraction phase. Avoid twisting or torquing either player's knee through the entanglement during extraction—the leg should clear through angular motion, not rotational force on the joint. During drilling, perform the extraction at controlled speed and communicate with training partners about knee discomfort. When consolidating side control, avoid placing full body weight directly on the sternum or floating ribs. Be mindful of neck pressure during the crossface—the shoulder should drive the jaw, not compress the windpipe.",
-    "clips": []
+    "clips": [
+      {
+        "id": "xThHE-44Flk",
+        "title": "Half-Guard Pressure Pass",
+        "channel": "Sugoi Submissions Brazilian Jiu Jitsu",
+        "duration": 194,
+        "vertical": false,
+        "start": 28,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Hook to Side Control Defender",

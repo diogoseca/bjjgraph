@@ -36,6 +36,37 @@ description: "Master the Short Choke from Back Control in BJJ. Learn cross-colla
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel Choke from Back Control - Rampage Jiu-Jitsu Academy",
+      "description": "Short Choke from Back Control film study: Lapel Choke from Back Control - Rampage Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qkqvg7SEwzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qkqvg7SEwzc",
+      "url": "https://www.youtube.com/watch?v=qkqvg7SEwzc",
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross Collar Choke from the Back",
+      "description": "Short Choke from Back Control film study: Cross Collar Choke from the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/poQVy53KJ_A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/poQVy53KJ_A?start=33",
+      "url": "https://www.youtube.com/watch?v=poQVy53KJ_A",
+      "duration": "PT249S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qkqvg7SEwzc)
+
+<p class="clip-credit"><strong>Lapel Choke from Back Control - Rampage Jiu-Jitsu Academy</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=qkqvg7SEwzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=poQVy53KJ_A&start=33)
+
+<p class="clip-credit"><strong>Cross Collar Choke from the Back</strong> · 4:09 · <a href="https://www.youtube.com/watch?v=poQVy53KJ_A&t=33s" rel="noopener">Watch on YouTube from 0:33</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

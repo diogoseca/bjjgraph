@@ -45,6 +45,7 @@ from scripts.claude_infer import (
 )
 from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
 from scripts._atomic_io import atomic_write_json
+from scripts._clips import restore_clips
 from scripts._prob_norm import largest_remainder_round as _largest_remainder_round
 from scripts._ruleset import (  # {gi,nogi} contract; loads are RAW since Q3 (real divergence)
     is_ruleset_map, iter_cells, present_rulesets, RULESETS,
@@ -569,6 +570,7 @@ def build_response_schema(category: str, template_type: str = None) -> dict:
                 role_props = props.get(role)
                 if isinstance(role_props, dict) and isinstance(role_props.get("properties"), dict):
                     role_props["properties"].pop("clips", None)
+                    role_props["properties"].pop("escape_clips", None)  # same contract as clips
         # `answer_line` + `distractors` are curated one-line MC data (authored + verified
         # outside this pipeline). Strip from every flashcards-array item schema so the model
         # cannot return or invent them; restore_mc re-merges the original verbatim by question.
@@ -1614,6 +1616,28 @@ def check_structural_preservation(original: dict, fixed: dict, category: str) ->
                 f"PRESERVATION: '{where}' is curated film-study data and must not change; "
                 "omit it from your output (it is re-merged automatically)."
             )
+    # Per-escape clips join on the printed card label, which compile_defenses derives from
+    # defensive_options[].action. A reworded action would orphan its clip with no other sign.
+    orig_defender = original.get("defender") if isinstance(original.get("defender"), dict) else {}
+    fixed_defender = fixed.get("defender") if isinstance(fixed.get("defender"), dict) else {}
+    if orig_defender.get("escape_clips") != fixed_defender.get("escape_clips"):
+        errors.append(
+            "PRESERVATION: 'defender.escape_clips' is curated film-study data and must not change; "
+            "omit it from your output (it is re-merged automatically)."
+        )
+    elif fixed_defender.get("escape_clips"):
+        from scripts._clips import escape_clip_join
+        try:
+            orphans = escape_clip_join(fixed)[1]
+        except ValueError as exc:
+            orphans = []
+            errors.append(f"PRESERVATION: defensive_options compile no cards: {exc}")
+        for row in orphans:
+            errors.append(
+                f"PRESERVATION: a defensive option's action was reworded so the card {row.get('escape')!r} "
+                "no longer exists, and a curated clip is attached to it. Keep the opening words of that "
+                "action exactly as they were."
+            )
     return errors
 
 
@@ -1706,33 +1730,6 @@ def restore_mc(original: dict, fixed: dict) -> int:
 
     apply(fixed)
     return n
-
-
-def restore_clips(original: dict, fixed: dict) -> int:
-    """Curation-safety: `clips` is machine-verified YouTube film-study data excluded
-    from the AI response contract (like Systems `products`). Restore the original
-    verbatim — root and every role block — so enrichment can never drop, reorder,
-    or invent video IDs. Returns the number of clips arrays restored/removed."""
-    if not isinstance(original, dict) or not isinstance(fixed, dict):
-        return 0
-
-    def sync(orig_holder, fixed_holder):
-        if not isinstance(orig_holder, dict) or not isinstance(fixed_holder, dict):
-            return 0
-        orig_clips = orig_holder.get("clips")
-        if orig_clips is not None:
-            if fixed_holder.get("clips") != orig_clips:
-                fixed_holder["clips"] = orig_clips
-                return 1
-        elif "clips" in fixed_holder:
-            fixed_holder.pop("clips")
-            return 1
-        return 0
-
-    restored = sync(original, fixed)
-    for role in ("top", "bottom", "attacker", "defender"):
-        restored += sync(original.get(role), fixed.get(role))
-    return restored
 
 
 def normalize_probabilities(data: dict, category: str) -> bool:

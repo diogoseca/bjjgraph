@@ -199,6 +199,7 @@ Exact source edits: `sidebar_path_mutants.json`. Logs and JSON receipts:
 | path-analytics-silent | KILLED (1 ran) | the first real Path visit emits one of each event (capture absent) |
 | path-repeat-render-counted | KILLED (1 ran) | re-rendering and revisiting within one open drawer never double-counts |
 | path-next-visit-silent | KILLED (1 ran) | the next real Path visit emits a second pair |
+| path-keyed-queue-dropped (v1.247.1) | KILLED keyed (1 ran), SURVIVED keyless by construction (1 ran) | the first real Path visit emits one of each event (keyed); only a keyed build has a queue to drop, so a PR cannot see this mutant |
 
 No new non-kills. The harness observes the app's beat stream and the PostHog capture boundary;
 it does not prove remote analytics delivery. No known-red ledger row was added.

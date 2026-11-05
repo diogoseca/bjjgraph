@@ -152,6 +152,37 @@ description: "Defend and escape the Guillotine Choke from Clinch in BJJ. Recogni
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jiu-Jitsu Standing Guillotine Defense With Sitting Throw by Gracie\u2026",
+      "description": "Guillotine Choke from Clinch (Defender) film study: Jiu-Jitsu Standing Guillotine Defense With Sitting Throw by Gracie\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k5BNGdsb5P4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k5BNGdsb5P4",
+      "url": "https://www.youtube.com/watch?v=k5BNGdsb5P4",
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Guillotine Escape Jiu-Jitsu Self Defense",
+      "description": "Guillotine Choke from Clinch (Defender) film study: Standing Guillotine Escape Jiu-Jitsu Self Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o2fa6dc-ZtA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o2fa6dc-ZtA",
+      "url": "https://www.youtube.com/watch?v=o2fa6dc-ZtA",
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -167,6 +198,32 @@ The defensive hierarchy follows three priorities in strict order: first, protect
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k5BNGdsb5P4)
+
+<p class="clip-credit"><strong>Jiu-Jitsu Standing Guillotine Defense With Sitting Throw by Gracie…</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=k5BNGdsb5P4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o2fa6dc-ZtA)
+
+<p class="clip-credit"><strong>Standing Guillotine Escape Jiu-Jitsu Self Defense</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=o2fa6dc-ZtA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

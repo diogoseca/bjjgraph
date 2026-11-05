@@ -146,6 +146,37 @@ description: "How to defend against the kneebar from Saddle in BJJ. Recognition 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Defend \u0026 Escape the Saddle - Stop The Heel Hook, Knee Bar \u0026 Toe Hold\u2026",
+      "description": "Kneebar from Saddle (Defender) film study: How To Defend \u0026 Escape the Saddle - Stop The Heel Hook, Knee Bar \u0026 Toe Hold\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hczeA79DlHo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hczeA79DlHo",
+      "url": "https://www.youtube.com/watch?v=hczeA79DlHo",
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Defend \u0026 Escape the Saddle - Stop The Heel Hook, Knee Bar \u0026 Toe Hold\u2026",
+      "description": "Kneebar from Saddle (Defender) film study: How To Defend \u0026 Escape the Saddle - Stop The Heel Hook, Knee Bar \u0026 Toe Hold\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gCEWF9E7nt8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gCEWF9E7nt8?start=26",
+      "url": "https://www.youtube.com/watch?v=gCEWF9E7nt8",
+      "duration": "PT735S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -163,6 +194,32 @@ Critical safety awareness is non-negotiable when defending kneebars from the Sad
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hczeA79DlHo)
+
+<p class="clip-credit"><strong>How To Defend &amp; Escape the Saddle - Stop The Heel Hook, Knee Bar &amp; Toe Hold…</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=hczeA79DlHo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gCEWF9E7nt8&start=26)
+
+<p class="clip-credit"><strong>How To Defend &amp; Escape the Saddle - Stop The Heel Hook, Knee Bar &amp; Toe Hold…</strong> · 12:15 · <a href="https://www.youtube.com/watch?v=gCEWF9E7nt8&t=26s" rel="noopener">Watch on YouTube from 0:26</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

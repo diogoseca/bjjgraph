@@ -176,6 +176,27 @@ description: "Master the attacking mechanics of the Rear Triangle Choke Finish. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle Choke Finish (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Chokes from Back EXPLAINED (Plus Advanced Finishes)",
+      "description": "Rear Triangle Choke Finish (Attacker) film study: Triangle Chokes from Back EXPLAINED (Plus Advanced Finishes).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/krzVywNd1lM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/krzVywNd1lM",
+      "url": "https://www.youtube.com/watch?v=krzVywNd1lM",
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The Rear Triangle Choke Finish from the attacker's perspective is a systematic s
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle Choke Finish (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=krzVywNd1lM)
+
+<p class="clip-credit"><strong>Triangle Chokes from Back EXPLAINED (Plus Advanced Finishes)</strong> · 3:25 · <a href="https://www.youtube.com/watch?v=krzVywNd1lM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -36,6 +36,27 @@ description: "Master the mounted triangle squeeze in BJJ. Expert guide to tighte
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Triangle Squeeze \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mounted Triangle Finishing Details",
+      "description": "Mounted Triangle Squeeze film study: Mounted Triangle Finishing Details.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XmfEXgOyog4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XmfEXgOyog4?start=53",
+      "url": "https://www.youtube.com/watch?v=XmfEXgOyog4",
+      "duration": "PT170S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, the mounted triangle squeeze creates a compounding pressure scena
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Triangle Squeeze in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XmfEXgOyog4&start=53)
+
+<p class="clip-credit"><strong>Mounted Triangle Finishing Details</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=XmfEXgOyog4&t=53s" rel="noopener">Watch on YouTube from 0:53</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

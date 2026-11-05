@@ -182,6 +182,27 @@ description: "Master the hand fight from seat belt back control bottom position.
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fight from Seat Belt Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to dismantle \"the seatbelt\" when someone takes your back",
+      "description": "Hand Fight from Seat Belt Control (Attacker) film study: How to dismantle \"the seatbelt\" when someone takes your back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUHtK1Apo3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUHtK1Apo3Q",
+      "url": "https://www.youtube.com/watch?v=pUHtK1Apo3Q",
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ The hand fight from seat belt back control is the bottom player's most essential
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fight from Seat Belt Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUHtK1Apo3Q)
+
+<p class="clip-credit"><strong>How to dismantle &#34;the seatbelt&#34; when someone takes your back</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=pUHtK1Apo3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

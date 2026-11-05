@@ -472,7 +472,26 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "aHcEZPbczO0",
+        "title": "Rear naked choke from standing. (Grappling)",
+        "channel": "1001submissions",
+        "duration": 87,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "VMMxUYLSKT8",
+        "title": "Technique of the Week Liz Carmouche Standing Rear Naked Choke",
+        "channel": "wmmamedia",
+        "duration": 91,
+        "vertical": false,
+        "start": 29,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Standing Rear Clinch Defender",
@@ -720,6 +739,23 @@
         "channel": "Gracie Charlottesville",
         "duration": 38,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Hip escape with explosive turn to face opponent",
+        "clips": [
+          {
+            "id": "rlJlNeccbEw",
+            "title": "Standing Rear Naked Choke Defense",
+            "channel": "SAMA Self Defense",
+            "duration": 20,
+            "vertical": false,
+            "start": 2,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   }

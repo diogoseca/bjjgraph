@@ -36,6 +36,27 @@ description: "Master the Pocket Half Guard pass in BJJ. Complete guide to comple
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Pocket Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2 Half Guard Cross Face \u0026 Underhook Counters",
+      "description": "Pass Pocket Half film study: 2 Half Guard Cross Face \u0026 Underhook Counters.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ur34e6zRGd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ur34e6zRGd4?start=51",
+      "url": "https://www.youtube.com/watch?v=ur34e6zRGd4",
+      "duration": "PT460S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategic timing is critical to this pass. The extraction phase creates a brief 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Pocket Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ur34e6zRGd4&start=51)
+
+<p class="clip-credit"><strong>2 Half Guard Cross Face &amp; Underhook Counters</strong> · 7:40 · <a href="https://www.youtube.com/watch?v=ur34e6zRGd4&t=51s" rel="noopener">Watch on YouTube from 0:51</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

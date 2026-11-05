@@ -651,6 +651,24 @@
         "description": "Positional sparring starting from front headlock bottom. Partner can attack with any submission including the Peruvian Necktie. Practice identifying which attack is coming and applying the correct defensive response. Emphasis on distinguishing necktie from guillotine and darce setups in real time."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "yj0xxeLnM5E",
+        "title": "Peruvian necktie escape",
+        "channel": "Gile23",
+        "duration": 122,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "WcVrhdaHaro",
+        "title": "PEDRO SAUER | The PERFECT Defense To The Peruvian Necktie",
+        "channel": "TEAM FUSION ACADEMY | Dedicated To Technique!",
+        "duration": 140,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

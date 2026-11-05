@@ -155,12 +155,12 @@ test("@curated the EDGE node-index join survives the split: every card prints th
   // 1467, minted append-only). 1462 + 2 = 1464. The invariant these three lines exist for is
   // untouched — legacy is one node per site, the default is exactly two members per site, and both
   // cover the same rep set.
-  expect(legacy.nodes, "the noPairs control group is one node per site").toBe(1421) // census:sites
-  expect(pair.nodes, "the default is two members per site").toBe(2842) // census:members
+  expect(legacy.nodes, "the noPairs control group is one node per site").toBe(1431) // census:sites
+  expect(pair.nodes, "the default is two members per site").toBe(2862) // census:members
   expect(pair.reps, "…over the same live sites").toBe(legacy.reps)
 
   const keys = Object.keys(legacy.hands)
-  expect(keys.length, "every distinct position hand is dealt on both graphs").toBe(240) // census:positionChoiceSeats
+  expect(keys.length, "every distinct position hand is dealt on both graphs").toBe(242) // census:positionChoiceSeats
   expect(Object.keys(pair.hands).sort()).toEqual(keys.sort())
 
   // THE JOIN. Card for card, in order: same technique, same landing, same ev row, same integer.
@@ -173,7 +173,7 @@ test("@curated the EDGE node-index join survives the split: every card prints th
     cards += legacy.hands[k].length
     marked += legacy.hands[k].filter((c: Any) => c.mark !== null).length
   }
-  expect(cards, "ordinary position cards compared").toBe(1289) // census:positionChoiceCards
+  expect(cards, "ordinary position cards compared").toBe(1298) // census:positionChoiceCards
   // …and the table is genuinely being read. Without this the test would pass on a build where
   // `_ev` came back empty on BOTH graphs — every mark null, every comparison trivially equal.
   // Preserve the previous 1200/1328 coverage fraction (rounded up to 90.5%) on the
@@ -199,13 +199,13 @@ test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curricu
   // sites are RETIRED and keep theirs forever so they can never be reissued, and v1.156.0 minted
   // two new ones (1467, 1468) append-only — but a retired id is not on the wire, so the app's map
   // is the live count: 1469 assigned − 5 retired = 1464.
-  expect(Object.keys(pair.ordinals).length, "live nodes carry a share ordinal").toBe(1421) // census:ordinals
+  expect(Object.keys(pair.ordinals).length, "live nodes carry a share ordinal").toBe(1431) // census:ordinals
   expect(pair.ordinals, "…and not one of them moved").toEqual(legacy.ordinals)
 
   // EXPLORE LISTS SITES. Both halves carry the same title, so a member-level walk would print
   // every row of all three categories twice.
   expect(pair.explorer).toEqual(legacy.explorer)
-  expect(pair.explorer.Positions.length, "distinct positions, excluding submission aliases").toBe(120) // census:playablePositions
+  expect(pair.explorer.Positions.length, "distinct positions, excluding submission aliases").toBe(121) // census:playablePositions
 
   // ...AND SO DOES SEARCH, which is a SEPARATE walk over `this.nodes` and so inherits nothing
   // from buildExplorer. Every hit was doubled, and the 120 cap then halved how many distinct
@@ -223,7 +223,7 @@ test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curricu
   expect(pair.lessons.filter((s: string) => s.endsWith("=?")).length, "every lesson resolves").toBe(0)
   expect(pair.curriculumFog).toEqual(legacy.curriculumFog)
   expect(pair.traffic).toEqual(legacy.traffic)
-  expect(pair.traffic.length, "the weighted start pool is still 132 POSITIONS").toBe(132) // census:positions
+  expect(pair.traffic.length, "the weighted start pool covers every position").toBe(133) // census:positions
   // `_ambig` counts sites: counting members puts every short name at >= 2 and `displayName`
   // prints the full qualified name on every card — the exact inverse of the v1.103.0 rule.
   expect(pair.names).toEqual(legacy.names)
@@ -376,7 +376,7 @@ test("the hand is identical from either half of a site", async ({ page }) => {
   // all — so both halves of a site must see the same neighbourhood. Making it true by
   // construction is worth more than making it true by testing, but it is worth testing too.
   expect(r.differCount, "no hand depends on which orb you are standing on: " + JSON.stringify(r.differ)).toBe(0)
-  expect(r.same, "…over all 264 role-hands").toBe(264) // census:roleHands
+  expect(r.same, "…over every position role-hand").toBe(266) // census:roleHands
 })
 
 // ══════════════════════════════════════════════════════════════════════════════════════════
@@ -434,7 +434,7 @@ test("@curated every technique retains its origin metadata, and submission state
   // 2656 = 2 x 1328 techniques (1331 before the v1.155.0 collapse, 1326 after it, 1328 once
   // v1.156.0 added a transition and a submission). A COVERAGE FLOOR, not a structural claim: the
   // three assertions above are the gate, and this one proves they were applied to every member.
-  expect(r.stageTy.positions, "all technique members retain their physical origin").toBe(2578) // census:techMembers
+  expect(r.stageTy.positions, "all technique members retain their physical origin").toBe(2596) // census:techMembers
   expect(r.sideBad, "…on the side that performs it, defenders flipped").toBe(0)
 
   // AND THE POINT OF IT: the technique you tapped is in the hand you are dealt. The adj-walk
@@ -443,7 +443,7 @@ test("@curated every technique retains its origin metadata, and submission state
   // (`from_position_role_mismatch`), not code; the assertion is a floor so a content fix cannot
   // break the gate, but it is far above what a regression would leave.
   expect(r.notInHand, "at most the known content misses: " + JSON.stringify(r.bad)).toBeLessThanOrEqual(5)
-  expect(r.inHand + r.projected, "every technique is dealt or explicitly projected from a retired control alias").toBe(1289) // census:techSites
+  expect(r.inHand + r.projected, "every technique is dealt or explicitly projected from a retired control alias").toBe(1298) // census:techSites
 })
 
 // ══════════════════════════════════════════════════════════════════════════════════════════
@@ -490,5 +490,5 @@ test("both perspective pages of a technique resolve, and the Defender page plays
   // Derive it, never guess it. History worth keeping: v1.155.2 followed the collapse through this
   // file and THIS literal was the one it missed, unseen because a push to dev runs no e2e — which
   // is exactly how all six counts in this file went red again on the v1.158.1 dev deploy.
-  expect(r.att.n, "over every technique page in the corpus").toBe(1288) // census:techPages
+  expect(r.att.n, "over every technique page in the corpus").toBe(1297) // census:techPages
 })

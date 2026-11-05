@@ -471,7 +471,24 @@
         "description": "Rehearse a slow shoulder roll without squeeze, identifying when the connection remains intact and when it breaks; practice a clear tap and immediate release."
       }
     ],
-    "clips": []
+    "clips": [],
+    "escape_clips": [
+      {
+        "escape": "Block the threading arm",
+        "clips": [
+          {
+            "id": "gl-SJlfjSDU",
+            "title": "Counter a Darce Choke from Half Guard with a Sweep",
+            "channel": "Chewjitsu",
+            "duration": 247,
+            "vertical": false,
+            "start": 63,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   },
   "variations_and_setups": [
     {

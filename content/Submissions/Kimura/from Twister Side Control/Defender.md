@@ -152,6 +152,27 @@ description: "Defend against the Kimura from Twister Side Control. Recognition c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Twister Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "USA Camp 2023: Early layers of the kimura defense with Priit Mihkelson",
+      "description": "Kimura from Twister Side Control (Defender) film study: USA Camp 2023: Early layers of the kimura defense with Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bf0uZt2gjCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bf0uZt2gjCk?start=229",
+      "url": "https://www.youtube.com/watch?v=bf0uZt2gjCk",
+      "duration": "PT2589S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the Kimura from Twister Side Control requires early recognition that t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Twister Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bf0uZt2gjCk&start=229)
+
+<p class="clip-credit"><strong>USA Camp 2023: Early layers of the kimura defense with Priit Mihkelson</strong> · 43:09 · <a href="https://www.youtube.com/watch?v=bf0uZt2gjCk&t=229s" rel="noopener">Watch on YouTube from 3:49</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

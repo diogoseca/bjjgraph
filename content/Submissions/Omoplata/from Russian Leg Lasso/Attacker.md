@@ -188,6 +188,26 @@ description: "Learn to attack the omoplata from Russian Leg Lasso. Expert guide 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Week 5b: Deep Lasso to Omoplata Variation",
+      "description": "Omoplata from Russian Leg Lasso (Attacker) film study: Week 5b: Deep Lasso to Omoplata Variation.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O_dTDVti0sk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O_dTDVti0sk",
+      "url": "https://www.youtube.com/watch?v=O_dTDVti0sk",
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata from Lasso Guard - Gi ( #2 )",
+      "description": "Omoplata from Russian Leg Lasso (Attacker) film study: Omoplata from Lasso Guard - Gi ( #2 ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qL3-H-TUUeQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qL3-H-TUUeQ",
+      "url": "https://www.youtube.com/watch?v=qL3-H-TUUeQ",
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Nogi Lasso Omaplata",
       "description": "Omoplata from Russian Leg Lasso (Attacker) film study: Nogi Lasso Omaplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FCdFl9aAiUg/hqdefault.jpg",
@@ -197,7 +217,7 @@ description: "Learn to attack the omoplata from Russian Leg Lasso. Expert guide 
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 4,
       "name": "Lasso to Omoplata",
       "description": "Omoplata from Russian Leg Lasso (Attacker) film study: Lasso to Omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X38VbqKI8dY/hqdefault.jpg",
@@ -229,6 +249,22 @@ Attacking the omoplata from Russian Leg Lasso leverages the existing lasso confi
 
 <p class="section-subtitle">Watch Omoplata from Russian Leg Lasso (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O_dTDVti0sk)
+
+<p class="clip-credit"><strong>Week 5b: Deep Lasso to Omoplata Variation</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=O_dTDVti0sk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qL3-H-TUUeQ)
+
+<p class="clip-credit"><strong>Omoplata from Lasso Guard - Gi ( #2 )</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=qL3-H-TUUeQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

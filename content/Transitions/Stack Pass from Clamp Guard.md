@@ -36,6 +36,27 @@ description: "Master the Stack Pass from Clamp Guard in BJJ. Learn to neutralize
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Clamp Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Choke Clamp Set-Up with Stack and Posture Counters | Jiu-Jitsu\u2026",
+      "description": "Stack Pass from Clamp Guard film study: Triangle Choke Clamp Set-Up with Stack and Posture Counters | Jiu-Jitsu\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2nS-opdwnWk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2nS-opdwnWk?start=157",
+      "url": "https://www.youtube.com/watch?v=2nS-opdwnWk",
+      "duration": "PT315S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ From a systematic perspective, the stack pass offers a direct path from one of t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Clamp Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2nS-opdwnWk&start=157)
+
+<p class="clip-credit"><strong>Triangle Choke Clamp Set-Up with Stack and Posture Counters | Jiu-Jitsu…</strong> · 5:15 · <a href="https://www.youtube.com/watch?v=2nS-opdwnWk&t=157s" rel="noopener">Watch on YouTube from 2:37</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

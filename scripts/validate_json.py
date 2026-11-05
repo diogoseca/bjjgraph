@@ -446,6 +446,71 @@ def iter_clips_arrays(data):
         block = data.get(role)
         if isinstance(block, dict) and isinstance(block.get("clips"), list):
             yield f"{role}.clips", block["clips"]
+    block = data.get("defender")
+    rows = block.get("escape_clips") if isinstance(block, dict) else None
+    for row in rows if isinstance(rows, list) else []:
+        if isinstance(row, dict) and isinstance(row.get("clips"), list):
+            yield f"defender.escape_clips[{row.get('escape')!r}].clips", row["clips"]
+
+
+def validate_escape_clip_rows(data):
+    """Every `defender.escape_clips` row must name a card the game really deals.
+
+    The join is the printed card label, so a reworded `action` moves it. An orphan fails here
+    and names itself, because the alternative is a clip that silently stops showing.
+    """
+    block = data.get("defender") if isinstance(data, dict) else None
+    rows = block.get("escape_clips") if isinstance(block, dict) else None
+    if not rows:
+        return []
+    try:
+        import _clips
+    except ImportError:
+        from scripts import _clips
+    try:
+        _, orphans = _clips.escape_clip_join(data)
+    except ValueError as exc:
+        return [f"defender.escape_clips: the record compiles no cards: {exc}"]
+    errors = [f"defender.escape_clips: {row.get('escape')!r} is not a card of this submission; "
+              f"the cards are {_clips.escape_labels(data)}" for row in orphans]
+    names = [row.get("escape") for row in rows if isinstance(row, dict)]
+    errors += [f"defender.escape_clips: {name!r} has two rows"
+               for name in sorted({n for n in names if names.count(n) > 1}, key=str)]
+    return errors
+
+
+def report_escape_clip_join(json_files):
+    """Print the corpus-wide escape clip join and return how many errors it adds.
+
+    Per file, a record with no rows is fine, so only this walk can tell "every row joined" from
+    "there were no rows to join". It runs for the whole Submissions category and for --all.
+    """
+    try:
+        import _clips
+    except ImportError:
+        from scripts import _clips
+    joined = orphaned = holders = 0
+    for path in json_files:
+        try:
+            data = json.loads(Path(path).read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue  # the file's own validation reports this
+        if not _clips.escape_rows(data):
+            continue
+        holders += 1
+        try:
+            good, bad = _clips.escape_clip_join(data)
+        except ValueError:
+            good, bad = [], _clips.escape_rows(data)
+        joined += len(good)
+        orphaned += len(bad)
+    print(f"escape clips: {joined} rows joined to a card, {orphaned} orphaned, in {holders} submissions "
+          f"of {len(json_files)} files (floor {_clips.ESCAPE_CLIP_JOIN_FLOOR})")
+    if joined < _clips.ESCAPE_CLIP_JOIN_FLOOR:
+        print(f"✗ escape clips: {joined} rows joined, under the floor of {_clips.ESCAPE_CLIP_JOIN_FLOOR}: "
+              "a join that finds nothing is a check that never ran")
+        return 1
+    return 0
 
 
 def validate_clips(data, category):
@@ -1415,6 +1480,7 @@ def validate_json_file(json_path, schema, category, strict=False):
 
     # Curated YouTube clips → loop/front/role contract blocking, provenance warnings
     clip_errors, clip_warnings = validate_clips(data, category)
+    clip_errors = clip_errors + validate_escape_clip_rows(data)
     errors.extend(clip_errors)
     categories["blocking"].extend(clip_errors)
     warnings.extend(clip_warnings)
@@ -1592,6 +1658,8 @@ def validate_category(category, strict=False):
             print(f"✓ {relative_path}")
 
     print(f"\n{'='*60}")
+    if category == "Submissions":
+        total_errors += report_escape_clip_join(json_files)
     if total_errors == 0:
         if total_warnings > 0:
             print(f"✓ {category}: All {len(json_files)} files valid ({total_warnings} warnings)")

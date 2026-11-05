@@ -178,6 +178,27 @@ description: "Learn to attack with the guillotine choke from Twister Control. St
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Twister Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Special: guillotine choke from clinch",
+      "description": "Guillotine Choke from Twister Control (Attacker) film study: Special: guillotine choke from clinch.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Ioe4B7HF38/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Ioe4B7HF38",
+      "url": "https://www.youtube.com/watch?v=2Ioe4B7HF38",
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking with the guillotine from Twister Control requires reading the opponent
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Twister Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2Ioe4B7HF38)
+
+<p class="clip-credit"><strong>Special: guillotine choke from clinch</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=2Ioe4B7HF38" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

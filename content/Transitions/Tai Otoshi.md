@@ -36,6 +36,37 @@ description: "Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tai Otoshi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tai-otoshi - Demo",
+      "description": "Tai Otoshi film study: Tai-otoshi - Demo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DUiZ8JZkGx8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DUiZ8JZkGx8",
+      "url": "https://www.youtube.com/watch?v=DUiZ8JZkGx8",
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Judo for Jiu Jitsu - Jimmy Pedro - Tai Otoshi - BJJ Weekly #048",
+      "description": "Tai Otoshi film study: Judo for Jiu Jitsu - Jimmy Pedro - Tai Otoshi - BJJ Weekly #048.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bPPigY8SxRc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bPPigY8SxRc?start=29",
+      "url": "https://www.youtube.com/watch?v=bPPigY8SxRc",
+      "duration": "PT173S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -70,6 +101,32 @@ Originating in Kodokan judo, Tai Otoshi has become one of the most reliable stan
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tai Otoshi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DUiZ8JZkGx8)
+
+<p class="clip-credit"><strong>Tai-otoshi - Demo</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=DUiZ8JZkGx8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bPPigY8SxRc&start=29)
+
+<p class="clip-credit"><strong>Judo for Jiu Jitsu - Jimmy Pedro - Tai Otoshi - BJJ Weekly #048</strong> · 2:53 · <a href="https://www.youtube.com/watch?v=bPPigY8SxRc&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">
