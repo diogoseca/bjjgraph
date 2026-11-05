@@ -404,14 +404,6 @@ Bottom player is encouraged to attempt Matrix back takes while top player focuse
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Jason-Rau-Ankle-Lock-System" data-cta="related-system-card" data-system-slug="systems/jason-rau-ankle-lock-system" data-system-name="Jason Rau Ankle Lock System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jason Rau: Dynamic Ankle Locks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

@@ -327,8 +327,10 @@ async function expectAskGap(page: Page) {
 }
 
 // DASH-R4 (review finding 9a): the line is picked by GEOMETRY, not by the reader's own anchor rule: the first text
-// line at or below the reader's top in the grid's first lane, found by walking a point 30px inside the grid's left
-// edge down from the reader's top. At two widths (1152 loses the index as the pane opens) and two depths.
+// line at or below the reader's top, found by walking a point 30px inside each lane's text column down from the
+// reader's top. At two widths (1152 loses the index as the pane opens) and two depths. v1.249.1: the point follows the
+// tile's own 46ch column, not the grid's edge, and either lane will do. The edge only met text in a narrow tile, and a
+// tile ends at its content (U65 b), so a shorter article could land these depths on a gap with nothing wrong.
 for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const depth of [0.3, 0.6]) {
   test(`U59 c: at ${width}x${height} opening Explore keeps the line at the reader's top (${depth * 100}% down)`, async ({ page }) => {
     const j = await boot(page, width, height)
@@ -338,11 +340,12 @@ for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const de
       const r = (window as any).__neural._reader
       e.scrollTop = Math.round((e.scrollHeight - e.clientHeight) * depth)
       return new Promise<{ top: number | null, grid: number, text: string }>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
-        const top = e.getBoundingClientRect().top, x = r.body.getBoundingClientRect().left + 30
+        const top = e.getBoundingClientRect().top, grid = r.body.getBoundingClientRect()
         let line: Element | null = null
-        for (let y = top + 1; y < top + 400 && !line; y += 3) {
-          const hit = document.elementFromPoint(x, y)?.closest('p, li')
-          if (hit && hit.getBoundingClientRect().top >= top - 0.5) line = hit
+        for (let y = top + 1; y < top + 400 && !line; y += 3) for (const lane of [grid.left + 30, grid.right - 30]) {
+          const column = document.elementFromPoint(lane, y)?.closest('.ng-section-card')?.querySelector('article')?.getBoundingClientRect().left
+          const hit = column == null ? null : document.elementFromPoint(column + 30, y)?.closest('p, li')
+          if (!line && hit && hit.getBoundingClientRect().top >= top - 0.5) line = hit
         }
         line?.setAttribute('data-test-place', '')
         done({ top: line ? line.getBoundingClientRect().top : null, grid: Math.round(r.body.getBoundingClientRect().width), text: (line?.textContent || '').trim().slice(0, 40) })
@@ -494,7 +497,9 @@ test('U59 c: at 1440x900 a Principles page\'s player takes two thirds and the ti
 })
 
 test('U59 c: an odd article at 1440x900 only uses a trio when its sections are short', async ({ page }) => {
-  await boot(page, 1440, 900, '/Transitions/Knee-Slice-Pass/Attacker')
+  // v1.249.1: the Attacker page's Related tile held only the study guides, so that article went even. The Defender
+  // page keeps the odd count, and long sections that a trio must refuse.
+  await boot(page, 1440, 900, '/Transitions/Knee-Slice-Pass/Defender')
   const d = await dashboard(page)
   expect(d.open % 2, 'premise: the article has an odd number of open tiles').toBe(1)
   pairs(d, 3)
@@ -570,9 +575,9 @@ test('U65 b: the space below a short tile remains reader input', async ({ page }
 // DASH-R4 (review finding 5; the owner's rule as DASH-R3 briefed it): below the three-lane width, halves; no thirds.
 for (const [width, height] of [[768, 1024], [844, 390]] as const) {
   test(`U59 c: at ${width}x${height} (no index) the sections pair in halves, never thirds`, async ({ page }) => {
-    // U65 removes Mount's Videos tile, making that article even. Knee Slice keeps the odd-count
-    // premise that distinguishes halves from the retired parity-driven row of thirds.
-    await boot(page, width, height, '/Transitions/Knee-Slice-Pass/Attacker')
+    // U65 removes Mount's Videos tile, making that article even. Knee Slice's Defender page keeps the
+    // odd-count premise that distinguishes halves from the retired parity-driven row of thirds.
+    await boot(page, width, height, '/Transitions/Knee-Slice-Pass/Defender')
     const d = await dashboard(page)
     expect(d.open % 2, 'premise: an odd article can expose the retired third-lane rule').toBe(1)
     expect(d.toc, 'premise: the index does not show at this size').toBeNull()

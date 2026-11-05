@@ -510,98 +510,11 @@ def build_wikilink_resolver():
                 if isinstance(alias, str) and alias.strip():
                     alias_to_canonical.setdefault(slugify(alias), f"{cat_prefix}/{canonical_name}")
 
-    # Reverse system membership: which Systems reference each node. Powers the
-    # "Related Systems" CTA cards on every node page (the funnel's entry point).
-    # Built from each system's related_content[] — the same canonical edge list the
-    # graph uses for membership — so cards and graph highlight stay consistent.
-    reverse_systems = {}  # slugify(node_name) -> [card dict, ...]
-    systems_dir = Path("content/Systems")
-    if systems_dir.exists():
-        for json_file in sorted(systems_dir.glob("*.json")):
-            try:
-                sdata = json.loads(json_file.read_text(encoding="utf-8"))
-            except (json.JSONDecodeError, OSError):
-                continue
-            sys_name = sdata.get("name") or json_file.stem
-            related = sdata.get("related_content") or []
-            member_count = sum(
-                1 for it in related
-                if isinstance(it, dict)
-                and (it.get("content_type") or "") != "System"
-                and (it.get("name") or "").strip()
-            )
-            base_card = {
-                "system_name": sys_name,
-                "display_title": (sdata.get("guide") or {}).get("display_title") or sys_name,
-                "system_url": "/Systems/" + _quartz_url_slug(sys_name),
-                "system_slug": "systems/" + _quartz_url_slug(sys_name).lower(),
-                "system_type": sdata.get("system_type", ""),
-                "difficulty": sdata.get("difficulty_level", ""),
-                "member_count": member_count,
-            }
-            for it in related:
-                if not isinstance(it, dict) or (it.get("content_type") or "") == "System":
-                    continue
-                nm = (it.get("name") or "").strip()
-                if not nm:
-                    continue
-                card = dict(base_card, relationship=it.get("relationship", ""))
-                reverse_systems.setdefault(slugify(nm), []).append(card)
-
-    def related_systems_html(node_name):
-        """Render the 'Related Systems' CTA card section for a node, or '' if none.
-
-        Cards are crawlable internal <a> links to system pages (no affiliate links —
-        those live only on system pages). data-* attributes feed the PostHog funnel.
-        """
-        if not node_name:
-            return ""
-        cards = reverse_systems.get(slugify(node_name))
-        if not cards:
-            return ""
-        # Dedupe by system (a node may be listed twice), keep the richest relationship,
-        # order by how much of the system this node unlocks.
-        by_sys = {}
-        for c in cards:
-            existing = by_sys.get(c["system_slug"])
-            if existing is None or len(c.get("relationship", "")) > len(existing.get("relationship", "")):
-                by_sys[c["system_slug"]] = c
-        ordered = sorted(by_sys.values(), key=lambda c: (-c["member_count"], c["system_name"]))
-
-        parts = [
-            '<section id="related-systems" class="content-section related-systems">',
-            '',
-            '## Related study guides',
-            '',
-            '<div class="related-systems-grid">',
-        ]
-        for c in ordered:
-            name_e = html.escape(c["system_name"])
-            title_e = html.escape(c["display_title"])
-            rel_e = html.escape(c.get("relationship") or "")
-            n = c["member_count"]
-            badge = f"{n} related reference" + ("s" if n != 1 else "")
-            chips = ""
-            if c["difficulty"]:
-                chips += f'<span class="system-card__chip">{html.escape(c["difficulty"])}</span>'
-            if c["system_type"]:
-                chips += f'<span class="system-card__chip">{html.escape(c["system_type"])}</span>'
-            parts.append(
-                f'<a class="system-card" href="{html.escape(c["system_url"])}" '
-                f'data-cta="related-system-card" data-system-slug="{html.escape(c["system_slug"])}" '
-                f'data-system-name="{name_e}" data-member-count="{n}">'
-                '<span class="system-card__shine" aria-hidden="true"></span>'
-                f'<span class="system-card__name">{title_e}</span>'
-                f'<span class="system-card__unlocks-badge">{badge}</span>'
-                + (f'<span class="system-card__blurb">{rel_e}</span>' if rel_e else '')
-                + (f'<span class="system-card__chips">{chips}</span>' if chips else '')
-                + '<span class="system-card__cta">Explore system'
-                '<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span>'
-                '</a>'
-            )
-        parts += ['</div>', '', '</section>']
-        return "\n".join(parts)
-
+    # Owner U89 (2026-11-01): the per-node "Related study guides" cards were cut, and they were removed
+    # from the page rather than hidden, because content a person never sees reads as cloaking. PostHog
+    # gave them 5 clicks from 4 browsers against 14,251 views of those pages in 90 days. A Systems page
+    # still lists its own members from related_content. The eight templates keep the empty line the
+    # cards left, so a page that never had any keeps its exact bytes.
     def resolve(name):
         if not name:
             return name
@@ -648,13 +561,11 @@ def build_wikilink_resolver():
 
         resolve_here.page_exists = page_exists
         resolve_here.family_exists = family_exists
-        resolve_here.related_systems_html = related_systems_html
         resolve_here.for_page = for_page
         return resolve_here
 
     resolve.page_exists = page_exists
     resolve.family_exists = family_exists
-    resolve.related_systems_html = related_systems_html
     resolve.for_page = for_page
     resolve.candidates = candidates
     return resolve
