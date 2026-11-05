@@ -1292,7 +1292,15 @@ class Reader {
       // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px).
       // SIDECX5: a partially clipped block above the top can wrap and move the first visible line;
       // anchor a block starting within the reader instead, retaining the rounded correction.
-      if (keep) this.placeTop = root.scrollTop += Math.round(keep.getBoundingClientRect().top - was);
+      // U59 c: the rounding's remainder goes to the next pass. Each pass re-measures from where the last one left
+      // the line, so dropping it let the error add up over one slide (78.9 -> 73.95 at 1152px). A line starting that
+      // close to the reader's top then fell above it, lost the anchor, wrapped and jumped 31px. `was` is reused because
+      // the bundle shortens locals and this budget has 50B left. The remainder cannot go stale: it is under a pixel.
+      if (keep) {
+        was = keep.getBoundingClientRect().top - was + (this.rest || 0);
+        this.rest = was - (was = Math.round(was));
+        this.placeTop = root.scrollTop += was;
+      }
       this.laying = false;
     }
   }

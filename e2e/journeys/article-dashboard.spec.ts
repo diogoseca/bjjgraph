@@ -358,6 +358,35 @@ for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const de
   })
 }
 
+// A depth lands wherever the page's height puts it, so a merge can move the cases above off the landings that matter:
+// v1.249.0's merge put the 30% line 4.9px under the reader's top and only then showed a real 31px jump. These two
+// landings are set by geometry, on a list item that wraps as the pane opens, so they hold at any page height.
+//   just under: the rounding's remainder must not carry the block out of the anchor (reader-rounding-remainder-dropped)
+//   clipped by: the anchor must be the next block, not the one that grows (reader-clipped-block-anchored)
+for (const [label, offset] of [['just under', 2], ['clipped by', -10]] as const) {
+  test(`U59 c: at 1152x900 opening Explore holds the place around a wrapping block ${label} the reader's top`, async ({ page }) => {
+    const j = await boot(page, 1152, 900)
+    await page.emulateMedia({ reducedMotion: 'no-preference' })
+    const before = await page.locator(READY).evaluate((e, offset) => {
+      const block = [...e.querySelectorAll('li')].find(li => li.textContent!.trim().startsWith('Understanding of base maintenance'))
+      if (!block?.nextElementSibling) throw Error('Mount/Top no longer carries the wrapping prerequisite this journey lands on')
+      e.scrollTop += block.getBoundingClientRect().top - e.getBoundingClientRect().top - offset
+      return new Promise<{ top: number, height: number, landed: number }>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
+        const line = offset < 0 ? block.nextElementSibling! : block
+        line.setAttribute('data-test-place', ''); block.setAttribute('data-test-wraps', '')
+        done({ top: line.getBoundingClientRect().top, height: block.getBoundingClientRect().height, landed: block.getBoundingClientRect().top - e.getBoundingClientRect().top })
+      })))
+    }, offset)
+    expect(Math.abs(before.landed - offset), 'premise: the block landed where this journey put it').toBeLessThanOrEqual(1)
+    await openExplore(page, j)
+    const after = await page.locator(READY).evaluate(e => ({
+      top: e.querySelector('[data-test-place]')!.getBoundingClientRect().top,
+      height: e.querySelector('[data-test-wraps]')!.getBoundingClientRect().height }))
+    expect(after.height, 'premise: the block wraps as the pane opens').toBeGreaterThan(before.height)
+    expect(Math.abs(after.top - before.top), `the line keeps its place (${before.top} -> ${after.top})`).toBeLessThanOrEqual(8)
+  })
+}
+
 // DASH-R4 (review finding 1): at the arrival the stage (node band, Moves, the question) owns the reader's top. Opening
 // Explore at 1152 flips the film from beside the question to above it and shortens the stage; on R3 the place anchor
 // then scrolled the reader 53px and pulled the Moves row over the current node. VIDEO1 intentionally moves the

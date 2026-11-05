@@ -13827,3 +13827,22 @@ already waits (`reading-mode`, `reading-contract`, `land-layers`).
 after merge. Nothing here closes that. Hardening `clickByMouse` to re-measure at press time would
 close the other class for every spec, but it costs frames on every press across a 30-minute gate.
 Neither was done here.
+
+## v1.249.0 — The reader's place: the rounding's remainder (combined #332 validation)
+
+Merging dev v1.247.1 moved Mount/Top's page height, so the 1152px 30% case of `article-dashboard` landed its line
+4.9px under the reader's top instead of 38px, and went red deterministically, 4 of 4 identical (78.90625 -> 47.953125,
+31px against the unchanged 8px bound). The spec was right. A frame trace of the anchor showed the mechanism: each pass
+rounds its correction and re-measures from where the last pass left the line, so the remainders added up across one
+pane slide (78.9 -> 73.95). The line then fell above `>= top`, lost the anchor to the block below it, wrapped from 51px
+to 77px and jumped. Carrying the remainder to the next pass holds it within half a pixel: all four depth cases now move
+0.05-0.33px, where 1152px 60% had been moving 6.3px inside its bound. `reader.js` grew 37 B (deferred, 50 B of room).
+
+The depth cases reach a landing only by the page's height, which is why a merge could expose this and why the
+clipped-block control stopped having a clipped block to act on. Two journeys now set the landing by geometry, on a list
+item that wraps as the pane opens, and both reader controls aim at them. Known limit, not covered: a line starting
+within half a pixel of the reader's top can still lose the anchor.
+
+On this merge `validate:build-shape` first failed with 103 extra static files. All were stale content-addressed MDP
+generations in this worktree's ignored outputs (`regenerate:mdp` skips existing files, D-285): the 65 files reachable
+from the manifest are exactly the census's count, and removing the rest passed the gate with no baseline change.
