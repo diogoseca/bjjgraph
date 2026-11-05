@@ -70,7 +70,7 @@ The mechanics of standing up from ashi garami require careful management of the 
 This transition occupies a niche but important role in the leg lock practitioner's arsenal. Advanced players recognize that the ability to freely enter and exit leg entanglement positions creates a strategic advantage—opponents cannot rely on stalling or defensive positioning to neutralize the leg lock threat if the attacker can simply disengage and re-engage from a different angle. The threat of standing up also creates tactical pressure, as opponents who focus entirely on defense may find themselves in worse positions when the bottom player changes levels and repositions.
 
 **From Position**: [[Positions/Ashi Garami]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 70%
 
 </section>
 
@@ -84,7 +84,7 @@ This transition occupies a niche but important role in the leg lock practitioner
 |--------|----------|-------------|
 | Success | [[Positions/Standing Position]] | 55% |
 | Failure | [[Positions/Ashi Garami]] | 30% |
-| Counter | [[Positions/Open Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -245,7 +245,7 @@ Standing Up from Ashi Garami connects the leg entanglement system to the standin
 
 - [[Positions/Standing Position]] - Primary target position upon successful disengagement from leg entanglement
 
-- [[Positions/Open Guard]] - Counter outcome position when opponent retains guard hooks during standing attempt
+- [[Positions/Open Guard]] - Alternative success landing when opponent retains guard hooks during standing attempt, leaving you on top of their open guard
 
 - [[Transitions/Ashi Garami Escape]] - Related escape transition used by the top player to extract from leg entanglements
 

@@ -12,6 +12,12 @@ import { journey } from "../dsl"
  *
  * Every corpus claim walks all 272 role-hands through `optionsFor` — the same seam `enterLand`
  * deals from — rather than sampling one state and generalising.
+ *
+ * A TIE ON SCREEN IS A TIE IN THE RANKED SUM (v1.248.2, K2 batch 1). At crucifix/top, Crucifix
+ * Maintenance is 6 - 0.52 and Rear Naked Choke from Crucifix is 8 - 2.52: two different wire rows that
+ * both make 5.48, so both print 10, both rank 9.7746, and `_cmpDealt`'s tiebreak orders them. That is
+ * a real coincidence, 1 of 46 exact ties, and no mismatch for a player: the equal numbers are equal.
+ * The exact-tie rule therefore compares e0 + slope term at 1e-9, not each part alone.
  */
 
 /** All 272 role-hands, each with an INDEPENDENTLY re-derived pool.
@@ -206,6 +212,9 @@ test("@curated the printed number is the number the hand was ranked by", async (
     // two products differ in the last bit (-1.3 against -1.2999999999999998). The constant this test
     // exists to catch still fails here: measured, a flat moveEdge (every card 1) goes red on the e0
     // line at k-guard/top.
+    // THE RANKED SUM IS WHAT REACHES THE SCREEN, SO THE SUM IS WHAT IS COMPARED (v1.248.2, K2 batch 1).
+    // Comparing e0 and the term separately went red on a correct build, the way c1 alone did at
+    // v1.216.0: see the file header. The flat moveEdge mutant stays red here, at k-guard/top.
     let slopeOnly = 0
     for (const k in byRaw) {
       const g = byRaw[k]
@@ -213,10 +222,14 @@ test("@curated the printed number is the number the hand was ranked by", async (
       exactTies++
       const term = (c: any) => (c.dp == null ? null : c.c1 * c.dp + 0)
       for (const c of g) {
-        expect(c.e0, `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT wire rows`).toBe(g[0].e0)
         const tc = term(c), t0 = term(g[0])
-        if (tc == null || t0 == null) expect(tc, `${h.st}: ${c.t} and ${g[0].t}: one has a slope term and one does not`).toBe(t0)
-        else expect(Math.abs(tc - t0), `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT slope terms (${tc} vs ${t0})`).toBeLessThan(1e-9)
+        if (tc == null || t0 == null) {
+          expect(tc, `${h.st}: ${c.t} and ${g[0].t}: one has a slope term and one does not`).toBe(t0)
+          expect(c.e0, `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT wire rows`).toBe(g[0].e0)
+        } else {
+          const sum = c.e0 + tc, sum0 = g[0].e0 + t0
+          expect(Math.abs(sum - sum0), `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT wire rows (${sum} vs ${sum0})`).toBeLessThan(1e-9)
+        }
         if (c.c1 !== g[0].c1) slopeOnly++
       }
     }

@@ -137,7 +137,7 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 |--------|----------|-------------|
 | Success | [[Positions/Omoplata Control]] | 60% |
 | Failure | [[Positions/Closed Guard]] | 30% |
-| Counter | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Open Guard]] | 10% |
 
 
 </section>

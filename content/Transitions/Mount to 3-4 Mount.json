@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -173,7 +173,7 @@
         "counter": "Opponent hip escapes toward the extraction side during leg movement",
         "effectiveness": "High",
         "your_response": "Immediately abandon the extraction and re-settle standard mount. Drive both knees back inside and flatten your hips to kill their hip movement. Retry the transition only after re-establishing settled pressure and neutralizing their escape angle.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Opponent bridges explosively the moment they feel weight shift",
@@ -185,7 +185,7 @@
         "counter": "Opponent inserts knee shield or elbow frame during the transition window",
         "effectiveness": "High",
         "your_response": "If the frame is shallow, drive your mounted knee over it using hip pressure and complete the transition. If the frame creates significant space, abandon the 3-4 attempt, fight the frame with crossface and underhook pressure, and re-establish standard mount before reattempting.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Opponent grabs the extracting leg to prevent posting",
@@ -416,7 +416,7 @@
       {
         "action": "Frame and hip escape toward the extracting leg side during the transition window",
         "when_to_use": "The moment you feel the opponent's leg begin to slide outward—this is the highest-percentage defensive window",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Insert knee shield on the extraction side and recover to half guard before the 3-4 Mount is consolidated",
         "risk": "If timed too late, the opponent's posted foot is already established and your frame is met with consolidated asymmetric pressure"
       },
@@ -437,14 +437,14 @@
       {
         "action": "Turn into the extraction side and fight for underhook",
         "when_to_use": "When the leg extraction creates enough space for you to turn your shoulders and fight for inside position on the lighter side",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Establish underhook position that prevents mount reconsolidation and creates pathway to half guard or turtle",
         "risk": "Turning exposes your back if the opponent is already in 3-4 position and can immediately transition to technical mount"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Half Guard/Top",
         "how": "Insert knee shield on the extraction side during the transition window when the opponent's base is temporarily reduced. Use the frame and hip escape combination timed to the leg extraction movement. Once the knee is inside, consolidate half guard grips immediately to prevent the opponent from re-passing."
       },
       {

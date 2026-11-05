@@ -217,7 +217,7 @@ As the defender (the bottom guard player maintaining the triangle), your objecti
 ### 4. Control opponent's free arm to prevent posting and base establishment
 
 - **When to use**: When opponent reaches to post their free hand on the mat or your hip during the early transition phase
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Without a posting base, opponent cannot recover posture effectively and remains broken down in the triangle
 - **Risk**: Committing a hand to control their arm may reduce your own pulling power on their head
 

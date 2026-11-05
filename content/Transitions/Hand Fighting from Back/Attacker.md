@@ -298,7 +298,7 @@ Advanced hand fighting integrates seamlessly with hip escape timing to create co
 | Success | [[Positions/Turtle]] | 40% |
 | Success | [[Positions/Half Guard]] | 25% |
 | Failure | [[Positions/Back Control]] | 25% |
-| Counter | [[Positions/Mount]] | 10% |
+| Failure | [[Positions/Mount]] | 10% |
 
 
 </section>

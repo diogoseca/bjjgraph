@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Ashi Garami/Bottom",
+      "to": "Saddle/Bottom",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -173,10 +173,10 @@
         "targets_outcome": "Ashi Garami/Top"
       },
       {
-        "counter": "Opponent recomposes entanglement by re-triangling legs after you clear the bottom leg",
+        "counter": "Opponent uses your hip angle to backstep and advance to saddle after you clear the bottom leg",
         "effectiveness": "Medium",
-        "your_response": "Maintain constant downward pressure on cleared legs and accelerate the top leg clearance. Use your free leg to pin both of opponent's legs simultaneously if possible. If they fully recompose, restart the clearing sequence from grip fighting.",
-        "targets_outcome": "Ashi Garami/Bottom"
+        "your_response": "Maintain constant downward pressure on cleared legs and accelerate the top leg clearance. Use your free leg to pin both of opponent's legs simultaneously if possible. If they reach saddle, you are in a worse position, so restart the clearing sequence from grip fighting.",
+        "targets_outcome": "Saddle/Bottom"
       }
     ],
     "common_errors": [
@@ -418,9 +418,9 @@
     ],
     "defensive_options": [
       {
-        "action": "Advance to inside ashi or saddle by backstep when opponent creates hip angle for escape",
+        "action": "Advance to saddle by backstep when opponent creates hip angle for escape",
         "when_to_use": "When opponent rotates hips away and begins clearing sequence, creating space that allows you to backstep your outside leg to achieve superior inside position",
-        "targets_outcome": "Ashi Garami/Bottom",
+        "targets_outcome": "Saddle/Bottom",
         "if_successful": "You advance to a more dominant leg entanglement position with better heel exposure and finishing angles, forcing opponent to restart escape from worse position",
         "risk": "If the backstep is incomplete, opponent may use the transitional moment to accelerate their leg extraction through the gap you created"
       },
@@ -452,8 +452,8 @@
         "how": "Maintain tight entanglement structure by keeping legs triangled, following opponent's hip rotation with your own adjustments, and immediately recomposing any cleared legs before opponent can complete the full extraction sequence. Time submission attacks for moments of heel exposure during escape attempts."
       },
       {
-        "outcome": "Ashi Garami/Bottom",
-        "how": "Use opponent's escape movements as advancement opportunities by backstep to saddle or inside ashi when they create hip angle. Their rotation away from you opens pathways for your outside leg to step behind their trapped leg, achieving superior inside position with greater heel exposure and finishing angles."
+        "outcome": "Saddle/Bottom",
+        "how": "Use opponent's escape movements as advancement opportunities by backstep to saddle when they create hip angle. Their rotation away from you opens pathways for your outside leg to step behind their trapped leg, achieving superior inside position with greater heel exposure and finishing angles."
       }
     ],
     "common_errors": [

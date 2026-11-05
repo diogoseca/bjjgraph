@@ -123,7 +123,7 @@ Success requires precise hip positioning, weight distribution, and grip sequenci
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 68% |
 | Failure | [[Positions/Turtle]] | 20% |
-| Counter | [[Positions/Turtle]] | 12% |
+| Counter | [[Positions/Open Guard]] | 12% |
 
 
 </section>

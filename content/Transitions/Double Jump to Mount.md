@@ -247,7 +247,7 @@ The Double Jump to Mount transition occupies a strategic role within the turtle 
 
 - [[Positions/Mount]] - Target position - full mount established through successful step-over from hook control
 
-- [[Positions/Half Guard]] - Counter outcome position - reached when defender successfully reverses during the transition attempt
+- [[Positions/Half Guard]] - Counter outcome position - reached when defender recovers half guard during the transition attempt, leaving you on top
 
 - [[Positions/Back Control]] - Alternative advancement - primary target from Double Jump when mount pathway is defended or suboptimal
 

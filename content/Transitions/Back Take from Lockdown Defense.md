@@ -84,7 +84,7 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 58% |
 | Failure | [[Positions/Half Guard/Electric Chair]] | 27% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -200,7 +200,7 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 ### Defensive Options
 
 
-- **Release lockdown and immediately recover closed guard or half guard by retracting legs and inserting knee shield** - When: At the earliest recognition of backstep initiation, before the opponent's leg clears the lockdown configuration
+- **Release lockdown and immediately recover half guard by retracting legs and inserting knee shield** - When: At the earliest recognition of backstep initiation, before the opponent's leg clears the lockdown configuration
 
 - **Turn toward the opponent during their backstep by driving your underhook side shoulder into them and rotating your hips to face them** - When: When the backstep is already in progress but the opponent has not yet established their first hook behind you
 

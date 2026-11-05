@@ -32,8 +32,8 @@ description: "How to defend against Deep Half Entry in BJJ. Recognition cues, de
     },
     {
       "@type": "HowToStep",
-      "name": "Limp leg extraction by pulling your near leg backward while widening base with free leg",
-      "text": "When opponent has begun rotation and has a shallow underhook but has not yet fully committed to the deep half position If successful: Your near leg is freed from the underhook control, allowing you to immediately advance to side control or reset to a stronger half guard passing position",
+      "name": "Drop your weight and drive chest-to-chest to flatten opponent before the entry completes, with your leg still trapped",
+      "text": "When opponent has begun rotation and has a shallow underhook but has not yet fully committed to the deep half position If successful: Opponent is flattened on their back in half guard with their frames collapsed, and you stay on top with your leg still trapped",
       "position": 3
     },
     {
@@ -262,12 +262,12 @@ Defending the Deep Half Entry requires the top player to recognize the attempt e
 - **If successful**: Opponent cannot complete the rotation because their head is being driven away from your hips, forcing them back to flat half guard bottom
 - **Risk**: Over-committing weight forward for the crossface can be used by opponent to accelerate their entry if they already have the underhook secured
 
-### 3. Limp leg extraction by pulling your near leg backward while widening base with free leg
+### 3. Drop your weight and drive chest-to-chest to flatten opponent before the entry completes, with your leg still trapped
 
 - **When to use**: When opponent has begun rotation and has a shallow underhook but has not yet fully committed to the deep half position
-- **Targets**: [[Positions/Half Guard]]
-- **If successful**: Your near leg is freed from the underhook control, allowing you to immediately advance to side control or reset to a stronger half guard passing position
-- **Risk**: If underhook is already deep and tight, the limp leg attempt fails and you lose your base momentarily, potentially accelerating the entry
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
+- **If successful**: Opponent is flattened on their back in half guard with their frames collapsed, and you stay on top with your leg still trapped
+- **Risk**: If underhook is already deep and tight, the flattening attempt fails and you lose your base momentarily, potentially accelerating the entry
 
 ### 4. Whizzer overhook on opponent's underhooking arm to control their shoulder and prevent rotation
 
@@ -290,9 +290,9 @@ Defending the Deep Half Entry requires the top player to recognize the attempt e
 
 Shut down the entry early by establishing crossface and shoulder pressure before the underhook is secured, or sprawl your trapped leg back to deny the anchor point. The goal is to return to standard half guard top where you maintain passing initiative.
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
-Execute a successful limp leg extraction when opponent has only a shallow underhook, pulling your near leg completely free while maintaining base with your free leg. This can lead directly to a passing opportunity as your opponent is momentarily off-balance from the failed entry attempt.
+When opponent has only a shallow underhook, drop your weight and drive chest-to-chest before the entry completes. Your leg stays trapped, but their frames collapse and they end up flat on their back in half guard underneath you.
 
 
 

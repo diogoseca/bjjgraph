@@ -98,7 +98,7 @@ Hand Fight to Turtle from Back is a fundamental defensive transition used to esc
 
 The technique operates on the principle that turtle, while still requiring active defense, represents a significant positional improvement over back control bottom. In turtle the practitioner regains the ability to see the opponent's movements, can actively defend against hook re-insertion, and has access to guard recovery and standup options that are completely unavailable from back control. The hand fighting component is critical because attempting to physically escape without first addressing the opponent's grips typically results in tighter control or direct submission through the rear naked choke.
 
-This transition integrates tightly with the broader back escape system, serving as a middle-ground option between the back door escape aimed at guard recovery and the shoulder walk escape targeting standing. The hand fight to turtle approach is particularly effective when the opponent has strong leg control through deep hooks or body triangle, making full guard recovery impractical, but their upper body control can be systematically stripped through persistent grip fighting. The counter risk involves the opponent following the rotation to take mount, making it critical to time the turn correctly and establish proper turtle defense immediately upon arriving.
+This transition integrates tightly with the broader back escape system, serving as a middle-ground option between the back door escape aimed at guard recovery and the shoulder walk escape targeting standing. The hand fight to turtle approach is particularly effective when the opponent has strong leg control through deep hooks or body triangle, making full guard recovery impractical, but their upper body control can be systematically stripped through persistent grip fighting. A failed escape can also end with the opponent following the rotation to take mount, making it critical to time the turn correctly and establish proper turtle defense immediately upon arriving.
 
 **From Position**: [[Positions/Back Control]] (Bottom)
 **Success Rate**: 55%
@@ -141,7 +141,7 @@ This transition integrates tightly with the broader back escape system, serving 
 |--------|----------|-------------|
 | Success | [[Positions/Turtle]] | 55% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Failure | [[Positions/Mount]] | 15% |
 
 
 </section>

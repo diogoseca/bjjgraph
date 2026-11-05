@@ -20,8 +20,8 @@ description: "How to defend against De La Riva to X-Guard Transition in BJJ. Rec
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Backstep and strip the DLR hook before transition initiates",
-      "text": "When you recognize the early grip transition from collar/sleeve to underhook, before the bottom player has begun rotating underneath If successful: You clear the DLR hook entirely and can begin guard passing sequences from a neutral standing position against a guard player who has lost their primary control structure",
+      "name": "Strip the DLR hook and drive cross-face and shoulder pressure down onto the guard player before the transition initiates",
+      "text": "When you recognize the early grip transition from collar/sleeve to underhook, before the bottom player has begun rotating underneath If successful: You clear the DLR hook, flatten the guard player and settle into half guard top, leaving them in half guard bottom after losing their primary control structure",
       "position": 1
     },
     {
@@ -203,12 +203,12 @@ The fundamental defensive strategy centers on denying the bottom player the cond
 
 <p class="section-subtitle">What can you do to defend against De La Riva to X-Guard Transition?</p>
 
-### 1. Backstep and strip the DLR hook before transition initiates
+### 1. Strip the DLR hook and drive cross-face and shoulder pressure down onto the guard player before the transition initiates
 
 - **When to use**: When you recognize the early grip transition from collar/sleeve to underhook, before the bottom player has begun rotating underneath
-- **Targets**: [[Positions/De La Riva Guard]]
-- **If successful**: You clear the DLR hook entirely and can begin guard passing sequences from a neutral standing position against a guard player who has lost their primary control structure
-- **Risk**: If timed too late, the backstep can expose your back to the guard player who is already partially inverted underneath you
+- **Targets**: [[Positions/Half Guard]]
+- **If successful**: You clear the DLR hook, flatten the guard player and settle into half guard top, leaving them in half guard bottom after losing their primary control structure
+- **Risk**: If timed too late, stripping the hook can expose your back to the guard player who is already partially inverted underneath you
 
 ### 2. Drop hips low and drive forward pressure to flatten the guard player
 
@@ -227,7 +227,7 @@ The fundamental defensive strategy centers on denying the bottom player the cond
 ### 4. Cross-face and drive shoulder pressure while extracting the hooked leg backward
 
 - **When to use**: When the bottom player has partially configured X-Guard hooks but has not yet achieved full elevation with proper hip positioning underneath you
-- **Targets**: [[Positions/De La Riva Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You smash through the incomplete X-Guard structure, flatten their guard, and can advance to passing position or half guard top
 - **Risk**: If their hooks are deeper than you estimated, the forward pressure feeds directly into their elevation mechanics
 
@@ -241,9 +241,9 @@ The fundamental defensive strategy centers on denying the bottom player the cond
 
 <p class="section-subtitle">What is the best outcome when defending De La Riva to X-Guard Transition?</p>
 
-### → [[Positions/De La Riva Guard]]
+### → [[Positions/Half Guard]]
 
-Execute a well-timed backstep to completely clear the DLR hook during the transition window when the bottom player has released tension to begin reconfiguring. Follow immediately with a guard pass attempt before they can re-establish DLR control. The backstep must be decisive and combined with ankle grip strip to prevent re-hooking.
+Strip the DLR hook during the transition window when the bottom player has released tension to begin reconfiguring, then drive cross-face and shoulder pressure to flatten them before they can re-establish DLR control. Settle into half guard top, leaving them in half guard bottom. The move must be decisive and combined with an ankle grip strip to prevent re-hooking.
 
 ### → [[Positions/De La Riva Guard]]
 

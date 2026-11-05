@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -162,7 +162,7 @@
         "counter": "Opponent drives forward aggressively and stacks your hips to neutralize angle",
         "effectiveness": "Medium",
         "your_response": "Use their forward momentum to reguard with overhook control or switch to Pendulum Sweep taking advantage of their committed weight distribution",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Opponent circles away from sweep direction to realign their base",
@@ -427,7 +427,7 @@
       {
         "action": "Drive forward aggressively and stack the opponent's hips while widening your knees to neutralize their angle and reverse the pressure dynamic",
         "when_to_use": "When you recognize the hip angle being created but before the explosive phase - your forward pressure eliminates the space they need for the sweep",
-        "targets_outcome": "Closed Guard/Top",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "You flatten the opponent's angle, compress their guard, and may create guard opening opportunities from the stacking pressure",
         "risk": "If timed poorly and the opponent has already loaded the sweep, your forward drive adds momentum to their sweep and accelerates the rollover"
       }
@@ -438,7 +438,7 @@
         "how": "Strip the opponent's collar grip early using two-on-one grip breaks, recover strong upright posture with head over hips, and widen your base to prevent the angle creation. Denying posture and grips forces the bottom player to abandon the sweep attempt entirely."
       },
       {
-        "outcome": "Closed Guard/Top",
+        "outcome": "Side Control/Bottom",
         "how": "Drive forward aggressively when you feel the hip angle being created, stacking the opponent's hips and flattening their angle. Use the forward pressure to begin guard opening sequences while the opponent is compressed and unable to maintain their attacking position."
       }
     ],

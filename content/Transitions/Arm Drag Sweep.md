@@ -124,7 +124,7 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 | Success | [[Positions/Back Control]] | 45% |
 | Success | [[Positions/Side Control]] | 20% |
 | Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -244,7 +244,7 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 
 - **Circle your hips toward the direction of the drag while posting your free hand on the mat and driving your shoulder into the opponent's chest to flatten them** - When: Mid-sequence when the arm has already been partially dragged but the sweep has not yet been completed and your base is still partially intact
 
-- **Stand up immediately by driving both feet to the mat, straightening your legs, and using your height advantage to strip the opponent's grips through posture and distance** - When: When the arm drag is partially set but the sweep has not committed, and you have enough base to safely stand without being pulled off balance
+- **Stand up immediately by driving both feet to the mat, straightening your legs, using your height advantage to strip the opponent's grips, and completing the guard break** - When: When the arm drag is partially set but the sweep has not committed, and you have enough base to safely stand without being pulled off balance
 
 
 </section>

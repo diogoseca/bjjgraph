@@ -82,7 +82,7 @@ However, the transition carries inherent risk during the moment between kneeling
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Standing Position]] | 55% |
+| Success | [[Positions/Open Guard]] | 55% |
 | Failure | [[Positions/Combat Base]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -243,7 +243,7 @@ Standing Up from Combat Base occupies a critical junction in the guard passing d
 
 - [[Positions/Combat Base]] - Starting position from which the stand-up is initiated
 
-- [[Positions/Standing Position]] - Target position achieved upon successful completion of the stand-up
+- [[Positions/Open Guard]] - Target position achieved upon successful completion of the stand-up
 
 - [[Positions/Half Guard]] - Counter outcome position if opponent catches a leg during the transition
 

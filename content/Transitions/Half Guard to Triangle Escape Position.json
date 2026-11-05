@@ -23,7 +23,7 @@
       "result": "success"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Triangle Control/Top",
       "probability": {
         "gi": 25,
         "nogi": 25
@@ -31,7 +31,7 @@
       "result": "failure"
     },
     {
-      "to": "Triangle Control/Bottom",
+      "to": "Triangle Control/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -43,7 +43,7 @@
     "gi": 60,
     "nogi": 60
   },
-  "overview": "Transition to Triangle Escape Position addresses one of the most dangerous moments for a half guard top player: getting caught in a triangle choke during a passing attempt. When the top player leads with their head during knee slice or pressure passes, the bottom player can capture the head and one arm in a triangle configuration. This transition covers the critical defensive sequence of recognizing the triangle threat and immediately establishing a structured escape position rather than panicking or making the situation worse through explosive, uncontrolled reactions.\n\nThe scenario typically unfolds when the top player overcommits to a pass, loses track of one arm's position relative to the bottom player's legs, or fails to maintain adequate posture during passing sequences. The bottom player exploits this by shooting their hips up, closing a triangle lock around the exposed arm and neck. The top player must immediately shift from an offensive passing mindset to a defensive survival framework, establishing posture, protecting the trapped arm, and preventing angle optimization before systematically working to escape.\n\nSuccess in this transition depends on early recognition and immediate defensive structure establishment. The faster the top player identifies the triangle threat and transitions to a proper escape position, the higher their probability of successfully escaping. Delayed reactions allow the bottom player to lock the triangle, optimize their angle, and begin finishing sequences that become exponentially harder to defend against with each passing second. This transition is fundamentally about converting a crisis moment into a structured defensive problem that can be solved through systematic technique.",
+  "overview": "Transition to Triangle Escape Position addresses one of the most dangerous moments for a half guard top player: getting caught in a triangle choke during a passing attempt. When the top player leads with their head during knee slice or pressure passes, the bottom player can capture the head and one arm in a triangle configuration. The player on their back has the triangle locked, and you, on top, are the one trapped in it. This transition covers the critical defensive sequence of recognizing the triangle threat and immediately establishing a structured escape position rather than panicking or making the situation worse through explosive, uncontrolled reactions.\n\nThe scenario typically unfolds when the top player overcommits to a pass, loses track of one arm's position relative to the bottom player's legs, or fails to maintain adequate posture during passing sequences. The bottom player exploits this by shooting their hips up, closing a triangle lock around the exposed arm and neck. The top player must immediately shift from an offensive passing mindset to a defensive survival framework, establishing posture, protecting the trapped arm, and preventing angle optimization before systematically working to escape.\n\nSuccess in this transition depends on early recognition and immediate defensive structure establishment. The faster the top player identifies the triangle threat and transitions to a proper escape position, the higher their probability of successfully escaping. Delayed reactions allow the bottom player to lock the triangle, optimize their angle, and begin finishing sequences that become exponentially harder to defend against with each passing second. This transition is fundamentally about converting a crisis moment into a structured defensive problem that can be solved through systematic technique. If the transition fails, you stay trapped in the triangle rather than returning to half guard.",
   "conditions": [
     "Bottom player has captured head and one arm in triangle configuration during half guard passing attempt",
     "Top player's posture has been broken or compromised during the pass attempt",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Triangle Control",
-      "relationship": "Opponent's attacking position that this transition defends against"
+      "relationship": "Position you stay trapped in if this transition fails: the player on their back keeps the triangle locked while you stay on top"
     },
     {
       "name": "Triangle Choke",
@@ -113,7 +113,7 @@
   "attacker": {
     "name": "Half Guard to Triangle Escape Position Attacker",
     "description": "Master the defensive transition into triangle escape position from half guard top. Step-by-step guide covering recognition, posture recovery, and escape structure.",
-    "overview": "As the attacker executing this transition, you are the half guard top player who has been caught in a triangle during a passing attempt and must immediately establish a structured escape position. Your objective shifts from offensive passing to defensive survival and systematic escape. The transition requires suppressing the panic response that accompanies sudden submission danger and instead executing a precise sequence of defensive actions: recognizing the triangle threat, protecting the trapped arm, recovering posture, and establishing the base and structural frames needed for the subsequent escape. Speed of recognition is the single most important factor - every second of delay allows the bottom player to tighten the lock, optimize their angle, and begin the finishing squeeze that dramatically reduces your escape probability.",
+    "overview": "As the attacker executing this transition, you are the half guard top player who has been caught in a triangle during a passing attempt and must immediately establish a structured escape position. The player on their back has the triangle locked, and you, on top, are the one trapped in it. Your objective shifts from offensive passing to defensive survival and systematic escape. The transition requires suppressing the panic response that accompanies sudden submission danger and instead executing a precise sequence of defensive actions: recognizing the triangle threat, protecting the trapped arm, recovering posture, and establishing the base and structural frames needed for the subsequent escape. Speed of recognition is the single most important factor - every second of delay allows the bottom player to tighten the lock, optimize their angle, and begin the finishing squeeze that dramatically reduces your escape probability.",
     "key_principles": [
       "Recognize the triangle threat instantly by feeling leg pressure on your neck and one arm trapped between opponent's thighs",
       "Immediately tuck your chin and pin your trapped arm's elbow tight to your ribs to prevent both choking depth and armbar transitions",
@@ -170,25 +170,25 @@
         "counter": "Bottom player pulls head down aggressively to re-break posture during recovery attempt",
         "effectiveness": "High",
         "your_response": "Drive upward explosively from your legs while simultaneously posting your free hand higher on the mat to create a structural frame. Use short, repeated driving motions rather than one sustained effort to gradually recover posture against their pulling force.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Triangle Control/Top"
       },
       {
         "counter": "Bottom player optimizes angle by scooting hips laterally before escape position is established",
         "effectiveness": "High",
         "your_response": "Immediately step in the same direction as their hip movement to match their angle change while pressing down on their hip with your free hand. Maintain forward pressure throughout the adjustment to prevent them from completing the angle optimization.",
-        "targets_outcome": "Triangle Control/Bottom"
+        "targets_outcome": "Triangle Control/Top"
       },
       {
         "counter": "Bottom player transitions to armbar on the trapped arm during posture recovery",
         "effectiveness": "Medium",
         "your_response": "Keep trapped arm elbow pinned to ribs and turn your body toward the trapped arm side. Stack forward pressure even more aggressively while following their hip rotation. The key is preventing arm isolation by maintaining the compact elbow-to-ribs position throughout.",
-        "targets_outcome": "Triangle Control/Bottom"
+        "targets_outcome": "Triangle Control/Top"
       },
       {
         "counter": "Bottom player locks triangle tighter by squeezing knees together and extending hips",
         "effectiveness": "Medium",
         "your_response": "Drive forward aggressively to stack their hips over their shoulders, compressing the triangle structure and limiting their ability to extend. The stacking pressure reduces the effectiveness of the squeeze by changing the angle of force application on your neck.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Triangle Control/Top"
       }
     ],
     "common_errors": [
@@ -385,35 +385,35 @@
       {
         "action": "Pull head down aggressively with both hands while squeezing knees together to re-break posture",
         "when_to_use": "Immediately when you feel the opponent beginning to drive upward to recover posture in the early phase of their escape attempt",
-        "targets_outcome": "Triangle Control/Bottom",
+        "targets_outcome": "Triangle Control/Top",
         "if_successful": "Opponent's posture is re-broken, triangle tightens, and you maintain finishing position with optimized angle",
         "risk": "If opponent has already established strong base, pulling may tire your arms without achieving re-break"
       },
       {
         "action": "Transition to armbar by opening triangle and isolating the trapped arm",
         "when_to_use": "When opponent focuses entirely on posture recovery and neglects trapped arm protection, or when they begin loosening their arm position during escape attempts",
-        "targets_outcome": "Triangle Control/Bottom",
+        "targets_outcome": "Triangle Control/Top",
         "if_successful": "Opponent is forced to abandon escape position and address armbar threat, potentially resulting in submission or full reset to triangle",
         "risk": "Opening the triangle to transition creates a brief window where opponent may extract their arm and escape entirely"
       },
       {
         "action": "Scoot hips laterally to optimize choking angle before opponent can establish hip control",
         "when_to_use": "When opponent is focused on posture recovery and has not yet established their free hand on your hip to prevent angle adjustment",
-        "targets_outcome": "Triangle Control/Bottom",
+        "targets_outcome": "Triangle Control/Top",
         "if_successful": "Perpendicular angle maximizes choking pressure, making the triangle exponentially harder to escape even with recovered posture",
         "risk": "Lateral movement may create space that the opponent exploits to accelerate their posture recovery"
       },
       {
         "action": "Control opponent's free arm to prevent posting and base establishment",
         "when_to_use": "When opponent reaches to post their free hand on the mat or your hip during the early transition phase",
-        "targets_outcome": "Half Guard/Top",
+        "targets_outcome": "Triangle Control/Top",
         "if_successful": "Without a posting base, opponent cannot recover posture effectively and remains broken down in the triangle",
         "risk": "Committing a hand to control their arm may reduce your own pulling power on their head"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Triangle Control/Bottom",
+        "outcome": "Triangle Control/Top",
         "how": "Maintain constant head pull and angle optimization to prevent posture recovery. Squeeze knees together and extend hips before they establish stacking pressure. Threaten armbar transitions to keep them addressing multiple problems simultaneously."
       }
     ],

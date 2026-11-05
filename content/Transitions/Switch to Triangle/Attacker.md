@@ -307,7 +307,7 @@ Success depends on maintaining continuous offensive pressure throughout the swit
 |--------|----------|-------------|
 | Success | [[Positions/Triangle Control]] | 55% |
 | Failure | [[Positions/Closed Guard]] | 30% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -319,7 +319,7 @@ Success depends on maintaining continuous offensive pressure throughout the swit
 <p class="section-subtitle">How might your opponent counter Switch to Triangle?</p>
 
 - **Opponent postures up aggressively during transition before triangle locks** (Effectiveness: High) - Your Response: Maintain strong overhook or head control and use your legs to break posture back down. If posture cannot be broken, transition to omoplata or overhook guard rather than forcing a compromised triangle. The key is not releasing your anchor grip during their posture attempt. → Leads to [[Positions/Closed Guard]]
-- **Opponent stacks your hips and drives forward to pass guard during the switch** (Effectiveness: Medium) - Your Response: Keep shoulders off the mat by posting on your elbow, create frames against their hips to prevent the stack, and be ready to follow their pressure into an omoplata or sweep if the triangle position becomes too compressed. Never accept a flat back under stacking pressure. → Leads to [[Positions/Closed Guard]]
+- **Opponent stacks your hips and drives forward to pass guard during the switch** (Effectiveness: Medium) - Your Response: Keep shoulders off the mat by posting on your elbow, create frames against their hips to prevent the stack, and be ready to follow their pressure into an omoplata or sweep if the triangle position becomes too compressed. Never accept a flat back under stacking pressure. → Leads to [[Positions/Side Control]]
 - **Opponent grabs your leg to prevent it from crossing their neck and blocks the triangle entry** (Effectiveness: Medium) - Your Response: Use your free leg to kick away their grip on your attacking leg, swim your leg over the top of their grip rather than forcing it through their block, or switch to armbar or omoplata if the triangle entry is denied since your angle is already established. → Leads to [[Positions/Closed Guard]]
 - **Opponent circles away and creates distance before triangle locks in** (Effectiveness: Low) - Your Response: Follow their circular movement with your hips, maintain constant pressure with your bottom leg behind their shoulder, and adjust your angle continuously. If they fully disengage, recover closed guard and re-attack knowing they are susceptible to the same chain. → Leads to [[Positions/Closed Guard]]
 

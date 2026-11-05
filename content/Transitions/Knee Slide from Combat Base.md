@@ -123,7 +123,7 @@ The knee slide integrates seamlessly into broader passing systems. When opponent
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/Combat Base]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 15% |
 
 
 </section>

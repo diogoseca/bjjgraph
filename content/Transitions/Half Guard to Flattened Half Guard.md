@@ -123,7 +123,7 @@ From a strategic perspective, this transition represents the critical bridge bet
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard/Flattened Half Guard]] | 65% |
 | Failure | [[Positions/Half Guard]] | 20% |
-| Counter | [[Positions/Half Guard/Knee Shield Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 15% |
 
 
 </section>

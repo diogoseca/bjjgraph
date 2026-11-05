@@ -121,7 +121,7 @@ Strategically, the sit-out carries higher risk than standard escapes due to the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Turtle]] | 50% |
+| Success | [[Positions/Seated Guard]] | 50% |
 | Failure | [[Positions/Side Control]] | 30% |
 | Counter | [[Positions/Back Control]] | 20% |
 
@@ -282,7 +282,7 @@ The sit-out from side control occupies a critical niche in the bottom escape hie
 
 - [[Positions/Side Control]] - Starting position where the technique is initiated from the bottom
 
-- [[Positions/Turtle]] - Primary target position reached upon successful sit-out completion and the transient base passed through during the rotation
+- [[Positions/Turtle]] - Transient base passed through during the rotation
 
 - [[Positions/Back Control]] - Counter position opponent may achieve if sit-out rotation exposes the back
 

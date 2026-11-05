@@ -159,7 +159,7 @@ At the competitive level, this sweep functions as insurance for omoplata attacks
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 60% |
 | Failure | [[Positions/Omoplata Control]] | 25% |
-| Counter | [[Positions/Omoplata Control]] | 15% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>

@@ -123,7 +123,7 @@ What makes this transition particularly effective is the combination of mechanic
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 72% |
 | Failure | [[Positions/Crab Ride]] | 18% |
-| Counter | [[Positions/Crab Ride]] | 10% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>

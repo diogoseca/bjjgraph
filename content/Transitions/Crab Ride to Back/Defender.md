@@ -33,7 +33,7 @@ description: "How to defend against Crab Ride to Back in BJJ. Recognition cues, 
     {
       "@type": "HowToStep",
       "name": "Granby roll away from the hook side, inverting underneath the attacker to recover guard position",
-      "text": "When the attacker commits weight forward for the seat belt or second hook insertion, creating the momentum needed for the inversion. Requires enough space to initiate the roll before the attacker can flatten you. If successful: You invert underneath the attacker and recover to closed guard or open guard, completely escaping the back take and potentially creating your own offensive opportunities",
+      "text": "When the attacker commits weight forward for the seat belt or second hook insertion, creating the momentum needed for the inversion. Requires enough space to initiate the roll before the attacker can flatten you. If successful: You invert underneath the attacker and recover half guard, completely escaping the back take and potentially creating your own offensive opportunities",
       "position": 3
     },
     {
@@ -209,7 +209,7 @@ Advanced defenders can create counter-attacking opportunities from this position
 ### 1. Sit through to guard by dropping your near hip to the mat and turning into the attacker before the seat belt is completed
 
 - **When to use**: Early in the transition when the attacker has only one hook and has not yet secured the seat belt grip. Most effective when the attacker releases near arm control to establish the over-shoulder grip.
-- **Targets**: [[Positions/Crab Ride]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the attacker and can establish a guard position such as half guard or butterfly guard, completely neutralizing the back take threat
 - **Risk**: If timed poorly, the attacker follows your turn and establishes the seat belt during rotation, accelerating the back take
 
@@ -223,8 +223,8 @@ Advanced defenders can create counter-attacking opportunities from this position
 ### 3. Granby roll away from the hook side, inverting underneath the attacker to recover guard position
 
 - **When to use**: When the attacker commits weight forward for the seat belt or second hook insertion, creating the momentum needed for the inversion. Requires enough space to initiate the roll before the attacker can flatten you.
-- **Targets**: [[Positions/Crab Ride]]
-- **If successful**: You invert underneath the attacker and recover to closed guard or open guard, completely escaping the back take and potentially creating your own offensive opportunities
+- **Targets**: [[Positions/Half Guard]]
+- **If successful**: You invert underneath the attacker and recover half guard, completely escaping the back take and potentially creating your own offensive opportunities
 - **Risk**: Failed Granby rolls can result in being flattened face-down with the attacker in an even stronger back control position
 
 ### 4. Stand up explosively while the attacker has only one hook established and the seat belt is incomplete
@@ -248,7 +248,7 @@ Advanced defenders can create counter-attacking opportunities from this position
 
 Strip the attacker's hooking leg by cupping the ankle from the inside and driving it to the mat while explosively shifting your hips away. Combine with strong posting on your near arm to prevent the attacker from reestablishing control. Once the hook is cleared, immediately move to rebuild your turtle base or stand up before the attacker can re-engage.
 
-### → [[Positions/Crab Ride]]
+### → [[Positions/Half Guard]]
 
 Execute a well-timed sit-through or Granby roll when the attacker transitions between grip configurations. The optimal window is when they release near arm control to establish the seat belt. Drop your near hip to the mat and turn aggressively into the attacker, using their forward weight commitment against them to complete the rotation to a guard-facing position.
 

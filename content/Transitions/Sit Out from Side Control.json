@@ -15,7 +15,7 @@
   "from_position": "Side Control/Bottom",
   "outcomes": [
     {
-      "to": "Turtle/Top",
+      "to": "Seated Guard/Bottom",
       "probability": {
         "gi": 50,
         "nogi": 50
@@ -76,7 +76,7 @@
     },
     {
       "name": "Turtle",
-      "relationship": "Primary target position reached upon successful sit-out completion and the transient base passed through during the rotation"
+      "relationship": "Transient base passed through during the rotation"
     },
     {
       "name": "Back Control",

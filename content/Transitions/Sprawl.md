@@ -157,7 +157,7 @@ The sprawl is considered one of the most high-percentage defensive techniques in
 |--------|----------|-------------|
 | Success | [[Positions/Front Headlock]] | 75% |
 | Failure | [[Positions/Standing Position]] | 15% |
-| Counter | [[Positions/Standing Position]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -275,7 +275,7 @@ The sprawl is considered one of the most high-percentage defensive techniques in
 
 - **Circle and re-shoot by disengaging from the sprawl, standing up, and immediately hitting a second takedown attempt** - When: When opponent's chest pressure is manageable and they have not locked up a front headlock grip, allowing you to create enough space to stand
 
-- **Sit to guard by pulling opponent into your closed guard or half guard rather than fighting the front headlock** - When: When opponent has established heavy front headlock pressure and submission threats are imminent, making continued standing engagement dangerous
+- **Bait the sprawl with a fake level change, then attack after opponent commits and finish the takedown into side control** - When: When opponent commits to the sprawl on a feint, before they have established front headlock control
 
 
 </section>

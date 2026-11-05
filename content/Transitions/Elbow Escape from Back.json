@@ -35,7 +35,7 @@
         "gi": 20,
         "nogi": 20
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -79,7 +79,7 @@
     },
     {
       "name": "Mount",
-      "relationship": "Counter outcome position when the back controller follows the escape turn and establishes mount"
+      "relationship": "Failed half guard recovery when the back controller follows the escape turn and establishes mount"
     },
     {
       "name": "Back Door Escape",
@@ -209,7 +209,7 @@
       },
       {
         "error": "Using explosive bridging movements instead of controlled hip escape mechanics",
-        "consequence": "Creates momentary space but opponent easily follows the explosive motion and frequently improves position to mount during the uncontrolled scramble",
+        "consequence": "Creates momentary space but opponent easily follows the explosive motion and frequently maintains dominant control by moving to mount during the uncontrolled scramble",
         "correction": "Use deliberate hip escape mechanics with consistent steady pressure against the elbow frame rather than explosive movements that waste energy and create unpredictable positions"
       },
       {

@@ -229,7 +229,7 @@ Persistently re-establish harness grip each time the opponent strips it, switchi
 
 ### → [[Positions/Mount]]
 
-When the opponent commits to the rotation and strips your upper body control, follow their turning body by driving your hips over the top of their rotating torso. As they turn to their knees, hook your legs over their hips and settle into mount before they can establish turtle defensive posture. This requires recognizing the commitment point and acting decisively.
+When the opponent commits to the rotation and strips your upper body control, follow their turning body by driving your hips over the top of their rotating torso. As they start to turn to their knees, stop the turn, pin them on their back, hook your legs over their hips and settle into mount before they can establish turtle defensive posture. This requires recognizing the commitment point and acting decisively.
 
 
 

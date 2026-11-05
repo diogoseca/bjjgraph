@@ -303,7 +303,7 @@ The attacker in the Toreando Pass from De La Riva must execute a precise three-p
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/De La Riva Guard]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 15% |
 
 
 </section>
@@ -317,8 +317,8 @@ The attacker in the Toreando Pass from De La Riva must execute a precise three-p
 - **Opponent immediately re-establishes DLR hook after grip strip by re-threading their leg behind your knee** (Effectiveness: High) - Your Response: Do not pause after stripping the grip. Immediately address the hook in the same motion by driving your knee forward or backstep clearing. If the hook is re-established, restart the grip strip sequence rather than forcing the pass. → Leads to [[Positions/De La Riva Guard]]
 - **Opponent transitions to X-Guard or Single Leg X by threading their bottom hook as you clear the DLR hook** (Effectiveness: High) - Your Response: Maintain downward hip pressure during hook removal to prevent the opponent from elevating their hips underneath you. If you feel them starting to thread a bottom hook, immediately backstep or sprawl your hips back to deny the entry angle. → Leads to [[Positions/De La Riva Guard]]
 - **Opponent frames on your hips with both feet during the lateral redirection phase, preventing you from completing the arc** (Effectiveness: Medium) - Your Response: Use a cross-grip switch during the redirection to create a twisting angle that bypasses the hip frames. Alternatively, change direction mid-pass and attack the opposite side where the frames are weaker, converting to a knee slice or leg drag. → Leads to [[Positions/De La Riva Guard]]
-- **Opponent inverts and attempts berimbolo or kiss of the dragon as you commit to the lateral passing direction** (Effectiveness: Medium) - Your Response: If you see the opponent begin to invert, immediately stop lateral movement and drop your hips directly onto their inverted body to smash the inversion. Sprawl your weight onto their torso and re-establish grips to flatten them back out before restarting the pass. → Leads to [[Positions/Half Guard]]
-- **Opponent hip escapes and inserts a knee shield as you settle into side control, recovering to half guard** (Effectiveness: Medium) - Your Response: Secure the crossface before releasing pants grips during the consolidation phase. Drive your shoulder pressure across their jaw immediately to prevent them from turning and creating the space needed for knee insertion. → Leads to [[Positions/Half Guard]]
+- **Opponent starts to invert for berimbolo or kiss of the dragon as you commit to the lateral passing direction, then settles into a knee shield when you stop to smash the inversion** (Effectiveness: Medium) - Your Response: If you see the opponent begin to invert, immediately stop lateral movement and drop your hips directly onto their inverted body to smash the inversion. Sprawl your weight onto their torso and re-establish grips to flatten them back out before restarting the pass. If they recover the knee shield instead, you stay on top and restart from knee shield half guard. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Opponent hip escapes and inserts a knee shield as you settle into side control, recovering to half guard** (Effectiveness: Medium) - Your Response: Secure the crossface before releasing pants grips during the consolidation phase. Drive your shoulder pressure across their jaw immediately to prevent them from turning and creating the space needed for knee insertion. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 
 
 </section>

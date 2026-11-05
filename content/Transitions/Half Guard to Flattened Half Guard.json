@@ -30,12 +30,12 @@
       "result": "failure"
     },
     {
-      "to": "Knee Shield Half Guard/Bottom",
+      "to": "Knee Shield Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -183,7 +183,7 @@
         "counter": "Bottom player establishes strong knee shield before crossface is secured",
         "effectiveness": "High",
         "your_response": "Switch to smash pass mechanics by driving into the knee shield with your hips while establishing crossface over the top of their shin, or disengage to combat base and re-engage with a different angle",
-        "targets_outcome": "Knee Shield Half Guard/Bottom"
+        "targets_outcome": "Knee Shield Half Guard/Top"
       },
       {
         "counter": "Bottom player wins the underhook and begins turning to their side for a sweep or back take",
@@ -207,7 +207,7 @@
         "counter": "Bottom player frames on hip and executes explosive hip escape to re-establish distance",
         "effectiveness": "Medium",
         "your_response": "Follow their hip escape with your pressure, using their movement as a trigger to advance your knee across for an immediate knee slice pass attempt rather than resettling into the flattening sequence",
-        "targets_outcome": "Knee Shield Half Guard/Bottom"
+        "targets_outcome": "Knee Shield Half Guard/Top"
       }
     ],
     "common_errors": [
@@ -418,7 +418,7 @@
       {
         "action": "Maintain knee shield with active frame fighting to prevent crossface establishment",
         "when_to_use": "Early in the flattening attempt before the opponent has secured the crossface or collapsed your primary frame",
-        "targets_outcome": "Knee Shield Half Guard/Bottom",
+        "targets_outcome": "Knee Shield Half Guard/Top",
         "if_successful": "You preserve distance and maintain active half guard with full offensive and defensive capabilities",
         "risk": "If the opponent bypasses the knee shield through pressure or angle change, you may lose the frame without a backup plan"
       },
@@ -453,7 +453,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Knee Shield Half Guard/Bottom",
+        "outcome": "Knee Shield Half Guard/Top",
         "how": "Maintain active knee shield by keeping your shin angled across their hip line with your foot hooked behind their far hip. Reinforce the shield with your near-side forearm framing on their bicep or shoulder. If the shield begins to fold, hip escape to re-establish distance before reinserting the knee across their body."
       },
       {

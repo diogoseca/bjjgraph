@@ -299,7 +299,7 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 70% |
 | Failure | [[Positions/Closed Guard]] | 20% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -313,7 +313,7 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 - **Opponent posts hard with free arm to prevent rollover** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with Kimura or armbar, or transition to alternative sweep like Hip Bump Sweep if they post too wide → Leads to [[Positions/Closed Guard]]
 - **Opponent maintains strong posture and prevents forward weight distribution** (Effectiveness: High) - Your Response: Chain to different attacks like Triangle or Omoplata that work from upright posture, or use hip bump to break posture again → Leads to [[Positions/Closed Guard]]
 - **Opponent sprawls legs back as you attempt to sweep** (Effectiveness: Medium) - Your Response: Transition to Guillotine control or follow to Turtle position for back take opportunity → Leads to [[Positions/Closed Guard]]
-- **Opponent drives forward aggressively and stacks your hips to neutralize angle** (Effectiveness: Medium) - Your Response: Use their forward momentum to reguard with overhook control or switch to Pendulum Sweep taking advantage of their committed weight distribution → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward aggressively and stacks your hips to neutralize angle** (Effectiveness: Medium) - Your Response: Use their forward momentum to reguard with overhook control or switch to Pendulum Sweep taking advantage of their committed weight distribution → Leads to [[Positions/Side Control]]
 - **Opponent circles away from sweep direction to realign their base** (Effectiveness: Low) - Your Response: Follow their circular movement and either sweep to opposite side or transition to Triangle setup as they move, exploiting the space their rotation creates → Leads to [[Positions/Closed Guard]]
 
 

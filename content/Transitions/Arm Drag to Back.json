@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Butterfly Guard/Top",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 12,
         "nogi": 12
@@ -162,8 +162,8 @@
       {
         "counter": "Opponent turns into you aggressively",
         "effectiveness": "Medium",
-        "your_response": "Use their momentum against them - switch to a triangle setup as they turn into you, or establish closed guard and look for sweeps. Their aggressive turn often leaves their neck exposed for guillotine entries.",
-        "targets_outcome": "Butterfly Guard/Top"
+        "your_response": "Use their momentum against them before they can pass - switch to a triangle setup as they turn into you, or establish closed guard and look for sweeps. Their aggressive turn often leaves their neck exposed for guillotine entries. If these responses do not stop the turn-in, they finish the pass and you land under side control.",
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Opponent grabs your head during rotation",
@@ -438,8 +438,8 @@
       {
         "action": "Aggressive turn-in with crossface and re-square shoulders",
         "when_to_use": "When the attacker has achieved a perpendicular angle but has not yet secured the seat belt or inserted hooks behind you",
-        "targets_outcome": "Butterfly Guard/Top",
-        "if_successful": "You face the attacker and can establish a dominant top position since their guard structure is compromised from the failed drag attempt, potentially ending up in their guard or achieving a pass",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You face the attacker and, since their guard structure is compromised from the failed drag attempt, complete the pass and secure side control on top",
         "risk": "If the attacker maintains head pressure on your ribs during your turn, they can follow your rotation and complete the back take despite your turning effort"
       },
       {
@@ -456,8 +456,8 @@
         "how": "React early to the grip establishment by retracting your arm before the diagonal pull crosses your centerline. Strip the wrist grip using your free hand, pull your elbow tight to your hip, and re-square your shoulders to face the attacker. Re-establish your own grips and postural control to return to neutral butterfly guard engagement."
       },
       {
-        "outcome": "Butterfly Guard/Top",
-        "how": "When the attacker commits to the hip escape and rotation, aggressively turn into them with a crossface and drive your weight forward. Their guard structure is compromised because they are mid-rotation with hooks disengaged. Use the momentum of your turn-in combined with forward pressure to collapse their butterfly guard and establish a passing position or top control."
+        "outcome": "Side Control/Bottom",
+        "how": "When the attacker commits to the hip escape and rotation, aggressively turn into them with a crossface and drive your weight forward. Their guard structure is compromised because they are mid-rotation with hooks disengaged. Use the momentum of your turn-in combined with forward pressure to collapse their butterfly guard, clear the hooks, and secure side control."
       }
     ],
     "common_errors": [

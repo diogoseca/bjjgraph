@@ -260,7 +260,7 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 ### 3. Advance position aggressively while opponent commits both hands to the grip break, using their hand occupation as a passing or pressure opportunity
 
 - **When to use**: When opponent removes both hands from framing to break your grip, creating a window where they cannot defend positional advancement
-- **Targets**: [[Positions/Open Guard]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You achieve positional advancement or a pass while opponent is focused on grip fighting rather than guard retention
 - **Risk**: If advancement fails, you may lose both the grip and your base, ending up in a worse position than before
 
@@ -285,7 +285,7 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 
 Maintain at least one controlling grip throughout the exchange by reinforcing the threatened grip early, switching to alternative grips when breaks are inevitable, or re-establishing grips faster than your opponent can capitalize on the momentary freedom. Keep multiple connection points active so losing any single grip does not collapse your control structure.
 
-### → [[Positions/Open Guard]]
+### → [[Positions/Side Control]]
 
 Capitalize on the opponent committing both hands to grip breaking by advancing position aggressively through their weakened frames. When they remove both hands from guard retention to strip your grip, drive forward with shoulder pressure, cut an angle for a knee slice or leg drag, or establish head control while their hands are occupied. The grip break attempt becomes your passing opportunity.
 

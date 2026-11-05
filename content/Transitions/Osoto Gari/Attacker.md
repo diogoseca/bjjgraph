@@ -285,7 +285,7 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 75% |
 | Failure | [[Positions/Standing Position]] | 15% |
-| Counter | [[Positions/Standing Position]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -298,7 +298,7 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 - **Opponent steps back with the attacked leg before you can reap, creating distance and neutralizing the throw** (Effectiveness: High) - Your Response: Immediately transition to a different attack on the other leg such as Kouchi Gari or follow their backward movement with forward pressure to set up a second Osoto Gari attempt when they reset their stance → Leads to [[Positions/Standing Position]]
 - **Opponent posts their hand on the mat on the side you're throwing to, creating a base that prevents them from being fully thrown** (Effectiveness: Medium) - Your Response: Use your sleeve control to strip the posting arm off the mat or transition to an arm drag position if they commit heavily to the post. Alternatively, follow through to land in a modified position and immediately attack the posted arm with a Kimura or sweep → Leads to [[Positions/Standing Position]]
-- **Opponent executes a counter-throw (such as Tani Otoshi) by dropping their weight and rotating under you as you commit to the throw** (Effectiveness: Medium) - Your Response: Maintain strong base with your supporting leg and be prepared to release the throw if you feel them dropping weight. Keep your hips lower than theirs and chest pressure strong to prevent rotation. Advanced practitioners can recognize the counter early and transition to a different attack → Leads to [[Positions/Standing Position]]
+- **Opponent executes a counter-throw (such as Tani Otoshi) by dropping their weight and rotating under you as you commit to the throw** (Effectiveness: Medium) - Your Response: Maintain strong base with your supporting leg and be prepared to release the throw if you feel them dropping weight. Keep your hips lower than theirs and chest pressure strong to prevent rotation. Advanced practitioners can recognize the counter early and transition to a different attack → Leads to [[Positions/Side Control]]
 - **Opponent turns into you (toward the throw direction) rather than away, nullifying the backward off-balancing motion** (Effectiveness: Low) - Your Response: If they turn toward you, they expose their back. Immediately transition to back-taking grips, securing harness control or body lock position. This counter actually creates an advantageous position for you if recognized quickly → Leads to [[Positions/Standing Position]]
 
 

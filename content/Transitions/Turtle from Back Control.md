@@ -141,7 +141,7 @@ Understanding when to initiate this escape versus other back escape options is a
 |--------|----------|-------------|
 | Success | [[Positions/Turtle]] | 50% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 20% |
+| Failure | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -302,7 +302,7 @@ Turtle from Back Control fits within the broader back escape hierarchy as the mo
 
 - [[Positions/Turtle]] - Target position reached on successful escape
 
-- [[Positions/Mount]] - Counter outcome position if opponent capitalizes on escape attempt
+- [[Positions/Mount]] - Failed turtle escape: opponent capitalizes on escape attempt and you end under mount
 
 - [[Transitions/Hand Fight to Turtle from Back]] - Complementary hand fighting transition that often precedes this escape
 

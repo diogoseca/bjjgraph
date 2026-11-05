@@ -32,14 +32,14 @@ description: "How to defend against the Arm Drag Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "HowToStep",
-      "name": "Stand up immediately by driving both feet to the mat, straightening your legs, and using your height advantage to strip the opponent's grips through posture and distance",
-      "text": "When the arm drag is partially set but the sweep has not committed, and you have enough base to safely stand without being pulled off balance If successful: Standing nullifies the sweep threat entirely since the opponent cannot sweep you from guard when you are standing with proper base, and creates distance that breaks many grip configurations",
+      "name": "Stand up immediately by driving both feet to the mat, straightening your legs, using your height advantage to strip the opponent's grips, and completing the guard break",
+      "text": "When the arm drag is partially set but the sweep has not committed, and you have enough base to safely stand without being pulled off balance If successful: Standing nullifies the sweep threat entirely since the opponent cannot sweep you from guard when you are standing with proper base, and completing the break strips their grips and leaves them in open guard",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, driving into the opponent to prevent them from establishing hooks",
-      "text": "Late in the sequence when the sweep is nearly complete and your primary concern shifts to preventing back control rather than preventing the positional change If successful: You deny the back take by keeping your hips connected to the opponent and turning into them, potentially ending up in their guard or half guard in a defensible position",
+      "name": "Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, driving into the opponent to prevent them from establishing hooks and recovering into their open guard",
+      "text": "Late in the sequence when the sweep is nearly complete and your primary concern shifts to preventing back control rather than preventing the positional change If successful: You deny the back take by keeping your hips connected to the opponent and turning into them, ending up in their open guard in a defensible position",
       "position": 4
     }
   ],
@@ -209,18 +209,18 @@ The most critical defensive concept is that your response to the arm drag direct
 - **If successful**: You re-face the opponent squarely, neutralize the angular advantage they created, and return to standard closed guard top with opportunity to re-establish posture
 - **Risk**: Circling too slowly allows the opponent to complete the sweep before you recover alignment, and aggressive circling can walk you into triangle or omoplata setups
 
-### 3. Stand up immediately by driving both feet to the mat, straightening your legs, and using your height advantage to strip the opponent's grips through posture and distance
+### 3. Stand up immediately by driving both feet to the mat, straightening your legs, using your height advantage to strip the opponent's grips, and completing the guard break
 
 - **When to use**: When the arm drag is partially set but the sweep has not committed, and you have enough base to safely stand without being pulled off balance
-- **Targets**: [[Positions/Closed Guard]]
-- **If successful**: Standing nullifies the sweep threat entirely since the opponent cannot sweep you from guard when you are standing with proper base, and creates distance that breaks many grip configurations
+- **Targets**: [[Positions/Open Guard]]
+- **If successful**: Standing nullifies the sweep threat entirely since the opponent cannot sweep you from guard when you are standing with proper base, and completing the break strips their grips and leaves them in open guard
 - **Risk**: If your base is already compromised, standing can accelerate the sweep by raising your center of gravity while one arm is controlled
 
-### 4. Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, driving into the opponent to prevent them from establishing hooks
+### 4. Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, driving into the opponent to prevent them from establishing hooks and recovering into their open guard
 
 - **When to use**: Late in the sequence when the sweep is nearly complete and your primary concern shifts to preventing back control rather than preventing the positional change
-- **Targets**: [[Positions/Closed Guard]]
-- **If successful**: You deny the back take by keeping your hips connected to the opponent and turning into them, potentially ending up in their guard or half guard in a defensible position
+- **Targets**: [[Positions/Open Guard]]
+- **If successful**: You deny the back take by keeping your hips connected to the opponent and turning into them, ending up in their open guard in a defensible position
 - **Risk**: Failed counter-rotation results in full back exposure with the opponent already behind you and one hook likely in place
 
 
@@ -237,9 +237,9 @@ The most critical defensive concept is that your response to the arm drag direct
 
 Retract the controlled arm early by pulling your elbow back to your ribs while re-centering your base. Circle your hips toward the drag direction to re-face the opponent squarely. Re-establish both hands on their hips or biceps and drive your posture upright. The key is speed of recognition—the earlier you detect the arm drag, the simpler the recovery.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Open Guard]]
 
-When you feel the drag setup, immediately initiate a standing guard break by posting both feet and driving upward. Your height and standing posture strip the grips needed for the arm drag. From standing, you are in a superior position to begin guard opening and passing. This transforms a defensive reaction into an offensive opportunity.
+When you feel the drag setup, immediately initiate a standing guard break by posting both feet and driving upward. Your height and standing posture strip the grips needed for the arm drag. Complete the break from standing so their guard opens and they lose their attacking control, leaving you on top of their open guard. This transforms a defensive reaction into an offensive opportunity.
 
 
 

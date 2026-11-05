@@ -283,7 +283,7 @@ The sit-out from side control is a wrestling-derived escape executed by the bott
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Turtle]] | 50% |
+| Success | [[Positions/Seated Guard]] | 50% |
 | Failure | [[Positions/Side Control]] | 30% |
 | Counter | [[Positions/Back Control]] | 20% |
 

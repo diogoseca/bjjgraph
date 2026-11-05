@@ -31,7 +31,7 @@
       "result": "failure"
     },
     {
-      "to": "De La Riva Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -168,7 +168,7 @@
         "counter": "Opponent clears the top hook and drives forward to pass",
         "effectiveness": "High",
         "your_response": "Immediately revert to De La Riva configuration or transition to Shin-to-Shin Guard. Alternatively, switch to Single Leg X Guard with both hooks on one leg if bottom hook is secure.",
-        "targets_outcome": "De La Riva Guard/Top"
+        "targets_outcome": "Half Guard/Bottom"
       }
     ],
     "common_errors": [
@@ -404,11 +404,11 @@
     ],
     "defensive_options": [
       {
-        "action": "Backstep and strip the DLR hook before transition initiates",
+        "action": "Strip the DLR hook and drive cross-face and shoulder pressure down onto the guard player before the transition initiates",
         "when_to_use": "When you recognize the early grip transition from collar/sleeve to underhook, before the bottom player has begun rotating underneath",
-        "targets_outcome": "De La Riva Guard/Top",
-        "if_successful": "You clear the DLR hook entirely and can begin guard passing sequences from a neutral standing position against a guard player who has lost their primary control structure",
-        "risk": "If timed too late, the backstep can expose your back to the guard player who is already partially inverted underneath you"
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You clear the DLR hook, flatten the guard player and settle into half guard top, leaving them in half guard bottom after losing their primary control structure",
+        "risk": "If timed too late, stripping the hook can expose your back to the guard player who is already partially inverted underneath you"
       },
       {
         "action": "Drop hips low and drive forward pressure to flatten the guard player",
@@ -427,15 +427,15 @@
       {
         "action": "Cross-face and drive shoulder pressure while extracting the hooked leg backward",
         "when_to_use": "When the bottom player has partially configured X-Guard hooks but has not yet achieved full elevation with proper hip positioning underneath you",
-        "targets_outcome": "De La Riva Guard/Top",
+        "targets_outcome": "Half Guard/Bottom",
         "if_successful": "You smash through the incomplete X-Guard structure, flatten their guard, and can advance to passing position or half guard top",
         "risk": "If their hooks are deeper than you estimated, the forward pressure feeds directly into their elevation mechanics"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "De La Riva Guard/Top",
-        "how": "Execute a well-timed backstep to completely clear the DLR hook during the transition window when the bottom player has released tension to begin reconfiguring. Follow immediately with a guard pass attempt before they can re-establish DLR control. The backstep must be decisive and combined with ankle grip strip to prevent re-hooking."
+        "outcome": "Half Guard/Bottom",
+        "how": "Strip the DLR hook during the transition window when the bottom player has released tension to begin reconfiguring, then drive cross-face and shoulder pressure to flatten them before they can re-establish DLR control. Settle into half guard top, leaving them in half guard bottom. The move must be decisive and combined with an ankle grip strip to prevent re-hooking."
       },
       {
         "outcome": "De La Riva Guard/Bottom",

@@ -163,7 +163,7 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 60% |
 | Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>

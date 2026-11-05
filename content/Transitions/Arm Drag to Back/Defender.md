@@ -33,7 +33,7 @@ description: "How to defend against Arm Drag to Back in BJJ. Recognition cues, d
     {
       "@type": "HowToStep",
       "name": "Aggressive turn-in with crossface and re-square shoulders",
-      "text": "When the attacker has achieved a perpendicular angle but has not yet secured the seat belt or inserted hooks behind you If successful: You face the attacker and can establish a dominant top position since their guard structure is compromised from the failed drag attempt, potentially ending up in their guard or achieving a pass",
+      "text": "When the attacker has achieved a perpendicular angle but has not yet secured the seat belt or inserted hooks behind you If successful: You face the attacker and, since their guard structure is compromised from the failed drag attempt, complete the pass and secure side control on top",
       "position": 3
     },
     {
@@ -267,8 +267,8 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 ### 3. Aggressive turn-in with crossface and re-square shoulders
 
 - **When to use**: When the attacker has achieved a perpendicular angle but has not yet secured the seat belt or inserted hooks behind you
-- **Targets**: [[Positions/Butterfly Guard]]
-- **If successful**: You face the attacker and can establish a dominant top position since their guard structure is compromised from the failed drag attempt, potentially ending up in their guard or achieving a pass
+- **Targets**: [[Positions/Side Control]]
+- **If successful**: You face the attacker and, since their guard structure is compromised from the failed drag attempt, complete the pass and secure side control on top
 - **Risk**: If the attacker maintains head pressure on your ribs during your turn, they can follow your rotation and complete the back take despite your turning effort
 
 ### 4. Sit back and create distance while stripping wrist grip
@@ -292,9 +292,9 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 
 React early to the grip establishment by retracting your arm before the diagonal pull crosses your centerline. Strip the wrist grip using your free hand, pull your elbow tight to your hip, and re-square your shoulders to face the attacker. Re-establish your own grips and postural control to return to neutral butterfly guard engagement.
 
-### → [[Positions/Butterfly Guard]]
+### → [[Positions/Side Control]]
 
-When the attacker commits to the hip escape and rotation, aggressively turn into them with a crossface and drive your weight forward. Their guard structure is compromised because they are mid-rotation with hooks disengaged. Use the momentum of your turn-in combined with forward pressure to collapse their butterfly guard and establish a passing position or top control.
+When the attacker commits to the hip escape and rotation, aggressively turn into them with a crossface and drive your weight forward. Their guard structure is compromised because they are mid-rotation with hooks disengaged. Use the momentum of your turn-in combined with forward pressure to collapse their butterfly guard, clear the hooks, and secure side control.
 
 
 

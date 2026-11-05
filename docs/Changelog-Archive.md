@@ -13962,3 +13962,10 @@ retirement notes the current rule no longer needs.
 - flash and the number change only. That retired v1.138.0's expiry lease (`_evExpiry`): nothing outcome-shaped is left to pin. And **one subject per label**
 - **Every ▶ asks, and the seat is the player's** (v1.197.0, owner: "it says we start on top, but what if i wanted to start on bottom?"). `confirmPlayFrom`
 - inside it stay there (⏎ used to reach the option sheet below and commit its move). A graph tap
+
+## v1.248.2 — K2 batch 1: 67 approved outcome fixes and their page text
+
+67 transitions, plus 82 text follow-ups on 42 rows. Only F68's table was re-cut; 3 success rates and their votes
+seeds follow relabelled rows. F17 was held: a review note called Guillotine Control/Bottom's moves the trapped
+player's, every gate passed with it applied, and two rulings on file said otherwise, so a green gate proved nothing there.
+The four moved FLOW ratchet rows carry their causes in `tests/artifacts/flow_validation_baseline.json`.

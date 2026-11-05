@@ -20,14 +20,14 @@ description: "How to defend against Back Take from Lockdown Defense in BJJ. Reco
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Release lockdown and immediately recover closed guard or half guard by retracting legs and inserting knee shield",
-      "text": "At the earliest recognition of backstep initiation, before the opponent's leg clears the lockdown configuration If successful: You recover to half guard or closed guard with no back exposure, resetting the position to a neutral guard exchange",
+      "name": "Release lockdown and immediately recover half guard by retracting legs and inserting knee shield",
+      "text": "At the earliest recognition of backstep initiation, before the opponent's leg clears the lockdown configuration If successful: You recover to standard half guard with no back exposure, resetting the position to a neutral guard exchange",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Turn toward the opponent during their backstep by driving your underhook side shoulder into them and rotating your hips to face them",
-      "text": "When the backstep is already in progress but the opponent has not yet established their first hook behind you If successful: You face the opponent and re-establish half guard or open guard, denying the back take entirely",
+      "text": "When the backstep is already in progress but the opponent has not yet established their first hook behind you If successful: You face the opponent and re-establish standard half guard, denying the back take entirely",
       "position": 2
     },
     {
@@ -38,8 +38,8 @@ description: "How to defend against Back Take from Lockdown Defense in BJJ. Reco
     },
     {
       "@type": "HowToStep",
-      "name": "Abandon Electric Chair and transition to deep half guard by releasing lockdown and diving underneath the opponent toward their far hip",
-      "text": "When the backstep is well underway and recovering guard seems unlikely, but the opponent has not yet secured hooks If successful: You enter deep half guard underneath the opponent, a strong offensive position that completely negates the back take",
+      "name": "Abandon Electric Chair by releasing lockdown and dropping underneath the opponent to recover standard half guard",
+      "text": "When the backstep is well underway and recovering guard seems unlikely, but the opponent has not yet secured hooks If successful: You recover half guard underneath the opponent, which completely negates the back take",
       "position": 4
     }
   ],
@@ -205,18 +205,18 @@ Advanced defenders develop the ability to bait the backstep attempt by offering 
 
 <p class="section-subtitle">What can you do to defend against Back Take from Lockdown Defense?</p>
 
-### 1. Release lockdown and immediately recover closed guard or half guard by retracting legs and inserting knee shield
+### 1. Release lockdown and immediately recover half guard by retracting legs and inserting knee shield
 
 - **When to use**: At the earliest recognition of backstep initiation, before the opponent's leg clears the lockdown configuration
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: You recover to half guard or closed guard with no back exposure, resetting the position to a neutral guard exchange
+- **If successful**: You recover to standard half guard with no back exposure, resetting the position to a neutral guard exchange
 - **Risk**: If you release too late, the opponent has already cleared and you lose both lockdown control and guard position
 
 ### 2. Turn toward the opponent during their backstep by driving your underhook side shoulder into them and rotating your hips to face them
 
 - **When to use**: When the backstep is already in progress but the opponent has not yet established their first hook behind you
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: You face the opponent and re-establish half guard or open guard, denying the back take entirely
+- **If successful**: You face the opponent and re-establish standard half guard, denying the back take entirely
 - **Risk**: If the opponent maintains strong crossface during your turn, they may drive you flat and pass to side control
 
 ### 3. Tighten lockdown grip and pull your heel down hard while extending hips to prevent the trapped leg from clearing
@@ -226,11 +226,11 @@ Advanced defenders develop the ability to bait the backstep attempt by offering 
 - **If successful**: The opponent's backstep stalls with their leg still caught, returning to the Electric Chair position where you maintain offensive control
 - **Risk**: If the opponent's momentum is too far along, forcing the lockdown may create dangerous rotational torque on your own knee
 
-### 4. Abandon Electric Chair and transition to deep half guard by releasing lockdown and diving underneath the opponent toward their far hip
+### 4. Abandon Electric Chair by releasing lockdown and dropping underneath the opponent to recover standard half guard
 
 - **When to use**: When the backstep is well underway and recovering guard seems unlikely, but the opponent has not yet secured hooks
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: You enter deep half guard underneath the opponent, a strong offensive position that completely negates the back take
+- **If successful**: You recover half guard underneath the opponent, which completely negates the back take
 - **Risk**: If transition is too slow, opponent completes back take while you are in transition between positions
 
 

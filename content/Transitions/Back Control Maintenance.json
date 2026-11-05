@@ -29,7 +29,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -146,7 +146,7 @@
         "counter": "Explosive bridge and turn toward the underhook side attempting to face the attacker",
         "effectiveness": "Medium",
         "your_response": "Anticipate the turn direction and insert your underhook deeper while simultaneously driving your choking arm toward their far shoulder. Use their turning momentum to transition to mount or maintain back control on the opposite side.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Two-on-one grip fighting on the seatbelt arm to break choking grip",
@@ -392,7 +392,7 @@
       {
         "action": "Bridge toward the underhook side and turn to face the attacker while controlling the choking arm with two-on-one grip",
         "when_to_use": "When attacker's hooks are not fully consolidated and you have successfully controlled their choking hand with both of your hands",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You face the attacker and can establish half guard by trapping one of their legs between yours during the turn, reaching a position with legitimate offensive options",
         "risk": "If the turn stalls midway, attacker can re-establish back control with deeper hooks on the opposite side or transition to mounted position"
       },
@@ -413,7 +413,7 @@
       {
         "action": "Turn into the attacker by rotating toward the choking arm side, using frames on their hip and shoulder to create distance while threading your legs to recover guard",
         "when_to_use": "When you have successfully removed one hook and stripped or neutralized the seatbelt grip, creating enough freedom for a controlled rotation toward the attacker",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You face the attacker and establish closed guard or half guard, completely escaping the back control position and reaching a neutral or offensive guard position",
         "risk": "If attempted with hooks still intact, the attacker follows the rotation and ends up in mount, which is a worse position than the back control you were escaping"
       }
@@ -424,7 +424,7 @@
         "how": "Systematically remove hooks by sliding your hips downward and away while controlling the attacker's upper body grips. Once hooks are cleared, turtle tightly with elbows to knees and chin tucked, then immediately begin working guard recovery or technical stand-up before attacker can re-establish back control."
       },
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Half Guard/Top",
         "how": "After securing neck defense and stripping the seatbelt grip, bridge toward the underhook side and rotate to face the attacker. During the turn, trap one of their legs between yours to establish half guard. The key timing is bridging when the attacker adjusts their hooks or cycles grips, using their transitional moment to power the rotation."
       }
     ],

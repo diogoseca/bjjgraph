@@ -44,8 +44,8 @@ description: "How to defend against Leg Drag Pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "HowToStep",
-      "name": "Turn into the passer by rotating your torso toward them and establishing an underhook on their far arm before they complete the circling motion",
-      "text": "When the passer overcommits to the circling motion and briefly lifts their chest pressure to transition toward side control grips If successful: The underhook prevents side control consolidation and gives you a strong recovery position in half guard or allows a scramble back to sitting guard",
+      "name": "Turn into the passer by rotating your torso toward them, establishing an underhook on their far arm and inserting a knee shield before they complete the circling motion",
+      "text": "When the passer overcommits to the circling motion and briefly lifts their chest pressure to transition toward side control grips If successful: The underhook and knee shield prevent side control consolidation and recover you to knee shield half guard",
       "position": 5
     }
   ],
@@ -262,7 +262,7 @@ Defending the leg drag pass requires early recognition and immediate action beca
 ### 3. Insert your inside knee as a shield between your body and the passer's chest while they circle, recovering to half guard or knee shield position
 
 - **When to use**: When the drag is mostly completed and the passer is circling toward your back but has not yet established side control grips
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: You recover half guard with knee shield, which is a significantly better defensive position than conceding full side control
 - **Risk**: If timed too late, the passer may already have crossface established and can drive through the half-inserted knee to complete the pass to side control
 
@@ -273,11 +273,11 @@ Defending the leg drag pass requires early recognition and immediate action beca
 - **If successful**: Your leg returns to a defensive position between you and the passer, allowing you to re-establish butterfly hooks, feet on hips, or another open guard configuration
 - **Risk**: Requires significant core and hip strength to execute under the passer's weight; if unsuccessful, the energy expenditure accelerates fatigue without improving position
 
-### 5. Turn into the passer by rotating your torso toward them and establishing an underhook on their far arm before they complete the circling motion
+### 5. Turn into the passer by rotating your torso toward them, establishing an underhook on their far arm and inserting a knee shield before they complete the circling motion
 
 - **When to use**: When the passer overcommits to the circling motion and briefly lifts their chest pressure to transition toward side control grips
-- **Targets**: [[Positions/Half Guard]]
-- **If successful**: The underhook prevents side control consolidation and gives you a strong recovery position in half guard or allows a scramble back to sitting guard
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
+- **If successful**: The underhook and knee shield prevent side control consolidation and recover you to knee shield half guard
 - **Risk**: Turning into the passer when they maintain good chest contact can accelerate the pass or expose your back if they capitalize on your rotation
 
 
@@ -294,7 +294,7 @@ Defending the leg drag pass requires early recognition and immediate action beca
 
 Strip the passer's pant grip early using a two-on-one break, then immediately re-establish feet on hips or shin frames to create distance. Follow with collar or sleeve grips to prevent them from re-initiating the leg drag. The key is addressing the grip within the first two seconds before any lateral pulling begins.
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 If the drag has progressed past the point of full guard recovery, immediately focus on inserting your inside knee between your body and the passer's chest as they circle. Clamp your legs together to lock down their near leg in half guard. From here, establish knee shield and underhook to prevent the passer from completing to full side control. Half guard recovery is a strong defensive success against a committed leg drag.
 

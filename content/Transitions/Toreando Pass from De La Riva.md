@@ -141,7 +141,7 @@ At competitive levels, the toreando from DLR becomes most dangerous when integra
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/De La Riva Guard]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 15% |
 
 
 </section>
@@ -302,7 +302,7 @@ The Toreando Pass from De La Riva Guard occupies a central role in the DLR passi
 
 - [[Positions/Side Control]] - Primary target position achieved on successful pass completion
 
-- [[Positions/Half Guard]] - Position reached when guard player counters with partial guard recovery during pass
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Position reached when guard player recovers a knee shield during the pass, leaving you on top
 
 - [[Transitions/Backstep from De La Riva]] - Alternative DLR passing technique that attacks in the opposite direction, creating chain-passing opportunities
 

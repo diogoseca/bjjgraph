@@ -29,7 +29,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": {
         "gi": 13,
         "nogi": 13
@@ -148,7 +148,7 @@
         "counter": "Opponent stands up to break your guard",
         "effectiveness": "Medium",
         "your_response": "Maintain your sleeve grip and transition to standing guard attacks, ankle picks, or sit-up sweeps. Their standing creates different sweep opportunities.",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Open Guard/Bottom"
       },
       {
         "counter": "Opponent sprawls their hips back and away",
@@ -426,7 +426,7 @@
       {
         "action": "Stand up in base to break the guard open, removing yourself from the sweeping plane entirely",
         "when_to_use": "When you feel the opponent creating persistent angles and grips that make ground-based defense increasingly difficult",
-        "targets_outcome": "Closed Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "Standing removes the mechanical advantage the bottom player needs for the sweep and opens guard passing opportunities from standing",
         "risk": "If you stand without controlling the opponent's hips or breaking their guard first, they can follow you up for ankle picks or transition to standing sweep variations. Must establish grips on their legs during the stand."
       },
@@ -444,7 +444,7 @@
         "how": "Strip the sleeve grip early during setup, drive hips forward to flatten opponent's angle, and re-establish posture with hands on hips. This resets the position to neutral closed guard top where you can resume working toward guard opening."
       },
       {
-        "outcome": "Closed Guard/Top",
+        "outcome": "Open Guard/Bottom",
         "how": "When the opponent persistently creates sweep angles, stand up in base while controlling their hips with both hands. Break the guard by pushing one knee down and stepping back, then immediately begin guard passing sequences from standing. This converts their offensive pressure into an opportunity for you to improve position."
       }
     ],

@@ -98,7 +98,7 @@ This escape sits in the advanced tier of side control defense, reserved for prac
 
 The strategic value of this escape lies in its end position. Recovering to open guard rather than turtle eliminates the most dangerous phase of the standard ghost escape, where the bottom player must defend back takes from turtle before recovering guard. By threading the knee during the turn itself, you skip turtle and arrive in a guard position with offensive options immediately available. This makes the technique particularly valuable against opponents who are skilled at following ghost escape rotations to establish back control.
 
-The primary difficulty is the precision required during the knee threading phase. The turning motion must create enough separation for the near knee to slide between your body and the opponent's chest, which demands precise timing and hip mechanics. If the knee insertion fails mid-turn, you end up in the standard ghost escape turtle position rather than guard, which is the most common counter outcome. The technique works best when the opponent's hip pressure is committed to one direction and their weight is concentrated on your upper body rather than your hips, giving your lower body the freedom needed to thread the knee barrier.
+The primary difficulty is the precision required during the knee threading phase. The turning motion must create enough separation for the near knee to slide between your body and the opponent's chest, which demands precise timing and hip mechanics. If the knee insertion fails mid-turn, you end up in the standard ghost escape turtle position rather than guard, which counts as a failed guard recovery. The technique works best when the opponent's hip pressure is committed to one direction and their weight is concentrated on your upper body rather than your hips, giving your lower body the freedom needed to thread the knee barrier.
 
 **From Position**: [[Positions/Side Control]] (Bottom)
 **Success Rate**: 55%
@@ -141,7 +141,7 @@ The primary difficulty is the precision required during the knee threading phase
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 55% |
 | Failure | [[Positions/Side Control]] | 30% |
-| Counter | [[Positions/Turtle]] | 15% |
+| Failure | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -300,7 +300,7 @@ The Ghost Escape from Side Control occupies the advanced tier of the side contro
 
 - [[Positions/Open Guard]] - Primary target position upon successful completion of the escape
 
-- [[Positions/Turtle]] - Counter outcome position when opponent follows the turn and knee insertion fails
+- [[Positions/Turtle]] - Failure outcome position when opponent follows the turn and knee insertion fails
 
 - [[Transitions/Ghost Escape from Side Control]] - Standard ghost escape variant that targets turtle rather than direct guard recovery
 

@@ -240,7 +240,7 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 ### 3. Drive forward aggressively and stack the opponent's hips while widening your knees to neutralize their angle and reverse the pressure dynamic
 
 - **When to use**: When you recognize the hip angle being created but before the explosive phase - your forward pressure eliminates the space they need for the sweep
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You flatten the opponent's angle, compress their guard, and may create guard opening opportunities from the stacking pressure
 - **Risk**: If timed poorly and the opponent has already loaded the sweep, your forward drive adds momentum to their sweep and accelerates the rollover
 
@@ -258,7 +258,7 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 
 Strip the opponent's collar grip early using two-on-one grip breaks, recover strong upright posture with head over hips, and widen your base to prevent the angle creation. Denying posture and grips forces the bottom player to abandon the sweep attempt entirely.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Side Control]]
 
 Drive forward aggressively when you feel the hip angle being created, stacking the opponent's hips and flattening their angle. Use the forward pressure to begin guard opening sequences while the opponent is compressed and unable to maintain their attacking position.
 

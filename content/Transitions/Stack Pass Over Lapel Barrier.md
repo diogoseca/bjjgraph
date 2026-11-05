@@ -84,7 +84,7 @@ Strategically, the stack pass works best against opponents who rely heavily on t
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
 | Failure | [[Positions/Lapel Guard]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -257,7 +257,7 @@ Stack Pass Over Lapel Barrier occupies a specific niche in the guard passing hie
 
 - [[Positions/Squid Guard]] - Lapel variation addressed by this passing approach
 
-- [[Positions/Closed Guard]] - Counter outcome position when opponent locks guard during failed stack
+- [[Positions/Closed Guard]] - Failed pass outcome when opponent locks guard during failed stack, resetting you to closed guard top
 
 
 </section>

@@ -123,7 +123,7 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 75% |
 | Failure | [[Positions/Open Guard]] | 15% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
