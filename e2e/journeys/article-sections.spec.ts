@@ -113,8 +113,13 @@ for (const width of [1366, 390]) {
       // U11 (D-355): where the index shows, a closed section leaves no placeholder; the visible cards keep the token.
       const a = (window as any).__neural, r = a._reader, cards = [...document.querySelectorAll('[data-reader-body] > .ng-section-card')].filter(c => (c as HTMLElement).getClientRects().length)
       const card = a._landEl.getBoundingClientRect(), hand = a.optionsRef.current.getBoundingClientRect(), first = cards[0].getBoundingClientRect(), head = r.head.getBoundingClientRect()
+      const choices = [...a.optionsRef.current.querySelectorAll('[data-tech]')].map((c: Element) => c.getBoundingClientRect()).filter((b: DOMRect) => b.width && b.height)
+      if (!choices.length) throw Error('No painted Moves cards')
+      const ask = a._landEl.querySelector('[data-land-ask-text]').getBoundingClientRect(), css = getComputedStyle(a._landEl)
       const labels = r.gameSections.map((s: any) => s.card.getBoundingClientRect().height)
       return { deck: a._landEl.classList.contains('ng-land-deck'),
+        askGap: ask.top - Math.max(...choices.map((b: DOMRect) => b.bottom)), askTop: ask.top, askBottom: ask.bottom, handTop: hand.top, handBottom: hand.bottom,
+        token: parseFloat(css.getPropertyValue('--section-gap')), padding: css.padding,
         headGap: hand.top - head.bottom, lifted: !!r.videoCard, cardGap: card.top - hand.bottom, sectionGap: r.articleEl.getBoundingClientRect().top - card.bottom,
         closeRow: first.top - (r.root.querySelector('[data-reader-close]')?.getBoundingClientRect().bottom ?? NaN),
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
@@ -130,7 +135,16 @@ for (const width of [1366, 390]) {
     expect(normal.headInArticle).toBe(true)
     expect(normal.headGap, 'Moves lead the flow at the parts\' step').toBeCloseTo(normal.step, 0)
     expect(normal.sectionHeaders, 'no header names an open Moves or Questions').toEqual([0, 0])
-    expect(normal.cardGap, 'Questions follows Moves at the deck gap').toBeCloseTo(16, 0)
+    // VIDEO1 closes the visible mobile/tablet gap. The row's bottom padding and the
+    // question's text inset are not painted content; wrapper distance is the old contract.
+    expect(normal.askGap, 'VIDEO1 painted ask gap follows the section token').toBeCloseTo(normal.token, 1)
+    expect(normal.askGap).toBeGreaterThanOrEqual(5)
+    expect(normal.askGap).toBeLessThanOrEqual(6.1)
+    expect(normal.padding).toBe('0px 0px 0px 3px')
+    if (width >= 1024) {
+      expect(normal.askTop, 'VIDEO3 the hint belongs inside the choices band').toBeGreaterThanOrEqual(normal.handTop)
+      expect(normal.askBottom, 'VIDEO3 the hint belongs inside the choices band').toBeLessThanOrEqual(normal.handBottom)
+    }
     // The deck's backs peek 3px per remaining card below the face; the token is paid after them.
     // U47 d: a reading arrival's question asks alone, with no backs until Answer for Points (which
     // would start play, so this reading journey cannot take it up); landcard-deck.spec.ts measures

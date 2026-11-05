@@ -148,9 +148,9 @@ export async function installReader(app) {
   for (const name of ["expandClip", "collapseClip"]) {
     const original = app[name];
     app[name] = function (...args) {
-      // D-353: a play is the player's own input and settles a pinned landing, as grading does: the
-      // rows move down beside the opened player. Pinned, it covered the hand and its next relayout
-      // hid the video. No sync here: moving a film that just started could pause it.
+      // D-353: a play is the player's own input and settles a pinned landing, as grading does. A
+      // current technique's player now opens in the theater and only a reference clip opens in place,
+      // but the landing still settles. No sync here: moving a film that just started could pause it.
       if (name === "expandClip") this._readerPin = null;
       const result = original.apply(this, args); reader.layout(); return result;
     };
@@ -1192,11 +1192,11 @@ class Reader {
       // credits; the retained Videos control still governs the film.
       // Keep the deck's 44px outside arrows plus 8px clearance. The left arrow
       // lives in the 60px media gap; the right arrow also fits inside the pane.
-      const beside = homeMedia && showCard && free.width >= 400 + 60 + 390 + 52 && H > 500;
+      const [beside, mediaWidth, askStep] = a.filmLayout(free.width, H, homeMedia && showCard, card, row);
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (game.dataset.mediaLayout !== mediaLayout) game.dataset.mediaLayout = mediaLayout;
       if (card) style(card, "width", Math.min(beside ? 390 : arrows ? 560 : 520, free.width - (arrows && !beside ? 104 : 32)), "important");
-      const mediaWidth = Math.min(400, free.width - 32), cardWidth = card?.getBoundingClientRect().width || 0;
+      const cardWidth = card?.getBoundingClientRect().width || 0;
       style(home, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
       // phone). Measuring the shared host keeps its future renderer independent.
@@ -1227,7 +1227,7 @@ class Reader {
           const rowTop = handoff?.rowTop ?? y;
           if (row) position(row, rowLeft, rowTop, indexEdge ? W + 2 * free.left - 2 * indexEdge : W);
           if (!label("hand").hidden) { position(label("hand"), left, y, width); y += label("hand").getBoundingClientRect().height + step; }
-          else y = rowTop + (handoff?.rowHeight ?? handHeight) + step;
+          else y = rowTop + (handoff?.rowHeight ?? handHeight) + (askStep ?? step);
         };
         // D-433 (2026-10-26), D-370 adapted to U35: Answer for Points (U47 d) and all shown answers
         // must be reachable on arrival, with no scroll writer. The SAME untimed
@@ -1292,7 +1292,15 @@ class Reader {
       // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px).
       // SIDECX5: a partially clipped block above the top can wrap and move the first visible line;
       // anchor a block starting within the reader instead, retaining the rounded correction.
-      if (keep) this.placeTop = root.scrollTop += Math.round(keep.getBoundingClientRect().top - was);
+      // U59 c: the rounding's remainder goes to the next pass. Each pass re-measures from where the last one left
+      // the line, so dropping it let the error add up over one slide (78.9 -> 73.95 at 1152px). A line starting that
+      // close to the reader's top then fell above it, lost the anchor, wrapped and jumped 31px. `was` is reused because
+      // the bundle shortens locals and this budget is nearly spent. The remainder cannot go stale: it is under a pixel.
+      if (keep) {
+        was = keep.getBoundingClientRect().top - was + (this.rest || 0);
+        this.rest = was - (was = Math.round(was));
+        this.placeTop = root.scrollTop += was;
+      }
       this.laying = false;
     }
   }

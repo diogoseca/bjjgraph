@@ -40,7 +40,7 @@ MUTANTS = [
      VIDEO, WATCH, DRAG),
     ("watch_commits", APP, "e.stopPropagation(); this._openChoiceWatch(clip, target, watch);", "e.stopPropagation(); this.activateOption(job.card._choiceOpt, this._optPick, job.card); this._openChoiceWatch(clip, target, watch);",
      VIDEO, WATCH, DRAG),
-    ("autoplay", APP, "playerVars: { autoplay: 0, controls: 1,", "playerVars: { autoplay: 1, controls: 1,",
+    ("autoplay", APP, "playerVars: { autoplay: theater ? 1 : 0, controls: 1,", "playerVars: { autoplay: 1, controls: 1,",
      VIDEO, WATCH, DRAG),
     ("shortcut_is_odds", APP, "num && num <= 9 && this.get(\"cardNumbers\", true) ? num : ''", "'58'",
      VIDEO, WATCH, DRAG),

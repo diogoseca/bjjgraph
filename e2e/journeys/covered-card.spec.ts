@@ -336,11 +336,11 @@ test('@curated U52 b a landing rendered with the pane open shows the full card; 
 })
 
 // A real 99-character question (Twister Control, Top, card 1), not injected text.
-// NON-KILL, recorded (U52 b): questions are capped at 100 characters, so no question plus its link
-// needs a third line on a desktop card; trimming on desktop (_fitAskLine without its phone gate) is
-// unobservable with real content, and no spec here can kill that mutant.
+// VIDEO3 supersedes the whole desktop invitation: it is one line while collapsed,
+// with the complete question restored on reveal. desktop-ask-fit-disabled now kills
+// this real-content desktop case as well as the three choices-band widths.
 for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 }]) {
-  test(`@curated U47 d a long question is cut to two lines on a phone and shown whole on desktop (${viewport.width}x${viewport.height})`, async ({ page }) => {
+  test(`@curated U47 d a long question is cut to two lines on a phone and one on desktop (${viewport.width}x${viewport.height})`, async ({ page }) => {
     const measure = () => page.evaluate(() => {
       const el = (window as any).__neural._landEl, q = el.querySelector('[data-land-q]').firstElementChild
       const tx = el.querySelector('[data-land-ask-text]'), go = el.querySelector('[data-land-ask-go]')
@@ -363,8 +363,8 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 
     expect(asking.goHeight, 'the inline link keeps a 44px target').toBeGreaterThanOrEqual(44)
     if (viewport.width <= 640) {
       expect(asking, 'U47 d: a long question is cut to two lines on a phone').toMatchObject({ lines: 2, cut: true })
-      expect(QUESTION.startsWith(asking.text!.slice(0, -1).trimEnd()), 'the trim keeps the question\'s own words, in order').toBe(true)
-    } else expect(asking, 'desktop shows the whole question and still offers Answer for Points').toMatchObject({ text: QUESTION, cut: false })
+    } else expect(asking, 'VIDEO3 the collapsed question and Answer for Points occupy one line').toMatchObject({ lines: 1, cut: true })
+    expect(QUESTION.startsWith(asking.text!.slice(0, -1).trimEnd()), 'the trim keeps the question\'s own words, in order').toBe(true)
     await j.openQuestion()
     expect(await measure(), 'the shown card carries the whole question').toMatchObject({ text: QUESTION, cut: false, goEnds: null })
   })
@@ -435,7 +435,15 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
         outside: !a._landEl.contains(h.el), covered: !!h.el.closest('[data-land-ask]') }
     })
     expect(hand, 'Answer for Points leaves the separate native Moves subtree untouched').toEqual({ same: true, parent: true, cards: true, html: true, outside: true, covered: false })
-    expect([opened.moves.width, opened.moves.height], 'Answer for Points does not resize native Moves').toEqual([covered.moves.width, covered.moves.height])
+    expect(covered.moveCards.length, 'premise: native Moves cards are painted').toBeGreaterThan(0)
+    expect(opened.moveCards.map((c: any) => [c.id, c.width, c.height]), 'Answer for Points does not resize any native Moves card').toEqual(covered.moveCards.map((c: any) => [c.id, c.width, c.height]))
+    if (viewport.width > 640) {
+      // VIDEO3 reserves the collapsed hint inside this wrapper. Reveal removes
+      // only that padding; the native cards above it retain their exact rectangles.
+      expect(opened.moveCards, 'desktop Moves cards keep their exact rectangles through reveal').toEqual(covered.moveCards)
+      expect(opened.moves.width).toBe(covered.moves.width)
+      expect(opened.moves.height - covered.moves.height, 'VIDEO3 only the hint padding leaves the choices wrapper on reveal').toBeCloseTo(opened.movesPadding - covered.movesPadding, 2)
+    } else expect([opened.moves.width, opened.moves.height], 'Answer for Points does not resize native Moves').toEqual([covered.moves.width, covered.moves.height])
     if (viewport.width <= 640) {
       expect(opened.moves.top - opened.card.bottom, 'D-433 separate Moves follows the phone question without overlap').toBeGreaterThanOrEqual(16)
       expect(await page.evaluate(() => {

@@ -312,6 +312,19 @@ const stage = (page: Page) => page.evaluate(() => {
   const a = (window as any).__neural
   return { scrollTop: Math.round(a._reader.root.scrollTop), moves: Math.round(a.optionsRef.current.getBoundingClientRect().top), question: Math.round(a._landEl.getBoundingClientRect().top) }
 })
+async function expectAskGap(page: Page) {
+  const g = await page.evaluate(() => {
+    const a = (window as any).__neural, ask = a._landEl.querySelector('[data-land-ask-text]')
+    const cards = [...a.optionsRef.current.querySelectorAll('[data-tech]')].map((c: Element) => c.getBoundingClientRect()).filter((b: DOMRect) => b.width && b.height)
+    if (!cards.length) throw Error('No painted Moves cards')
+    const css = getComputedStyle(a._landEl)
+    return { gap: ask.getBoundingClientRect().top - Math.max(...cards.map((b: DOMRect) => b.bottom)), token: parseFloat(css.getPropertyValue('--section-gap')), padding: css.padding }
+  })
+  expect(g.gap, 'VIDEO1 painted ask gap follows the section token').toBeCloseTo(g.token, 1)
+  expect(g.gap).toBeGreaterThanOrEqual(5)
+  expect(g.gap).toBeLessThanOrEqual(6.1)
+  expect(g.padding).toBe('0px 0px 0px 3px')
+}
 
 // DASH-R4 (review finding 9a): the line is picked by GEOMETRY, not by the reader's own anchor rule: the first text
 // line at or below the reader's top in the grid's first lane, found by walking a point 30px inside the grid's left
@@ -345,17 +358,50 @@ for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const de
   })
 }
 
+// A depth lands wherever the page's height puts it, so a merge can move the cases above off the landings that matter:
+// v1.249.0's merge put the 30% line 4.9px under the reader's top and only then showed a real 31px jump. These two
+// landings are set by geometry, on a list item that wraps as the pane opens, so they hold at any page height.
+//   just under: the rounding's remainder must not carry the block out of the anchor (reader-rounding-remainder-dropped)
+//   clipped by: the anchor must be the next block, not the one that grows (reader-clipped-block-anchored)
+for (const [label, offset] of [['just under', 2], ['clipped by', -10]] as const) {
+  test(`U59 c: at 1152x900 opening Explore holds the place around a wrapping block ${label} the reader's top`, async ({ page }) => {
+    const j = await boot(page, 1152, 900)
+    await page.emulateMedia({ reducedMotion: 'no-preference' })
+    const before = await page.locator(READY).evaluate((e, offset) => {
+      const block = [...e.querySelectorAll('li')].find(li => li.textContent!.trim().startsWith('Understanding of base maintenance'))
+      if (!block?.nextElementSibling) throw Error('Mount/Top no longer carries the wrapping prerequisite this journey lands on')
+      e.scrollTop += block.getBoundingClientRect().top - e.getBoundingClientRect().top - offset
+      return new Promise<{ top: number, height: number, landed: number }>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
+        const line = offset < 0 ? block.nextElementSibling! : block
+        line.setAttribute('data-test-place', ''); block.setAttribute('data-test-wraps', '')
+        done({ top: line.getBoundingClientRect().top, height: block.getBoundingClientRect().height, landed: block.getBoundingClientRect().top - e.getBoundingClientRect().top })
+      })))
+    }, offset)
+    expect(Math.abs(before.landed - offset), 'premise: the block landed where this journey put it').toBeLessThanOrEqual(1)
+    await openExplore(page, j)
+    const after = await page.locator(READY).evaluate(e => ({
+      top: e.querySelector('[data-test-place]')!.getBoundingClientRect().top,
+      height: e.querySelector('[data-test-wraps]')!.getBoundingClientRect().height }))
+    expect(after.height, 'premise: the block wraps as the pane opens').toBeGreaterThan(before.height)
+    expect(Math.abs(after.top - before.top), `the line keeps its place (${before.top} -> ${after.top})`).toBeLessThanOrEqual(8)
+  })
+}
+
 // DASH-R4 (review finding 1): at the arrival the stage (node band, Moves, the question) owns the reader's top. Opening
 // Explore at 1152 flips the film from beside the question to above it and shortens the stage; on R3 the place anchor
-// then scrolled the reader 53px and pulled the Moves row over the current node. Dev holds still; so must this.
-test('U59 c: at 1152x900 opening Explore at the arrival moves nothing on the stage', async ({ page }) => {
+// then scrolled the reader 53px and pulled the Moves row over the current node. VIDEO1 intentionally moves the
+// question to a 6px painted gap as the free pane narrows; the reader and Moves must still hold their place.
+// responsive-ask-gap-doubled kills the replacement gap assertions here and in article-sections.spec.ts.
+test('U59 c: at 1152x900 opening Explore at the arrival keeps the reader and Moves anchored', async ({ page }) => {
   const j = await boot(page, 1152, 900)
   await page.emulateMedia({ reducedMotion: 'no-preference' })
   const before = await stage(page), grid = await page.evaluate(() => Math.round((window as any).__neural._reader.body.getBoundingClientRect().width))
   expect(before.scrollTop, 'premise: the reader is at its top').toBe(0)
   await openExplore(page, j)
   expect(await page.evaluate(() => Math.round((window as any).__neural._reader.body.getBoundingClientRect().width)), 'premise: the grid changed').not.toBe(grid)
-  expect(await stage(page), 'the reader stays at its top, and the Moves row and the question where they were').toEqual(before)
+  const after = await stage(page)
+  expect({ scrollTop: after.scrollTop, moves: after.moves }, 'the reader stays at its top and Moves stays in place').toEqual({ scrollTop: before.scrollTop, moves: before.moves })
+  await expectAskGap(page)
 })
 
 test('U59 c: a desktop window narrowed at the arrival (1440 to 900) leaves the reader at its top', async ({ page }) => {
@@ -365,7 +411,9 @@ test('U59 c: a desktop window narrowed at the arrival (1440 to 900) leaves the r
   await page.setViewportSize({ width: 900, height: 900 })
   for (let i = 0; i < 6; i++) await j.advance(100)
   await j.readerLayoutSettled()
-  expect(await stage(page), 'the reader stays at its top, and the Moves row and the question where they were').toEqual(before)
+  const after = await stage(page)
+  expect({ scrollTop: after.scrollTop, moves: after.moves }, 'the reader stays at its top and Moves stays in place').toEqual({ scrollTop: before.scrollTop, moves: before.moves })
+  await expectAskGap(page)
 })
 
 test('U59 c: a phone turned to landscape and back (390x844, 844x390, 390x844) leaves the reader at its top', async ({ page }) => {

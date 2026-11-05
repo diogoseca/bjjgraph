@@ -13668,6 +13668,53 @@ the drawer and reader-position changes. Both package manifests now use 1.242.1;
 the following app-only fingerprint commit regenerates its rows from this clean
 merged source. The guarded site census is unchanged; no capture is required.
 
+## v1.244.0 — Current video theater and the ask line (VIDEO1)
+
+The ask text follows the visible Moves cards at the existing 6px section-spacing token on
+mobile and tablet, with its `0 0 0 3px !important` padding retained. The media owner supplies
+the reading stage's geometry: below 1152px of available pane width, its own video fills the
+reading column (680px maximum with 16px phone gutters); desktop keeps a 400px film below
+the collapsed hint and beside the expanded question. Technique media remains outside
+question, flashcard and multiple-choice cards.
+
+Play loads the YouTube API on demand and requests autoplay. Only the video rectangle moves
+into a root-portaled native dialog: a 360ms zoom to 95% viewport width, capped by 95% viewport
+height at the clip's aspect ratio, with a 60% black backdrop. The card, title and score stay
+in their measured place. Reduced motion skips the animation. Escape, backdrop and the
+visible Close destroy the player and restore Play focus; modal focus, graph input guards,
+pointer-capture cancellation and keyboard priority isolate playback from the underlying map.
+The iframe is constructed in its final home, so resize never reparents its live document.
+While focus is inside the cross-origin YouTube controls, Escape stays with the provider;
+Shift+Tab back to Close restores the Escape exit. Close and the dim remain pointer exits.
+
+VIDEO1's source controls cover gap, tablet/desktop widths, both fit limits, rectangle-only
+zoom, dim, autoplay, every exit, entry/return focus, graph/keyboard guards and reduced motion.
+The shared reader's layout call replaces its local media-width decision without deferred
+growth. Existing reference-film continuity and choice-video behavior remain independently
+exercised; current-film and pane journeys now assert the requested theater lifecycle.
+
+The three shard-1 failures on the original theater head were stale spacing assertions.
+Opening Explore at 1152px or narrowing 1440px to 900px preserves the reader's scroll and
+Moves position while the question moves to the requested six-pixel visible gap. The 390px
+section journey now measures painted card/text edges instead of wrapper padding. Both
+journeys retain their scroll, section, DOM-identity and overflow checks. The compiled
+`responsive-ask-gap-doubled` control targets all three replacement assertions, with an
+unaffected desktop film-width case. The package lock now agrees with the reserved 1.244.0
+release already named by the package manifest; no budget or baseline changes.
+
+VIDEO3 makes the collapsed desktop question one hint line inside the choices row's bottom
+band, using the same six-pixel token as mobile and tablet. Only the question is trimmed;
+Answer for Points stays whole. Reveal restores the full question and the row's original
+padding without moving its choices. The real Side Control question is checked at 1024,
+1440 and 1920px, with separate controls for fitting, attachment and padding restoration.
+The long Twister Control question keeps its two-line tall-phone allowance and now uses one
+line on desktop; the expanded card still shows the complete authored question.
+
+The new stage height exposed a reader-place bug at 1152px: its anchor could start above the
+viewport, then grow by a wrapped line and move the next visible paragraph by 20.64px. The
+reader now anchors a fully visible block. The existing eight-pixel bound, arrival gate and
+reopen gate remain; a source control restores the clipped-block selection.
+
 ## v1.246.0 — per-escape clips: `defender.escape_clips` (owner ESC1)
 
 Every submission escape card showed "Video unavailable" by design: 1,049 choices across 287 submissions, because
@@ -13860,9 +13907,113 @@ whole suite measures it.
 **Eager gzip checkpoint (LADDERPAY1).** Dev's own 343,788 B, +4,203 from 339,585; this version's
 merged tree stood at +5,755, over the 5,000 B cap. See the commit for the method.
 
+## v1.249.0 — The reader's place: the rounding's remainder (combined #332 validation)
+
+Merging dev v1.247.1 moved Mount/Top's page height, so the 1152px 30% case of `article-dashboard` landed its line
+4.9px under the reader's top instead of 38px, and went red deterministically, 4 of 4 identical (78.90625 -> 47.953125,
+31px against the unchanged 8px bound). The spec was right. A frame trace of the anchor showed the mechanism: each pass
+rounds its correction and re-measures from where the last pass left the line, so the remainders added up across one
+pane slide (78.9 -> 73.95). The line then fell above `>= top`, lost the anchor to the block below it, wrapped from 51px
+to 77px and jumped. Carrying the remainder to the next pass holds it within half a pixel: all four depth cases now move
+0.05-0.33px, where 1152px 60% had been moving 6.3px inside its bound. `reader.js` grew 37 B (deferred, 50 B of room).
+
+The depth cases reach a landing only by the page's height, which is why a merge could expose this and why the
+clipped-block control stopped having a clipped block to act on. Two journeys now set the landing by geometry, on a list
+item that wraps as the pane opens, and both reader controls aim at them. Known limit, not covered: a line starting
+within half a pixel of the reader's top can still lose the anchor.
+
+On this merge `validate:build-shape` first failed with 103 extra static files. All were stale content-addressed MDP
+generations in this worktree's ignored outputs (`regenerate:mdp` skips existing files, D-285): the 65 files reachable
+from the manifest are exactly the census's count, and removing the rest passed the gate with no baseline change.
+
+The first complete E2E run on the combined head then failed one journey: `panic-card` read the drill 22px above the bottom
+of the options row. That number was the spec's: VIDEO3 grows the row's box to hold the hint, and the drill was 4px clear
+of the cards. Checking it found what the row's box had been hiding. Between the choices and the film there were 40px,
+and Answer for Points has a 44px target, so its box lay over the bottom 8px of the choice above it, on landings and
+drills alike, at tablet and desktop widths and on short phones. A press there opened the question instead of playing the
+move. Nothing painted it and no press at a card's centre meets it; a 4-9s drill is the worst place for it.
+
+The target now hangs below its label and the film sits one section gap lower, so all 44px fit. That second half is the
+part a first repair missed: moving the box alone put 5.6px of it over the film's Watch and Hide controls, which only a
+measurement on real content showed, because the harness has no film. The rule follows `_fitAskLine`'s one-line case, so
+only a tall phone keeps the old box: 390x844 was clean, 390x631 was not. `ask-line` now samples every choice's bottom
+edge and the film's top edge at six sizes, `panic-card` measures the cards and samples their edges, and six controls
+pin it. The film moving 6px is a visible change, the only one here.
+
+## v1.249.0 — Documentation budget after the video theater (REV332 S4)
+
+`docs/Neural.md` stood at 71,996 of its 72,000 ceiling, so the theater, the 1152px pairing and the desktop one-line
+question had no room, and the review found the spec silent on all three. The ceiling stayed. Each rule below remains in
+Neural.md in shorter form; these are the passages as they read before, verbatim, because they carry the owner quotes and
+retirement notes the current rule no longer needs.
+
+- still force-enables the toggle early. **The White Challenges cue card is retired** (owner) — the challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a remover. **Win chance
+- **Every navigation starts a calm journey** (owner 2026-10-15, v1.227.0, superseding v1.134.0):
+- drill arrows and refuse `_landHidden()`. The retired dots/reveal pager and undeployed `landAnswers` setting have no reader. Paging replaces
+- v1.231.0 (`feedback_owner_rules_reverse_shipped_contracts`): **Your move** replaces Inspect and its option sheet; the reversal history is in the archive. A title
+- included (v1.218.1; they used to clear the hand and show nothing). Its face
+- The separate renderer and red skin are retired. Defense always
+- The "+7 Tilt toward winning" legend retired; the meter is 165×7px.
+- U47 d + U52 b (v1.236.0, owner 2026-10-27/28; supersedes U34 a's in-card **Reveal / Answer for a boost**): a landing
+- The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat — the v1.123.0 Hick's-law knee died with the hand clock) arms
+- pauses** (v1.134.0, owner: "that's our test to the user") — it drains
+- the platform's job); the "see more" hint that also scrolled it was deleted in v1.173.0. A drag
+- **Hesitating costs nothing but the question.** The v1.129.0 hand-over on expiry (`hesitated`) was retired in v1.133.0 with the hand clock: expiry is a missed answer, never a lost turn.
+- flash and the number change only. That retired v1.138.0's expiry lease (`_evExpiry`): nothing outcome-shaped is left to pin. And **one subject per label**
+- **Every ▶ asks, and the seat is the player's** (v1.197.0, owner: "it says we start on top, but what if i wanted to start on bottom?"). `confirmPlayFrom`
+- inside it stay there (⏎ used to reach the option sheet below and commit its move). A graph tap
+
 ## v1.248.2 — K2 batch 1: 67 approved outcome fixes and their page text
 
 67 transitions, plus 82 text follow-ups on 42 rows. Only F68's table was re-cut; 3 success rates and their votes
 seeds follow relabelled rows. F17 was held: a review note called Guillotine Control/Bottom's moves the trapped
 player's, every gate passed with it applied, and two rulings on file said otherwise, so a green gate proved nothing there.
 The four moved FLOW ratchet rows carry their causes in `tests/artifacts/flow_validation_baseline.json`.
+
+## v1.249.0 — The theater's review round (REV332)
+
+An independent review of #332 found no blocker, four should-fix items and nine nits. The seat that reviewed it fixed them.
+
+**A reward notice under the theater was used up unseen (S1).** The notice is ambient, at z 14, and the dialog is in the
+top layer. With three escapes minting a coin while the theater was open, the notice was covered at all three sample
+points, timed out at 5.3s with the theater still open, and never came back. The control showed it normally. D-326 had
+already solved this for a move, so the theater reuses that hold and release. The coin or patch was never lost, only the
+notice. The trigger is narrow: a notice showing at Play, or `white.film` being the last open white challenge. The first
+spec draft polled for the notice to go, which passes without the hold because the notice times itself out at 4.8s inside
+a 5s poll; the assertion now reads once. The choice-watch dialog has the same gap and is out of this round's scope.
+
+**A blocked provider script left the theater on its poster (S2).** Nothing settled `ytApiReady`, so `fail()` could never
+run: 1 theater, 0 iframes, 0 links after 6s. The review's proposed fix was incomplete. Clearing `_ytPromise` alone would
+have made a retry wait forever, because the id check would find the old tag and skip the request, so `onerror` removes the
+tag too. `fail()` now fires `video_load_failed`.
+
+**The rewrite had dropped three film proofs (S3).** `reading-media-placement` went from 82 to 68 assertions and its comment
+said the reference cases kept them. They did not: no reference case moved a playing film without `moveBefore`, and none
+pressed Resume. Resume is now pressed by mouse, and the fixture cases with no `moveBefore` move a live player again.
+
+**`docs/Neural.md` never mentioned the theater (S4).** It stood at 71,996 of 72,000. Fifteen passages moved to this archive
+verbatim (the entry above), the ceiling stayed, and the file is at 71,929.
+
+**The link and the article's close (N6).** The overlap was 91 px² on dev and this PR had grown it to 142 px² of a 1,936 px²
+target. The close now takes that corner by stacking, in the eager CSS because `reading.css` has 13 B of room. 3 px² remain
+at its rounded corner, outside its own hit shape, so they were never its presses; the spec counts only points where the
+close would have received the press.
+
+**A recorded non-kill.** `_readOwnScroll`'s theater guard has no control and cannot have one here: `_readMax` is 0 in the
+book view and in the map view, measured with a revealed card at 390x631, because the reader has adopted the card.
+
+**Controls.** All 40 rows of `tests/artifacts/video_theater_mutants.json` killed at their named assertions on the final
+source, with exact restoration: 13 and 27, in two locked runs. That includes the 13 theater rows the combined run had not
+repeated, which needed proving again because this round changed the code they guard.
+
+**Merging dev v1.248.2 moved the four MDP rows, and the cause was this PR, not content.** `opponentPolicyHash` and
+`manifestHash` differ from dev's capture because `regenerate_mdp_data.py` hashes the bytes of `app.src.jsx` as
+`gameplayHash`. `graphHash`, `modelHash`, the five law hashes, the wire and the content all equal dev's, and the sizes are
+equal. D-282 names this move as expected. The review had called the same difference a minifier swap, which was wrong.
+
+**A flake, not ours.** `test_request_start_pacing_is_global_and_concurrency_is_bounded` in `tests/verify_clips_test.py`
+failed once in `ci:validate`, then 3 of 8 alone on the same tree. It asserts a 19ms gap between stamps taken after threads
+wake, so scheduler jitter breaks it. Test and script are identical to dev. The full replay then passed.
+
+**On the merged head:** `ci:validate` 25 of 25, 1,380 units, 0 skipped; 197 focused journeys of 197; eager gzip 346,897 B,
++3,109 B on the unchanged baseline, of which this round is +256 B; deferred 506,804 of 506,817 B.
