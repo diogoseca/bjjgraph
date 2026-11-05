@@ -94,6 +94,58 @@ for (const width of [1024, 1440, 1920]) {
   })
 }
 
+// The link's 44px target has to fit between the choices and the film, and every neighbour keeps its own presses: 8px of
+// it had lain over the bottom of the choice above, where a press opened the question instead of playing the move, and
+// the first repair moved those 8px onto the film's Watch and Hide controls. elementFromPoint, because no press at a
+// control's centre ever meets either. Tablets and short phones attach the line the same way, without the band; only a
+// tall phone stands its two-line question apart.
+for (const [width, height] of [[390, 631], [390, 844], [768, 900], [1024, 900], [1440, 900], [1920, 900]]) {
+  test(`VIDEO3 at ${width}x${height} Answer for Points takes no press from the choices or the film`, async ({ page }) => {
+    await boot(page, width, height)
+    const g = await page.evaluate(() => {
+      const a = (window as any).__neural, row = a.optionsRef.current as HTMLElement
+      const go = document.querySelector("[data-land-ask-go]") as HTMLElement
+      const cards = [...row.querySelectorAll("[data-tech]")].filter(c => c.getBoundingClientRect().height)
+      const film = a._landFilmEl as HTMLElement | null
+      const sample = (el: Element, rows: number[]) => {
+        const b = el.getBoundingClientRect(); let samples = 0, stolen = 0
+        for (let x = b.left + 8; x < b.right - 8; x += 4) for (const y of rows) {
+          const at = document.elementFromPoint(x, y)
+          if (!at) continue
+          samples++
+          if (go.contains(at)) stolen++
+        }
+        return { samples, stolen }
+      }
+      const edges = cards.map(c => { const b = c.getBoundingClientRect().bottom; return sample(c, Array.from({ length: 12 }, (_, i) => b - 1 - i)) })
+      const filmTop = film ? film.getBoundingClientRect().top : null
+      const onFilm = film ? sample(film, Array.from({ length: 12 }, (_, i) => filmTop! + 1 + i)) : null
+      go.focus({ preventScroll: true })
+      const box = go.getBoundingClientRect(), ring = getComputedStyle(go, "::before")
+      const range = document.createRange()
+      range.selectNode([...go.childNodes].find(n => n.nodeType === Node.TEXT_NODE)!)
+      const label = range.getBoundingClientRect()
+      return { samples: edges.reduce((n, e) => n + e.samples, 0), stolen: edges.reduce((n, e) => n + e.stolen, 0), onFilm, filmTop,
+        height: box.height, top: box.top, bottom: box.bottom, cardsBottom: Math.max(...cards.map(c => c.getBoundingClientRect().bottom)),
+        focused: go.matches(":focus-visible"), ringStyle: ring.outlineStyle, label: { top: label.top, bottom: label.bottom },
+        ring: { top: box.top + parseFloat(ring.top), bottom: box.bottom - parseFloat(ring.bottom) } }
+    })
+    expect(g.samples, "premise: the choices' bottom edges were sampled").toBeGreaterThan(0)
+    expect(g.stolen, "VIDEO3 Answer for Points takes no press from the choices").toBe(0)
+    expect(g.top, "VIDEO3 Answer for Points starts below the choices").toBeGreaterThanOrEqual(g.cardsBottom)
+    expect(g.onFilm?.samples, "premise: this page shows its film").toBeGreaterThan(0)
+    expect(g.onFilm!.stolen, "VIDEO3 Answer for Points takes no press from the film").toBe(0)
+    expect(g.bottom, "VIDEO3 Answer for Points ends above the film").toBeLessThanOrEqual(g.filmTop! + .5)
+    expect(g.height, "VIDEO3 the link keeps its 44px target").toBeGreaterThanOrEqual(44)
+    expect(g.focused, "premise: the link shows keyboard focus").toBe(true)
+    if (width <= 640 && height >= 700) return
+    expect(g.ringStyle, "VIDEO3 the focus ring is drawn").toBe("solid")
+    expect(g.ring.top, "VIDEO3 the focus ring stays on the label").toBeLessThanOrEqual(g.label.top)
+    expect(g.ring.bottom, "VIDEO3 the focus ring stays on the label").toBeGreaterThanOrEqual(g.label.bottom)
+    expect(g.ring.bottom - g.ring.top, "VIDEO3 the focus ring stays on the label").toBeLessThanOrEqual(g.label.bottom - g.label.top + 12)
+  })
+}
+
 test("@curated VIDEO3 resize and reveal restore the choices row's original padding", async ({ page }) => {
   const j = await boot(page, 900)
   const padding = () => page.evaluate(() => getComputedStyle((window as any).__neural.optionsRef.current).paddingBottom)

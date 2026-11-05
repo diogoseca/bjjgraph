@@ -13925,3 +13925,17 @@ within half a pixel of the reader's top can still lose the anchor.
 On this merge `validate:build-shape` first failed with 103 extra static files. All were stale content-addressed MDP
 generations in this worktree's ignored outputs (`regenerate:mdp` skips existing files, D-285): the 65 files reachable
 from the manifest are exactly the census's count, and removing the rest passed the gate with no baseline change.
+
+The first complete E2E run on the combined head then failed one journey: `panic-card` read the drill 22px above the bottom
+of the options row. That number was the spec's: VIDEO3 grows the row's box to hold the hint, and the drill was 4px clear
+of the cards. Checking it found what the row's box had been hiding. Between the choices and the film there were 40px,
+and Answer for Points has a 44px target, so its box lay over the bottom 8px of the choice above it, on landings and
+drills alike, at tablet and desktop widths and on short phones. A press there opened the question instead of playing the
+move. Nothing painted it and no press at a card's centre meets it; a 4-9s drill is the worst place for it.
+
+The target now hangs below its label and the film sits one section gap lower, so all 44px fit. That second half is the
+part a first repair missed: moving the box alone put 5.6px of it over the film's Watch and Hide controls, which only a
+measurement on real content showed, because the harness has no film. The rule follows `_fitAskLine`'s one-line case, so
+only a tall phone keeps the old box: 390x844 was clean, 390x631 was not. `ask-line` now samples every choice's bottom
+edge and the film's top edge at six sizes, `panic-card` measures the cards and samples their edges, and six controls
+pin it. The film moving 6px is a visible change, the only one here.

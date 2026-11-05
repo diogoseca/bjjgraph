@@ -390,6 +390,20 @@
   [data-land-ask-go]::after{content:" \2192"/"";}
   [data-land-ask-go]:focus-visible{outline:2px solid #9cbcff;outline-offset:-10px;}
   @media(hover:hover){[data-land-ask-go]:hover{color:#e0e9ff;}}
+  /* The attached line (VIDEO3, PR-B). Between the choices and the film there were 40px, and the link's target is 44px:
+     it hung 8px over the choice above, where a press opened the question instead of playing the move, and that edge
+     paints nothing and no press at a card's centre meets it. So the target hangs below its label, wholly off the cards
+     (5px, not 6: VIDEO3's gap is 5.98px, and the rounded top would keep one pixel row of the card), and the card's
+     transparent border, which the row band and the film both measure, gives the film one section gap more so the
+     target clears it too. Padding is pinned, so it is the border. The label does not move. The ring moves to ::before
+     because an outline offset is symmetric and this box no longer is. The query is _fitAskLine's one-line case: only a
+     tall phone keeps the rules above, its two-line question standing apart from the cards. Pinned by ask-line.spec.ts and panic-card.spec.ts. */
+  @media(min-width:641px),(max-height:699px){
+    .ng-landcard[data-land-ask]{border-bottom-width:7px!important;}
+    [data-land-ask-go]{position:relative;margin:-5px -6px -23px;padding:5px 6px 23px;}
+    [data-land-ask-go]:focus-visible{outline:0;}
+    [data-land-ask-go]:focus-visible::before{content:"";position:absolute;inset:1px 10px 19px;outline:2px solid #9cbcff;}
+  }
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */
   /* .ng-clock-hot is a MARKER CLASS with no rule (v1.135.1). It used to carry

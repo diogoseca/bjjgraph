@@ -32,6 +32,21 @@ const geo = (page: any) =>
     if (!p) return null;
     const row = a.optionsRef.current as HTMLElement;
     const pb = p.getBoundingClientRect(), rb = row.getBoundingClientRect();
+    const cards = [...row.querySelectorAll("[data-tech]")].filter((c) => c.getBoundingClientRect().height);
+    // VIDEO3: a collapsed question, the drill's included, is one hint line inside the row's bottom band, so the
+    // row's box now holds this card by design. "Clear of the escape hand" is a claim about the CARDS, and about a
+    // press as much as a picture: Answer for Points kept a 44px target and took the bottom 8px of the escape under
+    // it, which paints nothing and which a press at a card's centre never meets.
+    let samples = 0, stolen = 0;
+    for (const c of cards) {
+      const b = c.getBoundingClientRect();
+      for (let x = b.left + 8; x < b.right - 8; x += 4) for (let up = 1; up <= 12; up++) {
+        const at = document.elementFromPoint(x, b.bottom - up);
+        if (!at) continue;
+        samples++;
+        if (p.contains(at)) stolen++;
+      }
+    }
     return {
       inOptionsRow: row.contains(p),
       isLandCard: p.classList.contains("ng-landcard"),
@@ -40,7 +55,8 @@ const geo = (page: any) =>
       // D-338: the article view reads Moves then Questions, so the drill sits below the escape tray;
       // the map view keeps it above. D-352 N3: each view asserts its own direction.
       view: a.get("readerBook", true) !== false ? "article" : "map",
-      belowTray: Math.round(pb.top - rb.bottom),
+      belowTray: Math.round(pb.top - Math.max(...cards.map((c) => c.getBoundingClientRect().bottom))),
+      edge: { samples, stolen },
       aboveTray: Math.round(rb.top - pb.bottom),
       width: Math.round(pb.width),
       escapeCards: row.querySelectorAll("[data-tech]").length,
@@ -67,6 +83,8 @@ test("the panic drill is a landing card, clear of the escape hand @curated", asy
   if (g!.view === "article") expect(g!.belowTray, "in the article view it sits below the escape tray, clear of it (D-338: Moves, then Questions)").toBeGreaterThanOrEqual(0);
   else expect(g!.aboveTray, "in the map view it sits above the escape tray, clear of it").toBeGreaterThanOrEqual(0);
   expect(g!.view, "premise: this journey reads the article view").toBe("article");
+  expect(g!.edge.samples, "premise: the escape cards' bottom edges were sampled").toBeGreaterThan(0);
+  expect(g!.edge.stolen, "a press on an escape card's bottom edge is that escape, never the drill").toBe(0);
   expect(g!.width, "card width, not a 236px tray item").toBeGreaterThan(300);
   expect(g!.escapeCards, "and every escape is still dealt").toBeGreaterThan(0);
 });
