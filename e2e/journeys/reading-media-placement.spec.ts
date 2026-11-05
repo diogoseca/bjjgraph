@@ -158,10 +158,40 @@ for (const [path, width, fixture] of [
     expect(await continuity(), 'D-501: reopening Videos preserves the iframe document and player').toMatchObject(intact)
     expect(await continuity(), 'reopening never autoplays').toMatchObject({ paused: true, extraPlay: 0 })
     const stoppedAt = await page.evaluate(() => (window as any).__referenceLive.video.currentTime)
-    await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo())
+    await page.locator('[data-film-resume]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    await j.clickByMouse('[data-film-resume]', 'only the visible Play resumes the stopped clip')
+    await expect(page.locator('[data-film-resume]'), 'Resume is spent once the clip plays').toHaveCount(0)
     await expect.poll(() => page.evaluate(() => (window as any).__referenceLive.video.currentTime)).toBeGreaterThan(stoppedAt + .1)
     expect(await continuity(), 'D-501: resumed reference playback still owns the original document and player').toMatchObject({ ...intact, paused: false, extraPlay: 1 })
     expect(await dormant()).toEqual(resting)
+    // With no moveBefore, moving a live player reloads its iframe. place() is the one placement writer, and
+    // this is the contract the current technique's film gave up when it moved to the theater: pause first,
+    // strand the old document, keep the host, and rebind only on Resume.
+    if (!native) {
+      await page.evaluate(() => {
+        const w = window as any, a = w.__neural, home = a._reader.mediaHome, append = home.appendChild
+        w.__mediaEvents.length = 0
+        home.appendChild = function (node: Node) { if (node === a._landFilmEl) w.__mediaEvents.push('append'); return append.call(this, node) }
+        a._reader.place(home)
+      })
+      const moved = () => page.evaluate(() => {
+        const w = window as any, a = w.__neural, frame = a._landFilmEl.querySelector('iframe'), card = a._expandedClip
+        return { host: a._landFilmEl === w.__referenceLive.host, stale: !!card?._mediaStale, player: card?._player === w.__referenceLive.player,
+          source: frame?.getAttribute('src'), frames: document.querySelectorAll('[data-land-film] iframe').length, events: w.__mediaEvents.slice() }
+      })
+      const stranded = await moved()
+      expect(stranded.events.slice(0, 2), 'the fallback pauses before it appends').toEqual(['pause', 'append'])
+      expect(stranded, 'the move strands the old document and keeps the host').toMatchObject({ host: true, stale: true, player: false, source: 'about:blank', frames: 1 })
+      await page.waitForTimeout(350)
+      expect((await moved()).events, 'nothing restarts a stranded clip').not.toContain('play')
+      await page.evaluate(() => { const a = (window as any).__neural; a._reader.place(a._reader.mediaSlot) })
+      await page.locator('[data-film-resume]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+      await j.clickByMouse('[data-film-resume]', 'only the visible Play rebinds a stranded clip')
+      await expect.poll(async () => (await moved()).events, { message: 'Resume rebinds a fresh player and plays it' }).toContain('play')
+      expect(await moved(), 'the rebound clip owns one fresh player in the same host').toMatchObject({ host: true, stale: false, frames: 1, player: false })
+      await expect(page.locator('[data-film-resume]')).toHaveCount(0)
+      expect(await dormant()).toEqual(resting)
+    }
     if (!fixture) {
       const link = page.locator('[data-reader-body] a[href*="/Principles/Distance-Control"]').first()
       await link.scrollIntoViewIfNeeded(); await link.evaluate(el => el.setAttribute('data-reference-next', ''))
@@ -175,9 +205,10 @@ for (const [path, width, fixture] of [
   })
 }
 
-// VIDEO1 supersedes in-card game playback. A current technique's player is
-// portaled before construction; resize never moves its live iframe. The
-// reference cases above retain the native-move and stationary fallback proofs.
+// VIDEO1 supersedes in-card game playback. A current technique's player is portaled before
+// construction; resize never moves its live iframe. The reference cases above keep the rest of
+// the contract: Videos closed and reopened around a live player, Resume pressed by mouse and,
+// with no moveBefore, the pause-before-append move that rebinds only on Resume.
 for (const width of [1366, 390]) for (const native of [true, false]) {
   test(`@curated ${width}px theater preserves the player across resize (${native ? 'native move support' : 'no move support'})`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 768 })
