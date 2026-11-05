@@ -6,9 +6,8 @@ import { curriculumMid, CURRICULUM } from "./personas"
 /**
  * FOG SET IGNORES PROGRESS AND TRACK SELECTION — the canvas fog-of-war and the study
  * economy are separate systems that must NOT leak into each other. For a mid-curriculum
- * white belt the Challenges view renders only the SELECTED track's lessons (white by
- * default, v1.74 — track locks themselves are retired: every track is open), yet blue's
- * lesson nodes glow undimmed on the canvas: the fog answers "is this on the curriculum?",
+ * white belt, Path renders the eligible White section and locks Blue's progression
+ * controls (U87), yet Blue's lesson nodes glow undimmed on the canvas: the fog answers "is this on the curriculum?",
  * never "is this rendered / studied yet?".
  *
  * Mechanism under test (neural/src/app.src.jsx):
@@ -91,22 +90,10 @@ test("curriculum-mid: unselected blue lesson's node sits INSIDE the fog set; mem
 
   // ── selection evidence: blue is genuinely UNSELECTED (and thus unrendered) for this persona ──
   const blueCard = page.locator(`.ng-track-card[data-track="${BLUE.id}"]`)
-  expect(await blueCard.count(), "blue track card renders (all tracks open, v1.74)").toBe(1)
-  expect(
-    await blueCard.first().getAttribute("aria-pressed"),
-    "blue is NOT the selected track (white is the default)",
-  ).toBe("false")
-  // v1.76.0 ladder: every track's curriculum renders, so the blue lesson DOES have a row —
-  // but only inside BLUE's own section. Selection still governs the objectives detail, so
-  // set membership below still cannot be an artifact of the selected view.
-  expect(
-    await page.locator(`[data-track-curriculum="${BLUE.id}"] [data-lesson="${TARGET.l.deckKey}"]`).count(),
-    "unselected blue lesson renders inside blue's ladder section",
-  ).toBe(1)
-  expect(
-    await page.locator(`.ng-challenge-detail [data-lesson="${TARGET.l.deckKey}"]`).count(),
-    "and not inside the selected track's objectives detail",
-  ).toBe(0)
+  expect(await blueCard.count(), "P1-B: an unearned Blue section has no selectable header").toBe(0)
+  await expect(page.locator(`[data-belt="${BLUE.id}"][data-belt-locked]`)).toHaveCount(1)
+  expect(await page.locator(`[data-track-curriculum="${BLUE.id}"] [data-lesson="${TARGET.l.deckKey}"]`).count(),
+    "P1-B: locked progression has no lesson DOM; its graph membership still survives below").toBe(0)
 
   // ── the four membership claims, read off the live instance the way the fog draw does ──
   const verdict = await page.evaluate(

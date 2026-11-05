@@ -110,7 +110,7 @@ test.describe("Game Knowledge @curated", () => {
     ]);
   });
 
-  test("Game Knowledge never gates content tracks or lessons", async ({
+  test("earned tracks stay open independently of current Game Knowledge", async ({
     page,
   }) => {
     const j = journey(page);
@@ -120,6 +120,7 @@ test.describe("Game Knowledge @curated", () => {
       const app = (window as any).__neural;
       app.stage = {};
       app.rec = {};
+      app.belts = { ...app.belts, held: { id: "black", t: 1 }, gf: 1 };
       app._stageVer = (app._stageVer || 0) + 1;
     });
     await openChallenges(page);
@@ -170,7 +171,7 @@ test.describe("Game Knowledge @curated", () => {
     expect(lower.score).toBeLessThan(peak.score);
 
     await openChallenges(page);
-    await expect(page.locator(".ng-track-card")).toHaveCount(5);
+    await expect(page.locator(".ng-belt-section")).toHaveCount(5);
     // no meter visual anymore (v1.98.1) — the subtitle reads the lowered score
     await j.openAccountMenu();
     await expect(page.locator("[data-menu-mastered]")).toHaveText(

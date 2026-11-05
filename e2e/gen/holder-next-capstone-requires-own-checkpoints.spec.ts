@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"content-capstone","B":"guard-limit"} @invariant "Clearing White's content capstone does not open or close tracks: Blue is immediately browseable, but its own capstone remains unavailable until every Blue unit checkpoint carries evidence." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"content-capstone","B":"guard-limit"} @invariant "A White-capstone holder opens the earned White and Blue sections while Purple stays an inert section (U87); Blue's own capstone remains unavailable until every Blue unit checkpoint carries evidence." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { whiteBeltHolder, CURRICULUM } from "./personas"
@@ -13,10 +13,13 @@ test("white capstone does not gate Blue content; Blue capstone needs Blue checkp
 
   await expect(page.locator('[data-view="challenges"]')).toBeVisible()
   await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
-  expect(await page.locator(".ng-track-card").count()).toBe(CURRICULUM.belts.length)
-  for (const track of [WHITE, BLUE, PURPLE]) {
+  expect(await page.locator(".ng-belt-section").count()).toBe(CURRICULUM.belts.length)
+  for (const track of [WHITE, BLUE]) {
     await expect(page.locator(`.ng-track-card[data-track="${track.id}"]`)).toBeVisible()
   }
+
+  await expect(page.locator(`[data-belt="${PURPLE.id}"][data-belt-locked]`)).toHaveCount(1)
+  await expect(page.locator(`[data-track="${PURPLE.id}"]`)).toHaveCount(0)
 
   await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click()
   expect(await page.locator(`[data-capstone="${WHITE.id}"] button`).isDisabled()).toBe(true)

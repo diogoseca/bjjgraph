@@ -19,12 +19,23 @@ const progressBlob = (overrides: Record<string, unknown> = {}) => ({
   ...overrides,
 });
 
+async function earnedTracks(page: any) {
+  await page.evaluate(() => {
+    const a = (window as any).__neural;
+    a.belts = { ...a.belts, held: { id: "black", t: 1 }, gf: 1 };
+    a.settings.challengeSelectedTrack = "white";
+    a.set("challengeOpenSections", { white: true, black: false });
+    a._saveProgress();
+  });
+}
+
 test.describe("Challenges UI @curated", () => {
-  test("all content tracks and lessons are open while capstones require evidence", async ({
+  test("earned content tracks and lessons open while capstones still require evidence", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
+    await earnedTracks(page);
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
@@ -93,7 +104,7 @@ test.describe("Challenges UI @curated", () => {
     ).toEqual([]);
   });
 
-  test("pinning is gone: the corridor opens itself at the topmost incomplete belt", async ({
+  test("pinning is gone: the corridor opens at the worn belt after earned advancement", async ({
     page,
   }) => {
     const j = journey(page);
@@ -132,8 +143,11 @@ test.describe("Challenges UI @curated", () => {
       const a = (window as any).__neural;
       a.prep = a.prep || {};
       const beltDef = a.curriculum.belts.find((b: any) => b.id === "white");
-      for (const unit of beltDef.units)
+      for (const unit of beltDef.units) {
+        a.units["white/" + unit.id] = { checkpoint: true, t: 1 };
         for (const lesson of unit.lessons) a.prep[lesson.deckKey] = 99;
+      }
+      a._syncBelt();
     });
     await page.locator(".ng-explorer-close").click();
     // the cue follows the frontier belt too
@@ -317,6 +331,7 @@ test.describe("Challenges UI @curated", () => {
     await page.clock.install();
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
+    await earnedTracks(page);
     await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
     const releases: (() => void)[] = [], held: string[] = [];
     for (const name of ["systems-index", "concepts"]) {
@@ -418,6 +433,7 @@ test.describe("Challenges UI @curated", () => {
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
+    await earnedTracks(page);
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
@@ -498,8 +514,10 @@ test.describe("Challenges UI @curated", () => {
       a.prep = a.prep || {};
       for (const belt of a.curriculum.belts) {
         if (belt.id === "black") continue;
-        for (const unit of belt.units)
+        for (const unit of belt.units) {
+          a.units[belt.id + "/" + unit.id] = { checkpoint: true, t: 1 };
           for (const lesson of unit.lessons) a.prep[lesson.deckKey] = 99;
+        }
       }
     });
     await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
@@ -559,6 +577,7 @@ test.describe("Challenges UI @curated", () => {
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
+    await earnedTracks(page);
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);

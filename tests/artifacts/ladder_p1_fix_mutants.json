@@ -1,0 +1,211 @@
+[
+ {
+  "id": "B1-stale-corridor",
+  "file": "neural/src/app.src.jsx",
+  "before": "if (this._session?.practice && this._sessionInline()) this._afterPress(() => this._practiceCorridor());",
+  "after": "void 0;",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "opens its checkpoint without leaving",
+  "assertion": "P1-F: the finished lesson's checkpoint is live in place",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "B2-title-collapses",
+  "file": "neural/src/app.src.jsx",
+  "before": "else if (!s.practice) closeSelf();",
+  "after": "else closeSelf();",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "title row never blanks",
+  "assertion": "P1-E: the title row keeps the card",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "B3-end-below-corridor",
+  "file": "neural/src/app.src.jsx",
+  "before": "this._practiceCorridor(); this._practiceRows(s);",
+  "after": "s.support.appendChild(end); this._practiceCorridor(); this._practiceRows(s);",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "puts the end card",
+  "assertion": "P1-C: the end stands directly under the card",
+  "ran": 2,
+  "killed": true
+ },
+ {
+  "id": "B3-no-scroll",
+  "file": "neural/src/app.src.jsx",
+  "before": "if (s.practice) s.end.scrollIntoView({ block: \"nearest\" }); else this.renderSession();",
+  "after": "if (!s.practice) this.renderSession();",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "finishing at 390",
+  "assertion": "P1-C: the end card is on screen",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "N4-rebuild-at-completion",
+  "file": "neural/src/app.src.jsx",
+  "before": "if (s.practice) s.end.scrollIntoView({ block: \"nearest\" }); else this.renderSession();",
+  "after": "this.renderSession();",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "finishing at 1440",
+  "assertion": "P1-C: finishing never rebuilds the card",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S1-cards-plural",
+  "file": "neural/src/app.src.jsx",
+  "before": "const cards = (n) => count(n, \"card\"), techs",
+  "after": "const cards = (n) => n + \" cards\", techs",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "plain counts",
+  "assertion": "Due reviews · 1 card",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S1-stripes-plural",
+  "file": "neural/src/app.src.jsx",
+  "before": "count(worn.stripes, \"stripe\")",
+  "after": "worn.stripes + \" stripes\"",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "plain counts",
+  "assertion": "White belt · 1 stripe · Gi",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S1-always-claims-new",
+  "file": "neural/src/app.src.jsx",
+  "before": "s.plan?.fresh.length ? s.plan.newCards + \" new across \" + techs(s.plan.fresh.length) + \", \" +\n      (s.plan.status === \"weak-spots\" ? \"weakest first\" : \"ranked by your study comparison\") : \"\"",
+  "after": "(s.plan?.newCards || 0) + \" new across \" + techs(s.plan?.fresh.length || 0) + \", \" + (s.plan?.status === \"weak-spots\" ? \"weakest first\" : \"ranked by your study comparison\")",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "plain counts",
+  "assertion": "P1-F: no plan means no claim about new work",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S2-dead-prompt",
+  "file": "neural/src/app.src.jsx",
+  "before": "mr.disabled = false; mr.textContent = \"Next card\"; mr.onclick = doNext;",
+  "after": "void 0;",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "offers Next card",
+  "assertion": "P1-E: the answered card offers the next one",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S3-lesson-dead",
+  "file": "neural/src/app.src.jsx",
+  "before": "} else this.fx(\"practice_lesson_unplanned\", { deckKey: key, planner });",
+  "after": "} else return;",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "the fallback says so",
+  "assertion": "P1-F: the lesson's card opens",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S3-lesson-silent",
+  "file": "neural/src/app.src.jsx",
+  "before": "} else this.fx(\"practice_lesson_unplanned\", { deckKey: key, planner });",
+  "after": "}",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "the fallback says so",
+  "assertion": "P1-F: the fallback names itself",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S3-belt-silent",
+  "file": "neural/src/app.src.jsx",
+  "before": "this.fx(\"practice_belt_unfiltered\", {});",
+  "after": "void 0;",
+  "spec": "tests/gameplan_runtime.test.mjs",
+  "grep": null,
+  "assertion": "named once, not per paint",
+  "ran": 15,
+  "killed": true
+ },
+ {
+  "id": "S3-belt-every-paint",
+  "file": "neural/src/app.src.jsx",
+  "before": "else if (!this._planUnscoped) {",
+  "after": "else {",
+  "spec": "tests/gameplan_runtime.test.mjs",
+  "grep": null,
+  "assertion": "named once, not per paint",
+  "ran": 15,
+  "killed": true
+ },
+ {
+  "id": "S5-legend-removed",
+  "file": "neural/src/app.src.jsx",
+  "before": "keys.innerHTML = this._keyLegend();",
+  "after": "void 0;",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "Practice retains comparison",
+  "assertion": "P1-F: the key legend stays",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S5-graph-stays",
+  "file": "neural/src/app.src.jsx",
+  "before": "const ni = this.nodeForKey(key); if (ni >= 0) this.locateNode(ni);   // the graph follows the queue",
+  "after": "const ni = this.nodeForKey(key); if (ni >= 0 && !s.practice) this.locateNode(ni);",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "graph follows the queue",
+  "assertion": "the open card's node sits beside the page",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S5-behind-the-page",
+  "file": "neural/src/app.src.jsx",
+  "before": "this._paneWidth = panel.getBoundingClientRect().right;",
+  "after": "this._paneWidth = panel.getBoundingClientRect().width;",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "graph follows the queue",
+  "assertion": "the open card's node sits beside the page",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S5-no-rings",
+  "file": "neural/src/app.src.jsx",
+  "before": "this._sessionNodes = s.keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));",
+  "after": "void 0;",
+  "spec": "e2e/journeys/practice-page.spec",
+  "grep": "graph follows the queue",
+  "assertion": "the queue's rings include it",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "S6-reworded",
+  "file": "neural/src/app.src.jsx",
+  "before": "'You reviewed '",
+  "after": "'You finished '",
+  "spec": "e2e/journeys/gameplan-learning-loop.spec",
+  "grep": "P1-C: completion celebrates",
+  "assertion": "P1-C: the end card states the real ledger",
+  "ran": 1,
+  "killed": true
+ },
+ {
+  "id": "N5-reworded",
+  "file": "neural/src/app.src.jsx",
+  "before": "These are game effects; they don't measure improvement on the mat.\"] };\n  }\n  // Root's evaluation owner",
+  "after": "Game effects don't measure improvement on the mat.\"] };\n  }\n  // Root's evaluation owner",
+  "spec": "e2e/journeys/gameplan-learning-loop.spec",
+  "grep": "D1: a new player",
+  "assertion": "the ranking's own game caveat stays",
+  "ran": 1,
+  "killed": true
+ }
+]

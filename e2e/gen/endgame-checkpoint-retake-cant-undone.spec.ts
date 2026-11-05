@@ -72,6 +72,9 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
+  // P1 opens the held belt; select the earned White section before its retake.
+  await page.locator('.ng-track-card[data-track="white"]').scrollIntoViewIfNeeded()
+  await j.clickByMouse('.ng-track-card[data-track="white"]', "open the earned White section")
 
   // ── pre-state: the pass is on the books and the Challenge control is re-takeable ──
   expect(

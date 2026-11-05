@@ -17,8 +17,10 @@ import { journey } from "../dsl";
  * marker, `data-session-row` (the deck key), and pairs lists by that identity, never by position.
  *
  * WHY A 200-CARD DAILY GOAL. Practice holds as many new decks as the goal buys: ~2 at the default 20, ~20
- * at the 200 maximum. The player sets it in Settings → Flashcards, here by mouse, so every list compared
- * holds at least ROWS_FLOOR rows (§6.6: three rows can agree by accident).
+ * at the 200 maximum. P1 narrows new practice to the current belt. Each comparison now covers three
+ * earned-belt profiles in a fixed order, reading each profile's real rendered queue, then deduplicates
+ * their union. The same 15-distinct-row and 10-shared-row floors remain; a narrow band cannot quietly
+ * reduce the pricing/start evidence. Blue comes first so the Standing-start oracle stays in its band.
  *
  * WHY CLAIM 1 BOOTS TWICE. A gi player's plan differs from a no-gi player's even on no-gi numbers,
  * because the two rulesets reach different states: comparing the two plans cannot tell the gi numbers
@@ -115,6 +117,7 @@ async function bootPlayer(page: Page, opts: { withoutGiHands?: boolean } = {}) {
   });
   await page.evaluate(() => {
     const a = (window as any).__neural, draw = a.rng.bind(a), unrigged: string[] = [];
+    a.belts = { ...a.belts, held: { id: "blue", t: 1 }, gf: 1 }; // P1: keep the ranking controls inside an earned current belt
     (window as any).__weakUnrigged = unrigged;
     a.rng = (tag: string) => { const q = a._rig && a._rig[tag]; if (!q || !q.length) unrigged.push(tag); return draw(tag); };
   });
@@ -123,6 +126,7 @@ async function bootPlayer(page: Page, opts: { withoutGiHands?: boolean } = {}) {
 
 /** Settings, by mouse: the account chip → Settings → a tab; act; Esc closes the modal (and only it). */
 async function inSettings(j: any, page: Page, tab: string | null, act: () => Promise<void>) {
+  if (await page.locator("[data-practice-page]").count()) await j.clickByMouse("[data-pane-back]", "Back to drawer account controls");
   await j.openAccountMenu();
   await j.clickByMouse("[data-menu-settings]", "Settings in the account menu");
   if (tab) await j.clickByMouse(`[data-settings-tab="${tab}"]`, `the ${tab} tab`);
@@ -166,10 +170,10 @@ async function readPlan(page: Page): Promise<Plan> {
   await expect.poll(async () => {
     plan = await page.evaluate(() => {
       const sec = document.querySelectorAll('[data-session-section="Practice"]');
-      const note = sec.length === 1 ? (sec[0] as HTMLElement).innerText.replace(/\s+/g, " ") : "";
-      const m = note.match(/across (\d+) techniques?/);
+      const note = sec.length === 1 ? sec[0].textContent!.replace(/\s+/g, " ") : "";
+      const m = note.match(/new across (\d+) techniques?/);
       const rows = [...document.querySelectorAll("[data-session] [data-session-row]")] as HTMLElement[];
-      return { keys: rows.map((r) => r.getAttribute("data-session-row") as string), names: rows.map((r) => r.innerText.split("\n")[0]),
+      return { keys: rows.map((r) => r.getAttribute("data-session-row") as string), names: rows.map((r) => r.textContent!.split("\n")[0]),
         note, sections: sec.length, maint: document.querySelectorAll('[data-session] [data-practice-kind="due"]').length, across: m ? +m[1] : -1 };
     });
     return plan.sections === 1 && plan.across === plan.keys.length && plan.keys.length > 0;
@@ -180,7 +184,7 @@ async function readPlan(page: Page): Promise<Plan> {
 }
 
 /** ‹ Back out of an open plan (or the logo, if the pane is shut), Explore, then "N new". */
-async function openPlan(j: any, page: Page) {
+async function openBeltPlan(j: any, page: Page) {
   const at = await page.evaluate(() => {
     const back = document.querySelectorAll("[data-pane-back]");
     const r = back.length === 1 ? back[0].getBoundingClientRect() : null;
@@ -193,6 +197,24 @@ async function openPlan(j: any, page: Page) {
   return readPlan(page);
 }
 
+async function acrossBelts(j: any, page: Page, refresh = false): Promise<Plan> {
+  const plans: Plan[] = [];
+  for (const belt of ["blue", "white", "purple"]) {
+    await page.evaluate(id => {
+      const a = (window as any).__neural;
+      a.belts = { ...a.belts, held: { id, t: 1 }, gf: 1 };
+    }, belt);
+    const opened = await openBeltPlan(j, page);
+    plans.push(refresh ? await refreshBeltPlan(j, page) : opened);
+  }
+  expect(plans, "three earned-belt profiles contribute real rendered ranking rows").toHaveLength(3);
+  const keys = [...new Set(plans.flatMap(p => p.keys))];
+  return { keys, names: keys, note: plans.map(p => p.note).join("\n") };
+}
+
+const openPlan = (j: any, page: Page) => acrossBelts(j, page);
+const refreshPlan = (j: any, page: Page) => acrossBelts(j, page, true);
+
 /**
  * The open plan's own "Refresh plan" — the player's way to re-plan without leaving it. It lives in the
  * pane's scroller, which the plan scrolls on its own when it opens the first row's card (on a later frame
@@ -201,7 +223,13 @@ async function openPlan(j: any, page: Page) {
  * still; so does this, and the click itself is still a measured mouse click. A re-render can replace
  * the button while Playwright waits for stability; only that transient readiness failure is retried.
  */
-async function refreshPlan(j: any, page: Page) {
+async function refreshBeltPlan(j: any, page: Page) {
+  if (!await page.locator("[data-practice-page]").count()) await openBeltPlan(j, page);
+  const details = page.locator("[data-practice-details]");
+  if (await details.getAttribute("open") === null) {
+    await details.locator("summary").first().scrollIntoViewIfNeeded();
+    await j.clickByMouse("[data-practice-details] > summary", "open comparison details");
+  }
   const sel = "[data-gameplan-refresh]", button = page.locator(sel);
   await expect(button, "one Refresh plan button").toHaveCount(1);
   const height = page.viewportSize()?.height ?? 900;

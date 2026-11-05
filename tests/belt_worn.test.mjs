@@ -363,3 +363,28 @@ test("the dayLog merge carries the email's belt line", async () => {
   assert.deepEqual(a.dayLog[today].b, ["blue", 0, 2]);
   assert.equal(a.dayLog[today].s, 10, "the score keeps its own rule");
 });
+
+// P1-B: existing held/grandfathered rank is the progression boundary. Reference
+// study is intentionally outside these guards (browser practice-page verifies it).
+test("P1-B: future progression actions cannot use selected/folded tracks as an entitlement", () => {
+  const a = boot({ blob: { belts: { held: { id: "blue", t: 1 }, gf: 1, won: {} } } });
+  a.renderExplorer = () => {};
+  a.settings.challengeSelectedTrack = "black";
+  a.settings.challengeOpenSections = { black: true };
+  assert.equal(a.selectedChallengeTrack(), "blue");
+  assert.equal(a._beltSectionOpen("black"), false, "P1-B stored fold cannot unlock");
+  a.selectChallengeTrack("purple");
+  assert.equal(a.settings.challengeSelectedTrack, "black", "P1-B direct selection rejected");
+  a._setBeltSectionOpen("brown", true);
+  assert.equal(a.settings.challengeOpenSections.brown, undefined, "P1-B direct fold rejected");
+  const unit = a.curriculum.belts[4].units[0];
+  a.openLessonStudy(unit.lessons[0], unit, a.curriculum.belts[4]);
+  assert.equal(a._session, undefined, "P1-B direct future lesson rejected");
+  a.startCheckpoint("black", unit);
+  assert.equal(a._checkpoint, undefined, "P1-B direct future checkpoint rejected");
+  a.startBeltTest("black");
+  assert.equal(a._beltTest, undefined, "P1-B direct future capstone rejected");
+  a.selectChallengeTrack("white");
+  assert.equal(a.selectedChallengeTrack(), "white", "earlier earned sections remain reachable");
+  assert.equal(a.wornBelt().id, "blue", "selection cannot change the worn rank");
+});

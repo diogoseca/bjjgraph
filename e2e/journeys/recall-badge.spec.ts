@@ -190,6 +190,10 @@ test("the Black corridor section advertises the reward, locked and earned", asyn
   const locked = page.locator('[data-recall-reward="locked"]');
   await expect(locked).toHaveCount(1);
   await expect(locked).toContainText("Recall Mode");
+  // v1.248.0: a future belt is inert (U87), and the advert still reaches the belts walking toward it.
+  await expect(locked, "shown to the player the Black section is locked for").toBeVisible();
+  await expect(page.locator('[data-belt-locked] [data-recall-reward="locked"]'), "on the locked section itself").toHaveCount(1);
+  await expect(page.locator("[data-belt-locked] button, [data-belt-locked] a, [data-belt-locked] [tabindex]"), "and the section stays inert").toHaveCount(0);
 
   // mint the badge, re-render: the row reads earned
   await page.evaluate(() => {

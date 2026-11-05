@@ -4,8 +4,12 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { ngGameplanDebt, ngGameplanReviewed } from "../neural/src/gameplan-debt.src.js";
 const source = readFileSync(process.env.BJJ_STUDY_APP_SOURCE || new URL("../neural/src/app.src.jsx", import.meta.url), "utf8");
-const Component = new Function("DCLogic", "React", source + "\nreturn Component;")(class {}, { createRef: () => ({ current: null }) });
+// The build composes these eager modules into the app's scope. openPlanSession has framed its session
+// from the real debt since v1.248.0, so they are the real modules here too, never a stub.
+const Component = new Function("DCLogic", "React", "ngGameplanDebt", "ngGameplanReviewed", source + "\nreturn Component;")(
+  class {}, { createRef: () => ({ current: null }) }, ngGameplanDebt, ngGameplanReviewed);
 const flush = async () => { for (let i = 0; i < 8; i++) await Promise.resolve(); };
 const deferred = () => { let resolve, reject; const promise = new Promise((a, b) => { resolve = a; reject = b; }); return { promise, resolve, reject }; };
 class Element {
@@ -22,6 +26,7 @@ class Element {
   text() { return this.textContent + " " + this.children.map(c => c.text()).join(" "); }
 }
 globalThis.document = { createElement: () => new Element() };
+globalThis.location = { href: "https://bjjgraph.test/" }; // the session's Back origin reads it
 function fixture() {
   const app = Object.create(Component.prototype), calls = { loads: 0, requests: [], reconciles: [], destroys: 0, paints: 0 };
   app._gameplanStudyDeclaration = { mode: 'current-position', targets: { kind: 'sharp-refresh', deckKeys: ['Mount|Top'] } };
@@ -32,6 +37,14 @@ function fixture() {
     reconcile(r) { calls.reconciles.push(r); }, destroy() { calls.destroys++; }, snapshot() { return { phase: "pending" }; } };
   app._fetchGameplanStudyHost = async (_attempt, options) => { calls.loads++; calls.observer = options.onState; return host; };
   return { app, calls, host };
+}
+// The eager half of openPlanSession: one real owed question, and the seams around the session it opens.
+function practiceSeat(app, calls) {
+  app._ensureGameplanClock = () => {}; app.explorerListRef = { current: null };
+  app._requestGameplanStudy = i => { calls.requests.push(i); return Promise.resolve(); };
+  app._epochDay = () => 5; app.srs = { "real-due": { "q-due": [4, 2, 3] } };
+  app._gameplanDecks = () => ({ "real-due": { count: 1, exact: true, questions: ["q-due"], allowed: true } });
+  for (const name of ["closeModal", "applyDeckVisibility", "_stopSystemPreview", "_stopConceptFilm", "track"]) app[name] = () => {};
 }
 
 test("app status rendering and due-only plan intent do not import study code", async () => {
@@ -99,42 +112,59 @@ test("joint coverage text preserves roles uncertainty and full-group conditions 
 });
 
 test("new plan and explicit refresh request study; due-only entry and internal runtime reopening do not", async () => {
-  const { app, calls } = fixture(); app._requestGameplanStudy = i => { calls.requests.push(i); return Promise.resolve(); };
-  app._ensureGameplanClock = () => {}; app._gameplanRuntime = { ngGameplanSummary: () => "plan", ngGameplanBind: x => x };
+  const { app, calls } = fixture(); practiceSeat(app, calls);
+  app._gameplanRuntime = { ngGameplanSummary: () => "plan", ngGameplanBind: x => x };
   app.planSummary = () => ({ due: [], fresh: [], more: [], queue: [], dueCards: 0, newCards: 0 });
-  app.hydrateDecks = () => Promise.resolve(); app._sessionInline = () => false; app.nodeForKey = () => -1;
-  for (const name of ["closeModal", "frameNodes", "renderSession", "applyDeckVisibility"]) app[name] = () => {};
-  app.openPlanSession("due"); assert.deepEqual(calls.requests, []);
+  app.hydrateDecks = () => Promise.resolve(); app._sessionInline = () => false; app.renderSession = () => {};
+  app.openPlanSession("due"); assert.deepEqual(calls.requests, []); const visit = app._session;
   app.openPlanSession("new"); app.openPlanSession("new", false); app.openPlanSession("due", "refresh-plan"); await flush();
   assert.deepEqual(calls.requests, ["open-plan", "refresh-plan"]);
+  assert.equal(app._session, visit, "one visit owns one session: a refresh extends it, never replaces it");
 });
 
-// SIDE-R2 B1 (v1.242.0): a queue GRADED before the planner lands is the one under the player's hand and
-// survives its arrival, as it always did; an UNTOUCHED one is reopened as the plan (Practice's mix),
-// asking for no study of its own.
+// SIDE-R2 B1 (v1.242.0), carried onto the v1.248.0 contract: Practice is ONE session from the first press,
+// and the planner's arrival extends it instead of re-entering openPlanSession. So the old "reopened as
+// ('new', false)" receipt has no successor call to count, and these cases read the effect it stood for: an
+// UNTOUCHED queue takes the plan's own order, asking for no study of its own, while one GRADED or REVEALED
+// keeps its place and gains the plan behind it, unrendered, because that is the card under the player's hand.
 // SIDE-R3 N4: use the real _sessionInline guard. Removing it dies at open-deck; removing the
 // revealed guard is also covered by practice-mix's held-planner, real-Reveal browser mutation.
 test("active due queue survives deferred planner arrival and study notifications once graded, revealed or in an open deck; an untouched one becomes the plan", async () => {
   for (const interaction of ["untouched", "graded", "revealed", "open-deck", "reveal-during-press"]) {
     const { app, calls } = fixture(), ready = deferred();
-    let done = 0; app.practiceToday = () => ({ done, goal: 20 });
-    app._requestGameplanStudy = i => { calls.requests.push(i); return Promise.resolve(); };
-    app._ensureGameplanClock = () => {}; app.openSession = () => { app._session = { keys: ["real-due"], idx: 0, review: { count: 1 } }; };
-    app._ensureGameplanRuntime = () => ready.promise; app.deckShown = true; app.dueCount = () => 1;
-    app.openPlanSession("new"); const due = app._session;
+    let done = 0, renders = 0, rows = 0; app.practiceToday = () => ({ done, goal: 20 });
+    practiceSeat(app, calls); app.deckShown = true; app.hydrateDecks = async () => {};
+    app.renderSession = () => { renders++; app._session.started ??= done; }; // _renderPractice's own stamp
+    app._practiceRows = () => { rows++; }; app._paintGameplanProgress = () => {};
+    app._ensureGameplanRuntime = () => ready.promise.then(() => { app._gameplanRuntime = { ngGameplanBind: x => x }; return true; });
+    // The plan puts its new deck FIRST, so its order and an append behind the open card cannot agree.
+    app.planSummary = () => ({ due: [{ key: "real-due", questions: ["q-due"], count: 1 }], more: [], queue: ["plan-new", "real-due"],
+      fresh: [{ key: "plan-new", questions: ["q-new"], pending: 0, count: 1 }] });
+    app.openPlanSession("new"); const due = app._session, mounted = renders;
+    assert.equal(due.practice, true, interaction); assert.deepEqual(due.keys, ["real-due"], interaction);
     if (interaction === "graded") done = 1;
     if (interaction === "revealed") app._deckState = { "real-due": { idx: 0, revealed: true } };
     if (interaction === "open-deck") app.deck = [{ q: "An open study card", a: "Its answer" }];
     if (interaction === "reveal-during-press") app._panePress = true;
-    const reopened = []; app.openPlanSession = (...args) => { reopened.push(args); };
     ready.resolve(true); await flush();
     if (interaction === "reveal-during-press") {
-      assert.equal(app._paneOwed.length, 1, "the landing waits for the press");
+      assert.equal(app._paneOwed?.length, 1, "the landing waits for the press");
+      assert.deepEqual(due.keys, ["real-due"], "nothing lands under the press");
       app._deckState = { "real-due": { idx: 0, revealed: true } };
       app._panePress = false; app._paneOwed.splice(0).forEach(fn => fn());
+      await flush();
     }
-    assert.equal(app._session, due); assert.deepEqual(due.keys, ["real-due"]); assert.deepEqual(calls.requests, ["open-plan"]);
-    assert.deepEqual(reopened, interaction === "untouched" ? [["new", false]] : [], interaction);
+    assert.equal(app._session, due, interaction); assert.deepEqual(calls.requests, ["open-plan"], interaction);
+    if (interaction === "open-deck") {
+      assert.deepEqual(due.keys, ["real-due"], interaction); assert.equal(due.plan, undefined, interaction);
+      assert.ok(due.review, interaction); assert.equal(renders, mounted, interaction); assert.equal(rows, 0, interaction);
+    } else if (interaction === "untouched") {
+      assert.deepEqual(due.keys, ["plan-new", "real-due"], interaction); assert.equal(due.keys[due.idx], "real-due", interaction);
+      assert.equal(renders, mounted + 1, interaction); assert.equal(rows, 0, interaction); assert.equal(due.plan.total, 2, interaction);
+    } else {
+      assert.deepEqual(due.keys, ["real-due", "plan-new"], interaction); assert.equal(due.idx, 0, interaction);
+      assert.equal(renders, mounted, interaction); assert.equal(rows, 1, interaction); assert.equal(due.plan.total, 2, interaction);
+    }
   }
 });
 

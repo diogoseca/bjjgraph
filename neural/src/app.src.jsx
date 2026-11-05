@@ -1140,6 +1140,12 @@ class Component extends DCLogic {
         const t = e.changedTouches[0]; const dx = t.clientX - sx, dy = t.clientY - sy;
         moved = Math.max(Math.abs(dx), Math.abs(dy)); movedAt = Date.now();
         if (Date.now() - st > 700) return;
+        if (this._sessionInline() && e.target.closest?.("[data-mini-deck]")) {
+          if (Math.abs(dx) >= 40 && Math.abs(dx) > Math.abs(dy)) {
+            const mini = this._focusedMini(); if (mini) (dx < 0 ? mini.next() : mini.prev());
+          }
+          return;
+        }
         if (this.isDrillOpen()) {
           if (Math.abs(dx) < 40 && Math.abs(dy) < 40) return;
           if (Math.abs(dx) > Math.abs(dy)) { if (dx < 0) this.drillNext(); else this.drillPrev(); }
@@ -2866,6 +2872,11 @@ class Component extends DCLogic {
   }
   setDrillHeader(title, sub, countText, role, roleColor) {
     const head = this.drillHeadRef.current; if (!head) return;
+    if (this._session?.practice && !this._checkpoint && !this.deck) {
+      head.innerHTML = '<button type="button" class="ngBack" data-pane-back="1">‹ Back</button><b>Practice</b><small data-practice-belt="1"></small>';
+      head.querySelector(".ngBack").onclick = () => this._exitStudyTo();
+      return;
+    }
     head.innerHTML =
       '<div style="display:flex;align-items:center;height:40px;margin-bottom:12px;">' +
         // a real button (SIDE-R2 P2): Tab reaches it and Enter or Space takes it, as every drawer row does
@@ -3079,6 +3090,7 @@ class Component extends DCLogic {
     const study = this._paneStudyActive();
     if (study && !this._paneWasStudy) this._paneReturnTab = this._viewMode; // remember where ‹ Back goes
     this._paneWasStudy = study;
+    panel.toggleAttribute("data-practice-page", !!this._session?.practice && !this._checkpoint && !this.deck);
     if (study) panel.setAttribute("data-pane-study", "1"); else panel.removeAttribute("data-pane-study");
     this._paintDrawerHead();
     this._syncExploreTools(study);
@@ -3105,11 +3117,19 @@ class Component extends DCLogic {
   _exitStudyTo(view) {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     if (this._checkpoint) this._cancelCheckpoint();
+    const origin = this._session?.practice && this._session.origin;
     this.deck = null; this._studyOpen = null; this._session = null; this._sessionNodes = null; this._inSession = false;
     this._drillView = "home";
-    const target = view || this._paneReturnTab || "history";
+    const target = view || origin?.view || this._paneReturnTab || "history";
     if (this._viewMode !== target) this.setViewMode(target);
     else this._renderPaneBody();
+    if (origin) {
+      this.focusIdx = origin.node;
+      this._writeUrl(origin.path, {}, true, origin.title);
+      this.explorerListRef.current.scrollTop = origin.scroll;
+      const focus = origin.focus?.isConnected ? origin.focus : this.explorerListRef.current?.querySelector('[data-maintenance], [data-b="due"], [data-track]');
+      focus?.focus({ preventScroll: true });
+    }
   }
 
   // ---------- progress / save hint ----------
@@ -4402,34 +4422,10 @@ class Component extends DCLogic {
 
     list.innerHTML = "";
     this._miniReg = {};
-    const sec = (label) => { const d = document.createElement("div"); d.style.cssText = "font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6b7691;font-weight:700;padding:6px 8px 4px;margin:0 -8px;"; d.textContent = label; return d; };
-    const row = (label, count, strong, bucket) => {
-      const r = document.createElement("div");
-      r.style.cssText = "display:flex;align-items:center;gap:10px;padding:11px 8px;margin:0 -8px;cursor:pointer;border-radius:8px;transition:background .12s;";
-      r.innerHTML =
-        '<span style="flex:1;font-size:13.5px;font-weight:' + (strong ? 600 : 500) + ';color:' + (strong ? "#eef1f6" : "#9aa6bd") + ';">' + label + '</span>' +
-        '<span style="font-size:13px;font-weight:600;color:' + (strong ? "#cbd4e6" : "#7e8aa3") + ';">' + count + '</span>' +
-        '<span style="color:#5d6883;font-size:15px;">\u203a</span>';
-      r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
-      r.addEventListener("mouseleave", () => r.style.background = "transparent");
-      r.addEventListener("click", () => { if (count <= 0) return; if (bucket === "suggested" || bucket === "explored") { this.openSession(bucket, label); } else this.openFlashBrowser(bucket, label); });
-      if (count === 0) { r.style.cursor = "default"; r.style.opacity = ".5"; }
-      return r;
-    };
-
     // grouped roll history — the current roll's CURRENT row expands to an inline flashcard deck
     this.renderRollHistory(list);
   }
 
-  _timeBucket(ts) {
-    const d = new Date(ts), now = new Date();
-    const day0 = (x) => new Date(x.getFullYear(), x.getMonth(), x.getDate()).getTime();
-    const diff = Math.round((day0(now) - day0(d)) / 86400000);
-    if (diff <= 0) return "Today";
-    if (diff === 1) return "Yesterday";
-    if (diff < 7) return d.toLocaleDateString(undefined, { weekday: "long" });
-    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
-  }
   _agoLabel(ts) {
     const s = Math.max(0, (Date.now() - ts) / 1000);
     if (s < 60) return "just now";
@@ -4557,12 +4553,15 @@ class Component extends DCLogic {
     this.prep = this.prep || {};
     const wrap = document.createElement("div");
     if (isCurrent) wrap.className = "ngCurExpire";
-    wrap.setAttribute("data-mini-deck", key); // the pane's Q&A card: question, reveal, answer — never MC
+    wrap.setAttribute("data-mini-deck", key); // shared inline card; Practice honors the answer-mode setting
     wrap.style.cssText = "padding:0 8px 12px 26px;animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;";
     const navBtn = (cls, d) => '<button class="' + cls + '" style="flex:none;width:42px;height:36px;cursor:pointer;border:1px solid rgba(150,170,210,.2);border-radius:9px;background:rgba(255,255,255,.03);color:#aab4c8;display:flex;align-items:center;justify-content:center;transition:background .12s,color .12s;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="' + d + '"></path></svg></button>';
+    let recallFallback;
+    const recognition = () => this._session?.practice && cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
     const doPrev = () => { st.idx = (st.idx - 1 + total) % total; st.revealed = false; render(); };
     const doNext = () => { st.idx = (st.idx + 1) % total; st.revealed = false; render(); };
     const doReveal = () => {
+      if (recognition()) return;
       st.revealed = !st.revealed;
       if (st.revealed) { ansSet.add(identity(cards[st.idx])); this.noteCardSeen(key, st.idx); } // reveal = SEEN only; mastery credit requires grading (honest economy)
       render();
@@ -4599,11 +4598,13 @@ class Component extends DCLogic {
     // revealed → grade, already graded → next card (gradeMini's latch would swallow the second
     // press, and "Graded — next card →" is exactly what the card is already telling you).
     const doEnter = () => {
+      if (recognition()) return;
       if (!st.revealed) { doReveal(); return; }
       if (graded(cards[st.idx])) { doNext(); return; }
       gradeMini(true);
     };
     const render = () => {
+      if (this._mc?.surface === "practice") { this._mc.spent = true; this._mc = null; }
       const card = cards[st.idx] || {};
       const tabs = cards.map((c, i) => {
         const active = i === st.idx, done = ansSet.has(identity(c));
@@ -4641,6 +4642,26 @@ class Component extends DCLogic {
       if (gb) gb.onclick = () => gradeMini(true, card);
       if (ab) ab.onclick = () => gradeMini(false, card);
       wrap.querySelectorAll(".mt").forEach((t) => t.onclick = () => { st.idx = parseInt(t.dataset.i, 10); st.revealed = false; render(); });
+      // The same MC options/grade writer as the full study deck. Its callback owns
+      // this inline row only; late pool/planner arrival cannot replace a chosen answer.
+      if (recognition()) {
+        mr.disabled = true; mr.textContent = "Choose an answer";
+        if (!this.mcPoolWarm(key, card)) {
+          mr.textContent = "Loading answers…";
+          this._warmMcPool(card, key, "practice").then(() => this._afterPress(() => {
+            if (wrap.isConnected && cards[st.idx] === card && recognition()) render();
+          }));
+        } else {
+          const choices = this._mcBlock(card, key, () => {
+            st.revealed = true;
+            mr.disabled = false; mr.textContent = "Next card"; mr.onclick = doNext;
+            if (onGrade) onGrade();
+            this._refreshGameplanUI();
+          }, "practice");
+          if (choices) wrap.insertBefore(choices, mr.parentElement);
+          else { recallFallback = card; render(); }
+        }
+      }
     };
     this._miniReg = this._miniReg || {};
     this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext, enter: doEnter };
@@ -5268,10 +5289,16 @@ class Component extends DCLogic {
   }
   planSummary() {
     if (!this._gameplanRuntime) return null;
-    const stamp = this._gameplanStamp();
+    const stamp = this._gameplanStamp(), belt = this.curriculum?.belts.find(b => b.id === this.wornBelt().id);
+    const families = new Set(belt?.units.flatMap(u => u.lessons.map(l => l.deckKey.split("|")[0])));
+    // §6.6: with no curriculum there is no belt to scope new cards by, so they come from every belt. That
+    // is the right offer on a 404, and it says so, once per outage. Lifter: the next plan that has a belt.
+    if (belt) this._planUnscoped = false;
+    else if (!this._planUnscoped) { this._planUnscoped = true; this.fx("practice_belt_unfiltered", {}); }
     return this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
-      target: this.practiceGoal(), decks: this._gameplanDecks(), srs: this.srs,
+      target: this.practiceGoal(), decks: Object.fromEntries(Object.entries(this._gameplanDecks()).map(([key, d]) =>
+        [key, belt && !families.has(key.split("|")[0]) ? { ...d, headroom: 0 } : d])), srs: this.srs,
       provider: this._gameplanProvider, fallback: this._gameplanWeakFallback() });
   }
   /**
@@ -5306,6 +5333,10 @@ class Component extends DCLogic {
   setGameplanRecommendations(provider) {
     if (!provider || provider.stamp !== this._gameplanStamp()) return false;
     this._gameplanProvider = provider;
+    const s = this._session;
+    if (s?.practice) this._afterPress(() => {
+      if (this._session === s && this._sessionInline()) this._practiceAppend(s, this.planSummary(), s.plan?.fresh.length ? [] : null);
+    });
     this._refreshGameplanUI();
     return true;
   }
@@ -5339,7 +5370,12 @@ class Component extends DCLogic {
       if (this.__ngDestroyed) return;
       this._paintTrain(); this._paintBadge();
       const s = this._session;
-      if (s && (s.plan || s.review) && this._sessionInline()) this._paintGameplanProgress(s);
+      if (s && (s.plan || s.review) && this._sessionInline()) {
+        if (s.practice && !s.keys.length && this._gameplanRuntime) this._afterPress(() => {
+          if (this._session === s && !s.keys.length) this._practiceAppend(s, this.planSummary());
+        });
+        this._paintGameplanProgress(s);
+      }
     }, 0);
   }
   _ensureGameplanClock() {
@@ -5565,16 +5601,14 @@ class Component extends DCLogic {
    */
   openSession(bucket, label, sub) {
     if (this._deferSystemBucket(bucket, () => this.openSession(bucket, label, sub))) return;
-    if ((bucket === "due" && this._gameplanRuntime) || bucket === "new" || bucket === "suggested") { this.openPlanSession(bucket === "due" ? "due" : "new"); return; }
+    if (["due", "new", "suggested"].includes(bucket)) { this.openPlanSession(bucket === "due" ? "due" : "new"); return; }
     this._stopSystemPreview();
     this._stopConceptFilm();
     const keys = this.bucketTechniques(bucket);
     this.hydrateDecks(keys);   // a session is a queue of decks the user has already committed to
-    // "due" sessions narrow every deck to its due cards (see _entryForKey); others are whole-deck
-    // `openLessonStudy` builds its own `_session` and goes STRAIGHT to studyFromSession, so the
-    // belt corridor keeps its one-card lesson view (a different, gated surface) — see renderSession.
-    this._session = { keys: keys, label: label, sub: sub || null, idx: 0, filter: bucket === "due" ? "due" : null, bucket: bucket };
-    if (bucket === "due") this._session.review = { ...ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() }), day: this._epochDay() };
+    // Daily queues use openPlanSession above. Other buckets and explicit lesson study
+    // keep their existing scope and shared renderer.
+    this._session = { keys: keys, label: label, sub: sub || null, idx: 0, bucket: bucket };
     this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings only: never aim at an orb this ruleset does not draw
     this.closeModal();
     this.frameNodes(this._sessionNodes);   // frame the highlighted nodes
@@ -5599,65 +5633,121 @@ class Component extends DCLogic {
    * best by doing those. 3. We can show more techniques that load on infinite scroll, but they
    * should be ranked and ordered by that metric."
    *
-   * So the queue is ONE list in that order and `anchor` only decides which section it opens on.
+   * So the queue is ONE list in that order, and every door lands on its first card. `anchor` only says
+   * whether this visit asks for the study comparison: "due" does not.
    * Maintenance first is not a layout preference: reviews are the debt, new cards are the
    * throttle that creates tomorrow's reviews.
    */
   openPlanSession(anchor, studyIntent) {
     this._ensureGameplanClock();
     if (studyIntent !== false && (anchor !== "due" || studyIntent)) void this._requestGameplanStudy(studyIntent || "open-plan");
-    if (!this._gameplanRuntime) {
-      this.openSession("due", this._practiceLabel(this.dueCount()));
-      const waiting = this._session, graded = this.practiceToday().done; waiting.anchor = anchor;
-      this._ensureGameplanRuntime().then((ready) => {
-        // The waiting queue is the owed reviews alone. When the planner lands before anything in it was
-        // graded, it BECOMES the mixed Practice queue (SIDE-R2 B1: a cold press stayed reviews-only and
-        // ended on "come back tomorrow"); after a grade it is the queue under the player's hand and is
-        // never replaced. Either way, only if the player has not navigated away, and never under a press in
-        // flight (FGD13: a rebuild between pointerdown and its release swallows the click): it waits for it.
-        // SIDE-R3 N4: revealing is already engagement, even without a grade. A full study deck
-        // is excluded by _sessionInline; keep the current inline answer too, including a reveal
-        // made by the press whose release this callback is waiting for.
-        const upgrade = () => { if (ready && !this.__ngDestroyed && this._session === waiting && this._sessionInline() && !this._deckState?.[waiting.keys[waiting.idx]]?.revealed && this.practiceToday().done === graded) this.openPlanSession(anchor, false); };
-        if (this._panePress) (this._paneOwed || (this._paneOwed = [])).push(upgrade); else upgrade();
-      });
-      return;
+    // One visit owns one session. Refresh and cold completion append to it; neither
+    // replaces its answer DOM or its grade identity. A new explicit visit starts afresh.
+    let s = this._session;
+    if (!s?.practice) {
+      const review = { ...ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() }), day: this._epochDay() };
+      const keys = review.rows.map(r => r.key);
+      if (!keys.length) {
+        const belt = this.curriculum?.belts.find(b => b.id === this.wornBelt().id);
+        const lesson = belt?.units.flatMap(u => u.lessons).find(l => this._lessonLive(l) && !this.lessonDone(l.deckKey));
+        if (lesson) keys.push(lesson.deckKey);
+      }
+      const list = this.explorerListRef.current;
+      s = this._session = { practice: true, keys, review, idx: 0, anchor, bucket: "plan",
+        origin: { view: this._viewMode, scroll: list?.scrollTop || 0, node: this.focusIdx, path: location.href, title: document.title, focus: document.activeElement } };
+      this._stopSystemPreview(); this._stopConceptFilm();
+      this.closeModal();
+      this.renderSession();
+      this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
+      this.track("neural_practice_opened", { surface: "practice" });
     }
-    const plan = this.planSummary();
-    // PRACTICE IS ONE INTERLEAVED QUEUE (owner U56 e, v1.242.0): the planner's `queue` puts due rows
-    // first by urgency and slips a new deck in once the reviews before it pay for its cards at
-    // NG_PRACTICE_REVIEWS_PER_NEW, the way Anki mixes known and new. Each row says which it is
-    // (`data-practice-kind`), so the two v1.138.0 section heads ("Maintenance", then "Learn next")
-    // became one. `anchor` "new" still opens on the first new deck, so every door keeps its landing.
-    const fresh = plan.fresh.map((r) => r.key), keys = plan.queue.concat(plan.more.map((r) => r.key));
-    // D2 (owner, 2026-09-30). The session list is headed "Finish these to unlock more" with its
-    // progress, and `more` below it stays LOCKED until that list is done (renderSession, `_planGoalHead`).
-    const cards = (n) => n + (n === 1 ? " card" : " cards"), techs = (n) => n + (n === 1 ? " technique" : " techniques");
-    // the reviews' technique count is rendered again (SIDE-R2 M6: dev's Maintenance head said "N cards owed
-    // across N techniques", and the Practice note had dropped the second figure)
-    const sections = [{ at: 0, label: "Practice", note: [plan.dueCards ? cards(plan.dueCards) + " to review across " + techs(plan.due.length) : "", fresh.length ? plan.newCards + " new across " + techs(fresh.length) + ", " +
-      (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : ""].filter(Boolean).join(" \u00b7 ") }];
-    this._session = {
-      keys, plan, label: this._practiceLabel(plan.dueCards, plan.newCards), sub: "",
-      idx: anchor === "new" && fresh.length ? keys.indexOf(fresh[0]) : 0,
-      filter: null, anchor, sections, bucket: "plan",
-      // `required` rows are the session; everything after them is the locked extra list, dealt a
-      // page at a time once unlocked (`shown`).
-      required: plan.queue.length, shown: Math.min(keys.length, plan.queue.length + 10),
+    const session = s;
+    const adopt = () => {
+      if (this._session !== session || !this._sessionInline() || this.__ngDestroyed) return;
+      if (this._gameplanRuntime) this._practiceAppend(session, this.planSummary());
+      this.hydrateDecks(session.keys);
     };
-    const session = this._session;
-    this.hydrateDecks(plan.queue).then(() => {
-      const s = this._session;
-      if (!s || s !== session || this.__ngDestroyed) return;
-      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks());
-      if (this._sessionInline()) this.renderSession();
-    });
-    // camera + rings: the session only, while the extra list is locked (renderSession widens it)
-    this._sessionNodes = keys.slice(0, this._session.required).map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));
-    this.closeModal(); this.frameNodes(this._sessionNodes);
-    this.renderSession();
-    this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
+    if (this._gameplanRuntime) this._afterPress(adopt);
+    else this._ensureGameplanRuntime().then(ready => { if (ready) this._afterPress(adopt); });
   }
+
+  // Extend the obligation, never replace it. Distinct question IDs are reserved
+  // across reviews, new rows and explicit continuation before the shared renderer
+  // sees them. Already graded cards still count in the original session ledger.
+  _practiceAppend(s, incoming, chosen) {
+    if (this._session !== s || !incoming) return;
+    const old = s.plan, due = (old ? old.due : s.review.rows).map(r => ({ ...r, questions: r.questions.slice() }));
+    const fresh = old ? old.fresh.slice() : [];
+    for (const r of incoming.due) {
+      const prior = due.find(x => x.key === r.key);
+      if (prior) { prior.questions = [...new Set(prior.questions.concat(r.questions))]; prior.count = prior.questions.length; }
+      else due.push(r);
+    }
+    // A cold fallback can already be revealed/graded before the planner arrives.
+    // Reserve that exact deck's cards so it cannot become a second shared copy.
+    const active = s.keys[s.idx], engaged = this._deckState?.[active]?.revealed || this.practiceToday().done !== s.started;
+    if (!old && engaged && active && !due.some(r => r.key === active)) {
+      const d = this._gameplanDecks()[active];
+      if (d) fresh.push({ key: active, kind: "new", questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), count: d.count, reason: "Practice this lesson." });
+    }
+    const used = new Set(ngGameplanReviewed(this.srs, this._epochDay()).concat(due.concat(fresh).flatMap(r => r.questions)));
+    const keys = new Set(due.concat(fresh).map(r => r.key));
+    for (const r of (chosen || incoming.fresh)) {
+      if (keys.has(r.key)) continue;
+      const questions = r.questions.filter(q => !used.has(q));
+      keys.add(r.key);
+      if (!questions.length && !r.pending) continue;
+      questions.forEach(q => used.add(q));
+      fresh.push({ ...r, kind: "new", questions, count: questions.length + r.pending });
+    }
+    const dueQuestions = [...new Set(due.flatMap(r => r.questions))];
+    const newCards = fresh.reduce((n, r) => n + r.count, 0);
+    s.plan = { ...incoming, due, fresh, dueQuestions,
+      dueCards: dueQuestions.length, newCards, total: dueQuestions.length + newCards,
+      more: incoming.more.filter(r => !keys.has(r.key)) };
+    s.review = null;
+    // Untouched cold queues can take the normal interleaving. Once a card has been
+    // used, append at the end without moving any existing opener or focus handle.
+    if ((!old || !s.keys.length) && !engaged) {
+      const first = s.keys[s.idx];
+      s.keys = incoming.queue.filter(k => keys.has(k));
+      for (const r of due.concat(fresh)) if (!s.keys.includes(r.key)) s.keys.push(r.key);
+      if (first && s.keys.includes(first)) s.idx = s.keys.indexOf(first);
+      s.required = s.keys.length;
+      this.renderSession();
+    } else {
+      for (const r of due.concat(fresh)) if (!s.keys.includes(r.key)) s.keys.push(r.key);
+      s.required = s.keys.length;
+      this._practiceRows(s);
+      this._paintGameplanProgress(s);
+    }
+    this.hydrateDecks(s.keys).then(() => {
+      if (this._session !== s || !this._sessionInline()) return;
+      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks());
+      this._paintGameplanProgress(s);
+    });
+  }
+
+  _practiceLesson(key) {
+    const s = this._session;
+    if (!s?.practice || !this.beltUnlocked(this._lessonIndex?.[key]?.belt)) return;
+    const go = () => {
+      if (this._session !== s) return;
+      if (!s.keys.includes(key)) {
+        const d = this._gameplanDecks()[key], planner = !!this._gameplanRuntime;
+        if (planner && d?.allowed && d.count) {
+          const row = { key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), reason: "Practice this lesson." };
+          this._practiceAppend(s, s.plan || this.planSummary(), [row]);
+        } else this.fx("practice_lesson_unplanned", { deckKey: key, planner });   // §6.6: it still opens, outside the session's ledger
+        // Already graded/shared lessons remain readable without a second obligation.
+        if (!s.keys.includes(key)) { s.keys.push(key); this._practiceRows(s); }
+      }
+      const at = s.keys.indexOf(key);
+      if (at >= 0) { this._sessionOpeners[at]?.(); this._scrollFocusedDeck(); }
+    };
+    this._ensureGameplanRuntime().then(() => this._afterPress(go));
+  }
+
   _gameplanProgress(s) {
     const decks = this._gameplanDecks();
     if (s.review) {
@@ -5683,17 +5773,13 @@ class Component extends DCLogic {
       const row = (s.live || this._gameplanProgress(s)).rows.find((r) => r.key === key);
       return !!(row && row.done);
     }
-    if (s.filter === "due") return !this.duePool().some((r) => r.key === key);
     return this.lessonDone(key);
   }
   _paintGameplanProgress(s) {
     if (this._session !== s || !(s.plan || s.review)) return;
     const p = this._gameplanProgress(s);
     const list = this.drillListRef.current;
-    // D2: finishing (or a new day un-finishing) changes the plan's END, lock <-> "All done" and its
-    // action, so a change in either direction re-renders. renderSession paints this again with the
-    // two in agreement, so there is no loop.
-    if (s.plan && list && list.querySelector && !!list.querySelector("[data-session-complete]") !== !!p.complete) { this.renderSession(); return; }
+    // Completion updates below the card; it must never replace an answer or pressed control.
     // The live count is the header's ("N cards due today"); this polite line carries only what the
     // player must act on (D2: "Order and reasons saved when opened · current review debt below" is gone).
     const note = list && list.querySelector("[data-gameplan-current]");
@@ -5702,17 +5788,14 @@ class Component extends DCLogic {
       : [p.newDebt.length ? "New reviews came due: refresh the plan to include them." : "",
         p.blocked.length ? (p.blocked.length === 1 ? "1 due card needs content that isn't available; it stays due." : p.blocked.length + " due cards need content that isn't available; they stay due.") : ""].filter(Boolean).join(" ");
     if (note) note.style.margin = note.textContent ? "" : "0";   // an empty polite line takes no room
-    this._paintPlanGoal(s);
     for (const paint of Object.values(this._sessionPaint || {})) paint();
     const loading = this.drillListRef.current && this.drillListRef.current.querySelector("[data-gameplan-loading]");
     if (loading) loading.textContent = this._gameplanLoadingText();
     this._paintGameStudyPanel();
-    this.setDrillHeader(this._practiceLabel(p.dueCards, s.plan ? s.plan.newCards : 0), "", "");   // live; the session object is not rewritten
-    const foot = this.drillFootRef.current;
-    if (foot) { foot.replaceChildren(this._sessionFoot(s)); foot.style.display = "flex"; }
+    if (s.practice) this._paintPractice(s);
     const complete = this.drillListRef.current && this.drillListRef.current.querySelector("[data-session-complete]");
-    if (complete && !p.complete) { complete.remove(); this.renderSession(); }
-    if (!complete && p.complete && p.total > 0) this.drillListRef.current.appendChild(this._sessionDoneCard(s));
+    if (complete && !p.complete) complete.remove();
+    if (!complete && p.complete && p.total > 0) s.completion.appendChild(this._sessionDoneCard(s));
   }
   /**
    * TODAY AGAINST THE DAILY GOAL (owner U56 e: "the goal today is to do 20 flashcards"). `done` is the
@@ -5726,95 +5809,26 @@ class Component extends DCLogic {
   practiceGoal(v = this.get("dailyGoal", NG_PRACTICE_GOAL)) { v = Math.floor(Number(v)); return Number.isFinite(v) ? Math.max(5, Math.min(200, v)) : NG_PRACTICE_GOAL; }
   practiceToday() { return { done: ngGameplanReviewed(this.srs, this._epochDay()).length, goal: this.practiceGoal() }; }
   _practiceGoalText(t) { t = t || this.practiceToday(); return t.done + " of " + t.goal + " today" + (t.done >= t.goal ? " \u2713" : ""); }
-  /**
-   * THE SESSION IS PRACTICE (owner U56 e; orchestrator SIDE-R1, v1.242.0): titled by what it holds — the
-   * live owed reviews, counted in cards as every due figure is (v1.172.0), and the plan's new cards. It
-   * replaced D2's "N cards due today", the Maintenance wording, which no longer named the session.
-   */
-  _practiceLabel(due, fresh) {
-    const parts = [];
-    if (due) parts.push(due + (due === 1 ? " review" : " reviews"));
-    if (fresh) parts.push(fresh + " new");
-    return "Practice" + (parts.length ? " \u00b7 " + parts.join(", ") : "");
-  }
-  /**
-   * D2: THE SESSION LIST IS HEADED BY WHAT FINISHING IT DOES (owner, 2026-09-30: "Finish these to
-   * unlock more", with its progress). Built once per render; `_paintPlanGoal` repaints its two lines
-   * on every grade (through _paintGameplanProgress), so the rows under it are never rebuilt for it.
-   */
-  _planGoalHead(s) {
-    const head = document.createElement("div"); head.setAttribute("data-plan-goal", "1");
-    head.style.cssText = "display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;padding:2px 2px 10px;";
-    const title = document.createElement("span"); title.setAttribute("data-plan-goal-title", "1");
-    title.style.cssText = "font-size:13.5px;font-weight:700;color:#eef1f6;";
-    const progress = document.createElement("span"); progress.setAttribute("data-plan-goal-progress", "1"); progress.setAttribute("aria-live", "polite");
-    progress.style.cssText = "font-size:11.5px;font-weight:600;color:#9ab0e0;white-space:nowrap;";
-    // the day's goal beside the session's own count (U56 e): it only ever says how far, never stops
-    const goal = document.createElement("span"); goal.setAttribute("data-practice-goal", "1");
-    goal.style.cssText = "flex-basis:100%;font-size:11px;font-weight:600;color:#7e8aa3;";
-    head.appendChild(title); head.appendChild(progress); head.appendChild(goal);
-    head._ngGoal = { title, progress, goal };   // painted through these references, never re-queried
-    this._paintPlanGoal(s, head);
-    return head;
-  }
-  _paintPlanGoal(s, head) {
-    head = head || (this.drillListRef.current && this.drillListRef.current.querySelector && this.drillListRef.current.querySelector("[data-plan-goal]"));
-    if (!head || !s.plan) return;
-    const p = s.live || this._gameplanProgress(s), extra = s.keys.length - s.required;
-    // FGD13 (owner): the "Reviewed 0/30" style he liked; the celebration is the end card's job
-    const { title, progress, goal } = head._ngGoal || {};
-    if (!title || !progress) return;
-    const today = this.practiceToday();
-    goal.textContent = "Daily goal: " + this._practiceGoalText(today);
-    goal.style.color = today.done >= today.goal ? "#7ee0a8" : "#7e8aa3";
-    // GOALS, NOT LIMITS (SIDE-R1): the head names the session; it never reads as a gate to get past
-    title.textContent = s.unlocked || p.complete ? "Today's session" : "Today's practice";
-    progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
-  }
-  /**
-   * D2: the plan's extra list, LOCKED until the session is done ("29 more techniques unlock when
-   * you finish"). Finishing replaces this line with the end card and its "Find more weaknesses"
-   * action (`_sessionDoneCard`). The gate is this list only: every deck still opens from Explore.
-   * `count` is the list's real length.
-   */
-  _planLockBlock(count) {
-    const el = document.createElement("div");
-    el.setAttribute("data-plan-locked", String(count));
-    el.style.cssText = "display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;line-height:1.4;border-radius:10px;padding:11px 12px;margin:10px 0 2px;" +
-      "color:#8b97b0;border:1px dashed rgba(150,170,210,.3);background:rgba(255,255,255,.02);";
-    // no padlock and no "unlock" (SIDE-R1: goals, not limits): the rest of the ranking simply comes next
-    el.textContent = count.toLocaleString("en-US") + " more " + (count === 1 ? "technique" : "techniques") + " after this session";
-    return el;
-  }
-  _gameplanWaitingIntro(s) {
-    const box = document.createElement("div"); box.setAttribute("data-gameplan-summary", "1");
-    const loading = document.createElement("p"); loading.setAttribute("data-gameplan-loading", "1"); loading.textContent = this._gameplanLoadingText(); box.appendChild(loading);
-    const current = document.createElement("p"); current.setAttribute("data-gameplan-current", "1"); current.setAttribute("aria-live", "polite"); box.appendChild(current);
-    const button = document.createElement("button"); button.type = "button"; button.setAttribute("data-gameplan-load", "1");
-    button.textContent = "Open study plan"; button.style.cssText = "min-height:44px;padding:8px;font:inherit;cursor:pointer;";
-    button.addEventListener("click", () => this.openPlanSession(s.anchor || "new", "open-plan")); box.appendChild(button);
-    box.appendChild(this._gameStudyPanel());
-    box.style.cssText = "font-size:12px;line-height:1.55;color:#aeb9cf;padding:4px 4px 16px;overflow-wrap:anywhere;";
-    return box;
-  }
+  /** Planner state and all comparison controls live below the active card. */
   _gameplanIntro(s) {
     const box = document.createElement("div"); box.setAttribute("data-gameplan-summary", "1");
-    box.style.cssText = "font-size:12px;line-height:1.55;color:#aeb9cf;padding:4px 4px 16px;overflow-wrap:anywhere;";
-    const text = document.createElement("p"); text.textContent = this._gameplanRuntime.ngGameplanSummary(s.plan); box.appendChild(text);
-    const current = document.createElement("p"); current.setAttribute("data-gameplan-current", "1"); current.setAttribute("aria-live", "polite"); box.appendChild(current);
-    const details = document.createElement("details"), summary = document.createElement("summary");
-    summary.textContent = "Why these decks?"; summary.style.cssText = "cursor:pointer;min-height:44px;display:flex;align-items:center;";
-    details.appendChild(summary);
-    const explanation = document.createElement("p");
-    // PLAIN COPY (item 9, owner 2026-09-30): what the order means, then the ranking's own caveats.
-    explanation.textContent = "Reviews come back on your memory schedule, most overdue first. New techniques, ranked by how much practising them would help your game, are mixed in: a new technique after every few reviews. " +
-      "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks share counts once. " +
-      s.plan.assumptions.join(" ");
-    details.appendChild(explanation); box.appendChild(details);
+    box.style.cssText = "line-height:1.55;padding:4px 4px 16px;overflow-wrap:anywhere;";
+    box.innerHTML = '<p></p><p data-gameplan-current="1" aria-live="polite"></p>';
+    if (!s.plan) {
+      box.firstChild.textContent = this._gameplanLoadingText(); box.firstChild.setAttribute("data-gameplan-loading", "1");
+    } else {
+      const details = document.createElement("details");
+      details.innerHTML = '<summary>Why these decks?</summary><p></p>';
+      // PLAIN COPY (item 9, owner 2026-09-30): what the order means, then the ranking's own caveats.
+      details.lastChild.textContent = "Reviews come back on your memory schedule, most overdue first. New techniques, ranked by how much practising them would help your game, are mixed in: a new technique after every few reviews. " +
+        "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks share counts once. " +
+        s.plan.assumptions.join(" ");
+      box.appendChild(details);
+    }
     box.appendChild(this._gameStudyPanel());
-    const refresh = document.createElement("button"); refresh.type = "button"; refresh.setAttribute("data-gameplan-refresh", "1");
-    refresh.textContent = "Refresh plan"; refresh.style.cssText = "min-height:44px;padding:8px 12px;cursor:pointer;font:inherit;color:#dce6fc;background:#24314b;border:1px solid #62749a;border-radius:8px;";
-    refresh.addEventListener("click", () => this.openPlanSession(s.anchor, "refresh-plan")); box.appendChild(refresh);
+    const refresh = this.drillBtn(s.plan ? "Refresh plan" : "Open study plan");
+    refresh.setAttribute(s.plan ? "data-gameplan-refresh" : "data-gameplan-load", "1");
+    refresh.onclick = () => this.openPlanSession(s.anchor, s.plan ? "refresh-plan" : "open-plan"); box.appendChild(refresh);
     return box;
   }
   /**
@@ -5861,7 +5875,7 @@ class Component extends DCLogic {
       return row && row.row && row.row.offsetParent !== null ? reg : null;
     }
     if (lesson) return null; // and a corridor row is not drivable from another tab either
-    if (this._sessionInline()) return reg;
+    if (this._sessionInline()) return this._openMini?.rid === rid && this._openMini.el.isConnected && this._openMini.el.offsetParent !== null ? reg : null;
     if (this.deckShown && this._viewMode === "history" && this._drillView === "home") return reg;
     return null;
   }
@@ -5885,92 +5899,109 @@ class Component extends DCLogic {
    * surface has to be the number the user pressed (see _exploreStatsRow).
    */
   renderSession() {
-    const list = this.drillListRef.current; const s = this._session; if (!list || !s) return;
-    // THIS SURFACE IS NOW THE PANE BODY, so the one-card drill is closed by definition. Declared
-    // here rather than at each entry point: `_sessionInline()` and `_onDeckHydrated` both read
-    // `this.deck` to tell the two surfaces apart, and a stale entry left over from an earlier
-    // study would let a late-landing chunk repaint renderDrill straight over the queue.
+    const list = this.drillListRef.current, s = this._session;
+    if (!list || !s) return;
     this.deck = null; this.drillEntries = null; this._studyOpen = null; this._inSession = false;
-    const decks = (this.flashcards && this.flashcards.decks) || {};
-    const n = s.keys.length;
-    if (s.plan || s.review) this._gameplanProgress(s);
-    // D2 (owner, 2026-09-30; copy FGD13). The plan's extra list (rows past `required`) is LOCKED
-    // until the session is done. Finishing ends the session with "All done, come back tomorrow" and,
-    // AFTER it, the "Find more weaknesses" action, which is what opens the extra list: `s.unlocked`,
-    // set only by that action and kept for this plan (a new day does not re-lock it).
-    const extra = s.plan ? n - s.required : 0, locked = extra > 0 && !s.unlocked;
-    const daily = !!(s.plan || s.review), complete = daily && s.live.complete;
-    this.setDrillHeader(s.label, s.sub || (n + (n === 1 ? " technique" : " techniques")), n ? this._sessionDone(s) + "/" + n : "");
-    list.innerHTML = "";
-    // the registry is rebuilt with the rows it indexes, exactly as renderDrillHome does
+    list.replaceChildren();
     this._miniReg = {}; this._sessionPaint = {}; this._openMini = null; this._openRow = null; this._focusRow = null;
-    if (s.plan) list.appendChild(this._gameplanIntro(s));
-    else if (s.review) list.appendChild(this._gameplanWaitingIntro(s));
+    this._sessionOpeners = [];
+    if (s.practice) { this._renderPractice(s, list); return; }
+    const n = s.keys.length;
+    this.setDrillHeader(s.label, s.sub || n + " techniques", this._sessionDone(s) + "/" + n);
     if (!n) {
-      const empty = document.createElement("div");
-      empty.setAttribute("data-session-empty", "1");
-      empty.style.cssText = "padding:26px 8px;font-size:12.5px;line-height:1.6;color:#7e8aa3;";
-      empty.textContent = s.plan ? "Nothing to review or learn right now." : s.filter === "due"
-        ? "Nothing due right now. Answer cards anywhere — in a roll or here — and they come back on a spaced-repetition schedule."
-        : "No gaps left in this tier. Roll into somewhere new and it will show up here.";
-      list.appendChild(empty);
-      if (s.plan || s.review) this._paintGameplanProgress(s);
-      return;
+      const empty = document.createElement("p"); empty.setAttribute("data-session-empty", "1");
+      empty.textContent = "Nothing to practise here right now."; list.appendChild(empty); return;
     }
-    if (!daily && this._sessionDone(s) >= n) { list.appendChild(this._sessionDoneCard(s)); return; }
-    const wrap = document.createElement("div");
-    wrap.setAttribute("data-session", "1");
-    wrap.style.cssText = "display:flex;flex-direction:column;";
-    if (s.plan) wrap.appendChild(this._planGoalHead(s));
-    const openers = [];
-    const secAt = {};
-    for (const sec of (s.sections || [])) secAt[sec.at] = sec;
-    // the opened extra list is its own block, dealt AFTER the session's end card
-    const more = document.createElement("div"); more.setAttribute("data-plan-extra", "1"); more.style.cssText = "display:flex;flex-direction:column;";
-    if (extra > 0) secAt[s.required] = { label: "More weaknesses", note: extra.toLocaleString("en-US") + " more " + (extra === 1 ? "technique" : "techniques") + ", " +
-      (s.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") };
-    const limit = locked ? s.required : s.shown ? Math.min(s.keys.length, s.shown) : s.keys.length;
-    if (s.plan) this._sessionNodes = s.keys.slice(0, limit).map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // rings follow the unlock
+    if (this._sessionDone(s) >= n) { list.appendChild(this._sessionDoneCard(s)); return; }
+    const wrap = document.createElement("div"); wrap.setAttribute("data-session", "1");
     s.keys.forEach((key, i) => {
-      if (i >= limit) { openers.push(null); return; }
-      const host = s.plan && i >= s.required ? more : wrap;
-      const sec = secAt[i];
-      if (sec) {
-        const h = document.createElement("div");
-        h.setAttribute("data-session-section", sec.label);
-        h.style.cssText = "display:flex;flex-wrap:wrap;align-items:baseline;gap:7px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6b7691;font-weight:700;padding:" + (i ? "14px" : "2px") + " 2px 7px;";
-        h.innerHTML = "<span>" + sec.label + "</span><span style=\"letter-spacing:0;text-transform:none;font-size:10.5px;font-weight:500;color:#5d6883;\">" + sec.note + "</span>";
-        host.appendChild(h);
-      }
-      const r = this._sessionRow(key, i, s, decks);
-      host.appendChild(r.el);
-      openers.push(r.open);
+      const row = this._sessionRow(key, i, s, this.flashcards?.decks || {});
+      wrap.appendChild(row.el); this._sessionOpeners.push(row.open);
     });
     list.appendChild(wrap);
-    // the session's END: the celebration once it is done (with the action after it), the lock before
-    if (complete && (s.plan || s.live.total > 0)) list.appendChild(this._sessionDoneCard(s));
-    else if (locked) list.appendChild(this._planLockBlock(extra));
-    if (more.children.length) list.appendChild(more);
-    this._sessionOpeners = openers;
-    // INFINITE SCROLL, one page at a time, and deliberately a BUTTON rather than a scroll
-    // listener: the pane's scroller is shared with the open mini-deck, and appending rows under
-    // a card the user is mid-answer moves it out from under them.
-    if (!locked && limit < s.keys.length) {
-      const more = document.createElement("button");
-      more.type = "button";
-      more.setAttribute("data-session-more", String(s.keys.length - limit));
-      more.textContent = "Show " + Math.min(10, s.keys.length - limit) + " more \u00b7 " + (s.keys.length - limit) + " left in the ranking";
-      more.style.cssText = "width:100%;margin:10px 0 2px;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:600;padding:10px;border-radius:10px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.03);color:#9aa6bd;";
-      more.addEventListener("click", () => { s.shown = limit + 10; this.renderSession(); });
-      list.appendChild(more);
-    }
-    // LAND ON A CARD, NOT ON A BUTTON. The old surface made you press "Start session" before it
-    // would show you anything; the queue's whole point is that the first question is already here.
-    const at = Math.max(0, Math.min(n - 1, s.idx || 0));
-    if (openers[at] && !complete) openers[at]();
-    { const foot = this.drillFootRef.current; if (foot) { foot.innerHTML = ""; foot.style.display = "flex"; foot.appendChild(this._sessionFoot(s)); } }
-    if (s.plan || s.review) this._paintGameplanProgress(s);
+    this._sessionOpeners[Math.max(0, Math.min(n - 1, s.idx || 0))]?.();
+    const foot = this.drillFootRef.current;
+    if (foot) { foot.replaceChildren(this._sessionFoot(s)); foot.style.display = "flex"; }
   }
+
+  _renderPractice(s, list) {
+    s.started ??= this.practiceToday().done;
+    this._gameplanProgress(s);
+    this.setDrillHeader("Practice", "", "");
+    // This fixed skeleton is owned by the page; the shared card renderer fills its first section.
+    list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Practice details &amp; session queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
+    const [goal, wrap, nav, keys, end, corridor, support] = list.children, details = support.firstChild;
+    s.goal = goal; s.rows = wrap; s.heading = wrap.firstChild; s.corridor = corridor; s.support = support; s.end = end;
+    s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = end.firstChild;
+    keys.innerHTML = this._keyLegend();
+    for (const [text, dir] of [["‹ Previous technique", -1], ["Next technique →", 1]]) {
+      const b = this.drillBtn(text); b.onclick = () => this.sessionNav(dir); nav.appendChild(b);
+    }
+    s.explanation.appendChild(this._gameplanIntro(s));
+    const more = s.more = this.drillBtn("Keep practising · more new cards", true);
+    more.setAttribute("data-plan-more", "1");
+    more.onclick = () => {
+      if (!s.plan) { this.openPlanSession(s.anchor, "open-plan"); return; }
+      const at = s.keys.length;
+      this.track("neural_find_more_weaknesses", { techniques: Math.min(10, s.plan.more.length), ranking: s.plan.status });
+      this._practiceAppend(s, s.plan, s.plan.more.slice(0, 10));
+      this._sessionOpeners[at]?.(); this._scrollFocusedDeck();
+    };
+    end.appendChild(more);
+    this._practiceCorridor(); this._practiceRows(s);
+    this._sessionOpeners[Math.max(0, Math.min(s.keys.length - 1, s.idx || 0))]?.();
+    if (!s.keys.length) {
+      const empty = document.createElement("p"); empty.setAttribute("data-session-empty", "1");
+      empty.textContent = s.plan ? "Nothing to practise here right now." : this._gameplanLoadState === "failed" ? "Open study plan to retry." : "Loading cards…";
+      wrap.appendChild(empty);
+    }
+    const foot = this.drillFootRef.current; if (foot) foot.style.display = "none";
+    this._paintGameplanProgress(s);
+  }
+
+  _practiceRows(s) {
+    if (!s.rows?.isConnected) return;
+    for (let i = this._sessionOpeners.length; i < s.keys.length; i++) {
+      const key = s.keys[i], row = this._sessionRow(key, i, s, this.flashcards?.decks || {});
+      s.rows.appendChild(row.el); this._sessionOpeners.push(row.open);
+      const jump = document.createElement("button"); jump.type = "button";
+      jump.textContent = key.replace("|", " · ");
+      jump.onclick = () => { row.open(); this._scrollFocusedDeck(); }; s.queue.appendChild(jump);
+    }
+    this._sessionNodes = s.keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings: never aim at an orb this ruleset does not draw
+    if (s.keys.length) s.rows.querySelector("[data-session-empty]")?.remove();
+  }
+
+  _paintPractice(s) {
+    const worn = this.wornBelt(), p = s.live, count = (n, noun) => n + " " + noun + (n === 1 ? "" : "s");
+    const cards = (n) => count(n, "card"), techs = (n) => count(n, "technique");
+    const [progress, goal] = s.goal.children, today = this.practiceToday();
+    goal.textContent = "Daily goal: " + this._practiceGoalText(today);
+    goal.style.color = today.done >= today.goal ? "#7ee0a8" : "#7e8aa3";
+    progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
+    const due = s.plan ? s.plan.due : s.review.rows, row = due.find(r => r.key === s.keys[s.idx]);
+    const label = row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " practice";
+    s.heading.textContent = label;
+    s.rows.style.setProperty("--practice-belt", NG_CHALLENGE_TRACK_COLORS[worn.id]);
+    // Each half only when it has something to say (SIDE-R2 M6): no plan makes no claim about new work.
+    s.count.textContent = [p.dueCards ? cards(p.dueCards) + " to review across " + techs(due.length) : "", s.plan?.fresh.length ? s.plan.newCards + " new across " + techs(s.plan.fresh.length) + ", " +
+      (s.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : ""].filter(Boolean).join(" \u00b7 ");
+    const more = s.more;
+    more.disabled = !!s.plan && !s.plan.more.length;
+    if (s.plan && !s.explanation.querySelector("[data-gameplan-refresh]")) s.explanation.replaceChildren(this._gameplanIntro(s));
+    if (s.plan) s.explanation.firstChild.firstChild.textContent = this._gameplanRuntime.ngGameplanSummary(s.plan);
+    const title = this.drillHeadRef.current.querySelector("[data-practice-belt]");
+    if (title) title.textContent = ngBeltDisplayName(worn.id) + " · " + count(worn.stripes, "stripe") + " · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
+  }
+
+  _practiceCorridor() {
+    const s = this._session;
+    if (!s?.practice || !s.corridor) return;
+    s.belt = this.wornBelt().id;
+    s.corridor.replaceChildren();
+    this.renderChallenges(s.corridor, true);
+  }
+
   /** Due work resolves by reviewed questions; curriculum lessons retain their own credit goal. */
   _sessionDone(s) {
     if (s.plan || s.review) return this._gameplanProgress(s).rows.filter((r) => r.done).length;
@@ -5987,6 +6018,7 @@ class Component extends DCLogic {
     const ncards = this._deckCardCount(d);
     const rid = "s" + i;
     const box = document.createElement("div");
+    if (s.practice) box.hidden = true;
     const r = document.createElement("button"); r.type = "button";
     r.setAttribute("data-session-row", key);
     r.setAttribute("data-session-idx", String(i));
@@ -5996,10 +6028,9 @@ class Component extends DCLogic {
     // instead of rebuilding the list underneath the card the user is reading
     const paint = () => {
       const progress = (s.plan || s.review) && s.live && s.live.rows.find((r) => r.key === key);
-      const dueQs = !(s.plan || s.review) && s.filter === "due" ? this.duePool().filter((r) => r.key === key) : null;
       const done = this._sessionRowDone(s, key);
-      const goal = progress ? progress.count : dueQs ? dueQs.length : this._deckGoal(key);
-      const prep = progress ? progress.completed : dueQs ? 0 : Math.min((this.prep && this.prep[key]) || 0, goal);
+      const goal = progress ? progress.count : this._deckGoal(key);
+      const prep = progress ? progress.completed : Math.min((this.prep && this.prep[key]) || 0, goal);
       const open = detail.style.display !== "none";
       if (done) r.setAttribute("data-session-done", "1"); else r.removeAttribute("data-session-done");
       r.setAttribute("aria-expanded", String(open));
@@ -6008,7 +6039,7 @@ class Component extends DCLogic {
         (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";";
       const label = this._deckCountLabel(key, true);
       // PRACTICE'S MIX, said per row (U56 e): a review or a new deck, read from the plan's own rows
-      const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? "new" : "" : "";
+      const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? "new" : "" : s.review ? s.review.rows.some(x => x.key === key) ? "due" : "new" : "";
       if (kind) r.setAttribute("data-practice-kind", kind);
       r.innerHTML =
         '<span style="width:9px;height:9px;border-radius:' + (cat === "Position" ? "50%" : "2px") + ';background:' + (done ? "#7ee0a8" : (catCol[cat] || "#9fb0d8")) + ';flex:none;"></span>' +
@@ -6029,6 +6060,7 @@ class Component extends DCLogic {
     };
     const closeSelf = () => {
       detail.style.display = "none";
+      if (s.practice) box.hidden = true;
       if (this._openRow === rid) this._openRow = null;
       if (this._focusRow === rid) this._focusRow = null;
       if (this._openMini && this._openMini.rid === rid) this._openMini = null;
@@ -6043,18 +6075,17 @@ class Component extends DCLogic {
       // contract) while a "learn next" row shows the whole deck — and the plan queue holds both,
       // so a single session-level `filter` would narrow the wrong half.
       const planned = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === key);
-      const extraRow = !planned && s.plan ? s.plan.more.find((r) => r.key === key) : null;   // an unlocked extra: whole deck, its reason
-      const only = planned ? (this._cardsOf(deck) || []).filter((c) => planned.questions.includes(this.qhash(c.q)))
-        : s.filter === "due" ? this._entryForKey(key, "due").cards : null;
-      if (planned || extraRow) {
+      const only = planned ? (this._cardsOf(deck) || []).filter((c) => planned.questions.includes(this.qhash(c.q))) : null;
+      const explanation = document.createElement("div");
+      if (planned) {
         const why = document.createElement("p"); why.setAttribute("data-gameplan-reason", key);
         why.style.cssText = "font-size:12px;line-height:1.5;color:#aab9d5;padding:0 12px;overflow-wrap:anywhere;";
         // ONE PLAIN SENTENCE PER CARD (item 9, owner 2026-09-30); the caveats live once, under
         // "Why these decks?". The row's own subtitle already names the role.
         why.textContent = planned && planned.kind === "due"
           ? planned.count + (planned.count === 1 ? " card" : " cards") + " due for review, so you keep what you've learned."
-          : (planned || extraRow).reason;
-        detail.appendChild(why);
+          : planned.reason;
+        explanation.appendChild(why);
         if (planned && planned.related && planned.related.length) {
           const shared = document.createElement("details"), label = document.createElement("summary");
           label.textContent = "Shares cards with " + planned.related.length + " other " + (planned.related.length === 1 ? "deck" : "decks");
@@ -6064,7 +6095,7 @@ class Component extends DCLogic {
             const p = document.createElement("p"); p.style.cssText = "font-size:11.5px;line-height:1.5;color:#aab9d5;padding:0 12px;";
             p.textContent = related.key.replace("|", " · ") + ": " + related.reason; shared.appendChild(p);
           }
-          detail.appendChild(shared);
+          explanation.appendChild(shared);
         }
       }
       detail.appendChild(ncards && resident && (!only || only.length)
@@ -6072,6 +6103,7 @@ class Component extends DCLogic {
         // finished, walks the queue on — the session's whole reason to be a queue.
         ? this._miniDeck(key, deck, false, rid, () => { paint(); this._sessionGraded(s, i); }, only)
         : this._miniDeckEmpty({ key: key }));
+      detail.appendChild(explanation);
       // authored but not here yet: opening the row IS the request for it (and, after a dropped
       // chunk, the retry) — same contract as the roll history's rows.
       if (ncards && !resident) {
@@ -6086,15 +6118,21 @@ class Component extends DCLogic {
     };
     const open = () => {
       if (this._openMini && this._openMini.rid !== rid) this._openMini.close();  // accordion: one at a time
-      if (!built || s.plan || s.filter === "due") { built = true; build(); }
+      if (!built || s.plan) { built = true; build(); }
       detail.style.display = "block";
+      box.hidden = false;
       s.idx = i;
       this._openRow = rid; this._focusRow = rid;
       this._openMini = { rid: rid, el: detail, close: closeSelf };
       paint();
+      if (s.practice) {
+        if (s.belt !== this.wornBelt().id) { s.earlier = false; this._practiceCorridor(); }
+        detail.tabIndex = -1; detail.focus({ preventScroll: true }); this._paintPractice(s);
+      }
       const ni = this.nodeForKey(key); if (ni >= 0) this.locateNode(ni);   // the graph follows the queue
     };
-    r.addEventListener("click", () => { if (detail.style.display !== "none") closeSelf(); else { open(); this._scrollFocusedDeck(); } });
+    // Practice shows one row, so collapsing it would take its own title away: there it only ever opens.
+    r.addEventListener("click", () => { if (detail.style.display === "none") { open(); this._scrollFocusedDeck(); } else if (!s.practice) closeSelf(); });
     paint();
     box.appendChild(r); box.appendChild(detail);
     this._sessionPaint = this._sessionPaint || {};
@@ -6115,7 +6153,11 @@ class Component extends DCLogic {
     for (const paint of Object.values(this._sessionPaint || {})) paint();
     if (!this._sessionRowDone(s, s.keys[i])) return;
     const n = s.plan ? s.required : s.keys.length;
-    if (s.plan || s.review ? s.live.complete : this._sessionDone(s) >= n) { this.renderSession(); return; }
+    if (s.plan || s.review ? s.live.complete : this._sessionDone(s) >= n) {
+      // Practice's end card is already painted under the card, so a grade never rebuilds the page.
+      if (s.practice) s.end.scrollIntoView({ block: "nearest" }); else this.renderSession();
+      return;
+    }
     const nextAt = (() => {
       for (let d = 1; d <= n; d++) { const j = (i + d) % n; if (!this._sessionRowDone(s, s.keys[j])) return j; }
       return -1;
@@ -6135,21 +6177,23 @@ class Component extends DCLogic {
   }
   /** The pinned foot: how far through the queue you are, and the keys that drive it. */
   _sessionFoot(s) {
-    const p = (s.plan || s.review) && (s.live || this._gameplanProgress(s));
-    const n = p ? p.total : s.keys.length, done = p ? p.completed : this._sessionDone(s);
+    // Daily Practice owns its progress above the card; this footer serves other queues.
+    const n = s.keys.length, done = this._sessionDone(s);
     const el = document.createElement("div");
     el.setAttribute("data-session-foot", "1");
     el.style.cssText = "display:flex;flex-direction:column;gap:7px;width:100%;";
-    const kb = '<span style="display:inline-block;min-width:13px;text-align:center;padding:1px 3px;border-radius:3px;background:rgba(255,255,255,.06);color:#9aa6bd;">';
     el.innerHTML =
       '<div style="display:flex;align-items:center;gap:9px;">' +
         '<div style="flex:1;height:4px;border-radius:2px;background:rgba(150,170,210,.16);overflow:hidden;"><div style="height:100%;width:' + Math.round((done / Math.max(1, n)) * 100) + '%;border-radius:2px;background:linear-gradient(90deg,#4a9c74,#7ee0a8);transition:width .3s;"></div></div>' +
-        '<span style="flex:none;font-size:10.5px;font-weight:700;color:' + (done ? "#7ee0a8" : "#7e8aa3") + ';">' + done + ' of ' + n + (p ? ' cards' : '') + '</span>' +
-      '</div>' +
-      '<div style="display:flex;align-items:center;justify-content:center;gap:10px;font-size:9.5px;font-weight:600;letter-spacing:.02em;color:#6b7691;">' +
-        kb + '←→</span> card<span style="color:#3d4761;">·</span>' + kb + '↑↓</span> technique<span style="color:#3d4761;">·</span>' + kb + 'space</span> flip' +
-      '</div>';
+        '<span style="flex:none;font-size:10.5px;font-weight:700;color:' + (done ? "#7ee0a8" : "#7e8aa3") + ';">' + done + ' of ' + n + '</span>' +
+      '</div>' + this._keyLegend();
     return el;
+  }
+  /** The keys that drive a queue: the pinned foot's last line, and on Practice's page a line under the card. */
+  _keyLegend() {
+    const kb = '<span style="display:inline-block;min-width:13px;text-align:center;padding:1px 3px;border-radius:3px;background:rgba(255,255,255,.06);color:#9aa6bd;">', dot = '<span style="color:#3d4761;">·</span>';
+    return '<div style="display:flex;align-items:center;justify-content:center;gap:10px;font-size:9.5px;font-weight:600;letter-spacing:.02em;color:#6b7691;">' +
+      kb + '←→</span> card' + dot + kb + '↑↓</span> technique' + dot + kb + 'space</span> flip</div>';
   }
   /**
    * THE END OF A SESSION, BUILT IN ONE PLACE (v1.137.0). The inline queue and `renderDrill`'s
@@ -6171,13 +6215,12 @@ class Component extends DCLogic {
     const done = document.createElement("div");
     done.setAttribute(valid ? "data-session-complete" : "data-session-incomplete", "1");
     done.style.cssText = "margin-top:auto;background:rgba(28,46,38,.5);border:1px solid rgba(110,224,168,.35);border-radius:12px;padding:20px 16px;text-align:center;animation:ngCardIn .3s ease both;";
-    // FGD13 (owner, 2026-09-30): the daily session ends on "All done, come back tomorrow", and AFTER
-    // it offers the Continue action, "Find more weaknesses" (below the week plot). A lesson session
-    // keeps "Session complete".
+    // Completion describes this obligation. Practice keeps its separate continuation
+    // control available before and after completion, including beyond the daily goal.
     const due = this.dueCount();
     done.innerHTML =
       '<div style="font-size:26px;margin-bottom:10px;">\uD83C\uDF89</div>' +
-      '<div data-session-done-title="1" style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (!valid ? 'Reviews still need attention' : live ? 'All done, come back tomorrow' : 'Session complete') + '</div>' +
+      '<div data-session-done-title="1" style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (!valid ? 'Reviews still need attention' : 'Session complete') + '</div>' +
       '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">' +
       (!live ? 'The lesson goals in this session are complete. ' : live.total ? 'You reviewed ' + live.completed + ' of ' + live.total + ' cards today. ' : "You've met today's goal. ") +
       (due ? due + (due === 1 ? ' card is' : ' cards are') + ' due now.' : '') + '</div>';
@@ -6193,27 +6236,7 @@ class Component extends DCLogic {
     plot.style.cssText = "background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:12px;padding:14px 12px 10px;margin-bottom:14px;";
     plot.innerHTML = '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:10px;">This week</div>' + bars;
     done.appendChild(plot);
-    const extra = ses.plan ? ses.keys.length - ses.required : 0;
-    if (valid && extra > 0 && !ses.unlocked) {
-      // THE CONTINUE ACTION (FGD13): opens the plan's extra list and lands on its first deck
-      const go = document.createElement("button"); go.type = "button"; go.setAttribute("data-plan-more", String(extra));
-      go.style.cssText = "display:block;width:100%;min-height:44px;margin:0 0 10px;cursor:pointer;font-family:inherit;font-size:13px;font-weight:700;padding:10px 14px;border-radius:10px;border:1px solid rgba(126,224,168,.55);background:rgba(126,224,168,.14);color:#bff0d2;";
-      go.innerHTML = 'Find more weaknesses<span style="display:block;margin-top:2px;font-size:10.5px;font-weight:500;color:#8fb8a0;"></span>';
-      go.querySelector("span").textContent = extra.toLocaleString("en-US") + " more " + (extra === 1 ? "technique" : "techniques") + ", " +
-        (ses.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison");
-      go.addEventListener("click", () => {
-        if (this._session !== ses) return;
-        ses.unlocked = true; ses.idx = ses.required;
-        this.track("neural_find_more_weaknesses", { techniques: extra, ranking: ses.plan.status });
-        this.renderSession();
-        const op = this._sessionOpeners && this._sessionOpeners[ses.required];
-        if (op) { op(); this._scrollFocusedDeck(); }
-      });
-      done.appendChild(go);
-    }
-    const close = document.createElement("button");
-    close.textContent = "Close";
-    close.style.cssText = "cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:600;padding:9px 18px;border-radius:10px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#aeb6c8;";
+    const close = this.drillBtn("Close");
     close.addEventListener("click", () => { this._session = null; this._sessionNodes = null; this._inSession = false; this.setDeckOpen(false); });
     done.appendChild(close);
     return done;
@@ -6234,7 +6257,9 @@ class Component extends DCLogic {
     // would ever refresh the snapshot and the surface would sit on "being authored" for good.
     this._studyOpen = key;
     if (!this._deckResident(key)) this.hydrateDeck(key).then(() => this._restudy(key));
-    this.drillEntries = [this._entryForKey(key, this._session && this._session.filter)]; // due sessions stay due-only
+    const s = this._session;
+    const due = (s?.plan ? s.plan.due : s?.review?.rows || []).some(r => r.key === key);
+    this.drillEntries = [this._entryForKey(key, due ? "due" : null)];
     this._posKey = key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this._gameValueChanged("position-key");
     this._inSession = true;
@@ -6359,7 +6384,6 @@ class Component extends DCLogic {
       host.appendChild(add);
     }
   }
-  modifierCount() { const p = this.prep || {}; return Object.keys(p).filter((k) => p[k] > 0).length; }
   openAuth(mode) { this._authMode = mode || "create"; this.openModal(); this.renderAuth(); }
   // ---------- real auth via the page's Supabase facade (window.__bjjAuth, see supabase.ts) ----------
   _auth() { const A = window.__bjjAuth; return (A && typeof A.isAuthenticated === "function") ? A : null; }
@@ -6972,6 +6996,12 @@ class Component extends DCLogic {
     // that same belt sync (same "curriculum" reason) and repaints the tab — one seam, the order
     // it already guarantees. Pinned by e2e/gen/holder-restart-tutorial-resets-white-only.spec.ts.
     this._publishKnowledge("curriculum");
+    const s = this._session;
+    if (s?.practice) this._afterPress(() => {
+      if (this._session !== s || !this._sessionInline()) return;
+      this._practiceCorridor();
+      if (!s.keys.length) this.openPlanSession("due", false);
+    });
   }
   setViewMode(m) {
     if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
@@ -7282,8 +7312,14 @@ class Component extends DCLogic {
     if (this._lessonBeatFired.has(key)) return;
     this._lessonBeatFired.add(key);
     this.fx("lesson_done", { deckKey: key, unit: e.unit, belt: e.belt });
+    // Evidence repaints Path through noteChallenges, whose gate skips every study surface. Practice's
+    // corridor stands below its card, not over it, so it repaints here: a finished unit's checkpoint
+    // goes live in place instead of waiting for the player to leave the page. Spec: practice-page P1-F.
+    if (this._session?.practice && this._sessionInline()) this._afterPress(() => this._practiceCorridor());
   }
   openLessonStudy(l, unit, belt) {
+    if (!this.beltUnlocked(belt.id || belt)) return;
+    if (this._session?.practice) { this._practiceLesson(l.deckKey); return; }
     const keys = unit.lessons.filter((x) => this._lessonLive(x)).map((x) => x.deckKey);
     this._session = { keys: keys, label: unit.name, idx: Math.max(0, keys.indexOf(l.deckKey)) };
     this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings only: never aim at an orb this ruleset does not draw
@@ -7436,6 +7472,7 @@ class Component extends DCLogic {
     return bt.names.indexOf(this.splitName(n.t).main.toLowerCase()) >= 0;
   }
   startBeltTest(beltId) {
+    if (!this.beltUnlocked(beltId)) return;
     const bs = (this.curriculum && this.curriculum.belts) || [];
     const bi = bs.findIndex((b) => b.id === beltId);
     const belt = bs[bi];
@@ -11183,10 +11220,10 @@ class Component extends DCLogic {
   // reader response therefore cannot rename a newer route. Publish the title
   // before History's synchronous observers run. /l/ graph navigation returns in
   // _pushUrl above, preserving the share preview's address AND title.
-  _writeUrl(path = location.href, state, replace = false) {
+  _writeUrl(path = location.href, state, replace = false, priorTitle) {
     const before = document.title;
     try {
-      const title = this._pageTitle(path);
+      const title = this._pageTitle(path) || priorTitle;
       // The reader retries a non-indexed page after its already-requested HTML
       // supplies the title, keeping the history entry and tab text atomic.
       if (!title && state) return false;
@@ -12092,7 +12129,7 @@ class Component extends DCLogic {
     // the flag-derived truth (never the pixels), so the refusal flips back the instant the sheet
     // closes, with no transition to race. Not a decline and not a grade: the question is untouched
     // and still pays when the player comes back to it.
-    const answer = (i) => { if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
+    const answer = (i) => { if (truth.surface === "practice" && (!this._sessionInline() || !wrap.isConnected || wrap.offsetParent === null)) return; if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
     truth.answer = answer;                                    // the A/B/C keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
@@ -12292,6 +12329,7 @@ class Component extends DCLogic {
   // ═══ P2: checkpoint quiz (replaces the P1 placeholder behind the same handle + beats) ═══
   _cancelCheckpoint() { if (this._checkpoint) { this._checkpoint = null; this.fx("checkpoint_abandoned", {}); } }
   startCheckpoint(beltId, unit) {
+    if (!this.beltUnlocked(beltId)) return;
     if (this._checkpoint) return; // a quiz is already in progress — don't discard it
     const uk = beltId + "/" + unit.id;
     const live = unit.lessons.filter((l) => this._lessonLive(l));
@@ -12565,7 +12603,9 @@ class Component extends DCLogic {
   _paneLayout(target = false) {
     const W = this.W || window.innerWidth;
     const panel = this.drillRef && this.drillRef.current;
-    if (panel && panel.offsetWidth) this._paneWidth = panel.getBoundingClientRect().width;
+    // Its RIGHT EDGE, which is its width while it is docked left: Practice's page stands centred, and the
+    // graph the camera aims at is what shows beside it.
+    if (panel && panel.offsetWidth) this._paneWidth = panel.getBoundingClientRect().right;
     const progress = target ? (this.deckShown ? 1 : 0) : (this.uiShift || 0);
     const left = this.isMobile() ? 0 : Math.min(W, this._paneWidth || this.sbOffset()) * progress;
     return { left, width: W - left, center: (W + left) / 2, shift: left / 2 };
