@@ -142,9 +142,7 @@ v1.211.0, §8 — never a Game Knowledge band), a stage-2+ card
 asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
 a question asked against a running CLOCK, and only those.** The paused node study card takes
 `askFormat` instead: recognition below stage 2, recall at or above it, whatever the belt. The black-belt badge
-still force-enables the toggle early. **The White Challenges cue card is retired** (owner) — the
-challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a
-remover. **Win chance explains itself** in the score tooltip (§4).
+still force-enables the toggle early. `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
 focus, flare and card; the roll's seat remains its origin position. `_stagedTech = {idx, side}`
@@ -153,7 +151,7 @@ an attacking technique through the ordinary pick path. Another commit or `clearO
 consumes the latch. Family hubs resolve to their most-connected member. Telemetry remains
 `roll_staged {technique}` and `staged_exchange {technique, side}`.
 
-**Every navigation starts a calm journey** (owner 2026-10-15, v1.227.0, superseding v1.134.0):
+**Every navigation starts a calm journey** (v1.227.0):
 URL/reload, Back/Forward, sidebar/Browse/search, article/perspective/list/shared links, orb
 clicks and manual restaging. Submission defenders receive their escape hand and generic card;
 transitions keep their staged landing. Answering or starting a dormant defense also stays calm.
@@ -170,8 +168,7 @@ Defender article, and hydrates its own deck. Hiding the question leaves catch an
 
 **Paging browses the current deck.** Horizontal swipes (40px / 700ms), accumulated trackpad
 `deltaX` (one page per gesture), outside chevrons and `←`/`→` call `_landPageTo(dir)`. Keys yield to pane History and
-drill arrows and refuse `_landHidden()`. The retired dots/reveal pager and undeployed
-`landAnswers` setting have no reader. Paging replaces only `[data-land-q]`, clamped at the ends.
+drill arrows and refuse `_landHidden()`. Paging replaces only `[data-land-q]`, clamped at the ends.
 The per-landing cache restores spent time and re-parents the same shuffle without another RNG draw; answered cards
 return graded and disabled. Cold distractors warm through `_landWarmP` (replace-not-clear).
 A capture-phase suppressor swallows synthesized clicks after movement >6px. Live defense
@@ -218,8 +215,8 @@ fills the last slot. Display order is still the `…-mc-shuffle` shuffle. Pinned
 
 ### Choosing a move and watching its video
 
-v1.231.0 (`feedback_owner_rules_reverse_shipped_contracts`): **Your move** replaces Inspect
-and its option sheet; the reversal history is in the archive. A title sits above the first clip
+v1.231.0: **Your move** replaces Inspect
+and its option sheet. A title sits above the first clip
 only if it has `front: true` in the move's own role. Otherwise the media region stays empty.
 Escape choices never borrow destination footage.
 
@@ -245,7 +242,7 @@ and stale states.
 
 After commit, the live hand is cleared and a non-actionable copy of the chosen card remains,
 exactly where the card was (the row's padding, i.e. the open pane, comes off its offset), escapes
-included (v1.218.1; they used to clear the hand and show nothing). Its face rises 1/12 of its
+included (v1.218.1). Its face rises 1/12 of its
 height and settles (`_placeOnTable`, 0.44 s, none under reduced motion); its holder never moves.
 The execution handoff retains the measured row position and game height through its result;
 the same dock supplies fixed-layout callers. Resizing or reading releases the reservation.
@@ -267,7 +264,7 @@ borrows the announcer. `tests/roll_execution.test.mjs` pins source behavior;
 `_landFilmEl` has a fixed title, role and **Win %** footer, no execute percentage, and one
 full clip plus a 10% peek. Curated order wins over duration. Multi-clip frames are about
 241px high at 400px wide and 220px at 358px; `currentFilmHeight()` measures the actual height.
-Desktop geometry is 400px media + 60px gap + 390px practice + 52px Next reserve = 902px.
+Beside the practice card it takes 1152px of free pane and no collapsed hint (`filmLayout`); below that it fills the reading column, 680px at most.
 At 390px, 358px media sits 12px above a 286px practice face (viewport minus 104px).
 The 44px deck arrows remain outside the face. Sections owns the slot; the media observer
 calls `reader.layout()` only after a measured height change and never resizes the host itself.
@@ -287,6 +284,15 @@ Collapse pauses and hides the section without destroying its host. Reopening nev
 Only closing a clip or changing node/role destroys it. `reading-media-placement.spec.ts` pins the
 shared ownership contract; `video-cards.spec.ts` pins the contents and real input.
 
+**The theater** (VIDEO1). Play on the current technique's card loads YouTube on that click and asks it
+to autoplay. `_openFilmTheater` portals only the player rectangle into a modal `<dialog>`; the card keeps
+its place. The rectangle zooms from there over 360ms, or appears at once under reduced motion, to 95% of
+the viewport's width, capped at 95% of its height, over a 60% black backdrop. Close, the dim and Escape
+destroy the player and return focus to Play; Escape inside the iframe stays the provider's. The modal
+and `_graphInputOn` keep input off the map, and reward notices wait for it (D-326). A blocked script
+shows the YouTube link and fires `video_load_failed`; a later Play retries. Only this card zooms: a
+reference clip plays in place, as above, and no video enters a question.
+
 ### The commit hands the camera to the roll (v1.135.1)
 
 `userActiveNow()` (4 game-seconds since `lastInteract`) is the ONE condition that suppresses the
@@ -300,12 +306,11 @@ regression remains covered by `roll-card.spec.ts`; the execution cases live in
 ### The panic drill is multiple choice (v1.135.0)
 
 The shared defending card uses `_mcBlock` on surface `"panic"` (`data-panic-mc-opt`, RNG tags
-`panic-mc-pick`/`panic-mc-shuffle`), preserving its knowledge/telemetry identity. The separate
-renderer and red skin are retired. Defense always uses MC despite the in-play recall preference.
+`panic-mc-pick`/`panic-mc-shuffle`), preserving its knowledge/telemetry identity. Defense always uses MC despite the in-play recall preference.
 Correct answers pump escape odds and deal the next card; wrong answers reveal without a boost
 and break momentum. Expiry reveals a miss. Reveal/Got-it is the cold-pool fallback, with one
 warm-upgrade attempt per deck. Seeing the answer permanently prevents that upgrade, even
-after Space hides it or paging brings it back. The "+7 Tilt toward winning" legend retired; the meter is 165×7px.
+after Space hides it or paging brings it back. The meter is 165×7px.
 
 **Danger animation**, beside Answer time in Rolling, uses permanent boolean `dangerAnimation`
 (default `true`). Off removes pulsing edges and card warnings, retaining static catch status,
@@ -357,13 +362,14 @@ player is already reaching into.
 Choice cards show a direct title, approved video, immediate chance and Win chance; the shortcut
 sits inside the same category shape used on the map. A threat card's colour is your win chance.
 
-U47 d + U52 b (v1.236.0, owner 2026-10-27/28; supersedes U34 a's in-card **Reveal / Answer for a
-boost**): a landing, attempt or catch arrives **asking** — no card at all, only its question as a
+U47 d + U52 b (v1.236.0): a landing, attempt or catch arrives **asking** — no card at all, only its question as a
 quiet line **immediately after the Your move row** (`_landAsk`, `[data-land-ask]`; on a stacked
 phone stage the Videos card now follows the question), with **Answer for Points** inline at its
-end. No container, fill or border; a soft text shadow keeps it legible over the map. A phone trims
-the question with an ellipsis (`_fitAskLine`, never the link) so the line is at most two lines; a
-390×631 phone shows both at arrival. The card's answers are built but inert, so no key, click or
+end. No container, fill or border; a soft text shadow keeps it legible over the map. `_fitAskLine`
+trims the question with an ellipsis, never the link, to one line (two on a tall phone), so a 390×631
+phone shows both at arrival. Its text sits one `--section-gap` under the cards at every width; with
+1024px of free pane it is a hint inside the choices row's bottom band and takes no row of its own,
+the panic drill included. The card's answers are built but inert, so no key, click or
 paging gesture acts on them, letters a/b/c included, and no clock runs. The ✕ stays: it is the
 Questions layer's handle. Answer for Points (Tab + Enter too), or a tap on the question, calls
 `_landReveal`: the card opens in place as today's card (multiple choice, or the recall flashcard)
@@ -391,9 +397,7 @@ Watch control or next-video step. Video belongs to the video card or Videos sect
 catch covers only its question; native Moves remain separate and untimed. U37: there is no
 next-step overlay inside a video player.
 
-The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the
-choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat —
-the v1.123.0 Hick's-law knee died with the hand clock) arms when the player presses **Answer for Points**
+The clock times the QUESTION, never the hand (v1.133.0). `decisionSec` (the "Answer time" slider, 5–15s, flat) arms when the player presses **Answer for Points**
 (`_armLandClock`) — or, for a card that arrives already shown (after one take-up in this tab, U52 b), on arrival
 once the player has engaged; with the pane open (study) it does not run (`_clockGate`: `!deckShown`) — and drains a 3px bar on the card's top edge (neutral, red at ≤3s, "Answer
 3…2…1" in the announcer). Expiry (`_expireLandQ`) reveals the answer as a MISS — correct option
@@ -403,7 +407,7 @@ live: the player still picks, untimed. Committing past an open question is a FRE
 anything that puts the question away — the ✕, a background tap, the pane or the video viewer — all
 DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum untouched). The
 penalty exists only for letting it expire while it faces you. **The question clock never
-pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
+pauses** (v1.134.0) — it drains on the real game frame,
 staged boards and internal pauses included — **but it never STARTS before the player does**
 (v1.137.0): no
 window arms until the player presses Answer for Points (or taps the question; a card shown on arrival
@@ -423,7 +427,7 @@ exploratory red lets go), the green never moves, and none of it emits a beat or 
 ledger (`explore` in `_mcBlock`). A landing that asks nothing has no clock at all. The option cards' bottom bars are static — nothing on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
 
 The tray scrolls by wheel (larger of `deltaX`/`deltaY`) and by mouse drag (mouse only — touch is
-the platform's job); the "see more" hint that also scrolled it was deleted in v1.173.0. A drag
+the platform's job). A drag
 that moved more than a few pixels suppresses the click, or every drag ending over a card would
 commit that move. One rAF owns `scrollLeft`: `_trayStop()` is called by a new grab, by `tweenScroll`
 and by `clearOptions`.
@@ -443,8 +447,7 @@ you move again. A miss that moves you costs a ply and hands over the turn; a mis
 in place costs nothing. `opponentDefend` always ends by handing the board back, so the opponent
 never keeps initiative.
 
-**Hesitating costs nothing but the question.** The v1.129.0 hand-over on expiry (`hesitated`)
-was retired in v1.133.0 with the hand clock: expiry is a missed answer, never a lost turn.
+**Hesitating costs nothing but the question.** Expiry is a missed answer, never a lost turn.
 
 ### The announcer
 
@@ -457,8 +460,7 @@ it, "−4% move" (`_cardHit`, hooked in
 never take one). The cause is named once, rising from the measured "Your options" label ("too
 slow", "missed", "that one hurts", "correct"; a broken streak stacks "×N momentum lost"), with one
 polite aria-live sentence. Wall-clock CSS, `pointer-events:none`, z 16; reduced motion keeps the
-flash and the number change only. That retired v1.138.0's expiry lease (`_evExpiry`): nothing
-outcome-shaped is left to pin. And **one subject per label**: the announcer names
+flash and the number change only. **One subject per label**: the announcer names
 **who is initiating** ("You go for" /
 "Opponent goes for"), and the graph verb names **your posture** toward that move. They can never
 contradict because they answer different questions. Whoever writes the slot owns its lifetime —
@@ -785,15 +787,14 @@ which owns neither activation key; Tab-then-Space on a lesson row still works. E
 rebuild the registry and reopen the same deck/card. `_miniDeck` advances before grading, so a
 grade-triggered repaint shows the next card.
 
-**Every ▶ asks, and the seat is the player's** (v1.197.0, owner: "it says we start on top, but what
-if i wanted to start on bottom?"). `confirmPlayFrom` — behind an Explore or list row's ▶, the option
+**Every ▶ asks, and the seat is the player's** (v1.197.0). `confirmPlayFrom` — behind an Explore or list row's ▶, the option
 sheet's "Play from here" and a Last-rolls ▶ — offers both seats with the derived one preselected,
 so an untouched Start plays what it always did: Attacker / Defender for a technique (Defender is the
 other side of the same origin position, and the sheet says so), Top / Bottom for a position. The
 title names only the place ("Roll from Half Guard?"); the seat is the "Play as" control plus the
 body's side word. Start passes an explicit role and `_seatMember` seats you on the orb that plays
 it, so the URL (`…/Bottom`) re-seats you on reload. Esc closes the sheet alone, and keys pressed
-inside it stay there (⏎ used to reach the option sheet below and commit its move). A graph tap
+inside it stay there. A graph tap
 needs no sheet: the pair's two orbs are the seat choice.
 
 **Last rolls** — roll history with inline decks, plus per-row ▶ (stage a roll from that state, on

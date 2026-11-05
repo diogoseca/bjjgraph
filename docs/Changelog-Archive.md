@@ -13939,3 +13939,26 @@ measurement on real content showed, because the harness has no film. The rule fo
 only a tall phone keeps the old box: 390x844 was clean, 390x631 was not. `ask-line` now samples every choice's bottom
 edge and the film's top edge at six sizes, `panic-card` measures the cards and samples their edges, and six controls
 pin it. The film moving 6px is a visible change, the only one here.
+
+## v1.249.0 — Documentation budget after the video theater (REV332 S4)
+
+`docs/Neural.md` stood at 71,996 of its 72,000 ceiling, so the theater, the 1152px pairing and the desktop one-line
+question had no room, and the review found the spec silent on all three. The ceiling stayed. Each rule below remains in
+Neural.md in shorter form; these are the passages as they read before, verbatim, because they carry the owner quotes and
+retirement notes the current rule no longer needs.
+
+- still force-enables the toggle early. **The White Challenges cue card is retired** (owner) — the challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a remover. **Win chance
+- **Every navigation starts a calm journey** (owner 2026-10-15, v1.227.0, superseding v1.134.0):
+- drill arrows and refuse `_landHidden()`. The retired dots/reveal pager and undeployed `landAnswers` setting have no reader. Paging replaces
+- v1.231.0 (`feedback_owner_rules_reverse_shipped_contracts`): **Your move** replaces Inspect and its option sheet; the reversal history is in the archive. A title
+- included (v1.218.1; they used to clear the hand and show nothing). Its face
+- The separate renderer and red skin are retired. Defense always
+- The "+7 Tilt toward winning" legend retired; the meter is 165×7px.
+- U47 d + U52 b (v1.236.0, owner 2026-10-27/28; supersedes U34 a's in-card **Reveal / Answer for a boost**): a landing
+- The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat — the v1.123.0 Hick's-law knee died with the hand clock) arms
+- pauses** (v1.134.0, owner: "that's our test to the user") — it drains
+- the platform's job); the "see more" hint that also scrolled it was deleted in v1.173.0. A drag
+- **Hesitating costs nothing but the question.** The v1.129.0 hand-over on expiry (`hesitated`) was retired in v1.133.0 with the hand clock: expiry is a missed answer, never a lost turn.
+- flash and the number change only. That retired v1.138.0's expiry lease (`_evExpiry`): nothing outcome-shaped is left to pin. And **one subject per label**
+- **Every ▶ asks, and the seat is the player's** (v1.197.0, owner: "it says we start on top, but what if i wanted to start on bottom?"). `confirmPlayFrom`
+- inside it stay there (⏎ used to reach the option sheet below and commit its move). A graph tap
