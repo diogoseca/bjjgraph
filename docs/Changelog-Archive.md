@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.248.0** — [Practice in the Challenges look](#v12480--practice-in-the-challenges-look)
 - **v1.247.1** — [The deploy's curated gate: a keyed loader and an unpainted label](#v12471--the-deploys-curated-gate-a-keyed-loader-and-an-unpainted-label)
 - **v1.247.0** — [Exact clips for submission escapes](#v12470--exact-clips-for-submission-escapes)
 
@@ -13780,3 +13781,48 @@ already waits (`reading-mode`, `reading-contract`, `land-layers`).
 after merge. Nothing here closes that. Hardening `clickByMouse` to re-measure at press time would
 close the other class for every spec, but it costs frames on every press across a 30-minute gate.
 Neither was done here.
+
+## v1.248.0 — Practice in the Challenges look
+
+LADDERP1 and LADDERC, 2026-11-04 and 05. Step 1 of the belt ladder, under the owner's U76, U86 and U87.
+Practice takes the Challenges corridor: the first flashcard is usable at once, due reviews come first,
+current and earned belts open, earlier belts sit behind a faint disclosure at the end, and a future
+belt is inert only inside Path and Practice. Reviews and deliberate new work share one uncapped session
+and one distinct-question ledger. Path keeps its original UI until Practice is tight (U86). No P2 to P4
+work, no ceiling raised, no setting deleted.
+
+The receipts are `tests/artifacts/ladder_p1_capabilities.md` (22 P1 dispositions extending the
+sidebar's 145-row inventory), and `tests/artifacts/ladder_p1_mutants.md` with its `.json` (26 of 26
+named kills).
+
+**The session contract changed, and one unit test still described the old one.** `openPlanSession` used
+to open a due-only queue and re-enter itself as `("new", false)` when the planner landed. It now frames
+one Practice session from the eager debt and `_practiceAppend` extends it. `gameplan_study_host_app`
+was never in that job's focused-unit list, so it stayed red until the full `ci:validate` replay: two cases
+on `ngGameplanDebt is not defined`, its `new Function` scope having no such binding. The harness now
+passes the real modules in. The `reopened` receipt has no successor call to count, so the case reads the
+effect it stood for. It is stricter than before: the plan orders its new deck FIRST, so an untouched
+queue taking the plan and an engaged one appending behind the open card cannot agree.
+
+| mutant in `neural/src/app.src.jsx`, via `BJJ_STUDY_APP_SOURCE` | result |
+|---|---|
+| adopt drops the `_sessionInline()` guard | KILLED: `open-deck` |
+| `engaged` drops the reveal | KILLED: `revealed` |
+| `engaged` drops the grade | KILLED: `graded` |
+| `engaged` always | KILLED: `untouched` |
+| `engaged` never | KILLED: `graded` |
+| the cold landing skips `_afterPress` | KILLED: "the landing waits for the press" |
+| the landing requests study | KILLED: `untouched`, its `calls.requests` |
+| `studyIntent !== false` dropped | KILLED: the request list |
+| a due entry requests study | KILLED: the request list |
+| a second entry replaces the session | KILLED: "one visit owns one session" |
+
+The first pass of that table had one crash-kill (a `TypeError` on an absent `_paneOwed`) and one survivor.
+Both were closed in the same change: `?.length` makes it the named assertion, and the last row is new.
+
+**`docs/Neural.md` crossed its 72,000 ceiling by 508**, on this version's own text. The ceiling stayed.
+Moved out as narrative, verbatim: recognition-first's owner quote, "It should have shown me multiple
+choice … then I finally start to show actual Anki flashcards"; `validate:mc` 96.3% → 100.0% viable,
+worklist 110 → 0; the clock's "a first-time Guest can land on TOO SLOW · −4% before ever interacting";
+and "v1.155.3 seated the board on a member instead; that seat was itself a roll nobody asked for, and
+the owner's reference law replaced it."

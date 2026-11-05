@@ -199,11 +199,9 @@ content. Position clips use the half-local array followed by explicitly tagged h
 deduplicated by video ID. At v1.227.0, 285/290 concrete submissions have defender clips. Gaps:
 Americana, Armbar and Kimura from Triangle Control; Achilles Lock from Inside Ashi-Garami; Suloev
 Stretch from Half Guard. All five have authored defender blocks; no clips were added.
-**Recognition comes first, everywhere** (v1.132.2, owner: "It should have shown me multiple
-choice … then I finally start to show actual Anki flashcards"): the emitter's `_hard_clip` bridge
+**Recognition comes first, everywhere** (v1.132.2): the emitter's `_hard_clip` bridge
 makes every display answer one-line-comparable (word-boundary ≤150 + ellipsis, full text in `d`),
-so every deck in the corpus builds a real MC — `validate:mc` 96.3% → **100.0% viable, worklist
-110 → 0**. The recall block survives only as a last-resort safety net (a deliberately-opened card
+so every deck in the corpus builds a real MC. The recall block survives only as a last-resort safety net (a deliberately-opened card
 is never chrome-only) with no live trigger in this corpus; authored `answer_line` (Phase B)
 remains the quality upgrade over truncation. The option-node label pass yields to the
 focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
@@ -407,7 +405,7 @@ DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum unt
 penalty exists only for letting it expire while it faces you. **The question clock never
 pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
 staged boards and internal pauses included — **but it never STARTS before the player does**
-(v1.137.0, owner: "a first-time Guest can land on TOO SLOW · −4% before ever interacting"): no
+(v1.137.0): no
 window arms until the player presses Answer for Points (or taps the question; a card shown on arrival
 after an opt-in needs only engagement) and the card is visible; engagement alone (click, keypress or graph hover) cannot take the question up. An early arm parks in
 `_cwArm` (a FLAG — the bar element resolves at arm time, because the card can re-render
@@ -765,8 +763,7 @@ route, dossier key and analytics identity remain unchanged. Self-assessment does
 Arriving on `/Principles/<slug>` (or `/Learning/`, `/Systems/`) opens that entry and lights its
 techniques, and starts **nothing** — no seat, no hand, no roll (`_refPage`, set from the path in
 `_seedPageFromUrl`). A roll begins only when the player clicks a position, transition or
-submission. v1.155.3 seated the board on a member instead; that seat was itself a roll nobody
-asked for, and the owner's reference law replaced it. A bare CATEGORY HUB — `/Positions`,
+submission. A bare CATEGORY HUB — `/Positions`,
 `/Transitions`, `/Submissions`, `/Systems`, `/Principles`, `/Learning` — is the same law one level
 up (v1.169.0): the arrival opens the pane on Explore with that ONE section expanded, written
 through the same persisted `exploreOpenSections` map a header click uses (neighbours keep their
@@ -780,9 +777,6 @@ belts” at the end. Saved folds and selection cannot grant access. The worn bel
 opening and Path arrival; lesson progress still drives the next-lesson highlight. All material
 remains available through reference, lists and gameplay, and all due reviews remain eligible.
 Path keeps its original corridor temporarily as the owner's UI reference (U86).
-
-The [P1 capability checklist](../tests/artifacts/ladder_p1_capabilities.md) extends the sidebar's
-145-row inventory; its [mutation ledger](../tests/artifacts/ladder_p1_mutants.md) records verification.
 
 **Inline deck keys.** History, session queues and corridor lessons share `_miniReg`: `←/→`
 pages, `↑/↓` walks techniques (corridor lesson order, skipping folded belts), `Space` flips,
