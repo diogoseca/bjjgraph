@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.247.1** — [The deploy's curated gate: a keyed loader and an unpainted label](#v12471--the-deploys-curated-gate-a-keyed-loader-and-an-unpainted-label)
 - **v1.247.0** — [Exact clips for submission escapes](#v12470--exact-clips-for-submission-escapes)
 
 - **v1.230.0** — [Article sections and floating contents](#v12300--article-sections-and-floating-contents)
@@ -13718,3 +13719,64 @@ the reel correctly appeared and the spec went red: a stale fixture, not a break.
 control proves a filled half does mount its reel in wire order, which the gap tests alone would not notice. Mutants, measured:
 `_landFilmClips` returning [] and `_renderLandFilm` dropping its length check turns all three gap tests red with the control green.
 Either guard alone leaves all three green, because each covers the other. The spec file is 33 of 33 clean.
+
+## v1.247.1 — The deploy's curated gate: a keyed loader and an unpainted label
+
+DEPLOYFIX, 2026-11-05. Every `deploy-dev.yaml` run from #327 on failed its curated gate, so the dev
+preview stayed on v1.241.0. Both reds were specs. No app code changed, and neither is a production
+loss. Both had passed their PR shards, for two different reasons.
+
+**`path-visit-telemetry.spec.ts`: stale spec, red on every deploy since #327 (5 of 5 logs read, line 57).** PR shards
+build keyless and deploys build keyed, and the key changes exactly one output: a one-file fixture
+built both ways differs only in `postscript.js`, and the keyless fixture's copy is byte-identical to
+the full build's. The fixture took the key through `quartz.config.ts`'s own `dotenv/config`, pointed
+at the root `.env` with `DOTENV_CONFIG_PATH`, so it reached no command line and no output. That gave
+a clean A/B on one bundle: keyless 2 of 2 green, keyed 2 of 2 red at CI's line with CI's
+`beats: 1, events: 0`. On a keyed build `posthog.init()` overwrote the spec's pre-boot `{ capture }`
+spy with the loader's queue shim, which threw `t.push is not a function` on the plain object, and
+`track()`'s try/catch swallowed that. With no stub, a visitor's `window.posthog` queue held
+`["capture","neural_challenges_viewed",{"variant":"neural"}]` exactly once, beside one
+`challenges_opened` beat. **Where that proof stops:** at the SDK's queue. The harness aborts remote
+requests and posthog-js is not installed here, so delivery from the queue to PostHog was not run.
+
+The spy is now that queue: an array, which is the loader's own `window.posthog||[]` fallback. A keyed
+build runs the real loader and shim over it; a keyless build runs a stand-in pushing the same
+`["capture", ...]` shape. It stays an init script, because the post-boot `page.evaluate` spies in
+`feedback-modal`, `footer-feedback` and `systems-surface` would not see the boot, and "boot is not a
+Path visit" is a claim about the boot. Those three were never affected, for the same reason.
+
+**`article-sections.spec.ts` D-338 768px: spec race, red on 2 of those 5 (line 514).** Both red runs
+were the fast ones: its neighbours took ~700ms there against ~1.0-1.3s in the three green runs and
+in the three earlier deploys sampled.
+Throttling (6x, 6 of 6 green) goes the wrong way, because the race needs the client to be faster.
+Both failure frames show Diamond Guard Top, not Loop Choke, with no `advance()` in between. `rng()`
+is unrigged there, so a fixed destination meant fixed geometry, not a restart.
+
+The ✕ unhides the label at the top of the game column (y=74, over the map) and `reader.layout()`
+moves it (y=466) on the next frame. `clickByMouse` measured (384,96), `elementFromPoint` agreed, and
+the press then landed on CANVAS and went through `attachInput`'s tap router into `stageRollAt` of the
+orb under it. y=74 is never painted: a MessageChannel task posted from a rAF reads each rendering
+update as it finished, and in 24 of 24 runs across three widths `layoutNow` moved the label inside
+the first update, which painted its final place. So a script can reach that spot and no player can.
+`layout-shift` still reported 74 to 466; that is probably hit-testing forcing pre-paint, which is
+not verified. The direct sampler is the evidence. Pressing at once, without the asserts between:
+missed 4 of 10 at 768px, 1 of 10 at 1024px and 1 of 10 at 390px, each on its own fixed node (768px:
+Diamond Guard Top, as CI). After `j.readerLayoutSettled()`: 30 of 30 reopened. Why CI only ever lost
+at 768px is not established; it has the highest local rate. Every other `[data-game-open]` click
+already waits (`reading-mode`, `reading-contract`, `land-layers`).
+
+| mutant | arm | result |
+|---|---|---|
+| the six `sidebar_path_mutants.json` Path mutants | keyed and keyless | each KILLED at its named assertion |
+| `path-keyed-queue-dropped` (`track()` bails on `__SV`) | keyed | KILLED: "the first real Path visit emits one of each event" |
+| same | keyless | SURVIVED by construction; only the loader's queue has `__SV`. **A PR cannot see this; the deploy can** |
+| neutral string | keyed and keyless | green |
+| `label-reopen-dead` (the label's toggle a no-op) | keyed, 768px | KILLED: the label's `toBeHidden` |
+| `reader.layout()` held until the press's own `pointermove`, spec as fixed | keyed, 5 widths | green, 5 of 5 |
+| same, the settle line removed (the only difference) | keyed, 3 widths | KILLED, 3 of 3: line 514, CI's locator; 768px on Diamond Guard Top |
+| `reader.layout()` delayed 150ms, the settle line removed | keyed, 3 widths | NON-KILL, 3 of 3 green: the press lands before the layout too, and hits the label |
+
+**The class that remains:** PR gates are keyless and deploys keyed, so a keyed-only red first shows
+after merge. Nothing here closes that. Hardening `clickByMouse` to re-measure at press time would
+close the other class for every spec, but it costs frames on every press across a 30-minute gate.
+Neither was done here.

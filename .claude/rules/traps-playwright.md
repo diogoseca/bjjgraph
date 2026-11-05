@@ -35,6 +35,9 @@ and references.
 
 - **`nth()` · `all()[i]` — pair cards across a re-sort by IDENTITY (`data-tech` plus its occurrence), never by POSITION.** A grade or a Win-chance update re-sorts the hand (#267's outcome-on-cards), so index *i* after is another card than index *i* before. <br>_(1)_
 
+- **`clickByMouse` measures, then presses: with `reader.layoutFrame` pending it can measure a spot no frame ever paints.** The press lands on the map and stages the orb there, on fast runners only. After anything that moves the reader, `j.readerLayoutSettled()` first. Pinned for the ✕ labels by `article-sections.spec.ts`; UNGUARDED elsewhere.
+  <br>_(1)_
+
 
 ### 6.4 Before you rely on the harness (DSL, ports, payloads, which build is under test)
 
@@ -60,3 +63,6 @@ and references.
 - **`ERR_INSUFFICIENT_RESOURCES` · `Target crashed` · a 240s timeout on a spec that takes 2s — read `df -h /` BEFORE reading the diff.** Chromium's user-data-dir and temp files go to `TMPDIR` (default `/tmp`), which on this host is the 25G ROOT volume, not the 98G `/home` one the repo sits on. A full root does not fail loudly: the browser dies on the 4th or 5th heavy navigation in one page, the failing route MOVES between runs, and every other test in the same file passes. Measured: `forward-components.spec.ts:716` red 3-of-3 at 6.2s with 111M free, green 2-of-2 at 2.0s with `TMPDIR=/home/user/tmp-pw`, same commit, same idle box. It also mimics contention exactly (`browserContext.close: Target … has been closed` under a full suite), so it is the first thing to rule out, not the last.
   **Do:** `TMPDIR=<dir on the roomy volume> npx playwright test …`, and never conclude a red is "load" or "content" until `df` is clean. Ruling out shm (`--disable-dev-shm-usage`) and the disk CACHE (`--disk-cache-dir`) does not rule out the profile — that is the mistake that cost a session here.
   <br>_(1 measured, and it had already been misread twice as contention)_
+
+- **`addInitScript` + `window.posthog`: PR shards are keyless, deploys keyed, and only `postscript.js` differs.** The loader shims over a pre-boot `{ capture }` spy, which reads 0 in the deploy alone. Preseed an array (`path-visit-telemetry.spec.ts`). UNGUARDED before merge: no PR is keyed.
+  <br>_(1)_
