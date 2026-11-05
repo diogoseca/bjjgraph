@@ -127,6 +127,9 @@
   display: flex;
   gap: 8px;
 }
+[data-practice-keys] {
+  margin: 8px 0;
+}
 [data-practice-details] {
   color: #a9b6cf;
   font-size: 12px;

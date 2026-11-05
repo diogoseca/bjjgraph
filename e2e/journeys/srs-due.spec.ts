@@ -347,7 +347,7 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   release();
   await page.locator("[data-practice-details] > summary").click();
   await expect(page.locator('[data-session-section="Practice"]')).toBeVisible();
-  await expect(page.locator('[data-session-section="Practice"]')).toContainText("2 cards to review across 1 technique");
+  await expect(page.locator('[data-session-section="Practice"]')).toHaveText(/^2 cards to review across 1 technique( \u00b7 |$)/);
   expect(await page.evaluate(() => {
     const s = (window as any).__neural._session;
     return { plan: !!s.plan, practice: !!s.practice, anchor: s.anchor, dueRows: s.plan && s.plan.due.length, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };

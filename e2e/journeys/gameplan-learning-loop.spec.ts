@@ -48,10 +48,10 @@ async function noNewMaterial(page: any) {
 async function dueHeader(page: any, text: string) {
   const count = text.match(/(\d+) reviews?/)![1];
   await expect(page.locator('[data-session-section="Practice"]'), "P1-F: live page debt matches the drawer")
-    .toContainText(count + " cards to review");
+    .toContainText(count + (count === "1" ? " card to review" : " cards to review"));
 }
 async function noDueHeader(page: any) {
-  await expect(page.locator('[data-session-section="Practice"]')).toContainText("0 cards to review");
+  await expect(page.locator('[data-session-section="Practice"]')).not.toContainText("to review");
 }
 
 async function hit(page: any, selector: string, touch: boolean) {
@@ -276,6 +276,8 @@ test("D1: a new player with no comparison still gets a plan, dealt from the weak
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
   await expect(page.locator('[data-session-section="Practice"]')).toContainText("weakest first");
   await expect(page.locator('[data-gameplan-summary]')).toContainText("weakest spots first");
+  // item 9's caveat on the path every first session takes: Practice asks for no comparison
+  await expect(page.locator('[data-gameplan-summary]'), "the ranking's own game caveat stays").toContainText("These are game effects; they don't measure improvement on the mat.");
   const got = await page.evaluate(() => {
     const a = (window as any).__neural, s = a._session;
     return { status: s.plan.status, comparison: s.plan.comparison, fresh: s.plan.fresh.map((r: any) => r.key),
@@ -317,6 +319,7 @@ test("P1-C: completion celebrates the real ledger and continuation appends to th
     a._onGameplanKnowledgeChanged({ reason: "grade", revision: a._knowledgeRevision });
   });
   await expect(page.locator('[data-session-done-title]')).toHaveText("Session complete");
+  await expect(page.locator('[data-session-complete]'), "P1-C: the end card states the real ledger").toContainText("You reviewed " + before.total + " of " + before.total + " cards today.");
   await expect(page.locator('[data-plan-goal-progress]')).toHaveText("Reviewed " + before.total + "/" + before.total);
   await noDueHeader(page);
   await hit(page, '[data-plan-more]', isMobile);

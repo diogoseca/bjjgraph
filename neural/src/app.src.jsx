@@ -4654,6 +4654,7 @@ class Component extends DCLogic {
         } else {
           const choices = this._mcBlock(card, key, () => {
             st.revealed = true;
+            mr.disabled = false; mr.textContent = "Next card"; mr.onclick = doNext;
             if (onGrade) onGrade();
             this._refreshGameplanUI();
           }, "practice");
@@ -5290,6 +5291,10 @@ class Component extends DCLogic {
     if (!this._gameplanRuntime) return null;
     const stamp = this._gameplanStamp(), belt = this.curriculum?.belts.find(b => b.id === this.wornBelt().id);
     const families = new Set(belt?.units.flatMap(u => u.lessons.map(l => l.deckKey.split("|")[0])));
+    // §6.6: with no curriculum there is no belt to scope new cards by, so they come from every belt. That
+    // is the right offer on a 404, and it says so, once per outage. Lifter: the next plan that has a belt.
+    if (belt) this._planUnscoped = false;
+    else if (!this._planUnscoped) { this._planUnscoped = true; this.fx("practice_belt_unfiltered", {}); }
     return this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
       target: this.practiceGoal(), decks: Object.fromEntries(Object.entries(this._gameplanDecks()).map(([key, d]) =>
@@ -5314,9 +5319,9 @@ class Component extends DCLogic {
         : weak.has(key) ? "You haven't practised this yet." : "You've practised this fewer than three times." }));
     } else rows = (w.ranked || []).map((r) => ({ key: r.deck, reason: tierWhy[r.tier] || tierWhy.polish }));
     return { rows, assumptions: [w.cold
-      ? "Ranking is loading; showing unpractised techniques first."
-      : "Weak spots rank techniques by their effect on your chances over a whole roll.",
-      "Game effects don't measure improvement on the mat."] };
+      ? "Your weak-spots ranking is still loading, so this is the simple order for now: places you've been but not practised, then what you haven't practised, then what you've practised fewer than three times."
+      : "Weak spots rank each technique by how much practising it would change your chances over a whole roll, given what you've practised so far.",
+      "These are game effects; they don't measure improvement on the mat."] };
   }
   // Root's evaluation owner supplies one learning-opportunity result. Late
   // replies cannot replace a changed profile/day/ruleset; a mounted order stays frozen.
@@ -5628,7 +5633,8 @@ class Component extends DCLogic {
    * best by doing those. 3. We can show more techniques that load on infinite scroll, but they
    * should be ranked and ordered by that metric."
    *
-   * So the queue is ONE list in that order and `anchor` only decides which section it opens on.
+   * So the queue is ONE list in that order, and every door lands on its first card. `anchor` only says
+   * whether this visit asks for the study comparison: "due" does not.
    * Maintenance first is not a layout preference: reviews are the debt, new cards are the
    * throttle that creates tomorrow's reviews.
    */
@@ -5726,12 +5732,13 @@ class Component extends DCLogic {
     const s = this._session;
     if (!s?.practice || !this.beltUnlocked(this._lessonIndex?.[key]?.belt)) return;
     const go = () => {
-      if (this._session !== s || !this._gameplanRuntime) return;
+      if (this._session !== s) return;
       if (!s.keys.includes(key)) {
-        const d = this._gameplanDecks()[key];
-        if (!d?.allowed || !d.count) return;
-        const row = { key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), reason: "Practice this lesson." };
-        this._practiceAppend(s, s.plan || this.planSummary(), [row]);
+        const d = this._gameplanDecks()[key], planner = !!this._gameplanRuntime;
+        if (planner && d?.allowed && d.count) {
+          const row = { key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), reason: "Practice this lesson." };
+          this._practiceAppend(s, s.plan || this.planSummary(), [row]);
+        } else this.fx("practice_lesson_unplanned", { deckKey: key, planner });   // §6.6: it still opens, outside the session's ledger
         // Already graded/shared lessons remain readable without a second obligation.
         if (!s.keys.includes(key)) { s.keys.push(key); this._practiceRows(s); }
       }
@@ -5766,7 +5773,6 @@ class Component extends DCLogic {
       const row = (s.live || this._gameplanProgress(s)).rows.find((r) => r.key === key);
       return !!(row && row.done);
     }
-    if (s.filter === "due") return !this.duePool().some((r) => r.key === key);
     return this.lessonDone(key);
   }
   _paintGameplanProgress(s) {
@@ -5789,7 +5795,7 @@ class Component extends DCLogic {
     if (s.practice) this._paintPractice(s);
     const complete = this.drillListRef.current && this.drillListRef.current.querySelector("[data-session-complete]");
     if (complete && !p.complete) complete.remove();
-    if (!complete && p.complete && p.total > 0) (s.practice ? s.completion : this.drillListRef.current)?.appendChild(this._sessionDoneCard(s));
+    if (!complete && p.complete && p.total > 0) s.completion.appendChild(this._sessionDoneCard(s));
   }
   /**
    * TODAY AGAINST THE DAILY GOAL (owner U56 e: "the goal today is to do 20 flashcards"). `done` is the
@@ -5923,10 +5929,11 @@ class Component extends DCLogic {
     this._gameplanProgress(s);
     this.setDrillHeader("Practice", "", "");
     // This fixed skeleton is owned by the page; the shared card renderer fills its first section.
-    list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div></div><div><details data-practice-details="1"><summary>Practice details &amp; session queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details><div></div></div>';
-    const [goal, wrap, nav, corridor, support] = list.children, details = support.firstChild;
-    s.goal = goal; s.rows = wrap; s.heading = wrap.firstChild; s.corridor = corridor; s.support = support;
-    s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = support.lastChild;
+    list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Practice details &amp; session queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
+    const [goal, wrap, nav, keys, end, corridor, support] = list.children, details = support.firstChild;
+    s.goal = goal; s.rows = wrap; s.heading = wrap.firstChild; s.corridor = corridor; s.support = support; s.end = end;
+    s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = end.firstChild;
+    keys.innerHTML = this._keyLegend();
     for (const [text, dir] of [["‹ Previous technique", -1], ["Next technique →", 1]]) {
       const b = this.drillBtn(text); b.onclick = () => this.sessionNav(dir); nav.appendChild(b);
     }
@@ -5940,7 +5947,7 @@ class Component extends DCLogic {
       this._practiceAppend(s, s.plan, s.plan.more.slice(0, 10));
       this._sessionOpeners[at]?.(); this._scrollFocusedDeck();
     };
-    s.support.appendChild(more);
+    end.appendChild(more);
     this._practiceCorridor(); this._practiceRows(s);
     this._sessionOpeners[Math.max(0, Math.min(s.keys.length - 1, s.idx || 0))]?.();
     if (!s.keys.length) {
@@ -5961,26 +5968,30 @@ class Component extends DCLogic {
       jump.textContent = key.replace("|", " · ");
       jump.onclick = () => { row.open(); this._scrollFocusedDeck(); }; s.queue.appendChild(jump);
     }
+    this._sessionNodes = s.keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings: never aim at an orb this ruleset does not draw
     if (s.keys.length) s.rows.querySelector("[data-session-empty]")?.remove();
   }
 
   _paintPractice(s) {
-    const worn = this.wornBelt(), p = s.live;
+    const worn = this.wornBelt(), p = s.live, count = (n, noun) => n + " " + noun + (n === 1 ? "" : "s");
+    const cards = (n) => count(n, "card"), techs = (n) => count(n, "technique");
     const [progress, goal] = s.goal.children, today = this.practiceToday();
     goal.textContent = "Daily goal: " + this._practiceGoalText(today);
     goal.style.color = today.done >= today.goal ? "#7ee0a8" : "#7e8aa3";
     progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
     const due = s.plan ? s.plan.due : s.review.rows, row = due.find(r => r.key === s.keys[s.idx]);
-    const label = row ? "Due reviews · " + p.dueCards + " cards" : ngBeltDisplayName(worn.id) + " practice";
+    const label = row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " practice";
     s.heading.textContent = label;
     s.rows.style.setProperty("--practice-belt", NG_CHALLENGE_TRACK_COLORS[worn.id]);
-    s.count.textContent = p.dueCards + " cards to review across " + due.length + " techniques · " + (s.plan?.newCards || 0) + " new across " + (s.plan?.fresh.length || 0) + " techniques, " + (s.plan?.status === "weak-spots" ? "weakest first" : "ranked by your study comparison");
+    // Each half only when it has something to say (SIDE-R2 M6): no plan makes no claim about new work.
+    s.count.textContent = [p.dueCards ? cards(p.dueCards) + " to review across " + techs(due.length) : "", s.plan?.fresh.length ? s.plan.newCards + " new across " + techs(s.plan.fresh.length) + ", " +
+      (s.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : ""].filter(Boolean).join(" \u00b7 ");
     const more = s.more;
     more.disabled = !!s.plan && !s.plan.more.length;
     if (s.plan && !s.explanation.querySelector("[data-gameplan-refresh]")) s.explanation.replaceChildren(this._gameplanIntro(s));
     if (s.plan) s.explanation.firstChild.firstChild.textContent = this._gameplanRuntime.ngGameplanSummary(s.plan);
     const title = this.drillHeadRef.current.querySelector("[data-practice-belt]");
-    if (title) title.textContent = ngBeltDisplayName(worn.id) + " · " + worn.stripes + " stripes · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
+    if (title) title.textContent = ngBeltDisplayName(worn.id) + " · " + count(worn.stripes, "stripe") + " · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
   }
 
   _practiceCorridor() {
@@ -6017,10 +6028,9 @@ class Component extends DCLogic {
     // instead of rebuilding the list underneath the card the user is reading
     const paint = () => {
       const progress = (s.plan || s.review) && s.live && s.live.rows.find((r) => r.key === key);
-      const dueQs = !(s.plan || s.review) && s.filter === "due" ? this.duePool().filter((r) => r.key === key) : null;
       const done = this._sessionRowDone(s, key);
-      const goal = progress ? progress.count : dueQs ? dueQs.length : this._deckGoal(key);
-      const prep = progress ? progress.completed : dueQs ? 0 : Math.min((this.prep && this.prep[key]) || 0, goal);
+      const goal = progress ? progress.count : this._deckGoal(key);
+      const prep = progress ? progress.completed : Math.min((this.prep && this.prep[key]) || 0, goal);
       const open = detail.style.display !== "none";
       if (done) r.setAttribute("data-session-done", "1"); else r.removeAttribute("data-session-done");
       r.setAttribute("aria-expanded", String(open));
@@ -6065,8 +6075,7 @@ class Component extends DCLogic {
       // contract) while a "learn next" row shows the whole deck — and the plan queue holds both,
       // so a single session-level `filter` would narrow the wrong half.
       const planned = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === key);
-      const only = planned ? (this._cardsOf(deck) || []).filter((c) => planned.questions.includes(this.qhash(c.q)))
-        : s.filter === "due" ? this._entryForKey(key, "due").cards : null;
+      const only = planned ? (this._cardsOf(deck) || []).filter((c) => planned.questions.includes(this.qhash(c.q))) : null;
       const explanation = document.createElement("div");
       if (planned) {
         const why = document.createElement("p"); why.setAttribute("data-gameplan-reason", key);
@@ -6109,7 +6118,7 @@ class Component extends DCLogic {
     };
     const open = () => {
       if (this._openMini && this._openMini.rid !== rid) this._openMini.close();  // accordion: one at a time
-      if (!built || s.plan || s.filter === "due") { built = true; build(); }
+      if (!built || s.plan) { built = true; build(); }
       detail.style.display = "block";
       box.hidden = false;
       s.idx = i;
@@ -6120,9 +6129,10 @@ class Component extends DCLogic {
         if (s.belt !== this.wornBelt().id) { s.earlier = false; this._practiceCorridor(); }
         detail.tabIndex = -1; detail.focus({ preventScroll: true }); this._paintPractice(s);
       }
-      const ni = this.nodeForKey(key); if (ni >= 0 && !s.practice) this.locateNode(ni);   // the graph follows the queue
+      const ni = this.nodeForKey(key); if (ni >= 0) this.locateNode(ni);   // the graph follows the queue
     };
-    r.addEventListener("click", () => { if (detail.style.display !== "none") closeSelf(); else { open(); this._scrollFocusedDeck(); } });
+    // Practice shows one row, so collapsing it would take its own title away: there it only ever opens.
+    r.addEventListener("click", () => { if (detail.style.display === "none") { open(); this._scrollFocusedDeck(); } else if (!s.practice) closeSelf(); });
     paint();
     box.appendChild(r); box.appendChild(detail);
     this._sessionPaint = this._sessionPaint || {};
@@ -6143,7 +6153,11 @@ class Component extends DCLogic {
     for (const paint of Object.values(this._sessionPaint || {})) paint();
     if (!this._sessionRowDone(s, s.keys[i])) return;
     const n = s.plan ? s.required : s.keys.length;
-    if (s.plan || s.review ? s.live.complete : this._sessionDone(s) >= n) { this.renderSession(); return; }
+    if (s.plan || s.review ? s.live.complete : this._sessionDone(s) >= n) {
+      // Practice's end card is already painted under the card, so a grade never rebuilds the page.
+      if (s.practice) s.end.scrollIntoView({ block: "nearest" }); else this.renderSession();
+      return;
+    }
     const nextAt = (() => {
       for (let d = 1; d <= n; d++) { const j = (i + d) % n; if (!this._sessionRowDone(s, s.keys[j])) return j; }
       return -1;
@@ -6168,16 +6182,18 @@ class Component extends DCLogic {
     const el = document.createElement("div");
     el.setAttribute("data-session-foot", "1");
     el.style.cssText = "display:flex;flex-direction:column;gap:7px;width:100%;";
-    const kb = '<span style="display:inline-block;min-width:13px;text-align:center;padding:1px 3px;border-radius:3px;background:rgba(255,255,255,.06);color:#9aa6bd;">';
     el.innerHTML =
       '<div style="display:flex;align-items:center;gap:9px;">' +
         '<div style="flex:1;height:4px;border-radius:2px;background:rgba(150,170,210,.16);overflow:hidden;"><div style="height:100%;width:' + Math.round((done / Math.max(1, n)) * 100) + '%;border-radius:2px;background:linear-gradient(90deg,#4a9c74,#7ee0a8);transition:width .3s;"></div></div>' +
         '<span style="flex:none;font-size:10.5px;font-weight:700;color:' + (done ? "#7ee0a8" : "#7e8aa3") + ';">' + done + ' of ' + n + '</span>' +
-      '</div>' +
-      '<div style="display:flex;align-items:center;justify-content:center;gap:10px;font-size:9.5px;font-weight:600;letter-spacing:.02em;color:#6b7691;">' +
-        kb + '←→</span> card<span style="color:#3d4761;">·</span>' + kb + '↑↓</span> technique<span style="color:#3d4761;">·</span>' + kb + 'space</span> flip' +
-      '</div>';
+      '</div>' + this._keyLegend();
     return el;
+  }
+  /** The keys that drive a queue: the pinned foot's last line, and on Practice's page a line under the card. */
+  _keyLegend() {
+    const kb = '<span style="display:inline-block;min-width:13px;text-align:center;padding:1px 3px;border-radius:3px;background:rgba(255,255,255,.06);color:#9aa6bd;">', dot = '<span style="color:#3d4761;">·</span>';
+    return '<div style="display:flex;align-items:center;justify-content:center;gap:10px;font-size:9.5px;font-weight:600;letter-spacing:.02em;color:#6b7691;">' +
+      kb + '←→</span> card' + dot + kb + '↑↓</span> technique' + dot + kb + 'space</span> flip</div>';
   }
   /**
    * THE END OF A SESSION, BUILT IN ONE PLACE (v1.137.0). The inline queue and `renderDrill`'s
@@ -6243,7 +6259,7 @@ class Component extends DCLogic {
     if (!this._deckResident(key)) this.hydrateDeck(key).then(() => this._restudy(key));
     const s = this._session;
     const due = (s?.plan ? s.plan.due : s?.review?.rows || []).some(r => r.key === key);
-    this.drillEntries = [this._entryForKey(key, due ? "due" : s?.filter)];
+    this.drillEntries = [this._entryForKey(key, due ? "due" : null)];
     this._posKey = key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this._gameValueChanged("position-key");
     this._inSession = true;
@@ -7296,6 +7312,10 @@ class Component extends DCLogic {
     if (this._lessonBeatFired.has(key)) return;
     this._lessonBeatFired.add(key);
     this.fx("lesson_done", { deckKey: key, unit: e.unit, belt: e.belt });
+    // Evidence repaints Path through noteChallenges, whose gate skips every study surface. Practice's
+    // corridor stands below its card, not over it, so it repaints here: a finished unit's checkpoint
+    // goes live in place instead of waiting for the player to leave the page. Spec: practice-page P1-F.
+    if (this._session?.practice && this._sessionInline()) this._afterPress(() => this._practiceCorridor());
   }
   openLessonStudy(l, unit, belt) {
     if (!this.beltUnlocked(belt.id || belt)) return;
@@ -12583,7 +12603,9 @@ class Component extends DCLogic {
   _paneLayout(target = false) {
     const W = this.W || window.innerWidth;
     const panel = this.drillRef && this.drillRef.current;
-    if (panel && panel.offsetWidth) this._paneWidth = panel.getBoundingClientRect().width;
+    // Its RIGHT EDGE, which is its width while it is docked left: Practice's page stands centred, and the
+    // graph the camera aims at is what shows beside it.
+    if (panel && panel.offsetWidth) this._paneWidth = panel.getBoundingClientRect().right;
     const progress = target ? (this.deckShown ? 1 : 0) : (this.uiShift || 0);
     const left = this.isMobile() ? 0 : Math.min(W, this._paneWidth || this.sbOffset()) * progress;
     return { left, width: W - left, center: (W + left) / 2, shift: left / 2 };
