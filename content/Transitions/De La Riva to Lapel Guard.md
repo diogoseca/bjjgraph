@@ -297,7 +297,7 @@ The De La Riva to Lapel Guard entry is the primary on-ramp into the entire lapel
 
 - [[Positions/Spider Guard]] - Complementary gi guard that shares grip strategy and serves as a backup if the lapel is stripped
 
-- [[Positions/Open Guard]] - Position the opponent reaches if they counter the extraction by passing the loose lapel
+- [[Positions/Open Guard]] - Position you return to on the bottom if opponent counters the extraction by passing the loose lapel, giving them a passing opportunity
 
 
 </section>

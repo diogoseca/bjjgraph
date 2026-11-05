@@ -293,7 +293,7 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 | Success | [[Positions/Back Control]] | 45% |
 | Success | [[Positions/Side Control]] | 20% |
 | Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>

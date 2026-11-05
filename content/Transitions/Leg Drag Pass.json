@@ -38,12 +38,12 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Knee Shield Half Guard/Top",
       "probability": {
         "gi": 8,
         "nogi": 8
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -466,7 +466,7 @@
       {
         "action": "Insert your inside knee as a shield between your body and the passer's chest while they circle, recovering to half guard or knee shield position",
         "when_to_use": "When the drag is mostly completed and the passer is circling toward your back but has not yet established side control grips",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Knee Shield Half Guard/Top",
         "if_successful": "You recover half guard with knee shield, which is a significantly better defensive position than conceding full side control",
         "risk": "If timed too late, the passer may already have crossface established and can drive through the half-inserted knee to complete the pass to side control"
       },
@@ -478,10 +478,10 @@
         "risk": "Requires significant core and hip strength to execute under the passer's weight; if unsuccessful, the energy expenditure accelerates fatigue without improving position"
       },
       {
-        "action": "Turn into the passer by rotating your torso toward them and establishing an underhook on their far arm before they complete the circling motion",
+        "action": "Turn into the passer by rotating your torso toward them, establishing an underhook on their far arm and inserting a knee shield before they complete the circling motion",
         "when_to_use": "When the passer overcommits to the circling motion and briefly lifts their chest pressure to transition toward side control grips",
-        "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "The underhook prevents side control consolidation and gives you a strong recovery position in half guard or allows a scramble back to sitting guard",
+        "targets_outcome": "Knee Shield Half Guard/Top",
+        "if_successful": "The underhook and knee shield prevent side control consolidation and recover you to knee shield half guard",
         "risk": "Turning into the passer when they maintain good chest contact can accelerate the pass or expose your back if they capitalize on your rotation"
       }
     ],
@@ -491,7 +491,7 @@
         "how": "Strip the passer's pant grip early using a two-on-one break, then immediately re-establish feet on hips or shin frames to create distance. Follow with collar or sleeve grips to prevent them from re-initiating the leg drag. The key is addressing the grip within the first two seconds before any lateral pulling begins."
       },
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Knee Shield Half Guard/Top",
         "how": "If the drag has progressed past the point of full guard recovery, immediately focus on inserting your inside knee between your body and the passer's chest as they circle. Clamp your legs together to lock down their near leg in half guard. From here, establish knee shield and underhook to prevent the passer from completing to full side control. Half guard recovery is a strong defensive success against a committed leg drag."
       }
     ],

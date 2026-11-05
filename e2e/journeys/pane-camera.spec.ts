@@ -6,6 +6,14 @@ import { journey, type Journey } from "../dsl"
 // These fixtures keep the roll paused; pane-layout covers the running camera's handback and
 // landing geometry. Removing the camera inset fails the measured 180px displacement (0px).
 // No dossier/video content is needed for camera ownership; physical pan gestures are not tested.
+//
+// WHY THE PHONE CHECK MEASURES THE CAMERA (v1.248.2, K2 batch 1). `distantSubject` is derived, so
+// content can change it: batch 1 moved it from Leg Knot to Honey Hole. Same app, old content: Leg
+// Knot, gap 0.0000. New content: Honey Hole, gap 0.1949px, with cy and vw moving 0.0000. The gap is
+// the pair's drawn lift: LY scales with zoom (`nodeK * kLOD`), so the midpoint of a pair whose
+// members lift unequally moves between viewports (5.69 to 6.04 world units here, 4.64 unchanged on
+// Leg Knot). So `cy` is asserted directly, at 0.05 world units, tighter than the old 0.05px on `y`,
+// and `y` keeps a +/-0.5px bound for the lift. A 0.2 world-unit camera drift goes red on `cy`.
 const DESKTOP = { width: 1440, height: 900 }
 const PHONE = { width: 390, height: 844 }
 test.use({ viewport: DESKTOP })
@@ -178,7 +186,8 @@ test("a leased selection zoom retains its subject while the pane opens, closes a
   const phone = await screen(page, subject)
   // the leased view is kept in the world, so the phone shows it scaled about its centre
   expect(phone.x).toBeCloseTo(PHONE.width / 2, 1)
-  expect(phone.y).toBeCloseTo(PHONE.height / 2 + (before.y - before.H / 2) * PHONE.width / before.W, 1)
+  expect(phone.cy).toBeCloseTo(before.cy, 1)
+  expect(phone.y).toBeCloseTo(PHONE.height / 2 + (before.y - before.H / 2) * PHONE.width / before.W, 0)
   expect(phone.zoom).toBeCloseTo(before.zoom, 1)
   expect(phone.held).toBe(true)
   expect(phone.currentPos).toBe(current)

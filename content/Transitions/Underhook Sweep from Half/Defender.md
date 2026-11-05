@@ -261,7 +261,7 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 ### 1. Establish deep whizzer over the underhook arm by threading your arm over their bicep and gripping your own thigh or their hip, then drive your shoulder weight down to flatten them
 
 - **When to use**: Immediately when opponent establishes underhook before they create significant angle or load their hips
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Opponent's underhook is neutralized and they are driven flat on their back, removing their angle and sweeping leverage entirely
 - **Risk**: If whizzer is too shallow, opponent can use your overcommitment to the overhook to climb up your back for a back take
 
@@ -275,7 +275,7 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 ### 3. Drive heavy crossface pressure by dropping your shoulder into opponent's jaw and neck while sprawling your hips back, flattening their shoulders to the mat
 
 - **When to use**: As a preventive measure before opponent establishes angle, or to counter early-stage sweep attempts before the explosive phase
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Opponent is flattened with shoulders on the mat, eliminating the side angle necessary for sweep mechanics and opening passing opportunities
 - **Risk**: Overcommitting upper body forward while sprawling can leave you vulnerable if opponent redirects to deep half entry under your hips
 
@@ -296,11 +296,11 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 
 <p class="section-subtitle">What is the best outcome when defending Underhook Sweep from Half?</p>
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Shut down the sweep early by winning the underhook battle with a deep whizzer and flattening the opponent with crossface pressure, then resume your passing sequence from a dominant half guard top position with the opponent unable to re-establish their offensive structure
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 When the sweep is already loaded, post your far leg wide for base to absorb the force, then use your whizzer and crossface to drive the opponent back flat. Strip their far hip grip and re-establish heavy top pressure to begin your pass from a stabilized position
 

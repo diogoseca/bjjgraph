@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -472,10 +472,10 @@
         "risk": "Skilled opponents can use the whizzer as an anchor point and circle underneath it to complete the back take"
       },
       {
-        "action": "Turn into opponent and drive through to recover inside position, accepting guard recovery over back exposure",
+        "action": "Turn into opponent and drive through the scramble to pass half guard rather than giving up your back",
         "when_to_use": "When opponent has achieved perpendicular angle and begun climbing - this is the emergency defense when prevention has failed",
-        "targets_outcome": "Half Guard/Top",
-        "if_successful": "You face the opponent directly, denying the back take entirely and potentially passing to a dominant top position through the scramble",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You face the opponent directly, deny the back take entirely, and complete the pass through the scramble to side control on top",
         "risk": "If you turn too slowly or without controlling their underhook, you may expose your back further during the rotation attempt"
       },
       {
@@ -492,8 +492,8 @@
         "how": "Flatten the bottom player using crossface and shoulder pressure before they achieve perpendicular angle. Drive your weight through your chest into their face and shoulder, collapsing their side angle back to flat on the mat. Once flattened, reestablish crossface dominance and resume your half guard passing sequence."
       },
       {
-        "outcome": "Half Guard/Top",
-        "how": "When the back take attempt has progressed past prevention, turn aggressively into the bottom player by rotating your torso toward them and driving through with your chest. Use the momentum of their failed back take to advance your position, passing through the scramble to reestablish top control or even advance past half guard entirely."
+        "outcome": "Side Control/Bottom",
+        "how": "When the back take attempt has progressed past prevention, turn aggressively into the bottom player by rotating your torso toward them and driving through with your chest. Use the momentum of their failed back take to pass through the scramble and advance past half guard entirely, finishing in side control with the opponent pinned underneath you."
       }
     ],
     "common_errors": [

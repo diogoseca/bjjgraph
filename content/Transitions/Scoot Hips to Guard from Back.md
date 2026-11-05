@@ -123,7 +123,7 @@ Timing is critical for this technique. The ideal moment to initiate the hip scoo
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 55% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Failure | [[Positions/Mount]] | 15% |
 
 
 </section>

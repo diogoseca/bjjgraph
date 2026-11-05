@@ -38,7 +38,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -456,17 +456,17 @@
         "risk": "Circling too slowly allows the opponent to complete the sweep before you recover alignment, and aggressive circling can walk you into triangle or omoplata setups"
       },
       {
-        "action": "Stand up immediately by driving both feet to the mat, straightening your legs, and using your height advantage to strip the opponent's grips through posture and distance",
+        "action": "Stand up immediately by driving both feet to the mat, straightening your legs, using your height advantage to strip the opponent's grips, and completing the guard break",
         "when_to_use": "When the arm drag is partially set but the sweep has not committed, and you have enough base to safely stand without being pulled off balance",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "Standing nullifies the sweep threat entirely since the opponent cannot sweep you from guard when you are standing with proper base, and creates distance that breaks many grip configurations",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Standing nullifies the sweep threat entirely since the opponent cannot sweep you from guard when you are standing with proper base, and completing the break strips their grips and leaves them in open guard",
         "risk": "If your base is already compromised, standing can accelerate the sweep by raising your center of gravity while one arm is controlled"
       },
       {
-        "action": "Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, driving into the opponent to prevent them from establishing hooks",
+        "action": "Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, driving into the opponent to prevent them from establishing hooks and recovering into their open guard",
         "when_to_use": "Late in the sequence when the sweep is nearly complete and your primary concern shifts to preventing back control rather than preventing the positional change",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "You deny the back take by keeping your hips connected to the opponent and turning into them, potentially ending up in their guard or half guard in a defensible position",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You deny the back take by keeping your hips connected to the opponent and turning into them, ending up in their open guard in a defensible position",
         "risk": "Failed counter-rotation results in full back exposure with the opponent already behind you and one hook likely in place"
       }
     ],
@@ -476,8 +476,8 @@
         "how": "Retract the controlled arm early by pulling your elbow back to your ribs while re-centering your base. Circle your hips toward the drag direction to re-face the opponent squarely. Re-establish both hands on their hips or biceps and drive your posture upright. The key is speed of recognition—the earlier you detect the arm drag, the simpler the recovery."
       },
       {
-        "outcome": "Closed Guard/Top",
-        "how": "When you feel the drag setup, immediately initiate a standing guard break by posting both feet and driving upward. Your height and standing posture strip the grips needed for the arm drag. From standing, you are in a superior position to begin guard opening and passing. This transforms a defensive reaction into an offensive opportunity."
+        "outcome": "Open Guard/Bottom",
+        "how": "When you feel the drag setup, immediately initiate a standing guard break by posting both feet and driving upward. Your height and standing posture strip the grips needed for the arm drag. Complete the break from standing so their guard opens and they lose their attacking control, leaving you on top of their open guard. This transforms a defensive reaction into an offensive opportunity."
       }
     ],
     "common_errors": [

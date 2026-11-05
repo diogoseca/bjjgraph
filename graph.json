@@ -6534,7 +6534,7 @@
             "gi": 4,
             "nogi": 3
           },
-          "successRate": 55.0
+          "successRate": 70.0
         },
         {
           "technique": "Aoki Lock from Ashi Garami",
@@ -48830,7 +48830,7 @@
             "gi": 7,
             "nogi": 7
           },
-          "successRate": 50.0
+          "successRate": 80.0
         }
       ],
       "flashcards": [],
@@ -60501,7 +60501,7 @@
             "gi": 8,
             "nogi": 8
           },
-          "successRate": 45.0
+          "successRate": 65.0
         }
       ],
       "flashcards": [
@@ -174672,7 +174672,7 @@
             "gi": 15,
             "nogi": 15
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.231
@@ -178286,7 +178286,7 @@
           "resultPosition": "butterfly-guard"
         },
         {
-          "technique": "Opponent stands up completely, removing all weight from hooks and attempting to disengage or pass standing",
+          "technique": "Opponent stands up completely, removing all weight from hooks, and completes the pass to side control",
           "effectiveness": 50,
           "resultPosition": "butterfly-guard"
         }
@@ -178311,7 +178311,7 @@
           "result": "failure"
         },
         {
-          "to": "butterfly-guard/top",
+          "to": "side-control/bottom",
           "probability": 21,
           "probabilityByRuleset": {
             "gi": 21,
@@ -178432,7 +178432,7 @@
           "result": "success"
         },
         {
-          "to": "butterfly-guard/bottom",
+          "to": "side-control/top",
           "probability": 21,
           "probabilityByRuleset": {
             "gi": 21,
@@ -184337,7 +184337,7 @@
           "resultPosition": "closed-guard"
         },
         {
-          "technique": "Guillotine choke attempt as you drive forward into the stack",
+          "technique": "Guillotine threat as you drive forward into the stack, then a locked triangle on the arm you leave inside their guard",
           "effectiveness": 70,
           "resultPosition": "closed-guard"
         },
@@ -184377,7 +184377,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "triangle-control/top",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -184498,7 +184498,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/top",
+          "to": "triangle-control/bottom",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -206892,7 +206892,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/top",
+          "to": "side-control/bottom",
           "probability": 22,
           "probabilityByRuleset": {
             "gi": 22,
@@ -206999,7 +206999,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "side-control/top",
           "probability": 22,
           "probabilityByRuleset": {
             "gi": 22,
@@ -239857,8 +239857,8 @@
         }
       ],
       "strength": {
-        "attacker": -0.237,
-        "defender": 0.237
+        "attacker": -0.22,
+        "defender": 0.22
       }
     },
     "standing-up-from-ashi-garami/attacker": {
@@ -239873,10 +239873,10 @@
       "fromRole": "bottom",
       "endingPosition": "standing-position/top",
       "endingPositionPath": "Standing-Position",
-      "successRate": 55.0,
+      "successRate": 70.0,
       "successRateByRuleset": {
-        "gi": 55.0,
-        "nogi": 55.0
+        "gi": 70.0,
+        "nogi": 70.0
       },
       "flashcards": [
         {
@@ -240040,10 +240040,10 @@
             "gi": 15,
             "nogi": 15
           },
-          "result": "counter"
+          "result": "success"
         }
       ],
-      "strength": -0.237
+      "strength": -0.22
     },
     "standing-up-from-ashi-garami/defender": {
       "name": "Standing Up from Ashi Garami",
@@ -240057,10 +240057,10 @@
       "fromRole": "top",
       "endingPosition": "ashi-garami/top",
       "endingPositionPath": "",
-      "successRate": 45.0,
+      "successRate": 30.0,
       "successRateByRuleset": {
-        "gi": 45.0,
-        "nogi": 45.0
+        "gi": 30.0,
+        "nogi": 30.0
       },
       "flashcards": [
         {
@@ -240147,10 +240147,10 @@
             "gi": 15,
             "nogi": 15
           },
-          "result": "success"
+          "result": "failure"
         }
       ],
-      "strength": 0.237
+      "strength": 0.22
     },
     "kneebar-from-estima-lock": {
       "name": "Kneebar from Estima Lock",
@@ -245354,7 +245354,7 @@
           "result": "failure"
         },
         {
-          "to": "x-guard/top",
+          "to": "open-guard/bottom",
           "probability": 12,
           "probabilityByRuleset": {
             "gi": 12,
@@ -245475,7 +245475,7 @@
           "result": "success"
         },
         {
-          "to": "x-guard/bottom",
+          "to": "open-guard/top",
           "probability": 12,
           "probabilityByRuleset": {
             "gi": 12,
@@ -255572,7 +255572,7 @@
       ],
       "commonCounters": [
         {
-          "technique": "Sprawl and whizzer defense",
+          "technique": "Sprawl and whizzer defense that stuffs the shot into a front headlock",
           "effectiveness": 70,
           "resultPosition": "clinch"
         },
@@ -255600,10 +255600,19 @@
       "outcomes": [
         {
           "to": "side-control/top",
-          "probability": 44,
+          "probability": 38,
           "probabilityByRuleset": {
-            "gi": 44,
-            "nogi": 44
+            "gi": 38,
+            "nogi": 38
+          },
+          "result": "success"
+        },
+        {
+          "to": "closed-guard/top",
+          "probability": 6,
+          "probabilityByRuleset": {
+            "gi": 6,
+            "nogi": 6
           },
           "result": "success"
         },
@@ -255617,7 +255626,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "front-headlock/bottom",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -255721,10 +255730,19 @@
       "outcomes": [
         {
           "to": "side-control/bottom",
-          "probability": 44,
+          "probability": 38,
           "probabilityByRuleset": {
-            "gi": 44,
-            "nogi": 44
+            "gi": 38,
+            "nogi": 38
+          },
+          "result": "failure"
+        },
+        {
+          "to": "closed-guard/bottom",
+          "probability": 6,
+          "probabilityByRuleset": {
+            "gi": 6,
+            "nogi": 6
           },
           "result": "failure"
         },
@@ -255738,7 +255756,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/top",
+          "to": "front-headlock/top",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -256232,13 +256250,13 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "closed-guard/top",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
             "nogi": 19
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": 0.027
@@ -256353,7 +256371,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/top",
+          "to": "closed-guard/bottom",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -265469,8 +265487,8 @@
         }
       ],
       "strength": {
-        "attacker": -0.33,
-        "defender": 0.33
+        "attacker": -0.102,
+        "defender": 0.102
       }
     },
     "50-50-guard-to-outside-ashi/attacker": {
@@ -265483,7 +265501,7 @@
       "fromPosition": "50-50 Guard",
       "fromPositionId": "50-50-guard",
       "fromRole": "top",
-      "endingPosition": "outside-ashi-garami/top",
+      "endingPosition": "outside-ashi-garami/bottom",
       "endingPositionPath": "Ashi-Garami/Outside-Ashi-Garami",
       "successRate": 58.0,
       "successRateByRuleset": {
@@ -265656,7 +265674,7 @@
       ],
       "outcomes": [
         {
-          "to": "outside-ashi-garami/top",
+          "to": "outside-ashi-garami/bottom",
           "probability": 58,
           "probabilityByRuleset": {
             "gi": 58,
@@ -265683,7 +265701,7 @@
           "result": "counter"
         }
       ],
-      "strength": -0.33
+      "strength": -0.102
     },
     "50-50-guard-to-outside-ashi/defender": {
       "name": "50-50 Guard to Outside Ashi",
@@ -265777,7 +265795,7 @@
       "commonCounters": [],
       "outcomes": [
         {
-          "to": "outside-ashi-garami/bottom",
+          "to": "outside-ashi-garami/top",
           "probability": 58,
           "probabilityByRuleset": {
             "gi": 58,
@@ -265804,7 +265822,7 @@
           "result": "success"
         }
       ],
-      "strength": 0.33
+      "strength": 0.102
     },
     "sweep-from-electric-chair": {
       "name": "Sweep from Electric Chair",
@@ -271635,7 +271653,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "half-guard/top",
           "probability": 20,
           "probabilityByRuleset": {
             "gi": 20,
@@ -271756,7 +271774,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "half-guard/bottom",
           "probability": 20,
           "probabilityByRuleset": {
             "gi": 20,
@@ -275377,7 +275395,7 @@
           "result": "failure"
         },
         {
-          "to": "standing-position/bottom",
+          "to": "side-control/bottom",
           "probability": 10,
           "probabilityByRuleset": {
             "gi": 10,
@@ -275484,7 +275502,7 @@
           "result": "success"
         },
         {
-          "to": "standing-position/top",
+          "to": "side-control/top",
           "probability": 10,
           "probabilityByRuleset": {
             "gi": 10,
@@ -286058,7 +286076,7 @@
           "resultPosition": "flattened-half-guard"
         },
         {
-          "technique": "Deep half entry by diving underneath during momentary pressure reduction",
+          "technique": "Opponent recovers active half guard by working back underneath you during momentary pressure reduction",
           "effectiveness": 50,
           "resultPosition": "flattened-half-guard"
         }
@@ -286083,7 +286101,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "half-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -286190,7 +286208,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "half-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -297494,7 +297512,7 @@
           "result": "failure"
         },
         {
-          "to": "standing-position/bottom",
+          "to": "side-control/bottom",
           "probability": 10,
           "probabilityByRuleset": {
             "gi": 10,
@@ -297615,7 +297633,7 @@
           "result": "success"
         },
         {
-          "to": "standing-position/top",
+          "to": "side-control/top",
           "probability": 10,
           "probabilityByRuleset": {
             "gi": 10,
@@ -302371,8 +302389,8 @@
         }
       ],
       "strength": {
-        "attacker": -0.237,
-        "defender": 0.237
+        "attacker": 0.027,
+        "defender": -0.027
       }
     },
     "standing-up-from-combat-base/attacker": {
@@ -302385,8 +302403,8 @@
       "fromPosition": "Combat Base",
       "fromPositionId": "combat-base",
       "fromRole": "top",
-      "endingPosition": "standing-position/top",
-      "endingPositionPath": "Standing-Position",
+      "endingPosition": "open-guard/top",
+      "endingPositionPath": "Open-Guard",
       "successRate": 55.0,
       "successRateByRuleset": {
         "gi": 55.0,
@@ -302530,7 +302548,7 @@
       ],
       "outcomes": [
         {
-          "to": "standing-position/top",
+          "to": "open-guard/top",
           "probability": 55,
           "probabilityByRuleset": {
             "gi": 55,
@@ -302557,7 +302575,7 @@
           "result": "counter"
         }
       ],
-      "strength": -0.237
+      "strength": 0.027
     },
     "standing-up-from-combat-base/defender": {
       "name": "Standing Up from Combat Base",
@@ -302651,7 +302669,7 @@
       "commonCounters": [],
       "outcomes": [
         {
-          "to": "standing-position/bottom",
+          "to": "open-guard/bottom",
           "probability": 55,
           "probabilityByRuleset": {
             "gi": 55,
@@ -302678,7 +302696,7 @@
           "result": "success"
         }
       ],
-      "strength": 0.237
+      "strength": -0.027
     },
     "arm-triangle-setup": {
       "name": "Arm Triangle Setup",
@@ -305947,13 +305965,13 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "knee-shield-half-guard/top",
           "probability": 20,
           "probabilityByRuleset": {
             "gi": 20,
             "nogi": 20
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": 0.02
@@ -306077,7 +306095,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "knee-shield-half-guard/bottom",
           "probability": 20,
           "probabilityByRuleset": {
             "gi": 20,
@@ -306432,7 +306450,7 @@
             "gi": 15,
             "nogi": 15
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.347
@@ -319940,7 +319958,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "half-guard/top",
           "probability": 12,
           "probabilityByRuleset": {
             "gi": 12,
@@ -320033,7 +320051,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "half-guard/bottom",
           "probability": 12,
           "probabilityByRuleset": {
             "gi": 12,
@@ -332538,7 +332556,7 @@
           "result": "failure"
         },
         {
-          "to": "open-guard/top",
+          "to": "open-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -332645,7 +332663,7 @@
           "result": "success"
         },
         {
-          "to": "open-guard/bottom",
+          "to": "open-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -333539,7 +333557,7 @@
           "result": "failure"
         },
         {
-          "to": "butterfly-guard/top",
+          "to": "side-control/bottom",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -333646,7 +333664,7 @@
           "result": "success"
         },
         {
-          "to": "butterfly-guard/bottom",
+          "to": "side-control/top",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -335731,7 +335749,7 @@
           "result": "failure"
         },
         {
-          "to": "deep-half-guard/bottom",
+          "to": "deep-half-guard/top",
           "probability": 10,
           "probabilityByRuleset": {
             "gi": 10,
@@ -335852,7 +335870,7 @@
           "result": "success"
         },
         {
-          "to": "deep-half-guard/top",
+          "to": "deep-half-guard/bottom",
           "probability": 10,
           "probabilityByRuleset": {
             "gi": 10,
@@ -337515,7 +337533,7 @@
             "gi": 18,
             "nogi": 18
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.332
@@ -339861,7 +339879,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "half-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -339982,7 +340000,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "half-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -343166,7 +343184,7 @@
           "result": "failure"
         },
         {
-          "to": "deep-half-guard/bottom",
+          "to": "deep-half-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -343301,7 +343319,7 @@
           "result": "success"
         },
         {
-          "to": "deep-half-guard/top",
+          "to": "deep-half-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -354136,7 +354154,7 @@
           "result": "failure"
         },
         {
-          "to": "omoplata-control/bottom",
+          "to": "closed-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -354257,7 +354275,7 @@
           "result": "success"
         },
         {
-          "to": "omoplata-control/top",
+          "to": "closed-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -354690,7 +354708,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "half-guard/top",
           "probability": 18,
           "probabilityByRuleset": {
             "gi": 18,
@@ -354811,7 +354829,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "half-guard/bottom",
           "probability": 18,
           "probabilityByRuleset": {
             "gi": 18,
@@ -362130,7 +362148,7 @@
             "gi": 15,
             "nogi": 15
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.12
@@ -369749,7 +369767,7 @@
         },
         {
           "question": "Your opponent transitions to mounted Gift Wrap during your escape attempt - how do you respond?",
-          "answer": "Accept the mount transition but use their weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an extraction window. The mount is worse positionally, but recovering the trapped arm restores your full defensive capability for subsequent mount escapes.",
+          "answer": "Accept the mount transition but use their weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an extraction window. Landing under mount is still a failed guard recovery, but recovering the trapped arm restores your full defensive capability for subsequent mount escapes.",
           "answer_line": "Accept mount, extract arm",
           "distractors": {
             "plausible": [
@@ -370011,7 +370029,7 @@
         },
         {
           "question": "Your opponent transitions to mounted Gift Wrap during your escape attempt - how do you respond?",
-          "answer": "Accept the mount transition but use their weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an extraction window. The mount is worse positionally, but recovering the trapped arm restores your full defensive capability for subsequent mount escapes.",
+          "answer": "Accept the mount transition but use their weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an extraction window. Landing under mount is still a failed guard recovery, but recovering the trapped arm restores your full defensive capability for subsequent mount escapes.",
           "answer_line": "Accept mount, extract arm",
           "distractors": {
             "plausible": [
@@ -370128,7 +370146,7 @@
             "gi": 20,
             "nogi": 20
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.249
@@ -376495,7 +376513,7 @@
           "resultPosition": "butterfly-guard"
         },
         {
-          "technique": "Opponent strips your grips and establishes their own dominant grip configuration",
+          "technique": "Opponent strips your grips, establishes their own dominant grip configuration and completes the pass to side control",
           "effectiveness": 70,
           "resultPosition": "butterfly-guard"
         }
@@ -376520,7 +376538,7 @@
           "result": "failure"
         },
         {
-          "to": "butterfly-guard/top",
+          "to": "side-control/bottom",
           "probability": 12,
           "probabilityByRuleset": {
             "gi": 12,
@@ -376627,7 +376645,7 @@
           "result": "success"
         },
         {
-          "to": "butterfly-guard/bottom",
+          "to": "side-control/top",
           "probability": 12,
           "probabilityByRuleset": {
             "gi": 12,
@@ -379080,13 +379098,13 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "closed-guard/top",
           "probability": 12,
           "probabilityByRuleset": {
             "gi": 12,
             "nogi": 12
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": 0.064
@@ -379201,7 +379219,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/top",
+          "to": "closed-guard/bottom",
           "probability": 12,
           "probabilityByRuleset": {
             "gi": 12,
@@ -383859,7 +383877,7 @@
           "resultPosition": "ashi-garami"
         },
         {
-          "technique": "Opponent recomposes entanglement by re-triangling legs after you clear the bottom leg",
+          "technique": "Opponent uses your hip angle to backstep and advance to saddle after you clear the bottom leg",
           "effectiveness": 50,
           "resultPosition": "ashi-garami"
         }
@@ -383884,7 +383902,7 @@
           "result": "failure"
         },
         {
-          "to": "ashi-garami/bottom",
+          "to": "saddle/bottom",
           "probability": 24,
           "probabilityByRuleset": {
             "gi": 24,
@@ -383991,7 +384009,7 @@
           "result": "success"
         },
         {
-          "to": "ashi-garami/top",
+          "to": "saddle/top",
           "probability": 24,
           "probabilityByRuleset": {
             "gi": 24,
@@ -387585,7 +387603,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "flattened-half-guard/bottom",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -387706,7 +387724,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "flattened-half-guard/top",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -394065,8 +394083,8 @@
         }
       ],
       "strength": {
-        "attacker": 0.135,
-        "defender": -0.135
+        "attacker": 0.396,
+        "defender": -0.396
       }
     },
     "mount-escape-to-half-guard-back-take/attacker": {
@@ -394081,10 +394099,10 @@
       "fromRole": "bottom",
       "endingPosition": "back-control/top",
       "endingPositionPath": "Back-Control",
-      "successRate": 50.0,
+      "successRate": 80.0,
       "successRateByRuleset": {
-        "gi": 50.0,
-        "nogi": 50.0
+        "gi": 80.0,
+        "nogi": 80.0
       },
       "flashcards": [
         {
@@ -394248,7 +394266,7 @@
             "gi": 30,
             "nogi": 30
           },
-          "result": "failure"
+          "result": "success"
         },
         {
           "to": "mount/bottom",
@@ -394257,10 +394275,10 @@
             "gi": 20,
             "nogi": 20
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
-      "strength": 0.135
+      "strength": 0.396
     },
     "mount-escape-to-half-guard-back-take/defender": {
       "name": "Mount Escape to Half Guard Back Take",
@@ -394272,12 +394290,12 @@
       "fromPosition": "Mount",
       "fromPositionId": "mount",
       "fromRole": "top",
-      "endingPosition": "half-guard/top",
+      "endingPosition": "mount/top",
       "endingPositionPath": "",
-      "successRate": 50.0,
+      "successRate": 20.0,
       "successRateByRuleset": {
-        "gi": 50.0,
-        "nogi": 50.0
+        "gi": 20.0,
+        "nogi": 20.0
       },
       "flashcards": [
         {
@@ -394369,7 +394387,7 @@
             "gi": 30,
             "nogi": 30
           },
-          "result": "success"
+          "result": "failure"
         },
         {
           "to": "mount/top",
@@ -394381,7 +394399,7 @@
           "result": "success"
         }
       ],
-      "strength": -0.135
+      "strength": -0.396
     },
     "50-50-entry-from-standing": {
       "name": "50-50 Entry from Standing",
@@ -398584,8 +398602,8 @@
         }
       ],
       "strength": {
-        "attacker": 0.045,
-        "defender": -0.045
+        "attacker": -0.181,
+        "defender": 0.181
       }
     },
     "leg-extraction-to-guard/attacker": {
@@ -398598,8 +398616,8 @@
       "fromPosition": "Ushiro Ashi-Garami",
       "fromPositionId": "ushiro-ashi-garami",
       "fromRole": "bottom",
-      "endingPosition": "open-guard/top",
-      "endingPositionPath": "Open-Guard",
+      "endingPosition": "feet-on-hips-guard/bottom",
+      "endingPositionPath": "Feet-on-Hips-Guard",
       "successRate": 58.0,
       "successRateByRuleset": {
         "gi": 58.0,
@@ -398785,7 +398803,7 @@
       ],
       "outcomes": [
         {
-          "to": "open-guard/top",
+          "to": "feet-on-hips-guard/bottom",
           "probability": 49,
           "probabilityByRuleset": {
             "gi": 49,
@@ -398794,7 +398812,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/top",
+          "to": "closed-guard/bottom",
           "probability": 9,
           "probabilityByRuleset": {
             "gi": 9,
@@ -398821,7 +398839,7 @@
           "result": "counter"
         }
       ],
-      "strength": 0.045
+      "strength": -0.181
     },
     "leg-extraction-to-guard/defender": {
       "name": "Leg Extraction to Guard",
@@ -398915,7 +398933,7 @@
       "commonCounters": [],
       "outcomes": [
         {
-          "to": "open-guard/bottom",
+          "to": "feet-on-hips-guard/top",
           "probability": 49,
           "probabilityByRuleset": {
             "gi": 49,
@@ -398924,7 +398942,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "closed-guard/top",
           "probability": 9,
           "probabilityByRuleset": {
             "gi": 9,
@@ -398951,7 +398969,7 @@
           "result": "success"
         }
       ],
-      "strength": -0.045
+      "strength": 0.181
     },
     "rolling-to-guard": {
       "name": "Rolling to Guard",
@@ -406792,7 +406810,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "half-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -406899,7 +406917,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "half-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -413327,7 +413345,7 @@
           "result": "failure"
         },
         {
-          "to": "omoplata-control/bottom",
+          "to": "open-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -413448,7 +413466,7 @@
           "result": "success"
         },
         {
-          "to": "omoplata-control/top",
+          "to": "open-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -420829,7 +420847,7 @@
             "gi": 17,
             "nogi": 17
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.17
@@ -421847,7 +421865,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "triangle-control/top",
           "probability": 25,
           "probabilityByRuleset": {
             "gi": 25,
@@ -421856,7 +421874,7 @@
           "result": "failure"
         },
         {
-          "to": "triangle-control/bottom",
+          "to": "triangle-control/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -421877,7 +421895,7 @@
       "fromPosition": "Half Guard",
       "fromPositionId": "half-guard",
       "fromRole": "bottom",
-      "endingPosition": "half-guard/bottom",
+      "endingPosition": "triangle-control/bottom",
       "endingPositionPath": "",
       "successRate": 40.0,
       "successRateByRuleset": {
@@ -421954,7 +421972,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "triangle-control/bottom",
           "probability": 25,
           "probabilityByRuleset": {
             "gi": 25,
@@ -421963,7 +421981,7 @@
           "result": "success"
         },
         {
-          "to": "triangle-control/top",
+          "to": "triangle-control/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -444195,12 +444213,12 @@
           "resultPosition": "electric-chair"
         },
         {
-          "technique": "Opponent turns into you during backstep and re-establishes half guard or full guard",
+          "technique": "Opponent turns into you during backstep and re-establishes half guard",
           "effectiveness": 50,
           "resultPosition": "electric-chair"
         },
         {
-          "technique": "Opponent abandons Electric Chair and transitions to deep half guard under your backstep",
+          "technique": "Opponent abandons Electric Chair and drops underneath your backstep to recover half guard",
           "effectiveness": 50,
           "resultPosition": "electric-chair"
         },
@@ -444230,13 +444248,13 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "half-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
             "nogi": 15
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": 0.205
@@ -444351,7 +444369,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "half-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -453920,7 +453938,7 @@
           }
         },
         {
-          "question": "How can you exploit the attacker's weight shift during the step-over to create a reversal?",
+          "question": "How do you use the attacker's step-over weight shift to disrupt mount and recover guard?",
           "answer": "During the step-over, the attacker's weight shifts asymmetrically to one side as they swing their leg across your body. This creates a brief moment of compromised lateral balance that can be exploited with a well-timed bridge in the direction of the step-over, using their own momentum against them. Combined with framing against the stepping-over side, this creates disruption that often results in half guard recovery rather than a clean mount establishment.",
           "answer_line": "Bridge into the step-over direction",
           "distractors": {
@@ -454112,7 +454130,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "half-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -454198,7 +454216,7 @@
           }
         },
         {
-          "question": "How can you exploit the attacker's weight shift during the step-over to create a reversal?",
+          "question": "How do you use the attacker's step-over weight shift to disrupt mount and recover guard?",
           "answer": "During the step-over, the attacker's weight shifts asymmetrically to one side as they swing their leg across your body. This creates a brief moment of compromised lateral balance that can be exploited with a well-timed bridge in the direction of the step-over, using their own momentum against them. Combined with framing against the stepping-over side, this creates disruption that often results in half guard recovery rather than a clean mount establishment.",
           "answer_line": "Bridge into the step-over direction",
           "distractors": {
@@ -454233,7 +454251,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "half-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -486062,7 +486080,7 @@
           "result": "failure"
         },
         {
-          "to": "open-guard/top",
+          "to": "open-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -486155,7 +486173,7 @@
           "result": "success"
         },
         {
-          "to": "open-guard/bottom",
+          "to": "open-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -491997,7 +492015,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/top",
+          "to": "side-control/bottom",
           "probability": 13,
           "probabilityByRuleset": {
             "gi": 13,
@@ -492104,7 +492122,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "side-control/top",
           "probability": 13,
           "probabilityByRuleset": {
             "gi": 13,
@@ -495981,8 +495999,8 @@
         }
       ],
       "strength": {
-        "attacker": -0.339,
-        "defender": 0.339
+        "attacker": -0.356,
+        "defender": 0.356
       }
     },
     "hip-escape-from-crucifix/attacker": {
@@ -495997,10 +496015,10 @@
       "fromRole": "bottom",
       "endingPosition": "turtle/bottom",
       "endingPositionPath": "Turtle",
-      "successRate": 45.0,
+      "successRate": 65.0,
       "successRateByRuleset": {
-        "gi": 45.0,
-        "nogi": 45.0
+        "gi": 65.0,
+        "nogi": 65.0
       },
       "flashcards": [
         {
@@ -496178,10 +496196,10 @@
             "gi": 20,
             "nogi": 20
           },
-          "result": "counter"
+          "result": "success"
         }
       ],
-      "strength": -0.339
+      "strength": -0.356
     },
     "hip-escape-from-crucifix/defender": {
       "name": "Hip Escape from Crucifix",
@@ -496195,10 +496213,10 @@
       "fromRole": "top",
       "endingPosition": "crucifix/top",
       "endingPositionPath": "",
-      "successRate": 55.0,
+      "successRate": 35.0,
       "successRateByRuleset": {
-        "gi": 55.0,
-        "nogi": 55.0
+        "gi": 35.0,
+        "nogi": 35.0
       },
       "flashcards": [
         {
@@ -496285,10 +496303,10 @@
             "gi": 20,
             "nogi": 20
           },
-          "result": "success"
+          "result": "failure"
         }
       ],
-      "strength": 0.339
+      "strength": 0.356
     },
     "trap-and-roll-from-s-mount": {
       "name": "Trap and Roll from S Mount",
@@ -509227,7 +509245,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/top",
+          "to": "open-guard/bottom",
           "probability": 26,
           "probabilityByRuleset": {
             "gi": 26,
@@ -509348,7 +509366,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "open-guard/top",
           "probability": 26,
           "probabilityByRuleset": {
             "gi": 26,
@@ -515740,7 +515758,7 @@
           "result": "failure"
         },
         {
-          "to": "standing-position/bottom",
+          "to": "side-control/bottom",
           "probability": 14,
           "probabilityByRuleset": {
             "gi": 14,
@@ -515861,7 +515879,7 @@
           "result": "success"
         },
         {
-          "to": "standing-position/top",
+          "to": "side-control/top",
           "probability": 14,
           "probabilityByRuleset": {
             "gi": 14,
@@ -516355,7 +516373,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/top",
+          "to": "side-control/bottom",
           "probability": 23,
           "probabilityByRuleset": {
             "gi": 23,
@@ -516476,7 +516494,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "side-control/top",
           "probability": 23,
           "probabilityByRuleset": {
             "gi": 23,
@@ -533104,7 +533122,7 @@
             "gi": 16,
             "nogi": 16
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": 0.03
@@ -535798,7 +535816,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/top",
+          "to": "open-guard/bottom",
           "probability": 10,
           "probabilityByRuleset": {
             "gi": 10,
@@ -535914,7 +535932,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "open-guard/top",
           "probability": 10,
           "probabilityByRuleset": {
             "gi": 10,
@@ -536086,8 +536104,8 @@
         }
       ],
       "strength": {
-        "attacker": -0.148,
-        "defender": 0.148
+        "attacker": -0.213,
+        "defender": 0.213
       }
     },
     "sit-out-from-side-control/attacker": {
@@ -536100,8 +536118,8 @@
       "fromPosition": "Side Control",
       "fromPositionId": "side-control",
       "fromRole": "bottom",
-      "endingPosition": "turtle/top",
-      "endingPositionPath": "Turtle",
+      "endingPosition": "seated-guard/bottom",
+      "endingPositionPath": "Seated-Guard",
       "successRate": 50.0,
       "successRateByRuleset": {
         "gi": 50.0,
@@ -536245,7 +536263,7 @@
       ],
       "outcomes": [
         {
-          "to": "turtle/top",
+          "to": "seated-guard/bottom",
           "probability": 50,
           "probabilityByRuleset": {
             "gi": 50,
@@ -536272,7 +536290,7 @@
           "result": "counter"
         }
       ],
-      "strength": -0.148
+      "strength": -0.213
     },
     "sit-out-from-side-control/defender": {
       "name": "Sit Out from Side Control",
@@ -536338,7 +536356,7 @@
       "commonCounters": [],
       "outcomes": [
         {
-          "to": "turtle/bottom",
+          "to": "seated-guard/top",
           "probability": 50,
           "probabilityByRuleset": {
             "gi": 50,
@@ -536365,7 +536383,7 @@
           "result": "success"
         }
       ],
-      "strength": 0.148
+      "strength": 0.213
     },
     "hip-escape-from-cross-body-ride": {
       "name": "Hip Escape from Cross Body Ride",
@@ -541015,7 +541033,7 @@
           "result": "failure"
         },
         {
-          "to": "de-la-riva-guard/top",
+          "to": "half-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -541136,7 +541154,7 @@
           "result": "success"
         },
         {
-          "to": "de-la-riva-guard/bottom",
+          "to": "half-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -543213,7 +543231,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "closed-guard/top",
           "probability": 13,
           "probabilityByRuleset": {
             "gi": 13,
@@ -543222,7 +543240,7 @@
           "result": "counter"
         },
         {
-          "to": "dogfight-position/bottom",
+          "to": "dogfight-position/top",
           "probability": 13,
           "probabilityByRuleset": {
             "gi": 13,
@@ -543343,7 +543361,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/top",
+          "to": "closed-guard/bottom",
           "probability": 13,
           "probabilityByRuleset": {
             "gi": 13,
@@ -543352,7 +543370,7 @@
           "result": "success"
         },
         {
-          "to": "dogfight-position/top",
+          "to": "dogfight-position/bottom",
           "probability": 13,
           "probabilityByRuleset": {
             "gi": 13,
@@ -544232,13 +544250,13 @@
           "result": "failure"
         },
         {
-          "to": "knee-shield-half-guard/bottom",
+          "to": "knee-shield-half-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
             "nogi": 15
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.037
@@ -544353,7 +544371,7 @@
           "result": "success"
         },
         {
-          "to": "knee-shield-half-guard/top",
+          "to": "knee-shield-half-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -545570,7 +545588,7 @@
       ],
       "commonCounters": [
         {
-          "technique": "Bridge and roll attempt using elbows as pivot points",
+          "technique": "Bridge and roll attempt using elbows as pivot points, leading into half guard recovery rather than a full reversal",
           "effectiveness": 50,
           "resultPosition": "mount"
         },
@@ -545605,7 +545623,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "half-guard/top",
           "probability": 17,
           "probabilityByRuleset": {
             "gi": 17,
@@ -545726,7 +545744,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "half-guard/bottom",
           "probability": 17,
           "probabilityByRuleset": {
             "gi": 17,
@@ -551775,7 +551793,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "half-guard/top",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -551910,7 +551928,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "half-guard/bottom",
           "probability": 19,
           "probabilityByRuleset": {
             "gi": 19,
@@ -559064,7 +559082,7 @@
             "gi": 20,
             "nogi": 20
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.217
@@ -573872,7 +573890,7 @@
           "result": "failure"
         },
         {
-          "to": "open-guard/top",
+          "to": "open-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -573965,7 +573983,7 @@
           "result": "success"
         },
         {
-          "to": "open-guard/bottom",
+          "to": "open-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -579487,7 +579505,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/top",
+          "to": "open-guard/bottom",
           "probability": 25,
           "probabilityByRuleset": {
             "gi": 25,
@@ -579594,7 +579612,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "open-guard/top",
           "probability": 25,
           "probabilityByRuleset": {
             "gi": 25,
@@ -585425,7 +585443,7 @@
           "result": "failure"
         },
         {
-          "to": "clinch/bottom",
+          "to": "side-control/bottom",
           "probability": 13,
           "probabilityByRuleset": {
             "gi": 13,
@@ -585546,7 +585564,7 @@
           "result": "success"
         },
         {
-          "to": "clinch/top",
+          "to": "side-control/top",
           "probability": 13,
           "probabilityByRuleset": {
             "gi": 13,
@@ -593991,7 +594009,7 @@
           "resultPosition": "de-la-riva-guard"
         },
         {
-          "technique": "Opponent inverts and attempts berimbolo or kiss of the dragon as you commit to the lateral passing direction",
+          "technique": "Opponent starts to invert for berimbolo or kiss of the dragon as you commit to the lateral passing direction, then settles into a knee shield when you stop to smash the inversion",
           "effectiveness": 50,
           "resultPosition": "de-la-riva-guard"
         },
@@ -594021,13 +594039,13 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "knee-shield-half-guard/top",
           "probability": 20,
           "probabilityByRuleset": {
             "gi": 20,
             "nogi": 20
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.055
@@ -594142,7 +594160,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/top",
+          "to": "knee-shield-half-guard/bottom",
           "probability": 20,
           "probabilityByRuleset": {
             "gi": 20,
@@ -594603,7 +594621,7 @@
           "result": "failure"
         },
         {
-          "to": "turtle/bottom",
+          "to": "open-guard/top",
           "probability": 12,
           "probabilityByRuleset": {
             "gi": 12,
@@ -594724,7 +594742,7 @@
           "result": "success"
         },
         {
-          "to": "turtle/top",
+          "to": "open-guard/bottom",
           "probability": 12,
           "probabilityByRuleset": {
             "gi": 12,
@@ -615325,7 +615343,7 @@
           "result": "failure"
         },
         {
-          "to": "crab-ride/bottom",
+          "to": "half-guard/top",
           "probability": 17,
           "probabilityByRuleset": {
             "gi": 17,
@@ -615446,7 +615464,7 @@
           "result": "success"
         },
         {
-          "to": "crab-ride/top",
+          "to": "half-guard/bottom",
           "probability": 17,
           "probabilityByRuleset": {
             "gi": 17,
@@ -633540,7 +633558,7 @@
           "result": "failure"
         },
         {
-          "to": "half-guard/top",
+          "to": "flattened-half-guard/bottom",
           "probability": 22,
           "probabilityByRuleset": {
             "gi": 22,
@@ -633717,7 +633735,7 @@
           "result": "success"
         },
         {
-          "to": "half-guard/bottom",
+          "to": "flattened-half-guard/top",
           "probability": 22,
           "probabilityByRuleset": {
             "gi": 22,
@@ -644733,7 +644751,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/top",
+          "to": "closed-guard/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -644854,7 +644872,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "closed-guard/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -653572,7 +653590,7 @@
           "result": "failure"
         },
         {
-          "to": "side-control/top",
+          "to": "side-control/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -653665,7 +653683,7 @@
           "result": "success"
         },
         {
-          "to": "side-control/bottom",
+          "to": "side-control/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -654514,12 +654532,12 @@
       ],
       "commonCounters": [
         {
-          "technique": "Opponent transitions to armbar as you push away with extended arms",
+          "technique": "Opponent threatens the armbar as you push away with extended arms, then hip bumps you to mount as your weight shifts back",
           "effectiveness": 70,
           "resultPosition": "closed-guard"
         },
         {
-          "technique": "Opponent shoots legs up for triangle choke during recovery",
+          "technique": "Opponent shoots legs up for a triangle threat during recovery, then hip bumps you to mount as your weight shifts back",
           "effectiveness": 70,
           "resultPosition": "closed-guard"
         },
@@ -654534,7 +654552,7 @@
           "resultPosition": "closed-guard"
         },
         {
-          "technique": "Opponent overhooks your arm and begins rotating hips for omoplata",
+          "technique": "Opponent overhooks your arm and rotates hips for an omoplata threat, then hip bumps you to mount as your weight shifts back",
           "effectiveness": 50,
           "resultPosition": "closed-guard"
         }
@@ -654559,7 +654577,7 @@
           "result": "failure"
         },
         {
-          "to": "closed-guard/bottom",
+          "to": "mount/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -654666,7 +654684,7 @@
           "result": "success"
         },
         {
-          "to": "closed-guard/top",
+          "to": "mount/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -659735,7 +659753,7 @@
             "gi": 20,
             "nogi": 20
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.343
@@ -673439,7 +673457,7 @@
           "result": "failure"
         },
         {
-          "to": "open-guard/top",
+          "to": "side-control/bottom",
           "probability": 18,
           "probabilityByRuleset": {
             "gi": 18,
@@ -673560,7 +673578,7 @@
           "result": "success"
         },
         {
-          "to": "open-guard/bottom",
+          "to": "side-control/top",
           "probability": 18,
           "probabilityByRuleset": {
             "gi": 18,
@@ -673929,7 +673947,7 @@
             "gi": 15,
             "nogi": 15
           },
-          "result": "counter"
+          "result": "failure"
         }
       ],
       "strength": -0.209
@@ -805931,7 +805949,7 @@
     }
   },
   "meta": {
-    "generated": "2026-10-29T13:18:23.743954Z",
+    "generated": "2026-11-05T16:19:37.867911Z",
     "positionCount": 400,
     "transitionCount": 3033,
     "submissionCount": 923,

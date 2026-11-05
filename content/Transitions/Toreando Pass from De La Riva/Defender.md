@@ -38,8 +38,8 @@ description: "Complete defensive guide against the Toreando Pass from De La Riva
     },
     {
       "@type": "HowToStep",
-      "name": "Invert toward the passer during their lateral commitment to attack the back via berimbolo or kiss of the dragon",
-      "text": "When the passer commits fully to one lateral direction with significant momentum. The inversion exploits their linear movement pattern by attacking from underneath their passing trajectory. If successful: You achieve a back take or reversal by using the passer's own momentum against them, converting their offensive action into a defensive scramble",
+      "name": "Invert toward the passer during their lateral commitment to threaten the back, then recover a knee shield as they stop to smash the inversion",
+      "text": "When the passer commits fully to one lateral direction with significant momentum. The inversion exploits their linear movement pattern by attacking from underneath their passing trajectory. If successful: You stop the pass and recover knee shield half guard, with the passer staying on top",
       "position": 4
     }
   ],
@@ -257,15 +257,15 @@ Defending the Toreando Pass from De La Riva Guard requires understanding the att
 ### 3. Hip escape and insert knee shield as passer completes lateral arc to block side control consolidation
 
 - **When to use**: When the toreando is already in progress and the passer has cleared your legs. Time the knee insertion as they transition from lateral movement to chest drop. This is a last-resort defense.
-- **Targets**: [[Positions/Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: You recover to half guard or knee shield half guard, which while not ideal represents successful defense against the pass and provides a new offensive platform
 - **Risk**: If the knee insertion is too late, the passer establishes crossface and hip control in full side control before you can insert the knee
 
-### 4. Invert toward the passer during their lateral commitment to attack the back via berimbolo or kiss of the dragon
+### 4. Invert toward the passer during their lateral commitment to threaten the back, then recover a knee shield as they stop to smash the inversion
 
 - **When to use**: When the passer commits fully to one lateral direction with significant momentum. The inversion exploits their linear movement pattern by attacking from underneath their passing trajectory.
-- **Targets**: [[Positions/Half Guard]]
-- **If successful**: You achieve a back take or reversal by using the passer's own momentum against them, converting their offensive action into a defensive scramble
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
+- **If successful**: You stop the pass and recover knee shield half guard, with the passer staying on top
 - **Risk**: A well-timed sprawl from the passer smashes the inversion and leaves you flattened on your back with no guard structure, potentially resulting in an immediate pass to side control
 
 
@@ -282,7 +282,7 @@ Defending the Toreando Pass from De La Riva Guard requires understanding the att
 
 Retain or re-establish the DLR hook and ankle grip through aggressive grip fighting before the passer can initiate the lateral passing phase. Fight every grip strip immediately and maintain constant hook tension to make the toreando structurally impossible.
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 If the pass is already in progress, time a hip escape and knee insertion during the passer's transition from lateral movement to chest contact. The brief moment when the passer shifts from moving laterally to dropping down creates a window for inserting a knee shield between your bodies.
 

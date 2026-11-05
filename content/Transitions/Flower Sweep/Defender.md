@@ -260,7 +260,7 @@ Advanced defenders recognize that the Flower Sweep rarely comes in isolation. It
 ### 3. Stand up in base to break the guard open, removing yourself from the sweeping plane entirely
 
 - **When to use**: When you feel the opponent creating persistent angles and grips that make ground-based defense increasingly difficult
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Standing removes the mechanical advantage the bottom player needs for the sweep and opens guard passing opportunities from standing
 - **Risk**: If you stand without controlling the opponent's hips or breaking their guard first, they can follow you up for ankle picks or transition to standing sweep variations. Must establish grips on their legs during the stand.
 
@@ -285,7 +285,7 @@ Advanced defenders recognize that the Flower Sweep rarely comes in isolation. It
 
 Strip the sleeve grip early during setup, drive hips forward to flatten opponent's angle, and re-establish posture with hands on hips. This resets the position to neutral closed guard top where you can resume working toward guard opening.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Open Guard]]
 
 When the opponent persistently creates sweep angles, stand up in base while controlling their hips with both hands. Break the guard by pushing one knee down and stepping back, then immediately begin guard passing sequences from standing. This converts their offensive pressure into an opportunity for you to improve position.
 

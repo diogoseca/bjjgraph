@@ -3,9 +3,9 @@
     "transition_files": 1011,
     "submission_files": 349,
     "position_files": 133,
-    "total_issues": 469,
+    "total_issues": 471,
     "errors": 0,
-    "warnings": 57,
+    "warnings": 59,
     "info": 412,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
@@ -15,7 +15,7 @@
     "orphaned_positions": 0,
     "invalid_from_positions": 0,
     "outcome_errors": 0,
-    "outcome_warnings": 23,
+    "outcome_warnings": 25,
     "attempt_outliers": 351,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
@@ -591,6 +591,22 @@
       "type": "probability_frame_absent",
       "message": "Pass from Demi Guard [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
       "severity": "info"
+    },
+    {
+      "file": "content/Transitions/Single Leg Takedown.json",
+      "name": "Single Leg Takedown",
+      "type": "technique_range_low",
+      "message": "Success[gi] 10% below expected min 25% for takedown",
+      "severity": "warning",
+      "current": 10
+    },
+    {
+      "file": "content/Transitions/Single Leg Takedown.json",
+      "name": "Single Leg Takedown",
+      "type": "technique_range_low",
+      "message": "Success[nogi] 10% below expected min 25% for takedown",
+      "severity": "warning",
+      "current": 10
     },
     {
       "file": "content/Transitions/Sweep from Leg Weave.json",

@@ -253,7 +253,7 @@ As the bottom player in back control, executing the hip scoot escape requires sy
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 55% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Failure | [[Positions/Mount]] | 15% |
 
 
 </section>

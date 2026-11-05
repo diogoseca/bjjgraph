@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -187,7 +187,7 @@
         "counter": "Opponent steps over the outside leg and drives knee across to initiate smash pass before X-Guard completes",
         "effectiveness": "High",
         "your_response": "Immediately retract the outside leg and re-establish knee shield or transition to closed guard recovery before they complete the pass sequence. If the inside hook is still deep, switch to single leg X as a fallback",
-        "targets_outcome": "Open Guard/Top"
+        "targets_outcome": "Open Guard/Bottom"
       },
       {
         "counter": "Opponent grabs and pins your outside leg down to prevent the X-pattern from forming across their hip",
@@ -410,7 +410,7 @@
       {
         "action": "Sprawl hips back and extract trapped leg when feeling hook insertion behind knee",
         "when_to_use": "When you feel the butterfly hook beginning to thread behind your knee but before it deepens past the joint",
-        "targets_outcome": "Open Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "You clear your leg from the entanglement entirely, achieving open guard top passing position with full mobility",
         "risk": "Sprawling creates distance that may allow bottom player to transition to other open guard variations or sit up"
       },
@@ -422,10 +422,10 @@
         "risk": "If hook is already deep, driving knee down may not dislodge it and may compromise your base stability"
       },
       {
-        "action": "Backstep over the outside leg and enter counter leg entanglement position",
+        "action": "Backstep over the outside leg, threatening a counter leg entanglement, to clear the hooks and free your leg",
         "when_to_use": "When X-Guard hooks are nearly established and direct hook prevention is no longer viable",
-        "targets_outcome": "Open Guard/Top",
-        "if_successful": "You transition to a counter-attacking position, potentially entering ashi garami or saddle on the bottom player's exposed legs",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You clear your leg and reach open guard top with full passing mobility, leaving the bottom player in open guard",
         "risk": "Requires precise timing and leg lock technical knowledge; poor execution may result in being swept to bottom"
       }
     ],
@@ -435,7 +435,7 @@
         "how": "Prevent the transition entirely by maintaining heavy crossface pressure and driving your hips forward to deny space for hook insertion. Address any hip escape immediately by following the bottom player's movement and re-establishing chest-to-chest connection before they create angle."
       },
       {
-        "outcome": "Open Guard/Top",
+        "outcome": "Open Guard/Bottom",
         "how": "When you feel hooks beginning to establish, sprawl your hips back forcefully while controlling the bottom player's upper body. Extract your trapped leg completely to achieve open guard top, where you can reset your passing approach with full mobility and no leg entanglement."
       }
     ],

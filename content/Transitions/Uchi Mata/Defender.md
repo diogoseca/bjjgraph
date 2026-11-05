@@ -279,7 +279,7 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 ### 3. Counter-throw with Uchi Mata Sukashi (void throw) by pulling your target leg back and redirecting the attacker's momentum
 
 - **When to use**: When the attacker is mid-rotation and has committed to the throw but has not yet made strong contact with your inner thigh. Requires precise timing.
-- **Targets**: [[Positions/Clinch]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The attacker throws themselves due to their own committed momentum. You end up in top position with the attacker on their back.
 - **Risk**: Mistiming the sukashi can result in the original throw succeeding. If the attacker has strong grips and good rotation, the counter may fail and you get thrown harder.
 
@@ -304,7 +304,7 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 
 Sprawl early and decisively when you recognize the entry step. Drive your hips back and down while maintaining your grips on the attacker. As their throw fails, use the positional advantage of their compromised posture to establish dominant grips or initiate your own takedown attempt. The failed throw leaves them extended and off-balance, creating openings for snap downs, go-behinds, or counter-takedowns.
 
-### → [[Positions/Clinch]]
+### → [[Positions/Side Control]]
 
 Execute Uchi Mata Sukashi or a counter-throw when the attacker over-commits to their rotation. As they turn their back and lift their sweeping leg, pull your target leg back while redirecting their forward momentum downward. Step around their rotating body and guide them to the mat using their own momentum. This requires precise timing during the transition between their entry and full rotation, and strong grip control to redirect their trajectory.
 

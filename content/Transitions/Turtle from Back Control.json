@@ -35,7 +35,7 @@
         "gi": 20,
         "nogi": 20
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -78,7 +78,7 @@
     },
     {
       "name": "Mount",
-      "relationship": "Counter outcome position if opponent capitalizes on escape attempt"
+      "relationship": "Failed turtle escape: opponent capitalizes on escape attempt and you end under mount"
     },
     {
       "name": "Hand Fight to Turtle from Back",

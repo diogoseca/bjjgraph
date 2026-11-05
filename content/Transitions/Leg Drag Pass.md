@@ -120,7 +120,7 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 | Success | [[Positions/Side Control]] | 70% |
 | Success | [[Positions/Back Control]] | 10% |
 | Failure | [[Positions/Open Guard]] | 12% |
-| Counter | [[Positions/Half Guard]] | 8% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 8% |
 
 
 </section>

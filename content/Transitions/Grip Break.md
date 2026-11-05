@@ -123,7 +123,7 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 75% |
 | Failure | [[Positions/Open Guard]] | 15% |
-| Counter | [[Positions/Open Guard]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>

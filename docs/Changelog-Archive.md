@@ -13859,3 +13859,10 @@ whole suite measures it.
 
 **Eager gzip checkpoint (LADDERPAY1).** Dev's own 343,788 B, +4,203 from 339,585; this version's
 merged tree stood at +5,755, over the 5,000 B cap. See the commit for the method.
+
+## v1.248.2 — K2 batch 1: 67 approved outcome fixes and their page text
+
+67 transitions, plus 82 text follow-ups on 42 rows. Only F68's table was re-cut; 3 success rates and their votes
+seeds follow relabelled rows. F17 was held: a review note called Guillotine Control/Bottom's moves the trapped
+player's, every gate passed with it applied, and two rulings on file said otherwise, so a green gate proved nothing there.
+The four moved FLOW ratchet rows carry their causes in `tests/artifacts/flow_validation_baseline.json`.

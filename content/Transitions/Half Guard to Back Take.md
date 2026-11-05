@@ -119,7 +119,7 @@ Half Guard to Back Take represents an advanced positional transition that transf
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 75% |
 | Failure | [[Positions/Half Guard]] | 15% |
-| Counter | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -241,7 +241,7 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 - **Apply strong whizzer overhook on the underhook arm while driving your hip into their chest to deny rotation** - When: When opponent has already secured underhook too deep for crossface alone to remove, but has not yet created full perpendicular angle
 
-- **Turn into opponent and drive through to recover inside position, accepting guard recovery over back exposure** - When: When opponent has achieved perpendicular angle and begun climbing - this is the emergency defense when prevention has failed
+- **Turn into opponent and drive through the scramble to pass half guard rather than giving up your back** - When: When opponent has achieved perpendicular angle and begun climbing - this is the emergency defense when prevention has failed
 
 
 </section>

@@ -33,7 +33,7 @@ description: "How to prevent the Hip Escape to Guard in BJJ. Recognition cues, r
     {
       "@type": "HowToStep",
       "name": "Transition to mount while maintaining arm trap during lateral displacement",
-      "text": "When opponent creates significant lateral distance through multiple hip escapes making back control difficult to maintain If successful: You achieve mounted Gift Wrap which maintains arm control advantage with mount pressure",
+      "text": "When opponent creates significant lateral distance through multiple hip escapes making back control difficult to maintain If successful: You keep mounted Gift Wrap, which maintains arm control advantage with mount pressure. If the arm comes free, the exchange ends as ordinary mount.",
       "position": 3
     },
     {
@@ -224,7 +224,7 @@ Your positional advantage is substantial but requires active maintenance. Static
 
 - **When to use**: When opponent creates significant lateral distance through multiple hip escapes making back control difficult to maintain
 - **Targets**: [[Positions/Mount]]
-- **If successful**: You achieve mounted Gift Wrap which maintains arm control advantage with mount pressure
+- **If successful**: You keep mounted Gift Wrap, which maintains arm control advantage with mount pressure. If the arm comes free, the exchange ends as ordinary mount.
 - **Risk**: The mount transition momentarily loosens the arm trap, potentially allowing arm extraction
 
 ### 4. Flatten opponent by driving weight through their shoulder and re-establishing heavy hooks
@@ -250,7 +250,7 @@ Maintain tight chest-to-back connection and follow every hip escape by driving y
 
 ### → [[Positions/Mount]]
 
-When opponent creates significant lateral distance through hip escapes, proactively transition to mount rather than losing back control entirely. Step over their hip while maintaining the Gift Wrap arm control. The mounted Gift Wrap preserves your arm trap advantage while adding the pressure and control of the mount position.
+When opponent creates significant lateral distance through hip escapes, proactively transition to mount rather than losing back control entirely. Step over their hip while maintaining the Gift Wrap arm control. The mounted Gift Wrap preserves your arm trap advantage while adding the pressure and control of the mount position. If the opponent extracts the arm during the transition, you hold ordinary mount instead.
 
 
 

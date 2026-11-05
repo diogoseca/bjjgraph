@@ -256,7 +256,7 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 |--------|----------|-------------|
 | Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
 | Failure | [[Positions/X-Guard]] | 25% |
-| Counter | [[Positions/X-Guard]] | 10% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -271,7 +271,7 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 - **Opponent steps over your bottom leg to prevent inside position establishment** (Effectiveness: High) - Your Response: If they successfully step over, immediately switch to outside Ashi Garami configuration or transition to single leg X-Guard. Alternatively, use their step-over movement to enter into a deep half guard position or kiss of the dragon back take. → Leads to [[Positions/X-Guard]]
 - **Opponent drops their weight forward, smashing into you during transition** (Effectiveness: Medium) - Your Response: Accept the forward pressure by going to your back while maintaining leg entanglement. Transition to a supine Ashi position or 50-50 guard configuration. Use the forward pressure to facilitate heel exposure and grip security. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Opponent clears their trapped leg's knee line by limp-legging out** (Effectiveness: Low) - Your Response: Anticipate the limp leg escape by pre-emptively tightening your top hook and following their leg's movement. Maintain heel control throughout and adjust your angle to stay perpendicular to their hip. If necessary, transition to straight ankle lock position. → Leads to [[Positions/X-Guard]]
-- **Opponent turns away toward their trapped leg side** (Effectiveness: High) - Your Response: Your inside leg position is specifically designed to prevent this rotation. If they begin turning, drive your inside knee harder into their far hip and use your heel control to pull their leg back toward centerline. If rotation continues, follow them into outside Ashi or saddle position. → Leads to [[Positions/X-Guard]]
+- **Opponent turns away toward their trapped leg side** (Effectiveness: High) - Your Response: Your inside leg position is specifically designed to prevent this rotation. If they begin turning, drive your inside knee harder into their far hip and use your heel control to pull their leg back toward centerline. If they complete the escape and free the leg, release the entanglement and retain guard from open guard. → Leads to [[Positions/Open Guard]]
 
 
 </section>

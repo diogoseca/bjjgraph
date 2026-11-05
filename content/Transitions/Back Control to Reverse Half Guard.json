@@ -32,7 +32,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": {
         "gi": 20,
         "nogi": 20
@@ -176,19 +176,19 @@
         "counter": "Defender completes rotation to face you before backstep is finished",
         "effectiveness": "High",
         "your_response": "If they fully face you, you end up in standard half guard top rather than reverse. Accept the position and work your passing game from there. Prevent this by maintaining chest pressure and timing the backstep earlier in the escape sequence.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Defender shrimps away explosively during the backstep to create distance",
         "effectiveness": "Medium",
         "your_response": "Follow their hip movement with your own hips and maintain chest pressure. If they create significant distance, you may need to re-engage from a passing position rather than reverse half guard. Use the leg drag to cut off their shrimping angle.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Defender catches your backstep leg in deep half guard configuration",
         "effectiveness": "Medium",
         "your_response": "If they trap your backstep leg underneath them in deep half, you need to address this before establishing reverse half guard. Post on their hip and work to extract your leg, or accept the deep half position and use standard deep half passing techniques.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Defender re-inserts a hook on your backstep leg to recover back control position",
@@ -396,35 +396,35 @@
       {
         "action": "Accelerate rotation to face opponent before backstep completes",
         "when_to_use": "As soon as you recognize the backstep initiation, before the opponent's leg threads between yours",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You end up in standard half guard where you have established defensive frames and sweep options rather than the compromised reverse half guard position",
         "risk": "If you rotate too aggressively, you may expose your back again, allowing the opponent to abandon the backstep and re-take back control"
       },
       {
         "action": "Knee shield insertion to block the backstep leg",
         "when_to_use": "When you feel the opponent's leg beginning to thread between yours during the backstep",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "The knee shield prevents deep leg entanglement and creates the frame needed to recover standard half guard or open guard",
         "risk": "If the opponent's leg is already past your knee line, the shield cannot be inserted and you may end up in a compromised position with limited mobility"
       },
       {
         "action": "Hip escape away to create separation before weight settles",
         "when_to_use": "During the transitional moment when the opponent is mid-backstep and their weight is shifting between positions",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You create enough distance to recover full guard or at minimum establish standard half guard with proper frames",
         "risk": "If your timing is late and the opponent has already settled their weight, the shrimp is ineffective and wastes energy without improving position"
       },
       {
         "action": "Catch opponent's backstep leg in deep half guard",
         "when_to_use": "When the opponent's backstep leg threads between yours and you can trap it underneath your body",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You convert their backstep attempt into deep half guard bottom, a position with strong sweep options and favorable mechanics",
         "risk": "Requires precise timing and body positioning; if the opponent reads the deep half entry, they can adjust their backstep to avoid the trap"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Half Guard/Top",
         "how": "Complete your shoulder rotation to face the opponent before the backstep leg threads between your legs. Use frames against their shoulder and hip to maintain facing position. Insert knee shield immediately upon facing them to establish standard half guard defensive structure with sweep and re-guard options."
       }
     ],

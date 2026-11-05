@@ -285,8 +285,8 @@ The technique requires reading the opponent's response at the half guard checkpo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 50% |
-| Failure | [[Positions/Half Guard]] | 30% |
-| Counter | [[Positions/Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Mount]] | 20% |
 
 
 </section>

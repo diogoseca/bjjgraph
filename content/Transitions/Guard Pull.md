@@ -157,7 +157,7 @@ The technique has become increasingly sophisticated in modern competition, with 
 |--------|----------|-------------|
 | Success | [[Positions/Closed Guard]] | 75% |
 | Failure | [[Positions/Standing Position]] | 15% |
-| Counter | [[Positions/Standing Position]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>

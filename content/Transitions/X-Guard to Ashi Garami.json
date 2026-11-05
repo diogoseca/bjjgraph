@@ -29,7 +29,7 @@
       "result": "failure"
     },
     {
-      "to": "X-Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -193,8 +193,8 @@
       {
         "counter": "Opponent turns away toward their trapped leg side",
         "effectiveness": "High",
-        "your_response": "Your inside leg position is specifically designed to prevent this rotation. If they begin turning, drive your inside knee harder into their far hip and use your heel control to pull their leg back toward centerline. If rotation continues, follow them into outside Ashi or saddle position.",
-        "targets_outcome": "X-Guard/Top"
+        "your_response": "Your inside leg position is specifically designed to prevent this rotation. If they begin turning, drive your inside knee harder into their far hip and use your heel control to pull their leg back toward centerline. If they complete the escape and free the leg, release the entanglement and retain guard from open guard.",
+        "targets_outcome": "Open Guard/Bottom"
       }
     ],
     "common_errors": [
@@ -443,14 +443,14 @@
       {
         "action": "Immediate leg extraction by driving your knee forward and pulling your foot back while their bottom hook is released",
         "when_to_use": "The instant you feel the bottom hook disengage from your hip. This window is narrow: you have approximately 1-2 seconds before the new inside leg position locks in.",
-        "targets_outcome": "X-Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "You free your trapped leg entirely, breaking the X-Guard configuration and establishing top position with passing opportunities. Immediately advance to guard pass before opponent can re-establish any guard.",
         "risk": "If you pull your leg back too slowly, you extend it directly into their control zone, actually making the Ashi entry easier. Failed extraction often accelerates their transition."
       },
       {
         "action": "Step over the incoming inside leg by lifting your free leg and placing it on the opposite side of their threading leg before it crosses your centerline",
         "when_to_use": "When you see or feel their bottom leg beginning to thread across your hip. This must occur before their foot passes your centerline, otherwise you step into a deeper entanglement.",
-        "targets_outcome": "X-Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "You deny inside position entirely, collapsing the Ashi configuration before it forms. From here you can immediately pressure pass or establish top control since their guard structure is broken.",
         "risk": "Stepping over requires momentary single-leg balance, which can be exploited if they time a sweep during your weight transfer. Also risks entering outside Ashi if executed poorly."
       },
@@ -471,7 +471,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "X-Guard/Top",
+        "outcome": "Open Guard/Bottom",
         "how": "Extract your trapped leg during the transition window when opponent releases their bottom hook. Drive your knee forward assertively while pulling your foot back, then immediately advance to a passing position before they can re-establish guard hooks. Alternatively, step over their incoming inside leg before it crosses your centerline to deny Ashi configuration entirely."
       },
       {

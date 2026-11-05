@@ -82,7 +82,7 @@ Timing is paramount for this technique. The optimal window occurs when your oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Feet on Hips Guard]] | 55% |
 | Success | [[Positions/Closed Guard]] | 10% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
 | Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
@@ -242,7 +242,7 @@ Leg Extraction to Guard serves as the primary positive-outcome escape from ushir
 
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for this escape technique
 
-- [[Positions/Open Guard]] - Primary target position after successful extraction
+- [[Positions/Feet on Hips Guard]] - Primary target position after successful extraction
 
 - [[Positions/Closed Guard]] - Alternative target when opponent is close enough to close legs
 

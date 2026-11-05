@@ -122,8 +122,8 @@ test("@curated at the authored odds the card IS the published value — the work
   const topAtt = Math.max(...attOf.map((r: any) => r.att));
   expect(attOf.find((r: any) => r.t === "Frame from Side Control")!.att, "Frame is the most-attempted card dealt here (tied since v1.212.0)").toBe(topAtt);
   expect(frame.edge, "and it sits below the ordinary choice").toBeLessThan(0);
-  expect(-frame.edge, "Frame's deficit below the ordinary choice").toBe(10); // census:edgeFrameDeficit
-  expect(esc.edge, "Side Control Escape").toBe(20); // census:edgeSideControlEscape
+  expect(-frame.edge, "Frame's deficit below the ordinary choice").toBe(9); // census:edgeFrameDeficit
+  expect(esc.edge, "Side Control Escape").toBe(21); // census:edgeSideControlEscape
   expect(esc.odds).toBe(60);
   expect(frame.odds).toBe(50);
 

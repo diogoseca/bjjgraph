@@ -32,7 +32,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -174,7 +174,7 @@
         "counter": "Opponent extracts trapped arm during the grip release window when neither choke is fully locked",
         "effectiveness": "High",
         "your_response": "If the arm begins extracting, immediately abandon the switch and secure front headlock control with a crossface or snap-down to prevent full posture recovery. Re-evaluate whether to re-enter Darce or attempt a different attack.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Opponent tucks chin deep and blocks the re-threading path by pressing shoulder to jaw, preventing Anaconda arm from circling the neck",
@@ -186,7 +186,7 @@
         "counter": "Opponent explosively bridges and hip escapes during the momentary pressure reduction of the grip transition",
         "effectiveness": "High",
         "your_response": "Ride the bridge by sprawling your hips back and maintaining chest connection. If they create significant space, immediately secure whichever grip is closer to completion rather than continuing the switch. Prioritize maintaining any form of head control over completing the reconfiguration.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Opponent turns into you during the switch, attempting to establish inside position and recover guard",
@@ -430,7 +430,7 @@
       {
         "action": "Explosive arm extraction during grip release - pull trapped arm free using hip escape and free hand assistance while the attacker's choking loop is momentarily open",
         "when_to_use": "The instant you feel the Darce grip release and before the Anaconda grip locks, when neither choke is fully established",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Escape the front headlock position entirely and recover to half guard, turtle, or open guard depending on scramble outcome",
         "risk": "If the attacker maintains chest pressure and re-locks quickly, you may end up in a tighter Anaconda with less defensive structure than before"
       },
@@ -444,21 +444,21 @@
       {
         "action": "Granby roll during the transition window - use the momentary pressure reduction to execute an explosive roll to guard recovery",
         "when_to_use": "When you feel significant pressure reduction during the grip transition and have enough hip mobility to initiate the roll",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Recover to guard position and force the attacker to restart their offensive sequence from a neutral or disadvantageous position",
         "risk": "A poorly timed granby roll can expose your back or tighten a partially locked Anaconda grip through the rolling momentum"
       },
       {
         "action": "Turn into the attacker and establish inside position - rotate your chest to face the attacker during the grip release to deny both Darce and Anaconda angles simultaneously",
         "when_to_use": "When the attacker lifts even slight chest pressure during the transition, creating enough space to rotate your torso",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Establish chest-to-chest contact which neutralizes both arm-in choke configurations and allows guard recovery",
         "risk": "Turning too aggressively may expose your back if the attacker reads the movement and transitions to a back take instead"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Half Guard/Top",
         "how": "Exploit the grip transition window by extracting your trapped arm during the release phase, then immediately hip escape to recover guard before the attacker can re-establish any front headlock control. The key is acting within the first one to two seconds of feeling the grip change, as this window closes rapidly once the Anaconda is locked."
       }
     ],

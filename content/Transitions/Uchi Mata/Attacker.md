@@ -290,7 +290,7 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 70% |
 | Failure | [[Positions/Clinch]] | 20% |
-| Counter | [[Positions/Clinch]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -304,7 +304,7 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 - **Opponent sprawls their hips back to prevent hip contact** (Effectiveness: High) - Your Response: Chain to different throw such as Osoto Gari or adapt to Kouchi Gari. If they over-sprawl, switch to front headlock position or single leg attack. → Leads to [[Positions/Clinch]]
 - **Opponent posts their free leg wide to maintain base** (Effectiveness: Medium) - Your Response: Continue rotation and adapt to a different angle, or switch to Harai Goshi by hooking their posted leg. Alternatively, drive them backward into a different throwing direction. → Leads to [[Positions/Clinch]]
 - **Opponent grips your belt or pants to block rotation** (Effectiveness: Medium) - Your Response: Use their grip as an anchor point and increase your rotational speed. Break their posture more aggressively before entering. In no-gi, this counter is less effective. → Leads to [[Positions/Clinch]]
-- **Opponent counters with Uchi Mata Sukashi (void throw) by pulling leg back** (Effectiveness: Low) - Your Response: If committed properly to Uchi Mata with strong grips, the sukashi counter is difficult to execute. Maintain upper body control and complete your rotation faster than they can void the throw. Keep pulling hand active to prevent them redirecting your momentum. → Leads to [[Positions/Clinch]]
+- **Opponent counters with Uchi Mata Sukashi (void throw) by pulling leg back** (Effectiveness: Low) - Your Response: If committed properly to Uchi Mata with strong grips, the sukashi counter is difficult to execute. Maintain upper body control and complete your rotation faster than they can void the throw. Keep pulling hand active to prevent them redirecting your momentum. → Leads to [[Positions/Side Control]]
 
 
 </section>

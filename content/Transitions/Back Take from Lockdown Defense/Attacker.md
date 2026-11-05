@@ -251,7 +251,7 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 58% |
 | Failure | [[Positions/Half Guard/Electric Chair]] | 27% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -263,8 +263,8 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 <p class="section-subtitle">How might your opponent counter Back Take from Lockdown Defense?</p>
 
 - **Opponent releases lockdown early and recovers closed guard before backstep completes** (Effectiveness: High) - Your Response: If they release early, immediately pass to side control using your established upper body control. The lockdown release gives you a free pass opportunity. → Leads to [[Positions/Half Guard/Electric Chair]]
-- **Opponent turns into you during backstep and re-establishes half guard or full guard** (Effectiveness: Medium) - Your Response: Maintain constant crossface pressure throughout the backstep. If they begin turning, drive your shoulder harder into their jaw to prevent rotation and continue the backstep motion. → Leads to [[Positions/Half Guard]]
-- **Opponent abandons Electric Chair and transitions to deep half guard under your backstep** (Effectiveness: Medium) - Your Response: Sprawl your hips back and establish whizzer control. From here, look to pass with knee slice or smash pass rather than continuing the back take. → Leads to [[Positions/Half Guard]]
+- **Opponent turns into you during backstep and re-establishes half guard** (Effectiveness: Medium) - Your Response: Maintain constant crossface pressure throughout the backstep. If they begin turning, drive your shoulder harder into their jaw to prevent rotation and continue the backstep motion. → Leads to [[Positions/Half Guard]]
+- **Opponent abandons Electric Chair and drops underneath your backstep to recover half guard** (Effectiveness: Medium) - Your Response: Sprawl your hips back and establish whizzer control. From here, look to pass with knee slice or smash pass rather than continuing the back take. → Leads to [[Positions/Half Guard]]
 - **Opponent elevates hips dramatically creating space to invert and recover guard** (Effectiveness: Low) - Your Response: Keep your weight low and connected. If they create elevation space, follow their hips with your weight rather than allowing separation. → Leads to [[Positions/Half Guard/Electric Chair]]
 
 

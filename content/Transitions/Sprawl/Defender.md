@@ -32,8 +32,8 @@ description: "How to continue your takedown against a sprawl in BJJ. Recognition
     },
     {
       "@type": "HowToStep",
-      "name": "Sit to guard by pulling opponent into your closed guard or half guard rather than fighting the front headlock",
-      "text": "When opponent has established heavy front headlock pressure and submission threats are imminent, making continued standing engagement dangerous If successful: Transition to a guard position where you can neutralize the front headlock threats and work from a more manageable defensive position",
+      "name": "Bait the sprawl with a fake level change, then attack after opponent commits and finish the takedown into side control",
+      "text": "When opponent commits to the sprawl on a feint, before they have established front headlock control If successful: You take opponent down and secure side control on top, leaving the sprawler pinned underneath you",
       "position": 3
     },
     {
@@ -254,12 +254,12 @@ As the defender against a sprawl, you are the person whose takedown attempt has 
 - **If successful**: Reset to standing and immediately attack again while opponent is still recovering their stance from the sprawl position
 - **Risk**: If your re-shot timing is poor, opponent may be settled in their stance and you eat another sprawl while fatigued
 
-### 3. Sit to guard by pulling opponent into your closed guard or half guard rather than fighting the front headlock
+### 3. Bait the sprawl with a fake level change, then attack after opponent commits and finish the takedown into side control
 
-- **When to use**: When opponent has established heavy front headlock pressure and submission threats are imminent, making continued standing engagement dangerous
-- **Targets**: [[Positions/Standing Position]]
-- **If successful**: Transition to a guard position where you can neutralize the front headlock threats and work from a more manageable defensive position
-- **Risk**: You concede the takedown and give up positional advantage, and opponent may maintain head control during the guard pull transition
+- **When to use**: When opponent commits to the sprawl on a feint, before they have established front headlock control
+- **Targets**: [[Positions/Side Control]]
+- **If successful**: You take opponent down and secure side control on top, leaving the sprawler pinned underneath you
+- **Risk**: If opponent does not commit to the fake, your attack can be stuffed and they may secure front headlock control
 
 ### 4. Drive forward explosively to complete the takedown through the sprawl by lifting and running the pipe
 
@@ -282,9 +282,9 @@ As the defender against a sprawl, you are the person whose takedown attempt has 
 
 Complete the takedown by switching to a single leg, re-shooting after disengaging, or powering through the sprawl. The key is either changing your angle of attack to work around the sprawl or creating enough separation to reset and attack again before your opponent can settle their stance.
 
-### → [[Positions/Standing Position]]
+### → [[Positions/Side Control]]
 
-If front headlock control is imminent and you cannot complete the takedown, pull guard by sitting through and bringing the opponent into your guard. While not ideal, this avoids the worst-case scenario of being caught in a submission from front headlock. Prioritize establishing grips on their arms during the transition to prevent them from maintaining head control.
+Use a fake level change to bait the sprawl, then attack once the opponent has committed. Finish the takedown and secure side control on top, leaving the sprawler pinned on the bottom. This avoids the worst-case scenario of being caught in a submission from front headlock.
 
 
 

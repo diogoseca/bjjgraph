@@ -285,7 +285,7 @@ Executing the Knee Slide from Combat Base requires understanding the biomechanic
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/Combat Base]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 15% |
 
 
 </section>

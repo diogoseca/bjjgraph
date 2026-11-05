@@ -280,7 +280,7 @@ The Hook Sweep is a fundamental butterfly guard technique that leverages proper 
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 68% |
 | Failure | [[Positions/Butterfly Guard]] | 20% |
-| Counter | [[Positions/Butterfly Guard]] | 12% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -294,7 +294,7 @@ The Hook Sweep is a fundamental butterfly guard technique that leverages proper 
 - **Opponent posts hand to mat on sweeping side to prevent being toppled** (Effectiveness: High) - Your Response: Switch to opposite-side hook sweep exploiting the compromised base, or attack the posted arm with kimura since it is extended and vulnerable. Alternatively, use the post as an arm drag opportunity to take the back. → Leads to [[Positions/Butterfly Guard]]
 - **Opponent sprawls hips back and away to remove hooks from effective range** (Effectiveness: Medium) - Your Response: Follow their backward movement by transitioning to deep half guard entry or X-guard. Maintain grip connection and use their retreating momentum to enter leg entanglement positions. Their sprawl actually facilitates these transitions. → Leads to [[Positions/Butterfly Guard]]
 - **Opponent widens base and drops hips low to create stable platform** (Effectiveness: Medium) - Your Response: Create a more extreme angle and increase pulling force to collapse one side of their widened base. Chain to elevator sweep which exploits the low hip position, or threaten guillotine as their lowered head enters choking range. → Leads to [[Positions/Butterfly Guard]]
-- **Opponent strips your grips and establishes their own dominant grip configuration** (Effectiveness: High) - Your Response: Immediately re-engage grip fighting to establish alternative controls such as overhooks, underhooks, or wrist control. If grip re-establishment fails, transition to guard retention mode using hooks defensively while working to reset the grip exchange. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent strips your grips, establishes their own dominant grip configuration and completes the pass to side control** (Effectiveness: High) - Your Response: Immediately re-engage grip fighting to establish alternative controls such as overhooks, underhooks, or wrist control. If grip re-establishment fails, transition to guard retention mode using hooks defensively while working to reset the grip exchange. If the pass completes, you land underneath side control and your escape work starts there. → Leads to [[Positions/Side Control]]
 
 
 </section>

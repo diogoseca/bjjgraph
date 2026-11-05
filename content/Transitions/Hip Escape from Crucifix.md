@@ -70,7 +70,7 @@ Strategically, the hip escape targets the weakest link in the crucifix structure
 The technique serves as a critical survival skill in the crucifix escape hierarchy. While arm recovery and explosive bridging receive more attention, the hip escape offers a methodical, energy-efficient alternative that works even against opponents with strong leg lock configurations. Success depends on timing the hip movement to coincide with moments when the top player transitions between attacks, chaining multiple small shrimps rather than one explosive movement, and immediately converting the extracted arm into a turtle recovery without pause.
 
 **From Position**: [[Positions/Crucifix]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 65%
 
 </section>
 
@@ -84,7 +84,7 @@ The technique serves as a critical survival skill in the crucifix escape hierarc
 |--------|----------|-------------|
 | Success | [[Positions/Turtle]] | 45% |
 | Failure | [[Positions/Crucifix]] | 35% |
-| Counter | [[Positions/Back Control]] | 20% |
+| Success | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -251,7 +251,7 @@ The hip escape from crucifix integrates into the broader crucifix survival frame
 
 - [[Positions/Turtle]] - Primary success destination after completing the escape
 
-- [[Positions/Back Control]] - Common counter outcome when opponent transitions during escape
+- [[Positions/Back Control]] - Partial escape success when opponent transitions during escape, landing you in standard back control
 
 - [[Transitions/Arm Recovery from Crucifix]] - Complementary escape technique focusing on direct arm extraction
 

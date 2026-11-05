@@ -31,7 +31,7 @@
       "result": "failure"
     },
     {
-      "to": "Deep Half Guard/Bottom",
+      "to": "Deep Half Guard/Top",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -188,7 +188,7 @@
         "counter": "Bottom player drops underneath for deep half guard entry during weight commitment",
         "effectiveness": "High",
         "your_response": "If you feel them diving underneath, immediately sprawl your hips back and apply downward pressure to prevent them from getting their head beneath your hips. Post your hand on the mat on the far side and drive weight down. If they achieve deep half, you must address that position specifically rather than continuing the quarter guard transition.",
-        "targets_outcome": "Deep Half Guard/Bottom"
+        "targets_outcome": "Deep Half Guard/Top"
       },
       {
         "counter": "Bottom player uses lockdown to trap your advancing leg",
@@ -404,7 +404,7 @@
       {
         "action": "Drop underneath for deep half guard entry by getting your head below their hips",
         "when_to_use": "When the top player commits significant weight forward during hip advancement, creating space underneath their body",
-        "targets_outcome": "Deep Half Guard/Bottom",
+        "targets_outcome": "Deep Half Guard/Top",
         "if_successful": "You establish deep half guard which offers superior sweeping angles and neutralizes their passing pressure",
         "risk": "If the top player recognizes the deep half entry early, they can sprawl and flatten you, accelerating the pass completion"
       },
@@ -429,7 +429,7 @@
         "how": "Recover underhook control and hip angle early in the transition before their knee passes your hip centerline. Use active hip escaping combined with underhook pulling to prevent flattening and re-establish the contested half guard dynamic."
       },
       {
-        "outcome": "Deep Half Guard/Bottom",
+        "outcome": "Deep Half Guard/Top",
         "how": "When the top player overcommits weight forward during advancement, use that momentum to dive underneath their body, getting your head below their hips and establishing deep half guard hooks. Their forward commitment makes it difficult to prevent the deep half entry if timed correctly."
       }
     ],

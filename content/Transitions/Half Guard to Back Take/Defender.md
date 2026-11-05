@@ -32,8 +32,8 @@ description: "How to defend against Half Guard to Back Take in BJJ. Recognition 
     },
     {
       "@type": "HowToStep",
-      "name": "Turn into opponent and drive through to recover inside position, accepting guard recovery over back exposure",
-      "text": "When opponent has achieved perpendicular angle and begun climbing - this is the emergency defense when prevention has failed If successful: You face the opponent directly, denying the back take entirely and potentially passing to a dominant top position through the scramble",
+      "name": "Turn into opponent and drive through the scramble to pass half guard rather than giving up your back",
+      "text": "When opponent has achieved perpendicular angle and begun climbing - this is the emergency defense when prevention has failed If successful: You face the opponent directly, deny the back take entirely, and complete the pass through the scramble to side control on top",
       "position": 3
     },
     {
@@ -254,11 +254,11 @@ Defending the half guard to back take requires the top player to recognize early
 - **If successful**: Opponent's underhook is controlled and their rotation is stalled, allowing you to work the whizzer into a pass or reestablish crossface control
 - **Risk**: Skilled opponents can use the whizzer as an anchor point and circle underneath it to complete the back take
 
-### 3. Turn into opponent and drive through to recover inside position, accepting guard recovery over back exposure
+### 3. Turn into opponent and drive through the scramble to pass half guard rather than giving up your back
 
 - **When to use**: When opponent has achieved perpendicular angle and begun climbing - this is the emergency defense when prevention has failed
-- **Targets**: [[Positions/Half Guard]]
-- **If successful**: You face the opponent directly, denying the back take entirely and potentially passing to a dominant top position through the scramble
+- **Targets**: [[Positions/Side Control]]
+- **If successful**: You face the opponent directly, deny the back take entirely, and complete the pass through the scramble to side control on top
 - **Risk**: If you turn too slowly or without controlling their underhook, you may expose your back further during the rotation attempt
 
 ### 4. Base out wide with far hand posted and sprawl hips away to create distance and deny the climb
@@ -282,9 +282,9 @@ Defending the half guard to back take requires the top player to recognize early
 
 Flatten the bottom player using crossface and shoulder pressure before they achieve perpendicular angle. Drive your weight through your chest into their face and shoulder, collapsing their side angle back to flat on the mat. Once flattened, reestablish crossface dominance and resume your half guard passing sequence.
 
-### → [[Positions/Half Guard]]
+### → [[Positions/Side Control]]
 
-When the back take attempt has progressed past prevention, turn aggressively into the bottom player by rotating your torso toward them and driving through with your chest. Use the momentum of their failed back take to advance your position, passing through the scramble to reestablish top control or even advance past half guard entirely.
+When the back take attempt has progressed past prevention, turn aggressively into the bottom player by rotating your torso toward them and driving through with your chest. Use the momentum of their failed back take to pass through the scramble and advance past half guard entirely, finishing in side control with the opponent pinned underneath you.
 
 
 

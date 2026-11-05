@@ -38,8 +38,8 @@ description: "Defend the guard pass from flattened half guard. Recognition cues,
     },
     {
       "@type": "HowToStep",
-      "name": "Thread underneath for deep half guard entry during the opponent's extraction movement",
-      "text": "When the opponent's hips rise above your hip line during the extraction attempt, creating enough space to dive underneath If successful: You achieve deep half guard which completely reverses the passing dynamic and gives you strong sweeping options",
+      "name": "Work back underneath the opponent during their extraction movement to recover active half guard",
+      "text": "When the opponent's hips rise above your hip line during the extraction attempt, creating enough space to work back underneath If successful: You recover active half guard, which resets the passing sequence while the opponent stays on top",
       "position": 4
     }
   ],
@@ -271,12 +271,12 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 - **If successful**: Frame creates space for full knee shield recovery or return to active half guard with offensive capabilities restored
 - **Risk**: Extending the arm for the frame can expose it to Kimura or Americana attacks if the extraction succeeds despite your defense
 
-### 4. Thread underneath for deep half guard entry during the opponent's extraction movement
+### 4. Work back underneath the opponent during their extraction movement to recover active half guard
 
-- **When to use**: When the opponent's hips rise above your hip line during the extraction attempt, creating enough space to dive underneath
+- **When to use**: When the opponent's hips rise above your hip line during the extraction attempt, creating enough space to work back underneath
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: You achieve deep half guard which completely reverses the passing dynamic and gives you strong sweeping options
-- **Risk**: If the opponent recognizes the entry and sprawls, you may end up in a worse flattened position with less defensive structure
+- **If successful**: You recover active half guard, which resets the passing sequence while the opponent stays on top
+- **Risk**: If the opponent recognizes the recovery and sprawls, you may end up in a worse flattened position with less defensive structure
 
 
 

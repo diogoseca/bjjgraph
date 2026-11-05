@@ -288,7 +288,7 @@ Consolidate Mount is the critical transition between achieving mount position an
 
 <p class="section-subtitle">How might your opponent counter Consolidate Mount?</p>
 
-- **Bridge and roll attempt using elbows as pivot points** (Effectiveness: Medium) - Your Response: Post hand wide on the side they bridge toward, sprawl hips, and ride out the bridge before re-establishing grapevines → Leads to [[Positions/Half Guard]]
+- **Bridge and roll attempt using elbows as pivot points, leading into half guard recovery rather than a full reversal** (Effectiveness: Medium) - Your Response: Post hand wide on the side they bridge toward, sprawl hips, and ride out the bridge before re-establishing grapevines → Leads to [[Positions/Half Guard]]
 - **Elbow-knee escape (shrimping) to recover half guard** (Effectiveness: High) - Your Response: Block their hip with your knee and maintain heavy chest pressure; if they create space, immediately re-close it before they can insert knee shield → Leads to [[Positions/Half Guard]]
 - **Framing on hips to create space and turn** (Effectiveness: Medium) - Your Response: Swim inside the frames using elbow-elbow connection, then pin their arms with cross-face or by trapping wrist to mat → Leads to [[Positions/Mount]]
 

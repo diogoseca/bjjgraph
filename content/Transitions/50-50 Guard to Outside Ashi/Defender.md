@@ -158,7 +158,7 @@ description: "How to defend against 50-50 Guard to Outside Ashi in BJJ. Recognit
 
 Defending the 50-50 Guard to Outside Ashi transition requires recognizing the earliest indicators that your opponent is initiating leg extraction, then choosing the correct defensive response before they complete the asymmetrical entanglement. As the defender in 50-50 bottom, your opponent's transition to outside ashi represents a significant threat escalation because it removes the mutual-threat symmetry that protects you in 50-50 and places you in a purely defensive position with your heel immediately exposed.
 
-Your defensive strategy depends entirely on timing. Early recognition allows you to prevent the extraction altogether by tightening your inside control, stripping their heel grip, or racing to your own outside ashi. Late recognition after their leg has cleared forces you into damage control, where you must prevent the figure-4 from locking and work to re-entangle or escape to standing. The worst outcome is allowing the full transition to complete unopposed, which leaves you in outside ashi-garami bottom with an immediate heel hook threat.
+Your defensive strategy depends entirely on timing. Early recognition allows you to prevent the extraction altogether by tightening your inside control, stripping their heel grip, or racing to your own outside ashi. Late recognition after their leg has cleared forces you into damage control, where you must prevent the figure-4 from locking and work to re-entangle or escape to standing. The worst outcome is allowing the full transition to complete unopposed, which leaves you in outside ashi-garami top with an immediate heel hook threat.
 
 The key defensive principle is that 50-50 is a position of mutual threat, and your opponent's attempt to transition breaks that mutual threat. Your job is to either maintain the mutual threat by preventing their extraction, or to create your own asymmetrical advantage by counter-transitioning before they complete their movement. Passive defense from 50-50 bottom against a transitioning opponent almost always results in positional loss.
 
@@ -223,7 +223,7 @@ The key defensive principle is that 50-50 is a position of mutual threat, and yo
 - **When to use**: Mid phase - when opponent has committed to extraction and you recognize you cannot prevent it through inside control alone
 - **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You establish your own asymmetrical advantage or at minimum create a mutual-threat scramble that prevents them from settling into outside ashi
-- **Risk**: If opponent beats you to the position, you end up in outside ashi bottom with no defensive structure
+- **Risk**: If opponent beats you to the position, you end up in outside ashi top with no defensive structure
 
 ### 4. Drive forward to stack opponent and disrupt their hip rotation mechanics during mid-extraction
 

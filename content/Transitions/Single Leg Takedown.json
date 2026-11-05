@@ -17,8 +17,16 @@
     {
       "to": "Side Control/Top",
       "probability": {
-        "gi": 70,
-        "nogi": 70
+        "gi": 60,
+        "nogi": 60
+      },
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": {
+        "gi": 10,
+        "nogi": 10
       },
       "result": "success"
     },
@@ -31,7 +39,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Bottom",
+      "to": "Front Headlock/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -71,7 +79,7 @@
     },
     {
       "name": "Front Headlock",
-      "relationship": "Alternative position - where you may end up if single leg is partially defended"
+      "relationship": "Counter outcome - where you land, caught, when opponent sprawls on the shot"
     },
     {
       "name": "Single Leg X-Guard",
@@ -87,7 +95,7 @@
     },
     {
       "name": "Guard Pull",
-      "relationship": "Alternative strategy - opponent may pull guard to avoid single leg"
+      "relationship": "Alternative strategy - opponent may pull guard to avoid single leg, a lesser success that lands you on top in their closed guard"
     },
     {
       "name": "Double Leg Finish",
@@ -149,16 +157,16 @@
     ],
     "common_counters": [
       {
-        "counter": "Sprawl and whizzer defense",
+        "counter": "Sprawl and whizzer defense that stuffs the shot into a front headlock",
         "effectiveness": "High",
-        "your_response": "If opponent sprawls, immediately switch to duck-under or go behind, or transition to double leg. If they establish whizzer, use it as leverage to come up on top or switch to inside trip finish.",
-        "targets_outcome": "Standing Position/Top"
+        "your_response": "If opponent sprawls, immediately switch to duck-under or go behind, or transition to double leg. If they establish whizzer, use it as leverage to come up on top or switch to inside trip finish. If the sprawl stuffs the shot, you land caught in their front headlock.",
+        "targets_outcome": "Front Headlock/Bottom"
       },
       {
         "counter": "Guillotine choke attempt",
         "effectiveness": "Medium",
-        "your_response": "Keep your head positioned on the outside of the captured leg (away from choking arm). If caught, release the leg and defend the choke by creating space and hand fighting, or complete the takedown quickly before choke is secured.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "your_response": "Keep your head positioned on the outside of the captured leg (away from choking arm). Complete the takedown quickly before the choke is secured. If they pull guard with the grip locked, you land on top in their closed guard: release the leg and defend the choke by creating space and hand fighting.",
+        "targets_outcome": "Closed Guard/Top"
       },
       {
         "counter": "Limp leg defense (pulling leg out)",
@@ -169,8 +177,8 @@
       {
         "counter": "Hip switch and re-guard",
         "effectiveness": "Medium",
-        "your_response": "Maintain constant forward pressure and head control to prevent hip switching. If they begin to turn in, either accelerate finish before they complete the turn, or follow their rotation and take the back.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "your_response": "Maintain constant forward pressure and head control to prevent hip switching. If they begin to turn in, either accelerate finish before they complete the turn, or follow their rotation and take the back. If they re-guard anyway, the takedown is a lesser success that lands you on top in their closed guard.",
+        "targets_outcome": "Closed Guard/Top"
       },
       {
         "counter": "Kimura grip on attacking arm",
@@ -456,15 +464,15 @@
       {
         "action": "Sprawl with whizzer and crossface",
         "when_to_use": "Immediately upon recognizing the level change and penetration step, before opponent secures deep leg control",
-        "targets_outcome": "Standing Position/Top",
-        "if_successful": "Opponent's shot is stuffed, you maintain standing position with potential front headlock control or opportunity to circle away and reset",
+        "targets_outcome": "Front Headlock/Bottom",
+        "if_successful": "Opponent's shot is stuffed and you take front headlock control over them",
         "risk": "If sprawl is late or shallow, opponent maintains leg control and continues driving forward toward finish"
       },
       {
         "action": "Guillotine choke counter",
         "when_to_use": "When opponent's head is positioned on the inside of your leg or they fail to protect their neck during the shot, particularly effective against sloppy level changes",
-        "targets_outcome": "Closed Guard/Bottom",
-        "if_successful": "You secure a guillotine grip that either forces them to abandon the takedown or allows you to pull guard with a submission threat already in place",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "You secure a guillotine grip and pull guard with a submission threat already in place, so opponent lands on top in your closed guard. If they abandon the takedown instead, the exchange stays standing.",
         "risk": "If guillotine grip is not secured before they complete the takedown, you end up in bottom position without effective choke control"
       },
       {
@@ -477,7 +485,7 @@
       {
         "action": "Tactical guard pull to closed guard",
         "when_to_use": "When the takedown is nearly completed and you cannot prevent going to the ground, but you still have upper body control through collar grip or head position",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "You convert an inevitable takedown into a controlled guard pull, landing in closed guard rather than conceding side control, and potentially with a submission grip already established",
         "risk": "You concede the standing exchange and give up potential takedown defense points in competition, and opponent lands in your guard with passing momentum"
       }
@@ -485,11 +493,15 @@
     "favorable_outcomes": [
       {
         "outcome": "Standing Position/Top",
-        "how": "Execute an immediate sprawl by driving hips down and back while posting hands on opponent's head and shoulders. Establish a strong whizzer on their near arm and crossface pressure to kill their forward drive. Circle away from their head toward their hips to create angle for hip extraction. Once their penetration is killed, use the whizzer to pummel back to neutral standing or transition to front headlock control. The key is explosive hip reaction within the first second of their shot."
+        "how": "Execute an immediate sprawl by driving hips down and back while posting hands on opponent's head and shoulders. Establish a strong whizzer on their near arm and crossface pressure to kill their forward drive. Circle away from their head toward their hips to create angle for hip extraction. Once their penetration is killed, use the whizzer to pummel back to neutral standing. The key is explosive hip reaction within the first second of their shot."
       },
       {
-        "outcome": "Closed Guard/Bottom",
+        "outcome": "Closed Guard/Top",
         "how": "When the takedown cannot be fully defended, secure a collar grip or overhook before you hit the mat. As you go down, immediately lock your legs around their waist to establish closed guard rather than allowing them to pass to side control. If their head is inside, wrap the guillotine grip during the descent so you land with an active submission threat. Time the guard closure to the moment of impact with the mat, using the momentum of the fall to help pull them into your guard. This converts a defensive failure into an offensive guard position."
+      },
+      {
+        "outcome": "Front Headlock/Bottom",
+        "how": "Execute the same immediate sprawl, driving hips down and back while posting hands on opponent's head and shoulders, with crossface pressure to kill their forward drive. Once their penetration is killed, transition to front headlock control, leaving them caught underneath you."
       }
     ],
     "common_errors": [

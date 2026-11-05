@@ -244,7 +244,7 @@ Strategically, the stack pass works best against opponents who rely heavily on t
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
 | Failure | [[Positions/Lapel Guard]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
