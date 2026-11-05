@@ -849,7 +849,7 @@ interleaves new decks from the current belt after every few reviews, using the e
 or study-comparison order. All due reviews remain eligible, including higher-belt material.
 The default goal is 20 (`dailyGoal` overrides, read through `practiceGoal()`); it counts distinct
 graded questions, including mistakes, once per day. Reveal earns nothing. Automatic new allocation
-uses `ngPracticeRoom`; explicit “Keep practising” appends more eligible work to the same session,
+uses `ngPracticeRoom`: new cards stay at least a fifth of the goal; reviews are never capped. Explicit “Keep practising” appends more eligible work to the same session,
 including after the goal and while reviews remain. Shared questions reserve one obligation.
 
 The compact head shows the worn belt, stripes, format and daily progress. “Practice details &

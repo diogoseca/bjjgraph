@@ -32,3 +32,29 @@ The [source runner](ladder_p1_mutants.mjs) rebuilds real source mutations and re
 | F-path-removed | practice-page.spec.ts — P1-F: Practice retains | 1 | P1-F: temporary Path destination remains | Named assertion kill |
 | F-debt-filtered-by-belt | practice-page.spec.ts — P1-A: 390×631 cold review | 1 | P1-F: due reviews ignore belt locks | Named assertion kill |
 | F-double-visit | practice-page.spec.ts — P1-F: Practice retains | 1 | P1-F: one event per deliberate surface visit | Named assertion kill |
+
+## The fix round (REV336)
+
+An independent review found what the 26 above could not: each pinned text, and none measured where it stood or drove the card's own title. [ladder_p1_fix_mutants.json](ladder_p1_fix_mutants.json) holds each mutation's exact before and after. Same rules as above: one source site, a positive ran count, no infrastructure error, failure at the named assertion. 19/19 named assertion kills. Each ran on a private sandbox build with its `gameplayHash` pinned to the mutated source, so no real MDP was re-emitted; the unmutated sandbox passed the same specs first.
+
+| Fault | Collected oracle | Ran | Intended assertion | Result |
+|---|---|---:|---|---|
+| B1-stale-corridor | practice-page.spec — opens its checkpoint without leaving | 1 | P1-F: the finished lesson's checkpoint is live in place | Named assertion kill |
+| B2-title-collapses | practice-page.spec — title row never blanks | 1 | P1-E: the title row keeps the card | Named assertion kill |
+| B3-end-below-corridor | practice-page.spec — puts the end card | 2 | P1-C: the end stands directly under the card | Named assertion kill |
+| B3-no-scroll | practice-page.spec — finishing at 390 | 1 | P1-C: the end card is on screen | Named assertion kill |
+| N4-rebuild-at-completion | practice-page.spec — finishing at 1440 | 1 | P1-C: finishing never rebuilds the card | Named assertion kill |
+| S1-cards-plural | practice-page.spec — plain counts | 1 | Due reviews · 1 card | Named assertion kill |
+| S1-stripes-plural | practice-page.spec — plain counts | 1 | White belt · 1 stripe · Gi | Named assertion kill |
+| S1-always-claims-new | practice-page.spec — plain counts | 1 | P1-F: no plan means no claim about new work | Named assertion kill |
+| S2-dead-prompt | practice-page.spec — offers Next card | 1 | P1-E: the answered card offers the next one | Named assertion kill |
+| S3-lesson-dead | practice-page.spec — the fallback says so | 1 | P1-F: the lesson's card opens | Named assertion kill |
+| S3-lesson-silent | practice-page.spec — the fallback says so | 1 | P1-F: the fallback names itself | Named assertion kill |
+| S3-belt-silent | gameplan_runtime.test.mjs | 15 | named once, not per paint | Named assertion kill |
+| S3-belt-every-paint | gameplan_runtime.test.mjs | 15 | named once, not per paint | Named assertion kill |
+| S5-legend-removed | practice-page.spec — Practice retains comparison | 1 | P1-F: the key legend stays | Named assertion kill |
+| S5-graph-stays | practice-page.spec — graph follows the queue | 1 | the open card's node sits beside the page | Named assertion kill |
+| S5-behind-the-page | practice-page.spec — graph follows the queue | 1 | the open card's node sits beside the page | Named assertion kill |
+| S5-no-rings | practice-page.spec — graph follows the queue | 1 | the queue's rings include it | Named assertion kill |
+| S6-reworded | gameplan-learning-loop.spec — P1-C: completion celebrates | 1 | P1-C: the end card states the real ledger | Named assertion kill |
+| N5-reworded | gameplan-learning-loop.spec — D1: a new player | 1 | the ranking's own game caveat stays | Named assertion kill |

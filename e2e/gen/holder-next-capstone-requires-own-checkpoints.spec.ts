@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"content-capstone","B":"guard-limit"} @invariant "Clearing White's content capstone does not open or close tracks: Blue is immediately browseable, but its own capstone remains unavailable until every Blue unit checkpoint carries evidence." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"content-capstone","B":"guard-limit"} @invariant "A White-capstone holder opens the earned White and Blue sections while Purple stays an inert section (U87); Blue's own capstone remains unavailable until every Blue unit checkpoint carries evidence." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { whiteBeltHolder, CURRICULUM } from "./personas"

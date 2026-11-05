@@ -75,7 +75,8 @@ function run(m, name) {
     const failures = (r.output.match(/not ok[\s\S]*?(?=(?:# Subtest:|1\.\.|$))/g) || []).join("\n");
     return { code: r.code, count, errors: failures, infra: /SyntaxError|ReferenceError|TypeError|ERR_MODULE_NOT_FOUND/.test(failures) };
   }
-  const go = command(["bash", "/home/user/bjj-orchestrator/quartz/heavy-advisory.sh", "2048", "P1 named mutation " + name], name + "-advisory");
+  if (!process.env.P1_HEAVY_ADVISORY) throw Error("Set P1_HEAVY_ADVISORY to this box's memory advisory script");
+  const go = command(["bash", process.env.P1_HEAVY_ADVISORY, "2048", "P1 named mutation " + name], name + "-advisory");
   if (go.code !== 0 || !/GO/.test(go.output)) throw Error("No browser advisory GO: " + name);
   const json = path.join(out, name + ".json");
   const r = command(["node", "node_modules/@playwright/test/cli.js", "test", "-c", "e2e/playwright.private.config.ts", "--workers=1", "--reporter=line,json", m.spec, "--grep", m.grep], name,

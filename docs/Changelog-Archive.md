@@ -13855,5 +13855,7 @@ a button in the locked section, a reworded heading, and the jump without `_scrol
 KILLED on its named assertion. The lesson: an affected list is a guess at the blast radius, and only the
 whole suite measures it.
 
+**REV336's fix round.** An independent review drove the page with a mouse and found what every text pin missed: a corridor stale after a lesson, a card its own title row blanked, an end card 3,500 px down. All fixed; the mutants are in `tests/artifacts/ladder_p1_mutants.md`. A pin that reads text says nothing about where it stands.
+
 **Eager gzip checkpoint (LADDERPAY1).** Dev's own 343,788 B, +4,203 from 339,585; this version's
 merged tree stood at +5,755, over the 5,000 B cap. See the commit for the method.
