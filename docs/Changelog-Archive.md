@@ -13826,3 +13826,22 @@ choice … then I finally start to show actual Anki flashcards"; `validate:mc` 9
 worklist 110 → 0; the clock's "a first-time Guest can land on TOO SLOW · −4% before ever interacting";
 and "v1.155.3 seated the board on a member instead; that seat was itself a roll nobody asked for, and
 the owner's reference law replaced it."
+
+**A compaction cut the owner's copy, and the run that would have caught it had already finished.**
+The implementation commit shortened "Why these decks?" to "Overdue reviews mix with current-belt
+practice. Shared questions count once." to fit the eager cap, at 20:04, after the 19:20 curated run. That
+removed item 9's plain copy (owner, 2026-09-30) and its caveat, "that is not a measure of real grappling".
+The plan's ledger says the fold is retained, and nothing declared the rewrite. `gameplan-learning-loop`
+went red on the first curated replay after the merge. The spec was right, so dev's exact words came back
+and the caveat gained its own assertion, because the first sentence had been the only pin.
+
+A scan of every string that left the app against dev (126 literals on removed lines, 11 user-facing)
+sorts the rest. "All done, come back tomorrow" and "Find more weaknesses" are the plan's declared
+replacement of a dead end with "Keep practising". Still reworded and declared here: the three eager
+`planSummary` fallback lines, whose meaning and caveat survive and whose originals remain in
+`gameplan.src.js`, and three empty states merged into "Nothing to practise here right now."
+The scan's first version reported 0 because a multi-line backtick pattern ate the file; the known
+string as a required positive control is what exposed that.
+
+**Eager gzip checkpoint (LADDERPAY1).** Dev's own 343,788 B, +4,203 from 339,585; this version's
+merged tree stood at +5,755, over the 5,000 B cap, with +1,552 of it its own. See the commit for the method.

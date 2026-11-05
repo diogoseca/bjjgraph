@@ -5813,7 +5813,10 @@ class Component extends DCLogic {
     } else {
       const details = document.createElement("details");
       details.innerHTML = '<summary>Why these decks?</summary><p></p>';
-      details.lastChild.textContent = "Overdue reviews mix with current-belt practice. Shared questions count once. " + s.plan.assumptions.join(" ");
+      // PLAIN COPY (item 9, owner 2026-09-30): what the order means, then the ranking's own caveats.
+      details.lastChild.textContent = "Reviews come back on your memory schedule, most overdue first. New techniques, ranked by how much practising them would help your game, are mixed in: a new technique after every few reviews. " +
+        "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks share counts once. " +
+        s.plan.assumptions.join(" ");
       box.appendChild(details);
     }
     box.appendChild(this._gameStudyPanel());
