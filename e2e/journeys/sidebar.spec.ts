@@ -236,8 +236,10 @@ test("Practice, Path and Last rolls open their views, and the brand leads back",
   await j.clickByMouse(".ng-drawer-brand", "‹ Last rolls, home")
 
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
-  // titled by what it holds: the owed reviews, then the plan's new cards (practice-mix.spec pins the mix)
-  await expect(page.locator(".ng-pane-drillhead"), "Practice opens the session").toContainText("Practice \u00b7 2 reviews")
+  // titled by what it holds: v1.248.0's compact head carries the belt, so the owed reviews head the card
+  // section instead (practice-mix.spec pins the mix)
+  await expect(page.locator(".ng-pane-drillhead"), "Practice opens the session").toContainText("Practice")
+  await expect(page.locator("[data-practice-section]"), "titled by the owed reviews").toHaveText("Due reviews \u00b7 2 cards")
   // the study head's ‹ Back is a real button (SIDE-R2 P2): it takes focus, and Enter takes it home
   await page.locator("[data-pane-back]").focus()
   expect(await page.evaluate(() => document.activeElement?.getAttribute("data-pane-back")), "‹ Back takes focus").toBe("1")

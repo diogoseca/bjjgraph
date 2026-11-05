@@ -13843,5 +13843,17 @@ replacement of a dead end with "Keep practising". Still reworded and declared he
 The scan's first version reported 0 because a multi-line backtick pattern ate the file; the known
 string as a required positive control is what exposed that.
 
+**Three reds outside the affected list, on the PR's first CI run.** `recall-badge` was a second silent
+loss: a locked section `continue`d past the Black reward row, hiding the owner's "see yourself walking
+toward" advert from everyone below Black, and the ledger cited that very spec as proof it was kept. One
+builder now serves both paths, and the row is text only, so the section stays inert. `sidebar` was stale:
+the compact head is the plan's, so its title claim moved to the card section's exact heading.
+`session-scroll` had lost its surface, because Practice hides every row but the open one. The row walk
+stayed on a real inline door, `openSession("reviewing")`, and the owner's sentence gained Practice's
+own picker: a queue button far below the card must bring its deck back into view. Mutants, one build:
+a button in the locked section, a reworded heading, and the jump without `_scrollFocusedDeck`, each
+KILLED on its named assertion. The lesson: an affected list is a guess at the blast radius, and only the
+whole suite measures it.
+
 **Eager gzip checkpoint (LADDERPAY1).** Dev's own 343,788 B, +4,203 from 339,585; this version's
-merged tree stood at +5,755, over the 5,000 B cap, with +1,552 of it its own. See the commit for the method.
+merged tree stood at +5,755, over the 5,000 B cap. See the commit for the method.
