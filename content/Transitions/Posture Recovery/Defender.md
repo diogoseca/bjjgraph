@@ -26,14 +26,14 @@ description: "How to prevent Posture Recovery in BJJ. Recognition cues, grip ret
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to armbar by pivoting hips and controlling the near arm as opponent extends during frame establishment",
-      "text": "When opponent pushes hands to your hips or biceps with arms extended, creating arm isolation opportunity during recovery framing If successful: You sweep and achieve dominant position through the armbar attempt, even if the submission itself is not completed, or finish the armbar",
+      "name": "Threaten the armbar by pivoting hips and controlling the near arm as opponent extends during frame establishment, then hip bump them over as their weight shifts back",
+      "text": "When opponent pushes hands to your hips or biceps with arms extended, creating arm isolation opportunity during recovery framing If successful: You sweep the opponent to mount position through the armbar threat, even though the submission itself is not completed",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Shoot triangle by controlling one arm and elevating hips as opponent drives backward, trapping head and arm",
-      "text": "When opponent's recovery movement creates an asymmetric arm position with one arm inside and one outside your guard frame If successful: Triangle locks in and opponent must address the submission threat, abandoning posture recovery entirely and entering your submission control",
+      "name": "Threaten the triangle by controlling one arm and elevating hips as opponent drives backward, then hip bump them over as their weight shifts back",
+      "text": "When opponent's recovery movement creates an asymmetric arm position with one arm inside and one outside your guard frame If successful: The triangle threat makes opponent abandon posture recovery, and the hip bump sweeps them to mount position",
       "position": 3
     },
     {
@@ -241,24 +241,24 @@ Your primary tools are grip retention, leg pressure, and attack timing. Deep col
 - **If successful**: Opponent's recovery attempt fails and they remain in broken posture, maintaining your offensive position with guard closed
 - **Risk**: If opponent has already generated significant backward momentum, over-committing to pulling may compromise your own position or burn grip endurance
 
-### 2. Transition to armbar by pivoting hips and controlling the near arm as opponent extends during frame establishment
+### 2. Threaten the armbar by pivoting hips and controlling the near arm as opponent extends during frame establishment, then hip bump them over as their weight shifts back
 
 - **When to use**: When opponent pushes hands to your hips or biceps with arms extended, creating arm isolation opportunity during recovery framing
-- **Targets**: [[Positions/Closed Guard]]
-- **If successful**: You sweep and achieve dominant position through the armbar attempt, even if the submission itself is not completed, or finish the armbar
-- **Risk**: If armbar attempt fails and opponent postures through it, they achieve full posture recovery with momentum advantage
+- **Targets**: [[Positions/Mount]]
+- **If successful**: You sweep the opponent to mount position through the armbar threat, even though the submission itself is not completed
+- **Risk**: If the armbar threat fails and opponent postures through it, they achieve full posture recovery with momentum advantage
 
-### 3. Shoot triangle by controlling one arm and elevating hips as opponent drives backward, trapping head and arm
+### 3. Threaten the triangle by controlling one arm and elevating hips as opponent drives backward, then hip bump them over as their weight shifts back
 
 - **When to use**: When opponent's recovery movement creates an asymmetric arm position with one arm inside and one outside your guard frame
-- **Targets**: [[Positions/Closed Guard]]
-- **If successful**: Triangle locks in and opponent must address the submission threat, abandoning posture recovery entirely and entering your submission control
-- **Risk**: If triangle is not locked cleanly, opponent can stack and use the triangle attempt to assist their posture recovery
+- **Targets**: [[Positions/Mount]]
+- **If successful**: The triangle threat makes opponent abandon posture recovery, and the hip bump sweeps them to mount position
+- **Risk**: If the triangle threat is not clean, opponent can stack and use the attempt to assist their posture recovery
 
 ### 4. Execute hip bump sweep by sitting up explosively as opponent shifts weight backward during recovery
 
 - **When to use**: When opponent drives hips back and their weight shifts posteriorly, creating forward-direction sweep vulnerability during the recovery transition
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You sweep the opponent to mount position, completely reversing the positional hierarchy and negating their recovery attempt
 - **Risk**: If hip bump is read early, opponent may use your forward momentum against you and achieve faster posture recovery
 
@@ -276,9 +276,9 @@ Your primary tools are grip retention, leg pressure, and attack timing. Deep col
 
 Maintain layered grip control with at least two control points (collar plus sleeve, or collar plus head control) so that breaking one grip does not free them. Actively pull with heels into their lower back while using arms to keep their head and shoulders below their hip line. Re-grip immediately whenever a grip is broken rather than allowing any recovery momentum to build.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Mount]]
 
-Use the opponent's recovery attempt as an offensive trigger. When they extend arms to frame, attack the armbar or triangle. When they shift weight backward, execute a hip bump sweep. The recovery movement creates predictable body mechanics that you can exploit with pre-planned counters. Time your attacks to the moment of maximum commitment to the recovery drive.
+Use the opponent's recovery attempt as an offensive trigger. When they extend arms to frame, threaten the armbar or triangle. When they shift weight backward, execute a hip bump sweep and come up in mount. The recovery movement creates predictable body mechanics that you can exploit with pre-planned counters. Time your attacks to the moment of maximum commitment to the recovery drive.
 
 
 

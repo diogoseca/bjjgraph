@@ -31,7 +31,7 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -188,7 +188,7 @@
         "counter": "Opponent strips the ankle grip during conversion and initiates a toreando or leg drag pass",
         "effectiveness": "Medium",
         "your_response": "If your hook is set even without the ankle grip, maintain hook tension and re-grip the ankle or pants immediately. If both hook and ankle grip are compromised, use your collar grip to pull them off-balance while recovering your feet to their hips to rebuild guard structure.",
-        "targets_outcome": "Open Guard/Top"
+        "targets_outcome": "Open Guard/Bottom"
       },
       {
         "counter": "Opponent circles away from the hooking leg to avoid the DLR insertion entirely",
@@ -419,14 +419,14 @@
       {
         "action": "Strip the ankle grip and circle away from the hook immediately after it sets",
         "when_to_use": "When the hook has already been inserted but the bottom player is still converting grips. The grip conversion window is your best counterattack opportunity.",
-        "targets_outcome": "Open Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "Without the ankle grip, the DLR hook has minimal sweeping power and you can clear it with a simple backstep while maintaining your passing initiative. You arrive in open guard top with grip advantage.",
         "risk": "If the bottom player has already secured both grips before you strip the ankle, your hand is committed to grip fighting rather than base, potentially exposing you to sweeps."
       },
       {
         "action": "Cross-face and drive the bottom player flat during the transition",
         "when_to_use": "When you have a free hand available and the bottom player is mid-transition with their hips exposed. Drive your shoulder into their jaw line while pressuring their hips flat.",
-        "targets_outcome": "Open Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "Flattening the bottom player eliminates their hip mobility, making the DLR hook ineffective and creating an immediate passing opportunity through the compromised guard structure.",
         "risk": "Driving forward into a partially established DLR hook can expose you to berimbolo entries if the bottom player already has sufficient hook depth and collar control."
       }
@@ -437,7 +437,7 @@
         "how": "Deny the hook insertion by backsteping your lead leg or dropping to your knees before the transition completes. The bottom player reverts to collar sleeve guard, which you were already working to pass. Maintain your existing grip fighting strategy and resume passing from the original guard configuration."
       },
       {
-        "outcome": "Open Guard/Top",
+        "outcome": "Open Guard/Bottom",
         "how": "Exploit the grip conversion window when the bottom player releases their sleeve grip to reach for your ankle. Strip any partially established grips, clear the incomplete hook, and immediately initiate a passing sequence before they can rebuild guard structure. The momentary control gap during grip conversion is your highest percentage counterattack window."
       }
     ],

@@ -7880,11 +7880,11 @@
     "Hip Escape from Crucifix": {
       "community": {
         "gi": {
-          "success_rate": 45.0,
+          "success_rate": 65.0,
           "vote_count": 30
         },
         "nogi": {
-          "success_rate": 45.0,
+          "success_rate": 65.0,
           "vote_count": 30
         }
       }
@@ -11388,11 +11388,11 @@
     "Mount Escape to Half Guard Back Take": {
       "community": {
         "gi": {
-          "success_rate": 50.0,
+          "success_rate": 80.0,
           "vote_count": 30
         },
         "nogi": {
-          "success_rate": 50.0,
+          "success_rate": 80.0,
           "vote_count": 30
         }
       }
@@ -16286,11 +16286,11 @@
     "Standing Up from Ashi Garami": {
       "community": {
         "gi": {
-          "success_rate": 55.0,
+          "success_rate": 70.0,
           "vote_count": 30
         },
         "nogi": {
-          "success_rate": 55.0,
+          "success_rate": 70.0,
           "vote_count": 30
         }
       }

@@ -294,7 +294,7 @@ Half Guard to Back Take represents an advanced positional transition that transf
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 75% |
 | Failure | [[Positions/Half Guard]] | 15% |
-| Counter | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>

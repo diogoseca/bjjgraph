@@ -80,7 +80,7 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 |--------|----------|-------------|
 | Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
 | Failure | [[Positions/X-Guard]] | 25% |
-| Counter | [[Positions/X-Guard]] | 10% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>

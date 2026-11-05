@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Bottom",
+      "to": "Triangle Control/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -171,10 +171,10 @@
         "targets_outcome": "Closed Guard/Top"
       },
       {
-        "counter": "Guillotine choke attempt as you drive forward into the stack",
+        "counter": "Guillotine threat as you drive forward into the stack, then a locked triangle on the arm you leave inside their guard",
         "effectiveness": "High",
-        "your_response": "Keep your head positioned to the side with chin tucked throughout the forward drive. Maintain your head below their chest line on the passing side. If caught, immediately posture up, strip the choking grip with both hands, and re-establish your passing grips before resuming the stack.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "your_response": "Keep your head positioned to the side with chin tucked throughout the forward drive. Maintain your head below their chest line on the passing side. Strip any choking grip with both hands without leaving one arm inside their guard. If the triangle locks, you stay on top but trapped in it, so free your head before resuming the stack.",
+        "targets_outcome": "Triangle Control/Top"
       },
       {
         "counter": "Granby roll or inversion to recover guard from the stacked position",
@@ -192,7 +192,7 @@
         "counter": "Triangle choke attempt by controlling one arm and locking legs from the stacked position",
         "effectiveness": "Medium",
         "your_response": "Keep both arms either inside their legs or posted wide on the mat. Never allow them to isolate one arm inside and one outside their guard simultaneously. If they begin to close the triangle, stack even harder and use the pressure to strip their ankle lock and free your head.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "targets_outcome": "Triangle Control/Top"
       }
     ],
     "common_errors": [
@@ -441,16 +441,16 @@
         "risk": "If frames collapse, you lose your last opportunity to create space before full compression, and the passer advances with additional momentum"
       },
       {
-        "action": "Secure a guillotine grip around the passer's neck as they drive forward, threatening the choke to halt their advance",
-        "when_to_use": "When the passer drives forward with their head positioned in your centerline or transitions between head positions during the stack",
-        "targets_outcome": "Closed Guard/Bottom",
-        "if_successful": "Forces the passer to abandon the stack pass to defend the choke, resetting to guard position or finishing the submission",
-        "risk": "If the guillotine grip is not deep enough, the passer can posture through it and use your arm commitment to accelerate the pass with less resistance"
+        "action": "Use a guillotine grip around the passer's neck to halt their advance as they drive forward, then lock a triangle on the arm they leave inside your guard",
+        "when_to_use": "When the passer drives forward with their head positioned in your centerline or transitions between head positions during the stack, and one of their arms is isolated inside your guard",
+        "targets_outcome": "Triangle Control/Top",
+        "if_successful": "You establish triangle control: the passer stays on top but is trapped, and must abandon the stack pass to defend the choke",
+        "risk": "If the grip is not deep enough or the triangle does not lock, the passer can posture through it and use your commitment to accelerate the pass with less resistance"
       },
       {
         "action": "Shoot for a triangle choke by controlling one of the passer's arms and cutting an angle with your hips to lock the triangle from the stacked position",
         "when_to_use": "When the passer has one arm inside your guard and one outside, creating the arm isolation needed for the triangle entry",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Triangle Control/Top",
         "if_successful": "Catches the passer in a submission from their own passing attempt, forcing them to defend or tap",
         "risk": "If the triangle is not locked tightly, the increased stacking pressure from the passer's defense can crush the triangle and accelerate the pass"
       },
@@ -468,8 +468,8 @@
         "how": "Create strong frames on the passer's hips early in the stack attempt and shrimp your hips laterally to break their forward pressure angle. Once distance is created, immediately re-close your guard by locking your ankles behind their back, or transition to an active open guard if re-closing is not possible. The key is acting before your hips leave the mat."
       },
       {
-        "outcome": "Closed Guard/Bottom",
-        "how": "Threaten a guillotine choke or triangle submission as the passer drives forward, forcing them to abandon the stack pass and retreat to a defensive posture. The guillotine threat is most effective when the passer's head is centered, while the triangle requires isolating one of their arms inside your guard. Either counter resets the exchange to your offensive closed guard position."
+        "outcome": "Triangle Control/Top",
+        "how": "Threaten a guillotine choke as the passer drives forward, then isolate one of their arms inside your guard and lock the triangle, forcing them to abandon the stack pass. The guillotine threat is most effective when the passer's head is centered. The passer ends on top but trapped in your established triangle control."
       }
     ],
     "common_errors": [

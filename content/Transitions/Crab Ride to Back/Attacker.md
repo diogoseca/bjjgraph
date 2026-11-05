@@ -284,7 +284,7 @@ What makes this transition particularly effective is the combination of mechanic
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 72% |
 | Failure | [[Positions/Crab Ride]] | 18% |
-| Counter | [[Positions/Crab Ride]] | 10% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -295,7 +295,7 @@ What makes this transition particularly effective is the combination of mechanic
 
 <p class="section-subtitle">How might your opponent counter Crab Ride to Back?</p>
 
-- **Opponent sits to their hip and turns into you** (Effectiveness: High) - Your Response: Anticipate the turn by maintaining strong near arm control and using your hook to prevent the hip movement. If they begin turning, follow them and transition to crucifix control or truck position rather than losing the position entirely. Their turn often exposes the far arm for crucifix entry. → Leads to [[Positions/Crab Ride]]
+- **Opponent sits to their hip and turns into you** (Effectiveness: High) - Your Response: Anticipate the turn by maintaining strong near arm control and using your hook to prevent the hip movement. If they begin turning, follow them and transition to crucifix control or truck position rather than losing the position entirely. Their turn often exposes the far arm for crucifix entry. → Leads to [[Positions/Half Guard]]
 - **Opponent stands up explosively from turtle** (Effectiveness: Medium) - Your Response: Maintain your hooks and seat belt grip while adjusting your base. Ride them up to standing back control position. Use your hooks to off-balance them and prevent full standing posture, then work to return them to the mat with a trip or drag, or advance to standing back takes. → Leads to [[Positions/Crab Ride]]
 - **Opponent traps your bottom hook with their leg** (Effectiveness: Medium) - Your Response: Accept the single hook position temporarily and use your free leg to post and adjust angle. Focus on maintaining seat belt control and use the trapped hook as a pivot point to work for better positioning or transition to truck control where the leg entanglement becomes advantageous. → Leads to [[Positions/Crab Ride]]
 - **Opponent creates space by extending hips and posting hands** (Effectiveness: Low) - Your Response: Use their extension against them by following their movement and using the created space to insert your second hook more easily. Maintain chest pressure and seat belt control, allowing their extension to facilitate your back take rather than create escape opportunities. → Leads to [[Positions/Crab Ride]]

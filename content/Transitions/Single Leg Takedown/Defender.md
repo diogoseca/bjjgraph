@@ -21,13 +21,13 @@ description: "How to defend against Single Leg Takedown in BJJ. Recognition cues
     {
       "@type": "HowToStep",
       "name": "Sprawl with whizzer and crossface",
-      "text": "Immediately upon recognizing the level change and penetration step, before opponent secures deep leg control If successful: Opponent's shot is stuffed, you maintain standing position with potential front headlock control or opportunity to circle away and reset",
+      "text": "Immediately upon recognizing the level change and penetration step, before opponent secures deep leg control If successful: Opponent's shot is stuffed and you take front headlock control over them",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Guillotine choke counter",
-      "text": "When opponent's head is positioned on the inside of your leg or they fail to protect their neck during the shot, particularly effective against sloppy level changes If successful: You secure a guillotine grip that either forces them to abandon the takedown or allows you to pull guard with a submission threat already in place",
+      "text": "When opponent's head is positioned on the inside of your leg or they fail to protect their neck during the shot, particularly effective against sloppy level changes If successful: You secure a guillotine grip and pull guard with a submission threat already in place, so opponent lands on top in your closed guard. If they abandon the takedown instead, the exchange stays standing.",
       "position": 2
     },
     {
@@ -244,15 +244,15 @@ Defending the Single Leg Takedown requires a layered defensive framework that be
 ### 1. Sprawl with whizzer and crossface
 
 - **When to use**: Immediately upon recognizing the level change and penetration step, before opponent secures deep leg control
-- **Targets**: [[Positions/Standing Position]]
-- **If successful**: Opponent's shot is stuffed, you maintain standing position with potential front headlock control or opportunity to circle away and reset
+- **Targets**: [[Positions/Front Headlock]]
+- **If successful**: Opponent's shot is stuffed and you take front headlock control over them
 - **Risk**: If sprawl is late or shallow, opponent maintains leg control and continues driving forward toward finish
 
 ### 2. Guillotine choke counter
 
 - **When to use**: When opponent's head is positioned on the inside of your leg or they fail to protect their neck during the shot, particularly effective against sloppy level changes
 - **Targets**: [[Positions/Closed Guard]]
-- **If successful**: You secure a guillotine grip that either forces them to abandon the takedown or allows you to pull guard with a submission threat already in place
+- **If successful**: You secure a guillotine grip and pull guard with a submission threat already in place, so opponent lands on top in your closed guard. If they abandon the takedown instead, the exchange stays standing.
 - **Risk**: If guillotine grip is not secured before they complete the takedown, you end up in bottom position without effective choke control
 
 ### 3. Limp leg extraction and hip switch
@@ -281,11 +281,15 @@ Defending the Single Leg Takedown requires a layered defensive framework that be
 
 ### → [[Positions/Standing Position]]
 
-Execute an immediate sprawl by driving hips down and back while posting hands on opponent's head and shoulders. Establish a strong whizzer on their near arm and crossface pressure to kill their forward drive. Circle away from their head toward their hips to create angle for hip extraction. Once their penetration is killed, use the whizzer to pummel back to neutral standing or transition to front headlock control. The key is explosive hip reaction within the first second of their shot.
+Execute an immediate sprawl by driving hips down and back while posting hands on opponent's head and shoulders. Establish a strong whizzer on their near arm and crossface pressure to kill their forward drive. Circle away from their head toward their hips to create angle for hip extraction. Once their penetration is killed, use the whizzer to pummel back to neutral standing. The key is explosive hip reaction within the first second of their shot.
 
 ### → [[Positions/Closed Guard]]
 
 When the takedown cannot be fully defended, secure a collar grip or overhook before you hit the mat. As you go down, immediately lock your legs around their waist to establish closed guard rather than allowing them to pass to side control. If their head is inside, wrap the guillotine grip during the descent so you land with an active submission threat. Time the guard closure to the moment of impact with the mat, using the momentum of the fall to help pull them into your guard. This converts a defensive failure into an offensive guard position.
+
+### → [[Positions/Front Headlock]]
+
+Execute the same immediate sprawl, driving hips down and back while posting hands on opponent's head and shoulders, with crossface pressure to kill their forward drive. Once their penetration is killed, transition to front headlock control, leaving them caught underneath you.
 
 
 

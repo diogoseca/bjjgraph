@@ -296,9 +296,10 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 70% |
+| Success | [[Positions/Side Control]] | 60% |
+| Success | [[Positions/Closed Guard]] | 10% |
 | Failure | [[Positions/Standing Position]] | 20% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -309,10 +310,10 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 
 <p class="section-subtitle">How might your opponent counter Single Leg Takedown?</p>
 
-- **Sprawl and whizzer defense** (Effectiveness: High) - Your Response: If opponent sprawls, immediately switch to duck-under or go behind, or transition to double leg. If they establish whizzer, use it as leverage to come up on top or switch to inside trip finish. → Leads to [[Positions/Standing Position]]
-- **Guillotine choke attempt** (Effectiveness: Medium) - Your Response: Keep your head positioned on the outside of the captured leg (away from choking arm). If caught, release the leg and defend the choke by creating space and hand fighting, or complete the takedown quickly before choke is secured. → Leads to [[Positions/Closed Guard]]
+- **Sprawl and whizzer defense that stuffs the shot into a front headlock** (Effectiveness: High) - Your Response: If opponent sprawls, immediately switch to duck-under or go behind, or transition to double leg. If they establish whizzer, use it as leverage to come up on top or switch to inside trip finish. If the sprawl stuffs the shot, you land caught in their front headlock. → Leads to [[Positions/Front Headlock]]
+- **Guillotine choke attempt** (Effectiveness: Medium) - Your Response: Keep your head positioned on the outside of the captured leg (away from choking arm). Complete the takedown quickly before the choke is secured. If they pull guard with the grip locked, you land on top in their closed guard: release the leg and defend the choke by creating space and hand fighting. → Leads to [[Positions/Closed Guard]]
 - **Limp leg defense (pulling leg out)** (Effectiveness: Medium) - Your Response: Immediately switch to alternative finish - if they pull leg back, follow with forward pressure and switch to double leg or transition to upper body control for different takedown. Never allow them to fully extract the leg without following their movement. → Leads to [[Positions/Standing Position]]
-- **Hip switch and re-guard** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure and head control to prevent hip switching. If they begin to turn in, either accelerate finish before they complete the turn, or follow their rotation and take the back. → Leads to [[Positions/Closed Guard]]
+- **Hip switch and re-guard** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure and head control to prevent hip switching. If they begin to turn in, either accelerate finish before they complete the turn, or follow their rotation and take the back. If they re-guard anyway, the takedown is a lesser success that lands you on top in their closed guard. → Leads to [[Positions/Closed Guard]]
 - **Kimura grip on attacking arm** (Effectiveness: Low) - Your Response: Keep elbows tight to body and leg to prevent opponent from isolating arm. If kimura is secured, use the trapped arm as a post while switching to alternative finish with free hand, or abandon takedown to defend submission. → Leads to [[Positions/Standing Position]]
 
 

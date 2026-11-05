@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Turtle/Bottom",
+      "to": "Open Guard/Top",
       "probability": {
         "gi": 12,
         "nogi": 12
@@ -166,8 +166,8 @@
       {
         "counter": "Opponent sits through to blocking leg side, rotating their hips away",
         "effectiveness": "High",
-        "your_response": "Maintain seatbelt grip and follow their rotation rather than fighting it. Thread your blocking leg through to establish truck position, which offers twister, calf slicer, and continued back take opportunities.",
-        "targets_outcome": "Turtle/Bottom"
+        "your_response": "Maintain seatbelt grip and follow their rotation rather than fighting it. Try to thread your blocking leg through to establish truck position, which prevents this counter and offers twister, calf slicer, and continued back take opportunities. If they escape that control and finish facing you, you stay on top in open guard.",
+        "targets_outcome": "Open Guard/Top"
       },
       {
         "counter": "Opponent drives forward explosively to flatten you or escape",
@@ -449,8 +449,8 @@
       {
         "action": "Sit through toward the blocking leg side before seatbelt is established",
         "when_to_use": "Immediately upon feeling the blocking leg thread across your thigh, before the attacker releases hip control for seatbelt grip",
-        "targets_outcome": "Turtle/Bottom",
-        "if_successful": "You reverse your hip position relative to the attacker, potentially entering a scramble or recovering to a neutral turtle position where you can re-establish defense",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You reverse your hip position relative to the attacker and finish facing them in a recovered open guard, with the attacker on top and no longer behind you",
         "risk": "If the attacker maintains upper body control, the sit-through leads directly into truck position where they have twister and calf slicer threats"
       },
       {
@@ -470,8 +470,8 @@
       {
         "action": "Granby roll away from the attacker's chest contact side",
         "when_to_use": "When the attacker commits their weight forward and high during the chair sit setup, creating space underneath for inversion",
-        "targets_outcome": "Turtle/Bottom",
-        "if_successful": "The inversion breaks the attacker's chest contact and blocking leg position, allowing you to recover to guard or reset to neutral turtle",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "The inversion breaks the attacker's chest contact and blocking leg position, allowing you to recover to open guard. A reset to neutral turtle instead leaves the attacker on top of your turtle.",
         "risk": "If timing is off, you expose your back further and the attacker can follow the roll to establish deeper back control"
       }
     ],
@@ -481,8 +481,8 @@
         "how": "Drive forward explosively before the seatbelt grip is established, using the momentary gap during the attacker's grip transition from hip control to seatbelt. Your forward momentum combined with tight elbow-to-knee structure can strip the blocking leg and return you to standard turtle where you can begin guard recovery or standup sequences."
       },
       {
-        "outcome": "Turtle/Bottom",
-        "how": "Execute a well-timed sit-through toward the blocking leg side, rotating your hips away from the attacker's chest contact. Even if this leads to a scramble, you have disrupted the systematic chair sit progression and forced the attacker to adapt. From the resulting scramble, work to face the attacker and recover guard or establish distance for a standup."
+        "outcome": "Open Guard/Top",
+        "how": "Execute a well-timed sit-through toward the blocking leg side, rotating your hips away from the attacker's chest contact. This disrupts the systematic chair sit progression and forces the attacker to adapt. Finish by facing the attacker and recovering open guard."
       }
     ],
     "common_errors": [

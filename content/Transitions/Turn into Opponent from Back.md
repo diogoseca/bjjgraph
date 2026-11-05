@@ -84,7 +84,7 @@ At the competition level, this escape is most effective when combined with other
 |--------|----------|-------------|
 | Success | [[Positions/Closed Guard]] | 55% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Failure | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -241,7 +241,7 @@ Turn into Opponent from Back occupies a central role within the back escape syst
 
 - [[Positions/Closed Guard]] - Primary target position achieved through successful rotation and guard closure
 
-- [[Positions/Mount]] - Counter position opponent may achieve by following the turn and establishing mount
+- [[Positions/Mount]] - Failure outcome position: the guard recovery fails when opponent follows the turn and establishes mount
 
 - [[Transitions/Hip Escape from Back Control]] - Alternative escape technique using hip movement without full rotation toward opponent
 

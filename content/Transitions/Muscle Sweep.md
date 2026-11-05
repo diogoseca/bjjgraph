@@ -137,7 +137,7 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 70% |
 | Failure | [[Positions/Closed Guard]] | 20% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>

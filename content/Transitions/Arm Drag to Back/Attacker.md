@@ -288,7 +288,7 @@ The Arm Drag to Back from the attacker's perspective is about converting grip co
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 58% |
 | Failure | [[Positions/Butterfly Guard]] | 30% |
-| Counter | [[Positions/Butterfly Guard]] | 12% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -301,7 +301,7 @@ The Arm Drag to Back from the attacker's perspective is about converting grip co
 
 - **Opponent whizzers the dragged arm** (Effectiveness: High) - Your Response: Switch to a duck under, using their whizzer against them by diving under their arm to the opposite side back take. Alternatively, if they whizzer high, use it to elevate them with your butterfly hooks and sweep them. → Leads to [[Positions/Butterfly Guard]]
 - **Opponent sprawls and posts far hand** (Effectiveness: Medium) - Your Response: Follow them to turtle position, maintain control of the dragged arm, and attack with either a clock choke, crucifix transition, or continue working to establish back control from turtle top. → Leads to [[Positions/Butterfly Guard]]
-- **Opponent turns into you aggressively** (Effectiveness: Medium) - Your Response: Use their momentum against them - switch to a triangle setup as they turn into you, or establish closed guard and look for sweeps. Their aggressive turn often leaves their neck exposed for guillotine entries. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent turns into you aggressively** (Effectiveness: Medium) - Your Response: Use their momentum against them before they can pass - switch to a triangle setup as they turn into you, or establish closed guard and look for sweeps. Their aggressive turn often leaves their neck exposed for guillotine entries. If these responses do not stop the turn-in, they finish the pass and you land under side control. → Leads to [[Positions/Side Control]]
 - **Opponent grabs your head during rotation** (Effectiveness: Low) - Your Response: Keep circling and do not stop your motion. Their head control is temporary if you maintain movement. Circle away from their grip while keeping your head tight to their body until you clear behind them. → Leads to [[Positions/Back Control]]
 - **Opponent sits to guard to prevent back take** (Effectiveness: Medium) - Your Response: If they sit, you have still achieved a positional advantage. Establish front headlock control, look for darce or anaconda opportunities, or use the angle to pass their guard from the side. → Leads to [[Positions/Butterfly Guard]]
 

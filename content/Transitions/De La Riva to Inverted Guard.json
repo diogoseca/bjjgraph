@@ -33,7 +33,7 @@
       "result": "failure"
     },
     {
-      "to": "Side Control/Top",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -154,7 +154,7 @@
         "counter": "Opponent drives forward and stacks you onto your shoulders to flatten the inversion",
         "effectiveness": "Medium",
         "your_response": "Use their forward pressure as rotation energy — continue the spin into a granby roll to recover guard, or redirect into a berimbolo since their committed weight is exactly what the back take exploits. Never resist the stack statically with your neck loaded.",
-        "targets_outcome": "Side Control/Top"
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Opponent strips your controlling collar or sleeve grip before you initiate",
@@ -384,14 +384,14 @@
       {
         "action": "Drive forward and stack the bottom player onto their shoulders to pass to side control",
         "when_to_use": "When the inversion is already underway and stepping out is no longer available",
-        "targets_outcome": "Side Control/Top",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "You flatten the inverted player, pin their hips, and pass directly to side control while their guard is committed upside-down",
         "risk": "If you commit your weight before controlling their legs, your forward momentum becomes berimbolo fuel and they take your back"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
+        "outcome": "Side Control/Bottom",
         "how": "When the bottom player inverts, control their legs first, then drive your weight forward to stack them onto their shoulders. Keep their hips pinned and walk around to side control while their guard is committed upside-down and cannot recover frames in time."
       },
       {

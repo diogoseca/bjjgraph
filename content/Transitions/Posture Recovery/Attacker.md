@@ -287,7 +287,7 @@ As the top player executing Posture Recovery, your objective is to systematicall
 |--------|----------|-------------|
 | Success | [[Positions/Combat Base]] | 75% |
 | Failure | [[Positions/Closed Guard]] | 15% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -298,11 +298,11 @@ As the top player executing Posture Recovery, your objective is to systematicall
 
 <p class="section-subtitle">How might your opponent counter Posture Recovery?</p>
 
-- **Opponent transitions to armbar as you push away with extended arms** (Effectiveness: High) - Your Response: Keep elbows tight to body during recovery. Never fully extend arms when framing. If they pivot for armbar, immediately posture to the opposite side and extract your arm while driving your weight forward over the attacking leg. → Leads to [[Positions/Closed Guard]]
-- **Opponent shoots legs up for triangle choke during recovery** (Effectiveness: High) - Your Response: Monitor their hip angle and leg positioning throughout recovery. If triangle is imminent, immediately tuck your chin to the inside, change your recovery angle to the opposite side, and drive forward to stack them while addressing the leg over your shoulder. → Leads to [[Positions/Closed Guard]]
+- **Opponent threatens the armbar as you push away with extended arms, then hip bumps you to mount as your weight shifts back** (Effectiveness: High) - Your Response: Keep elbows tight to body during recovery. Never fully extend arms when framing. If they pivot for armbar, immediately posture to the opposite side and extract your arm while driving your weight forward over the attacking leg, so your weight never shifts back into the hip bump sweep that lands you under mount. → Leads to [[Positions/Mount]]
+- **Opponent shoots legs up for a triangle threat during recovery, then hip bumps you to mount as your weight shifts back** (Effectiveness: High) - Your Response: Monitor their hip angle and leg positioning throughout recovery. If triangle is imminent, immediately tuck your chin to the inside, change your recovery angle to the opposite side, and drive forward to stack them while addressing the leg over your shoulder. Staying forward also denies the hip bump sweep that lands you under mount. → Leads to [[Positions/Mount]]
 - **Opponent uses deep collar grips to pull you back down repeatedly** (Effectiveness: Medium) - Your Response: Break or control the dominant collar grip using a two-on-one strip before committing to major recovery. If grip is too deep, consider standing posture recovery variant where you can use your body weight to break the grip angle. → Leads to [[Positions/Closed Guard]]
 - **Opponent opens guard and places feet on hips to manage distance** (Effectiveness: Medium) - Your Response: Welcome the guard opening as it actually aids your recovery. Pin their feet to your hips momentarily, then strip them to the outside while continuing your hip drive backward. Transition directly to a toreando or leg drag passing angle. → Leads to [[Positions/Combat Base]]
-- **Opponent overhooks your arm and begins rotating hips for omoplata** (Effectiveness: Medium) - Your Response: Recognize the overhook early and immediately roll your shoulder forward to prevent external rotation. Keep heavy weight on the trapped arm side, posture aggressively to the free side, and use a circular motion to extract the trapped arm before their hips complete the rotation. → Leads to [[Positions/Closed Guard]]
+- **Opponent overhooks your arm and rotates hips for an omoplata threat, then hip bumps you to mount as your weight shifts back** (Effectiveness: Medium) - Your Response: Recognize the overhook early and immediately roll your shoulder forward to prevent external rotation. Keep heavy weight on the trapped arm side, posture aggressively to the free side, and use a circular motion to extract the trapped arm before their hips complete the rotation. Keep your weight from shifting back while you do, because that opens the hip bump sweep to mount. → Leads to [[Positions/Mount]]
 
 
 </section>

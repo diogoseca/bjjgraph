@@ -135,9 +135,10 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 70% |
+| Success | [[Positions/Side Control]] | 60% |
+| Success | [[Positions/Closed Guard]] | 10% |
 | Failure | [[Positions/Standing Position]] | 20% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -314,7 +315,7 @@ The single leg takedown occupies a crucial position within the broader BJJ techn
 
 - [[Transitions/Snap Down to Front Headlock]] - Setup technique - creates reactions that open single leg opportunities
 
-- [[Positions/Front Headlock]] - Alternative position - where you may end up if single leg is partially defended
+- [[Positions/Front Headlock]] - Counter outcome - where you land, caught, when opponent sprawls on the shot
 
 - [[Positions/X-Guard/Single Leg X-Guard]] - Alternative finish - guard position if takedown is defended but leg control maintained
 
@@ -322,7 +323,7 @@ The single leg takedown occupies a crucial position within the broader BJJ techn
 
 - [[Positions/Back Control]] - Alternative success outcome - achieved when opponent turns incorrectly during defense
 
-- [[Transitions/Guard Pull]] - Alternative strategy - opponent may pull guard to avoid single leg
+- [[Transitions/Guard Pull]] - Alternative strategy - opponent may pull guard to avoid single leg, a lesser success that lands you on top in their closed guard
 
 - [[Transitions/Double Leg Finish]] - Chain technique - conversion option when single leg is defended by squaring hips
 

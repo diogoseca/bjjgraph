@@ -124,7 +124,7 @@ Advanced practitioners use hand fighting not merely as passive defense but as an
 | Success | [[Positions/Turtle]] | 40% |
 | Success | [[Positions/Half Guard]] | 25% |
 | Failure | [[Positions/Back Control]] | 25% |
-| Counter | [[Positions/Mount]] | 10% |
+| Failure | [[Positions/Mount]] | 10% |
 
 
 </section>

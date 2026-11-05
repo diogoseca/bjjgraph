@@ -123,7 +123,7 @@ From the butterfly guard specifically, the arm drag pairs naturally with the hoo
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 58% |
 | Failure | [[Positions/Butterfly Guard]] | 30% |
-| Counter | [[Positions/Butterfly Guard]] | 12% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>

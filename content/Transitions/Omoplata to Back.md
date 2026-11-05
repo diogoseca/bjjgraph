@@ -123,7 +123,7 @@ This transition integrates into broader guard attack systems where the omoplata 
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 60% |
 | Failure | [[Positions/Omoplata Control]] | 25% |
-| Counter | [[Positions/Omoplata Control]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>

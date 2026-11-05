@@ -123,7 +123,7 @@ The technique emphasizes hip positioning, frame management, and timing to create
 |--------|----------|-------------|
 | Success | [[Positions/Standing Position]] | 55% |
 | Failure | [[Positions/Ashi Garami]] | 30% |
-| Counter | [[Positions/Ashi Garami]] | 15% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -239,7 +239,7 @@ The technique emphasizes hip positioning, frame management, and timing to create
 ### Defensive Options
 
 
-- **Advance to inside ashi or saddle by backstep when opponent creates hip angle for escape** - When: When opponent rotates hips away and begins clearing sequence, creating space that allows you to backstep your outside leg to achieve superior inside position
+- **Advance to saddle by backstep when opponent creates hip angle for escape** - When: When opponent rotates hips away and begins clearing sequence, creating space that allows you to backstep your outside leg to achieve superior inside position
 
 - **Secure heel hook grip and attack during escape movement when opponent exposes heel** - When: When opponent straightens their trapped leg during extraction attempt or loses foot flexion during the clearing sequence, momentarily exposing the heel to hook grip
 

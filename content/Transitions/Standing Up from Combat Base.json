@@ -14,7 +14,7 @@
   "from_position": "Combat Base/Top",
   "outcomes": [
     {
-      "to": "Standing Position/Top",
+      "to": "Open Guard/Top",
       "probability": {
         "gi": 55,
         "nogi": 55
@@ -74,7 +74,7 @@
       "relationship": "Starting position from which the stand-up is initiated"
     },
     {
-      "name": "Standing Position",
+      "name": "Open Guard",
       "relationship": "Target position achieved upon successful completion of the stand-up"
     },
     {

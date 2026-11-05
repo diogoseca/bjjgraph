@@ -31,12 +31,12 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -157,16 +157,16 @@
         "targets_outcome": "Electric Chair/Top"
       },
       {
-        "counter": "Opponent turns into you during backstep and re-establishes half guard or full guard",
+        "counter": "Opponent turns into you during backstep and re-establishes half guard",
         "effectiveness": "Medium",
         "your_response": "Maintain constant crossface pressure throughout the backstep. If they begin turning, drive your shoulder harder into their jaw to prevent rotation and continue the backstep motion.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
-        "counter": "Opponent abandons Electric Chair and transitions to deep half guard under your backstep",
+        "counter": "Opponent abandons Electric Chair and drops underneath your backstep to recover half guard",
         "effectiveness": "Medium",
         "your_response": "Sprawl your hips back and establish whizzer control. From here, look to pass with knee slice or smash pass rather than continuing the back take.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Opponent elevates hips dramatically creating space to invert and recover guard",
@@ -390,17 +390,17 @@
     ],
     "defensive_options": [
       {
-        "action": "Release lockdown and immediately recover closed guard or half guard by retracting legs and inserting knee shield",
+        "action": "Release lockdown and immediately recover half guard by retracting legs and inserting knee shield",
         "when_to_use": "At the earliest recognition of backstep initiation, before the opponent's leg clears the lockdown configuration",
-        "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "You recover to half guard or closed guard with no back exposure, resetting the position to a neutral guard exchange",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You recover to standard half guard with no back exposure, resetting the position to a neutral guard exchange",
         "risk": "If you release too late, the opponent has already cleared and you lose both lockdown control and guard position"
       },
       {
         "action": "Turn toward the opponent during their backstep by driving your underhook side shoulder into them and rotating your hips to face them",
         "when_to_use": "When the backstep is already in progress but the opponent has not yet established their first hook behind you",
-        "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "You face the opponent and re-establish half guard or open guard, denying the back take entirely",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You face the opponent and re-establish standard half guard, denying the back take entirely",
         "risk": "If the opponent maintains strong crossface during your turn, they may drive you flat and pass to side control"
       },
       {
@@ -411,10 +411,10 @@
         "risk": "If the opponent's momentum is too far along, forcing the lockdown may create dangerous rotational torque on your own knee"
       },
       {
-        "action": "Abandon Electric Chair and transition to deep half guard by releasing lockdown and diving underneath the opponent toward their far hip",
+        "action": "Abandon Electric Chair by releasing lockdown and dropping underneath the opponent to recover standard half guard",
         "when_to_use": "When the backstep is well underway and recovering guard seems unlikely, but the opponent has not yet secured hooks",
-        "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "You enter deep half guard underneath the opponent, a strong offensive position that completely negates the back take",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You recover half guard underneath the opponent, which completely negates the back take",
         "risk": "If transition is too slow, opponent completes back take while you are in transition between positions"
       }
     ],
@@ -424,7 +424,7 @@
         "how": "Recognize the backstep early and tighten your lockdown grip before the opponent's leg clears. Pull your heel down aggressively while maintaining hip extension to stall their circular motion. Once their backstep stalls, resume your Electric Chair attack from the re-established position."
       },
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Half Guard/Top",
         "how": "Release the lockdown at the first sign of backstep initiation and immediately insert your knee shield while retracting your legs. Use your underhook to drive your shoulder into the opponent and rotate to face them, establishing standard half guard with frames before they can circle behind you."
       }
     ],

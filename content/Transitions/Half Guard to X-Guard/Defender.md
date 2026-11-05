@@ -38,8 +38,8 @@ description: "Defend and counter the Half Guard to X-Guard transition. Recogniti
     },
     {
       "@type": "HowToStep",
-      "name": "Backstep over the outside leg and enter counter leg entanglement position",
-      "text": "When X-Guard hooks are nearly established and direct hook prevention is no longer viable If successful: You transition to a counter-attacking position, potentially entering ashi garami or saddle on the bottom player's exposed legs",
+      "name": "Backstep over the outside leg, threatening a counter leg entanglement, to clear the hooks and free your leg",
+      "text": "When X-Guard hooks are nearly established and direct hook prevention is no longer viable If successful: You clear your leg and reach open guard top with full passing mobility, leaving the bottom player in open guard",
       "position": 4
     }
   ],
@@ -214,11 +214,11 @@ As the defender against the Half Guard to X-Guard transition, you are the top pl
 - **If successful**: You collapse the X-Guard structure by removing the elevation that powers it, returning to half guard top with passing pressure
 - **Risk**: If hook is already deep, driving knee down may not dislodge it and may compromise your base stability
 
-### 4. Backstep over the outside leg and enter counter leg entanglement position
+### 4. Backstep over the outside leg, threatening a counter leg entanglement, to clear the hooks and free your leg
 
 - **When to use**: When X-Guard hooks are nearly established and direct hook prevention is no longer viable
 - **Targets**: [[Positions/Open Guard]]
-- **If successful**: You transition to a counter-attacking position, potentially entering ashi garami or saddle on the bottom player's exposed legs
+- **If successful**: You clear your leg and reach open guard top with full passing mobility, leaving the bottom player in open guard
 - **Risk**: Requires precise timing and leg lock technical knowledge; poor execution may result in being swept to bottom
 
 

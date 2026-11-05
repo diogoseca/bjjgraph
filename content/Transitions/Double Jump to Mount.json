@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -80,7 +80,7 @@
     },
     {
       "name": "Half Guard",
-      "relationship": "Counter outcome position - reached when defender successfully reverses during the transition attempt"
+      "relationship": "Counter outcome position - reached when defender recovers half guard during the transition attempt, leaving you on top"
     },
     {
       "name": "Back Control",
@@ -169,7 +169,7 @@
         "counter": "Opponent turns to side and recovers half guard during hook extraction phase",
         "effectiveness": "High",
         "your_response": "Maintain crossface pressure and immediately switch to half guard top passing sequence rather than forcing the mount transition against an active guard recovery",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Opponent posts on hands and recovers active turtle position when hooks are removed",
@@ -187,7 +187,7 @@
         "counter": "Opponent hip escapes and inserts knee shield as mount is being established during the settling phase",
         "effectiveness": "High",
         "your_response": "Immediately address the knee insertion by collapsing it with shoulder pressure or transitioning to knee slice pass to complete advancement to side control instead of mount",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       }
     ],
     "common_errors": [
@@ -389,8 +389,8 @@
       {
         "action": "Turn into opponent and recover half guard during hook extraction",
         "when_to_use": "When the first hook is extracted and control is transitionally weakened, immediately hip escape and turn to face the attacker",
-        "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "Recover to half guard top position, reversing the positional hierarchy and neutralizing the mount threat entirely",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Recover to half guard bottom, neutralizing the mount threat entirely while the attacker stays on top",
         "risk": "If timing is late, the attacker may follow your turn to take the back instead of completing the mount"
       },
       {
@@ -403,21 +403,21 @@
       {
         "action": "Time bridge during step-over to exploit asymmetric weight distribution",
         "when_to_use": "During the step-over phase when the attacker's weight is shifting to one side and their balance is most compromised",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Bridge creates enough disruption to prevent mount settlement, creating opportunity to insert knee and recover half guard",
         "risk": "Mistimed bridge wastes energy without preventing mount and may accelerate the attacker's weight drop into established mount"
       },
       {
         "action": "Hip escape and insert knee shield as mount begins settling",
         "when_to_use": "In the final phase when the step-over is completing but mount weight has not fully settled, shrimp away and insert knee",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Knee insertion prevents full mount establishment and creates half guard recovery or open guard distance",
         "risk": "Late execution allows mount to consolidate before knee insertion, making escape significantly more difficult"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Half Guard/Top",
         "how": "Time your hip escape during the hook extraction phase when the attacker's lower body control is at its weakest. Turn your body to face the opponent while inserting your knee across their hip line to prevent the step-over from completing. The most effective timing is the moment between first hook extraction and the step-over initiation."
       }
     ],
@@ -501,7 +501,7 @@
         }
       },
       {
-        "question": "How can you exploit the attacker's weight shift during the step-over to create a reversal?",
+        "question": "How do you use the attacker's step-over weight shift to disrupt mount and recover guard?",
         "answer": "During the step-over, the attacker's weight shifts asymmetrically to one side as they swing their leg across your body. This creates a brief moment of compromised lateral balance that can be exploited with a well-timed bridge in the direction of the step-over, using their own momentum against them. Combined with framing against the stepping-over side, this creates disruption that often results in half guard recovery rather than a clean mount establishment.",
         "answer_line": "Bridge into the step-over direction",
         "distractors": {

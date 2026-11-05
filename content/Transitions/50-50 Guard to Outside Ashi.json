@@ -14,7 +14,7 @@
   "from_position": "50-50 Guard/Top",
   "outcomes": [
     {
-      "to": "Outside Ashi-Garami/Top",
+      "to": "Outside Ashi-Garami/Bottom",
       "probability": {
         "gi": 65,
         "nogi": 65
@@ -361,7 +361,7 @@
   "defender": {
     "name": "50-50 Guard to Outside Ashi Defender",
     "description": "How to defend against 50-50 Guard to Outside Ashi in BJJ. Recognition cues, defensive options, and escape strategies.",
-    "overview": "Defending the 50-50 Guard to Outside Ashi transition requires recognizing the earliest indicators that your opponent is initiating leg extraction, then choosing the correct defensive response before they complete the asymmetrical entanglement. As the defender in 50-50 bottom, your opponent's transition to outside ashi represents a significant threat escalation because it removes the mutual-threat symmetry that protects you in 50-50 and places you in a purely defensive position with your heel immediately exposed.\n\nYour defensive strategy depends entirely on timing. Early recognition allows you to prevent the extraction altogether by tightening your inside control, stripping their heel grip, or racing to your own outside ashi. Late recognition after their leg has cleared forces you into damage control, where you must prevent the figure-4 from locking and work to re-entangle or escape to standing. The worst outcome is allowing the full transition to complete unopposed, which leaves you in outside ashi-garami bottom with an immediate heel hook threat.\n\nThe key defensive principle is that 50-50 is a position of mutual threat, and your opponent's attempt to transition breaks that mutual threat. Your job is to either maintain the mutual threat by preventing their extraction, or to create your own asymmetrical advantage by counter-transitioning before they complete their movement. Passive defense from 50-50 bottom against a transitioning opponent almost always results in positional loss.",
+    "overview": "Defending the 50-50 Guard to Outside Ashi transition requires recognizing the earliest indicators that your opponent is initiating leg extraction, then choosing the correct defensive response before they complete the asymmetrical entanglement. As the defender in 50-50 bottom, your opponent's transition to outside ashi represents a significant threat escalation because it removes the mutual-threat symmetry that protects you in 50-50 and places you in a purely defensive position with your heel immediately exposed.\n\nYour defensive strategy depends entirely on timing. Early recognition allows you to prevent the extraction altogether by tightening your inside control, stripping their heel grip, or racing to your own outside ashi. Late recognition after their leg has cleared forces you into damage control, where you must prevent the figure-4 from locking and work to re-entangle or escape to standing. The worst outcome is allowing the full transition to complete unopposed, which leaves you in outside ashi-garami top with an immediate heel hook threat.\n\nThe key defensive principle is that 50-50 is a position of mutual threat, and your opponent's attempt to transition breaks that mutual threat. Your job is to either maintain the mutual threat by preventing their extraction, or to create your own asymmetrical advantage by counter-transitioning before they complete their movement. Passive defense from 50-50 bottom against a transitioning opponent almost always results in positional loss.",
     "key_principles": [
       "Maintain tight inside leg control to prevent opponent's leg extraction - your triangle configuration is your primary defensive tool",
       "Monitor opponent's heel grip constantly and strip it aggressively at the first sign of transition initiation",
@@ -396,7 +396,7 @@
         "when_to_use": "Mid phase - when opponent has committed to extraction and you recognize you cannot prevent it through inside control alone",
         "targets_outcome": "50-50 Guard/Bottom",
         "if_successful": "You establish your own asymmetrical advantage or at minimum create a mutual-threat scramble that prevents them from settling into outside ashi",
-        "risk": "If opponent beats you to the position, you end up in outside ashi bottom with no defensive structure"
+        "risk": "If opponent beats you to the position, you end up in outside ashi top with no defensive structure"
       },
       {
         "action": "Drive forward to stack opponent and disrupt their hip rotation mechanics during mid-extraction",

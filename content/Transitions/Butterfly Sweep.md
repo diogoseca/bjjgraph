@@ -137,7 +137,7 @@ As the cornerstone attack of the Butterfly Guard system, the sweep converts insi
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 70% |
 | Failure | [[Positions/Butterfly Guard]] | 20% |
-| Counter | [[Positions/Butterfly Guard]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -253,9 +253,9 @@ As the cornerstone attack of the Butterfly Guard system, the sweep converts insi
 
 - **Post hand firmly on the mat on the sweep side, creating a tripod base that blocks the rotational path of the sweep** - When: As soon as you feel the directional commitment of the sweep - the hook driving up on one side and grips pulling you laterally. Must be before full rotation begins.
 
-- **Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely and flattening opponent's posture** - When: When opponent breaks your posture and loads your weight forward but before they commit to a specific sweep direction. Most effective against opponents who rely heavily on forward weight loading.
+- **Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely, flattening opponent's posture and passing beyond the hooks to side control** - When: When opponent breaks your posture and loads your weight forward but before they commit to a specific sweep direction. Most effective against opponents who rely heavily on forward weight loading.
 
-- **Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back and neutralizing the upright posture they need** - When: When opponent is attempting to sit up and establish grips but has not yet loaded your weight or committed to a sweep direction. Works as a preemptive defense before sweep components are assembled.
+- **Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back, neutralizing the upright posture they need and carrying the pass through to a side control pin** - When: When opponent is attempting to sit up and establish grips but has not yet loaded your weight or committed to a sweep direction. Works as a preemptive defense before sweep components are assembled.
 
 
 </section>

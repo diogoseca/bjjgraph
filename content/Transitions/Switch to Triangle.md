@@ -141,7 +141,7 @@ Mastering this transition is essential for developing a dangerous closed guard g
 |--------|----------|-------------|
 | Success | [[Positions/Triangle Control]] | 55% |
 | Failure | [[Positions/Closed Guard]] | 30% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>

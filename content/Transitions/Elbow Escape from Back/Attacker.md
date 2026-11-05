@@ -291,7 +291,7 @@ Executing the elbow escape from back control requires systematic dismantling of 
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 50% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 20% |
+| Failure | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -328,7 +328,7 @@ Executing the elbow escape from back control requires systematic dismantling of 
 
 ### 3. Using explosive bridging movements instead of controlled hip escape mechanics
 
-- **Consequence**: Creates momentary space but opponent easily follows the explosive motion and frequently improves position to mount during the uncontrolled scramble
+- **Consequence**: Creates momentary space but opponent easily follows the explosive motion and frequently maintains dominant control by moving to mount during the uncontrolled scramble
 - **Correction**: Use deliberate hip escape mechanics with consistent steady pressure against the elbow frame rather than explosive movements that waste energy and create unpredictable positions
 
 ### 4. Placing elbow frame too high on the opponent's thigh instead of directly against the hook at knee level

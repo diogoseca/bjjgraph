@@ -286,7 +286,7 @@ Maintain hooks and harness control while defeating hand fighting through arm swi
 
 ### → [[Positions/Mount]]
 
-When hand fighting is defeated, capitalize by advancing position rather than forcing a stalled choke. Time arm switches when opponent is mid-grip adjustment, use gift wrap to eliminate one defensive arm, or drain grip endurance through compression until the opponent surrenders the back and you ride the exchange forward into mount as they turn to defend.
+When hand fighting is defeated, capitalize by keeping dominant control rather than forcing a stalled choke. Time arm switches when opponent is mid-grip adjustment, use gift wrap to eliminate one defensive arm, or drain grip endurance through compression until the opponent surrenders the back and you ride the exchange into mount as they turn to defend.
 
 
 

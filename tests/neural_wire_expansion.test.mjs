@@ -112,7 +112,9 @@ test("every authored destination resolves to a state the game can enter", () => 
   // landings with it (kimura-trap/top, aoki-lock-control/bottom, ashi-garami/bottom); the Switch to
   // Darce Configuration re-point swaps darce-control/top for front-headlock/top, net zero.
   // v1.243.0 adds nine Demi Guard transitions with 29 nonterminal outcome rows.
-  assert.equal(node, 3777, `node landings after N4, N5 a and the Demi Guard additions`);
+  // v1.248.2 (K2 batch 1): 3,777 -> 3,778. F68 re-cut Single Leg Takedown from three rows to four; the
+  // batch's other 66 fixes move landings but keep every table's row count.
+  assert.equal(node, 3778, `node landings after N4, N5 a, the Demi Guard additions and F68's fourth row`);
   assert.ok(terminal >= 250, `only ${terminal} destinations are game-over — submissions lost their finish`);
 });
 

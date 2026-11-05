@@ -35,7 +35,7 @@
         "gi": 15,
         "nogi": 15
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {

@@ -91,7 +91,7 @@ The technique exploits a critical vulnerability in the mount-to-half-guard recov
 This chain technique is particularly effective against opponents who aggressively pursue leg extraction rather than settling into half guard top. The more forcefully they try to free their leg, the more momentum becomes available for the back take. Advanced practitioners bait the leg extraction by loosening half guard control just enough to invite the attempt while preparing the underhook and hip positioning needed for the back take.
 
 **From Position**: [[Positions/Mount]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 80%
 
 </section>
 
@@ -122,8 +122,8 @@ This chain technique is particularly effective against opponents who aggressivel
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 50% |
-| Failure | [[Positions/Half Guard]] | 30% |
-| Counter | [[Positions/Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Mount]] | 20% |
 
 
 </section>

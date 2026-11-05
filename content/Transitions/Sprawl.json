@@ -28,7 +28,7 @@
       "result": "failure"
     },
     {
-      "to": "Standing Position/Bottom",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -167,8 +167,8 @@
       {
         "counter": "Opponent uses a fake level change to bait the sprawl, then attacks after you commit",
         "effectiveness": "Low",
-        "your_response": "Maintain athletic stance and do not overcommit to the sprawl until the opponent fully commits to their shot. Use feints and level changes of your own to disrupt their timing. Stay heavy on hands briefly, then return to standing position if the shot was a fake.",
-        "targets_outcome": "Standing Position/Bottom"
+        "your_response": "Maintain athletic stance and do not overcommit to the sprawl until the opponent fully commits to their shot. Use feints and level changes of your own to disrupt their timing. Stay heavy on hands briefly, then return to standing position if the shot was a fake, because a sprawl committed to a fake lets them finish the counter-takedown and pin you in side control.",
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Opponent grabs a guillotine as you sprawl, threatening a choke as your head drops",
@@ -444,11 +444,11 @@
         "risk": "If your re-shot timing is poor, opponent may be settled in their stance and you eat another sprawl while fatigued"
       },
       {
-        "action": "Sit to guard by pulling opponent into your closed guard or half guard rather than fighting the front headlock",
-        "when_to_use": "When opponent has established heavy front headlock pressure and submission threats are imminent, making continued standing engagement dangerous",
-        "targets_outcome": "Standing Position/Bottom",
-        "if_successful": "Transition to a guard position where you can neutralize the front headlock threats and work from a more manageable defensive position",
-        "risk": "You concede the takedown and give up positional advantage, and opponent may maintain head control during the guard pull transition"
+        "action": "Bait the sprawl with a fake level change, then attack after opponent commits and finish the takedown into side control",
+        "when_to_use": "When opponent commits to the sprawl on a feint, before they have established front headlock control",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You take opponent down and secure side control on top, leaving the sprawler pinned underneath you",
+        "risk": "If opponent does not commit to the fake, your attack can be stuffed and they may secure front headlock control"
       },
       {
         "action": "Drive forward explosively to complete the takedown through the sprawl by lifting and running the pipe",
@@ -464,8 +464,8 @@
         "how": "Complete the takedown by switching to a single leg, re-shooting after disengaging, or powering through the sprawl. The key is either changing your angle of attack to work around the sprawl or creating enough separation to reset and attack again before your opponent can settle their stance."
       },
       {
-        "outcome": "Standing Position/Bottom",
-        "how": "If front headlock control is imminent and you cannot complete the takedown, pull guard by sitting through and bringing the opponent into your guard. While not ideal, this avoids the worst-case scenario of being caught in a submission from front headlock. Prioritize establishing grips on their arms during the transition to prevent them from maintaining head control."
+        "outcome": "Side Control/Bottom",
+        "how": "Use a fake level change to bait the sprawl, then attack once the opponent has committed. Finish the takedown and secure side control on top, leaving the sprawler pinned on the bottom. This avoids the worst-case scenario of being caught in a submission from front headlock."
       }
     ],
     "common_errors": [

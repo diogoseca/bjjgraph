@@ -36,7 +36,7 @@
         "gi": 15,
         "nogi": 15
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -99,7 +99,7 @@
     },
     {
       "name": "Mount",
-      "relationship": "Counter outcome - where failed escape can lead"
+      "relationship": "Failure outcome - where a failed guard recovery can lead"
     }
   ],
   "attacker": {
@@ -345,7 +345,7 @@
       },
       {
         "question": "Your opponent transitions to mounted Gift Wrap during your escape attempt - how do you respond?",
-        "answer": "Accept the mount transition but use their weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an extraction window. The mount is worse positionally, but recovering the trapped arm restores your full defensive capability for subsequent mount escapes.",
+        "answer": "Accept the mount transition but use their weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an extraction window. Landing under mount is still a failed guard recovery, but recovering the trapped arm restores your full defensive capability for subsequent mount escapes.",
         "answer_line": "Accept mount, extract arm",
         "distractors": {
           "plausible": [
@@ -456,7 +456,7 @@
         "action": "Transition to mount while maintaining arm trap during lateral displacement",
         "when_to_use": "When opponent creates significant lateral distance through multiple hip escapes making back control difficult to maintain",
         "targets_outcome": "Mount/Bottom",
-        "if_successful": "You achieve mounted Gift Wrap which maintains arm control advantage with mount pressure",
+        "if_successful": "You keep mounted Gift Wrap, which maintains arm control advantage with mount pressure. If the arm comes free, the exchange ends as ordinary mount.",
         "risk": "The mount transition momentarily loosens the arm trap, potentially allowing arm extraction"
       },
       {
@@ -474,7 +474,7 @@
       },
       {
         "outcome": "Mount/Bottom",
-        "how": "When opponent creates significant lateral distance through hip escapes, proactively transition to mount rather than losing back control entirely. Step over their hip while maintaining the Gift Wrap arm control. The mounted Gift Wrap preserves your arm trap advantage while adding the pressure and control of the mount position."
+        "how": "When opponent creates significant lateral distance through hip escapes, proactively transition to mount rather than losing back control entirely. Step over their hip while maintaining the Gift Wrap arm control. The mounted Gift Wrap preserves your arm trap advantage while adding the pressure and control of the mount position. If the opponent extracts the arm during the transition, you hold ordinary mount instead."
       }
     ],
     "common_errors": [

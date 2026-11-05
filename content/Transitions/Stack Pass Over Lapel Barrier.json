@@ -29,12 +29,12 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Bottom",
+      "to": "Closed Guard/Top",
       "probability": {
         "gi": 10,
         "nogi": 10
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -81,7 +81,7 @@
     },
     {
       "name": "Closed Guard",
-      "relationship": "Counter outcome position when opponent locks guard during failed stack"
+      "relationship": "Failed pass outcome when opponent locks guard during failed stack, resetting you to closed guard top"
     }
   ],
   "attacker": {
@@ -159,7 +159,7 @@
         "counter": "Opponent locks closed guard around your waist as you drive forward into compression range",
         "effectiveness": "High",
         "your_response": "Immediately widen your knees and establish posture before they can break you down. If they lock the guard, switch to standard closed guard top passing sequences—your forward pressure has at least removed the lapel configuration advantage.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "targets_outcome": "Closed Guard/Top"
       }
     ],
     "common_errors": [
@@ -397,7 +397,7 @@
       {
         "action": "Lock closed guard around their waist as they enter compression range",
         "when_to_use": "When the passer's hips are close enough to lock your ankles behind their back but before they clear your legs to the side, typically during the transition from drive to hip-clearing phase",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "You neutralize the stack pass entirely by establishing closed guard, removing the lapel entanglement problem and resetting to a fundamentally different positional exchange",
         "risk": "Locking closed guard abandons your lapel configuration and the passer may have already achieved enough compression to make closed guard uncomfortable with your knees near your face"
       },
@@ -415,7 +415,7 @@
         "how": "Establish strong shoulder frames the moment you feel the passer lower their level and begin driving. Use your frame hand on their lead shoulder to stall the forward drive while simultaneously rotating your hips to a 45-degree angle. From this angled position, use your lapel grip to pull them laterally off-balance, disrupting their straight-line compression. If successful, you restore the distance and hip mobility needed for your lapel guard to function, and the passer must restart their approach."
       },
       {
-        "outcome": "Closed Guard/Bottom",
+        "outcome": "Closed Guard/Top",
         "how": "Time the guard lock during the transition between the passer's forward drive and their attempt to walk hips around your legs. As they commit their weight forward and their hips enter range, uncross your legs from lapel guard configuration and lock your ankles behind their lower back. Pull them into your guard with your heels while simultaneously releasing the lapel grip. This converts a losing exchange into a neutral position where you can work standard closed guard offense without the lapel entanglement complicating the situation."
       }
     ],

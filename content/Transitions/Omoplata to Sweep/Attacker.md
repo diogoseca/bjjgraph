@@ -323,7 +323,7 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 60% |
 | Failure | [[Positions/Omoplata Control]] | 25% |
-| Counter | [[Positions/Omoplata Control]] | 15% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -336,7 +336,7 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 
 - **Opponent rolls through the sweep and recovers guard** (Effectiveness: Medium) - Your Response: Maintain hip pressure throughout the roll and immediately establish mount or side control. Follow their rotation closely without allowing space to develop. If they attempt to continue rolling, use their momentum to transition to back control by securing the seat belt grip as they turn. → Leads to [[Positions/Omoplata Control]]
 - **Opponent posts free hand strongly and prevents the sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with a kimura or armbar since the posting action extends their arm away from their body, creating ideal submission angles. Alternatively, switch to attacking the original omoplata submission more aggressively to force them to remove the post and resume the sweep attempt. → Leads to [[Positions/Omoplata Control]]
-- **Opponent stacks you by driving forward pressure and flattening your hips** (Effectiveness: High) - Your Response: Abandon the sweep temporarily and create defensive frames to prevent being flattened. Shrimp your hips away to create space and angle, then transition to alternative attacks such as triangle or armbar from the inverted position. If fully stacked, work to recover standard guard position before re-attacking. → Leads to [[Positions/Omoplata Control]]
+- **Opponent stacks you by driving forward pressure and flattening your hips** (Effectiveness: High) - Your Response: Abandon the sweep temporarily and create defensive frames to prevent being flattened. Shrimp your hips away to create space and angle, then transition to alternative attacks such as triangle or armbar from the inverted position. If fully stacked, work to recover standard guard position before re-attacking. → Leads to [[Positions/Open Guard]]
 - **Opponent extracts trapped arm during sweep execution** (Effectiveness: Low) - Your Response: If the arm escapes but you have achieved the sweep, immediately transition to standard mount consolidation. Focus on securing positional dominance with proper weight distribution, cross-face, and underhook control rather than chasing the lost submission opportunity. → Leads to [[Positions/Mount]]
 
 

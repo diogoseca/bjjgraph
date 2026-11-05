@@ -137,7 +137,7 @@ Among the highest-percentage attacks available from bottom half guard, this swee
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
 | Failure | [[Positions/Half Guard]] | 25% |
-| Counter | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 10% |
 
 
 </section>

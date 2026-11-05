@@ -84,7 +84,7 @@ Strategically, this escape represents your primary pathway out of a position tha
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 55% |
 | Failure | [[Positions/Gift Wrap]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Failure | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -259,7 +259,7 @@ Hip Escape to Guard is the primary escape pathway from Gift Wrap Bottom, one of 
 
 - [[Positions/Back Control]] - Parent position - Gift Wrap evolves from back control
 
-- [[Positions/Mount]] - Counter outcome - where failed escape can lead
+- [[Positions/Mount]] - Failure outcome - where a failed guard recovery can lead
 
 
 </section>

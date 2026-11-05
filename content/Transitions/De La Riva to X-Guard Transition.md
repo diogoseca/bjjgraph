@@ -123,7 +123,7 @@ Understanding this transition requires mastery of hook mechanics, grip control t
 |--------|----------|-------------|
 | Success | [[Positions/X-Guard]] | 65% |
 | Failure | [[Positions/De La Riva Guard]] | 25% |
-| Counter | [[Positions/De La Riva Guard]] | 10% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -239,7 +239,7 @@ Understanding this transition requires mastery of hook mechanics, grip control t
 ### Defensive Options
 
 
-- **Backstep and strip the DLR hook before transition initiates** - When: When you recognize the early grip transition from collar/sleeve to underhook, before the bottom player has begun rotating underneath
+- **Strip the DLR hook and drive cross-face and shoulder pressure down onto the guard player before the transition initiates** - When: When you recognize the early grip transition from collar/sleeve to underhook, before the bottom player has begun rotating underneath
 
 - **Drop hips low and drive forward pressure to flatten the guard player** - When: When the bottom player has begun rotating underneath but has not yet inserted the bottom X-Guard hook
 

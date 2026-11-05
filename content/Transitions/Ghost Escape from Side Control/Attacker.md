@@ -303,7 +303,7 @@ Executing the Ghost Escape from Side Control to open guard requires coordinating
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 55% |
 | Failure | [[Positions/Side Control]] | 30% |
-| Counter | [[Positions/Turtle]] | 15% |
+| Failure | [[Positions/Turtle]] | 15% |
 
 
 </section>

@@ -316,7 +316,7 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 |--------|----------|-------------|
 | Success | [[Positions/Front Headlock]] | 75% |
 | Failure | [[Positions/Standing Position]] | 15% |
-| Counter | [[Positions/Standing Position]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -329,7 +329,7 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 
 - **Opponent adjusts angle and continues driving forward, refusing to abandon the takedown attempt** (Effectiveness: Medium) - Your Response: Continue circling aggressively away from their head while maintaining heavy chest pressure. Use hand placement to steer their head toward the mat. If necessary, secure a whizzer on their arm to prevent completion while you re-establish front headlock control. → Leads to [[Positions/Front Headlock]]
 - **Opponent switches to single leg attack mid-sprawl, grabbing one leg and elevating it** (Effectiveness: High) - Your Response: Post your free leg out wide for base, drive your trapped leg's hip down toward the mat, and establish crossface or whizzer control. Circle away from the trapped leg while hopping on your free foot to maintain balance. Transition to dedicated single leg defense sequences. → Leads to [[Positions/Standing Position]]
-- **Opponent uses a fake level change to bait the sprawl, then attacks after you commit** (Effectiveness: Low) - Your Response: Maintain athletic stance and do not overcommit to the sprawl until the opponent fully commits to their shot. Use feints and level changes of your own to disrupt their timing. Stay heavy on hands briefly, then return to standing position if the shot was a fake. → Leads to [[Positions/Standing Position]]
+- **Opponent uses a fake level change to bait the sprawl, then attacks after you commit** (Effectiveness: Low) - Your Response: Maintain athletic stance and do not overcommit to the sprawl until the opponent fully commits to their shot. Use feints and level changes of your own to disrupt their timing. Stay heavy on hands briefly, then return to standing position if the shot was a fake, because a sprawl committed to a fake lets them finish the counter-takedown and pin you in side control. → Leads to [[Positions/Side Control]]
 - **Opponent grabs a guillotine as you sprawl, threatening a choke as your head drops** (Effectiveness: Medium) - Your Response: Immediately look up and turn your head away from the choking arm to relieve pressure. Circle toward the non-choking side while controlling their grip hand with your free hand. Consider passing to side control or driving through to escape the guillotine angle. → Leads to [[Positions/Standing Position]]
 
 

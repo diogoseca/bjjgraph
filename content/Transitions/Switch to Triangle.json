@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -174,7 +174,7 @@
         "counter": "Opponent stacks your hips and drives forward to pass guard during the switch",
         "effectiveness": "Medium",
         "your_response": "Keep shoulders off the mat by posting on your elbow, create frames against their hips to prevent the stack, and be ready to follow their pressure into an omoplata or sweep if the triangle position becomes too compressed. Never accept a flat back under stacking pressure.",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Opponent grabs your leg to prevent it from crossing their neck and blocks the triangle entry",
@@ -444,8 +444,8 @@
       {
         "action": "Drive forward into the triangle attempt, keeping your trapped arm's elbow pinned to your ribcage while circling toward the choking leg to reduce the angle",
         "when_to_use": "When the triangle is partially locked but the opponent has not yet achieved the perpendicular finishing angle or full hip extension",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "You neutralize the choking angle and can begin systematic triangle escape by stacking, extracting the trapped arm, or passing to the side",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You neutralize the choking angle and can begin systematic triangle escape by stacking and extracting the trapped arm. The exchange ends only when you pass to the side and secure side control.",
         "risk": "If you drive forward without controlling the angle, you may assist the opponent in achieving the perpendicular position they need for maximum choking pressure"
       },
       {
@@ -458,8 +458,8 @@
       {
         "action": "Stand up explosively while the guard is momentarily open during the transition, denying both the triangle lock and the closed guard recovery",
         "when_to_use": "In the brief window when the opponent uncrosses their ankles to throw the triangle leg, before the new leg configuration is established",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "You achieve standing position with opponent's guard broken, allowing you to begin standing guard passing sequence from a dominant tactical position",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You achieve standing position with opponent's guard broken, allowing you to begin standing guard passing sequence from a dominant tactical position and carry it through to a completed pass into side control",
         "risk": "If the opponent maintains strong head or collar control during your stand-up, they may use your upward momentum to complete the triangle or switch to a flying triangle variation"
       }
     ],
@@ -469,8 +469,8 @@
         "how": "Deny the triangle switch by maintaining posture during the initial attack defense and blocking the leg before it crosses your neck. Keep both arms symmetrically positioned and prevent the hip angle change. The opponent returns to closed guard without achieving the triangle configuration."
       },
       {
-        "outcome": "Closed Guard/Top",
-        "how": "If the triangle partially develops, drive forward with strong posture while circling toward the choking leg to neutralize the angle. Stack the opponent to relieve choking pressure, extract your trapped arm by pushing it toward their hip, and pass to side control or settle back into closed guard top with recovered posture."
+        "outcome": "Side Control/Bottom",
+        "how": "If the triangle partially develops, drive forward with strong posture while circling toward the choking leg to neutralize the angle. Stack the opponent to relieve choking pressure, extract your trapped arm by pushing it toward their hip, and pass to side control."
       }
     ],
     "common_errors": [

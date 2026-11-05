@@ -123,7 +123,7 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 70% |
 | Failure | [[Positions/Clinch]] | 20% |
-| Counter | [[Positions/Clinch]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>

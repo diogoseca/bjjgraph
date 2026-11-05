@@ -251,7 +251,7 @@ Strategically, this escape represents your primary pathway out of a position tha
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 55% |
 | Failure | [[Positions/Gift Wrap]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Failure | [[Positions/Mount]] | 15% |
 
 
 </section>

@@ -29,7 +29,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -178,13 +178,13 @@
         "counter": "Opponent turns to the side and shrimps hips away during or immediately after knee placement",
         "effectiveness": "Medium",
         "your_response": "Follow their hip movement by adjusting knee position and maintaining collar grip as an anchor. If they create significant distance, transition to mount by stepping over their turning body. Use their rotation momentum to advance rather than fighting against it.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Opponent bridges explosively during the transition moment before the knee is fully planted",
         "effectiveness": "High",
         "your_response": "Maintain the collar grip as your primary anchor and ride the bridge rather than fighting it. As the opponent descends from the bridge apex, immediately replant the knee with full pressure. If the bridge is too powerful, abandon the knee insertion entirely and re-consolidate side control with heavy chest pressure.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Opponent inserts near-side elbow frame between your bodies during the brief chest lift",
@@ -407,7 +407,7 @@
       {
         "action": "Hip escape and insert knee shield during the transition window",
         "when_to_use": "During the brief gap between chest lift and knee placement when overall pressure is at its lowest point in the sequence",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Recover to half guard with knee shield established, significantly improving defensive position and creating offensive sweep and back take options",
         "risk": "Failed hip escape with hips exposed and no guard structure may accelerate a mount transition instead of knee on belly"
       },
@@ -421,14 +421,14 @@
       {
         "action": "Bridge and turn toward the opponent to prevent knee from settling with full weight",
         "when_to_use": "As soon as the knee contacts your torso, before the opponent establishes the wide base leg and secures their collar and pants grips",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Creates enough space and body angle to insert a knee between your bodies and recover half guard before the opponent can stabilize",
         "risk": "If the opponent maintains knee position and follows your turning momentum, they may transition directly to mount or expose your back"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Half Guard/Top",
         "how": "Time your hip escape to the exact moment the top player lifts their chest to insert the knee. Bridge toward them to create an angle, then shrimp your hips away and insert your near-side knee between your bodies. Immediately establish a knee shield to prevent re-passing. This exploits the transition's inherent vulnerability: the brief moment when neither chest pressure nor knee pressure is fully established."
       },
       {

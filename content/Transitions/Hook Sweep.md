@@ -123,7 +123,7 @@ The sweep can be executed from both seated and combat base butterfly positions, 
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 68% |
 | Failure | [[Positions/Butterfly Guard]] | 20% |
-| Counter | [[Positions/Butterfly Guard]] | 12% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>

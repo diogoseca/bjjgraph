@@ -14,7 +14,7 @@
   "from_position": "Ushiro Ashi-Garami/Bottom",
   "outcomes": [
     {
-      "to": "Open Guard/Top",
+      "to": "Feet on Hips Guard/Bottom",
       "probability": {
         "gi": 55,
         "nogi": 55
@@ -22,7 +22,7 @@
       "result": "success"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -57,7 +57,7 @@
       "relationship": "Starting position for this escape technique"
     },
     {
-      "name": "Open Guard",
+      "name": "Feet on Hips Guard",
       "relationship": "Primary target position after successful extraction"
     },
     {

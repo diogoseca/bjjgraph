@@ -316,7 +316,7 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 62% |
 | Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Counter | [[Positions/Open Guard]] | 13% |
 
 
 </section>
@@ -328,7 +328,7 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 <p class="section-subtitle">How might your opponent counter Flower Sweep?</p>
 
 - **Opponent posts their hand on the mat on the sweeping side** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with a straight armbar or transition to triangle/omoplata. Alternatively, switch to sweeping the opposite direction if they overcommit to the post. → Leads to [[Positions/Closed Guard]]
-- **Opponent stands up to break your guard** (Effectiveness: Medium) - Your Response: Maintain your sleeve grip and transition to standing guard attacks, ankle picks, or sit-up sweeps. Their standing creates different sweep opportunities. → Leads to [[Positions/Closed Guard]]
+- **Opponent stands up to break your guard** (Effectiveness: Medium) - Your Response: Maintain your sleeve grip and transition to standing guard attacks, ankle picks, or sit-up sweeps. Their standing creates different sweep opportunities. → Leads to [[Positions/Open Guard]]
 - **Opponent sprawls their hips back and away** (Effectiveness: Medium) - Your Response: If they sprawl early, you can often still complete the sweep by following them with your rotation. If they fully defend, transition to attacking their extended arms or attempt the Hip Bump Sweep in the opposite direction. → Leads to [[Positions/Closed Guard]]
 - **Opponent grabs your belt or pants to anchor themselves** (Effectiveness: Low) - Your Response: Continue the sweeping motion with more emphasis on your leg drive and hip rotation. The grip on your belt actually limits their ability to post their hand effectively. → Leads to [[Positions/Closed Guard]]
 
