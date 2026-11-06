@@ -343,6 +343,8 @@ const mutants = [
   ['columns-gap-lost', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s, css => replace(css, 'margin:0 0 var(--gap)', 'margin:0')],
   // The two gap specs that measured between rows now measure down a column, so each must still see a lost gap.
   ['columns-gap-lost-sections', sections, '1366px choices precede', s => s, css => replace(css, 'margin:0 0 var(--gap)', 'margin:0')],
+  // v1.251.1: the tile's margin hard-coded to today's value, so only the token's own poke can see it.
+  ['gap-hard-coded', sections, '1366px choices precede', s => s, css => replace(css, 'margin:0 0 var(--gap)', 'margin:0 0 24px')],
   ['columns-gap-lost-rhythm', contract, '1366px reader rhythm', s => s, css => replace(css, 'margin:0 0 var(--gap)', 'margin:0')],
   // A character count for the height: the schemas' field limits, the owner's first thought, and the brief's reason to measure.
   ['columns-tall-tile', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'height = rect(s.card).height + 24', 'height = s.body.textContent.length / 3')],
