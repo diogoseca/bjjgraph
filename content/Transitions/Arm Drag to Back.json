@@ -82,7 +82,7 @@
     }
   ],
   "conditions": [
-    "Opponent is engaged within arm's reach from butterfly guard bottom",
+    "Opponent is engaged within arm's reach from butterfly guard, open guard or seated guard bottom",
     "At least one of opponent's arms is extended or within gripping range",
     "Your hips are mobile and not pinned or flattened to the mat",
     "Opponent has some forward pressure or weight commitment toward you"

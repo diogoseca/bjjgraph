@@ -14273,8 +14273,8 @@ main origin and are not false, the same limit as the 96 listings before them.
 **Round 2, the independent review of `c32445375`: no blocker, and the numbers were exact, but four page-text findings fell under F0 a.**
 That capture was accepted and verified, and it was discarded before any reseed, because the content moved. Body Triangle Lock had a fourth wrong
 answer H17 made true, "Both hooks in, no Gift Wrap", which the seat-name scan could not see because it never says Back Control; the lesson
-is that the rows' own evidence is the test, not the seat's name. Its setup line and condition follow, as does Kimura Sweep's "must be
-established". Arm Drag to Back no longer requires hooks that H15's evidence says it does not need. Level Change's "Late guillotine" was this
+is that the rows' own evidence is the test, not the seat's name. Its setup line and condition follow, as do Kimura Sweep's "must be
+established" and Long Step Pass's "must be in an open guard variation", which H2 makes false; `conditions` ships to readers as `recognition`. Arm Drag to Back no longer requires hooks that H15's evidence says it does not need. Level Change's "Late guillotine" was this
 PR's own wording and contradicted the page, which allows the guillotine only before chest-to-thigh contact, so its window is now that one and
 the leg-contact clause is gone. "Before they close their guard" went with the picture it depended on.
 
