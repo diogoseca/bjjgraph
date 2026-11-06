@@ -14299,3 +14299,9 @@ accepted. The MDP data grew by one content-addressed shard, so the build gains o
 the capture: H4 and H5 take Standing Position/Top from 34 cards to 36, and `option-hand` and `option-overflow` held the old size. The spec's
 own independent pool check passed first, so the app was right and the literal was stale. 752 passed, and the 2 pass on the new literal.
 The final tree, with #344 and round 2 in, passed `@curated` 754 of 754 on its own build.
+
+**A third red that only the generated suite could find.** It is not `@curated`, and the seat had not run it. `veteran-odds-clamp` went red on the first
+PR run after the reseed: S-Mount Transition's card printed 56 and the spec expected 60. The card was right. H11's own table is 54 and the canonical
+rate 58, and the card, `tensionSweep` and `resolve` all play the listing through `_actOf`. The helper was wrong: `displayedOdds` always read the
+canonical node, which stayed hidden while no listing at a spec's landing differed. It now reads the node a dealt card plays. Harness only, so the
+capture stands; all 12 spec files that call it pass on the build, and the unfixed helper is the control, red on `a2f0100d7`.
