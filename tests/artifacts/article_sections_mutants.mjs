@@ -269,7 +269,9 @@ const mutants = [
   // D-368 (layout C) invariants. A: the video card column-wide in the Videos section, lifted above Moves (the
   // pre-C integration); it pushes the question and a catch's answers below the 1440x900 fold.
   ['a-column-wide-videos-question', 'defending-landing.spec.ts', "D-368: at 1440x900 the question card's top", columnWideVideos],
-  ['a-column-wide-videos-catch', 'defending-landing.spec.ts', 'D-368: in a catch at 1440x900', columnWideVideos],
+  // a-column-wide-videos-catch retired (v1.251.0): it pinned "the escape answers are on screen without scrolling", the claim U99 b
+  // replaced on a desktop, and it now dies only at a premise, which proves nothing. D-368's new claim has d368-no-scroll.
+  ['d368-no-scroll', 'defending-landing.spec.ts', 'D-368: in a catch at 1440x900', s => s, css => css + '\n.ng-reader{overflow:hidden!important}\n'],
   // RETIRED by U16 b (owner, 2026-10-24): phone-catch-question-first-lost-844/-631,
   // and d370-concessions-stick guarded the retired order/account/spacing concessions.
   // Band lifetime is now controlled directly in the app runner, not through the CSS marker.
