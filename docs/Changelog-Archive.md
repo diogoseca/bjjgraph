@@ -14534,4 +14534,17 @@ The journey now runs on `/Principles/Microing`, which has three paragraphs there
 **UNGUARDED.** The closed path without `moveBefore` runs in Chromium with the method deleted, not in Safari or Firefox. A phone has no measured claim
 about the split: each phase is a tile there too, and the page is longer by their padding and gaps.
 
-**Housekeeping.** `video_theater_mutants.json`: row 5 names the 720 journey, and row 6 is dropped, because the code it mutated is gone.
+**Housekeeping.** `video_theater_mutants.json`: row 5 names the 720 journey, and row 6 is dropped, because the code it mutated is gone. A full run of that table
+ends clean, 39 of 39. That is the video table only: `article_sections_mutants.mjs` has 209 rows and no CI job, and three of its rows had moved, so a full run of it
+aborted at row 10.
+
+**The review.** Three fixes, one regression among them.
+
+- **`syncIndex`, a regression from this PR.** Filtering by type lit all 8 `additional` rows on /Systems together, 0.84 each with the reader on one of them, and the active row
+  stuck to the first. "Back to Systems" reaches that page from all 83 System pages. The row now reads by title, which a section's phases inherit. `index-row-by-type`.
+- **The hold kept a closed line, older than this PR, which widened it.** `isConnected` is true of a closed tile, so the line had no box, its top read 0, and each pass of the
+  slide threw the reader up. Reproduced with real input on Knee Slice Pass at 1440: Training's ✕ with the pane open, then the pane closed, scrollTop 4,345 to 745. It is
+  `offsetWidth` now, 0 detached or unrendered. `hold-closed-line`.
+- **The table.** 3 rows retargeted, plus the 5 these two fixes moved. Every row's mutate() replayed in node: 209 rows, 0 moved.
+
+The index fix costs 2 B, so the ceiling is 507,110 B, +293 of the 300 B approved.

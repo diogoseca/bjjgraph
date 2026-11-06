@@ -50,6 +50,8 @@ import { journey } from '../dsl'
 //   training-closed-stays  a closed phase leaves no tile (an empty box per phase stays in the columns)
 //   training-index-first   the index follows Training through its last phase (the row reads the first tile alone)
 //   hub-one-opens-both     a hub's two Read mores open one at a time (the first opens the second)
+//   index-row-by-type      /Systems's index follows each section (a row reads every tile of its type)
+//   hold-closed-line       a closed line is let go (the hold tests isConnected, which a closed tile still is)
 // RECORDED NON-KILLS (v1.251.0), so neither reads as coverage. line-dom-first-slide: on Mount/Bottom the block first in the source and
 // the block nearest the top are the same at both depths; line-dom-first kills that mutant on "opening Explore keeps the line".
 // read-more-no-reflow: with no observer on the tiles a later layout still sorts them, so the observer alone is not what this pins;
@@ -618,6 +620,53 @@ test('U100 a the index row follows Training through its last phase', async ({ pa
   expect(seen, 'premise: the first phase is off the reader and the last whole on it').toEqual({ first: true, last: true })
   await j.readerLayoutSettled()
   expect(await page.locator('[data-toc-type=training]').evaluate(e => +(e as HTMLElement).style.opacity), 'the row is lit').toBeGreaterThan(.8)
+})
+
+// #345's review: the row reads its own tiles, and a section's phases share its title. By type, all 8 `additional` rows on /Systems lit
+// together and the active row stuck to the first. /Systems is reached by "Back to Systems" on all 83 System pages. index-row-by-type.
+test('the index follows each section of /Systems, whose eight rows share one type', async ({ page }) => {
+  const j = await boot(page, 1440, 900, '/Systems/10th-Planet-Half-Guard-Bottom-System')
+  await expect(page.locator(READY)).toHaveAttribute('data-indexed', '')
+  const back = '[data-reader-body] a[href$="/Systems"]'
+  await page.locator(back).first().scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+  await j.clickByMouse(back, 'Back to Systems')
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._reader.path), { message: 'the folder page opens in the reader' }).toBe('/Systems')
+  await expect(page.locator(READY)).toHaveAttribute('data-indexed', ''); await j.readerLayoutSettled()
+  const lit = await page.locator(READY).evaluate(e => new Promise<{ count: number, here: number, far: number, best: boolean }>(done => {
+    const r = (window as any).__neural._reader, rows = r.sections.filter((s: any) => s.type === 'additional'), to = rows[5], first = rows[0]
+    e.scrollTop += to.card.getBoundingClientRect().top - e.getBoundingClientRect().top - 20
+    setTimeout(() => done({ count: rows.length, here: +to.row.style.opacity, far: +first.row.style.opacity, best: first.card.getBoundingClientRect().bottom < e.getBoundingClientRect().top }), 200)
+  }))
+  expect(lit.count, 'premise: the eight sections').toBe(8)
+  expect(lit.best, 'premise: the first of them has left the reader').toBe(true)
+  expect(lit.here, 'the section in the reader is lit').toBeGreaterThan(.6)
+  expect(lit.far, 'one out of the reader stays dim').toBeLessThan(.4)
+})
+
+// #345's review: a closed tile stays connected, so the hold kept a line that no longer has a box, read its top as 0, and threw the reader
+// up by heldY on every pass of the pane's slide. It predates #345, and Training's one ✕ over many tiles widened it. hold-closed-line.
+test('a held line whose tile closes is let go, and the pane closing leaves the reader where it was', async ({ page }) => {
+  const j = await boot(page, 1440, 900, KNEE)
+  await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
+  await page.emulateMedia({ reducedMotion: 'no-preference' })
+  await page.locator(READY).evaluate(e => { const t = e.querySelector('[data-reader-body]>[data-section-type=training]>h2')!; e.scrollTop += t.getBoundingClientRect().top - e.getBoundingClientRect().top - 2 })
+  await j.readerLayoutSettled()
+  const nearest = () => page.locator(READY).evaluate(e => {
+    const top = e.getBoundingClientRect().top, line = ([...e.querySelectorAll('[data-reader-body] p,[data-reader-body] li')] as HTMLElement[]).filter(x => x.getClientRects().length && x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
+    return { type: line.closest<HTMLElement>('[data-section-type]')!.dataset.sectionType, y: line.getBoundingClientRect().top, scrollTop: e.scrollTop }
+  })
+  expect((await nearest()).type, 'premise: the line the hold takes is in Training').toBe('training')
+  await openExplore(page, j)
+  await j.clickByMouse('[data-section-toggle=training]', 'Training\'s ✕, with the pane open')
+  await j.readerLayoutSettled()
+  await expect(page.locator('[data-reader-body]>[data-section-type=training]:not([data-collapsed=true])'), 'premise: every phase closed').toHaveCount(0)
+  const scrollTop = await page.locator(READY).evaluate(e => e.scrollTop)
+  await j.clickByMouse('.ng-explorer-close', 'the pane\'s close button')
+  for (let i = 0; i < 24; i++) await j.advance(60)
+  await j.readerLayoutSettled()
+  // Training is this page's last section, so the wider grid can end the article above the old place: the claim is the place or that end.
+  const now = await page.locator(READY).evaluate(e => ({ top: e.scrollTop, end: e.scrollHeight - e.clientHeight }))
+  expect(Math.abs(now.top - Math.min(scrollTop, now.end)), `the reader stays where it was, up to the article's end (${scrollTop} -> ${now.top}, end ${now.end})`).toBeLessThanOrEqual(8)
 })
 
 // U101 b: "Read more" opens the rest in place, one way, by real input. A tile's place depends only on the tiles before it, so nothing
