@@ -3,11 +3,11 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "4e71f4d266a3661095e293eb068e1e189f33f3e3",
+   "git_head": "60be7bad0cce19a6a471d8dced1d967246e88ecb",
    "inputs": {
-    "tree": "092e9cba9c60a9f648c20e861f64bd3942d7eb81"
+    "tree": "10e72f822b0761e32601e0fc102ca64c921f5ec2"
    },
-   "package_version": "1.251.0",
+   "package_version": "1.251.1",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
@@ -105,12 +105,12 @@
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 42183,
-    "sha256": "b64732353940d96e32f4c80ad749893d9e5383e5d7f1853dc73b44dc426a2841"
+    "bytes": 42467,
+    "sha256": "f3c223d3a0289a72cbfcef1c05cf08204d9ec73120cfa70801cba92cfe7447d0"
    },
    "static/neural/app/reading.css": {
-    "bytes": 11231,
-    "sha256": "02e4340bfda7a4e27deac1f175978324d98601dddf4310e1852dd745bb098b19"
+    "bytes": 11244,
+    "sha256": "c881a835ca1415bacaee2dcc1511036dfb5272c7f6ad59c211c13b8182d1f552"
    },
    "static/neural/app/reference.css": {
     "bytes": 15146,
