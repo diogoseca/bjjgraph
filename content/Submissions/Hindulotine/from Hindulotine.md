@@ -209,7 +209,7 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 - Open hands and leg: Release the whole enclosure at the first tap or change in responsiveness, including if the opponent has passed the lower leg.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -277,7 +277,7 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 - The attacker uses the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

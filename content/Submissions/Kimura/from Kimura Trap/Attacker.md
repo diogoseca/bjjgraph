@@ -263,7 +263,7 @@ Executing the Kimura from Kimura Trap means finishing a shoulder lock from under
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Kimura Trap#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Kimura Trap#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

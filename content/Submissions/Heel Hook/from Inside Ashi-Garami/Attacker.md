@@ -257,7 +257,7 @@ Attacking the heel hook from Inside Ashi-Garami requires establishing secure leg
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Heel Hook/from Inside Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Heel Hook/from Inside Ashi-Garami#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

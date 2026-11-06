@@ -293,7 +293,7 @@ Executing the toe hold from Ashi Garami top position requires recognizing the na
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Toe Hold/from Ashi Garami#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Toe Hold/from Ashi Garami#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

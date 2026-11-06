@@ -237,7 +237,7 @@ The Japanese Necktie defense centers on three critical priorities: preventing th
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Japanese Necktie/from Front Headlock#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Japanese Necktie/from Front Headlock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

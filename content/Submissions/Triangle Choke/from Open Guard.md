@@ -186,7 +186,7 @@ The critical finishing mechanics rely on three elements working in concert: perp
 - Maintain chain submission awareness throughout—every triangle defense opens armbar, omoplata, or gogoplata transitions that punish escape attempts
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -256,7 +256,7 @@ The critical finishing mechanics rely on three elements working in concert: perp
 - Opponent's leg rises toward your shoulder or neck from an elevated position rather than remaining on your hip or bicep in standard guard configuration
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

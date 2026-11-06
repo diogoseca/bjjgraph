@@ -236,7 +236,7 @@ Defending the toe hold from an established Toe Hold Control position is one of t
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Toe Hold/from Toe Hold Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Toe Hold Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

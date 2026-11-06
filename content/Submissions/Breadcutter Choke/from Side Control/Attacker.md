@@ -317,7 +317,7 @@ The Breadcutter Choke from Side Control rewards methodical grip establishment an
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Breadcutter Choke/from Side Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Breadcutter Choke/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

@@ -299,7 +299,7 @@ Attacking with the rear naked choke from back control requires systematic progre
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Back Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Back Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

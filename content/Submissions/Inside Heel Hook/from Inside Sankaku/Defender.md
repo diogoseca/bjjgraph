@@ -198,7 +198,7 @@ Defending the heel hook from Inside Sankaku is one of the most urgent defensive 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Inside Heel Hook/from Inside Sankaku#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Inside Heel Hook/from Inside Sankaku#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

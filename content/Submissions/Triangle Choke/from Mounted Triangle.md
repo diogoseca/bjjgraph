@@ -186,7 +186,7 @@ Strategically, this submission represents the culmination of a mount attack sequ
 - Apply progressive pressure in controlled stages, tightening incrementally rather than attempting explosive finishes that create escape windows
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Strategically, this submission represents the culmination of a mount attack sequ
 - Attacker's hand reaches behind your head and pulls it laterally toward your trapped arm, sealing space around your neck
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

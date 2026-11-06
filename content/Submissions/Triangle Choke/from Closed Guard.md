@@ -170,7 +170,7 @@ The technical execution of the triangle from closed guard requires precise angle
 - Continuous Control - Maintain constant control of opponent's head and posture throughout setup and finish; any moment where they can posture up is an opportunity for escape or counter
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -244,7 +244,7 @@ The technical execution of the triangle from closed guard requires precise angle
 - Opponent's hips shift laterally underneath you rather than staying square - this angle creation is the precursor to triangle entry from any guard position
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -168,7 +168,7 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 - Elbow retraction toward the mat during the finish amplifies choking pressure through leverage rather than muscular strength
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 - Opponent strips your defensive wrist control or swims past your frames specifically to access the collar rather than to establish arm control
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

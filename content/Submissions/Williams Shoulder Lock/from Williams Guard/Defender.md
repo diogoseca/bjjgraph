@@ -199,7 +199,7 @@ Defending the Williams Shoulder Lock from Williams Guard requires immediate reco
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Williams Shoulder Lock/from Williams Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Williams Shoulder Lock/from Williams Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

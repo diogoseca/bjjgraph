@@ -196,7 +196,7 @@ As the defender, you are usually the top player posturing inside closed guard wi
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Wrist Lock#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Wrist Lock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

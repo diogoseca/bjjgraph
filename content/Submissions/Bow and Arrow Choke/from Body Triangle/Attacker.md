@@ -263,7 +263,7 @@ Executing the Bow and Arrow Choke from Body Triangle requires establishing a dee
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Bow and Arrow Choke/from Body Triangle#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Bow and Arrow Choke/from Body Triangle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

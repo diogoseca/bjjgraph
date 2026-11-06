@@ -281,7 +281,7 @@ Attacking with the Short Choke from Back Control requires methodical grip establ
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Short Choke/from Back Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Short Choke/from Back Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

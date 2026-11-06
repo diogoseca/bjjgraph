@@ -168,7 +168,7 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 - Use your head as a control point by pressing your temple into the back of the opponent's skull to prevent defensive head turns
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 - Subtle increase in leg hook tension as the opponent prepares the diagonal hip stretch that opens space at the neck
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

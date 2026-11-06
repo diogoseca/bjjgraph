@@ -170,7 +170,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 - Submission and sweep synergy - the threat of the submission often facilitates sweep completion as opponent defends
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -246,7 +246,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 - Opponent's head moves toward the mat away from you as they commit to the inverted finishing position
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

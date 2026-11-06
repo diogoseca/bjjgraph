@@ -281,7 +281,7 @@ Executing the Rear Naked Choke from Harness requires patience and systematic gri
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Harness#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Harness#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

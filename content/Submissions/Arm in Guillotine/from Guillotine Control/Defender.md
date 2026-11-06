@@ -231,7 +231,7 @@ Defending the arm-in guillotine from guillotine control is one of the most urgen
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Arm in Guillotine/from Guillotine Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Arm in Guillotine/from Guillotine Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

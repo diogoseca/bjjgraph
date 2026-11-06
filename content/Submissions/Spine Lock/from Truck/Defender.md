@@ -200,7 +200,7 @@ The defensive framework centers on three sequential priorities: first, prevent f
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Spine Lock/from Truck#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Spine Lock/from Truck#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

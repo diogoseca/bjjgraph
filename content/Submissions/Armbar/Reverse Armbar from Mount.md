@@ -127,7 +127,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 - Body weight distribution shifts toward opponent's feet during finish
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -199,7 +199,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 - You feel a rotational torque on your trapped arm as the attacker's hips swing over and past your arm toward your legs
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

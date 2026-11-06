@@ -220,7 +220,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 - Proper angle adjustment ensures blood choke rather than painful air choke
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -294,7 +294,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 - Opponent's hands connect behind your neck in a bicep grip or wrist grip, completing a closed loop you can feel tightening around your neck and trapped arm
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

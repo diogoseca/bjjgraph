@@ -245,7 +245,7 @@ Defending the cross collar choke from body triangle is one of the most demanding
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from Body Triangle#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Cross Collar Choke/from Body Triangle#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

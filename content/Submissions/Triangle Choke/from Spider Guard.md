@@ -184,7 +184,7 @@ Building directly on spider guard's distance control and posture breaking, this 
 - Adjust angle continuously based on opponent's defensive movements
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Building directly on spider guard's distance control and posture breaking, this 
 - Opponent pulls your head down forcefully with collar or sleeve grip while simultaneously shooting their hips upward—the final entry motion combining posture break with leg placement
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -274,7 +274,7 @@ Attacking the neck crank from mounted crucifix gives you a finishing option that
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Neck Crank/from Mounted Crucifix#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Neck Crank/from Mounted Crucifix#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

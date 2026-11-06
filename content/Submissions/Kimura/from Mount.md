@@ -184,7 +184,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 - Use progressive pressure application - build torque gradually to allow safe tapping
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 - You feel your elbow being lifted off the mat while your wrist is controlled and pinned toward your body
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

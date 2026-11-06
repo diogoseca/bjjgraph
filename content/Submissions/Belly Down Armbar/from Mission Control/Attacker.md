@@ -263,7 +263,7 @@ Executing the belly down armbar from Mission Control requires precise arm isolat
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Mission Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Mission Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

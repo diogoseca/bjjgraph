@@ -236,7 +236,7 @@ Defending the Kimura from Standing demands early recognition and immediate actio
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Standing#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kimura/from Standing#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

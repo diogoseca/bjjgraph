@@ -306,7 +306,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from 50-50#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from 50-50#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

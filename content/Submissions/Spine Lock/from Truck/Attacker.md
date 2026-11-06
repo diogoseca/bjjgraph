@@ -221,7 +221,7 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Spine Lock/from Truck#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Spine Lock/from Truck#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

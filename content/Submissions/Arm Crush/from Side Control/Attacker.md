@@ -277,7 +277,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Arm Crush/from Side Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Arm Crush/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

@@ -255,7 +255,7 @@ The early escape targets the chin strap and supporting hand before they form a c
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Guillotine Choke/from Hindulotine#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Guillotine Choke/from Hindulotine#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

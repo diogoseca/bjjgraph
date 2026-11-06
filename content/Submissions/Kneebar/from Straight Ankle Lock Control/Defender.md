@@ -246,7 +246,7 @@ Defending the kneebar from straight ankle lock control requires recognizing the 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kneebar/from Straight Ankle Lock Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kneebar/from Straight Ankle Lock Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

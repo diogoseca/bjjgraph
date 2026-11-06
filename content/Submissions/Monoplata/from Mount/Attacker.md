@@ -296,7 +296,7 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Monoplata/from Mount#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Monoplata/from Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

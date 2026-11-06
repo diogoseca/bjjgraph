@@ -184,7 +184,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - **Weight distribution** - Shift weight to prevent opponent's hip escape while maintaining submission control
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -256,7 +256,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - Bottom player's hips close distance to yours and their chest reconnects after briefly creating space for grip entry
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

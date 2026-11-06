@@ -254,7 +254,7 @@ Defending the Flying Kneebar requires a two-phase approach: pre-contact recognit
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Flying Kneebar/from Standing Position#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Flying Kneebar/from Standing Position#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

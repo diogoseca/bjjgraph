@@ -250,7 +250,7 @@ Defending the Banana Split from the truck requires early recognition and immedia
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Banana Split/from Truck#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Banana Split/from Truck#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

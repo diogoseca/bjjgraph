@@ -186,7 +186,7 @@ Finishing from overhook control requires attention to body angle and hip positio
 - Keep the trapped arm elevated throughout the entire sequence - if it drops below shoulder line, the choke loses the arm-in configuration that creates bilateral compression
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Finishing from overhook control requires attention to body angle and hip positio
 - Attacker begins sprawling hips backward while maintaining upper body pressure, signaling the finishing sequence has begun
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

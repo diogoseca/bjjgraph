@@ -209,7 +209,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 - Release the neck: Open both hands and remove body pressure immediately on a tap.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -277,7 +277,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 - The attacker uses a stable guard connection so you cannot freely circle around the choke.
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

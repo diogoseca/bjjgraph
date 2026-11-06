@@ -231,7 +231,7 @@ Defending the Ezekiel Choke from side control bottom requires recognizing that t
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Ezekiel Choke/from Side Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Ezekiel Choke/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

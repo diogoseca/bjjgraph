@@ -206,7 +206,7 @@ In competition, the omoplata from established control carries a significantly hi
 - Use the free leg as a dynamic base and secondary control point, posting or hooking the far hip as needed
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -278,7 +278,7 @@ In competition, the omoplata from established control carries a significantly hi
 - You feel your face being driven toward the mat as the attacker drives their hips forward in the final phase of the finish
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

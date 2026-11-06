@@ -263,7 +263,7 @@ Attacking the Kimura from Twister Side Control requires recognizing the moment t
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Twister Side Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Twister Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

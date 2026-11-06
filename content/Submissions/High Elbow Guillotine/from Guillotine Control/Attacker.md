@@ -263,7 +263,7 @@ Attacking with the High Elbow Guillotine from Guillotine Control means you alrea
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/High Elbow Guillotine/from Guillotine Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/High Elbow Guillotine/from Guillotine Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

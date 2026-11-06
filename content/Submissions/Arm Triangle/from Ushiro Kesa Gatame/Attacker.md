@@ -57,7 +57,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Ushiro Kesa 
     {
       "@type": "HowToStep",
       "name": "Apply progressive squeeze",
-      "text": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other carotid from behind the neck. Apply slow, steady, progressive pressure over three to five seconds rather than explosive squeezing. Wait for the tap signal or feel the resistance fade as the bilateral carotid compression restricts blood flow to the brain.",
+      "text": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other carotid from behind the neck. Apply slow, steady, progressive pressure over three to five seconds rather than explosive squeezing. Wait for the tap signal as the bilateral carotid compression restricts blood flow to the brain.",
       "position": 7
     }
   ],
@@ -263,7 +263,7 @@ The Arm Triangle from Ushiro Kesa Gatame exploits the natural arm isolation of t
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Arm Triangle/from Ushiro Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Ushiro Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 
@@ -275,7 +275,7 @@ The Arm Triangle from Ushiro Kesa Gatame exploits the natural arm isolation of t
 4. **Lock the figure-four or gable grip**: Connect your hands by gripping your own bicep with the choking hand while your free hand cups behind the opponent's head to form a figure-four configuration. Alternatively, use a tight gable grip for maximum initial compression. The grip must lock the opponent's head and trapped arm together as a single unit with zero slack. Test the lock by squeezing gently — you should feel the configuration tighten with no gaps. (Timing: 1 second)
 5. **Walk to the perpendicular finishing angle**: Disengage your hips from the Ushiro Kesa Gatame configuration and walk your hips around toward the opponent's trapped-arm side until you are perpendicular to their body. Your chest should end up directly over their face. Each step incrementally tightens the choke by removing available space between your bodies. Maintain the grip tension throughout the walk-around so the configuration does not loosen during repositioning. (Timing: 2-4 seconds)
 6. **Drop hip and seal the position**: Drop your hip closest to the trapped arm to the mat, sprawling your weight onto the opponent's upper body. Your head drops low to the mat on the far side of their head. This seals the position by eliminating the space opponents use to breathe, create defensive frames, or turn their head away from the choke. Your body acts as a wall that completely encloses the opponent's head and trapped shoulder. (Timing: 1-2 seconds)
-7. **Apply progressive squeeze**: Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other carotid from behind the neck. Apply slow, steady, progressive pressure over three to five seconds rather than explosive squeezing. Wait for the tap signal or feel the resistance fade as the bilateral carotid compression restricts blood flow to the brain. (Timing: 3-8 seconds to finish)
+7. **Apply progressive squeeze**: Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other carotid from behind the neck. Apply slow, steady, progressive pressure over three to five seconds rather than explosive squeezing. Wait for the tap signal as the bilateral carotid compression restricts blood flow to the brain. (Timing: 3-8 seconds to finish)
 
 
 </section>

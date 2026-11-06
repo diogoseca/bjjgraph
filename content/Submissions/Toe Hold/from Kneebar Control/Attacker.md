@@ -281,7 +281,7 @@ Attacking with the toe hold from kneebar control exploits a fundamental defensiv
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Toe Hold/from Kneebar Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Toe Hold/from Kneebar Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

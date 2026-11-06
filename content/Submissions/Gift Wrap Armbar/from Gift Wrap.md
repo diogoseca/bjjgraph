@@ -186,7 +186,7 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 - Apply finishing pressure through progressive hip elevation rather than pulling the arm with upper body strength
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 - Attacker transitions grip from seatbelt or neck control to a two-on-one configuration on your free arm
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

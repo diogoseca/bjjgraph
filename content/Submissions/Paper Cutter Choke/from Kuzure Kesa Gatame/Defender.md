@@ -284,7 +284,7 @@ Defending the paper cutter choke from kuzure kesa-gatame requires recognizing th
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Paper Cutter Choke/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Paper Cutter Choke/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -282,7 +282,7 @@ Attacking the belly down armbar from New York requires converting your existing 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from New York#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from New York#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

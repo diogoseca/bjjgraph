@@ -257,7 +257,7 @@ Attacking the cross collar choke from body triangle gives you an exceptionally s
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from Body Triangle#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Cross Collar Choke/from Body Triangle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

@@ -317,7 +317,7 @@ Attacking the omoplata from Russian Leg Lasso leverages the existing lasso confi
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Omoplata/from Russian Leg Lasso#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Omoplata/from Russian Leg Lasso#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

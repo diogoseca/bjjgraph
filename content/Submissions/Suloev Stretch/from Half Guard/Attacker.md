@@ -286,7 +286,7 @@ Use a cooperative entry and stop at the aligned capture. Never drop onto the str
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Suloev Stretch/from Half Guard#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Suloev Stretch/from Half Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

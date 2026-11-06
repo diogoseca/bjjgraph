@@ -166,7 +166,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 - Secure dominant position control before attempting the submission to prevent counters
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 - Increasing pressure on the back of your elbow from a bony surface (shin bone) combined with wrist manipulation pulling your hand toward the opponent's body
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

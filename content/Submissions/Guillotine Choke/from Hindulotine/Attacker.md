@@ -303,7 +303,7 @@ If the opponent clears your legs to the weak side, stop trying to finish the gui
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Guillotine Choke/from Hindulotine#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Guillotine Choke/from Hindulotine#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

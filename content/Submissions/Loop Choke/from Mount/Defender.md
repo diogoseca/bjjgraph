@@ -238,7 +238,7 @@ Defending the Loop Choke from Mount requires immediate recognition and proactive
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Loop Choke/from Mount#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Loop Choke/from Mount#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

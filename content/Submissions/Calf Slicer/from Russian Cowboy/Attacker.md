@@ -218,7 +218,7 @@ Attacking with the calf slicer from Russian Cowboy requires precise timing of th
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Calf Slicer/from Russian Cowboy#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Russian Cowboy#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

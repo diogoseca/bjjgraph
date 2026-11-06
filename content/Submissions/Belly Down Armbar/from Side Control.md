@@ -204,7 +204,7 @@ This technique is particularly effective in competition because opponents defend
 - Keep hips heavy on the opponent's arm throughout the finish, never allowing space between your pelvis and their triceps
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ This technique is particularly effective in competition because opponents defend
 - Attacker shifts weight from perpendicular chest pressure to a more parallel orientation as they prepare to rotate over your arm
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

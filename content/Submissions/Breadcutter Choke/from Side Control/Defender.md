@@ -249,7 +249,7 @@ Defending the Breadcutter Choke from Side Control requires early recognition of 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Breadcutter Choke/from Side Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Breadcutter Choke/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

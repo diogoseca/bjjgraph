@@ -263,7 +263,7 @@ Defending the **Kimura from Half Guard** requires early recognition, disciplined
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Half Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kimura/from Half Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

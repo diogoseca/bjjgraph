@@ -257,7 +257,7 @@ The key to survival lies in prevention during the grip-setting phase rather than
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Loop Choke/from Closed Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Loop Choke/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

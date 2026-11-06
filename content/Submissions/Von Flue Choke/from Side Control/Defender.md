@@ -257,7 +257,7 @@ Defending the Von Flue Choke requires understanding a fundamental paradox: the t
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Von Flue Choke/from Side Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Von Flue Choke/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -170,7 +170,7 @@ Safety awareness is paramount when training this technique. The combination of t
 - Apply finishing pressure over a minimum of 5-7 seconds in training - the knee has minimal tolerance between safe pressure and catastrophic injury
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Safety awareness is paramount when training this technique. The combination of t
 - Opponent's free leg pushes against your chest or shoulder to create distance while they simultaneously tighten their prayer grip around your ankle and begin subtle hip extension
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

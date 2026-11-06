@@ -224,7 +224,7 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 - Progressive tightening allows your partner time to tap safely in training
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -300,7 +300,7 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 - You feel the bony edge of the opponent's forearm beginning to rotate and press against the front of your throat
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

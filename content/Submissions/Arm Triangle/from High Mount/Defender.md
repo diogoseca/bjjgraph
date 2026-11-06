@@ -272,7 +272,7 @@ Defending the arm triangle from high mount requires recognizing the setup before
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Arm Triangle/from High Mount#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Arm Triangle/from High Mount#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -230,7 +230,7 @@ Defending the Kimura from New York Control requires recognizing the transition f
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from New York Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kimura/from New York Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

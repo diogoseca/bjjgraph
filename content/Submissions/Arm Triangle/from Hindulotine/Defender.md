@@ -282,7 +282,7 @@ Protect the neck by keeping an early frame between the trapped shoulder and the 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Arm Triangle/from Hindulotine#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Arm Triangle/from Hindulotine#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -266,7 +266,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Bicep Slicer/from Crucifix#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Bicep Slicer/from Crucifix#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

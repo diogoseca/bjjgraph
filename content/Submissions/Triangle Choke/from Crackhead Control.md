@@ -170,7 +170,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Open legs and remove neck pressure: Release fully on any tap or verbal signal. Any loss of responsiveness ends the drill immediately.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -236,7 +236,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Bring the leg across the shoulder line while preserving a comfortable hip and knee angle.
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

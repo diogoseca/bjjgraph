@@ -230,7 +230,7 @@ Defending the toe hold from Inside Sankaku demands immediate recognition and pro
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Toe Hold/from Inside Sankaku#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Inside Sankaku#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -240,7 +240,7 @@ Defending the belly down armbar finish from Spider Guard requires recognizing th
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Spider Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Belly Down Armbar/from Spider Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

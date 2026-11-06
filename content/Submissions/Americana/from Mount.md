@@ -188,7 +188,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 - Create the figure-four grip with your hand on their wrist and your other hand controlling your own wrist for maximum leverage
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -262,7 +262,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 - You feel your arm being externally rotated with your elbow controlled at or below shoulder level
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

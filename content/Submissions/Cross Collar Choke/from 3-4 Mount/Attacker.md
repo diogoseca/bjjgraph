@@ -263,7 +263,7 @@ Attacking with the cross collar choke from 3-4 mount requires systematic grip in
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from 3-4 Mount#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Cross Collar Choke/from 3-4 Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

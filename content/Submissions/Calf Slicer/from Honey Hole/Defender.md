@@ -192,7 +192,7 @@ Defending the calf slicer from Honey Hole requires immediate recognition of the 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Calf Slicer/from Honey Hole#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Calf Slicer/from Honey Hole#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

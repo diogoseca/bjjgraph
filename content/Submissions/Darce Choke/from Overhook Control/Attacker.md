@@ -275,7 +275,7 @@ Executing the Darce Choke from Overhook Control requires converting your existin
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Darce Choke/from Overhook Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Darce Choke/from Overhook Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

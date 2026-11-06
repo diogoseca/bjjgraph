@@ -188,7 +188,7 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 - Recognize that the Estima Lock and heel hook form a self-defending submission pair from Saddle
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 - You feel the attacker's armpit or chest contact the top of your foot while the Saddle entanglement remains locked
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

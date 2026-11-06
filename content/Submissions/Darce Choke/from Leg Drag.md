@@ -223,7 +223,7 @@ This submission represents a high-percentage finishing option within the leg dra
 - Angle your body perpendicular to the opponent's spine for maximum bilateral carotid compression
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ This submission represents a high-percentage finishing option within the leg dra
 
 - **Apply finishing pressure**: With the grip locked and your body perpendicular, apply finishing pressure by driving your hips towa...
 
-- **Monitor opponent response and adjust angle**: Watch for tap signals including hand taps, foot taps, verbal signals, or the opponent going limp. If...
+- **Monitor opponent response and adjust angle**: Watch for tap signals including hand taps, foot taps, or verbal signals. If the opponent is defendin...
 
 
 ### Common Mistakes
@@ -297,7 +297,7 @@ This submission represents a high-percentage finishing option within the leg dra
 - Opponent's free hand reaches toward their own bicep area, indicating they are about to lock the figure-four grip
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

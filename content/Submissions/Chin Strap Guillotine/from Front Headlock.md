@@ -168,7 +168,7 @@ The submission works exceptionally well in no-gi situations where collar grips a
 - Apply pressure progressively by tightening the arm configuration and expanding your chest for the final finish
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -244,7 +244,7 @@ The submission works exceptionally well in no-gi situations where collar grips a
 - Attacker's legs begin actively controlling your hips through guard closure, hooks, or sprawl pressure while maintaining the front headlock grip
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

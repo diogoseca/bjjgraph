@@ -186,7 +186,7 @@ This submission demands precise timing during the transition from guard retentio
 - Use your chest and both hands to pin the wrist against your sternum during the prone finish for maximum control
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ This submission demands precise timing during the transition from guard retentio
 - Guard player's hips begin rotating toward the mat as they initiate the belly-down turn with your arm trapped between their knees
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

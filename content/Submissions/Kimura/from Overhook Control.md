@@ -186,7 +186,7 @@ Finishing the Kimura from overhook control often requires different body mechani
 - Treat the grip switch as the critical moment requiring maximum speed and precision, since this is the defender's primary escape window
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Finishing the Kimura from overhook control often requires different body mechani
 - Attacker's hips begin shifting to create a perpendicular angle to your shoulder, indicating they are setting up the finishing position for rotational torque
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

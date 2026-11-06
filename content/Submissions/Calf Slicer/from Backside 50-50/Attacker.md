@@ -299,7 +299,7 @@ Attacking the calf slicer from backside 50-50 requires threading your shin behin
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Calf Slicer/from Backside 50-50#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Backside 50-50#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

@@ -230,7 +230,7 @@ Defending the omoplata from inverted guard requires recognizing the setup early 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Omoplata/from Inverted Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Omoplata/from Inverted Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

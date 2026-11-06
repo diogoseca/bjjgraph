@@ -227,7 +227,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Boston Crab/from Turtle#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Boston Crab/from Turtle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

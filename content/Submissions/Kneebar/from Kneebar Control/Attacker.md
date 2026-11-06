@@ -257,7 +257,7 @@ Attacking with the kneebar from kneebar control requires methodical execution th
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from Kneebar Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from Kneebar Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

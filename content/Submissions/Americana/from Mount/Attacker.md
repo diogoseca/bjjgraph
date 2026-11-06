@@ -281,7 +281,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Americana/from Mount#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

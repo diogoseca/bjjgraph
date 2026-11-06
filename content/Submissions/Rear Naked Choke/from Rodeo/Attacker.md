@@ -264,7 +264,7 @@ Executing the Rear Naked Choke from Rodeo Ride requires integrating positional c
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Rodeo#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Rodeo#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 
@@ -275,7 +275,7 @@ Executing the Rear Naked Choke from Rodeo Ride requires integrating positional c
 3. **Thread the Choking Arm**: Slide your choking arm from the over-shoulder position under the opponent's chin, targeting the throat line where your forearm will compress the carotid arteries bilaterally. Enter from above the shoulder, curving the forearm around the neck so your bicep contacts one side and your forearm bone contacts the other side. The crook of your elbow should center on the opponent's trachea to avoid windpipe compression. (Timing: 2-4 seconds—speed matters here to beat the opponent's chin defense)
 4. **Establish Figure-Four Lock**: Bring your supporting hand behind the opponent's head and connect it to the choking arm's bicep, forming the classic rear naked choke figure-four configuration. Your supporting hand grips your own bicep while the choking hand reaches behind the opponent's head or onto your own shoulder to create a closed mechanical loop that distributes force evenly around the neck circumference. (Timing: 1-3 seconds to complete the grip connection)
 5. **Set Finishing Angle**: Adjust your hip position and chest angle to maximize the choking pressure vector. Drive your hips forward into the opponent's lower back while your chest presses against their upper back. This angle prevents them from tucking forward to relieve pressure and creates the structural alignment needed for the squeeze to compress both carotid arteries simultaneously rather than sliding off to one side. (Timing: 1-2 seconds for final positional adjustment)
-6. **Apply Progressive Squeeze**: Finish the choke by expanding your chest against the opponent's back while simultaneously drawing your elbows together and toward your own centerline. Generate pressure through controlled chest expansion and elbow retraction rather than arm squeezing alone. This produces sustainable mechanical pressure that increases progressively without burning out your arms or creating jerking force. (Timing: 3-8 seconds of progressive pressure until tap or unconsciousness)
+6. **Apply Progressive Squeeze**: Finish the choke by expanding your chest against the opponent's back while simultaneously drawing your elbows together and toward your own centerline. Generate pressure through controlled chest expansion and elbow retraction rather than arm squeezing alone. This produces sustainable mechanical pressure that increases progressively without burning out your arms or creating jerking force. (Timing: 3-8 seconds of progressive pressure until tap)
 7. **Maintain Control Through Finish**: Keep hip pressure and chest connection throughout the entire finishing sequence to prevent the opponent from creating space or initiating escape movements. If the opponent moves or adjusts during the squeeze, follow their movement while maintaining choke pressure. Do not release positional control to chase a tighter grip—the position enables the finish, not the other way around. (Timing: Continuous throughout squeeze until submission is achieved)
 
 

@@ -263,7 +263,7 @@ Finishing the triangle choke from triangle control requires mastering three simu
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Triangle Choke/from Triangle Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Triangle Choke/from Triangle Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

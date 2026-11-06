@@ -168,7 +168,7 @@ Strategically, this submission punishes opponents who remain passive under the U
 - Drop your head low to the mat on the far side of the opponent's head to seal the choke and eliminate space for head rotation or frame insertion
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Strategically, this submission punishes opponents who remain passive under the U
 - The attacker's head drops low to the mat on the far side of your head, sealing the last escape space in the arm triangle configuration
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

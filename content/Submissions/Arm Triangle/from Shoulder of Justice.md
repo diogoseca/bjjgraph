@@ -204,7 +204,7 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 - Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent frame escapes
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 - The attacker's head drops low to the mat on the far side of your head as they settle into the finishing position with their hip on the mat
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

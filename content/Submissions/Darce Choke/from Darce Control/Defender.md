@@ -264,7 +264,7 @@ Defending the Darce Choke from established Darce Control is one of the most urge
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Darce Choke/from Darce Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Darce Choke/from Darce Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

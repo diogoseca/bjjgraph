@@ -186,7 +186,7 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 - Keep hooks active and engaged to prevent the opponent from using hip escapes or turns as an alternative to hand-fighting the choking arm
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 - Opponent adjusts hook depth or body angle to optimize leverage for the arm advancement, often arching slightly or shifting hips
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

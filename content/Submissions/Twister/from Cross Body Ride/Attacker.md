@@ -264,7 +264,7 @@ Attacking with the Twister from Cross Body Ride requires mastery of the sequenti
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Twister/from Cross Body Ride#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Twister/from Cross Body Ride#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

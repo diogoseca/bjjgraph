@@ -238,7 +238,7 @@ Defending against the Twister from Cross Body Ride demands early recognition and
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Twister/from Cross Body Ride#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Twister/from Cross Body Ride#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

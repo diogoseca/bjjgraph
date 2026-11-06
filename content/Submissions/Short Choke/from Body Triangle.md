@@ -129,7 +129,7 @@ What distinguishes this variant from other short choke entries is the stability 
 - Be patient with the lapel feed rather than forcing it—rushed attempts telegraph your intention and give the defender time to tuck their chin
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -199,7 +199,7 @@ What distinguishes this variant from other short choke entries is the stability 
 - Pressure shifts from general back control to targeted collar manipulation—the opponent's grip changes from controlling your torso to working your gi fabric
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

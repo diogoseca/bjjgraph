@@ -276,7 +276,7 @@ Attacking the outside heel hook from outside ashi-garami requires establishing p
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Outside Heel Hook/from Outside Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Outside Heel Hook/from Outside Ashi-Garami#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

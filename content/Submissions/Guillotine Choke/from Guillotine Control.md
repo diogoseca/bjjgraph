@@ -170,7 +170,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 - Maintain readiness to convert failed finish attempts into positional advancement when choke defense opens other opportunities
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -187,7 +187,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 - **Angle adjustment for maximum compression**: Rotate your body slightly toward the choking side to optimize the angle of forearm pressure against ...
 
-- **Maintain and follow through finish**: Hold steady pressure as the choke takes effect. Do not release or readjust once you feel the opponen...
+- **Maintain and follow through finish**: Hold steady pressure as the choke takes effect. Maintain the exact position and pressure that is wor...
 
 
 ### Common Mistakes
@@ -246,7 +246,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 - Difficulty breathing or sudden lightheadedness indicating blood flow restriction has begun
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

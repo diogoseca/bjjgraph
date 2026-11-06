@@ -186,7 +186,7 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 - Chain between heel hook and toe hold threats to create an unsolvable dilemma where every defense opens another attack
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 - A figure-four wrist lock establishes under your foot with blade pressure against the ball of your foot
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

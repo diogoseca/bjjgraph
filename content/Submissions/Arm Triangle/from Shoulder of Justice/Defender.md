@@ -254,7 +254,7 @@ Defending the Arm Triangle from Shoulder of Justice begins with understanding th
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Arm Triangle/from Shoulder of Justice#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Arm Triangle/from Shoulder of Justice#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

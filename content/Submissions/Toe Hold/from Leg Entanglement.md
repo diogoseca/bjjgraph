@@ -202,7 +202,7 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 - Maintain the leg entanglement structure throughout the entire finishing sequence to prevent escape during grip transitions
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -274,7 +274,7 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 - The attacker drives their hips noticeably closer to your ankle while maintaining their entanglement hooks
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

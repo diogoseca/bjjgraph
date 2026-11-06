@@ -57,7 +57,7 @@ description: "Step-by-step guide to finishing the arm triangle from Kuzure Kesa 
     {
       "@type": "HowToStep",
       "name": "Apply progressive chest compression",
-      "text": "Expand your chest while pulling your elbows together toward your centerline. The opponent's own trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure over 3-5 seconds rather than explosive squeezing. Wait for the tap signal or feel the resistance fade completely before releasing.",
+      "text": "Expand your chest while pulling your elbows together toward your centerline. The opponent's own trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure over 3-5 seconds rather than explosive squeezing. Wait for the tap signal before releasing.",
       "position": 7
     }
   ],
@@ -263,7 +263,7 @@ Attacking the arm triangle from Kuzure Kesa Gatame leverages the position's buil
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Arm Triangle/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 
@@ -275,7 +275,7 @@ Attacking the arm triangle from Kuzure Kesa Gatame leverages the position's buil
 4. **Lock the figure-four or gable grip**: Connect your hands by gripping your own bicep with the choking hand while your free hand cups behind the opponent's head, forming a figure-four lock. Alternatively, use a tight gable grip for maximum compression. The configuration must lock the opponent's head and trapped arm together as a single unit with zero slack in the system. (Timing: 1 second)
 5. **Walk to the perpendicular finishing angle**: Disengage your hips from the scarf hold position and walk them around toward the opponent's trapped-arm side until you reach a perpendicular angle relative to their body. Your chest should be directly over their face. Each step around tightens the head-and-arm configuration by progressively removing available space between your bodies. (Timing: 2-4 seconds)
 6. **Drop hip and seal the position**: Drop your hip closest to the trapped arm to the mat, sprawling your weight onto the opponent's upper body. Lower your head to the mat on the far side of their head to create a complete seal that prevents the opponent from turning their head away from the choke or creating any breathing space. (Timing: 1-2 seconds)
-7. **Apply progressive chest compression**: Expand your chest while pulling your elbows together toward your centerline. The opponent's own trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure over 3-5 seconds rather than explosive squeezing. Wait for the tap signal or feel the resistance fade completely before releasing. (Timing: 3-8 seconds to finish)
+7. **Apply progressive chest compression**: Expand your chest while pulling your elbows together toward your centerline. The opponent's own trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure over 3-5 seconds rather than explosive squeezing. Wait for the tap signal before releasing. (Timing: 3-8 seconds to finish)
 
 
 </section>

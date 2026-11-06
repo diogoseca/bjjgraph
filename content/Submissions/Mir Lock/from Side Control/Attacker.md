@@ -227,7 +227,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Mir Lock/from Side Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Mir Lock/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

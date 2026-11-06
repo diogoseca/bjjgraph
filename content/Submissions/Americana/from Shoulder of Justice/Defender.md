@@ -237,7 +237,7 @@ Defending the Americana from Shoulder of Justice requires discipline under extre
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Americana/from Shoulder of Justice#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Americana/from Shoulder of Justice#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

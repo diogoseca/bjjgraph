@@ -223,7 +223,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Invisible Collar Choke#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Invisible Collar Choke#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

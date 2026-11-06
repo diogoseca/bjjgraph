@@ -231,7 +231,7 @@ Defending the toe hold from leg entanglement begins with early recognition of th
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Toe Hold/from Leg Entanglement#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Leg Entanglement#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

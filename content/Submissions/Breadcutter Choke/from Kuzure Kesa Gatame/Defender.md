@@ -191,7 +191,7 @@ Defending the Breadcutter Choke from Kuzure Kesa Gatame demands early recognitio
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Breadcutter Choke/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Breadcutter Choke/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -254,7 +254,7 @@ Defending the Arm Triangle from Twister Side Control requires recognizing the cr
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Arm Triangle/from Twister Side Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Arm Triangle/from Twister Side Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

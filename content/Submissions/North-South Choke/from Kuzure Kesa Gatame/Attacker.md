@@ -257,7 +257,7 @@ Attacking with the North-South Choke from Kuzure Kesa Gatame requires understand
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/North-South Choke/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/North-South Choke/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

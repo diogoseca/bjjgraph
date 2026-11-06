@@ -131,7 +131,7 @@ The choke operates on blood restriction principles, compressing the carotid arte
 - Position the forearm blade across both carotid arteries simultaneously for a bilateral blood choke rather than a tracheal compression
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -205,7 +205,7 @@ The choke operates on blood restriction principles, compressing the carotid arte
 - Attacker releases one grip from standard cross body control to begin threading the choking arm, creating a momentary reduction in overall positional pressure
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

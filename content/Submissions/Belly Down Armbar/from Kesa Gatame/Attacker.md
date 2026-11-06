@@ -224,7 +224,7 @@ Attacking with the belly down armbar from Kesa Gatame requires precise sequencin
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

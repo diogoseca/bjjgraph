@@ -236,7 +236,7 @@ Defending the Kimura from Gift Wrap requires recognizing the submission threat w
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Gift Wrap#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kimura/from Gift Wrap#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

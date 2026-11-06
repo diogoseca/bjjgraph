@@ -222,7 +222,7 @@ This submission integrates naturally into the Kimura Trap system used extensivel
 - Maintain the bottom leg hook throughout the attack to prevent the opponent from stepping over and extracting
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -292,7 +292,7 @@ This submission integrates naturally into the Kimura Trap system used extensivel
 - Opponent's far arm threads underneath your tricep, seeking the figure-four connection on the other side of your arm
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

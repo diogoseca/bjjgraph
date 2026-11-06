@@ -262,7 +262,7 @@ Attacking with the North-South Choke from Side Control requires mastering a seam
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/North-South Choke/from Side Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/North-South Choke/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

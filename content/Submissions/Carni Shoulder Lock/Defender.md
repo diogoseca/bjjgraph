@@ -181,7 +181,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Carni Shoulder Lock#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Carni Shoulder Lock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -278,7 +278,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Armbar/from Guard#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Armbar/from Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

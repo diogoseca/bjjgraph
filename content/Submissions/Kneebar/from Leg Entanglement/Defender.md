@@ -233,7 +233,7 @@ Critical safety awareness is paramount. Never attempt explosive rotational escap
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kneebar/from Leg Entanglement#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kneebar/from Leg Entanglement#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

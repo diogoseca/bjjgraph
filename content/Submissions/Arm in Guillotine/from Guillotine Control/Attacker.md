@@ -263,7 +263,7 @@ Executing the arm-in guillotine from guillotine control requires precise grip ad
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Arm in Guillotine/from Guillotine Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Arm in Guillotine/from Guillotine Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

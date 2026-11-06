@@ -294,7 +294,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from Half Guard#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from Half Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

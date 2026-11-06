@@ -293,7 +293,7 @@ Attacking the Omoplata from Butterfly Guard requires mastery of the transition f
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Omoplata/from Butterfly Guard#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Omoplata/from Butterfly Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

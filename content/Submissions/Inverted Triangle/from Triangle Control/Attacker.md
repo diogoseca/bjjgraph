@@ -299,7 +299,7 @@ Executing the inverted triangle from triangle control requires precise hip rotat
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Inverted Triangle/from Triangle Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Inverted Triangle/from Triangle Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

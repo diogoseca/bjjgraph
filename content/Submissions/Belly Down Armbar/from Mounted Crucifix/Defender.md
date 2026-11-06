@@ -189,7 +189,7 @@ Defending the belly down armbar from mounted crucifix requires recognizing the a
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Mounted Crucifix#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Belly Down Armbar/from Mounted Crucifix#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

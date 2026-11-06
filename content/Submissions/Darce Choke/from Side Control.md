@@ -226,7 +226,7 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 - Release pressure immediately when the partner taps or shows distress
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -296,7 +296,7 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 - The attacker brings their hips close and drops toward a shoulder-roll angle
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

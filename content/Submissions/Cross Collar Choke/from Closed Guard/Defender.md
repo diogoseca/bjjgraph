@@ -254,7 +254,7 @@ Defending the cross collar choke from closed guard demands constant awareness of
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from Closed Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Cross Collar Choke/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

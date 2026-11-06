@@ -263,7 +263,7 @@ The Kimura from Crucifix exploits the defining advantage of crucifix position: c
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Crucifix#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Crucifix#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

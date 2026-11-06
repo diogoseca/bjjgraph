@@ -242,7 +242,7 @@ From a strategic perspective, the most effective americana defense creates offen
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Americana/from Mount#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Americana/from Mount#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

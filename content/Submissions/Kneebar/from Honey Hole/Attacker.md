@@ -281,7 +281,7 @@ Attacking the kneebar from Honey Hole leverages the inside leg triangle control 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from Honey Hole#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from Honey Hole#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

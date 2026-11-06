@@ -236,7 +236,7 @@ Defending the Kimura from Butterfly Guard requires early recognition of the grip
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Butterfly Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kimura/from Butterfly Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

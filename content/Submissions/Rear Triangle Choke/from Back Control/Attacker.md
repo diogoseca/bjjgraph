@@ -300,7 +300,7 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Rear Triangle Choke/from Back Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Rear Triangle Choke/from Back Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

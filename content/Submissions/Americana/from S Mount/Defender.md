@@ -236,7 +236,7 @@ Defending the Americana from S Mount demands immediate recognition of the figure
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Americana/from S Mount#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Americana/from S Mount#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

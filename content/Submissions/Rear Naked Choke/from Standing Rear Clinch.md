@@ -187,7 +187,7 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 - Time the choking arm transition when opponent is focused on other defensive priorities such as grip fighting, base recovery, or takedown defense
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -263,7 +263,7 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 - Opponent begins walking you backward to compromise your base and force your chin up through postural extension
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

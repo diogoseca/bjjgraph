@@ -255,7 +255,7 @@ Defending the cross collar choke from knee on belly requires managing two simult
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from Knee on Belly#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Cross Collar Choke/from Knee on Belly#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

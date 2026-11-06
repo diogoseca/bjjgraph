@@ -186,7 +186,7 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 - Monitor the opponent's free leg constantly to defend against frames, counter-entanglement attempts, and pushes that create escape space
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 - Initial wrist rotation begins generating twisting pressure on your ankle joint, signaling the transition from positional control to active finishing sequence
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

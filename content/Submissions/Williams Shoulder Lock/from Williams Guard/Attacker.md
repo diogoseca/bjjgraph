@@ -264,7 +264,7 @@ The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint th
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Williams Shoulder Lock/from Williams Guard#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Williams Shoulder Lock/from Williams Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

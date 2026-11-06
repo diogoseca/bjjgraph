@@ -168,7 +168,7 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 - Keep hooks or body triangle secure as the foundation; losing back control negates the arm trap advantage entirely
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 - The attacker's hook pressure changes as they reposition to drive the shoulder of the choking arm into the back of your head
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

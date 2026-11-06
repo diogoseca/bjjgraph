@@ -129,7 +129,7 @@ This submission carries extreme injury risk due to the nature of rotational heel
 - Maintain positional base throughout the attack: keep your upper body connected and hips heavy to prevent the opponent from sitting up or creating distance during the finishing sequence
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -203,7 +203,7 @@ This submission carries extreme injury risk due to the nature of rotational heel
 - Attacker pinches their knees together around your thigh above the knee, establishing the knee line control that blocks spinning defense
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

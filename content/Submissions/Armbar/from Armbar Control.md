@@ -188,7 +188,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 - Control the opponent's thumb-up orientation to ensure the elbow hyperextension plane aligns with your hip elevation vector
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -264,7 +264,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 - You feel progressive upward pressure on the back of your elbow as the attacker initiates the glute bridge—this is the final finishing motion and signals maximum urgency
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

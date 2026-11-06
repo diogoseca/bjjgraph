@@ -226,7 +226,7 @@ The kneebar from Backside 50-50 represents a high-percentage secondary attack fr
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from Backside 50-50#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from Backside 50-50#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

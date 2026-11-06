@@ -169,7 +169,7 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 - Prioritize position retention over premature finishing attempts when the opponent's defensive grips are strong and established
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -243,7 +243,7 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 - Attacker's upper body begins rotating as a unit, indicating imminent application of finishing rotational force
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

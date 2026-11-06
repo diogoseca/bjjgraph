@@ -255,7 +255,7 @@ Defending the Kimura from Side Control requires immediate recognition and proact
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Side Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kimura/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

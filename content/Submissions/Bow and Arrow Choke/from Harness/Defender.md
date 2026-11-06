@@ -247,7 +247,7 @@ Defending the Bow and Arrow Choke from Harness requires early recognition and im
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Bow and Arrow Choke/from Harness#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Bow and Arrow Choke/from Harness#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

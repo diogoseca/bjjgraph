@@ -204,7 +204,7 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 - Keep knees squeezed against opponent's ribs during the finish to prevent hip escape and guard recovery
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 - Opponent threads a second hand under the first arm reaching for the opposite collar, forming the telltale X-shape across your neck
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

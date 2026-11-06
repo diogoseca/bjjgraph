@@ -204,7 +204,7 @@ This submission chain is particularly effective because the Shoulder of Justice 
 - Squeeze elbows together using chest and back muscles rather than pulling with arms to generate sustainable choking pressure
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -278,7 +278,7 @@ This submission chain is particularly effective because the Shoulder of Justice 
 - Opponent's free hand reaches toward the threading arm to establish a grip connection around your neck
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

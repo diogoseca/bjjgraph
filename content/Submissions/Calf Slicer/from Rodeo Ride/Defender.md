@@ -190,7 +190,7 @@ Defending the Calf Slicer from Rodeo Ride requires immediate recognition of the 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Calf Slicer/from Rodeo Ride#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Calf Slicer/from Rodeo Ride#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

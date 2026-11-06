@@ -278,7 +278,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Mount#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

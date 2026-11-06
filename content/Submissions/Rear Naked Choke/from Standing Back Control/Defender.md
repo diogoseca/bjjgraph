@@ -244,7 +244,7 @@ Defending the rear naked choke from standing back control is one of the most urg
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Standing Back Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Rear Naked Choke/from Standing Back Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

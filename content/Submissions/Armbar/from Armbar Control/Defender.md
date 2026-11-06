@@ -268,7 +268,7 @@ Strategically, the defender must recognize the difference between early-phase de
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Armbar/from Armbar Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Armbar/from Armbar Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -269,7 +269,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Triangle Choke Side/from Side Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Triangle Choke Side/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

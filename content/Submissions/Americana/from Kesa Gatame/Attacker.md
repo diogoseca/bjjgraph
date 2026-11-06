@@ -287,7 +287,7 @@ Executing the Americana from Kesa Gatame requires precise sequencing of grip tra
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Americana/from Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

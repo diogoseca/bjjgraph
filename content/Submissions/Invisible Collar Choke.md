@@ -131,7 +131,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Unload the neck at the first signal: Stop at a hand tap, foot tap, verbal signal or distress. Remove choke pressure before opening the legs.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -197,7 +197,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Keep both raised knees supported through the hip angle while maintaining the enclosure.
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

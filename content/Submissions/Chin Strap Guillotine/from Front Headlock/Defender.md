@@ -209,7 +209,7 @@ The defensive hierarchy follows three priorities: first, protect the neck by tuc
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Chin Strap Guillotine/from Front Headlock#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Chin Strap Guillotine/from Front Headlock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

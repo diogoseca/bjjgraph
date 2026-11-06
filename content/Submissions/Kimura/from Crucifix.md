@@ -168,7 +168,7 @@ Strategically, the Kimura from Crucifix rewards patient practitioners who establ
 - Transition between choke threats and Kimura seamlessly—when the opponent defends the neck, the arm becomes exposed, creating a forced-choice dilemma
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Strategically, the Kimura from Crucifix rewards patient practitioners who establ
 - Feeling the attacker's palm wrapping around the back of your wrist or forearm in the distinctive double-wrist Kimura grip
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

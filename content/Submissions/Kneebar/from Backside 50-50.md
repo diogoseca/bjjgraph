@@ -170,7 +170,7 @@ This technique functions as a critical secondary attack within the Backside 50-5
 - Maintain upper body control with your free leg to prevent the opponent from sitting up and facing you
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ This technique functions as a critical secondary attack within the Backside 50-5
 - Attacker's inside leg begins threading across your thigh to establish the figure-four leg triangle while their free leg pushes against your upper body to create distance and prevent you from sitting up
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

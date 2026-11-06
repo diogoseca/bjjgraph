@@ -237,7 +237,7 @@ Defending the Inside Heel Hook from Honey Hole is one of the most critical survi
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Inside Heel Hook/from Honey Hole#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Inside Heel Hook/from Honey Hole#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

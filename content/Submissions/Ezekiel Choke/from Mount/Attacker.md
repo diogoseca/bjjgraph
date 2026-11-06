@@ -281,7 +281,7 @@ Attacking with the Ezekiel Choke from mount combines the dominant position's cru
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Ezekiel Choke/from Mount#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Ezekiel Choke/from Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

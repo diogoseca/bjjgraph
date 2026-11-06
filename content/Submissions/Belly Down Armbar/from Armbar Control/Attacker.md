@@ -280,7 +280,7 @@ Attacking with the belly down armbar finish from armbar control requires recogni
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Armbar Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Armbar Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

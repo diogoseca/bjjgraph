@@ -262,7 +262,7 @@ Executing the calf slicer from twister side control leverages the position's inh
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Calf Slicer/from Twister Side Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Twister Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

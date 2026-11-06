@@ -168,7 +168,7 @@ From a strategic standpoint, this submission creates a powerful dilemma within t
 - The belly down finish uses bodyweight and hip extension, not arm pulling - let gravity and structure do the work rather than muscular effort
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ From a strategic standpoint, this submission creates a powerful dilemma within t
 - Your arm is being pulled tight against the attacker's body with increasing wrist pressure while their leg weight shifts off your shoulder
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

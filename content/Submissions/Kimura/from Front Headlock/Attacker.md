@@ -280,7 +280,7 @@ The Kimura from front headlock attacks the near arm when the opponent successful
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Front Headlock#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Front Headlock#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

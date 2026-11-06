@@ -189,7 +189,7 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 - Ramp slowly on every repetition; the tendon fails faster than a partner can tap
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,7 +259,7 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 - Their shoulders begin travelling back over their hips — the extension is starting and the window is closing
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

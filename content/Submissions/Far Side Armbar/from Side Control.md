@@ -170,7 +170,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 - Control the opponent's head or near arm to prevent defensive turns
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -246,7 +246,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 - You feel your far arm being clamped tightly against the attacker's chest with their elbow squeezing to their ribs
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

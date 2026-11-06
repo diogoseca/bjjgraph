@@ -281,7 +281,7 @@ Attacking with the Kimura from Overhook Control requires converting your existin
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Overhook Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Overhook Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

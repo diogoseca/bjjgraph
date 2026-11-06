@@ -264,7 +264,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Triangle Choke/from Closed Guard#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Triangle Choke/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

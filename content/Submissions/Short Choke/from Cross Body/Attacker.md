@@ -225,7 +225,7 @@ Executing the Short Choke from Cross Body requires precise arm threading under t
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Short Choke/from Cross Body#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Short Choke/from Cross Body#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

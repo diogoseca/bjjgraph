@@ -205,7 +205,7 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 - Control the defender's head with your leg to prevent them from sitting up during the finishing sequence
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -279,7 +279,7 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 - You feel your arm being pulled across the attacker's centerline away from your body
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

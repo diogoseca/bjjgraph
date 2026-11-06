@@ -293,7 +293,7 @@ Attacking with the calf slicer from saddle requires understanding how the saddle
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Calf Slicer/from Saddle#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Saddle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

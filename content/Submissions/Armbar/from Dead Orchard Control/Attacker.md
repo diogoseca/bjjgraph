@@ -223,7 +223,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Armbar/from Dead Orchard Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Armbar/from Dead Orchard Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

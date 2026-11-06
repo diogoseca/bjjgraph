@@ -255,7 +255,7 @@ Defending the heel hook from 50-50 Guard requires immediate recognition and prio
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Heel Hook/from 50-50 Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Heel Hook/from 50-50 Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

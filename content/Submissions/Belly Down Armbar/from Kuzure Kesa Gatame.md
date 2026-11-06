@@ -129,7 +129,7 @@ From a strategic perspective, this finish serves as a high-percentage completion
 - Keep the opponent's thumb pointing toward the ceiling to ensure the elbow joint is aligned for hyperextension
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -201,7 +201,7 @@ From a strategic perspective, this finish serves as a high-percentage completion
 - Attacker's chest lifts away from your upper body and their hip separates from your ribs as they initiate the rotation
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -188,7 +188,7 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 - Chain the submission threat with Old School sweep setups to prevent single-dimensional defense
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -266,7 +266,7 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 - Sensation of your legs being progressively split apart with diminishing ability to bring them back together
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

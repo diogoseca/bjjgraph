@@ -299,7 +299,7 @@ Attacking the belly down armbar from side control requires methodical arm isolat
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Side Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

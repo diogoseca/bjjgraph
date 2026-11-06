@@ -209,7 +209,7 @@ Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](ht
 - Release at the first signal: Open the arm loop and take pressure off the trapped shoulder immediately.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -277,7 +277,7 @@ Instructional sources: [Stephan Kesting — head-and-arm choke / kata gatame](ht
 - The attacker closes the arm loop without changing your neck into a twisting position.
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

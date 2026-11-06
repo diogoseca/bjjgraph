@@ -168,7 +168,7 @@ Strategically, this submission fits within a larger Gift Wrap attack system wher
 - Use the Kimura threat to chain into other attacks when the opponent defends
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ Strategically, this submission fits within a larger Gift Wrap attack system wher
 - Attacker's body weight settles to one side with increased pressure on the trapped arm shoulder
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

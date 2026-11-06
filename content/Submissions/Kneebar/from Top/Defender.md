@@ -266,7 +266,7 @@ Defending the kneebar from top position requires a fundamentally different minds
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kneebar/from Top#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kneebar/from Top#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

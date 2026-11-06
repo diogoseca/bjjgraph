@@ -280,7 +280,7 @@ Executing the kneebar from toe hold control requires reading your opponent's def
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from Toe Hold Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from Toe Hold Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

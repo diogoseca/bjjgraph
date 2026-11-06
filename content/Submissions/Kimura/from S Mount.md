@@ -186,7 +186,7 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 - Control the pace of rotation progressively in training, never jerking or spiking the shoulder joint
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 - Your bent-arm defense against the armbar suddenly feels like it is being exploited rather than resisted
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -263,7 +263,7 @@ Defending the Kimura from Modified Mount requires understanding that the opponen
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Modified Mount#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kimura/from Modified Mount#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

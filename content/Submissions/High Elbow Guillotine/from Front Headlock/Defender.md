@@ -229,7 +229,7 @@ Defending the High Elbow Guillotine from Front Headlock requires early recogniti
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/High Elbow Guillotine/from Front Headlock#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/High Elbow Guillotine/from Front Headlock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

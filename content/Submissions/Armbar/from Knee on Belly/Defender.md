@@ -223,7 +223,7 @@ Defending the armbar from knee on belly requires understanding the attack's trig
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Armbar/from Knee on Belly#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Armbar/from Knee on Belly#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

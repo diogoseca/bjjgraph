@@ -283,7 +283,7 @@ The loop choke from turtle leverages the attacker's positional advantage over a 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Loop Choke/from Turtle#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Loop Choke/from Turtle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

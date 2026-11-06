@@ -262,7 +262,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Omoplata/from Crackhead Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Omoplata/from Crackhead Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

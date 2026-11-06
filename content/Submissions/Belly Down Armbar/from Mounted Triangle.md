@@ -170,7 +170,7 @@ Strategically, this finish represents a high-percentage option when the defender
 - Time the rotation when the defender commits to defending the triangle choke rather than protecting the arm
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -244,7 +244,7 @@ Strategically, this finish represents a high-percentage option when the defender
 - Attacker's weight shifts laterally as they initiate the rotational movement over your arm
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -238,7 +238,7 @@ Defending the heel hook from saddle is among the most urgent and dangerous defen
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Heel Hook/from Saddle#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Heel Hook/from Saddle#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

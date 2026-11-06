@@ -240,7 +240,7 @@ The most effective gogoplata defense operates on a timeline: early recognition w
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Gogoplata/from Gogoplata Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Gogoplata/from Gogoplata Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -188,7 +188,7 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 - If the keylock grip is broken, return to armbar threat immediately rather than re-fighting for the Americana grip
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 - Your forearm begins rotating toward the mat as the attacker starts the keylock arc - this signals the submission is actively being applied
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

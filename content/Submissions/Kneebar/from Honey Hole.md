@@ -186,7 +186,7 @@ In competition, this attack chain is a hallmark of systematic leg lock play. Eli
 - Apply pressure gradually in training - the knee joint can be damaged before pain signals register
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ In competition, this attack chain is a hallmark of systematic leg lock play. Eli
 - Attacker's body weight settles more heavily against the back of your knee as they prepare hip extension
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

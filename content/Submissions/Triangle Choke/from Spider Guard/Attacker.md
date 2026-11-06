@@ -284,7 +284,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Triangle Choke/from Spider Guard#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Triangle Choke/from Spider Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

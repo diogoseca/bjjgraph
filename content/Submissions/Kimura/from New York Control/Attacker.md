@@ -299,7 +299,7 @@ Attacking with the Kimura from New York Control capitalizes on the rubber guard 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from New York Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from New York Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

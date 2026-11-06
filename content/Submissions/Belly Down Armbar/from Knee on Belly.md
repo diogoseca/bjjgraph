@@ -186,7 +186,7 @@ From a defensive perspective, the speed of the transition from knee on belly pre
 - Align the opponent's elbow crease directly against your hip line for maximum mechanical advantage
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ From a defensive perspective, the speed of the transition from knee on belly pre
 - Two-on-one grip established on your arm with increasing pulling tension across your body
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -238,7 +238,7 @@ Defending the Baseball Bat Choke from Knee on Belly requires recognizing the thr
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Baseball Bat Choke/from Knee on Belly#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Baseball Bat Choke/from Knee on Belly#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

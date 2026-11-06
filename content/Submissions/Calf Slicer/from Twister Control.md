@@ -204,7 +204,7 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 - Keep your hips heavy and base stable to prevent the defender from rolling or scrambling free during the transition
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 - Opponent adjusting their hip angle to create better leverage for positioning the shin as a fulcrum
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

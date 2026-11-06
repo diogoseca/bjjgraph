@@ -272,7 +272,7 @@ Defending the triangle choke from mounted triangle is among the most challenging
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Triangle Choke/from Mounted Triangle#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Triangle Choke/from Mounted Triangle#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -168,7 +168,7 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 - Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent defensive turns
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 - The attacker's head drops low to the mat on the far side of your head as they settle into the perpendicular finishing position
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

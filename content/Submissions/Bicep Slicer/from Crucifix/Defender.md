@@ -198,7 +198,7 @@ Defending the Bicep Slicer requires early recognition and decisive action, as th
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Bicep Slicer/from Crucifix#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Bicep Slicer/from Crucifix#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

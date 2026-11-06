@@ -168,7 +168,7 @@ This submission functions as a potent secondary threat within the twister side c
 - Apply compression gradually and monitor for tap signals continuously, as this submission can cause sudden structural damage to the Achilles tendon
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ This submission functions as a potent secondary threat within the twister side c
 - Your trapped leg begins to bend involuntarily as pressure increases behind the knee crease, indicating the fulcrum is being established
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

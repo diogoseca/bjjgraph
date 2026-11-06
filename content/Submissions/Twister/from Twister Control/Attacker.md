@@ -258,7 +258,7 @@ Attacking with the Twister from Twister Control requires mastery of the sequenti
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Twister/from Twister Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Twister/from Twister Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

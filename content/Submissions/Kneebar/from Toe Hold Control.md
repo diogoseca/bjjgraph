@@ -186,7 +186,7 @@ The positional advantage is substantial because the leg is already isolated with
 - Use the toe hold threat as a setup tool — the submission itself forces reactions that feed the kneebar, making the combination greater than either attack alone
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ The positional advantage is substantial because the leg is already isolated with
 - Attacker's knees squeeze tighter around your upper thigh while their upper body repositions from ankle-focus to knee-focus orientation
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

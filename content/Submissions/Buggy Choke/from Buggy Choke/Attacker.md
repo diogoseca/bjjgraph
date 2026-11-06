@@ -223,7 +223,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Buggy Choke/from Buggy Choke#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Buggy Choke/from Buggy Choke#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

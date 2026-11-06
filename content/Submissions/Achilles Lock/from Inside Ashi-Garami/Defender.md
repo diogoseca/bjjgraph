@@ -236,7 +236,7 @@ Your defence lives entirely before the blade is seated. Once the forearm is on t
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Achilles Lock/from Inside Ashi-Garami#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Achilles Lock/from Inside Ashi-Garami#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

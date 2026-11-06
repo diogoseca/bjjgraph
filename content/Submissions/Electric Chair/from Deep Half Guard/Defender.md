@@ -242,7 +242,7 @@ When defense fails to prevent the submission entry, the defender must recognize 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Electric Chair/from Deep Half Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Electric Chair/from Deep Half Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

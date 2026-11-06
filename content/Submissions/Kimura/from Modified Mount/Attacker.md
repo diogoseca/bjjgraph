@@ -281,7 +281,7 @@ Attacking the Kimura from Modified Mount gives you a structural advantage that s
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Modified Mount#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Modified Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

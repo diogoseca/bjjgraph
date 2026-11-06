@@ -259,7 +259,7 @@ Executing the Loop Choke from Half Guard Top requires precise collar grip mechan
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Loop Choke/from Half Guard#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Loop Choke/from Half Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

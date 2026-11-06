@@ -273,7 +273,7 @@ Defending the Rolling Omoplata requires understanding that this submission devel
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

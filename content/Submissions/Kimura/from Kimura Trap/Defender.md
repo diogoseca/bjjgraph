@@ -238,7 +238,7 @@ Defending the Kimura from Kimura Trap requires early recognition that the attack
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Kimura Trap#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kimura/from Kimura Trap#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

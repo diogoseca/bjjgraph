@@ -247,7 +247,7 @@ Defending the Bow and Arrow Choke from back control requires recognizing the att
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Bow and Arrow Choke/from Back Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Bow and Arrow Choke/from Back Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

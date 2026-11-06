@@ -256,7 +256,7 @@ Attacking the rear naked choke from standing back control requires coordinating 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Standing Back Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Standing Back Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

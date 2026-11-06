@@ -275,7 +275,7 @@ Attacking with the Cross Collar Choke from Modified Mount requires understanding
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from Modified Mount#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Cross Collar Choke/from Modified Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

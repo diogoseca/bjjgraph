@@ -222,7 +222,7 @@ Defending the Kimura from Kesa Gatame requires recognizing the grip transition e
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Kesa Gatame#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kimura/from Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

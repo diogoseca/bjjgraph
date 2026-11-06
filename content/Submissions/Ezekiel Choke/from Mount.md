@@ -186,7 +186,7 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 - Time the attack when the defender's hands are occupied with frames or other defensive priorities rather than monitoring your grips
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 - The attacker's head dropping beside your head, which is the final commitment signal before the choking structure locks and finishing pressure begins
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

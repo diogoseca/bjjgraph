@@ -170,7 +170,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 - Smooth circular motion is more effective than explosive jerking movements
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -244,7 +244,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 - Opponent's legs disengage from guard position and begin swinging laterally in preparation for the spinning motion
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

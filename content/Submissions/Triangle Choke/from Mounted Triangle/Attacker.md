@@ -281,7 +281,7 @@ Finishing the triangle choke from mounted triangle demands precise angle control
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Triangle Choke/from Mounted Triangle#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Triangle Choke/from Mounted Triangle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

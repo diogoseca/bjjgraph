@@ -223,7 +223,7 @@ Defending the omoplata from established omoplata control is one of the more urge
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Omoplata/from Omoplata Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Omoplata/from Omoplata Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

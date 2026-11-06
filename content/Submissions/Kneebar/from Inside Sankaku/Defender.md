@@ -230,7 +230,7 @@ Defending the kneebar from Inside Sankaku requires recognizing the grip transiti
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kneebar/from Inside Sankaku#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Kneebar/from Inside Sankaku#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

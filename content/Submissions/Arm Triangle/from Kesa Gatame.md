@@ -168,7 +168,7 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 - Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent frame escapes
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 - The attacker locks a figure-four or gable grip behind your head, connecting their hands and sealing your head and arm together as one unit
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

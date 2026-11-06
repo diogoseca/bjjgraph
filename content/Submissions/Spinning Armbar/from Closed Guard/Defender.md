@@ -260,7 +260,7 @@ Defensive strategy follows a time-based hierarchy: prevent the initial arm isola
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Spinning Armbar/from Closed Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Spinning Armbar/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

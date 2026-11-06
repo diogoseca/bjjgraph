@@ -224,7 +224,7 @@ Attacking the North-South Choke from Kesa Gatame requires mastering a smooth rot
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/North-South Choke/from Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/North-South Choke/from Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

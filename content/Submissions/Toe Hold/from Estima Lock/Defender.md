@@ -238,7 +238,7 @@ Defending the toe hold from Estima Lock requires immediate recognition of the gr
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Toe Hold/from Estima Lock#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Estima Lock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

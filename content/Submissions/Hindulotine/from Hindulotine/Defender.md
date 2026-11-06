@@ -284,7 +284,7 @@ Protect the neck while denying the finishing hand: keep the head aligned and an 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Hindulotine/from Hindulotine#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Hindulotine/from Hindulotine#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

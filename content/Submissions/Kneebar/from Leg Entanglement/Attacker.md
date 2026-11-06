@@ -265,7 +265,7 @@ Attacking the kneebar from leg entanglement leverages pre-existing lower body co
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from Leg Entanglement#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from Leg Entanglement#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

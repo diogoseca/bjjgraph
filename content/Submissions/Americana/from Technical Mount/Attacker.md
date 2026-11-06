@@ -281,7 +281,7 @@ The Americana from Technical Mount leverages the asymmetric leg positioning to c
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Americana/from Technical Mount#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from Technical Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

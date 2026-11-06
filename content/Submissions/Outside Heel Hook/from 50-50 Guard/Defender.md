@@ -198,7 +198,7 @@ Defending the outside heel hook from 50-50 guard demands immediate heel protecti
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Outside Heel Hook/from 50-50 Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Outside Heel Hook/from 50-50 Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

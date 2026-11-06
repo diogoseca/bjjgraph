@@ -127,7 +127,7 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 - Progress from control to submission only when positional dominance is absolute
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -203,7 +203,7 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 - Attacker's weight drives forward through your shoulder while your arm is pinned at roughly 90 degrees from your body
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

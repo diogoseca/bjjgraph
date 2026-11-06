@@ -256,7 +256,7 @@ Defending the Peruvian Necktie from front headlock demands early recognition and
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Peruvian Necktie/from Front Headlock#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Peruvian Necktie/from Front Headlock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

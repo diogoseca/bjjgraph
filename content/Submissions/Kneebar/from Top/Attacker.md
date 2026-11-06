@@ -278,7 +278,7 @@ The Kneebar from Top represents a high-percentage leg attack opportunity that ar
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from Top#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from Top#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

@@ -281,7 +281,7 @@ Attacking the toe hold from Inside Ashi-Garami requires establishing secure leg 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Toe Hold/from Inside Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Toe Hold/from Inside Ashi-Garami#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

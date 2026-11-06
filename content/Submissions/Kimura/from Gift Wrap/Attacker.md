@@ -257,7 +257,7 @@ Attacking the Kimura from Gift Wrap leverages the inherent arm isolation that th
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Gift Wrap#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Gift Wrap#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

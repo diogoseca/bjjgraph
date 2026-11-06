@@ -168,7 +168,7 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 - Rotate the captured arm toward the mat behind the opponent's hip line using your entire body, not just arm strength
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 - The top player's posture shifts from an upright guard passing stance to a low, compressed position focused on controlling your arm rather than addressing your legs
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

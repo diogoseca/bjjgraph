@@ -181,7 +181,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Baratoplata/from Crackhead Control#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Baratoplata/from Crackhead Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

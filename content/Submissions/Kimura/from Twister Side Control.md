@@ -170,7 +170,7 @@ This variant integrates naturally into the broader Twister Side Control submissi
 - Target the near arm as it is most accessible and the lateral angle provides optimal rotational leverage
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -244,7 +244,7 @@ This variant integrates naturally into the broader Twister Side Control submissi
 - Attacker's hip position shifting toward your head to create a perpendicular finishing angle
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -204,7 +204,7 @@ Strategically, the arm triangle from high mount integrates seamlessly into syste
 - Chain the arm triangle with other high mount attacks—armbar threats force arm retraction into arm triangle range creating cyclical pressure
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ Strategically, the arm triangle from high mount integrates seamlessly into syste
 - The attacker drops their hip to the mat and their head drops low on the far side of your head as they settle into the finishing position
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

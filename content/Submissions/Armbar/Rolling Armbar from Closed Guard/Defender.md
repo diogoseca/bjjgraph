@@ -255,7 +255,7 @@ The defender must understand that the rolling armbar attack typically emerges fr
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Armbar/Rolling Armbar from Closed Guard#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Armbar/Rolling Armbar from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

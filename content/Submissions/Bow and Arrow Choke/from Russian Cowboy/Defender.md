@@ -225,7 +225,7 @@ Effective defense operates on a timeline: early-phase defense focuses on grip pr
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Bow and Arrow Choke/from Russian Cowboy#safety-considerations|Tap early and often ↓]]
+> Tap early and often. [[Submissions/Bow and Arrow Choke/from Russian Cowboy#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -57,7 +57,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Twister Side
     {
       "@type": "HowToStep",
       "name": "Apply progressive squeeze",
-      "text": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. Wait for the tap or feel the resistance fade.",
+      "text": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. Wait for the tap.",
       "position": 7
     }
   ],
@@ -263,7 +263,7 @@ The Arm Triangle from Twister Side Control attacks the carotid arteries using th
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Arm Triangle/from Twister Side Control#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Twister Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 
@@ -275,7 +275,7 @@ The Arm Triangle from Twister Side Control attacks the carotid arteries using th
 4. **Lock the figure-four or gable grip**: Connect your hands by gripping your own bicep with the choking hand while your free hand cups behind the opponent's head, or use a tight gable grip. The grip must lock the opponent's head and trapped arm together as a unit with no slack in the configuration. (Timing: 1 second)
 5. **Walk to the finishing angle**: Disengage your legs from the Twister Side Control leg entanglement and walk your hips around toward the opponent's trapped-arm side until you are perpendicular to their body. Your chest should be directly over their face. Each step tightens the choke by removing available space between your bodies. (Timing: 2-4 seconds)
 6. **Drop hip and seal the position**: Drop your hip closest to their trapped arm to the mat, sprawling your weight onto the opponent. Your head drops low to the mat on the far side of their head. This seals the position and removes the space opponents use to breathe or create defensive frames. Your body acts as a wall. (Timing: 1-2 seconds)
-7. **Apply progressive squeeze**: Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. Wait for the tap or feel the resistance fade. (Timing: 3-8 seconds to finish)
+7. **Apply progressive squeeze**: Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. Wait for the tap. (Timing: 3-8 seconds to finish)
 
 
 </section>

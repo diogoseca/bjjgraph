@@ -57,7 +57,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Kesa Gatame.
     {
       "@type": "HowToStep",
       "name": "Apply progressive squeeze",
-      "text": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The chest expansion combined with elbow contraction creates bilateral carotid compression. Wait for the tap or feel the resistance fade as blood flow restriction takes effect.",
+      "text": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The chest expansion combined with elbow contraction creates bilateral carotid compression. Wait for the tap as blood flow restriction takes effect.",
       "position": 7
     }
   ],
@@ -263,7 +263,7 @@ The Arm Triangle from Kesa Gatame capitalizes on the scarf hold's inherent head 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Arm Triangle/from Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 
@@ -275,7 +275,7 @@ The Arm Triangle from Kesa Gatame capitalizes on the scarf hold's inherent head 
 4. **Lock the figure-four or gable grip**: Connect your hands by gripping your own bicep with the choking hand while your free hand cups behind the opponent's head to form a figure-four, or use a tight gable grip with palms together. The grip must lock the opponent's head and trapped arm together as a single unit with zero slack in the configuration. Test the lock by gently squeezing to confirm both sides of the neck are covered. (Timing: 1 second)
 5. **Walk to the perpendicular finishing angle**: Disengage your hips from the Kesa Gatame angle and walk them around toward the opponent's trapped-arm side until you are perpendicular to their body. Your chest should move directly over their face with each step. Each incremental hip movement tightens the choke by removing available space between your bodies. Do not rush this step as controlled walking generates more progressive pressure. (Timing: 2-4 seconds)
 6. **Drop hip and seal the position**: Drop your hip closest to the opponent's trapped arm to the mat, sprawling your weight onto the opponent. Your head drops low to the mat on the far side of their head. This seals the position completely and removes the space opponents use to breathe or create defensive frames. Your body acts as an immovable wall pressing their own shoulder into their neck. (Timing: 1-2 seconds)
-7. **Apply progressive squeeze**: Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The chest expansion combined with elbow contraction creates bilateral carotid compression. Wait for the tap or feel the resistance fade as blood flow restriction takes effect. (Timing: 3-8 seconds to finish)
+7. **Apply progressive squeeze**: Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The chest expansion combined with elbow contraction creates bilateral carotid compression. Wait for the tap as blood flow restriction takes effect. (Timing: 3-8 seconds to finish)
 
 
 </section>

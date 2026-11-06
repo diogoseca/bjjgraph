@@ -281,7 +281,7 @@ Executing the belly down armbar finish from open guard requires reading your opp
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Open Guard#safety-considerations|Release immediately upon tap ↓]]
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Open Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

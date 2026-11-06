@@ -224,7 +224,7 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 - Develop sensitivity to recognize when the opponent has accepted the position and when they are about to explode into an escape
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -300,7 +300,7 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 - Attacker's elbows draw tight to their body and you feel the figure-four grip locking around your heel
 
 
-> [Tap early and often ↓](#safety-considerations)
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 
