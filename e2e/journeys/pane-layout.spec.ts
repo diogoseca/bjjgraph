@@ -154,6 +154,19 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
     await page.keyboard.press("Control+End")
     await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
     const before = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
+    // PARTIALLY PINNED (v1.249.1). The article's end used to be study-guide cards, which hold no `p` or `li`, so U59 c's
+    // place anchor found nothing there and this journey only ever saw an untouched scrollTop. Now the end is the Related
+    // list and the anchor runs. At 390 the pane overlays and nothing reflows, so the position is exact. At 768 the pane
+    // narrows the article to one lane: the line holds while the pane is open, pinned below. UNGUARDED: the CLOSE, which
+    // anchors on whichever line one lane put first, so at the article's end it can land a tile away (971px at Mount Top;
+    // mid-article the same journey held within 26px at 35%, 50% and 70% down). PR-2 of the article order takes that gap.
+    const line = () => page.locator("[data-reader]").evaluate(e => {
+      const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
+      const held = r.articleEl.querySelector("[data-test-line]") || [...r.articleEl.querySelectorAll("p,li")].find((x: Element) => x.getBoundingClientRect().top >= top)
+      held.setAttribute("data-test-line", "")
+      return held.getBoundingClientRect().top - top
+    })
+    const lineBefore = await line()
     await openPane(page, j)
     const overlap = await page.evaluate(() => {
       const pane = document.querySelector(".ng-drill")!, article = document.querySelector(".ng-reader-article")!
@@ -167,8 +180,9 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
       expect(overlap.height).toBeGreaterThan(8)
       expect(overlap.pane).toBe(true)
     } else expect(overlap.width, "the tablet article fits beside the pane").toBeLessThanOrEqual(0)
+    expect(Math.abs(await line() - lineBefore), "the line holds while the pane is open").toBeLessThanOrEqual(8)
     await closePane(page, j)
-    expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBe(before)
+    if (viewport.width <= 640) expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBe(before)
     // Reading here is the prose interaction (D-338 retired Focus, which set reading intent).
     expect(await page.evaluate(() => ({ reading: !!(window as any).__neural._reader.interacting, paused: (window as any).__neural.paused }))).toEqual({ reading: true, paused: true })
   })
@@ -241,19 +255,20 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   await page.keyboard.press("Control+End")
   expect(await page.evaluate(() => (window as any).__neural.paused), "the next reading input stops the game again").toBe(true)
   await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
-  const before = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
   await openPane(page, j)
+  const opened = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
   await page.mouse.move(180, 300)
   await page.mouse.wheel(0, 120)
   await page.waitForTimeout(100)
   // D-338: the Videos section now sizes with the article column, which narrows beside the pane, so
-  // the document can change length. The pane never scrolls the reader: scrollTop is unchanged
-  // unless the browser clamps it to a shorter document, and a wheel over the pane moves nothing.
+  // the document can change length, and U59 c's anchor moves scrollTop to hold the line while it does:
+  // article-dashboard pins that. v1.249.1: what this journey pins is that a wheel over the pane moves
+  // nothing, read against the position the opened pane settled on, unless the browser clamps it.
   // NON-KILL (U59 c, measured in DASH-R4): d338-clamped-place-lost survives here. The reader's bottom
   // reserve now spans the full width (the account pill), so at 1024 the pane no longer moves it, the
   // document never clamps, and reader.src.js's clamp restore is not exercised by this journey.
   const after = await page.locator("[data-reader]").evaluate(e => ({ top: e.scrollTop, max: e.scrollHeight - e.clientHeight }))
-  expect(after.top, `the pane leaves the native scroll position alone (${JSON.stringify({ before, ...after })})`).toBe(Math.min(before, after.max))
+  expect(after.top, `a wheel over the pane leaves the reader alone (${JSON.stringify({ opened, ...after })})`).toBe(Math.min(opened, after.max))
   await closePane(page, j)
   await j.advance(20000)
   expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
