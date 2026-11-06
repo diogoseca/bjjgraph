@@ -160,7 +160,6 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
       held.setAttribute("data-test-line", "")
       return held.getBoundingClientRect().top - top
     })
-    // At 768 the only pin on U59 c's hold while the pane is open: article-dashboard pins 1440 and 1152. pane-open-hold-lost.
     const lineBefore = await line()
     await openPane(page, j)
     const overlap = await page.evaluate(() => {
@@ -175,7 +174,11 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
       expect(overlap.height).toBeGreaterThan(8)
       expect(overlap.pane).toBe(true)
     } else expect(overlap.width, "the tablet article fits beside the pane").toBeLessThanOrEqual(0)
-    expect(Math.abs(await line() - lineBefore), "the line holds while the pane is open").toBeLessThanOrEqual(8)
+    // v1.250.0's order can leave one lane nothing below this line, so the reader rests on the document's end: 51.5px short
+    // at Mount Top, scrollTop 10,155 of 10,155. The journey below pins the hold where nothing stops it.
+    const opened = await page.locator("[data-reader]").evaluate(e => ({ top: e.scrollTop, max: e.scrollHeight - e.clientHeight }))
+    const moved = Math.abs(await line() - lineBefore)
+    expect(moved <= 8 || opened.top >= opened.max - 1, `the line holds while the pane is open, unless the document's end stops it (${moved}px, ${JSON.stringify(opened)})`).toBe(true)
     await closePane(page, j)
     expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop), "the close lands on the place the open left").toBe(before)
     // Reading here is the prose interaction (D-338 retired Focus, which set reading intent).
@@ -210,6 +213,31 @@ for (const path of ["/Positions/Mount/Top", "/Transitions/50-50-Entry/Attacker"]
     expect(await readerTop(page), "the close lands on the place the open left").toBe(before)
   })
 }
+// At 768 the only exact pin on U59 c's hold while the pane is open: article-dashboard pins 1440 and 1152. pane-open-hold-lost.
+// On screen coordinates, from the landed start with an open question. UNGUARDED: from a direct boot the slide's last pass shifts
+// the stage about 18px with no change of grid, so the anchor has no reason to fire and the line ends that much higher while the
+// pane is open: 17-18px on the four position pages measured, on v1.249.1 and v1.249.2 alike. The close still lands exactly.
+test("768px the line holds while the pane is open, mid-article", async ({ page }) => {
+  await page.setViewportSize({ width: 768, height: 1024 })
+  const j = await setup(page)
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await page.locator("[data-reader-body]").focus()
+  await page.keyboard.press("Control+End")
+  await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
+  const held = await page.locator("[data-reader]").evaluate(e => {
+    e.scrollTop = Math.round(e.scrollTop * .35)
+    return new Promise<number>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
+      const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
+      const line = [...r.articleEl.querySelectorAll("p,li")].find((x: Element) => x.getBoundingClientRect().top >= top)!
+      line.setAttribute("data-test-line", "")
+      done(line.getBoundingClientRect().top)
+    })))
+  })
+  await openPane(page, j)
+  const open = await page.locator("[data-reader]").evaluate(e => ({ line: e.querySelector("[data-test-line]")!.getBoundingClientRect().top, top: e.scrollTop, max: e.scrollHeight - e.clientHeight }))
+  expect(open.top, "premise: the document's end is not what stops the line").toBeLessThan(open.max - 1)
+  expect(Math.abs(open.line - held), `the line holds on screen (${held} -> ${open.line})`).toBeLessThanOrEqual(8)
+})
 test("768px a scroll while the pane is open is the reader's new place, and the close holds that one", async ({ page }) => {
   const j = await articleEnd(page, "/Transitions/50-50-Entry/Attacker")
   await openPane(page, j)

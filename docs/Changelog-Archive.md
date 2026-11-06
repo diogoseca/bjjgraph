@@ -14126,8 +14126,18 @@ right. The first batch had 243 reds, 218 of them a reader that never appeared. F
 pass-by-pass trace showed the anchored line held to within a pixel: the journey had picked a line in the other lane, because v1.249.1
 let it fall through to the second lane too eagerly. The clause came out and the journey prefers the first lane.
 
+**The open hold at 768 moved, and was measured.** On this order the landed journey's line sits near the article's end, so one lane
+leaves nothing below it: the line stops 51.5px short with `scrollTop` at 10,155 of 10,155. v1.249.2 measured 0.02px there on the old order. That
+is the document's end, not the hold, so at the article's end the assertion names that condition, and a new mid-article journey pins the
+hold exactly, on screen coordinates, with a premise that nothing clamps it. `pane-open-hold-lost` moved to that journey.
+
+**One shift stays, measured and unpinned.** From a direct boot the slide's last pass moves the stage about 18px with no change of grid, so
+the anchor has no reason to fire: 17-18px on four position pages, on v1.249.1 and v1.249.2 alike, and the close still lands exactly.
+Firing the hold on every pass would fix it, but each 1px correction scrolls, the scroll lays out again and the next pass corrects back,
+which is an oscillation risk for 18px. It is UNGUARDED in the spec's header.
+
 **A control that proved a spec gap.** `width-right-edge` survived the first run: a wider grid stays centred and the row follows it, so
-the edges still match while the grid runs under the index. The sweep now pins the index's clearance. 28 of 28 controls are killed.
+the edges still match while the grid runs under the index. The sweep now pins the index's clearance. 29 of 29 controls are killed.
 
 **A raw wikilink, reduced.** The template leaves a wikilink inside raw HTML, which Quartz never resolves, so 36 pages print
 `[[Positions/...|Name]]`. It was buried in the Overview and would have led the page, so a position's tile prints the name. The link itself needs
