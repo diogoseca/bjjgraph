@@ -1,6 +1,6 @@
 {
  "version": "1.250.2",
- "base_commit": "579a6a23b",
+ "base_commit": "917191cc9",
  "status": "H1 to H52 approved as proposed by the owner, 2026-11-06. H53 was not ruled and H54 comes with the new positions; neither is here.",
  "reason": "K2 batch 2: 52 moves that were listed or missing at a seat are dealt there with their own outcome table, and each seat's other shares shrink to make room. This file is a LATER OWNER APPROVAL over the historical calibration: scripts/_restructure_supersession.py reads `hands` so that a historical apply path skips these hands instead of restoring them, and refuses any drift from `after`.",
  "method": "NOT panel output, so not calibration/listing_tables.json. Every number is the drafting seat's proposal under fixed rules, and the owner approved the result. Share: a listed move keeps its listed share; a new move takes the seat's median dealt cell, or its upper quartile if rated very common, per ruleset. A seat gains at most 15 points per ruleset. Other shares shrink proportionally: no cell rises, none drops below 1, null stays null. Success rate: the median of the move's own tables elsewhere when it has 2 or more, otherwise its published rate less 4, the median gap across 80 shipped listing tables. One table for both rulesets; success rows sum to the no-gi rate. The 15-point cap and the 2:1 split inside a miss branch are judgment calls, not measurements. Agreement is one model three times, and 23 of the 52 have a narrated video from that seat.",

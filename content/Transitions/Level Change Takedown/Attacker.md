@@ -109,7 +109,7 @@ description: "Master executing the level change takedown. Step-by-step guide cov
       "name": "They start a guillotine during your shot: what decides whether you drive through or abort?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before they close their guard."
+        "text": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before it tightens."
       }
     },
     {

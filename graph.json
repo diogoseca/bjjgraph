@@ -176998,12 +176998,12 @@
         },
         {
           "question": "What are the key grips and controls needed for Body Triangle Lock?",
-          "answer": "The key controls are Gift Wrap arm control, chest-to-back connection, and the locking ankle tucked behind the attacking leg's knee. The Gift Wrap is maintained throughout — your arm threads under the opponent's armpit with wrist/forearm control on the far side — and placing the locking ankle behind the attacking leg's knee or ankle gives the triangle its mechanical advantage.",
+          "answer": "The key controls are Gift Wrap arm control, chest-to-back connection, and the locking ankle tucked behind the attacking leg's knee. When you start from Gift Wrap, it is maintained throughout — your arm threads under the opponent's armpit with wrist/forearm control on the far side — and placing the locking ankle behind the attacking leg's knee or ankle gives the triangle its mechanical advantage. Switching from hooks in Back Control needs no Gift Wrap first.",
           "answer_line": "Gift Wrap + ankle behind knee",
           "distractors": {
             "plausible": [
               "Ankle in front of the knee",
-              "Both hooks in, no Gift Wrap"
+              "Feet crossed at the ankles"
             ],
             "trap": [
               "Squeeze ribs, release Gift Wrap"
@@ -177232,12 +177232,12 @@
         },
         {
           "question": "What are the key grips and controls needed for Body Triangle Lock?",
-          "answer": "The key controls are Gift Wrap arm control, chest-to-back connection, and the locking ankle tucked behind the attacking leg's knee. The Gift Wrap is maintained throughout — your arm threads under the opponent's armpit with wrist/forearm control on the far side — and placing the locking ankle behind the attacking leg's knee or ankle gives the triangle its mechanical advantage.",
+          "answer": "The key controls are Gift Wrap arm control, chest-to-back connection, and the locking ankle tucked behind the attacking leg's knee. When you start from Gift Wrap, it is maintained throughout — your arm threads under the opponent's armpit with wrist/forearm control on the far side — and placing the locking ankle behind the attacking leg's knee or ankle gives the triangle its mechanical advantage. Switching from hooks in Back Control needs no Gift Wrap first.",
           "answer_line": "Gift Wrap + ankle behind knee",
           "distractors": {
             "plausible": [
               "Ankle in front of the knee",
-              "Both hooks in, no Gift Wrap"
+              "Feet crossed at the ankles"
             ],
             "trap": [
               "Squeeze ribs, release Gift Wrap"
@@ -277173,7 +277173,7 @@
         },
         {
           "question": "They start a guillotine during your shot: what decides whether you drive through or abort?",
-          "answer": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before they close their guard.",
+          "answer": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before it tightens.",
           "answer_line": "Head inside hip: drive through",
           "distractors": {
             "plausible": [
@@ -277365,7 +277365,7 @@
         },
         {
           "question": "They start a guillotine during your shot: what decides whether you drive through or abort?",
-          "answer": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before they close their guard.",
+          "answer": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before it tightens.",
           "answer_line": "Head inside hip: drive through",
           "distractors": {
             "plausible": [
@@ -807546,7 +807546,7 @@
     }
   },
   "meta": {
-    "generated": "2026-11-06T07:52:45.811638Z",
+    "generated": "2026-11-06T11:00:39.469445Z",
     "positionCount": 400,
     "transitionCount": 3033,
     "submissionCount": 923,

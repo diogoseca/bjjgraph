@@ -21,6 +21,7 @@ class RestructureSupersession:
         # older row for the same hand, whose `after` is history. `self.ledger` stays the restructure
         # receipt alone. 5 of its 20 hands were also restructure hands, which is why the overlay
         # exists; the other 15 are here so a historical apply path skips them rather than rewrites them.
+        # tests/_listing_table_expectations.py compares all 20 in CI, which runs no apply path.
         later = root / "calibration/graph_fixes_b2.json"
         if later.exists():
             self.hands.update({

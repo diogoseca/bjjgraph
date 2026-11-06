@@ -87,7 +87,7 @@ description: "How to execute Body Triangle Lock in BJJ. Attacking perspective wi
       "name": "What are the key grips and controls needed for Body Triangle Lock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The key controls are Gift Wrap arm control, chest-to-back connection, and the locking ankle tucked behind the attacking leg's knee. The Gift Wrap is maintained throughout — your arm threads under the opponent's armpit with wrist/forearm control on the far side — and placing the locking ankle behind the attacking leg's knee or ankle gives the triangle its mechanical advantage."
+        "text": "The key controls are Gift Wrap arm control, chest-to-back connection, and the locking ankle tucked behind the attacking leg's knee. When you start from Gift Wrap, it is maintained throughout — your arm threads under the opponent's armpit with wrist/forearm control on the far side — and placing the locking ankle behind the attacking leg's knee or ankle gives the triangle its mechanical advantage. Switching from hooks in Back Control needs no Gift Wrap first."
       }
     },
     {
@@ -210,7 +210,7 @@ From a strategic perspective, the Body Triangle Lock transition is particularly 
 
 <p class="section-subtitle">What do you need before attempting Body Triangle Lock?</p>
 
-- Gift Wrap control is fully established with trapped arm secured high across opponent's chest
+- Gift Wrap control is fully established with trapped arm secured high across opponent's chest, or hooks in from Back Control, which needs no Gift Wrap first
 - At least one hook is in place providing initial hip control before transition
 - Opponent's hips are relatively aligned with yours, not angled away
 - Chest-to-back connection is tight with no space between your torso and opponent's back

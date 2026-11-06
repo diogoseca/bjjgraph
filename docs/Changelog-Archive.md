@@ -14250,7 +14250,7 @@ follow-up asked for the opposite; the guard pull stays only as a Related row, an
 **A wrong answer the row made true.** Three "where do you start" cards offered the new seat as a distractor: Back Step Pass "Top of Half
 Guard", Body Triangle Lock "Back Control with both hooks", S-Mount Transition "Full Mount, both knees pinned". Each now offers a seat the
 move is not listed at, and each answer names the new start. No question changed, so no card's schedule reset. Found by scanning every
-flashcard on the 52 rows' techniques for the seat's name; the batch's own flags could not have seen it.
+flashcard on the 52 rows' techniques for the seat's name; the batch's own flags could not have seen it. That scan missed a fourth; see round 2.
 
 **The provenance home is `calibration/graph_fixes_b2.json`.** The drift gate (`_restructure_supersession.py`) refused 5 of the 20 hands,
 because the restructure receipt recorded them and these are later. The receipt stays history; the new ledger overlays it, and covers the
@@ -14269,6 +14269,25 @@ the one deck is named and must stay a flip that small in both kernels.
 #338 review's N1 to N4. `Cross Collar Choke/Finish.md` and `Finish/Attacker.md` lose "or go unconscious" by hand: they are md-only pages
 with no JSON, the same class as the owner's S4 a, and S4's JSON search could not see them. The other 20 `text_names_origin` rows name their
 main origin and are not false, the same limit as the 96 listings before them.
+
+**Round 2, the independent review of `c32445375`: no blocker, and the numbers were exact, but four page-text findings fell under F0 a.**
+That capture was accepted and verified, and it was discarded before any reseed, because the content moved. Body Triangle Lock had a fourth wrong
+answer H17 made true, "Both hooks in, no Gift Wrap", which the seat-name scan could not see because it never says Back Control; the lesson
+is that the rows' own evidence is the test, not the seat's name. Its setup line and condition follow, as does Kimura Sweep's "must be
+established". Arm Drag to Back no longer requires hooks that H15's evidence says it does not need. Level Change's "Late guillotine" was this
+PR's own wording and contradicted the page, which allows the guillotine only before chest-to-thigh contact, so its window is now that one and
+the leg-contact clause is gone. "Before they close their guard" went with the picture it depended on.
+
+**The S4 class reaches Transitions.** Search: all 13,986 step and timing strings in `content/Transitions/*.json`, each hit read by hand, on the
+question the owner answered: a field that treats going limp, fading resistance or unconsciousness as the signal to stop, rather than as an
+emergency. Two exact: Gogoplata step 6 "until tap or unconsciousness", and Arm Triangle from Top step 7's list, the shape Darce Choke from Leg
+Drag had. Both are deletions; the second moves the list's "or", as that one did, and leaves its step with no release sentence, because adding
+one would be new wording. `safety_considerations` lines such as "release immediately if they go limp" are the emergency reading and stay.
+
+**CI now compares all 20 approved hands exactly.** `hand()` ran on only the two Inverted Guard hands, and narrowing the overlay to the 5 phase-2
+hands survived. `_listing_table_expectations.py` now walks all 20: clean head rc=0, one Standing Position/Top share moved rc=1 "approved hand
+drift", the narrowed overlay rc=1. Four carried FLOW notes said Rolling Kimura Escape succeeds into Kimura Trap/Top. It lands on Open
+Guard/Bottom, and they now say so.
 
 **Bytes, on the final real build, with #344 in.** Eager gzip 348,652 B, +4,864 B of the 5,000 B cap since its baseline: 136 B of room.
 Deferred 506,800 of 506,817 B: 17 B of room. First hand core 367,950 B, +2,654 B of its 6,000 B cap. No ceiling moved and no baseline was

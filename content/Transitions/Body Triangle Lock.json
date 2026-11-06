@@ -86,7 +86,7 @@
       "The body triangle creates constant pressure that drains opponent energy - patience becomes your primary weapon"
     ],
     "setup_requirements": [
-      "Gift Wrap control is fully established with trapped arm secured high across opponent's chest",
+      "Gift Wrap control is fully established with trapped arm secured high across opponent's chest, or hooks in from Back Control, which needs no Gift Wrap first",
       "At least one hook is in place providing initial hip control before transition",
       "Opponent's hips are relatively aligned with yours, not angled away",
       "Chest-to-back connection is tight with no space between your torso and opponent's back",
@@ -230,11 +230,11 @@
       },
       {
         "question": "What are the key grips and controls needed for Body Triangle Lock?",
-        "answer": "The key controls are Gift Wrap arm control, chest-to-back connection, and the locking ankle tucked behind the attacking leg's knee. The Gift Wrap is maintained throughout — your arm threads under the opponent's armpit with wrist/forearm control on the far side — and placing the locking ankle behind the attacking leg's knee or ankle gives the triangle its mechanical advantage.",
+        "answer": "The key controls are Gift Wrap arm control, chest-to-back connection, and the locking ankle tucked behind the attacking leg's knee. When you start from Gift Wrap, it is maintained throughout — your arm threads under the opponent's armpit with wrist/forearm control on the far side — and placing the locking ankle behind the attacking leg's knee or ankle gives the triangle its mechanical advantage. Switching from hooks in Back Control needs no Gift Wrap first.",
         "distractors": {
           "plausible": [
             "Ankle in front of the knee",
-            "Both hooks in, no Gift Wrap"
+            "Feet crossed at the ankles"
           ],
           "trap": [
             "Squeeze ribs, release Gift Wrap"
@@ -535,7 +535,7 @@
   ],
   "position_integration": "Body Triangle Lock serves as a critical transition within the back attack system, converting Gift Wrap control into the most sustainable dominant position in grappling. The body triangle eliminates hip escape capability while the maintained Gift Wrap removes arm defense, creating a nearly inescapable configuration. From body triangle with Gift Wrap, attackers can patiently work rear naked choke variations, transition to mounted positions while maintaining arm control, or enter crucifix configurations. The position exemplifies modern back attack methodology where control is systematically refined before submission attempts. Understanding this transition is essential for anyone developing a comprehensive back attack game, as it represents the highest level of control achievable from back position.",
   "conditions": [
-    "Gift Wrap arm control must be fully established before attempting body triangle thread",
+    "Gift Wrap arm control must be fully established before attempting body triangle thread from Gift Wrap; switching from hooks in Back Control needs no Gift Wrap first",
     "At least one hook must be in place to provide baseline hip control during the transition",
     "Opponent must not be in the middle of an explosive escape attempt or active bridge",
     "Chest-to-back connection must be maintained with no space between torsos"

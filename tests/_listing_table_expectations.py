@@ -79,6 +79,14 @@ def expectations(root=ROOT):
     assert len(retired) == 7 and len(current) == 90, "only the nine approved listing changes"
     # K2 batch 2 (v1.250.2): the owner's H1 to H52, read from their own approval, never a panel.
     later = json.loads((root / "calibration/graph_fixes_b2.json").read_text())
+    # Every approved hand is compared exactly, here, because this is what CI runs: `hand()` raises on
+    # any drift and refuses a hand the overlay does not hold. No workflow runs a historical apply path,
+    # so until v1.250.2 this reached only the two Inverted Guard hands in ADDED. Controls, re-run at
+    # v1.250.2 on this file: clean head rc=0; one Standing Position/Top share moved, sums kept, rc=1
+    # "approved hand drift"; the overlay narrowed to the 5 phase-2 hands, rc=1 "no approved replacement".
+    assert len(later["hands"]) == 20, "the batch's 20 hands"
+    for hand, row in later["hands"].items():
+        assert approval.hand(row["path"], hand.rsplit("/", 1)[1].lower()), f"no approved replacement: {hand}"
     for row in later["rows"]:
         hand, move = row["seat"], row["technique"]
         listing = "/".join(slugify(s) for s in hand.split("/"))

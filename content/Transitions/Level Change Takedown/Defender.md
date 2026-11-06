@@ -38,8 +38,8 @@ description: "Master defending the level change takedown in BJJ. Recognition cue
     },
     {
       "@type": "HowToStep",
-      "name": "Late guillotine as the attacker drives in, when the shot is unavoidable and sprawl timing is missed",
-      "text": "When takedown is imminent because the attacker has secured leg contact and forward drive is overwhelming, but their neck is still exposed If successful: The guillotine catches the shot rather than you being taken down to side control where opponent scores and has dominant position: the shooter lands in Guillotine Control, bottom, and it costs them",
+      "name": "Late guillotine as the attacker closes the distance, when sprawl timing is missed",
+      "text": "When the attacker's head is clearly exposed on the outside and you can secure the grip before their chest connects with your thigh or hip If successful: The guillotine catches the shot rather than you being taken down to side control where opponent scores and has dominant position: the shooter lands in Guillotine Control, bottom, and it costs them",
       "position": 4
     }
   ],
@@ -253,9 +253,9 @@ Defending the level change takedown requires early recognition of the attack fol
 - **If successful**: Redirect attacker's momentum past you, preventing the takedown and creating counter-offense opportunity from superior angle
 - **Risk**: If crossface is applied too high, attacker can duck under and finish the shot with inside head position
 
-### 4. Late guillotine as the attacker drives in, when the shot is unavoidable and sprawl timing is missed
+### 4. Late guillotine as the attacker closes the distance, when sprawl timing is missed
 
-- **When to use**: When takedown is imminent because the attacker has secured leg contact and forward drive is overwhelming, but their neck is still exposed
+- **When to use**: When the attacker's head is clearly exposed on the outside and you can secure the grip before their chest connects with your thigh or hip
 - **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: The guillotine catches the shot rather than you being taken down to side control where opponent scores and has dominant position: the shooter lands in Guillotine Control, bottom, and it costs them
 - **Risk**: Concedes takedown points if the attacker finishes before the guillotine is secured, and leaves you under them in side control where you must work to escape
@@ -276,7 +276,7 @@ Sprawl immediately upon recognizing the level change, driving your hips back and
 
 ### → [[Positions/Guillotine Control]]
 
-If the shot connects but you can wrap a guillotine around the attacker's neck as they shoot with exposed head position, secure it before they finish. This converts their offensive shot into a defensive crisis where they must address the choke: the shooter lands in Guillotine Control, bottom, and it costs them.
+If you can wrap a guillotine around the attacker's neck as they shoot with exposed head position, secure it before their chest connects. This converts their offensive shot into a defensive crisis where they must address the choke: the shooter lands in Guillotine Control, bottom, and it costs them.
 
 
 
