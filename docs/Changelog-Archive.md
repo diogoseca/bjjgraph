@@ -14270,9 +14270,11 @@ the one deck is named and must stay a flip that small in both kernels.
 with no JSON, the same class as the owner's S4 a, and S4's JSON search could not see them. The other 20 `text_names_origin` rows name their
 main origin and are not false, the same limit as the 96 listings before them.
 
-**Bytes, on a real build.** Eager gzip 348,651 B, +4,863 B of the 5,000 B cap since its baseline: 137 B of room. Deferred 506,808 of
-506,817 B: 9 B of room. First hand core 367,949 B, +2,653 B of its 6,000 B cap. No ceiling moved and no baseline was accepted.
+**Bytes, on the final real build, with #344 in.** Eager gzip 348,652 B, +4,864 B of the 5,000 B cap since its baseline: 136 B of room.
+Deferred 506,800 of 506,817 B: 17 B of room. First hand core 367,950 B, +2,654 B of its 6,000 B cap. No ceiling moved and no baseline was
+accepted. The MDP data grew by one content-addressed shard, so the build gains one file and no page.
 
 **Two reds that only a local `@curated` could find.** On a content PR the E2E shards skip until the reseed, so both would have surfaced after
 the capture: H4 and H5 take Standing Position/Top from 34 cards to 36, and `option-hand` and `option-overflow` held the old size. The spec's
 own independent pool check passed first, so the app was right and the literal was stale. 752 passed, and the 2 pass on the new literal.
+After #344 merged, the final build passed a focused 31: those two spec files, #344's, and the first-hand payload gate.
