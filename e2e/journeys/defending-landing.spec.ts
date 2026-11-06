@@ -843,6 +843,7 @@ for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
     expect(r.answers.length, 'premise: the escape answers').toBeGreaterThan(1)
     if (width > 640) {
       const identities = await page.locator('[data-panic-mc-opt]').evaluateAll(es => es.map(e => e.getAttribute('data-panic-mc-opt')))
+      let wheels = 0
       for (const identity of identities) {
         const read = () => page.locator(`[data-panic-mc-opt="${identity}"]`).evaluate(el => {
           const b = el.getBoundingClientRect(), root = el.closest('[data-reader]')!, box = root.getBoundingClientRect(), inside = b.top >= box.top && b.bottom <= box.bottom
@@ -856,10 +857,11 @@ for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
           await page.mouse.wheel(0, now.bottom - now.end + 12)
           await expect.poll(async () => (await read()).scrollTop, { message: 'the wheel moves the reader' }).toBeGreaterThan(before)
           await j.readerLayoutSettled()
-          now = await read()
+          now = await read(); wheels++
         }
         expect(now, `escape answer ${identity} sits whole in the reader, with nothing over it`).toMatchObject({ inside: true, hit: true })
       }
+      expect(wheels, 'premise: some answer needed the scroll this claim is about').toBeGreaterThan(0)
     } else {
       // D-433 restores D-370's no-scroll answers for U35. Unlike the old
       // combined-fit oracle, this checks the actual clipped reader and targets.

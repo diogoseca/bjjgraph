@@ -138,7 +138,8 @@ const mutants = [
   ['index-role-after-name', sections, 'D-338 1440px', s => replace(s, 'indexTitle.textContent = role + " " + this.app.graphName(node);', 'indexTitle.textContent = this.app.graphName(node) + " · " + role;')],
   ['section-x-repaint', sections, 'floating contents owns.*dark', s => replace(s, '      if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {', '      if (!s.part) s.toggle.replaceChildren(...faces(s.type, s.title));\n      if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {')],
   ['toc-shifts-column', sections, 'contents and header targets at 1440x900', s => replace(s, 'free.center - parseFloat(art.style.width) / 2', 'free.center - parseFloat(art.style.width) / 2 - 100')],
-  ['toc-overlaps-tablet', sections, 'contents and header targets at 1024x768', s => replace(s, '>= tocWidth + 12', '>= 0')],
+  // U97 b: the fit is the free width now. The claim is unchanged: a tablet has no index over its article.
+  ['toc-overlaps-tablet', sections, 'contents and header targets at 1024x768', s => replace(s, 'free.width >= 1350', 'free.width >= 0')],
   ['toc-not-fixed', sections, 'floating contents owns.*dark', s => s, css => replace(css, '.ng-reader-toc{position:fixed', '.ng-reader-toc{position:absolute')],
   ['toc-container', sections, 'floating contents owns.*light', s => s, css => css + '\n.ng-reader-toc{background:#1b2034;border:1px solid #414c68;box-shadow:0 0 4px #000}\n'],
   ['missing-gap', sections, '1366px choices precede', s => s, css => replace(css, '--section-gap:6px', '--section-gap:0px')],
@@ -193,7 +194,8 @@ const mutants = [
   ['d338-saved-focus-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$', s => replace(s, 'return this.app.get(GAME_KEYS[part], true) !== false;', 'return this.app.get((this.app.get("readingFocus", false) ? { card: "readingCard", hand: "readingHand", map: "readingMap", feedback: "readingFeedback" } : GAME_KEYS)[part], true) !== false;')],
   ['d338-index-eyes-retained', sections, 'contents and header targets at 1440x900', s => replace(s, 'row.append(link, eyeOff()); contents.append(row);', 'row.append(link, eyeOff(), button("", () => {}, { "data-toc-eye": section.type })); contents.append(row);')],
   ['d338-section-settings-retained', sections, 'contents and header targets at 1440x900', s => replace(s, '    contents.append(indexTitle);', '    contents.append(indexTitle, button("Section settings", () => this.app.openSettings("rolling"), { "data-section-settings": "" }));')],
-  ['d338-tray-under-index', sections, 'D-338 1152px', s => replace(s, 'if (row) position(row, rowLeft, rowTop, flush ? grid + free.left : W);', 'if (row) position(row, 0, rowTop, W);')],
+  // U97 b took the index from 1152, so this claim lives at 1440.
+  ['d338-tray-under-index', sections, 'D-338 1440px', s => replace(s, 'if (row) position(row, rowLeft, rowTop, flush ? grid + free.left : W);', 'if (row) position(row, 0, rowTop, W);')],
   ['d338-closed-label-boxed', sections, 'contents and header targets at 390x844', s => s, css => css + '\n.ng-section-card[data-collapsed=true]{background:#1b2034!important;border-color:#414c68!important}\n'],
   ['d338-page-scrolls-flow-top', 'landcard-deck.spec.ts', '390px MC: deck pages', s => replace(s, 'root.scrollTop = Math.min(root.scrollTop, Math.max(0, top));', 'root.scrollTop = 0;')],
   // NOT KILLED SINCE U59 c (DASH-R4 measured; dev's reader kills it): the reader's bottom reserve now spans the full
@@ -228,7 +230,11 @@ const mutants = [
   ['row-keeps-inset', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && W > 640;', 'const flush = available && W > 640;')],
   ['row-full-width', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && W > 640;', 'const flush = this.trayFlush = available && !!indexEdge;')],
   ['grid-spans-all', 'article-order.spec.ts', 'no section spans the whole grid at 1440x900', s => s, css => css + '\n[data-reader-body]>[data-section-type=definition]{width:100%}'],
-  ['beta-everywhere', 'article-order.spec.ts', 'every other page keeps', s => s, css => replace(css, ':has([data-source-id$=tree],[data-source-id$=metrics])', '[data-section-type=options]')],
+  ['beta-everywhere', 'article-order.spec.ts', 'every other page keeps', s => s, css => replace(css, ':has([data-source-id=decision-tree],[data-source-id=position-metrics])', '[data-section-type=options]')],
+  ['beta-suffix', 'article-order.spec.ts', 'Beta mark: /Systems', s => s, css => replace(css, ':has([data-source-id=decision-tree],[data-source-id=position-metrics])', ':has([data-source-id$=tree],[data-source-id$=metrics])')],
+  ['beta-suffix-training', 'article-order.spec.ts', 'Beta mark: /Positions/Leg-Drag', s => s, css => replace(css, ':has([data-source-id=decision-tree],[data-source-id=position-metrics])', ':has([data-source-id$=tree],[data-source-id$=metrics])')],
+  ['relations-label-unscoped', 'article-order.spec.ts', 'a transition keeps the words', s => s, css => replace(css, 'article>:is(.also-known-as,.often-confused-with)>em{display:none}', ':is(.also-known-as,.often-confused-with)>em{display:none}')],
+  ['relations-label-shown', 'article-order.spec.ts', 'a position reads in the owner', s => s, css => replace(css, 'article>:is(.also-known-as,.often-confused-with)>em{display:none}', '')],
   // v1.249.2: the reader holds one line at one height through a pane's slide, until its place moves.
   ['pane-hold-rechosen', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
   ['pane-open-hold-lost', 'pane-layout.spec.ts', '768px the line holds while the pane is open, mid-article', s => replace(s, 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && ', 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && false && ')],
@@ -351,7 +357,12 @@ const mutants = [
   ['index-never', 'article-order.spec.ts', 'U97 at 1350px', s => replace(s, 'free.width >= 1350', 'free.width >= 1e4')],
   // U99 b's floor: the reader cannot scroll, and a strip fixed along the window's bottom over the answers.
   ['u99-no-scroll', 'article-order.spec.ts', 'U99 at 1440x900 every answer', s => s, css => css + '\n.ng-reader{overflow:hidden!important}\n'],
-  ['u99-fixed-over-answer', 'article-order.spec.ts', 'U99 at 1440x900 every answer', s => s, css => css + '\nbody:after{content:"";position:fixed;left:0;right:0;top:40%;height:60%;z-index:99;pointer-events:auto}\n'],
+  // After the take-up, not before: a strip up from arrival died in j.openQuestion(), a preflight red that proved nothing.
+  ['u99-fixed-over-answer', 'article-order.spec.ts', 'U99 at 1440x900 every answer', s => s, css => css + '\nbody:has(.ng-landcard:not([data-land-ask])):after{content:"";position:fixed;left:0;right:0;top:40%;height:60%;z-index:99;pointer-events:auto}\n'],
+  ['u99-wheel-declines', 'article-order.spec.ts', 'U99 at 1440x900 the last answer', s => replace(s, '        if (this.gameInput(event)) return;\n        // Toolbar activation', '        if (this.gameInput(event) && type !== "wheel") return;\n        // Toolbar activation')],
+  // The wrapping-block journeys, retargeted: their rows in video_theater_mutants.json named strings this PR replaced.
+  ['reader-rounding-remainder-dropped', 'article-dashboard.spec.ts', 'wrapping block just under', s => replace(s, 'was = rect(keep).top - was + (this.rest || 0);', 'was = rect(keep).top - was;')],
+  ['reader-clipped-block-anchored', 'article-dashboard.spec.ts', 'wrapping block clipped by', s => replace(s, 'return y >= top && y < was ?', 'return y >= top - 20 && y < was ?')],
 
   ['ask-line-centred', 'article-order.spec.ts', 'U90 at 1440x900 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', '')],
   ['ask-line-label-offset', 'article-order.spec.ts', 'U90 at 390x844 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', 'if (moves) cardX = rowLeft + 3;')],
@@ -364,7 +375,7 @@ const mutants = [
   // retain the obstruction control (historical name) with its reserve measured over the old 680px column only.
   ['u59-pill-covers', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'a._readerShelfBottom({ left: free.center - width / 2, right: W })', 'a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 })')],
   // "Keep the reader's place when the lane count changes": the anchor found but never put back.
-  ['u59-place-lost', 'article-dashboard.spec.ts', 'opening Explore keeps', s => replace(s, '      if (keep) this.placeTop = root.scrollTop += Math.round(keep.getBoundingClientRect().top - was);\n', '')],
+  ['u59-place-lost', 'article-dashboard.spec.ts', 'opening Explore keeps', s => replace(s, 'this.held = keep; this.heldAt = this.placeTop = root.scrollTop += was;', 'this.held = keep; this.heldAt = this.placeTop = root.scrollTop;')],
   // "A link inside a tile still opens its page": the tile swallows its links' clicks.
   ['u55r-link-swallowed', 'article-dashboard.spec.ts', 'a click on a section tile does nothing', s => replace(s, 'card.append(heading, content); body.append(card);',
     'card.append(heading, content); body.append(card); card.addEventListener("click", e => { if (e.target.closest("a")) { e.preventDefault(); e.stopPropagation(); } });')],
@@ -402,7 +413,7 @@ const mutants = [
     'focus = node.querySelector("[data-film-close]");', 'focus = null;')],
   ['u65-grid-overview-hidden', 'article-grid.spec.ts', '1440px preserves content', s => s,
     css => css + '\n[data-reader-body]>[data-section-type=overview]{display:none!important}\n'],
-  ['u65-gap-passes-map', 'article-dashboard.spec.ts', 'space below a short tile', s => s, css => css + '\n.ng-reader-article,[data-reader-body]{pointer-events:none!important}\n'],
+  ['u65-gap-passes-map', 'article-dashboard.spec.ts', 'space below the shorter column', s => s, css => css + '\n.ng-reader-article,[data-reader-body]{pointer-events:none!important}\n'],
   ['u59r4-phone-measure', 'article-dashboard.spec.ts', 'at 390x844 the phone keeps', s => s, css => css + '\n@media(max-width:640px){.ng-section-body article{max-width:120px}}\n'],
   ['u59r4-drag-on-reader', 'opening-camera.spec.ts', 'a drag mid-rise', s => s, css => css + '\nbody:after{content:"";position:fixed;left:1290px;top:150px;width:40px;height:40px;z-index:99}\n'],
   // "The phone keeps its stacked flow": its one-column rule removed, so the desktop's half width applies at 390px.

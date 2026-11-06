@@ -466,8 +466,10 @@ await build({
 // Independent article renderer: requested on reading intent or after the real first hand.
 // READER_ONLY_PROPS: minifying shortens locals but keeps a property name whole, and the deferred cap is exact. These names
 // live only inside reader.src.js, so they can shrink; the source stays readable. A name the app or a spec reads must
-// never be listed, because it would come back undefined rather than throw: tests/reader_mangle.test.mjs fails on one, and
-// on a stale entry. It stays because it saves 620 B and the deferred set has 2 B free (v1.251.0).
+// never be listed, because it would come back undefined rather than throw. tests/reader_mangle.test.mjs pins this: all but
+// `held` anywhere, as `.name`, a quoted name or a key, and `held` only through the reader's four spellings. It does not pin
+// `held` through another local name, or a name built at runtime. A stale entry fails it too. This stays because it saves
+// 620 B and the deferred set has 6 B free (v1.251.0).
 const READER_ONLY_PROPS = /^(?:closedRow|referenceClips|lightReference|bookClose|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|bookScroll|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|shelfState|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY)$/;
 await build({
   entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",

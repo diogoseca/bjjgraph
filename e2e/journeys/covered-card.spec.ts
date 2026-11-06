@@ -376,7 +376,7 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 
 // need user scroll; their subtree, dimensions, untimed lifetime and real escape after
 // expiry remain guarded.
 for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 390, height: 631 }]) {
-  test(`@curated U35 D-433 the asking question, Answer for Points and answers need no scroll; native Moves stay untimed (${viewport.width}x${viewport.height})`, async ({ page }, info) => {
+  test(`@curated U35 D-433 the asking question and Answer for Points need no scroll${viewport.width <= 640 ? ', nor do the answers' : ''}; native Moves stay untimed (${viewport.width}x${viewport.height})`, async ({ page }, info) => {
     await page.setViewportSize(viewport)
     const j = await coveredCatch(page)
     await watchQuestionScroll(page)

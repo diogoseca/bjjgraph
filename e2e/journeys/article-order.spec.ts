@@ -31,6 +31,10 @@ import { journey } from '../dsl'
 //   row-full-width           below the index the row shares the grid too (the row back to the window's width)
 //   grid-spans-all           no section spans the grid (a tile across all 12 columns)
 //   beta-everywhere          only a position's two sections carry Beta (the mark on every options tile)
+//   beta-suffix              the same, on a System and on Training (the selector back to id suffixes)
+//   relations-label-unscoped a transition keeps its words (the rule not scoped to a position's own tile)
+//   relations-label-shown    a position drops them (the rule removed)
+//   u99-wheel-declines       the wheel declines nothing (a wheel over the card counts as reading)
 //   index-from-1152          the index waits for a readable line (back at 1,152)
 //   index-never              the index shows at 1,350 (never)
 //   band-uncapped            the map stops at the median card's room (half the window, no cap)
@@ -67,6 +71,7 @@ test('@curated a position reads in the owner\'s order, with a tile for each rela
   const of = (type: string) => d.open.find(t => t.type === type)!
   expect(of('aka').title).toBe('Also known as')
   expect(of('aka').text, 'the relation is its own small tile').toContain('Side Mount')
+  expect(of('aka').text, 'the tile\'s title says it, so the line does not').not.toContain('Also known as')
   expect(of('confused').title).toBe('Often confused with')
   expect(of('confused').text).toContain('Shoulder of Justice')
   expect(of('definition').text.startsWith('What is Side Control (Bottom)?'), 'the question leads the definition').toBe(true)
@@ -127,10 +132,18 @@ test('@curated a saved closed section survives the new name, in the index, Setti
   await j.boot(SCB, { initialState: { v: 2, settings: { 'readerSection.overview': false }, settingsAt: {} }, beforeNavigate: async () => { await page.route('**/static/neural/content/*.json', r => r.continue()) } })
   await expect(page.locator(READY)).toBeVisible(); await j.readerLayoutSettled()
   expect(await page.locator('[data-section-toggle=overview]').getAttribute('aria-expanded'), 'the saved choice still closes it').toBe('false')
+  // 1024 has no index, so Hidden sections carries it. 1440 has one, and the index row does.
   await expect(page.locator('.ng-reader-hidden>summary'), 'it is listed as hidden').toContainText('Hidden sections (1)')
   await expect(page.locator('.ng-reader-hidden [data-section-toggle=overview] .ng-section-closed'), 'under its new name').toContainText('How it works')
-  expect(await page.evaluate(async () => (await import((window as any).__neural._appAsset('reader.js'))).SECTION_TYPES.filter(([type]: string[]) => /overview|summary/.test(type))), 'the list Settings renders').toEqual(
-    [['overview', 'How it works'], ['top-summary', 'From the top'], ['bottom-summary', 'From the bottom'], ['attacker-summary', 'As the attacker'], ['defender-summary', 'As the defender']])
+  await page.setViewportSize({ width: 1440, height: 900 }); await j.readerLayoutSettled()
+  const row = page.locator('.ng-reader-toc-row[data-toc-type=overview]')
+  await expect(row, 'the index carries it under its new name').toHaveText('How it works')
+  await expect(row, 'closed').toHaveAttribute('data-collapsed', 'true')
+  // The Settings page itself, not the list it reads.
+  await page.evaluate(() => (window as any).__neural.openSettings('rolling'))
+  await expect(page.locator('[data-section-setting=overview]'), 'Settings shows the saved choice').not.toBeChecked()
+  for (const [type, name] of [['overview', 'How it works'], ['top-summary', 'From the top'], ['bottom-summary', 'From the bottom'], ['attacker-summary', 'As the attacker'], ['defender-summary', 'As the defender']])
+    expect(await page.locator(`[data-section-setting="${type}"]`).evaluate(e => e.parentElement!.textContent), `Settings names ${type}`).toBe(name)
 })
 
 // Learning, Systems and Submission family pages publish their own <details>. Opening one must leave its question in place.
@@ -151,10 +164,25 @@ test('@curated every other page keeps today\'s order, and safety stays where it 
   expect(d.open.some(t => t.beta), 'its options tile carries no Beta').toBe(false)
 })
 
-test('@curated only a position\'s Statistics and Decisions carry the Beta mark', async ({ page }) => {
-  await boot(page, 1440, 900)
-  const d = await tiles(page)
-  expect(d.open.filter(t => t.beta).map(t => t.type)).toEqual(['options', 'statistics'])
+// U92 a: Statistics and Decisions, on position pages, and nothing else. A suffix selector also lit How it works on all 83 Systems
+// (an empty assessment-metrics) and Training on two positions (a *-decision-tree id), so each is here. beta-suffix.
+for (const [path, id, marked] of [[SCB, 'decision-tree', ['options', 'statistics']], ['/Positions/Leg-Drag-Control/Top', 'leg-drag-decision-tree', ['options', 'statistics']],
+  ['/Systems/10th-Planet-No-Gi-Guard-System', 'assessment-metrics', []]] as const) {
+  test(`@curated only a position's Statistics and Decisions carry the Beta mark: ${path}`, async ({ page }) => {
+    await boot(page, 1440, 900, path)
+    const d = await tiles(page)
+    expect(await page.locator(`[data-reader-body] [data-source-id="${id}"]`).count(), `premise: the page carries ${id}`).toBeGreaterThan(0)
+    expect(d.open.filter(t => t.beta).map(t => t.type)).toEqual(marked)
+  })
+}
+
+// The tile's title says "Also known as", so a position drops those words from its own line. A transition's and a submission's relations
+// sit in one block with no such title, where the words are the only label. relations-label-unscoped, relations-label-shown.
+test('@curated a transition keeps the words Also known as, which only a position\'s own tile can drop', async ({ page }) => {
+  await boot(page, 1440, 900, '/Transitions/Half-Guard-to-Leg-Weave/Defender')
+  const label = page.locator('[data-reader-body] .also-known-as>em').first()
+  await expect(label, 'the words are the label here').toBeVisible()
+  await expect(label).toContainText('Also known as')
 })
 
 // Measured before this change at 1408: grid 236-1384, row 236-1172, first card 260. Sweep from the brief: 1024 to 1920 by 64.
@@ -236,6 +264,35 @@ const answersOf = (page: Page) => page.evaluate(() => {
     return { top: b.top, bottom: b.bottom, left: b.left, width: b.width, inside, hit: !!hit && e.contains(hit) }
   }) }
 })
+// Reaching an answer is worth nothing if the wheel spent the question. The press is real, the beat is what scored it, and nothing
+// declined it on the way: a wheel over the card is game input. u99-wheel-declines.
+test('@curated U99 at 1440x900 the last answer, reached by the wheel, scores, and the wheel declines nothing', async ({ page }) => {
+  test.setTimeout(120000)
+  const j = await boot(page, 1440, 900, '/Submissions/Americana/from-Side-Control/Attacker')
+  await j.openQuestion()
+  await j.readerLayoutSettled()
+  let card = await answersOf(page)
+  for (let n = 0; n < 16 && card.answers.at(-1)!.inside; n++) {
+    await j.clickByMouse('[data-land-next]', 'the next card')
+    await j.readerLayoutSettled()
+    card = await answersOf(page)
+  }
+  const last = card.answers.at(-1)!
+  expect(last.inside, 'premise: this card\'s last answer starts below the reader\'s end').toBe(false)
+  await page.mouse.move(last.left + last.width / 2, Math.min(last.top + 4, card.end - 12))
+  await page.mouse.wheel(0, last.bottom - card.end + 12)
+  await expect.poll(async () => (await answersOf(page)).answers.at(-1)!.inside, { message: 'the wheel brought it into the reader' }).toBe(true)
+  await j.readerLayoutSettled()
+  const now = (await answersOf(page)).answers.at(-1)!
+  expect((await j.beats()).map(b => b.beat), 'the wheel declined nothing').not.toContain('land_q_declined')
+  expect(now.hit, 'nothing is over it').toBe(true)
+  await page.mouse.click(now.left + now.width / 2, (now.top + now.bottom) / 2)
+  await j.readerLayoutSettled()
+  const beats = (await j.beats()).map(b => b.beat)
+  expect(beats, 'the press scored').toContain('land_q_answered')
+  expect(beats, 'and still nothing declined').not.toContain('land_q_declined')
+})
+
 for (const [width, height] of [[1440, 900], [1152, 864]] as const) {
   test(`@curated U99 at ${width}x${height} every answer of every card on the longest deck is reached by a real scroll`, async ({ page }) => {
     test.setTimeout(180000)
