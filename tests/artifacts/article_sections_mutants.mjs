@@ -365,9 +365,11 @@ const mutants = [
   ['u59r4-anchor-arrival', 'article-dashboard.spec.ts', 'opening Explore at the arrival', s => replace(s, ' && rect(art).top < top', '')],
   ['u59r4-anchor-resize', 'article-dashboard.spec.ts', 'window narrowed at the arrival', s => replace(s, ' && rect(art).top < top', '')],
   ['u59r4-anchor-rotation', 'article-dashboard.spec.ts', 'phone turned to landscape', s => replace(s, ' && rect(art).top < top', '')],
+  // v1.251.0: keyed on the GRID, as R3 was: the free width does not change when the article is put away, so a control keyed on it
+  // reopens nothing and survives with the claim unbroken (measured). The grid does change, because the hidden article has no index.
   // Finding 2, "putting the article away and back returns the same line": restore R3's ungated anchor and
   // remembered hidden width together. The reset alone is redundant with the gate in this journey.
-  ['u59r4-reopen-ungated', 'article-dashboard.spec.ts', 'putting the article away and back', s => replace(replace(s, ' && rect(art).top < top', ''), '(this.gridW = available ? free.width : NaN)', '(this.gridW = free.width)')],
+  ['u59r4-reopen-ungated', 'article-dashboard.spec.ts', 'putting the article away and back', s => replace(replace(s, ' && rect(art).top < top', ''), '(this.gridW = available ? free.width : NaN)', '(this.gridW = grid)')],
   // Finding 3, "a wide table shows every column": kept in the 46ch column.
   ['u59r4-table-measured', 'article-dashboard.spec.ts', 'wide Top/Bottom table', s => s, css => replace(css, '.ng-section-body article:has(tr>:nth-child(4)){max-width:none}', '')],
   ['u59r4-table-margin', 'article-dashboard.spec.ts', 'at 768x1024', s => s, css => replace(css, 'table{display:block;overflow-x:auto;font-size:14px;margin:0}', 'table{display:block;overflow-x:auto;font-size:14px}')],
