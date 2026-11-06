@@ -212,7 +212,7 @@ const mutants = [
   ['overview-one-wall', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, 'const wall = buckets.get(position && "overview")?.parts[0].node', 'const wall = null')],
   ['read-more-open', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, 'more = element("details", { class: "ng-rm" });', 'more = element("details", { class: "ng-rm", open: "" });')],
   ['overview-loses-text', 'article-order.spec.ts', 'New-York/Bottom: one tile named How it works', s => replace(s, 'more.append(...paragraphs.slice(1));', 'paragraphs.slice(1).forEach(p => p.remove());')],
-  ['read-more-sentence-lost', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, 'rest.innerHTML = sentences.join(" ");', 'rest.innerHTML = sentences.slice(1).join(" ");')],
+  ['read-more-sentence-lost', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, 'rest.innerHTML = html.slice(lead.length);', 'rest.innerHTML = html.slice(lead.length + 60);')],
   ['label-reverted', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, '["overview", "How it works"]', '["overview", "Overview"]')],
   ['label-hub-reverted', 'article-order.spec.ts', 'Positions/Mount: the seats take', s => replace(s, '"From the top"', '"Top overview"')],
   ['label-shared-reverted', 'article-order.spec.ts', 'Transitions/Knee-Slice-Pass: the seats take', s => replace(s, '"For both sides"', '"Shared overview"')],
