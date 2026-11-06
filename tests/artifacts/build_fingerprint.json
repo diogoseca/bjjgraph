@@ -1,5 +1,16 @@
 {
  "_meta": {
+  "app_provenance": {
+   "command": "npm run regenerate:neural",
+   "esbuild": "0.27.0",
+   "git_head": "4c97443b47d34b0da35ae3ab1082083ffe3b9288",
+   "inputs": {
+    "tree": "92a349fa1f4b47f01bb23447561778d9baca88de"
+   },
+   "package_version": "1.250.1",
+   "rows_from": "neural/dist",
+   "schema": "app-assets-rebuild-v2"
+  },
   "capture_tree": "/home/user/bjj-orchestrator/scratch/safety-last/capture/caps1-a99992434/pr-safety-last-a99992434",
   "content_provenance": {
    "capture_git_head": "a99992434de2ef2d41641b2125a79ec15c5f5734",
@@ -94,8 +105,8 @@
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 42552,
-    "sha256": "7ab8f72e5cb11cc68b7a85ea4daa24a6bffabcdedc7c0a13df5619a4f71dcf83"
+    "bytes": 42544,
+    "sha256": "00a34a91e34740d8c04246e666825a561b7472133457d714b3d5f2f53c1ccdfa"
    },
    "static/neural/app/reading.css": {
     "bytes": 10859,
