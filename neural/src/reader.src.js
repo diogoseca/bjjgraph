@@ -1127,7 +1127,8 @@ class Reader {
       // restores bookScroll without anchoring against a layout that was never shown.
       // A pane's slide is many passes, and a lane change reorders which line comes first. Once a pass holds a line it stays
       // the line until the reader scrolls, or a close at the article's end lands a tile away (971px at Mount Top, v1.249.1).
-      keep = this.gridW - (this.gridW = available ? grid : NaN) && rect(art).top < top && (root.scrollTop === this.heldAt && this.held?.isConnected
+      // The slide also counts on its own: a capped grid holds still while the stage above it reflows (32px at 1152).
+      keep = (this.gridW - (this.gridW = available ? grid : NaN) || a.uiShift % 1) && rect(art).top < top && (root.scrollTop === this.heldAt && this.held?.isConnected
         ? (was = rect(this.held).top, this.held) : [...art.querySelectorAll("p,li")].find(e => (was = rect(e).top) >= top));
       style(art, "--article-width", grid);
       // U59 c (owner): every desktop row holds two open sections side by side, in source order, so

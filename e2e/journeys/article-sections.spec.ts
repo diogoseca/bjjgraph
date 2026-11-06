@@ -58,7 +58,7 @@ for (const path of [
       const root = document.querySelector('[data-reader]')!, body = root
       const norm = (s: string | null) => (s || '').replace(/Play as /g, 'Read as ').replace(/\s+/g, ' ').trim()
       const sources = [...new Set([...body.querySelectorAll('[data-source-path]')].map(e => e.getAttribute('data-source-path')!))]
-      const missing: string[] = []
+      const missing: string[] = [], position = /^\/Positions\//.test(root.getAttribute('data-reader-path')!)
       for (const path of sources) {
         const res = await fetch(path); if (!res.ok) throw Error(path + ': ' + res.status)
         const doc = new DOMParser().parseFromString(await res.text(), 'text/html')
@@ -69,7 +69,10 @@ for (const path of [
         const selected = guide || !/\/(Top|Bottom|Attacker|Defender)$/.test(root.getAttribute('data-reader-path')!) ? [source] : [...source.querySelectorAll('#safety-considerations,blockquote.callout.danger')]
         for (const container of selected) for (const leaf of container.querySelectorAll('p,li,th,td')) {
           if (!/^\/(Principles|Learning|Systems)\//.test(root.getAttribute('data-reader-path')!) && leaf.closest('#film-study,#official-preview')) continue
-          const text = norm(leaf.textContent); if (text && !shown.includes(text)) missing.push(text)
+          // A position's Overview is cut into tiles at sentence ends (owner, 2026-11-01), and the template's wikilink
+          // inside raw HTML prints as its name, so a paragraph is whole when every sentence of it shows.
+          const text = norm(leaf.textContent).replace(/\[\[.*?\|(.*?)]]/, '$1')
+          for (const line of position ? text.split(/(?<=[.!?])\s+(?=[A-Z])/) : [text]) if (line && !shown.includes(line)) missing.push(line)
         }
       }
       const cards = [...root.querySelectorAll('[data-reader-body]>.ng-section-card,.ng-reader-game>.ng-section-card')]
@@ -83,9 +86,11 @@ for (const path of [
     expect(proof.count).toBeGreaterThan(2)
     expect(new Set(proof.ids).size).toBe(proof.ids.length)
     expect(proof.horizontalTabs).toBe(0)
-    const main = ['videos', 'overview', 'principles', 'recognition', 'setup', 'prerequisites', 'options', 'safety', 'mistakes']
+    // Positions read in the owner's order (2026-11-01): article-order.spec.ts. Everything else keeps this one.
+    const main = /^\/Positions\//.test(path) ? ['videos', 'aka', 'confused', 'definition', 'principles', 'options', 'safety', 'mistakes', 'statistics', 'overview', 'prerequisites', 'training']
+      : ['videos', 'overview', 'principles', 'recognition', 'setup', 'prerequisites', 'options', 'safety', 'mistakes']
     const actual = proof.types.filter(t => main.includes(t!))
-    expect(actual).toEqual(main.filter(t => proof.types.includes(t)))
+    expect([...new Set(actual)]).toEqual(main.filter(t => proof.types.includes(t)))
     if (proof.types.includes('related')) expect(proof.types.slice(proof.types.indexOf('related'))).toEqual(proof.reference && proof.types.includes('sources') ? ['related', 'sources'] : ['related'])
     if (proof.reference) expect(proof.hand).toBe(0)
     expect(await state(page)).toMatchObject({ paused: true, played: false, misses: 0, deals: 0 })

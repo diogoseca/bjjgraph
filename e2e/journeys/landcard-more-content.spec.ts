@@ -88,7 +88,10 @@ for (const path of [
       // U65 note (owner, 2026-10-29) retires only the duplicate game video credits. Reference
       // players and credits remain; every other published block still belongs in the reader.
       const reference = /^\/(Principles|Learning|Systems)\//.test(path)
-      const prose = [...source.querySelectorAll("p,li,h2,h3,h4,td,th,aside")].filter(n => reference || !n.closest('#film-study,#official-preview')).map(n => normalized(n.textContent || "")).filter(s => s.length > 0)
+      // A position's relations and Overview are cut into tiles (owner, 2026-11-01), so its text is compared sentence by
+      // sentence; the template's wikilink inside raw HTML prints as its name.
+      const position = /^\/Positions\//.test(path)
+      const prose = [...source.querySelectorAll(position ? "p,li,h2,h3,h4,td,th" : "p,li,h2,h3,h4,td,th,aside")].filter(n => reference || !n.closest('#film-study,#official-preview')).flatMap(n => { const t = normalized(n.textContent || "").replace(/\[\[.*?\|(.*?)]]/, "$1"); return position ? t.split(/(?<=[.!?])\s+(?=[A-Z])/) : [t] }).filter(s => s.length > 0)
       const shown = normalized([...document.querySelectorAll('[data-reader-article="guide"]')].map(e => e.textContent).join(" "))
       const a = (window as any).__neural
       return { status: response.status, prose: prose.length, missing: prose.filter(s => !shown.includes(s)),

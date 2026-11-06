@@ -309,13 +309,13 @@ for (const action of ["wheel", "selection"] as const) {
     expect((await state(page)).clock).toBeGreaterThan(0)
     const before = await state(page)
     if (action === "wheel") {
-      // U65 note retires the credits text. Overview's header is visible at arrival; its first
+      // U65 note retires the credits text. The first tile's header is visible at arrival; its first
       // paragraph can lie below the reader's clipped bottom despite being inside the viewport.
-      const point = await page.locator('[data-reader-body] [data-section-type=overview]').evaluate(e => {
+      const point = await page.locator('[data-reader-body]>.ng-section-card:visible').first().evaluate(e => {
         const r = e.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + 12
         return { x, y, owns: e.contains(document.elementFromPoint(x, y)) }
       })
-      expect(point.owns, 'premise: the wheel hits Overview inside the reader scrollport').toBe(true)
+      expect(point.owns, 'premise: the wheel hits the first tile inside the reader scrollport').toBe(true)
       await page.mouse.move(point.x, point.y)
       await page.mouse.wheel(0, 300)
       await expect(page.locator("[data-reader]")).toHaveAttribute("data-reading-expanded", "")

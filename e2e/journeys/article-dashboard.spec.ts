@@ -238,7 +238,9 @@ function measure(d: Dash, lanes: number) {
   expect(median(wide), 'a wide tile reads inside the measure band').toBeLessThanOrEqual(75)
 }
 
-for (const [width, height, lanes] of [[1440, 900, 3], [1920, 1080, 3], [1366, 768, 2], [1152, 900, 2]] as const) {
+// Owner (2026-11-01): the grid is centred and shares both edges with the choices row, so it no longer runs to the right edge
+// and three lanes start at a 1,622px window. 1600 is the last of two lanes: u59r4-lanes-1366 kills at that grid of 1,128px.
+for (const [width, height, lanes] of [[1440, 900, 2], [1920, 1080, 3], [1600, 900, 2], [1366, 768, 2], [1152, 900, 2]] as const) {
   test(`${width === 1440 ? '@curated ' : ''}U59 c: at ${width}x${height} the dashboard pairs its sections in ${lanes} lanes, shows every tile whole and keeps the node band clear`, async ({ page }) => {
     const j = await boot(page, width, height)
     await page.evaluate(() => {
@@ -256,11 +258,11 @@ for (const [width, height, lanes] of [[1440, 900, 3], [1920, 1080, 3], [1366, 76
     const stage = Math.max(d.question?.bottom ?? 0, d.hand?.bottom ?? 0)
     expect(stage, 'the question and the Moves row are on screen').toBeGreaterThan(d.band!.bottom)
     expect(Math.min(...d.tiles.map(t => t.box.top)), 'the dashboard starts below the question and the Moves row').toBeGreaterThanOrEqual(stage)
-    // The width: from the index's 12px clearance to a 24px right margin.
+    // The width: from the index's 12px clearance, centred, so that margin mirrors on the right.
     expect(d.toc, 'the left index shows').not.toBeNull()
     expect(d.body.left).toBeCloseTo(d.toc!.right + 12, 0)
-    expect(d.body.right).toBeCloseTo(width - 24, 0)
-    expect(Math.max(...d.tiles.map(t => t.box.right))).toBeCloseTo(width - 24, 0)
+    expect(d.body.right).toBeCloseTo(width - d.body.left, 0)
+    expect(Math.max(...d.tiles.map(t => t.box.right))).toBeCloseTo(width - d.body.left, 0)
     // The account badge moved into the drawer. The conditional share cue now owns the corner;
     // the reader must still reserve that whole last lane so text cannot scroll beneath a control.
     expect(d.cue.height, 'premise: the share cue is a live corner control').toBeGreaterThan(0)
@@ -475,8 +477,8 @@ for (const offset of [40, 300]) {
 
 // DASH-R4 (review finding 3): the 6-column Top/Bottom comparison on every position hub needs ~520-566px; in a third
 // 208-229px of it hid behind a sideways scroll on all 13 hubs.
-test('U59 c: at 1440x900 a position hub\'s wide Top/Bottom table takes two thirds and shows every column', async ({ page }) => {
-  await boot(page, 1440, 900, '/Positions/Mount')
+test('U59 c: at 1920x1080 a position hub\'s wide Top/Bottom table takes two thirds and shows every column', async ({ page }) => {
+  await boot(page, 1920, 1080, '/Positions/Mount')
   const d = await dashboard(page), table = d.tiles.find(t => t.type === 'role-comparison')
   expect(table, 'premise: the hub carries its Top/Bottom comparison').toBeTruthy()
   expect(table!.long, 'premise: its table has more than three columns').toBe(true)
@@ -487,8 +489,8 @@ test('U59 c: at 1440x900 a position hub\'s wide Top/Bottom table takes two third
 
 // DASH-R4 (review finding 4): a reference page's player lives in its Videos tile; in a third it shrank 862 -> 337px
 // on all 62 Principles pages that embed one.
-test('U59 c: at 1440x900 a Principles page\'s player takes two thirds and the tile\'s width', async ({ page }) => {
-  await boot(page, 1440, 900, '/Principles/Frames')
+test('U59 c: at 1920x1080 a Principles page\'s player takes two thirds and the tile\'s width', async ({ page }) => {
+  await boot(page, 1920, 1080, '/Principles/Frames')
   const d = await dashboard(page), videos = d.tiles.find(t => t.type === 'videos')
   expect(videos?.media?.height, 'premise: the page\'s player fills its Videos slot').toBeGreaterThan(100)
   pairs(d, 3)
@@ -496,10 +498,10 @@ test('U59 c: at 1440x900 a Principles page\'s player takes two thirds and the ti
   measure(d, 3)
 })
 
-test('U59 c: an odd article at 1440x900 only uses a trio when its sections are short', async ({ page }) => {
+test('U59 c: an odd article at 1920x1080 only uses a trio when its sections are short', async ({ page }) => {
   // v1.249.1: the Attacker page's Related tile held only the study guides, so that article went even. The Defender
   // page keeps the odd count, and long sections that a trio must refuse.
-  await boot(page, 1440, 900, '/Transitions/Knee-Slice-Pass/Defender')
+  await boot(page, 1920, 1080, '/Transitions/Knee-Slice-Pass/Defender')
   const d = await dashboard(page)
   expect(d.open % 2, 'premise: the article has an odd number of open tiles').toBe(1)
   pairs(d, 3)
@@ -588,8 +590,8 @@ for (const [width, height] of [[768, 1024], [844, 390]] as const) {
 
 // DASH-R4 (review finding 6): layoutNow waits while a press is held, and the spans are its writes. An article that
 // arrives under a held press showed every tile across the full width until release; the default is now a half.
-test('U59 c: at 1440x900 an article that arrives under a held press still pairs its sections', async ({ page }) => {
-  const j = await boot(page, 1440, 900)
+test('U59 c: at 1920x1080 an article that arrives under a held press still pairs its sections', async ({ page }) => {
+  const j = await boot(page, 1920, 1080)
   const at = await page.evaluate(() => { const q = (window as any).__neural._landEl.getBoundingClientRect(); return { x: q.left + 30, y: q.top + q.height / 2 } })
   await page.mouse.move(at.x, at.y); await page.mouse.down()
   expect(await page.evaluate(() => !!(window as any).__neural._readerPress), 'premise: the press is held').toBe(true)

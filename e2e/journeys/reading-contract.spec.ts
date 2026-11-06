@@ -310,9 +310,9 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   // The explicit Top article omits the hub's comparison and opposite-role summaries.
   // Keep the exact current-role TOC and every link's semantic target, after the held Bottom response.
   const expected = [
-    ['videos', 'Videos'], ['hand', 'Moves'], ['card', 'Questions'], ['overview', 'Overview'], ['principles', 'Essential principles'],
-    ['prerequisites', 'Prerequisites'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
-    ['training', 'Training'], ['statistics', 'Statistics'], ['related', 'Related'],
+    ['videos', 'Videos'], ['hand', 'Moves'], ['card', 'Questions'], ['aka', 'Also known as'], ['definition', 'Position definition'],
+    ['principles', 'Essential principles'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
+    ['statistics', 'Statistics'], ['overview', 'Overview'], ['prerequisites', 'Prerequisites'], ['training', 'Training'], ['related', 'Related'],
   ]
   expect(toc, 'every current Top label points to its own nonempty semantic section').toEqual(
     expected.map(([type, label]) => ({ type, label, heading: label, current: true })))
