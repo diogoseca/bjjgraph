@@ -376,8 +376,10 @@ for (const depth of [0.3, 0.6]) {
 // A depth lands wherever the page's height puts it, so a merge can move the cases above off the landings that matter:
 // v1.249.0's merge put the 30% line 4.9px under the reader's top and only then showed a real 31px jump. These two
 // landings are set by geometry, on a list item that wraps as the pane opens, so they hold at any page height.
-//   just under: the rounding's remainder must not carry the block out of the anchor (reader-rounding-remainder-dropped)
+//   just under: the line holds on a block that barely starts inside the reader (wrapping-anchor-lost)
 //   clipped by: the anchor must be the next block, not the one that grows (reader-clipped-block-anchored)
+// RECORDED NON-KILL (v1.251.0): reader-rounding-remainder-dropped survives. The line drifts -0.266px at 720 and -0.234px at 1440 with
+// the remainder and without it, 3 runs each: #340's held line now does what the remainder did, so this journey cannot see it.
 // 720 is one column, so the block after the wrapping one is the line by any reading, and these are the journeys both controls kill.
 // At 1440 a block in the other column can be the nearest line, and it hides the wrap: both controls SURVIVE there (recorded).
 for (const [width, label, offset] of [[720, 'just under', 2], [720, 'clipped by', -10], [1440, 'just under', 2], [1440, 'clipped by', -10]] as const) {
