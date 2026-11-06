@@ -1255,8 +1255,8 @@
  "Submissions/Achilles-Lock.html": {
   "canonical": "https://bjjgraph.org/Submissions/Achilles-Lock",
   "content_floor": 5128,
-  "content_hash": "84f8221480d95f98e818eda0f255fb3b37a75663d8c93ed5ac764a3b7a9a141b",
-  "content_len": 6033,
+  "content_hash": "0d592bd199bc2f48ad96cdf0cb4b8e371d2ccade1996ef4b3784790cb5767847",
+  "content_len": 5857,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/\", \"name\": \"Submissions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/Achilles-Lock\", \"name\": \"Achilles Lock\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"CollectionPage\", \"dateModified\": \"<volatile>\", \"datePublished\": \"<volatile>\", \"description\": \"Master the Achilles Lock leg submission in BJJ. Complete guide covering setup mechanics, finishing details, and safety protocols from Ashi Garami positions.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Achilles Lock\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}",
@@ -1266,7 +1266,6 @@
   ],
   "links": [
    "#related",
-   "#safety-considerations",
    "#safety-guide",
    "#what-positions-can-you-finish-from",
    "../../Positions/Ashi-Garami",
@@ -1306,8 +1305,8 @@
  "Submissions/Rear-Naked-Choke.html": {
   "canonical": "https://bjjgraph.org/Submissions/Rear-Naked-Choke",
   "content_floor": 6754,
-  "content_hash": "7bf20976966c22f16d00d29c5aee1177ab4feda97bdda7defbae67f1ce480fa9",
-  "content_len": 7903,
+  "content_hash": "04e78e9d03f9cc633f5cfc595e1917a0ebc4221c8819fc93ef79ae6248d72300",
+  "content_len": 7714,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/\", \"name\": \"Submissions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/Rear-Naked-Choke\", \"name\": \"Rear Naked Choke\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"CollectionPage\", \"alternateName\": [\"Mata Leão\", \"Mata Leao\", \"Hadaka Jime\", \"RNC\", \"Sleeper Hold\"], \"dateModified\": \"<volatile>\", \"datePublished\": \"<volatile>\", \"description\": \"Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Rear Naked Choke\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"sameAs\": [\"https://en.wikipedia.org/wiki/Rear_naked_choke\", \"https://www.wikidata.org/wiki/Q4845233\"]}",
@@ -1319,7 +1318,6 @@
   "links": [
    "#film-study",
    "#related",
-   "#safety-considerations",
    "#safety-guide",
    "#what-positions-can-you-finish-from",
    "../../Positions/Back-Control",
@@ -1621,14 +1619,14 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "48417c3158194cf02e6a19103a778f3b4e0f14d9",
-   "capture_id": "702e96b73b5641aea5c00039086b2506",
+   "capture_git_head": "a99992434de2ef2d41641b2125a79ec15c5f5734",
+   "capture_id": "af12071c744643ea8564a0619b4e5703",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "2d9b0945f5cee609badcddf588f50a36be4aab86",
+   "content_tree": "84560ee2ef57c76d302d453a6f117502c1d6011c",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1653,11 +1651,11 @@
    },
    "output_identity": {
     "files": 15827,
-    "sha256": "90c211ebea6df9e3197203c0f55982d0c09c832f800dff2b6d0ef84a189cd9a1"
+    "sha256": "adef659bcf2dc5b47201147cce9f7d047cc6cb8af5373fcf2fdf0474f70752d8"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/article-order/capture/capu89-48417c315/pr-cut-study-guides-48417c315"
+    "/home/user/bjj-orchestrator/scratch/safety-last/capture/caps1-a99992434/pr-safety-last-a99992434"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
