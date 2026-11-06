@@ -154,19 +154,6 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
     await page.keyboard.press("Control+End")
     await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
     const before = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
-    // PARTIALLY PINNED (v1.249.1). The article's end used to be study-guide cards, which hold no `p` or `li`, so U59 c's
-    // place anchor found nothing there and this journey only ever saw an untouched scrollTop. Now the end is the Related
-    // list and the anchor runs. At 390 the pane overlays and nothing reflows, so the position is exact. At 768 the pane
-    // narrows the article to one lane: the line holds while the pane is open, pinned below. UNGUARDED: the CLOSE, which
-    // anchors on whichever line one lane put first, so at the article's end it can land a tile away (971px at Mount Top;
-    // mid-article the same journey held within 26px at 35%, 50% and 70% down). PR-2 of the article order takes that gap.
-    const line = () => page.locator("[data-reader]").evaluate(e => {
-      const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
-      const held = r.articleEl.querySelector("[data-test-line]") || [...r.articleEl.querySelectorAll("p,li")].find((x: Element) => x.getBoundingClientRect().top >= top)
-      held.setAttribute("data-test-line", "")
-      return held.getBoundingClientRect().top - top
-    })
-    const lineBefore = await line()
     await openPane(page, j)
     const overlap = await page.evaluate(() => {
       const pane = document.querySelector(".ng-drill")!, article = document.querySelector(".ng-reader-article")!
@@ -180,13 +167,56 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
       expect(overlap.height).toBeGreaterThan(8)
       expect(overlap.pane).toBe(true)
     } else expect(overlap.width, "the tablet article fits beside the pane").toBeLessThanOrEqual(0)
-    expect(Math.abs(await line() - lineBefore), "the line holds while the pane is open").toBeLessThanOrEqual(8)
     await closePane(page, j)
-    if (viewport.width <= 640) expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBe(before)
+    expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop), "the close lands on the place the open left").toBe(before)
     // Reading here is the prose interaction (D-338 retired Focus, which set reading intent).
     expect(await page.evaluate(() => ({ reading: !!(window as any).__neural._reader.interacting, paused: (window as any).__neural.paused }))).toEqual({ reading: true, paused: true })
   })
 }
+
+// v1.249.2 (pane-hold-* in tests/artifacts/article_sections_mutants.mjs). At 768 the pane narrows the article to one lane. The
+// reader holds one line at one height for the whole slide, until its place moves. It used to re-pick a line every pass and
+// take a clamped height as the new place, so a close at the article's end landed 179-333px away on all six Transitions and
+// Submissions pages measured, and 971px at the landed Mount Top above. Its place survived only on pages that happened not
+// to clamp. The loss is a class, so both a page #339 changed and one it never touched are pinned here, on real content.
+async function articleEnd(page: Page, path: string) {
+  await page.setViewportSize({ width: 768, height: 1024 })
+  const j = journey(page)
+  await j.boot(path, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", r => r.continue()) } })
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await j.readerLayoutSettled()
+  await page.locator("[data-reader-body]").focus()
+  await page.keyboard.press("Control+End")
+  await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
+  return j
+}
+const readerTop = (page: Page) => page.locator("[data-reader]").evaluate(e => e.scrollTop)
+for (const path of ["/Positions/Mount/Top", "/Transitions/50-50-Entry/Attacker"]) {
+  test(`@curated 768px the pane opened and closed at the end of ${path} restores the reader's place`, async ({ page }) => {
+    const j = await articleEnd(page, path)
+    const before = await readerTop(page)
+    await openPane(page, j)
+    expect(await readerTop(page), "premise: the slide moved the reader, so the place was at stake").not.toBe(before)
+    await closePane(page, j)
+    expect(await readerTop(page), "the close lands on the place the open left").toBe(before)
+  })
+}
+test("768px a scroll while the pane is open is the reader's new place, and the close holds that one", async ({ page }) => {
+  const j = await articleEnd(page, "/Transitions/50-50-Entry/Attacker")
+  await openPane(page, j)
+  const held = await page.locator("[data-reader]").evaluate(e => {
+    e.scrollTop = Math.round(e.scrollTop * .4)
+    return new Promise<number>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
+      const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
+      const line = [...r.articleEl.querySelectorAll("p,li")].find((x: Element) => x.getBoundingClientRect().top >= top)!
+      line.setAttribute("data-test-line", "")
+      done(line.getBoundingClientRect().top - top)
+    })))
+  })
+  await closePane(page, j)
+  const now = await page.locator("[data-reader]").evaluate(e => e.querySelector("[data-test-line]")!.getBoundingClientRect().top - e.getBoundingClientRect().top)
+  expect(Math.abs(now - held), `the new line keeps its place (${held} -> ${now})`).toBeLessThanOrEqual(8)
+})
 
 test("@curated exposed cards, videos and reading take real mouse input while the pane is open", async ({ page }) => {
   await page.setViewportSize({ width: 1024, height: 900 })

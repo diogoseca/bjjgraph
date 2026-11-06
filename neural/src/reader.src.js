@@ -50,7 +50,7 @@ const SECTION_IDS = Object.fromEntries(Object.entries({
   "statistics": "position-metrics",
   "progress": "progress-markers",
   "integration": "position-integration",
-  "related": "related related-content related-positions related-submissions related-techniques related-systems techniques from-positions",
+  "related": "related related-content related-positions related-submissions related-techniques techniques from-positions",
 }).flatMap(([type, ids]) => ids.split(" ").map(id => [id, type])));
 for (const type of "favorable-outcomes role-comparison top-summary bottom-summary attacker-summary defender-summary sources".split(" ")) SECTION_IDS[type] = type;
 const SECTION_ORDER = ["videos", "overview", "principles", "recognition", "setup", "prerequisites", "options", "safety", "mistakes"];
@@ -69,6 +69,8 @@ function faces(type, title) {
   return [close, label];
 }
 
+// Eleven call sites; the bundle shortens locals but keeps a property name whole, and the deferred cap is exact.
+const listen = (el, ...args) => el.addEventListener(...args);
 function element(tag, attrs = {}, text = "") {
   const node = document.createElement(tag);
   for (const [key, value] of Object.entries(attrs)) node.setAttribute(key, value);
@@ -78,7 +80,7 @@ function element(tag, attrs = {}, text = "") {
 function button(label, action, attrs = {}) {
   const node = element("button", { type: "button", ...attrs }, label);
   node.style.pointerEvents = "auto";
-  node.addEventListener("click", (event) => { event.stopPropagation(); action(event); });
+  listen(node, "click", (event) => { event.stopPropagation(); action(event); });
   return node;
 }
 
@@ -215,7 +217,7 @@ class Reader {
     this.sections = [];
     app.wrapRef.current.append(this.root);
     for (const type of ["wheel", "touchstart", "pointerdown", "focusin"]) {
-      this.root.addEventListener(type, (event) => {
+      listen(this.root, type, (event) => {
         // Paging can replace the target before this event bubbles. Its original
         // path still identifies game input, even after that target is detached.
         // The Videos section lives in the game flow (D-338) but is reading, not play.
@@ -226,15 +228,15 @@ class Reader {
         event.stopPropagation();
       }, { passive: true });
     }
-    this.root.addEventListener("keydown", (event) => {
+    listen(this.root, "keydown", (event) => {
       if (event.key !== "Escape" && !this.gameInput(event)) { this.readingInteraction(); event.stopPropagation(); }
     });
-    this.root.addEventListener("click", (event) => this.link(event));
+    listen(this.root, "click", (event) => this.link(event));
     // The reader's place survives the browser's clamp. When the scrollport grows for a moment (the
     // pane opening moves the bottom reservation) the shorter maximum clamps scrollTop to the new end;
     // that scroll is not the reader's, so the place is kept and layoutNow restores it once the
     // document allows. Any other scroll, the reader's own or a deliberate write, is the new place.
-    this.root.addEventListener("scroll", () => {
+    listen(this.root, "scroll", () => {
       const r = this.root, end = r.scrollHeight - r.clientHeight;
       if (!(r.scrollTop >= end - 1 && r.scrollTop < this.placeTop)) this.placeTop = r.scrollTop;
       this.layout();
@@ -448,11 +450,11 @@ class Reader {
     // Ambient state (z:6), outside the native scrollport. Its inline hit surface
     // is named separately in attachInput: pointerdown must not capture the wrap.
     contents.style.pointerEvents = "auto";
-    contents.addEventListener("click", event => this.link(event));
-    for (const type of ["wheel", "touchstart", "focusin"]) contents.addEventListener(type, event => {
+    listen(contents, "click", event => this.link(event));
+    for (const type of ["wheel", "touchstart", "focusin"]) listen(contents, type, event => {
       this.readingInteraction(); event.stopPropagation();
     }, { passive: true });
-    contents.addEventListener("keydown", event => { if (event.key !== "Escape") event.stopPropagation(); });
+    listen(contents, "keydown", event => { if (event.key !== "Escape") event.stopPropagation(); });
     const hit = this.app._nodeAndRoleForPath(path), node = this.app.nodes[hit.idx];
     const indexTitle = element("h2", {}, title);
     if (node) {
@@ -708,7 +710,7 @@ class Reader {
     if (type === "pointerdown") {
       this.selecting = true;
       this.selectionEnd = () => { this.selecting = false; if (!this.app.__ngDestroyed) this.sync(); };
-      document.addEventListener("pointerup", this.selectionEnd, { once: true });
+      listen(document, "pointerup", this.selectionEnd, { once: true });
     }
     this.sync();
   }
@@ -754,8 +756,8 @@ class Reader {
       this.dock = this.app._layerDockEl = element("nav", { class: "ng-reader-shelf", "data-layer-dock": "1", "aria-label": "Reading and game parts" });
       this.dock.style.pointerEvents = "auto";
       this.app.wrapRef.current.append(this.dock);
-      this.dock.addEventListener("pointerdown", (e) => e.stopPropagation());
-      this.dock.addEventListener("keydown", (e) => e.stopPropagation());
+      listen(this.dock, "pointerdown", (e) => e.stopPropagation());
+      listen(this.dock, "keydown", (e) => e.stopPropagation());
       this.resize.observe(this.dock);
     }
     const state = PARTS.map(([part]) => this.on(part)).join();
@@ -1087,7 +1089,13 @@ class Reader {
       // stage (node band, Moves, question) owns the top and holds still, as on dev, when the pane opens,
       // the window narrows or a phone turns. A hidden article resets the width to NaN, so reopening
       // restores bookScroll without anchoring against a layout that was never shown.
-      keep = this.gridW - (this.gridW = available ? grid : NaN) && art.getBoundingClientRect().top < top && [...art.querySelectorAll("p,li")].find(e => (was = e.getBoundingClientRect().top) >= top);
+      // v1.249.2: one line, at one height, for a whole pane slide, until the reader's place moves (placeTop survives the
+      // browser's clamp and any real scroll overwrites it). A slide is many passes, and a lane change does two things to a
+      // re-picked line: it reorders which line comes first, and it can shorten the document so scrollTop clamps. A pass
+      // then took the clamped height as the new place and the close landed elsewhere: 179-333px at the end of Transitions
+      // and Submissions at 768, 971px at a landed Mount Top.
+      keep = this.gridW - (this.gridW = available ? grid : NaN) && art.getBoundingClientRect().top < top && (this.placeTop === this.heldAt && this.held?.isConnected
+        ? (was = this.heldY, this.held) : [...art.querySelectorAll("p,li")].find(e => (was = this.heldY = e.getBoundingClientRect().top) >= top));
       style(art, "--article-width", grid);
       if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");
       // U59 c (owner): every desktop row holds two open sections side by side, in source order, so
@@ -1299,7 +1307,7 @@ class Reader {
       if (keep) {
         was = keep.getBoundingClientRect().top - was + (this.rest || 0);
         this.rest = was - (was = Math.round(was));
-        this.placeTop = root.scrollTop += was;
+        this.held = keep; this.heldAt = this.placeTop = root.scrollTop += was;
       }
       this.laying = false;
     }
