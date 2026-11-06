@@ -100,8 +100,8 @@ const mutants = [
   ['aria-control-broken', sections, 'contents and header targets at 390x844', s => replace(s, '"data-section-toggle": group.type, "aria-controls": id + "-body"', '"data-section-toggle": group.type, "aria-controls": id + "-missing"')],
   ['game-label-control-broken', sections, 'D-338 1440px', s => replace(s, '"data-game-open": part, "aria-controls": id + "-body"', '"data-game-open": part, "aria-controls": id + "-missing"')],
   ['late-game-control-target', sections, 'late question backfill', s => replace(replace(s,
-    'else { body.hidden = !shown; body.inert = !shown; (shown ? open : closed).push(s); }',
-    'else { body.hidden = !shown; body.inert = !shown; (shown ? open : closed).push(s); } if (s.part && body) body.id = s.id + "-body";'),
+    '(shown ? open : s.more ? [] : closed).push(s); }',
+    '(shown ? open : s.more ? [] : closed).push(s); } if (s.part && body) body.id = s.id + "-body";'),
     'if (key === "card" || key === "hand") el.id = "reader-" + key + "-body";', '/* mutant: only the old sync binds the body */')],
   ['phone-contents', sections, 'contents and header targets at 390x844', s => replace(s, '|| !fits;', '|| false;')],
   ['label-toggles', sections, 'contents and header targets at 1366x768', s => replace(s, 'else if (section) this.scrollTo(section.card, section.toggle);', 'else if (section) { this.toggleSection(section.type); this.scrollTo(section.card, section.toggle); }')],
@@ -209,15 +209,15 @@ const mutants = [
   ['wikilink-printed', 'article-order.spec.ts', 'a position reads in the owner', s => replace(s, 'if (type === "confused") n.innerHTML = n.innerHTML.replace(/\\[\\[.*?\\|(.*?)]]/, "$1");', '')],
   // U101 b and U102 a replaced the numbered tiles, so these three pinned a rule he retired: overview-index-rows went with `more`;
   // overview-one-wall and overview-loses-text now break the opening and the words instead.
-  ['overview-one-wall', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, 'const wall = buckets.get(position && "overview")?.parts[0].node', 'const wall = null')],
+  ['overview-one-wall', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, 'of position && buckets.get("overview")?.parts || [])', 'of [])')],
   ['read-more-open', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, 'more = element("details", { class: "ng-rm" });', 'more = element("details", { class: "ng-rm", open: "" });')],
   ['overview-loses-text', 'article-order.spec.ts', 'New-York/Bottom: one tile named How it works', s => replace(s, 'more.append(...paragraphs.slice(1));', 'paragraphs.slice(1).forEach(p => p.remove());')],
   ['read-more-sentence-lost', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, 'rest.innerHTML = html.slice(lead.length);', 'rest.innerHTML = html.slice(lead.length + 60);')],
   ['label-reverted', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, '["overview", "How it works"]', '["overview", "Overview"]')],
   ['label-hub-reverted', 'article-order.spec.ts', 'Positions/Mount: the seats take', s => replace(s, '"From the top"', '"Top overview"')],
   ['label-shared-reverted', 'article-order.spec.ts', 'Transitions/Knee-Slice-Pass: the seats take', s => replace(s, '"For both sides"', '"Shared overview"')],
-  // parts.at(-1): a transition's first part is the leading note, so `position` alone removed changes nothing there (it survived).
-  ['read-more-everywhere', 'article-order.spec.ts', 'every other page keeps', s => replace(s, 'buckets.get(position && "overview")?.parts[0].node', 'buckets.get("overview")?.parts.at(-1).node')],
+  // Past the source-id filter since U103 a: `position` alone removed now reaches a transition's own overview section.
+  ['read-more-everywhere', 'article-order.spec.ts', 'every other page keeps', s => replace(s, 'of position && buckets.get("overview")?.parts || [])', 'of buckets.get("overview")?.parts || [])')],
   ['read-more-global-css', 'article-order.spec.ts', 'own disclosures keep their summaries', s => s, css => replace(css, '.ng-rm[open]>summary{display:none}', 'article [open]>summary{display:none}')],
   ['read-more-stays', 'article-dashboard.spec.ts', 'Read more on /Positions/Mount/Top opens in place', s => s, css => replace(css, '.ng-rm[open]>summary{display:none}', '')],
   ['read-more-no-grow', 'article-dashboard.spec.ts', 'Read more on /Positions/Mount/Top opens in place', s => s, css => css + '\n.ng-rm>:not(summary){display:none!important}\n'],
@@ -236,12 +236,12 @@ const mutants = [
   ['relations-label-unscoped', 'article-order.spec.ts', 'a transition keeps the words', s => s, css => replace(css, 'article>:is(.also-known-as,.often-confused-with)>em{display:none}', ':is(.also-known-as,.often-confused-with)>em{display:none}')],
   ['relations-label-shown', 'article-order.spec.ts', 'a position reads in the owner', s => s, css => replace(css, 'article>:is(.also-known-as,.often-confused-with)>em{display:none}', '')],
   // v1.249.2: the reader holds one line at one height through a pane's slide, until its place moves.
-  ['pane-hold-rechosen', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
+  ['pane-hold-rechosen', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'false')],
   ['pane-open-hold-lost', 'pane-layout.spec.ts', '768px the line holds while the pane is open, mid-article', s => replace(s, 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && ', 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && false && ')],
-  ['pane-hold-rechosen-mount', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
+  ['pane-hold-rechosen-mount', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'false')],
   ['pane-hold-height-lost', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, '(was = this.heldY, this.held)', '(was = this.held.getBoundingClientRect().top, this.held)')],
-  ['pane-hold-keyed-on-scroll', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'root.scrollTop === this.heldAt && this.held?.isConnected')],
-  ['pane-hold-survives-scroll', 'pane-layout.spec.ts', 'a scroll while the pane is open', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'this.held?.isConnected')],
+  ['pane-hold-keyed-on-scroll', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'root.scrollTop === this.heldAt && this.held?.offsetWidth')],
+  ['pane-hold-survives-scroll', 'pane-layout.spec.ts', 'a scroll while the pane is open', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'this.held?.offsetWidth')],
   ['d338-clamped-place-lost', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '      if (this.placeTop > root.scrollTop) root.scrollTop = this.placeTop;\n', '')],
   // The clamp guard back as #340 wrote it: a 1px tick from the end reads as the browser's clamp.
   ['place-end-tick', 'pane-layout.spec.ts', 'one-pixel scroll up', s => replace(s, 'r.scrollTop >= end - 1 && this.placeTop > end + 1', 'r.scrollTop >= end - 1 && r.scrollTop < this.placeTop')],
@@ -375,7 +375,10 @@ const mutants = [
   ['training-on-principles', 'article-order.spec.ts', 'U100 a a Principle keeps', s => replace(s, '(transition || submission) && group.type == "training"', '!position && group.type == "training"')],
   ['training-closed-rows', 'article-dashboard.spec.ts', 'U100 a closing Training', s => replace(s, '(shown ? open : s.more ? [] : closed)', '(shown ? open : closed)')],
   ['training-closed-stays', 'article-dashboard.spec.ts', 'U100 a closing Training', s => replace(s, 'if (s.more) s.card.hidden = !shown; ', '')],
-  ['training-index-first', 'article-dashboard.spec.ts', 'U100 a the index row follows', s => replace(s, '[...this.sections.filter(x => x.type == s.type).map(x => x.card), s.type === "videos"', '[s.card, s.type === "videos"')],
+  ['training-index-first', 'article-dashboard.spec.ts', 'U100 a the index row follows', s => replace(s, '[...this.sections.filter(x => x.title == s.title).map(x => x.card), s.type === "videos"', '[s.card, s.type === "videos"')],
+  // #345's review: the row by type lights all 8 of /Systems's `additional` rows together, and the hold keeps a closed line.
+  ['index-row-by-type', 'article-dashboard.spec.ts', 'the index follows each section of /Systems', s => replace(s, 'this.sections.filter(x => x.title == s.title)', 'this.sections.filter(x => x.type == s.type)')],
+  ['hold-closed-line', 'article-dashboard.spec.ts', 'a held line whose tile closes', s => replace(s, 'this.held?.offsetWidth', 'this.held?.isConnected')],
   // U103 a: Read more on a hub, both text sections.
   ['hub-first-section-only', 'article-order.spec.ts', 'U103 a /Positions/Mount:', s => replace(s, 'if (wall.dataset?.sourceId == "overview") {', 'if (wall.dataset?.sourceId == "overview" && !buckets.done && (buckets.done = 1)) {')],
   ['hub-parts-first', 'article-order.spec.ts', 'U103 a /Positions/Mount:', s => replace(s, 'of position && buckets.get("overview")?.parts || []) if (wall.dataset?.sourceId == "overview") {', 'of position && buckets.get("overview")?.parts.slice(0, 1) || []) {')],

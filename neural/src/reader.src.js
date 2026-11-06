@@ -947,7 +947,7 @@ class Reader {
     let best = null, most = 0;
     for (const s of [...this.gameSections, ...this.sections]) {
       if (!s.row) continue;
-      const parts = s.part ? [this.partEl(s.part), s.card] : [...this.sections.filter(x => x.type == s.type).map(x => x.card), s.type === "videos" && this.media?.parentElement === this.mediaHome ? this.mediaHome : null];
+      const parts = s.part ? [this.partEl(s.part), s.card] : [...this.sections.filter(x => x.title == s.title).map(x => x.card), s.type === "videos" && this.media?.parentElement === this.mediaHome ? this.mediaHome : null];
       let seen = 0;
       for (const el of parts) {
         const r = el?.isConnected && !el.hidden && rect(el);
@@ -1147,11 +1147,13 @@ class Reader {
       // re-picked line: it reorders which line comes first, and it can shorten the document so scrollTop clamps. A pass
       // then took the clamped height as the new place and the close landed elsewhere: 179-333px at the end of Transitions
       // and Submissions at 768, 971px at a landed Mount Top.
+      // v1.251.1: offsetWidth, not isConnected. A closed tile stays connected, so the hold kept a line with no box, read its top as 0,
+      // and threw the reader up by heldY on every pass of the slide (4,345 -> 745 on Knee Slice Pass). It is 0 detached or unrendered.
       // v1.251.0: the columns reflow on the same width change, so the source order no longer runs down the page. The
       // line is the block nearest the reader's top in either column, and a tie stays with the earlier block.
       // v1.251.0 (U97 b): the free width, not the grid's. The grid now stands at 902px through most of a pane slide, while the
       // film still flips from beside the question to under it and grows the stage: 143-168px with no anchor to hold the line.
-      keep = this.gridW - (this.gridW = available ? free.width : NaN) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.isConnected
+      keep = this.gridW - (this.gridW = available ? free.width : NaN) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.offsetWidth
         ? (was = this.heldY, this.held) : (was = 1 / 0, [...art.querySelectorAll("p,li")].reduce((line, e) => { const y = rect(e).top; return y >= top && y < was ? (was = this.heldY = y, e) : line; }, null)));
       style(art, "--article-width", grid);
       // Owner (2026-11-06, replacing U59 c's rows and U65 b's pairing): two columns, "never a big gap following the
